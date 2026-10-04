@@ -1,0 +1,559 @@
+{
+ "narc": "a027",
+ "bank": 156,
+ "source": "work/extract/v4/a027/0156.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "PAIR表彰",
+   "en": "PAIR awards",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 1,
+   "zh": "PHC日记",
+   "en": "PHC diary",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 2,
+   "zh": "无视选择",
+   "en": "Ignore selection",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 3,
+   "zh": "口袋竞技：应用软件",
+   "en": "Pokéathlon: App",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 4,
+   "zh": "PKTHLN校验旗",
+   "en": "PKTHLN check flag",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 5,
+   "zh": "赛场记录",
+   "en": "Course records",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 6,
+   "zh": "精灵记录",
+   "en": "Pokémon records",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 7,
+   "zh": "项目记录",
+   "en": "Event records",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 8,
+   "zh": "训练师记录",
+   "en": "Trainer records",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 9,
+   "zh": "口袋竞技：资料登陆",
+   "en": "Pokéathlon: Data entry",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 10,
+   "zh": "竞技资料生成",
+   "en": "Generate event data",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 11,
+   "zh": "下个奖杯GET：口袋",
+   "en": "Next trophy GET: Poké",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 12,
+   "zh": "房间2 OPEN",
+   "en": "Room 2 OPEN",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 13,
+   "zh": "房间3 OPEN",
+   "en": "Room 3 OPEN",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 14,
+   "zh": "房间4 OPEN",
+   "en": "Room 4 OPEN",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 15,
+   "zh": "EventDataDel:单人",
+   "en": "EventDataDel:Single",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 16,
+   "zh": "EventDataDel:通信",
+   "en": "EventDataDel:Link",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 17,
+   "zh": "关闭",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl) | debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 18,
+   "zh": "口袋妖怪",
+   "en": "Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 口袋妖怪 (old name for Pokémon)"
+  },
+  {
+   "id": 19,
+   "zh": "赛场指定",
+   "en": "Set course",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 20,
+   "zh": "竞技记录",
+   "en": "Event records",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 21,
+   "zh": "资料写入",
+   "en": "Write data",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0401:0}",
+   "en": "{VAR:0401:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "Bunus:{VAR:0134:1}",
+   "en": "Bunus:{VAR:0134:1}",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "No:{VAR:0134:0} {VAR:0100:4}",
+   "en": "No:{VAR:0134:0} {VAR:0100:4}",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "Sex:{VAR:0132:1}",
+   "en": "Sex:{VAR:0132:1}",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "Form:{VAR:0133:2}",
+   "en": "Form:{VAR:0133:2}",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "Rare:{VAR:0132:3}",
+   "en": "Rare:{VAR:0132:3}",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0400:0}",
+   "en": "{VAR:0400:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": " record:{VAR:0134:1}",
+   "en": " record:{VAR:0134:1}",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "→：增加{NEWLINE}←：减少{NEWLINE}R推到一边：x10{NEWLINE}L推到一边：x100{NEWLINE}X推到一边：x1000{NEWLINE}Y推到一边：x10000{NEWLINE}A or B：关闭",
+   "en": "→: Increase{NEWLINE}←: Decrease{NEWLINE}Push R aside: x10{NEWLINE}Push L aside: x100{NEWLINE}Push X aside: x1000{NEWLINE}Push Y aside: x10000{NEWLINE}A or B: Close",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RCA-005: zh 推到一边 (push aside) looks like a mistranslation of JP おしながら (while holding); kept as the zh says (D-1195); debug only"
+  },
+  {
+   "id": 31,
+   "zh": "努力奖　指定",
+   "en": "Set effort award",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 32,
+   "zh": "跳跃",
+   "en": "Jump",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s) | debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 33,
+   "zh": "攻击",
+   "en": "ATTACK",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s) | debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 34,
+   "zh": "回避",
+   "en": "Dodge",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 35,
+   "zh": "冲刺",
+   "en": "Dash",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 36,
+   "zh": "默认(随机)",
+   "en": "Default (random)",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 37,
+   "zh": "排位资料设定",
+   "en": "Set ranking data",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 38,
+   "zh": "{VAR:0133:0}",
+   "en": "{VAR:0133:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "项目值:{VAR:0136:2}",
+   "en": "Event value:{VAR:0136:2}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 40,
+   "zh": "single　游玩次数",
+   "en": "Single: times played",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 41,
+   "zh": "single　第一次数",
+   "en": "Single: 1st places",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 42,
+   "zh": "single　末尾次数",
+   "en": "Single: last places",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 43,
+   "zh": "额外奖励获得次数",
+   "en": "Bonuses earned",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 44,
+   "zh": "竞技第一次数",
+   "en": "Event: 1st places",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 45,
+   "zh": "竞技末尾次数",
+   "en": "Event: last places",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 46,
+   "zh": "通信游玩次数",
+   "en": "Link: times played",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 47,
+   "zh": "通信第一次数",
+   "en": "Link: 1st places",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 48,
+   "zh": "通信末尾次数",
+   "en": "Link: last places",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 49,
+   "zh": "粉丝数",
+   "en": "Fans",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 50,
+   "zh": "跨栏第一次数",
+   "en": "Hurdle Dash 1st places",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 51,
+   "zh": "抢旗第一次数",
+   "en": "Pennant Capture 1st places",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 52,
+   "zh": "抢位置第一次数",
+   "en": "Circle Push 1st places",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 53,
+   "zh": "劈石板第一次数",
+   "en": "Block Smash 1st places",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 54,
+   "zh": "抢飞碟第一次数",
+   "en": "Disc Catch 1st places",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 55,
+   "zh": "蹦床第一次数",
+   "en": "Lamp Jump 1st places",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 56,
+   "zh": "赛跑第一次数",
+   "en": "Relay Run 1st places",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 57,
+   "zh": "撞人第一次数",
+   "en": "Ring Drop 1st places",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 58,
+   "zh": "扔雪球第一次数",
+   "en": "Snow Throw 1st places",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 59,
+   "zh": "足球第一次数",
+   "en": "Goal Roll 1st places",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 60,
+   "zh": "精灵接触次数",
+   "en": "Pokémon touches",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 61,
+   "zh": "精灵冲刺次数",
+   "en": "Pokémon dashes",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 62,
+   "zh": "精灵跳跃次数",
+   "en": "Pokémon jumps",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 63,
+   "zh": "精灵碰撞次数",
+   "en": "Pokémon tackles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 64,
+   "zh": "精灵交换次数",
+   "en": "Pokémon switches",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 65,
+   "zh": "精灵力尽次数",
+   "en": "Pokémon faints",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 66,
+   "zh": "精灵获得点数",
+   "en": "Pokémon points",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 67,
+   "zh": "精灵失败次数",
+   "en": "Pokémon failures",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  },
+  {
+   "id": 68,
+   "zh": "精灵掉落次数",
+   "en": "Pokémon falls",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (Pokéathlon debug menu)"
+  }
+ ]
+}

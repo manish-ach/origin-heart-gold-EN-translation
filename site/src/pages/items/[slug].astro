@@ -1,0 +1,54 @@
+---
+import FormChanges from '../../components/FormChanges.astro';
+import { formChanges } from '../../lib/verified-mechanics';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { items, areaUrl, url, type Item } from '../../lib/data';
+
+export function getStaticPaths() {
+	return items.map((i) => ({ params: { slug: i.slug }, props: { i } }));
+}
+const { i } = Astro.props as { i: Item };
+const forms = formChanges.filter((f) => f.item === i.id);
+const groups = new Map<string, Item['sources']>();
+for (const s of i.sources) {
+	if (!groups.has(s.kind)) groups.set(s.kind, []);
+	groups.get(s.kind)!.push(s);
+}
+const label: Record<string, string> = {
+	'item ball': 'Item balls on the ground', hidden: 'Hidden items', gift: 'Gifts from people',
+	prize: 'Prizes and menu choices (you get one of several)', 'bought/exchanged': 'Bought or exchanged', shop: 'Shops', automatic: 'Automatic equipment', 'savings reward': 'Savings purchases',
+};
+const money = (n: number) => `$${n.toLocaleString('en-US')}`;
+// The item's price only means something to players as a buy price when a shop sells it; it always sells for half.
+const sold = i.sources.some((s) => s.kind === 'shop');
+const priceLine = i.price ? (sold ? ` · buy for ${money(i.price)}, sells for ${money(Math.floor(i.price / 2))}` : ` · sells for ${money(Math.floor(i.price / 2))}`) : '';
+---
+<StarlightPage frontmatter={{ title: i.name, description: `Where to get ${i.name} in Origin HeartGold.` }}>
+	<p class="small muted">{i.pocket} pocket{priceLine}{i.game ? ` · in-game spelling: ${i.game}` : ''}</p>
+	{i.sources.length === 0 && <p><strong>No source found in the game data.</strong> The search is incomplete, including some automatic rewards and special encounter systems, so it may still be obtainable.</p>}
+	{[...groups].map(([kind, list]) => <>
+		<h2>{label[kind] ?? kind}</h2>
+		<ul>
+			{list.map((s) => (
+				<li>
+					{s.area ? <a href={areaUrl(s.area)}>{s.place}</a> : s.place}{s.tech && <span class="tech" data-pagefind-ignore="all"> ({s.tech})</span>}
+					{s.qty && s.qty > 1 ? ` ×${s.qty}` : ''}
+					{s.near ? ` (${s.near})` : ''}
+					{s.note && <> — {s.note}</>}
+					{s.pay ? (kind === 'bought/exchanged' ? ` (costs ${s.pay})` : ` (${s.pay})`) : ''}
+					{kind === 'shop' && s.price ? ` · ${money(s.price)}` : ''}
+					{(s.quests ?? []).map((q, n) => <>{n === 0 ? ' · see ' : ', '}<a href={url(q.href)}>{q.title}</a></>)}
+				</li>
+			))}
+		</ul>
+	</>)}
+	{forms.length > 0 && <>
+		<h2>Held-item transformation</h2>
+		<FormChanges entries={forms} />
+	</>}
+	{i.neededBy.length > 0 && <>
+		<h2>Used or asked for in</h2>
+		<p>Someone in these places asks for this item or takes it: {i.neededBy.map((n, k) => <>{k > 0 && ', '}{n.area ? <a href={areaUrl(n.area)}>{n.place}</a> : n.place}</>)}.</p>
+	</>}
+	<p><a href={url('/items/')}>← All items</a></p>
+</StarlightPage>

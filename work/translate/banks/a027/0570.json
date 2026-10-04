@@ -1,0 +1,612 @@
+{
+ "narc": "a027",
+ "bank": 570,
+ "source": "work/extract/v4/a027/0570.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "你小子果然来了。{NEWLINE}是为了见首领而来吗？{SCROLL}",
+   "en": "So you came after all, kid. Here to see{NEWLINE}the Chief?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Shipyard Ruins (Three Island): Alto Mare Bikers' base; Chief Paxton (ex-Kanto Speed Alliance). Branches: #17 accept the bribe (#18-#28, leave) vs #29 refuse (gang battle #30-#57); #58/#59 player answers to #8; #4 female / #3 male; #52 male / #57 female."
+  },
+  {
+   "id": 1,
+   "zh": "不是就赶紧离开三之岛,{NEWLINE}不要再出现在我们面前了。",
+   "en": "If not, get off Three Island, and don’t{NEWLINE}show your face around us again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "哼,真有胆量！{SCROLL}我现在就去向首领通报,{NEWLINE}你在这等着吧。",
+   "en": "Hmph, you’ve got guts!{SCROLL}I’ll go tell the Chief right now.{NEWLINE}Wait here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "首领,那小子已经来了。",
+   "en": "Chief, that brat’s here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "首领,那丫头已经来了。",
+   "en": "Chief, that girl’s here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "知道了,按计划行事。",
+   "en": "Got it. Stick to the plan.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "是。",
+   "en": "Yes, sir.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "你过来吧,首领要见你。",
+   "en": "Come over here. The Chief wants to{NEWLINE}see you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "好久不见啊,您还记得我吗？{SCROLL}",
+   "en": "Long time no see. Do you remember me?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "李狗蛋是谁啊！{SCROLL}我是曾经活跃在关东自行车道的{NEWLINE}「关东急速联盟」的首领啊！",
+   "en": "Who the hell is Joe Schmo?!{SCROLL}I’m the leader of the Kanto Speed{NEWLINE}Alliance, who used to rule the Cycling{CLEAR}Road in Kanto!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "李狗蛋 (a stock hick name, 'Dog Egg Li') rendered as the English stock name Joe Schmo; the player calls him that in #59."
+  },
+  {
+   "id": 10,
+   "zh": "真亏您过了这么久还能记得我。{NEWLINE}没错,我就是「关东急速联盟」的首领。",
+   "en": "I’m impressed you still remember me{NEWLINE}after all this time. That’s right, I’m{CLEAR}the leader of the Kanto Speed Alliance.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "上次见面的时候{NEWLINE}您还是个名不见经传的训练家,{CLEAR}没想到现在都成为联盟冠军了。",
+   "en": "When we last met, you were a Trainer{NEWLINE}nobody had ever heard of. Who’d have{CLEAR}thought you’d be the League{CLEAR}Champion now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "我去！这人还真是联盟冠军啊……",
+   "en": "Holy crap! This kid really is the{NEWLINE}League Champion...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0103:0}『我今天不是来聊这些的。{NEWLINE}你们现在霸占着三之岛,{CLEAR}严重阻碍了人家重建小岛。{CLEAR}请立即停止这样的行为。",
+   "en": "{VAR:0103:0}: I’m not here to chat about{NEWLINE}that. You’re hogging Three Island right{CLEAR}now, and you’re seriously getting in the{CLEAR}way of rebuilding it. Stop it at once.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}『少在这拐弯抹角了！{NEWLINE}你们当时霸占自行车路,{CLEAR}被我赶跑后又来霸占三之岛。{CLEAR}如果你知道错了,{CLEAR}就马上终止你们的行为,{CLEAR}让人家工程师来重建小岛。",
+   "en": "{VAR:0103:0}: Quit beating around the bush!{NEWLINE}Back then, you hogged the Cycling Road.{CLEAR}After I ran you off, you came and{CLEAR}hogged Three Island. If you know{CLEAR}you’re in the wrong, stop right now and{CLEAR}let the engineer rebuild the island.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "我们只是想有一片{NEWLINE}能够自由骑行的独立天地。{CLEAR}你已经天下无敌了,{CLEAR}何必在意我们这些小人物的事呢！",
+   "en": "All we want is a world of our own where{NEWLINE}we can ride free. You’re already{CLEAR}unbeatable. Why bother with small fry{CLEAR}like us?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0103:0}『这跟我是不是冠军没关系,{NEWLINE}你也不要凡事都扯到自由上,{CLEAR}立即停止你们这种霸占行为吧！",
+   "en": "{VAR:0103:0}: This has nothing to do with{NEWLINE}whether I’m the Champion. And don’t{CLEAR}drag freedom into everything. Stop{CLEAR}taking over this island right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "别这么说呀,我们「水都暴走族」{NEWLINE}还没有好好祝贺过您成为冠军,{CLEAR}这是我们的不对。{CLEAR}刚才我已经为您准备了一个红包,{CLEAR}请您务必收下。{SCROLL}要收下暴走族的红包吗？{SCROLL}",
+   "en": "Don’t be like that. We, the Alto Mare{NEWLINE}Bikers, never properly congratulated{CLEAR}you on becoming Champion. That was{CLEAR}wrong of us. I’ve got a red envelope{CLEAR}ready for you. Please, I insist you{CLEAR}take it.{SCROLL}Accept the bikers’ red envelope?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "嘿嘿您收好。",
+   "en": "Heh heh. Here you go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "从暴走族那得到了二十万元！",
+   "en": "Received $200,000 from the bikers!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "number_missing"
+   ]
+  },
+  {
+   "id": 20,
+   "zh": "您身为冠军来到水都群岛{NEWLINE}应当多逛一逛放松一下,{CLEAR}不要总是忙工作,{CLEAR}身体要紧呀,您说是吧？",
+   "en": "You’re the Champion, and you came all{NEWLINE}the way to the Alto Mare Islands. You{CLEAR}should get out and relax. Don’t work all{CLEAR}the time. Your health comes first, am{CLEAR}I right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0103:0}『还是你能体谅我啊,{NEWLINE}不像某些人,红口白牙一句「拜托」,{CLEAR}就支使着我到处跑。{SCROLL}{VAR:0103:0}『说起来我这次来水都群岛,{NEWLINE}就是为了放松一下旅途中的疲惫。{CLEAR}在这荒废的三之岛呆着也没意思,{CLEAR}我还是去别的景点小岛看看吧。",
+   "en": "{VAR:0103:0}: At least you understand me.{NEWLINE}Not like certain people who just say{CLEAR}‘please’ and send me running all over{CLEAR}the place.{SCROLL}{VAR:0103:0}: Come to think of it, I came to{NEWLINE}the Alto Mare Islands to unwind from my{CLEAR}travels. Hanging around this run-down{CLEAR}Three Island is no fun. I’ll go check{CLEAR}out the other islands instead.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "让您受累了。{NEWLINE}现在水都的涨潮期已经结束,{CLEAR}四五六七这些景点小岛全部同航,{CLEAR}您去这些地方放松一下肯定不错。",
+   "en": "Sorry for all the trouble. High-tide{NEWLINE}season in Alto Mare is over now, and{CLEAR}ferries run to all the tourist islands:{CLEAR}Four, Five, Six and Seven. You’re sure{CLEAR}to enjoy relaxing there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 同航 read as 通航."
+  },
+  {
+   "id": 23,
+   "zh": "{VAR:0103:0}『好的,我这就去看看。",
+   "en": "{VAR:0103:0}: All right. I’ll go take a look.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "兄弟们,为冠军大人列队送行！",
+   "en": "Boys, line up and see the Champion off!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "是,首领！",
+   "en": "Yes, Chief!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "我来为您引路,冠军大人！",
+   "en": "Let me show you the way, Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "我的兄弟们给您添麻烦了,{NEWLINE}我现在要关起门来好好教训一下他们,{CLEAR}所以就不远送您了。{CLEAR}祝您在群岛玩得开心。",
+   "en": "Sorry my boys gave you trouble. I’m{NEWLINE}gonna shut the door and teach them a{CLEAR}proper lesson now, so I won’t see you{CLEAR}out. Have fun in the islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "祝您一路顺风,玩得开心！",
+   "en": "Safe travels, and have fun!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0103:0}『你休想拿金钱收买我！{NEWLINE}无论你们愿不愿意,{CLEAR}今天必须放弃独占三之岛。",
+   "en": "{VAR:0103:0}: Don’t think you can buy me{NEWLINE}off! Like it or not, you’re giving up{CLEAR}your hold on Three Island today.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "看来你是不打算放我们一马了。{NEWLINE}既然如此就别怪我们不客气了。{SCROLL}兄弟们,动手！",
+   "en": "Looks like you’re not gonna cut us any{NEWLINE}slack. In that case, don’t blame us for{CLEAR}what happens next.{SCROLL}Boys, get ’em!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "哼哼,你是单挑规则的冠军,{NEWLINE}群殴的话未必就能赢过我们这么多人。{CLEAR}给我上！",
+   "en": "Heh heh. You’re the champion of{NEWLINE}one-on-one rules. In a gang fight, you{CLEAR}won’t necessarily beat this many of us.{CLEAR}Get ’em!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "让你看看暴走族精英的愤怒！",
+   "en": "Feel the rage of the Biker elite!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "呃……我们不行了……",
+   "en": "Ugh... We’re done for...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "别得意,还有我们呢！",
+   "en": "Don’t get cocky. You’ve still got us to{NEWLINE}deal with!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "我们也不行了……",
+   "en": "We’re done for too...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "哼,还没完！",
+   "en": "Hmph, it’s not over yet!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "首领……我也不行了……",
+   "en": "Chief... I’m done for too...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "没关系,还在我的计划之中。",
+   "en": "No matter. It’s all part of my plan.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "你们两个给我上！",
+   "en": "You two, get in there!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "首领……我们也顶不住了。",
+   "en": "Chief... We can’t hold out either.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "没关系,对战联盟冠军{NEWLINE}能到这个程度很不错了。",
+   "en": "No matter. Getting this far against the{NEWLINE}League Champion is pretty good.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "没想到要跟联盟冠军对战,{NEWLINE}真是最坏的结果。{CLEAR}不过为了我们暴走族的领地,{CLEAR}今天你必须败在这里！",
+   "en": "Having to battle the League Champion is{NEWLINE}the worst possible outcome. But for our{CLEAR}bikers’ turf, you’re going down right{CLEAR}here, today!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "服了……这么多人都拿不下你。{SCROLL}我们真不该向{NEWLINE}精灵联盟的最高战力挑战,{CLEAR}真的是太蠢了……",
+   "en": "I give up... All of us together couldn’t{NEWLINE}take you down.{SCROLL}We never should have challenged the{NEWLINE}Pokémon League’s top fighter. That was{CLEAR}just plain stupid...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0103:0}『既然如此,{NEWLINE}你们可以放弃独占三之岛了吧。",
+   "en": "{VAR:0103:0}: In that case, you’ll give up{NEWLINE}your hold on Three Island, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "哼,被你打得一败涂地,{NEWLINE}我哪里还敢继续留在这里。",
+   "en": "Hmph. After a beating like that, how{NEWLINE}could I dare stay here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "水都暴走族的兄弟们,{NEWLINE}人家联盟冠军要赶咱们走,{CLEAR}我保护不了大家,只能放弃三之岛了。{CLEAR}愿意跟我走的兄弟们请随我来,{CLEAR}咱们到别处去重建暴走族的荣光！",
+   "en": "Brothers of the Alto Mare Bikers, the{NEWLINE}League Champion wants us gone. I can’t{CLEAR}protect you all, so I have to give up{CLEAR}Three Island. Any of you who wants to{CLEAR}come with me, follow me. We’ll go rebuild{CLEAR}the glory of the bikers somewhere else!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "我们永远追随首领！",
+   "en": "We’ll follow you forever, Chief!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "你打算怎么办？{NEWLINE}今天咱们可是得罪了联盟冠军啊……",
+   "en": "What are you gonna do? We made an{NEWLINE}enemy of the League Champion today...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "我是土生土长的三之岛人,{NEWLINE}既然有人想重建三之岛,{CLEAR}留下来帮忙或许也不错。",
+   "en": "I was born and raised on Three Island.{NEWLINE}Since someone wants to rebuild it, maybe{CLEAR}staying to help isn’t so bad.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "你的心可真大,{NEWLINE}得罪了冠军可不是闹着玩的。{CLEAR}我要开溜了！",
+   "en": "You’re way too relaxed about this.{NEWLINE}Crossing the Champion is no joke. I’m{CLEAR}outta here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "仔细想想我一个不会骑车的人,{NEWLINE}跟暴走族混在一起确实很奇怪。{CLEAR}我当时加入暴走族占据三之岛,{CLEAR}是想守护我的家乡。{CLEAR}如今有人愿意重建荒废的三之岛,{CLEAR}我必须要留下来出一份力。{SCROLL}谢谢你给了三之岛重获新生的机会。",
+   "en": "When I think about it, someone who{NEWLINE}can’t ride a bike hanging out with a{CLEAR}biker gang really is weird. I joined the{CLEAR}bikers and took over Three Island{CLEAR}because I wanted to protect my home.{CLEAR}Now that someone’s willing to rebuild{CLEAR}this abandoned island, I have to stay{CLEAR}and do my part.{SCROLL}Thank you for giving Three Island a{NEWLINE}chance at a new life.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "可是首领……{NEWLINE}我觉得冠军先生说的也没有错,{CLEAR}开放三之岛大家一起来建设,{CLEAR}一定能让这里变得更好的。",
+   "en": "But Chief... I think the Champion’s{NEWLINE}right. If we open up Three Island and{CLEAR}everyone builds it together, it’s sure{CLEAR}to become a better place.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "好啊你,临阵倒戈,我真是看走了眼！",
+   "en": "Well, look at you, switching sides{NEWLINE}mid-fight! I really misjudged you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "阿道,你来助我一臂之力。",
+   "en": "Doyle, lend me a hand.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "跟你对战真是最坏的结果,{NEWLINE}不过为了我们暴走族的领地,{CLEAR}今天你必须败在这里！",
+   "en": "Battling you is the worst possible{NEWLINE}outcome. But for our bikers’ turf,{CLEAR}you’re going down right here, today!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "咳咳……首领……我不行了……",
+   "en": "Cough, cough... Chief... I’m done for...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "可是首领……{NEWLINE}我觉得冠军小姐说的也没有错,{CLEAR}开放三之岛大家一起来建设,{CLEAR}一定能让这里变得更好的。",
+   "en": "But Chief... I think the Champion’s{NEWLINE}right. If we open up Three Island and{CLEAR}everyone builds it together, it’s sure{CLEAR}to become a better place.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "你是自行车道的那个人！",
+   "en": "You’re that Cycling Road guy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'You’re the guy from the Cycling Road!'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 59,
+   "zh": "你是李狗蛋！",
+   "en": "You’re Joe Schmo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 60,
+   "zh": "咳咳……淡定淡定……",
+   "en": "Ahem, ahem... Stay calm, stay calm...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "居然闯到我们大本营来了,{NEWLINE}真有你的啊。",
+   "en": "You barged right into our{NEWLINE}headquarters. You’ve got some nerve.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "首领正在里面等着你呢。",
+   "en": "The Chief’s waiting for you inside.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "其实大姐大不会骑车的事{NEWLINE}我们早就知道了,{CLEAR}有的人挺鄙视她,但我觉得无所谓。",
+   "en": "Actually, we’ve known for ages that Big{NEWLINE}Sis can’t ride a bike. Some guys look{CLEAR}down on her, but I don’t care.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "其实你就是联盟冠军吧。{NEWLINE}实话说,这里的事跟我没有关系,{CLEAR}我只是被暴走族强行拉进了组织,{CLEAR}你有事找他们吧,千万别找我。",
+   "en": "You’re the League Champion, aren’t{NEWLINE}you? Honestly, this has nothing to do{CLEAR}with me. The bikers just dragged me into{CLEAR}the gang. If you’ve got business, take{CLEAR}it up with them. Leave me out of it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "欢迎来到造船厂遗址。{NEWLINE}这里全面向游客开放,{CLEAR}您可以自行参观。",
+   "en": "Welcome to the Shipyard Ruins. The{NEWLINE}whole site is open to tourists. Feel{CLEAR}free to look around.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "这间工厂是群岛造船史的见证者,{NEWLINE}赤红的铁锈下尘封着的{CLEAR}是群岛人曾经的工业荣光。{SCROLL}如今,自强不息的群岛人用勤劳的双手{NEWLINE}除去了机器上的斑斑锈迹,{CLEAR}把往日的繁华喧嚣重新带回了这里！",
+   "en": "This factory bears witness to the{NEWLINE}shipbuilding history of the islands.{CLEAR}Under the red rust lies the islanders’{CLEAR}industrial glory of years gone by.{SCROLL}Now the tireless islanders have{NEWLINE}scrubbed the rust from the machines{CLEAR}with their own hardworking hands, and{CLEAR}brought the bustle of the old days back{CLEAR}to this place!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "这种由旧工厂改造而成的景区,{NEWLINE}充满了LOFT建筑的感觉呢。",
+   "en": "A tourist spot converted from an old{NEWLINE}factory like this has a real{CLEAR}loft-style feel.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "本来我跟女朋友{NEWLINE}是冲着群岛的自然风光而来的,{CLEAR}没想到这造船遗址景区也挺有风味。",
+   "en": "My girlfriend and I came for the natural{NEWLINE}scenery of the islands, but this{CLEAR}shipyard ruins attraction turned out to{CLEAR}have a lot of charm too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "我曾经是这间造船厂的会计,{NEWLINE}当年造船工业搬走时,{CLEAR}我还以为这里就彻底荒废掉了,{CLEAR}没想到竟然被有心人给改造成了景区。{CLEAR}能看到这里重获新生{CLEAR}我的心里深感欣慰。",
+   "en": "I used to be an accountant at this{NEWLINE}shipyard. When the shipbuilding industry{CLEAR}moved away, I thought this place would{CLEAR}be abandoned for good. I never imagined{CLEAR}someone would care enough to turn it{CLEAR}into a tourist spot. Seeing it come back{CLEAR}to life warms my heart.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "哇,这里有许多绝版了的老机器！{NEWLINE}我以前只在教科书上看过,{CLEAR}没想到这里竟然有实物。",
+   "en": "Wow, there are lots of old machines{NEWLINE}here that aren’t made anymore! I’d{CLEAR}only seen them in textbooks. I can’t{CLEAR}believe the real things are here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "牌子上的字迹已经很模糊了,{NEWLINE}似乎是写着安全生产注意事项。",
+   "en": "The writing on the sign is badly faded.{NEWLINE}It seems to be workplace safety rules.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "三之岛的主人现在是{NEWLINE}伟大的水都暴走族首领——英家",
+   "en": "The master of Three Island is now the{NEWLINE}great Paxton, Chief of the Alto{CLEAR}Mare Bikers",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "游客须知：这里的建筑、机械{NEWLINE}都是不可复制的历史遗产,{CLEAR}请珍惜爱护。",
+   "en": "Notice to visitors: The buildings and{NEWLINE}machines here are irreplaceable{CLEAR}historical heritage. Please treat them{CLEAR}with care.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "船的发明拉进了各个地区之间的距离,{NEWLINE}带来文明交流的同时,{CLEAR}也给了一些强盗集团四处抢劫的机会。{CLEAR}拉帝欧斯和拉帝亚斯的传说中,{CLEAR}那些入侵水都群岛的强盗,{CLEAR}就是坐着古老的船只而来的。",
+   "en": "The invention of ships brought the{NEWLINE}regions closer together. Along with the{CLEAR}exchange of cultures, it also gave some{CLEAR}bandit gangs the chance to plunder far{CLEAR}and wide. In the legend of Latios and{CLEAR}Latias, the bandits who invaded the Alto{CLEAR}Mare Islands came in ancient ships.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 拉进 read as 拉近."
+  }
+ ]
+}

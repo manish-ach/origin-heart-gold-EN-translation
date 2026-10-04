@@ -1,0 +1,383 @@
+{
+ "narc": "a027",
+ "bank": 149,
+ "source": "work/extract/v4/a027/0149.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "技能追加效果一定　关",
+   "en": "Force secondary effects OFF",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0151/0 | debug/unused (battle debug menu); ext-review RCA-006"
+  },
+  {
+   "id": 1,
+   "zh": "技能追加效果一定　开",
+   "en": "Force secondary effects ON",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0151/1 | debug/unused (battle debug menu); ext-review RCA-006"
+  },
+  {
+   "id": 2,
+   "zh": "特性发动一定　关",
+   "en": "Force Ability activation OFF",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0151/2 | debug/unused (battle debug menu); ext-review RCA-006"
+  },
+  {
+   "id": 3,
+   "zh": "特性发动一定　开",
+   "en": "Force Ability activation ON",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0151/3 | debug/unused (battle debug menu); ext-review RCA-006"
+  },
+  {
+   "id": 4,
+   "zh": "装备效果一定　关",
+   "en": "Force held-item effects OFF",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0151/4 | debug/unused (battle debug menu); ext-review RCA-006"
+  },
+  {
+   "id": 5,
+   "zh": "装备效果一定　开",
+   "en": "Force held-item effects ON",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0151/5 | debug/unused (battle debug menu); ext-review RCA-006"
+  },
+  {
+   "id": 6,
+   "zh": "伤害随机无　关",
+   "en": "No random damage OFF",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/6 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 7,
+   "zh": "伤害随机无　开",
+   "en": "No random damage ON",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/7 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 8,
+   "zh": "精灵替换制御　关",
+   "en": "Switch Pokémon OFF",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/8 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 9,
+   "zh": "精灵替换制御　开",
+   "en": "Switch Pokémon ON",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/9 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 10,
+   "zh": "聊天顺序固定　关",
+   "en": "Chatter order fixed OFF",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0151/10 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 11,
+   "zh": "聊天顺序固定　１",
+   "en": "Chatter order fixed 1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0151/11 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 12,
+   "zh": "聊天顺序固定　２",
+   "en": "Chatter order fixed 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0151/12 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 13,
+   "zh": "聊天顺序固定　３",
+   "en": "Chatter order fixed 3",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0151/13 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 14,
+   "zh": "要害一定　关",
+   "en": "Force critical hits OFF",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0151/14 | debug/unused (battle debug menu); ext-review RCA-006"
+  },
+  {
+   "id": 15,
+   "zh": "要害一定　开",
+   "en": "Force critical hits ON",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0151/15 | debug/unused (battle debug menu); ext-review RCA-006"
+  },
+  {
+   "id": 16,
+   "zh": "摇指技能指定　关闭",
+   "en": "Metronome OFF",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/16 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 17,
+   "zh": "摇指技能指定　设置",
+   "en": "Set Metronome",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/17 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 18,
+   "zh": "摇指技能指定　范围",
+   "en": "Set Metronome range",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/18 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 19,
+   "zh": "剩余记忆",
+   "en": "Memory left",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/19 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 20,
+   "zh": "→",
+   "en": "→",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 21,
+   "zh": "Ａ",
+   "en": "A",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 22,
+   "zh": "Ｂ",
+   "en": "B",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 23,
+   "zh": "Ａ",
+   "en": "A",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 24,
+   "zh": "Ｂ",
+   "en": "B",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 25,
+   "zh": "Ｃ",
+   "en": "C",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 26,
+   "zh": "Ｄ",
+   "en": "D",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 27,
+   "zh": "物攻",
+   "en": "Attack",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/27 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 28,
+   "zh": "物防",
+   "en": "Defense",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/28 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 29,
+   "zh": "速度",
+   "en": "Speed",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/29 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 30,
+   "zh": "特攻",
+   "en": "Sp. Attack",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/30 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 31,
+   "zh": "特防",
+   "en": "Sp. Defense",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/31 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 32,
+   "zh": "命中",
+   "en": "Accuracy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/32 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 33,
+   "zh": "回避",
+   "en": "Evasiveness",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 34,
+   "zh": "指令",
+   "en": "Command",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/34 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 35,
+   "zh": "战斗",
+   "en": "Fight",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/35 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 36,
+   "zh": "背包",
+   "en": "Bag",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/36 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 37,
+   "zh": "精灵",
+   "en": "Pokémon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/37 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 38,
+   "zh": "逃走",
+   "en": "Run",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/38 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 39,
+   "zh": "技能",
+   "en": "Move",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 40,
+   "zh": "对手",
+   "en": "Foe",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/40 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 41,
+   "zh": "物品",
+   "en": "Item",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/41 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 42,
+   "zh": "精灵",
+   "en": "Pokémon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/42 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 43,
+   "zh": "随机的种子",
+   "en": "Random Seeds",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/43 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 44,
+   "zh": "启动ＡＩ确认",
+   "en": "Check AI launch",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0151/44 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 45,
+   "zh": "狩猎大收获检查　关",
+   "en": "Check Safari Critical Throw OFF",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/45 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 46,
+   "zh": "狩猎大收获检查　开",
+   "en": "Check Safari Critical Throw ON",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0151/46 | debug/unused (battle debug menu)"
+  }
+ ]
+}

@@ -1,0 +1,666 @@
+{
+ "narc": "a027",
+ "bank": 485,
+ "source": "work/extract/v4/a027/0485.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "莉佳『今天的挑战者好多啊,{NEWLINE}真是个热闹的日子呢。{CLEAR}刚才咱们在彩虹百货已经见过面了,{CLEAR}我再正式介绍一下,{CLEAR}我是彩虹道馆的馆主莉佳,{CLEAR}是在同时进行着插花修行{CLEAR}和精灵修行的训练家。{SCROLL}莉佳『你现在持有的徽章是3枚,{NEWLINE}那么让我看看你具不具备{CLEAR}获得第4枚徽章的实力吧！{SCROLL}",
+   "en": "Erika: So many challengers today. What{NEWLINE}a lively day it is.{SCROLL}We met at the department store earlier,{NEWLINE}but allow me to introduce myself.{SCROLL}I am Erika, the Celadon Gym Leader. I{NEWLINE}am a Trainer who practices both flower{CLEAR}arranging and Pokémon training.{SCROLL}Erika: You currently hold three Badges.{NEWLINE}Now, let me see whether you have the{CLEAR}strength to earn a fourth!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "莉佳『你跟刚才那几位挑战者一样,{NEWLINE}实力已经远远超出了{CLEAR}拥有4枚徽章训练家的水平。{CLEAR}想必你们在旅途中{CLEAR}一定是经历了不少的磨难{CLEAR}才能变得这么强吧。{SCROLL}莉佳『那么按照规定,{NEWLINE}这个彩虹徽章就此……{SCROLL}",
+   "en": "Erika: Just like the challengers before{NEWLINE}you, your strength goes far beyond{CLEAR}that of a Trainer with four Badges.{SCROLL}You must all have been through many{NEWLINE}hardships on your journeys to become{CLEAR}this strong.{SCROLL}Erika: And so, according to the rules,{NEWLINE}this Rainbow Badge is...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}{NEWLINE}得到了彩虹徽章！",
+   "en": "{VAR:0103:0} received{NEWLINE}the Rainbow Badge.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0492/2"
+  },
+  {
+   "id": 3,
+   "zh": "莉佳『真是出色的比赛。{NEWLINE}我太感动了。{SCROLL}特别为你奉上{NEWLINE}技能机１９,终极吸取……{SCROLL}这是能将吸收到的伤害的一半{NEWLINE}转化为自己的体力的{CLEAR}恐怖技能。！{SCROLL}",
+   "en": "Erika: That was a delightful match.{NEWLINE}I felt inspired.{SCROLL}Please, I wish you to have this TM19{NEWLINE}as a special token.{SCROLL}It is Giga Drain.{NEWLINE}It is a wonderful move that drains{CLEAR}half the damage it inflicts to heal{CLEAR}your Pokémon.{SCROLL}It is indeed a horrifying move.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0492/3"
+  },
+  {
+   "id": 4,
+   "zh": "莉佳『多亏了你们的帮忙,{NEWLINE}才能铲除彩虹市的火箭队。{CLEAR}真的是太谢谢你们了。",
+   "en": "Erika: It’s thanks to all your help that{NEWLINE}Team Rocket was rooted out of Celadon{CLEAR}City. Thank you so very much.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "彩虹市　精灵道馆",
+   "en": "Celadon City Pokémon Gym",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0492/5"
+  },
+  {
+   "id": 6,
+   "zh": "彩虹市　精灵道馆{SCROLL}道馆馆主　莉佳{NEWLINE}所认可的训练家！{CLEAR}小霞、小绿、小蓝、{VAR:0103:0}",
+   "en": "Celadon City Pokémon Gym{SCROLL}Gym Leader: Erika{NEWLINE}Recognized Trainers:{CLEAR}Misty, Blue, Green, {VAR:0103:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Statue lists the Green-route party (male player). #56 is the Red-route version (female player). Hand-laid like 0462 #7."
+  },
+  {
+   "id": 7,
+   "zh": "小豪『哈哈,是我赢了！{NEWLINE}这样我就可以拿到彩虹徽章了吧？",
+   "en": "Goh: Ha ha, I won! So I get the Rainbow{NEWLINE}Badge now, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "莉佳『你使用的精灵种类{NEWLINE}确实很丰富,{CLEAR}甚至还有几只比较稀有的精灵。{CLEAR}但是感觉你对你的精灵{CLEAR}似乎不怎么熟悉。{CLEAR}你这套阵容更像是临时拼凑出来的。",
+   "en": "Erika: You certainly use a wide variety{NEWLINE}of Pokémon, some of them quite rare.{SCROLL}But you don’t seem to know your{NEWLINE}Pokémon very well. Your team looks{CLEAR}thrown together at the last minute.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "小豪『嘿嘿,因为我是{NEWLINE}捕捉精灵的专家嘛,{CLEAR}当然是什么样的精灵都有啦。{CLEAR}也正是因为精灵太多,{CLEAR}那些平时用不到的精灵{CLEAR}才会一直放在箱子里,{CLEAR}不熟悉也很正常。",
+   "en": "Goh: Heh heh. I’m a Pokémon-catching{NEWLINE}expert, so of course I’ve got all kinds{CLEAR}of Pokémon.{SCROLL}And since I have so many, the ones I{NEWLINE}don’t usually use just stay in their{CLEAR}Boxes. It’s normal not to know them{CLEAR}that well.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "莉佳『好吧……{NEWLINE}无论如何以你现在的实力{CLEAR}配得上第4枚徽章。{CLEAR}拿到这枚徽章后{CLEAR}你就正式被认定为中级训练家了,{CLEAR}希望你以后能再接再厉,{CLEAR}在训练家这条路上取得更好的成绩。",
+   "en": "Erika: Very well...{SCROLL}In any case, your current strength is{NEWLINE}worthy of a fourth Badge.{SCROLL}With this Badge, you are officially an{NEWLINE}Intermediate Trainer. I hope you keep{CLEAR}up the good work and go even further{CLEAR}on your path as a Trainer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "小豪『我可不只是{NEWLINE}要成为最强的训练家哦,{CLEAR}我的目标是要成为{CLEAR}拥有全图鉴的最强训练家！",
+   "en": "Goh: I’m not just going to be the{NEWLINE}strongest Trainer, you know. My goal is{CLEAR}to be the strongest Trainer with a{CLEAR}complete Pokédex!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "莉佳『祝你能够梦想成真。",
+   "en": "Erika: I hope your dream comes true.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "小豪『嘿嘿,谢谢。{NEWLINE}那我走咯。",
+   "en": "Goh: Heh heh, thanks. I’m off, then.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "小豪『拜托让一下。",
+   "en": "Goh: Excuse me, coming through.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:FF01:200}姐姐！姐姐！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Sis! Sis!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "SIZE-200% line; kept short to fit at 2x. Speaker is Kaya (小佳), Erika's Gym trainee."
+  },
+  {
+   "id": 16,
+   "zh": "刚刚有个人闯进道馆,{NEWLINE}把臭臭花给抢走了！",
+   "en": "Someone just broke into the Gym and{NEWLINE}took Gloom!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "莉佳『什么！？{NEWLINE}这……{SCROLL}莉佳『光天化日之下{NEWLINE}竟然到我的道馆来抢精灵？！{CLEAR}你不是在开玩笑吧,小佳？",
+   "en": "Erika: What?! This is...{SCROLL}Erika: Someone came into my Gym in broad{NEWLINE}daylight to steal a Pokémon?! You’re{CLEAR}not joking, are you, Kaya?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "你在说什么呢姐姐！{NEWLINE}我怎么可能拿这种事开玩笑！",
+   "en": "What are you saying, Sis?! I’d never{NEWLINE}joke about something like this!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "莉佳『确实……",
+   "en": "Erika: Of course not...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "莉佳『走,小佳。{NEWLINE}我立刻动员全道馆的人{CLEAR}一起去找回臭臭花！",
+   "en": "Erika: Come, Kaya.{SCROLL}I’ll gather everyone in the Gym at{NEWLINE}once, and we’ll get Gloom back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "莉佳『小霞,{NEWLINE}臭臭花是我非常重要的伙伴,{CLEAR}如果你和你的朋友有时间的话,{CLEAR}拜托你们也一起来{CLEAR}帮我们找找臭臭花吧！",
+   "en": "Erika: Misty, Gloom is a very dear{NEWLINE}partner to me.{SCROLL}If you and your friends have time,{NEWLINE}please help us search for Gloom!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "小霞『放心吧莉佳,{NEWLINE}我们一定会帮你的！",
+   "en": "Misty: Don’t worry, Erika. We’ll help{NEWLINE}you for sure!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "莉佳『谢谢小霞,{NEWLINE}那么我先走了！",
+   "en": "Erika: Thank you, Misty. I’ll go on{NEWLINE}ahead!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "小霞『{VAR:0103:0}！",
+   "en": "Misty: {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "嘻嘻,这是莉佳姐姐的臭臭花,{NEWLINE}我跟它也是好朋友哦。",
+   "en": "Tee-hee! This is Sis Erika’s Gloom.{NEWLINE}We’re good friends, too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "臭臭花『Glooo——oom！",
+   "en": "Gloom: Glooo-oom!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "小绿『我的卡咪龟{NEWLINE}终于进化成水箭龟了！{CLEAR}哈哈哈哈,这真是太棒啦！",
+   "en": "Blue: My Wartortle finally evolved into{NEWLINE}Blastoise! Ha ha ha ha! This is awesome!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "水箭龟『Blas——toi！",
+   "en": "Blastoise: Blas-toi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "小蓝『能干出这种事来的人,{NEWLINE}八成跟火箭队有关。{CLEAR}确实需要好好调查一下。",
+   "en": "Green: Whoever would pull something like{NEWLINE}this is probably tied to Team Rocket. It{CLEAR}definitely needs looking into.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "小赤『放心吧小霞,{NEWLINE}我们是不会放过这种坏人的！",
+   "en": "Red: Don’t worry, Misty. We won’t let a{NEWLINE}crook like that get away!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "小霞『太好了,谢谢大家。{NEWLINE}咱们现在就去街上找找看吧！",
+   "en": "Misty: Great, thanks, everyone. Let’s{NEWLINE}go search the streets right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "小蓝『我的妙蛙草变成妙蛙花了！{NEWLINE}看来之前的努力没有白费啊。",
+   "en": "Green: My Ivysaur became a Venusaur!{NEWLINE}Looks like all that hard work paid off.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "小赤『经过漫长的旅行之后,{NEWLINE}我的妙蛙草终于进化了。{CLEAR}看来之前的努力没有白费。",
+   "en": "Red: After such a long journey, my{NEWLINE}Ivysaur finally evolved. Looks like all{CLEAR}that hard work paid off.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "妙蛙花『Venu——sau！",
+   "en": "Venusaur: Venu-sau!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 35,
+   "zh": "小霞『跟莉佳的草系精灵对练,{NEWLINE}确实让我积累了不少{CLEAR}克服水系弱点的经验。{CLEAR}{VAR:0103:0}也跟莉佳对战试试吧。",
+   "en": "Misty: Training against Erika’s Grass{NEWLINE}types has really taught me a lot about{CLEAR}covering my Water types’ weakness.{SCROLL}{VAR:0103:0}, you should try battling Erika{NEWLINE}too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "宝石海星『Sta——mi！",
+   "en": "Starmie: Sta-mi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 37,
+   "zh": "大吾『好久都没有挑战道馆了,{NEWLINE}我要好好准备一下向莉佳发起挑战。",
+   "en": "Steven: It’s been ages since I last{NEWLINE}challenged a Gym. I’d better prepare{CLEAR}properly before I take on Erika.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "金属怪『Me——tang！",
+   "en": "Metang: Me-tang!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "希罗娜『我要在彩虹道馆好好锻炼一下,{NEWLINE}争取让尖牙陆鲨能早点进化。",
+   "en": "Cynthia: I’ll train hard at the Celadon{NEWLINE}Gym so my Gabite can evolve soon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "尖牙陆鲨『Gaaaa——bi！",
+   "en": "Gabite: Gaaaa-bi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "希望以后不要再有{NEWLINE}那种抢别人精灵的坏人了,{CLEAR}大家一起相亲相爱地相处多好啊。",
+   "en": "I hope there are never again bad people{NEWLINE}who steal others’ Pokémon. It’d be so{CLEAR}much nicer if we all just got along.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "你也是来挑战莉佳大小姐的吗？",
+   "en": "Are you here to challenge Lady Erika{NEWLINE}too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "从这边走你是见不到莉佳大小姐的,{NEWLINE}你得走另外一侧才行。",
+   "en": "You won’t reach Lady Erika this way.{NEWLINE}You need to go around the other side.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "小霞『还有小绿、小蓝！",
+   "en": "Misty: And Blue and Green!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "小霞『还有小绿、小赤！",
+   "en": "Misty: And Blue and Red!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "小霞『莉佳她们道馆{NEWLINE}刚刚被抢走的那只臭臭花,{CLEAR}对莉佳来说非常重要。{CLEAR}请大家帮她一起在彩虹市{CLEAR}找找臭臭花的下落吧！",
+   "en": "Misty: The Gloom that was just stolen{NEWLINE}from Erika’s Gym means a lot to her.{CLEAR}Please, everyone, help her search{CLEAR}Celadon City for Gloom!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "小绿『真是恶劣的盗贼,{NEWLINE}居然跑到道馆来强抢精灵。{CLEAR}我一定会把这种家伙给找出来的。",
+   "en": "Blue: What a lowlife thief, barging into a{NEWLINE}Gym to steal a Pokémon. I’ll track this{CLEAR}creep down for sure.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "小蓝『能干出这种事来的人,{NEWLINE}八成跟火箭队有关。{CLEAR}确实需要好好调查一下。",
+   "en": "Green: Whoever would pull something like{NEWLINE}this is probably tied to Team Rocket. It{CLEAR}definitely needs looking into.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "小赤『放心吧小霞,{NEWLINE}我们是不会放过这种坏人的！",
+   "en": "Red: Don’t worry, Misty. We won’t let a{NEWLINE}crook like that get away!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "小霞『太好了,谢谢大家。{NEWLINE}咱们现在就去街上找找看吧！",
+   "en": "Misty: Great, thanks, everyone. Let’s{NEWLINE}go search the streets right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "你好像已经得到{NEWLINE}莉佳大小姐的认可了嘛,{CLEAR}那么我现在可以帮你锻炼{CLEAR}精灵的「体力」努力值了哦。{CLEAR}只要给我1个大树果的服务费{CLEAR}我就可以帮你的精灵{CLEAR}针对性提高「体力」努力值。{SCROLL}怎么样？{NEWLINE}需要我陪你练习吗？{SCROLL}",
+   "en": "Looks like you’ve earned Lady Erika’s{NEWLINE}approval. That means I can help train{CLEAR}your Pokémon’s HP EVs now.{SCROLL}For a fee of one Sitrus Berry, I’ll give{NEWLINE}your Pokémon focused training to raise{CLEAR}its HP EVs.{SCROLL}How about it? Want me to train with you?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "想练「体力」努力值的话,{NEWLINE}就来彩虹道馆修炼吧！",
+   "en": "If you want to train HP EVs, come train{NEWLINE}at the Celadon Gym!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "那么,训练开始！",
+   "en": "Then let the training begin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 54,
+   "zh": "你好像没有足够的大树果{NEWLINE}支付服务费呢！",
+   "en": "Looks like you don’t have a Sitrus{NEWLINE}Berry to pay the fee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "莉佳大小姐刚刚安排我{NEWLINE}担任彩虹道馆的陪练。{CLEAR}专为获得彩虹徽章的训练家{CLEAR}提供针对性训练服务。",
+   "en": "Lady Erika just made me the Celadon{NEWLINE}Gym’s sparring partner. I give focused{CLEAR}training to Trainers who have earned{CLEAR}the Rainbow Badge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "彩虹市　精灵道馆{SCROLL}道馆馆主　莉佳{NEWLINE}所认可的训练家！{CLEAR}小霞、小绿、小赤、{VAR:0103:0}",
+   "en": "Celadon City Pokémon Gym{SCROLL}Gym Leader: Erika{NEWLINE}Recognized Trainers:{CLEAR}Misty, Blue, Red, {VAR:0103:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Red-route statue (female player); #6 is the Green-route version."
+  },
+  {
+   "id": 57,
+   "zh": "莉佳『{VAR:0103:0},真高兴能看到你{NEWLINE}成为万众敬仰的联盟冠军。{SCROLL}莉佳『正好我最近在进行对战训练,{NEWLINE}能向你这位冠军讨教一下吗？{SCROLL}",
+   "en": "Erika: {VAR:0103:0}, I’m so glad to see{NEWLINE}you’ve become the League Champion{CLEAR}everyone looks up to.{SCROLL}Erika: As it happens, I’ve been doing{NEWLINE}some battle training lately. Would you{CLEAR}give me a lesson, Champion?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "莉佳『嘻嘻,那我可要上了！",
+   "en": "Erika: Tee-hee. Then here I come!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "莉佳『你的对战技巧真是神乎其技,{NEWLINE}希望你对香水的品味{CLEAR}也能配得上你这么强的实力,哈哈。",
+   "en": "Erika: Your battle skills are simply{NEWLINE}divine. I hope your taste in perfume can{CLEAR}one day match that incredible strength.{CLEAR}Ha ha.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "莉佳『真是精彩的对决,{NEWLINE}随时欢迎你再来切磋哟。",
+   "en": "Erika: What a splendid match.{SCROLL}You’re welcome to come back for{NEWLINE}another round anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "莉佳『你希望单打还是双打？{SCROLL}",
+   "en": "Erika: Would you prefer a Single Battle{NEWLINE}or a Double Battle?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 63,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 64,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 65,
+   "zh": "莉佳『你携带的精灵数量不够进行双打。",
+   "en": "Erika: You don’t have enough Pokémon{NEWLINE}with you for a Double Battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "谢谢大哥哥帮忙救回了{NEWLINE}莉佳姐姐和臭臭花。{CLEAR}我的精灵们会一招{CLEAR}特别实用的草系技能「种子爆弹」,{CLEAR}如果大哥哥的精灵想学的话,{CLEAR}我可以教它们哦。{SCROLL}怎么样,要学习种子爆弹吗？{SCROLL}",
+   "en": "Thank you for helping rescue Sis Erika{NEWLINE}and Gloom, mister!{SCROLL}My Pokémon know a really handy{NEWLINE}Grass-type move called Seed Bomb. If{CLEAR}your Pokémon want to learn it, I can{CLEAR}teach them!{SCROLL}How about it? Want to learn Seed Bomb?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#66/#67: male/female player variants (mister/miss). Speaker is presumably Kaya."
+  },
+  {
+   "id": 67,
+   "zh": "谢谢大姐姐帮忙救回了{NEWLINE}莉佳姐姐和臭臭花。{CLEAR}我的精灵们会一招{CLEAR}特别实用的草系技能「种子爆弹」,{CLEAR}如果大姐姐的精灵想学的话,{CLEAR}我可以教它们哦。{SCROLL}怎么样,要学习种子爆弹吗？{SCROLL}",
+   "en": "Thank you for helping rescue Sis Erika{NEWLINE}and Gloom, miss!{SCROLL}My Pokémon know a really handy{NEWLINE}Grass-type move called Seed Bomb. If{CLEAR}your Pokémon want to learn it, I can{CLEAR}teach them!{SCROLL}How about it? Want to learn Seed Bomb?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should I teach?{SCROLL}",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 69,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it, come see me{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 70,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住种子爆弹。{SCROLL}",
+   "en": "Sorry... That Pokémon can’t learn Seed{NEWLINE}Bomb.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 72,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会种子爆弹了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Seed{NEWLINE}Bomb!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 74,
+   "zh": "{VAR:0101:0}学会了种子爆弹！",
+   "en": "{VAR:0101:0} learned Seed Bomb!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会种子爆弹了！",
+   "en": "And with that, your {VAR:0100:0} has{NEWLINE}learned Seed Bomb!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的种子爆弹……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习种子爆弹{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Seed{NEWLINE}Bomb...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn Seed{NEWLINE}Bomb?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 78,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 79,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 80,
+   "zh": "{VAR:0101:0}学会了种子爆弹！",
+   "en": "{VAR:0101:0} learned Seed Bomb!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "你是要放弃{NEWLINE}让它记住种子爆弹吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Seed Bomb?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

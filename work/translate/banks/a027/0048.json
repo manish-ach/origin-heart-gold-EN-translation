@@ -1,0 +1,1127 @@
+{
+ "narc": "a027",
+ "bank": 48,
+ "source": "work/extract/v4/a027/0048.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "这里是月见山广场,{SCROLL}是情侣们约会的圣地。",
+   "en": "This is Mt. Moon Square,{SCROLL}a sacred spot for couples on dates.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 1,
+   "zh": "打烊了",
+   "en": "Closed",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 2,
+   "zh": "伦达『给我加大输出！{NEWLINE}干它！",
+   "en": "Petrel: Turn up the power! Hit it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 3,
+   "zh": "梦幻『Me……Mew……{SCROLL}梦幻遍体鳞伤,非常疲惫。",
+   "en": "Mew: Me... Mew...{SCROLL}Mew is battered and exhausted.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 4,
+   "zh": "伦达『哈哈！{NEWLINE}这货快撑不住了！{SCROLL}伦达『兄弟们！{NEWLINE}给我继续干它就完了！",
+   "en": "Petrel: Ha ha! It can’t hold out much{NEWLINE}longer!{SCROLL}Petrel: Come on, boys! Keep hitting it{NEWLINE}and it’s ours!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:FF01:200}{VAR:0103:0}『住手火箭队！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}{VAR:0103:0}: Stop, Team Rocket!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "SIZE-200% big text; split over two lines to fit. Double-size shout: one line per page (a line break inside {VAR:FF01:200} overflows the box and corrupts memory; heap_audit.md)."
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:FF01:200}{VAR:0103:0}『你们给我住手！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}{VAR:0103:0}: Stop right there!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "SIZE-200% big text; split over two lines to fit. Double-size shout: one line per page (a line break inside {VAR:FF01:200} overflows the box and corrupts memory; heap_audit.md)."
+  },
+  {
+   "id": 7,
+   "zh": "伦达『我草？！{NEWLINE}怎么有个狗日的小毛孩？",
+   "en": "Petrel: What the fuck?! Where’d this{NEWLINE}little son of a bitch come from?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 我草 / 狗日的 kept at strength."
+  },
+  {
+   "id": 8,
+   "zh": "报告伦达大人,{NEWLINE}这小鬼就是刚才我说的妨碍者之一！",
+   "en": "Lord Petrel, this brat is one of the{NEWLINE}troublemakers I told you about!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 9,
+   "zh": "伦达『哼,只是个小鬼而已。{NEWLINE}阿佩、阿彦你们去把他给我解决了。{CLEAR}其他人继续专心弄梦幻！",
+   "en": "Petrel: Hmph, it’s just a kid. Pei, Yan,{NEWLINE}go take care of the brat for me.{SCROLL}Everyone else, keep your focus on Mew!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | 阿佩、阿彦 (two grunts' nicknames) romanised as Pei and Yan."
+  },
+  {
+   "id": 10,
+   "zh": "是！",
+   "en": "Yes, sir!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 11,
+   "zh": "妨碍火箭队的人,{NEWLINE}死！",
+   "en": "Anyone who gets in Team Rocket’s way{NEWLINE}dies!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; ext-review RA-003"
+  },
+  {
+   "id": 12,
+   "zh": "前面有好多火箭队员,{NEWLINE}还是多带几只精灵再来吧！",
+   "en": "There are lots of Team Rocket members{NEWLINE}ahead. I should come back with more{CLEAR}Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 13,
+   "zh": "伦达大人！{NEWLINE}我们抵挡不住！",
+   "en": "Lord Petrel! We can’t hold the kid off!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 14,
+   "zh": "伦达『你们两个怎么搞的？{NEWLINE}连个死小孩也搞不定？{CLEAR}退下我来！",
+   "en": "Petrel: What’s wrong with you two? You{NEWLINE}can’t even handle one damn kid?{SCROLL}Step aside, I’ll do it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 15,
+   "zh": "伦达『妈了个逼的臭小鬼,{NEWLINE}居然伤到我的尼多王？！{CLEAR}但是我的实力可不止于此！",
+   "en": "Petrel: You motherfucking brat! You{NEWLINE}actually hurt my Nidoking?!{SCROLL}But that’s not all I’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 妈了个逼的 kept at strength."
+  },
+  {
+   "id": 16,
+   "zh": "伦达『听好了,尼多王！{NEWLINE}给我用大地之力轰碎他！",
+   "en": "Petrel: Listen up, Nidoking! Smash him{NEWLINE}to bits with Earth Power!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 17,
+   "zh": "伦达『听好了,尼多王！{NEWLINE}给我用大地之力轰碎她！",
+   "en": "Petrel: Listen up, Nidoking! Smash her{NEWLINE}to bits with Earth Power!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 18,
+   "zh": "尼多王『NI——DO——",
+   "en": "Nidoking: NI-DO-",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 19,
+   "zh": "小绿『真逊啊{VAR:0103:0}！{NEWLINE}被收拾得这么惨啊！",
+   "en": "Blue: How lame, {VAR:0103:0}! Look how badly{NEWLINE}you got beaten!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:FF01:200}小绿、小霞『卡咪龟！宝石海星！{VAR:FF01:100}{SCROLL}{VAR:FF01:200}小绿、小霞『水之波动！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Wartortle! Starmie!{VAR:FF01:100}{SCROLL}{VAR:FF01:200}Blue & Misty: Water Pulse!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "SIZE-200% big text; first page drops the zh label (Blue & Misty) so it fits at 2x. Double-size shout: one line per page (a line break inside {VAR:FF01:200} overflows the box and corrupts memory; heap_audit.md)."
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0103:0}『你们这样去收服口袋妖怪{NEWLINE}根本就是围殴虐杀！{SCROLL}{VAR:0103:0}『这种卑鄙的做法{NEWLINE}不配称为训练家！{CLEAR}还不快住手！",
+   "en": "{VAR:0103:0}: Ganging up on a Pokémon like{NEWLINE}that isn’t catching it, it’s torturing{CLEAR}it!{SCROLL}{VAR:0103:0}: People who pull dirty tricks{NEWLINE}like that don’t deserve to be called{CLEAR}Trainers! Stop it right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0103:0}『你们这样去群殴一只精灵{NEWLINE}根本称不上是堂堂正正的收服！{SCROLL}{VAR:0103:0}『这种卑鄙的做法{NEWLINE}不配称为训练家！{CLEAR}还不快住手！",
+   "en": "{VAR:0103:0}: Ganging up on one Pokémon{NEWLINE}isn’t a fair way to catch it at all!{SCROLL}{VAR:0103:0}: People who pull dirty tricks{NEWLINE}like that don’t deserve to be called{CLEAR}Trainers! Stop it right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 23,
+   "zh": "小绿『真险啊{VAR:0103:0}！{NEWLINE}你没受伤吧！",
+   "en": "Blue: That was close, {VAR:0103:0}! You’re{NEWLINE}not hurt, are you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "小霞『你没事吧{VAR:0103:0}！{SCROLL}小霞『这是我从刚刚那位{NEWLINE}乔伊小姐那里要来的伤药,{CLEAR}你先用一下！",
+   "en": "Misty: Are you OK, {VAR:0103:0}?!{SCROLL}Misty: I got this Potion from Nurse Joy{NEWLINE}back there. Use it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 25,
+   "zh": "大吾『你们封锁月见山,{NEWLINE}原来是为了捕捉梦幻。",
+   "en": "Steven: So that’s why you closed off{NEWLINE}Mt. Moon. You were trying to catch Mew.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 26,
+   "zh": "希罗娜『如果想收服传说中的精灵,{NEWLINE}那就堂堂正正地决斗啊！{CLEAR}围殴虐杀还算训练家吗！！！",
+   "en": "Cynthia: If you want to catch a{NEWLINE}Legendary Pokémon, then battle it fair{CLEAR}and square!{SCROLL}Ganging up to torture it... Do you even{NEWLINE}call yourselves Trainers?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 27,
+   "zh": "{VAR:0103:0}『呼,好多了……谢谢！",
+   "en": "{VAR:0103:0}: Phew, much better... Thanks!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 28,
+   "zh": "小霞『这么一大群人聚在这里,{NEWLINE}竟然是为了围猎前边那只……{CLEAR}梦幻！{SCROLL}小霞『天啊！{NEWLINE}那是传说中的精灵梦幻！",
+   "en": "Misty: All these people gathered here{NEWLINE}just to hunt down that... Mew!{SCROLL}Misty: Oh my gosh! That’s the{NEWLINE}Legendary Pokémon Mew!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 29,
+   "zh": "伦达『草！又冒出几个死小鬼！{NEWLINE}围捕梦幻的事都让他们看见了！{CLEAR}那就只好……{CLEAR}杀人灭口了哈哈哈！！！{SCROLL}伦达『尼多王！大地之力！",
+   "en": "Petrel: Fuck! More damn brats! Now{NEWLINE}they’ve all seen us hunting Mew!{SCROLL}Petrel: Guess I’ll just have to... kill{NEWLINE}the witnesses! Ha ha ha!!!{SCROLL}Petrel: Nidoking! Earth Power!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 草 / 杀人灭口 kept at strength."
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0103:0}『坚持住啊！{NEWLINE}{VAR:0100:1}！{SCROLL}小绿『上啊！{NEWLINE}卡咪龟！{SCROLL}小霞『不可以认输！{NEWLINE}宝石海星！{SCROLL}大吾『全力出击！{NEWLINE}铁哑铃！{SCROLL}希罗娜『咆哮吧！{NEWLINE}圆陆鲨！",
+   "en": "{VAR:0103:0}: Hang in there, {VAR:0100:1}!{SCROLL}Blue: Go, Wartortle!{SCROLL}Misty: Don’t give up, Starmie!{SCROLL}Steven: Full power, Beldum!{SCROLL}Cynthia: Roar, Gible!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 31,
+   "zh": "尼多王『NI——DO——{SCROLL}{VAR:0103:0}等人的精灵们均已受伤！",
+   "en": "Nidoking: NI-DO-{SCROLL}The Pokémon of {VAR:0103:0} and the others{NEWLINE}were all hurt!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 32,
+   "zh": "伦达『哈哈！{NEWLINE}一群臭鱼烂虾的小鬼头！{CLEAR}现在知道爷的厉害了吧！",
+   "en": "Petrel: Ha ha! A bunch of worthless{NEWLINE}little brats! Now you know who you’re{CLEAR}dealing with!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 33,
+   "zh": "大吾『杂兵们还好说,{NEWLINE}这个首领确实不易对付。",
+   "en": "Steven: The grunts are one thing, but{NEWLINE}this leader really is tough.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 34,
+   "zh": "小绿『可恶啊……{NEWLINE}等级相差太多了。",
+   "en": "Blue: Dammit... The level gap is way too{NEWLINE}big.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 35,
+   "zh": "希罗娜『第一次面对这样的敌人,{NEWLINE}差距如此悬殊……",
+   "en": "Cynthia: It’s my first time facing an{NEWLINE}enemy like this... The gap is so huge...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 36,
+   "zh": "{VAR:0103:0}『我们自己的精灵{NEWLINE}等级或许不够。{SCROLL}{VAR:0103:0}『但是小霞,{NEWLINE}你的暴鲤龙可是非常强的啊！",
+   "en": "{VAR:0103:0}: Our own Pokémon may not be{NEWLINE}high enough level.{SCROLL}{VAR:0103:0}: But Misty, your Gyarados is{NEWLINE}really strong!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0048#36; text not kept)"
+  },
+  {
+   "id": 37,
+   "zh": "小霞『暴鲤龙？！{NEWLINE}可是我现在还不能{CLEAR}很好地指挥它……",
+   "en": "Misty: Gyarados?! But I still can’t{NEWLINE}command it properly...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 38,
+   "zh": "{VAR:0103:0}『没关系,不需要你打败敌人。{NEWLINE}我们的目标是救出梦幻！{SCROLL}{VAR:0103:0}『小霞你使用暴鲤龙{NEWLINE}拖住这个首领。{CLEAR}我会从旁支援你的。{SCROLL}{VAR:0103:0}『小绿、大吾、希罗娜{NEWLINE}拜托你们趁这个空隙,{CLEAR}突破进去救出梦幻！{SCROLL}{VAR:0103:0}『一旦成功咱们就迅速撤离！",
+   "en": "{VAR:0103:0}: It’s OK. You don’t need to{NEWLINE}beat him. Our goal is to rescue Mew!{SCROLL}{VAR:0103:0}: Misty, use Gyarados to hold{NEWLINE}off their leader. I’ll back you up.{SCROLL}{VAR:0103:0}: Blue, Steven, Cynthia, while{NEWLINE}he’s distracted, break through and{CLEAR}rescue Mew!{SCROLL}{VAR:0103:0}: As soon as we’ve done it, we{NEWLINE}get out of here fast!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 39,
+   "zh": "小绿『虽然不喜欢听你发号施令,{NEWLINE}不过你说的还挺有道理。",
+   "en": "Blue: I don’t like taking orders from{NEWLINE}you, but you’ve got a point.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 40,
+   "zh": "小绿『没错！{NEWLINE}只要救出梦幻就行了。",
+   "en": "Blue: Right! All we have to do is rescue{NEWLINE}Mew.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 41,
+   "zh": "小霞『嗯！我相信{VAR:0103:0}的计划！{SCROLL}小霞『出来吧,暴鲤龙！",
+   "en": "Misty: OK! I trust your plan, {VAR:0103:0}!{SCROLL}Misty: Come on out, Gyarados!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 42,
+   "zh": "大吾『拖住首领的事{NEWLINE}就靠你们了！",
+   "en": "Steven: We’re counting on you two to{NEWLINE}hold off the leader!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 43,
+   "zh": "希罗娜『解救梦幻的事{NEWLINE}就交给我们吧！",
+   "en": "Cynthia: Leave rescuing Mew to us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0103:0}『上！",
+   "en": "{VAR:0103:0}: Go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 45,
+   "zh": "伦达『妈的！臭小鬼们！{NEWLINE}看老子剥了你们的皮！！！",
+   "en": "Petrel: Fuck! You rotten brats! I’ll{NEWLINE}skin you alive!!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 46,
+   "zh": "伦达『啊啊啊！！！{NEWLINE}操你妈的臭小鬼们！！！",
+   "en": "Petrel: Aaaargh!!! Fuck you, you{NEWLINE}rotten brats!!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 操你妈的 kept at strength."
+  },
+  {
+   "id": 47,
+   "zh": "梦幻『Meew——！",
+   "en": "Mew: Meew-!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 48,
+   "zh": "伦达大人！{NEWLINE}梦幻挣脱了束缚！",
+   "en": "Lord Petrel! Mew broke free!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 49,
+   "zh": "伦达『我操！{NEWLINE}完了！",
+   "en": "Petrel: Fuck! It’s over!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | consistency fix (follow-up 4)"
+  },
+  {
+   "id": 50,
+   "zh": "伦达『啊……梦幻……",
+   "en": "Petrel: Ah... Mew...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0103:0}『目标达成！{NEWLINE}撤啊！",
+   "en": "{VAR:0103:0}: Mission accomplished! Fall{NEWLINE}back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 52,
+   "zh": "伦达『围起来！{NEWLINE}一个也不准放走！",
+   "en": "Petrel: Surround them! Don’t let a{NEWLINE}single one get away!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 53,
+   "zh": "{VAR:0103:0}『可恶……{NEWLINE}精灵们已经很疲惫了,{CLEAR}敌人却这么多……",
+   "en": "{VAR:0103:0}: Dammit... Our Pokémon are{NEWLINE}worn out, and there are so many of{CLEAR}them...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 54,
+   "zh": "伦达『操,既然捉不回梦幻！{NEWLINE}那就把你们的头提回去！",
+   "en": "Petrel: Fuck, if I can’t bring back Mew,{NEWLINE}I’ll bring back your heads instead!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; ext-review RV-004"
+  },
+  {
+   "id": 55,
+   "zh": "胖丁『Bu bu li lu……{NEWLINE}Bu bu li……{CLEAR}Bu bu li lu……",
+   "en": "Jigglypuff: Bu bu li lu...{NEWLINE}Bu bu li...{CLEAR}Bu bu li lu...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags suspiciously_long"
+  },
+  {
+   "id": 56,
+   "zh": "伦达『操！这是胖丁的歌声！",
+   "en": "Petrel: Fuck! That’s a Jigglypuff’s{NEWLINE}song!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; ext-review RV-004"
+  },
+  {
+   "id": 57,
+   "zh": "伦达『妈的！在哪！{NEWLINE}有种出来打啊！",
+   "en": "Petrel: Shit! Where are you?! Come out{NEWLINE}and fight if you’ve got the guts!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 58,
+   "zh": "火箭队员们『不行了,伦达大人……{NEWLINE}好困啊……好想睡觉……",
+   "en": "Rocket Grunts: We can’t, Lord Petrel...{NEWLINE}So sleepy... Just want to sleep...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 59,
+   "zh": "伦达『操……我也……{NEWLINE}扛……扛不住……了。{CLEAR}先……撤……{CLEAR}撤吧……",
+   "en": "Petrel: Fuck... I can’t... hold... out{NEWLINE}either...{SCROLL}Fall... back... Fall back...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; ext-review RV-004"
+  },
+  {
+   "id": 60,
+   "zh": "小蓝『呼……{NEWLINE}刚刚真是好险。{CLEAR}就这样不管不顾冲出来,{CLEAR}真是会给人添麻烦！{SCROLL}小蓝『火箭队想捕捉梦幻……{NEWLINE}只为了拿去卖吗？{CLEAR}感觉其中肯定有别的阴谋。{SCROLL}小蓝『走吧胖丁,{NEWLINE}咱们去查个究竟。",
+   "en": "Green: Phew... That was way too close.{NEWLINE}Charging in without thinking like that{CLEAR}just causes trouble for everyone!{SCROLL}Green: Team Rocket wants to catch{NEWLINE}Mew... Just to sell it? I bet there’s{CLEAR}some other scheme behind this.{SCROLL}Green: Come on, Jigglypuff. Let’s go{NEWLINE}get to the bottom of this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | Green = male-player route; #61 Red = female-player route (also #62/#63, #69/#70, #71/#72)."
+  },
+  {
+   "id": 61,
+   "zh": "小赤『呼……{NEWLINE}刚刚真是好险。{CLEAR}这样不管不顾冲出来,{CLEAR}可是差点就全军覆没！{SCROLL}小赤『火箭队想捕捉梦幻……{NEWLINE}只为了拿去卖吗？{CLEAR}感觉其中肯定有别的阴谋。{SCROLL}小赤『走吧胖丁,{NEWLINE}咱们去查个究竟。",
+   "en": "Red: Phew... That was way too close.{NEWLINE}Charging in without thinking like that,{CLEAR}they almost got wiped out!{SCROLL}Red: Team Rocket wants to catch Mew...{NEWLINE}Just to sell it? I bet there’s some{CLEAR}other scheme behind this.{SCROLL}Red: Come on, Jigglypuff. Let’s go get{NEWLINE}to the bottom of this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 62,
+   "zh": "{VAR:0103:0}『刚刚的声音是……{NEWLINE}小蓝？",
+   "en": "{VAR:0103:0}: That voice just now... Was{NEWLINE}that Green?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 63,
+   "zh": "{VAR:0103:0}『刚刚的声音是……{NEWLINE}小赤？",
+   "en": "{VAR:0103:0}: That voice just now... Was{NEWLINE}that Red?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 64,
+   "zh": "{VAR:0103:0}『大伙快醒醒啊！",
+   "en": "{VAR:0103:0}: Everyone, wake up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 65,
+   "zh": "小绿『唔……睡得好香……{NEWLINE}我记得刚才听到胖丁的歌声,{CLEAR}然后就……我竟然睡着了！？",
+   "en": "Blue: Mmm... That was a great nap... I{NEWLINE}remember hearing a Jigglypuff sing, and{CLEAR}then... I fell asleep?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 66,
+   "zh": "小霞『火箭队好像因为害怕被催眠,{NEWLINE}所以都撤退了呢。",
+   "en": "Misty: Looks like Team Rocket ran off{NEWLINE}because they were afraid of being put{CLEAR}to sleep.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 67,
+   "zh": "大吾『幸好有人暗中相助,{NEWLINE}不然后果真的不堪设想。",
+   "en": "Steven: Thank goodness someone helped{NEWLINE}us from the shadows. Otherwise, it{CLEAR}could have ended very badly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 68,
+   "zh": "希罗娜『刚刚用胖丁歌声{NEWLINE}帮助我们的人会是谁呢？",
+   "en": "Cynthia: I wonder who used Jigglypuff’s{NEWLINE}song to help us just now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 69,
+   "zh": "{VAR:0103:0}『应该就是在洞窟里{NEWLINE}与我们一起战斗的那个女孩,{CLEAR}她的名字叫作小蓝。",
+   "en": "{VAR:0103:0}: It must have been the girl who{NEWLINE}fought alongside us in the cave. Her{CLEAR}name is Green.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | Branch: Green (male-player route) / #70 Red (female-player route)."
+  },
+  {
+   "id": 70,
+   "zh": "{VAR:0103:0}『应该就是在洞窟里{NEWLINE}与我们一起战斗的那个少年,{CLEAR}名字是小赤。",
+   "en": "{VAR:0103:0}: It must have been the boy who{NEWLINE}fought alongside us in the cave. His{CLEAR}name is Red.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 71,
+   "zh": "小绿『那个女孩么……{NEWLINE}总感觉以前在哪见过……",
+   "en": "Blue: That girl, huh... I feel like I’ve{NEWLINE}seen her somewhere before...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 72,
+   "zh": "小绿『那个家伙么……{NEWLINE}总感觉以前在哪见过……",
+   "en": "Blue: That guy, huh... I feel like I’ve{NEWLINE}seen him somewhere before...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 73,
+   "zh": "小霞『不过我真是没想到{NEWLINE}关东竟然有这么强的犯罪组织,{CLEAR}看来得尽快向精灵联盟报告才行。",
+   "en": "Misty: I never imagined there was such a{NEWLINE}powerful criminal organization in Kanto.{SCROLL}I’d better report this to the{NEWLINE}Pokémon League as soon as I can.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 74,
+   "zh": "大吾『这样心术不正的人{NEWLINE}居然也能拥有这么强大的实力。{CLEAR}看来我锻炼得还是不够啊。",
+   "en": "Steven: To think someone so crooked{NEWLINE}could be so powerful. I clearly haven’t{CLEAR}trained enough.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 75,
+   "zh": "希罗娜『大吾的想法很有责任心呢。{SCROLL}希罗娜『遇到无法战胜的坏人后,{NEWLINE}以超越他们为目标{CLEAR}不断地激励自己变强……",
+   "en": "Cynthia: That’s a very responsible way{NEWLINE}to think, Steven.{SCROLL}Cynthia: When you meet a villain you{NEWLINE}can’t beat, you make surpassing them{CLEAR}your goal and keep pushing yourself to{CLEAR}get stronger...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 76,
+   "zh": "大吾『各位,我也先告辞了。{NEWLINE}期待在更广阔的舞台与大家重逢。",
+   "en": "Steven: Everyone, I’ll take my leave as{NEWLINE}well. I look forward to meeting you all{CLEAR}again on a bigger stage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 77,
+   "zh": "……{SCROLL}……{SCROLL}{VAR:0103:0}『……{SCROLL}",
+   "en": "...{SCROLL}...{SCROLL}{VAR:0103:0}: ...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "小绿『{VAR:0103:0}你听好了,{NEWLINE}如果连刚才那个火箭队的都赢不了,{CLEAR}那估计在石英大会上也拿不到名次,{CLEAR}所以我一定要变得更强才行！",
+   "en": "Blue: Listen up, {VAR:0103:0}. If I can’t{NEWLINE}even beat that Team Rocket guy, I{CLEAR}won’t place at the Indigo Conference{CLEAR}either.{SCROLL}So I have to get stronger!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 79,
+   "zh": "小绿『{VAR:0103:0}我觉得啊,{NEWLINE}如果连刚才那个火箭队的都赢不了,{CLEAR}那估计在石英大会上也拿不到名次,{CLEAR}所以咱们要变得更强才行！",
+   "en": "Blue: You know, {VAR:0103:0}, if we can’t{NEWLINE}even beat that Team Rocket guy, we{CLEAR}won’t place at the Indigo Conference{CLEAR}either.{SCROLL}So we’ve got to get stronger!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 80,
+   "zh": "小霞『{VAR:0103:0},今天跟你并肩作战,{NEWLINE}让我学到了很多。{CLEAR}不过也让我感受到了{CLEAR}自己的实力还差得很远。{SCROLL}小霞『所以我会更加努力的！{NEWLINE}{VAR:0103:0}也要好好加油啊！",
+   "en": "Misty: {VAR:0103:0}, fighting side by side{NEWLINE}with you today taught me a lot.{SCROLL}But it also showed me how far I still{NEWLINE}have to go.{SCROLL}Misty: So I’m going to work even{NEWLINE}harder! You keep at it too, {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [line_too_wide,tag_mismatch] (candidate v3 0048#80; text not kept)"
+  },
+  {
+   "id": 81,
+   "zh": "我的男朋友好爱我啊,{NEWLINE}帮我占了这片泉水供我在里面泡澡。{CLEAR}呀哈哈哈哈哈。",
+   "en": "My boyfriend loves me so much! He{NEWLINE}claimed this whole spring just so I could{CLEAR}take a bath in it. Ya ha ha ha ha ha!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 82,
+   "zh": "早就听说月见山的泉水有益健康,{NEWLINE}想必用泉水泡澡的话{CLEAR}一定对皮肤很好！哟呵呵呵。",
+   "en": "I’ve always heard that Mt. Moon’s{NEWLINE}spring water is good for your health. So{CLEAR}bathing in it must be great for your{CLEAR}skin! Oh ho ho ho!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 83,
+   "zh": "麻生『你好,是去参观月见山泉吗？{NEWLINE}很抱歉现在不能让你过去呢。{SCROLL}太郎『我和我的两个女朋友{NEWLINE}过会儿需要用泉水洗个澡,{CLEAR}希望你能理解。",
+   "en": "Asher: Hello. Here to visit the Mt. Moon{NEWLINE}Spring? I’m terribly sorry, but I can’t{CLEAR}let you through right now.{SCROLL}Taro: My two girlfriends and I will be{NEWLINE}needing the spring for a bath shortly. I{CLEAR}hope you understand.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | D-1195: reverted to match the zh (Second page is labelled 太郎 (Taro), first page 麻生 (Asher): one trainer split into two labels (麻生太郎 joke)); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 84,
+   "zh": "如果在十年前{NEWLINE}面对这山间的美景,{CLEAR}你肯定会作诗一首吧。",
+   "en": "If you’d seen this mountain scenery ten{NEWLINE}years ago, you’d surely have written a{CLEAR}poem about it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 85,
+   "zh": "我喜欢的女孩终于答应跟我约会了！{NEWLINE}但是我还没选好约会的地点,{CLEAR}到底是关东的月见山广场好{CLEAR}还是城都的自然公园好呢？{CLEAR}华蓝海角貌似也不错。",
+   "en": "The girl I like finally agreed to go on a{NEWLINE}date with me!{SCROLL}But I haven’t picked a place yet.{NEWLINE}Mt. Moon Square in Kanto, or the{CLEAR}National Park in Johto? Cerulean Cape{CLEAR}looks nice, too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; ext-review RV-019"
+  },
+  {
+   "id": 86,
+   "zh": "月见山泉明明是公共景点,{NEWLINE}却被那伙人占了不让靠近,{CLEAR}还是用暴力手段驱赶我们,{CLEAR}真是太可恶了。",
+   "en": "The Mt. Moon Spring is supposed to be a{NEWLINE}public attraction, but that bunch took{CLEAR}it over and won’t let anyone near.{SCROLL}They even drove us off by force. It’s{NEWLINE}outrageous.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 87,
+   "zh": "好不容易来到月见山顶,{NEWLINE}偏偏遇到要拿珍贵的泉水洗澡的人,{CLEAR}唉,这群人根本不讲道理嘛。",
+   "en": "I finally made it to the top of Mt. Moon,{NEWLINE}and I run into people who want to bathe{CLEAR}in the precious spring water.{SCROLL}Sigh... There’s no reasoning with them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 88,
+   "zh": "老头子每年都会带我{NEWLINE}来月见山泉这里旅行,{CLEAR}这里是我们整个人生的回忆啊！{SCROLL}如今这几个年轻人{NEWLINE}却要在泉水里洗澡,{CLEAR}真的非要破坏这份美好吗？",
+   "en": "Every year, my old man brings me here{NEWLINE}to the Mt. Moon Spring. It holds the{CLEAR}memories of our whole life together!{SCROLL}And now these young people want to{NEWLINE}take a bath in the spring. Do they{CLEAR}really have to ruin something so{CLEAR}special?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 89,
+   "zh": "{VAR:0103:0}『月见山的泉水是给大家喝的,{NEWLINE}并不是你的洗澡水,{CLEAR}你们如果在里面洗澡{CLEAR}别人还怎么喝这水。",
+   "en": "{VAR:0103:0}: The Mt. Moon spring water is{NEWLINE}for everyone to drink. It’s not your{CLEAR}bathwater.{SCROLL}If you bathe in it, how is anyone else{NEWLINE}supposed to drink it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 90,
+   "zh": "{VAR:0103:0}『月见山的泉水是大家的,{NEWLINE}不是你家的洗澡水！{CLEAR}你们在里面洗澡弄脏了泉水,{CLEAR}你说叫别人怎么喝！",
+   "en": "{VAR:0103:0}: The Mt. Moon spring water{NEWLINE}belongs to everyone! It’s not your{CLEAR}personal bathwater!{SCROLL}If you bathe in it and make it dirty, how{NEWLINE}is anyone else supposed to drink it?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 91,
+   "zh": "麻生『不是我家的洗澡水,{NEWLINE}难道是你家的洗澡水吗！{CLEAR}这不是大家的月见山泉水吗？{CLEAR}那我也有资格使用啊！",
+   "en": "Asher: It’s not my bathwater? Then is{NEWLINE}it yours?!{SCROLL}Isn’t the Mt. Moon spring water for{NEWLINE}everyone? Then I have every right to{CLEAR}use it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 92,
+   "zh": "{VAR:0103:0}『你使用泉水{NEWLINE}不能以影响别人使用为前提啊。",
+   "en": "{VAR:0103:0}: Your right to use the spring{NEWLINE}stops where it gets in the way of{CLEAR}everyone else’s.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 93,
+   "zh": "{VAR:0103:0}『你所谓的使用{NEWLINE}已经严重影响别人使用了你知道吗！",
+   "en": "{VAR:0103:0}: This so-called use of yours is{NEWLINE}already ruining it for everyone else,{CLEAR}you know!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 94,
+   "zh": "麻生『我警告你不要自以为是,{NEWLINE}你要是不服我可以跟你比划比划。{CLEAR}帮你弄明白谁才是对的。",
+   "en": "Asher: I’m warning you, don’t get full{NEWLINE}of yourself. If you don’t like it, we can{CLEAR}settle this with a battle.{SCROLL}I’ll help you figure out who’s right.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 95,
+   "zh": "麻生『大哥大哥！{NEWLINE}你说的好像还是有道理的。{CLEAR}我们这就走,不在这洗澡了。",
+   "en": "Asher: Sir, sir! Now that you mention{NEWLINE}it, you do have a point.{SCROLL}We’ll leave right now. No more baths{NEWLINE}here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 96,
+   "zh": "麻生『大姐大姐！{NEWLINE}你说的好像还是有道理的。{CLEAR}我们这就走,不在这洗澡了。",
+   "en": "Asher: Ma’am, ma’am! Now that you{NEWLINE}mention it, you do have a point.{SCROLL}We’ll leave right now. No more baths{NEWLINE}here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 97,
+   "zh": "麻生『走吧宝贝们,{NEWLINE}别人用力量给咱们讲道理呢。{CLEAR}咱们得乖乖听话呀。",
+   "en": "Asher: Let’s go, my darlings. Someone’s{NEWLINE}reasoning with us by force. We’d better{CLEAR}do as we’re told.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 98,
+   "zh": "你这多管闲事的扫把星,{NEWLINE}真是会破坏别人的好心情！",
+   "en": "You meddling jinx! You really know how{NEWLINE}to ruin someone’s good mood!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 99,
+   "zh": "切,用暴力把我们赶走呗,{NEWLINE}我们走就是了！",
+   "en": "Tch. Fine, drive us off with force. We’re{NEWLINE}going, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 100,
+   "zh": "这几个年轻人竟然要用{NEWLINE}珍贵美丽的月见山泉当浴池！{CLEAR}我要是再年轻二十岁{CLEAR}就能把他们赶跑了,唉……",
+   "en": "These young people want to use the{NEWLINE}beautiful, precious Mt. Moon Spring as a{CLEAR}bathtub!{SCROLL}If I were twenty years younger, I’d{NEWLINE}chase them off myself. Sigh...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 101,
+   "zh": "谢谢你赶走了麻生一伙,{NEWLINE}让这里重归平静。{CLEAR}作为感谢请收下这个！",
+   "en": "Thank you for driving off Asher and his{NEWLINE}crew and bringing peace back to this{CLEAR}place.{SCROLL}Please take this as thanks!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 102,
+   "zh": "[zh redacted: song lyrics; sha256:71de3c70b7cfb5bfede6059e5ae45d4fed42f62cefa8230c1d847822cb9913f1]",
+   "en": "♪ (hums an old TV love theme...) ♪",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | 102–107: the couple sing lines from the C-pop love songs 当 (Huanzhu Gege theme) and 你是风儿我是沙; per the song rule (D-0368) replaced with hum/description lines, no lyrics translated or paraphrased. | zh redacted: song lyrics (zh_redact.py)"
+  },
+  {
+   "id": 103,
+   "zh": "[zh redacted: song lyrics; sha256:17c53d565a7aa0fe8701d3f7a5b5567fac64049fa04facef626baaa90acebc14]",
+   "en": "♪ (...still humming, eyes shining...) ♪",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | song rule, see #102 | zh redacted: song lyrics (zh_redact.py)"
+  },
+  {
+   "id": 104,
+   "zh": "[zh redacted: song lyrics; sha256:2fa274d264c28a4e0d2a9c8bf0a638b7d8dfd140922f04c4b83e5924139542db]",
+   "en": "♪ (...and ends the tune with a sigh) ♪",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | song rule, see #102 | zh redacted: song lyrics (zh_redact.py)"
+  },
+  {
+   "id": 105,
+   "zh": "[zh redacted: song lyrics; sha256:1cc5f888a553710fb108b6be2d784e08c94cd69a3d4faafef4a417575149901b]",
+   "en": "♪ (starts another old love duet...) ♪",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | song rule, see #102 | zh redacted: song lyrics (zh_redact.py)"
+  },
+  {
+   "id": 106,
+   "zh": "[zh redacted: song lyrics; sha256:3c55e78ba3ca2947a4ffc6545ee9bd0aa7b1617926c2fc1ba373a9e9dc7aeef0]",
+   "en": "♪ (...hums the answering line...) ♪",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | song rule, see #102 | zh redacted: song lyrics (zh_redact.py)"
+  },
+  {
+   "id": 107,
+   "zh": "[zh redacted: song lyrics; sha256:05591848c30fa391314dd080f8e2818b44ae50e5715e3f671bf0492ffc52f664]",
+   "en": "♪ (...and the duet trails off) ♪",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | song rule, see #102 | zh redacted: song lyrics (zh_redact.py)"
+  },
+  {
+   "id": 108,
+   "zh": "我和老伴的感情,{NEWLINE}从少年时的彷徨无措{CLEAR}到青年时的热情似火{CLEAR}到中年时的平淡如水{CLEAR}再到如今的豁然开朗,{CLEAR}就仿佛是登山一样,{CLEAR}每上一步就是一景啊！",
+   "en": "My wife and I... From the awkward{NEWLINE}uncertainty of our teens, to the{CLEAR}burning passion of our youth...{SCROLL}...to the calm, quiet years of middle{NEWLINE}age, and now to this sense of peace...{SCROLL}It’s just like climbing a mountain. Every{NEWLINE}step up brings a new view!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 109,
+   "zh": "谢谢你保卫了月见山的泉水,{NEWLINE}也保卫了我这份美好的回忆。{SCROLL}这块不变石送给你,{NEWLINE}希望你也能找到一位{CLEAR}永不变心的爱人。",
+   "en": "Thank you for protecting the Mt. Moon{NEWLINE}spring water, and my precious memories{CLEAR}along with it.{SCROLL}Please take this Everstone. I hope{NEWLINE}you’ll find someone whose love never{CLEAR}changes, too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 110,
+   "zh": "到了我和老头子这个年纪,{NEWLINE}才明白陪伴乃是最长情的告白。",
+   "en": "Only at our age, my old man and I, do we{NEWLINE}understand that being there for each{CLEAR}other is the truest declaration of love.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 111,
+   "zh": "算了吧,平时工作已经很累了,{NEWLINE}难得偷得片刻清闲,{CLEAR}让我放空下吧。",
+   "en": "Forget it. Work wears me out enough as{NEWLINE}it is. I finally snuck away for a little{CLEAR}peace, so let me zone out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 112,
+   "zh": "真是心如止水的生活啊……",
+   "en": "What a life, my mind as calm as still{NEWLINE}water...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 113,
+   "zh": "那个……明年你生日那天,{NEWLINE}我也请好假了,{CLEAR}再陪你出来旅游啊。",
+   "en": "Um... I’ve already booked time off for{NEWLINE}your birthday next year, too. I’ll take{CLEAR}you on another trip.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 114,
+   "zh": "偶尔也会有石子落到水面嘛。",
+   "en": "Well, now and then a pebble does fall{NEWLINE}into still water.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 115,
+   "zh": "哈哈,让你见笑了。{NEWLINE}请收下这个。",
+   "en": "Ha ha, sorry you had to see that.{NEWLINE}Please take this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 116,
+   "zh": "希望你也能在平淡的生活中{NEWLINE}收获到快乐。",
+   "en": "I hope you can find happiness in an{NEWLINE}ordinary life, too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 117,
+   "zh": "尼多兰『Do——ran！{SCROLL}尼多兰很开心！",
+   "en": "Nidoran♀: Do-ran!{SCROLL}Nidoran♀ is happy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; qa-lints: Nidoran♀/♂ per zh 尼多兰/尼多朗 (glossary, RB-D01)"
+  },
+  {
+   "id": 118,
+   "zh": "尼多朗『Do——rang！{SCROLL}尼多朗很开心！",
+   "en": "Nidoran♂: Do-rang!{SCROLL}Nidoran♂ is happy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; qa-lints: Nidoran♀/♂ per zh 尼多兰/尼多朗 (glossary, RB-D01)"
+  },
+  {
+   "id": 119,
+   "zh": "正电拍拍『Plu——sle！{SCROLL}正电拍拍很开心！",
+   "en": "Plusle: Plu-sle!{SCROLL}Plusle is happy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 120,
+   "zh": "负电拍拍『Mi——nun！{SCROLL}负电拍拍很开心！",
+   "en": "Minun: Mi-nun!{SCROLL}Minun is happy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 121,
+   "zh": "希罗娜『我也要更加认真地{NEWLINE}对待这次游历修行了！{CLEAR}下一步就以华蓝市为目标继续前进吧！",
+   "en": "Cynthia: I need to take this training{NEWLINE}journey more seriously, too! Next stop,{CLEAR}Cerulean City!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 122,
+   "zh": "梦幻『Meew——！",
+   "en": "Mew: Meew-!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 123,
+   "zh": "伦达『妈了个逼的,你听好了,{NEWLINE}火箭队是要统治世界的组织！{CLEAR}就你这个小破逼孩也想阻止我们？{CLEAR}做你妈了个逼的梦去吧！",
+   "en": "Petrel: Listen up, motherfucker! Team{NEWLINE}Rocket is an organization that’s going{CLEAR}to rule the world!{SCROLL}And a little shit like you thinks you can{NEWLINE}stop us? Keep fucking dreaming!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 妈了个逼的 / 小破逼孩 / 做你妈了个逼的梦 kept at strength."
+  },
+  {
+   "id": 124,
+   "zh": "皮皮『Cleee——fa！",
+   "en": "Clefairy: Cleee-fa!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 125,
+   "zh": "皮皮似乎并不想教你。",
+   "en": "Clefairy doesn’t seem to want to teach{NEWLINE}you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "这个精灵没法记住月亮之力。{SCROLL}",
+   "en": "This Pokémon can’t learn Moonblast.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 127,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 128,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会月亮之力了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows{NEWLINE}Moonblast!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 129,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 130,
+   "zh": "{VAR:0101:0}学会了月亮之力！",
+   "en": "{VAR:0101:0} learned Moonblast!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 131,
+   "zh": "皮皮『Cleee——fa！{SCROLL}皮皮从你身上拿走了一颗月之石！",
+   "en": "Clefairy: Cleee-fa!{SCROLL}Clefairy took a Moon Stone from you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 132,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的月亮之力……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习月亮之力{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn{NEWLINE}Moonblast...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn{NEWLINE}Moonblast?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 133,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 134,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 135,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 136,
+   "zh": "{VAR:0101:0}学会了月亮之力！",
+   "en": "{VAR:0101:0} learned Moonblast!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 137,
+   "zh": "你是要放弃{NEWLINE}让它记住月亮之力吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Moonblast?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 138,
+   "zh": "皮皮正在对着{NEWLINE}夜空中的月亮跳舞,{CLEAR}这个舞蹈似乎渗透着月亮的力量,{CLEAR}要让自己的精灵跟皮皮学习跳舞吗？{SCROLL}",
+   "en": "Clefairy is dancing toward the moon in{NEWLINE}the night sky. The dance seems filled{CLEAR}with the moon’s power.{SCROLL}Have one of your Pokémon learn the{NEWLINE}dance from Clefairy?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 139,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  }
+ ]
+}

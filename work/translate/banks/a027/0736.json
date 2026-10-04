@@ -1,0 +1,327 @@
+{
+ "narc": "a027",
+ "bank": 736,
+ "source": "work/extract/v4/a027/0736.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "让{VAR:0101:0}{NEWLINE}学哪个技能呢？",
+   "en": "Teach which move to{NEWLINE}{VAR:0101:0}?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/0"
+  },
+  {
+   "id": 1,
+   "zh": "学习{VAR:0106:1}吗？",
+   "en": "Teach the move{NEWLINE}{VAR:0106:1}?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/1"
+  },
+  {
+   "id": 2,
+   "zh": "放弃让{VAR:0101:0}{NEWLINE}学技能吗？",
+   "en": "Give up trying to teach a new{NEWLINE}move to {VAR:0101:0}?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/2"
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:0101:0}学会了{NEWLINE}新的技能{VAR:0106:1}！{VAR:0207}",
+   "en": "{VAR:0101:0} learned{NEWLINE}{VAR:0106:1}.{VAR:0207}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/3"
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0101:0}想学{NEWLINE}新技能{VAR:0106:1}⋯⋯{VAR:0207}{NEWLINE}但{VAR:0101:0}已经会了４个技能,{NEWLINE}无法再学新的技能了！{VAR:0207}{NEWLINE}为了{VAR:0106:1},{NEWLINE}要忘记其他的技能马？",
+   "en": "{VAR:0101:0} is trying to learn{NEWLINE}{VAR:0106:1}.{VAR:0207}{NEWLINE}But {VAR:0101:0} can’t learn more{NEWLINE}than four moves.{VAR:0207}{NEWLINE}Delete an older move to make{NEWLINE}room for {VAR:0106:1}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0747/4 | seed rejected us [tag_mismatch] (candidate US 0747#4; text not kept)"
+  },
+  {
+   "id": 5,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}⋯{VAR:0201:20}⋯{VAR:0201:20}　完成！{VAR:0202:3}{VAR:0202:5}{VAR:0207}{NEWLINE}{VAR:0101:0}完全忘记了{NEWLINE}{VAR:0106:1}的用法！{VAR:0207}{NEWLINE}然后⋯⋯！{VAR:0207}",
+   "en": "1{VAR:0201:20}, 2{VAR:0201:20}, and{VAR:0201:20}... {VAR:0201:20}... Poof!{VAR:0202:3}{VAR:0202:5}{VAR:0207}{NEWLINE}{VAR:0101:0} forgot{NEWLINE}{VAR:0106:1}.{VAR:0207}{NEWLINE}And...{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0747/5 | seed rejected us [tag_mismatch] (candidate US 0747#5; text not kept)"
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0101:0}学会了{NEWLINE}新的技能{VAR:0106:1}！{VAR:0202:4}{VAR:0202:2}{NEWLINE}{VAR:0207}",
+   "en": "{VAR:0101:0} learned{NEWLINE}{VAR:0106:1}.{VAR:0202:4}{VAR:0202:2}{NEWLINE}{VAR:0207}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/6"
+  },
+  {
+   "id": 7,
+   "zh": "那么⋯⋯要放弃学{NEWLINE}{VAR:0106:1}吗？",
+   "en": "Stop trying to teach{NEWLINE}{VAR:0106:1}?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/7"
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:0101:0}没有学会{NEWLINE}{VAR:0106:1}！{VAR:0207}",
+   "en": "{VAR:0101:0} did not learn the{NEWLINE}move {VAR:0106:1}.{VAR:0207}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/8"
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0103:2}送你{NEWLINE}１枚心之鳞片作礼物！{VAR:0207}",
+   "en": "{VAR:0103:2} gave you{NEWLINE}one Heart Scale as a gift!{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (Says {VAR:0103:2} gives you a Heart Scale as a gift; in vanilla the player hands one over as payment); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 10,
+   "zh": "忘记{NEWLINE}{VAR:0106:0},确定吗？",
+   "en": "{VAR:0106:0} is the move that{NEWLINE}you want forgotten?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/10"
+  },
+  {
+   "id": 11,
+   "zh": "让{VAR:0101:0}{NEWLINE}回忆起哪个技能？",
+   "en": "Which move should {VAR:0101:0}{NEWLINE}remember?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/11"
+  },
+  {
+   "id": 12,
+   "zh": "回忆起{NEWLINE}{VAR:0106:1}吗？",
+   "en": "Should the move {VAR:0106:1}{NEWLINE}be remembered?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/12"
+  },
+  {
+   "id": 13,
+   "zh": "放弃让{VAR:0101:0}{NEWLINE}回忆起技能吗？",
+   "en": "Give up trying to make{NEWLINE}{VAR:0101:0} remember a move?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/13"
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0101:0}把忘记的{NEWLINE}{VAR:0106:1}回忆起来了！{VAR:0207}",
+   "en": "{VAR:0101:0} remembered the move{NEWLINE}{VAR:0106:1} it had forgotten!{VAR:0207}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/14"
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0101:0}{NEWLINE}想回忆{VAR:0106:1}⋯⋯{VAR:0207}{NEWLINE}但{VAR:0101:0}已经会了４个技能,{NEWLINE}无法再记住新的技能了！{VAR:0207}{NEWLINE}为了{VAR:0106:1},{NEWLINE}要忘记其他的技能么？",
+   "en": "{VAR:0101:0} wants to remember{NEWLINE}the move {VAR:0106:1}.{VAR:0207}{NEWLINE}But {VAR:0101:0} can’t learn more{NEWLINE}than four moves.{VAR:0207}{NEWLINE}Delete an existing move to make{NEWLINE}room for {VAR:0106:1}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0747/15 | seed rejected us [tag_mismatch] (candidate US 0747#15; text not kept)"
+  },
+  {
+   "id": 16,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}⋯{VAR:0201:20}⋯{VAR:0201:20}　完成！{VAR:0202:3}{VAR:0202:5}{VAR:0207}{NEWLINE}{VAR:0101:0}　完全忘记了{NEWLINE}{VAR:0106:1}的用法！{VAR:0207}{NEWLINE}然后⋯⋯！{VAR:0207}",
+   "en": "1{VAR:0201:20}, 2{VAR:0201:20}, and{VAR:0201:20}... {VAR:0201:20}... Poof!{VAR:0202:3}{VAR:0202:5}{VAR:0207}{NEWLINE}{VAR:0101:0} forgot{NEWLINE}{VAR:0106:1}.{VAR:0207}{NEWLINE}And...{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0747/16 | seed rejected us [tag_mismatch] (candidate US 0747#16; text not kept)"
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0101:0}将忘记的{NEWLINE}{VAR:0106:1}想起来了！{VAR:0202:4}{VAR:0202:2}{NEWLINE}{VAR:0207}",
+   "en": "{VAR:0101:0} remembered the move{NEWLINE}{VAR:0106:1}.{VAR:0202:4}{VAR:0202:2}{NEWLINE}{VAR:0207}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/17"
+  },
+  {
+   "id": 18,
+   "zh": "那么⋯⋯要放弃{NEWLINE}回忆起{VAR:0106:1}吗？",
+   "en": "Give up making the Pokémon{NEWLINE}remember {VAR:0106:1}?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/18"
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0101:0}没有想起{NEWLINE}{VAR:0106:1}！{VAR:0207}",
+   "en": "{VAR:0101:0} did not remember the{NEWLINE}move {VAR:0106:1}.{VAR:0207}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/19"
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0103:2}送你{NEWLINE}１枚心之鳞片作礼物！{VAR:0207}",
+   "en": "{VAR:0103:2} gave you{NEWLINE}one Heart Scale as a gift!{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "See #9.; ext-review RB-D02"
+  },
+  {
+   "id": 21,
+   "zh": "要忘记{NEWLINE}{VAR:0106:0},确定吗？",
+   "en": "Is it OK to make this Pokémon{NEWLINE}forget the move {VAR:0106:0}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "属性",
+   "en": "TYPE",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s)"
+  },
+  {
+   "id": 23,
+   "zh": "威力",
+   "en": "POWER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/23"
+  },
+  {
+   "id": 24,
+   "zh": "命中",
+   "en": "ACCURACY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/24"
+  },
+  {
+   "id": 25,
+   "zh": "ＰＰ",
+   "en": "PP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "战斗技能",
+   "en": "BATTLE MOVES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 27,
+   "zh": "裁判评分",
+   "en": "APPEAL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "选美技能",
+   "en": "CONTEST MOVES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0133:0}／{VAR:0133:1}",
+   "en": "{VAR:0133:0}/{VAR:0133:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s); other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 33,
+   "zh": "ーーー",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "返回",
+   "en": "RETURN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/34"
+  },
+  {
+   "id": 35,
+   "zh": "记住",
+   "en": "TEACH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/35"
+  },
+  {
+   "id": 36,
+   "zh": "要学哪个技能？",
+   "en": "TEACH WHICH MOVE?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/36"
+  },
+  {
+   "id": 37,
+   "zh": "{VAR:0101:0}",
+   "en": "{VAR:0101:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "Ｌｖ．{VAR:0134:0}",
+   "en": "Lv. {VAR:0134:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "学会的技能",
+   "en": "LEARNED MOVES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0747/39"
+  }
+ ]
+}

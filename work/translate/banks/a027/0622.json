@@ -1,0 +1,386 @@
+{
+ "narc": "a027",
+ "bank": 622,
+ "source": "work/extract/v4/a027/0622.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "你好啊！{NEWLINE}未来的冠军！{SCROLL}这个道馆中的立足点很不稳定,{NEWLINE}会有危险,{CLEAR}所以要看好精灵哦。{SCROLL}……对了,{NEWLINE}伊吹使用的精灵{CLEAR}是传说的生物,{CLEAR}神圣的龙精灵！{SCROLL}轻微的攻击{NEWLINE}是伤不到它的！{SCROLL}……但是{NEWLINE}听说龙对冰系的技能{CLEAR}抗性较弱！",
+   "en": "Yo! Champ in the making!{SCROLL}The Gym has unstable footing.{NEWLINE}Keep your Pokémon in their Poké Balls.{SCROLL}Now, Clair uses the mythical and sacred{NEWLINE}Dragon-type Pokémon.{SCROLL}You can’t damage them very easily.{SCROLL}But you know, they’re supposed{NEWLINE}to be weak against Ice-type moves.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0631/0"
+  },
+  {
+   "id": 1,
+   "zh": "哇,你战胜了伊吹！{NEWLINE}你可真厉害啊！{SCROLL}我一直都认为{NEWLINE}伊吹是最强的了,{CLEAR}看来你已经强得没边了！{SCROLL}不过,我还是会{NEWLINE}按照伊吹所说的{CLEAR}去进行训练！",
+   "en": "Wow, you beat Clair! You’re amazing!{SCROLL}I always thought Clair was the{NEWLINE}strongest, but you’re on{CLEAR}another level!{SCROLL}Still, I’m going to keep training the way{NEWLINE}Clair told me to!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0631/1; ext-review ROOT-020"
+  },
+  {
+   "id": 2,
+   "zh": "你好啊,冠军大人。{SCROLL}这个道馆中的立足点很不稳定,{NEWLINE}会有危险,{CLEAR}所以还是把精灵收起来比较好。{SCROLL}",
+   "en": "Hello, Champion.{SCROLL}The footing in this Gym is very unstable{NEWLINE}and dangerous, so you’d better{CLEAR}keep your Pokémon in their Balls.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "伊吹『你终于来了啊,{NEWLINE}联盟冠军{VAR:0103:0}！{SCROLL}伊吹『我是烟墨道馆的馆主伊吹,{NEWLINE}是烟墨市最强的龙之使者。{CLEAR}你当年在石英大会上击败了{CLEAR}跟我一样同为烟墨市龙之使者的渡,{CLEAR}抢走了本该属于他的联盟冠军宝座。{CLEAR}虽然精灵联盟认可了你的冠军身份,{CLEAR}但我对那场比赛的过程一直存疑,{CLEAR}所以绝不会把升龙徽章{CLEAR}交给你这样不清不楚的人。{SCROLL}伊吹『你如果想从我这里获得徽章,{NEWLINE}那就要使用龙系精灵{CLEAR}或者龙形态的精灵,{CLEAR}与我来一场单打对战。{CLEAR}如果你能打赢我,{CLEAR}我再考虑要不要把升龙徽章给你。{CLEAR}怎么样,敢接受我的挑战吗？",
+   "en": "Clair: So you’ve finally come,{NEWLINE}League Champion {VAR:0103:0}!{SCROLL}Clair: I am Clair, Leader of the{NEWLINE}Blackthorn Gym and the strongest{CLEAR}dragon master in Blackthorn City.{SCROLL}At the Indigo Conference, you defeated{NEWLINE}Lance, a Blackthorn dragon master{CLEAR}like me, and stole the Champion’s{CLEAR}throne that should have been his.{SCROLL}The Pokémon League may recognize{NEWLINE}you as Champion, but I’ve always had{CLEAR}my doubts about how that match went.{SCROLL}So I will never hand the Rising Badge{NEWLINE}to someone of such dubious standing.{SCROLL}Clair: If you want a Badge from me, face{NEWLINE}me in a Single Battle using Dragon-type{CLEAR}or dragon-shaped Pokémon.{SCROLL}If you can beat me, then I’ll{NEWLINE}consider giving you the Rising Badge.{CLEAR}Well? Dare you accept my challenge?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "伊吹『堂堂联盟冠军不敢应战？{NEWLINE}果然是徒有虚名。",
+   "en": "Clair: The mighty League Champion{NEWLINE}won’t accept a challenge? You really{CLEAR}are all reputation and no substance.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "伊吹『咱们战斗的条件是：{NEWLINE}只使用龙系精灵或龙形态的精灵。{CLEAR}你身上携带的精灵不符合条件,{CLEAR}回去整理一下队伍再来找我吧。",
+   "en": "Clair: Our terms are: only Dragon-type{NEWLINE}or dragon-shaped Pokémon. The Pokémon{CLEAR}you have with you don’t meet them.{CLEAR}Go sort out your team and come back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "伊吹『既然你已经准备好了,{NEWLINE}那咱们就开始吧！",
+   "en": "Clair: Since you’re ready, let’s begin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "伊吹『可恶,被打败了吗……{SCROLL}伊吹『不过就算你能战胜我,{NEWLINE}也并不能证明你就配得上{CLEAR}「联盟冠军」这个最强称号。{CLEAR}你现在可以去道馆北面的{CLEAR}龙之洞穴深处的祠堂看看,{CLEAR}如果你能获得那里长老的认可,{CLEAR}我也就认可你是最强训练家,{CLEAR}并把升龙徽章双手奉上。",
+   "en": "Clair: Blast it, I lost...{SCROLL}Clair: But even if you can beat me, that{NEWLINE}doesn’t prove you deserve the title of{CLEAR}League Champion, the strongest of all.{SCROLL}Go to the shrine deep inside{NEWLINE}the Dragon’s Den, north of{CLEAR}the Gym. If you can win the{CLEAR}approval of the Elder there,{SCROLL}then I too will accept that you’re the{NEWLINE}strongest Trainer, and I’ll hand over{CLEAR}the Rising Badge with all due respect.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "伊吹『就算你能战胜我,{NEWLINE}也并不能证明你就配得上{CLEAR}「联盟冠军」这个最强称号。{CLEAR}你现在可以去道馆北面的{CLEAR}龙之洞穴深处的祠堂看看,{CLEAR}如果你能获得那里长老的认可,{CLEAR}我也就认可你是最强训练家,{CLEAR}并把升龙徽章双手奉上。",
+   "en": "Clair: Even if you can beat me, that{NEWLINE}doesn’t prove you deserve the title of{CLEAR}League Champion, the strongest of all.{SCROLL}Go to the shrine deep inside{NEWLINE}the Dragon’s Den, north of{CLEAR}the Gym. If you can win the{CLEAR}approval of the Elder there,{SCROLL}then I too will accept that you’re the{NEWLINE}strongest Trainer, and I’ll hand over{CLEAR}the Rising Badge with all due respect.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "伊吹『是{VAR:0103:0}啊,{NEWLINE}你是来烟墨市修行的吗？{CLEAR}如果是的话我也可以陪你练练。{CLEAR}你要看看我最近的训练成果吗？",
+   "en": "Clair: Oh, {VAR:0103:0}. Have you come to{NEWLINE}Blackthorn City to train? If so, I{CLEAR}can spar with you. Want to see what{CLEAR}my training has achieved lately?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "烟墨市　精灵道馆",
+   "en": "Blackthorn City Pokémon Gym",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0631/10"
+  },
+  {
+   "id": 11,
+   "zh": "烟墨市　精灵道馆{SCROLL}馆主　　伊吹{NEWLINE}认可训练师！{CLEAR}{VAR:0103:0}",
+   "en": "Blackthorn City Pokémon Gym{SCROLL}Leader: Clair{NEWLINE}Certified Trainer!{CLEAR}{VAR:0103:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0631/11"
+  },
+  {
+   "id": 12,
+   "zh": "烟墨道馆是城都地区最强的道馆,{NEWLINE}让我看看你是不是已经做好了{CLEAR}挑战的准备！",
+   "en": "The Blackthorn Gym is the strongest{NEWLINE}Gym in Johto. Let me see if you’re{CLEAR}really ready for the challenge!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "欢迎冠军大人来到烟墨道馆。",
+   "en": "Welcome to the{NEWLINE}Blackthorn Gym, Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "我说怎么这么强呢,{NEWLINE}原来是冠军大人啊。{CLEAR}欢迎您来到烟墨道馆！",
+   "en": "No wonder you’re so strong.{NEWLINE}You’re the Champion! Welcome{CLEAR}to the Blackthorn Gym!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "啊！来了来了！",
+   "en": "Ah! Here you are!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "您好啊冠军大人,我是您的粉丝。{NEWLINE}我听伊吹馆主说您有可能会来,{CLEAR}所以特别期待,{CLEAR}现在终于把您给盼来了。{SCROLL}请允许我用训练家间{NEWLINE}最直接的打招呼方式,{CLEAR}向我的偶像问好！",
+   "en": "Hello, Champion! I’m your fan!{NEWLINE}Clair said you might come, so I’ve{CLEAR}been really looking forward to{CLEAR}it, and now you’re finally here!{SCROLL}Please allow me to greet my{NEWLINE}idol in the most direct way{CLEAR}there is between Trainers!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "嘿嘿,不管结果如何,{NEWLINE}我都跟我的偶像对战过了。{CLEAR}这种感觉好幸福啊！",
+   "en": "Hee hee. Whatever the{NEWLINE}result, I’ve battled my idol!{CLEAR}This feeling is pure bliss!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "嘿嘿,能跟偶像对战,{NEWLINE}想想就觉得好幸福啊！",
+   "en": "Hee hee. Just thinking about{NEWLINE}battling my idol makes me so happy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "冠军大人请留步。",
+   "en": "Champion, please wait.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "按照烟墨道馆的规矩,{NEWLINE}要见道馆馆主{CLEAR}必须先打败我们两个才行。",
+   "en": "By the rules of the Blackthorn{NEWLINE}Gym, you must defeat the two of us{CLEAR}before you can see the Gym Leader.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "即使是联盟冠军也不能例外,{NEWLINE}所以请恕我们得罪了。",
+   "en": "Not even the League Champion is an{NEWLINE}exception, so please forgive us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "其实烟墨道馆并没有{NEWLINE}必须打败我们才能见到馆主的规矩。{CLEAR}伊吹馆主只是希望{CLEAR}通过观察我们与您的战斗,{CLEAR}更加深入地了解您的实力罢了。",
+   "en": "Actually, the Blackthorn Gym{NEWLINE}has no rule that you have to{CLEAR}beat us to see the Leader.{SCROLL}Clair just wanted to learn{NEWLINE}more about your strength{CLEAR}by watching us battle you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "伊吹馆主非常崇拜她的堂哥渡大人。{NEWLINE}或许在她的心目中,{CLEAR}更希望渡大人成为联盟冠军吧。",
+   "en": "Clair idolizes her cousin Lance.{NEWLINE}Maybe in her heart, she wishes Lance{CLEAR}had become the League Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "即便是亲身跟您对战过了,{NEWLINE}我也完全无法感受到{CLEAR}您的极限在哪里。",
+   "en": "Even after battling you{NEWLINE}myself, I couldn’t sense{CLEAR}where your limits are at all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "伊吹大人已经在前面等着您了,{NEWLINE}请过去吧。",
+   "en": "Clair is waiting for you{NEWLINE}up ahead. Please go on.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "伊吹『你是喜欢单打还是双打？",
+   "en": "Clair: Would you like singles or doubles?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 28,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 29,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 30,
+   "zh": "伊吹『没问题。虽然你很强,{NEWLINE}但我也不会辱没龙之使者的名号,{CLEAR}放马过来吧！",
+   "en": "Clair: Very well. You may be{NEWLINE}strong, but I won’t disgrace the{CLEAR}name of dragon master. Bring it on!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "伊吹『啊……果然还是敌不过你,{NEWLINE}看来今后要再加倍努力才行。",
+   "en": "Clair: Ah... I still can’t beat{NEWLINE}you after all. I’ll have to{CLEAR}try twice as hard from now on.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "伊吹『单打要至少携带两只精灵,{NEWLINE}你身为联盟冠军{CLEAR}不要犯这种常识性的错误！",
+   "en": "Clair: A Single Battle needs at least{NEWLINE}two Pokémon. As League Champion, you{CLEAR}shouldn’t make such a basic mistake!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (Says 单打 (a Single Battle) needs at least two Pokémon, in a Double Battle context); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 33,
+   "zh": "龙之舞是烟墨道馆代代相传的绝招,{NEWLINE}在战斗中使用龙之舞,{CLEAR}可以同时强化精灵的攻击力和速度。{CLEAR}如果你能从伊吹馆主那赢得升龙徽章,{CLEAR}就代表你有学习龙之舞的资格,{CLEAR}到时我就可以把龙舞教给你。",
+   "en": "Dragon Dance is a secret technique{NEWLINE}handed down through the generations{CLEAR}at the Blackthorn Gym. Using Dragon{CLEAR}Dance in battle raises a Pokémon’s{CLEAR}Attack and Speed at the same time.{SCROLL}If you win the Rising Badge from{NEWLINE}Clair, it proves you’re worthy{CLEAR}of learning Dragon Dance.{CLEAR}Then I can teach it to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "你已经获得升龙徽章了啊,{NEWLINE}那么你现在可以学习龙舞了。{CLEAR}要让我教你的精灵使用龙舞吗？",
+   "en": "You’ve already got the Rising Badge?{NEWLINE}Then you can learn Dragon Dance now.{CLEAR}Shall I teach it to one of your Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 36,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it,{NEWLINE}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 37,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住龙舞。{SCROLL}",
+   "en": "Sorry... This Pokémon{NEWLINE}can’t learn Dragon Dance.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 39,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会龙舞了！{SCROLL}",
+   "en": "This {VAR:0100:0} already{NEWLINE}knows Dragon Dance!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20}, 2{VAR:0201:20}, and{VAR:0201:20}... {VAR:0201:20}... Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl); qa-lints: unified with identical zh elsewhere (zh_variant)"
+  },
+  {
+   "id": 41,
+   "zh": "{VAR:0101:0}学会了龙舞！",
+   "en": "{VAR:0101:0} learned Dragon Dance!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会龙舞了！",
+   "en": "There! Your {VAR:0100:0}{NEWLINE}has learned Dragon Dance!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的龙舞……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习龙舞{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to{NEWLINE}learn Dragon Dance...!{SCROLL}But {VAR:0101:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move{NEWLINE}to learn Dragon Dance?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 46,
+   "zh": "你是要放弃{NEWLINE}让它记住龙舞吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Dragon Dance?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

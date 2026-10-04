@@ -1,0 +1,407 @@
+{
+ "narc": "a027",
+ "bank": 428,
+ "source": "work/extract/v4/a027/0428.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "欢迎光临！{NEWLINE}有什么能帮到你吗？",
+   "en": "Welcome!{NEWLINE}How may I help you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "多谢惠顾。",
+   "en": "Please come again!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/1"
+  },
+  {
+   "id": 2,
+   "zh": "是吗,{NEWLINE}那么下次再见。",
+   "en": "Is that right?{NEWLINE}Well, come back anytime!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/2"
+  },
+  {
+   "id": 3,
+   "zh": "下次再来买吧。",
+   "en": "Come back again!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/3"
+  },
+  {
+   "id": 4,
+   "zh": "是吗？{NEWLINE}那下次再来吧,{CLEAR}嘻嘻嘻。",
+   "en": "Is that right?{NEWLINE}Well, come back anytime!{CLEAR}Hee hee!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/4"
+  },
+  {
+   "id": 5,
+   "zh": "下次再来吧,{NEWLINE}不过我晚上会关店。",
+   "en": "Come back anytime!{NEWLINE}Well, not in the evening. We’re closed.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/5"
+  },
+  {
+   "id": 6,
+   "zh": "还有什么我可以{NEWLINE}帮得上忙的吗？{VAR:0200:0}",
+   "en": "Is there anything else I may do{NEWLINE}for you? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/6"
+  },
+  {
+   "id": 7,
+   "zh": "还有什么想要的吗？{VAR:0200:0}",
+   "en": "Do you need anything else? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/7"
+  },
+  {
+   "id": 8,
+   "zh": "还有其他{NEWLINE}想要的东西吗？{VAR:0200:0}",
+   "en": "Do you need anything else?{NEWLINE}Anything at all? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/8"
+  },
+  {
+   "id": 9,
+   "zh": "还有别的想要的吗？{NEWLINE}嘻嘻嘻。{VAR:0200:0}",
+   "en": "Do you need anything else?{NEWLINE}Hee hee! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/9"
+  },
+  {
+   "id": 10,
+   "zh": "还有别的想要的吗？{VAR:0200:0}",
+   "en": "Do you want anything else? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/10"
+  },
+  {
+   "id": 11,
+   "zh": "你的钱不够！",
+   "en": "You don’t have enough money.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/11"
+  },
+  {
+   "id": 12,
+   "zh": "要买多少个{VAR:0108:0}？",
+   "en": "{VAR:0108:0}? Certainly.{NEWLINE}How many would you like?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/12"
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0108:0}是吗,{NEWLINE}{VAR:0133:1}个合计{VAR:0137:2}¥可以吗？",
+   "en": "{VAR:0108:0}, and you want {VAR:0133:1}.{NEWLINE}That will be ${VAR:0137:2}. OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0133:0}个合计{NEWLINE}{VAR:0137:1}¥。",
+   "en": "For {VAR:0133:0}, that will{NEWLINE}be ${VAR:0137:1}, please.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/14"
+  },
+  {
+   "id": 15,
+   "zh": "好的,给你,{NEWLINE}谢谢惠顾。{VAR:0202:1}{SCROLL}我把{VAR:0108:0}{NEWLINE}装进{VAR:011B:1}口袋了。",
+   "en": "Here you are!{NEWLINE}Thank you!{VAR:0202:1}{SCROLL}You put away the {VAR:0108:0}{NEWLINE}in the {VAR:011B:1} Pocket.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/15"
+  },
+  {
+   "id": 16,
+   "zh": "东西满了！",
+   "en": "You don’t have enough room.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/16"
+  },
+  {
+   "id": 17,
+   "zh": "返回",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/17"
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0135:0}¥",
+   "en": "${VAR:0135:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0135:0}Ｐ",
+   "en": "{VAR:0135:0}P",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "赠送您１个赠品球{NEWLINE}作为礼品吧！",
+   "en": "You also get a Premier Ball as{NEWLINE}an added bonus.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/20"
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:010A:0}已经{NEWLINE}往电脑上传了。{VAR:0202:1}",
+   "en": "The {VAR:010A:0} will be{NEWLINE}sent to your PC.{VAR:0202:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "电脑容量已经满,{NEWLINE}不能放入道具了。",
+   "en": "Your PC is full, so no more{NEWLINE}items can be stored.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "将{VAR:010A:0}放进了贴纸盒！{VAR:0202:1}",
+   "en": "You placed the {VAR:010A:0}{NEWLINE}in the Seal Case. {VAR:0202:1}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/23"
+  },
+  {
+   "id": 24,
+   "zh": "贴纸盒已满了,{NEWLINE}不能再放入贴纸。",
+   "en": "The Seal Case is full.{NEWLINE}You have no more room for Seals.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/24"
+  },
+  {
+   "id": 25,
+   "zh": "今天不能还了！",
+   "en": "You can’t buy any more today!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/25"
+  },
+  {
+   "id": 26,
+   "zh": "您已经有了！{NEWLINE}",
+   "en": "You already have this!{NEWLINE}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/26"
+  },
+  {
+   "id": 27,
+   "zh": "购买",
+   "en": "BUY",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s)"
+  },
+  {
+   "id": 28,
+   "zh": "卖出",
+   "en": "SELL",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 29,
+   "zh": "取消",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 30,
+   "zh": "零花钱",
+   "en": "Money",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/30"
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0137:0}¥",
+   "en": "${VAR:0137:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:0137:0}Ｐ",
+   "en": "{VAR:0137:0}P",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "竞技点数",
+   "en": "Athlete Pts.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/33"
+  },
+  {
+   "id": 34,
+   "zh": "已经拥有{VAR:0134:0}个",
+   "en": "In Bag: {VAR:0134:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "持有数",
+   "en": "In Bag:",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/35"
+  },
+  {
+   "id": 36,
+   "zh": "{VAR:0134:0}个",
+   "en": "{VAR:0134:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "ｘ{VAR:0133:0}",
+   "en": "x{VAR:0133:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "{VAR:0137:0}¥",
+   "en": "${VAR:0137:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 40,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 41,
+   "zh": "要什么事？",
+   "en": "What can I do for you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "买",
+   "en": "BUY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/42"
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0133:0}/{VAR:0133:1}",
+   "en": "{VAR:0133:0}/{VAR:0133:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0132:0}",
+   "en": "{VAR:0132:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0132:1}",
+   "en": "{VAR:0132:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "{VAR:0108:0}　{NEWLINE}可以吗？",
+   "en": "Would you like{NEWLINE}{VAR:0108:0}?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/46"
+  },
+  {
+   "id": 47,
+   "zh": "好了,{NEWLINE}非常感谢您的惠顾。{SCROLL}{VAR:0108:0}{NEWLINE}已经装入口袋了。",
+   "en": "Here you go.{NEWLINE}Thank you very much!{SCROLL}The {VAR:0108:0} was{NEWLINE}put in your Bag.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "您的点数不足！",
+   "en": "You don’t have enough points!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/48"
+  },
+  {
+   "id": 49,
+   "zh": "好了,{NEWLINE}非常感谢您的惠顾。{VAR:0202:1}",
+   "en": "All right, here you go.{NEWLINE}Come back anytime! {VAR:0202:1}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0435/49"
+  }
+ ]
+}

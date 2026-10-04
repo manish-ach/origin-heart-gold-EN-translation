@@ -1,0 +1,695 @@
+{
+ "narc": "a027",
+ "bank": 481,
+ "source": "work/extract/v4/a027/0481.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "精灵同好俱乐部的会长就是我！{SCROLL}我所培育的精灵{NEWLINE}超过了１５０只了哦！{SCROLL}一聊到精灵我就那个激动啊！{SCROLL}你想听听令我骄傲{NEWLINE}的精灵的事吧？{VAR:0200:0}",
+   "en": "I’m the Chairman of the Pokémon Fan{NEWLINE}Club!{SCROLL}I’ve raised over 150 Pokémon!{SCROLL}Talking about Pokémon gets me so{NEWLINE}excited!{SCROLL}You want to hear about my pride and{NEWLINE}joy, right? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0488/0; ext-review C-001"
+  },
+  {
+   "id": 1,
+   "zh": "是吗！{NEWLINE}那么就快点开始吧！{SCROLL}那个啊……我心爱的{NEWLINE}烈焰马呢……　……{SCROLL}……那个……啊……唉{NEWLINE}……　……是很可爱的啊……{CLEAR}哎呀！太可爱了……{CLEAR}……　另外……　我要……{CLEAR}一直……看{CLEAR}……那样想的……{CLEAR}……　……噗哈！{SCROLL}……　紧紧抱着它……{NEWLINE}不管是一起睡觉的时候……{CLEAR}还是洗澡的时候都要……{CLEAR}……是吧？所以说……{CLEAR}……　……　那种出色……！{CLEAR}……　那种美丽……{CLEAR}……　……　那种热闹……{CLEAR}……　唉！？{CLEAR}都这么晚了！{CLEAR}我有点话说太多了！{SCROLL}你这么乖乖地听我讲{NEWLINE}我骄傲的精灵事迹,{CLEAR}作为谢礼{CLEAR}我把这个礼物给你！{SCROLL}",
+   "en": "Really? Then let’s get started!{SCROLL}So... my beloved Rapidash... ...{SCROLL}...well... ah... sigh... ...it’s so{NEWLINE}cute... Oh my! Too cute... ...and{CLEAR}also... I want to... always...{CLEAR}watch it... ...that’s what I{CLEAR}think... ... ...Pwah!{SCROLL}...I hug it tight... when we sleep{NEWLINE}together... and even when we take a{CLEAR}bath... ...right? So I mean... ...{CLEAR}...that brilliance...! ...that{CLEAR}beauty... ... ...that liveliness...{CLEAR}...Huh!? It’s this late already! I{CLEAR}talked a bit too much!{SCROLL}You listened so nicely to me talk about{NEWLINE}my pride and joy, so as thanks, I’ll give{CLEAR}you this present!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0488/1; modernised from US 0488#1"
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}{NEWLINE}得到了神奇糖果！",
+   "en": "{VAR:0103:0} received a Rare Candy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 3,
+   "zh": "这是能使精灵变强的神奇糖果！{SCROLL}我比较喜欢通过一起战斗后{CLEAR}变强的方式啊。{SCROLL}这个糖果就给你了！",
+   "en": "It’s a Rare Candy that makes{NEWLINE}Pokémon stronger.{SCROLL}I prefer making my Pokémon stronger{NEWLINE}by battling, so you can have it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0488/3"
+  },
+  {
+   "id": 4,
+   "zh": "呀,呀,{VAR:0103:0}！{SCROLL}又来听我引以为傲的{NEWLINE}精灵的故事了吧！{SCROLL}……唉？不是吗？{NEWLINE}什么啊……真没劲。",
+   "en": "Hello, {VAR:0103:0}!{SCROLL}Did you come see me about my{NEWLINE}Pokémon again?{SCROLL}No? Oh... I had more tales to tell...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0488/4"
+  },
+  {
+   "id": 5,
+   "zh": "呀,呀,{VAR:0103:0}！{SCROLL}又来听我引以为傲的{NEWLINE}精灵的故事了吧！{SCROLL}……唉？不是吗？{NEWLINE}什么啊……真没劲。",
+   "en": "Hello, {VAR:0103:0}!{SCROLL}Did you come see me about my{NEWLINE}Pokémon again?{SCROLL}No? Oh... I had more tales to tell...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0488/5"
+  },
+  {
+   "id": 6,
+   "zh": "真没劲……{SCROLL}不想听我的故事啊,{NEWLINE}下次再来啊！",
+   "en": "How disappointing...{SCROLL}Come back if you want to listen{NEWLINE}to me again!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0488/6"
+  },
+  {
+   "id": 7,
+   "zh": "你有好多行李啊！",
+   "en": "Your Bag is jammed full.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0488/7"
+  },
+  {
+   "id": 8,
+   "zh": "我们精灵同好会{NEWLINE}都是喜欢可爱型精灵的人哟。{CLEAR}你如果能回答对我提出的{CLEAR}这些关于可爱精灵的全部问题,{CLEAR}我就承认你也是同好会的伙伴！{SCROLL}怎么样,要答题吗？{SCROLL}",
+   "en": "We in the Pokémon Fan Club all love cute{NEWLINE}Pokémon.{SCROLL}If you can answer all of my questions{NEWLINE}about cute Pokémon, I’ll accept you as{CLEAR}a fellow member!{SCROLL}Well? Will you take the quiz?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 9,
+   "zh": "说到双手展开ＰＯＳＥ时的{NEWLINE}那种可爱模样……{SCROLL}呒唔！{NEWLINE}皮皮太可爱了！",
+   "en": "I love the way Clefairy opens up{NEWLINE}its arms!{SCROLL}It’s so adorable!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0488/9; modernised from US 0488#9"
+  },
+  {
+   "id": 10,
+   "zh": "我超喜欢皮皮的说,{NEWLINE}但是怎么也捕捉不到。{SCROLL}没有办法,{NEWLINE}就拿着捡到的皮皮玩偶{CLEAR}凑合着……",
+   "en": "I love Clefairy, but I could never{NEWLINE}catch one.{SCROLL}So I’m making do with a Poké Doll{NEWLINE}that I found.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0488/10; modernised from US 0488#10"
+  },
+  {
+   "id": 11,
+   "zh": "我超喜欢皮皮的说,{NEWLINE}但是怎么也捕捉不到。{SCROLL}没有办法,{NEWLINE}就拿着捡到的皮皮玩偶{CLEAR}凑合着……{SCROLL}唉？{NEWLINE}遗失这只玩偶的{CLEAR}女孩很伤心？{SCROLL}……我知道了！{NEWLINE}把这只皮皮玩偶{CLEAR}还给那个女孩吧！{SCROLL}我会用自己的力量{NEWLINE}与皮皮成为伙伴的！{SCROLL}",
+   "en": "I love Clefairy, but I could never{NEWLINE}catch one. So I’m making do with a{CLEAR}Poké Doll that I found.{SCROLL}What?{NEWLINE}The girl who lost this Poké Doll{CLEAR}is sad...!{SCROLL}OK. Could you take this Poké Doll{NEWLINE}back to that poor little girl?{SCROLL}I’ll befriend a real Clefairy on{NEWLINE}my own one day!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0488/11; modernised from US 0488#11"
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}保管了{NEWLINE}丢失的皮皮玩偶！",
+   "en": "{VAR:0103:0} received{NEWLINE}the lost Poké Doll!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0488/12"
+  },
+  {
+   "id": 13,
+   "zh": "虽然皮皮玩偶已经很可爱了,{NEWLINE}但是我还是会努力与真正的皮皮{CLEAR}成为好朋友的！",
+   "en": "The Poké Doll is cute, but I’m still{NEWLINE}going to try my best to make friends{CLEAR}with a real Clefairy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 14,
+   "zh": "你看,你看！{NEWLINE}我的月桂叶！{SCROLL}头上的叶子{NEWLINE}又可爱又时尚吧！",
+   "en": "Look at my darling Bayleef!{SCROLL}The leaf on its head is so cute{NEWLINE}and fashionable!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0488/14; modernised from US 0488#14"
+  },
+  {
+   "id": 15,
+   "zh": "是皮皮！{NEWLINE}……　……{SCROLL}什么呀,不过是个皮皮玩偶啊。",
+   "en": "It’s a Clefairy!{NEWLINE}Huh?{SCROLL}Oh, right. It’s a Clefairy Poké Doll.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0488/15; modernised from US 0488#15"
+  },
+  {
+   "id": 16,
+   "zh": "月桂叶『Bay——lee！",
+   "en": "Bayleef: Bay-lee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 17,
+   "zh": "安静地听听{NEWLINE}买主自负的话吧！",
+   "en": "Listen quietly when others brag about{NEWLINE}their Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 18,
+   "zh": "将别人骄傲的话{NEWLINE}１０倍奉还吧！",
+   "en": "When someone brags, brag back 10 times{NEWLINE}harder!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 19,
+   "zh": "皮皮『Cle——fair！",
+   "en": "Clefairy: Cle-fair!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 20,
+   "zh": "皮丘『Pi——chu！",
+   "en": "Pichu: Pi-chu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 21,
+   "zh": "妙蛙草『Ivy——saur！",
+   "en": "Ivysaur: Ivy-saur!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 22,
+   "zh": "小蓝『{VAR:0103:0}来到这里{NEWLINE}就是说你也喜欢可爱的精灵？{CLEAR}我还以为你这样的战斗狂{CLEAR}只会喜欢强大的精灵呢。{SCROLL}小蓝『如果你有时间的话{NEWLINE}多跟这里的人交流一下吧,{CLEAR}他们都是可爱精灵的发烧友,{CLEAR}而且出手很大方呢。",
+   "en": "Green: You came here, {VAR:0103:0}? So you{NEWLINE}like cute Pokémon too?{SCROLL}I figured a battle nut like you would{NEWLINE}only like strong Pokémon.{SCROLL}Green: If you have time, chat with the{NEWLINE}people here.{SCROLL}They’re all huge fans of cute Pokémon,{NEWLINE}and they’re really generous too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Green = male-player route (Red alternate)."
+  },
+  {
+   "id": 23,
+   "zh": "小赤『{VAR:0103:0}也是来看可爱精灵的？{SCROLL}小赤『也对,女孩子嘛。{NEWLINE}难免就会喜欢可爱的东西。{SCROLL}小赤『如果{VAR:0103:0}有时间的话{NEWLINE}多跟这里的人交流一下吧,{CLEAR}相信你们会有很多共同语言的。",
+   "en": "Red: You came to see the cute Pokémon{NEWLINE}too, {VAR:0103:0}?{SCROLL}Red: Makes sense. You’re a girl, after{NEWLINE}all. Of course you’d like cute things.{SCROLL}Red: If you have time, chat with the{NEWLINE}people here, {VAR:0103:0}. I bet you’ll have{CLEAR}lots in common.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Red = female-player route (Green alternate)."
+  },
+  {
+   "id": 24,
+   "zh": "小蓝『{VAR:0103:0}已经从会长那里{NEWLINE}拿到奖励了？{CLEAR}还挺快的嘛。{SCROLL}小蓝『听说枯叶码头的有条游轮{NEWLINE}马上就要开放观光了。{CLEAR}我一直都很期待能坐游轮旅行呢,{CLEAR}等会儿要不要一起去船上看看？",
+   "en": "Green: You already got the reward from{NEWLINE}the chairman, {VAR:0103:0}? That was fast.{SCROLL}Green: I heard a cruise ship at{NEWLINE}Vermilion Harbor is about to open for{CLEAR}sightseeing.{SCROLL}I’ve always wanted to travel on a{NEWLINE}cruise ship. Want to go take a look at it{CLEAR}with me later?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Green = male-player route (Red alternate)."
+  },
+  {
+   "id": 25,
+   "zh": "小赤『{VAR:0103:0}已经从会长那里{NEWLINE}拿到奖励了？{CLEAR}挺厉害的嘛。{SCROLL}小赤『听说枯叶码头的有条游轮{NEWLINE}马上就要开放观光了,{CLEAR}去游轮上放松一下疲惫的身体,{CLEAR}应该是个不错的选择吧！",
+   "en": "Red: You already got the reward from{NEWLINE}the chairman, {VAR:0103:0}? Nice work.{SCROLL}Red: I heard a cruise ship at Vermilion{NEWLINE}Harbor is about to open for{CLEAR}sightseeing.{SCROLL}Relaxing your tired body on a cruise{NEWLINE}ship sounds like a pretty good idea!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Red = female-player route (Green alternate)."
+  },
+  {
+   "id": 26,
+   "zh": "答错啦！好好想想再来吧。",
+   "en": "Wrong! Think it over and come back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 27,
+   "zh": "第一题：下列哪只口袋妖怪{NEWLINE}体型最小？{SCROLL}",
+   "en": "Question 1: Which of these Pokémon is{NEWLINE}the smallest?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 28,
+   "zh": "绿毛虫",
+   "en": "Caterpie",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 29,
+   "zh": "地鼠",
+   "en": "Diglett",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 30,
+   "zh": "小山猪",
+   "en": "Swinub",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 31,
+   "zh": "洛托姆",
+   "en": "Rotom",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 32,
+   "zh": "第二题：下列哪只口袋妖怪{NEWLINE}体重最轻？{SCROLL}",
+   "en": "Question 2: Which of these Pokémon is{NEWLINE}the lightest?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 33,
+   "zh": "青绵鸟",
+   "en": "Swablu",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 34,
+   "zh": "含羞苞",
+   "en": "Budew",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 35,
+   "zh": "波波",
+   "en": "Pidgey",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 36,
+   "zh": "铃铛响",
+   "en": "Chingling",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 37,
+   "zh": "第三题：华丽大赛的第一个环节中{NEWLINE}是针对口袋妖怪的什么进行打分？{SCROLL}",
+   "en": "Question 3: In the first round of a{NEWLINE}Super Contest, what are Pokémon judged{CLEAR}on?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "华丽大赛 = the Sinnoh Super Contest."
+  },
+  {
+   "id": 38,
+   "zh": "精神和体格",
+   "en": "Spirit and build",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 39,
+   "zh": "外形和穿着",
+   "en": "Looks and outfit",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 40,
+   "zh": "状态和毛色",
+   "en": "Condition and coat",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 41,
+   "zh": "饰品和打扮",
+   "en": "Accessories and style",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 42,
+   "zh": "第四题：华丽大赛一共有几个环节？{SCROLL}",
+   "en": "Question 4: How many rounds does a{NEWLINE}Super Contest have?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 43,
+   "zh": "3",
+   "en": "3",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 44,
+   "zh": "4",
+   "en": "4",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 45,
+   "zh": "5",
+   "en": "5",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 46,
+   "zh": "6",
+   "en": "6",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 47,
+   "zh": "第五题：下列哪只口袋妖怪{NEWLINE}不可以使用「迷人」这个技能？{SCROLL}",
+   "en": "Question 5: Which of these Pokémon{NEWLINE}can’t learn Attract?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "向尾猫",
+   "en": "Skitty",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 49,
+   "zh": "海星星",
+   "en": "Staryu",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 50,
+   "zh": "皮可西",
+   "en": "Clefable",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 51,
+   "zh": "卷耳兔",
+   "en": "Buneary",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 52,
+   "zh": "第六题：陷入「着迷」状态后{NEWLINE}对口袋妖怪有什么影响？{SCROLL}",
+   "en": "Question 6: What does infatuation do to{NEWLINE}a Pokémon?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "速度下降50%",
+   "en": "Speed drops 50%",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 54,
+   "zh": "攻击下降50%",
+   "en": "Attack drops 50%",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 55,
+   "zh": "50%几率会攻击自己",
+   "en": "Hits itself 50%",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 56,
+   "zh": "50%几率无法攻击",
+   "en": "Can’t attack 50%",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 57,
+   "zh": "第七题：下列哪种行为{NEWLINE}不能增加与口袋妖怪的亲密度？{SCROLL}",
+   "en": "Question 7: Which of these does NOT{NEWLINE}raise a Pokémon’s friendship?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 58,
+   "zh": "带精灵去按摩",
+   "en": "Getting a massage",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 59,
+   "zh": "用精灵取得对战胜利",
+   "en": "Winning battles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 60,
+   "zh": "给精灵和营养饮料",
+   "en": "Taking vitamins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "营养饮料 (nutritional drinks) read as vitamins (Protein etc.), which raise friendship.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 61,
+   "zh": "给精灵学习技能机",
+   "en": "Learning a TM",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 62,
+   "zh": "第八题：你最喜欢什么样的精灵？{SCROLL}",
+   "en": "Question 8: What kind of Pokémon do you{NEWLINE}like best?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 63,
+   "zh": "好看的精灵",
+   "en": "Good-looking ones",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 64,
+   "zh": "强大的精灵",
+   "en": "Strong ones",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 65,
+   "zh": "旅行的伙伴",
+   "en": "Travel partners",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 66,
+   "zh": "所有的精灵",
+   "en": "All Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 67,
+   "zh": "确实,万物生而有灵{NEWLINE}所有的口袋妖怪都应该被尊重。{CLEAR}你能平等地看待每一只精灵{CLEAR}充分体现了你心中的博爱。",
+   "en": "Indeed. Every living thing has a spirit,{NEWLINE}and every Pokémon deserves respect.{SCROLL}Treating every Pokémon as an equal{NEWLINE}shows how big your heart is.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 68,
+   "zh": "爱美之心,人皆有之。{NEWLINE}坦诚地表现出对美丽的向往{CLEAR}并不是什么坏事呢。",
+   "en": "Everyone loves beautiful things.{NEWLINE}There’s nothing wrong with being honest{CLEAR}about that.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 69,
+   "zh": "没错,仅靠漂亮的皮囊{NEWLINE}绝不能成为世界的栋梁。{CLEAR}祝你也能成为一名强大的训练家哟。",
+   "en": "That’s right. A pretty face alone won’t{NEWLINE}hold up the world.{SCROLL}I hope you become a strong Trainer too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 70,
+   "zh": "你能看透世间繁华,{NEWLINE}珍惜过往的经历和回忆,{CLEAR}说明你是个很重情义的人呢。",
+   "en": "You see past the world’s glitter and{NEWLINE}cherish the journeys and memories{CLEAR}behind you.{SCROLL}You must be someone who truly values{NEWLINE}friendship.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 71,
+   "zh": "你已经答对了我的全部问题。{SCROLL}所以按照约定{NEWLINE}我承认你也是精灵同好会的伙伴了。{CLEAR}作为成为伙伴的纪念,{CLEAR}请你收下这个。",
+   "en": "You’ve answered all of my questions{NEWLINE}correctly.{SCROLL}So, as promised, I accept you as a{NEWLINE}fellow member of the Fan Club.{SCROLL}To mark our friendship, please take{NEWLINE}this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 72,
+   "zh": "可爱的外表会让人着迷,{NEWLINE}但是只看重那具躯壳的话{CLEAR}往往会让人盲目和迷失。",
+   "en": "Cute looks can be captivating. But if{NEWLINE}you only care about the outside, you’ll{CLEAR}often end up blind and lost.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 73,
+   "zh": "总有人喜欢说{NEWLINE}不进化的精灵不够强大{CLEAR}除了可爱一无是处。{CLEAR}哼,真是肤浅。{CLEAR}我的精灵可是既可爱又强大的！{SCROLL}怎么样,要不要跟我比试一下看看？{SCROLL}",
+   "en": "Some people love to say Pokémon that{NEWLINE}don’t evolve are weak and good for{CLEAR}nothing but being cute.{SCROLL}Hmph. How shallow. My Pokémon are cute{NEWLINE}AND strong!{SCROLL}Well? Want to battle and see?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 74,
+   "zh": "虽然输掉了,{NEWLINE}但是我绝不会因为我的精灵{CLEAR}不够强大就抛弃它们！{CLEAR}对我来说它们就是最完美的伙伴！",
+   "en": "I lost, but I’ll never give up on my{NEWLINE}Pokémon just because they’re not{CLEAR}strong enough!{SCROLL}To me, they’re perfect partners!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 75,
+   "zh": "皮皮好可爱！我好喜欢皮皮啊！{SCROLL}可是我很胆小,不敢摸真正的皮皮。{NEWLINE}要是有个皮皮玩偶给我摸摸就好了。",
+   "en": "Clefairy is so cute! I love Clefairy so{NEWLINE}much!{SCROLL}But I’m too timid to touch a real{NEWLINE}Clefairy. If only I had a Clefairy Poké{CLEAR}Doll to cuddle...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 76,
+   "zh": "要把皮皮玩偶送给他吗？{SCROLL}",
+   "en": "Give him the Poké Doll?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 77,
+   "zh": "什么！要送我皮皮玩偶？{SCROLL}哇,你真是个大好人,{NEWLINE}太谢谢你了！{SCROLL}不过我也不能白拿你的东西,{NEWLINE}这是我昨天吃剩下东西,{CLEAR}送给你吧！",
+   "en": "What?! You’re giving me a Clefairy Poké{NEWLINE}Doll?{SCROLL}Wow, you’re such a nice person! Thank{NEWLINE}you so much!{SCROLL}But I can’t take it for nothing. Here,{NEWLINE}these are my leftovers from yesterday.{CLEAR}They’re yours!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Likely gives the Leftovers item (joke on 吃剩下东西)."
+  },
+  {
+   "id": 78,
+   "zh": "你好,这里是精灵同好会,{NEWLINE}我是同好会的会长。{CLEAR}聚集在这里的人{CLEAR}都超喜欢可爱型的精灵。{CLEAR}如果你也喜欢可爱型精灵{CLEAR}就去跟我的会员们打打招呼吧。",
+   "en": "Hello! This is the Pokémon Fan Club, and{NEWLINE}I’m the chairman.{SCROLL}Everyone here just loves cute Pokémon.{SCROLL}If you love cute Pokémon too, go say{NEWLINE}hello to my members.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 79,
+   "zh": "看起来你跟大家聊的很投缘嘛！{SCROLL}不错不错,我现在正式授予你{NEWLINE}口袋妖怪精灵同好会荣誉会员的称号。{CLEAR}作为加入我们这个大家庭的纪念,{CLEAR}这张自行车兑换券送给你！",
+   "en": "Looks like you really hit it off with{NEWLINE}everyone!{SCROLL}Splendid! I hereby name you an{NEWLINE}Honorary Member of the Pokémon Fan{CLEAR}Club.{SCROLL}To celebrate you joining our family, this{NEWLINE}Bike Voucher is yours!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 80,
+   "zh": "有了自行车兑换券{NEWLINE}就能去华蓝市的自行车商店{CLEAR}兑换自行车了！{SCROLL}虽然那家店经常缺货,{NEWLINE}但是只要有兑换券的话{CLEAR}老板一定会想办法给你弄到自行车的。",
+   "en": "With the Bike Voucher, you can get a{NEWLINE}Bicycle at the Bike Shop in Cerulean{CLEAR}City!{SCROLL}That shop is often out of stock, but{NEWLINE}with a voucher, the owner will find a way{CLEAR}to get you a Bicycle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 81,
+   "zh": "这是能让精灵进化的神奇石头！{SCROLL}如果对某些可爱的精灵使用,{NEWLINE}它们就会变得不可爱了。{CLEAR}所以要怎么用它你最好考虑清楚。",
+   "en": "It’s a special stone that makes Pokémon{NEWLINE}evolve!{SCROLL}Use it on certain cute Pokémon, and{NEWLINE}they won’t be cute anymore.{SCROLL}So think carefully about how you use it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  }
+ ]
+}

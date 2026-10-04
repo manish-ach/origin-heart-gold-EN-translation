@@ -1,0 +1,1263 @@
+{
+ "narc": "a027",
+ "bank": 441,
+ "source": "work/extract/v4/a027/0441.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "这里是三之岛,{NEWLINE}曾经是充满钢铁气息的造船之岛",
+   "en": "Three Island{NEWLINE}The Old Shipbuilding Isle of Steel",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Sign."
+  },
+  {
+   "id": 1,
+   "zh": "三之岛造船厂遗址",
+   "en": "Three Island Shipyard Ruins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "喵喵『Meo——！",
+   "en": "Meowth: Meo-!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; qa-lints: unified with identical zh elsewhere (zh_variant)"
+  },
+  {
+   "id": 3,
+   "zh": "猫老大『Per——sia！",
+   "en": "Persian: Per-sia!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "这座岛是我们「水都暴走族」的地盘,{NEWLINE}闲杂人等禁止进入。",
+   "en": "This island is Alto Mare Biker turf! No{NEWLINE}outsiders allowed!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "水都暴走族 = the Alto Mare Bikers. In this gang 大哥 = Boss (the island boss), 首领 = the Chief (leader at the shipyard, Paxton), 大姐大 = Big Sis (the lady boss who can't ride a bike, see 0483)."
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:0103:0}『我都听说了,{NEWLINE}这座三之岛是被你们强占的,{CLEAR}请立即停止这种行为！",
+   "en": "{VAR:0103:0}: I’ve heard all about it. You{NEWLINE}people took Three Island by force.{CLEAR}Stop it right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0103:0}『喂喂喂,这里是你们强占的吧,{NEWLINE}要我说这里应该禁止你们入内才对！",
+   "en": "{VAR:0103:0}: Hey, hey, hey! You’re the{NEWLINE}ones who took this place over!{SCROLL}If anyone should be kept out, it’s you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-010"
+  },
+  {
+   "id": 7,
+   "zh": "居然敢管我们「水都暴走族」的事,{NEWLINE}你还真是个狂妄的小鬼,{CLEAR}看来不给你点教训是不行了！",
+   "en": "You dare stick your nose in the Alto{NEWLINE}Mare Bikers’ business?{CLEAR}You’re one cocky little brat.{CLEAR}Looks like somebody needs to be taught{CLEAR}a lesson!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "天啊,居然这么厉害！{NEWLINE}得赶紧向首领汇报才行！",
+   "en": "Whoa, this kid’s tough! Gotta report to{NEWLINE}the Chief!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "听说有人胆敢强闯我们的地盘,{NEWLINE}应该就是你吧！{CLEAR}我现在就好好教教你{CLEAR}谁才是这座岛的老大！",
+   "en": "I heard somebody had the guts to barge{NEWLINE}onto our turf. Must be you!{CLEAR}I’ll show you right now who runs this{CLEAR}island!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "可恶,我们还是没有能力守住这里吗……",
+   "en": "Dang it... We still can’t hold this{NEWLINE}place...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "妈的,外面怎么吵吵闹闹的,{NEWLINE}不知道我在睡觉吗？",
+   "en": "Dammit, what’s all that racket outside?{NEWLINE}Don’t they know I’m sleeping?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "报告大哥,刚刚有个小鬼闯进岛上。{NEWLINE}咱们的兄弟跟那家伙干起来了。",
+   "en": "Boss, some brat just barged onto the{NEWLINE}island. Our guys are fighting ’em now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "怎么又有来捣乱的,{NEWLINE}扔水里去不就完了吗？",
+   "en": "Another troublemaker? Just toss ’em in{NEWLINE}the sea.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "那个小鬼还挺厉害的,{NEWLINE}那边的兄弟被打败了。",
+   "en": "That brat’s pretty tough. The guys{NEWLINE}over there got beaten.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "哦？让我瞅瞅什么小鬼这么有本事。",
+   "en": "Oh? Let me get a look at this brat who’s{NEWLINE}so tough.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-016"
+  },
+  {
+   "id": 16,
+   "zh": "就是你多管闲事啊？",
+   "en": "So you’re the one sticking your nose{NEWLINE}where it doesn’t belong?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}『你就是暴走族的老大吗？{NEWLINE}三之岛不是你们的私产,{CLEAR}赶紧带你的手下离开这里！",
+   "en": "{VAR:0103:0}: Are you the leader of these{NEWLINE}bikers?{CLEAR}Three Island isn’t your private{CLEAR}property!{CLEAR}Take your gang and get out of here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0}『看你的样子是老大吧,{NEWLINE}三之岛不属于你们,{CLEAR}识趣的赶紧带你的手下离开这里！",
+   "en": "{VAR:0103:0}: You look like the boss around{NEWLINE}here.{CLEAR}Three Island doesn’t belong to you!{CLEAR}If you know what’s good for you, take{CLEAR}your gang and leave!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "你谁啊你,管这么宽,{NEWLINE}当自己是联盟冠军吗？{CLEAR}兄弟们给我上,教训一下这个小鬼！",
+   "en": "Who do you think you are, butting in like{NEWLINE}this? The League Champion?{CLEAR}Boys, get ’em! Teach this brat a{CLEAR}lesson!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "是,大哥！",
+   "en": "Yes, Boss!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "我们现在就来教教你,{NEWLINE}什么叫绝对不要招惹「水都暴走族」！",
+   "en": "We’ll show you why you never, ever mess{NEWLINE}with the Alto Mare Bikers!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "报告大哥,这小鬼太厉害了,{NEWLINE}我们不是对手啊。",
+   "en": "Boss, this brat’s too strong. We’re no{NEWLINE}match!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "没事,这小鬼打这么久已经累了,{NEWLINE}让我来亲自收拾他！",
+   "en": "Relax. The brat’s worn out from all{NEWLINE}that fighting. I’ll finish him off myself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Male-player variant of #131."
+  },
+  {
+   "id": 24,
+   "zh": "我们原本只是遭人白眼的混混,{NEWLINE}好不容易在首领的带领下{CLEAR}成为了独占三之岛的「水都暴走族」,{CLEAR}绝不能让你破坏这份美好！",
+   "en": "We used to be nobodies everyone looked{NEWLINE}down on.{CLEAR}Under the Chief, we finally became the{CLEAR}Alto Mare Bikers, masters of Three{CLEAR}Island!{CLEAR}I won’t let you ruin that!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "明明是属于我们的地盘{NEWLINE}却要被你给抢走吗……{CLEAR}看来得拜托首领亲自出山了。",
+   "en": "This turf is ours, and you’re gonna{NEWLINE}take it from us...?{CLEAR}Looks like we’ll have to ask the Chief to{CLEAR}step in himself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "我们大哥正在屋里睡觉,{NEWLINE}劝你不要吵到他,{CLEAR}他的起床气可是很重的。",
+   "en": "Our Boss is sleeping inside. Better not{NEWLINE}wake him.{CLEAR}He’s real cranky when he wakes up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "你们这群臭流浪猫,{NEWLINE}居然敢偷吃我们的三明治,{CLEAR}今天可算是逮着一只了。{CLEAR}我这就让你感受一下泡在海里的滋味！",
+   "en": "You mangy strays keep stealing our{NEWLINE}sandwiches! Today we finally caught one{CLEAR}of you.{CLEAR}Let’s see how you like a dunk in the{CLEAR}sea!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0103:0}『住手！不许虐待口袋妖怪！",
+   "en": "{VAR:0103:0}: Stop! Leave that Pokémon{NEWLINE}alone!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "怎么会有外人来到我们地盘？{NEWLINE}值班的守卫在偷懒吗？{CLEAR}算了,由我来解决你！",
+   "en": "How’d an outsider get onto our turf? Is{NEWLINE}the guard on duty slacking off?{CLEAR}Whatever. I’ll handle you myself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "好强啊……{NEWLINE}怎么会有你这么厉害的训练家。",
+   "en": "So strong... How can any Trainer be{NEWLINE}this good?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "报告大哥,今天好像有个小鬼{NEWLINE}闯入岛上来捣乱。",
+   "en": "Boss, looks like some brat broke onto{NEWLINE}the island today to cause trouble.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "报告大哥,今天好像有个小鬼{NEWLINE}闯入岛上来捣乱。",
+   "en": "Boss, looks like some brat broke onto{NEWLINE}the island today to cause trouble.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "那个小鬼还挺厉害的,{NEWLINE}那边的捉猫的兄弟好像被打败了。",
+   "en": "That brat’s tough. Looks like our cat{NEWLINE}catchers over there got beaten.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "什么？敢打扰我们捉猫？{NEWLINE}不知道这些流浪猫多烦人吗？{CLEAR}让我会会这个爱多管闲事的家伙。",
+   "en": "What? Someone’s messing up our cat{NEWLINE}hunt? Don’t they know how annoying{CLEAR}these strays are?{CLEAR}Let me meet this busybody.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "你这家伙打扰我们捉流浪猫,{NEWLINE}到时候流浪猫再偷吃、惹事,{CLEAR}你来替我们捉啊！",
+   "en": "You butted in on our stray-cat{NEWLINE}roundup!{CLEAR}Next time those strays steal our food,{CLEAR}you can catch ’em for us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "你谁啊你,管这么宽,{NEWLINE}当自己是联盟冠军吗？{CLEAR}凭什么让我们听你的！",
+   "en": "Who do you think you are, butting in like{NEWLINE}this? The League Champion?{CLEAR}Why should we listen to you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "大哥,我把这个烦人的猫给抓住了。",
+   "en": "Boss, I caught that pesky cat.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "哈哈,好,这群野猫偷了咱们好多东西,{NEWLINE}你好好收拾它一顿,让它们长长记性。",
+   "en": "Ha ha, nice! Those alley cats have{NEWLINE}stolen tons of our stuff.{SCROLL}Rough it up good so they learn their{NEWLINE}lesson.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "好嘞,包在我身上。",
+   "en": "You got it. Leave it to me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "{VAR:0103:0}『你们要干什么,快住……",
+   "en": "{VAR:0103:0}: What are you doing? Sto-",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "{VAR:FF01:200}喵喵『住手喵！放开那个女孩！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Meowth: Stop, meow! Let that girl go!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Big text (200%). Double-size shout: one line per page (a line break inside {VAR:FF01:200} overflows the box and corrupts memory; heap_audit.md)."
+  },
+  {
+   "id": 42,
+   "zh": "我没听错吧？{NEWLINE}刚刚那只喵喵是不是说话了？",
+   "en": "Am I hearing things? Did that Meowth{NEWLINE}just talk?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "武藏、小次郎『如果宇宙的边缘{NEWLINE}可以看到光明。{CLEAR}那么你们将看到我们的脸。",
+   "en": "Jessie & James: If you can see the light{NEWLINE}at the edge of the universe...{CLEAR}then you’ll see our faces!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Team Rocket intro line, translated literally; not the standard motto. Check whether it quotes a specific anime episode."
+  },
+  {
+   "id": 44,
+   "zh": "武藏『我是武藏！",
+   "en": "Jessie: I’m Jessie!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 45,
+   "zh": "小次郎『我是小次郎！",
+   "en": "James: I’m James!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags suspiciously_short"
+  },
+  {
+   "id": 46,
+   "zh": "喵喵『我是喵喵！",
+   "en": "Meowth: I’m Meowth!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-017: original line; the dub catchphrase was removed"
+  },
+  {
+   "id": 47,
+   "zh": "怎么又冒出两个怪胎来？{NEWLINE}你们到底是什么人！",
+   "en": "Now where’d these two weirdos come{NEWLINE}from? Who the heck are you?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "大哥,看他们的服饰好像是{NEWLINE}最近在大陆那边闹得很出名的火箭队……{CLEAR}这帮人不好惹啊。",
+   "en": "Boss, from their getup, they look like{NEWLINE}that Team Rocket that’s been making a{CLEAR}name on the mainland...{CLEAR}These guys are bad news.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "我不管你们在大陆那边有多威风,{NEWLINE}来到这里就是暴鲤龙也得给我盘着。{CLEAR}识相的赶紧把那两只猫交出来。",
+   "en": "I don’t care how big you are on the{NEWLINE}mainland. Out here, even a Gyarados{CLEAR}keeps its head down.{CLEAR}If you know what’s good for you, hand{CLEAR}over those two cats.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Idiom 来到这里就是暴鲤龙也得给我盘着 (a dragon must coil here) adapted."
+  },
+  {
+   "id": 50,
+   "zh": "武藏『伙伴的朋友就是我们的朋友。",
+   "en": "Jessie: A friend of our partner is a{NEWLINE}friend of ours.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "小次郎『这种紧要关头{NEWLINE}怎么能抛弃朋友呢。",
+   "en": "James: We’d never abandon a friend in a{NEWLINE}pinch like this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "看来你们是打算找茬找到底了。{SCROLL}兄弟们,上去给我干他们！",
+   "en": "So you really are looking for trouble.{SCROLL}Boys, let ’em have it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "让你看看我们水都暴走族的厉害！",
+   "en": "We’ll show you what the Alto Mare Bikers{NEWLINE}are made of!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "是否帮助火箭队？",
+   "en": "Help Team Rocket?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "{VAR:0103:0}『你们这些暴走族{NEWLINE}就只会以多打少吗？",
+   "en": "{VAR:0103:0}: Is ganging up on people all you{NEWLINE}bikers know how to do?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "差点忘了还有你这个臭小鬼在这！{NEWLINE}既然你这么喜欢讨打,{CLEAR}那我就好好教训教训你！",
+   "en": "Almost forgot about you, brat! You{NEWLINE}want a beating that bad? Fine, you’ll{CLEAR}get one!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "这么厉害吗……看来你不是一般人啊。",
+   "en": "That strong...? You’re no ordinary kid.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "武藏『出来吧,阿柏怪！{NEWLINE}小次郎『出来吧,双弹瓦斯！",
+   "en": "Jessie: Go, Arbok!{NEWLINE}James: Go, Weezing!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "武藏『哼,就你们这些低端的小混混。",
+   "en": "Jessie: Hmph. Small-time punks like{NEWLINE}you...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "小次郎『根本入不了我们火箭队的法眼。",
+   "en": "James: ...aren’t even worth Team{NEWLINE}Rocket’s notice.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "武藏『上啊,阿柏怪！{NEWLINE}小次郎『上啊,双弹瓦斯！",
+   "en": "Jessie: Get ’em, Arbok!{NEWLINE}James: Get ’em, Weezing!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "这帮人很难对付啊,大哥……",
+   "en": "These guys are too tough, Boss...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "咳咳……不好……受伤了……",
+   "en": "Cough, cough... Not good... I’m hurt...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "情况不妙……{NEWLINE}先撤退,去造船厂向首领汇报！",
+   "en": "This is bad... Fall back! Report to the{NEWLINE}Chief at the shipyard!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "{VAR:0103:0}『我才是没想到呢,{NEWLINE}你们居然会突然跑出来做好事。",
+   "en": "{VAR:0103:0}: I’m the one who’s surprised.{SCROLL}Since when do you show up out of{NEWLINE}nowhere to do a good deed?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-018"
+  },
+  {
+   "id": 66,
+   "zh": "武藏『切,没想到居然会跟你联手。",
+   "en": "Jessie: Ugh. Can’t believe we ended up{NEWLINE}teaming up with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "小次郎『真是有辱我们坏人的名声啊。",
+   "en": "James: It’s a disgrace to our good name{NEWLINE}as villains.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "武藏『哼,还不都是因为{NEWLINE}那个不争气的喵喵。",
+   "en": "Jessie: Hmph. It’s all that useless{NEWLINE}Meowth’s fault.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "武藏『居然在这里也能遇到{NEWLINE}你这个讨厌的小鬼。",
+   "en": "Jessie: Of all places, we run into you{NEWLINE}here, you pesky brat.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "小次郎『你想趁火打劫跟我们干架吗？{NEWLINE}我跟你说,这可不是你这样的好人{CLEAR}该干的事哦。",
+   "en": "James: Planning to pick a fight with us{NEWLINE}while we’re down?{CLEAR}Let me tell you, that’s no way for a{CLEAR}nice kid like you to behave.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "{VAR:0103:0}『看在你们赶跑暴走族的份上,{NEWLINE}这次就放过你们吧。",
+   "en": "{VAR:0103:0}: Since you ran off the bikers,{NEWLINE}I’ll let you go this time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "武藏『哼,少在那里自以为是了。",
+   "en": "Jessie: Hmph. Don’t get full of{NEWLINE}yourself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "喵喵『喵,是你们啊。",
+   "en": "Meowth: Meow. So it’s you guys.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "喵喵『什么啊,事到如今{NEWLINE}你还想让马丹娜继续跟你们混吗？",
+   "en": "Meowth: What? After all this, you still{NEWLINE}want Meowzie to run with you lot?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "马丹娜 = Meowzie (anime, JP Madonna)."
+  },
+  {
+   "id": 75,
+   "zh": "喵喵『收起你那副大哥的架子吧,{NEWLINE}面对暴走族你根本无力保护马丹娜。{CLEAR}我决定了,{CLEAR}以后就让她跟我们火箭队混。",
+   "en": "Meowth: Drop the big-boss act. You{NEWLINE}couldn’t even protect Meowzie from{CLEAR}those bikers.{CLEAR}I’ve made up my mind. From now on,{CLEAR}she’s comin’ with us to Team Rocket.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "喵喵『哦？要用决斗来决定吗？{NEWLINE}好啊,让你看看我这些年来{CLEAR}在火箭队不是白混的。",
+   "en": "Meowth: Oh? You wanna settle this with{NEWLINE}a duel? Fine by me!{CLEAR}I’ll show ya I didn’t spend all these{CLEAR}years in Team Rocket for nothin’.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "小次郎『喵喵……你没问题吗？",
+   "en": "James: Meowth... Will you be all right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "武藏『需要我们帮忙吗？",
+   "en": "Jessie: Need a hand?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "喵喵『这是我跟过去的了断喵,{NEWLINE}我要亲自解决喵。",
+   "en": "Meowth: This is me settlin’ things with{NEWLINE}my past, meow.{SCROLL}I gotta handle it myself, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "喵喵『到这边来吧,猫老大。",
+   "en": "Meowth: Over here, Persian.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "喵喵『喵……",
+   "en": "Meowth: Meow...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "猫老大『P……e……",
+   "en": "Persian: P... e...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "喵喵『是我赢了喵。",
+   "en": "Meowth: I win, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "喵喵『马丹娜！",
+   "en": "Meowth: Meowzie!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "小次郎『为什么会变成这个样子……",
+   "en": "James: How did it come to this...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "武藏『我也想问啊……",
+   "en": "Jessie: I’d like to know too...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "喵喵『啊……？",
+   "en": "Meowth: Huh...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "喵喵『你跟猫老大生活地太久了,{NEWLINE}所以没有办法适应其他地方的生活了？{CLEAR}所以你不想跟我去火箭队了吗？",
+   "en": "Meowth: You lived with Persian so long,{NEWLINE}you can’t get used to livin’ anywhere{CLEAR}else?{CLEAR}So you don’t wanna come with me to Team{CLEAR}Rocket?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "马丹娜『Meo……MeoMeow……",
+   "en": "Meowzie: Meow... Meowmeow...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "马丹娜『Meo……",
+   "en": "Meowzie: Meow...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "喵喵『而且……？",
+   "en": "Meowth: And...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "马丹娜『Meo……Meo……",
+   "en": "Meowzie: Meow... Meow...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "喵喵『啊！？",
+   "en": "Meowth: Wha?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "马丹娜『Meo——！",
+   "en": "Meowzie: Meeeow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "武藏『什么啊？",
+   "en": "Jessie: What?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "小次郎『它说什么啊？",
+   "en": "James: What did she say?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "喵喵『她说会说人话的喵喵{NEWLINE}实在是太恶心了！",
+   "en": "Meowth: She says a Meowth that talks{NEWLINE}like a human is just too creepy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "武藏『哇塞……被人这样讲……",
+   "en": "Jessie: Ouch... That’s harsh...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "小次郎『看来你是没戏了……",
+   "en": "James: Looks like you don’t stand a{NEWLINE}chance...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "喵喵『唉……",
+   "en": "Meowth: Sigh...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "喵喵『咱们走吧,武藏,小次郎。",
+   "en": "Meowth: Let’s go, Jessie, James.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "武藏『就这样走吗？",
+   "en": "Jessie: Just like that?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "小次郎『你是打算放弃了？",
+   "en": "James: You’re giving up?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "喵喵『算了,马丹娜她并不喜欢{NEWLINE}火箭队的生活。{CLEAR}而且拿得起放得下{CLEAR}才是咱们火箭队的作风不是吗？",
+   "en": "Meowth: Forget it. Meowzie doesn’t want{NEWLINE}the Team Rocket life.{CLEAR}Besides, knowin’ when to let go...{CLEAR}that’s the Team Rocket way, ain’t it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "武藏『说的漂亮！",
+   "en": "Jessie: Well said!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "小次郎『不愧是我们火箭队的喵喵。",
+   "en": "James: Spoken like a true Team Rocket{NEWLINE}Meowth.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "喵喵『走吧,继续执行咱们的任务！",
+   "en": "Meowth: Come on, back to our mission!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "武藏『走咯！{NEWLINE}小次郎『走咯！",
+   "en": "Jessie: Let’s go!{NEWLINE}James: Let’s go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "没错大哥,我也听到了……",
+   "en": "You heard right, Boss. I heard it too...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "真的,喵喵会讲话哎……",
+   "en": "It’s true. That Meowth really talks...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "这可真是稀罕！{NEWLINE}快把这两只喵喵一起抓住！",
+   "en": "Now that’s rare! Catch both those{NEWLINE}Meowth!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "交给我吧,大哥。{NEWLINE}抓猫这事我有经验！",
+   "en": "Leave it to me, Boss. I know all about{NEWLINE}catching cats!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "喵喵『不要怕,马丹娜。我会保护你的！",
+   "en": "Meowth: Don’t be scared, Meowzie. I’ll{NEWLINE}protect you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "哼,区区两只喵喵……",
+   "en": "Hmph. Just a couple of Meowth...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "喵喵『武藏,小次郎……{NEWLINE}你们……",
+   "en": "Meowth: Jessie, James... You guys...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "武藏『每个人确实都会有一两段{NEWLINE}不为人知的过去。",
+   "en": "Jessie: Everyone has a past or two{NEWLINE}they’d rather keep to themselves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "小次郎『可是火箭队员只能迈向前进。",
+   "en": "James: But a member of Team Rocket can{NEWLINE}only move forward.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "武藏『看你心事重重的样子,{NEWLINE}就知道你有问题了。",
+   "en": "Jessie: One look at your gloomy face{NEWLINE}and we knew something was up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "小次郎『紧急关头{NEWLINE}还是要我们出手帮忙吧？",
+   "en": "James: When things get tough, you still{NEWLINE}need us to lend a hand, don’t you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "喵喵『决一胜负喵！",
+   "en": "Meowth: Let’s settle this, meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "坚持不住了,大哥……",
+   "en": "I can’t hold on much longer, Boss...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "{VAR:0103:0}『你们要干什么,快住手！",
+   "en": "{VAR:0103:0}: What are you doing? Stop it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "{VAR:0103:0}『你们要干什么,快住手！",
+   "en": "{VAR:0103:0}: What are you doing? Stop it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "哦呵？想阻止我？{NEWLINE}那就要看你有没有这个本事了。",
+   "en": "Oh ho? You wanna stop me? Let’s see if{NEWLINE}you’ve got what it takes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 125,
+   "zh": "你们两个上！让这家伙瞧瞧{NEWLINE}咱们水都暴走族的厉害！",
+   "en": "You two, go! Show this punk what the{NEWLINE}Alto Mare Bikers can do!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "你做好准备被揍吧！",
+   "en": "Get ready for a beating!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 127,
+   "zh": "看来你有两下子啊,{NEWLINE}不能对你掉以轻心了。",
+   "en": "So you’ve got some skills. Can’t let my{NEWLINE}guard down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 128,
+   "zh": "喂,你也一起上。",
+   "en": "Hey, you. Jump in too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 129,
+   "zh": "哼,看你抵不抵得住我们的联合攻击！",
+   "en": "Hmph! Let’s see you handle our combined{NEWLINE}attack!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 130,
+   "zh": "暂时撤退,去造船厂向首领汇报情况！",
+   "en": "Fall back for now! Report to the Chief{NEWLINE}at the shipyard!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 131,
+   "zh": "没事,这小鬼打这么久已经累了,{NEWLINE}让我来亲自收拾她！",
+   "en": "Relax. The brat’s worn out from all{NEWLINE}that fighting. I’ll finish her off myself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Female-player variant of #23."
+  },
+  {
+   "id": 132,
+   "zh": "要救这只喵喵吗？",
+   "en": "Save this Meowth?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 133,
+   "zh": "{VAR:0103:0}『跟猫没关系！{SCROLL}{VAR:0103:0}『看你的样子是他们老大吧,{NEWLINE}这三之岛不是你们的私产,{CLEAR}你们不要再强占这里了！",
+   "en": "{VAR:0103:0}: This isn’t about the cat!{SCROLL}{VAR:0103:0}: You must be their boss.{CLEAR}Three Island isn’t your private{NEWLINE}property. Stop occupying it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 134,
+   "zh": "{VAR:0103:0}『什么猫不猫的！{SCROLL}{VAR:0103:0}『看你的样子是他们老大吧,{NEWLINE}我跟你说,三之岛不属于你们,{CLEAR}识趣的赶紧带你的手下离开这里！",
+   "en": "{VAR:0103:0}: Forget the cat!{SCROLL}{VAR:0103:0}: You must be their boss.{CLEAR}Listen. Three Island doesn’t belong to{NEWLINE}you. If you know what’s good for you,{SCROLL}take your gang and leave!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 135,
+   "zh": "我都听说了,你就是闯入岛上的人吧。{NEWLINE}我肯定不是你的对手,{CLEAR}所以也不打算阻止你。{CLEAR}可是如果我不阻止你,{CLEAR}就是违背了大姐大的命令。{SCROLL}我真的是进退两难啊,{NEWLINE}所以拜托你高抬贵手{CLEAR}不要从我这里过去好吗？{SCROLL}如果你非要过去,请先去那边屋里{NEWLINE}跟我们大姐大谈谈好吗？拜托了。",
+   "en": "I heard all about it. You’re the one who{NEWLINE}broke onto the island.{SCROLL}I know I’m no match for you, so I’m not{NEWLINE}gonna try to stop you.{SCROLL}But if I don’t stop you, I’m going{NEWLINE}against Big Sis’s orders.{SCROLL}I’m stuck between a rock and a hard{NEWLINE}place here.{SCROLL}So please, have a heart and don’t go{NEWLINE}past me, okay?{SCROLL}If you really have to get through,{NEWLINE}could you talk to Big Sis in that house{SCROLL}over there first? Please.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 136,
+   "zh": "我们「水都暴走族」的首领{NEWLINE}好不容易才带领我们{CLEAR}建立了这个自由骑车的乐园,{CLEAR}我决不允许你这样的人出来搅局！",
+   "en": "Our Chief worked so hard to lead us{NEWLINE}here and build this paradise where we{CLEAR}can ride free.{CLEAR}I won’t let someone like you mess it up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 137,
+   "zh": "居然被你这样的人逼到了绝境……{NEWLINE}不过我们绝不低头！{CLEAR}你休想把我们从三之岛赶走！",
+   "en": "Backed into a corner by someone like{NEWLINE}you...{CLEAR}But we’ll never bow down! You’ll never{CLEAR}drive us off Three Island!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 138,
+   "zh": "之前对您多有冒犯,还请见谅。{NEWLINE}祝您在水都群岛玩的愉快。",
+   "en": "Sorry for all the trouble before.{SCROLL}Enjoy your stay in the Alto Mare{NEWLINE}Islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 139,
+   "zh": "三之岛曾经是繁荣的造船工业岛,{NEWLINE}造船业搬走后这里就荒废了。{CLEAR}我一定要亲手将这里{CLEAR}重建成繁荣的景区。",
+   "en": "Three Island was once a thriving{NEWLINE}shipbuilding island. It fell into ruin{CLEAR}after the shipyards moved away.{CLEAR}I’m going to rebuild it with my own hands{CLEAR}into a thriving tourist spot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 140,
+   "zh": "谢谢你帮我赶走了暴走族,{NEWLINE}我才能着手重建三之岛。{CLEAR}这是我的一点谢礼,请你务必收下。",
+   "en": "Thank you for driving off the bikers.{NEWLINE}Now I can finally start rebuilding Three{CLEAR}Island.{CLEAR}This is a small token of my thanks.{CLEAR}Please, I insist.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "三之岛工业搬迁、逐渐荒废后,{NEWLINE}很多人都丢下他们的精灵离开了这里。{CLEAR}我从小在这里长大,{CLEAR}无法割舍对这片土地的热爱,{CLEAR}所以坚守到了现在。{SCROLL}如今三之岛有了重建的机会,{NEWLINE}我一定尽全力帮助那位工程师{CLEAR}让我的家乡重放光芒。",
+   "en": "When the industry moved away and Three{NEWLINE}Island fell into ruin, lots of people left{SCROLL}their Pokémon behind and moved away{NEWLINE}too.{SCROLL}I grew up here, and I love this place{NEWLINE}too much to leave, so I stayed on.{SCROLL}Now Three Island has a chance to be{NEWLINE}rebuilt.{SCROLL}I’ll do everything I can to help that{NEWLINE}engineer make my home shine again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 142,
+   "zh": "飘浮泡泡『Caaa——fo！",
+   "en": "Castform: Caaa-fo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "哇,水都群岛好好玩啊。",
+   "en": "Wow, the Alto Mare Islands are so much{NEWLINE}fun!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 144,
+   "zh": "能带孩子出来旅游真是太好了。",
+   "en": "It’s so nice to be able to take the kids{NEWLINE}on a trip.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 145,
+   "zh": "以前的工业锈带居然逃脱了{NEWLINE}命中注定的荒废,{CLEAR}蜕变成了现在的旅游景区。{CLEAR}嘿嘿,看来我也不能服老认输啊。",
+   "en": "This old rust belt dodged the ruin that{NEWLINE}seemed to be its fate and turned into a{CLEAR}tourist spot.{CLEAR}Heh heh. Guess I can’t give in to old{CLEAR}age either!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "自然怀抱中的造船工厂,{NEWLINE}我们老家可没有这样的地方。{CLEAR}来这旅游可真是长见识了。",
+   "en": "A shipyard in the arms of nature...{NEWLINE}We’ve got nothing like this back home.{CLEAR}Coming here has really opened my eyes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 147,
+   "zh": "你以为我是在钓鱼吗？{SCROLL}不,我是在检测这一带的水质,{NEWLINE}测定造船业迁走后水质的改善程度。",
+   "en": "You think I’m fishing?{SCROLL}Nope. I’m checking how much the water{NEWLINE}has improved since the shipyards left.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 148,
+   "zh": "那边的野生喵喵里{NEWLINE}有一只的毛色明显比其他的亮丽,{CLEAR}应该是以前被人饲养过吧。",
+   "en": "One of the wild Meowth over there has a{NEWLINE}much glossier coat than the others.{CLEAR}Someone must have raised it once.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 149,
+   "zh": "旁边这间屋里{NEWLINE}住着一位不会骑车的女孩,{CLEAR}她笨笨的样子非常可爱哦。{CLEAR}不知道以后有没有机会教她骑车。",
+   "en": "A girl who can’t ride a bike lives in the{NEWLINE}house next door.{CLEAR}She’s so clumsy it’s adorable.{CLEAR}Maybe someday I’ll get the chance to{CLEAR}teach her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 150,
+   "zh": "嘿嘿,我又回到三之岛了。{SCROLL}比起跟着那个{NEWLINE}到处欺压别人的暴走族首领,{CLEAR}我还是更喜欢跟着可爱的大姐大。",
+   "en": "Heh heh, I’m back on Three Island.{SCROLL}I’d much rather follow our cute Big Sis{NEWLINE}than that bully of a biker Chief.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 151,
+   "zh": "游客你好,现在是水都群岛的涨潮期,{NEWLINE}为了您的安全公共海域暂不开放。",
+   "en": "Hello, visitor. It’s high-tide season in{NEWLINE}the Alto Mare Islands.{SCROLL}The public waters are closed for your{NEWLINE}safety.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 152,
+   "zh": "乘龙『Laaaa——pras！",
+   "en": "Lapras: Laaaa-pras!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 153,
+   "zh": "我女儿喊着要跟精灵一起玩,{NEWLINE}然后就跑得不知去向了。{CLEAR}我虽然很想四处找找,{CLEAR}但又担心万一女儿回来找不到我。{CLEAR}如果您有时间的话,{CLEAR}能忙找找我的女儿吗？{CLEAR}她今年5岁,扎着一个小马尾、{CLEAR}穿着一件粉红色上衣。{CLEAR}这里几乎没有跟她同龄的孩子,{CLEAR}您如果遇见她,应该能一眼认出来。",
+   "en": "My daughter said she wanted to play{NEWLINE}with Pokémon, then ran off somewhere.{CLEAR}I want to go look for her, but what if{CLEAR}she comes back and can’t find me?{CLEAR}If you have time, could you help look{CLEAR}for my daughter?{CLEAR}She’s 5 years old, with a little ponytail{CLEAR}and a pink top.{CLEAR}There are hardly any kids her age{CLEAR}around here, so you’ll know her when{CLEAR}you see her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 154,
+   "zh": "谢谢您帮我找回女儿,{NEWLINE}水都群岛的人真是热心啊。",
+   "en": "Thank you for finding my daughter!{SCROLL}The people of the Alto Mare Islands are{NEWLINE}so kind.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 155,
+   "zh": "其实我在六之岛玩得很开心哦,{NEWLINE}不过还是谢谢大哥哥能把我带回来。{CLEAR}以后我不会乱跑了,{CLEAR}不然爸爸又该担心了。",
+   "en": "I had lots of fun on Six Island, you{NEWLINE}know! But thanks for bringing me back,{CLEAR}mister.{CLEAR}I won’t wander off anymore, or Daddy{CLEAR}will worry again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Male-player variant (大哥哥)."
+  },
+  {
+   "id": 156,
+   "zh": "其实我在六之岛玩得很开心哦,{NEWLINE}不过还是谢谢大姐姐能把我带回来。{CLEAR}以后我不会乱跑了,{CLEAR}不然爸爸又该担心了。",
+   "en": "I had lots of fun on Six Island, you{NEWLINE}know! But thanks for bringing me back,{CLEAR}miss.{CLEAR}I won’t wander off anymore, or Daddy{CLEAR}will worry again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Female-player variant (大姐姐)."
+  }
+ ]
+}

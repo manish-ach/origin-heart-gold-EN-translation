@@ -1,0 +1,799 @@
+{
+ "narc": "a027",
+ "bank": 556,
+ "source": "work/extract/v4/a027/0556.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "通过大门后,{NEWLINE}就是桐树林了。",
+   "en": "Ilex Forest Ahead{NEWLINE}Enter through the gate.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0564/0",
+   "category": "sign"
+  },
+  {
+   "id": 1,
+   "zh": "这里是呆呆兽之井,{NEWLINE}是桧皮镇的圣兽呆呆兽栖息的地方,{CLEAR}即便您是联盟冠军也不能随便进去。",
+   "en": "This is Slowpoke Well, home of Azalea{NEWLINE}Town’s sacred Slowpoke. Even the{CLEAR}League Champion can’t just walk in.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "感谢冠军大人您守护了呆呆兽之井,{NEWLINE}如果是您的话{CLEAR}可以随意参观呆呆兽之井。",
+   "en": "Thank you for protecting Slowpoke{NEWLINE}Well, Champion. You’re welcome to look{CLEAR}around the well any time you like.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "火箭队真是太嚣张了,{NEWLINE}光天化日之下居然敢{CLEAR}强行闯入呆呆兽之井。{CLEAR}请冠军大人您务必教训一下他们。",
+   "en": "Team Rocket has some nerve,{NEWLINE}forcing their way into Slowpoke{CLEAR}Well in broad daylight! Champion,{CLEAR}please teach them a lesson!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "哎哟……疼死我了……{NEWLINE}这可恶的火箭队！",
+   "en": "Ow... It hurts so much...{NEWLINE}Damn that Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "大哥哥你是联盟冠军吧？{NEWLINE}你一定有办法对付火箭队,对不对？",
+   "en": "Mister, you’re the League Champion,{NEWLINE}right? I bet you know how to deal{CLEAR}with Team Rocket, don’t you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Male-player variant (大哥哥); #6 female (大姐姐)."
+  },
+  {
+   "id": 6,
+   "zh": "大姐姐你是联盟冠军吧？{NEWLINE}你一定有办法对付火箭队,对不对？",
+   "en": "Miss, you’re the League Champion,{NEWLINE}right? I bet you know how to deal{CLEAR}with Team Rocket, don’t you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "爆太郎『Quiii——la！",
+   "en": "Exbo: Quiii-la!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0059 #122; English copied."
+  },
+  {
+   "id": 8,
+   "zh": "阿金『偶像,我在这一带{NEWLINE}可没有看到火箭队的踪影,{CLEAR}那个吊眼红毛该不会是骗我的吧？",
+   "en": "Gold: Idol, I haven’t seen any sign of{NEWLINE}Team Rocket around here. That scowling{CLEAR}redhead wasn’t lying to me, was he?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "呆呆兽『……　……　……{SCROLL}……　……　……{SCROLL}",
+   "en": "Slowpoke: ...{SCROLL}...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0564/9; modernised from US 0564#9"
+  },
+  {
+   "id": 10,
+   "zh": "呆呆兽『S……l……o……",
+   "en": "Slowpoke: S... l... o...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "这里是桧皮镇,{NEWLINE}和精灵友好共存的小镇",
+   "en": "Azalea Town{NEWLINE}Living Happily with Pokémon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0564/11",
+   "category": "sign"
+  },
+  {
+   "id": 12,
+   "zh": "这里是岩铁的家{SCROLL}一心一意钻研柑果{NEWLINE}固执的制球师傅",
+   "en": "Kurt’s House{SCROLL}Apricorn and Nothing Else{NEWLINE}The Stubborn Poké Ball Creator",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0564/12"
+  },
+  {
+   "id": 13,
+   "zh": "桧皮镇道馆{NEWLINE}馆主阿笔{CLEAR}陆行虫系精灵的专家",
+   "en": "Azalea Town Pokémon Gym{NEWLINE}Leader: Bugsy{CLEAR}The Walking Bug Pokémon Encyclopedia",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0564/13"
+  },
+  {
+   "id": 14,
+   "zh": "呆呆兽之井{NEWLINE}别名海兔之井,{SCROLL}是桧皮镇的圣兽{NEWLINE}呆呆兽们栖息的地方。{SCROLL}实际上,４００年前的记录{NEWLINE}写着,干旱之时{CLEAR}正是由于呆呆兽的哈欠{CLEAR}呼唤来了海神洛奇亚降下大雨,{CLEAR}大家才得救的。",
+   "en": "Slowpoke Well. Also known as{NEWLINE}the Rainmaker Well, it is home to{CLEAR}Azalea Town’s sacred Slowpoke.{SCROLL}Records from 400 years ago say that{NEWLINE}during a great drought, a Slowpoke’s{CLEAR}yawn called the sea god Lugia to bring{CLEAR}rain, and the people were saved.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0564/14; modernised from US 0564#14"
+  },
+  {
+   "id": 15,
+   "zh": "这里是碳工匠小屋。{SCROLL}找碳材料的工作{NEWLINE}就交给大葱鸭了！",
+   "en": "Charcoal Kiln{SCROLL}We let our Farfetch’d fetch branches{NEWLINE}for charcoal!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0564/15; modernised from US 0564#15"
+  },
+  {
+   "id": 16,
+   "zh": "呆呆兽圆圆的身体、智慧的眼神,{NEWLINE}是不是很可爱呀！",
+   "en": "Slowpoke’s round body and wise{NEWLINE}eyes... Aren’t they just adorable?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "呀！您是联盟冠军{VAR:0103:0}先生！{NEWLINE}哇塞,您居然来桧皮镇了耶！",
+   "en": "Whoa! You’re League Champion{NEWLINE}{VAR:0103:0}! Wow, I can’t believe{CLEAR}you came to Azalea Town!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Male-player variant (先生); #18 female (小姐); English identical."
+  },
+  {
+   "id": 18,
+   "zh": "呀！您是联盟冠军{VAR:0103:0}小姐！{NEWLINE}哇塞,您居然来桧皮镇了耶！",
+   "en": "Whoa! You’re League Champion{NEWLINE}{VAR:0103:0}! Wow, I can’t believe{CLEAR}you came to Azalea Town!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "据说曾经有人看到过{NEWLINE}5只呆呆兽一起跳舞的神奇场景哦。",
+   "en": "They say someone once saw five Slowpoke{NEWLINE}dancing together. Amazing, huh?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "呆呆兽之井是桧皮镇的圣地,{NEWLINE}你们不许擅自进入！",
+   "en": "Slowpoke Well is Azalea Town’s holy{NEWLINE}ground! You can’t just go in there!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "哎哟……",
+   "en": "Ow...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "谁在乎你们圣不圣地的,滚远点。",
+   "en": "Who cares if it’s holy{NEWLINE}ground or not? Get lost.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "我们的人现在要在{NEWLINE}呆呆兽之井里办点事,{CLEAR}办完事之前,谁都不许靠近！",
+   "en": "Our people have some business in{NEWLINE}Slowpoke Well right now. Nobody{CLEAR}comes near until we’re done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "阿金『我得到情报说{NEWLINE}火箭队要在桧皮镇附近搞事。{CLEAR}看你刚才的所作所为和态度,{CLEAR}想必就是火箭队吧！",
+   "en": "Gold: I got a tip that Team Rocket was{NEWLINE}up to something around Azalea Town.{CLEAR}Judging by what you just did and that{CLEAR}attitude, you must be Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "没穿制服也被你识破了吗,{NEWLINE}看来留你不得。{SCROLL}上啊,大钢蛇,给我碾碎他！",
+   "en": "You saw through us even without the{NEWLINE}uniforms? Then I can’t let you live.{SCROLL}Go, Steelix! Crush him for me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "大钢蛇『Stee——lii！",
+   "en": "Steelix: Stee-lii!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "阿金『你的大钢蛇色泽不怎么样啊,{NEWLINE}看来平时没有好好照顾它。{CLEAR}就你这样的对待精灵的态度,{CLEAR}是不可能打败我的。{SCROLL}阿金『上啊爆太郎,{NEWLINE}让他看看咱们的厉害！",
+   "en": "Gold: Your Steelix’s coat looks pretty{NEWLINE}dull. I bet you never take good care{CLEAR}of it. With that attitude toward{CLEAR}Pokémon, there’s no way you’ll beat me.{SCROLL}Gold: Go, Exbo! Show{NEWLINE}him what we’re made of!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "阿金『嘿嘿,不行了吧。{NEWLINE}识相的赶紧停止你们的阴谋。",
+   "en": "Gold: Heh heh, had enough? If{NEWLINE}you know what’s good for you,{CLEAR}you’ll drop your little scheme.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "敢妨碍我们火箭队,{NEWLINE}真是不自量力。{CLEAR}想死的话就来呆呆兽之井{CLEAR}阻止我们试试,{CLEAR}你会知道什么是真正的恐怖！",
+   "en": "You’ve got a nerve getting in Team{NEWLINE}Rocket’s way. If you want to die,{CLEAR}come to Slowpoke Well and try to stop{CLEAR}us. You’ll learn what real terror is!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "阿金『哼,我还怕你不成？{NEWLINE}我倒要看看你们究竟在干什么！",
+   "en": "Gold: Hmph, you think I’m{NEWLINE}scared of you? I want to see{CLEAR}what you’re really up to!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "岩铁『我最近听到一些{NEWLINE}火箭队悄悄活动的传闻,{CLEAR}当时还以为只是谣传,{CLEAR}没想到他们真的来到了桧皮镇,{CLEAR}还盯上了呆呆兽之井。{SCROLL}岩铁『绝不能让这伙坏人{NEWLINE}践踏桧皮镇的圣地,{CLEAR}必须要赶跑他们才行。{CLEAR}请{VAR:0103:0}和水晶跟我来{CLEAR}助我一臂之力吧。",
+   "en": "Kurt: Lately I’d been hearing rumors{NEWLINE}of Team Rocket sneaking around. I{CLEAR}thought they were only rumors, but{CLEAR}they really did come to Azalea Town,{CLEAR}and they’re after Slowpoke Well.{SCROLL}Kurt: I won’t let those crooks trample{NEWLINE}on Azalea Town’s holy ground. We have{CLEAR}to drive them out. {VAR:0103:0}, Crystal,{CLEAR}come with me and lend me a hand.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:0103:0}『没问题！",
+   "en": "{VAR:0103:0}: No problem!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0547 #35; English copied."
+  },
+  {
+   "id": 33,
+   "zh": "好的爷爷,交给我吧。",
+   "en": "Okay, Grandpa, leave it to me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "岩铁『千惠啊,看来呆呆兽之井{NEWLINE}被火箭队闯进去了。{CLEAR}你现在照顾好外面的呆呆兽,{CLEAR}爷爷我要进去赶跑坏人了。",
+   "en": "Kurt: Chie, it looks like Team Rocket{NEWLINE}has broken into Slowpoke Well. You look{CLEAR}after the Slowpoke out here. Grandpa’s{CLEAR}going in to drive out the crooks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "千惠 = Kurt's granddaughter, romanised Chie (hack name; vanilla US has no name)."
+  },
+  {
+   "id": 35,
+   "zh": "水晶『这是我们应该做的！",
+   "en": "Crystal: It’s the least we can do!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "岩铁『真是可靠的年轻人,咱们走吧。",
+   "en": "Kurt: What dependable{NEWLINE}youngsters. Let’s go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "好像有伙人闯入了呆呆兽之井。{SCROLL}可恶啊,要是阿笔馆主没去{NEWLINE}桐树林除虫的话就能做些什么了。",
+   "en": "Some gang forced their{NEWLINE}way into Slowpoke Well.{SCROLL}Dammit, if only Bugsy hadn’t gone{NEWLINE}to Ilex Forest to clear out the{CLEAR}bugs, he could’ve done something.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "原来您是冠军大人啊,{NEWLINE}我都没有认出来。{CLEAR}谢谢您帮我们赶跑了{CLEAR}呆呆兽之井的火箭队！",
+   "en": "Oh, so you’re the Champion!{NEWLINE}I didn’t even recognize you.{CLEAR}Thank you for driving Team{CLEAR}Rocket out of Slowpoke Well!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "住在桧皮镇的岩铁先生{NEWLINE}既是远近闻名的柑果球工匠,{CLEAR}也是世代传承的{CLEAR}呆呆兽之井的守护者哦。",
+   "en": "Mr. Kurt of Azalea Town is a famous{NEWLINE}Apricorn Ball maker, and the guardian{CLEAR}of Slowpoke Well, a duty passed{CLEAR}down in his family for generations.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "阿笔馆主是去年新上任的道馆馆主,{NEWLINE}虽然他的年龄很小,{CLEAR}但是作为训练家的实力却非常强。",
+   "en": "Bugsy only became Gym Leader{NEWLINE}last year. He’s very young, but{CLEAR}he’s a really strong Trainer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "桧皮镇的西侧是桐树林,{NEWLINE}据说里面住着连疾病都能{CLEAR}净化的草系精灵洁咪哦。{SCROLL}几年前曾经有一位老伯{NEWLINE}来这里寻找洁咪,{CLEAR}不过很遗憾他只找到了{CLEAR}象征洁咪的冰空花束,{CLEAR}并没有找到洁咪。",
+   "en": "West of Azalea Town lies Ilex{NEWLINE}Forest. They say the Grass-type{CLEAR}Pokémon Shaymin lives there,{CLEAR}and it can purify even sickness.{SCROLL}A few years ago an old man came here{NEWLINE}looking for Shaymin. Sadly, all he found{CLEAR}was a Gracidea bouquet, the symbol{CLEAR}of Shaymin, and never Shaymin itself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "线球『Spiii——na！",
+   "en": "Spinarak: Spiii-na!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "呃,线球……我不喜欢虫系精灵,{NEWLINE}你不要跟着我了好不好？",
+   "en": "Um, Spinarak... I don’t like{NEWLINE}Bug-type Pokémon. Could you{CLEAR}please stop following me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "呀,讨厌,你不要过来呀！",
+   "en": "Eek, gross! Don’t come near me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "线球『S……{SCROLL}线球好像要哭了。",
+   "en": "Spinarak: S...{SCROLL}Spinarak looks like it’s about to cry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "线球……？",
+   "en": "Spinarak...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "线球跑掉了。",
+   "en": "Spinarak ran away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "线球『Spiii——na！{SCROLL}线球很喜欢小女孩。",
+   "en": "Spinarak: Spiii-na!{SCROLL}Spinarak really likes the little girl.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "唉,我实在是无法喜欢上虫系精灵,{NEWLINE}虽然拒绝小线球会让它伤心,{CLEAR}但是不喜欢就是不喜欢,{CLEAR}真的没法勉强。",
+   "en": "Sigh... I just can’t bring myself{NEWLINE}to like Bug types. I know turning{CLEAR}Spinarak away hurts its feelings,{CLEAR}but if I don’t like them, I don’t{CLEAR}like them. I can’t force it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "3D龙Z『Pooo——ry！",
+   "en": "Porygon-Z: Pooo-ry!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "口袋妖怪对战最深的意义就是{NEWLINE}数据、分析、战术,{CLEAR}没有人的实力能超出我精准的计算,{CLEAR}就算是那个联盟冠军{VAR:0103:0}也不行！{SCROLL}",
+   "en": "The deepest meaning of Pokémon{NEWLINE}battling is data, analysis and{CLEAR}tactics. Nobody’s strength can{CLEAR}surpass my precise calculations.{CLEAR}Not even League Champion {VAR:0103:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Data-trainer scene: #52 flatter him → #54 / #53 reveal yourself → #55-#58 battle offer (#59 decline → #60, accept → #61)."
+  },
+  {
+   "id": 52,
+   "zh": "对对对,你最厉害了",
+   "en": "Sure, you’re the best",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 53,
+   "zh": "我就是{VAR:0103:0}",
+   "en": "I’m {VAR:0103:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 54,
+   "zh": "哈哈哈,没错,我就是最厉害的！",
+   "en": "Ha ha ha, that’s right, I am the best!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "{VAR:0103:0}『其实我就是{VAR:0103:0}。",
+   "en": "{VAR:0103:0}: Actually, I’m {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "{VAR:0103:0}『是吗？{NEWLINE}我就是联盟冠军{VAR:0103:0},{CLEAR}我可一点都不觉得你比我厉害。",
+   "en": "{VAR:0103:0}: Is that so? I’m League{NEWLINE}Champion {VAR:0103:0}, and I don’t{CLEAR}think you’re any better than me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "啊？你就是{VAR:0103:0}？{NEWLINE}跟我收集的资料照片不是很像啊。{CLEAR}是因为年龄在长大的关系吗……{CLEAR}看来需要更新一下资料了。",
+   "en": "Huh? You’re {VAR:0103:0}? You don’t{NEWLINE}look much like the photo in my data.{CLEAR}Is it because you’ve gotten older?{CLEAR}Looks like I need to update my data.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "你刚才对我的最强理论很不屑啊,{NEWLINE}是因为冠军做太久脑袋都糊涂了吗？{CLEAR}看来我需要好好教教你了。{SCROLL}要跟我来一场比试试,{NEWLINE}看看谁才是最强吗？",
+   "en": "You scoffed at my strongest theory{NEWLINE}just now. Has being Champion for so{CLEAR}long turned your brain to mush? I{CLEAR}think I need to teach you a lesson.{SCROLL}Want to have a match and see{NEWLINE}who’s really the strongest?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "{VAR:0103:0}『……",
+   "en": "{VAR:0103:0}: ...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0484 #46; English copied."
+  },
+  {
+   "id": 60,
+   "zh": "原来我们的冠军,{NEWLINE}不过是个只会说大话的胆小鬼啊。",
+   "en": "So our Champion is just{NEWLINE}a coward who talks big.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "来吧,我会用绝对的计算力压倒一切！",
+   "en": "Come on! My absolute calculations{NEWLINE}will overwhelm everything!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "算尽了一切可能性却还是输了,{NEWLINE}你的实力已经超出了我的理解。{CLEAR}我输的心服口服,{CLEAR}这个算是你让我开眼界的谢礼,{CLEAR}请收下吧。",
+   "en": "I calculated every possibility and{NEWLINE}still lost. Your strength is beyond{CLEAR}my understanding. I admit defeat,{CLEAR}fair and square. Please accept{CLEAR}this as thanks for opening my eyes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "看来要成为最强没有那么容易,{NEWLINE}我还需要分析和计算更多变量才行。",
+   "en": "Becoming the strongest isn’t that{NEWLINE}easy, it seems. I need to analyze{CLEAR}and calculate even more variables.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "希望以后不要再有坏人{NEWLINE}来欺负这么可爱的呆呆兽了。",
+   "en": "I hope no more bad guys ever come{NEWLINE}to bully such cute Slowpoke again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "我知道很多关于呆呆兽的事情哦。{NEWLINE}如果你能回答上来我出的{CLEAR}关于呆呆兽的问题,{CLEAR}我就给你一个好东西。{CLEAR}你要试试吗？",
+   "en": "I know lots of things about Slowpoke.{NEWLINE}If you can answer my questions{CLEAR}about Slowpoke, I’ll give you{CLEAR}something nice. Want to give it a try?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "哎？你对呆呆兽不感兴趣吗？",
+   "en": "Huh? You’re not interested in Slowpoke?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "好的,那我出题了。{SCROLL}传说中呆呆兽是通过什么方式{NEWLINE}呼唤了洛奇亚拯救了干旱的桧皮镇？",
+   "en": "Okay, here’s the question!{SCROLL}According to legend, how did{NEWLINE}Slowpoke call Lugia to save{CLEAR}Azalea Town from the drought?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Slowpoke quiz #67-#91; which answers count as right is not visible (likely Yawning / 5 seconds / Sweet / 0? / Twice)."
+  },
+  {
+   "id": 68,
+   "zh": "发呆",
+   "en": "Zoning out",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 69,
+   "zh": "跳舞",
+   "en": "Dancing",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 70,
+   "zh": "挖洞",
+   "en": "Digging",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 71,
+   "zh": "哈欠",
+   "en": "Yawning",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 72,
+   "zh": "呆呆兽被打了之后,{NEWLINE}要过多久才能感受到疼？",
+   "en": "After a Slowpoke is hit, how long{NEWLINE}does it take before it feels the pain?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "5秒",
+   "en": "5 seconds",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 74,
+   "zh": "30秒",
+   "en": "30 seconds",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 75,
+   "zh": "1分钟",
+   "en": "1 minute",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 76,
+   "zh": "10分钟",
+   "en": "10 minutes",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 77,
+   "zh": "呆呆兽的尾巴泡在水里,{NEWLINE}会渗出什么味道？",
+   "en": "When a Slowpoke’s tail soaks in{NEWLINE}water, what flavor seeps out?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "咸味",
+   "en": "Salty",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 79,
+   "zh": "甜味",
+   "en": "Sweet",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 80,
+   "zh": "酸味",
+   "en": "Sour",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 81,
+   "zh": "苦味",
+   "en": "Bitter",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 82,
+   "zh": "正常观察呆呆兽,{NEWLINE}可以看到它嘴里的几颗牙齿？",
+   "en": "Looking at a Slowpoke normally, how{NEWLINE}many teeth can you see in its mouth?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "0颗",
+   "en": "0",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Answer choice, no counter word needed.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 84,
+   "zh": "1颗",
+   "en": "1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 85,
+   "zh": "2颗",
+   "en": "2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 86,
+   "zh": "4颗",
+   "en": "4",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 87,
+   "zh": "呆呆兽能够进化几次？",
+   "en": "How many times can Slowpoke evolve?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "0次",
+   "en": "0 times",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 89,
+   "zh": "1次",
+   "en": "Once",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Quiz answers: 0 times / Once / Twice / 3 times.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 90,
+   "zh": "2次",
+   "en": "Twice",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 91,
+   "zh": "3次",
+   "en": "3 times",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 92,
+   "zh": "刚刚的问题你没有全答对哦,{NEWLINE}好好想想再来吧。",
+   "en": "You didn’t get all the questions{NEWLINE}right. Think it over and come back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "哇！居然能答对我的全部问题,{NEWLINE}看来你也非常了解呆呆兽嘛。{CLEAR}这个就送给你吧。",
+   "en": "Wow! You got every single question{NEWLINE}right! You really know your{CLEAR}Slowpoke. Here, this is for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "这个是王者之证,{NEWLINE}让呆呆兽带上它升级的话,{CLEAR}会产生意想不到的变化哦。",
+   "en": "This is a King’s Rock. If a Slowpoke{NEWLINE}holds it while it levels up,{CLEAR}something unexpected might happen.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "桧皮镇的人这么喜欢呆呆兽,{NEWLINE}主要还是因为呆呆兽{CLEAR}曾经拯救过桧皮镇。{CLEAR}正所谓吃水不忘挖井人,{CLEAR}即便今天桧皮镇不再缺水了,{CLEAR}也不应该忘记呆呆兽曾经的贡献。",
+   "en": "The people of Azalea love Slowpoke{NEWLINE}so much mainly because Slowpoke once{CLEAR}saved the town. As the saying goes,{CLEAR}when you drink water, remember who{CLEAR}dug the well. Even though Azalea no{CLEAR}longer lacks water, we shouldn’t{CLEAR}forget what Slowpoke did for us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

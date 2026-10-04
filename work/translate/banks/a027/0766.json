@@ -1,0 +1,1207 @@
+{
+ "narc": "a027",
+ "bank": 766,
+ "source": "work/extract/v4/a027/0766.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "开始连接ＷｉーＦｉ",
+   "en": "Connect to Nintendo Wi-Fi Connection",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "正在连接ＷｉーＦｉ,{NEWLINE}请稍等。",
+   "en": "Connecting to Nintendo Wi-Fi{NEWLINE}Connection... Please wait a moment...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/1"
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}正在召集对战对手。",
+   "en": "{VAR:0103:0} is seeking someone{NEWLINE}to battle.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/2"
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:0103:0}正在召集交换对象。",
+   "en": "{VAR:0103:0} is seeking someone{NEWLINE}to trade with.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/3"
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0103:0}正在召集料理伙伴。",
+   "en": "{VAR:0103:0} is seeking someone to{NEWLINE}cook with.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/4"
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:0103:0}正在召集{NEWLINE}战斗前线的参加者。",
+   "en": "{VAR:0103:0} is seeking participants{NEWLINE}for the Battle Frontier.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0103:0}正在召集{NEWLINE}{VAR:0300:1}的参加者。",
+   "en": "{VAR:0103:0} is seeking participants{NEWLINE}for {VAR:0300:1}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/6"
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0103:0}正在待机。",
+   "en": "{VAR:0103:0} is on standby.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/7"
+  },
+  {
+   "id": 8,
+   "zh": "需要召集什么项目的人员？",
+   "en": "What would you like to seek?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/8"
+  },
+  {
+   "id": 9,
+   "zh": "正在召集人员！",
+   "en": "Seeking participants...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/9"
+  },
+  {
+   "id": 10,
+   "zh": "要中断召集吗？",
+   "en": "Suspend your invitation?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/10"
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0103:0}想要参加！",
+   "en": "{VAR:0103:0} wants to join!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0778/11 | US said “contacted you”; zh: wants to join"
+  },
+  {
+   "id": 12,
+   "zh": "终止ＷｉーＦｉ连接吗？",
+   "en": "Would you like to log out of{NEWLINE}Nintendo WFC?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/12"
+  },
+  {
+   "id": 13,
+   "zh": "正在写入存档,{NEWLINE}请勿切断电源。",
+   "en": "Saving...{NEWLINE}Do not turn off the power.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}请求开始语音聊天！",
+   "en": "{VAR:0103:0} invites you for{NEWLINE}a voice chat!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/14"
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0103:0}好像正在忙碌⋯⋯",
+   "en": "{VAR:0103:0} appears to be busy...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/15"
+  },
+  {
+   "id": 16,
+   "zh": "无法和{VAR:0103:0}建立连接。",
+   "en": "You can’t connect with{NEWLINE}{VAR:0103:0}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/16"
+  },
+  {
+   "id": 17,
+   "zh": "正在向{VAR:0103:0}提出请求⋯⋯",
+   "en": "Communicating with {VAR:0103:0}...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/17"
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0}没有反应⋯⋯",
+   "en": "{VAR:0103:0} failed to respond...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/18"
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0103:0}结束了语音聊天。",
+   "en": "{VAR:0103:0} ended the voice chat.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/19"
+  },
+  {
+   "id": 20,
+   "zh": "要结束语音聊天吗？",
+   "en": "Would you like to end{NEWLINE}this voice chat?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/20"
+  },
+  {
+   "id": 21,
+   "zh": "连接ＷｉーＦｉ通信",
+   "en": "Nintendo Wi-Fi Connection",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/21"
+  },
+  {
+   "id": 22,
+   "zh": "连接中的好友们",
+   "en": "FRIENDS ONLINE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 24,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 25,
+   "zh": "Ｌｖ．５０对战",
+   "en": "LV. 50 BATTLE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "Ｌｖ．１００对战",
+   "en": "LV. 100 BATTLE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "对战中",
+   "en": "IN BATTLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/27"
+  },
+  {
+   "id": 28,
+   "zh": "交换",
+   "en": "TRADE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/28"
+  },
+  {
+   "id": 29,
+   "zh": "交换中",
+   "en": "TRADING...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/29"
+  },
+  {
+   "id": 30,
+   "zh": "料理",
+   "en": "COOK",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/30"
+  },
+  {
+   "id": 31,
+   "zh": "料理中",
+   "en": "COOKING...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/31"
+  },
+  {
+   "id": 32,
+   "zh": "战斗前线",
+   "en": "BATTLE FRONTIER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/32"
+  },
+  {
+   "id": 33,
+   "zh": "挑战中",
+   "en": "IN CHALLENGE...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/33"
+  },
+  {
+   "id": 34,
+   "zh": "广场游戏",
+   "en": "PLAZA GAMES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/34"
+  },
+  {
+   "id": 35,
+   "zh": "广场游戏中",
+   "en": "IN PLAY...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/35"
+  },
+  {
+   "id": 36,
+   "zh": "语音聊天",
+   "en": "VOICE CHAT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/36"
+  },
+  {
+   "id": 37,
+   "zh": "召集对手",
+   "en": "SEEK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "取消ＷｉーＦｉ连接",
+   "en": "LOG OUT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "申请",
+   "en": "APPLY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/39"
+  },
+  {
+   "id": 40,
+   "zh": "查看记录",
+   "en": "RECORDS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "取消",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/41"
+  },
+  {
+   "id": 42,
+   "zh": "{VAR:0103:0}",
+   "en": "{VAR:0103:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0103:0}组",
+   "en": "{VAR:0103:0}’S GROUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "对战成绩",
+   "en": "BATTLE RECORD",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/44"
+  },
+  {
+   "id": 45,
+   "zh": "胜利{VAR:0135:0}",
+   "en": "W: {VAR:0135:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/45"
+  },
+  {
+   "id": 46,
+   "zh": "失败{VAR:0135:0}",
+   "en": "L: {VAR:0135:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/46"
+  },
+  {
+   "id": 47,
+   "zh": "精灵交换",
+   "en": "Pokémon TRADES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/47; modernised from US 0778#47"
+  },
+  {
+   "id": 48,
+   "zh": "{VAR:0135:0}次",
+   "en": "{VAR:0135:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "料理次数",
+   "en": "POFFIN SESSIONS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/49"
+  },
+  {
+   "id": 50,
+   "zh": "{VAR:0135:0}次",
+   "en": "{VAR:0135:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "最后游戏日期",
+   "en": "DATE LAST PLAYED",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/51"
+  },
+  {
+   "id": 52,
+   "zh": "战斗塔",
+   "en": "BATTLE TOWER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/52"
+  },
+  {
+   "id": 53,
+   "zh": "战斗工厂",
+   "en": "BATTLE FACTORY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/53"
+  },
+  {
+   "id": 54,
+   "zh": "战斗城堡",
+   "en": "BATTLE CASTLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/54"
+  },
+  {
+   "id": 55,
+   "zh": "战斗舞台",
+   "en": "BATTLE HALL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/55"
+  },
+  {
+   "id": 56,
+   "zh": "战斗轮盘",
+   "en": "BATTLE ARCADE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/56"
+  },
+  {
+   "id": 57,
+   "zh": "上次",
+   "en": "PREV",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/57"
+  },
+  {
+   "id": 58,
+   "zh": "现在",
+   "en": "CURRENT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "最高",
+   "en": "RECORD",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "等级５０",
+   "en": "LEVEL 50",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/60"
+  },
+  {
+   "id": 61,
+   "zh": "自由等级",
+   "en": "OPEN LEVEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "出租／交换",
+   "en": "RENTAL/TRADE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/62"
+  },
+  {
+   "id": 63,
+   "zh": "城堡点数",
+   "en": "CASTLE POINTS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/63"
+  },
+  {
+   "id": 64,
+   "zh": "{VAR:0100:0}",
+   "en": "{VAR:0100:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "{VAR:0135:0}连胜",
+   "en": "WIN STREAK: {VAR:0135:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/65"
+  },
+  {
+   "id": 66,
+   "zh": "{VAR:0135:0}回",
+   "en": "{VAR:0135:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "{VAR:0135:0}ＣＰ",
+   "en": "{VAR:0135:0} CP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "{VAR:0135:0}连胜",
+   "en": "WIN STREAK: {VAR:0135:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/68"
+  },
+  {
+   "id": 69,
+   "zh": "{VAR:0135:0}游戏破关",
+   "en": "GAMES CLEARED: {VAR:0135:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/69"
+  },
+  {
+   "id": 70,
+   "zh": "广场游戏的回数",
+   "en": "PLAZA GAMES PLAYED",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/70"
+  },
+  {
+   "id": 71,
+   "zh": "{VAR:0300:0}",
+   "en": "{VAR:0300:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "{VAR:0135:0}回",
+   "en": "{VAR:0135:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "关闭",
+   "en": "CLOSE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/73"
+  },
+  {
+   "id": 74,
+   "zh": "{VAR:0135:0}／{VAR:0133:1}／{VAR:0133:2}",
+   "en": "{VAR:0135:0}/{VAR:0133:1}/{VAR:0133:2}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "和{VAR:0103:0}的记录",
+   "en": "RECORD WITH {VAR:0103:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "{VAR:0103:0}来申请！",
+   "en": "{VAR:0103:0} wants to join you!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/76"
+  },
+  {
+   "id": 77,
+   "zh": "再次和{VAR:0103:0}对战吗？",
+   "en": "Would you like to have another{NEWLINE}battle against {VAR:0103:0}?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/77"
+  },
+  {
+   "id": 78,
+   "zh": "再次和{VAR:0103:0}交换吗？",
+   "en": "Would you like to do another{NEWLINE}trade with {VAR:0103:0}?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/78"
+  },
+  {
+   "id": 79,
+   "zh": "待机中",
+   "en": "Standing by...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "切断",
+   "en": "DISCONNECT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "{VAR:0103:0}正在对战。",
+   "en": "{VAR:0103:0} is in a battle.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/81"
+  },
+  {
+   "id": 82,
+   "zh": "{VAR:0103:0}正在交换。",
+   "en": "{VAR:0103:0} is trading.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/82"
+  },
+  {
+   "id": 83,
+   "zh": "{VAR:0103:0}正在料理。",
+   "en": "{VAR:0103:0} is cooking.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/83"
+  },
+  {
+   "id": 84,
+   "zh": "{VAR:0103:0}正在{NEWLINE}战斗前线进行挑战。",
+   "en": "{VAR:0103:0} is in a Battle Frontier{NEWLINE}challenge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "{VAR:0103:0}正在{NEWLINE}进行挑战广场游戏。",
+   "en": "{VAR:0103:0} is playing a Plaza Game.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/85"
+  },
+  {
+   "id": 86,
+   "zh": "{VAR:0103:0}正在语音聊天。",
+   "en": "{VAR:0103:0} is having a voice chat.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/86"
+  },
+  {
+   "id": 87,
+   "zh": "切断电源执行ＷｉーＦｉ设定吗？",
+   "en": "Turn off the power and change{NEWLINE}the Wi-Fi settings?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "再一次连接ＷｉーＦｉ吗？",
+   "en": "Reconnect to Nintendo WFC?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/88"
+  },
+  {
+   "id": 89,
+   "zh": "进行交换必须有两只以上的精灵！",
+   "en": "You need at least two Pokémon{NEWLINE}if you want to trade!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/89"
+  },
+  {
+   "id": 90,
+   "zh": "语音聊天ＯＮ{SCROLL}",
+   "en": "Voice chat was turned ON.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/90"
+  },
+  {
+   "id": 91,
+   "zh": "语音聊天ＯＦＦ{SCROLL}",
+   "en": "Voice chat was turned OFF.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/91"
+  },
+  {
+   "id": 92,
+   "zh": "？？？",
+   "en": "???",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "单人对战",
+   "en": "SINGLE BATTLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/93"
+  },
+  {
+   "id": 94,
+   "zh": "双人对战",
+   "en": "DOUBLE BATTLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/94"
+  },
+  {
+   "id": 95,
+   "zh": "单人自由",
+   "en": "FREE SINGLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/95"
+  },
+  {
+   "id": 96,
+   "zh": "Ｌｖ．５０单人",
+   "en": "LV. 50 SINGLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/96"
+  },
+  {
+   "id": 97,
+   "zh": "Ｌｖ．１００单人",
+   "en": "LV. 100 SINGLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/97"
+  },
+  {
+   "id": 98,
+   "zh": "双人自由",
+   "en": "FREE DOUBLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/98"
+  },
+  {
+   "id": 99,
+   "zh": "Ｌｖ．５０双人",
+   "en": "LV. 50 DOUBLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/99"
+  },
+  {
+   "id": 100,
+   "zh": "Ｌｖ．１００双人",
+   "en": "LV. 100 DOUBLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/100"
+  },
+  {
+   "id": 101,
+   "zh": "对方终止了通信对战",
+   "en": "Your friend ended the communication{NEWLINE}battle.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/101"
+  },
+  {
+   "id": 102,
+   "zh": "通信待机中,{NEWLINE}请稍等⋯⋯",
+   "en": "Communicating. Please stand by...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "身上只有一只精灵{NEWLINE}无法进行双人对战！",
+   "en": "You can’t have a Double Battle{NEWLINE}if you only have one Pokémon...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/103"
+  },
+  {
+   "id": 104,
+   "zh": "没有树果！",
+   "en": "You don’t have any Berries...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/104"
+  },
+  {
+   "id": 105,
+   "zh": "松饼已经满了！",
+   "en": "Your Poffin Case is full.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/105"
+  },
+  {
+   "id": 106,
+   "zh": "没有松饼盒的话{NEWLINE}不能做树果料理！",
+   "en": "You can’t cook Berries if you don’t{NEWLINE}have a Poffin Case.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/106"
+  },
+  {
+   "id": 107,
+   "zh": "人员到齐的话{NEWLINE}Ａ键⋯继续　Ｂ键⋯取消",
+   "en": "When the group is ready:{NEWLINE}A Button: Proceed B Button: Cancel",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/107"
+  },
+  {
+   "id": 108,
+   "zh": "有人希望参加,{NEWLINE}让他加入吗？",
+   "en": "Someone wishes to join.{NEWLINE}Accept this Trainer as a member?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/108"
+  },
+  {
+   "id": 109,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 110,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 111,
+   "zh": "人员这样的话可以吗？",
+   "en": "Are these members OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 113,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 114,
+   "zh": "正在等待{VAR:0103:0}的回信。",
+   "en": "Awaiting {VAR:0103:0}’s response...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/114"
+  },
+  {
+   "id": 115,
+   "zh": "从{VAR:0103:0}传来了ＯＫ的回信！",
+   "en": "{VAR:0103:0} approved your{NEWLINE}member-registration request.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/115"
+  },
+  {
+   "id": 116,
+   "zh": "从{VAR:0103:0}传来了ＮＧ的回信⋯⋯{SCROLL}",
+   "en": "{VAR:0103:0} turned down your{NEWLINE}request...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "其他成员正在等待。",
+   "en": "The other members are waiting.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0778/79 | seed rejected us [ambiguous US match] (candidate US 0778#79; text not kept)"
+  },
+  {
+   "id": 118,
+   "zh": "有成员通信情况不佳,{SCROLL}请再一次从头开始{NEWLINE}办理手续。{SCROLL}",
+   "en": "A member’s connection failed.{SCROLL}Please register from the start again.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "人员不足。{SCROLL}",
+   "en": "There aren’t enough members.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/119"
+  },
+  {
+   "id": 120,
+   "zh": "终止召集吗？",
+   "en": "Stop looking for members?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/120"
+  },
+  {
+   "id": 121,
+   "zh": "主机取消的话队伍将会解散,{NEWLINE}可以吗？",
+   "en": "If the leader cancels, the group will{NEWLINE}be disbanded. Is that OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "那么终止召集吗？",
+   "en": "Stop seeking members, then?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0778/122 | US was a statement; zh asks"
+  },
+  {
+   "id": 123,
+   "zh": "其他的成员正在等待。",
+   "en": "The other members are waiting.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0778/79 | seed rejected us [ambiguous US match] (candidate US 0778#79; text not kept)"
+  },
+  {
+   "id": 124,
+   "zh": "语音聊天ＯＮ{NEWLINE}可以吗？",
+   "en": "Is it OK to turn on the Voice Chat?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/124"
+  },
+  {
+   "id": 125,
+   "zh": "语音聊天ＯＦＦ{NEWLINE}可以吗？",
+   "en": "Is it OK to turn off the Voice Chat?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/125"
+  },
+  {
+   "id": 126,
+   "zh": "料理召集中！",
+   "en": "Seeking Poffin cooks!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/126"
+  },
+  {
+   "id": 127,
+   "zh": "{VAR:0300:0}召集中！",
+   "en": "Seeking {VAR:0300:0} players!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/127"
+  },
+  {
+   "id": 128,
+   "zh": "语音聊天ＯＮ／ＯＦＦ　Ｘ键",
+   "en": "Voice Chat ON/OFF: X Button",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/128"
+  },
+  {
+   "id": 129,
+   "zh": "{VAR:0103:0}",
+   "en": "{VAR:0103:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 130,
+   "zh": "ＩＤ{VAR:0136:0}",
+   "en": "ID {VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 131,
+   "zh": "{VAR:0103:0}{NEWLINE}ＩＤ{VAR:0136:1}",
+   "en": "{VAR:0103:0}{NEWLINE}ID {VAR:0136:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 132,
+   "zh": "领队好像很忙,{NEWLINE}请再次申请。{SCROLL}",
+   "en": "The leader appears busy.{NEWLINE}Please apply again.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/132"
+  },
+  {
+   "id": 133,
+   "zh": "要中断申请吗？",
+   "en": "Cancel your application?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 134,
+   "zh": "在与该好友游戏的过程中{NEWLINE}语音将被开启,{SCROLL}要响应这个朋友的召集吗？",
+   "en": "Voice chat will be turned ON while{NEWLINE}you play with this friend.{SCROLL}Would you like to respond to this{NEWLINE}friend’s invitation?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 135,
+   "zh": "在与该好友游戏的过程中{NEWLINE}语音将被关闭,{SCROLL}要响应这个朋友的召集吗？",
+   "en": "Voice chat will be turned OFF while{NEWLINE}you play with this friend.{SCROLL}Would you like to respond to this{NEWLINE}friend’s invitation?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 136,
+   "zh": "申请中断。",
+   "en": "Application canceled.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0778/39 | seed rejected us [ambiguous US match] (candidate US 0778#39; text not kept)"
+  },
+  {
+   "id": 137,
+   "zh": "无法响应这个朋友的召集！",
+   "en": "You can’t respond to this friend’s{NEWLINE}invitation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 138,
+   "zh": "正在等待对方的选择,{NEWLINE}请稍等。",
+   "en": "Waiting for the other player to{NEWLINE}decide. Please wait...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/138"
+  },
+  {
+   "id": 139,
+   "zh": "关闭对战交换时的ＢＧＭ{SCROLL}",
+   "en": "Battle/trade BGM turned OFF.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused"
+  },
+  {
+   "id": 140,
+   "zh": "开启对战交换时的ＢＧＭ{SCROLL}",
+   "en": "Battle/trade BGM turned ON.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused"
+  },
+  {
+   "id": 141,
+   "zh": "发生通信错误{NEWLINE}{VAR:0136:0}",
+   "en": "A communication error occurred.{NEWLINE}{VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 142,
+   "zh": "延迟ON{SCROLL}",
+   "en": "Delay ON{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused"
+  },
+  {
+   "id": 143,
+   "zh": "延迟OFF＝变成通常情况{SCROLL}",
+   "en": "Delay OFF = back to normal{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused"
+  },
+  {
+   "id": 144,
+   "zh": "四处走走",
+   "en": "WALKABOUT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/144"
+  },
+  {
+   "id": 145,
+   "zh": "多人对战",
+   "en": "MULTI BATTLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0778/145"
+  },
+  {
+   "id": 146,
+   "zh": "２ＢＩＴＡＤＰＣＭ",
+   "en": "2BITADPCM",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "debug; full-width Latin folded to ASCII; unused"
+  },
+  {
+   "id": 147,
+   "zh": "３ＢＩＴＡＤＰＣＭ",
+   "en": "3BITADPCM",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "debug; full-width Latin folded to ASCII; unused"
+  },
+  {
+   "id": 148,
+   "zh": "４ＢＩＴＡＤＰＣＭ",
+   "en": "4BITADPCM",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "debug; full-width Latin folded to ASCII; unused"
+  },
+  {
+   "id": 149,
+   "zh": "ＢＵＣＫＥＴ",
+   "en": "BUCKET",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "debug; full-width Latin folded to ASCII; unused"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+xdelta3 compiled to WebAssembly, unmodified, from xdelta-wasm by Kotcrab.
+
+Source:   https://github.com/kotcrab/xdelta-wasm (commit 007c6b45ef10ac4121aff3dfa445ab47c78c60cd, 2026-03-28)
+Files:    xdelta3.js, xdelta3.wasm, as deployed at https://kotcrab.github.io/xdelta-wasm/ (built by that
+          repository's workflow from the commit above; fetched 2026-10-04)
+          sha256 xdelta3.js   94fa3a26bbca784214f4516ee76b4d2d4283432d91acf7c82e75de50d41a404d
+          sha256 xdelta3.wasm c03ecdf1220f1901349f1041da49113d668cb70827cba4bcf627feae86acf982
+License:  Apache License 2.0 (LICENSE.txt, copied from the repository). No NOTICE file upstream.
+Contains: xdelta3 by Joshua MacDonald (https://github.com/jmacd/xdelta, submodule commit
+          0525275fe4b553a10f38e455d30c60dc6ed9b45d), Apache License 2.0, built with secondary
+          compression DJW, FGK and LZMA; liblzma from XZ Utils 5.4.6 (public domain).
+          The JavaScript loader and runtime code in xdelta3.js (and the runtime parts compiled into
+          xdelta3.wasm) come from Emscripten (https://emscripten.org), MIT License
+          (Emscripten is dual-licensed MIT / University of Illinois NCSA).
+Used by:  ../../patch-tool/ (the website's /patch/ page).

@@ -1,0 +1,727 @@
+{
+ "narc": "a027",
+ "bank": 379,
+ "source": "work/extract/v4/a027/0379.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "少女牵起了你的手。",
+   "en": "The girl took your hand.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Secret Forest (One Island), the secret garden of Latios and Latias; Bianca and her grandfather Lorenzo (Pokémon Heroes). #0-#4 and #86-#89: Latias disguised as Bianca."
+  },
+  {
+   "id": 1,
+   "zh": "少女看了看你。",
+   "en": "The girl looked at you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "少女用额头贴了贴你的额头。",
+   "en": "The girl pressed her forehead to yours.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "少女凝望着喷泉里的水。",
+   "en": "The girl is gazing at the water in{NEWLINE}the fountain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "喷泉里似乎有东西{NEWLINE}散发着隐隐约约的光辉。",
+   "en": "Something in the fountain seems to be{NEWLINE}giving off a faint glow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "拉帝欧斯『Laaaaa——ti！",
+   "en": "Latios: Laaaaa-ti!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "少女拉着拉帝欧斯。",
+   "en": "The girl is holding Latios back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "拉帝欧斯『Laaaaa——ti！{SCROLL}拉帝欧斯的眼神中仍然充满了戒备。",
+   "en": "Latios: Laaaaa-ti!{SCROLL}Latios’s eyes are still full of caution.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "住手,拉帝欧斯。{NEWLINE}这一位并不是坏人。",
+   "en": "Stop, Latios. This person is no villain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0103:0}『啊……",
+   "en": "{VAR:0103:0}: Ah...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0103:0}『你是传说中{NEWLINE}守护水都的精灵拉帝欧斯！？",
+   "en": "{VAR:0103:0}: You’re Latios, the legendary{NEWLINE}Pokémon that protects Alto Mare?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "这位是多次从火箭队手上{NEWLINE}解救了整个地区的英雄,{CLEAR}联盟冠军{VAR:0103:0}。",
+   "en": "This is the hero who has saved the whole{NEWLINE}region from Team Rocket time and again:{CLEAR}League Champion {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "卡侬『哎呀,这个也不怪你啦。{NEWLINE}如果不是爷爷跟我说,{CLEAR}我也没有哦认出来呢。",
+   "en": "Bianca: Oh, don’t blame yourself. If{NEWLINE}Grandpa hadn’t told me, I wouldn’t have{CLEAR}recognized you either.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 我也没有哦认出来 read as 我也没有认出来 (typo)."
+  },
+  {
+   "id": 13,
+   "zh": "拉帝欧斯『Laaaaa……？",
+   "en": "Latios: Laaaaa...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}『您就是一之岛岛主{NEWLINE}本葛雷先生吧？{CLEAR}实在不好意思,{CLEAR}没有经过您的允许就擅自闯入这里。",
+   "en": "{VAR:0103:0}: You must be Mr. Lorenzo, the{NEWLINE}chief of One Island. I’m very sorry for{CLEAR}barging in here without your permission.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0103:0}『您的这位孙女非常热情,{NEWLINE}所以我就忍不住跟了进来……",
+   "en": "{VAR:0103:0}: Your granddaughter was so{NEWLINE}friendly that I couldn’t help following{CLEAR}her in...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "卡侬『嘻嘻……",
+   "en": "Bianca: Hee hee...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "哈哈哈,也许是感受到了冠军大人身上{NEWLINE}与众不同的训练家气质,{CLEAR}拉帝亚斯才破例{CLEAR}把冠军大人带到这里来的吧。",
+   "en": "Ha ha ha! Perhaps Latias sensed your{NEWLINE}extraordinary presence as a Trainer,{CLEAR}Champion. That must be why it made an{CLEAR}exception and brought you here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0}『拉帝亚斯？",
+   "en": "{VAR:0103:0}: Latias?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "拉帝亚斯『Laaaa——ti！",
+   "en": "Latias: Laaaa-ti!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0103:0}『拉帝亚斯！？",
+   "en": "{VAR:0103:0}: Latias?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "卡侬『拉帝欧斯和拉帝亚斯两兄妹{NEWLINE}平时都待在这个秘密花园里。{CLEAR}但是拉帝亚斯偶尔也会想要出去玩玩。{CLEAR}这时候它就会变化成我的样子,{CLEAR}到水都群岛的各地逛逛。",
+   "en": "Bianca: Latios and Latias are brother{NEWLINE}and sister. They usually stay here in{CLEAR}this secret garden. But sometimes{CLEAR}Latias wants to go out and play. Then it{CLEAR}takes on my appearance and wanders{CLEAR}around the Alto Mare Islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0103:0}『原来如此,{NEWLINE}我还以为你们是双胞胎呢。",
+   "en": "{VAR:0103:0}: So that’s it. I thought you{NEWLINE}two were twins.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "拉帝欧斯和拉帝亚斯应该不是双胞胎{NEWLINE}而是兄妹吧？",
+   "en": "Latios and Latias aren’t twins, are{NEWLINE}they? They’re brother and{CLEAR}sister, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "你们是什么人！{NEWLINE}怎么进到这里来的？",
+   "en": "Who are you people?! How did you get{NEWLINE}in here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "一树『这个破地方确实挺难找的。",
+   "en": "Will: This dump sure was hard to find.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "梨花『幸亏我们赌定{NEWLINE}只要跟着这个傻冠军就一定会有线索。",
+   "en": "Karen: Good thing we bet that tailing{NEWLINE}this idiot Champion would lead us{CLEAR}to something.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "小豪『你这自以为是的冠军,{NEWLINE}今天拉帝欧斯和拉帝亚斯被捉{CLEAR}全都靠你给我们引路啊,哈哈！",
+   "en": "Goh: You conceited Champion! If we{NEWLINE}catch Latios and Latias today, it’s all{CLEAR}thanks to you showing us the way!{CLEAR}Ha ha!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0103:0}『老爷爷不必跟他们多费口舌,{NEWLINE}这几个家伙现在都是火箭队的人,{CLEAR}不会听你讲道理的,{CLEAR}让我来对付他们！",
+   "en": "{VAR:0103:0}: Don’t waste your breath on{NEWLINE}them, sir. These guys are all Team{CLEAR}Rocket now. They won’t listen to{CLEAR}reason. Leave them to me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "你们想捉拉帝欧斯和拉帝亚斯？！",
+   "en": "You’re after Latios and Latias?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "梨花『既然你诚心诚意地发问了。",
+   "en": "Karen: Prepare for trouble...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Motto parody, canon dub opener (D-1437)."
+  },
+  {
+   "id": 31,
+   "zh": "一树『通常是会大发慈悲告诉你。",
+   "en": "Will: ...normally, we’d make it double.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "梨花『不过今天时间紧迫,就免了吧。",
+   "en": "Karen: But we’re short on time today,{NEWLINE}so let’s skip it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "卡侬『爷爷,我好像见过他们几个,{NEWLINE}他们是曾经参加过石英大会的训练家！",
+   "en": "Bianca: Grandpa, I think I’ve seen them{NEWLINE}before. They’re Trainers who once{CLEAR}competed in the Indigo Conference!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "既然是联盟认定的精英训练家,{NEWLINE}就请听老夫一言,{CLEAR}拉帝欧斯和拉帝亚斯是水都群岛的……",
+   "en": "If you are Ace Trainers recognized by{NEWLINE}the League, then please hear this old{CLEAR}man out. Latios and Latias are the Alto{CLEAR}Mare Islands’...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-020"
+  },
+  {
+   "id": 35,
+   "zh": "火箭队收买了这些精英训练家！？{SCROLL}这……以老夫的能力{NEWLINE}确实无法与精英训练家抗衡,{CLEAR}既然冠军大人在这里,{CLEAR}那就拜托您把他们赶跑吧。",
+   "en": "Team Rocket bought off these Ace{NEWLINE}Trainers?!{SCROLL}This... An old man like me is certainly no{NEWLINE}match for Ace Trainers. Since you are{CLEAR}here, Champion, I must ask you to drive{CLEAR}them away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-020"
+  },
+  {
+   "id": 36,
+   "zh": "一树『又想品尝失败懊悔的滋味了吗？",
+   "en": "Will: Want another taste of{NEWLINE}bitter defeat?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "梨花『哼哼,我们这次可是势在必得。",
+   "en": "Karen: Heh heh. This time, we’re taking{NEWLINE}what we came for.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "小豪『拖住这个狗冠军拜托你们了！",
+   "en": "Goh: I’m counting on you two to hold off{NEWLINE}this damn Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "一树『准备受死吧！{NEWLINE}梨花『准备受死吧！",
+   "en": "Will: Prepare to die!{NEWLINE}Karen: Prepare to die!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "{VAR:0103:0}『我不会再犯以前的错了,{NEWLINE}你们今天休想抓走任何一只精灵！",
+   "en": "{VAR:0103:0}: I won’t make the same mistake{NEWLINE}again. You’re not catching a single{CLEAR}Pokémon today!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "一树『面对训练家发起挑战,{NEWLINE}居然避而不战,{CLEAR}真是个胆小鬼。",
+   "en": "Will: Faced with a Trainer’s challenge,{NEWLINE}and you won’t even fight? What{CLEAR}a coward.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "梨花『就你这样的人{NEWLINE}也配称为联盟冠军？",
+   "en": "Karen: And someone like you gets to call{NEWLINE}yourself the League Champion?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0103:0}『激将法可不管用,{NEWLINE}我不会给你们机会扔精灵球的。",
+   "en": "{VAR:0103:0}: Your taunts won’t work on me.{NEWLINE}I won’t give you a chance to throw a{CLEAR}single Poké Ball.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0103:0}『拉帝欧斯,你和拉帝亚斯{NEWLINE}保护本葛雷先生和卡侬退到后面去,{CLEAR}千万不要被他们扔的精灵球砸中。",
+   "en": "{VAR:0103:0}: Latios, you and Latias protect{NEWLINE}Mr. Lorenzo and Bianca and fall back.{CLEAR}Whatever you do, don’t get hit by any{CLEAR}Poké Balls they throw.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "小豪『可恶,只能来硬的了。{NEWLINE}两位前辈,咱们跟这个狗冠军车轮战吧。",
+   "en": "Goh: Dammit, we’ll have to use force.{NEWLINE}You two, let’s wear this damn Champion{CLEAR}down, one after another.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "一树『嗯,或许打着打着就有机会了。",
+   "en": "Will: Mm. Maybe we’ll get an opening{NEWLINE}along the way.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "梨花『联盟冠军{VAR:0103:0},{NEWLINE}这次你就是不想战斗也不行了！",
+   "en": "Karen: League Champion {VAR:0103:0}, this{NEWLINE}time you’ll have to fight, like it or not!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "小豪『现在就是好机会,{NEWLINE}我要上了！",
+   "en": "Goh: Now’s my chance. Here I go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "一树『梨花,趁现在！",
+   "en": "Will: Karen, now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "进入战斗！",
+   "en": "Battle start!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0103:0}『我说过了……",
+   "en": "{VAR:0103:0}: I told you...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "小豪『有破绽！",
+   "en": "Goh: An opening!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "{VAR:0103:0}『你们今天休想{NEWLINE}抓走任何一只精灵！",
+   "en": "{VAR:0103:0}: You’re not catching a single{NEWLINE}Pokémon today!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "梨花『怎么办啊一树,打也打不过……",
+   "en": "Karen: What do we do, Will? We can’t{NEWLINE}beat this one...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "小豪『硬闯也闯不过去……",
+   "en": "Goh: And we can’t force our way{NEWLINE}past either...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "一树『现在咱们手上{NEWLINE}已经没有精灵了,{CLEAR}先撤退,以后还有的是机会。",
+   "en": "Will: We’re out of Pokémon now. Let’s{NEWLINE}fall back for now. We’ll have plenty{CLEAR}more chances later.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "{VAR:0103:0}『呼……太好了,{NEWLINE}终于又保护了一次传说中的精灵。",
+   "en": "{VAR:0103:0}: Phew... Thank goodness. I{NEWLINE}protected the legendary Pokémon{CLEAR}once again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "小豪『可恶,不要挡路！",
+   "en": "Goh: Dammit, get out of my way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "小豪『混蛋,要不是刚抓的那些{NEWLINE}传说中精灵还没完成洗脑……",
+   "en": "Goh: Bastard... If only those legendary{NEWLINE}Pokémon we just caught were done{CLEAR}being brainwashed...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "我之前也听到过火箭队{NEWLINE}抓捕传说中精灵的新闻,{CLEAR}但我一直觉得那是大陆那边的纷争,{CLEAR}从没想到他们会来到水都群岛,{CLEAR}更没想到有人会发现这个秘密花园。",
+   "en": "I had heard the news about Team Rocket{NEWLINE}capturing legendary Pokémon. But I{CLEAR}always thought it was a mainland{CLEAR}squabble. I never imagined they’d come{CLEAR}to the Alto Mare Islands, much less{CLEAR}that anyone would find this{CLEAR}secret garden.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "{VAR:0103:0}『对不起,都怪我擅自闯入{NEWLINE}才会把火箭队引来。",
+   "en": "{VAR:0103:0}: I’m sorry. It’s my fault for{NEWLINE}barging in here. I led Team Rocket right{CLEAR}to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "不……火箭队既然想来水都群岛{NEWLINE}抓捕传说中的精灵,{CLEAR}那这个秘密花园暴露就是迟早的事。{CLEAR}冠军大人这次能保护{CLEAR}拉帝欧斯和拉帝亚斯,{CLEAR}也是冥冥之中的缘分。",
+   "en": "No... If Team Rocket meant to come to{NEWLINE}the Alto Mare Islands to capture{CLEAR}legendary Pokémon, this secret garden{CLEAR}would have been exposed sooner or{CLEAR}later. That you were here to protect{CLEAR}Latios and Latias this time, Champion,{CLEAR}must be fate at work.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "火箭队正在四处收集精灵,{NEWLINE}随时可能发动对精灵联盟的战争,{CLEAR}现在看来水都群岛{CLEAR}想偏安一方恐怕是不可能了。{CLEAR}拉帝欧斯和拉帝亚斯{CLEAR}是传说中守护水都的精灵,{CLEAR}既然冠军大人与它们兄妹有缘,{CLEAR}不如就让它们兄妹跟随冠军大人{CLEAR}一起对抗火箭队如何？",
+   "en": "Team Rocket is gathering Pokémon{NEWLINE}everywhere. They could start a war{CLEAR}against the Pokémon League at any time.{CLEAR}It seems the Alto Mare Islands can no{CLEAR}longer keep to themselves in peace.{SCROLL}Latios and Latias are the legendary{NEWLINE}Pokémon that protect Alto Mare. Since{CLEAR}the two of them share a bond with you,{CLEAR}Champion, why not let them go with you{CLEAR}and fight Team Rocket together?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "不愿意吗……？{SCROLL}没关系,我和拉帝欧斯、拉帝亚斯{NEWLINE}会在这里等着冠军大人,{CLEAR}您什么时候想跟它们成为同伴了,{CLEAR}随时可以来秘密花园找我。",
+   "en": "You don’t want to...?{SCROLL}That’s all right. Latios, Latias and I{NEWLINE}will wait for you here, Champion.{CLEAR}Whenever you want them as your{CLEAR}partners, come find me in the{CLEAR}secret garden.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "您身上携带的精灵有些多,{NEWLINE}没法同时带走拉帝欧斯和拉帝亚斯。{CLEAR}您可以先去整理一下随身精灵,{CLEAR}我和卡侬会在这里等您。",
+   "en": "You’re carrying a few too many Pokémon.{NEWLINE}You can’t take both Latios and Latias{CLEAR}with you. Please go sort out your party{CLEAR}first. Bianca and I will wait for{CLEAR}you here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "那么请冠军大人面对{NEWLINE}拉帝欧斯和拉帝亚斯,{CLEAR}向它们表达自己的意愿吧。",
+   "en": "Then please face Latios and Latias,{NEWLINE}Champion, and tell them what you wish.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "{VAR:0103:0}『拉帝欧斯、拉帝亚斯,{NEWLINE}成为我的同伴{CLEAR}一起守护这个地区吧！",
+   "en": "{VAR:0103:0}: Latios, Latias, become my{NEWLINE}partners, and let’s protect this{CLEAR}region together!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "拉帝欧斯加入了队伍！",
+   "en": "Latios joined your party!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "要给拉帝欧斯起昵称吗？{SCROLL}",
+   "en": "Give Latios a nickname?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "昵称叫{VAR:0101:1}{NEWLINE}可以吗？{VAR:0200:0}",
+   "en": "Is {VAR:0101:1} the nickname you want{NEWLINE}to give?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 4 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 71,
+   "zh": "拉帝亚斯加入了队伍！",
+   "en": "Latias joined your party!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "要给拉帝亚斯起昵称吗？{SCROLL}",
+   "en": "Give Latias a nickname?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "恭喜冠军大人收服{NEWLINE}水都群岛传说中的精灵。{CLEAR}我还有一件东西要送给您,{CLEAR}请您上前一步走到喷泉旁。",
+   "en": "Congratulations on catching the{NEWLINE}legendary Pokémon of the Alto Mare{CLEAR}Islands, Champion. I have one more{CLEAR}thing to give you. Please step forward{CLEAR}to the fountain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "请将手伸到喷泉中。",
+   "en": "Please reach into the fountain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "{VAR:0103:0}『这是……！？",
+   "en": "{VAR:0103:0}: This is...?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "{VAR:0103:0}『原来之前看到{NEWLINE}喷泉中的隐隐光辉,{CLEAR}就是这颗珠子散发的啊。",
+   "en": "{VAR:0103:0}: So the faint glow I saw in the{NEWLINE}fountain before was coming from{CLEAR}this orb.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "这颗宝珠名为心之水滴,{NEWLINE}让拉帝欧斯或者拉帝亚斯带上它,{CLEAR}才能发挥出它们兄妹的真正力量。{SCROLL}如此一来,拉帝欧斯、拉帝亚斯{NEWLINE}还有心之水滴,{CLEAR}就都托付给冠军大人您了,{CLEAR}希望它们能在对抗火箭队的战斗中{CLEAR}帮得上忙。",
+   "en": "This orb is called the Soul Dew. When{NEWLINE}Latios or Latias holds it, the siblings{CLEAR}can bring out their true power.{SCROLL}And so I entrust Latios, Latias and the{NEWLINE}Soul Dew to you, Champion. I hope they{CLEAR}will help you in the fight against{CLEAR}Team Rocket.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 79,
+   "zh": "至于诸岛巡礼的事,{NEWLINE}您帮忙赶跑来犯的火箭队,{CLEAR}就算是通过了一之岛的巡礼考验,{CLEAR}您可以继续接下来的巡礼了。{SCROLL}现在图书馆应该有{NEWLINE}其他巡礼参加者在等我,{CLEAR}所以请恕我先告辞回去,{CLEAR}祝冠军大人今后的旅途一路顺风。",
+   "en": "As for the Island Pilgrimage, you drove{NEWLINE}off the invading Team Rocket, so{CLEAR}consider the One Island Pilgrimage trial{CLEAR}passed. You may continue with the rest{CLEAR}of the pilgrimage.{SCROLL}Other pilgrimage participants should be{NEWLINE}waiting for me at the library now, so{CLEAR}please excuse me while I head back. I{CLEAR}wish you a safe journey from here{CLEAR}on, Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "卡侬『谢谢冠军大人{NEWLINE}保护了拉帝欧斯和拉帝亚斯,{CLEAR}以后有时间的话,{CLEAR}欢迎常来一之岛玩。",
+   "en": "Bianca: Thank you for protecting Latios{NEWLINE}and Latias, Champion. When you have{CLEAR}time, come visit One Island often.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "卡侬『拉帝欧斯和拉帝亚斯{NEWLINE}都在等您呢。",
+   "en": "Bianca: Latios and Latias are both{NEWLINE}waiting for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "泉水中散发出圣洁的力量……{SCROLL}",
+   "en": "A holy power is radiating from the{NEWLINE}spring water...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "{VAR:0103:0}『说起来,这里是第一次{NEWLINE}跟拉帝亚斯见面的地方……",
+   "en": "{VAR:0103:0}: Come to think of it, this is{NEWLINE}where I first met Latias...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "拉帝亚斯非常高兴！",
+   "en": "Latias is overjoyed!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "{VAR:0103:0}『卡侬？还是……拉帝亚斯？",
+   "en": "{VAR:0103:0}: Bianca? Or... Latias?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "少女牵起了你的手。",
+   "en": "The girl took your hand.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "少女靠了上来！",
+   "en": "The girl moved closer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "{VAR:0103:0}『唔……",
+   "en": "{VAR:0103:0}: Mm...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "{VAR:0103:0}『拉帝亚斯……？",
+   "en": "{VAR:0103:0}: Latias...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

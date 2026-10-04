@@ -1,0 +1,30 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { areas, regionLabel, url, REGIONS } from '../../lib/data';
+const named = REGIONS.filter((r) => r !== 'other');
+const groups = named.map((r) => ({ r, list: areas.filter((a) => a.region === r) })).filter((g) => g.list.length);
+const other = areas.filter((a) => !named.includes(a.region));
+if (other.length) groups.push({ r: 'other', list: other });
+const counts = (a: typeof areas[number]) => [
+	a.encounters.length || a.headbutt.length ? 'wild Pokémon' : '',
+	a.calendar.length ? 'calendar encounters' : '',
+	a.trainers.length ? `${a.trainers.length} trainers` : '',
+	a.items.length + a.gifts.length ? `${a.items.length + a.gifts.length} items` : '',
+	a.shops.length ? 'shop' : '',
+].filter(Boolean).join(' · ');
+---
+<StarlightPage frontmatter={{ title: 'Locations', description: 'Every location in Origin HeartGold with its wild Pokémon, trainers, items, shops and quests.', tableOfContents: false }}>
+	<p>Locations in rough story order. Each page lists the quests that happen there, wild Pokémon, trainers and their teams, items and shops.</p>
+	<div class="table-filter" data-table="loc-list">
+		<input type="search" placeholder="Filter locations…" aria-label="Filter locations" />
+		<span class="filter-count" aria-live="polite"></span>
+	</div>
+	<div id="loc-list">
+		{groups.map((g) => <>
+			<h2>{regionLabel(g.r)}</h2>
+			<ul class="loc-list">
+				{g.list.map((a) => <li data-row><a href={url(`/locations/${a.slug}/`)}>{a.name}</a> <span class="small muted">{counts(a)}</span></li>)}
+			</ul>
+		</>)}
+	</div>
+</StarlightPage>

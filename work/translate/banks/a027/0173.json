@@ -1,0 +1,1527 @@
+{
+ "narc": "a027",
+ "bank": 173,
+ "source": "work/extract/v4/a027/0173.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "ライト　ON　OFF",
+   "en": "Light ON/OFF",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 1,
+   "zh": "ライトカラー　ライト１",
+   "en": "Light Color 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 2,
+   "zh": "ライトカラー　ライト２",
+   "en": "Light Color 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 3,
+   "zh": "ライトカラー　らいと３",
+   "en": "Light Color 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 4,
+   "zh": "ライトカラー　ライト４",
+   "en": "Light Color 4",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 5,
+   "zh": "ライトベクトル　ライト１",
+   "en": "Light Vector 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 6,
+   "zh": "ライトベクトル　ライト２",
+   "en": "Light Vector 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 7,
+   "zh": "ライトベクトル　ライト３",
+   "en": "Light Vector 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 8,
+   "zh": "ライトベクトル　ライト４",
+   "en": "Light Vector 4",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 9,
+   "zh": "ポリゴンのいろ　ディフューズ",
+   "en": "Polygon Color: diffused",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 10,
+   "zh": "かんきょうこう　アンビエント",
+   "en": "Environment Lighting: ambient",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 11,
+   "zh": "きょうめんはんしゃ　スペキュラー",
+   "en": "Specular Reflexion: specular",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 12,
+   "zh": "ほうしゃこう　エミッション",
+   "en": "Radiant Light: emitted",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 13,
+   "zh": "デバックウィンドウのせんたく",
+   "en": "Select debug windows",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 14,
+   "zh": "ライト　ENDフレーム",
+   "en": "Light: End Frames",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 15,
+   "zh": "ON",
+   "en": "ON",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "OFF",
+   "en": "OFF",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "Y",
+   "en": "Y",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "X",
+   "en": "X",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "Z",
+   "en": "Z",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "A",
+   "en": "A",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "B",
+   "en": "B",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "Yうえ　した",
+   "en": "Y up down",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 23,
+   "zh": "Xうえ　した",
+   "en": "X up down",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 24,
+   "zh": "Aうえ　した",
+   "en": "A up down",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 25,
+   "zh": "Bうえ　した",
+   "en": "B up down",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 26,
+   "zh": "Yひだり",
+   "en": "Y left",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 27,
+   "zh": "Xうえ",
+   "en": "X up",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 28,
+   "zh": "Aみぎ",
+   "en": "A right",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 29,
+   "zh": "Bした",
+   "en": "B down",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 30,
+   "zh": "あか",
+   "en": "Red",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 31,
+   "zh": "みどり",
+   "en": "Green",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 32,
+   "zh": "あお",
+   "en": "Blue",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 33,
+   "zh": "アルファ",
+   "en": "Alpha",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 34,
+   "zh": "ライト１",
+   "en": "Light 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 35,
+   "zh": "ライト２",
+   "en": "Light 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 36,
+   "zh": "ライト３",
+   "en": "Light 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 37,
+   "zh": "ライト４",
+   "en": "Light 4",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 38,
+   "zh": "テンプレートへんこう　LR",
+   "en": "Change template LR",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 39,
+   "zh": "モード",
+   "en": "Modes",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 40,
+   "zh": "かかりぐあい",
+   "en": "Strength",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 41,
+   "zh": "オフセット",
+   "en": "Offset",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 42,
+   "zh": "ON OFF",
+   "en": "ON OFF",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "１　B",
+   "en": "1 B",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 44,
+   "zh": "１０ A",
+   "en": "10 A",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 45,
+   "zh": "１００ X",
+   "en": "100 X",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 46,
+   "zh": "１０００　Y",
+   "en": "1000 Y",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 47,
+   "zh": "FOGのせってい",
+   "en": "Fog Settings",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 48,
+   "zh": "FOGのいろ",
+   "en": "Fog Color",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 49,
+   "zh": "FOGテーブル",
+   "en": "Fog Table",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 50,
+   "zh": "つぎのデータ　X",
+   "en": "Next data X",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 51,
+   "zh": "まえのデータ　B",
+   "en": "Previous data B",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 52,
+   "zh": "データ",
+   "en": "Data",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 53,
+   "zh": "BGめんに　ひょうじ　SELECT",
+   "en": "Show on BG layer SELECT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 54,
+   "zh": "はれ",
+   "en": "Sunny",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 55,
+   "zh": "くもり",
+   "en": "Cloudy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 56,
+   "zh": "あめ",
+   "en": "Rain",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 57,
+   "zh": "おおあめ",
+   "en": "Heavy Rain",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 58,
+   "zh": "かみなり",
+   "en": "Thunder",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 59,
+   "zh": "ゆき",
+   "en": "Snow",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 60,
+   "zh": "ふぶき",
+   "en": "Blizzard",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 61,
+   "zh": "もうふぶき",
+   "en": "Whiteout",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 62,
+   "zh": "きり",
+   "en": "Fog",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 63,
+   "zh": "かざんばい",
+   "en": "Volcanic Ash",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 64,
+   "zh": "すなあらし",
+   "en": "Sandstorm",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 65,
+   "zh": "ダイヤモンド",
+   "en": "Diamond",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 66,
+   "zh": "きりはらい",
+   "en": "Defog",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 67,
+   "zh": "フラッシュ",
+   "en": "Flash",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 68,
+   "zh": "きあい",
+   "en": "Determination",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 69,
+   "zh": "しんぴ",
+   "en": "Mystery",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 70,
+   "zh": "にじ",
+   "en": "Rainbow",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 71,
+   "zh": "ストップ",
+   "en": "Stop",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 72,
+   "zh": "はき",
+   "en": "Ambition",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 73,
+   "zh": "こごれび",
+   "en": "Sunlight through leaves",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 74,
+   "zh": "こわいかんじ",
+   "en": "Scary Feel",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 75,
+   "zh": "ギンガ００",
+   "en": "Galactic 00",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 76,
+   "zh": "ロストタワー",
+   "en": "Lost Tower",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 77,
+   "zh": "ハードマウンテン",
+   "en": "Stark Mt.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 78,
+   "zh": "どうくつ０２",
+   "en": "Cave 02",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 79,
+   "zh": "セル",
+   "en": "Cell",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 80,
+   "zh": "イメージ",
+   "en": "Image",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 81,
+   "zh": "ワイプ",
+   "en": "Wipe",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 82,
+   "zh": "マテリアル",
+   "en": "Material",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 83,
+   "zh": "FOG",
+   "en": "FOG",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "おてんき",
+   "en": "Weather",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 85,
+   "zh": "ライト",
+   "en": "Light",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 86,
+   "zh": "ライトスピ",
+   "en": "Light speed",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 87,
+   "zh": "エンカウント",
+   "en": "No. of Pokémon encounter",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 88,
+   "zh": "とじる",
+   "en": "Close",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 89,
+   "zh": "３Dてんそう",
+   "en": "3D Transfer",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 90,
+   "zh": "ON",
+   "en": "ON",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "OFF",
+   "en": "OFF",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "HI",
+   "en": "HI",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "LO",
+   "en": "LO",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "ST",
+   "en": "ST",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "テスト",
+   "en": "Test",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 96,
+   "zh": "ずかん",
+   "en": "Pokedex",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 97,
+   "zh": "X　0",
+   "en": "X　0",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 98,
+   "zh": "X　１",
+   "en": "X 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 99,
+   "zh": "X　２",
+   "en": "X 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 100,
+   "zh": "Y　０",
+   "en": "Y 0",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 101,
+   "zh": "Y　１",
+   "en": "Y 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 102,
+   "zh": "Y　２",
+   "en": "Y 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 103,
+   "zh": "SELECT　ぜんポケモンデータはき{NEWLINE}key   A=1 right=10 up=100{NEWLINE}key   Y=-1 left=-10 down=-100{NEWLINE}L  + key かいし　へんこう{NEWLINE}R  + key おわり　へんこう{NEWLINE}START　　せってい{NEWLINE}B        デバックしゅうりょう{NEWLINE}",
+   "en": "SELECT: Trash all Pokémon data{NEWLINE}key   A=1 right=10 up=100{NEWLINE}key   Y=-1 left=-10 down=-100{NEWLINE}L: Start to change{NEWLINE}R: End to change{NEWLINE}START: Settings{NEWLINE}B: Exit from the debug",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 104,
+   "zh": "ずかん　コントロール",
+   "en": "Pokédex control",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 105,
+   "zh": "かいし",
+   "en": "Begin",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 106,
+   "zh": "しゅうりょう",
+   "en": "End",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 107,
+   "zh": "ぜんこくずかんフラグセット",
+   "en": "♡National Pokédex flag ON",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 108,
+   "zh": "シンオウずかんセット",
+   "en": "♡Set Sinnoh Pokédex",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 109,
+   "zh": "ゼンコクずかんセット",
+   "en": "♡Set National Pokédex",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 110,
+   "zh": "ゼンコクみた",
+   "en": "♡Seen National Pokédex",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 111,
+   "zh": "シンオウみた",
+   "en": "♡Seen Sinnoh Pokédex",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 112,
+   "zh": "デオキシスセーブデータ",
+   "en": "DEOXYS save data",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 113,
+   "zh": "シーウシセーブデータ",
+   "en": "SHELLOS save data",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 114,
+   "zh": "げんごぜんセット",
+   "en": "♡Set all languages",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 115,
+   "zh": "げんごランダムセット",
+   "en": "♡Set a random-select language",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 116,
+   "zh": "えいごセット",
+   "en": "♡Set English",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 117,
+   "zh": "フランスごセット",
+   "en": "♡Set French",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 118,
+   "zh": "イタリアごセット",
+   "en": "♡Set Italian",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 119,
+   "zh": "ドイツごセット",
+   "en": "♡Set German",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 120,
+   "zh": "スペインごセット",
+   "en": "♡Set Spanish",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 121,
+   "zh": "アンノーンＡーＺセット",
+   "en": "♡Set Unown from A to Z",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 122,
+   "zh": "アンノーンぜんセット",
+   "en": "♡Set full set of Unown",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 123,
+   "zh": "ポケモン",
+   "en": "Pokémon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 124,
+   "zh": "どく",
+   "en": "Poison",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 125,
+   "zh": "クライマックス",
+   "en": "Climax",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 126,
+   "zh": "くさ　００",
+   "en": "Grass 00",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 127,
+   "zh": "くさ　０１",
+   "en": "Grass 01",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 128,
+   "zh": "みず　００",
+   "en": "Water 00",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 129,
+   "zh": "みず　０１",
+   "en": "Water 01",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 130,
+   "zh": "あまいかおり",
+   "en": "Sweet Scent",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 131,
+   "zh": "トレード",
+   "en": "Trade",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 132,
+   "zh": "イメージ レコード",
+   "en": "Image records",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 133,
+   "zh": "アクセサリーこうかん",
+   "en": "Accessory Exchange",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 134,
+   "zh": "ヒデン00",
+   "en": "HM00",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 135,
+   "zh": "ヒデン01",
+   "en": "HM01",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 136,
+   "zh": "ヒデン02",
+   "en": "HM02",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 137,
+   "zh": "まぜまぜ　チーム",
+   "en": "Mixing teams",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 138,
+   "zh": "せかいとけい",
+   "en": "World Clock",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 139,
+   "zh": "ニュース",
+   "en": "News",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 140,
+   "zh": "ひろばイベントはやい",
+   "en": "Early Plaza Events",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 141,
+   "zh": "ひろばroom0",
+   "en": "Plaza Room0",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 142,
+   "zh": "ひろばroom1",
+   "en": "Plaza Room1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 143,
+   "zh": "ひろば room2",
+   "en": "Plaza Room2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 144,
+   "zh": "ひろば ふつう",
+   "en": "Plaza: normal",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 145,
+   "zh": "ひろば みんな Vip",
+   "en": "Plaza: everyone VIP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 146,
+   "zh": "ひろば　ロックながい",
+   "en": "Plaza: Delay the lock timing",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 147,
+   "zh": "ダンジョン　００",
+   "en": "Dungeon 00",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 148,
+   "zh": "ダンジョン　０１",
+   "en": "Dungeon 01",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 149,
+   "zh": "TR くさ00",
+   "en": "TR Grass 00",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 150,
+   "zh": "TR くさ01",
+   "en": "TR Grass 01",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 151,
+   "zh": "TR みず00",
+   "en": "TR Water 00",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 152,
+   "zh": "TR みず01",
+   "en": "TR Water 01",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 153,
+   "zh": "TR ダン 00",
+   "en": "TR Dungeon 00",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 154,
+   "zh": "TR ダン 01",
+   "en": "TR Dungeon 01",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 155,
+   "zh": "sp タワー",
+   "en": "sp Tower",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 156,
+   "zh": "sp ダブル",
+   "en": "sp Double",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 157,
+   "zh": "GINGA 00",
+   "en": "GINGA 00",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 158,
+   "zh": "GINGA 01",
+   "en": "GINGA 01",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 159,
+   "zh": "LEGEND",
+   "en": "LEGEND",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 160,
+   "zh": "PACKAGE",
+   "en": "PACKAGE",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 161,
+   "zh": "GYM クロガネ",
+   "en": "Gym Oreburgh",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 162,
+   "zh": "GYM ハクタイ",
+   "en": "Gym Eterna",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 163,
+   "zh": "GYM ノモセ",
+   "en": "Gym Pastoria",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 164,
+   "zh": "GYM トバリ",
+   "en": "Gym Veilstone",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 165,
+   "zh": "GYM ヨスガ",
+   "en": "Gym Hearthome",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 166,
+   "zh": "GYM キッサキ",
+   "en": "Gym Snowpoint",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 167,
+   "zh": "GYM ミオ",
+   "en": "Gym Canalave",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 168,
+   "zh": "GYM ナギサ",
+   "en": "Gym Sunyshore",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 169,
+   "zh": "SITEN 00",
+   "en": "SITEN 00",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 170,
+   "zh": "SITEN 01",
+   "en": "SITEN 01",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 171,
+   "zh": "SITEN 02",
+   "en": "SITEN 02",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 172,
+   "zh": "SITEN 03",
+   "en": "SITEN 03",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 173,
+   "zh": "CHANP",
+   "en": "CHANP",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 174,
+   "zh": "ブラシぬり",
+   "en": "Brush paint",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 175,
+   "zh": "むかしをさいげん",
+   "en": "Recreate the past",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 176,
+   "zh": "よこ　かいてん　A up down　すうち{VAR:013B:0}{NEWLINE}　　　　　　　　　　　　　　　かくど{VAR:013B:5}",
+   "en": "Horizontal Rotation　A up down　value:{VAR:013B:0}{NEWLINE}　　　　　　　　　　　　　　　angle:{VAR:013B:5}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 177,
+   "zh": "たて　かいてん　B up down　すうち{VAR:013B:1}{NEWLINE}　　　　　　　　　　　　　　　かくど{VAR:013B:6}",
+   "en": "Vertical Rotation　B up down　value:{VAR:013B:1}{NEWLINE}　　　　　　　　　　　　　　　angle:{VAR:013B:6}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 178,
+   "zh": "ぜんたい　かたむき　Y up down　すうち{VAR:013B:2}{NEWLINE}                               かくど{VAR:013B:0}",
+   "en": "Overall Slope　Y up down　value:{VAR:013B:2}{NEWLINE}                              angle:{VAR:013B:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 179,
+   "zh": "かめら　きょり A up down　すうち{VAR:013B:3}",
+   "en": "Camera Distance A up down　value:{VAR:013B:3}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 180,
+   "zh": "かめら　たーげっと　B up down　すうち{VAR:013B:4}",
+   "en": "Camera Target　B up down　value:{VAR:013B:4}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 181,
+   "zh": "タイマー　ていし　　START　そうさ　きりかえ　R{NEWLINE}どうさ　ていし X しゅうりょう L   かきだし right",
+   "en": "Stop Timer: START　Switch Control: R{NEWLINE}Stop Operation: X  End: L   Start drawing: right",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 182,
+   "zh": "かめら　あんぐる　Y up down すうち{VAR:013B:0}",
+   "en": "Camera Angle　Y up down value:{VAR:013B:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 183,
+   "zh": "いち　Y up down すうち{VAR:013B:0}",
+   "en": "Position　Y up down value:{VAR:013B:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; US text; ext-review RCA-011"
+  },
+  {
+   "id": 184,
+   "zh": "おおきさ　　A up down すうち{VAR:013B:0}",
+   "en": "Size　A up down value:{VAR:013B:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 185,
+   "zh": "いんりょく B up down すうち{VAR:013B:0}",
+   "en": "Gravity B up down value:{VAR:013B:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 186,
+   "zh": "いんりょく　エリア　Y up down すうち{VAR:013B:0}",
+   "en": "Gravity Area　Y up down value:{VAR:013B:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 187,
+   "zh": "へやのしゅるいは？{VAR:0133:0} {NEWLINE}Aけってい 　UP DOWNせんたく",
+   "en": "Room kind？{VAR:0133:0} {NEWLINE}A...Confirm 　UP DOWN...Select",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 188,
+   "zh": "シーズンは？{VAR:0133:0}{NEWLINE}Aけってい 　UP DOWNせんたく",
+   "en": "Season？{VAR:0133:0}{NEWLINE}A...Confirm 　UP DOWN...Select",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 189,
+   "zh": "ガジェットは？{VAR:0302:0}{NEWLINE}Aけってい 　UP DOWNせんたく",
+   "en": "Which Tap Toy？{VAR:0302:0}{NEWLINE}A...Confirm 　UP DOWN...Select",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "narc": "a027",
+ "bank": 425,
+ "source": "work/extract/v4/a027/0425.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "{VAR:0132:0}张",
+   "en": "{VAR:0132:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "{VAR:0108:0}",
+   "en": "{VAR:0108:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "３个",
+   "en": "Three",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "Ｘ３",
+   "en": "x3",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "下一张卡",
+   "en": "NEXT CARD",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0432/4"
+  },
+  {
+   "id": 5,
+   "zh": "结束",
+   "en": "QUIT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags suspiciously_long"
+  },
+  {
+   "id": 6,
+   "zh": "结束刮这张卡吗？",
+   "en": "Would you like to stop scratching{NEWLINE}this card?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0432/6"
+  },
+  {
+   "id": 7,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 8,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0132:0}刮卡开始！",
+   "en": "Start card no. {VAR:0132:0}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0432/9"
+  },
+  {
+   "id": 10,
+   "zh": "集齐了３个！",
+   "en": "Three matched!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "遗憾！",
+   "en": "Too bad!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0432/11"
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0132:0}请选择要刮的卡{NEWLINE}{VAR:0200:0}",
+   "en": "Please select card no. {VAR:0132:0}.{VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0432/12"
+  }
+ ]
+}

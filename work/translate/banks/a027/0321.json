@@ -1,0 +1,962 @@
+{
+ "narc": "a027",
+ "bank": 321,
+ "source": "work/extract/v4/a027/0321.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "前面是月见山,{SCROLL}途中还有{NEWLINE}月见山广场！",
+   "en": "Mt. Moon ahead.{SCROLL}Mt. Moon Square is on{NEWLINE}the way to the top!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0328/0"
+  },
+  {
+   "id": 1,
+   "zh": "月见山周围散落着不少星之碎片,{NEWLINE}据说这些小碎片能够用来{CLEAR}修补天上掉下的陨石。{CLEAR}虽然我没见过什么陨石,{CLEAR}但多收集一些总是没错的,{CLEAR}说不定以后就能用到。",
+   "en": "Lots of Star Pieces are scattered{NEWLINE}around Mt. Moon.{SCROLL}They say these little pieces can be used{NEWLINE}to repair meteorites that fall from the{CLEAR}sky.{SCROLL}I’ve never seen a meteorite myself, but{NEWLINE}it can’t hurt to collect a few. They{CLEAR}might come in handy someday.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 2,
+   "zh": "旁边这家道馆{NEWLINE}是一个叫小明的人开的。{SCROLL}虽然他这个道馆{NEWLINE}不是精灵联盟批准开设的,{CLEAR}但是小明的实力真的没话说！",
+   "en": "The Gym next door is run by a guy named{NEWLINE}A.J.{SCROLL}His Gym isn’t approved by the{NEWLINE}Pokémon League, but A.J. is{CLEAR}seriously strong!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 3,
+   "zh": "「飞膝踢」是最强的腿法,{NEWLINE}你如果能打败我的话,{CLEAR}我就可以教给你的精灵。{SCROLL}是否与之切磋？{SCROLL}",
+   "en": "High Jump Kick is the mightiest of kicks!{NEWLINE}If you can beat me, I’ll teach it to{CLEAR}your Pokémon.{SCROLL}Spar with him?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "「增强拳」是最强的拳法,{NEWLINE}如果你能打败我的话,{CLEAR}我就可以教给你的精灵。{SCROLL}是否与之切磋？{SCROLL}",
+   "en": "Power-Up Punch is the mightiest of{NEWLINE}punches! If you can beat me, I’ll teach{CLEAR}it to your Pokémon.{SCROLL}Spar with him?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "「飞膝踢」是最强的腿法,{NEWLINE}想让你的精灵学习吗？",
+   "en": "High Jump Kick is the mightiest of kicks!{NEWLINE}Want your Pokémon to learn it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "厉害厉害,如果是你的话,{NEWLINE}一定能用好我的这招「飞膝踢」。",
+   "en": "Impressive, impressive! Someone like{NEWLINE}you will surely put my High Jump Kick to{CLEAR}good use.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "「增强拳」是最强的拳法,{NEWLINE}想让你的精灵学习吗？",
+   "en": "Power-Up Punch is the mightiest of{NEWLINE}punches! Want your Pokémon to learn{CLEAR}it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "厉害厉害,如果是你的话,{NEWLINE}一定能用好我的这招「增强拳」。",
+   "en": "Impressive, impressive! Someone like{NEWLINE}you will surely put my Power-Up Punch{CLEAR}to good use.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "这里是华蓝城郊道馆,{NEWLINE}馆主：小明",
+   "en": "Cerulean Outskirts Gym{NEWLINE}Leader: A.J.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 10,
+   "zh": "太阳珊瑚,使用水柱喷射！",
+   "en": "Corsola, use Aqua Jet!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 11,
+   "zh": "小明『快避开啊,穿山王！",
+   "en": "A.J.: Dodge it, Sandslash!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 12,
+   "zh": "小明『很好,穿山王！{NEWLINE}使用劈瓦！",
+   "en": "A.J.: Nice, Sandslash! Now use Brick{NEWLINE}Break!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 13,
+   "zh": "啊！太阳珊瑚！{NEWLINE}你没事吧？",
+   "en": "Ah! Corsola! Are you OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 14,
+   "zh": "小明『我又赢了。{NEWLINE}不过你的实力也进步很多了呢。",
+   "en": "A.J.: I win again. But you’ve gotten{NEWLINE}a lot stronger.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 15,
+   "zh": "小明『那边那位训练家,{NEWLINE}你也是来本道馆挑战的吗？{CLEAR}欢迎欢迎,请上场吧！{SCROLL}是否挑战小明？",
+   "en": "A.J.: You there, Trainer! Are you{NEWLINE}here to challenge my Gym too? Welcome,{CLEAR}welcome! Step right up!{SCROLL}Challenge A.J.?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 16,
+   "zh": "小明『那么,华蓝城郊道馆挑战赛,{NEWLINE}馆主小明与……",
+   "en": "A.J.: And now, the Cerulean{NEWLINE}Outskirts Gym challenge! Gym Leader{CLEAR}A.J. versus...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 17,
+   "zh": "小明『以持有一个徽章的{NEWLINE}训练家的实力来说。{CLEAR}你已经算是很不错的了。{SCROLL}小明『不过很遗憾,{NEWLINE}我的道馆暂时还没有{CLEAR}得到精灵联盟的认证。{CLEAR}如果哪天本道馆成为{CLEAR}正式的联盟道馆,{CLEAR}我一定给你补发一个徽章。",
+   "en": "A.J.: For a Trainer with just one{NEWLINE}Badge, you’re pretty good.{SCROLL}A.J.: Sadly, my Gym isn’t certified by{NEWLINE}the Pokémon League yet.{SCROLL}If it ever becomes an official League{NEWLINE}Gym, I’ll be sure to send you a Badge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 18,
+   "zh": "小明『总有一天,{NEWLINE}我会用实力让精灵联盟认可我,{CLEAR}然后让这所华蓝城郊道馆{CLEAR}成为正式的道馆！",
+   "en": "A.J.: Someday I’ll make the{NEWLINE}Pokémon League recognize my strength,{CLEAR}and make this Cerulean Outskirts Gym an{CLEAR}official Gym!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 19,
+   "zh": "小明『呀,是{VAR:0103:0}啊。{NEWLINE}上次谢谢你救了我的精灵。{CLEAR}为了表示谢意,{CLEAR}随时欢迎你来我这里练习对战。{SCROLL}怎么样,要开始练习吗？",
+   "en": "A.J.: Oh, it’s you, {VAR:0103:0}. Thanks{NEWLINE}for saving my Pokémon last time.{SCROLL}To show my thanks, you’re welcome to{NEWLINE}come practice battling here anytime.{SCROLL}So, want to start a practice match?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 20,
+   "zh": "小明『那么,{NEWLINE}华蓝城郊道馆的对战练习赛,{CLEAR}现在开始！",
+   "en": "A.J.: Then the Cerulean Outskirts{NEWLINE}Gym practice match begins now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 21,
+   "zh": "小明『如果你还对本道馆的{NEWLINE}训练方法感兴趣的话,{CLEAR}可以自行参观学习。",
+   "en": "A.J.: If you’re still curious about{NEWLINE}how we train here, feel free to have a{CLEAR}look around.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0103:0}『天啊,这些精灵……{NEWLINE}都穿着竞争背心在锻炼！",
+   "en": "{VAR:0103:0}: Wow, these Pokémon... They’re{NEWLINE}all training in Macho Braces!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 23,
+   "zh": "小明『怎么样,不错吧。{NEWLINE}这些可都是陪着我拿下了{CLEAR}7个道馆徽章的伙伴呢！",
+   "en": "A.J.: Pretty great, huh? These are{NEWLINE}the partners who helped me win seven{CLEAR}Gym Badges!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0103:0}『是锻炼地很强壮的样子。{NEWLINE}可你不觉得……{CLEAR}它们也有点过于辛苦了吗？",
+   "en": "{VAR:0103:0}: They sure look strong. But{NEWLINE}don’t you think... they’re working a{CLEAR}little too hard?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 25,
+   "zh": "小明『你太天真了。{NEWLINE}我在上届石英大会开赛前夕,{CLEAR}因为败给常磐市的馆主{CLEAR}而没能获得第8枚徽章,{CLEAR}也就错过了那次的大会。",
+   "en": "A.J.: You’re too naive. Right before{NEWLINE}the last Indigo Conference, I lost to{CLEAR}the Viridian Gym Leader.{SCROLL}I couldn’t get my eighth Badge, so I{NEWLINE}missed the Conference.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 26,
+   "zh": "小明『所以我和我的精灵们约好了,{NEWLINE}无论如何都要打倒{CLEAR}号称「最强」的常磐馆主。{SCROLL}小明『为此我给精灵们制定了{NEWLINE}最严格的训练计划,{CLEAR}从配备竞争背心到调配健康食物,{CLEAR}全都……",
+   "en": "A.J.: So my Pokémon and I made a{NEWLINE}promise: no matter what, we’d beat{CLEAR}Viridian’s so-called ‘strongest’{CLEAR}Gym Leader.{SCROLL}A.J.: That’s why I set up the{NEWLINE}strictest training plan for them. From{CLEAR}Macho Braces to balanced, healthy{CLEAR}meals, everything...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 27,
+   "zh": "{VAR:FF01:200}你们是在说口袋妖怪的食物吗？{VAR:FF01:100}？",
+   "en": "{VAR:FF01:200}Did someone say Pokémon food?{VAR:FF01:100}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "SIZE-200% big text split over two lines. The zh ends with an extra ？ outside the size tag; kept as ‘!’. Double-size shout: one line per page (a line break inside {VAR:FF01:200} overflows the box and corrupts memory; heap_audit.md)."
+  },
+  {
+   "id": 28,
+   "zh": "你好啊这位馆主先生,{NEWLINE}你好像对口袋妖怪的营养学{CLEAR}很有研究嘛。",
+   "en": "Why, hello there, Mr. Gym Leader! You{NEWLINE}seem to know a lot about Pokémon{CLEAR}nutrition.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 29,
+   "zh": "小明『嘿嘿,我有那么像馆主吗？",
+   "en": "A.J.: Heh heh, do I really look that{NEWLINE}much like a Gym Leader?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 30,
+   "zh": "那是当然的啦！{NEWLINE}而且您还这么注重口袋妖怪的饮食,{CLEAR}想必在精灵身上花了不少心血吧！",
+   "en": "Of course you do! And you pay such{NEWLINE}close attention to your Pokémon’s diet.{CLEAR}You must put so much heart into them!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 31,
+   "zh": "小明『没错,{NEWLINE}我的精灵管理、训练、营养{CLEAR}绝对是全关东最棒的！",
+   "en": "A.J.: That’s right. My Pokémon care,{NEWLINE}training and nutrition are the best in{CLEAR}all of Kanto!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 32,
+   "zh": "那可不见得哟,馆主先生。",
+   "en": "Oh, I wouldn’t be so sure about that,{NEWLINE}Mr. Gym Leader.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 33,
+   "zh": "小明『啊？你们质疑我的能力？",
+   "en": "A.J.: Huh? Are you doubting my{NEWLINE}skills?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 34,
+   "zh": "不不不,我们只是觉得{NEWLINE}您使用的口袋妖怪食物,{CLEAR}未必就是最好的产品。",
+   "en": "No, no, no. We just think the Pokémon{NEWLINE}food you’re using might not be the best{CLEAR}product out there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 35,
+   "zh": "小明『不可能！我的精灵们的食物,{NEWLINE}都是我用几个大品牌食物{CLEAR}按科学比例调配的。",
+   "en": "A.J.: Impossible! I mix my Pokémon’s{NEWLINE}food myself from several big brands, in{CLEAR}scientific proportions.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 36,
+   "zh": "那些所谓的大品牌都是过去时啦！",
+   "en": "Those so-called big brands are old{NEWLINE}news!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 37,
+   "zh": "您应该看一下{NEWLINE}我们公司新出的这款口袋妖怪食物。",
+   "en": "You really should take a look at our{NEWLINE}company’s brand-new Pokémon food.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 38,
+   "zh": "富含营养的同时,还可以直接{NEWLINE}把精灵的某项努力值加满哟！",
+   "en": "Not only is it packed with nutrients, it{NEWLINE}can max out one of a Pokémon’s EVs in{CLEAR}one go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 39,
+   "zh": "小明『什么！{NEWLINE}这么神奇的吗！？{CLEAR}那确实可以节约我不少时间。",
+   "en": "A.J.: What?! It can do that?! That{NEWLINE}would save me a lot of time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 40,
+   "zh": "这是试吃的样品,{NEWLINE}请您收下！",
+   "en": "Here’s a free sample. Please, take it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 41,
+   "zh": "您可以现在{NEWLINE}让您的精灵试吃一下,{CLEAR}如果觉得好的话,{CLEAR}可以直接跟我们下单购买喔！",
+   "en": "Why not let your Pokémon try it right{NEWLINE}now? If you like it, you can order{CLEAR}straight from us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 42,
+   "zh": "小明『好了大伙！{NEWLINE}先休息一下吃点好吃的吧！",
+   "en": "A.J.: All right, everyone! Take a{NEWLINE}break and have something tasty!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 43,
+   "zh": "小明『来,尝尝这个{NEWLINE}跟我调配的食物相比口感怎么样？",
+   "en": "A.J.: Here, try this. How does it{NEWLINE}taste compared to the food I mix?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 44,
+   "zh": "小明『穿山王,你也尝尝看。",
+   "en": "A.J.: You try some too, Sandslash.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 45,
+   "zh": "穿山王『San——la！{SCROLL}穿山王好像非常爱吃！",
+   "en": "Sandslash: San-la!{SCROLL}Sandslash seems to love it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 46,
+   "zh": "吃了吃了,全都乖乖地吃下去了！",
+   "en": "They ate it, they ate it! They gobbled{NEWLINE}it all right up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 47,
+   "zh": "然后应该就会……",
+   "en": "And now they should...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 48,
+   "zh": "产生混乱！",
+   "en": "...get confused!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 49,
+   "zh": "小明『你们！到底喂给了{NEWLINE}我的精灵们什么东西！",
+   "en": "A.J.: You! What did you feed my{NEWLINE}Pokémon?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 50,
+   "zh": "既然你诚心诚意地发问了,",
+   "en": "Prepare for trouble!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 51,
+   "zh": "我们就大发慈悲地告诉你。",
+   "en": "Make it double!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 52,
+   "zh": "为了防止世界被破坏,",
+   "en": "To protect the world from devastation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 53,
+   "zh": "为了守护世界的和平。",
+   "en": "To unite all peoples within our nation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 54,
+   "zh": "贯彻爱与真实的邪恶,",
+   "en": "To denounce the evils of truth{NEWLINE}and love!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 55,
+   "zh": "可爱又迷人的反派角色。",
+   "en": "To extend our reach to the{NEWLINE}stars above!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 56,
+   "zh": "武藏『我是武藏！",
+   "en": "Jessie: Jessie!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 57,
+   "zh": "小次郎『我是小次郎！",
+   "en": "James: James!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags suspiciously_short"
+  },
+  {
+   "id": 58,
+   "zh": "武藏『我们是穿梭在银河的火箭队,",
+   "en": "Jessie: Team Rocket, blast off at the{NEWLINE}speed of light!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 59,
+   "zh": "小次郎『白洞,白色的明天在等着我们！",
+   "en": "James: Surrender now, or prepare{NEWLINE}to fight!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 60,
+   "zh": "喵喵『就是这样喵！",
+   "en": "Meowth: Meowth! That’s right!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 61,
+   "zh": "小明『你们骗我的精灵{NEWLINE}吃下这种东西,{CLEAR}到底想干什么！",
+   "en": "A.J.: You tricked my Pokémon into{NEWLINE}eating that stuff! What are you after?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 62,
+   "zh": "武藏『不要这么激动啊,{NEWLINE}这位年轻的馆主。{CLEAR}我们只是在试验{CLEAR}火箭队的最新研究成果而已啦。",
+   "en": "Jessie: Now, now, don’t get so worked{NEWLINE}up, young Gym Leader. We’re just{CLEAR}testing Team Rocket’s latest research.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 63,
+   "zh": "小次郎『一种给训练家的{NEWLINE}精灵吃下之后,{CLEAR}造成短暂的思维混乱,{CLEAR}方便我们捕捉的食物哟！",
+   "en": "James: A food that leaves a Trainer’s{NEWLINE}Pokémon briefly confused after they eat{CLEAR}it, so we can catch them easily!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 64,
+   "zh": "喵喵『你手头的精灵{NEWLINE}都已经没法战斗了,{CLEAR}乖乖交出来吧喵。",
+   "en": "Meowth: None of your Pokémon can fight{NEWLINE}now, so be a good boy and hand ’em{CLEAR}over, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 65,
+   "zh": "武藏『能拿到7个徽章的精灵,{NEWLINE}一定会成为我们火箭队的强大战力！",
+   "en": "Jessie: Pokémon strong enough to win{NEWLINE}seven Badges will make a mighty addition{CLEAR}to Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 66,
+   "zh": "{VAR:0103:0}『又是你们这些{NEWLINE}到处做坏事的火箭队！{CLEAR}这次竟然明目张胆地来抢别人的精灵！",
+   "en": "{VAR:0103:0}: It’s you again, Team Rocket,{NEWLINE}making trouble everywhere you go! Now{CLEAR}you’re stealing people’s Pokémon in{CLEAR}broad daylight!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 67,
+   "zh": "小次郎『我说感觉一旁的小鬼{NEWLINE}怎么这么面熟,{CLEAR}原来是在常磐森林里{CLEAR}坏我们好事的家伙！",
+   "en": "James: I thought that brat over there{NEWLINE}looked familiar. It’s the one who ruined{CLEAR}our plans in Viridian Forest!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 68,
+   "zh": "小明『可恶啊……",
+   "en": "A.J.: Dammit...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 69,
+   "zh": "武藏『哟,这次只有一个人啊。{NEWLINE}你的小女朋友没跟你一起吗？",
+   "en": "Jessie: Oh? All by yourself this time?{NEWLINE}Your little girlfriend didn’t come along?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 70,
+   "zh": "武藏『哟,这次只有一个人啊。{NEWLINE}你的小男朋友没跟你一起吗？",
+   "en": "Jessie: Oh? All by yourself this time?{NEWLINE}Your little boyfriend didn’t come along?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 71,
+   "zh": "喵喵『这次的小鬼头只有一个人,{NEWLINE}把他也干掉然后把精灵抢过来啊喵。",
+   "en": "Meowth: The brat’s all alone this time.{NEWLINE}Let’s take him out too and grab his{CLEAR}Pokémon, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 72,
+   "zh": "喵喵『这次的小鬼头只有一个人,{NEWLINE}把她也干掉然后把精灵抢过来啊喵。",
+   "en": "Meowth: The brat’s all alone this time.{NEWLINE}Let’s take her out too and grab her{CLEAR}Pokémon, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 73,
+   "zh": "{VAR:0103:0}『你休想！",
+   "en": "{VAR:0103:0}: Not a chance!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 74,
+   "zh": "{VAR:0103:0}『别做梦了！",
+   "en": "{VAR:0103:0}: In your dreams!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 75,
+   "zh": "武藏『这小鬼好像又变厉害了……",
+   "en": "Jessie: This brat’s gotten even{NEWLINE}stronger...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 76,
+   "zh": "小次郎『以多打少竟然还是输了？",
+   "en": "James: We outnumbered the brat and{NEWLINE}still lost?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 77,
+   "zh": "喵喵『再拖下去混乱的精灵{NEWLINE}就要回复了喵,赶紧撤吧！",
+   "en": "Meowth: If we stick around, those{NEWLINE}confused Pokémon are gonna snap out of{CLEAR}it, meow! Let’s scram!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 78,
+   "zh": "武藏、小次郎、喵喵『真是讨厌的感觉啊！",
+   "en": "Jessie, James & Meowth: Looks like Team{NEWLINE}Rocket’s blasting off again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon dub defeat line (D-1438); zh 真是讨厌的感觉啊."
+  },
+  {
+   "id": 79,
+   "zh": "{VAR:0103:0}『真新镇的{VAR:0103:0}。",
+   "en": "{VAR:0103:0}: {VAR:0103:0} from Pallet Town.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 80,
+   "zh": "小明『馆主小明与{NEWLINE}来自真新镇的{VAR:0103:0}的战斗,{CLEAR}现在开始！",
+   "en": "A.J.: Gym Leader A.J. versus {VAR:0103:0} of{NEWLINE}Pallet Town. Let the battle begin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 81,
+   "zh": "武藏、小次郎『真是欠收拾的小鬼！",
+   "en": "Jessie & James: What an insufferable{NEWLINE}brat!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 82,
+   "zh": "{VAR:0103:0}『还是多带几只精灵{NEWLINE}一起来参观吧。",
+   "en": "{VAR:0103:0}: I should bring a few more{NEWLINE}Pokémon with me before I look around.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 83,
+   "zh": "小明『我在每次战斗开始前{NEWLINE}都会提前收取你3000元作为激励金,{CLEAR}在你胜利之后再还给你一定金额。{CLEAR}不过你今天似乎没有带够钱啊。{CLEAR}为了保证每场对战的质量,{CLEAR}你还是准备好激励金再来吧！",
+   "en": "A.J.: Before every battle, I collect{NEWLINE}a $3000 incentive fee from you, and I{CLEAR}pay some of it back if you win.{SCROLL}But it looks like you didn’t bring enough{NEWLINE}money today.{SCROLL}To keep every battle worthwhile, come{NEWLINE}back when you have the fee ready!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 84,
+   "zh": "小明『什么！{NEWLINE}你已经拿到了常磐道馆的徽章！？{CLEAR}我觉得以你现在的实力,{CLEAR}已经不再需要我陪你练习了。",
+   "en": "A.J.: What?! You already have the{NEWLINE}Viridian Gym Badge?!{SCROLL}With your strength, I don’t think you{NEWLINE}need me as a practice partner anymore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 85,
+   "zh": "小明『已经拿到7枚徽章了吗？{NEWLINE}是时候拿出全力来跟你较量了！",
+   "en": "A.J.: You already have seven Badges?{NEWLINE}Then it’s time I fought you with{CLEAR}everything I’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 86,
+   "zh": "小明『我的伙伴们……{NEWLINE}啊……{CLEAR}哈哈哈,呵呵呵。{CLEAR}我才是最强的！哈哈哈哈哈！",
+   "en": "A.J.: My partners... Ah... Ha ha ha,{NEWLINE}heh heh heh. I’m the strongest! Ha ha{CLEAR}ha ha ha!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 87,
+   "zh": "小明先生的精灵{NEWLINE}被一伙人骗走了……{CLEAR}小明先生从那以后就有点……{CLEAR}嗯……",
+   "en": "Mr. A.J.’s Pokémon were swindled{NEWLINE}away by some gang... Ever since then,{CLEAR}Mr. A.J.’s been a little... um...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 88,
+   "zh": "坏人来的时候,{NEWLINE}我压根就不敢上前战斗……{CLEAR}看来我还差的很远,{CLEAR}还需要好好向小明先生学习啊！",
+   "en": "When the bad guys came, I didn’t even{NEWLINE}dare to step up and fight...{SCROLL}I’ve still got a long way to go. I need{NEWLINE}to learn a lot more from Mr. A.J.!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 89,
+   "zh": "我经常来这个华蓝城郊道馆{NEWLINE}跟小明先生练习。",
+   "en": "I often come to the Cerulean Outskirts{NEWLINE}Gym to practice with Mr. A.J.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 90,
+   "zh": "太阳珊瑚『Coooo——soa！",
+   "en": "Corsola: Coooo-soa!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 91,
+   "zh": "穿山王『San——la！",
+   "en": "Sandslash: San-la!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 92,
+   "zh": "拉达『Rati——ca！",
+   "en": "Raticate: Rati-ca!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 93,
+   "zh": "巴大蝴『But——fee！",
+   "en": "Butterfree: But-fee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "大针蜂『Bee——driii！",
+   "en": "Beedrill: Bee-driii!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 95,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position, flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 96,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it, come find me{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 97,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住「飞膝踢」。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn High{NEWLINE}Jump Kick.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 99,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会「飞膝踢」了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows High Jump{NEWLINE}Kick!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 101,
+   "zh": "{VAR:0101:0}学会了「飞膝踢」！",
+   "en": "{VAR:0101:0} learned High Jump Kick!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}就学会「飞膝踢」了！。",
+   "en": "And with that, your {VAR:0100:0} has{NEWLINE}learned High Jump Kick!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的「飞膝踢」……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习「飞膝踢」{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn High Jump{NEWLINE}Kick...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn High{NEWLINE}Jump Kick?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 105,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 106,
+   "zh": "你是要放弃{NEWLINE}让它记住「飞膝踢」吗？{VAR:0200:0}",
+   "en": "Give up on teaching it High Jump Kick?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住「增强拳」。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn{NEWLINE}Power-Up Punch.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会「增强拳」了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Power-Up{NEWLINE}Punch!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "{VAR:0101:0}学会了「增强拳」！",
+   "en": "{VAR:0101:0} learned Power-Up Punch!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}就学会「增强拳」了！",
+   "en": "And with that, your {VAR:0100:0} has{NEWLINE}learned Power-Up Punch!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的「增强拳」……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习「增强拳」{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Power-Up{NEWLINE}Punch...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn{NEWLINE}Power-Up Punch?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "你是要放弃{NEWLINE}让它记住「增强拳」吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Power-Up Punch?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "你希望单打还是双打？{SCROLL}",
+   "en": "Would you like a Single Battle or a{NEWLINE}Double Battle?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 114,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 6 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 115,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 5 source(s), same position; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 116,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), same position; other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 117,
+   "zh": "小明『双打需要至少两只精灵,{NEWLINE}你身上的精灵数量不够！",
+   "en": "A.J.: A Double Battle takes at least{NEWLINE}two Pokémon. You don’t have enough{CLEAR}with you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  },
+  {
+   "id": 118,
+   "zh": "小明『呀,是{VAR:0103:0}啊。{NEWLINE}感觉你最近变得更厉害了。{CLEAR}要跟我来场练习对战吗？",
+   "en": "A.J.: Oh, it’s you, {VAR:0103:0}. You seem{NEWLINE}to have gotten even stronger lately.{CLEAR}Care for a practice battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | [D-0383 rename 2026-09-29: Johnny → A.J.]; ext-review RV-002"
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+---
+// A Pokémon name that links to its page when we have one.
+import { pokemonUrl } from '../lib/data';
+const { id, name } = Astro.props as { id: number | null; name: string };
+const href = pokemonUrl(id);
+---
+{href ? <a href={href}>{name}</a> : <span>{name}</span>}

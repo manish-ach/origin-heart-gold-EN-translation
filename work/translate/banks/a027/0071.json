@@ -1,0 +1,841 @@
+{
+ "narc": "a027",
+ "bank": 71,
+ "source": "work/extract/v4/a027/0071.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "小美『爸爸在的时候,{NEWLINE}经常会给我念口袋妖怪故事书。{CLEAR}可是有一天爸爸突然就消失了,{CLEAR}呜呜……我想爸爸……",
+   "en": "Molly: When Daddy was here,{NEWLINE}he used to read me Pokémon storybooks{CLEAR}all the time. But one day, Daddy just{CLEAR}disappeared... *sob*... I miss Daddy...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "小美『大哥哥对不起,{NEWLINE}给你们添了这么多麻烦。{CLEAR}我以后会一边等爸爸,{CLEAR}一边跟叔叔们学习,{CLEAR}争取有朝一日能成为爸爸那样的专家。",
+   "en": "Molly: I’m sorry for causing you all{NEWLINE}so much trouble, big brother. From now{CLEAR}on, I’ll learn from the researchers{CLEAR}here while I wait for Daddy, so someday{CLEAR}I can be an expert just like him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#1/#2 identical zh (大哥哥 'big brother'); #2 may have been meant for the female player (大姐姐) but the hack kept 大哥哥."
+  },
+  {
+   "id": 2,
+   "zh": "小美『大哥哥对不起,{NEWLINE}给你们添了这么多麻烦。{CLEAR}我以后会一边等爸爸,{CLEAR}一边跟叔叔们学习,{CLEAR}争取有朝一日能成为爸爸那样的专家。",
+   "en": "Molly: I’m sorry for causing you all{NEWLINE}so much trouble, big brother. From now{CLEAR}on, I’ll learn from the researchers{CLEAR}here while I wait for Daddy, so someday{CLEAR}I can be an expert just like him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "呀！您是在岩山隧道时的救命恩人,{NEWLINE}我看新闻说您现在已经是联盟冠军了！{SCROLL}您还记得我吗？当时我和秀力老师{NEWLINE}在岩山隧道被火箭队攻击,{CLEAR}多亏了您出手相救{CLEAR}才能保全我们的研究成果。{SCROLL}不过半年前{NEWLINE}秀力老师突然失踪了,{CLEAR}然后前几天,{CLEAR}连老师的6岁女儿小美也突然消失了！{SCROLL}小美自从老师失踪后非常思念父亲,{NEWLINE}她为了在这里等父亲回来,{CLEAR}按理说不会到处乱跑。{CLEAR}如果您有时间,{CLEAR}拜托帮我们在附近找找小美吧！",
+   "en": "Oh! You’re the one who saved us in{NEWLINE}Rock Tunnel! I saw on the news that{CLEAR}you’re the League Champion now!{SCROLL}Do you remember me? Team Rocket{NEWLINE}attacked Professor Hale and me{CLEAR}in Rock Tunnel, and thanks to{CLEAR}you, our research was saved.{SCROLL}But half a year ago, Professor{NEWLINE}Hale suddenly disappeared. And{CLEAR}then a few days ago, his 6-year-old{CLEAR}daughter Molly vanished too!{SCROLL}Ever since the professor{NEWLINE}disappeared, Molly has missed her{CLEAR}father terribly. She’s been waiting{CLEAR}here for him to come back, so{CLEAR}she shouldn’t have wandered off.{SCROLL}If you have time, please help{NEWLINE}us look for Molly around here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:精灵"
+   ]
+  },
+  {
+   "id": 4,
+   "zh": "呀！您是在岩山隧道时的救命恩人,{NEWLINE}我看新闻说您现在已经是联盟冠军了！{SCROLL}您还记得我吗？当时我和秀力老师{NEWLINE}在岩山隧道被火箭队攻击,{CLEAR}多亏了您出手相救{CLEAR}才能保全我们的研究成果。{SCROLL}不过半年前{NEWLINE}秀力老师突然失踪了,{CLEAR}老师的女儿小美非常担心他,{CLEAR}一天到晚哭着喊着要爸爸。",
+   "en": "Oh! You’re the one who saved us in{NEWLINE}Rock Tunnel! I saw on the news that{CLEAR}you’re the League Champion now!{SCROLL}Do you remember me? Team Rocket{NEWLINE}attacked Professor Hale and me{CLEAR}in Rock Tunnel, and thanks to{CLEAR}you, our research was saved.{SCROLL}But half a year ago, Professor Hale{NEWLINE}suddenly disappeared. His daughter{CLEAR}Molly is so worried about him. She{CLEAR}cries for her daddy all day long.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "真的非常感谢您帮忙带回了小美,{NEWLINE}这个是我们阿鲁夫研究所的{CLEAR}未知图腾研究笔记,{CLEAR}送给您当作谢礼吧！",
+   "en": "Thank you so much for bringing Molly{NEWLINE}back. This is our Research Center’s{CLEAR}Unown Report. Please take it as thanks!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "谢天谢地小美总算安全回来了。",
+   "en": "Thank goodness Molly’s{NEWLINE}back safe and sound.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "多亏冠军大人救出了秀力老师,{NEWLINE}这下研究所的各项研究{CLEAR}都能顺利继续下去了。",
+   "en": "Thanks to you rescuing Professor{NEWLINE}Hale, Champion, all our research{CLEAR}here can go ahead smoothly again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "听我说！{NEWLINE}这可是大发现哦！{SCROLL}未知图腾的数量{NEWLINE}和文字的种类数相同,{CLEAR}这一点已经确认了！{SCROLL}现在已经确认到了{NEWLINE}２６种文字,{SCROLL}加油,把所有的未知图腾{NEWLINE}都找出来吧！{SCROLL}",
+   "en": "You have to hear this!{NEWLINE}This is a big discovery!{SCROLL}There are as many Unown as there are{NEWLINE}letters in the alphabet!{SCROLL}There have been 26 types confirmed.{NEWLINE}Why don’t you collect them all?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/8; modernised from US 0073#8"
+  },
+  {
+   "id": 9,
+   "zh": "送给你的未知图腾笔记{NEWLINE}有起到作用吗？{SCROLL}抓到了未知图腾{NEWLINE}它就会自动记录下来{CLEAR}很方便的！",
+   "en": "How do you like the Unown Report{NEWLINE}I gave you?{SCROLL}Unown are recorded as you catch them.{NEWLINE}It is quite useful!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/9; modernised from US 0073#9"
+  },
+  {
+   "id": 10,
+   "zh": "听我说！{NEWLINE}这可是大发现哦！{SCROLL}我们发现,未知图腾{NEWLINE}是有顺序的！{CLEAR}笔记借我看看{SCROLL}",
+   "en": "You have to hear this!{NEWLINE}This is a big discovery!{SCROLL}We have figured out that Unown are in a{NEWLINE}certain order!{CLEAR}Let me see your report.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/10; modernised from US 0073#10"
+  },
+  {
+   "id": 11,
+   "zh": "好了！{NEWLINE}已经把未知图腾侬{CLEAR}按正确的顺序排列好了！{SCROLL}这样又可能{NEWLINE}有什么发现呢！{SCROLL}",
+   "en": "There!{NEWLINE}I put the Unown in the correct order!{CLEAR}We may be able to tell more about them.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/11; modernised from US 0073#11"
+  },
+  {
+   "id": 12,
+   "zh": "哎？！{NEWLINE}在遗迹的地上找到了{CLEAR}写着未知图腾文字的房间？{SCROLL}那可是大发现啊！{NEWLINE}我们也调查看看！{SCROLL}",
+   "en": "What?{NEWLINE}You found a room with Unown symbols?{CLEAR}That is a big discovery!{SCROLL}We will study them right away.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/12; modernised from US 0073#12"
+  },
+  {
+   "id": 13,
+   "zh": "听我说！{NEWLINE}这可是大发现哦！{SCROLL}又有两种新的未知图腾文字{NEWLINE}被发现了！{SCROLL}也就是说……{NEWLINE}应该还有两种未知图腾{CLEAR}在什么地方躲着……{SCROLL}",
+   "en": "You have to hear this!{NEWLINE}This is a big discovery!{SCROLL}We have found two new Unown symbols!{SCROLL}It means that...{NEWLINE}There must be two more kinds of Unown{CLEAR}somewhere...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/13; modernised from US 0073#13"
+  },
+  {
+   "id": 14,
+   "zh": "听我说！{NEWLINE}关于地上的文字{CLEAR}已经解读出很多信息了！{SCROLL}……从前这个遗迹里,{NEWLINE}未知图腾好像曾和一群人类{CLEAR}一起生活,{SCROLL}那些人建造了{NEWLINE}地下房间里的精灵像,{SCROLL}未知图腾很胆小,{NEWLINE}从不到外面去,{SCROLL}遗迹附近人类越来越多,{NEWLINE}各种人都到这里来,{SCROLL}希望未知图腾和人类能{NEWLINE}共生的那群人{CLEAR}离开了这里……{SCROLL}我们的调查{NEWLINE}加上你的协助{CLEAR}解开了以上这些疑问！{SCROLL}但是还有很多很多事{NEWLINE}没搞清楚,{CLEAR}考古也是学无止境啊……{SCROLL}",
+   "en": "You have to hear this!{NEWLINE}We are learning more and more about the{CLEAR}symbols on the floor!{SCROLL}...It seems that Unown were living at{NEWLINE}the ruins with a human clan.{SCROLL}It is thought that this clan made the{NEWLINE}Pokémon statues underground.{SCROLL}The Unown were easily scared and{NEWLINE}wouldn’t go outside.{SCROLL}When more and more people started to{NEWLINE}appear around the ruins, the clan that{CLEAR}wished to live in harmony with the Unown{CLEAR}eventually left...{SCROLL}Thanks to our research and your{NEWLINE}help, we have unraveled so much about{CLEAR}their mystery!{SCROLL}We have so many things we don’t know{NEWLINE}left, of course.{SCROLL}Archaeology never ends.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/14; modernised from US 0073#14"
+  },
+  {
+   "id": 15,
+   "zh": "如果还有什么发现的话{NEWLINE}会通知你的！",
+   "en": "I will let you know if I find out{NEWLINE}anything else.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/15"
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0103:0}{NEWLINE}在未知图腾笔记写下记录！",
+   "en": "{VAR:0103:0} opened the Unown Report{NEWLINE}and made notes!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/16; modernised from US 0073#16"
+  },
+  {
+   "id": 17,
+   "zh": "我们的调查{NEWLINE}加上你的协助{CLEAR}解开了以上这些疑问！{SCROLL}但是还有很多很多{NEWLINE}事没搞清楚,{CLEAR}考古学也是学无止境啊……",
+   "en": "Thanks to our research and your{NEWLINE}help, we have unraveled so much about{CLEAR}their mystery!{SCROLL}We have so many things we don’t know{NEWLINE}left, of course.{SCROLL}Archaeology never ends.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/17"
+  },
+  {
+   "id": 18,
+   "zh": "墙壁上画着的图案{NEWLINE}是解开遗迹谜题的钥匙！{SCROLL}……我有这种感觉。",
+   "en": "There are odd patterns drawn on the{NEWLINE}walls of the ruins.{SCROLL}They must be the keys for unraveling{NEWLINE}the mystery of the ruins.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/18"
+  },
+  {
+   "id": 19,
+   "zh": "你抓到的精灵{NEWLINE}和遗迹墙壁上的图案{CLEAR}很像啊。{SCROLL}……呼,{SCROLL}如果这样的话在遗迹里{NEWLINE}应该还有很多种类……",
+   "en": "The strange Pokémon you saw in{NEWLINE}the ruins?{SCROLL}They appear to be very much like the{NEWLINE}drawings on the walls there.{SCROLL}Hmm...{SCROLL}That must mean there are many{NEWLINE}different kinds of them...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/19"
+  },
+  {
+   "id": 20,
+   "zh": "哎？我看起来{NEWLINE}啥都没在做？{SCROLL}真是的,{NEWLINE}别看我这样,未知图腾笔记{CLEAR}可还是我做的啊！",
+   "en": "Huh?{NEWLINE}I seem to be doing nothing?{SCROLL}Come on!{NEWLINE}I may not look it, but I’m the one who{CLEAR}developed the Unown Report!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/20; modernised from US 0073#20"
+  },
+  {
+   "id": 21,
+   "zh": "阿鲁夫遗迹的调查{NEWLINE}……今年是第１０个年头了。",
+   "en": "Ruins of Alph{NEWLINE}Exploration Year 10",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/21"
+  },
+  {
+   "id": 22,
+   "zh": "神秘的精灵{NEWLINE}名叫……未知图腾,{CLEAR}现在总共发现了２６种。",
+   "en": "Mystery Pokémon{NEWLINE}Name: Unown{CLEAR}A total of 26 kinds found.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/22; modernised from US 0073#22"
+  },
+  {
+   "id": 23,
+   "zh": "阿鲁夫遗迹的调查报告,{SCROLL}将把它献给{NEWLINE}我所的首任所长,{CLEAR}秀力博士……",
+   "en": "Ruins of Alph Research Report{SCROLL}I dedicate this report to{NEWLINE}the Research Center’s first{CLEAR}director, Professor Hale...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0073/23; US 0073/23 named ‘Professor Silktree’; zh 秀力博士 = Professor Hale (D-0294), 首任所长 = first director. Retranslated."
+  },
+  {
+   "id": 24,
+   "zh": "全是很深奥的书！{SCROLL}『古代文明之谜』{NEWLINE}『暗号解读手册』{CLEAR}『风化遗迹』……",
+   "en": "There are many academic books.{SCROLL}“Mysteries of the Ancients”{NEWLINE}“Code-Breaking Guidebook”{CLEAR}“Weathering Ruins”",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/24"
+  },
+  {
+   "id": 25,
+   "zh": "我们正在阿鲁夫遗迹{NEWLINE}研究未知图腾的起源,{CLEAR}但是秀力博士的失踪{CLEAR}让研究完全停滞了。",
+   "en": "We’re researching the origin{NEWLINE}of the Unown here at the Ruins{CLEAR}of Alph, but with Professor{CLEAR}Hale missing, our research has{CLEAR}come to a complete standstill.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "我们正在阿鲁夫遗迹{NEWLINE}研究未知图腾的起源,{CLEAR}但是秀力博士的失踪{CLEAR}让研究完全停滞了。",
+   "en": "We’re researching the origin{NEWLINE}of the Unown here at the Ruins{CLEAR}of Alph, but with Professor{CLEAR}Hale missing, our research has{CLEAR}come to a complete standstill.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "阿鲁夫遗迹中有许多精灵的拼图石板,{NEWLINE}根据我们的研究,{CLEAR}这些石板是连接人与未知图腾的纽带。",
+   "en": "The Ruins of Alph are full of stone{NEWLINE}puzzle panels of Pokémon. According{CLEAR}to our research, these panels are a{CLEAR}link between people and the Unown.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "秀力博士『谢谢你啊{VAR:0103:0},{NEWLINE}多亏有你我才能跟女儿团聚。{CLEAR}如果你对传说中的精灵有什么疑问,{CLEAR}我一定知无不言言无不尽。",
+   "en": "Prof. Hale: Thank you, {VAR:0103:0}.{NEWLINE}Thanks to you, I’m back with my{CLEAR}daughter. If you have any questions{CLEAR}about legendary Pokémon, I’ll{CLEAR}gladly tell you everything I know.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "小美『呜呜呜呜……{NEWLINE}爸爸终于回来了,真是太好了！",
+   "en": "Molly: *sob sob*... Daddy’s{NEWLINE}finally home. I’m so happy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "在秀力老师的指导下,{NEWLINE}我们的各项研究都有了很大进展。",
+   "en": "Under Professor Hale’s guidance, all{NEWLINE}our research has made great progress.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "冠军大人要找秀力老师吗？{NEWLINE}他带着小美去烧焦塔玩了,{CLEAR}您如果着急的话可以去那里找他。",
+   "en": "Are you looking for Professor{NEWLINE}Hale, Champion? He took Molly to{CLEAR}play at the Burned Tower. If it’s{CLEAR}urgent, you can find him there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "这个遗迹{NEWLINE}大概建造于１５００年前,{CLEAR}我们知道的就只有这个……{SCROLL}至于是谁出于什么目的建造的{NEWLINE}就不知道了。",
+   "en": "The ruins are about 1,500 years old.{NEWLINE}That’s all we know about them.{SCROLL}But it’s not known why they were{NEWLINE}built...or by whom.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/4",
+   "qa_ignore": [
+    "number_missing"
+   ]
+  },
+  {
+   "id": 33,
+   "zh": "我们的调查{NEWLINE}加上冠军大人的协助{CLEAR}解开了以上这些疑问！{SCROLL}但是还有很多很多{NEWLINE}事没搞清楚,{CLEAR}考古学也是学无止境啊……",
+   "en": "Thanks to our research and the{NEWLINE}Champion’s help, we have unraveled{CLEAR}so much about their mystery!{SCROLL}We have so many things we{NEWLINE}don’t know left, of course.{SCROLL}Archaeology never ends.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0073/17 | seed rejected us [ambiguous US match] (candidate US 0073#17; text not kept); US 0073/17 adapted: zh says 冠军大人 ('the Champion') instead of 你."
+  },
+  {
+   "id": 34,
+   "zh": "啊！捉到安侬了？{NEWLINE}太厉害了！{SCROLL}但是……{NEWLINE}为什么安侬{CLEAR}会突然出现呢？",
+   "en": "Wow, did you catch an Unown?{NEWLINE}That’s wonderful!{SCROLL}Come to think of it... How come we’ve{NEWLINE}suddenly started to see Unown?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/5; modernised from US 0073#5"
+  },
+  {
+   "id": 35,
+   "zh": "听我说！{NEWLINE}关于地上的文字{CLEAR}已经解读出很多信息了！{SCROLL}……从前这个遗迹里,{NEWLINE}安侬好像曾和一群人类{CLEAR}一起生活,{SCROLL}那些人建造了{NEWLINE}地下房间里的精灵像,{SCROLL}安侬很胆小,{NEWLINE}从不到外面去,{SCROLL}遗迹附近人类越来越多,{NEWLINE}各种人都到这里来,{SCROLL}希望安侬和人类能{NEWLINE}共生的那群人{CLEAR}离开了这里……{SCROLL}我们的调查{NEWLINE}加上你的协助{CLEAR}解开了以上这些疑问！{SCROLL}但是还有很多很多事{NEWLINE}没搞清楚,{CLEAR}考古也是学无止境啊……{SCROLL}",
+   "en": "You have to hear this!{NEWLINE}We are learning more and more about the{CLEAR}symbols on the floor!{SCROLL}...It seems that Unown were living at{NEWLINE}the ruins with a human clan.{SCROLL}It is thought that this clan made the{NEWLINE}Pokémon statues underground.{SCROLL}The Unown were easily scared and{NEWLINE}wouldn’t go outside.{SCROLL}When more and more people started to{NEWLINE}appear around the ruins, the clan that{CLEAR}wished to live in harmony with the Unown{CLEAR}eventually left...{SCROLL}Thanks to our research and your{NEWLINE}help, we have unraveled so much about{CLEAR}their mystery!{SCROLL}We have so many things we don’t know{NEWLINE}left, of course.{SCROLL}Archaeology never ends.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073 line (same as #14; zh uses the newer name 安侬 for Unown)."
+  },
+  {
+   "id": 36,
+   "zh": "如果还有什么发现的话{NEWLINE}会通知你的！",
+   "en": "I will let you know if I find out{NEWLINE}anything else.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/15"
+  },
+  {
+   "id": 37,
+   "zh": "哎？！{NEWLINE}在遗迹的地上找到了{CLEAR}写着安侬文字的房间？{SCROLL}那可是大发现啊！{NEWLINE}我们也调查看看！{SCROLL}",
+   "en": "What?{NEWLINE}You found a room with Unown symbols?{CLEAR}That is a big discovery!{SCROLL}We will study them right away.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073 line (same as #12; zh uses the newer name 安侬 for Unown)."
+  },
+  {
+   "id": 38,
+   "zh": "送给你的安侬笔记{NEWLINE}有起到作用吗？{SCROLL}抓到了安侬{NEWLINE}它就会自动记录下来{CLEAR}很方便的！",
+   "en": "How do you like the Unown Report{NEWLINE}I gave you?{SCROLL}Unown are recorded as you catch them.{NEWLINE}It is quite useful!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073 line (same as #9; zh uses the newer name 安侬 for Unown)."
+  },
+  {
+   "id": 39,
+   "zh": "听我说！{NEWLINE}这可是大发现哦！{SCROLL}我们发现,安侬{NEWLINE}是有顺序的！{CLEAR}笔记借我看看{SCROLL}",
+   "en": "You have to hear this!{NEWLINE}This is a big discovery!{SCROLL}We have figured out that Unown are in a{NEWLINE}certain order!{CLEAR}Let me see your report.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073 line (same as #10; zh uses the newer name 安侬 for Unown)."
+  },
+  {
+   "id": 40,
+   "zh": "好了！{NEWLINE}已经把安侬{CLEAR}按正确的顺序排列好了！{SCROLL}这样又可能{NEWLINE}有什么发现呢！{SCROLL}",
+   "en": "There!{NEWLINE}I put the Unown in the correct order!{CLEAR}We may be able to tell more about them.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073 line (same as #11; zh uses the newer name 安侬 for Unown)."
+  },
+  {
+   "id": 41,
+   "zh": "听我说！{NEWLINE}这可是大发现哦！{SCROLL}安侬的数量{NEWLINE}和文字的种类数相同,{CLEAR}这一点已经确认了！{SCROLL}现在已经确认到了{NEWLINE}２６种文字,{SCROLL}加油,把所有的安侬{NEWLINE}都找出来吧！{SCROLL}",
+   "en": "You have to hear this!{NEWLINE}This is a big discovery!{SCROLL}There are as many Unown as there are{NEWLINE}letters in the alphabet!{SCROLL}There have been 26 types confirmed.{NEWLINE}Why don’t you collect them all?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073 line (same as #8; zh uses the newer name 安侬 for Unown)."
+  },
+  {
+   "id": 42,
+   "zh": "听我说！{NEWLINE}这可是大发现哦！{SCROLL}在遗迹里打开收音机{NEWLINE}能够收到{CLEAR}神秘的电波！{SCROLL}这是安侬之间{NEWLINE}通过电波{CLEAR}进行对话的证据！{SCROLL}",
+   "en": "You have to hear this!{NEWLINE}This is a big discovery!{SCROLL}If you turn on the radio in the ruins,{NEWLINE}you can receive mysterious radio waves!{SCROLL}It’s proof that Unown communicate{NEWLINE}with each other using radio waves!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/7; modernised from US 0073#7"
+  },
+  {
+   "id": 43,
+   "zh": "听我说！{NEWLINE}这可是大发现哦！{SCROLL}你解开了石版谜题,{NEWLINE}安侬{CLEAR}就出现了！{SCROLL}也就是说,那个石版{NEWLINE}是把安侬唤醒的{CLEAR}钥匙！{SCROLL}但是……为了什么目的{NEWLINE}要制造这样的钥匙呢。{SCROLL}",
+   "en": "You have to hear this!{NEWLINE}This is a big discovery!{SCROLL}It was you who solved the stone-panel{NEWLINE}puzzle that allowed Unown to appear.{SCROLL}Those tablets are the key to waking{NEWLINE}up Unown!{SCROLL}Still... Why would anyone make such{NEWLINE}a key?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073/6; modernised from US 0073#6"
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0103:0}{NEWLINE}在安侬笔记写下记录！",
+   "en": "{VAR:0103:0} opened the Unown Report{NEWLINE}and made notes!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073 line (same as #16; zh uses the newer name 安侬 for Unown)."
+  },
+  {
+   "id": 45,
+   "zh": "听我说！{NEWLINE}这可是大发现哦！{SCROLL}又有两种新的安侬文字{NEWLINE}被发现了！{SCROLL}也就是说……{NEWLINE}应该还有两种安侬{CLEAR}在什么地方躲着……{SCROLL}",
+   "en": "You have to hear this!{NEWLINE}This is a big discovery!{SCROLL}We have found two new Unown symbols!{SCROLL}It means that...{NEWLINE}There must be two more kinds of Unown{CLEAR}somewhere...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0073 line (same as #13; zh uses the newer name 安侬 for Unown)."
+  },
+  {
+   "id": 46,
+   "zh": "要向秀力博士打听{NEWLINE}哪只传说中精灵的情报呢？",
+   "en": "Which legendary Pokémon would you{NEWLINE}like to ask Professor Hale about?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Legendary Q&A menu: #47–#55, #62–#66, #72–#76, #82–#86, #92–#95 options; answers #56–#61, #67–#71, #77–#81, #87–#91, #96–#99."
+  },
+  {
+   "id": 47,
+   "zh": "上一页",
+   "en": "Previous page",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 48,
+   "zh": "下一页",
+   "en": "Next page",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 49,
+   "zh": "算了不问了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 50,
+   "zh": "三圣鸟",
+   "en": "Legendary{NEWLINE}Birds",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Legendary Birds'",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 51,
+   "zh": "三圣兽",
+   "en": "Legendary{NEWLINE}Beasts",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Legendary Beasts'",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 52,
+   "zh": "三神柱",
+   "en": "God Pillars",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 53,
+   "zh": "三圣菇",
+   "en": "Lake Trio",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "三圣菇 ('three holy mushrooms'): Chinese fan nickname for Uxie/Mesprit/Azelf (mushroom-like heads); the hint (#59) places them at the Lake of Rage. Written as ‘Lake Trio’.",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 54,
+   "zh": "超梦",
+   "en": "Mewtwo",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 55,
+   "zh": "梦幻",
+   "en": "Mew",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 56,
+   "zh": "秀力博士『三圣鸟是指{NEWLINE}栖息在关东地区的{CLEAR}火焰鸟、闪电鸟、急冻鸟。{CLEAR}火焰鸟守护着红莲岛,{CLEAR}急冻鸟守护着双子岛。{CLEAR}至于闪电鸟嘛,我听说有人目击过{CLEAR}一只金色大鸟飞往了紫苑镇北侧,{CLEAR}那可能就是闪电鸟。",
+   "en": "Prof. Hale: The legendary birds are{NEWLINE}Moltres, Zapdos and Articuno, which{CLEAR}live in the Kanto region. Moltres{CLEAR}guards Cinnabar Island, and Articuno{CLEAR}guards the Seafoam Islands.{SCROLL}Prof. Hale: As for Zapdos, I’ve{NEWLINE}heard someone saw a great golden{CLEAR}bird flying north of Lavender{CLEAR}Town. That may have been Zapdos.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "秀力博士『三圣鸟是指{NEWLINE}被封印在城都地区烧焦塔的{CLEAR}炎帝、雷公、水君。{CLEAR}它们现在已经被火箭队{CLEAR}从封印之镜中放了出来。{CLEAR}如果您想再次见到三圣兽,{CLEAR}去它们曾经出现过的地方,{CLEAR}或者去找跟它们有缘分的人看看,{CLEAR}或许就能发现它们的踪迹。",
+   "en": "Prof. Hale: The three legendary birds{NEWLINE}are Entei, Raikou and Suicune, which{CLEAR}were sealed in the Burned Tower in{CLEAR}Johto. Team Rocket has since released{CLEAR}them from the Sealing Mirror.{SCROLL}Prof. Hale: If you want to see the{NEWLINE}legendary beasts again, go where they{CLEAR}once appeared, or seek out the people{CLEAR}they share a bond with. You may find{CLEAR}some trace of them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (Calls Entei/Raikou/Suicune 三圣鸟 (legendary birds), then 三圣兽 (beasts) in the same line); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 58,
+   "zh": "秀力博士『根据我在岩山隧道的考察,{NEWLINE}三神柱应该就被埋在那里,{CLEAR}你可以试试带上吼鲸王和古空棘鱼,{CLEAR}去岩山隧道探索一下。{CLEAR}不过根据我的直觉,{CLEAR}只有理解、认同三神柱{CLEAR}做出的伟大牺牲的人,{CLEAR}才有可能见到它们。",
+   "en": "Prof. Hale: From my survey of{NEWLINE}Rock Tunnel, the God Pillars should{CLEAR}be buried there. Try exploring Rock{CLEAR}Tunnel with a Wailord and a Relicanth.{SCROLL}Prof. Hale: But my instinct tells me{NEWLINE}only someone who understands and{CLEAR}honors the great sacrifice the God{CLEAR}Pillars made could ever meet them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "秀力博士『传说三圣菇{NEWLINE}生活在城都地区的愤怒湖。{CLEAR}湖中心有一个人常年居住在那,{CLEAR}我从他那里听说,{CLEAR}每周三愤怒湖的暴雨会暂停一天。{CLEAR}可能那个特殊的日子,{CLEAR}与三圣菇的出现有关。",
+   "en": "Prof. Hale: Legend says the lake{NEWLINE}trio live at the Lake of Rage in{CLEAR}Johto. A man has lived at the{CLEAR}center of the lake for years.{SCROLL}Prof. Hale: He told me the downpour{NEWLINE}over the Lake of Rage stops{CLEAR}for one day every Wednesday. That{CLEAR}special day may have something to{CLEAR}do with the lake trio’s appearance.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "秀力博士『我听说过{NEWLINE}火箭队创造的精灵超梦,{CLEAR}据说那是拥有最强力量{CLEAR}和最高智慧的完美生物。{CLEAR}以我们人类的能力{CLEAR}想要找到它的踪迹不太现实。{CLEAR}如果你想见到超梦,{CLEAR}只能是静静等待它主动现身了。",
+   "en": "Prof. Hale: I’ve heard of{NEWLINE}Mewtwo, the Pokémon Team Rocket{CLEAR}created. They say it’s a perfect{CLEAR}creature with the greatest power{CLEAR}and the highest intelligence.{SCROLL}Prof. Hale: It’s not realistic for{NEWLINE}people like us to track it down. If you{CLEAR}want to meet Mewtwo, all you can do{CLEAR}is wait quietly for it to show itself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "秀力博士『根据我的考察,{NEWLINE}梦幻原本的栖息地{CLEAR}是水都群岛的五之岛。{CLEAR}但自从火箭队把梦幻从五之岛带走后,{CLEAR}梦幻就再也没有出现在五之岛。{CLEAR}如果你有心找到梦幻,{CLEAR}去梦幻被带离五之岛后,{CLEAR}曾经去过的地方调查一下,{CLEAR}或许会找到它的行踪。",
+   "en": "Prof. Hale: From my research, Mew{NEWLINE}originally lived on Five Island in the{CLEAR}Alto Mare Islands. But ever since{CLEAR}Team Rocket took Mew away, it has{CLEAR}never appeared on Five Island again.{SCROLL}Prof. Hale: If you’re set on finding{NEWLINE}Mew, investigate the places it{CLEAR}went after it was taken from Five{CLEAR}Island. You may find a trace of it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "凤王",
+   "en": "Ho-Oh",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 63,
+   "zh": "洛奇亚",
+   "en": "Lugia",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); modernised from the v3 TM text; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 64,
+   "zh": "固拉多",
+   "en": "Groudon",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 65,
+   "zh": "盖欧卡",
+   "en": "Kyogre",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 66,
+   "zh": "烈空坐",
+   "en": "Rayquaza",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 67,
+   "zh": "秀力博士『城都地区的守护者凤王,{NEWLINE}在数百年前离开铃铛塔后便未曾现身。{CLEAR}传说要持有凤王的信物{CLEAR}然后跳起特殊的舞蹈,{CLEAR}才能召唤它再次降临。",
+   "en": "Prof. Hale: Ho-Oh, the guardian of{NEWLINE}Johto, hasn’t been seen since it left{CLEAR}the Bell Tower hundreds of years ago.{SCROLL}Prof. Hale: Legend says that to call{NEWLINE}it down again, you must hold a token of{CLEAR}Ho-Oh’s and perform a special dance.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "秀力博士『传说沉睡在{NEWLINE}漩涡岛底层的洛奇亚,{CLEAR}也跟凤王一样,{CLEAR}需要用信物加舞蹈的方式才能唤醒它。{CLEAR}不过根据我的研究,{CLEAR}如果能用关东地区三圣鸟的能力{CLEAR}扰乱海底洋流的话,{CLEAR}洛奇亚也有可能会现身。",
+   "en": "Prof. Hale: Lugia, said to sleep in{NEWLINE}the depths of the Whirl Islands,{CLEAR}is like Ho-Oh: it can be awakened{CLEAR}with a token and a dance.{SCROLL}Prof. Hale: But from my research,{NEWLINE}if the powers of Kanto’s legendary{CLEAR}birds could stir up the currents on{CLEAR}the seafloor, Lugia might appear too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "秀力博士『关东月见山的底部{NEWLINE}有个很大的熔岩池,{CLEAR}我想那很可能就是{CLEAR}受大地之神固拉多影响而形成的。{CLEAR}但如果要见到固拉多,{CLEAR}必须要持有能唤醒它的红色宝珠才行。",
+   "en": "Prof. Hale: Deep beneath Mt. Moon in{NEWLINE}Kanto, there’s a huge lava pool. I{CLEAR}believe it was most likely formed by{CLEAR}the influence of Groudon, the god of{CLEAR}the land.{SCROLL}Prof. Hale: But to meet Groudon, you’ll{NEWLINE}need the Red Orb, which can awaken it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-019"
+  },
+  {
+   "id": 70,
+   "zh": "秀力博士『在关东地区的双子岛,{NEWLINE}有一条路因为被急冻鸟把守无法通过,{CLEAR}可是根据海岛底部洋流的活动推测,{CLEAR}海洋之神盖欧卡{CLEAR}可能就在这条路的尽头沉睡。{CLEAR}要唤醒沉睡的盖欧卡,{CLEAR}必须要持有蓝色宝珠才行。",
+   "en": "Prof. Hale: In the Seafoam Islands{NEWLINE}in Kanto, there’s a path no one can{CLEAR}pass, because Articuno guards it.{SCROLL}Prof. Hale: But judging from{NEWLINE}the currents deep beneath the islands,{CLEAR}Kyogre, god of the sea, may be sleeping{CLEAR}at the end of that path. To awaken{CLEAR}Kyogre, you’ll need the Blue Orb.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "秀力博士『根据水都群岛的传说,{NEWLINE}烈空坐就沉睡在{CLEAR}四之岛天柱峰上空的云层中。{CLEAR}如果拿着绿色宝珠去召唤裂空座,{CLEAR}有可能会让它现身。",
+   "en": "Prof. Hale: According to the{NEWLINE}legends of the Alto Mare Islands,{CLEAR}Rayquaza sleeps in the clouds above{CLEAR}Sky Pillar Peak on Four Island.{SCROLL}Prof. Hale: If you take the{NEWLINE}Jade Orb there and call to{CLEAR}Rayquaza, it may appear.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "帝牙卢卡",
+   "en": "Dialga",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 73,
+   "zh": "帕路奇亚",
+   "en": "Palkia",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 74,
+   "zh": "骑拉帝纳",
+   "en": "Giratina",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 75,
+   "zh": "圣柱王",
+   "en": "Regigigas",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 76,
+   "zh": "阿尔宙斯",
+   "en": "Arceus",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 77,
+   "zh": "秀力博士『烟墨市北面冰之通路最底层,{NEWLINE}有一个人一旦踏足{CLEAR}就会变老的被诅咒的洞穴。{CLEAR}那里时间的流动和其他地方不同,{CLEAR}我觉得那是受帝牙卢卡影响导致的。{CLEAR}听说洞穴里有一位老人{CLEAR}专门研究如何抵抗这种时间流动异常。{CLEAR}你跟最底层洞穴的人打听一下,{CLEAR}或许就能找到那位老人。",
+   "en": "Prof. Hale: At the bottom of the{NEWLINE}Ice Path north of Blackthorn City,{CLEAR}there’s a cursed cave where anyone{CLEAR}who sets foot inside grows old.{SCROLL}Prof. Hale: Time flows differently{NEWLINE}there than anywhere else. I{CLEAR}believe that’s Dialga’s influence.{SCROLL}Prof. Hale: I hear an old man in{NEWLINE}the cave studies how to resist{CLEAR}this strange flow of time. Ask{CLEAR}the people on the cave’s lowest{CLEAR}level, and you may find him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "秀力博士『研钵山的最底层{NEWLINE}空间磁场极其混乱,{CLEAR}正常行走的话{CLEAR}完全无法穿过底层的乱石阵。{CLEAR}这可能是受帕路奇亚{CLEAR}空间力量影响形成的现象。{CLEAR}如果能够想办法穿过那片乱石阵,{CLEAR}就有可能见到帕路奇亚。",
+   "en": "Prof. Hale: The magnetic field on{NEWLINE}the lowest level of Mt. Mortar is{CLEAR}in total chaos. Walking normally,{CLEAR}you can’t get through the{CLEAR}maze of boulders down there.{SCROLL}Prof. Hale: This may be the work of{NEWLINE}Palkia’s power over space. If you can{CLEAR}find a way through those boulders,{CLEAR}you may be able to meet Palkia.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "秀力博士『骑拉帝纳被认为是{NEWLINE}生活在另一个世界的生物。{CLEAR}但根据我的研究,{CLEAR}我们也不是完全无法前往「那个世界」。{CLEAR}只要持有白金宝珠的话,{CLEAR}就能在城都地区西南方向上{CLEAR}找到前往「那个世界」的办法。",
+   "en": "Prof. Hale: Giratina is thought{NEWLINE}to live in another world. But from{CLEAR}my research, ‘that world’ isn’t{CLEAR}completely out of our reach.{SCROLL}Prof. Hale: If you hold the Griseous{NEWLINE}Orb, you can find a way to ‘that{CLEAR}world’ somewhere in southwest Johto.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "秀力博士『圣柱王被认为是{NEWLINE}阿尔宙斯神殿的守护者,{CLEAR}如果你能去到阿尔宙斯的神殿,{CLEAR}应该就能找到圣柱王的踪迹。",
+   "en": "Prof. Hale: Regigigas is thought to be{NEWLINE}the guardian of the temple of Arceus.{CLEAR}If you can reach the temple of Arceus,{CLEAR}you should find a trace of Regigigas.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "秀力博士『根据我对阿鲁夫遗迹的研究,{NEWLINE}这里的古建筑群就是当年{CLEAR}为了祭祀阿尔宙斯而建造的。{CLEAR}如果你能找到天界之笛,{CLEAR}并在阿鲁夫遗迹下的遗迹大厅吹响它。{CLEAR}有可能就会发现{CLEAR}前往阿尔宙斯神殿的路。",
+   "en": "Prof. Hale: From my research on the{NEWLINE}Ruins of Alph, these ancient buildings{CLEAR}were built long ago to worship Arceus.{SCROLL}Prof. Hale: If you can find the Azure{NEWLINE}Flute and play it in the hall beneath{CLEAR}the Ruins of Alph, you may discover{CLEAR}the way to the temple of Arceus.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "洁咪",
+   "en": "Shaymin",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 83,
+   "zh": "雪拉比",
+   "en": "Celebi",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 84,
+   "zh": "代欧奇希斯",
+   "en": "Deoxys",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 85,
+   "zh": "基拉祈",
+   "en": "Jirachi",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 86,
+   "zh": "席多蓝恩",
+   "en": "Heatran",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 87,
+   "zh": "秀力博士『洁咪是非常喜欢阳光的精灵,{NEWLINE}如果带上一只漂漂亮亮的草系精灵,{CLEAR}和一束美丽的鲜花去桐树林逛逛,{CLEAR}或许就能吸引出藏在那里的洁咪。",
+   "en": "Prof. Hale: Shaymin loves sunlight. If{NEWLINE}you take a pretty Grass-type Pokémon{CLEAR}and a bouquet of beautiful flowers{CLEAR}for a stroll in Ilex Forest, you may{CLEAR}lure out the Shaymin hiding there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "秀力博士『雪拉比和洁咪是好朋友,{NEWLINE}但雪拉比要比洁咪谨慎许多,{CLEAR}虽然大家都知道它栖息在桐树林,{CLEAR}可谁也没有在白天见过它。",
+   "en": "Prof. Hale: Celebi and Shaymin are{NEWLINE}good friends, but Celebi is much{CLEAR}more cautious. Everyone knows it{CLEAR}lives in Ilex Forest, yet no one{CLEAR}has ever seen it in the daytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "秀力博士『六之岛有一颗被称为是{NEWLINE}「天降红星」的陨石。{CLEAR}但根据在那里研究的学者的发现,{CLEAR}那块石头可能是一个生物。{CLEAR}再结合我对传说的研究,{CLEAR}我想那个「天降红星」{CLEAR}应该就是代欧奇希斯陷入沉睡的{CLEAR}一个特殊状态吧。",
+   "en": "Prof. Hale: On Six Island, there’s a{NEWLINE}meteorite called ‘the Fallen Red Star.’{CLEAR}But scholars studying it there found{CLEAR}that the rock may be a living creature.{SCROLL}Prof. Hale: Combined{NEWLINE}with my research on the legends,{CLEAR}I believe ‘the Fallen Red Star’ is{CLEAR}Deoxys in a special dormant state.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "秀力博士『传说中每一千年{NEWLINE}才苏醒一次的精灵基拉祈,{CLEAR}目前可能以某种特殊石头的形态{CLEAR}沉睡在哪里。{CLEAR}根据我的研究,{CLEAR}要唤醒这只精灵,{CLEAR}只有在时机成熟后,{CLEAR}使用大量星之碎片{CLEAR}去补齐石头上的残缺,{CLEAR}才能让基拉祈苏醒过来。",
+   "en": "Prof. Hale: Jirachi, the{NEWLINE}legendary Pokémon that awakens{CLEAR}only once every thousand years,{CLEAR}may be sleeping somewhere in{CLEAR}the form of a special stone.{SCROLL}Prof. Hale: From my research, the only{NEWLINE}way to wake Jirachi is to wait until the{CLEAR}time is right, then fill in the stone’s{CLEAR}missing pieces with lots of Star Pieces.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "秀力博士『城都地区的连接洞穴最底层{NEWLINE}有一个不寻常的高温熔岩池,{CLEAR}如果你能找到一个{CLEAR}沸腾的石块带到那里,{CLEAR}或许就能引出藏在下面的席多蓝恩。",
+   "en": "Prof. Hale: On the lowest level of Union{NEWLINE}Cave in Johto, there’s an unusually hot{CLEAR}lava pool. If you find a seething-hot{CLEAR}stone and take it there, you may{CLEAR}draw out the Heatran hiding below.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "沸腾的石块 ('seething-hot stone') = presumably the Magma Stone (0086 #44)."
+  },
+  {
+   "id": 92,
+   "zh": "达克莱伊",
+   "en": "Darkrai",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 93,
+   "zh": "克雷色利亚",
+   "en": "Cresselia",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 94,
+   "zh": "玛娜菲",
+   "en": "Manaphy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 95,
+   "zh": "菲欧纳",
+   "en": "Phione",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 96,
+   "zh": "秀力博士『据说噩梦神达克莱伊{NEWLINE}只会出现在梦境中。{CLEAR}我在某一年的城都地区{CLEAR}人口健康大调研中发现,{CLEAR}城都地区39号路附近的人和精灵,{CLEAR}做的梦经常出现两种极端。{CLEAR}可能那里就是受噩梦神达克莱伊{CLEAR}和美梦神克雷色利亚{CLEAR}影响最严重的地方。",
+   "en": "Prof. Hale: They say Darkrai, the god{NEWLINE}of nightmares, appears only in dreams.{SCROLL}Prof. Hale: One year, in a Johto{NEWLINE}public health survey, I found that{CLEAR}people and Pokémon near Route 39{CLEAR}often dream at the two extremes.{SCROLL}Prof. Hale: That may be the place{NEWLINE}most strongly affected by Darkrai,{CLEAR}god of nightmares, and Cresselia,{CLEAR}goddess of sweet dreams.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "秀力博士『据说美梦神克雷色利亚{NEWLINE}只会出现在梦境中。{CLEAR}我在某一年的城都地区{CLEAR}人口健康大调研中发现,{CLEAR}城都地区39号路附近的人和精灵,{CLEAR}做的梦经常出现两种极端。{CLEAR}可能那里就是受噩梦神达克莱伊{CLEAR}和美梦神克雷色利亚{CLEAR}影响最严重的地方。",
+   "en": "Prof. Hale: They say Cresselia,{NEWLINE}the goddess of sweet dreams,{CLEAR}appears only in dreams.{SCROLL}Prof. Hale: One year, in a Johto{NEWLINE}public health survey, I found that{CLEAR}people and Pokémon near Route 39{CLEAR}often dream at the two extremes.{SCROLL}Prof. Hale: That may be the place{NEWLINE}most strongly affected by Darkrai,{CLEAR}god of nightmares, and Cresselia,{CLEAR}goddess of sweet dreams.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "秀力博士『目前只有水都群岛的文献中,{NEWLINE}有出现过关于玛娜菲的记载。{CLEAR}如果你先找到玛娜菲,{CLEAR}得去水都群岛走一趟了。",
+   "en": "Prof. Hale: So far, Manaphy{NEWLINE}appears only in the records of the{CLEAR}Alto Mare Islands. If you want to{CLEAR}find Manaphy, you’ll have to make a{CLEAR}trip to the Alto Mare Islands first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 如果你先找到玛娜菲 read as 如果你想找到 ('if you want to find')."
+  },
+  {
+   "id": 99,
+   "zh": "秀力博士『据说菲欧纳和玛娜菲,{NEWLINE}是可以通过生蛋{CLEAR}而互相产生彼此的特殊精灵。{CLEAR}如果你能找到其中的一只,{CLEAR}就可以通过生蛋的方式{CLEAR}得到另外一只。",
+   "en": "Prof. Hale: They say Phione and{NEWLINE}Manaphy are special Pokémon that{CLEAR}can produce each other through{CLEAR}Eggs. If you find one of them, you{CLEAR}can get the other by breeding it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,1485 @@
+{
+ "narc": "battle_string",
+ "bank": 0,
+ "source": "work/extract/v4/battle_string/0000.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "大晴天",
+   "en": "Harsh Sunlight",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:大晴天"
+   ]
+  },
+  {
+   "id": 1,
+   "zh": "天气为晴朗状态。{NEWLINE}火属性的招式威力会提高。{NEWLINE}水属性的招式威力会降低。",
+   "en": "The sunlight is harsh.{NEWLINE}Fire-type moves are stronger.{NEWLINE}Water-type moves are weaker.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Info-panel text (field/status effect list); multi-line like the zh. Panel width unknown, lines kept ≤216 px and ≤ the zh line count. Check in game.",
+   "qa_ignore": [
+    "too_many_lines",
+    "glossary:天气",
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 2,
+   "zh": "下雨",
+   "en": "Rain",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "天气为下雨状态。{NEWLINE}水属性的招式威力会提高。{NEWLINE}火属性的招式威力会降低。",
+   "en": "It is raining.{NEWLINE}Water-type moves are stronger.{NEWLINE}Fire-type moves are weaker.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines",
+    "glossary:天气",
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 4,
+   "zh": "沙暴",
+   "en": "Sandstorm",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s)"
+  },
+  {
+   "id": 5,
+   "zh": "天气为沙暴状态。{NEWLINE}岩石、地面和钢属性以外的宝可梦，{NEWLINE}每回合会受到伤害。{NEWLINE}岩石属性的特防会变强。",
+   "en": "A sandstorm is raging.{NEWLINE}Pokémon that aren’t Rock, Ground{NEWLINE}or Steel type take damage each turn.{NEWLINE}Rock types’ Sp. Def is boosted.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines",
+    "glossary:天气",
+    "glossary:地面"
+   ]
+  },
+  {
+   "id": 6,
+   "zh": "下雪",
+   "en": "Snow",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "天气为下雪状态。{NEWLINE}冰属性的宝可梦防御会有所提高。",
+   "en": "It is snowing.{NEWLINE}Ice-type Pokémon’s Defense is boosted.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:天气"
+   ]
+  },
+  {
+   "id": 8,
+   "zh": "电气场地",
+   "en": "Electric Terrain",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "在5回合内，{NEWLINE}地面上的宝可梦不会变为睡眠状态。{NEWLINE}电属性的招式威力会提高。",
+   "en": "For 5 turns, grounded Pokémon{NEWLINE}can’t fall asleep.{NEWLINE}Electric-type moves are stronger.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines",
+    "glossary:地面",
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 10,
+   "zh": "青草场地",
+   "en": "Grassy Terrain",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "在5回合内，{NEWLINE}地面上的宝可梦会缓缓回复ＨＰ。{NEWLINE}草属性的招式威力会提高。",
+   "en": "For 5 turns, grounded Pokémon{NEWLINE}slowly restore HP.{NEWLINE}Grass-type moves are stronger.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines",
+    "glossary:地面",
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 12,
+   "zh": "薄雾场地",
+   "en": "Misty Terrain",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "在5回合内，{NEWLINE}地面上的宝可梦不会陷入异常状态。{NEWLINE}龙属性招式的伤害也会减半。",
+   "en": "For 5 turns, grounded Pokémon{NEWLINE}can’t get status conditions.{NEWLINE}Dragon-type moves deal half damage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines",
+    "glossary:地面"
+   ]
+  },
+  {
+   "id": 14,
+   "zh": "戏法空间",
+   "en": "Trick Room",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "在5回合内，{NEWLINE}速度慢的宝可梦可以先行动。",
+   "en": "For 5 turns, slower Pokémon{NEWLINE}move first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "魔法空间",
+   "en": "Magic Room",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "在5回合内，{NEWLINE}变得无法使用持有物。",
+   "en": "For 5 turns, held items{NEWLINE}can’t be used.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "奇妙空间",
+   "en": "Wonder Room",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "在5回合内，{NEWLINE}宝可梦的防御和特防会互换。",
+   "en": "For 5 turns, Pokémon’s Defense{NEWLINE}and Sp. Def are swapped.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "易中要害",
+   "en": "Pumped Up",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "击中对手要害的几率变高。",
+   "en": "More likely to land critical hits.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "混乱",
+   "en": "Confusion",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 23,
+   "zh": "在１～４回合内，{NEWLINE}有时会攻击自己。",
+   "en": "For 1 to 4 turns, it may{NEWLINE}hurt itself in its confusion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "着迷",
+   "en": "Infatuation",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "♂的话对♀，♀的话对♂，{NEWLINE}会变得很难使出招式。",
+   "en": "In love with a foe of the opposite{NEWLINE}gender, it often can’t attack.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "恶梦",
+   "en": "Nightmare",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 27,
+   "zh": "在睡着的时候，{NEWLINE}每回合ＨＰ会减少。",
+   "en": "While asleep, it loses{NEWLINE}HP every turn.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "瞌睡",
+   "en": "Drowsy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "在受到招式攻击的下一回合，{NEWLINE}变为睡眠状态。",
+   "en": "It falls asleep on the turn{NEWLINE}after being hit by the move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "再来一次",
+   "en": "Encore",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 31,
+   "zh": "受到再来一次的招式后，在３回合内，{NEWLINE}只能使出{VAR:0107:0,0}。",
+   "en": "For 3 turns after Encore, it can{NEWLINE}only use {VAR:0107:0,0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "无特性",
+   "en": "No Ability",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "特性会消失，变得没有效果。",
+   "en": "Its Ability has no effect.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "无理取闹",
+   "en": "Torment",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 35,
+   "zh": "不能连续使出同样的招式。",
+   "en": "Can’t use a move twice in a row.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "顺风",
+   "en": "Tailwind",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 37,
+   "zh": "在４回合内，{NEWLINE}出战的宝可梦速度会变为２倍。",
+   "en": "For 4 turns, its team’s{NEWLINE}Speed is doubled.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "number_missing",
+    "glossary:宝可梦"
+   ]
+  },
+  {
+   "id": 38,
+   "zh": "幸运咒语",
+   "en": "Lucky Chant",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "变得不会被对手的招式击中要害。",
+   "en": "Foes can’t land critical hits.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "怨念",
+   "en": "Grudge",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 41,
+   "zh": "因对手的招式而濒死时，{NEWLINE}该招式的ＰＰ会变为０。",
+   "en": "If it faints from a foe’s move,{NEWLINE}that move’s PP drops to 0.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "回复封锁",
+   "en": "Heal Block",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "在5回合内，{NEWLINE}无法通过招式、特性{NEWLINE}或携带的道具回复ＨＰ。",
+   "en": "For 5 turns, it can’t restore HP{NEWLINE}with moves, Abilities{NEWLINE}or held items.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines",
+    "glossary:携带"
+   ]
+  },
+  {
+   "id": 44,
+   "zh": "被识破",
+   "en": "Identified",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:识破"
+   ]
+  },
+  {
+   "id": 45,
+   "zh": "会被那些原本不会有{NEWLINE}特定效果的招式击中。{NEWLINE}无视闪避率提升的效果，{NEWLINE}都会受到攻击。",
+   "en": "It can be hit by moves that{NEWLINE}normally wouldn’t affect it.{NEWLINE}Evasion boosts are ignored{NEWLINE}and moves will hit it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines"
+   ]
+  },
+  {
+   "id": 46,
+   "zh": "定身法",
+   "en": "Disable",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "在４回合内，{NEWLINE}{VAR:0107:0,0}会变得无法使用。",
+   "en": "For 4 turns,{NEWLINE}{VAR:0107:0,0} can’t be used.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "无法逃走",
+   "en": "Can’t Escape",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "无法逃走或替换。",
+   "en": "Can’t flee or switch out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "锁定",
+   "en": "Lock-On",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 51,
+   "zh": "在锁定的下一回合，{NEWLINE}招式必定会击中。",
+   "en": "On the turn after locking on,{NEWLINE}its move is sure to hit.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:锁定"
+   ]
+  },
+  {
+   "id": 52,
+   "zh": "查封",
+   "en": "Embargo",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 53,
+   "zh": "在5回合内，{NEWLINE}持有物和道具会变得无法使用。",
+   "en": "For 5 turns, held items{NEWLINE}and Bag items can’t be used.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "充电",
+   "en": "Charge",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "在充电的下一回合，{NEWLINE}电属性的招式威力会变为２倍。",
+   "en": "On the turn after charging,{NEWLINE}Electric moves double in power.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "number_missing"
+   ]
+  },
+  {
+   "id": 56,
+   "zh": "重力",
+   "en": "Gravity",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 57,
+   "zh": "在5回合内，{NEWLINE}招式会变得容易击中。{NEWLINE}飘浮特性和飞行属性的宝可梦{NEWLINE}会被地面招式击中。{NEWLINE}飞向空中的招式将无法使用。",
+   "en": "For 5 turns, moves are{NEWLINE}more accurate. Flying types and{NEWLINE}Pokémon with Levitate can be hit{NEWLINE}by Ground moves. Moves that{NEWLINE}go airborne can’t be used.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines",
+    "glossary:地面"
+   ]
+  },
+  {
+   "id": 58,
+   "zh": "白雾",
+   "en": "Mist",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 59,
+   "zh": "在5回合内，{NEWLINE}不会被降低能力。",
+   "en": "For 5 turns, stats{NEWLINE}can’t be lowered.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "神秘守护",
+   "en": "Safeguard",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); v3 said Wonder Guard: 神秘守护 is Safeguard",
+   "qa_ignore": [
+    "glossary:神秘守护"
+   ]
+  },
+  {
+   "id": 61,
+   "zh": "在5回合内，{NEWLINE}不会陷入异常状态。",
+   "en": "For 5 turns, it can’t{NEWLINE}get status conditions.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "隐形岩",
+   "en": "Stealth Rock",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 63,
+   "zh": "替换出场的宝可梦会受到伤害。",
+   "en": "Pokémon that switch in take damage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "蓄力",
+   "en": "Stockpile",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "在蓄力的时候，{NEWLINE}防御和特防会提高。",
+   "en": "While stockpiling, its Defense{NEWLINE}and Sp. Def are raised.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "挑衅",
+   "en": "Taunt",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 67,
+   "zh": "变得只能使出给予伤害的招式。",
+   "en": "Can only use damaging moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "意念移物",
+   "en": "Telekinesis",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "在３回合内，{NEWLINE}一击必杀以外的招式也必定会击中。{NEWLINE}地面属性的招式会变得无法击中。",
+   "en": "For 3 turns, all moves but{NEWLINE}one-hit KO moves will hit it.{NEWLINE}Ground-type moves can’t hit it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines",
+    "glossary:地面"
+   ]
+  },
+  {
+   "id": 70,
+   "zh": "电磁飘浮",
+   "en": "Magnet Rise",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:飘浮"
+   ]
+  },
+  {
+   "id": 71,
+   "zh": "在5回合内，{NEWLINE}地面属性的招式会变得无法击中。",
+   "en": "For 5 turns, Ground-type{NEWLINE}moves can’t hit it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:地面"
+   ]
+  },
+  {
+   "id": 72,
+   "zh": "毒菱",
+   "en": "Toxic Spikes",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 73,
+   "zh": "让替换出场的宝可梦陷入中毒状态。{NEWLINE}飞行属性和飘浮特性的宝可梦{NEWLINE}不会被击中。",
+   "en": "Poisons Pokémon that switch in.{NEWLINE}Flying types and Pokémon with{NEWLINE}Levitate aren’t affected.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines"
+   ]
+  },
+  {
+   "id": 74,
+   "zh": "玩泥巴",
+   "en": "Mud Sport",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "在5回合内，{NEWLINE}电属性的招式威力会减半。",
+   "en": "For 5 turns, Electric-type{NEWLINE}moves are halved in power.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "祈愿",
+   "en": "Wish",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "使用祈愿后的下一回合，{NEWLINE}ＨＰ会回复。",
+   "en": "On the turn after Wish{NEWLINE}is used, HP is restored.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "黏黏网",
+   "en": "Sticky Web",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "降低替换出场的宝可梦的速度。",
+   "en": "Slows Pokémon that switch in.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "扎根",
+   "en": "Ingrain",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 81,
+   "zh": "在每回合结束时回复ＨＰ。{NEWLINE}扎根的宝可梦无法替换。",
+   "en": "Restores HP at the end of each turn.{NEWLINE}It can’t be switched out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:扎根",
+    "glossary:宝可梦"
+   ]
+  },
+  {
+   "id": 82,
+   "zh": "诅咒",
+   "en": "Curse",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 83,
+   "zh": "在每回合结束时减少ＨＰ。",
+   "en": "Loses HP at the end of each turn.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "万圣夜",
+   "en": "Trick-or-Treat",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "宝可梦会被追加幽灵属性。",
+   "en": "The Ghost type is added to it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:宝可梦"
+   ]
+  },
+  {
+   "id": 86,
+   "zh": "光墙",
+   "en": "Light Screen",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 87,
+   "zh": "在5回合内，{NEWLINE}受到的特殊攻击威力会减半。",
+   "en": "For 5 turns, damage from{NEWLINE}special moves is halved.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 88,
+   "zh": "反射壁",
+   "en": "Reflect",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 89,
+   "zh": "在5回合内，{NEWLINE}受到的物理攻击威力会减半。",
+   "en": "For 5 turns, damage from{NEWLINE}physical moves is halved.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 90,
+   "zh": "封印",
+   "en": "Imprison",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 91,
+   "zh": "宝可梦使出封印后，{NEWLINE}其所学会的招式，{NEWLINE}对手的宝可梦将无法使出。",
+   "en": "After Imprison is used,{NEWLINE}foes can’t use any moves{NEWLINE}the user also knows.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines",
+    "glossary:宝可梦"
+   ]
+  },
+  {
+   "id": 92,
+   "zh": "灭亡之歌",
+   "en": "Perish Song",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "听了灭亡之歌的全部宝可梦{NEWLINE}３回合后陷入濒死。",
+   "en": "All Pokémon that heard the song{NEWLINE}will faint in 3 turns.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "撒菱",
+   "en": "Spikes",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 95,
+   "zh": "给予替换出场的宝可梦伤害。{NEWLINE}飞行属性和飘浮特性的宝可梦{NEWLINE}不会被击中。",
+   "en": "Damages Pokémon that switch in.{NEWLINE}Flying types and Pokémon with{NEWLINE}Levitate aren’t affected.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines"
+   ]
+  },
+  {
+   "id": 96,
+   "zh": "玩水",
+   "en": "Water Sport",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 97,
+   "zh": "在5回合内，{NEWLINE}火属性的招式威力会减半。",
+   "en": "For 5 turns, Fire-type{NEWLINE}moves are halved in power.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "同命",
+   "en": "Destiny Bond",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 99,
+   "zh": "让自己陷入濒死的对手，{NEWLINE}也会一同陷入濒死。",
+   "en": "If it faints, the foe that{NEWLINE}knocked it out faints too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "森林诅咒",
+   "en": "Forest’s Curse",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "宝可梦会被追加草属性。",
+   "en": "The Grass type is added to it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:宝可梦"
+   ]
+  },
+  {
+   "id": 102,
+   "zh": "寄生种子",
+   "en": "Leech Seed",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s)"
+  },
+  {
+   "id": 103,
+   "zh": "每回合结束时，{NEWLINE}会被寄生种子夺走ＨＰ，{NEWLINE}同时回复对手的ＨＰ。",
+   "en": "At the end of each turn,{NEWLINE}Leech Seed drains its HP{NEWLINE}and restores the foe’s HP.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines"
+   ]
+  },
+  {
+   "id": 104,
+   "zh": "锁定",
+   "en": "Lock-On",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 105,
+   "zh": "招式必定会命中锁定了的对手。",
+   "en": "Moves are sure to hit it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:命中",
+    "glossary:锁定"
+   ]
+  },
+  {
+   "id": 106,
+   "zh": "束缚",
+   "en": "Bind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); v3 said Disable: the description (bound tight, damage every turn) is Bind",
+   "qa_ignore": [
+    "glossary:束缚"
+   ]
+  },
+  {
+   "id": 107,
+   "zh": "被紧紧绑住，每一回合{NEWLINE}都会受到伤害。",
+   "en": "Squeezed tight, it takes{NEWLINE}damage every turn.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "忍耐",
+   "en": "Bide",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 109,
+   "zh": "在２回合内忍受攻击，{NEWLINE}受到的伤害会２倍返还给对手。",
+   "en": "Endures attacks for 2 turns, then{NEWLINE}strikes back for double damage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "number_missing"
+   ]
+  },
+  {
+   "id": 110,
+   "zh": "逆鳞",
+   "en": "Outrage",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 111,
+   "zh": "在２～３回合内，{NEWLINE}乱打一气地进行攻击。{NEWLINE}大闹一番后自己会陷入混乱。",
+   "en": "For 2 to 3 turns,{NEWLINE}it attacks in a wild rampage,{NEWLINE}then becomes confused.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines",
+    "glossary:大闹一番",
+    "glossary:混乱"
+   ]
+  },
+  {
+   "id": 112,
+   "zh": "大闹一番",
+   "en": "Thrash",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 113,
+   "zh": "在２～３回合内，{NEWLINE}乱打一气地进行攻击。{NEWLINE}大闹一番后自己会陷入混乱。",
+   "en": "For 2 to 3 turns,{NEWLINE}it attacks in a wild rampage,{NEWLINE}then becomes confused.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines",
+    "glossary:大闹一番",
+    "glossary:混乱"
+   ]
+  },
+  {
+   "id": 114,
+   "zh": "花瓣舞",
+   "en": "Petal Dance",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 115,
+   "zh": "在２～３回合内，{NEWLINE}乱打一气地进行攻击。{NEWLINE}大闹一番后自己会陷入混乱。",
+   "en": "For 2 to 3 turns,{NEWLINE}it attacks in a wild rampage,{NEWLINE}then becomes confused.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines",
+    "glossary:大闹一番",
+    "glossary:混乱"
+   ]
+  },
+  {
+   "id": 116,
+   "zh": "剧毒",
+   "en": "Badly Poisoned",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl); title case like the other labels",
+   "qa_ignore": [
+    "glossary:剧毒"
+   ]
+  },
+  {
+   "id": 117,
+   "zh": "剧毒状态。{NEWLINE}随着回合的推进，中毒伤害会增加。",
+   "en": "Badly poisoned.{NEWLINE}The poison damage worsens each turn.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:剧毒",
+    "glossary:增加"
+   ]
+  },
+  {
+   "id": 118,
+   "zh": "未来攻击",
+   "en": "Future Sight",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "被招式攻击的２回合后，{NEWLINE}会受到伤害。",
+   "en": "Takes damage 2 turns after{NEWLINE}being targeted by the move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "吵闹",
+   "en": "Uproar",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 121,
+   "zh": "在３回合内，用骚乱攻击对手。{NEWLINE}在此期间谁都不能入眠。",
+   "en": "Causes an uproar for 3 turns.{NEWLINE}No Pokémon can fall asleep.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "水流环",
+   "en": "Aqua Ring",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 123,
+   "zh": "在自己身体的周围覆盖用水制造的幕。{NEWLINE}每回合回复ＨＰ。",
+   "en": "A veil of water surrounds it,{NEWLINE}restoring HP every turn.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "身体轻量化",
+   "en": "Autotomize",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 125,
+   "zh": "速度会大幅度提高，{NEWLINE}体重也会变轻。",
+   "en": "Its Speed is sharply raised{NEWLINE}and its weight is reduced.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "击落",
+   "en": "Smack Down",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 127,
+   "zh": "被击落，掉到地面的状态。",
+   "en": "Knocked down to the ground.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:地面"
+   ]
+  },
+  {
+   "id": 128,
+   "zh": "妖精之锁",
+   "en": "Fairy Lock",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 129,
+   "zh": "在使用招式的下一回合，{NEWLINE}所有的宝可梦都无法逃走。",
+   "en": "On the turn after the move,{NEWLINE}no Pokémon can flee.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 130,
+   "zh": "彩虹",
+   "en": "Rainbow",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 131,
+   "zh": "招式的追加效果变得更易出现。",
+   "en": "Added effects occur more often.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 132,
+   "zh": "湿地",
+   "en": "Swamp",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 133,
+   "zh": "速度变为原来的１／４。",
+   "en": "Speed is cut to 1/4.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 134,
+   "zh": "火海",
+   "en": "Sea of Fire",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 135,
+   "zh": "火属性以外的宝可梦，{NEWLINE}每回合受到伤害。",
+   "en": "Pokémon that aren’t Fire type{NEWLINE}take damage every turn.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 136,
+   "zh": "大日照",
+   "en": "Extreme Sunlight",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:日照"
+   ]
+  },
+  {
+   "id": 137,
+   "zh": "天气为大日照状态。{NEWLINE}火属性的招式威力会提高。{NEWLINE}不会受到水属性招式的攻击。",
+   "en": "The sunlight is extremely harsh.{NEWLINE}Fire-type moves are stronger.{NEWLINE}Water-type attacks fail.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines",
+    "glossary:天气",
+    "glossary:日照",
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 138,
+   "zh": "大雨",
+   "en": "Heavy Rain",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 139,
+   "zh": "天气为大雨状态。{NEWLINE}水属性的招式威力会提高。{NEWLINE}不会受到火属性招式的攻击。",
+   "en": "It is raining heavily.{NEWLINE}Water-type moves are stronger.{NEWLINE}Fire-type attacks fail.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines",
+    "glossary:天气",
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 140,
+   "zh": "乱流",
+   "en": "Strong Winds",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "天气为乱流状态。{NEWLINE}与飞行属性相克且效果绝佳的属性，{NEWLINE}其招式威力会变弱。",
+   "en": "Mysterious strong winds blow.{NEWLINE}Moves super effective on Flying{NEWLINE}types are weakened.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines",
+    "glossary:天气",
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 142,
+   "zh": "精神场地",
+   "en": "Psychic Terrain",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "在5回合内，{NEWLINE}地面上的宝可梦不会受到先制招式的攻击。{NEWLINE}超能力属性的招式威力会提高。",
+   "en": "For 5 turns, grounded Pokémon{NEWLINE}are safe from priority moves.{NEWLINE}Psychic-type moves are stronger.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "too_many_lines",
+    "glossary:地面",
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 144,
+   "zh": "地狱突刺",
+   "en": "Throat Chop",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 145,
+   "zh": "在２回合内，{NEWLINE}无法使出发声音的招式。",
+   "en": "For 2 turns, it can’t{NEWLINE}use sound-based moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "极光幕",
+   "en": "Aurora Veil",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 147,
+   "zh": "在5回合内，{NEWLINE}物理与特殊攻击的威力会减半。",
+   "en": "For 5 turns, damage from physical{NEWLINE}and special moves is halved.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 148,
+   "zh": "磨砺",
+   "en": "Laser Focus",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 149,
+   "zh": "在使用磨砺的下一回合，{NEWLINE}招式必定会击中要害。",
+   "en": "On the turn after Laser Focus,{NEWLINE}its move lands a critical hit.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 150,
+   "zh": "沥青射击",
+   "en": "Tar Shot",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 151,
+   "zh": "弱点变为火。",
+   "en": "It’s now weak to Fire.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 152,
+   "zh": "蛸固",
+   "en": "Octolock",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 153,
+   "zh": "每回合降低{NEWLINE}防御和特防。",
+   "en": "Its Defense and Sp. Def{NEWLINE}fall every turn.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 154,
+   "zh": "超极巨地狱灭焰",
+   "en": "G-Max Wildfire",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 155,
+   "zh": "４回合内对火属性以外的宝可梦{NEWLINE}造成伤害。",
+   "en": "For 4 turns, non-Fire-type{NEWLINE}Pokémon take damage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 156,
+   "zh": "超极巨炎石喷发",
+   "en": "G-Max Volcalith",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 157,
+   "zh": "４回合内对岩石属性以外的宝可梦{NEWLINE}造成伤害。",
+   "en": "For 4 turns, non-Rock-type{NEWLINE}Pokémon take damage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 158,
+   "zh": "超极巨钢铁阵法",
+   "en": "G-Max Steelsurge",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 159,
+   "zh": "对替换出场的宝可梦{NEWLINE}造成伤害。",
+   "en": "Damages Pokémon{NEWLINE}that switch in.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 160,
+   "zh": "超极巨灰飞鞭灭",
+   "en": "G-Max Vine Lash",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 161,
+   "zh": "４回合内对草属性以外的宝可梦{NEWLINE}造成伤害。",
+   "en": "For 4 turns, non-Grass-type{NEWLINE}Pokémon take damage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 162,
+   "zh": "超极巨水炮轰灭",
+   "en": "G-Max Cannonade",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:水炮"
+   ]
+  },
+  {
+   "id": 163,
+   "zh": "４回合内对水属性以外的宝可梦{NEWLINE}造成伤害。",
+   "en": "For 4 turns, non-Water-type{NEWLINE}Pokémon take damage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

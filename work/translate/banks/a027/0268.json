@@ -1,0 +1,735 @@
+{
+ "narc": "a027",
+ "bank": 268,
+ "source": "work/extract/v4/a027/0268.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "{VAR:0103:2}の　{VAR:0101:3}と{NEWLINE}いっしょに　だいぼうけん！",
+   "en": "Went on a great adventure with{NEWLINE}{VAR:0103:2}’s {VAR:0101:3}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 1,
+   "zh": "{VAR:0101:1}は　だいかつやく　だった！{NEWLINE}せなかが　おおきく　みえる！",
+   "en": "{VAR:0101:1} did a great job! It looks{NEWLINE}very proud!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0101:1}は　やるき　まんまん！{NEWLINE}せんとうを　あるいた！",
+   "en": "{VAR:0101:1} is very eager! It took{NEWLINE}the lead!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:0101:1}は　やるき　まんまん！{NEWLINE}すこし　からまわり　してた",
+   "en": "{VAR:0101:1} is very eager! It’s{NEWLINE}running in circles...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0101:3}に　ピンチを　すくわれた！{NEWLINE}ふかい　きずなで　むすばれた",
+   "en": "{VAR:0101:3} saved us from a tough{NEWLINE}situation! It made us closer!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:0103:2}の　{VAR:0101:3}と{NEWLINE}バトルをして　あそんだ",
+   "en": "Had a fun battle with {VAR:0103:2}’s{NEWLINE}{VAR:0101:3}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0101:1}は　きびんな　うごき！{NEWLINE}{VAR:0101:3}を　よせつけない！",
+   "en": "{VAR:0101:1} moves very quickly!{NEWLINE}{VAR:0101:3} kept away!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 7,
+   "zh": "せいきの　だいせっせん！{NEWLINE}{VAR:0101:1}が　ぎりぎり　しょうり！",
+   "en": "The close match of the century!{NEWLINE}{VAR:0101:1} barely won!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); translated from the Japanese (US line differs)"
+  },
+  {
+   "id": 8,
+   "zh": "せいきの　だいせっせん！{NEWLINE}さいごの　ミスが　くやまれる⋯⋯！",
+   "en": "The close match of the century!{NEWLINE}That last slip-up was a shame...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); translated from the Japanese (US line differs)"
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0101:1}は　けいかいな　うごき！{NEWLINE}とおもったら　ころんだ⋯！",
+   "en": "{VAR:0101:1} is quite agile! Or so{NEWLINE}it seemed, but then it fell over!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0103:2}の　{VAR:0100:3}と{NEWLINE}はしって　あそんだ",
+   "en": "Ran around with {VAR:0103:2}’s{NEWLINE}{VAR:0100:3}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0101:1}は　とっても　はやかった！{NEWLINE}{VAR:0101:3}を　ふりきっていた",
+   "en": "{VAR:0101:1} was very fast! It shook{NEWLINE}off {VAR:0101:3}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0101:1}の　ラストスパート！{NEWLINE}そこぢからを　みせつけた",
+   "en": "{VAR:0101:1} just hit its second wind!{NEWLINE}It’s showing off its reserve strength!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0101:1}は{NEWLINE}こうはん　バテバテ　だった",
+   "en": "{VAR:0101:1} was exhausted{NEWLINE}in the last half.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0101:3}が{NEWLINE}はやくて　おいつけない！",
+   "en": "{VAR:0101:3} is too fast!{NEWLINE}No one can catch it!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0103:2}の　{VAR:0101:3}と{NEWLINE}さんぽして　あそんだ",
+   "en": "Took a Stroll with {VAR:0103:2}’s{NEWLINE}{VAR:0101:3}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0101:1}は　{VAR:0101:3}を{NEWLINE}ひっぱって　あげた",
+   "en": "{VAR:0101:1} pulled {VAR:0101:3}{NEWLINE}along.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0101:1}は　げんきに{NEWLINE}まえを　あるいた！",
+   "en": "{VAR:0101:1} cheerily walked ahead!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 18,
+   "zh": "なかよく　いっしょに　あるいた",
+   "en": "Walked together as good friends.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0101:1}は　ころんで　しまった！",
+   "en": "{VAR:0101:1} tripped and fell down!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0103:2}の　{VAR:0103:3}と{NEWLINE}すこし　あそんだ",
+   "en": "Played some with {VAR:0103:2}’s{NEWLINE}{VAR:0103:3}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0101:1}は　{VAR:0101:3}に{NEWLINE}ちょっかいを　だしてる",
+   "en": "{VAR:0101:1} is interfering with{NEWLINE}{VAR:0101:3}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0101:1}は　ニヤニヤしながら{NEWLINE}{VAR:0101:3}を　みていた",
+   "en": "{VAR:0101:1} was grinning{NEWLINE}as it watched {VAR:0101:3}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); translated from the Japanese (US line differs)"
+  },
+  {
+   "id": 23,
+   "zh": "{VAR:0101:1}は　ねむそう？",
+   "en": "{VAR:0101:1} seems sleepy?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0101:1}は　ねていた⋯⋯！",
+   "en": "{VAR:0101:1} fell asleep...!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 25,
+   "zh": "とおくの　ちほうから　やってきた{NEWLINE}{VAR:0103:2}の　{VAR:0101:3}と　であった{NEWLINE}めずらしい　ポケモンだった{NEWLINE}だめだ⋯⋯　おもいだせない！",
+   "en": "Met {VAR:0103:2}’s {VAR:0101:3}{NEWLINE}that came here from far away.{NEWLINE}It was a rare Pokémon...but I can’t{NEWLINE}remember what it was!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 26,
+   "zh": "ダウジングを　つかって{NEWLINE}{VAR:0108:4}を　みつけた！",
+   "en": "Used the Dowsing Machine{NEWLINE}and found the {VAR:0108:4}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 27,
+   "zh": "きょうは　カンが　さえてるみたい{NEWLINE}{VAR:0101:1}は　じしんたっぷり！",
+   "en": "Today, {VAR:0101:1}’s perception is{NEWLINE}clear, and it’s very confident!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0101:1}の　かんかくが{NEWLINE}とぎすまされて　いるようだ！",
+   "en": "{VAR:0101:1}’s senses seem to{NEWLINE}be honed!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0101:1}は　じょうきげん！{NEWLINE}いまにも　おどり　だしそう！",
+   "en": "{VAR:0101:1} is in a great mood and{NEWLINE}seems like it’s about to start dancing!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0101:1}は　うれしそう！{NEWLINE}{VAR:0108:4}で　あそぼうとしてる",
+   "en": "{VAR:0101:1} looks very happy and{NEWLINE}wants to play with the {VAR:0108:4}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0101:1}は　こっちを　みてる{NEWLINE}{VAR:0108:4}が　きになる　みたい！",
+   "en": "{VAR:0101:1} is looking this way and{NEWLINE}focusing on the {VAR:0108:4}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:0101:1}は　ちょっと　とくいげ",
+   "en": "{VAR:0101:1} is feeling pretty proud.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 33,
+   "zh": "⋯⋯　⋯⋯　おや！？{NEWLINE}{VAR:0108:4}が　おちている！{NEWLINE}{VAR:0101:1}は　めずらしい　ものを{NEWLINE}みつけて　だいこうふん！",
+   "en": "...What?{NEWLINE}The {VAR:0108:4} was dropped here!{NEWLINE}{VAR:0101:1} is very excited to have{NEWLINE}found such a rare item!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 34,
+   "zh": "⋯⋯　⋯⋯　おや！？{NEWLINE}{VAR:0108:4}が　おちている！{NEWLINE}ふしぎな　ことも　あるもんだ！",
+   "en": "...What?{NEWLINE}The {VAR:0108:4} was dropped here!{NEWLINE}Such a strange coincidence!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 35,
+   "zh": "ポケトレで　{VAR:0100:5}を　みつけた！{NEWLINE}みごとに　つかまえた！",
+   "en": "Found {VAR:0100:5} with the{NEWLINE}Poké Radar! It was caught with skill!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 36,
+   "zh": "きょうは　ちょうしが　いいみたい！{NEWLINE}{VAR:0101:1}は　じしんたっぷり！",
+   "en": "Today seems like a great day!{NEWLINE}{VAR:0101:1} is full of confidence!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 37,
+   "zh": "{VAR:0101:1}に　きはくを　かんじる！{NEWLINE}だいぶ　あるいたけど　つかれしらずだ！",
+   "en": "{VAR:0101:1} is full of vigor!{NEWLINE}It walked so much, and it’s not tired!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 38,
+   "zh": "{VAR:0101:1}の　たくみな　みのこなし{NEWLINE}むだのない　うつくしい　うごきだ！",
+   "en": "The clever way that {VAR:0101:1} moves{NEWLINE}is very graceful!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 39,
+   "zh": "{VAR:0101:1}の　かれいな　ステップ！{NEWLINE}あいての　うごきを　さきよみしてる？！",
+   "en": "{VAR:0101:1} has such beautiful steps!{NEWLINE}Is it predicting its opponent’s moves?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 40,
+   "zh": "{VAR:0101:1}の　うごきに{NEWLINE}まよいは　かんじられない！",
+   "en": "There’s not the slightest hint of{NEWLINE}hesitation in {VAR:0101:1}’s moves!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 41,
+   "zh": "{VAR:0101:1}には　よゆうが　ありそう{NEWLINE}まだまだ　がんばれるみたい！",
+   "en": "{VAR:0101:1} is composed and{NEWLINE}continues to try its hardest!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 42,
+   "zh": "{VAR:0100:5}と　であった！{NEWLINE}{VAR:0101:1}は　おどろいた　ようすで{NEWLINE}じっと　{VAR:0100:5}を　みている",
+   "en": "Met {VAR:0100:5}!{NEWLINE}{VAR:0101:1} is so startled, all it can{NEWLINE}do is stare blankly at {VAR:0100:5}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0100:5}と　であった！{NEWLINE}{VAR:0100:5}は{NEWLINE}じっと　{VAR:0103:0}を　みている",
+   "en": "Met {VAR:0100:5}!{NEWLINE}{VAR:0100:5} is staring blankly at{NEWLINE}{VAR:0103:0}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 44,
+   "zh": "ポケトレで　{VAR:0100:5}を　みつけた！{NEWLINE}おしくも　にげられて　しまった⋯⋯",
+   "en": "Found {VAR:0100:5} with the{NEWLINE}Poké Radar! Unfortunately, it ran away.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 45,
+   "zh": "ポケトレで　{VAR:0100:5}を　みつけた！{NEWLINE}てごわい　あいてだ！{NEWLINE}{VAR:0101:1}は　まけてしまった⋯⋯",
+   "en": "Found {VAR:0100:5} with the{NEWLINE}Poké Radar! What a tough opponent!{NEWLINE}Unfortunately, {VAR:0101:1} lost...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 46,
+   "zh": "{VAR:0101:1}が{NEWLINE}{VAR:0108:4}を　みつけてきた！",
+   "en": "{VAR:0101:1} found the{NEWLINE}{VAR:0108:4}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 47,
+   "zh": "{VAR:0103:0}に{NEWLINE}プレゼントを　したかった　みたい",
+   "en": "Seems to have wanted to give{NEWLINE}{VAR:0103:0} a present...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 48,
+   "zh": "{VAR:0101:1}は　{VAR:0103:0}に{NEWLINE}つかって　ほしい　みたい",
+   "en": "{VAR:0101:1} seems to want{NEWLINE}{VAR:0103:0} to use the item.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0101:1}は　ちょっと　とくいげに{NEWLINE}アイテムを　わたして　くれた",
+   "en": "{VAR:0101:1} proudly handed over{NEWLINE}the item.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 50,
+   "zh": "ぶっきらぼうに　なげわたされた{NEWLINE}⋯⋯くれるの？",
+   "en": "It threw it at you briskly!{NEWLINE}...Is it giving it to you?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0101:1}は　うれしそう！{NEWLINE}スキップなんて　してる{NEWLINE}{VAR:0103:0}と　いっしょに{NEWLINE}いられるのが　うれしいみたい",
+   "en": "{VAR:0101:1} seems so very happy!{NEWLINE}It’s even skipping along!{NEWLINE}It seems so happy to be with{NEWLINE}{VAR:0103:0}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 52,
+   "zh": "{VAR:0101:1}は　うれしそう！{NEWLINE}スキップなんて　してる{NEWLINE}{VAR:0103:0}の　ちゅういを{NEWLINE}ひこうと　いっしょうけんめい！",
+   "en": "{VAR:0101:1} seems so very happy!{NEWLINE}It’s even skipping along!{NEWLINE}It’s doing everything it can to get{NEWLINE}{VAR:0103:0}’s attention!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 53,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "{VAR:0101:1}は　よろこんでる{NEWLINE}{VAR:0103:0}の　まわりを{NEWLINE}ずっと　はしり　まわっている！{NEWLINE}つかれたり　しないの？",
+   "en": "{VAR:0101:1} is very happy!{NEWLINE}It’s running circles around and around{NEWLINE}and around {VAR:0103:0}!{NEWLINE}Won’t it get tired?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 55,
+   "zh": "{VAR:0101:1}は　よろこんでる{NEWLINE}どんどん　さきへ　はしっていっちゃう！{NEWLINE}{VAR:0103:0}と　はぐれたことに{NEWLINE}きづいて　あわてて　もどってきた！",
+   "en": "{VAR:0101:1} is so very happy!{NEWLINE}It ran way ahead of {VAR:0103:0} and{NEWLINE}suddenly noticed the distance and{NEWLINE}then came running back confused!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 56,
+   "zh": "{VAR:0101:1}は　よろこんでる{NEWLINE}むちゅうで　はしり　まわってる！{NEWLINE}こえを　かけても{NEWLINE}きこえて　ないみたい⋯⋯",
+   "en": "{VAR:0101:1} is very happy!{NEWLINE}It’s running around in circles in a{NEWLINE}daze! It doesn’t seem to hear you...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 57,
+   "zh": "{VAR:0101:1}は　こっちをむいた{NEWLINE}{VAR:0103:0}の　よこを{NEWLINE}もくもくと　あるいてる{NEWLINE}どんなことを　かんがえてるのかな",
+   "en": "{VAR:0101:1} is walking silently next{NEWLINE}to {VAR:0103:0}. What could it possibly{NEWLINE}be thinking about?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 58,
+   "zh": "{VAR:0101:1}は　こっちをむいた{NEWLINE}いろんな　ものを{NEWLINE}みながら　あるいてる{NEWLINE}なにか　みつけたのかな",
+   "en": "{VAR:0101:1} looked this way.{NEWLINE}It’s looking all around as it’s walking.{NEWLINE}Did it find something?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 59,
+   "zh": "{VAR:0101:1}は　こっちをむいた{NEWLINE}と　おもったら{NEWLINE}めを　そらされた⋯⋯！",
+   "en": "{VAR:0101:1} looked this way.{NEWLINE}Well, so it seemed, but its eyes{NEWLINE}turned in another direction...!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 60,
+   "zh": "{VAR:0101:1}は　ひまそうに　してる{NEWLINE}なにかを　きたいするような　めで{NEWLINE}ずーっと　こっちを　みてる⋯⋯！",
+   "en": "{VAR:0101:1} seems a little bored.{NEWLINE}It seems to be expecting something.{NEWLINE}It’s facing this way and staring...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 61,
+   "zh": "{VAR:0101:1}は　ひまそうに　してる{NEWLINE}こっちを　じーっと　みてる{NEWLINE}かまって　ほしい{NEWLINE}ふんいきが　でてるような⋯⋯",
+   "en": "{VAR:0101:1} seems a little bored.{NEWLINE}It’s looking at you and staring.{NEWLINE}There’s a sense of eagerness to play.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 62,
+   "zh": "{VAR:0101:1}は　ひまそうに　してる{NEWLINE}ちょっと　おこってる⋯⋯？",
+   "en": "{VAR:0101:1} seems a little bored...{NEWLINE}Maybe it’s angry...?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 63,
+   "zh": "{VAR:0101:1}は　かえりたそう⋯⋯{NEWLINE}いっぱい　あそんだから{NEWLINE}かえって　やすみたいのかも",
+   "en": "{VAR:0101:1} seems to want to go{NEWLINE}home... Maybe it’s played so much it{NEWLINE}wants to go home and rest...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 64,
+   "zh": "{VAR:0101:1}は　かえりたそう⋯⋯{NEWLINE}いっぱい　あそんだから{NEWLINE}かえって　やすみたいのかも",
+   "en": "{VAR:0101:1} seems to want to go{NEWLINE}home... Maybe it’s played so much it{NEWLINE}wants to go home and rest...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 65,
+   "zh": "{VAR:0101:1}は　かえりたそう⋯⋯{NEWLINE}いっぱい　あそんだから{NEWLINE}かえって　やすみたいのかも",
+   "en": "{VAR:0101:1} seems to want to go{NEWLINE}home... Maybe it’s played so much it{NEWLINE}wants to go home and rest...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 66,
+   "zh": "いつのまにか{NEWLINE}{VAR:0101:1}が　ついてきてる！{NEWLINE}いっしょに　あるきたい　ようだ",
+   "en": "Before you knew it, {VAR:0101:1}{NEWLINE}joined you! It seems to want to walk{NEWLINE}with you.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 67,
+   "zh": "{VAR:0101:1}は　つかれて{NEWLINE}かえって　しまった⋯⋯",
+   "en": "{VAR:0101:1} went home already.{NEWLINE}It’s too tired...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 68,
+   "zh": "{VAR:0133:9}がつ　{VAR:0133:10}にち",
+   "en": "{VAR:0133:9}/{VAR:0133:10}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 69,
+   "zh": "{VAR:0101:1}と　おさんぽ　かいし{NEWLINE}{VAR:0401:8}を　あるいた！",
+   "en": "{VAR:0101:1} set out on a Stroll{NEWLINE}through {VAR:0401:8}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 70,
+   "zh": "{VAR:0401:8}を　おさんぽ　かいし！",
+   "en": "Set out on {VAR:0401:8}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 71,
+   "zh": "{VAR:0121:6}じに　かえってきた",
+   "en": "Returned at {VAR:0121:6} o’clock.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); translated from the Japanese (US line differs)"
+  },
+  {
+   "id": 72,
+   "zh": "{VAR:0101:1}は　だいまんぞく！{NEWLINE}わすれられない　いちにちに　なりそう！",
+   "en": "{VAR:0101:1} seems so very content!{NEWLINE}This is a day it will never ever forget!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 73,
+   "zh": "{VAR:0101:1}は{NEWLINE}いっぱい　あそんで　だいまんぞく！",
+   "en": "{VAR:0101:1} played a lot and is feeling{NEWLINE}very content!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 74,
+   "zh": "{VAR:0101:1}は　しあわせそう！{NEWLINE}いいかお　してる！",
+   "en": "{VAR:0101:1} seems very happy!{NEWLINE}It’s written all over its face!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 75,
+   "zh": "{VAR:0101:1}は{NEWLINE}いっしょに　あそべて{NEWLINE}たのしかった　みたい！",
+   "en": "{VAR:0101:1} seemed to really enjoy{NEWLINE}playing along with you!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 76,
+   "zh": "{VAR:0101:1}は　うれしそう{NEWLINE}おでかけが　すきに　なったみたい",
+   "en": "{VAR:0101:1} seems very happy.{NEWLINE}It’s grown to enjoy these Strolls.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 77,
+   "zh": "{VAR:0101:1}が{NEWLINE}せなかを　ひっぱってくる{NEWLINE}もっと　あそびたいのかな",
+   "en": "{VAR:0101:1} is pulling at your clothes.{NEWLINE}It seems to want to play more.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 78,
+   "zh": "{VAR:0101:1}は{NEWLINE}なんだか　ふてくされている",
+   "en": "{VAR:0101:1} is sulking for{NEWLINE}some reason...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 79,
+   "zh": "{VAR:0136:7}ほ　あるいた！{NEWLINE}{VAR:0101:1}は　{VAR:0103:0}と{NEWLINE}たくさん　あるけて　おおよろこび！{NEWLINE}しあわせそうな　かおを　している",
+   "en": "Walked {VAR:0136:7} steps!{NEWLINE}{VAR:0101:1} is very happy to have{NEWLINE}walked so much with {VAR:0103:0}!{NEWLINE}It’s got a pleased look on its face.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 80,
+   "zh": "{VAR:0136:7}ほ　あるいた！{NEWLINE}{VAR:0101:1}は{NEWLINE}うれしそうに　はしゃいでる！{NEWLINE}いまにも　とびかかって　きそうだ",
+   "en": "Walked {VAR:0136:7} steps!{NEWLINE}{VAR:0101:1} is so very happy, it’s{NEWLINE}frolicking around! It seems like it will{NEWLINE}jump on your back.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 81,
+   "zh": "{VAR:0136:7}ほ　あるいた{NEWLINE}{VAR:0101:1}は　げんき　いっぱい！{NEWLINE}しっかりと　ついてきている！",
+   "en": "Walked {VAR:0136:7} steps.{NEWLINE}{VAR:0101:1} looks lively and{NEWLINE}energetic! It’s sticking right nearby.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 82,
+   "zh": "{VAR:0136:7}ほ　あるいた{NEWLINE}{VAR:0101:1}も　のんびりと{NEWLINE}うしろから　ついてきている",
+   "en": "Walked {VAR:0136:7} steps.{NEWLINE}{VAR:0101:1} is leisurely strolling{NEWLINE}along behind you.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 83,
+   "zh": "{VAR:0101:1}は　ぐっすり　ねむった",
+   "en": "{VAR:0101:1} fell soundly asleep.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 84,
+   "zh": "{VAR:0101:1}は　きもちよさそうに{NEWLINE}おひるねなんて　している",
+   "en": "{VAR:0101:1} seems to be enjoying an{NEWLINE}afternoon nap.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 85,
+   "zh": "{VAR:0101:1}は　ちょっぴり　きゅうけい{NEWLINE}すこし　ヒマそうに　している",
+   "en": "{VAR:0101:1} is taking a bit of a nap.{NEWLINE}It must be a little tired.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 86,
+   "zh": "{VAR:0133:9}がつ　{VAR:0133:10}にち",
+   "en": "{VAR:0133:9}/{VAR:0133:10}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 87,
+   "zh": "ごぜん{VAR:0121:6}じ",
+   "en": "{VAR:0121:6} AM",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 88,
+   "zh": "ごご{VAR:0121:6}じ",
+   "en": "{VAR:0121:6} PM",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 89,
+   "zh": "やめる",
+   "en": "Quit",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker stroll log (the hack left it in Japanese); US text, same meaning as the Japanese"
+  },
+  {
+   "id": 90,
+   "zh": "{VAR:0100:11}:{VAR:0100:12}",
+   "en": "{VAR:0100:11}:{VAR:0100:12}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  }
+ ]
+}

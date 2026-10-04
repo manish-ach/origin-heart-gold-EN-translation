@@ -1,0 +1,310 @@
+{
+ "narc": "a027",
+ "bank": 100,
+ "source": "work/extract/v4/a027/0100.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "空手道服是战斗中的男人的制服！{SCROLL}是前往战斗前线再合适不过的服装了！",
+   "en": "The karate uniform is the uniform{NEWLINE}of fighters!{SCROLL}There is nothing better suited for{NEWLINE}going to the Battle Frontier than this!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0102/0"
+  },
+  {
+   "id": 1,
+   "zh": "我这样的小女孩一个人{CLEAR}在战斗前线的话,{CLEAR}大家都会吃惊的,{SCROLL}虽然我并不是去战斗的。",
+   "en": "Some people are surprised to see a{NEWLINE}small girl like me at the Battle Frontier{CLEAR}all by herself.{SCROLL}It’s not like I have to battle myself,{NEWLINE}you know?{NEWLINE}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0102/1"
+  },
+  {
+   "id": 2,
+   "zh": "我从年轻时候开始{NEWLINE}就喜欢精灵对战。{CLEAR}我是这么决定的,{SCROLL}早饭之后来场决斗,{NEWLINE}午饭之后来场决斗,{CLEAR}晚饭之后……{CLEAR}洗个澡睡觉,真爽！",
+   "en": "My lifelong hobby has been{NEWLINE}battling using Pokémon.{SCROLL}A battle after breakfast,{NEWLINE}a battle after lunch,{CLEAR}and after dinner...{CLEAR}I just take a bath and go to bed.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0102/2"
+  },
+  {
+   "id": 3,
+   "zh": "你好啊冠军大人,{NEWLINE}我是一名超能力者。{CLEAR}我目前正在开发{CLEAR}让人在回忆中战斗的能力。{CLEAR}如果成功的话,{CLEAR}就可以让人在意念中{CLEAR}与曾经对战过的强敌再次战斗了。",
+   "en": "Hello, Champion. I’m a psychic.{SCROLL}Right now I’m developing{NEWLINE}a power that lets people{CLEAR}battle inside their memories.{SCROLL}If it works, people will be able to{NEWLINE}battle strong opponents they’ve{CLEAR}faced before again, in their minds.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "你好啊冠军大人,{NEWLINE}我是一名超能力者。{CLEAR}只要您放松精神全力配合,{CLEAR}我就可以使用超能力{CLEAR}让您的意识进入到回忆当中。{CLEAR}在回忆中您可以与曾经对战过的强敌{CLEAR}再次进行决斗。{CLEAR}如果您希望与曾经的敌人再次战斗,{CLEAR}我非常乐意为您效劳哦。{SCROLL}要借助魔术师的能力,{NEWLINE}与曾经的敌人对战吗？",
+   "en": "Hello, Champion. I’m a psychic.{SCROLL}If you relax your mind{NEWLINE}and cooperate fully, I can use{CLEAR}my psychic powers to send your{CLEAR}consciousness into your memories.{SCROLL}There, you can battle the{NEWLINE}strong opponents you’ve{CLEAR}faced before once more.{SCROLL}If you’d like a rematch with a past{NEWLINE}enemy, I’d be delighted to help.{SCROLL}Use the Magician’s power{NEWLINE}to battle a past enemy?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh calls the psychic 魔术师 (Magician trainer class) in the prompt; kept."
+  },
+  {
+   "id": 5,
+   "zh": "要进行双打还是单打呢？",
+   "en": "Would you like Doubles or Singles?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 7,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 8,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 9,
+   "zh": "要进行双打还是单打呢？",
+   "en": "Would you like Doubles or Singles?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "双打至少要有两只精灵,{NEWLINE}请带够精灵再来。",
+   "en": "A Double Battle needs at least{NEWLINE}two Pokémon. Please come{CLEAR}back with enough Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "请选择要对战的对手。",
+   "en": "Please choose your opponent.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "小豪",
+   "en": "Goh",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 4 source(s); other variants: 4 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 13,
+   "zh": "乔伊",
+   "en": "Joy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 names replaced by the digest names (乔伊 Joy, 赤焰松 Maxie, 吉尔露太 Lawrence, 比夏斯 Marauder, 冥王 Charon, 赤日 Cyrus).",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 14,
+   "zh": "一树",
+   "en": "Will",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 15,
+   "zh": "梨花",
+   "en": "Karen",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 16,
+   "zh": "兰斯",
+   "en": "Proton",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 17,
+   "zh": "伦达",
+   "en": "Petrel",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 18,
+   "zh": "水吾桐",
+   "en": "Archie",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s); other variants: 4 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 19,
+   "zh": "赤焰松",
+   "en": "Maxie",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 20,
+   "zh": "吉尔露太",
+   "en": "Lawrence",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 4 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 21,
+   "zh": "比夏斯",
+   "en": "Marauder",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 22,
+   "zh": "冥王",
+   "en": "Charon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 23,
+   "zh": "赤日",
+   "en": "Cyrus",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 24,
+   "zh": "雅典娜",
+   "en": "Ariana",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 25,
+   "zh": "阿波罗",
+   "en": "Archer",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 26,
+   "zh": "坂木（常磐）",
+   "en": "Giovanni{NEWLINE}(Viridian)",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "坂木（常磐/华蓝/石英）: the three Giovanni fights (Viridian Gym / Cerulean / Indigo Plateau). | menu width fix (follow-up 1): was 'Giovanni (Viridian)'",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 27,
+   "zh": "坂木（华蓝）",
+   "en": "Giovanni{NEWLINE}(Cerulean)",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Giovanni (Cerulean)'",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 28,
+   "zh": "坂木（石英）",
+   "en": "Giovanni{NEWLINE}(Indigo)",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Giovanni (Indigo)'",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 29,
+   "zh": "上一页",
+   "en": "Previous page",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 30,
+   "zh": "下一页",
+   "en": "Next page",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 31,
+   "zh": "算了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 32,
+   "zh": "那么,回忆中的单打战斗,现在开始！",
+   "en": "Now then, the Single Battle{NEWLINE}in your memories begins!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "那么,回忆中的双打战斗,现在开始！",
+   "en": "Now then, the Double Battle{NEWLINE}in your memories begins!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "真不愧是冠军大人,{NEWLINE}无论何时面对强敌都能轻松取胜！",
+   "en": "That’s the Champion for you!{NEWLINE}No matter when, you beat{CLEAR}strong opponents with ease!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

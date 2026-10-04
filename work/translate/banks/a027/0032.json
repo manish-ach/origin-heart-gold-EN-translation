@@ -1,0 +1,775 @@
+{
+ "narc": "a027",
+ "bank": 32,
+ "source": "work/extract/v4/a027/0032.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "{VAR:0103:0}",
+   "en": "{VAR:0103:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "{VAR:0103:0}",
+   "en": "{VAR:0103:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0135:0}ＣＰ",
+   "en": "{VAR:0135:0} CP",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "as 0018 #53 / US"
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:0135:0}ＣＰ",
+   "en": "{VAR:0135:0} CP",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "as 0018 #53 / US"
+  },
+  {
+   "id": 4,
+   "zh": "请选择要查看{NEWLINE}哪只精灵！",
+   "en": "Which Pokémon would you like{NEWLINE}to check?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/4"
+  },
+  {
+   "id": 5,
+   "zh": "返回",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0033/5 | seed rejected us [tag_mismatch] (candidate US 0033#5; text not kept) | v3 TM: 12 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 6,
+   "zh": "等待好友中！",
+   "en": "Waiting for your friend!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0103:0}选择了「返回」！",
+   "en": "{VAR:0103:0} chose to exit.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/7"
+  },
+  {
+   "id": 8,
+   "zh": "调查",
+   "en": "CHECK",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/8"
+  },
+  {
+   "id": 9,
+   "zh": "等级",
+   "en": "LEVEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/9"
+  },
+  {
+   "id": 10,
+   "zh": "情报",
+   "en": "SUMMARY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/10"
+  },
+  {
+   "id": 11,
+   "zh": "关闭",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/11"
+  },
+  {
+   "id": 12,
+   "zh": "能够查看精灵的样子。",
+   "en": "Check the identity of a Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/12"
+  },
+  {
+   "id": 13,
+   "zh": "能够改变精灵的等级。",
+   "en": "Change the level of a Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/13"
+  },
+  {
+   "id": 14,
+   "zh": "能够知道对手的情报。",
+   "en": "Examine the stats of a Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/14"
+  },
+  {
+   "id": 15,
+   "zh": "返回选择",
+   "en": "Return to previous selections.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/15"
+  },
+  {
+   "id": 16,
+   "zh": "能知道精灵的情报,{NEWLINE}使用{VAR:0133:0}ＣＰ吗？",
+   "en": "You may learn about this Pokémon.{NEWLINE}Use {VAR:0133:0} CP?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0033/43"
+  },
+  {
+   "id": 17,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 18,
+   "zh": "不",
+   "en": "NO",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "ＣＰ不足！",
+   "en": "Not enough CP!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "精灵其实是{NEWLINE}{VAR:0100:0}！",
+   "en": "The Pokémon is actually{NEWLINE}{VAR:0100:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "能够改变精灵的等级。{NEWLINE}选哪个？",
+   "en": "You may change this Pokémon’s level.{NEWLINE}What would you like to do?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/21"
+  },
+  {
+   "id": 22,
+   "zh": "等级＋５",
+   "en": "LEVEL +5",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/22"
+  },
+  {
+   "id": 23,
+   "zh": "等级ー５",
+   "en": "LEVEL -5",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/23"
+  },
+  {
+   "id": 24,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/24"
+  },
+  {
+   "id": 25,
+   "zh": "需要{VAR:0133:0}ＣＰ,{NEWLINE}可以吗？",
+   "en": "It will cost {VAR:0133:0} CP.{NEWLINE}Is that OK?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/25"
+  },
+  {
+   "id": 26,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 27,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 28,
+   "zh": "ＣＰ不足！",
+   "en": "You don’t have enough CP...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/28"
+  },
+  {
+   "id": 29,
+   "zh": "无法提升了！",
+   "en": "This Pokémon’s level can’t be{NEWLINE}raised higher.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/29"
+  },
+  {
+   "id": 30,
+   "zh": "无法下降了！",
+   "en": "This Pokémon’s level can’t be lowered{NEWLINE}any more.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/30"
+  },
+  {
+   "id": 31,
+   "zh": "精灵等级＋５！",
+   "en": "The Pokémon’s level was{NEWLINE}boosted by five.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/31"
+  },
+  {
+   "id": 32,
+   "zh": "精灵等级ー５！",
+   "en": "The Pokémon’s level was{NEWLINE}lowered by five.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/32"
+  },
+  {
+   "id": 33,
+   "zh": "状态",
+   "en": "STATUS",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 4 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 34,
+   "zh": "技能",
+   "en": "MOVES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "等级提升",
+   "en": "RANK UP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/35"
+  },
+  {
+   "id": 36,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/36"
+  },
+  {
+   "id": 37,
+   "zh": "查看精灵的状态",
+   "en": "Check the Pokémon’s stats.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0033/12 | seed rejected us [ambiguous US match] (candidate US 0033#12; text not kept)"
+  },
+  {
+   "id": 38,
+   "zh": "查看精灵的技能",
+   "en": "Check the Pokémon’s moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0033/12 | seed rejected us [ambiguous US match] (candidate US 0033#12; text not kept)"
+  },
+  {
+   "id": 39,
+   "zh": "提升等级能够获得{NEWLINE}技能的情报。",
+   "en": "Rank up to get information{NEWLINE}on moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "等级无法再提升了。",
+   "en": "Your rank cannot be raised any higher.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/40"
+  },
+  {
+   "id": 41,
+   "zh": "返回{NEWLINE}选择要做什么。",
+   "en": "Return to previous selections.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/41"
+  },
+  {
+   "id": 42,
+   "zh": "情报的等级过低,{NEWLINE}无法查看技能。",
+   "en": "You are too low in information rank to{NEWLINE}check the target’s move list.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/42"
+  },
+  {
+   "id": 43,
+   "zh": "查看精灵的强度,{NEWLINE}要使用{VAR:0133:0}ＣＰ？",
+   "en": "You may check this Pokémon’s stats.{NEWLINE}Use {VAR:0133:0} CP?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0033/16"
+  },
+  {
+   "id": 44,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 45,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 46,
+   "zh": "ＣＰ不足！",
+   "en": "You don’t have enough CP...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/46"
+  },
+  {
+   "id": 47,
+   "zh": "买下了状态的情报！",
+   "en": "The Pokémon’s stat summary{NEWLINE}was bought.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/47"
+  },
+  {
+   "id": 48,
+   "zh": "持有物",
+   "en": "Item",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/48"
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0108:0}",
+   "en": "{VAR:0108:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "性格",
+   "en": "Nature",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/50"
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0107:0}",
+   "en": "{VAR:0107:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "特性",
+   "en": "Ability",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/52"
+  },
+  {
+   "id": 53,
+   "zh": "{VAR:0105:0}",
+   "en": "{VAR:0105:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "攻击",
+   "en": "Attack",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/54"
+  },
+  {
+   "id": 55,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "防御",
+   "en": "Defense",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/56"
+  },
+  {
+   "id": 57,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "特攻",
+   "en": "Sp. Atk",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/58"
+  },
+  {
+   "id": 59,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "特防",
+   "en": "Sp. Def",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/60"
+  },
+  {
+   "id": 61,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "速度",
+   "en": "Speed",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/62"
+  },
+  {
+   "id": 63,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "㊚",
+   "en": "♂",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "㊛",
+   "en": "♀",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "Ｌｖ．",
+   "en": "Lv.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "ＨＰ",
+   "en": "HP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "／",
+   "en": "/",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "{VAR:0101:0}",
+   "en": "{VAR:0101:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "？",
+   "en": "?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "？？",
+   "en": "??",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "？？？？？",
+   "en": "?????",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "「情报」{NEWLINE}「等级提升」后,{NEWLINE}就能消耗ＣＰ查看{NEWLINE}对手的技能。",
+   "en": "You will be able to check{NEWLINE}your opponent’s moves{NEWLINE}using CP by going up in{NEWLINE}information rank.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/76"
+  },
+  {
+   "id": 77,
+   "zh": "？？／？？",
+   "en": "??/??",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "{VAR:0134:0}／{VAR:0134:1}",
+   "en": "{VAR:0134:0}/{VAR:0134:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "查看所持的技能,{NEWLINE}要使用{VAR:0133:0}ＣＰ吗？",
+   "en": "You may check this Pokémon’s moves.{NEWLINE}Use {VAR:0133:0} CP?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 81,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 82,
+   "zh": "ＣＰ不足！",
+   "en": "You don’t have enough CP...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/82"
+  },
+  {
+   "id": 83,
+   "zh": "买下了技能的情报！",
+   "en": "The Pokémon’s move-list data was{NEWLINE}bought.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/83"
+  },
+  {
+   "id": 84,
+   "zh": "{VAR:0106:0}",
+   "en": "{VAR:0106:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "{VAR:0106:1}",
+   "en": "{VAR:0106:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "{VAR:0106:2}",
+   "en": "{VAR:0106:2}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "{VAR:0106:3}",
+   "en": "{VAR:0106:3}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "{VAR:FF00:2}{VAR:0133:4}{VAR:FF00:0}／{VAR:FF00:2}{VAR:0133:5}{VAR:FF00:0}",
+   "en": "{VAR:FF00:2}{VAR:0133:4}{VAR:FF00:0}/{VAR:FF00:2}{VAR:0133:5}{VAR:FF00:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "{VAR:0133:0}",
+   "en": "{VAR:0133:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "ーー",
+   "en": "--",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "使用{VAR:0134:0}ＣＰ{NEWLINE}提升等级吗？",
+   "en": "Would you like to up your rank for{NEWLINE}{VAR:0134:0} CP?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0033/91"
+  },
+  {
+   "id": 92,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 93,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 94,
+   "zh": "ＣＰ不足！",
+   "en": "Not enough CP!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "{VAR:0103:5}能够得到{NEWLINE}技能的情报了。",
+   "en": "{VAR:0103:5} can now get{NEWLINE}information on moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

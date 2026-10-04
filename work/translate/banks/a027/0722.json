@@ -1,0 +1,511 @@
+{
+ "narc": "a027",
+ "bank": 722,
+ "source": "work/extract/v4/a027/0722.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "主持『早上好！{NEWLINE}大家都在培养自己的精灵吗？{SCROLL}现在是战斗训练师的时间！{SCROLL}",
+   "en": "Host: Good morning! Is everyone raising{NEWLINE}their Pokémon well?{SCROLL}It’s time for Battle Trainers!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: Leftover DP TV shows (US HGSS blanks this bank except #33); probably never shown. 主持『 → 'Host:'. 新奥 (typo for 神奥) = Sinnoh."
+  },
+  {
+   "id": 1,
+   "zh": "主持『大家好！{NEWLINE}大家都在培养自己的精灵吗？{SCROLL}现在是战斗训练师的时间哦！{SCROLL}",
+   "en": "Host: Hello, everyone! Is everyone{NEWLINE}raising their Pokémon well?{SCROLL}It’s time for Battle Trainers!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "主持『晚上好！{NEWLINE}大家都在培养自己的精灵吗？{SCROLL}现在是战斗训练师的时间哦！{SCROLL}",
+   "en": "Host: Good evening! Is everyone raising{NEWLINE}their Pokémon well?{SCROLL}It’s time for Battle Trainers!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "那么接下来,{NEWLINE}让我们见识下训练师们的英姿吧！{SCROLL}",
+   "en": "Now then, let’s see our Trainers in{NEWLINE}action!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "主持『接下来的战斗训练师情报,{NEWLINE}请看！{SCROLL}",
+   "en": "Host: Here’s our next Battle Trainer{NEWLINE}report!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "主持『大家认为这期的{NEWLINE}战斗训练师如何？{SCROLL}那么,下一回的节目再见啦！{CLEAR}拜拜！",
+   "en": "Host: What did you think of this{NEWLINE}episode’s Battle Trainers?{SCROLL}See you next time! Bye-bye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "主持『战斗训练师节目中{NEWLINE}收集了很多训练师们战斗的情报。{SCROLL}记者正在新奥各地巡回,{SCROLL}请大家协助采访。{SCROLL}今天节目到此结束,{NEWLINE}再见啦！",
+   "en": "Host: Battle Trainers gathers info on{NEWLINE}all kinds of Trainer battles.{SCROLL}Our reporters are touring all over{NEWLINE}Sinnoh.{SCROLL}Please help them out with interviews!{SCROLL}That’s all for today. Goodbye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "主持『大家早上好！{SCROLL}向精灵训练师提问,{NEWLINE}了解当前形势,{CLEAR}现在是训练师采访时间！{SCROLL}",
+   "en": "Host: Good morning, everyone!{SCROLL}We ask Pokémon Trainers questions to{NEWLINE}find out what’s going on out there. It’s{CLEAR}time for Trainer Interviews!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "主持『大家好！{SCROLL}向精灵训练师提问,{NEWLINE}了解当前形势,{CLEAR}现在是训练师采访时间！{SCROLL}",
+   "en": "Host: Hello, everyone!{SCROLL}We ask Pokémon Trainers questions to{NEWLINE}find out what’s going on out there. It’s{CLEAR}time for Trainer Interviews!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "主持『晚上好！{SCROLL}向精灵训练师提问,{NEWLINE}了解当前形势,{CLEAR}现在是训练师采访时间！{SCROLL}",
+   "en": "Host: Good evening!{SCROLL}We ask Pokémon Trainers questions to{NEWLINE}find out what’s going on out there. It’s{CLEAR}time for Trainer Interviews!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "那么,现在来介绍{NEWLINE}一下最初的采访！{SCROLL}",
+   "en": "Now, let’s start with our first{NEWLINE}interview!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "主持『请看接下来的采访！{SCROLL}",
+   "en": "Host: Please enjoy our next interview!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "主持『这次的{NEWLINE}训练师调查您感觉如何呢？{SCROLL}接下来被采访的{NEWLINE}说不定就是你哦！{SCROLL}今天的节目到此结束,{NEWLINE}再见啦！",
+   "en": "Host: How did you like this Trainer{NEWLINE}survey?{SCROLL}The next Trainer we interview could be{NEWLINE}you!{SCROLL}That’s all for today. Goodbye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "主持『训练师采访,{NEWLINE}大范围募集接受{CLEAR}采访的训练师！{SCROLL}如果在路边被采访,{NEWLINE}一定请您协助哦！{SCROLL}那么,再见了！",
+   "en": "Host: Trainer Interviews is looking for{NEWLINE}lots of Trainers to interview!{SCROLL}If we stop you on the street, please{NEWLINE}help us out!{SCROLL}Well then, goodbye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "主持『精灵！！{NEWLINE}对战！！关注！！{SCROLL}早上好！{NEWLINE}大家精神十足地对战了么？{SCROLL}每日秘籍播报,{NEWLINE}展开激烈角逐的{SCROLL}精灵训练师们！{NEWLINE}精灵对战关注的时间到了！{SCROLL}",
+   "en": "Host: Pokémon!! Battle!! Watch!!{SCROLL}Good morning! Is everyone battling with{NEWLINE}lots of energy?{SCROLL}Every day, we bring you the secrets of{NEWLINE}Trainers locked in fierce battles!{SCROLL}It’s time for Pokémon Battle Watch!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "主持『精灵！！{NEWLINE}对战！！关注！！{SCROLL}大家好！{NEWLINE}大家精神十足地对战了么？{SCROLL}每日秘籍播报,{NEWLINE}展开激烈角逐的精灵训练师们！{NEWLINE}精灵对战关注的时间到了！{SCROLL}",
+   "en": "Host: Pokémon!! Battle!! Watch!!{SCROLL}Hello! Is everyone battling with lots of{NEWLINE}energy?{SCROLL}Every day, we bring you the secrets of{NEWLINE}Trainers locked in fierce battles!{SCROLL}It’s time for Pokémon Battle Watch!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "主持『精灵！！{NEWLINE}对战！！关注！！{SCROLL}晚上好！{NEWLINE}大家精神十足地对战了么？{SCROLL}每日秘籍播报,{NEWLINE}展开激烈角逐的{SCROLL}精灵训练师们！{NEWLINE}精灵对战关注的时间到了！{SCROLL}",
+   "en": "Host: Pokémon!! Battle!! Watch!!{SCROLL}Good evening! Is everyone battling with{NEWLINE}lots of energy?{SCROLL}Every day, we bring you the secrets of{NEWLINE}Trainers locked in fierce battles!{SCROLL}It’s time for Pokémon Battle Watch!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "那么我们赶紧来看看吧！{NEWLINE}对战！关注！{SCROLL}",
+   "en": "Let’s take a look right away! Battle!{NEWLINE}Watch!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "主持『接下来请看！{NEWLINE}对战！关注！{SCROLL}",
+   "en": "Host: Up next! Battle! Watch!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "主持『哦！由于时间的关系,{NEWLINE}节目差不多要结束了！{SCROLL}那么,下次的节目再见吧！{CLEAR}对战！关注！",
+   "en": "Host: Oh! We’re almost out of time!{SCROLL}See you next time! Battle! Watch!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "主持『精灵对战关注正在收集{CLEAR}大家的激烈竞赛的情报！{SCROLL}在联机房间进行记录通信{SCROLL}还能收集到好友的情报！{SCROLL}那么,下次的节目再见吧！{CLEAR}对战！关注！",
+   "en": "Host: Pokémon Battle Watch collects{NEWLINE}info on everyone’s fierce battles!{SCROLL}Mix records in the Union Room, and we{NEWLINE}can get info on your friends too!{SCROLL}See you next time! Battle! Watch!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "主持『训练师的日常生活！{SCROLL}本节目取材于精灵训练师们{NEWLINE}身边发生的真实故事！{SCROLL}",
+   "en": "Host: A Trainer’s Daily Life!{SCROLL}This show is based on true stories from{NEWLINE}the lives of Pokémon Trainers!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "主持『训练师的日常生活！{SCROLL}本节目取材于精灵训练师们{NEWLINE}身边发生的真实故事！{SCROLL}",
+   "en": "Host: A Trainer’s Daily Life!{SCROLL}This show is based on true stories from{NEWLINE}the lives of Pokémon Trainers!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "主持『训练师的日常生活！{SCROLL}本节目取材于精灵训练师们{NEWLINE}身边发生的真实故事！{SCROLL}",
+   "en": "Host: A Trainer’s Daily Life!{SCROLL}This show is based on true stories from{NEWLINE}the lives of Pokémon Trainers!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "我们先来看看第一位{NEWLINE}登场的训练师！{SCROLL}",
+   "en": "Let’s meet our first Trainer!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "主持『下面请大家来{NEWLINE}观看下一位训练师！{SCROLL}",
+   "en": "Host: Now let’s watch our next Trainer!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "主持『大家观看了{NEWLINE}训练师的日常生活,{CLEAR}感觉如何呢？{SCROLL}平凡的日常生活中{NEWLINE}也会发生各种各样的故事！{SCROLL}下回我们还会给大家{NEWLINE}带来更精彩的节目！{SCROLL}再见啦！",
+   "en": "Host: What did you think of A Trainer’s{NEWLINE}Daily Life?{SCROLL}All sorts of stories happen in ordinary{NEWLINE}daily life!{SCROLL}Next time, we’ll bring you an even{NEWLINE}better show!{SCROLL}Goodbye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "主持『这个节目{NEWLINE}正在收集训练师们生活中{CLEAR}遇到的各种点滴。{SCROLL}在联机房间进行记录通信的话{SCROLL}还能收到好友的日常生活情报！{SCROLL}那么,下次的节目{NEWLINE}再见了！",
+   "en": "Host: This show collects all kinds of{NEWLINE}moments from Trainers’ lives.{SCROLL}If you mix records in the Union Room,{NEWLINE}you can get daily-life stories from your{CLEAR}friends too!{SCROLL}Well then, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "主持『新奥新闻网。{SCROLL}观众朋友们早上好,{NEWLINE}这里是新奥新闻网。{SCROLL}",
+   "en": "Host: Sinnoh News Network.{SCROLL}Good morning, viewers. This is the{NEWLINE}Sinnoh News Network.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "主持『新奥新闻网。{SCROLL}观众朋友们你们好,{NEWLINE}这里是新奥新闻网。{SCROLL}",
+   "en": "Host: Sinnoh News Network.{SCROLL}Hello, viewers. This is the Sinnoh News{NEWLINE}Network.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "主持『新奥新闻网。{SCROLL}观众朋友们晚上好,{NEWLINE}这里是新奥新闻网。{SCROLL}",
+   "en": "Host: Sinnoh News Network.{SCROLL}Good evening, viewers. This is the{NEWLINE}Sinnoh News Network.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "下面请看第一个话题。{SCROLL}",
+   "en": "Here is our first story.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "接下来的一个话题。{SCROLL}",
+   "en": "Our next story.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "有台电视机⋯⋯",
+   "en": "There’s a TV here...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0733/33"
+  },
+  {
+   "id": 34,
+   "zh": "主持『新奥新闻网收集了{SCROLL}特派员在许多地方发现的新闻。{SCROLL}在联机房间进行记录通信,{SCROLL}还能播放一些您好友的新闻。{SCROLL}那么,下次的新奥新闻网{CLEAR}再见了！",
+   "en": "Host: The Sinnoh News Network brings{NEWLINE}you news our correspondents found far{CLEAR}and wide.{SCROLL}Mix records in the Union Room, and we{NEWLINE}can air news from your friends too.{SCROLL}Until next time on the Sinnoh News{NEWLINE}Network!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "主持『早上好！{SCROLL}下面为大家介绍{NEWLINE}由精灵创造的各种记录。{CLEAR}精灵吉尼斯时间！{SCROLL}",
+   "en": "Host: Good morning!{SCROLL}We introduce all kinds of records set by{NEWLINE}Pokémon.{SCROLL}It’s time for Pokémon Records!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "主持『大家好！{SCROLL}下面为大家介绍{NEWLINE}由精灵创造的各种记录。{CLEAR}精灵吉尼斯时间！{SCROLL}",
+   "en": "Host: Hello, everyone!{SCROLL}We introduce all kinds of records set by{NEWLINE}Pokémon.{SCROLL}It’s time for Pokémon Records!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "主持『晚上好！{SCROLL}下面为大家介绍{NEWLINE}由精灵创造的各种记录。{CLEAR}精灵吉尼斯时间！{SCROLL}",
+   "en": "Host: Good evening!{SCROLL}We introduce all kinds of records set by{NEWLINE}Pokémon.{SCROLL}It’s time for Pokémon Records!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "那么下面把塞里奥,{SCROLL}伽耶子两人的记录介绍给大家！{SCROLL}",
+   "en": "Now, let’s introduce the records set by{NEWLINE}Serio and Kayako!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: 塞里奥 / 伽耶子: placeholder names from the DP data, romanised Serio / Kayako (low confidence)."
+  },
+  {
+   "id": 39,
+   "zh": "主持『紧接着为大家介绍{CLEAR}下一个记录！{SCROLL}",
+   "en": "Host: And now, our next record!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "主持『这次的精灵吉尼斯{NEWLINE}感觉如何呢？{SCROLL}那么就到这里,{NEWLINE}再见啦！",
+   "en": "Host: How did you like this episode of{NEWLINE}Pokémon Records?{SCROLL}That’s all for now. Goodbye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "主持『精灵吉尼斯{NEWLINE}募集大家达成的记录！{SCROLL}在联机房间进行记录通信,{SCROLL}欢迎大家也发表朋友的记录！{SCROLL}等待大家达成记录的瞬间！{SCROLL}那么就到这里,{NEWLINE}再见啦！",
+   "en": "Host: Pokémon Records wants to hear{NEWLINE}about the records you’ve set!{SCROLL}Mix records in the Union Room, and share{NEWLINE}your friends’ records too!{SCROLL}We’re waiting for the moment you set a{NEWLINE}record!{SCROLL}That’s all for now. Goodbye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "主持『新奥！！ＮＯＷ！！{SCROLL}在本节目,我们会将{NEWLINE}在新奥此刻正在{SCROLL}发生的各种事件{NEWLINE}情报告诉给大家！{CLEAR}您正在收看的是新奥・ＮＯＷ！{SCROLL}",
+   "en": "Host: Sinnoh!! NOW!!{SCROLL}On this show, we tell you about all{NEWLINE}sorts of things happening in Sinnoh{CLEAR}right now!{SCROLL}You’re watching Sinnoh Now!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "主持『新奥！！ＮＯＷ！！{SCROLL}在本节目,我们会将{NEWLINE}在新奥此刻正在{SCROLL}发生的各种事件{NEWLINE}情报告诉给大家！{CLEAR}您正在收看的是新奥・ＮＯＷ！{SCROLL}",
+   "en": "Host: Sinnoh!! NOW!!{SCROLL}On this show, we tell you about all{NEWLINE}sorts of things happening in Sinnoh{CLEAR}right now!{SCROLL}You’re watching Sinnoh Now!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "主持『新奥！！ＮＯＷ！！{SCROLL}在本节目,我们会将{NEWLINE}在新奥此刻正在{SCROLL}发生的各种事件{NEWLINE}情报告诉给大家！{CLEAR}您正在收看的是新奥・ＮＯＷ！{SCROLL}",
+   "en": "Host: Sinnoh!! NOW!!{SCROLL}On this show, we tell you about all{NEWLINE}sorts of things happening in Sinnoh{CLEAR}right now!{SCROLL}You’re watching Sinnoh Now!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "首先是新奥速报！{SCROLL}",
+   "en": "First, a Sinnoh news flash!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "主持『接下来的速报！{SCROLL}",
+   "en": "Host: Next news flash!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "主持『本期的新奥・ＮＯＷ{NEWLINE}感觉如何！{SCROLL}今后也会给大家{NEWLINE}呈现更多的情报！{SCROLL}那么,下次的节目{NEWLINE}再见！",
+   "en": "Host: How did you like this episode of{NEWLINE}Sinnoh Now?{SCROLL}We’ll keep bringing you more info!{SCROLL}See you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "主持『新奥・ＮＯＷ{NEWLINE}会呈现给大家各种实用情报。{SCROLL}今后也会给大家带来{NEWLINE}更多的情报哦！{SCROLL}那么,下次的节目再见了！",
+   "en": "Host: Sinnoh Now brings you all kinds of{NEWLINE}useful info.{SCROLL}We’ll keep bringing you more!{SCROLL}See you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "主持『大家早上好！{SCROLL}经常关注本节目,{NEWLINE}你也会在不知不觉中{CLEAR}走在时尚前沿！{SCROLL}现在是通信时间！{SCROLL}",
+   "en": "Host: Good morning, everyone!{SCROLL}Keep watching this show, and you’ll be{NEWLINE}ahead of the trends before you know it!{SCROLL}It’s time for Trend Report!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "主持『大家好！{SCROLL}经常关注本节目,{NEWLINE}你也会在不知不觉中{CLEAR}走在时尚前沿！{SCROLL}现在式流行通信时间！{SCROLL}",
+   "en": "Host: Hello, everyone!{SCROLL}Keep watching this show, and you’ll be{NEWLINE}ahead of the trends before you know it!{SCROLL}It’s time for Trend Report!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "主持『大家晚上好！{SCROLL}经常关注本节目,{NEWLINE}你也会在不知不觉中{CLEAR}走在时尚前沿！{SCROLL}现在是流行通信时间！{SCROLL}",
+   "en": "Host: Good evening, everyone!{SCROLL}Keep watching this show, and you’ll be{NEWLINE}ahead of the trends before you know it!{SCROLL}It’s time for Trend Report!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "请看最先的流行情报！{SCROLL}",
+   "en": "Here’s our first trend!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "请看下一个流行情报！{SCROLL}",
+   "en": "Here’s our next trend!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "主持『本期的流行通信{NEWLINE}大家感觉如何？{SCROLL}好了,时间关系,{NEWLINE}下次的节目再见吧！{SCROLL}拜拜！",
+   "en": "Host: How did you like this Trend{NEWLINE}Report?{SCROLL}Oh, we’re out of time! See you next{NEWLINE}time!{SCROLL}Bye-bye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "主持『本期的流行通信{NEWLINE}大家感觉如何？{SCROLL}今后也会给大家带来{CLEAR}更多的最前沿情报！{SCROLL}由于时间关系,{NEWLINE}我们在下次的节目再见吧！{SCROLL}拜拜！",
+   "en": "Host: How did you like this Trend{NEWLINE}Report?{SCROLL}We’ll keep bringing you the latest{NEWLINE}trends!{SCROLL}We’re out of time, so see you next time!{SCROLL}Bye-bye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "主持『嗨嗨,{NEWLINE}早上好！{CLEAR}综艺一小时开始喽！{SCROLL}下面和大家一起度过{NEWLINE}心儿砰砰跳的时间！{SCROLL}",
+   "en": "Host: Hi, hi! Good morning! Variety Hour{NEWLINE}is starting!{SCROLL}Let’s spend some heart-pounding time{NEWLINE}together!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "主持『嗨嗨,{NEWLINE}你好！{CLEAR}综艺一小时开始喽！{SCROLL}下面和大家一起度过{NEWLINE}心儿砰砰跳的时间！{SCROLL}",
+   "en": "Host: Hi, hi! Hello! Variety Hour is{NEWLINE}starting!{SCROLL}Let’s spend some heart-pounding time{NEWLINE}together!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "主持『嗨嗨,{NEWLINE}晚上好！{CLEAR}综艺一小时开始喽！{SCROLL}下面和大家一起度过{NEWLINE}心儿砰砰跳的时间！{SCROLL}",
+   "en": "Host: Hi, hi! Good evening! Variety Hour{NEWLINE}is starting!{SCROLL}Let’s spend some heart-pounding time{NEWLINE}together!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "哈哈,今天{NEWLINE}会是什么样的节目呢？{CLEAR}请看！{SCROLL}",
+   "en": "Ha ha, what kind of show will it be{NEWLINE}today? Let’s watch!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "主持『接下来请收看！{SCROLL}",
+   "en": "Host: Up next, please enjoy!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "主持『大家高兴吗？{CLEAR}过得愉快吗？{SCROLL}我们还会再见的！{NEWLINE}再见！大家保重喽！",
+   "en": "Host: Did you have fun, everyone? Did{NEWLINE}you enjoy yourselves?{SCROLL}We’ll see you again! Goodbye! Take{NEWLINE}care!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "主持『总意义熊市{NEWLINE}将会给各位呈现出{CLEAR}许多热门节目！{SCROLL}今后也要继续做{NEWLINE}我们的忠实观众哦！{CLEAR}再见喽！",
+   "en": "Host: Variety Hour will bring you lots of{NEWLINE}hit shows!{SCROLL}Keep being our loyal viewers! Bye now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: zh 总意义熊市 is garbled (probably a bad conversion of the show name); read as Variety Hour."
+  }
+ ]
+}

@@ -1,0 +1,1921 @@
+{
+ "narc": "a027",
+ "bank": 119,
+ "source": "work/extract/v4/a027/0119.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "我的小磁怪能够感应{NEWLINE}甚至干扰地磁。{CLEAR}为了发挥小磁怪的专长,{CLEAR}我特意带它来研钵山探险,{CLEAR}看看能不能发现什么有趣的宝物。",
+   "en": "My Magnemite can sense{NEWLINE}geomagnetism, and even disrupt it.{SCROLL}To put its talent to use, I brought{NEWLINE}it to explore Mt. Mortar and see if{CLEAR}we can find any interesting treasure.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "有人想组队去研钵山深处探险",
+   "en": "Join an expedition?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Mt. Mortar expedition quest: organizer #53–#59 asks for 3 more members: Magnemite quiz man #0–#38, Machop kid #61–#71, Squirtle trainer from Olivine #73–#83 (Focus Sash); team scenes #88–#229; Hitmontop map thief / Kiyo #41–#52, #127–#143.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 2,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:0103:0}『有人想组队{NEWLINE}去研钵山深处探险,{CLEAR}你有兴趣加入吗？",
+   "en": "{VAR:0103:0}: Someone wants to put{NEWLINE}together a team to explore{CLEAR}deep inside Mt. Mortar. Are{CLEAR}you interested in joining?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "哦？组队探险？这个想法不错。{NEWLINE}不过要想拉我组队,{CLEAR}你得有足够的能力才行。",
+   "en": "Oh? A team expedition? Not a bad{NEWLINE}idea. But if you want me on your team,{CLEAR}you’ll need to have what it takes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:0103:0}『什么能力？{NEWLINE}使用精灵对战的能力吗？{CLEAR}这个我很在行。",
+   "en": "{VAR:0103:0}: What it takes? You{NEWLINE}mean battling with Pokémon?{CLEAR}I’m pretty good at that.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "太天真了,{NEWLINE}去探险又不是去参加石英大会,{CLEAR}不需要什么登峰造极的对战实力。{CLEAR}但是作为我的队友,{CLEAR}你必须展现出对野外冒险{CLEAR}足够的知识才行。{CLEAR}你如果能回答对{CLEAR}我下面提出的问题,{CLEAR}我就认可你的知识,{CLEAR}同意跟你们组队探险。",
+   "en": "How naive. We’re going exploring, not{NEWLINE}entering the Indigo Conference. We{CLEAR}don’t need world-class battling skills.{SCROLL}But as my teammate, you{NEWLINE}have to show you know enough{CLEAR}about adventuring in the wild.{SCROLL}If you can answer the{NEWLINE}questions I’m about to ask, I’ll{CLEAR}recognize your knowledge and{CLEAR}agree to join your expedition.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "古老的精灵雕像。",
+   "en": "An ancient Pokémon statue.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "雕像和身上的白玉宝珠发生了共鸣！",
+   "en": "The statue resonated with the{NEWLINE}Lustrous Orb you’re carrying!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0103:0}『没问题,请出题吧。",
+   "en": "{VAR:0103:0}: No problem. Ask away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "好,下面请听第一题：{SCROLL}在城都地区要想使用怪力术,{NEWLINE}必须获得哪个道馆的徽章？",
+   "en": "Right, here’s the first question:{SCROLL}In the Johto region, which Gym’s{NEWLINE}Badge do you need to use Strength?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "满金道馆",
+   "en": "Goldenrod Gym",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "缘朱道馆",
+   "en": "Ecruteak Gym",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 13,
+   "zh": "浅葱道馆",
+   "en": "Olivine Gym",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 14,
+   "zh": "湛蓝道馆",
+   "en": "Cianwood Gym",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 15,
+   "zh": "接下来是第二题：{SCROLL}下面哪只精灵{NEWLINE}不能使用闪光术照亮洞穴？",
+   "en": "Next, the second question:{SCROLL}Which of these Pokémon can’t{NEWLINE}use Flash to light up a cave?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "末入蛾",
+   "en": "Venomoth",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 17,
+   "zh": "梦妖",
+   "en": "Misdreavus",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 18,
+   "zh": "脱壳忍者",
+   "en": "Shedinja",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 19,
+   "zh": "小火猴",
+   "en": "Chimchar",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 20,
+   "zh": "接下来是第四题：{SCROLL}精灵在对战中中毒后,{NEWLINE}如果不进行治疗而是继续旅行,{CLEAR}这只精灵最终会？",
+   "en": "Next, the fourth question:{SCROLL}If a Pokémon gets poisoned in battle{NEWLINE}and you keep traveling without treating{CLEAR}it, what will happen to it in the end?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh orders Question 4 (#20) before Question 3 (#25) in the bank; kept as numbered."
+  },
+  {
+   "id": 21,
+   "zh": "毒发身亡",
+   "en": "It dies of poison",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 22,
+   "zh": "不进入对战就不会被毒伤",
+   "en": "No harm outside battle",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 23,
+   "zh": "强行忍住",
+   "en": "It toughs it out",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 24,
+   "zh": "脱离对战自动解毒",
+   "en": "Cured after battle",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 25,
+   "zh": "接下来是第三题：{SCROLL}让精灵携带哪种道具,{NEWLINE}能够尽可能地减少{CLEAR}在洞穴中遭遇野生精灵？",
+   "en": "Next, the third question:{SCROLL}Which item should a Pokémon hold to{NEWLINE}cut down on wild Pokémon encounters{CLEAR}in caves as much as possible?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "王者之证",
+   "en": "King’s Rock",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 27,
+   "zh": "清净符",
+   "en": "Cleanse Tag",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 28,
+   "zh": "剧毒珠",
+   "en": "Toxic Orb",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 29,
+   "zh": "安闲铃",
+   "en": "Soothe Bell",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 30,
+   "zh": "接下来是最后一题：{SCROLL}如果和你一起探险的队友{NEWLINE}遇到了麻烦,你会怎么做？",
+   "en": "And now, the last question:{SCROLL}If a teammate on your expedition{NEWLINE}runs into trouble, what do you do?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "丢下队友就跑",
+   "en": "Run and leave them",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 32,
+   "zh": "挺身而出相救",
+   "en": "Step in and help",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 33,
+   "zh": "去找别人来帮忙",
+   "en": "Go find help",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 34,
+   "zh": "装作没看见继续前进",
+   "en": "Pretend not to see",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 35,
+   "zh": "不错不错,{NEWLINE}你的的回答我很满意。{CLEAR}我决定加入你们一起探险。",
+   "en": "Not bad, not bad. I’m very{NEWLINE}happy with your answers. I’ve{CLEAR}decided to join your expedition.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "{VAR:0103:0}『谢谢你愿意加入。{NEWLINE}探险队的发起者就在前面的洞穴里,{CLEAR}你去那里跟他汇合吧。",
+   "en": "{VAR:0103:0}: Thanks for{NEWLINE}joining. The person who started{CLEAR}the expedition is in the cave up{CLEAR}ahead. Go meet up with him there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "好的,回头见了。",
+   "en": "OK, see you later.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "你刚刚的回答我不是很满意,{NEWLINE}加入探险队的事{CLEAR}我还是再考虑考虑吧。",
+   "en": "I’m not too happy with your answers.{NEWLINE}I think I’ll have to think it over some{CLEAR}more before joining an expedition.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "小磁怪『Maaa——nem！",
+   "en": "Magnemite: Maaa-nem!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "研钵山洞穴是城都地区{NEWLINE}最古老的洞穴,{CLEAR}它的结构错综复杂、深不可测。{CLEAR}还有人这里面寄宿着{CLEAR}超远古的神秘力量。{SCROLL}无论从哪个角度看,{NEWLINE}研钵山洞穴都非常危险,{CLEAR}所以来这里的游客并不多。{CLEAR}如果你没有做好万全准备,{CLEAR}劝你还是不要深入洞穴的好。",
+   "en": "The Mt. Mortar cave is the oldest cave{NEWLINE}in the Johto region. Its layout is{CLEAR}tangled and complex, and its depths{CLEAR}are unfathomable.{SCROLL}Some even say a mysterious power from{NEWLINE}the ancient past dwells inside.{SCROLL}Any way you look at it, the Mt. Mortar{NEWLINE}cave is very dangerous, so not many{CLEAR}visitors come here.{SCROLL}If you aren’t fully prepared, I’d advise{NEWLINE}you not to go too deep.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-019"
+  },
+  {
+   "id": 41,
+   "zh": "卡波郎『Hiiit——mon！{SCROLL}卡波郎警觉地看着你。",
+   "en": "Hitmontop: Hiiit-mon!{SCROLL}Hitmontop is watching you warily.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "我来到研钵山探险,{NEWLINE}结果这只卡波郎突然跳出来{CLEAR}不知道它要干什么。",
+   "en": "I came to explore Mt. Mortar, and{NEWLINE}this Hitmontop suddenly jumped{CLEAR}out. I have no idea what it wants.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "卡波郎『Hiiit——mon！",
+   "en": "Hitmontop: Hiiit-mon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "喂卡波郎！你干什么！{NEWLINE}那是我买的地图,快还给我！",
+   "en": "Hey, Hitmontop! What are you doing?!{NEWLINE}That’s the map I bought! Give it back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "口袋妖怪居然抢人的东西,{NEWLINE}我还是第一次遇到这种事情,{CLEAR}真的是太倒霉了。",
+   "en": "A Pokémon robbing people? It’s the{NEWLINE}first time that’s ever happened{CLEAR}to me. Talk about bad luck.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "你好啊路过的训练家,{NEWLINE}刚才发生的事情你应该都看到了。{CLEAR}卡波郎抢走了我的地图,{CLEAR}没有它的话洞穴探险会很辛苦。{CLEAR}如果你能再遇到那只卡波郎,{CLEAR}拜托你帮我把地图拿回来吧！",
+   "en": "Hello there, passing Trainer. You{NEWLINE}must have seen what just happened.{SCROLL}The Hitmontop ran off with{NEWLINE}my map. Exploring the cave{CLEAR}will be tough without it.{SCROLL}If you run into that Hitmontop again,{NEWLINE}please get my map back for me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "被卡波郎抢走的那个地图{NEWLINE}是我洞穴探险的必需品。{CLEAR}如果你能再遇到那只卡波郎,{CLEAR}拜托你帮我把地图拿回来吧！",
+   "en": "That map the Hitmontop took is a{NEWLINE}must-have for my cave exploring. If{CLEAR}you run into that Hitmontop again,{CLEAR}please get my map back for me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "被卡波郎抢走的那个地图{NEWLINE}是我洞穴探险的必需品。{CLEAR}如果你能再遇到那只卡波郎,{CLEAR}拜托你帮我把地图拿回来吧！{SCROLL}把地图归还登山男吗？",
+   "en": "That map the Hitmontop took is a{NEWLINE}must-have for my cave exploring. If{CLEAR}you run into that Hitmontop again,{CLEAR}please get my map back for me!{SCROLL}Return the map to the Hiker?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0103:0}把地图还给了登山男。",
+   "en": "{VAR:0103:0} returned the map to the Hiker.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "哇！谢谢你帮我把地图找回来。{NEWLINE}如果没有这个的话,{CLEAR}我在洞穴里可就寸步难行了。{SCROLL}给你添了这么大麻烦,{NEWLINE}真是不好意思,{CLEAR}这个送给你当作谢礼吧。",
+   "en": "Wow! Thanks for getting my map{NEWLINE}back. Without it, I couldn’t{CLEAR}take a single step in the cave.{SCROLL}I’m sorry for causing you so much{NEWLINE}trouble. Please take this as thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "这个技能机攀岩,{NEWLINE}是我们登山男旅行的必备道具。{CLEAR}如果你有烟墨市的升龙徽章,{CLEAR}那么学会这个技能的精灵{CLEAR}就能在战斗外{CLEAR}沿着石壁上的突起颗粒攀岩而上,{CLEAR}对于深度探索洞穴很有用哦。",
+   "en": "This TM, Rock Climb, is a must-have{NEWLINE}for us Hikers on our travels.{SCROLL}If you have the Rising Badge from{NEWLINE}Blackthorn City, a Pokémon that knows{CLEAR}this move can climb up rock walls with{CLEAR}footholds outside of battle. It’s really{CLEAR}useful for exploring deep into caves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "如果你有烟墨市的升龙徽章,{NEWLINE}那么学会攀岩技能的精灵{CLEAR}就能在战斗外{CLEAR}沿着石壁上的突起颗粒攀岩而上,{CLEAR}对于深度探索洞穴很有用哦。",
+   "en": "If you have the Rising Badge from{NEWLINE}Blackthorn City, a Pokémon that knows{CLEAR}Rock Climb can climb up rock walls with{CLEAR}footholds outside of battle. It’s really{CLEAR}useful for exploring deep into caves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "你是很厉害的训练家吗？",
+   "en": "Are you a really strong Trainer?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "哦？对自己没信心啊。{NEWLINE}那可真是不行。",
+   "en": "Oh? No confidence in yourself?{NEWLINE}That won’t do at all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "那就让我看看你的实力{NEWLINE}是否真的够强吧。",
+   "en": "Then let me see if you’re{NEWLINE}really strong enough.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "没想到你这么厉害！{NEWLINE}请你一定要加入我的探险队好吗？",
+   "en": "I never thought you’d be this strong!{NEWLINE}Please, you have to join my expedition!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "拜托不要拒绝我,{NEWLINE}我的探险队非常需要你这样的人才,{CLEAR}请你一定要加入好吗？",
+   "en": "Please don’t say no! My{NEWLINE}expedition really needs someone{CLEAR}like you. Please, won’t you join?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "真是太好了！{NEWLINE}探险队终于不是只有我一个人了。{CLEAR}要在研钵山这样复杂的洞穴里探险,{CLEAR}只靠自己一个人是很难的。{CLEAR}为了能走到研钵山的最深处,{CLEAR}咱们探险队必须要再扩充队员才行。{SCROLL}如果可能的话,{NEWLINE}请你再去找3个队员来行吗？{CLEAR}我想组成一支5人的超级探险队{CLEAR}一起向研钵山最深处进发！",
+   "en": "That’s great! Finally, my expedition{NEWLINE}isn’t just me.{SCROLL}Exploring a cave as tangled as{NEWLINE}Mt. Mortar is really hard on your own.{CLEAR}If we want to reach the deepest part of{CLEAR}Mt. Mortar, we need more members.{SCROLL}If you can, would you find 3 more{NEWLINE}members? I want to form a super{CLEAR}expedition of 5 and head for the depths{CLEAR}of Mt. Mortar together!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-019"
+  },
+  {
+   "id": 59,
+   "zh": "如果可能的话,{NEWLINE}请你再去找3个队员来行吗？{CLEAR}我想组成一支5人的超级探险队{CLEAR}一起向研钵山最深处进发！",
+   "en": "If you can, would you find 3 more{NEWLINE}members? I want to form a super{CLEAR}expedition of 5 and head for the{CLEAR}depths of Mt. Mortar together!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "地鼠『Diiii——let！",
+   "en": "Diglett: Diiii-let!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "这一带的石头{NEWLINE}都被我推到墙角动不了了,{CLEAR}现在已经没什么可玩的了。{CLEAR}反正也是闲着,{CLEAR}就跟你来场精灵对战解解闷吧！",
+   "en": "I’ve pushed all the boulders{NEWLINE}around here into the corners{CLEAR}where they won’t budge. There’s{CLEAR}nothing left to play with now.{SCROLL}I’m bored anyway, so let’s have a{NEWLINE}Pokémon battle to pass the time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "你可真强啊,{NEWLINE}平时肯定没少做对战练习。{CLEAR}像你这样的高手一定知道{CLEAR}研钵山哪里比较好玩,{CLEAR}快跟我说说！",
+   "en": "You’re really strong. You must practice{NEWLINE}battling a lot.{SCROLL}A pro like you must know where the{NEWLINE}fun spots in Mt. Mortar are. Come on,{CLEAR}tell me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-019"
+  },
+  {
+   "id": 63,
+   "zh": "加入探险队吧",
+   "en": "Join our expedition",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 64,
+   "zh": "没什么好玩的",
+   "en": "Nothing fun here",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 65,
+   "zh": "你骗人,像你这样的训练家{NEWLINE}一定知道哪里好玩,{CLEAR}快点告诉我。",
+   "en": "Liar! A Trainer like you must know{NEWLINE}where the fun is. Hurry up and tell me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "{VAR:0103:0}『我对研钵山也不是很熟,{NEWLINE}不知道哪里有好玩的。",
+   "en": "{VAR:0103:0}: I don’t know Mt. Mortar that{NEWLINE}well either. I don’t know where the fun{CLEAR}spots are.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-019"
+  },
+  {
+   "id": 67,
+   "zh": "{VAR:0103:0}『我们正在组建一支探险队,{NEWLINE}准备去研钵山的最深处{CLEAR}看看那里究竟有什么。{CLEAR}你愿意加入我们跟我们一起去吗？",
+   "en": "{VAR:0103:0}: We’re putting together an{NEWLINE}expedition to go to the deepest part{CLEAR}of Mt. Mortar and see what’s really{CLEAR}down there. Would you like to join us?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "我去我去！{NEWLINE}这么有意思的事一定要带上我！",
+   "en": "Me, me! Count me in on{NEWLINE}something this fun!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "{VAR:0103:0}『那么请你去{NEWLINE}南边的洞穴入口附近{CLEAR}跟其他队员汇合吧,{CLEAR}等人到齐了咱们一起出发。",
+   "en": "{VAR:0103:0}: Then please go meet the{NEWLINE}other members near the cave entrance{CLEAR}to the south. Once everyone’s{CLEAR}there, we’ll set out together.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "没问题,我这就过去！",
+   "en": "No problem, I’m heading over now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "什么时候出发探险啊,{NEWLINE}我都快等不及了。",
+   "en": "When are we setting out? I can’t wait!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "腕力『Maaa——chop！",
+   "en": "Machop: Maaa-chop!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "你看到台阶北面那条路了吗？{NEWLINE}如果能想办法到台阶上面,{CLEAR}就可以沿着那条路{CLEAR}到达我从来没去过的地方。{CLEAR}只可惜我的杰尼龟只会冲浪,{CLEAR}无论如何也没办法到台阶上面。",
+   "en": "See the path north of the ledge?{NEWLINE}If I could get up that ledge{CLEAR}somehow, I could follow that{CLEAR}path somewhere I’ve never been.{SCROLL}Too bad my Squirtle only knows Surf.{NEWLINE}There’s no way it can get me up there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "那就加入我们探险队吧",
+   "en": "Then join our team",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 75,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 76,
+   "zh": "{VAR:0103:0}『我们正在组建一支探险队,{NEWLINE}你如果想进入研钵山深处,{CLEAR}就加入我们吧！",
+   "en": "{VAR:0103:0}: We’re putting together{NEWLINE}an expedition. If you want to go{CLEAR}deep into Mt. Mortar, join us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "探险队的提议很不错哟,{NEWLINE}我非常想加入你们。{CLEAR}只是我想在探险开始之前,{CLEAR}想要做好万全的准备,{CLEAR}你们探险队有气息腰带吗？{CLEAR}有的话分我一个吧。",
+   "en": "An expedition is a great idea.{NEWLINE}I’d really like to join you.{SCROLL}It’s just that I want to be fully{NEWLINE}prepared before we set out. Does{CLEAR}your expedition have a Focus Sash?{CLEAR}If you do, could you spare me one?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "{VAR:0103:0}『真是不好意西啊,{NEWLINE}我们没有准备气息腰带。",
+   "en": "{VAR:0103:0}: Sorry, we didn’t{NEWLINE}bring a Focus Sash.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "没有气息腰带啊,{NEWLINE}那万一遇到什么意外可就不好了。{CLEAR}虽然我也很想加入探险队,{CLEAR}但还是等东西准备齐全了再说吧。",
+   "en": "No Focus Sash? That’d be bad if{NEWLINE}something went wrong. I’d love{CLEAR}to join the expedition, but I’ll{CLEAR}wait until I’m fully equipped.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "{VAR:0103:0}『正好我这里有气息腰带,{NEWLINE}来,给你一条。",
+   "en": "{VAR:0103:0}: As it happens, I’ve got{NEWLINE}a Focus Sash. Here, have one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "太好了,有了气息腰带,{NEWLINE}即使遇到意外情况心里也有底了。",
+   "en": "Great! With a Focus Sash, I’ll{NEWLINE}feel ready even if something{CLEAR}unexpected happens.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "{VAR:0103:0}『我们约在{NEWLINE}南边洞穴入口附近集合,{CLEAR}你可以去那边跟其他队员汇合。",
+   "en": "{VAR:0103:0}: We’re meeting up near the{NEWLINE}cave entrance to the south. You can{CLEAR}go join the other members there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "好的,我这就去见见伙伴们。",
+   "en": "OK, I’m off to meet my new teammates.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "杰尼龟『Jie——ni！",
+   "en": "Squirtle: Jie-ni!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "大家的精灵是不是都有保险啊,{NEWLINE}没有的话最好还是买上一份吧。",
+   "en": "Do all your Pokémon have insurance?{NEWLINE}If not, you’d better buy some.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "只是往洞穴里走了这么一点路,{NEWLINE}我的小磁怪就已经感应到{CLEAR}地磁场的异常了,{CLEAR}果然研钵山的深处是有什么的吧！",
+   "en": "We’ve only gone a little way into the{NEWLINE}cave, and my Magnemite already senses{CLEAR}something strange in the geomagnetic{CLEAR}field. There really is something{CLEAR}in the depths of Mt. Mortar!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "小磁怪『Maaa——nem！",
+   "en": "Magnemite: Maaa-nem!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "真是辛苦你了,{NEWLINE}这样一来5名队员就都找齐了。{CLEAR}咱们现在就向研钵山深处进发吧！",
+   "en": "Thanks for all your hard work. With{NEWLINE}that, we’ve got all 5 members. Let’s{CLEAR}head for the depths of Mt. Mortar now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "勇敢的探险队员们,{NEWLINE}现在咱们兵强马壮、人员齐整,{CLEAR}是时候向研钵山深处进发了！",
+   "en": "Brave explorers! Now that we’re strong{NEWLINE}and our ranks are complete, it’s time{CLEAR}to head for the depths of Mt. Mortar!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "呀呼,探险探险！",
+   "en": "Woo-hoo! Adventure time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "一起找到前进的方法！",
+   "en": "Let’s find a way forward together!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "弄清楚埋藏在研钵山地底的秘密！",
+   "en": "Let’s uncover the secret{NEWLINE}buried under Mt. Mortar!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "好嘞,大家出发吧！",
+   "en": "All right, everyone, let’s go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "你也过来啦。{NEWLINE}等其他队员下来之后{CLEAR}咱们就可以继续前进了。",
+   "en": "So you came down too. Once{NEWLINE}the other members get down{CLEAR}here, we can keep going.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "嘿咻,通过推石头锻炼身体,{NEWLINE}这感觉真是棒极了。",
+   "en": "Hup! Working out by pushing{NEWLINE}boulders feels fantastic.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "伙计们,快下来吧,{NEWLINE}咱们好继续前进啊！",
+   "en": "Hurry on down, everyone,{NEWLINE}so we can keep going!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "这种岩壁太陡了,{NEWLINE}我们根本下不去。",
+   "en": "This rock wall is way too steep.{NEWLINE}There’s no way we can get down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "没错,我们的精灵也不会攀岩技能。",
+   "en": "Right, and none of our Pokémon{NEWLINE}know Rock Climb either.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "既然你的精灵会使用攀岩,{NEWLINE}不如让它来载我们下去吧。",
+   "en": "Your Pokémon can use Rock Climb,{NEWLINE}right? Why not have it carry us down?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "没问题,决不能让这点小小的障碍{NEWLINE}挡住咱们探险队。",
+   "en": "No problem! We can’t let a little{NEWLINE}obstacle like this stop our expedition.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "地鼠,拜托你把大家带下来吧！",
+   "en": "Diglett, please bring everyone down!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "哦吼,坐地鼠攀岩我还是第一次玩,{NEWLINE}来吧,请带我们下去吧。",
+   "en": "Oh-ho! First time I’ve{NEWLINE}ever gone rock climbing on a{CLEAR}Diglett! Come on, take us down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "哇哦,就这样下来了,好神奇啊！",
+   "en": "Whoa, we just came right{NEWLINE}down like that! Amazing!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "其他人也拜托你了,地鼠。",
+   "en": "Please bring the others too, Diglett.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "好,这次轮到我了。",
+   "en": "OK, my turn this time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "我一直都想到这个台阶上面,{NEWLINE}这下终于成功了。",
+   "en": "I’ve always wanted to get onto{NEWLINE}this ledge. I finally made it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "我要坐稳一点,可不能摔下去。",
+   "en": "I’d better hold on tight.{NEWLINE}I don’t want to fall off.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "呼……平安下来了,谢谢你啊地鼠。",
+   "en": "Phew... Got down{NEWLINE}safely. Thanks, Diglett.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "嘿,老伙计！你能够攀岩吗？{NEWLINE}需要我把你带下来吗？",
+   "en": "Hey, old pal! Can you rock climb?{NEWLINE}Want me to bring you down?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "把我带下去吧",
+   "en": "Take me down",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 111,
+   "zh": "我自己来就行",
+   "en": "I can manage",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 112,
+   "zh": "{VAR:0103:0}『我自己可以下去,{NEWLINE}你们先走吧。",
+   "en": "{VAR:0103:0}: I can get down by{NEWLINE}myself. You all go on ahead.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "好的,那我们就先去更前面看看了。",
+   "en": "OK, then we’ll go take{NEWLINE}a look further ahead.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "走吧队员们,咱们继续前进！",
+   "en": "Let’s go, team! Onward!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "{VAR:0103:0}『那就麻烦你用地鼠{NEWLINE}把我带下去吧。",
+   "en": "{VAR:0103:0}: Then could you have{NEWLINE}your Diglett bring me down?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "没问题,小意思。上啊地鼠！",
+   "en": "No problem, easy! Go, Diglett!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "太好了,这样一来咱们所有队员{NEWLINE}都顺利通过了岩壁。{CLEAR}现在可以继续前进啦！",
+   "en": "Great, now all our members have made it{NEWLINE}past the rock wall. We can keep going!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "这块挡路的大石头好重啊,{NEWLINE}完全推不动它。",
+   "en": "This big boulder in the way is so{NEWLINE}heavy. I can’t budge it at all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "让我的腕力来试试,{NEWLINE}它可是推石头的专家。",
+   "en": "Let my Machop give it a try. It’s{NEWLINE}an expert at pushing boulders.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "那就拜托你和腕力了。",
+   "en": "We’re counting on you and Machop, then.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "来吧腕力,把那块石头推开！",
+   "en": "Come on, Machop, push{NEWLINE}that boulder aside!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "现在已经没有石头碍事了,{NEWLINE}咱们继续前进吧！",
+   "en": "The boulder’s out of the{NEWLINE}way now. Let’s keep going!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "太棒了,这就是我想看到的{NEWLINE}探险队员之间的合作！",
+   "en": "Fantastic! This is the kind of{NEWLINE}teamwork between expedition{CLEAR}members I wanted to see!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "果然有了团队就会轻松很多。",
+   "en": "Having a team sure makes{NEWLINE}things a lot easier.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 125,
+   "zh": "要是只有我自己的话,{NEWLINE}肯定推不动那块石头,{CLEAR}能加入探险队真是太好了。",
+   "en": "If it were just me, I could never{NEWLINE}have pushed that boulder. I’m{CLEAR}so glad I joined the expedition.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "腕力干的漂亮！",
+   "en": "Nice work, Machop!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 127,
+   "zh": "沙瓦郎『Hiii——lee！",
+   "en": "Hitmonlee: Hiii-lee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 128,
+   "zh": "艾比郎『Hiii——chan！",
+   "en": "Hitmonchan: Hiii-chan!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 129,
+   "zh": "我是湛蓝道馆{NEWLINE}阿四馆主的大弟子信彦,{CLEAR}为了成为超越师傅的格斗大师{CLEAR}带着精灵在研钵山隐居修炼。",
+   "en": "I’m Kiyo, top student of Gym Leader{NEWLINE}Chuck of the Cianwood Gym. I’m training{CLEAR}in seclusion here in Mt. Mortar with{CLEAR}my Pokémon so I can become a fighting{CLEAR}master who surpasses my teacher.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 130,
+   "zh": "旁边的卡波郎是你的吗？",
+   "en": "Is that Hitmontop yours?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 131,
+   "zh": "{VAR:0103:0}『请问旁边这只卡波郎{NEWLINE}是你的精灵吗？",
+   "en": "{VAR:0103:0}: Excuse me, is this{NEWLINE}Hitmontop here your Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 132,
+   "zh": "没错,卡波郎是我所有的精灵中{NEWLINE}最有天赋的一只,{CLEAR}但它有时候会调皮跑出去玩。{CLEAR}如果它肯端正训练态度的话,{CLEAR}一定能成为最强的卡波郎。",
+   "en": "That’s right. Hitmontop is the{NEWLINE}most gifted of all my Pokémon, but{CLEAR}sometimes it sneaks off to play.{SCROLL}If it would just take its training{NEWLINE}seriously, it could surely{CLEAR}become the strongest Hitmontop.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 133,
+   "zh": "{VAR:0103:0}『我在上层的洞穴{NEWLINE}遇到过跑出去的卡波郎,{CLEAR}它当时抢了一位登山男的地图。{CLEAR}登山男拜托我帮忙找回地图,{CLEAR}所以我一路跟随卡波郎找到了这里。{SCROLL}{VAR:0103:0}『既然你是它的训练家,{NEWLINE}就请你跟卡波郎沟通一下,{CLEAR}让它把地图还回来吧。",
+   "en": "{VAR:0103:0}: I ran into your runaway{NEWLINE}Hitmontop in the upper caves.{CLEAR}It had stolen a Hiker’s map.{SCROLL}The Hiker asked me to help get{NEWLINE}the map back, so I followed{CLEAR}Hitmontop all the way here.{SCROLL}{VAR:0103:0}: Since you’re its{NEWLINE}Trainer, please talk to Hitmontop{CLEAR}and have it give the map back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 134,
+   "zh": "卡波郎这家伙居然抢别人东西？{NEWLINE}我必须要好好教训一下它才行。",
+   "en": "That Hitmontop actually stole someone’s{NEWLINE}stuff? I have to teach it a lesson.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 135,
+   "zh": "卡波郎,你手里拿着的地图{NEWLINE}是你抢来的吗？{CLEAR}是的话就快点还给人家,{CLEAR}不要给别人添麻烦！",
+   "en": "Hitmontop, did you steal that map{NEWLINE}you’re holding? If you did, give it back{CLEAR}right now. Don’t cause people trouble!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 136,
+   "zh": "卡波郎『Hiiit——mon！{SCROLL}卡波郎警觉地看着你,{NEWLINE}手里的地图握得更紧了。",
+   "en": "Hitmontop: Hiiit-mon!{SCROLL}Hitmontop is watching you warily{NEWLINE}and gripping the map even tighter.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 137,
+   "zh": "卡波郎『Hiiit——mon！{SCROLL}卡波郎扭过了头去。",
+   "en": "Hitmontop: Hiiit-mon!{SCROLL}Hitmontop turned its head away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 138,
+   "zh": "我是你的训练家,{NEWLINE}我现在命令你马上、立刻{CLEAR}把地图还给人家！",
+   "en": "I’m your Trainer, and I’m{NEWLINE}ordering you to give that map{CLEAR}back right now, this instant!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 139,
+   "zh": "卡波郎『Hiiit……{SCROLL}卡波郎一副不情愿的样子。",
+   "en": "Hitmontop: Hiiit...{SCROLL}Hitmontop looks reluctant.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 140,
+   "zh": "真是不好意思啊,{NEWLINE}都怪我平时太放纵卡波郎{CLEAR}它才会跑出去惹祸,{CLEAR}我今后一定对它严加管教。",
+   "en": "I’m really sorry. It’s my fault for{NEWLINE}spoiling Hitmontop so much. That’s{CLEAR}why it went out and caused trouble.{CLEAR}I’ll discipline it strictly from now on.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "卡波郎是我所有精灵中最强的,{NEWLINE}也正因为如此,{CLEAR}它在我这里养成了{CLEAR}骄傲自大、任意妄为的习惯。{SCROLL}我看你能只身出入研钵山,{NEWLINE}说明你也是位很有实力的训练家。{CLEAR}能请你跟我来场对战,{CLEAR}好好教一教卡波郎{CLEAR}什么是人外有人天外有天吗？",
+   "en": "Hitmontop is the strongest of{NEWLINE}all my Pokémon. And because of{CLEAR}that, it’s picked up arrogant,{CLEAR}willful habits with me.{SCROLL}If you can come and go through{NEWLINE}Mt. Mortar alone, you must{CLEAR}be a very strong Trainer too.{SCROLL}Would you battle me and teach{NEWLINE}Hitmontop that there’s always{CLEAR}someone stronger out there?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 142,
+   "zh": "我会让卡波郎全力出击。{NEWLINE}请你也不要手下留情。",
+   "en": "I’ll have Hitmontop attack all out.{NEWLINE}Please don’t hold back either.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "你的实力远超我的想象。{NEWLINE}从刚才的对战中我能感受到{CLEAR}卡波郎的绝对自信产生了动摇。{CLEAR}我想它今后应该可以冷静下来{CLEAR}专注于修行了。{SCROLL}谢谢你帮我训练卡波郎,{NEWLINE}这是为你准备的谢礼,请收下吧。",
+   "en": "You’re far stronger than I imagined. In{NEWLINE}that battle, I could feel Hitmontop’s{CLEAR}absolute self-confidence waver.{SCROLL}I think from now on it’ll be able to{NEWLINE}calm down and focus on its training.{SCROLL}Thank you for helping me train{NEWLINE}Hitmontop. I prepared this{CLEAR}as thanks. Please take it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 144,
+   "zh": "为了成为最强的格斗系训练家,{NEWLINE}我正在这里修行。{CLEAR}你有时间陪我练习一下吗？",
+   "en": "I’m training here to become the{NEWLINE}strongest Fighting-type Trainer.{CLEAR}Do you have time to spar with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 145,
+   "zh": "你是希望单打还是双打？",
+   "en": "Would you like a Single or a{NEWLINE}Double Battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 147,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 148,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 149,
+   "zh": "我和精灵们都会全力出击,{NEWLINE}请你也不要手下留情。",
+   "en": "My Pokémon and I will attack all{NEWLINE}out. Please don’t hold back either.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 150,
+   "zh": "幸好你不是专精格斗系的训练家,{NEWLINE}不然我永远只能争当第二了。",
+   "en": "Good thing you don’t specialize in{NEWLINE}Fighting types. Otherwise I’d be{CLEAR}stuck at second best forever.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 151,
+   "zh": "请携带至少两只精灵进行双打。",
+   "en": "Please bring at least two{NEWLINE}Pokémon for a Double Battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 152,
+   "zh": "因为研钵山人迹罕至,{NEWLINE}所以这里有很多宝物还没被发掘。{CLEAR}你如果仔细找一找,{CLEAR}应该能发现先不少好东西。",
+   "en": "Hardly anyone comes to Mt. Mortar,{NEWLINE}so there are lots of treasures{CLEAR}here that haven’t been dug up{CLEAR}yet. If you look carefully, you{CLEAR}should find plenty of good stuff.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 153,
+   "zh": "从这里再往前走{NEWLINE}就是火箭队曾经的基地。{CLEAR}当时精灵联盟在接到群众举报后,{CLEAR}派联盟四天王带队突袭了这里。{CLEAR}但是这场突袭最终却扑了一场空,{CLEAR}精灵联盟的人马来到时,{CLEAR}这个基地早已人去楼空,{CLEAR}火箭队就像蒸发一样{CLEAR}悄无声息地消失了个无影无踪。",
+   "en": "Up ahead is Team Rocket’s old base.{SCROLL}After receiving a tip from the{NEWLINE}public, the Pokémon League sent{CLEAR}the Elite Four to lead a raid on it.{SCROLL}But the raid came up empty. By the{NEWLINE}time the League’s forces got here,{CLEAR}the base was already deserted.{SCROLL}Team Rocket had vanished{NEWLINE}without a sound, without a{CLEAR}trace, as if they’d evaporated.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 154,
+   "zh": "你也是来研钵山探险的吗？{NEWLINE}走到这里应该很累了吧。{CLEAR}你如果想离开的话{CLEAR}我可以用穿洞绳送你出去。{SCROLL}现在要出去吗？",
+   "en": "Are you exploring Mt. Mortar too? You{NEWLINE}must be tired after coming this far.{SCROLL}If you want to leave, I can get{NEWLINE}you out with an Escape Rope.{SCROLL}Do you want to leave now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 155,
+   "zh": "想离开的话随时可以来找我。",
+   "en": "Come see me anytime you want to leave.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 156,
+   "zh": "去山洞外面好好休息一下吧。",
+   "en": "Go outside the cave and{NEWLINE}get some good rest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 157,
+   "zh": "这个水池好宽啊,{NEWLINE}该怎么过去呢。",
+   "en": "This pool is so wide.{NEWLINE}How do we get across?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 158,
+   "zh": "我的小磁怪非常确定{NEWLINE}前方有极其怪异的磁场变化,{CLEAR}只要渡过这片水池,{CLEAR}就能看个究竟了。",
+   "en": "My Magnemite is certain there’s{NEWLINE}an extremely strange shift in{CLEAR}the magnetic field up ahead. Once we{CLEAR}cross this pool, we’ll see what it is.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 159,
+   "zh": "啊……我最不擅长的就是游唦了。",
+   "en": "Ugh... Swimming is the{NEWLINE}thing I’m worst at.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 160,
+   "zh": "当当当当,兄弟们,{NEWLINE}这时候就该我出马了。{CLEAR}我的杰尼龟可是会冲浪术的,{CLEAR}它可以把咱们一个个送到对岸去。",
+   "en": "Ta-da-da-daaa! Guys, this is where{NEWLINE}I come in. My Squirtle knows Surf.{CLEAR}It can carry us across one by one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 161,
+   "zh": "哇,真的吗？{NEWLINE}没想到仅仅是杰尼龟{CLEAR}居然能够使用冲浪。",
+   "en": "Whoa, really? I never thought{NEWLINE}a mere Squirtle could use Surf.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 162,
+   "zh": "那当然啦,我可是从浅葱市来的,{NEWLINE}我仅有的一个徽章{CLEAR}就是能让精灵冲浪的钢铁徽章。",
+   "en": "Of course! I’m from Olivine City.{NEWLINE}My one and only Badge is the Mineral{CLEAR}Badge, which lets Pokémon use Surf.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 163,
+   "zh": "哈哈,这可真是机缘巧合了。",
+   "en": "Ha ha, what a lucky coincidence.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 164,
+   "zh": "我感觉这更像是命中注定,{NEWLINE}注定我们一定能够探明{CLEAR}研钵山最深处的秘密。",
+   "en": "I’d call it more like destiny. We’re{NEWLINE}destined to uncover the secret{CLEAR}at the bottom of Mt. Mortar.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 165,
+   "zh": "没错,现在就让我的杰尼龟{NEWLINE}载着大家向对岸出发吧。",
+   "en": "Right! Now let my Squirtle carry{NEWLINE}everyone to the other side.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 166,
+   "zh": "干得漂亮,杰尼龟。{NEWLINE}这样就剩一位伙伴了。",
+   "en": "Well done, Squirtle. That{NEWLINE}leaves just one more of us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 167,
+   "zh": "你会使用冲浪术吗？{NEWLINE}需要我的杰尼龟把你载过去吗？",
+   "en": "Can you use Surf? Need my{NEWLINE}Squirtle to carry you across?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 168,
+   "zh": "没问题,跟我来吧。",
+   "en": "No problem, follow me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 169,
+   "zh": "好的,那我就先过去了。",
+   "en": "OK, then I’ll go on ahead.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 170,
+   "zh": "我自己可以过去",
+   "en": "I can get across myself",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 171,
+   "zh": "把我带过去吧",
+   "en": "Take me across",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 172,
+   "zh": "这种乱石堆根本不算障碍,{NEWLINE}只要找到路绕过去就没问题了！",
+   "en": "A pile of rocks like this is{NEWLINE}no obstacle at all. We just{CLEAR}need to find a way around it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 173,
+   "zh": "等一下！这里的磁场不对劲！",
+   "en": "Wait! The magnetic field here is off!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 174,
+   "zh": "这……这是怎么回事？{NEWLINE}我怎么又回到原地了？",
+   "en": "Wh-what’s going on? How did I{NEWLINE}end up back where I started?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 175,
+   "zh": "我的小磁怪在地表的时候,{NEWLINE}就感受到研钵山地下有磁场异常。{CLEAR}现在看来咱们面前的这个乱石阵,{CLEAR}就是地磁异常的源头。{SCROLL}一般来说地磁场由地球的形状决定,{NEWLINE}磁场应该是规则有序的。{CLEAR}但这里的磁场非常混乱,{CLEAR}简直就像是这里的地形{CLEAR}从空间构造上产生混乱{CLEAR}进而影响了这里的磁场分布。",
+   "en": "Back on the surface, my Magnemite{NEWLINE}already sensed an abnormal{CLEAR}magnetic field under Mt. Mortar.{SCROLL}Now it looks like this maze{NEWLINE}of rocks in front of us is{CLEAR}the source of the anomaly.{SCROLL}Normally, the geomagnetic field is{NEWLINE}determined by the shape of the Earth,{CLEAR}so it should be regular and orderly.{SCROLL}But the field here is in total chaos.{NEWLINE}It’s as if the terrain itself has been{CLEAR}scrambled in its spatial structure, and{CLEAR}that’s warping the magnetic field here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 176,
+   "zh": "你说的好复杂啊,{NEWLINE}能解释地简单一点吗？",
+   "en": "That’s way too complicated.{NEWLINE}Can you explain it more simply?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 177,
+   "zh": "简单来说就是有神秘的力量{NEWLINE}歪曲了前面乱石阵的空间结构,{CLEAR}造成了这里的磁场混乱。",
+   "en": "Simply put, a mysterious power has{NEWLINE}twisted the space in the rock maze{CLEAR}ahead, and that’s what’s throwing{CLEAR}the magnetic field into chaos.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 178,
+   "zh": "原来如此,因为空间是混乱的,{NEWLINE}我才会在向前走的时候又回到起点！",
+   "en": "I see! Because the space{NEWLINE}is scrambled, I ended up back at{CLEAR}the start when I walked forward!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 179,
+   "zh": "这么说咱们没法通过前边的乱石阵了？",
+   "en": "So that means we can’t get{NEWLINE}through the rock maze ahead?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 180,
+   "zh": "那倒未必,{NEWLINE}既然空间能影响磁场,{CLEAR}反过来磁场或许也能影响空间。{CLEAR}只要我用小磁怪强行修复这里的磁场,{CLEAR}或许空间混乱也就解除了。",
+   "en": "Not necessarily. If space can affect{NEWLINE}the magnetic field, then maybe the{CLEAR}magnetic field can affect space in turn.{SCROLL}If I use Magnemite to force{NEWLINE}the magnetic field here back{CLEAR}to normal, maybe the spatial{CLEAR}chaos will clear up too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 181,
+   "zh": "这……真的可能吗？",
+   "en": "Is... is that really possible?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 182,
+   "zh": "有个办法总比一筹莫展强。",
+   "en": "Having a plan beats having none.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 183,
+   "zh": "只要没有危险,还是可以试一试的。",
+   "en": "As long as it isn’t{NEWLINE}dangerous, it’s worth a try.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 184,
+   "zh": "那么拜托你了,小磁怪。{NEWLINE}把你感受到的异常磁场{CLEAR}修复成它本来的面貌吧！",
+   "en": "Then I’m counting on you, Magnemite.{NEWLINE}Restore the abnormal magnetic field you{CLEAR}sense to the way it’s supposed to be!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 185,
+   "zh": "小磁怪,听你这兴奋的叫声,{NEWLINE}是成功了对吗？",
+   "en": "Magnemite, from the sound of that{NEWLINE}excited cry, you did it, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 186,
+   "zh": "成功了伙伴们！{NEWLINE}乱石阵的空间异常解除了！",
+   "en": "We did it, everyone! The spatial{NEWLINE}anomaly in the rock maze is gone!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 187,
+   "zh": "是吗……看起来没有什么变化啊。",
+   "en": "Really...? It doesn’t{NEWLINE}look any different.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 188,
+   "zh": "哎呀,这种事试试不就知道了嘛。",
+   "en": "Oh, come on, we’ll{NEWLINE}know if we just try it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 189,
+   "zh": "兄弟们！{NEWLINE}我通过了刚才那个奇怪的地方,{CLEAR}真的可以过来了！",
+   "en": "Guys! I made it through that weird{NEWLINE}spot. You really can get across now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 190,
+   "zh": "太好了,亏我刚刚还有点绝望,{NEWLINE}看来是多虑了。",
+   "en": "Great! I was starting to lose hope{NEWLINE}there, but I worried for nothing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 191,
+   "zh": "咱们继续前进吧,{NEWLINE}造成空间混乱的源头应该就在前方,{CLEAR}那或许就是研钵山最深处的秘密。{CLEAR}是时候去揭晓它了！",
+   "en": "Let’s keep going. The source of the{NEWLINE}spatial chaos must be just ahead. That{CLEAR}might be the secret at the bottom{CLEAR}of Mt. Mortar. Time to uncover it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 192,
+   "zh": "呼……",
+   "en": "Phew...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 193,
+   "zh": "大家齐心协力、同舟共济,{NEWLINE}终于来到了研钵山的最底层,{CLEAR}这趟旅程真是太不容易了。{CLEAR}我要在这里玩个痛快再走。",
+   "en": "Everyone pulled together and{NEWLINE}helped each other, and we finally{CLEAR}made it to the bottom of Mt. Mortar.{CLEAR}What a tough journey. I’m going to{CLEAR}have a blast here before I leave.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 194,
+   "zh": "啊……这个古代雕像{NEWLINE}充满了奇妙的能量,{CLEAR}前面乱石阵的空间扭曲{CLEAR}就是受它影响而形成的。{CLEAR}它应该还有许多隐藏的秘密,{CLEAR}我要好好研究一下才行。",
+   "en": "Ah... This ancient statue is{NEWLINE}brimming with strange energy.{CLEAR}The spatial distortion in the{CLEAR}rock maze was caused by it.{SCROLL}It must hold lots more hidden{NEWLINE}secrets. I have to study it closely.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 195,
+   "zh": "如果这里一级一级的台阶,{NEWLINE}是祭祀用的神坛,{CLEAR}上面那个石头雕像{CLEAR}就是被祭祀的神吧。",
+   "en": "If these steps are an altar for{NEWLINE}worship, then that stone statue up{CLEAR}there must be the god they worshiped.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 196,
+   "zh": "眼镜兄说这里有神秘的力量,{NEWLINE}如果我在这做特训的话,{CLEAR}是不是就能吸收神秘力量{CLEAR}增强实力了啊。",
+   "en": "Four-Eyes said there’s a mysterious{NEWLINE}power here. If I do special training{CLEAR}here, do you think I can absorb the{CLEAR}mysterious power and get stronger?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "眼镜兄 → 'Four-Eyes' (the Magnemite man, presumably bespectacled)."
+  },
+  {
+   "id": 197,
+   "zh": "前面的洞穴里被发现隐藏着{NEWLINE}火箭队的秘密基地,{CLEAR}这个基地从研钵山{CLEAR}一直连通到卡吉镇,{CLEAR}规模可真够大的。",
+   "en": "A secret Team Rocket base was{NEWLINE}found hidden in the cave ahead. It{CLEAR}runs all the way from Mt. Mortar to{CLEAR}Mahogany Town. It’s seriously huge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 198,
+   "zh": "这里是大家一起探险的地方,{NEWLINE}你不要霸占好不好！",
+   "en": "This is where we all went exploring{NEWLINE}together. Don’t hog it all to yourself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 199,
+   "zh": "就是说啊,我们也是好不容易{NEWLINE}才来到这里的,{CLEAR}凭什么不让我们在这玩！",
+   "en": "Exactly! We worked hard to{NEWLINE}get here too. What gives you{CLEAR}the right to kick us out?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 200,
+   "zh": "这个女人身上散发着不祥的气息……",
+   "en": "This woman is giving{NEWLINE}off an ominous aura...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 201,
+   "zh": "管她什么气息呢,{NEWLINE}这样蛮不讲理就是不行！{CLEAR}快跟我们道歉！",
+   "en": "Who cares about her aura? Being{NEWLINE}this unreasonable just isn’t{CLEAR}OK! Apologize to us right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 202,
+   "zh": "雅典娜『真是群啰嗦的家伙,{NEWLINE}不想死就滚远点,{CLEAR}哪来那么多废话！",
+   "en": "Ariana: What a noisy bunch.{NEWLINE}If you don’t want to die, get{CLEAR}lost. Enough of your drivel!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 203,
+   "zh": "{VAR:0103:0}『雅典娜！{NEWLINE}你们果然来研钵山了。{CLEAR}坂木他人呢？{CLEAR}已经去找帕路奇亚了吗？",
+   "en": "{VAR:0103:0}: Ariana! So you did come{NEWLINE}to Mt. Mortar. Where’s Giovanni?{CLEAR}Has he already gone after Palkia?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 204,
+   "zh": "你终于来了啊,伙伴。{NEWLINE}刚刚这个女人{CLEAR}和一个穿黑色风衣的男人来到这里,{CLEAR}然后就要把我们赶出洞穴。{CLEAR}是不是很过分、很不讲理？",
+   "en": "You finally made it, partner. Just{NEWLINE}now, this woman and a man in a black{CLEAR}trench coat came here and tried{CLEAR}to kick us out of the cave. Isn’t{CLEAR}that outrageous and unreasonable?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 205,
+   "zh": "{VAR:0103:0}『那个穿黑色风衣的{NEWLINE}应该就是火箭队首领坂木,{CLEAR}这个女人则是火箭队干部雅典娜。{CLEAR}他们都是很危险的人物,{CLEAR}由我来对付就好,{CLEAR}你们先退下吧。",
+   "en": "{VAR:0103:0}: The man in the black{NEWLINE}trench coat must be Giovanni, the{CLEAR}boss of Team Rocket. This woman is{CLEAR}Ariana, a Team Rocket Executive.{SCROLL}They’re both very dangerous. Leave{NEWLINE}them to me. You all stand back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 206,
+   "zh": "什么？那个黑衣服的竟然是{NEWLINE}传说中的大坏蛋坂木！？",
+   "en": "What? That guy in black was{NEWLINE}Giovanni, the legendary big bad?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 207,
+   "zh": "难怪他们身上会发出{NEWLINE}一种让人不寒而栗的气息。",
+   "en": "No wonder they give off{NEWLINE}such a chilling aura.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 208,
+   "zh": "火、火箭队？！{NEWLINE}就是那个穷凶极恶的犯罪集团！？",
+   "en": "T-Team Rocket?! You mean{NEWLINE}that vicious criminal gang?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 209,
+   "zh": "你想独自对抗他们？{NEWLINE}太危险了,还是跟我们一起逃走吧。",
+   "en": "You want to take them on alone? That’s{NEWLINE}too dangerous. Run away with us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 210,
+   "zh": "雅典娜『哈哈哈,真是可笑呢。{NEWLINE}你拼命想保护的这群小人物,{CLEAR}却根本不认识你这个联盟冠军。",
+   "en": "Ariana: Hahaha, how ridiculous.{NEWLINE}These little nobodies you’re{CLEAR}so desperate to protect don’t even{CLEAR}recognize you, the League Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 211,
+   "zh": "{VAR:0103:0}『我只是长得{NEWLINE}不太有辨识度罢了,{CLEAR}不用你说三道四。",
+   "en": "{VAR:0103:0}: I just don’t have a very{NEWLINE}memorable face. Nobody asked you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#211 male / #212 female player reply to Ariana (黄脸婆 → 'frumpy old hag')."
+  },
+  {
+   "id": 212,
+   "zh": "{VAR:0103:0}『青春少女的造型{NEWLINE}变化可是很快的,{CLEAR}你这个黄脸婆怎么会懂！",
+   "en": "{VAR:0103:0}: A young girl’s look{NEWLINE}changes fast. What would a{CLEAR}frumpy old hag like you know?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 213,
+   "zh": "伙伴你是联盟冠军{VAR:0103:0}！？",
+   "en": "Partner, you’re League{NEWLINE}Champion {VAR:0103:0}?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 214,
+   "zh": "难怪气质与众不同。",
+   "en": "No wonder you have such{NEWLINE}a special air about you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 215,
+   "zh": "太好了,这样就不用害怕了。",
+   "en": "Great, now there’s{NEWLINE}nothing to be afraid of.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 216,
+   "zh": "哦吼！没想到能亲眼看到{NEWLINE}联盟冠军收拾火箭队。",
+   "en": "Oh-ho! I never thought I’d see{NEWLINE}the League Champion take down{CLEAR}Team Rocket with my own eyes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 217,
+   "zh": "{VAR:0103:0}『我为了阻止火箭队的阴谋{NEWLINE}而来到这里,{CLEAR}所以与火箭队战斗的事请交给我吧,{CLEAR}大家保证好自己的安全就行。",
+   "en": "{VAR:0103:0}: I came here to stop{NEWLINE}Team Rocket’s scheme. So leave{CLEAR}the fighting to me. You all{CLEAR}just make sure you stay safe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 218,
+   "zh": "确实……我们的等级差太多,{NEWLINE}就不给伙伴你添麻烦了。{CLEAR}加油,收拾掉火箭队！",
+   "en": "True... Our levels are way{NEWLINE}too far apart. We won’t get{CLEAR}in your way, partner. Go get{CLEAR}‘em, take down Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 219,
+   "zh": "加油！",
+   "en": "Go for it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 220,
+   "zh": "雅典娜『哼,再怎么群情激奋,{NEWLINE}也阻止不了我们的计划。",
+   "en": "Ariana: Hmph. No matter how fired up{NEWLINE}this crowd gets, it won’t stop our plan.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 221,
+   "zh": "{VAR:0103:0}『不试试怎么知道呢！",
+   "en": "{VAR:0103:0}: You won’t know until we try!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 222,
+   "zh": "{VAR:0103:0}『不试试怎么知道呢！",
+   "en": "{VAR:0103:0}: You won’t know until we try!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 223,
+   "zh": "雅典娜『哈……哈,打败我又怎么样,{NEWLINE}过了这么长的时间,{CLEAR}坂木老大肯定已经抓住了帕路奇亚,{CLEAR}你来的还是太迟了,哈哈哈！",
+   "en": "Ariana: Hah... hah... So what if you{NEWLINE}beat me? After all this time, Boss{CLEAR}Giovanni must have caught Palkia{CLEAR}already. You’re too late, hahaha!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 224,
+   "zh": "{VAR:0103:0}『伙伴们,火箭队的首领坂木{NEWLINE}就在洞穴的另一个空间里,{CLEAR}我现在要赶去与他战斗,{CLEAR}为了大家的安全起见,{CLEAR}请先离开这里吧。",
+   "en": "{VAR:0103:0}: Everyone, Giovanni, the{NEWLINE}boss of Team Rocket, is in another{CLEAR}part of the cave. I’m going after{CLEAR}him to battle him now. For your own{CLEAR}safety, please leave this place.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 225,
+   "zh": "战斗的事情我们帮不上忙,{NEWLINE}但我们相信身为联盟冠军的伙伴。",
+   "en": "We can’t help with the{NEWLINE}fighting, but we believe in our{CLEAR}partner, the League Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 226,
+   "zh": "请为了地区的和平击溃火箭队吧！",
+   "en": "Crush Team Rocket for the{NEWLINE}sake of peace in the region!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 227,
+   "zh": "绝不能让坏人笑到最后！",
+   "en": "Never let the bad guys{NEWLINE}have the last laugh!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 228,
+   "zh": "加油哦冠军伙伴！我们永远支持你！",
+   "en": "Go get ‘em, Champion partner!{NEWLINE}We’ll always be behind you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 229,
+   "zh": "好了,咱们不要再给伙伴添乱了,{NEWLINE}回到上层洞穴去吧。",
+   "en": "OK, let’s not cause our partner any{NEWLINE}more trouble. Back to the upper caves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 230,
+   "zh": "雕像上散发出神秘的力量！",
+   "en": "A mysterious power{NEWLINE}radiates from the statue!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 231,
+   "zh": "无论你是不是联盟冠军,{NEWLINE}你都是我们探险队的伙伴！",
+   "en": "Whether you’re the League Champion or{NEWLINE}not, you’re our expedition partner!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 232,
+   "zh": "谢谢冠军大人保护我们。{NEWLINE}正因为有您这样的人在,{CLEAR}我们才能放心地四处探险！",
+   "en": "Thank you for protecting us, Champion.{NEWLINE}It’s because people like you are around{CLEAR}that we can go exploring without worry!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 233,
+   "zh": "嘿嘿,看你身手这么帅,{NEWLINE}原来你是联盟冠军啊。",
+   "en": "Heh heh, no wonder your moves looked{NEWLINE}so cool. You’re the League Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 234,
+   "zh": "能跟冠军大人一起深入洞穴{NEWLINE}发现火箭队的阴谋,{CLEAR}对我来说也算是一段奇遇了。",
+   "en": "Getting to go deep into a cave{NEWLINE}with the Champion and uncover{CLEAR}Team Rocket’s scheme... That’s{CLEAR}quite an adventure for me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

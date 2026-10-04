@@ -1,0 +1,311 @@
+{
+ "narc": "a027",
+ "bank": 502,
+ "source": "work/extract/v4/a027/0502.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "很想要３Ｄ龙啊⋯⋯{NEWLINE}但是硬币还缺{CLEAR}１００枚啊⋯⋯",
+   "en": "I wanted Porygon, but I was short{NEWLINE}by 100 Coins...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/0; modernised from US 0509#0"
+  },
+  {
+   "id": 1,
+   "zh": "呼呜呜呜呜呜⋯⋯{SCROLL}做任何事都不要太冲动⋯⋯{SCROLL}我就是把钱全花光了,{NEWLINE}被我家老婆{CLEAR}赶出来了呢⋯⋯",
+   "en": "Whew...{SCROLL}Whatever you do, don’t act on{NEWLINE}impulse...{SCROLL}I blew all my money, and my wife threw{NEWLINE}me out of the house...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US line replaced: the zh has him already kicked out by his wife."
+  },
+  {
+   "id": 2,
+   "zh": "俺们觉醒了！{SCROLL}你问觉醒了什么？{SCROLL}俺们知道精灵{NEWLINE}在记住觉醒力量时,{SCROLL}会学会哪种{NEWLINE}类型的技能咯！厉害吧。{SCROLL}怎么样？让俺们看看{NEWLINE}你的精灵能记住{CLEAR}哪种类型的觉醒力量吧！{VAR:0200:0}",
+   "en": "I woke up and realized my potential!{SCROLL}So, what potential was woken in me?{NEWLINE}What’s my hidden power, you ask?{SCROLL}It’s a power that lets me see the{NEWLINE}Hidden Power of a Pokémon.{SCROLL}When they learn that move, I can tell{NEWLINE}what type the move will be.{SCROLL}So, want me to use my hidden power?{SCROLL}I’ll tell you what type your{NEWLINE}Pokémon’s Hidden Power will be. {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/2"
+  },
+  {
+   "id": 3,
+   "zh": "你的精灵记住了哪种类型的觉醒力量{CLEAR}让俺们看看吧！{VAR:0200:0}",
+   "en": "I’ll tell you what type your Pokémon’s{NEWLINE}Hidden Power will be.{SCROLL}My own hidden power lets me{NEWLINE}do that. {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/3"
+  },
+  {
+   "id": 4,
+   "zh": "这只精灵能记住的觉醒力量{CLEAR}类型是「{VAR:010F:0}」！",
+   "en": "If this Pokémon learned Hidden Power,{NEWLINE}the move’s type would be {VAR:010F:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "这只精灵会使用的觉醒力量是「{VAR:010F:0}」！",
+   "en": "This Pokémon’s Hidden Power is the{NEWLINE}{VAR:010F:0} type.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/5"
+  },
+  {
+   "id": 6,
+   "zh": "如果你想了解的话,{NEWLINE}就问觉醒了的俺们吧！",
+   "en": "If you want to know, ask me, and I’ll{NEWLINE}activate my hidden power for you.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/6"
+  },
+  {
+   "id": 7,
+   "zh": "蛋不能记住任何技能！",
+   "en": "Eggs can’t learn any moves!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "嗯！这只精灵记不住觉醒力量！",
+   "en": "Oh, no. This Pokémon can’t learn the{NEWLINE}move Hidden Power in the first place.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/8"
+  },
+  {
+   "id": 9,
+   "zh": "欢迎光临！{SCROLL}游戏积攒的硬币{NEWLINE}请在这里兑换成{CLEAR}你喜欢的奖品！{VAR:0200:0}",
+   "en": "Welcome!{SCROLL}We exchange your game coins for{NEWLINE}fabulous prizes! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/9"
+  },
+  {
+   "id": 10,
+   "zh": "啊,请多多{NEWLINE}积攒硬币吧！",
+   "en": "OK. Please save your coins and{NEWLINE}come again!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/10"
+  },
+  {
+   "id": 11,
+   "zh": "哎呀,硬币不够啊。{VAR:0200:0}",
+   "en": "Sorry! You need more coins. {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/11"
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0108:0}{NEWLINE}可以吗？{VAR:0200:0}",
+   "en": "{VAR:0108:0}.{NEWLINE}Is that right? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/12"
+  },
+  {
+   "id": 13,
+   "zh": "好的,给！{SCROLL}",
+   "en": "Here you go!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "你的背包已经满了啊。{SCROLL}",
+   "en": "Sorry. You can’t carry any more.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/14"
+  },
+  {
+   "id": 15,
+   "zh": "你不能携带更多的精灵了。{SCROLL}等手头空了再来吧。",
+   "en": "Your party’s full!{NEWLINE}Please make some room{CLEAR}before you come back.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/15"
+  },
+  {
+   "id": 16,
+   "zh": "是要{VAR:0100:1}吗？{VAR:0200:0}",
+   "en": "Would you like {VAR:0100:1}? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/16"
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}得到了{NEWLINE}{VAR:0100:1}！{VAR:0200:0}",
+   "en": "{VAR:0103:0} received{NEWLINE}the {VAR:0100:1}! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/17"
+  },
+  {
+   "id": 18,
+   "zh": "欢迎光临！{SCROLL}游戏积攒的硬币{NEWLINE}请在这里交换成{CLEAR}你喜欢的精灵！{VAR:0200:0}",
+   "en": "Welcome!{SCROLL}We exchange your coins for{NEWLINE}fabulous prizes! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/18"
+  },
+  {
+   "id": 19,
+   "zh": "把{VAR:0108:0}{NEWLINE}{VAR:0112:1}放进了{VAR:0200:0}口袋",
+   "en": "You put away the {VAR:0108:0}{NEWLINE}in the {VAR:0112:1} Pocket. {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/19"
+  },
+  {
+   "id": 20,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/20",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 21,
+   "zh": "技能机",
+   "en": "TECHNICAL MACHINE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Caps menu label as the US (like CANCEL / HELD ITEMS).",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 22,
+   "zh": "装备　道具",
+   "en": "HELD ITEMS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/22",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 23,
+   "zh": "挺住{NEWLINE}２０００枚",
+   "en": "Endure{NEWLINE}2,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0509/23",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 24,
+   "zh": "影分身{NEWLINE}４０００枚",
+   "en": "Double Team{NEWLINE}4,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0509/24",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 25,
+   "zh": "觉醒力量{NEWLINE}６０００枚",
+   "en": "Hidden Power{NEWLINE}6,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0509/25",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 26,
+   "zh": "精神干扰{NEWLINE}１００００枚",
+   "en": "Psychic{NEWLINE}10,000 Coins",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0509/26; modernised from US 0509#26",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 27,
+   "zh": "陀螺球{NEWLINE}１００００枚",
+   "en": "Gyro Ball{NEWLINE}10,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0509/27",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 28,
+   "zh": "终极冲击{NEWLINE}１５０００枚",
+   "en": "Giga Impact{NEWLINE}15,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0509/28",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 29,
+   "zh": "丝巾{NEWLINE}１０００枚",
+   "en": "Silk Scarf{NEWLINE}1,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0509/29",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 30,
+   "zh": "广角镜片{NEWLINE}１０００枚",
+   "en": "Wide Lens{NEWLINE}1,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0509/30",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 31,
+   "zh": "聚焦镜片{NEWLINE}１０００枚",
+   "en": "Zoom Lens{NEWLINE}1,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0509/31",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 32,
+   "zh": "节拍器{NEWLINE}１０００枚",
+   "en": "Metronome{NEWLINE}1,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0509/32",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 33,
+   "zh": "吸盘魔偶　　３３３３枚",
+   "en": "Mr. Mime, 3,333 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh aligns the price with full-width spaces (US used a cursor tag the hack removed); two lines like the other prizes. Check the menu in game. | menu width fix (follow-up 1): was 'Mr. Mime{NEWLINE}3,333 Coins'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 34,
+   "zh": "伊布　　　　６６６６枚",
+   "en": "Eevee, 6,666 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0509/34; modernised from US 0509#34 | seed rejected us [tag_mismatch] (candidate US 0509#34; text not kept) | menu width fix (follow-up 1): was 'Eevee{NEWLINE}6,666 Coins'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 35,
+   "zh": "３Ｄ龙　　　９９９９枚",
+   "en": "Porygon, 9,999 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0509/35; modernised from US 0509#35 | seed rejected us [tag_mismatch] (candidate US 0509#35; text not kept) | menu width fix (follow-up 1): was 'Porygon{NEWLINE}9,999 Coins'",
+   "category": "menu_touch_1line"
+  }
+ ]
+}

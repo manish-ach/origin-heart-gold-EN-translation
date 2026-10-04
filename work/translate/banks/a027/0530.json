@@ -1,0 +1,483 @@
+{
+ "narc": "a027",
+ "bank": 530,
+ "source": "work/extract/v4/a027/0530.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "{VAR:0100:0}{NEWLINE}钻进了马达里！{SCROLL}{VAR:0100:0}要学{NEWLINE}{VAR:0106:1}……！{SCROLL}但是{VAR:0100:0}{NEWLINE}已经学会４个技能了！{SCROLL}要为了{VAR:0106:1}{NEWLINE}忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0100:0} entered the motor.{SCROLL}{VAR:0100:0} is trying to{NEWLINE}learn {VAR:0106:1}.{SCROLL}But {VAR:0100:0} can’t learn{NEWLINE}more than four moves.{SCROLL}Delete a move to make{NEWLINE}room for {VAR:0106:1}? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0538/0"
+  },
+  {
+   "id": 1,
+   "zh": "那么要放弃{NEWLINE}学{VAR:0106:1}吗？{VAR:0200:0}",
+   "en": "Give up on learning the move{NEWLINE}{VAR:0106:1}? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0538/1"
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0100:0}没有{NEWLINE}学会{VAR:0106:1}！{SCROLL}{VAR:0100:0}{NEWLINE}从马达里出来了！",
+   "en": "{VAR:0100:0} did not learn{NEWLINE}{VAR:0106:1}.{SCROLL}{VAR:0100:0} emerged from the motor.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0538/2"
+  },
+  {
+   "id": 3,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "The move {VAR:0106:1} will be{NEWLINE}forgotten. Is that OK? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0538/3"
+  },
+  {
+   "id": 4,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}　完成！",
+   "en": "1,{VAR:0201:20} 2,{VAR:0201:20} and...{VAR:0201:20} ...{VAR:0201:20} Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0538/4; qa-lints: unified with identical zh elsewhere (zh_variant)"
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:0101:0}忘记了{VAR:0106:1}的{NEWLINE}用法！{SCROLL}并且……！",
+   "en": "{VAR:0101:0} forgot how to use{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0101:0}学会了{NEWLINE}{VAR:0106:1}！",
+   "en": "{VAR:0101:0} learned{NEWLINE}{VAR:0106:1}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0538/6"
+  },
+  {
+   "id": 7,
+   "zh": "选择哪个洛托姆？{SCROLL}",
+   "en": "Which Rotom are you choosing?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0538/7; modernised from US 0538#7"
+  },
+  {
+   "id": 8,
+   "zh": "蛋不能放进马达里。",
+   "en": "An Egg can’t go into the motor.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "那个精灵{NEWLINE}不能放进马达里。",
+   "en": "That Pokémon can’t go into the motor.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0100:0}{NEWLINE}钻进了马达里！{SCROLL}",
+   "en": "{VAR:0100:0} entered the motor!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0100:0}{NEWLINE}从马达里出来了！{SCROLL}",
+   "en": "{VAR:0100:0} emerged from the motor.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0538/11"
+  },
+  {
+   "id": 12,
+   "zh": "选择哪个洛托姆{NEWLINE}回复原来的样子？{VAR:0200:0}",
+   "en": "Return which Rotom to its{NEWLINE}original form? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0538/12; modernised from US 0538#12"
+  },
+  {
+   "id": 13,
+   "zh": "哎呀？洛托姆{NEWLINE}想要回复原来的样子,{CLEAR}把它从马达里拿出来吗？{VAR:0200:0}",
+   "en": "Oh? Rotom appears as if it wants to{NEWLINE}revert to its original form.{SCROLL}Would you like to recall it from{NEWLINE}the motor? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0538/13; modernised from US 0538#13"
+  },
+  {
+   "id": 14,
+   "zh": "还原",
+   "en": "REVERT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 15,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0538/15",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 16,
+   "zh": "不",
+   "en": "NO",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 17,
+   "zh": "那个洛托姆{NEWLINE}不能进入马达。",
+   "en": "That Rotom can’t enter the motor.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "这里有装有神奇马达的{NEWLINE}家用电器！",
+   "en": "There are household appliances here{NEWLINE}fitted with mysterious motors!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0538/19",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 20,
+   "zh": "放着装有神奇马达的{NEWLINE}微波炉……",
+   "en": "A microwave oven with a mysterious{NEWLINE}motor...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "放着装有神奇马达的{NEWLINE}微波炉……{SCROLL}哎呀？洛托姆好像{NEWLINE}可以放进马达里……{SCROLL}放进马达里吗？{VAR:0200:0}",
+   "en": "A microwave oven with a mysterious{NEWLINE}motor...{SCROLL}Oh? It looks like Rotom could get into{NEWLINE}the motor...{SCROLL}Put it into the motor?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "洛托姆{NEWLINE}放弃了钻进{CLEAR}微波炉的马达……",
+   "en": "Rotom reluctantly gave up on entering{NEWLINE}the microwave oven’s motor...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0538/22; modernised from US 0538#22"
+  },
+  {
+   "id": 23,
+   "zh": "放着装有神奇马达的{NEWLINE}冰箱……",
+   "en": "A refrigerator with a mysterious{NEWLINE}motor...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "放着装有神奇马达的{NEWLINE}冰箱……{SCROLL}哎呀？洛托姆好像{NEWLINE}可以放进马达里……{SCROLL}放进马达里吗？？{VAR:0200:0}",
+   "en": "A refrigerator with a mysterious{NEWLINE}motor...{SCROLL}Oh? It looks like Rotom could get into{NEWLINE}the motor...{SCROLL}Put it into the motor??{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "洛托姆{NEWLINE}放弃了钻进{CLEAR}冰箱的马达……",
+   "en": "Rotom reluctantly gave up on entering{NEWLINE}the refrigerator’s motor...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0538/25; modernised from US 0538#25"
+  },
+  {
+   "id": 26,
+   "zh": "放着装有神奇马达的{NEWLINE}洗衣机……",
+   "en": "A washing machine with a mysterious{NEWLINE}motor...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "放着装有神奇马达的{NEWLINE}洗衣机……{SCROLL}哎呀？洛托姆好像{NEWLINE}可以放进马达里……{SCROLL}放进马达里吗？{VAR:0200:0}",
+   "en": "A washing machine with a mysterious{NEWLINE}motor...{SCROLL}Oh? It looks like Rotom could get into{NEWLINE}the motor...{SCROLL}Put it into the motor?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "洛托姆{NEWLINE}放弃了钻进{CLEAR}洗衣机的马达……",
+   "en": "Rotom reluctantly gave up on entering{NEWLINE}the washing machine’s motor...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0538/28; modernised from US 0538#28"
+  },
+  {
+   "id": 29,
+   "zh": "放着装有神奇马达的{NEWLINE}电风扇……",
+   "en": "An electric fan with a mysterious{NEWLINE}motor...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "放着装有神奇马达的{NEWLINE}电风扇……{SCROLL}哎呀？洛托姆好像{NEWLINE}可以放进马达里……{SCROLL}放进马达里吗？{VAR:0200:0}",
+   "en": "An electric fan with a mysterious{NEWLINE}motor...{SCROLL}Oh? It looks like Rotom could get into{NEWLINE}the motor...{SCROLL}Put it into the motor?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "洛托姆{NEWLINE}放弃了钻进{CLEAR}电风扇的马达……",
+   "en": "Rotom reluctantly gave up on entering{NEWLINE}the rotary fan’s motor...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0538/31; modernised from US 0538#31"
+  },
+  {
+   "id": 32,
+   "zh": "放着装有神奇马达的{NEWLINE}割草机……",
+   "en": "A lawn mower with a mysterious motor...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "放着装有神奇马达的{NEWLINE}割草机……{SCROLL}哎呀？洛托姆好像{NEWLINE}可以放进马达里……{SCROLL}放进马达里吗？{VAR:0200:0}",
+   "en": "A lawn mower with a mysterious motor...{SCROLL}Oh? It looks like Rotom could get into{NEWLINE}the motor...{SCROLL}Put it into the motor?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "洛托姆{NEWLINE}放弃了钻进{CLEAR}割草机的马达……",
+   "en": "Rotom reluctantly gave up on entering{NEWLINE}the lawn mower’s motor...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0538/34; modernised from US 0538#34"
+  },
+  {
+   "id": 35,
+   "zh": "不知是什么时候写的{NEWLINE}可疑的笔记……{SCROLL}在某个地方偶然间{NEWLINE}得到了特殊的马达,{SCROLL}输入了精灵　托姆的情报。{SCROLL}现在所弄清的是{NEWLINE}钻进马达的洛托姆{SCROLL}若进入联机房间,{NEWLINE}ＷｉーＦｉ俱乐部{SCROLL}或者寄养给养育屋的话,{NEWLINE}就会从马达里跑出来,{CLEAR}还有可能忘记技能。{SCROLL}总有一天会仔细研究的,{NEWLINE}为了把这作为我个人成果,{CLEAR}将与洛托姆相关的{CLEAR}一切都隐藏起来。{SCROLL}后面全都空白的……",
+   "en": "A suspicious note. Who knows when it was{NEWLINE}written...{SCROLL}By chance, I obtained special motors{NEWLINE}somewhere,{SCROLL}and input data on the Pokémon Rotom.{SCROLL}So far, I have learned that a Rotom{NEWLINE}that has entered a motor{SCROLL}will come out of it if it enters a link{NEWLINE}room or the Wi-Fi Club,{SCROLL}or if it is left at the Day Care. It may{NEWLINE}also forget a move.{SCROLL}Someday I will study this in detail. To{NEWLINE}keep this as my own achievement, I will{CLEAR}hide everything related to Rotom.{SCROLL}The rest is all blank...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh keeps the vanilla typo 精灵　托姆 for Rotom"
+  },
+  {
+   "id": 36,
+   "zh": "放着装有神奇马达的{NEWLINE}微波炉……{SCROLL}哎呀？洛托姆好像{NEWLINE}可以放进马达里……{SCROLL}放进马达里吗？",
+   "en": "A microwave oven with a mysterious{NEWLINE}motor...{SCROLL}Oh? It looks like Rotom could get into{NEWLINE}the motor...{SCROLL}Put it into the motor?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "放着装有神奇马达的{NEWLINE}电风扇……{SCROLL}哎呀？洛托姆好像{NEWLINE}可以放进马达里……{SCROLL}放进马达里吗？",
+   "en": "An electric fan with a mysterious{NEWLINE}motor...{SCROLL}Oh? It looks like Rotom could get into{NEWLINE}the motor...{SCROLL}Put it into the motor?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "放着装有神奇马达的{NEWLINE}冰箱……{SCROLL}哎呀？洛托姆好像{NEWLINE}可以放进马达里……{SCROLL}放进马达里吗？？",
+   "en": "A refrigerator with a mysterious{NEWLINE}motor...{SCROLL}Oh? It looks like Rotom could get into{NEWLINE}the motor...{SCROLL}Put it into the motor??",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "放着装有神奇马达的{NEWLINE}洗衣机……{SCROLL}哎呀？洛托姆好像{NEWLINE}可以放进马达里……{SCROLL}放进马达里吗？",
+   "en": "A washing machine with a mysterious{NEWLINE}motor...{SCROLL}Oh? It looks like Rotom could get into{NEWLINE}the motor...{SCROLL}Put it into the motor?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "放着装有神奇马达的{NEWLINE}割草机……{SCROLL}哎呀？洛托姆好像{NEWLINE}可以放进马达里……{SCROLL}放进马达里吗？",
+   "en": "A lawn mower with a mysterious motor...{SCROLL}Oh? It looks like Rotom could get into{NEWLINE}the motor...{SCROLL}Put it into the motor?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "洛托姆{NEWLINE}钻进了马达里！",
+   "en": "Rotom entered the motor!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "哎呀？洛托姆{NEWLINE}想要回复原来的样子,{CLEAR}把它从马达里拿出来吗？{VAR:0200:0}",
+   "en": "Oh? Rotom seems to want to return to{NEWLINE}its original form. Take it out of the{CLEAR}motor?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "洛托姆{NEWLINE}从马达里出来了！",
+   "en": "Rotom came out of the motor!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "这里是西鲁夫公司的机房,{NEWLINE}我正在检查公司网络设备的运行情况。",
+   "en": "This is Silph Co.’s server room. I’m{NEWLINE}checking that the company’s network{CLEAR}equipment is running properly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "从我面前的这台机器上可以看到{NEWLINE}公司电梯当前的运行状态哦。",
+   "en": "From this machine in front of me, you{NEWLINE}can see the current status of the{CLEAR}company elevator.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "当前电梯运行状态一切正常。",
+   "en": "The elevator is currently operating{NEWLINE}normally.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "火箭队逼迫我{NEWLINE}修改了电梯的运行模式,{CLEAR}我这么做也是无奈啊。",
+   "en": "Team Rocket forced me to change the{NEWLINE}elevator’s operating mode. I had no{CLEAR}choice but to do it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "只要我们火箭队还在这里,{NEWLINE}这个怂逼就一定不敢{CLEAR}修改回正常的电梯模式！",
+   "en": "As long as Team Rocket is here, this{NEWLINE}chickenshit won’t dare switch the{CLEAR}elevator back to normal!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "想问电梯为什么不正常？{NEWLINE}当然是我们火箭队{CLEAR}逼着这个怂逼修改了模式啊。",
+   "en": "Wondering why the elevator’s acting up?{NEWLINE}Because Team Rocket made this{CLEAR}chickenshit change the mode, of course.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "敢乱碰机房里东西,{NEWLINE}当心整栋大楼的设备停摆哦。",
+   "en": "Mess with anything in the server room,{NEWLINE}and every machine in the building might{CLEAR}shut down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "不惜把机房搞的一团糟{NEWLINE}也要跟我战斗吗？",
+   "en": "You’d battle me even if it trashes the{NEWLINE}server room?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "这次行动出动的队员{NEWLINE}可比彩虹市基地的人多得多,{CLEAR}而且我们的老大也来了。{CLEAR}你胆敢来这里就是找死！",
+   "en": "We brought way more members on this{NEWLINE}operation than at the Celadon City{CLEAR}base. And our boss is here too. Coming{CLEAR}here is suicide!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "我认得你,你带着一大伙人{NEWLINE}冲进我们彩虹市基地捣乱来着吧？{CLEAR}这次你独自来挑战我们火箭队,{CLEAR}休想讨到任何便宜！",
+   "en": "I know you! You’re the one who charged{NEWLINE}into our Celadon City base with a whole{CLEAR}crowd, aren’t you? This time you’re{CLEAR}taking on Team Rocket alone. You won’t{CLEAR}get off so easy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "我正觉得站岗无聊呢,{NEWLINE}你就跑来送死了！",
+   "en": "I was just getting bored standing{NEWLINE}guard, and here you come, asking to{CLEAR}die!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "切,输掉的战斗真是无聊。",
+   "en": "Tch. Losing battles is so boring.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "电梯现在开启了限制停靠功能。",
+   "en": "The elevator is currently running in{NEWLINE}restricted-stop mode.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "多亏有你,{NEWLINE}西鲁夫公司才能恢复正常。",
+   "en": "Thanks to you, Silph Co. is back to{NEWLINE}normal.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "这块地板上发出淡淡的光,{NEWLINE}好像可以通往另一个地方。",
+   "en": "The floor here is giving off a faint glow.{NEWLINE}It looks like it could take you{CLEAR}somewhere else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0459#13"
+  }
+ ]
+}

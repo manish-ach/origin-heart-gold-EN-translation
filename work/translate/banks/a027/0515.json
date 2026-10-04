@@ -1,0 +1,351 @@
+{
+ "narc": "a027",
+ "bank": 515,
+ "source": "work/extract/v4/a027/0515.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "科拿『通过在关东地区旅行,{NEWLINE}你已经变强了很多呢。{CLEAR}选一个与我对战的方式,{CLEAR}检验一下自己的成长吧！{SCROLL}",
+   "en": "Lorelei: Traveling through Kanto has{NEWLINE}made you much stronger.{SCROLL}Choose how you’d like to battle me, and{NEWLINE}let’s test how much you’ve grown!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "League branch: #0–17 are the Elite Four rematch/training lines (Lorelei's room). Rocket-occupation branch: #18–41 (Archie and Charon); #18–32 = ‘take turns’ path, #33–37 = ‘both at once’ path."
+  },
+  {
+   "id": 1,
+   "zh": "科拿『又来联盟总部训练吗？{NEWLINE}那我就陪你玩玩好了。{SCROLL}科拿『你这次想单打还是双打呢？{SCROLL}",
+   "en": "Lorelei: Back at League HQ to train{NEWLINE}again? Then I’ll play with you for a bit.{SCROLL}Lorelei: Singles or doubles this time?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "科拿『哎呀,感觉你又变强了呢。",
+   "en": "Lorelei: My, I can feel you’ve grown{NEWLINE}stronger again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "全地区的观众{NEWLINE}都会通过我的摄像机看到你的英姿哟！",
+   "en": "Viewers across the region will see your{NEWLINE}finest moments through my camera!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "需要我帮您恢复精灵吗？{SCROLL}",
+   "en": "Shall I heal your Pokémon?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "您的精灵已经恢复了。",
+   "en": "Your Pokémon are fully healed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "您好{VAR:0103:0}大人,{NEWLINE}请问您是要恢复精灵{CLEAR}还是前往下一个房间？{SCROLL}",
+   "en": "Hello, {VAR:0103:0}.{SCROLL}Would you like me to heal your Pokémon,{NEWLINE}or will you go on to the next room?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 8,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 9,
+   "zh": "科拿『嗯哼,来吧！",
+   "en": "Lorelei: Mm-hmm. Bring it on!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "恢复精灵",
+   "en": "Heal Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 11,
+   "zh": "前往下一个房间",
+   "en": "Go to the next room",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 13,
+   "zh": "好的,我现在为您恢复。",
+   "en": "Certainly. I’ll heal them now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "好的,我现在为您开门。",
+   "en": "Certainly. I’ll open the door for you{NEWLINE}now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 16,
+   "zh": "门已经开了,您随时可以通过。",
+   "en": "The door is open. You may go through{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "你的精灵数量不够,{NEWLINE}无法进行双打。",
+   "en": "You don’t have enough Pokémon for a{NEWLINE}double battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0}『水吾桐,冥王！{NEWLINE}你们手上沾满了无数人和精灵的鲜血。{CLEAR}我今天一定要让你们{CLEAR}为自己的罪行付出代价！",
+   "en": "{VAR:0103:0}: Archie, Charon!{SCROLL}Your hands are soaked in the blood of{NEWLINE}countless people and Pokémon.{SCROLL}Today I’m going to make you pay for{NEWLINE}your crimes!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "水吾桐『哈哈哈,就凭你还想审判我们？{NEWLINE}我已经掌握了盖欧卡的力量,{CLEAR}现在没有人能够审判我,{CLEAR}没、有、人！",
+   "en": "Archie: Hah hah hah, you think you can{NEWLINE}judge us?{SCROLL}I hold Kyogre’s power now. No one can{NEWLINE}judge me. No. One!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "冥王『之前在外面被你们打败{NEWLINE}是因为我精灵没带够,{CLEAR}有点措手不及。{CLEAR}我不会再犯同样的错误了,{CLEAR}所以你在这里没有任何胜算。",
+   "en": "Charon: When you beat us outside{NEWLINE}before, it was only because I hadn’t{CLEAR}brought enough Pokémon and was caught{CLEAR}off guard.{SCROLL}I won’t make the same mistake twice, so{NEWLINE}you have no chance of winning here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "我会用行动告诉你有没有胜算",
+   "en": "Let my battling do the talking",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 22,
+   "zh": "手下败将,你们两个一起上吧",
+   "en": "You losers, come at me together",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 23,
+   "zh": "{VAR:0103:0}『少在那里自以为是,{NEWLINE}跟我比试一下就知道{CLEAR}是谁没有胜算了。",
+   "en": "{VAR:0103:0}: Quit being so full of{NEWLINE}yourselves.{SCROLL}Battle me, and we’ll see who has no{NEWLINE}chance.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "冥王『求之不得,你这个联盟冠军{NEWLINE}一定会成为我手中绝佳的研究素材！",
+   "en": "Charon: With pleasure!{SCROLL}A League Champion will make superb{NEWLINE}research material!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "冥王『骑拉帝纳,你的反转之力呢？{NEWLINE}快把伤害反弹回去啊……！",
+   "en": "Charon: Giratina, where’s your power of{NEWLINE}reversal?{SCROLL}Reflect the damage back, now...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "骑拉帝纳『Giii……！",
+   "en": "Giratina: Giii...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "冥王『不！骑拉帝纳！",
+   "en": "Charon: No! Giratina!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "水吾桐『骑拉帝纳在山洞布置陷阱{NEWLINE}已经出了不少力,{CLEAR}现在没有力气也很正常。{CLEAR}看我用体力充沛的盖欧卡,{CLEAR}让这个该死之人淹没在永恒的暴雨中！",
+   "en": "Archie: Giratina used up a lot of its{NEWLINE}strength setting traps in the cave.{SCROLL}No wonder it’s spent now.{SCROLL}Watch me use Kyogre, still full of{NEWLINE}energy, to drown this damned brat in an{CLEAR}eternal downpour!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "盖欧卡『Kyyy……！",
+   "en": "Kyogre: Kyyy...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "水吾桐『不可能……{NEWLINE}连水之化身的盖欧卡都……！",
+   "en": "Archie: Impossible... Even Kyogre, the{NEWLINE}embodiment of water...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0103:0}『胜负已分。{NEWLINE}今后你们这种毫不尊重生命的人,{CLEAR}不会再有机会指挥精灵了。",
+   "en": "{VAR:0103:0}: It’s decided.{SCROLL}From now on, people like you who have no{NEWLINE}respect for life will never get to{CLEAR}command Pokémon again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "万岁！冠军大人赢了！{NEWLINE}噢噢噢！打败火箭队了！",
+   "en": "Hooray! The Champion won! Whoa-oh-oh!{NEWLINE}Team Rocket’s beaten!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0103:0}『你这个手下败将{NEWLINE}就只会说大话。{CLEAR}这次你们两个一起上吧,{CLEAR}不要输了又找借口。",
+   "en": "{VAR:0103:0}: You lost to me before, and all{NEWLINE}you can do is talk big.{SCROLL}This time, take me on together, both of{NEWLINE}you. And no excuses when you lose.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "冥王『哼,想要一对二？自寻死路！",
+   "en": "Charon: Hmph, one against two? You’re{NEWLINE}asking to die!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "水吾桐『让你看看盖欧卡{NEWLINE}永恒之雨的恐怖！",
+   "en": "Archie: Behold the terror of Kyogre’s{NEWLINE}eternal rain!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "水吾桐『我是注定要成为{NEWLINE}人上人的精英训练家,{CLEAR}我不会认输的！",
+   "en": "Archie: I’m an Ace Trainer destined to{NEWLINE}rise above everyone else!{SCROLL}I refuse to admit defeat!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-020"
+  },
+  {
+   "id": 37,
+   "zh": "冥王『火箭队几十年来的苦心经营,{NEWLINE}难道要毁在你手上吗……",
+   "en": "Charon: Decades of Team Rocket’s{NEWLINE}painstaking work... ruined by you...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "冠军大人,你就是我心目中的大英雄！",
+   "en": "Champion, you’re my greatest hero!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "我都以为自己要完蛋了,{NEWLINE}幸好冠军大人您及时赶来。",
+   "en": "I thought I was done for.{SCROLL}Thank goodness you got here in time,{NEWLINE}Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "如果精灵联盟的研究成果{NEWLINE}被火箭队抢走,{CLEAR}那将又是一场浩劫。{CLEAR}所以请冠军大人一定要消灭火箭队啊！",
+   "en": "If Team Rocket steals the League’s{NEWLINE}research, it’ll be another catastrophe.{SCROLL}So please, Champion, you have to wipe{NEWLINE}out Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "我用来给精灵回复的装置和药品{NEWLINE}都被火箭队抢走了,{CLEAR}所以现在没有办法为您回复精灵,{CLEAR}对不起,冠军大人。",
+   "en": "Team Rocket took the equipment and{NEWLINE}medicine I use to heal Pokémon, so I{CLEAR}can’t heal your Pokémon right now.{SCROLL}I’m sorry, Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

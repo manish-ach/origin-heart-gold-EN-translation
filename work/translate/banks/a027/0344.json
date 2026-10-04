@@ -1,0 +1,791 @@
+{
+ "narc": "a027",
+ "bank": 344,
+ "source": "work/extract/v4/a027/0344.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "你知道世界上最可爱的{NEWLINE}精灵是什么吗？{CLEAR}当然是吉利蛋啦！{CLEAR}一定是吉利蛋啦！{SCROLL}",
+   "en": "Do you know which is the cutest Pokémon{NEWLINE}in the world?{CLEAR}It’s Chansey, of course!{CLEAR}I say Chansey, and that’s final!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0351/0; modernised from US 0351#0"
+  },
+  {
+   "id": 1,
+   "zh": "要是能带吉利蛋来,{NEWLINE}会给你个好东西哦！",
+   "en": "I will give you something good{NEWLINE}if you can bring me a Chansey!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0351/1; modernised from US 0351#1"
+  },
+  {
+   "id": 2,
+   "zh": "那个是……吉利蛋！{SCROLL}呀！能看到{NEWLINE}这么小的吉利蛋{CLEAR}我超走运！{SCROLL}作为谢礼,这个送你吧！{SCROLL}",
+   "en": "That’s... a Chansey!{SCROLL}Wow! Seeing a Chansey this tiny? I’m so{NEWLINE}lucky!{SCROLL}Take this as thanks!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "retranslated: zh says a *tiny* Chansey"
+  },
+  {
+   "id": 3,
+   "zh": "把这个幸运拳套{NEWLINE}给吉利蛋带着的话,{CLEAR}技能会容易命中要害哦！{SCROLL}不错吧？",
+   "en": "If a Chansey holds this Lucky Punch, its{NEWLINE}moves land critical hits more easily!{SCROLL}Pretty neat, huh?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "retranslated from zh; was: US 0351/3; modernised from US 0351#3"
+  },
+  {
+   "id": 4,
+   "zh": "吉利蛋~！",
+   "en": "Chansey~!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "retranslated from zh; was: US 0351/4; modernised from US 0351#4"
+  },
+  {
+   "id": 5,
+   "zh": "你知道世界上最可爱的{NEWLINE}精灵是什么吗？{CLEAR}当然是吉利蛋啦！{CLEAR}这不肯定是吉利蛋嘛！",
+   "en": "Do you know the cutest Pokémon in the{NEWLINE}whole world? It’s Chansey, of course!{CLEAR}Chansey, no question about it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "retranslated from zh; was: US 0351/5; modernised from US 0351#5"
+  },
+  {
+   "id": 6,
+   "zh": "参加第四阶段比赛的地方不在这里,{NEWLINE}还是快点去比赛吧。",
+   "en": "Stage 4 isn’t held here. Hurry on over{NEWLINE}to the race!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "您好,请到这边来。",
+   "en": "Hello! This way, please.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "欢迎3位优秀的选手{NEWLINE}来到我们对战马拉松的最后舞台,{CLEAR}诸位在本阶段的比赛中{CLEAR}需要先击败我们的工作人员,{CLEAR}再尽全力冲向终点。{SCROLL}为了提升比赛的激烈程度,{NEWLINE}诸位在本阶段可以通过战斗互相干扰。{CLEAR}请合理地利用规则争取胜利吧！",
+   "en": "Welcome, our three outstanding{NEWLINE}contestants, to the final stage of the{CLEAR}battle marathon! In this stage, you{CLEAR}must first defeat one of our staff{CLEAR}members, then race for the finish line{CLEAR}with everything you’ve got.{SCROLL}To make things even more heated, you{NEWLINE}may battle to get in each other’s way in{CLEAR}this stage. Use the rules wisely and{CLEAR}fight for victory!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "现在我宣布,{NEWLINE}海角对战马拉松第四阶段比赛——{SCROLL}现在开始！",
+   "en": "I hereby declare Stage 4 of the Cape{NEWLINE}Battle Marathon...{SCROLL}Open!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "富子『{VAR:0103:0},{NEWLINE}这次是我比较快了哦！",
+   "en": "Lara: {VAR:0103:0}, looks like I’m faster{NEWLINE}this time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 11,
+   "zh": "你好,我是本次比赛{NEWLINE}负责与你对战的训练家,{CLEAR}战胜我你就可以直奔终点了。",
+   "en": "Hello! I’m the Trainer who’ll be battling{NEWLINE}you in this race. Beat me, and you can{CLEAR}head straight for the finish line.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:FF01:200}臭丫头给我站住！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Stop, you brat!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "SIZE-200% line (Jessie yelling at Tomiko); kept short to fit at 2x."
+  },
+  {
+   "id": 13,
+   "zh": "富子『好疼啊……",
+   "en": "Lara: Oww...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 14,
+   "zh": "富子『你不是刚才的无桑选手吗？{NEWLINE}为什么要来干扰我们比赛！",
+   "en": "Lara: Aren’t you the contestant{NEWLINE}Jessa from earlier? Why are you messing{CLEAR}with our race?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "无桑 = Jessie's contestant alias (pun on Musashi); rendered Jessa (see 0345 #37). | [D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 15,
+   "zh": "既然你诚心诚意地发问了,",
+   "en": "Prepare for trouble!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 16,
+   "zh": "小次郎『我们就大发慈悲地告诉你。",
+   "en": "James: Make it double!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 17,
+   "zh": "为了防止世界被破坏,",
+   "en": "To protect the world from devastation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 18,
+   "zh": "小次郎『为了守护世界的和平。",
+   "en": "James: To unite all peoples within{NEWLINE}our nation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 19,
+   "zh": "贯彻爱与真实的邪恶,",
+   "en": "To denounce the evils of truth{NEWLINE}and love!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 20,
+   "zh": "小次郎『可爱又迷人的反派角色。",
+   "en": "James: To extend our reach to the{NEWLINE}stars above!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 21,
+   "zh": "武藏『武藏！",
+   "en": "Jessie: Jessie!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "retranslated from zh; was: v3 TM: 1 source(s)"
+  },
+  {
+   "id": 22,
+   "zh": "小次郎『小次郎！",
+   "en": "James: James!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "retranslated from zh; was: v3 TM: 1 source(s)"
+  },
+  {
+   "id": 23,
+   "zh": "武藏『我们是穿梭在银河的火箭队,",
+   "en": "Jessie: Team Rocket, blast off at the{NEWLINE}speed of light!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 24,
+   "zh": "小次郎『白洞,白色的明天在等着我们！",
+   "en": "James: Surrender now, or prepare{NEWLINE}to fight!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 25,
+   "zh": "喵喵『就是这样喵！",
+   "en": "Meowth: Meowth! That’s right!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 26,
+   "zh": "富子『你们就是最近{NEWLINE}做了很多坏事的火箭队！？",
+   "en": "Lara: So you’re the Team Rocket that’s{NEWLINE}been doing all those bad things lately?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 27,
+   "zh": "武藏『什么叫做了很多坏事？{NEWLINE}你害我被淘汰拿不到奖品,{CLEAR}才是做了天大的坏事！",
+   "en": "Jessie: What do you mean, ‘all those bad{NEWLINE}things’? You got me knocked out so I{CLEAR}can’t win the prize! Now THAT’S a{CLEAR}terrible thing to do!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "小次郎『虽说武藏实力不行,{NEWLINE}本来也不太可能拿奖。{CLEAR}但是敢淘汰我们就是你的不对！",
+   "en": "James: Granted, Jessie’s not much of a{NEWLINE}battler, so she was never likely to win{CLEAR}anything anyway. But knocking us out is{CLEAR}still your fault!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "武藏『说谁实力不行呢！{NEWLINE}好好管住你的嘴！",
+   "en": "Jessie: Who are you calling not much of{NEWLINE}a battler?! Watch your mouth!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "小次郎『啊,我……哪里说错了吗？",
+   "en": "James: Huh? Did I... say something{NEWLINE}wrong?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "武藏『算了,先干正事。",
+   "en": "Jessie: Forget it. Business first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "武藏『既然我拿不到奖,{NEWLINE}那谁也别想拿奖。{CLEAR}我要让你们全部因伤退赛！",
+   "en": "Jessie: If I can’t win the prize, nobody{NEWLINE}gets it! I’ll make every last one of you{CLEAR}drop out injured!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0103:0}『又是你们几个在做坏事！",
+   "en": "{VAR:0103:0}: You lot are up to no good{NEWLINE}again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "{VAR:0103:0}『我说你们就不能老实点吗？",
+   "en": "{VAR:0103:0}: Can’t you ever just behave?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "武藏『我早就看到你了臭小鬼,{NEWLINE}哪里哪里都有你,真是太碍眼了！",
+   "en": "Jessie: I spotted you ages ago, you{NEWLINE}rotten brat. You’re everywhere we go.{CLEAR}What an eyesore!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "武藏『可恶啊,{NEWLINE}小次郎喵喵,你们上！",
+   "en": "Jessie: Grr! James, Meowth, get ’em!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "喵喵『小次郎,就靠你了喵！",
+   "en": "Meowth: James, it’s all on you, meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "小次郎『少废话,{NEWLINE}你也给我一起上啊！",
+   "en": "James: Cut the chatter and get in there{NEWLINE}with me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "小次郎『咳咳,小鬼头,{NEWLINE}专挑你这种疲惫的人下手,{CLEAR}就是我们火箭队的作风！",
+   "en": "James: Ahem. Picking on people when{NEWLINE}they’re worn out, kiddo? That’s the{CLEAR}Team Rocket way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "小次郎『啊,我的精灵也全败了……",
+   "en": "James: Ah, my Pokémon are all beaten{NEWLINE}too...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "武藏『这个小鬼真是咱们的扫把星！",
+   "en": "Jessie: This brat is our walking curse!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "喵喵『情况不妙,先撤退吧喵。",
+   "en": "Meowth: This ain’t lookin’ good. Let’s{NEWLINE}scram, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "武藏、小次郎、喵喵『好讨厌的感觉！",
+   "en": "Jessie, James & Meowth: Looks like Team{NEWLINE}Rocket’s blasting off again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0103:0}『走吧,富子。{NEWLINE}咱们继续比赛吧。",
+   "en": "{VAR:0103:0}: Let’s go, Lara. Let’s get{NEWLINE}back to the race.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 45,
+   "zh": "富子『对不起,{VAR:0103:0}……{NEWLINE}我刚刚好像扭到了脚,{CLEAR}暂时没有办法继续比赛了。{SCROLL}富子『终点就在眼前,{NEWLINE}你快去吧！",
+   "en": "Lara: I’m sorry, {VAR:0103:0}... I think I{NEWLINE}just twisted my ankle. I can’t keep{CLEAR}racing for now.{SCROLL}Lara: The finish line’s right there. Go{NEWLINE}on ahead!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 46,
+   "zh": "喂,那边那个人,{NEWLINE}谢谢你帮我打退了火箭队啊。{CLEAR}不过比赛场上就是要倾尽全力,{CLEAR}你们要是慢慢吞吞不走的话,{CLEAR}我可要去拿冠军了！",
+   "en": "Hey, you over there! Thanks for{NEWLINE}fighting off Team Rocket. But a race is{CLEAR}a race, and you give it everything. If{CLEAR}you two keep dawdling, I’m taking the{CLEAR}championship!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "{VAR:0103:0}『可是你的脚……",
+   "en": "{VAR:0103:0}: But your ankle...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "富子『{VAR:0103:0},别犹豫了,快去！{NEWLINE}就当是替我努力了,快走！",
+   "en": "Lara: {VAR:0103:0}, don’t hesitate. Go! Do{NEWLINE}your best for me too. Hurry!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0103:0}『好！",
+   "en": "{VAR:0103:0}: Right!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "才不会让你追上我！",
+   "en": "I won’t let you catch up with me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "看招！",
+   "en": "Take this!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "呼……呼……,我服了,{NEWLINE}我已经没有力气再继续跑了,{CLEAR}你冲线吧！",
+   "en": "Huff... Huff... I give up. I’m out of{NEWLINE}steam. Go cross the line!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "哈哈,本次比赛的冠军诞生了！{NEWLINE}是一位很有精神的小伙子啊。{CLEAR}咱们再等一下其他选手。",
+   "en": "Ha ha! We have a champion! What a{NEWLINE}spirited young man. Let’s wait a moment{CLEAR}for the other contestants.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "branch: male player wins (#53) / female player wins (#55)"
+  },
+  {
+   "id": 54,
+   "zh": "好的,第二位选手也到达了终点。{NEWLINE}虽然有些疲惫但却坚持到了最后。{CLEAR}还有一位选手在哪里呢？",
+   "en": "Very good, our second contestant has{NEWLINE}crossed the finish line too. Exhausted,{CLEAR}but determined to the very end. Now,{CLEAR}where’s our last contestant?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "哈哈,本次比赛的冠军诞生了！{NEWLINE}是一位很有精神的小姑娘啊。{CLEAR}咱们再等一下其他选手。",
+   "en": "Ha ha! We have a champion! What a{NEWLINE}spirited young lady. Let’s wait a moment{CLEAR}for the other contestants.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "哦哦哦哦哦！{NEWLINE}最后一名选手看起来脚上有伤,{CLEAR}但她仍然顽强地完成了比赛！{CLEAR}这种拼搏坚持不放弃的精神,{CLEAR}正是对战马拉松比赛所想要传达的！",
+   "en": "Ooh-ooh-ooh-ooh! Our final contestant{NEWLINE}seems to have an injured foot, but{CLEAR}she’s finished the race anyway! That{CLEAR}spirit of pushing on and never giving up{CLEAR}is exactly what the battle marathon is{CLEAR}all about!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "富子『嘿嘿,我也到终点了！",
+   "en": "Lara: Heh heh, I made it to the finish{NEWLINE}too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 58,
+   "zh": "现在我要宣布比赛结果了,{NEWLINE}获得本次对战马拉松比赛冠军的是——",
+   "en": "And now, the results! The champion of{NEWLINE}this battle marathon is...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "下面进入颁奖环节,{NEWLINE}授予冠军{VAR:0103:0}选手的是{CLEAR}精灵营养品大套装,请收下。",
+   "en": "Now for the award ceremony. Champion{NEWLINE}{VAR:0103:0}, please accept this Large{CLEAR}Pokémon Supplement Set.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "其他完赛选手则是营养品小套装,{NEWLINE}请收下。",
+   "en": "All other finishers receive a Small{NEWLINE}Supplement Set. Please accept it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "各位选手在本次比赛中{NEWLINE}都赛出了水平、赛出了风格,{CLEAR}以顽强不屈的斗志坚持到了最后。{CLEAR}希望你们在今后的训练家之路上{CLEAR}也能永远保持这份品质。{SCROLL}现在我宣布,{NEWLINE}本次口袋妖怪马拉松对战——",
+   "en": "Every contestant in this race showed{NEWLINE}their skill and their style, and fought{CLEAR}on to the very end with unbreakable{CLEAR}determination. May you all keep that{CLEAR}spirit on your journeys as Trainers.{SCROLL}I now declare this Pokémon battle{NEWLINE}marathon...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "富子『{VAR:0103:0},{NEWLINE}能跟你一起完赛真是太好了。{CLEAR}这次的比赛对我来说{CLEAR}可是一份难得的经历。{SCROLL}富子『这几个漂亮鳞片送给你,{NEWLINE}就当是我对你的感谢吧！",
+   "en": "Lara: {VAR:0103:0}, I’m so glad we finished{NEWLINE}the race together. This was a really{CLEAR}special experience for me.{SCROLL}Lara: Here, take these Pretty Scales{NEWLINE}as my thanks!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "漂亮鳞片 has no glossary entry; ‘Pretty Scales’ is literal (could be Prism Scale). Which item is given isn't visible. | [D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 63,
+   "zh": "来自真新镇的{VAR:0103:0}选手！",
+   "en": "Contestant {VAR:0103:0} of Pallet Town!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "branch: player wins (#63/#64) vs Dudley wins (#66–#69)"
+  },
+  {
+   "id": 64,
+   "zh": "此外顺利完赛的还有{NEWLINE}嘟利夫选手和富子选手！",
+   "en": "Also finishing the race: contestants{NEWLINE}Dudley and Lara!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 65,
+   "zh": "顺利闭幕！",
+   "en": "...closed!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "哈哈,是我赢了！{NEWLINE}你的实力也就这样嘛。{CLEAR}冠军非我莫属了！",
+   "en": "Ha ha, I win! So that’s all you’ve got?{NEWLINE}The championship is mine!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "来自浅红市的嘟利夫选手！",
+   "en": "Contestant Dudley of Fuchsia City!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "此外顺利完赛的还有{NEWLINE}{VAR:0103:0}选手和富子选手！",
+   "en": "Also finishing the race: contestants{NEWLINE}{VAR:0103:0} and Lara!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 69,
+   "zh": "下面进入颁奖环节,{NEWLINE}授予冠军嘟利夫选手的是{CLEAR}精灵营养品大套装,请收下。",
+   "en": "Now for the award ceremony. Champion{NEWLINE}Dudley, please accept this Large{CLEAR}Pokémon Supplement Set.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "富子『我的脚现在已经不那么疼了,{NEWLINE}可以跟小火马走回去了。{CLEAR}{VAR:0103:0}你以后有时间的话,{CLEAR}记得来找我玩哦。",
+   "en": "Lara: My ankle doesn’t hurt so much{NEWLINE}now. I can walk back with Ponyta.{CLEAR}{VAR:0103:0}, come visit me when you have{CLEAR}time, okay?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 71,
+   "zh": "富子『{VAR:0103:0},比赛就要开始了,{NEWLINE}快点站过来听引导员介绍规则吧。",
+   "en": "Lara: {VAR:0103:0}, the race is about to{NEWLINE}start! Come stand over here and listen{CLEAR}to the guide explain the rules.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 72,
+   "zh": "小火马『Poooo——ny！",
+   "en": "Ponyta: Poooo-ny!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "嘟嘟利『Dodo——ri！",
+   "en": "Dodrio: Dodo-ri!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "我跟朋友一起出来减肥,{NEWLINE}但是跑步这东西我完全坚持不下来啊。{CLEAR}结果就是他瘦下来了{CLEAR}我却毫无变化。{SCROLL}不过虽然我的奔跑能力比较差,{NEWLINE}但辅助能力却很强。{CLEAR}你要是能给我一个潜水球,{CLEAR}我就可以把降低命中率的{CLEAR}墨汁炮技能教给你。{SCROLL}怎么样,要学吗？{SCROLL}",
+   "en": "I came out jogging with a friend to lose{NEWLINE}weight, but I just can’t keep running.{CLEAR}In the end, he slimmed down and I didn’t{CLEAR}change one bit.{SCROLL}I may be a lousy runner, but I’m great{NEWLINE}at support. Give me a Dive Ball, and I’ll{CLEAR}teach your Pokémon Octazooka, which{CLEAR}lowers accuracy.{SCROLL}So, want to learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "大嘴鸥『Pe——li！",
+   "en": "Pelipper: Pe-li!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "你在对战马拉松中的表现实在是精彩！{NEWLINE}不仅完成了大赛规定的对战,{CLEAR}还顺手解决了闯入赛场的火箭队。{SCROLL}我也要努力锻炼,{NEWLINE}争取成为跟你一样强的训练家。",
+   "en": "You were amazing in the battle{NEWLINE}marathon! Not only did you finish every{CLEAR}battle, you dealt with the Team Rocket{CLEAR}goons who crashed the race too.{SCROLL}I’m going to train hard so I can become{NEWLINE}as strong a Trainer as you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "能在对战马拉松比赛中{NEWLINE}坚持到最后的,{CLEAR}一定是强者！",
+   "en": "Anyone who makes it to the end of the{NEWLINE}battle marathon must be tough!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "看了对战马拉松比赛中{NEWLINE}选手们的活跃表现,{CLEAR}我也跃跃欲试了。",
+   "en": "Watching everyone in action at the{NEWLINE}battle marathon has got me itching to{CLEAR}try it myself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "我为了这次马拉松比赛{NEWLINE}准备了好长时间,{CLEAR}无论如何我都要拿到冠军。",
+   "en": "I’ve been preparing for this marathon{NEWLINE}for ages. I’m winning the championship{CLEAR}no matter what.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "空 placeholder slot"
+  },
+  {
+   "id": 81,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "空 placeholder slot"
+  },
+  {
+   "id": 82,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "空 placeholder slot"
+  },
+  {
+   "id": 83,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "retranslated from zh; was: v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 84,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it, come find me{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "retranslated from zh; was: v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 85,
+   "zh": "你并没有潜水球啊,{NEWLINE}等有球了再来找我吧。",
+   "en": "You don’t have a Dive Ball. Come back{NEWLINE}when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住墨汁炮。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn{NEWLINE}Octazooka.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "retranslated from zh; was: v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 88,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会墨汁炮了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows{NEWLINE}Octazooka!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl) reused a027/0047#147 reused a027/0047#147 reused a027/0047#147"
+  },
+  {
+   "id": 90,
+   "zh": "{VAR:0101:0}学会了墨汁炮！",
+   "en": "{VAR:0101:0} learned Octazooka!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会墨汁炮了！{SCROLL}那么按照约定,{NEWLINE}1个潜水球我拿走了。",
+   "en": "There! Your {VAR:0100:0} has learned{NEWLINE}Octazooka!{SCROLL}As we agreed, I’ll take one Dive Ball.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的墨汁炮……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习墨汁炮{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn{NEWLINE}Octazooka...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn{NEWLINE}Octazooka?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl) reused a027/0047#151 reused a027/0047#151 reused a027/0047#151"
+  },
+  {
+   "id": 94,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl) reused a027/0047#147 reused a027/0047#147 reused a027/0047#147"
+  },
+  {
+   "id": 95,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl) reused a027/0047#152 reused a027/0047#152 reused a027/0047#152"
+  },
+  {
+   "id": 96,
+   "zh": "{VAR:0101:0}学会了墨汁炮！",
+   "en": "{VAR:0101:0} learned Octazooka!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "你是要放弃{NEWLINE}让它记住墨汁炮吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Octazooka?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

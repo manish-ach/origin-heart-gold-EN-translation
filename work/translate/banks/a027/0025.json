@@ -1,0 +1,782 @@
+{
+ "narc": "a027",
+ "bank": 25,
+ "source": "work/extract/v4/a027/0025.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "通关记录次数",
+   "en": "No. of times you beat the game",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "战斗塔　单人战{NEWLINE}连胜记录",
+   "en": "Battle Tower Single Battle{NEWLINE}win-streak record",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "战斗塔　双人战{NEWLINE}连胜记录",
+   "en": "Battle Tower Double Battle{NEWLINE}win-streak record",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "战斗塔　全种类战{NEWLINE}连胜记录",
+   "en": "Battle Tower Multi Battle{NEWLINE}win-streak record",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "全种类战 = the CHS name for Multi Battle (cf. Easy Chat 0284 #3); #8 and #10 are identical in zh."
+  },
+  {
+   "id": 9,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "战斗塔　全种类战{NEWLINE}连胜记录",
+   "en": "Battle Tower Multi Battle{NEWLINE}win-streak record",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "ＷｉーＦｉ战斗塔{NEWLINE}连胜记录",
+   "en": "Wi-Fi Battle Tower{NEWLINE}win-streak record",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "单人　选美大赛{NEWLINE}参加次数",
+   "en": "No. of Contests entered alone",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "与朋友一起　选美大赛{NEWLINE}参加次数",
+   "en": "No. of Contests entered with{NEWLINE}friends",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/15"
+  },
+  {
+   "id": 16,
+   "zh": "单人　选美大赛{NEWLINE}获胜次数",
+   "en": "No. of Contests won alone",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "与朋友一起　选美大赛{NEWLINE}获胜次数",
+   "en": "No. of Contests entered with{NEWLINE}friends and won",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/17"
+  },
+  {
+   "id": 18,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "让野生的精灵{NEWLINE}逃跑了的次数",
+   "en": "No. of times wild Pokémon fled",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/23"
+  },
+  {
+   "id": 24,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "种植的树果数量",
+   "en": "No. of Berries planted",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/25"
+  },
+  {
+   "id": 26,
+   "zh": "行走的步数",
+   "en": "No. of steps walked",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "与野生的精灵{NEWLINE}战斗的次数",
+   "en": "No. of times battled wild Pokémon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/27"
+  },
+  {
+   "id": 28,
+   "zh": "与训练员战斗的次数{NEWLINE}⋯通信・边境除外",
+   "en": "No. of Trainer battles excluding{NEWLINE}Union Room and Frontier",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/28"
+  },
+  {
+   "id": 29,
+   "zh": "抓到的精灵数量",
+   "en": "No. of Pokémon caught",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/29"
+  },
+  {
+   "id": 30,
+   "zh": "钓到的精灵数量",
+   "en": "No. of Pokémon caught fishing",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/30"
+  },
+  {
+   "id": 31,
+   "zh": "孵出蛋的次数",
+   "en": "No. of Eggs hatched",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "携带的精灵{NEWLINE}进化的次数",
+   "en": "No. of times own Pokémon evolved",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/32"
+  },
+  {
+   "id": 33,
+   "zh": "游戏中心的老虎机{NEWLINE}中大奖的次数",
+   "en": "No. of Game Corner slot jackpots",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "战斗塔挑战的次数",
+   "en": "No. of Battle Tower challenges",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/34"
+  },
+  {
+   "id": 35,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "ＧＴＳ交换精灵{NEWLINE}成功的次数",
+   "en": "No. of completed GTS Pokémon{NEWLINE}trades",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/39"
+  },
+  {
+   "id": 40,
+   "zh": "ＷｉーＦｉ通信对战{NEWLINE}胜利的次数",
+   "en": "No. of battles won over Nintendo{NEWLINE}Wi-Fi Connection",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/40"
+  },
+  {
+   "id": 41,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "ＷｉーＦｉ通信对战{NEWLINE}打平的次数",
+   "en": "No. of battles tied over Nintendo{NEWLINE}Wi-Fi Connection",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/42"
+  },
+  {
+   "id": 43,
+   "zh": "战斗塔{NEWLINE}胜利的次数",
+   "en": "No. of battles won at the Battle{NEWLINE}Tower",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/43"
+  },
+  {
+   "id": 44,
+   "zh": "目前为止买东西{NEWLINE}花费掉的数额",
+   "en": "Total money spent shopping",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "培育屋中寄存的{NEWLINE}精灵数量",
+   "en": "No. of Pokémon left with the{NEWLINE}Day-Care",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0026/45"
+  },
+  {
+   "id": 46,
+   "zh": "打倒的精灵数量",
+   "en": "No. of Pokémon defeated",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/46"
+  },
+  {
+   "id": 47,
+   "zh": "寄存过ＧＴＳ的{NEWLINE}精灵数量",
+   "en": "No. of Pokémon deposited at the{NEWLINE}GTS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "与朋友ＷｉーＦｉ交换{NEWLINE}大钳蟹的次数",
+   "en": "No. of times Krabby were traded{NEWLINE}with friends over Wi-Fi",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0026/48 | zh says trading 大钳蟹 (Krabby) with friends over Wi-Fi; US says Pokémon at the Wi-Fi Club. Followed zh (hack-finding logged)."
+  },
+  {
+   "id": 49,
+   "zh": "在训练师卡片上{NEWLINE}签名的次数",
+   "en": "No. of times you signed your{NEWLINE}Trainer Card",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/49"
+  },
+  {
+   "id": 50,
+   "zh": "复活精灵化石的次数",
+   "en": "No. of Pokémon extracted from{NEWLINE}Fossils",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/50"
+  },
+  {
+   "id": 51,
+   "zh": "给足迹博士看{NEWLINE}足迹的次数",
+   "en": "No. of times footprints were{NEWLINE}checked by Dr. Footstep",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/51"
+  },
+  {
+   "id": 52,
+   "zh": "写信的次数",
+   "en": "No. of letters written",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0026/52"
+  },
+  {
+   "id": 53,
+   "zh": "用蜂蜜与野生精灵{NEWLINE}相遇的次数",
+   "en": "No. of wild Pokémon met using{NEWLINE}Honey",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "在ＷｉーＦｉ广场与{NEWLINE}其他人搭话的次数",
+   "en": "No. of times you talked to someone{NEWLINE}in the Wi-Fi Plaza",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/54"
+  },
+  {
+   "id": 55,
+   "zh": "在地下通道埋玉的次数",
+   "en": "Number of Spheres buried in the{NEWLINE}Underground",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/55"
+  },
+  {
+   "id": 56,
+   "zh": "看电视次数",
+   "en": "No. of times watched TV",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/56"
+  },
+  {
+   "id": 57,
+   "zh": "给精灵起昵称的次数",
+   "en": "No. of times Pokémon were given{NEWLINE}nicknames",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/57"
+  },
+  {
+   "id": 58,
+   "zh": "得到的赠品球数量",
+   "en": "No. of Premier Balls received",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "在散步公园得到{NEWLINE}精灵给的东西的次数",
+   "en": "No. of gifts from Pokémon in{NEWLINE}Amity Square",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "一个人做松饼的次数",
+   "en": "No. of Poffins cooked alone",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/60"
+  },
+  {
+   "id": 61,
+   "zh": "和朋友一起做松饼的次数",
+   "en": "No. of Poffins cooked with friends",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/61"
+  },
+  {
+   "id": 62,
+   "zh": "拍摄精灵的盛装{NEWLINE}照片的次数",
+   "en": "No. of Pokémon Dress-Up Data{NEWLINE}photos taken",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/62"
+  },
+  {
+   "id": 63,
+   "zh": "用秘传技怪力{NEWLINE}击碎岩石的次数",
+   "en": "No. of rocks smashed using the{NEWLINE}hidden move Strength",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0026/63 | zh says rocks smashed (击碎) with Strength; US says boulders pushed. Followed zh (hack-finding logged)."
+  },
+  {
+   "id": 64,
+   "zh": "陷进沼泽的次数",
+   "en": "No. of times mired in a swamp",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/64"
+  },
+  {
+   "id": 65,
+   "zh": "在胜负之地与竞争对手或{NEWLINE}训练馆首领战斗的次数",
+   "en": "No. of battles with your rival or{NEWLINE}Gym Leaders at the Battleground",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "在战斗前线{NEWLINE}挑战设施的次数",
+   "en": "No. of facilities challenged at the{NEWLINE}Battle Frontier",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "成为前线首领的次数",
+   "en": "No. of times you became a Frontier{NEWLINE}Brain",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 成为前线首领的次数 = times you became a Frontier Brain (US: met the Brains). Followed zh (hack-finding logged)."
+  },
+  {
+   "id": 68,
+   "zh": "战斗工厂胜利次数",
+   "en": "No. of wins at the Battle Factory",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/68"
+  },
+  {
+   "id": 69,
+   "zh": "战斗城堡胜利次数",
+   "en": "No. of wins at the Battle Castle",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/69"
+  },
+  {
+   "id": 70,
+   "zh": "战斗舞台胜利次数",
+   "en": "No. of wins at the Battle Hall",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/70"
+  },
+  {
+   "id": 71,
+   "zh": "战斗轮盘胜利次数",
+   "en": "No. of wins at the Battle Arcade",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/71"
+  },
+  {
+   "id": 72,
+   "zh": "战斗工厂{NEWLINE}交换精灵的次数",
+   "en": "No. of Pokémon trades at the{NEWLINE}Battle Factory",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/72"
+  },
+  {
+   "id": 73,
+   "zh": "战斗城堡{NEWLINE}赚取的城堡点数",
+   "en": "Total Castle Points earned at the{NEWLINE}Battle Castle",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/73"
+  },
+  {
+   "id": 74,
+   "zh": "战斗舞台战胜排名{NEWLINE}前十精灵的次数",
+   "en": "No. of wins over top-10 Pokémon{NEWLINE}at the Battle Hall",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "战斗轮盘{NEWLINE}得到的战斗点数",
+   "en": "Battle Points earned from the{NEWLINE}Battle Arcade game board",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/75"
+  },
+  {
+   "id": 76,
+   "zh": "胜利获得的战斗点数",
+   "en": "Total Battle Points won",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/76"
+  },
+  {
+   "id": 77,
+   "zh": "使用的战斗点数",
+   "en": "Total Battle Points spent",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/77"
+  },
+  {
+   "id": 78,
+   "zh": "在ＷｉーＦｉ广场{NEWLINE}参加游戏的次数",
+   "en": "No. of Wi-Fi Plaza Games played",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/78"
+  },
+  {
+   "id": 79,
+   "zh": "在团团转交换{NEWLINE}交换蛋的次数",
+   "en": "No. of Eggs traded using Spin Trade",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "在塔塔拉炼铁厂{NEWLINE}交换星之碎片的次数",
+   "en": "No. of Star Pieces traded at the{NEWLINE}Fuego Ironworks",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0026/80"
+  },
+  {
+   "id": 81,
+   "zh": "轮盘获得的战斗点数",
+   "en": "Battle Points earned on the game{NEWLINE}board",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "轮盘获得的{NEWLINE}树果和道具数量",
+   "en": "No. of Berries and items won on the{NEWLINE}game board",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "胜利获得的战斗点数",
+   "en": "Total Battle Points won",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "使用的战斗点数",
+   "en": "Total Battle Points spent",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "在ＷｉーＦｉ广场{NEWLINE}游戏获胜的次数",
+   "en": "No. of Wi-Fi Plaza Games won",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "在团团转交换{NEWLINE}交换到蛋的数量",
+   "en": "No. of Eggs received using Spin{NEWLINE}Trade",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "　次",
+   "en": " times",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "unit suffixes #87–93 after a number; probably unused (US blanks them)."
+  },
+  {
+   "id": 88,
+   "zh": "　个",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 89,
+   "zh": "　步",
+   "en": " steps",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "　只",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 91,
+   "zh": "　元",
+   "en": " $",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "　ＣＰ",
+   "en": " CP",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "full-width → ASCII; US blanks this DP leftover",
+   "qa_ignore": [
+    "whitespace"
+   ]
+  },
+  {
+   "id": 93,
+   "zh": "　ＢＰ",
+   "en": " BP",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "full-width → ASCII; US blanks this DP leftover",
+   "qa_ignore": [
+    "whitespace"
+   ]
+  },
+  {
+   "id": 94,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "ideographic-space placeholder → space",
+   "qa_ignore": [
+    "whitespace"
+   ]
+  }
+ ]
+}

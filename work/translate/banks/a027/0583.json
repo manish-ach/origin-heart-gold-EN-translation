@@ -1,0 +1,614 @@
+{
+ "narc": "a027",
+ "bank": 583,
+ "source": "work/extract/v4/a027/0583.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "我给自己占卜的今天能遇贵人,{NEWLINE}果然联盟冠军就光临小店了。{SCROLL}请问冠军大人您来{NEWLINE}是想要占卜点什么呢？{CLEAR}每次占卜费用10000元。",
+   "en": "My own reading said I’d meet{NEWLINE}someone important today, and{CLEAR}sure enough, the League Champion{CLEAR}has graced my little shop.{SCROLL}Now, Champion, what would you{NEWLINE}like your fortune told about?{CLEAR}Each reading costs $10000.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokémon Fortune House: #1 ideal-Pokémon reading (Gengar/Rhyperior/Chansey + evolution item); #2 love reading quiz #19-#43; #45-#71 friend-affinity menu (空 slots → ‘---’, D-0049); #3/#44 ‘superstition’ reply."
+  },
+  {
+   "id": 1,
+   "zh": "占卜最适合我的精灵",
+   "en": "My ideal Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 2,
+   "zh": "占卜缘份",
+   "en": "My love fortune",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 3,
+   "zh": "你这是封建迷信",
+   "en": "That’s superstition!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "你这是封建迷信 (‘that’s feudal superstition’); #44 echoes it as the ‘feudal superstition’ label.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 4,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 5,
+   "zh": "好的,最适合的精灵是吧。{SCROLL}让我看看啊,{NEWLINE}最适合您的精灵是……{CLEAR}没错,最适合您的精灵就是——{CLEAR}耿鬼！",
+   "en": "Very well, your ideal Pokémon.{SCROLL}Let me see... The Pokémon that suits{NEWLINE}you best is... Yes, the Pokémon{CLEAR}that suits you best is... Gengar!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "哎呀呀,真是跟您一样{NEWLINE}深不可测的精灵呢。{CLEAR}如果您还没有耿鬼,{CLEAR}就请拿着这个吧。",
+   "en": "Oh my, what an unfathomable Pokémon,{NEWLINE}just like you. If you don’t have{CLEAR}a Gengar yet, please take this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "让鬼斯通带上它升级,{NEWLINE}就能体重暴增、长出双脚,{CLEAR}最终进化成耿鬼！",
+   "en": "If a Haunter levels up while holding{NEWLINE}it, it’ll gain a ton of weight, sprout{CLEAR}legs, and finally evolve into Gengar!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "那么本次占卜的费用10000元,{NEWLINE}我就收下了哦。",
+   "en": "Then I’ll take the $10000{NEWLINE}fee for this reading.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "真是抱歉啊冠军大人,{NEWLINE}我们店是小本生意。{CLEAR}每次占卜费用10000元。{CLEAR}如果您没带够钱的话,{CLEAR}我是没办法发功为您占卜的。",
+   "en": "I’m terribly sorry, Champion, but ours{NEWLINE}is a small business. Each reading costs{CLEAR}$10000. If you haven’t brought enough{CLEAR}money, I can’t work my powers for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "好的,最适合的精灵是吧。{SCROLL}让我看看啊,{NEWLINE}最适合您的精灵是……{CLEAR}没错,最适合您的精灵就是——{CLEAR}重甲暴龙！",
+   "en": "Very well, your ideal Pokémon.{SCROLL}Let me see... The Pokémon that suits{NEWLINE}you best is... Yes, the Pokémon{CLEAR}that suits you best is... Rhyperior!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "哎呀呀,真是跟您一样{NEWLINE}勇猛坚毅的精灵呢。{CLEAR}如果您还没有重甲暴龙,{CLEAR}就请拿着这个吧。",
+   "en": "Oh my, what a brave and steadfast{NEWLINE}Pokémon, just like you. If you don’t{CLEAR}have a Rhyperior yet, please take this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "让铁甲暴龙带上它升级,{NEWLINE}就能强化装甲、增加力量,{CLEAR}最终进化成重甲暴龙！",
+   "en": "If a Rhydon levels up while holding{NEWLINE}it, its armor will get tougher and{CLEAR}its strength will grow, and it’ll{CLEAR}finally evolve into Rhyperior!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "好的,最适合的精灵是吧。{SCROLL}让我看看啊,{NEWLINE}最适合您的精灵是……{CLEAR}没错,最适合您的精灵就是——{CLEAR}吉利蛋！",
+   "en": "Very well, your ideal Pokémon.{SCROLL}Let me see... The Pokémon that suits{NEWLINE}you best is... Yes, the Pokémon{CLEAR}that suits you best is... Chansey!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "哎呀呀,真是跟您一样{NEWLINE}充满爱心的精灵呢。{CLEAR}如果您还没有吉利蛋,{CLEAR}就请拿着这个吧。",
+   "en": "Oh my, what a loving Pokémon,{NEWLINE}just like you. If you don’t have{CLEAR}a Chansey yet, please take this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "让小福蛋带上它升级,{NEWLINE}就能充分成长、变大变圆,{CLEAR}最终进化成吉利蛋！",
+   "en": "If a Happiny levels up while holding{NEWLINE}it, it’ll grow up big and round,{CLEAR}and finally evolve into Chansey!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "最适合您的精灵是耿鬼,{NEWLINE}这个我已经为您占卜过了。",
+   "en": "I’ve already done your reading. The{NEWLINE}Pokémon that suits you best is Gengar.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "最适合您的精灵是重甲暴龙,{NEWLINE}这个我已经为您占卜过了。",
+   "en": "I’ve already done your{NEWLINE}reading. The Pokémon that{CLEAR}suits you best is Rhyperior.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "最适合您的精灵是吉利蛋,{NEWLINE}这个我已经为您占卜过了。",
+   "en": "I’ve already done your reading. The{NEWLINE}Pokémon that suits you best is Chansey.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "哦呵呵,这次是想来占卜缘分吗？{NEWLINE}缘分这个东西是很奇妙的,{CLEAR}除了靠我的占卜之外,{CLEAR}也要靠您自己的努力。",
+   "en": "Oh ho ho, a love reading this time?{NEWLINE}Love and fate are mysterious{CLEAR}things. Beyond my readings, they{CLEAR}also depend on your own efforts.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "异性",
+   "en": "The opposite sex",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 21,
+   "zh": "同性",
+   "en": "The same sex",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 22,
+   "zh": "什么性别都行",
+   "en": "Any gender",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 23,
+   "zh": "口袋妖怪都行",
+   "en": "Even a Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "口袋妖怪都行 (‘Pokémon are fine too’), kept faithful.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 24,
+   "zh": "您觉得什么年纪就可以开始恋爱了？",
+   "en": "At what age do you think{NEWLINE}it’s OK to start dating?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "10岁以后",
+   "en": "After 10",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 26,
+   "zh": "18岁以后",
+   "en": "After 18",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 27,
+   "zh": "有了稳定收入以后",
+   "en": "With a steady income",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 28,
+   "zh": "什么时候都行",
+   "en": "Anytime",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 29,
+   "zh": "您可以接受多角的恋爱关系吗？",
+   "en": "Could you accept a romance{NEWLINE}with more than two people?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "可以啊,越乱越好玩",
+   "en": "The messier the better",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 31,
+   "zh": "不行,我很专一",
+   "en": "No, I’m loyal to one",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 32,
+   "zh": "您觉得在冒险生活中,{NEWLINE}有一个对您心存爱慕的伙伴,{CLEAR}是一件值得高兴的事吗？",
+   "en": "On your adventures, would you{NEWLINE}be happy to have a companion{CLEAR}who secretly adores you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "我会很高兴被人喜欢",
+   "en": "I’d be glad to be liked",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 34,
+   "zh": "还是纯粹的友谊比较好",
+   "en": "Just friends is better",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 35,
+   "zh": "在您的印象中,您更期望{NEWLINE}与什么样的人产生缘分？",
+   "en": "Deep down, what kind of person are you{NEWLINE}hoping fate brings you together with?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "您已经遵从本心得到了答案,{NEWLINE}看来友情将会是{CLEAR}您冒险途中的唯一主题。",
+   "en": "You’ve followed your heart to your{NEWLINE}answer. It seems friendship will be the{CLEAR}one and only theme of your adventures.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "您已经遵从本心得到了答案,{NEWLINE}您的缘分或许在那遥远的未来吧。",
+   "en": "You’ve followed your heart to your{NEWLINE}answer. Your fated love may lie{CLEAR}somewhere in the distant future.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "您已经遵从本心得到了答案,{NEWLINE}您的缘分一定在那不久的将来吧。",
+   "en": "You’ve followed your heart to{NEWLINE}your answer. Your fated love is{CLEAR}surely coming in the near future.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "您认为在一段缘分中,{NEWLINE}什么是最重要的？",
+   "en": "What do you think matters{NEWLINE}most in a relationship?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "共同的经历和回忆",
+   "en": "Shared memories",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 41,
+   "zh": "坚实的物质基础",
+   "en": "Financial security",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 42,
+   "zh": "相互吸引的人格",
+   "en": "Mutual attraction",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 43,
+   "zh": "原始的生理冲动",
+   "en": "Raw physical urges",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 44,
+   "zh": "您这么说就不对了,{NEWLINE}占卜这东西信则有,不信则无。{CLEAR}它既是一种民间祈福的传统仪式,{CLEAR}又可以给人以心理安慰。{CLEAR}是日常忙碌生活中的调味剂。{SCROLL}您大可不必扣什么封建迷信的帽子。",
+   "en": "That’s where you’re wrong.{NEWLINE}Fortune-telling works if you believe in{CLEAR}it, and doesn’t if you don’t. It’s a folk{CLEAR}tradition for praying for good luck, and{CLEAR}it also gives people peace of mind. It{CLEAR}adds a little spice to our busy lives.{SCROLL}There’s no need to slap the{NEWLINE}‘feudal superstition’ label on it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "您想占卜一下{NEWLINE}跟哪个朋友之间的缘分呢？",
+   "en": "Which friend would you like{NEWLINE}me to read your fate with?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "小蓝",
+   "en": "Green",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 8 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 47,
+   "zh": "小霞",
+   "en": "Misty",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 11 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 48,
+   "zh": "小黄",
+   "en": "Yellow",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 49,
+   "zh": "希罗娜",
+   "en": "Cynthia",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 50,
+   "zh": "水晶",
+   "en": "Crystal",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 7 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 51,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 52,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 53,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 54,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 55,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 56,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 57,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 58,
+   "zh": "小绿",
+   "en": "Blue",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 59,
+   "zh": "小赤",
+   "en": "Red",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl) v3 ‘Todd’ replaced: 小赤 = Red.",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 60,
+   "zh": "大吾",
+   "en": "Steven",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 8 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 61,
+   "zh": "阿金",
+   "en": "Gold",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 9 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 62,
+   "zh": "小银",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 63,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 64,
+   "zh": "你们之间有着特殊的缘分,{NEWLINE}以后有可能会在一起。",
+   "en": "The two of you share a special bond.{NEWLINE}Someday, you may end up together.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 66,
+   "zh": "你们之间的缘分已尽,{NEWLINE}今后以朋友的方式相处就好。",
+   "en": "The bond between you two has run its{NEWLINE}course. From now on, just be friends.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "下一页",
+   "en": "Next page",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "算了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 69,
+   "zh": "上一页",
+   "en": "Previous page",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 71,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  }
+ ]
+}

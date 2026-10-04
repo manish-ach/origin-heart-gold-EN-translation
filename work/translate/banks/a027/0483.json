@@ -1,0 +1,1776 @@
+{
+ "narc": "a027",
+ "bank": 483,
+ "source": "work/extract/v4/a027/0483.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "你好,我是口袋妖怪饲育家凉叶,{NEWLINE}如果你也是带精灵来看病的,{CLEAR}请稍微等一会儿吧。{CLEAR}我现在正在帮一只{CLEAR}病情非常复杂的精灵诊疗。",
+   "en": "Hello, I’m Fern, a Pokémon Breeder. If{NEWLINE}you’ve brought a Pokémon to be seen{CLEAR}too, please wait a little while.{SCROLL}Right now I’m treating a Pokémon with a{NEWLINE}very complicated condition.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "凉叶 → Fern (invented; Pokémon Breeder). 夏希 → Mr. Summers (invented)."
+  },
+  {
+   "id": 1,
+   "zh": "啊……靠凉叶小姐好近啊,{NEWLINE}凉叶小姐的发丝好细啊,{CLEAR}凉叶小姐身上的味道好香啊……",
+   "en": "Ahh... I’m so close to Miss Fern... Her{NEWLINE}hair is so fine...{SCROLL}And she smells so nice...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "你干什么？离我远点！{NEWLINE}不要打扰我跟凉叶小姐独处！",
+   "en": "What do you want? Get away from me!{NEWLINE}Don’t interrupt my time alone with Miss{CLEAR}Fern!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "音符鹦鹉,你能告诉我{NEWLINE}你究竟是哪里不舒服吗？",
+   "en": "Chatot, can you tell me where exactly it{NEWLINE}hurts?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "音符鹦鹉『我头疼！我头疼！",
+   "en": "Chatot: My head hurts! My head hurts!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "唉,我已经给你检查过头了,{NEWLINE}完全没问题啊……{CLEAR}难道是我技术不行,{CLEAR}没有发现病灶所在？",
+   "en": "Sigh... I already checked your head,{NEWLINE}and there’s nothing wrong at all...{SCROLL}Am I just not skilled enough to find the{NEWLINE}cause?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "凉叶小姐不要着急,请慢慢检查！",
+   "en": "Don’t rush, Miss Fern. Take your time{NEWLINE}with the checkup!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "你放心,我一定会帮音符鹦鹉{NEWLINE}尽快解除病痛的。",
+   "en": "Don’t worry. I’ll make your pain go away{NEWLINE}as soon as I can, Chatot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "要让你的音符鹦鹉{NEWLINE}尝试着与这只音符鹦鹉交流一下吗？{SCROLL}",
+   "en": "Have your Chatot try talking to this{NEWLINE}Chatot?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "教音符鹦鹉哪句话去交流呢？{SCROLL}",
+   "en": "What should your Chatot say to it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "你好呀",
+   "en": "Hello!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 11,
+   "zh": "你吃了吗",
+   "en": "Have you eaten?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "我肚子疼",
+   "en": "My tummy hurts",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 13,
+   "zh": "是装的",
+   "en": "I’m faking",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}『{VAR:0100:1},你试着{NEWLINE}对这只音符鹦鹉说「你好呀」。",
+   "en": "{VAR:0103:0}: {VAR:0100:1}, try saying{NEWLINE}‘Hello!’ to this Chatot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0103:0}『{VAR:0100:1},你试着{NEWLINE}对这只音符鹦鹉说「你吃了吗」。",
+   "en": "{VAR:0103:0}: {VAR:0100:1}, try saying ‘Have{NEWLINE}you eaten?’ to this Chatot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0103:0}『{VAR:0100:1},你试着{NEWLINE}对这只音符鹦鹉说「我肚子疼」。",
+   "en": "{VAR:0103:0}: {VAR:0100:1}, try saying ‘My{NEWLINE}tummy hurts’ to this Chatot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}『{VAR:0100:1},你试着{NEWLINE}对这只音符鹦鹉说「是装的」。",
+   "en": "{VAR:0103:0}: {VAR:0100:1}, try saying ‘I’m{NEWLINE}faking’ to this Chatot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "音符鹦鹉『你好呀。",
+   "en": "Chatot: Hello!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "音符鹦鹉『我头疼！你好呀！",
+   "en": "Chatot: My head hurts! Hello!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "这位训练家,请不要打扰我治疗！",
+   "en": "Excuse me, Trainer, please don’t{NEWLINE}interrupt the treatment!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "音符鹦鹉,咱们继续治疗吧。",
+   "en": "Chatot, let’s continue your treatment.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "音符鹦鹉『好呀！你好呀！",
+   "en": "Chatot: Okay! Hello!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "我警告你,不要不要多管闲事！",
+   "en": "I’m warning you. Mind your own{NEWLINE}business!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "音符鹦鹉,你是说你还头疼吗？",
+   "en": "Chatot, are you saying your head still{NEWLINE}hurts?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "唉,真是遇到疑难杂症了……",
+   "en": "Sigh... This really is a baffling case...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "不着急,凉叶小姐。你慢慢治,{NEWLINE}我会在这里陪着你的。",
+   "en": "No rush, Miss Fern. Take your time. I’ll{NEWLINE}stay right here with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "音符鹦鹉『你吃了吗？",
+   "en": "Chatot: Have you eaten?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "音符鹦鹉『我头疼！你吃了吗？",
+   "en": "Chatot: My head hurts! Have you eaten?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "音符鹦鹉『吃了吗？你吃了吗？",
+   "en": "Chatot: Eaten? Have you eaten?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "谢谢你关心我啊音符鹦鹉,{NEWLINE}不过在治好你之前我都没什么食欲。{CLEAR}咱们还是继续治疗吧。",
+   "en": "Thanks for worrying about me, Chatot,{NEWLINE}but I won’t have much appetite until{CLEAR}you’re better.{SCROLL}Let’s continue your treatment.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "音符鹦鹉『我肚子疼。",
+   "en": "Chatot: My tummy hurts.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "音符鹦鹉『我头疼！我肚子疼！",
+   "en": "Chatot: My head hurts! My tummy hurts!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "音符鹦鹉『肚子疼！我肚子疼！",
+   "en": "Chatot: Tummy hurts! My tummy hurts!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "唉？现在又肚子疼了吗……{NEWLINE}这病情又更复杂了,{CLEAR}我得好好想想办法。",
+   "en": "Huh? Now your tummy hurts too...? This{NEWLINE}is getting even more complicated.{SCROLL}I need to think this through.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "好的,音符鹦鹉,{NEWLINE}我知道你现在头疼和肚子疼。{CLEAR}我这就为你设计治疗方案。",
+   "en": "All right, Chatot. I understand your{NEWLINE}head and tummy hurt.{SCROLL}I’ll work out a treatment plan for you{NEWLINE}right away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "音符鹦鹉『是装的。",
+   "en": "Chatot: I’m faking.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "音符鹦鹉『我头疼！是装的！",
+   "en": "Chatot: My head hurts! I’m faking!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "你说什么音符鹦鹉？你的头疼是装的？",
+   "en": "What did you say, Chatot? Your{NEWLINE}headache is fake?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "音符鹦鹉『装的！是装的！",
+   "en": "Chatot: Faking! I’m faking!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "夏希先生！！！{NEWLINE}我说怎么检查了这么久都没查出病因,{CLEAR}原来是你在让音符鹦鹉装病啊！",
+   "en": "Mr. Summers!!! No wonder I couldn’t{NEWLINE}find the cause no matter how long I{CLEAR}looked!{SCROLL}You were making Chatot pretend to be{NEWLINE}sick!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "啊,不……我……{NEWLINE}对不起……凉叶小姐,我……",
+   "en": "Ah, n-no... I... I’m sorry... Miss Fern,{NEWLINE}I...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "算了,看到音符鹦鹉没病{NEWLINE}我也就放心了,{CLEAR}请你以后不要再做这样的事了。",
+   "en": "Never mind. I’m just relieved Chatot{NEWLINE}isn’t sick.{SCROLL}Please don’t ever do anything like this{NEWLINE}again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "是,是……我……我知道了。",
+   "en": "Y-yes... I... I understand.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "你真是个爱管闲事的家伙,{NEWLINE}咱们走着瞧吧,我跟你没完！",
+   "en": "You’re a real busybody, you know that?{NEWLINE}Just you wait. This isn’t over!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "谢谢你帮我发现音符鹦鹉装病的事,{NEWLINE}这些精灵用的营养品就当是谢礼了,{CLEAR}请你收下吧。",
+   "en": "Thank you for figuring out that Chatot{NEWLINE}was faking.{SCROLL}Please take these Pokémon supplements{NEWLINE}as thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "我的目标是成为像尼比市的小刚馆主{NEWLINE}那样厉害的饲育家,{CLEAR}可是目前来看我还差得远,{CLEAR}连精灵是不是真的病了都看不出来……{SCROLL}不行,我不能灰心,{NEWLINE}继续努力才是我的风格。",
+   "en": "My goal is to become a great breeder{NEWLINE}like Brock, the Pewter Gym Leader...{SCROLL}But I still have a long way to go. I{NEWLINE}couldn’t even tell if a Pokémon was{CLEAR}really sick...{SCROLL}No, I can’t lose heart. Working hard{NEWLINE}and keeping at it is my style.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "水都群岛一带水域众多,{NEWLINE}真的是个非常适合垂钓的地方。",
+   "en": "There’s water everywhere around the{NEWLINE}Alto Mare Islands. It’s a perfect place{CLEAR}for fishing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "呀,你身上带着的那个是高级钓竿！{NEWLINE}看来你也是一位资深的钓鱼达人。{SCROLL}我曾经走遍关东、城都、水都的水域,{NEWLINE}对整个地区的水系精灵分布了如指掌。{SCROLL}如果你想知道{NEWLINE}哪只珍稀水系精灵的分布,{CLEAR}我可以告诉你哦。{SCROLL}",
+   "en": "Oh, that’s a Super Rod you’ve got! You{NEWLINE}must be a seasoned angler too.{SCROLL}I’ve fished all the waters of Kanto,{NEWLINE}Johto and Alto Mare. I know where{CLEAR}every Water type lives.{SCROLL}If you want to know where to find a{NEWLINE}rare Water-type Pokémon, I can tell{CLEAR}you.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "杰尼龟",
+   "en": "Squirtle",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 50,
+   "zh": "小锯鳄",
+   "en": "Totodile",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 51,
+   "zh": "大舌贝",
+   "en": "Shellder",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 52,
+   "zh": "墨海马",
+   "en": "Horsea",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 53,
+   "zh": "下一页",
+   "en": "Next page",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 54,
+   "zh": "丑丑鱼",
+   "en": "Feebas",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 55,
+   "zh": "水君",
+   "en": "Suicune",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 56,
+   "zh": "盖欧卡",
+   "en": "Kyogre",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 57,
+   "zh": "玛纳菲",
+   "en": "Manaphy",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 58,
+   "zh": "上一页",
+   "en": "Previous page",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 59,
+   "zh": "谢谢,可以了",
+   "en": "That’s all,{NEWLINE}thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'That’s all, thanks'",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 60,
+   "zh": "什么时候想确认这些精灵的分布了,{NEWLINE}随时欢迎来找我。",
+   "en": "Whenever you want to check where these{NEWLINE}Pokémon live, come see me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "我在华蓝市北面4号水路{NEWLINE}曾经看到过杰尼龟趴在岸边{CLEAR}晒它的王八壳。",
+   "en": "I once saw a Squirtle sprawled on the{NEWLINE}bank of the Route 4 waters north of{CLEAR}Cerulean City...{SCROLL}...sunning its turtle shell.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 华蓝市北面4号水路 kept literally (Route 4)."
+  },
+  {
+   "id": 62,
+   "zh": "有一次我在城都地区的48号路游唦,{NEWLINE}小锯鳄一下子从水里冒出来{CLEAR}把我下了一跳。",
+   "en": "Once when I was swimming on Route 48 in{NEWLINE}Johto, a Totodile popped out of the{CLEAR}water and gave me a real scare.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "我在9号水路钓鱼的时候,{NEWLINE}被大舌贝夹到了脚。{CLEAR}当时痛了好几天呢。",
+   "en": "When I was fishing on Route 9, a{NEWLINE}Shellder clamped onto my foot. It hurt{CLEAR}for days.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 9号水路 (Route 9 waters) kept literally."
+  },
+  {
+   "id": 64,
+   "zh": "19号路周围的海面,{NEWLINE}经常会有墨海马浮上来{CLEAR}向路过的人讨要食物。",
+   "en": "In the sea around Route 19, Horsea{NEWLINE}often surface and beg passersby for{CLEAR}food.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "丑丑鱼可是非常少见,{NEWLINE}我只在12号路附近的海域{CLEAR}见到过有人钓上来。",
+   "en": "Feebas is really rare. I’ve only ever{NEWLINE}seen someone fish one up in the waters{CLEAR}near Route 12.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "传说水君被封印在缘朱市的烧焦塔,{NEWLINE}如果想得到水君,必须要先解开封印。",
+   "en": "Legend says Suicune is sealed in the{NEWLINE}Burned Tower in Ecruteak City.{SCROLL}If you want Suicune, you’ll have to{NEWLINE}break the seal first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "我在双子岛最底层的洞穴,{NEWLINE}见到过一面石壁上{CLEAR}刻着关于盖欧卡的文字。{CLEAR}它很可能就沉睡在那里。{CLEAR}但是如何唤醒沉睡的盖欧卡{CLEAR}就不得而知了。",
+   "en": "In the deepest cave of the Seafoam{NEWLINE}Islands, I saw words about Kyogre{CLEAR}carved into a stone wall.{SCROLL}It may well be sleeping there. But how{NEWLINE}to wake the sleeping Kyogre, nobody{CLEAR}knows.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "我在水都群岛的公共海域,{NEWLINE}见到过与其他精灵玩耍的玛纳菲哦！",
+   "en": "I’ve seen Manaphy playing with other{NEWLINE}Pokémon in the public waters of the Alto{CLEAR}Mare Islands!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "你好啊,训练家之星,{NEWLINE}欢迎来到极梅婆婆的训练屋。{CLEAR}婆婆她人就在里面,你进去找她就好。",
+   "en": "Hello there, rising star! Welcome to{NEWLINE}Granny Mae’s training hall.{SCROLL}Granny’s inside. Just go on in and see{NEWLINE}her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "你好啊,训练家之星,{NEWLINE}欢迎来到极梅婆婆的训练屋。{CLEAR}婆婆她人就在里面,你进去找她就好。",
+   "en": "Hello there, rising star! Welcome to{NEWLINE}Granny Mae’s training hall.{SCROLL}Granny’s inside. Just go on in and see{NEWLINE}her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "这位黄头发的训练家{NEWLINE}就是你找来的伙伴吧,{CLEAR}既然已经凑齐了两位挑战者,{CLEAR}那么可以开启试炼了。",
+   "en": "This blond-haired Trainer must be the{NEWLINE}partner you found.{SCROLL}Now that we have two challengers, the{NEWLINE}trial can begin.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "你好,这里是极梅婆婆的道馆,{NEWLINE}看你这样子,也是来学习终极绝招的吧。{CLEAR}按照极梅婆婆定下的规矩,{CLEAR}要学习终极绝招{CLEAR}必须要通过道馆设下的试炼。{SCROLL}但这个试炼也不是随时开启的,{NEWLINE}而是每凑齐两位挑战者{CLEAR}才会开启一次试炼。{CLEAR}如果你想挑战学习终极绝招的试炼,{CLEAR}就去找一个伙伴跟你一起参加吧。",
+   "en": "Hello. This is Granny Mae’s Gym. You{NEWLINE}look like you’ve come to learn an{CLEAR}ultimate move too.{SCROLL}By Granny Mae’s rules, you must pass{NEWLINE}this Gym’s trial to learn an ultimate{CLEAR}move.{SCROLL}But the trial isn’t held at any time. It{NEWLINE}only begins once two challengers are{CLEAR}gathered.{SCROLL}If you want to take on the trial for the{NEWLINE}ultimate move, go find a partner to take{CLEAR}part with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "现在请你站到南侧来,{NEWLINE}我要向你们正式宣读试炼规则了。",
+   "en": "Now, please stand on the south side. I{NEWLINE}will formally read out the rules of the{CLEAR}trial.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "两位挑战者,非常欢迎你们来参加{NEWLINE}极梅婆婆道馆的终极绝招试炼。{CLEAR}这里的试炼共分四个阶段,{CLEAR}分别是：单打实力鉴定、精灵知识问答、{CLEAR}双打实力鉴定以及极梅婆婆的考核。{SCROLL}前三个阶段需要你们各自去完成,{NEWLINE}最后再由极梅婆婆对你们进行考核。{CLEAR}通过最终考核后,{CLEAR}你们将从极梅婆婆那里{CLEAR}学到无与伦比的终极绝招。{SCROLL}此外,本次试炼中途不允许退出,{NEWLINE}一旦有人失败你们就必须从头再来。",
+   "en": "Challengers, welcome to the{NEWLINE}ultimate-move trial of Granny Mae’s{CLEAR}Gym.{SCROLL}The trial has four stages: a Singles{NEWLINE}battle assessment, a Pokémon knowledge{CLEAR}quiz...{SCROLL}...a Doubles battle assessment, and{NEWLINE}finally Granny Mae’s own test.{SCROLL}You must each clear the first three{NEWLINE}stages alone. Then Granny Mae will test{CLEAR}you both.{SCROLL}Pass her final test, and you’ll learn a{NEWLINE}peerless ultimate move from Granny Mae{CLEAR}herself.{SCROLL}Also, there’s no quitting partway{NEWLINE}through this trial. If either of you{CLEAR}fails, you both start over.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "现在请你们在两侧引导员的带领下{NEWLINE}分别开始挑战吧。",
+   "en": "Now, follow the guides on either side{NEWLINE}and begin your challenges.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "我将带你开展第一阶段的试炼,{NEWLINE}请跟我来吧。",
+   "en": "I’ll take you through the first stage of{NEWLINE}the trial. Please follow me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "在这里我将与你进行{NEWLINE}单打规则的实力鉴定,{CLEAR}请尽全力击败我吧！",
+   "en": "Here I will assess your strength under{NEWLINE}Singles rules. Give it your all and beat{CLEAR}me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 79,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 80,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 81,
+   "zh": "恭喜你通过第一阶段试炼。{NEWLINE}请继续前进参加第二阶段试炼吧。",
+   "en": "Congratulations on passing the first{NEWLINE}stage. Please go on to the second{CLEAR}stage of the trial.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "极梅婆婆是水都群岛最强的训练家,{NEWLINE}我通过拜在她门下修行{CLEAR}学到了很多东西。",
+   "en": "Granny Mae is the strongest Trainer in{NEWLINE}the Alto Mare Islands. I’ve learned so{CLEAR}much training under her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "你就是这次的挑战者吧,{NEWLINE}要通过我这里,{CLEAR}得回答对我的问题才行,{CLEAR}下面我要出题咯。{SCROLL}第一题：下列哪个招式,{NEWLINE}威力的数学期望最高？{SCROLL}",
+   "en": "So you’re this round’s challenger. To{NEWLINE}get past me, you have to answer my{CLEAR}questions correctly.{SCROLL}Here comes the first one!{SCROLL}Question 1: Which of these moves has{NEWLINE}the highest expected power, counting{CLEAR}accuracy?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "水流尾",
+   "en": "Aqua Tail",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 85,
+   "zh": "急冻光线",
+   "en": "Ice Beam",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 86,
+   "zh": "大字爆",
+   "en": "Fire Blast",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 87,
+   "zh": "闪电",
+   "en": "Thunder",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "闪电 read as Thunder (old name).",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 88,
+   "zh": "下面请听第二题：{NEWLINE}下列招式在无天气影响下,{CLEAR}命中率最高的是？{SCROLL}",
+   "en": "Now for question 2: With no weather in{NEWLINE}effect, which of these moves is the most{CLEAR}accurate?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "飞叶风暴",
+   "en": "Leaf Storm",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 90,
+   "zh": "暴风雪",
+   "en": "Blizzard",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 had Whiteout; 暴风雪 = Blizzard.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 91,
+   "zh": "熔岩风暴",
+   "en": "Magma Storm",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 92,
+   "zh": "尖石攻击",
+   "en": "Stone Edge",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 93,
+   "zh": "下面请听第三题：{NEWLINE}下列招式的附加效果,{CLEAR}触发几率最高的是？{SCROLL}",
+   "en": "Now for question 3: Which of these{NEWLINE}moves is most likely to trigger its added{CLEAR}effect?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "十万伏特",
+   "en": "Thunderbolt",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 95,
+   "zh": "空气切割",
+   "en": "Air Slash",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 96,
+   "zh": "神圣火焰",
+   "en": "Sacred Fire",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 97,
+   "zh": "击掌奇袭",
+   "en": "Fake Out",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 98,
+   "zh": "下面请听第四题：{NEWLINE}下列哪个招式不是专属技能？{SCROLL}",
+   "en": "Now for question 4: Which of these{NEWLINE}moves is NOT a signature move?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 100,
+   "zh": "伏特攻击",
+   "en": "Volt Tackle",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 101,
+   "zh": "攻击指令",
+   "en": "Attack Order",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 102,
+   "zh": "神圣火焰",
+   "en": "Sacred Fire",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 103,
+   "zh": "熔岩风暴",
+   "en": "Magma Storm",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 104,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 105,
+   "zh": "下面请听第五题：{NEWLINE}下列哪个道具不是加成招式威力的？{SCROLL}",
+   "en": "Now for question 5: Which of these items{NEWLINE}does NOT boost a move’s power?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "怪异香炉",
+   "en": "Odd Incense",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 107,
+   "zh": "达人腰带",
+   "en": "Expert Belt",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 108,
+   "zh": "诅咒之符",
+   "en": "Spell Tag",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 109,
+   "zh": "龙之鳞片",
+   "en": "Dragon Scale",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 110,
+   "zh": "恭喜你全部答对,你可以继续前进了。",
+   "en": "Congratulations, you got them all right.{NEWLINE}You may go on.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "你没有全部答对哦,{NEWLINE}好好想想再来回答吧。",
+   "en": "You didn’t get them all right. Think it{NEWLINE}over and try again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "这里只有试炼的挑战者可以通行,{NEWLINE}你现在好像还没报名啊,请回吧。",
+   "en": "Only trial challengers may pass here. It{NEWLINE}seems you haven’t signed up yet. Please{CLEAR}turn back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "参加试炼的途中不能退出,{NEWLINE}请回去继续挑战吧。",
+   "en": "You can’t quit in the middle of the{NEWLINE}trial. Please go back and continue your{CLEAR}challenge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "这里是第三阶段的试炼,{NEWLINE}你需要在双打规则下{CLEAR}打败我才能继续前进。{CLEAR}让我瞧瞧你的实力吧。",
+   "en": "This is the third stage of the trial. You{NEWLINE}must beat me under Doubles rules to go{CLEAR}on.{SCROLL}Let me see what you’re made of.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "你展现出了强大的实力,{NEWLINE}我认可你通过了第三阶段试炼。{CLEAR}请随我来吧,我带你前往最后的试炼。",
+   "en": "You’ve shown great strength. I declare{NEWLINE}that you’ve passed the third stage.{SCROLL}Please come with me. I’ll take you to{NEWLINE}the final trial.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "这位也通过第三阶段了？",
+   "en": "This one passed the third stage too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "是的,这位是非常优秀的训练家,{NEWLINE}非常有可能通过婆婆的最终试炼。",
+   "en": "Yes. This is an outstanding Trainer,{NEWLINE}very likely to pass Granny’s final trial.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "好的,这位挑战者请过来吧。",
+   "en": "Very well. Challenger, please come over{NEWLINE}here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "小绿『{VAR:0103:0},我还以为你中途失败,{NEWLINE}要拖我后腿了呢。",
+   "en": "Blue: {VAR:0103:0}, I figured you’d flunk{NEWLINE}halfway and drag me down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "小绿『{VAR:0103:0},{NEWLINE}我就知道你能通过试炼的。",
+   "en": "Blue: {VAR:0103:0}, I knew you’d pass the{NEWLINE}trial.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "{VAR:0103:0}『哼,我才不会输给你。",
+   "en": "{VAR:0103:0}: Hmph. I’m not losing to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "{VAR:0103:0}『嘿嘿,咱们离终极绝招{NEWLINE}又近了一步。",
+   "en": "{VAR:0103:0}: Heh heh. We’re one step{NEWLINE}closer to the ultimate move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "两位,聊天到此为止。{NEWLINE}在见到婆婆之前,{CLEAR}我要亲眼确认你们的资质,{CLEAR}所以你们现在需要对战一场,{CLEAR}向我展示你们的最强实力。",
+   "en": "You two, that’s enough chatter. Before{NEWLINE}you meet Granny, I must see your{CLEAR}aptitude for myself.{SCROLL}So now you’ll battle each other and{NEWLINE}show me your full strength.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "小绿『要我们对战？{NEWLINE}就是说我们中只有一个人{CLEAR}能学会终极绝招吗？",
+   "en": "Blue: We battle each other? So only one{NEWLINE}of us gets to learn the ultimate move?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 125,
+   "zh": "不是,只是确认你们的天赋{NEWLINE}够不够格学习终极绝招。{SCROLL}可能你们两人天赋不足,{NEWLINE}都无法学习终极绝招,{CLEAR}也可能你们两人都天赋卓绝,{CLEAR}两人都可以学习终极绝招。{SCROLL}所以请尽可能地在我面前{NEWLINE}通过对战展现你们的实力吧。",
+   "en": "No. This only confirms whether you have{NEWLINE}the talent to learn an ultimate move.{SCROLL}Perhaps neither of you has enough{NEWLINE}talent, and neither can learn it.{SCROLL}Or perhaps you’re both exceptionally{NEWLINE}gifted, and both can learn it.{SCROLL}So please show me your strength in{NEWLINE}battle as best you can.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "小绿『{VAR:0103:0},好久都没跟你对战了。{NEWLINE}正好借机咱们好好较量一场！",
+   "en": "Blue: {VAR:0103:0}, it’s been ages since we{NEWLINE}battled. Let’s use this chance to have{CLEAR}a real showdown!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 127,
+   "zh": "小绿『哼,真是没想到,{NEWLINE}你比金黄市事件的时候又进步了。",
+   "en": "Blue: Hmph. Didn’t see that coming.{NEWLINE}You’ve gotten even better since the{CLEAR}Saffron incident.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 128,
+   "zh": "小绿『哇,真是没想到,{NEWLINE}你比金黄市事件的时候又进步了。",
+   "en": "Blue: Whoa, didn’t see that coming.{NEWLINE}You’ve gotten even better since the{CLEAR}Saffron incident.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 129,
+   "zh": "我已经看到了你们的实力,{NEWLINE}确实都具备掌握终极绝招的潜质。{CLEAR}请随我来吧。",
+   "en": "I’ve seen your strength. You both{NEWLINE}truly have the potential to master an{CLEAR}ultimate move.{SCROLL}Please follow me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 130,
+   "zh": "极梅婆婆,这次的挑战者已经通过了{NEWLINE}前面的全部试炼,资质非常不错哦。",
+   "en": "Granny Mae, these challengers have{NEWLINE}passed all the trials so far. They show{CLEAR}real promise.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 131,
+   "zh": "极梅婆婆『哦？能得到你这么高的评价,{NEWLINE}看来他们刚应该有两把刷子。{CLEAR}容我亲眼看看。",
+   "en": "Granny Mae: Oh? If they’ve earned that{NEWLINE}much praise from you, they must know a{CLEAR}thing or two.{SCROLL}Let me see for myself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 132,
+   "zh": "极梅婆婆『嗯,确实是不错的年轻人,{NEWLINE}蕴藏着无穷的潜力。{CLEAR}不过还需要激发一下。",
+   "en": "Granny Mae: Mm, fine young people{NEWLINE}indeed, with boundless potential hidden{CLEAR}inside.{SCROLL}But it still needs a little push to come{NEWLINE}out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 133,
+   "zh": "极梅婆婆『阿香,你来配合我一下。",
+   "en": "Granny Mae: Dana, come and give me a{NEWLINE}hand.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "阿香 → Dana (= trainer 0719 #647/#699)."
+  },
+  {
+   "id": 134,
+   "zh": "是！",
+   "en": "Yes!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 135,
+   "zh": "极梅婆婆『接下来是{NEWLINE}你们试炼的最后一场战斗,{CLEAR}你们两个联手跟我和阿香战斗,{CLEAR}以此来激发一下你们的潜能。{SCROLL}极梅婆婆『不要看我是老人就手下留情,{NEWLINE}会吃亏的哦！",
+   "en": "Granny Mae: Next is the last battle of{NEWLINE}your trial. You two will team up against{CLEAR}Dana and me.{SCROLL}That should bring out your potential.{SCROLL}Granny Mae: Don’t go easy on me just{NEWLINE}because I’m old, or you’ll be sorry!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 136,
+   "zh": "极梅婆婆『非常不错！没想到有生之年{NEWLINE}会出现你们这么有潜力的年轻人{CLEAR}来继承我的终极绝招。",
+   "en": "Granny Mae: Splendid! I never thought{NEWLINE}I’d live to see young people with this{CLEAR}much potential...{SCROLL}...come to inherit my ultimate moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 137,
+   "zh": "小绿『真巧,我正好带着水箭龟。{NEWLINE}它可是我最初的、最重要的伙伴,{CLEAR}请你把终极绝招教给它吧。",
+   "en": "Blue: What luck, I happen to have{NEWLINE}Blastoise with me. It’s my very first{CLEAR}and most important partner.{SCROLL}Please teach it the ultimate move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 138,
+   "zh": "极梅婆婆『不过我的终极绝招极为特殊,{NEWLINE}是综合了威力、命中、特效的终极技能。{CLEAR}根据我以往的传授经验,{CLEAR}只有各个地区御三家的最终形态{CLEAR}才能习得对应的终极绝招。{CLEAR}所以要学习这个终极绝招的话,{CLEAR}你们得把相应的精灵带过来才行。",
+   "en": "Granny Mae: But my ultimate moves are{NEWLINE}very special. They combine power,{CLEAR}accuracy and added effects.{SCROLL}In all my years of teaching, only the{NEWLINE}final forms of each region’s first{CLEAR}partner Pokémon...{SCROLL}...have been able to learn the matching{NEWLINE}ultimate move.{SCROLL}So if you want to learn one, you’ll need{NEWLINE}to bring the right Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 139,
+   "zh": "极梅婆婆『好的,我现在把{NEWLINE}水系的终极绝招教给水箭龟。",
+   "en": "Granny Mae: Very well. I’ll now teach{NEWLINE}the Water-type ultimate move to{CLEAR}Blastoise.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 140,
+   "zh": "极梅婆婆『嗯……{NEWLINE}你这只水箭龟已经非常强了。{CLEAR}不过学了我的终极绝招{CLEAR}会让它更上一层楼的。{SCROLL}极梅婆婆『来吧,水箭龟,{NEWLINE}记下这个技能——加农水炮。",
+   "en": "Granny Mae: Hmm... This Blastoise of{NEWLINE}yours is already very strong.{SCROLL}But learning my ultimate move will take{NEWLINE}it to a whole new level.{SCROLL}Granny Mae: Come, Blastoise, remember{NEWLINE}this move: Hydro Cannon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "小绿『这加农水炮……！{NEWLINE}威力100,命中100……！？{CLEAR}还能有可能降低敌人速度！{SCROLL}小绿『天啊,这确实是堪称完美的{NEWLINE}水系终极技能。",
+   "en": "Blue: This Hydro Cannon...! 100 power,{NEWLINE}100 accuracy...!? And it can lower the{CLEAR}foe’s Speed too!{SCROLL}Blue: Wow, that really is a perfect{NEWLINE}Water-type ultimate move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack's custom Hydro Cannon stats as stated in zh."
+  },
+  {
+   "id": 142,
+   "zh": "极梅婆婆『嘿嘿,{NEWLINE}这可是我一生心血所创,{CLEAR}你要好好运用啊。",
+   "en": "Granny Mae: Heh heh. That move is my{NEWLINE}life’s work. Use it well.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "小绿『谢谢婆婆,{NEWLINE}我会让水箭龟用这招加农水炮{CLEAR}成为名震天下的精灵！",
+   "en": "Blue: Thank you, Granny! With Hydro{NEWLINE}Cannon, I’ll make Blastoise a Pokémon{CLEAR}the whole world knows!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 144,
+   "zh": "小绿『{VAR:0103:0},{NEWLINE}极梅婆婆的终极绝招真不是盖的。{CLEAR}我现在要去常磐道馆,{CLEAR}用这招终极绝招{CLEAR}挑战传说中的最强训练家试试。",
+   "en": "Blue: {VAR:0103:0}, Granny Mae’s ultimate{NEWLINE}move is the real deal.{SCROLL}I’m heading to the Viridian Gym now to{NEWLINE}try it out on the legendary strongest{CLEAR}Trainer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 145,
+   "zh": "极梅婆婆『那么……{NEWLINE}你现在要学习终极绝招吗？",
+   "en": "Granny Mae: Well then... Would you like{NEWLINE}to learn an ultimate move now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "极梅婆婆『想学的话随时可以来找我。",
+   "en": "Granny Mae: If you want to learn one,{NEWLINE}come see me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 147,
+   "zh": "极梅婆婆『哦,{VAR:0103:0}呀。{NEWLINE}是来学习终极绝招的吗？{SCROLL}",
+   "en": "Granny Mae: Oh, it’s {VAR:0103:0}. Have you{NEWLINE}come to learn an ultimate move?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 148,
+   "zh": "极梅婆婆『想学的话随时可以来找我。",
+   "en": "Granny Mae: If you want to learn one,{NEWLINE}come see me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 149,
+   "zh": "还没出生的精灵是学不会的……",
+   "en": "A Pokémon that hasn’t hatched yet{NEWLINE}can’t learn it...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 150,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会终极绝招了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows the{NEWLINE}ultimate move!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 151,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的疯狂植物……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习疯狂植物{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Frenzy{NEWLINE}Plant...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn Frenzy{NEWLINE}Plant?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 152,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 153,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 154,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 155,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的爆裂燃烧……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习爆裂燃烧{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Blast{NEWLINE}Burn...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn Blast{NEWLINE}Burn?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 156,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 157,
+   "zh": "{VAR:0101:0}学会了疯狂植物！",
+   "en": "{VAR:0101:0} learned Frenzy Plant!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 158,
+   "zh": "极梅婆婆『这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}就掌握终极绝招了。{CLEAR}如果你还有其他精灵{CLEAR}想学习终极绝招的话,{CLEAR}随时可以来找我。",
+   "en": "Granny Mae: And with that, your{NEWLINE}{VAR:0100:0} has mastered an ultimate{CLEAR}move.{SCROLL}If you have other Pokémon that want to{NEWLINE}learn one, come see me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 159,
+   "zh": "你是要放弃{NEWLINE}让它记住疯狂植物吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Frenzy Plant?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 160,
+   "zh": "极梅婆婆『要让哪个精灵学呢？{SCROLL}",
+   "en": "Granny Mae: Which Pokémon should learn{NEWLINE}it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 161,
+   "zh": "极梅婆婆『只有各地御三家的最终形态{NEWLINE}才能掌握我的终极绝招,{CLEAR}你这只精灵是学不会的。",
+   "en": "Granny Mae: Only the final forms of each{NEWLINE}region’s first partner Pokémon can{CLEAR}master my ultimate moves.{SCROLL}This Pokémon of yours can’t learn them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 162,
+   "zh": "{VAR:0101:0}学会了爆裂燃烧！",
+   "en": "{VAR:0101:0} learned Blast Burn!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 163,
+   "zh": "你是要放弃{NEWLINE}让它记住爆裂燃烧吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Blast Burn?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 164,
+   "zh": "{VAR:0101:0}学会了加农水炮！",
+   "en": "{VAR:0101:0} learned Hydro Cannon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 165,
+   "zh": "你是要放弃{NEWLINE}让它记住加农水炮吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Hydro Cannon?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 166,
+   "zh": "我在这里修行了这么久,{NEWLINE}都没能得到极梅婆婆传授终极绝招,{CLEAR}果然是我天赋太差了吗……",
+   "en": "I’ve trained here for so long, and{NEWLINE}Granny Mae still hasn’t taught me an{CLEAR}ultimate move...{SCROLL}Is my talent really that poor...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 167,
+   "zh": "你好,只有参加终极绝招试炼的挑战者{NEWLINE}和通过试炼的训练家才能通过这里。",
+   "en": "Hello. Only challengers in the{NEWLINE}ultimate-move trial and Trainers who’ve{CLEAR}passed it may go through here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 168,
+   "zh": "居然能通过终极绝招的试炼,{NEWLINE}你真是太厉害了。",
+   "en": "You actually passed the ultimate-move{NEWLINE}trial? You’re amazing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 169,
+   "zh": "研究精灵招式方面,{NEWLINE}各大精灵博士一直都少有涉猎,{CLEAR}而极梅婆婆对这方面却很有心得,{CLEAR}跟着她一定能研究出与众不同的成果。",
+   "en": "Pokémon professors have rarely studied{NEWLINE}Pokémon moves in depth, but Granny Mae{CLEAR}really knows her stuff.{SCROLL}Follow her, and you’re sure to discover{NEWLINE}something special.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 170,
+   "zh": "我的精灵配招不够完美,{NEWLINE}希望通过在这的修行,{CLEAR}能让我的精灵的获得完美的配招吧。",
+   "en": "My Pokémon’s movesets aren’t perfect.{NEWLINE}I hope training here will give them{CLEAR}perfect ones.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 171,
+   "zh": "婆婆对于天资不足的挑战者,{NEWLINE}只会传授一些简单的招式,{CLEAR}而你们居然能够学到{CLEAR}婆婆亲传的终极绝招,{CLEAR}足见她老人家对你们的认可。",
+   "en": "To challengers without enough talent,{NEWLINE}Granny only teaches simple moves.{SCROLL}But you two learned her ultimate moves{NEWLINE}straight from her. That shows how{CLEAR}highly she thinks of you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 172,
+   "zh": "快龙『Draaa——gon！",
+   "en": "Dragonite: Draaa-gon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 173,
+   "zh": "近期习得终极绝招的训练家登记：{NEWLINE}无",
+   "en": "Recent ultimate-move graduates: none",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 174,
+   "zh": "近期习得终极绝招的训练家登记：{NEWLINE}小绿、{VAR:0103:0}",
+   "en": "Recent ultimate-move graduates: Blue,{NEWLINE}{VAR:0103:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 175,
+   "zh": "近期习得终极绝招的训练家登记：{NEWLINE}小绿、{VAR:0103:0}、小蓝",
+   "en": "Recent ultimate-move graduates: Blue,{NEWLINE}{VAR:0103:0}, Green",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Green = male-player route (Red alternate)."
+  },
+  {
+   "id": 176,
+   "zh": "近期习得终极绝招的训练家登记：{NEWLINE}小绿、{VAR:0103:0}、小赤",
+   "en": "Recent ultimate-move graduates: Blue,{NEWLINE}{VAR:0103:0}, Red",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Red = female-player route (Green alternate)."
+  },
+  {
+   "id": 177,
+   "zh": "极梅婆婆的笔记本,{NEWLINE}上面密密麻麻地记录着{CLEAR}精灵招式的相关内容。",
+   "en": "Granny Mae’s notebook. It’s crammed{NEWLINE}with notes about Pokémon moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 178,
+   "zh": "水箭龟『Blas——toi！",
+   "en": "Blastoise: Blas-toi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 179,
+   "zh": "小绿『{VAR:0103:0},既然你已经到了,{NEWLINE}就跟那人说说开始试炼吧。",
+   "en": "Blue: {VAR:0103:0}, now that you’re here,{NEWLINE}tell that person to start the trial.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 180,
+   "zh": "唔……书上说骑双轮车的关键{NEWLINE}是借助前进的力量掌握平衡……",
+   "en": "Hmm... The book says the key to riding a{NEWLINE}bike is using your forward momentum to{CLEAR}keep your balance...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 181,
+   "zh": "啊！你是什么人！怎么会到这里来！{SCROLL}",
+   "en": "Ah! Who are you?! How did you get in{NEWLINE}here?!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 182,
+   "zh": "不要再强占三之岛了,赶紧离开",
+   "en": "Stop hogging Three Island!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 183,
+   "zh": "你的小弟们已经知道你不会骑车了",
+   "en": "The gang knows you can’t ride",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 184,
+   "zh": "我来教你骑车吧",
+   "en": "I’ll teach you to ride a bike",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 185,
+   "zh": "没事,我误闯进来的",
+   "en": "Sorry, I wandered in",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 186,
+   "zh": "没事就赶紧走吧！{NEWLINE}不要妨碍我在这里干正事！",
+   "en": "Then get lost! Don’t get in the way of{NEWLINE}my important business!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 187,
+   "zh": "我看出来了,你是来找麻烦的吧。{NEWLINE}那就让你见识一下本大姐的厉害！",
+   "en": "I get it. You’re here to make trouble.{NEWLINE}Then let me show you what Big Sis can{CLEAR}do!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 188,
+   "zh": "你比我厉害啊……{NEWLINE}不过我们暴走族不会离开三之岛的！{CLEAR}你有本事就来造船厂,{CLEAR}看我们首领不亲自收拾你。",
+   "en": "You’re stronger than me... But we{NEWLINE}bikers aren’t leaving Three Island!{SCROLL}If you’ve got the guts, come to the{NEWLINE}shipyard, and the Chief will deal with{CLEAR}you himself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 189,
+   "zh": "啊？？？{SCROLL}这这这这……他们是怎么知道的？{NEWLINE}身为暴走族的大姐大,居然不会骑车,{CLEAR}说出去实在是太丢人了！{CLEAR}啊啊啊——我没脸见人了！",
+   "en": "Huh??? Wh-wh-wh-what... How did they{NEWLINE}find out?!{SCROLL}The Big Sis of a biker gang can’t ride a{NEWLINE}bike... If word gets out, I’ll never live{CLEAR}it down!{SCROLL}Aaargh! I can’t show my face anymore!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 190,
+   "zh": "这么好！那你快教教我吧！{NEWLINE}身为暴走族的大姐大,居然不会骑车,{CLEAR}说出去实在是太丢人了！{CLEAR}我得赶快学会骑车才行。",
+   "en": "Really?! Then teach me, quick!{SCROLL}The Big Sis of a biker gang can’t ride a{NEWLINE}bike... If word gets out, I’ll never live{CLEAR}it down!{SCROLL}I’ve got to learn to ride, and fast.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 191,
+   "zh": "{VAR:0103:0}『来,我跟你说骑车的要领啊……",
+   "en": "{VAR:0103:0}: Okay, here’s the trick to{NEWLINE}riding a bike...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 192,
+   "zh": "原来骑车这么简单吗？{NEWLINE}感觉瞬间豁然开朗啊！{CLEAR}谢谢你教会我骑车,{CLEAR}我该怎么谢谢你才好呢？",
+   "en": "Riding a bike is that easy? It’s like a{NEWLINE}light just switched on!{SCROLL}Thanks for teaching me to ride. How can{NEWLINE}I ever repay you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 193,
+   "zh": "{VAR:0103:0}『这座三之岛{NEWLINE}是有水都群岛的公共土地,{CLEAR}你们这样独占会给很多人添麻烦。{CLEAR}请你们不要再独占这里了,{CLEAR}跟大家一起共享不好吗？",
+   "en": "{VAR:0103:0}: Three Island is public land of{NEWLINE}the Alto Mare Islands.{SCROLL}When you hog it like this, it causes{NEWLINE}trouble for lots of people.{SCROLL}Please stop taking it over. Wouldn’t it{NEWLINE}be nicer to share it with everyone?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 194,
+   "zh": "很感谢你帮我学会骑车,{NEWLINE}但这座岛是我们「水都暴走族」的首领{CLEAR}带我们一起建立的家园,{CLEAR}要让我们跟其他人共享,{CLEAR}你得自己去找首领谈才行。{SCROLL}这样吧,我先去找首领说明情况,{NEWLINE}你随后来跟首领谈这件事,{CLEAR}我就能在旁边帮你说说好话了。",
+   "en": "I’m really grateful you taught me to{NEWLINE}ride. But this island is the home our{CLEAR}Chief built for us...{SCROLL}...the Alto Mare Bikers. If you want us{NEWLINE}to share it, you’ll have to talk to the{CLEAR}Chief yourself.{SCROLL}Tell you what. I’ll go explain things to{NEWLINE}the Chief first. Then you come talk to{CLEAR}him...{SCROLL}...and I can put in a good word for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 195,
+   "zh": "三之岛作为废弃的工业区,{NEWLINE}经过我的一番努力{CLEAR}终于被改造成了景区。{SCROLL}如今游客们陆续来到了这里,{NEWLINE}我总算是没有白忙一场啊。",
+   "en": "Three Island was an abandoned{NEWLINE}industrial zone. Thanks to all my hard{CLEAR}work, it’s finally a tourist spot.{SCROLL}Now tourists are coming here one after{NEWLINE}another. All that effort wasn’t for{CLEAR}nothing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 196,
+   "zh": "飘浮泡泡『Caaa——fo！",
+   "en": "Castform: Caaa-fo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 197,
+   "zh": "正是因为当年造船工业搬走后{NEWLINE}我选择了坚守在家乡三之岛,{CLEAR}才能亲身经历这里复苏的过程。{SCROLL}看到重新热闹起来的家乡,{NEWLINE}我心中当真是酸酸甜甜,难以言表。",
+   "en": "When the shipbuilding industry moved{NEWLINE}away, I chose to stay in my hometown,{CLEAR}Three Island.{SCROLL}That’s why I got to see it come back to{NEWLINE}life with my own eyes.{SCROLL}Seeing my hometown lively again gives me{NEWLINE}a bittersweet feeling I can’t put into{CLEAR}words.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 198,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的加农水炮……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习加农水炮{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Hydro{NEWLINE}Cannon...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn Hydro{NEWLINE}Cannon?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 199,
+   "zh": "极梅婆婆『哦,是{VAR:0103:0}啊,{NEWLINE}你也报名参加了诸岛巡礼吗？{SCROLL}",
+   "en": "Granny Mae: Oh, it’s {VAR:0103:0}. Have you{NEWLINE}signed up for the Island Pilgrimage too?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 200,
+   "zh": "极梅婆婆『不是为诸岛巡礼来的？{NEWLINE}那就是来学习终极绝招咯？{SCROLL}",
+   "en": "Granny Mae: Not here for the Island{NEWLINE}Pilgrimage? Then you’ve come to learn{CLEAR}an ultimate move?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 201,
+   "zh": "极梅婆婆『如今你已经成为联盟冠军,{NEWLINE}再以普通方式考验你太没意思了。{CLEAR}这样吧,上次你们来学终极绝招,{CLEAR}是以2对2的形式打败了我和阿香,{CLEAR}这次你就用1对2的方式{CLEAR}再打败我和阿香,{CLEAR}就算你通过二之岛的考验。{CLEAR}你做好准备了吗？",
+   "en": "Granny Mae: Now that you’re the League{NEWLINE}Champion, testing you the usual way{CLEAR}would be no fun.{SCROLL}Tell you what. Last time, you two beat{NEWLINE}Dana and me two-on-two to learn the{CLEAR}ultimate move.{SCROLL}This time, beat Dana and me again, one{NEWLINE}against two...{SCROLL}...and you’ll have passed the Two{NEWLINE}Island trial. Are you ready?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 202,
+   "zh": "极梅婆婆『等你准备好了,{NEWLINE}随时可以来找我开启考验。",
+   "en": "Granny Mae: Whenever you’re ready,{NEWLINE}come see me and we’ll begin the trial.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 203,
+   "zh": "极梅婆婆『嗯,你去前面空地站好,{NEWLINE}咱们这就开始。",
+   "en": "Granny Mae: Good. Go stand in the open{NEWLINE}space ahead, and we’ll get started.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 204,
+   "zh": "极梅婆婆『阿香,你过来。",
+   "en": "Granny Mae: Dana, come here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 205,
+   "zh": "极梅婆婆『这次的对手是联盟冠军,{NEWLINE}你要全力以赴,知道吗？",
+   "en": "Granny Mae: This time our opponent is{NEWLINE}the League Champion. Give it everything{CLEAR}you’ve got, understand?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 206,
+   "zh": "是,婆婆。",
+   "en": "Yes, Granny.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 207,
+   "zh": "极梅婆婆『那么针对联盟冠军{VAR:0103:0}{NEWLINE}特别制定的二之岛诸岛巡礼考验,{CLEAR}现在开始！",
+   "en": "Granny Mae: The Two Island Pilgrimage{NEWLINE}trial, made especially for League{CLEAR}Champion {VAR:0103:0}...{SCROLL}...begins now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 208,
+   "zh": "极梅婆婆『不愧是联盟冠军,{NEWLINE}实力果然远胜从前,{CLEAR}恭喜你通过二之岛的考验。{CLEAR}你现在可以去其他地方{CLEAR}继续完成诸岛巡礼了。",
+   "en": "Granny Mae: Just what I’d expect from{NEWLINE}the League Champion. You’re far{CLEAR}stronger than before.{SCROLL}Congratulations on passing the Two{NEWLINE}Island trial.{SCROLL}You may now go elsewhere to continue{NEWLINE}the Island Pilgrimage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 209,
+   "zh": "哦？冠军大人光临三之岛,{NEWLINE}有何贵干啊？{CLEAR}水都群岛正在举办诸岛巡礼,{NEWLINE}你也是来三之岛接受巡礼考验的吗？",
+   "en": "Oh? The Champion honors Three Island{NEWLINE}with a visit? What brings you here?{SCROLL}The Alto Mare Islands are holding the{NEWLINE}Island Pilgrimage. Have you come for the{CLEAR}Three Island trial too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 210,
+   "zh": "祝您在三之岛玩的愉快。",
+   "en": "Enjoy your time on Three Island.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 211,
+   "zh": "面对冠军大人您,{NEWLINE}用对战的方式考验毫无意义,{CLEAR}咱们换种新的考验方式吧。{SCROLL}为了打造三之岛良好的旅游口碑,{NEWLINE}就麻烦冠军大人您去岛上看看{CLEAR}有没有游客需要帮忙的。{CLEAR}等您帮助完一名游客之后{CLEAR}回到这里来跟我说一声,{CLEAR}就算是您通过三之岛的考验了。",
+   "en": "Testing you with a battle would be{NEWLINE}pointless, Champion. Let’s try a new{CLEAR}kind of trial.{SCROLL}To build Three Island’s good name with{NEWLINE}tourists, please look around the{CLEAR}island...{SCROLL}...for any tourists who need help.{SCROLL}Once you’ve helped one tourist, come{NEWLINE}back and tell me, and you’ll have passed{CLEAR}the Three Island trial.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 212,
+   "zh": "冠军大人帮游客找回走丢女儿的事{NEWLINE}我已经听说了。{CLEAR}多亏了这件事,{CLEAR}三之岛的旅游口碑又上升了。{CLEAR}我认可您通过了三之岛的考验,{CLEAR}请去其他岛继续您的巡礼旅程吧。",
+   "en": "I’ve heard how you helped a tourist find{NEWLINE}their lost daughter, Champion.{SCROLL}Thanks to that, Three Island’s good{NEWLINE}name with tourists has grown even more.{SCROLL}I declare that you’ve passed the Three{NEWLINE}Island trial. Please continue your{CLEAR}pilgrimage on the other islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 213,
+   "zh": "我来接受诸岛巡礼的考验",
+   "en": "I’m here for the trial",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 214,
+   "zh": "没事,我就是来逛逛的",
+   "en": "Just looking around",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 215,
+   "zh": "既然你通过了极梅婆婆{NEWLINE}的试验，那么我相信你一定{CLEAR}能用好这个道具。{SCROLL}这是我在卡洛斯{NEWLINE}地区游历的时候，{CLEAR}有个甲贺忍蛙的训练师{CLEAR}给我的，可以提升甲贺忍蛙{CLEAR}的所有潜力。{CLEAR}我相信你有甲贺忍蛙的话，{CLEAR}一定能发挥他的最大潜力吧。{SCROLL}",
+   "en": "Since you passed Granny Mae’s trial,{NEWLINE}I’m sure you’ll make good use of this{CLEAR}item.{SCROLL}A Greninja Trainer gave it to me when I{NEWLINE}traveled in the Kalos region.{SCROLL}It can unlock all of Greninja’s{NEWLINE}potential.{SCROLL}If you have a Greninja, I’m sure you’ll{NEWLINE}bring out its full power.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

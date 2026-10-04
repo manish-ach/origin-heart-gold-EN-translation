@@ -1,0 +1,121 @@
+# --- ROMs: never publish ----------------------------------------------------
+# Retail dumps, hack previews and our own builds are all copyrighted game data.
+*.nds
+*.srl
+*.sav
+*.dsv
+
+# --- Third-party patches and reference material -----------------------------
+# The original hack's xdelta patches (90-105 MB each; one is over GitHub's
+# 100 MB limit). Not ours to redistribute; keep them local.
+*.delta
+# The original author's spreadsheets (encounters, items, Pokémon list, docs).
+/*.xls
+/*.xlsx
+# Scraped forum thread kept for research.
+/reddit-thread-*.md
+# Downloaded Chinese documentation, page snapshots and research attachments.
+/work/research/chinese_sources/
+
+# --- Text dumped from ROMs ---------------------------------------------------
+# Regenerate with `msgtool.py extract` from your own dumps.
+/work/extract/
+
+# --- Graphics built from ROMs -----------------------------------------------
+# Nintendo / hack art composed by `gfx.py make-*`. build.py regenerates them
+# from your own ROMs (gfx.py regenerate). The hg-engine files in
+# work/graphics/vendor/ stay tracked: licensed and credited (CREDITS.md).
+/work/graphics/generated/
+/work/graphics/weather_en/
+/work/graphics/dex_type_list_en.png
+/work/graphics/naming_labels_en.png
+
+# --- Seeding inputs: not needed by the tools, unclear rights ------------------
+# One-off inputs that seeded translate/banks. Everything useful from them is in
+# the banks now. They hold official Nintendo text, the v3 hack's text and
+# pret constants. Regenerate with work/translate/scripts/ from your own ROMs.
+/work/translate/ref/
+/work/translate/us_ref.json
+/work/translate/us_reuse.jsonl
+/work/translate/tm_v3.jsonl
+/work/translate/tm_v4_matches.jsonl
+
+# --- Translation workspace: official foreign-language data ----------------------
+# The hack ships the official EN/FR/DE/IT/ES Pokédex entries, species names and
+# categories untranslated. Their workspace banks are pure copies of the dump, so
+# they are not published: `python3 work/tools/ws.py init --narc a027` regenerates
+# them from work/extract/v4 (list: work/tools/qa_config.json "passthrough_banks").
+/work/translate/banks/a027/079[3-7].json
+/work/translate/banks/a027/080[4-9].json
+/work/translate/banks/a027/081[0-3].json
+# PokéAPI CSVs; build_glossary.py downloads them again when missing.
+/work/glossary/src/
+# ACG character table (GPL-3.0, from Xzonn's repo); only for reading the old v3 patches.
+/work/tools/charmaps/charmap_zh_acg_hgss.tsv
+
+# --- Build outputs -----------------------------------------------------------
+# Our own patches get published as GitHub Release assets, not committed.
+*.xdelta
+/work/build/
+/work/release/
+
+# --- Local snapshots ---------------------------------------------------------
+# Tarballs of translate/banks at checkpoints. Git history replaces these.
+/work/snapshots/
+*.tgz
+
+# --- Tool state --------------------------------------------------------------
+# ROM caches (pickled game code/scripts, e.g. work/tools/audit/raw.pkl): game data, never publish.
+*.pkl
+*.lock
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- OS / editor clutter -----------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Translations of the hack author's own spreadsheets: keep local until the authors (Alex / 雁南飞TB) agree to publication.
+/work/docs/author_notes/
+
+# --- Generated files that rebuild from the repo alone --------------------------
+# See README.md "Generated files" for the commands.
+/work/translate/decisions/DIGEST.md
+/work/translate/decisions/DECISIONS.md
+/work/translate/decisions/decisions.csv
+/work/translate/decisions/HACK_FINDINGS.md
+/work/translate/decisions/rewrap/
+# Seeding intermediates: only the seeding scripts read them (rebuild needs ROMs).
+/work/translate/manifest.json
+/work/translate/bank_map_us_v4.json
+/work/translate/bank_map_v3_v4.json
+/work/translate/char_fold_v3.json
+/work/translate/tm_v3_stats.json
+/work/translate/tm_v4_coverage.json
+/work/translate/us_reuse_summary.json
+# Patch-preview reports (msgtool.py patch-preview); nothing reads them.
+/work/rom/preview_*.json
+
+# --- Website (site/) ------------------------------------------------------------
+# site/src/data IS committed: it needs the ROM and CI has none. The guide pages
+# are rebuilt by CI from guide/*.md.
+site/src/content/docs/guide/
+site/node_modules/
+site/dist/
+site/.astro/
+# Built by CI from guide/*.md (work/tools/site/build_pdf.py).
+site/public/downloads/
+# The release patch the in-browser patcher serves (CI fetches it from the release; work/tools/site/patch_manifest.py --site locally).
+site/public/patch/
+
+# --- Save editor (work/save-editor/) -------------------------------------------
+# Compiled output, local dev-tool links, and local fixtures/test runs (these hold real saves).
+work/save-editor/node_modules/
+work/save-editor/dist/
+work/save-editor/local/

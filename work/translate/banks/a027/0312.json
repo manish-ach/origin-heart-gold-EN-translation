@@ -1,0 +1,451 @@
+{
+ "narc": "a027",
+ "bank": 312,
+ "source": "work/extract/v4/a027/0312.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "这里是１号道路{NEWLINE}南　真新镇",
+   "en": "Route 1{NEWLINE}South to Pallet Town",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Sign.",
+   "category": "sign"
+  },
+  {
+   "id": 1,
+   "zh": "常磐商店物美价优{NEWLINE}是广大训练师的不二之选！{SCROLL}一定不要错过！",
+   "en": "Viridian Mart: quality goods at great{NEWLINE}prices!{SCROLL}The top choice for Trainers{NEWLINE}everywhere! Don’t miss it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "常磐商店 = Viridian Mart (a salesman's pitch)."
+  },
+  {
+   "id": 2,
+   "zh": "一个人出门在外,{NEWLINE}不随身携带点道具物品,{CLEAR}恐怕难以应付漫长的旅途。{SCROLL}说起购买旅行道具,{NEWLINE}全关东地区都赫赫有名的常磐商店{CLEAR}绝对是您的不二之选！",
+   "en": "Heading out alone without any items? A{NEWLINE}long journey will be tough going.{SCROLL}For travel supplies, the Viridian Mart is{NEWLINE}the only choice!{SCROLL}It’s famous all over Kanto!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:0103:0}『呃,如果有需要,我会去的。",
+   "en": "{VAR:0103:0}: Uh... I’ll go if I need{NEWLINE}anything.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; ext-review RV-010"
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0103:0}『做生意可不只是动动嘴啊{NEWLINE}去常磐商店购物的话有什么优惠吗？",
+   "en": "{VAR:0103:0}: Talk is cheap, you know. Any{NEWLINE}discounts if I shop at the Viridian Mart?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 5,
+   "zh": "哈哈,您不需要犹豫,{NEWLINE}常磐商店的道具绝对物超所值。",
+   "en": "Ha ha, no need to hesitate! Viridian{NEWLINE}Mart items are well worth the price.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 6,
+   "zh": "为了表示我们的诚意{NEWLINE}请您先收下这个！",
+   "en": "To show you we mean it, please accept{NEWLINE}this first!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 7,
+   "zh": "这是我们常磐商店{NEWLINE}最畅销的树果汁！{CLEAR}营养美味,对精灵的身体也好。{SCROLL}如果觉得对您旅途有帮助,{NEWLINE}欢迎到常磐商店采购！",
+   "en": "It’s the Viridian Mart’s best-selling{NEWLINE}Berry Juice!{CLEAR}Tasty, healthy and good for Pokémon!{SCROLL}If it helps you on your journey, come{NEWLINE}stock up at the Viridian Mart!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 8,
+   "zh": "啊！是镇上的{VAR:0103:0}哥！{NEWLINE}偷偷告诉你,{SCROLL}我有自己的精灵了！",
+   "en": "Oh! It’s {VAR:0103:0} from town!{SCROLL}Want to know a secret? I’ve got my own{NEWLINE}Pokémon now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Wade (光一), male-player variant."
+  },
+  {
+   "id": 9,
+   "zh": "啊！是镇上的{VAR:0103:0}姐！{NEWLINE}偷偷告诉你,{SCROLL}我有自己的精灵了！",
+   "en": "Oh! It’s {VAR:0103:0} from town!{SCROLL}Want to know a secret? I’ve got my own{NEWLINE}Pokémon now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Wade (光一), female-player variant."
+  },
+  {
+   "id": 10,
+   "zh": "我偷偷跑出来玩的事{NEWLINE}不要告诉镇上人哟！",
+   "en": "Don’t tell anyone in town I snuck out to{NEWLINE}play, okay?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 11,
+   "zh": "梦幻『Me……Mew……",
+   "en": "Mew: Me... Mew...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "这只口袋妖怪似乎受伤了……",
+   "en": "This Pokémon seems to be hurt...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 13,
+   "zh": "梦幻『Mew！！！{SCROLL}梦幻的叫声有些凄厉……",
+   "en": "Mew: Mew!!!{SCROLL}Mew’s cry sounds pained...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "跑掉了……",
+   "en": "It ran away...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 15,
+   "zh": "小蓝『真新镇附近{NEWLINE}会有什么特别的精灵吗……",
+   "en": "Green: I wonder if there are any special{NEWLINE}Pokémon around Pallet Town...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Companion: Green (male player) / Red (female player)."
+  },
+  {
+   "id": 16,
+   "zh": "小赤『首先要丰富一下队伍的构成。",
+   "en": "Red: First, I need to fill out my team a{NEWLINE}bit.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 17,
+   "zh": "小蓝『又是小拉达啊,{NEWLINE}看来得换个地方试试了。",
+   "en": "Green: Rattata again? Guess I’d better{NEWLINE}try somewhere else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 18,
+   "zh": "小赤『普通系的小拉达啊,{NEWLINE}虽然不能克制其他属性,{CLEAR}却也很少受到克制,{CLEAR}也算不错啦。",
+   "en": "Red: A Normal-type Rattata, huh.{CLEAR}It doesn’t have an edge on any type,{NEWLINE}but hardly anything has an edge on it{CLEAR}either. Not bad!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 19,
+   "zh": "哦？你想向我挑战吗？{NEWLINE}我只跟有实力的训练家对战。{CLEAR}以你现在的水平我没有兴趣。",
+   "en": "Oh? You want to challenge me?{CLEAR}I only battle strong Trainers. At your{NEWLINE}level, I’m not interested.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 20,
+   "zh": "大哥哥就教教我如何抓精灵吧！{SCROLL}我也想跟精灵做朋友！",
+   "en": "Please teach me how to catch Pokémon!{SCROLL}I want to be friends with Pokémon too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 21,
+   "zh": "小蓝『好嘞,{NEWLINE}姐姐这就给你示范一下！",
+   "en": "Green: Sure thing! Watch me, I’ll show{NEWLINE}you how!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 had the wrong label (Blue)."
+  },
+  {
+   "id": 22,
+   "zh": "小赤『小意思,包在我身上！",
+   "en": "Red: Easy. Leave it to me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 23,
+   "zh": "小蓝『来,{NEWLINE}把它收下吧！",
+   "en": "Green: Here, it’s yours!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 24,
+   "zh": "小赤『给,从现在起你们就是朋友了！",
+   "en": "Red: Here. From now on, you two are{NEWLINE}friends!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 25,
+   "zh": "哇！{NEWLINE}这……真的可以吗？",
+   "en": "Wow! Is... is this really okay?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 26,
+   "zh": "哇！大哥哥要把小拉达送给我吗？",
+   "en": "Wow! You’re giving me Rattata?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 27,
+   "zh": "小蓝『当然啦,它现在是你的伙伴了！",
+   "en": "Green: Of course! It’s your partner{NEWLINE}now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 28,
+   "zh": "小赤『嘿嘿,{NEWLINE}你不是一直想要这样一个朋友吗？",
+   "en": "Red: Heh heh. Isn’t this the kind of{NEWLINE}friend you’ve always wanted?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 29,
+   "zh": "谢谢大姐姐！我们会是永远的好朋友！",
+   "en": "Thank you! We’ll be best friends{NEWLINE}forever!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 30,
+   "zh": "谢谢大哥哥！我会好好照顾小拉的！",
+   "en": "Thank you! I’ll take good care of{NEWLINE}Rattata!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 31,
+   "zh": "小蓝『好啦,咱们回常磐市吧！",
+   "en": "Green: Okay, let’s head back to Viridian{NEWLINE}City!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 32,
+   "zh": "小赤『好啦,咱们回常磐市吧！",
+   "en": "Red: Okay, let’s head back to Viridian{NEWLINE}City!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 33,
+   "zh": "啊！大姐姐等等我啊",
+   "en": "Ah! Wait for me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 34,
+   "zh": "啊！大哥哥等等我啊",
+   "en": "Ah! Wait for me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 35,
+   "zh": "你知道什么是种族值吗？{SCROLL}",
+   "en": "Do you know what base stats are?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 36,
+   "zh": "拉达『Rati,Rati！",
+   "en": "Raticate: Rati, rati!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "妈的滚远点！{NEWLINE}别在这里碍事！",
+   "en": "Get lost, dammit! Quit getting in the{NEWLINE}way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 38,
+   "zh": "按照足迹来看……{NEWLINE}应该是经过这里向北去了。",
+   "en": "Judging by these footprints... it went{NEWLINE}north through here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 39,
+   "zh": "火箭队正在执行任务,{NEWLINE}碍事者闪开！",
+   "en": "Team Rocket is on a mission! Out of the{NEWLINE}way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 40,
+   "zh": "哈哈,没事没事。",
+   "en": "Ha ha, it’s fine, it’s fine.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 41,
+   "zh": "种族值是决定口袋妖怪{NEWLINE}能力值强弱的最核心因素,{CLEAR}它只跟口袋妖怪的种类相关。{SCROLL}不过种族值高的精灵虽然潜力较大,{NEWLINE}但成长和进化都相对慢一些,{CLEAR}如果是新手训练家的话,{CLEAR}使用像拉达、绿毛虫这种{CLEAR}能快速升级进化的精灵{CLEAR}也是个不错的选择。",
+   "en": "Base stats are the key to how strong a{NEWLINE}Pokémon’s stats are.{SCROLL}They depend only on its species.{SCROLL}Pokémon with high base stats have more{NEWLINE}potential...{SCROLL}...but they grow and evolve more{NEWLINE}slowly.{SCROLL}For new Trainers, fast-growing Pokémon{NEWLINE}like Raticate and Caterpie are good too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (Names 拉达 (Raticate) as a fast-evolving beginner Pokémon next to Caterpie); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 42,
+   "zh": "这么说来你是一个{NEWLINE}很有经验的训练家啊。",
+   "en": "So you’re a pretty experienced Trainer,{NEWLINE}huh?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 43,
+   "zh": "看到前面的台阶了吗？{NEWLINE}虽然无法从下面上来,{CLEAR}但是从这里跳下去的话,{CLEAR}就可以避开草丛,很快地到达真新镇。",
+   "en": "See the ledge up ahead? You can’t climb{NEWLINE}it from below.{CLEAR}But if you jump down from here, you can{CLEAR}skip the grass and get to Pallet Town{CLEAR}fast.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 44,
+   "zh": "九尾『Niii——tal！",
+   "en": "Ninetales: Niii-tales!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "我能感受到{NEWLINE}你身为训练家的强大气场,{CLEAR}你愿意跟我来一场对战吗？{SCROLL}",
+   "en": "I can sense a powerful aura about you{NEWLINE}as a Trainer.{CLEAR}Will you battle me?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 46,
+   "zh": "你不渴望与强者交手吗？",
+   "en": "Don’t you long to face strong{NEWLINE}opponents?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 47,
+   "zh": "你想单打还是双打？{SCROLL}",
+   "en": "Single or Double Battle?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 48,
+   "zh": "单打",
+   "en": "Single",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 6 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 49,
+   "zh": "双打",
+   "en": "Double",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 5 source(s), same position; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 50,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), same position; other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 51,
+   "zh": "用哪种方式我都不会输的,来吧！",
+   "en": "Whichever it is, I won’t lose. Bring it{NEWLINE}on!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 52,
+   "zh": "你可真强啊。",
+   "en": "You’re really strong.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 53,
+   "zh": "说好是双打,{NEWLINE}你只带1只精灵就没意思了啊。",
+   "en": "We agreed on a Double Battle. It’s no{NEWLINE}fun if you only bring 1 Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 54,
+   "zh": "梦幻『Meeee——ew！",
+   "en": "Mew: Meeee-ew!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

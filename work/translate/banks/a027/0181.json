@@ -1,0 +1,407 @@
+{
+ "narc": "a027",
+ "bank": 181,
+ "source": "work/extract/v4/a027/0181.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "取消",
+   "en": "Cancel",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 1,
+   "zh": "{VAR:0103:0}",
+   "en": "{VAR:0103:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:1}",
+   "en": "{VAR:0103:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:0101:2}",
+   "en": "{VAR:0101:2}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0101:3}",
+   "en": "{VAR:0101:3}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:0101:4}",
+   "en": "{VAR:0101:4}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0101:5}",
+   "en": "{VAR:0101:5}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0101:6}",
+   "en": "{VAR:0101:6}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:0101:7}",
+   "en": "{VAR:0101:7}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0101:8}",
+   "en": "{VAR:0101:8}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0101:9}",
+   "en": "{VAR:0101:9}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0101:10}",
+   "en": "{VAR:0101:10}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0101:11}",
+   "en": "{VAR:0101:11}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0101:12}",
+   "en": "{VAR:0101:12}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0101:13}",
+   "en": "{VAR:0101:13}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "请选择精灵",
+   "en": "Choose a Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/15"
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0101:0}{NEWLINE}要做什么？",
+   "en": "What will you do{NEWLINE}with {VAR:0101:0}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0183/16"
+  },
+  {
+   "id": 17,
+   "zh": "查看能力",
+   "en": "SUMMARY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/17"
+  },
+  {
+   "id": 18,
+   "zh": "确定交换",
+   "en": "TRADE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/18"
+  },
+  {
+   "id": 19,
+   "zh": "返回",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/19"
+  },
+  {
+   "id": 20,
+   "zh": "通信待机中！{NEWLINE}请稍等。",
+   "en": "Communicating. Please stand by...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/20"
+  },
+  {
+   "id": 21,
+   "zh": "要用{VAR:0101:0}交换{VAR:0101:1}吗？",
+   "en": "Trade {VAR:0101:0} in return for{NEWLINE}{VAR:0101:1}?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/21"
+  },
+  {
+   "id": 22,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 23,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 24,
+   "zh": "交换被取消",
+   "en": "The trade has{NEWLINE}been canceled.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/24"
+  },
+  {
+   "id": 25,
+   "zh": "停止交换吗？",
+   "en": "Cancel trading?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/25"
+  },
+  {
+   "id": 26,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 27,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 28,
+   "zh": "等待好友的结束⋯⋯",
+   "en": "Waiting for your friend to finish...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/28"
+  },
+  {
+   "id": 29,
+   "zh": "打算进行{NEWLINE}精灵的交换！",
+   "en": "Your friend apparently wants to{NEWLINE}trade a Pokémon with you.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/29"
+  },
+  {
+   "id": 30,
+   "zh": "将{VAR:0101:0}送给了{VAR:0103:1}！",
+   "en": "{VAR:0101:0} will be sent to{NEWLINE}{VAR:0103:1}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/30"
+  },
+  {
+   "id": 31,
+   "zh": "再见！{VAR:0101:0}！",
+   "en": "Take care, {VAR:0101:0}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/31"
+  },
+  {
+   "id": 32,
+   "zh": "得到了{VAR:0103:1}赠送的{VAR:0101:0}！",
+   "en": "{VAR:0103:1} sent over{NEWLINE}{VAR:0101:0}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/32"
+  },
+  {
+   "id": 33,
+   "zh": "要好好对待{VAR:0101:0}啊！",
+   "en": "Take good care of {VAR:0101:0}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/33"
+  },
+  {
+   "id": 34,
+   "zh": "这个精灵一旦交换{NEWLINE}冒险就无法进行！",
+   "en": "If you trade that Pokémon, you’ll{NEWLINE}get stuck in your adventure!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/34"
+  },
+  {
+   "id": 35,
+   "zh": "正在保存,{NEWLINE}请不要切断电源。",
+   "en": "Saving...{NEWLINE}Please do not turn off the power.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 36,
+   "zh": "分离球贴可以吗？",
+   "en": "The Ball Capsule will become detached.{NEWLINE}Is that OK?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/36"
+  },
+  {
+   "id": 37,
+   "zh": "您持有不能交换的精灵。",
+   "en": "There is a Pokémon that cannot be{NEWLINE}traded in your party.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/37"
+  },
+  {
+   "id": 38,
+   "zh": "对方持有不能交换的精灵。",
+   "en": "There is a Pokémon that cannot be{NEWLINE}traded in the other Trainer’s party.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/38"
+  },
+  {
+   "id": 39,
+   "zh": "㊚",
+   "en": "♂",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "㊛",
+   "en": "♀",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "Ｌｖ．",
+   "en": "Lv.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "道具",
+   "en": "ITEM",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/42"
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0101:0}",
+   "en": "{VAR:0101:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0134:1}",
+   "en": "{VAR:0134:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0108:2}",
+   "en": "{VAR:0108:2}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "{VAR:0101:3}",
+   "en": "{VAR:0101:3}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "{VAR:0134:4}",
+   "en": "{VAR:0134:4}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "{VAR:0108:5}",
+   "en": "{VAR:0108:5}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "无",
+   "en": "None",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0183/49"
+  }
+ ]
+}

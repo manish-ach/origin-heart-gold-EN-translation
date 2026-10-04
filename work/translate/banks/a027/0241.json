@@ -1,0 +1,239 @@
+{
+ "narc": "a027",
+ "bank": 241,
+ "source": "work/extract/v4/a027/0241.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "返回",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/0"
+  },
+  {
+   "id": 1,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/1"
+  },
+  {
+   "id": 2,
+   "zh": "浇水",
+   "en": "WATER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/2"
+  },
+  {
+   "id": 3,
+   "zh": "种果实",
+   "en": "PLANT BERRY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/3"
+  },
+  {
+   "id": 4,
+   "zh": "浇肥料",
+   "en": "FERTILIZE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/4"
+  },
+  {
+   "id": 5,
+   "zh": "摘果实",
+   "en": "TAKE BERRIES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/5"
+  },
+  {
+   "id": 6,
+   "zh": "请触摸树果培养皿",
+   "en": "Touch one of the{NEWLINE}Berry Pots.{NEWLINE}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/6"
+  },
+  {
+   "id": 7,
+   "zh": "没有果实！",
+   "en": "You don’t have any Berries!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/7"
+  },
+  {
+   "id": 8,
+   "zh": "没有肥料！",
+   "en": "You don’t have any fertilizer!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/8"
+  },
+  {
+   "id": 9,
+   "zh": "←→键或触摸移动",
+   "en": "Press the left and right buttons or{NEWLINE}touch to move.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/9"
+  },
+  {
+   "id": 10,
+   "zh": "软软的地面",
+   "en": "It’s soft, earthy soil.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/10"
+  },
+  {
+   "id": 11,
+   "zh": "撒着{VAR:0108:2}！",
+   "en": "{VAR:0108:2} has been laid down.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/11"
+  },
+  {
+   "id": 12,
+   "zh": "种着{VAR:0108:0}的果实！",
+   "en": "The {VAR:0108:0} Berry is planted!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/12"
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0108:0}长出了幼苗！",
+   "en": "The {VAR:0108:0} Berry Plant{NEWLINE}has sprouted.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0108:0}树长大了！",
+   "en": "The {VAR:0108:0} Berry Plant is{NEWLINE}growing bigger.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0108:0}开花了！",
+   "en": "This {VAR:0108:0} Berry Plant{NEWLINE}is in bloom!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/15"
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0108:0}的果实{NEWLINE}结出了{VAR:0133:1}个！",
+   "en": "There are {VAR:0133:1} {VAR:0108:0} Berries!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/16"
+  },
+  {
+   "id": 17,
+   "zh": "在地上撒下{NEWLINE}{VAR:0108:2}！",
+   "en": "The {VAR:0108:2} was scattered{NEWLINE}on the soil.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/17"
+  },
+  {
+   "id": 18,
+   "zh": "软软的土地上长出了{NEWLINE}{VAR:0108:0}的果实！",
+   "en": "The {VAR:0108:0} Berry was planted{NEWLINE}in the soft, earthy soil.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/18"
+  },
+  {
+   "id": 19,
+   "zh": "看上去非常享受呢！",
+   "en": "It looks like it’s really enjoying it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "摘下了{VAR:0108:0}的果实{NEWLINE}{VAR:0133:1}个！",
+   "en": "You picked the{NEWLINE}{VAR:0133:1} {VAR:0108:0} Berries.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/20"
+  },
+  {
+   "id": 21,
+   "zh": "将{VAR:0108:0}的果实收进背包！{NEWLINE}又变成了软软的土地",
+   "en": "Put away the {VAR:0108:0} Berries!{NEWLINE}The soil is in a soft, earthy state.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/21"
+  },
+  {
+   "id": 22,
+   "zh": "背包满了,{NEWLINE}放弃了{VAR:0108:0}的果实",
+   "en": "The Bag is full. Gave up on{NEWLINE}the {VAR:0108:0} Berries.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/22"
+  },
+  {
+   "id": 23,
+   "zh": "-----",
+   "en": "-----",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "Ｎ　{VAR:0133:0}/{VAR:0133:1}/{VAR:0133:2} {VAR:0133:3}:{VAR:0133:4}:{VAR:0133:5}　Ｓ　{VAR:0133:6}/{VAR:0133:7}/{VAR:0133:8} {VAR:0133:9}:{VAR:0133:10}:{VAR:0133:11}",
+   "en": "N {VAR:0133:0}/{VAR:0133:1}/{VAR:0133:2} {VAR:0133:3}:{VAR:0133:4}:{VAR:0133:5} S {VAR:0133:6}/{VAR:0133:7}/{VAR:0133:8} {VAR:0133:9}:{VAR:0133:10}:{VAR:0133:11}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "Ｄ　{VAR:0137:0}:{VAR:0133:1}:{VAR:0133:2}　TIME-RATE {VAR:0134:3}倍",
+   "en": "D {VAR:0137:0}:{VAR:0133:1}:{VAR:0133:2} TIME-RATE {VAR:0134:3} times",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/25"
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0108:0}：{VAR:0108:1}",
+   "en": "{VAR:0108:0}:{VAR:0108:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "{VAR:0108:0}：{VAR:0108:1} ST{VAR:0132:2} CT{VAR:0133:3}{NEWLINE}N:{VAR:0135:4} D:{VAR:0135:5} SH:{VAR:0133:6} GH:{VAR:0134:7}",
+   "en": "{VAR:0108:0}:{VAR:0108:1} ST{VAR:0132:2} CT{VAR:0133:3}{NEWLINE}N:{VAR:0135:4} D:{VAR:0135:5} SH:{VAR:0133:6} GH:{VAR:0134:7}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "无",
+   "en": "NONE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0248/28"
+  }
+ ]
+}

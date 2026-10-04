@@ -1,0 +1,17 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import SaveEditor from '../../components/SaveEditor.astro';
+---
+<StarlightPage frontmatter={{
+  title: 'Save editor',
+  description: 'Edit your English Origin HeartGold party, money and bag locally in your browser.',
+  tableOfContents: false,
+  head: [{ tag: 'meta', attrs: {
+    'http-equiv': 'Content-Security-Policy',
+    content: "connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'",
+  } }],
+}}>
+  <p>Edit your party, money and bag in English Origin HeartGold v4.0.3. Your save stays on your device; no ROM or upload is needed.</p>
+  <SaveEditor />
+  <p class="save-editor-scope">PC boxes, story flags, quests and progression are outside the editor’s scope. Keep a backup until you have loaded the downloaded save in-game and checked your changes.</p>
+</StarlightPage>

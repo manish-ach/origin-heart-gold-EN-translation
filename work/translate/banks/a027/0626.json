@@ -1,0 +1,559 @@
+{
+ "narc": "a027",
+ "bank": 626,
+ "source": "work/extract/v4/a027/0626.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "那个……{NEWLINE}你是谁来着？{SCROLL}……　……　……{NEWLINE}……　……　……{SCROLL}我？{NEWLINE}我是遗忘大叔！{SCROLL}",
+   "en": "Um...{NEWLINE}Who did you say I was again?{SCROLL}...{NEWLINE}...{SCROLL}Oh, yes, I remember now!{NEWLINE}I’m the Move Deleter!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/0"
+  },
+  {
+   "id": 1,
+   "zh": "你是来让精灵{NEWLINE}忘记技能的吗？{VAR:0200:0}",
+   "en": "You’ve come to make me force your{NEWLINE}Pokémon to forget some moves? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/1"
+  },
+  {
+   "id": 2,
+   "zh": "要选择哪个精灵呢？{SCROLL}",
+   "en": "Which Pokémon should it be?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0635/12 | seed rejected us [ambiguous US match] (candidate US 0635#12; text not kept)"
+  },
+  {
+   "id": 3,
+   "zh": "想要忘记技能的时候{NEWLINE}就来找我吧！",
+   "en": "Remember me if there are moves that{NEWLINE}need to be forgotten.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/3"
+  },
+  {
+   "id": 4,
+   "zh": "什么？这只精灵可只{NEWLINE}记得一个技能啊。{SCROLL}",
+   "en": "That Pokémon knows only one move,{NEWLINE}so it can’t be forgotten...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/4"
+  },
+  {
+   "id": 5,
+   "zh": "什么？这个是蛋啊！{NEWLINE}什么技能也没学会……{SCROLL}",
+   "en": "What? That’s an Egg.{NEWLINE}No Egg should know any moves.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/5"
+  },
+  {
+   "id": 6,
+   "zh": "嗯……那么{NEWLINE}你想要忘记哪个技能呢？{SCROLL}",
+   "en": "OK, then.{NEWLINE}Which move should be forgotten?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/6"
+  },
+  {
+   "id": 7,
+   "zh": "忘记{NEWLINE}{VAR:0106:0},是吧？{VAR:0200:0}",
+   "en": "Hm! The move {VAR:0106:0}?{NEWLINE}Should that move be forgotten? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/7"
+  },
+  {
+   "id": 8,
+   "zh": "遗忘成功！{SCROLL}你的精灵{NEWLINE}忘记了{VAR:0106:0}！",
+   "en": "It worked perfectly!{SCROLL}Your Pokémon has forgotten the move{NEWLINE}{VAR:0106:0} completely.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/8"
+  },
+  {
+   "id": 9,
+   "zh": "我？{NEWLINE}我是技能爱好者。{SCROLL}精灵在成长过程中记住的{NEWLINE}技能我全部都知道,{SCROLL}所以我可以让你的精灵{NEWLINE}回忆起已经忘掉的{CLEAR}技能哦,嘿嘿！{SCROLL}但是我也不白干,{SCROLL}给我一枚心之鳞片的话,{NEWLINE}我就帮你想起一个技能！",
+   "en": "Me?{NEWLINE}I’m the Pokémon Move Maniac.{SCROLL}I know every move that Pokémon learn{NEWLINE}while they’re leveling up, and I can{CLEAR}make Pokémon remember those moves.{SCROLL}I can make a Pokémon of yours remember{NEWLINE}a move if you’d like.{SCROLL}But...ahem! It’ll cost you.{SCROLL}I’ll make a Pokémon remember a move{NEWLINE}if you’ll trade me a Heart Scale.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/9"
+  },
+  {
+   "id": 10,
+   "zh": "没错！{NEWLINE}就是这个心之鳞片！{SCROLL}可以帮你回忆起一个技能！{SCROLL}",
+   "en": "Ha! That’s it! That’s an honest-to-{NEWLINE}goodness Heart Scale!{SCROLL}Let me guess, you want me to teach{NEWLINE}one of your Pokémon a move?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/10"
+  },
+  {
+   "id": 11,
+   "zh": "有想要回忆起的技能的话,{NEWLINE}就拿来心之鳞片吧！",
+   "en": "If any of your Pokémon needs to learn a{NEWLINE}move, come back with a Heart Scale.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/11"
+  },
+  {
+   "id": 12,
+   "zh": "要选择哪个精灵？{SCROLL}",
+   "en": "Which Pokémon needs tutoring?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/12"
+  },
+  {
+   "id": 13,
+   "zh": "要回忆起哪个技能？{SCROLL}",
+   "en": "Which move should I make it remember?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/13"
+  },
+  {
+   "id": 14,
+   "zh": "抱歉……{SCROLL}没有可以让这只精灵{NEWLINE}回忆起的技能。",
+   "en": "Sorry...{SCROLL}There isn’t any move I can make{NEWLINE}that Pokémon remember.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/14"
+  },
+  {
+   "id": 15,
+   "zh": "唔……{SCROLL}想让蛋回忆起技能？{NEWLINE}这个不太可能吧？{SCROLL}它还没出生呢！",
+   "en": "Hunh?{SCROLL}Don’t you think it’d be tough for{NEWLINE}an Egg to remember a move?{SCROLL}It’s not even hatched.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/15"
+  },
+  {
+   "id": 16,
+   "zh": "想让{VAR:0100:0}{NEWLINE}回忆起哪个技能？",
+   "en": "Which move should {VAR:0100:0} remember?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "回忆{NEWLINE}{VAR:0106:0}吗？",
+   "en": "Remember{NEWLINE}{VAR:0106:0}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Move Reminder prompts #16-#24 have no US counterpart in the workspace; written from the zh"
+  },
+  {
+   "id": 18,
+   "zh": "放弃让{NEWLINE}{VAR:0100:0}{CLEAR}回忆技能吗？{VAR:0200:0}",
+   "en": "Give up on having {VAR:0100:0}{NEWLINE}remember a move?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0100:0}{NEWLINE}回忆起了{VAR:0106:1}！",
+   "en": "{VAR:0100:0} remembered {VAR:0106:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0100:0}想要{NEWLINE}再次回忆{VAR:0106:1}……！{SCROLL}但是{VAR:0100:0}{NEWLINE}已经有４个技能了！{SCROLL}要为了{VAR:0106:1},{NEWLINE}忘记其他的技能吗？{VAR:0200:0}",
+   "en": "{VAR:0100:0} wants to remember{NEWLINE}{VAR:0106:1} again...!{SCROLL}But {VAR:0100:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move to{NEWLINE}remember {VAR:0106:1}?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh uses full-width ４ for four"
+  },
+  {
+   "id": 21,
+   "zh": "那么,要放弃{NEWLINE}回忆{VAR:0106:1}吗？{VAR:0200:0}",
+   "en": "Then give up on{NEWLINE}remembering {VAR:0106:1}?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0100:0}没有{NEWLINE}回忆{VAR:0106:1}！",
+   "en": "{VAR:0100:0} did not{NEWLINE}remember {VAR:0106:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "忘记{NEWLINE}{VAR:0106:1}可以吗？",
+   "en": "Forget{NEWLINE}{VAR:0106:1}. Is that OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "１　２　……完成！{SCROLL}{VAR:0100:0}完全忘记了{NEWLINE}{VAR:0106:1}的使用方法！{SCROLL}然后……{SCROLL}{VAR:0100:0}想起了{NEWLINE}遗忘的{VAR:0106:2}！",
+   "en": "1, 2 and... Poof!{SCROLL}{VAR:0100:0} forgot all{NEWLINE}about {VAR:0106:1}!{SCROLL}And...{SCROLL}{VAR:0100:0} remembered {VAR:0106:2}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "{VAR:0103:3}作为谢礼{NEWLINE}送出了一枚心之鳞片！",
+   "en": "{VAR:0103:3} handed over a Heart Scale as{NEWLINE}thanks!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0635/25; qa-lints: zh 作为谢礼 = as thanks; unified with 0526#19"
+  },
+  {
+   "id": 26,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "To which Pokémon should I teach{NEWLINE}a move?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/45"
+  },
+  {
+   "id": 27,
+   "zh": "呵呵~你好啊年轻人。{NEWLINE}想学习一下我所知道的{CLEAR}龙系最强技能吗？{VAR:0200:0}",
+   "en": "Ho ho! Hello, young one. Would{NEWLINE}you like to learn the strongest{CLEAR}Dragon-type move I know?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "这样啊,好吧,{NEWLINE}等你改变主意了再来吧。",
+   "en": "Well, perhaps if you change your{NEWLINE}mind, do come back.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/28"
+  },
+  {
+   "id": 29,
+   "zh": "原来如此……{NEWLINE}有这份心意不错！{SCROLL}不过你带着的精灵{NEWLINE}好像无法学习这个技能啊。",
+   "en": "I see...{NEWLINE}I like your sense of adventure.{SCROLL}However, none of the Pokémon with{NEWLINE}you now can learn the move.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/29"
+  },
+  {
+   "id": 30,
+   "zh": "那要让哪个精灵{NEWLINE}学习技能呢？{SCROLL}",
+   "en": "Which Pokémon should{NEWLINE}learn the move?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会流星群了！{SCROLL}",
+   "en": "This {VAR:0100:0} already{NEWLINE}knows Draco Meteor!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "抱歉啊……{SCROLL}这个精灵{NEWLINE}看样子不能学习这个技能啊。{SCROLL}",
+   "en": "Sorry...{SCROLL}This Pokémon doesn’t seem{NEWLINE}able to learn this move.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "唔……{SCROLL}让蛋学习这个技能{NEWLINE}有点太苛刻了……",
+   "en": "Hmm...{SCROLL}Teaching a move to an Egg is{NEWLINE}a challenge that’s beyond me.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/33"
+  },
+  {
+   "id": 34,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20}, 2{VAR:0201:20}, and{VAR:0201:20}... {VAR:0201:20}... Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl); qa-lints: unified with identical zh elsewhere (zh_variant)"
+  },
+  {
+   "id": 35,
+   "zh": "{VAR:0101:0}学会了流星群！",
+   "en": "{VAR:0101:0} learned Draco Meteor!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会流星群了！{SCROLL}流星群的威力相当强劲的！{NEWLINE}不过使用了之后{CLEAR}也会降低自己的特攻,{CLEAR}所以你要掌握好使用的时机才行。",
+   "en": "There! Your {VAR:0100:0}{NEWLINE}has learned Draco Meteor!{SCROLL}Draco Meteor is extremely{NEWLINE}powerful! But using it also lowers{CLEAR}the user’s Sp. Atk, so you have{CLEAR}to pick the right moment to use it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "{VAR:0100:0}想记住{NEWLINE}新技能{VAR:0106:1}……！{SCROLL}但是{VAR:0100:0}{NEWLINE}已经会４个技能了！{SCROLL}要为了{VAR:0106:1},{NEWLINE}忘记其他的技能吗？",
+   "en": "{VAR:0100:0} wants to learn the{NEWLINE}new move {VAR:0106:1}...!{SCROLL}But {VAR:0100:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move{NEWLINE}to learn {VAR:0106:1}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "那么,放弃{NEWLINE}学技能{VAR:0106:0}吗？",
+   "en": "Then give up on learning{NEWLINE}{VAR:0106:0}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "{VAR:0100:0}没有记住{NEWLINE}技能{VAR:0106:1}！",
+   "en": "{VAR:0100:0} did not learn {VAR:0106:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "忘记{NEWLINE}{VAR:0106:1},可以吗？",
+   "en": "Forget{NEWLINE}{VAR:0106:1}. Is that OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "１　２　……完成！{SCROLL}{VAR:0100:0}完全忘记了{NEWLINE}{VAR:0106:1}的使用方法！{SCROLL}然后……{SCROLL}{VAR:0100:0}记住了{NEWLINE}新技能{VAR:0106:2}！",
+   "en": "1, 2 and... Poof!{SCROLL}{VAR:0100:0} forgot all{NEWLINE}about {VAR:0106:1}!{SCROLL}And...{SCROLL}{VAR:0100:0} learned the{NEWLINE}new move {VAR:0106:2}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "流星群的威力{NEWLINE}相当强劲的！{SCROLL}不过使用了之后{NEWLINE}也会降低自己的特攻！",
+   "en": "Draco Meteor’s destructive power{NEWLINE}is awe inspiring.{SCROLL}However, using it will also lower{NEWLINE}the user’s Special Attack.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0635/42"
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的流星群……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习流星群{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to{NEWLINE}learn Draco Meteor...!{SCROLL}But {VAR:0101:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move{NEWLINE}to learn Draco Meteor?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0635/7 | seed rejected us [ambiguous US match] (candidate US 0635#7; text not kept) | v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 46,
+   "zh": "努力值对精灵能力的影响至关重要,{NEWLINE}高的「特攻」努力值{CLEAR}能让你精灵的特殊攻击增强许多。{SCROLL}只要你能给我一个解睡果,{NEWLINE}我就可以陪你锻炼一下{CLEAR}精灵的特攻努力值。{SCROLL}怎么样,需要我陪你练习吗？",
+   "en": "EVs make a huge difference to a{NEWLINE}Pokémon’s stats. High Sp. Atk{CLEAR}EVs will make your Pokémon’s{CLEAR}special attacks much stronger.{SCROLL}Give me one Chesto Berry, and I’ll help{NEWLINE}you train your Pokémon’s Sp. Atk EVs.{SCROLL}Well? Want me to train with you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "你是要放弃{NEWLINE}让它记住流星群吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Draco Meteor?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "你身上没有解睡果啊,{NEWLINE}等有解睡果了再来找我吧。",
+   "en": "You don’t have a Chesto Berry.{NEWLINE}Come back when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "我的精灵等级都不高,{NEWLINE}你放开手脚战斗就好。",
+   "en": "My Pokémon aren’t very high level,{NEWLINE}so go all out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "努力值对精灵能力的影响至关重要,{NEWLINE}高的「物攻」努力值{CLEAR}能让你精灵的攻击力增强许多。{SCROLL}只要你能给我一个烧伤果,{NEWLINE}我就可以陪你锻炼一下{CLEAR}精灵的物攻努力值。{SCROLL}怎么样,需要我陪你练习吗？",
+   "en": "EVs make a huge difference to{NEWLINE}a Pokémon’s stats. High Attack{CLEAR}EVs will make your Pokémon’s{CLEAR}physical attacks much stronger.{SCROLL}Give me one Rawst Berry, and I’ll help{NEWLINE}you train your Pokémon’s Attack EVs.{SCROLL}Well? Want me to train with you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "你身上没有烧伤果啊,{NEWLINE}等有烧伤果了再来找我吧。",
+   "en": "You don’t have a Rawst Berry.{NEWLINE}Come back when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "羊咩咩『Flaaa——fy！",
+   "en": "Flaaffy: Flaaa-fy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "哈克龙『Draaa——gon！",
+   "en": "Dragonair: Draaa-gon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "我们的儿子{NEWLINE}以成为精英训练家为目标,{CLEAR}出去旅行锻炼快3年了,{CLEAR}但至今仍然未归。{SCROLL}他是一个使用哈克龙{NEWLINE}但又没什么天赋{CLEAR}还常常把烟墨市训练家身份{CLEAR}挂在嘴边的人。{SCROLL}如果你在旅行途中遇到了他,{NEWLINE}拜托劝劝他,让他早点回家吧。{CLEAR}其实成不成为精英训练家并不重要,{CLEAR}我和孩子他妈都盼着他{CLEAR}早日平安回来呢。",
+   "en": "Our son set out almost 3 years{NEWLINE}ago to travel and train, aiming{CLEAR}to become an Ace Trainer, and{CLEAR}he still hasn’t come home.{SCROLL}He uses a Dragonair, but he’s{NEWLINE}not very talented, and he’s{CLEAR}always going on about being a{CLEAR}Trainer from Blackthorn City.{SCROLL}If you meet him on your travels,{NEWLINE}please talk him into coming home soon.{SCROLL}Whether he becomes an Ace Trainer{NEWLINE}doesn’t really matter. His mother and I{CLEAR}just want him back home safe and sound.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "也不知道我儿子在外面过得怎么样,{NEWLINE}真希望他能早点回来啊！",
+   "en": "I wonder how my son is getting{NEWLINE}along out there. I really{CLEAR}wish he’d come home soon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "自从儿子从外面平安回来后,{NEWLINE}我就再也不做乱七八糟的噩梦了。",
+   "en": "Ever since my son came home{NEWLINE}safe, I haven’t had any more{CLEAR}of those awful nightmares.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "忘记{NEWLINE}{VAR:0106:1},可以吗？",
+   "en": "Forget{NEWLINE}{VAR:0106:1}. Is that OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "谢谢你劝我们儿子回来啊,{NEWLINE}不然他可能还要在外面瞎逛很久。{CLEAR}如果送你一般的东西作为谢礼,{CLEAR}你这样厉害的训练家可能看不上。{SCROLL}这样吧,我看到很多{NEWLINE}来烟墨市挑战的训练家{CLEAR}都让自己的精灵学了一招{CLEAR}妖精系技能「嬉闹」。{CLEAR}我在这里看他们用得多了之后,{CLEAR}也学到了一些使用的窍门。{CLEAR}如果你的精灵想学习嬉闹的话,{CLEAR}我随时可以教它们。{SCROLL}怎么样,要让精灵学习嬉闹吗？",
+   "en": "Thank you for talking our son into{NEWLINE}coming home. Otherwise he might have{CLEAR}wandered around out there for ages.{SCROLL}An ordinary gift probably wouldn’t{NEWLINE}interest a strong Trainer like you.{SCROLL}So how about this? I’ve seen lots{NEWLINE}of Trainers who come to challenge{CLEAR}Blackthorn teach their Pokémon{CLEAR}the Fairy-type move Play Rough.{SCROLL}After watching them use it so often,{NEWLINE}I picked up a few tricks myself. If{CLEAR}your Pokémon want to learn Play{CLEAR}Rough, I can teach them anytime.{SCROLL}Well? Shall I teach one of{NEWLINE}your Pokémon Play Rough?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "虽然早就知道{NEWLINE}儿行千里母担忧这个道理,{CLEAR}但当我回来{CLEAR}父母把我一把抱住的时候,{CLEAR}我才真正体会到这句话的深刻。{SCROLL}呜呜呜,走了这么多地方后才发现,{NEWLINE}果然还是家最好啊。",
+   "en": "I always knew the saying that a{NEWLINE}mother worries when her child travels{CLEAR}far. But when I came home and my{CLEAR}parents threw their arms around me,{SCROLL}that’s when I truly{NEWLINE}understood how deep it runs.{SCROLL}*sob sob*... After going to so{NEWLINE}many places, I finally realize{CLEAR}there’s no place like home.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "the son of #54 after coming home"
+  },
+  {
+   "id": 60,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0635/45"
+  },
+  {
+   "id": 61,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it,{NEWLINE}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 62,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住嬉闹。{SCROLL}",
+   "en": "Sorry... This Pokémon{NEWLINE}can’t learn Play Rough.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 64,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会嬉闹了！{SCROLL}",
+   "en": "This {VAR:0100:0} already{NEWLINE}knows Play Rough!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "{VAR:0101:0}学会了嬉闹！",
+   "en": "{VAR:0101:0} learned Play Rough!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会嬉闹了！{SCROLL}这招对付龙系精灵效果拔群,{NEWLINE}如果你想挑战烟墨道馆,{CLEAR}它一定帮得上忙。",
+   "en": "There! Your {VAR:0100:0}{NEWLINE}has learned Play Rough!{SCROLL}This move is super effective against{NEWLINE}Dragon-type Pokémon. If you{CLEAR}want to challenge the Blackthorn{CLEAR}Gym, it’ll definitely help.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的嬉闹……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习嘻闹{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to{NEWLINE}learn Play Rough...!{SCROLL}But {VAR:0101:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move{NEWLINE}to learn Play Rough?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "你是要放弃{NEWLINE}让它记住嬉闹吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Play Rough?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

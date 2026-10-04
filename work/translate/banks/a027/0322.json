@@ -1,0 +1,415 @@
+{
+ "narc": "a027",
+ "bank": 322,
+ "source": "work/extract/v4/a027/0322.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "小姑娘,你旁边的那只青绵鸟{NEWLINE}很珍贵啊你知不知道。",
+   "en": "Little lady, do you have any idea how{NEWLINE}rare that Swablu next to you is?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Route 5 (Pokémon shelter girl outside the house of 0326). #0–37: Rocket grunt tries to take her Swablu, then her Bulbasaur or Growlithe. Bulbasaur / Growlithe alternate ids (#12/13, #14/15, #16/17, #18/19, #21/31, #35/36): probably depends on the player's starter (Growlithe if Bulbasaur was chosen?), not visible here."
+  },
+  {
+   "id": 1,
+   "zh": "这里的精灵都是{NEWLINE}心灵或者肉体上受过创伤的孩子,{CLEAR}请你不要打他们的主意！",
+   "en": "The Pokémon here have all been hurt, in{NEWLINE}body or in heart.{SCROLL}Please leave them alone!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 2,
+   "zh": "哪只精灵在战斗中不受伤呢,{NEWLINE}把它交给我好好锻炼一下,{CLEAR}它一定能成为不惧伤痛的七夕青鸟。",
+   "en": "What Pokémon doesn’t get hurt in{NEWLINE}battle?{SCROLL}Hand it over and I’ll train it right.{SCROLL}It’ll become an Altaria that doesn’t{NEWLINE}flinch at pain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 七夕青鸟 = Altaria (Swablu's evolution)."
+  },
+  {
+   "id": 3,
+   "zh": "想要七夕青鸟的话,{NEWLINE}就请你去野外抓吧,{CLEAR}不要盯着我这里的精灵不放。",
+   "en": "If you want an Altaria, go catch one in{NEWLINE}the wild. Stop eyeing the Pokémon here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh says 七夕青鸟 (Altaria); v3 had Swablu."
+  },
+  {
+   "id": 4,
+   "zh": "那可不行啊,{NEWLINE}难得遇见了珍贵的龙系精灵,{CLEAR}不让它成为我们火箭队的战力,{CLEAR}简直就是资源浪费。",
+   "en": "No can do. It’s not every day you find a{NEWLINE}rare Dragon-type.{SCROLL}Not putting it to work for Team Rocket{NEWLINE}would be a total waste.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 5,
+   "zh": "妙蛙种子『Bul！Ba！Sa！",
+   "en": "Bulbasaur: Bul! Ba! Saur!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 6,
+   "zh": "卡蒂狗『Grooo——li！",
+   "en": "Growlithe: Grooo-li!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "这么具有攻击性！{NEWLINE}哈哈,有潜力有潜力。{CLEAR}我会把你也带走的。{SCROLL}好了大狼犬,{NEWLINE}把这些精灵统统打趴下吧。",
+   "en": "So feisty! Ha ha, you’ve got potential.{NEWLINE}I’ll take you too.{SCROLL}All right, Mightyena. Knock all these{NEWLINE}Pokémon flat!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 8,
+   "zh": "大狼犬『Migh——ye！",
+   "en": "Mightyena: Migh-ye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "青绵鸟！快飞！{NEWLINE}飞的越远越好,{CLEAR}不能在这里被坏人抓住！",
+   "en": "Swablu! Fly! Fly as far away as you{NEWLINE}can! Don’t let these crooks catch you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 10,
+   "zh": "青绵鸟『Swa——lu……",
+   "en": "Swablu: Swa-lu...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "现在不是犹豫和告别的时候,{NEWLINE}快飞啊！",
+   "en": "This is no time for hesitating or{NEWLINE}goodbyes! Fly!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 12,
+   "zh": "我……靠！飞了？！{NEWLINE}到手的龙系精灵就这么没了！？{SCROLL}真是个会惹麻烦的臭女人。{SCROLL}也罢,这只妙蛙种子{NEWLINE}看起来也不错。{CLEAR}大狼犬,把它给我咬趴下。",
+   "en": "Aw, shit! It flew off?!{SCROLL}The Dragon-type I had in the bag, just{NEWLINE}gone?!{SCROLL}Damn troublemaking woman.{SCROLL}Fine. This Bulbasaur looks decent too.{NEWLINE}Mightyena, bite it till it drops.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 13,
+   "zh": "我……靠！飞了？！{NEWLINE}到手的龙系精灵就这么没了！？{SCROLL}真是个会惹麻烦的臭女人。{SCROLL}也罢,这只卡蒂狗{NEWLINE}看起来也不错。{CLEAR}大狼犬,把它给我咬趴下。",
+   "en": "Aw, shit! It flew off?!{SCROLL}The Dragon-type I had in the bag, just{NEWLINE}gone?!{SCROLL}Damn troublemaking woman.{SCROLL}Fine. This Growlithe looks decent too.{NEWLINE}Mightyena, bite it till it drops.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 14,
+   "zh": "妙蛙种子『Bu……",
+   "en": "Bulbasaur: Bu...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 15,
+   "zh": "卡蒂狗『G……Gro……",
+   "en": "Growlithe: G... Gro...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 16,
+   "zh": "嘿嘿,这绿王八不行了。{NEWLINE}去吧,精灵球！",
+   "en": "Heh heh, the green bastard’s done for.{NEWLINE}Go, Poké Ball!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 绿王八 (green turtle/bastard) at Bulbasaur."
+  },
+  {
+   "id": 17,
+   "zh": "嘿嘿,这桔皮狗不行了。{NEWLINE}去吧,精灵球！",
+   "en": "Heh heh, the orange mutt’s done for.{NEWLINE}Go, Poké Ball!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 18,
+   "zh": "妙蛙种子！",
+   "en": "Bulbasaur!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 19,
+   "zh": "卡蒂狗！",
+   "en": "Growlithe!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 20,
+   "zh": "美丽的小姐,{NEWLINE}不用担心你的精灵,{CLEAR}我会把它培养成优秀战士的,{CLEAR}哈哈哈！",
+   "en": "Don’t you worry about your Pokémon,{NEWLINE}pretty lady.{SCROLL}I’ll raise it into a fine fighter. Ha ha{NEWLINE}ha!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 21,
+   "zh": "青绵鸟……{SCROLL}妙蛙种子……{SCROLL}呜,呜呜……",
+   "en": "Swablu...{SCROLL}Bulbasaur...{SCROLL}Sob... sob...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 22,
+   "zh": "情况危急,{NEWLINE}要上前帮忙吗？{SCROLL}",
+   "en": "This looks bad. Step in and help?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 23,
+   "zh": "{VAR:0103:0}『够了！火箭队！",
+   "en": "{VAR:0103:0}: That’s enough, Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0103:0}『居然敢明目张胆地抢精灵,{NEWLINE}你们真是越来越过分了！",
+   "en": "{VAR:0103:0}: Stealing Pokémon right out in{NEWLINE}the open? You’re going too far!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 25,
+   "zh": "{VAR:0103:0}『你们做坏事{NEWLINE}越来越明目张胆了啊,{CLEAR}光天化日之下居然敢强抢精灵！",
+   "en": "{VAR:0103:0}: You’re getting bolder and{NEWLINE}bolder.{SCROLL}Robbing Pokémon in broad daylight!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 26,
+   "zh": "刚跑走了青绵鸟,{NEWLINE}就跑出来个碍事的小鬼。{CLEAR}是来给我当出气包讨打的吗？{SCROLL}上！土狼犬！{NEWLINE}撕碎他！",
+   "en": "The Swablu just got away, and now some{NEWLINE}meddling brat shows up.{SCROLL}Come to be my punching bag?{SCROLL}Go, Poochyena! Rip him apart!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 土狼犬 (Poochyena) here, 大狼犬 (Mightyena) in #7/#8/#12; kept as written. #26 male / #27 female player."
+  },
+  {
+   "id": 27,
+   "zh": "刚跑走了青绵鸟,{NEWLINE}就跑出来个碍事的小丫头。{CLEAR}是来给我当发泄工具的吗？{SCROLL}上！土狼犬！{NEWLINE}撕碎她的衣服！",
+   "en": "The Swablu just got away, and now some{NEWLINE}meddling girl shows up.{SCROLL}Come to be my punching bag?{SCROLL}Go, Poochyena! Tear her clothes off!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Faithful: zh 撕碎她的衣服 ('tear her clothes')."
+  },
+  {
+   "id": 28,
+   "zh": "混蛋,居然敢坏我的好事……{SCROLL}哼,总有一天我会让你好看的！",
+   "en": "You bastard... How dare you ruin my{NEWLINE}haul...{SCROLL}Hmph. One day I’ll make you pay!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 29,
+   "zh": "谢谢你出手相助,{NEWLINE}不然真的是不敢想象……{SCROLL}我现在要带孩子们回屋里去了,{NEWLINE}有空的话欢迎来坐坐。",
+   "en": "Thank you for stepping in. I don’t even{NEWLINE}want to think what would’ve happened...{SCROLL}I’m taking the little ones back inside{NEWLINE}now. Drop by if you have time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 30,
+   "zh": "好了,不要在外面玩了,{NEWLINE}咱们快回屋吧。",
+   "en": "All right, playtime’s over. Let’s go{NEWLINE}back inside.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 31,
+   "zh": "青绵鸟……{SCROLL}卡蒂狗……{SCROLL}呜,呜呜……",
+   "en": "Swablu...{SCROLL}Growlithe...{SCROLL}Sob... sob...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 32,
+   "zh": "我收养了很多被人遗弃或者{NEWLINE}在战斗中受伤的精灵,{CLEAR}帮它们在这里恢复身心的创伤。",
+   "en": "I take in Pokémon that were abandoned{NEWLINE}or hurt in battle, and help them heal,{CLEAR}body and heart.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 33,
+   "zh": "青绵鸟『Swa——lu！",
+   "en": "Swablu: Swa-lu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "走路草『Odi,Odis！",
+   "en": "Oddish: Odi, Odis!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 35,
+   "zh": "妙蛙种子『Bulba——Sa！",
+   "en": "Bulbasaur: Bulba-saur!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "卡蒂狗『Gro——li！",
+   "en": "Growlithe: Gro-li!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "这孩子大概是被训练家遗弃的,{NEWLINE}被我收养之后,{CLEAR}就在我这里担任起了警卫的工作。{SCROLL}它总会很有责任心地{NEWLINE}保护其他精灵呢。",
+   "en": "This one was probably abandoned by its{NEWLINE}Trainer.{SCROLL}After I took it in, it became the guard{NEWLINE}here.{SCROLL}It always takes its job of protecting{NEWLINE}the other Pokémon very seriously.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 38,
+   "zh": "小刚『这道屏障好坚硬,{NEWLINE}我的隆隆岩撞上去都纹丝不动！",
+   "en": "Brock: This barrier is so solid! My Golem{NEWLINE}slammed into it, and it didn’t budge!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#38–46, #49/#50: Saffron City barrier (Team Rocket occupation), post-Silph arc. #49 speaker unlabelled (Bill?)."
+  },
+  {
+   "id": 39,
+   "zh": "隆隆岩『Gooo——lem！",
+   "en": "Golem: Gooo-lem!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 40,
+   "zh": "小霞『{VAR:0103:0}也是来帮忙的吗？{NEWLINE}真是太好了！{CLEAR}你也快跟我们一起想想{CLEAR}怎么才能进入金黄市吧！",
+   "en": "Misty: {VAR:0103:0}, you’re here to help{NEWLINE}too? That’s great!{SCROLL}Help us figure out how to get into{NEWLINE}Saffron City!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 41,
+   "zh": "宝石海星『Sta——mi！",
+   "en": "Starmie: Sta-mi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 42,
+   "zh": "志霸『身为四大天王的我{NEWLINE}对自己的力量有绝对信心。{CLEAR}可是围绕金黄市的这道屏障,{CLEAR}似乎不是靠力量就能打破的。",
+   "en": "Bruno: As one of the Elite Four, I have{NEWLINE}total faith in my strength.{SCROLL}But this barrier around Saffron City{NEWLINE}doesn’t seem like something strength{CLEAR}alone can break.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 43,
+   "zh": "艾比郎『Hit——mon！",
+   "en": "Hitmonchan: Hit-mon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "正辉『{VAR:0103:0}你也要去金黄市？{NEWLINE}我本来是想去金黄市的西鲁夫公司{CLEAR}跟他们的技术部门做研发交流,{CLEAR}结果却被突然出现的屏障挡在了外面。{SCROLL}正辉『我在想既然无法{NEWLINE}通过正常渠道进入金黄市,{CLEAR}那么走电脑空间的话……{CLEAR}不不,这个方法太过危险……{CLEAR}还是想点别的办法吧。",
+   "en": "Bill: {VAR:0103:0}, you’re going to Saffron{NEWLINE}City too?{SCROLL}I was on my way to Silph Co. to trade{NEWLINE}research notes with their tech{CLEAR}department, but this barrier popped up{CLEAR}and shut me out.{SCROLL}Bill: If there’s no normal way into{NEWLINE}Saffron City, then maybe through{CLEAR}cyberspace...{SCROLL}No, no, that’s far too dangerous. I’d{NEWLINE}better think of something else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 45,
+   "zh": "小绿『{VAR:0103:0},我本来是想{NEWLINE}去金黄市挑战道馆的,{CLEAR}来这之后却被告知火箭队占领了城市,{CLEAR}现在无法通行了。{SCROLL}小绿『这帮人还真是学不乖啊,{NEWLINE}我要是能进到金黄市里面,{CLEAR}一定要让他们好看！",
+   "en": "Blue: {VAR:0103:0}, I came to challenge the{NEWLINE}Saffron Gym, but they told me Team{CLEAR}Rocket’s taken over the city and{CLEAR}nobody can get through.{SCROLL}Blue: Those guys never learn.{SCROLL}If I can just get inside Saffron City,{NEWLINE}I’ll show them!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 46,
+   "zh": "水箭龟『Blas——toi！",
+   "en": "Blastoise: Blas-toi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "下面是地下通道。{SCROLL}通过金黄市的地下,{NEWLINE}可以从华蓝市{CLEAR}到达枯叶市。",
+   "en": "Underground Path{SCROLL}You can travel from Cerulean City to{NEWLINE}Vermilion City on this path under{CLEAR}Saffron City.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0329/1"
+  },
+  {
+   "id": 48,
+   "zh": "贴着传单！{SCROLL}最近有不守礼节的训练家{NEWLINE}在地下通道{CLEAR}进行精灵对决,{SCROLL}因附近居民对此投诉,{CLEAR}故封闭地下通道！{CLEAR}　　　　……华蓝市警察",
+   "en": "There’s a notice posted!{SCROLL}Recently, ill-mannered Trainers have{NEWLINE}been holding Pokémon battles in the{CLEAR}Underground Path.{SCROLL}Due to complaints from local residents,{NEWLINE}the Underground Path is closed!{SCROLL}...Cerulean City Police",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "有个叫小绿的少年{NEWLINE}听说我可以通过寄存系统{CLEAR}把人传送到金黄市精灵中心,{CLEAR}就非要我把他传送过去。{CLEAR}唉,也不知道传送的效果怎么样,{CLEAR}他有没有被困在系统里。",
+   "en": "A boy named Blue heard I could send{NEWLINE}people to the Saffron City{CLEAR}Pokémon Center through the{CLEAR}storage system.{SCROLL}He insisted I send him. Sigh...{SCROLL}I don’t know if the transfer worked, or{NEWLINE}if he’s stuck in the system.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 50,
+   "zh": "前面有一道看不见的屏障,{NEWLINE}无法再向前走了。",
+   "en": "There’s an invisible barrier ahead. You{NEWLINE}can’t go any farther.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  }
+ ]
+}

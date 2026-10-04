@@ -1,0 +1,119 @@
+{
+ "narc": "a027",
+ "bank": 684,
+ "source": "work/extract/v4/a027/0684.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "赫尔",
+   "en": "Derek",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "赫尔 not in 0719; US contact Pokéfan Derek (US 0693)"
+  },
+  {
+   "id": 1,
+   "zh": "喂！和我做个朋友吧！{NEWLINE}喜欢精灵的{CLEAR}是不会有坏人的！{SCROLL}我们以后就多聊聊皮卡丘啊,{NEWLINE}呆呆兽啊,毒刺水母之类的{CLEAR}有关精灵的话题吧！{SCROLL}怎么样？和我交换电话号码吧？{VAR:0200:0}",
+   "en": "Hey, let’s be friends!{NEWLINE}I figure nobody who likes Pokémon{CLEAR}could be a bad person.{SCROLL}Let’s chat about Pikachu and Slowpoke{NEWLINE}and Tentacruel and all kinds of{CLEAR}other Pokémon. It’ll be fun!{CLEAR}What do you think?{SCROLL}Can I get your phone number?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0693/1; modernised from US 0693#1"
+  },
+  {
+   "id": 2,
+   "zh": "好！以后就多聊聊{NEWLINE}关于精灵的话题吧！",
+   "en": "Sure thing! If anything{NEWLINE}Pokémon-related comes up, I’ll call!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0693/2"
+  },
+  {
+   "id": 3,
+   "zh": "你⋯⋯{NEWLINE}讨厌精灵吗？",
+   "en": "You...{NEWLINE}I bet you don’t even like Pokémon...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0693/3"
+  },
+  {
+   "id": 4,
+   "zh": "我们尽情聊聊{NEWLINE}关于精灵的话题吧！{SCROLL}怎么样？和我交换{NEWLINE}电话号码吧？{VAR:0200:0}",
+   "en": "Let’s chat about Pokémon!{NEWLINE}Can I get your phone number?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0693/4"
+  },
+  {
+   "id": 5,
+   "zh": "等你好久了,{NEWLINE}来！这个给你！{SCROLL}你就收下吧,{NEWLINE}你的精灵也会很开心的。{SCROLL}",
+   "en": "I’ve been waiting ages for{NEWLINE}you! Here, this is for you!{SCROLL}Go on, take it. Your{NEWLINE}Pokémon will love it, too.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0693/5"
+  },
+  {
+   "id": 6,
+   "zh": "嗯？{NEWLINE}你就在我附近？{SCROLL}我当然知道了,{SCROLL}因为我看到了你身上散发出的{NEWLINE}对精灵的爱的灵气！{SCROLL}既然就在附近,{NEWLINE}那就直接来找我{CLEAR}聊聊关于精灵的话题吧！",
+   "en": "What’s that?{NEWLINE}Wait, you’re near me, aren’t you?{SCROLL}I can tell.{SCROLL}How? Because you give off this aura of{NEWLINE}affection for Pokémon!{SCROLL}If you’re nearby, come on and talk to{NEWLINE}me in person about Pokémon stuff!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0693/6"
+  },
+  {
+   "id": 7,
+   "zh": "听我说,{NEWLINE}我的{VAR:0100:10}{CLEAR}只要我轻轻捏一下它脸蛋,{CLEAR}就会开心地笑起来！{SCROLL}但要是别人去捏的话{NEWLINE}它就不会笑了⋯⋯{CLEAR}是不是我的很特别　啊？{SCROLL}啊！对了,{NEWLINE}前几天皮卡丘打败了{VAR:0100:11}！{SCROLL}是{VAR:0100:11}哦！{SCROLL}是不是很厉害啊！！{SCROLL}我的皮卡丘好厉害！{SCROLL}我的皮卡丘天下第一！{SCROLL}再见啦。",
+   "en": "Hey, listen to this.{NEWLINE}My {VAR:0100:10} totally grins when{CLEAR}I pinch its cheek.{SCROLL}But it never grins like that for{NEWLINE}anyone else. I must be special.{SCROLL}Oh, and just now, my Pikachu beat a{NEWLINE}wild {VAR:0100:11}!{CLEAR}A wild {VAR:0100:11}, I’m sayin’!{SCROLL}Yeah, amazing, isn’t it?{SCROLL}My Pikachu is awesome!{SCROLL}My Pikachu is the greatest!{NEWLINE}Talk to you later.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0693/7; modernised from US 0693#7"
+  },
+  {
+   "id": 8,
+   "zh": "听我说,{NEWLINE}我的{VAR:0100:10}{CLEAR}只要我轻轻捏一下它脸蛋,{CLEAR}就会开心地笑起来！{SCROLL}但要是别人去捏的话{NEWLINE}它就不会笑了⋯⋯{CLEAR}是不是我的很特别　啊？{SCROLL}啊！对了,{NEWLINE}之前我看到了{CLEAR}一只{VAR:0100:11}⋯⋯{SCROLL}但因为不怎么可爱{NEWLINE}所以放它走了⋯⋯{SCROLL}果然精灵一定要可爱才有人气啊。{SCROLL}再见啦。",
+   "en": "Hey, listen to this.{NEWLINE}My {VAR:0100:10} totally grins when{CLEAR}I pinch its cheek.{SCROLL}But it never grins like that for{NEWLINE}anyone else. I must be special.{SCROLL}Oh, and I saw a wild {VAR:0100:11} a{NEWLINE}little while ago. But it wasn’t very{CLEAR}cute, so I left it...{SCROLL}Pokémon have to be cute. They’re no{NEWLINE}good otherwise.{SCROLL}Talk to you later.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0693/8"
+  },
+  {
+   "id": 9,
+   "zh": "你的精灵们最近还好吗？{SCROLL}下次我们好好聊聊{NEWLINE}一些精灵的话题吧！",
+   "en": "How are your Pokémon doing?{SCROLL}Let’s get together and{NEWLINE}brag about our Pokémon!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0693/9"
+  },
+  {
+   "id": 10,
+   "zh": "我把金珠送给你吧。{SCROLL}我的皮卡丘可是{NEWLINE}非常喜欢这个的哦。{SCROLL}所以你的精灵{NEWLINE}也肯定会很喜欢的。",
+   "en": "I’d like you to have a Nugget.{SCROLL}My Pikachu just loves it.{SCROLL}I’m certain your Pokémon will love{NEWLINE}it, too!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0693/10; modernised from US 0693#10"
+  },
+  {
+   "id": 11,
+   "zh": "你怎么了？{NEWLINE}我在{VAR:0104:3},{CLEAR}你快来吧。",
+   "en": "What’s wrong?{NEWLINE}I’m waiting on {VAR:0104:3}.{CLEAR}Come and pick this up anytime.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0693/11"
+  },
+  {
+   "id": 12,
+   "zh": "你记得吗？{NEWLINE}今天是捕虫大会！{SCROLL}你应该也会去吧？{SCROLL}我也要带着皮卡丘{NEWLINE}去参加,我要让大家看看{CLEAR}它的可爱。",
+   "en": "Did you remember?{NEWLINE}The Bug-Catching Contest is today.{SCROLL}You’re going to go, aren’t you?{SCROLL}I think I’ll participate with Pikachu to{NEWLINE}show off its cuteness.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0693/12; modernised from US 0693#12"
+  },
+  {
+   "id": 13,
+   "zh": "今天在自然公园{NEWLINE}会举办捕虫大会。{CLEAR}{VAR:0103:0}会去吗？{SCROLL}我⋯⋯还在犹豫！",
+   "en": "The Bug-Catching Contest is at the{NEWLINE}National Park today.{SCROLL}Are you going, {VAR:0103:0}?{NEWLINE}I’m trying to make up my mind.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0693/13"
+  }
+ ]
+}

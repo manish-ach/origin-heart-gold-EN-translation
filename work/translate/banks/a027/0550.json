@@ -1,0 +1,522 @@
+{
+ "narc": "a027",
+ "bank": 550,
+ "source": "work/extract/v4/a027/0550.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "阿速『{VAR:0103:0}先生,欢迎您的到来。{NEWLINE}我深知作为冠军的您,{CLEAR}拥有我难以企及的力量。{CLEAR}如果以通常的规则与我进行道馆战,{CLEAR}对您来说恐怕过于简单,{CLEAR}为了体现您的实力,{CLEAR}我希望您能在我擅长的飞行系领域{CLEAR}将我打败。{SCROLL}阿速『所以如果您想{NEWLINE}从我这里获得飞翼徽章,{CLEAR}需要携带最多4只飞行系的精灵,{CLEAR}与我进行4V4单打对战。{CLEAR}如果您能获胜的话,{CLEAR}我将双手奉上飞翼徽章。{SCROLL}要向阿速发起挑战吗？",
+   "en": "Falkner: Welcome, Mr. {VAR:0103:0}.{NEWLINE}I know full well that, as Champion,{CLEAR}you possess a strength I cannot{CLEAR}hope to match. A Gym battle under{CLEAR}the usual rules would be far too{CLEAR}easy for you. To truly show your{CLEAR}strength, I would like you to defeat{CLEAR}me in my own specialty: Flying types.{SCROLL}Falkner: So if you want the Zephyr{NEWLINE}Badge from me, you must bring{CLEAR}no more than 4 Flying-type Pokémon{CLEAR}and face me in a 4-on-4 Single{CLEAR}Battle. If you win, I will gladly{CLEAR}present you with the Zephyr Badge.{SCROLL}Challenge Falkner?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Gender branch: male player #0 (4 Flying types, 4-on-4) vs female player #30 (3 Flying types, 3-on-3), as in the zh; #45/#46, #55/#56 Mr./Miss (as 0490 #10). #53 has only 先生; written without an honorific."
+  },
+  {
+   "id": 1,
+   "zh": "阿速『您真是了不起,{NEWLINE}居然能在我最擅长的飞行系领域{CLEAR}将我彻底打败。{CLEAR}作为击破道馆的证明,{CLEAR}这个飞翼徽章现在属于您了！{SCROLL}",
+   "en": "Falkner: You are truly remarkable.{NEWLINE}You defeated me utterly, in my own{CLEAR}specialty of Flying types. As proof{CLEAR}that you have conquered this Gym,{CLEAR}the Zephyr Badge is now yours!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}从阿速那得到了{NEWLINE}飞翼徽章！",
+   "en": "{VAR:0103:0} received{NEWLINE}the Zephyr Badge from Falkner!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0558/2"
+  },
+  {
+   "id": 3,
+   "zh": "阿速『作为让我大开眼界的感谢,{NEWLINE}请收下这个技能机。{SCROLL}",
+   "en": "Falkner: To thank you for opening{NEWLINE}my eyes, please accept this TM.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "阿速『技能机５１里面装有羽休。{NEWLINE}这是能让精灵回复{CLEAR}最大体力的一半的技能！{SCROLL}阿速『还有我的电话号码,{NEWLINE}请您顺道记下吧,{CLEAR}也方便我以后向您请教问题。",
+   "en": "Falkner: TM51 contains{NEWLINE}Roost. It restores up to{CLEAR}half of a Pokémon’s max HP!{SCROLL}Falkner: And please take down my phone{NEWLINE}number while you’re at it. That way I{CLEAR}can ask you for advice in the future.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "阿速『今后还有很多的{NEWLINE}精灵道馆。{CLEAR}去那里检验自己的实力吧。{SCROLL}下一个是……{NEWLINE}对了,去桧皮镇那{CLEAR}看看或许不错哦。",
+   "en": "Falkner: There are many more{NEWLINE}Pokémon Gyms ahead. Go and{CLEAR}test your strength there.{SCROLL}As for the next one... Yes, Azalea{NEWLINE}Town might be a good place to visit.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0558/5; US line adds a closing sentence (about training to be the best Bird Keeper) that the hack's zh doesn't have; retranslated."
+  },
+  {
+   "id": 6,
+   "zh": "呀！竟然是联盟冠军大驾光临。{SCROLL}您是来找阿速馆主的吗？{NEWLINE}他现在去了桔梗市北边的喇叭芽之塔{CLEAR}看望自己的几位「老朋友」去了,{CLEAR}您可以去那里找他。",
+   "en": "Oh! The League Champion, here{NEWLINE}in person! What an honor!{SCROLL}Are you looking for Falkner? He’s{NEWLINE}gone to Sprout Tower, north of{CLEAR}Violet City, to visit a few ‘old{CLEAR}friends.’ You can find him there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "‘himself, or herself’: the zh has no gender variant for this line."
+  },
+  {
+   "id": 7,
+   "zh": "冠军大人,阿速馆主是飞行系的专家,{NEWLINE}如果您向他发起挑战,{CLEAR}他一定会提出一些{CLEAR}稀奇古怪的对战规则{CLEAR}以限制您的发挥。{SCROLL}如果您暂时不能满足{NEWLINE}阿速馆主提出的挑战条件,{CLEAR}也可以先去其他地方旅行。{CLEAR}等您想挑战桔梗道馆了,{CLEAR}随时都可以回来展开挑战。",
+   "en": "Champion, Falkner is a Flying-type{NEWLINE}expert. If you challenge him,{CLEAR}I’m sure he’ll set some odd{CLEAR}battle rules to hold you back.{SCROLL}If you can’t meet Falkner’s{NEWLINE}conditions just yet, you can travel{CLEAR}somewhere else first. Whenever{CLEAR}you want to challenge the Violet{CLEAR}Gym, you can come back anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "真不愧是冠军,{NEWLINE}即使只用飞行系精灵{CLEAR}也能击败飞行系专家阿速馆主。{CLEAR}您真是全地区训练家的偶像啊。",
+   "en": "That’s the Champion for you! You{NEWLINE}beat Falkner, the Flying-type expert,{CLEAR}using only Flying types. You’re the{CLEAR}idol of every Trainer in the region!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "桔梗市　精灵道馆",
+   "en": "Violet City Pokémon Gym",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0558/9"
+  },
+  {
+   "id": 10,
+   "zh": "桔梗市精灵道馆{SCROLL}道馆馆主阿速{NEWLINE}曾经在这里与联盟冠军{VAR:0103:0}{CLEAR}进行了激烈的对战。",
+   "en": "Violet City Pokémon Gym{SCROLL}Gym Leader Falkner once{NEWLINE}fought a fierce battle here{CLEAR}with League Champion {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "您能只使用飞行系精灵{NEWLINE}击败阿速大人,{CLEAR}足以说明您对飞行系的研究之深,{CLEAR}那么「神鸟猛击」这个技能{CLEAR}想必您一定能够运用自如。{SCROLL}如果您有那只精灵想要学习神鸟猛击,{NEWLINE}随时可以来找我。{SCROLL}要学习神鸟猛击吗？",
+   "en": "You beat Master Falkner using only{NEWLINE}Flying types. That shows how deeply{CLEAR}you understand them, so I’m sure{CLEAR}you could wield Sky Attack with ease.{SCROLL}If any of your Pokémon wants to learn{NEWLINE}Sky Attack, come see me anytime.{SCROLL}Want to learn Sky Attack?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "想学的话随时可以来找我。",
+   "en": "If you want to learn it,{NEWLINE}come see me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 14,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住神鸟猛击。{SCROLL}",
+   "en": "Sorry... This Pokémon{NEWLINE}can’t learn Sky Attack.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 16,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会神鸟猛击了！{SCROLL}",
+   "en": "This {VAR:0100:0} already{NEWLINE}knows Sky Attack!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0101:0}学会了神鸟猛击！",
+   "en": "{VAR:0101:0} learned Sky Attack!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会神鸟猛击了！",
+   "en": "And with that, your {VAR:0100:0}{NEWLINE}has learned Sky Attack!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的神鸟猛击……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习神鸟猛击{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to{NEWLINE}learn Sky Attack...!{SCROLL}But {VAR:0101:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move{NEWLINE}to learn Sky Attack?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all{NEWLINE}about {VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 23,
+   "zh": "你是要放弃{NEWLINE}让它记住神鸟猛击吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Sky Attack?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "阿速馆主经过多年的钻研,{NEWLINE}将神鸟猛击的技能进行了改进,{CLEAR}原本需要蓄力才能施展的招式,{CLEAR}现在一回合就可以发出了。{CLEAR}但是这招改进后难度很大{CLEAR}对飞行系精灵没什么研究的人{CLEAR}恐怕不能掌握。{SCROLL}如果您能从阿速馆主那拿到徽章,{NEWLINE}我就可以把神鸟猛击招式教给您。",
+   "en": "After years of study, Falkner{NEWLINE}improved Sky Attack. It used to{CLEAR}need a turn to charge up, but{CLEAR}now it strikes in a single turn.{SCROLL}The improved move is very hard{NEWLINE}to master, though. Anyone who{CLEAR}hasn’t studied Flying types{CLEAR}probably can’t handle it.{SCROLL}If you get a Badge from Falkner,{NEWLINE}I can teach you Sky Attack.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "阿速『您身上携带的精灵超过了4只,{NEWLINE}请减少一下精灵数量再来挑战。",
+   "en": "Falkner: You have more than{NEWLINE}4 Pokémon with you. Please reduce{CLEAR}their number and challenge me again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "阿速『您只能使用{NEWLINE}飞行系的精灵与我战斗,{CLEAR}否则不足以体现您的强大。",
+   "en": "Falkner: You may only battle me with{NEWLINE}Flying-type Pokémon. Anything else{CLEAR}would not show your true strength.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "阿速『谢谢您愿意接受{NEWLINE}我这苛刻的挑战条件,{CLEAR}我将用尽全力回报您的这份心意！",
+   "en": "Falkner: Thank you for accepting my{NEWLINE}harsh conditions. I will answer your{CLEAR}goodwill with everything I have!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0103:0}把阿速的号码登录在了电话中。",
+   "en": "{VAR:0103:0} registered Falkner’s{NEWLINE}number in the Pokégear.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "阿速『我们桔梗市的警队,{NEWLINE}会继续以您为榜样,{CLEAR}坚决同罪恶斗争到底！",
+   "en": "Falkner: Our Violet City police squad{NEWLINE}will keep following your example{CLEAR}and fight crime to the very end!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "阿速『{VAR:0103:0}小姐,欢迎您的到来。{NEWLINE}我深知作为冠军的您,{CLEAR}拥有我难以企及的力量。{CLEAR}如果以通常的规则与我进行道馆战,{CLEAR}对您来说恐怕过于简单,{CLEAR}为了体现您的实力,{CLEAR}我希望您能在我擅长的飞行系领域{CLEAR}将我打败。{SCROLL}阿速『所以如果您想{NEWLINE}从我这里获得飞翼徽章,{CLEAR}需要携带最多3只飞行系的精灵,{CLEAR}与我进行3V3单打对战。{CLEAR}如果您能获胜的话,{CLEAR}我将双手奉上飞翼徽章。{SCROLL}要向阿速发起挑战吗？",
+   "en": "Falkner: Welcome, Miss {VAR:0103:0}.{NEWLINE}I know full well that, as Champion,{CLEAR}you possess a strength I cannot{CLEAR}hope to match. A Gym battle under{CLEAR}the usual rules would be far too{CLEAR}easy for you. To truly show your{CLEAR}strength, I would like you to defeat{CLEAR}me in my own specialty: Flying types.{SCROLL}Falkner: So if you want the Zephyr{NEWLINE}Badge from me, you must bring{CLEAR}no more than 3 Flying-type Pokémon{CLEAR}and face me in a 3-on-3 Single{CLEAR}Battle. If you win, I will gladly{CLEAR}present you with the Zephyr Badge.{SCROLL}Challenge Falkner?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "阿速『欢迎来我们道馆指导工作。{NEWLINE}上次跟您对战之后我意犹未尽,{CLEAR}不知您这次是否有时间{CLEAR}再与我来一场无限制的对战练习？",
+   "en": "Falkner: Welcome! Have you come{NEWLINE}to inspect our Gym? Our last battle{CLEAR}left me wanting more. Would you have{CLEAR}time for another practice battle,{CLEAR}with no restrictions this time?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "阿速『这次咱们是单打还是双打？",
+   "en": "Falkner: Singles or doubles this time?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 34,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 35,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 36,
+   "zh": "阿速『随时欢迎您再来指导。",
+   "en": "Falkner: You’re welcome to{NEWLINE}come and guide us anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "阿速『请看我这华丽的空中之舞！",
+   "en": "Falkner: Behold my{NEWLINE}magnificent aerial dance!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "阿速『越是跟您对战,{NEWLINE}越是感觉到自己的不足！",
+   "en": "Falkner: The more I battle you, the{NEWLINE}more I see my own shortcomings!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "阿速『这是双打对战,{NEWLINE}请您携带至少两只精灵。",
+   "en": "Falkner: This is a Double Battle.{NEWLINE}Please bring at least two Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "我们桔梗警队用的飞行系精灵,{NEWLINE}都是队员们从精灵蛋开始{CLEAR}孵化、培养、进化而来的,{CLEAR}对于我们来说就像孩子一样。",
+   "en": "Every Flying-type Pokémon in our{NEWLINE}Violet police squad was hatched,{CLEAR}raised and evolved by the officers{CLEAR}themselves, starting from an Egg.{CLEAR}They’re like our own children.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "我的天蝎因为外形的关系,{NEWLINE}总是被大家误以为是虫系精灵,{CLEAR}其实它跟阿速馆主的精灵们一样,{CLEAR}也是飞行系家族的一员哦！",
+   "en": "Because of the way it looks, everyone{NEWLINE}thinks my Gligar is a Bug type. But{CLEAR}it’s actually part of the Flying-type{CLEAR}family, just like Falkner’s Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "对于警察来说,{NEWLINE}飞行系精灵在侦查、追踪、{CLEAR}救援、战斗等方面都很擅长,{CLEAR}是最合适的伙伴。",
+   "en": "For police work, Flying types excel{NEWLINE}at scouting, tracking, rescue and{CLEAR}battle. They’re the perfect partners.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "天蝎『Gliii——ga！",
+   "en": "Gligar: Gliii-ga!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "比雕『Piii——dgeo！",
+   "en": "Pidgeot: Piii-dgeo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "阿速『哦呀,{VAR:0103:0}先生,欢迎欢迎。{NEWLINE}您今天是来桔梗道馆修行的吗？",
+   "en": "Falkner: Oh! Mr. {VAR:0103:0},{NEWLINE}welcome, welcome. Have you come{CLEAR}to train at the Violet Gym today?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "阿速『哦呀,{VAR:0103:0}小姐,欢迎欢迎。{NEWLINE}您今天是来桔梗道馆修行的吗？",
+   "en": "Falkner: Oh! Miss {VAR:0103:0},{NEWLINE}welcome, welcome. Have you come{CLEAR}to train at the Violet Gym today?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "{VAR:0103:0}『其实我是接到{NEWLINE}联盟总部的任务,{CLEAR}来桔梗道馆确认绿色宝珠安全的。",
+   "en": "{VAR:0103:0}: Actually, League{NEWLINE}HQ sent me to the Violet Gym to{CLEAR}make sure the Jade Orb is safe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "阿速『这一点您尽管放心,{NEWLINE}虽然现在各地都有发现{CLEAR}火箭队在暗中活动,{CLEAR}但我们桔梗市目前还没有{CLEAR}任何火箭队活动的迹象。{SCROLL}阿速『而且绿色宝珠就保存在{NEWLINE}我身后这面墙的暗格里,{CLEAR}除了历代桔梗道馆的馆主,{CLEAR}没有人知道该如何打开暗格。",
+   "en": "Falkner: Please rest assured on that{NEWLINE}point. Team Rocket has been spotted{CLEAR}working in secret all over, but there’s{CLEAR}no sign of them here in Violet City yet.{SCROLL}Falkner: What’s more, the Jade Orb{NEWLINE}is kept in a hidden compartment in the{CLEAR}wall behind me. No one but the Violet{CLEAR}Gym Leaders knows how to open it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0103:0}『红色和蓝色宝珠的保管者{NEWLINE}也都信誓旦旦地说不会有事,{CLEAR}但全都中了火箭队的算计。{CLEAR}所以你还是小心点好。",
+   "en": "{VAR:0103:0}: The keepers of the Red{NEWLINE}and Blue Orbs swore nothing would{CLEAR}happen too, and Team Rocket{CLEAR}outwitted every one of them.{CLEAR}So you’d better be careful.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "阿速『多谢您的提醒,{NEWLINE}我一定多加小心。",
+   "en": "Falkner: Thank you for the{NEWLINE}warning. I will be extra careful.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "阿速馆主！",
+   "en": "Falkner, sir!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#51–#63: Jade Orb theft; the marathon-trophy theft #54 is the diversion."
+  },
+  {
+   "id": 52,
+   "zh": "阿速『好,我知道了,{NEWLINE}这个案件我亲自去办。",
+   "en": "Falkner: Understood. I’ll{NEWLINE}handle this case personally.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "阿速『{VAR:0103:0}先生,{NEWLINE}桔梗市已经很久没发生过盗窃案了。{CLEAR}这次突然发生这种事,{CLEAR}或许跟火箭队近期的行动有关,{CLEAR}我觉得还是很有必要去看一下的,{CLEAR}您有时间的话也来看看吧。",
+   "en": "Falkner: {VAR:0103:0}, there hasn’t{NEWLINE}been a theft in Violet City in a long{CLEAR}time. For something like this to{CLEAR}happen so suddenly, it may be tied{CLEAR}to Team Rocket’s recent moves.{SCROLL}I think I should go and take a look.{NEWLINE}Please come too, if you have time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "城南发生了一起失窃案,{NEWLINE}马拉松健将家的黄金奖杯被偷了,{CLEAR}您需要去现场看一下吗？",
+   "en": "There’s been a theft in the south of{NEWLINE}town. The golden trophy was stolen{CLEAR}from the marathon runner’s house.{CLEAR}Will you go and look at the scene?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "阿速『{VAR:0103:0}先生……{NEWLINE}绿色宝珠……被拿走了……",
+   "en": "Falkner: Mr. {VAR:0103:0}... The{NEWLINE}Jade Orb... It’s been taken...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "阿速『{VAR:0103:0}小姐……{NEWLINE}绿色宝珠……被拿走了……",
+   "en": "Falkner: Miss {VAR:0103:0}... The{NEWLINE}Jade Orb... It’s been taken...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "{VAR:0103:0}『报告这件事的警卫说是{NEWLINE}前代馆主绿稚拿走的宝珠,{CLEAR}这是怎么回事？",
+   "en": "{VAR:0103:0}: The guard who reported{NEWLINE}it said the former Leader, Verdell,{CLEAR}took the Orb. What’s going on?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "阿速『您有所不知,{NEWLINE}这间桔梗道馆馆主一职,{CLEAR}是绿稚家族代代相传的,{CLEAR}绿色宝珠也一直是由他们家负责守护。{CLEAR}但达马兰奇主席建立精灵联盟后,{CLEAR}认为绿稚的德行和能力{CLEAR}都不能胜任馆主,{CLEAR}所以才通过公开选拔的方式,{CLEAR}任命我成为了新的桔梗道馆馆主。{SCROLL}阿速『我记得我就职的时候,{NEWLINE}绿稚还曾经来给我道喜祝贺,{CLEAR}真没想到他其实一直怀恨在心。",
+   "en": "Falkner: You may not know this,{NEWLINE}but the post of Violet Gym Leader{CLEAR}was passed down through Verdell’s{CLEAR}family for generations, and they{CLEAR}have always guarded the Jade Orb.{SCROLL}But when President Goodshow founded{NEWLINE}the Pokémon League, he decided that{CLEAR}Verdell had neither the character nor{CLEAR}the ability to be a Gym Leader. So he{CLEAR}held an open selection and appointed{CLEAR}me as the new Violet Gym Leader.{SCROLL}Falkner: I remember Verdell{NEWLINE}even came to congratulate me when I{CLEAR}took the post. I never imagined he’d{CLEAR}been nursing a grudge all along.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "{VAR:0103:0}『你觉得绿稚拿走绿色宝珠,{NEWLINE}只是私人的怀恨报复,{CLEAR}还是与火箭队勾结的预谋？",
+   "en": "{VAR:0103:0}: Do you think Verdell{NEWLINE}took the Jade Orb out of a{CLEAR}personal grudge? Or is this a plot{CLEAR}he cooked up with Team Rocket?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "阿速『在这个特殊的时段,{NEWLINE}桔梗市发生这样声东击西的盗窃案,{CLEAR}我觉得应该是火箭队和绿稚的合谋。",
+   "en": "Falkner: A diversionary theft in Violet{NEWLINE}City at a time like this... I believe Team{CLEAR}Rocket and Verdell planned it together.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "{VAR:0103:0}『好的,我会把这里的情况{NEWLINE}跟联盟总部报告的。{CLEAR}阿速馆主你也持续关注一下{CLEAR}绿稚和绿色宝珠的去向。",
+   "en": "{VAR:0103:0}: All right. I’ll report{NEWLINE}what happened here to League{CLEAR}HQ. Falkner, keep tracking{CLEAR}Verdell and the Jade Orb, too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "阿速『嗯,绿色宝珠是从我手上弄丢的,{NEWLINE}就算是死我也要把宝珠找回来！",
+   "en": "Falkner: Yes. The Jade Orb{NEWLINE}was lost on my watch. I’ll get{CLEAR}it back even if it kills me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "阿速『绿色宝珠是从我手上弄丢的,{NEWLINE}就算是死我也要把宝珠找回来！",
+   "en": "Falkner: The Jade Orb was{NEWLINE}lost on my watch. I’ll get{CLEAR}it back even if it kills me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,511 @@
+{
+ "narc": "a027",
+ "bank": 305,
+ "source": "work/extract/v4/a027/0305.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "欢迎,{NEWLINE}这里是口袋竞技的接待处,{SCROLL}您的精灵要参加试试吗？{VAR:0200:0}",
+   "en": "Welcome!{NEWLINE}This is the reception for admission.{SCROLL}Will you try the Pokéathlon? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/0"
+  },
+  {
+   "id": 1,
+   "zh": "欢迎,这里是全明星杯的{NEWLINE}接待处。{SCROLL}要挑战口袋竞技员限定的{CLEAR}炽烈激战吗？{VAR:0200:0}",
+   "en": "Welcome. This is the reception for the{NEWLINE}Supreme Cup.{SCROLL}Top Pokéathletes are waiting for you.{NEWLINE}Would you like to try{CLEAR}the challenge? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/1"
+  },
+  {
+   "id": 2,
+   "zh": "其他还有什么事吗？{VAR:0200:0}",
+   "en": "Is there anything else? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0312/2 | seed rejected us [tag_mismatch] (candidate US 0312#2; text not kept)"
+  },
+  {
+   "id": 3,
+   "zh": "要参加那项赛事呢？{VAR:0200:0}",
+   "en": "Which course would you like{NEWLINE}to try? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/3"
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0401:3}{NEWLINE}可以吗？{VAR:0200:0}",
+   "en": "{VAR:0401:3}, is that right? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "那么请这边走。{SCROLL}",
+   "en": "Please come this way.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/5"
+  },
+  {
+   "id": 6,
+   "zh": "口袋竞技马上就要开始了。{NEWLINE}队伍颜色是红色,{SCROLL}那么,请努力吧！{SCROLL}",
+   "en": "The Pokéathlon will begin right now.{NEWLINE}Your team color is red.{SCROLL}Good luck!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/6"
+  },
+  {
+   "id": 7,
+   "zh": "口袋竞技马上就要开始了,{NEWLINE}请前进吧。{SCROLL}",
+   "en": "The Pokéathlon will begin{NEWLINE}shortly. Please go on ahead.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:0103:0}{NEWLINE}换上了运动服！",
+   "en": "{VAR:0103:0} changed clothes.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/8"
+  },
+  {
+   "id": 9,
+   "zh": "那么这边请！{NEWLINE}请加油吧！{SCROLL}",
+   "en": "Right this way, please! Good luck!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "等待着您的{NEWLINE}下次参加。",
+   "en": "Please join us next time.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/10"
+  },
+  {
+   "id": 11,
+   "zh": "要听什么说明呢？{VAR:0200:0}",
+   "en": "What would you like to know about? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "口袋竞技是{NEWLINE}与３只精灵一起{CLEAR}参加３场比赛的体育盛典。{SCROLL}口袋竞技的赛事设有搭配{SCROLL}精灵个性的各种比赛。{SCROLL}请一定要带着３只精灵{NEWLINE}来参加口袋竞技啊。{SCROLL}",
+   "en": "The Pokéathlon is a sports festival in{NEWLINE}which you and three Pokémon compete in{CLEAR}three events.{SCROLL}The Pokéathlon has a variety of events{NEWLINE}to accommodate different aspects{CLEAR}of Pokémon.{SCROLL}Please come join us with three Pokémon!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/12"
+  },
+  {
+   "id": 13,
+   "zh": "全明星杯是{NEWLINE}由各地区精选{SCROLL}出来口袋竞技员{NEWLINE}参加的特殊赛事。{SCROLL}在全明星杯拿到冠军的话{SCROLL}就能得到比平常更多的点数。{SCROLL}请一定要试试挑战{NEWLINE}那些精英精灵们啊。{SCROLL}",
+   "en": "The Supreme Cup is a special course{NEWLINE}only for the top Pokéathletes{CLEAR}from all over the world.{SCROLL}You will earn more points than usual{NEWLINE}when you win a Supreme Cup!{SCROLL}Please, challenge the{NEWLINE}top Pokéathletes!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/13"
+  },
+  {
+   "id": 14,
+   "zh": "速度竞技{NEWLINE}是由３个以{CLEAR}速度为主的赛事{CLEAR}组成的。{SCROLL}跨越障碍冲向第一吧！{NEWLINE}「跨栏」{SCROLL}快速收集旗子吧！{NEWLINE}「抢旗」{SCROLL}讲究３只精灵间的配合！{NEWLINE}「赛跑」{SCROLL}拿到冠军就能得到{NEWLINE}速度奖章。{SCROLL}请一定要带着有自信的{NEWLINE}３只敏捷的精灵{CLEAR}来参加啊。{SCROLL}",
+   "en": "The Speed Course consists of three{NEWLINE}events that require good{CLEAR}Speed Performance.{SCROLL}“Hurdle Dash”{NEWLINE}Jump over the Hurdles to be{CLEAR}number one!{SCROLL}“Pennant Capture”{NEWLINE}Capture Pennants quickly!{SCROLL}“Relay Run”{NEWLINE}Show your teamwork!{SCROLL}When you win, you will be awarded{NEWLINE}the Speed Medal.{SCROLL}Choose three Pokémon with good Speed{NEWLINE}for these events.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/14"
+  },
+  {
+   "id": 15,
+   "zh": "力量竞技{NEWLINE}是由３个以{CLEAR}力量为主的赛事{CLEAR}组成的。{SCROLL}将结在一起的石板击碎吧！{NEWLINE}「劈石板」{SCROLL}推进圈里吧！{NEWLINE}「抢位置」{SCROLL}不断狂踢形成射门吧！{NEWLINE}「足球」{SCROLL}拿到冠军就能得到{NEWLINE}力量奖章。{SCROLL}请一定要带着有自信的{NEWLINE}３只强壮的精灵{CLEAR}来参加啊。{SCROLL}",
+   "en": "The Power Course consists of three{NEWLINE}events that require good{CLEAR}Power Performance.{SCROLL}“Block Smash”{NEWLINE}Smash all the Blocks!{SCROLL}“Circle Push”{NEWLINE}Push them out while you stay in!{SCROLL}“Goal Roll”{NEWLINE}Drive them out and roll the balls{CLEAR}toward the Goal!{SCROLL}When you win, you will be awarded{NEWLINE}the Power Medal.{SCROLL}Choose three Pokémon with good Power{NEWLINE}for these events.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/15"
+  },
+  {
+   "id": 16,
+   "zh": "耐力竞技{NEWLINE}是由３个以{CLEAR}耐力为主的赛事{CLEAR}组成的。{SCROLL}将对手挤出圈外吧！{NEWLINE}「撞人」{SCROLL}３只精灵的体力是关键！{NEWLINE}「赛跑」{SCROLL}在体力耗尽前不断破坏吧！{NEWLINE}「劈石板」{SCROLL}拿到冠军就能得到{NEWLINE}耐力奖章。{SCROLL}请一定要带着有自信的{NEWLINE}３只持久的精灵{CLEAR}来参加啊。{SCROLL}",
+   "en": "The Stamina Course consists of three{NEWLINE}events that require good{CLEAR}Stamina Performance.{SCROLL}“Ring Drop”{NEWLINE}Blow them away and stay on the Ring!{SCROLL}“Relay Run”{NEWLINE}The Stamina of all three is key!{SCROLL}“Block Smash”{CLEAR}Smash away as long as your{NEWLINE}Stamina holds!{SCROLL}When you win, you will be awarded{NEWLINE}the Stamina Medal.{SCROLL}Choose three Pokémon with good Stamina{NEWLINE}for these events.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/16"
+  },
+  {
+   "id": 17,
+   "zh": "跳跃竞技{NEWLINE}是由３个以{CLEAR}弹跳力为主的赛事{CLEAR}组成的。{SCROLL}用跳床朝着天空跳吧！{NEWLINE}「蹦床」{SCROLL}跳着接住飞碟！{NEWLINE}「抢飞碟」{SCROLL}用跳跃华丽地躲开栏吧！{NEWLINE}「跨栏」{SCROLL}拿到冠军就能得到{NEWLINE}跳跃奖章。{SCROLL}请一定要带着有自信的{NEWLINE}３只好弹跳的精灵{CLEAR}来参加啊。{SCROLL}",
+   "en": "The Jump Course consists of three{NEWLINE}events that require good{CLEAR}Jump Performance.{SCROLL}“Lamp Jump”{NEWLINE}Jump to the sky and hit Lamps!{SCROLL}“Disc Catch”{NEWLINE}Jump and catch flying Discs!{SCROLL}“Hurdle Dash”{NEWLINE}Jump over the Hurdles cleanly!{SCROLL}When you win, you will be awarded{NEWLINE}the Jump Medal.{SCROLL}Choose three Pokémon with good Jump{NEWLINE}for these events.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/17"
+  },
+  {
+   "id": 18,
+   "zh": "技巧竞技{NEWLINE}是由３个以{CLEAR}技术为主的赛事{CLEAR}组成的。{SCROLL}精准地扔雪球吧！{NEWLINE}「扔雪球」{SCROLL}目标明天,漂亮射门！{NEWLINE}「足球」{SCROLL}快速切换抢旗子吧！{NEWLINE}「抢旗」{SCROLL}拿到冠军就能得到{NEWLINE}技巧奖章。{SCROLL}请一定要带着有自信的{NEWLINE}３只技巧的精灵{CLEAR}来参加啊。{SCROLL}",
+   "en": "The Skill Course consists of three{NEWLINE}events that require good{CLEAR}Technique Performance.{SCROLL}“Snow Throw”{NEWLINE}Aim for them and throw Snow!{SCROLL}“Goal Roll”{NEWLINE}Roll the balls into the Goal!{SCROLL}“Pennant Capture”{NEWLINE}Make a quick turn and grab Pennants!{SCROLL}When you win, you will be awarded{NEWLINE}the Skill Medal.{SCROLL}Choose three Pokémon with good Skill{NEWLINE}for these events.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/18"
+  },
+  {
+   "id": 19,
+   "zh": "辛苦了！{SCROLL}这次的得分{NEWLINE}将转化为竞技点数。{SCROLL}",
+   "en": "Good job!{SCROLL}You will receive Athlete Points{NEWLINE}based on your score.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/19"
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0103:0}得到了{NEWLINE}{VAR:0135:2}点！",
+   "en": "{VAR:0103:0} received{NEWLINE}{VAR:0135:2} points!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/20"
+  },
+  {
+   "id": 21,
+   "zh": "等待着您的下次参加！",
+   "en": "We look forward to your next visit!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "另外,这次作为{NEWLINE}冠军奖励,将额外给您{CLEAR}{VAR:0134:2}点。{SCROLL}",
+   "en": "For winning these events,{NEWLINE}you will be awarded{CLEAR}another {VAR:0134:2} points.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/22"
+  },
+  {
+   "id": 23,
+   "zh": "恭喜！{NEWLINE}根据这次的成绩,{CLEAR}{VAR:0103:0}选手{CLEAR}能够进入博物馆的「信赖」{CLEAR}房间了。{SCROLL}",
+   "en": "Considering the performance this time,{NEWLINE}Pokéathlete {VAR:0103:0} will be{CLEAR}permitted to go to the “Trust” room.{CLEAR}Congratulations!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/23"
+  },
+  {
+   "id": 24,
+   "zh": "恭喜！{NEWLINE}根据这次的成绩,{CLEAR}{VAR:0103:0}选手{CLEAR}能够进入博物馆的「可能性」{CLEAR}房间了。{SCROLL}",
+   "en": "Considering the performance this time,{NEWLINE}Pokéathlete {VAR:0103:0} will be{CLEAR}permitted to go to the{CLEAR}“Potential” room.{CLEAR}Congratulations!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/24"
+  },
+  {
+   "id": 25,
+   "zh": "恭喜！{NEWLINE}根据这次的成绩,{CLEAR}{VAR:0103:0}选手{CLEAR}能够进入博物馆的「友情」{CLEAR}房间了。{SCROLL}",
+   "en": "Considering the performance this time,{NEWLINE}Pokéathlete {VAR:0103:0} will be{CLEAR}permitted to go to the{CLEAR}“Friendship” room.{CLEAR}Congratulations!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/25"
+  },
+  {
+   "id": 26,
+   "zh": "欢迎,这里是通信口袋竞技的{NEWLINE}接待处。{SCROLL}您的精灵能与朋友{NEWLINE}一起在 同一赛事中{CLEAR}进行比赛。{SCROLL}要参加{NEWLINE}通信口袋竞技吗？{VAR:0200:0}",
+   "en": "Welcome.{NEWLINE}This is the reception for the{CLEAR}Link Pokéathlon.{SCROLL}You can compete with your friends{NEWLINE}on the same course.{SCROLL}Would you like to try it? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/26"
+  },
+  {
+   "id": 27,
+   "zh": "请大家商量一下{NEWLINE}选出一个队长吧。{SCROLL}其他人请选择{NEWLINE}加入队伍。{VAR:0200:0}",
+   "en": "Please decide which of you{NEWLINE}will become the group leader.{SCROLL}The other players must then choose{NEWLINE}“JOIN GROUP.” {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/27"
+  },
+  {
+   "id": 28,
+   "zh": "ＤＳ无线通信{NEWLINE}开始。{VAR:0200:0}",
+   "en": "Starting DS Wireless Communications. {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "通信错误。{SCROLL}请重新开始尝试。",
+   "en": "A communication error has occurred.{SCROLL}Please try again from the start.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0401:3}的{NEWLINE}队伍颜色是红色。",
+   "en": "Entering {VAR:0401:3}.{NEWLINE}Your team color is red.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/30"
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0401:3}的{NEWLINE}队伍颜色是蓝色。",
+   "en": "Entering {VAR:0401:3}.{NEWLINE}Your team color is blue.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/31"
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:0401:3}的{NEWLINE}队伍颜色是绿色。",
+   "en": "Entering {VAR:0401:3}.{NEWLINE}Your team color is green.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/32"
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0401:3}的{NEWLINE}队伍颜色是黄色。",
+   "en": "Entering {VAR:0401:3}.{NEWLINE}Your team color is yellow.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/33"
+  },
+  {
+   "id": 34,
+   "zh": "另外,作为这次作为{NEWLINE}冠军奖励,将额外给您{CLEAR}{VAR:0134:2}点。{SCROLL}",
+   "en": "In addition, you will be awarded a{NEWLINE}winner’s bonus of {VAR:0134:2} points this time.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0312/34 | R042: zh repeats the winner-bonus wording of #22 (US had a runner-up bonus); follows the hack."
+  },
+  {
+   "id": 35,
+   "zh": "{VAR:0103:0}{NEWLINE}换上了运动服！",
+   "en": "{VAR:0103:0} changed clothes.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/35"
+  },
+  {
+   "id": 36,
+   "zh": "那么这边请！",
+   "en": "Right this way, please!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/36"
+  },
+  {
+   "id": 37,
+   "zh": "哎呀！{NEWLINE}您的精灵数量{CLEAR}似乎不够啊。{SCROLL}想玩口袋竞技就必须{NEWLINE}要有３只以上的精灵。{SCROLL}口袋竞技的话精灵越多{CLEAR}乐趣越大。{SCROLL}请多带几只精灵过来吧。",
+   "en": "Oh no! It seems like you don’t have{NEWLINE}enough Pokémon.{SCROLL}In order to participate in the{NEWLINE}Pokéathlon, you need to have{CLEAR}at least three Pokémon.{SCROLL}The Pokéathlon brings together all{NEWLINE}kinds of Pokémon from all over.{SCROLL}The more, the merrier! Please, bring a{NEWLINE}bunch of Pokémon and you’ll see.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/37"
+  },
+  {
+   "id": 38,
+   "zh": "欢迎,{NEWLINE}这里是通信口袋竞技的接待处。{SCROLL}哎呀！{NEWLINE}您是第一次参加吗？{SCROLL}那么请先去单机的接待处{CLEAR}问问吧。{SCROLL}从这里往右的中央柜台就是了。{SCROLL}那儿能问到口袋竞技的说明,{NEWLINE}推荐您先去那儿。",
+   "en": "Welcome. This is the reception for the{NEWLINE}Link Pokéathlon.{SCROLL}Oh, my!{NEWLINE}This is your first time, isn’t it?{SCROLL}If that’s true, then please head over{NEWLINE}to the “Single” reception.{SCROLL}If you go to the right from here, it’s{NEWLINE}the middle counter.{SCROLL}You can get information about the{NEWLINE}Pokéathlon and decide on a course.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/38"
+  },
+  {
+   "id": 39,
+   "zh": "通信口袋竞技时{NEWLINE}带着３只精灵{CLEAR}参加４项比赛角逐的{CLEAR}体育盛事。{SCROLL}另外还能跟朋友在{NEWLINE}同一系列赛事中竞争。{SCROLL}口袋竞技的赛事{NEWLINE}设有配合{SCROLL}精灵个性的各种比赛。{SCROLL}请一定要和朋友一起来参加{CLEAR}通信口袋竞技啊。{SCROLL}",
+   "en": "The Link Pokéathlon is a sport festival{NEWLINE}in which you join with three of your{CLEAR}Pokémon to compete in four events.{SCROLL}Your friends can join the same events{NEWLINE}to compete.{SCROLL}The Pokéathlon has a variety of events{NEWLINE}to accommodate many of the different{CLEAR}aspects of Pokémon.{SCROLL}Please bring your friends to the{NEWLINE}Link Pokéathlon.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/39"
+  },
+  {
+   "id": 40,
+   "zh": "速度＆跳跃竞技{NEWLINE}是由结合了速度与弹跳力的{CLEAR}４场赛事{CLEAR}所组成的。{SCROLL}跨越障碍争取第一把！{NEWLINE}「跨栏」{SCROLL}迅速拿到亮光的灯吧！{NEWLINE}「蹦床」{SCROLL}迅速接飞碟吧！{NEWLINE}「抢飞碟」{SCROLL}专注于速度！{NEWLINE}「赛跑」{SCROLL}拿到冠军就能得到{NEWLINE}速度奖章和跳跃奖章。{SCROLL}请一定要带着对速度与{NEWLINE}弹跳力有自信的３只精灵{CLEAR}和朋友们一起来参加啊。{SCROLL}",
+   "en": "The Speed & Jump Course consists of{NEWLINE}four events that require good{CLEAR}Speed and Jump Performance.{SCROLL}“Hurdle Dash”{NEWLINE}Jump over the Hurdles to be{CLEAR}number one!{SCROLL}“Lamp Jump”{NEWLINE}Take the Lamps quickly!{SCROLL}“Disc Catch”{NEWLINE}Catch the Discs rapidly!{SCROLL}“Relay Run”{NEWLINE}Superb Speed is highly required!{SCROLL}When you win, you will be awarded{NEWLINE}the Speed Medal and the Jump Medal.{SCROLL}Choose three Pokémon with good{NEWLINE}Speed and Jump for these events, and{CLEAR}bring your friends as well.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/40"
+  },
+  {
+   "id": 41,
+   "zh": "跳跃＆技巧竞技{NEWLINE}是由结合了弹跳力与技术的{CLEAR}４场赛事{CLEAR}所组成的。{SCROLL}灵巧地跳跃触碰灯吧！{NEWLINE}「蹦床」{SCROLL}跳着接飞碟吧！{NEWLINE}「抢飞碟」{SCROLL}灵巧地移动拿旗子吧！{NEWLINE}「抢旗」{SCROLL}瞄准对手扔吧！{NEWLINE}「扔雪球」{SCROLL}拿到冠军后就能得到{NEWLINE}技巧奖章与跳跃奖章。{SCROLL}请一定要带着对弹跳力与{NEWLINE}技巧有自信的３只精灵{CLEAR}和朋友们一起来参加啊。{SCROLL}",
+   "en": "The Jump & Skill Course consists of{NEWLINE}four events that require good{CLEAR}Jump and Skill Performance.{SCROLL}“Lamp Jump”{NEWLINE}Show your skill in jumping to{CLEAR}touch the Lamps!{SCROLL}“Disc Catch”{NEWLINE}Jump and catch the Discs!{SCROLL}“Pennant Capture”{NEWLINE}Show your moves and collect Pennants!{SCROLL}“Snow Throw”{NEWLINE}Aim with accuracy!{SCROLL}When you win, you will be awarded{NEWLINE}the Jump Medal and the Skill Medal.{SCROLL}Choose three Pokémon with good{NEWLINE}Jump and Skill for these events, and{CLEAR}bring your friends as well.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/41"
+  },
+  {
+   "id": 42,
+   "zh": "技术＆力量竞技{NEWLINE}是由结合了技术和力量的{CLEAR}４场赛事{CLEAR}所组成的。{SCROLL}目标明天,漂亮射门！{NEWLINE}「足球」{SCROLL}瞄准目标扔吧！　{NEWLINE}「扔雪球」{SCROLL}灵巧地移动拿旗子吧！{NEWLINE}「抢旗」{SCROLL}击碎石板吧！{NEWLINE}「劈石板」{SCROLL}拿到冠军后就能得到{NEWLINE}技巧奖章与力量奖章。{SCROLL}请一定要带着对技巧与{NEWLINE}力量有自信的３只精灵{CLEAR}和朋友们一起来参加啊。{SCROLL}",
+   "en": "The Skill & Power Course consists of{NEWLINE}four events that require good{CLEAR}Skill and Power Performance.{SCROLL}“Goal Roll”{NEWLINE}Aim at the Goal and shoot!{SCROLL}“Snow Throw”{NEWLINE}Steady, aim, and fire away!{SCROLL}“Pennant Capture”{NEWLINE}Show your moves and collect Pennants!{SCROLL}“Block Smash”{NEWLINE}Blocks keep coming! Smash them all!{SCROLL}When you win, you will be awarded{NEWLINE}the Skill Medal and the Power Medal.{SCROLL}Choose three Pokémon with good{NEWLINE}Skill and Power for these events, and{CLEAR}bring your friends as well.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/42"
+  },
+  {
+   "id": 43,
+   "zh": "力量＆耐力竞技{NEWLINE}是由结合了力量与耐力的{CLEAR}４场赛事{CLEAR}所组成的。{SCROLL}击碎石板吧！{NEWLINE}「劈石板」{SCROLL}将对手推出圈外吧！{NEWLINE}「抢位置」{SCROLL}一直射到精疲力尽吧！{NEWLINE}「足球」{SCROLL}将对手击出圈外！{NEWLINE}「撞人」{SCROLL}拿到冠军后就能得到{NEWLINE}耐力奖章与力量奖章。{SCROLL}请一定要带着对力量与{NEWLINE}耐力有自信的３只精灵{CLEAR}和朋友们一起来参加啊。{SCROLL}",
+   "en": "The Power & Stamina Course consists{NEWLINE}of four events that require good{CLEAR}Power and Stamina Performance.{SCROLL}“Block Smash”{NEWLINE}Blocks keep coming! Smash them all!{SCROLL}“Circle Push”{NEWLINE}Push them away and stay in the Circle!{SCROLL}“Goal Roll”{NEWLINE}Keep rolling until your energy{CLEAR}runs out!{SCROLL}“Ring Drop”{NEWLINE}Drop them off the Ring and stay on top!{SCROLL}When you win, you will be awarded{NEWLINE}the Power Medal and the Stamina Medal.{SCROLL}Choose three Pokémon with good{NEWLINE}Power and Stamina for these events,{CLEAR}and bring your friends as well.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/43"
+  },
+  {
+   "id": 44,
+   "zh": "耐力＆速度竞技{NEWLINE}是由结合了耐力与速度的{CLEAR}４场赛事{CLEAR}所组成的。{SCROLL}重视耐力与速度的{NEWLINE}「赛跑」{SCROLL}将对手击出圈外！{NEWLINE}「撞人」{SCROLL}跨越障碍目标第一！{NEWLINE}「跨栏」{SCROLL}强推对手进入圈内！{NEWLINE}「抢位置」{SCROLL}拿到冠军后就能得到{NEWLINE}耐力奖章与速度奖章。{SCROLL}请一定要带着对耐力与{NEWLINE}速度有自信的３只精灵{CLEAR}和朋友们一起来参加啊。{SCROLL}",
+   "en": "The Stamina & Speed Course consists{NEWLINE}of four events that require good{CLEAR}Stamina and Speed Performance.{SCROLL}“Relay Run”{NEWLINE}Both Stamina and Speed are key!{SCROLL}“Ring Drop”{NEWLINE}Drop them from high while you survive!{SCROLL}“Hurdle Dash”{NEWLINE}Over you go! Aim for number one!{SCROLL}“Circle Push”{NEWLINE}Push them away and stay in the Circle!{SCROLL}When you win, you will be awarded{NEWLINE}the Stamina Medal and the Speed Medal.{SCROLL}Choose three Pokémon with good Stamina{NEWLINE}and Speed for these events, and{CLEAR}bring your friends as well.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/44"
+  },
+  {
+   "id": 45,
+   "zh": "大师竞技{NEWLINE}是每次都是不同{CLEAR}比赛的超难赛事。{SCROLL}必须要选择无论{NEWLINE}什么比赛都能克服的{CLEAR}万能型队伍！{SCROLL}大师竞技{NEWLINE}无法得到奖牌,{SCROLL}但是得到的竞技点数{NEWLINE}会是两倍！{SCROLL}请和朋友一起{NEWLINE}来挑战吧！{SCROLL}",
+   "en": "The Master Course is a difficult course{NEWLINE}that offers different events{CLEAR}every time.{SCROLL}Teams must do their best to get{NEWLINE}through the course, no matter what it{CLEAR}may be!{SCROLL}You won’t receive any medals for a{NEWLINE}Master Course.{SCROLL}However, you will receive twice as many{NEWLINE}Athlete Points.{SCROLL}By all means, get your friends together{NEWLINE}and give it a try.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/45"
+  },
+  {
+   "id": 46,
+   "zh": "这次{VAR:0103:0}选手的{NEWLINE}得分是{VAR:0134:1}！{CLEAR}获得{VAR:0135:2}点！{SCROLL}",
+   "en": "This time, {VAR:0103:0}’s score was{NEWLINE}{VAR:0134:1}! Earned {VAR:0135:2} points!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/46"
+  },
+  {
+   "id": 47,
+   "zh": "这次{VAR:0103:0}选手的{NEWLINE}得分是{VAR:0134:1}！{SCROLL}由于大师竞技的翻倍效果{NEWLINE}获得{VAR:0135:2}点！{SCROLL}",
+   "en": "This time, {VAR:0103:0}’s score was{NEWLINE}{VAR:0134:1}!{SCROLL}Since it was on a Master Course,{NEWLINE}{VAR:0135:2} points were earned!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0312/47"
+  },
+  {
+   "id": 48,
+   "zh": "欢迎！{NEWLINE}这里是竞技商店！{CLEAR}一定流了很多汗吧？{SCROLL}淋漓的汗水{NEWLINE}交互辉映的呼吸！{CLEAR}萌生的友情！{SCROLL}我会在此为你的口袋竞技员{NEWLINE}生涯加油的！{SCROLL}再口袋竞技中获得的点数{NEWLINE}能够交换奖品,{SCROLL}请不断地比试{NEWLINE}多积累一些吧。{SCROLL}那么⋯⋯{SCROLL}欢迎！{NEWLINE}这里是竞技商店！{VAR:0200:0}",
+   "en": "Welcome! This is the Athlete Shop! You{NEWLINE}must have worked up quite a sweat, huh?{SCROLL}Dripping sweat! Breathing{NEWLINE}in sync! Budding friendship!{SCROLL}I’m here cheering on{NEWLINE}your Pokéathlete career!{SCROLL}The points you earn in the{NEWLINE}Pokéathlon can be traded for prizes.{SCROLL}Keep competing and{NEWLINE}save up lots of them!{SCROLL}Now then...{SCROLL}Welcome! This is the Athlete Shop! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "欢迎！{NEWLINE}这里是竞技商店！{VAR:0200:0}",
+   "en": "Welcome! This is the Athlete Shop! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "{VAR:010A:0}与{NEWLINE}点数交换 ,{CLEAR}可以吗？",
+   "en": "You’d like to trade points for{NEWLINE}{VAR:010A:0}. Is that OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "点数不够！{SCROLL}",
+   "en": "You don’t have enough points!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "您的东西满了。{SCROLL}",
+   "en": "You can’t carry any more.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "点数与{VAR:010A:0}{NEWLINE}交换完毕！",
+   "en": "You traded points for {VAR:010A:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "非常感谢。",
+   "en": "Thank you very much.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "在口袋竞技{NEWLINE}获得的分数⋯⋯{SCROLL}也是象征着与精灵之间{NEWLINE}友谊的那个分数{CLEAR}变成点数！{SCROLL}并能在此与奖品进行交换！{SCROLL}争取在口袋竞技里{NEWLINE}拿到第一,多获得分数{CLEAR}再到这里来交换吧！{SCROLL}还有什么事吗？{VAR:0200:0}",
+   "en": "The scores you earn{NEWLINE}in the Pokéathlon...{SCROLL}...the very scores that{NEWLINE}stand for your friendship with{CLEAR}your Pokémon, become points!{SCROLL}And you can trade them{NEWLINE}for prizes right here!{SCROLL}Aim for first place in the{NEWLINE}Pokéathlon, earn lots of points,{CLEAR}then come back here to trade!{SCROLL}Is there anything else? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "欢迎！{SCROLL}这里进行的是口袋竞技{NEWLINE}记录的统计。{SCROLL}买到『资料卡』后{NEWLINE}就能在旁边的屏幕上{CLEAR}查看到中介的记录！{SCROLL}能看到口袋竞技的{NEWLINE}这样的那样的{CLEAR}甚至有点不好意思的{SCROLL}记录！{NEWLINE}请一定要看看啊。{SCROLL}要买载有口袋竞技记录的{NEWLINE}资料卡？{VAR:0200:0}",
+   "en": "Welcome!{SCROLL}This is where we compile{NEWLINE}Pokéathlon records.{SCROLL}Once you buy a Data Card, you can view{NEWLINE}the records on the screen next to me!{SCROLL}You can see all kinds of Pokéathlon{NEWLINE}records! This one, that one, even{CLEAR}some slightly embarrassing ones!{SCROLL}Please be sure to have a look.{SCROLL}Would you like to buy a Data{NEWLINE}Card with Pokéathlon records? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "欢迎光临！{SCROLL}这里贩卖统计{NEWLINE}口袋竞技记录的{CLEAR}资料卡！{SCROLL}要买载有口袋竞技记录的{NEWLINE}资料卡嘛？{VAR:0200:0}",
+   "en": "Welcome!{SCROLL}We sell Data Cards that{NEWLINE}compile Pokéathlon records!{SCROLL}Would you like to buy a Data{NEWLINE}Card with Pokéathlon records? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "呵呵！{NEWLINE}其实我{CLEAR}非常了解你哦！{CLEAR}比如说⋯⋯{SCROLL}",
+   "en": "Hee hee! The truth is, I know a{NEWLINE}lot about you! For example...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "你在口袋竞技{NEWLINE}拿到冠军的次数是⋯⋯{CLEAR}{VAR:0133:0}次是吧！{CLEAR}呵呵⋯⋯{SCROLL}",
+   "en": "The number of times you’ve won the{NEWLINE}Pokéathlon is... {VAR:0133:0}, right? Hee hee...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "你在口袋竞技{NEWLINE}拿到冠军的次数是⋯⋯{CLEAR}{VAR:0133:0}次是吧！{SCROLL}太厉害了！{SCROLL}",
+   "en": "The number of times you’ve won{NEWLINE}the Pokéathlon is... {VAR:0133:0}, right?{SCROLL}That’s amazing!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "就像这样,{NEWLINE}统计有口袋竞技的{CLEAR}各种资料,{CLEAR}有兴趣吧？{SCROLL}能查看这些资料的{NEWLINE}『资料卡』{CLEAR}能够用点数换到,{SCROLL}并在旁边的{NEWLINE}屏幕上查看到。{CLEAR}请一定要试一下啊。{SCROLL}还有什么事吗？{VAR:0200:0}",
+   "en": "As you can see, the Pokéathlon{NEWLINE}keeps all kinds of data. Interested?{SCROLL}You can trade points for Data Cards and{NEWLINE}view the data on the screen next to me.{SCROLL}Please give it a try.{SCROLL}Is there anything else? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "非常感谢！",
+   "en": "Thank you very much!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

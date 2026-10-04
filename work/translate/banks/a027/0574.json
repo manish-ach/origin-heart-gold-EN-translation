@@ -1,0 +1,412 @@
+{
+ "narc": "a027",
+ "bank": 574,
+ "source": "work/extract/v4/a027/0574.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "小茜『嗨！冠军大人,{NEWLINE}你也是来挑战满金道馆拿徽章的吗？{CLEAR}真没想到身为冠军的你{CLEAR}居然会来收集我们道馆的徽章。{CLEAR}为了回应你的这份肯定,{CLEAR}我可是会拿出全力与你一较高低的！",
+   "en": "Whitney: Hi! Champion, are you here{NEWLINE}to challenge the Goldenrod Gym{CLEAR}for a Badge too? I never thought{CLEAR}someone who’s already Champion{CLEAR}would come collect our Gym’s Badge.{CLEAR}To live up to that compliment, I’m{CLEAR}going to give it everything I’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Two Gym paths: #0-#3 normal challenge; #14-#38 after the player took Whitney's ‘The Strongest Trainer’ radio guest slot (最强训练家 program): 2-on-2 Double Battle, Player + Gold vs Whitney + Norman."
+  },
+  {
+   "id": 1,
+   "zh": "小茜『呜哇,虽然输给你在意料之中,{NEWLINE}但是输得这么彻底{CLEAR}还是让我心里有点小委屈。{SCROLL}小茜『不过通过与你对战,{NEWLINE}我更加明白为什么广播台{CLEAR}非要你做第一期{CLEAR}「最强训练家」的嘉宾了。{CLEAR}能把正式徽章送给你这样{CLEAR}德才兼备的训练家,{CLEAR}也是我们满金道馆的荣幸。{CLEAR}请你收下它吧！",
+   "en": "Whitney: Waaah! I expected to{NEWLINE}lose to you, but losing this badly{CLEAR}still makes me feel a little hurt.{SCROLL}Whitney: But after battling you, I{NEWLINE}understand even better why the radio{CLEAR}station insisted on having you as the{CLEAR}guest for the first episode of ‘The{CLEAR}Strongest Trainer.’ It’s an honor{CLEAR}for our Goldenrod Gym to give the{CLEAR}Plain Badge to a Trainer as skilled and{CLEAR}good-hearted as you. Please take it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Radio show title 「最强训练家」 → ‘The Strongest Trainer’ (single quotes)."
+  },
+  {
+   "id": 2,
+   "zh": "小茜『等我哪天锻炼地更强了,{NEWLINE}咱们再来比试一次。",
+   "en": "Whitney: Once I’ve trained{NEWLINE}up and gotten stronger,{CLEAR}let’s have another match.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "小茜『作为拿到正式徽章的纪念,{NEWLINE}这几个气球也送给你吧！",
+   "en": "Whitney: To celebrate you{NEWLINE}winning the Plain Badge,{CLEAR}take these Air Balloons too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0103:0}从小茜那得到了{NEWLINE}正式徽章！",
+   "en": "{VAR:0103:0} received{NEWLINE}the Plain Badge from Whitney.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0582/4"
+  },
+  {
+   "id": 5,
+   "zh": "阿金『偶像,我已经向小茜馆主{NEWLINE}挑战过并拿到正式徽章了,{CLEAR}这样我只要再拿一枚徽章,{CLEAR}就能被认定为中级训练家。{SCROLL}阿金『我准备稍事休息之后,{NEWLINE}就朝缘朱市出发,{CLEAR}去拿我的第4枚徽章！",
+   "en": "Gold: Idol, I already challenged{NEWLINE}Whitney and got the Plain Badge.{CLEAR}With just one more Badge, I’ll be{CLEAR}certified as an Intermediate Trainer.{SCROLL}Gold: After a little rest, I’m heading{NEWLINE}for Ecruteak City to get my 4th Badge!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "阿金『偶像,这个小茜馆主{NEWLINE}也不知道是抽的什么风,{CLEAR}居然气鼓鼓地拒绝了我的道馆挑战,{CLEAR}真是个任性的女人。",
+   "en": "Gold: Idol, I don’t know what’s{NEWLINE}gotten into this Whitney, but{CLEAR}she angrily refused my Gym{CLEAR}challenge. What a spoiled woman.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "跟我一起组队去挑战小茜吧",
+   "en": "Team up to challenge Whitney",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 8,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0103:0}『小茜馆主说要我跟你组队,{NEWLINE}与她来一场2对2的道馆挑战,{CLEAR}你愿意参加吗？",
+   "en": "{VAR:0103:0}: Whitney says I have to{NEWLINE}team up with you for a 2-on-2 Gym{CLEAR}challenge against her. Want to join?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "噢！{NEWLINE}我们的冠军大人！{SCROLL}这座满金道馆集中了{NEWLINE}使用普通属性精灵{CLEAR}的训练家哦！{SCROLL}和他们战斗的话,{NEWLINE}推荐你使用{CLEAR}格斗系的精灵！",
+   "en": "Oh! It’s our Champion!{SCROLL}This Goldenrod Gym is home to Trainers{NEWLINE}who use Normal-type Pokémon!{SCROLL}If you battle them, I recommend using{NEWLINE}Fighting-type Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0582/10; ext-review C016"
+  },
+  {
+   "id": 11,
+   "zh": "实话实说比起精灵对战来,{NEWLINE}还是道馆的女孩子们{CLEAR}更加让我着迷啊。",
+   "en": "Honestly, the girls at this{NEWLINE}Gym fascinate me way more{CLEAR}than Pokémon battles.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "满金市　精灵道馆",
+   "en": "Goldenrod City Pokémon Gym",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0582/12"
+  },
+  {
+   "id": 13,
+   "zh": "满金市　精灵道馆{SCROLL}道馆馆主　小茜{NEWLINE}所认可的训练师！{CLEAR}{VAR:0103:0}",
+   "en": "Goldenrod City Pokémon Gym{SCROLL}Leader: Whitney{NEWLINE}Certified Trainer!{CLEAR}{VAR:0103:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0582/13"
+  },
+  {
+   "id": 14,
+   "zh": "小茜『哟,这不是那个{NEWLINE}最爱欺负人的冠军{VAR:0103:0}吗？{CLEAR}怎么,来我这里是想要正式徽章吗？",
+   "en": "Whitney: Well, well, if it isn’t{NEWLINE}{VAR:0103:0}, the Champion who just{CLEAR}loves picking on people. What,{CLEAR}you want the Plain Badge from me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "小茜『对徽章没兴趣{NEWLINE}就赶紧离开这,{CLEAR}我不想见到你！",
+   "en": "Whitney: If you’re not interested{NEWLINE}in the Badge, then get out of{CLEAR}here. I don’t want to see you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "小茜『想要正式徽章？{NEWLINE}亏你好意思说出口啊！{SCROLL}小茜『因为你抢了我的嘉宾资格,{NEWLINE}我今天的心情很差,{CLEAR}本来是不想接受任何道馆挑战的。{CLEAR}但是如果能暴揍你一顿解解气的话,{CLEAR}应该也挺有意思。{SCROLL}小茜『不过你可别把{NEWLINE}这次的道馆挑战想的那么简单。{CLEAR}我要跟你进行一场{CLEAR}2对2的双打道馆战。{CLEAR}你现在去满金市西南方向的民宅里{CLEAR}找一个叫千里的男人过来,{CLEAR}我要千里当我的队友。{SCROLL}小茜『至于你的队友嘛……{NEWLINE}今天有个带着火岩鼠的小子{CLEAR}要来挑战道馆被我拒绝了,{CLEAR}你就跟他组队吧。{SCROLL}小茜『等你把人找齐之后,{NEWLINE}我再接受你的道馆挑战。",
+   "en": "Whitney: You want the Plain Badge?{NEWLINE}You’ve got some nerve even asking!{SCROLL}Whitney: You stole my guest spot, so{NEWLINE}I’m in a really bad mood today. I didn’t{CLEAR}want to accept any Gym challenges{CLEAR}at all. But getting to beat you up{CLEAR}to blow off some steam might be fun.{SCROLL}Whitney: Don’t think this Gym challenge{NEWLINE}will be easy, though. We’re doing{CLEAR}a 2-on-2 Double Battle. Go to the{CLEAR}house in the southwest of Goldenrod{CLEAR}City and bring back a man named{CLEAR}Norman. I want Norman as my partner.{SCROLL}Whitney: As for your partner... A{NEWLINE}kid with a Quilava came to challenge{CLEAR}the Gym today, and I turned him{CLEAR}away. You can team up with him.{SCROLL}Whitney: Once you’ve got{NEWLINE}everyone together, I’ll{CLEAR}accept your Gym challenge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "小茜『你如果想挑战满金道馆{NEWLINE}就去满金市西南方向的民宅里{CLEAR}找一个叫千里的男人过来,{CLEAR}我要千里当我的队友。{SCROLL}小茜『至于你的队友嘛……{NEWLINE}今天有个带着火岩鼠的小子{CLEAR}要来挑战道馆被我拒绝了,{CLEAR}你就跟他组队吧。{SCROLL}小茜『等你把人找齐之后,{NEWLINE}我再接受你的道馆挑战。",
+   "en": "Whitney: If you want to challenge{NEWLINE}the Goldenrod Gym, go to the house{CLEAR}in the southwest of Goldenrod City{CLEAR}and bring back a man named Norman.{CLEAR}I want Norman as my partner.{SCROLL}Whitney: As for your partner... A{NEWLINE}kid with a Quilava came to challenge{CLEAR}the Gym today, and I turned him{CLEAR}away. You can team up with him.{SCROLL}Whitney: Once you’ve got{NEWLINE}everyone together, I’ll{CLEAR}accept your Gym challenge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "小茜『不要只顾着给自己找队友啊,{NEWLINE}你如果想挑战满金道馆{CLEAR}就去满金市西南方向的民宅里{CLEAR}找一个叫千里的男人过来,{CLEAR}我要千里当我的队友。{SCROLL}小茜『等千里到了之后{NEWLINE}我再跟你进行2对2的道馆比赛。",
+   "en": "Whitney: Don’t just go finding a{NEWLINE}partner for yourself! If you want to{CLEAR}challenge the Goldenrod Gym, go to the{CLEAR}house in the southwest of Goldenrod{CLEAR}City and bring back a man named{CLEAR}Norman. I want Norman as my partner.{SCROLL}Whitney: Once Norman is here, I’ll{NEWLINE}have our 2-on-2 Gym match with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "小茜『我的队友千里已经到了,{NEWLINE}为了避免有人说我以多欺少打败你,{CLEAR}你现在去把那个{CLEAR}带着火岩鼠的挑战者叫来,{CLEAR}我要跟你来场2对2的双打战斗。",
+   "en": "Whitney: My partner Norman is here.{NEWLINE}So nobody can say I beat you by{CLEAR}ganging up on you, go get that{CLEAR}challenger with the Quilava. I’m having{CLEAR}a 2-on-2 Double Battle with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "小茜『不要绕到我背后跟我说话,{NEWLINE}有什么话站到前面来说！",
+   "en": "Whitney: Don’t sneak around behind me{NEWLINE}to talk to me! If you’ve got something{CLEAR}to say, come stand in front of me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "小茜『你为了这场道馆挑战{NEWLINE}居然真的不怕麻烦把人都找齐了。{CLEAR}看在你还算有诚意的份上,{CLEAR}我接受你的挑战。{SCROLL}小茜『你可别以为自己是冠军,{NEWLINE}我们就会怕你,{CLEAR}我和千里可都是很强的！",
+   "en": "Whitney: You actually went to all{NEWLINE}the trouble of getting everyone{CLEAR}together for this Gym challenge.{CLEAR}Since you’re halfway sincere{CLEAR}about it, I accept your challenge.{SCROLL}Whitney: Don’t think we’ll be scared of{NEWLINE}you just because you’re the Champion.{CLEAR}Norman and I are both really strong!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "小茜『带着一个初级训练家{NEWLINE}都能赢我们两个？{CLEAR}看来你确实是强到离谱啊！",
+   "en": "Whitney: You beat both of us while{NEWLINE}carrying a Junior Trainer?! You{CLEAR}really are ridiculously strong!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "初级训练家 → Junior Trainer (D role 初级); 中级训练家 → Intermediate Trainer."
+  },
+  {
+   "id": 23,
+   "zh": "阿金『喂！你这么说也太失礼了吧？{NEWLINE}瞧不起谁呢！",
+   "en": "Gold: Hey! That’s pretty rude, isn’t{NEWLINE}it? Who are you looking down on?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "小茜『对不起,我失言了。{NEWLINE}我只是惊讶于他的实力,{CLEAR}没想到冠军能这么强……",
+   "en": "Whitney: Sorry, I misspoke.{NEWLINE}I was just surprised by how{CLEAR}strong he is. I never thought a{CLEAR}Champion could be this strong...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Male-player variant (他); #25 female (她). Also #26/#27."
+  },
+  {
+   "id": 25,
+   "zh": "小茜『对不起,我失言了。{NEWLINE}我只是惊讶于她的实力,{CLEAR}没想到冠军能这么强……",
+   "en": "Whitney: Sorry, I misspoke.{NEWLINE}I was just surprised by how{CLEAR}strong she is. I never thought a{CLEAR}Champion could be this strong...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "千里『哈哈,小茜馆主,{NEWLINE}{VAR:0103:0}在我们那届石英大会上{CLEAR}可是一口气打败了联盟四天王。{CLEAR}今天咱们输给他也算情理之中。",
+   "en": "Norman: Ha ha, Whitney, at the Indigo{NEWLINE}Conference we took part in, {VAR:0103:0}{CLEAR}beat the Elite Four in one go. It’s{CLEAR}only natural we lost to him today.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "千里『哈哈,小茜馆主,{NEWLINE}{VAR:0103:0}在我们那届石英大会上{CLEAR}可是一口气打败了联盟四天王。{CLEAR}今天咱们输给她也算情理之中。",
+   "en": "Norman: Ha ha, Whitney, at the Indigo{NEWLINE}Conference we took part in, {VAR:0103:0}{CLEAR}beat the Elite Four in one go. It’s{CLEAR}only natural we lost to her today.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "小茜『嗯……我似乎有点明白{NEWLINE}为什么广播台非要你做{CLEAR}第一期「最强训练家」的嘉宾了。{CLEAR}虽然从感情上我还是有点不服气,{CLEAR}不过从实力上我还是尊重你的,{CLEAR}这两枚正式徽章你们就收下吧！",
+   "en": "Whitney: Hmm... I think I’m starting to{NEWLINE}see why the radio station insisted on{CLEAR}having you as the guest for the first{CLEAR}episode of ‘The Strongest Trainer.’{CLEAR}Emotionally I’m still a little sore{CLEAR}about it, but I respect your strength.{CLEAR}Please take these two Plain Badges!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "小茜『还有我的电话号码,{NEWLINE}你也记下吧。",
+   "en": "Whitney: And take down{NEWLINE}my phone number, too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0103:0}把小茜的号码登录在了电话中。",
+   "en": "{VAR:0103:0} registered Whitney’s{NEWLINE}number in the phone.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "小茜『等我哪天锻炼地更强了,{NEWLINE}咱们再来比试一次。",
+   "en": "Whitney: Once I’ve trained{NEWLINE}up and gotten stronger,{CLEAR}let’s have another match.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "阿金『偶像,我拿到第3枚徽章了哦。{NEWLINE}等再拿一枚,我就是中级训练家了。{CLEAR}我这就以缘朱市为目标,{CLEAR}去拿我的第4枚徽章咯！",
+   "en": "Gold: Idol, I got my 3rd Badge! One{NEWLINE}more and I’ll be an Intermediate{CLEAR}Trainer. I’m heading for Ecruteak{CLEAR}City now to get my 4th Badge!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "千里『小茜馆主因为广播台的事{NEWLINE}对于你人品产生的误会{CLEAR}我刚刚已经向她解释过了,{CLEAR}她就是年轻女孩有些傲气,{CLEAR}你不必太在意。",
+   "en": "Norman: About Whitney’s{NEWLINE}misunderstanding of your character{CLEAR}over the radio business, I just{CLEAR}explained things to her. She’s{CLEAR}just a young girl with a bit of{CLEAR}pride. Don’t take it to heart.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "小茜『喂！喂！千里！{NEWLINE}我可在这听着呢,{CLEAR}你说谁年轻傲气呀！",
+   "en": "Whitney: Hey! Hey! Norman! I{NEWLINE}can hear you, you know! Who are{CLEAR}you calling a proud young girl?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "千里『嘿嘿,抱歉啊小茜馆主,{NEWLINE}是我失言了。",
+   "en": "Norman: Heh heh, sorry,{NEWLINE}Whitney. I misspoke.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "千里『那么我先回去了,{NEWLINE}欢迎你有时间再来我们家做客。",
+   "en": "Norman: I’ll be heading home,{NEWLINE}then. Come visit us at our{CLEAR}house when you have time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "阿金『那当然好啊！我还从来没打过{NEWLINE}2对2的道馆挑战呢！{CLEAR}咱们这就去找小茜馆主吧。",
+   "en": "Gold: Heck yeah! I’ve never done{NEWLINE}a 2-on-2 Gym challenge before!{CLEAR}Let’s go find Whitney right now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "阿金『偶像你放心,{NEWLINE}我已经成长了很多,{CLEAR}这次双打绝不会拖你后腿的。",
+   "en": "Gold: Don’t worry, Idol. I’ve{NEWLINE}grown a lot. I won’t drag you{CLEAR}down in this Double Battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "小茜『是{VAR:0103:0}来了呀。{NEWLINE}又来广播台录节目吗？{SCROLL}小茜『我跟你说啊,{NEWLINE}最近都没什么挑战者来我这里,{CLEAR}真是无聊死了。{CLEAR}你既然都到这里了,{CLEAR}就跟我来场高水平的对战如何？",
+   "en": "Whitney: Oh, it’s {VAR:0103:0}!{NEWLINE}Here to record a show at{CLEAR}the radio station again?{SCROLL}Whitney: Listen, hardly any challengers{NEWLINE}have come lately. I’m bored to{CLEAR}death. Since you’re here anyway, how{CLEAR}about a high-level battle with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "小茜『你是希望单打还是双打呢？",
+   "en": "Whitney: Would you like{NEWLINE}singles or doubles?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 42,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 43,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 44,
+   "zh": "小茜『你身上只带着1只精灵,{NEWLINE}这可没法双打。",
+   "en": "Whitney: You only have 1{NEWLINE}Pokémon with you. We can’t{CLEAR}do a double battle like that.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "小茜『嘿嘿,虽然你是最强训练家,{NEWLINE}但我才不怕你呢！",
+   "en": "Whitney: Heh heh, you may{NEWLINE}be the strongest Trainer,{CLEAR}but I’m not scared of you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "小茜『哎呀哎呀,输了。{NEWLINE}果然我跟最强还是有差距啊。",
+   "en": "Whitney: Oh, dear, I lost. I guess{NEWLINE}I’m still a ways from the top.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "爆太郎『Quiii——la！",
+   "en": "Exbo: Quiii-la!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0059 #122; English copied."
+  },
+  {
+   "id": 48,
+   "zh": "大奶罐『Miii——tank！",
+   "en": "Miltank: Miii-tank!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "千里『你如果已经做好了{NEWLINE}道馆挑战的准备,{CLEAR}就去跟小茜馆主对话吧。",
+   "en": "Norman: If you’re ready for the{NEWLINE}Gym challenge, go talk to Whitney.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

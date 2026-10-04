@@ -1,0 +1,7380 @@
+{
+ "narc": "a027",
+ "bank": 739,
+ "source": "work/extract/v4/a027/0739.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "-----",
+   "en": "-----",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "拍击",
+   "en": "Pound",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "空手劈",
+   "en": "Karate Chop",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "连环巴掌",
+   "en": "Double Slap",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "连续拳",
+   "en": "Comet Punch",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "百万吨重拳",
+   "en": "Mega Punch",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "聚宝功",
+   "en": "Pay Day",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "火焰拳",
+   "en": "Fire Punch",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "冰冻拳",
+   "en": "Ice Punch",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "雷电拳",
+   "en": "ThunderPunch",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Thunder Punch"
+  },
+  {
+   "id": 10,
+   "zh": "抓",
+   "en": "Scratch",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "夹住",
+   "en": "Vise Grip",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "极落钳",
+   "en": "Guillotine",
+   "status": "draft",
+   "origin": "pokeapi-index",
+   "notes": "by index; official zh-Hans is 断头钳"
+  },
+  {
+   "id": 13,
+   "zh": "旋风刀",
+   "en": "Razor Wind",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "剑舞",
+   "en": "Swords Dance",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "居合劈",
+   "en": "Cut",
+   "status": "draft",
+   "origin": "pokeapi-index",
+   "notes": "by index; official zh-Hans is 居合斩"
+  },
+  {
+   "id": 16,
+   "zh": "起风",
+   "en": "Gust",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "翅膀攻击",
+   "en": "Wing Attack",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "吹飞",
+   "en": "Whirlwind",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "飞翔",
+   "en": "Fly",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "绑紧",
+   "en": "Bind",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": "fixed: v4 uses official 绑紧=Bind at slot 20 (Wring Out is 绞紧 #378).",
+   "qa_ignore": []
+  },
+  {
+   "id": 21,
+   "zh": "摔打",
+   "en": "Slam",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "藤鞭",
+   "en": "Vine Whip",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "踩踏",
+   "en": "Stomp",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "二连踢",
+   "en": "Double Kick",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "百万吨重踢",
+   "en": "Mega Kick",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "飞踢",
+   "en": "Jump Kick",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "回旋踢",
+   "en": "Rolling Kick",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "泼沙",
+   "en": "Sand Attack",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "头锤",
+   "en": "Headbutt",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "角撞",
+   "en": "Horn Attack",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "乱击",
+   "en": "Fury Attack",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "角钻",
+   "en": "Horn Drill",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "撞击",
+   "en": "Tackle",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "泰山压顶",
+   "en": "Body Slam",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "紧束",
+   "en": "Wrap",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "猛撞",
+   "en": "Take Down",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "大闹一番",
+   "en": "Thrash",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "舍身冲撞",
+   "en": "Double-Edge",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "摇尾巴",
+   "en": "Tail Whip",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "毒针",
+   "en": "Poison Sting",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "双针",
+   "en": "Twineedle",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "飞弹针",
+   "en": "Pin Missile",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "瞪眼",
+   "en": "Leer",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "咬住",
+   "en": "Bite",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "叫声",
+   "en": "Growl",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "吼叫",
+   "en": "Roar",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "唱歌",
+   "en": "Sing",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "超音波",
+   "en": "Supersonic",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "音爆",
+   "en": "Sonic Boom",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "定身法",
+   "en": "Disable",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "溶解液",
+   "en": "Acid",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "火花",
+   "en": "Ember",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "喷射火焰",
+   "en": "Flamethrower",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "白雾",
+   "en": "Mist",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "水枪",
+   "en": "Water Gun",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "水炮",
+   "en": "Hydro Pump",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "冲浪",
+   "en": "Surf",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "冰冻光束",
+   "en": "Ice Beam",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "暴风雪",
+   "en": "Blizzard",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "幻象光线",
+   "en": "Psybeam",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "泡沫光线",
+   "en": "Bubble Beam",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "极光束",
+   "en": "Aurora Beam",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "破坏光线",
+   "en": "Hyper Beam",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "啄",
+   "en": "Peck",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "啄钻",
+   "en": "Drill Peck",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "深渊翻滚",
+   "en": "Submission",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "踢倒",
+   "en": "Low Kick",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "双倍奉还",
+   "en": "Counter",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "地球上投",
+   "en": "Seismic Toss",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "怪力",
+   "en": "Strength",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "吸取",
+   "en": "Absorb",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "超级吸取",
+   "en": "Mega Drain",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "寄生种子",
+   "en": "Leech Seed",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "生长",
+   "en": "Growth",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "飞叶快刀",
+   "en": "Razor Leaf",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "日光束",
+   "en": "Solar Beam",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "毒粉",
+   "en": "PoisonPowder",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Poison Powder"
+  },
+  {
+   "id": 78,
+   "zh": "麻痹粉",
+   "en": "Stun Spore",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "催眠粉",
+   "en": "Sleep Powder",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "花瓣舞",
+   "en": "Petal Dance",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "吐丝",
+   "en": "String Shot",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "龙之怒",
+   "en": "Dragon Rage",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "火焰旋涡",
+   "en": "Fire Spin",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "电击",
+   "en": "ThunderShock",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Thunder Shock"
+  },
+  {
+   "id": 85,
+   "zh": "十万伏特",
+   "en": "Thunderbolt",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "电磁波",
+   "en": "Thunder Wave",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "打雷",
+   "en": "Thunder",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "落石",
+   "en": "Rock Throw",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "地震",
+   "en": "Earthquake",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "地裂",
+   "en": "Fissure",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "挖洞",
+   "en": "Dig",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "剧毒",
+   "en": "Toxic",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "念力",
+   "en": "Confusion",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "精神强念",
+   "en": "Psychic",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "催眠术",
+   "en": "Hypnosis",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "瑜伽姿势",
+   "en": "Meditate",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "高速移动",
+   "en": "Agility",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "电光一闪",
+   "en": "Quick Attack",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "愤怒",
+   "en": "Rage",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "瞬间移动",
+   "en": "Teleport",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "黑夜魔影",
+   "en": "Night Shade",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "模仿",
+   "en": "Mimic",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "刺耳声",
+   "en": "Screech",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "影子分身",
+   "en": "Double Team",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "自我再生",
+   "en": "Recover",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "变硬",
+   "en": "Harden",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "变小",
+   "en": "Minimize",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "烟幕",
+   "en": "Smokescreen",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "奇异之光",
+   "en": "Confuse Ray",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "缩入壳中",
+   "en": "Withdraw",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "变圆",
+   "en": "Defense Curl",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "屏障",
+   "en": "Barrier",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "光墙",
+   "en": "Light Screen",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "黑雾",
+   "en": "Haze",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "反射壁",
+   "en": "Reflect",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "聚气",
+   "en": "Focus Energy",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "忍耐",
+   "en": "Bide",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "挥指",
+   "en": "Metronome",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "鹦鹉学舌",
+   "en": "Mirror Move",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "玉石俱碎",
+   "en": "Selfdestruct",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "slot #120 Self-Destruct (Gen 4 spelling); hack zh 玉石俱碎 differs from official 自爆"
+  },
+  {
+   "id": 121,
+   "zh": "炸蛋",
+   "en": "Egg Bomb",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "舌舔",
+   "en": "Lick",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "浊雾",
+   "en": "Smog",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "污泥攻击",
+   "en": "Sludge",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 125,
+   "zh": "骨棒",
+   "en": "Bone Club",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "大字爆炎",
+   "en": "Fire Blast",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 127,
+   "zh": "攀瀑",
+   "en": "Waterfall",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 128,
+   "zh": "贝壳夹击",
+   "en": "Clamp",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 129,
+   "zh": "高速星星",
+   "en": "Swift",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 130,
+   "zh": "火箭头锤",
+   "en": "Skull Bash",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 131,
+   "zh": "尖刺加农炮",
+   "en": "Spike Cannon",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 132,
+   "zh": "缠绕",
+   "en": "Constrict",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 133,
+   "zh": "瞬间失忆",
+   "en": "Amnesia",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 134,
+   "zh": "折弯汤匙",
+   "en": "Kinesis",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 135,
+   "zh": "生蛋",
+   "en": "Soft-Boiled",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 136,
+   "zh": "飞膝踢",
+   "en": "Hi Jump Kick",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from High Jump Kick"
+  },
+  {
+   "id": 137,
+   "zh": "大蛇瞪眼",
+   "en": "Glare",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 138,
+   "zh": "食梦",
+   "en": "Dream Eater",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 139,
+   "zh": "毒瓦斯",
+   "en": "Poison Gas",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 140,
+   "zh": "投球",
+   "en": "Barrage",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "吸血",
+   "en": "Leech Life",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 142,
+   "zh": "恶魔之吻",
+   "en": "Lovely Kiss",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "神鸟猛击",
+   "en": "Sky Attack",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 144,
+   "zh": "变身",
+   "en": "Transform",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 145,
+   "zh": "泡沫",
+   "en": "Bubble",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "迷昏拳",
+   "en": "Dizzy Punch",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 147,
+   "zh": "蘑菇孢子",
+   "en": "Spore",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 148,
+   "zh": "闪光",
+   "en": "Flash",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 149,
+   "zh": "精神波",
+   "en": "Psywave",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 150,
+   "zh": "跃起",
+   "en": "Splash",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 151,
+   "zh": "溶化",
+   "en": "Acid Armor",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 152,
+   "zh": "蟹钳锤",
+   "en": "Crabhammer",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 153,
+   "zh": "大爆炸",
+   "en": "Explosion",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 154,
+   "zh": "乱抓",
+   "en": "Fury Swipes",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 155,
+   "zh": "骨头回力镖",
+   "en": "Bonemerang",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 156,
+   "zh": "睡觉",
+   "en": "Rest",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 157,
+   "zh": "岩崩",
+   "en": "Rock Slide",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 158,
+   "zh": "终结门牙",
+   "en": "Hyper Fang",
+   "status": "draft",
+   "origin": "pokeapi-index",
+   "notes": "by index; official zh-Hans is 必杀门牙"
+  },
+  {
+   "id": 159,
+   "zh": "棱角化",
+   "en": "Sharpen",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 160,
+   "zh": "纹理",
+   "en": "Conversion",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 161,
+   "zh": "三重攻击",
+   "en": "Tri Attack",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 162,
+   "zh": "愤怒门牙",
+   "en": "Super Fang",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 163,
+   "zh": "劈开",
+   "en": "Slash",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 164,
+   "zh": "替身",
+   "en": "Substitute",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 165,
+   "zh": "挣扎",
+   "en": "Struggle",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 166,
+   "zh": "写生",
+   "en": "Sketch",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 167,
+   "zh": "三连踢",
+   "en": "Triple Kick",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 168,
+   "zh": "小偷",
+   "en": "Thief",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 169,
+   "zh": "蛛网",
+   "en": "Spider Web",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 170,
+   "zh": "心之眼",
+   "en": "Mind Reader",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 171,
+   "zh": "恶梦",
+   "en": "Nightmare",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 172,
+   "zh": "火焰轮",
+   "en": "Flame Wheel",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 173,
+   "zh": "打鼾",
+   "en": "Snore",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 174,
+   "zh": "诅咒",
+   "en": "Curse",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 175,
+   "zh": "抓狂",
+   "en": "Flail",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 176,
+   "zh": "纹理２",
+   "en": "Conversion 2",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 177,
+   "zh": "气旋攻击",
+   "en": "Aeroblast",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 178,
+   "zh": "棉孢子",
+   "en": "Cotton Spore",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 179,
+   "zh": "绝处逢生",
+   "en": "Reversal",
+   "status": "draft",
+   "origin": "pokeapi-index",
+   "notes": "by index; official zh-Hans is 起死回生"
+  },
+  {
+   "id": 180,
+   "zh": "怨恨",
+   "en": "Spite",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 181,
+   "zh": "细雪",
+   "en": "Powder Snow",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 182,
+   "zh": "守住",
+   "en": "Protect",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 183,
+   "zh": "音速拳",
+   "en": "Mach Punch",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 184,
+   "zh": "可怕面孔",
+   "en": "Scary Face",
+   "status": "draft",
+   "origin": "pokeapi-index",
+   "notes": "by index; official zh-Hans is 鬼面"
+  },
+  {
+   "id": 185,
+   "zh": "出奇一击",
+   "en": "Feint Attack",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 186,
+   "zh": "天使之吻",
+   "en": "Sweet Kiss",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 187,
+   "zh": "腹鼓",
+   "en": "Belly Drum",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 188,
+   "zh": "污泥炸弹",
+   "en": "Sludge Bomb",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 189,
+   "zh": "掷泥",
+   "en": "Mud-Slap",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 190,
+   "zh": "章鱼桶炮",
+   "en": "Octazooka",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 191,
+   "zh": "撒菱",
+   "en": "Spikes",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 192,
+   "zh": "电磁炮",
+   "en": "Zap Cannon",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 193,
+   "zh": "识破",
+   "en": "Foresight",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 194,
+   "zh": "同命",
+   "en": "Destiny Bond",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 195,
+   "zh": "终焉之歌",
+   "en": "Perish Song",
+   "status": "draft",
+   "origin": "pokeapi-index",
+   "notes": "by index; official zh-Hans is 灭亡之歌"
+  },
+  {
+   "id": 196,
+   "zh": "冰冻之风",
+   "en": "Icy Wind",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 197,
+   "zh": "看穿",
+   "en": "Detect",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 198,
+   "zh": "骨棒乱打",
+   "en": "Bone Rush",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 199,
+   "zh": "锁定",
+   "en": "Lock-On",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 200,
+   "zh": "逆鳞",
+   "en": "Outrage",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 201,
+   "zh": "沙暴",
+   "en": "Sandstorm",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 202,
+   "zh": "终极吸取",
+   "en": "Giga Drain",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 203,
+   "zh": "挺住",
+   "en": "Endure",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 204,
+   "zh": "撒娇",
+   "en": "Charm",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 205,
+   "zh": "滚动",
+   "en": "Rollout",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 206,
+   "zh": "点到为止",
+   "en": "False Swipe",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 207,
+   "zh": "虚张声势",
+   "en": "Swagger",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 208,
+   "zh": "喝牛奶",
+   "en": "Milk Drink",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 209,
+   "zh": "电光",
+   "en": "Spark",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 210,
+   "zh": "连斩",
+   "en": "Fury Cutter",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 211,
+   "zh": "钢翼",
+   "en": "Steel Wing",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 212,
+   "zh": "黑色目光",
+   "en": "Mean Look",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 213,
+   "zh": "迷人",
+   "en": "Attract",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 214,
+   "zh": "梦话",
+   "en": "Sleep Talk",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 215,
+   "zh": "治愈铃声",
+   "en": "Heal Bell",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 216,
+   "zh": "报恩",
+   "en": "Return",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 217,
+   "zh": "礼物",
+   "en": "Present",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 218,
+   "zh": "迁怒",
+   "en": "Frustration",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 219,
+   "zh": "神秘守护",
+   "en": "Safeguard",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 220,
+   "zh": "分担痛楚",
+   "en": "Pain Split",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 221,
+   "zh": "神圣之火",
+   "en": "Sacred Fire",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 222,
+   "zh": "震级",
+   "en": "Magnitude",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 223,
+   "zh": "爆裂拳",
+   "en": "DynamicPunch",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Dynamic Punch"
+  },
+  {
+   "id": 224,
+   "zh": "超级角击",
+   "en": "Megahorn",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 225,
+   "zh": "龙息",
+   "en": "DragonBreath",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Dragon Breath"
+  },
+  {
+   "id": 226,
+   "zh": "接棒",
+   "en": "Baton Pass",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 227,
+   "zh": "再来一次",
+   "en": "Encore",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 228,
+   "zh": "追打",
+   "en": "Pursuit",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 229,
+   "zh": "高速旋转",
+   "en": "Rapid Spin",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 230,
+   "zh": "甜甜香气",
+   "en": "Sweet Scent",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 231,
+   "zh": "铁尾",
+   "en": "Iron Tail",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 232,
+   "zh": "金属爪",
+   "en": "Metal Claw",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 233,
+   "zh": "借力摔",
+   "en": "Vital Throw",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 234,
+   "zh": "晨光",
+   "en": "Morning Sun",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 235,
+   "zh": "光合作用",
+   "en": "Synthesis",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 236,
+   "zh": "月光",
+   "en": "Moonlight",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 237,
+   "zh": "觉醒力量",
+   "en": "Hidden Power",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 238,
+   "zh": "十字劈",
+   "en": "Cross Chop",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 239,
+   "zh": "龙卷风",
+   "en": "Twister",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 240,
+   "zh": "求雨",
+   "en": "Rain Dance",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 241,
+   "zh": "大晴天",
+   "en": "Sunny Day",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 242,
+   "zh": "咬碎",
+   "en": "Crunch",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 243,
+   "zh": "镜面反射",
+   "en": "Mirror Coat",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 244,
+   "zh": "自我暗示",
+   "en": "Psych Up",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 245,
+   "zh": "神速",
+   "en": "ExtremeSpeed",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Extreme Speed"
+  },
+  {
+   "id": 246,
+   "zh": "原始之力",
+   "en": "AncientPower",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Ancient Power"
+  },
+  {
+   "id": 247,
+   "zh": "暗影球",
+   "en": "Shadow Ball",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 248,
+   "zh": "预知未来",
+   "en": "Future Sight",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 249,
+   "zh": "碎岩",
+   "en": "Rock Smash",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 250,
+   "zh": "潮旋",
+   "en": "Whirlpool",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 251,
+   "zh": "围攻",
+   "en": "Beat Up",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 252,
+   "zh": "击掌奇袭",
+   "en": "Fake Out",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 253,
+   "zh": "吵闹",
+   "en": "Uproar",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 254,
+   "zh": "蓄力",
+   "en": "Stockpile",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 255,
+   "zh": "喷出",
+   "en": "Spit Up",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 256,
+   "zh": "吞下",
+   "en": "Swallow",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 257,
+   "zh": "热风",
+   "en": "Heat Wave",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 258,
+   "zh": "冰雹",
+   "en": "Hail",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 259,
+   "zh": "无理取闹",
+   "en": "Torment",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 260,
+   "zh": "吹捧",
+   "en": "Flatter",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 261,
+   "zh": "磷火",
+   "en": "Will-O-Wisp",
+   "status": "draft",
+   "origin": "pokeapi-index",
+   "notes": "by index; official zh-Hans is 鬼火"
+  },
+  {
+   "id": 262,
+   "zh": "临别礼物",
+   "en": "Memento",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 263,
+   "zh": "硬撑",
+   "en": "Facade",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 264,
+   "zh": "真气拳",
+   "en": "Focus Punch",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 265,
+   "zh": "清醒",
+   "en": "SmellingSalt",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Smelling Salts"
+  },
+  {
+   "id": 266,
+   "zh": "看我嘛",
+   "en": "Follow Me",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 267,
+   "zh": "自然之力",
+   "en": "Nature Power",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 268,
+   "zh": "充电",
+   "en": "Charge",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 269,
+   "zh": "挑衅",
+   "en": "Taunt",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 270,
+   "zh": "帮助",
+   "en": "Helping Hand",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 271,
+   "zh": "戏法",
+   "en": "Trick",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 272,
+   "zh": "扮演",
+   "en": "Role Play",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 273,
+   "zh": "祈愿",
+   "en": "Wish",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 274,
+   "zh": "借助",
+   "en": "Assist",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 275,
+   "zh": "扎根",
+   "en": "Ingrain",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 276,
+   "zh": "蛮力",
+   "en": "Superpower",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 277,
+   "zh": "魔法反射",
+   "en": "Magic Coat",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 278,
+   "zh": "回收利用",
+   "en": "Recycle",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 279,
+   "zh": "报复",
+   "en": "Revenge",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 280,
+   "zh": "劈瓦",
+   "en": "Brick Break",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 281,
+   "zh": "哈欠",
+   "en": "Yawn",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 282,
+   "zh": "拍落",
+   "en": "Knock Off",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 283,
+   "zh": "蛮干",
+   "en": "Endeavor",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 284,
+   "zh": "喷火",
+   "en": "Eruption",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 285,
+   "zh": "特性互换",
+   "en": "Skill Swap",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 286,
+   "zh": "封印",
+   "en": "Imprison",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 287,
+   "zh": "焕然一新",
+   "en": "Refresh",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 288,
+   "zh": "怨念",
+   "en": "Grudge",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 289,
+   "zh": "抢夺",
+   "en": "Snatch",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 290,
+   "zh": "秘密之力",
+   "en": "Secret Power",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 291,
+   "zh": "潜水",
+   "en": "Dive",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 292,
+   "zh": "猛推",
+   "en": "Arm Thrust",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 293,
+   "zh": "保护色",
+   "en": "Camouflage",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 294,
+   "zh": "萤火",
+   "en": "Tail Glow",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 295,
+   "zh": "洁净光芒",
+   "en": "Luster Purge",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 296,
+   "zh": "薄雾球",
+   "en": "Mist Ball",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 297,
+   "zh": "羽毛舞",
+   "en": "FeatherDance",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Feather Dance"
+  },
+  {
+   "id": 298,
+   "zh": "摇晃舞",
+   "en": "Teeter Dance",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 299,
+   "zh": "火焰踢",
+   "en": "Blaze Kick",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 300,
+   "zh": "玩泥巴",
+   "en": "Mud Sport",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 301,
+   "zh": "冰球",
+   "en": "Ice Ball",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 302,
+   "zh": "尖刺臂",
+   "en": "Needle Arm",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 303,
+   "zh": "偷懒",
+   "en": "Slack Off",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 304,
+   "zh": "巨声",
+   "en": "Hyper Voice",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 305,
+   "zh": "剧毒牙",
+   "en": "Poison Fang",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 306,
+   "zh": "撕裂爪",
+   "en": "Crush Claw",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 307,
+   "zh": "爆炸烈焰",
+   "en": "Blast Burn",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 308,
+   "zh": "加农水炮",
+   "en": "Hydro Cannon",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 309,
+   "zh": "彗星拳",
+   "en": "Meteor Mash",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 310,
+   "zh": "惊吓",
+   "en": "Astonish",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 311,
+   "zh": "气象球",
+   "en": "Weather Ball",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 312,
+   "zh": "芳香治疗",
+   "en": "Aromatherapy",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 313,
+   "zh": "假哭",
+   "en": "Fake Tears",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 314,
+   "zh": "空气利刃",
+   "en": "Air Cutter",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 315,
+   "zh": "过热",
+   "en": "Overheat",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 316,
+   "zh": "气味侦测",
+   "en": "Odor Sleuth",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 317,
+   "zh": "岩石封锁",
+   "en": "Rock Tomb",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 318,
+   "zh": "银色旋风",
+   "en": "Silver Wind",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 319,
+   "zh": "金属音",
+   "en": "Metal Sound",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 320,
+   "zh": "草笛",
+   "en": "GrassWhistle",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Grass Whistle"
+  },
+  {
+   "id": 321,
+   "zh": "挠痒",
+   "en": "Tickle",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 322,
+   "zh": "宇宙力量",
+   "en": "Cosmic Power",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 323,
+   "zh": "喷水",
+   "en": "Water Spout",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 324,
+   "zh": "信号光束",
+   "en": "Signal Beam",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 325,
+   "zh": "暗影拳",
+   "en": "Shadow Punch",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 326,
+   "zh": "神通力",
+   "en": "Extrasensory",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 327,
+   "zh": "冲天拳",
+   "en": "Sky Uppercut",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 328,
+   "zh": "流沙深渊",
+   "en": "Sand Tomb",
+   "status": "draft",
+   "origin": "pokeapi-index",
+   "notes": "by index; official zh-Hans is 流沙地狱"
+  },
+  {
+   "id": 329,
+   "zh": "绝对零度",
+   "en": "Sheer Cold",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 330,
+   "zh": "浊流",
+   "en": "Muddy Water",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 331,
+   "zh": "种子机关枪",
+   "en": "Bullet Seed",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 332,
+   "zh": "燕返",
+   "en": "Aerial Ace",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 333,
+   "zh": "冰锥",
+   "en": "Icicle Spear",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 334,
+   "zh": "铁壁",
+   "en": "Iron Defense",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 335,
+   "zh": "挡路",
+   "en": "Block",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 336,
+   "zh": "长嚎",
+   "en": "Howl",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 337,
+   "zh": "龙爪",
+   "en": "Dragon Claw",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 338,
+   "zh": "疯狂植物",
+   "en": "Frenzy Plant",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 339,
+   "zh": "健美",
+   "en": "Bulk Up",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 340,
+   "zh": "弹跳",
+   "en": "Bounce",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 341,
+   "zh": "泥巴射击",
+   "en": "Mud Shot",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 342,
+   "zh": "毒尾",
+   "en": "Poison Tail",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 343,
+   "zh": "渴望",
+   "en": "Covet",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 344,
+   "zh": "伏特攻击",
+   "en": "Volt Tackle",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 345,
+   "zh": "魔法叶",
+   "en": "Magical Leaf",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 346,
+   "zh": "玩水",
+   "en": "Water Sport",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 347,
+   "zh": "冥想",
+   "en": "Calm Mind",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 348,
+   "zh": "叶刃",
+   "en": "Leaf Blade",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 349,
+   "zh": "龙之舞",
+   "en": "Dragon Dance",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 350,
+   "zh": "岩石爆击",
+   "en": "Rock Blast",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 351,
+   "zh": "电击波",
+   "en": "Shock Wave",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 352,
+   "zh": "水之波动",
+   "en": "Water Pulse",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 353,
+   "zh": "破灭之愿",
+   "en": "Doom Desire",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 354,
+   "zh": "精神突进",
+   "en": "Psycho Boost",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 355,
+   "zh": "羽栖",
+   "en": "Roost",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 356,
+   "zh": "重力",
+   "en": "Gravity",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 357,
+   "zh": "奇迹之眼",
+   "en": "Miracle Eye",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 358,
+   "zh": "唤醒巴掌",
+   "en": "Wake-Up Slap",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 359,
+   "zh": "臂锤",
+   "en": "Hammer Arm",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 360,
+   "zh": "陀螺球",
+   "en": "Gyro Ball",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 361,
+   "zh": "治愈之愿",
+   "en": "Healing Wish",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 362,
+   "zh": "盐水",
+   "en": "Brine",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 363,
+   "zh": "自然之恩",
+   "en": "Natural Gift",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 364,
+   "zh": "佯攻",
+   "en": "Feint",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 365,
+   "zh": "啄食",
+   "en": "Pluck",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 366,
+   "zh": "顺风",
+   "en": "Tailwind",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 367,
+   "zh": "点穴",
+   "en": "Acupressure",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 368,
+   "zh": "金属爆炸",
+   "en": "Metal Burst",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 369,
+   "zh": "急速折返",
+   "en": "U-turn",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 370,
+   "zh": "近身战",
+   "en": "Close Combat",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 371,
+   "zh": "以牙还牙",
+   "en": "Payback",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 372,
+   "zh": "恶意追击",
+   "en": "Assurance",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 373,
+   "zh": "查封",
+   "en": "Embargo",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 374,
+   "zh": "投掷",
+   "en": "Fling",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 375,
+   "zh": "精神转移",
+   "en": "Psycho Shift",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 376,
+   "zh": "王牌",
+   "en": "Trump Card",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 377,
+   "zh": "回复封锁",
+   "en": "Heal Block",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 378,
+   "zh": "绞紧",
+   "en": "Wring Out",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 379,
+   "zh": "力量戏法",
+   "en": "Power Trick",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 380,
+   "zh": "胃液",
+   "en": "Gastro Acid",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 381,
+   "zh": "幸运咒语",
+   "en": "Lucky Chant",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 382,
+   "zh": "抢先一步",
+   "en": "Me First",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 383,
+   "zh": "仿效",
+   "en": "Copycat",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 384,
+   "zh": "力量互换",
+   "en": "Power Swap",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 385,
+   "zh": "防守互换",
+   "en": "Guard Swap",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 386,
+   "zh": "惩罚",
+   "en": "Punishment",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 387,
+   "zh": "珍藏",
+   "en": "Last Resort",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 388,
+   "zh": "烦恼种子",
+   "en": "Worry Seed",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 389,
+   "zh": "突袭",
+   "en": "Sucker Punch",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 390,
+   "zh": "毒菱",
+   "en": "Toxic Spikes",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 391,
+   "zh": "心灵互换",
+   "en": "Heart Swap",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 392,
+   "zh": "水流环",
+   "en": "Aqua Ring",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 393,
+   "zh": "电磁飘浮",
+   "en": "Magnet Rise",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 394,
+   "zh": "闪焰冲锋",
+   "en": "Flare Blitz",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 395,
+   "zh": "发劲",
+   "en": "Force Palm",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 396,
+   "zh": "波导弹",
+   "en": "Aura Sphere",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 397,
+   "zh": "岩石打磨",
+   "en": "Rock Polish",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 398,
+   "zh": "毒击",
+   "en": "Poison Jab",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 399,
+   "zh": "恶之波动",
+   "en": "Dark Pulse",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 400,
+   "zh": "暗袭要害",
+   "en": "Night Slash",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 401,
+   "zh": "水流尾",
+   "en": "Aqua Tail",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 402,
+   "zh": "种子炸弹",
+   "en": "Seed Bomb",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 403,
+   "zh": "空气之刃",
+   "en": "Air Slash",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 404,
+   "zh": "十字剪",
+   "en": "X-Scissor",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 405,
+   "zh": "虫鸣",
+   "en": "Bug Buzz",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 406,
+   "zh": "龙之波动",
+   "en": "Dragon Pulse",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 407,
+   "zh": "龙之俯冲",
+   "en": "Dragon Rush",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 408,
+   "zh": "力量宝石",
+   "en": "Power Gem",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 409,
+   "zh": "吸取拳",
+   "en": "Drain Punch",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 410,
+   "zh": "真空波",
+   "en": "Vacuum Wave",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 411,
+   "zh": "真气弹",
+   "en": "Focus Blast",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 412,
+   "zh": "能量球",
+   "en": "Energy Ball",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 413,
+   "zh": "勇鸟猛攻",
+   "en": "Brave Bird",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 414,
+   "zh": "大地之力",
+   "en": "Earth Power",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 415,
+   "zh": "掉包",
+   "en": "Switcheroo",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 416,
+   "zh": "终极冲击",
+   "en": "Giga Impact",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 417,
+   "zh": "诡计",
+   "en": "Nasty Plot",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 418,
+   "zh": "子弹拳",
+   "en": "Bullet Punch",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 419,
+   "zh": "雪崩",
+   "en": "Avalanche",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 420,
+   "zh": "冰砾",
+   "en": "Ice Shard",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 421,
+   "zh": "暗影爪",
+   "en": "Shadow Claw",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 422,
+   "zh": "雷电牙",
+   "en": "Thunder Fang",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 423,
+   "zh": "冰冻牙",
+   "en": "Ice Fang",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 424,
+   "zh": "火焰牙",
+   "en": "Fire Fang",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 425,
+   "zh": "影子偷袭",
+   "en": "Shadow Sneak",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 426,
+   "zh": "泥巴炸弹",
+   "en": "Mud Bomb",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 427,
+   "zh": "精神利刃",
+   "en": "Psycho Cut",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 428,
+   "zh": "意念头锤",
+   "en": "Zen Headbutt",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 429,
+   "zh": "镜光射击",
+   "en": "Mirror Shot",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 430,
+   "zh": "加农光炮",
+   "en": "Flash Cannon",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 431,
+   "zh": "攀岩",
+   "en": "Rock Climb",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 432,
+   "zh": "清除浓雾",
+   "en": "Defog",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 433,
+   "zh": "戏法空间",
+   "en": "Trick Room",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 434,
+   "zh": "流星群",
+   "en": "Draco Meteor",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 435,
+   "zh": "放电",
+   "en": "Discharge",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 436,
+   "zh": "喷烟",
+   "en": "Lava Plume",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 437,
+   "zh": "飞叶风暴",
+   "en": "Leaf Storm",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 438,
+   "zh": "强力鞭打",
+   "en": "Power Whip",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 439,
+   "zh": "岩石炮",
+   "en": "Rock Wrecker",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 440,
+   "zh": "十字毒刃",
+   "en": "Cross Poison",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 441,
+   "zh": "垃圾射击",
+   "en": "Gunk Shot",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 442,
+   "zh": "铁头",
+   "en": "Iron Head",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 443,
+   "zh": "磁铁炸弹",
+   "en": "Magnet Bomb",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 444,
+   "zh": "尖石攻击",
+   "en": "Stone Edge",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 445,
+   "zh": "诱惑",
+   "en": "Captivate",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 446,
+   "zh": "隐形岩",
+   "en": "Stealth Rock",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 447,
+   "zh": "打草结",
+   "en": "Grass Knot",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 448,
+   "zh": "喋喋不休",
+   "en": "Chatter",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 449,
+   "zh": "制裁光砾",
+   "en": "Judgment",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 450,
+   "zh": "虫咬",
+   "en": "Bug Bite",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 451,
+   "zh": "充电光束",
+   "en": "Charge Beam",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 452,
+   "zh": "木槌",
+   "en": "Wood Hammer",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 453,
+   "zh": "水流喷射",
+   "en": "Aqua Jet",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 454,
+   "zh": "攻击指令",
+   "en": "Attack Order",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 455,
+   "zh": "防御指令",
+   "en": "Defend Order",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 456,
+   "zh": "回复指令",
+   "en": "Heal Order",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 457,
+   "zh": "双刃头锤",
+   "en": "Head Smash",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 458,
+   "zh": "二连击",
+   "en": "Double Hit",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 459,
+   "zh": "时光咆哮",
+   "en": "Roar of Time",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 460,
+   "zh": "亚空裂斩",
+   "en": "Spacial Rend",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 461,
+   "zh": "新月舞",
+   "en": "Lunar Dance",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 462,
+   "zh": "捏碎",
+   "en": "Crush Grip",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 463,
+   "zh": "熔岩风暴",
+   "en": "Magma Storm",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 464,
+   "zh": "暗黑洞",
+   "en": "Dark Void",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 465,
+   "zh": "种子闪光",
+   "en": "Seed Flare",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 466,
+   "zh": "奇异之风",
+   "en": "Ominous Wind",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 467,
+   "zh": "暗影潜袭",
+   "en": "Shadow Force",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 468,
+   "zh": "磨爪",
+   "en": "Hone Claws",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 469,
+   "zh": "广域防守",
+   "en": "Wide Guard",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 470,
+   "zh": "防守平分",
+   "en": "Guard Split",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 471,
+   "zh": "力量平分",
+   "en": "Power Split",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 472,
+   "zh": "奇妙空间",
+   "en": "Wonder Room",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 473,
+   "zh": "精神冲击",
+   "en": "Psyshock",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 474,
+   "zh": "毒液冲击",
+   "en": "Venoshock",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 475,
+   "zh": "身体轻量化",
+   "en": "Autotomize",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 476,
+   "zh": "愤怒粉",
+   "en": "Rage Powder",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 477,
+   "zh": "意念移物",
+   "en": "Telekinesis",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 478,
+   "zh": "魔法空间",
+   "en": "Magic Room",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 479,
+   "zh": "击落",
+   "en": "Smack Down",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 480,
+   "zh": "山岚摔",
+   "en": "Storm Throw",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 481,
+   "zh": "烈焰溅射",
+   "en": "Flame Burst",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 482,
+   "zh": "污泥波",
+   "en": "Sludge Wave",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 483,
+   "zh": "蝶舞",
+   "en": "Quiver Dance",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 484,
+   "zh": "重磅冲撞",
+   "en": "Heavy Slam",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 485,
+   "zh": "同步干扰",
+   "en": "Synchronoise",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 486,
+   "zh": "电球",
+   "en": "Electro Ball",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 487,
+   "zh": "浸水",
+   "en": "Soak",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 488,
+   "zh": "蓄能焰袭",
+   "en": "Flame Charge",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 489,
+   "zh": "盘蜷",
+   "en": "Coil",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 490,
+   "zh": "下盘踢",
+   "en": "Low Sweep",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 491,
+   "zh": "酸液炸弹",
+   "en": "Acid Spray",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 492,
+   "zh": "欺诈",
+   "en": "Foul Play",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 493,
+   "zh": "单纯光束",
+   "en": "Simple Beam",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 494,
+   "zh": "找伙伴",
+   "en": "Entrainment",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 495,
+   "zh": "您先请",
+   "en": "After You",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 496,
+   "zh": "轮唱",
+   "en": "Round",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 497,
+   "zh": "回声",
+   "en": "Echoed Voice",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 498,
+   "zh": "逐步击破",
+   "en": "Chip Away",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 499,
+   "zh": "清除之烟",
+   "en": "Clear Smog",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 500,
+   "zh": "辅助力量",
+   "en": "Stored Power",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 501,
+   "zh": "快速防守",
+   "en": "Quick Guard",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 502,
+   "zh": "交换场地",
+   "en": "Ally Switch",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 503,
+   "zh": "热水",
+   "en": "Scald",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 504,
+   "zh": "破壳",
+   "en": "Shell Smash",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 505,
+   "zh": "治愈波动",
+   "en": "Heal Pulse",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 506,
+   "zh": "祸不单行",
+   "en": "Hex",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 507,
+   "zh": "自由落体",
+   "en": "Sky Drop",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 508,
+   "zh": "换档",
+   "en": "Shift Gear",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 509,
+   "zh": "巴投",
+   "en": "Circle Throw",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 510,
+   "zh": "烧净",
+   "en": "Incinerate",
+   "status": "draft",
+   "origin": "pokeapi-index",
+   "notes": "by index; official zh-Hans is 烧尽"
+  },
+  {
+   "id": 511,
+   "zh": "延后",
+   "en": "Quash",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 512,
+   "zh": "杂技",
+   "en": "Acrobatics",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 513,
+   "zh": "镜面属性",
+   "en": "Reflect Type",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 514,
+   "zh": "报仇",
+   "en": "Retaliate",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 515,
+   "zh": "搏命",
+   "en": "Final Gambit",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 516,
+   "zh": "传递礼物",
+   "en": "Bestow",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 517,
+   "zh": "烈火深渊",
+   "en": "Inferno",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "slot #517 Inferno; hack zh 烈火深渊 differs from official 炼狱"
+  },
+  {
+   "id": 518,
+   "zh": "水之誓约",
+   "en": "Water Pledge",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 519,
+   "zh": "火之誓约",
+   "en": "Fire Pledge",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 520,
+   "zh": "草之誓约",
+   "en": "Grass Pledge",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 521,
+   "zh": "伏特替换",
+   "en": "Volt Switch",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 522,
+   "zh": "虫之抵抗",
+   "en": "Struggle Bug",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 523,
+   "zh": "重踏",
+   "en": "Bulldoze",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 524,
+   "zh": "冰息",
+   "en": "Frost Breath",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 525,
+   "zh": "龙尾",
+   "en": "Dragon Tail",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 526,
+   "zh": "自我激励",
+   "en": "Work Up",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 527,
+   "zh": "电网",
+   "en": "Electroweb",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 528,
+   "zh": "疯狂伏特",
+   "en": "Wild Charge",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 529,
+   "zh": "直冲钻",
+   "en": "Drill Run",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 530,
+   "zh": "二连劈",
+   "en": "Dual Chop",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 531,
+   "zh": "爱心印章",
+   "en": "Heart Stamp",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 532,
+   "zh": "木角",
+   "en": "Horn Leech",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 533,
+   "zh": "圣剑",
+   "en": "Sacred Sword",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 534,
+   "zh": "贝壳刃",
+   "en": "Razor Shell",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 535,
+   "zh": "高温重压",
+   "en": "Heat Crash",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 536,
+   "zh": "青草搅拌器",
+   "en": "Leaf Tornado",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 537,
+   "zh": "疯狂滚压",
+   "en": "Steamroller",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 538,
+   "zh": "棉花防守",
+   "en": "Cotton Guard",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 539,
+   "zh": "暗黑爆破",
+   "en": "Night Daze",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 540,
+   "zh": "精神击破",
+   "en": "Psystrike",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 541,
+   "zh": "扫尾拍打",
+   "en": "Tail Slap",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 542,
+   "zh": "暴风",
+   "en": "Hurricane",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "暴风 at official Hurricane slot 542; desc 0738/542 = strong wind, may confuse = Hurricane. Aeroblast is 气旋攻击 (#177).",
+   "qa_ignore": [
+    "glossary"
+   ]
+  },
+  {
+   "id": 543,
+   "zh": "爆炸头突击",
+   "en": "Head Charge",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 544,
+   "zh": "齿轮飞盘",
+   "en": "Gear Grind",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 545,
+   "zh": "火焰弹",
+   "en": "Searing Shot",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 546,
+   "zh": "高科技光炮",
+   "en": "Techno Blast",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 547,
+   "zh": "古老之歌",
+   "en": "Relic Song",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 548,
+   "zh": "神秘之剑",
+   "en": "Secret Sword",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 549,
+   "zh": "冰封世界",
+   "en": "Glaciate",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 550,
+   "zh": "雷击",
+   "en": "Bolt Strike",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 551,
+   "zh": "青焰",
+   "en": "Blue Flare",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 552,
+   "zh": "火之舞",
+   "en": "Fiery Dance",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 553,
+   "zh": "冰冻伏特",
+   "en": "Freeze Shock",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 554,
+   "zh": "极寒冷焰",
+   "en": "Ice Burn",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 555,
+   "zh": "大声咆哮",
+   "en": "Snarl",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 556,
+   "zh": "冰柱坠击",
+   "en": "Icicle Crash",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 557,
+   "zh": "Ｖ热焰",
+   "en": "V-create",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 558,
+   "zh": "交错火焰",
+   "en": "Fusion Flare",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 559,
+   "zh": "交错闪电",
+   "en": "Fusion Bolt",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 560,
+   "zh": "飞身重压",
+   "en": "Flying Press",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 561,
+   "zh": "掀榻榻米",
+   "en": "Mat Block",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 562,
+   "zh": "打嗝",
+   "en": "Belch",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 563,
+   "zh": "耕地",
+   "en": "Rototiller",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 564,
+   "zh": "黏黏网",
+   "en": "Sticky Web",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 565,
+   "zh": "致命针刺",
+   "en": "Fell Stinger",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 566,
+   "zh": "潜灵奇袭",
+   "en": "PhantomForce",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Phantom Force"
+  },
+  {
+   "id": 567,
+   "zh": "万圣夜",
+   "en": "TrickOrTreat",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Trick-or-Treat"
+  },
+  {
+   "id": 568,
+   "zh": "战吼",
+   "en": "Noble Roar",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 569,
+   "zh": "等离子浴",
+   "en": "Ion Deluge",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 570,
+   "zh": "抛物面充电",
+   "en": "ParabolcChrg",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Parabolic Charge"
+  },
+  {
+   "id": 571,
+   "zh": "森林咒术",
+   "en": "ForestsCurse",
+   "status": "draft",
+   "origin": "pokeapi-index+abbrev",
+   "notes": "by index; official zh-Hans is 森林诅咒; abbreviated from Forest’s Curse"
+  },
+  {
+   "id": 572,
+   "zh": "落英缤纷",
+   "en": "PetalBlizzrd",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Petal Blizzard"
+  },
+  {
+   "id": 573,
+   "zh": "冷冻干燥",
+   "en": "Freeze-Dry",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 574,
+   "zh": "魅惑之声",
+   "en": "DisarmngVoic",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Disarming Voice"
+  },
+  {
+   "id": 575,
+   "zh": "抛下狠话",
+   "en": "Parting Shot",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 576,
+   "zh": "颠倒",
+   "en": "Topsy-Turvy",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 577,
+   "zh": "吸取之吻",
+   "en": "DrainingKiss",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Draining Kiss"
+  },
+  {
+   "id": 578,
+   "zh": "戏法防守",
+   "en": "CraftyShield",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Crafty Shield"
+  },
+  {
+   "id": 579,
+   "zh": "鲜花防守",
+   "en": "FlowerShield",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Flower Shield"
+  },
+  {
+   "id": 580,
+   "zh": "青草场地",
+   "en": "GrassTerrain",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Grassy Terrain"
+  },
+  {
+   "id": 581,
+   "zh": "薄雾场地",
+   "en": "MistyTerrain",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Misty Terrain"
+  },
+  {
+   "id": 582,
+   "zh": "输电",
+   "en": "Electrify",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 583,
+   "zh": "嬉闹",
+   "en": "Play Rough",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 584,
+   "zh": "妖精之风",
+   "en": "Fairy Wind",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 585,
+   "zh": "月亮之力",
+   "en": "Moonblast",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 586,
+   "zh": "爆音波",
+   "en": "Boomburst",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 587,
+   "zh": "妖精之锁",
+   "en": "Fairy Lock",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 588,
+   "zh": "王者盾牌",
+   "en": "KingsShield",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from King’s Shield"
+  },
+  {
+   "id": 589,
+   "zh": "和睦相处",
+   "en": "Play Nice",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 590,
+   "zh": "密语",
+   "en": "Confide",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 591,
+   "zh": "钻石风暴",
+   "en": "DiamondStorm",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Diamond Storm"
+  },
+  {
+   "id": 592,
+   "zh": "蒸汽爆炸",
+   "en": "SteamEruptn",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Steam Eruption"
+  },
+  {
+   "id": 593,
+   "zh": "异次元洞",
+   "en": "HyprspceHole",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Hyperspace Hole"
+  },
+  {
+   "id": 594,
+   "zh": "飞水手里剑",
+   "en": "WatrShuriken",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Water Shuriken"
+  },
+  {
+   "id": 595,
+   "zh": "魔法火焰",
+   "en": "MysticalFire",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Mystical Fire"
+  },
+  {
+   "id": 596,
+   "zh": "尖刺防守",
+   "en": "Spiky Shield",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 597,
+   "zh": "芳香薄雾",
+   "en": "AromaticMist",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Aromatic Mist"
+  },
+  {
+   "id": 598,
+   "zh": "怪异电波",
+   "en": "EerieImpulse",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Eerie Impulse"
+  },
+  {
+   "id": 599,
+   "zh": "毒液陷阱",
+   "en": "Venom Drench",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 600,
+   "zh": "粉尘",
+   "en": "Powder",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 601,
+   "zh": "大地掌控",
+   "en": "Geomancy",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 602,
+   "zh": "磁场操控",
+   "en": "MagneticFlux",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Magnetic Flux"
+  },
+  {
+   "id": 603,
+   "zh": "欢乐时光",
+   "en": "Happy Hour",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 604,
+   "zh": "电气场地",
+   "en": "ElecTerrain",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Electric Terrain"
+  },
+  {
+   "id": 605,
+   "zh": "魔法闪耀",
+   "en": "DazzlngGleam",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Dazzling Gleam"
+  },
+  {
+   "id": 606,
+   "zh": "庆祝",
+   "en": "Celebrate",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 607,
+   "zh": "牵手",
+   "en": "Hold Hands",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 608,
+   "zh": "圆瞳",
+   "en": "BabyDollEyes",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Baby-Doll Eyes"
+  },
+  {
+   "id": 609,
+   "zh": "蹭蹭脸颊",
+   "en": "Nuzzle",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 610,
+   "zh": "手下留情",
+   "en": "Hold Back",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 611,
+   "zh": "纠缠不休",
+   "en": "Infestation",
+   "status": "draft",
+   "origin": "pokeapi-index",
+   "notes": "by index; official zh-Hans is 死缠烂打"
+  },
+  {
+   "id": 612,
+   "zh": "增强拳",
+   "en": "PowerUpPunch",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Power-Up Punch"
+  },
+  {
+   "id": 613,
+   "zh": "归天之翼",
+   "en": "OblivionWing",
+   "status": "draft",
+   "origin": "pokeapi-index+abbrev",
+   "notes": "by index; official zh-Hans is 死亡之翼; abbreviated from Oblivion Wing"
+  },
+  {
+   "id": 614,
+   "zh": "千箭齐发",
+   "en": "ThousndArrws",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Thousand Arrows"
+  },
+  {
+   "id": 615,
+   "zh": "千波激荡",
+   "en": "ThousndWaves",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Thousand Waves"
+  },
+  {
+   "id": 616,
+   "zh": "大地神力",
+   "en": "Land’s Wrath",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 617,
+   "zh": "破灭之光",
+   "en": "LightOfRuin",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Light of Ruin"
+  },
+  {
+   "id": 618,
+   "zh": "根源波动",
+   "en": "Origin Pulse",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 619,
+   "zh": "断崖之剑",
+   "en": "PrcipceBlade",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Precipice Blades"
+  },
+  {
+   "id": 620,
+   "zh": "画龙点睛",
+   "en": "DragonAscent",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Dragon Ascent"
+  },
+  {
+   "id": 621,
+   "zh": "异次元猛攻",
+   "en": "HyprspceFury",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Hyperspace Fury"
+  },
+  {
+   "id": 622,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 623,
+   "zh": "究极无敌大冲撞",
+   "en": "BrkneckBlitz",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Breakneck Blitz"
+  },
+  {
+   "id": 624,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 625,
+   "zh": "全力无双激烈拳",
+   "en": "AllOutPummel",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from All-Out Pummeling"
+  },
+  {
+   "id": 626,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 627,
+   "zh": "极速俯冲轰烈撞",
+   "en": "SonicSkystrk",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Supersonic Skystrike"
+  },
+  {
+   "id": 628,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 629,
+   "zh": "强酸剧毒灭绝雨",
+   "en": "AcidDownpour",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Acid Downpour"
+  },
+  {
+   "id": 630,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 631,
+   "zh": "地隆啸天大终结",
+   "en": "TectonicRage",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Tectonic Rage"
+  },
+  {
+   "id": 632,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 633,
+   "zh": "毁天灭地巨岩坠",
+   "en": "ContnntlCrsh",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Continental Crush"
+  },
+  {
+   "id": 634,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 635,
+   "zh": "绝对捕食回旋斩",
+   "en": "SavageSpnOut",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Savage Spin-Out"
+  },
+  {
+   "id": 636,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 637,
+   "zh": "无尽暗夜之诱惑",
+   "en": "NvrEndNghtmr",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Never-Ending Nightmare"
+  },
+  {
+   "id": 638,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 639,
+   "zh": "超绝螺旋连击",
+   "en": "CorkscrwCrsh",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Corkscrew Crash"
+  },
+  {
+   "id": 640,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 641,
+   "zh": "超强极限爆焰弹",
+   "en": "InfernoOvrdv",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Inferno Overdrive"
+  },
+  {
+   "id": 642,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 643,
+   "zh": "超级水流大漩涡",
+   "en": "Hydro Vortex",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 644,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 645,
+   "zh": "绚烂缤纷花怒放",
+   "en": "Bloom Doom",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 646,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 647,
+   "zh": "终极伏特狂雷闪",
+   "en": "GigavoltHavc",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Gigavolt Havoc"
+  },
+  {
+   "id": 648,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 649,
+   "zh": "至高精神破坏波",
+   "en": "ShattrdPsych",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Shattered Psyche"
+  },
+  {
+   "id": 650,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 651,
+   "zh": "激狂大地万里冰",
+   "en": "SubzeroSlmmr",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Subzero Slammer"
+  },
+  {
+   "id": 652,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 653,
+   "zh": "究极巨龙震天地",
+   "en": "DevstatDrake",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Devastating Drake"
+  },
+  {
+   "id": 654,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 655,
+   "zh": "黑洞吞噬万物灭",
+   "en": "BlkHoleEclps",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Black Hole Eclipse"
+  },
+  {
+   "id": 656,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 657,
+   "zh": "可爱星星飞天撞",
+   "en": "TwinklTackle",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Twinkle Tackle"
+  },
+  {
+   "id": 658,
+   "zh": "皮卡皮卡必杀击",
+   "en": "Catastropika",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 659,
+   "zh": "集沙",
+   "en": "Shore Up",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 660,
+   "zh": "迎头一击",
+   "en": "FirstImpresn",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from First Impression"
+  },
+  {
+   "id": 661,
+   "zh": "碉堡",
+   "en": "BanefulBunkr",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Baneful Bunker"
+  },
+  {
+   "id": 662,
+   "zh": "缝影",
+   "en": "SpiritShackl",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Spirit Shackle"
+  },
+  {
+   "id": 663,
+   "zh": "ＤＤ金勾臂",
+   "en": "DarkstLariat",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Darkest Lariat"
+  },
+  {
+   "id": 664,
+   "zh": "泡影的咏叹调",
+   "en": "SparklngAria",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Sparkling Aria"
+  },
+  {
+   "id": 665,
+   "zh": "冰锤",
+   "en": "Ice Hammer",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 666,
+   "zh": "花疗",
+   "en": "FloralHealng",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Floral Healing"
+  },
+  {
+   "id": 667,
+   "zh": "十万马力",
+   "en": "HighHorsepwr",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from High Horsepower"
+  },
+  {
+   "id": 668,
+   "zh": "吸取力量",
+   "en": "Strength Sap",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 669,
+   "zh": "日光刃",
+   "en": "Solar Blade",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 670,
+   "zh": "树叶",
+   "en": "Leafage",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 671,
+   "zh": "聚光灯",
+   "en": "Spotlight",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 672,
+   "zh": "毒丝",
+   "en": "Toxic Thread",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 673,
+   "zh": "磨砺",
+   "en": "Laser Focus",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 674,
+   "zh": "辅助齿轮",
+   "en": "Gear Up",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 675,
+   "zh": "深渊突刺",
+   "en": "Throat Chop",
+   "status": "draft",
+   "origin": "pokeapi-index",
+   "notes": "by index; official zh-Hans is 地狱突刺"
+  },
+  {
+   "id": 676,
+   "zh": "花粉团",
+   "en": "Pollen Puff",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 677,
+   "zh": "掷锚",
+   "en": "Anchor Shot",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 678,
+   "zh": "精神场地",
+   "en": "PsychTerrain",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Psychic Terrain"
+  },
+  {
+   "id": 679,
+   "zh": "猛扑",
+   "en": "Lunge",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 680,
+   "zh": "火焰鞭",
+   "en": "Fire Lash",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 681,
+   "zh": "嚣张",
+   "en": "Power Trip",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 682,
+   "zh": "燃尽",
+   "en": "Burn Up",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 683,
+   "zh": "速度互换",
+   "en": "Speed Swap",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 684,
+   "zh": "修长之角",
+   "en": "Smart Strike",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 685,
+   "zh": "净化",
+   "en": "Purify",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 686,
+   "zh": "觉醒之舞",
+   "en": "RevelatnDnce",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Revelation Dance"
+  },
+  {
+   "id": 687,
+   "zh": "核心惩罚者",
+   "en": "CoreEnforcer",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Core Enforcer"
+  },
+  {
+   "id": 688,
+   "zh": "热带踢",
+   "en": "Trop Kick",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 689,
+   "zh": "号令",
+   "en": "Instruct",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 690,
+   "zh": "鸟嘴加农炮",
+   "en": "Beak Blast",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 691,
+   "zh": "鳞片噪音",
+   "en": "ClangngScles",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Clanging Scales"
+  },
+  {
+   "id": 692,
+   "zh": "龙锤",
+   "en": "DragonHammer",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Dragon Hammer"
+  },
+  {
+   "id": 693,
+   "zh": "狂舞挥打",
+   "en": "Brutal Swing",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 694,
+   "zh": "极光幕",
+   "en": "Aurora Veil",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 695,
+   "zh": "遮天蔽日暗影箭",
+   "en": "SinArrowRaid",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Sinister Arrow Raid"
+  },
+  {
+   "id": 696,
+   "zh": "极恶飞跃粉碎击",
+   "en": "MalicMoonslt",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Malicious Moonsault"
+  },
+  {
+   "id": 697,
+   "zh": "海神庄严交响乐",
+   "en": "OceanicOprta",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Oceanic Operetta"
+  },
+  {
+   "id": 698,
+   "zh": "巨人卫士・阿罗拉",
+   "en": "GuardnAlola",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Guardian of Alola"
+  },
+  {
+   "id": 699,
+   "zh": "七星夺魂腿",
+   "en": "7StarStrike",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Soul-Stealing 7-Star Strike"
+  },
+  {
+   "id": 700,
+   "zh": "驾雷驭电戏冲浪",
+   "en": "Sparksurfer",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Stoked Sparksurfer"
+  },
+  {
+   "id": 701,
+   "zh": "认真起来大爆击",
+   "en": "PulvrzPancke",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Pulverizing Pancake"
+  },
+  {
+   "id": 702,
+   "zh": "九彩升华齐聚顶",
+   "en": "ExtrmEvboost",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Extreme Evoboost"
+  },
+  {
+   "id": 703,
+   "zh": "起源超新星大爆炸",
+   "en": "GenesisNova",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Genesis Supernova"
+  },
+  {
+   "id": 704,
+   "zh": "陷阱甲壳",
+   "en": "Shell Trap",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 705,
+   "zh": "花朵加农炮",
+   "en": "Fleur Cannon",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 706,
+   "zh": "精神之牙",
+   "en": "PsychicFangs",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Psychic Fangs"
+  },
+  {
+   "id": 707,
+   "zh": "跺脚",
+   "en": "StompngTntrm",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Stomping Tantrum"
+  },
+  {
+   "id": 708,
+   "zh": "暗影之骨",
+   "en": "Shadow Bone",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 709,
+   "zh": "冲岩",
+   "en": "Accelerock",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 710,
+   "zh": "水流裂破",
+   "en": "Liquidation",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 711,
+   "zh": "棱镜镭射",
+   "en": "PrismtcLaser",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Prismatic Laser"
+  },
+  {
+   "id": 712,
+   "zh": "暗影偷盗",
+   "en": "SpectrlThief",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Spectral Thief"
+  },
+  {
+   "id": 713,
+   "zh": "流星闪冲",
+   "en": "SunsteelStrk",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Sunsteel Strike"
+  },
+  {
+   "id": 714,
+   "zh": "暗影之光",
+   "en": "MoongestBeam",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Moongeist Beam"
+  },
+  {
+   "id": 715,
+   "zh": "泪眼汪汪",
+   "en": "Tearful Look",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 716,
+   "zh": "麻麻刺刺",
+   "en": "Zing Zap",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 717,
+   "zh": "自然之怒",
+   "en": "NaturMadness",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Nature’s Madness"
+  },
+  {
+   "id": 718,
+   "zh": "多属性攻击",
+   "en": "Multi-Attack",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 719,
+   "zh": "智皮卡Ｚ千万伏特",
+   "en": "10MVoltTBolt",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "hack zh contains official name 千万伏特; abbreviated from 10,000,000 Volt Thunderbolt"
+  },
+  {
+   "id": 720,
+   "zh": "惊爆大头",
+   "en": "Mind Blown",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 721,
+   "zh": "等离子闪电拳",
+   "en": "Plasma Fists",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 722,
+   "zh": "光子喷涌",
+   "en": "PhotonGeyser",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Photon Geyser"
+  },
+  {
+   "id": 723,
+   "zh": "杖尾鳞甲龙Ｚ炽魂热舞烈音爆",
+   "en": "ClangSoulblz",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "hack zh contains official name 炽魂热舞烈音爆; abbreviated from Clangorous Soulblaze"
+  },
+  {
+   "id": 724,
+   "zh": "鬃岩狼人Ｚ狼啸石牙飓风暴",
+   "en": "Stormshards",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "hack zh contains official name 狼啸石牙飓风暴; abbreviated from Splintered Stormshards"
+  },
+  {
+   "id": 725,
+   "zh": "谜拟丘Ｚ亲密无间大乱揍",
+   "en": "SnuggleForvr",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "hack zh contains official name 亲密无间大乱揍; abbreviated from Let’s Snuggle Forever"
+  },
+  {
+   "id": 726,
+   "zh": "索尔迦雷欧Ｚ日光回旋下苍穹",
+   "en": "SunrazeSmash",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "hack zh contains official name 日光回旋下苍穹; abbreviated from Searing Sunraze Smash"
+  },
+  {
+   "id": 727,
+   "zh": "露奈雅拉Ｚ月华飞溅落灵霄",
+   "en": "MoonrazeMlst",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "hack zh contains official name 月华飞溅落灵霄; abbreviated from Menacing Moonraze Maelstrom"
+  },
+  {
+   "id": 728,
+   "zh": "究极奈克洛Ｚ焚天灭世炽光爆",
+   "en": "LightBurnSky",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "hack zh contains official name 焚天灭世炽光爆; abbreviated from Light That Burns the Sky"
+  },
+  {
+   "id": 729,
+   "zh": "电电加速",
+   "en": "Zippy Zap",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 730,
+   "zh": "滔滔冲浪",
+   "en": "SplishySplsh",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Splishy Splash"
+  },
+  {
+   "id": 731,
+   "zh": "飘飘坠落",
+   "en": "Floaty Fall",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 732,
+   "zh": "闪闪雷光",
+   "en": "Pika Papow",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 733,
+   "zh": "活活气泡",
+   "en": "BouncyBubble",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Bouncy Bubble"
+  },
+  {
+   "id": 734,
+   "zh": "麻麻电击",
+   "en": "Buzzy Buzz",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 735,
+   "zh": "熊熊火爆",
+   "en": "Sizzly Slide",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 736,
+   "zh": "哗哗气场",
+   "en": "Glitzy Glow",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 737,
+   "zh": "坏坏领域",
+   "en": "Baddy Bad",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 738,
+   "zh": "茁茁炸弹",
+   "en": "Sappy Seed",
+   "status": "draft",
+   "origin": "pokeapi-index",
+   "notes": "by index; official zh-Hans is 茁茁轰炸"
+  },
+  {
+   "id": 739,
+   "zh": "冰冰霜冻",
+   "en": "Freezy Frost",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 740,
+   "zh": "亮亮风暴",
+   "en": "SparklySwirl",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Sparkly Swirl"
+  },
+  {
+   "id": 741,
+   "zh": "砰砰击破",
+   "en": "VeeveeVolley",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Veevee Volley"
+  },
+  {
+   "id": 742,
+   "zh": "钢拳双击",
+   "en": "DblIronBash",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Double Iron Bash"
+  },
+  {
+   "id": 743,
+   "zh": "极巨防壁",
+   "en": "Max Guard",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 744,
+   "zh": "极巨炮",
+   "en": "DynamxCannon",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Dynamax Cannon"
+  },
+  {
+   "id": 745,
+   "zh": "狙击",
+   "en": "Snipe Shot",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 746,
+   "zh": "紧咬不放",
+   "en": "Jaw Lock",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 747,
+   "zh": "大快朵颐",
+   "en": "Stuff Cheeks",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 748,
+   "zh": "背水一战",
+   "en": "No Retreat",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 749,
+   "zh": "沥青射击",
+   "en": "Tar Shot",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 750,
+   "zh": "魔法粉",
+   "en": "Magic Powder",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 751,
+   "zh": "龙箭",
+   "en": "Dragon Darts",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 752,
+   "zh": "茶会",
+   "en": "Teatime",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 753,
+   "zh": "蛸固",
+   "en": "Octolock",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 754,
+   "zh": "电喙",
+   "en": "Bolt Beak",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 755,
+   "zh": "鳃咬",
+   "en": "FishiousRend",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Fishious Rend"
+  },
+  {
+   "id": 756,
+   "zh": "换场",
+   "en": "Court Change",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 757,
+   "zh": "极巨火爆",
+   "en": "Max Flare",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 758,
+   "zh": "极巨虫蛊",
+   "en": "MaxFlutterby",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Max Flutterby"
+  },
+  {
+   "id": 759,
+   "zh": "极巨闪电",
+   "en": "MaxLightning",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Max Lightning"
+  },
+  {
+   "id": 760,
+   "zh": "极巨攻击",
+   "en": "Max Strike",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 761,
+   "zh": "极巨拳斗",
+   "en": "Max Knuckle",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 762,
+   "zh": "极巨幽魂",
+   "en": "Max Phantasm",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 763,
+   "zh": "极巨寒冰",
+   "en": "MaxHailstorm",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Max Hailstorm"
+  },
+  {
+   "id": 764,
+   "zh": "极巨酸毒",
+   "en": "Max Ooze",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 765,
+   "zh": "极巨水流",
+   "en": "Max Geyser",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 766,
+   "zh": "极巨飞冲",
+   "en": "MaxAirstream",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Max Airstream"
+  },
+  {
+   "id": 767,
+   "zh": "极巨妖精",
+   "en": "Max Starfall",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 768,
+   "zh": "极巨龙骑",
+   "en": "Max Wyrmwind",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 769,
+   "zh": "极巨超能",
+   "en": "MaxMindstorm",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Max Mindstorm"
+  },
+  {
+   "id": 770,
+   "zh": "极巨岩石",
+   "en": "Max Rockfall",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 771,
+   "zh": "极巨大地",
+   "en": "Max Quake",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 772,
+   "zh": "极巨恶霸",
+   "en": "Max Darkness",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 773,
+   "zh": "极巨草原",
+   "en": "MaxOvergrwth",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Max Overgrowth"
+  },
+  {
+   "id": 774,
+   "zh": "极巨钢铁",
+   "en": "MaxSteelspke",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Max Steelspike"
+  },
+  {
+   "id": 775,
+   "zh": "魂舞烈音爆",
+   "en": "ClangrusSoul",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Clangorous Soul"
+  },
+  {
+   "id": 776,
+   "zh": "扑击",
+   "en": "Body Press",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 777,
+   "zh": "装饰",
+   "en": "Decorate",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 778,
+   "zh": "鼓击",
+   "en": "Drum Beating",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 779,
+   "zh": "捕兽夹",
+   "en": "Snap Trap",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 780,
+   "zh": "火焰球",
+   "en": "Pyro Ball",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 781,
+   "zh": "巨兽斩",
+   "en": "BehemthBlade",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Behemoth Blade"
+  },
+  {
+   "id": 782,
+   "zh": "巨兽弹",
+   "en": "BehemothBash",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Behemoth Bash"
+  },
+  {
+   "id": 783,
+   "zh": "气场轮",
+   "en": "Aura Wheel",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 784,
+   "zh": "广域破坏",
+   "en": "BreakngSwipe",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Breaking Swipe"
+  },
+  {
+   "id": 785,
+   "zh": "木枝突刺",
+   "en": "Branch Poke",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 786,
+   "zh": "破音",
+   "en": "Overdrive",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 787,
+   "zh": "苹果酸",
+   "en": "Apple Acid",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 788,
+   "zh": "万有引力",
+   "en": "Grav Apple",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 789,
+   "zh": "灵魂冲击",
+   "en": "Spirit Break",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 790,
+   "zh": "神奇蒸汽",
+   "en": "StrangeSteam",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Strange Steam"
+  },
+  {
+   "id": 791,
+   "zh": "生命水滴",
+   "en": "Life Dew",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 792,
+   "zh": "拦堵",
+   "en": "Obstruct",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 793,
+   "zh": "假跪真撞",
+   "en": "FalseSurrndr",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from False Surrender"
+  },
+  {
+   "id": 794,
+   "zh": "流星突击",
+   "en": "MeteorAssalt",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Meteor Assault"
+  },
+  {
+   "id": 795,
+   "zh": "无极光束",
+   "en": "Eternabeam",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 796,
+   "zh": "铁蹄光线",
+   "en": "Steel Beam",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 797,
+   "zh": "广域战力",
+   "en": "ExpandForce",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Expanding Force"
+  },
+  {
+   "id": 798,
+   "zh": "铁滚轮",
+   "en": "Steel Roller",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 799,
+   "zh": "鳞射",
+   "en": "Scale Shot",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 800,
+   "zh": "流星光束",
+   "en": "Meteor Beam",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 801,
+   "zh": "臂贝武器",
+   "en": "ShellSideArm",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Shell Side Arm"
+  },
+  {
+   "id": 802,
+   "zh": "薄雾炸裂",
+   "en": "MistyExplosn",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Misty Explosion"
+  },
+  {
+   "id": 803,
+   "zh": "青草滑梯",
+   "en": "Grassy Glide",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 804,
+   "zh": "电力上升",
+   "en": "RisngVoltage",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Rising Voltage"
+  },
+  {
+   "id": 805,
+   "zh": "大地波动",
+   "en": "TerrainPulse",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Terrain Pulse"
+  },
+  {
+   "id": 806,
+   "zh": "爬击",
+   "en": "SkitterSmack",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Skitter Smack"
+  },
+  {
+   "id": 807,
+   "zh": "妒火",
+   "en": "BurnJealousy",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Burning Jealousy"
+  },
+  {
+   "id": 808,
+   "zh": "泄愤",
+   "en": "Lash Out",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 809,
+   "zh": "灵骚",
+   "en": "Poltergeist",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 810,
+   "zh": "腐蚀气体",
+   "en": "CorrosiveGas",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Corrosive Gas"
+  },
+  {
+   "id": 811,
+   "zh": "指导",
+   "en": "Coaching",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 812,
+   "zh": "快速折返",
+   "en": "Flip Turn",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 813,
+   "zh": "三旋击",
+   "en": "Triple Axel",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 814,
+   "zh": "双翼",
+   "en": "DualWingbeat",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Dual Wingbeat"
+  },
+  {
+   "id": 815,
+   "zh": "热沙大地",
+   "en": "ScorchSands",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Scorching Sands"
+  },
+  {
+   "id": 816,
+   "zh": "丛林治疗",
+   "en": "JungleHealng",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Jungle Healing"
+  },
+  {
+   "id": 817,
+   "zh": "暗冥强击",
+   "en": "Wicked Blow",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 818,
+   "zh": "水流连打",
+   "en": "SurgngStrkes",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Surging Strikes"
+  },
+  {
+   "id": 819,
+   "zh": "雷电囚笼",
+   "en": "Thunder Cage",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 820,
+   "zh": "巨龙威能",
+   "en": "DragonEnergy",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Dragon Energy"
+  },
+  {
+   "id": 821,
+   "zh": "冰冷视线",
+   "en": "FreezngGlare",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Freezing Glare"
+  },
+  {
+   "id": 822,
+   "zh": "怒火中烧",
+   "en": "Fiery Wrath",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 823,
+   "zh": "雷鸣蹴击",
+   "en": "ThundrusKick",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Thunderous Kick"
+  },
+  {
+   "id": 824,
+   "zh": "雪矛",
+   "en": "GlacialLance",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Glacial Lance"
+  },
+  {
+   "id": 825,
+   "zh": "星碎",
+   "en": "AstrlBarrage",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Astral Barrage"
+  },
+  {
+   "id": 826,
+   "zh": "诡异咒语",
+   "en": "Eerie Spell",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 827,
+   "zh": "克命爪",
+   "en": "Dire Claw",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 828,
+   "zh": "屏障猛攻",
+   "en": "PsyshieldBsh",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Psyshield Bash"
+  },
+  {
+   "id": 829,
+   "zh": "力量转换",
+   "en": "Power Shift",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 830,
+   "zh": "岩斧",
+   "en": "Stone Axe",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 831,
+   "zh": "阳春风暴",
+   "en": "SprngtdStorm",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Springtide Storm"
+  },
+  {
+   "id": 832,
+   "zh": "神秘之力",
+   "en": "MysticalPowr",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Mystical Power"
+  },
+  {
+   "id": 833,
+   "zh": "大愤慨",
+   "en": "Raging Fury",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 834,
+   "zh": "波动冲",
+   "en": "Wave Crash",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 835,
+   "zh": "叶绿爆震",
+   "en": "Chloroblast",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 836,
+   "zh": "冰山风",
+   "en": "MountainGale",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Mountain Gale"
+  },
+  {
+   "id": 837,
+   "zh": "胜利之舞",
+   "en": "VictoryDance",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Victory Dance"
+  },
+  {
+   "id": 838,
+   "zh": "突飞猛扑",
+   "en": "HeadlongRush",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Headlong Rush"
+  },
+  {
+   "id": 839,
+   "zh": "毒千针",
+   "en": "Barb Barrage",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 840,
+   "zh": "气场之翼",
+   "en": "Esper Wing",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 841,
+   "zh": "冤冤相报",
+   "en": "BitterMalice",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Bitter Malice"
+  },
+  {
+   "id": 842,
+   "zh": "闭关",
+   "en": "Shelter",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 843,
+   "zh": "三连箭",
+   "en": "TripleArrows",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Triple Arrows"
+  },
+  {
+   "id": 844,
+   "zh": "群魔乱舞",
+   "en": "InfrnlParade",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Infernal Parade"
+  },
+  {
+   "id": 845,
+   "zh": "秘剑・千重涛",
+   "en": "CeaselesEdge",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Ceaseless Edge"
+  },
+  {
+   "id": 846,
+   "zh": "枯叶风暴",
+   "en": "BleakwndStrm",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Bleakwind Storm"
+  },
+  {
+   "id": 847,
+   "zh": "鸣雷风暴",
+   "en": "WildboltStrm",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Wildbolt Storm"
+  },
+  {
+   "id": 848,
+   "zh": "热沙风暴",
+   "en": "SandsearStrm",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Sandsear Storm"
+  },
+  {
+   "id": 849,
+   "zh": "新月祈祷",
+   "en": "LunarBlessng",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Lunar Blessing"
+  },
+  {
+   "id": 850,
+   "zh": "勇气填充",
+   "en": "Take Heart",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 851,
+   "zh": "太晶爆发",
+   "en": "Tera Blast",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 852,
+   "zh": "线阱",
+   "en": "Silk Trap",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 853,
+   "zh": "下压踢",
+   "en": "Axe Kick",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 854,
+   "zh": "扫墓",
+   "en": "LastRespects",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Last Respects"
+  },
+  {
+   "id": 855,
+   "zh": "琉光冲激",
+   "en": "Lumina Crash",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 856,
+   "zh": "上菜",
+   "en": "Order Up",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 857,
+   "zh": "喷射拳",
+   "en": "Jet Punch",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 858,
+   "zh": "辣椒精华",
+   "en": "SpicyExtract",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Spicy Extract"
+  },
+  {
+   "id": 859,
+   "zh": "疾速转轮",
+   "en": "Spin Out",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 860,
+   "zh": "鼠数儿",
+   "en": "PopulatnBomb",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Population Bomb"
+  },
+  {
+   "id": 861,
+   "zh": "冰旋",
+   "en": "Ice Spinner",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 862,
+   "zh": "巨剑突击",
+   "en": "Glaive Rush",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 863,
+   "zh": "复生祈祷",
+   "en": "RevivlBlessg",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Revival Blessing"
+  },
+  {
+   "id": 864,
+   "zh": "盐腌",
+   "en": "Salt Cure",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 865,
+   "zh": "三连钻",
+   "en": "Triple Dive",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 866,
+   "zh": "晶光转转",
+   "en": "Mortal Spin",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 867,
+   "zh": "描绘",
+   "en": "Doodle",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 868,
+   "zh": "甩肉",
+   "en": "Fillet Away",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 869,
+   "zh": "仆刀",
+   "en": "KowtowCleave",
+   "status": "draft",
+   "origin": "glossary+abbrev",
+   "notes": "abbreviated from Kowtow Cleave"
+  },
+  {
+   "id": 870,
+   "zh": "千变万花",
+   "en": "Flower Trick",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 871,
+   "zh": "闪焰高歌",
+   "en": "Torch Song",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 872,
+   "zh": "流水旋舞",
+   "en": "Aqua Step",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 873,
+   "zh": "怒牛",
+   "en": "Raging Bull",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 874,
+   "zh": "淘金潮",
+   "en": "Make It Rain",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 875,
+   "zh": "精神剑",
+   "en": "Psyblade",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 876,
+   "zh": "水蒸气",
+   "en": "Hydro Steam",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 877,
+   "zh": "大灾难",
+   "en": "Ruination",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 878,
+   "zh": "全开猛撞",
+   "en": "CollisionCrs",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Collision Course"
+  },
+  {
+   "id": 879,
+   "zh": "闪电猛冲",
+   "en": "ElectroDrift",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Electro Drift"
+  },
+  {
+   "id": 880,
+   "zh": "断尾",
+   "en": "Shed Tail",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 881,
+   "zh": "冷笑话",
+   "en": "ChillyRecptn",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Chilly Reception"
+  },
+  {
+   "id": 882,
+   "zh": "大扫除",
+   "en": "Tidy Up",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 883,
+   "zh": "雪景",
+   "en": "Snowscape",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 884,
+   "zh": "虫扑",
+   "en": "Pounce",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 885,
+   "zh": "起草",
+   "en": "Trailblaze",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 886,
+   "zh": "泼冷水",
+   "en": "ChillngWater",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Chilling Water"
+  },
+  {
+   "id": 887,
+   "zh": "强力钻",
+   "en": "Hyper Drill",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 888,
+   "zh": "双光束",
+   "en": "Twin Beam",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 889,
+   "zh": "愤怒之拳",
+   "en": "Rage Fist",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 890,
+   "zh": "铠农炮",
+   "en": "Armor Cannon",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 891,
+   "zh": "悔念剑",
+   "en": "Bitter Blade",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 892,
+   "zh": "电光双击",
+   "en": "Double Shock",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 893,
+   "zh": "巨力锤",
+   "en": "GigatonHammr",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Gigaton Hammer"
+  },
+  {
+   "id": 894,
+   "zh": "复仇",
+   "en": "Comeuppance",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 895,
+   "zh": "水波刀",
+   "en": "Aqua Cutter",
+   "status": "draft",
+   "origin": "glossary",
+   "notes": ""
+  },
+  {
+   "id": 896,
+   "zh": "灼热暴冲",
+   "en": "BlazngTorque",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Blazing Torque"
+  },
+  {
+   "id": 897,
+   "zh": "黑暗暴冲",
+   "en": "WickedTorque",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Wicked Torque"
+  },
+  {
+   "id": 898,
+   "zh": "剧毒暴冲",
+   "en": "NoxiousTorqu",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Noxious Torque"
+  },
+  {
+   "id": 899,
+   "zh": "格斗暴冲",
+   "en": "CombatTorque",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Combat Torque"
+  },
+  {
+   "id": 900,
+   "zh": "魔法暴冲",
+   "en": "MagiclTorque",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Magical Torque"
+  },
+  {
+   "id": 901,
+   "zh": "血月",
+   "en": "Blood Moon",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 902,
+   "zh": "刷刷茶炮",
+   "en": "MatchaGotcha",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Matcha Gotcha"
+  },
+  {
+   "id": 903,
+   "zh": "糖浆炸弹",
+   "en": "Syrup Bomb",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 904,
+   "zh": "棘藤棒",
+   "en": "Ivy Cudgel",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 905,
+   "zh": "电光束",
+   "en": "Electro Shot",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 906,
+   "zh": "晶光星群",
+   "en": "TeraStarstrm",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Tera Starstorm"
+  },
+  {
+   "id": 907,
+   "zh": "随机光",
+   "en": "Fickle Beam",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 908,
+   "zh": "火焰守护",
+   "en": "BurnBulwark",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Burning Bulwark"
+  },
+  {
+   "id": 909,
+   "zh": "迅雷",
+   "en": "Thunderclap",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 910,
+   "zh": "强刃攻击",
+   "en": "MightyCleave",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Mighty Cleave"
+  },
+  {
+   "id": 911,
+   "zh": "迅子利刃",
+   "en": "TachyonCuttr",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Tachyon Cutter"
+  },
+  {
+   "id": 912,
+   "zh": "硬压",
+   "en": "Hard Press",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 913,
+   "zh": "龙声鼓舞",
+   "en": "Dragon Cheer",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 914,
+   "zh": "魅诱之声",
+   "en": "AllurngVoice",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Alluring Voice"
+  },
+  {
+   "id": 915,
+   "zh": "豁出去",
+   "en": "Temper Flare",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 916,
+   "zh": "闪电强袭",
+   "en": "SupercellSlm",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Supercell Slam"
+  },
+  {
+   "id": 917,
+   "zh": "精神噪音",
+   "en": "PsychicNoise",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Psychic Noise"
+  },
+  {
+   "id": 918,
+   "zh": "快手还击",
+   "en": "Upper Hand",
+   "status": "draft",
+   "origin": "pokeapi-name",
+   "notes": ""
+  },
+  {
+   "id": 919,
+   "zh": "邪毒锁链",
+   "en": "MalignantChn",
+   "status": "draft",
+   "origin": "pokeapi-name+abbrev",
+   "notes": "abbreviated from Malignant Chain"
+  },
+  {
+   "id": 920,
+   "zh": "岩石风暴",
+   "en": "Rock Storm",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "custom hack move (岩石风暴), literal name"
+  }
+ ],
+ "category": "moves"
+}

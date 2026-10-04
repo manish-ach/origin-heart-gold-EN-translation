@@ -1,0 +1,935 @@
+{
+ "narc": "a027",
+ "bank": 548,
+ "source": "work/extract/v4/a027/0548.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "喂,{VAR:0103:0}！{NEWLINE}关于精灵蛋,{CLEAR}我搞清楚了一件事！{SCROLL}我的助手应该在{NEWLINE}桔梗市的友好商店,{CLEAR}听他告诉你吧！",
+   "en": "Hello, {VAR:0103:0}? I found{NEWLINE}something out about the Egg!{SCROLL}My assistant should be at the Poké Mart{NEWLINE}in Violet City. Please hear it from him!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0556/0; US line said the aide is at the Pokémon Center; the hack's zh and 0549 #2/#3 put him in the Poké Mart. Retranslated."
+  },
+  {
+   "id": 1,
+   "zh": "我的男朋友是{NEWLINE}火箭队抢劫圣安努号时的幸存者。{CLEAR}当时新闻里说圣安努号出事了,{CLEAR}我可担心死了。",
+   "en": "My boyfriend survived when Team{NEWLINE}Rocket raided the S.S. Anne. When{CLEAR}the news said something had happened{CLEAR}to the ship, I was worried sick.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "真厉害啊！",
+   "en": "Ooh, la la!{NEWLINE}Very indeed nice!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0556/2"
+  },
+  {
+   "id": 3,
+   "zh": "这样啊~{NEWLINE}那么,来学习吧。{CLEAR}要跟上哦~{SCROLL}",
+   "en": "Is that so? Then study shall you!{CLEAR}Follow me!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0556/3"
+  },
+  {
+   "id": 4,
+   "zh": "我是这里的老师！{SCROLL}你在这儿听课{NEWLINE}也可以哦~{SCROLL}",
+   "en": "Here, teacher I am.{NEWLINE}Good it is you study here!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0556/4"
+  },
+  {
+   "id": 5,
+   "zh": "我的天然雀是阿速馆主送的。{SCROLL}阿速馆他主实力强大、正义感强,{NEWLINE}在我们桔梗市非常有人气！",
+   "en": "Falkner gave me my Natu.{SCROLL}Falkner is strong and has a real{NEWLINE}sense of justice. He’s really{CLEAR}popular here in Violet City!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "我本以为自己已经算是{NEWLINE}足够强的训练家了,{CLEAR}可是去训练家屋一比试,{CLEAR}才知道世界上还有那么多厉害的人。",
+   "en": "I thought I was already a pretty{NEWLINE}strong Trainer. But when I went{CLEAR}to the Trainer House to test{CLEAR}myself, I found out how many{CLEAR}amazing people are out there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "桔梗道馆的现任馆主阿速{NEWLINE}在几年前精灵联盟的馆主测试中,{CLEAR}从一众年轻训练家里脱颖而出,{CLEAR}成为了我们桔梗市的可靠领秀。",
+   "en": "A few years ago, in the{NEWLINE}Pokémon League’s Gym Leader{CLEAR}assessment, Falkner stood out from a{CLEAR}crowd of young Trainers. Now he’s{CLEAR}Violet City’s dependable leader.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "人多的地方啦,{NEWLINE}房屋,洞窟里边,{CLEAR}就算精灵有跟着,{CLEAR}也有进不去的时候。{SCROLL}不过,这种时候{NEWLINE}回到球里就没事了。",
+   "en": "You cannot have your Pokémon out{NEWLINE}walking with you in some places.{SCROLL}Places like buildings, caves, and{NEWLINE}where there are huge crowds.{SCROLL}But all you have to do is to put it in{NEWLINE}a Poké Ball!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0556/8"
+  },
+  {
+   "id": 9,
+   "zh": "这里是桔梗市,{NEWLINE}令人眷恋的芳香之城。",
+   "en": "Violet City{NEWLINE}The City of Nostalgic Scents",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "sign"
+  },
+  {
+   "id": 10,
+   "zh": "桔梗市　精灵道馆{NEWLINE}道馆馆主　阿速{CLEAR}是华丽的飞行精灵使者！",
+   "en": "Violet City Pokémon Gym{NEWLINE}Leader: Falkner{CLEAR}The Elegant Master of Flying Pokémon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0556/10"
+  },
+  {
+   "id": 11,
+   "zh": "这里是喇叭芽之塔。{SCROLL}通过精灵修行来{NEWLINE}断绝迷茫。",
+   "en": "Sprout Tower{SCROLL}Experience the Way of Pokémon{NEWLINE}to Cast Aside Your Doubts.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0556/11"
+  },
+  {
+   "id": 12,
+   "zh": "这里是桔梗市精灵学校{NEWLINE}教授你成为训练家的第一课",
+   "en": "Violet City Pokémon Academy{NEWLINE}Your first lesson in becoming a Trainer",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "那个蛋……{SCROLL}",
+   "en": "Me oh my...{NEWLINE}That Egg must be...!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0556/13"
+  },
+  {
+   "id": 14,
+   "zh": "嗯哪,原是这般……{NEWLINE}于精灵爷爷处获此物,{CLEAR}送往空木博士之手,{SCROLL}尔后,自空木博士之手{NEWLINE}传与汝。{SCROLL}果不其然……{SCROLL}",
+   "en": "I see...{NEWLINE}So it was handed from Mr. Pokémon to{CLEAR}Professor Elm, then from Professor Elm{CLEAR}to you.{SCROLL}Now I get it...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0556/14"
+  },
+  {
+   "id": 15,
+   "zh": "那汝须温柔{NEWLINE}对待此蛋,{CLEAR}尽心力育之。{SCROLL}可托付于汝么？{SCROLL}",
+   "en": "That Egg is truly an important Egg.{NEWLINE}Please do take good care of it for me.{SCROLL}Is that understood?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0556/15"
+  },
+  {
+   "id": 16,
+   "zh": "那么,就拜托你了~{SCROLL}",
+   "en": "I am counting on you.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0556/16"
+  },
+  {
+   "id": 17,
+   "zh": "碎片换树果！{NEWLINE}碎片换树果！{SCROLL}哟！哟！我是{NEWLINE}能用碎片换取树果的交换人。{SCROLL}带来碎片的话,{NEWLINE}相应地,我会给你３个一套的树果{CLEAR}作为礼物哟！{SCROLL}",
+   "en": "Shards for Berries! Shards for Berries!{SCROLL}Yo! Yo! I’m the trader who{NEWLINE}swaps Shards for Berries.{SCROLL}Bring me a Shard, and I’ll give you{NEWLINE}a set of three Berries in return!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0556/17; Same zh as 0453 #88; English copied."
+  },
+  {
+   "id": 18,
+   "zh": "碎片换树果！{NEWLINE}碎片换树果！{SCROLL}哟！哟！我是{NEWLINE}能用碎片换取树果的交换人。{SCROLL}给我一块碎片的话,{NEWLINE}相应地,我会给你３个树果{CLEAR}作为礼物哟！{SCROLL}想要哪种？{VAR:0200:0}",
+   "en": "Shards for Berries! Shards for Berries!{SCROLL}Yo! Yo! I’m the trader who{NEWLINE}swaps Shards for Berries.{SCROLL}Give me a Shard, and I’ll give{NEWLINE}you three Berries in return!{SCROLL}Which kind do you want?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0556/18; Same zh as 0453 #89; English copied."
+  },
+  {
+   "id": 19,
+   "zh": "想要更多的？{VAR:0200:0}",
+   "en": "Want some more?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0453 #90; English copied."
+  },
+  {
+   "id": 20,
+   "zh": "哟！哟！{NEWLINE}愿意的话就再来吧！{SCROLL}",
+   "en": "Yo! Yo! Come back anytime you like!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags page_breaks_lost; Same zh as 0453 #91; English copied."
+  },
+  {
+   "id": 21,
+   "zh": "给我红碎片的话,{NEWLINE}送你{CLEAR}树果套装Ａ！{SCROLL}",
+   "en": "Give me a Red Shard, and{NEWLINE}I’ll give you Berry Set A!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0556/21; Same zh as 0453 #92; English copied."
+  },
+  {
+   "id": 22,
+   "zh": "给我蓝碎片的话,{NEWLINE}送你{CLEAR}树果套装Ｂ！{SCROLL}",
+   "en": "Give me a Blue Shard, and{NEWLINE}I’ll give you Berry Set B!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0556/22; Same zh as 0453 #93; English copied."
+  },
+  {
+   "id": 23,
+   "zh": "给我黄碎片的话,{NEWLINE}送你{CLEAR}树果套装Ｃ！{SCROLL}",
+   "en": "Give me a Yellow Shard, and{NEWLINE}I’ll give you Berry Set C!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0556/23; Same zh as 0453 #94; English copied."
+  },
+  {
+   "id": 24,
+   "zh": "给我绿碎片的话,{NEWLINE}送你{CLEAR}树果套装Ｄ！{SCROLL}",
+   "en": "Give me a Green Shard, and{NEWLINE}I’ll give you Berry Set D!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0556/24; Same zh as 0453 #95; English copied."
+  },
+  {
+   "id": 25,
+   "zh": "这种套装的树果{NEWLINE}已经拿满喽。{SCROLL}减少之后再过来吧！{SCROLL}",
+   "en": "You already have as many of{NEWLINE}those Berries as you can carry.{SCROLL}Come back when you have fewer!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0556/25; Same zh as 0453 #96; English copied."
+  },
+  {
+   "id": 26,
+   "zh": "这附近很注意保护古迹的。{SCROLL}所以啊,友好商店和{NEWLINE}精灵中心为了与{CLEAR}周围的风景相融合,{CLEAR}屋顶都选用了复古的颜色哦。",
+   "en": "People around here take care{NEWLINE}to preserve the historic sites.{SCROLL}That’s why the Poké Mart and{NEWLINE}Pokémon Center have old-fashioned{CLEAR}colored roofs, to blend in with{CLEAR}the scenery.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "听说万人敬仰的联盟冠军{VAR:0103:0},{NEWLINE}从小是跟蚊香蝌蚪一起长大的。{CLEAR}我将来也要跟我的蚊香蝌蚪一起,{CLEAR}成为优秀的训练家！",
+   "en": "I heard the League Champion everyone{NEWLINE}looks up to, {VAR:0103:0}, grew up with{CLEAR}a Poliwag. Someday I’m going to be a{CLEAR}great Trainer with my Poliwag, too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "桔梗市的精灵学校是我的母校哦,{CLEAR}我和男朋友都是从这里毕业的。{CLEAR}只是他再也回不来这里了……",
+   "en": "The Pokémon Academy in Violet City is{NEWLINE}my old school. My boyfriend and I both{CLEAR}graduated from here. It’s just that{CLEAR}he can never come back here again...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "哇！是你呀。{NEWLINE}在圣安努号上多亏了你,{CLEAR}我才能回到桔梗市与女朋友团聚,{CLEAR}当时我手头没有带什么像样的谢礼,{CLEAR}现在我把这个送给你,{CLEAR}就当做是报答你的救命之恩吧。",
+   "en": "Whoa! It’s you! Thanks to you{NEWLINE}on the S.S. Anne, I made it back{CLEAR}to Violet City and my girlfriend.{SCROLL}I didn’t have anything decent to{NEWLINE}give you back then, so please take{CLEAR}this now as thanks for saving my life.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "听说你后来还再金黄市{NEWLINE}痛击了火箭队,{CLEAR}再后来又成了联盟冠军,{CLEAR}真是了不起啊！",
+   "en": "I heard you went on to trounce Team{NEWLINE}Rocket in Saffron City, and then became{CLEAR}League Champion. That’s amazing!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "我这辈子偷过很多别人的精灵,{NEWLINE}今天听了喇叭芽之塔的长老讲经,{CLEAR}突然觉得自己好像罪孽深重,{CLEAR}你说我该怎么办呢？",
+   "en": "I’ve stolen a lot of other people’s{NEWLINE}Pokémon in my life. But today I heard{CLEAR}the Elder of Sprout Tower preach,{CLEAR}and suddenly I feel like my sins are{CLEAR}really heavy. What should I do?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "去自首接受惩罚",
+   "en": "Turn yourself in",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 33,
+   "zh": "在喇叭芽之塔出家悔过",
+   "en": "Repent as a Sprout Tower monk",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 34,
+   "zh": "改过自新,做个好人",
+   "en": "Turn over a new leaf",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 35,
+   "zh": "不关我的事,别来问我",
+   "en": "Not my problem. Don’t ask me",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 36,
+   "zh": "果然,你也认为我有罪是吗？{NEWLINE}好,我会去自首的,{CLEAR}不过在那之前,{CLEAR}我想先调整一下情绪。",
+   "en": "So you think I’m guilty too? All{NEWLINE}right. I’ll turn myself in. But first,{CLEAR}I need to get my head together.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "出家悔过或许是个不错的选择,{NEWLINE}不用去蹲大牢,{CLEAR}还能过上衣食无忧的生活,{CLEAR}唯一美中不足的就是要变成光头。",
+   "en": "Becoming a monk to repent might{NEWLINE}be a good choice. No jail time,{CLEAR}and I’d never have to worry about{CLEAR}food or clothes. The only downside{CLEAR}is I’d have to shave my head.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "没错,只要我能改过自新做个好人,{NEWLINE}就没必要拘泥于过去的事,{CLEAR}以后多帮助别人一下就行啦。",
+   "en": "That’s right. As long as I turn over{NEWLINE}a new leaf and become a good person,{CLEAR}there’s no need to dwell on the past.{CLEAR}I’ll just help people more from now on.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "多谢你解答了我心中的的疑惑,{NEWLINE}我现在知道该怎么办了。",
+   "en": "Thanks for clearing up my{NEWLINE}doubts. Now I know what to do.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "桔梗市的湖面清澈平静,{NEWLINE}非常适合钓鱼。{CLEAR}如果你有高级钓竿的话,{CLEAR}可以在这里钓起唦圈鼬哦。",
+   "en": "Violet City’s lake is clear and calm.{NEWLINE}It’s perfect for fishing. If you have a{CLEAR}Super Rod, you can fish up Buizel here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "你好像没有高级钓竿嘛。{NEWLINE}我听说关东地区的寂静之桥{CLEAR}有位钓鱼达人,{CLEAR}他有时会送给路过的训练家高级钓竿。{CLEAR}你可以去找他碰碰运气。",
+   "en": "Looks like you don’t have a{NEWLINE}Super Rod. I heard there’s a fishing{CLEAR}master at Silence Bridge in Kanto who{CLEAR}sometimes gives Super Rods to passing{CLEAR}Trainers. Try your luck with him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "我的蚊香蝌蚪可爱吧？{NEWLINE}我们是在桔梗市的池塘相遇的哦,{CLEAR}当时我不小心落水,{CLEAR}多亏小蚊香救了我。{CLEAR}从那以后我们就是好朋友了。",
+   "en": "Isn’t my Poliwag cute?{NEWLINE}We met at a pond in Violet City. I fell in{CLEAR}by accident, and my little Poliwag saved{CLEAR}me. We’ve been best friends ever since.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "玉绪『呀,您是冠军{VAR:0103:0}大人！{NEWLINE}小女子曾在石英大会有幸与您交手,{CLEAR}您的战斗英姿从那时起,{CLEAR}便深深铭刻于小女子心中。{CLEAR}今日有缘再见,{CLEAR}不知冠军大人可否{CLEAR}再指点一下小女子呢？",
+   "en": "Tamao: Oh! You are Champion {VAR:0103:0}!{NEWLINE}This humble maiden once had the honor{CLEAR}of facing you at the Indigo Conference.{CLEAR}The sight of you in battle has been{CLEAR}etched deep in her heart ever since.{SCROLL}Fate has brought us together again{NEWLINE}today. Might the Champion favor this{CLEAR}humble maiden with another lesson?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Gender? #43/#48 are two Tamao intros (first meeting vs repeat); no gender split.; #43/#48 are two Tamao intro variants (the second without the ‘etched in her heart’ line)."
+  },
+  {
+   "id": 44,
+   "zh": "玉绪『恕小女子打扰了。",
+   "en": "Tamao: This humble maiden begs{NEWLINE}your pardon for the intrusion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "玉绪『谢冠军大人不吝赐教！",
+   "en": "Tamao: This humble maiden thanks the{NEWLINE}Champion for the generous lesson!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "玉绪『冠军大人无愧当世最强之名,{NEWLINE}小女子甚是折服。{CLEAR}这点薄礼不成敬意,{CLEAR}聊表小女子的一片敬仰之心,{CLEAR}望您不要推辞。",
+   "en": "Tamao: The Champion truly deserves{NEWLINE}the title of strongest of our{CLEAR}age. This humble maiden is in awe.{SCROLL}This small gift can hardly{NEWLINE}express it, but please accept{CLEAR}it as a token of her admiration.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "玉绪『冠军大人无愧当世最强之名,{NEWLINE}小女子甚是折服。",
+   "en": "Tamao: The Champion truly deserves{NEWLINE}the title of strongest of our{CLEAR}age. This humble maiden is in awe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "玉绪『呀,您是冠军{VAR:0103:0}大人！{NEWLINE}小女子曾在石英大会有幸与您交手,{CLEAR}对您的战斗技巧佩服不已。{CLEAR}今日有缘再见,{CLEAR}不知冠军大人可否{CLEAR}再指点一下小女子呢？",
+   "en": "Tamao: Oh! You are Champion{NEWLINE}{VAR:0103:0}! This humble maiden once had{CLEAR}the honor of facing you at the Indigo{CLEAR}Conference, and she has admired{CLEAR}your battle skills ever since.{SCROLL}Fate has brought us together again{NEWLINE}today. Might the Champion favor this{CLEAR}humble maiden with another lesson?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "玉绪『冠军大人无愧当世最强之名,{NEWLINE}小女子甚是折服。",
+   "en": "Tamao: The Champion truly deserves{NEWLINE}the title of strongest of our{CLEAR}age. This humble maiden is in awe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "水晶『{VAR:0103:0}前辈,{NEWLINE}我在捕捉精灵的同时,{CLEAR}也有注意锻炼和培养它们哦。{CLEAR}不知道您是否能跟我来一场对战,{CLEAR}帮我确认一下精灵成长了多少。",
+   "en": "Crystal: {VAR:0103:0}, while I’ve{NEWLINE}been catching Pokémon, I’ve also{CLEAR}been training and raising them.{SCROLL}Would you battle me and help me{NEWLINE}see how much they’ve grown?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "水晶『唔……没时间吗。",
+   "en": "Crystal: Oh... you don’t have time?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "水晶『谢谢前辈,我会拿出全部干劲的。",
+   "en": "Crystal: Thank you! I’ll{NEWLINE}give it everything I’ve got.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "水晶『看来要跟前辈比试,{NEWLINE}我还差得远呢。{CLEAR}得加把劲努力锻炼才行。",
+   "en": "Crystal: Looks like I’ve still got a{NEWLINE}long way to go before I can match{CLEAR}you. I have to train even harder.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "水晶『{VAR:0103:0}前辈,{NEWLINE}等我把附近的精灵抓的差不多了,{CLEAR}我就去阿鲁夫遗迹看看。{CLEAR}据说那里有很多稀有精灵呢。",
+   "en": "Crystal: {VAR:0103:0}, once I’ve{NEWLINE}caught most of the Pokémon around{CLEAR}here, I’m going to check out{CLEAR}the Ruins of Alph. I hear there{CLEAR}are lots of rare Pokémon there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "我的核果兽要是学会了陀螺球,{NEWLINE}就能打出相当可观的伤害了。",
+   "en": "If my Forretress learned Gyro Ball,{NEWLINE}it could do some serious damage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "要把陀螺球技能机送给短裤小子吗？",
+   "en": "Give the Youngster{NEWLINE}the TM for Gyro Ball?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "什么？你要把陀螺球技能机送给我！？{NEWLINE}天啊,太谢谢你了。{CLEAR}正好前几天我的核果兽{CLEAR}学会了一招破壳,{CLEAR}你以后如果想学的话,我可以教你。",
+   "en": "What? You’re giving me the Gyro{NEWLINE}Ball TM?! Wow, thank you so much!{SCROLL}My Forretress just learned Shell{NEWLINE}Smash the other day. If you ever want{CLEAR}to learn it, I can teach it to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "谢谢你给我陀螺球技能机,{NEWLINE}需要我教你的精灵破壳吗？",
+   "en": "Thanks for the Gyro Ball TM! Want me{NEWLINE}to teach your Pokémon Shell Smash?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it,{NEWLINE}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 60,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 61,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住破壳。{SCROLL}",
+   "en": "Sorry... This Pokémon{NEWLINE}can’t learn Shell Smash.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 63,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会破壳了！{SCROLL}",
+   "en": "This {VAR:0100:0} already{NEWLINE}knows Shell Smash!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 65,
+   "zh": "{VAR:0101:0}学会了破壳！",
+   "en": "{VAR:0101:0} learned Shell Smash!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会破壳了！{SCROLL}以后如果你的精灵还想学习,{NEWLINE}随时欢迎再来找我。",
+   "en": "And with that, your {VAR:0100:0}{NEWLINE}has learned Shell Smash!{SCROLL}If your Pokémon want to learn it in{NEWLINE}the future, come see me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的破壳……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习破壳{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to{NEWLINE}learn Shell Smash...!{SCROLL}But {VAR:0101:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move{NEWLINE}to learn Shell Smash?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 69,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all{NEWLINE}about {VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 70,
+   "zh": "你是要放弃{NEWLINE}让它记住破壳吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Shell Smash?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "据说喇叭芽之塔的顶层,{NEWLINE}晚上会有幽灵出现,{CLEAR}普通系的技能完全无法伤到它们。{CLEAR}所以登塔还是趁白天最好。",
+   "en": "They say ghosts appear at the top of{NEWLINE}Sprout Tower at night, and Normal-type{CLEAR}moves can’t hurt them at all. So it’s{CLEAR}best to climb the tower during the day.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "我要好好锻炼,争取有朝一日{NEWLINE}也能加入阿速馆主的警队。",
+   "en": "I’m going to train hard so that someday{NEWLINE}I can join Falkner’s police squad too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "当年阿速馆主听说{NEWLINE}坂木在华蓝洞穴被联盟冠军击败后,{CLEAR}特意办了场宴会,好好庆祝了一番。",
+   "en": "When Falkner heard the League Champion{NEWLINE}had beaten Giovanni in Cerulean Cave,{CLEAR}he threw a big party to celebrate.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "天然雀『Naaa——tu！",
+   "en": "Natu: Naaa-tu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "蚊香蝌蚪『Pooo——li！",
+   "en": "Poliwag: Pooo-li!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "菊草叶『Pooo——li！",
+   "en": "Chikorita: Pooo-li!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh gives Chikorita a Poliwag cry (hack copy slip); kept as written."
+  },
+  {
+   "id": 77,
+   "zh": "玛力露『Maaa——ri！",
+   "en": "Marill: Maaa-ri!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "比比鸟『Pii——pii！",
+   "en": "Pidgeotto: Pii-pii!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "小豪『你们桔梗市可真够寒酸的,{NEWLINE}连一只强力的珍稀精灵都没有。",
+   "en": "Goh: This Violet City of yours is{NEWLINE}pretty shabby. You don’t even{CLEAR}have one strong, rare Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "我不许你这么说我的家乡！{NEWLINE}我们桔梗市虽然没有珍稀精灵,{CLEAR}可是生活在这的精灵都很健康快乐,{CLEAR}这就是最好的事情了！",
+   "en": "Don’t you talk about my hometown{NEWLINE}like that! We may not have{CLEAR}rare Pokémon in Violet City, but{CLEAR}the Pokémon here are healthy and{CLEAR}happy. That’s what matters most!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "小豪『我的家乡枯叶市周围,{NEWLINE}也没有什么强大的珍稀精灵,{CLEAR}所以枯叶市也是个垃圾城市。{CLEAR}垃圾就是垃圾,{CLEAR}跟是不是家乡一点关系都没有。",
+   "en": "Goh: There aren’t any strong,{NEWLINE}rare Pokémon around my hometown,{CLEAR}Vermilion City, either. So Vermilion’s{CLEAR}a garbage city, too. Garbage{CLEAR}is garbage. Whether it’s your{CLEAR}hometown has nothing to do with it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "你、你……你这么不尊重人,{NEWLINE}早晚有一天会被人教训的！",
+   "en": "You, you... If you keep disrespecting{NEWLINE}people like that, someone’s going{CLEAR}to teach you a lesson someday!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "小豪『哼,我可是在去年石英大会上{NEWLINE}拿到名次的精英训练家,{CLEAR}整个地区能教训我的人没有几个。",
+   "en": "Goh: Hmph. I’m an Ace Trainer{NEWLINE}who placed at last year’s{CLEAR}Indigo Conference. There aren’t{CLEAR}many people in this whole region{CLEAR}who could teach me a lesson.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "要教训小豪吗？",
+   "en": "Teach Goh a lesson?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "{VAR:0103:0}『你只看重强大、珍稀,{NEWLINE}却对云云众生毫无尊重、{CLEAR}对自己家乡毫无感情,{CLEAR}你这种人根本就不配成为训练家！",
+   "en": "{VAR:0103:0}: All you care about is strong{NEWLINE}and rare. You’ve got no respect for{CLEAR}other living things, and no love for{CLEAR}your own hometown. Someone like you{CLEAR}doesn’t deserve to be a Trainer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "小豪『我当是谁呢,{NEWLINE}原来是靠作弊当上冠军的{VAR:0103:0}。{CLEAR}就你这种卑鄙小人也配教训我？{CLEAR}既然你这么喜欢多嘴,{CLEAR}我就让你再也张不开嘴！",
+   "en": "Goh: Well, look who it is. {VAR:0103:0},{NEWLINE}who cheated their way to Champion.{CLEAR}You think a lowlife like you can teach{CLEAR}me a lesson? Since you love running{CLEAR}your mouth, I’ll shut it for good!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Goh's taunt: 靠作弊当上冠军 echoes the cheating rumour in 0103 #29. ‘their’ keeps the player neutral."
+  },
+  {
+   "id": 87,
+   "zh": "小豪『你赢了我又怎么样！{NEWLINE}你有资格在这里耀武扬威,{CLEAR}不就是仗着你比我强吗？{CLEAR}你这种以最强为目标的人,{CLEAR}有什么资格说强大不重要,{CLEAR}有什么资格说我不对！{SCROLL}小豪『你等着吧,{NEWLINE}总有一天我会用更强的精灵打败你。",
+   "en": "Goh: So what if you beat me?! The{NEWLINE}only reason you get to strut around{CLEAR}here is that you’re stronger than{CLEAR}me! You’re aiming to be the strongest{CLEAR}yourself. What right do you have to{CLEAR}say strength doesn’t matter? What{CLEAR}right do you have to say I’m wrong?!{SCROLL}Goh: Just you wait. Someday I’ll beat{NEWLINE}you with even stronger Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "桔梗市是我的家乡,{NEWLINE}在我心中她就是最美的地方。",
+   "en": "Violet City is my hometown. To me, she’s{NEWLINE}the most beautiful place there is.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "谢谢你帮我出头说话,{NEWLINE}生命的意义、生活的美好{CLEAR}绝不是像他说的那样{CLEAR}只有强大、珍稀才有价值。{SCROLL}这个送给你,{NEWLINE}就当是我对你的感谢吧。",
+   "en": "Thank you for standing up for me.{NEWLINE}The meaning of life and the good{CLEAR}things in it aren’t only about being{CLEAR}strong and rare, like he said.{SCROLL}Please take this as my thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "前几天因为玛力露{NEWLINE}弄脏了我的新衣服,{CLEAR}我就狠狠地说了它一通。{CLEAR}结果今天它好像离家出走了……{SCROLL}如果你有在桔梗市看到玛力露,{NEWLINE}拜托跟它说一声让它快点回来吧,{CLEAR}我真的非常担心它。",
+   "en": "The other day, my Marill got my{NEWLINE}new clothes dirty, so I really{CLEAR}told it off. And today, it looks{CLEAR}like it ran away from home...{SCROLL}If you see Marill in Violet City,{NEWLINE}please tell it to hurry home.{CLEAR}I’m really worried about it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Marill quest branches: #93/#97/#99 talk / scold / force; outcomes #100–#114 (Union Cave reunion vs Marill gone)."
+  },
+  {
+   "id": 91,
+   "zh": "要告诉玛力露快点回去吗？{SCROLL}",
+   "en": "Tell Marill to hurry home?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "{VAR:0103:0}『玛力露,你的主人非常担心你。{NEWLINE}你快点回到她身边去吧。",
+   "en": "{VAR:0103:0}: Marill, your owner is really{NEWLINE}worried about you. Hurry back to her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "玛力露『Maaa——ri！{SCROLL}玛力露还在生气。",
+   "en": "Marill: Maaa-ri!{SCROLL}Marill is still angry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "劝她快点回去",
+   "en": "Talk it into going home",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 95,
+   "zh": "强行带回去",
+   "en": "Take it back by force",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 96,
+   "zh": "算了,不管了",
+   "en": "Forget it",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 97,
+   "zh": "玛力露『Maaa——ri！{SCROLL}玛力露觉得你很烦。",
+   "en": "Marill: Maaa-ri!{SCROLL}Marill seems to find you annoying.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "{VAR:0103:0}『今天不管你愿不愿意,{NEWLINE}都得老老实实跟我回去！{CLEAR}快走！",
+   "en": "{VAR:0103:0}: Like it or not, you’re{NEWLINE}coming back with me today! Let’s go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "玛力露『Maaa——ri！{SCROLL}玛力露有些害怕了……",
+   "en": "Marill: Maaa-ri!{SCROLL}Marill looks a little scared...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "玛力露,你终于回来了！{NEWLINE}对不起,我不该说你说得那么重。{CLEAR}以后我会多注意你的心理感受,{CLEAR}所以别再生气了好吗？",
+   "en": "Marill, you finally came back! I’m{NEWLINE}sorry. I shouldn’t have been so harsh{CLEAR}with you. I’ll pay more attention{CLEAR}to your feelings from now on, so{CLEAR}please don’t be mad anymore, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "玛力露『Ma……",
+   "en": "Marill: Ma...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "谢谢你帮我带回了玛力露,{NEWLINE}这个就送给你吧。",
+   "en": "Thank you for bringing Marill{NEWLINE}back. Please take this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "你在桔梗市发现了玛力露,{NEWLINE}但是它因为生气又走掉了？{CLEAR}拜托你再帮我找找吧,{CLEAR}我真的非常担心它。",
+   "en": "You found Marill in Violet City,{NEWLINE}but it got angry and left again?{CLEAR}Please help me look for it again.{CLEAR}I’m really worried about it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "玛力露不愿意再回到我身边了？{NEWLINE}都怪我把话说的那么重,{CLEAR}呜呜……",
+   "en": "Marill doesn’t want to come back{NEWLINE}to me anymore? It’s all my fault for{CLEAR}saying such harsh things... *sob*...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "我以后一定注意{NEWLINE}跟玛力露的说话方式,{CLEAR}不会再伤害到它了。",
+   "en": "From now on, I’ll be careful{NEWLINE}how I talk to Marill. I won’t{CLEAR}hurt its feelings again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "我的玛力露趁我不注意,{NEWLINE}偷偷溜走了,{CLEAR}从那以后就再也没有回来……{CLEAR}唉,果然一旦感情有了裂痕,{CLEAR}就很难再弥补了……",
+   "en": "My Marill slipped away when I{NEWLINE}wasn’t looking, and it never came{CLEAR}back... *sigh*... Once a bond{CLEAR}cracks, it’s so hard to mend...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "你说多次劝说玛力露无果后,{NEWLINE}它就跑得无影无踪了！？{CLEAR}都怪我说话太狠才会让它这么伤心。{SCROLL}谢谢你帮我去找玛力露,{NEWLINE}这个送给你吧。",
+   "en": "You tried talking to Marill again{NEWLINE}and again, but it ran off without a{CLEAR}trace?! It’s all my fault for being{CLEAR}so harsh. That’s why it’s so hurt.{SCROLL}Thank you for looking for{NEWLINE}Marill. Please take this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "玛力露是我的好朋友,{NEWLINE}我不能眼睁睁看着它在外面流浪。{CLEAR}这次我要亲自把它找回来{CLEAR}跟它好好道歉和解。",
+   "en": "Marill is my best friend. I can’t just{NEWLINE}stand by while it wanders around out{CLEAR}there. This time, I’m going to find it{CLEAR}myself and make up with it properly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "经过连接洞穴的事情之后,{NEWLINE}我和玛力露终于打开了心结。{CLEAR}现在我们已经和好如初啦！",
+   "en": "After what happened in Union Cave,{NEWLINE}Marill and I finally cleared the{CLEAR}air. Now we’re as close as ever!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "核果兽『Fooo——re！",
+   "en": "Forretress: Fooo-re!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "我听男朋友说,{NEWLINE}当时多亏了冠军大人您击退火箭队,{CLEAR}他才能活着回到桔梗市。{SCROLL}谢谢您奋不顾身地保护我们！",
+   "en": "My boyfriend told me that it was{NEWLINE}thanks to you driving off Team{CLEAR}Rocket, Champion, that he made{CLEAR}it back to Violet City alive.{SCROLL}Thank you for protecting us{NEWLINE}with no thought for yourself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "我男朋友当年乘坐圣安努号旅行,{NEWLINE}差点就因为火箭队劫持游轮回不来了。{CLEAR}想想真是后怕……",
+   "en": "My boyfriend was traveling on the{NEWLINE}S.S. Anne back then. He almost{CLEAR}didn’t make it back when Team{CLEAR}Rocket hijacked the ship. It still{CLEAR}scares me to think about it...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "在连接洞穴的时候,{NEWLINE}玛丽露感受到了我对它的关心,{CLEAR}所以现在我们又重归于好了。{CLEAR}这一切都多亏了您出手相救。",
+   "en": "In Union Cave, Marill felt how{NEWLINE}much I care about it, so now{CLEAR}we’re friends again. It’s all{CLEAR}thanks to you stepping in.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "唉,我的玛力露丽就这样走了……{NEWLINE}果然一旦感情有了裂痕,{CLEAR}就很难再弥补了……",
+   "en": "*sigh*... My Azumarill just left like{NEWLINE}that... Once a bond cracks, it’s so{CLEAR}hard to mend...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The \"Marill gone\" ending says 玛力露丽 (Azumarill); #106 says 玛力露 (Marill)); logged in hack_findings_import.jsonl"
+  }
+ ]
+}

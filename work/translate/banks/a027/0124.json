@@ -1,0 +1,1724 @@
+{
+ "narc": "a027",
+ "bank": 124,
+ "source": "work/extract/v4/a027/0124.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "冠军大人,{NEWLINE}白银大会马上就要开始了,{CLEAR}请问您做好准备了吗？",
+   "en": "Champion, the Silver Conference is{NEWLINE}about to begin. Are you ready?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Mt. Silver summit: the first Silver Conference (before the Team Rocket war in 0126/0466). The Champion (player) defends at the summit; Lance and Lorelei screen challengers (assessment → Ace Trainer status); the first eight up get a one-on-one match."
+  },
+  {
+   "id": 1,
+   "zh": "请冠军大人抓紧时间。",
+   "en": "Please hurry, Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "好的,我现在通知山下的主持人。",
+   "en": "Very well. I’ll notify the MC at the foot{NEWLINE}of the mountain now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "好了,各位参赛选手,{NEWLINE}规则到此就宣读完毕了。{CLEAR}白银山上的冠军和四天王{CLEAR}已经做好了准备{CLEAR}等待大家的挑战。{CLEAR}下面请各位拿出十二分的状态,{CLEAR}以联盟冠军为目标{CLEAR}向神秘的白银山进发吧！",
+   "en": "All right, competitors, that concludes{NEWLINE}the reading of the rules.{SCROLL}The Champion and the Elite Four are{NEWLINE}ready and waiting for your challenge{CLEAR}atop Mt. Silver.{SCROLL}Now, bring your very best, set your{NEWLINE}sights on the League Champion, and head{CLEAR}for mysterious Mt. Silver!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "我听下面的主持人反馈说{NEWLINE}选手们已经出发了,{CLEAR}不知道第一位到这儿的会是谁呢。{SCROLL}有哪位选手是冠军大人{NEWLINE}特别期待的吗？",
+   "en": "The MC down below reports that the{NEWLINE}competitors have set off. I wonder{CLEAR}who’ll be the first to get here.{SCROLL}Is there a competitor you’re especially{NEWLINE}looking forward to, Champion?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: #12–#14 menu (which competitor the player expects): Gold → #5/#6/#8, Crystal → #15/#16/#21, Silver → #17–#20."
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:0103:0}『我虽然不太清楚{NEWLINE}报名参赛的都有谁,{CLEAR}但我敢肯定有一位来自若叶镇的少年{CLEAR}会表现得非常抢眼。",
+   "en": "{VAR:0103:0}: I don’t really know who all{NEWLINE}signed up.{SCROLL}But I’m sure a certain boy from New{NEWLINE}Bark Town is going to stand out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "哦？冠军大人不是关东真新镇人吗？{NEWLINE}居然会关注城都地区的小镇少年啊。",
+   "en": "Oh? Aren’t you from Pallet Town in{NEWLINE}Kanto, Champion?{SCROLL}You’re keeping an eye on a small-town{NEWLINE}boy from Johto?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0103:0}『最近一年{NEWLINE}我都在城都地区旅行,{CLEAR}所以认识了不少那边的人。",
+   "en": "{VAR:0103:0}: I’ve been traveling around{NEWLINE}Johto for the past year, so I got to{CLEAR}know quite a few people there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "原来如此啊。{SCROLL}不知道那位少年{NEWLINE}能不能回应冠军大人的期待,{CLEAR}第一个到达这里。",
+   "en": "I see.{SCROLL}I wonder if that boy can live up to your{NEWLINE}expectations and be the first to{CLEAR}get here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "阿金『嗯……这些人头也不回地{NEWLINE}就往东边走了,{CLEAR}看来东边应该是上山的正确道路。",
+   "en": "Gold: Hmm... All these people went{NEWLINE}straight east without looking back.{SCROLL}So east must be the right way up the{NEWLINE}mountain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "阿金『小银这家伙诡计多端,{NEWLINE}别人都往东走他偏往西走,{CLEAR}说明那边肯定有上山的捷径,{CLEAR}我要跟上去看看！",
+   "en": "Gold: That sneaky Silver... Everyone{NEWLINE}else is heading east, but he’s{CLEAR}going west.{SCROLL}That means there’s gotta be a shortcut{NEWLINE}up the mountain that way. I’m{CLEAR}following him!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "水晶『阿金和小银去西边了？{NEWLINE}那边也能……上山吗？",
+   "en": "Crystal: Gold and Silver went west? Can{NEWLINE}you... get up the mountain that{CLEAR}way too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "阿金",
+   "en": "Gold",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 9 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 13,
+   "zh": "水晶",
+   "en": "Crystal",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 7 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 14,
+   "zh": "小银",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0103:0}『我虽然不太清楚{NEWLINE}报名参赛的都有谁,{CLEAR}但我敢肯定有一位来自吉野市的女孩{CLEAR}一定会凭借自身的才智与细心{CLEAR}在大会上取得佳绩。",
+   "en": "{VAR:0103:0}: I don’t really know who all{NEWLINE}signed up.{SCROLL}But I’m sure a certain girl from{NEWLINE}Cherrygrove City will do great here,{CLEAR}thanks to her brains and her care.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "哦？冠军大人不是关东真新镇人吗？{NEWLINE}居然会关注城都地区的小城女孩啊。",
+   "en": "Oh? Aren’t you from Pallet Town in{NEWLINE}Kanto, Champion?{SCROLL}You’re keeping an eye on a small-city{NEWLINE}girl from Johto?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}『我虽然不太清楚{NEWLINE}报名参赛的都有谁,{CLEAR}但我想一定会有一位{CLEAR}以打倒我为目标的红发少年,{CLEAR}凭借他的勇猛和果决{CLEAR}在大会上取得佳绩。",
+   "en": "{VAR:0103:0}: I don’t really know who all{NEWLINE}signed up.{SCROLL}But I bet there’ll be a redheaded boy{NEWLINE}whose goal is to beat me.{SCROLL}He’ll do great here, thanks to his{NEWLINE}courage and his resolve.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "哦？还真有人觉得{NEWLINE}自己能打败冠军大人啊,{CLEAR}也太不自量力了。",
+   "en": "Oh? Someone actually thinks they can{NEWLINE}beat you, Champion?{SCROLL}Talk about not knowing your limits.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0103:0}『我在最近一年的旅行中,{NEWLINE}见证了这位少年{CLEAR}从实力到心智的不断成熟,{CLEAR}如果跟他交战时大意的话,{CLEAR}搞不好还真有可能会输掉。",
+   "en": "{VAR:0103:0}: Over my travels this past{NEWLINE}year, I’ve watched that boy mature, in{CLEAR}both skill and spirit.{SCROLL}If I let my guard down when I battle{NEWLINE}him, I might really lose.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "啊呀,这么厉害的吗？{SCROLL}希望知道那位少年{NEWLINE}能回应冠军大人的期待,{CLEAR}第一个到达这里吧。",
+   "en": "Oh my, is he that good?{SCROLL}I hope that boy lives up to your{NEWLINE}expectations and gets here first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "原来如此啊。{SCROLL}不知道那个女孩{NEWLINE}能不能回应冠军大人的期待,{CLEAR}第一个到达这里。",
+   "en": "I see.{SCROLL}I wonder if that girl can live up to your{NEWLINE}expectations and be the first to{CLEAR}get here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "水晶『呃……{NEWLINE}有你们开路倒是轻松很多。",
+   "en": "Crystal: Uh... Having you two clear the{NEWLINE}way does make things a lot easier.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "拉达『Raa……",
+   "en": "Raticate: Raa...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "已经到极限了吗……？{SCROLL}能走到这里已经很不错了,{NEWLINE}谢谢你,拉达！",
+   "en": "Is this your limit...?{SCROLL}Making it this far is already great.{NEWLINE}Thank you, Raticate!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "小黄『呀,你的拉达伤的有点重啊。",
+   "en": "Yellow: Oh, your Raticate is pretty{NEWLINE}badly hurt.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "没办法,白银山的野生精灵太厉害了,{NEWLINE}能走到这里我已经很知足了。",
+   "en": "Can’t be helped. Mt. Silver’s wild{NEWLINE}Pokémon are just too strong.{SCROLL}I’m happy I made it this far.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "小黄『我来帮你的拉达恢复一下吧。",
+   "en": "Yellow: Let me heal your Raticate a{NEWLINE}little.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "哎？恢复？不是禁止带伤药……？",
+   "en": "Huh? Heal it? But isn’t medicine{NEWLINE}banned...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "拉达『Raaaa——ti！",
+   "en": "Raticate: Raaaa-ti!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "拉达的体力恢复了！？太神奇了吧？",
+   "en": "Raticate’s energy is back!? That’s{NEWLINE}amazing!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "小黄『嘿嘿,看到你的拉达{NEWLINE}就不禁让我想起我的那只拉达。{CLEAR}那是一位非常重要的人{CLEAR}送给我的人生中的第一只精灵。",
+   "en": "Yellow: Hee hee, seeing your Raticate{NEWLINE}reminds me of my own Raticate.{SCROLL}It was the first Pokémon I ever had, a{NEWLINE}gift from someone very important to me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "小黄『啊呀,不知不觉说了这么多,{NEWLINE}我得继续前进了。{CLEAR}你也加油吧！",
+   "en": "Yellow: Oops, I got carried away{NEWLINE}talking. I have to keep going.{SCROLL}Good luck to you too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "科拿『从你对待精灵的态度{NEWLINE}和你个人的言行来看,{CLEAR}都过于急功近利,{CLEAR}我不能授予你精英训练家资格。{CLEAR}你回去历练历练再来吧。",
+   "en": "Lorelei: From the way you treat your{NEWLINE}Pokémon, and from your own words and{CLEAR}actions, you’re far too hungry for{CLEAR}quick success.{SCROLL}I can’t grant you Ace Trainer status.{SCROLL}Go get some more experience and come{NEWLINE}back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "啊……怎么这样……",
+   "en": "Ah... No way...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "渡『你不仅对战实力出众,{NEWLINE}对自己的精灵也很了解和爱惜,{CLEAR}我认可你了。{CLEAR}恭喜你成为本届大会{CLEAR}第一位登顶的训练家！",
+   "en": "Lance: You’re not only an outstanding{NEWLINE}battler, you also know and care for{CLEAR}your Pokémon well. I acknowledge you.{SCROLL}Congratulations on being the first{NEWLINE}Trainer at this Conference to reach{CLEAR}the summit!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "谢谢渡先生的认可！",
+   "en": "Thank you, Lance!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "喂喂喂！{NEWLINE}我们两个刚才都打输了,{CLEAR}为什么他能通过我就要回去！",
+   "en": "Hey, hey, hey! We both just lost!{SCROLL}So why does he get through while I have{NEWLINE}to go home?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "渡『你还不明白吗？{NEWLINE}成为精英训练家除了实力之外,{CLEAR}你的心智也很重要。{CLEAR}如果这都理解不了,{CLEAR}那你就更需要回去好好反思一下了！",
+   "en": "Lance: You still don’t get it?{SCROLL}Becoming an Ace Trainer takes more than{NEWLINE}strength. Your character matters too.{SCROLL}If you can’t even understand that,{NEWLINE}then you really need to go home and{CLEAR}take a hard look at yourself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "啊……唉……",
+   "en": "Ah... *sigh*...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "渡『哦？你不是上届{NEWLINE}石英大会的冠军小黄吗？{CLEAR}你也来参加白银大会了啊。",
+   "en": "Lance: Oh? Aren’t you Yellow, the{NEWLINE}winner of last year’s{CLEAR}Indigo Conference?{SCROLL}So you’ve entered the Silver{NEWLINE}Conference too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "小黄『啊……嗯,我听说这届大会{NEWLINE}不用打败四天王{CLEAR}也可以向联盟冠军挑战。{CLEAR}所以就想来跟……{CLEAR}跟联盟冠军对战试试。",
+   "en": "Yellow: Ah... Yes. I heard that at this{NEWLINE}Conference, you can challenge the{CLEAR}League Champion without beating the{CLEAR}Elite Four.{SCROLL}So I wanted to try battling... battling{NEWLINE}the League Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "渡『哈哈,好、好。{NEWLINE}让我看看你这一年来又进步了多少。",
+   "en": "Lance: Ha ha, good, good. Let me see{NEWLINE}how much you’ve grown this past year.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "小蓝『嘿嘿嘿,科拿女士,{NEWLINE}我的对手是你吗？",
+   "en": "Green: Heh heh heh. Ms. Lorelei, are{NEWLINE}you my opponent?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Partner branch Green (male player) / Red (female player): #43/#44, #45/#46, #47/#48, #50/#51, #60/#61, #63/#64, #104/#105, #107–#112, #161–#166, #171/#172. Yellow 哥哥/姐姐 variants #56/#57, #152–#159 (written with the player name). #139/#140 him/her. #115/#116 are two alternative Silver lines (condition not visible). Blue’s two tones #199 (teasing) / #200 (plain)."
+  },
+  {
+   "id": 44,
+   "zh": "小赤『你好,科拿女士,{NEWLINE}我的对手是你吗？",
+   "en": "Red: Hello, Ms. Lorelei. Are you my{NEWLINE}opponent?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "科拿『你是跟{VAR:0103:0}同一届{NEWLINE}成为精英训练家的那位小蓝？",
+   "en": "Lorelei: You’re Green, who became an{NEWLINE}Ace Trainer the same year as {VAR:0103:0}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "科拿『你是跟{VAR:0103:0}同一届{NEWLINE}成为精英训练家的那位小赤？",
+   "en": "Lorelei: You’re Red, who became an Ace{NEWLINE}Trainer the same year as {VAR:0103:0}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "小蓝『哎呀,能给四天王{NEWLINE}留下这么深的印象,{CLEAR}我还真是受宠若惊呢。",
+   "en": "Green: Oh my, to leave such an{NEWLINE}impression on one of the Elite Four...{CLEAR}I’m flattered.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "小赤『当时我并没有获得{NEWLINE}挑战四天王的资格,{CLEAR}没想到您居然能认得我。",
+   "en": "Red: Back then, I didn’t earn the right{NEWLINE}to challenge the Elite Four.{SCROLL}I never expected you to recognize me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "科拿『你们在淘汰赛的对战{NEWLINE}我们四天都通过电视转播看到了,{CLEAR}你跟一树的那场对战{CLEAR}让我印象很深呢。{CLEAR}我对你的实力可是非常期待的。",
+   "en": "Lorelei: We Elite Four all watched your{NEWLINE}knockout-round battles on TV.{SCROLL}Your battle with Will left quite an{NEWLINE}impression on me.{SCROLL}I have high hopes for what you can do.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 我们四天 read as 我们四天王 (the Elite Four)."
+  },
+  {
+   "id": 50,
+   "zh": "小蓝『嘿嘿,那我可就全力攻击了,{NEWLINE}你要小心咯！",
+   "en": "Green: Heh heh, then I’ll attack with{NEWLINE}everything I’ve got. Better watch out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "小赤『是,我会认真对待跟您的对战,{NEWLINE}请您也使出全力吧！",
+   "en": "Red: Yes. I’ll take our battle{NEWLINE}seriously. Please give it your all, too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "我听到山洞里好像传来了脚步声,{NEWLINE}是不是已经有选手{CLEAR}通过了四天王的检定？",
+   "en": "I think I hear footsteps coming from{NEWLINE}the cave.{SCROLL}Has a competitor already passed the{NEWLINE}Elite Four’s assessment?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "呼！这就是白银山的山顶吗？{NEWLINE}白雪飘飘地好壮观啊！",
+   "en": "Whew! So this is Mt. Silver’s summit?{SCROLL}All this falling snow is breathtaking!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "恭喜您成为第一位{NEWLINE}来到白银山顶的参赛选手,{CLEAR}请问您现在有何感想呢？",
+   "en": "Congratulations on being the first{NEWLINE}competitor to reach the summit of{CLEAR}Mt. Silver!{SCROLL}How do you feel right now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "啊？嗯……这个嘛……",
+   "en": "Huh? Um... Well...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "小黄『{VAR:0103:0}哥哥！",
+   "en": "Yellow: {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "小黄『{VAR:0103:0}姐姐！",
+   "en": "Yellow: {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "小黄『嘿嘿,我凭借自己的实力{NEWLINE}爬到山顶了哦。",
+   "en": "Yellow: Hee hee, I climbed all the way to{NEWLINE}the summit on my own strength!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "{VAR:0103:0}『嗯！干得不错啊小黄。",
+   "en": "{VAR:0103:0}: Yeah! Great job, Yellow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "小蓝『嗨！{VAR:0103:0}！{NEWLINE}这山上够冷的啊,你在这等多久了？",
+   "en": "Green: Hi, {VAR:0103:0}! It’s freezing up{NEWLINE}here. How long have you been waiting?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "小赤『嗨！{VAR:0103:0}！{NEWLINE}这山上够冷的啊,你在这等多久了？",
+   "en": "Red: Hi, {VAR:0103:0}! It’s freezing up{NEWLINE}here. How long have you been waiting?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "{VAR:0103:0}『哈哈,也没有等多久啦。",
+   "en": "{VAR:0103:0}: Ha ha, not that long.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "小蓝『咦？小银、阿金他们呢？{NEWLINE}我明明看到他们比我先进的山洞,{CLEAR}怎么到山顶了还没见到人啊？",
+   "en": "Green: Huh? Where are Silver and Gold?{SCROLL}I definitely saw them go into the cave{NEWLINE}before me. How come they’re not at the{CLEAR}summit yet?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "小赤『咦？小银、阿金他们呢？{NEWLINE}我明明看到他们比我先进的山洞,{CLEAR}怎么到山顶了还没见到人啊？",
+   "en": "Red: Huh? Where are Silver and Gold?{SCROLL}I definitely saw them go into the cave{NEWLINE}before me. How come they’re not at the{CLEAR}summit yet?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "{VAR:0103:0}『是啊,我也正纳闷呢,{NEWLINE}以他们的能力,{CLEAR}上山应该不会花太久时间才对。",
+   "en": "{VAR:0103:0}: Yeah, I was wondering that{NEWLINE}too.{SCROLL}With their skills, it shouldn’t take them{NEWLINE}long to get up the mountain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "阿金『这里除了间小木屋啥都没有,{NEWLINE}都是你这个吊眼红毛领错了路{CLEAR}才会走到这个死胡同来！",
+   "en": "Gold: There’s nothing here but a little{NEWLINE}cabin!{SCROLL}We ended up in this dead end because{NEWLINE}you led us the wrong way, you{CLEAR}scowling redhead!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "小银『我又没求你跟我走,{NEWLINE}是你自己偷偷跟来的,{CLEAR}就算进了死胡同,也是你自找的！",
+   "en": "Silver: I never asked you to follow me.{NEWLINE}You snuck after me on your own.{SCROLL}So if we hit a dead end, you asked for{NEWLINE}it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "阿金『谁知道你平时看起来精明,{NEWLINE}一到关键时候就不中用啊！",
+   "en": "Gold: Who knew a guy who acts so smart{NEWLINE}all the time would be useless when{CLEAR}it counts!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "小银『那也总好过你这个{NEWLINE}连平时都是一脸呆相的傻瓜。",
+   "en": "Silver: Still better than you, you idiot.{NEWLINE}You look dopey even on a good day.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "阿金『你说什么！？找揍是不是！",
+   "en": "Gold: What’d you say!? You looking for a{NEWLINE}beating?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "小银『哼,打就打,我还怕你不成。",
+   "en": "Silver: Hmph. Bring it on. Like I’m{NEWLINE}scared of you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "水晶『好了！你们不要吵了！",
+   "en": "Crystal: That’s enough! Stop fighting,{NEWLINE}you two!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "水晶『现在回到正确的路线上,{NEWLINE}赶在前8名到达山顶才是最重要的。{CLEAR}你们不是都想挑战{VAR:0103:0}前辈吗？{CLEAR}去晚了可就失去挑战资格了！",
+   "en": "Crystal: What matters now is getting{NEWLINE}back on the right route and reaching{CLEAR}the summit in the top eight.{SCROLL}Don’t you both want to challenge{NEWLINE}{VAR:0103:0}?{SCROLL}If we’re late, we’ll lose our chance!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "阿金『没错,现在不是{NEWLINE}教训吊眼红毛的时候。",
+   "en": "Gold: Right. Now’s not the time to teach{NEWLINE}this scowling redhead a lesson.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "小银『懒得理你。",
+   "en": "Silver: Can’t be bothered with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "水晶『明白事情的紧迫性了就赶紧走吧,{NEWLINE}咱们已经耽误很久了,{CLEAR}得抓紧才行！",
+   "en": "Crystal: Now that you get how urgent{NEWLINE}this is, let’s go!{SCROLL}We’ve already lost a lot of time. We’ve{NEWLINE}got to hurry!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "阿金『野生精灵不要出来碍事！",
+   "en": "Gold: Wild Pokémon, stay out of my way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "呃……也不用这么赶时间吧……",
+   "en": "Er... No need to be in such a rush...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "小银『给我闪一边去！",
+   "en": "Silver: Out of my way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "科拿『很遗憾,我认为你的实力{NEWLINE}还达不到精英训练家的水平,{CLEAR}请回吧！",
+   "en": "Lorelei: I’m sorry, but I don’t think{NEWLINE}you’re at the level of an Ace{CLEAR}Trainer yet.{SCROLL}Please go back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "嘿嘿,对我来说{NEWLINE}能亲眼见到科拿小姐{CLEAR}就不虚此行了。{CLEAR}谢谢科拿小姐的指点。{CLEAR}我就先回去了！",
+   "en": "Heh heh. For me, getting to see Miss{NEWLINE}Lorelei in person made the whole trip{CLEAR}worth it.{SCROLL}Thank you for the lesson, Miss Lorelei.{NEWLINE}I’ll be heading back now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "渡『咱们已经放行过{NEWLINE}多少名训练家上山了？",
+   "en": "Lance: How many Trainers have we let up{NEWLINE}the mountain so far?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "科拿『我放行了3名,你放行了2名。{NEWLINE}总共是放行5名了。",
+   "en": "Lorelei: I’ve let three through, and{NEWLINE}you’ve let two through. Five in total.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "渡『还剩三个挑战冠军的名额啊。",
+   "en": "Lance: So there are three challenger{NEWLINE}spots left.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "科拿『怎么了？{NEWLINE}有你特别在意的训练家还没来吗？",
+   "en": "Lorelei: What’s wrong? Is there a{NEWLINE}Trainer you’re especially interested in{CLEAR}who hasn’t shown up yet?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "渡『啊,我跟你说过吧。{NEWLINE}在卡吉镇时{CLEAR}跟我们一起闯进火箭队基地的{CLEAR}那几名年轻训练家……",
+   "en": "Lance: Ah, I told you about them,{NEWLINE}didn’t I?{SCROLL}Those young Trainers who stormed the{NEWLINE}Team Rocket hideout with us in{CLEAR}Mahogany Town...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "水晶『喂喂,阿金,你不要紧吧！",
+   "en": "Crystal: Hey, hey, Gold! Are you OK?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "阿金『刚刚跑太快没看见前面有人,{NEWLINE}撞得我满眼冒金星,好疼啊！",
+   "en": "Gold: I was running so fast I didn’t see{NEWLINE}someone in front of me.{SCROLL}I crashed right into him, and now I’m{NEWLINE}seeing stars. Owww!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "水晶『唉,你还是这样冒冒失失的。",
+   "en": "Crystal: Honestly, you’re as reckless{NEWLINE}as ever.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "水晶『先生你没事吧？",
+   "en": "Crystal: Sir, are you all right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "啊……刚才撞得我有点晕,{NEWLINE}让我缓一缓……",
+   "en": "Ah... That crash left me a little dizzy.{NEWLINE}Let me catch my breath...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "水晶『对不起啊,{NEWLINE}都怪我朋友太冒失了。",
+   "en": "Crystal: I’m so sorry. It’s my friend’s{NEWLINE}fault for being so careless.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "没事、没事……",
+   "en": "It’s fine, it’s fine...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "阿金『学习委员,{NEWLINE}现在不是你多管闲事的时候,{CLEAR}快点去跟渡先生对战,{CLEAR}先拿到挑战名额再说！",
+   "en": "Gold: Class Rep, now’s not the time to{NEWLINE}fuss over other people!{SCROLL}Hurry and battle Lance, and grab a{NEWLINE}challenger spot first!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "学习委员 (Gold’s nickname for Crystal, ‘class study monitor’) → ‘Class Rep’."
+  },
+  {
+   "id": 95,
+   "zh": "水晶『可是你们现在这样撞伤了……",
+   "en": "Crystal: But you’re both hurt from the{NEWLINE}crash...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "阿金『撞人是我的责任,{NEWLINE}你专心去跟四天王对战就行！{CLEAR}再磨蹭的话{CLEAR}后面的训练家就要赶上来了。",
+   "en": "Gold: Crashing into him is my{NEWLINE}responsibility. You just focus on{CLEAR}battling the Elite Four!{SCROLL}If you dawdle any longer, the Trainers{NEWLINE}behind us will catch up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "水晶『啊……嗯,好！{NEWLINE}你也要快恢复啊！",
+   "en": "Crystal: Ah... OK, fine! Hurry up and{NEWLINE}get better, too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "阿金『放心吧！",
+   "en": "Gold: Don’t worry about me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "水晶『阿金他总是这样看前不顾后的,{NEWLINE}让渡先生见笑了。",
+   "en": "Crystal: Gold is always charging ahead{NEWLINE}without looking. I’m sorry you had to{CLEAR}see that, Lance.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "渡『哈哈,没事,{NEWLINE}咱们先开始检定对战吧。",
+   "en": "Lance: Ha ha, it’s fine. Let’s begin the{NEWLINE}assessment battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "水晶『是！",
+   "en": "Crystal: Yes, sir!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "{VAR:0103:0}『已经有5人到达山顶了……",
+   "en": "{VAR:0103:0}: Five people have already made{NEWLINE}it to the summit...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "小黄『也就是说还剩三个名额。",
+   "en": "Yellow: That means there are only three{NEWLINE}spots left.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "小蓝『如果小银他们不抓紧点的话,{NEWLINE}恐怕就没有机会了。",
+   "en": "Green: If Silver and the others don’t{NEWLINE}hurry up, they might miss their chance.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "小赤『如果小银他们不抓紧点的话,{NEWLINE}恐怕就没有机会了。",
+   "en": "Red: If Silver and the others don’t{NEWLINE}hurry up, they might miss their chance.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "小银『呼……第6名,{NEWLINE}总算是没有被那个白痴拖累。",
+   "en": "Silver: Whew... Sixth place. At least{NEWLINE}that idiot didn’t drag me down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "小银『啊！小蓝姐！",
+   "en": "Silver: Ah! Sis!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "小银『啊！小赤哥！",
+   "en": "Silver: Ah! Red!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "小银『真不愧是小蓝姐,{NEWLINE}这么早就到山顶了。",
+   "en": "Silver: Just what I’d expect of you,{NEWLINE}Sis. Already at the summit this early.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "小银『真不愧是小赤哥,{NEWLINE}这么早就到山顶了。",
+   "en": "Silver: Just what I’d expect of you,{NEWLINE}Red. Already at the summit this early.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "小蓝『你也进入了前8名,{NEWLINE}表现得很不错嘛,{CLEAR}比起卡吉镇那时候来又成长了哦。",
+   "en": "Green: You made the top eight too. Nice{NEWLINE}going!{SCROLL}You’ve grown even more since Mahogany{NEWLINE}Town.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "小赤『你也进入了前8名,{NEWLINE}表现得很不错啊,{CLEAR}感觉比起卡吉镇那时候又成长了。",
+   "en": "Red: You made the top eight too. Well{NEWLINE}done.{SCROLL}You seem to have grown even more since{NEWLINE}Mahogany Town.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "小银『嘿嘿,这段时间{NEWLINE}我可是训练得非常刻苦。",
+   "en": "Silver: Heh heh. I’ve been training{NEWLINE}really hard lately.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "{VAR:0103:0}『恭喜你啊小银。",
+   "en": "{VAR:0103:0}: Congratulations, Silver.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "小银『少在那一脸轻松的样子,{NEWLINE}一会儿我就打败你,{CLEAR}把你联盟冠军的称号夺过来！",
+   "en": "Silver: Quit looking so relaxed.{SCROLL}In a minute, I’m going to beat you and{NEWLINE}take your League Champion title!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "小银『联盟冠军{VAR:0103:0}……{NEWLINE}咱们又见面了,{CLEAR}今天我一定会在这里超越你的。",
+   "en": "Silver: League Champion {VAR:0103:0}... We{NEWLINE}meet again.{SCROLL}Today, right here, I’m going to surpass{NEWLINE}you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "{VAR:0103:0}『嗯,好……{NEWLINE}我明白你的心情。",
+   "en": "{VAR:0103:0}: Mm, OK... I know how you feel.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "水晶『啊……老天保佑阿金快一点啊！",
+   "en": "Crystal: Ah... Please, please let Gold{NEWLINE}hurry up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "{VAR:0103:0}『怎么了水晶,阿金他人呢？",
+   "en": "{VAR:0103:0}: What’s wrong, Crystal?{NEWLINE}Where’s Gold?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "水晶『{VAR:0103:0}前辈！{NEWLINE}阿金现在正跟渡先生交战呢,{CLEAR}旁边还有另外一个{CLEAR}看起来很厉害的训练家{CLEAR}在跟科拿女士交战。{CLEAR}不知道他们谁会先取得胜利上来……",
+   "en": "Crystal: {VAR:0103:0}! Gold is battling{NEWLINE}Lance right now.{SCROLL}And next to him, another really{NEWLINE}strong-looking Trainer is battling{CLEAR}Ms. Lorelei.{SCROLL}I wonder which of them will win and come{NEWLINE}up first...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "你好小姐,你是第7位{NEWLINE}通过检定的训练家对吗？",
+   "en": "Hello, miss. You’re the seventh Trainer{NEWLINE}to pass the assessment, correct?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "这么说来还需要再等1位训练家,{NEWLINE}就可以开始白银大会的最终阶段了。",
+   "en": "Then we just need one more Trainer, and{NEWLINE}the final stage of the Silver Conference{CLEAR}can begin.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "不知道最后1名{NEWLINE}会是位怎样的训练家呢。",
+   "en": "I wonder what kind of Trainer the last{NEWLINE}one will be.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "{VAR:FF01:200}啊呀呀呀呀呀呀呀！！！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Waaaaaaah!!!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "SIZE-200% line; shout written short to fit at 2x."
+  },
+  {
+   "id": 125,
+   "zh": "{VAR:FF01:200}阿金『我来也！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Here I come!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "SIZE-200% line: the zh label 阿金 (Gold) is dropped so the shout fits at 2x (as D-0553/D-0719); #126 is labelled Gold."
+  },
+  {
+   "id": 126,
+   "zh": "阿金『哎呀,学习委员,{NEWLINE}你怎么堵在洞门口啊！{CLEAR}我刚从上次一的撞击中缓过来,{CLEAR}你可别再撞我了。",
+   "en": "Gold: Whoa, Class Rep, why are you{NEWLINE}blocking the cave entrance?!{SCROLL}I just got over that last crash, so{NEWLINE}don’t you crash into me again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 127,
+   "zh": "水晶『什么啊,明明是你自己冒冒失失。{NEWLINE}走路要看前面,知道吗！",
+   "en": "Crystal: What? You’re the one who’s{NEWLINE}always so careless.{SCROLL}Look where you’re going when you walk,{NEWLINE}got it?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 128,
+   "zh": "阿金『知道知道……{NEWLINE}今天及时赶到心情大好,{CLEAR}就不跟你争论了。",
+   "en": "Gold: Yeah, yeah...{SCROLL}I made it just in time today, so I’m in a{NEWLINE}great mood. I won’t argue with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 129,
+   "zh": "水晶『你这家伙！",
+   "en": "Crystal: Why, you...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 130,
+   "zh": "不好意思啊,容我打断一下你们。{SCROLL}你是第8位通过检定的训练家对吗？",
+   "en": "Excuse me for interrupting.{SCROLL}You’re the eighth Trainer to pass the{NEWLINE}assessment, correct?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 131,
+   "zh": "阿金『没错,压台登场的就是我了！",
+   "en": "Gold: That’s right! Saving the best for{NEWLINE}last, it’s me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 132,
+   "zh": "嗯,好。{NEWLINE}这样一来最后阶段的8名选手{CLEAR}就全部到齐了。",
+   "en": "Very good. That means all eight{NEWLINE}competitors for the final stage{CLEAR}are here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 133,
+   "zh": "冠军大人,8名参赛选手都到齐了。{NEWLINE}咱们准备开始正赛吧？",
+   "en": "Champion, all eight competitors are{NEWLINE}here. Shall we get the main{CLEAR}event started?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 134,
+   "zh": "{VAR:0103:0}『好。",
+   "en": "{VAR:0103:0}: OK.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 135,
+   "zh": "请冠军大人随我来。",
+   "en": "Please come with me, Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 136,
+   "zh": "水晶『是的,我是第7名。",
+   "en": "Crystal: Yes, I’m the seventh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 137,
+   "zh": "各位选手,请看这里！",
+   "en": "Competitors, your attention, please!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 138,
+   "zh": "经过紧张激烈的角逐,{NEWLINE}本届白银大会的前8名,{CLEAR}也就是诸位,{CLEAR}已经全部到达了这里。{CLEAR}恭喜诸位以精彩的表现,{CLEAR}昂首进入本届大会的第二阶段比赛。",
+   "en": "After a fierce and thrilling contest,{NEWLINE}the top eight of this Silver Conference{CLEAR}have all made it here. That means all{CLEAR}of you!{SCROLL}Congratulations on your splendid{NEWLINE}performances, and on advancing proudly{CLEAR}to the second stage of the Conference.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 139,
+   "zh": "站在我旁边的这位训练家,{NEWLINE}不用我多说,{CLEAR}相信大家都认识。{CLEAR}他就是现任联盟冠军、{CLEAR}上上届石英大会冠军、{CLEAR}打败火箭队的英雄——{CLEAR}{VAR:0103:0}！",
+   "en": "The Trainer standing beside me needs no{NEWLINE}introduction. I’m sure you all know him.{SCROLL}The current League Champion, winner of{NEWLINE}the Indigo Conference two years ago,{CLEAR}and the hero who defeated{CLEAR}Team Rocket...{SCROLL}{VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 140,
+   "zh": "站在我旁边的这位训练家,{NEWLINE}不用我多说,{CLEAR}相信大家都认识。{CLEAR}她就是现任联盟冠军、{CLEAR}上上届石英大会冠军、{CLEAR}打败火箭队的英雄——{CLEAR}{VAR:0103:0}！",
+   "en": "The Trainer standing beside me needs no{NEWLINE}introduction. I’m sure you all know her.{SCROLL}The current League Champion, winner of{NEWLINE}the Indigo Conference two years ago,{CLEAR}and the hero who defeated{CLEAR}Team Rocket...{SCROLL}{VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "按照往年的规则,{NEWLINE}石英大会前8强是没有资格{CLEAR}直接与联盟冠军对战的。{CLEAR}但是在本届白银大会上,{CLEAR}诸位都获得了在正式比赛中{CLEAR}与冠军1对1交战的机会。{CLEAR}希望诸位能够珍惜这次机会,{CLEAR}拿出全力来与联盟冠军战个痛快,{CLEAR}为全地区的观众献场精彩的比赛。",
+   "en": "Under the rules of past years, the top{NEWLINE}eight of the Indigo Conference had no{CLEAR}right to battle the League{CLEAR}Champion directly.{SCROLL}But at this Silver Conference, each of{NEWLINE}you has earned the chance to battle{CLEAR}the Champion one-on-one in an{CLEAR}official match.{SCROLL}Make the most of it! Give it everything{NEWLINE}you’ve got against the League Champion,{CLEAR}and put on a great show for viewers{CLEAR}across the region.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 142,
+   "zh": "下面冠军大人将登上{NEWLINE}白银山顶点的对战台,{CLEAR}按照诸位来到这里的顺序{CLEAR}逐一接受大家的挑战。{SCROLL}每位选手在上台挑战时,{NEWLINE}具体使用单打还是双打规则{CLEAR}由冠军大人指定,{CLEAR}任何人不得有异议。",
+   "en": "The Champion will now take the battle{NEWLINE}stage at the very summit of Mt. Silver.{SCROLL}The Champion will accept your challenges{NEWLINE}one at a time, in the order you arrived.{SCROLL}As each competitor takes the stage,{NEWLINE}the Champion will decide whether it’s a{CLEAR}single or a double battle.{SCROLL}No objections will be allowed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "好了,冠军大人。请登台吧！",
+   "en": "All right, Champion. Please take the{NEWLINE}stage!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 144,
+   "zh": "{VAR:0103:0}『嗯。",
+   "en": "{VAR:0103:0}: Right.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 145,
+   "zh": "你好,冠军大人。{NEWLINE}我是来自芳缘地区的训练家。{CLEAR}我们那里的联盟冠军大吾先生{CLEAR}对你的实力总是赞不绝口,{CLEAR}我也因此慕名而来{CLEAR}想一睹你的风采。",
+   "en": "Hello, Champion. I’m a Trainer from the{NEWLINE}Hoenn region.{SCROLL}Steven, our League Champion, never{NEWLINE}stops singing your praises.{SCROLL}So I came here to see you for myself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 147,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 148,
+   "zh": "好的,请冠军大人赐教！",
+   "en": "Very well. Please show me what you’ve{NEWLINE}got, Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 149,
+   "zh": "冠军大人只带着1只精灵啊,{NEWLINE}那咱们还是用单打规则吧！",
+   "en": "You only have one Pokémon with you,{NEWLINE}Champion. Let’s go with single battle{CLEAR}rules, then!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 150,
+   "zh": "请冠军大人赐教了！",
+   "en": "Please show me what you’ve got,{NEWLINE}Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 151,
+   "zh": "哇,跟您对战过之后,{NEWLINE}我才明白什么是人外有人,天外有天。{CLEAR}这次关东之旅没有白来,{CLEAR}谢谢您！",
+   "en": "Wow... Battling you taught me that{NEWLINE}there’s always someone stronger{CLEAR}out there.{SCROLL}This trip to Kanto was worth it. Thank{NEWLINE}you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 152,
+   "zh": "小黄『我能坚定地{NEWLINE}走上训练家这条路,{CLEAR}都要感谢{VAR:0103:0}哥哥。{CLEAR}一直以来我都以您为目标努力着,{CLEAR}今天终于有机会在正式场合向您……{CLEAR}向您挑战。{CLEAR}我会好好加油的。",
+   "en": "Yellow: I owe it to you, {VAR:0103:0}, that I{NEWLINE}could set out on the path of a Trainer{CLEAR}with confidence.{SCROLL}I’ve always worked hard with you as my{NEWLINE}goal.{SCROLL}And today, I finally get the chance to{NEWLINE}challenge you... officially.{SCROLL}I’ll do my very best.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 153,
+   "zh": "小黄『我能坚定地{NEWLINE}走上训练家这条路,{CLEAR}都要感谢{VAR:0103:0}姐姐。{CLEAR}一直以来我都以您为目标努力着,{CLEAR}今天终于有机会在正式场合向您……{CLEAR}向您挑战。{CLEAR}我会好好加油的。",
+   "en": "Yellow: I owe it to you, {VAR:0103:0}, that I{NEWLINE}could set out on the path of a Trainer{CLEAR}with confidence.{SCROLL}I’ve always worked hard with you as my{NEWLINE}goal.{SCROLL}And today, I finally get the chance to{NEWLINE}challenge you... officially.{SCROLL}I’ll do my very best.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 154,
+   "zh": "小黄『嗯好,请{VAR:0103:0}哥哥{NEWLINE}看看我的成长吧！",
+   "en": "Yellow: OK! {VAR:0103:0}, please see how{NEWLINE}much I’ve grown!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 155,
+   "zh": "小黄『嗯好,请{VAR:0103:0}姐姐{NEWLINE}看看我的成长吧！",
+   "en": "Yellow: OK! {VAR:0103:0}, please see how{NEWLINE}much I’ve grown!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 156,
+   "zh": "小黄『可是{VAR:0103:0}哥哥带的精灵{NEWLINE}不够进行双打啊,{CLEAR}这样是不公平的,{CLEAR}所以咱们还是进行单打比赛吧！",
+   "en": "Yellow: But you don’t have enough{NEWLINE}Pokémon for a Double Battle, {VAR:0103:0}.{SCROLL}That wouldn’t be fair, so let’s have a{NEWLINE}single battle instead!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 157,
+   "zh": "小黄『可是{VAR:0103:0}姐姐带的精灵{NEWLINE}不够进行双打啊,{CLEAR}这样是不公平的,{CLEAR}所以咱们还是进行单打比赛吧！",
+   "en": "Yellow: But you don’t have enough{NEWLINE}Pokémon for a Double Battle, {VAR:0103:0}.{SCROLL}That wouldn’t be fair, so let’s have a{NEWLINE}single battle instead!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 158,
+   "zh": "小黄『嘿嘿,谢谢{VAR:0103:0}哥哥的认可。{NEWLINE}能在这里跟{VAR:0103:0}哥哥对战{CLEAR}我真的非常满足！",
+   "en": "Yellow: Hee hee, thank you for{NEWLINE}acknowledging me, {VAR:0103:0}.{SCROLL}Getting to battle you here, {VAR:0103:0},{NEWLINE}makes me so happy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 159,
+   "zh": "小黄『嘿嘿,谢谢{VAR:0103:0}姐姐的认可。{NEWLINE}能在这里跟{VAR:0103:0}姐姐对战{CLEAR}我真的非常满足！",
+   "en": "Yellow: Hee hee, thank you for{NEWLINE}acknowledging me, {VAR:0103:0}.{SCROLL}Getting to battle you here, {VAR:0103:0},{NEWLINE}makes me so happy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 160,
+   "zh": "{VAR:0103:0}『你真的成长了,小黄。{NEWLINE}刚刚的对战表现得很好！",
+   "en": "{VAR:0103:0}: You’ve really grown, Yellow.{NEWLINE}You did great in that battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 161,
+   "zh": "小蓝『{VAR:0103:0},{NEWLINE}最强的宝座坐得够久了吧？{CLEAR}让我看看你有没有懈怠。",
+   "en": "Green: {VAR:0103:0}, you’ve sat on the{NEWLINE}throne of the strongest long enough,{CLEAR}haven’t you?{SCROLL}Let’s see if you’ve been slacking off.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 162,
+   "zh": "小赤『{VAR:0103:0},{NEWLINE}虽然最近我没有到处旅行,{CLEAR}但锻炼却从来没有懈怠,{CLEAR}让我看看我的努力{CLEAR}是否能够拉进与你之间的差距吧。",
+   "en": "Red: {VAR:0103:0}, I haven’t been traveling{NEWLINE}much lately, but I’ve never slacked off{CLEAR}on my training.{SCROLL}Let me see if all my effort has closed{NEWLINE}the gap between us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 163,
+   "zh": "小蓝『没问题,无论什么规则我都可以！",
+   "en": "Green: No problem. Any rules are fine by{NEWLINE}me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 164,
+   "zh": "小赤『没问题,无论什么规则我都可以！",
+   "en": "Red: No problem. Any rules are fine by{NEWLINE}me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 165,
+   "zh": "小蓝『喂喂！瞧不起人吗？{NEWLINE}就用1只精灵跟我进行双打,{CLEAR}我可没你想的那么弱。{CLEAR}咱们还是用单打规则比赛吧。",
+   "en": "Green: Hey, hey! Are you looking down{NEWLINE}on me? A Double Battle with only{CLEAR}one Pokémon?{SCROLL}I’m not as weak as you think. Let’s{NEWLINE}just go with single battle rules.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 166,
+   "zh": "小赤『你身上只带着1只精灵,{NEWLINE}双打的话对你不太公平。{CLEAR}咱们还是用单打规则比赛吧。",
+   "en": "Red: You only have one Pokémon with{NEWLINE}you. A Double Battle wouldn’t be fair{CLEAR}to you.{SCROLL}Let’s go with single battle rules.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 167,
+   "zh": "请问冠军大人,{NEWLINE}需要我帮您的精灵恢复体力吗？",
+   "en": "Champion, shall I restore your{NEWLINE}Pokémon’s energy?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 168,
+   "zh": "好的,请冠军大人加油。",
+   "en": "Very well. Good luck, Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 169,
+   "zh": "好的,我来给您的精灵回复体力。",
+   "en": "Very well. I’ll restore your Pokémon’s{NEWLINE}energy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 170,
+   "zh": "请冠军大人继续加油。",
+   "en": "Please keep it up, Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 171,
+   "zh": "小蓝『不愧是联盟冠军,{NEWLINE}有你这样的伙伴真是让人安心呐。",
+   "en": "Green: Just what I’d expect of the{NEWLINE}League Champion. Having a partner like{CLEAR}you sure puts my mind at ease.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 172,
+   "zh": "小赤『不愧是联盟冠军,{NEWLINE}有你这样的伙伴真的让人安心。",
+   "en": "Red: Just what I’d expect of the{NEWLINE}League Champion. Having a partner like{CLEAR}you really puts my mind at ease.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 173,
+   "zh": "冠军大人您好,{NEWLINE}我知道自己不可能及得上{CLEAR}您万分之一的实力,{CLEAR}但既然来到这里了,{CLEAR}我还是想努力一次试试。",
+   "en": "Hello, Champion. I know I can’t match{NEWLINE}even one ten-thousandth of{CLEAR}your strength.{SCROLL}But since I’ve made it this far, I still{NEWLINE}want to give it my best shot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 174,
+   "zh": "呼……好的,咱们开始吧！",
+   "en": "Whew... OK, let’s begin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 175,
+   "zh": "请冠军大人不必相让,{NEWLINE}既然您只带着1只精灵,{CLEAR}那咱们就进行单打吧。",
+   "en": "Please don’t go easy on me, Champion.{NEWLINE}Since you only have one Pokémon with{CLEAR}you, let’s have a single battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 176,
+   "zh": "啊……在下真的服了！{NEWLINE}您就是我永远无法攀登上去的高山啊！",
+   "en": "Ah... I humbly concede! You’re a{NEWLINE}mountain I’ll never be able to climb!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 177,
+   "zh": "来自研钵山的空手道大王信彦,{NEWLINE}向联盟冠军挑战！",
+   "en": "Karate King Kiyo of Mt. Mortar{NEWLINE}challenges the League Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "空手道大王信彦 = Karate King Kiyo (0719 #899/#953; JP Nobuhiko)."
+  },
+  {
+   "id": 178,
+   "zh": "哈哈,正合我意,{NEWLINE}咱们来场痛快的对战吧！",
+   "en": "Ha ha, just what I wanted! Let’s have a{NEWLINE}rousing battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 179,
+   "zh": "不行不行,你只带着1只精灵,{NEWLINE}咱们还是单打吧！",
+   "en": "No, no. You only have one Pokémon with{NEWLINE}you, so let’s make it a single battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 180,
+   "zh": "真是精彩的对战,{NEWLINE}您无愧于联盟冠军之名！",
+   "en": "What a splendid battle! You truly live{NEWLINE}up to the name of League Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 181,
+   "zh": "小银『我等这一天好久了,{NEWLINE}我要让所有人都看到,{CLEAR}是「我」打败了你！{CLEAR}我才是最强的训练家！",
+   "en": "Silver: I’ve waited a long time for this{NEWLINE}day.{SCROLL}I’m going to show everyone that I’m the{NEWLINE}one who beat you!{SCROLL}I’m the strongest Trainer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 182,
+   "zh": "小银『强者是不会介意{NEWLINE}用哪种规则战斗的。{CLEAR}你尽管来吧！",
+   "en": "Silver: The strong don’t care what{NEWLINE}rules they battle by. Bring it on!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 183,
+   "zh": "小银『只带着1只精灵就想双打？{NEWLINE}我可不想在你输掉之后{CLEAR}找借口说自己以少敌多。{CLEAR}既然你只有1只精灵,{CLEAR}那就用单打规则对战吧！",
+   "en": "Silver: A Double Battle with only one{NEWLINE}Pokémon?{SCROLL}I don’t want you making excuses after{NEWLINE}you lose, saying you were outnumbered.{SCROLL}Since you’ve only got one Pokémon, we’ll{NEWLINE}battle by single rules!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 184,
+   "zh": "小银『还是不行吗……{NEWLINE}我……到底差在哪里呢！",
+   "en": "Silver: Still not enough... What... What{NEWLINE}am I missing?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 185,
+   "zh": "{VAR:0103:0}『再多给予你的精灵{NEWLINE}一些爱与关心,{CLEAR}你会变得更强的。",
+   "en": "{VAR:0103:0}: Give your Pokémon a little{NEWLINE}more love and care, and you’ll get{CLEAR}even stronger.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 186,
+   "zh": "小银『……",
+   "en": "Silver: ...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 187,
+   "zh": "水晶『{VAR:0103:0}前辈,{NEWLINE}我知道自己肯定不是你的对手。{CLEAR}但是孤儿院的孩子们{CLEAR}都在电视机前看着我呢,{CLEAR}所以我也不能太丢人呐。",
+   "en": "Crystal: {VAR:0103:0}, I know I’m no match{NEWLINE}for you.{SCROLL}But the kids at the orphanage are all{NEWLINE}watching me on TV, so I can’t embarrass{CLEAR}myself too badly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 188,
+   "zh": "水晶『嗯！我会把旅途中{NEWLINE}从前辈那学到的东西{CLEAR}全部发挥出来的！",
+   "en": "Crystal: Right! I’ll put everything I{NEWLINE}learned from you on our journey to use!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 189,
+   "zh": "水晶『前辈你只带着1只精灵啊,{NEWLINE}这样根本就没法进行双打吧？{CLEAR}咱们干脆用单打规则算了。",
+   "en": "Crystal: You only have one Pokémon with{NEWLINE}you. We can’t really have a Double{CLEAR}Battle like that, can we?{SCROLL}Let’s just go with single rules.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 190,
+   "zh": "水晶『哈哈,意料之中的结果。{NEWLINE}谢谢前辈刚才的指点,{CLEAR}以后有时间的话{CLEAR}欢迎再来吉野市玩哦。",
+   "en": "Crystal: Ha ha, just as I expected.{NEWLINE}Thank you for the lesson just now.{SCROLL}Come visit Cherrygrove City again when{NEWLINE}you have time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 191,
+   "zh": "阿金『偶像,终于轮到我了。{NEWLINE}我自从看到你在石英大会上{CLEAR}战斗的英姿后,{CLEAR}就一直梦想成为跟你一样的训练家。{CLEAR}经过了这么久的旅行后,{CLEAR}我终于有机会{CLEAR}跟你站到同一个舞台上了。{CLEAR}我将会用这场战斗,{CLEAR}向所有人宣告：{CLEAR}我的梦想实现了！",
+   "en": "Gold: Idol, it’s finally my turn.{SCROLL}Ever since I saw you battle so{NEWLINE}brilliantly at the Indigo Conference,{CLEAR}I’ve dreamed of becoming a Trainer just{CLEAR}like you.{SCROLL}After traveling for so long, I finally{NEWLINE}get to stand on the same stage as you.{SCROLL}With this battle, I’ll announce to{NEWLINE}everyone that my dream has come true!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 192,
+   "zh": "阿金『来吧,白银山顶的巅峰决战！",
+   "en": "Gold: Let’s go! The ultimate showdown{NEWLINE}at the summit of Mt. Silver!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 193,
+   "zh": "阿金『偶像啊,{NEWLINE}你可不能用1只精灵来双打,{CLEAR}这不是故意让着我吗？{CLEAR}我可不接受这样的战斗。{CLEAR}所以咱们还是来单打对战吧。",
+   "en": "Gold: Idol, you can’t do a Double Battle{NEWLINE}with only one Pokémon. That’s just{CLEAR}going easy on me on purpose, isn’t it?{SCROLL}I won’t accept a battle like that. So{NEWLINE}let’s have a single battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 194,
+   "zh": "阿金『哎呀,好可惜。{NEWLINE}不过能跟偶像打到这个程度,{CLEAR}我已经很满足了。",
+   "en": "Gold: Aww, so close. But getting this{NEWLINE}far against my idol... I’m{CLEAR}totally satisfied.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 195,
+   "zh": "{VAR:0103:0}『仅仅出门旅行一年{NEWLINE}就有这种实力,{CLEAR}你已经是新一代训练家中的最强者了。",
+   "en": "{VAR:0103:0}: One year of traveling and{NEWLINE}you’re already this strong.{SCROLL}You’re the strongest of the new{NEWLINE}generation of Trainers.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 196,
+   "zh": "阿金『哈哈哈,我真的有这么优秀吗？",
+   "en": "Gold: Ha ha ha! Am I really that great?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 197,
+   "zh": "达马兰奇『没错,你们都是{NEWLINE}非常优秀的训练家。",
+   "en": "Goodshow: Indeed. You are all{NEWLINE}outstanding Trainers.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 198,
+   "zh": "{VAR:0103:0}『达马兰奇主席？{NEWLINE}还有小绿也来了？",
+   "en": "{VAR:0103:0}: President Goodshow? And{NEWLINE}Blue’s here too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 199,
+   "zh": "小绿『什么叫还有？{NEWLINE}我是作为主席的护卫一同前来的,{CLEAR}很奇怪吗？",
+   "en": "Blue: What do you mean, ‘too’? I came{NEWLINE}along as the President’s bodyguard. Is{CLEAR}that so weird?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 200,
+   "zh": "小绿『嗯,我是作为主席的护卫{NEWLINE}一同前来的。",
+   "en": "Blue: Yeah. I came along as the{NEWLINE}President’s bodyguard.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 201,
+   "zh": "阿金『哇,是精灵联盟的主席。",
+   "en": "Gold: Whoa, it’s the President of the{NEWLINE}Pokémon League.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 202,
+   "zh": "达马兰奇『怎么样,你们旧友重逢,{NEWLINE}是不是很开心啊？",
+   "en": "Goodshow: Well? Old friends reunited.{NEWLINE}Aren’t you glad?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 203,
+   "zh": "小绿『看到{VAR:0103:0}在大会上取胜,{NEWLINE}总让我想到以前的一些伤心事。",
+   "en": "Blue: Seeing {VAR:0103:0} win at a{NEWLINE}Conference always reminds me of some{CLEAR}painful memories.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 204,
+   "zh": "达马兰奇『哈哈哈哈,{NEWLINE}人要学会向前看啊,小绿。",
+   "en": "Goodshow: Ha ha ha ha! A man must learn{NEWLINE}to look ahead, Blue.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 205,
+   "zh": "小绿『嗯……也对。",
+   "en": "Blue: Yeah... I guess you’re right.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 206,
+   "zh": "达马兰奇『{VAR:0103:0}、阿金。{NEWLINE}你们跟我到下面来吧。",
+   "en": "Goodshow: {VAR:0103:0}, Gold. Come down with{NEWLINE}me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 207,
+   "zh": "达马兰奇『各位年轻的训练家,{NEWLINE}本届白银大会就要落下帷幕了,{CLEAR}感谢你们在这期间的精彩表现。{CLEAR}全地区的人民都从你们身上{CLEAR}看到了正直、勇敢、拼搏的优秀品质。{CLEAR}这些品质既会帮助你们{CLEAR}成为更出色的训练家,{CLEAR}也会引导你们{CLEAR}成为这片地区的守护者。",
+   "en": "Goodshow: Young Trainers, this Silver{NEWLINE}Conference is about to come to a close.{CLEAR}Thank you for your{CLEAR}splendid performances.{SCROLL}People all across the region have seen{NEWLINE}in you the fine qualities of integrity,{CLEAR}courage, and determination.{SCROLL}These qualities will help you become{NEWLINE}better Trainers...{SCROLL}And they will also guide you to become{NEWLINE}the guardians of this land.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 208,
+   "zh": "达马兰奇『两年前,火箭队的阴影{NEWLINE}曾经笼罩着整个地区,{CLEAR}但多亏了我们的联盟冠军挺身而出,{CLEAR}这才终结了火箭队的野心。{CLEAR}两年后的今天,{CLEAR}火箭队又躲暗处准备卷土重来,{CLEAR}但只要有你们这样优秀的训练家在,{CLEAR}我们就能够保护家人、保护伙伴、{CLEAR}保护我们生活的地方。{SCROLL}达马兰奇『精灵联盟和全地区的人民{NEWLINE}都对你们寄予厚望,{CLEAR}期待你们在未来对抗黑暗的战斗中{CLEAR}能够像今天一样表现出色！",
+   "en": "Goodshow: Two years ago, the shadow of{NEWLINE}Team Rocket hung over this{CLEAR}entire region.{SCROLL}But thanks to our League Champion{NEWLINE}stepping forward, Team Rocket’s{CLEAR}ambitions were brought to an end.{SCROLL}Now, two years later, Team Rocket is{NEWLINE}hiding in the shadows, preparing{CLEAR}a comeback.{SCROLL}But as long as we have fine Trainers like{NEWLINE}you, we can protect our families, our{CLEAR}partners, and the places we live.{SCROLL}Goodshow: The Pokémon League and the{NEWLINE}people of the region have high hopes for{CLEAR}you all.{SCROLL}We look forward to seeing you shine as{NEWLINE}brightly as you did today in the battles{CLEAR}against darkness to come!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 209,
+   "zh": "达马兰奇『好了……现在我宣布,{NEWLINE}第一届白银大会到此顺利闭幕。{CLEAR}祝各位在未来的训练家之路上,{CLEAR}能够攀上更高的山峰！",
+   "en": "Goodshow: Now then... I hereby declare{NEWLINE}the first Silver Conference{CLEAR}successfully closed!{SCROLL}May each of you climb even higher peaks{NEWLINE}on your path as a Trainer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 210,
+   "zh": "冠军大人您好,{NEWLINE}需要我为您恢复精灵吗？",
+   "en": "Hello, Champion. Shall I restore your{NEWLINE}Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 211,
+   "zh": "您的精灵已经恢复了,请加油吧！",
+   "en": "Your Pokémon are fully restored. Good{NEWLINE}luck!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 212,
+   "zh": "扛着摄像机上白银山可真够累的,{NEWLINE}我们这些保障人员也不容易啊。",
+   "en": "Lugging a camera up Mt. Silver is{NEWLINE}exhausting. It’s not easy for us{CLEAR}support staff either.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 213,
+   "zh": "冠军大人您好,{NEWLINE}现在直播还没有开始,{CLEAR}您在镜头前不必拘谨。",
+   "en": "Hello, Champion. The live broadcast{NEWLINE}hasn’t started yet, so there’s no need{CLEAR}to be stiff in front of the camera.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

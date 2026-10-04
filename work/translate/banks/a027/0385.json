@@ -1,0 +1,279 @@
+{
+ "narc": "a027",
+ "bank": 385,
+ "source": "work/extract/v4/a027/0385.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "有种精灵{NEWLINE}只能在公园找到哦！",
+   "en": "There are Pokémon you can only find{NEWLINE}in the park!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "捕虫大会的{NEWLINE}举办日是⋯⋯{CLEAR}星期二、星期四、星期六。{SCROLL}不仅可以参加,{NEWLINE}抓住的虫精灵{CLEAR}还可以归自己哦。",
+   "en": "The Bug-Catching Contest is held on{NEWLINE}Tuesday, Thursday, and Saturday.{SCROLL}Not only can you take part,{NEWLINE}you also get to keep the Bug-type{CLEAR}Pokémon you catch.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "copied from a027/0382#1 (identical zh)"
+  },
+  {
+   "id": 2,
+   "zh": "今天是星期二,{NEWLINE}捕虫大会的举办日！{SCROLL}规则很简单！{SCROLL}用携带的１只精灵{NEWLINE}捕捉虫精灵,{CLEAR}看谁抓住的比较强。{SCROLL}要参加吗？{VAR:0200:0}",
+   "en": "Today is Tuesday, the day of the{NEWLINE}Bug-Catching Contest!{SCROLL}The rules are simple!{SCROLL}Using the one Pokémon you bring,{NEWLINE}catch Bug-type Pokémon. Whoever{CLEAR}catches the strongest one wins.{SCROLL}Would you like to take part?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "今天是星期四,{NEWLINE}捕虫大会的举办日！{SCROLL}规则很简单！{SCROLL}用携带的１只精灵{NEWLINE}捕捉虫精灵,{CLEAR}看谁抓住的比较强。{SCROLL}要参加吗？{VAR:0200:0}",
+   "en": "Today is Thursday, the day of the{NEWLINE}Bug-Catching Contest!{SCROLL}The rules are simple!{SCROLL}Using the one Pokémon you bring,{NEWLINE}catch Bug-type Pokémon. Whoever{CLEAR}catches the strongest one wins.{SCROLL}Would you like to take part?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "今天是星期六,{NEWLINE}捕虫大会的举办日！{SCROLL}规则很简单！{SCROLL}用携带的１只精灵{NEWLINE}捕捉虫精灵,{CLEAR}看谁抓住的比较强。{SCROLL}要参加吗？{VAR:0200:0}",
+   "en": "Today is Saturday, the day of the{NEWLINE}Bug-Catching Contest!{SCROLL}The rules are simple!{SCROLL}Using the one Pokémon you bring,{NEWLINE}catch Bug-type Pokémon. Whoever{CLEAR}catches the strongest one wins.{SCROLL}Would you like to take part?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "是{VAR:0205}",
+   "en": "Yes{VAR:0205}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "否{VAR:0205}",
+   "en": "No{VAR:0205}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "啊咧？{NEWLINE}精灵不是１只呢！{SCROLL}用最前面的精灵{NEWLINE}{VAR:0101:0}{CLEAR}参加{CLEAR}可以吗？{VAR:0200:0}",
+   "en": "Huh? You have more than one Pokémon!{SCROLL}Is it OK to enter with your first{NEWLINE}Pokémon, {VAR:0101:0}?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "是{VAR:0205}",
+   "en": "Yes{VAR:0205}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "否{VAR:0205}",
+   "en": "No{VAR:0205}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0103:0}将精灵{NEWLINE}寄存给工作人员了！{SCROLL}那就把其他的精灵{NEWLINE}暂时寄存在我这里吧。{SCROLL}",
+   "en": "{VAR:0103:0} left the other Pokémon with{NEWLINE}the staff!{SCROLL}We’ll look after your other Pokémon{NEWLINE}here for the time being.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "这是大会中使用的公园球！{SCROLL}{VAR:0103:0}{NEWLINE}得到了２０个{VAR:0108:1}！{SCROLL}",
+   "en": "These are the Balls used in{NEWLINE}the Contest!{SCROLL}{VAR:0103:0} received 20 {VAR:0108:1}!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 公园球 (Park Ball); the item name comes from {VAR:0108:1}, so the English just says ‘Balls’"
+  },
+  {
+   "id": 12,
+   "zh": "抓到最强精灵的人即为胜利！{SCROLL}限制时间为２０分钟！{SCROLL}或者公园球用完即结束！{SCROLL}最后捉到的精灵{NEWLINE}归选手所有！{SCROLL}请大家加油捕捉最强的精灵！",
+   "en": "Whoever catches the strongest{NEWLINE}Pokémon wins!{SCROLL}The time limit is 20 minutes!{SCROLL}The Contest also ends if you run out{NEWLINE}of Balls!{SCROLL}You get to keep the last Pokémon{NEWLINE}you catch!{SCROLL}Everyone, do your best to catch the{NEWLINE}strongest Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "很遗憾！{SCROLL}好像不能再继续捕捉精灵了！",
+   "en": "Too bad!{SCROLL}Looks like you can’t catch any{NEWLINE}more Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "这样啊。{NEWLINE}请下次参加哦！",
+   "en": "I see. Please join us next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "今天的选美大赛{NEWLINE}已经结束了哦。{SCROLL}请下次再来吧！",
+   "en": "The beauty contest is over for today.{SCROLL}Please come again another time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The Bug-Catching Contest gatehouse says 选美大赛 (beauty contest)); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 16,
+   "zh": "公园不时会{NEWLINE}举办大会哦。{CLEAR}如果愿意,你也参加吧？",
+   "en": "The park holds contests from time to{NEWLINE}time. Why don’t you take part too,{CLEAR}if you like?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "您是{VAR:0103:0}吧？{NEWLINE}这是您的奖品。{SCROLL}",
+   "en": "You’re {VAR:0103:0}, right?{NEWLINE}Here’s your prize.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "哦哟？{NEWLINE}{VAR:0103:0}的物品{SCROLL}好像满了呢⋯⋯{SCROLL}今天要是满了的话{NEWLINE}那我先帮您留着,{CLEAR}请您整理完物品后再来。",
+   "en": "Oh? It looks like {VAR:0103:0}’s Bag{NEWLINE}is full...{SCROLL}If it’s full today, I’ll hold on to it{NEWLINE}for you.{SCROLL}Please come back once you’ve sorted{NEWLINE}out your items.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "下次的捕虫大会{NEWLINE}请继续参加哦！",
+   "en": "Please join the next Bug-Catching{NEWLINE}Contest too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "剩余时间{NEWLINE}还有{VAR:0133:0}分钟{CLEAR}要结束吗？{VAR:0200:0}",
+   "en": "You still have {VAR:0133:0} minutes left.{NEWLINE}Do you want to finish now?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "是{VAR:0205}",
+   "en": "Yes{VAR:0205}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "否{VAR:0205}",
+   "en": "No{VAR:0205}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "这样啊。{NEWLINE}还有一些时间,{CLEAR}请继续加油！",
+   "en": "I see. There’s still some time left,{NEWLINE}so keep it up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "这样啊。{NEWLINE}那么请在自然公园{CLEAR}等候结果公布。",
+   "en": "I see. Then please wait at the National{NEWLINE}Park for the results.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "我看到我儿子跟一个小女孩{NEWLINE}开开心心地去了自然公园。{CLEAR}他才上小学啊,{CLEAR}怎么能跟女孩子来这种地方约会呢！{CLEAR}我不能对儿子早恋坐视不管,{CLEAR}但是我直接去抓的话又怕打草惊蛇。{CLEAR}你能帮我去趟自然公园{CLEAR}抓我儿子早恋的现行吗？",
+   "en": "I saw my son happily heading into the{NEWLINE}National Park with a little girl. He’s{CLEAR}only in grade school! How can he go on a{CLEAR}date with a girl in a place like this?{SCROLL}I can’t just stand by and ignore my{NEWLINE}son’s puppy love, but if I go after him{CLEAR}myself, I’m afraid I’ll tip him off.{SCROLL}Could you go to the National Park{NEWLINE}for me and catch my son’s puppy{CLEAR}love red-handed?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "谢谢你愿意帮忙！{NEWLINE}我儿子是个戴眼镜的小学生,{CLEAR}你应该很容易就能认出他。",
+   "en": "Thank you for helping! My son is{NEWLINE}a grade-schooler with glasses.{CLEAR}You should be able to spot him easily.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "请你一定要抓到我儿子早恋的现行,{NEWLINE}好让他无话可说。",
+   "en": "Please catch my son’s puppy love{NEWLINE}red-handed, so he won’t have a word to{CLEAR}say for himself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "多亏了你帮忙,{NEWLINE}我才能即时制止儿子早恋。{CLEAR}真的是非常感谢！",
+   "en": "Thanks to your help, I put a stop{NEWLINE}to my son’s puppy love just in time.{CLEAR}Thank you so much!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0103:0}『我找到你儿子问过了。{NEWLINE}其实他是跟同学来自然公园{CLEAR}做精灵课题研究的。{CLEAR}这都是以学习为目的的课外活动,{CLEAR}请你不必过分担心。",
+   "en": "{VAR:0103:0}: I found your son and asked{NEWLINE}him. He actually came to the National{CLEAR}Park with a classmate to do a research{CLEAR}project on Pokémon.{SCROLL}It’s a school activity for learning,{NEWLINE}so there’s no need to worry too much.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "唉？只是普通的课外研究？{NEWLINE}难道是我太多心了吗……{SCROLL}好吧,但愿他没有早恋吧。",
+   "en": "Huh? Just an ordinary school project?{NEWLINE}Was I just overthinking it...{SCROLL}Well, I hope it’s not puppy love.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "希望是我多心了吧。{NEWLINE}我可不想儿子因为早恋{CLEAR}而影响他成为精英训练家。",
+   "en": "I hope I was just overthinking it.{NEWLINE}I don’t want puppy love to get in the{CLEAR}way of my son becoming an Ace Trainer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "我只是想让口呆花和美丽花{NEWLINE}能够经常见面而已,{CLEAR}为什么你们一个个的都要说我早恋！",
+   "en": "I just wanted Weepinbell and Bellossom{NEWLINE}to see each other more often.{CLEAR}Why does everyone keep saying I’ve{CLEAR}got puppy love?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "口呆花『Weee……{SCROLL}口呆花目光呆滞。",
+   "en": "Weepinbell: Weee...{SCROLL}Weepinbell is staring blankly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

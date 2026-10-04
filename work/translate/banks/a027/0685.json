@@ -1,0 +1,119 @@
+{
+ "narc": "a027",
+ "bank": 685,
+ "source": "work/extract/v4/a027/0685.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "稔",
+   "en": "Tully",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "稔 not in 0719; US contact Fisherman Tully (US 0694)"
+  },
+  {
+   "id": 1,
+   "zh": "你也一定想{NEWLINE}成为最强的训练师吧？{CLEAR}那我们交个朋友吧！{SCROLL}对了！我有时会在岸边{NEWLINE}捡到好东西,{CLEAR}你也想不想要一个啊！{SCROLL}来,和我交换一下{NEWLINE}电话号码吧。{VAR:0200:0}",
+   "en": "Hey, you’re trying to be the ultimate{NEWLINE}Trainer, too? That makes us comrades!{SCROLL}If I find any more items by the water,{NEWLINE}I’ll give you some.{SCROLL}Just give me your phone number. {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0694/1"
+  },
+  {
+   "id": 2,
+   "zh": "我捡到好东西的话{NEWLINE}会打电话联系你的！",
+   "en": "You’ll be hearing from me if I find{NEWLINE}something good.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0694/2"
+  },
+  {
+   "id": 3,
+   "zh": "是吗？那我还是{NEWLINE}一个人独吞算了⋯⋯",
+   "en": "Is that so? Then I’ll just have to use{NEWLINE}them myself.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0694/3"
+  },
+  {
+   "id": 4,
+   "zh": "我在岸边捡到什么{NEWLINE}好东西的话就给你吧！{SCROLL}要是你乐意的话,{NEWLINE}我们交换一下电话号码吧？{VAR:0200:0}",
+   "en": "If I find any more items by the water,{NEWLINE}I’ll give you some.{SCROLL}Just give me your phone number.{VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0694/4"
+  },
+  {
+   "id": 5,
+   "zh": "哦,你来了啊！{SCROLL}这是之前说好了的,{NEWLINE}送给你！{SCROLL}",
+   "en": "Hey, there you are!{NEWLINE}Here’s a gift, as promised!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0694/5"
+  },
+  {
+   "id": 6,
+   "zh": "哎？要是你在附近的话,{NEWLINE}直接来找我聊天吧！",
+   "en": "Hey, if you’re nearby, come and chat{NEWLINE}with me in person!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0694/6"
+  },
+  {
+   "id": 7,
+   "zh": "我的{VAR:0100:10}{NEWLINE}又长大了！{SCROLL}我刚抓到它的时候{NEWLINE}它才那么~~点,{CLEAR}想不到现在长到这么大了！{SCROLL}对了,我之前把{VAR:0100:11}{NEWLINE}给打败了,它也很大啊,{CLEAR}有这~~么大！{SCROLL}⋯⋯算了,电话里跟你讲不明白,{SCROLL}下次再聊吧！",
+   "en": "My {VAR:0100:10} has grown again.{SCROLL}It was only about so big when I caught{NEWLINE}it, but now it’s way bigger.{SCROLL}Oh yeah, I KO’d a wild {VAR:0100:11}.{NEWLINE}It was huge--like THIS big, even.{SCROLL}Heh, I guess you can’t tell over{NEWLINE}the phone...{SCROLL}Well, I’ll be seeing you.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0694/7"
+  },
+  {
+   "id": 8,
+   "zh": "我的{VAR:0100:10}{NEWLINE}又长大了！{SCROLL}我刚抓到它的时候{NEWLINE}它才那么~~点,{CLEAR}想不到现在长到这么大了！{SCROLL}对了,之前跑掉的{NEWLINE}{VAR:0100:11}也很大了,{CLEAR}差不多有这~~么大！{SCROLL}⋯⋯算了,电话里跟你讲不明白,{SCROLL}下次再聊吧！",
+   "en": "My {VAR:0100:10} has grown again.{SCROLL}It was only about so big when I caught{NEWLINE}it, but now it’s way bigger.{SCROLL}Oh yeah, I lost a wild {VAR:0100:11}.{NEWLINE}It was huge--like THIS big, even.{SCROLL}Heh, I guess you can’t tell over{NEWLINE}the phone...{SCROLL}Well, I’ll be seeing you.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0694/8"
+  },
+  {
+   "id": 9,
+   "zh": "差不多我们该{NEWLINE}再来一次精灵对战了！{SCROLL}我一直都会在{NEWLINE}{VAR:0104:3}钓鱼的,{CLEAR}有空了就来吧。",
+   "en": "We should get a battle going!{SCROLL}I’ll be fishing on {VAR:0104:3}.{NEWLINE}Swing by if you have time.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0694/9"
+  },
+  {
+   "id": 10,
+   "zh": "你怎么了？迷路了？{NEWLINE}我们的精灵对战{CLEAR}是在{VAR:0104:3}啊！",
+   "en": "What’s wrong? Are you lost?{SCROLL}Our battle is on {VAR:0104:3}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0694/10; ext-review RV-010"
+  },
+  {
+   "id": 11,
+   "zh": "你问我有没有捡到好东西？{NEWLINE}还没呢,{SCROLL}这个跟钓鱼一样,{NEWLINE}心急吃不了热豆腐！",
+   "en": "Have I found anything good?{NEWLINE}Nope, not yet.{SCROLL}It’s like fishing--you need patience.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0694/11"
+  },
+  {
+   "id": 12,
+   "zh": "我在岸边捡到了好东西,{SCROLL}这个送你吧！{NEWLINE}我在{VAR:0104:3}。",
+   "en": "I picked up a cool little thing at the{NEWLINE}water’s edge. As promised, it’s yours.{CLEAR}I’ll be waiting on {VAR:0104:3}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0694/12"
+  },
+  {
+   "id": 13,
+   "zh": "我有好东西要送你,{NEWLINE}你赶快{CLEAR}来{VAR:0104:3}吧。",
+   "en": "I’ve got something good for you.{NEWLINE}Hurry over to {VAR:0104:3}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0694/13"
+  }
+ ]
+}

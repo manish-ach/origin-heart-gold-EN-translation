@@ -1,0 +1,1431 @@
+{
+ "narc": "a027",
+ "bank": 457,
+ "source": "work/extract/v4/a027/0457.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "欢迎光临。{SCROLL}现在,大型标本正在{NEWLINE}旁边的博物馆里展出中。{SCROLL}因此,现在这里可以免费入场！{SCROLL}请您慢慢观赏。",
+   "en": "Welcome!{SCROLL}A large specimen is on display in the{NEWLINE}museum next door right now.{SCROLL}So admission here is free for now!{SCROLL}Please take your time and enjoy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0464/0"
+  },
+  {
+   "id": 1,
+   "zh": "你知道吗？{NEWLINE}精灵化石可以复活成原来的样子。{SCROLL}你想知道各种化石{NEWLINE}可以复活成哪种口袋妖怪吗？",
+   "en": "Did you know? Pokémon fossils can be{NEWLINE}restored to their original form.{SCROLL}Would you like to know which Pokémon{NEWLINE}each fossil can be restored into?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 2,
+   "zh": "如果想复原的话,{NEWLINE}就再来吧……",
+   "en": "Please come by again if you ever want to{NEWLINE}extract Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/2"
+  },
+  {
+   "id": 3,
+   "zh": "那么,{NEWLINE}我帮你复原吧。{SCROLL}请稍稍等待一下！",
+   "en": "I’ll extract it for you.{SCROLL}Come back after a while!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/3"
+  },
+  {
+   "id": 4,
+   "zh": "呀,呀！{SCROLL}让你久候多时的化石,{NEWLINE}已经成功复原了！{SCROLL}名叫{VAR:0100:0}的精灵,{NEWLINE}你要好好照顾哦。{SCROLL}",
+   "en": "Hi, there!{SCROLL}I have extracted a Pokémon from{NEWLINE}your Fossil!{SCROLL}It is called {VAR:0100:0}.{NEWLINE}Take good care of it!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/4"
+  },
+  {
+   "id": 5,
+   "zh": "哎呀,你不能持有{NEWLINE}更多的精灵了。{SCROLL}去电脑整理一下,{NEWLINE}腾出身上空间吧。",
+   "en": "Oops!{NEWLINE}Your party seems full.{SCROLL}Why don’t you go to the PC{NEWLINE}to make room for it?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/5"
+  },
+  {
+   "id": 6,
+   "zh": "什么嘛,{NEWLINE}你没有化石啊。{SCROLL}在月见山或者尼比市里,{NEWLINE}敲一敲岩石,{CLEAR}你可能会有所发现哦。",
+   "en": "What’s this? You don’t have any{NEWLINE}Fossils.{SCROLL}Try smashing rocks on Mt. Moon or{NEWLINE}around Pewter City. You might find{CLEAR}something.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0464/6"
+  },
+  {
+   "id": 7,
+   "zh": "你要把{VAR:0108:0}{NEWLINE}复原吗？{VAR:0200:0}",
+   "en": "Do you want to extract a Pokémon{NEWLINE}from the {VAR:0108:0}? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/7"
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:0103:0}{NEWLINE}得到了{VAR:0100:1}！",
+   "en": "{VAR:0103:0} received{NEWLINE}the {VAR:0100:1}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/8"
+  },
+  {
+   "id": 9,
+   "zh": "要给{VAR:0100:1}{NEWLINE}取个昵称吗？{VAR:0200:0}",
+   "en": "Would you like to give a nickname{NEWLINE}to the {VAR:0100:1} you received? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/9"
+  },
+  {
+   "id": 10,
+   "zh": "听说在尼比市的附近,{NEWLINE}有陨石坠落哦。{SCROLL}我真想把那么罕见的陨石{CLEAR}装饰在我的博物馆里啊……{SCROLL}但是里面好像释放出了奇怪的能量,{CLEAR}我不敢去动它……",
+   "en": "They say that meteorites struck{NEWLINE}somewhere near Pewter City.{SCROLL}We would love to display them here{NEWLINE}in our museum, but...{SCROLL}These meteorites are said to{NEWLINE}emit strange energy and cannot{CLEAR}be carried away...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/10"
+  },
+  {
+   "id": 11,
+   "zh": "我有两个{NEWLINE}最喜欢的地方！{SCROLL}一个是城都地区的{NEWLINE}阿鲁夫遗迹……{SCROLL}另一个是这里的尼比市博物馆！{SCROLL}这里让人心平气和,{NEWLINE}还能感受到历史的浪漫,对吧？",
+   "en": "There are two places that I love!{NEWLINE}One is the Ruins of Alph in Johto...{SCROLL}The other is the Pewter Museum!{NEWLINE}It’s so quiet and makes me feel calm.{SCROLL}Do you feel its admirable history{NEWLINE}silently creeping up on you?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/11"
+  },
+  {
+   "id": 12,
+   "zh": "可喜可贺！{SCROLL}居然能得到{NEWLINE}龙神大人的骨头！",
+   "en": "Congratulations!{SCROLL}You actually got the bones of the great{NEWLINE}Dragon God!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | 龙神大人 'the great Dragon God': context unknown (no other mention in this bank)."
+  },
+  {
+   "id": 13,
+   "zh": "……　……　……{SCROLL}夜空中的点点明光,{NEWLINE}皆是我所不识之石么……",
+   "en": "..................{SCROLL}All those shining stars at night are{NEWLINE}the stones I’ll never get to know...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/13"
+  },
+  {
+   "id": 14,
+   "zh": "大吾『为了自己的信念{NEWLINE}而穷极一生的人,{CLEAR}果然与众不同。{SCROLL}但要比热情的话,{NEWLINE}我也不会输的。{SCROLL}",
+   "en": "Steven: People who dedicate themselves{NEWLINE}to what they believe stand out in{CLEAR}a crowd.{SCROLL}But, my passion is no less than yours.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/14"
+  },
+  {
+   "id": 15,
+   "zh": "啊？{NEWLINE}你拿着的是……{SCROLL}",
+   "en": "Wow!{NEWLINE}The thing you have...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/15"
+  },
+  {
+   "id": 16,
+   "zh": "神奇的石头啊……{SCROLL}石头中好像有什么东西在发光……{SCROLL}蕴藏着神奇秘密的{NEWLINE}幽雅啊……！{SCROLL}这块石头应该给专家研究一下。{SCROLL}",
+   "en": "This stone is...so mysterious!{SCROLL}Something seems to be shining inside...{NEWLINE}The stone is modest...yet hiding{CLEAR}something wonderful!{SCROLL}You should have it studied{NEWLINE}by experts.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/16"
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}把迷之水晶{NEWLINE}交给了专家！{SCROLL}",
+   "en": "{VAR:0103:0} handed the Enigma Stone{NEWLINE}to the researcher!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/17"
+  },
+  {
+   "id": 18,
+   "zh": "我去研究下,{NEWLINE}请稍等一下。{SCROLL}",
+   "en": "I will check it.{NEWLINE}Can you hold on a second?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/18"
+  },
+  {
+   "id": 19,
+   "zh": "呀,呀,久等了！{NEWLINE}稍稍费了点时间,{CLEAR}但进行了一番彻底的研究！{SCROLL}这叫作{VAR:FF00:2}心之水滴{VAR:FF00:0},{NEWLINE}拥有神奇力量的水晶之玉。{SCROLL}",
+   "en": "Thank you for your patience!{NEWLINE}It took me a little while,{CLEAR}but I have confirmed it!{SCROLL}This is an Orb that contains{NEWLINE}what is called {VAR:FF00:2}Soul Dew{VAR:FF00:0}.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/19"
+  },
+  {
+   "id": 20,
+   "zh": "心之水滴是非常罕见的东西。{CLEAR}可以的话,我想仔细研究一下。",
+   "en": "Soul Dew is no ordinary thing{NEWLINE}and is rarely seen.{CLEAR}I would love to study it closely.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/20"
+  },
+  {
+   "id": 21,
+   "zh": "大吾『听说心之水滴是由{NEWLINE}拉帝亚斯和拉帝欧斯的{CLEAR}灵魂化作结晶而形成的……{SCROLL}具有能将它们潜在能力{NEWLINE}发挥出来的力量。{SCROLL}它们的灵魂能和{NEWLINE}心之水滴相互感应……{SCROLL}虽然不知道为什么{NEWLINE}心之水滴会在关东地区,{CLEAR}但它把拉帝亚斯和拉帝欧斯{CLEAR}吸引到了这里。{SCROLL}",
+   "en": "Steven: Soul Dew is said to be the{NEWLINE}solidified spirits of Latias and Latios.{SCROLL}It has the power to bring out the true{NEWLINE}potential of Latias and Latios.{SCROLL}The spirits of these Pokémon and{NEWLINE}Soul Dew are said to call out to{CLEAR}each other...{SCROLL}I don’t know why Soul Dew is in Kanto,{NEWLINE}but it has drawn Latias and Latios here.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0464/21; modernised from US 0464#21"
+  },
+  {
+   "id": 22,
+   "zh": "又细又长,弯弯曲曲的,{NEWLINE}这是……{CLEAR}植物的化石吧？",
+   "en": "Stringy and winding...{NEWLINE}Is this a plant Fossil?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/22"
+  },
+  {
+   "id": 23,
+   "zh": "尖尖细细的,看起来很疼的样子,{NEWLINE}这是……{CLEAR}狂暴者的化石吧？",
+   "en": "It’s a curving, sharp Fossil.{NEWLINE}This may be...{CLEAR}the Fossil of a carnivore?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/23"
+  },
+  {
+   "id": 24,
+   "zh": "又扁又硬,{NEWLINE}这是……{CLEAR}保护身体部分的{CLEAR}化石吧？",
+   "en": "It’s flat and looks hard.{NEWLINE}This may be...{CLEAR}a part that protected its body?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/24"
+  },
+  {
+   "id": 25,
+   "zh": "茶色的树液里{NEWLINE}好像凝结着什么东西！{SCROLL}若能把它取出来复原,{NEWLINE}远古的生物就能……",
+   "en": "Solid amber tree sap has{NEWLINE}something inside!{SCROLL}If you can take it out, you can{NEWLINE}extract a Pokémon from{CLEAR}ancient times...?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/25"
+  },
+  {
+   "id": 26,
+   "zh": "许多小骨头{NEWLINE}居然在排列着{CLEAR}某个精灵的身躯！",
+   "en": "Small bones are put together to form{NEWLINE}some kind of a Pokémon!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/26"
+  },
+  {
+   "id": 27,
+   "zh": "凹凸不平的石头旁{NEWLINE}写着什么……{SCROLL}「这是落在月见山{NEWLINE}　神秘物体,{CLEAR}　恐怕,这就是月之石」",
+   "en": "Something is written beside the rough,{NEWLINE}bumpy stone...{SCROLL}‘A mysterious object that fell on{NEWLINE}Mt. Moon. It is most likely a{CLEAR}Moon Stone.’",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0464/27; ext-review RV-019"
+  },
+  {
+   "id": 28,
+   "zh": "厚重的书{NEWLINE}整齐地排列着！{SCROLL}『化石复原的原理』{NEWLINE}『考古学手册』{CLEAR}『迷惘的精灵们』{CLEAR}『精灵的祖先』{CLEAR}『人类与精灵』{CLEAR}『关东爱情故事』",
+   "en": "Thick books are lined up neatly!{SCROLL}‘The Principles of Fossil Restoration’{CLEAR}‘Archaeology Handbook’{CLEAR}‘Lost Pokémon’{CLEAR}‘Ancestors of Pokémon’{CLEAR}‘People and Pokémon’{CLEAR}‘Kanto Love Story’",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0464/28 | 关东爱情故事 parodies the drama Tokyo Love Story."
+  },
+  {
+   "id": 29,
+   "zh": "博物馆里主要展示{CLEAR}关东地区的化石和生物标本。{SCROLL}看着从地球上消失的精灵的遗物,{SCROLL}请大家缅怀一下{NEWLINE}远古时代的世界吧。",
+   "en": "Our museum mainly displays{NEWLINE}Fossils and specimens from Kanto.{SCROLL}Please enjoy the extinct Pokémon{NEWLINE}through their remembrance, and{CLEAR}step through time to the ancient world.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0464/29"
+  },
+  {
+   "id": 30,
+   "zh": "小刚『不好意思啊训练家，{NEWLINE}弟弟妹妹们吵着要来博物馆,{CLEAR}我就只好带他们过来了。{SCROLL}话说还没有问你的名字呢……{SCROLL}……{SCROLL}小刚『哦哦,叫{VAR:0103:0}啊。",
+   "en": "Brock: Sorry about this, Trainer. My{NEWLINE}little brothers and sisters begged to{CLEAR}come to the museum, so I had to bring{CLEAR}them.{SCROLL}Come to think of it, I never asked your{NEWLINE}name...{SCROLL}...{SCROLL}Brock: Oh, so it’s {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "小刚『真的非常抱歉,{NEWLINE}弟弟妹妹们吵着要来博物馆,{CLEAR}我实在是没有办法。{SCROLL}小刚『刚刚谢谢你{NEWLINE}带尼多朗生病的消息过来。{SCROLL}话说还没有请教你的名字呢……{SCROLL}……{SCROLL}小刚『嗯,来自真新镇的{VAR:0103:0}。",
+   "en": "Brock: I’m really sorry. My little{NEWLINE}brothers and sisters begged to come to{CLEAR}the museum, and I just couldn’t say no.{SCROLL}Brock: And thank you for telling me{NEWLINE}about the sick Nidoran♂ earlier.{SCROLL}Come to think of it, I never asked your{NEWLINE}name...{SCROLL}...{SCROLL}Brock: I see. {VAR:0103:0} from Pallet Town.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; qa-lints: Nidoran♀/♂ per zh 尼多兰/尼多朗 (glossary, RB-D01)"
+  },
+  {
+   "id": 32,
+   "zh": "小刚『那个……{VAR:0103:0}啊,{NEWLINE}弟弟妹妹正玩得高兴,{CLEAR}我实在不忍心打断他们。{SCROLL}小刚『如果你也可以{NEWLINE}陪他们玩一下的话,{CLEAR}我想他们一定会很高兴的。",
+   "en": "Brock: Um... {VAR:0103:0}... My brother and{NEWLINE}sister are having so much fun, I don’t{CLEAR}have the heart to interrupt them.{SCROLL}Brock: If you could play with them for a{NEWLINE}bit, I’m sure they’d be really happy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0457#32; text not kept)"
+  },
+  {
+   "id": 33,
+   "zh": "小刚『哇！{VAR:0103:0}你好厉害,{NEWLINE}我弟弟那么古怪的问题{CLEAR}都可以答上来,{CLEAR}其实我每次{CLEAR}被他问奇怪的问题时,{CLEAR}都很犯愁怎么回答呢,哈哈。",
+   "en": "Brock: Wow! You’re amazing, {VAR:0103:0}!{NEWLINE}You answered even my brother’s oddball{CLEAR}questions.{SCROLL}Honestly, whenever he asks me weird{NEWLINE}questions, I never know how to answer.{CLEAR}Ha ha.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0457#33; text not kept)"
+  },
+  {
+   "id": 34,
+   "zh": "小刚『谢谢你能陪我弟弟妹妹们玩！{NEWLINE}我自己既要当道馆馆主,{CLEAR}还要向饲育家的目标迈进,{CLEAR}同时又要照顾弟弟妹妹,{CLEAR}有时候真的应付不太过来,{CLEAR}所以今天你真是帮了我不少忙。{SCROLL}小刚『弟弟妹妹们已经玩得尽兴了,{NEWLINE}我现在就带他们回道馆,{CLEAR}随时欢迎你来挑战。",
+   "en": "Brock: Thanks for playing with my{NEWLINE}brother and sister!{SCROLL}Between being a Gym Leader, working{NEWLINE}toward becoming a Breeder, and looking{CLEAR}after my siblings...{SCROLL}...sometimes I can barely keep up. You{NEWLINE}really helped me out today.{SCROLL}Brock: The kids have had their fill of{NEWLINE}fun, so I’ll take them back to the Gym{CLEAR}now. Come challenge me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 35,
+   "zh": "小刚『哈哈,请不要在意{NEWLINE}我妹妹的那些奇怪问题,{CLEAR}有时候女孩子就是会胡思乱想。{CLEAR}我也经常被她{CLEAR}问得不知所措呢,哈哈。",
+   "en": "Brock: Ha ha, please don’t mind my{NEWLINE}sister’s strange questions. Girls get{CLEAR}all sorts of funny ideas sometimes.{SCROLL}Her questions leave me at a loss all the{NEWLINE}time, too. Ha ha.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 36,
+   "zh": "博物馆里的东西好神奇啊,{NEWLINE}能来这里玩真的太好了！",
+   "en": "The things in the museum are so cool!{NEWLINE}I’m so glad we came here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 37,
+   "zh": "博物馆里的都是些{NEWLINE}没见过的东西呢,{CLEAR}好喜欢这种新鲜的感觉！",
+   "en": "Everything in the museum is stuff I’ve{NEWLINE}never seen before. I love that feeling!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 38,
+   "zh": "大哥哥,{NEWLINE}我有好多关于化石精灵的问题,{CLEAR}你能给我讲解一下吗？{CLEAR}好奇心得不到满足的话{CLEAR}就完全不想回去呢。{SCROLL}",
+   "en": "Hey, mister! I’ve got lots of questions{NEWLINE}about Fossil Pokémon. Can you explain{CLEAR}them to me?{SCROLL}If I don’t get answers, I won’t want to{NEWLINE}go home at all!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 39,
+   "zh": "大姐姐,{NEWLINE}我有好多关于化石精灵的问题,{CLEAR}你能给我讲解一下吗？{CLEAR}好奇心得不到满足的话{CLEAR}就完全不想回去呢。{SCROLL}",
+   "en": "Hey, miss! I’ve got lots of questions{NEWLINE}about Fossil Pokémon. Can you explain{CLEAR}them to me?{SCROLL}If I don’t get answers, I won’t want to{NEWLINE}go home at all!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 40,
+   "zh": "哎？你也不知道吗？",
+   "en": "Huh? You don’t know either?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 41,
+   "zh": "下列化石精灵中,{NEWLINE}属性弱点最少的是？{SCROLL}",
+   "en": "Which of these Fossil Pokémon has the{NEWLINE}fewest type weaknesses?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 42,
+   "zh": "化石盔",
+   "en": "Kabuto",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 43,
+   "zh": "太古羽虫",
+   "en": "Anorith",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | Answer (Rock/Bug: 3 weaknesses).",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 44,
+   "zh": "化石翼龙",
+   "en": "Aerodactyl",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 45,
+   "zh": "头盖龙",
+   "en": "Cranidos",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 46,
+   "zh": "有多少化石精灵,{NEWLINE}不是岩石系的呢？{SCROLL}",
+   "en": "How many Fossil Pokémon are not Rock{NEWLINE}types?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 47,
+   "zh": "0",
+   "en": "0",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 48,
+   "zh": "1",
+   "en": "1",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 49,
+   "zh": "2",
+   "en": "2",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 50,
+   "zh": "3",
+   "en": "3",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 51,
+   "zh": "下面哪只化石精灵的{NEWLINE}物防种族值是最高的呢？{SCROLL}",
+   "en": "Which of these Fossil Pokémon has the{NEWLINE}highest base Defense?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 52,
+   "zh": "战槌龙",
+   "en": "Rampardos",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 53,
+   "zh": "摇篮百合",
+   "en": "Cradily",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 54,
+   "zh": "太古盔甲",
+   "en": "Armaldo",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 55,
+   "zh": "护城龙",
+   "en": "Bastiodon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | Answer (base Defense 168).",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 56,
+   "zh": "下面哪只精灵不是化石精灵呢？{SCROLL}",
+   "en": "Which of these Pokémon is not a Fossil{NEWLINE}Pokémon?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 57,
+   "zh": "菊石兽",
+   "en": "Omanyte",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 58,
+   "zh": "镰刀盔",
+   "en": "Kabutops",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 59,
+   "zh": "古空棘鱼",
+   "en": "Relicanth",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 60,
+   "zh": "头盖龙",
+   "en": "Cranidos",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 61,
+   "zh": "好像不是这样子吧,{NEWLINE}感觉你说的不太对啊。",
+   "en": "Hmm, I don’t think that’s it. What you{NEWLINE}said doesn’t sound right.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 62,
+   "zh": "嗯嗯,大哥哥说的好有道理,{NEWLINE}今天在博物馆涨了很多知识呢！",
+   "en": "Uh-huh, that makes a lot of sense,{NEWLINE}mister! I learned so much at the museum{CLEAR}today!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 63,
+   "zh": "嗯嗯,大姐姐说的好有道理,{NEWLINE}今天在博物馆涨了很多知识呢！",
+   "en": "Uh-huh, that makes a lot of sense,{NEWLINE}miss! I learned so much at the museum{CLEAR}today!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 64,
+   "zh": "大哥哥,{NEWLINE}我感觉哥哥最近有些奇怪啊,{CLEAR}你跟哥哥都是男生,{CLEAR}能跟我解释一下哥哥的古怪吗？{SCROLL}",
+   "en": "Hey, mister, I think my big brother’s{NEWLINE}been acting weird lately.{SCROLL}You’re both guys, so can you explain{NEWLINE}what’s up with him?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 65,
+   "zh": "大姐姐,{NEWLINE}我感觉哥哥最近有些奇怪啊,{CLEAR}你的年龄比我大,{CLEAR}能跟我解释一下哥哥的古怪吗？{SCROLL}",
+   "en": "Hey, miss, I think my big brother’s been{NEWLINE}acting weird lately.{SCROLL}You’re older than me, so can you{NEWLINE}explain what’s up with him?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 66,
+   "zh": "哥哥最近会偷偷写一些文章,{NEWLINE}你觉得可能是什么呢？{SCROLL}",
+   "en": "Lately my big brother’s been secretly{NEWLINE}writing something. What do you think it{CLEAR}is?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 67,
+   "zh": "对战分析",
+   "en": "Battle analysis",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 68,
+   "zh": "做饭食谱",
+   "en": "Recipes",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 69,
+   "zh": "表白酸词",
+   "en": "Cheesy love lines",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 70,
+   "zh": "饲育心得",
+   "en": "Breeding notes",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 71,
+   "zh": "哥哥最近经常一个人发呆,{NEWLINE}你觉得是为什么呢？{SCROLL}",
+   "en": "Lately my big brother keeps spacing out{NEWLINE}on his own. Why do you think that is?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 72,
+   "zh": "年龄增长,逐渐痴呆",
+   "en": "He’s getting old and senile",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; ext-review B-024",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 73,
+   "zh": "压力太大,放空自己",
+   "en": "Too much stress",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 74,
+   "zh": "坠入爱河,思念某人",
+   "en": "He’s in love",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 75,
+   "zh": "潜心思考,研究战术",
+   "en": "Planning tactics",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 76,
+   "zh": "你觉得我和弟弟的存在,{NEWLINE}对哥哥的生活意味着什么？{SCROLL}",
+   "en": "What do you think my little brother and{NEWLINE}I mean in my big brother’s life?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 77,
+   "zh": "人生路上的拖油瓶",
+   "en": "Dead weight",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 78,
+   "zh": "相亲相爱的家人",
+   "en": "A loving family",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 79,
+   "zh": "不得不承担的责任",
+   "en": "A duty he can’t escape",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 80,
+   "zh": "未来的心灵寄托",
+   "en": "Future comfort",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 81,
+   "zh": "哥哥最近的这些奇怪举动,{NEWLINE}你觉得是因为什么呢？{SCROLL}",
+   "en": "So why do you think my big brother’s{NEWLINE}been acting so strange lately?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 82,
+   "zh": "因为梦想",
+   "en": "Because of his dream",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 83,
+   "zh": "因为缺钱",
+   "en": "Because he’s broke",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 84,
+   "zh": "因为压力",
+   "en": "Because of stress",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 85,
+   "zh": "因为爱情",
+   "en": "Because of love",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 86,
+   "zh": "嗯！？你怎么能{NEWLINE}拒绝解答小女孩的疑惑！",
+   "en": "Hmph?! How can you refuse to answer a{NEWLINE}little girl’s questions?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 87,
+   "zh": "真的是这样吗？{NEWLINE}女人的直觉告诉我,{CLEAR}你好像说的并不对。",
+   "en": "Really? My woman’s intuition tells me{NEWLINE}that’s not right.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 88,
+   "zh": "嗯嗯,我也隐隐约约有这样的感觉,{NEWLINE}今天能得到印证真是太好了！",
+   "en": "Uh-huh, I kind of had that feeling too.{NEWLINE}I’m so glad I got to confirm it today!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 89,
+   "zh": "嘻嘻,{NEWLINE}感觉了解到了期待已久的东西呢！",
+   "en": "Tee-hee! I feel like I finally learned{NEWLINE}what I’ve been wanting to know for{CLEAR}ages!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 90,
+   "zh": "大吾『尼比博物馆的收藏{NEWLINE}真的让人吃惊！{CLEAR}全是我在芳缘博物馆{CLEAR}看不到的展品呢。",
+   "en": "Steven: The Pewter Museum’s collection{NEWLINE}is truly astonishing! These are all{CLEAR}exhibits I’ve never seen at the Hoenn{CLEAR}museum.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 91,
+   "zh": "铁哑铃『Be——Duuuuum！",
+   "en": "Beldum: Be-Duuuuum!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 92,
+   "zh": "大吾『你好,{NEWLINE}我是来自芳缘地区的大吾,{CLEAR}最近在关东旅行学习。{CLEAR}请问你的名字是？{SCROLL}……{SCROLL}大吾『{VAR:0103:0}吗？{NEWLINE}如果不介意的话,{CLEAR}可以跟我印证一下{CLEAR}最近学习的成果吗？",
+   "en": "Steven: Hello. I’m Steven, from the{NEWLINE}Hoenn region. I’ve been traveling{CLEAR}around Kanto to study lately.{SCROLL}May I ask your name?{SCROLL}...{SCROLL}Steven: {VAR:0103:0}? If you don’t mind,{NEWLINE}would you help me put what I’ve learned{CLEAR}to the test?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "大吾『好厉害！{NEWLINE}果然我还有许多需要学习的地方。{CLEAR}听说尼比博物馆的化石{CLEAR}都是从月见山上采集的。{CLEAR}所以我现在想去月见山参观一下。{SCROLL}大吾『{VAR:0103:0}要是有时间的话{NEWLINE}也来月见山看看吧。",
+   "en": "Steven: Impressive! I clearly still have{NEWLINE}a lot to learn.{SCROLL}I hear the Pewter Museum’s fossils were{NEWLINE}all collected on Mt. Moon, so I’d like to{CLEAR}go have a look there now.{SCROLL}Steven: If you have time, {VAR:0103:0}, come{NEWLINE}visit Mt. Moon too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "大吾『那真是太遗憾了。",
+   "en": "Steven: That’s a real shame.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 95,
+   "zh": "大吾『{VAR:0103:0}！{NEWLINE}居然在这里又遇见你。{CLEAR}我最近在关东旅行,{CLEAR}学习了很多新的知识。{CLEAR}你应该也比当时更强了吧,{CLEAR}我们要不要再切磋一下试试呢？",
+   "en": "Steven: {VAR:0103:0}! Fancy meeting you{NEWLINE}here again.{SCROLL}I’ve learned a lot of new things on my{NEWLINE}travels through Kanto. I’m sure you’ve{CLEAR}gotten stronger since then, too.{SCROLL}What do you say to another match?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "你好,{NEWLINE}我是这家博物馆的馆长。{SCROLL}我们博物馆除了展出{NEWLINE}这些稀有化石外,{CLEAR}还会不定期向公众展示{CLEAR}我们博物馆的镇馆之宝。{CLEAR}要问是什么的话……{SCROLL}嘿嘿,{NEWLINE}如果将来哪一天展出的话,{CLEAR}您亲自过来看看就知道了。",
+   "en": "Hello. I’m the director of this museum.{SCROLL}Besides these rare fossils, now and{NEWLINE}then our museum puts its crown jewel on{CLEAR}public display.{SCROLL}As for what it is...{SCROLL}Heh heh... If it’s ever displayed, come{NEWLINE}see it for yourself and you’ll know.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 97,
+   "zh": "啊……你好,{NEWLINE}我跟秀力老师正在做{CLEAR}关于传说中精灵的研究,{CLEAR}老师可是这方面最权威的专家哦。",
+   "en": "Ah... Hello. Professor Hale and I are{NEWLINE}researching Legendary Pokémon. He’s{CLEAR}the top authority in this field, you{CLEAR}know.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 98,
+   "zh": "秀力博士『……{SCROLL}对方正在很认真地看着化石,{NEWLINE}还是不要打扰他了。",
+   "en": "Prof. Hale: ...{SCROLL}He’s studying the fossils very intently.{NEWLINE}Better not disturb him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 99,
+   "zh": "壳之化石",
+   "en": "Dome Fossil",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 100,
+   "zh": "贝之化石",
+   "en": "Helix Fossil",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 101,
+   "zh": "神秘琥珀",
+   "en": "Old Amber",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 102,
+   "zh": "根之化石",
+   "en": "Root Fossil",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 103,
+   "zh": "爪之化石",
+   "en": "Claw Fossil",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s), same position",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 104,
+   "zh": "头盖化石",
+   "en": "Skull Fossil",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s), same position",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 105,
+   "zh": "盾之化石",
+   "en": "Armor Fossil",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 106,
+   "zh": "您如果感兴趣的话,{NEWLINE}随时欢迎再来了解。",
+   "en": "If you’re interested, come back and{NEWLINE}learn more anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 107,
+   "zh": "壳之化石可以复活成化石盔,{NEWLINE}化石盔是水+岩属性的精灵。{CLEAR}化石盔进化成镰刀盔后{CLEAR}拥有不错的物理攻击力。",
+   "en": "The Dome Fossil can be restored into{NEWLINE}Kabuto, a Water/Rock-type Pokémon.{SCROLL}Once Kabuto evolves into Kabutops, it{NEWLINE}has good physical Attack.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 108,
+   "zh": "贝之化石可以复活成菊石兽,{NEWLINE}菊石兽是水+岩属性的精灵。{CLEAR}菊石兽进化成多刺菊石兽后{CLEAR}拥有不错的物理防御力和特殊攻击力。",
+   "en": "The Helix Fossil can be restored into{NEWLINE}Omanyte, a Water/Rock-type Pokémon.{SCROLL}Once Omanyte evolves into Omastar, it{NEWLINE}has good Defense and Sp. Atk.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 109,
+   "zh": "神秘琥珀可以复活成化石翼龙,{NEWLINE}化石翼龙是飞+岩属性的精灵。{CLEAR}化石翼龙的速度极高,{CLEAR}物理攻击力也很不错。",
+   "en": "Old Amber can be restored into{NEWLINE}Aerodactyl, a Flying/Rock-type{CLEAR}Pokémon.{SCROLL}Aerodactyl is extremely fast, and its{NEWLINE}physical Attack is pretty good, too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 110,
+   "zh": "根之化石可以复活成触手百合,{NEWLINE}触手百合是草+岩属性的精灵。{CLEAR}触手百合进化成摇篮百合后{CLEAR}拥有不错的双防和血量。",
+   "en": "The Root Fossil can be restored into{NEWLINE}Lileep, a Grass/Rock-type Pokémon.{SCROLL}Once Lileep evolves into Cradily, it has{NEWLINE}good Defense, Sp. Def and HP.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 111,
+   "zh": "爪之化石可以复活成太古羽虫,{NEWLINE}太古羽虫是草+岩属性的精灵。{CLEAR}太古羽虫进化成太古盔甲后{CLEAR}攻击力和物防都很可观。",
+   "en": "The Claw Fossil can be restored into{NEWLINE}Anorith, a Grass/Rock-type Pokémon.{SCROLL}Once Anorith evolves into Armaldo, both{NEWLINE}its Attack and Defense are impressive.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | D-1195: reverted to match the zh (Says Anorith is 草+岩 (Grass/Rock); it is Bug/Rock); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 112,
+   "zh": "头盖化石可以复活成头盖龙,{NEWLINE}头盖龙是岩属性的精灵。{CLEAR}头盖龙进化成战锤龙后{CLEAR}拥有无可匹敌的物理攻击力。",
+   "en": "The Skull Fossil can be restored into{NEWLINE}Cranidos, a Rock-type Pokémon.{SCROLL}Once Cranidos evolves into Rampardos,{NEWLINE}its physical Attack is unmatched.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 113,
+   "zh": "盾之化石可以复活成铁面龙,{NEWLINE}铁面龙是钢+岩属性的精灵。{CLEAR}铁面龙进化成护城龙后{CLEAR}双防都相当之高。",
+   "en": "The Armor Fossil can be restored into{NEWLINE}Shieldon, a Steel/Rock-type Pokémon.{SCROLL}Once Shieldon evolves into Bastiodon,{NEWLINE}both its Defense and Sp. Def are very{CLEAR}high.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 114,
+   "zh": "再说吧",
+   "en": "Maybe later",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 115,
+   "zh": "欢迎来到尼比市博物馆参观,{NEWLINE}目前我们正在展出镇馆之宝红色宝珠。{CLEAR}机会难得请慢慢欣赏。",
+   "en": "Welcome to the Pewter Museum of{NEWLINE}Science! Our crown jewel, the Red Orb,{CLEAR}is on display right now.{SCROLL}It’s a rare chance, so please take your{NEWLINE}time and enjoy it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 116,
+   "zh": "{VAR:0103:0}『馆长先生,我们接到情报说{NEWLINE}有可疑人员出现在博物馆,{CLEAR}你最近有发现这样的人吗？",
+   "en": "{VAR:0103:0}: Director, we got a tip that{NEWLINE}suspicious people have been seen at the{CLEAR}museum.{SCROLL}Have you noticed anyone like that{NEWLINE}lately?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "哎呀,小刚馆主也是这么说的。{NEWLINE}但是每天来博物馆参观的游客那么多,{CLEAR}真的很难看出到底谁有问题啊。",
+   "en": "Oh dear, Brock said the same thing. But{NEWLINE}so many visitors come every day, it’s{CLEAR}really hard to tell who’s up to no good.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 118,
+   "zh": "{VAR:0103:0}『那博物馆里有什么东西{NEWLINE}是跟传说中的精灵有关吗？",
+   "en": "{VAR:0103:0}: Then is there anything in the{NEWLINE}museum connected to Legendary{CLEAR}Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "跟传说精灵有关的……{NEWLINE}硬要说的话就是{CLEAR}正在展出的红色宝珠了。{CLEAR}据说那是唤醒大地之神的信物。",
+   "en": "Connected to Legendary Pokémon... If I{NEWLINE}had to name something, it would be the{CLEAR}Red Orb on display.{SCROLL}They say it’s the key to awakening the{NEWLINE}god of the land.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 120,
+   "zh": "{VAR:0103:0}『这么重要的东西{NEWLINE}在这个时候展出{CLEAR}是不是有点太冒险了。{CLEAR}能不能先把红色宝珠收起来,{CLEAR}等我们查明潜在的危险后{CLEAR}再考虑展出的事也不迟。",
+   "en": "{VAR:0103:0}: Isn’t it a bit risky to display{NEWLINE}something so important right now?{SCROLL}Could you put the Red Orb away until{NEWLINE}we’ve figured out what the danger is?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "冠军大人你放心吧,{NEWLINE}放置红色宝珠的罩子{CLEAR}是固定在地板上的,{CLEAR}制作罩子的材料也是非常结实,{CLEAR}就算是卡比兽使用终极冲击都撞不碎。{CLEAR}所以无论什么时候展览{CLEAR}红色宝珠都不会有事的。",
+   "en": "Don’t worry, Champion. The case holding{NEWLINE}the Red Orb is fixed to the floor, and{CLEAR}it’s made of extremely tough material.{SCROLL}Not even a Snorlax’s Giga Impact could{NEWLINE}break it. So the Red Orb is perfectly{CLEAR}safe on display, anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 122,
+   "zh": "{VAR:0103:0}『这……真的能万无一失吗？",
+   "en": "{VAR:0103:0}: Is it... really foolproof?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 123,
+   "zh": "{VAR:FF01:200}赤焰松『所有人都离开中央展台！{VAR:FF01:100}{SCROLL}{VAR:FF01:200}火箭队要回收红色宝珠了！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Maxie: Stand back, all of you!{VAR:FF01:100}{SCROLL}{VAR:FF01:200}Team Rocket is taking the Orb!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | seed rejected tm_v3 [line_too_wide] (candidate v3 0457#123; text not kept) | SIZE-200% big text; zh (15 hanzi at 2x) is far wider than the box too. Shortened to fit at 2x. Double-size shout: one line per page (a line break inside {VAR:FF01:200} overflows the box and corrupts memory; heap_audit.md)."
+  },
+  {
+   "id": 124,
+   "zh": "{VAR:0103:0}『赤焰松！",
+   "en": "{VAR:0103:0}: Maxie!",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 125,
+   "zh": "小刚『火箭队果然还是现身了。",
+   "en": "Brock: So Team Rocket showed up after{NEWLINE}all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 126,
+   "zh": "两位淡定,{NEWLINE}他们根本碰不到红色宝珠。",
+   "en": "Stay calm, you two. They can’t even{NEWLINE}touch the Red Orb.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 127,
+   "zh": "赤焰松『嘿嘿,前几天展览的时候{NEWLINE}我们已经来研究过你的这个材料了。{CLEAR}虽然坚硬无比,{CLEAR}但是也不是全无办法。",
+   "en": "Maxie: Heh heh. When you had it on{NEWLINE}display a few days ago, we came and{CLEAR}studied that material of yours.{SCROLL}It may be incredibly hard, but that{NEWLINE}doesn’t mean there’s no way through it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 128,
+   "zh": "{VAR:FF01:200}赤焰松『行动。{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Maxie: Go.{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 129,
+   "zh": "是！",
+   "en": "Yes, sir!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 130,
+   "zh": "鸭嘴炎兽使用火焰放射！",
+   "en": "Magmortar, use Flamethrower!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 131,
+   "zh": "鸭嘴炎兽『Maa——mo！",
+   "en": "Magmortar: Maa-mo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 132,
+   "zh": "小刚『他们是想先给罩子加热{NEWLINE}然后再降温吗？！",
+   "en": "Brock: Are they going to heat up the{NEWLINE}case and then cool it down?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 133,
+   "zh": "啊！那可不行！{NEWLINE}那样罩子会变脆碎掉的！",
+   "en": "Oh no! That’s bad! That’ll make the{NEWLINE}case brittle, and it’ll shatter!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 134,
+   "zh": "{VAR:0103:0}『必须得阻止他们才行。",
+   "en": "{VAR:0103:0}: We have to stop them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 135,
+   "zh": "小刚『{VAR:0103:0},我来帮你！",
+   "en": "Brock: {VAR:0103:0}, I’ll help you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 136,
+   "zh": "赤焰松『哼,休想破坏我们的行动！",
+   "en": "Maxie: Hmph! I won’t let you ruin our{NEWLINE}operation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 137,
+   "zh": "最后一步了,{NEWLINE}雪妖女使用冷冻光线！",
+   "en": "Last step! Froslass, use Ice Beam!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 138,
+   "zh": "雪妖女『Frooo——la！",
+   "en": "Froslass: Frooo-la!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 139,
+   "zh": "不好,罩子碎了！",
+   "en": "Oh no, the case shattered!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 140,
+   "zh": "空！",
+   "en": "---!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | zh 空！ (placeholder/empty line in the heist sequence)."
+  },
+  {
+   "id": 141,
+   "zh": "赤焰松『很好,东西到手了,马上撤退！",
+   "en": "Maxie: Excellent, we have it. Fall back{NEWLINE}at once!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 142,
+   "zh": "{VAR:0103:0}『手脚真快啊,{NEWLINE}这是演练过好多遍了吧。",
+   "en": "{VAR:0103:0}: That was fast. They must have{NEWLINE}rehearsed this plenty of times.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "完蛋了,镇馆之宝红色宝珠啊！",
+   "en": "It’s over! Our crown jewel, the Red{NEWLINE}Orb!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 144,
+   "zh": "小刚『馆长您先别急,{NEWLINE}火箭队拿到红色宝珠之后{CLEAR}可能会去哪唤醒大地之神固拉多呢？",
+   "en": "Brock: Calm down, Director. Now that{NEWLINE}Team Rocket has the Red Orb, where{CLEAR}would they go to awaken Groudon, the{CLEAR}god of the land?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 145,
+   "zh": "{VAR:0103:0}『对,我们只要赶去那里,{NEWLINE}应该还有机会{CLEAR}从火箭队手上把宝珠夺回来。",
+   "en": "{VAR:0103:0}: Right. If we hurry there, we{NEWLINE}may still be able to get the Orb back{CLEAR}from Team Rocket.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "我们博物馆以前做过一个研究,{NEWLINE}月见山最底层的深处的熔岩池{CLEAR}可以与红色宝珠产生共鸣。{CLEAR}所以我们推测大地之神固拉多{CLEAR}应该就沉睡在熔岩池底下。{CLEAR}火箭队如果想使用红色宝珠的话,{CLEAR}应该也会去到那里。",
+   "en": "Our museum once did a study. The lava{NEWLINE}pool deep in the lowest level of{CLEAR}Mt. Moon resonates with the Red Orb.{SCROLL}So we believe Groudon, the god of the{NEWLINE}land, sleeps beneath that lava pool.{SCROLL}If Team Rocket wants to use the Red{NEWLINE}Orb, they’ll surely go there too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-019"
+  },
+  {
+   "id": 147,
+   "zh": "小刚『好的,我们明白了。",
+   "en": "Brock: All right, we understand.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 148,
+   "zh": "小刚『{VAR:0103:0},就按刚才馆长说的,{NEWLINE}咱们现在去月见山最底层的熔岩池,{CLEAR}一定要阻止火箭队唤醒固拉多。",
+   "en": "Brock: {VAR:0103:0}, let’s do what the{NEWLINE}director said and head to the lava pool{CLEAR}at the bottom of Mt. Moon.{SCROLL}We have to stop Team Rocket from{NEWLINE}awakening Groudon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 149,
+   "zh": "我不行了赤焰松大人,{NEWLINE}这个道馆馆主好厉害！",
+   "en": "I can’t hold out, Lord Maxie! This Gym{NEWLINE}Leader is too strong!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 150,
+   "zh": "赤焰松『喂！还没好吗？",
+   "en": "Maxie: Hey! Aren’t you done yet?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 151,
+   "zh": "尼比博物馆的藏品非常丰富,{NEWLINE}各式各样的化石都有。",
+   "en": "The Pewter Museum has a huge{NEWLINE}collection. There are all sorts of{CLEAR}fossils.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 152,
+   "zh": "还好火箭队{NEWLINE}没有打这些珍贵化石的主意。",
+   "en": "Thank goodness Team Rocket didn’t go{NEWLINE}after these precious fossils.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 153,
+   "zh": "这个展台里有块化石,{NEWLINE}是我当年送给尼比博物馆的哦。",
+   "en": "One of the fossils in this display case is{NEWLINE}one I gave to the Pewter Museum years{CLEAR}ago.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 154,
+   "zh": "火箭队真是无法无天,不可原谅！",
+   "en": "Team Rocket is completely lawless. It’s{NEWLINE}unforgivable!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 155,
+   "zh": "好美的红色宝珠,我要把它拍下来！",
+   "en": "What a beautiful Red Orb! I have to{NEWLINE}take a picture of it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 156,
+   "zh": "火箭队刚才犯罪的过程,{NEWLINE}我都用摄像机记录下来了！",
+   "en": "I recorded Team Rocket’s whole robbery{NEWLINE}with my camera!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 157,
+   "zh": "来博物馆参观,真是让我大开眼界。",
+   "en": "Visiting the museum has really opened my{NEWLINE}eyes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 158,
+   "zh": "呜呜呜……火箭队好吓人啊。",
+   "en": "Waaah... Team Rocket is so scary.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 159,
+   "zh": "红色宝珠一年就展出那么几天,{NEWLINE}看到就是赚到。",
+   "en": "The Red Orb is only on display a few{NEWLINE}days a year. Just getting to see it is a{CLEAR}treat.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 160,
+   "zh": "红色宝珠被抢走了,{NEWLINE}这可真是个大事件。",
+   "en": "The Red Orb was stolen! This is huge{NEWLINE}news.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 161,
+   "zh": "我很好奇红色宝珠{NEWLINE}到底是天然形成的石头,{CLEAR}还是人工制造的。",
+   "en": "I wonder if the Red Orb is a natural{NEWLINE}stone or something man-made.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 162,
+   "zh": "如果火箭队{NEWLINE}想用红色宝珠做坏事,{CLEAR}那后果真是不堪设想。",
+   "en": "If Team Rocket uses the Red Orb for{NEWLINE}evil, the consequences don’t bear{CLEAR}thinking about.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 163,
+   "zh": "不愧是镇馆之宝啊,真是漂亮！",
+   "en": "It really is the museum’s crown jewel.{NEWLINE}It’s gorgeous!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 164,
+   "zh": "这帮火箭队,把我推得好疼。",
+   "en": "Those Team Rocket goons shoved me so{NEWLINE}hard. Ow...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 165,
+   "zh": "我们博物馆做过很多{NEWLINE}关于红色宝珠的研究,{CLEAR}所有的研究都表明这颗宝珠{CLEAR}与被称为大地之神的口袋妖怪固拉多{CLEAR}有着非常密切的关系。",
+   "en": "Our museum has done a lot of research{NEWLINE}on the Red Orb.{SCROLL}Every study shows that the Orb is{NEWLINE}closely tied to Groudon, the Pokémon{CLEAR}known as the god of the land.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 166,
+   "zh": "如果固拉多的力量被火箭队盗用,{NEWLINE}那可就糟了。",
+   "en": "If Team Rocket steals Groudon’s power,{NEWLINE}we’ll be in real trouble.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 167,
+   "zh": "小刚『{VAR:0103:0}你也是听说了{NEWLINE}火箭队盯上了尼比市博物馆的传闻{CLEAR}才来的吧？{CLEAR}馆长先生就在我身边,{CLEAR}你有什么具体的是可以跟他打听。",
+   "en": "Brock: {VAR:0103:0}, you heard the rumor{NEWLINE}that Team Rocket is after the Pewter{CLEAR}Museum too, right?{SCROLL}The director is right here beside me. If{NEWLINE}you have any questions, you can ask{CLEAR}him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 168,
+   "zh": "唉,都怪我太大意{NEWLINE}才让火箭队抢走了红色宝珠。",
+   "en": "Sigh... It’s all because I was careless{NEWLINE}that Team Rocket got away with the Red{CLEAR}Orb.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 169,
+   "zh": "欢迎光临。{SCROLL}现在,镇馆之宝红色宝珠{NEWLINE}正在博物馆里展出中。{SCROLL}因此,现在这里可以免费入场！{SCROLL}请您慢慢观赏。",
+   "en": "Welcome!{SCROLL}Our crown jewel, the Red Orb, is on{NEWLINE}display in the museum right now.{SCROLL}So admission is free for now!{SCROLL}Please take your time and enjoy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0464/0 | seed rejected us [ambiguous US match] (candidate US 0464#0; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 170,
+   "zh": "火、火箭队……好……好可怕。",
+   "en": "T-Team Rocket... S-so scary...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 171,
+   "zh": "红色宝珠交给冠军大人{NEWLINE}您这样的训练家保管,{CLEAR}才能万无一失啊。{CLEAR}以后尼比市博物馆{CLEAR}得找个其他的镇馆之宝了。",
+   "en": "The Red Orb is safest in the hands of a{NEWLINE}Trainer like you, Champion.{SCROLL}From now on, the Pewter Museum will{NEWLINE}have to find itself a new crown jewel.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 172,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | zh 空 (empty placeholder)."
+  }
+ ]
+}

@@ -1,0 +1,612 @@
+{
+ "narc": "a027",
+ "bank": 353,
+ "source": "work/extract/v4/a027/0353.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "这里是精灵联盟{NEWLINE}冠军之路入口",
+   "en": "Pokémon League{NEWLINE}Victory Road Entrance",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0360/0"
+  },
+  {
+   "id": 1,
+   "zh": "年轻的训练家,{NEWLINE}我这有不少通过特殊途径{CLEAR}才能得到的好玩意儿,{CLEAR}你看看有你需要的吗？",
+   "en": "Hey there, young Trainer. I’ve got{NEWLINE}plenty of nice stuff here that you can{CLEAR}only get through... special channels.{SCROLL}See anything you need?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 2,
+   "zh": "伤药{NEWLINE}300元",
+   "en": "Potion{NEWLINE}$300",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 3,
+   "zh": "好伤药{NEWLINE}1800元",
+   "en": "Super Potion{NEWLINE}$1800",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 4,
+   "zh": "技能机17　保护{NEWLINE}3000元",
+   "en": "TM17 Protect{NEWLINE}$3000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags fullwidth_chars",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 5,
+   "zh": "PP量回复{NEWLINE}5000元",
+   "en": "Elixir{NEWLINE}$5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 6,
+   "zh": "不买了",
+   "en": "No thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s), same position",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 7,
+   "zh": "你要是觉得我这儿的东西好,{NEWLINE}欢迎再来买啊。",
+   "en": "If you like my goods, come back and buy{NEWLINE}some more.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 8,
+   "zh": "一手交钱、一手交货,{NEWLINE}这是你的东西,请拿好。",
+   "en": "Cash in one hand, goods in the other.{NEWLINE}Here’s your stuff. Hang on to it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 9,
+   "zh": "你带的钱不够！",
+   "en": "You don’t have enough money!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 10,
+   "zh": "你看还需要再来点什么？{SCROLL}",
+   "en": "Anything else you need?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 11,
+   "zh": "阿响『这里是？{SCROLL}",
+   "en": "Ethan: Where are we...?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0360/11"
+  },
+  {
+   "id": 12,
+   "zh": "琴音『这里是？{SCROLL}",
+   "en": "Lyra: Where are we...?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0360/12"
+  },
+  {
+   "id": 13,
+   "zh": "阿响『桐树林消失了！？{SCROLL}……看样子不是,{NEWLINE}是我们移动到{CLEAR}其他地方了……{SCROLL}",
+   "en": "Ethan: Ilex Forest has disappeared!{SCROLL}...That’s not it.{NEWLINE}It’s more like we have been{CLEAR}transported somewhere else...?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0360/13"
+  },
+  {
+   "id": 14,
+   "zh": "琴音『桐树林消失了？{SCROLL}……看样子不是,{NEWLINE}我感觉是咱们移动到{CLEAR}其他地方了……{SCROLL}",
+   "en": "Lyra: Ilex Forest has disappeared!{SCROLL}...That’s not it.{NEWLINE}It’s more like we have been{CLEAR}transported somewhere else...?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0360/14"
+  },
+  {
+   "id": 15,
+   "zh": "好奇怪啊,{VAR:0103:0}！{SCROLL}打开手机的收音机后,{NEWLINE}广播说了３年前的日期！{SCROLL}",
+   "en": "{VAR:0103:0}, something is strange!{SCROLL}I heard the radio mentioning{NEWLINE}the date from three years ago!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0360/15"
+  },
+  {
+   "id": 16,
+   "zh": "好奇怪啊,{VAR:0103:0}！{SCROLL}打开手机的收音机后,{NEWLINE}广播说了３年前的日期！{SCROLL}",
+   "en": "{VAR:0103:0}, something is strange!{SCROLL}I heard the radio mentioning{NEWLINE}the date from three years ago!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0360/16"
+  },
+  {
+   "id": 17,
+   "zh": "难不成……那个精灵……{NEWLINE}雪拉比？{SCROLL}噢！{NEWLINE}原因在雪拉比呀！{SCROLL}我爷爷说过的哦{NEWLINE}说雪拉比具有{VAR:FF00:1}穿越时空{VAR:FF00:0},{CLEAR}这是种奇异的力量,{CLEAR}能够自由在时空中穿梭！{SCROLL}肯定是我们被雪拉比{NEWLINE}带回到过去的时代了！{SCROLL}",
+   "en": "Is that...am I looking at...{NEWLINE}Celebi?{SCROLL}That explains it!{NEWLINE}Celebi must have caused all this!{SCROLL}My grandpa once told me that{NEWLINE}Celebi can travel through time using{CLEAR}its mystic power called {VAR:FF00:1}Time Travel{VAR:FF00:0}!{SCROLL}Celebi must have taken us back in time!{NEWLINE}Literally!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0360/17; modernised from US 0360#17"
+  },
+  {
+   "id": 18,
+   "zh": "难不成……那个精灵……{NEWLINE}雪拉比？{SCROLL}一定是！{NEWLINE}原因在雪拉比哦！{SCROLL}我爷爷说过的哦{NEWLINE}说雪拉比具有{VAR:FF00:1}穿越时空{VAR:FF00:0},{CLEAR}这是种奇异的力量,{CLEAR}能够自由在时空中穿梭！{SCROLL}肯定是咱们被雪拉比{NEWLINE}带回到过去的时代了！{SCROLL}",
+   "en": "Is that...am I looking at...{NEWLINE}Celebi?{SCROLL}That explains it!{NEWLINE}Celebi must have caused all this!{SCROLL}My grandpa once told me that{NEWLINE}Celebi can travel through time using{CLEAR}its mystic power called {VAR:FF00:1}Time Travel{VAR:FF00:0}!{SCROLL}Celebi must have taken us back in time!{NEWLINE}Literally!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0360/18; modernised from US 0360#18"
+  },
+  {
+   "id": 19,
+   "zh": "有人哦,{VAR:0103:0}！{NEWLINE}看看去！{SCROLL}",
+   "en": "{VAR:0103:0}, there is someone else{NEWLINE}here besides us! Let’s go find out who!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0360/19"
+  },
+  {
+   "id": 20,
+   "zh": "有人哦,{VAR:0103:0}！{NEWLINE}看看去！{SCROLL}",
+   "en": "{VAR:0103:0}, there is someone else{NEWLINE}here besides us! Let’s go find out who!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0360/20"
+  },
+  {
+   "id": 21,
+   "zh": "阿响『什么呀,那家伙！{NEWLINE}好过分啊！{SCROLL}但是那两个人的对话……{NEWLINE}到底什么意思？{SCROLL}{VAR:FF00:1}火箭队{VAR:FF00:0}复活？{SCROLL}我记得火箭队３年前{NEWLINE}被关东地区的孩子们{CLEAR}消灭了啊……{SCROLL}这么说的话,{NEWLINE}这里果然是３年前啊！{SCROLL}",
+   "en": "Ethan: Who does he think he is?{NEWLINE}That was unnecessary!{SCROLL}But what were they talking about?{NEWLINE}The revival of {VAR:FF00:1}Team Rocket{VAR:FF00:0}...?{SCROLL}They say that Team Rocket was{NEWLINE}removed from the Kanto region{CLEAR}by a child three years ago.{SCROLL}So this really is three years ago!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0360/21"
+  },
+  {
+   "id": 22,
+   "zh": "琴音『什么嘛,那家伙！{NEWLINE}真过分啊~！{SCROLL}但是那两个人的对话……{NEWLINE}到底什么意思？{SCROLL}{VAR:FF00:1}火箭队{VAR:FF00:0}复活？{SCROLL}我记得火箭队３年前{NEWLINE}被关东地区的孩子们{CLEAR}消灭了啊……{SCROLL}这么说的话,{NEWLINE}这里果然是３年前呀！{SCROLL}",
+   "en": "Lyra: Who does he think he is?{NEWLINE}That was unnecessary!{SCROLL}But what were they talking about?{NEWLINE}The revival of {VAR:FF00:1}Team Rocket{VAR:FF00:0}...?{SCROLL}They say that Team Rocket was{NEWLINE}removed from the Kanto region{CLEAR}by a child three years ago.{SCROLL}So this really is three years ago!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0360/22"
+  },
+  {
+   "id": 23,
+   "zh": "啊！和刚才一样……{SCROLL}是雪拉比的{VAR:FF00:1}穿越时空{VAR:FF00:0}{NEWLINE}啊。{SCROLL}",
+   "en": "Oh no! It’s happening again...!{SCROLL}It’s Celebi’s {VAR:FF00:1}Time Travel{VAR:FF00:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0360/23; modernised from US 0360#23"
+  },
+  {
+   "id": 24,
+   "zh": "啊！和刚才一样……{SCROLL}是雪拉比的{VAR:FF00:1}穿越时空{VAR:FF00:0}{NEWLINE}啊。{SCROLL}",
+   "en": "Oh no! It’s happening again...!{SCROLL}It’s Celebi’s {VAR:FF00:1}Time Travel{VAR:FF00:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0360/24; modernised from US 0360#24"
+  },
+  {
+   "id": 25,
+   "zh": "每年石英大会期间,{NEWLINE}我都会像这样一边钓鱼,{CLEAR}一边悠闲地看着{CLEAR}大批训练家们忙碌地从这儿穿过。{SCROLL}虽然他们都是{NEWLINE}常人仰望的高级训练家,{CLEAR}但他们中的大多数人{CLEAR}每年那徒劳无功、白忙一场的心情,{SCROLL}跟我这个钓鱼老儿{NEWLINE}次次空军的心情{CLEAR}是何其的相似！{SCROLL}所以说人和人之间{NEWLINE}哪怕身份地位能力不同,{CLEAR}也是能够体会对方心情的。{SCROLL}你可不要当那种发达之后{NEWLINE}就否认普通人能跟你共情的{CLEAR}所谓上位者啊！",
+   "en": "Every year during the Indigo{NEWLINE}Conference, I sit here fishing like{CLEAR}this...{SCROLL}...and lazily watch crowds of Trainers{NEWLINE}hurrying past.{SCROLL}They’re all Senior Trainers that{NEWLINE}ordinary folks look up to...{SCROLL}...but every year most of them go home{NEWLINE}with nothing to show for all their{CLEAR}effort.{SCROLL}And that feeling is just like how an old{NEWLINE}angler like me feels when he gets{CLEAR}skunked yet again!{SCROLL}So you see, even when people differ in{NEWLINE}status or ability, they can still{CLEAR}understand how the other feels.{SCROLL}Don’t you turn into one of those big{NEWLINE}shots who make it and then act like{CLEAR}ordinary folks can’t relate to them!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "空军 = fishing slang for catching nothing ('skunked')."
+  },
+  {
+   "id": 26,
+   "zh": "看你也眼巴巴地望着池塘,{NEWLINE}是不是也想加入到{CLEAR}钓鱼大军中来啊？{SCROLL}来,你试试这个。",
+   "en": "I see you staring at the pond too. Want{NEWLINE}to join the great army of anglers?{SCROLL}Here, give this a try.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 27,
+   "zh": "唉,次次都空军的心情{NEWLINE}可是一点都不好啊……",
+   "en": "Sigh... Coming home empty-handed every{NEWLINE}single time is no fun at all...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 28,
+   "zh": "小绿『{VAR:0103:0},你果然跟来了,{NEWLINE}刚刚我被精灵联盟的门卫挡住,{CLEAR}说什么只有在石英大会上{CLEAR}才能挑战精灵联盟四天王。{CLEAR}而要参加石英大会,{CLEAR}则必须收集到至少8枚徽章。{CLEAR}很显然我们还不够资格。",
+   "en": "Blue: {VAR:0103:0}. Knew you’d follow me.{SCROLL}The Pokémon League guard just stopped{NEWLINE}me. He said you can only take on the{CLEAR}Elite Four at the Indigo Conference.{SCROLL}And to enter the Indigo Conference,{NEWLINE}you need at least eight Badges.{SCROLL}Guess neither of us makes the cut yet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | Blue on Route 22: #28/#29 vs #30/#31 are two variants (story timing)."
+  },
+  {
+   "id": 29,
+   "zh": "小绿『也罢,{NEWLINE}就在这里跟你比试一下吧{VAR:0103:0},{CLEAR}让我看看你有多少进步！",
+   "en": "Blue: Oh well. Let’s have a battle right{NEWLINE}here, {VAR:0103:0}.{SCROLL}Show me how much you’ve improved!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 30,
+   "zh": "小绿『{VAR:0103:0},你也来了呀,{NEWLINE}刚刚我去问过了,{CLEAR}门卫说只有在石英大会上{CLEAR}才能挑战精灵联盟四天王。{CLEAR}而现在还不到石英大会的时间。",
+   "en": "Blue: {VAR:0103:0}, you made it too. I just{NEWLINE}went and asked.{SCROLL}The guard said you can only take on the{NEWLINE}Elite Four at the Indigo Conference.{SCROLL}And it’s not Conference time yet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 31,
+   "zh": "小绿『既然没有办法参加大会,{NEWLINE}不如咱们就互相比试一下吧！",
+   "en": "Blue: Since we can’t enter the{NEWLINE}Conference, how about we battle each{CLEAR}other instead!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 32,
+   "zh": "小绿『又让你撞了大运……{NEWLINE}不过感觉你确实变强了。{SCROLL}我现在要去收集徽章,{NEWLINE}争取早日回来参加石英大会,{CLEAR}你也快去吧。",
+   "en": "Blue: Lucky again... But I’ll admit it,{NEWLINE}you really have gotten stronger.{SCROLL}I’m off to collect Badges so I can come{NEWLINE}back for the Indigo Conference ASAP.{SCROLL}You’d better hurry up too. Smell ya{NEWLINE}later!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 33,
+   "zh": "小绿『很好,感觉我们都进步了。{NEWLINE}期待与你一起参加石英大会的那一天！",
+   "en": "Blue: Good. Looks like we’ve both{NEWLINE}improved.{SCROLL}I can’t wait for the day we enter the{NEWLINE}Indigo Conference together!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 34,
+   "zh": "火箭队正在执行任务,{NEWLINE}闲杂人让开！",
+   "en": "Team Rocket is on a mission. Out of the{NEWLINE}way, nobody!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 35,
+   "zh": "什么？没听说过火箭队？{SCROLL}也对,等你被打败后,{NEWLINE}别人与不会听说到火箭队了。",
+   "en": "What? You’ve never heard of Team{NEWLINE}Rocket?{SCROLL}Figures. And once I’ve beaten you,{NEWLINE}nobody’s gonna hear about Team Rocket{CLEAR}from you either.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 36,
+   "zh": "要不是因为出门仓促,{NEWLINE}把强力精灵落在了实验室里,{CLEAR}就凭你这三两下子{CLEAR}根本不是我的对手。",
+   "en": "If I hadn’t left in such a rush and{NEWLINE}forgotten my strong Pokémon at the{CLEAR}lab...{SCROLL}...a lightweight like you would be no{NEWLINE}match for me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 37,
+   "zh": "猴怪对你表示非常喜欢,{NEWLINE}要收服它吗？",
+   "en": "Mankey really likes you. Catch it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 38,
+   "zh": "皮卡丘『Pika——！{NEWLINE}皮卡丘非常不安！",
+   "en": "Pikachu: Pika-!{SCROLL}Pikachu is very uneasy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 39,
+   "zh": "真的是谢谢你了,{NEWLINE}一路追它到这里,{CLEAR}终于把它给堵住了。{SCROLL}看它这个样子,{NEWLINE}应该已经精疲力竭了。",
+   "en": "Thanks a lot! I chased it all the way{NEWLINE}here, and now I’ve finally got it{CLEAR}cornered.{SCROLL}Look at it. It must be worn out by now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 40,
+   "zh": "{VAR:0103:0}『等等！",
+   "en": "{VAR:0103:0}: Wait!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 41,
+   "zh": "妈的,我要让这个混蛋{NEWLINE}为自己闯的那些祸{CLEAR}付出血的代价。",
+   "en": "Dammit, I’m gonna make this little{NEWLINE}bastard pay in blood for all the trouble{CLEAR}it’s caused.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 42,
+   "zh": "{VAR:0103:0}『喂！{NEWLINE}就算它恶作剧给人们带来困扰,{CLEAR}也不用这样吓它吧！",
+   "en": "{VAR:0103:0}: Hey! Even if its pranks cause{NEWLINE}people trouble...{SCROLL}...there’s no need to terrify it like{NEWLINE}that!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 43,
+   "zh": "我不是吓他,{NEWLINE}我是真的想弄死这个畜生。{CLEAR}它弄坏过我心爱的手办,{CLEAR}把我的充气娃娃咬漏气,{CLEAR}偷喝我家刚买的快乐水,{CLEAR}还在我家门口大小便,{CLEAR}我都不知道踩过几次它的米田共！{CLEAR}这狗东西死不足惜！",
+   "en": "I’m not trying to scare it. I really{NEWLINE}want to kill the beast.{SCROLL}It broke my precious figurines, bit a{NEWLINE}hole in my blow-up doll, and drank the{CLEAR}soda I’d just bought...{SCROLL}And it relieves itself right outside my{NEWLINE}door! I’ve lost count of how many times{CLEAR}I’ve stepped in its crap!{SCROLL}This little shit deserves to die!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 充气娃娃 (blow-up doll), 米田共 (crap), 狗东西 kept at strength."
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0103:0}『呃……它是有点过分了,{NEWLINE}我会想办法好好跟它沟通的。{CLEAR}所以也请你消消气,{CLEAR}不要跟一只口袋妖怪这么较真。",
+   "en": "{VAR:0103:0}: Um... It did go a bit far. I’ll{NEWLINE}find a way to have a good talk with it.{SCROLL}So please calm down. Don’t get so{NEWLINE}worked up over a Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 45,
+   "zh": "今天它能恶作剧,{NEWLINE}明天它就可能攻击人类,{CLEAR}后天就可能有人因它而死！",
+   "en": "Today it’s playing pranks. Tomorrow it{NEWLINE}could be attacking people.{SCROLL}The day after, someone could end up{NEWLINE}dead because of it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 46,
+   "zh": "{VAR:0103:0}『你这么说就太夸张了,{NEWLINE}口袋妖怪的错误行为,{CLEAR}经过人类的正确引导,{CLEAR}就不会再犯了。{SCROLL}这也是我们这些训练家{NEWLINE}存在的意义之一啊。{SCROLL}{VAR:0103:0}『我保证跟它沟通过之后,{NEWLINE}它就不再给市民们添麻烦了。",
+   "en": "{VAR:0103:0}: Now you’re exaggerating. When{NEWLINE}a Pokémon misbehaves, it won’t do it{CLEAR}again once people guide it the right{CLEAR}way.{SCROLL}That’s one of the reasons Trainers like{NEWLINE}us exist.{SCROLL}{VAR:0103:0}: I promise, once I’ve talked{NEWLINE}with it, it won’t bother the townspeople{CLEAR}anymore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 47,
+   "zh": "你拿什么保证？{NEWLINE}你的头？{CLEAR}我真恨自己的弱小,{CLEAR}没法把你和这个小畜生一起收拾了。{CLEAR}但是你记住,{CLEAR}人类因口袋妖怪而受到的伤害,{CLEAR}都是你们这些{CLEAR}假仁假义的圣母害的。",
+   "en": "What are you going to promise with?{NEWLINE}Your head?{SCROLL}I hate that I’m too weak to deal with{NEWLINE}both you and this little beast.{SCROLL}But remember this: every time a Pokémon{NEWLINE}hurts a human, it’s the fault of{CLEAR}sanctimonious bleeding hearts like you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 48,
+   "zh": "猴怪『Mon——！{NEWLINE}猴怪非常生气！",
+   "en": "Mankey: Mon-!{SCROLL}Mankey is furious!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 49,
+   "zh": "小霞『哎呀抱歉,我正在钓鱼呢。{NEWLINE}你是……{SCROLL}……{SCROLL}小霞『来自真新镇的{VAR:0103:0}啊。{SCROLL}小霞『你好呀,{NEWLINE}我是来自华蓝市的小霞,{CLEAR}是世界第一的美少女哟。",
+   "en": "Misty: Oh, sorry, I’m fishing right now.{NEWLINE}And you are...{SCROLL}...{SCROLL}Misty: {VAR:0103:0} from Pallet Town, huh?{SCROLL}Misty: Hi there! I’m Misty from Cerulean{NEWLINE}City, the most beautiful girl in the{CLEAR}world!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 50,
+   "zh": "小霞『你能来到湖边,{NEWLINE}就是说你也喜欢水系口袋妖怪吧？{SCROLL}",
+   "en": "Misty: If you came to the lake, you must{NEWLINE}like Water-type Pokémon too, right?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 51,
+   "zh": "小霞『什么嘛！{NEWLINE}你竟然看不起水系口袋妖怪！{CLEAR}这就让你见识一下它们的厉害！",
+   "en": "Misty: What?! You look down on{NEWLINE}Water-type Pokémon?!{SCROLL}I’ll show you just how tough they are!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 52,
+   "zh": "小霞『嗯嗯,就是嘛！{NEWLINE}水系口袋妖怪优雅有强大,{CLEAR}简直就是完美的精灵！",
+   "en": "Misty: Mm-hmm, exactly! Water-type{NEWLINE}Pokémon are elegant and strong.{SCROLL}They’re just perfect!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 53,
+   "zh": "小霞『看不出来你这个{NEWLINE}嘴硬的家伙还挺厉害的。{CLEAR}倒是有点让人刮目相看了。{CLEAR}不过在我心目中{CLEAR}果然还是水系精灵最棒了！",
+   "en": "Misty: Who’d have guessed a stubborn{NEWLINE}loudmouth like you would be so strong?{SCROLL}I have to admit, I’m impressed. But in{NEWLINE}my heart, Water types are still the{CLEAR}best!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 54,
+   "zh": "小霞『我现在要赶回华蓝市了,{NEWLINE}以后有机会再见吧！",
+   "en": "Misty: I’ve got to hurry back to{NEWLINE}Cerulean City now. See you around{CLEAR}sometime!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 55,
+   "zh": "小霞『不可能吧？{NEWLINE}水系口袋妖怪明明那么可爱。{CLEAR}你也是喜欢水系口袋妖怪的对吧？{SCROLL}",
+   "en": "Misty: No way! Water-type Pokémon are{NEWLINE}so cute!{SCROLL}You like Water-type Pokémon too, don’t{NEWLINE}you?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 56,
+   "zh": "小霞『你能喜欢水系精灵,{NEWLINE}说明咱俩还是很投缘的。{SCROLL}小霞『我现在要赶回华蓝市了,{NEWLINE}以后有机会再聊呀！",
+   "en": "Misty: If you like Water types, I guess{NEWLINE}we really do hit it off.{SCROLL}Misty: I’ve got to hurry back to{NEWLINE}Cerulean City now. Let’s chat again{CLEAR}sometime!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 57,
+   "zh": "宝石海星『Star——mi！",
+   "en": "Starmie: Star-mi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 58,
+   "zh": "小霞『哈哈,终于上钩啦！",
+   "en": "Misty: Ha ha, a bite at last!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 59,
+   "zh": "要去阻止吗？",
+   "en": "Stop him?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | Branch: choose whether to stop the man. #60–63 = not stopping (the man kills it); #40–48, #37 = stopping (battle, then catch)."
+  },
+  {
+   "id": 60,
+   "zh": "去死吧！",
+   "en": "Die!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 61,
+   "zh": "啪！",
+   "en": "Whack!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 62,
+   "zh": "哈哈哈,死了死了！{NEWLINE}真是痛快啊！",
+   "en": "Ha ha ha! It’s dead, it’s dead! That{NEWLINE}felt great!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 63,
+   "zh": "真是谢谢你了,为我……{NEWLINE}哦不,为常磐市除去了一大害啊！{CLEAR}功德无量,功德无量哈哈哈。",
+   "en": "Thanks so much! You’ve rid me... Er, I{NEWLINE}mean, you’ve rid Viridian City of a real{CLEAR}menace!{SCROLL}What a good deed! Ha ha ha!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 64,
+   "zh": "离石英高原越来越近了,{NEWLINE}我此刻的心情简直无比激动！",
+   "en": "Indigo Plateau is getting closer and{NEWLINE}closer. I’m so excited I can hardly{CLEAR}stand it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 65,
+   "zh": "怎么办,怎么办！{NEWLINE}就要参加石英大会了,好紧张啊！",
+   "en": "What do I do, what do I do?! The Indigo{NEWLINE}Conference is almost here. I’m so{CLEAR}nervous!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 66,
+   "zh": "唉……我已经连续3年{NEWLINE}倒在石英大会的预赛阶段了,{CLEAR}今年还有参加的必要吗……",
+   "en": "Sigh... I’ve been knocked out in the{NEWLINE}Indigo Conference preliminaries three{CLEAR}years in a row.{SCROLL}Is there even any point in entering this{NEWLINE}year...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 67,
+   "zh": "加油,巨钳蟹！{NEWLINE}咱们一定可以的！",
+   "en": "Go, Kingler! We can do this!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 68,
+   "zh": "巨钳蟹『Kin——ler！",
+   "en": "Kingler: Kin-gler!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags fullwidth_chars"
+  },
+  {
+   "id": 69,
+   "zh": "石英大会是所有训练家们的盛会,{NEWLINE}为了庆祝这场盛会召开,{CLEAR}我特意练习了几首歌,你要听听吗？",
+   "en": "The Indigo Conference is a grand{NEWLINE}festival for every Trainer.{SCROLL}To celebrate, I practiced a few songs.{NEWLINE}Want to hear them?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 70,
+   "zh": "[zh redacted: song lyrics; sha256:32de24e9fe24645fa1c1af86a74ebbb695ec6ea5029cff7f1c382ff9254c1ffc]",
+   "en": "♪ La la la, la la la! ♪{SCROLL}Out comes the Mainland Chinese opening{NEWLINE}of the Pokémon anime, a bright, bouncy{CLEAR}song about soaring skies and{CLEAR}pocket-sized best friends!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Song (Mainland Chinese anime OP): lyrics not translated; replaced with an original description per the coordinator song rule. | zh redacted: song lyrics (zh_redact.py)"
+  },
+  {
+   "id": 71,
+   "zh": "我还练习了其他歌曲,{NEWLINE}你还要听听吗？{SCROLL}",
+   "en": "I practiced some other songs too. Want{NEWLINE}to hear more?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 72,
+   "zh": "[zh redacted: song lyrics; sha256:ed15456c444bdbb3159710fd6e88860967475845f5ccb082118bf867ed064f3b]",
+   "en": "♪ Hey! Hey! Hey! ♪{SCROLL}Now it’s the Hong Kong Cantonese{NEWLINE}opening, a punchy anthem about training{CLEAR}day and night and battling side by side!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Song (Cantonese (HK) anime OP): lyrics not translated; replaced with an original description per the coordinator song rule. | zh redacted: song lyrics (zh_redact.py)"
+  },
+  {
+   "id": 73,
+   "zh": "[zh redacted: song lyrics; sha256:c155c46ba1719517617c0b1b47d954779c363044fb565a5af4c835432e720676]",
+   "en": "♪ Here we go! ♪{SCROLL}Last up is the classic Japanese opening,{NEWLINE}sung in Chinese: a kid leaving Pallet{CLEAR}Town to become the greatest Pokémon{CLEAR}star!{SCROLL}The song goes on and on, verse after{NEWLINE}verse, with a whole lot of feeling...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Song (Chinese version of the JP OP Mezase Pokémon Master): lyrics not translated; replaced with an original description per the coordinator song rule. | zh redacted: song lyrics (zh_redact.py)"
+  },
+  {
+   "id": 74,
+   "zh": "怎么样,这些歌有没有{NEWLINE}勾起你的什么回忆呢？",
+   "en": "Well? Did these songs bring back any{NEWLINE}memories?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  }
+ ]
+}

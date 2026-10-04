@@ -1,0 +1,650 @@
+{
+ "narc": "a027",
+ "bank": 605,
+ "source": "work/extract/v4/a027/0605.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "小松『欢迎{VAR:0103:0}先生{NEWLINE}来我们缘朱市作客。{CLEAR}从很久以前这里的人们{CLEAR}就把凤王当成神来祭拜。{CLEAR}而且,当人们需要保护时,{CLEAR}传说中的凤王会降临到{CLEAR}拥有真正实力的训练家面前{CLEAR}与他一起并肩作战。{CLEAR}我一直相信着这个美丽的传说,{CLEAR}并从懂事开始,{CLEAR}就为了成为凤王的训练家修行。{SCROLL}小松『{VAR:0103:0}先生您是{NEWLINE}公认的最强训练家,{CLEAR}又是曾经击败了火箭队的英雄,{CLEAR}按理说您最有资格成为凤王的训练家。{CLEAR}但我不能因为您的存在{CLEAR}就放弃一直以来的努力和梦想,{CLEAR}所以请允许我向您发起挑战。",
+   "en": "Morty: Welcome to Ecruteak City,{NEWLINE}Mr. {VAR:0103:0}.{SCROLL}Since long ago, the people here have{NEWLINE}worshipped Ho-Oh as a god. And they{CLEAR}say that when people need protecting,{CLEAR}the legendary Ho-Oh descends before{CLEAR}a Trainer of true strength and fights{CLEAR}at their side.{SCROLL}I have always believed in this beautiful{NEWLINE}legend. Ever since I was old enough to{CLEAR}understand it, I have trained to become{CLEAR}Ho-Oh’s Trainer.{SCROLL}Morty: Mr. {VAR:0103:0}, you are recognized{NEWLINE}as the strongest Trainer, and you{CLEAR}are the hero who once defeated Team{CLEAR}Rocket. By rights, you are the one most{CLEAR}worthy of becoming Ho-Oh’s Trainer.{SCROLL}But I can’t give up all my efforts{NEWLINE}and my dream just because you exist.{CLEAR}So please, allow me to challenge you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "gender branches: #0/#16, #23/#24, #51/#52, #61/#62, #70/#71, #77/#78 (Mr./Miss); #63/#64 and #67/#68 are identical in the zh (both 先生), kept identical"
+  },
+  {
+   "id": 1,
+   "zh": "小松『即使使用属性占优的精灵{NEWLINE}我依然无法战胜您……{CLEAR}您不愧是最强的训练家！{CLEAR}我输的心服口服无话可说。{SCROLL}小松『这个徽章是您战胜我的见证,{NEWLINE}请收下吧！{SCROLL}",
+   "en": "Morty: Even with Pokémon that have the{NEWLINE}type advantage, I still couldn’t defeat{CLEAR}you... You truly are the strongest{CLEAR}Trainer! I accept my defeat completely.{SCROLL}Morty: This Badge is proof of your{NEWLINE}victory over me. Please accept it!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}从小松那里{NEWLINE}得到了魅影徽章！",
+   "en": "{VAR:0103:0} received{NEWLINE}the Fog Badge from Morty!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0614/2"
+  },
+  {
+   "id": 3,
+   "zh": "小松『谢谢您愿意{NEWLINE}在我这样苛刻的要求下与我战斗,{CLEAR}这个技能机送给您{CLEAR}就当作是我的谢礼了。{SCROLL}",
+   "en": "Morty: Thank you for agreeing to battle{NEWLINE}me under such harsh conditions. Please{CLEAR}accept this TM as a token of my thanks.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0103:0}从小松那里{NEWLINE}得到了技能机３０！",
+   "en": "{VAR:0103:0} received TM30 from Morty!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "小松『还有我的电话号码也请您记下吧。",
+   "en": "Morty: And please take down my phone{NEWLINE}number too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "小松『这样啊……{SCROLL}前阵子,舞女们所说的{NEWLINE}就是你啦……{SCROLL}啊！不不,没什么事,{NEWLINE}不要在意啊。{SCROLL}既然你拥有这股力量,{NEWLINE}那对你来说,横渡大海{CLEAR}就是小菜一碟。{SCROLL}从这里向西走,{NEWLINE}然后再向南走的话,{CLEAR}就是浅葱市了。{CLEAR}试试去那里看看吧……",
+   "en": "Morty: I get it...{SCROLL}The person the Kimono Girls were{NEWLINE}talking about must be you...{SCROLL}Never mind.{SCROLL}You should be strong enough to go{NEWLINE}across the sea.{SCROLL}When you go west and then south,{NEWLINE}you’ll reach Olivine City.{CLEAR}Why don’t you head for it?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0614/6"
+  },
+  {
+   "id": 7,
+   "zh": "联盟冠军大人！{NEWLINE}这个道馆的训练家们{CLEAR}能够自由地使用鬼系的精灵！{SCROLL}鬼就是亡灵,{NEWLINE}或者说是幻觉一样的东西……{SCROLL}单单使用蛮力{NEWLINE}是无法打倒它的！",
+   "en": "League Champion! The Trainers in this{NEWLINE}Gym use Ghost-type Pokémon freely!{SCROLL}A ghost is a departed spirit,{NEWLINE}or something like an illusion...{SCROLL}You can’t beat one with brute{NEWLINE}strength alone!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0614/7 | rewritten from zh (was us)"
+  },
+  {
+   "id": 8,
+   "zh": "呜哇！{VAR:0103:0},{NEWLINE}精彩的胜利！{SCROLL}要是我的话就会怕得{NEWLINE}躲在角落里发抖呢",
+   "en": "Whoa! {VAR:0103:0}, what a brilliant win!{SCROLL}If it were me, I’d be hiding in a corner,{NEWLINE}shaking with fear!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0614/8 | rewritten from zh (was us)"
+  },
+  {
+   "id": 9,
+   "zh": "干什么,找道馆馆主有事么？{SCROLL}馆主小松{NEWLINE}现在出门去那座烧掉的塔了。{SCROLL}不好意思,还是请你回去吧。{NEWLINE}哈哈哈。{SCROLL}",
+   "en": "You have business with the Gym Leader?{SCROLL}Morty, the Gym Leader, has gone to{NEWLINE}the Burned Tower.{SCROLL}Sorry, but you’ll have to leave.{NEWLINE}Ho ho ho.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0614/9"
+  },
+  {
+   "id": 10,
+   "zh": "缘朱市　精灵道馆",
+   "en": "Ecruteak City Pokémon Gym",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0614/10"
+  },
+  {
+   "id": 11,
+   "zh": "缘朱市　精灵道馆{SCROLL}道馆馆主　小松{NEWLINE}所认可的训练家！{CLEAR}{VAR:0103:0}",
+   "en": "Ecruteak City Pokémon Gym{SCROLL}Leader: Morty{NEWLINE}Certified Trainer!{CLEAR}{VAR:0103:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0614/11"
+  },
+  {
+   "id": 12,
+   "zh": "馆主小松今天有事去了铃铛塔,{NEWLINE}如果你要挑战道馆的话改天再来吧。",
+   "en": "Gym Leader Morty has gone to{NEWLINE}the Bell Tower on business today.{CLEAR}If you want to challenge the Gym,{CLEAR}please come back another day.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | rewritten from zh (was tm_v3)"
+  },
+  {
+   "id": 14,
+   "zh": "小松『请您使用至少6只{NEWLINE}被幽灵系技能克制的精灵,{CLEAR}与我来一场6V6的双打战斗,{CLEAR}如果我能取得胜利,{CLEAR}那就说明我还有{CLEAR}成为凤王训练家的可能。{SCROLL}小松『您现在要接受我的挑战吗？",
+   "en": "Morty: Please use at least six Pokémon{NEWLINE}that are weak to Ghost-type moves and{CLEAR}face me in a 6-on-6 Double Battle.{SCROLL}If I can win, it will mean I still have a{NEWLINE}chance of becoming Ho-Oh’s Trainer.{SCROLL}Morty: Will you accept my challenge now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "小松『随时恭候您大驾光临。",
+   "en": "Morty: I’ll be waiting for you anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "小松『欢迎{VAR:0103:0}小姐{NEWLINE}来我们缘朱市作客。{CLEAR}从很久以前这里的人们{CLEAR}就把凤王当成神来祭拜。{CLEAR}而且,当人们需要保护时,{CLEAR}传说中的凤王会降临到{CLEAR}拥有真正实力的训练家面前{CLEAR}与他一起并肩作战。{CLEAR}我一直相信着这个美丽的传说,{CLEAR}并从懂事开始,{CLEAR}就为了成为凤王的训练家修行。{SCROLL}小松『{VAR:0103:0}小姐您是{NEWLINE}公认的最强训练家,{CLEAR}又是曾经击败了火箭队的英雄,{CLEAR}按理说您最有资格成为凤王的训练家。{CLEAR}但我不能因为您的存在{CLEAR}就放弃一直以来的努力和梦想,{CLEAR}所以请允许我向您发起挑战。",
+   "en": "Morty: Welcome to Ecruteak City,{NEWLINE}Miss {VAR:0103:0}.{SCROLL}Since long ago, the people here have{NEWLINE}worshipped Ho-Oh as a god. And they{CLEAR}say that when people need protecting,{CLEAR}the legendary Ho-Oh descends before{CLEAR}a Trainer of true strength and fights{CLEAR}at their side.{SCROLL}I have always believed in this beautiful{NEWLINE}legend. Ever since I was old enough to{CLEAR}understand it, I have trained to become{CLEAR}Ho-Oh’s Trainer.{SCROLL}Morty: Miss {VAR:0103:0}, you are recognized{NEWLINE}as the strongest Trainer, and you{CLEAR}are the hero who once defeated Team{CLEAR}Rocket. By rights, you are the one most{CLEAR}worthy of becoming Ho-Oh’s Trainer.{SCROLL}But I can’t give up all my efforts{NEWLINE}and my dream just because you exist.{CLEAR}So please, allow me to challenge you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | rewritten from zh (was tm_v3)"
+  },
+  {
+   "id": 18,
+   "zh": "小松『请您使用至少6只{NEWLINE}被幽灵系技能克制的精灵,{CLEAR}与我来一场3V3的双打战斗。{CLEAR}您现在随身携带的精灵超过了3只,{CLEAR}请整理之后再来吧。",
+   "en": "Morty: Please use at least six Pokémon{NEWLINE}that are weak to Ghost-type moves and{CLEAR}face me in a 3-on-3 Double Battle.{SCROLL}You’re carrying more than three{NEWLINE}Pokémon right now. Please sort out your{CLEAR}party and come back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (Asks for at least 6 Pokémon for a 3-on-3 battle, then says you carry more than 3 (copy slip from #14/#19)); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 19,
+   "zh": "小松『请您使用至少6只{NEWLINE}被幽灵系技能克制的精灵,{CLEAR}与我来一场6V6的双打战斗。{CLEAR}您携带的精灵中有非指定的精灵,{CLEAR}请整理之后再来吧。",
+   "en": "Morty: Please use at least six Pokémon{NEWLINE}that are weak to Ghost-type moves and{CLEAR}face me in a 6-on-6 Double Battle.{SCROLL}Some of the Pokémon you’re carrying{NEWLINE}don’t qualify. Please sort out your{CLEAR}party and come back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "小松『请您使用至少6只{NEWLINE}被幽灵系技能克制的精灵,{CLEAR}与我来一场6V6的双打战斗。{CLEAR}您现在随身携带的精灵不足6只,{CLEAR}请带够精灵再来吧。",
+   "en": "Morty: Please use at least six Pokémon{NEWLINE}that are weak to Ghost-type moves and{CLEAR}face me in a 6-on-6 Double Battle.{SCROLL}You’re carrying fewer than six{NEWLINE}Pokémon right now. Please come back{CLEAR}with enough.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0103:0}把小松的号码登录在了电话中。",
+   "en": "{VAR:0103:0} registered Morty’s number in{NEWLINE}the Pokégear.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "小松『虽然与您的战斗{NEWLINE}让我感受到了巨大的差距。{CLEAR}但是我想成为凤王训练家的决心{CLEAR}并没有因此而改变。{CLEAR}我会继续努力修行,{CLEAR}直到梦想实现的那一天！",
+   "en": "Morty: Battling you made me{NEWLINE}feel the huge gap between us.{CLEAR}But my resolve to become Ho-Oh’s{CLEAR}Trainer hasn’t changed one bit.{SCROLL}I’ll keep training hard until the day my{NEWLINE}dream comes true!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "小松『{VAR:0103:0}先生,{NEWLINE}我正在进行训练家的修行。{CLEAR}您有时间跟我来一场对战练习吗？",
+   "en": "Morty: Mr. {VAR:0103:0}, I’m in the middle{NEWLINE}of my Trainer training. Do you have time{CLEAR}for a practice battle with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "小松『{VAR:0103:0}小姐,{NEWLINE}我正在进行训练家的修行。{CLEAR}您有时间跟我来一场对战练习吗？",
+   "en": "Morty: Miss {VAR:0103:0}, I’m in the middle{NEWLINE}of my Trainer training. Do you have time{CLEAR}for a practice battle with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "小松『您这次想单打还是双打？",
+   "en": "Morty: Would you like a Single Battle or{NEWLINE}a Double Battle this time?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | replaced (was tm_v3) | copied from a027/0377#22 (identical zh)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 27,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl) | replaced (was tm_v3) | copied from a027/0377#23 (identical zh)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 28,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl) | replaced (was tm_v3) | copied from a027/0377#24 (identical zh)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 29,
+   "zh": "小松『随时欢迎您再来找我练习。",
+   "en": "Morty: You’re welcome to come practice{NEWLINE}with me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "小松『这次的战斗没有限制,{NEWLINE}请让我见识一下您的全部实力。",
+   "en": "Morty: There are no restrictions this{NEWLINE}time. Please show me your full strength.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "小松『您只带了1只精灵,无法进行双打。",
+   "en": "Morty: You only have one Pokémon with{NEWLINE}you. We can’t have a Double Battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "小松『好的,我现在就向您展示一下{NEWLINE}我一直以来的修行成果！",
+   "en": "Morty: Very well. I’ll show you the{NEWLINE}fruits of all my training!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "我是跟随小松馆主的修行者,{NEWLINE}如果你能从小松馆主那里{CLEAR}赢得魅影徽章,{CLEAR}我就可以教你一个神奇的幽灵系技能。",
+   "en": "I’m a disciple training under Morty.{NEWLINE}If you win the Fog Badge from him,{CLEAR}I can teach you a mysterious{CLEAR}Ghost-type move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "看来你已经从小松馆主那{NEWLINE}赢得魅影徽章了,{CLEAR}那么你想让你的精灵{CLEAR}学习幽灵系技能灵骚吗？",
+   "en": "Looks like you’ve won the Fog Badge{NEWLINE}from Morty. So, would you like your{CLEAR}Pokémon to learn the Ghost-type{CLEAR}move Poltergeist?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl) | replaced (was tm_v3) | copied from a027/0048#139 (identical zh)"
+  },
+  {
+   "id": 36,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it, come find me{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl) | replaced (was tm_v3) | copied from a027/0731#4 (identical zh)"
+  },
+  {
+   "id": 37,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住灵骚。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t{NEWLINE}learn Poltergeist.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl) | replaced (was tm_v3) | copied from a027/0048#127 (identical zh)"
+  },
+  {
+   "id": 39,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会灵骚了！{SCROLL}",
+   "en": "This {VAR:0100:0} already{NEWLINE}knows Poltergeist!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl) | replaced (was tm_v3) | copied from a027/0048#129 (identical zh)"
+  },
+  {
+   "id": 41,
+   "zh": "{VAR:0101:0}学会了灵骚！",
+   "en": "{VAR:0101:0} learned Poltergeist!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会灵骚了！{SCROLL}幽灵系的精灵和其他精灵{NEWLINE}使用灵骚效果会很不一样,{CLEAR}在实战中活用的话{CLEAR}一定能对你有所帮助。",
+   "en": "And with that, your {VAR:0100:0} has{NEWLINE}learned Poltergeist!{SCROLL}Poltergeist works very differently{NEWLINE}when a Ghost-type Pokémon uses it.{CLEAR}Put it to good use in real battles,{CLEAR}and it’s sure to help you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh: Poltergeist behaves differently for Ghost types (sounds like Curse); translated as written"
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的灵骚……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习诅咒{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn{NEWLINE}Poltergeist...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn Curse?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The Poltergeist (灵骚) tutor’s last page says 诅咒 (Curse)); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 44,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl) | replaced (was tm_v3) | copied from a027/0048#133 (identical zh)"
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl) | replaced (was tm_v3) | copied from a027/0048#135 (identical zh)"
+  },
+  {
+   "id": 46,
+   "zh": "你是要放弃{NEWLINE}让它记住灵骚吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Poltergeist?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "老身在铃音小路{NEWLINE}已经见识过你的厉害了,{CLEAR}你的实力恐怕要在小松馆主之上啊。",
+   "en": "This old woman already saw how strong{NEWLINE}you are on Bellchime Trail. I daresay{CLEAR}you’re even stronger than Morty.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "老身能够感觉得到{NEWLINE}你身上的意志力强大到难以撼动。{CLEAR}看来你一定经历过非常多的磨炼吧。",
+   "en": "This old woman can sense that your{NEWLINE}willpower is so strong, it’s almost{CLEAR}unshakable. You must have been through{CLEAR}a great many trials.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "当时在铃音小路被你击败,{NEWLINE}老身还想这个歹徒地么如此厉害。{CLEAR}后来听小松馆主说起才知道{CLEAR}你原来是联盟冠军啊。",
+   "en": "When you beat me on Bellchime Trail,{NEWLINE}this old woman wondered how some{CLEAR}hoodlum could be so strong.{SCROLL}Only later, when Morty told me, did I{NEWLINE}learn you were the League Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "老身年轻时{NEWLINE}也曾是歌舞连乘的当红花旦,{CLEAR}只是岁月不饶人啊……",
+   "en": "In my youth, this old woman was{NEWLINE}a star of the Dance Theater too.{CLEAR}But time spares no one...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "小松『{VAR:0103:0}先生,{NEWLINE}我已经收到精灵联盟的通知了。{CLEAR}您是为了保护凤王特地赶来的吧？",
+   "en": "Morty: Mr. {VAR:0103:0}, I’ve already{NEWLINE}received the Pokémon League’s notice.{CLEAR}You came here specially to protect{CLEAR}Ho-Oh, didn’t you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "小松『{VAR:0103:0}小姐,{NEWLINE}我已经收到精灵联盟的通知了。{CLEAR}您是为了保护凤王特地赶来的吧？",
+   "en": "Morty: Miss {VAR:0103:0}, I’ve already{NEWLINE}received the Pokémon League’s notice.{CLEAR}You came here specially to protect{CLEAR}Ho-Oh, didn’t you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "{VAR:0103:0}『是的。{NEWLINE}最近缘朱市有发现{CLEAR}火箭队活动的迹象吗？",
+   "en": "{VAR:0103:0}: That’s right.{NEWLINE}Has there been any sign of Team Rocket{CLEAR}activity in Ecruteak City lately?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "小松『目前缘朱市一切正常,{NEWLINE}并没有发现火箭队的踪迹。{CLEAR}不过即使火箭队来了,{CLEAR}我想他们也没有能力召唤凤王。",
+   "en": "Morty: Everything in Ecruteak City is{NEWLINE}normal for now. We haven’t found any{CLEAR}trace of Team Rocket.{SCROLL}But even if they came, I don’t think{NEWLINE}they’d be able to summon Ho-Oh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "{VAR:0103:0}『为什么这么说呢？",
+   "en": "{VAR:0103:0}: Why do you say that?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "小松『我们缘朱市的历代馆主,{NEWLINE}通过口耳相传的方式{CLEAR}守护着如何召唤凤王的秘密。{CLEAR}这个秘密即使是精灵联盟也不知道。{CLEAR}所以火箭队就算想捕捉凤王,{CLEAR}也无法召唤它现身。",
+   "en": "Morty: Generation after generation,{NEWLINE}Ecruteak City’s Gym Leaders have{CLEAR}guarded the secret of how to summon{CLEAR}Ho-Oh, passing it down by word{CLEAR}of mouth.{SCROLL}Not even the Pokémon League knows it.{NEWLINE}So even if Team Rocket wanted to catch{CLEAR}Ho-Oh, they couldn’t make it appear.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "{VAR:0103:0}『可是火箭队从秀力博士那里{NEWLINE}得到了很多关于传说中精灵的情报,{CLEAR}我担心火箭队从情报中另辟溪径,{CLEAR}发现其他召唤凤王的方法。{SCROLL}{VAR:0103:0}『之前已经有很多{NEWLINE}传说中的精灵被火箭队收服了,{CLEAR}所以这次不可以轻敌大意啊。",
+   "en": "{VAR:0103:0}: But Team Rocket got a lot of{NEWLINE}information about legendary Pokémon{CLEAR}from Prof. Hale. I’m worried they’ll find{CLEAR}some other way to summon Ho-Oh from it.{SCROLL}{VAR:0103:0}: Team Rocket has already{NEWLINE}caught plenty of legendary Pokémon.{CLEAR}We can’t let our guard down this time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "小松『如果要彻底断绝{NEWLINE}火箭队捕捉凤王的可能性,{CLEAR}最好的办法就是赶在火箭队之前{CLEAR}召唤凤王并收服它。{SCROLL}小松『但按照我们代代相传的方法,{NEWLINE}召唤凤王必须要用到「彩虹羽毛」,{CLEAR}就是上次在烧焦塔{CLEAR}火箭队拿出来的那个羽毛。{CLEAR}历代缘朱道馆馆主就是因为{CLEAR}找不到彩虹羽毛,{CLEAR}才一直没能召唤凤王。",
+   "en": "Morty: If we want to completely rule{NEWLINE}out Team Rocket catching Ho-Oh,{CLEAR}the best way is to summon Ho-Oh and{CLEAR}catch it before they do.{SCROLL}Morty: But by the method handed down{NEWLINE}to us, summoning Ho-Oh requires the{CLEAR}Rainbow Wing, the very feather Team{CLEAR}Rocket produced at the Burned Tower.{SCROLL}It’s because they could never find a{NEWLINE}Rainbow Wing that the Ecruteak Gym{CLEAR}Leaders before me never managed to{CLEAR}summon Ho-Oh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "{VAR:0103:0}『彩虹羽毛的话我身上就有,{NEWLINE}是在卡吉镇火箭队基地发现的。",
+   "en": "{VAR:0103:0}: I have a Rainbow Wing right{NEWLINE}here. I found it at Team Rocket’s base{CLEAR}in Mahogany Town.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "小松『您身上有彩虹羽毛！？{SCROLL}小松『天呐,想不到长久以来{NEWLINE}寻觅不到的彩虹羽毛,{CLEAR}竟然就近在眼前！{CLEAR}这样就可以按照缘朱道馆{CLEAR}代代相传的方法召唤凤王了！{CLEAR}而且我想要成为凤王训练家的愿望{CLEAR}或许也能够就此实现！",
+   "en": "Morty: You have a Rainbow Wing?!{SCROLL}Morty: Good heavens! The Rainbow{NEWLINE}Wing we’ve searched for all this time,{CLEAR}right before my eyes!{SCROLL}Now we can summon Ho-Oh by the method{NEWLINE}handed down in the Ecruteak Gym!{CLEAR}And perhaps my wish to become Ho-Oh’s{CLEAR}Trainer can finally come true!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "小松『{VAR:0103:0}先生,{NEWLINE}我现在就去通知相关人员{CLEAR}做好召唤凤王的准备。{CLEAR}也请您拿着彩虹羽毛到铃铛塔顶{CLEAR}与我一起完成这场宿命的召唤。",
+   "en": "Morty: Mr. {VAR:0103:0}, I’ll go and tell{NEWLINE}everyone involved to prepare for{CLEAR}summoning Ho-Oh right away.{SCROLL}Please take the Rainbow Wing to the{NEWLINE}top of the Bell Tower and complete this{CLEAR}fated summoning with me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "小松『{VAR:0103:0}小姐,{NEWLINE}我现在就去通知相关人员{CLEAR}做好召唤凤王的准备。{CLEAR}也请您拿着彩虹羽毛到铃铛塔顶{CLEAR}与我一起完成这场宿命的召唤。",
+   "en": "Morty: Miss {VAR:0103:0}, I’ll go and tell{NEWLINE}everyone involved to prepare for{CLEAR}summoning Ho-Oh right away.{SCROLL}Please take the Rainbow Wing to the{NEWLINE}top of the Bell Tower and complete this{CLEAR}fated summoning with me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "小松『如果去火箭队{NEWLINE}曾经活动的地方找找,{CLEAR}或许能发现关于彩虹羽毛的线索。{CLEAR}只是我身为缘朱道馆的馆主{CLEAR}在这个时候不太方便外出,{CLEAR}寻找彩虹羽毛的事{CLEAR}就拜托{VAR:0103:0}先生您了。",
+   "en": "Morty: If you search the places{NEWLINE}where Team Rocket has been active,{CLEAR}you may find a clue to the Rainbow Wing.{SCROLL}But as Ecruteak’s Gym Leader,{NEWLINE}I can’t easily leave at a time like this.{CLEAR}I’ll leave the search for the Rainbow{CLEAR}Wing to you, Mr. {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "小松『如果去火箭队{NEWLINE}曾经活动的地方找找,{CLEAR}或许能发现关于彩虹羽毛的线索。{CLEAR}只是我身为缘朱道馆的馆主{CLEAR}在这个时候不太方便外出,{CLEAR}寻找彩虹羽毛的事{CLEAR}就拜托{VAR:0103:0}先生您了。",
+   "en": "Morty: If you search the places{NEWLINE}where Team Rocket has been active,{CLEAR}you may find a clue to the Rainbow Wing.{SCROLL}But as Ecruteak’s Gym Leader,{NEWLINE}I can’t easily leave at a time like this.{CLEAR}I’ll leave the search for the Rainbow{CLEAR}Wing to you, Mr. {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "小松『嗯,您说的对,{NEWLINE}不能对暗中活动的火箭队掉以轻心。",
+   "en": "Morty: Yes, you’re right.{NEWLINE}We can’t take Team Rocket lightly while{CLEAR}they’re operating in the shadows.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "小松『一定要打败火箭队,救回凤王！",
+   "en": "Morty: We must defeat Team Rocket and{NEWLINE}rescue Ho-Oh!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "小松『彩虹羽毛……！{NEWLINE}{VAR:0103:0}先生您身上带着彩虹羽毛……{SCROLL}小松『这么说来您也想成为{NEWLINE}凤王的训练家是吗？",
+   "en": "Morty: The Rainbow Wing...!{NEWLINE}Mr. {VAR:0103:0}, you have the{CLEAR}Rainbow Wing...{SCROLL}Morty: Does that mean you want to{NEWLINE}become Ho-Oh’s Trainer too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "小松『彩虹羽毛……！{NEWLINE}{VAR:0103:0}先生您身上带着彩虹羽毛……{SCROLL}小松『这么说来您也想成为{NEWLINE}凤王的训练家是吗？",
+   "en": "Morty: The Rainbow Wing...!{NEWLINE}Mr. {VAR:0103:0}, you have the{CLEAR}Rainbow Wing...{SCROLL}Morty: Does that mean you want to{NEWLINE}become Ho-Oh’s Trainer too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "{VAR:0103:0}『是的。我为了召唤凤王{NEWLINE}想借小松馆主的透明铃铛一用。",
+   "en": "{VAR:0103:0}: Yes. To summon Ho-Oh, I’d like{NEWLINE}to borrow your Clear Bell, Morty.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "小松『您是从火箭队手中{NEWLINE}拯救整个地区的英雄,{CLEAR}凤王理应成为您的精灵。{CLEAR}但是我从小到大为了收服凤王{CLEAR}也经历过艰苦卓绝的训练。{CLEAR}收服凤王是我的梦想,{CLEAR}所以我想向{VAR:0103:0}先生发起挑战！{SCROLL}小松『以我手中的透明铃铛{NEWLINE}和您手中的彩虹羽毛作为赌注,{CLEAR}战斗获胜的人可以拿走两件道具{CLEAR}去铃铛塔召唤凤王。{CLEAR}不知道{VAR:0103:0}先生{CLEAR}愿不愿意接受我的挑战呢？",
+   "en": "Morty: You’re the hero who saved the{NEWLINE}whole region from Team Rocket. By{CLEAR}rights, Ho-Oh should be your Pokémon.{SCROLL}But I, too, have been through grueling{NEWLINE}training all my life to catch Ho-Oh.{CLEAR}Catching Ho-Oh is my dream, so I want{CLEAR}to challenge you, Mr. {VAR:0103:0}!{SCROLL}Morty: Let’s wager my Clear{NEWLINE}Bell and your Rainbow Wing.{CLEAR}The winner takes both items to the Bell{CLEAR}Tower to summon Ho-Oh.{SCROLL}Will you accept my challenge,{NEWLINE}Mr. {VAR:0103:0}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "小松『您是从火箭队手中{NEWLINE}拯救整个地区的英雄,{CLEAR}凤王理应成为您的精灵。{CLEAR}但是我从小到大为了收服凤王{CLEAR}也经历过艰苦卓绝的训练。{CLEAR}收服凤王是我的梦想,{CLEAR}所以我想向{VAR:0103:0}小姐发起挑战！{SCROLL}小松『以我手中的透明铃铛{NEWLINE}和您手中的彩虹羽毛作为赌注,{CLEAR}战斗获胜的人可以拿走两件道具{CLEAR}去铃铛塔召唤凤王。{CLEAR}不知道{VAR:0103:0}小姐{CLEAR}愿不愿意接受我的挑战呢？",
+   "en": "Morty: You’re the hero who saved the{NEWLINE}whole region from Team Rocket. By{CLEAR}rights, Ho-Oh should be your Pokémon.{SCROLL}But I, too, have been through grueling{NEWLINE}training all my life to catch Ho-Oh.{CLEAR}Catching Ho-Oh is my dream, so I want{CLEAR}to challenge you, Miss {VAR:0103:0}!{SCROLL}Morty: Let’s wager my Clear{NEWLINE}Bell and your Rainbow Wing.{CLEAR}The winner takes both items to the Bell{CLEAR}Tower to summon Ho-Oh.{SCROLL}Will you accept my challenge,{NEWLINE}Miss {VAR:0103:0}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "小松『如果您什么时候想要透明铃铛了,{NEWLINE}随时可以再来找我。",
+   "en": "Morty: Whenever you want the Clear{NEWLINE}Bell, you can come and find me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "{VAR:0103:0}『好,我接受你的挑战,{NEWLINE}赢的人可以拿走两件道具去收服凤王。",
+   "en": "{VAR:0103:0}: All right, I accept your{NEWLINE}challenge. The winner takes both items{CLEAR}and goes to catch Ho-Oh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "小松『谢谢您给我这个机会。{NEWLINE}虽然我肯定不是您的对手,{CLEAR}但为了梦想我也一定要拼尽全力！",
+   "en": "Morty: Thank you for giving me this{NEWLINE}chance. I know I’m no match for you,{CLEAR}but for my dream, I’ll give it everything{CLEAR}I’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "小松『果然是这种结果……{SCROLL}小松『不愧是联盟冠军,{NEWLINE}我输的心服口服。{CLEAR}我承认您才是最有资格收服凤王的人,{CLEAR}这是缘朱道馆代代相传的透明铃铛,{CLEAR}从今天起它就是您的了。",
+   "en": "Morty: Just as I expected...{SCROLL}Morty: You truly are the{NEWLINE}League Champion. I accept my{CLEAR}defeat completely.{SCROLL}I admit that you are the one most{NEWLINE}worthy of catching Ho-Oh. This is{CLEAR}the Clear Bell, handed down through{CLEAR}generations of the Ecruteak Gym.{CLEAR}From today on, it’s yours.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "小松『凤王是城都地区的守护神,{NEWLINE}期待看到它和您一起并肩作战的样子。",
+   "en": "Morty: Ho-Oh is the guardian deity of{NEWLINE}Johto. I look forward to seeing it fight{CLEAR}alongside you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "小松『欢迎{VAR:0103:0}先生{NEWLINE}来我们缘朱市作客。{CLEAR}您是公认的最强训练家,{CLEAR}又是曾经击败了火箭队的英雄,{CLEAR}我一直都渴望能向您学习对战。",
+   "en": "Morty: Welcome to Ecruteak City,{NEWLINE}Mr. {VAR:0103:0}.{SCROLL}You are recognized as the strongest{NEWLINE}Trainer, and you are the hero who once{CLEAR}defeated Team Rocket. I’ve always{CLEAR}longed to learn from you in battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "小松『欢迎{VAR:0103:0}小姐{NEWLINE}来我们缘朱市作客。{CLEAR}您是公认的最强训练家,{CLEAR}又是曾经击败了火箭队的英雄,{CLEAR}我一直都渴望能向您学习对战。",
+   "en": "Morty: Welcome to Ecruteak City,{NEWLINE}Miss {VAR:0103:0}.{SCROLL}You are recognized as the strongest{NEWLINE}Trainer, and you are the hero who once{CLEAR}defeated Team Rocket. I’ve always{CLEAR}longed to learn from you in battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "小松『能否请您使用三只{NEWLINE}被幽灵系克制的精灵,{CLEAR}与我来一场3V3的双打战斗,{CLEAR}让我见识一下在这种不利局面下,{CLEAR}您能做出何种应对。",
+   "en": "Morty: Would you please use three{NEWLINE}Pokémon that are weak to Ghost types{CLEAR}and face me in a 3-on-3 Double Battle?{SCROLL}I’d like to see how you handle such{NEWLINE}a disadvantage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

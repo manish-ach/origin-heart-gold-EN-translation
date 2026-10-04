@@ -1,0 +1,49 @@
+{
+ "narc": "a027",
+ "bank": 201,
+ "source": "work/extract/v4/a027/0201.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "{VAR:0100:0}被打倒了！{SCROLL}{VAR:0103:1}身上{NEWLINE}已经没有可以战斗的精灵！{SCROLL}{VAR:0103:2}在和短裤小子的{NEWLINE}战斗中失败了⋯⋯{SCROLL}{VAR:0103:1}作为奖励送给{NEWLINE}{VAR:0137:3}¥{SCROLL}⋯⋯　⋯⋯　⋯⋯　⋯⋯{SCROLL}{VAR:0103:1}{NEWLINE}眼前一片漆黑！",
+   "en": "{VAR:0100:0} fainted!{SCROLL}{VAR:0103:1} has no more Pokémon{NEWLINE}that can fight!{SCROLL}Lost the battle against{NEWLINE}Youngster {VAR:0103:2}...{SCROLL}{VAR:0103:1} paid out{NEWLINE}${VAR:0137:3} as prize money.{SCROLL}... ... ... ...{SCROLL}{VAR:0103:1}{NEWLINE}blacked out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags fullwidth_chars,var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0201#0; text not kept)"
+  },
+  {
+   "id": 1,
+   "zh": "{VAR:0100:0}被打倒了！{SCROLL}{VAR:0103:1}身上{NEWLINE}已经没有可以战斗的精灵！{SCROLL}{VAR:0103:1}惊慌失措{NEWLINE}失去了{VAR:0137:3}¥⋯⋯{SCROLL}⋯⋯　⋯⋯　⋯⋯　⋯⋯{SCROLL}{VAR:0103:1}{NEWLINE}眼前一片漆黑！",
+   "en": "{VAR:0100:0} fainted!{SCROLL}{VAR:0103:1} has no more Pokémon{NEWLINE}that can fight!{SCROLL}{VAR:0103:1} panicked and{NEWLINE}dropped ${VAR:0137:3}...{SCROLL}... ... ... ...{SCROLL}{VAR:0103:1}{NEWLINE}blacked out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags fullwidth_chars"
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0100:0}{NEWLINE}倒下了⋯{SCROLL}{VAR:0103:1}身上{NEWLINE}已经没有可以战斗的精灵！{SCROLL}{VAR:0103:1}大吃一惊{NEWLINE}失去了{VAR:0137:3}¥⋯⋯{SCROLL}⋯⋯　⋯⋯　⋯⋯　⋯⋯{SCROLL}{VAR:0103:1}{NEWLINE}眼前一片漆黑！",
+   "en": "{VAR:0100:0}{NEWLINE}fainted...{SCROLL}{VAR:0103:1} has no more Pokémon{NEWLINE}that can fight!{SCROLL}{VAR:0103:1} was shocked and{NEWLINE}dropped ${VAR:0137:3}...{SCROLL}... ... ... ...{SCROLL}{VAR:0103:1}{NEWLINE}blacked out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags fullwidth_chars"
+  },
+  {
+   "id": 3,
+   "zh": "保护精疲力尽的濒死精灵,{NEWLINE}{VAR:0103:0}马上回到了精灵中心！",
+   "en": "{VAR:0103:0} scurried to{NEWLINE}a Pokémon Center, protecting{NEWLINE}the exhausted and fainted{NEWLINE}Pokémon from further harm...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Blackout screen text (full-screen, not the dialogue box): restored the official US 4-line layout; category ui.",
+   "category": "ui"
+  },
+  {
+   "id": 4,
+   "zh": "保护精疲力尽的濒死精灵,{NEWLINE}{VAR:0103:0}马上回到了自己家！",
+   "en": "{VAR:0103:0} scurried back{NEWLINE}home, protecting the exhausted{NEWLINE}and fainted Pokémon from further{NEWLINE}harm...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Blackout screen text: official US 4-line layout; category ui.",
+   "category": "ui"
+  }
+ ]
+}

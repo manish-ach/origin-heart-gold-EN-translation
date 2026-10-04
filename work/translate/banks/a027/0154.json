@@ -1,0 +1,871 @@
+{
+ "narc": "a027",
+ "bank": 154,
+ "source": "work/extract/v4/a027/0154.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "监视用",
+   "en": "Monitor",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 1,
+   "zh": "工作人员用",
+   "en": "For staff",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 2,
+   "zh": "跳",
+   "en": "Jump",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 3,
+   "zh": "超过范围",
+   "en": "Out of range",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 4,
+   "zh": "数据作成",
+   "en": "Create data",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 5,
+   "zh": "系统",
+   "en": "System",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 6,
+   "zh": "数值输入",
+   "en": "Enter value",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 7,
+   "zh": "强制存储",
+   "en": "Force save",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 8,
+   "zh": "即将达到上限",
+   "en": "Near the limit",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 9,
+   "zh": "渡边",
+   "en": "Watanabe",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s) | debug staff name (romanised)"
+  },
+  {
+   "id": 10,
+   "zh": "森林",
+   "en": "Forest",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s) | zh 森林 (forest); probably a staff surname (Mori) in JP"
+  },
+  {
+   "id": 11,
+   "zh": "中村",
+   "en": "Nakamura",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 12,
+   "zh": "友道",
+   "en": "Tomomichi",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 13,
+   "zh": "斋藤",
+   "en": "Saito",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 14,
+   "zh": "友哉",
+   "en": "Tomoya",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 15,
+   "zh": "岩泽",
+   "en": "Iwasawa",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 16,
+   "zh": "曾我部",
+   "en": "Sogabe",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 17,
+   "zh": "玉田",
+   "en": "Tamada",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 18,
+   "zh": "松田",
+   "en": "Matsuda",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 19,
+   "zh": "辉矢",
+   "en": "Teruya",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 20,
+   "zh": "野原",
+   "en": "Nohara",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 21,
+   "zh": "田屋",
+   "en": "Taya",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 22,
+   "zh": "后藤",
+   "en": "Goto",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 23,
+   "zh": "大野",
+   "en": "Ono",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 24,
+   "zh": "三原",
+   "en": "Mihara",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 25,
+   "zh": "凪桥",
+   "en": "Nagihashi",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 26,
+   "zh": "保坂",
+   "en": "Hosaka",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 27,
+   "zh": "孵化确认",
+   "en": "Hatch check",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 28,
+   "zh": "位置确认",
+   "en": "Check location",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 29,
+   "zh": "切换",
+   "en": "Switch",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0156/29 | debug/unused (debug menu)"
+  },
+  {
+   "id": 30,
+   "zh": "属性",
+   "en": "TYPE",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s) | debug/unused (debug menu)"
+  },
+  {
+   "id": 31,
+   "zh": "飞天",
+   "en": "Fly",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0156/31 | debug/unused (debug menu)"
+  },
+  {
+   "id": 32,
+   "zh": "道馆跳过",
+   "en": "Gym skip",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 33,
+   "zh": "菜单跳过",
+   "en": "Menu skip",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 菜单跳过 (menu skip); US “Map jump”"
+  },
+  {
+   "id": 34,
+   "zh": "菜单跳过２",
+   "en": "Menu skip 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 35,
+   "zh": "菜单跳过３",
+   "en": "Menu skip 3",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 36,
+   "zh": "菜单跳过４",
+   "en": "Menu skip 4",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 37,
+   "zh": "菜单跳过５",
+   "en": "Menu skip 5",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 38,
+   "zh": "菜单跳过６",
+   "en": "Menu skip 6",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 39,
+   "zh": "AN跳",
+   "en": "AN jump",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 40,
+   "zh": "全部都跳",
+   "en": "Jump anywhere",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 41,
+   "zh": "精灵创建",
+   "en": "Create Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 42,
+   "zh": "精灵改写",
+   "en": "Rewrite Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 43,
+   "zh": "不行的蛋",
+   "en": "Bad Egg",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 44,
+   "zh": "道具创建",
+   "en": "Create item",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 45,
+   "zh": "时间",
+   "en": "Time",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 46,
+   "zh": "3D设定",
+   "en": "3D settings",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 47,
+   "zh": "性别更换",
+   "en": "Switch gender",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 48,
+   "zh": "游戏旗",
+   "en": "Game flags",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 49,
+   "zh": "地图其他",
+   "en": "Map and others",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 50,
+   "zh": "上下",
+   "en": "Up & down",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 51,
+   "zh": "ZX指定",
+   "en": "ZX set",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 52,
+   "zh": "联机",
+   "en": "Union",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 53,
+   "zh": "跳过T01",
+   "en": "Skip to T01",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 54,
+   "zh": "回到标题",
+   "en": "Back to title",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 55,
+   "zh": "跳过道馆01",
+   "en": "Skip to Gym 01",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 56,
+   "zh": "时间　操作",
+   "en": "Time control",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 57,
+   "zh": "DS时间",
+   "en": "DS time",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 58,
+   "zh": "０８：００",
+   "en": "08:00",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 59,
+   "zh": "１２：００",
+   "en": "12:00",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 60,
+   "zh": "１８：００",
+   "en": "18:00",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 61,
+   "zh": "２２：００",
+   "en": "22:00",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 62,
+   "zh": "０２：００",
+   "en": "02:00",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 63,
+   "zh": "时间６０倍",
+   "en": "Time x60",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 64,
+   "zh": "时间６００倍",
+   "en": "Time x600",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 65,
+   "zh": "ＲＴＣ操作",
+   "en": "RTC control",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 66,
+   "zh": "EDGE ON",
+   "en": "EDGE ON",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "EDGE OFF",
+   "en": "EDGE OFF",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "ANTIALIAS ON",
+   "en": "ANTIALIAS ON",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "ANTIALIAS OFF",
+   "en": "ANTIALIAS OFF",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "EDGE COLOR1",
+   "en": "EDGE COLOR1",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "EDGE COLOR2",
+   "en": "EDGE COLOR2",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "EDGE COLOR3",
+   "en": "EDGE COLOR3",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "EDGE COLOR4",
+   "en": "EDGE COLOR4",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "遭遇",
+   "en": "Encounters",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 75,
+   "zh": "配送员",
+   "en": "Deliveryman",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 76,
+   "zh": "电视切换",
+   "en": "Change TV",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 77,
+   "zh": "战斗塔",
+   "en": "Battle Tower",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0156/77 | debug/unused (debug menu)"
+  },
+  {
+   "id": 78,
+   "zh": "SysFlag",
+   "en": "SysFlag",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "记录",
+   "en": "Records",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0156/79 | debug/unused (debug menu)"
+  },
+  {
+   "id": 80,
+   "zh": "狩猎",
+   "en": "Safari",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 81,
+   "zh": "其他",
+   "en": "Other",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 82,
+   "zh": "ＭＹ记录",
+   "en": "MY record",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 83,
+   "zh": "ＢＯＸ记录",
+   "en": "BOX record",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 84,
+   "zh": "ＢＧＭ操作",
+   "en": "BGM control",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 85,
+   "zh": "SCRIPT操作",
+   "en": "SCRIPT control",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 86,
+   "zh": "ＧＴＳ ",
+   "en": "GTS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 87,
+   "zh": "战斗塔",
+   "en": "Battle Tower",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0156/87 | debug/unused (debug menu)"
+  },
+  {
+   "id": 88,
+   "zh": "ＷｉＦｉ不思议",
+   "en": "Wi-Fi Mystery",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 89,
+   "zh": "联机大厅",
+   "en": "Union lobby",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 90,
+   "zh": "进入殿堂",
+   "en": "Hall of Fame entry",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 91,
+   "zh": "电视",
+   "en": "TV",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | debug/unused (debug menu)"
+  },
+  {
+   "id": 92,
+   "zh": "通信比赛",
+   "en": "Link Contest",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 93,
+   "zh": "其他",
+   "en": "Other",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 94,
+   "zh": "我的狩猎",
+   "en": "My Safari",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 95,
+   "zh": "竞技场",
+   "en": "Pokéathlon Dome",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 96,
+   "zh": "精灵中心地下",
+   "en": "Pokémon Center B1F",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 97,
+   "zh": "战斗前线",
+   "en": "Battle Frontier",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0156/97 | debug/unused (debug menu)"
+  },
+  {
+   "id": 98,
+   "zh": "ＦＲ前线",
+   "en": "FR Frontier",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 99,
+   "zh": "存档工作",
+   "en": "Save work",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 100,
+   "zh": "事件旗",
+   "en": "Event flags",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 101,
+   "zh": "活动旗",
+   "en": "Activity flags",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 活动旗; JP バニッシュフラグ (vanish flags)"
+  },
+  {
+   "id": 102,
+   "zh": "道具旗",
+   "en": "Item flags",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 103,
+   "zh": "其他旗",
+   "en": "Other flags",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 104,
+   "zh": "我的训练师ＩＤ",
+   "en": "My Trainer ID",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 105,
+   "zh": "SYSWORK",
+   "en": "SYSWORK",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "形形色色的旗",
+   "en": "Assorted flags",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (debug menu)"
+  },
+  {
+   "id": 107,
+   "zh": "电话",
+   "en": "Phone",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0156/107 | debug/unused (debug menu)"
+  }
+ ]
+}

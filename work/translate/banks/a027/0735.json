@@ -1,0 +1,996 @@
+{
+ "narc": "a027",
+ "bank": 735,
+ "source": "work/extract/v4/a027/0735.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "我和我的精灵通过横渡大海,{NEWLINE}锻炼出了强健的体魄和不屈的意志,{CLEAR}你想见识一下我们的强劲实力吗？",
+   "en": "My Pokémon and I crossed the{NEWLINE}open sea, and it forged us strong{CLEAR}bodies and unbreakable wills.{SCROLL}Want to see what we can really do?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "哎？没兴趣吗……",
+   "en": "Huh? Not interested...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "您希望单打还是双打？",
+   "en": "Would you like a Single or a{NEWLINE}Double Battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 4,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 5,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 6,
+   "zh": "这就让你看看海上男儿的英姿！",
+   "en": "Behold the might of a{NEWLINE}true man of the sea!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "你可真是厉害啊！",
+   "en": "You’re really something!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "你只带着1只精灵,{NEWLINE}没法进行双打。",
+   "en": "You only have one Pokémon with you.{NEWLINE}You can’t have a Double Battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "在一个暴风雨的夜晚,{NEWLINE}我在这片海域{CLEAR}见到一只很大的银色精灵{CLEAR}挥动着翅膀俯冲进了大海。",
+   "en": "One stormy night, out on these waters,{NEWLINE}I saw a huge silver Pokémon beat its{CLEAR}wings and dive straight into the sea.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "我是来参加旋涡列岛挑战的",
+   "en": "Here for the challenge",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu option; zh 我是来参加旋涡列岛挑战的 shortened to fit.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 11,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "原来是参加挑战的训练家呀,{NEWLINE}那咱们先开始问答挑战吧。{CLEAR}我要出题了哦！{SCROLL}第一题：{NEWLINE}传说中的精灵洛奇亚,{CLEAR}它的属性是什么？",
+   "en": "Ah, a Trainer taking the challenge!{NEWLINE}Then let’s start with the quiz.{CLEAR}Here comes the first question!{SCROLL}Question 1: What type is the{NEWLINE}legendary Pokémon Lugia?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "水、超能",
+   "en": "Water/Psychic",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 14,
+   "zh": "水、飞",
+   "en": "Water/Flying",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 15,
+   "zh": "飞、超能",
+   "en": "Flying/Psychic",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 16,
+   "zh": "龙、飞",
+   "en": "Dragon/Flying",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 17,
+   "zh": "第二题：{NEWLINE}与传说中的凤王相比,{CLEAR}洛奇亚更擅长……？",
+   "en": "Question 2: Compared with the{NEWLINE}legendary Ho-Oh, Lugia is better at...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "攻击",
+   "en": "Attack",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 19,
+   "zh": "防御",
+   "en": "Defense",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 20,
+   "zh": "特攻",
+   "en": "Sp. Atk",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 5 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 21,
+   "zh": "特防",
+   "en": "Sp. Def",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 5 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 22,
+   "zh": "第三题：{NEWLINE}下列哪个技能{CLEAR}是洛奇亚不能使用的？",
+   "en": "Question 3: Which of these{NEWLINE}moves can Lugia NOT use?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "暴风",
+   "en": "Hurricane",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 暴风 = Hurricane (D-0209); v3 had Aeroblast.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 24,
+   "zh": "求雨",
+   "en": "Rain Dance",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 25,
+   "zh": "神鸟猛击",
+   "en": "Sky Attack",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 26,
+   "zh": "勇鸟猛攻",
+   "en": "Brave Bird",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 27,
+   "zh": "第四题：{NEWLINE}据说洛奇亚挥动翅膀的话,{CLEAR}能引起长达多少天的暴风？",
+   "en": "Question 4: Legend says that when{NEWLINE}Lugia flaps its wings, it can cause{CLEAR}a storm that lasts how many days?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "30天",
+   "en": "30 days",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 29,
+   "zh": "40天",
+   "en": "40 days",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 30,
+   "zh": "50天",
+   "en": "50 days",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 31,
+   "zh": "60天",
+   "en": "60 days",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 32,
+   "zh": "你的答案我都记下了,{NEWLINE}我会把你的成绩发送给主持人的。{CLEAR}现在咱们开始第二阶段的对战挑战吧！",
+   "en": "I’ve noted down all your answers.{NEWLINE}I’ll send your results to the host.{SCROLL}Now let’s start the second{NEWLINE}stage: the battle challenge!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "你已经完成这座岛的挑战了,{NEWLINE}再去其他几个岛看看呗。",
+   "en": "You’ve already finished the{NEWLINE}challenge on this island. Go{CLEAR}check out the other islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "哇！你可真是厉害！{NEWLINE}我从来没见过像你这么强的挑战者。{CLEAR}请你保持这个势头,{CLEAR}继续进行挑战吧。",
+   "en": "Whoa! You’re incredible! I’ve never{NEWLINE}seen a challenger as strong as you.{SCROLL}Keep up the momentum and{NEWLINE}carry on with the challenge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "在旋涡列岛挑战中,{NEWLINE}即使战败了也是有成绩的哦。{CLEAR}所以你不要因为这次战败而灰心,{CLEAR}请继续进行其他岛的挑战吧。",
+   "en": "In the Whirl Islands Challenge, you{NEWLINE}still get a score even if you lose.{SCROLL}So don’t let this loss get{NEWLINE}you down. Go on and take the{CLEAR}challenge on the other islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "传说洛奇亚就沉睡在旋涡列岛的地下,{NEWLINE}我本来想到下面一探究竟的,{CLEAR}却遇到一个怪和尚说我不是有缘人,{CLEAR}死活都不让我过去。",
+   "en": "Legend says Lugia sleeps beneath{NEWLINE}the Whirl Islands. I wanted to{CLEAR}go down and see for myself,{SCROLL}but some weird monk said I wasn’t{NEWLINE}one of the chosen, and he flat-out{CLEAR}refused to let me through.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "你已经完成了这座岛的挑战,{NEWLINE}可以去其他地方看看了。",
+   "en": "You’ve already finished the{NEWLINE}challenge on this island. You{CLEAR}can go look around elsewhere.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "哦！你要进行旋涡列岛挑战啊,{NEWLINE}好好好,我正无聊呢,真是太好了。{CLEAR}我的题目可是在岛上{CLEAR}憋了很久才想出来的,{CLEAR}一点都不简单,{CLEAR}你要想清楚了再作答啊！{SCROLL}第一题：{NEWLINE}洛奇亚的特性是什么？",
+   "en": "Oh! You’re doing the Whirl Islands{NEWLINE}Challenge? Great, great! I was bored{CLEAR}out of my mind, so this is perfect.{SCROLL}I racked my brains for ages out{NEWLINE}here on this island to come up with my{CLEAR}questions. They’re not easy at all,{CLEAR}so think carefully before you answer!{SCROLL}Question 1: What are Lugia’s Abilities?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "漂浮、多重鳞片",
+   "en": "Levitate/Multiscale",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 40,
+   "zh": "漂浮、压迫感",
+   "en": "Levitate/Pressure",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 41,
+   "zh": "压迫感、精神力",
+   "en": "Pressure/Inner Focus",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 42,
+   "zh": "压迫感、多重鳞片",
+   "en": "Pressure/Multiscale",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 43,
+   "zh": "第二题：{NEWLINE}在所有的传说精灵中,{CLEAR}有几只精灵的种族值总和{CLEAR}比洛奇亚更高？",
+   "en": "Question 2: Of all the legendary{NEWLINE}Pokémon, how many have a higher{CLEAR}base stat total than Lugia?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "0",
+   "en": "0",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 45,
+   "zh": "1",
+   "en": "1",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 46,
+   "zh": "2",
+   "en": "2",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 47,
+   "zh": "3",
+   "en": "3",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 48,
+   "zh": "第三题：{NEWLINE}根据缘朱市的传说,{CLEAR}召唤凤王需要使用透明铃铛,{CLEAR}那么召唤洛奇亚需要使用什么呢？",
+   "en": "Question 3: In the Ecruteak{NEWLINE}City legend, the Clear Bell{CLEAR}is needed to summon Ho-Oh. So{CLEAR}what is needed to summon Lugia?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "蓝色宝珠",
+   "en": "Blue Orb",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 50,
+   "zh": "心之水滴",
+   "en": "Soul Dew",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 51,
+   "zh": "天界之笛",
+   "en": "Azure Flute",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 'Enigma Stone' corrected to Azure Flute (glossary).",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 52,
+   "zh": "海鸣铃铛",
+   "en": "Tidal Bell",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 53,
+   "zh": "第四题：{NEWLINE}在城都地区,除了旋涡列岛之外,{CLEAR}还有哪个地方与洛奇亚{CLEAR}有着很深的渊源？",
+   "en": "Question 4: In the Johto region,{NEWLINE}which place besides the Whirl{CLEAR}Islands has deep ties to Lugia?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "桧皮镇",
+   "en": "Azalea Town",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 55,
+   "zh": "缘朱市",
+   "en": "Ecruteak City",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 56,
+   "zh": "若叶镇",
+   "en": "New Bark Town",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 57,
+   "zh": "湛蓝市",
+   "en": "Cianwood City",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 58,
+   "zh": "很好,问答环节现在结束。{NEWLINE}下面是检验硬实力的对战环节,{CLEAR}你可要小心了！",
+   "en": "Very good. That’s the end of{NEWLINE}the quiz. Next comes the battle,{CLEAR}where real strength is put{CLEAR}to the test. Watch yourself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "你真是太厉害了,{NEWLINE}我在岛上修行这么久,{CLEAR}居然还远远不是你的对手。{SCROLL}这座岛的挑战就到此为止了,{NEWLINE}请去其他岛继续进行挑战吧。",
+   "en": "You’re amazing. I’ve trained{NEWLINE}on this island for so long, and I’m{CLEAR}still nowhere near a match for you.{SCROLL}That’s all for the challenge{NEWLINE}on this island. Please carry on with{CLEAR}the challenge on the other islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "这就是你的全部实力吗？{NEWLINE}总感觉我有点胜之不武啊。{CLEAR}算了,不重要了。{SCROLL}你在这座岛的挑战已经全部完成,{NEWLINE}请去其他岛继续进行挑战吧。",
+   "en": "Is that really all you’ve got? It{NEWLINE}feels like my win wasn’t much of a{CLEAR}win. Oh well, it doesn’t matter.{SCROLL}You’ve finished everything on this{NEWLINE}island. Please carry on with the{CLEAR}challenge on the other islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "旋涡列岛被礁石和旋涡包围,{NEWLINE}普通人根本无法靠近,{CLEAR}只有有实力的训练家{CLEAR}在精灵的帮助下才能进入漩涡岛。{CLEAR}这仿佛是在对想进入漩涡岛的人{CLEAR}进行选择一样。",
+   "en": "The Whirl Islands are ringed by reefs{NEWLINE}and whirlpools, so ordinary people{CLEAR}can’t get anywhere near them.{SCROLL}Only skilled Trainers can reach them,{NEWLINE}with the help of their Pokémon. It’s as{CLEAR}if the islands choose who may enter.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "你如果想完成旋涡列岛挑战,{NEWLINE}可不能只在这座岛上闲逛,{CLEAR}去其他岛上看看吧。",
+   "en": "If you want to finish the Whirl{NEWLINE}Islands Challenge, you can’t{CLEAR}just wander around this one{CLEAR}island. Go see the other islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "哈哈,欢迎参加旋涡列岛挑战啊。{NEWLINE}我就喜欢你这种到处挑战的年轻人。{CLEAR}关于挑战规则,{CLEAR}主持人应该都告诉你了,{CLEAR}咱们就直接进入正题吧。{CLEAR}首先是问答环节,{CLEAR}你可要把题目听仔细了。{SCROLL}第一题：{NEWLINE}洛奇亚背上的方形深色鳍片{CLEAR}一共有多少片？",
+   "en": "Ha ha, welcome to the Whirl Islands{NEWLINE}Challenge! I just love young people{CLEAR}who go around taking on challenges.{SCROLL}The host must have told you the rules{NEWLINE}already, so let’s get straight to it.{SCROLL}First comes the quiz, so listen{NEWLINE}carefully to the questions.{SCROLL}Question 1: How many dark, square{NEWLINE}fins does Lugia have on its back?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "6",
+   "en": "6",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 65,
+   "zh": "8",
+   "en": "8",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 66,
+   "zh": "10",
+   "en": "10",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 67,
+   "zh": "12",
+   "en": "12",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 68,
+   "zh": "第二题：{NEWLINE}洛奇亚每个翅膀末端分为了几瓣？",
+   "en": "Question 2: How many parts is the tip{NEWLINE}of each of Lugia’s wings split into?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "2",
+   "en": "2",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 70,
+   "zh": "3",
+   "en": "3",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 71,
+   "zh": "4",
+   "en": "4",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 72,
+   "zh": "5",
+   "en": "5",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 73,
+   "zh": "第三题：{NEWLINE}下列哪只精灵的速度比洛奇亚还快？",
+   "en": "Question 3: Which of these{NEWLINE}Pokémon is faster than Lugia?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "肥蓝猫",
+   "en": "Purugly",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 75,
+   "zh": "勇吉拉",
+   "en": "Kadabra",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 76,
+   "zh": "飞天螳螂",
+   "en": "Scyther",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 77,
+   "zh": "比雕",
+   "en": "Pidgeot",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 78,
+   "zh": "第四题：{NEWLINE}根据传说,洛奇亚为什么要藏身在海底？",
+   "en": "Question 4: According to{NEWLINE}legend, why does Lugia hide{CLEAR}at the bottom of the sea?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "为了躲避人类的捕杀",
+   "en": "To escape hunters",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 80,
+   "zh": "为了未来的战斗积蓄力量",
+   "en": "To save its power",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 81,
+   "zh": "为了不让过强的力量伤害到人类",
+   "en": "So its power harms no one",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 82,
+   "zh": "为了恢复伤势而在海底休息",
+   "en": "To heal its wounds",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 83,
+   "zh": "以上就是问答环节的全部问题,{NEWLINE}至于你的作答正确与否,{CLEAR}在最终颁奖时才会揭晓。{CLEAR}下面是对战环节,{CLEAR}让我看看年轻人身上的活力吧！",
+   "en": "That’s every question in the quiz.{NEWLINE}Whether you got them right will be{CLEAR}revealed at the final prize-giving.{SCROLL}Next up is the battle. Show me{NEWLINE}some of that youthful energy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "现在的年轻人都这么厉害了吗？{NEWLINE}我是不是该原地退休比较好……{SCROLL}啊,不好意思,{NEWLINE}刚刚被你的强大实力吓了一跳,{CLEAR}于是情不自禁地怀疑人生了。{CLEAR}你在这座岛的挑战已经结束了,{CLEAR}请去其他岛继续进行挑战吧。",
+   "en": "Are all young people this strong{NEWLINE}these days? Maybe I should{CLEAR}just retire on the spot...{SCROLL}Oh, sorry. Your strength gave{NEWLINE}me such a shock that I started{CLEAR}questioning my whole life.{SCROLL}Your challenge on this island is{NEWLINE}over. Please carry on with the{CLEAR}challenge on the other islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "哈哈,你的实力虽然不错,{NEWLINE}但我也不比年轻人差啊。{SCROLL}跟你的对战结果我会转告主持人的,{NEWLINE}你在这座岛的挑战已经结束了,{CLEAR}请去其他岛继续进行挑战吧。",
+   "en": "Ha ha, you’re not bad at all, but I{NEWLINE}can still keep up with you young folks!{SCROLL}I’ll pass the result of our battle on{NEWLINE}to the host. Your challenge on this{CLEAR}island is over. Please carry on with{CLEAR}the challenge on the other islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "在这片波涛汹涌的海域,{NEWLINE}人类借助精灵的力量,{CLEAR}初次实现了横渡大海。{CLEAR}精灵在人类文明的建立过程中{CLEAR}有着不可磨灭的贡献。",
+   "en": "It was on these raging seas that{NEWLINE}people, with the help of Pokémon,{CLEAR}first managed to cross the ocean.{SCROLL}Pokémon have made an{NEWLINE}indelible contribution to{CLEAR}building human civilization.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "想要完成旋涡列岛挑战,{NEWLINE}必须走遍全部四座海岛。{CLEAR}如果你还没有完成,{CLEAR}就去其他岛看看吧。",
+   "en": "To finish the Whirl Islands{NEWLINE}Challenge, you have to visit all{CLEAR}four islands. If you haven’t done{CLEAR}that yet, go see the other islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "原来如此,{NEWLINE}你为了完成旋涡列岛挑战{CLEAR}而来到这座偏远的海岛。{CLEAR}那么就由我来给你出题,{CLEAR}看看你对洛奇亚的了解程度吧。{SCROLL}第一题：{NEWLINE}异色的洛奇亚身上除了白色,{CLEAR}另一个特征色是？",
+   "en": "I see. You came all the way out{NEWLINE}to this remote island to finish{CLEAR}the Whirl Islands Challenge.{SCROLL}Then I’ll give you the questions{NEWLINE}and see how well you know Lugia.{SCROLL}Question 1: Besides white, what is{NEWLINE}the other main color of a Shiny Lugia?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "金色",
+   "en": "Gold",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 90,
+   "zh": "黄色",
+   "en": "Yellow",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 91,
+   "zh": "银色",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 92,
+   "zh": "红色",
+   "en": "Red",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 93,
+   "zh": "第二题：{NEWLINE}洛奇亚属于那种口袋妖怪分类？",
+   "en": "Question 2: What category{NEWLINE}of Pokémon is Lugia?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "潜水口袋妖怪",
+   "en": "Diving Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 95,
+   "zh": "飞翔口袋妖怪",
+   "en": "Soaring Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 96,
+   "zh": "海洋口袋妖怪",
+   "en": "Ocean Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 97,
+   "zh": "神圣口袋妖怪",
+   "en": "Sacred Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 98,
+   "zh": "第三题：{NEWLINE}传说洛奇亚现身时会伴随着什么？",
+   "en": "Question 3: According to legend, what{NEWLINE}comes with Lugia when it appears?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "龙卷风",
+   "en": "A tornado",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 100,
+   "zh": "暴风雨",
+   "en": "A storm",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 101,
+   "zh": "巨大的声音",
+   "en": "A huge sound",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 102,
+   "zh": "银色的光",
+   "en": "A silver light",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 103,
+   "zh": "第四题：{NEWLINE}在城都地区什么样的精灵{CLEAR}被人们称作海神？",
+   "en": "Question 4: In the Johto{NEWLINE}region, what kind of Pokémon do{CLEAR}people call the god of the sea?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "驱使海洋生物的精灵",
+   "en": "Rules sea creatures",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 105,
+   "zh": "创造了大海的精灵",
+   "en": "Created the sea",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 106,
+   "zh": "守护大海的精灵",
+   "en": "Protects the sea",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 107,
+   "zh": "海中最强的精灵",
+   "en": "Strongest in the sea",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 108,
+   "zh": "从你刚才的回答中,{NEWLINE}我看到了你对洛奇亚的了解程度。{CLEAR}接下来咱们来一场对战,{CLEAR}让我再看看你的实力！",
+   "en": "Your answers showed me how well you{NEWLINE}know Lugia. Now let’s have a battle{CLEAR}so I can see how strong you are!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "这……你是联盟冠军{VAR:0103:0}！？{SCROLL}如果不是看到你出手战斗,{NEWLINE}我都完全没认出来。{CLEAR}真是没想到你也会来旋涡列岛{CLEAR}参加这种小型挑战。{CLEAR}现在你已经完成了这座岛的挑战,{CLEAR}可以去其他岛看看了。{CLEAR}不过我想再难的挑战,{CLEAR}也都难不倒身为冠军的你吧！",
+   "en": "Wha... You’re League{NEWLINE}Champion {VAR:0103:0}?!{SCROLL}I didn’t recognize you at all until{NEWLINE}I saw you battle. I never thought{CLEAR}you’d come to the Whirl Islands{CLEAR}for a little challenge like this.{SCROLL}You’ve finished the challenge{NEWLINE}on this island, so you can{CLEAR}go see the other islands.{SCROLL}Though I’m sure no challenge,{NEWLINE}however hard, is too much{CLEAR}for a Champion like you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "好久没有这样活动筋骨了,{NEWLINE}这样全力对战一次还真爽啊。{CLEAR}你现在已经完成了这座岛的挑战,{CLEAR}但需要挑战的小岛总共有四座,{CLEAR}如果你还没有全部完成,{CLEAR}就去其他岛看看吧。",
+   "en": "It’s been ages since I stretched{NEWLINE}my legs like that. A full-power{CLEAR}battle sure feels great!{SCROLL}You’ve finished the challenge on this{NEWLINE}island, but there are four islands{CLEAR}in all. If you haven’t done them{CLEAR}all yet, go see the other islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "宝石海星『Staaa——mi！",
+   "en": "Starmie: Staaa-mi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "电灯怪『Laaa——tu！",
+   "en": "Lanturn: Laaa-tu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "大力鳄『Feee——ra！",
+   "en": "Feraligatr: Feee-ra!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "镰刀盔『Kaaa——bu！",
+   "en": "Kabutops: Kaaa-bu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

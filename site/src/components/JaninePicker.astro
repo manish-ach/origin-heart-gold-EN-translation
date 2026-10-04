@@ -1,0 +1,189 @@
+---
+// Victory Road 3F: which competitor is the disguised Janine, shown inline in the guide
+// (marker <!-- solver: janine-picker --> in guide/06-sevii-islands-indigo.md, right after the table).
+// The answers are NOT stored here: the script reads the guide's own table (the one whose header names
+// "Route 11", in the same quest section), its footnote and the "Where they stand" list, so the picker
+// always shows what the guide says. If that table can't be read as expected, the picker stays hidden
+// and the table alone answers the question (as it does without JavaScript).
+// The table was checked against script file 110 (L4251–L4668, L8952–L10232): flags 1287/1288/1289
+// = Charmander/Pikachu/Bulbasaur, 1610 grass cutter side, 1895 environmentalist side, 1093 S.S. Anne sank.
+---
+<div class="janine not-content">
+	<form class="janine-form" hidden onsubmit="return false">
+		<p class="janine-title">Find the disguised Janine in your game</p>
+		<div class="janine-inputs">
+			<label><span>Playing as</span><select class="janine-gender"></select></label>
+			<label><span>Starter</span><select class="janine-starter"></select></label>
+			<label><span>Route 11</span><select class="janine-route"></select></label>
+			<label><span>The S.S. Anne</span>
+				<select class="janine-ship">
+					<option value="afloat">Stayed afloat (bomb defused)</option>
+					<option value="sank">Sank</option>
+				</select>
+			</label>
+		</div>
+		<p class="janine-links"></p>
+		<p class="sr-only janine-status" role="status" aria-live="polite" aria-atomic="true"></p>
+		<div class="janine-out">
+			<p class="janine-label">Talk to</p>
+			<p class="janine-who"></p>
+			<p class="janine-where"></p>
+			<p class="janine-next">
+				Beat Janine on 2F first, or nobody on 3F reveals anything. Then talk to this Trainer and win the battle: Janine reveals
+				herself and gives you the real password, <strong>570819</strong>. The matching cell is marked in the table above.
+			</p>
+		</div>
+	</form>
+</div>
+
+<style is:global>
+	.janine { margin: 1rem 0 1.25rem; }
+	.janine [hidden] { display: none !important; }
+	.janine-form {
+		border: 1px solid var(--sl-color-gray-5); border-radius: 0.75rem; padding: 1rem 1.25rem;
+		background: var(--sl-color-gray-7, var(--sl-color-black)); color: var(--sl-color-gray-2);
+	}
+	.janine-form p { margin: 0; }
+	.janine-title { font-weight: 700; color: var(--sl-color-white); margin-bottom: 0.75rem !important; }
+	.janine-inputs { display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; align-items: end; }
+	.janine-inputs label { display: grid; gap: 0.25rem; font-size: var(--sl-text-sm); font-weight: 600; color: var(--sl-color-white); }
+	.janine-inputs select {
+		font: inherit; font-weight: 400; font-size: var(--sl-text-base); color: var(--sl-color-white); background: var(--sl-color-bg);
+		border: 1px solid var(--sl-color-gray-4); border-radius: 0.4rem; padding: 0.35rem 0.6rem; max-width: 100%;
+	}
+	.janine-inputs select:focus-visible { outline: 2px solid var(--sl-color-text-accent); outline-offset: 2px; }
+	.janine-links { font-size: var(--sl-text-sm); margin-top: 0.6rem !important; }
+	.janine-links a { color: var(--sl-color-text-accent); }
+	.janine-out { margin-top: 1rem; padding: 0.75rem 1rem; border: 1px solid var(--sl-color-text-accent); border-radius: 0.5rem; background: var(--sl-color-bg); }
+	.janine-label { font-size: var(--sl-text-sm); color: var(--sl-color-gray-3); text-transform: uppercase; letter-spacing: 0.08em; }
+	.janine-who { font-size: var(--sl-text-2xl); font-weight: 700; color: var(--sl-color-text-accent); line-height: 1.25; }
+	.janine-who small { display: block; font-size: var(--sl-text-sm); font-weight: 400; color: var(--sl-color-gray-2); }
+	.janine-where, .janine-next { font-size: var(--sl-text-sm); margin-top: 0.5rem !important; }
+	@media (max-width: 30rem) {
+		.janine-form { padding: 0.75rem; }
+		.janine-inputs label { width: 100%; }
+		.janine-inputs select { width: 100%; }
+	}
+	@media print {
+		.janine { display: none; }
+	}
+	td.janine-hit { outline: 2px solid var(--sl-color-text-accent); outline-offset: -2px; font-weight: 700; }
+</style>
+
+<script>
+	type Cell = { td: HTMLTableCellElement; afloat: string[]; sank: string[] };
+	type Row = { gender: string; starter: string; cells: Cell[] };
+	const SUP = '¹²³⁴⁵⁶⁷⁸⁹';
+	const NAME = /^[A-Z][A-Za-z.'’ -]+[A-Za-z]$/;
+	const text = (e: Element | null | undefined) => (e?.textContent || '').replace(/\s+/g, ' ').trim();
+
+	// Read the guide's table; null when it doesn't have the expected shape.
+	function readTable(section: Element) {
+		const table = [...section.querySelectorAll('table')].find((t) => /Route 11/.test(text(t.querySelector('thead'))));
+		if (!table) return null;
+		const head = [...table.querySelectorAll('thead th')].map(text);
+		if (head.length !== 5 || head[0] !== 'You' || head[1] !== 'Starter') return null;
+		const routes = head.slice(2).map((h) => h.replace(/^Route 11:\s*/, ''));
+		const notes = new Map<string, string>();
+		for (const p of section.querySelectorAll('p')) {
+			const t = text(p);
+			if (t && SUP.includes(t[0])) notes.set(t[0], t.slice(1).trim());
+		}
+		const rows: Row[] = [];
+		for (const tr of table.querySelectorAll('tbody tr')) {
+			const tds = [...tr.querySelectorAll<HTMLTableCellElement>('td, th')];
+			if (tds.length !== 5) return null;
+			const cells: Cell[] = [];
+			for (const td of tds.slice(2)) {
+				const t = text(td);
+				let m = t.match(/^(.+?) \((.+?) if the S\.S\. Anne sank\)$/);
+				let cell: Cell | null = null;
+				if (m) cell = { td, afloat: [m[1]], sank: [m[2]] };
+				else if ((m = t.match(new RegExp(`^(.+?)([${SUP}])$`)))) {
+					const n = (notes.get(m[2]) || '').match(/^If the S\.S\. Anne sank\b.*?, (.+?) also works\.?$/);
+					if (n) cell = { td, afloat: [m[1]], sank: [m[1], n[1]] };
+				} else cell = { td, afloat: [t], sank: [t] };
+				if (!cell || ![...cell.afloat, ...cell.sank].every((x) => NAME.test(x))) return null;
+				cells.push(cell);
+			}
+			rows.push({ gender: text(tds[0]), starter: text(tds[1]), cells });
+		}
+		const genders = [...new Set(rows.map((r) => r.gender))];
+		const starters = [...new Set(rows.map((r) => r.starter))];
+		if (rows.length !== genders.length * starters.length) return null;
+		return { routes, rows, genders, starters };
+	}
+
+	function readSetup() {
+		try { return JSON.parse(localStorage.getItem('ohg:setup') || 'null') || {}; } catch { return {}; }
+	}
+
+	for (const root of document.querySelectorAll<HTMLElement>('.janine')) {
+		const section = root.closest('section.quest') || root.parentElement;
+		const data = section && readTable(section);
+		if (!section || !data) continue;
+		const $ = <T extends Element>(s: string) => root.querySelector<T>(s)!;
+		const gender = $<HTMLSelectElement>('.janine-gender'), starter = $<HTMLSelectElement>('.janine-starter');
+		const route = $<HTMLSelectElement>('.janine-route'), ship = $<HTMLSelectElement>('.janine-ship');
+		const fill = (sel: HTMLSelectElement, values: string[]) => values.forEach((v, i) => sel.add(new Option(v, String(i))));
+		fill(gender, data.genders);
+		fill(starter, data.starters);
+		fill(route, data.routes.map((r) => r[0].toUpperCase() + r.slice(1)));
+
+		// Where those choices happen: reuse the guide's own links in this section.
+		const links = $<HTMLElement>('.janine-links');
+		const pick = (re: RegExp) => [...section.querySelectorAll<HTMLAnchorElement>('a[href*="#"]')].find((a) => re.test(a.hash));
+		const parts = [[pick(/^#route-11/), 'Route 11 choice'], [pick(/^#ss-anne/), 'S.S. Anne bomb']] as const;
+		for (const [a, label] of parts) {
+			if (!a) continue;
+			if (links.childNodes.length) links.append(' · ');
+			const l = document.createElement('a');
+			l.href = a.href;
+			l.textContent = `Where the ${label} happens`;
+			links.append(l);
+		}
+		if (!links.childNodes.length) links.hidden = true;
+
+		// "Your game" panel (site/public/ohg.js) remembers starter and gender: start from those.
+		const fromSetup = () => {
+			const s = readSetup();
+			const g = data.genders.findIndex((x) => x.toLowerCase() === s.gender);
+			const st = data.starters.indexOf(s.starter);
+			if (g >= 0) gender.value = String(g);
+			if (st >= 0) starter.value = String(st);
+		};
+
+		const where = (name: string) => {
+			const li = [...section.querySelectorAll('li')].find((l) => text(l.querySelector('strong')) === name);
+			if (!li) return '';
+			return text(li).slice(name.length).replace(/^\s*(\([^)]*\))?\s*:\s*/, '');
+		};
+
+		const update = () => {
+			const row = data.rows.find((r) => r.gender === data.genders[+gender.value] && r.starter === data.starters[+starter.value]);
+			const cell = row?.cells[+route.value];
+			section.querySelectorAll('td.janine-hit').forEach((td) => td.classList.remove('janine-hit'));
+			if (!cell) return;
+			cell.td.classList.add('janine-hit');
+			const names = ship.value === 'sank' ? cell.sank : cell.afloat;
+			const who = $<HTMLElement>('.janine-who');
+			who.textContent = names[0];
+			if (names.length > 1) {
+				const s = document.createElement('small');
+				s.textContent = `${names.slice(1).join(', ')} also works.`;
+				who.append(s);
+			}
+			const w = names.map((n) => [n, where(n)]).filter(([, x]) => x);
+			$<HTMLElement>('.janine-where').textContent = w.map(([n, x]) => (names.length > 1 ? `${n}: ${x}` : `Where: ${x}`)).join(' ');
+			$<HTMLElement>('.janine-status').textContent = `Talk to ${names.join(' or ')}.`;
+		};
+
+		root.addEventListener('change', update);
+		document.addEventListener('change', (e) => {
+			if ((e.target as Element | null)?.closest?.('.game-setup')) { fromSetup(); update(); }
+		});
+		fromSetup();
+		$<HTMLFormElement>('.janine-form').hidden = false;
+		update();
+	}
+</script>

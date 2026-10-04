@@ -1,0 +1,1817 @@
+{
+ "narc": "a027",
+ "bank": 537,
+ "source": "work/extract/v4/a027/0537.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "妈妈『哎呀,{VAR:0103:0}！{NEWLINE}终于下来了啊,{SCROLL}你得抓点紧啊！{NEWLINE}不要让大木博士{CLEAR}等你太久了{SCROLL}妈妈『毕竟今天可是,{NEWLINE}对你来说意义重大的{SCROLL}踏上精灵训练家之旅的日子{SCROLL}",
+   "en": "Mom: Oh, {VAR:0103:0}! You’re finally up.{SCROLL}You’d better hurry! Don’t keep{NEWLINE}Professor Oak waiting too long.{SCROLL}Mom: After all, today is a big day for{NEWLINE}you.{SCROLL}It’s the day you set off on your{NEWLINE}journey as a Pokémon Trainer!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 1,
+   "zh": "妈妈『哎呀,{VAR:0103:0}！{NEWLINE}终于下来了啊,{SCROLL}你得抓点紧啊！{NEWLINE}不要让大木博士{CLEAR}等你太久了{SCROLL}妈妈『毕竟今天可是,{NEWLINE}对你来说意义重大的{SCROLL}踏上精灵训练家之旅的日子{SCROLL}",
+   "en": "Mom: Oh, {VAR:0103:0}! You’re finally up.{SCROLL}You’d better hurry! Don’t keep{NEWLINE}Professor Oak waiting too long.{SCROLL}Mom: After all, today is a big day for{NEWLINE}you.{SCROLL}It’s the day you set off on your{NEWLINE}journey as a Pokémon Trainer!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}『昨晚兴奋地睡不着{SCROLL}所以今早才起来晚了……{SCROLL}",
+   "en": "{VAR:0103:0}: I was too excited to sleep{NEWLINE}last night...{SCROLL}...so I overslept this morning...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 3,
+   "zh": "妈妈『{VAR:0103:0}肯定想象了不少{NEWLINE}跟精灵一起冒险的事吧,{SCROLL}妈妈『你能坚定地选择{NEWLINE}成为精灵训练家这条路{SCROLL}妈妈也替你高兴呢。{SCROLL}妈妈『好了，不多说了{NEWLINE}我把你的东西都准备好了！……{SCROLL}",
+   "en": "Mom: {VAR:0103:0}, I bet you dreamed up all{NEWLINE}sorts of Pokémon adventures!{SCROLL}Mom: You’ve made up your mind to become{NEWLINE}a Pokémon Trainer.{SCROLL}And I’m happy for you.{SCROLL}Mom: Well, enough talk. I’ve got all{NEWLINE}your things ready!...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0103:0}『然后终有一天{NEWLINE}我将成为精灵联盟的冠军！{SCROLL}",
+   "en": "{VAR:0103:0}: And someday, I’ll become{NEWLINE}Champion of the Pokémon League!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:0103:0}『妈妈,你放心吧{NEWLINE}我一定会照顾好自己的。{SCROLL}",
+   "en": "{VAR:0103:0}: Don’t worry, Mom. I’ll take{NEWLINE}good care of myself.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 6,
+   "zh": "妈妈『嗯,妈妈相信你{NEWLINE}时候不早了{CLEAR}你去找大木博士吧，{CLEAR}不要迟到了。{SCROLL}",
+   "en": "Mom: Mm, I believe in you. It’s getting{NEWLINE}late.{SCROLL}Go see Professor Oak, and don’t be{NEWLINE}late.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 7,
+   "zh": "妈妈『穿上它的话{NEWLINE}会比平时跑的更快{NEWLINE}一定能在{VAR:0103:0}的旅行中帮上忙的！{SCROLL}",
+   "en": "Mom: Put these on and you’ll run faster{NEWLINE}than usual.{SCROLL}I’m sure they’ll help you on your{NEWLINE}journey, {VAR:0103:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0537#7; text not kept)"
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:0103:0}得到了{NEWLINE}口袋手机！{SCROLL}",
+   "en": "{VAR:0103:0} received{NEWLINE}the Pokégear!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0545/8 HGSS Pokégear gift from Mom: zh 口袋手机 here is the Pokégear, not the DP Pokétch (D-0248); kept US ‘Pokégear’.",
+   "qa_ignore": [
+    "glossary:口袋手机"
+   ]
+  },
+  {
+   "id": 9,
+   "zh": "！！！9{SCROLL}",
+   "en": "!!!9{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Debug placeholders #9–#11 (！！！n) kept as-is."
+  },
+  {
+   "id": 10,
+   "zh": "！！！10",
+   "en": "!!!10",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "！！！11",
+   "en": "!!!11",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "妈妈『那么我读说明书咯{SCROLL}从下画面的菜单{NEWLINE}选择手机图标,{CLEAR}选择电话图标。{SCROLL}",
+   "en": "Mom: Then I’ll read you the manual.{SCROLL}Select the Pokégear icon on the Touch{NEWLINE}Screen menu, then the phone icon.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0545/12; modernised from US 0545#12",
+   "qa_ignore": [
+    "glossary:手机"
+   ]
+  },
+  {
+   "id": 13,
+   "zh": "妈妈『从博士那里拿到了{NEWLINE}很可爱的精灵呢{SCROLL}还被博士拜托收集图鉴了啊{NEWLINE}看起来会很辛苦呢{SCROLL}不过被人拜托{NEWLINE}可是很了不起的事喔！{SCROLL}对了,我帮你买的跑鞋到了！{SCROLL}",
+   "en": "Mom: What a cute Pokémon you got from{NEWLINE}the Professor!{SCROLL}And he asked you to fill the Pokédex for{NEWLINE}him? Sounds like hard work.{SCROLL}But being trusted with something like{NEWLINE}that is quite an honor!{SCROLL}Oh, that’s right! The running shoes I{NEWLINE}bought you have arrived!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 14,
+   "zh": "妈妈『怎么了？{NEWLINE}旅途中遇到什么烦恼了吗？{SCROLL}没事的{NEWLINE}只要你坚定不放弃{CLEAR}就一定可以成为优秀的训练家{CLEAR}妈妈会支持你的！",
+   "en": "Mom: What’s wrong? Did you run into{NEWLINE}some trouble on your journey?{SCROLL}It’ll be fine. Stay determined and never{NEWLINE}give up, and you’ll be a great Trainer.{SCROLL}Mom’s behind you all the way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 15,
+   "zh": "妈妈『旅途中是会遇到一些烦恼的,{SCROLL}不过没事的{NEWLINE}只要你坚定不放弃{NEWLINE}就一定可以成为优秀的训练家{SCROLL}所以妈妈也来帮忙吧！{CLEAR}不过我能做点什么呢？{SCROLL}对了！{SCROLL}你每次拿到奖金的时候{NEWLINE}都分给妈妈一点点{CLEAR}让我帮你存起来吧！{SCROLL}这旅途会很漫长,{NEWLINE}所以钱是很重要的！{SCROLL}怎么样,要存钱吗？{VAR:0200:0}",
+   "en": "Mom: You’re bound to run into some{NEWLINE}trouble on your journey.{SCROLL}But it’ll be fine.{SCROLL}Stay determined and never give up, and{NEWLINE}you’ll be a great Trainer.{SCROLL}So I want to help too! But what can I{NEWLINE}do?{SCROLL}I know!{SCROLL}Every time you win prize money, give Mom{NEWLINE}a little bit, and I’ll save it for you!{SCROLL}It’s a long journey, so money is{NEWLINE}important!{SCROLL}What do you say? Want me to save money{NEWLINE}for you?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0545/15"
+  },
+  {
+   "id": 16,
+   "zh": "妈妈『旅途中遇到什么烦恼了吗？{SCROLL}没事的{NEWLINE}只要你坚定不放弃{NEWLINE}就一定可以成为优秀的训练家{SCROLL}所以妈妈也来帮忙吧！{CLEAR}不过我能做点什么呢？{SCROLL}对了！{SCROLL}你每次拿到奖金的时候{NEWLINE}都分给妈妈一点点{CLEAR}让我帮你存起来吧！{SCROLL}这旅途会很漫长,{NEWLINE}所以钱是很重要的！{SCROLL}怎么样,要存钱吗？{VAR:0200:0}",
+   "en": "Mom: Did you run into some trouble on{NEWLINE}your journey?{SCROLL}It’ll be fine. Stay determined and never{NEWLINE}give up, and you’ll be a great Trainer.{SCROLL}So I want to help too! But what can I{NEWLINE}do?{SCROLL}I know!{SCROLL}Every time you win prize money, give Mom{NEWLINE}a little bit, and I’ll save it for you!{SCROLL}It’s a long journey, so money is{NEWLINE}important!{SCROLL}What do you say? Want me to save money{NEWLINE}for you?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0545/16 | seed rejected us [tag_mismatch] (candidate US 0545#16; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0537#16; text not kept)"
+  },
+  {
+   "id": 17,
+   "zh": "妈妈『明白了,交给我吧！{SCROLL}……　……　……{NEWLINE}……旅途中要学会照顾自己啊！{SCROLL}如果累了的话,{CLEAR}就回到卧室床上休息一下{CLEAR}很快就能恢复精力的{SCROLL}精灵是很重要的朋友,{NEWLINE}大家一起努力的话{CLEAR}就没有什么办不到的！{SCROLL}好,一路顺风喔！",
+   "en": "Mom: Got it. Leave it to me!{SCROLL}... ... ...{SCROLL}...Take good care of yourself out{NEWLINE}there!{SCROLL}If you get tired, come back and rest in{NEWLINE}your bed. You’ll feel better in no time.{SCROLL}Pokémon are very important friends.{SCROLL}Work together, and nothing is{NEWLINE}impossible!{SCROLL}All right, have a safe trip!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags fullwidth_chars"
+  },
+  {
+   "id": 18,
+   "zh": "妈妈『自己理财也很锻炼人呢。{SCROLL}旅途中要学会照顾自己啊！{SCROLL}如果累了的话,{CLEAR}就回到卧室床上休息一下{CLEAR}很快就能恢复精力的{SCROLL}精灵是非常重要的朋友,{NEWLINE}大家一起努力的话{CLEAR}就没有什么办不到的！{SCROLL}好,路上小心喔！",
+   "en": "Mom: Managing your own money is good{NEWLINE}practice too.{SCROLL}Make sure you take care of yourself out{NEWLINE}there!{SCROLL}If you get tired, come back and rest in{NEWLINE}your bed. You’ll feel better in no time.{SCROLL}Pokémon are very important friends.{SCROLL}Work together, and nothing is{NEWLINE}impossible!{SCROLL}All right, be careful out there!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0545/18"
+  },
+  {
+   "id": 19,
+   "zh": "妈妈『{VAR:0103:0}加油！{NEWLINE}妈妈会为你加油的！",
+   "en": "Mom: Do your best, {VAR:0103:0}! Mom’s{NEWLINE}cheering for you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0545/19"
+  },
+  {
+   "id": 20,
+   "zh": "妈妈『欢迎回来！{NEWLINE}看上去有好好努力呢,{SCROLL}你在二楼的房间,{NEWLINE}妈妈每天都有打扫喔,{CLEAR}上去睡一觉的话,{CLEAR}一定可以精神满满的！{SCROLL}还是……{CLEAR}要来存钱？{VAR:0200:0}",
+   "en": "Mom: Welcome home! Looks like you’ve{NEWLINE}been working hard.{SCROLL}I clean your room upstairs every day.{SCROLL}Go take a nap and you’ll be full of{NEWLINE}energy!{SCROLL}Or... is this about your savings?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0545/20"
+  },
+  {
+   "id": 21,
+   "zh": "妈妈『别勉强自己。",
+   "en": "Mom: Don’t push yourself too hard.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0545/21"
+  },
+  {
+   "id": 22,
+   "zh": "妈妈『哎呀？{NEWLINE}你没有把零花钱存这里喔。",
+   "en": "Mom: Oh? You don’t have any money{NEWLINE}saved with me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0545/22"
+  },
+  {
+   "id": 23,
+   "zh": "妈妈『我会好好保管的,{NEWLINE}你也要加油喔！",
+   "en": "Mom: I’ll keep it safe for you. You keep{NEWLINE}doing your best!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0545/23"
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0103:0}{NEWLINE}钱的用法{CLEAR}要好好考虑清楚喔！",
+   "en": "{VAR:0103:0}, think carefully about how you{NEWLINE}use your money!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0545/24"
+  },
+  {
+   "id": 25,
+   "zh": "要存钱吗？{VAR:0200:0}",
+   "en": "Do you want to save some money? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0545/25"
+  },
+  {
+   "id": 26,
+   "zh": "妈妈『哎呀？{NEWLINE}都没零花钱了啊！{SCROLL}乱花钱可不行,{NEWLINE}不过这点你和妈妈很像,{CLEAR}我还是很放心的！",
+   "en": "Mom: Oh? You don’t have any money left!{SCROLL}You mustn’t waste it.{SCROLL}But you’re sensible, just like me, so{NEWLINE}I’m not worried!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0545/26"
+  },
+  {
+   "id": 27,
+   "zh": "妈妈『妈妈这里已经存满了,{NEWLINE}已经不能再存了。",
+   "en": "Mom: My savings are full. I can’t save{NEWLINE}any more.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0545/27"
+  },
+  {
+   "id": 28,
+   "zh": "妈妈『零花钱带太多了呢,{NEWLINE}那样我也没办法再给你了。",
+   "en": "Mom: You’re carrying too much money. I{NEWLINE}can’t give you any more.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0545/28"
+  },
+  {
+   "id": 29,
+   "zh": "取出",
+   "en": "WITHDRAW",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0545/29",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 30,
+   "zh": "存钱",
+   "en": "DEPOSIT MONEY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0545/30",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 31,
+   "zh": "切换",
+   "en": "CHANGE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0545/31",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 32,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0545/32",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 33,
+   "zh": "妈妈『哎呀,{VAR:0103:0}！{NEWLINE}你终于睡醒了。{CLEAR}参加石英大会可把你累坏了吧？{CLEAR}妈妈在电视上看到你夺冠{CLEAR}真的非常激动呢！{SCROLL}如果你已经休息够了,{NEWLINE}就去研究所看看吧,{CLEAR}大木博士好像有事情找你哦。{SCROLL}",
+   "en": "Mom: Oh, {VAR:0103:0}! You’re finally awake.{SCROLL}The Indigo Conference must have worn{NEWLINE}you out.{SCROLL}I got so excited watching you win on TV!{SCROLL}If you’ve rested enough, go over to{NEWLINE}the lab.{SCROLL}Professor Oak seems to need you for{NEWLINE}something.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 34,
+   "zh": "妈妈『大木博士好像有事情找你,{NEWLINE}你去研究所看看吧。",
+   "en": "Mom: Professor Oak seems to need you{NEWLINE}for something. Go check at the lab.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 35,
+   "zh": "电视里在放电影！{NEWLINE}两个男人{CLEAR}在洞窟里寻找宝藏！{SCROLL}……得走了！",
+   "en": "The TV is showing a movie! Two men are{NEWLINE}hunting for treasure in a cave!{SCROLL}...I’d better get going!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0545/35"
+  },
+  {
+   "id": 36,
+   "zh": "妈妈擅长的料理,{NEWLINE}红莲风味火山汉堡！",
+   "en": "Cinnabar Volcano Burger!{NEWLINE}Mom’s specialty!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0545/36"
+  },
+  {
+   "id": 37,
+   "zh": "水池铮亮！{NEWLINE}妈妈真是个洁癖。",
+   "en": "A squeaky-clean sink!{NEWLINE}Mom loves having it clean.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0545/37"
+  },
+  {
+   "id": 38,
+   "zh": "冰箱里……{SCROLL}装满了好喝的水{NEWLINE}还有甜甜的混合果汁！",
+   "en": "What’s in the fridge...?{SCROLL}Lots of drinking water and{NEWLINE}sweeeet lemonade!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0545/38"
+  },
+  {
+   "id": 39,
+   "zh": "哎呀！{VAR:0103:0}！{NEWLINE}带回来这么可爱的精灵啦{SCROLL}对了我帮你买的跑鞋到了！",
+   "en": "Oh my! {VAR:0103:0}! What a cute Pokémon{NEWLINE}you’ve brought home!{SCROLL}Oh, and the running shoes I bought you{NEWLINE}have arrived!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 40,
+   "zh": "{VAR:0103:0}得到了跑鞋",
+   "en": "{VAR:0103:0} received the Running Shoes!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 41,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 42,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 43,
+   "zh": "吸盘魔偶『Bar ....ri！{SCROLL}吸盘魔偶经常帮妈妈打扫家务。",
+   "en": "Mr. Mime: Bar....ri!{SCROLL}Mr. Mime often helps Mom with the{NEWLINE}housework.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "妈妈『{VAR:0103:0},你回来啦！{NEWLINE}感觉你出去的这段时间,{CLEAR}长高了也变强壮了呢！{SCROLL}妈妈『旅行还顺利吗？{NEWLINE}拿到多少个徽章了？{CLEAR}有好好吃饭、按时刷牙吗？{CLEAR}有遇到漂亮女孩子的话{CLEAR}可以带回来让妈妈见见哦。",
+   "en": "Mom: {VAR:0103:0}, you’re back! You look{NEWLINE}taller and stronger since you left!{SCROLL}Mom: How’s your journey going? How many{NEWLINE}Badges have you got?{SCROLL}Are you eating properly and brushing{NEWLINE}your teeth?{SCROLL}If you meet a pretty girl, bring her{NEWLINE}home so Mom can meet her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 45,
+   "zh": "妈妈『{VAR:0103:0},你回来啦！{NEWLINE}感觉你出去的这段时间,{CLEAR}长高了也变漂亮了呢！{SCROLL}妈妈『旅行还顺利吗？{NEWLINE}拿到多少个徽章了？{CLEAR}有好好吃饭、按时刷牙吗？{CLEAR}有遇到帅气男孩子的话{CLEAR}可以带回来让妈妈见见哦。",
+   "en": "Mom: {VAR:0103:0}, you’re back! You look{NEWLINE}taller and prettier since you left!{SCROLL}Mom: How’s your journey going? How many{NEWLINE}Badges have you got?{SCROLL}Are you eating properly and brushing{NEWLINE}your teeth?{SCROLL}If you meet a handsome boy, bring him{NEWLINE}home so Mom can meet him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 46,
+   "zh": "妈妈『哈哈,妈妈看到你回来太高兴,{NEWLINE}一不小心就说多了。{CLEAR}这是妈妈给你准备的零食,{CLEAR}你再出门的时候带着在路上吃吧！",
+   "en": "Mom: Ha ha, I was so happy to see you{NEWLINE}that I got carried away.{SCROLL}Here are some snacks I made for you.{SCROLL}Take them with you next time you head{NEWLINE}out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 47,
+   "zh": "妈妈『旅行的路上{NEWLINE}一定要注意安全呐,{CLEAR}有时间的话常回家看看。",
+   "en": "Mom: Stay safe out there on the road,{NEWLINE}and come home to visit when you can.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 48,
+   "zh": "{VAR:0103:0}『妈,你说什么呢……",
+   "en": "{VAR:0103:0}: Mom, what are you talking{NEWLINE}about...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0103:0}『讨厌啦妈,人家哪有那个心思！",
+   "en": "{VAR:0103:0}: Oh, stop it, Mom! I’m not even{NEWLINE}thinking about that stuff!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 50,
+   "zh": "妈妈『{VAR:0103:0},{NEWLINE}你刚从白银山治疗回来,{CLEAR}不再多休息一下了吗？",
+   "en": "Mom: {VAR:0103:0}, you’ve only just come{NEWLINE}back from your treatment on Mt. Silver.{SCROLL}Don’t you want to rest a little longer?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0103:0}『多亏了白银山的温泉,{NEWLINE}我现在已经完全没事了。",
+   "en": "{VAR:0103:0}: Thanks to the hot springs on{NEWLINE}Mt. Silver, I’m completely fine now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 52,
+   "zh": "妈妈『那就好。{NEWLINE}不过你身为联盟冠军,{CLEAR}以后可能还会遇到这样那样的事,{CLEAR}要注意保护自己啊。",
+   "en": "Mom: Good. But as League Champion, you{NEWLINE}might run into all kinds of trouble.{SCROLL}Take care of yourself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 53,
+   "zh": "{VAR:0103:0}『放心吧妈,我会注意的。",
+   "en": "{VAR:0103:0}: Don’t worry, Mom. I’ll be{NEWLINE}careful.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 54,
+   "zh": "电视音『真是遗憾啊,{NEWLINE}今年进入决赛的两位选手{CLEAR}都没能击败四天王。{CLEAR}那么现在就由这两位选手进行对决,{CLEAR}决定今年石英大会冠军的归属！",
+   "en": "TV: What a pity!{SCROLL}Neither of this year’s finalists managed{NEWLINE}to beat the Elite Four.{SCROLL}So now these two will battle for the{NEWLINE}Indigo Conference title!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position 电视音『 (TV sound) → ‘TV:’."
+  },
+  {
+   "id": 55,
+   "zh": "妈妈『妈妈刚才正在看{NEWLINE}今年的石英大会直播,{CLEAR}如果你的身体没问题了,{CLEAR}就来陪妈妈一起看吧。",
+   "en": "Mom: I was just watching this year’s{NEWLINE}Indigo Conference live.{SCROLL}If you’re feeling all right, come watch{NEWLINE}it with me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 56,
+   "zh": "电视音『现在有请{NEWLINE}决赛的两位选手上前！",
+   "en": "TV: And now, will the two finalists{NEWLINE}please step forward!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 57,
+   "zh": "本届石英大会决赛——{NEWLINE}现在开始！",
+   "en": "This year’s Indigo Conference final...{NEWLINE}begins now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "小黄『加油！小拉拉！{NEWLINE}千里『请假王,交给你了！",
+   "en": "Yellow: Go for it, Ratty!{NEWLINE}Norman: Slaking, I’m counting on you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 59,
+   "zh": "小黄『丘丘,打雷！{NEWLINE}千里『袋龙使用硬撑！",
+   "en": "Yellow: Chuchu, Thunder!{NEWLINE}Norman: Kangaskhan, use Facade!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 60,
+   "zh": "千里『因为麻痹状态,{NEWLINE}所以出手慢了一步吗……",
+   "en": "Norman: So paralysis made me a step too{NEWLINE}slow...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 61,
+   "zh": "一番激烈的战斗之后,{NEWLINE}两位选手现在都只剩1只精灵了！{CLEAR}现在他们会怎么做呢？",
+   "en": "After a fierce battle, both competitors{NEWLINE}are down to their last Pokémon!{SCROLL}What will they do now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 62,
+   "zh": "哦——！！！{NEWLINE}千里选手的最后一只袋龙倒下了！",
+   "en": "Ohhh!!! Norman’s last Pokémon,{NEWLINE}Kangaskhan, is down!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 63,
+   "zh": "千里『没想到你年纪轻轻,{NEWLINE}就能将精灵指挥地如此纯熟,{CLEAR}真是了不起啊！",
+   "en": "Norman: You’re so young, yet you{NEWLINE}command your Pokémon so skillfully.{SCROLL}Truly impressive!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 64,
+   "zh": "小黄『千里先生你太过奖了。{NEWLINE}跟联盟冠军{VAR:0103:0}哥哥相比{CLEAR}我还差得远呢。",
+   "en": "Yellow: You flatter me, Mr. Norman.{SCROLL}Compared to League Champion {VAR:0103:0}, I{NEWLINE}still have a long way to go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position Yellow's 哥哥/姐姐 (male #64 / female #89) dropped; both read the same in English."
+  },
+  {
+   "id": 65,
+   "zh": "千里『你时时刻刻{NEWLINE}都在拿自己和联盟冠军比较,{CLEAR}光是这一点就比我强了。",
+   "en": "Norman: You measure yourself against{NEWLINE}the League Champion every moment.{SCROLL}That alone makes you better than me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 66,
+   "zh": "小黄『啊、不,我可没有时时刻刻地……{NEWLINE}千里先生你不要乱讲！",
+   "en": "Yellow: Ah, n-no, not every moment...{NEWLINE}Mr. Norman, don’t say things like that!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 67,
+   "zh": "那么本届石英大会的冠军就是——{NEWLINE}小黄选手！",
+   "en": "And so this year’s Indigo Conference{NEWLINE}champion is... Yellow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "妈妈『哎呀,每年的石英大会{NEWLINE}都会涌现出一批优秀的选手呢。",
+   "en": "Mom: My, every year the Indigo{NEWLINE}Conference turns up a whole batch of{CLEAR}talented Trainers.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 69,
+   "zh": "妈妈『{VAR:0103:0},{NEWLINE}你虽然已经站上了训练家的顶点,{CLEAR}但是不继续努力的话当心被超越哦。",
+   "en": "Mom: {VAR:0103:0}, you may have reached the{NEWLINE}top as a Trainer.{SCROLL}But if you stop working hard, watch{NEWLINE}out! Someone might overtake you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 70,
+   "zh": "{VAR:0103:0}『嗯,为了变得更强,{NEWLINE}我会继续外出旅行锻炼自己的。",
+   "en": "{VAR:0103:0}: Mm. To get even stronger, I’ll{NEWLINE}keep traveling and training.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 71,
+   "zh": "妈妈『能看到你{NEWLINE}再次健健康康地踏上旅途,{CLEAR}妈妈真是既高兴又不舍。{SCROLL}妈妈『记得出门之前{NEWLINE}去跟大木博士道个谢,{CLEAR}毕竟为了你的康复,{CLEAR}博士也出了不少力呢。",
+   "en": "Mom: Seeing you set off on your journey{NEWLINE}again, healthy and well...{SCROLL}I’m so happy, but I’ll miss you too.{SCROLL}Mom: Remember to thank Professor Oak{NEWLINE}before you go.{SCROLL}He did a lot to help you recover.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 72,
+   "zh": "今年的冠军将获得精灵研究界的权威{NEWLINE}大木博士亲手做的精灵图鉴一个,{CLEAR}恭喜你了,小黄选手。",
+   "en": "This year’s champion receives a Pokédex{NEWLINE}handmade by Professor Oak, the leading{CLEAR}authority on Pokémon research.{SCROLL}Congratulations, Yellow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 73,
+   "zh": "蚊香蛙『Pooo——li！",
+   "en": "Poliwhirl: Pooo-li!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "要带上蚊香蛙一起旅行吗？{SCROLL}",
+   "en": "Take Poliwhirl along on your journey?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 75,
+   "zh": "背包太满,没有蚊香蛙的位置了！",
+   "en": "Your party is full. There’s no room for{NEWLINE}Poliwhirl!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 76,
+   "zh": "蚊香蛙加入了队伍！",
+   "en": "Poliwhirl joined your party!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 77,
+   "zh": "要给蚊香蛙起昵称吗？{VAR:0200:0}{SCROLL}",
+   "en": "Give Poliwhirl a nickname?{VAR:0200:0}{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | seed rejected tm_v3 [tag_order] (candidate v3 0537#77; text not kept)"
+  },
+  {
+   "id": 78,
+   "zh": "昵称叫{VAR:0101:1}{NEWLINE}可以吗？{VAR:0200:0}",
+   "en": "Is {VAR:0101:1} the nickname you want to{NEWLINE}give? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 4 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 79,
+   "zh": "妈妈『家里的蚊香蛙{NEWLINE}是从小跟你一起长大的,{CLEAR}如果你愿意的话,{CLEAR}带上它一起旅行也不错。",
+   "en": "Mom: Our Poliwhirl has grown up with you{NEWLINE}ever since you were little.{SCROLL}If you like, why not take it along on{NEWLINE}your journey?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 80,
+   "zh": "妈妈『{VAR:0103:0},{NEWLINE}你已经从白银大会的疲劳中{CLEAR}缓解过来了吗？",
+   "en": "Mom: {VAR:0103:0}, have you recovered from{NEWLINE}the Silver Conference yet?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 81,
+   "zh": "{VAR:0103:0}『嗯,回到家美美地{NEWLINE}睡了一觉之后,精神百倍呢。",
+   "en": "{VAR:0103:0}: Yes.{SCROLL}After coming home and getting a good{NEWLINE}night’s sleep, I’m full of energy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 82,
+   "zh": "妈妈『嗯,那就好。{SCROLL}妈妈『刚才达马兰奇主席来电话了,{NEWLINE}说是等你休息够了之后{CLEAR}去他的办公室一趟,{CLEAR}好像有重要的任务要交给你。",
+   "en": "Mom: Good, good.{SCROLL}Mom: President Goodshow just called.{SCROLL}He said once you’re rested, you should{NEWLINE}stop by his office.{SCROLL}It sounds like he has an important{NEWLINE}mission for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 83,
+   "zh": "{VAR:0103:0}『好的,我尽快过去。",
+   "en": "{VAR:0103:0}: OK. I’ll head over as soon as{NEWLINE}I can.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 84,
+   "zh": "蚊香蝌蚪『Pooo——li！",
+   "en": "Poliwag: Pooo-li!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "要带上蚊香蝌蚪一起旅行吗？{SCROLL}",
+   "en": "Take Poliwag along on your journey?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 86,
+   "zh": "蚊香蝌蚪加入了队伍！",
+   "en": "Poliwag joined your party!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 87,
+   "zh": "要给蚊香蛙起昵称吗？{VAR:0200:0}{SCROLL}",
+   "en": "Give Poliwhirl a nickname?{VAR:0200:0}{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The Poliwag branch (#84–#88) asks to nickname 蚊香蛙 (Poliwhirl)); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 88,
+   "zh": "背包太满,没有蚊香蝌蚪的位置了！",
+   "en": "Your party is full. There’s no room for{NEWLINE}Poliwag!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 89,
+   "zh": "小黄『千里先生你太过奖了。{NEWLINE}跟联盟冠军{VAR:0103:0}姐姐相比{CLEAR}我还差得远呢。",
+   "en": "Yellow: You flatter me, Mr. Norman.{SCROLL}Compared to League Champion {VAR:0103:0}, I{NEWLINE}still have a long way to go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 90,
+   "zh": "千里『哈哈哈,{NEWLINE}你怎么还突然害羞上了呢？",
+   "en": "Norman: Ha ha ha, why so shy all of a{NEWLINE}sudden?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 91,
+   "zh": "妈妈『哎呀,{VAR:0103:0}！{NEWLINE}你终于睡醒了。{CLEAR}今天家里的电视不太正常,{CLEAR}所有的频道都没有节目了。{CLEAR}你能帮妈妈看看{CLEAR}到底是哪里出问题了吗？",
+   "en": "Mom: Oh, {VAR:0103:0}! You’re finally awake.{NEWLINE}The TV’s acting up today.{SCROLL}There’s nothing on any channel. Could{NEWLINE}you take a look and see what’s wrong?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "妈妈『哎呀,{VAR:0103:0}！{NEWLINE}妈妈听说你最近到处奔波非常辛苦呢。{CLEAR}现在好不容易有空回家,{CLEAR}快去楼上好好休息一下吧。",
+   "en": "Mom: Oh, {VAR:0103:0}! I heard you’ve been{NEWLINE}running around nonstop lately.{SCROLL}Now that you finally have time to come{NEWLINE}home, go upstairs and get some rest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "{VAR:0103:0}『虽然我也不太懂修电视{NEWLINE}但是这个时候一般都是用那个办法吧。",
+   "en": "{VAR:0103:0}: I don’t really know how to fix{NEWLINE}a TV, but at times like this, there’s one{CLEAR}trick that usually works.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "妈妈『那个办法？",
+   "en": "Mom: One trick?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "{VAR:0103:0}『哎呀,妈妈你看我的。",
+   "en": "{VAR:0103:0}: Here, Mom, watch this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "{VAR:0103:0}『就像这样……",
+   "en": "{VAR:0103:0}: Like this...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "咚！{SCROLL}{VAR:0103:0}拍了拍电视。",
+   "en": "Thump!{SCROLL}{VAR:0103:0} smacked the TV.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "妈妈『啊？就这样？这就能把电视修好吗？",
+   "en": "Mom: Huh? That’s it? That’ll fix the TV?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "滋滋滋——{SCROLL}电视里好像有声音传出来。",
+   "en": "Bzzzt...{SCROLL}Sound seems to be coming from the TV.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "妈妈『好像有声音了,{VAR:0103:0}你可真行。",
+   "en": "Mom: I think there’s sound now. You’re{NEWLINE}really something, {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "电视中出现了图像和声音——{SCROLL}坂木『全地区的观众,{NEWLINE}今天是一个激动人心的日子……",
+   "en": "Picture and sound come on...{SCROLL}Giovanni: People of every region, today{NEWLINE}is a momentous day...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "{VAR:0103:0}『这是坂木！！？？{NEWLINE}他怎么会出现在电视里？？",
+   "en": "{VAR:0103:0}: That’s Giovanni?! What’s he{NEWLINE}doing on TV?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "坂木『由这个世界上{NEWLINE}最精锐训练家组成的火箭队,{CLEAR}在此向全地区的人们发布宣言……",
+   "en": "Giovanni: Team Rocket, made up of the{NEWLINE}most elite Trainers in the world, hereby{CLEAR}issues a declaration to the people of{CLEAR}every region...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "坂木『在过去的几十年中,{NEWLINE}因为精灵联盟的错误理念,{CLEAR}导致强者不被尊重、付出没有收获……",
+   "en": "Giovanni: For decades, the{NEWLINE}Pokémon League’s ideals have{CLEAR}been wrong...{SCROLL}The strong went unrespected. Hard{NEWLINE}work went unrewarded...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "坂木『无数优秀的训练家{NEWLINE}沦为了苟且一生的凡人……",
+   "en": "Giovanni: Countless outstanding{NEWLINE}Trainers have been reduced to{CLEAR}nobodies, just scraping through life...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "坂木『但幸好有我们火箭队{NEWLINE}这样一群敢于向精灵联盟反抗的勇士……",
+   "en": "Giovanni: But fortunately, there is Team{NEWLINE}Rocket...{SCROLL}...a band of warriors bold enough to{NEWLINE}defy the Pokémon League...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "坂木『我今天站在这里,{NEWLINE}代表全地区所有优秀的训练家,{CLEAR}向精灵联盟正式宣战！",
+   "en": "Giovanni: I stand here today on behalf{NEWLINE}of every outstanding Trainer in every{CLEAR}region, and formally declare war on the{CLEAR}Pokémon League!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "坂木『火箭队将本着尊重努力、{NEWLINE}强者优先的理念{CLEAR}重新塑造这个地区的制度……",
+   "en": "Giovanni: Guided by the ideals of{NEWLINE}respecting effort and putting the{CLEAR}strong first, Team Rocket will remake{CLEAR}this region’s order...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "坂木『希望各位有识之士{NEWLINE}在听到我们的号召后……",
+   "en": "Giovanni: I call on all people of vision{NEWLINE}who hear our summons...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "坂木『带上你们的精灵伙伴,{NEWLINE}与我们火箭队一起为正义而战！",
+   "en": "Giovanni: Bring your Pokémon partners{NEWLINE}and fight for justice with Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "坂木『携手推翻精灵联盟！{NEWLINE}共同开创美好的未来！",
+   "en": "Giovanni: Together we will overthrow the{NEWLINE}Pokémon League!{SCROLL}Together we will build a better future!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "{VAR:0103:0}『火箭队,果然还是来了……",
+   "en": "{VAR:0103:0}: So Team Rocket made their{NEWLINE}move after all...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "妈妈『电视里讲话的这个人,{NEWLINE}是火箭队的首领吧？{CLEAR}他们做了那么多伤天害理的事,{CLEAR}居然还有脸说什么为正义而战。{SCROLL}妈妈『{VAR:0103:0},你是联盟冠军,{NEWLINE}去替妈妈狠狠教训它们一顿。",
+   "en": "Mom: That man talking on TV is Team{NEWLINE}Rocket’s boss, isn’t he?{SCROLL}After all the vile things they’ve done,{NEWLINE}he has the nerve to talk about fighting{CLEAR}for justice?{SCROLL}Mom: {VAR:0103:0}, you’re the League{NEWLINE}Champion.{SCROLL}Go give them a good thrashing for me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "{VAR:0103:0}『妈妈……",
+   "en": "{VAR:0103:0}: Mom...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "妈妈『怎么,有什么问题吗？",
+   "en": "Mom: What? Is something wrong?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "{VAR:0103:0}『不,没有问题！",
+   "en": "{VAR:0103:0}: No, nothing’s wrong!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "{VAR:0103:0}『哈哈,没有问题！",
+   "en": "{VAR:0103:0}: Ha ha, nothing’s wrong!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "大木博士『{VAR:0103:0}！你在家真是太好了！",
+   "en": "Prof. Oak: {VAR:0103:0}! Thank goodness{NEWLINE}you’re home!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "{VAR:0103:0}『大木博士！？",
+   "en": "{VAR:0103:0}: Professor Oak?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "大木博士『刚才坂木在电视和广播里,{NEWLINE}向精灵联盟宣战了！",
+   "en": "Prof. Oak: Giovanni just declared war{NEWLINE}on the Pokémon League on TV and radio!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "{VAR:0103:0}『嗯,我和妈妈也通过电视{NEWLINE}看到了坂木的战争宣言。",
+   "en": "{VAR:0103:0}: Yes, Mom and I saw his{NEWLINE}declaration of war on TV too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "大木博士『为了应对这件事,{NEWLINE}达马兰奇主席刚刚给我来电话,{CLEAR}让我立刻叫上你,{CLEAR}去联盟总部的办公室集合。",
+   "en": "Prof. Oak: President Goodshow just{NEWLINE}called me about it.{SCROLL}He wants me to bring you to the office{NEWLINE}at League HQ right away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "{VAR:0103:0}『马上出发吗？好的……",
+   "en": "{VAR:0103:0}: Right now? OK...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "{VAR:0103:0}『妈妈,我现在就去教训火箭队,{NEWLINE}等我的好消息哦。",
+   "en": "{VAR:0103:0}: Mom, I’m going to go teach{NEWLINE}Team Rocket a lesson right now.{SCROLL}Wait for my good news!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 125,
+   "zh": "妈妈『嗯,加油！",
+   "en": "Mom: Mm, good luck!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "{VAR:0103:0}『走吧,大木博士。",
+   "en": "{VAR:0103:0}: Let’s go, Professor Oak.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 127,
+   "zh": "妈妈『一定要平安回来啊,{VAR:0103:0}。",
+   "en": "Mom: Come back safe, {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 128,
+   "zh": "大木博士『抱歉啊主席,我们来晚了。",
+   "en": "Prof. Oak: Sorry we’re late,{NEWLINE}Mr. President.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 129,
+   "zh": "达马兰奇『没关系,{NEWLINE}我这边的策略也才刚刚制定好。{CLEAR}请二位站到队伍中去,{CLEAR}听取本次行动的安排吧。",
+   "en": "Goodshow: Not at all. My plan has only{NEWLINE}just been finalized.{SCROLL}Please take your places in the ranks{NEWLINE}and hear the orders for this operation.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 130,
+   "zh": "达马兰奇『今天火箭队{NEWLINE}向精灵联盟宣战的事{CLEAR}相信大家已经知道了。{CLEAR}根据满金市馆主小茜发回的情报,{CLEAR}目前火箭队的所有兵力{CLEAR}都集中在满金市附近。{CLEAR}为了将此次事件的影响最小化,{CLEAR}尽快将火箭队所有人员一网打尽,{CLEAR}经过精灵联盟研究决定,{CLEAR}现在将调动联盟总部的所有资源,{CLEAR}不惜一切代价彻底消灭火箭队。",
+   "en": "Goodshow: I trust you all know that{NEWLINE}Team Rocket declared war on the{CLEAR}Pokémon League today.{SCROLL}Whitney, the Goldenrod Gym Leader, has{NEWLINE}sent us intel.{SCROLL}All of Team Rocket’s forces are{NEWLINE}gathered around Goldenrod City.{SCROLL}We must limit the damage and round up{NEWLINE}every last member of Team Rocket as{CLEAR}quickly as possible.{SCROLL}So the Pokémon League has decided to{NEWLINE}mobilize all of League HQ’s resources{CLEAR}and wipe out Team Rocket at any cost.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 131,
+   "zh": "达马兰奇『民生部部长。",
+   "en": "Goodshow: Head of Civil Affairs.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Goodshow's department heads: 民生部 Civil Affairs, 科技部 Technology (D-0701), 训练家部 Trainer Affairs."
+  },
+  {
+   "id": 132,
+   "zh": "是。",
+   "en": "Yes, sir.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 133,
+   "zh": "达马兰奇『调集之前准备的所有物资,{NEWLINE}运往缘朱市和桧皮镇,{CLEAR}为在前线战斗的训练家{CLEAR}提供充足的后勤供应。",
+   "en": "Goodshow: Gather all the supplies we{NEWLINE}prepared and ship them to Ecruteak City{CLEAR}and Azalea Town.{SCROLL}Keep the Trainers fighting on the front{NEWLINE}lines fully supplied.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 134,
+   "zh": "是！",
+   "en": "Yes, sir!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 135,
+   "zh": "达马兰奇『科技部部长。",
+   "en": "Goodshow: Head of Technology.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 136,
+   "zh": "达马兰奇『开启西鲁夫公司的{NEWLINE}所有生产线,{CLEAR}即时补充不断消耗的物资。{SCROLL}达马兰奇『同时开启联盟总部的{NEWLINE}飞空术屏障,{CLEAR}除工作人员外任何人无法使用飞空术{CLEAR}降落在联盟总部。",
+   "en": "Goodshow: Start up every production{NEWLINE}line at Silph Co. and replace supplies as{CLEAR}fast as they’re used up.{SCROLL}Goodshow: Also, raise the Fly barrier{NEWLINE}over League HQ.{SCROLL}No one but staff may use Fly to land at{NEWLINE}League HQ.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 137,
+   "zh": "达马兰奇『训练家部部长。",
+   "en": "Goodshow: Head of Trainer Affairs.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 138,
+   "zh": "达马兰奇『召集关东的精英训练家,{NEWLINE}让娜姿带领他们乘火车进入满金市,{CLEAR}切断火箭队乘火车逃跑的退路。{SCROLL}达马兰奇『命令缘朱市的小松馆主{NEWLINE}和桧皮镇的阿笔馆主{CLEAR}就近召集训练家,{CLEAR}分别去满金市的北侧和南侧出入口,{CLEAR}彻底将火箭队围困在满金市中。{SCROLL}达马兰奇『再通知其余各城市馆主{NEWLINE}保护好自己的城市,{CLEAR}不要让当地的民众和精灵{CLEAR}受到火箭队行动的波及。",
+   "en": "Goodshow: Assemble Kanto’s Ace{NEWLINE}Trainers and have Sabrina lead them{CLEAR}into Goldenrod City by train.{SCROLL}Cut off Team Rocket’s escape by rail.{SCROLL}Goodshow: Order Gym Leader Morty of{NEWLINE}Ecruteak City and Gym Leader Bugsy of{CLEAR}Azalea Town to gather nearby Trainers.{SCROLL}They’ll seal Goldenrod City’s north and{NEWLINE}south gates and trap Team Rocket.{SCROLL}Goodshow: Then tell the other Gym{NEWLINE}Leaders to guard their own cities.{SCROLL}Don’t let the local people and Pokémon{NEWLINE}get caught up in Team Rocket’s actions.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 139,
+   "zh": "达马兰奇『小绿馆主和大木博士。",
+   "en": "Goodshow: Gym Leader Blue and{NEWLINE}Professor Oak.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 140,
+   "zh": "小绿、大木博士『是。",
+   "en": "Blue & Prof. Oak: Yes, sir.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "达马兰奇『由大木博士协助小绿馆主{NEWLINE}镇守石英高原山下的入口,{CLEAR}防止火箭队趁虚而入。",
+   "en": "Goodshow: Professor Oak will help Gym{NEWLINE}Leader Blue guard the entrance at the{CLEAR}foot of the Indigo Plateau.{SCROLL}Don’t let Team Rocket slip in while we’re{NEWLINE}stretched thin.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 142,
+   "zh": "小绿、大木博士『是！",
+   "en": "Blue & Prof. Oak: Yes, sir!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "达马兰奇『联盟冠军{VAR:0103:0}和四天王。",
+   "en": "Goodshow: League Champion {VAR:0103:0} and{NEWLINE}the Elite Four.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 144,
+   "zh": "{VAR:0103:0}、渡、菊子、科拿、志霸『是。",
+   "en": "{VAR:0103:0}, Lance, Agatha, Lorelei &{NEWLINE}Bruno: Yes, sir.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Two-speaker style label per D-0024."
+  },
+  {
+   "id": 145,
+   "zh": "达马兰奇『你们使用飞空术进入满金市,{NEWLINE}以捉拿坂木为第一目标,{CLEAR}对火箭队实施斩首行动。{SCROLL}达马兰奇『我还联系了{NEWLINE}芳缘地区和神奥地区的精灵联盟,{CLEAR}他们都表示会派出最强的训练家{CLEAR}来支援咱们的此次行动。{CLEAR}到时候这些训练家也会进入满金市{CLEAR}跟你们一起对抗火箭队。",
+   "en": "Goodshow: You will Fly into Goldenrod{NEWLINE}City.{SCROLL}Your first objective: capture Giovanni{NEWLINE}and cut off Team Rocket’s head.{SCROLL}Goodshow: I’ve also contacted the{NEWLINE}Pokémon Leagues of Hoenn and Sinnoh.{SCROLL}They’ve promised to send their{NEWLINE}strongest Trainers to support us.{SCROLL}Those Trainers will also enter Goldenrod{NEWLINE}City and fight Team Rocket with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "{VAR:0103:0}、渡、菊子、科拿、志霸『是！",
+   "en": "{VAR:0103:0}, Lance, Agatha, Lorelei &{NEWLINE}Bruno: Yes, sir!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 147,
+   "zh": "达马兰奇『这次就是与火箭队{NEWLINE}最后的决战了,{CLEAR}可能战况会非常激烈焦灼,{CLEAR}但我相信只要大家团结一致,{CLEAR}就一定能取得最终的胜利。",
+   "en": "Goodshow: This is the final showdown{NEWLINE}with Team Rocket.{SCROLL}The fighting may be fierce and grueling.{SCROLL}But I believe that as long as we stand{NEWLINE}united, victory will be ours.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 148,
+   "zh": "众人『请主席放心,{NEWLINE}这次我们一定彻底击败火箭队！",
+   "en": "Everyone: Leave it to us,{NEWLINE}Mr. President!{SCROLL}This time we’ll crush Team Rocket for{NEWLINE}good!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "众人 = named characters answering an order → ‘Everyone:’ (D-0716)."
+  },
+  {
+   "id": 149,
+   "zh": "达马兰奇『好,大家行动起来吧。",
+   "en": "Goodshow: Good. Everyone, move out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 150,
+   "zh": "妈妈『{VAR:0103:0},在家歇了这么多天,{NEWLINE}已经从与火箭队战斗的疲劳中{CLEAR}恢复过来了吧？",
+   "en": "Mom: {VAR:0103:0}, you’ve rested at home{NEWLINE}for so many days now.{SCROLL}You must have recovered from fighting{NEWLINE}Team Rocket, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 151,
+   "zh": "{VAR:0103:0}『是的妈妈,我已经完全恢复了,{NEWLINE}现在精神百倍,感觉非常好。",
+   "en": "{VAR:0103:0}: Yes, Mom. I’ve fully{NEWLINE}recovered.{SCROLL}I’m full of energy and feeling great.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 152,
+   "zh": "妈妈『我听说今天电视里有{NEWLINE}达马兰奇主席讲话的直播,{CLEAR}好像是向全地区通报{CLEAR}火箭队事件的处理情况,{CLEAR}你也一起来看看吧。",
+   "en": "Mom: I heard President Goodshow is{NEWLINE}giving a live speech on TV today.{SCROLL}It sounds like he’s reporting to the{NEWLINE}region on the Team Rocket affair.{SCROLL}Come watch it with me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 153,
+   "zh": "达马兰奇『一直潜伏在关东和城都的{NEWLINE}犯罪组织火箭队,{CLEAR}企图以暴力夺权的方式统治整个地区,{CLEAR}而精灵联盟总部也曾一度沦陷。{CLEAR}但幸好有我们的联盟冠军{VAR:0103:0},{CLEAR}在他的带领下,{CLEAR}经过全地区训练家们的共同努力,{CLEAR}火箭队终于被彻底消灭了！",
+   "en": "Goodshow: Team Rocket, the criminal{NEWLINE}organization that lurked in Kanto and{CLEAR}Johto for so long, tried to seize power{CLEAR}by force and rule the entire region.{SCROLL}Even Pokémon League HQ fell for a time.{SCROLL}Goodshow: But fortunately, our League{NEWLINE}Champion {VAR:0103:0} led the way, and{CLEAR}through the combined efforts of{CLEAR}Trainers across the region, Team{CLEAR}Rocket has finally been wiped out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 154,
+   "zh": "达马兰奇『雨过天晴,否极泰来。{NEWLINE}以坂木为首的火箭队高层,{CLEAR}经过精灵联盟法庭的审判,{CLEAR}已经得到了他们应有的惩罚。{CLEAR}那些被火箭队捕捉的传说中精灵{CLEAR}以及与正义的训练家们{CLEAR}并肩作战的城都地区三圣兽{CLEAR}都已全部回归自然。{CLEAR}希望今天火箭队的恶贯满盈,{CLEAR}能够告慰到那些{CLEAR}被这个犯罪集团伤害过的人和精灵。",
+   "en": "Goodshow: After the storm comes the{NEWLINE}sunshine.{SCROLL}Giovanni and the rest of Team Rocket’s{NEWLINE}leadership have been tried by the{CLEAR}Pokémon League court and received the{CLEAR}punishment they deserve.{SCROLL}The legendary Pokémon Team Rocket{NEWLINE}captured, and Johto’s three legendary{CLEAR}beasts who fought alongside righteous{CLEAR}Trainers, have all returned to the wild.{SCROLL}May the downfall of Team Rocket bring{NEWLINE}some comfort to the people and Pokémon{CLEAR}this criminal gang has harmed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 155,
+   "zh": "达马兰奇『前事不忘后事之师。{NEWLINE}请全体训练家以火箭队为戒,{CLEAR}善待人类、善待精灵、善待自然,{CLEAR}将自身练就的本领{CLEAR}投入到建设我们共同的家园中来。",
+   "en": "Goodshow: Let us learn from the past to{NEWLINE}guide the future.{SCROLL}I ask every Trainer to take Team{NEWLINE}Rocket as a warning.{SCROLL}Treat people well, treat Pokémon well{NEWLINE}and treat nature well, and put the{CLEAR}skills you’ve honed toward building our{CLEAR}shared home.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 156,
+   "zh": "妈妈『多亏了{VAR:0103:0},{NEWLINE}大家才能重归和平安定的生活,{CLEAR}妈妈以有你这样的儿子而自豪！",
+   "en": "Mom: Thanks to you, {VAR:0103:0}, everyone{NEWLINE}can go back to living in peace.{SCROLL}I’m so proud to have a son like you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Male/female variants: #156 son / #158 daughter; #153/#157 identical."
+  },
+  {
+   "id": 157,
+   "zh": "达马兰奇『一直潜伏在关东和城都的{NEWLINE}犯罪组织火箭队,{CLEAR}企图以暴力夺权的方式统治整个地区,{CLEAR}而精灵联盟总部也曾一度沦陷。{CLEAR}但幸好有我们的联盟冠军{VAR:0103:0},{CLEAR}在他的带领下,{CLEAR}经过全地区训练家们的共同努力,{CLEAR}火箭队终于被彻底消灭了！",
+   "en": "Goodshow: Team Rocket, the criminal{NEWLINE}organization that lurked in Kanto and{CLEAR}Johto for so long, tried to seize power{CLEAR}by force and rule the entire region.{SCROLL}Even Pokémon League HQ fell for a time.{SCROLL}Goodshow: But fortunately, our League{NEWLINE}Champion {VAR:0103:0} led the way, and{CLEAR}through the combined efforts of{CLEAR}Trainers across the region, Team{CLEAR}Rocket has finally been wiped out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 158,
+   "zh": "妈妈『多亏了{VAR:0103:0},{NEWLINE}大家才能重归和平安定的生活,{CLEAR}妈妈以有你这样的女儿而自豪！",
+   "en": "Mom: Thanks to you, {VAR:0103:0}, everyone{NEWLINE}can go back to living in peace.{SCROLL}I’m so proud to have a daughter like{NEWLINE}you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 159,
+   "zh": "渡『抱歉打扰了。",
+   "en": "Lance: Sorry to intrude.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 160,
+   "zh": "{VAR:0103:0}『渡先生？",
+   "en": "{VAR:0103:0}: Lance?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 161,
+   "zh": "渡『谢谢你啊{VAR:0103:0},{NEWLINE}在我们四天王无法战斗的时候,{CLEAR}你站出来独挑重担{CLEAR}带领大家击溃了火箭队,{CLEAR}所有人都说你是英雄冠军呢。",
+   "en": "Lance: Thank you, {VAR:0103:0}.{SCROLL}When the Elite Four couldn’t fight, you{NEWLINE}shouldered it all alone.{SCROLL}You led everyone to crush Team Rocket.{SCROLL}People are calling you the Hero{NEWLINE}Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 162,
+   "zh": "{VAR:0103:0}『渡先生客气了,{NEWLINE}这都是我应该做的。",
+   "en": "{VAR:0103:0}: You’re too kind, Lance. I only{NEWLINE}did what I had to.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 163,
+   "zh": "渡『我这次来主要是受主席之托,{NEWLINE}给你带了一些小小的礼物。",
+   "en": "Lance: The President asked me to come.{NEWLINE}I’ve brought you a few small gifts.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 164,
+   "zh": "{VAR:0103:0}『礼物？",
+   "en": "{VAR:0103:0}: Gifts?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 165,
+   "zh": "渡『你先拿着。",
+   "en": "Lance: Here, take these.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 166,
+   "zh": "{VAR:0103:0}『哇,这些东西不是火箭队{NEWLINE}四处收集的与传说中精灵{CLEAR}息息相关的道具吗？",
+   "en": "{VAR:0103:0}: Whoa, aren’t these the items{NEWLINE}Team Rocket gathered from all over?{SCROLL}The ones tied to legendary Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 167,
+   "zh": "渡『没错。这些道具都是{NEWLINE}从被捕的火箭队员身上搜出来的。{CLEAR}除了个别道具送回了它们的原存放处,{CLEAR}其他道具都在这里了。{SCROLL}渡『经过这次事件后,{NEWLINE}达马兰奇主席认为这些重要道具{CLEAR}交给你保管更加安全可靠。{CLEAR}所以特地让我给你带来,{CLEAR}希望你能善用它们,{CLEAR}让传说中的精灵成为{CLEAR}守护这片土地的坚强后盾。",
+   "en": "Lance: That’s right.{SCROLL}They were all seized from captured Team{NEWLINE}Rocket members.{SCROLL}A few went back where they were kept,{NEWLINE}but the rest are all here.{SCROLL}Lance: After what happened, President{NEWLINE}Goodshow decided these important items{CLEAR}would be safest in your hands.{SCROLL}So he had me bring them to you.{SCROLL}He hopes you’ll put them to good use,{NEWLINE}so that the legendary Pokémon can{CLEAR}become a strong shield for this land.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 168,
+   "zh": "{VAR:0103:0}『我明白了渡先生,{NEWLINE}能得到这些东西{CLEAR}是身为训练家的最高荣耀,{CLEAR}请替我好好谢谢达马兰奇主席。",
+   "en": "{VAR:0103:0}: I understand, Lance.{SCROLL}Receiving these is the highest honor a{NEWLINE}Trainer could ask for.{SCROLL}Please give President Goodshow my{NEWLINE}thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 169,
+   "zh": "渡『好的。{NEWLINE}如果没有其他事情,我就先告辞了。{CLEAR}你在家好好休息吧。",
+   "en": "Lance: I will. If there’s nothing else,{NEWLINE}I’ll take my leave.{SCROLL}Get some good rest at home.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 170,
+   "zh": "{VAR:0103:0}『渡先生慢走。",
+   "en": "{VAR:0103:0}: Take care, Lance.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 171,
+   "zh": "妈妈『虽然妈妈不太懂,{NEWLINE}但{VAR:0103:0}你好像得到了{CLEAR}很厉害的东西呢。",
+   "en": "Mom: {VAR:0103:0}, I don’t really{NEWLINE}understand it, but that sounds amazing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 172,
+   "zh": "{VAR:0103:0}『是的妈妈。{NEWLINE}我想用这些道具去收服{CLEAR}散落在各地的传说中精灵,{CLEAR}所以可能又要出去旅行一段时间……",
+   "en": "{VAR:0103:0}: Yes, Mom.{SCROLL}I want to use these items to catch the{NEWLINE}legendary Pokémon scattered all over{CLEAR}the regions.{SCROLL}So I might be away on a journey again{NEWLINE}for a while...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 173,
+   "zh": "妈妈『妈妈明白,你这样的大训练家{NEWLINE}不可能一直窝在家里。{CLEAR}去吧,无论是天涯海角,妈妈都支持你。{CLEAR}如果有一天累了,{CLEAR}记得回家来休息一下就好。",
+   "en": "Mom: I understand.{SCROLL}A great Trainer like you can’t stay{NEWLINE}cooped up at home forever. Go on.{SCROLL}Wherever you go, even to the ends of{NEWLINE}the earth, Mom supports you.{SCROLL}And if you ever get tired, just{NEWLINE}remember to come home and rest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 174,
+   "zh": "{VAR:0103:0}『嗯！谢谢妈妈！",
+   "en": "{VAR:0103:0}: OK! Thanks, Mom!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 175,
+   "zh": "妈妈『妈妈最近闪到腰了,{NEWLINE}整理家务的时候总是不太舒服。{CLEAR}如果能有一只人型的口袋妖怪{CLEAR}帮忙整理一下家务就好了。{SCROLL}妈妈『{VAR:0103:0}出去旅行有段时间了,{NEWLINE}有收集到这样的精灵吗？",
+   "en": "Mom: I threw my back out recently, so{NEWLINE}housework is a real pain.{SCROLL}If only I had a human-like Pokémon to{NEWLINE}help around the house.{SCROLL}Mom: {VAR:0103:0}, you’ve been traveling for{NEWLINE}a while now.{SCROLL}Have you caught a Pokémon like that?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 176,
+   "zh": "你看看我身上带的精灵行吗",
+   "en": "Check my Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 177,
+   "zh": "我身上没带这样的精灵",
+   "en": "I don’t have one",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 178,
+   "zh": "妈妈『这样啊,那妈妈再坚持一下。",
+   "en": "Mom: I see. Then I’ll just keep toughing{NEWLINE}it out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 179,
+   "zh": "妈妈『哦？是什么样的精灵呢？{NEWLINE}让妈妈看一下。",
+   "en": "Mom: Oh? What kind of Pokémon? Let Mom{NEWLINE}take a look.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 180,
+   "zh": "妈妈『这个……应该是精灵蛋吧？",
+   "en": "Mom: This... is a Pokémon Egg, isn’t it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 181,
+   "zh": "妈妈『这只精灵……好像不适合做家务吧？",
+   "en": "Mom: This Pokémon... doesn’t seem cut{NEWLINE}out for housework.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 182,
+   "zh": "妈妈『哎呀,那这样你的精灵{NEWLINE}就会１只都不剩了哦！",
+   "en": "Mom: Oh dear, then you wouldn’t have a{NEWLINE}single Pokémon left!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 183,
+   "zh": "{VAR:0103:0}把吸盘魔偶送出去了！",
+   "en": "{VAR:0103:0} handed over Mr. Mime!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 184,
+   "zh": "妈妈『太好了,有了这样的精灵在家里,{NEWLINE}妈妈的家务活也会轻松很多！",
+   "en": "Mom: Wonderful!{SCROLL}With a Pokémon like this at home,{NEWLINE}housework will be so much easier for me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 185,
+   "zh": "妈妈『多亏了{VAR:0103:0}送的吸盘魔偶,{NEWLINE}妈妈现在干家务轻松多了。",
+   "en": "Mom: Thanks to your Mr. Mime, {VAR:0103:0},{NEWLINE}housework is so much easier now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 186,
+   "zh": "小黄『{VAR:0103:0}哥哥,{NEWLINE}我居然就这样跟你一起{CLEAR}生活在真新镇了,{CLEAR}想想真是让人害羞和不可思议。",
+   "en": "Yellow: {VAR:0103:0}, I can’t believe I’m{NEWLINE}living in Pallet Town with you.{SCROLL}Just thinking about it makes me blush.{NEWLINE}It feels so unreal.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Post-game partner branches: Yellow (male player, #186–#198), Green (male player) #199/#201/#203/#205/#207/#209, Red (female player) #200/#202/#204/#206/#208/#210, Misty #211–#216, Cynthia #217–#222. Menu #197 ‘rest in my room’ leads to the bedroom scenes in 0538."
+  },
+  {
+   "id": 187,
+   "zh": "跟我来场对战吧",
+   "en": "Let’s battle",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 188,
+   "zh": "我还有事要忙",
+   "en": "I’m busy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 189,
+   "zh": "小黄『{VAR:0103:0}哥哥再见,{NEWLINE}我会在这等你回来的。",
+   "en": "Yellow: Bye, {VAR:0103:0}. I’ll be right here{NEWLINE}waiting for you to come back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 190,
+   "zh": "小黄『好啊好啊,{NEWLINE}我也想跟{VAR:0103:0}哥哥比试一下呢！{CLEAR}咱们这次是单打还是双打？",
+   "en": "Yellow: Sure, sure! I want to test{NEWLINE}myself against you too, {VAR:0103:0}!{SCROLL}Singles or doubles this time?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 191,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 192,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 193,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 194,
+   "zh": "精灵数量不够,无法进行双打！",
+   "en": "You don’t have enough Pokémon for a{NEWLINE}Double Battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 195,
+   "zh": "小黄『{VAR:0103:0}哥哥,{NEWLINE}这是我的最强伙伴,{CLEAR}请你看看我们之间的羁绊！",
+   "en": "Yellow: {VAR:0103:0}, this is my strongest{NEWLINE}partner. Look at the bond we share!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 196,
+   "zh": "小黄『真不愧是{VAR:0103:0}哥哥,{NEWLINE}能够跟你在一起真是太好了。",
+   "en": "Yellow: That’s you all over, {VAR:0103:0}.{NEWLINE}I’m so glad I get to be with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 197,
+   "zh": "去我房间休息一下吧",
+   "en": "Rest in my room",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Innuendo kept faithful (去我房间休息一下吧).",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 198,
+   "zh": "小黄『好的……{VAR:0103:0}哥哥……",
+   "en": "Yellow: O-OK... {VAR:0103:0}...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 199,
+   "zh": "小蓝『{VAR:0103:0},从今以后{NEWLINE}我就跟你在真新镇生活了,{CLEAR}家里的事我会帮你打理好的,{CLEAR}你出去忙完了也要经常回来啊,{CLEAR}人家可是很想你的。",
+   "en": "Green: {VAR:0103:0}, from now on I’m living{NEWLINE}with you in Pallet Town.{SCROLL}I’ll take care of things around the{NEWLINE}house.{SCROLL}So when you’re done with your business{NEWLINE}out there, come home often, OK?{SCROLL}I’ll miss you like crazy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 200,
+   "zh": "小赤『{VAR:0103:0},从今以后{NEWLINE}我就跟你在真新镇生活了,{CLEAR}想想真是不可思议。",
+   "en": "Red: {VAR:0103:0}, from now on I’m living{NEWLINE}with you in Pallet Town.{SCROLL}It still feels unreal.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 201,
+   "zh": "小蓝『早去早回,{NEWLINE}我在家里等你哦。",
+   "en": "Green: Hurry back. I’ll be waiting at{NEWLINE}home.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 202,
+   "zh": "小赤『早去早回,{NEWLINE}我在家里等你。",
+   "en": "Red: Hurry back. I’ll be waiting at{NEWLINE}home.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 203,
+   "zh": "小蓝『能跟最强的训练家来场对战,{NEWLINE}我可是迫不及待呢！{CLEAR}咱们这次是单打还是双打？",
+   "en": "Green: A battle with the strongest{NEWLINE}Trainer? I can’t wait!{SCROLL}Singles or doubles this time?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 204,
+   "zh": "小赤『能跟最强的训练家来场对战,{NEWLINE}我可是迫不及待呢！{CLEAR}咱们这次是单打还是双打？",
+   "en": "Red: A battle with the strongest{NEWLINE}Trainer? I can’t wait!{SCROLL}Singles or doubles this time?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 205,
+   "zh": "小蓝『你不要大意哦,{NEWLINE}面对联盟冠军我可不会留一手。",
+   "en": "Green: Don’t get careless.{SCROLL}I’m not holding back just because{NEWLINE}you’re the League Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 206,
+   "zh": "小赤『好,让我看看联盟冠军的实力吧。",
+   "en": "Red: All right. Show me what the League{NEWLINE}Champion can do.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 207,
+   "zh": "小蓝『不错哟,看来你没有变迟钝嘛。",
+   "en": "Green: Not bad. Looks like you haven’t{NEWLINE}gone soft.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 208,
+   "zh": "小赤『不愧是冠军,真强啊。",
+   "en": "Red: That’s the Champion for you.{NEWLINE}You’re really strong.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 209,
+   "zh": "小蓝『嗯哼,好的。{NEWLINE}我也很想跟{VAR:0103:0}单•独•相•处呢……",
+   "en": "Green: Mm-hmm, sure. I’ve been wanting{NEWLINE}some time a-lone with you, {VAR:0103:0}...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 单•独•相•处 (spaced-out ‘alone together’) → ‘a-lone’."
+  },
+  {
+   "id": 210,
+   "zh": "小赤『啊……这……好的。是该休息一下了。",
+   "en": "Red: Ah... uh... OK. I guess it’s time{NEWLINE}for a rest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 211,
+   "zh": "小霞『华蓝道馆的事{NEWLINE}我拜托了姐姐暂时替我处理,{CLEAR}这样我就能跟{VAR:0103:0}待久一点了。",
+   "en": "Misty: I asked my sister to look after{NEWLINE}the Cerulean Gym for a while, so I can{CLEAR}stay with {VAR:0103:0} a little longer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 姐姐: Misty's sister (Daisy); singular."
+  },
+  {
+   "id": 212,
+   "zh": "小霞『忙完记得早回来,{NEWLINE}我在家里等着你哦。",
+   "en": "Misty: Hurry home when you’re done, OK?{NEWLINE}I’ll be waiting for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 213,
+   "zh": "小霞『哼哼,要我跟我来一场对战吗？{NEWLINE}虽然你是联盟冠军,{CLEAR}但我可不会轻易认输的。{CLEAR}这次你是想单打还是双打？",
+   "en": "Misty: Hmph, you want a battle with me?{SCROLL}You may be League Champion, but I won’t{NEWLINE}go down easy.{SCROLL}Singles or doubles this time?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 214,
+   "zh": "小霞『来吧！{NEWLINE}让你看看水系口袋妖怪大师的实力！",
+   "en": "Misty: Come on! I’ll show you what a{NEWLINE}Water Pokémon Master can do!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Misty’s anime goal “Water Pokémon Master” (D-1436)."
+  },
+  {
+   "id": 215,
+   "zh": "小霞『啊,果然还是比不过你啊。",
+   "en": "Misty: Ah, I still can’t beat you after{NEWLINE}all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 216,
+   "zh": "小霞『你这家伙每天脑子里{NEWLINE}都在想些什么啊……{CLEAR}不过……{CLEAR}其实我也很想上去休息一下……",
+   "en": "Misty: What goes on in that head of{NEWLINE}yours all day...{SCROLL}Though... actually, I kind of want to go{NEWLINE}up and rest too...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 217,
+   "zh": "希罗娜『神奥地区的事{NEWLINE}我拜托了那边的四天王暂时替我处理,{CLEAR}这样我就能跟{VAR:0103:0}待久一点了。",
+   "en": "Cynthia: The Sinnoh Elite Four are{NEWLINE}covering for me for a while.{SCROLL}So I can stay with {VAR:0103:0} a little{NEWLINE}longer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 218,
+   "zh": "希罗娜『忙完记得早回来,{NEWLINE}我在家里等着你哦。",
+   "en": "Cynthia: Hurry home when you’re done.{NEWLINE}I’ll be waiting for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 219,
+   "zh": "希罗娜『{VAR:0103:0}要跟我来一场对战吗？{NEWLINE}嗯,也只有跟你对战时,{CLEAR}我才能再体会到迎难而上的感觉。{CLEAR}这次你是想单打还是双打？",
+   "en": "Cynthia: {VAR:0103:0}, want to battle me?{SCROLL}Mm, only when I battle you do I get to{NEWLINE}feel like a challenger again.{SCROLL}Singles or doubles this time?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 220,
+   "zh": "希罗娜『嗯……其实自从上次之后,{NEWLINE}我也在想什么时候能跟{VAR:0103:0}{CLEAR}再一次……",
+   "en": "Cynthia: Mm... actually, ever since last{NEWLINE}time, I’ve been wondering when {VAR:0103:0}{CLEAR}and I could... once more...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 221,
+   "zh": "希罗娜『赌上神奥地区冠军的荣誉,{NEWLINE}这次我可是会全力以赴的！",
+   "en": "Cynthia: I’m putting my honor as{NEWLINE}Sinnoh’s Champion on the line.{SCROLL}I’m going all out this time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 222,
+   "zh": "希罗娜『啊,果然还是比不过你啊。",
+   "en": "Cynthia: Ah, I still can’t beat you{NEWLINE}after all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 223,
+   "zh": "空。",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) zh 空。 placeholder (old TM ‘Sky.’)."
+  }
+ ]
+}

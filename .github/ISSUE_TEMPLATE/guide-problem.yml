@@ -1,0 +1,37 @@
+name: Problem with the guide
+description: Something in the guide is wrong, unclear or missing.
+labels: [guide]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Filled in for you when you use the link on the page.
+      placeholder: /guide/vermilion-to-celadon/#celadon-city-the-stolen-gloom-story-chain-easy-to-get-stuck
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong?
+      description: What does the guide say, and what happened in your game?
+    validations:
+      required: true
+  - type: dropdown
+    id: starter
+    attributes:
+      label: Your starter
+      options: [Charmander, Pikachu, Bulbasaur, Not relevant]
+  - type: dropdown
+    id: gender
+    attributes:
+      label: Playing as
+      options: [Boy, Girl, Not relevant]
+  - type: input
+    id: patch
+    attributes:
+      label: Patch version
+      description: The English patch you play with (shown in the release name).
+  - type: textarea
+    id: screens
+    attributes:
+      label: Screenshots
+      description: Drag and drop images here. They help a lot.

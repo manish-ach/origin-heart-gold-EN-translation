@@ -1,0 +1,87 @@
+{
+ "narc": "a027",
+ "bank": 39,
+ "source": "work/extract/v4/a027/0039.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "通信似乎不太好⋯　{VAR:0136:9}",
+   "en": "The connection seems poor… {VAR:0136:9}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "出现通信错误。{NEWLINE}{NEWLINE}在联机房间中就{NEWLINE}按下Ａ键{VAR:FF02:2,0}开始ＤＳ无线通信{NEWLINE}返回房间,{NEWLINE}按下Ｂ键会返回标题画面。{NEWLINE}在联机房间以外的场合{NEWLINE}按下Ａ键会在{NEWLINE}最后记录的地点重新开始。{NEWLINE}",
+   "en": "A communication error has occurred.{NEWLINE}{NEWLINE}If you are in the Union Room, press{NEWLINE}the A Button{VAR:FF02:2,0} to launch DS Wireless{NEWLINE}Communications and go back to the{NEWLINE}room. Press the B Button to return{NEWLINE}to the title screen.{NEWLINE}In all other cases, pressing the{NEWLINE}A Button will restart the game from{NEWLINE}where you last saved.{NEWLINE}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0041/1 rejected (tag mismatch); written from the zh"
+  },
+  {
+   "id": 2,
+   "zh": "通信中出现了错误（{VAR:0136:0}）{NEWLINE}请切断电源重新启动。{NEWLINE}{NEWLINE}另外{NEWLINE}请在该信息出现之时{NEWLINE}迅速与服务中心{NEWLINE}进行联系。",
+   "en": "An error occurred while attempting{NEWLINE}to communicate. ({VAR:0136:0}){NEWLINE}Please turn off the power and{NEWLINE}restart.{NEWLINE}{NEWLINE}If this message appears,{NEWLINE}please contact the{NEWLINE}service center right away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "出现通信错误。{NEWLINE}{NEWLINE}即将返回标题画面,{NEWLINE}请按下Ａ键。",
+   "en": "A communication error has occurred.{NEWLINE}{NEWLINE}You will be returned to the title{NEWLINE}screen.{NEWLINE}Please press the A Button.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0041/3"
+  },
+  {
+   "id": 4,
+   "zh": "目前ＧＴＳ很拥挤,{NEWLINE}请过一会儿{NEWLINE}重新尝试。{NEWLINE}{NEWLINE}已切断ＷｉーＦｉ连接,{NEWLINE}请按下Ａ键。",
+   "en": "The GTS is very crowded right now.{NEWLINE}Please wait a while and{NEWLINE}try again.{NEWLINE}{NEWLINE}You have been disconnected from{NEWLINE}Nintendo Wi-Fi Connection.{NEWLINE}Please press the A Button.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "通信中出现错误,{NEWLINE}请切断电源后重新开启。{NEWLINE}{NEWLINE}另外{NEWLINE}请在该信息出现之时{NEWLINE}迅速与服务中心{NEWLINE}进行联系。",
+   "en": "An error occurred while attempting{NEWLINE}to communicate.{NEWLINE}Please turn off the power and{NEWLINE}restart.{NEWLINE}{NEWLINE}If this message appears,{NEWLINE}please contact the{NEWLINE}service center right away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "通信出现错误。{NEWLINE}{NEWLINE}已经切断ＷｉーＦｉ连接,{NEWLINE}即将返回最后{NEWLINE}记录的地点,{NEWLINE}请按下Ａ键。",
+   "en": "A communication error has occurred.{NEWLINE}{NEWLINE}You have been disconnected from{NEWLINE}Nintendo Wi-Fi Connection.{NEWLINE}You will be returned to wherever{NEWLINE}you last saved.{NEWLINE}Please press the A Button.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0041/6"
+  },
+  {
+   "id": 7,
+   "zh": "通信出现错误。{NEWLINE}{NEWLINE}已经切断ＷｉーＦｉ连接,{NEWLINE}即将返回{NEWLINE}标题画面,{NEWLINE}请按下Ａ键。",
+   "en": "A communication error has occurred.{NEWLINE}{NEWLINE}You have been disconnected from{NEWLINE}Nintendo Wi-Fi Connection.{NEWLINE}You will be returned to the title{NEWLINE}screen.{NEWLINE}Please press the A Button.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0041/7"
+  },
+  {
+   "id": 8,
+   "zh": "通信出现错误（{VAR:0136:0}）{NEWLINE}{NEWLINE}已经切断ＷｉーＦｉ连接,{NEWLINE}即将返回最后{NEWLINE}记录的地点,{NEWLINE}请按下Ａ键。",
+   "en": "A communication error has occurred.{NEWLINE}({VAR:0136:0}){NEWLINE}{NEWLINE}You have been disconnected from{NEWLINE}Nintendo Wi-Fi Connection.{NEWLINE}You will be returned to wherever{NEWLINE}you last saved.{NEWLINE}Please press the A Button.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0041/8"
+  },
+  {
+   "id": 9,
+   "zh": "通信出现错误（{VAR:0136:0}）{NEWLINE}{NEWLINE}已经切断ＷｉーＦｉ连接,{NEWLINE}即将返回{NEWLINE}标题画面,{NEWLINE}请按下Ａ键。",
+   "en": "A communication error has occurred.{NEWLINE}({VAR:0136:0}){NEWLINE}{NEWLINE}You have been disconnected from{NEWLINE}Nintendo Wi-Fi Connection.{NEWLINE}You will be returned to the title{NEWLINE}screen.{NEWLINE}Please press the A Button.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0041/9"
+  }
+ ]
+}

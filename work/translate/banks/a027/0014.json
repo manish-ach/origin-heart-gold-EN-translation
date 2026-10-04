@@ -1,0 +1,231 @@
+{
+ "narc": "a027",
+ "bank": 14,
+ "source": "work/extract/v4/a027/0014.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "在规定的位置{NEWLINE}开始战斗吧！",
+   "en": "Please take your designated position{NEWLINE}and start the battle.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/0"
+  },
+  {
+   "id": 1,
+   "zh": "请稍等{NEWLINE}⋯⋯按Ｂ键取消。",
+   "en": "Please wait a moment...{NEWLINE}Press the B Button to cancel.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/1"
+  },
+  {
+   "id": 2,
+   "zh": "看到了{VAR:0103:0}的{NEWLINE}训练师卡片！{SCROLL}⋯⋯是普通卡片！",
+   "en": "Let’s check out {VAR:0103:0}’s{NEWLINE}Trainer Card...{SCROLL}...It’s a Normal Card!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/2"
+  },
+  {
+   "id": 3,
+   "zh": "看到了{VAR:0103:0}的{NEWLINE}训练师卡片！{SCROLL}⋯⋯是黄金卡片！",
+   "en": "Let’s check out {VAR:0103:0}’s{NEWLINE}Trainer Card...{SCROLL}...It’s a Cobalt Card!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/3"
+  },
+  {
+   "id": 4,
+   "zh": "看到了{VAR:0103:0}的{NEWLINE}训练师卡片！{SCROLL}⋯⋯是绿色卡片！",
+   "en": "Let’s check out {VAR:0103:0}’s{NEWLINE}Trainer Card...{SCROLL}...It’s an Olive Card!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/4"
+  },
+  {
+   "id": 5,
+   "zh": "看到了{VAR:0103:0}的{NEWLINE}训练师卡片！{SCROLL}⋯⋯是紫色卡片！",
+   "en": "Let’s check out {VAR:0103:0}’s{NEWLINE}Trainer Card...{SCROLL}...It’s a Violet Card!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/5"
+  },
+  {
+   "id": 6,
+   "zh": "看到了{VAR:0103:0}的{NEWLINE}训练师卡片！{SCROLL}⋯⋯是高级卡片！",
+   "en": "Let’s check out {VAR:0103:0}’s{NEWLINE}Trainer Card...{SCROLL}...It’s a Gray Card!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/6"
+  },
+  {
+   "id": 7,
+   "zh": "看到了{VAR:0103:0}的{NEWLINE}训练师卡片！{SCROLL}⋯⋯是黑色卡片！",
+   "en": "Let’s check out {VAR:0103:0}’s{NEWLINE}Trainer Card...{SCROLL}...It’s a Black Card!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/7"
+  },
+  {
+   "id": 8,
+   "zh": "似乎在忙⋯⋯",
+   "en": "They seem to be busy...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "通信将结束,{NEWLINE}可以吗？{VAR:0200:0}",
+   "en": "Communication will be ended.{NEWLINE}Is that OK? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/9"
+  },
+  {
+   "id": 10,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 11,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 12,
+   "zh": "结束通信,{NEWLINE}请稍等。",
+   "en": "Ending communication.{NEWLINE}Please wait.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/12"
+  },
+  {
+   "id": 13,
+   "zh": "那么请选择{NEWLINE}参加的精灵。{SCROLL}",
+   "en": "Please choose the Pokémon to be{NEWLINE}entered.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/13"
+  },
+  {
+   "id": 14,
+   "zh": "正在等待{VAR:0103:0}的{NEWLINE}选择。",
+   "en": "Waiting for {VAR:0103:0} to choose.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/14"
+  },
+  {
+   "id": 15,
+   "zh": "对战取消了。",
+   "en": "The battle has been canceled.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/15"
+  },
+  {
+   "id": 16,
+   "zh": "那么请下次再来。",
+   "en": "Please come again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "那么请选择对方的{NEWLINE}一只精灵。",
+   "en": "Please select one of your opponent’s{NEWLINE}Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/17"
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0100:1}可以吗？",
+   "en": "Is {VAR:0100:1} your choice?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/18"
+  },
+  {
+   "id": 19,
+   "zh": "那么请选择参加的{NEWLINE}三只精灵。{SCROLL}",
+   "en": "Please select the three Pokémon{NEWLINE}that will participate.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/19"
+  },
+  {
+   "id": 20,
+   "zh": "混合战就是{NEWLINE}由你选择的对方的精灵{SCROLL}与对方选择的你的{NEWLINE}精灵对调,{CLEAR}然后开始战斗。{SCROLL}",
+   "en": "In a Mix Battle, you and your{NEWLINE}opponent first choose one of each{CLEAR}other’s Pokémon.{SCROLL}Then, you exchange the chosen{NEWLINE}Pokémon and battle.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/20"
+  },
+  {
+   "id": 21,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/21"
+  },
+  {
+   "id": 22,
+   "zh": "查看状态",
+   "en": "SUMMARY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/22"
+  },
+  {
+   "id": 23,
+   "zh": "决定",
+   "en": "OK",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/23"
+  },
+  {
+   "id": 24,
+   "zh": "返回",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/24"
+  },
+  {
+   "id": 25,
+   "zh": "看到了{VAR:0103:0}的{NEWLINE}训练师卡片！{SCROLL}⋯⋯是钻石卡片！",
+   "en": "Let’s check out {VAR:0103:0}’s{NEWLINE}Trainer Card...{SCROLL}...It’s a Diamond Card!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/25"
+  },
+  {
+   "id": 26,
+   "zh": "看到了{VAR:0103:0}的{NEWLINE}训练师卡片！{SCROLL}⋯⋯是珍珠卡片！",
+   "en": "Let’s check out {VAR:0103:0}’s{NEWLINE}Trainer Card...{SCROLL}...It’s a Pearl Card!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/26"
+  },
+  {
+   "id": 27,
+   "zh": "看到了{VAR:0103:0}的{NEWLINE}训练师卡片！{SCROLL}⋯⋯是白金卡片！",
+   "en": "Let’s check out {VAR:0103:0}’s{NEWLINE}Trainer Card...{SCROLL}...It’s a Platinum Card!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0014/27"
+  }
+ ]
+}

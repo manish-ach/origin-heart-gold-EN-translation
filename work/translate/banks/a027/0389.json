@@ -1,0 +1,738 @@
+{
+ "narc": "a027",
+ "bank": 389,
+ "source": "work/extract/v4/a027/0389.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "这里是３９号道路{NEWLINE}大家的浅葱市",
+   "en": "Rt. 39{NEWLINE}Everyone’s Olivine City",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US ‘South to Olivine City’ rewritten: hack zh 大家的浅葱市 (‘Everyone’s Olivine City’).",
+   "category": "sign"
+  },
+  {
+   "id": 1,
+   "zh": "这里是哞哞农场{NEWLINE}请品尝美味的牛奶！",
+   "en": "MooMoo Farm{NEWLINE}Enjoy Our Fresh and Tasty Milk",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0396/1"
+  },
+  {
+   "id": 2,
+   "zh": "贴心的告示板！{SCROLL}使用头突撞击树时{NEWLINE}落下的精灵各不相同{SCROLL}用头突在各种树上都撞一撞吧！",
+   "en": "Trainer Tips{SCROLL}Use Headbutt on trees to shake{NEWLINE}Pokémon out.{SCROLL}Different kinds of Pokémon drop out{NEWLINE}of trees.{SCROLL}Use Headbutt on any tree you see!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0396/2"
+  },
+  {
+   "id": 3,
+   "zh": "大奶罐『Miiii——tan！",
+   "en": "Miltank: Miiii-tan!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "空,无占用的脚本",
+   "en": "Empty: unused script",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Debug placeholder (空,无占用的脚本); probably never shown."
+  },
+  {
+   "id": 5,
+   "zh": "嘿,我是邪恶的火箭队员,{NEWLINE}把你身上带的钱统统都交出来,{CLEAR}不然当心我们揍你哦。{SCROLL}要交出一万元保平安吗？",
+   "en": "Hey, I’m an evil Team Rocket grunt!{NEWLINE}Hand over all the money you’ve{CLEAR}got, or you’ll get a beating!{SCROLL}Hand over $10,000 to stay safe?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "哎？真的要给我钱？{NEWLINE}这……你也不用真的给钱。{CLEAR}你只要记住我很帅就行了,{CLEAR}好好到各地去传颂我的帅气吧。",
+   "en": "Huh? You’re really giving me money?{NEWLINE}Uh... you don’t actually have to pay.{SCROLL}Just remember how cool I am,{NEWLINE}and go spread the word about{CLEAR}my coolness everywhere.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "这么果断就拒绝了？！{NEWLINE}是我还不够像火箭队,{CLEAR}所以吓不到你吗……{SCROLL}算了,既然这样我就用自身的实力{NEWLINE}让你见识一下真正的帅气。",
+   "en": "You turned me down that{NEWLINE}fast?! Am I not Team Rocket{CLEAR}enough to scare you...?{SCROLL}Fine. Then I’ll use my own strength{NEWLINE}to show you what real cool looks like.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "有火箭队制服的加持还是输了吗……",
+   "en": "I lost even with the power of{NEWLINE}the Team Rocket uniform...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0103:0}『知道输了就老老实实{NEWLINE}跟我去附近的城市归案吧。",
+   "en": "{VAR:0103:0}: You know you lost,{NEWLINE}so come quietly to the nearest{CLEAR}city and turn yourself in.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "马志士『喂！{VAR:0103:0}！{NEWLINE}你也是为了哞哞牛奶而来吗？{CLEAR}果然人就是要多吃肉蛋奶{CLEAR}才能保证强壮的体格。{SCROLL}马志士『在补充营养之前,{NEWLINE}要不要跟我来张合影,{CLEAR}纪念一下这不期而遇的重逢？{VAR:0200:0}",
+   "en": "Lt. Surge: Hey! {VAR:0103:0}! You{NEWLINE}here for the Moomoo Milk too?{CLEAR}Meat, eggs and milk, that’s{CLEAR}how you build a strong body!{SCROLL}Lt. Surge: Before we fuel up,{NEWLINE}how about a photo with me to{CLEAR}remember this surprise reunion?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "马志士『好的！那咱们就来笑一个！{SCROLL}",
+   "en": "Lt. Surge: All right!{NEWLINE}Let’s see those smiles!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "马志士『嗯！真是张不错的照片！",
+   "en": "Lt. Surge: Yeah! That’s a fine photo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "马志士『假的吧……{NEWLINE}那么等你改变心意了再来吧！",
+   "en": "Lt. Surge: You’re kidding...{SCROLL}Well, come back when{NEWLINE}you change your mind!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US ‘That’s OK...’ rewritten from zh 假的吧 (‘You’re kidding...’)."
+  },
+  {
+   "id": 14,
+   "zh": "相册好像装满了。{SCROLL}请在电脑整理相册里的相片。",
+   "en": "Your album seems to be full.{SCROLL}Please use a PC to sort out{NEWLINE}the photos in your album.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "我正带着豪力{NEWLINE}搬运翻修码头用的工形钢材,{CLEAR}这种钢材比较重,{CLEAR}即使是豪力搬起来也很慢。{SCROLL}你可以先去其他地方逛逛,{NEWLINE}像是39号路的哞哞农场{CLEAR}就是附近很有名的景点。{CLEAR}等我们搬完了钢材{CLEAR}这条路自然就畅通了。",
+   "en": "Machoke and I are carrying I-beams to{NEWLINE}renovate the harbor. They’re pretty{CLEAR}heavy, so even Machoke is slow at it.{SCROLL}Why not look around somewhere{NEWLINE}else first? MooMoo Farm on Route{CLEAR}39 is a famous spot around here.{SCROLL}Once we’re done moving the{NEWLINE}steel, this road will be clear.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "豪力『Maaa——cho！{SCROLL}豪力绷紧了全身的肌肉。",
+   "en": "Machoke: Maaa-cho!{SCROLL}Machoke tensed every{NEWLINE}muscle in its body.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "巨型钢材,非常非常重。",
+   "en": "Huge steel beams. Very, very heavy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "我正带着豪力{NEWLINE}搬运翻修码头用的工形钢材,{CLEAR}这种钢材比较重,{CLEAR}即使是豪力搬起来也很慢。{SCROLL}你可以先去其他地方逛逛,{NEWLINE}像是缘朱市的烧焦塔、铃铛塔{CLEAR}就是附近很有名的景点。{CLEAR}等我们搬完了钢材{CLEAR}这条路自然就畅通了。",
+   "en": "Machoke and I are carrying I-beams to{NEWLINE}renovate the harbor. They’re pretty{CLEAR}heavy, so even Machoke is slow at it.{SCROLL}Why not look around somewhere{NEWLINE}else first? The Burned Tower{CLEAR}and Bell Tower in Ecruteak City{CLEAR}are famous spots around here.{SCROLL}Once we’re done moving the{NEWLINE}steel, this road will be clear.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "归……归案？你在说什么呢？",
+   "en": "T-turn myself in? What{NEWLINE}are you talking about?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0103:0}『有做坏事的觉悟,{NEWLINE}却没有坐牢的觉悟吗？{CLEAR}但是今天可由不得你。",
+   "en": "{VAR:0103:0}: You were ready to do bad{NEWLINE}things, but not ready to go to jail?{CLEAR}Well, today you don’t get a choice.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "等一下！等一下！我想这里面有误会！",
+   "en": "Wait! Wait! I think there’s{NEWLINE}been a misunderstanding!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0103:0}『误会？",
+   "en": "{VAR:0103:0}: A misunderstanding?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "我不是真的火箭队员,{NEWLINE}我只是觉得火箭队那种{CLEAR}人见人怕的气势真的很帅。{CLEAR}所以就买了一身假制服模仿他们,{CLEAR}仅此而已！",
+   "en": "I’m not a real Team Rocket grunt!{NEWLINE}I just think the way Team Rocket{CLEAR}scares everyone is really cool.{SCROLL}So I bought a fake uniform{NEWLINE}to copy them. That’s all!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0103:0}『我凭什么相信你说的话。",
+   "en": "{VAR:0103:0}: Why should I believe you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "哎呀,我现在就把制服脱了就是。",
+   "en": "Ugh, fine, I’ll take off{NEWLINE}the uniform right now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "你看,火箭队员没有在制服里面{NEWLINE}穿成这样的吧。{CLEAR}我就只是在这一带玩而已,{CLEAR}拜托你不要抓我。",
+   "en": "See? No Team Rocket grunt wears{NEWLINE}something like this under the uniform.{SCROLL}I was just messing around{NEWLINE}here. Please don’t arrest me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "{VAR:0103:0}『好吧,看你的年龄、气质、打扮{NEWLINE}也确实不像火箭队。{CLEAR}我这次就放过你。{CLEAR}但是你要明白,{CLEAR}火箭队给这里的人们{CLEAR}带来过很深的伤痛。{SCROLL}{VAR:0103:0}『你穿个假制服{NEWLINE}自娱自乐拍张照片也就算了,{CLEAR}居然还要穿出来吓唬别人,{CLEAR}遇到吓不住的就使用暴力,{CLEAR}你这就是在污辱自己的人格、{CLEAR}惊吓路过的行人、{CLEAR}刺激那些被伤害过的人！",
+   "en": "{VAR:0103:0}: All right. Judging by{NEWLINE}your age, manner and clothes,{CLEAR}you really don’t seem like Team{CLEAR}Rocket. I’ll let you go this time.{SCROLL}But understand this: Team Rocket has{NEWLINE}caused the people here deep pain.{SCROLL}{VAR:0103:0}: Wearing a fake uniform for{NEWLINE}fun and taking photos is one thing.{SCROLL}But you wore it out to scare{NEWLINE}people, and used violence on{CLEAR}anyone who wasn’t scared.{SCROLL}You’re degrading yourself,{NEWLINE}frightening passersby, and reopening{CLEAR}the wounds of people who were hurt!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "呜呜呜……对不起,{NEWLINE}我也没意识到会有这么坏的影响。{CLEAR}我以后再也不敢了。",
+   "en": "Waaah... I’m sorry. I didn’t{NEWLINE}realize it would have such a bad{CLEAR}effect. I’ll never do it again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0103:0}『你知道就好。{NEWLINE}希望你以后能明辨是非,{CLEAR}去向好的榜样学习。",
+   "en": "{VAR:0103:0}: As long as you understand. I{NEWLINE}hope from now on you can tell right from{CLEAR}wrong, and learn from good role models.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "请你放心,我以后一定做一个好人！",
+   "en": "Don’t worry, from now on I’ll{NEWLINE}definitely be a good person!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "先抓回去再说",
+   "en": "Arrest him first",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 32,
+   "zh": "批评教育一下算了",
+   "en": "Just give him a talking-to",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0103:0}『我没办法确定{NEWLINE}你是不是真的火箭队,{CLEAR}先把你抓起来再说！",
+   "en": "{VAR:0103:0}: I can’t be sure whether{NEWLINE}you’re really Team Rocket or{CLEAR}not. I’m arresting you first!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "呜呜呜……不要啊！{NEWLINE}爸爸妈妈快来救救我啊！！！{CLEAR}求你不要把我抓走啊,{CLEAR}求你了、求你了、求你了,{CLEAR}拜托不要抓我！",
+   "en": "Waaah... No! Mom! Dad! Come save me!!!{SCROLL}Please don’t take me away!{NEWLINE}Please, please, please, I’m{CLEAR}begging you, don’t arrest me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "我以后会尽可能地帮助别人,{NEWLINE}弥补以前犯下的错误。",
+   "en": "From now on I’ll help others as much{NEWLINE}as I can, to make up for what I did.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "大舌舔『Liiiii——ki！",
+   "en": "Lickilicky: Liiiii-ki!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "向日花怪『Suuuu——flo！",
+   "en": "Sunflora: Suuuu-flo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "我正在这一带寻找合适的对手,{NEWLINE}你愿意与我较量一下吗？{SCROLL}",
+   "en": "I’m looking for a good opponent around{NEWLINE}here. Will you have a match with me?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "你喜欢单打还是双打？",
+   "en": "Do you like Singles or Doubles?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 41,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 42,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 43,
+   "zh": "没问题,无论哪种方式我都奉陪！",
+   "en": "No problem, I’ll take you on either way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "哈哈哈,我虽然输了,{NEWLINE}但是能跟你这样的高手对战{CLEAR}还是很让人开心的。",
+   "en": "Ha ha ha, I lost, but battling a real{NEWLINE}expert like you was still a lot of fun.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "你身上只带着一只精灵,{NEWLINE}双打的话需要至少两只精灵。",
+   "en": "You only have one Pokémon with you.{NEWLINE}A Double Battle needs at least two.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "顿甲『Doo……{SCROLL}顿甲的情绪有点低落。",
+   "en": "Donphan: Doo...{SCROLL}Donphan seems a little down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "我的顿甲非常亲人,{NEWLINE}它还是小小象的时候,{CLEAR}经常一个飞跃冲进我的怀里。{CLEAR}可是现在它已经进化成顿甲了,{CLEAR}再像以前那样飞冲我,我可受不了。{CLEAR}但我每次制止它冲向我的时候,{CLEAR}它就会变得很不开心。{SCROLL}我听说有种特别厚实的道具{NEWLINE}叫作护身防具,{CLEAR}如果有那个的话,{CLEAR}应该就不用怕顿甲冲撞我了。",
+   "en": "My Donphan is super affectionate.{NEWLINE}Back when it was a little Phanpy,{CLEAR}it’d often leap right into my arms.{SCROLL}But now that it’s evolved{NEWLINE}into Donphan, I can’t take it{CLEAR}charging at me like it used to.{SCROLL}And every time I stop it from{NEWLINE}charging at me, it gets really upset.{SCROLL}I heard there’s a really thick{NEWLINE}item called a Protector. If I had{CLEAR}one of those, I wouldn’t have to{CLEAR}worry about Donphan ramming me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "要把护身防具送给他吗？{SCROLL}",
+   "en": "Give him the Protector?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "你要送给我护身防具！？{NEWLINE}哇,这可真是份大礼。{CLEAR}我确实很需要这个东西,{CLEAR}真的非常感谢。{SCROLL}但是我也不能白拿你的东西,{NEWLINE}这个我以前买的护具就送给你吧。",
+   "en": "You’re giving me a Protector?!{NEWLINE}Wow, what a gift. I really need{CLEAR}one of these. Thank you so much.{SCROLL}But I can’t take it for nothing. Here,{NEWLINE}have this gear I bought a while ago.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 护具 (the gift in return) is unnamed gear; item given isn't visible."
+  },
+  {
+   "id": 50,
+   "zh": "多谢你给的护身防具,{NEWLINE}现在顿甲可以放心地冲进我怀里了。",
+   "en": "Thanks for the Protector. Now Donphan{NEWLINE}can charge into my arms all it wants.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "顿甲『Doooo——phan！",
+   "en": "Donphan: Doooo-phan!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "来,顿甲！抱一个！",
+   "en": "Come on, Donphan! Give me a hug!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "哈哈,好孩子,好孩子。",
+   "en": "Ha ha, good boy, good boy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "年轻人,你也看到我这里{NEWLINE}养了不少向日花怪吧。{CLEAR}其实关于这些向日花怪有一段故事哦。{CLEAR}你想听听吗？",
+   "en": "Young one, you can see I raise{NEWLINE}quite a few Sunflora here.{SCROLL}There’s actually a story behind these{NEWLINE}Sunflora. Would you like to hear it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "哎呀,不想听吗……",
+   "en": "Oh my, you don’t want to hear it...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "这大概是五十年多前的事了。{NEWLINE}当时精灵联盟都还没成立呢,{CLEAR}我的爱人玛露雀儿{CLEAR}为了磨炼自己的训练家技艺,{CLEAR}独自一人踏上了口袋妖怪之旅。{CLEAR}可是到了约定回来的时间,{CLEAR}我所爱的玛露雀儿却没有出现。{CLEAR}原来是玛露雀儿在旅行中发生了意外,{CLEAR}有一段时间失去了记忆。{CLEAR}但我不知道他发生了意外,{CLEAR}就在我几乎要放弃等他的时候,{CLEAR}我收到了他的来信,{CLEAR}信上是这么写着的：{CLEAR}没能如约回去陪伴你,{CLEAR}真的非常对其不起,{CLEAR}如果你已经结婚过上了幸福的生活,{CLEAR}我就不回去了。{CLEAR}可是如果你还在等我的话,{CLEAR}就请在农场摆上黄色的向日花怪吧。{SCROLL}于是我开始学着如何收服精灵,{NEWLINE}如何训练精灵,{CLEAR}终于在不知道走了多少路、{CLEAR}受了多少伤之后{CLEAR}收服了这四只向日花怪。{CLEAR}玛露雀儿回到这里时,{CLEAR}看到了我放在外面的向日花怪,{CLEAR}所以才能骨起勇气来与我相见,{CLEAR}最终我们在一起过上了幸福的生活。{SCROLL}但是好景不长,{NEWLINE}玛露雀儿因为伤势复发,{CLEAR}没多久他就过世了……",
+   "en": "This was over fifty years ago, before{NEWLINE}the Pokémon League was even founded.{SCROLL}My beloved Marcel set out alone on a{NEWLINE}Pokémon journey to hone his{CLEAR}skills as a Trainer.{SCROLL}But on the day he’d promised to return,{NEWLINE}my dear Marcel didn’t appear.{SCROLL}It turned out Marcel had an accident{NEWLINE}on his travels and lost his memory{CLEAR}for a while.{SCROLL}But I didn’t know he’d had an accident.{NEWLINE}Just as I was about to give up waiting,{CLEAR}I got a letter from him.{SCROLL}It said: ‘I’m truly sorry I couldn’t{NEWLINE}come back to you as I promised.{SCROLL}If you’re already married and living a{NEWLINE}happy life, I won’t come back.{SCROLL}But if you’re still waiting for me, please{NEWLINE}put yellow Sunflora out on the farm.’{SCROLL}So I started learning how to catch and{NEWLINE}train Pokémon.{SCROLL}And after who knows how many miles{NEWLINE}and injuries, I finally caught{CLEAR}these four Sunflora.{SCROLL}When Marcel came back here, he saw the{NEWLINE}Sunflora I’d put outside and found the{CLEAR}courage to come and see me.{SCROLL}In the end, we lived happily together.{SCROLL}But happiness didn’t last. Marcel’s old{NEWLINE}injuries came back, and before long he{CLEAR}passed away...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "玛露雀儿 (the Sunflora lady's husband) → Marcel (invented, low confidence). D-1480: shortened to fit the 1,024-unit field message buffer (minimal edits, rechecked against zh)."
+  },
+  {
+   "id": 57,
+   "zh": "{VAR:0103:0}『老奶奶……",
+   "en": "{VAR:0103:0}: Granny...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "今天是我们结婚五十周年纪念日,{NEWLINE}不知道这些向日花怪还能不能{CLEAR}再一次把玛露雀儿带回我的身边。{SCROLL}可能的话,真想跟他一起{NEWLINE}庆祝这个纪念日啊。",
+   "en": "Today is our fiftieth wedding{NEWLINE}anniversary. I wonder if these{CLEAR}Sunflora can bring Marcel{CLEAR}back to my side one more time.{SCROLL}If only I could, I’d love to{NEWLINE}celebrate this anniversary with him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "{VAR:0103:0}『原来这些向日花怪{NEWLINE}竟饱含着您那么多的回忆。",
+   "en": "{VAR:0103:0}: So these Sunflora{NEWLINE}hold so many of your memories.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "{VAR:0103:0}『呜呜呜……老奶奶,{NEWLINE}您的故事好感人啊！",
+   "en": "{VAR:0103:0}: *sob*... Granny,{NEWLINE}your story is so moving!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "不好意思,破坏你们的气氛了。",
+   "en": "Sorry to spoil the mood.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "刚才老太婆给你讲的故事全是假的。",
+   "en": "That story the old lady{NEWLINE}just told you is all made up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "{VAR:0103:0}『啊……？",
+   "en": "{VAR:0103:0}: Huh...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "我就是刚才她故事里的玛露雀儿,{NEWLINE}如你所见身体健康着呢。{CLEAR}我老婆这个人喜欢看电影,{CLEAR}所以总爱讲一些虚构的故事。{CLEAR}你听听就好,不要太当真。",
+   "en": "I’m Marcel, the one from her story.{NEWLINE}As you can see, I’m alive and well.{SCROLL}My wife loves watching movies,{NEWLINE}so she’s always telling made-up{CLEAR}stories. Just enjoy them, and{CLEAR}don’t take them too seriously.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "怎么样啊,年轻人,{NEWLINE}我今天的故事效果还不错吧？",
+   "en": "So, young one, my story worked{NEWLINE}pretty well today, didn’t it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "{VAR:0103:0}『这……",
+   "en": "{VAR:0103:0}: Um...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "{VAR:0103:0}『老奶奶你太坏了,{NEWLINE}赔我眼泪啊！",
+   "en": "{VAR:0103:0}: Granny, that’s so{NEWLINE}mean! Give me back my tears!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "哈哈哈,对不起,对不起啦。{NEWLINE}不过真的很感谢你听完我的故事。{CLEAR}这个就当做是骗你的补偿送给你吧。",
+   "en": "Ha ha ha, sorry, sorry. But thank you{NEWLINE}so much for listening to my whole story.{SCROLL}Take this as an apology for fooling you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "我得再多看几部电影,{NEWLINE}好编个更精彩的故事{CLEAR}讲给后面路过的人听。",
+   "en": "I need to watch a few more movies{NEWLINE}so I can make up an even better{CLEAR}story for the next passerby.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "这座农场是我年轻时建的,{NEWLINE}如今已经交给儿子打理了。{CLEAR}我现在的任务就是享受生活了,哈哈。",
+   "en": "I built this farm when I was young.{NEWLINE}Now my son runs it. My job these{CLEAR}days is just to enjoy life, ha ha.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "我们家老太婆年龄越大,{NEWLINE}就越喜欢讲故事。{CLEAR}总有路过的游客被她骗出眼泪,哈哈。",
+   "en": "The older my old lady gets,{NEWLINE}the more she loves telling stories.{CLEAR}There’s always some passing{CLEAR}tourist she fools into tears, ha ha.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "欢迎来到哞哞农场,{NEWLINE}我们这里特产的哞哞牛奶,{CLEAR}可是营养美味的绿色食品,{CLEAR}您需要来一点吗？{SCROLL}",
+   "en": "Welcome to MooMoo Farm! Our local{NEWLINE}Moomoo Milk is nutritious, tasty and{CLEAR}all-natural. Would you like some?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "1瓶牛奶{NEWLINE}1000元",
+   "en": "1 Moomoo Milk{NEWLINE}$1000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 74,
+   "zh": "3瓶牛奶{NEWLINE}3000元",
+   "en": "3 Moomoo Milk{NEWLINE}$3000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 75,
+   "zh": "8瓶牛奶{NEWLINE}8000元",
+   "en": "8 Moomoo Milk{NEWLINE}$8000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 76,
+   "zh": "12瓶{NEWLINE}12000元",
+   "en": "12 bottles{NEWLINE}$12000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh drops ‘milk’ on this line (12瓶); kept short.",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 77,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s)",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 78,
+   "zh": "我们这儿是哞哞牛奶的原产地,{NEWLINE}卖的比其他地方都要便宜。{CLEAR}您如果需要的话欢迎再来采购。",
+   "en": "This is where Moomoo Milk comes from,{NEWLINE}so we sell it cheaper than anywhere{CLEAR}else. Come back anytime you need more.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "多谢惠顾,请拿好您的牛奶。",
+   "en": "Thank you! Here’s your milk.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "哎呀,您身上的钱不够呢。",
+   "en": "Oh dear, you don’t have enough money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "您看还需要再买点吗？{SCROLL}",
+   "en": "Would you like to buy some more?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "我们家大奶罐生病了,{NEWLINE}最近都产不出牛奶来了。{CLEAR}爸妈他们都快急死了,{CLEAR}唉,可怎么办啊。",
+   "en": "Our Miltank are sick, so they{NEWLINE}haven’t given any milk lately.{SCROLL}Mom and Dad are worried sick.{NEWLINE}Sigh... What are we going to do?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "听说大奶罐最近身体不好,不要紧吧……",
+   "en": "I heard the Miltank haven’t been{NEWLINE}well lately. I hope they’re OK...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "我在农场干了一辈子了,{NEWLINE}还从来没见过大奶罐出现这样的病症。",
+   "en": "I’ve worked on this farm{NEWLINE}my whole life, and I’ve never{CLEAR}seen Miltank get sick like this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "{VAR:FF01:200}阿金『偶像！！！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Gold: Idol!!!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "阿金『我已经获得魅影徽章{NEWLINE}正式成为中级训练家了。{CLEAR}跟从若叶镇出发的时候相比,{CLEAR}我和伙伴们都成长了好多。{SCROLL}阿金『我想现在跟偶像来一场对战,{NEWLINE}确认一下自己目前的水平。{CLEAR}偶像你可不要推辞哦！",
+   "en": "Gold: I’ve got the Fog Badge and I’m{NEWLINE}officially an Intermediate Trainer now!{SCROLL}My partners and I have grown so{NEWLINE}much since we left New Bark Town.{SCROLL}Gold: I want to battle you right{NEWLINE}now, Idol, and see where I stand.{SCROLL}Don’t you dare say no, Idol!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "阿金『真不愧是偶像！{NEWLINE}我还以为在训练家这条路上{CLEAR}已经能够看到偶像的尾灯了,{CLEAR}没想到差距居然还是这么大。{SCROLL}阿金『不过收集城都地区徽章的比赛{NEWLINE}我现在可没有落后。{CLEAR}等咱们都集齐了城都地区的8枚徽章,{CLEAR}我再跟偶像比试一次！",
+   "en": "Gold: That’s my idol! I thought{NEWLINE}I could finally see your{CLEAR}taillights on the Trainer road,{CLEAR}but the gap is still this huge.{SCROLL}Gold: But I’m not falling behind in{NEWLINE}the race for the Johto Badges!{SCROLL}Once we’ve both got all eight Johto{NEWLINE}Badges, I’ll challenge you again, Idol!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "水晶『前辈,你和阿金走得好快啊。{NEWLINE}要追上你们可真不容易。{CLEAR}我听说浅葱市的港口开放了,{CLEAR}水都群岛的涨潮季也已经结束,{CLEAR}如果现在坐船去水都群岛,{CLEAR}应该能抓到不少稀有精灵。",
+   "en": "Crystal: You and Gold move so fast.{NEWLINE}It’s really hard to keep up with you.{SCROLL}I heard Olivine City’s harbor is{NEWLINE}open, and high-tide season in{CLEAR}the Alto Mare Islands is over.{SCROLL}If we took a ship to the Alto Mare{NEWLINE}Islands now, we could probably{CLEAR}catch lots of rare Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "水晶『不过我现在还是要{NEWLINE}优先收集城都地区的精灵。{CLEAR}像浅葱市周围的水域{CLEAR}应该就很有探索的价值,{CLEAR}我先去那边看看咯。",
+   "en": "Crystal: But for now, I want to focus{NEWLINE}on catching Johto Pokémon first.{SCROLL}The waters around Olivine City{NEWLINE}should be well worth exploring,{CLEAR}so I’ll go take a look there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

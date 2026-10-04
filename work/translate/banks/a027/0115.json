@@ -1,0 +1,1517 @@
+{
+ "narc": "a027",
+ "bank": 115,
+ "source": "work/extract/v4/a027/0115.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "我最喜欢小物件了,{NEWLINE}你如果有零碎的小道具,{CLEAR}奶奶我可以用大道具跟你换哦。",
+   "en": "I just love little things. If you{NEWLINE}have odds and ends, Granny here will{CLEAR}trade you something bigger for them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "欢迎光临,{NEWLINE}我们是便宜的道具店哦,{SCROLL}卖的都是其他店里没有的{NEWLINE}珍奇道具哦,{CLEAR}但是每天只出售一个商品哦。{VAR:0200:0}",
+   "en": "Hiya! Care to see some bargains?{SCROLL}I sell rare items that no other shop{NEWLINE}carries, but only one item a day.{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0117/1 US line kept but ‘only one of each item’ changed to zh ‘only one item a day’."
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0108:0}是{VAR:0135:1}元哦,{NEWLINE}想要吗？{VAR:0200:0}",
+   "en": "{VAR:0108:0} costs ${VAR:0135:1}. Want it?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0117/2 | seed rejected us [tag_mismatch] (candidate US 0117#2; text not kept)"
+  },
+  {
+   "id": 3,
+   "zh": "谢谢哦{SCROLL}",
+   "en": "Thanks.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/3"
+  },
+  {
+   "id": 4,
+   "zh": "把{VAR:0108:0}{NEWLINE}放进{VAR:0112:1}口袋里。{VAR:0200:0}",
+   "en": "You put the {VAR:0108:0} in{NEWLINE}the {VAR:0112:1} Pocket. {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/4"
+  },
+  {
+   "id": 5,
+   "zh": "这个不是刚才买了么？{NEWLINE}已经没货了。{VAR:0200:0}",
+   "en": "You bought that already. I’m all{NEWLINE}sold out of it. {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/5"
+  },
+  {
+   "id": 6,
+   "zh": "你的钱好像不够呢。{VAR:0200:0}",
+   "en": "Uh-oh, you’re short on funds. {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/6"
+  },
+  {
+   "id": 7,
+   "zh": "包包好像满了呢。{VAR:0200:0}",
+   "en": "Uh-oh, your Bag is chock-full. {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/7"
+  },
+  {
+   "id": 8,
+   "zh": "今天已经结束了。",
+   "en": "We’re closed for the day.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/8"
+  },
+  {
+   "id": 9,
+   "zh": "下次再来吧。",
+   "en": "Come by again sometime.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/9"
+  },
+  {
+   "id": 10,
+   "zh": "欢迎光临！{NEWLINE}我们这是精灵美容室！{SCROLL}手艺很好的我{NEWLINE}是美发兄弟的哥哥,{CLEAR}只要５００元就能把你的精灵{CLEAR}变漂亮！{SCROLL}美发后毛色就会更漂亮,{CLEAR}更加黏主人。{SCROLL}怎样？{NEWLINE}要美发吗？{VAR:0200:0}",
+   "en": "Welcome!{SCROLL}I run the Pokémon Salon!{SCROLL}I’m the older and better of the two{NEWLINE}Haircut Brothers.{SCROLL}I can make your Pokémon beautiful for{NEWLINE}just $500.{SCROLL}Grooming gives a better look.{NEWLINE}Your Pokémon will become friendlier and{CLEAR}more beautiful.{SCROLL}Would you like me to do that? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/10"
+  },
+  {
+   "id": 11,
+   "zh": "要把那只精灵变漂亮呢？",
+   "en": "Which Pokémon should I work on?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/11"
+  },
+  {
+   "id": 12,
+   "zh": "好的！{NEWLINE}我会让它变漂亮的！",
+   "en": "OK! Watch it become beautiful!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/12"
+  },
+  {
+   "id": 13,
+   "zh": "好了,完成了！",
+   "en": "There! All done!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/13"
+  },
+  {
+   "id": 14,
+   "zh": "这样啊？{NEWLINE}真是遗憾啊。",
+   "en": "Is that right? That’s a shame!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/14"
+  },
+  {
+   "id": 15,
+   "zh": "钱好像不够呢。",
+   "en": "You’ll need more money than that.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/15"
+  },
+  {
+   "id": 16,
+   "zh": "一天只能打理一只,{NEWLINE}今天不能再美发了！",
+   "en": "I do only one haircut a day, sorry.{NEWLINE}I’m done for today.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/16"
+  },
+  {
+   "id": 17,
+   "zh": "欢迎光临精灵美容院！{SCROLL}我是美发兄弟的弟弟！{SCROLL}我的卖点就是价格优惠！{NEWLINE}只要３００元就能把你的精灵{CLEAR}变漂亮哦！{SCROLL}美发后毛色会更漂亮,{CLEAR}会更加黏主人哦。{SCROLL}怎样？{NEWLINE}要让我来做吗？{VAR:0200:0}",
+   "en": "Welcome to the Pokémon Salon!{SCROLL}I’m the younger of the{NEWLINE}two Haircut Brothers!{SCROLL}My selling point is my low{NEWLINE}price! I’ll make your Pokémon{CLEAR}beautiful for just $300!{SCROLL}Grooming gives it a prettier coat,{NEWLINE}and it’ll become friendlier with you.{SCROLL}So? How about it? Want me to do it?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0117/17 | seed rejected us [tag_mismatch] (candidate US 0117#17; text not kept)"
+  },
+  {
+   "id": 18,
+   "zh": "要把哪个精灵变漂亮啊？",
+   "en": "OK, which Pokémon should I spruce up?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/18"
+  },
+  {
+   "id": 19,
+   "zh": "好的！{NEWLINE}我会做得很好的！",
+   "en": "OK! I hope I do a good job!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/19"
+  },
+  {
+   "id": 20,
+   "zh": "好了,完成了！",
+   "en": "There we go! All done!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/20"
+  },
+  {
+   "id": 21,
+   "zh": "这样啊？{NEWLINE}好遗憾哦。",
+   "en": "No? How disappointing!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/21"
+  },
+  {
+   "id": 22,
+   "zh": "钱好像不够呢。",
+   "en": "You’re a little short on funds.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/22"
+  },
+  {
+   "id": 23,
+   "zh": "我觉得接下来{NEWLINE}我可能会失败,{CLEAR}今天还是到此为止吧！",
+   "en": "I have a feeling that it won’t go well{NEWLINE}next time. Let me close for the day!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/23"
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0100:0}{NEWLINE}看上去稍微有点高兴！",
+   "en": "{VAR:0100:0} looks a little happier.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/24"
+  },
+  {
+   "id": 25,
+   "zh": "{VAR:0100:0}{NEWLINE}看上去很高兴！",
+   "en": "{VAR:0100:0} looks happy.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/25"
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0100:0}{NEWLINE}看上去非常高兴！",
+   "en": "{VAR:0100:0} looks delighted!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/26"
+  },
+  {
+   "id": 27,
+   "zh": "这个前面禁止进入！",
+   "en": "NO ENTRY BEYOND THIS POINT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/27"
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0103:0}{NEWLINE}插入地下钥匙！{SCROLL}",
+   "en": "{VAR:0103:0} inserted the{NEWLINE}Basement Key.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/28"
+  },
+  {
+   "id": 29,
+   "zh": "哎呀,欢迎光临,{NEWLINE}欢迎光临纪念照片工作室,{SCROLL}我们拍的可不是{NEWLINE}普通的纪念照片哦！{SCROLL}听好了,{NEWLINE}你可以扮成火箭队{CLEAR}的样子拍照！{SCROLL}怎样？要试试吗？{VAR:0200:0}",
+   "en": "Welcome to the Memorial Photo Studio.{NEWLINE}We are no ordinary studio!{SCROLL}You can wear a Team Rocket uniform{NEWLINE}to take a picture!{SCROLL}Would you like to try it? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/29"
+  },
+  {
+   "id": 30,
+   "zh": "那么换好衣服以后,{NEWLINE}就站在照相机前面吧。{SCROLL}",
+   "en": "Please stand in front of the camera{NEWLINE}once you have changed.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/30"
+  },
+  {
+   "id": 31,
+   "zh": "那么要拍了哦,{SCROLL}你要有种{SCROLL}「这个世界是我的！」的感觉,{NEWLINE}好了,说茄……子！{SCROLL}",
+   "en": "Are you ready?{SCROLL}Come on!{NEWLINE}Look cool as if you own the world!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/31"
+  },
+  {
+   "id": 32,
+   "zh": "好了,辛苦了。{SCROLL}拍的照片{NEWLINE}可以在电脑里看。",
+   "en": "Good job.{SCROLL}You can check the picture using the PC.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/32"
+  },
+  {
+   "id": 33,
+   "zh": "我们这里可以扮成火箭队的样子{NEWLINE}拍照哦！{SCROLL}怎样？要试试吗？{VAR:0200:0}",
+   "en": "You can wear a Team Rocket uniform{NEWLINE}to take a picture!{SCROLL}Would you like to try it? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/33"
+  },
+  {
+   "id": 34,
+   "zh": "是么……{SCROLL}也对,火箭队{NEWLINE}并不是我们学习的榜样。",
+   "en": "...Fair enough.{SCROLL}No one should look up to Team Rocket.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/34"
+  },
+  {
+   "id": 35,
+   "zh": "哎呀？你的相册{NEWLINE}好像满了,{SCROLL}抱歉,先用电脑{NEWLINE}把照片整理一下{CLEAR}再来吧。",
+   "en": "Hmm. Your Photo Album is full.{SCROLL}Access your PC and delete{NEWLINE}some pictures.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/35"
+  },
+  {
+   "id": 36,
+   "zh": "嗯？{NEWLINE}你也是新来的吗？{SCROLL}若要为广播塔作战计划{NEWLINE}而增加成员的话,{CLEAR}那么火箭队的制服{CLEAR}就不够用了。{SCROLL}然后我听说照相馆{NEWLINE}里面有,{CLEAR}于是去偷了件过来,{SCROLL}正好！{NEWLINE}你就在这里换吧。{SCROLL}",
+   "en": "Huh?{NEWLINE}Are you a newcomer, too?{SCROLL}We had to recruit new members for the{NEWLINE}Radio Tower mission.{CLEAR}Then we ran out of uniforms.{SCROLL}I heard this studio has some, so I{NEWLINE}decided to “borrow” one.{SCROLL}Since you are here, why don’t you{NEWLINE}change as well?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/36"
+  },
+  {
+   "id": 37,
+   "zh": "嗯,还挺合适的~！{SCROLL}但是穿成这样子{NEWLINE}跑到城市里去转悠,{CLEAR}吓到市民就不好了哦！",
+   "en": "Look at you! Pretty good!{SCROLL}Oh, but you shouldn’t try to scare{NEWLINE}people walking around looking{CLEAR}like that, OK?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/37"
+  },
+  {
+   "id": 38,
+   "zh": "啊嗯,不好意思！{SCROLL}这里是只有拥有装饰品的{NEWLINE}可爱训练师{CLEAR}才能进入的房间。",
+   "en": "Oh, excuse me!{SCROLL}This room is only for cute{NEWLINE}Trainers who have Accessories.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "你的精灵{NEWLINE}好有魅力哦{SCROLL}若是在这里穿上礼服的话{NEWLINE}会变的更加,更加,更加{CLEAR}有魅力！{SCROLL}这样的话就可以特意为你{NEWLINE}把一张照片装饰在{CLEAR}最里面的房间！{SCROLL}怎样？要试试吗？{VAR:0200:0}",
+   "en": "Ooh, your Pokémon are so very{NEWLINE}charming! How enchanting!{SCROLL}If you dress up your Pokémon here,{NEWLINE}make it a sight to behold!{SCROLL}Then I will even hang a picture of one{NEWLINE}in the other room!{SCROLL}You will do this, won’t you? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/39"
+  },
+  {
+   "id": 40,
+   "zh": "真是的！{NEWLINE}真是个冷淡的人……",
+   "en": "Oh, you silly thing...{NEWLINE}Where’s your sense of adventure?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/40"
+  },
+  {
+   "id": 41,
+   "zh": "太好了,太好了！{NEWLINE}那么就让我们开始吧！{SCROLL}你……{NEWLINE}需要说明吗？{VAR:0200:0}",
+   "en": "Ooh, ooh, yes! How nice!{NEWLINE}Let’s not delay!{SCROLL}Should I explain to you how{NEWLINE}to dress up your Pokémon? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/41"
+  },
+  {
+   "id": 42,
+   "zh": "要让哪只精灵{NEWLINE}穿上礼服呢？{SCROLL}",
+   "en": "Ooh, I wonder which Pokémon you’ll{NEWLINE}dress up?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/42"
+  },
+  {
+   "id": 43,
+   "zh": "呜呼呼,{NEWLINE}要穿可爱的礼服哦！{SCROLL}",
+   "en": "Teeheehee...{NEWLINE}I hope you will dress it up adorably!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/43"
+  },
+  {
+   "id": 44,
+   "zh": "从你手里的{NEWLINE}饰品盒的里面{CLEAR}挑选喜欢的装饰品{CLEAR}给精灵戴上！{SCROLL}好了以后会把照片{NEWLINE}装饰在最里面的房间,{SCROLL}通过记录通信{NEWLINE}连朋友的照片{CLEAR}也能拿到哦！{SCROLL}首先,总之{NEWLINE}让我们先试试吧！{VAR:0200:0}",
+   "en": "You have a Fashion Case, don’t you?{NEWLINE}Ah, oui, wonderful!{SCROLL}Just choose the Accessories and put{NEWLINE}them on your Pokémon.{SCROLL}When you’re done, I will snap a photo{NEWLINE}and put it up beside me!{SCROLL}If you mix your records with others,{NEWLINE}you can get their photos, too!{SCROLL}I think it will be much easier if{NEWLINE}you will just try! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/44"
+  },
+  {
+   "id": 45,
+   "zh": "辛苦你啦！{NEWLINE}把完成的照片装饰上去吧,{CLEAR}要加上标题哦！{SCROLL}",
+   "en": "Ooh, nice work!{NEWLINE}Let’s display the photo right away!{CLEAR}Oh, but it needs to have a title!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/45"
+  },
+  {
+   "id": 46,
+   "zh": "{VAR:011C:0}{NEWLINE}……　……　……{SCROLL}好,好,原来如此！{NEWLINE}看上去闪闪发光！{SCROLL}",
+   "en": "{VAR:011C:0}...{SCROLL}Ooh, yes, yes! I get it now!{NEWLINE}Your aesthetics shine through!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/46"
+  },
+  {
+   "id": 47,
+   "zh": "啊,不行！{NEWLINE}没标题会感觉缺了点什么。{SCROLL}",
+   "en": "Oh, no! Without a title, it{NEWLINE}feels like something’s missing.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "啊……就这样什么都没有{NEWLINE}就好了吗,真是寂寞啊！",
+   "en": "Oh... You came out without doing{NEWLINE}anything... How disappointing.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/48"
+  },
+  {
+   "id": 49,
+   "zh": "再来穿礼服的话,{NEWLINE}就会帮你把装饰照片{CLEAR}换成新的！{SCROLL}要穿礼服吗？{VAR:0200:0}",
+   "en": "If you dress up any Pokémon again,{NEWLINE}the photo here will be changed.{SCROLL}Would you like to dress up{NEWLINE}a Pokémon, dearie? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/49"
+  },
+  {
+   "id": 50,
+   "zh": "我也穿上礼服,{NEWLINE}把照片装饰上去吧……{SCROLL}嗯,标题就是{NEWLINE}少女的乐园之类的……",
+   "en": "Why don’t I dress up myself and hang a{NEWLINE}picture...?{SCROLL}The title should be...{NEWLINE}Hmm...how about “Girl’s Paradise”?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/50"
+  },
+  {
+   "id": 51,
+   "zh": "讨厌,这是蛋吧,{NEWLINE}现在还不能打扮。{SCROLL}",
+   "en": "Oh dear, that’s an Egg. It{NEWLINE}can’t be dressed up yet.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "你的照片已经装饰在{NEWLINE}里面的房间里了啊！",
+   "en": "I put your photo up right here.{NEWLINE}It just looks so perfect there!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/52"
+  },
+  {
+   "id": 53,
+   "zh": "这是装饰照片的画框！",
+   "en": "It’s a frame for holding a{NEWLINE}portrait photo.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/53"
+  },
+  {
+   "id": 54,
+   "zh": "欢迎光临！{NEWLINE}这里准备了装饰品。{SCROLL}啊,等一下！啊！{NEWLINE}你的精灵超可爱！{CLEAR}啊！真合适！合适得一塌糊涂！{CLEAR}买一件吧！",
+   "en": "Welcome! We have Accessories here.{SCROLL}Oh, wait! Ah! Your Pokémon is{NEWLINE}super cute! Ah! It’d look perfect!{CLEAR}Absolutely perfect! Buy one!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "从刚刚开始穿黑衣的{NEWLINE}火箭队员们{CLEAR}就慌慌张张地走来走去……{SCROLL}我还以为他们想闹点什么事,{NEWLINE}结果是你把火箭队员给……{CLEAR}你真强！{SCROLL}既然这样,{NEWLINE}传说的……{SCROLL}",
+   "en": "Team Rocket members in black suits{NEWLINE}have been running around...{SCROLL}I was wondering what was going on.{NEWLINE}So, you took on Team Rocket?{CLEAR}You are impressive!{SCROLL}You may be able to face the{NEWLINE}legendary Poké...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/55"
+  },
+  {
+   "id": 56,
+   "zh": "哦呵呵！不说了,{SCROLL}那,我先走了！{SCROLL}",
+   "en": "Hahaha! Never mind.{SCROLL}I must go now.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/56"
+  },
+  {
+   "id": 57,
+   "zh": "欢迎光临！{SCROLL}这里是不知道会出现什么的{NEWLINE}装饰品抽奖！{SCROLL}一次１００元{NEWLINE}要试试吗？{VAR:0200:0}",
+   "en": "Take a look!{SCROLL}This is a drawing for Accessories.{NEWLINE}You never know what you’re gonna get.{SCROLL}Would you like to try for $100? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/57"
+  },
+  {
+   "id": 58,
+   "zh": "哇哦！好厉害！{NEWLINE}你的饰品和壁纸可真多！{SCROLL}多多打扮你的{NEWLINE}小精灵吧！",
+   "en": "Wow, you are great!{NEWLINE}So many Accessories and wallpapers!{SCROLL}Go ahead and dress up your Pokémon!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/58"
+  },
+  {
+   "id": 59,
+   "zh": "再见,{NEWLINE}要来玩哦！",
+   "en": "Please come again!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/59"
+  },
+  {
+   "id": 60,
+   "zh": "啊！{NEWLINE}钱不够！",
+   "en": "Oh, no!{NEWLINE}You’re short on funds.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/60"
+  },
+  {
+   "id": 61,
+   "zh": "那,开始咯！{SCROLL}……　……　……{NEWLINE}……　……　……{CLEAR}……{CLEAR}中了！{SCROLL}",
+   "en": "Here we go!{SCROLL}..................{NEWLINE}..................{CLEAR}......{CLEAR}You win!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/61"
+  },
+  {
+   "id": 62,
+   "zh": "墙纸{NEWLINE}怎么样？{SCROLL}",
+   "en": "How about a wallpaper?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/62"
+  },
+  {
+   "id": 63,
+   "zh": "再见！",
+   "en": "Come again!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/63"
+  },
+  {
+   "id": 64,
+   "zh": "真可惜,没中！{SCROLL}",
+   "en": "Oh, you didn’t win. Sorry.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0117/64"
+  },
+  {
+   "id": 65,
+   "zh": "今天的商品是PP最大剂,{NEWLINE}一个3000元,要买吗？",
+   "en": "Today’s item is a PP Max. It’s{NEWLINE}$3000 each. Want to buy one?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "今天的商品是神奇糖果,{NEWLINE}一个5000元,要买吗？",
+   "en": "Today’s item is a Rare Candy. It’s{NEWLINE}$5000 each. Want to buy one?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "今天的商品是PP全回复,{NEWLINE}一个2000元,要买吗？",
+   "en": "Today’s item is a Max Elixir. It’s{NEWLINE}$2000 each. Want to buy one?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "今天的商品是奇迹果,{NEWLINE}一个500元,要买吗？",
+   "en": "Today’s item is a Lum Berry. It’s{NEWLINE}$500 each. Want to buy one?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "今天的商品是圣灰,{NEWLINE}一个8000元,要买吗？",
+   "en": "Today’s item is Sacred Ash. It’s{NEWLINE}$8000 each. Want to buy one?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "今天的商品是心之鳞片,{NEWLINE}一个5000元,要买吗？",
+   "en": "Today’s item is a Heart Scale.{NEWLINE}It’s $5000 each. Want to buy one?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "今天的商品是竞赛球,{NEWLINE}一个1000元,要买吗？",
+   "en": "Today’s item is a Sport Ball. It’s{NEWLINE}$1000 each. Want to buy one?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "竞赛球 read as Sport Ball (no glossary entry)."
+  },
+  {
+   "id": 72,
+   "zh": "来,这是你的东西,请拿好。",
+   "en": "Here you go. Please take it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "今天的货已经卖完了,明天再来吧。",
+   "en": "Today’s stock is sold{NEWLINE}out. Come back tomorrow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "6个小珍珠换1个大珍珠",
+   "en": "6 Pearls for 1 Big Pearl",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 75,
+   "zh": "5个星之砂换1个星之碎片",
+   "en": "5 Stardust for 1 Star Piece",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 76,
+   "zh": "3个元气碎片换1个元气块",
+   "en": "3 Revives for 1 Max Revive",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 77,
+   "zh": "先不换了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 78,
+   "zh": "你的东西数量不够啊。",
+   "en": "You don’t have enough of those.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "好的,你的小物件我收下了。{NEWLINE}这个大玩意儿现在归你了。{SCROLL}",
+   "en": "All right, I’ll take your little{NEWLINE}things. This big one’s yours now.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "你的精灵好有魅力哦。{SCROLL}如果你拥有饰品盒的话,{NEWLINE}我们就可以帮你的精灵拍出一张{CLEAR}展示他们魅力的独特照片哦。",
+   "en": "Your Pokémon are so charming.{SCROLL}If you have a Fashion Case, we{NEWLINE}can take a unique photo that{CLEAR}shows off your Pokémon’s charm.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "欢迎光临！{SCROLL}这里是不知道会出现什么的{NEWLINE}装饰品抽奖！{CLEAR}一次１００元。{SCROLL}哦,你现在没有饰品盒,{NEWLINE}那就不能给你抽奖了,真是抱歉。",
+   "en": "Welcome!{SCROLL}This is the Accessory drawing,{NEWLINE}where you never know what{CLEAR}you’ll get! It’s $100 a try.{SCROLL}Oh, you don’t have a Fashion{NEWLINE}Case right now, so I can’t{CLEAR}let you draw. I’m so sorry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "这些人真是的,{NEWLINE}本来好好的地下购物街道{CLEAR}被他们搅得不得安宁。",
+   "en": "These people, honestly. This{NEWLINE}underground shopping street{CLEAR}was perfectly nice, and{CLEAR}they’ve turned it upside down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#82-#181 underground battle gang in the Goldenrod Tunnel (while Whitney is at the Radio Tower): #92 ‘I’m the Champion’ → gang flees (#94-#106) vs #93 insult them → 3-round Double Battle gauntlet with Crystal (#107-#163); #104/#105, #113/#114 male/female."
+  },
+  {
+   "id": 83,
+   "zh": "呀,您是……！{NEWLINE}您是联盟冠军{VAR:0103:0}吧！{CLEAR}您在这真是太好了,{CLEAR}请管一管这些{CLEAR}无法无天的地下决斗者好吗？",
+   "en": "Oh, you’re...! You’re League{NEWLINE}Champion {VAR:0103:0}, aren’t you?!{CLEAR}I’m so glad you’re here. Could you{CLEAR}please do something about these{CLEAR}lawless underground battlers?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "您是联盟冠军哎,{NEWLINE}怎么能放任他们在这闹腾呢？{CLEAR}请管一管这些{CLEAR}无法无天的地下决斗者好吗？",
+   "en": "You’re the League Champion! How{NEWLINE}can you let them run riot here?{CLEAR}Could you please do something about{CLEAR}these lawless underground battlers?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "{VAR:0103:0}『住手吧,不要再打了！",
+   "en": "{VAR:0103:0}: Stop it! No more fighting!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "{VAR:0103:0}『行了！都给我住手！",
+   "en": "{VAR:0103:0}: That’s enough!{NEWLINE}All of you, stop right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "哦！年轻人！{NEWLINE}你看起来既厉害又富有正义感,{CLEAR}拜托你去制止一下{CLEAR}前面那些在搞地下决斗的青年吧。{CLEAR}如果他们这么闹下去,{CLEAR}我们这些在地下通道做生意的小贩{CLEAR}以及来玩的游客都不得安宁了。{SCROLL}拜托你了,请管一管这些{NEWLINE}无法无天的地下决斗者好吗？",
+   "en": "Oh! Young one! You look strong and full{NEWLINE}of a sense of justice. Please go stop{CLEAR}those youngsters holding underground{CLEAR}battles up ahead. If they keep this{CLEAR}up, none of us vendors doing business{CLEAR}in the Underground, or the visitors{CLEAR}who come here, will get any peace.{SCROLL}Please, could you do something about{NEWLINE}these lawless underground battlers?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "不愿意多管闲事吗……{NEWLINE}明明觉得你很有正义感的,{CLEAR}看来是我看走眼了。",
+   "en": "You don’t want to get involved...{NEWLINE}I thought you had a real sense of{CLEAR}justice. Guess I misjudged you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "最近的年轻人怎么这么好斗,{NEWLINE}本来我是打算在这里做点小生意的,{CLEAR}结果让他们给闹得根本没法开张。",
+   "en": "Why are young people so eager to{NEWLINE}fight these days? I was planning{CLEAR}to do a little business here, but{CLEAR}thanks to them I can’t even open up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "喂！你干什么！{NEWLINE}没看到我们在进行决斗吗！{CLEAR}给我闪一边去！",
+   "en": "Hey! What are you doing?! Can’t{NEWLINE}you see we’re in the middle of{CLEAR}a battle?! Get out of the way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 92,
+   "zh": "我是联盟冠军,立刻停止非法决斗",
+   "en": "I’m Champion. Stop this!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 93,
+   "zh": "你们水平太菜,别在这丢人现眼了",
+   "en": "You’re too weak to battle",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 94,
+   "zh": "{VAR:0103:0}『我是联盟冠军{VAR:0103:0}。{NEWLINE}因为你们在这里决斗{CLEAR}影响了居民的正常生活,{CLEAR}我现在要求你们马上停止！",
+   "en": "{VAR:0103:0}: I’m League Champion{NEWLINE}{VAR:0103:0}. Your battles here are{CLEAR}disrupting people’s lives, so I’m{CLEAR}ordering you to stop right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "联……联……联盟冠军！？",
+   "en": "L-L-League Champion?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "真的假的啊？这个小个子就是{NEWLINE}传说中的最强训练家{VAR:0103:0}？",
+   "en": "For real? This shrimp is {VAR:0103:0},{NEWLINE}the legendary strongest Trainer?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "别以为穿一身跟联盟冠军一样的衣服{NEWLINE}就能假扮冠军招摇撞骗啊。",
+   "en": "Don’t think you can pose as the{NEWLINE}Champion and con people just by{CLEAR}dressing like the League Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "喂,回过头来让我们看看{NEWLINE}你这个自封的冠军长什么样子。",
+   "en": "Hey, turn around and let us see what{NEWLINE}this self-proclaimed Champion looks like.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "你别说,仔细端详一下,{NEWLINE}这人跟电视里的{VAR:0103:0}{CLEAR}长得还有几分相似。",
+   "en": "You know, looking closely, this kid{NEWLINE}does look a bit like the {VAR:0103:0} on TV.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "住嘴吧你们！这位真的就是……{NEWLINE}联盟冠军{VAR:0103:0}大人啊！",
+   "en": "Shut up, all of you! This really{NEWLINE}is... League Champion {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "真的是联盟冠军！！！？？？",
+   "en": "It’s really the League Champion?!?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "还发什么呆啊！快跑啊！",
+   "en": "What are you standing{NEWLINE}around for?! Run!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "没有了这些好斗的家伙捣乱,{NEWLINE}地下通道终于可以恢复正常了。{CLEAR}谢谢您,冠军大人！",
+   "en": "Without these brawlers making trouble,{NEWLINE}the Underground can finally get back{CLEAR}to normal. Thank you, Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "小伙子,虽然我没听清{NEWLINE}你念的什么咒语,{CLEAR}但你这咒语可真厉害！{CLEAR}居然能一下子就吓跑那么一大群人。{SCROLL}多亏了你,我的小摊位{NEWLINE}终于可以开张营业咯！",
+   "en": "Young man, I didn’t quite catch{NEWLINE}what magic words you said, but they{CLEAR}sure are powerful! You scared{CLEAR}off that whole crowd in one go.{SCROLL}Thanks to you, my little stall{NEWLINE}can finally open for business!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "小姑娘,虽然我没听清{NEWLINE}你念的什么咒语,{CLEAR}但你这咒语可真厉害！{CLEAR}居然能一下子就吓跑那么一大群人。{SCROLL}多亏了你,我的小摊位{NEWLINE}终于可以开张营业咯！",
+   "en": "Young lady, I didn’t quite catch{NEWLINE}what magic words you said, but they{CLEAR}sure are powerful! You scared{CLEAR}off that whole crowd in one go.{SCROLL}Thanks to you, my little stall{NEWLINE}can finally open for business!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "水晶『哇,不亏是{VAR:0103:0}前辈！{NEWLINE}这些人一听到你的名号{CLEAR}真的是头也不回地就跑了。",
+   "en": "Crystal: Wow, that’s {VAR:0103:0} for you!{NEWLINE}The moment they heard your name, they{CLEAR}ran off without even looking back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "{VAR:0103:0}『你们的对战水平实在太低,{NEWLINE}我劝你们还是别占着地方丢人了。",
+   "en": "{VAR:0103:0}: Your battling is just too{NEWLINE}weak. I suggest you stop hogging the{CLEAR}space and embarrassing yourselves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "{VAR:0103:0}『就你们这水平{NEWLINE}也好意思在大伙面前决斗？{CLEAR}这么菜的实力还是别出来丢人了。",
+   "en": "{VAR:0103:0}: With skills like yours,{NEWLINE}you’ve got the nerve to battle in{CLEAR}front of everyone? Anyone that{CLEAR}bad shouldn’t show their face.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "哈哈哈哈哈哈！",
+   "en": "Hah hah hah hah hah hah!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "大伙,听到没有,居然有人说咱们菜！",
+   "en": "Hey, everybody, you hear that?{NEWLINE}Somebody says we’re weak!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "哪来的野鸡训练家,少在那目中无人。",
+   "en": "Where’d this bush-league Trainer come{NEWLINE}from? Quit acting so high and mighty.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "我看这小鬼是皮痒痒了吧？",
+   "en": "Looks like this brat’s{NEWLINE}itching for a beating.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "下一场安排我和这个小鬼打！{NEWLINE}好让他知道我有多「菜」！",
+   "en": "Put me up against this brat next!{NEWLINE}I’ll show him just how ‘weak’ I am!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "下一场安排我和这个小鬼打！{NEWLINE}好让她知道我有多「菜」！",
+   "en": "Put me up against this brat next!{NEWLINE}I’ll show her just how ‘weak’ I am!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "我就这么跟你说吧,在这满金市,{NEWLINE}除了满金市道馆馆主小茜,{CLEAR}还没有哪个人敢说他的对战水平{CLEAR}能超过我们地下决斗成员的！{SCROLL}你要是想把我们赶走,{NEWLINE}那就把这里参加地下决斗的{CLEAR}6位训练家全部打败。{CLEAR}要是输了,就留下十万块钱{CLEAR}然后自扇耳光一百下再滚蛋。",
+   "en": "Let me put it this way. In Goldenrod{NEWLINE}City, apart from Whitney, the{CLEAR}Goldenrod Gym Leader, nobody{CLEAR}would dare claim to battle better{CLEAR}than us underground battlers!{SCROLL}If you want to drive us out, beat{NEWLINE}all 6 Trainers in the underground{CLEAR}battles here. If you lose, you leave{CLEAR}$100,000, slap yourself in the face{CLEAR}a hundred times, and get lost.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "{VAR:0103:0}『好,一言为定,{NEWLINE}只要我赢了你们,{CLEAR}你们就再也不许来地下通道。",
+   "en": "{VAR:0103:0}: Fine, it’s a deal.{NEWLINE}If I beat you, you’re never{CLEAR}allowed back in the Underground.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "哦……不害怕吗？",
+   "en": "Oh... You’re not scared?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "行,既然你想自取其辱,{NEWLINE}就别怪我们了。{CLEAR}我们这有6位训练家,{CLEAR}你跟他们来3轮双打对战,{CLEAR}每轮同时对战2位训练家。{CLEAR}中间你不许休息、回复。{SCROLL}要是你能赢到最后,{NEWLINE}我们就从此再也不来这里。",
+   "en": "Fine. If you want to humiliate yourself,{NEWLINE}don’t blame us. We’ve got 6 Trainers.{CLEAR}You’ll fight 3 rounds of Double Battles{CLEAR}against them, 2 Trainers at once each{CLEAR}round. No resting or healing in between.{SCROLL}If you can win to the end,{NEWLINE}we’ll never come here again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "没问题的话我们现在就开始吧。",
+   "en": "If that’s no problem,{NEWLINE}let’s get started.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "水晶『你们给我等一下！",
+   "en": "Crystal: Hold it right there!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "你又是从哪冒出来的小姑娘。",
+   "en": "And where did you pop{NEWLINE}out from, little girl?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "水晶『你们刚才定的规则,{NEWLINE}6个人用36只精灵{CLEAR}去对抗前辈的6只精灵。{CLEAR}这也太不公平了！",
+   "en": "Crystal: The rules you just set put{NEWLINE}6 people with 36 Pokémon against just{CLEAR}6 Pokémon. That’s way too unfair!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "{VAR:0103:0}『水晶……？",
+   "en": "{VAR:0103:0}: Crystal...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "不愿意按我们的规则来,{NEWLINE}你可以走啊！{CLEAR}别来地下通道碍我们的事。",
+   "en": "If you won’t play by our rules,{NEWLINE}you can leave! Don’t come to the{CLEAR}Underground and get in our way.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 125,
+   "zh": "水晶『你们如果不愿意公平比赛,{NEWLINE}就离开地下通道。{CLEAR}这里本来就不属于你们。",
+   "en": "Crystal: If you won’t have a fair match,{NEWLINE}then leave the Underground. It never{CLEAR}belonged to you in the first place.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "嘿,小丫头你还反客为主了,{NEWLINE}你是真不怕被揍啊。",
+   "en": "Heh, now the little girl’s acting like{NEWLINE}she owns the place. You’re really not{CLEAR}scared of getting beaten up, huh?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 127,
+   "zh": "{VAR:0103:0}『今天想赶跑你们的{NEWLINE}还不止我们两个,{CLEAR}你们如果想乱来,{CLEAR}就是与地下通道的所有人为敌！{CLEAR}想继续待在这里搞你们的地下决斗,{CLEAR}就定一个公平的规则。",
+   "en": "{VAR:0103:0}: We’re not the only two who{NEWLINE}want you gone today. If you try{CLEAR}anything, you’ll be making enemies of{CLEAR}everyone in the Underground! If you{CLEAR}want to keep holding your underground{CLEAR}battles here, set fair rules.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 128,
+   "zh": "行,你有种。{NEWLINE}那我们就各让一步。{CLEAR}你和这个小丫头组队{CLEAR}对抗我们这边6人。{CLEAR}进行三轮2对2的双打比赛。{CLEAR}你们必须连续战斗中间不许休息。{CLEAR}连胜3轮之后才算战胜我们。{SCROLL}如果你们还不满意的话,{NEWLINE}那就有多远滚多远吧。",
+   "en": "Fine, you’ve got guts. We’ll each give{NEWLINE}a little. You team up with this little{CLEAR}girl against our 6. Three rounds of{CLEAR}2-on-2 Double Battles. You fight{CLEAR}straight through, no rest. Win all 3{CLEAR}rounds in a row, and you’ve beaten us.{SCROLL}If that’s still not good enough{NEWLINE}for you, then get as far{CLEAR}away from here as you can.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 129,
+   "zh": "{VAR:0103:0}『没问题,就按这个规则。",
+   "en": "{VAR:0103:0}: No problem.{NEWLINE}We’ll go by those rules.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 130,
+   "zh": "嘿嘿嘿,让你知道我们的厉害。",
+   "en": "Heh heh heh, we’ll show{NEWLINE}you what we can do.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 131,
+   "zh": "阿川、阿堂,你们先上。",
+   "en": "Brooks, Dawson, you’re up first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Battler names from 0719: 阿川 Brooks, 阿堂 Dawson, 阿福 Lucky, 阿昆 Conan, 阿承 Chan, 阿仇 Vince."
+  },
+  {
+   "id": 132,
+   "zh": "小意思,我早就看这些{NEWLINE}多管闲事的人不顺眼了。",
+   "en": "No sweat. I’ve never liked{NEWLINE}these busybodies anyway.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 133,
+   "zh": "水晶『你们才是真的让人讨厌呢。",
+   "en": "Crystal: You’re the ones{NEWLINE}who are truly obnoxious.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 134,
+   "zh": "闭嘴吧臭女人。{NEWLINE}什么年代了还见义勇为,{CLEAR}我都替你觉得丢脸！",
+   "en": "Shut your mouth, you stinking woman.{NEWLINE}Who plays the good Samaritan these{CLEAR}days? I’m embarrassed for you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "臭女人 → ‘you stinking woman’."
+  },
+  {
+   "id": 135,
+   "zh": "好,守护地下决斗的英雄们{NEWLINE}和碍事二人组已经就位。{SCROLL}那么第一轮地下决斗保卫战{NEWLINE}——现在开始！",
+   "en": "All right, the heroes guarding{NEWLINE}the underground battles and{CLEAR}the meddling duo are in position.{SCROLL}Then the first round of{NEWLINE}the Underground Battle{CLEAR}Defense... begins now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 136,
+   "zh": "我对面这个家伙到底是什么人,{NEWLINE}未免也太强了吧！",
+   "en": "Who is this across from{NEWLINE}me? Way too strong!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 137,
+   "zh": "虽说这小丫头不咋地,{NEWLINE}但另一个确实很难对付。",
+   "en": "The little girl’s nothing special,{NEWLINE}but the other one’s really tough.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 138,
+   "zh": "你们两个碍事者行啊,{NEWLINE}居然能打败我们的两名训练家。{CLEAR}不过别得意,现在只是第一轮。{SCROLL}阿福、阿昆,这次换你们上！",
+   "en": "You two meddlers aren’t bad, beating{NEWLINE}two of our Trainers. But don’t get{CLEAR}cocky. That was only the first round.{SCROLL}Lucky, Conan, you’re up this time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 139,
+   "zh": "每打败你们一个人,{NEWLINE}你们就得交出十万元。",
+   "en": "For every one of you we beat,{NEWLINE}you hand over $100,000.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 140,
+   "zh": "打败你们两个人,{NEWLINE}就得给我们二十万元！",
+   "en": "Beat both of you, and{NEWLINE}you owe us $200,000!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "没错！败者必须献上金钱！{NEWLINE}这就是不自量力来打扰我们的下场。{CLEAR}地下决斗的守护者们,{CLEAR}给他们点颜色看看吧！",
+   "en": "That’s right! The losers must pay up!{NEWLINE}That’s what you get for overestimating{CLEAR}yourselves and bothering us.{CLEAR}Guardians of the underground battles,{CLEAR}show them what we’re made of!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 142,
+   "zh": "这个压迫感……我快要窒息了。",
+   "en": "This pressure... I can hardly breathe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "我感觉大事不妙啊……",
+   "en": "I’ve got a really bad{NEWLINE}feeling about this...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 144,
+   "zh": "喂！你们两个怎么回事,{NEWLINE}平时不都很勇的吗？{CLEAR}这怎么三两下就被打败了！",
+   "en": "Hey! What’s wrong with you two?{NEWLINE}Aren’t you usually so tough?{CLEAR}How’d you get beaten in no time?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 145,
+   "zh": "可是,确实是很难对付啊。",
+   "en": "But they really are tough to handle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "真的,我们已经尽力了……",
+   "en": "Honestly, we did our best...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 147,
+   "zh": "行了,换人换人。{NEWLINE}阿承、阿仇你们上！",
+   "en": "Enough, switch out.{NEWLINE}Chan, Vince, you’re up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 148,
+   "zh": "这已经是第三轮了,{NEWLINE}你们可不要再输了。",
+   "en": "This is already the third round.{NEWLINE}Don’t you dare lose again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 149,
+   "zh": "放心吧,他们俩已经很疲惫了。",
+   "en": "Relax. Those two are already worn out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 150,
+   "zh": "用尽36只精灵没道理赢不了的。",
+   "en": "With 36 Pokémon to use,{NEWLINE}there’s no way we can lose.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 151,
+   "zh": "好,就看你们的了。{NEWLINE}第三轮对战开始！",
+   "en": "All right, it’s up to you.{NEWLINE}The third round begins!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 152,
+   "zh": "不行了,我已经没有能战斗的精灵了。",
+   "en": "I’m done. I don’t have any{NEWLINE}Pokémon left that can fight.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 153,
+   "zh": "彻底被打败了,非常的彻底……",
+   "en": "Totally beaten. Utterly,{NEWLINE}completely beaten...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 154,
+   "zh": "开什么玩笑！这就结束了吗？{NEWLINE}你们不是无敌的地下决斗训练家吗？",
+   "en": "You’ve got to be kidding! That’s{NEWLINE}it?! Aren’t you the invincible{CLEAR}underground battle Trainers?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 155,
+   "zh": "我不承认,我不承认你们赢了！{NEWLINE}你们休想赶走我们！",
+   "en": "I don’t accept it! I don’t accept that{NEWLINE}you won! You’ll never drive us out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 156,
+   "zh": "水晶『你们就别输不起啦,{NEWLINE}面对联盟冠军{VAR:0103:0}前辈,{CLEAR}没有人能赢他的。",
+   "en": "Crystal: Don’t be sore losers. Nobody{NEWLINE}can beat League Champion {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 157,
+   "zh": "联盟冠军{VAR:0103:0}？！{NEWLINE}你说你旁边这位是……{CLEAR}那个天下无敌的联盟冠军{VAR:0103:0}？！",
+   "en": "League Champion {VAR:0103:0}?! You{NEWLINE}mean the one next to you is... the{CLEAR}invincible League Champion {VAR:0103:0}?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 158,
+   "zh": "水晶『啊？原来你们一直都没认出来吗？",
+   "en": "Crystal: Huh? You mean you didn’t{NEWLINE}recognize who it was this whole time?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 159,
+   "zh": "天啊……惹到不得了的人了……",
+   "en": "Oh man... We messed with someone{NEWLINE}way out of our league...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 160,
+   "zh": "虽说输给联盟冠军很正常,{NEWLINE}但是现在还走为上策吧……",
+   "en": "Losing to the League Champion{NEWLINE}is only natural, but right now,{CLEAR}running is the best plan...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 161,
+   "zh": "嘿嘿,我一直就觉得您面熟,{NEWLINE}好像在哪里见过。{CLEAR}原来您真的是冠军大人啊,{CLEAR}多有冒犯非常对不起,{CLEAR}您大人不记小人过,{CLEAR}我们就先告辞了。",
+   "en": "Heh heh, I always thought you looked{NEWLINE}familiar, like I’d seen you somewhere.{CLEAR}So you really are the Champion! So{CLEAR}sorry for any offense. Please be the{CLEAR}bigger person and let us small fry{CLEAR}off. We’ll be taking our leave now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 162,
+   "zh": "还傻站着干什么！开溜啊！",
+   "en": "What are you standing{NEWLINE}around for?! Scram!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 163,
+   "zh": "水晶『这些人一听到{NEWLINE}{VAR:0103:0}前辈的名号,{CLEAR}居然头也不回地就跑了。",
+   "en": "Crystal: The moment they heard{NEWLINE}{VAR:0103:0}’s name, they ran off{CLEAR}without even looking back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 164,
+   "zh": "这样一来我的小摊位{NEWLINE}终于可以开张营业咯！",
+   "en": "Now my little stall can{NEWLINE}finally open for business!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 165,
+   "zh": "今天能看到这伙人被打败,{NEWLINE}真是太痛快了！",
+   "en": "Seeing that gang get{NEWLINE}beaten today felt so good!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 166,
+   "zh": "大伙动起来吧,{NEWLINE}让地下通道重新热闹起来！",
+   "en": "Come on, everyone, let’s get moving{NEWLINE}and liven up the Underground again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 167,
+   "zh": "我还是第一次见到他们这么害怕,{NEWLINE}以前小茜馆主来赶他们的时候,{CLEAR}他们都没有慌张成这样。",
+   "en": "It’s the first time I’ve seen them{NEWLINE}this scared. Even when Whitney{CLEAR}came to drive them off before,{CLEAR}they didn’t panic like this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 168,
+   "zh": "对方出乎意料的强……",
+   "en": "Our opponent is unexpectedly strong...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 169,
+   "zh": "我从来没见过这么厉害的家伙……",
+   "en": "I’ve never seen anyone this strong...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 170,
+   "zh": "{VAR:0103:0}『上啊{VAR:0100:1},{NEWLINE}打断他们的战斗。",
+   "en": "{VAR:0103:0}: Go, {VAR:0100:1}!{NEWLINE}Break up their battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 171,
+   "zh": "哦呼,干就完了！",
+   "en": "Whoo, let’s just do it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 172,
+   "zh": "打打打！打个痛快！",
+   "en": "Fight, fight, fight! Fight{NEWLINE}to your heart’s content!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 173,
+   "zh": "哈哈,上头啦！",
+   "en": "Ha ha, I’m getting fired up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 174,
+   "zh": "来招厉害的让我们看看！",
+   "en": "Show us something awesome!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 175,
+   "zh": "这些人怎么偏偏挑这里打架,{NEWLINE}还让不让人做生意了啊。",
+   "en": "Why’d these people have to{NEWLINE}pick this spot to fight? How’s{CLEAR}anyone supposed to do business?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 176,
+   "zh": "这伙人听说小茜馆主{NEWLINE}今天去了满金广播塔做节目,{CLEAR}就又明目张胆地聚到这里了。",
+   "en": "This gang heard Whitney went{NEWLINE}to the Goldenrod Radio Tower{CLEAR}for a show today, so they’ve{CLEAR}brazenly gathered here again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 177,
+   "zh": "要是我的精灵足够厉害,{NEWLINE}早就把这伙混混给赶走了。",
+   "en": "If my Pokémon were strong enough, I’d{NEWLINE}have run these thugs off long ago.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 178,
+   "zh": "这些年轻人前两年{NEWLINE}闹火箭队的时候毫无作为,{CLEAR}现在火箭队消失了,{CLEAR}又换成他们在闹了。",
+   "en": "A couple of years ago, when Team{NEWLINE}Rocket was causing trouble, these{CLEAR}youngsters did nothing. Now Team{CLEAR}Rocket’s gone, and they’re the{CLEAR}ones causing trouble instead.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 179,
+   "zh": "呜呜呜,人家本来是想{NEWLINE}来地下通道逛街的,{CLEAR}却被这些玩地下决斗的给搅合了。",
+   "en": "Boo hoo... I came to the Underground{NEWLINE}to go shopping, but these{CLEAR}underground battlers ruined it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 180,
+   "zh": "因为这些吵闹的地下决斗,{NEWLINE}都没人敢来我们照相馆拍照了。",
+   "en": "Because of these noisy underground{NEWLINE}battles, nobody dares come{CLEAR}to our photo studio anymore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 181,
+   "zh": "水晶『前辈,在地下商业街搞决斗,{NEWLINE}不会妨碍周围人的正常生活吗？{CLEAR}满金市的这个风俗还真奇怪。",
+   "en": "Crystal: Hey, won’t holding battles{NEWLINE}in an underground shopping street{CLEAR}get in the way of people’s lives? This{CLEAR}Goldenrod custom sure is strange.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 182,
+   "zh": "月桂蹦『Bayyy——lee！",
+   "en": "Baylee: Bayyy-lee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "月桂蹦 = Crystal's Bayleef ‘Baylee’ (D-0938)."
+  },
+  {
+   "id": 183,
+   "zh": "水晶『前辈,现在的满金市{NEWLINE}跟我小时候记忆中的样子差好多啊。{CLEAR}果然无论人也好城市也好,{CLEAR}都是不断向前发展变化的。",
+   "en": "Crystal: You know, Goldenrod{NEWLINE}today is so different from what I{CLEAR}remember as a kid. Whether it’s{CLEAR}people or cities, I guess everything{CLEAR}keeps growing and changing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 184,
+   "zh": "精灵对战什么的太暴力了,{NEWLINE}还是每天这样逛逛街最好了。",
+   "en": "Pokémon battles are way too violent.{NEWLINE}Just strolling around the shops{CLEAR}every day like this is the best.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 185,
+   "zh": "利用地下通道开商铺,{NEWLINE}可是满金市独一份的景象。",
+   "en": "Using the Underground for shops is a{NEWLINE}sight you’ll only find in Goldenrod City.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 186,
+   "zh": "地下通道的照相馆{NEWLINE}能跟精灵一起拍出很特别的照片哦。",
+   "en": "The photo studio in the Underground{NEWLINE}can take really special photos{CLEAR}of you with your Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 187,
+   "zh": "这就是满金市的地下购物街吗？{NEWLINE}真热闹啊。",
+   "en": "So this is Goldenrod’s underground{NEWLINE}shopping street? It’s so lively.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

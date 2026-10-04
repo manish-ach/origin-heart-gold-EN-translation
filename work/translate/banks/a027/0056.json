@@ -1,0 +1,967 @@
+{
+ "narc": "a027",
+ "bank": 56,
+ "source": "work/extract/v4/a027/0056.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "彩月『冠军大人,您在过去的战斗中{NEWLINE}不仅解救了凤王,{CLEAR}更是保护了整个地区。{CLEAR}凤王几百年来都未曾现身,{CLEAR}或许就是在等一位您这样的训练家。{CLEAR}今天在这个迎接凤王降临的地方,{CLEAR}吾等姐妹将用代代传承的舞蹈,{CLEAR}向凤王传达您想与它见面的愿望。{CLEAR}相信凤王定能感应到这份心情{CLEAR}并再次降临这里！{SCROLL}",
+   "en": "Satsuki: Champion, in your past{NEWLINE}battles you not only rescued Ho-Oh,{CLEAR}you protected the whole region.{SCROLL}Ho-Oh has not shown itself for hundreds{NEWLINE}of years. Perhaps it has been waiting{CLEAR}for a Trainer like you.{SCROLL}Today, in this place where Ho-Oh{NEWLINE}descends, we sisters will use the dance{CLEAR}handed down through the generations to{CLEAR}tell Ho-Oh of your wish to meet it.{SCROLL}I believe Ho-Oh will surely sense your{NEWLINE}heart and descend here once more!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Bell Tower roof. Two versions: #9-#103 Rocket Joy (disguised as Satsuki with four Ditto) and Archer trick the ritual, Goh catches Ho-Oh; #0-#8, #104-#119 the later real summoning after Ho-Oh is rescued. Gender branches #9/#10, #20/#21, #24/#25, #76/#77, #99/#100, #118/#119"
+  },
+  {
+   "id": 1,
+   "zh": "彩月『吾等姐妹所能做的也就是这些了……{NEWLINE}这之后怎么办{CLEAR}就看冠军大人您的了……",
+   "en": "Satsuki: This is all we sisters can do...{NEWLINE}What happens next is up to{CLEAR}you, Champion...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0058/1 | rewritten from zh (was us)"
+  },
+  {
+   "id": 2,
+   "zh": "彩月『那就是凤王……{NEWLINE}这块土地上自古以来流传的{CLEAR}天空保护神……{SCROLL}",
+   "en": "Satsuki: That is Ho-Oh...{NEWLINE}the guardian of the skies, whose legend{CLEAR}has been handed down in this land since{CLEAR}ancient times...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "彩月『凤王几百年来都未曾现身,{NEWLINE}或许就是为了今天与您相见！{CLEAR}冠军大人请上前吧！{SCROLL}",
+   "en": "Satsuki: Ho-Oh has not shown itself{NEWLINE}for hundreds of years. Perhaps it was{CLEAR}all so that it could meet you today!{CLEAR}Champion, please step forward!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "凤王『Hoooo——oooh！！{SCROLL}",
+   "en": "Ho-Oh: Hoooo-oooh!!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "小桃『凤王身上的彩虹色光辉{NEWLINE}照在身上好温暖啊。",
+   "en": "Momo: The rainbow radiance of Ho-Oh{NEWLINE}feels so warm upon my skin.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "彩月『冠军大人,{NEWLINE}您不仅把凤王唤回了这里,{CLEAR}还成功地收服了它……{CLEAR}真不愧是最强的训练家！",
+   "en": "Satsuki: Champion,{NEWLINE}you not only called Ho-Oh back here,{CLEAR}you even succeeded in catching it...{CLEAR}You truly are the strongest Trainer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "如果这是您的看法,{NEWLINE}我们就没什么要说的了。{SCROLL}不过……{NEWLINE}要是你想再来看凤王的话,{CLEAR}等你做完所有的事后{CLEAR}再到这里来,{CLEAR}可以吗？",
+   "en": "If that is what you believe, we will not{NEWLINE}try to convince you otherwise.{SCROLL}Still, if you want to see Ho-Oh once{NEWLINE}more, perhaps you can come back here{CLEAR}after everything has been settled...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0058/7; modernised from US 0058#7"
+  },
+  {
+   "id": 8,
+   "zh": "你离开这里的话{NEWLINE}凤王短时间内{CLEAR}也不会再来了……{SCROLL}你还是做完所有的事情{CLEAR}再到这个地方来吧……",
+   "en": "I think when you turn your back to it,{NEWLINE}Ho-Oh will not come back for{CLEAR}some time...{SCROLL}If you want to see Ho-Oh, perhaps you{NEWLINE}can come back here after everything{CLEAR}has been settled...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0058/8; modernised from US 0058#8"
+  },
+  {
+   "id": 9,
+   "zh": "小松『{VAR:0103:0}先生,您终于来了。",
+   "en": "Morty: Mr. {VAR:0103:0}, you’ve{NEWLINE}finally come.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "小松『{VAR:0103:0}小姐,您终于来了。",
+   "en": "Morty: Miss {VAR:0103:0}, you’ve{NEWLINE}finally come.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "小松『没错……这道光芒{NEWLINE}跟在烧焦塔时一样,{CLEAR}您身上的彩虹羽毛{CLEAR}跟我身上的透明铃铛靠近时{CLEAR}就会产生这种光芒。",
+   "en": "Morty: That’s right... This light is{NEWLINE}the same as at the Burned Tower. When{CLEAR}your Rainbow Wing and my Clear Bell come{CLEAR}close together, they give off this glow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}『现在羽毛和铃铛都有了,{NEWLINE}可以召唤凤王了吗？",
+   "en": "{VAR:0103:0}: Now that we have{NEWLINE}both the feather and the bell,{CLEAR}can we summon Ho-Oh?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "小松『不,召唤凤王远不是{NEWLINE}那么简单的事。{CLEAR}本来这是不能向外人提起的秘密,{CLEAR}但您既然能获得彩虹羽毛,{CLEAR}就证明您也有资格成为凤王的训练家,{CLEAR}所以告诉您也无妨。{SCROLL}小松『召唤凤王除了需要{NEWLINE}咱们手里的信物之外,{CLEAR}还需要有人在铃铛塔顶跳起祈神之舞,{CLEAR}将期待凤王回归的心情{CLEAR}通过舞蹈传达给它,{CLEAR}凤王才能重新降临缘朱市。",
+   "en": "Morty: No, summoning Ho-Oh is far from{NEWLINE}that simple. This is a secret that must{CLEAR}never be told to outsiders.{SCROLL}But since you obtained the Rainbow Wing,{NEWLINE}you’ve proven you’re worthy of{CLEAR}becoming Ho-Oh’s Trainer too,{CLEAR}so there’s no harm in telling you.{SCROLL}Morty: Besides the tokens in our hands,{NEWLINE}summoning Ho-Oh also requires someone{CLEAR}to perform the Prayer Dance at the top{CLEAR}of the Bell Tower.{SCROLL}Only when our longing for its return{NEWLINE}is conveyed to it through the dance{CLEAR}will Ho-Oh descend upon Ecruteak{CLEAR}City again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}『祈神之舞？{NEWLINE}是要我跟你一起跳舞吗！？",
+   "en": "{VAR:0103:0}: The Prayer Dance?{NEWLINE}You mean I have to dance with you?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "小松『哈哈哈,不是这样的。{NEWLINE}我所说的祈神之舞{CLEAR}是由缘朱市歌舞连乘的舞女们{CLEAR}代代相传的特殊舞蹈。{CLEAR}根据祖先们留下的传说,{CLEAR}只有熟练准确地跳出祈神之舞{CLEAR}才能成功召唤凤王。{CLEAR}所以舞女们夜以继日地练习舞蹈,{CLEAR}为的就是有朝一日能够迎回凤王。",
+   "en": "Morty: Ha ha ha, no, that’s not it.{NEWLINE}The Prayer Dance I mean is a special{CLEAR}dance handed down through generations{CLEAR}by the Kimono Girls of Ecruteak City’s{CLEAR}Dance Theater.{SCROLL}According to the legends our ancestors{NEWLINE}left, only by performing the Prayer{CLEAR}Dance skillfully and precisely can Ho-Oh{CLEAR}be summoned.{SCROLL}That’s why the Kimono Girls practice{NEWLINE}day and night: so that one day they can{CLEAR}welcome Ho-Oh back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "小松『这个不需要您操心,{NEWLINE}我已经通知了五位舞女,{CLEAR}她们准备好之后就会来到这里,{CLEAR}跟咱们一起完成召唤凤王的仪式。",
+   "en": "Morty: You needn’t worry about that.{NEWLINE}I’ve already sent word to the five{CLEAR}Kimono Girls.{SCROLL}Once they’re ready, they’ll come here{NEWLINE}and complete the ritual of summoning{CLEAR}Ho-Oh with us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}『原来舞女们练习的舞蹈{NEWLINE}还有这种特殊意义。{SCROLL}{VAR:0103:0}『不过舞女们现在还没有来啊,{NEWLINE}需要我把她们带过来吗？",
+   "en": "{VAR:0103:0}: So the dance the Kimono Girls{NEWLINE}practice has such a special meaning.{SCROLL}{VAR:0103:0}: But the Kimono Girls aren’t{NEWLINE}here yet. Should I go and bring them?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "彩月『冠军大人、小松馆主。",
+   "en": "Satsuki: Champion. Morty.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "彩月『小女子姐妹五人{NEWLINE}现已如约来至塔顶,{CLEAR}有何吩咐请二位示下。",
+   "en": "Satsuki: We five sisters have come{NEWLINE}to the top of the tower as promised.{CLEAR}Please tell us what you require of us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "小松『就是在歌舞连乘时{NEWLINE}我告诉彩月小姐的那件事。{CLEAR}为了避免火箭队捕捉凤王,{CLEAR}我们现在需要召唤凤王,{CLEAR}然后由持有透明铃铛的我{CLEAR}或者持有彩虹羽毛的{VAR:0103:0}先生{CLEAR}成为凤王的训练家。{CLEAR}所以需要彩月小姐和诸位妹妹{CLEAR}在这里跳起祈神之舞,{CLEAR}迎回已经离开缘朱市数百年的守护神{CLEAR}——凤王。",
+   "en": "Morty: It’s the matter I told you about{NEWLINE}at the Dance Theater, Miss Satsuki.{CLEAR}To keep Team Rocket from catching{CLEAR}Ho-Oh, we need to summon it now.{SCROLL}Then either I, holding the Clear Bell, or{NEWLINE}Mr. {VAR:0103:0}, holding the Rainbow Wing,{CLEAR}will become Ho-Oh’s Trainer.{SCROLL}So we need you and your sisters to{NEWLINE}perform the Prayer Dance here and{CLEAR}welcome back the guardian deity who{CLEAR}left Ecruteak City hundreds of years{CLEAR}ago: Ho-Oh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "小松『就是在歌舞连乘时{NEWLINE}我告诉彩月小姐的那件事。{CLEAR}为了避免火箭队捕捉凤王,{CLEAR}我们现在需要召唤凤王,{CLEAR}然后由持有透明铃铛的我{CLEAR}或者持有彩虹羽毛的{VAR:0103:0}小姐{CLEAR}成为凤王的训练家。{CLEAR}所以需要彩月小姐和诸位妹妹{CLEAR}在这里跳起祈神之舞,{CLEAR}迎回已经离开缘朱市数百年的守护神{CLEAR}——凤王。",
+   "en": "Morty: It’s the matter I told you about{NEWLINE}at the Dance Theater, Miss Satsuki.{CLEAR}To keep Team Rocket from catching{CLEAR}Ho-Oh, we need to summon it now.{SCROLL}Then either I, holding the Clear Bell, or{NEWLINE}Miss {VAR:0103:0}, holding the Rainbow Wing,{CLEAR}will become Ho-Oh’s Trainer.{SCROLL}So we need you and your sisters to{NEWLINE}perform the Prayer Dance here and{CLEAR}welcome back the guardian deity who{CLEAR}left Ecruteak City hundreds of years{CLEAR}ago: Ho-Oh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "彩月『吾等姐妹苦练舞蹈{NEWLINE}正是为了今日之用。{CLEAR}既然两件信物都已齐聚铃铛塔顶,{CLEAR}那么现在便是跳起祈神之舞的时候了。{CLEAR}请冠军大人和小松馆主到台阶上静观。",
+   "en": "Satsuki: We sisters have practiced{NEWLINE}our dance for this very day.{CLEAR}Now that both tokens are gathered atop{CLEAR}the Bell Tower, the time has come to{CLEAR}perform the Prayer Dance.{SCROLL}Champion, Morty, please watch quietly{NEWLINE}from the steps.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "小松『啊……那就这块土地上{NEWLINE}自古以来流传的天空保护神——{CLEAR}凤王！！！{CLEAR}真是跟传说中一样辉煌美丽的精灵啊！{SCROLL}小松『在这之前历代的缘朱道馆馆主{NEWLINE}都曾尝试将它迎回,{CLEAR}却无一人能够成功……{SCROLL}小松『但是现在集齐所有要素的我们,{NEWLINE}终于完成了几百年来的使命{CLEAR}成功迎回了凤王！",
+   "en": "Morty: Ah... There it is, the guardian{NEWLINE}of the skies whose legend has been{CLEAR}handed down in this land since ancient{CLEAR}times... Ho-Oh!!!{SCROLL}Truly as radiant and beautiful as the{NEWLINE}legends say!{SCROLL}Morty: Every Ecruteak Gym Leader{NEWLINE}before me tried to welcome it back,{CLEAR}but not one of them succeeded...{SCROLL}Morty: But now, with every piece in{NEWLINE}place, we’ve finally fulfilled a mission{CLEAR}centuries in the making and welcomed{CLEAR}Ho-Oh back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "小松『请彩月小姐移步,{NEWLINE}我和{VAR:0103:0}先生要与凤王对话了。",
+   "en": "Morty: Miss Satsuki, please step aside.{NEWLINE}Mr. {VAR:0103:0} and I are going to speak{CLEAR}with Ho-Oh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "小松『请彩月小姐移步,{NEWLINE}我和{VAR:0103:0}小姐要与凤王对话了。",
+   "en": "Morty: Miss Satsuki, please step aside.{NEWLINE}Miss {VAR:0103:0} and I are going to speak{CLEAR}with Ho-Oh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "彩月『不行啊小松馆主,{NEWLINE}凤王是我们通过舞蹈召唤来的,{CLEAR}由我来收服才更合理吧？",
+   "en": "Satsuki: Oh, no, Morty. We summoned{NEWLINE}Ho-Oh with our dance, so wouldn’t it{CLEAR}make more sense for me to catch it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "小松『彩月小姐你……！？{SCROLL}小松『不……{NEWLINE}你不是彩月小姐！{CLEAR}但是怎么可能……{CLEAR}为什么你们会跳祈神之舞？",
+   "en": "Morty: Miss Satsuki, what are you...?!{SCROLL}Morty: No... You’re not Miss Satsuki!{NEWLINE}But how is that possible... How could{CLEAR}you perform the Prayer Dance?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "乔伊『凭你想阻止我们还差得远呢！{NEWLINE}阿波罗『凭你想阻止我们还差得远呢！",
+   "en": "Joy: You’ll never stop us!{NEWLINE}Archer: You’ll never stop us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "two speakers in one box, forced {NEWLINE} between them"
+  },
+  {
+   "id": 29,
+   "zh": "阿波罗『小松馆主你要去哪里啊,{NEWLINE}你的对手是我哦。",
+   "en": "Archer: Where do you think you’re{NEWLINE}going, Morty? I’m your opponent.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "彩月『既然你诚心诚意地发问了,",
+   "en": "Satsuki: Prepare for trouble!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 31,
+   "zh": "乔伊『那我就大发慈悲地告诉你。",
+   "en": "Joy: Make it double!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 32,
+   "zh": "乔伊『为了防止世界杯破坏,",
+   "en": "Joy: To protect the world{NEWLINE}from devastation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 33,
+   "zh": "百变怪『Diii——tto！",
+   "en": "Ditto: Diii-tto!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "copied from a027/0369#22 (identical zh)"
+  },
+  {
+   "id": 34,
+   "zh": "乔伊『为了守护世界的和平。",
+   "en": "Joy: To unite all peoples within{NEWLINE}our nation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 35,
+   "zh": "乔伊『贯彻爱与真实的邪恶,",
+   "en": "Joy: To denounce the evils of truth{NEWLINE}and love!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 36,
+   "zh": "乔伊『最会伪装的反派人物——",
+   "en": "Joy: The villain who’s the master{NEWLINE}of disguise...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "乔伊『就是我火箭队的乔伊！",
+   "en": "Joy: Team Rocket’s Joy, that’s me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "乔伊『只要每天带着百变怪去歌舞连乘,",
+   "en": "Joy: All I had to do was take my Ditto{NEWLINE}to the Dance Theater every day...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "乔伊『让它们模仿人类的舞姿{NEWLINE}就不再是难事。",
+   "en": "Joy: ...and copying human dance moves{NEWLINE}was no trouble for them at all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "乔伊『就是这样！{NEWLINE}去吧,特制球！",
+   "en": "Joy: And that’s that! Go, Special Ball!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "小松『你休想！{SCROLL}小松『上啊耿鬼！",
+   "en": "Morty: Not a chance!{SCROLL}Morty: Go, Gengar!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "耿鬼『Geeee——ga！",
+   "en": "Gengar: Geeee-gar!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "乔伊『呀啊——讨厌的家伙！",
+   "en": "Joy: Eeek! You pest!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0103:0}『刚刚好险啊小松馆主,{NEWLINE}幸好你及时出手。",
+   "en": "{VAR:0103:0}: That was close, Morty.{NEWLINE}Good thing you stepped in when you did.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "小松『我是缘朱市道馆馆主,{NEWLINE}是守护凤王的训练家！{CLEAR}才不会让这些恶棍对凤王乱来。",
+   "en": "Morty: I am the Gym Leader of Ecruteak{NEWLINE}City, the Trainer who guards Ho-Oh!{CLEAR}I won’t let these thugs lay a{CLEAR}finger on it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "乔伊『哦……是吗？",
+   "en": "Joy: Oh... Is that so?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "{VAR:0103:0}『阿波罗！？",
+   "en": "{VAR:0103:0}: Archer?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "小松『火箭队还有同伴！？",
+   "en": "Morty: Team Rocket has backup?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "阿波罗『乔伊,这两个家伙交给我们,{NEWLINE}你按计划去捕捉凤王。",
+   "en": "Archer: Joy, leave these two to us.{NEWLINE}You go catch Ho-Oh as planned.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "乔伊『是！",
+   "en": "Joy: Yes, sir!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "小松『休想得逞！",
+   "en": "Morty: You won’t get away with this!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "小松『可恶啊……",
+   "en": "Morty: Blast it...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "{VAR:0103:0}『小松馆主你去阻止乔伊吧,{NEWLINE}这两个火箭队我自己就可以应付。",
+   "en": "{VAR:0103:0}: Morty, go stop Joy!{NEWLINE}I can handle these two Rockets myself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "小松『真不愧是冠军大人,{NEWLINE}那就拜托您了！",
+   "en": "Morty: That’s the Champion for you.{NEWLINE}Then I’ll leave them to you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "阿波罗『呵,居然想要一打二？{NEWLINE}你的这种过分自信{CLEAR}会让你在这里丢了性命！",
+   "en": "Archer: Heh. You think you can take on{NEWLINE}two at once? That overconfidence of{CLEAR}yours will cost you your life here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "对不起,阿波罗大人……我不行了……",
+   "en": "I’m sorry, Master Archer...{NEWLINE}I can’t go on...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "阿波罗『混蛋！{NEWLINE}这次明明是二打一的……",
+   "en": "Archer: Damn it! This time it was{NEWLINE}supposed to be two against one...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "小松『耿鬼,把乔伊逼到角落去！",
+   "en": "Morty: Gengar, drive Joy into{NEWLINE}the corner!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "小松『这下看你们还怎么打凤王的主意！",
+   "en": "Morty: Now let’s see you try to get{NEWLINE}your hands on Ho-Oh!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "乔伊『阿波罗大人,{NEWLINE}我没办法出手啊！",
+   "en": "Joy: Master Archer, I can’t make{NEWLINE}a move!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "{VAR:0103:0}『到此为止了阿波罗,{NEWLINE}你们的计划彻底落空了！",
+   "en": "{VAR:0103:0}: It’s over, Archer.{NEWLINE}Your plan has completely failed!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "阿波罗『……{SCROLL}阿波罗『落空？别高兴的太早。",
+   "en": "Archer: ...{SCROLL}Archer: Failed? Don’t celebrate{NEWLINE}too soon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "阿波罗『这是最后的机会,{NEWLINE}上啊小豪君！",
+   "en": "Archer: This is our last chance.{NEWLINE}Go, Goh!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "小豪『哈哈,终于不用躲在下面了,{NEWLINE}现在看我的表演吧！",
+   "en": "Goh: Ha ha, I finally don’t have{NEWLINE}to hide down there anymore.{CLEAR}Now watch my performance!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "小豪『精灵球,Go！",
+   "en": "Goh: Poké Ball, go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "copied from a027/0362#4 (identical zh)"
+  },
+  {
+   "id": 66,
+   "zh": "小豪『哈哈,成功捉住凤王了！{NEWLINE}我可真是个天才！",
+   "en": "Goh: Ha ha, I caught Ho-Oh!{NEWLINE}I really am a genius!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "小松『不……！怎么会这样！！！{NEWLINE}那可是凤王啊,{CLEAR}就这么被一球收服了！？",
+   "en": "Morty: No...! How could this happen!!!{NEWLINE}That was Ho-Oh, and it was caught with{CLEAR}just one Ball?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "{VAR:0103:0}『阿波罗！小豪！{NEWLINE}给我留下精灵球！",
+   "en": "{VAR:0103:0}: Archer! Goh!{NEWLINE}Leave that Poké Ball here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "小豪『呸！你算是个什么东西,{NEWLINE}我凭什么要听你的。{CLEAR}开溜开溜！",
+   "en": "Goh: Pfft! Who do you think you are?{NEWLINE}Why should I listen to you?{CLEAR}I’m outta here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "阿波罗『看到你这个联盟冠军{NEWLINE}失败愤怒的样子,{CLEAR}真是让人身心愉悦啊,{CLEAR}哈哈哈哈！{SCROLL}阿波罗『今天就到这里吧,{NEWLINE}再见了冠军！",
+   "en": "Archer: Seeing you, the League{NEWLINE}Champion, so furious in defeat is simply{CLEAR}delightful. Hah hah hah hah!{SCROLL}Archer: That will do for today.{NEWLINE}Farewell, Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "{VAR:0103:0}『可恶啊！就连凤王也……",
+   "en": "{VAR:0103:0}: Dammit! Even Ho-Oh...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "小松『不！！！凤王啊！！！",
+   "en": "Morty: No!!! Ho-Oh!!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "小松『为什么……{NEWLINE}为什么会这样……{CLEAR}明明我就在这里,{CLEAR}明明凤王就在我眼前！！！",
+   "en": "Morty: Why... Why did this happen...{NEWLINE}I was right here, and Ho-Oh was right{CLEAR}before my eyes!!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "小松『都怪我说什么{NEWLINE}要抢先一步收服凤王,{CLEAR}才会落入了火箭队的圈套,{CLEAR}身为道馆馆主我真是太失职了！",
+   "en": "Morty: It’s all my fault for insisting we{NEWLINE}catch Ho-Oh before anyone else. That’s{CLEAR}how we fell into Team Rocket’s trap.{SCROLL}As a Gym Leader, I’ve utterly failed{NEWLINE}in my duty!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "{VAR:0103:0}『小松馆主不要过于自责,{NEWLINE}没能保护好凤王我也有责任。{CLEAR}而且火箭队这次用的策略{CLEAR}确实让人防不胜防,{CLEAR}难免就会着了他们的道。",
+   "en": "{VAR:0103:0}: Morty, don’t blame yourself{NEWLINE}so much. I share the blame for not{CLEAR}protecting Ho-Oh.{SCROLL}And Team Rocket’s plan this time{NEWLINE}was impossible to guard against.{CLEAR}Anyone could have fallen for it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "小松『谢谢{VAR:0103:0}先生的宽慰……",
+   "en": "Morty: Thank you for the kind words,{NEWLINE}Mr. {VAR:0103:0}...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "小松『谢谢{VAR:0103:0}小姐的宽慰……",
+   "en": "Morty: Thank you for the kind words,{NEWLINE}Miss {VAR:0103:0}...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "彩月『冠军大人、小松馆主！",
+   "en": "Satsuki: Champion! Morty!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "彩月『吾等姐妹在登塔之时,{NEWLINE}遇到了火箭队的阻挠,{CLEAR}故才珊珊来迟。{CLEAR}耽误了召唤仪式实是万分抱歉！",
+   "en": "Satsuki: As we sisters climbed the{NEWLINE}tower, Team Rocket stood in our way,{CLEAR}and so we arrived late.{SCROLL}We are deeply sorry for delaying{NEWLINE}the ritual!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "吔『哼,那几个火箭队实在是太菜了,{NEWLINE}除了使用替身、保护拖时间外,{CLEAR}根本伤不到我的水精灵。{CLEAR}就这样还想阻止我们上塔,{CLEAR}真是不自量力！",
+   "en": "Sakura: Hmph, those Team Rocket{NEWLINE}goons were total pushovers.{CLEAR}Other than stalling with Substitute and{CLEAR}Protect, they couldn’t lay a scratch{CLEAR}on my Vaporeon.{SCROLL}And they thought they could stop us{NEWLINE}climbing the tower like that? Get real!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 81,
+   "zh": "玉绪『吔,此地乃缘朱市圣地,{NEWLINE}不可喧哗！",
+   "en": "Tamao: Sakura, this is Ecruteak City’s{NEWLINE}sacred ground. Do not raise your{CLEAR}voice here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 82,
+   "zh": "吔『哦,知道了……",
+   "en": "Sakura: Oh, okay...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 83,
+   "zh": "小松『诸位舞女小姐,实在是万分抱歉,{NEWLINE}刚刚凤王……{CLEAR}被火箭队抓走了……",
+   "en": "Morty: Ladies, I’m truly, deeply sorry.{NEWLINE}Just now, Ho-Oh... was taken by{CLEAR}Team Rocket...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "彩月『被抓走了？！",
+   "en": "Satsuki: Taken?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "吔『啊！？？真的假的？？！",
+   "en": "Sakura: Huh?! Seriously?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 86,
+   "zh": "小桃『小松馆主请勿戏言啊！",
+   "en": "Momo: Morty, please do not jest!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "小梅『吾等姐妹尚未起舞,{NEWLINE}凤王便已降临了？",
+   "en": "Koume: Ho-Oh descended before we{NEWLINE}sisters even danced?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "玉绪『小松馆主可看清了？{NEWLINE}当真是凤王吗？",
+   "en": "Tamao: Did you see clearly, Morty?{NEWLINE}Was it truly Ho-Oh?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "彩月『妹妹们勿言,{NEWLINE}且听小松馆主说来！",
+   "en": "Satsuki: Hush, sisters!{NEWLINE}Let Morty explain!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "小松『就在火箭队{NEWLINE}拖住你们的这段时间里,{CLEAR}有一个乔伊带领4个百变怪{CLEAR}变装成你们的样子,{CLEAR}来到塔上跳起了祈神之舞。{CLEAR}成功将凤王召唤了回来。{CLEAR}然后在几个火箭队员的掩护下,{CLEAR}一个黑皮肤的训练家突然出现{CLEAR}只用一球就抓住了凤王……{SCROLL}小松『虽然很遗憾,{NEWLINE}但现在凤王确实已经{CLEAR}落入了火箭队手中……",
+   "en": "Morty: While Team Rocket held you up,{NEWLINE}a Joy brought four Ditto up the{CLEAR}tower disguised as all of you,{CLEAR}and they performed the Prayer Dance.{CLEAR}They succeeded in summoning Ho-Oh.{SCROLL}Then, covered by a few Team Rocket{NEWLINE}grunts, a dark-skinned Trainer{CLEAR}suddenly appeared and caught Ho-Oh{CLEAR}with a single Ball...{SCROLL}Morty: I hate to say it, but Ho-Oh is{NEWLINE}now in Team Rocket’s hands...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "彩月『乔伊和百变怪！？",
+   "en": "Satsuki: Joy and Ditto?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "吔『难道是那个经常带着百变怪{NEWLINE}来歌舞连乘看咱们表演的乔伊！？",
+   "en": "Sakura: Don’t tell me it was that Joy{NEWLINE}who always brought her Ditto to the{CLEAR}Dance Theater to watch us perform?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 93,
+   "zh": "玉绪『没想到她竟然是火箭队之人……",
+   "en": "Tamao: Who would have thought she was{NEWLINE}one of Team Rocket...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "小桃『这半年来那位乔伊多次光顾,{NEWLINE}竟是在为捕捉凤王做准备？！",
+   "en": "Momo: That Joy visited us many times{NEWLINE}this past half year. Was she preparing{CLEAR}to catch Ho-Oh all along?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "小梅『可火箭队是如何得知,{NEWLINE}吾等所跳之舞{CLEAR}便是召唤凤王的祈神之舞呢？",
+   "en": "Koume: But how did Team Rocket learn{NEWLINE}that the dance we perform is the Prayer{CLEAR}Dance that summons Ho-Oh?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "{VAR:0103:0}『火箭队曾经绑架了{NEWLINE}专门研究传说中精灵的秀力博士,{CLEAR}这些情报大概都是{CLEAR}从秀力博士那知道的吧。",
+   "en": "{VAR:0103:0}: Team Rocket{NEWLINE}once kidnapped Prof. Hale,{CLEAR}who studies legendary Pokémon.{CLEAR}They probably learned all this from him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "彩月『原来如此……{SCROLL}彩月『冠军大人、小松馆主,{NEWLINE}凤王现已被捉,吾等该如何是好呢？",
+   "en": "Satsuki: I see...{SCROLL}Satsuki: Champion, Morty,{NEWLINE}now that Ho-Oh has been captured,{CLEAR}what should we do?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "{VAR:0103:0}『火箭队捕捉凤王,{NEWLINE}肯定不是为了收藏。{CLEAR}他们一定会使用凤王出来作恶的。{CLEAR}我们现在要做的就是{CLEAR}做好与火箭队战斗的准备。",
+   "en": "{VAR:0103:0}: Team Rocket didn’t catch{NEWLINE}Ho-Oh just to add it to a collection.{CLEAR}They’re sure to use it to do evil.{SCROLL}What we need to do now is get ready to{NEWLINE}fight Team Rocket.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "小松『{VAR:0103:0}先生说的没错。{NEWLINE}为了救出凤王,{CLEAR}也为了保护这里的人们{CLEAR}不再受火箭队的侵害,{CLEAR}从现在起咱们就要做好准备,{CLEAR}到时候与火箭队决一死战！",
+   "en": "Morty: Mr. {VAR:0103:0} is right.{NEWLINE}To rescue Ho-Oh, and to protect{CLEAR}the people here from Team Rocket,{CLEAR}we must start preparing now.{SCROLL}When the time comes, we’ll fight Team{NEWLINE}Rocket to the bitter end!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "小松『{VAR:0103:0}小姐说的没错。{NEWLINE}为了救出凤王,{CLEAR}也为了保护这里的人们{CLEAR}不再受火箭队的侵害,{CLEAR}从现在起咱们就要做好准备,{CLEAR}到时候与火箭队决一死战！",
+   "en": "Morty: Miss {VAR:0103:0} is right.{NEWLINE}To rescue Ho-Oh, and to protect{CLEAR}the people here from Team Rocket,{CLEAR}we must start preparing now.{SCROLL}When the time comes, we’ll fight Team{NEWLINE}Rocket to the bitter end!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "玉绪『歌舞连乘几代人的舞蹈传承,{NEWLINE}就是为了这一刻的到来。",
+   "en": "Tamao: Generations of dance{NEWLINE}handed down at the Dance Theater,{CLEAR}all for this very moment.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "小梅『近距离看到凤王了……{NEWLINE}好美啊……",
+   "en": "Koume: This humble maiden has seen{NEWLINE}Ho-Oh up close... How beautiful...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "吔『嘿嘿,所有的训练家中,{NEWLINE}我只认可冠军大人你{CLEAR}有资格收服凤王。",
+   "en": "Sakura: Hee hee, out of all the Trainers{NEWLINE}out there, you’re the only one I think{CLEAR}deserves to catch Ho-Oh, Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 104,
+   "zh": "凤王想与你较量一下,{NEWLINE}要跟它战斗吗？{SCROLL}",
+   "en": "Ho-Oh wants to test its strength{NEWLINE}against you. Battle it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "凤王向你点了点头。{NEWLINE}要收服凤王成为同伴吗？",
+   "en": "Ho-Oh nodded at you. Will you catch{NEWLINE}Ho-Oh and make it your partner?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "队伍已满,没有凤王的位置了！",
+   "en": "Your party is full. There’s no room{NEWLINE}for Ho-Oh!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "凤王加入了队伍！",
+   "en": "Ho-Oh joined your party!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "要给凤王起昵称吗？{VAR:0200:0}{SCROLL}",
+   "en": "Give a nickname to Ho-Oh?{VAR:0200:0}{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "昵称叫{VAR:0101:1}{NEWLINE}可以吗？{VAR:0200:0}",
+   "en": "Name it {VAR:0101:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 4 more v3 TM candidates (tm_v4_matches.jsonl) | replaced (was tm_v3) | copied from a027/0459#89 (identical zh)"
+  },
+  {
+   "id": 110,
+   "zh": "小桃『顶冠如金、通体如火……{NEWLINE}何其美丽的颜色啊……！",
+   "en": "Momo: A crest like gold, a body all{NEWLINE}aflame... What beautiful colors...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "玉绪『张开双翼从天而降的英姿,{NEWLINE}当真是威武雄壮！",
+   "en": "Tamao: Its majestic form, wings spread{NEWLINE}wide as it descends from the heavens...{CLEAR}Truly magnificent!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "小梅『这就是传说中的精灵吗？{NEWLINE}果然不同凡响……",
+   "en": "Koume: So this is a legendary Pokémon?{NEWLINE}Truly extraordinary...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "吔『啊呀呀,上次因为{NEWLINE}火箭队搅局没能见到凤王,{CLEAR}这次可算是见到了！",
+   "en": "Sakura: Oh wow! Last time Team Rocket{NEWLINE}messed things up and I didn’t get to{CLEAR}see Ho-Oh. This time I finally did!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 114,
+   "zh": "彩月『如此一来,{NEWLINE}吾等姐妹传承百年的使命{CLEAR}终于可以告一段落。{CLEAR}我已不知用何言辞{CLEAR}表达心中的感激之情……{SCROLL}彩月『冠军大人日后如有时间,{NEWLINE}随时欢迎再来歌舞连乘指教{CLEAR}吾等姐妹就先行告退了。",
+   "en": "Satsuki: With this, the mission we{NEWLINE}sisters have carried for a hundred{CLEAR}years can finally come to rest.{CLEAR}I cannot find the words to express the{CLEAR}gratitude in my heart...{SCROLL}Satsuki: Champion, if you ever have{NEWLINE}time, you are always welcome at the{CLEAR}Dance Theater to share your wisdom with{CLEAR}us. We sisters shall take our leave now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "彩月『小松馆主所言甚是,{NEWLINE}我等姐妹当回去勤加修炼,{CLEAR}虽不敢说消灭火箭队,{CLEAR}但守卫缘朱市确是义不容辞。",
+   "en": "Satsuki: Morty speaks true. We sisters{NEWLINE}shall go back and train diligently.{SCROLL}We dare not say we will wipe out Team{NEWLINE}Rocket, but defending Ecruteak City is{CLEAR}a duty we cannot refuse.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "小松『谢谢彩月小姐一直以来的支持,{NEWLINE}缘朱市能有你们真是太好了。",
+   "en": "Morty: Thank you for all your support,{NEWLINE}Miss Satsuki. Ecruteak City is truly{CLEAR}lucky to have you all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "彩月『小松馆主客气。{NEWLINE}此间既然已无他事,{CLEAR}吾等姐妹就先行告退了,{CLEAR}咱们后会有期。",
+   "en": "Satsuki: You are too kind, Morty.{NEWLINE}As nothing more remains to be done{CLEAR}here, we sisters shall take our leave.{CLEAR}Until we meet again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "小松『{VAR:0103:0}先生,{NEWLINE}我也要回道馆修炼了,{CLEAR}希望有朝一日能亲手{CLEAR}从火箭队手上救出凤王！",
+   "en": "Morty: Mr. {VAR:0103:0}, I’m heading{NEWLINE}back to the Gym to train too.{CLEAR}I hope that one day I can rescue Ho-Oh{CLEAR}from Team Rocket with my own hands!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "小松『{VAR:0103:0}小姐,{NEWLINE}我也要回道馆修炼了,{CLEAR}希望有朝一日能亲手{CLEAR}从火箭队手上救出凤王！",
+   "en": "Morty: Miss {VAR:0103:0}, I’m heading{NEWLINE}back to the Gym to train too.{CLEAR}I hope that one day I can rescue Ho-Oh{CLEAR}from Team Rocket with my own hands!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,745 @@
+{
+ "narc": "a027",
+ "bank": 66,
+ "source": "work/extract/v4/a027/0066.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "去遗迹玩的时候{NEWLINE}打开收音机发现能{CLEAR}收听到以前没听过的电台节目。",
+   "en": "I listened to the radio while I was at{NEWLINE}the ruins.{SCROLL}I heard a strange broadcast there.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0068/0"
+  },
+  {
+   "id": 1,
+   "zh": "胡桃『你好啊,冠军大人。{NEWLINE}最近我在上班的时候,{CLEAR}总感觉好像有人在偷拍这边。{CLEAR}如果冠军大人有时间,{CLEAR}请帮忙调查一下,{CLEAR}看看到底是我多心了呢,{CLEAR}还是真的有人在打什么坏主意。",
+   "en": "Mary: Hello, Champion. Lately, while I’m{NEWLINE}at work, I keep feeling like someone is{CLEAR}secretly taking pictures of me.{SCROLL}If you have time, Champion,{NEWLINE}could you look into it for me?{SCROLL}Is it just my imagination, or is someone{NEWLINE}really up to no good?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "胡桃『咦？冠军大人您是说……{NEWLINE}确实有人在广播塔里偷拍？{CLEAR}而且这个人还可能跟火箭队有关？{CLEAR}果然我的直觉没有错……{SCROLL}胡桃『谢谢冠军大人帮忙调查这件事,{NEWLINE}这是我的一点谢礼,请您收下。",
+   "en": "Mary: Huh? Champion, you’re saying...{NEWLINE}someone really has been taking secret{CLEAR}photos in the Radio Tower?{SCROLL}And they might be connected to Team{NEWLINE}Rocket? So my hunch was right...{SCROLL}Mary: Thank you for looking into this,{NEWLINE}Champion. Please accept this small{CLEAR}token of thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:0103:0}从胡桃{NEWLINE}那里得到了光粉！",
+   "en": "{VAR:0103:0} received the Bright{NEWLINE}Powder from Mary!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0068/3"
+  },
+  {
+   "id": 4,
+   "zh": "胡桃『我和大木博士一起录的{NEWLINE}精灵讲座节目您收听过吗？{CLEAR}里面会提到大量出现的精灵哦。{CLEAR}希望这些信息能帮到您。",
+   "en": "Mary: Have you heard Pokémon Talk,{NEWLINE}the show I do with Prof. Oak?{SCROLL}We talk about Pokémon that are{NEWLINE}appearing in large numbers.{CLEAR}I hope it helps you out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "哎呀,你的背包装不下了！",
+   "en": "Nooo! Your Bag is full!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0068/5"
+  },
+  {
+   "id": 6,
+   "zh": "胡桃『请一定收听我和大木博士{NEWLINE}的精灵讲座啊！",
+   "en": "Mary: Please tune in to me on{NEWLINE}Professor Oak’s Pokémon Talk show.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0068/6"
+  },
+  {
+   "id": 7,
+   "zh": "喵喵『Meo——！",
+   "en": "Meowth: Meo-!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0068/7; modernised from US 0068#7 | rewritten from zh (was us)"
+  },
+  {
+   "id": 8,
+   "zh": "４层　……　制作室",
+   "en": "4F Production",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0068/8"
+  },
+  {
+   "id": 9,
+   "zh": "４层　……　第１工作室",
+   "en": "4F Studio 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0068/9"
+  },
+  {
+   "id": 10,
+   "zh": "世治『火箭队吗……{NEWLINE}他们有一样是欠缺的,{CLEAR}那就是音乐！{SCROLL}音乐能治愈人们的心灵,{SCROLL}喜欢音乐的人是不可能在广播塔上{CLEAR}做出这种坏事的……！",
+   "en": "Ben: Team Rocket... There is something{NEWLINE}they lack. It is music!{SCROLL}Music enriches people’s heart and soul.{SCROLL}Music lovers would never do such{NEWLINE}horrible things at a place like the{CLEAR}Radio Tower!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0068/10"
+  },
+  {
+   "id": 11,
+   "zh": "世治『你要听音乐吗？",
+   "en": "Ben: Do you listen to our music?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0068/11"
+  },
+  {
+   "id": 12,
+   "zh": "负责广播塔作战的干部名叫兰斯,{CLEAR}真帅啊……{SCROLL}",
+   "en": "Proton, the leader of this Radio Tower{NEWLINE}mission... He is so cool.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0068/12"
+  },
+  {
+   "id": 13,
+   "zh": "你、你是什么人！{SCROLL}阻碍兰斯……不,{NEWLINE}阻碍火箭队的人{CLEAR}我是不会放过的！{SCROLL}",
+   "en": "Who are you?{SCROLL}If you are in the way of Proton...{NEWLINE}I mean Team Rocket. I won’t allow that!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0068/13"
+  },
+  {
+   "id": 14,
+   "zh": "重要的是{NEWLINE}火箭队和兰斯！{SCROLL}精灵什么的无所谓！",
+   "en": "Team Rocket and Proton are all I need!{SCROLL}Who cares about Pokémon?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0068/14"
+  },
+  {
+   "id": 15,
+   "zh": "小茜『台长,你说我今天不能参加{NEWLINE}节目录制了是什么意思？",
+   "en": "Whitney: Director, what do you mean I{NEWLINE}can’t be on the show today?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "台长『呃……嗯,小茜馆主,{NEWLINE}很抱歉地通知您,{CLEAR}您参加「最强训练家」节目录制的时间{CLEAR}得推迟到下周了。{SCROLL}台长『请您下周同一时间再来我台{NEWLINE}录制「最强训练家」第二期节目吧。",
+   "en": "Director: Er... Well, Whitney,{NEWLINE}I’m very sorry to tell you this,{SCROLL}but your recording for ‘The Strongest{NEWLINE}Trainer’ will have to be pushed back{CLEAR}to next week.{SCROLL}Director: Please come back next{NEWLINE}week at the same time to record the{CLEAR}second episode.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "小茜『第二期？不是说让我成为{NEWLINE}这档节目的第一个特邀嘉宾吗？",
+   "en": "Whitney: The second episode?{NEWLINE}Didn’t you say I’d be the very first{CLEAR}guest on the show?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "台长『您是咱们满金市的道馆馆主,{NEWLINE}按理说咱们节目的{CLEAR}第一期嘉宾就该邀请您,{CLEAR}可是今天出了点小意外,{CLEAR}我台无奈只能忍痛临时换人了。",
+   "en": "Director: You’re Goldenrod’s own Gym{NEWLINE}Leader, so by rights you should be{CLEAR}our first guest.{SCROLL}But something came up today,{NEWLINE}and we’ve had no choice but to swap{CLEAR}guests at the last minute.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "小茜『喂！台长,有话就痛痛快快说,{NEWLINE}到底是什么原因{CLEAR}不让我当这第一期嘉宾了。",
+   "en": "Whitney: Hey! Director, just spit{NEWLINE}it out.{SCROLL}Why exactly won’t you let me be the{NEWLINE}first guest?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "台长『小茜馆主,您虽然是{NEWLINE}让人仰望的道馆馆主,{CLEAR}可是像您这样身份的馆主{CLEAR}在全地区有十六位之多,{CLEAR}在您之上还有联盟四天王{CLEAR}这些更强的训练家。{SCROLL}台长『我想,比起每个城市{NEWLINE}都有的道馆馆主,{CLEAR}听众们一定对{CLEAR}更难得一见的训练家更感兴趣。{CLEAR}所以这第一期节目嘉宾的位置,{CLEAR}就只能暂时委屈您让出来了。",
+   "en": "Director: Whitney, you’re a Gym Leader{NEWLINE}people look up to...{SCROLL}But there are sixteen Gym Leaders like{NEWLINE}you across the region, and above you{CLEAR}there are even stronger Trainers,{CLEAR}like the Elite Four.{SCROLL}Director: I believe our listeners will{NEWLINE}be more interested in a Trainer they{CLEAR}rarely get to hear from than in the Gym{CLEAR}Leaders every city has.{SCROLL}So I’m afraid we have to ask you to give{NEWLINE}up the first guest slot, just for now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "小茜『你什么意思？{NEWLINE}你又请了四天王的人来当嘉宾？{CLEAR}我为节目辛辛苦苦准备这么久,{CLEAR}结果就只是一个备胎？",
+   "en": "Whitney: What’s that supposed to mean?{NEWLINE}You invited someone from the Elite Four?{SCROLL}I’ve worked so hard getting ready for{NEWLINE}this show, and I’m just the backup?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "台长『您这是说哪的话啊,{NEWLINE}上个月邀请您的时候,{CLEAR}我们绝没有同时邀请别人,{CLEAR}真的是想把您当成第一期节目嘉宾。{CLEAR}所以今天就算是联盟四天王来了,{CLEAR}也得让他们排到您后面去。{SCROLL}台长『但俗话说计划赶不上变化,{NEWLINE}今天有位大人物凑巧路过这里,{CLEAR}如果今天不邀请人家来上节目,{CLEAR}以后可能也就很难邀请到了,{CLEAR}所以拜托小茜馆主{CLEAR}您体谅一下我台的难处,{CLEAR}改在第二期节目来录制吧。",
+   "en": "Director: Oh, don’t say that!{NEWLINE}When we invited you last month,{CLEAR}we didn’t invite anyone else.{SCROLL}We really did want you as our first{NEWLINE}guest. Even if the Elite Four showed up{CLEAR}today, they’d have to wait behind you.{SCROLL}Director: But as they say, plans can’t{NEWLINE}keep up with change. A very important{CLEAR}person happened to drop by today.{SCROLL}If we don’t get them on the show today,{NEWLINE}we may never get another chance.{SCROLL}So please, Whitney, understand our{NEWLINE}position, and record the second{CLEAR}episode instead.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "小茜『哟,今天是什么人来了,{NEWLINE}面子能比联盟四天王还大？{CLEAR}是联盟冠军{VAR:0103:0}来参观了？{CLEAR}还是达马兰奇主席来视察工作了？",
+   "en": "Whitney: Oh? And who showed up{NEWLINE}today that’s a bigger deal than the{CLEAR}Elite Four?{SCROLL}Is League Champion {VAR:0103:0} visiting?{NEWLINE}Or is President Goodshow here on{CLEAR}an inspection?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "台长『您说的没错,{NEWLINE}是联盟冠军{VAR:0103:0}大人{CLEAR}凑巧来广播塔参观。{CLEAR}我们于是也征得了冠军大人的同意,{CLEAR}由他作为本节目的首期嘉宾,{CLEAR}参加今天的录制。",
+   "en": "Director: You’re exactly right.{NEWLINE}League Champion {VAR:0103:0} happened to be{CLEAR}visiting the Radio Tower.{SCROLL}And the Champion has kindly agreed to{NEWLINE}be the first guest on our show and join{CLEAR}today’s recording.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "台长『您说的没错,{NEWLINE}是联盟冠军{VAR:0103:0}大人{CLEAR}凑巧来广播塔参观。{CLEAR}我们于是也征得了冠军大人的同意,{CLEAR}由她作为本节目的首期嘉宾,{CLEAR}参加今天的录制。",
+   "en": "Director: You’re exactly right.{NEWLINE}League Champion {VAR:0103:0} happened to be{CLEAR}visiting the Radio Tower.{SCROLL}And the Champion has kindly agreed to{NEWLINE}be the first guest on our show and join{CLEAR}today’s recording.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "台长『哟,真是说人人到。{NEWLINE}冠军大人已经来了！",
+   "en": "Director: Oh, speak of the devil!{NEWLINE}The Champion is here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "台长『{VAR:0103:0}大人,欢迎欢迎啊！{NEWLINE}您在今天这个特殊的日子里来访,{CLEAR}真的像是老天注定一样。{CLEAR}我们「最强训练家」节目的首期嘉宾{CLEAR}非您莫属了！",
+   "en": "Director: Welcome, welcome, {VAR:0103:0}!{SCROLL}Your visit on this special day feels like{NEWLINE}fate itself.{SCROLL}The first guest on ‘The Strongest{NEWLINE}Trainer’ can be none other than you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "小茜『喂喂喂,台长！{NEWLINE}谁允许你们就这么定了？{CLEAR}就算是达马兰奇主席来了,{CLEAR}说好的事情就是说好了,{CLEAR}我绝不让出第一期嘉宾的位置！",
+   "en": "Whitney: Hey, hey, hey, Director!{NEWLINE}Who said you could just decide that?{SCROLL}I don’t care if President Goodshow{NEWLINE}himself shows up. A deal is a deal!{SCROLL}There’s no way I’m giving up the first{NEWLINE}guest slot!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "台长『唉,小茜馆主,{NEWLINE}真的是非常对不起,{CLEAR}但我们都跟冠军大人商量好了,{CLEAR}如果不让人家上节目,{CLEAR}这样不太好吧？",
+   "en": "Director: Ah, Whitney, I really am{NEWLINE}terribly sorry.{SCROLL}But we’ve already arranged it all with{NEWLINE}the Champion. It wouldn’t be right to{CLEAR}turn them away now, would it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "小茜『简直就是胡扯！{NEWLINE}明明就是先跟我约好的,{CLEAR}结果你们却临场不让我上节目！",
+   "en": "Whitney: That’s total nonsense!{SCROLL}You made the deal with me first,{NEWLINE}and now you won’t let me on the show at{CLEAR}the last minute!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "小茜『简直就是胡扯！{NEWLINE}明明就是先跟我约好的,{CLEAR}结果你们却临场不让我上节目！",
+   "en": "Whitney: That’s total nonsense!{SCROLL}You made the deal with me first,{NEWLINE}and now you won’t let me on the show at{CLEAR}the last minute!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "小茜『喂,我说你这个冠军啊,{NEWLINE}觉得自己天下无敌{CLEAR}就到处欺负人是吧？{CLEAR}你这样跟那些{CLEAR}被你打败的箭队有什么分别？{CLEAR}真是让人不齿！",
+   "en": "Whitney: Hey, you! Champion!{SCROLL}You think you’re unbeatable,{NEWLINE}so you get to go around pushing people{CLEAR}around, huh?{SCROLL}How are you any different from the{NEWLINE}Rockets you beat? Disgraceful!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "台长『实在是对不起啊冠军大人,{NEWLINE}都怪我们没有协调好,{CLEAR}才会让您和小茜馆主产生误会。{CLEAR}但要解释清楚这些误会并不容易,{CLEAR}不如您先去录节目,{CLEAR}由我慢慢来做小茜馆主的工作。{SCROLL}",
+   "en": "Director: I’m so sorry, Champion.{NEWLINE}It’s our fault for not coordinating{CLEAR}properly. That’s what caused{CLEAR}this misunderstanding between you{CLEAR}and Whitney.{SCROLL}It won’t be easy to clear up, so why{NEWLINE}don’t you go ahead and record the{CLEAR}show? I’ll work things out with Whitney.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "好,我先去录节目",
+   "en": "I’ll do the show",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 35,
+   "zh": "这个嘉宾还是由小茜来当吧",
+   "en": "Let Whitney do it",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 36,
+   "zh": "{VAR:0103:0}『台长,谢谢你盛情邀请。{NEWLINE}但是听你们刚才的对话,{CLEAR}原本应该是定了小茜当首期嘉宾,{CLEAR}所以今天的节目还是由小茜来录吧。",
+   "en": "{VAR:0103:0}: Director, thank you for the{NEWLINE}kind invitation.{SCROLL}But from what I just heard, Whitney{NEWLINE}was supposed to be the first guest.{CLEAR}So Whitney should record today’s show.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "小茜『你……",
+   "en": "Whitney: You...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "台长『冠军大人,{NEWLINE}您的高风亮节着实让人钦佩,{CLEAR}绝非一般训练家能比,{CLEAR}如果您不能上节目展示您的品德,{CLEAR}那将是全地区听众的巨大损失！{CLEAR}所以请您不要再推辞了,{CLEAR}首期嘉宾非您莫属。",
+   "en": "Director: Champion, your noble{NEWLINE}character is truly admirable.{CLEAR}No ordinary Trainer could compare!{SCROLL}If you don’t come on the show and let{NEWLINE}everyone hear it, it would be a huge{CLEAR}loss for listeners across the region!{SCROLL}So please, don’t turn us down. The{NEWLINE}first guest can be none other than you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "小茜『我说台长,{NEWLINE}你怎么又自说自话上了！{CLEAR}人家冠军大人都同意让我当嘉宾了！",
+   "en": "Whitney: Director, why are you making{NEWLINE}decisions on your own again?!{SCROLL}The Champion already agreed to let me{NEWLINE}be the guest!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "{VAR:0103:0}『是啊,就按你们约定的那样,{NEWLINE}由小茜馆主来录制吧。",
+   "en": "{VAR:0103:0}: That’s right.{NEWLINE}Just do it the way you agreed.{CLEAR}Whitney should record the show.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "台长『可是冠军大人,{NEWLINE}您也跟我们说好{CLEAR}要参加节目录制了啊,{CLEAR}而且我们这档「最强训练家」节目{CLEAR}没有人比您更适合当第一期嘉宾了。",
+   "en": "Director: But Champion, you agreed to{NEWLINE}join the recording too.{SCROLL}And no one is better suited than{NEWLINE}you to be the first guest on ‘The{CLEAR}Strongest Trainer.’",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "{VAR:0103:0}『那是因为我事先不知道{NEWLINE}你们已经邀请了别人,{CLEAR}否则我不会跟小茜馆主抢的。",
+   "en": "{VAR:0103:0}: That’s because I didn’t know{NEWLINE}you’d already invited someone else.{SCROLL}Otherwise I would never have tried to{NEWLINE}take Whitney’s spot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "台长『这……好吧……{NEWLINE}怪我太心急了。",
+   "en": "Director: Well... all right...{NEWLINE}I was too hasty.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "台长『对不起啊,小茜馆主。{NEWLINE}真的是太对不起您了……{CLEAR}都怪我总想做爆款节目,{CLEAR}结果忽视了最起码的契约精神,{CLEAR}对您没有表现出足够的尊重,{CLEAR}真的非常对不起,{CLEAR}请您继续作为我们的首期特邀嘉宾,{CLEAR}来录制本节目吧。",
+   "en": "Director: I’m sorry, Whitney.{NEWLINE}I’m truly, terribly sorry...{SCROLL}I was so busy chasing a hit show that I{NEWLINE}forgot the basic spirit of a contract.{SCROLL}I didn’t show you the respect you{NEWLINE}deserve, and I really am very sorry.{SCROLL}Please stay on as the special guest{NEWLINE}for our first episode and record the{CLEAR}show with us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "小茜『你这个台长变脸的速度,{NEWLINE}跟变隐龙变色一样快。",
+   "en": "Whitney: Director, you change your face{NEWLINE}as fast as a Kecleon changes color.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "台长『是,小茜馆主您批评的是。{SCROLL}台长『那咱们现在可以去录节目了吗？",
+   "en": "Director: Yes, Whitney, you’re{NEWLINE}quite right.{SCROLL}Director: So, shall we go record the{NEWLINE}show now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "小茜『嘿嘿,本来啊我是想着{NEWLINE}无论谁来都别想抢走我的嘉宾位置。{CLEAR}可是刚刚{VAR:0103:0}冠军的气度{CLEAR}真的让我非常佩服,{CLEAR}我决定了,这个第一期节目的嘉宾{CLEAR}还是由咱们的冠军大人来当吧。",
+   "en": "Whitney: Hee hee. At first,{NEWLINE}I’d decided nobody was going to steal{CLEAR}my guest slot, no matter who they were.{SCROLL}But the way {VAR:0103:0} just handled that{NEWLINE}really impressed me.{SCROLL}I’ve decided. Our Champion should be{NEWLINE}the first guest after all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "台长『哇,真的吗小茜大人,{NEWLINE}您没在开玩笑吧？",
+   "en": "Director: Whoa, really, Whitney?{NEWLINE}You’re not joking?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "小茜『冠军大人啊,以前我只知道{NEWLINE}你的对战实力天下无敌,{CLEAR}可是今天见到你,{CLEAR}我发现你身上{CLEAR}有比实力更迷人的品质呢,{CLEAR}所以今天我就委屈一下,{CLEAR}把嘉宾的位置让给你吧！",
+   "en": "Whitney: Champion, all I knew about{NEWLINE}you before was that nobody can beat{CLEAR}you in battle.{SCROLL}But meeting you today, I found you’ve{NEWLINE}got something even more charming{CLEAR}than strength.{SCROLL}So I’ll put up with it just this once,{NEWLINE}and give you the guest slot!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "{VAR:0103:0}『你不是为上节目{NEWLINE}准备了很长时间吗？{CLEAR}这样换成我真的好吗？",
+   "en": "{VAR:0103:0}: Didn’t you spend a long time{NEWLINE}getting ready for the show? Are you{CLEAR}sure you want to switch with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "小茜『哎呀,你就别推辞了,{NEWLINE}毕竟我也想通过节目{CLEAR}多了解些你的事情哦。{SCROLL}小茜『我现在要回满金道馆了,{NEWLINE}等你一会儿录完节目,{CLEAR}记得来道馆找我玩,{CLEAR}我还想亲自见识下{CLEAR}最强训练家的实力呢。",
+   "en": "Whitney: Oh, don’t argue!{NEWLINE}Besides, I want to learn more about you{CLEAR}through the show too.{SCROLL}Whitney: I’m heading back to the{NEWLINE}Goldenrod Gym now.{SCROLL}When you’re done recording,{NEWLINE}come by the Gym and hang out with me.{SCROLL}I want to see the strength of the{NEWLINE}strongest Trainer for myself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "小茜『哼,懒得理你。",
+   "en": "Whitney: Hmph. I can’t be bothered{NEWLINE}with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "台长『冠军大人啊,{NEWLINE}本台发生这样的工作失误{CLEAR}真的是让您见笑了。{CLEAR}现在请跟我来录节目吧。",
+   "en": "Director: Champion, I’m so embarrassed{NEWLINE}that you had to see our station make{CLEAR}such a mess of things.{SCROLL}Now, please follow me to the recording.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "台长『「最强训练家」节目的主持人{NEWLINE}是本台的第一美女胡桃小姐,{CLEAR}她将会通过问答的方式{CLEAR}与您进行交流,{CLEAR}期间我们会对您的声音进行收集录制。{CLEAR}您只管回答胡桃小姐的提问就好了。",
+   "en": "Director: The host of ‘The Strongest{NEWLINE}Trainer’ is our station’s number one{CLEAR}beauty, Miss Mary.{SCROLL}She’ll talk with you in a{NEWLINE}question-and-answer format while we{CLEAR}record your voice.{SCROLL}All you need to do is answer Miss{NEWLINE}Mary’s questions.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "{VAR:0103:0}『好的,我知道了。",
+   "en": "{VAR:0103:0}: All right, got it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "台长『那,胡桃小姐,{NEWLINE}冠军大人就拜托你了！",
+   "en": "Director: Now, Miss Mary, I leave the{NEWLINE}Champion in your hands!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "胡桃『请您放心,台长。",
+   "en": "Mary: Don’t worry, Director.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "{VAR:0103:0}『好,我先去录节目。{NEWLINE}如果有什么误会{CLEAR}就拜托台长跟小茜馆主{CLEAR}好好解释一下吧。",
+   "en": "{VAR:0103:0}: OK. I’ll go record the{NEWLINE}show first.{SCROLL}If there’s been any misunderstanding,{NEWLINE}Director, please explain things properly{CLEAR}to Whitney.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "台长『嘿嘿,没问题。{NEWLINE}冠军大人请随我来。",
+   "en": "Director: Heh heh, no problem.{NEWLINE}Champion, please follow me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "小茜『喂！你们……！",
+   "en": "Whitney: Hey! You two...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "台长『胡桃小姐,我现在去处理{NEWLINE}跟小茜馆主的误会,{CLEAR}新节目和冠军大人就拜托你了！",
+   "en": "Director: Miss Mary, I’m going to{NEWLINE}go clear up the misunderstanding{CLEAR}with Whitney.{SCROLL}I leave the new show and the Champion{NEWLINE}in your hands!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "台长『小茜馆主,{NEWLINE}咱们不要打扰节目录制,{CLEAR}去录音室外面谈谈吧？",
+   "en": "Director: Whitney,{NEWLINE}let’s not disturb the recording.{CLEAR}Why don’t we talk outside the studio?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "小茜『真是不要脸的台长{NEWLINE}和厚脸皮的冠军！{CLEAR}我跟你们没什么好谈的,哼！",
+   "en": "Whitney: What a shameless director,{NEWLINE}and what a brazen Champion!{SCROLL}I’ve got nothing to say to either of{NEWLINE}you. Hmph!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "台长『小茜馆主别走啊,{NEWLINE}第二期节目的事还要拜托你呢。",
+   "en": "Director: Whitney, please don’t go! We{NEWLINE}still need you for the second episode!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "胡桃『你好啊,{VAR:0103:0}大人,{NEWLINE}今天咱们节目的主题是{CLEAR}「最强训练家」。{CLEAR}您可以给咱们听友回忆一下{CLEAR}您是如何一路成长为最强训练家的吗？",
+   "en": "Mary: Hello, {VAR:0103:0}!{NEWLINE}The theme of today’s show is ‘The{CLEAR}Strongest Trainer.’{SCROLL}Could you tell our listeners how you{NEWLINE}grew into the strongest Trainer?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "{VAR:0103:0}『我当时从真新镇出发,{NEWLINE}在大木博士那里{CLEAR}选了第一个伙伴小火龙。{CLEAR}然后我们一起前往常磐市。{CLEAR}当时什么都不知道,{CLEAR}小绿还约我直接去挑战精灵联盟,{CLEAR}结果被人家门卫给赶回来了。",
+   "en": "{VAR:0103:0}: I set out from Pallet Town,{NEWLINE}and at Prof. Oak’s lab I chose my first{CLEAR}partner, Charmander.{SCROLL}Then we headed to Viridian{NEWLINE}City together.{SCROLL}I didn’t know anything back then.{NEWLINE}Blue even talked me into going straight{CLEAR}to challenge the Pokémon League,{SCROLL}and the guard sent us right back home.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "{VAR:0103:0}『我当时从真新镇出发,{NEWLINE}在大木博士那里{CLEAR}选了第一个伙伴皮卡丘。{CLEAR}然后我们一起前往常磐市。{CLEAR}当时什么都不知道,{CLEAR}小绿还约我直接去挑战精灵联盟,{CLEAR}结果被人家门卫给赶回来了。",
+   "en": "{VAR:0103:0}: I set out from Pallet Town,{NEWLINE}and at Prof. Oak’s lab I chose my first{CLEAR}partner, Pikachu.{SCROLL}Then we headed to Viridian{NEWLINE}City together.{SCROLL}I didn’t know anything back then.{NEWLINE}Blue even talked me into going straight{CLEAR}to challenge the Pokémon League,{SCROLL}and the guard sent us right back home.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "{VAR:0103:0}『我当时从真新镇出发,{NEWLINE}在大木博士那里{CLEAR}选了第一个伙伴妙蛙种子。{CLEAR}然后我们一起前往常磐市。{CLEAR}当时什么都不知道,{CLEAR}小绿还约我直接去挑战精灵联盟,{CLEAR}结果被人家门卫给赶回来了。",
+   "en": "{VAR:0103:0}: I set out from Pallet Town,{NEWLINE}and at Prof. Oak’s lab I chose my first{CLEAR}partner, Bulbasaur.{SCROLL}Then we headed to Viridian{NEWLINE}City together.{SCROLL}I didn’t know anything back then.{NEWLINE}Blue even talked me into going straight{CLEAR}to challenge the Pokémon League,{SCROLL}and the guard sent us right back home.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "胡桃『哈哈,谁都有过{NEWLINE}刚出道时的青涩阶段呢,{CLEAR}连我们的冠军大人也不例外。{SCROLL}胡桃『那第一场让您印象深刻的战斗{NEWLINE}是在哪里跟谁展开的呢？",
+   "en": "Mary: Ha ha! Everyone goes through a{NEWLINE}green phase when they’re starting out.{CLEAR}Even our Champion!{SCROLL}Mary: So, where was the first{NEWLINE}battle that really stuck with you,{CLEAR}and who was it against?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | rewritten from zh (was tm_v3)"
+  },
+  {
+   "id": 71,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | rewritten from zh (was tm_v3)"
+  },
+  {
+   "id": 72,
+   "zh": "{VAR:0103:0}『我记得当时我们一行人{NEWLINE}在月见山第一次遇到火箭队……",
+   "en": "{VAR:0103:0}: I remember when our{NEWLINE}group first ran into Team Rocket at{CLEAR}Mt. Moon...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "胡桃『真是一段传奇的训练家经历！{NEWLINE}谢谢冠军大人来到我们广播台{CLEAR}为大家讲述自己的故事,谢谢您！",
+   "en": "Mary: What a legendary journey!{SCROLL}Thank you so much for coming to our{NEWLINE}station to share your story with{CLEAR}everyone, Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "胡桃『好了,录音到此结束。{NEWLINE}冠军大人您可以稍微放松一下了。",
+   "en": "Mary: All right, that’s a wrap.{NEWLINE}You can relax now, Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "台长『真是太感谢您了,冠军大人。{NEWLINE}「最强训练家」这个节目{CLEAR}在您的帮助下一定会大获成功！{CLEAR}为了感谢您这次参与我们节目录制,{CLEAR}这点小小的礼物请您务必收下。",
+   "en": "Director: Thank you so much, Champion.{NEWLINE}With your help, ‘The Strongest Trainer’{CLEAR}is sure to be a huge success!{SCROLL}As thanks for taking part in the{NEWLINE}recording, please accept this{CLEAR}little gift.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "台长『以后欢迎您常来{NEWLINE}我们广播台参观指导,{CLEAR}我们将不胜荣幸！",
+   "en": "Director: You’re welcome to visit{NEWLINE}and give us your guidance any time.{CLEAR}We’d be truly honored!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "台长『胡桃小姐,新节目的后续编辑{NEWLINE}就请你费心了。",
+   "en": "Director: Miss Mary, I’ll leave the{NEWLINE}editing of the new show to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "胡桃『好的台长,我一定用心做好。",
+   "en": "Mary: Yes, Director.{NEWLINE}I’ll do my very best.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "台长『嗯,拜托了。",
+   "en": "Director: Mm, I’m counting on you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "呃,台长和小茜馆主{NEWLINE}似乎还没有商量好……",
+   "en": "Um, it seems the director and Whitney{NEWLINE}still haven’t sorted things out...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "广播节目的幕后工作也是很累人的。",
+   "en": "The behind-the-scenes work on radio{NEWLINE}shows is exhausting too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "很多广播节目其实都是录播,{NEWLINE}就是提前把声音录好,{CLEAR}经过加工剪辑之后再播放给听众。",
+   "en": "Many radio shows are{NEWLINE}actually prerecorded.{SCROLL}We record the voices ahead of time,{NEWLINE}then edit them before airing them{CLEAR}to listeners.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "吸盘魔偶『Miii——me！",
+   "en": "Mr. Mime: Miii-me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "阿波罗『哦？这么快就打开安全门了？",
+   "en": "Archer: Oh? You opened the security{NEWLINE}door that quickly?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "{VAR:0103:0}『阿波罗……{NEWLINE}你是负责在这里阻挡我们前进的吗？{CLEAR}既然如此就亮出你的精灵吧！",
+   "en": "{VAR:0103:0}: Archer... Are you here to{NEWLINE}stop us from going any farther?{SCROLL}Then send out your Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "阿波罗『不不不,我只是在这里{NEWLINE}确认你们当前的位置。{CLEAR}既然你们已经突破了最后的安全门,{CLEAR}那我也该上塔顶向坂木老大报告了。",
+   "en": "Archer: No, no, no. I’m only here to{NEWLINE}confirm your current position.{SCROLL}Now that you’ve broken through the{NEWLINE}last security door, I should go up to{CLEAR}the roof and report to Boss Giovanni.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "{VAR:0103:0}『确认我们的位置？{NEWLINE}这是要干什么……",
+   "en": "{VAR:0103:0}: Confirm our position?{NEWLINE}What is he planning...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "火箭队把我的午餐三明治抢走了,{NEWLINE}这下要饿肚子了……",
+   "en": "Team Rocket took my lunch sandwich...{NEWLINE}Now I’m going to go hungry...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "小葵『什么？今天的暗语？{SCROLL}小葵『当然是「救命」啦！",
+   "en": "Buena: What? Today’s password?{SCROLL}Buena: HELP, of course!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "胡桃『冠军大人,请阻止火箭队,{NEWLINE}不要让他们胡作非为！",
+   "en": "Mary: Champion, please stop Team{NEWLINE}Rocket! Don’t let them get away{CLEAR}with this!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "火箭队拿了一套音响设备{NEWLINE}上了广播塔顶,{CLEAR}是准备做直播吗？",
+   "en": "Team Rocket took a set of audio{NEWLINE}equipment up to the top of the{CLEAR}Radio Tower. Are they planning a{CLEAR}live broadcast?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,971 @@
+{
+ "narc": "a027",
+ "bank": 593,
+ "source": "work/extract/v4/a027/0593.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "你好啊,年轻的旅人,{NEWLINE}我是餐馆的老板。{CLEAR}本餐馆原则上{CLEAR}只招待红莲岛本地的客人,{CLEAR}外地客人如果想在这里享受美食,{CLEAR}需要用精灵对战的方式{CLEAR}击败本店的一位客人才行,{CLEAR}或者是猜出我的谜语也行哦。{SCROLL}不过我跟一位小姑娘约了现在见面,{NEWLINE}暂时没有时间给你出谜题了,{CLEAR}如果你想猜谜的话得稍微等等了。",
+   "en": "Hello there, young traveler. I’m the{NEWLINE}owner of this restaurant.{SCROLL}As a rule, we only serve Cinnabar Island{NEWLINE}locals.{SCROLL}Visitors who want our food must beat a{NEWLINE}customer in a Pokémon battle, or solve{CLEAR}one of my riddles.{SCROLL}But I’m meeting a little girl right now,{NEWLINE}so I’ve no time for riddles.{SCROLL}If you want to try one, you’ll have to{NEWLINE}wait a while.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Blaine's restaurant (secret Cinnabar Gym). #0-#2 before the lab incident (Blaine is out playing riddles with Amber)."
+  },
+  {
+   "id": 1,
+   "zh": "您好,我们餐馆只接待岛上的居民,{NEWLINE}外地游客恕不接待。{CLEAR}当然了,如果您能得到{CLEAR}我们餐馆老板的认可,{CLEAR}那就另当别论了。",
+   "en": "Hello. Our restaurant only serves{NEWLINE}island residents. I’m afraid we don’t{CLEAR}serve visitors.{SCROLL}Of course, if you can win our owner’s{NEWLINE}approval, that’s another matter.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "您好,我是这里的服务员,{NEWLINE}不是老板,{CLEAR}您如果想找老板的话可能得等等了。{CLEAR}他应该是去找岛上实验室的小女孩{CLEAR}玩猜谜游戏了。",
+   "en": "Hello. I’m a waiter here, not the owner.{SCROLL}If you want the owner, you may have to{NEWLINE}wait.{SCROLL}I think he went to play riddles with the{NEWLINE}little girl from the island’s lab.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "小绿『{VAR:0103:0}啊,{NEWLINE}我原以为红莲岛上能有道馆,{CLEAR}结果到这儿一看{CLEAR}居然只是座观光的小岛。{SCROLL}小绿『我想既然如此{NEWLINE}就在岛上逛逛放松一下吧,{CLEAR}于是来到了这家餐馆。{CLEAR}谁知这家店派头大得很,{CLEAR}说是没有老板同意{CLEAR}就不接待我们这些外地人。{SCROLL}小绿『哼,瞧不起谁呢,{NEWLINE}我今天非会会他们老板不可。",
+   "en": "Blue: Oh, {VAR:0103:0}. I thought there’d be{NEWLINE}a Gym on Cinnabar Island, but it’s just{CLEAR}a little tourist island.{SCROLL}Blue: So I figured I’d look around and{NEWLINE}relax, and came to this restaurant.{SCROLL}But this place is so full of itself! They{NEWLINE}won’t serve outsiders like us without{CLEAR}the owner’s say-so.{SCROLL}Blue: Hmph. Who do they think they are?{NEWLINE}I’m meeting their owner today, no{CLEAR}matter what.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Partner branch: Green (#4/#7/#15/#22/#27/#39/#63/#74/#86/#117) or Red (#5/#8/#16/#23/#28/#40/#64/#75/#87/#118); Blue in both."
+  },
+  {
+   "id": 4,
+   "zh": "小蓝『嘿嘿,{VAR:0103:0}。{NEWLINE}你也找到这里来了呀。{CLEAR}按照精灵联盟的发布的手册,{CLEAR}红莲岛应该是有道馆的,{CLEAR}但是我在这里找了几圈都没有看见。{SCROLL}小蓝『据说这家餐馆的老板{NEWLINE}是土生土长的老红莲岛人,{CLEAR}我想来问问他的话或许能有线索。{CLEAR}只是老板现在外出了,{CLEAR}不知什么时候能回来。",
+   "en": "Green: Hee hee, {VAR:0103:0}. So you found{NEWLINE}this place too.{SCROLL}According to the Pokémon League’s{NEWLINE}handbook, there should be a Gym on{CLEAR}Cinnabar Island. But I’ve searched all{CLEAR}over and haven’t seen it.{SCROLL}Green: They say the owner of this{NEWLINE}restaurant is a born-and-bred Cinnabar{CLEAR}local. Asking him might give us a lead.{SCROLL}But he’s out right now, and who knows{NEWLINE}when he’ll be back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "小赤『是{VAR:0103:0}啊。{NEWLINE}你果然也来红莲岛了。{CLEAR}按照精灵联盟的发布的手册,{CLEAR}红莲岛应该是有道馆的,{CLEAR}但是我在这里找了几圈都没有看见。{SCROLL}小赤『据说这家餐馆的老板{NEWLINE}是土生土长的老红莲岛人,{CLEAR}我想来问问他的话或许能有线索。{CLEAR}只是老板现在外出了,{CLEAR}不知什么时候能回来。",
+   "en": "Red: Oh, it’s {VAR:0103:0}. So you came to{NEWLINE}Cinnabar Island too.{SCROLL}According to the Pokémon League’s{NEWLINE}handbook, there should be a Gym on{CLEAR}Cinnabar Island. But I’ve searched all{CLEAR}over and haven’t seen it.{SCROLL}Red: They say the owner of this{NEWLINE}restaurant is a born-and-bred Cinnabar{CLEAR}local. Asking him might give us a lead.{SCROLL}But he’s out right now, and who knows{NEWLINE}when he’ll be back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "这人真是的,接不接待客人{NEWLINE}是我们餐馆自己的事啊,{CLEAR}他居然还非要找我们老板理论。",
+   "en": "Honestly, this guy.{SCROLL}Whether we serve customers or not is{NEWLINE}our restaurant’s business.{SCROLL}And he insists on arguing it out with our{NEWLINE}owner.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "小蓝『{VAR:0103:0},你快去劝劝小绿呀,{NEWLINE}他这样跟人家老板争执,{CLEAR}还怎么打听红莲道馆的位置啊。",
+   "en": "Green: {VAR:0103:0}, go calm Blue down! If{NEWLINE}he argues with the owner like this, how{CLEAR}are we supposed to ask where the{CLEAR}Cinnabar Gym is?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "小赤『{VAR:0103:0},你快去劝劝小绿吧,{NEWLINE}他这样跟人家老板争执,{CLEAR}恐怕会影响打听红莲道馆的事。",
+   "en": "Red: {VAR:0103:0}, go calm Blue down. If he{NEWLINE}argues with the owner like this, it might{CLEAR}ruin our chances of asking about the{CLEAR}Cinnabar Gym.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "小绿『我可不管你是谁,{NEWLINE}凭什么不让我们外地人在这里消费啊！{CLEAR}你是想说看不起外地人吗！",
+   "en": "Blue: I don’t care who you are! Why{NEWLINE}won’t you let outsiders like us spend{CLEAR}money here?!{SCROLL}You saying you look down on outsiders?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "哈哈,什么东西会让头脑发昏呢？",
+   "en": "Ha ha. What is it that makes a person’s{NEWLINE}head overheat?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#10-#84: Blaine in disguise as the owner; riddle quiz. #30-#33, #46-#49, #66-#69 are answer menus; wrong-answer replies #37/#38, #42-#45, #52/#53, #56-#59, #72/#73, #76-#79."
+  },
+  {
+   "id": 11,
+   "zh": "小绿『少岔开话题。{NEWLINE}今天你必须就区别对待我们{CLEAR}给出一个说法！",
+   "en": "Blue: Don’t change the subject. Today{NEWLINE}you’re going to explain why you treat{CLEAR}us differently!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "是怒火啊少年,{NEWLINE}怒火会让人头脑发昏,{CLEAR}看不到眼前的真相。",
+   "en": "Anger, young man. Anger clouds the mind{NEWLINE}and keeps you from seeing the truth in{CLEAR}front of you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "小绿『真相？什么真相？",
+   "en": "Blue: The truth? What truth?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "随着红莲岛的火山和温泉{NEWLINE}作为旅游景点被开发,{CLEAR}来这里的游客成倍增长。{SCROLL}同样的,来红莲道馆挑战的人{NEWLINE}也随之增多。",
+   "en": "Since Cinnabar Island’s volcano and hot{NEWLINE}springs were developed for tourism, the{CLEAR}number of visitors has multiplied.{SCROLL}And more and more people came to{NEWLINE}challenge the Cinnabar Gym, too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "小蓝『可是,红莲岛不是没有道馆吗？",
+   "en": "Green: But doesn’t Cinnabar Island{NEWLINE}have no Gym?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "小赤『可是,红莲岛不是没有道馆吗？",
+   "en": "Red: But doesn’t Cinnabar Island have{NEWLINE}no Gym?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "原本红莲岛是有道馆的,{NEWLINE}只不过馆主夏伯先生{CLEAR}因为忍受不来太多观光客{CLEAR}抱着玩闹的心态来挑战,{CLEAR}所以干脆就把道馆给关闭了。{SCROLL}红莲岛上的居民{NEWLINE}因为怀念夏伯和红莲道馆,{CLEAR}所以就自发地排斥起那些{CLEAR}把道馆对战当儿戏的外地游客了。",
+   "en": "Cinnabar Island did have a Gym.{SCROLL}But its Leader, Mr. Blaine, couldn’t{NEWLINE}stand all the tourists challenging him{CLEAR}just for fun.{SCROLL}So he simply closed it down.{SCROLL}The islanders miss Blaine and his Gym, so{NEWLINE}they started shunning tourists who{CLEAR}treat Gym battles as a game.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "小绿『是这样吗……{NEWLINE}夏伯的心情我多少也能理解一些。{CLEAR}但是你们这样把所有外地人{CLEAR}都拒之门外也有点太过了吧,{CLEAR}毕竟像我们这样热爱口袋妖怪{CLEAR}诚心向馆主们挑战的训练家{CLEAR}也是会来到这里的啊。",
+   "en": "Blue: Is that so... I can kind of{NEWLINE}understand how Blaine feels.{SCROLL}But shutting out every outsider like{NEWLINE}this is going too far.{SCROLL}After all, Trainers like us who love{NEWLINE}Pokémon and sincerely want to challenge{CLEAR}Gym Leaders come here too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "嘿嘿,口说无凭。{NEWLINE}你们如果想得到我的认可,{CLEAR}得拿出些真本事来才行。",
+   "en": "Heh heh, talk is cheap. If you want my{NEWLINE}approval, you’ll have to show me what{CLEAR}you’ve really got.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "小绿『什么真本事？",
+   "en": "Blue: Show you what?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "当然就是猜谜啦,{NEWLINE}只要猜出了我的谜语{CLEAR}我就认可你们是正经的训练家,{CLEAR}你们就可以在这里用餐了。",
+   "en": "Riddles, of course! Solve my riddles,{NEWLINE}and I’ll accept you as proper Trainers.{CLEAR}Then you can dine here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "小蓝『那如果我们猜出了你的谜语,{NEWLINE}你可以告诉我们红莲道馆在哪里吗？",
+   "en": "Green: If we solve your riddles, will you{NEWLINE}tell us where the Cinnabar Gym is?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "小赤『那如果我们猜出了你的谜语,{NEWLINE}你可以告诉我们红莲道馆在哪里吗？",
+   "en": "Red: If we solve your riddles, will you{NEWLINE}tell us where the Cinnabar Gym is?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "哦？挑战道馆对你们来说{NEWLINE}是很重要的事吗？",
+   "en": "Oh? Is challenging the Gym that{NEWLINE}important to you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "小绿『那当然啦,{NEWLINE}我们在关东各地旅行,{CLEAR}经历了各种事情。{CLEAR}就是为了能收集齐关东的8个徽章。",
+   "en": "Blue: Of course it is!{SCROLL}We’ve traveled all over Kanto and been{NEWLINE}through all sorts of things, all to{CLEAR}collect Kanto’s 8 Badges.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0103:0}『我们可不是{NEWLINE}为了旅游才来红莲岛的,{CLEAR}挑战红莲道馆获得红色徽章{CLEAR}才是我们来这的目的。",
+   "en": "{VAR:0103:0}: We didn’t come to Cinnabar{NEWLINE}Island to sightsee.{SCROLL}We’re here to challenge the Cinnabar{NEWLINE}Gym and win the Volcano Badge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "红色徽章 = Volcano Badge (Cinnabar)."
+  },
+  {
+   "id": 27,
+   "zh": "小蓝『没错,如果您知道红莲道馆在哪,{NEWLINE}就请告诉我们吧。",
+   "en": "Green: That’s right. If you know where{NEWLINE}the Cinnabar Gym is, please tell us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "小赤『没错,如果您知道红莲道馆在哪,{NEWLINE}就请告诉我们吧。",
+   "en": "Red: That’s right. If you know where{NEWLINE}the Cinnabar Gym is, please tell us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "既然如此,就请听我的谜题吧。{NEWLINE}上面大洪水,下面大火灾的是什么啊？",
+   "en": "In that case, here’s my riddle. What{NEWLINE}has a great flood above and a great{CLEAR}fire below?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "火锅",
+   "en": "Hot pot",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 31,
+   "zh": "温泉",
+   "en": "Hot spring",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 32,
+   "zh": "浴盆",
+   "en": "Bathtub",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 33,
+   "zh": "茶壶",
+   "en": "Teapot",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 34,
+   "zh": "{VAR:0103:0}『我猜是浴盆,对不对？",
+   "en": "{VAR:0103:0}: I’d say a bathtub. Am I right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "优秀啊！答对了。{SCROLL}老式的浴盆都是下面烧柴,{NEWLINE}上面放水的。{CLEAR}我还以为你们这些年轻人不知道。",
+   "en": "Excellent! That’s correct.{SCROLL}Old-fashioned bathtubs had a wood fire{NEWLINE}underneath and the water on top.{SCROLL}I didn’t think you youngsters would{NEWLINE}know that.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "现在请听第二道题。{NEWLINE}不知道的时候能说,{CLEAR}知道了却不能说的是什么？",
+   "en": "Now for the second riddle. What can you{NEWLINE}talk about when you don’t know it, but{CLEAR}can’t talk about once you do?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "{VAR:0103:0}『我知道,是火锅啊！",
+   "en": "{VAR:0103:0}: I know, it’s a hot pot!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "不对哦,火锅的水可太少了,{NEWLINE}还称不上洪水。",
+   "en": "Nope. A hot pot holds far too little{NEWLINE}water to count as a flood.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "小蓝『那就是浴盆了对不对？",
+   "en": "Green: Then it’s a bathtub, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "小赤『那就是浴盆了对不对？",
+   "en": "Red: Then it’s a bathtub, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "没错,老式的浴盆都是下面烧柴,{NEWLINE}上面放水的。{CLEAR}我还以为你们这些年轻人不知道。",
+   "en": "That’s right. Old-fashioned bathtubs{NEWLINE}had a wood fire underneath and the{CLEAR}water on top.{SCROLL}I didn’t think you youngsters would{NEWLINE}know that.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "{VAR:0103:0}『我知道,是温泉！",
+   "en": "{VAR:0103:0}: I know, it’s a hot spring!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "不是的,温泉的下面可看不见火。",
+   "en": "No. You can’t see any fire under a hot{NEWLINE}spring.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0103:0}『我知道,是茶壶！",
+   "en": "{VAR:0103:0}: I know, it’s a teapot!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "不对哦,茶壶的水太少了,{NEWLINE}还称不上洪水。",
+   "en": "Nope. A teapot holds far too little{NEWLINE}water to count as a flood.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "考试的答案",
+   "en": "Exam answers",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 47,
+   "zh": "国家的秘密",
+   "en": "State secrets",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 48,
+   "zh": "暴富的方法",
+   "en": "Get-rich tricks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 49,
+   "zh": "别人的假发",
+   "en": "Someone’s toupee",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 50,
+   "zh": "{VAR:0103:0}『是不是别人的假发？",
+   "en": "{VAR:0103:0}: Is it someone’s toupee?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "哈哈,真聪明,{NEWLINE}又让你们给猜出来了。{SCROLL}不知道对方是光头的时候{NEWLINE}敢提这个话题,{CLEAR}可是知道对方是光头之后就不敢讲了。",
+   "en": "Ha ha, clever! You got it again.{SCROLL}While you don’t know someone’s bald,{NEWLINE}you’ll happily bring it up. Once you{CLEAR}know, you wouldn’t dare.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "{VAR:0103:0}『是考试的答案吗？",
+   "en": "{VAR:0103:0}: Is it exam answers?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "考试的答案有什么不敢讲的吗？",
+   "en": "What’s there to be afraid of saying{NEWLINE}about exam answers?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "小绿『哼哼,我猜是假发！",
+   "en": "Blue: Heh heh, my guess is a toupee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "不错哦小伙子,{NEWLINE}这次是你答对了。{SCROLL}不知道对方是光头的时候{NEWLINE}敢提这个话题,{CLEAR}可是知道对方是光头之后就不敢讲了。",
+   "en": "Not bad, young man. This time you got it{NEWLINE}right.{SCROLL}While you don’t know someone’s bald,{NEWLINE}you’ll happily bring it up. Once you{CLEAR}know, you wouldn’t dare.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "{VAR:0103:0}『是国家的秘密吗？",
+   "en": "{VAR:0103:0}: Is it state secrets?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "国家的秘密你如果不知道的话,{NEWLINE}是讲不出来的吧？",
+   "en": "If you don’t know a state secret, you{NEWLINE}can’t very well talk about it, can you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "{VAR:0103:0}『肯定是暴富的方法啊。",
+   "en": "{VAR:0103:0}: It’s gotta be the secret to{NEWLINE}getting rich quick.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "你这种自己上车了,{NEWLINE}就想把车门锁死的做法可要不得啊。",
+   "en": "Once you’re on board, you want to lock{NEWLINE}the doors behind you?{SCROLL}That’s no way to be.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "上车了就想把车门锁死 (pull up the ladder behind you) kept as a bus image."
+  },
+  {
+   "id": 60,
+   "zh": "为了奖励你们{NEWLINE}能答出前两个问题,{CLEAR}给你们看看我的另一个样子吧！",
+   "en": "As a reward for solving the first two,{NEWLINE}let me show you my other face!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "{VAR:0103:0}『之前的样子都是乔装的！？",
+   "en": "{VAR:0103:0}: So that was all a disguise?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "小绿『原来假发这个话题,{NEWLINE}指的是你自己啊。",
+   "en": "Blue: So the toupee thing was about{NEWLINE}you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "小蓝『你到底是什么人……",
+   "en": "Green: Who are you, really...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "小赤『你到底是什么人……",
+   "en": "Red: Who are you, really...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "哈哈,我的谜题还没结束呢,{NEWLINE}可不要反客为主。{SCROLL}这里有食物,可是不是餐馆,{NEWLINE}这里是什么地方？",
+   "en": "Ha ha, my riddles aren’t over yet.{NEWLINE}Don’t go turning the tables on me.{SCROLL}There’s food here, but it’s not a{NEWLINE}restaurant. What is this place?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "旅馆",
+   "en": "Inn",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 67,
+   "zh": "道馆",
+   "en": "Gym",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 68,
+   "zh": "酒馆",
+   "en": "Tavern",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 69,
+   "zh": "面馆",
+   "en": "Noodle bar",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 70,
+   "zh": "{VAR:0103:0}『这里该不会是道馆吧？",
+   "en": "{VAR:0103:0}: Don’t tell me this is a Gym?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "哈哈,不用怀疑,{NEWLINE}这里就是红莲道馆,{CLEAR}而我就是馆主夏伯！",
+   "en": "Hah hah! No need to doubt it.{SCROLL}This is the Cinnabar Gym, and I am its{NEWLINE}Leader, Blaine!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "{VAR:0103:0}『那就是旅馆咯？",
+   "en": "{VAR:0103:0}: Then it’s an inn?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "不对,这里又没有床,{NEWLINE}怎么会是旅馆嘛。",
+   "en": "No. There aren’t any beds here, so how{NEWLINE}could it be an inn?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "小蓝『这里该不会就是红莲道馆吧？",
+   "en": "Green: Don’t tell me this is the{NEWLINE}Cinnabar Gym?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "小赤『这里该不会就是红莲道馆吧？",
+   "en": "Red: Don’t tell me this is the Cinnabar{NEWLINE}Gym?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "{VAR:0103:0}『是喝酒的酒馆？",
+   "en": "{VAR:0103:0}: A tavern for drinking?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "不对不对,这里不是酒馆。",
+   "en": "No, no. This isn’t a tavern.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "{VAR:0103:0}『是面馆吗？",
+   "en": "{VAR:0103:0}: A noodle bar?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "面馆的面不也是食物吗？",
+   "en": "But aren’t noodles food too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "夏伯『嘿嘿,不必吃惊。{NEWLINE}自从红莲道馆被游客当成{CLEAR}炫耀到此一游的打卡圣地之后,{CLEAR}我就不再接待一般的挑战者了。{CLEAR}现在只有真正重视道馆对战,{CLEAR}想成为职业训练家的人{CLEAR}我才会接受他们的挑战。{SCROLL}夏伯『看你们对待娱乐式的答题{NEWLINE}都这么认真的样子,{CLEAR}我认可你们了。",
+   "en": "Blaine: Heh heh, no need to be{NEWLINE}surprised.{SCROLL}Ever since tourists turned the Cinnabar{NEWLINE}Gym into a spot to snap photos and show{CLEAR}off, I stopped taking just anyone.{SCROLL}Now I only accept challenges from those{NEWLINE}who truly value Gym battles and want to{CLEAR}become professional Trainers.{SCROLL}Blaine: Seeing how seriously you took{NEWLINE}even a silly riddle game, I accept you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "打卡圣地 (social-media check-in hotspot) → 'a spot to snap photos and show off'."
+  },
+  {
+   "id": 81,
+   "zh": "夏伯『现在可以了,{NEWLINE}你去把道馆入口的暗门给打开吧。",
+   "en": "Blaine: All right, go and open the{NEWLINE}secret door to the Gym entrance.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "是。",
+   "en": "Yes, sir.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "咔嚓——",
+   "en": "*Click*",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "夏伯『年轻的训练家们,{NEWLINE}这道暗门就是通往红莲道馆的入口。{CLEAR}如果你们准备好了从我这里{CLEAR}拿走红色徽章,{CLEAR}就来道馆找我吧！",
+   "en": "Blaine: Young Trainers, this secret{NEWLINE}door leads to the Cinnabar Gym.{SCROLL}When you’re ready to take the Volcano{NEWLINE}Badge from me, come find me in there!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "小绿『{VAR:0103:0},{NEWLINE}我真没想到这家餐馆就是道馆。{CLEAR}不过吃饭也好,道馆战也罢,{CLEAR}我都会顺利拿下的！",
+   "en": "Blue: {VAR:0103:0}, I never guessed this{NEWLINE}restaurant was the Gym.{SCROLL}But whether it’s a meal or a Gym battle,{NEWLINE}I’ll win it for sure!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "小蓝『能获得挑战红莲道馆的机会{NEWLINE}还真是不容易呢。{CLEAR}咱们可得好好把握啊。",
+   "en": "Green: It sure wasn’t easy getting a{NEWLINE}shot at the Cinnabar Gym. We’d better{CLEAR}make the most of it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "小赤『能获得挑战红莲道馆的机会{NEWLINE}还真是不容易呢。{CLEAR}咱们可得好好把握啊。",
+   "en": "Red: It sure wasn’t easy getting a shot{NEWLINE}at the Cinnabar Gym. We’d better make{CLEAR}the most of it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "小绿『{VAR:0103:0},{NEWLINE}有什么话一会儿再说。",
+   "en": "Blue: {VAR:0103:0}, whatever it is, tell me{NEWLINE}later.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "你知道吗？{SCROLL}精灵化石可以{CLEAR}复原成原来的样子。{SCROLL}如果要复原的话,{NEWLINE}就交给我吧！{SCROLL}",
+   "en": "Did you know?{SCROLL}Pokémon fossils can be restored to{NEWLINE}their original form.{SCROLL}If you want one restored, leave it to{NEWLINE}me!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "什么嘛,{NEWLINE}你没有化石啊。{SCROLL}在月见山或者尼比市里,{NEWLINE}敲一敲岩石,{CLEAR}你可能会有所发现哦。",
+   "en": "What’s this? You don’t have any{NEWLINE}Fossils.{SCROLL}Try smashing rocks on Mt. Moon or near{NEWLINE}Pewter City. You may find something.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#90-#97: fossil-revival boilerplate copied from the identical zh in 0457 (#90 lightly reworded to fit) (#6, #3, #4, #5, #8, #9, #7, #2; US text where 0457 kept it)."
+  },
+  {
+   "id": 91,
+   "zh": "那么,{NEWLINE}我帮你复原吧。{SCROLL}请稍稍等待一下！",
+   "en": "I’ll extract it for you.{SCROLL}Come back after a while!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 92,
+   "zh": "呀,呀！{SCROLL}让你久候多时的化石,{NEWLINE}已经成功复原了！{SCROLL}名叫{VAR:0100:0}的精灵,{NEWLINE}你要好好照顾哦。{SCROLL}",
+   "en": "Hi, there!{SCROLL}I have extracted a Pokémon from{NEWLINE}your Fossil!{SCROLL}It is called {VAR:0100:0}.{NEWLINE}Take good care of it!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 93,
+   "zh": "哎呀,你不能持有{NEWLINE}更多的精灵了。{SCROLL}去电脑整理一下,{NEWLINE}腾出身上空间吧。",
+   "en": "Oops!{NEWLINE}Your party seems full.{SCROLL}Why don’t you go to the PC{NEWLINE}to make room for it?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 94,
+   "zh": "{VAR:0103:0}{NEWLINE}得到了{VAR:0100:1}！",
+   "en": "{VAR:0103:0} received{NEWLINE}the {VAR:0100:1}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 95,
+   "zh": "要给{VAR:0100:1}{NEWLINE}取个昵称吗？{VAR:0200:0}",
+   "en": "Would you like to give a nickname{NEWLINE}to the {VAR:0100:1} you received? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 96,
+   "zh": "你要把{VAR:0108:0}{NEWLINE}复原吗？{VAR:0200:0}",
+   "en": "Do you want to extract a Pokémon{NEWLINE}from the {VAR:0108:0}? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 97,
+   "zh": "如果想复原的话,{NEWLINE}就再来吧……",
+   "en": "Please come by again if you ever want to{NEWLINE}extract Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 98,
+   "zh": "我和老公曾经是{NEWLINE}德特里克实验室的研究员,{CLEAR}但是实验室被富士博士买下后,{CLEAR}他所推行的研究理念我们无法接受。{SCROLL}所以我们干脆就辞职回家{NEWLINE}自己搞研究了。",
+   "en": "My husband and I used to be{NEWLINE}researchers at the Detrick lab.{SCROLL}But after Dr. Fuji bought the lab, we{NEWLINE}couldn’t accept the research{CLEAR}philosophy he pushed.{SCROLL}So we quit and came home to do our own{NEWLINE}research.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "你们几个居然能猜出{NEWLINE}夏伯先生的那些奇奇怪怪的谜语,{CLEAR}脑回路也是够可以的啊。{SCROLL}不过也只有你们这样的人,{NEWLINE}才配来我们店喝一杯呐,哈哈！",
+   "en": "You lot actually solved Mr. Blaine’s{NEWLINE}weird riddles? Your brains must be wired{CLEAR}pretty well.{SCROLL}Only folks like you deserve a drink at{NEWLINE}our place, ha ha!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "面对这扇门继续前进,{NEWLINE}就可以到达红莲道馆了。",
+   "en": "Go through this door and keep going to{NEWLINE}reach the Cinnabar Gym.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "这家店的海盐烤鱼真的超好吃,{NEWLINE}我每次钓到合适的鱼{CLEAR}都会带来这里做成海盐烤鱼。",
+   "en": "The sea-salt grilled fish here is{NEWLINE}seriously delicious.{SCROLL}Whenever I catch a good fish, I bring it{NEWLINE}here to have it grilled with sea salt.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "水箭龟『Blas——toi！",
+   "en": "Blastoise: Blas-toi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "妙蛙花『Venu——sau！",
+   "en": "Venusaur: Venu-sau!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 'Venu--sau!' normalised to one dash."
+  },
+  {
+   "id": 104,
+   "zh": "这家店招待的客人,{NEWLINE}都是像大叔我这样{CLEAR}土生土长的红莲岛人。{CLEAR}你们这些外地孩子想要来这玩{CLEAR}可选错地方了。",
+   "en": "The customers here are all{NEWLINE}born-and-bred Cinnabar Island folks{CLEAR}like me.{SCROLL}You out-of-town kids picked the wrong{NEWLINE}place to have fun.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "既然夏伯先生认可了你们,{NEWLINE}那么咱们就是自己人了。",
+   "en": "Since Mr. Blaine has accepted you,{NEWLINE}you’re one of us now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "夏伯先生的那个小忘年交{NEWLINE}在德特里克实验室的事故中丧生了,{CLEAR}夏伯先生因为这件事非常伤心。",
+   "en": "Mr. Blaine’s young friend died in the{NEWLINE}accident at the Detrick lab. He’s been{CLEAR}heartbroken over it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "你也跟那个黄发小伙子一样,{NEWLINE}想要来找店长？",
+   "en": "Are you here to see the owner too, like{NEWLINE}that blond boy?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "看那个黄发小伙嚣张的样子,{NEWLINE}也难怪店长不喜欢接待外地客人。",
+   "en": "Cocky types like that blond boy are why{NEWLINE}the boss won’t serve outsiders.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "传说火焰鸟有拯救弱小的习性,{NEWLINE}是守护红莲岛的神鸟。",
+   "en": "Legend says Moltres protects the weak.{NEWLINE}It’s the sacred bird that guards{CLEAR}Cinnabar Island.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "我总感觉好像有谁在偷窥这里似的。",
+   "en": "I keep feeling like someone’s peeping in{NEWLINE}here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "我看到有个人探头探脑地{NEWLINE}从窗户外面向里看,{CLEAR}这里的秘密该不会被他给看到了吧。",
+   "en": "I saw someone sneaking a peek through{NEWLINE}the window.{SCROLL}You don’t think he saw this place’s{NEWLINE}secret, do you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "看到你们几个,就让我想到{NEWLINE}自己刚来这里时的疑惑。{CLEAR}希望你们能像我一样{CLEAR}经过一番探索之后受到这里的接纳。",
+   "en": "Seeing you all reminds me how puzzled I{NEWLINE}was when I first came here.{SCROLL}I hope that, like me, you’ll be accepted{NEWLINE}here once you’ve explored a bit.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "老板已经回来了,{NEWLINE}你有事的话可以跟他说。",
+   "en": "The owner is back. If you need{NEWLINE}anything, you can talk to him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "我当时费了好大脑筋{NEWLINE}才答上夏伯先生的谜题,{CLEAR}可惜几次道馆挑战都没能通过。{CLEAR}所以我才在这里常住下来,{CLEAR}准备拿到深红徽章后再离开。",
+   "en": "It took me ages to solve Mr. Blaine’s{NEWLINE}riddles, but then I failed the Gym{CLEAR}challenge several times.{SCROLL}So I’ve settled here, and I’ll leave{NEWLINE}once I get the Volcano Badge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "深红徽章 = Volcano Badge."
+  },
+  {
+   "id": 115,
+   "zh": "你听说过红莲岛火焰鸟的故事吗？",
+   "en": "Have you heard the story of Cinnabar{NEWLINE}Island’s Moltres?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "传说很久以前,红莲岛火山大喷发,{NEWLINE}住在这里的人和精灵{CLEAR}都面临着被熔岩吞噬的危险。{CLEAR}这时候火焰鸟降临了,{CLEAR}它用温暖的火焰包裹着人们和精灵,{CLEAR}将大家的性命从熔岩之中拯救了出来。{SCROLL}从那以后红莲岛的居民就把火焰鸟{NEWLINE}奉为是守护红莲岛的神鸟了。",
+   "en": "Legend has it that long ago, Cinnabar{NEWLINE}Island’s volcano erupted, and the{CLEAR}people and Pokémon here were about to{CLEAR}be swallowed by the lava.{SCROLL}Then Moltres descended and wrapped{NEWLINE}them in its warm flames, saving them all{CLEAR}from the lava.{SCROLL}Ever since, the people of Cinnabar{NEWLINE}Island have revered Moltres as the{CLEAR}sacred bird that guards the island.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "小蓝『{VAR:0103:0}{NEWLINE}夏伯的餐馆风味真不错！{CLEAR}你如果不着急的话,{CLEAR}也留在岛上多逛逛吧。",
+   "en": "Green: {VAR:0103:0}, Blaine’s restaurant is{NEWLINE}really good!{SCROLL}If you’re not in a hurry, stay and{NEWLINE}explore the island a bit longer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "小赤『{VAR:0103:0}{NEWLINE}夏伯的餐馆风味真不错！{CLEAR}你如果不着急的话,{CLEAR}也留在岛上多逛逛吧。",
+   "en": "Red: {VAR:0103:0}, Blaine’s restaurant is{NEWLINE}really good!{SCROLL}If you’re not in a hurry, stay and{NEWLINE}explore the island a bit longer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

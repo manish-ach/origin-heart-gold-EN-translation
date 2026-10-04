@@ -1,0 +1,191 @@
+{
+ "narc": "a027",
+ "bank": 762,
+ "source": "work/extract/v4/a027/0762.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "请输入{NEWLINE}战斗房间号码（０１{VAR:FF02:1,0}ー{VAR:0133:0}）{VAR:0200:0}",
+   "en": "Enter the Battle Room number.{NEWLINE}(01{VAR:FF02:1,0}-{VAR:0133:0}) {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0774/0 | seed rejected us [tag_mismatch] (candidate US 0774#0; text not kept)"
+  },
+  {
+   "id": 1,
+   "zh": "排名{VAR:0133:1}　房间{VAR:0134:0}的资料{NEWLINE}接收中⋯⋯",
+   "en": "Receiving data for Rank {VAR:0133:1},{NEWLINE}Room {VAR:0134:0}...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "该战斗房间{NEWLINE}在下次更新之前无法挑战。{SCROLL}",
+   "en": "You may not challenge that Battle{NEWLINE}Room until the next update.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "资料接收完毕！{SCROLL}",
+   "en": "Data has been received.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "要中止挑战吗？",
+   "en": "Cancel your challenge?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0774/4"
+  },
+  {
+   "id": 5,
+   "zh": "请输入{NEWLINE}战斗房间的排名（０１ー１０）{VAR:0200:0}",
+   "en": "Enter the Rank of the Battle Room{NEWLINE}(01-10) to check your records.{VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0774/5"
+  },
+  {
+   "id": 6,
+   "zh": "请输入{NEWLINE}战斗房间的号码（０１{VAR:FF02:1,0}ー{VAR:0133:0}）{VAR:0200:0}",
+   "en": "Enter the Battle Room number.{NEWLINE}(01{VAR:FF02:1,0}-{VAR:0133:0}) {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0774/6 | seed rejected us [tag_mismatch] (candidate US 0774#6; text not kept)"
+  },
+  {
+   "id": 7,
+   "zh": "成绩资料发送中⋯⋯",
+   "en": "Sending your record data...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "资料发送完毕。{SCROLL}",
+   "en": "Your data has been sent.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "要中止{NEWLINE}接收吗？",
+   "en": "Would you like to cancel your data{NEWLINE}download?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0774/9"
+  },
+  {
+   "id": 10,
+   "zh": "请输入{NEWLINE}战斗房间的号码（００１{VAR:FF02:1,0}ー{VAR:0134:0}）{VAR:0200:0}",
+   "en": "Enter the Battle Room number.{NEWLINE}(001{VAR:FF02:1,0}-{VAR:0134:0}) {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0774/10 | seed rejected us [tag_mismatch] (candidate US 0774#10; text not kept)"
+  },
+  {
+   "id": 11,
+   "zh": "请输入{NEWLINE}战斗房间的号码（００１{VAR:FF02:1,0}ー{VAR:0134:0}）{VAR:0200:0}",
+   "en": "Enter the Battle Room number.{NEWLINE}(001{VAR:FF02:1,0}-{VAR:0134:0}) {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0774/11 | seed rejected us [tag_mismatch] (candidate US 0774#11; text not kept)"
+  },
+  {
+   "id": 12,
+   "zh": "连接ＷｉーＦｉ",
+   "en": "Nintendo Wi-Fi Connection",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0774/12"
+  },
+  {
+   "id": 13,
+   "zh": "ＷｉーＦｉ战斗塔{NEWLINE}现在维护中,{SCROLL}请稍等后再使用。{SCROLL}",
+   "en": "The Wi-Fi Battle Tower is currently in{NEWLINE}maintenance. Please try again later.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0774/13"
+  },
+  {
+   "id": 14,
+   "zh": "ＷｉーＦｉ战斗塔{NEWLINE}服务器正忙,{SCROLL}请稍等后再使用。{SCROLL}",
+   "en": "The Wi-Fi Battle Tower server is busy.{SCROLL}Please try again later.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "ＷｉーＦｉ战斗塔{NEWLINE}无法连接,{SCROLL}返回接待处。{SCROLL}",
+   "en": "Unable to connect to the Wi-Fi{NEWLINE}Battle Tower.{SCROLL}Returning to the reception counter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0774/15"
+  },
+  {
+   "id": 16,
+   "zh": "ＷｉーＦｉ战斗塔的{NEWLINE}通信已切断,{SCROLL}返回接待处。{SCROLL}",
+   "en": "You were disconnected from{NEWLINE}the Wi-Fi Battle Tower.{SCROLL}Returning to the reception counter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0774/16"
+  },
+  {
+   "id": 17,
+   "zh": "ＷｉーＦｉ战斗塔{NEWLINE}无法指定的数字。{SCROLL}",
+   "en": "That number cannot be specified for{NEWLINE}the Wi-Fi Battle Tower.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0774/17"
+  },
+  {
+   "id": 18,
+   "zh": "ＷｉーＦｉ连接{NEWLINE}中断。",
+   "en": "Disconnecting from Nintendo Wi-Fi{NEWLINE}Connection...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0774/18"
+  },
+  {
+   "id": 19,
+   "zh": "ＷｉーＦｉ连接{NEWLINE}中断。",
+   "en": "You are now disconnected from Nintendo{NEWLINE}Wi-Fi Connection.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0774/19"
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0205}返回",
+   "en": "{VAR:0205}Return",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0774/20"
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0205}决定",
+   "en": "{VAR:0205}Confirm",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0774/21"
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0205}放弃",
+   "en": "{VAR:0205}Quit",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

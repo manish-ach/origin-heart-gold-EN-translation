@@ -1,0 +1,863 @@
+{
+ "narc": "a027",
+ "bank": 280,
+ "source": "work/extract/v4/a027/0280.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "你好",
+   "en": "NI HAO",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/0; zh replaces the JP konnichiwa of the international greetings set with Chinese 你好"
+  },
+  {
+   "id": 1,
+   "zh": "hello",
+   "en": "hello",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "bonjour",
+   "en": "bonjour",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "ciao",
+   "en": "ciao",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "hallo",
+   "en": "hallo",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "hola",
+   "en": "hola",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "啊~啊",
+   "en": "OH WELL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/6"
+  },
+  {
+   "id": 7,
+   "zh": "啊~",
+   "en": "AAH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/7"
+  },
+  {
+   "id": 8,
+   "zh": "啊哈哈",
+   "en": "AHAHA",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/8"
+  },
+  {
+   "id": 9,
+   "zh": "啊啦",
+   "en": "HUH?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/9"
+  },
+  {
+   "id": 10,
+   "zh": "谢谢",
+   "en": "THANKS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/10"
+  },
+  {
+   "id": 11,
+   "zh": "好啊",
+   "en": "NO PROBLEM",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/11"
+  },
+  {
+   "id": 12,
+   "zh": "不",
+   "en": "NOPE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/12"
+  },
+  {
+   "id": 13,
+   "zh": "ｙｅｓ",
+   "en": "YES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "我要上了",
+   "en": "HERE GOES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/14"
+  },
+  {
+   "id": 15,
+   "zh": "去了",
+   "en": "LET’S GO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/15"
+  },
+  {
+   "id": 16,
+   "zh": "要上了哦",
+   "en": "HERE I COME",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/16"
+  },
+  {
+   "id": 17,
+   "zh": "不要~",
+   "en": "DON’T!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/17"
+  },
+  {
+   "id": 18,
+   "zh": "欢迎",
+   "en": "WELCOME",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/18"
+  },
+  {
+   "id": 19,
+   "zh": "呜呜",
+   "en": "URGH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/19"
+  },
+  {
+   "id": 20,
+   "zh": "不",
+   "en": "NAH",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/20"
+  },
+  {
+   "id": 21,
+   "zh": "嗯~",
+   "en": "HMM",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/21"
+  },
+  {
+   "id": 22,
+   "zh": "哦~",
+   "en": "WHOA",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/22"
+  },
+  {
+   "id": 23,
+   "zh": "看招~",
+   "en": "TAKE THAT!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/23"
+  },
+  {
+   "id": 24,
+   "zh": "哦哦~",
+   "en": "OOOH",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/24 | was WOW: renamed so no two words in the Easy Chat picker share the same English (Primo passwords)"
+  },
+  {
+   "id": 25,
+   "zh": "呵呵",
+   "en": "SNICKER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/25"
+  },
+  {
+   "id": 26,
+   "zh": "啊哼",
+   "en": "AHEM",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/26"
+  },
+  {
+   "id": 27,
+   "zh": "呜哇~",
+   "en": "UNBELIEVABLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/27"
+  },
+  {
+   "id": 28,
+   "zh": "呜哇~",
+   "en": "CRIES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/41 | seed rejected us [ambiguous US match] (candidate US 0287#41; text not kept)"
+  },
+  {
+   "id": 29,
+   "zh": "嗯",
+   "en": "UH-HUH",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/29 | was OK: renamed so no two words in the Easy Chat picker share the same English (Primo passwords)"
+  },
+  {
+   "id": 30,
+   "zh": "诶诶",
+   "en": "AGREE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/30"
+  },
+  {
+   "id": 31,
+   "zh": "诶~",
+   "en": "EH?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/31"
+  },
+  {
+   "id": 32,
+   "zh": "诶~",
+   "en": "EHH",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/31"
+  },
+  {
+   "id": 33,
+   "zh": "诶嘿嘿",
+   "en": "HEHEHE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/33"
+  },
+  {
+   "id": 34,
+   "zh": "喂",
+   "en": "HEY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/34"
+  },
+  {
+   "id": 35,
+   "zh": "哦哦",
+   "en": "OH, YEAH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/35"
+  },
+  {
+   "id": 36,
+   "zh": "哦~",
+   "en": "OH WOW!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/36"
+  },
+  {
+   "id": 37,
+   "zh": "喂",
+   "en": "HEEEY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/37"
+  },
+  {
+   "id": 38,
+   "zh": "好",
+   "en": "GOOD",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/98"
+  },
+  {
+   "id": 39,
+   "zh": "啊啊",
+   "en": "OOPS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/39"
+  },
+  {
+   "id": 40,
+   "zh": "祝贺你",
+   "en": "WELL DONE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/40"
+  },
+  {
+   "id": 41,
+   "zh": "呜哇",
+   "en": "OH MY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/41"
+  },
+  {
+   "id": 42,
+   "zh": "呀~",
+   "en": "EEK",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/42"
+  },
+  {
+   "id": 43,
+   "zh": "呀~",
+   "en": "YAAAH",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/93 | seed rejected us [ambiguous US match] (candidate US 0287#93; text not kept)"
+  },
+  {
+   "id": 44,
+   "zh": "嘻",
+   "en": "GIGGLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/44"
+  },
+  {
+   "id": 45,
+   "zh": "拿来",
+   "en": "GIVE ME",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/45"
+  },
+  {
+   "id": 46,
+   "zh": "啊哈哈",
+   "en": "GWAHAHAHA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/8"
+  },
+  {
+   "id": 47,
+   "zh": "呃",
+   "en": "UGH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/47"
+  },
+  {
+   "id": 48,
+   "zh": "抱歉",
+   "en": "SORRY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/48"
+  },
+  {
+   "id": 49,
+   "zh": "对不起",
+   "en": "FORGIVE ME",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/49"
+  },
+  {
+   "id": 50,
+   "zh": "抱歉啊",
+   "en": "I’M SORRY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/50"
+  },
+  {
+   "id": 51,
+   "zh": "喂",
+   "en": "HEY!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/51"
+  },
+  {
+   "id": 52,
+   "zh": "再见",
+   "en": "GOOD-BYE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/52"
+  },
+  {
+   "id": 53,
+   "zh": "谢了~",
+   "en": "THANK YOU",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/53"
+  },
+  {
+   "id": 54,
+   "zh": "参上",
+   "en": "I’VE ARRIVED",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/54"
+  },
+  {
+   "id": 55,
+   "zh": "呜呜",
+   "en": "WEEP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/55"
+  },
+  {
+   "id": 56,
+   "zh": "失敬",
+   "en": "PARDON ME",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/56"
+  },
+  {
+   "id": 57,
+   "zh": "失礼",
+   "en": "SO SORRY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/57"
+  },
+  {
+   "id": 58,
+   "zh": "拜了",
+   "en": "SEE YA",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/58"
+  },
+  {
+   "id": 59,
+   "zh": "抱歉",
+   "en": "EXCUSE ME",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/48"
+  },
+  {
+   "id": 60,
+   "zh": "那么",
+   "en": "OKAY THEN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/60"
+  },
+  {
+   "id": 61,
+   "zh": "却",
+   "en": "TUT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/61; zh 却 looks like a typo for 切 (tsk)"
+  },
+  {
+   "id": 62,
+   "zh": "诶嘿",
+   "en": "BLUSH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/62"
+  },
+  {
+   "id": 63,
+   "zh": "请",
+   "en": "GO AHEAD",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/63"
+  },
+  {
+   "id": 64,
+   "zh": "谢谢",
+   "en": "CHEERS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/10"
+  },
+  {
+   "id": 65,
+   "zh": "哪",
+   "en": "HEY?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/65"
+  },
+  {
+   "id": 66,
+   "zh": "啥啊",
+   "en": "WHAT’S UP?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/66"
+  },
+  {
+   "id": 67,
+   "zh": "喂",
+   "en": "HELLO?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/92"
+  },
+  {
+   "id": 68,
+   "zh": "不~",
+   "en": "NO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/68"
+  },
+  {
+   "id": 69,
+   "zh": "哎~",
+   "en": "SIGH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/69"
+  },
+  {
+   "id": 70,
+   "zh": "是啊",
+   "en": "YEAH",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/70"
+  },
+  {
+   "id": 71,
+   "zh": "是的",
+   "en": "YEP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/71"
+  },
+  {
+   "id": 72,
+   "zh": "是是",
+   "en": "YEAH, YEAH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/72"
+  },
+  {
+   "id": 73,
+   "zh": "再见",
+   "en": "BYE-BYE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/52"
+  },
+  {
+   "id": 74,
+   "zh": "初次见面",
+   "en": "MEET YOU",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/74"
+  },
+  {
+   "id": 75,
+   "zh": "哈哈哈",
+   "en": "HAHAHA",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/75"
+  },
+  {
+   "id": 76,
+   "zh": "哇~",
+   "en": "AIYEEH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/76"
+  },
+  {
+   "id": 77,
+   "zh": "呀啊",
+   "en": "HIYAH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/77"
+  },
+  {
+   "id": 78,
+   "zh": "嘻嘻嘻",
+   "en": "MUHAHAHA",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/78"
+  },
+  {
+   "id": 79,
+   "zh": "噗噗",
+   "en": "LOL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/79"
+  },
+  {
+   "id": 80,
+   "zh": "嘻嘻",
+   "en": "SNORT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/80"
+  },
+  {
+   "id": 81,
+   "zh": "哦",
+   "en": "HUMPH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/81"
+  },
+  {
+   "id": 82,
+   "zh": "是的",
+   "en": "RIGHT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/82"
+  },
+  {
+   "id": 83,
+   "zh": "嘿嘿嘿嘿",
+   "en": "HE-HE-HE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/83"
+  },
+  {
+   "id": 84,
+   "zh": "嘿嘿",
+   "en": "HEH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/84"
+  },
+  {
+   "id": 85,
+   "zh": "呵呵呵",
+   "en": "HOHOHO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/85"
+  },
+  {
+   "id": 86,
+   "zh": "你看",
+   "en": "THERE YOU GO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/86"
+  },
+  {
+   "id": 87,
+   "zh": "嘛",
+   "en": "OH, DEAR",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/87"
+  },
+  {
+   "id": 88,
+   "zh": "再见",
+   "en": "BYE FOR NOW",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/52"
+  },
+  {
+   "id": 89,
+   "zh": "啊啊~",
+   "en": "ANGRY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/89"
+  },
+  {
+   "id": 90,
+   "zh": "嘿嘿",
+   "en": "MUFUFU",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/84"
+  },
+  {
+   "id": 91,
+   "zh": "呜呜",
+   "en": "MMM",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/19"
+  },
+  {
+   "id": 92,
+   "zh": "你好",
+   "en": "HOWDY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/0 | was HELLO?: renamed so no two words in the Easy Chat picker share the same English (Primo passwords)"
+  },
+  {
+   "id": 93,
+   "zh": "呀",
+   "en": "HI THERE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/93"
+  },
+  {
+   "id": 94,
+   "zh": "我不干",
+   "en": "I WON’T",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/94 | was NO WAY: renamed so no two words in the Easy Chat picker share the same English (Primo passwords)"
+  },
+  {
+   "id": 95,
+   "zh": "呀呼~",
+   "en": "YAHOO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/95"
+  },
+  {
+   "id": 96,
+   "zh": "哟",
+   "en": "YO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/96"
+  },
+  {
+   "id": 97,
+   "zh": "欢迎光临",
+   "en": "COME ON IN",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0287/97 | was WELCOME: renamed so no two words in the Easy Chat picker share the same English (Primo passwords)"
+  },
+  {
+   "id": 98,
+   "zh": "好",
+   "en": "OK",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/98"
+  },
+  {
+   "id": 99,
+   "zh": "请多指教",
+   "en": "REGARDS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/99"
+  },
+  {
+   "id": 100,
+   "zh": "啦啦啦",
+   "en": "LALALA",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/100"
+  },
+  {
+   "id": 101,
+   "zh": "万岁",
+   "en": "YAY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/101"
+  },
+  {
+   "id": 102,
+   "zh": "哇啊",
+   "en": "WAIL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/102"
+  },
+  {
+   "id": 103,
+   "zh": "呜哦",
+   "en": "WOW",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/103"
+  },
+  {
+   "id": 104,
+   "zh": "哇",
+   "en": "BOO!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/104"
+  },
+  {
+   "id": 105,
+   "zh": "哇哈哈哈",
+   "en": "WAHAHA",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0287/105"
+  },
+  {
+   "id": 106,
+   "zh": "⋯⋯",
+   "en": "...",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "as US"
+  }
+ ]
+}

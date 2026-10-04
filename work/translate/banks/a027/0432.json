@@ -1,0 +1,415 @@
+{
+ "narc": "a027",
+ "bank": 432,
+ "source": "work/extract/v4/a027/0432.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "我是培育屋的爷爷。{SCROLL}在这里可以照顾大家的精灵哦。{SCROLL}如果有什么需要的话,{NEWLINE}跟婆婆说就可以了。",
+   "en": "I’m the Day-Care Man.{SCROLL}We look after the precious Pokémon{NEWLINE}of other Trainers.{SCROLL}If you’d like us to raise your{NEWLINE}Pokémon, have a word with my wife.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/0"
+  },
+  {
+   "id": 1,
+   "zh": "嘿！你啊。{SCROLL}放在这里的精灵{NEWLINE}成长得很好⋯⋯什么！{SCROLL}精灵居然带着蛋！{SCROLL}从哪里来的还不知道。{NEWLINE}你的精灵所持有的蛋,{SCROLL}想要吗？{VAR:0200:0}",
+   "en": "Ah, it’s you!{SCROLL}We were raising your Pokémon,{NEWLINE}and my goodness, were we surprised!{SCROLL}Your Pokémon was holding an Egg!{SCROLL}We don’t know how it got there,{NEWLINE}but your Pokémon had it.{SCROLL}You do want it, don’t you? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "嘿,你啊！终于来了。{NEWLINE}{VAR:0100:0}很健康哦。",
+   "en": "Ah, it’s you! Good to see you.{NEWLINE}Your {VAR:0100:0}’s doing just fine.",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "那么我就收下了,{NEWLINE}谢谢。",
+   "en": "Well then, I’ll hang on to it.{NEWLINE}Thanks!",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "带着的精灵已经满了啊⋯⋯{CLEAR}整理一下手头的精灵再来吧。",
+   "en": "You have no room for it right now...{NEWLINE}Come back when you’ve made room.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/4"
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:0103:0}从培育屋的爷爷{NEWLINE}那里得到了蛋！",
+   "en": "{VAR:0103:0} received the Egg from{NEWLINE}the Day-Care Man.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/5"
+  },
+  {
+   "id": 6,
+   "zh": "要好好培育哦！",
+   "en": "You take good care of it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "对了,你的{VAR:0100:0}呢。{SCROLL}好像和{VAR:0103:1}那里的{VAR:0100:2}{NEWLINE}玩得很高兴呢。{SCROLL}而且还收到了信哦。",
+   "en": "Oh, and about your {VAR:0100:0}...{SCROLL}It seems to be having fun playing with{NEWLINE}{VAR:0103:1}’s {VAR:0100:2}.{SCROLL}It even got a letter!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "想取回精灵的时候,{NEWLINE}和婆婆说就可以了。",
+   "en": "If you want your Pokémon back,{NEWLINE}just have a word with my wife.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "噢,你啊！终于来了啊。{SCROLL}{VAR:0100:0}和{NEWLINE}{VAR:0100:1}都很健康哦！{SCROLL}",
+   "en": "Ah, it’s you!{NEWLINE}Good to see you!{SCROLL}Your {VAR:0100:0} and {VAR:0100:1}{NEWLINE}are doing just fine.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "那我收下了。{NEWLINE}其实你是想要的吧？{VAR:0200:0}",
+   "en": "I really will keep it.{NEWLINE}You do want this Egg, yes? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/10"
+  },
+  {
+   "id": 11,
+   "zh": "一定要好好培养啊！{SCROLL}不过居然能发现蛋⋯⋯{SCROLL}哎呀呀,不过搞不好{NEWLINE}还会再发现的！{SCROLL}",
+   "en": "Take good care of it!{SCROLL}That is, I don’t think we’ll ever find{NEWLINE}another...{SCROLL}No, no, I’m sure we’ll find another one.{NEWLINE}I’m definitely sure of it!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/11"
+  },
+  {
+   "id": 12,
+   "zh": "那我就收下了,{NEWLINE}谢谢啦。{SCROLL}不过居然能发现蛋⋯⋯{SCROLL}哎呀呀,不过搞不好{NEWLINE}还会再发现的！{SCROLL}",
+   "en": "Well all right then, I’ll take it.{NEWLINE}Thank you.{SCROLL}That is, I don’t think we’ll ever find{NEWLINE}another...{SCROLL}No, no, I’m sure we’ll find another one.{NEWLINE}I’m definitely sure of it!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/12"
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0103:0}啊⋯⋯{NEWLINE}等你寄存的精灵生蛋之后{CLEAR}我会立刻电话{CLEAR}联系你的,没问题吧？{VAR:0200:0}",
+   "en": "{VAR:0103:0}...{NEWLINE}If we are looking after your Pokémon{CLEAR}and notice one is holding an Egg, would{CLEAR}you like me to contact you by{CLEAR}phone? Would that be all right? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/13"
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}啊⋯⋯{NEWLINE}等你寄存的精灵{CLEAR}生蛋之后{CLEAR}我会立刻电话联系你的,{NEWLINE}没问题吧？{VAR:0200:0}",
+   "en": "{VAR:0103:0}...{NEWLINE}If we are looking after your Pokémon{CLEAR}and notice one is holding an Egg, would{CLEAR}you like me to contact you by{CLEAR}phone? Would that be all right? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/14"
+  },
+  {
+   "id": 15,
+   "zh": "好！{NEWLINE}交给我吧！{SCROLL}你要想培育什么精灵的话{NEWLINE}就去找婆婆吧。",
+   "en": "You can leave it up to us!{SCROLL}Any Pokémon you’d like to have raised{NEWLINE}you can leave in my wife’s care.",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "原来如此,也行。{SCROLL}你要想培育什么精灵的话{NEWLINE}就去找婆婆吧。",
+   "en": "I see. Well, that’s fine.{SCROLL}Any Pokémon you’d like to have raised{NEWLINE}you can leave in my wife’s care.",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "２只精灵都好像不错呢！",
+   "en": "The two seem to get along very well.",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "２只精灵的感情好像很好。",
+   "en": "The two seem to get along.",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "２只精灵的关系好像不太好哦。",
+   "en": "The two don’t seem to like each{NEWLINE}other much.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/19"
+  },
+  {
+   "id": 20,
+   "zh": "２只精灵{NEWLINE}都只自顾自地玩⋯⋯",
+   "en": "The two play with other{NEWLINE}Pokémon rather than with each other...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/20"
+  },
+  {
+   "id": 21,
+   "zh": "我是培育屋的婆婆。{SCROLL}可以帮你们培育{NEWLINE}你们的精灵的哦。{SCROLL}想培育哪个呢？{VAR:0200:0}",
+   "en": "I’m the Day-Care Lady.{NEWLINE}We can raise Pokémon for you.{SCROLL}Would you like us to raise your{NEWLINE}Pokémon? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/21"
+  },
+  {
+   "id": 22,
+   "zh": "要培育哪个？{SCROLL}",
+   "en": "Which Pokémon should we raise for{NEWLINE}you?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/22"
+  },
+  {
+   "id": 23,
+   "zh": "那么,{VAR:0100:0}就暂时{NEWLINE}放我这里了。{SCROLL}过一段时间后再来吧。{SCROLL}",
+   "en": "Fine, we’ll raise your {VAR:0100:0}{NEWLINE}for a while.{SCROLL}Come back for it later.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/23"
+  },
+  {
+   "id": 24,
+   "zh": "可以寄存２只精灵哦,{NEWLINE}还是要寄存１只精灵吗？{VAR:0200:0}",
+   "en": "We can raise two of your Pokémon.{NEWLINE}Would you like us to raise another? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/24"
+  },
+  {
+   "id": 25,
+   "zh": "噢！爷爷在找你呢。",
+   "en": "Ah, there you are!{NEWLINE}My husband was looking for you.",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "是吗,{NEWLINE}那么下次再来吧。",
+   "en": "Oh, fine, then.{NEWLINE}Come again.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/26"
+  },
+  {
+   "id": 27,
+   "zh": "好像钱不够呢⋯⋯",
+   "en": "You don’t have enough money...",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "要取回１只精灵吗？{VAR:0200:0}",
+   "en": "Do you want to take back the other{NEWLINE}one, too? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/28"
+  },
+  {
+   "id": 29,
+   "zh": "那么下次再来吧。",
+   "en": "Very good.{NEWLINE}Come again.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/29"
+  },
+  {
+   "id": 30,
+   "zh": "噢,你啊！终于来了,{NEWLINE}你的精灵很健康哦。{SCROLL}",
+   "en": "Ah, it’s you! Good to see you.{NEWLINE}Your Pokémon is doing just fine.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0100:0}的等级,{NEWLINE}已经提升了{VAR:0133:1}级了。{SCROLL}",
+   "en": "By level, your {VAR:0100:0} has{NEWLINE}grown by about {VAR:0133:1}.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/31"
+  },
+  {
+   "id": 32,
+   "zh": "带着的精灵已经满了啊⋯⋯{CLEAR}整理一下手头的精灵后再来吧。",
+   "en": "Your Pokémon team is full.{NEWLINE}Make room, then come see me.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/32"
+  },
+  {
+   "id": 33,
+   "zh": "要领取{VAR:0100:0}的话,{NEWLINE}需要金钱{VAR:0135:1}¥哦。{VAR:0200:0}",
+   "en": "If you want your {VAR:0100:0} back,{NEWLINE}it will cost ${VAR:0135:1}. {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/33"
+  },
+  {
+   "id": 34,
+   "zh": "谢谢！{NEWLINE}那么,请将精灵带走吧！{SCROLL}",
+   "en": "Excellent!{NEWLINE}Here’s your Pokémon.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/34"
+  },
+  {
+   "id": 35,
+   "zh": "{VAR:0103:1}在培育屋的婆婆那{NEWLINE}接过了{VAR:0100:0}！{SCROLL}",
+   "en": "{VAR:0103:1} took {VAR:0100:0} back{NEWLINE}from the Day-Care Lady.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/35"
+  },
+  {
+   "id": 36,
+   "zh": "嗯？{NEWLINE}精灵好像就剩１只了呢。{SCROLL}要再来哦。",
+   "en": "Oh? But you only have one{NEWLINE}Pokémon with you.{SCROLL}You can’t go off without a Pokémon.{NEWLINE}Come back another time.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/36"
+  },
+  {
+   "id": 37,
+   "zh": "要领取精灵吗？{VAR:0200:0}",
+   "en": "Do you want your Pokémon back? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/37"
+  },
+  {
+   "id": 38,
+   "zh": "寄存那个精灵的话,{NEWLINE}就会变得不能参战了哦。{SCROLL}要再来哦",
+   "en": "If you leave me that Pokémon,{NEWLINE}what are you gonna battle with?{SCROLL}Come back another time.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/38"
+  },
+  {
+   "id": 39,
+   "zh": "嗯？{NEWLINE}你再把那只精灵也寄存的话,{CLEAR}那么就只剩下１只精灵了。{SCROLL}多带些精灵过来比较好哦？",
+   "en": "Huh? Now, now.{SCROLL}If you leave that Pokémon with{NEWLINE}me, you’ll be left with just one.{SCROLL}You will be better off if you catch{NEWLINE}some more, if I do say so myself.",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "哎呀,我说你啊,{NEWLINE}那可是蛋哦！",
+   "en": "Now, now.{NEWLINE}That is merely an Egg!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/40"
+  },
+  {
+   "id": 41,
+   "zh": "那么{VAR:0100:0}就{NEWLINE}暂时放我这里了哦。{SCROLL}过一段时间后再来拿吧。",
+   "en": "Fine, we’ll raise your {VAR:0100:0}{NEWLINE}for a while.{SCROLL}Come back for it later.",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "嗯⋯⋯",
+   "en": "Hmm...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "ＬＶ{VAR:0134:1}",
+   "en": "Lv.{VAR:0134:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0100:0}㊚",
+   "en": "{VAR:0100:0}㊚",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0100:0}㊛",
+   "en": "{VAR:0100:0}㊛",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "{VAR:0100:0}",
+   "en": "{VAR:0100:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "２只精灵都好像不错呢！{SCROLL}",
+   "en": "The two seem to get along very well.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "２只精灵的感情好像很好。{SCROLL}",
+   "en": "The two seem to get along.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "２只精灵的关系好像不太好哦。{SCROLL}",
+   "en": "The two don’t seem to like each{NEWLINE}other much.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/49"
+  },
+  {
+   "id": 50,
+   "zh": "２只精灵{NEWLINE}都只自顾自地玩⋯⋯{SCROLL}",
+   "en": "The two play with other{NEWLINE}Pokémon rather than with each other...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0439/50"
+  }
+ ]
+}

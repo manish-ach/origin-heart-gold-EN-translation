@@ -1,0 +1,907 @@
+{
+ "narc": "a027",
+ "bank": 18,
+ "source": "work/extract/v4/a027/0018.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "要查看什么成绩？{VAR:0200:0}",
+   "en": "Which record would you like to see? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/0"
+  },
+  {
+   "id": 1,
+   "zh": "单人战",
+   "en": "SINGLE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 2,
+   "zh": "双人战",
+   "en": "DOUBLE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 3,
+   "zh": "多人战",
+   "en": "MULTI",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/3",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 4,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/4",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 5,
+   "zh": "返回",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 12 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 6,
+   "zh": "请选择要查看{NEWLINE}哪只精灵的成绩！",
+   "en": "Please choose the Pokémon whose{NEWLINE}record you want to see!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "现在正在{VAR:0100:0}{NEWLINE}挑战中！",
+   "en": "{VAR:0100:0} is currently taking on{NEWLINE}a challenge!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "ア",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R042: kana row header; US HGSS leaves 8–17 blank (A–Z index is at #56–81), so blank.",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 9,
+   "zh": "カ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R042: kana row header; US HGSS leaves 8–17 blank (A–Z index is at #56–81), so blank.",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 10,
+   "zh": "サ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R042: kana row header; US HGSS leaves 8–17 blank (A–Z index is at #56–81), so blank.",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 11,
+   "zh": "タ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R042: kana row header; US HGSS leaves 8–17 blank (A–Z index is at #56–81), so blank.",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 12,
+   "zh": "ナ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R042: kana row header; US HGSS leaves 8–17 blank (A–Z index is at #56–81), so blank.",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 13,
+   "zh": "ハ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R042: kana row header; US HGSS leaves 8–17 blank (A–Z index is at #56–81), so blank.",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 14,
+   "zh": "マ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R042: kana row header; US HGSS leaves 8–17 blank (A–Z index is at #56–81), so blank.",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 15,
+   "zh": "ヤ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R042: kana row header; US HGSS leaves 8–17 blank (A–Z index is at #56–81), so blank.",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 16,
+   "zh": "ラ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R042: kana row header; US HGSS leaves 8–17 blank (A–Z index is at #56–81), so blank.",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 17,
+   "zh": "ワ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R042: kana row header; US HGSS leaves 8–17 blank (A–Z index is at #56–81), so blank.",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 18,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s); other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0100:0}",
+   "en": "{VAR:0100:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "返回",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 12 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 21,
+   "zh": "战斗塔",
+   "en": "Battle Tower",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/21"
+  },
+  {
+   "id": 22,
+   "zh": "战斗工厂",
+   "en": "Battle Factory",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/22"
+  },
+  {
+   "id": 23,
+   "zh": "战斗城堡",
+   "en": "Battle Castle",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/23"
+  },
+  {
+   "id": 24,
+   "zh": "战斗舞台",
+   "en": "Battle Hall",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/24"
+  },
+  {
+   "id": 25,
+   "zh": "战斗轮盘",
+   "en": "Battle Arcade",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/25"
+  },
+  {
+   "id": 26,
+   "zh": "单人战成绩",
+   "en": "Single Record",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/26"
+  },
+  {
+   "id": 27,
+   "zh": "双人战成绩",
+   "en": "Double Record",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/27"
+  },
+  {
+   "id": 28,
+   "zh": "多人战成绩",
+   "en": "Multi Record",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/28"
+  },
+  {
+   "id": 29,
+   "zh": "上次",
+   "en": "PREV",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/29"
+  },
+  {
+   "id": 30,
+   "zh": "现在",
+   "en": "CURRENT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0135:0}",
+   "en": "{VAR:0135:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "连胜",
+   "en": "Streak",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0135:0}",
+   "en": "{VAR:0135:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "次",
+   "en": "times",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "连胜",
+   "en": "Streak",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "{VAR:0135:0}",
+   "en": "{VAR:0135:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "ＣＰ",
+   "en": "CP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "游戏过关",
+   "en": "Cleared",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "返回",
+   "en": "RETURN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/39"
+  },
+  {
+   "id": 40,
+   "zh": "{VAR:0132:0}",
+   "en": "{VAR:0132:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "／",
+   "en": "/",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "请选择要查看成绩的{NEWLINE}精灵{VAR:0200:0}。",
+   "en": "View Records{NEWLINE}Please select a Pokémon. {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/42"
+  },
+  {
+   "id": 43,
+   "zh": "最好",
+   "en": "BEST",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "和训练师进行多人战",
+   "en": "Multi with Trainer",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "和朋友进行多人战",
+   "en": "Multi with friend",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "等级５０",
+   "en": "Level 50",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/46"
+  },
+  {
+   "id": 47,
+   "zh": "无限制",
+   "en": "Open Level",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/47"
+  },
+  {
+   "id": 48,
+   "zh": "训练师／交换",
+   "en": "Trainer/Trade",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 训练师／交换 (Trainer/Trade) read as the Factory Rental/Trade label (US 0019/48).; ext-review RCA-003"
+  },
+  {
+   "id": 49,
+   "zh": "城堡点数",
+   "en": "Castle Points",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/49"
+  },
+  {
+   "id": 50,
+   "zh": "{VAR:0135:0}连胜",
+   "en": "Win streak: {VAR:0135:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/50"
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0100:0}的记录",
+   "en": "{VAR:0100:0}’s record",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/51"
+  },
+  {
+   "id": 52,
+   "zh": "{VAR:0135:0}次",
+   "en": "{VAR:0135:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US shows the bare number here."
+  },
+  {
+   "id": 53,
+   "zh": "{VAR:0135:0}ＣＰ",
+   "en": "{VAR:0135:0} CP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "{VAR:0135:0}连胜",
+   "en": "Win streak: {VAR:0135:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/54"
+  },
+  {
+   "id": 55,
+   "zh": "{VAR:0135:0}游戏过关",
+   "en": "Games cleared: {VAR:0135:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0019/55"
+  },
+  {
+   "id": 56,
+   "zh": "ア",
+   "en": "A",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 57,
+   "zh": "イ",
+   "en": "B",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 58,
+   "zh": "ウ",
+   "en": "C",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 59,
+   "zh": "エ",
+   "en": "D",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 60,
+   "zh": "オ",
+   "en": "E",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 61,
+   "zh": "カ",
+   "en": "F",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 62,
+   "zh": "キ",
+   "en": "G",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 63,
+   "zh": "ク",
+   "en": "H",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 64,
+   "zh": "ケ",
+   "en": "I",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 65,
+   "zh": "コ",
+   "en": "J",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 66,
+   "zh": "サ",
+   "en": "K",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 67,
+   "zh": "シ",
+   "en": "L",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 68,
+   "zh": "ス",
+   "en": "M",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 69,
+   "zh": "セ",
+   "en": "N",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 70,
+   "zh": "ソ",
+   "en": "O",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 71,
+   "zh": "タ",
+   "en": "P",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 72,
+   "zh": "チ",
+   "en": "Q",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 73,
+   "zh": "ツ",
+   "en": "R",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 74,
+   "zh": "テ",
+   "en": "S",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 75,
+   "zh": "ト",
+   "en": "T",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 76,
+   "zh": "ナ",
+   "en": "U",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 77,
+   "zh": "ニ",
+   "en": "V",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 78,
+   "zh": "ヌ",
+   "en": "W",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 79,
+   "zh": "ネ",
+   "en": "X",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 80,
+   "zh": "ノ",
+   "en": "Y",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 81,
+   "zh": "ハ",
+   "en": "Z",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: kana index letter; US HGSS puts the A–Z index here (see R042 note on #8–17)"
+  },
+  {
+   "id": 82,
+   "zh": "ヒ",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 83,
+   "zh": "フ",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 84,
+   "zh": "ヘ",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 85,
+   "zh": "ホ",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 86,
+   "zh": "マ",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 87,
+   "zh": "ミ",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 88,
+   "zh": "ム",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 89,
+   "zh": "メ",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 90,
+   "zh": "モ",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 91,
+   "zh": "ヤ",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 92,
+   "zh": "ユ",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 93,
+   "zh": "ヨ",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 94,
+   "zh": "ラ",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 95,
+   "zh": "リ",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 96,
+   "zh": "ル",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 97,
+   "zh": "レ",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 98,
+   "zh": "ロ",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 99,
+   "zh": "ワ",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "sweep: kana index slot; US HGSS leaves it blank",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 100,
+   "zh": "ー",
+   "en": " ",
+   "status": "draft",
+   "origin": "us",
+   "notes": "sweep: as US (a single space)",
+   "qa_ignore": [
+    "empty",
+    "whitespace"
+   ]
+  }
+ ]
+}

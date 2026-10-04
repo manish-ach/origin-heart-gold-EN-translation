@@ -1,0 +1,818 @@
+{
+ "narc": "a027",
+ "bank": 345,
+ "source": "work/extract/v4/a027/0345.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "这里是１５号道路{NEWLINE}北　紫苑镇",
+   "en": "Rt. 15{NEWLINE}North to Lavender Town",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0352/0",
+   "category": "sign"
+  },
+  {
+   "id": 1,
+   "zh": "你好,这里正在准备举行{NEWLINE}口袋妖怪对战马拉松比赛,{CLEAR}现在禁止通过。",
+   "en": "Hello! We’re getting ready for the{NEWLINE}Pokémon battle marathon, so this road{CLEAR}is closed for now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "这里即将举行{NEWLINE}口袋妖怪对战马拉松比赛,{CLEAR}现在还剩最后一个参赛名额了,{CLEAR}您要报名参加吗？{SCROLL}",
+   "en": "The Pokémon battle marathon is about{NEWLINE}to begin, and there’s just one entry{CLEAR}spot left. Would you like to sign up?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "那真是太遗憾了……",
+   "en": "Oh, what a shame...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "口袋妖怪对战马拉松{NEWLINE}只准携带一只精灵参加,{CLEAR}请您将队伍整理一下再来报名。",
+   "en": "Only one Pokémon may take part in the{NEWLINE}Pokémon battle marathon. Please sort{CLEAR}out your party, then come back to sign{CLEAR}up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "欢迎您报名参赛,{NEWLINE}请问你的名字是……",
+   "en": "Thank you for entering! May I have your{NEWLINE}name, please...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "富子『太好了{VAR:0103:0},{NEWLINE}我还担心你不来了呢！",
+   "en": "Lara: Yay, {VAR:0103:0}! I was worried you{NEWLINE}weren’t coming!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0103:0}『我是来自真新镇的{VAR:0103:0}。",
+   "en": "{VAR:0103:0}: I’m {VAR:0103:0}, from Pallet Town.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0351#34"
+  },
+  {
+   "id": 8,
+   "zh": "你好,{VAR:0103:0}选手,{NEWLINE}比赛马上就要开始了,{CLEAR}请跟我来吧！",
+   "en": "Hello, contestant {VAR:0103:0}! The race is{NEWLINE}about to start. Please follow me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0103:0}『这么好的锻炼机会{NEWLINE}我怎么能错过呢。",
+   "en": "{VAR:0103:0}: How could I pass up such a{NEWLINE}great chance to train?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "player reply variants #9 / #11; #53 / #54"
+  },
+  {
+   "id": 10,
+   "zh": "富子『{VAR:0103:0}！加油呀！",
+   "en": "Lara: {VAR:0103:0}! Good luck!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0103:0}『嘿嘿,这么好玩的比赛{NEWLINE}我怎么能错过呢。",
+   "en": "{VAR:0103:0}: Heh heh. How could I miss a{NEWLINE}race this fun?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "你好,我们正在为{NEWLINE}口袋妖怪对战马拉松比赛做准备,{CLEAR}您如果想报名参赛的话请稍后再来。{SCROLL}您可以先去浅红市附近逛逛,{NEWLINE}打发下时间。",
+   "en": "Hello! We’re preparing for the Pokémon{NEWLINE}battle marathon. If you’d like to{CLEAR}enter, please come back a bit later.{SCROLL}In the meantime, why not look around{NEWLINE}Fuchsia City?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0103:0}选手,{NEWLINE}请站到选手队列里面去,{CLEAR}我现在要开始讲解规则了。",
+   "en": "Contestant {VAR:0103:0}, please join the{NEWLINE}line of contestants. I’m about to{CLEAR}explain the rules.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "各位选手们！欢迎大家来参加{NEWLINE}我们的口袋妖怪对战马拉松比赛。{CLEAR}我是本次比赛的引导员之一。{SCROLL}本次对战马拉松一共分为4个阶段。{NEWLINE}第一阶段的挑战是{CLEAR}所有选手进入草丛,{CLEAR}完成与2只野生精灵的战斗。{CLEAR}先完成者可以向东出发{CLEAR}进行第二阶段的挑战。",
+   "en": "Contestants! Welcome, everyone, to our{NEWLINE}Pokémon battle marathon! I’m one of{CLEAR}the race guides.{SCROLL}This battle marathon has four stages.{NEWLINE}In Stage 1, all contestants enter the{CLEAR}tall grass and battle two wild Pokémon.{CLEAR}Whoever finishes first may head east to{CLEAR}take on Stage 2.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "那么第一阶段的比赛,{NEWLINE}现在开始！",
+   "en": "And so Stage 1 of the race... begins{NEWLINE}now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0103:0}『我已经击败两只野生精灵了。",
+   "en": "{VAR:0103:0}: I’ve beaten two wild Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "恭喜你第一个通过第一阶段,{NEWLINE}请继续前进吧,{CLEAR}前方的引导员会向你说明{CLEAR}第二阶段的比赛规则。",
+   "en": "Congratulations on being the first to{NEWLINE}clear Stage 1! Please keep going. The{CLEAR}guide up ahead will explain the rules for{CLEAR}Stage 2.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "欢迎进入第二阶段的比赛,{NEWLINE}在第二阶段我们安排了4位训练家{CLEAR}作为选手前进路上的阻碍,{CLEAR}您只有按顺序将这四位训练家击败,{CLEAR}才能进入第三阶段。{SCROLL}请您跨过前方的台阶,{NEWLINE}开始第二阶段的比赛吧！",
+   "en": "Welcome to Stage 2! We’ve placed four{NEWLINE}Trainers along the way as obstacles.{CLEAR}Only by defeating all four, in order, can{CLEAR}you move on to Stage 3.{SCROLL}Please climb the steps ahead and begin{NEWLINE}Stage 2!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "这一段路还有没挑战的对手,{NEWLINE}挑战完后再前进吧！",
+   "en": "There are still opponents on this{NEWLINE}stretch you haven’t challenged. Beat{CLEAR}them before moving on!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "哈哈,你是今天第一位{NEWLINE}走到这里的挑战者！",
+   "en": "Ha ha! You’re the first challenger to{NEWLINE}make it here today!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "嗯……居然可以击败{NEWLINE}我这强大的岩石系精灵,{CLEAR}你一定经历过不少磨炼吧！",
+   "en": "Hmm... To beat my mighty Rock-type{NEWLINE}Pokémon, you must have been through{CLEAR}some serious training!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "引导员应该跟你说明规则了吧？{NEWLINE}挑战是要按顺序来的。{CLEAR}你要先打倒我旁边的登山男{CLEAR}才能向我挑战。",
+   "en": "The guide explained the rules, right?{NEWLINE}You have to take on the challenges in{CLEAR}order. Beat the Hiker next to me first,{CLEAR}then you can challenge me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "吐火艺人是一个危险的职业,{NEWLINE}比精灵训练家还要危险！",
+   "en": "Fire-breathing performer is a dangerous{NEWLINE}job. More dangerous than being a{CLEAR}Pokémon Trainer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "就是因为吐火太危险了,{NEWLINE}所以我现在决定转行当精灵训练家了。",
+   "en": "Fire breathing is just too dangerous,{NEWLINE}so I’ve decided to switch careers and{CLEAR}become a Pokémon Trainer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "来一场拳拳到肉的精灵对战吧。",
+   "en": "Let’s have a Pokémon battle where{NEWLINE}every punch lands!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "输给你让我感觉肉疼。",
+   "en": "Losing to you really stings.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "你闻到我身上的花香了吗？",
+   "en": "Can you smell my floral perfume?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "我用的香水是从彩虹百货买的,{NEWLINE}真的特别好闻呢！",
+   "en": "I bought my perfume at the Celadon{NEWLINE}Dept. Store. It smells really lovely!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "引导员应该跟你说明规则了吧？{NEWLINE}挑战是要按顺序来的。{CLEAR}你要先打倒我旁边的人{CLEAR}才能向我挑战。",
+   "en": "The guide explained the rules, right?{NEWLINE}You have to take on the challenges in{CLEAR}order. Beat the person next to me{CLEAR}first, then you can challenge me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "这边这边！{NEWLINE}请到这里来！",
+   "en": "Over here, over here! This way, please!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "我是你们第二阶段的最后一名对手,{NEWLINE}实力比刚刚的四个人都要强,{CLEAR}你可以选择在这里向我挑战,{CLEAR}也可以选择跳过我直接进入第三阶段。{CLEAR}怎么样,要向我挑战吗？{SCROLL}",
+   "en": "I’m your last opponent in Stage 2, and{NEWLINE}I’m stronger than the four before me.{CLEAR}You may challenge me here, or skip me{CLEAR}and go straight on to Stage 3.{SCROLL}So, will you challenge me?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "choice: skip (#32) / challenge (#33, #34 heal reward)"
+  },
+  {
+   "id": 32,
+   "zh": "好的,尊重您的选择。{SCROLL}那么恭喜您通过第二阶段的比赛,{NEWLINE}请到前面去听取{CLEAR}关于第三阶段的规则讲解吧！",
+   "en": "Very well, I respect your choice.{SCROLL}Congratulations on clearing Stage 2!{NEWLINE}Please go ahead and hear the rules for{CLEAR}Stage 3.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "非常有勇气的决定！{NEWLINE}相信您不会后悔选择与我对战。",
+   "en": "A very brave decision! I’m sure you{NEWLINE}won’t regret battling me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "真是漂亮的对战。{NEWLINE}在经过前面那么激烈的对战后{CLEAR}还能义无反顾地选择与我战斗{CLEAR}并最终取得胜利。{SCROLL}你的这份勇气与实力值得奖励,{NEWLINE}我现在就为你的精灵恢复体力。",
+   "en": "What a beautiful battle. After all those{NEWLINE}fierce fights, you still chose to take me{CLEAR}on without hesitation, and you won.{SCROLL}Such courage and skill deserve a{NEWLINE}reward. I’ll restore your Pokémon’s{CLEAR}health right now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "对战马拉松的比赛到这里已经过半,{NEWLINE}再往前走就是第三阶段的比赛了。{CLEAR}前面的引导员会为您讲解{CLEAR}第三阶段的比赛规则,{CLEAR}请继续加油前进吧！",
+   "en": "We’re past the halfway point of the{NEWLINE}battle marathon. Further on is Stage 3.{CLEAR}The guide there will explain the rules{CLEAR}for Stage 3. Keep it up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "您可真是厉害！{NEWLINE}居然能以远超其他选手的速度{CLEAR}完成前两个阶段的比赛。{SCROLL}请您先到东边稍等,{NEWLINE}等所有选手到齐后{CLEAR}我就开始讲解第三阶段的比赛规则。",
+   "en": "You’re amazing! You cleared the first{NEWLINE}two stages far faster than the other{CLEAR}contestants.{SCROLL}Please wait a moment to the east. Once{NEWLINE}all the contestants are here, I’ll{CLEAR}explain the rules for Stage 3.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "恭喜诸位来到比赛的第三阶段,{NEWLINE}本阶段的比赛内容是将6位选手{CLEAR}按照到达这里的顺序分成三组对战。{SCROLL}这3组分别是：{NEWLINE}第1名{VAR:0103:0}对第6名加代,{CLEAR}第2名嘟利夫对第5名杰克,{CLEAR}第3名富子对第4名无桑。{CLEAR}每组对战的胜利者{CLEAR}将会进入14号路的第三阶段比赛。{SCROLL}现在请各位选手找准自己的对手……",
+   "en": "Congratulations on reaching Stage 3!{NEWLINE}In this stage, the six contestants{CLEAR}are split into three pairs, based on{CLEAR}the order you arrived, and battle{CLEAR}each other.{SCROLL}The three pairs are: 1st place {VAR:0103:0}{NEWLINE}vs. 6th place Kay, 2nd place Dudley vs.{CLEAR}5th place Jack, and 3rd place Lara vs.{CLEAR}4th place Jessa. The winner of each{CLEAR}battle goes on to Stage 3 on Route 14.{SCROLL}Now, everyone, find your opponent...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (We are already in Stage 3, yet the winners go on to \"Stage 3\" on Route 14 (#39 says the last stage)); logged in hack_findings_import.jsonl | [D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 38,
+   "zh": "好,现在对战开始！",
+   "en": "All right, let the battles begin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "三组比赛现在都结束了。{NEWLINE}我现在宣布比赛的胜者是：{CLEAR}{VAR:0103:0}选手、{CLEAR}嘟利夫选手、{CLEAR}富子选手！{SCROLL}恭喜三位了,{NEWLINE}你们现在可以走下东边的台阶{CLEAR}找那里的护士小姐恢复一下精灵体力,{CLEAR}然后去14号路{CLEAR}参加最后一个阶段的比赛。",
+   "en": "All three battles are over. The winners{NEWLINE}are: contestant {VAR:0103:0}, contestant{CLEAR}Dudley, and contestant Lara!{SCROLL}Congratulations, all three of you! You{NEWLINE}may now go down the steps to the east,{CLEAR}have the nurse there restore your{CLEAR}Pokémon, and head to Route 14 for the{CLEAR}final stage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 40,
+   "zh": "可恶啊,这个臭丫头{NEWLINE}居然敢坏我的好事！",
+   "en": "Grr! That little brat has the nerve to{NEWLINE}ruin my plans!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "您好,您现在可以向东走下台阶,{NEWLINE}去14号路参加最后的比赛了。",
+   "en": "Hello! You may now head east down the{NEWLINE}steps to Route 14 for the final race.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "通过对战我就能感觉出来,{NEWLINE}你真的非常厉害的训练家！{CLEAR}能跟你这么强的人战斗,{CLEAR}我就很满足了。",
+   "en": "I could feel it in our battle. You really{NEWLINE}are an amazing Trainer! Just getting to{CLEAR}battle someone this strong is enough{CLEAR}for me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "我的雷电球虽然滚得很快,{NEWLINE}但是有时候不太听使唤。{CLEAR}看来跟别人交换来的精灵{CLEAR}还是不如自己培育的靠谱啊。",
+   "en": "My Voltorb rolls really fast, but{NEWLINE}sometimes it just won’t listen. I guess{CLEAR}a traded Pokémon isn’t as reliable as{CLEAR}one you raised yourself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "本来想通过这次比赛赚点钱的,{NEWLINE}结果却输给了那个黄毛丫头！{CLEAR}哼,坏我好事的人可不会有好下场。",
+   "en": "I was hoping to make some money off this{NEWLINE}race, and then I lost to that little{CLEAR}brat! Hmph. Whoever ruins my plans is{CLEAR}going to regret it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "还是快去14号路,{NEWLINE}参加最后阶段的比赛吧！",
+   "en": "Hurry to Route 14 for the final stage!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "您好,需要我为您的精灵恢复体力吗？",
+   "en": "Hello! Would you like me to restore your{NEWLINE}Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "祝您比赛顺利。",
+   "en": "Good luck in the race!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "已经恢复好了,祝您比赛顺利。",
+   "en": "All better! Good luck in the race.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "我正准备战斗呢,别打扰我好吗？",
+   "en": "I’m getting ready to battle. Could you{NEWLINE}not bother me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "嘟嘟利『Dodo——ri！",
+   "en": "Dodrio: Dodo-ri!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "然后这是战胜我的奖品,请收好。",
+   "en": "And here’s your prize for beating me.{NEWLINE}Please take it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "富子『你跑得好快啊{VAR:0103:0},{NEWLINE}我都完全追不上你。",
+   "en": "Lara: You’re so fast, {VAR:0103:0}! I{NEWLINE}couldn’t keep up with you at all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 53,
+   "zh": "{VAR:0103:0}『嘿嘿,今天发挥比较好。",
+   "en": "{VAR:0103:0}: Heh heh. I’m on a roll today.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "{VAR:0103:0}『嘿嘿,我可是很强的。",
+   "en": "{VAR:0103:0}: Heh heh. I’m pretty strong,{NEWLINE}you know.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "富子『{VAR:0103:0},好不容易走到这里,{NEWLINE}最后一个阶段的比赛也要加油哦！",
+   "en": "Lara: {VAR:0103:0}, we’ve come all this way.{NEWLINE}Give the last stage your all too, okay?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 56,
+   "zh": "有一只精灵跟在自己身后不离不弃,{NEWLINE}这感觉很棒吧？{CLEAR}如果你能偶尔回头跟它说说话,{CLEAR}就能感受到它的情绪哦。",
+   "en": "Having a Pokémon follow right behind{NEWLINE}you, sticking by your side, feels great,{CLEAR}doesn’t it? If you turn around and talk{CLEAR}to it now and then, you can feel what{CLEAR}it’s feeling.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "对战马拉松比赛结束之后,{NEWLINE}我又顺道看了场街头魔术表演。{CLEAR}表演是挺精彩的,{CLEAR}但是看完之后总感觉哪里空空的,{CLEAR}到底是哪里呢……",
+   "en": "After the battle marathon, I stopped{NEWLINE}to watch a street magic show. The show{CLEAR}was great, but afterward I felt like{CLEAR}something was empty. What could it{CLEAR}be...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "原来我钱包里的钱都不见了,{NEWLINE}所以才会有那种空空的感觉啊。",
+   "en": "Turns out all the money in my wallet was{NEWLINE}gone. No wonder I felt so empty!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "蛋蛋『Exeee——egg！",
+   "en": "Exeggcute: Exeee-egg!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "我的精灵最近学会了一招{NEWLINE}名为魔法闪耀的技能,{CLEAR}用这招参加对战马拉松的话{CLEAR}一定能取得好成绩。{SCROLL}你的精灵如果想学的话,{NEWLINE}只要给我一个月亮球,{CLEAR}我就可以教它哟。{CLEAR}怎么样,要让精灵学习魔法闪耀吗？",
+   "en": "My Pokémon recently learned a move{NEWLINE}called Dazzling Gleam. With that move,{CLEAR}it’s bound to do well in the battle{CLEAR}marathon.{SCROLL}If your Pokémon wants to learn it, just{NEWLINE}give me a Moon Ball and I’ll teach it.{CLEAR}So, how about it? Want your Pokémon to{CLEAR}learn Dazzling Gleam?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "我叫马健,{NEWLINE}是一个到处流浪的魔术师。{CLEAR}你愿意看一下我的魔术表演吗？",
+   "en": "My name is Mack. I’m a wandering{NEWLINE}magician. Would you like to watch my{CLEAR}magic show?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "好的,那么请您注意我手中的怀表……",
+   "en": "Very well. Then please keep your eyes{NEWLINE}on the pocket watch in my hand...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "一……",
+   "en": "One...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "二……",
+   "en": "Two...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "三！",
+   "en": "Three!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "我的魔术表演完了,谢谢您的观赏。",
+   "en": "And that concludes my magic show. Thank{NEWLINE}you for watching.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "很棒的魔术表演,我很喜欢。",
+   "en": "Great magic show! I loved it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu: #67 praise / #68 accuse (→ #72–#77) / #70 unimpressed (→ #71)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 68,
+   "zh": "哪有什么魔术表演,你用催眠术骗谁呢。",
+   "en": "What magic show? You hypnotized me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "谢谢您的夸奖,{NEWLINE}欢迎您以后常来观看。",
+   "en": "Thank you for the kind words. Please{NEWLINE}come watch again anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "好像也没什么表演啊……",
+   "en": "There wasn’t much of a show...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 71,
+   "zh": "对不起,让您觉得无聊了。{NEWLINE}其实我是个很差劲的魔术师,{CLEAR}也正因为如此才被马戏团赶出来流浪。{SCROLL}您如果觉得我的表演不好{NEWLINE}还望您多多包涵。",
+   "en": "I’m sorry I bored you. Truth is, I’m a{NEWLINE}lousy magician. That’s why the circus{CLEAR}kicked me out and I ended up wandering.{SCROLL}If you didn’t like my show, please{NEWLINE}forgive me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "{VAR:0103:0}『不对,我记得有人说{NEWLINE}看完你的魔术后就感觉哪里空空的。{CLEAR}我刚刚看了一下钱包,{CLEAR}发现钱包变空了！{SCROLL}{VAR:0103:0}『你刚刚是用了催眠术,{NEWLINE}然后偷拿走我的钱了吧！",
+   "en": "{VAR:0103:0}: No. I remember someone saying{NEWLINE}they felt empty after watching your{CLEAR}show. I just checked my wallet, and it’s{CLEAR}empty!{SCROLL}{VAR:0103:0}: You hypnotized me and stole my{NEWLINE}money, didn’t you?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "好高的警觉性和观察力啊,{NEWLINE}一般的训练家可没有你这水准。{CLEAR}既然你知道了真相,{CLEAR}那就只能让蛋蛋再催眠你一次,{CLEAR}帮你忘掉这些不愉快的回忆了。",
+   "en": "What sharp instincts and keen eyes!{NEWLINE}Your average Trainer is nowhere near{CLEAR}your level. Well, since you know the{CLEAR}truth, I’ll just have Exeggcute{CLEAR}hypnotize you again and help you forget{CLEAR}this unpleasant memory.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "对不起,对不起,我有眼不识泰山,{NEWLINE}请您不要再打我的蛋蛋了。{CLEAR}我们两个被马戏团赶出来后{CLEAR}就一路相依为命至此,{CLEAR}利用蛋蛋做坏事是我不对,{CLEAR}拜托您不要再打它了。",
+   "en": "I’m sorry, I’m sorry! I didn’t realize{NEWLINE}who I was dealing with! Please stop{CLEAR}beating my eggs! My Exeggcute and I{CLEAR}have stuck together ever since the{CLEAR}circus threw us out. Using Exeggcute{CLEAR}for crime was my fault. Please don’t hit{CLEAR}it anymore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "蛋蛋 = Exeggcute and slang for ‘balls’; the zh double meaning is kept lightly with ‘beating my eggs’."
+  },
+  {
+   "id": 75,
+   "zh": "{VAR:0103:0}『你既然知道错了,{NEWLINE}就别再用这种方式偷钱了！",
+   "en": "{VAR:0103:0}: If you know you were wrong,{NEWLINE}stop stealing money like that!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "{VAR:0103:0}『你以后给我老实点,{NEWLINE}听到了吗！",
+   "en": "{VAR:0103:0}: Behave yourself from now on,{NEWLINE}you hear me?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "是,是,知道了。{NEWLINE}我不该鬼迷心窍用催眠术偷钱。{CLEAR}我现在把钱还您。{SCROLL}作为赔礼道歉,{NEWLINE}这个技能机也送给您。",
+   "en": "Yes, yes, I understand. I shouldn’t{NEWLINE}have let greed get the better of me and{CLEAR}used hypnosis to steal. I’ll give your{CLEAR}money back right now.{SCROLL}And to make amends, please take this TM{NEWLINE}too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "您放心,我以后学点正经魔术,{NEWLINE}靠真正的表演赚钱。",
+   "en": "Don’t worry. I’ll learn some honest{NEWLINE}magic and earn my living with real shows.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "对战马拉松已经结束了,{NEWLINE}但是我对对战的热情却从未减退！",
+   "en": "The battle marathon may be over, but{NEWLINE}my passion for battling hasn’t cooled{CLEAR}one bit!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "果然比起在实验室刷试管,{NEWLINE}我还是更喜欢这种畅快的运动！",
+   "en": "Turns out I like this kind of{NEWLINE}exhilarating exercise way more than{CLEAR}scrubbing test tubes in the lab!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "您放心,我以后学点正经魔术,{NEWLINE}靠真正的表演赚钱。",
+   "en": "Don’t worry. I’ll learn some honest{NEWLINE}magic and earn my living with real shows.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "retranslated from zh; was: v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 83,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it, come find me{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "retranslated from zh; was: v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 84,
+   "zh": "你并没有月亮球啊,{NEWLINE}等有球了再来找我吧。",
+   "en": "You don’t have a Moon Ball. Come back{NEWLINE}when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) reused a027/0464#45"
+  },
+  {
+   "id": 85,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住魔法闪耀。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn{NEWLINE}Dazzling Gleam.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "retranslated from zh; was: v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 87,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会魔法闪耀了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Dazzling{NEWLINE}Gleam!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl) reused a027/0047#141"
+  },
+  {
+   "id": 89,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it, come find me{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl) reused a027/0047#142"
+  },
+  {
+   "id": 90,
+   "zh": "你并没有月亮球啊,{NEWLINE}等有球了再来找我吧。",
+   "en": "You don’t have a Moon Ball. Come back{NEWLINE}when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) reused a027/0464#45"
+  },
+  {
+   "id": 91,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住魔法闪耀。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn{NEWLINE}Dazzling Gleam.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl) reused a027/0047#145"
+  },
+  {
+   "id": 93,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会魔法闪耀了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Dazzling{NEWLINE}Gleam!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl) reused a027/0047#147"
+  },
+  {
+   "id": 95,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl) reused a027/0047#152"
+  },
+  {
+   "id": 96,
+   "zh": "{VAR:0101:0}学会了魔法闪耀！",
+   "en": "{VAR:0101:0} learned Dazzling Gleam!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会魔法闪耀了！{SCROLL}那么按照约定,{NEWLINE}1个月亮球我拿走了。",
+   "en": "There! Your {VAR:0100:0} has learned{NEWLINE}Dazzling Gleam!{SCROLL}As we agreed, I’ll take one Moon Ball.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "你是要放弃{NEWLINE}让它记住魔法闪耀吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Dazzling Gleam?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的魔法闪耀……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习魔法闪耀{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Dazzling{NEWLINE}Gleam...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn{NEWLINE}Dazzling Gleam?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl) reused a027/0047#151"
+  }
+ ]
+}

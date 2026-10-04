@@ -1,0 +1,51 @@
+---
+title: Origin HeartGold Guide
+description: An English player's guide to Origin HeartGold (起源心金) v4.0.3 — side quests, Pokédex, locations, items and trainers, read from the game's own data.
+template: splash
+editUrl: false
+hero:
+  tagline: Side quests, Pokémon, items and trainers in Origin HeartGold (起源心金) v4.0.3, read from the game's own data and written for players.
+  actions:
+    - text: Start the quest guide
+      link: guide/
+      icon: right-arrow
+    - text: Patch your game
+      link: patch/
+      icon: download
+      variant: secondary
+    - text: Find a Pokémon
+      link: pokemon/
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+<CardGrid>
+	<Card title="Quest guide" icon="open-book">
+		Over 350 side quests, puzzles and easy-to-miss events, chapter by chapter in rough play order.
+		Pick your starter and whether you play as a boy or a girl, and quests your game can't get are hidden.
+	</Card>
+	<Card title="Pokédex" icon="magnifier">
+		Each species with the hack's own types, abilities, base stats, evolutions, level-up moves, TMs, tutors, egg moves and the places we found it in the game data.
+	</Card>
+	<Card title="Locations" icon="seti:folder">
+		Each place on one page: its quests, wild Pokémon by time of day and method, trainers with full teams, items and shops.
+	</Card>
+	<Card title="Read from the game" icon="rocket">
+		The Pokédex, locations, items and trainers are generated from the game's data, with the English patch's names. Some details still need in-game confirmation. Spot a mistake? Every page has a "Report a problem" link.
+	</Card>
+</CardGrid>
+
+## Jump in
+
+<CardGrid>
+	<LinkCard title="Mechanics and controls" href="mechanics/" description="EXP sharing, capture chains, EV training and the hack’s information screens." />
+	<LinkCard title="Calendar encounters" href="calendar/" description="Annual encounter dates and the entries that still need verification." />
+	<LinkCard title="New here?" href="about/" description="What you need to play, how to read the guide, and credits." />
+	<LinkCard title="Save editor" href="save-editor/" description="Edit your party, money and bag locally, then download a separate save copy." />
+	<LinkCard title="Patch your game" href="patch/" description="Drop in your own HeartGold (USA) .nds or .zip and get the English game back, right in your browser." />
+	<LinkCard title="Stuck on the stolen Gloom?" href="guide/vermilion-to-celadon/#celadon-city-the-stolen-gloom-story-chain-easy-to-get-stuck" description="Step-by-step directions for the Celadon story chain." />
+	<LinkCard title="Gym Leaders and bosses" href="trainers/" description="Full teams for Gym Leaders, rivals and other key battles." />
+	<LinkCard title="Where is that item?" href="items/" description="Item balls, hidden items, gifts and shops." />
+	<LinkCard title="Move tutors" href="tutors/" description="Who teaches what, where, and for what price." />
+</CardGrid>

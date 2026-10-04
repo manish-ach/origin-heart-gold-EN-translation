@@ -1,0 +1,1895 @@
+{
+ "narc": "a027",
+ "bank": 152,
+ "source": "work/extract/v4/a027/0152.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "自己１",
+   "en": "Player’s side 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/0 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 1,
+   "zh": "自己２",
+   "en": "Player’s side 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/1 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 2,
+   "zh": "对手１",
+   "en": "Opponent 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/2 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 3,
+   "zh": "对手２",
+   "en": "Opponent 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/3 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 4,
+   "zh": "种类",
+   "en": "Class",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/4 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 5,
+   "zh": "级别",
+   "en": "Level",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/5 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 6,
+   "zh": "经验值",
+   "en": "Exp. Points",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/6 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 7,
+   "zh": "ＩＤＮｏ",
+   "en": "ID No.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 8,
+   "zh": "个体乱数",
+   "en": "Random value",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/8 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 9,
+   "zh": "性别",
+   "en": "Gender",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/9 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 10,
+   "zh": "性格",
+   "en": "Nature",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/10 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 11,
+   "zh": "普通",
+   "en": "Normal",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/11 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 12,
+   "zh": "稀有",
+   "en": "Rare",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/12 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 13,
+   "zh": "状态",
+   "en": "Status",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/13 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 14,
+   "zh": "亲密度",
+   "en": "Friendliness",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/14 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 15,
+   "zh": "病毒",
+   "en": "Pokérus",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/15 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 16,
+   "zh": "技能１",
+   "en": "Move 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/16 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 17,
+   "zh": "技能２",
+   "en": "Move 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/17 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 18,
+   "zh": "技能３",
+   "en": "Move 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/18 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 19,
+   "zh": "技能４",
+   "en": "Move 4",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/19 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 20,
+   "zh": "道具",
+   "en": "Item",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/20 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 21,
+   "zh": "特性",
+   "en": "Ability",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0154/21 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 22,
+   "zh": "设置",
+   "en": "Set",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/22 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 23,
+   "zh": "初期ＨＰ",
+   "en": "Default HP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/23 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 24,
+   "zh": "ＨＰｒｎｄ",
+   "en": "HPrnd",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 25,
+   "zh": "ＨＰｅｘｐ",
+   "en": "HPexp",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 26,
+   "zh": "ＰＯＷｒｎｄ",
+   "en": "POWrnd",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 27,
+   "zh": "ＰＯＷｅｘｐ",
+   "en": "POWexp",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 28,
+   "zh": "ＤＥＦｒｎｄ",
+   "en": "DEFrnd",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 29,
+   "zh": "ＤＥＦｅｘｐ",
+   "en": "DEFexp",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 30,
+   "zh": "ＡＧＩｒｎｄ",
+   "en": "AGIrnd",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 31,
+   "zh": "ＡＧＩｅｘｐ",
+   "en": "AGIexp",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 32,
+   "zh": "ＳＰＷｒｎｄ",
+   "en": "SPWrnd",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 33,
+   "zh": "ＳＰＷｅｘｐ",
+   "en": "SPWexp",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 34,
+   "zh": "ＳＤＦｒｎｄ",
+   "en": "SDFrnd",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 35,
+   "zh": "ＳＤＦｅｘｐ",
+   "en": "SDFexp",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 36,
+   "zh": "ＰＯＷ",
+   "en": "POW",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 37,
+   "zh": "ＤＥＦ",
+   "en": "DEF",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 38,
+   "zh": "ＡＧＩ",
+   "en": "AGI",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 39,
+   "zh": "ＳＰＷ",
+   "en": "SPW",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 40,
+   "zh": "ＳＤＦ",
+   "en": "SDF",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 41,
+   "zh": "ＨＰ",
+   "en": "HP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 42,
+   "zh": "ＭＰＰ",
+   "en": "MPP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 43,
+   "zh": "ＭＰＴ",
+   "en": "MPT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 44,
+   "zh": "帅气度",
+   "en": "Coolness",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/44 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 45,
+   "zh": "美丽度",
+   "en": "Beauty",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/45 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 46,
+   "zh": "可爱度",
+   "en": "Cuteness",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/46 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 47,
+   "zh": "聪明度",
+   "en": "Smartness",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/47 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 48,
+   "zh": "勇敢度",
+   "en": "Toughness",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/48 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 49,
+   "zh": "满腹度",
+   "en": "Fullness",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 50,
+   "zh": "捕获地点",
+   "en": "Capture place",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/50 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 51,
+   "zh": "捕获等级",
+   "en": "Capture level",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/51 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 52,
+   "zh": "捕获盒子",
+   "en": "Capture cassette",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/52 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 53,
+   "zh": "捕获用球",
+   "en": "Capture Ball",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/53 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 54,
+   "zh": "形式Ｎｏ",
+   "en": "Form No.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/54 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 55,
+   "zh": "蛋旗　关",
+   "en": "Egg Flag OFF",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/55 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 56,
+   "zh": "蛋旗　开",
+   "en": "Egg Flag ON",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/56 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 57,
+   "zh": "→",
+   "en": "→",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 58,
+   "zh": "地形",
+   "en": "Land form",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/58 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 59,
+   "zh": "自己的性别",
+   "en": "Player’s gender",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/59 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 60,
+   "zh": "战斗类型",
+   "en": "Battle type",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/60 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 61,
+   "zh": "ＴｒＩＤ１",
+   "en": "TrID1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 62,
+   "zh": "ＴｒＩＤ２",
+   "en": "TrID2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 63,
+   "zh": "１ｖｓ１　野生",
+   "en": "1 vs 1 Wild",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/63 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 64,
+   "zh": "１ｖｓ１　训练师",
+   "en": "1 vs 1 Trainer",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/64 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 65,
+   "zh": "２ｖｓ２　训练师",
+   "en": "2 vs 2 Trainer",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/65 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 66,
+   "zh": "１ｖｓ１　通信　主",
+   "en": "1 vs 1 Link Host",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/66 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 67,
+   "zh": "１ｖｓ１　通信　副",
+   "en": "1 vs 1 Link Client",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/67 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 68,
+   "zh": "２ｖｓ２　通信　主",
+   "en": "2 vs 2 Link Host",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/68 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 69,
+   "zh": "２ｖｓ２　通信　副",
+   "en": "2 vs 2 Link Client",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/69 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 70,
+   "zh": "通信多人　主",
+   "en": "Link Multi Host",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/70 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 71,
+   "zh": "通信多人　副",
+   "en": "Link Multi Client",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/71 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 72,
+   "zh": "１ｖｓ１　ＷｉーＦｉ　主",
+   "en": "1 vs 1 Wifi Host",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/72 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 73,
+   "zh": "１ｖｓ１　ＷｉーＦｉ　副",
+   "en": "1 vs 1 Wifi Client",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/73 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 74,
+   "zh": "狩猎区域",
+   "en": "Safari Zone",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/74 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 75,
+   "zh": "口袋公园",
+   "en": "Poké Park",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/75 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 76,
+   "zh": "捕虫大会",
+   "en": "Bug-Catching",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/76 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 77,
+   "zh": "捕获演示",
+   "en": "Capture Demo",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/77 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 78,
+   "zh": "野生２ｖｓ２",
+   "en": "Wild 2 vs 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/78 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 79,
+   "zh": "两人比赛",
+   "en": "Pair-up Battle",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/79 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 80,
+   "zh": "ＡＩ对战",
+   "en": "AI Multi",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/80 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 81,
+   "zh": "塔对战　主",
+   "en": "Tower Multi Host",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/81 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 82,
+   "zh": "塔对战　副",
+   "en": "Tower Multi Client",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/82 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 83,
+   "zh": "小智",
+   "en": "Ash",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0154/83 | hack replaced the DP debug names with anime/Adventures names"
+  },
+  {
+   "id": 84,
+   "zh": "小遥",
+   "en": "May",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0154/84 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 85,
+   "zh": "珍珠",
+   "en": "Pearl",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0154/85 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 86,
+   "zh": "小绿",
+   "en": "Blue",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0154/86 | 小绿 = Blue (D-0075)"
+  },
+  {
+   "id": 87,
+   "zh": "彦",
+   "en": "Riley",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/87 | 彦 = Riley (D-0219)"
+  },
+  {
+   "id": 88,
+   "zh": "舞",
+   "en": "Marley",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/88 | 舞 = Marley (D-0220)"
+  },
+  {
+   "id": 89,
+   "zh": "小霞",
+   "en": "Misty",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0154/89 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 90,
+   "zh": "小黄",
+   "en": "Yellow",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0154/90 | coordinator: D-1071 fix (小黄 = Yellow; the hack replaced Mira) | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 91,
+   "zh": "㊚",
+   "en": "♂",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 92,
+   "zh": "㊛",
+   "en": "♀",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 93,
+   "zh": "无",
+   "en": "None",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/93 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 94,
+   "zh": "普通",
+   "en": "Normal",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/94 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 95,
+   "zh": "睡眠",
+   "en": "Sleep",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/95 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 96,
+   "zh": "中毒",
+   "en": "Poison",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/96 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 97,
+   "zh": "烧伤",
+   "en": "Burned",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/97 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 98,
+   "zh": "麻痹",
+   "en": "Paralysis",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/98 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 99,
+   "zh": "冰冻",
+   "en": "Frozen",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/99 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 100,
+   "zh": "剧毒",
+   "en": "Badly poisoned",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/100 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 101,
+   "zh": "沙砾",
+   "en": "Gravel",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/101 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 102,
+   "zh": "沙滩",
+   "en": "Beach",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/102 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 103,
+   "zh": "草坪",
+   "en": "Lawn",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/103 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 104,
+   "zh": "水塘",
+   "en": "Puddle",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/104 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 105,
+   "zh": "岩肌",
+   "en": "Rock surface",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/105 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 106,
+   "zh": "洞窟",
+   "en": "Dungeon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/106 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 107,
+   "zh": "雪原",
+   "en": "Snowfield",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/107 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 108,
+   "zh": "水上",
+   "en": "Water surface",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/108 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 109,
+   "zh": "冰上",
+   "en": "Ice surface",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/109 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 110,
+   "zh": "地板",
+   "en": "Floor",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/110 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 111,
+   "zh": "沼泽地",
+   "en": "Swamp",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/111 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 112,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/112 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 113,
+   "zh": "四天王Ａ",
+   "en": "Elite Four A",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/113 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 114,
+   "zh": "四天王Ｂ",
+   "en": "Elite Four B",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/114 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 115,
+   "zh": "四天王Ｃ",
+   "en": "Elite Four C",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/115 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 116,
+   "zh": "四天王Ｄ",
+   "en": "Elite Four D",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/116 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 117,
+   "zh": "冠军",
+   "en": "Champion",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/117 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 118,
+   "zh": "破碎的世界",
+   "en": "Distortion World",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/118 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 119,
+   "zh": "塔",
+   "en": "Battle Tower",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/119 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 120,
+   "zh": "工厂",
+   "en": "Battle Factory",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/120 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 121,
+   "zh": "轮盘赌",
+   "en": "Battle Arcade",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/121 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 122,
+   "zh": "大宅院",
+   "en": "Battle Castle",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/122 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 123,
+   "zh": "舞台",
+   "en": "Battle Hall",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/123 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 124,
+   "zh": "读取",
+   "en": "Load",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/124 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 125,
+   "zh": "储存",
+   "en": "Save",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/125 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 126,
+   "zh": "草原",
+   "en": "Grassland",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/126 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 127,
+   "zh": "海",
+   "en": "Ocean",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/127 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 128,
+   "zh": "城市",
+   "en": "Town",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/128 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 129,
+   "zh": "森林",
+   "en": "Forest",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/129 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 130,
+   "zh": "山岳",
+   "en": "Mountain",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/130 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 131,
+   "zh": "雪山",
+   "en": "Snow mountain",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/131 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 132,
+   "zh": "室内Ａ",
+   "en": "Room A",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/132 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 133,
+   "zh": "室内Ｂ",
+   "en": "Room B",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/133 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 134,
+   "zh": "室内Ｃ",
+   "en": "Room C",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/134 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 135,
+   "zh": "洞窟Ａ",
+   "en": "Dungeon A",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/135 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 136,
+   "zh": "洞窟Ｂ",
+   "en": "Dungeon B",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/136 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 137,
+   "zh": "洞窟Ｃ",
+   "en": "Dungeon C",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/137 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 138,
+   "zh": "四天王Ａ",
+   "en": "Elite Four A",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/138 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 139,
+   "zh": "四天王Ｂ",
+   "en": "Elite Four B",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/139 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 140,
+   "zh": "四天王Ｃ",
+   "en": "Elite Four C",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/140 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 141,
+   "zh": "四天王Ｄ",
+   "en": "Elite Four D",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/141 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 142,
+   "zh": "冠军",
+   "en": "Champion",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/142 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 143,
+   "zh": "破碎的世界",
+   "en": "Distortion World",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/143 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 144,
+   "zh": "塔",
+   "en": "Battle Tower",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/144 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 145,
+   "zh": "工厂",
+   "en": "Battle Factory",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/145 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 146,
+   "zh": "轮盘",
+   "en": "Battle Arcade",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/146 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 147,
+   "zh": "城堡",
+   "en": "Battle Castle",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/147 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 148,
+   "zh": "舞台",
+   "en": "Battle Hall",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/148 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 149,
+   "zh": "早上",
+   "en": "Morning",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/149 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 150,
+   "zh": "白天",
+   "en": "Afternoon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/150 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 151,
+   "zh": "傍晚",
+   "en": "Evening",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/151 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 152,
+   "zh": "晚上",
+   "en": "Night",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/152 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 153,
+   "zh": "深夜",
+   "en": "Midnight",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/153 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 154,
+   "zh": "替换",
+   "en": "Switch",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/154 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 155,
+   "zh": "淘汰赛",
+   "en": "Tourney",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/155 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 156,
+   "zh": "音效ＯＮ",
+   "en": "Effect ON",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/156 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 157,
+   "zh": "音效ＯＦＦ",
+   "en": "Effect OFF",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/157 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 158,
+   "zh": "慢",
+   "en": "Slow",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/158 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 159,
+   "zh": "普通",
+   "en": "Normal",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/159 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 160,
+   "zh": "快",
+   "en": "Fast",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/160 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 161,
+   "zh": "ＯＦＦ",
+   "en": "OFF",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 162,
+   "zh": "ＯＮ",
+   "en": "ON",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 163,
+   "zh": "基本ＡＩ",
+   "en": "Basic AI",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/163 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 164,
+   "zh": "威力很高",
+   "en": "High power",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/164 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 165,
+   "zh": "专家ＡＩ",
+   "en": "Expert AI",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/165 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 166,
+   "zh": "补助技能ＡＩ",
+   "en": "Support move AI",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/166 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 167,
+   "zh": "赌博ＡＩ",
+   "en": "Gamble AI",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/167 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 168,
+   "zh": "重视伤害",
+   "en": "Damage AI",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/168 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 169,
+   "zh": "接力ＡＩ",
+   "en": "Relay AI",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/169 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 170,
+   "zh": "双打",
+   "en": "Double Battle",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/170 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 171,
+   "zh": "ＨＰ判断ＡＩ",
+   "en": "HP judge AI",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/171 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 172,
+   "zh": "天候技能ＡＩ",
+   "en": "Weather move AI",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/172 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 173,
+   "zh": "讨厌的ＡＩ",
+   "en": "Annoyance AI",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/173 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 174,
+   "zh": "没有天气",
+   "en": "No weather effect",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/174 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 175,
+   "zh": "雨",
+   "en": "Rain",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/175 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 176,
+   "zh": "大雨１",
+   "en": "Heavy rain 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/176 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 177,
+   "zh": "大雨２",
+   "en": "Heavy rain 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/177 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 178,
+   "zh": "雪",
+   "en": "Snow",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/178 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 179,
+   "zh": "吹雪",
+   "en": "Blizzard",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/179 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 180,
+   "zh": "暴风雪",
+   "en": "Whiteout",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/180 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 181,
+   "zh": "沙暴",
+   "en": "Sandstorm",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/181 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 182,
+   "zh": "深邃的森林１",
+   "en": "Deep forest 1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0154/182 | zh 深邃的森林 (US: dense fog)"
+  },
+  {
+   "id": 183,
+   "zh": "深邃的森林２",
+   "en": "Deep forest 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0154/183 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 184,
+   "zh": "晴天",
+   "en": "Sunny Day",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/184 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 185,
+   "zh": "搜索陷阱",
+   "en": "Search Trap",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0154/185 | zh 搜索陷阱 (US: Trick Room)"
+  },
+  {
+   "id": 186,
+   "zh": "ＰＰ不减",
+   "en": "PP not reduced",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/186 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 187,
+   "zh": "ＨＰ不减",
+   "en": "HP not reduced",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/187 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 188,
+   "zh": "自动战斗",
+   "en": "Auto Battle",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/188 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 189,
+   "zh": "控制命令",
+   "en": "Control Commands",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/189 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 190,
+   "zh": "相性标记",
+   "en": "Type matchup marks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0154/190 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 191,
+   "zh": "ＢＴＩＤ１",
+   "en": "BTID1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 192,
+   "zh": "ＢＴＩＤ２",
+   "en": "BTID2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 193,
+   "zh": "顾客０",
+   "en": "Client 0",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/193 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 194,
+   "zh": "顾客１",
+   "en": "Client 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/194 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 195,
+   "zh": "顾客２",
+   "en": "Client 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/195 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 196,
+   "zh": "顾客３",
+   "en": "Client 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/196 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 197,
+   "zh": "０ｘ０００",
+   "en": "0x000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 198,
+   "zh": "０ｘ１００",
+   "en": "0x100",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 199,
+   "zh": "０ｘ２００",
+   "en": "0x200",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 200,
+   "zh": "０ｘ３００",
+   "en": "0x300",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 201,
+   "zh": "＋００",
+   "en": "+00",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 202,
+   "zh": "＋０８",
+   "en": "+08",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 203,
+   "zh": "＋１０",
+   "en": "+10",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 204,
+   "zh": "＋１８",
+   "en": "+18",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 205,
+   "zh": "＋２０",
+   "en": "+20",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 206,
+   "zh": "＋２８",
+   "en": "+28",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 207,
+   "zh": "＋３０",
+   "en": "+30",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 208,
+   "zh": "＋３８",
+   "en": "+38",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 209,
+   "zh": "＋４０",
+   "en": "+40",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 210,
+   "zh": "＋４８",
+   "en": "+48",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 211,
+   "zh": "＋５０",
+   "en": "+50",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 212,
+   "zh": "＋５８",
+   "en": "+58",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 213,
+   "zh": "＋６０",
+   "en": "+60",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 214,
+   "zh": "＋６８",
+   "en": "+68",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 215,
+   "zh": "＋７０",
+   "en": "+70",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 216,
+   "zh": "＋７８",
+   "en": "+78",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 217,
+   "zh": "＋８０",
+   "en": "+80",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 218,
+   "zh": "＋８８",
+   "en": "+88",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 219,
+   "zh": "＋９０",
+   "en": "+90",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 220,
+   "zh": "＋９８",
+   "en": "+98",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 221,
+   "zh": "＋Ａ０",
+   "en": "+A0",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 222,
+   "zh": "＋Ａ８",
+   "en": "+A8",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 223,
+   "zh": "＋Ｂ０",
+   "en": "+B0",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 224,
+   "zh": "＋Ｂ８",
+   "en": "+B8",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 225,
+   "zh": "＋Ｃ０",
+   "en": "+C0",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 226,
+   "zh": "＋Ｃ８",
+   "en": "+C8",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 227,
+   "zh": "＋Ｄ０",
+   "en": "+D0",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 228,
+   "zh": "＋Ｄ８",
+   "en": "+D8",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 229,
+   "zh": "＋Ｅ０",
+   "en": "+E0",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 230,
+   "zh": "＋Ｅ８",
+   "en": "+E8",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 231,
+   "zh": "＋Ｆ０",
+   "en": "+F0",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 232,
+   "zh": "＋Ｆ８",
+   "en": "+F8",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (battle debug menu)"
+  },
+  {
+   "id": 233,
+   "zh": "录像记录",
+   "en": "Save the recorded data",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/233 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 234,
+   "zh": "听",
+   "en": "Obey",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/234 | debug/unused (battle debug menu)"
+  },
+  {
+   "id": 235,
+   "zh": "不听",
+   "en": "Disobey",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0154/235 | debug/unused (battle debug menu)"
+  }
+ ]
+}

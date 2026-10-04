@@ -1,0 +1,295 @@
+{
+ "narc": "a027",
+ "bank": 265,
+ "source": "work/extract/v4/a027/0265.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "你好！{NEWLINE}在这里可以使用树果{CLEAR}制作松饼！{SCROLL}",
+   "en": "Hello! Here, you can use Berries to{NEWLINE}make Poffins!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "是要一个人做料理还是大家一起,{NEWLINE}请选择！",
+   "en": "Will you cook by yourself or with{NEWLINE}everyone? Please choose!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "ＤＳ通信开始。",
+   "en": "Starting DS Wireless Communications.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 4,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 5,
+   "zh": "那么等着您的再次光临！",
+   "en": "Please come again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "没有树果！{SCROLL}",
+   "en": "You don’t have any Berries!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "松饼已经装满背包了！{SCROLL}",
+   "en": "Your Poffin Case is full!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "没有松饼盒,{NEWLINE}就无法使用树果制作料理。",
+   "en": "You can’t cook with Berries without a{NEWLINE}Poffin Case.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "一个人制作",
+   "en": "COOK ALONE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "大家一起制作",
+   "en": "COOK TOGETHER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "听说明",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s); other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 13,
+   "zh": "请和大家商量后{NEWLINE}决定这次制作的队长,{SCROLL}其他人请选择加入这个队伍的选项",
+   "en": "Please talk it over and decide who will{NEWLINE}lead this time.{SCROLL}Everyone else, choose the option to{NEWLINE}join that group.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "进入队伍",
+   "en": "JOIN GROUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "成为队长",
+   "en": "BECOME LEADER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s); other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 17,
+   "zh": "成员集合好了的话,{NEWLINE}Ａ键⋯前进　Ｂ键⋯放弃",
+   "en": "When everyone’s here:{NEWLINE}A Button: Start  B Button: Quit",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "有成员募集请求,{NEWLINE}要加入队伍吗？",
+   "en": "Someone is looking for members.{NEWLINE}Join the group?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 20,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 21,
+   "zh": "同意加入吗？",
+   "en": "Accept this member?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 23,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 24,
+   "zh": "要放弃制作吗？",
+   "en": "Stop cooking?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 26,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 27,
+   "zh": "请选择一起料理的朋友。",
+   "en": "Choose friends to cook with.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "等待{VAR:0103:0}的回音。",
+   "en": "Waiting for {VAR:0103:0} to respond.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "其他的成员在等待。",
+   "en": "The other members are waiting.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "有无法参加的人员,{SCROLL}请再一次从新开始手续。",
+   "en": "Someone can’t take part.{SCROLL}Please start again from the beginning.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "那么！{NEWLINE}请从背包里选择{CLEAR}作为料理用的果实！{SCROLL}",
+   "en": "Now then!{NEWLINE}Please choose a Berry from your Bag to{CLEAR}cook with!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "想混合的果实就一起放进锅里{NEWLINE}旋转混合！{SCROLL}会出现旋转方向指针,{NEWLINE}请照方向旋转！{SCROLL}旋转慢的话就会烧焦！{SCROLL}旋转过快面底就会飞出去要小心{SCROLL}要是做得好,松饼就会很美味！{SCROLL}能参加料理的上限人数是４人。",
+   "en": "Put the Berries you want to mix into the{NEWLINE}pot and stir them together!{SCROLL}An arrow will show you which way to stir.{NEWLINE}Stir that way!{SCROLL}Stir too slowly, and it’ll burn!{SCROLL}Stir too fast, and the batter will spill{NEWLINE}out, so be careful!{SCROLL}Do it well, and the Poffins will be{NEWLINE}delicious!{SCROLL}Up to four people can cook together.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "想料理的话就来吧！",
+   "en": "Come on over if you’d like to cook!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "{VAR:0103:0}",
+   "en": "{VAR:0103:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "ＩＤ{VAR:0136:0}",
+   "en": "ID {VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

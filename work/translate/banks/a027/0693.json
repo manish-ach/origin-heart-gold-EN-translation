@@ -1,0 +1,103 @@
+{
+ "narc": "a027",
+ "bank": 693,
+ "source": "work/extract/v4/a027/0693.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "小胜和利塔",
+   "en": "Tim & Sue",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "小胜和利塔 not in 0719; US contact Tim & Sue (US 0702); 利塔 = Sue, 小胜 = Tim"
+  },
+  {
+   "id": 1,
+   "zh": "这是多么难得的机会啊,{NEWLINE}我们交换电话号码吧？{VAR:0200:0}",
+   "en": "So, how about we{NEWLINE}exchange phone numbers?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0702/1"
+  },
+  {
+   "id": 2,
+   "zh": "有什么事的话{NEWLINE}我们就电话联系好了！",
+   "en": "Give me a call if you think of anything!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0702/2"
+  },
+  {
+   "id": 3,
+   "zh": "好遗憾⋯⋯",
+   "en": "Uh, OK. That’s too bad...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0702/3"
+  },
+  {
+   "id": 4,
+   "zh": "你果然想和我{NEWLINE}交换电话号码吧？{VAR:0200:0}",
+   "en": "Did you decide you wanted to{NEWLINE}exchange phone numbers? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0702/4"
+  },
+  {
+   "id": 5,
+   "zh": "哎？你从哪打来的？{SCROLL}要是你就在附近的话,{NEWLINE}直接和我来聊天好了！{CLEAR}行不！",
+   "en": "Uh-huh? Where are you calling from?{SCROLL}If you’re nearby, you might as well{NEWLINE}come over and talk in person, you know?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0702/5"
+  },
+  {
+   "id": 6,
+   "zh": "是我,利塔！{SCROLL}你最近还好吗？{CLEAR}有在努力训练精灵吗？{SCROLL}我们也很努力哦！{NEWLINE}{VAR:0100:10}非常用功。{SCROLL}你也有很多非常棒的精灵啊⋯⋯{CLEAR}以后就只找像你这样{CLEAR}优秀的搭档挑战了,呵呵！",
+   "en": "It’s me, Sue!{SCROLL}How have you been? Are you{NEWLINE}training your Pokémon hard?{SCROLL}We’re working hard, too! {VAR:0100:10}{NEWLINE}is really putting in the effort.{SCROLL}You have lots of great Pokémon,{NEWLINE}too... From now on, we’ll only take{CLEAR}on great partners like you. Hee hee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0702/6"
+  },
+  {
+   "id": 7,
+   "zh": "是我,利塔！{SCROLL}你最近还好吗？{CLEAR}对战还顺利吗？{SCROLL}我们也很努力哦！{NEWLINE}{VAR:0100:11}经常获胜。{SCROLL}你也有很多非常棒的精灵啊⋯⋯{CLEAR}以后就只找像你这样{CLEAR}优秀的搭档挑战了,呵呵！",
+   "en": "It’s me, Sue!{SCROLL}How have you been? Are{NEWLINE}your battles going well?{SCROLL}We’re working hard, too!{NEWLINE}{VAR:0100:11} wins a lot.{SCROLL}You have lots of great Pokémon,{NEWLINE}too... From now on, we’ll only take{CLEAR}on great partners like you. Hee hee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0702/7; zh says {VAR:0100:11} wins a lot (US: beat a wild one); kept as in zh"
+  },
+  {
+   "id": 8,
+   "zh": "是我,利塔！{SCROLL}你最近还好吗？{CLEAR}我们的精灵又多了好⋯⋯啊！{SCROLL}喂喂？我是小胜啊！{NEWLINE}你偶尔也找找我⋯⋯哇！{SCROLL}对了,最近一个不小心让{NEWLINE}{VAR:0100:11}给逃掉了。{CLEAR}他最近老是说些奇怪的话,{CLEAR}像什么我们根本无法{CLEAR}和你的精灵比什么的⋯⋯啊！{SCROLL}喂喂！我是小胜！{NEWLINE}她可真是个⋯⋯哇！{SCROLL}就是这样了,{NEWLINE}下次再打电话给你。{CLEAR}拜拜！",
+   "en": "It’s me, Sue!{SCROLL}How have you been? Our{NEWLINE}Pokémon have grown so... Ah!{SCROLL}Hello? It’s Tim! Call me{NEWLINE}once in a while, too... Wah!{SCROLL}Anyway, the other day he carelessly let{NEWLINE}a {VAR:0100:11} get away. And lately he{CLEAR}keeps saying weird things, like how our{CLEAR}Pokémon can’t compare to yours... Ah!{SCROLL}Hello! It’s Tim! She’s such a... Wah!{SCROLL}So, that’s how it is. We’ll{NEWLINE}call you again. Bye-bye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0702/8"
+  },
+  {
+   "id": 9,
+   "zh": "你想不想和我们{NEWLINE}再来一次对战啊？{SCROLL}肯定很想吧？{NEWLINE}那我们在{VAR:0104:3}等你,{CLEAR}再见咯！",
+   "en": "Hey, would you like to battle us again?{SCROLL}Sound good?{SCROLL}We’re waiting on {VAR:0104:3}.{NEWLINE}See you there!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0702/9"
+  },
+  {
+   "id": 10,
+   "zh": "难道你忘记{NEWLINE}我们的约定了？{SCROLL}虽然我和小胜在一起{NEWLINE}完全不无聊啦⋯⋯{SCROLL}我们在{VAR:0104:3}等你,{NEWLINE}快点来吧。",
+   "en": "Hey, did you forget our promise?{SCROLL}I’m here with Tim, so I’m not getting{NEWLINE}too bored, but still...{SCROLL}We’re waiting on {VAR:0104:3},{NEWLINE}so please hurry.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0702/10"
+  },
+  {
+   "id": 11,
+   "zh": "我是利塔,{NEWLINE}我现在好无聊啊,{SCROLL}他刚才正好出去了,{NEWLINE}我想应该马上会回来的。{SCROLL}对了,前不久我看到了一个{NEWLINE}非常帅的人,{SCROLL}他那紫色的燕尾服{NEWLINE}和红色的蝴蝶结{CLEAR}非常般配⋯⋯{SCROLL}啊　,他回来了,{NEWLINE}下次再聊！",
+   "en": "It’s Sue. I’m so bored right now.{SCROLL}He just stepped out, but I{NEWLINE}think he’ll be back soon.{SCROLL}Oh, that reminds me. The other{NEWLINE}day I saw a really handsome man.{SCROLL}His purple tailcoat went{NEWLINE}perfectly with his red bow tie...{SCROLL}Oh, he’s back! Talk to you later!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0702/11"
+  }
+ ]
+}

@@ -1,0 +1,775 @@
+{
+ "narc": "a027",
+ "bank": 324,
+ "source": "work/extract/v4/a027/0324.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "这里正在举行地下决斗,{NEWLINE}低水平的训练家不要靠近！{SCROLL}让我看看你的徽章……",
+   "en": "There’s an underground battle going on{NEWLINE}here. Small-time Trainers, keep out!{SCROLL}Let me see your Badges...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Underground Path (Route 5 side): illegal underground battles hosted by an MC; Blue on a win streak. Partner branch: 小蓝 Green lines = male-player route, 小赤 Red lines = female-player route (alternate ids #9/10, #13/14, #27/28, #59/60, #62/63, #66/67, #68/69, #73/74, #78/79, #80/81, #84/85, #86/87, #88/89). #23/#24, #25/#26, #29–32 are tone/choice variants."
+  },
+  {
+   "id": 1,
+   "zh": "连蓝色徽章都得不到的话,{NEWLINE}你还是赶紧给我回去吧。",
+   "en": "If you can’t even get the Cascade{NEWLINE}Badge, you’d better turn right back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "哦？你已经拿到两个徽章了？{NEWLINE}行吧,勉强合格。{CLEAR}你可以参加地下决斗了。",
+   "en": "Oh? You’ve already got two Badges?{NEWLINE}Fine, you barely pass.{SCROLL}You can join the underground battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "这里正在举行地下决斗,{NEWLINE}如果你连两个徽章都没有,{CLEAR}我劝你还是别去凑热闹了。",
+   "en": "There’s an underground battle going on{NEWLINE}here.{SCROLL}If you don’t even have two Badges, I’d{NEWLINE}advise you not to join the fun.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "不要太小瞧地下决斗了,{NEWLINE}这可是毫无公平可言的生存之战。",
+   "en": "Don’t take the underground battle{NEWLINE}lightly.{SCROLL}It’s a fight for survival, and there’s{NEWLINE}nothing fair about it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "唉,好忧伤啊……{NEWLINE}连地下决斗的资格赛我都过不了。{SCROLL}果然白拿的蓝色徽章根本就没意义吗。",
+   "en": "Sigh, this is so depressing...{SCROLL}I can’t even pass the qualifier for the{NEWLINE}underground battle.{SCROLL}I guess a Cascade Badge I got for free{NEWLINE}really doesn’t mean a thing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "可恶啊,我的格斗精灵{NEWLINE}三两下就被那个凯西给干掉了。",
+   "en": "Dang it. My Fighting-type got taken out{NEWLINE}by that Abra in two moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "我刚刚输给了台上那小子,{NEWLINE}这个小黄毛确实厉害。{CLEAR}但是就这么车轮下去,{CLEAR}他一定成不了最后的赢家。",
+   "en": "I just lost to that kid on the stage.{NEWLINE}That little punk really is tough.{SCROLL}But if it keeps going one after another{NEWLINE}like this, there’s no way he’ll be the{CLEAR}last one standing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "小黄毛 (young punk) = Blue, the kid on stage."
+  },
+  {
+   "id": 8,
+   "zh": "妙蛙草『Ivy——saur！",
+   "en": "Ivysaur: Ivy-saur!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 9,
+   "zh": "小蓝『呀呀呀,这不是{VAR:0103:0}吗？{NEWLINE}你居然会来参加这种非法的地下决斗啊。{CLEAR}我还以为只有我这种穷光蛋{CLEAR}才会来这种地方赚钱呢。",
+   "en": "Green: Well, well, if it isn’t {VAR:0103:0}!{SCROLL}You’re actually entering an illegal{NEWLINE}underground battle?{SCROLL}I thought only broke nobodies like me{NEWLINE}came here to earn cash.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "小赤『啊！{VAR:0103:0}你……{NEWLINE}这里是非法的地下决斗场,{CLEAR}你通过资格战来到这里,{CLEAR}也是想上台对战吗？",
+   "en": "Red: Ah! {VAR:0103:0}, you...{SCROLL}This is an illegal underground battle{NEWLINE}arena.{SCROLL}You passed the qualifier to get here...{NEWLINE}Do you want to fight on the stage too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0103:0}『哦？参加这里的比赛{NEWLINE}还能赚钱呢？",
+   "en": "{VAR:0103:0}: Oh? You can earn money by{NEWLINE}battling here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}『嘿嘿,出来旅行的目的之一,{NEWLINE}不就是要与各种各样的训练家相遇、对战嘛。",
+   "en": "{VAR:0103:0}: Heh heh. Isn’t meeting and{NEWLINE}battling all kinds of Trainers one of the{CLEAR}reasons to go on a journey?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "小蓝『那当然,这里的规则就是{NEWLINE}只要打败对手就能拿到奖金,{CLEAR}一直赢下去到没有人再上台挑战,{CLEAR}还能拿到终极大奖！{SCROLL}小蓝『就像小绿这家伙,{NEWLINE}再赢下这场就是三连胜了,{CLEAR}赚这么多钱非让他请客不行！",
+   "en": "Green: You bet! The rule’s simple: beat{NEWLINE}your opponent, win prize money.{SCROLL}Keep winning until nobody dares take{NEWLINE}the stage, and you get the grand prize!{SCROLL}Green: Take Blue there. One more win{NEWLINE}and he’ll have three in a row.{SCROLL}With all that cash, he’s definitely{NEWLINE}treating me to dinner!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "小赤『可是来这里对战的人,{NEWLINE}大都不像你这样目的单纯。{CLEAR}来这里的人大都是为了获胜奖金。{SCROLL}小赤『不过我觉得{NEWLINE}现在台上战斗的小绿,{CLEAR}应该跟你一样,{CLEAR}只是为了在旅行中锻炼自己{CLEAR}才到这里来的吧。",
+   "en": "Red: But most people who battle here{NEWLINE}aren’t in it for such simple reasons.{SCROLL}They’re mostly here for the prize{NEWLINE}money.{SCROLL}Red: Though I think Blue, the one{NEWLINE}battling on stage now, is just like you.{SCROLL}He’s probably only here to toughen{NEWLINE}himself up on his journey.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0103:0}『小绿！？",
+   "en": "{VAR:0103:0}: Blue!?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "太古盔甲,使用岩崩！{NEWLINE}小绿『卡咪龟,保护！",
+   "en": "Armaldo, use Rock Slide!{NEWLINE}Blue: Wartortle, Protect!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "可恶啊！{NEWLINE}太古盔甲,掀起沙暴！{CLEAR}我看它还怎么保护。",
+   "en": "Grr! Armaldo, whip up a Sandstorm!{NEWLINE}Let’s see it protect itself from that!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "太古盔甲？！你怎么……",
+   "en": "Armaldo?! What’s wrong...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "太古盔甲失去战斗能力,{NEWLINE}卡咪龟获胜！{SCROLL}小绿选手已经连赢三场了！",
+   "en": "Armaldo is unable to battle! Wartortle{NEWLINE}wins!{SCROLL}Blue has now won three in a row!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "小绿『笨蛋,卡咪龟的热水{NEWLINE}早就让太古盔甲陷入烧伤了,{CLEAR}它是承受不了烧伤的伤害而倒地的。",
+   "en": "Blue: Dummy. Wartortle’s Scald left{NEWLINE}Armaldo with a burn ages ago.{SCROLL}It couldn’t take the burn damage and{NEWLINE}fainted.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "啊……唉……{NEWLINE}热水真是个讨厌的技能！",
+   "en": "Ahh... Sigh... Scald is such an annoying{NEWLINE}move!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "面对如此强大的小绿选手,{NEWLINE}各位地下决斗的精英们{CLEAR}都不想来跟他较量一下吗？",
+   "en": "Faced with a contestant as mighty as{NEWLINE}Blue, will none of our underground elite{CLEAR}step up to take him on?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "小绿『{VAR:0103:0}！{NEWLINE}你躲在后面干什么呀,{CLEAR}是害怕当众输给我太丢人吗？",
+   "en": "Blue: {VAR:0103:0}! What are you hiding in{NEWLINE}the back for?{SCROLL}Scared of losing to me in front of{NEWLINE}everyone?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "小绿『{VAR:0103:0}！{NEWLINE}你也是来参加地下决斗的吗？{CLEAR}怎么样,要上台来试试吗？",
+   "en": "Blue: {VAR:0103:0}! You came for the{NEWLINE}underground battle too? Well?{SCROLL}Want to come up here and give it a try?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "要接受小绿的挑战吗？{SCROLL}",
+   "en": "Accept Blue’s challenge?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "要接受小绿的邀请吗？{SCROLL}",
+   "en": "Accept Blue’s invitation?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "小蓝『喂喂喂！{NEWLINE}{VAR:0103:0}你退缩个什么劲啊。{CLEAR}小绿连打三场都虚了,{CLEAR}你趁现在打败他赚些奖金,{CLEAR}到枯叶市你俩好一起请我吃饭呀！{SCROLL}小蓝『快快快！{NEWLINE}给我上去！",
+   "en": "Green: Hey, hey, hey! {VAR:0103:0}, what{NEWLINE}are you chickening out for?{SCROLL}Blue’s worn out after three battles in{NEWLINE}a row.{SCROLL}Beat him now and grab some prize money!{SCROLL}Then when we get to Vermilion City, you{NEWLINE}two can treat me to dinner together!{SCROLL}Green: Come on, come on! Get up there!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "小赤『{VAR:0103:0}如果以成为{NEWLINE}精英训练家为目标的话,{CLEAR}地下决斗的对战是不错的练习,{CLEAR}接受小绿的邀请锻炼一下{CLEAR}对你的旅行还是很有帮助的。",
+   "en": "Red: If your goal is to become an Ace{NEWLINE}Trainer, {VAR:0103:0}, underground battles{CLEAR}are good practice.{SCROLL}Taking up Blue’s invitation could really{NEWLINE}help you on your journey.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0103:0}『唉……好吧！",
+   "en": "{VAR:0103:0}: Sigh... Fine!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0103:0}『你说的对,{NEWLINE}打退堂鼓可不是我的作风！",
+   "en": "{VAR:0103:0}: You’re right. Backing down{NEWLINE}just isn’t my style!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0103:0}『哼！谁怕谁！",
+   "en": "{VAR:0103:0}: Hmph! Bring it on!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:0103:0}『好嘞,让你看看我的进步！",
+   "en": "{VAR:0103:0}: All right, let me show you how{NEWLINE}much I’ve improved!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "好的,新的敌人新的挑战。{SCROLL}我们的小绿选手{NEWLINE}能否继续保持他的连胜纪录呢！{CLEAR}让我们拭目以待！",
+   "en": "All right! A new foe, a new challenge!{SCROLL}Can our Blue keep his winning streak{NEWLINE}alive? Let’s find out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "小绿『哼,想不到我的连胜{NEWLINE}竟然是被你终结的。",
+   "en": "Blue: Hmph. Who’d have thought you’d be{NEWLINE}the one to end my streak.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "哇,哇,哇！真是让人大开眼界！{NEWLINE}这位选手居然击败了{CLEAR}刚刚还势如破竹的小绿选手。{CLEAR}那么请问这位选手你的名字是……{SCROLL}……{SCROLL}哦哦！是来自真新镇的{VAR:0103:0}选手！",
+   "en": "Whoa, whoa, whoa! What a sight!{SCROLL}This contestant has beaten Blue, who{NEWLINE}was unstoppable just a moment ago!{SCROLL}So, contestant, may we have your{NEWLINE}name...{SCROLL}...{SCROLL}Ohh! It’s {VAR:0103:0} from Pallet Town!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "好的,我们的{VAR:0103:0}选手{NEWLINE}现在正高傲地看着场下的诸位,{CLEAR}有哪位选手愿意上台挑战吗！",
+   "en": "All right! Our {VAR:0103:0} is now gazing{NEWLINE}proudly down at all of you.{SCROLL}Will anyone dare step up to the{NEWLINE}challenge?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "我来！",
+   "en": "Me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "该出来了呢,{NEWLINE}我的美纳斯！",
+   "en": "Time to come out, my Milotic!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "你知道吗？我虽然抽烟、喝酒、{NEWLINE}纹身、滥交、劈腿、吸毒,{CLEAR}但我很珍视我的口袋妖怪。{CLEAR}所以我是好女孩！{SCROLL}我最讨厌你这种{NEWLINE}看起来就一身正气的人了！",
+   "en": "You know what?{SCROLL}I smoke, drink, have tattoos, sleep{NEWLINE}around, cheat, and do drugs...{SCROLL}But I treasure my Pokémon. So I’m a{NEWLINE}good girl!{SCROLL}And I just hate goody-goody types like{NEWLINE}you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Meme line (抽烟喝酒纹身…但我是好女孩); kept as written."
+  },
+  {
+   "id": 40,
+   "zh": "啊,看起来挺斯文的,{NEWLINE}战斗起来挺狠啊你！",
+   "en": "Ah, you look so polite, but you sure{NEWLINE}battle mean!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "连赢两场！{SCROLL}我们的{VAR:0103:0}{NEWLINE}向大家展示了他的实力！{SCROLL}面对新的强者,{NEWLINE}今天来到这里的勇士们,{CLEAR}你们害怕了吗！",
+   "en": "Two wins in a row!{SCROLL}Our {VAR:0103:0} has shown everyone what{NEWLINE}real strength looks like!{SCROLL}Facing this new powerhouse, are you{NEWLINE}brave souls here today scared?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh hard-codes 他 for the player; English made gender-neutral (#41, #52, #58)."
+  },
+  {
+   "id": 42,
+   "zh": "哼,是时候出场了。",
+   "en": "Hmph. Time for my entrance.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "哈哈哈,这次的挑战者{NEWLINE}是我们头脑清晰的研究员选手。{SCROLL}他的大脑能帮助他从{VAR:0103:0}那里{NEWLINE}赢取一线胜机吗？{CLEAR}让我们拭目以待！",
+   "en": "Ha ha ha! This time our challenger is a{NEWLINE}clear-headed Scientist!{SCROLL}Can his brain find him a sliver of a{NEWLINE}chance to beat {VAR:0103:0}?{SCROLL}Let’s find out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "计算失误了……",
+   "en": "I miscalculated...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "看我快如闪电的雷电球！",
+   "en": "Behold my lightning-fast Voltorb!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "雷电球 = Voltorb (Scientist's Pokémon)."
+  },
+  {
+   "id": 46,
+   "zh": "研究发明什么的我不在行,{NEWLINE}但只要跟领导搞好关系{CLEAR}就能溜出来参加这里的决斗了！",
+   "en": "I’m no good at research or inventing,{NEWLINE}but as long as I keep the boss happy, I{CLEAR}can sneak out for battles here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "这个菜鸡研究员,{NEWLINE}还装出一副高深莫测的样子。{CLEAR}好好看看我是怎么赢的吧！",
+   "en": "That lousy Scientist, acting all{NEWLINE}mysterious. Watch how I win!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "给你看看我的大鸟！",
+   "en": "Check out my big bird!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pun kept (大鸟 'big bird')."
+  },
+  {
+   "id": 49,
+   "zh": "哦？这位……",
+   "en": "Oh? This contestant...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "别那么多废话！{SCROLL}我是来打架的,{NEWLINE}不是来听主持人逼逼的！",
+   "en": "Cut the chatter!{SCROLL}I came here to fight, not to listen to{NEWLINE}the MC run his mouth!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "厉害厉害！{NEWLINE}我是服了你了！",
+   "en": "Impressive, impressive! I give up, you{NEWLINE}win!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "哇哦！在击败刚刚那位{NEWLINE}不太懂礼貌的选手之后,{CLEAR}战神{VAR:0103:0}已经创下了四连胜的骄人战绩！{CLEAR}看来今天的大赢家非他莫属了！",
+   "en": "Wow! After beating that not-so-polite{NEWLINE}contestant, the battle god {VAR:0103:0} has{CLEAR}racked up a stunning four-win streak!{SCROLL}Looks like today’s big winner is decided!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "烟墨市的龙之使者有话要说！",
+   "en": "The Dragon Tamer from Blackthorn City{NEWLINE}has something to say!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "我是来自烟墨市的训练家,{NEWLINE}在我的家乡,{CLEAR}我们使用的都是最珍贵的……",
+   "en": "I’m a Trainer from Blackthorn City.{SCROLL}In my hometown, we all use the most{NEWLINE}precious...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "哇哈哈哈！{SCROLL}竟然是传说中能呼风唤雨的{NEWLINE}超珍惜精灵哈克龙！{CLEAR}{VAR:0103:0}选手遇到了巨大危机！",
+   "en": "Wah ha ha!{SCROLL}It’s Dragonair, the ultra-rare Pokémon{NEWLINE}said to summon wind and rain!{SCROLL}{VAR:0103:0} is in big trouble!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "不在关东闯出点名声的话,{NEWLINE}我哪有脸回烟墨市见父母！",
+   "en": "If I don’t make a name for myself in{NEWLINE}Kanto, how can I face my parents back{CLEAR}in Blackthorn City?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "我……{NEWLINE}我还是老老实实找个地方修炼吧……",
+   "en": "I... I guess I’ll just find somewhere to{NEWLINE}train quietly...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "太惊人了！五连胜！{SCROLL}毫无疑问{VAR:0103:0}已经打败了{NEWLINE}今天所有的挑战者！{CLEAR}他就是今天地下决斗的……",
+   "en": "Incredible! Five wins in a row!{SCROLL}No doubt about it, {VAR:0103:0} has beaten{NEWLINE}every challenger today!{SCROLL}Today’s underground battle champion{NEWLINE}is...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "小蓝『可没有那么简单！",
+   "en": "Green: Not so fast!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "小赤『我也想上去试试！",
+   "en": "Red: I want to give it a try too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "这位选手可谓是{NEWLINE}坐山观虎！渔翁得利！{SCROLL}这就是地下决斗的魅力,{NEWLINE}前方总有意外在等着你！",
+   "en": "This contestant let the tigers fight,{NEWLINE}then swooped in for the prize!{SCROLL}That’s the charm of underground{NEWLINE}battles.{SCROLL}There’s always a surprise waiting for{NEWLINE}you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "小蓝『实在不好意思啦{VAR:0103:0},{NEWLINE}最近我手头有点紧,{CLEAR}我想与其让你和小绿请我吃饭,{CLEAR}不如我自己拿走大奖来的划算呢。{SCROLL}小蓝『所以呀,你不准赢我！",
+   "en": "Green: Sorry about this, {VAR:0103:0}.{NEWLINE}Money’s been a little tight lately.{SCROLL}Rather than have you and Blue treat me{NEWLINE}to dinner, I figure I’ll do better taking{CLEAR}the grand prize myself.{SCROLL}Green: So you’re not allowed to beat{NEWLINE}me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "小赤『我还从来没跟{VAR:0103:0}交过手,{NEWLINE}看到你战斗的身姿之后,{CLEAR}我也忍不住想要看一下{CLEAR}自己跟你的差距有多大！",
+   "en": "Red: I’ve never battled you before,{NEWLINE}{VAR:0103:0}.{SCROLL}After watching you fight, I just have to{NEWLINE}see how big the gap between us is!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "没错,就是最珍贵的龙系精灵！",
+   "en": "That’s right, the most precious Dragon{NEWLINE}types of all!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "又是一场大胜！{NEWLINE}{VAR:0103:0}已经顺利拿下三连胜,{CLEAR}追平了小绿选手今天的记录！",
+   "en": "Another big win!{SCROLL}{VAR:0103:0} has taken three in a row, tying{NEWLINE}Blue’s record for today!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "小蓝『呜呜……你怎么好意思赢我呢！{NEWLINE}也太不体谅女孩子了！{CLEAR}既然这样的话,去了枯叶市之后{CLEAR}你得好好请一顿,知道么！",
+   "en": "Green: Waaah... How could you beat me!{NEWLINE}You’re so inconsiderate to a girl!{SCROLL}In that case, you’re treating me to a{NEWLINE}proper meal in Vermilion City. Got it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "小赤『不愧是{VAR:0103:0}！{NEWLINE}果然比我厉害好多！",
+   "en": "Red: That’s {VAR:0103:0} for you! You really{NEWLINE}are way stronger than me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "小蓝『哈哈,奖金！奖金！{NEWLINE}谢谢{VAR:0103:0}你故意输给我啦！{CLEAR}我请你和小绿去……",
+   "en": "Green: Ha ha, prize money! Prize money!{SCROLL}Thanks for losing to me on purpose,{NEWLINE}{VAR:0103:0}! I’ll treat you and Blue to...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "小赤『如果{VAR:0103:0}不是连续作战,{NEWLINE}输的那个一定是我。{CLEAR}所以这奖金我不能独吞,{CLEAR}不如我请你和小绿……",
+   "en": "Red: If you hadn’t fought so many{NEWLINE}battles in a row, {VAR:0103:0}, I’d have{CLEAR}been the one to lose.{SCROLL}So I can’t keep this prize money to{NEWLINE}myself.{SCROLL}How about I treat you and Blue to...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "{VAR:FF01:200}不好啦！有警察来啦！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Uh-oh! Cops!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "警、警察来、来抓非法决斗了！",
+   "en": "The p-p-police are here to bust the{NEWLINE}illegal battles!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "跑啊兄弟们！{NEWLINE}今天的地下决斗到此结束了！",
+   "en": "Run for it, guys! That’s it for today’s{NEWLINE}underground battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "小蓝『喂喂！获胜者的奖金呢！",
+   "en": "Green: Hey! What about the winner’s{NEWLINE}prize money!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "小赤『就这样散了？{NEWLINE}本该发给大家的奖金呢？",
+   "en": "Red: Everyone’s just leaving?{SCROLL}What about the prize money they were{NEWLINE}supposed to pay out?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "再不跑就被抓了,{NEWLINE}还奖什么金啊！",
+   "en": "If we don’t run, we’ll get arrested!{NEWLINE}Forget the prize money!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "小绿『我说你们还呆在这干嘛！{NEWLINE}还不快点……",
+   "en": "Blue: What are you guys still standing{NEWLINE}around for! Hurry up and...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "喂！你们几个！{NEWLINE}就是你们在地下非法决斗扰乱治安吗！",
+   "en": "Hey! You there!{SCROLL}Are you the ones holding illegal{NEWLINE}underground battles here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "小蓝『呜呜——哇！{NEWLINE}警察哥哥你可算是来啦！",
+   "en": "Green: Waaah! Mister Officer, you{NEWLINE}finally came!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "小赤『警察大哥！{NEWLINE}幸亏你来的及时啊！",
+   "en": "Red: Officer! Thank goodness you got{NEWLINE}here in time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "小蓝『刚刚在这里的那些坏人{NEWLINE}挡在这里不让我过去,非逼我……{CLEAR}呜呜呜……{SCROLL}小蓝『要不是我的这两个朋友{NEWLINE}及时来救我,{CLEAR}我说不定就已经被……{CLEAR}呜呜呜哇啊——！",
+   "en": "Green: Those bad men here just now{NEWLINE}blocked my way and wouldn’t let me go.{SCROLL}They tried to make me...{SCROLL}Sob sob sob...{SCROLL}Green: If my two friends here hadn’t{NEWLINE}saved me, I might have been...{SCROLL}Waaah!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "小赤『警察大哥！{NEWLINE}幸亏你来的及时啊！{CLEAR}不然我们三个就要{CLEAR}被这里的坏人给抢劫了！",
+   "en": "Red: Officer! Thank goodness you got{NEWLINE}here in time!{SCROLL}Otherwise the bad guys here would have{NEWLINE}robbed all three of us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "什么！现在搞地下决斗的这帮人{NEWLINE}都这么嚣张了吗？{CLEAR}看来必须要彻底根除这种活动了！",
+   "en": "What! These underground battle people{NEWLINE}have gotten that brazen?{SCROLL}Looks like we’ve got to stamp this out{NEWLINE}for good!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "你们几个以后多走安全的地方,{NEWLINE}不要再来这种危险的地方了！",
+   "en": "You kids stick to safe places from now{NEWLINE}on.{SCROLL}Don’t come to dangerous places like{NEWLINE}this again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "{VAR:0103:0}、小绿『呃,好……好的……{NEWLINE}小蓝『嗯嗯！好的呢,警察哥哥！",
+   "en": "{VAR:0103:0} & Blue: Uh, O-OK...{NEWLINE}Green: Mm-hm! Sure thing, Officer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Two speakers on one box; label per line."
+  },
+  {
+   "id": 85,
+   "zh": "{VAR:0103:0}、小绿『呃,哦,是！好的！{NEWLINE}小赤『一定一定！下次一定注意！",
+   "en": "{VAR:0103:0} & Blue: Uh, oh, yes! OK!{NEWLINE}Red: Of course! We’ll be careful!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "小蓝『这次多亏了我的演技喔,{NEWLINE}不过这儿也不宜久留了,{CLEAR}咱们还是快去枯叶市吧。",
+   "en": "Green: That was all thanks to my{NEWLINE}acting!{SCROLL}But we shouldn’t hang around here.{NEWLINE}Let’s hurry to Vermilion City.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "小赤『这都能糊弄过去……{NEWLINE}此地不宜久留了,{CLEAR}咱们快去枯叶市吧。",
+   "en": "Red: I can’t believe that worked...{SCROLL}We shouldn’t hang around here. Let’s{NEWLINE}hurry to Vermilion City.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "小绿『这个小蓝……{NEWLINE}你有没有觉得她好像是{CLEAR}我们很早以前就认识的人？",
+   "en": "Blue: That Green... Don’t you feel like{NEWLINE}we’ve known her since way back?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#88 male route (Green) / #89 female route (Red). Hints that Green/Red are the player's childhood acquaintances. #89 zh says 她 for Red (copy of #88); Red is male in this hack, so English uses he. #90 (her) follows #88, #91 follows #89."
+  },
+  {
+   "id": 89,
+   "zh": "小绿『这个小赤……{NEWLINE}你有没有觉得她好像是{CLEAR}我们很早以前就认识的人？",
+   "en": "Blue: That Red... Don’t you feel like{NEWLINE}we’ve known her since way back?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (Blue calls Red 她 (she), copied from Green’s line #88; Red is male in this hack); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 90,
+   "zh": "{VAR:0103:0}『嗯……初见她的时候{NEWLINE}确实感觉似曾相识。",
+   "en": "{VAR:0103:0}: Hmm... When I first met her,{NEWLINE}she did seem kind of familiar.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "{VAR:0103:0}『经你这么一说,{NEWLINE}确实有点这种感觉……",
+   "en": "{VAR:0103:0}: Now that you mention it, I do{NEWLINE}kind of feel that way...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "小绿『算了,不重要了,{NEWLINE}我要去枯叶市拿我的第三颗徽章了！",
+   "en": "Blue: Forget it, it doesn’t matter.{SCROLL}I’m off to Vermilion City to get my third{NEWLINE}Badge!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "小绿『这种连续战斗特别消耗体力,{NEWLINE}你要做好持久战的准备。",
+   "en": "Blue: Back-to-back battles like these{NEWLINE}really drain your stamina.{SCROLL}Be ready for a long fight.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "我用精密计算过的最强队伍{NEWLINE}来参加地下决斗,{CLEAR}却依然输的一败涂地……",
+   "en": "I entered with my strongest team, all{NEWLINE}precisely calculated...{SCROLL}And I still got completely crushed...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "我在地下决斗中的第一轮,{NEWLINE}就输给了一个格斗男。{CLEAR}哎,真是太难了。",
+   "en": "I lost to a Black Belt in the very first{NEWLINE}round of the underground battle.{SCROLL}Sigh, this is so hard.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,1586 @@
+{
+ "narc": "a027",
+ "bank": 295,
+ "source": "work/extract/v4/a027/0295.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "{VAR:0101:0}",
+   "en": "{VAR:0101:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "㊚",
+   "en": "♂",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "gender symbol as US"
+  },
+  {
+   "id": 2,
+   "zh": "㊛",
+   "en": "♀",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "gender symbol as US"
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "道具",
+   "en": "Item",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/4"
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:0108:0}",
+   "en": "{VAR:0108:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "无",
+   "en": "None",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/6"
+  },
+  {
+   "id": 7,
+   "zh": "情报",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/7"
+  },
+  {
+   "id": 8,
+   "zh": "图鉴Ｎｏ．",
+   "en": "Dex No.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/8"
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "名字",
+   "en": "Name",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/10"
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0100:0}",
+   "en": "{VAR:0100:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "属性",
+   "en": "Type",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/12"
+  },
+  {
+   "id": 13,
+   "zh": "主人",
+   "en": "OT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/13"
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}",
+   "en": "{VAR:0103:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "ＩＤＮｏ．",
+   "en": "ID No.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0136:0}",
+   "en": "{VAR:0136:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "现在的经验值",
+   "en": "Exp. Points",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/17"
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0138:0}",
+   "en": "{VAR:0138:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "到下一等级",
+   "en": "To Next Lv.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/19"
+  },
+  {
+   "id": 20,
+   "zh": "还有",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US leaves this slot empty (the screen shows \"To Next Lv.\" and the number); qa_ignore empty.",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0137:0}",
+   "en": "{VAR:0137:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "？？？",
+   "en": "???",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "训练师笔记",
+   "en": "TRAINER MEMO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/23"
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:FF00:2}实干{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Hardy{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/24"
+  },
+  {
+   "id": 25,
+   "zh": "{VAR:FF00:2}孤独{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Lonely{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/25"
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:FF00:2}勇敢{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Brave{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/26"
+  },
+  {
+   "id": 27,
+   "zh": "{VAR:FF00:2}固执{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Adamant{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/27"
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:FF00:2}调皮{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Naughty{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/28"
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:FF00:2}大胆{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Bold{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/29"
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:FF00:2}坦率{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Docile{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/30"
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:FF00:2}悠闲{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Relaxed{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/31"
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:FF00:2}淘气{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Impish{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/32"
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:FF00:2}无虑{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Lax{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/33"
+  },
+  {
+   "id": 34,
+   "zh": "{VAR:FF00:2}胆小{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Timid{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/34"
+  },
+  {
+   "id": 35,
+   "zh": "{VAR:FF00:2}急躁{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Hasty{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/35"
+  },
+  {
+   "id": 36,
+   "zh": "{VAR:FF00:2}认真{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Serious{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/36"
+  },
+  {
+   "id": 37,
+   "zh": "{VAR:FF00:2}开朗{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Jolly{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/37"
+  },
+  {
+   "id": 38,
+   "zh": "{VAR:FF00:2}天真{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Naive{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/38"
+  },
+  {
+   "id": 39,
+   "zh": "{VAR:FF00:2}保守{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Modest{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/39"
+  },
+  {
+   "id": 40,
+   "zh": "{VAR:FF00:2}稳重{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Mild{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/40"
+  },
+  {
+   "id": 41,
+   "zh": "{VAR:FF00:2}冷静{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Quiet{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/41"
+  },
+  {
+   "id": 42,
+   "zh": "{VAR:FF00:2}害羞{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Bashful{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/42"
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:FF00:2}马虎{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Rash{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/43"
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:FF00:2}沉着{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Calm{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/44"
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:FF00:2}温顺{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Gentle{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/45"
+  },
+  {
+   "id": 46,
+   "zh": "{VAR:FF00:2}狂妄{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Sassy{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/46"
+  },
+  {
+   "id": 47,
+   "zh": "{VAR:FF00:2}慎重{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Careful{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/47"
+  },
+  {
+   "id": 48,
+   "zh": "{VAR:FF00:2}浮躁{VAR:FF00:0}的性格。",
+   "en": "{VAR:FF00:2}Quirky{VAR:FF00:0} nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/48"
+  },
+  {
+   "id": 49,
+   "zh": "２０{VAR:0133:0}年{VAR:0133:1}月{VAR:0133:2}日{NEWLINE}在{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Ｌｖ．{VAR:0134:3}的时候{NEWLINE}相遇了。",
+   "en": "{VAR:0133:1}/{VAR:0133:2}/20{VAR:0133:0}{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Met at Lv. {VAR:0134:3}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/49 | seed rejected us [tag_mismatch] (candidate US 0302#49; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#49; text not kept)"
+  },
+  {
+   "id": 50,
+   "zh": "似乎是在{NEWLINE}２０{VAR:0133:0}年{VAR:0133:1}月{VAR:0133:2}日{NEWLINE}在{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Ｌｖ．{VAR:0134:3}的时候相遇的。",
+   "en": "{VAR:0133:1}/{VAR:0133:2}/20{VAR:0133:0}{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Apparently met at{NEWLINE}Lv. {VAR:0134:3}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/50 | seed rejected us [tag_mismatch] (candidate US 0302#50; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#50; text not kept)"
+  },
+  {
+   "id": 51,
+   "zh": "２０{VAR:0133:0}年{VAR:0133:1}月{VAR:0133:2}日{NEWLINE}在{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Ｌｖ．{VAR:0134:3}的时候{NEWLINE}被送来了。",
+   "en": "{VAR:0133:1}/{VAR:0133:2}/20{VAR:0133:0}{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Arrived at Lv. {VAR:0134:3}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/51 | seed rejected us [tag_mismatch] (candidate US 0302#51; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#51; text not kept)"
+  },
+  {
+   "id": 52,
+   "zh": "２０{VAR:0133:5}年{VAR:0133:6}月{VAR:0133:7}日{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}所得到的蛋在{NEWLINE}２０{VAR:0133:0}年{VAR:0133:1}月{VAR:0133:2}日{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}的时候{NEWLINE}孵化出来了。",
+   "en": "{VAR:0133:6}/{VAR:0133:7}/20{VAR:0133:5}{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}Egg obtained.{NEWLINE}{VAR:0133:1}/{VAR:0133:2}/20{VAR:0133:0}{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Egg hatched.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/52 | seed rejected us [tag_mismatch] (candidate US 0302#52; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#52; text not kept)"
+  },
+  {
+   "id": 53,
+   "zh": "２０{VAR:0133:5}年{VAR:0133:6}月{VAR:0133:7}日在{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}得到的蛋于{NEWLINE}２０{VAR:0133:0}年{VAR:0133:1}月{VAR:0133:2}日{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}孵化。",
+   "en": "{VAR:0133:6}/{VAR:0133:7}/20{VAR:0133:5}{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}Egg obtained.{NEWLINE}{VAR:0133:1}/{VAR:0133:2}/20{VAR:0133:0}{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Egg apparently hatched.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/53 | seed rejected us [tag_mismatch] (candidate US 0302#53; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#53; text not kept)"
+  },
+  {
+   "id": 54,
+   "zh": "２０{VAR:0133:5}年{VAR:0133:6}月{VAR:0133:7}日{NEWLINE}从{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}那里拿到的蛋于{NEWLINE}２０{VAR:0133:0}年{VAR:0133:1}月{VAR:0133:2}日{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}孵化。",
+   "en": "{VAR:0133:6}/{VAR:0133:7}/20{VAR:0133:5}{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}Egg received.{NEWLINE}{VAR:0133:1}/{VAR:0133:2}/20{VAR:0133:0}{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Egg hatched.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/54 | seed rejected us [tag_mismatch] (candidate US 0302#54; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#54; text not kept)"
+  },
+  {
+   "id": 55,
+   "zh": "２０{VAR:0133:5}年{VAR:0133:6}月{VAR:0133:7}日{NEWLINE}从{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}那里拿到的蛋于{NEWLINE}２０{VAR:0133:0}年{VAR:0133:1}月{VAR:0133:2}日{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}孵化出来的。",
+   "en": "{VAR:0133:6}/{VAR:0133:7}/20{VAR:0133:5}{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}Egg received.{NEWLINE}{VAR:0133:1}/{VAR:0133:2}/20{VAR:0133:0}{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Egg apparently hatched.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/55 | seed rejected us [tag_mismatch] (candidate US 0302#55; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#55; text not kept)"
+  },
+  {
+   "id": 56,
+   "zh": "２０{VAR:0133:0}年{VAR:0133:1}月{VAR:0133:2}日{NEWLINE}在{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Ｌｖ．{VAR:0134:3}的时候{NEWLINE}有如命运一般的相遇了。",
+   "en": "{VAR:0133:1}/{VAR:0133:2}/20{VAR:0133:0}{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Had a fateful encounter{NEWLINE}at Lv. {VAR:0134:3}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/49 | seed rejected us [tag_mismatch] (candidate US 0302#49; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#56; text not kept)"
+  },
+  {
+   "id": 57,
+   "zh": "２０{VAR:0133:0}年{VAR:0133:1}月{VAR:0133:2}日{NEWLINE}在{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Ｌｖ．{VAR:0134:3}的时候{NEWLINE}有如命运一般的相遇了。",
+   "en": "{VAR:0133:1}/{VAR:0133:2}/20{VAR:0133:0}{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Apparently had a{NEWLINE}fateful encounter at{NEWLINE}Lv. {VAR:0134:3}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/49 | seed rejected us [tag_mismatch] (candidate US 0302#49; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#57; text not kept)"
+  },
+  {
+   "id": 58,
+   "zh": "在２０{VAR:0133:5}年{VAR:0133:6}月{VAR:0133:7}日{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}拿到的蛋在{NEWLINE}２０{VAR:0133:0}年{VAR:0133:1}月{VAR:0133:2}日{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}孵化后{NEWLINE}有如命运般的相遇了。",
+   "en": "{VAR:0133:6}/{VAR:0133:7}/20{VAR:0133:5}{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}Egg obtained.{NEWLINE}{VAR:0133:1}/{VAR:0133:2}/20{VAR:0133:0}{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Egg hatched.{NEWLINE}Fateful encounter.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/58 | seed rejected us [tag_mismatch] (candidate US 0302#58; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#58; text not kept)"
+  },
+  {
+   "id": 59,
+   "zh": "在２０{VAR:0133:5}年{VAR:0133:6}月{VAR:0133:7}日{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}拿到的蛋在{NEWLINE}２０{VAR:0133:0}年{VAR:0133:1}月{VAR:0133:2}日{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}孵化后{NEWLINE}有如命运般的相遇了。",
+   "en": "{VAR:0133:6}/{VAR:0133:7}/20{VAR:0133:5}{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}Egg obtained.{NEWLINE}{VAR:0133:1}/{VAR:0133:2}/20{VAR:0133:0}{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Egg apparently hatched.{NEWLINE}Fateful encounter.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/59 | seed rejected us [tag_mismatch] (candidate US 0302#59; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#59; text not kept)"
+  },
+  {
+   "id": 60,
+   "zh": "２０{VAR:0133:5}年{VAR:0133:6}月{VAR:0133:7}日{NEWLINE}从{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}送来的蛋在{NEWLINE}２０{VAR:0133:0}年{VAR:0133:1}月{VAR:0133:2}日{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}孵化后{NEWLINE}有如命运般的相遇了。",
+   "en": "{VAR:0133:6}/{VAR:0133:7}/20{VAR:0133:5}{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}Egg arrived.{NEWLINE}{VAR:0133:1}/{VAR:0133:2}/20{VAR:0133:0}{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Egg hatched.{NEWLINE}Fateful encounter.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/60 | seed rejected us [tag_mismatch] (candidate US 0302#60; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#60; text not kept)"
+  },
+  {
+   "id": 61,
+   "zh": "２０{VAR:0133:5}年{VAR:0133:6}月{VAR:0133:7}日{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}得到的蛋在{NEWLINE}２０{VAR:0133:0}年{VAR:0133:1}月{VAR:0133:2}日{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}孵化后{NEWLINE}有如命运般的相遇了。",
+   "en": "{VAR:0133:6}/{VAR:0133:7}/20{VAR:0133:5}{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}Egg arrived.{NEWLINE}{VAR:0133:1}/{VAR:0133:2}/20{VAR:0133:0}{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Egg apparently hatched.{NEWLINE}Fateful encounter.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/61 | seed rejected us [tag_mismatch] (candidate US 0302#61; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl) | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#61; text not kept)"
+  },
+  {
+   "id": 62,
+   "zh": "２０{VAR:0133:5}年{VAR:0133:6}月{VAR:0133:7}日{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}得到的蛋在{NEWLINE}２０{VAR:0133:0}年{VAR:0133:1}月{VAR:0133:2}日{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}孵化后{NEWLINE}有如命运般的相遇了。",
+   "en": "{VAR:0133:6}/{VAR:0133:7}/20{VAR:0133:5}{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}Egg obtained.{NEWLINE}{VAR:0133:1}/{VAR:0133:2}/20{VAR:0133:0}{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Egg hatched.{NEWLINE}Fateful encounter.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/62 | seed rejected us [tag_mismatch] (candidate US 0302#62; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl) | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#62; text not kept)"
+  },
+  {
+   "id": 63,
+   "zh": "２０{VAR:0133:5}年{VAR:0133:6}月{VAR:0133:7}日{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}得到的蛋在{NEWLINE}２０{VAR:0133:0}年{VAR:0133:1}月{VAR:0133:2}日{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}孵化后{NEWLINE}有如命运般的相遇了。",
+   "en": "{VAR:0133:6}/{VAR:0133:7}/20{VAR:0133:5}{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}{NEWLINE}Egg obtained.{NEWLINE}{VAR:0133:1}/{VAR:0133:2}/20{VAR:0133:0}{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Egg apparently hatched.{NEWLINE}Fateful encounter.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/63 | seed rejected us [tag_mismatch] (candidate US 0302#63; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl) | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#63; text not kept)"
+  },
+  {
+   "id": 64,
+   "zh": "２０{VAR:0133:0}年{VAR:0133:1}月{VAR:0133:2}日{NEWLINE}Ｌｖ．{VAR:0134:3}的时候{NEWLINE}从{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}传送过来。",
+   "en": "{VAR:0133:1}/{VAR:0133:2}/20{VAR:0133:0}{NEWLINE}{VAR:FF00:2}{VAR:0104:4}{VAR:FF00:0}{NEWLINE}Arrived at Lv. {VAR:0134:3}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/64 | seed rejected us [tag_mismatch] (candidate US 0302#64; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#64; text not kept)"
+  },
+  {
+   "id": 65,
+   "zh": "喜欢{VAR:FF00:2}辛辣{VAR:FF00:0}的东西。",
+   "en": "Likes {VAR:FF00:2}spicy{VAR:FF00:0} food.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/65"
+  },
+  {
+   "id": 66,
+   "zh": "喜欢{VAR:FF00:2}涩涩{VAR:FF00:0}的东西。",
+   "en": "Likes {VAR:FF00:2}dry{VAR:FF00:0} food.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/66"
+  },
+  {
+   "id": 67,
+   "zh": "喜欢{VAR:FF00:2}香甜{VAR:FF00:0}的东西。",
+   "en": "Likes {VAR:FF00:2}sweet{VAR:FF00:0} food.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/67"
+  },
+  {
+   "id": 68,
+   "zh": "喜欢{VAR:FF00:2}苦口{VAR:FF00:0}的东西。",
+   "en": "Likes {VAR:FF00:2}bitter{VAR:FF00:0} food.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/68"
+  },
+  {
+   "id": 69,
+   "zh": "喜欢{VAR:FF00:2}酸味{VAR:FF00:0}的东西。",
+   "en": "Likes {VAR:FF00:2}sour{VAR:FF00:0} food.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/69"
+  },
+  {
+   "id": 70,
+   "zh": "无论什么都喜欢吃。",
+   "en": "Happily eats anything.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/70"
+  },
+  {
+   "id": 71,
+   "zh": "最喜欢吃东西。",
+   "en": "Loves to eat.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/71"
+  },
+  {
+   "id": 72,
+   "zh": "喜欢睡午觉。",
+   "en": "Takes plenty of siestas.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/72"
+  },
+  {
+   "id": 73,
+   "zh": "经常打磕睡。",
+   "en": "Nods off a lot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/73"
+  },
+  {
+   "id": 74,
+   "zh": "常把东西弄得一团乱。",
+   "en": "Scatters things often.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/74"
+  },
+  {
+   "id": 75,
+   "zh": "喜欢闲适的生活。",
+   "en": "Likes to relax.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/75"
+  },
+  {
+   "id": 76,
+   "zh": "对自己的力量很有自信。",
+   "en": "Proud of its power.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/76"
+  },
+  {
+   "id": 77,
+   "zh": "喜欢乱来。",
+   "en": "Likes to thrash about.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/77"
+  },
+  {
+   "id": 78,
+   "zh": "看起来总是在生气。",
+   "en": "A little quick tempered.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/78"
+  },
+  {
+   "id": 79,
+   "zh": "容易受伤。",
+   "en": "Likes to fight.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/79"
+  },
+  {
+   "id": 80,
+   "zh": "热血。",
+   "en": "Quick tempered.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/80"
+  },
+  {
+   "id": 81,
+   "zh": "喜欢用身体力量决胜负。",
+   "en": "Sturdy body.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/81"
+  },
+  {
+   "id": 82,
+   "zh": "耐打。",
+   "en": "Capable of taking hits.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/82"
+  },
+  {
+   "id": 83,
+   "zh": "难缠。",
+   "en": "Highly persistent.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/83"
+  },
+  {
+   "id": 84,
+   "zh": "很会忍耐。",
+   "en": "Good endurance.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/84"
+  },
+  {
+   "id": 85,
+   "zh": "很能忍。",
+   "en": "Good perseverance.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/85"
+  },
+  {
+   "id": 86,
+   "zh": "喜欢追逐。",
+   "en": "Likes to run.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/86"
+  },
+  {
+   "id": 87,
+   "zh": "对声音很敏感。",
+   "en": "Alert to sounds.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/87"
+  },
+  {
+   "id": 88,
+   "zh": "轻率行动。",
+   "en": "Impetuous and silly.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/88"
+  },
+  {
+   "id": 89,
+   "zh": "有点会得意忘形。",
+   "en": "Somewhat of a clown.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/89"
+  },
+  {
+   "id": 90,
+   "zh": "逃跑很快。",
+   "en": "Quick to flee.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/90"
+  },
+  {
+   "id": 91,
+   "zh": "好奇心强。",
+   "en": "Highly curious.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/91"
+  },
+  {
+   "id": 92,
+   "zh": "喜欢恶作剧。",
+   "en": "Mischievous.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/92"
+  },
+  {
+   "id": 93,
+   "zh": "小心谨慎。",
+   "en": "Thoroughly cunning.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/93"
+  },
+  {
+   "id": 94,
+   "zh": "思想者。",
+   "en": "Often lost in thought.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/94"
+  },
+  {
+   "id": 95,
+   "zh": "十分认真。",
+   "en": "Very finicky.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/95"
+  },
+  {
+   "id": 96,
+   "zh": "暴躁。",
+   "en": "Strong willed.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/96"
+  },
+  {
+   "id": 97,
+   "zh": "有些自傲。",
+   "en": "Somewhat vain.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/97"
+  },
+  {
+   "id": 98,
+   "zh": "决胜心很强。",
+   "en": "Strongly defiant.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/98"
+  },
+  {
+   "id": 99,
+   "zh": "讨厌败仗。",
+   "en": "Hates to lose.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/99"
+  },
+  {
+   "id": 100,
+   "zh": "有些坚强。",
+   "en": "Somewhat stubborn.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/100"
+  },
+  {
+   "id": 101,
+   "zh": "２０{VAR:0133:5}年{VAR:0133:6}月{VAR:0133:7}日{NEWLINE}从{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}那里{NEWLINE}拿到的不可思议的{NEWLINE}精灵蛋。{NEWLINE}",
+   "en": "{VAR:0133:6}/{VAR:0133:7}/20{VAR:0133:5}{NEWLINE}A mysterious Pokémon{NEWLINE}Egg received from{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}.{NEWLINE}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/101 | seed rejected us [tag_mismatch] (candidate US 0302#101; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl) | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#101; text not kept)"
+  },
+  {
+   "id": 102,
+   "zh": "２０{VAR:0133:5}年{VAR:0133:6}月{VAR:0133:7}日{NEWLINE}从{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}那里{NEWLINE}拿到的不可思议的{NEWLINE}精灵蛋。{NEWLINE}",
+   "en": "{VAR:0133:6}/{VAR:0133:7}/20{VAR:0133:5}{NEWLINE}A mysterious Pokémon{NEWLINE}Egg obtained in{NEWLINE}{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}.{NEWLINE}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/102 | seed rejected us [tag_mismatch] (candidate US 0302#102; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl) | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#102; text not kept)"
+  },
+  {
+   "id": 103,
+   "zh": "２０{VAR:0133:5}年{VAR:0133:6}月{VAR:0133:7}日{NEWLINE}在{VAR:FF00:1}{VAR:0104:8}{VAR:FF00:0}那里{NEWLINE}拿到的不可思议的{NEWLINE}精灵蛋。{NEWLINE}",
+   "en": "{VAR:0133:6}/{VAR:0133:7}/20{VAR:0133:5}{NEWLINE}A very mysterious{NEWLINE}Pokémon Egg obtained{NEWLINE}at {VAR:FF00:1}{VAR:0104:8}{VAR:FF00:0}.{NEWLINE}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/103 | seed rejected us [tag_mismatch] (candidate US 0302#103; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#103; text not kept)"
+  },
+  {
+   "id": 104,
+   "zh": "２０{VAR:0133:5}年{VAR:0133:6}月{VAR:0133:7}日{NEWLINE}从{VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}那里{NEWLINE}拿到的不可思议的{NEWLINE}精灵蛋。{NEWLINE}",
+   "en": "{VAR:0133:6}/{VAR:0133:7}/20{VAR:0133:5}{NEWLINE}A very mysterious{NEWLINE}Pokémon Egg that came{NEWLINE}from {VAR:FF00:2}{VAR:0104:8}{VAR:FF00:0}.{NEWLINE}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0302/104 | seed rejected us [tag_mismatch] (candidate US 0302#104; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl) | seed rejected tm_v3 [tag_mismatch] (candidate v3 0295#104; text not kept)"
+  },
+  {
+   "id": 105,
+   "zh": "「蛋的样子」{NEWLINE}从蛋里听见活动的声音！{NEWLINE}似乎快诞生了！{NEWLINE}",
+   "en": "“The Egg Watch”{NEWLINE}Sounds can be heard{NEWLINE}coming from inside!{NEWLINE}It will hatch soon!{NEWLINE}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/105"
+  },
+  {
+   "id": 106,
+   "zh": "「蛋的样子」{NEWLINE}经常在摇动着。　{NEWLINE}离诞生似乎还差一点？",
+   "en": "“The Egg Watch”{NEWLINE}It appears to move{NEWLINE}occasionally. It may{NEWLINE}be close to hatching.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/106"
+  },
+  {
+   "id": 107,
+   "zh": "「蛋的样子」{NEWLINE}究竟会诞生什么生命呢？{NEWLINE}离孵化似乎还要些时间。",
+   "en": "“The Egg Watch”{NEWLINE}What will hatch from{NEWLINE}this? It doesn’t seem{NEWLINE}close to hatching.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/107"
+  },
+  {
+   "id": 108,
+   "zh": "「蛋的样子」{NEWLINE}这个蛋要孵化{NEWLINE}似乎得花更多的时间。",
+   "en": "“The Egg Watch”{NEWLINE}It looks like this Egg{NEWLINE}will take a long time to{NEWLINE}hatch.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/108"
+  },
+  {
+   "id": 109,
+   "zh": "精灵能力",
+   "en": "SKILLS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/109"
+  },
+  {
+   "id": 110,
+   "zh": "ＨＰ",
+   "en": "HP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "物攻",
+   "en": "Attack",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/111"
+  },
+  {
+   "id": 112,
+   "zh": "物防",
+   "en": "Defense",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/112"
+  },
+  {
+   "id": 113,
+   "zh": "特攻",
+   "en": "Sp. Atk",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/113"
+  },
+  {
+   "id": 114,
+   "zh": "特防",
+   "en": "Sp. Def",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/114"
+  },
+  {
+   "id": 115,
+   "zh": "速度",
+   "en": "Speed",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/115"
+  },
+  {
+   "id": 116,
+   "zh": "特性",
+   "en": "Ability",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/116"
+  },
+  {
+   "id": 117,
+   "zh": "／",
+   "en": "/",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 125,
+   "zh": "{VAR:0105:0}",
+   "en": "{VAR:0105:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "状态",
+   "en": "CONDITION",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 127,
+   "zh": "满腹度",
+   "en": "SHEEN",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack renamed 光泽 (sheen) to 满腹度 (fullness); kept the official DP term Sheen."
+  },
+  {
+   "id": 128,
+   "zh": "战斗技能",
+   "en": "BATTLE MOVES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/128"
+  },
+  {
+   "id": 129,
+   "zh": "详细",
+   "en": "DETAILS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), same position"
+  },
+  {
+   "id": 130,
+   "zh": "{VAR:0106:0}",
+   "en": "{VAR:0106:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 131,
+   "zh": "{VAR:0106:0}",
+   "en": "{VAR:0106:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 132,
+   "zh": "{VAR:0106:0}",
+   "en": "{VAR:0106:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 133,
+   "zh": "{VAR:0106:0}",
+   "en": "{VAR:0106:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 134,
+   "zh": "{VAR:0106:0}",
+   "en": "{VAR:0106:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 135,
+   "zh": "ＰＰ",
+   "en": "PP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 136,
+   "zh": "{VAR:0133:0}",
+   "en": "{VAR:0133:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 137,
+   "zh": "{VAR:0133:0}",
+   "en": "{VAR:0133:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 138,
+   "zh": "{VAR:0133:0}",
+   "en": "{VAR:0133:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 139,
+   "zh": "{VAR:0133:0}",
+   "en": "{VAR:0133:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 140,
+   "zh": "{VAR:0133:0}",
+   "en": "{VAR:0133:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "{VAR:0133:0}",
+   "en": "{VAR:0133:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 142,
+   "zh": "{VAR:0133:0}",
+   "en": "{VAR:0133:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "{VAR:0133:0}",
+   "en": "{VAR:0133:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 144,
+   "zh": "{VAR:0133:0}",
+   "en": "{VAR:0133:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 145,
+   "zh": "{VAR:0133:0}",
+   "en": "{VAR:0133:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "{VAR:0205}返回",
+   "en": "{VAR:0205}Cancel",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/146"
+  },
+  {
+   "id": 147,
+   "zh": "威力",
+   "en": "POWER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/147"
+  },
+  {
+   "id": 148,
+   "zh": "命中",
+   "en": "ACCURACY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/148"
+  },
+  {
+   "id": 149,
+   "zh": "分类",
+   "en": "CATEGORY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/149"
+  },
+  {
+   "id": 150,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 151,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 152,
+   "zh": "对换",
+   "en": "SWITCH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/152"
+  },
+  {
+   "id": 153,
+   "zh": "ーー",
+   "en": "--",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 154,
+   "zh": "ーーー",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 155,
+   "zh": "决定",
+   "en": "CONFIRM",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s), same position; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 156,
+   "zh": "这是很重要的技能。{NEWLINE}无法忘记！",
+   "en": "HM moves can’t be{NEWLINE}forgotten now.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/156"
+  },
+  {
+   "id": 157,
+   "zh": "运动能力",
+   "en": "PERFORMANCE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/157"
+  },
+  {
+   "id": 158,
+   "zh": "详细",
+   "en": "DETAILS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), same position"
+  },
+  {
+   "id": 159,
+   "zh": "决定",
+   "en": "CONFIRM",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s), same position; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 160,
+   "zh": "展示重点",
+   "en": "APPEAL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 161,
+   "zh": "返回",
+   "en": "BACK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 9 source(s), same position; other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 162,
+   "zh": "返回",
+   "en": "BACK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 9 source(s), same position; other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 163,
+   "zh": "决定",
+   "en": "CONFIRM",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s), same position; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 164,
+   "zh": "返回",
+   "en": "BACK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 9 source(s), same position; other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 165,
+   "zh": "喜欢的食物",
+   "en": "Favorite Food",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 166,
+   "zh": "喜欢{VAR:FF00:2}辛辣{VAR:FF00:0}的东西",
+   "en": "Likes {VAR:FF00:2}spicy{VAR:FF00:0} food",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 167,
+   "zh": "喜欢{VAR:FF00:2}涩涩{VAR:FF00:0}的东西",
+   "en": "Likes {VAR:FF00:2}dry{VAR:FF00:0} food",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 168,
+   "zh": "喜欢{VAR:FF00:2}香甜{VAR:FF00:0}的东西",
+   "en": "Likes {VAR:FF00:2}sweet{VAR:FF00:0} food",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 169,
+   "zh": "喜欢{VAR:FF00:2}苦口{VAR:FF00:0}的东西",
+   "en": "Likes {VAR:FF00:2}bitter{VAR:FF00:0} food",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 170,
+   "zh": "喜欢{VAR:FF00:2}酸味{VAR:FF00:0}的东西",
+   "en": "Likes {VAR:FF00:2}sour{VAR:FF00:0} food",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 171,
+   "zh": "不偏食",
+   "en": "Not picky",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 172,
+   "zh": "帅气度得到了提升！",
+   "en": "Its Coolness was enhanced!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 173,
+   "zh": "强壮度得到了提升！",
+   "en": "Its Toughness was enhanced!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 174,
+   "zh": "美丽度得到了提升！",
+   "en": "Its Beauty was enhanced!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 175,
+   "zh": "可爱度得到了提升！",
+   "en": "Its Cuteness was enhanced!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 176,
+   "zh": "聪明度得到了提升！",
+   "en": "Its Smartness was enhanced!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 177,
+   "zh": "什么也没有改变！",
+   "en": "Nothing changed!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 178,
+   "zh": "似乎已无法再吃了.",
+   "en": "It can’t seem to eat any more.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 179,
+   "zh": "纪念缎带",
+   "en": "RIBBONS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/179"
+  },
+  {
+   "id": 180,
+   "zh": "详细",
+   "en": "DETAILS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), same position"
+  },
+  {
+   "id": 181,
+   "zh": "返回",
+   "en": "BACK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 9 source(s), same position; other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 182,
+   "zh": "持有数",
+   "en": "No. of Ribbons:",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/182"
+  },
+  {
+   "id": 183,
+   "zh": "{VAR:0134:0}个",
+   "en": "{VAR:0134:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 184,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 185,
+   "zh": "／",
+   "en": "/",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 186,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 187,
+   "zh": "速度",
+   "en": "Speed",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/187"
+  },
+  {
+   "id": 188,
+   "zh": "力量",
+   "en": "Power",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/188"
+  },
+  {
+   "id": 189,
+   "zh": "技巧",
+   "en": "Skill",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/189"
+  },
+  {
+   "id": 190,
+   "zh": "耐力",
+   "en": "Stamina",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/190"
+  },
+  {
+   "id": 191,
+   "zh": "跳跃",
+   "en": "Jump",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/191"
+  },
+  {
+   "id": 192,
+   "zh": "闪光树叶",
+   "en": "Shiny Leaf",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/192"
+  },
+  {
+   "id": 193,
+   "zh": "{VAR:0205}遗忘掉！",
+   "en": "{VAR:0205}Forget!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/193"
+  },
+  {
+   "id": 194,
+   "zh": "{VAR:0205}换位置！",
+   "en": "{VAR:0205}Switch",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0302/194"
+  },
+  {
+   "id": 195,
+   "zh": "个体",
+   "en": "IVs",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 196,
+   "zh": "努力",
+   "en": "EVs",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

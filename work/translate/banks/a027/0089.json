@@ -1,0 +1,1009 @@
+{
+ "narc": "a027",
+ "bank": 89,
+ "source": "work/extract/v4/a027/0089.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "喵喵『本来以为来到城都{NEWLINE}就能一切顺利了喵,{CLEAR}没想到居然又碰到你这个小鬼头！",
+   "en": "Meowth: We figured once we{NEWLINE}got to Johto, everything’d go{CLEAR}smooth, meow. Who knew we’d run{CLEAR}into you again, ya little brat!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "武藏『现在应该是冠军小鬼头了。{NEWLINE}年纪轻轻就成了最强训练家,{CLEAR}真是让人不爽。",
+   "en": "Jessie: It’s the Champion brat{NEWLINE}now. Becoming the strongest{CLEAR}Trainer at such a young age...{CLEAR}It really gets on my nerves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "小次郎『哎嘿嘿,你的石英大会比赛{NEWLINE}我们有看直播哦,{CLEAR}没想到一路跟我们作对的小鬼头{CLEAR}最后居然成了联盟冠军。{CLEAR}甚至还打赢了坂木老大,{CLEAR}真是厉害啊。",
+   "en": "James: Heh heh, we watched your{NEWLINE}Indigo Conference matches live!{CLEAR}Who’d have thought the brat who{CLEAR}kept getting in our way would end{CLEAR}up League Champion? You even beat{CLEAR}Boss Giovanni. Impressive stuff!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "武藏『笨蛋,不要称赞敌人啊！",
+   "en": "Jessie: Idiot, don’t praise the enemy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "小次郎『哦哦,对哦！",
+   "en": "James: Oh, oh, right!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "武藏『算了,既然你想来碍事,{NEWLINE}我们肯定不是对手,{CLEAR}所以你直接过去吧,{CLEAR}我们可不想出力讨一顿打。",
+   "en": "Jessie: Forget it. If you want to get in{NEWLINE}our way, we’re no match for you anyway.{CLEAR}So just go on through. We’d rather not{CLEAR}work up a sweat just to get beaten up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0103:0}『竟然是你们几个,{NEWLINE}看来关东的火箭队都转移到城都了啊。",
+   "en": "{VAR:0103:0}: So it’s you lot.{NEWLINE}Looks like Kanto’s Team{CLEAR}Rocket has moved to Johto.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "那我就过去了",
+   "en": "Then I’ll go through",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Menu: #7 go through → #20 (Jessie's Arbok sneak attack #21, #22/#23 player reaction, battle #24-#31) / #8 fight → #9/#10.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 8,
+   "zh": "不打你们一顿我不安心",
+   "en": "I won’t rest till I beat you",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0103:0}『就这么让我过去？{NEWLINE}我才不信你们火箭队会这么好心。{CLEAR}为了防止有什么意外,{CLEAR}我要打败你们！",
+   "en": "{VAR:0103:0}: Just let me through{NEWLINE}like that? I don’t believe Team{CLEAR}Rocket is ever that nice. Just to{CLEAR}be safe, I’m going to beat you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0103:0}『虽说直接过去是很好啦,{NEWLINE}但是不揍你们一顿总感觉少点什么,{CLEAR}所以这顿打你们还是免不了的。",
+   "en": "{VAR:0103:0}: Going straight through{NEWLINE}would be great and all, but it{CLEAR}feels like something’s missing if{CLEAR}I don’t beat you up. So you’re{CLEAR}not getting out of this beating.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "武藏『真是没有良心的小鬼头。",
+   "en": "Jessie: What a heartless brat.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "小次郎『难得我们真的大发慈悲一次。",
+   "en": "James: And for once we were{NEWLINE}actually being merciful.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "喵喵『感觉你的思想比我们还脏,{NEWLINE}一点也不像正义的训练家喵！",
+   "en": "Meowth: Your mind’s even dirtier{NEWLINE}than ours! You’re nothin’ like{CLEAR}a righteous Trainer, meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "武藏『不要跟他废话了,小次郎、喵喵。{NEWLINE}用实力让这个冠军明白一下,{CLEAR}我们可不是任人欺负的！",
+   "en": "Jessie: Don’t waste your breath{NEWLINE}on them, James, Meowth. Let’s{CLEAR}use our strength to show this{CLEAR}Champion we’re not pushovers!",
+   "status": "reviewed",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "武藏『哎哟……好疼……",
+   "en": "Jessie: Ow... That hurts...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "小次郎『我已经尽力了……",
+   "en": "James: I did my best...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "喵喵『好讨厌的感觉啊喵……",
+   "en": "Meowth: Looks like Team Rocket’s{NEWLINE}blastin’ off again, meow...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "武藏『该打的也打完了,{NEWLINE}你赶紧走吧,别再让我看见你！",
+   "en": "Jessie: You got your beating{NEWLINE}in. Now hurry up and go, and{CLEAR}don’t let me see you again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0103:0}『你们不挡路最好,{NEWLINE}省了我不少时间。",
+   "en": "{VAR:0103:0}: Good thing you’re not blocking{NEWLINE}the way. Saves me a lot of time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0103:0}『哟,不错嘛,良心发现！{NEWLINE}那我可就过去了。",
+   "en": "{VAR:0103:0}: Oh, not bad, your{NEWLINE}conscience finally kicked in!{CLEAR}I’ll be going through, then.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "武藏『有机会！上啊,阿柏怪！",
+   "en": "Jessie: Now’s our chance! Go, Arbok!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0103:0}『居然从背后偷袭我！{NEWLINE}真不该相信你们！",
+   "en": "{VAR:0103:0}: You attacked me from behind!{NEWLINE}I never should have trusted you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "{VAR:0103:0}『居然来骗、来偷袭！{NEWLINE}真是不讲武德！",
+   "en": "{VAR:0103:0}: Coming at me with{NEWLINE}deceit and sneak attacks!{CLEAR}You have no martial ethics!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Ma Baoguo meme (来骗、来偷袭 / 不讲武德), phrased with the digest's ‘no martial ethics’."
+  },
+  {
+   "id": 24,
+   "zh": "武藏『呀哈哈哈哈,{NEWLINE}我们说放你过去你就信啊。",
+   "en": "Jessie: Ya-ha-ha-ha-ha! We say we’ll{NEWLINE}let you through, and you believe us?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "小次郎『这么容易相信人,{NEWLINE}果然还只是个小鬼头。",
+   "en": "James: So quick to trust people.{NEWLINE}You’re still just a brat after all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "喵喵『我们可是彻头彻尾的反派——{NEWLINE}火箭队啊喵！",
+   "en": "Meowth: We’re villains through and{NEWLINE}through. We’re Team Rocket, meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "武藏『即便知道不是你的对手,{NEWLINE}身为火箭队员可没有退缩这个选项。",
+   "en": "Jessie: Even if we know we’re no{NEWLINE}match for you, retreat is not an{CLEAR}option for Team Rocket members.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "小次郎『所以你就准备好,{NEWLINE}尝尝我们邪恶的铁拳吧！",
+   "en": "James: So get ready to{NEWLINE}taste our wicked iron fists!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "武藏『这样都打不过你……",
+   "en": "Jessie: We still can’t{NEWLINE}beat you, even like this...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "小次郎『看来只能放弃了……",
+   "en": "James: Looks like we’ll{NEWLINE}have to give up...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "喵喵『下次挑个软柿子捏吧喵……",
+   "en": "Meowth: Next time let’s pick{NEWLINE}on someone softer, meow...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "兰斯『想不到这里还有一只河马王{NEWLINE}在守护铃铛啊。{CLEAR}看你这一脸傻样,{CLEAR}是不会乖乖交出宝物咯？",
+   "en": "Proton: Who’d have thought there’d{NEWLINE}be a Slowking down here guarding the{CLEAR}bell? With that dopey face, I guess you{CLEAR}won’t hand over the treasure nicely?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "河马王『Slooo……",
+   "en": "Slowking: Slooo...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "水吾桐『不用跟这种畜生废话,{NEWLINE}直接干死它拿走铃铛就好。",
+   "en": "Archie: Don’t waste words{NEWLINE}on that beast. Just fucking{CLEAR}kill it and take the bell.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "兰斯『说的也是,{NEWLINE}这才符合咱们火箭队的作风。{CLEAR}出来吧,电击魔兽！",
+   "en": "Proton: You’re right. That’s more{NEWLINE}in keeping with Team Rocket’s{CLEAR}style. Come on out, Electivire!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "电击魔兽『Eleee——tiv！",
+   "en": "Electivire: Eleee-tiv!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "兰斯『把这个碍事的呆子给我清除掉！",
+   "en": "Proton: Clear this meddling{NEWLINE}dimwit out of my way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "{VAR:0103:0}『住手！火箭队！",
+   "en": "{VAR:0103:0}: Stop right{NEWLINE}there, Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "兰斯『这不是万人敬仰的冠军大人吗？{NEWLINE}怎么有空来这个{CLEAR}阴暗潮湿的地底洞穴玩了呢？",
+   "en": "Proton: Well, if it isn’t the{NEWLINE}Champion everyone looks up to.{CLEAR}What brings you to play in this{CLEAR}dark, damp underground cave?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "{VAR:0103:0}『我才要问你们呢,{NEWLINE}来这里到底想干什么！{CLEAR}是为了你刚才所说的那个铃铛吗？",
+   "en": "{VAR:0103:0}: That’s my question.{NEWLINE}What are you here for? Is it that{CLEAR}bell you were just talking about?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "水吾桐『兰斯,不用跟这个小杂种废话,{NEWLINE}趁他现在只有一个人,{CLEAR}咱们合力弄死他！",
+   "en": "Archie: Proton, don’t waste words{NEWLINE}on this little bastard. While he’s on{CLEAR}his own, let’s team up and kill him!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Male-player variant (他); #42 female (她). 小杂种 → little bastard / little bitch."
+  },
+  {
+   "id": 42,
+   "zh": "水吾桐『兰斯,不用跟这个小杂种废话,{NEWLINE}趁她现在只有一个人,{CLEAR}咱们合力弄死她！",
+   "en": "Archie: Proton, don’t waste words{NEWLINE}on this little bitch. While she’s on{CLEAR}her own, let’s team up and kill her!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "兰斯『哈哈,弄死联盟冠军,{NEWLINE}倒也是个解决问题的办法呢。{CLEAR}上啊,电击魔兽！",
+   "en": "Proton: Ha ha, killing the League{NEWLINE}Champion would be one way to solve{CLEAR}our problems. Go, Electivire!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "小银『哈哈,海鸣铃铛归我了！",
+   "en": "Silver: Ha ha, the Tidal Bell is mine!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "兰斯『小银大人,你从哪冒出来的？！",
+   "en": "Proton: Master Silver,{NEWLINE}where did you come from?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "水吾桐『你手上拿的……是海鸣铃铛！",
+   "en": "Archie: That thing in your{NEWLINE}hand... It’s the Tidal Bell!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "小银『真是感谢你们{NEWLINE}和那个笨逼冠军互相争斗,{CLEAR}我才能趁虚而入,哈哈！",
+   "en": "Silver: Thanks for fighting it out{NEWLINE}with that dumbfuck Champion. That{CLEAR}gave me the perfect opening, ha ha!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "笨逼冠军 → ‘that dumbfuck Champion’ (faithful tone, D-0627)."
+  },
+  {
+   "id": 48,
+   "zh": "兰斯『很好,小银大人。你得到了铃铛{NEWLINE}也就是我们火箭队得到了铃铛。{CLEAR}现在快把铃铛给我吧。",
+   "en": "Proton: Very good, Master Silver. If{NEWLINE}you have the bell, then Team Rocket{CLEAR}has the bell. Now hand it over to me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "小银『蠢货,这么珍贵的东西,{NEWLINE}我当然是要自己用。",
+   "en": "Silver: Moron. Something this precious?{NEWLINE}Of course I’m keeping it for myself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "水吾桐『你想背叛火箭队吗？{NEWLINE}不管你是什么身份,{CLEAR}敢背叛火箭队我可不会放过你！",
+   "en": "Archie: You want to betray{NEWLINE}Team Rocket? I don’t care who{CLEAR}you are. Nobody betrays Team{CLEAR}Rocket and gets away with it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "小银『我可从没认为{NEWLINE}自己是你们的一员,{CLEAR}总有一天我会用实力告诉你们{CLEAR}抛开那些无聊的狗屁组织,{CLEAR}才能成为最强训练家！",
+   "en": "Silver: I never thought of myself as{NEWLINE}one of you. Someday I’ll prove with my{CLEAR}own strength that you have to ditch{CLEAR}pointless bullshit gangs like yours{CLEAR}to become the strongest Trainer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "小银『不跟你们这些失败者废话了,{NEWLINE}我要闪人了。{SCROLL}小银『穿洞绳！",
+   "en": "Silver: I’m done talking to{NEWLINE}you losers. I’m out of here.{SCROLL}Silver: Escape Rope!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "兰斯『休想！{NEWLINE}踩住他,果然翁！",
+   "en": "Proton: Not so fast!{NEWLINE}Pin him down, Wobbuffet!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "果然翁『Wooo——bu！",
+   "en": "Wobbuffet: Wooo-bu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "小银『穿洞绳失效了！？",
+   "en": "Silver: The Escape Rope isn’t working?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "兰斯『哼哼,在果然翁踩影的特性下,{NEWLINE}你的绳子只是个摆设罢了。",
+   "en": "Proton: Heh heh. Thanks to Wobbuffet’s{NEWLINE}Shadow Tag, your rope is just for show.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "兰斯『控制住了叛逆期的小鬼,{NEWLINE}现在该对付你了,麻烦的冠军大人！",
+   "en": "Proton: Now that the rebellious{NEWLINE}brat is under control, it’s your{CLEAR}turn, you troublesome Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "水吾桐『哈哈,今天让你死在这里！",
+   "en": "Archie: Ha ha! Today you die here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "兰斯『可恶……真不愧是冠军大人啊,{NEWLINE}我都快要迷上你了……",
+   "en": "Proton: Damn... You really are a{NEWLINE}Champion. I’m almost falling for you...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "水吾桐『气死我了……气死我了！！！",
+   "en": "Archie: I’m so pissed...{NEWLINE}I’m so pissed!!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "小银『谢谢你啊,碍事的冠军。{NEWLINE}多亏你打败了兰斯的精灵,{CLEAR}果然翁踩影的效果解除了。{SCROLL}小银『拜拜咯！",
+   "en": "Silver: Thanks, meddling Champion.{NEWLINE}Since you beat Proton’s Pokémon,{CLEAR}Wobbuffet’s Shadow Tag wore off.{SCROLL}Silver: Bye-bye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "兰斯『功亏一溃,功亏一溃啊……！",
+   "en": "Proton: So close! We were so close...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "水吾桐『妈的,都是你这个{NEWLINE}烂冠军出来碍事害的！",
+   "en": "Archie: Dammit, it’s all because you,{NEWLINE}you crappy Champion, had to butt in!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "兰斯『算了,水吾桐,多说无益。{NEWLINE}先撤退！",
+   "en": "Proton: Forget it, Archie. There’s{NEWLINE}no use arguing. Retreat for now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "阿金『岩铁先生,洞穴里的火箭队{NEWLINE}被偶像打败之后,都逃走了。{CLEAR}这样看来呆呆兽之井的危机{CLEAR}是不是解除了啊？",
+   "en": "Gold: Mr. Kurt, the Team Rocket{NEWLINE}goons in the cave all ran off{CLEAR}after my idol beat them. Does that{CLEAR}mean Slowpoke Well is safe now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "岩铁『不,阿金。{NEWLINE}这一层的火箭队并不重要,{CLEAR}我担心的是呆呆兽之井底层的宝物……",
+   "en": "Kurt: No, Gold. The Rockets on{NEWLINE}this level don’t matter. What{CLEAR}worries me is the treasure at{CLEAR}the bottom of Slowpoke Well...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "水晶『宝物？您的意思是{NEWLINE}火箭队是为了那个宝物而来的？",
+   "en": "Crystal: Treasure? You mean Team{NEWLINE}Rocket came here for that treasure?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "岩铁『没错……呆呆兽之井底层{NEWLINE}有我们家族世代守护的宝物{CLEAR}——海鸣铃铛。{SCROLL}岩铁『传说海鸣铃铛是{NEWLINE}唤醒海神洛奇亚的必须之物。{CLEAR}火箭队恐怕就是为铃铛而来的。",
+   "en": "Kurt: That’s right... At the{NEWLINE}bottom of Slowpoke Well lies a{CLEAR}treasure my family has guarded{CLEAR}for generations: the Tidal Bell.{SCROLL}Kurt: Legend says the Tidal Bell is{NEWLINE}needed to awaken Lugia, god of the sea.{CLEAR}Team Rocket must be here for the bell.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "阿金『原来如此,刚才一直没看到偶像,{NEWLINE}看来他是去底层确保铃铛的安全了。",
+   "en": "Gold: I see. I haven’t seen my idol this{NEWLINE}whole time. He must have gone to the{CLEAR}bottom to make sure the bell’s safe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "小银『咦？没有直接回到洞口？{NEWLINE}是受了踩影的影响吗……",
+   "en": "Silver: Huh? I didn’t go{NEWLINE}straight back to the entrance?{CLEAR}Is it the Shadow Tag...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "阿金『啊,吊眼红毛？你也在这里？",
+   "en": "Gold: Hey, scowling{NEWLINE}redhead? You’re here too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "小银『切,本以为能顺利结束了,{NEWLINE}没想到又遇到你这个碍事的家伙。",
+   "en": "Silver: Tch. I thought I’d gotten{NEWLINE}away clean, and then I run{CLEAR}into you, you pain in the neck.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "岩铁『这小子手里拿的那个是……{SCROLL}岩铁『海鸣铃铛！",
+   "en": "Kurt: That boy is holding...{SCROLL}Kurt: The Tidal Bell!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "阿金『上次偷图鉴偷精灵,{NEWLINE}这次居然来偷海鸣铃铛,{CLEAR}看来你小子入伙火箭队了啊,{CLEAR}真是有够令人失望的。",
+   "en": "Gold: Last time you stole a Pokédex{NEWLINE}and a Pokémon, and now you’re stealing{CLEAR}the Tidal Bell. Looks like you’ve{CLEAR}joined Team Rocket. What a letdown.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "小银『别把我和火箭队相提并论,{NEWLINE}我可是为了自己的目的{CLEAR}才来拿这个铃铛的。",
+   "en": "Silver: Don’t lump me in with{NEWLINE}Team Rocket. I came for this{CLEAR}bell for my own reasons.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "岩铁『无论你出于什么目的,{NEWLINE}这个铃铛都不属于你,{CLEAR}快把它还回来。",
+   "en": "Kurt: Whatever your reasons, this bell{NEWLINE}doesn’t belong to you. Give it back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "水晶『对啊小银,{NEWLINE}你这样不问自取是不行的。",
+   "en": "Crystal: That’s right, Silver. You{NEWLINE}can’t just take things without asking.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "小银『我好不容易才得到海鸣铃铛,{NEWLINE}怎么能给你们呢。",
+   "en": "Silver: I went through a lot to get the{NEWLINE}Tidal Bell. Why would I give it to you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "阿金『你真是个贼心不死的家伙,{NEWLINE}不给你点教训是不会老实的。{CLEAR}上啊爆太郎！",
+   "en": "Gold: You just never learn, do you?{NEWLINE}You won’t behave until somebody{CLEAR}teaches you a lesson. Go, Exbo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "小银『吓唬谁呢？我还怕你不成？{NEWLINE}上啊蓝鳄！",
+   "en": "Silver: Who are you trying{NEWLINE}to scare? You think I’m{CLEAR}afraid of you? Go, Croconaw!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "小银『哈哈,你的火岩鼠撑不住了！",
+   "en": "Silver: Ha ha, your{NEWLINE}Quilava can’t hold on!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "阿金『嘿嘿,谁要跟你撑住啊。{NEWLINE}看我的杆法！",
+   "en": "Gold: Heh heh, who said anything{NEWLINE}about holding on? Watch my cue work!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "杆法: Gold's billiard-cue technique (Pokémon Adventures)."
+  },
+  {
+   "id": 83,
+   "zh": "阿金『上啊,长尾怪手！{NEWLINE}抢回海鸣铃铛！",
+   "en": "Gold: Go, Aipom! Grab{NEWLINE}back the Tidal Bell!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "小银『这……你！{NEWLINE}快把铃铛还给我！",
+   "en": "Silver: What... You!{NEWLINE}Give me back that bell!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "阿金『哈哈,就不给就不给,{NEWLINE}你能怎么样？哈哈哈！",
+   "en": "Gold: Ha ha, no way, no way! What{NEWLINE}are you gonna do about it? Ha ha ha!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "小银『混蛋,我竟然被{NEWLINE}你这个弱智给算计,真是丢人。",
+   "en": "Silver: Bastard... Getting outsmarted{NEWLINE}by a moron like you. How humiliating.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "阿金『呸！你才是个笨小偷呢！",
+   "en": "Gold: Pah! You’re the dumb thief here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "小银『切,咱们走着瞧！",
+   "en": "Silver: Tch. This isn’t over!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "岩铁『阿金,这次真是多亏了你,{NEWLINE}海鸣铃铛才能保住。{CLEAR}看不出你做事冲动,却这么有头脑！",
+   "en": "Kurt: Gold, we really have you to{NEWLINE}thank for saving the Tidal Bell this{CLEAR}time. You may be impulsive, but you’ve{CLEAR}got quite a head on your shoulders!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "阿金『嘿嘿,这都是小事一桩啦。",
+   "en": "Gold: Heh heh, it was nothing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "水晶『阿金在关键时候还是很可靠的,{NEWLINE}以前我曾经被火箭队抓住,{CLEAR}多亏了阿金才能脱困呢。",
+   "en": "Crystal: Gold really comes through{NEWLINE}when it counts. Team Rocket{CLEAR}caught me once before, and it was{CLEAR}thanks to Gold that I got away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "阿金『啊哈哈,连学习委员都这么说。",
+   "en": "Gold: Ah ha ha, even{NEWLINE}the Class Rep says so.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "{VAR:0103:0}『岩铁先生,阿金,水晶……",
+   "en": "{VAR:0103:0}: Mr. Kurt, Gold, Crystal...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "阿金『嘿,偶像！洞穴里的火箭队{NEWLINE}应该都被你打败了吧？",
+   "en": "Gold: Hey, Idol! You beat all the{NEWLINE}Team Rocket goons in the cave, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "{VAR:0103:0}『火箭队是都被打散了,{NEWLINE}但是井底有一个海鸣铃铛{CLEAR}应该是火箭队这次的目标,{CLEAR}却被小银趁机拿走了……",
+   "en": "{VAR:0103:0}: Team Rocket’s scattered,{NEWLINE}but there was a Tidal Bell at the{CLEAR}bottom of the well. It must have been{CLEAR}Team Rocket’s target this time, but{CLEAR}Silver took it while they were busy...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "阿金『哈哈,偶像你不用担心,{NEWLINE}我们刚刚遇到了小银,{CLEAR}把他手里的海鸣铃铛又给抢回来了。",
+   "en": "Gold: Ha ha, don’t worry, Idol. We{NEWLINE}just ran into Silver and snatched{CLEAR}the Tidal Bell right back from him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "{VAR:0103:0}『小银不是用穿洞绳{NEWLINE}直接离开呆呆兽之井了吗？",
+   "en": "{VAR:0103:0}: Didn’t Silver{NEWLINE}use an Escape Rope to get{CLEAR}straight out of Slowpoke Well?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "岩铁『可能是海鸣铃铛不想被带走,{NEWLINE}于是影响了穿洞绳的效果,{CLEAR}才会让那个少年出现在我们面前。",
+   "en": "Kurt: Maybe the Tidal Bell didn’t{NEWLINE}want to be taken, and it disrupted{CLEAR}the Escape Rope. That’s why the{CLEAR}boy turned up right in front of us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "水晶『总之就是皆大欢喜啦！",
+   "en": "Crystal: Anyway, it all{NEWLINE}worked out for everyone!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "岩铁『多亏你们这些年轻的训练家{NEWLINE}才能守护住呆呆兽之井的宝物。{CLEAR}到我家来休息一下吧,{CLEAR}我要好好谢谢你们才行。",
+   "en": "Kurt: It’s thanks to you young{NEWLINE}Trainers that Slowpoke Well’s{CLEAR}treasure is safe. Come rest at my{CLEAR}house. I have to thank you properly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "岩铁『{VAR:0103:0}先生,还有阿金、水晶,{NEWLINE}再次感谢你们这次出手相助。{CLEAR}如果没有你们,{CLEAR}我们家族守护了几百年的海鸣铃铛,{CLEAR}可能就被抢走了。{SCROLL}岩铁『作为感谢,请你们收下{NEWLINE}我亲手做的这几个柑果球,{CLEAR}希望能帮到你们。",
+   "en": "Kurt: Mr. {VAR:0103:0}, Gold, Crystal,{NEWLINE}thank you again for helping us.{CLEAR}Without you, the Tidal Bell my{CLEAR}family has guarded for hundreds{CLEAR}of years might have been stolen.{SCROLL}Kurt: As thanks, please take these{NEWLINE}Apricorn Balls I made myself. I{CLEAR}hope they’ll be of use to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Male-player variant (先生); #102 female (小姐)."
+  },
+  {
+   "id": 102,
+   "zh": "岩铁『{VAR:0103:0}小姐,还有阿金、水晶,{NEWLINE}再次感谢你们这次出手相助。{CLEAR}如果没有你们,{CLEAR}我们家族守护了几百年的海鸣铃铛,{CLEAR}可能就被抢走了。{SCROLL}岩铁『作为感谢,请你们收下{NEWLINE}我亲手做的这几个柑果球,{CLEAR}希望能帮到你们。",
+   "en": "Kurt: Miss {VAR:0103:0}, Gold, Crystal,{NEWLINE}thank you again for helping us.{CLEAR}Without you, the Tidal Bell my{CLEAR}family has guarded for hundreds{CLEAR}of years might have been stolen.{SCROLL}Kurt: As thanks, please take these{NEWLINE}Apricorn Balls I made myself. I{CLEAR}hope they’ll be of use to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "岩铁『本来呆呆兽之井底下{NEWLINE}藏着海鸣铃铛这件事,{CLEAR}是我们家族代代相传的秘密。{CLEAR}与呆呆兽们合力守护铃铛{CLEAR}是我们家族代代相传的使命。{SCROLL}岩铁『唉,只恨老头子我年事已高、{NEWLINE}孙女年纪尚小,{CLEAR}桧皮镇的阿笔馆主也是稍显稚嫩。{CLEAR}面对知晓了海鸣铃铛所在的火箭队,{CLEAR}靠我们恐怕难以应对。{CLEAR}现在最有能力保护海鸣铃铛的人,{CLEAR}就是火箭队的克星{VAR:0103:0}你了。{CLEAR}所以我想把海鸣铃铛交给你,{CLEAR}希望你能保护好它。{CLEAR}等哪天火箭队被彻底消灭了,{CLEAR}再把铃铛放回呆呆兽之井。",
+   "en": "Kurt: That the Tidal Bell lies hidden{NEWLINE}under Slowpoke Well has been a{CLEAR}secret passed down in my family for{CLEAR}generations. Guarding the bell together{CLEAR}with the Slowpoke is our family’s duty.{SCROLL}Kurt: Sigh... But this old man is getting{NEWLINE}on in years, my granddaughter is still{CLEAR}young, and Azalea’s Gym Leader Bugsy{CLEAR}is a little green himself. Now that{CLEAR}Team Rocket knows where the Tidal{CLEAR}Bell is, I doubt we can handle them{CLEAR}on our own. The person most able to{CLEAR}protect the Tidal Bell right now is{CLEAR}you, {VAR:0103:0}, Team Rocket’s nemesis.{CLEAR}So I’d like to entrust the Tidal Bell{CLEAR}to you. Please keep it safe. Once{CLEAR}Team Rocket is wiped out for good,{CLEAR}bring the bell back to Slowpoke Well.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "{VAR:0103:0}『好的,岩铁先生。{NEWLINE}我会保护好铃铛的。",
+   "en": "{VAR:0103:0}: All right, Mr. Kurt.{NEWLINE}I’ll keep the bell safe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "岩铁『如今火箭队死灰复燃,{NEWLINE}全地区的人可能都会受到威胁。{CLEAR}以后对抗火箭队,{CLEAR}可就要靠你们了啊！",
+   "en": "Kurt: Now that Team Rocket has{NEWLINE}risen from the ashes, people in every{CLEAR}region may be in danger. From now on,{CLEAR}fighting Team Rocket will be up to you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "阿金『我们也会帮助偶像,{NEWLINE}扫除火箭队！",
+   "en": "Gold: We’ll help my idol{NEWLINE}wipe out Team Rocket too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "水晶『嗯！尽我们自己的一份力！",
+   "en": "Crystal: Yes! We’ll do our part!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "{VAR:0103:0}『请您放心！",
+   "en": "{VAR:0103:0}: You can count on us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "岩铁『哈哈,真是年轻有为啊,{NEWLINE}加油吧！",
+   "en": "Kurt: Ha ha, such promising{NEWLINE}youngsters. Go get ’em!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "岩铁『老头子我是用柑果{NEWLINE}制作精灵球的专家,{CLEAR}你们如果收集到了柑果,{CLEAR}随时可以来找我做柑果球。{SCROLL}岩铁『还有这是我的电话号码,{NEWLINE}你们也记下来吧,以后方便联系。",
+   "en": "Kurt: This old man is an expert at{NEWLINE}making Poké Balls from Apricorns.{CLEAR}If you collect any Apricorns,{CLEAR}come see me anytime and I’ll{CLEAR}make Apricorn Balls for you.{SCROLL}Kurt: And here’s my phone number.{NEWLINE}Write it down, so we can keep in touch.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "{VAR:0103:0}在手机上{NEWLINE}登录了岩铁！",
+   "en": "{VAR:0103:0} registered{NEWLINE}Kurt in the Pokégear!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "岩铁『{VAR:0103:0}啊,{NEWLINE}我在下井的时候扭到了腰,{CLEAR}需要缓一缓。{SCROLL}岩铁『可恶……要是我身体没事{NEWLINE}早就用我的精灵狠狠教训火箭队了。{CLEAR}不过好在有水晶{CLEAR}和那个名叫阿金的少年帮忙,{CLEAR}火箭队已经接二连三地被打败了。",
+   "en": "Kurt: Ah, {VAR:0103:0}. I threw{NEWLINE}my back out climbing down the{CLEAR}well. I need to rest a bit.{SCROLL}Kurt: Dammit... If my body weren’t{NEWLINE}acting up, I’d have taught Team{CLEAR}Rocket a hard lesson with my Pokémon{CLEAR}long ago. Luckily Crystal and that{CLEAR}boy named Gold are helping, and Team{CLEAR}Rocket has been beaten again and again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "阿金『上啊,爆太郎！{NEWLINE}不要给敌人喘息的机会！",
+   "en": "Gold: Go, Exbo! Don’t give the{NEWLINE}enemy a chance to breathe!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "可恶啊……明明等级那么低,{NEWLINE}却因为战术变得这么难缠。",
+   "en": "Dammit... Its level is so low, but its{NEWLINE}tactics make it such a pain to deal with.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "水晶『月桂蹦不要着急,{NEWLINE}先用睡眠粉让对手睡觉。",
+   "en": "Crystal: Baylee, don’t rush. Use Sleep{NEWLINE}Powder to put the foe to sleep first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "脏、脏、脏！真是肮脏的打法！",
+   "en": "Dirty, dirty, dirty! What{NEWLINE}a dirty way to fight!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "喵喵『每次有升职加薪的机会{NEWLINE}就被你给破坏掉,{CLEAR}我们还真是不顺啊喵。",
+   "en": "Meowth: Every time we get a shot at a{NEWLINE}promotion and a raise, you go and wreck{CLEAR}it. We’ve got the worst luck, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "武藏『小鬼头,你都当上联盟冠军了,{NEWLINE}还跟我们这种小人物过不去,{CLEAR}至于吗？",
+   "en": "Jessie: Brat, you’re already{NEWLINE}League Champion, and you still{CLEAR}pick on little people like us?{CLEAR}Is that really necessary?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "小次郎『唉,只要遇上你,{NEWLINE}我们的任务铁定失败,{CLEAR}真是糟糕透了。",
+   "en": "James: Sigh... Whenever we{NEWLINE}run into you, our mission fails{CLEAR}for sure. This is the worst.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "呆呆兽『……　……　……{SCROLL}……　……　……{SCROLL}",
+   "en": "Slowpoke: ...{SCROLL}...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "呆呆兽『S……l……o……",
+   "en": "Slowpoke: S... l... o...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "呆河马『……　……　……{SCROLL}……　……　……{SCROLL}",
+   "en": "Slowbro: ...{SCROLL}...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "呆河马『S……l……o……",
+   "en": "Slowbro: S... l... o...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "河马王『Slooo……{SCROLL}河马王似乎在向你表达敬意。",
+   "en": "Slowking: Slooo...{SCROLL}Slowking seems to be{NEWLINE}showing you its respect.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

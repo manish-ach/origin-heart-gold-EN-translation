@@ -1,0 +1,1061 @@
+{
+ "narc": "a027",
+ "bank": 585,
+ "source": "work/extract/v4/a027/0585.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "小次郎『上次执行任务时{NEWLINE}那个带着火岩鼠的小鬼好狠啊。{CLEAR}在关东面对那个冠军小鬼的时候,{CLEAR}都没有被修理得这么惨过。",
+   "en": "James: That brat with the Quilava{NEWLINE}on our last mission was vicious.{CLEAR}Even that Champion brat in Kanto{CLEAR}never worked us over this badly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#0-#37 Goldenrod clinic: Jessie/James/Meowth recovering after Gold's Quilava (the ‘brat’) beat them; #11 arrest → #19-#31 they flee vs #12 let them go → #13-#18, #34-#37. #38-#125 Purugly girl: #52 ask Team Rocket to stage an attack; #97-#105 player wins by mistake vs #106-#108 player throws the fight; #95/#96 male/female."
+  },
+  {
+   "id": 1,
+   "zh": "武藏『明明咱们手里{NEWLINE}都没有能战斗的精灵了,{CLEAR}却还命令火岩鼠攻击,{CLEAR}把老娘的头发都烧掉了一块。",
+   "en": "Jessie: We didn’t have a single{NEWLINE}Pokémon left that could fight,{CLEAR}and he still ordered his Quilava to{CLEAR}attack! It burned a whole chunk{CLEAR}of this lady’s hair clean off!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "老娘 → ‘this lady’ (D-0911)."
+  },
+  {
+   "id": 2,
+   "zh": "喵喵『幸好最后还是跑掉了喵。{NEWLINE}而且还被路过的医生{CLEAR}带到这里来治疗。{CLEAR}这已经是不错的结局了喵。",
+   "en": "Meowth: Good thing we got away in{NEWLINE}the end, meow. And a passin’ doctor{CLEAR}even brought us here for treatment.{CLEAR}Coulda ended way worse, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "武藏、小次郎『就是说啊,{NEWLINE}好久都没有安心休息过了。",
+   "en": "Jessie & James: You said it. We{NEWLINE}haven’t had a proper rest in ages.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "小次郎『咦！小鬼头！？{NEWLINE}你怎么会在这里！？",
+   "en": "James: Wha?! The brat?!{NEWLINE}What are you doing here?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "武藏『咦！冠军小鬼头！？{NEWLINE}你怎么会在这里！？",
+   "en": "Jessie: Wha?! The Champion{NEWLINE}brat?! What are you doing here?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0103:0}『我正好路过满金市,{NEWLINE}没想到你们竟然会{CLEAR}明目张胆地出现在这里。{CLEAR}是不是火箭队又要搞什么阴谋了！",
+   "en": "{VAR:0103:0}: I was just passing through{NEWLINE}Goldenrod, and I never expected you{CLEAR}to show your faces here so brazenly.{CLEAR}Is Team Rocket up to another scheme?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "武藏『你在说什么傻话啊,{NEWLINE}我们是因为上次任务受伤了,{CLEAR}在这里治疗休养。{CLEAR}现在可没有任务在身。",
+   "en": "Jessie: What nonsense are you{NEWLINE}spouting? We got hurt on our{CLEAR}last mission, so we’re here{CLEAR}to heal up and rest. We’re{CLEAR}not on any mission right now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "小次郎『对啊对啊,就算是坏人,{NEWLINE}也是要休息放松的！",
+   "en": "James: That’s right! Even bad{NEWLINE}guys need to rest and relax!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "武藏、喵喵『冠军小鬼头！？",
+   "en": "Jessie & Meowth: The Champion brat?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "小次郎、喵喵『冠军小鬼头！？",
+   "en": "James & Meowth: The Champion brat?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "少废话,跟我去归案",
+   "en": "You’re under arrest!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "今天先放你们一马",
+   "en": "I’ll let you off today",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0103:0}『看在你们不像{NEWLINE}要做坏事的份上,{CLEAR}今天先不抓你们了。",
+   "en": "{VAR:0103:0}: Since you don’t look{NEWLINE}like you’re up to anything bad,{CLEAR}I won’t arrest you today.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "武藏『居然真的大发慈悲了。",
+   "en": "Jessie: Well, well. The brat’s{NEWLINE}actually being gracious.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "小次郎『你真的是那个冠军小鬼头吗？",
+   "en": "James: Are you really{NEWLINE}that Champion brat?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "喵喵『会不会其中有诈啊喵。",
+   "en": "Meowth: Could it be{NEWLINE}some kinda trick, meow?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}『再废话我就把你们{NEWLINE}全都抓起来！",
+   "en": "{VAR:0103:0}: One more word and{NEWLINE}I’ll arrest the lot of you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "武藏、小次郎、喵喵『我们不说了！",
+   "en": "Jessie, James & Meowth: We’ll shut up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0103:0}『今天在这里堵到你们,{NEWLINE}可不能再让你们给跑了。{CLEAR}乖乖跟我去归案吧！",
+   "en": "{VAR:0103:0}: Now that I’ve cornered{NEWLINE}you here, I’m not letting you{CLEAR}get away again. Come quietly{CLEAR}and turn yourselves in!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "武藏『真是个残忍的小鬼头。",
+   "en": "Jessie: What a cruel brat.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "小次郎『面对我们三个受伤的人{NEWLINE}也要赶尽杀绝。",
+   "en": "James: Showing no mercy even to{NEWLINE}the three of us, hurt as we are.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "喵喵『真是比我们火箭队还坏啊喵。",
+   "en": "Meowth: That’s even worse{NEWLINE}than Team Rocket, meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "{VAR:0103:0}『看来你们是不打算{NEWLINE}乖乖跟我走了。",
+   "en": "{VAR:0103:0}: Looks like you’re{NEWLINE}not planning to come quietly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "武藏『跟你走？开什么玩笑！",
+   "en": "Jessie: Come with you?{NEWLINE}You’ve got to be kidding!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "小次郎『你难道忘了我们的特长吗？",
+   "en": "James: Have you{NEWLINE}forgotten our specialty?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "喵喵『就是溜得比谁都快啊喵。",
+   "en": "Meowth: Runnin’ away{NEWLINE}faster than anybody, meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "刚刚是怎么了？{NEWLINE}为什么那几个病人{CLEAR}忽然就跑出去了？",
+   "en": "What just happened? Why did{NEWLINE}those patients suddenly run out?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0103:0}『那几个人是火箭队,{NEWLINE}因为畏惧被捕就逃跑了。",
+   "en": "{VAR:0103:0}: Those people are Team{NEWLINE}Rocket. They ran because they{CLEAR}were afraid of getting arrested.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "哎？是火箭队吗？{NEWLINE}我看他们身上有伤的样子{CLEAR}就带他们来这里治疗,{CLEAR}没想到竟然是火箭队吗？",
+   "en": "Huh? They’re Team Rocket? They{NEWLINE}looked injured, so I brought{CLEAR}them here for treatment. I never{CLEAR}imagined they were Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0103:0}『这些坏人都很擅长伪装自己,{NEWLINE}你以后可要多加注意。",
+   "en": "{VAR:0103:0}: These bad guys are good at{NEWLINE}disguising themselves. You’ll need{CLEAR}to be more careful from now on.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "话是这么说啦,{NEWLINE}可是看到受伤的病人,{CLEAR}我作为医生恐怕不会见死不救。{SCROLL}不过我以后会注意辨别坏人,{NEWLINE}救治他们的同时尽快报警,{CLEAR}谢谢你的提醒啦。",
+   "en": "That may be so, but as a{NEWLINE}doctor, I could never leave{CLEAR}an injured patient to die.{SCROLL}Still, from now on I’ll watch out{NEWLINE}for bad guys, and call the police{CLEAR}as soon as I can while I treat{CLEAR}them. Thanks for the warning.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "武藏『上次执行任务时{NEWLINE}那个带着火岩鼠的小鬼好狠啊。{CLEAR}把老娘的头发都烧掉了一块。",
+   "en": "Jessie: That brat with the{NEWLINE}Quilava on our last mission was{CLEAR}vicious. It burned a whole chunk{CLEAR}of this lady’s hair clean off!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "小次郎『对啊对啊,{NEWLINE}就算是关东的那个冠军小鬼,{CLEAR}都没有下手这么狠过。",
+   "en": "James: That’s right! Even{NEWLINE}that Champion brat in Kanto{CLEAR}never went at us this hard.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "小次郎『难得你这么好心{NEWLINE}不找我们麻烦,{CLEAR}终于可以放松一下喽。",
+   "en": "James: It’s not often you’re{NEWLINE}nice enough to leave us{CLEAR}alone. At last, we can relax.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "武藏『你是联盟冠军,{NEWLINE}说话可要算数。{CLEAR}可不能抓我们哦！",
+   "en": "Jessie: You’re the League{NEWLINE}Champion, so you’d better keep{CLEAR}your word. No arresting us, got it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "喵喵『这里的饭真不错啊喵,{NEWLINE}多吃点、多吃点喵！",
+   "en": "Meowth: The food here’s pretty{NEWLINE}good, meow! Eat up, eat up, meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "喵喵『你要不要尝尝这里的饭啊喵,{NEWLINE}很好吃的喵。",
+   "en": "Meowth: Wanna try the food here,{NEWLINE}meow? It’s real tasty, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "我从卷尾猫养成的肥蓝猫,{NEWLINE}因为进化后变得不好看{CLEAR}已经被我放生到野外了。{CLEAR}可是放生之后我才意识到,{CLEAR}我和它曾经一起经历了那么多……{SCROLL}我现在好想它啊,呜呜……",
+   "en": "I released my Purugly into the wild.{NEWLINE}I raised it from a Glameow, but it{CLEAR}got ugly after it evolved. Only{CLEAR}after I let it go did I realize how{CLEAR}much we’d been through together...{SCROLL}I miss it so much now... *sob*...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "我以前因为觉得卷尾猫好看,{NEWLINE}就特地去神奥地区买了一只回来。{CLEAR}可是养了几年之后,{CLEAR}卷尾猫居然进化成了肥蓝猫！{SCROLL}这肥胖的体型简直不忍直视,{NEWLINE}我已经决定要把它给放生了。",
+   "en": "I thought Glameow were pretty, so I{NEWLINE}went all the way to Sinnoh to buy one.{CLEAR}But after raising it for a few years,{CLEAR}my Glameow evolved into a Purugly!{SCROLL}That fat body is just too painful to{NEWLINE}look at. I’ve decided to release it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "养这么久该有感情了吧",
+   "en": "Surely you love it by now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 41,
+   "zh": "随你便吧",
+   "en": "Suit yourself",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 42,
+   "zh": "{VAR:0103:0}『既然养过好多年,{NEWLINE}那应该很有感情吧,{CLEAR}为什么一定要放生呢？",
+   "en": "{VAR:0103:0}: You’ve raised it for years,{NEWLINE}so you must really care about it.{CLEAR}Why do you have to release it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "日久生情是一回事,{NEWLINE}审美又是另一回事。{CLEAR}我身材这么苗条,{CLEAR}当然也喜欢苗条好看的精灵。{CLEAR}像肥蓝猫这种又胖又丑的,{CLEAR}我真的不想继续养下去了。",
+   "en": "Growing fond of something over time{NEWLINE}is one thing, and taste is another.{CLEAR}I’m so slim, so of course I like slim,{CLEAR}pretty Pokémon too. Something fat{CLEAR}and ugly like Purugly... I really{CLEAR}don’t want to keep it anymore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "肥蓝猫『Pur……{SCROLL}肥蓝猫的情绪很低落。",
+   "en": "Purugly: Pur...{SCROLL}Purugly looks very down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0103:0}『你看,肥蓝猫并不想离开你。",
+   "en": "{VAR:0103:0}: Look, Purugly{NEWLINE}doesn’t want to leave you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "不要伤心啦肥蓝猫,{NEWLINE}聚散总有时嘛。{CLEAR}回归大自然对你来说也许不错呢。",
+   "en": "Don’t be sad, Purugly. All good{NEWLINE}things must end. Going back to{CLEAR}nature might be good for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "肥蓝猫『Pur……",
+   "en": "Purugly: Pur...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "谢谢你的陪伴哦肥蓝猫,{NEWLINE}但是我只喜欢苗条好看的东西。{CLEAR}所以当你进化的时候,{CLEAR}就注定了咱们的分别。",
+   "en": "Thanks for being with me,{NEWLINE}Purugly. But I only like slim,{CLEAR}pretty things. So the moment you{CLEAR}evolved, we were bound to part.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0103:0}『你不再考虑一下了？",
+   "en": "{VAR:0103:0}: You won’t reconsider?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "分别总是艰难的,{NEWLINE}所以这时候还是果断一点比较好。{CLEAR}请你不要再劝说了。",
+   "en": "Goodbyes are always hard, so it’s{NEWLINE}best to be quick about it. Please{CLEAR}don’t try to talk me out of it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "我现在越看肥蓝猫圆滚滚的身体{NEWLINE}越觉得可爱。",
+   "en": "The more I look at Purugly’s round,{NEWLINE}chubby body now, the cuter it seems.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "找火箭队帮忙留下肥蓝猫",
+   "en": "Ask Team Rocket for help",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 53,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 54,
+   "zh": "{VAR:0103:0}『你们休息够了没有？{NEWLINE}我现在有一件事需要你们帮忙。",
+   "en": "{VAR:0103:0}: Have you three{NEWLINE}rested enough? I need{CLEAR}your help with something.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "小次郎『我没听错吧？",
+   "en": "James: Did I hear that right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "武藏『联盟冠军要跟火箭队合作？",
+   "en": "Jessie: The League Champion wants{NEWLINE}to team up with Team Rocket?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "喵喵『今天太阳是从西边出来的吗喵？",
+   "en": "Meowth: Is the sun risin’{NEWLINE}in the west today, meow?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "武藏『我没听错吧？",
+   "en": "Jessie: Did I hear that right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "小次郎『联盟冠军要跟火箭队合作？",
+   "en": "James: The League Champion wants{NEWLINE}to team up with Team Rocket?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "{VAR:0103:0}『身份什么的不重要了,{NEWLINE}你们现在听好我说的事。{CLEAR}满金市里有一个女孩{CLEAR}准备放生她的肥蓝猫,{CLEAR}但看得出来他们对彼此还有感情。{CLEAR}所以我想让你们去假装攻击肥蓝猫,{CLEAR}然后我再去假装救人,{CLEAR}结果却被你们打败。{CLEAR}最后让肥蓝猫保护主人把你们赶跑。{SCROLL}{VAR:0103:0}『或许它的主人一受感动,{NEWLINE}就不会放生肥蓝猫了。",
+   "en": "{VAR:0103:0}: Never mind who’s who.{NEWLINE}Listen carefully. There’s a girl in{CLEAR}Goldenrod who’s about to release her{CLEAR}Purugly, but you can tell they still{CLEAR}care about each other. So I want you{CLEAR}to pretend to attack Purugly. Then{CLEAR}I’ll pretend to come to the rescue{CLEAR}and lose to you. In the end, Purugly{CLEAR}protects its owner and drives you off.{SCROLL}{VAR:0103:0}: Maybe its owner will be so{NEWLINE}moved that she won’t release Purugly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "武藏『哦？让我们去演坏人啊。{NEWLINE}这根本就不用演嘛。",
+   "en": "Jessie: Oh? You want us to play the{NEWLINE}bad guys? We don’t even need to act!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "小次郎『而且还有{NEWLINE}打败联盟冠军的戏码！",
+   "en": "James: And there’s even a scene{NEWLINE}where we beat the League Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "喵喵『传出去我们就是{NEWLINE}火箭队的英雄了喵。",
+   "en": "Meowth: Once word gets out, we’ll{NEWLINE}be Team Rocket heroes, meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "武藏『说不定还能{NEWLINE}直接升职做干部呢。",
+   "en": "Jessie: We might even get{NEWLINE}promoted straight to Executive!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "小次郎『真是赚翻了啊！{NEWLINE}哦不对。{SCROLL}小次郎『你的这个忙我们帮定了！",
+   "en": "James: What a jackpot! Oh, wait.{SCROLL}James: We’ll help you{NEWLINE}with this, no question!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "{VAR:0103:0}『那就赶快去吧！{NEWLINE}他们就在满金市东南方向的房子里,{CLEAR}注意别伤害那个女孩啊。",
+   "en": "{VAR:0103:0}: Then hurry! They’re{NEWLINE}in the house in the southeast{CLEAR}of Goldenrod City. And be{CLEAR}careful not to hurt that girl.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "小次郎『放心,包在我们身上。",
+   "en": "James: Relax, leave it to us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "小次郎『说不定还能{NEWLINE}直接升职做干部呢。",
+   "en": "James: We might even get{NEWLINE}promoted straight to Executive!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "武藏『真是赚翻了啊！{NEWLINE}哦不对。{SCROLL}武藏『你的这个忙我们帮定了！",
+   "en": "Jessie: What a jackpot! Oh, wait.{SCROLL}Jessie: We’ll help you{NEWLINE}with this, no question!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "武藏『放心,包在我们身上。",
+   "en": "Jessie: Relax, leave it to us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "武藏『我看你的肥蓝猫养的不错,{NEWLINE}挺有训练家的资质啊。",
+   "en": "Jessie: Your Purugly looks{NEWLINE}well raised. You’ve got the{CLEAR}makings of a real Trainer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "小次郎『正好我们火箭队最近缺人手,{NEWLINE}你不如跟我们走,一起加入火箭队吧。",
+   "en": "James: As it happens, Team Rocket’s{NEWLINE}been short-handed lately. Why not{CLEAR}come with us and join Team Rocket?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "喵喵『一起统治整个地区啊喵。",
+   "en": "Meowth: We’ll rule the whole{NEWLINE}region together, meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "开什么玩笑,火箭队恶名昭彰。{NEWLINE}我才不要与你们为伍呢！",
+   "en": "Are you kidding? Team{NEWLINE}Rocket is notorious. I’d{CLEAR}never join the likes of you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "武藏『哟,小姑娘。{NEWLINE}你一个人在家呢？",
+   "en": "Jessie: Well, hello, little{NEWLINE}girl. All alone at home?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "你们是谁？为什么突然闯进我家！",
+   "en": "Who are you? Why did you{NEWLINE}barge into my house?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "武藏『既然你诚心诚意地发问了,",
+   "en": "Jessie: Prepare for trouble!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 78,
+   "zh": "小次郎『我们就大发慈悲地告诉你。",
+   "en": "James: Make it double!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 79,
+   "zh": "武藏『为了防止世界被破坏,",
+   "en": "Jessie: To protect the world{NEWLINE}from devastation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 80,
+   "zh": "小次郎『为了守护世界的和平。",
+   "en": "James: To unite all peoples within{NEWLINE}our nation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 81,
+   "zh": "武藏『贯彻爱与真实的邪恶,",
+   "en": "Jessie: To denounce the evils of truth{NEWLINE}and love!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 82,
+   "zh": "小次郎『可爱又迷人的反派角色。",
+   "en": "James: To extend our reach to the{NEWLINE}stars above!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 83,
+   "zh": "武藏『武藏！",
+   "en": "Jessie: Jessie!",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 84,
+   "zh": "小次郎『小次郎！",
+   "en": "James: James!",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 85,
+   "zh": "武藏『我们是穿梭在银河的火箭队,",
+   "en": "Jessie: Team Rocket, blast off at the{NEWLINE}speed of light!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 86,
+   "zh": "小次郎『白洞,白色的明天在等着我们！",
+   "en": "James: Surrender now, or prepare{NEWLINE}to fight!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 87,
+   "zh": "喵喵『就是这样喵！",
+   "en": "Meowth: Meowth! That’s right!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 88,
+   "zh": "武藏『你要是不听话,{NEWLINE}就别怪我们使用暴力了哦。",
+   "en": "Jessie: If you don’t do as you’re told,{NEWLINE}don’t blame us for getting rough.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "你们这些坏人……！",
+   "en": "You bad people...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "{VAR:0103:0}『住手！火箭队！{NEWLINE}离那个女孩远点！",
+   "en": "{VAR:0103:0}: Stop right there, Team{NEWLINE}Rocket! Get away from that girl!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "武藏『哟,这不是联盟冠军{VAR:0103:0}吗？",
+   "en": "Jessie: Well, if it isn’t{NEWLINE}League Champion {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "小次郎『你又要来碍我们的事吗！",
+   "en": "James: Here to get in our way again?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "喵喵『真是个讨人厌的家伙啊喵。",
+   "en": "Meowth: What an annoyin’ pest, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "哇！原来你是联盟冠军？{NEWLINE}传说中的火箭队克星！{CLEAR}太好了,有你在我就不用担心了。",
+   "en": "Wow! You’re the League Champion?{NEWLINE}The legendary scourge of Team{CLEAR}Rocket! Thank goodness. With{CLEAR}you here, I don’t have to worry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "武藏『你还真当这个冠军有多厉害啊,{NEWLINE}看我今天把他揍扁！",
+   "en": "Jessie: You really think this Champion is{NEWLINE}so great? Watch me flatten him today!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "武藏『你还真当这个冠军有多厉害啊,{NEWLINE}看我今天把她揍扁！",
+   "en": "Jessie: You really think this Champion is{NEWLINE}so great? Watch me flatten her today!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "武藏『咦？跟说好的不一样啊……",
+   "en": "Jessie: Huh? This isn’t{NEWLINE}what we agreed on...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "小次郎『可能是想演的更逼真一点吧……{SCROLL}小次郎『换我来！",
+   "en": "James: Maybe the idea is to{NEWLINE}make it look more convincing...{SCROLL}James: My turn!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "小次郎『啊……我也输了……",
+   "en": "James: Ugh... I lost too...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "武藏『喂！你这个冠军！{NEWLINE}到底想干什么！",
+   "en": "Jessie: Hey! You, Champion!{NEWLINE}What are you trying to pull?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "{VAR:0103:0}『啊……我……嗯……{NEWLINE}火箭队,知道我的厉害就赶紧离开,{CLEAR}不许再欺负别人了！",
+   "en": "{VAR:0103:0}: Ah... I... um... Team{NEWLINE}Rocket, now that you know{CLEAR}how strong I am, clear out!{CLEAR}And no more picking on people!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "武藏『真是个无聊的小鬼！",
+   "en": "Jessie: What a lame brat!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "小次郎『我感觉受到了深深的欺骗。",
+   "en": "James: I feel deeply betrayed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "喵喵『这种人也能当冠军啊喵。",
+   "en": "Meowth: And this is what{NEWLINE}passes for a Champion, meow?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "武藏、小次郎、喵喵『走啦走啦！",
+   "en": "Jessie, James & Meowth:{NEWLINE}Let’s go, let’s go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "武藏『哈哈,我就说嘛。{NEWLINE}区区冠军怎么会是我们的对手！",
+   "en": "Jessie: Ha ha, what did I tell you?{NEWLINE}A mere Champion is no match for us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "你真的是联盟冠军吗？{NEWLINE}怎么看起来这么弱？",
+   "en": "Are you really the League{NEWLINE}Champion? Why do you seem so weak?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "{VAR:0103:0}『啊……我……{NEWLINE}我的王牌精灵今天没有带在身上。",
+   "en": "{VAR:0103:0}: Ah... I... My ace{NEWLINE}Pokémon isn’t with me today.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "武藏『闪开啦！别妨碍我办事。",
+   "en": "Jessie: Out of the way!{NEWLINE}Don’t get in my way.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "你不要过来啊！",
+   "en": "Stay away from me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "肥蓝猫『Puuuu——ru！",
+   "en": "Purugly: Puuuu-ru!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "武藏『嗯？这只肥蓝猫是想保护主人吗？",
+   "en": "Jessie: Hm? This Purugly{NEWLINE}wants to protect its owner?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "小次郎『真是不自量力,{NEWLINE}联盟冠军都不是我们的对手。{CLEAR}就凭你也想阻挡我们？",
+   "en": "James: How foolish. Not even{NEWLINE}the League Champion could beat{CLEAR}us. You think you can stop us?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "武藏『哦、唔、啊！",
+   "en": "Jessie: Oh! Ugh! Aah!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "小次郎『好疼好疼！",
+   "en": "James: Ow, ow, ow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "武藏『喵喵,你不也是猫吗？{NEWLINE}快去挠它！",
+   "en": "Jessie: Meowth, aren’t you{NEWLINE}a cat too? Go scratch it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "喵喵『你看体型也知道{NEWLINE}我们不是一个重量级的喵。",
+   "en": "Meowth: Just look at our sizes. We{NEWLINE}ain’t in the same weight class, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "武藏『可恶啊,居然跑出这么个精灵,{NEWLINE}比联盟冠军还难对付。",
+   "en": "Jessie: Dammit, where did this{NEWLINE}Pokémon come from? It’s harder to{CLEAR}deal with than the League Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "小次郎『是因为对主人的忠心,{NEWLINE}才会这么强吗？",
+   "en": "James: Is it this strong because{NEWLINE}of its loyalty to its owner?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "喵喵『占卜的人说咱们今天运气不好,{NEWLINE}所以我看还是先撤退吧喵。",
+   "en": "Meowth: The fortune-teller said{NEWLINE}we’d have bad luck today, so I{CLEAR}say we retreat for now, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "武藏『嗯,有道理。撤退！",
+   "en": "Jessie: Hmm, good point. Retreat!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "肥蓝猫！幸好有你保护我,{NEWLINE}火箭队真是太吓人了,呜呜呜……{SCROLL}我都不知道你原来这么强！{NEWLINE}虽然我一直想把你给放生,{CLEAR}但是你却没有抛弃我……{CLEAR}呜呜呜……看来是我错了。{CLEAR}我太在意你的外表,{CLEAR}却忽视了你对我的感情。{SCROLL}对不起啦肥蓝猫,{NEWLINE}我以后再也不会说放生的事了,{CLEAR}我希望你能永远陪在我身边。",
+   "en": "Purugly! Thank goodness you{NEWLINE}protected me. Team Rocket{CLEAR}was so scary... *sob*...{SCROLL}I had no idea you were this strong! I{NEWLINE}kept wanting to release you, but you{CLEAR}never abandoned me... *sob*... I was{CLEAR}wrong. I cared too much about your{CLEAR}looks and ignored your feelings for me.{SCROLL}I’m sorry, Purugly. I’ll never talk{NEWLINE}about releasing you again. I want{CLEAR}you to stay by my side forever.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "谢谢冠军大人出手相救！{NEWLINE}不然真不知道会发生什么可怕的事。{CLEAR}这是我的一点谢礼,请你收下吧。",
+   "en": "Thank you for saving me, Champion! Who{NEWLINE}knows what awful things would have{CLEAR}happened otherwise. Here’s a little{CLEAR}something to thank you. Please take it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "谢谢冠军大人出手相救！{NEWLINE}不然真不知道会发生什么可怕的事。",
+   "en": "Thank you for saving me, Champion!{NEWLINE}Who knows what awful things{CLEAR}would have happened otherwise.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 125,
+   "zh": "我以后再也不会说放生的事了,{NEWLINE}我希望肥蓝猫能永远陪在我身边。",
+   "en": "I’ll never talk about releasing{NEWLINE}Purugly again. I want Purugly{CLEAR}to stay by my side forever.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "我曾经是一名口袋妖怪训练家,{NEWLINE}但我不喜欢用精灵战斗。{CLEAR}于是就开了这间借助精灵能力{CLEAR}为人类治疗病痛的诊所。",
+   "en": "I used to be a Pokémon Trainer,{NEWLINE}but I didn’t like making Pokémon{CLEAR}fight. So I opened this clinic,{CLEAR}where Pokémon use their abilities{CLEAR}to treat people’s ailments.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 127,
+   "zh": "咩利羊『Maaa——ree！",
+   "en": "Mareep: Maaa-ree!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 128,
+   "zh": "线球『Spiii——na！",
+   "en": "Spinarak: Spiii-na!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 129,
+   "zh": "这人只要上了年纪,{NEWLINE}就肯定会腰酸背痛。{CLEAR}幸好咩利羊能用静电疗法{CLEAR}帮我缓解肌肉疼痛。{SCROLL}我感觉自己一刻也离不开{NEWLINE}这只可爱的小羊了。",
+   "en": "Once you get older, your back is{NEWLINE}bound to ache. Luckily, Mareep{CLEAR}can ease my muscle pain with{CLEAR}static electricity therapy.{SCROLL}I feel like I can’t go a moment{NEWLINE}without this cute little sheep.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 130,
+   "zh": "用线球丝包扎伤口,结实又透气,{NEWLINE}而且还能加速愈合呢！",
+   "en": "Bandages made of Spinarak silk are{NEWLINE}strong and breathable, and they{CLEAR}even help wounds heal faster!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,1767 @@
+{
+ "narc": "a027",
+ "bank": 727,
+ "source": "work/extract/v4/a027/0727.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "打招呼",
+   "en": "GREET",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 1,
+   "zh": "绘画",
+   "en": "DRAW",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 2,
+   "zh": "对战",
+   "en": "BATTLE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 3,
+   "zh": "交换",
+   "en": "TRADE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s)"
+  },
+  {
+   "id": 4,
+   "zh": "算了",
+   "en": "QUIT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "旋转",
+   "en": "SPIN TRADE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "记录",
+   "en": "RECORDS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s)"
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:011C:2}{VAR:0201:15}{SCROLL}{VAR:0103:0}{NEWLINE}开始说话了！",
+   "en": "{VAR:011C:2}{VAR:0201:15}{SCROLL}{VAR:0103:0}{NEWLINE}has started talking to you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0738/7 | zh: {name} started talking"
+  },
+  {
+   "id": 8,
+   "zh": "会话中止。",
+   "en": "The chat has been dropped.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "正在等待{VAR:0103:0}{NEWLINE}的回音。",
+   "en": "Awaiting a response from{NEWLINE}{VAR:0103:0}...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/9"
+  },
+  {
+   "id": 10,
+   "zh": "会话中止。",
+   "en": "The chat was ended.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0103:0}拿出了{NEWLINE}训练师盒子,{SCROLL}你也要拿出{NEWLINE}训练师卡给他看吗？{VAR:0200:0}",
+   "en": "{VAR:0103:0} took out{NEWLINE}a Trainer Box.{SCROLL}Will you show your Trainer Card, too? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RB-005: zh 训练师盒子 (Trainer Box) while #12/#13 say 训练师卡; kept as the zh says (D-1195)"
+  },
+  {
+   "id": 12,
+   "zh": "看到了住在{VAR:0124:3}{NEWLINE}{VAR:0125:4}{SCROLL}的{VAR:0103:0}的{NEWLINE}训练师卡！",
+   "en": "This is the Trainer Card of{NEWLINE}{VAR:0103:0}, who lives in{CLEAR}{VAR:0125:4},{CLEAR}{VAR:0124:3}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/12"
+  },
+  {
+   "id": 13,
+   "zh": "看到了住在{VAR:0124:3}{NEWLINE}的{VAR:0103:0}的{CLEAR}训练师卡！",
+   "en": "This is the Trainer Card of {VAR:0103:0}, who{NEWLINE}lives in {VAR:0124:3}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "看到了住在{VAR:0125:4}{NEWLINE}的{VAR:0103:0}的{CLEAR}训练师盒子！",
+   "en": "This is the Trainer Box of{NEWLINE}{VAR:0103:0}, who lives in{CLEAR}{VAR:0125:4}.{NEWLINE}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0738/14; ext-review RB-005: zh 训练师盒子 (Trainer Box); kept as the zh says (D-1195)"
+  },
+  {
+   "id": 15,
+   "zh": "看到了{VAR:0103:0}的{NEWLINE}训练师卡！",
+   "en": "This is {VAR:0103:0}’s Trainer Card.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "等待对方的结束。",
+   "en": "Waiting for the other player to finish.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/16"
+  },
+  {
+   "id": 17,
+   "zh": "拒绝了邀请。",
+   "en": "You declined the offer.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/17"
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0}邀请{NEWLINE}参加绘画,{SCROLL}要一起绘画吗？{VAR:0200:0}",
+   "en": "{VAR:0103:0} has invited you to draw{NEWLINE}something.{SCROLL}Would you like to join the other{NEWLINE}player and draw? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/18"
+  },
+  {
+   "id": 19,
+   "zh": "开始绘画！",
+   "en": "Let’s get drawing!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/19"
+  },
+  {
+   "id": 20,
+   "zh": "拒绝了邀请。",
+   "en": "You declined the invitation.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/20"
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0103:0}申请了{NEWLINE}对战,{SCROLL}接受对战吗？{VAR:0200:0}",
+   "en": "{VAR:0103:0} challenges you to a battle.{SCROLL}Will you accept the battle? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "对战开始！",
+   "en": "The battle will begin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0738/192 | seed rejected us [ambiguous US match] (candidate US 0738#192; text not kept)"
+  },
+  {
+   "id": 23,
+   "zh": "你拒绝了邀请。",
+   "en": "You declined to take part.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/23"
+  },
+  {
+   "id": 24,
+   "zh": "如果要对战,{NEWLINE}你必须要有３０级以下的精灵{CLEAR}２只。",
+   "en": "For a battle, you need two{NEWLINE}Pokémon that are Lv. 30 or below.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/24"
+  },
+  {
+   "id": 25,
+   "zh": "对战被取消了。",
+   "en": "The battle has been canceled.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/25"
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0103:0}申请了{NEWLINE}交换,{SCROLL}接受交换吗？{VAR:0200:0}",
+   "en": "{VAR:0103:0} has offered to make a trade.{SCROLL}Will you accept the trade offer? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "交换开始！",
+   "en": "The trade will begin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0738/193 | seed rejected us [ambiguous US match] (candidate US 0738#193; text not kept)"
+  },
+  {
+   "id": 28,
+   "zh": "你拒绝了邀请。",
+   "en": "You declined the offer.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/28"
+  },
+  {
+   "id": 29,
+   "zh": "如果要交换,你必须要拥有　{NEWLINE}有２只精灵以上。",
+   "en": "For trading, you must have at least two{NEWLINE}Pokémon with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0103:0}发出了记录通信{NEWLINE}的邀请,{SCROLL}你要一起进行记录通信吗？{VAR:0200:0}",
+   "en": "{VAR:0103:0} invites you to mix records.{SCROLL}Would you like to mix records together? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "开始记录通信！",
+   "en": "Record mixing will begin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "你拒绝了邀请。",
+   "en": "You declined the invitation.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/32"
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0103:0}发来了旋转交换的{NEWLINE}邀请,{SCROLL}你要一起旋转交换吗？{VAR:0200:0}",
+   "en": "{VAR:0103:0} has invited you to a Spin Trade.{SCROLL}Will you join the Spin Trade? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "开始 {NEWLINE}旋转交换！",
+   "en": "Starting the Spin Trade!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/34"
+  },
+  {
+   "id": 35,
+   "zh": "你拒绝了邀请。",
+   "en": "You declined the invitation.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/35"
+  },
+  {
+   "id": 36,
+   "zh": "你没有蛋,{NEWLINE}拒绝了邀请。",
+   "en": "You don’t have an Egg.{NEWLINE}The invitation was turned down.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/36"
+  },
+  {
+   "id": 37,
+   "zh": "{VAR:011C:2}{VAR:0201:15}{SCROLL}{VAR:0103:0}！{NEWLINE}有什么事？",
+   "en": "{VAR:011C:2}{VAR:0201:15}{SCROLL}This is {VAR:0103:0}! Is there{NEWLINE}something that you wanted to do?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/37"
+  },
+  {
+   "id": 38,
+   "zh": "啊！对不起,{NEWLINE}我还有其他事,{CLEAR}下次见吧！",
+   "en": "Whoops! Sorry, but I have to do{NEWLINE}something else.{CLEAR}Another time, OK?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/38"
+  },
+  {
+   "id": 39,
+   "zh": "其他的还有{NEWLINE}什么要做的？",
+   "en": "Is there anything else you want to do?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "⋯⋯{NEWLINE}现在正接收中。",
+   "en": "...{NEWLINE}They’re receiving right now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "{VAR:0103:0}{NEWLINE}没有回应⋯⋯",
+   "en": "{VAR:0103:0}{NEWLINE}isn’t responding...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "明白！就给你看看{NEWLINE}训练师卡以示友好吧。",
+   "en": "Sure thing! In greeting, allow me to{NEWLINE}show you my Trainer Card.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/42"
+  },
+  {
+   "id": 43,
+   "zh": "哎！？找不到{NEWLINE}训练师盒子,{SCROLL}对不起！下次吧。",
+   "en": "Huh? My Trainer Box...{NEWLINE}Where’d it go now?{SCROLL}Sorry! I’ll show you another time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0738/43; ext-review RB-005: zh 训练师盒子 (Trainer Box); kept as the zh says (D-1195)"
+  },
+  {
+   "id": 44,
+   "zh": "现在就让你看看{NEWLINE}我的训练师卡。",
+   "en": "I’ll show you my Trainer Card now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "今后也还请{NEWLINE}多多关照！",
+   "en": "I hope I get to know you better!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/45"
+  },
+  {
+   "id": 46,
+   "zh": "和我一起绘画吗？{NEWLINE}嗯,稍微等一下。",
+   "en": "Oh, did you want to draw with me?{NEWLINE}Sure thing, but hang on just a second.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/46"
+  },
+  {
+   "id": 47,
+   "zh": "啊,久等了！{NEWLINE}那么开始绘画吧！",
+   "en": "Thanks for waiting!{NEWLINE}Let’s get drawing!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/47"
+  },
+  {
+   "id": 48,
+   "zh": "啊,对不起！{NEWLINE}下次再一起绘画！",
+   "en": "Oh, sorry! I can’t now.{NEWLINE}Let’s draw another time.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/48"
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0103:0}「我们现在在画画！{SCROLL}对了！{VAR:0103:1}也一起来画吧？{VAR:0200:0}",
+   "en": "{VAR:0103:0}: We’re drawing right{NEWLINE}now.{SCROLL}Oh, I know! {VAR:0103:1}, would{NEWLINE}you like to draw with us? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/49"
+  },
+  {
+   "id": 50,
+   "zh": "是吗？{NEWLINE}那下次再说吧！",
+   "en": "Oh, all right.{NEWLINE}Maybe next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "好！那么一起画画吧！",
+   "en": "OK! Let’s do some drawing{NEWLINE}together!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/51"
+  },
+  {
+   "id": 52,
+   "zh": "啊,对不起！{NEWLINE}现在还是有点不方便啊,{CLEAR}还是下次在一起画吧！",
+   "en": "Oh, sorry! Now’s not a good time.{NEWLINE}Let’s draw together another time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "原来如此！{NEWLINE}画画接龙吧！",
+   "en": "The last letter of what you draw has{NEWLINE}to be the first letter of what I draw?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/53"
+  },
+  {
+   "id": 54,
+   "zh": "又画了一张奇怪的脸,{NEWLINE}不要笑啊！",
+   "en": "You drew another funny face! Don’t{NEWLINE}make me laugh!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0738/54; ext-review RB-005"
+  },
+  {
+   "id": 55,
+   "zh": "哇~好厉害啊！{NEWLINE}我也要跟着画画看！",
+   "en": "Wow, you’re good!{NEWLINE}I’ll try to imitate you!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/55"
+  },
+  {
+   "id": 56,
+   "zh": "⋯⋯哼哼,什么？{NEWLINE}那个是我的脸吗？",
+   "en": "...Uh-huh... What is that?{NEWLINE}That’s supposed to be me?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/56"
+  },
+  {
+   "id": 57,
+   "zh": "对战啊！{NEWLINE}好,稍微等一下！",
+   "en": "A battle? Of course, but I need{NEWLINE}time to get ready.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/57"
+  },
+  {
+   "id": 58,
+   "zh": "久等了！{NEWLINE}那么开始对战吧！",
+   "en": "Thanks for waiting!{NEWLINE}Let’s get our battle started!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/58"
+  },
+  {
+   "id": 59,
+   "zh": "对不起！我精灵的{NEWLINE}状态好像有点不太好,{CLEAR}下次再对战吧！",
+   "en": "Sorry! My Pokémon don’t seem to{NEWLINE}be feeling too well right now.{CLEAR}Let me battle you another time.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/59"
+  },
+  {
+   "id": 60,
+   "zh": "如果要对战,{NEWLINE}必须要有３０级以下的精灵{CLEAR}２只。{SCROLL}",
+   "en": "If you want to battle, you need two{NEWLINE}Pokémon that are Lv. 30 or lower.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/60"
+  },
+  {
+   "id": 61,
+   "zh": "哦！{NEWLINE}相当强悍啊！",
+   "en": "Whoa!{NEWLINE}You’re pretty tough!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "不要在这种地方{NEWLINE}使用这种招数！",
+   "en": "Don’t use a move like that{NEWLINE}in a place like this!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US line differs (praise); zh scolds the move choice"
+  },
+  {
+   "id": 63,
+   "zh": "了不起！{NEWLINE}还有那样的战斗方式吗！",
+   "en": "Amazing! So you can battle{NEWLINE}like that, too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "想不到会在这种场合下{NEWLINE}把这只精灵拿出来！",
+   "en": "Oh! How could you use that{NEWLINE}Pokémon in that situation?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/64"
+  },
+  {
+   "id": 65,
+   "zh": "交换啊！{NEWLINE}好的稍微等待一下！",
+   "en": "You want to trade, huh?{NEWLINE}Sure, hold on just a second.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/65"
+  },
+  {
+   "id": 66,
+   "zh": "让你久等了,{NEWLINE}开始交换吧！",
+   "en": "All right!{NEWLINE}Let’s trade!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/66"
+  },
+  {
+   "id": 67,
+   "zh": "对不起！{NEWLINE}你没有能够交换的{CLEAR}精灵,{SCROLL}还是下次再交换吧。",
+   "en": "Sorry! You don’t have a Pokémon that{NEWLINE}can be traded.{SCROLL}Let’s trade some other time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0738/67; ext-review RB-005"
+  },
+  {
+   "id": 68,
+   "zh": "成功了！{NEWLINE}我一直想要这只精灵！",
+   "en": "Oh yeah!{NEWLINE}I really wanted this Pokémon!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/68"
+  },
+  {
+   "id": 69,
+   "zh": "苦苦寻找的精灵{NEWLINE}终于让我通过交换得到了啊！",
+   "en": "The Pokémon I’ve been searching for...{NEWLINE}I finally got it in a trade!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "手上只有１只精灵的话,{NEWLINE}是不能进行交换的！{SCROLL}",
+   "en": "You can’t trade if you have only one{NEWLINE}Pokémon with you.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/70"
+  },
+  {
+   "id": 71,
+   "zh": "还有什么事的话{NEWLINE}就再跟我说吧。",
+   "en": "If there’s anything else,{NEWLINE}just let me know.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0738/131 | seed rejected us [ambiguous US match] (candidate US 0738#131; text not kept)"
+  },
+  {
+   "id": 72,
+   "zh": "记录通信啊！{NEWLINE}好的稍微等待一下！",
+   "en": "Mix records? Sure!{NEWLINE}Hold on just a second!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0738/83 | seed rejected us [ambiguous US match] (candidate US 0738#83; text not kept)"
+  },
+  {
+   "id": 73,
+   "zh": "让你久等了！{NEWLINE}记录通信吧！",
+   "en": "Thanks for waiting!{NEWLINE}Let’s mix our records, then.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/73"
+  },
+  {
+   "id": 74,
+   "zh": "啊对不起！{NEWLINE}现在通信还是不太好啊,{CLEAR}下次再说吧！",
+   "en": "Oh, I’m sorry. The connection’s not{NEWLINE}great right now.{CLEAR}Another time, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0738/74 | US said “too much to do”; zh blames the connection"
+  },
+  {
+   "id": 75,
+   "zh": "{VAR:0103:0}「现在我们{NEWLINE}要开始记录通信。{SCROLL}对了！{VAR:0103:1}也一起来吧？{VAR:0200:0}",
+   "en": "{VAR:0103:0}: We’re going to mix our{NEWLINE}records now.{SCROLL}I know! {VAR:0103:1}, do you want{NEWLINE}to mix your records with us, too? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/75"
+  },
+  {
+   "id": 76,
+   "zh": "是吗？{NEWLINE}那下次再说吧！",
+   "en": "Oh, all right.{NEWLINE}Maybe next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "好的！那么一起{NEWLINE}记录通信吧！",
+   "en": "OK! Let’s mix our records!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/77"
+  },
+  {
+   "id": 78,
+   "zh": "啊,对不起！{NEWLINE}现在通信还是不太好啊{CLEAR}下次再说吧！",
+   "en": "Oh, sorry! The connection’s not great{NEWLINE}right now.{CLEAR}Another time, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "记录混合真是期待啊！",
+   "en": "I can’t wait to mix records!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "不断地混合吧！",
+   "en": "I’m going to mix records with{NEWLINE}everyone!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/80"
+  },
+  {
+   "id": 81,
+   "zh": "混合！混合！",
+   "en": "Mix it up! Keep mixing!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/81"
+  },
+  {
+   "id": 82,
+   "zh": "你也下次再混合吧！",
+   "en": "You should mix records, too!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/82"
+  },
+  {
+   "id": 83,
+   "zh": "旋转交换啊！{NEWLINE}好的稍微等待一下！",
+   "en": "Spin Trade? Sure!{NEWLINE}OK, just hold on a second!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/83"
+  },
+  {
+   "id": 84,
+   "zh": "嗯,好了！{NEWLINE}旋转交换吧！",
+   "en": "OK, all set!{NEWLINE}Let’s do a Spin Trade!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/84"
+  },
+  {
+   "id": 85,
+   "zh": "啊对不起！{NEWLINE}现在通信还是不太好啊,{CLEAR}下次再说吧！",
+   "en": "Oh, I’m sorry. The connection’s not{NEWLINE}great right now.{CLEAR}Another time, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "要旋转交换的话,{NEWLINE}就一定要有蛋。{SCROLL}",
+   "en": "You need an Egg if you want to take{NEWLINE}part in a Spin Trade.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/86"
+  },
+  {
+   "id": 87,
+   "zh": "{VAR:0103:0}「我们现在要{NEWLINE}旋转交换。{SCROLL}对了！{VAR:0103:1}也一起来吧？",
+   "en": "{VAR:0103:0}: We’re going to do a Spin{NEWLINE}Trade now.{SCROLL}Hey, {VAR:0103:1}! Do you want to join{NEWLINE}us for a Spin Trade, too?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/87"
+  },
+  {
+   "id": 88,
+   "zh": "是吗？{NEWLINE}随时都可以再来的！",
+   "en": "Oh, OK.{NEWLINE}Come back anytime!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "好的！那么一起{NEWLINE}旋转交换吧！",
+   "en": "OK!{NEWLINE}Let’s do a Spin Trade together!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/89"
+  },
+  {
+   "id": 90,
+   "zh": "什么？{NEWLINE}你好像没有蛋啊。{SCROLL}要真的没有蛋的话就{NEWLINE}下次再来吧！",
+   "en": "What?{NEWLINE}Looks like you don’t have an Egg.{SCROLL}If you really don’t have one,{NEWLINE}come back another time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "啊对不起！{NEWLINE}现在通信还是不太好啊,{CLEAR}下次再说吧！",
+   "en": "Oh, I’m sorry. The connection’s not{NEWLINE}great right now.{CLEAR}Another time, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "手上持有不能交换的蛋。",
+   "en": "There is an Egg that cannot be traded{NEWLINE}in your party.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/92"
+  },
+  {
+   "id": 93,
+   "zh": "旋转交换真是期待呀！",
+   "en": "Spin Trades are so much fun!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/93"
+  },
+  {
+   "id": 94,
+   "zh": "停！",
+   "en": "Stop!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "我的蛋好厉害厉害啊！",
+   "en": "My Egg’s awesome!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/95"
+  },
+  {
+   "id": 96,
+   "zh": "成功了！{NEWLINE}得到了想要的蛋！",
+   "en": "Yes!{NEWLINE}I got the Egg I wanted!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/96"
+  },
+  {
+   "id": 97,
+   "zh": "{VAR:011C:2}{VAR:0201:15}{SCROLL}{VAR:0103:0}！{NEWLINE}有什么事？",
+   "en": "{VAR:011C:2}{VAR:0201:15}{SCROLL}Hello, it’s {VAR:0103:0}!{NEWLINE}Would you like to do something?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/97"
+  },
+  {
+   "id": 98,
+   "zh": "啊！对不起{NEWLINE}我还有其他的事,{CLEAR}下次再说吧。",
+   "en": "Whoops!{NEWLINE}Sorry, but I have to do something else.{CLEAR}Another time, OK?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/98"
+  },
+  {
+   "id": 99,
+   "zh": "其他还有什么事吗？",
+   "en": "Want to do{NEWLINE}something else?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/99"
+  },
+  {
+   "id": 100,
+   "zh": "⋯⋯{NEWLINE}现在正接收中。",
+   "en": "...{NEWLINE}They’re receiving right now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "{VAR:0103:0}{NEWLINE}没有回应⋯⋯",
+   "en": "{VAR:0103:0}{NEWLINE}isn’t responding...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "那就给你看看{NEWLINE}训练师卡以示友好吧。",
+   "en": "Then let me show you my Trainer Card as{NEWLINE}a greeting.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0738/42 | seed rejected us [ambiguous US match] (candidate US 0738#42; text not kept)"
+  },
+  {
+   "id": 103,
+   "zh": "哎！？训练师卡{NEWLINE}去哪儿了⋯⋯{SCROLL}对不起！还是下次吧。",
+   "en": "Oh? Now where did I put my{NEWLINE}Trainer Card...?{SCROLL}Sorry! I’ll show you later!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/103"
+  },
+  {
+   "id": 104,
+   "zh": "现在给你看一下{NEWLINE}训练师卡以示友好吧。",
+   "en": "We’re showing each other our{NEWLINE}Trainer Cards to get acquainted.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/104"
+  },
+  {
+   "id": 105,
+   "zh": "今后也还请多多{NEWLINE}关照吧！",
+   "en": "I hope we’ll get along from now on!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "画画啊！{NEWLINE}嗯,稍微等一下。",
+   "en": "You want to draw with me?{NEWLINE}Sure! Just give me a second...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/106"
+  },
+  {
+   "id": 107,
+   "zh": "啊,让你久等了！{NEWLINE}那么开始吧！",
+   "en": "Sorry I made you wait!{NEWLINE}Let’s get started!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/107"
+  },
+  {
+   "id": 108,
+   "zh": "啊,对不起！{NEWLINE}还是下次再画吧。",
+   "en": "Oh, I’m sorry!{NEWLINE}Let’s draw another time!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/108"
+  },
+  {
+   "id": 109,
+   "zh": "{VAR:0103:0}「现在我们要{NEWLINE}开始画画了。{SCROLL}对了！{VAR:0103:1}也一起{NEWLINE}来吧？",
+   "en": "{VAR:0103:0}: We are drawing right{NEWLINE}now.{SCROLL}Oh, I know! {VAR:0103:1}, would you{NEWLINE}like to draw with us?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/109"
+  },
+  {
+   "id": 110,
+   "zh": "是吗⋯⋯{NEWLINE}那就下次再说吧！",
+   "en": "I see...{NEWLINE}Maybe next time, then!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "久等了！一起来画画吧！",
+   "en": "OK! Thanks for waiting!{NEWLINE}Let’s get drawing!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/111"
+  },
+  {
+   "id": 112,
+   "zh": "啊对不起！{NEWLINE}现在通信还是不太好,{CLEAR}下次再说吧",
+   "en": "Oh, sorry! The connection’s not great{NEWLINE}right now.{CLEAR}Another time, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "哇！{NEWLINE}你好会画啊！",
+   "en": "Wow!{NEWLINE}You’re really good!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/113"
+  },
+  {
+   "id": 114,
+   "zh": "哈哈哈！{NEWLINE}那是什么啊！",
+   "en": "Ahaha!{NEWLINE}What is that?!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/114"
+  },
+  {
+   "id": 115,
+   "zh": "画画很好玩！{NEWLINE}我还要画！",
+   "en": "Drawing is fun!{NEWLINE}I want to draw more!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "啊！{NEWLINE}超框了！",
+   "en": "Oops!{NEWLINE}I went outside the frame!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "对战啊！{NEWLINE}好的,稍微等一下！",
+   "en": "A battle? Of course, but I need{NEWLINE}time to get ready.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/117"
+  },
+  {
+   "id": 118,
+   "zh": "久等了！{NEWLINE}那么开始吧！",
+   "en": "Sorry I made you wait!{NEWLINE}Let’s get started!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/118"
+  },
+  {
+   "id": 119,
+   "zh": "对不起！{NEWLINE}我的精灵的状态{CLEAR}好像有点不太好⋯⋯{SCROLL}还是下次{NEWLINE}再对战吧！",
+   "en": "I’m terribly sorry, but my Pokémon{NEWLINE}aren’t feeling well...{SCROLL}Let’s battle another time.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/119"
+  },
+  {
+   "id": 120,
+   "zh": "要对战的话,{NEWLINE}３０级以下的精灵{CLEAR}必须要有２只！{SCROLL}",
+   "en": "If you want to battle, you need two{NEWLINE}Pokémon that are Lv. 30 or lower.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/120"
+  },
+  {
+   "id": 121,
+   "zh": "那个精灵{NEWLINE}培养得非常好！",
+   "en": "That Pokémon...{NEWLINE}It’s been raised really well!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "对！{NEWLINE}这时就要用这个技能！！",
+   "en": "Yes!{NEWLINE}This is the move to use now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "厉害！{NEWLINE}还有那样的战斗方式啊！",
+   "en": "Awesome! So you can battle{NEWLINE}like that, too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "替换精灵的时机{NEWLINE}真是妙啊！",
+   "en": "You have exquisite timing for{NEWLINE}switching Pokémon!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/124"
+  },
+  {
+   "id": 125,
+   "zh": "交换啊！{NEWLINE}好的稍微等待一下！",
+   "en": "A trade? Sure!{NEWLINE}Hold on just a second!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0738/83 | seed rejected us [ambiguous US match] (candidate US 0738#83; text not kept)"
+  },
+  {
+   "id": 126,
+   "zh": "久等了！{NEWLINE}我们开始吧！",
+   "en": "Sorry I made you wait!{NEWLINE}Let’s get started!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/126"
+  },
+  {
+   "id": 127,
+   "zh": "请原谅！{NEWLINE}我现在没有什么{CLEAR}能交换的⋯⋯{SCROLL}还是下次再{NEWLINE}交换吧！",
+   "en": "I’m sorry, but I don’t have any{NEWLINE}Pokémon that I can trade now...{SCROLL}Let’s trade some other time!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/127"
+  },
+  {
+   "id": 128,
+   "zh": "现在正在交换精灵！",
+   "en": "I’m trading Pokémon right now.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/128"
+  },
+  {
+   "id": 129,
+   "zh": "想要的精灵{NEWLINE}终于交换得到了！",
+   "en": "I finally got the Pokémon{NEWLINE}I wanted in a trade!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 130,
+   "zh": "手上只有１只精灵的话　{NEWLINE}不能交换。{SCROLL}",
+   "en": "You can’t trade if you have only{NEWLINE}one Pokémon with you.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/130"
+  },
+  {
+   "id": 131,
+   "zh": "还有什么事的话就再{NEWLINE}跟我说吧！",
+   "en": "If you want to do something with{NEWLINE}me, don’t be shy. Just ask!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/131"
+  },
+  {
+   "id": 132,
+   "zh": "记录通信啊！{NEWLINE}嗯稍微等待一下！",
+   "en": "Mix records? OK!{NEWLINE}Just wait a second!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0738/143 | seed rejected us [ambiguous US match] (candidate US 0738#143; text not kept)"
+  },
+  {
+   "id": 133,
+   "zh": "啊,久等了！{NEWLINE}那么开始吧！",
+   "en": "Sorry I made you wait!{NEWLINE}Let’s get started!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/133"
+  },
+  {
+   "id": 134,
+   "zh": "啊,对不起！{NEWLINE}还是下次吧。",
+   "en": "Oh, sorry!{NEWLINE}Let’s do this another time!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/134"
+  },
+  {
+   "id": 135,
+   "zh": "{VAR:0103:0}「现在我们要{NEWLINE}进行记录通信。{SCROLL}对了！{VAR:0103:1}也一起来吧？",
+   "en": "{VAR:0103:0}: We’re about to mix our{NEWLINE}records.{SCROLL}I know! {VAR:0103:1}, want to join us, too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0738/109 | seed rejected us [ambiguous US match] (candidate US 0738#109; text not kept)"
+  },
+  {
+   "id": 136,
+   "zh": "是吗⋯⋯{NEWLINE}那就下次再说吧！",
+   "en": "I see...{NEWLINE}Maybe next time, then!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 137,
+   "zh": "久等了！那么一起　{NEWLINE}开始记录通信吧！",
+   "en": "Thanks for waiting!{NEWLINE}Let’s mix some records!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/137"
+  },
+  {
+   "id": 138,
+   "zh": "啊对不起！{NEWLINE}还是下次吧。",
+   "en": "Oh, sorry!{NEWLINE}Let’s do this another time!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/138"
+  },
+  {
+   "id": 139,
+   "zh": "记录混合很期待啊！",
+   "en": "I can’t wait to mix records!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 140,
+   "zh": "不断混合吧！",
+   "en": "I’m going to keep mixing!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/140"
+  },
+  {
+   "id": 141,
+   "zh": "混合！混合！",
+   "en": "Let’s mix it up!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/141"
+  },
+  {
+   "id": 142,
+   "zh": "到底会发生什么呢！",
+   "en": "What’s going to happen?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "旋转交换啊！{NEWLINE}嗯稍微等待一下！",
+   "en": "Spin Trade? Of course!{NEWLINE}OK, can you just wait a moment?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/143"
+  },
+  {
+   "id": 144,
+   "zh": "啊久等了！{NEWLINE}我们开始吧！",
+   "en": "OK, all ready!{NEWLINE}Let’s get this Spin Trade started!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/144"
+  },
+  {
+   "id": 145,
+   "zh": "啊对不起！{NEWLINE}还是下次吧。",
+   "en": "Oh, sorry!{NEWLINE}Let’s do this another time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "如果要旋转交换{NEWLINE}就必须要有蛋啊！{SCROLL}",
+   "en": "If you want to do a Spin Trade,{NEWLINE}you need to have an Egg!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 147,
+   "zh": "{VAR:0103:0}「我们现在要开始{NEWLINE}旋转交换。{SCROLL}对了！{VAR:0103:1}也一起来吧？",
+   "en": "{VAR:0103:0}: We’re about to start a Spin{NEWLINE}Trade.{SCROLL}Oh, right! {VAR:0103:1}, want to join us?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0738/147; ext-review RB-005"
+  },
+  {
+   "id": 148,
+   "zh": "是吗⋯⋯{NEWLINE}那就下次再说吧！",
+   "en": "I see...{NEWLINE}Maybe next time, then!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 149,
+   "zh": "久等了！那么一起{NEWLINE}开始旋转交换吧！",
+   "en": "OK!{NEWLINE}Let’s do a Spin Trade together!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/149"
+  },
+  {
+   "id": 150,
+   "zh": "什么？{NEWLINE}你没有蛋吗？{SCROLL}等拿了蛋再一起来吧！",
+   "en": "What?{NEWLINE}You don’t have an Egg?{SCROLL}Come join us once you have one!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 151,
+   "zh": "啊对不起！{NEWLINE}还是下次吧。",
+   "en": "Oh, sorry!{NEWLINE}Let’s do this another time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 152,
+   "zh": "手上有不能交换的蛋。",
+   "en": "There is an Egg that cannot be traded{NEWLINE}in your party.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/152"
+  },
+  {
+   "id": 153,
+   "zh": "进行旋转交换吧！",
+   "en": "We’re doing Spin Trades!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/153"
+  },
+  {
+   "id": 154,
+   "zh": "啊！又动了！",
+   "en": "Wah!{NEWLINE}It moved again!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/154"
+  },
+  {
+   "id": 155,
+   "zh": "好想要那个蛋啊！",
+   "en": "There goes the Egg I wanted...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/155"
+  },
+  {
+   "id": 156,
+   "zh": "停在那儿的话就能{NEWLINE}得到果实了啊~",
+   "en": "If it stopped there, I would’ve gotten{NEWLINE}a Berry.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/156"
+  },
+  {
+   "id": 157,
+   "zh": "欢迎来联机房间！{SCROLL}如果有什么不明白的{NEWLINE}请说出来！",
+   "en": "Welcome to the Union Room!{SCROLL}If there’s anything you don’t{NEWLINE}understand, please ask!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 158,
+   "zh": "有什么事情吗？",
+   "en": "How may I help you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0738/99 | seed rejected us [ambiguous US match] (candidate US 0738#99; text not kept)"
+  },
+  {
+   "id": 159,
+   "zh": "想询问{NEWLINE}有关什么的事呢？{VAR:0200:0}",
+   "en": "Which topic would you{NEWLINE}like me to explain? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/159"
+  },
+  {
+   "id": 160,
+   "zh": "在联机房间可以选择两只{NEWLINE}３０级以下的精灵进行对战。{SCROLL}来联机房间的时候推荐大家{NEWLINE}携带３０级以下的精灵前来！{SCROLL}",
+   "en": "In the Union Room, you may battle{NEWLINE}with two Pokémon of your choice{CLEAR}that are Lv. 30 or lower.{SCROLL}When you visit here, we recommend{NEWLINE}that you bring Pokémon that{CLEAR}meet this requirement.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/160"
+  },
+  {
+   "id": 161,
+   "zh": "能够相互间进行精灵交换,{SCROLL}与新的朋友相遇可能{NEWLINE}就意味着与新的精灵相遇！{SCROLL}",
+   "en": "You can trade Pokémon with each other.{SCROLL}Meeting new friends may mean meeting{NEWLINE}new Pokémon!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 162,
+   "zh": "在记录通信中自己的记录{CLEAR}能与大家共享,{SCROLL}进行记录交换究竟会发生什么呢！？{SCROLL}那个就要请用自己的眼睛{NEWLINE}去证实看看了！{SCROLL}最多可以有５人一起参加,{NEWLINE}请和朋友一起来吧！{SCROLL}",
+   "en": "You may communicate with other{NEWLINE}players and mix your records.{SCROLL}What will happen if you mix records,{NEWLINE}you ask?{SCROLL}We recommend that you try it and{NEWLINE}see!{SCROLL}Up to five players can take part,{NEWLINE}so try it with your friends!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/162"
+  },
+  {
+   "id": 163,
+   "zh": "旋转交换必须在大家{NEWLINE}都拥有蛋的基础上才可以进行。{SCROLL}究竟会来什么样的蛋呢？{NEWLINE}是哪种类型的精灵的蛋啊？{CLEAR}现在心肯定在扑通扑通地跳吧？{SCROLL}最多可以有５人一起参加,{NEWLINE}请和朋友一起来吧！{SCROLL}",
+   "en": "In a Spin Trade, participants each bring{NEWLINE}an Egg for trading with others.{SCROLL}Which Egg will you end up with?{NEWLINE}What kind of Pokémon is in that Egg?{CLEAR}It’s quite exciting and fun!{SCROLL}Up to five players can take part, so{NEWLINE}try it with your friends!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/163"
+  },
+  {
+   "id": 164,
+   "zh": "大家可以一起进行绘画。{SCROLL}请在１张纸上画上自己{NEWLINE}喜欢的画吧！{SCROLL}大家画的话一定{NEWLINE}会是一幅很精彩的画啊！{SCROLL}最多可以有５人一起参加,{NEWLINE}请和朋友一起来吧！{SCROLL}",
+   "en": "You may get together with others{NEWLINE}and draw.{SCROLL}You all get to work on one sheet{NEWLINE}of paper at the same time.{SCROLL}I’m sure a drawing made by friends{NEWLINE}will be a memorable masterpiece!{SCROLL}Up to five players can take part,{NEWLINE}so try it with your friends!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/164"
+  },
+  {
+   "id": 165,
+   "zh": "打开菜单选择聊天,{SCROLL}就可以向联机房间的　{NEWLINE}人们展示自己！{SCROLL}自己是哪种类型的人呢？{NEWLINE}想干什么呢？{SCROLL}不断地向大家展示吧！{SCROLL}",
+   "en": "You can chat with other people{NEWLINE}by selecting “CHAT” in the menu.{SCROLL}Go out and meet other players in{NEWLINE}the Union Room!{SCROLL}Let people know what you’re like{NEWLINE}and what you’d like to do.{SCROLL}Mingle, chat, and add to your{NEWLINE}circle of friends!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/165"
+  },
+  {
+   "id": 166,
+   "zh": "啊！{NEWLINE}有人来了！{SCROLL}你别和我说了,{NEWLINE}去找那个人聊聊吧？{SCROLL}",
+   "en": "Oh!{NEWLINE}Here comes someone now!{SCROLL}Instead of me, why not strike up{NEWLINE}a chat with our newcomer?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/166"
+  },
+  {
+   "id": 167,
+   "zh": "没人来的话就很闲啦,{SCROLL}有没有什么有趣的事呢⋯⋯{SCROLL}",
+   "en": "It’s so dull when nobody comes by.{SCROLL}Isn’t there anything fun going on...?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 168,
+   "zh": "你有认错{VAR:010E:0}{NEWLINE} 过吗？{SCROLL}感觉就是有这种气氛啊。{SCROLL}",
+   "en": "Do you sometimes get mistaken for{NEWLINE}a real {VAR:010E:0}?{SCROLL}I just seem to get that feeling{NEWLINE}from you.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/168"
+  },
+  {
+   "id": 169,
+   "zh": "你好！{SCROLL}对了！{NEWLINE}问候也很重要啊！{SCROLL}要有人来的话{NEWLINE}就要不断地展示自己！{SCROLL}",
+   "en": "Hello!{SCROLL}That’s right!{NEWLINE}It’s important to say a greeting!{SCROLL}If someone arrives, let’s try to{NEWLINE}be friendly!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/169"
+  },
+  {
+   "id": 170,
+   "zh": "初次见面！{SCROLL}{VAR:011C:0}　{NEWLINE}真是好啊,{CLEAR}我也非常喜欢！{SCROLL}和初次见面的人{NEWLINE}一定要好好做个自我介绍,{CLEAR}这是礼貌！{SCROLL}做了自我介绍,{NEWLINE}对方的事就会知道了！{SCROLL}",
+   "en": "Greetings!{SCROLL}{VAR:011C:0}?{NEWLINE}It’s wonderful!{CLEAR}I really like it, too!{SCROLL}When you meet someone for the first{NEWLINE}time, the proper etiquette is to{CLEAR}introduce yourself.{SCROLL}By introducing yourself, you’ll get to{NEWLINE}know about the other person, too!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/170"
+  },
+  {
+   "id": 171,
+   "zh": "哇~{VAR:011C:0}　{NEWLINE}训练师吗！？{CLEAR}好厉害啊{SCROLL}但是对不起！{NEWLINE}我没有精灵⋯⋯{SCROLL}比起参加对战{NEWLINE}我更喜欢观看对战！{SCROLL}",
+   "en": "{VAR:011C:0} Trainer?{NEWLINE}That’s what you are?{CLEAR}Isn’t that something!{SCROLL}But I’m sorry to say, I don’t have{NEWLINE}any Pokémon...{SCROLL}I would rather watch than battle,{NEWLINE}you see.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/171"
+  },
+  {
+   "id": 172,
+   "zh": "啊！{NEWLINE}我想要{VAR:011C:0}！{CLEAR}请和我的交换吧⋯⋯{SCROLL}啊,开玩笑的,{SCROLL}因为我真的没有带精灵,{NEWLINE}不能交换⋯⋯{SCROLL}",
+   "en": "Oh! Your {VAR:011C:0}!{NEWLINE}I would love to have it!{CLEAR}Please trade me!{SCROLL}...{SCROLL}I was actually joking.{SCROLL}I don’t have any Pokémon, so{NEWLINE}I can’t trade with anyone...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/172"
+  },
+  {
+   "id": 173,
+   "zh": "我知道你想要{VAR:011C:0},{SCROLL}但交换的时候{NEWLINE}不能勉强进行！{SCROLL}也要考虑对方{NEWLINE}想要的精灵啊！{SCROLL}",
+   "en": "{VAR:011C:0}?{NEWLINE}I can understand you’d want one...{SCROLL}But you shouldn’t expect people to{NEWLINE}make trades just for you.{SCROLL}You also have to consider what{NEWLINE}Pokémon the other person wants.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/173"
+  },
+  {
+   "id": 174,
+   "zh": "欢迎来到房间！{SCROLL}现在只有我一个人,{NEWLINE}但是很想和朋友{CLEAR}一起来玩！{SCROLL}你要有空的话也来{NEWLINE}和我聊聊吧！{SCROLL}因为我也很空的⋯⋯{SCROLL}",
+   "en": "Welcome to the Union Room!{SCROLL}I’m the only one here now, but{NEWLINE}please do bring your friends for{CLEAR}some fun and excitement!{SCROLL}If you have time on your hands,{NEWLINE}I’m also here to chat.{SCROLL}You see, I have a lot of time on{NEWLINE}my hands...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/174"
+  },
+  {
+   "id": 175,
+   "zh": "我很擅长画画！{SCROLL}要是{VAR:011C:0}　{NEWLINE}就请交给我吧！{CLEAR}我是不会输给任何人的！{SCROLL}",
+   "en": "I’m quite good at drawing!{SCROLL}If it’s {VAR:011C:0},{NEWLINE}leave it to me!{CLEAR}No one’s better than me at it!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/175"
+  },
+  {
+   "id": 176,
+   "zh": "要回去了吗⋯⋯{SCROLL}⋯⋯{SCROLL}真舍不得,{SCROLL}请下次再来吧！{SCROLL}",
+   "en": "Oh, you’re leaving...{SCROLL}...{SCROLL}It makes me feel lonesome...{SCROLL}Please do come visit again!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/176"
+  },
+  {
+   "id": 177,
+   "zh": "怎么了？{NEWLINE}有什么不喜欢的东西吗？{SCROLL}这时候{NEWLINE}比起一个人来,{CLEAR}还是和许多朋友{CLEAR}一起玩有趣啊！{SCROLL}",
+   "en": "What’s wrong?{NEWLINE}Are you feeling down about something?{SCROLL}If you’re feeling blue, it’s much{NEWLINE}better to have fun with friends{CLEAR}than to be alone.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/177"
+  },
+  {
+   "id": 178,
+   "zh": "你好！{NEWLINE}我想{VAR:011C:0}！{SCROLL}⋯⋯不过{NEWLINE}这里不能动,{CLEAR}还是不行啊！{SCROLL}哈~{NEWLINE}真想{VAR:011C:0}啊！{SCROLL}",
+   "en": "{VAR:011C:0}?{NEWLINE}Yes, please!{SCROLL}...I do want to join in, but I’m{NEWLINE}on duty here, so I can’t...{SCROLL}Sigh... {VAR:011C:0}...{NEWLINE}I wish I could...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/178"
+  },
+  {
+   "id": 179,
+   "zh": "是~！{NEWLINE}我也想{VAR:011C:0}！{SCROLL}但是在这里必须要向各位{NEWLINE}说明一下⋯⋯{SCROLL}请和大家一起{NEWLINE}一起玩吧！{SCROLL}",
+   "en": "{VAR:011C:0}?{NEWLINE}Me, too, please!{SCROLL}But I need to stay here and attend{NEWLINE}to our visitors...{SCROLL}Please enjoy it with your friends!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/179"
+  },
+  {
+   "id": 180,
+   "zh": "被{VAR:011C:0}邀请了！{SCROLL}⋯⋯啊！{NEWLINE}但是在这里必须要向各位{NEWLINE}说明一下,{SCROLL}对不起,我要拒绝邀请{NEWLINE}请原谅！{SCROLL}",
+   "en": "{VAR:011C:0}?{NEWLINE}You’re inviting me?{SCROLL}Oh, but I have to stay here and{NEWLINE}attend to our visitors.{SCROLL}I’m sorry. I’d love to accept,{NEWLINE}but I really can’t.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/180"
+  },
+  {
+   "id": 181,
+   "zh": "对！{SCROLL}这时候最好{NEWLINE}拿出积极的姿态邀请朋友！{SCROLL}但是不要为想{VAR:011C:0}而{NEWLINE}太过任性啊！{SCROLL}",
+   "en": "That’s right!{SCROLL}Sometimes, it might be better to{NEWLINE}just go and invite other people.{SCROLL}But don’t get too selfish or pushy{NEWLINE}because you want to {VAR:011C:0}.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/181"
+  },
+  {
+   "id": 182,
+   "zh": "好的！{NEWLINE}ＯＫ！{SCROLL}凡事没有不行的事情！{SCROLL}一定要乐观乐观！{SCROLL}",
+   "en": "Yes!{NEWLINE}OK!{SCROLL}Nothing is impossible!{SCROLL}Stay positive, always!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 183,
+   "zh": "无论谁都有{NEWLINE}不擅长的东西,{SCROLL}如果对方不喜欢{NEWLINE}你也不要勉强邀请,{NEWLINE}顺便一提,我倒是很想{NEWLINE}{VAR:011C:0}！{SCROLL}",
+   "en": "Everyone has at least one thing{NEWLINE}they aren’t good at.{SCROLL}You should never try to make someone{NEWLINE}do what they don’t want to do.{SCROLL}Incidentally, {VAR:011C:0} is{NEWLINE}something that I would like to do.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/183"
+  },
+  {
+   "id": 184,
+   "zh": "欢迎！{SCROLL}敬请期待联机房间{NEWLINE}无法进行的{CLEAR}真正对战吧！{SCROLL}",
+   "en": "Good luck! I hope you enjoy{NEWLINE}serious battles.{SCROLL}You can’t experience ones like{NEWLINE}this in the Union Room!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/184"
+  },
+  {
+   "id": 185,
+   "zh": "去跟别人说话吧！{SCROLL}为什么总是和我对话呢！？{SCROLL}你一定要更加{NEWLINE}主动积极地与别人对话,{CLEAR}不然就交不到朋友了！{SCROLL}",
+   "en": "You want to chat?{SCROLL}Well, you shouldn’t be wasting your{NEWLINE}time chatting with me.{SCROLL}You need to be more active and talk{NEWLINE}to other players.{SCROLL}After all, you can’t make friends{NEWLINE}if you don’t talk to people.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/185"
+  },
+  {
+   "id": 186,
+   "zh": "在哪儿？{CLEAR}就在你的眼前啊！{SCROLL}啊！{NEWLINE}难道是假的！？{SCROLL}真的在别的地方吗？{SCROLL}⋯⋯请不要　{NEWLINE}说些奇怪的话了！{CLEAR}够了！{SCROLL}",
+   "en": "Where are you?{NEWLINE}Um... Right before my eyes.{SCROLL}Oh!{NEWLINE}Are you maybe an impostor?{SCROLL}The real player is somewhere else?{SCROLL}...That’s ridiculous!{NEWLINE}Please, don’t be silly!{CLEAR}My word!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/186"
+  },
+  {
+   "id": 187,
+   "zh": "{VAR:011C:0}{NEWLINE}交换啊！{CLEAR}我也想试试啊{SCROLL}不过即使和我说话{NEWLINE}也不能交换。{SCROLL}",
+   "en": "{VAR:011C:0} trade?{NEWLINE}That sounds fun!{CLEAR}I would love to as well.{SCROLL}But telling me that won’t help.{NEWLINE}I can’t trade with anyone.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/187"
+  },
+  {
+   "id": 188,
+   "zh": "{VAR:011C:0}对战的话{SCROLL}一定要有自己主动与{NEWLINE}别人对话的勇气！{SCROLL}{VAR:011C:0}对战开始{NEWLINE}之前不要就输了啊！{SCROLL}",
+   "en": "If you want to have a {VAR:011C:0}{NEWLINE}Battle, you need to be more{CLEAR}assertive and talk to other players.{SCROLL}If you can’t assert yourself, you{NEWLINE}may never get a chance at a{CLEAR}{VAR:011C:0} Battle!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/188"
+  },
+  {
+   "id": 189,
+   "zh": "说明",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/189"
+  },
+  {
+   "id": 190,
+   "zh": "交谈",
+   "en": "CHAT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 191,
+   "zh": "取消",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/191"
+  },
+  {
+   "id": 192,
+   "zh": "对战",
+   "en": "BATTLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/192"
+  },
+  {
+   "id": 193,
+   "zh": "交换",
+   "en": "TRADE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/193"
+  },
+  {
+   "id": 194,
+   "zh": "记录",
+   "en": "RECORDS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/194"
+  },
+  {
+   "id": 195,
+   "zh": "旋转交换",
+   "en": "SPIN TRADE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0738/193 | seed rejected us [ambiguous US match] (candidate US 0738#193; text not kept)"
+  },
+  {
+   "id": 196,
+   "zh": "绘画",
+   "en": "DRAW",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 197,
+   "zh": "聊天",
+   "en": "CHAT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s)"
+  },
+  {
+   "id": 198,
+   "zh": "返回",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/198"
+  },
+  {
+   "id": 199,
+   "zh": "正在与{VAR:0103:0}说话。",
+   "en": "Talking to {VAR:0103:0}...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/199"
+  },
+  {
+   "id": 200,
+   "zh": "成功了！{NEWLINE}怎么办？",
+   "en": "Success!{NEWLINE}What now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 201,
+   "zh": "啊！对不起,{NEWLINE}我还有其他的事{CLEAR}下次见。",
+   "en": "Whoops! Sorry, but I have to do{NEWLINE}something else.{CLEAR}Another time, OK?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/201"
+  },
+  {
+   "id": 202,
+   "zh": "等待对方的选择。",
+   "en": "Waiting for the other player’s choice.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/202"
+  },
+  {
+   "id": 203,
+   "zh": "别人前来对话。",
+   "en": "Someone has come to talk.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 204,
+   "zh": "连接被切断。",
+   "en": "The connection was cut.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 205,
+   "zh": "对方想进行精灵的交换,{CLEAR}同意吗？",
+   "en": "The other player wants to trade{NEWLINE}Pokémon.{CLEAR}Do you agree?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 206,
+   "zh": "在这里能够进行交换。",
+   "en": "You can trade here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 207,
+   "zh": "成功了！{NEWLINE}那就是我想要的东西！",
+   "en": "Yes!{NEWLINE}That’s just what I wanted!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 208,
+   "zh": "{VAR:0103:0}的好友",
+   "en": "{VAR:0103:0}’s friend",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/208"
+  },
+  {
+   "id": 209,
+   "zh": "{VAR:0103:1}的好友",
+   "en": "{VAR:0103:1}’s friend",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/209"
+  },
+  {
+   "id": 210,
+   "zh": "{VAR:0103:2}的好友",
+   "en": "{VAR:0103:2}’s friend",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/210"
+  },
+  {
+   "id": 211,
+   "zh": "你好！",
+   "en": "Hello!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RB-006: Japanese-language greeting slot; follows the hack’s Chinese greeting (D-1379, supersedes D-1285)"
+  },
+  {
+   "id": 212,
+   "zh": "Hello",
+   "en": "Hello",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 213,
+   "zh": "Bonjour",
+   "en": "Bonjour",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 214,
+   "zh": "Ciao",
+   "en": "Ciao",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 215,
+   "zh": "Hallo",
+   "en": "Hallo",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 216,
+   "zh": "Hola",
+   "en": "Hola",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 217,
+   "zh": "你好！",
+   "en": "H-e-l-l-o-!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/217"
+  },
+  {
+   "id": 218,
+   "zh": "不能和钻石珍珠{NEWLINE}进行旋转交换！{SCROLL}",
+   "en": "Sorry, you can’t do a Spin Trade with{NEWLINE}Pokémon Diamond or Pearl.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/218"
+  },
+  {
+   "id": 219,
+   "zh": "菜单",
+   "en": "Menu",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0738/219"
+  }
+ ]
+}

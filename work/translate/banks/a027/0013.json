@@ -1,0 +1,2671 @@
+{
+ "narc": "a027",
+ "bank": 13,
+ "source": "work/extract/v4/a027/0013.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "战斗录像",
+   "en": "BATTLE VIDEOS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/104 | seed rejected us [ambiguous US match] (candidate US 0013#104; text not kept)"
+  },
+  {
+   "id": 1,
+   "zh": "前线记录",
+   "en": "FRONTIER RECORD",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "退出",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "返回",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/3"
+  },
+  {
+   "id": 4,
+   "zh": "自己的记录",
+   "en": "MY VIDEO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/4"
+  },
+  {
+   "id": 5,
+   "zh": "别人的记录",
+   "en": "OTHER VIDEOS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/5"
+  },
+  {
+   "id": 6,
+   "zh": "删除记录",
+   "en": "DELETE VIDEOS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/6"
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0103:0}的记录",
+   "en": "{VAR:0103:0}’S VIDEO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/7"
+  },
+  {
+   "id": 8,
+   "zh": "空",
+   "en": "EMPTY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/8"
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0135:0}",
+   "en": "{VAR:0135:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "战",
+   "en": "Battle",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/10"
+  },
+  {
+   "id": 11,
+   "zh": "录像编号：{VAR:0133:0}ー{VAR:0136:1}ー{VAR:0136:2}",
+   "en": "Video no.: {VAR:0133:0}-{VAR:0136:1}-{VAR:0136:2}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/11"
+  },
+  {
+   "id": 12,
+   "zh": "录像编号：{VAR:0133:0}ー{VAR:0136:1}ー{VAR:0136:2} ☆",
+   "en": "Video no.: {VAR:0133:0}-{VAR:0136:1}-{VAR:0136:2} ☆",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/12"
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0103:0}的资料",
+   "en": "{VAR:0103:0}’S PROFILE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "年龄",
+   "en": "Age",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0133:0}月出生",
+   "en": "Birth month: {VAR:0133:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/15 | seed rejected us [tag_mismatch] (candidate US 0013#15; text not kept)"
+  },
+  {
+   "id": 16,
+   "zh": "居住地",
+   "en": "Location",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "自我介绍",
+   "en": "Trainer’s quote",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/17"
+  },
+  {
+   "id": 18,
+   "zh": "资料",
+   "en": "Profile",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "介绍",
+   "en": "Intro",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/17 | seed rejected us [ambiguous US match] (candidate US 0013#17; text not kept)"
+  },
+  {
+   "id": 20,
+   "zh": " ",
+   "en": " ",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "未登录",
+   "en": "Unregistered",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0124:0}",
+   "en": "{VAR:0124:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "{VAR:0125:0}",
+   "en": "{VAR:0125:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:011C:0}　{VAR:011C:1}",
+   "en": "{VAR:011C:0} {VAR:011C:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "战斗工厂{NEWLINE}无限制多人战斗",
+   "en": "Battle Factory{NEWLINE}Open Level Multi",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/155 | seed rejected us [ambiguous US match] (candidate US 0013#155; text not kept)"
+  },
+  {
+   "id": 26,
+   "zh": "查看箱子",
+   "en": "VIEW BOX DATA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "最新２０",
+   "en": "NEWEST 20",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0103:0}的最喜欢箱子",
+   "en": "{VAR:0103:0}’S FAVORITE PC BOX",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/28"
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0103:0}的最帅箱子",
+   "en": "{VAR:0103:0}’S COOL PC BOX",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/29"
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0103:0}的最可爱箱子",
+   "en": "{VAR:0103:0}’S CUTE PC BOX",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/30"
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0103:0}的最推荐箱子",
+   "en": "{VAR:0103:0}’S SUGGESTED PC BOX",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/31"
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:0103:0}的最有趣箱子",
+   "en": "{VAR:0103:0}’S FUN PC BOX",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/32"
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0103:0}的最有爱箱子",
+   "en": "{VAR:0103:0}’S LOVELY PC BOX",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/28 | seed rejected us [ambiguous US match] (candidate US 0013#28; text not kept)"
+  },
+  {
+   "id": 34,
+   "zh": "下一个精灵",
+   "en": "Next{NEWLINE}Pokémon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/34"
+  },
+  {
+   "id": 35,
+   "zh": "战斗舞台{NEWLINE}多人战",
+   "en": "Battle Hall{NEWLINE}Multi",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "战斗城堡{NEWLINE}多人战",
+   "en": "Battle Castle{NEWLINE}Multi",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "战斗轮盘{NEWLINE}多人战",
+   "en": "Battle Arcade{NEWLINE}Multi",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "通信对战{NEWLINE}多人战",
+   "en": "Link Battle{NEWLINE}Multi",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "删除自己的记录",
+   "en": "DELETE MY VIDEO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/39"
+  },
+  {
+   "id": 40,
+   "zh": "删除别人的记录",
+   "en": "DELETE OTHER VIDEOS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/40"
+  },
+  {
+   "id": 41,
+   "zh": "空",
+   "en": "EMPTY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/41"
+  },
+  {
+   "id": 42,
+   "zh": "删除{VAR:0103:0}的记录",
+   "en": "DELETE {VAR:0103:0}’S VIDEO",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "查看资料",
+   "en": "VIEW DATA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "传送资料",
+   "en": "SEND DATA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "最新３０个",
+   "en": "NEWEST 30",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "详细查找",
+   "en": "SEARCH",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "根据录像编号查找",
+   "en": "SEARCH BY VIDEO NO.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "根据设施查找",
+   "en": "SEARCH BY FACILITY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "根据精灵查找",
+   "en": "SEARCH BY POKéMON",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "根据相同地域查找",
+   "en": "SEARCH YOUR LOCATION",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "送照片",
+   "en": "SEND PHOTO",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "看照片",
+   "en": "VIEW PHOTOS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/52"
+  },
+  {
+   "id": 53,
+   "zh": "发送",
+   "en": "SEND",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "请选择想看的精灵",
+   "en": "Choose a Pokémon to view.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "{VAR:0103:0}的照片{NEWLINE}{VAR:011C:1}",
+   "en": "{VAR:0103:0}’s photo{NEWLINE}{VAR:011C:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "{VAR:0103:0}{NEWLINE}{VAR:011C:1}",
+   "en": "{VAR:0103:0}{NEWLINE}{VAR:011C:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "照片",
+   "en": "PHOTO",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "送进箱子",
+   "en": "SEND TO BOX",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "查看箱子",
+   "en": "VIEW BOX DATA",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/59"
+  },
+  {
+   "id": 60,
+   "zh": "最喜欢",
+   "en": "FAVORITE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/60"
+  },
+  {
+   "id": 61,
+   "zh": "最帅气",
+   "en": "COOL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/61"
+  },
+  {
+   "id": 62,
+   "zh": "最可爱",
+   "en": "CUTE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/62"
+  },
+  {
+   "id": 63,
+   "zh": "最推荐",
+   "en": "SUGGESTED",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/63"
+  },
+  {
+   "id": 64,
+   "zh": "最可爱",
+   "en": "CUTE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/62 | zh repeats 最可爱 (CUTE) in the slot where US has FUN; kept CUTE (hack-finding logged)."
+  },
+  {
+   "id": 65,
+   "zh": "最有爱",
+   "en": "LOVELY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "最有爱 (US SELECT) rendered LOVELY; same for #33/#315."
+  },
+  {
+   "id": 66,
+   "zh": "箱子",
+   "en": "BOX",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "详细查看",
+   "en": "DETAILS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/106 | seed rejected us [ambiguous US match] (candidate US 0013#106; text not kept)"
+  },
+  {
+   "id": 68,
+   "zh": "ア",
+   "en": "A",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "kana index tabs ア…ワ kept as kana row names (A, KA, SA…), since the search list follows kana order; US used ABC groups."
+  },
+  {
+   "id": 69,
+   "zh": "カ",
+   "en": "KA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "サ",
+   "en": "SA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "タ",
+   "en": "TA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "ナ",
+   "en": "NA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "ハ",
+   "en": "HA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "マ",
+   "en": "MA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "ヤ",
+   "en": "YA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "ラ",
+   "en": "RA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "ワ",
+   "en": "WA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "本周的排名",
+   "en": "THIS WEEK’S RANKINGS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/78"
+  },
+  {
+   "id": 79,
+   "zh": "上周的排名",
+   "en": "LAST WEEK’S RANKINGS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/79"
+  },
+  {
+   "id": 80,
+   "zh": "排名切换",
+   "en": "SWITCH RANKINGS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "队伍切换",
+   "en": "SWITCH TEAMS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "队伍：训练员类型",
+   "en": "Team: Trainer type",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/82"
+  },
+  {
+   "id": 83,
+   "zh": "队伍：出生月",
+   "en": "Team: Birth month",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/83"
+  },
+  {
+   "id": 84,
+   "zh": "队伍：喜欢的精灵",
+   "en": "Team: Favorite Pokémon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/84"
+  },
+  {
+   "id": 85,
+   "zh": "{VAR:0103:1}：{VAR:010E:0}",
+   "en": "{VAR:0103:1}: {VAR:010E:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "{VAR:0103:1}：{VAR:0133:0}月出生",
+   "en": "{VAR:0103:1}: Born in month {VAR:0133:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "{VAR:0103:1}：{VAR:0100:0}",
+   "en": "{VAR:0103:1}: {VAR:0100:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "{VAR:0133:0}：{VAR:010E:1}",
+   "en": "{VAR:0133:0}: {VAR:010E:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "{VAR:0133:0}：{VAR:0133:1}月",
+   "en": "{VAR:0133:0}: Month {VAR:0133:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "{VAR:0133:0}：{VAR:0100:1}",
+   "en": "{VAR:0133:0}: {VAR:0100:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "上周的结果！",
+   "en": "LAST WEEK’S RESULTS!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/91"
+  },
+  {
+   "id": 92,
+   "zh": "圆形剧场",
+   "en": "COLOSSEUM",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/92"
+  },
+  {
+   "id": 93,
+   "zh": "战斗前线",
+   "en": "BATTLE FRONTIER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/93"
+  },
+  {
+   "id": 94,
+   "zh": "保存",
+   "en": "SAVE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/94"
+  },
+  {
+   "id": 95,
+   "zh": "观看{NEWLINE}战斗录像",
+   "en": "VIEW BATTLE{NEWLINE}VIDEO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/95"
+  },
+  {
+   "id": 96,
+   "zh": "战斗录像",
+   "en": "BATTLE VIDEO",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/104 | seed rejected us [ambiguous US match] (candidate US 0013#104; text not kept)"
+  },
+  {
+   "id": 97,
+   "zh": "战斗录像人气排名{NEWLINE}圆形剧场",
+   "en": "TOP-RANKED BATTLE VIDEOS{NEWLINE}COLOSSEUM",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/97"
+  },
+  {
+   "id": 98,
+   "zh": "战斗录像人气排名{NEWLINE}战斗前线",
+   "en": "TOP-RANKED BATTLE VIDEOS{NEWLINE}BATTLE FRONTIER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/98"
+  },
+  {
+   "id": 99,
+   "zh": "：",
+   "en": ":",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "要将{VAR:0103:0}的 记录{NEWLINE}保存到哪儿？",
+   "en": "Where would you like to save{NEWLINE}{VAR:0103:0}’s Battle Video?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/100"
+  },
+  {
+   "id": 101,
+   "zh": "覆盖保存",
+   "en": "OVERWRITE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "删除{VAR:0103:0}的战斗录像{NEWLINE}也可以吗？",
+   "en": "Is it OK to delete {VAR:0103:0}’s Battle{NEWLINE}Video?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/102"
+  },
+  {
+   "id": 103,
+   "zh": "观看战斗录像",
+   "en": "VIEW BATTLE VIDEOS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/103"
+  },
+  {
+   "id": 104,
+   "zh": "传送战斗录像",
+   "en": "SEND BATTLE VIDEO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/104"
+  },
+  {
+   "id": 105,
+   "zh": "最新３０个",
+   "en": "NEWEST 30",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/105"
+  },
+  {
+   "id": 106,
+   "zh": "详细查找",
+   "en": "SEARCH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/106"
+  },
+  {
+   "id": 107,
+   "zh": "根据录像编号查找",
+   "en": "SEARCH BY VIDEO NO.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/107"
+  },
+  {
+   "id": 108,
+   "zh": "根据设施查找",
+   "en": "SEARCH BY FACILITY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "根据精灵查找",
+   "en": "SEARCH BY POKéMON",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "根据相同地域查找",
+   "en": "SEARCH YOUR LOCATION",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "ＯＫ！",
+   "en": "OK!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "请输入录像编号",
+   "en": "Please enter the Video Number.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/112"
+  },
+  {
+   "id": 113,
+   "zh": "请选择设施",
+   "en": "Please choose the facility.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/113"
+  },
+  {
+   "id": 114,
+   "zh": "请选择精灵",
+   "en": "Please choose the Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/114"
+  },
+  {
+   "id": 115,
+   "zh": "请输入条件",
+   "en": "Please enter the search criteria.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/115"
+  },
+  {
+   "id": 116,
+   "zh": "条件不存在！",
+   "en": "No such search criteria!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "战斗录像查找中⋯⋯",
+   "en": "Loading Battle Video...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/117"
+  },
+  {
+   "id": 118,
+   "zh": "没有符合条件的录像⋯⋯",
+   "en": "There is no matching Battle Video...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/118"
+  },
+  {
+   "id": 119,
+   "zh": "战斗录像传送中⋯⋯",
+   "en": "Sending the Battle Video...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/119"
+  },
+  {
+   "id": 120,
+   "zh": "战斗录像传送完毕！",
+   "en": "The Battle Video was sent!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "查看人物资料",
+   "en": "VIEW PROFILE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/121"
+  },
+  {
+   "id": 122,
+   "zh": "收起人物资料",
+   "en": "CLOSE PROFILE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "最新３０个战斗录像",
+   "en": "NEWEST 30 BATTLE VIDEOS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/123"
+  },
+  {
+   "id": 124,
+   "zh": "请输入条件",
+   "en": "Please set the search criteria.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/124"
+  },
+  {
+   "id": 125,
+   "zh": "无",
+   "en": "None",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/125"
+  },
+  {
+   "id": 126,
+   "zh": "检索出的战斗录像一览",
+   "en": "LIST OF BATTLE VIDEOS FROM{NEWLINE}SEARCH RESULTS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/126"
+  },
+  {
+   "id": 127,
+   "zh": "相同的战斗录像{NEWLINE}不能传送两次",
+   "en": "The same Battle Video can’t be{NEWLINE}sent twice.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/127"
+  },
+  {
+   "id": 128,
+   "zh": "没有登录地域",
+   "en": "You have not registered your location.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/128"
+  },
+  {
+   "id": 129,
+   "zh": "没有传送的录像",
+   "en": "There is no Battle Video to send.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/129"
+  },
+  {
+   "id": 130,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/130"
+  },
+  {
+   "id": 131,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/131"
+  },
+  {
+   "id": 132,
+   "zh": "圆形剧场{NEWLINE}单人无限制",
+   "en": "Colosseum{NEWLINE}Single, No Restrictions",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/132"
+  },
+  {
+   "id": 133,
+   "zh": "圆形剧场{NEWLINE}单人　标准杯",
+   "en": "Colosseum{NEWLINE}Single, Standard Cup",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/133"
+  },
+  {
+   "id": 134,
+   "zh": "圆形剧场{NEWLINE}单人　空想杯",
+   "en": "Colosseum{NEWLINE}Single, Fancy Cup",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/134"
+  },
+  {
+   "id": 135,
+   "zh": "圆形剧场{NEWLINE}单人　小型杯",
+   "en": "Colosseum{NEWLINE}Single, Little Cup",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/135"
+  },
+  {
+   "id": 136,
+   "zh": "圆形剧场{NEWLINE}单人　灯杯",
+   "en": "Colosseum{NEWLINE}Single, Light Cup",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/136"
+  },
+  {
+   "id": 137,
+   "zh": "圆形剧场{NEWLINE}单人　双人杯",
+   "en": "Colosseum{NEWLINE}Single, Double Cup",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/137"
+  },
+  {
+   "id": 138,
+   "zh": "圆形剧场{NEWLINE}单人　其他杯",
+   "en": "Colosseum{NEWLINE}Single, Other Cup",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/138"
+  },
+  {
+   "id": 139,
+   "zh": "圆形剧场{NEWLINE}双人　无限制",
+   "en": "Colosseum{NEWLINE}Double, No Restrictions",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/139"
+  },
+  {
+   "id": 140,
+   "zh": "圆形剧场{NEWLINE}双人　标准杯",
+   "en": "Colosseum{NEWLINE}Double, Standard Cup",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/140"
+  },
+  {
+   "id": 141,
+   "zh": "圆形剧场{NEWLINE}双人　空想杯",
+   "en": "Colosseum{NEWLINE}Double, Fancy Cup",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/141"
+  },
+  {
+   "id": 142,
+   "zh": "圆形剧场{NEWLINE}双人　小型杯",
+   "en": "Colosseum{NEWLINE}Double, Little Cup",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/142"
+  },
+  {
+   "id": 143,
+   "zh": "圆形剧场{NEWLINE}双人　灯杯",
+   "en": "Colosseum{NEWLINE}Double, Light Cup",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/143"
+  },
+  {
+   "id": 144,
+   "zh": "圆形剧场{NEWLINE}双人　双人杯",
+   "en": "Colosseum{NEWLINE}Double, Double Cup",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/144"
+  },
+  {
+   "id": 145,
+   "zh": "圆形剧场{NEWLINE}双人　其他杯",
+   "en": "Colosseum{NEWLINE}Double, Other Cup",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/145"
+  },
+  {
+   "id": 146,
+   "zh": "圆形剧场{NEWLINE}多人战",
+   "en": "Colosseum{NEWLINE}Multi",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/146"
+  },
+  {
+   "id": 147,
+   "zh": "战斗塔{NEWLINE}单人战",
+   "en": "Battle Tower{NEWLINE}Single",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 148,
+   "zh": "战斗塔{NEWLINE}双人战",
+   "en": "Battle Tower{NEWLINE}Double",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 149,
+   "zh": "战斗塔{NEWLINE}多人战",
+   "en": "Battle Tower{NEWLINE}Multi",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/149"
+  },
+  {
+   "id": 150,
+   "zh": "战斗工厂{NEWLINE}等级５０　单人战",
+   "en": "Battle Factory{NEWLINE}Level 50 Single",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/150"
+  },
+  {
+   "id": 151,
+   "zh": "战斗工厂{NEWLINE}等级５０　双人战",
+   "en": "Battle Factory{NEWLINE}Level 50 Double",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/151"
+  },
+  {
+   "id": 152,
+   "zh": "战斗工厂{NEWLINE}等级５０　多人战",
+   "en": "Battle Factory{NEWLINE}Level 50 Multi",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/152"
+  },
+  {
+   "id": 153,
+   "zh": "战斗工厂{NEWLINE}无限制　单人战",
+   "en": "Battle Factory{NEWLINE}Open Level Single",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/153"
+  },
+  {
+   "id": 154,
+   "zh": "战斗工厂{NEWLINE}无限制　双人战",
+   "en": "Battle Factory{NEWLINE}Open Level Double",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/154"
+  },
+  {
+   "id": 155,
+   "zh": "战斗工厂{NEWLINE}无限制　多人战",
+   "en": "Battle Factory{NEWLINE}Open Level Multi",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/155"
+  },
+  {
+   "id": 156,
+   "zh": "战斗舞台{NEWLINE}单人战",
+   "en": "Battle Hall{NEWLINE}Single",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/156"
+  },
+  {
+   "id": 157,
+   "zh": "战斗舞台{NEWLINE}双人战",
+   "en": "Battle Hall{NEWLINE}Double",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/157"
+  },
+  {
+   "id": 158,
+   "zh": "战斗舞台{NEWLINE}多人战",
+   "en": "Battle Hall{NEWLINE}Multi",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/158"
+  },
+  {
+   "id": 159,
+   "zh": "战斗城堡{NEWLINE}单人战",
+   "en": "Battle Castle{NEWLINE}Single",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/159"
+  },
+  {
+   "id": 160,
+   "zh": "战斗城堡{NEWLINE}双人战",
+   "en": "Battle Castle{NEWLINE}Double",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/160"
+  },
+  {
+   "id": 161,
+   "zh": "战斗城堡{NEWLINE}多人战",
+   "en": "Battle Castle{NEWLINE}Multi",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/161"
+  },
+  {
+   "id": 162,
+   "zh": "战斗轮盘{NEWLINE}单人战",
+   "en": "Battle Arcade{NEWLINE}Single",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/162"
+  },
+  {
+   "id": 163,
+   "zh": "战斗轮盘{NEWLINE}双人战",
+   "en": "Battle Arcade{NEWLINE}Double",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/163"
+  },
+  {
+   "id": 164,
+   "zh": "战斗轮盘{NEWLINE}多人战",
+   "en": "Battle Arcade{NEWLINE}Multi",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/164"
+  },
+  {
+   "id": 165,
+   "zh": "圆形剧场{NEWLINE}单人战　无限制",
+   "en": "Colosseum{NEWLINE}Single, No Restrictions",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/165"
+  },
+  {
+   "id": 166,
+   "zh": "圆形剧场{NEWLINE}单人战　杯赛",
+   "en": "Colosseum{NEWLINE}Single, Cup Match",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/166"
+  },
+  {
+   "id": 167,
+   "zh": "圆形剧场{NEWLINE}双人战　无限制",
+   "en": "Colosseum{NEWLINE}Double, No Restrictions",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/167"
+  },
+  {
+   "id": 168,
+   "zh": "圆形剧场{NEWLINE}双人战　杯赛",
+   "en": "Colosseum{NEWLINE}Double, Cup Match",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/168"
+  },
+  {
+   "id": 169,
+   "zh": "　１：圆形剧场{NEWLINE}　　　单人战　无限制",
+   "en": "1: Colosseum{NEWLINE}Single, No Restrictions",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/169"
+  },
+  {
+   "id": 170,
+   "zh": "　２：圆形剧场{NEWLINE}　　　单人战　杯赛",
+   "en": "2: Colosseum{NEWLINE}Single, Cup Match",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/170"
+  },
+  {
+   "id": 171,
+   "zh": "　３：圆形剧场{NEWLINE}　　　双人战　无限制",
+   "en": "3: Colosseum{NEWLINE}Double, No Restrictions",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/171"
+  },
+  {
+   "id": 172,
+   "zh": "　４：圆形剧场{NEWLINE}　　　双人战　杯赛",
+   "en": "4: Colosseum{NEWLINE}Double, Cup Match",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/172"
+  },
+  {
+   "id": 173,
+   "zh": "　５：圆形剧场{NEWLINE}　　　多人战",
+   "en": "5: Colosseum{NEWLINE}Multi",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/173"
+  },
+  {
+   "id": 174,
+   "zh": "　６：战斗塔{NEWLINE}　　　单人战",
+   "en": "6: Battle Tower{NEWLINE}Single",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/174"
+  },
+  {
+   "id": 175,
+   "zh": "　７：战斗塔{NEWLINE}　　　双人战",
+   "en": "7: Battle Tower{NEWLINE}Double",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/175"
+  },
+  {
+   "id": 176,
+   "zh": "　８：战斗塔{NEWLINE}　　　多人战",
+   "en": "8: Battle Tower{NEWLINE}Multi",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/176"
+  },
+  {
+   "id": 177,
+   "zh": "　９：战斗工厂{NEWLINE}　　　等级５０　单人战",
+   "en": "9: Battle Factory{NEWLINE}Level 50, Single",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/177"
+  },
+  {
+   "id": 178,
+   "zh": "１０：战斗工厂{NEWLINE}　　　等级５０　双人战",
+   "en": "10: Battle Factory{NEWLINE}Level 50, Double",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/178"
+  },
+  {
+   "id": 179,
+   "zh": "１１：战斗工厂{NEWLINE}　　　等级５０　多人战",
+   "en": "11: Battle Factory{NEWLINE}Level 50, Multi",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/179"
+  },
+  {
+   "id": 180,
+   "zh": "１２：战斗工厂{NEWLINE}　　　无限制　单人战",
+   "en": "12: Battle Factory{NEWLINE}Open Level, Single",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/180"
+  },
+  {
+   "id": 181,
+   "zh": "１３：战斗工厂{NEWLINE}　　　无限制　双人战",
+   "en": "13: Battle Factory{NEWLINE}Open Level, Double",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/181"
+  },
+  {
+   "id": 182,
+   "zh": "１４：战斗工厂{NEWLINE}　　　无限制　多人战",
+   "en": "14: Battle Factory{NEWLINE}Open Level, Multi",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/182"
+  },
+  {
+   "id": 183,
+   "zh": "１５：战斗舞台{NEWLINE}　　　单人战",
+   "en": "15: Battle Hall{NEWLINE}Single",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/183"
+  },
+  {
+   "id": 184,
+   "zh": "１６：战斗舞台{NEWLINE}　　　双人战",
+   "en": "16: Battle Hall{NEWLINE}Double",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/184"
+  },
+  {
+   "id": 185,
+   "zh": "１７：战斗舞台{NEWLINE}　　　多人战",
+   "en": "17: Battle Hall{NEWLINE}Multi",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/185"
+  },
+  {
+   "id": 186,
+   "zh": "１８：战斗城堡{NEWLINE}　　　单人战",
+   "en": "18: Battle Castle{NEWLINE}Single",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/186"
+  },
+  {
+   "id": 187,
+   "zh": "１９：战斗城堡{NEWLINE}　　　双人战",
+   "en": "19: Battle Castle{NEWLINE}Double",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/187"
+  },
+  {
+   "id": 188,
+   "zh": "２０：战斗城堡{NEWLINE}　　　多人战",
+   "en": "20: Battle Castle{NEWLINE}Multi",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/188"
+  },
+  {
+   "id": 189,
+   "zh": "２１：战斗轮盘{NEWLINE}　　　单人战",
+   "en": "21: Battle Arcade{NEWLINE}Single",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/189"
+  },
+  {
+   "id": 190,
+   "zh": "２２：战斗轮盘{NEWLINE}　　　双人战",
+   "en": "22: Battle Arcade{NEWLINE}Double",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/190"
+  },
+  {
+   "id": 191,
+   "zh": "２３：战斗轮盘{NEWLINE}　　　多人战",
+   "en": "23: Battle Arcade{NEWLINE}Multi",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/191"
+  },
+  {
+   "id": 192,
+   "zh": "ＴＯＵＣＨ　ＨＥＲＥ！",
+   "en": "TOUCH HERE!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 193,
+   "zh": "切断ＷｉーＦｉ连接,{NEWLINE}可以吗？",
+   "en": "Is it OK to disconnect from{NEWLINE}Nintendo Wi-Fi Connection?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/193"
+  },
+  {
+   "id": 194,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 195,
+   "zh": "用户认证错误,{NEWLINE}请稍等后再连接吧。",
+   "en": "User authentication error.{NEWLINE}Please wait a while before reconnecting.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/195"
+  },
+  {
+   "id": 196,
+   "zh": "已经登录了。",
+   "en": "It’s already registered.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 197,
+   "zh": "盛装资料的内容{NEWLINE}似乎有问题。",
+   "en": "There appears to be a problem with the{NEWLINE}Dress-Up Data.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 198,
+   "zh": "人物资料的内容{NEWLINE}似乎有问题。",
+   "en": "There appears to be a problem with the{NEWLINE}Profile data.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 199,
+   "zh": "出现错误。",
+   "en": "An error occurred.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 200,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 201,
+   "zh": "用户认证错误,{NEWLINE}请稍等后再连接吧。",
+   "en": "User authentication error.{NEWLINE}Please wait a while before reconnecting.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/201"
+  },
+  {
+   "id": 202,
+   "zh": "选择的精灵{NEWLINE}似乎有错误。",
+   "en": "There appears to be a problem with the{NEWLINE}chosen Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/202"
+  },
+  {
+   "id": 203,
+   "zh": "出现错误。",
+   "en": "An error occurred.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 204,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 205,
+   "zh": "用户认证错误,{NEWLINE}请稍等后再连接吧。",
+   "en": "User authentication error.{NEWLINE}Please wait a while before reconnecting.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/205"
+  },
+  {
+   "id": 206,
+   "zh": "已经登录了。",
+   "en": "It’s already registered.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 207,
+   "zh": "箱子资料的内容{NEWLINE}似乎有问题。",
+   "en": "There appears to be a problem with the{NEWLINE}Box Data.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 208,
+   "zh": "人物资料的内容{NEWLINE}似乎有问题。",
+   "en": "There appears to be a problem with the{NEWLINE}Profile data.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 209,
+   "zh": "您的队伍{NEWLINE}似乎有问题。",
+   "en": "There appears to be a problem with your{NEWLINE}party.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/202 | seed rejected us [ambiguous US match] (candidate US 0013#202; text not kept)"
+  },
+  {
+   "id": 210,
+   "zh": "出现错误。",
+   "en": "An error occurred.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 211,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 212,
+   "zh": "用户认证错误,{NEWLINE}请稍等后再连接吧。",
+   "en": "User authentication error.{NEWLINE}Please wait a while before reconnecting.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/212"
+  },
+  {
+   "id": 213,
+   "zh": "您的队伍{NEWLINE}似乎有问题。",
+   "en": "There appears to be a problem with your{NEWLINE}party.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/202 | seed rejected us [ambiguous US match] (candidate US 0013#202; text not kept)"
+  },
+  {
+   "id": 214,
+   "zh": "出现错误。",
+   "en": "An error occurred.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 215,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 216,
+   "zh": "用户认证错误,{NEWLINE}请稍等后再连接吧。",
+   "en": "User authentication error.{NEWLINE}Please wait a while before reconnecting.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/216"
+  },
+  {
+   "id": 217,
+   "zh": "出现错误。",
+   "en": "An error occurred.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 218,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 219,
+   "zh": "用户认证出现错误,{NEWLINE}请重新连接。",
+   "en": "User authentication error.{NEWLINE}Please reconnect.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 220,
+   "zh": "接收排名失败。",
+   "en": "Failed to receive the rankings.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 221,
+   "zh": "您的排名成绩{NEWLINE}似乎有问题。",
+   "en": "There appears to be a problem with your{NEWLINE}ranking record.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 222,
+   "zh": "人物资料{NEWLINE}似乎有问题。",
+   "en": "There appears to be a problem with the{NEWLINE}Profile data.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 223,
+   "zh": "出现错误。",
+   "en": "An error occurred.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 224,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 225,
+   "zh": "用户认证错误,{NEWLINE}请稍等后再连接吧。",
+   "en": "User authentication error.{NEWLINE}Please wait a while before reconnecting.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/225"
+  },
+  {
+   "id": 226,
+   "zh": "已经登录了。",
+   "en": "It’s already registered.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 227,
+   "zh": "战斗录像的内容{NEWLINE}似乎有问题。",
+   "en": "There appears to be a problem with the{NEWLINE}Battle Video.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/227"
+  },
+  {
+   "id": 228,
+   "zh": "人物资料{NEWLINE}似乎有问题。",
+   "en": "There appears to be a problem with the{NEWLINE}Profile data.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 229,
+   "zh": "出现错误。",
+   "en": "An error occurred.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 230,
+   "zh": "您的精灵有问题,{NEWLINE}无法传送。",
+   "en": "There appears to be a problem with your{NEWLINE}Pokémon. Data was not sent.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/230"
+  },
+  {
+   "id": 231,
+   "zh": "通信对象的精灵有问题,{NEWLINE}无法传送。",
+   "en": "There appears to be a problem with a{NEWLINE}player’s Pokémon. Data was not sent.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/231"
+  },
+  {
+   "id": 232,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 233,
+   "zh": "用户认证错误,{NEWLINE}请稍等后再连接吧。",
+   "en": "User authentication error.{NEWLINE}Please wait a while before reconnecting.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/233"
+  },
+  {
+   "id": 234,
+   "zh": "检索内容{NEWLINE}似乎有问题。",
+   "en": "There appears to be a problem with the{NEWLINE}search criteria.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 235,
+   "zh": "出现错误。",
+   "en": "An error occurred.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 236,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 237,
+   "zh": "用户认证错误,{NEWLINE}请稍等后再连接吧。",
+   "en": "User authentication error.{NEWLINE}Please wait a while before reconnecting.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/237"
+  },
+  {
+   "id": 238,
+   "zh": "没有符合条件的战斗录像⋯⋯",
+   "en": "No matching Battle Videos found...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/238"
+  },
+  {
+   "id": 239,
+   "zh": "出现错误",
+   "en": "An error occurred",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 240,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 241,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 242,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 243,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 244,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 245,
+   "zh": "出现错误,{NEWLINE}错误１０６０１。",
+   "en": "An error occurred.{NEWLINE}Error Code 10601",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/245"
+  },
+  {
+   "id": 246,
+   "zh": "出现错误,{NEWLINE}错误１０６０２。",
+   "en": "An error occurred.{NEWLINE}Error Code 10602",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/246"
+  },
+  {
+   "id": 247,
+   "zh": "出现错误{NEWLINE}错误１０６０３",
+   "en": "An error occurred.{NEWLINE}Error Code 10603",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/247"
+  },
+  {
+   "id": 248,
+   "zh": "出现错误,{NEWLINE}错误１０６０４。",
+   "en": "An error occurred.{NEWLINE}Error Code 10604",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/248"
+  },
+  {
+   "id": 249,
+   "zh": "出现错误,{NEWLINE}错误１０６０５。",
+   "en": "An error occurred.{NEWLINE}Error Code 10605",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/249"
+  },
+  {
+   "id": 250,
+   "zh": "出现错误,{NEWLINE}错误１０６０６。",
+   "en": "An error occurred.{NEWLINE}Error Code 10606",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/250"
+  },
+  {
+   "id": 251,
+   "zh": "出现错误,{NEWLINE}错误１０６０７。",
+   "en": "An error occurred.{NEWLINE}Error Code 10607",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/251"
+  },
+  {
+   "id": 252,
+   "zh": "出现错误,{NEWLINE}错误１０６０８。",
+   "en": "An error occurred.{NEWLINE}Error Code 10608",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/252"
+  },
+  {
+   "id": 253,
+   "zh": "出现错误,{NEWLINE}错误１０６０９。",
+   "en": "An error occurred.{NEWLINE}Error Code 10609",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/253"
+  },
+  {
+   "id": 254,
+   "zh": "没有回应,{NEWLINE}错误１０６１０。",
+   "en": "There is no response.{NEWLINE}Error Code 10610",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/254"
+  },
+  {
+   "id": 255,
+   "zh": "没有回应,{NEWLINE}错误１０６１１。",
+   "en": "There is no response.{NEWLINE}Error Code 10611",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/255"
+  },
+  {
+   "id": 256,
+   "zh": "没有回应,{NEWLINE}错误１０６１２。",
+   "en": "There is no response.{NEWLINE}Error Code 10612",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/256"
+  },
+  {
+   "id": 257,
+   "zh": "通信中断,{NEWLINE}错误１０６１３。",
+   "en": "Communication was interrupted.{NEWLINE}Error Code 10613",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/257"
+  },
+  {
+   "id": 258,
+   "zh": "连接失败,{NEWLINE}错误１０６１４。",
+   "en": "Unable to connect.{NEWLINE}Error Code 10614",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/258"
+  },
+  {
+   "id": 259,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 260,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 261,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 262,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 263,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 264,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 265,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 266,
+   "zh": "与服务器的连接中断。",
+   "en": "The connection to the server was lost.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/266"
+  },
+  {
+   "id": 267,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 268,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 269,
+   "zh": "没有记录",
+   "en": "There is no record.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/269"
+  },
+  {
+   "id": 270,
+   "zh": "请选择箱子。",
+   "en": "Please choose a Box.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/270"
+  },
+  {
+   "id": 271,
+   "zh": "空箱子无法传送！",
+   "en": "An empty Box’s Data can’t be sent.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/271"
+  },
+  {
+   "id": 272,
+   "zh": "传送到哪个角？",
+   "en": "Where would you like to send this?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/272"
+  },
+  {
+   "id": 273,
+   "zh": "箱子一次只能{NEWLINE}传送一个。",
+   "en": "Only one Box Data may be sent at a time.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/273"
+  },
+  {
+   "id": 274,
+   "zh": "相同的箱子{NEWLINE}无法传送。",
+   "en": "The same Box Data{NEWLINE}can’t be sent.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 275,
+   "zh": "要看哪个角？",
+   "en": "Which corner would you like to view?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 276,
+   "zh": "记录无法删除⋯",
+   "en": "The data couldn’t be deleted...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/285 | seed rejected us [ambiguous US match] (candidate US 0013#285; text not kept)"
+  },
+  {
+   "id": 277,
+   "zh": "无法保存相同的战斗录像。",
+   "en": "The same Battle Video can’t be saved.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 278,
+   "zh": "保存中⋯⋯",
+   "en": "Saving...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/278"
+  },
+  {
+   "id": 279,
+   "zh": "排名接收中⋯⋯",
+   "en": "Receiving the rankings...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 280,
+   "zh": "保存资料传送中⋯⋯",
+   "en": "Sending save data...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 281,
+   "zh": "保存结束！",
+   "en": "Save complete!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/94 | seed rejected us [ambiguous US match] (candidate US 0013#94; text not kept)"
+  },
+  {
+   "id": 282,
+   "zh": "{VAR:0103:0}的战斗记录{NEWLINE}将删除,可以吗？",
+   "en": "{VAR:0103:0}’s battle record will be{NEWLINE}deleted. Is that OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 283,
+   "zh": "真的可以删除吗？",
+   "en": "Is it really OK to delete it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 284,
+   "zh": "记录删除中⋯⋯{NEWLINE}写入存档⋯⋯",
+   "en": "Deleting data...{NEWLINE}Saving...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/284"
+  },
+  {
+   "id": 285,
+   "zh": "记录删除！",
+   "en": "The data was deleted!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/285"
+  },
+  {
+   "id": 286,
+   "zh": "盛装资料传送中⋯⋯",
+   "en": "Sending Dress-Up Data...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 287,
+   "zh": "盛装资料接收中⋯⋯",
+   "en": "Receiving Dress-Up Data...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 288,
+   "zh": "箱子资料传送中⋯⋯",
+   "en": "Sending Box Data...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 289,
+   "zh": "箱子资料接收中⋯⋯",
+   "en": "Receiving Box Data...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 290,
+   "zh": "没有传送的照片,{NEWLINE}去满金市的地下通道拍吧。",
+   "en": "You have no saved data to send.{NEWLINE}Take a photo in the Goldenrod Tunnel.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/290"
+  },
+  {
+   "id": 291,
+   "zh": "同样的照片{NEWLINE}不能照两次。",
+   "en": "The same photo can’t be{NEWLINE}taken twice.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/291 | zh 同样的照片不能照两次 (the same photo can’t be taken twice); US said it can’t be sent again. Followed zh (hack-finding logged)."
+  },
+  {
+   "id": 292,
+   "zh": "战斗录像接收中⋯⋯",
+   "en": "Receiving the Battle Video...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/119 | seed rejected us [ambiguous US match] (candidate US 0013#119; text not kept)"
+  },
+  {
+   "id": 293,
+   "zh": "没有符合条件的照片⋯⋯",
+   "en": "No matching photos found...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/293"
+  },
+  {
+   "id": 294,
+   "zh": "没有符合条件的{NEWLINE}箱子资料⋯⋯",
+   "en": "No matching Box Data{NEWLINE}found...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/294"
+  },
+  {
+   "id": 295,
+   "zh": "战斗录像传送完毕{NEWLINE}录像编号：{VAR:0133:0}ー{VAR:0136:1}ー{VAR:0136:2}{NEWLINE}",
+   "en": "Your Battle Video was sent.{NEWLINE}Video no.: {VAR:0133:0}-{VAR:0136:1}-{VAR:0136:2}{NEWLINE}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/295"
+  },
+  {
+   "id": 296,
+   "zh": "在观看战斗录像前{NEWLINE}会先进行记录。",
+   "en": "The game will be saved before you can view{NEWLINE}Battle Videos.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/296"
+  },
+  {
+   "id": 297,
+   "zh": "记录删除中⋯⋯{NEWLINE}正在写入存档⋯⋯",
+   "en": "Deleting data...{NEWLINE}Saving...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 298,
+   "zh": "正在写入存档⋯⋯",
+   "en": "Saving...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 299,
+   "zh": "正在写入存档⋯⋯",
+   "en": "Saving...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 300,
+   "zh": "没有排名⋯⋯",
+   "en": "There is no ranking data...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/300"
+  },
+  {
+   "id": 301,
+   "zh": "要传送战斗录像吗？",
+   "en": "Would you like to send your Battle Video?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/301"
+  },
+  {
+   "id": 302,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 303,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 304,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 305,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 306,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 307,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 308,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 309,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 310,
+   "zh": "最喜欢箱子　最新２０件",
+   "en": "LATEST 20 IN THE FAVORITE PC BOX",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/310"
+  },
+  {
+   "id": 311,
+   "zh": "最帅箱子　最新２０件",
+   "en": "LATEST 20 IN THE COOL PC BOX",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/311"
+  },
+  {
+   "id": 312,
+   "zh": "最可爱箱子　最新２０件",
+   "en": "LATEST 20 IN THE CUTE PC BOX",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/312"
+  },
+  {
+   "id": 313,
+   "zh": "最推荐箱子　最新２０件",
+   "en": "LATEST 20 IN THE SUGGESTED PC BOX",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/313"
+  },
+  {
+   "id": 314,
+   "zh": "最有趣箱子　最新２０件",
+   "en": "LATEST 20 IN THE FUN PC BOX",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/314"
+  },
+  {
+   "id": 315,
+   "zh": "最有爱箱子　最新２０件",
+   "en": "LATEST 20 IN THE LOVELY PC BOX",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0013/315"
+  },
+  {
+   "id": 316,
+   "zh": "学校男孩",
+   "en": "School Kid♂",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 317,
+   "zh": "捕虫少年",
+   "en": "Bug Catcher",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/317"
+  },
+  {
+   "id": 318,
+   "zh": "精英训练师　男",
+   "en": "Ace Trainer♂",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/318"
+  },
+  {
+   "id": 319,
+   "zh": "光头",
+   "en": "Roughneck",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/319"
+  },
+  {
+   "id": 320,
+   "zh": "遗迹迷",
+   "en": "Ruin Maniac",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/320"
+  },
+  {
+   "id": 321,
+   "zh": "空手道达人",
+   "en": "Black Belt",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/321"
+  },
+  {
+   "id": 322,
+   "zh": "大少爷",
+   "en": "Rich Boy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 323,
+   "zh": "超能力者　男",
+   "en": "Psychic♂",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/323"
+  },
+  {
+   "id": 324,
+   "zh": "迷你裙少女",
+   "en": "Lass",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/324"
+  },
+  {
+   "id": 325,
+   "zh": "战斗女孩",
+   "en": "Battle Girl",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 326,
+   "zh": "成熟大姐",
+   "en": "Beauty",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 327,
+   "zh": "精英训练师　女",
+   "en": "Ace Trainer♀",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/327"
+  },
+  {
+   "id": 328,
+   "zh": "明星",
+   "en": "Idol",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/328"
+  },
+  {
+   "id": 329,
+   "zh": "贵妇人",
+   "en": "Socialite",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 330,
+   "zh": "农场女孩",
+   "en": "Cowgirl",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 331,
+   "zh": "大小姐",
+   "en": "Lady",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 332,
+   "zh": "金银",
+   "en": "Goldver",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0013/332"
+  }
+ ]
+}

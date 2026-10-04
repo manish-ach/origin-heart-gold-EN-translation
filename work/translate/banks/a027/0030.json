@@ -1,0 +1,871 @@
+{
+ "narc": "a027",
+ "bank": 30,
+ "source": "work/extract/v4/a027/0030.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "{VAR:0103:0}",
+   "en": "{VAR:0103:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "{VAR:0103:0}",
+   "en": "{VAR:0103:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0135:0}ＣＰ",
+   "en": "{VAR:0135:0} CP",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "as 0018 #53 / US"
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:0135:0}ＣＰ",
+   "en": "{VAR:0135:0} CP",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "as 0018 #53 / US"
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0135:0}ＣＰ",
+   "en": "{VAR:0135:0} CP",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "as 0018 #53 / US"
+  },
+  {
+   "id": 5,
+   "zh": "请选择精灵。",
+   "en": "Please choose your Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/5"
+  },
+  {
+   "id": 6,
+   "zh": "返回",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0031/6 | seed rejected us [tag_mismatch] (candidate US 0031#6; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch; other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl) | seed rejected tm_v3 [tag_mismatch] (candidate v3 0030#6; text not kept)"
+  },
+  {
+   "id": 7,
+   "zh": "等待好友中！",
+   "en": "Waiting for your friend!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:0103:0}选择了「返回」！",
+   "en": "{VAR:0103:0} chose to exit.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/8"
+  },
+  {
+   "id": 9,
+   "zh": "回复",
+   "en": "HEAL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/9"
+  },
+  {
+   "id": 10,
+   "zh": "租借",
+   "en": "RENTAL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/10"
+  },
+  {
+   "id": 11,
+   "zh": "状态",
+   "en": "STATUS",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 4 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 12,
+   "zh": "技能",
+   "en": "MOVES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "关闭",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/13"
+  },
+  {
+   "id": 14,
+   "zh": "能够回复ＨＰ或ＰＰ。",
+   "en": "Restore HP and/or PP.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/14"
+  },
+  {
+   "id": 15,
+   "zh": "能够借到树果或道具。",
+   "en": "You may rent a Berry or{NEWLINE}an item.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/15"
+  },
+  {
+   "id": 16,
+   "zh": "能够查看性格和特性。",
+   "en": "Check Nature and Ability.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "能够查看「技能」和ＰＰ。",
+   "en": "Check moves and PP.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "返回选择精灵",
+   "en": "Go back to the Pokémon-{NEWLINE}selection page.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/18"
+  },
+  {
+   "id": 19,
+   "zh": "ＨＰ回复",
+   "en": "RESTORE HP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/19"
+  },
+  {
+   "id": 20,
+   "zh": "ＰＰ回复",
+   "en": "RESTORE PP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/20"
+  },
+  {
+   "id": 21,
+   "zh": "所有回复",
+   "en": "RESTORE ALL",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0031/9 | seed rejected us [ambiguous US match] (candidate US 0031#9; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 22,
+   "zh": "等级提升",
+   "en": "RANK UP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/22"
+  },
+  {
+   "id": 23,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/23"
+  },
+  {
+   "id": 24,
+   "zh": "要用什么？",
+   "en": "Which would you like to use?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/24"
+  },
+  {
+   "id": 25,
+   "zh": "提升等级能够回复ＰＰ。",
+   "en": "You will be able to restore PP by going{NEWLINE}up in rank.",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0031/14 | seed rejected us [ambiguous US match] (candidate US 0031#14; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 26,
+   "zh": "提升等级同时回复ＨＰ和ＰＰ。",
+   "en": "You will be able to restore both HP and{NEWLINE}PP by going up in rank.",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 27,
+   "zh": "等级无法再提升了。",
+   "en": "Your rank cannot be raised any higher.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/27"
+  },
+  {
+   "id": 28,
+   "zh": "想做什么{NEWLINE}返回选择菜单。",
+   "en": "Return to previous selections.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/28"
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0108:0}需要{VAR:0133:1}ＣＰ！{NEWLINE}可以吗？",
+   "en": "{VAR:0108:0} costs {VAR:0133:1} CP!{NEWLINE}Is that OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 31,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 32,
+   "zh": "ＣＰ不够！",
+   "en": "You don’t have enough CP.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/32"
+  },
+  {
+   "id": 33,
+   "zh": "回复的等级过低,{NEWLINE}无法购买ＣＰ。",
+   "en": "Your healing rank is too low{NEWLINE}to buy CP.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0031/33; ext-review RCA-004"
+  },
+  {
+   "id": 34,
+   "zh": "{VAR:0100:0}的ＨＰ回复！",
+   "en": "{VAR:0100:0}’s HP will be restored.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/34"
+  },
+  {
+   "id": 35,
+   "zh": "{VAR:0100:0}的ＰＰ回复！",
+   "en": "{VAR:0100:0}’s PP will be restored.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/35"
+  },
+  {
+   "id": 36,
+   "zh": "{VAR:0100:0}的ＨＰ和ＰＰ回复！",
+   "en": "{VAR:0100:0}’s HP and PP will be{NEWLINE}restored.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/36"
+  },
+  {
+   "id": 37,
+   "zh": "使用也没有效果",
+   "en": "There is no benefit to using that{NEWLINE}command.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/37"
+  },
+  {
+   "id": 38,
+   "zh": "使用{VAR:0134:0}ＣＰ{NEWLINE}提升等级吗？",
+   "en": "Would you like to up your rank{NEWLINE}for {VAR:0134:0} CP?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/38"
+  },
+  {
+   "id": 39,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 40,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 41,
+   "zh": "ＣＰ不够！",
+   "en": "You don’t have enough CP.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/41"
+  },
+  {
+   "id": 42,
+   "zh": "{VAR:0103:5}能够回复ＰＰ了！",
+   "en": "{VAR:0103:5} gained the ability to{NEWLINE}restore PP!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/42"
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0103:5}能够同时{NEWLINE}回复ＨＰ和ＰＰ了！",
+   "en": "{VAR:0103:5} gained the ability to{NEWLINE}restore both HP and PP!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/43"
+  },
+  {
+   "id": 44,
+   "zh": "树果",
+   "en": "BERRIES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/44"
+  },
+  {
+   "id": 45,
+   "zh": "道具",
+   "en": "ITEMS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/45"
+  },
+  {
+   "id": 46,
+   "zh": "等级提升",
+   "en": "RANK UP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/46"
+  },
+  {
+   "id": 47,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/47"
+  },
+  {
+   "id": 48,
+   "zh": "能够租借树果",
+   "en": "You may rent a Berry for this Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/48"
+  },
+  {
+   "id": 49,
+   "zh": "能够租借道具",
+   "en": "You may rent an item for this Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/49"
+  },
+  {
+   "id": 50,
+   "zh": "提升等级能够租借道具。",
+   "en": "You will be able to rent an item for{NEWLINE}your Pokémon by going up in rank.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/50"
+  },
+  {
+   "id": 51,
+   "zh": "提升等级增加了{NEWLINE}可租借树果和道具种类。",
+   "en": "Your choices of items and Berries will{NEWLINE}be expanded by going up in rank.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/51"
+  },
+  {
+   "id": 52,
+   "zh": "等级无法再提升了。",
+   "en": "Your rank cannot be raised any higher.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/52"
+  },
+  {
+   "id": 53,
+   "zh": "想做什么{NEWLINE}返回选择菜单。",
+   "en": "Return to previous selections.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/53"
+  },
+  {
+   "id": 54,
+   "zh": "租借的等级过低{NEWLINE}无法使用ＣＰ",
+   "en": "You are too low in rental rank to{NEWLINE}use CP.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/54"
+  },
+  {
+   "id": 55,
+   "zh": "需要消耗{VAR:0133:0}ＣＰ{NEWLINE}可以吗？",
+   "en": "It will cost {VAR:0133:0} CP.{NEWLINE}Is that OK?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/55"
+  },
+  {
+   "id": 56,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 57,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 58,
+   "zh": "ＣＰ不够！",
+   "en": "You don’t have enough CP.",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s), flags suspiciously_long"
+  },
+  {
+   "id": 59,
+   "zh": "让{VAR:0100:0}带上了{NEWLINE}{VAR:0108:1}！",
+   "en": "{VAR:0100:0} was given the{NEWLINE}{VAR:0108:1} to hold.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/59"
+  },
+  {
+   "id": 60,
+   "zh": "{VAR:0100:0}已经有{NEWLINE}{VAR:0108:1}了！",
+   "en": "{VAR:0100:0} is already holding{NEWLINE}{VAR:0108:1}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/60"
+  },
+  {
+   "id": 61,
+   "zh": "要交换手上的道具吗？",
+   "en": "Would you like to switch the{NEWLINE}two items?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/61"
+  },
+  {
+   "id": 62,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 63,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 64,
+   "zh": "使用{VAR:0134:0}ＣＰ{NEWLINE}提升等级吗？",
+   "en": "Would you like to up your rank{NEWLINE}for {VAR:0134:0} CP?",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 65,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 66,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 67,
+   "zh": "ＣＰ不够！",
+   "en": "You don’t have enough CP.",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s), flags suspiciously_long"
+  },
+  {
+   "id": 68,
+   "zh": "{VAR:0103:5}能够{NEWLINE}租借道具了！",
+   "en": "{VAR:0103:5} gained the ability to{NEWLINE}rent items!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/68"
+  },
+  {
+   "id": 69,
+   "zh": "{VAR:0103:5}增加了{NEWLINE}树果和道具的种类！",
+   "en": "{VAR:0103:5} expanded the variety of{NEWLINE}rentable Berries and items!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/69"
+  },
+  {
+   "id": 70,
+   "zh": "持有物",
+   "en": "Item",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/70"
+  },
+  {
+   "id": 71,
+   "zh": "{VAR:0108:0}",
+   "en": "{VAR:0108:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "性格",
+   "en": "Nature",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/72"
+  },
+  {
+   "id": 73,
+   "zh": "{VAR:0107:0}",
+   "en": "{VAR:0107:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "特性",
+   "en": "Ability",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/74"
+  },
+  {
+   "id": 75,
+   "zh": "{VAR:0105:0}",
+   "en": "{VAR:0105:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "攻击",
+   "en": "Attack",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/76"
+  },
+  {
+   "id": 77,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "防御",
+   "en": "Defense",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/78"
+  },
+  {
+   "id": 79,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "特攻",
+   "en": "Sp. Atk",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/80"
+  },
+  {
+   "id": 81,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "特防",
+   "en": "Sp. Def",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/82"
+  },
+  {
+   "id": 83,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "速度",
+   "en": "Speed",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/84"
+  },
+  {
+   "id": 85,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "㊚",
+   "en": "♂",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "㊛",
+   "en": "♀",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "Ｌｖ．",
+   "en": "Lv.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "ＨＰ",
+   "en": "HP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "／",
+   "en": "/",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "{VAR:0101:0}",
+   "en": "{VAR:0101:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "{VAR:0134:0}／{VAR:0134:1}",
+   "en": "{VAR:0134:0}/{VAR:0134:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "{VAR:0106:0}",
+   "en": "{VAR:0106:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "{VAR:0106:1}",
+   "en": "{VAR:0106:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "{VAR:0106:2}",
+   "en": "{VAR:0106:2}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "{VAR:0106:3}",
+   "en": "{VAR:0106:3}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "{VAR:FF00:2}{VAR:0133:4}{VAR:FF00:0}／{VAR:FF00:2}{VAR:0133:5}{VAR:FF00:0}",
+   "en": "{VAR:FF00:2}{VAR:0133:4}{VAR:FF00:0}/{VAR:FF00:2}{VAR:0133:5}{VAR:FF00:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "{VAR:0133:0}",
+   "en": "{VAR:0133:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "ーー",
+   "en": "--",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "{VAR:0132:0}／{VAR:0132:1}",
+   "en": "{VAR:0132:0}/{VAR:0132:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "{VAR:0133:0}ＣＰ",
+   "en": "{VAR:0133:0} CP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "返回",
+   "en": "RETURN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/105"
+  },
+  {
+   "id": 106,
+   "zh": "租借／树果",
+   "en": "Rental/Berry",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/106"
+  },
+  {
+   "id": 107,
+   "zh": "租借／道具",
+   "en": "Rental/Item",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0031/107"
+  }
+ ]
+}

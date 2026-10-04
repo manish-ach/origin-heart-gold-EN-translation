@@ -1,0 +1,241 @@
+{
+ "narc": "a027",
+ "bank": 202,
+ "source": "work/extract/v4/a027/0202.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "你好！状态如何？{SCROLL}你的队伍是{NEWLINE}{VAR:0103:0}为队长的{CLEAR}{VAR:0101:1}队伍吗？{SCROLL}要离开现在的队伍{NEWLINE}加入别的队伍吗？{VAR:0200:0}",
+   "en": "Hi! How’s it going?{SCROLL}You’re in the {VAR:0101:1} group{NEWLINE}with {VAR:0103:0} as leader, right?{SCROLL}Would you like to leave your current{NEWLINE}group and join another one? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0204/0 | seed rejected us [tag_mismatch] (candidate US 0204#0; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0202#0; text not kept)"
+  },
+  {
+   "id": 1,
+   "zh": "你好！状态如何？{SCROLL}你的队伍是{NEWLINE}{VAR:0103:0}为队长的{CLEAR}{VAR:0101:1}队伍吗？{SCROLL}要解散现在的队伍{NEWLINE}组建新的队伍吗？{VAR:0200:0}",
+   "en": "Hi! How’s it going?{SCROLL}You’re in the {VAR:0101:1} group{NEWLINE}with {VAR:0103:0} as leader, right?{SCROLL}Would you like to disband your{NEWLINE}current group and make a new one? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0204/1 | seed rejected us [tag_mismatch] (candidate US 0204#1; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0202#1; text not kept)"
+  },
+  {
+   "id": 2,
+   "zh": "你想加入队伍吗？{SCROLL}加入队伍的话{NEWLINE}可以和朋友相互竞争{CLEAR}或相互合作,非常有趣！{VAR:0200:0}",
+   "en": "Hey, you! I know it’s a little sudden,{NEWLINE}but would you like to join a group?{SCROLL}If you join a group, you can compete{NEWLINE}or cooperate with fellow members.{SCROLL}It’s a lot of fun. Want to join? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0204/2"
+  },
+  {
+   "id": 3,
+   "zh": "要加入哪个队伍？{VAR:0200:0}",
+   "en": "Which group would you like to join? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0204/3"
+  },
+  {
+   "id": 4,
+   "zh": "遗憾⋯⋯",
+   "en": "Oh. That’s too bad.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0204/4"
+  },
+  {
+   "id": 5,
+   "zh": "要组建队伍吧！{SCROLL}之前组建的队伍{NEWLINE}将会消失,可以吗？{VAR:0200:0}",
+   "en": "Oh, you want to make a new group?{NEWLINE}Sure thing!{SCROLL}The group you made before will be{NEWLINE}disbanded, though. Is that OK? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0204/5"
+  },
+  {
+   "id": 6,
+   "zh": "好！那么{NEWLINE}好好考虑队伍的名字吧！",
+   "en": "Cool! What do you want to name{NEWLINE}your group?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0204/6"
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0101:0}队伍！{NEWLINE}嗯,很好的名字！{SCROLL}队长{VAR:0103:1}！{NEWLINE}会招来许多同伴吧！",
+   "en": "The {VAR:0101:0} group!{NEWLINE}Mmm, that’s a great name!{SCROLL}Leader {VAR:0103:1}! I bet you’ll{NEWLINE}attract lots of members!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0204/7 | seed rejected us [tag_mismatch] (candidate US 0204#7; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0202#7; text not kept)"
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:0101:0}队伍！{NEWLINE}{VAR:0103:1}是队长！{CLEAR}要加入吗？{VAR:0200:0}",
+   "en": "The {VAR:0101:0} group? {VAR:0103:1} is{NEWLINE}the leader. Will you join this group? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0204/8 | seed rejected us [tag_mismatch] (candidate US 0204#8; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0202#8; text not kept)"
+  },
+  {
+   "id": 9,
+   "zh": "那么{VAR:0103:0}从现在开始是{NEWLINE}{VAR:0101:1}队伍的成员！",
+   "en": "OK! From now on, {VAR:0103:0} is a{NEWLINE}member of the {VAR:0101:1} group!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0204/9 | seed rejected us [tag_mismatch] (candidate US 0204#9; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0202#9; text not kept)"
+  },
+  {
+   "id": 10,
+   "zh": "组建队伍{NEWLINE}在联机大厅登录的话,{SCROLL}朋友们就可以加入相同的队伍,{SCROLL}加入相同的队伍的话{NEWLINE}两边就会发生相同的事件,{CLEAR}非常让人期待！{SCROLL}任何人都可以组建队伍,{CLEAR}加入也是一样的！{SCROLL}赶紧增加同伴跟大家一起玩！{VAR:0200:0}",
+   "en": "When you form or join a new group,{NEWLINE}be sure to visit any Union Room.{SCROLL}Mix your records with group members,{NEWLINE}and you’ll become integrated.{SCROLL}When you’re in the same group,{NEWLINE}events can happen simultaneously.{SCROLL}It makes things a lot more fun{NEWLINE}playing in a group!{SCROLL}Anyone can make a new group, and{NEWLINE}anyone can join.{SCROLL}I hope you recruit lots of friends{NEWLINE}so everyone can have fun! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0204/10"
+  },
+  {
+   "id": 11,
+   "zh": "组建队伍",
+   "en": "MAKE GROUP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0204/11",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "加入队伍",
+   "en": "JOIN GROUP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0204/12",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 13,
+   "zh": "说明",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0204/13",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 14,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0204/14",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0101:0}队伍",
+   "en": "{VAR:0101:0}{NEWLINE}GROUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0204/15 | seed rejected us [tag_mismatch] (candidate US 0204#15; text not kept) | v3 TM: 2 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0202#15; text not kept)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0101:1}队伍",
+   "en": "{VAR:0101:1}{NEWLINE}GROUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0204/16 | seed rejected us [tag_mismatch] (candidate US 0204#16; text not kept) | v3 TM: 2 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0202#16; text not kept)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0101:2}队伍",
+   "en": "{VAR:0101:2}{NEWLINE}GROUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0204/17 | seed rejected us [tag_mismatch] (candidate US 0204#17; text not kept) | v3 TM: 2 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0202#17; text not kept)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0101:3}队伍",
+   "en": "{VAR:0101:3}{NEWLINE}GROUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0204/18 | seed rejected us [tag_mismatch] (candidate US 0204#18; text not kept) | v3 TM: 2 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0202#18; text not kept)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0101:4}队伍",
+   "en": "{VAR:0101:4}{NEWLINE}GROUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0204/19 | seed rejected us [tag_mismatch] (candidate US 0204#19; text not kept) | v3 TM: 2 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0202#19; text not kept)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0101:0}队伍",
+   "en": "{VAR:0101:0} GROUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0204/20 | seed rejected us [tag_mismatch] (candidate US 0204#20; text not kept) | v3 TM: 2 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0202#15; text not kept)"
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0101:1}队伍",
+   "en": "{VAR:0101:1} GROUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0204/21 | seed rejected us [tag_mismatch] (candidate US 0204#21; text not kept) | v3 TM: 2 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0202#16; text not kept)"
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0101:2}队伍",
+   "en": "{VAR:0101:2} GROUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0204/22 | seed rejected us [tag_mismatch] (candidate US 0204#22; text not kept) | v3 TM: 2 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0202#17; text not kept)"
+  },
+  {
+   "id": 23,
+   "zh": "{VAR:0101:3}队伍",
+   "en": "{VAR:0101:3} GROUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0204/23 | seed rejected us [tag_mismatch] (candidate US 0204#23; text not kept) | v3 TM: 2 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0202#18; text not kept)"
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0101:4}队伍",
+   "en": "{VAR:0101:4} GROUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0204/24 | seed rejected us [tag_mismatch] (candidate US 0204#24; text not kept) | v3 TM: 2 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0202#19; text not kept)"
+  },
+  {
+   "id": 25,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0204/25",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 26,
+   "zh": "那个队伍已经被{NEWLINE}{VAR:0103:0}组建了？",
+   "en": "That group?{NEWLINE}Didn’t {VAR:0103:0} make it already?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0204/26"
+  },
+  {
+   "id": 27,
+   "zh": "这个名字已经被占用了。",
+   "en": "Isn’t there already another group{NEWLINE}with that name?",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s), same position"
+  }
+ ]
+}

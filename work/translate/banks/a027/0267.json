@@ -1,0 +1,1383 @@
+{
+ "narc": "a027",
+ "bank": 267,
+ "source": "work/extract/v4/a027/0267.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "ようこそ！{VAR:0207}{NEWLINE}ここでは　ボックスから{NEWLINE}えらんだ　ポケモンを{VAR:0208}{NEWLINE}ポケウォーカー　にいれて{VAR:0207}{NEWLINE}ポケモンと　いっしょに{NEWLINE}おでかけが　できます{VAR:0207}",
+   "en": "Welcome!{VAR:0207}{NEWLINE}Here, you can take a Pokémon{NEWLINE}chosen from your PC Box{VAR:0208}{NEWLINE}and put it in the Pokéwalker{VAR:0207}{NEWLINE}to take it along{NEWLINE}on a Stroll.{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 1,
+   "zh": "いっしょに　おでかけする{NEWLINE}ポケモンを　えらびます",
+   "en": "Choose the Pokémon{NEWLINE}to take along on a Stroll.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 2,
+   "zh": "おでかけした　ポケモンや{NEWLINE}プレゼントを　うけとれます",
+   "en": "Receive the Pokémon back{NEWLINE}from its Stroll, and any gifts.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 3,
+   "zh": "ちゅうい！{VAR:0207}{NEWLINE}ポケウォーカーの　とうろくデータを{NEWLINE}すべて　けします{VAR:0208}{NEWLINE}けすまえに　かならず　ポケウォーカーの{VAR:0208}{NEWLINE}じょうほうを　かくにんして　ください{VAR:0207}{NEWLINE}ポケウォーカーで　おでかけしている{NEWLINE}ポケモンは　もどってきますが{VAR:0207}{NEWLINE}ポケウォーカーの　データは{NEWLINE}すべて　きえてしまいます{VAR:0207}{NEWLINE}それでも　ポケウォーカーの{NEWLINE}データを　けしますか？",
+   "en": "Caution!{VAR:0207}{NEWLINE}All registration data on the{NEWLINE}Pokéwalker will be erased.{VAR:0208}{NEWLINE}Before erasing it, please be sure{VAR:0208}{NEWLINE}to check the Pokéwalker’s information.{VAR:0207}{NEWLINE}Any Pokémon out on a Stroll in{NEWLINE}the Pokéwalker will come back, but{VAR:0207}{NEWLINE}all the data on the Pokéwalker{NEWLINE}will be erased.{VAR:0207}{NEWLINE}Erase the Pokéwalker’s{NEWLINE}data anyway?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 4,
+   "zh": "ポケウォーカーの{NEWLINE}きろくを　すべてけします",
+   "en": "All records on the{NEWLINE}Pokéwalker will be erased.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 5,
+   "zh": "ＤＳカードに　むけて{NEWLINE}つうしんをえらんでください",
+   "en": "Point it at the DS Card{NEWLINE}and select “CONNECT.”",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 6,
+   "zh": "ポケウォーカーと　つうしんちゅう{NEWLINE}そのまま　おまちください",
+   "en": "Connecting to the Pokéwalker.{NEWLINE}Please wait.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 7,
+   "zh": "ポケウォーカーの　おとが{NEWLINE}なっても　よいばしょで{VAR:0207}{NEWLINE}ＤＳカードにむけて ボタンを{NEWLINE}おし ５びょう まってください",
+   "en": "Somewhere it’s OK for the{NEWLINE}Pokéwalker to make noise,{VAR:0207}{NEWLINE}point it at the DS Card, press{NEWLINE}the button and wait 5 seconds.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 8,
+   "zh": "ポケウォーカーで　ポケモン{NEWLINE}と　おでかけに　いけます",
+   "en": "Your Pokémon can now go on{NEWLINE}a Stroll in the Pokéwalker.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 9,
+   "zh": "ポケウォーカーの　ほすう{NEWLINE}を　ひきつぎ　ますか？",
+   "en": "Carry over the Pokéwalker’s{NEWLINE}step count?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 10,
+   "zh": "あたらしい　おでかけコースが{NEWLINE}ふえました！",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "Pokéwalker text the hack left in Japanese; US HGSS blanks this slot, mirrored",
+   "qa_ignore": [
+    "empty",
+    "tag_mismatch",
+    "tag_order",
+    "trailing_layout"
+   ]
+  },
+  {
+   "id": 11,
+   "zh": "パソコンの　ボックスから{NEWLINE}ポケモンを　えらんでください{VAR:0207}",
+   "en": "Please select a Pokémon{NEWLINE}from your PC Box.{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 12,
+   "zh": "おでかけする　コースを{NEWLINE}えらんで　ください{VAR:0207}",
+   "en": "Please select the Route{NEWLINE}for your Stroll.{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 13,
+   "zh": "ポケモンレポートに　かきこんでいます{NEWLINE}でんげんを　きらないでください",
+   "en": "Saving the game...{NEWLINE}Do not turn off the power.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 14,
+   "zh": "ポケウォーカーの　そうほすうを{NEWLINE}けさずに　しょきかしますか？",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "Pokéwalker text the hack left in Japanese; US HGSS blanks this slot, mirrored",
+   "qa_ignore": [
+    "empty",
+    "tag_mismatch",
+    "tag_order",
+    "trailing_layout"
+   ]
+  },
+  {
+   "id": 15,
+   "zh": "ポケウォーカーで　あそぶには{NEWLINE}ボックスに　５ひき　いじょうの{VAR:0208}{NEWLINE}あきが　ひつようです{VAR:0207}{NEWLINE}ボックスを　５ひきいじょう{NEWLINE}あけてから　また　きてください{VAR:0207}",
+   "en": "To use the Pokéwalker, you need{NEWLINE}at least 5 open spaces{VAR:0208}{NEWLINE}in your PC Boxes.{VAR:0207}{NEWLINE}Please free up at least 5 spaces{NEWLINE}and then come back.{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 16,
+   "zh": "ＤＳと　ポケウォーカーの{NEWLINE}つうしんを　はじめます{VAR:0201:90}",
+   "en": "The DS will now connect{NEWLINE}to the Pokéwalker.{VAR:0201:90}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 17,
+   "zh": "ポケウォーカーを　とうろく{NEWLINE}することが　できます",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "Pokéwalker text the hack left in Japanese; US HGSS blanks this slot, mirrored",
+   "qa_ignore": [
+    "empty",
+    "tag_mismatch",
+    "tag_order",
+    "trailing_layout"
+   ]
+  },
+  {
+   "id": 18,
+   "zh": "ちゅうい！{VAR:0207}{NEWLINE}ポケウォーカー　で{NEWLINE}おでかけちゅうの　ポケモンを{VAR:0208}{NEWLINE}かえらせることが　できますが{VAR:0207}{NEWLINE}ポケウォーカーの　なかのポケモンは{NEWLINE}ひきとることは　できなくなります{VAR:0207}{NEWLINE}それでも　ポケウォーカーから{NEWLINE}ポケモンを　かえしますか？",
+   "en": "Caution!{VAR:0207}{NEWLINE}You can bring back the Pokémon{NEWLINE}out on a Stroll in the Pokéwalker,{VAR:0208}{NEWLINE}but if you do,{VAR:0207}{NEWLINE}you can’t receive the Pokémon{NEWLINE}inside the Pokéwalker.{VAR:0207}{NEWLINE}Bring the Pokémon back from{NEWLINE}the Pokéwalker anyway?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 19,
+   "zh": "ポケモンを　おでかけから{NEWLINE}かえらせます",
+   "en": "The Pokémon will be brought{NEWLINE}back from its Stroll.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 20,
+   "zh": "うけとった　ポケモンは{NEWLINE}やせいに　かえって　いった{VAR:0201:120}",
+   "en": "Any Pokémon it received were{NEWLINE}released back into the wild.{VAR:0201:120}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0104:0}コース　に{NEWLINE}おでかけ　しますか？",
+   "en": "Take a Stroll on the{NEWLINE}{VAR:0104:0} Route?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 22,
+   "zh": "ようこそ！{VAR:0207}{NEWLINE}ここでは　ボックスから{NEWLINE}えらんだ　ポケモンを{VAR:0208}{NEWLINE}ポケウォーカー　にいれて{VAR:0207}{NEWLINE}ポケモンと　いっしょに{NEWLINE}おでかけが　できます{VAR:0207}{NEWLINE}ボックスに　ポケモンを{NEWLINE}１ひき　いじょう　あずけてから{VAR:0208}{NEWLINE}またきて　ください{VAR:0207}",
+   "en": "Welcome!{VAR:0207}{NEWLINE}Here, you can take a Pokémon{NEWLINE}chosen from your PC Box{VAR:0208}{NEWLINE}and put it in the Pokéwalker{VAR:0207}{NEWLINE}to take it along{NEWLINE}on a Stroll.{VAR:0207}{NEWLINE}Please put at least one{NEWLINE}Pokémon in your PC Box{VAR:0208}{NEWLINE}and then come back.{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches",
+   "qa_ignore": [
+    "number_missing"
+   ]
+  },
+  {
+   "id": 23,
+   "zh": "いけ！　{VAR:0101:1}！",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "Pokéwalker text the hack left in Japanese; US HGSS blanks this slot, mirrored",
+   "qa_ignore": [
+    "empty",
+    "tag_mismatch",
+    "tag_order",
+    "trailing_layout"
+   ]
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0101:1}は　ポケウォーカーに{NEWLINE}すいこまれて　いった！{VAR:0201:120}",
+   "en": "{VAR:0101:1} was drawn into{NEWLINE}the Pokéwalker!{VAR:0201:120}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 25,
+   "zh": "ポケウォーカー　を{NEWLINE}このＤＳカードと　とうろくしました{VAR:0208}{NEWLINE}こんご　ポケモンを　もどすときは{VAR:0208}{NEWLINE}このＤＳカードへ　もどしてください{VAR:0207}{NEWLINE}それでは　ポケモンとの　おでかけを{NEWLINE}おたのしみ　ください！{VAR:0207}",
+   "en": "The Pokéwalker has been{NEWLINE}registered to this DS Card.{VAR:0208}{NEWLINE}When you send Pokémon back,{VAR:0208}{NEWLINE}please return them to this DS Card.{VAR:0207}{NEWLINE}Enjoy your Stroll{NEWLINE}with your Pokémon!{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0101:1}　もどってこい！",
+   "en": "Come back, {VAR:0101:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 27,
+   "zh": "{VAR:0101:1}　が{NEWLINE}もどってきた！{VAR:0201:120}",
+   "en": "{VAR:0101:1}{NEWLINE}came back!{VAR:0201:120}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 28,
+   "zh": "プレゼントを　うけとります",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "Pokéwalker text the hack left in Japanese; US HGSS blanks this slot, mirrored",
+   "qa_ignore": [
+    "empty",
+    "tag_mismatch",
+    "tag_order",
+    "trailing_layout"
+   ]
+  },
+  {
+   "id": 29,
+   "zh": "プレゼントを　うけとりました！{VAR:0201:120}",
+   "en": "Received the gifts!{VAR:0201:120}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 30,
+   "zh": "ポケウォーカーの　きろくを{NEWLINE}しょきか　しています",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "Pokéwalker text the hack left in Japanese; US HGSS blanks this slot, mirrored",
+   "qa_ignore": [
+    "empty",
+    "tag_mismatch",
+    "tag_order",
+    "trailing_layout"
+   ]
+  },
+  {
+   "id": 31,
+   "zh": "ポケウォーカーの　きろくを{NEWLINE}しょきか　しました{VAR:0201:120}",
+   "en": "The Pokéwalker’s records{NEWLINE}have been reset.{VAR:0201:120}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 32,
+   "zh": "ポケモンが{NEWLINE}もどって　きた！{VAR:0201:120}",
+   "en": "The Pokémon{NEWLINE}came back!{VAR:0201:120}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 33,
+   "zh": "ポケウォーカーの{NEWLINE}つうしんを　やめました{VAR:0201:120}",
+   "en": "Canceled the connection{NEWLINE}to the Pokéwalker.{VAR:0201:120}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 34,
+   "zh": "この　ポケウォーカーは{NEWLINE}すでに　とうろくずみ　です{VAR:0201:120}",
+   "en": "This Pokéwalker is{NEWLINE}already registered.{VAR:0201:120}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 35,
+   "zh": "つうしんに{NEWLINE}しっぱい　しました{VAR:0201:120}",
+   "en": "The connection{NEWLINE}failed.{VAR:0201:120}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 36,
+   "zh": "この　ポケウォーカーは{NEWLINE}まだ　とうろく　されていません{VAR:0201:120}",
+   "en": "This Pokéwalker has{NEWLINE}not been registered yet.{VAR:0201:120}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 37,
+   "zh": "この　ポケウォーカーは　すでに{NEWLINE}ポケモンが　はいっています{VAR:0201:120}",
+   "en": "This Pokéwalker already{NEWLINE}has a Pokémon in it.{VAR:0201:120}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 38,
+   "zh": "このポケウォーカーは　とうろくした{NEWLINE}ポケウォーカーでは　ありません{VAR:0201:120}",
+   "en": "This Pokéwalker is not the{NEWLINE}registered Pokéwalker.{VAR:0201:120}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 39,
+   "zh": "このポケウォーカーは　とうろくした{NEWLINE}ポケウォーカーでは　ありません{VAR:0201:120}",
+   "en": "This Pokéwalker is not the{NEWLINE}registered Pokéwalker.{VAR:0201:120}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 40,
+   "zh": "まだ　ごほうびを{NEWLINE}うけとって　いません{VAR:0201:120}",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "Pokéwalker text the hack left in Japanese; US HGSS blanks this slot, mirrored",
+   "qa_ignore": [
+    "empty",
+    "tag_mismatch",
+    "tag_order",
+    "trailing_layout"
+   ]
+  },
+  {
+   "id": 41,
+   "zh": "ポケウォーカーとの　つうしんを{NEWLINE}ちゅうし　しました{VAR:0201:120}",
+   "en": "The connection to the{NEWLINE}Pokéwalker was stopped.{VAR:0201:120}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 42,
+   "zh": "つうしんが　とちゅうで　とぎれました{NEWLINE}もういちど　つうしん　してください{VAR:0201:120}",
+   "en": "The connection was interrupted.{NEWLINE}Please try connecting again.{VAR:0201:120}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 43,
+   "zh": "この　ポケウォーカーには{NEWLINE}ポケモンが　はいっていません{VAR:0201:120}",
+   "en": "There are no Pokémon{NEWLINE}in this Pokéwalker.{VAR:0201:120}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0101:1}は　{VAR:0104:2}の{NEWLINE}おでかけから　かえってきた！{VAR:0207}",
+   "en": "{VAR:0101:1} came back from{NEWLINE}its Stroll on {VAR:0104:2}!{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 45,
+   "zh": "おでかけで　ワットが　{VAR:0136:3}ｗ{NEWLINE}たまった！{VAR:0207}",
+   "en": "You collected {VAR:0136:3} W{NEWLINE}on the Stroll!{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 46,
+   "zh": "また　おでかけに　いって{NEWLINE}たくさん　あるこう！{VAR:0207}",
+   "en": "Go on another Stroll{NEWLINE}and walk lots!{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 47,
+   "zh": "ポケウォーカーに　あずけた{NEWLINE}ポケモンと　たくさん　あるこう！{VAR:0207}",
+   "en": "Walk lots with the Pokémon{NEWLINE}you put in the Pokéwalker!{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 48,
+   "zh": "⋯⋯　⋯⋯　⋯⋯{NEWLINE}おや？{VAR:0207}{NEWLINE}たまった　ワットで{NEWLINE}ポケウォーカーが　はんのう　している！{VAR:0207}{NEWLINE}ポケウォーカーが　あたらしい{NEWLINE}おでかけコースを　はっけんした！{VAR:0207}",
+   "en": "... ... ...{NEWLINE}Oh?{VAR:0207}{NEWLINE}The Pokéwalker is reacting{NEWLINE}to the Watts you collected!{VAR:0207}{NEWLINE}The Pokéwalker has found{NEWLINE}a new Route for Strolls!{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 49,
+   "zh": "おでかけで　つれてきた　ポケモンを{NEWLINE}ボックスに　しまった！{VAR:0207}",
+   "en": "The Pokémon you brought back{NEWLINE}were put in your PC Box!{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 50,
+   "zh": "おでかけで　てにいれた{NEWLINE}どうぐを　バッグに　しまった！{VAR:0207}",
+   "en": "The items found on the Stroll{NEWLINE}were put in your Bag!{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0101:1}は　{VAR:0138:3}ほ{NEWLINE}あるいた！",
+   "en": "{VAR:0101:1} walked{NEWLINE}{VAR:0138:3} steps!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 52,
+   "zh": "{VAR:0101:1}は　がんばってあるき{NEWLINE}レベルが　１　あがった！{VAR:0207}",
+   "en": "{VAR:0101:1} walked hard, and{NEWLINE}its level went up by 1!{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 53,
+   "zh": "おめでとう！{VAR:0207}{NEWLINE}ついに　ポケウォーカーで{NEWLINE}９９９９９９９ほ　たっせい　しました！{VAR:0207}",
+   "en": "Congratulations!{VAR:0207}{NEWLINE}Your Pokéwalker has finally{NEWLINE}reached 9999999 steps!{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 54,
+   "zh": "ごほうびに　スターのみ　を{NEWLINE}てにいれた！{VAR:0207}{NEWLINE}ごほうびを　バッグにしまった！{VAR:0207}",
+   "en": "As a reward, you received{NEWLINE}a Starf Berry!{VAR:0207}{NEWLINE}The reward was put in your Bag!{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 55,
+   "zh": "{VAR:0104:4}　に　{NEWLINE}いけるように　なった！{VAR:0207}",
+   "en": "You can now go to{NEWLINE}{VAR:0104:4}!{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 56,
+   "zh": "{VAR:0104:2}を",
+   "en": "On {VAR:0104:2}:",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 57,
+   "zh": "{VAR:0138:5}ほ　あるいた",
+   "en": "walked {VAR:0138:5} steps.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 58,
+   "zh": "{VAR:0136:3}ｗ　たまった",
+   "en": "collected {VAR:0136:3} W.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 59,
+   "zh": "いままで　あるいた　ほすう",
+   "en": "Steps taken to date:",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 60,
+   "zh": "{VAR:0138:6}ほ",
+   "en": "{VAR:0138:6}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 61,
+   "zh": "いままで　ためた　ワット",
+   "en": "Watts collected to date:",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 62,
+   "zh": "{VAR:0138:7}ｗ",
+   "en": "{VAR:0138:7} W",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 63,
+   "zh": "こんかいの　おでかけ　けっか",
+   "en": "Results of this Stroll:",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 64,
+   "zh": "うけとった　プレゼント",
+   "en": "Gifts received:",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 65,
+   "zh": "ポケウォーカーの　きろく",
+   "en": "Pokéwalker records:",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 66,
+   "zh": "つれてきた　ポケモン",
+   "en": "Pokémon brought back:",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 67,
+   "zh": "{VAR:0100:8}",
+   "en": "{VAR:0100:8}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "{VAR:0100:9}",
+   "en": "{VAR:0100:9}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "{VAR:0100:10}",
+   "en": "{VAR:0100:10}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "{VAR:0100:11}",
+   "en": "{VAR:0100:11}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "てにいれた　どうぐ",
+   "en": "Items obtained:",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 72,
+   "zh": "{VAR:0108:9}",
+   "en": "{VAR:0108:9}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "おでかけに　いく",
+   "en": "Go for a Stroll.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 74,
+   "zh": "プレゼントを　うけとる",
+   "en": "Receive gifts.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 75,
+   "zh": "おでかけから　かえす",
+   "en": "Return from a Stroll.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 76,
+   "zh": "ポケウォーカーの　きろくをけす",
+   "en": "Erase Pokéwalker records.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 77,
+   "zh": "とうろくして　おでかけにいく",
+   "en": "Register, then go for a Stroll.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 78,
+   "zh": "ポケモンを　かえってこさせる",
+   "en": "Bring your Pokémon back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 79,
+   "zh": "{VAR:0205}もどる",
+   "en": "{VAR:0205}Exit",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 80,
+   "zh": "けってい",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "Pokéwalker text the hack left in Japanese; US HGSS blanks this slot, mirrored",
+   "qa_ignore": [
+    "empty",
+    "tag_mismatch",
+    "tag_order",
+    "trailing_layout"
+   ]
+  },
+  {
+   "id": 81,
+   "zh": "{VAR:0132:10}／{VAR:0132:11}Ｐ",
+   "en": "{VAR:0132:10}/{VAR:0132:11}P",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 82,
+   "zh": "　ワットごうけい",
+   "en": "　Total Watts:",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches",
+   "qa_ignore": [
+    "fullwidth"
+   ]
+  },
+  {
+   "id": 83,
+   "zh": "　{VAR:0138:7}ｗ",
+   "en": "　{VAR:0138:7} W",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches",
+   "qa_ignore": [
+    "fullwidth"
+   ]
+  },
+  {
+   "id": 84,
+   "zh": "　{VAR:0138:6}ほ",
+   "en": "　{VAR:0138:6}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches",
+   "qa_ignore": [
+    "fullwidth"
+   ]
+  },
+  {
+   "id": 85,
+   "zh": "　ほすうごうけい",
+   "en": "　Total steps:",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches",
+   "qa_ignore": [
+    "fullwidth"
+   ]
+  },
+  {
+   "id": 86,
+   "zh": "　つぎの　おでかけコースを　さがすのに{NEWLINE}　ひつような　ワットは　{VAR:0138:12}ｗ",
+   "en": "　Watts needed to find the next{NEWLINE}　Route: {VAR:0138:12} W",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches",
+   "qa_ignore": [
+    "fullwidth"
+   ]
+  },
+  {
+   "id": 87,
+   "zh": "　もうそろそろ　あたらしい{NEWLINE}　おでかけコースが　ふえそうです",
+   "en": "　It looks like a new Route{NEWLINE}　will appear soon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches",
+   "qa_ignore": [
+    "fullwidth"
+   ]
+  },
+  {
+   "id": 88,
+   "zh": "　たくさんの　おでかけコースから{NEWLINE}　おでかけする　ばしょを　えらべます",
+   "en": "　You can choose where to go{NEWLINE}　from many different Routes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches",
+   "qa_ignore": [
+    "fullwidth"
+   ]
+  },
+  {
+   "id": 89,
+   "zh": "{VAR:0101:13}が{NEWLINE}おでかけちゅう",
+   "en": "{VAR:0101:13} is{NEWLINE}on a Stroll.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 90,
+   "zh": "おでかけ　{VAR:0132:14}にちめ",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "Pokéwalker text the hack left in Japanese; US HGSS blanks this slot, mirrored",
+   "qa_ignore": [
+    "empty",
+    "tag_mismatch",
+    "tag_order",
+    "trailing_layout"
+   ]
+  },
+  {
+   "id": 91,
+   "zh": "さわやかのはら",
+   "en": "Refreshing Field",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 92,
+   "zh": "ざわざわもり",
+   "en": "Noisy Forest",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 93,
+   "zh": "ごつごつみち",
+   "en": "Rugged Road",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 94,
+   "zh": "きれいなうみべ",
+   "en": "Beautiful Beach",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 95,
+   "zh": "じゅうたくち",
+   "en": "Suburban Area",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 96,
+   "zh": "くらいどうくつ",
+   "en": "Dim Cave",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 97,
+   "zh": "あおいみずうみ",
+   "en": "Blue Lake",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 98,
+   "zh": "まちのはずれ",
+   "en": "Town Outskirts",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 99,
+   "zh": "ホウエンのはら",
+   "en": "Hoenn Field",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 100,
+   "zh": "あったかビーチ",
+   "en": "Warm Beach",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 101,
+   "zh": "かざんのこみち",
+   "en": "Volcano Path",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 102,
+   "zh": "ツリーハウス",
+   "en": "Treehouse",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 103,
+   "zh": "こわいどうくつ",
+   "en": "Scary Cave",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 104,
+   "zh": "シンオウのはら",
+   "en": "Sinnoh Field",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 105,
+   "zh": "さむいやまみち",
+   "en": "Icy Mountain Rd.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 106,
+   "zh": "おおきなもり",
+   "en": "Big Forest",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 107,
+   "zh": "しろいみずうみ",
+   "en": "White Lake",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 108,
+   "zh": "あれたうみべ",
+   "en": "Stormy Beach",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 109,
+   "zh": "リゾートち",
+   "en": "Resort",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 110,
+   "zh": "しずかどうくつ",
+   "en": "Quiet Cave",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 111,
+   "zh": "うみのむこう",
+   "en": "Beyond the Sea",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 112,
+   "zh": "よぞらのはて",
+   "en": "Night Sky’s Edge",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 113,
+   "zh": "きいろのもり",
+   "en": "Yellow Forest",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 114,
+   "zh": "イベント",
+   "en": "Rally",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 115,
+   "zh": "おかいもの",
+   "en": "Sightseeing",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 116,
+   "zh": "チャンプのみち",
+   "en": "Winner’s Path",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 117,
+   "zh": "ふれあいのはら",
+   "en": "Amity Meadow",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 118,
+   "zh": "ーーーーーーーー",
+   "en": "--------",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 119,
+   "zh": "おでかけに　ぴったりの　さわやかな{NEWLINE}のはら。　いろんな　ポケモンたちに{NEWLINE}であう　ことが　できる。",
+   "en": "A refreshing field that’s perfect{NEWLINE}for a Stroll. You can meet all{NEWLINE}kinds of Pokémon here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 120,
+   "zh": "しぜんを　そのまま　のこした{NEWLINE}おおきな　もり。　もりのおくには{NEWLINE}たくさんの　ポケモンが　すんでいる。",
+   "en": "A large forest left in its natural{NEWLINE}state. Many Pokémon live deep{NEWLINE}inside the forest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 121,
+   "zh": "さかみちが　おおい　ごつごつとした{NEWLINE}やまみち。　やまの　うえからみた{NEWLINE}ながめは　とても　きれい。",
+   "en": "A rugged mountain road with lots{NEWLINE}of slopes. The view from the top{NEWLINE}of the mountain is beautiful.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 122,
+   "zh": "ポケモンとの　おでかけコースとして{NEWLINE}にんきの　きれいなうみ。　たくさんの{NEWLINE}みずポケモンと　であうことができる。",
+   "en": "A beautiful sea that’s a popular{NEWLINE}place for Strolls with Pokémon. You{NEWLINE}can meet many Water-type Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 123,
+   "zh": "どこかの　じゅうたくち。　こんな{NEWLINE}なかでも　おでかけを　すれば{NEWLINE}ポケモンたちに　であうことができる。",
+   "en": "A residential area somewhere. Even{NEWLINE}here, if you go for a Stroll, you{NEWLINE}can meet Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 124,
+   "zh": "きもだめしに　つかわれる　という{NEWLINE}うすぐらい　どうくつ。　めをこらすと{NEWLINE}たくさんのポケモンを　みつけられる。",
+   "en": "A dim cave said to be used for{NEWLINE}tests of courage. Look closely, and{NEWLINE}you’ll find many Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 125,
+   "zh": "みずのいろが　まっさおな　みずうみ。{NEWLINE}みずうみの　そこには　めずらしい{NEWLINE}ポケモンが　すんでいると　いわれる。",
+   "en": "A lake of deep-blue water. Rare{NEWLINE}Pokémon are said to live at the{NEWLINE}bottom of the lake.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 126,
+   "zh": "どこかの　まちはずれ。　すんでいた{NEWLINE}ひとが　はなれていった　ばしょには{NEWLINE}ポケモンたちが　すみついている。",
+   "en": "The outskirts of a town somewhere.{NEWLINE}Pokémon have moved in where the{NEWLINE}people who lived here moved away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 127,
+   "zh": "ここから　とおくの　ホウエンちほうへ{NEWLINE}おでかけできる　コース。　ジョウトや{NEWLINE}カントーにいない　ポケモンとあえる。",
+   "en": "A Route for Strolls to the faraway{NEWLINE}Hoenn region. Meet Pokémon that{NEWLINE}aren’t found in Johto or Kanto.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 128,
+   "zh": "ホウエンの　どこかにある　とても{NEWLINE}あったかいビーチ。ジョウトやカントー{NEWLINE}では　あえない　ポケモンとであえる。",
+   "en": "A very warm beach somewhere in{NEWLINE}Hoenn. Meet Pokémon you can’t{NEWLINE}find in Johto or Kanto.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 129,
+   "zh": "いまでも　かつどうを　つづけている{NEWLINE}かざんの　こみち。　とてもあつく{NEWLINE}めずらしい　ポケモンが　すんでいる。",
+   "en": "A path on a volcano that is still{NEWLINE}active. It’s very hot, and rare{NEWLINE}Pokémon live here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 130,
+   "zh": "もりのきを　うまくつかって　しぜんと{NEWLINE}ともに　くらしている　まち。　いつもと{NEWLINE}ちょっとちがった　ポケモンとあえる。",
+   "en": "A town in harmony with nature that{NEWLINE}makes clever use of the trees. Meet{NEWLINE}Pokémon a bit different from usual.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 131,
+   "zh": "まっくらで　とおくから　なにか{NEWLINE}きこえてきそうな　どうくつ。　おくには{NEWLINE}たくさんのポケモンが　すむという。",
+   "en": "A pitch-black cave where you can{NEWLINE}almost hear something far off. Many{NEWLINE}Pokémon are said to live deep inside.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 132,
+   "zh": "ジョウトやカントーから　はなれた{NEWLINE}シンオウちほうの　おでかけ　コース。{NEWLINE}めずらしい　ポケモンが　すんでいる。",
+   "en": "A Stroll Route in the Sinnoh region,{NEWLINE}far from Johto and Kanto.{NEWLINE}Rare Pokémon live here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 133,
+   "zh": "いっぽ　ふみはずすと　したにおち{NEWLINE}そうな　けわしくながい　ゆきみち。{NEWLINE}ポケモンとのしんらいが　ためされる。",
+   "en": "A long, steep snowy road where one{NEWLINE}misstep could mean a fall. It tests{NEWLINE}your trust in your Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 134,
+   "zh": "むかしのまま　のこされている{NEWLINE}おおきなきに　かこまれたもり。{NEWLINE}たくさんの　ポケモンがすんでいる。",
+   "en": "A forest surrounded by big trees{NEWLINE}left as they were long ago.{NEWLINE}Many Pokémon live here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 135,
+   "zh": "しろいきりで　おおわれた　みずうみ。{NEWLINE}きりのために　とおくまで　みえないが{NEWLINE}しんぴてきな　かんじをうけるばしょ。",
+   "en": "A lake covered in white mist. You{NEWLINE}can’t see far through the mist, but{NEWLINE}the place feels mysterious.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 136,
+   "zh": "つよいなみが　おしよせる　かいがん。{NEWLINE}あまりひとが　おとずれないため{NEWLINE}めずらしい　ポケモンが　すんでいる。",
+   "en": "A coast where strong waves roll in.{NEWLINE}Few people visit, so rare Pokémon{NEWLINE}live here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 137,
+   "zh": "みなのあこがれ　こうきゅうリゾート。{NEWLINE}ここには　かわいい　ポケモンがすんで{NEWLINE}おり　にんきのめいしょと　なっている。",
+   "en": "A high-class resort everyone dreams{NEWLINE}of. Cute Pokémon live here, and{NEWLINE}it’s a popular sightseeing spot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 138,
+   "zh": "まるで　だれもいないように　しずかな{NEWLINE}ながいどうくつ。　よく　めをこらせば{NEWLINE}めずらしい　ポケモンと　であえる。",
+   "en": "A long cave so quiet it seems no{NEWLINE}one is there. Look closely, and{NEWLINE}you can meet rare Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 139,
+   "zh": "とおく　うみのはてにある　ちいさな{NEWLINE}しま。　きれいな　うみをのぞくと{NEWLINE}およぐ　ポケモンたちが　みえる。",
+   "en": "A small island far out at the edge{NEWLINE}of the sea. Look into the clear{NEWLINE}water to see Pokémon swimming.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 140,
+   "zh": "よぞらのように　くらいやまみちを{NEWLINE}くぐりぬけると　まるで　こだいに{NEWLINE}タイムスリップ　したかのよう。",
+   "en": "Pass through this mountain path,{NEWLINE}dark as the night sky, and it’s like{NEWLINE}you’ve slipped back to ancient times.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 141,
+   "zh": "このもりは　いろいろなピカチュウが{NEWLINE}なかよく　くらしているよ！　たくさん{NEWLINE}あるいて　ピカチュウを　さがそう！",
+   "en": "All kinds of Pikachu live happily{NEWLINE}together in this forest! Walk lots{NEWLINE}and look for Pikachu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 142,
+   "zh": "ポケウォーカーをもって　きがるに{NEWLINE}あそべるコース。のんびり　あるいて{NEWLINE}いろんな　ポイントをまわってみよう！",
+   "en": "A Route to enjoy casually with your{NEWLINE}Pokéwalker. Take a leisurely walk{NEWLINE}and visit all sorts of spots!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 143,
+   "zh": "ポケモンセンターかくてんに　ゆかりの{NEWLINE}ある　ポケモンが　かくれているぞ！{NEWLINE}ぜんぶ　つかまえられる　かな？ ",
+   "en": "Pokémon linked to Pokémon Centers{NEWLINE}everywhere are hiding here! Can{NEWLINE}you catch them all?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 144,
+   "zh": "チャンピオンを　めざすなら{NEWLINE}いちどは　とおるみち！　こころづよい{NEWLINE}ポケモンと　であうことが　できるぞ！",
+   "en": "A road to walk at least once if{NEWLINE}you aim to be Champion! You can{NEWLINE}meet reliable Pokémon here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 145,
+   "zh": "なつくと　しんかをする　かわいい{NEWLINE}ポケモンに　であえるよ！　しんかに{NEWLINE}ひつようなどうぐも　みつかるぞ！",
+   "en": "Meet cute Pokémon that evolve{NEWLINE}when they grow friendly! You can{NEWLINE}also find items needed to evolve!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokéwalker (the hack left it in Japanese); translated from the Japanese, US wording where it matches"
+  },
+  {
+   "id": 146,
+   "zh": "つうしんようの{NEWLINE}きょうつう　せつめいぶん{NEWLINE}の　よてい　です",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "Pokéwalker text the hack left in Japanese; US HGSS blanks this slot, mirrored",
+   "qa_ignore": [
+    "empty",
+    "tag_mismatch",
+    "tag_order",
+    "trailing_layout"
+   ]
+  },
+  {
+   "id": 147,
+   "zh": "ＰＨＣを　するためには{NEWLINE}ボックスが　５ひき　{VAR:FF02:1,0}{SCROLL}あいている　ひつようが　あります",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "Pokéwalker text the hack left in Japanese; US HGSS blanks this slot, mirrored",
+   "qa_ignore": [
+    "empty",
+    "tag_mismatch",
+    "tag_order",
+    "trailing_layout"
+   ]
+  },
+  {
+   "id": 148,
+   "zh": "{VAR:0205}はい",
+   "en": "{VAR:0205}Yes",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 149,
+   "zh": "{VAR:0205}いいえ",
+   "en": "{VAR:0205}No",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 150,
+   "zh": "{VAR:0205}ほすうを　のこす",
+   "en": "{VAR:0205}Save steps",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 151,
+   "zh": "{VAR:0205}ほすうを　けす",
+   "en": "{VAR:0205}Erase steps",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Pokéwalker (the hack left it in Japanese); US text"
+  },
+  {
+   "id": 152,
+   "zh": "ＰＨＣかんぜんしょきか",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "Pokéwalker text the hack left in Japanese; US HGSS blanks this slot, mirrored",
+   "qa_ignore": [
+    "empty",
+    "tag_mismatch",
+    "tag_order",
+    "trailing_layout"
+   ]
+  },
+  {
+   "id": 153,
+   "zh": "ＰＨＣしょきとうろく",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "Pokéwalker text the hack left in Japanese; US HGSS blanks this slot, mirrored",
+   "qa_ignore": [
+    "empty",
+    "tag_mismatch",
+    "tag_order",
+    "trailing_layout"
+   ]
+  },
+  {
+   "id": 154,
+   "zh": "ＰＨＣに　あずける",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "Pokéwalker text the hack left in Japanese; US HGSS blanks this slot, mirrored",
+   "qa_ignore": [
+    "empty",
+    "tag_mismatch",
+    "tag_order",
+    "trailing_layout"
+   ]
+  },
+  {
+   "id": 155,
+   "zh": "ＰＨＣから　うけとる",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "Pokéwalker text the hack left in Japanese; US HGSS blanks this slot, mirrored",
+   "qa_ignore": [
+    "empty",
+    "tag_mismatch",
+    "tag_order",
+    "trailing_layout"
+   ]
+  },
+  {
+   "id": 156,
+   "zh": "ボックスにあきがない　エラー",
+   "en": "",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "Pokéwalker text the hack left in Japanese; US HGSS blanks this slot, mirrored",
+   "qa_ignore": [
+    "empty",
+    "tag_mismatch",
+    "tag_order",
+    "trailing_layout"
+   ]
+  }
+ ]
+}

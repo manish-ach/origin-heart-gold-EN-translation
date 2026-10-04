@@ -1,0 +1,415 @@
+{
+ "narc": "a027",
+ "bank": 579,
+ "source": "work/extract/v4/a027/0579.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "电车没来啊！{SCROLL}这样的话,我就得{NEWLINE}自己背客人啦……{SCROLL}这个,办不到啊。",
+   "en": "The train hasn’t come in...{SCROLL}I know! I’ll carry the passengers on{NEWLINE}my back!{SCROLL}That won’t work.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0587/0"
+  },
+  {
+   "id": 1,
+   "zh": "磁悬浮列车{NEWLINE}已顺利修复完毕！{SCROLL}乘车的旅客{NEWLINE}请在这边的自动检票口{CLEAR}出示您的列车票……{SCROLL}",
+   "en": "The Magnet Train is back in service!{SCROLL}Passengers need to go through the{NEWLINE}gate for the automatic ticket check...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0587/1"
+  },
+  {
+   "id": 2,
+   "zh": "……呼呼{SCROLL}实在抱歉,{CLEAR}没有列车票的话,{CLEAR}是无法乘车的……{SCROLL}",
+   "en": "...Beep!{SCROLL}I am so sorry, but you need a{NEWLINE}Magnet Train Pass to get on{CLEAR}the Magnet Train...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0587/2"
+  },
+  {
+   "id": 3,
+   "zh": "乘车的旅客,{NEWLINE}请在这边的自动检票口{CLEAR}出示您的列车票……{SCROLL}",
+   "en": "Passengers, please show your Pass{NEWLINE}at the automatic ticket gate here...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "……叮咚,唰！{NEWLINE}好的,请收好列车票。{SCROLL}开往金黄市的列车{NEWLINE}即将发车了。",
+   "en": "Ping...fwip!{NEWLINE}Here is your Pass back.{SCROLL}This train is about to leave{NEWLINE}for Saffron City.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0587/4"
+  },
+  {
+   "id": 5,
+   "zh": "请您期待充满魅力与磁力{NEWLINE}的旅程吧！",
+   "en": "Enjoy the attractive and magnetic{NEWLINE}journey!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0587/5"
+  },
+  {
+   "id": 6,
+   "zh": "金黄金黄,{NEWLINE}重音在金字上。",
+   "en": "We are arriving at Goldenrod!{NEWLINE}Goldenrod! The accent is on the “o”!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0587/6 zh 金黄金黄 here is the vanilla コガネ joke (Goldenrod), not Saffron; US kept."
+  },
+  {
+   "id": 7,
+   "zh": "请您期待充满磁力与魅力{NEWLINE}的旅程吧！{SCROLL}",
+   "en": "Enjoy the attractive and magnetic{NEWLINE}journey!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0587/7"
+  },
+  {
+   "id": 8,
+   "zh": "我是车长！{SCROLL}比精灵还要快的铁道！{NEWLINE}在过去还是个梦！{SCROLL}有了这个,城都和关东{NEWLINE}忽的一下就变近了哦！",
+   "en": "I’m the conductor!{SCROLL}A railway faster than any{NEWLINE}Pokémon was once just a dream!{SCROLL}With this, Johto and Kanto{NEWLINE}are suddenly so much closer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0587/8 US ‘I’m the President’ replaced: zh 车长 (conductor/train chief)."
+  },
+  {
+   "id": 9,
+   "zh": "因为会给站内{NEWLINE}的其他旅客造成麻烦,{CLEAR}请您不要携带大型精灵入站。",
+   "en": "Please don’t bring large{NEWLINE}Pokémon into the station. They{CLEAR}may bother other passengers.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0587/9"
+  },
+  {
+   "id": 10,
+   "zh": "千里『是{VAR:0103:0}啊,{NEWLINE}我的朋友小田卷已经坐火车离开了。{CLEAR}跟旧友离别还真是让人不舍。{SCROLL}千里『关于犬子路比的事,{NEWLINE}真的非常感谢你出手相救{CLEAR}才不至于酿成大祸。{CLEAR}我这个儿子总是任意妄为,{CLEAR}唉,真是不知道该怎么教他才好。",
+   "en": "Norman: Ah, {VAR:0103:0}. My friend{NEWLINE}Birch has left on the train. Parting{CLEAR}with an old friend is always hard.{SCROLL}Norman: About my son Ruby... Thank{NEWLINE}you so much for stepping in to{CLEAR}save him before it turned into a{CLEAR}disaster. That boy of mine always{CLEAR}does whatever he pleases. Sigh... I{CLEAR}really don’t know how to raise him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#10-#22 Norman at the station after the Ruby rescue: #11/#15/#17/#21 ‘don’t hit him’ vs #12/#16/#18/#22 ‘be strict’; #13/#19/#20 the Whitney-guest-slot path."
+  },
+  {
+   "id": 11,
+   "zh": "教育要得法,不能总打孩子",
+   "en": "Teach him, don’t hit him",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "不打不成器,应该严加管教",
+   "en": "Spare the rod, spoil the kid",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review C017",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 13,
+   "zh": "小茜要我约你进行道馆战",
+   "en": "Whitney asked me to invite you",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "consistency fix (follow-up 4); ext-review LD-004",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 14,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0103:0}『男孩子调皮一点很正常,{NEWLINE}但是只靠打解决不了问题,{CLEAR}教育孩子还是得多思考{CLEAR}找到合适的方法才能事半功倍。",
+   "en": "{VAR:0103:0}: It’s normal for boys{NEWLINE}to be a little mischievous, but{CLEAR}hitting him won’t solve anything.{CLEAR}When you raise a child, you have to{CLEAR}think it through and find the right{CLEAR}approach. That’s what really works.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0103:0}『对于男调皮的男孩子{NEWLINE}光靠言传身教是不管用的,{CLEAR}多打一打才能帮他把坏毛病纠正过来。",
+   "en": "{VAR:0103:0}: With a naughty boy, words{NEWLINE}and a good example won’t cut it. A{CLEAR}few good beatings are what it takes{CLEAR}to straighten out his bad habits.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "千里『嗯,你说的有道理,{NEWLINE}今后我会注意{CLEAR}教育孩子的方式方法。",
+   "en": "Norman: Hmm, you have a point.{NEWLINE}From now on, I’ll be more careful{CLEAR}about how I raise my son.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "千里『嗯,你说的有道理,{NEWLINE}今后我会对路比严加管教。",
+   "en": "Norman: Hmm, you have a point. From{NEWLINE}now on, I’ll be much stricter with Ruby.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0103:0}『千里先生,有件事要麻烦你。{NEWLINE}我向满金道馆的小茜馆主{CLEAR}发起道馆挑战,{CLEAR}可小茜馆主要进行2对2的双打决斗,{CLEAR}于是让我来请你{CLEAR}去当她的双打队友,{CLEAR}不知道你现在有没有时间？",
+   "en": "{VAR:0103:0}: Mr. Norman, I have a favor{NEWLINE}to ask. I challenged Whitney at{CLEAR}the Goldenrod Gym, but she wants{CLEAR}a 2-on-2 Double Battle, so she{CLEAR}asked me to invite you to be her{CLEAR}partner. Do you have time right now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "千里『能跟你这位最强训练家战斗,{NEWLINE}我可是求之不得。{CLEAR}我这就去满金道馆做准备。",
+   "en": "Norman: Battling the strongest{NEWLINE}Trainer around? I couldn’t ask for{CLEAR}more. I’ll head to the Goldenrod{CLEAR}Gym and get ready right away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "千里『嗯,今后我会注意{NEWLINE}教育孩子的方式方法。",
+   "en": "Norman: Hmm. From now on, I’ll be more{NEWLINE}careful about how I raise my son.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "千里『嗯,今后我会对路比严加管教。",
+   "en": "Norman: Hmm. From now on, I’ll{NEWLINE}be much stricter with Ruby.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "山梨博士『城都地区和关东地区相连,{NEWLINE}还真是不得了的大地方啊！",
+   "en": "Prof. Rowan: With Johto{NEWLINE}and Kanto linked together,{CLEAR}this is a vast place indeed!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "山梨博士 = Professor Rowan (official zh; 七度灶 is the older name); label ‘Prof. Rowan:’."
+  },
+  {
+   "id": 24,
+   "zh": "山梨博士『哦！你是……联盟冠军{VAR:0103:0}！{NEWLINE}竟然能在这里遇到传说中的英雄,{CLEAR}这可真是意外之喜。{SCROLL}山梨博士『请容我自我介绍一下,{NEWLINE}我是来自神奥地区的精灵博士,{CLEAR}我的名字叫作山梨。{CLEAR}我在来到城都之前{CLEAR}就听神奥的新任联盟冠军提起过你,{CLEAR}说你是她见过的最强训练家。{CLEAR}没想到竟然能在这里跟你巧遇。",
+   "en": "Prof. Rowan: Oh! You are... League{NEWLINE}Champion {VAR:0103:0}! To meet the{CLEAR}legendary hero in a place like this{CLEAR}is a pleasant surprise indeed.{SCROLL}Prof. Rowan: Allow me to introduce{NEWLINE}myself. I am a Pokémon professor from{CLEAR}the Sinnoh region. My name is Rowan.{CLEAR}Before coming to Johto, I heard about{CLEAR}you from Sinnoh’s new League Champion.{CLEAR}She said you are the strongest{CLEAR}Trainer she has ever seen. I never{CLEAR}imagined I would run into you here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "山梨博士『我现在身上有一只{NEWLINE}来自神奥地区的精灵——小火猴。{CLEAR}我非常期待神奥地区的精灵{CLEAR}在你这样强大的训练家手上{CLEAR}会有怎样的成长,{CLEAR}如果你愿意的话,{CLEAR}请带上这只小火猴一起旅行吧。",
+   "en": "Prof. Rowan: I have with me a{NEWLINE}Pokémon from the Sinnoh region:{CLEAR}Chimchar. I am eager to see how a{CLEAR}Sinnoh Pokémon grows in the hands{CLEAR}of a Trainer as strong as you. If{CLEAR}you are willing, please take this{CLEAR}Chimchar with you on your journey.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "要收下山梨博士的小火猴吗？",
+   "en": "Accept Prof. Rowan’s Chimchar?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "你的队伍已满,{NEWLINE}整理出空位再来吧。",
+   "en": "Your party is full. Come{NEWLINE}back once you’ve made room.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "昵称叫{VAR:0101:1}{NEWLINE}可以吗？{VAR:0200:0}",
+   "en": "Name it {VAR:0101:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 4 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 29,
+   "zh": "小火猴加入了队伍！",
+   "en": "Chimchar joined your party!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "要给小火猴起昵称吗？{VAR:0200:0}",
+   "en": "Give Chimchar a nickname?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "山梨博士『我非常期待你今后的表现,{NEWLINE}加油吧！",
+   "en": "Prof. Rowan: I look forward to seeing{NEWLINE}what you do from here. Do your best!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "我身边的这位山梨博士,{NEWLINE}可是我们神奥地区{CLEAR}口袋妖怪研究界的权威。",
+   "en": "The gentleman beside me, Professor{NEWLINE}Rowan, is a leading authority on{CLEAR}Pokémon research in our Sinnoh region.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "前段时间列车停运了,{NEWLINE}据说是32号的一场暴风造成的。{CLEAR}幸好有铁路工人们奋力抢修,{CLEAR}现在列车又恢复运行了。",
+   "en": "The trains stopped running for a while.{NEWLINE}They say it was because of a big storm,{CLEAR}Storm No. 32. Luckily, the railway{CLEAR}workers worked hard on repairs, and{CLEAR}now the trains are running again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "32号的一场暴风 read as a numbered storm (like 32号台风); could be meant as Route 32."
+  },
+  {
+   "id": 34,
+   "zh": "活到老玩到老,{NEWLINE}坐着列车到处旅行,{CLEAR}这感觉真是太棒了。",
+   "en": "You’re never too old to{NEWLINE}have fun! Traveling all over{CLEAR}by train is just wonderful.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "等车等累了的话,{NEWLINE}就来这边坐着歇歇吧。",
+   "en": "If you get tired of waiting for the{NEWLINE}train, come sit over here and rest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "希望今天的列车能够准点到达。",
+   "en": "I hope the train’s on time today.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "瓜子、花生、矿泉水,有需要的吗？",
+   "en": "Sunflower seeds, peanuts, bottled{NEWLINE}water! Anybody need anything?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "橘果,80元",
+   "en": "Oran Berry $80",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 39,
+   "zh": "大树果,1000元",
+   "en": "Sitrus Berry $1000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 40,
+   "zh": "月见山泉水,800元",
+   "en": "Fresh Water $800",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 41,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 42,
+   "zh": "来,请拿好。",
+   "en": "Here you go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 43,
+   "zh": "你带的钱不够啊。",
+   "en": "You don’t have enough money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "你看还需要再来点什么？",
+   "en": "Anything else you’d like?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags page_breaks_lost"
+  },
+  {
+   "id": 45,
+   "zh": "坐过列车会后才知道,{NEWLINE}原来让列车浮起来的方法,{CLEAR}除了超能力外还有磁悬浮这种方式。",
+   "en": "It wasn’t until I rode the train{NEWLINE}that I learned there’s another{CLEAR}way to make a train float besides{CLEAR}psychic powers: magnetic levitation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "娜姿『达马兰奇主席已经下令了,{NEWLINE}在满金市彻底消灭火箭队,{CLEAR}大伙不必留手,全力出击！",
+   "en": "Sabrina: President Goodshow has{NEWLINE}given the order to wipe out Team{CLEAR}Rocket in Goldenrod City for{CLEAR}good. Do not hold back, everyone.{CLEAR}Attack with everything you have!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#46-#49 Radio Tower takeover: Sabrina leads the League forces at the station."
+  },
+  {
+   "id": 47,
+   "zh": "是！",
+   "en": "Yes, ma’am!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 48,
+   "zh": "妈的,都给我挺住！{NEWLINE}一定要给坂木老大争取时间！",
+   "en": "Dammit, hold the line, all of you! We{NEWLINE}have to buy time for Boss Giovanni!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0103:0}『这里交给娜姿小姐就好,{NEWLINE}我还是赶紧去广播塔找到坂木吧。",
+   "en": "{VAR:0103:0}: I’ll leave this to{NEWLINE}Sabrina. I’d better hurry to the{CLEAR}Radio Tower and find Giovanni.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

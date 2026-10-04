@@ -1,0 +1,591 @@
+{
+ "narc": "a027",
+ "bank": 414,
+ "source": "work/extract/v4/a027/0414.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "单人战",
+   "en": "Single Battle",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "probably unused (DP leftover; US blanks the bank) (DP ranking screen; #40+ used)"
+  },
+  {
+   "id": 1,
+   "zh": "双人战",
+   "en": "Double Battle",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "多人战",
+   "en": "Multi Battle",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "通信多人战",
+   "en": "Link Multi Battle",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "ＷｉーＦｉ战斗房间",
+   "en": "Wi-Fi Battle Room",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "平均胜数",
+   "en": "Average Wins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "击倒的精灵",
+   "en": "Pokémon Defeated",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "捕获的精灵",
+   "en": "Pokémon Caught",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "精灵的蛋",
+   "en": "Pokémon Eggs",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "钓到的精灵",
+   "en": "Pokémon Fished",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "选美竞赛的胜利回数",
+   "en": "Contest Wins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "选美竞赛的胜率",
+   "en": "Contest Win Rate",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "缎带的获得数",
+   "en": "Ribbons Obtained",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "关闭",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0132:0}．{VAR:0103:1}",
+   "en": "{VAR:0132:0}.{VAR:0103:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0135:0}胜",
+   "en": "{VAR:0135:0} wins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0132:0}人",
+   "en": "{VAR:0132:0} people",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0136:0}个",
+   "en": "{VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0137:0}只",
+   "en": "{VAR:0137:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0137:0}只",
+   "en": "{VAR:0137:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0134:0}％",
+   "en": "{VAR:0134:0}%",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0135:0}回",
+   "en": "{VAR:0135:0} times",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0421/41 | seed rejected us [tag_mismatch] (candidate US 0421#41; text not kept)"
+  },
+  {
+   "id": 22,
+   "zh": "看哪个记录呢？",
+   "en": "Which record would you like to see?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "战斗塔的记录{NEWLINE}单人战连胜数",
+   "en": "Battle Tower Record{NEWLINE}Single Battle Win Streak",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "战斗塔的记录{NEWLINE}双人战连胜数",
+   "en": "Battle Tower Record{NEWLINE}Double Battle Win Streak",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "战斗塔的记录{NEWLINE}多人战连胜数",
+   "en": "Battle Tower Record{NEWLINE}Multi Battle Win Streak",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "战斗塔的记录{NEWLINE}通信多人战连胜数",
+   "en": "Battle Tower Record{NEWLINE}Link Multi Battle Win Streak",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "战斗塔的记录{NEWLINE}ＷｉーＦｉ战连胜数",
+   "en": "Battle Tower Record{NEWLINE}Wi-Fi Battle Win Streak",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "战斗塔的记录{NEWLINE}平均胜数",
+   "en": "Battle Tower Record{NEWLINE}Average Wins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "击倒的精灵数",
+   "en": "Pokémon Defeated",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "用精灵球捉到{NEWLINE}的精灵数",
+   "en": "Pokémon Caught{NEWLINE}with Poké Balls",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "从蛋孵化{NEWLINE}的精灵数",
+   "en": "Pokémon Hatched{NEWLINE}from Eggs",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "钓到的精灵数",
+   "en": "Pokémon Caught Fishing",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "选美竞赛的{NEWLINE}胜利回数",
+   "en": "Contest{NEWLINE}Wins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "选美竞赛的胜率",
+   "en": "Contest Win Rate",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "选美竞赛拿到{NEWLINE}的缎带数",
+   "en": "Contest Ribbons{NEWLINE}Obtained",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "清除记录",
+   "en": "Delete Records",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "请选择想删除的记录,{NEWLINE}按Ｘ或Ａ键。",
+   "en": "Select the record you want to{NEWLINE}delete, then press the A or X Button.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "真的要清除记录吗？",
+   "en": "Really delete the record?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "你的记录已经被清除了！",
+   "en": "Your record has been deleted!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "{VAR:0205}删除记录",
+   "en": "{VAR:0205}DELETE RECORD",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/40"
+  },
+  {
+   "id": 41,
+   "zh": "{VAR:0205}返回",
+   "en": "{VAR:0205}RETURN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/41"
+  },
+  {
+   "id": 42,
+   "zh": "{VAR:0132:0}．",
+   "en": "{VAR:0132:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0103:1}",
+   "en": "{VAR:0103:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0135:0}胜",
+   "en": "{VAR:0135:0} wins",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/44"
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0132:0}任",
+   "en": "{VAR:0132:0} people",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 任 looks like a typo for 人 (people); US wins"
+  },
+  {
+   "id": 46,
+   "zh": "{VAR:0137:0}只",
+   "en": "{VAR:0137:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "{VAR:0137:0}只",
+   "en": "{VAR:0137:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "请选择想删除的记录,{NEWLINE}按Ｘ或Ａ键。",
+   "en": "Select the record you want to{NEWLINE}delete, then press the A or X Button.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/48"
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0103:0}的记录{NEWLINE}真的要删除吗？",
+   "en": "Delete {VAR:0103:0}’s record?{NEWLINE}Are you sure?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/49"
+  },
+  {
+   "id": 50,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 51,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 52,
+   "zh": "您的记录无法删除！{NEWLINE}",
+   "en": "Your own record can’t be deleted!{NEWLINE}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "{VAR:0205}战斗塔记录",
+   "en": "{VAR:0205}Battle Tower Record",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/53"
+  },
+  {
+   "id": 54,
+   "zh": "{VAR:0205}单人战连胜数",
+   "en": "{VAR:0205}Single Battle Win-Streak",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/54"
+  },
+  {
+   "id": 55,
+   "zh": "{VAR:0205}战斗塔记录",
+   "en": "{VAR:0205}Battle Tower Record",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/55"
+  },
+  {
+   "id": 56,
+   "zh": "{VAR:0205}双人战连胜数",
+   "en": "{VAR:0205}Double Battle Win-Streak",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/56"
+  },
+  {
+   "id": 57,
+   "zh": "{VAR:0205}战斗塔记录",
+   "en": "{VAR:0205}Battle Tower Record",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/57"
+  },
+  {
+   "id": 58,
+   "zh": "{VAR:0205}多人战连胜数",
+   "en": "{VAR:0205}Multi Battle Win-Streak",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/58"
+  },
+  {
+   "id": 59,
+   "zh": "{VAR:0205}战斗塔记录",
+   "en": "{VAR:0205}Battle Tower Record",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/59"
+  },
+  {
+   "id": 60,
+   "zh": "{VAR:0205}通信多人战连胜数",
+   "en": "{VAR:0205}Link Multi Battle Win-Streak",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/60"
+  },
+  {
+   "id": 61,
+   "zh": "{VAR:0205}战斗塔记录",
+   "en": "{VAR:0205}Battle Tower Record",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/61"
+  },
+  {
+   "id": 62,
+   "zh": "{VAR:0205}ＷｉーＦｉ战连胜数",
+   "en": "{VAR:0205}Wi-Fi Battle Win-Streak",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/62"
+  },
+  {
+   "id": 63,
+   "zh": "{VAR:0205}战斗塔记录",
+   "en": "{VAR:0205}Battle Tower Record",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/63"
+  },
+  {
+   "id": 64,
+   "zh": "{VAR:0205}平均连胜数",
+   "en": "{VAR:0205}Average Win-Streak Record",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/64"
+  },
+  {
+   "id": 65,
+   "zh": "{VAR:0205}精灵记录",
+   "en": "{VAR:0205}Pokémon Record",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/65"
+  },
+  {
+   "id": 66,
+   "zh": "{VAR:0205}打倒的精灵数",
+   "en": "{VAR:0205}The number of Pokémon defeated.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/66"
+  },
+  {
+   "id": 67,
+   "zh": "{VAR:0205}精灵记录",
+   "en": "{VAR:0205}Pokémon Record",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/67"
+  },
+  {
+   "id": 68,
+   "zh": "{VAR:0205}精灵球抓住精灵数",
+   "en": "{VAR:0205}Pokémon caught using Poké Balls.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/68"
+  },
+  {
+   "id": 69,
+   "zh": "{VAR:0205}精灵记录",
+   "en": "{VAR:0205}Pokémon Record",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/69"
+  },
+  {
+   "id": 70,
+   "zh": "{VAR:0205}蛋里孵出精灵数",
+   "en": "{VAR:0205}Pokémon that were hatched from Eggs.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/70"
+  },
+  {
+   "id": 71,
+   "zh": "{VAR:0205}精灵记录",
+   "en": "{VAR:0205}Pokémon Record",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/71"
+  },
+  {
+   "id": 72,
+   "zh": "{VAR:0205}钓起精灵数",
+   "en": "{VAR:0205}Pokémon that were caught fishing.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0421/72"
+  }
+ ]
+}

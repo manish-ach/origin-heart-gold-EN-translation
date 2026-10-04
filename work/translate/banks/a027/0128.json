@@ -1,0 +1,553 @@
+{
+ "narc": "a027",
+ "bank": 128,
+ "source": "work/extract/v4/a027/0128.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "嗯……来了啊。{SCROLL}不用担心,{NEWLINE}你什么也不必说,我都知道！{CLEAR}被伊吹那家伙说了什么{CLEAR}才来这里的吧？{CLEAR}我也是对她感到头疼不已。{SCROLL}对了,{NEWLINE}让我会会你吧,{CLEAR}别怕,我只是想看看{CLEAR}你符不符合我听到的传闻。{SCROLL}咱们开始吧……{SCROLL}",
+   "en": "Hm... So you’ve come.{SCROLL}No need to explain. I know everything!{NEWLINE}Clair said something to you, and that’s{CLEAR}why you came here, isn’t it? That{CLEAR}girl gives me no end of headaches.{SCROLL}Now then, let me take your measure.{NEWLINE}Don’t worry. I only want to see whether{CLEAR}you live up to the rumors I’ve heard.{SCROLL}Let us begin...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US line retranslated: the hack's zh drops 'answer a few questions' for 'see if you live up to the rumors'"
+  },
+  {
+   "id": 1,
+   "zh": "精灵在你心目中{NEWLINE}占有什么样的地位呢？{VAR:0200:0}",
+   "en": "What are Pokémon to you? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "Elder's quiz questions #1-#5 kept from US; answer options are not in this bank, which answers count isn't visible"
+  },
+  {
+   "id": 2,
+   "zh": "为了在精灵的对决中取胜,{NEWLINE}需要的是什么呢？{VAR:0200:0}",
+   "en": "What helps you to win battles? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0130/2"
+  },
+  {
+   "id": 3,
+   "zh": "想跟什么样的精灵训练师　{NEWLINE}对决呢？{VAR:0200:0}",
+   "en": "What kind of Trainer do you{NEWLINE}wish to battle? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0130/3"
+  },
+  {
+   "id": 4,
+   "zh": "养育精灵最重要{NEWLINE}的事情是什么？{VAR:0200:0}",
+   "en": "What is most important for{NEWLINE}raising Pokémon? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0130/4"
+  },
+  {
+   "id": 5,
+   "zh": "强的精灵和弱的精灵{NEWLINE}哪个比较重要？{VAR:0200:0}",
+   "en": "Strong Pokémon. Weak Pokémon.{NEWLINE}Which is more important? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0130/5"
+  },
+  {
+   "id": 6,
+   "zh": "嗯,原来如此……{NEWLINE}从你的回答中我能感受到{CLEAR}你对精灵的了解、尊重和喜爱,{CLEAR}再加上你那足以胜过坂木的实力,{CLEAR}人类和精灵的未来交托给你{CLEAR}一定是没问题的。{SCROLL}你本人有信心吗？{SCROLL}",
+   "en": "Hm, I see... In your answers,{NEWLINE}I can feel your understanding{CLEAR}of Pokémon, your respect for{CLEAR}them and your love for them.{SCROLL}Add to that the strength to{NEWLINE}surpass even Giovanni, and I have{CLEAR}no doubt the future of people and{CLEAR}Pokémon is safe in your hands.{SCROLL}But are you confident in yourself?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "啊啊？{NEWLINE}没听清楚……{SCROLL}",
+   "en": "Hah? I didn’t quite catch that...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0130/7"
+  },
+  {
+   "id": 8,
+   "zh": "说了什么？",
+   "en": "What was it you said?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0130/8"
+  },
+  {
+   "id": 9,
+   "zh": "嗯,原来如此……{SCROLL}",
+   "en": "Oh, I understand...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0130/9"
+  },
+  {
+   "id": 10,
+   "zh": "是啊,欲戴其冠必承其重,{NEWLINE}既然你接受了联盟冠军这个身份,{CLEAR}就注定再也无法享受{CLEAR}普通人的轻松自由了。{CLEAR}全地区的人们都仰望你、尊重你、{CLEAR}无时无刻地看着你呢。{CLEAR}不过你也不必过分焦虑,{CLEAR}四天王和各个馆主们{CLEAR}都是跟你志同道合的战友,{CLEAR}他们都会成为你的左膀右臂,{CLEAR}助你共同肩负起这份责任。{CLEAR}虽然不可能人人都成为英雄,{CLEAR}但你在守护人类和精灵的这条路上{CLEAR}永远不会独行。{SCROLL}我现在再问你一次,{NEWLINE}你有信心用你对精灵的喜爱{CLEAR}和你无与伦比的实力{CLEAR}守护人类和精灵的未来吗？{SCROLL}",
+   "en": "Yes. Heavy is the{NEWLINE}head that wears the crown. Once{CLEAR}you accepted the title of League{CLEAR}Champion, you gave up an ordinary{CLEAR}person’s easy freedom for good.{SCROLL}People all over the region look{NEWLINE}up to you, respect you and{CLEAR}watch you at every moment.{SCROLL}But there’s no need to worry too much.{NEWLINE}The Elite Four and the Gym Leaders{CLEAR}are comrades who share your ideals.{SCROLL}They will be your right hand and{NEWLINE}your left, and help you carry{CLEAR}this responsibility together.{SCROLL}Not everyone can be a hero, but on{NEWLINE}the road to protecting people and{CLEAR}Pokémon, you will never walk alone.{SCROLL}So I ask you once more: are you{NEWLINE}confident that, with your love{CLEAR}for Pokémon and your unmatched{CLEAR}strength, you can protect the{CLEAR}future of people and Pokémon?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0103:0}『是的,{NEWLINE}无论未来发生什么事,{CLEAR}我都一定会守护好{CLEAR}这片土地上的人们和精灵！",
+   "en": "{VAR:0103:0}: Yes. No matter what{NEWLINE}happens in the future, I’ll protect{CLEAR}the people and Pokémon of this land!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "嗯,对你来说{NEWLINE}这份信心就是最重要的。{CLEAR}希望你永远保持这份自信,{CLEAR}成为矗立不倒的训练家旗帜。",
+   "en": "Hm. For you, that confidence is what{NEWLINE}matters most. I hope you’ll always{CLEAR}keep it and stand as a banner{CLEAR}for all Trainers, never to fall.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "喂,伊吹！{NEWLINE}你知道这位是联盟冠军吧？{CLEAR}连渡都要敬他三分,{CLEAR}你不得无礼！",
+   "en": "Now, Clair! You do know this{NEWLINE}is the League Champion, don’t{CLEAR}you? Even Lance treats him with{CLEAR}respect. Mind your manners!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "male player (him)"
+  },
+  {
+   "id": 14,
+   "zh": "喂,伊吹！{NEWLINE}你知道这位是联盟冠军吧？{CLEAR}连渡都要敬她三分,{CLEAR}你不得无礼！",
+   "en": "Now, Clair! You do know this{NEWLINE}is the League Champion, don’t{CLEAR}you? Even Lance treats her with{CLEAR}respect. Mind your manners!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "female player (her)"
+  },
+  {
+   "id": 15,
+   "zh": "伊吹『这里是龙之故乡烟墨市,{NEWLINE}获得您的认可才是最高荣誉,{CLEAR}我才不在乎什么联盟冠军呢！",
+   "en": "Clair: This is Blackthorn City, the{NEWLINE}home of dragons. Your approval is{CLEAR}the highest honor here. I don’t{CLEAR}care about any League Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0103:0}从伊吹那里{NEWLINE}得到了升龙徽章！",
+   "en": "{VAR:0103:0} received{NEWLINE}the Rising Badge from Clair!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0130/16"
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}刚刚通过了我的考验,{NEWLINE}我已经认可他的心智和实力了,{CLEAR}他就是当之无愧的最强训练家。",
+   "en": "{VAR:0103:0} has just passed{NEWLINE}my trial. I recognize his heart{CLEAR}and his strength. He is, without{CLEAR}question, the strongest Trainer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "male (#17) / female (#18)"
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0}刚刚通过了我的考验,{NEWLINE}我已经认可她的心智和实力了,{CLEAR}她就是当之无愧的最强训练家。",
+   "en": "{VAR:0103:0} has just passed my{NEWLINE}trial. I recognize her heart and{CLEAR}her strength. She is, without{CLEAR}question, the strongest Trainer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "伊吹『怎么这样啊！？{NEWLINE}明明在烟墨市的年轻一代中{CLEAR}只有渡大哥获得过长老的认可,{CLEAR}连我都还没有……",
+   "en": "Clair: How can this be?! Of all the{NEWLINE}young people in Blackthorn City,{CLEAR}only Lance has ever won the Elder’s{CLEAR}approval. Not even I have...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "伊吹啊,你要学会接受{NEWLINE}人外有人天外有天,{CLEAR}只有虚心向更强的训练家学习,{CLEAR}你才能像渡那样不断进步。",
+   "en": "Clair, you must learn to accept{NEWLINE}that there is always someone{CLEAR}better. Only by learning humbly{CLEAR}from stronger Trainers can you{CLEAR}keep improving the way Lance has.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "伊吹『唔……",
+   "en": "Clair: Hmm...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "好了,伊吹,你不是跟{VAR:0103:0}约定过{NEWLINE}只要获得我的认可{CLEAR}就给人家升龙徽章吗？{CLEAR}现在是你践行诺言的时候了。",
+   "en": "Now then, Clair. Didn’t you{NEWLINE}promise {VAR:0103:0} a Rising Badge{CLEAR}in exchange for my approval? Now{CLEAR}is the time to keep your word.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "伊吹『是,长老大人。",
+   "en": "Clair: Yes, Elder.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "被长老大人认可的人,{NEWLINE}除了渡大人外,{CLEAR}已经很久没出现过了。",
+   "en": "It’s been a long time since anyone but{NEWLINE}Master Lance won the Elder’s approval.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 'our Master' → 'the Elder' (长老, D-0314)"
+  },
+  {
+   "id": 25,
+   "zh": "知道渡大人吗？{SCROLL}渡大人跟年轻时候的{NEWLINE}长老大人一模一样,{CLEAR}毕竟流着相同的血液……",
+   "en": "Do you know Master Lance?{SCROLL}Master Lance is the spitting image{NEWLINE}of the Elder in his youth. They{CLEAR}share the same blood, after all...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0130/25"
+  },
+  {
+   "id": 26,
+   "zh": "伊吹『只要拿着升龙徽章{NEWLINE}就能攀上有凸起的石壁,{CLEAR}以前很多你无法探索的地方{CLEAR}现在都可以去了。",
+   "en": "Clair: With the Rising Badge,{NEWLINE}you can climb rock walls that have{CLEAR}handholds. Many places you couldn’t{CLEAR}explore before are open to you now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "伊吹『还有这是我的电话号码,{NEWLINE}你也记一下吧。",
+   "en": "Clair: And here’s my number.{NEWLINE}Take it down too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0103:0}把伊吹{NEWLINE}登录在手机上！",
+   "en": "{VAR:0103:0} registered{NEWLINE}Clair in the Pokégear!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "伊吹『等你以后哪天有时间了,{NEWLINE}要来烟墨道馆找我啊,{CLEAR}我还想看看你不加限制的实力{CLEAR}到底有多强呢。",
+   "en": "Clair: Whenever you have{NEWLINE}time someday, come find me at the{CLEAR}Blackthorn Gym. I still want to see{CLEAR}how strong you are with no limits.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0103:0}啊,{NEWLINE}我们烟墨市的流传着一招{CLEAR}名为「龙之俯冲」的龙系绝技。{SCROLL}这是靠龙系精灵自己{NEWLINE}无法学会的终极绝招,{CLEAR}必须要和精灵心意相通的训练家{CLEAR}教给它们才行。{CLEAR}而且只有在各个地区{CLEAR}少数最强的龙系精灵才能学会。{CLEAR}你想让你的精灵学习这招龙之俯冲吗？",
+   "en": "{VAR:0103:0}, a secret Dragon-type{NEWLINE}technique called Dragon Rush has been{CLEAR}handed down here in Blackthorn City.{SCROLL}It’s an ultimate move{NEWLINE}that Dragon-type Pokémon can’t learn{CLEAR}on their own. It must be taught by a{CLEAR}Trainer whose heart is one with theirs.{SCROLL}And only a few of the strongest{NEWLINE}Dragon-type Pokémon in each region{CLEAR}can learn it. Would you like your{CLEAR}Pokémon to learn Dragon Rush?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 32,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it,{NEWLINE}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 33,
+   "zh": "伊吹『结果怎么样？{NEWLINE}虽然我知道这对你来说{CLEAR}是难了点……",
+   "en": "Clair: How did it go? I know{NEWLINE}it was a bit tough for you...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "伊吹『对不起啊,{VAR:0103:0}。{NEWLINE}我从小一直崇拜着渡大哥,{CLEAR}当听到渡大哥在石英大会上{CLEAR}连续被两个真新镇的年轻人打败时,{CLEAR}我真的很难接受。{CLEAR}但既然长老都认可了你的心智和实力,{CLEAR}渡大哥对你也赞不绝口,{CLEAR}那我自然也没什么话说了。{CLEAR}这是早就该属于你的升龙徽章,{CLEAR}请收下吧！",
+   "en": "Clair: I’m sorry, {VAR:0103:0}.{NEWLINE}I’ve looked up to my cousin{CLEAR}Lance ever since I was little.{SCROLL}When I heard he’d lost at the{NEWLINE}Indigo Conference to two young{CLEAR}people from Pallet Town in a row,{CLEAR}I really couldn’t accept it.{SCROLL}But now that the Elder has{NEWLINE}recognized your heart and strength,{CLEAR}and Lance can’t praise you enough,{CLEAR}I have nothing more to say.{SCROLL}This is the Rising Badge{NEWLINE}that should have been yours{CLEAR}long ago. Please accept it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "两个真新镇的年轻人: Red/Blue? (Lance lost to two Pallet Town Trainers in a row)"
+  },
+  {
+   "id": 35,
+   "zh": "{VAR:0103:0}『老实说,我感觉压力很大,{NEWLINE}光是成为万众瞩目的联盟冠军,{CLEAR}都让我有点喘不过气来。",
+   "en": "{VAR:0103:0}: To be honest, I feel a lot{NEWLINE}of pressure. Just being the League{CLEAR}Champion with everyone’s eyes on{CLEAR}me leaves me a little out of breath.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "真是深不可测的实力啊,{NEWLINE}也难怪连那个坂木都不是你的对手。{SCROLL}但是身为训练家{NEWLINE}只会使用精灵战斗是不够的,{CLEAR}让我听听你对人类和精灵{CLEAR}之间关系的理解吧。{SCROLL}",
+   "en": "What unfathomable strength. No wonder{NEWLINE}even Giovanni is no match for you.{SCROLL}But a Trainer needs more than the{NEWLINE}ability to battle with Pokémon. Let{CLEAR}me hear how you understand the{CLEAR}bond between people and Pokémon.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住龙之俯冲。{SCROLL}",
+   "en": "Sorry... This Pokémon{NEWLINE}can’t learn Dragon Rush.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 39,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会龙之俯冲了！{SCROLL}",
+   "en": "This {VAR:0100:0} already{NEWLINE}knows Dragon Rush!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20}, 2{VAR:0201:20}, and{VAR:0201:20}... {VAR:0201:20}... Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl); qa-lints: unified with identical zh elsewhere (zh_variant)"
+  },
+  {
+   "id": 41,
+   "zh": "{VAR:0101:0}学会了龙之俯冲！",
+   "en": "{VAR:0101:0} learned Dragon Rush!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会龙之俯冲了！{SCROLL}希望这个招式能助你在未来的战斗中{NEWLINE}不断取得新的胜利。",
+   "en": "There! Your {VAR:0100:0}{NEWLINE}has learned Dragon Rush!{SCROLL}I hope this move helps you win victory{NEWLINE}after victory in the battles to come.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的龙之俯冲……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习龙之俯冲{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to{NEWLINE}learn Dragon Rush...!{SCROLL}But {VAR:0101:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move{NEWLINE}to learn Dragon Rush?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 46,
+   "zh": "你是要放弃{NEWLINE}让它记住龙之俯冲吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Dragon Rush?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "{VAR:0103:0}啊,{NEWLINE}我感受到你身上有个圆形东西{CLEAR}隐隐然散发出不可思议的力量。{SCROLL}你自己有感觉那是什么东西吗？",
+   "en": "{VAR:0103:0}, I sense something{NEWLINE}round on you, faintly giving{CLEAR}off a mysterious power.{SCROLL}Do you have any idea what it might be?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "{VAR:0103:0}『您说的是这块神秘石头吗？",
+   "en": "{VAR:0103:0}: Do you mean{NEWLINE}this Mystery Stone?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "嗯,我看看啊……",
+   "en": "Hm, let me see...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "没错,就是它！{NEWLINE}你是从哪得到这块石头的？",
+   "en": "Yes, that’s it!{NEWLINE}Where did you get this stone?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0103:0}『是我在紫苑镇的时候,{NEWLINE}富士老人送给我的。{CLEAR}火箭队似乎也很想要这块石头,{CLEAR}但我完全看不出来{CLEAR}它究竟有什么特别之处。",
+   "en": "{VAR:0103:0}: Mr. Fuji gave it to me when{NEWLINE}I was in Lavender Town. Team Rocket{CLEAR}seems to want this stone too, but I{CLEAR}can’t tell what’s so special about it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "我能感受到这块石头中{NEWLINE}蕴藏着巨大的能量,{CLEAR}只是暂时还没有被激发。{CLEAR}如果你不介意的话,{CLEAR}咱们一起想办法{CLEAR}把这个石头的潜能给激发出来吧。",
+   "en": "I can sense enormous energy stored{NEWLINE}in this stone. It just hasn’t{CLEAR}been awakened yet. If you don’t{CLEAR}mind, let’s find a way to awaken{CLEAR}the stone’s potential together.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "{VAR:0103:0}『好啊,可是要怎么做呢？",
+   "en": "{VAR:0103:0}: Sure, but how?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "来,你把手放在石头上,{NEWLINE}然后闭上眼睛按我说的去思考。",
+   "en": "Come, put your hand on the{NEWLINE}stone. Then close your eyes{CLEAR}and think about what I tell you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "回忆一下跟自己的第一只精灵{NEWLINE}相遇时的场景……",
+   "en": "Remember the moment you met{NEWLINE}your very first Pokémon...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "回忆一下你取得的第一次对战胜利……",
+   "en": "Remember your very first{NEWLINE}victory in battle...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "回忆一下你跟精灵一起{NEWLINE}渡过的最快乐的时光……",
+   "en": "Remember the happiest times you’ve{NEWLINE}spent with your Pokémon...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "回忆一下你一路走来的过程中{NEWLINE}精灵伙伴们的成长……",
+   "en": "Remember how your Pokémon{NEWLINE}partners have grown along{CLEAR}the road you’ve traveled...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "回忆一下你至今为止{NEWLINE}打得最艰难的一场战斗……",
+   "en": "Remember the toughest battle{NEWLINE}you’ve ever fought...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "神秘石头发生了变化,{NEWLINE}变为了喷火龙进化石！",
+   "en": "The Mystery Stone changed{NEWLINE}into a Charizardite!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "{VAR:0103:0}『哇,真是太不可思议了！{NEWLINE}那块不知名的石头{CLEAR}竟然改变了形态？！",
+   "en": "{VAR:0103:0}: Whoa, that’s{NEWLINE}unbelievable! That unknown stone{CLEAR}actually changed its shape?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "看来当精灵跟训练家{NEWLINE}心意相通的时候,{CLEAR}这块石头就会改变外形。{CLEAR}你现在可以让你的精灵带上这块石头,{CLEAR}试试它到底能带来什么变化吧。",
+   "en": "So when a Pokémon and its Trainer are{NEWLINE}of one heart, this stone changes its{CLEAR}form. Now have your Pokémon hold the{CLEAR}stone and see what change it brings.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "我背包里有块神秘石头",
+   "en": "A Mystery Stone in my Bag",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 64,
+   "zh": "我不知道是什么东西",
+   "en": "I don’t know what it is",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 65,
+   "zh": "{VAR:0103:0}『我不觉得我背包里{NEWLINE}有什么东西会散发不可思议的力量啊。",
+   "en": "{VAR:0103:0}: I don’t think I have anything{NEWLINE}in my Bag giving off a mysterious power.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "是吗……",
+   "en": "I see...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "伊吹『作为赔礼道歉,这个请你收下。",
+   "en": "Clair: Please accept this as my apology.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

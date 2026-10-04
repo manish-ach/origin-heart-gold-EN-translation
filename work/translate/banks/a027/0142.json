@@ -1,0 +1,1186 @@
+{
+ "narc": "a027",
+ "bank": 142,
+ "source": "work/extract/v4/a027/0142.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "秀力博士『喂喂喂！那边的年轻人！{NEWLINE}这里有人要抢我的研究资料！{CLEAR}可以的话来帮帮忙啊！",
+   "en": "Prof. Hale: Hey, hey, hey! You there,{NEWLINE}young one!{SCROLL}Someone’s trying to steal my research!{SCROLL}Please, help me out if you can!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "拜托了！{NEWLINE}老师的研究资料很重要,{CLEAR}决不能落入坏人手里！",
+   "en": "Please! The professor’s research is{NEWLINE}really important. It mustn’t fall into{CLEAR}the wrong hands!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}『好像有人被火箭队抢劫,{NEWLINE}还是回去看看吧！",
+   "en": "{VAR:0103:0}: Sounds like Team Rocket is{NEWLINE}robbing someone. I’d better go back{CLEAR}and check.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:0103:0}『火箭队！{NEWLINE}你们又在做坏事了！",
+   "en": "{VAR:0103:0}: Team Rocket! Up to no good{NEWLINE}again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0103:0}『火箭队！{NEWLINE}真是哪哪都有你们！{CLEAR}就不能干点人事吗？",
+   "en": "{VAR:0103:0}: Team Rocket! You people are{NEWLINE}everywhere!{SCROLL}Can’t you do anything decent for once?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "小次郎『我说老教授,{NEWLINE}你只要把研究资料乖乖交出来,{CLEAR}我们不会怎么你的。",
+   "en": "James: Listen here, old professor. Hand{NEWLINE}over your research quietly and nobody{CLEAR}gets hurt.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "武藏『您要是觉得{NEWLINE}这么多年的研究成果{CLEAR}白送给我们太亏了,{CLEAR}我们可以商量个价钱嘛。{CLEAR}一手交钱、一手交货！",
+   "en": "Jessie: If giving away all those years of{NEWLINE}work for free feels like a raw deal, we{CLEAR}can talk price.{SCROLL}Jessie: You hand over the goods, we{NEWLINE}hand over the cash!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "秀力博士『原来你们就是{NEWLINE}最近恶名远播的火箭队！{CLEAR}让我把研究成果给你们{CLEAR}好去祸害更多的人？{CLEAR}做梦去吧！",
+   "en": "Prof. Hale: So you’re the Team Rocket{NEWLINE}everyone’s been talking about!{SCROLL}Prof. Hale: You want me to give you my{NEWLINE}research so you can go and hurt even{CLEAR}more people?{SCROLL}Dream on!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "喵喵『真是强硬的老先生啊喵,{NEWLINE}你这是逼我们动手抢咯。",
+   "en": "Meowth: Tough old geezer, meow. Guess{NEWLINE}you’re forcin’ us to just take it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "秀力博士『你敢迈上台阶,{NEWLINE}我就把研究资料烧毁！",
+   "en": "Prof. Hale: Set one foot on those{NEWLINE}stairs and I’ll burn my research!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "武藏『这么多年的研究心血,{NEWLINE}嘿嘿,你真舍得烧吗？",
+   "en": "Jessie: All those years of hard work...{NEWLINE}Heh heh. Could you really burn it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "秀力博士『哼,你动一下试试,{NEWLINE}看我敢不敢！",
+   "en": "Prof. Hale: Hmph! Make one move and{NEWLINE}find out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "武藏『切……麻烦的老家伙。",
+   "en": "Jessie: Tch... Troublesome old coot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "武藏『又是你这个小鬼！{NEWLINE}怎么哪哪都有你！",
+   "en": "Jessie: You again, you little brat! Why{NEWLINE}are you everywhere?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "小次郎『这是又要来坏我们的好事？",
+   "en": "James: Here to ruin our plans again, are{NEWLINE}we?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "武藏『可恶,又输给这小鬼了！",
+   "en": "Jessie: Dammit, we lost to this brat{NEWLINE}again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "小次郎『近在眼前立功的机会啊！",
+   "en": "James: And the credit was right there in{NEWLINE}front of us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "秀力博士『多亏了你啊年轻人,{NEWLINE}不然这次可就悬了！{SCROLL}秀力博士『我这次来关东,{NEWLINE}做了很多关于传说中精灵的研究。{CLEAR}火箭队这次抢我的研究资料,{CLEAR}我觉得他们很可能是{CLEAR}在打传说中精灵的主意……",
+   "en": "Prof. Hale: I owe you one, young one.{NEWLINE}That was a close call!{SCROLL}Prof. Hale: This trip to Kanto, I’ve{NEWLINE}been researching legendary Pokémon.{SCROLL}Team Rocket went after my research...{NEWLINE}I bet they’re scheming to get their{CLEAR}hands on legendary Pokémon...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "老师,安全起见{NEWLINE}咱们还是快走吧。",
+   "en": "Professor, to be safe, let’s get going.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "不要跟这小鬼废话,{NEWLINE}干掉她！",
+   "en": "Quit wasting words on this brat. Take{NEWLINE}her out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 她: the grunt calls the player 'her' with no male variant found; kept."
+  },
+  {
+   "id": 20,
+   "zh": "秀力博士『哦哦,也对。",
+   "en": "Prof. Hale: Oh, oh, right you are.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "秀力博士『再次感谢你今天的帮忙。{NEWLINE}我现在要带着研究资料{CLEAR}回城都的阿鲁夫研究所了。{CLEAR}欢迎你有时间来我们研究所转转。",
+   "en": "Prof. Hale: Thanks again for your help{NEWLINE}today.{SCROLL}I’m taking my research back to the{NEWLINE}Ruins of Alph Research Center in Johto{CLEAR}now. Drop by the center sometime!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "城都的阿鲁夫研究所 → Ruins of Alph Research Center in Johto."
+  },
+  {
+   "id": 22,
+   "zh": "大吾『是{VAR:0103:0}啊！{NEWLINE}你也对跟岩山隧道有关的{CLEAR}三神柱传说感兴趣吗？{SCROLL}大吾『刚刚有位很专业的研究家{NEWLINE}在这里给我讲了很多{CLEAR}关于岩山隧道三神柱的最新结论。{CLEAR}{VAR:0103:0}你有兴趣听听吗？",
+   "en": "Steven: Why, it’s {VAR:0103:0}! Are you{NEWLINE}interested in the legend of the three{CLEAR}God Pillars tied to Rock Tunnel too?{SCROLL}Steven: A real expert was just here{NEWLINE}telling me all about the latest findings{CLEAR}on Rock Tunnel’s three God Pillars.{SCROLL}{VAR:0103:0}, would you like to hear about{NEWLINE}them?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "大吾『唉……{NEWLINE}你也对考古不感兴趣吗……",
+   "en": "Steven: Sigh... You’re not interested in{NEWLINE}archaeology either...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "大吾『传说在很久以前,{NEWLINE}有一群坏人在这片地区{CLEAR}干着烧光、杀光、抢光这样的恶行。{CLEAR}不堪暴行的人们指挥自己的精灵,{CLEAR}向坏人发起了保卫家园的正义战争。{SCROLL}大吾『当战争陷入胶着的时候,{NEWLINE}有三只柱型精灵{CLEAR}对坏人们使出了「大爆炸」招式,{CLEAR}以牺牲自己为代价{CLEAR}重创了坏人的大本营。{SCROLL}大吾『多亏了那场大爆炸{NEWLINE}关东的人们获得了宝贵的战略优势,{CLEAR}并最终赢得了战争、赶跑了坏人。{CLEAR}为了纪念这三只柱型精灵的牺牲,{CLEAR}人们从此尊称它们为{CLEAR}岩神柱、冰神柱、钢神柱。{CLEAR}并将它们的残躯埋在这座岩山隧道中。",
+   "en": "Steven: Legend has it that long ago, a{NEWLINE}band of villains ran riot here, burning{CLEAR}all, killing all and looting all.{SCROLL}Unable to bear their atrocities any{NEWLINE}longer, the people led their Pokémon in{CLEAR}a just war to defend their homes.{SCROLL}Steven: When the war reached a{NEWLINE}stalemate, three pillar-shaped Pokémon{CLEAR}used Explosion on the villains.{SCROLL}At the cost of their own lives, they{NEWLINE}crushed the villains’ stronghold.{SCROLL}Steven: Thanks to that great{NEWLINE}explosion, the people of Kanto gained a{CLEAR}precious strategic advantage.{SCROLL}In the end, they won the war and drove{NEWLINE}the villains out.{SCROLL}To honor the sacrifice of the three{NEWLINE}pillar-shaped Pokémon, the people have{CLEAR}revered them ever since as Regirock,{CLEAR}Regice and Registeel.{SCROLL}And they buried their remains here in{NEWLINE}Rock Tunnel.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "烧光、杀光、抢光 echoes the WWII 'Three Alls' policy; kept at full strength (D-0627). Scene is an anti-war allegory (Regi legend); faithful."
+  },
+  {
+   "id": 25,
+   "zh": "大吾『根据那位古迹研究家的说法,{NEWLINE}三神柱应该是真实存在的口袋妖怪,{CLEAR}而且在那场伟大的爆炸之后{CLEAR}它们的残躯被埋在了这条岩山隧道。{SCROLL}大吾『如果使用现在的化石复活技术,{NEWLINE}或许能够让三神柱复活过来！{CLEAR}不过三神柱到底埋在隧道的何处,{CLEAR}现在还是个未知数。",
+   "en": "Steven: According to that ruins{NEWLINE}researcher, the three God Pillars were{CLEAR}real Pokémon.{SCROLL}After the great explosion, their{NEWLINE}remains were buried in Rock Tunnel.{SCROLL}Steven: With today’s fossil-restoration{NEWLINE}technology, we might even be able to{CLEAR}bring them back to life!{SCROLL}But where in the tunnel they’re buried{NEWLINE}is still anyone’s guess.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "大吾『太好了,那么你以前{NEWLINE}了解过关于三神柱的传说吗？",
+   "en": "Steven: Wonderful! So, have you ever{NEWLINE}heard the legend of the three God{CLEAR}Pillars before?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "大吾『所谓三神柱{NEWLINE}就是在很久以前的战争中,{CLEAR}通过牺牲自己的大爆炸{CLEAR}为整个地区换来了和平的,{CLEAR}被尊称为「神柱」的三只口袋妖怪。",
+   "en": "Steven: The three God Pillars are three{NEWLINE}Pokémon revered as ‘God Pillars.’{SCROLL}Long ago, in a war, they sacrificed{NEWLINE}themselves in a great explosion and won{CLEAR}peace for the whole region.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "金属怪『Me——tangtang！",
+   "en": "Metang: Me-tangtang!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "大哥哥,我在跟小伙伴们玩捉迷藏,{NEWLINE}可是洞穴太黑了我看不清,{CLEAR}你能帮我去找找他们吗？{CLEAR}帮我找找那4个藏起来的朋友。",
+   "en": "Mister, I’m playing hide-and-seek with{NEWLINE}my friends, but the cave’s too dark and{CLEAR}I can’t see.{SCROLL}Can you help me find them? Please find{NEWLINE}the four friends who are hiding.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "大姐姐,我在跟小伙伴们玩捉迷藏,{NEWLINE}可是洞穴太黑了我看不清,{CLEAR}你能帮我去找找他们吗？{CLEAR}帮我找找那4个藏起来的朋友。",
+   "en": "Miss, I’m playing hide-and-seek with my{NEWLINE}friends, but the cave’s too dark and I{CLEAR}can’t see.{SCROLL}Can you help me find them? Please find{NEWLINE}the four friends who are hiding.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "大哥哥你好厉害啊,{NEWLINE}连那么厉害的伪装都能看穿！{SCROLL}谢谢你帮我,{NEWLINE}这个送给你做礼物吧！",
+   "en": "Mister, you’re amazing! You saw through{NEWLINE}even those amazing disguises!{SCROLL}Thanks for helping me. Here, take this{NEWLINE}as a present!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "大姐姐你好厉害啊,{NEWLINE}连那么厉害的伪装都能看穿！{SCROLL}谢谢你帮我,{NEWLINE}这个送给你做礼物吧！",
+   "en": "Miss, you’re amazing! You saw through{NEWLINE}even those amazing disguises!{SCROLL}Thanks for helping me. Here, take this{NEWLINE}as a present!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "这是我在隧道里玩时发现的奇怪碟片,{NEWLINE}希望对大哥哥能有所帮助吧！",
+   "en": "It’s a weird disc I found while playing in{NEWLINE}the tunnel. I hope it helps you, Mister!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "这是我在隧道里玩时发现的奇怪碟片,{NEWLINE}希望对大姐姐能有所帮助吧！",
+   "en": "It’s a weird disc I found while playing in{NEWLINE}the tunnel. I hope it helps you, Miss!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "下次我要靠我自己的力量,{NEWLINE}把小伙伴们都找出来！",
+   "en": "Next time I’m going to find all my{NEWLINE}friends by myself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "看来我忍术修炼的还不够啊！{NEWLINE}下次乔装成重型岩石试试吧。",
+   "en": "Guess my ninja training isn’t good{NEWLINE}enough yet! Next time I’ll try{CLEAR}disguising myself as a big boulder.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "似乎能用精灵的技能破坏！{NEWLINE}使用碎岩吗？",
+   "en": "It looks like a Pokémon’s move could{NEWLINE}break it! Use Rock Smash?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "唉！别别别！别敲我！{SCROLL}我不是真正的岩石,{NEWLINE}而是在这里玩捉迷藏的……{SCROLL}忍着少年是也！",
+   "en": "Whoa! No, no, no! Don’t smash me!{SCROLL}I’m not a real rock! I’m just here{NEWLINE}playing hide-and-seek...{SCROLL}I am but a humble ninja boy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "什么？{NEWLINE}我是来这里玩捉迷藏的小学生？{CLEAR}不不不,我想你可能是认错人了。{CLEAR}我是来岩山隧道考古的。",
+   "en": "What? I’m a schoolkid playing{NEWLINE}hide-and-seek? No, no, no. I think{CLEAR}you’ve got the wrong person.{SCROLL}I came to Rock Tunnel to do{NEWLINE}archaeology.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "是否相信小学生的话？",
+   "en": "Believe the schoolkid?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "啊啊啊——,被看穿了吗？{NEWLINE}没办法了……{SCROLL}如果我能打赢你,{CLEAR}你就要对我藏在这里的事保密！",
+   "en": "Aaah! You saw through me? Oh well...{SCROLL}If I beat you, you have to keep quiet{NEWLINE}about me hiding here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "看来若无其事地装作路人,{NEWLINE}这招不能再用了啊……",
+   "en": "Guess the ‘just an innocent passer-by’{NEWLINE}trick won’t work anymore...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "皮卡丘又叫皮神,{NEWLINE}是最最最可爱的口袋妖怪！",
+   "en": "Pikachu, a.k.a. the Pika God, is the{NEWLINE}most, most, MOST adorable Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "皮卡丘『Pika！",
+   "en": "Pikachu: Pika!",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 45,
+   "zh": "这里有只野生的皮卡丘,{NEWLINE}要捕捉它吗？",
+   "en": "There’s a wild Pikachu here. Try to{NEWLINE}catch it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "喂喂喂,{NEWLINE}不要朝人家扔精灵球啊！{CLEAR}我只是伪装的皮卡丘而已！{SCROLL}话说你有没有觉得{NEWLINE}我的伪装真的很完美？",
+   "en": "Hey, hey, hey! Don’t throw Poké Balls{NEWLINE}at people!{SCROLL}I’m just dressed up as a Pikachu!{SCROLL}Say, don’t you think my disguise is{NEWLINE}perfect?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "哼,竟然看不上我的伪装,{NEWLINE}吃我一招十万伏特！",
+   "en": "Hmph! You look down on my disguise?{NEWLINE}Take this Thunderbolt!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "那你有没有觉得,{NEWLINE}皮卡丘是最最最可爱的精灵呢？",
+   "en": "Then don’t you think Pikachu is the{NEWLINE}most, most, MOST adorable Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "哼,竟然觉得皮卡丘不可爱,{NEWLINE}吃我一招十万伏特！",
+   "en": "Hmph! You don’t think Pikachu is cute?{NEWLINE}Take this Thunderbolt!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "嘿嘿,{NEWLINE}原来你也是个皮卡丘的粉丝啊。{SCROLL}既然如此,偷偷告诉你个小秘密,{NEWLINE}我其实是在跟朋友们玩捉迷藏,{CLEAR}为了不让他们找到{CLEAR}我就打扮成了皮卡丘的样子！",
+   "en": "Heh heh, so you’re a Pikachu fan too!{SCROLL}In that case, here’s a little secret.{NEWLINE}I’m actually playing hide-and-seek with{CLEAR}my friends.{SCROLL}So they wouldn’t find me, I dressed up{NEWLINE}as a Pikachu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "哼,竟然觉得皮卡丘不可爱,{NEWLINE}吃我一招十万伏特！",
+   "en": "Hmph! You don’t think Pikachu is cute?{NEWLINE}Take this Thunderbolt!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "什么？{NEWLINE}已经把我那4个朋友全找到了？{SCROLL}……{SCROLL}……{SCROLL}原来他们一个躲在山洞的角落里,{NEWLINE}一个伪装成考古学者,{CLEAR}一个伪装成皮卡丘,{CLEAR}一个伪装成一块石头……",
+   "en": "What? You already found all four of my{NEWLINE}friends?{SCROLL}...{SCROLL}...{SCROLL}So one was hiding in a corner of the{NEWLINE}cave, one was disguised as an{CLEAR}archaeologist, one as a Pikachu and one{CLEAR}as a rock...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "好吧,既然是你赢了,{NEWLINE}那我就偷偷告诉你个小秘密。{CLEAR}我其实正在跟朋友们玩捉迷藏,{CLEAR}为了不让他们找到{CLEAR}我就打扮成了皮卡丘的样子！",
+   "en": "Fine, since you won, I’ll let you in on a{NEWLINE}little secret.{SCROLL}I’m actually playing hide-and-seek with{NEWLINE}my friends. So they wouldn’t find me, I{CLEAR}dressed up as a Pikachu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "传…在很久…前,{NEWLINE}……群坏人在这……{CLEAR}……烧光、杀…、抢……的恶……",
+   "en": "Long ag..., a band of vill... in th...{SCROLL}...urned every..., kill... every...,{NEWLINE}loot... ...evil...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#54-58: damaged stone tablet, fragments of #24 with gaps; glossary misses are intentional."
+  },
+  {
+   "id": 55,
+   "zh": "不堪暴…的人们……精灵,{NEWLINE}向坏……起了保卫……的正…战……",
+   "en": "Unable to bear the atro..., the peop...{NEWLINE}...Pokémon, and wag... a just w... to{CLEAR}defe... their ho...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "…战…陷入胶……候,{NEWLINE}有三……柱型口……{CLEAR}对坏………大爆…」……,{CLEAR}…牺牲………价{CLEAR}…创了坏……本营",
+   "en": "...the wa... reached a stalem..., three{NEWLINE}pil...-shaped Pok... ...used Expl... on{CLEAR}the vill...{SCROLL}...at the cost... ...own li..., crip...{NEWLINE}the villa... strongh...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "…亏……大爆炸{NEWLINE}关东的………宝……战…优势,{CLEAR}……终赢……争、赶……坏人",
+   "en": "...anks to the great explo..., the{NEWLINE}peop... of Kanto...{SCROLL}...preci... strat... advan...{SCROLL}...in the end... won the w..., and{NEWLINE}drov... the vill... out",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "……纪念这……型精…的牺牲,{NEWLINE}…们……尊…它……{CLEAR}岩神…、冰…柱、钢……。{CLEAR}并将它……残躯…在……岩山…道……",
+   "en": "...to hon... the sacri... of the th...{NEWLINE}pillar-sha...{SCROLL}Pok..., ...peo... revered th... as{NEWLINE}Regiro..., Re...ce and Regist....{SCROLL}And buri... their rem... here in Rock{NEWLINE}Tun...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "秀力博士『你们到底是什么人,{NEWLINE}为什么要抢我的研究资料？",
+   "en": "Prof. Hale: Who are you people?! Why{NEWLINE}are you trying to steal my research?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "武藏『既然你诚心诚意地发问了,",
+   "en": "Jessie: Prepare for trouble!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 61,
+   "zh": "小次郎『我们就大发慈悲地告诉你。",
+   "en": "James: Make it double!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 62,
+   "zh": "武藏『为了防止世界被破坏,",
+   "en": "Jessie: To protect the world{NEWLINE}from devastation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 63,
+   "zh": "小次郎『为了守护世界的和平。",
+   "en": "James: To unite all peoples within{NEWLINE}our nation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 64,
+   "zh": "武藏『贯彻爱与真实的邪恶,",
+   "en": "Jessie: To denounce the evils of truth{NEWLINE}and love!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 65,
+   "zh": "小次郎『可爱又迷人的反派角色。",
+   "en": "James: To extend our reach to the{NEWLINE}stars above!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 66,
+   "zh": "武藏『我是武藏！",
+   "en": "Jessie: Jessie!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 67,
+   "zh": "小次郎『我是小次郎！",
+   "en": "James: James!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 68,
+   "zh": "武藏『我们是穿梭在银河的火箭队,",
+   "en": "Jessie: Team Rocket, blast off at the{NEWLINE}speed of light!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 69,
+   "zh": "小次郎『白洞,白色的明天在等着我们！",
+   "en": "James: Surrender now, or prepare{NEWLINE}to fight!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 70,
+   "zh": "喵喵『就是这样喵！",
+   "en": "Meowth: Meowth! That’s right!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 71,
+   "zh": "喵喵『这次他只有一个人啊喵,{NEWLINE}让他看看咱们的厉害！",
+   "en": "Meowth: He’s all by himself this time,{NEWLINE}meow! Let’s show him what we’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "喵喵『这次她只有一个人啊喵,{NEWLINE}让她看看咱们的厉害！",
+   "en": "Meowth: She’s all by herself this time,{NEWLINE}meow! Let’s show her what we’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "喵喵『先撤退啦,喵！",
+   "en": "Meowth: Time to scram, meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "武藏、小次郎、喵喵『你给我记住！",
+   "en": "Jessie, James & Meowth: You haven’t{NEWLINE}seen the last of us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "我正在跟我的朋友玩捉迷藏,{NEWLINE}你这样靠过来会暴露我的位置！",
+   "en": "I’m playing hide-and-seek with my{NEWLINE}friends! If you come over here like{CLEAR}that, you’ll give away my hiding spot!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "我实在是没地方藏了,{NEWLINE}只能躲到这个角落里。{CLEAR}我那几个朋友都比我聪明,{CLEAR}估计他们会进行各种伪装吧！",
+   "en": "I really had nowhere left to hide, so I{NEWLINE}squeezed into this corner.{SCROLL}My friends are all smarter than me.{SCROLL}I bet they’re wearing all kinds of{NEWLINE}disguises!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "拜托你不要走！请帮帮我们！",
+   "en": "Please don’t go! Please help us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "小豪『喂！弄得怎么样了？",
+   "en": "Goh: Hey! How’s it going?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "刚刚已经弄好了,{NEWLINE}石壁上破损的文字都被我修复了。",
+   "en": "All done just now. I’ve restored all the{NEWLINE}damaged writing on the stone wall.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "乔伊『那就请把石壁上的文字{NEWLINE}读出来给大家听听吧。",
+   "en": "Joy: Then please read the writing on{NEWLINE}the wall out for everyone.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "好的,乔伊小姐。",
+   "en": "Yes, Miss Joy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "十四年以来,{NEWLINE}强盗闯我家园、夺我精灵、杀我同胞,{CLEAR}关东大地几无宁日。{CLEAR}万幸吾辈宁死不屈,{CLEAR}集万千训练家与精灵伙伴之力,{CLEAR}与强盗艰难周旋。{CLEAR}后有岩、冰、钢三神柱漂洋而至,{CLEAR}以牺牲自身之伟大爆炸,{CLEAR}将罪恶强盗扫灭大半。{CLEAR}至此强盗终作鸟兽散,{CLEAR}关东亦重归安宁。{CLEAR}今将三位伟大神柱之残躯埋藏于此,{CLEAR}立碑以纪念在对抗强盗战争中{CLEAR}牺牲的正义战士。",
+   "en": "For fourteen years, bandits invaded our{NEWLINE}homeland, seized our Pokémon and{CLEAR}slaughtered our people.{SCROLL}Kanto scarcely knew a day of peace.{SCROLL}By fortune, we would rather die than{NEWLINE}yield.{SCROLL}Gathering the strength of countless{NEWLINE}Trainers and their Pokémon partners,{CLEAR}we struggled hard against the bandits.{SCROLL}Then Regirock, Regice and Registeel,{NEWLINE}the three God Pillars, came from across{CLEAR}the sea.{SCROLL}With the great explosion that took{NEWLINE}their own lives, they wiped out most of{CLEAR}the wicked bandits.{SCROLL}At last the bandits scattered like birds{NEWLINE}and beasts, and Kanto was at peace{CLEAR}once more.{SCROLL}Here we lay to rest the remains of the{NEWLINE}three great God Pillars.{SCROLL}This stone stands in memory of the{NEWLINE}righteous warriors who gave their lives{CLEAR}in the war against the bandits.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Stone tablet (read aloud by the grunt). '十四年' = fourteen years (WWII allegory), kept literally."
+  },
+  {
+   "id": 83,
+   "zh": "小豪『这都什么玩意儿？{NEWLINE}这就是复活三神柱的关键？",
+   "en": "Goh: What the heck is this junk?{SCROLL}This is the key to reviving the three{NEWLINE}God Pillars?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "呃,最后还有一行小字。",
+   "en": "Uh, there’s one more line in small print{NEWLINE}at the end.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "请来此碑前缅怀英雄的后人默哀静思。",
+   "en": "Those of later generations who come{NEWLINE}before this stone to honor the heroes{CLEAR}are asked to pause in silent tribute.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RA-014"
+  },
+  {
+   "id": 86,
+   "zh": "小豪『就这么多信息了？",
+   "en": "Goh: That’s all the info there is?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "是的,没有其他文字了。",
+   "en": "Yes. There’s no other writing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "小豪『冥王的情报是不是有问题啊,{NEWLINE}这就是块纪念碑,{CLEAR}跟复活三神柱有什么关系。",
+   "en": "Goh: Is Charon’s intel bad or what? This{NEWLINE}is just a memorial stone.{SCROLL}What’s it got to do with reviving the{NEWLINE}three God Pillars?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "乔伊『或许默哀就是{NEWLINE}唤醒三神柱的方法呢？{CLEAR}我来默哀一下试试看吧。",
+   "en": "Joy: Maybe the moment of silence is how{NEWLINE}you wake the three God Pillars?{SCROLL}Let me try observing one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "小豪『切,都是些不知道{NEWLINE}多少年前的死人和精灵了,{CLEAR}有什么值得默哀的。",
+   "en": "Goh: Tch. They’re people and Pokémon{NEWLINE}who died who knows how many years ago.{CLEAR}What’s there to mourn?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "{VAR:0103:0}『小豪你这是加入火箭队了吗？",
+   "en": "{VAR:0103:0}: Goh, have you joined Team{NEWLINE}Rocket?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "小豪『怎么是你这个讨厌鬼。",
+   "en": "Goh: Oh, great. It’s you, you pain in{NEWLINE}the neck.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "乔伊『真是的,{NEWLINE}偏偏在解开谜题的关键时候。",
+   "en": "Joy: Honestly, right when we’re about{NEWLINE}to crack the puzzle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "{VAR:0103:0}『我原本以为你只是个{NEWLINE}没有公德心的训练家,{CLEAR}没想到你居然与火箭队为伍了。",
+   "en": "{VAR:0103:0}: I thought you were just a{NEWLINE}Trainer with no sense of decency.{SCROLL}I never imagined you’d team up with Team{NEWLINE}Rocket.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "小豪『我想要传说中的精灵,{NEWLINE}而火箭队能提供给我这个平台,{CLEAR}我们当然是一拍即合了。{CLEAR}我现在要跟火箭队一起推翻{CLEAR}精灵联盟这种{CLEAR}只会限制我自由的烂组织！",
+   "en": "Goh: I want legendary Pokémon, and{NEWLINE}Team Rocket can give me the platform to{CLEAR}get them. Of course we hit it off.{SCROLL}Goh: Now I’m going to help Team Rocket{NEWLINE}overthrow the Pokémon League, that{CLEAR}rotten outfit that does nothing but{CLEAR}limit my freedom!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "{VAR:0103:0}『我不会让你们这些人得逞的。",
+   "en": "{VAR:0103:0}: I won’t let people like you get{NEWLINE}away with it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "小豪『还是那副让人作呕的{NEWLINE}自以为是嘴脸啊。",
+   "en": "Goh: Still wearing that sickening,{NEWLINE}self-righteous face, huh?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "小豪『喂！你们两个给我上,{NEWLINE}先消耗一下这个混蛋。",
+   "en": "Goh: Hey! You two, get in there and{NEWLINE}wear this bastard down first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "是！",
+   "en": "Yes, sir!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 100,
+   "zh": "联盟冠军是吧？",
+   "en": "The League Champion, huh?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "你去死吧！",
+   "en": "Drop dead!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "不行了。",
+   "en": "I’m finished.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "我们已经尽力了。",
+   "en": "We did all we could.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "乔伊『好了,你们退下吧。{NEWLINE}下面由我和小豪来对付这家伙。",
+   "en": "Joy: All right, you two, stand back. Goh{NEWLINE}and I will deal with this one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "小豪『你应该也收集了不少精灵吧？{NEWLINE}等我把你打败之后,{CLEAR}就把它们全都抢过来！",
+   "en": "Goh: You must have collected plenty of{NEWLINE}Pokémon too, right? Once I beat you,{CLEAR}I’m taking every last one of them!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "小豪『可恶,已经没有战斗能力了,{NEWLINE}先撤退要紧。{CLEAR}穿洞绳！",
+   "en": "Goh: Dammit, I’m out of Pokémon that{NEWLINE}can fight. Gotta retreat first.{SCROLL}Goh: Escape Rope!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "乔伊『看到你越强大,我就越伤心……",
+   "en": "Joy: The stronger you get, the sadder{NEWLINE}it makes me...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "乔伊『咱们也别等了,撤退吧！",
+   "en": "Joy: No point waiting around. Let’s pull{NEWLINE}out too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "石壁上似乎刻着一些文字,{NEWLINE}但因为岁月的侵损已经模糊不清了。",
+   "en": "Some writing seems to be carved into{NEWLINE}the stone wall, but the years have worn{CLEAR}it away until it can’t be read.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "十四年以来,{NEWLINE}强盗闯我家园、夺我精灵、杀我同胞,{CLEAR}关东大地几无宁日。{CLEAR}万幸吾辈宁死不屈,{CLEAR}集万千训练家与精灵伙伴之力,{CLEAR}与强盗艰难周旋。{CLEAR}后有岩、冰、钢三神柱漂洋而至,{CLEAR}以牺牲自身之伟大爆炸,{CLEAR}将罪恶强盗扫灭大半。{CLEAR}至此强盗终作鸟兽散,{CLEAR}关东亦重归安宁。{CLEAR}今将三位伟大神柱之残躯埋藏于此,{CLEAR}立碑以纪念在对抗强盗战争中{CLEAR}牺牲的正义战士。{SCROLL}请来此碑前缅怀英雄的后人默哀静思。{SCROLL}要默哀吗？",
+   "en": "For fourteen years, bandits invaded our{NEWLINE}homeland, seized our Pokémon and{CLEAR}slaughtered our people.{SCROLL}Kanto scarcely knew a day of peace.{SCROLL}By fortune, we would rather die than{NEWLINE}yield.{SCROLL}Gathering the strength of countless{NEWLINE}Trainers and their Pokémon partners,{CLEAR}we struggled hard against the bandits.{SCROLL}Then Regirock, Regice and Registeel,{NEWLINE}the three God Pillars, came from across{CLEAR}the sea.{SCROLL}With the great explosion that took{NEWLINE}their own lives, they wiped out most of{CLEAR}the wicked bandits.{SCROLL}At last the bandits scattered like birds{NEWLINE}and beasts, and Kanto was at peace{CLEAR}once more.{SCROLL}Here we lay to rest the remains of the{NEWLINE}three great God Pillars.{SCROLL}This stone stands in memory of the{NEWLINE}righteous warriors who gave their lives{CLEAR}in the war against the bandits.{SCROLL}Descendants of the heroes who come{NEWLINE}before this stone are asked to pause in{CLEAR}silent tribute.{SCROLL}Observe a moment of silence?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same tablet as #82 + #85 + prompt."
+  },
+  {
+   "id": 111,
+   "zh": "黑暗中似乎传来一个声音——{SCROLL}你认为犯下罪行之人{NEWLINE}受到惩罚是应该的吗？",
+   "en": "A voice seems to come from the{NEWLINE}darkness...{SCROLL}Do you think those who commit crimes{NEWLINE}deserve to be punished?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#111-117: voice-in-the-dark questions with political allegory (unrepentant aggressors); faithful (D-0627). #113-115 are menu options."
+  },
+  {
+   "id": 112,
+   "zh": "对所犯罪行拒不承认、{NEWLINE}甚至引以为傲,{CLEAR}并一直妄图卷土重来的罪人,{CLEAR}应该如何处理与它们的关系？",
+   "en": "Criminals who refuse to admit their{NEWLINE}crimes, who even take pride in them and{CLEAR}keep scheming to make a comeback...{SCROLL}How should we deal with them?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "尽弃前嫌,和平相处",
+   "en": "Forgive and forget",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 114,
+   "zh": "认贼作父,俯首称臣",
+   "en": "Kneel to the bandits",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "认贼作父,俯首称臣 (idiom: take the enemy as one's father) → 'Kneel to the bandits'; menu options kept short (≤20 chars) for the choice box.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 115,
+   "zh": "警觉提防,准备斗争",
+   "en": "Be ready to fight",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 116,
+   "zh": "你认为外来的强盗{NEWLINE}能平等友善地对待当地人,{CLEAR}为当地人创造更好的生活条件吗？",
+   "en": "Do you think foreign bandits could treat{NEWLINE}the locals fairly and kindly, and give{CLEAR}them a better life?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "你认为今天的和平生活{NEWLINE}与过往英雄们的牺牲有关系吗？",
+   "en": "Do you think today’s peaceful life has{NEWLINE}anything to do with the sacrifices of{CLEAR}the heroes of the past?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "没有什么反映……",
+   "en": "There’s no response...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "背后好像有声音传来。",
+   "en": "A voice seems to come from behind you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "{VAR:0103:0}开始了默哀。",
+   "en": "{VAR:0103:0} began a moment of silence.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "默哀完毕,什么事都没有发生。",
+   "en": "The moment of silence is over. Nothing{NEWLINE}happened.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "岩神柱在上面庄严地看着你,{NEWLINE}要邀请它加入队伍吗？",
+   "en": "Regirock gazes down at you solemnly.{NEWLINE}Invite it to join your party?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "岩神柱/冰神柱/钢神柱 as Pokémon → glossary Regirock/Regice/Registeel."
+  },
+  {
+   "id": 123,
+   "zh": "队伍已满,整理一下再来吧。",
+   "en": "Your party is full. Make some room and{NEWLINE}come back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "昵称叫{VAR:0101:1}{NEWLINE}可以吗？{VAR:0200:0}",
+   "en": "Is {VAR:0101:1} the nickname you want to{NEWLINE}give?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 125,
+   "zh": "岩神柱加入了队伍！",
+   "en": "Regirock joined your party!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "要给岩神柱起昵称吗？{VAR:0200:0}{SCROLL}",
+   "en": "Give Regirock a nickname?{VAR:0200:0}{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 127,
+   "zh": "冰神柱在上面庄严地看着你,{NEWLINE}要邀请它加入队伍吗？",
+   "en": "Regice gazes down at you solemnly.{NEWLINE}Invite it to join your party?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 128,
+   "zh": "冰神柱加入了队伍！",
+   "en": "Regice joined your party!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 129,
+   "zh": "要给冰神柱起昵称吗？{VAR:0200:0}{SCROLL}",
+   "en": "Give Regice a nickname?{VAR:0200:0}{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 130,
+   "zh": "钢神柱在上面庄严地看着你,{NEWLINE}要邀请它加入队伍吗？",
+   "en": "Registeel gazes down at you solemnly.{NEWLINE}Invite it to join your party?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 131,
+   "zh": "钢神柱加入了队伍！",
+   "en": "Registeel joined your party!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 132,
+   "zh": "要给钢神柱起昵称吗？{VAR:0200:0}{SCROLL}",
+   "en": "Give Registeel a nickname?{VAR:0200:0}{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 133,
+   "zh": "我原来以为{NEWLINE}信号光线是照亮洞穴的技能,{CLEAR}所以就让我的精灵们拼命练习,{CLEAR}结果到最后却发现{CLEAR}闪光才是照亮洞穴的技能。{CLEAR}不过也多亏了最近的练习,{CLEAR}我已经熟练掌握{CLEAR}让精灵学会信号光线的方法了。{CLEAR}如果你肯给我一个黑暗球的话,{CLEAR}我就可以教会你的精灵信号光线。{SCROLL}怎么样,要学吗？{SCROLL}",
+   "en": "I thought Signal Beam was the move that{NEWLINE}lights up caves, so I had my Pokémon{CLEAR}practice it like crazy.{SCROLL}In the end, I found out Flash is the{NEWLINE}move that lights up caves!{SCROLL}Still, thanks to all that practice, I’ve{NEWLINE}mastered teaching Signal Beam.{SCROLL}If you give me one Dusk Ball, I can{NEWLINE}teach your Pokémon Signal Beam.{SCROLL}So, how about it? Want to learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Signal Beam tutor, fee: 1 Dusk Ball (黑暗球)."
+  },
+  {
+   "id": 134,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated to the house tutor boilerplate."
+  },
+  {
+   "id": 135,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it, come find me{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 136,
+   "zh": "你并没有黑暗球啊,{NEWLINE}等有球了再来找我吧。",
+   "en": "You don’t have a Dusk Ball. Come back{NEWLINE}when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 137,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住信号光线。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn Signal{NEWLINE}Beam.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 138,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 139,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会信号光线了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Signal{NEWLINE}Beam!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 140,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 141,
+   "zh": "{VAR:0101:0}学会了信号光线！",
+   "en": "{VAR:0101:0} learned Signal Beam!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 142,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会信号光线了！{SCROLL}那么按照约定,{NEWLINE}1个黑暗球我拿走了。",
+   "en": "And with that, your {VAR:0100:0} has{NEWLINE}learned Signal Beam!{SCROLL}As we agreed, I’ll take one Dusk Ball.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的信号光线……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习信号光线{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Signal{NEWLINE}Beam...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn Signal{NEWLINE}Beam?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 144,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 145,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 146,
+   "zh": "你是要放弃{NEWLINE}让它记住信号光线吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Signal Beam?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,837 @@
+{
+ "narc": "a027",
+ "bank": 492,
+ "source": "work/extract/v4/a027/0492.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "玩自动贩卖机的抽奖,{NEWLINE}即便是只有２００的东西,{CLEAR}中了也是很开心的。{SCROLL}也就是说,幸福这东西{NEWLINE}和价值的大小无关,{CLEAR}接受的一方{CLEAR}心中早就定好价值了……",
+   "en": "A vending machine with a{NEWLINE}prize roulette...{SCROLL}It makes you happy when you get{NEWLINE}something for free even if it’s worth{CLEAR}only $200.{SCROLL}Happiness does not come from how much{NEWLINE}things are worth.{SCROLL}It is up to the heart of the one to{NEWLINE}receive it...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0499/0"
+  },
+  {
+   "id": 1,
+   "zh": "这一层的有奖问答很有意思,{NEWLINE}可惜我年龄还小,{CLEAR}有些问题真的答不出来。",
+   "en": "The quiz on this floor is really fun. But{NEWLINE}I’m still young, so there are some{CLEAR}questions I just can’t answer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "自动贩卖机旁休息一下{NEWLINE}６楼……休闲广场",
+   "en": "Have a Break at the Vending Machines{NEWLINE}6F: Rooftop Atrium",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0499/2"
+  },
+  {
+   "id": 3,
+   "zh": "这里有自动贩卖机！{NEWLINE}想要的饮料是……{VAR:0200:0}",
+   "en": "It’s a vending machine.{NEWLINE}Which drink would you like? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0499/3"
+  },
+  {
+   "id": 4,
+   "zh": "噶嗵！{SCROLL}{VAR:0108:0}出来了！{SCROLL}",
+   "en": "Clang!{SCROLL}A can of {VAR:0108:0} dropped down.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0499/4"
+  },
+  {
+   "id": 5,
+   "zh": "噶嗵！{SCROLL}中了！又出来了一瓶{NEWLINE}{VAR:0108:0}！{SCROLL}",
+   "en": "Clang!{SCROLL}Bonus! Another can of {VAR:0108:0}{NEWLINE}dropped down.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0499/5"
+  },
+  {
+   "id": 6,
+   "zh": "钱不够！",
+   "en": "Not enough money...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0499/6"
+  },
+  {
+   "id": 7,
+   "zh": "……还是算了吧！",
+   "en": "Decided not to buy a drink.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0499/7"
+  },
+  {
+   "id": 8,
+   "zh": "托尼『我正在给口袋妖怪做艺术造型,{NEWLINE}你不要打扰我！",
+   "en": "Tony: I’m giving a Pokémon an artistic{NEWLINE}makeover. Don’t bother me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "托尼/麦瑞 → Tony / Mary: Jessie and James's disguises as ‘stylists’ (Tony is the Chinese meme name for hairdressers). Tony = James, Mary = Jessie (see the motto #46–51)."
+  },
+  {
+   "id": 9,
+   "zh": "铁壳昆『Ka——kun！",
+   "en": "Kakuna: Ka-kun!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "前面这两位是非常擅长美容的{NEWLINE}饲育家托尼老师和麦瑞老师哦！{CLEAR}我准备让他给我的铁壳昆画个{CLEAR}超级无敌高级豪华炫彩狂野大花纹！",
+   "en": "Those two up front are the Pokémon{NEWLINE}Breeders Tony and Mary. They’re{CLEAR}grooming geniuses!{SCROLL}I’m going to have him paint my Kakuna{NEWLINE}with a super-ultra-deluxe, dazzling,{CLEAR}wild pattern!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "玛瑙水母『Ten——ta！",
+   "en": "Tentacool: Ten-ta!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars"
+  },
+  {
+   "id": 12,
+   "zh": "好想快点见识一下这位两位老师{NEWLINE}是怎么为全身都是水的玛瑙水母{CLEAR}做美容的。",
+   "en": "I can’t wait to see how these two do{NEWLINE}the grooming on a Tentacool whose whole{CLEAR}body is water.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "来给精灵做美容的人还真多啊,{NEWLINE}不知道什么时候才能轮到我。",
+   "en": "So many people have come to get their{NEWLINE}Pokémon groomed. I wonder when it’ll be{CLEAR}my turn.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "雷电兽『Maaa——nec！",
+   "en": "Manectric: Maaa-nec!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "我的奇鲁莉安是在{NEWLINE}彩虹大厦一层的小雪小姐那里{CLEAR}做的按摩和美容。{SCROLL}说实话我觉得小雪小姐的技术{NEWLINE}比这几个「托尼」、「麦瑞」可强多了,{CLEAR}真不知道大家是跟的哪阵风,{CLEAR}居然能接受这种审美。",
+   "en": "My Kirlia got a massage and a grooming{NEWLINE}from Ms. Suzie on the first floor of the{CLEAR}Celadon Condominiums.{SCROLL}Honestly, I think Ms. Suzie is way more{NEWLINE}skilled than this ‘Tony’ and ‘Mary.’ I{CLEAR}don’t get what trend everyone’s{CLEAR}following, accepting a look like this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "小雪 → Yuki: Pokémon Breeder who runs the Pokémon wellness center in the Celadon Condominiums (invented; JP reading of 雪). Not the Lass 小雪 = Krise in 0020/0706. | [D-0593 rename 2026-09-29: Yuki → Suzie]; ext-review RV-002"
+  },
+  {
+   "id": 16,
+   "zh": "奇鲁莉安『Kir——lia！",
+   "en": "Kirlia: Kir-lia!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "咦？在这里做美容的{NEWLINE}托尼老师和麦瑞老师呢？{CLEAR}我还特意带了勇吉拉来{CLEAR}试试他的美容手法。",
+   "en": "Huh? Where are Tony and Mary, the{NEWLINE}stylists who were grooming here? I{CLEAR}brought my Kadabra specially to try{CLEAR}their grooming.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "勇吉拉『Ka——da！",
+   "en": "Kadabra: Ka-da!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "您好,欢迎您来到彩虹百货购物,{NEWLINE}我们现在正在举办有奖问答活动,{CLEAR}请问您要参加吗？{SCROLL}",
+   "en": "Hello, and welcome to the Celadon{NEWLINE}Department Store!{SCROLL}We’re holding a prize quiz right now.{NEWLINE}Would you like to take part?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "麦瑞『我是托尼的搭档麦瑞,{NEWLINE}如果你想找我给你的精灵做美容,{CLEAR}就老老实实排队去。",
+   "en": "Mary: I’m Tony’s partner, Mary. If you{NEWLINE}want me to groom your Pokémon, get in{CLEAR}line like everybody else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "喵喵『做小生意能赚大钱啊喵！",
+   "en": "Meowth: Small business, big money,{NEWLINE}meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "喵喵『喵！",
+   "en": "Meowth: Meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "逛累了能有个地方坐坐{NEWLINE}真是太幸福了。",
+   "en": "It’s so nice to have somewhere to sit{NEWLINE}when you’re tired of shopping.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "我男朋友还真是没用,{NEWLINE}才逛一会儿商场就累得要休息,{CLEAR}老娘我可是精力十足呢！",
+   "en": "My boyfriend is so useless. We’ve barely{NEWLINE}shopped at all and he’s already worn{CLEAR}out and needs a rest. I’ve got energy{CLEAR}to spare!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "托尼『现在是最精彩的战纹刻画了。{NEWLINE}来吧铁壳昆,{CLEAR}让我在你那冰冷的甲壳上{CLEAR}增添一份多彩的艺术气息吧！",
+   "en": "Tony: And now for the best part: the{NEWLINE}battle markings. Come on, Kakuna, let{CLEAR}me add a colorful, artistic touch to{CLEAR}that cold shell of yours!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "托尼『只是在你的身上{NEWLINE}涂一些颜料而已,{CLEAR}给我安静点啊！",
+   "en": "Tony: I’m just putting a little paint on{NEWLINE}you. Hold still!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "拜托你啊铁壳昆,{NEWLINE}再忍耐一下吧！",
+   "en": "Please, Kakuna, just be patient a little{NEWLINE}longer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "托尼『管好你的精灵啊,我要继续了！",
+   "en": "Tony: Keep your Pokémon under control!{NEWLINE}I’m going to continue!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "哇！托尼老师你好厉害！{NEWLINE}居然可以通过美容让我的铁壳昆进化！",
+   "en": "Wow! Tony, you’re amazing! Your{NEWLINE}grooming made my Kakuna evolve!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "大针蜂『Beee——dril！",
+   "en": "Beedrill: Beee-drill!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "托尼『嘿嘿,看样科研组{NEWLINE}给的这个新型材料还满有效的。",
+   "en": "Tony: Heh heh.{SCROLL}Looks like this new stuff from the{NEWLINE}research team works pretty well.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "大针蜂很暴躁！",
+   "en": "Beedrill is agitated!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "大针蜂你怎么啦？{NEWLINE}为什么要攻击我啊！",
+   "en": "Beedrill, what’s wrong? Why are you{NEWLINE}attacking me?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "大针蜂发狂了！",
+   "en": "Beedrill went berserk!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "大针蜂攻过来了！",
+   "en": "Beedrill is attacking!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "大针蜂没有体力了。",
+   "en": "Beedrill has no strength left.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "回来吧大针蜂！",
+   "en": "Come back, Beedrill!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "大针蜂……{NEWLINE}为什么会发狂呢……",
+   "en": "Beedrill... Why did you go berserk...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "{VAR:0103:0}『各位,这里的美容保养{NEWLINE}好像有一些副作用。{CLEAR}你们可以带自己的口袋妖怪{CLEAR}去彩虹大厦1楼的小雪小姐那里{CLEAR}试试没有副作用的精灵健康保养,{CLEAR}绝对会让精灵神采焕发的,{CLEAR}请大家去试试吧！",
+   "en": "{VAR:0103:0}: Everyone, the grooming here{NEWLINE}seems to have some side effects.{SCROLL}Take your Pokémon to Ms. Suzie on the{NEWLINE}first floor of the Celadon Condominiums{CLEAR}and try her Pokémon care. It has no{CLEAR}side effects.{SCROLL}It’ll make your Pokémon look great for{NEWLINE}sure. Please, go give it a try!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0593 rename 2026-09-29: Yuki → Suzie]; ext-review RV-002"
+  },
+  {
+   "id": 40,
+   "zh": "……{SCROLL}……",
+   "en": "...{SCROLL}...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "这里好像真的不太靠谱……{NEWLINE}我还是去彩虹大厦看看吧。",
+   "en": "This place really doesn’t seem{NEWLINE}reliable... I’ll go check out the{CLEAR}Celadon Condominiums.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "我得找人帮我看看大针蜂的状况！",
+   "en": "I have to get someone to look at{NEWLINE}Beedrill!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "确实……我也闪了……",
+   "en": "Yeah... I’m out of here too...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "麦瑞『混蛋,好不容易拿着{NEWLINE}科研组的新产品出来赚点钱,{CLEAR}却让你给搅黄了！",
+   "en": "Mary: You bastard! We finally got out{NEWLINE}here to make some cash with the{CLEAR}research team’s new product, and you{CLEAR}ruined it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0103:0}『科研组的新产品？{NEWLINE}你们到底是什么人啊？",
+   "en": "{VAR:0103:0}: The research team’s new{NEWLINE}product? Who are you people?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "麦瑞『既然你诚心诚意地发问了,",
+   "en": "Mary: Prepare for trouble!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 47,
+   "zh": "托尼『我们就大发慈悲地告诉你！",
+   "en": "Tony: Make it double!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 48,
+   "zh": "麦瑞『为了防止世界被破坏,",
+   "en": "Mary: To protect the world{NEWLINE}from devastation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 49,
+   "zh": "托尼『为了守护世界的和平。",
+   "en": "Tony: To unite all peoples within{NEWLINE}our nation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 50,
+   "zh": "麦瑞『贯彻爱与真实的邪恶,",
+   "en": "Mary: To denounce the evils of truth{NEWLINE}and love!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 51,
+   "zh": "托尼『可爱又迷人的反派角色。",
+   "en": "Tony: To extend our reach to the{NEWLINE}stars above!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 52,
+   "zh": "武藏『武藏！",
+   "en": "Jessie: Jessie!",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 53,
+   "zh": "小次郎『小次郎！",
+   "en": "James: James!",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 54,
+   "zh": "武藏『我们是穿梭在银河的火箭队！",
+   "en": "Jessie: Team Rocket, blast off at the{NEWLINE}speed of light!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 55,
+   "zh": "小次郎『白洞,白色的明天在等着我们！",
+   "en": "James: Surrender now, or prepare{NEWLINE}to fight!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 56,
+   "zh": "喵喵『就是这样！喵！",
+   "en": "Meowth: Meowth! That’s right!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 57,
+   "zh": "武藏『臭小鬼,我们做个生意{NEWLINE}你也跑来碍事！",
+   "en": "Jessie: You little brat! We’re just{NEWLINE}trying to run a business, and you come{CLEAR}butting in!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "小次郎『因为圣安努号上你的捣乱,{NEWLINE}你知道我们奖金扣了多少吗！",
+   "en": "James: Thanks to your meddling on the{NEWLINE}S.S. Anne, do you know how much of our{CLEAR}bonus got docked?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "喵喵『你就是我们的扫把星啊喵！",
+   "en": "Meowth: You’re our jinx, meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "{VAR:0103:0}『原来是你们几个！",
+   "en": "{VAR:0103:0}: So it’s you three!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "{VAR:0103:0}『刚才大针蜂暴走,{NEWLINE}其实是你们搞的鬼吧！",
+   "en": "{VAR:0103:0}: Beedrill going berserk just{NEWLINE}now was your doing, wasn’t it?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "武藏『哼,想知道吗？{NEWLINE}那就用你的实力来问吧！",
+   "en": "Jessie: Hmph! Want to know? Then make{NEWLINE}us tell you with your strength!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "{VAR:0103:0}『好了,是你们输了。{NEWLINE}快说,大针蜂为什么会暴走？{CLEAR}我在7号路遇到过几只暴走的精灵,{CLEAR}是不是也跟你们有关？",
+   "en": "{VAR:0103:0}: All right, you lost. Talk! Why{NEWLINE}did Beedrill go berserk?{SCROLL}I ran into a few berserk Pokémon on{NEWLINE}Route 7. Were you behind that too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "武藏『你不会天真地以为,{NEWLINE}只要打败我们,就能问到情报吧？",
+   "en": "Jessie: You don’t naively think that{NEWLINE}just beating us will get you any{CLEAR}information, do you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "小次郎『我们才没笨到{NEWLINE}把精灵强化剂的事泄露出去呢。",
+   "en": "James: We’re not dumb enough to leak{NEWLINE}anything about the Pokémon Enhancer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "喵喵『小次郎你这蠢货,{NEWLINE}你已经泄露出去了喵！",
+   "en": "Meowth: James, ya dope! Ya just leaked{NEWLINE}it, meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "小次郎『好像是提到了精灵强化剂……",
+   "en": "James: I suppose I did mention the{NEWLINE}Pokémon Enhancer...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "武藏『够了,闭上你的嘴吧！{SCROLL}武藏『先撤退！",
+   "en": "Jessie: Enough! Shut your mouth!{SCROLL}Jessie: Retreat for now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "原本这里有两个饲育家{NEWLINE}给精灵做美容的。{CLEAR}但是因为美容的效果并不好,{CLEAR}客人渐渐都改去{CLEAR}彩虹大厦的小雪小姐那边了。{SCROLL}果然是打铁还需自身硬啊,{NEWLINE}像这种猎奇的所谓饲育家{CLEAR}是不可能长久的。{CLEAR}而小雪小姐这种真正资深的饲育家{CLEAR}最终一定会被大家所认可。",
+   "en": "There used to be two Breeders here who{NEWLINE}groomed Pokémon. But their grooming{CLEAR}didn’t work well, so customers{CLEAR}gradually switched to Ms. Suzie in the{CLEAR}Celadon Condominiums.{SCROLL}It takes real skill to last.{SCROLL}Oddball so-called Breeders like them{NEWLINE}can’t last long.{SCROLL}A truly experienced Breeder like{NEWLINE}Ms. Suzie will win everyone’s recognition{CLEAR}in the end.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0593 rename 2026-09-29: Yuki → Suzie]; ext-review RV-002"
+  },
+  {
+   "id": 70,
+   "zh": "真没想到在这里{NEWLINE}给精灵做美容的饲育家竟然是骗子！{CLEAR}幸好我去过小雪小姐那里,{CLEAR}才能不屑于他们那种水准的美容。",
+   "en": "I can’t believe the Breeders grooming{NEWLINE}Pokémon here were frauds!{SCROLL}Good thing I’d been to Ms. Suzie’s, so I{NEWLINE}knew better than to fall for their kind{CLEAR}of grooming.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0593 rename 2026-09-29: Yuki → Suzie]; ext-review RV-002"
+  },
+  {
+   "id": 71,
+   "zh": "那么请听第一题：下列哪个招式{NEWLINE}可以令对方陷入混乱状态？{SCROLL}",
+   "en": "Here’s the first question: which of{NEWLINE}these moves can confuse the target?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "泰山压顶",
+   "en": "Body Slam",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 73,
+   "zh": "舔舌",
+   "en": "Lick",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 74,
+   "zh": "恶之波动",
+   "en": "Dark Pulse",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 75,
+   "zh": "爆裂拳",
+   "en": "Dynamic Punch",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 76,
+   "zh": "那么请听第二题：{NEWLINE}下列那种属性的技能打击面最广？{SCROLL}",
+   "en": "Here’s the second question: which type{NEWLINE}of move is super effective against the{CLEAR}most types?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 打击面最广 (widest coverage); answer options #77–80."
+  },
+  {
+   "id": 77,
+   "zh": "飞行系",
+   "en": "Flying type",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 78,
+   "zh": "岩石系",
+   "en": "Rock type",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 79,
+   "zh": "电系",
+   "en": "Electric type",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 80,
+   "zh": "草系",
+   "en": "Grass type",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 81,
+   "zh": "那么请听第三题：下列哪种精灵{NEWLINE}雌雄个体的外形没有差异？{SCROLL}",
+   "en": "Here’s the third question: which of{NEWLINE}these Pokémon looks the same whether{CLEAR}male or female?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "鲤鱼王",
+   "en": "Magikarp",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 83,
+   "zh": "皮卡丘",
+   "en": "Pikachu",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 84,
+   "zh": "比比鸟",
+   "en": "Pidgeotto",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 85,
+   "zh": "勇吉拉",
+   "en": "Kadabra",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 86,
+   "zh": "那么请听第四题：{NEWLINE}下列哪个技能先制度最高？{SCROLL}",
+   "en": "Here’s the fourth question: which of{NEWLINE}these moves has the highest priority?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "击掌奇袭",
+   "en": "Fake Out",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 88,
+   "zh": "子弹拳",
+   "en": "Bullet Punch",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 89,
+   "zh": "神速",
+   "en": "Extreme Speed",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 90,
+   "zh": "电光一闪",
+   "en": "Quick Attack",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 91,
+   "zh": "那么请听第五题：{NEWLINE}猫鼬斩胸前的红色斑纹是什么形状？{SCROLL}",
+   "en": "Here’s the fifth question: what shape is{NEWLINE}the red marking on Zangoose’s chest?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "V形",
+   "en": "V shape",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 93,
+   "zh": "W形",
+   "en": "W shape",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 94,
+   "zh": "M形",
+   "en": "M shape",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 95,
+   "zh": "X形",
+   "en": "X shape",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 96,
+   "zh": "真遗憾,您没有全部答对呢。{NEWLINE}欢迎您下次再来参加。",
+   "en": "Too bad, you didn’t get them all right.{NEWLINE}Please come and try again next time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "真厉害！您全部都答对了。{NEWLINE}那么下面两款奖品请您挑选一个吧！",
+   "en": "Amazing! You got them all right. Please{NEWLINE}choose one of these two prizes!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "玩偶套装",
+   "en": "Doll Set",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 99,
+   "zh": "精灵球套装",
+   "en": "Poké Ball Set",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 100,
+   "zh": "您好,欢迎您光临彩虹百货。",
+   "en": "Hello, and welcome to the Celadon{NEWLINE}Department Store.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

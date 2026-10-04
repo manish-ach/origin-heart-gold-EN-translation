@@ -1,0 +1,167 @@
+{
+ "narc": "a027",
+ "bank": 97,
+ "source": "work/extract/v4/a027/0097.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "那么,{NEWLINE}请在这儿的训练师之中{CLEAR}选择您的搭档！{SCROLL}",
+   "en": "Please find a partner from the Trainers{NEWLINE}that are gathered here.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0099/0"
+  },
+  {
+   "id": 1,
+   "zh": "{VAR:0103:0}还没有找到搭档！{SCROLL}要放弃寻找搭档回到接待处吗？",
+   "en": "{VAR:0103:0} hasn’t found a partner yet!{SCROLL}Stop looking for a partner and{NEWLINE}go back to the reception desk?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0099/1 | seed rejected us [tag_mismatch] (candidate US 0099#1; text not kept)"
+  },
+  {
+   "id": 2,
+   "zh": "寻找搭档辛苦了！{SCROLL}那么,请跟我到多人战房间来！{SCROLL}",
+   "en": "Thank you for choosing a partner.{SCROLL}I will now show you to your{NEWLINE}Multi Battle Room.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0099/2"
+  },
+  {
+   "id": 3,
+   "zh": "彦『如果让现在的搭档使用{VAR:0106:1}{CLEAR}那就正好是对{VAR:0100:0}和{SCROLL}{VAR:0106:3}有绝对自信的{VAR:0100:2}{SCROLL}要加他为伙伴吗？",
+   "en": "Riley: If my partner uses {VAR:0106:1},{NEWLINE}that suits my {VAR:0100:0} perfectly.{SCROLL}And my {VAR:0100:2} is supremely{NEWLINE}confident in {VAR:0106:3}.{SCROLL}Add him as your partner?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh is a garbled template; written as Riley's partner pitch.; ext-review RR-002"
+  },
+  {
+   "id": 4,
+   "zh": "彦『……是吗？{NEWLINE}真遗憾。",
+   "en": "Riley: ...Oh, is that so?{NEWLINE}That’s too bad.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0099/4"
+  },
+  {
+   "id": 5,
+   "zh": "彦『哈哈,谢了{NEWLINE}那么我先去等着了！{SCROLL}",
+   "en": "Riley: Ahaha, thanks.{NEWLINE}I’ll be waiting for you.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0099/5"
+  },
+  {
+   "id": 6,
+   "zh": "小绿『哟,真巧啊{VAR:0103:0}！{NEWLINE}没想到你也会来战斗前线。{CLEAR}这里是双人组队的房间,{CLEAR}你要跟我一起组队挑战吗？",
+   "en": "Blue: Yo, what a coincidence,{NEWLINE}{VAR:0103:0}! Didn’t expect to see{CLEAR}you at the Battle Frontier.{SCROLL}This is the room for two-person teams.{NEWLINE}Want to take the challenge with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack replaced the vanilla partners: 小绿 Blue (was Cheryl), 小霞 Misty (was Buck), 小黄 Yellow (was Mira); 彦 Riley and 舞 Marley stay (US lines for 舞 say Marley; D-0220 lists 舞 → Mira, see question)."
+  },
+  {
+   "id": 7,
+   "zh": "小绿『哎？不跟我组队吗？",
+   "en": "Blue: Huh? You’re not{NEWLINE}teaming up with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "小绿『那么,我先走了。{SCROLL}",
+   "en": "Blue: Well then, I’ll go on ahead.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0099/8"
+  },
+  {
+   "id": 9,
+   "zh": "小霞『哈哈,这次是我先到哦。{NEWLINE}不过你应该也做好准备了吧,{CLEAR}咱们现在可以开始挑战了吗？",
+   "en": "Misty: Ha ha, I got here first this time.{NEWLINE}But you should be ready too, right?{CLEAR}Shall we start the challenge now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "小霞『哇,什么嘛{NEWLINE}原来你是这样的家伙？",
+   "en": "Misty: Hey, what’s that about? So{NEWLINE}that’s the kind of person you are?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0099/10"
+  },
+  {
+   "id": 11,
+   "zh": "小霞『嘿嘿！只要有我在{NEWLINE}什么都不成问题！！{SCROLL}",
+   "en": "Misty: Hee hee! As long as I’m{NEWLINE}around, nothing’s a problem!!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0099/11"
+  },
+  {
+   "id": 12,
+   "zh": "舞『……我的{VAR:0100:0}拿手的是{VAR:0106:1}{CLEAR}{VAR:0100:2}则喜欢{VAR:0106:3}{SCROLL}……怎么样{NEWLINE}一起去吗？",
+   "en": "Marley: ...My {VAR:0100:0}{NEWLINE}is good at {VAR:0106:1}.{SCROLL}{VAR:0100:2} likes {VAR:0106:3}.{SCROLL}...So... want to go together?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "舞 kept as Marley (as the US lines #13/#14 and banks 0026/0152)."
+  },
+  {
+   "id": 13,
+   "zh": "舞『……也好吧。",
+   "en": "Marley: ...Whatever...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0099/13"
+  },
+  {
+   "id": 14,
+   "zh": "舞『……那我先走了。{SCROLL}",
+   "en": "Marley: ...I’ll go ahead...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0099/14"
+  },
+  {
+   "id": 15,
+   "zh": "小黄『{VAR:0103:0}哥哥,{NEWLINE}我做好准备了。{CLEAR}咱们一起战斗吧！",
+   "en": "Yellow: {VAR:0103:0}, I’m ready.{NEWLINE}Let’s battle together!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "小黄『呜！{NEWLINE}你怎么可以欺负人家！",
+   "en": "Yellow: Waah! How could{NEWLINE}you be so mean to me?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "小黄『嗯！那么我先走了{CLEAR}{VAR:0103:0}哥哥也快点来吧！{SCROLL}",
+   "en": "Yellow: OK! I’ll go on ahead.{NEWLINE}Hurry up and come too, {VAR:0103:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0099/17"
+  },
+  {
+   "id": 18,
+   "zh": "我要跟我的女朋友一起挑战对战塔,{NEWLINE}你如果想组队的话还是找别人吧。",
+   "en": "I’m taking on the Battle Tower{NEWLINE}with my girlfriend. If you want{CLEAR}a partner, find someone else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "只要跟心爱的人在一起,{NEWLINE}再难的挑战也能完成。",
+   "en": "As long as I’m with the{NEWLINE}one I love, I can clear any{CLEAR}challenge, no matter how hard.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

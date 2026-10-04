@@ -1,0 +1,617 @@
+{
+ "narc": "a027",
+ "bank": 554,
+ "source": "work/extract/v4/a027/0554.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "您好,需要我送您回一之岛吗？{NEWLINE}每人次服务费500元。",
+   "en": "Hello. Would you like me to take you{NEWLINE}back to One Island? The fare is $500{CLEAR}per person.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Four Island."
+  },
+  {
+   "id": 1,
+   "zh": "随时恭候您的光临。",
+   "en": "We’re always at your service.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "好的,请跟我来吧。",
+   "en": "Very well. Please follow me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "抱歉,您身上的钱不够支付服务费。",
+   "en": "Sorry, you don’t have enough money to{NEWLINE}pay the fare.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "不跟我交换？{NEWLINE}切,真扫兴哪……",
+   "en": "You don’t want to trade? Aww...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0562/4"
+  },
+  {
+   "id": 5,
+   "zh": "哟！{NEWLINE}和我交换的雪拉比{CLEAR}现在还好吗？",
+   "en": "Hey! How’s the Celebi you got in our{NEWLINE}trade doing?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0562/5; modernised from US 0562#5"
+  },
+  {
+   "id": 6,
+   "zh": "你是来四之岛旅行的吧？{SCROLL}旅途中可能会很疲劳,{NEWLINE}但是不用担心,{CLEAR}休息一下就好了。",
+   "en": "You’re here to visit Four Island, right?{SCROLL}Traveling can wear you out, but don’t{NEWLINE}worry. A little rest will fix that.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "祝你在四之岛玩得愉快。",
+   "en": "Enjoy your time on Four Island.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "水都群岛每年都会举行诸岛巡礼,{NEWLINE}到时候来参加巡礼的训练家,{CLEAR}都会经由这边的山洞登上天柱峰。",
+   "en": "Every year, the Alto Mare Islands hold{NEWLINE}the Island Pilgrimage. The Trainers who{CLEAR}come for it climb Sky Pillar Peak by way{CLEAR}of the cave over there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "哈哈,你好啊旅人,{NEWLINE}我是四之岛的岛主。{CLEAR}过段时间之后,{CLEAR}我们水都群岛会举行诸岛巡礼活动,{CLEAR}你如果有时间的话一定要来参加啊,{CLEAR}会很有意思的。",
+   "en": "Ha ha, hello there, traveler. I’m the{NEWLINE}chief of Four Island. Before long, we’ll{CLEAR}be holding the Island Pilgrimage here in{CLEAR}the Alto Mare Islands. If you have time,{CLEAR}you’ve got to take part. It’ll be a lot{CLEAR}of fun.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "战槌龙『Raaa——pa！",
+   "en": "Rampardos: Raaa-pa!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "来,这个金珠给你。",
+   "en": "Here, have this Nugget.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "大叔我啊正在四之岛挖金珠,{NEWLINE}等我挖够了金珠换成钱,{CLEAR}就去关东地区买个房子定居。",
+   "en": "I’m digging for Nuggets on Four Island.{NEWLINE}Once I’ve dug up enough to cash in, I’ll{CLEAR}buy a house in Kanto and settle down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "群岛居民培育精灵的方法{NEWLINE}还是比较传统的,{CLEAR}他们竟然没人用过{CLEAR}西鲁夫公司开发的培育药品。{CLEAR}我想在这里推广这些{CLEAR}先进便捷的培育药品,{CLEAR}但我带的货量实在是太少,{CLEAR}如果你有这些药品的话{CLEAR}能给我一些吗？{CLEAR}我用这附近的特产跟你换。",
+   "en": "The islanders here raise their Pokémon{NEWLINE}the old-fashioned way. Not one of them{CLEAR}has ever used the raising medicines{CLEAR}Silph Co. developed! I want to spread{CLEAR}these advanced, convenient medicines{CLEAR}here, but I brought way too{CLEAR}little stock.{SCROLL}If you have any of these medicines,{NEWLINE}could you give me some? I’ll trade you{CLEAR}local specialties from around here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "一套努力值药品换一套特产",
+   "en": "EV medicine set for specialty set",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 15,
+   "zh": "一套降努力值树果换一套特产",
+   "en": "EV-lowering Berry set for specialty set",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "算了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 17,
+   "zh": "你带的货物数量不够啊,{NEWLINE}等凑齐一套之后再来交换吧。",
+   "en": "You don’t have enough of the goods.{NEWLINE}Come back and trade once you’ve got a{CLEAR}full set.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "哇,你竟然带了这么多货,{NEWLINE}真的是太好了。{CLEAR}这些是水都群岛的特产,{CLEAR}作为交换请收下吧。",
+   "en": "Wow, you brought so much stock! That’s{NEWLINE}great. These are specialties of the Alto{CLEAR}Mare Islands. Please take them{CLEAR}in exchange.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "哇哦！您是联盟冠军{VAR:0103:0}吧。{NEWLINE}居然能在水都群岛遇到您{CLEAR}真是太走运了。",
+   "en": "Whoa! You’re League Champion {VAR:0103:0},{NEWLINE}aren’t you? I can’t believe my luck,{CLEAR}meeting you in the Alto Mare Islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "我是来四之岛寻宝的石头爱好者,{NEWLINE}我听说您从紫苑镇的富士老人那里{CLEAR}得到过一块神秘石头。{CLEAR}如果您不介意的话,{CLEAR}能把这块石头卖给我吗？{CLEAR}我愿意出10万元购买！{SCROLL}要把石头卖给他吗？",
+   "en": "I’m a stone enthusiast here on Four{NEWLINE}Island to hunt for treasure. I heard{CLEAR}Mr. Fuji of Lavender Town gave you a{CLEAR}Mystery Stone. If you don’t mind, could{CLEAR}you sell it to me? I’ll pay $100,000{CLEAR}for it!{SCROLL}Sell him the stone?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#20-#66: Mr. Fuji's mysterious stone; sold to the collector, then bought back from the lady with a Misdreavus for an Eviolite.",
+   "qa_ignore": [
+    "number_missing"
+   ]
+  },
+  {
+   "id": 21,
+   "zh": "您什么时候想卖石头了,{NEWLINE}随时欢迎来找我。",
+   "en": "Whenever you want to sell the stone,{NEWLINE}come see me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "您身上好像没有那块{NEWLINE}传说中的石头啊。",
+   "en": "You don’t seem to have that legendary{NEWLINE}stone on you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "没错,就是这块石头！{NEWLINE}在我们石头爱好者中的人气可高了。{CLEAR}谢谢你愿意把它卖给我,{CLEAR}这里是10万元,请您收好。",
+   "en": "Yes, this is the stone! It’s hugely{NEWLINE}popular among us stone enthusiasts.{CLEAR}Thank you for agreeing to sell it to me.{CLEAR}Here’s $100,000. Please take it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "number_missing"
+   ]
+  },
+  {
+   "id": 24,
+   "zh": "谢谢您愿意卖石头给我,{NEWLINE}这应该是我这辈子收集到的{CLEAR}最珍贵的石头了。",
+   "en": "Thank you for selling me the stone. It{NEWLINE}must be the most precious stone I’ll{CLEAR}ever collect in my life.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "听说水都群岛要举行诸岛巡礼活动,{NEWLINE}我也想参加活动试试身手。",
+   "en": "I hear the Alto Mare Islands are{NEWLINE}holding the Island Pilgrimage. I want to{CLEAR}take part and test my skills too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "哦哦哦！诸岛巡礼开始了,{NEWLINE}我要挑战四之岛的海岛洞穴,{CLEAR}但是里面有点黑,{CLEAR}自己一个人进去好害怕啊……",
+   "en": "Ooh! The Island Pilgrimage has started!{NEWLINE}I’m going to take on the Island Cave on{CLEAR}Four Island. But it’s kind of dark in{CLEAR}there. I’m scared to go in by myself...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "诸岛巡礼已经结束了,{NEWLINE}我却没能挑战成功,{CLEAR}唉,看来以后还需要好好训练啊。",
+   "en": "The Island Pilgrimage is over, and I{NEWLINE}didn’t make it through. Sigh... Looks{CLEAR}like I need to train a lot more.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "诸岛巡礼已经结束了,{NEWLINE}但是锻炼不能结束。{CLEAR}你有时间跟我来场对战{CLEAR}锻炼一下吗？",
+   "en": "The Island Pilgrimage is over, but{NEWLINE}training never ends. Do you have time{CLEAR}for a battle with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "你希望单打还是双打？",
+   "en": "Would you like a Single or a{NEWLINE}Double Battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags page_breaks_lost"
+  },
+  {
+   "id": 30,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 31,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 32,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 33,
+   "zh": "好的！这次我不会再输了！",
+   "en": "All right! I won’t lose this time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "啊,还是你技高一筹啊。",
+   "en": "Ah, you’re still a cut above me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "你只带着1只精灵,{NEWLINE}可没有办法双打。",
+   "en": "You have only 1 Pokémon with you. You{NEWLINE}can’t have a Double Battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "你在诸岛巡礼时{NEWLINE}展现出来的实力很强嘛,{CLEAR}我很想再通过对战向你学习一下,{CLEAR}请问你现在有时间吗？",
+   "en": "The strength you showed in the Island{NEWLINE}Pilgrimage was amazing. I’d love to{CLEAR}learn from you through another battle.{CLEAR}Do you have time now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "咱们这次是单打还是双打？",
+   "en": "Singles or Doubles this time?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "谢谢你不吝赐教！",
+   "en": "Thank you for the lesson!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "虽然输了,{NEWLINE}但感觉学到了很多东西。",
+   "en": "I lost, but I feel like I learned a lot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "是冠军大人啊,{NEWLINE}上次在天柱峰没能跟您对战{CLEAR}我始终有点遗憾,{CLEAR}不知道您现在有没有空{CLEAR}让我更加直接地感受一下您的实力？",
+   "en": "It’s the Champion! I’ve always{NEWLINE}regretted not getting to battle you on{CLEAR}Sky Pillar Peak last time. Do you have{CLEAR}time now to let me feel your strength{CLEAR}more directly?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "哈哈好,就以单打定胜负！",
+   "en": "Ha ha, all right! Let’s settle it with a{NEWLINE}Single Battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "哈哈好,就以双打定胜负！",
+   "en": "Ha ha, all right! Let’s settle it with a{NEWLINE}Double Battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "哎呀呀,是我输了,{NEWLINE}真不愧是冠军大人。",
+   "en": "Oh my, I lost. Just what I’d expect{NEWLINE}from the Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "这里是四之岛。{NEWLINE}高耸的天柱峰就坐落在这里。",
+   "en": "This is Four Island. Home of the{NEWLINE}towering Sky Pillar Peak.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "传说高耸入云的天柱峰上{NEWLINE}住着掌管天空的口袋妖怪。{CLEAR}要想召唤它现身,{CLEAR}必须要持有信物宝珠才行。{SCROLL}这种宝珠没有人见过,{NEWLINE}但根据城都地区秀力博士的说法,{CLEAR}距离天空最近的训练家{CLEAR}似乎在负责保管这颗宝珠。",
+   "en": "Legend says the Pokémon that rules the{NEWLINE}skies lives atop the cloud-piercing Sky{CLEAR}Pillar Peak. To summon it, you must hold{CLEAR}a special orb as a token.{SCROLL}No one has ever seen this orb. But{NEWLINE}according to Professor Hale in Johto, it{CLEAR}seems the Trainer who stands closest{CLEAR}to the sky is the one keeping it safe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "我的隆隆石圆滚滚的很可爱吧？{NEWLINE}它是我在挖石头时遇到的,{CLEAR}当时我在锤石头却不小心锤到了它,{CLEAR}还把它打成了重伤,{CLEAR}从那之后我就开始照顾小拳石,{CLEAR}如今它也终于进化成隆隆石了。",
+   "en": "Isn’t my Graveler cute and round? I{NEWLINE}met it while digging for stones. I was{CLEAR}hammering a rock and accidentally hit{CLEAR}it, and I hurt it badly. Ever since, I’ve{CLEAR}looked after that Geodude, and now it’s{CLEAR}finally evolved into Graveler.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "隆隆石『Graaa——ve！",
+   "en": "Graveler: Graaa-ve!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "我为了给我们家梦妖{NEWLINE}选一块合适的石头佩戴,{CLEAR}特地来到了这座{CLEAR}盛产各种石头的四之岛。",
+   "en": "I came all the way to Four Island,{NEWLINE}where all kinds of stones are mined, to{CLEAR}pick the right stone for my Misdreavus{CLEAR}to wear.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "四之岛的石头可是很出名的,{NEWLINE}我要在这里多收集一些。",
+   "en": "The stones of Four Island are famous.{NEWLINE}I’m going to collect some more here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "你好啊冠军大人,{NEWLINE}又有什么好石头要卖给我吗？",
+   "en": "Hello, Champion. Got any more good{NEWLINE}stones to sell me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "我想回购富士老人的那块石头",
+   "en": "Let me buy back Mr. Fuji’s stone",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'I want to buy back Mr. Fuji’s stone'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 52,
+   "zh": "我没什么石头可卖了",
+   "en": "I have no more stones to sell",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 53,
+   "zh": "那真是太遗憾了。",
+   "en": "That’s a real shame.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "哎？想要回购石头？{NEWLINE}可是那块石头已经被我{CLEAR}以100万元的价格{CLEAR}卖给那边那位贵妇了。{SCROLL}你如果想要石头的话得找她谈谈了。",
+   "en": "Huh? You want to buy the stone back?{NEWLINE}But I already sold it for $1,000,000 to{CLEAR}the lady over there.{SCROLL}If you want the stone, you’ll have to{NEWLINE}talk to her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "number_missing"
+   ]
+  },
+  {
+   "id": 55,
+   "zh": "唉？你想要买我的那颗神秘石头？{SCROLL}不行不行,这种稀有的石头{NEWLINE}我可是花了好多钱才买到的,{CLEAR}怎么可能再卖给你呢。",
+   "en": "Huh? You want to buy my Mystery Stone?{SCROLL}No, no. I paid a lot of money for such a{NEWLINE}rare stone. How could I sell it to{CLEAR}you now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "怎么样才肯把石头给我？",
+   "en": "What do you want for the stone?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'What would it take for you to give it{NEWLINE}to me?'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 57,
+   "zh": "那就算了",
+   "en": "Forget it, then",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 58,
+   "zh": "你还真是执着于这颗石头啊。{NEWLINE}那这样吧,我一直在找一颗{CLEAR}名为进化奇石的神奇石头,{CLEAR}据说有的精灵带上它{CLEAR}就能获得超强的力量。{CLEAR}但是这颗石头非常稀有,{CLEAR}我找了好多地方都没有找到。{CLEAR}如果你能拿一颗这种石头来跟我换,{CLEAR}我就把这颗虽然稀有{CLEAR}但不知道能干什么用的石头给你。",
+   "en": "You really are set on this stone,{NEWLINE}aren’t you? Tell you what. I’ve been{CLEAR}looking for a marvelous stone called an{CLEAR}Eviolite. They say some Pokémon gain{CLEAR}amazing power when they hold it. But{CLEAR}it’s very rare, and I haven’t found one{CLEAR}anywhere I’ve looked.{SCROLL}If you bring me one of those stones in{NEWLINE}exchange, I’ll give you this stone. It’s{CLEAR}rare, but I have no idea what it does.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "要把身上的进化奇石给她吗？",
+   "en": "Give her the Eviolite?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "哇！真的是进化奇石,{NEWLINE}跟我在朋友那看到的一模一样。{CLEAR}太好了,这样一来我的梦妖{CLEAR}即使不进化也能变得很强了！",
+   "en": "Wow! It really is an Eviolite, just like{NEWLINE}the one I saw at my friend’s place.{CLEAR}Wonderful! Now my Misdreavus can get{CLEAR}really strong even without evolving!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "找了这么多地方,终于找到{NEWLINE}最适合我们家梦妖的石头了。",
+   "en": "After searching so many places, I’ve{NEWLINE}finally found the perfect stone for{CLEAR}our Misdreavus.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "{VAR:0103:0}『您好,听说您从别人那里{NEWLINE}买到一块神秘石头。{CLEAR}那块石头原本是我卖给他的,{CLEAR}我现在想从您这里买回来可以吗？",
+   "en": "{VAR:0103:0}: Hello. I heard you bought a{NEWLINE}Mystery Stone from someone. I was the{CLEAR}one who sold it to him in the first place.{CLEAR}Could I buy it back from you now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "{VAR:0103:0}『这颗石头对您来说{NEWLINE}可能只是一个收藏品,{CLEAR}但对我来说还有别的意义。{CLEAR}如果可以的话,请您告诉我{CLEAR}怎么样您才肯把石头给我呢？",
+   "en": "{VAR:0103:0}: To you, this stone may just be{NEWLINE}a collector’s item, but it means{CLEAR}something more to me. If you could,{CLEAR}please tell me what it would take for{CLEAR}you to give it to me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "{VAR:0103:0}『正好我身上带着进化奇石,{NEWLINE}就送给您吧！",
+   "en": "{VAR:0103:0}: As it happens, I have an{NEWLINE}Eviolite with me. It’s yours!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "那么按照约定,{NEWLINE}这块神秘石头就给你吧。{CLEAR}希望有朝一日你能破解它的用法。",
+   "en": "Then, as promised, this Mystery Stone{NEWLINE}is yours. I hope you figure out what{CLEAR}it’s for someday.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "{VAR:0103:0}『其实是这样的,{NEWLINE}我现在需要卖给你的那颗神秘石头。{CLEAR}你能把它再卖给我吗？",
+   "en": "{VAR:0103:0}: Here’s the thing. I need that{NEWLINE}Mystery Stone I sold you. Could you{CLEAR}sell it back to me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "梦妖『Miiii——dre！",
+   "en": "Misdreavus: Miiii-dre!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "从这里往前就可以登上{NEWLINE}四之岛的天柱峰了,{CLEAR}不过在那之前,{CLEAR}你还要先打赢我！",
+   "en": "Ahead of here, you can climb Four{NEWLINE}Island’s Sky Pillar Peak. But before{CLEAR}that, you have to beat me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "好久都没见过{NEWLINE}你这么强的挑战者了。{CLEAR}你完全有实力战胜我们的岛主,{CLEAR}请过去吧！",
+   "en": "I haven’t seen a challenger this strong{NEWLINE}in a long time. You’re more than strong{CLEAR}enough to beat our island chief. Please{CLEAR}go ahead!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "从这里登上天柱峰,{NEWLINE}就能看到天上飘荡的白云,{CLEAR}可壮观了！",
+   "en": "If you climb Sky Pillar Peak from here,{NEWLINE}you can see the white clouds drifting{CLEAR}across the sky. It’s spectacular!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "嘿嘿,我带着精灵蛋爬上了天柱峰哦,{NEWLINE}这一趟走下来可真够累人的。{CLEAR}我现在要带着蛋去其他地方转转咯。",
+   "en": "Heh heh, I climbed Sky Pillar Peak with{NEWLINE}my Pokémon Egg! What a tiring trip. Now{CLEAR}I’m going to take the Egg around to{CLEAR}other places.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "一颗精灵蛋,{NEWLINE}把手放上去似乎能感受到{CLEAR}里面微微跳动的脉搏。",
+   "en": "A Pokémon Egg. When you put your hand{NEWLINE}on it, you can almost feel a faint pulse{CLEAR}beating inside.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "水都群岛的岛民们{NEWLINE}认为天柱峰是离天最近的地方,{CLEAR}因此每年的诸岛巡礼中,{CLEAR}登上天柱峰成为了一个{CLEAR}必不可少的环节。",
+   "en": "The people of the Alto Mare Islands{NEWLINE}believe Sky Pillar Peak is the place{CLEAR}closest to the heavens. That’s why{CLEAR}climbing Sky Pillar Peak is an essential{CLEAR}part of the Island Pilgrimage{CLEAR}every year.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

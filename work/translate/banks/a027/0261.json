@@ -1,0 +1,79 @@
+{
+ "narc": "a027",
+ "bank": 261,
+ "source": "work/extract/v4/a027/0261.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "要忘记刚刚{NEWLINE}学的话吗？{VAR:0200:0}",
+   "en": "Forget the words it just learned? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "请按下『继续』键后{NEWLINE}对着麦克风说话！{SCROLL}",
+   "en": "Press the “Next” button, then speak{NEWLINE}into the microphone.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0268/1"
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0101:0}学会了话！{SCROLL}",
+   "en": "{VAR:0101:0} learned the words!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:0101:0}好像{NEWLINE}没有学会话！{SCROLL}",
+   "en": "{VAR:0101:0} didn’t seem{NEWLINE}to learn the words!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "要重新尝试吗？{VAR:0200:0}",
+   "en": "Would you like to try again?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0268/4"
+  },
+  {
+   "id": 5,
+   "zh": "似乎是太过在意周围环境{NEWLINE}无法集中注意力⋯",
+   "en": "It seems too distracted by its{NEWLINE}surroundings to concentrate...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 7,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 8,
+   "zh": "麦克风准备中{VAR:FF02:1,0}⋯",
+   "en": "Preparing the microphone{VAR:FF02:1,0}...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0268/8 | seed rejected us [tag_mismatch] (candidate US 0268#8; text not kept)"
+  }
+ ]
+}

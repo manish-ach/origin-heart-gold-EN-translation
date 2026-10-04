@@ -1,0 +1,271 @@
+{
+ "narc": "a027",
+ "bank": 788,
+ "source": "work/extract/v4/a027/0788.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "无法连接ＷｉーＦｉ{NEWLINE}{NEWLINE}详细情况请浏览{NEWLINE}使用说明书{NEWLINE}（{VAR:0136:0}）",
+   "en": "Unable to connect to Nintendo{NEWLINE}Wi-Fi Connection.{NEWLINE}{NEWLINE}For details, please see the{NEWLINE}Instruction Booklet.{NEWLINE}Error code: {VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0800/0 | US line adds support-site text not in zh; retranslated"
+  },
+  {
+   "id": 1,
+   "zh": "由于ＷｉーＦｉ连接拥挤{NEWLINE}服务停止而无法连接{NEWLINE}请稍等后重新尝试{NEWLINE}（{VAR:0136:0}）",
+   "en": "Nintendo Wi-Fi Connection is busy{NEWLINE}or the service is down, so you{NEWLINE}can’t connect.{NEWLINE}Please try again later.{NEWLINE}Error code: {VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0800/1 | US line adds support-site text not in zh; retranslated"
+  },
+  {
+   "id": 2,
+   "zh": "您的{NEWLINE}ＷｉーＦｉ连接ＩＤ{NEWLINE}由于长时间未使用{NEWLINE}而被删除了{NEWLINE}{NEWLINE}详细情况请浏览{NEWLINE}使用说明书（{VAR:0136:0}）",
+   "en": "Your Nintendo Wi-Fi Connection ID{NEWLINE}was deleted because it had not{NEWLINE}been used for a long time.{NEWLINE}{NEWLINE}For details, please see the{NEWLINE}Instruction Booklet.{NEWLINE}Error code: {VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0800/2 | US line adds support-site text not in zh; retranslated"
+  },
+  {
+   "id": 3,
+   "zh": "游戏的{NEWLINE}ＷｉーＦｉ服务{NEWLINE}已停止{NEWLINE}{NEWLINE}非常感谢您的使用{NEWLINE}（{VAR:0136:0}）",
+   "en": "Nintendo Wi-Fi Connection service{NEWLINE}for this game has ended.{NEWLINE}{NEWLINE}Thank you very much for playing.{NEWLINE}Error code: {VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0800/3 | US line adds support-site text not in zh; retranslated"
+  },
+  {
+   "id": 4,
+   "zh": "连接点繁忙{NEWLINE}无法连接{NEWLINE}{NEWLINE}请稍等后重新尝试{NEWLINE}（{VAR:0136:0}）",
+   "en": "The access point is busy.{NEWLINE}Unable to connect.{NEWLINE}{NEWLINE}Please try again later.{NEWLINE}Error code: {VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0800/4 | US line adds support-site text not in zh; retranslated"
+  },
+  {
+   "id": 5,
+   "zh": "无法找到连接点{NEWLINE}{NEWLINE}请靠近连接点后{NEWLINE}重新尝试{NEWLINE}（{VAR:0136:0}）",
+   "en": "No access point was found.{NEWLINE}{NEWLINE}Please move closer to an access{NEWLINE}point and try again.{NEWLINE}Error code: {VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0800/5 | US line adds support-site text not in zh; retranslated"
+  },
+  {
+   "id": 6,
+   "zh": "找不到可以连接的{NEWLINE}连接点{NEWLINE}{NEWLINE}请确认ＷｉーＦｉ设定{NEWLINE}中的连接处的设定{NEWLINE}（{VAR:0136:0}）",
+   "en": "No compatible access point{NEWLINE}was found.{NEWLINE}{NEWLINE}Please check the connection{NEWLINE}settings in the Wi-Fi setup.{NEWLINE}Error code: {VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0800/6 | US line adds support-site text not in zh; retranslated"
+  },
+  {
+   "id": 7,
+   "zh": "无法连接任天堂ＷｉーＦｉ{NEWLINE}{NEWLINE}请确认ＷｉーＦｉ设定中的{NEWLINE}任天堂ＷｉーＦｉ的{NEWLINE}连接{NEWLINE}（{VAR:0136:0}）",
+   "en": "Unable to connect to Nintendo{NEWLINE}Wi-Fi Connection.{NEWLINE}{NEWLINE}Please check the connection{NEWLINE}settings for Nintendo Wi-Fi{NEWLINE}Connection in your Wi-Fi settings.{NEWLINE}Error code: {VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0800/7 | US line adds support-site text not in zh; retranslated; ext-review RB-011"
+  },
+  {
+   "id": 8,
+   "zh": "无法连接ＷｉーＦｉ{NEWLINE}{NEWLINE}请在ＷｉーＦｉ设定中{NEWLINE}确认连接处的设定{NEWLINE}（{VAR:0136:0}）",
+   "en": "Unable to connect to Nintendo{NEWLINE}Wi-Fi Connection.{NEWLINE}{NEWLINE}Please check the connection{NEWLINE}settings in the Wi-Fi setup.{NEWLINE}Error code: {VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0800/8 | US line adds support-site text not in zh; retranslated"
+  },
+  {
+   "id": 9,
+   "zh": "对方没有回应{NEWLINE}可能是对方没有{NEWLINE}连接到ＷｉーＦｉ{NEWLINE}或者是您已经从对方{NEWLINE}的好友名单中消失了（{VAR:0136:0}）",
+   "en": "No response.{NEWLINE}The other player may not be{NEWLINE}connected, or you may have been{NEWLINE}removed from their friend roster.{NEWLINE}Error code: {VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0800/9 | US line adds support-site text not in zh; retranslated"
+  },
+  {
+   "id": 10,
+   "zh": "由于通信错误{NEWLINE}ＷｉーＦｉ中断{NEWLINE}（{VAR:0136:0}）",
+   "en": "A communication error occurred.{NEWLINE}You have been disconnected from{NEWLINE}Nintendo Wi-Fi Connection.{NEWLINE}Error code: {VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0800/10 | US line adds support-site text not in zh; retranslated"
+  },
+  {
+   "id": 11,
+   "zh": "通信错误出现（{VAR:0136:0})",
+   "en": "A communication error occurred.{NEWLINE}Error code: {VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0800/11 | US line adds support-site text not in zh; retranslated"
+  },
+  {
+   "id": 12,
+   "zh": "下载失败{NEWLINE}（{VAR:0136:0}）",
+   "en": "Download failed.{NEWLINE}Error code: {VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0800/12 | US line adds support-site text not in zh; retranslated"
+  },
+  {
+   "id": 13,
+   "zh": "由于通信错误{NEWLINE}ＷｉーＦｉ连接中断。",
+   "en": "A communication error occurred.{NEWLINE}You have been disconnected from{NEWLINE}Nintendo Wi-Fi Connection.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0800/13 | US line adds support-site text not in zh; retranslated"
+  },
+  {
+   "id": 14,
+   "zh": "发生通信错误。",
+   "en": "Communication error...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0800/14"
+  },
+  {
+   "id": 15,
+   "zh": "由于出现通信错误{NEWLINE}ＷｉーＦｉ机能无法使用{NEWLINE}请切断电源后重新尝试。{NEWLINE}（{VAR:0136:0}）",
+   "en": "Due to a communication error,{NEWLINE}Wi-Fi functions can’t be used.{NEWLINE}Please turn off the power and{NEWLINE}try again.{NEWLINE}Error code: {VAR:0136:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "ＤＳ主机的{NEWLINE}ＷｉーＦｉ用户信息{NEWLINE}可能消失了{NEWLINE}{NEWLINE}请在ＷｉーＦｉ设定中{NEWLINE}确认连接处的设定。",
+   "en": "Your Nintendo Wi-Fi Connection{NEWLINE}User Information may have been{NEWLINE}erased. Check your connection{NEWLINE}settings with the Nintendo{NEWLINE}Wi-Fi Connection configuration.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0800/16"
+  },
+  {
+   "id": 17,
+   "zh": "连接到ＷｉーＦｉ吗？",
+   "en": "Connect to Nintendo Wi-Fi Connection?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0800/17"
+  },
+  {
+   "id": 18,
+   "zh": "ＷｉーＦｉ连接{NEWLINE}需要确认ＤＳ和卡带的信息{NEWLINE}要保存ＤＳ上的ＷｉーＦｉ{NEWLINE}用户信息至卡带后{NEWLINE}连接ＷｉーＦｉ吗？",
+   "en": "Nintendo Wi-Fi Connection treats{NEWLINE}your Nintendo DS Game Card{NEWLINE}and the system as a set. Save{NEWLINE}this system’s Nintendo Wi-Fi{NEWLINE}Connection User Information{NEWLINE}to this Game Card{NEWLINE}and connect to Nintendo{NEWLINE}Wi-Fi Connection?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0800/18"
+  },
+  {
+   "id": 19,
+   "zh": "该ＤＳ主机的ＷｉーＦｉ用户{NEWLINE}信息已保存至卡带中了{NEWLINE}{NEWLINE}今后要连接到ＷｉーＦｉ{NEWLINE}就请用这台ＤＳ。",
+   "en": "Nintendo Wi-Fi Connection User{NEWLINE}Information for this system{NEWLINE}has been saved to the Game Card.{NEWLINE}From now on, please use this{NEWLINE}system to connect to{NEWLINE}Nintendo Wi-Fi Connection.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0800/19"
+  },
+  {
+   "id": 20,
+   "zh": "由于ＤＳ主机和卡带的{NEWLINE}ＷｉーＦｉ用户信息不一致{NEWLINE}因此{NEWLINE}无法连接ＷｉーＦｉ。",
+   "en": "Unable to connect to Nintendo{NEWLINE}Wi-Fi Connection because the{NEWLINE}Nintendo Wi-Fi Connection User{NEWLINE}Information from the system{NEWLINE}and the Game Card do not match.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0800/20"
+  },
+  {
+   "id": 21,
+   "zh": "更新保存在卡带中的{NEWLINE}ＷｉーＦｉ用户信息吗？{NEWLINE}一旦更新就将失去之前{NEWLINE}ＷｉーＦｉ时使用的资料。",
+   "en": "Update Nintendo Wi-Fi Connection{NEWLINE}User Information saved on the{NEWLINE}Game Card?{NEWLINE}When you update your Nintendo{NEWLINE}Wi-Fi Connection User{NEWLINE}Information, you will lose all{NEWLINE}data that was used to connect{NEWLINE}to Nintendo Wi-Fi Connection.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0800/21"
+  },
+  {
+   "id": 22,
+   "zh": "真的要更新吗？{NEWLINE}{NEWLINE}注意{NEWLINE}好友名单中{NEWLINE}登陆的好友将{NEWLINE}全部消失。",
+   "en": "Are you sure you want to update?{NEWLINE}{NEWLINE}Warning:{NEWLINE}All friends registered in your{NEWLINE}Pal Pad will be deleted.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0800/22 | US line adds support-site text not in zh; retranslated"
+  },
+  {
+   "id": 23,
+   "zh": "正在连接ＷｉーＦｉ{NEWLINE}请稍等。",
+   "en": "Connecting to Nintendo Wi-Fi{NEWLINE}Connection... Please wait a moment...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0800/23"
+  },
+  {
+   "id": 24,
+   "zh": "你所使用的名字{NEWLINE}无法在ＷｉーＦｉ中使用{NEWLINE}{NEWLINE}请变更名字后{NEWLINE}重新连接。",
+   "en": "You cannot access Nintendo Wi-Fi{NEWLINE}Connection using this user name.{NEWLINE}{NEWLINE}Please change your user name.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0800/24"
+  },
+  {
+   "id": 25,
+   "zh": "中断ＷｉーＦｉ{NEWLINE}可以吗？",
+   "en": "OK to disconnect from Nintendo{NEWLINE}Wi-Fi Connection?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0800/25"
+  },
+  {
+   "id": 26,
+   "zh": "正在中断ＷｉーＦｉ。",
+   "en": "Disconnecting from Nintendo Wi-Fi{NEWLINE}Connection.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0800/26"
+  },
+  {
+   "id": 27,
+   "zh": "ＷｉーＦｉ中断。",
+   "en": "You have been disconnected from{NEWLINE}Nintendo Wi-Fi Connection.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 29,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 30,
+   "zh": "正在覆盖存档,{NEWLINE}请不要切断电源。",
+   "en": "Saving...{NEWLINE}Don’t turn off the power.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "正在中断请求,{NEWLINE}请稍等。",
+   "en": "Canceling the request.{NEWLINE}Please wait.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "ＷｉーＦｉ广场{NEWLINE}出现了通信错误{NEWLINE}（{VAR:0136:0}）",
+   "en": "There was a communication error{NEWLINE}in the Wi-Fi Plaza.{NEWLINE}Error code: {VAR:0136:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0800/32"
+  }
+ ]
+}

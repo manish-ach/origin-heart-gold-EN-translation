@@ -1,0 +1,151 @@
+{
+ "narc": "a027",
+ "bank": 731,
+ "source": "work/extract/v4/a027/0731.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "这里是双子岛。",
+   "en": "Seafoam Islands",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0742/1"
+  },
+  {
+   "id": 1,
+   "zh": "这里是双子岛。",
+   "en": "Seafoam Islands",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0742/1"
+  },
+  {
+   "id": 2,
+   "zh": "我刚刚去双子岛游了一圈,{NEWLINE}实在是太冷了。{CLEAR}你身上如果有解冰果的话,{CLEAR}可以给我一个吗？{CLEAR}作为交换,{CLEAR}我可以把我在双子岛体会到的{CLEAR}冰冻之风教给你的精灵。{SCROLL}怎么样,要用解冰果学习冰冻之风吗？{SCROLL}",
+   "en": "I just went for a swim around the{NEWLINE}Seafoam Islands, and it was freezing. If{CLEAR}you have an Aspear Berry, could you{CLEAR}give me one? In exchange, I can teach{CLEAR}your Pokémon the Icy Wind I got to know{CLEAR}so well out there.{SCROLL}So, want to trade an Aspear Berry to{NEWLINE}learn Icy Wind?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl) reused a027/0047#141"
+  },
+  {
+   "id": 4,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it, come find me{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl) reused a027/0047#142"
+  },
+  {
+   "id": 5,
+   "zh": "你并没有解冰果啊,{NEWLINE}等有果子了再来找我吧。",
+   "en": "You don’t have an Aspear Berry. Come{NEWLINE}back when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住冰冻之风。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn Icy{NEWLINE}Wind.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl) reused a027/0047#145"
+  },
+  {
+   "id": 8,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会冰冻之风了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Icy Wind!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl) reused a027/0047#147"
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0101:0}学会了冰冻之风！",
+   "en": "{VAR:0101:0} learned Icy Wind!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会冰冻之风了！{SCROLL}那么按照约定,{NEWLINE}1个解冰果我拿走了。",
+   "en": "There! Your {VAR:0100:0} has learned Icy{NEWLINE}Wind!{SCROLL}As we agreed, I’ll take one Aspear{NEWLINE}Berry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的冰冻之风……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习冰冻之风{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Icy Wind...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn Icy{NEWLINE}Wind?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl) reused a027/0047#151"
+  },
+  {
+   "id": 14,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl) reused a027/0047#147"
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl) reused a027/0047#152"
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0101:0}学会了冰冻之风！",
+   "en": "{VAR:0101:0} learned Icy Wind!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "你是要放弃{NEWLINE}让它记住冰冻之风吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Icy Wind?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

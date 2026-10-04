@@ -1,0 +1,631 @@
+{
+ "narc": "a027",
+ "bank": 112,
+ "source": "work/extract/v4/a027/0112.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "冥王『嘿嘿,一会儿就把他杀了,{NEWLINE}然后给他的火暴兽洗脑,{CLEAR}让它成为我们的战力。",
+   "en": "Charon: Heh heh. We’ll kill him in a{NEWLINE}moment, then brainwash his Typhlosion{CLEAR}and make it part of our forces.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "赤日『冥王,这小子的火暴兽很不错啊。",
+   "en": "Cyrus: Charon, this boy’s{NEWLINE}Typhlosion is quite good.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "阿金『你们真是坏到家了。{SCROLL}阿金『爆太郎坚持住啊,{NEWLINE}咱们不能输给这种人！",
+   "en": "Gold: You guys are rotten to the core.{SCROLL}Gold: Hang in there, Exbo! We{NEWLINE}can’t lose to people like this!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "爆太郎『Tyyy——！",
+   "en": "Exbo: Tyyy-!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "赤日『硬撑是没有用的。",
+   "en": "Cyrus: Holding out is pointless.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "冥王『洛托姆,给火暴兽最后一击！",
+   "en": "Charon: Rotom, finish{NEWLINE}off that Typhlosion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "阿金『爆太郎！！！",
+   "en": "Gold: Exbo!!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "冥王『哈哈哈,{NEWLINE}你已经没有能战斗的精灵了,{CLEAR}乖乖受死吧！",
+   "en": "Charon: Hah hah hah! You have{NEWLINE}no Pokémon left that can fight.{CLEAR}Now be a good boy and die!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:0103:0}『住手！",
+   "en": "{VAR:0103:0}: Stop!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0103:0}『你们这群恶徒,{NEWLINE}休想行凶伤人！",
+   "en": "{VAR:0103:0}: You thugs! I{NEWLINE}won’t let you hurt anyone!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "阿金『太好了偶像,你来的真是时候！",
+   "en": "Gold: All right, Idol! You{NEWLINE}got here just in time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "赤日『混蛋,正要得手的时候,{NEWLINE}偏偏跑出来一个扫把星冠军。",
+   "en": "Cyrus: Damn it. Just as we had him,{NEWLINE}this jinx of a Champion shows up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "冥王『哼,咱们多次的计划泡汤,{NEWLINE}都是拜这个家伙所赐。",
+   "en": "Charon: Hmph. We have this one to thank{NEWLINE}for ruining our plans time and again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "赤日『不能放任这个威胁了,{NEWLINE}咱们一起上,干掉他！",
+   "en": "Cyrus: We can’t leave this{NEWLINE}threat alone. Together. Kill him!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "赤日『不能放任这个威胁了,{NEWLINE}咱们一起上,干掉她！",
+   "en": "Cyrus: We can’t leave this{NEWLINE}threat alone. Together. Kill her!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "冥王『不！！！又输了吗？",
+   "en": "Charon: No!!! Did I lose again?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "赤日『混蛋,真强啊……",
+   "en": "Cyrus: Damn it... So strong...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "阿金『谢谢你啊偶像,{NEWLINE}如果不是你我刚刚可就危险了。",
+   "en": "Gold: Thanks, Idol. If{NEWLINE}it weren’t for you, I’d have{CLEAR}been in real trouble just now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0}『火箭队的干部都不简单,{NEWLINE}跟他们战斗还是要多加小心。",
+   "en": "{VAR:0103:0}: Team Rocket’s{NEWLINE}Executives are no joke. Be extra{CLEAR}careful when you fight them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "阿金『嗯,我会吸取这次教训的。{SCROLL}阿金『对了偶像,我刚刚偷听到{NEWLINE}进入火箭队基地干部室{CLEAR}需要「呆呆兽的尾巴」这句话作为口令。{CLEAR}如果偶像到干部室门口进不去的话,{CLEAR}可以对着门说这句口令试试。",
+   "en": "Gold: Yeah, I’ll learn my lesson.{SCROLL}Gold: Oh, right, Idol. I overheard{NEWLINE}them just now. To get into the{CLEAR}Executives’ room in the base, you{CLEAR}need the password ‘Slowpoke Tail.’{SCROLL}If you can’t get in at the{NEWLINE}Executives’ room door, try saying{CLEAR}that password to the door.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Executives' room passwords: 呆呆兽的尾巴 → ‘Slowpoke Tail’ (#19), 拉达的尾巴 → ‘Raticate Tail’ (#39/#40), the vanilla HGSS password names."
+  },
+  {
+   "id": 20,
+   "zh": "水晶『谁要加入你们啊！{SCROLL}水晶『联盟冠军和四天王{NEWLINE}已经进入这座基地了,{CLEAR}还是你们放弃抵抗乖乖投降吧！",
+   "en": "Crystal: Who would ever join you?!{SCROLL}Crystal: The League Champion and{NEWLINE}the Elite Four are already inside this{CLEAR}base. Give up and surrender quietly!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "吉尔露太『天真无知,{NEWLINE}今天所有的干部都在基地,{CLEAR}你们来的这点人还真不够塞牙缝的。",
+   "en": "Lawrence: How naive. Every Executive{NEWLINE}is in the base today. The handful{CLEAR}of you who came aren’t even enough{CLEAR}to get stuck between our teeth.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "雅典娜『我看情报说,{NEWLINE}你特别擅长抓捕精灵。{CLEAR}正好我们火箭队准备抓一些{CLEAR}很难缠的精灵,{CLEAR}你要不要考虑加入我们发挥特长啊？{CLEAR}等火箭队统治世界的时候,{CLEAR}可以给你安排一个道馆馆主的职位哦。",
+   "en": "Ariana: According to my{NEWLINE}information, you’re especially{CLEAR}good at catching Pokémon.{SCROLL}As it happens, Team Rocket{NEWLINE}is about to catch some very{CLEAR}tricky Pokémon. Why not join us{CLEAR}and put your talents to use?{SCROLL}When Team Rocket rules the world, we{NEWLINE}could even set you up as a Gym Leader.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "水晶『你才无知呢！{NEWLINE}就{VAR:0103:0}前辈一个人,{CLEAR}都足够打败你们了！",
+   "en": "Crystal: You’re the naive one! {VAR:0103:0}{NEWLINE}alone is enough to beat you all!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "雅典娜『好啊,那我们就先把你解决掉,{NEWLINE}再去找那个狗冠军,{CLEAR}我倒要看看他怎么挡住我们围攻。",
+   "en": "Ariana: Fine. Then we’ll deal with{NEWLINE}you first and go find that damn{CLEAR}Champion after. I’d like to see{CLEAR}him hold off all of us at once.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "雅典娜『好啊,那我们就先把你解决掉,{NEWLINE}再去找那个狗冠军,{CLEAR}我倒要看看她怎么挡住我们围攻。",
+   "en": "Ariana: Fine. Then we’ll deal with{NEWLINE}you first and go find that damn{CLEAR}Champion after. I’d like to see{CLEAR}her hold off all of us at once.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0103:0}『不用找了。",
+   "en": "{VAR:0103:0}: No need to look.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "{VAR:0103:0}『我会在这里把你们打败。",
+   "en": "{VAR:0103:0}: I’ll beat you right here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "水晶『{VAR:0103:0}前辈！",
+   "en": "Crystal: {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "雅典娜『你这个狗冠军,{NEWLINE}就是因为你搅局{CLEAR}我才没抓住炎帝,{CLEAR}我现在看见你就来气。",
+   "en": "Ariana: You damn Champion! You butted{NEWLINE}in, and that’s why I didn’t catch Entei.{CLEAR}Just seeing you makes me furious.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "吉尔露太『从彩虹市到红莲岛,{NEWLINE}从常磐市到卡吉镇,{CLEAR}真是哪里都能看见你这混蛋。",
+   "en": "Lawrence: From Celadon City to{NEWLINE}Cinnabar Island, from Viridian City{CLEAR}to Mahogany Town... Everywhere{CLEAR}I go, I see you, you bastard.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "雅典娜『既然这次来到我们基地了,{NEWLINE}那咱们就新仇旧恨一起算算吧,{CLEAR}看看到底是谁能打败谁！",
+   "en": "Ariana: Now that you’ve{NEWLINE}come to our base, let’s settle{CLEAR}old scores and new ones all at{CLEAR}once. We’ll see who beats whom!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "吉尔露太『雅典娜,这个家伙不好对付,{NEWLINE}我来跟你一起收拾他。",
+   "en": "Lawrence: Ariana, this one is{NEWLINE}tough. I’ll help you deal with him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "吉尔露太『雅典娜,这个家伙不好对付,{NEWLINE}我来跟你一起收拾她。",
+   "en": "Lawrence: Ariana, this one is{NEWLINE}tough. I’ll help you deal with her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "水晶『你们休想以多打少,{NEWLINE}{VAR:0103:0}前辈我来帮你。",
+   "en": "Crystal: You’re not ganging up on{NEWLINE}anyone! {VAR:0103:0}, I’ll help you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "雅典娜『哼,赢了我们又怎样,{NEWLINE}这基地里除了我们还有的是干部,{CLEAR}笑到最后的一定是我们火箭队。",
+   "en": "Ariana: Hmph. So what if you beat us?{NEWLINE}This base is full of other Executives.{CLEAR}Team Rocket will have the last laugh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "吉尔露太『不……被打败了吗……",
+   "en": "Lawrence: No... We lost...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "水晶『{VAR:0103:0}前辈,{NEWLINE}别听他们这些嘴硬的话了,{CLEAR}我这有个很重要的情报要告诉您。{SCROLL}水晶『我进这个房间的时候{NEWLINE}听到他们说这个房间的电脑上{CLEAR}有一句什么口令,{CLEAR}好像是开启哪个门的关键。{CLEAR}但我现在要照顾受伤的大竹蹦,{CLEAR}所以拜托您根据线索找出口令吧！",
+   "en": "Crystal: {VAR:0103:0}, don’t listen to{NEWLINE}their tough talk. I have some really{CLEAR}important information for you.{SCROLL}Crystal: When I came into this room,{NEWLINE}I heard them say there’s some kind of{CLEAR}password on the PC in here. It seems{CLEAR}to be the key to opening some door.{SCROLL}But I need to look after Megaree{NEWLINE}now that it’s hurt. So please use{CLEAR}the clues to find the password!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "这台电脑上存储着重要的口令,{NEWLINE}你休想碰它！",
+   "en": "This PC holds an important{NEWLINE}password. Don’t you dare touch it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "别打了别打了,{NEWLINE}我把口令告诉你就是了。{SCROLL}「拉达的尾巴」,{NEWLINE}这是开启干部室闸门的口令。{CLEAR}不过口令一共有两个,{CLEAR}就凭你能收集齐吗？",
+   "en": "Stop, stop! I’ll tell you{NEWLINE}the password already.{SCROLL}‘Raticate Tail.’ That’s the password{NEWLINE}for the gate to the Executives’ room.{SCROLL}But there are two passwords in{NEWLINE}all. Think you can collect both?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "「拉达的尾巴」,{NEWLINE}这是开启干部室闸门的口令。{CLEAR}不过口令一共有两个,{CLEAR}就凭你能收集齐吗？",
+   "en": "‘Raticate Tail.’ That’s the password{NEWLINE}for the gate to the Executives’ room.{SCROLL}But there are two passwords in{NEWLINE}all. Think you can collect both?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "门上有个钥匙孔。",
+   "en": "There’s a keyhole in the door.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "需要插入钥匙才能开门。",
+   "en": "It needs a key to open.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "插入了秘密钥匙。",
+   "en": "Inserted the Secret Key.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "滴——现在请输入口令。",
+   "en": "Beep! Please enter the password now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "但你不知道口令。",
+   "en": "But you don’t know the password.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "输入了一个口令,但口令有两道！",
+   "en": "You entered one password,{NEWLINE}but there are two!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "输入了两道口令。",
+   "en": "You entered both passwords.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "门开了。",
+   "en": "The door opened.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0103:0}『你是……坂木！？",
+   "en": "{VAR:0103:0}: You’re... Giovanni?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "坂木『好久不见啊,{NEWLINE}你个狗娘养的小杂种。{CLEAR}没想到你今天会主动{CLEAR}来我们基地自投罗网。",
+   "en": "Giovanni: Long time no see, you{NEWLINE}son-of-a-bitch little bastard. Never{CLEAR}thought you’d walk right into our{CLEAR}base and hand yourself over today.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0103:0}『这个说话的语气……{NEWLINE}你不是坂木！{CLEAR}你是那个紫头发的伦达！",
+   "en": "{VAR:0103:0}: That way of talking...{NEWLINE}You’re not Giovanni! You’re{CLEAR}that purple-haired Petrel!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "坂木『我操？我伪装的不好吗？{NEWLINE}你这个王八蛋是怎么看出来的？",
+   "en": "Giovanni: The fuck? Was my{NEWLINE}disguise no good? How the hell did{CLEAR}you see through it, you bastard?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "{VAR:0103:0}『虽然坂木也不是什么好人,{NEWLINE}但至少不会像你这样满嘴脏话。",
+   "en": "{VAR:0103:0}: Giovanni’s no saint, but{NEWLINE}at least he doesn’t swear every{CLEAR}time he opens his mouth like you do.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "伦达『妈了个逼的,既然被看穿了,{NEWLINE}那也就没有伪装的意义了。",
+   "en": "Petrel: Motherfucker. Now that{NEWLINE}you’ve seen through it, there’s{CLEAR}no point keeping up the disguise.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "伦达『本来还想借坂木老大的威名{NEWLINE}拖住你们这些狗日的,{CLEAR}现在只能直接开干了,拿命来吧！",
+   "en": "Petrel: I wanted to use{NEWLINE}Boss Giovanni’s name to hold off you{CLEAR}fucking dogs, but now I’ve got to{CLEAR}fight you head-on. Your life is mine!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "伦达『你个王八蛋确实很厉害,{NEWLINE}但你已经无法阻止我们的计划了,{CLEAR}嘿嘿嘿嘿嘿！",
+   "en": "Petrel: You bastard sure are{NEWLINE}strong, but you can’t stop our{CLEAR}plan anymore. Heh heh heh heh heh!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "冥王『就是因为你,{NEWLINE}本天才的多次实验都以失败告终。{CLEAR}但接下来的计划不同了,{CLEAR}你就洗干净脖子等着吧。",
+   "en": "Charon: Because of you, this genius’s{NEWLINE}experiments have failed again and{CLEAR}again. But the next plan is different.{CLEAR}Wash your neck and wait for the blade.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "赤日『我们火箭队终将统治世界。{NEWLINE}到时候你们这帮人{CLEAR}都会被我们踩在脚下。",
+   "en": "Cyrus: Team Rocket will rule the{NEWLINE}world. When that day comes, all of{CLEAR}you will be crushed beneath our feet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "阿金『偶像,我的精灵们{NEWLINE}在刚才的战斗中受伤不轻,{CLEAR}我需要照看一下它们的伤势。{CLEAR}你先去基地的其他地方看看吧,{CLEAR}等我的精灵们恢复了就去帮你。",
+   "en": "Gold: Idol, my Pokémon got{NEWLINE}pretty badly hurt in that battle.{CLEAR}I need to look after them.{SCROLL}Go check out the rest of the{NEWLINE}base first. I’ll come help{CLEAR}once my Pokémon recover.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "水晶『前辈,我进这个房间的时候{NEWLINE}听到他们说这个房间的电脑上{CLEAR}有一句什么口令,{CLEAR}好像是开启哪个门的关键。{CLEAR}但我现在要照顾受伤的大竹蹦,{CLEAR}所以拜托您根据线索找出口令吧！",
+   "en": "Crystal: When I came into this room,{NEWLINE}I heard them say there’s some kind of{CLEAR}password on the PC in here. It seems{CLEAR}to be the key to opening some door.{SCROLL}But I need to look after Megaree{NEWLINE}now that it’s hurt. So please use{CLEAR}the clues to find the password!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "水晶『前辈,您已经找出口令了吗？{SCROLL}水晶『虽然我不知道{NEWLINE}这个口令有什么用,{CLEAR}但火箭队的人好像说{CLEAR}这是开启哪个门的关键,{CLEAR}您可以去找找基地里锁着的门,{CLEAR}或许能用口令打开呢。",
+   "en": "Crystal: Have you found{NEWLINE}the password yet?{SCROLL}Crystal: I don’t know what the{NEWLINE}password is for, but the Team{CLEAR}Rocket people seemed to say it’s{CLEAR}the key to opening some door.{SCROLL}Try looking for a locked door in the{NEWLINE}base. Maybe the password will open it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "大竹蹦『Meee——ga！",
+   "en": "Megaree: Meee-ga!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "雅典娜『偏偏在这时候出来捣乱,{NEWLINE}你真是会挑时候啊。",
+   "en": "Ariana: Showing up to cause trouble{NEWLINE}right now of all times. You really{CLEAR}know how to pick your moments.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "吉尔露太『如果能除掉你的话,{NEWLINE}我们火箭队要称霸就轻松多了。",
+   "en": "Lawrence: If we could get rid{NEWLINE}of you, Team Rocket would have{CLEAR}a much easier time taking over.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "被那个蓝发小丫头打败之后,{NEWLINE}我已经没有余力战斗了。{CLEAR}剩下的就交给干部们吧。",
+   "en": "After that blue-haired girl beat me,{NEWLINE}I’ve got no strength left to fight.{CLEAR}I’ll leave the rest to the Executives.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "那个带火暴兽的男孩出手真狠,{NEWLINE}我一下子就被他给打败了。",
+   "en": "That boy with the Typhlosion hits{NEWLINE}really hard. He beat me in no time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "渡『快龙,用龙之俯冲压制它们！",
+   "en": "Lance: Dragonite, hold them{NEWLINE}down with Dragon Rush!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "快龙『Draaa——gon！",
+   "en": "Dragonite: Draaa-gon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "赤焰松『不愧是联盟冠军,{NEWLINE}还真有两下子。",
+   "en": "Maxie: As expected of the League{NEWLINE}Champion. You really do have some skill.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "水吾桐『但在我们火箭队面前{NEWLINE}决不允许你这种人存在。",
+   "en": "Archie: But Team Rocket will never{NEWLINE}allow someone like you to exist.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "赤焰松『上啊,喷火驼！{NEWLINE}水吾桐『冻碎它,帝牙海狮！",
+   "en": "Maxie: Go, Camerupt!{NEWLINE}Archie: Crush it with ice, Walrein!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "渡『干部级的就是不一样啊,{NEWLINE}我可是好久都没打过{CLEAR}这么有压力的对战了。",
+   "en": "Lance: Executive-class opponents{NEWLINE}really are different. It’s been{CLEAR}a long time since I’ve had a{CLEAR}battle with this much pressure.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "渡『{VAR:0103:0}你是担心我想来帮忙吗？{NEWLINE}没关系的,我可以应付得来这两个人,{CLEAR}你去其他地方看看吧。",
+   "en": "Lance: {VAR:0103:0}, are you{NEWLINE}worried and want to help? It’s{CLEAR}all right. I can handle these{CLEAR}two. Go check the other areas.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "赤焰松『你这个臭小子也在啊。{NEWLINE}等我们对付完了这个渡,{CLEAR}下一个就轮到你了。",
+   "en": "Maxie: So you’re here too, you{NEWLINE}rotten brat. Once we’re done{CLEAR}with this Lance, you’re next.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "水吾桐『看什么看,{NEWLINE}等杀了前面的四天王,{CLEAR}下一步就收拾你这个冠军。",
+   "en": "Archie: What are you looking at? Once{NEWLINE}we’ve killed the Elite Four here,{CLEAR}we’ll take care of you, Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "喷火驼『Caaa——me！",
+   "en": "Camerupt: Caaa-me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "帝牙海狮『Waaa——re！",
+   "en": "Walrein: Waaa-re!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

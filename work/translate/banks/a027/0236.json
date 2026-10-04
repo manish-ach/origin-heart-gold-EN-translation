@@ -1,0 +1,455 @@
+{
+ "narc": "a027",
+ "bank": 236,
+ "source": "work/extract/v4/a027/0236.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "主持人『你好！{NEWLINE}队伍发现！的{CLEAR}节目时间终于到咯！{SCROLL}今天我们采访的是{NEWLINE}{VAR:0103:0}都加入其中的{CLEAR}名为{VAR:0105:1}队伍！{SCROLL}啊啊~在那里的是{NEWLINE}{VAR:0103:0}！{SCROLL}参加小队活动好像{NEWLINE}非常开心的样子！{SCROLL}看这笑脸似乎在说：{NEWLINE}我终于找到了自己的归属！{SCROLL}这个队伍从我{NEWLINE}单方面的感觉来说的话,{CLEAR}{VAR:010F:2}这类型的感觉？{SCROLL}那么我们下期节目再会！",
+   "en": "Host: Hello! It’s finally{NEWLINE}time for Group Discovery!{SCROLL}Today we’re covering the{NEWLINE}group called {VAR:0105:1},{CLEAR}which {VAR:0103:0} has joined!{SCROLL}Ahh, there’s {VAR:0103:0}!{SCROLL}They look like they’re having{NEWLINE}a great time in the group!{SCROLL}That smile seems to say, “I’ve{NEWLINE}finally found where I belong!”{SCROLL}Going purely on my own{NEWLINE}impression, this group has a{CLEAR}sort of {VAR:010F:2}-type feel?{SCROLL}Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R042/R043: DP-era leftover TV segment (US HGSS blanks this bank); probably never shown."
+  },
+  {
+   "id": 1,
+   "zh": "天气小姐『由我天气小姐来为大家{NEWLINE}播报此地区的天气情况！{SCROLL}{VAR:0104:0}{NEWLINE}现在是阳光普照！{SCROLL}趁此机会,我也{NEWLINE}把积存的衣服洗了,{CLEAR}晾在太阳下晒晒吧！{SCROLL}以上是我为您播报的天气情况！",
+   "en": "Weather Girl: I’m the Weather Girl,{NEWLINE}here with the weather for this area!{SCROLL}{VAR:0104:0} is bathed{NEWLINE}in sunshine right now!{SCROLL}I think I’ll take the chance{NEWLINE}to wash my piled-up laundry{CLEAR}and hang it out in the sun!{SCROLL}That’s been your weather report!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "天气小姐『由我天气小姐来为大家{NEWLINE}播报此地区的天气情况！！{SCROLL}{VAR:0104:0}{NEWLINE}现在是万里碧空呢！{SCROLL}骑着自行车,{NEWLINE}好好享受一次自行车旅行吧。{CLEAR}就算骑得太猛摔进河里,{CLEAR}今天的话,衣服也会马上干的！{SCROLL}以上是我为您播报的天气情况！",
+   "en": "Weather Girl: I’m the Weather Girl,{NEWLINE}here with the weather for this area!!{SCROLL}Clear blue skies at{NEWLINE}{VAR:0104:0} right now!{SCROLL}Hop on your Bicycle and enjoy{NEWLINE}a nice cycling trip. Even if you ride{CLEAR}too hard and fall into a river, your{CLEAR}clothes will dry in no time today!{SCROLL}That’s been your weather report!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "天气小姐『由我天气小姐来为大家{NEWLINE}播报此地区的天气情况！{SCROLL}{VAR:0104:0}{NEWLINE}现在是晴空万里~！{SCROLL}还窝在家里的话,{NEWLINE}真是有点浪费了哦！{SCROLL}在澄澈的蓝天下,{NEWLINE}自娱自乐地{CLEAR}吹了小口哨什么的,{CLEAR}享受下这样的时光,可好？{SCROLL}以上是我为您播报的天气情况！",
+   "en": "Weather Girl: I’m the Weather Girl,{NEWLINE}here with the weather for this area!{SCROLL}Not a cloud in the sky{NEWLINE}at {VAR:0104:0}!{SCROLL}Staying cooped up at{NEWLINE}home would be a waste!{SCROLL}How about spending some time{NEWLINE}under the clear blue sky, whistling{CLEAR}a little tune just for yourself?{SCROLL}That’s been your weather report!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "天气小姐『由我天气小姐来为大家{NEWLINE}播报此地区的天气情况！{SCROLL}{VAR:0104:0}{NEWLINE}今天是万里无云的好天气！{SCROLL}在晴朗的日子里,{NEWLINE}照相也会照得比较好吧？{CLEAR}要是能照得很可爱就太好了！{SCROLL}以上是我为您播报的天气情况！",
+   "en": "Weather Girl: I’m the Weather Girl,{NEWLINE}here with the weather for this area!{SCROLL}It’s a beautiful cloudless{NEWLINE}day at {VAR:0104:0}!{SCROLL}Photos come out better on{NEWLINE}sunny days, right? I hope{CLEAR}yours come out really cute!{SCROLL}That’s been your weather report!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "天气小姐『由我天气小姐来为大家{NEWLINE}播报此地区的天气情况！{SCROLL}{VAR:0104:0}{NEWLINE}今天是阴沉沉的多云天气。{SCROLL}虽然没有出太阳,{NEWLINE}但实际上呢,这种天气才是{CLEAR}紫外线强,要注意防晒哦！{SCROLL}以上是我为您播报的天气情况！",
+   "en": "Weather Girl: I’m the Weather Girl,{NEWLINE}here with the weather for this area!{SCROLL}It’s gloomy and overcast at{NEWLINE}{VAR:0104:0} today.{SCROLL}There’s no sun, but actually,{NEWLINE}this is the kind of weather{CLEAR}when UV rays are strongest, so{CLEAR}don’t forget your sunscreen!{SCROLL}That’s been your weather report!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "天气小姐『由我天气小姐来为大家{NEWLINE}播报此地区的天气情况！{SCROLL}{VAR:0104:0}{NEWLINE}今天是雨天。{SCROLL}在房间里,听听音乐,{NEWLINE}喝喝红茶,{CLEAR}看看被雨点打湿的小草和大树,{CLEAR}偷笑一下没带伞而{CLEAR}拼命跑着躲雨的人。{SCROLL}以上是我为您播报的天气情况！",
+   "en": "Weather Girl: I’m the Weather Girl,{NEWLINE}here with the weather for this area!{SCROLL}It’s raining at{NEWLINE}{VAR:0104:0} today.{SCROLL}Stay in your room, listen to music,{NEWLINE}sip some black tea, watch the{CLEAR}grass and trees getting soaked,{CLEAR}and giggle at the people running{CLEAR}for cover without umbrellas.{SCROLL}That’s been your weather report!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "天气小姐『由我天气小姐来为大家{NEWLINE}播报此地区的天气情况！{SCROLL}在{VAR:0104:0}{NEWLINE}持续下着大雨！{SCROLL}我说,各位！{NEWLINE}别拿着伞出门,{CLEAR}当身体被雨水打湿的同时,{CLEAR}把对最喜欢的那个人的思恋,{CLEAR}一鼓作气大声吼出来,就趁现在！{SCROLL}以上是我为您播报的天气情况！",
+   "en": "Weather Girl: I’m the Weather Girl,{NEWLINE}here with the weather for this area!{SCROLL}Heavy rain continues{NEWLINE}at {VAR:0104:0}!{SCROLL}Listen, everyone! Go out without an{NEWLINE}umbrella, and while you’re getting{CLEAR}soaked, shout out your love for{CLEAR}that special someone at the top{CLEAR}of your lungs. Now’s the time!{SCROLL}That’s been your weather report!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "天气小姐『由我天气小姐来为大家{NEWLINE}播报此地区的天气情况！{SCROLL}好冷！{NEWLINE}{VAR:0104:0}现在正下着雪！{SCROLL}好想像孩子一样活蹦乱跳地,{NEWLINE}宣扬下自己的可爱~{CLEAR}不过话说回来⋯⋯{SCROLL}还真是好冷啊⋯⋯{NEWLINE}我要回去了啦！{CLEAR}和皮皮抱一起午觉去。{SCROLL}以上是我为您播报的天气情况！",
+   "en": "Weather Girl: I’m the Weather Girl,{NEWLINE}here with the weather for this area!{SCROLL}So cold! It’s snowing at{NEWLINE}{VAR:0104:0} right now!{SCROLL}I’d love to romp around like{NEWLINE}a kid and show off how cute{CLEAR}I am... But then again...{SCROLL}It’s really, really cold...{NEWLINE}I’m going home! I’ll take{CLEAR}a nap cuddling my Clefairy.{SCROLL}That’s been your weather report!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "天气小姐『由我天气小姐来为大家{NEWLINE}播报此地区的天气情况！{SCROLL}{VAR:0104:0}{NEWLINE}现在正下着暴风雪。{SCROLL}只有在这种天气,{NEWLINE}才会出现的精灵也是有的哦！{CLEAR}在这种天气外出的勇猛的各位,{CLEAR}千万不要{CLEAR}在暴风雪中睡过去了呢！{SCROLL}以上是我为您播报的天气情况！",
+   "en": "Weather Girl: I’m the Weather Girl,{NEWLINE}here with the weather for this area!{SCROLL}There’s a blizzard at{NEWLINE}{VAR:0104:0} right now.{SCROLL}Some Pokémon only appear in this{NEWLINE}kind of weather! To all you brave{CLEAR}folks heading out in it, whatever you{CLEAR}do, don’t fall asleep in the blizzard!{SCROLL}That’s been your weather report!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "天气小姐『由我天气小姐来为大家{NEWLINE}播报此地区的天气情情情⋯⋯况。{SCROLL}如、如您所见⋯⋯{NEWLINE}{VAR:0104:0}强暴风雪来袭！!{SCROLL}我的头发呀连带鼻毛{NEWLINE}似乎都被冰住了⋯⋯{CLEAR}前些日子,若用奖金买了{CLEAR}防寒大衣的话,就好了唉。{SCROLL}啊~不过,即使在这时候,{NEWLINE}训练师们还是⋯⋯{CLEAR}好尊敬他们！{SCROLL}不过我还是回家去吧⋯⋯{NEWLINE}以上是我为您播报的天气情况。",
+   "en": "Weather Girl: I’m the Weather{NEWLINE}Girl, here with the weather{CLEAR}for this area-rea-rea...{SCROLL}A-as you can see... {VAR:0104:0}{NEWLINE}is being hit by a fierce blizzard!!{SCROLL}My hair, and even my nose hairs, seem to{NEWLINE}be frozen... If only I’d bought a winter{CLEAR}coat with my bonus the other day.{SCROLL}Ahh, but even at a time like{NEWLINE}this, the Trainers are still out{CLEAR}there... I really respect them!{SCROLL}But I’m going home anyway...{NEWLINE}That’s been your weather report.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "天气小姐『由我天气小姐来为大家{NEWLINE}播报此地区的天气情⋯⋯{SCROLL}吓~！{SCROLL}打雷了！{NEWLINE}{VAR:0104:0}此地,{CLEAR}现在响彻着可怕的雷⋯⋯{SCROLL}吓~！又来了！{SCROLL}大家要小心自己的肚脐眼,{NEWLINE}别被雷公抢走了哟！{SCROLL}以上是我为您播报的天气情况！",
+   "en": "Weather Girl: I’m the Weather Girl,{NEWLINE}here with the weather for this ar...{SCROLL}Eek!{SCROLL}Thunder! Here at{NEWLINE}{VAR:0104:0}, terrifying{CLEAR}thunder is booming right now...{SCROLL}Eek! Again!{SCROLL}Everyone, guard your belly buttons so{NEWLINE}the thunder god doesn’t snatch them!{SCROLL}That’s been your weather report!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "天气小姐『由我天气小姐来为大家{NEWLINE}播报此地区的天气情况！{CLEAR}今天可以见到,{CLEAR}非~常罕见的景象哦！{SCROLL}在{VAR:0104:0},{NEWLINE}出现了钻石星辰！{SCROLL}在我周围闪闪发光,{NEWLINE}真是非常美丽！{SCROLL}有恋人的各位,考虑下{NEWLINE}在这里把自己打扮成公主,{CLEAR}或是向心仪的她求婚如何？{SCROLL}以上是我为您播报的天气情况！",
+   "en": "Weather Girl: I’m the Weather Girl, here{NEWLINE}with the weather for this area! Today{CLEAR}you can see a really, really rare sight!{SCROLL}At {VAR:0104:0},{NEWLINE}there’s diamond dust!{SCROLL}It’s sparkling all around{NEWLINE}me. It’s so beautiful!{SCROLL}Those of you with sweethearts, how{NEWLINE}about dressing up like a princess here,{CLEAR}or proposing to the one you love?{SCROLL}That’s been your weather report!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "司会『小镇ｂｅｓｔ３的{NEWLINE}节目时间终于到咯~！{SCROLL}这次为你介绍双叶镇的{NEWLINE}ｂｅｓｔ３！{SCROLL}首先是第３位！{SCROLL}总是说：厉害~！{NEWLINE}的人！{SCROLL}接着是第２位！{SCROLL}哎？请等一下！{NEWLINE}第２名与第１的分数{CLEAR}是并列的！{SCROLL}那个,首先是⋯⋯{NEWLINE}大家憧憬的双层建筑！{CLEAR}{VAR:0103:0}的家！{SCROLL}然后,下一个是⋯⋯{SCROLL}啊！这也是同样的{NEWLINE}大家憧憬的双层建筑！{CLEAR}{VAR:0103:1}的家！{SCROLL}如何？你关注的东西{NEWLINE}入选了吗？{SCROLL}大家若来双叶镇{NEWLINE}的话,请别忘了去{CLEAR}实地体验一下哦！{SCROLL}那,下期节目再见咯！",
+   "en": "Host: It’s finally time for Town Top 3!{SCROLL}This time, we introduce the{NEWLINE}Top 3 of Twinleaf Town!{SCROLL}First, in 3rd place!{SCROLL}A person who always says, “Amazing!”{SCROLL}Next, in 2nd place!{SCROLL}Huh? Wait a moment! 2nd{NEWLINE}and 1st place are tied!{SCROLL}Um, first up... the two-story house{NEWLINE}everyone dreams of! {VAR:0103:0}’s house!{SCROLL}And the next one is...{SCROLL}Ah! This one’s also a two-story house{NEWLINE}everyone dreams of! {VAR:0103:1}’s house!{SCROLL}How about it? Did your{NEWLINE}favorite make the list?{SCROLL}If you’re ever in Twinleaf Town, don’t{NEWLINE}forget to check them out in person!{SCROLL}Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "司会『小镇ｂｅｓｔ３的{NEWLINE}节目时间终于到咯~！{SCROLL}这次为你介绍真砂镇的{NEWLINE}ｂｅｓｔ３！{SCROLL}首先是第３位！{NEWLINE}{VAR:0103:1}的家！{SCROLL}接着是第２位！{SCROLL}啊~！真是意外~！{NEWLINE}精灵研究所！{SCROLL}那么,光荣的第１位是！{NEWLINE}什么！精灵中心！{SCROLL}根据调查显示,{NEWLINE}因为那一带精灵中心很少,{CLEAR}就当选了第１位！{SCROLL}如何？你关注的东西{NEWLINE}入选了吗？{SCROLL}大家若来真砂镇{NEWLINE}的话,请别忘了去{CLEAR}实地体验一下哦！{SCROLL}那,下期节目再见咯！",
+   "en": "Host: It’s finally time for Town Top 3!{SCROLL}This time, we introduce the{NEWLINE}Top 3 of Sandgem Town!{SCROLL}First, in 3rd place! {VAR:0103:1}’s house!{SCROLL}Next, in 2nd place!{SCROLL}What a surprise! The{NEWLINE}Pokémon Research Lab!{SCROLL}And the glorious 1st place goes{NEWLINE}to... What?! The Pokémon Center!{SCROLL}According to our survey, it took{NEWLINE}1st place because there are so{CLEAR}few Pokémon Centers around there!{SCROLL}How about it? Did your{NEWLINE}favorite make the list?{SCROLL}If you’re ever in Sandgem Town, don’t{NEWLINE}forget to check them out in person!{SCROLL}Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "司会『小镇ｂｅｓｔ３的{NEWLINE}节目时间终于到咯~！{SCROLL}这次为你介绍索诺镇的{NEWLINE}ｂｅｓｔ３！{SCROLL}首先是第３位！{NEWLINE}索诺的小镇大门！{SCROLL}接着是第２位,{SCROLL}欢迎前来摘树果！{NEWLINE}五彩缤纷的花店！{SCROLL}最后,光荣的第１位是！{SCROLL}花田,也就是说,全部都是花！　{NEWLINE}索诺的花田！{SCROLL}如何？你关注的东西{NEWLINE}入选了吗？{SCROLL}大家若来索诺镇{NEWLINE}的话,请别忘了去{CLEAR}实地体验一下哦！{SCROLL}那,下期节目再见咯！",
+   "en": "Host: It’s finally time for Town Top 3!{SCROLL}This time, we introduce the{NEWLINE}Top 3 of Floaroma Town!{SCROLL}First, in 3rd place!{NEWLINE}Floaroma’s town gate!{SCROLL}Next, in 2nd place!{SCROLL}Come pick Berries! The{NEWLINE}colorful flower shop!{SCROLL}And finally, the glorious{NEWLINE}1st place goes to...{SCROLL}A flower field, which means... it’s{NEWLINE}all flowers! The Floaroma Meadow!{SCROLL}How about it? Did your{NEWLINE}favorite make the list?{SCROLL}If you’re ever in Floaroma Town, don’t{NEWLINE}forget to check them out in person!{SCROLL}Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "司会『小镇ｂｅｓｔ３的{NEWLINE}节目时间终于到咯~！{SCROLL}这次为你介绍花蕊镇的{NEWLINE}ｂｅｓｔ３！{SCROLL}首先是第３位！{SCROLL}你也能当记者吧！？{NEWLINE}精灵报社！{SCROLL}接着是第２位！{NEWLINE}花蕊的害羞孩子的洞窟！{SCROLL}最后,光荣的第１位是！{SCROLL}可能会发现蛋？{NEWLINE}精灵培育屋！{SCROLL}如何？你关注的东西{NEWLINE}入选了吗？{SCROLL}大家若来花蕊镇{NEWLINE}的话,请别忘了去{CLEAR}实地体验一下哦！{SCROLL}那,下期节目再见咯！",
+   "en": "Host: It’s finally time for Town Top 3!{SCROLL}This time, we introduce the{NEWLINE}Top 3 of Solaceon Town!{SCROLL}First, in 3rd place!{SCROLL}You could be a reporter too?!{NEWLINE}The Pokémon News Press!{SCROLL}Next, in 2nd place!{NEWLINE}Solaceon’s cave of shy kids!{SCROLL}And finally, the glorious{NEWLINE}1st place goes to...{SCROLL}You might find an Egg?{NEWLINE}The Pokémon Day-Care!{SCROLL}How about it? Did your{NEWLINE}favorite make the list?{SCROLL}If you’re ever in Solaceon Town, don’t{NEWLINE}forget to check them out in person!{SCROLL}Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "花蕊的害羞孩子的洞窟 = the Solaceon Ruins (literal ‘cave of shy kids’)."
+  },
+  {
+   "id": 17,
+   "zh": "司会『小镇ｂｅｓｔ３的{NEWLINE}节目时间终于到咯~！{SCROLL}这次为你介绍冠凤镇的{NEWLINE}ｂｅｓｔ３！{SCROLL}首先是第３位！{NEWLINE}鲜红的神社！{SCROLL}接着是第２位！{SCROLL}浪漫的历史！久远的传说！{NEWLINE}冠凤的大屋子！{SCROLL}最后,光荣的第１位是！{SCROLL}浪漫的！神秘的！{NEWLINE}有壁画的洞窟！{SCROLL}如何？你关注的东西{NEWLINE}入选了吗？{SCROLL}大家若来冠凤镇{NEWLINE}的话,请别忘了去{CLEAR}实地体验一下哦！{SCROLL}那,下期节目再见咯！",
+   "en": "Host: It’s finally time for Town Top 3!{SCROLL}This time, we introduce the{NEWLINE}Top 3 of Celestic Town!{SCROLL}First, in 3rd place!{NEWLINE}The bright red shrine!{SCROLL}Next, in 2nd place!{SCROLL}Romantic history! Ancient{NEWLINE}legends! Celestic’s big house!{SCROLL}And finally, the glorious{NEWLINE}1st place goes to...{SCROLL}Romantic! Mysterious!{NEWLINE}The cave with the murals!{SCROLL}How about it? Did your{NEWLINE}favorite make the list?{SCROLL}If you’re ever in Celestic Town, don’t{NEWLINE}forget to check them out in person!{SCROLL}Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "司会『小镇ｂｅｓｔ３的{NEWLINE}节目时间终于到咯~！{SCROLL}这次为你介绍长寿市的{NEWLINE}ｂｅｓｔ３！{SCROLL}首先是第３位！{SCROLL}Ｗｅ　ｌｏｖｅ口袋手机！{NEWLINE}口袋手机公司！{SCROLL}接着是第２位！{SCROLL}冲击性的大场面！{NEWLINE}电视庆祝活动！！{SCROLL}最后,光荣的第１位是！{SCROLL}大屏幕果然赞！{NEWLINE}全球接点！！{SCROLL}大家若来长寿市{NEWLINE}的话,请别忘了去{CLEAR}实地体验一下哦！{SCROLL}那,下期节目再见咯！",
+   "en": "Host: It’s finally time for Town Top 3!{SCROLL}This time, we introduce{NEWLINE}the Top 3 of Jubilife City!{SCROLL}First, in 3rd place!{SCROLL}We love the Pokétch!{NEWLINE}The Pokétch Company!{SCROLL}Next, in 2nd place!{SCROLL}A shockingly grand spectacle!{NEWLINE}The TV celebration event!!{SCROLL}And finally, the glorious{NEWLINE}1st place goes to...{SCROLL}Big screens are the best!{NEWLINE}The Global Terminal!!{SCROLL}If you’re ever in Jubilife City, don’t{NEWLINE}forget to check them out in person!{SCROLL}Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "司会『小镇ｂｅｓｔ３的{NEWLINE}节目时间终于到咯~！{SCROLL}这次为你介绍美央市的{NEWLINE}ｂｅｓｔ３！{SCROLL}首先是第３位！{SCROLL}给您最美妙的阅读一刻！{NEWLINE}美央图书馆！{SCROLL}接着是第２位！{SCROLL}偶尔开启的！{NEWLINE}美央的吊桥！{SCROLL}最后,光荣的第１位是！{SCROLL}也带我去大海吧！{NEWLINE}美央的码头！！{SCROLL}大家若来美央市{NEWLINE}的话,请别忘了去{CLEAR}实地体验一下哦！{SCROLL}那,下期节目再见咯！",
+   "en": "Host: It’s finally time for Town Top 3!{SCROLL}This time, we introduce the{NEWLINE}Top 3 of Canalave City!{SCROLL}First, in 3rd place!{SCROLL}The most wonderful reading{NEWLINE}time for you! Canalave Library!{SCROLL}Next, in 2nd place!{SCROLL}It opens every now and{NEWLINE}then! Canalave’s drawbridge!{SCROLL}And finally, the glorious{NEWLINE}1st place goes to...{SCROLL}Take me to the sea{NEWLINE}too! Canalave Harbor!!{SCROLL}If you’re ever in Canalave City, don’t{NEWLINE}forget to check them out in person!{SCROLL}Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "司会『小镇ｂｅｓｔ３的{NEWLINE}节目时间终于到咯~！{SCROLL}这次为你介绍黑金市的{NEWLINE}ｂｅｓｔ３！{SCROLL}首先是第３位！{SCROLL}石炭咕噜噜！{NEWLINE}传送带装置！{SCROLL}接着是第２位！{SCROLL}拿着化石,Ｌｅｔｓ　ｇｏ！{NEWLINE}黑金的博物馆！{SCROLL}最后,光荣的第１位是！{SCROLL}辛勤工作的男人的汗水！{NEWLINE}黑金炭矿！！{SCROLL}大家若来黑金市{NEWLINE}的话,请别忘了去{CLEAR}实地体验一下哦！{SCROLL}那,下期节目再见咯！",
+   "en": "Host: It’s finally time for Town Top 3!{SCROLL}This time, we introduce the{NEWLINE}Top 3 of Oreburgh City!{SCROLL}First, in 3rd place!{SCROLL}Coal goes round and round!{NEWLINE}The conveyor belts!{SCROLL}Next, in 2nd place!{SCROLL}Grab your fossils and let’s go!{NEWLINE}The Oreburgh Mining Museum!{SCROLL}And finally, the glorious{NEWLINE}1st place goes to...{SCROLL}The sweat of hard-working{NEWLINE}men! Oreburgh Mine!!{SCROLL}If you’re ever in Oreburgh City, don’t{NEWLINE}forget to check them out in person!{SCROLL}Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "司会『小镇ｂｅｓｔ３的{NEWLINE}节目时间终于到咯~！{SCROLL}这次为你介绍白岱市的{NEWLINE}ｂｅｓｔ３！{SCROLL}首先是第３位！{SCROLL}改变名字的话,人生也改变了？{NEWLINE}姓名测字！{SCROLL}接着是第２位！{SCROLL}在地下也能登龙门！{NEWLINE}地下老爷爷的家！{SCROLL}最后,光荣的第１位是！{SCROLL}溜溜转和刺痛痛是恶趣味！{NEWLINE}银河团白岱大厦！{SCROLL}大家若来白岱市{NEWLINE}的话,请别忘了去{CLEAR}实地体验一下哦！{SCROLL}那,下期节目再见咯！",
+   "en": "Host: It’s finally time for Town Top 3!{SCROLL}This time, we introduce{NEWLINE}the Top 3 of Eterna City!{SCROLL}First, in 3rd place!{SCROLL}Change your name, change{NEWLINE}your life? The Name Rater!{SCROLL}Next, in 2nd place!{SCROLL}Rise to the top, even underground!{NEWLINE}The Underground Man’s house!{SCROLL}And finally, the glorious{NEWLINE}1st place goes to...{SCROLL}Swirly and spiky, what bad taste!{NEWLINE}The Galactic Eterna Building!{SCROLL}If you’re ever in Eterna City, don’t{NEWLINE}forget to check them out in person!{SCROLL}Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "司会『小镇ｂｅｓｔ３的{NEWLINE}节目时间终于到咯~！{SCROLL}这次为你介绍绿缘市的{NEWLINE}ｂｅｓｔ３！{SCROLL}首先是第３位！{SCROLL}搅拌！搅拌！搅~个拌！{NEWLINE}松饼的料理ｈｏｕｓｅ！{SCROLL}接着是第２位！{SCROLL}一起心相通！一起捡东西！{NEWLINE}心意相通的广场！{SCROLL}最后,光荣的第１位是！{SCROLL}明日的精灵之星是你！？{NEWLINE}选美会场！{SCROLL}大家若来绿缘市{NEWLINE}的话,请别忘了去{CLEAR}实地体验一下哦！{SCROLL}那,下期节目再见咯！",
+   "en": "Host: It’s finally time for Town Top 3!{SCROLL}This time, we introduce the{NEWLINE}Top 3 of Hearthome City!{SCROLL}First, in 3rd place!{SCROLL}Stir! Stir! Stir it up! The Poffin House!{SCROLL}Next, in 2nd place!{SCROLL}Hearts in sync! Picking things{NEWLINE}up together! Amity Square!{SCROLL}And finally, the glorious{NEWLINE}1st place goes to...{SCROLL}Tomorrow’s Pokémon star{NEWLINE}is you?! The Contest Hall!{SCROLL}If you’re ever in Hearthome City, don’t{NEWLINE}forget to check them out in person!{SCROLL}Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "司会『小镇ｂｅｓｔ３的{NEWLINE}节目时间终于到咯~！{SCROLL}这次为你介绍野濑市的{NEWLINE}ｂｅｓｔ３！{SCROLL}首先是第３位！{SCROLL}放　眼　望　去　镜片的对面！{NEWLINE}野濑展望台的望远镜！{SCROLL}接着是第２位！{SCROLL}快！快！快快跑！{NEWLINE}野濑大湿原！{SCROLL}最后,光荣的第１位是！{SCROLL}野濑公认的吉祥物,精灵{NEWLINE}毒骷蛙！！{SCROLL}大家若来野濑市{NEWLINE}的话,请别忘了去{CLEAR}实地体验一下哦！{SCROLL}那,下期节目再见咯！",
+   "en": "Host: It’s finally time for Town Top 3!{SCROLL}This time, we introduce the{NEWLINE}Top 3 of Pastoria City!{SCROLL}First, in 3rd place!{SCROLL}Gaze far beyond the lens! The{NEWLINE}Pastoria Observatory binoculars!{SCROLL}Next, in 2nd place!{SCROLL}Hurry! Hurry! Run, run, run!{NEWLINE}The Pastoria Great Marsh!{SCROLL}And finally, the glorious{NEWLINE}1st place goes to...{SCROLL}Pastoria’s official mascot{NEWLINE}Pokémon, Toxicroak!!{SCROLL}If you’re ever in Pastoria City, don’t{NEWLINE}forget to check them out in person!{SCROLL}Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "司会『小镇ｂｅｓｔ３的{NEWLINE}节目时间终于到咯~！{SCROLL}这次为你介绍户张市的{NEWLINE}ｂｅｓｔ３！{SCROLL}首先是第３位！{SCROLL}满满的幸福！空空的钱包！{NEWLINE}户张的百货商店！{SCROLL}接着是第２位！{SCROLL}海滨的土地,这是泥马！？{NEWLINE}户张游戏中心！{SCROLL}最后,光荣的第１位是！{SCROLL}摇晃着的天线,太可疑了！{NEWLINE}银河团户张大厦！！{SCROLL}大家若来户张市{NEWLINE}的话,请别忘了去{CLEAR}实地体验一下哦！{SCROLL}那,下期节目再见咯！",
+   "en": "Host: It’s finally time for Town Top 3!{SCROLL}This time, we introduce the{NEWLINE}Top 3 of Veilstone City!{SCROLL}First, in 3rd place!{SCROLL}Full of happiness! Empty of wallet!{NEWLINE}The Veilstone Department Store!{SCROLL}Next, in 2nd place!{SCROLL}By the seaside, what the hell is{NEWLINE}this?! The Veilstone Game Corner!{SCROLL}And finally, the glorious{NEWLINE}1st place goes to...{SCROLL}Swaying antennas, so suspicious!{NEWLINE}The Galactic Veilstone Building!!{SCROLL}If you’re ever in Veilstone City, don’t{NEWLINE}forget to check them out in person!{SCROLL}Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "泥马 netspeak kept as ‘what the hell’ (D-0627)."
+  },
+  {
+   "id": 25,
+   "zh": "司会『小镇ｂｅｓｔ３的{NEWLINE}节目时间终于到咯~！{SCROLL}这次为你介绍名木市的{NEWLINE}ｂｅｓｔ３！{SCROLL}首先是第３位！{NEWLINE}名木的灯塔！{SCROLL}接着是第２位！{SCROLL}你看见了什么？{NEWLINE}岩精灵！{SCROLL}最后,光荣的第１位是！{SCROLL}活蹦乱跳的新鲜感觉！！{NEWLINE}名木市场！！{SCROLL}大家若来名木市{NEWLINE}的话,请别忘了去{CLEAR}实地体验一下哦！{SCROLL}那,下期节目再见咯！",
+   "en": "Host: It’s finally time for Town Top 3!{SCROLL}This time, we introduce the{NEWLINE}Top 3 of Sunyshore City!{SCROLL}First, in 3rd place!{NEWLINE}Sunyshore’s lighthouse!{SCROLL}Next, in 2nd place!{SCROLL}What do you see? The rock Pokémon!{SCROLL}And finally, the glorious{NEWLINE}1st place goes to...{SCROLL}So fresh it’s still flapping!!{NEWLINE}Sunyshore Market!!{SCROLL}If you’re ever in Sunyshore City, don’t{NEWLINE}forget to check them out in person!{SCROLL}Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "岩精灵 kept literal (‘the rock Pokémon’), exact Sunyshore landmark unclear."
+  },
+  {
+   "id": 26,
+   "zh": "司会『小镇ｂｅｓｔ３的{NEWLINE}节目时间终于到咯~！{SCROLL}这次为你介绍金钾市的{NEWLINE}ｂｅｓｔ３！{SCROLL}首先是第３位！{SCROLL}能去哪里呢？{NEWLINE}金钾之船！{SCROLL}接着是第２位！{SCROLL}有什么东西？{NEWLINE}金钾的神殿！{SCROLL}最后,光荣的第１位是！{SCROLL}何时能见到呢？{NEWLINE}钻石星辰！{SCROLL}大家若来金钾市{NEWLINE}的话,请别忘了去{CLEAR}实地体验一下哦！{SCROLL}那,下期节目再见咯！",
+   "en": "Host: It’s finally time for Town Top 3!{SCROLL}This time, we introduce the{NEWLINE}Top 3 of Snowpoint City!{SCROLL}First, in 3rd place!{SCROLL}Where could it be going?{NEWLINE}The Snowpoint ship!{SCROLL}Next, in 2nd place!{SCROLL}What could be inside? Snowpoint Temple!{SCROLL}And finally, the glorious{NEWLINE}1st place goes to...{SCROLL}When can you see it? Diamond dust!{SCROLL}If you’re ever in Snowpoint City, don’t{NEWLINE}forget to check them out in person!{SCROLL}Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "司会『介绍你的小镇{NEWLINE}的前三位的{CLEAR}小镇ｂｅｓｔ３！！{SCROLL}接下来要去的是哪个小镇？{NEWLINE}还是哪个城市？{SCROLL}经过关注的小镇时,{NEWLINE}请务必别忘了去实地体验一下呐！{SCROLL}那,下期节目再见咯！",
+   "en": "Host: Town Top 3, the show that{NEWLINE}introduces your town’s top three!!{SCROLL}Which town will we visit{NEWLINE}next? Or which city?{SCROLL}When you pass through a town{NEWLINE}that caught your eye, be sure{CLEAR}to check it out in person!{SCROLL}Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "主持人『新闻来了~{NEWLINE}在{VAR:0104:0}{CLEAR}买东西不知为何比平时{CLEAR}要便宜很多呢~{CLEAR}这样的情报出现咯！{SCROLL}平时最喜欢存钱,{NEWLINE}尽量能不花就不花,{CLEAR}觉得钱包越重越好的{CLEAR}训练师,{CLEAR}欢迎来到{CLEAR}{VAR:0104:0}~{SCROLL}以上,新闻结束咯~",
+   "en": "Host: News flash! We’ve{NEWLINE}got a report that shopping at{CLEAR}{VAR:0104:0} is, for some{CLEAR}reason, much cheaper than usual!{SCROLL}Trainers who love saving money,{NEWLINE}spend as little as possible, and think{CLEAR}the heavier the wallet the better,{CLEAR}come on down to {VAR:0104:0}!{SCROLL}That’s the end of the news!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "主持人『新闻来了~{SCROLL}在{VAR:0104:0}{NEWLINE}{VAR:0100:1}不知为何被{CLEAR}大量地目击到了~{CLEAR}这样的情报出现咯！{SCROLL}想在平时试试被{VAR:0100:1}{NEWLINE}一度包围的感觉,{CLEAR}手边携带的都是{VAR:0100:1},{CLEAR}脑袋里成天转着这样的念头,{CLEAR}觉得{VAR:0100:1}超棒！万岁！{SCROLL}的训练师,{NEWLINE}欢迎来到{VAR:0104:0}~{SCROLL}以上,新闻结束咯~",
+   "en": "Host: News flash!{SCROLL}For some reason, {VAR:0100:1}{NEWLINE}has been spotted in large numbers at{CLEAR}{VAR:0104:0}! That’s the report!{SCROLL}Trainers who’ve always wanted to be{NEWLINE}surrounded by {VAR:0100:1}, whose party{CLEAR}is nothing but {VAR:0100:1}, who think{CLEAR}about it all day long, and who think{CLEAR}{VAR:0100:1} is the best, hooray...{SCROLL}...come on down to {VAR:0104:0}!{SCROLL}That’s the end of the news!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "大少爷『我的爸爸是{NEWLINE}电视台里的大人物。{CLEAR}所以我把我知道的{SCROLL}发现精灵的场所{NEWLINE}告诉你吧！{SCROLL}前些日子,{VAR:0100:0}在{NEWLINE}{VAR:0104:1}哦！{SCROLL}不是骗人的哦！{NEWLINE}对面走来的老婆婆{CLEAR}也说她看见了。{SCROLL}之后我会在{NEWLINE}自己家的水池里待着。{SCROLL}那么,回见啦~",
+   "en": "Rich Boy: My dad is a big shot{NEWLINE}at the TV station. So I’ll{CLEAR}tell you something I know:{SCROLL}a place where you can find Pokémon!{SCROLL}The other day, there was a{NEWLINE}{VAR:0100:0} at {VAR:0104:1}!{SCROLL}I’m not lying! The old lady walking{NEWLINE}the other way said she saw it too.{SCROLL}After this, I’ll be hanging{NEWLINE}out in my family’s pool.{SCROLL}Well, see ya!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "精英训练师『呀~{NEWLINE}我的粉丝团的各位！{SCROLL}感谢你今天也来观赏{NEWLINE}缘分频道~{SCROLL}{VAR:010F:0}属性的技能{NEWLINE}大家使用过么？{CLEAR}面对{VAR:010F:1}属性的精灵{CLEAR}效果拔群哦！{SCROLL}对了~就像我对大家{NEWLINE}眨眼睛的时候一样~{CLEAR}效果超赞的哦！{SCROLL}那么~我们下期再见~！{NEWLINE}寄给我的爱之信,请拜托{CLEAR}鸟精灵{CLEAR}飞过浩瀚蓝天传递到我手中吧！{SCROLL}期待在某个时候{NEWLINE}能与你邂逅⋯⋯{SCROLL}掰掰~！",
+   "en": "Ace Trainer: Hey,{NEWLINE}members of my fan club!{SCROLL}Thanks for watching the{NEWLINE}Destiny Channel again today!{SCROLL}Have you all used {VAR:010F:0}-type{NEWLINE}moves? Against {VAR:010F:1}-type{CLEAR}Pokémon, they’re super effective!{SCROLL}That’s right, just like when I wink{NEWLINE}at you all, it’s super effective!{SCROLL}Well, see you next time! Please{NEWLINE}ask a bird Pokémon to carry your love{CLEAR}letters across the wide blue sky to me!{SCROLL}Hoping we’ll meet someday...{SCROLL}Bye-bye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "精英训练师『呀~{NEWLINE}我的粉丝团的各位！{SCROLL}感谢你今天也来观赏{NEWLINE}缘分频道~{SCROLL}{VAR:010F:0}属性的技能{NEWLINE}大家使用过么？{CLEAR}面对{VAR:010F:1}属性的精灵{CLEAR}效果一般哦！{SCROLL}嘛~不是像我这样的{NEWLINE}精英训练师的话,{CLEAR}只能发挥出一般的效果吧。{SCROLL}那么~我们下期再见~！{NEWLINE}寄给我的爱之信,请拜托{CLEAR}鸟精灵{CLEAR}飞过浩瀚蓝天传递到我手中吧！{SCROLL}期待在某个时候{NEWLINE}能与你邂逅⋯⋯{SCROLL}掰掰~！",
+   "en": "Ace Trainer: Hey, members of my fan{NEWLINE}club!{SCROLL}Thanks for watching the Destiny Channel{NEWLINE}again today!{SCROLL}Have you all used {VAR:010F:0}-type moves?{NEWLINE}Against {VAR:010F:1}-type Pokémon,{CLEAR}they’re just normally effective!{SCROLL}Well, if you’re not an Ace Trainer like{NEWLINE}me, you can only get normal results.{SCROLL}Well, see you next time! Please ask a{NEWLINE}bird Pokémon to carry your love letters{CLEAR}across the wide blue sky to me!{SCROLL}Hoping we’ll meet someday...{SCROLL}Bye-bye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review B-003"
+  },
+  {
+   "id": 33,
+   "zh": "精英训练师『呀~{NEWLINE}我的粉丝团的各位！{SCROLL}感谢你今天也来观赏{NEWLINE}缘分频道~{SCROLL}{VAR:010F:0}属性的技能{NEWLINE}大家使用过么？{CLEAR}面对{VAR:010F:1}属性的精灵{CLEAR}效果似乎差一点！{SCROLL}因为憧憬我{NEWLINE}而模仿我的很多{CLEAR}训练师都失败了哦！{SCROLL}那么~我们下期再见~！{NEWLINE}寄给我的爱之信,请拜托{CLEAR}鸟精灵{CLEAR}飞过浩瀚蓝天传递到我手中吧！{SCROLL}期待在某个时候{NEWLINE}能与你邂逅⋯⋯{SCROLL}掰掰~！",
+   "en": "Ace Trainer: Hey,{NEWLINE}members of my fan club!{SCROLL}Thanks for watching the{NEWLINE}Destiny Channel again today!{SCROLL}Have you all used {VAR:010F:0}-type{NEWLINE}moves? Against {VAR:010F:1}-type Pokémon,{CLEAR}they don’t seem very effective!{SCROLL}Lots of Trainers who admire{NEWLINE}me and copy me fail, you know!{SCROLL}Well, see you next time! Please{NEWLINE}ask a bird Pokémon to carry your love{CLEAR}letters across the wide blue sky to me!{SCROLL}Hoping we’ll meet someday...{SCROLL}Bye-bye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "精英训练师『呀~{NEWLINE}我的粉丝团的各位！{SCROLL}感谢你今天也来观赏{NEWLINE}缘分频道~{SCROLL}{VAR:010F:0}属性的技能{NEWLINE}大家使用过么？{CLEAR}面对{VAR:010F:1}属性的精灵{CLEAR}完全没有效果嘛！{SCROLL}没错~嫉妒我帅气的{NEWLINE}那些家伙们,{CLEAR}骚扰我也是{CLEAR}无济于事的哦！{SCROLL}那么~我们下期再见~！{NEWLINE}寄给我的爱之信,请拜托{CLEAR}鸟精灵{CLEAR}飞过浩瀚蓝天传递到我手中吧！{SCROLL}期待在某个时候{NEWLINE}能与你邂逅⋯⋯{SCROLL}掰掰~！",
+   "en": "Ace Trainer: Hey,{NEWLINE}members of my fan club!{SCROLL}Thanks for watching the{NEWLINE}Destiny Channel again today!{SCROLL}Have you all used {VAR:010F:0}-type{NEWLINE}moves? Against {VAR:010F:1}-type{CLEAR}Pokémon, they have no effect at all!{SCROLL}That’s right, all you guys jealous{NEWLINE}of my good looks, harassing{CLEAR}me won’t get you anywhere!{SCROLL}Well, see you next time! Please{NEWLINE}ask a bird Pokémon to carry your love{CLEAR}letters across the wide blue sky to me!{SCROLL}Hoping we’ll meet someday...{SCROLL}Bye-bye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "配送员『给各位传递{NEWLINE}幸福的投递员的{CLEAR}节目时间到咯~！{SCROLL}今天我也介绍下{NEWLINE}我代为保管的{CLEAR}道具吧~{SCROLL}这个似乎是要给{VAR:0103:0}{NEWLINE}送去的东西。{SCROLL}稍稍摇一下包裹的话,{NEWLINE}喀嗒喀嗒作响呢,{CLEAR}要是没弄坏什么就好了⋯⋯{SCROLL}再闻一下味道~{NEWLINE}能感觉到季节的芬芳⋯⋯{CLEAR}与尘土的气息⋯⋯{SCROLL}唔呣！这一定是{NEWLINE}{VAR:0108:1}没错吧？{CLEAR}请早日来领取哦~！",
+   "en": "Courier: It’s time for the{NEWLINE}Happiness Courier, the show that{CLEAR}delivers happiness to you all!{SCROLL}Today, I’ll introduce another{NEWLINE}item I’m holding on to!{SCROLL}This looks like something to{NEWLINE}be delivered to {VAR:0103:0}.{SCROLL}If I shake the package a little, it{NEWLINE}rattles... I hope nothing’s broken...{SCROLL}And if I sniff it... I can sense{NEWLINE}the fragrance of the season...{CLEAR}and the smell of dust...{SCROLL}Hmm! This must be {VAR:0108:1},{NEWLINE}right? Please come pick it up soon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "树果博士『今天~也{NEWLINE}有树果~！树果~！{CLEAR}有哦~有哦~有有有有有~~！{SCROLL}各位树果的粉丝,{NEWLINE}大家好吗？{SCROLL}今天也把树果情报{NEWLINE}咕噜咕噜咕噜地一古脑儿告诉你！{SCROLL}{VAR:0104:0}{NEWLINE}你去过吧？{SCROLL}今天,在这里能否{NEWLINE}找到树果,我来亲自试验一下！{SCROLL}然后⋯⋯有了！{SCROLL}不虚此行！{SCROLL}情绪高涨！{SCROLL}但是,拿不下了,{NEWLINE}谁来帮我拿一下呀~！{SCROLL}树果有哦~有哦~有有有有~~！{NEWLINE}大家~谢谢~！",
+   "en": "Dr. Berry: Today, too,{NEWLINE}there are Berries! Berries!{CLEAR}Yes, there are! There are!{CLEAR}There-there-there-there are!{SCROLL}How’s everyone doing,{NEWLINE}all you Berry fans?{SCROLL}Today I’ll roll out all{NEWLINE}the Berry info in one go!{SCROLL}You’ve been to{NEWLINE}{VAR:0104:0}, right?{SCROLL}Today I went to see for myself{NEWLINE}if I could find Berries there!{SCROLL}And... there were!{SCROLL}Worth the trip!{SCROLL}I’m pumped!{SCROLL}But I can’t carry them all!{NEWLINE}Someone, help me carry them!{SCROLL}There are Berries! There are!{NEWLINE}There-there-there-there{CLEAR}are! Thanks, everyone!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "树果博士『今天~也{NEWLINE}有树果~！树果~！{CLEAR}有哦~有哦~有有有有有~~！{SCROLL}各位树果的粉丝,{NEWLINE}大家好吗？{SCROLL}今天也把树果情报{NEWLINE}咕噜咕噜咕噜地一古脑儿告诉你！{SCROLL}{VAR:0104:0}{NEWLINE}你去过吧？{SCROLL}今天,在这里能否{NEWLINE}找到树果,我来亲自试验一下！{SCROLL}然后⋯⋯没有！{SCROLL}不过开着好多花哦！{SCROLL}闻到好芬芳的香气！{SCROLL}在心中也盛开了花！{SCROLL}似乎马上就会有树果的{NEWLINE}所以怀抱期待吧！{SCROLL}树果有哦~有哦~有有有有~~！{NEWLINE}大家~谢谢~！",
+   "en": "Dr. Berry: Today, too,{NEWLINE}there are Berries! Berries!{CLEAR}Yes, there are! There are!{CLEAR}There-there-there-there are!{SCROLL}How’s everyone doing,{NEWLINE}all you Berry fans?{SCROLL}Today I’ll roll out all{NEWLINE}the Berry info in one go!{SCROLL}You’ve been to{NEWLINE}{VAR:0104:0}, right?{SCROLL}Today I went to see for myself{NEWLINE}if I could find Berries there!{SCROLL}And... none!{SCROLL}But there were lots{NEWLINE}of flowers blooming!{SCROLL}Such a lovely fragrance!{SCROLL}Flowers are blooming in my heart too!{SCROLL}Berries should come along{NEWLINE}soon, so keep your hopes up!{SCROLL}There are Berries! There are!{NEWLINE}There-there-there-there{CLEAR}are! Thanks, everyone!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "树果博士『今天~也{NEWLINE}有树果~！树果~！{CLEAR}有哦~有哦~有有有有有~~！{SCROLL}各位树果的粉丝,{NEWLINE}大家好吗？{SCROLL}今天也把树果情报{NEWLINE}咕噜咕噜咕噜地一古脑儿告诉你！{SCROLL}{VAR:0104:0}{NEWLINE}你去过吧？{SCROLL}今天,在这里能否{NEWLINE}找到树果,我来亲自试验一下！{SCROLL}然后⋯⋯没有！{SCROLL}不过树干已经好粗了！{SCROLL}期待也变得好大了！{SCROLL}如果能开出漂亮的花就好啦！{SCROLL}树果有哦~有哦~有有有有~~！{NEWLINE}大家~谢谢~！",
+   "en": "Dr. Berry: Today, too,{NEWLINE}there are Berries! Berries!{CLEAR}Yes, there are! There are!{CLEAR}There-there-there-there are!{SCROLL}How’s everyone doing,{NEWLINE}all you Berry fans?{SCROLL}Today I’ll roll out all{NEWLINE}the Berry info in one go!{SCROLL}You’ve been to{NEWLINE}{VAR:0104:0}, right?{SCROLL}Today I went to see for myself{NEWLINE}if I could find Berries there!{SCROLL}And... none!{SCROLL}But the trunk has gotten really thick!{SCROLL}My hopes have grown really big too!{SCROLL}I hope it blooms with pretty flowers!{SCROLL}There are Berries! There are!{NEWLINE}There-there-there-there{CLEAR}are! Thanks, everyone!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "树果博士『今天~也{NEWLINE}有树果~！树果~！{CLEAR}有哦~有哦~有有有有有~~！{SCROLL}各位树果的粉丝,{NEWLINE}大家好吗？{SCROLL}今天也把树果情报{NEWLINE}咕噜咕噜咕噜地一古脑儿告诉你！{SCROLL}{VAR:0104:0}{NEWLINE}你去过吧？{SCROLL}今天,在这里能否{NEWLINE}找到树果,我来亲自试验一下！{SCROLL}然后⋯⋯没有！{SCROLL}不过已经出芽了哦！{SCROLL}出芽咯！{SCROLL}大家可千万注意脚下{NEWLINE}别给踩着了哦！{SCROLL}树果有哦~有哦~有有有有~~！{NEWLINE}大家~谢谢~！",
+   "en": "Dr. Berry: Today, too,{NEWLINE}there are Berries! Berries!{CLEAR}Yes, there are! There are!{CLEAR}There-there-there-there are!{SCROLL}How’s everyone doing,{NEWLINE}all you Berry fans?{SCROLL}Today I’ll roll out all{NEWLINE}the Berry info in one go!{SCROLL}You’ve been to{NEWLINE}{VAR:0104:0}, right?{SCROLL}Today I went to see for myself{NEWLINE}if I could find Berries there!{SCROLL}And... none!{SCROLL}But it’s already sprouted!{SCROLL}It sprouted!{SCROLL}Everyone, watch your step{NEWLINE}so you don’t trample it!{SCROLL}There are Berries! There are!{NEWLINE}There-there-there-there{CLEAR}are! Thanks, everyone!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "树果博士『今天~也{NEWLINE}有树果~！树果~！{CLEAR}有哦~有哦~有有有有有~~！{SCROLL}各位树果的粉丝,{NEWLINE}大家好吗？{SCROLL}今天也把树果情报{NEWLINE}咕噜咕噜咕噜地一古脑儿告诉你！{SCROLL}{VAR:0104:0}{NEWLINE}你去过吧？{SCROLL}今天,在这里能否{NEWLINE}找到树果,我来亲自试验一下！{SCROLL}但是⋯⋯没有！{SCROLL}浪费时间了啦！{SCROLL}情绪低落！{SCROLL}要是谁拿着树果{NEWLINE}的话可真是幸福的事情啊！{SCROLL}树果没有⋯⋯没有⋯{NEWLINE}大家~谢谢~",
+   "en": "Dr. Berry: Today, too,{NEWLINE}there are Berries! Berries!{CLEAR}Yes, there are! There are!{CLEAR}There-there-there-there are!{SCROLL}How’s everyone doing,{NEWLINE}all you Berry fans?{SCROLL}Today I’ll roll out all{NEWLINE}the Berry info in one go!{SCROLL}You’ve been to{NEWLINE}{VAR:0104:0}, right?{SCROLL}Today I went to see for myself{NEWLINE}if I could find Berries there!{SCROLL}But... none!{SCROLL}What a waste of time!{SCROLL}I’m bummed!{SCROLL}Anyone who has Berries is so lucky!{SCROLL}No Berries... none...{NEWLINE}Thanks, everyone...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "研究员『精灵研究的{NEWLINE}节目时间到咯~！{CLEAR}今天关于技能机{CLEAR}来给你作个说明！{SCROLL}{VAR:0100:0}能使用{VAR:0106:1}{NEWLINE}技能机吧？{CLEAR}好~试着设置看看⋯⋯{SCROLL}哦！记住了哦！{NEWLINE}哎？哇~住手！{CLEAR}别对我用技能啊！{SCROLL}我好像不太被精灵{NEWLINE}喜欢呢⋯⋯{CLEAR}那就这样,下期见！",
+   "en": "Researcher: It’s time for Pokémon{NEWLINE}Research! Today I’ll explain TMs!{SCROLL}{VAR:0100:0} can use the TM{NEWLINE}for {VAR:0106:1}, right?{CLEAR}OK, let’s try setting it...{SCROLL}Oh! It learned it! Huh? Whoa,{NEWLINE}stop! Don’t use the move on me!{SCROLL}Pokémon don’t seem to like me{NEWLINE}much... Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "研究员『精灵研究的{NEWLINE}节目时间到咯~！{CLEAR}今天关于技能机{CLEAR}来给你作个说明！{SCROLL}{VAR:0100:0}能使用{VAR:0106:1}{NEWLINE}技能机吧？{CLEAR}好~试着设置看看⋯⋯{SCROLL}好痛！把技能机{NEWLINE}给扔回来了！{SCROLL}不行啊,{VAR:0106:1}对{NEWLINE}{VAR:0100:0}来说似乎不合拍啊！{SCROLL}还把精灵{NEWLINE}给惹怒了⋯⋯{CLEAR}那就这样,下期见！",
+   "en": "Researcher: It’s time for Pokémon{NEWLINE}Research! Today I’ll explain TMs!{SCROLL}{VAR:0100:0} can use the TM{NEWLINE}for {VAR:0106:1}, right?{CLEAR}OK, let’s try setting it...{SCROLL}Ow! It threw the TM right back at me!{SCROLL}No good. {VAR:0106:1} doesn’t{NEWLINE}seem to suit {VAR:0100:0}!{SCROLL}And I made the Pokémon angry{NEWLINE}too... Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "研究员『精灵研究的{NEWLINE}节目时间到咯~！{CLEAR}今天关于野生的精灵{CLEAR}试着调查一下吧！{SCROLL}哦~快来~{NEWLINE}发现{VAR:0100:0}了哦⋯⋯{CLEAR}嗯？好像带着什么东西⋯⋯{CLEAR}到底带着什么呐~？{CLEAR}我们试着靠近一点看看！{SCROLL}稍微,让我看下⋯⋯{NEWLINE}⋯⋯　⋯⋯　⋯⋯{SCROLL}好、好痛~~~！{NEWLINE}手指卡住了！{CLEAR}但也知道{VAR:0100:0}{CLEAR}带着的是{VAR:0108:1}{CLEAR}这件事了！{SCROLL}谢谢~把{VAR:0108:1}还给{NEWLINE}{VAR:0100:0}哟⋯⋯{CLEAR}好、好痛~~~！{CLEAR}又卡住了！{SCROLL}还把精灵{NEWLINE}给惹怒了⋯⋯{CLEAR}那就这样,下期见！",
+   "en": "Researcher: It’s time for{NEWLINE}Pokémon Research! Today, let’s{CLEAR}try investigating wild Pokémon!{SCROLL}Oh, come quick! I’ve found{NEWLINE}a {VAR:0100:0}... Hm? It looks like it’s{CLEAR}holding something... What could it be?{CLEAR}Let’s try getting a little closer!{SCROLL}Just let me take a little look...{NEWLINE}...... ...... ......{SCROLL}Ow, owww! My finger’s stuck!{NEWLINE}But now we know that {VAR:0100:0}{CLEAR}is holding {VAR:0108:1}!{SCROLL}Thanks! Let me give the{NEWLINE}{VAR:0108:1} back to {VAR:0100:0}...{CLEAR}Ow, owww! Stuck again!{SCROLL}And I made the Pokémon angry{NEWLINE}too... Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "大少爷『我的爸爸是{NEWLINE}电视台里的大人物。{CLEAR}所以我把我知道的{SCROLL}与精灵的性格相关的事{NEWLINE}告诉你吧！{SCROLL}{VAR:0107:0}的精灵{NEWLINE}对{VAR:010D:1}很有自信哦！{SCROLL}不是骗人的哦！{NEWLINE}我养了１００只{CLEAR}{VAR:0107:0}的精灵{CLEAR}来验证过的！{SCROLL}然后呐~我觉得自己是{NEWLINE}很开朗的性格哦~{SCROLL}那么,回见啦~",
+   "en": "Rich Boy: My dad is a big shot{NEWLINE}at the TV station. So I’ll{CLEAR}tell you something I know:{SCROLL}a fact about Pokémon natures!{SCROLL}Pokémon with a {VAR:0107:0} nature{NEWLINE}are confident in their {VAR:010D:1}!{SCROLL}I’m not lying! I raised 100 Pokémon{NEWLINE}with a {VAR:0107:0} nature to check!{SCROLL}Oh, and I think I have a{NEWLINE}really cheerful personality!{SCROLL}Well, see ya!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "大少爷『我的爸爸是{NEWLINE}电视台里的大人物。{CLEAR}所以我把我知道的{SCROLL}与精灵的性格相关{NEWLINE}告诉你吧！{SCROLL}{VAR:0107:0}的精灵{NEWLINE}对{VAR:0110:2}松饼{CLEAR}很喜欢哦！{SCROLL}不是骗人的哦！{NEWLINE}我去买了１００个{CLEAR}{VAR:0110:2}松饼{CLEAR}做过验证的！{SCROLL}然后呐~{NEWLINE}我喜欢热牛奶~{SCROLL}那么,回见啦~",
+   "en": "Rich Boy: My dad is a big shot{NEWLINE}at the TV station. So I’ll{CLEAR}tell you something I know:{SCROLL}a fact about Pokémon natures!{SCROLL}Pokémon with a {VAR:0107:0} nature{NEWLINE}love {VAR:0110:2} Poffins!{SCROLL}I’m not lying! I bought 100{NEWLINE}{VAR:0110:2} Poffins to check!{SCROLL}Oh, and I like hot milk!{SCROLL}Well, see ya!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "大少爷『我的爸爸是{NEWLINE}电视台里的大人物。{CLEAR}所以我把我知道的{SCROLL}与精灵的性格相关的事{NEWLINE}告诉你吧！{SCROLL}{VAR:0107:0}的精灵{NEWLINE}对松饼没有特别的喜好,{CLEAR}不挑剔的样子。{SCROLL}不是骗人的哦！{NEWLINE}我去买了１００个松饼{CLEAR}做过验证的！{SCROLL}然后呐~{NEWLINE}我喜欢热牛奶~{SCROLL}那么,回见啦~",
+   "en": "Rich Boy: My dad is a big shot{NEWLINE}at the TV station. So I’ll{CLEAR}tell you something I know:{SCROLL}a fact about Pokémon natures!{SCROLL}Pokémon with a {VAR:0107:0} nature{NEWLINE}don’t have any particular taste{CLEAR}in Poffins. They’re not picky!{SCROLL}I’m not lying! I bought{NEWLINE}100 Poffins to check!{SCROLL}Oh, and I like hot milk!{SCROLL}Well, see ya!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "主持人『我现在来到了{NEWLINE}游戏中心！{SCROLL}嗯~呣,大家{NEWLINE}都玩得好开心的样子~{CLEAR}我也好想玩！{SCROLL}虽然只有这点情报⋯⋯{NEWLINE}今天总觉得{CLEAR}{VAR:0133:0}号台的{CLEAR}运势很强？就是这个意思！{SCROLL}大家相信我一次~{NEWLINE}把硬币投进去看看如何？{CLEAR}那就这样~再见~！",
+   "en": "Host: I’m here at the Game Corner!{SCROLL}Hmm, everyone looks like they’re{NEWLINE}having so much fun! I want to play too!{SCROLL}It’s just a small tip, but...{NEWLINE}today, machine No. {VAR:0133:0} somehow{CLEAR}feels lucky! That’s all I’m saying!{SCROLL}Trust me just this once and try{NEWLINE}dropping some coins in! Well, bye-bye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "主持人『嗨咿~{NEWLINE}电视购物的时间到咯~！{SCROLL}客人『今天也推荐给你{NEWLINE}超棒的商品哦！{SCROLL}主持人『很好很好~{NEWLINE}今天的推荐商品是⋯⋯{CLEAR}{VAR:0108:0}！{SCROLL}观众『哇啊~{SCROLL}观众『啪嗒啪嗒~{SCROLL}客人『嘛~！好棒！{NEWLINE}是什么东西？{SCROLL}主持人『是~是~{NEWLINE}现在就为您说明~{SCROLL}{VAR:0113:1}{SCROLL}如何？超~赞的对吧！{SCROLL}客人『有了这个的话{NEWLINE}对训练师来说,生活{CLEAR}一定会发生巨变！{CLEAR}好想快点试用一下！{SCROLL}啊啊~不过{NEWLINE}一定很贵吧？{SCROLL}主持人『嘿~嘿~{NEWLINE}没有那种事哦！{SCROLL}这个{VAR:0108:0}{NEWLINE}１０个只要{VAR:0136:1}元！{CLEAR}１０个只要{VAR:0136:1}元啊！{SCROLL}观众『哟哦~{SCROLL}观众『啪嗒啪嗒~{SCROLL}观众『好、好便宜！{SCROLL}客人『我！我要买！！！{SCROLL}主持人『大家{NEWLINE}要买的话也赶紧了！{CLEAR}不知道是不是会卖断货哦！{SCROLL}主持人『那么{NEWLINE}下期节目,我们再见！",
+   "en": "Host: Heeey! It’s time for TV Shopping!{SCROLL}Guest: Today, too, we have{NEWLINE}an amazing product for you!{SCROLL}Host: Very good, very good! Today’s{NEWLINE}featured product is... {VAR:0108:0}!{SCROLL}Audience: Wooow!{SCROLL}Audience: Clap, clap!{SCROLL}Guest: Oh my! How wonderful! What is it?{SCROLL}Host: Yes, yes! Let{NEWLINE}me explain right now!{SCROLL}{VAR:0113:1}{SCROLL}How about that? Totally{NEWLINE}amazing, right?!{SCROLL}Guest: With this, a Trainer’s life{NEWLINE}is sure to change completely! I{CLEAR}want to try it out right away!{SCROLL}Ahh, but it must be expensive, right?{SCROLL}Host: Heh heh! Not at all!{SCROLL}This {VAR:0108:0}... 10 for just{NEWLINE}${VAR:0136:1}! 10 for just ${VAR:0136:1}!{SCROLL}Audience: Whoooa!{SCROLL}Audience: Clap, clap!{SCROLL}Audience: S-so cheap!{SCROLL}Guest: I-I’ll buy it!!!{SCROLL}Host: Everyone, if you want{NEWLINE}one, hurry! It might sell out!{SCROLL}Host: Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "主持人『新闻来了~{NEWLINE}在{VAR:0104:0}{CLEAR}传来了目击到{VAR:0100:1}{CLEAR}的情报！{SCROLL}平时就超~想看{VAR:0100:1}的,{NEWLINE}想与{VAR:0100:1}见面的,{CLEAR}为了{VAR:0100:1}连澡都可以不洗的,{CLEAR}与{VAR:0100:1}握手后{CLEAR}几天不愿洗手的训练师！{CLEAR}欢迎来到{VAR:0104:0}~{SCROLL}以上,新闻结束咯~",
+   "en": "Host: News flash! We’ve got{NEWLINE}reports of {VAR:0100:1} sightings{CLEAR}at {VAR:0104:0}!{SCROLL}Trainers who are always dying to{NEWLINE}see {VAR:0100:1}, who want to meet{CLEAR}{VAR:0100:1}, who’d skip their bath{CLEAR}for {VAR:0100:1}, who wouldn’t wash{CLEAR}their hands for days after shaking{CLEAR}hands with {VAR:0100:1}! Come{CLEAR}on down to {VAR:0104:0}!{SCROLL}That’s the end of the news!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "饲养员『精灵和精灵！{NEWLINE}蛋和幸福！{CLEAR}精灵情牵一线的频道~！{SCROLL}培育屋『频道~{SCROLL}饲养员『是~{NEWLINE}今天请培育屋来看看{CLEAR}{VAR:0100:0}和{VAR:0100:1}的{CLEAR}契合度到底如何呢！{SCROLL}如何呢？培育屋{NEWLINE}{VAR:0100:0}和{VAR:0100:1}？{SCROLL}培育屋『嗯！{NEWLINE}关系还能更进一步哦！{CLEAR}寄存在我们这里,{CLEAR}可能还会生蛋哦~{SCROLL}饲养员『这真令人高兴！{NEWLINE}非常谢谢您！{SCROLL}培育屋『饲养员还{NEWLINE}没试过我们这里寄存吧？{SCROLL}饲养员『那么~大家~下期见！",
+   "en": "Breeder: Pokémon and Pokémon!{NEWLINE}Eggs and happiness! It’s the{CLEAR}Pokémon Matchmaking Channel!{SCROLL}Day-Care: Channel!{SCROLL}Breeder: Yes! Today, we’ve asked{NEWLINE}the Day-Care to check how compatible{CLEAR}{VAR:0100:0} and {VAR:0100:1} are!{SCROLL}Well, Day-Care? How about{NEWLINE}{VAR:0100:0} and {VAR:0100:1}?{SCROLL}Day-Care: Mm! Their relationship could{NEWLINE}go even further! If you leave them{CLEAR}with us, they might even make an Egg!{SCROLL}Breeder: That’s wonderful!{NEWLINE}Thank you so much!{SCROLL}Day-Care: Breeder, you haven’t tried{NEWLINE}leaving anyone with us yet, have you?{SCROLL}Breeder: Well, everyone,{NEWLINE}see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "饲养员『精灵和精灵！{NEWLINE}蛋和幸福！{CLEAR}精灵情牵一线的频道~！{SCROLL}培育屋『频道~{SCROLL}饲养员『是~{NEWLINE}今天请培育屋来看看{CLEAR}{VAR:0100:0}和{VAR:0100:1}的{CLEAR}契合度到底如何呢！{SCROLL}如何呢？培育屋{NEWLINE}{VAR:0100:0}和{VAR:0100:1}？{SCROLL}培育屋『唉！{NEWLINE}怎么看都不般配啊！{CLEAR}强扭的瓜不甜,{CLEAR}生不出蛋的,{CLEAR}真是让人笑破肚皮了,{CLEAR}这组合就像是{NEWLINE}用鼻子喝果汁一样嘛！{SCROLL}饲养员『⋯⋯非常感谢您。{SCROLL}培育屋『饲养员,做完{NEWLINE}节目后,去喝点苏打饮料吧？{SCROLL}饲养员『那么~大家~下期见！",
+   "en": "Breeder: Pokémon and Pokémon!{NEWLINE}Eggs and happiness! It’s the{CLEAR}Pokémon Matchmaking Channel!{SCROLL}Day-Care: Channel!{SCROLL}Breeder: Yes! Today, we’ve asked{NEWLINE}the Day-Care to check how compatible{CLEAR}{VAR:0100:0} and {VAR:0100:1} are!{SCROLL}Well, Day-Care? How about{NEWLINE}{VAR:0100:0} and {VAR:0100:1}?{SCROLL}Day-Care: Ugh! No matter how you{NEWLINE}look at it, they’re a terrible match!{CLEAR}You can’t force a pairing like that.{CLEAR}They’ll never make an Egg! It’s{CLEAR}laughable! This combination is like{CLEAR}drinking juice through your nose!{SCROLL}Breeder: ...Thank you very much.{SCROLL}Day-Care: Breeder, after the{NEWLINE}show, want to go get a Soda Pop?{SCROLL}Breeder: Well, everyone,{NEWLINE}see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "主持人『我现在在{NEWLINE}电视庆贺会的{CLEAR}２楼！{SCROLL}为了欣赏最近装饰上的{NEWLINE}{VAR:0103:0}的{CLEAR}{VAR:011C:1}{SCROLL}这个作品,{NEWLINE}而来到了这里哦！{SCROLL}啊~在那里呢！{NEWLINE}哪个哪个⋯⋯{SCROLL}哎~呀⋯⋯{NEWLINE}对这个被称为{VAR:011C:1}{CLEAR}的东西,有点在意,{SCROLL}再加点别的标注,{NEWLINE}是不是会更好呢？{CLEAR}有这种感觉。{SCROLL}大家也都请来看看吧~{NEWLINE}那就这样,下次见！",
+   "en": "Host: I’m on the second floor{NEWLINE}of the TV celebration event!{SCROLL}I came here to see {VAR:0103:0}’s recently{NEWLINE}displayed work: {VAR:011C:1}{SCROLL}Ah, there it is! Let’s see...{SCROLL}Hmm... This thing called{NEWLINE}{VAR:011C:1} bothers me a bit.{SCROLL}Maybe adding a different{NEWLINE}caption would make it better?{CLEAR}That’s the feeling I get.{SCROLL}Everyone, come take a look!{NEWLINE}Well, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "主持人『今天是{NEWLINE}今天的最后一天了。{SCROLL}大家这一年一定{NEWLINE}发生了很多的事情吧⋯⋯{SCROLL}与新的精灵相遇,{SCROLL}与新的朋友们相遇,{SCROLL}与电视机这端的我的相遇,{SCROLL}全部都是不可替代的{NEWLINE}美好回忆吧！{SCROLL}把今年的经历记在心里,{NEWLINE}在明年也请多多努力！{SCROLL}明年的长寿电视,也请您{NEWLINE}多多关照！",
+   "en": "Host: Today is the last day of the year.{SCROLL}I’m sure a lot happened{NEWLINE}to everyone this year...{SCROLL}Meeting new Pokémon,{SCROLL}meeting new friends,{SCROLL}meeting me on this side of the TV...{SCROLL}They’re all irreplaceable,{NEWLINE}wonderful memories!{SCROLL}Keep this year’s experiences in your{NEWLINE}heart, and do your best next year too!{SCROLL}Please keep watching{NEWLINE}Jubilife TV next year!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "主持人『大家好！{NEWLINE}新~年~快~乐~~~！{SCROLL}在正月里,也来看电视,{NEWLINE}真是高兴呢！{SCROLL}不过,虽然对我来说很寂寞,{NEWLINE}但还是希望大家务必外出走走,{CLEAR}把今天这样的日子,{CLEAR}作为新冒险的起点吧！{SCROLL}如果有不开心的事,何时都可以,{NEWLINE}请来电视前治愈吧~{SCROLL}那么今年的长寿电视,也请您{NEWLINE}多多关照！记得经常收看哦~",
+   "en": "Host: Hello, everyone!{NEWLINE}Happy New Year!!!{SCROLL}I’m so happy you’re watching{NEWLINE}TV over the New Year!{SCROLL}It’ll be lonely for me, but I hope you’ll{NEWLINE}get out and about, and make a day like{CLEAR}today the start of a new adventure!{SCROLL}If anything gets you down, anytime{NEWLINE}at all, come heal in front of the TV!{SCROLL}Please keep watching Jubilife TV{NEWLINE}this year too! Tune in often!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "介绍来信的{NEWLINE}节目时间！{SCROLL}今天,从电视观众{NEWLINE}那里受到了特别的{CLEAR}来信。{CLEAR}我们快来读一下~{CLEAR}⋯⋯　⋯⋯　⋯⋯{SCROLL}啪啊嗯,啪喀啪喀啪啊嗯！{SCROLL}锵锵~！{SCROLL}唞叩唞叩,唞叩唞叩,嗞哆哆哆{NEWLINE}啪嗯咯啦啵喀啊嗯！啪啪啪啪~！{SCROLL}哈啤~啵咝呔~~~{NEWLINE}{VAR:0103:0}！！{CLEAR}会一直关注你哟！！！{SCROLL}⋯⋯　⋯⋯　⋯⋯{SCROLL}嗯~~真是{NEWLINE}好有热情的来信啊！{CLEAR}一定是{VAR:0103:0}的{CLEAR}超级粉丝吧！{SCROLL}诚挚地祝愿您{NEWLINE}生日快乐！　",
+   "en": "It’s time for Viewer Letters!{SCROLL}Today we received a special letter{NEWLINE}from a viewer. Let’s read it{CLEAR}right away... ...... ...... ......{SCROLL}Pa-ahn, pakka-pakka-pa-ahn!{SCROLL}Ta-daa!{SCROLL}Toko-toko, toko-toko, zu-dododo,{NEWLINE}pan-kora-bokka-ahn! Papapapa!{SCROLL}Hap-pee~ bursdaaay~~~ {VAR:0103:0}!!{NEWLINE}We’ll always be watching you!!!{SCROLL}...... ...... ......{SCROLL}Wow... What a passionate letter! It{NEWLINE}must be from a huge fan of {VAR:0103:0}!{SCROLL}We sincerely wish you a happy birthday!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "哈啤~啵咝呔 = garbled ‘happy birthday’; not a song."
+  }
+ ]
+}

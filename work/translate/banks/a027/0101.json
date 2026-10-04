@@ -1,0 +1,303 @@
+{
+ "narc": "a027",
+ "bank": 101,
+ "source": "work/extract/v4/a027/0101.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "欢迎来到战斗前线！{SCROLL}你是第一次来的训练家吧,{NEWLINE}这边请！{SCROLL}",
+   "en": "Welcome to the Battle Frontier!{SCROLL}This is your first visit?{NEWLINE}Right this way, please!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0103/0"
+  },
+  {
+   "id": 1,
+   "zh": "哎呀！你有{NEWLINE}战斗记录器啊！真棒！{SCROLL}第一次来的训练家的{NEWLINE}战斗记录器{CLEAR}要升级成{CLEAR}战斗前线版本。{SCROLL}先给我吧,{SCROLL}唔~只要这地方稍微{NEWLINE}弄一下……！{SCROLL}好了！{NEWLINE}给你！{SCROLL}",
+   "en": "Oh! You have a Vs. Recorder! Great!{SCROLL}First-time visitors get their{NEWLINE}Vs. Recorder upgraded to{CLEAR}the Battle Frontier version.{SCROLL}Let me have it for a second.{SCROLL}Hmm, just a little tweak here...!{SCROLL}There! Here you go!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}的战斗记录器{NEWLINE}升级了！",
+   "en": "{VAR:0103:0}’s Vs. Recorder was{NEWLINE}upgraded.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0103/2"
+  },
+  {
+   "id": 3,
+   "zh": "关于战斗前线{NEWLINE}各种设施的说明{CLEAR}会有其他工作人员{CLEAR}进行讲解！{SCROLL}我负责全面地{NEWLINE}回答一些你的问题。{SCROLL}有什么要问的吗？{VAR:0200:0}",
+   "en": "Other staff members will explain{NEWLINE}the Battle Frontier’s facilities.{SCROLL}I answer general questions.{SCROLL}Is there anything you’d like to ask?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "需要我讲解{NEWLINE}哪个项目呢？{VAR:0200:0}",
+   "en": "Which topic should I explain? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0103/4"
+  },
+  {
+   "id": 5,
+   "zh": "战斗前线{NEWLINE}共有５间设施。{SCROLL}车轮战７组训练员的{NEWLINE}战斗塔。{SCROLL}留下精灵的记录的{NEWLINE}战斗舞台。{SCROLL}用租借到的精灵{NEWLINE}进行战斗的战斗工厂。{SCROLL}用积攒到的点数{NEWLINE}进行攻克的战斗城堡。{SCROLL}根据状况不同会出现{NEWLINE}各种戏剧性场面的战斗轮盘。{SCROLL}总有一个{NEWLINE}你会喜欢的！{SCROLL}",
+   "en": "The Battle Frontier has five facilities{NEWLINE}dedicated to battling.{SCROLL}At the Battle Tower, the objective is{NEWLINE}to beat seven Trainers in a row.{SCROLL}At the Battle Hall, you may keep battle{NEWLINE}records of individual Pokémon.{SCROLL}At the Battle Factory, you must win{NEWLINE}consecutive battles with rentals.{SCROLL}The Battle Castle forces Trainers to{NEWLINE}manage Castle Points to advance.{SCROLL}And finally, the Battle Arcade is where{NEWLINE}random luck triggers events.{SCROLL}You can try any of these facilities!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0103/5"
+  },
+  {
+   "id": 6,
+   "zh": "在战斗前线的５个{NEWLINE}设施中进行的战斗{CLEAR}都有特殊的规定。{SCROLL}首先是没有经验值！{SCROLL}即使参加多次战斗的精灵{NEWLINE}也不能升级。{SCROLL}另外,等级５０这个规则{NEWLINE}会让５０级以上的精灵{CLEAR}也会调整到５０级时的{CLEAR}能力。{SCROLL}不到５０级的精灵{NEWLINE}则还是保持原等级。{SCROLL}",
+   "en": "The battles at the five Battle Frontier{NEWLINE}facilities are held under special rules.{SCROLL}First and foremost, no Exp. Points{NEWLINE}can be earned.{SCROLL}Consequently, the Pokémon battling{NEWLINE}here will not level up.{SCROLL}If the Level 50 rule is chosen,{NEWLINE}Pokémon of higher levels will be{CLEAR}temporarily reduced to Lv. 50.{SCROLL}Pokémon under Lv. 50 will be entered{NEWLINE}without an upward level adjustment.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0103/6"
+  },
+  {
+   "id": 7,
+   "zh": "战斗点数……{NEWLINE}一般称为ＢＰ。{SCROLL}ＢＰ是能够在战斗前线内{NEWLINE}使用的一种点数。{SCROLL}在各种设施内{NEWLINE}达成特定的条件{CLEAR}就能获得。{SCROLL}ＢＰ能在战斗前线的{NEWLINE}点数交换点{CLEAR}交换奖品。{SCROLL}",
+   "en": "Battle Points... usually called BP.{SCROLL}BP are points you can use{NEWLINE}inside the Battle Frontier.{SCROLL}You earn them by meeting{NEWLINE}certain goals at each facility.{SCROLL}You can trade BP for prizes{NEWLINE}at the Battle Frontier’s{CLEAR}Exchange Service Corner.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "点数交换点{NEWLINE}只要穿过这儿就到了,{CLEAR}那是个帐篷。{SCROLL}在点数交换点{NEWLINE}你能用你手上的ＢＰ{CLEAR}交换到各种各样的{CLEAR}奖品。{CLEAR}一定要好好利用啊！{SCROLL}",
+   "en": "The Exchange Service Corner is{NEWLINE}just through here. It’s in a tent.{SCROLL}At the Exchange Service Corner,{NEWLINE}you can trade your BP for all kinds of{CLEAR}prizes. Be sure to make good use of it!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "成绩屏幕在{NEWLINE}前线各设施的{CLEAR}受理处附近都有。{SCROLL}能够确认上次的成绩{NEWLINE}和至今为止{CLEAR}最好的记录。{SCROLL}",
+   "en": "There’s a Records screen{NEWLINE}near the reception desk{CLEAR}of each Frontier facility.{SCROLL}It shows your last results{NEWLINE}and your best records so far.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "那么请走好！",
+   "en": "Enjoy yourself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "关于战斗前线",
+   "en": "BATTLE FRONTIER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Info menu #11–#16 in US caps menu style (D-0009); 结束 → EXIT (v3 had a misaligned label)."
+  },
+  {
+   "id": 12,
+   "zh": "关于战斗点数",
+   "en": "BATTLE POINTS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "关于ＢＰ兑换点",
+   "en": "EXCHANGE CORNER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "关于成绩屏幕",
+   "en": "RECORDS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "结束",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags suspiciously_long"
+  },
+  {
+   "id": 16,
+   "zh": "关于基本规则",
+   "en": "BASIC RULES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "欢迎来到战斗前线！{SCROLL}需要我对战斗塔{NEWLINE}进行说明吗？{VAR:0200:0}",
+   "en": "Welcome to the Battle Frontier!{SCROLL}Should I explain how the{NEWLINE}Battle Tower works? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0103/17"
+  },
+  {
+   "id": 18,
+   "zh": "战斗塔就是{NEWLINE}进入战斗前线后{CLEAR}直走就能到的建筑。{SCROLL}战斗塔{NEWLINE}是用不同的精灵{CLEAR}进行车轮战的地方。{SCROLL}",
+   "en": "The Battle Tower is the{NEWLINE}building straight ahead as you{CLEAR}enter the Battle Frontier.{SCROLL}At the Battle Tower,{NEWLINE}you take on Trainer after{CLEAR}Trainer with various Pokémon.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "那么请走好！",
+   "en": "Enjoy yourself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "欢迎来到战斗前线！{SCROLL}需要我对战斗工厂{NEWLINE}进行说明吗？{VAR:0200:0}",
+   "en": "Welcome to the Battle Frontier!{SCROLL}Should I explain how the{NEWLINE}Battle Factory works? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0103/20"
+  },
+  {
+   "id": 21,
+   "zh": "战斗工厂就是{NEWLINE}进入战斗前线后{CLEAR}右前方的建筑。{SCROLL}战斗工厂{NEWLINE}是用租借来的精灵们{CLEAR}进行车轮战的地方。{SCROLL}赢了就用自己的{NEWLINE}一只精灵与对方{CLEAR}交换。{SCROLL}",
+   "en": "The Battle Factory is at the upper-{NEWLINE}right corner of the Battle Frontier.{SCROLL}There, you engage in a knockout{NEWLINE}tournament with rented Pokémon.{SCROLL}The goal is to keep winning for{NEWLINE}as long as possible.{SCROLL}Every time you win a match, you may{NEWLINE}trade one of your Pokémon for one of{CLEAR}the opponent’s Pokémon.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0103/21"
+  },
+  {
+   "id": 22,
+   "zh": "那么请走好！",
+   "en": "Enjoy yourself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "欢迎来到战斗前线！{SCROLL}需要我对战斗舞台{NEWLINE}进行说明吗？{VAR:0200:0}",
+   "en": "Welcome to the Battle Frontier!{SCROLL}Should I explain how the{NEWLINE}Battle Hall works? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0103/23"
+  },
+  {
+   "id": 24,
+   "zh": "战斗舞台就是{NEWLINE}进入战斗前线后{CLEAR}在左前方的建筑。{SCROLL}战斗舞台{NEWLINE}是用喜欢的精灵{CLEAR}进行１ｖｓ１战斗,{CLEAR}看能坚持到第几场的地方。{SCROLL}",
+   "en": "The Battle Hall is at the upper-left{NEWLINE}corner of the Battle Frontier.{SCROLL}Here, you enter one Pokémon of your{NEWLINE}choosing for one-on-one battles.{SCROLL}The objective is to keep your winning{NEWLINE}streak going as long as possible.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0103/24"
+  },
+  {
+   "id": 25,
+   "zh": "那么请走好！",
+   "en": "Enjoy yourself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "欢迎来到战斗前线！{SCROLL}需要我对战斗城堡{NEWLINE}进行说明吗？{VAR:0200:0}",
+   "en": "Welcome to the Battle Frontier!{SCROLL}Should I explain how the{NEWLINE}Battle Castle works? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0103/26"
+  },
+  {
+   "id": 27,
+   "zh": "战斗城堡就是{NEWLINE}进入战斗前线后{CLEAR}在右后方的建筑。{SCROLL}战斗城堡{NEWLINE}能够用胜利获得的{CLEAR}城堡点数{SCROLL}进行精灵的回复,{NEWLINE}还能租借道具和果实,{CLEAR}借此不断进行车轮战。{SCROLL}",
+   "en": "The Battle Castle is the building at{NEWLINE}the back right as you enter the{CLEAR}Battle Frontier.{SCROLL}At the Battle Castle, you can use the{NEWLINE}Castle Points you earn by winning...{SCROLL}...to heal your Pokémon and rent items{NEWLINE}and Berries, so you can keep battling{CLEAR}one opponent after another.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0103/27; ext-review RA-H02"
+  },
+  {
+   "id": 28,
+   "zh": "那么请走好！",
+   "en": "Enjoy yourself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "欢迎来到战斗前线！{SCROLL}需要我对战斗轮盘{NEWLINE}进行说明吗？{VAR:0200:0}",
+   "en": "Welcome to the Battle Frontier!{SCROLL}Should I explain how the{NEWLINE}Battle Arcade works? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0103/29"
+  },
+  {
+   "id": 30,
+   "zh": "战斗轮盘就是{NEWLINE}进入战斗前线后{CLEAR}在左后方的建筑。{SCROLL}战斗轮盘{NEWLINE}在进行战斗前{CLEAR}会先转轮盘,！{SCROLL}有时对自己有好处有时会亏……{NEWLINE}有时能直接晋级。{CLEAR}对应各种不同的状况{CLEAR}你能走到哪一步呢？{SCROLL}",
+   "en": "The Battle Arcade is the building at{NEWLINE}the back left as you enter the{CLEAR}Battle Frontier.{SCROLL}At the Battle Arcade, a roulette{NEWLINE}board spins before every battle!{SCROLL}Sometimes it helps you, sometimes it{NEWLINE}costs you... and sometimes it even{CLEAR}lets you advance straight away. How{CLEAR}far can you get, handling every{CLEAR}situation that comes up?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0103/30; ext-review RA-H02"
+  },
+  {
+   "id": 31,
+   "zh": "那么请走好！",
+   "en": "Enjoy yourself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "这前面是战斗前线！{SCROLL}虽然我曾{NEWLINE}在全世界进行过冒险,{CLEAR}但让我这么兴奋的{CLEAR}这还是第一次！{SCROLL}到底有怎么样的训练家,{NEWLINE}怎么样的战斗在等着我呢……{SCROLL}真是充满了未知的挑战啊！",
+   "en": "The Battle Frontier is up ahead!{NEWLINE}I have explored places all over the{CLEAR}world, but nothing compares to the{CLEAR}excitement I feel right now!{SCROLL}What kinds of Trainers will I see?{NEWLINE}What battles will I experience?{SCROLL}It’s a whole new adventure for me!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0103/32"
+  },
+  {
+   "id": 33,
+   "zh": "战斗前线的５个设施,{SCROLL}塔,还有工厂,{SCROLL}舞台,城堡,轮盘,{SCROLL}无论哪一个都是为了{NEWLINE}引导训练家锻炼出强力技术。{SCROLL}强力当然指的就是力量！{NEWLINE}技术就是讲究技巧！{SCROLL}哦~{NEWLINE}如此一针见血地就{CLEAR}点明了对战的精髓！",
+   "en": "The Battle Frontier’s five facilities...{SCROLL}The Tower, and the Factory...{SCROLL}The Hall, the Castle, the Arcade...{SCROLL}Every one of them exists to guide{NEWLINE}Trainers to forge power and technique.{SCROLL}Power, of course, means{NEWLINE}strength! Technique means skill!{SCROLL}Ohh! What a razor-sharp summary{NEWLINE}of the essence of battling!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Wordplay: 强力技术 = 强力 (power) + 技术 (technique)."
+  },
+  {
+   "id": 34,
+   "zh": "战斗记录器真是好啊！{SCROLL}看下前线记录{NEWLINE}就能马上知道自己有{CLEAR}多少ＢＰ了！",
+   "en": "The Vs. Recorder is sure nifty!{SCROLL}Checking the Frontier Record{NEWLINE}will tell you how much BP you have.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0103/34"
+  },
+  {
+   "id": 35,
+   "zh": "我的梦想是将与战斗塔的{NEWLINE}光郎大人的战斗{CLEAR}保存到战斗记录器上！{SCROLL}但是战斗记录器{NEWLINE}忘在家里了……{SCROLL}太悲剧了~！",
+   "en": "My dream is to battle Palmer of the{NEWLINE}Battle Tower.{SCROLL}I want to record it for posterity on{NEWLINE}my Vs. Recorder.{SCROLL}But I left my Vs. Recorder{NEWLINE}at home... I’m heartbroken!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0103/35"
+  },
+  {
+   "id": 36,
+   "zh": "你是第一次来战斗前线吗？{NEWLINE}没有战斗记录器的话{CLEAR}在这里可是很不方便的。{SCROLL}为了让你也能体会到{NEWLINE}战斗前线的乐趣,{CLEAR}这个战斗记录器你拿着吧！",
+   "en": "Is this your first time at the Battle{NEWLINE}Frontier? Things are really inconvenient{CLEAR}here without a Vs. Recorder.{SCROLL}So you can enjoy the Battle Frontier{NEWLINE}too, take this Vs. Recorder!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,311 @@
+{
+ "narc": "a027",
+ "bank": 434,
+ "source": "work/extract/v4/a027/0434.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "请稍等一下。",
+   "en": "Please wait a moment.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/0"
+  },
+  {
+   "id": 1,
+   "zh": "里面请！",
+   "en": "Please step inside!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "让{VAR:0100:0}的体力回复了！",
+   "en": "{VAR:0100:0} will be fully{NEWLINE}restored.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/2"
+  },
+  {
+   "id": 3,
+   "zh": "接着是{VAR:0135:0}！{NEWLINE}准备好了吗？",
+   "en": "Battle no. {VAR:0135:0} is next!{NEWLINE}Are you ready?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/3"
+  },
+  {
+   "id": 4,
+   "zh": "现在的胜负{NEWLINE}记录在战斗录像上面吗？",
+   "en": "Would you like to save the last battle{NEWLINE}as your Battle Video?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:0103:0}的战斗{NEWLINE}已经记录了。{SCROLL}",
+   "en": "{VAR:0103:0}’s battle has been saved{NEWLINE}as a Battle Video.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/5"
+  },
+  {
+   "id": 6,
+   "zh": "发生了故障,{NEWLINE}不能记录。",
+   "en": "There was an error.{NEWLINE}The Battle Video couldn’t be saved.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/6"
+  },
+  {
+   "id": 7,
+   "zh": "要清除战斗录像,{NEWLINE}记录现在的对战吗？",
+   "en": "Delete your existing Battle Video and{NEWLINE}save the last battle?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/7"
+  },
+  {
+   "id": 8,
+   "zh": "记录中,{NEWLINE}请不要切断电源！　",
+   "en": "Saving...{NEWLINE}Don’t turn off the power.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/8"
+  },
+  {
+   "id": 9,
+   "zh": "记录然后{NEWLINE}结束游戏吗？",
+   "en": "Would you like to save and take a break{NEWLINE}from playing?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "在战斗舞台的对战{NEWLINE}要中断吗？",
+   "en": "Would you like to retire from this{NEWLINE}Battle Hall challenge?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/10"
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0103:0}在选择,{NEWLINE}请稍等一下。",
+   "en": "{VAR:0103:0} is choosing.{NEWLINE}Please wait.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/11"
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}选择了休息。",
+   "en": "{VAR:0103:0} chose to rest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0103:0}选择了退出。",
+   "en": "{VAR:0103:0} chose to retire.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/13"
+  },
+  {
+   "id": 14,
+   "zh": "１０连胜达成,{NEWLINE}恭喜了！{SCROLL}作为客人和{VAR:0100:0}的{NEWLINE}伟大胜利的报酬{CLEAR}给你战斗点！{SCROLL}",
+   "en": "You have cleared your tenth Battle Hall{NEWLINE}match! Congratulations!{SCROLL}For your stupendous win streak, you{NEWLINE}and {VAR:0100:0} are awarded BP!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/14"
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0103:0}接受了{NEWLINE}{VAR:0133:1}ＢＰ！{SCROLL}",
+   "en": "{VAR:0103:0} received {VAR:0133:1} BP!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/15"
+  },
+  {
+   "id": 16,
+   "zh": "客人已经不能再持有{NEWLINE}更多的战斗点了。{SCROLL}",
+   "en": "You can’t carry any more{NEWLINE}Battle Points.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "正在写记录,{NEWLINE}请不要关电源。",
+   "en": "Saving...{NEWLINE}Don’t turn off the power.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/17"
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0}正在查看状态。",
+   "en": "{VAR:0103:0} is checking the status.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "继续",
+   "en": "CONTINUE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/19"
+  },
+  {
+   "id": 20,
+   "zh": "记录",
+   "en": "RECORD",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/20"
+  },
+  {
+   "id": 21,
+   "zh": "休息",
+   "en": "REST",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/21"
+  },
+  {
+   "id": 22,
+   "zh": "退出",
+   "en": "RETIRE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/22"
+  },
+  {
+   "id": 23,
+   "zh": "请选择想和哪种类型的精灵对战！{SCROLL}",
+   "en": "Please choose the type of Pokémon{NEWLINE}you will battle.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/23"
+  },
+  {
+   "id": 24,
+   "zh": "和{VAR:010F:0}类型的{NEWLINE}等级{VAR:0133:1}对战吗？",
+   "en": "Will you battle the {VAR:010F:0}-type,{NEWLINE}Rank {VAR:0133:1} Pokémon?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/24"
+  },
+  {
+   "id": 25,
+   "zh": "请努力吧！",
+   "en": "Please do your best!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "和我对战吧！",
+   "en": "Battle me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 28,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 29,
+   "zh": "㊚",
+   "en": "㊚",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "㊛",
+   "en": "㊛",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "和舞台贵妇对战吗？",
+   "en": "Will you battle against the Hall Matron?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/31"
+  },
+  {
+   "id": 32,
+   "zh": "等一下！{SCROLL}来到这里想证明{NEWLINE}自己实力的顾问,{CLEAR}好像想和{CLEAR}客人对战呢！{SCROLL}请和舞台贵妇对战！{SCROLL}",
+   "en": "Please wait!{SCROLL}Our advisor, who came here to prove{NEWLINE}their own strength, seems to want{CLEAR}to battle you!{SCROLL}Please battle the Hall Matron!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0441/32"
+  },
+  {
+   "id": 33,
+   "zh": "凯特『冠军大人能{NEWLINE}一路胜利来到这里{CLEAR}我是一点都不意外的。{CLEAR}感谢您刚才呈现的精彩战斗,{CLEAR}我只是在一旁观看{CLEAR}就能感受到{CLEAR}和您之间的巨大差距。{SCROLL}凯特『但我毕竟是这里的首领,{NEWLINE}即使对手是天下无敌的联盟冠军,{CLEAR}我也会尝试着去超越您！{SCROLL}",
+   "en": "Argenta: It doesn’t surprise me one bit{NEWLINE}that you won your way here, Champion.{SCROLL}Thank you for those splendid battles.{NEWLINE}Just watching from the side, I could{CLEAR}feel how wide the gap between us is.{SCROLL}Argenta: But I am the Brain here,{NEWLINE}after all. Invincible League Champion{CLEAR}or not, I’ll try to surpass you!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "凯特『唔！{NEWLINE}不愧是冠军的精灵⋯⋯{CLEAR}有一种让人绝望的强大！{CLEAR}怎么说呢,{CLEAR}即便在精灵球当中,{CLEAR}也是不会阻挡那种光芒的！{SCROLL}凯特『下面由我舞台贵妇,{NEWLINE}通过真实的战斗来感受{CLEAR}那种无可比拟的光芒。{CLEAR}也就是说,{CLEAR}精灵对战开始。{SCROLL}",
+   "en": "Argenta: Mmm!{NEWLINE}The Champion’s Pokémon, indeed...{CLEAR}Such strength, it’s almost hopeless!{SCROLL}How shall I put it... Even inside{NEWLINE}a Poké Ball, that brilliance shines!{SCROLL}Argenta: Now I, the Hall Matron, shall{NEWLINE}feel that incomparable brilliance in a{CLEAR}real battle. In other words...{CLEAR}let the Pokémon battle begin.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "凯特『对自己的选择{NEWLINE}不困惑,不更改,{CLEAR}一直贯彻到底⋯⋯{CLEAR}这一点在身为联盟冠军的您身上{CLEAR}尤为明显。{SCROLL}凯特『与您对战让我获益良多,{NEWLINE}下次还请再带上您喜欢的精灵{CLEAR}来我的战斗舞台玩哦。{CLEAR}再见！！{SCROLL}",
+   "en": "Argenta: Never doubting your choice,{NEWLINE}never changing it, seeing it through{CLEAR}to the end... It shows so clearly in{CLEAR}you, the League Champion.{SCROLL}Argenta: I learned a great deal from{NEWLINE}our battle. Next time, bring your{CLEAR}favorite Pokémon to play at my Battle{CLEAR}Hall again. Bye-bye!!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "凯特『您和精灵的默契配合,{NEWLINE}散发出让人着迷的友情光辉,{CLEAR}感谢您让我见识到了{CLEAR}我不曾到达的训练家境界,{CLEAR}我会将从您这学到的东西,{CLEAR}传达给更多的人知道。{SCROLL}凯特『谢谢您能来战斗舞台,{NEWLINE}再见！！{SCROLL}",
+   "en": "Argenta: The teamwork between you and{NEWLINE}your Pokémon glows with a captivating{CLEAR}friendship. Thank you for showing me{CLEAR}a level of Trainer I’ve never reached.{SCROLL}I will pass on what I learned from you{NEWLINE}to many more people.{SCROLL}Argenta: Thank you for coming to the{NEWLINE}Battle Hall. Bye-bye!!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "请选择对战精灵的类型。",
+   "en": "Please select what type of Pokémon{NEWLINE}you’d like to battle.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0441/37"
+  }
+ ]
+}

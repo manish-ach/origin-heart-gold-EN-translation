@@ -1,0 +1,895 @@
+{
+ "narc": "a027",
+ "bank": 547,
+ "source": "work/extract/v4/a027/0547.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "吉尔露太『嘿嘿嘿,莉佳大小姐,{NEWLINE}你已经没有可以战斗的精灵了。{CLEAR}要用你心爱的臭臭花来战斗吗？",
+   "en": "Lawrence: Heh heh heh, Lady Erika, you{NEWLINE}have no Pokémon left that can fight.{SCROLL}Will you fight with your beloved Gloom?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Team Rocket Kanto Base (under the Celadon Game Corner): Erika captured by Lawrence, Petrel, Archie, Maxie and Ariana; the player, Misty, Blue, Cynthia, Steven and the partner (Green or Red) rescue her."
+  },
+  {
+   "id": 1,
+   "zh": "莉佳『真是没想到,{NEWLINE}你们火箭队的基地{CLEAR}竟然藏在我们彩虹市！{CLEAR}是我失算了……",
+   "en": "Erika: I never imagined Team Rocket’s{NEWLINE}base was hidden in our own Celadon City!{SCROLL}I have miscalculated...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "伦达『我他妈也没想到,这次居然能{NEWLINE}活捉一个精灵联盟的馆主,{CLEAR}还是个漂亮娘们,真他妈带劲儿。",
+   "en": "Petrel: I didn’t fucking see it coming{NEWLINE}either. We actually caught a{CLEAR}Pokémon League Gym Leader alive{CLEAR}this time!{SCROLL}And a hot broad at that. Fucking sweet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Petrel: full-strength swearing kept (D-0627, Petrel voice)."
+  },
+  {
+   "id": 3,
+   "zh": "吉尔露太『化石翼龙,燕返！{NEWLINE}莉佳『叶精灵,守住！",
+   "en": "Lawrence: Aerodactyl, Aerial Ace!{SCROLL}Erika: Leafeon, use Protect!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "叶精灵『Lea……",
+   "en": "Leafeon: Lea...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "水吾桐『割开她那雪白的脖颈后,{NEWLINE}流出来的血是不是也带着花香呢？",
+   "en": "Archie: When I slit that snow-white{NEWLINE}throat of hers, I wonder if the blood{CLEAR}will smell of flowers too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "赤焰松『水吾桐,把你的杀心收一收。{NEWLINE}这个人可是我们手里的重要筹码。",
+   "en": "Maxie: Archie, rein in your bloodlust.{SCROLL}She’s an important bargaining chip for{NEWLINE}us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:FF01:200}雅典娜『你们两个住嘴！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Both of you, shut up!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "SIZE-200% shout: zh label 雅典娜 (Ariana) dropped to fit at 2x (as D-0553/D-0719); Lawrence answers her in #8. Double-size shout: one line per page (a line break inside {VAR:FF01:200} overflows the box and corrupts memory; heap_audit.md)."
+  },
+  {
+   "id": 8,
+   "zh": "吉尔露太『好的,雅典娜大人。",
+   "en": "Lawrence: Very well, Master Ariana.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "水吾桐『妈的,赤焰松,{NEWLINE}你在教我做事啊？",
+   "en": "Archie: Dammit, Maxie, you think you can{NEWLINE}tell me what to do?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "赤焰松『你这种没头脑的粗人{NEWLINE}我才懒得教你。",
+   "en": "Maxie: I wouldn’t waste my breath{NEWLINE}teaching a brainless brute like you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "水吾桐『少在那装……",
+   "en": "Archie: Quit putting on airs...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "雅典娜『馆主可是精灵联盟的重要战力,{NEWLINE}怎么使用她需要慎重考虑。{SCROLL}雅典娜『吉尔露太,{NEWLINE}你先把她绑到老大那里去,{CLEAR}让老大来决定如何处置吧。",
+   "en": "Ariana: Gym Leaders are a key part of{NEWLINE}the Pokémon League’s fighting{CLEAR}strength. We must think carefully about{CLEAR}how to use her.{SCROLL}Ariana: Lawrence, tie her up and take{NEWLINE}her to the boss first. Let the boss{CLEAR}decide what to do with her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "吉尔露太『莉佳大小姐,您这么漂亮,{NEWLINE}一定不希望在挣扎中{CLEAR}弄伤自己那美丽的身体吧？{CLEAR}所以请您乖乖被绑起来跟我走吧。{SCROLL}吉尔露太『您的臭臭花作为我们{NEWLINE}抑制精灵狂暴实验的重要材料,{CLEAR}我们会好好替您保管的。",
+   "en": "Lawrence: Lady Erika, a beauty like you{NEWLINE}surely wouldn’t want to hurt that{CLEAR}lovely body of yours by struggling,{CLEAR}would you?{SCROLL}So be a good girl, let me tie you up and{NEWLINE}come along quietly.{SCROLL}Lawrence: As for your Gloom, it’s{NEWLINE}important material for our experiments{CLEAR}on suppressing berserk Pokémon.{SCROLL}We’ll take very good care of it for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "莉佳大小姐 → Lady Erika (Lawrence, mocking)."
+  },
+  {
+   "id": 14,
+   "zh": "莉佳『精灵联盟旗下有十多位馆主,{NEWLINE}还有实力远超馆主们的四大天王,{CLEAR}以及「最强」训练家坂木先生,{CLEAR}不是你们三五个人可以撼动的。{SCROLL}莉佳『我劝你们不要痴心妄想了,{NEWLINE}早早投案自首还能从轻发落。",
+   "en": "Erika: The Pokémon League has over ten{NEWLINE}Gym Leaders, the Elite Four, who are{CLEAR}far stronger still, and Mr. Giovanni,{CLEAR}the ‘strongest’ Trainer of all.{SCROLL}A handful of you cannot shake it.{SCROLL}Erika: I advise you to give up this{NEWLINE}delusion. If you turn yourselves in now,{CLEAR}you may still be shown leniency.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "吉尔露太『哈哈哈哈哈哈！{NEWLINE}伦达『哈哈哈哈哈哈！{SCROLL}水吾桐『哈哈哈哈哈哈！{NEWLINE}赤焰松『哈哈哈哈哈哈！{SCROLL}雅典娜『嘻嘻……",
+   "en": "Lawrence: Ha ha ha ha ha ha!{NEWLINE}Petrel: Ha ha ha ha ha ha!{SCROLL}Archie: Ha ha ha ha ha ha!{NEWLINE}Maxie: Ha ha ha ha ha ha!{SCROLL}Ariana: Tee-hee...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Five executives laugh in turn; two labels per page with {NEWLINE}."
+  },
+  {
+   "id": 16,
+   "zh": "莉佳『有什么好笑的吗……",
+   "en": "Erika: What is so funny...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "吉尔露太『哈哈,你去见见{NEWLINE}我们火箭队的老大{CLEAR}你就知道自己的想法多可笑了。{SCROLL}吉尔露太『来,乖乖地{NEWLINE}让我把你绑起来吧！",
+   "en": "Lawrence: Ha ha! Once you meet the{NEWLINE}boss of Team Rocket, you’ll see how{CLEAR}laughable your ideas are.{SCROLL}Lawrence: Now, be a good girl and let me{NEWLINE}tie you up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0}『住手！放开莉佳馆主！",
+   "en": "{VAR:0103:0}: Stop! Let Gym Leader Erika{NEWLINE}go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0103:0}『住手！别碰莉佳小姐！",
+   "en": "{VAR:0103:0}: Stop! Don’t you touch Miss{NEWLINE}Erika!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "莉佳『……",
+   "en": "Erika: ...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0103:0}『你们这些火箭队的坏人,{NEWLINE}赶紧放了莉佳馆主！",
+   "en": "{VAR:0103:0}: You Team Rocket creeps, let{NEWLINE}Gym Leader Erika go right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0103:0}『你们的基地已经暴露了,{NEWLINE}过会儿四天王就要来抓你们了。{CLEAR}还不乖乖投降！",
+   "en": "{VAR:0103:0}: Your base has been exposed.{NEWLINE}The Elite Four will be here to arrest{CLEAR}you any minute.{SCROLL}So give up quietly!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "吉尔露太『你这小鬼{NEWLINE}是跟莉佳一起来游戏厅的……",
+   "en": "Lawrence: You’re the brat who came to{NEWLINE}the Game Corner with Erika...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "伦达『我日,你不就是在月见山上{NEWLINE}坏破坏我们捕捉梦幻行动的{CLEAR}那个狗娘养的小杂种吗！",
+   "en": "Petrel: Fuck, aren’t you that{NEWLINE}son-of-a-bitch little bastard who{CLEAR}wrecked our Mew-catching op on{CLEAR}Mt. Moon?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "伦达 insults kept at full strength (狗娘养的小杂种)."
+  },
+  {
+   "id": 25,
+   "zh": "水吾桐『还在圣安努号上{NEWLINE}胆敢反抗本大爷！",
+   "en": "Archie: And you had the nerve to defy{NEWLINE}me on the S.S. Anne!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "赤焰松『我在紫苑镇{NEWLINE}没能逼问出那块石头的下落,{CLEAR}也是拜这个小东西所赐啊……",
+   "en": "Maxie: And it’s thanks to this little{NEWLINE}thing that I couldn’t squeeze the{CLEAR}stone’s whereabouts out of anyone in{CLEAR}Lavender Town...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review C011"
+  },
+  {
+   "id": 27,
+   "zh": "雅典娜『好啊,原来那个一直{NEWLINE}碍我们火箭队事的臭小鬼{CLEAR}就是你啊。",
+   "en": "Ariana: Well, well. So you’re the rotten{NEWLINE}brat who’s been getting in Team{CLEAR}Rocket’s way all along.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "雅典娜『还有让咱们秘密仓库{NEWLINE}被迫转移的事,{CLEAR}也是这个臭小鬼干的。",
+   "en": "Ariana: This rotten brat also forced us{NEWLINE}to move our secret warehouse.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "雅典娜『真是天堂有路你不走,{NEWLINE}地狱无门自来投。{CLEAR}胆敢只身向我们伟大的火箭队挑战,{CLEAR}你就乖乖地给我死在这里吧！",
+   "en": "Ariana: There was a road to heaven, and{NEWLINE}you chose the door to hell.{SCROLL}You dared to take on our great Team{NEWLINE}Rocket alone, so be a good little brat{CLEAR}and die here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "小霞『{VAR:0103:0}可不是只身前来的！",
+   "en": "Misty: {VAR:0103:0} didn’t come alone!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "班基拉『Ty——rani！",
+   "en": "Tyranitar: Ty-rani!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "雅典娜『哈哈哈哈,愚蠢的小鬼,{NEWLINE}知道你的弱小和无能了吧？{CLEAR}胆敢只身向我们伟大的火箭队挑战,{CLEAR}你就乖乖地给我死在这里吧！",
+   "en": "Ariana: Ha ha ha ha! Stupid brat, do you{NEWLINE}see now how weak and useless you are?{SCROLL}You dared to take on our great Team{NEWLINE}Rocket alone, so be a good little brat{CLEAR}and die here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "吉尔露太『您请放宽心,雅典娜大人。{NEWLINE}咱们的柜子里还有备用的精灵。{CLEAR}而且这小鬼虽然够厉害,{CLEAR}但终究只有一个人而已,{CLEAR}咱们这么多人还怕干不掉他吗？",
+   "en": "Lawrence: Please rest easy, Master{NEWLINE}Ariana.{SCROLL}We have spare Pokémon in the cabinets.{SCROLL}And this brat may be strong, but in the{NEWLINE}end he’s only one person.{SCROLL}With this many of us, we can surely{NEWLINE}finish him off.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "小霞『现在彩虹道馆的人正在上面{NEWLINE}跟火箭队员周旋,{CLEAR}我们要趁这个空当把莉佳救出来。{CLEAR}按刚才小蓝提出的作战计划,{CLEAR}你现在要跟大伙拖住火箭队的干部,{CLEAR}我趁乱把莉佳救走。拜托了！",
+   "en": "Misty: The Celadon Gym folks are{NEWLINE}upstairs keeping the Rocket grunts{CLEAR}busy. We have to use this chance to{CLEAR}rescue Erika.{SCROLL}Misty: Following the battle plan Green{NEWLINE}came up with, you and the others hold{CLEAR}off the Rocket Executives.{SCROLL}While they’re distracted, I’ll get Erika{NEWLINE}out. I’m counting on you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Partner branch: #34 (Green's plan) / #36 (Red's plan); #42/#46/#48/#75/#87 Green, #43/#47/#49/#76/#88 Red."
+  },
+  {
+   "id": 35,
+   "zh": "{VAR:0103:0}『没问题！",
+   "en": "{VAR:0103:0}: No problem!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "小霞『现在彩虹道馆的人正在上面{NEWLINE}跟火箭队员周旋,{CLEAR}我们要趁这个空当把莉佳救出来。{CLEAR}按刚才小赤提出的作战计划,{CLEAR}你现在要跟大伙拖住火箭队的干部,{CLEAR}我趁乱把莉佳救走。拜托了！",
+   "en": "Misty: The Celadon Gym folks are{NEWLINE}upstairs keeping the Rocket grunts{CLEAR}busy. We have to use this chance to{CLEAR}rescue Erika.{SCROLL}Misty: Following the battle plan Red{NEWLINE}came up with, you and the others hold{CLEAR}off the Rocket Executives.{SCROLL}While they’re distracted, I’ll get Erika{NEWLINE}out. I’m counting on you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "小霞『{VAR:0103:0},我们来帮你啦。{NEWLINE}你独自闯到这里已经很累了吧？{CLEAR}这是大伙带来的补给,{CLEAR}赶紧帮你的精灵回复一下。",
+   "en": "Misty: {VAR:0103:0}, we’re here to help!{SCROLL}You must be worn out after charging in{NEWLINE}here alone.{SCROLL}These are supplies everyone brought.{NEWLINE}Quick, heal your Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "{VAR:0103:0}『真像在月见山那时候呢。",
+   "en": "{VAR:0103:0}: Just like back on Mt. Moon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "{VAR:0103:0}『谢谢,这真是帮了大忙了。",
+   "en": "{VAR:0103:0}: Thanks, this really helps.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "雅典娜『居然被几个臭小鬼{NEWLINE}闯进来砸场子,{CLEAR}传到阿波罗那帮人耳朵里{CLEAR}还不得被笑死。{CLEAR}赶紧把他们给收拾掉,{CLEAR}一个活口也不留！",
+   "en": "Ariana: A few rotten brats barged in{NEWLINE}and trashed the place... If Archer’s{CLEAR}lot hear about this, they’ll laugh{CLEAR}themselves to death.{SCROLL}Finish them off, now. Leave no one{NEWLINE}alive!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "吉尔露太、伦达、赤焰松、水吾桐{NEWLINE}『是！",
+   "en": "Lawrence, Petrel, Maxie & Archie: Yes,{NEWLINE}ma’am!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "小蓝『{VAR:0103:0},{NEWLINE}这个骗人的游戏厅老板{CLEAR}坑了我不少买代币的钱,{CLEAR}陪我揍他！",
+   "en": "Green: {VAR:0103:0}, this crooked Game{NEWLINE}Corner owner cheated me out of loads of{CLEAR}money on coins.{SCROLL}Help me beat him up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "小赤『{VAR:0103:0},{NEWLINE}这个吉尔露太似乎深藏不露,{CLEAR}咱们一起上吧！",
+   "en": "Red: {VAR:0103:0}, this Lawrence seems to{NEWLINE}be hiding his true strength. Let’s take{CLEAR}him on together!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "雅典娜『你这个小鬼还真是有两下子,{NEWLINE}不过这里可是我们火箭队的基地,{CLEAR}我有的是备用精灵！",
+   "en": "Ariana: You really are something, brat.{NEWLINE}But this is Team Rocket’s base.{SCROLL}I have plenty of spare Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "吉尔露太『想不到你们年纪轻轻{NEWLINE}就能有这种实力,{CLEAR}加入我们火箭队{CLEAR}一起征服世界不好吗？{CLEAR}何必在精灵联盟下当个凡人呢。",
+   "en": "Lawrence: Who’d have thought kids so{NEWLINE}young could be this strong?{SCROLL}Why not join Team Rocket and conquer{NEWLINE}the world with us? Why settle for being{CLEAR}nobodies under the Pokémon League?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "小蓝『就你这种在游戏机里{NEWLINE}设后门骗钱的小气劲儿,{CLEAR}也好意思做梦征服世界？",
+   "en": "Green: A cheapskate who rigs backdoors{NEWLINE}in slot machines to scam people dreams{CLEAR}of conquering the world? You’ve got{CLEAR}some nerve!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "小赤『我们才不屑跟你们这种{NEWLINE}残忍自私的人为伍！",
+   "en": "Red: We’d never stoop to joining cruel,{NEWLINE}selfish people like you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "小蓝『{VAR:0103:0},我看住这个家伙。{NEWLINE}你赶紧去帮其他人！",
+   "en": "Green: {VAR:0103:0}, I’ll keep an eye on this{NEWLINE}guy. Hurry and help the others!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "小赤『{VAR:0103:0},我看住这个家伙。{NEWLINE}你赶紧去帮其他人！",
+   "en": "Red: {VAR:0103:0}, I’ll keep an eye on this{NEWLINE}guy. Hurry and help the others!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "{VAR:0103:0}『好！",
+   "en": "{VAR:0103:0}: OK!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0103:0}『希罗娜,我来帮你！",
+   "en": "{VAR:0103:0}: Cynthia, I’m here to help!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "水吾桐『妈的,你们这群小人物{NEWLINE}居然敢冒犯本精英大爷！！！",
+   "en": "Archie: Dammit! How dare you small fry{NEWLINE}disrespect an elite like me?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "希罗娜『你还真是个{NEWLINE}无能狂怒的精英啊。",
+   "en": "Cynthia: You really are an elite... at{NEWLINE}impotent rage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "无能狂怒 (internet slang 'impotent rage') kept."
+  },
+  {
+   "id": 54,
+   "zh": "希罗娜『{VAR:0103:0},{NEWLINE}我不会再让这个家伙乱动了,{CLEAR}你快去帮其他人吧！",
+   "en": "Cynthia: {VAR:0103:0}, I won’t let this guy{NEWLINE}make another move.{SCROLL}Hurry and help the others!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "{VAR:0103:0}『小绿,这个家伙很难缠的,{NEWLINE}咱们一起战斗吧！",
+   "en": "{VAR:0103:0}: Blue, this guy’s a real{NEWLINE}handful. Let’s fight him together!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "小绿『你的精灵恢复的怎么样了？{NEWLINE}这个紫毛老头的攻势越来越猛了,{CLEAR}快来帮忙！",
+   "en": "Blue: How are your Pokémon doing? This{NEWLINE}purple-haired geezer is getting fiercer{CLEAR}by the minute. Come help me out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#56/#57 and #60/#61 are two variants of Blue's line (win order)."
+  },
+  {
+   "id": 57,
+   "zh": "小绿『你的精灵恢复的怎么样了？{NEWLINE}这个紫毛老头的攻势越来越猛了,{CLEAR}快来帮忙吧！",
+   "en": "Blue: How are your Pokémon doing?{SCROLL}This purple-haired geezer is getting{NEWLINE}fiercer by the minute. Come help me out,{CLEAR}would ya!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "伦达『我日你娘了个逼的臭杂种！",
+   "en": "Petrel: I’ll fuck your mother, you{NEWLINE}stinking motherfucking bastard!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "我日你娘了个逼的臭杂种: full strength (D-0627; 妈了个逼 → motherfucking)."
+  },
+  {
+   "id": 59,
+   "zh": "小绿『紫毛老头,{NEWLINE}现在不是当时在月见山的时候了,{CLEAR}把你的臭嘴闭紧吧！",
+   "en": "Blue: Hey, purple-haired geezer, this{NEWLINE}isn’t Mt. Moon anymore. Shut your{CLEAR}filthy trap!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "小绿『{VAR:0103:0},{NEWLINE}本来不用你帮也能赢的,{CLEAR}不过算了,你快去帮其他人吧。{CLEAR}这个紫发老头敢再说一个脏字{CLEAR}我就给他洗洗嘴。",
+   "en": "Blue: {VAR:0103:0}, I could’ve won without{NEWLINE}your help, but whatever.{SCROLL}Go help the others.{SCROLL}If this purple-haired geezer says one{NEWLINE}more dirty word, I’ll wash his mouth out{CLEAR}for him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "小绿『{VAR:0103:0},{NEWLINE}多亏你帮忙才能赢得这么快,{CLEAR}大吾那边也需要帮忙,你快去吧。{CLEAR}这个紫发老头敢再说一个脏字{CLEAR}我就给他洗洗嘴。",
+   "en": "Blue: {VAR:0103:0}, thanks to your help, we{NEWLINE}won in no time. Steven needs help too,{CLEAR}so get going.{SCROLL}If this purple-haired geezer says one{NEWLINE}more dirty word, I’ll wash his mouth out{CLEAR}for him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "{VAR:0103:0}『大吾,咱们一起夹击他！",
+   "en": "{VAR:0103:0}: Steven, let’s hit him from both{NEWLINE}sides!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "大吾『好！火系对手确实挺棘手的。",
+   "en": "Steven: Right! A Fire-type opponent{NEWLINE}really is tricky.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "大吾『好！火系对手确实挺棘手的。",
+   "en": "Steven: Right! A Fire-type opponent{NEWLINE}really is tricky.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "赤焰松『真是没想到,凭你们几个{NEWLINE}就能让我们陷入这种困境。",
+   "en": "Maxie: I never imagined a handful of you{NEWLINE}could put us in such a bind.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "大吾『不低估任何一个对手,{NEWLINE}这是取胜的基础。",
+   "en": "Steven: Never underestimate any{NEWLINE}opponent.{SCROLL}That’s the foundation of victory.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "赤焰松『哼,居然小鬼给教育了。",
+   "en": "Maxie: Hmph. Lectured by a brat.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "大吾『小霞那里陷入苦战了,{NEWLINE}你快去帮她吧！{CLEAR}这些被击败的干部交给我们就行了。",
+   "en": "Steven: Misty’s in a tough fight. Go{NEWLINE}help her, quick!{SCROLL}Leave these defeated Executives to us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "{VAR:0103:0}『小霞,这个人特别厉害,{NEWLINE}咱们一起击败她救出莉佳！",
+   "en": "{VAR:0103:0}: Misty, this woman is really{NEWLINE}strong. Let’s beat her together and{CLEAR}rescue Erika!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "小霞『嗯！打败火箭队,救出莉佳！",
+   "en": "Misty: Right! Let’s beat Team Rocket{NEWLINE}and rescue Erika!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "{VAR:0103:0}『呼……你们在这里的人{NEWLINE}都已经被打败了！{CLEAR}跟我们去上面归案吧！",
+   "en": "{VAR:0103:0}: Phew... Everyone here has{NEWLINE}been beaten!{SCROLL}Come upstairs with us and face justice!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "雅典娜『真是让人惊叹,你们6个小鬼{NEWLINE}居然能击败我们5个火箭队干部……{CLEAR}不过这里可是我们火箭队的基地,{CLEAR}即使发生了这种意外,{CLEAR}你以为你就能捉得住我们？",
+   "en": "Ariana: Astonishing. Six brats actually{NEWLINE}beat five Team Rocket Executives...{SCROLL}But this is Team Rocket’s base. Even{NEWLINE}after a mishap like this, do you really{CLEAR}think you can catch us?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "雅典娜『应急装置,启动！",
+   "en": "Ariana: Emergency system, activate!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "小霞『！！！{NEWLINE}怎么回事！？",
+   "en": "Misty: Wha-?! What’s happening?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "小蓝『大家镇定！保护好自己！",
+   "en": "Green: Everyone, stay calm! Protect{NEWLINE}yourselves!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "小赤『大家镇定！保护好自己！",
+   "en": "Red: Everyone, stay calm! Protect{NEWLINE}yourselves!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "小霞『莉佳,跟我们靠近一点！",
+   "en": "Misty: Erika, stay close to us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "莉佳『好的,我在这里！",
+   "en": "Erika: Yes, I’m right here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "莉佳『看来火箭队的人{NEWLINE}因为战败而逃走了,{CLEAR}不过这里也不是久留之地,{CLEAR}咱们还是先回道馆吧！",
+   "en": "Erika: It seems Team Rocket fled after{NEWLINE}their defeat.{SCROLL}But we shouldn’t linger here either. Let{NEWLINE}us go back to the Gym first!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "莉佳『火箭队在彩虹市设立基地{NEWLINE}我都毫无察觉,{CLEAR}我真的是太失职了。{CLEAR}幸好有诸位的帮忙,{CLEAR}我才能在这次事件中全身而退。{CLEAR}各位的恩情莉佳铭记于心、没齿难忘。",
+   "en": "Erika: Team Rocket set up a base in{NEWLINE}Celadon City, and I noticed nothing. I{CLEAR}have truly failed in my duty.{SCROLL}Thanks to all of your help, I came{NEWLINE}through this unharmed.{SCROLL}I shall never forget your kindness for{NEWLINE}as long as I live.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "莉佳『{VAR:0103:0},当时你挑战完道馆后{NEWLINE}徽章还没有来得及给你,{CLEAR}现在请你收下吧。",
+   "en": "Erika: {VAR:0103:0}, I never had the chance{NEWLINE}to give you your Badge after your Gym{CLEAR}challenge. Please accept it now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "莉佳『能够在这里与诸位相遇{NEWLINE}真是太好了。{CLEAR}祝愿诸位在今后的旅途中一切顺利。{CLEAR}以后如果有时间,{CLEAR}随时欢迎再来我们彩虹道馆玩。{CLEAR}这里的大门永远为你们敞开。",
+   "en": "Erika: I am so glad to have met all of{NEWLINE}you here. I wish you every success on{CLEAR}your journeys.{SCROLL}Whenever you have time, please come and{NEWLINE}visit Celadon Gym. Our doors will always{CLEAR}be open to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "小绿『{VAR:0103:0},{NEWLINE}这次跟在月见山的时候相比{CLEAR}对手更强了,{CLEAR}但是我们却赢到了最后,{CLEAR}看来旅途中的锻炼还是蛮有效果的。{CLEAR}按照现在的势头下去,{CLEAR}将来的精灵联盟冠军一定是我的！{CLEAR}哈哈哈哈！",
+   "en": "Blue: {VAR:0103:0}, our opponents were{NEWLINE}stronger this time than back on{CLEAR}Mt. Moon, but we still won in the end.{SCROLL}Looks like all that training on the road{NEWLINE}has paid off.{SCROLL}At this rate, the future{NEWLINE}Pokémon League Champion is gonna be me!{CLEAR}Ha ha ha ha!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#83/#84 Blue variants; #85/#86/#106 Misty variants (#106 lets the player keep her Gyarados)."
+  },
+  {
+   "id": 84,
+   "zh": "小绿『{VAR:0103:0},{NEWLINE}这次跟在月见山的时候相比{CLEAR}对手更强了,{CLEAR}但是我们却赢到了最后,{CLEAR}看来旅途中的锻炼还是蛮有效果的。{CLEAR}按照现在的势头下去,{CLEAR}联盟冠军也不是遥不可及的事了。",
+   "en": "Blue: {VAR:0103:0}, our opponents were{NEWLINE}stronger this time than back on{CLEAR}Mt. Moon, but we still won in the end.{SCROLL}Looks like all that training on the road{NEWLINE}has paid off.{SCROLL}At this rate, becoming League Champion{NEWLINE}isn’t so far out of reach.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "小霞『这次来彩虹市{NEWLINE}真是发生了不少事情,{CLEAR}果然在外面旅行的见闻{CLEAR}要比在道馆里丰富得多。{CLEAR}可惜我得回去帮忙照看华蓝道馆,{CLEAR}不能跟{VAR:0103:0}你一起旅行了……{SCROLL}小霞『算了,等到石英大会的时候{NEWLINE}咱们还会再见面的,{CLEAR}你一定要收齐8个徽章来参赛啊！",
+   "en": "Misty: So much happened on this trip to{NEWLINE}Celadon City. Traveling really does show{CLEAR}you more than staying in the Gym.{SCROLL}Too bad I have to go back and help look{NEWLINE}after Cerulean Gym. I can’t travel with{CLEAR}you, {VAR:0103:0}...{SCROLL}Misty: Oh well, we’ll see each other{NEWLINE}again at the Indigo Conference.{SCROLL}Make sure you collect all 8 Badges and{NEWLINE}enter!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "小霞『这次来彩虹市{NEWLINE}真是发生了不少事情,{CLEAR}果然在外面旅行的见闻{CLEAR}要比在道馆里丰富得多。{CLEAR}不过华蓝道馆交给吔花姐姐不太靠谱,{CLEAR}我得回去帮忙照看道馆了。{CLEAR}等到石英大会的时候咱们再见啦。",
+   "en": "Misty: So much happened on this trip to{NEWLINE}Celadon City. Traveling really does show{CLEAR}you more than staying in the Gym.{SCROLL}But leaving Cerulean Gym to Daisy isn’t{NEWLINE}very reliable. I have to go back and{CLEAR}help look after it.{SCROLL}See you at the Indigo Conference!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "小蓝『这次能打败火箭队{NEWLINE}真是让人心情舒畅！{CLEAR}不过以后的旅途还长着呢,{CLEAR}再遇到火箭队也别掉以轻心哟。",
+   "en": "Green: Beating Team Rocket this time{NEWLINE}feels great!{SCROLL}But there’s still a long road ahead, so{NEWLINE}don’t let your guard down if you run{CLEAR}into Team Rocket again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "小赤『没想到凭我们几个{NEWLINE}居然能击退5名火箭队的干部。{CLEAR}不过以后再遇到火箭队{CLEAR}也不能掉以轻心,{CLEAR}他们的诡计可多着呢。",
+   "en": "Red: Who’d have thought just a few of{NEWLINE}us could drive off 5 Rocket Executives?{SCROLL}But we can’t let our guard down if we{NEWLINE}meet Team Rocket again. They’re full of{CLEAR}dirty tricks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "{VAR:0103:0}获得了彩虹徽章！",
+   "en": "{VAR:0103:0} received the Rainbow Badge!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "莉佳『还有这个,{NEWLINE}挑战完道馆的例行奖励——",
+   "en": "Erika: And this, the customary reward{NEWLINE}for completing the Gym challenge...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "莉佳『这是我的电话号码,{NEWLINE}也请你记下吧。",
+   "en": "Erika: This is my phone number. Please{NEWLINE}make a note of it as well.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "我靠！{NEWLINE}不就是打伤了你女伴的精灵吗？{CLEAR}至于追到这来吗？{CLEAR}没看到我们也在休息室里治疗吗？",
+   "en": "What the hell! All we did was hurt your{NEWLINE}lady friend’s Pokémon! You chased us{CLEAR}all the way here for that?{SCROLL}Can’t you see we’re healing up in the{NEWLINE}break room too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "我靠！{NEWLINE}不就是打伤了你同伴的精灵吗？{CLEAR}至于追到这来吗？{CLEAR}没看到我们也在休息室里治疗吗？",
+   "en": "What the hell! All we did was hurt your{NEWLINE}friend’s Pokémon! You chased us all the{CLEAR}way here for that?{SCROLL}Can’t you see we’re healing up in the{NEWLINE}break room too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "嘿嘿,今天我们基地的干部全都在家,{NEWLINE}你来这里就是找死。",
+   "en": "Heh heh, all of our base’s Executives{NEWLINE}are home today. Coming here is suicide.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "研发日志1：{NEWLINE}协助冥王大人的实验室{CLEAR}测试新研发的口袋妖怪迷幻剂,{CLEAR}在我们的共同努力下{CLEAR}迷幻剂终于可以无色无味地{CLEAR}添加进口袋妖怪食品中去了。",
+   "en": "R&D Log 1: Helped Master Charon’s lab{NEWLINE}test our new Pokémon hallucinogen.{SCROLL}Through our joint efforts, the{NEWLINE}hallucinogen can finally be added to{CLEAR}Pokémon food with no color or odor.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "这里的床好舒服,{NEWLINE}可以好好休息一下。",
+   "en": "The bed here is so comfy. You can get{NEWLINE}some good rest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "整个人都精神了。",
+   "en": "You feel completely refreshed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "要继续看吗？",
+   "en": "Keep reading?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "研发日志2：{NEWLINE}我们已经准备好了研究基因石的设备,{CLEAR}但赤焰松大人没能找到基因石。{CLEAR}协助富士博士研究的工作{CLEAR}只得暂时作罢。",
+   "en": "R&D Log 2: We have the equipment ready{NEWLINE}to study the gene stone, but Master{CLEAR}Maxie failed to find it.{SCROLL}Our work assisting Dr. Fuji has had to{NEWLINE}be put on hold for now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "研发日志3：{NEWLINE}因强化剂陷入狂暴的精灵{CLEAR}完全不听指挥,{CLEAR}看来这些精灵只能扔掉了。",
+   "en": "R&D Log 3: Pokémon driven berserk by{NEWLINE}the Enhancer won’t obey orders at all.{SCROLL}Looks like these Pokémon will just have{NEWLINE}to be thrown away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "火箭队关东基地干部会议室",
+   "en": "Team Rocket Kanto Base Executive{NEWLINE}Meeting Room",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "玛狃拉『Wea——vil！",
+   "en": "Weavile: Wea-vil!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "火箭队的办公室真大啊,{NEWLINE}比达马兰奇主席的办公室都大。{CLEAR}这么好的物质条件,{CLEAR}很容易吸引那些为了享受{CLEAR}就愿意去伤害别人的训练家吧。",
+   "en": "Team Rocket’s office is huge, even{NEWLINE}bigger than President Goodshow’s.{SCROLL}With perks this good, it must be easy to{NEWLINE}lure Trainers who’ll hurt others just{CLEAR}to live the good life.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "火箭队的科研水平真高啊,{NEWLINE}想想有点可怕。",
+   "en": "Team Rocket’s research is really{NEWLINE}advanced. It’s a bit scary when you{CLEAR}think about it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "精灵联盟——封。",
+   "en": "Sealed by the Pokémon League.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "精灵联盟——封 read as a Pokémon League seal on a door/crate ('Sealed by the Pokémon League'); could also be a letter/envelope. Check in game."
+  },
+  {
+   "id": 106,
+   "zh": "小霞『这次来彩虹市{NEWLINE}真是发生了不少事情,{CLEAR}果然在外面旅行的见闻{CLEAR}要比在道馆里丰富得多。{CLEAR}可惜我得回去帮忙照看华蓝道馆,{CLEAR}不能跟{VAR:0103:0}你一起旅行了……{SCROLL}小霞『我的那只暴鲤龙{NEWLINE}你就留着吧,{CLEAR}感觉你们还蛮合得来的。{CLEAR}等石英大会的时候咱们再比一比,{CLEAR}看看是谁培养的精灵更强！",
+   "en": "Misty: So much happened on this trip to{NEWLINE}Celadon City. Traveling really does show{CLEAR}you more than staying in the Gym.{SCROLL}Too bad I have to go back and help look{NEWLINE}after Cerulean Gym. I can’t travel with{CLEAR}you, {VAR:0103:0}...{SCROLL}Misty: Keep that Gyarados of mine. You{NEWLINE}two seem to get along pretty well.{SCROLL}At the Indigo Conference, let’s battle{NEWLINE}again and see whose team is stronger!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "小绿『看你累的这个样子,{NEWLINE}你的精灵还能挺得住吗？{CLEAR}我这还剩点应急的药,{CLEAR}赶紧给你的精灵恢复一下。",
+   "en": "Blue: Look how worn out you are. Can{NEWLINE}your Pokémon still hold on?{SCROLL}I’ve got some emergency medicine left.{NEWLINE}Quick, heal your Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "小绿『你的精灵好像很疲惫啊,{NEWLINE}正好我这还剩点应急的药,{CLEAR}拿去给精灵恢复一下吧。",
+   "en": "Blue: Your Pokémon look exhausted. I{NEWLINE}happen to have some emergency medicine{CLEAR}left. Take it and heal them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "{VAR:0103:0}『有药吗？那真是太好了。",
+   "en": "{VAR:0103:0}: You have medicine? That’s{NEWLINE}great.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "{VAR:0103:0}『都恢复好了,我这就来帮你。",
+   "en": "{VAR:0103:0}: All healed up. I’m coming to{NEWLINE}help you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

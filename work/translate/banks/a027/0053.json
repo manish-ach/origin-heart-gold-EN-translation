@@ -1,0 +1,1852 @@
+{
+ "narc": "a027",
+ "bank": 53,
+ "source": "work/extract/v4/a027/0053.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "走开！离开这里！",
+   "en": "Go away! Leave this place!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "{VAR:FF01:200}离开这里！！！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Get out of here!!!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "SIZE-200% big text: split with {NEWLINE} to fit at 2x (as D-0553). Double-size shout: one line per page (a line break inside {VAR:FF01:200} overflows the box and corrupts memory; heap_audit.md)."
+  },
+  {
+   "id": 2,
+   "zh": "真是稀奇啊,{NEWLINE}居然有人会到这里来。{SCROLL}最近可是有很多{NEWLINE}关于这里的灵异传闻呢,{CLEAR}我是因为太过思念已经死掉的尼多兰,{CLEAR}才鼓起勇气来这里祭扫的。{SCROLL}你为什么来这里呢？{NEWLINE}如果是因为好奇的话{CLEAR}劝你赶紧回去吧,{CLEAR}感觉这座塔上似乎有着{CLEAR}很不祥的东西啊。",
+   "en": "How unusual. Someone actually came up{NEWLINE}here.{SCROLL}There have been a lot of ghost stories{NEWLINE}about this place lately.{SCROLL}I missed my Nidoran♀ so much after it{NEWLINE}died that I worked up the courage to{CLEAR}come and tend its grave.{SCROLL}Why are you here? If it’s just{NEWLINE}curiosity, you’d better turn back.{SCROLL}I get the feeling there’s something{NEWLINE}very ominous up in this tower.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "qa-lints: Nidoran♀/♂ per zh 尼多兰/尼多朗 (glossary, RB-D01)"
+  },
+  {
+   "id": 3,
+   "zh": "小绿『啊,{VAR:0103:0}！{NEWLINE}你来这里干什么？{CLEAR}镇上可是传言这座塔里会闹鬼哦。",
+   "en": "Blue: Ah, {VAR:0103:0}! What are you doing{NEWLINE}here?{SCROLL}Word in town is that this tower is{NEWLINE}haunted.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Blue meets the player: #3/#4 are two variants of the same line."
+  },
+  {
+   "id": 4,
+   "zh": "小绿『啊,{VAR:0103:0}！{NEWLINE}你怎么也来这里了？{CLEAR}镇上可是传言这座塔里会闹鬼的。",
+   "en": "Blue: Ah, {VAR:0103:0}! You came here too?{SCROLL}Word in town is that this tower is{NEWLINE}haunted.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "小绿『像你这样实力的人,{NEWLINE}还是乖乖回去比较安全。{CLEAR}还是说……{CLEAR}你想让我看看你的实力？",
+   "en": "Blue: Someone at your level had better{NEWLINE}just head home where it’s safe.{SCROLL}Or... do you want me to test how strong{NEWLINE}you are?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "小绿『为了不再让你陷入{NEWLINE}圣安努号那种险境,{CLEAR}{VAR:0103:0}你还是回精灵中心{CLEAR}等我的消息吧。{SCROLL}小绿『如果你非要上塔的话,{NEWLINE}可得拿出足够的实力来哦！",
+   "en": "Blue: I don’t want you ending up in{NEWLINE}danger like on the S.S. Anne again.{SCROLL}{VAR:0103:0}, go back to the Pokémon Center{NEWLINE}and wait to hear from me.{SCROLL}Blue: If you insist on going up the{NEWLINE}tower, you’d better show me you’re{CLEAR}strong enough!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "是否向小绿挑战？",
+   "en": "Challenge Blue?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "小绿『很好,你终于明白{NEWLINE}自己的弱小了。{CLEAR}那么调查精灵塔的事就交给我啦！",
+   "en": "Blue: Good. You finally get how weak you{NEWLINE}are.{SCROLL}Leave the Pokémon Tower investigation{NEWLINE}to me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "小绿『嗯,{VAR:0103:0}你先回去,{NEWLINE}等我把这里调查清楚就回去。",
+   "en": "Blue: Right, {VAR:0103:0}, you head back{NEWLINE}first. I’ll come back once I’ve gotten{CLEAR}to the bottom of this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "小绿『好！{NEWLINE}就让我看看你现在的实力！",
+   "en": "Blue: All right! Let’s see how strong{NEWLINE}you are now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "小绿『行！{NEWLINE}看来是我太低估你了。",
+   "en": "Blue: Fine! Guess I underestimated you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "小绿『哇,真实惊人的进步！{NEWLINE}你就在这座塔上随意调查吧。",
+   "en": "Blue: Whoa, that’s some amazing{NEWLINE}progress! Go ahead and investigate the{CLEAR}tower however you like.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "小绿『根据我刚才的调查,{NEWLINE}塔的这一层应该没有什么古怪,{CLEAR}你再去更高层看看如何？",
+   "en": "Blue: From what I just checked, there’s{NEWLINE}nothing weird on this floor.{SCROLL}How about checking the higher floors?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "卡咪龟『War——toooo！",
+   "en": "Wartortle: War-toooo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "妈妈『天呐,{VAR:0103:0}！{NEWLINE}居然在这里遇到你！",
+   "en": "Mom: Good heavens, {VAR:0103:0}! Fancy{NEWLINE}running into you here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "妈妈『你说你离开家这么久了,{NEWLINE}从来就没主动联系过妈妈！{CLEAR}有时候妈妈给你打电话{CLEAR}想告诉你有包裹寄给你,{CLEAR}结果你都不愿意接！{SCROLL}妈妈『你这孩子怎么这样,{NEWLINE}太让妈妈寒心了！{CLEAR}我现在不许你再外出旅行了！{CLEAR}给我回家好好反思去！",
+   "en": "Mom: You’ve been gone so long, and{NEWLINE}you’ve never once called your mother!{SCROLL}When I call to tell you a package has{NEWLINE}come for you, you won’t even pick up!{SCROLL}Mom: How can you be like this? You’ve{NEWLINE}broken my heart!{SCROLL}I’m not letting you travel anymore! Go{NEWLINE}home and think about what you’ve done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#15-#22: illusion of Mom created by the Magcargo mist (Team Rocket trick); #21 son / #22 daughter by player gender."
+  },
+  {
+   "id": 17,
+   "zh": "妈妈『{VAR:0103:0}！{NEWLINE}你这孩子真是的,{CLEAR}怎么看到妈妈都不打招呼呢！",
+   "en": "Mom: {VAR:0103:0}! Honestly, you won’t even{NEWLINE}say hello when you see your own mother!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "要听妈妈的话回去吗？",
+   "en": "Do as Mom says and go home?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "妈妈『连妈妈的话都不听了！{NEWLINE}你这孩子是想造反吗！",
+   "en": "Mom: You won’t even listen to your own{NEWLINE}mother now! Are you trying to rebel?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "可恶……{NEWLINE}有幻觉迷雾的加成也赢不了吗？",
+   "en": "Dammit... Even with the illusion mist{NEWLINE}boosting us, we still can’t win?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "妈妈恨啊,{NEWLINE}恨怎么生了你这么个儿子！",
+   "en": "Oh, how I regret it! How I regret giving{NEWLINE}birth to a son like you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "妈妈恨啊,{NEWLINE}恨怎么生了你这么个女儿！",
+   "en": "Oh, how I regret it! How I regret giving{NEWLINE}birth to a daughter like you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "我是第一次来这里站岗,{NEWLINE}以前可从来没见过这个{CLEAR}能制造幻觉的熔岩蜗牛呢。{CLEAR}这东西真有传说的这么厉害吗？",
+   "en": "It’s my first time standing guard here.{NEWLINE}I’ve never seen this illusion-making{CLEAR}Magcargo before.{SCROLL}Is it really as powerful as they say?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "那当然,这可是赤焰松大人{NEWLINE}亲手培育的熔岩蜗牛。{SCROLL}它放出的迷烟{NEWLINE}跟这塔里原有的雾气一混合,{CLEAR}就能让人产生各种恐怖的幻觉。{SCROLL}咱们每天只要放出熔岩蜗牛一小会儿{NEWLINE}就能让塔上的幻觉效果持续好久。",
+   "en": "Of course. Master Maxie raised this{NEWLINE}Magcargo himself.{SCROLL}When the smoke it gives off mixes with{NEWLINE}the mist already in this tower, people{CLEAR}see all sorts of horrifying illusions.{SCROLL}We only have to let the Magcargo out{NEWLINE}for a little while each day, and the{CLEAR}illusions in the tower last for ages.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "幸好发了这个西鲁夫透视镜,{NEWLINE}不然连咱们自己也得中招了。",
+   "en": "Good thing they issued us these Silph{NEWLINE}Scopes, or we’d fall for it ourselves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0103:0}『原来塔上的灵异传闻{NEWLINE}都是你们火箭队搞的鬼！",
+   "en": "{VAR:0103:0}: So Team Rocket is behind all{NEWLINE}the ghost stories in the tower!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "怎么搞的！？{NEWLINE}居然有人能突破下面的幻觉阻碍！？",
+   "en": "What the?! Someone got past the{NEWLINE}illusions downstairs?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "可恶……{NEWLINE}被发现了。{CLEAR}怎么办？要撤退吗？",
+   "en": "Dammit... We’ve been found out. What do{NEWLINE}we do? Retreat?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "怕什么！让他见识一下{NEWLINE}有迷雾加成的精灵是多么恐怖！",
+   "en": "What are you scared of?!{SCROLL}Let’s show him how terrifying{NEWLINE}mist-boosted Pokémon are!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "怎么可能……{NEWLINE}居然打败了有幻觉加成的我们！？",
+   "en": "Impossible... We had the illusion boost,{NEWLINE}and we still lost?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "这下可事大了,{NEWLINE}快去向赤焰松大人报告吧！",
+   "en": "This is bad. Go report to Master Maxie,{NEWLINE}quick!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "走！",
+   "en": "Go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "熔岩蜗牛『Maaaa——",
+   "en": "Magcargo: Maaaa-",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "熔岩蜗牛失去了指挥,{NEWLINE}已经不能再制造幻觉了。{CLEAR}要收服它吗？",
+   "en": "With no one giving it orders, Magcargo{NEWLINE}can no longer create illusions.{SCROLL}Catch it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "要使用西鲁夫透视镜看看{NEWLINE}可拉可拉面前到底有什么吗？",
+   "en": "Use the Silph Scope to see what’s really{NEWLINE}in front of Cubone?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "嘎啦嘎啦『Maro——Maro！",
+   "en": "Marowak: Maro-Maro!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "{VAR:0103:0}『嘎啦嘎啦！？难道它是……",
+   "en": "{VAR:0103:0}: Marowak?! Could it be...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "可拉可拉『Cubo————！{SCROLL}可拉可拉趴在你的身上放声大哭……{SCROLL}……{SCROLL}……{SCROLL}……{SCROLL}……",
+   "en": "Cubone: Cubo-----!{SCROLL}Cubone clings to you and bawls its eyes{NEWLINE}out...{SCROLL}...{SCROLL}...{SCROLL}...{SCROLL}...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "{VAR:FF01:200}可拉可拉『Cubo！！！！！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Cubone: Cubo!!!!!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "SIZE-200% big text: label kept, split with {NEWLINE} (as 0048 #5/#6); check it fits at 2x. Double-size shout: one line per page (a line break inside {VAR:FF01:200} overflows the box and corrupts memory; heap_audit.md)."
+  },
+  {
+   "id": 40,
+   "zh": "可拉可拉『Cubo……{NEWLINE}Cubo、Cubo！",
+   "en": "Cubone: Cubo... Cubo, Cubo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "嘎啦嘎啦『Maro——",
+   "en": "Marowak: Maro-",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "可拉可拉『Cubo……Cubo……{NEWLINE}Cubo……Cubo……",
+   "en": "Cubone: Cubo... Cubo... Cubo... Cubo...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "可拉可拉『Cubo————",
+   "en": "Cubone: Cubo-----",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0103:0}『可拉可拉,{NEWLINE}你终于还是跟妈妈见面了。{CLEAR}她看到你现在健康平安的样子后,{CLEAR}脸上露出了笑容呢。{CLEAR}尽管她现在已经走了,{CLEAR}但最后能这样好好道别,{CLEAR}已经很不错了,{CLEAR}你说呢？",
+   "en": "{VAR:0103:0}: Cubone, you got to see your{NEWLINE}mom after all.{SCROLL}When she saw you safe and healthy, she{NEWLINE}smiled.{SCROLL}She’s gone now, but getting to say a{NEWLINE}proper goodbye at the end... That’s{CLEAR}something, don’t you think?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0103:0}『怎么样,{NEWLINE}哭过之后心情应该好点了吧？{SCROLL}{VAR:0103:0}『现在这座塔里还有很多坏人,{NEWLINE}你留在这里太危险。{CLEAR}为了不让你的妈妈再担心,{CLEAR}你先回精灵之家去吧,可以吗？",
+   "en": "{VAR:0103:0}: How’s that? Feeling a bit{NEWLINE}better after a good cry?{SCROLL}{VAR:0103:0}: There are still lots of bad{NEWLINE}guys in this tower. It’s too dangerous{CLEAR}for you to stay here.{SCROLL}So your mom won’t have to worry{NEWLINE}anymore, head back to the Pokémon{CLEAR}House first, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "可拉可拉『Cu——bo！",
+   "en": "Cubone: Cu-bo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "赤焰松大人现在正在审讯,{NEWLINE}有什么事过会儿汇报！",
+   "en": "Master Maxie is in the middle of an{NEWLINE}interrogation.{SCROLL}Whatever it is, report it later!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "那个小鬼已经明确知道{NEWLINE}我们藏身在这里了,{CLEAR}这事一旦传出去的话……",
+   "en": "That brat knows for sure that we’re{NEWLINE}hiding here. If word gets out...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "那又怎么样呢,{NEWLINE}有那个嘎啦嘎啦鬼魂{CLEAR}在楼梯口警告路人不要靠近,{CLEAR}不可能有人上来的。",
+   "en": "So what? With that Marowak ghost at{NEWLINE}the stairs warning people off, nobody’s{CLEAR}going to come up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "那个……其实我们……{NEWLINE}弄丢了一个西鲁夫透视镜……",
+   "en": "Um... Actually, we... lost one of the{NEWLINE}Silph Scopes...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "你们两个混蛋！{NEWLINE}那个也能随便弄丢吗？",
+   "en": "You two bastards! How do you just lose{NEWLINE}something like that?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "就是这个小鬼！{NEWLINE}他上来啦！",
+   "en": "It’s that brat! He’s coming up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "慌张什么！{NEWLINE}干掉他就是了！",
+   "en": "What are you panicking for?! Just take{NEWLINE}him out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "还真是个有本事的小鬼！{SCROLL}不过你要是以为{NEWLINE}你能妨碍到赤焰松大人,{CLEAR}那你可就太天真了！",
+   "en": "You really are a capable brat!{SCROLL}But if you think you can get in Master{NEWLINE}Maxie’s way, you’re way too naive!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "小绿『{VAR:0103:0}！",
+   "en": "Blue: {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "小绿『你又想自己{NEWLINE}冲在前面出风头了！{CLEAR}既然知道是火箭队在塔上搞阴谋,{CLEAR}我可不能坐视不管。{SCROLL}小绿『这次你就好好看看{NEWLINE}我是怎么痛扁他们的吧！",
+   "en": "Blue: Charging ahead to hog the glory{NEWLINE}again?{SCROLL}Now that we know Team Rocket is{NEWLINE}scheming in the tower, I can’t just{CLEAR}stand by.{SCROLL}Blue: This time, just watch how I beat{NEWLINE}them to a pulp!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Partner branch: #56 (Blue alone) vs #57 (Blue with partner); #58 Green / #59 Red partner lines. Green partner: #75/#79/#93/#95/#99/#101/#104/#126; Red partner: #76/#80/#94/#96/#100/#102/#105/#127."
+  },
+  {
+   "id": 57,
+   "zh": "小绿『你可别再只身犯险了,{NEWLINE}还有我们在呢！{CLEAR}既然知道是火箭队在塔上搞阴谋,{CLEAR}我们当然不能坐视不管。{SCROLL}小绿『这次就让我来打头阵{NEWLINE}好好痛扁他们一顿吧！",
+   "en": "Blue: Don’t go risking your neck alone{NEWLINE}again. You’ve got us!{SCROLL}Now that we know Team Rocket is{NEWLINE}scheming in the tower, we can’t just{CLEAR}stand by.{SCROLL}Blue: This time, let me lead the charge{NEWLINE}and beat them to a pulp!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "小蓝『我就觉得火箭队还没离开镇子,{NEWLINE}这里面肯定有不可告人的秘密。{CLEAR}咱们一起去弄个清楚去！",
+   "en": "Green: I had a feeling Team Rocket{NEWLINE}hadn’t left town. There’s some dirty{CLEAR}secret in here for sure.{SCROLL}Let’s go and get to the bottom of it{NEWLINE}together!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "小赤『果然火箭队没有离开镇子,{NEWLINE}肯定是有什么非留在这里的理由。{CLEAR}咱们一起去弄个清楚去！",
+   "en": "Red: Just as I thought, Team Rocket{NEWLINE}hasn’t left town. They must have some{CLEAR}reason to stay here.{SCROLL}Let’s go and get to the bottom of it{NEWLINE}together!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "赤焰松『我说富士老先生,{NEWLINE}真没想到您隐居在这个破小镇{CLEAR}安安静静地做起了精灵饲育家啊。",
+   "en": "Maxie: Well, well, old Mr. Fuji. Who’d{NEWLINE}have thought you’d be hiding away in{CLEAR}this shabby little town, quietly working{CLEAR}as a Pokémon breeder?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Maxie (Rocket executive) interrogates Mr. Fuji about the stone; 'important research subject' that escaped = presumably Mewtwo."
+  },
+  {
+   "id": 61,
+   "zh": "富士老人『我只是个{NEWLINE}照顾弱小精灵的热心老头罢了,{CLEAR}饲育家可不敢当。",
+   "en": "Mr. Fuji: I’m just a kindly old man who{NEWLINE}looks after weak Pokémon. I’d hardly{CLEAR}call myself a breeder.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "赤焰松『哈哈,您可真爱说笑,{NEWLINE}以您那广博的口袋妖怪基因学知识,{CLEAR}当个饲育家算是屈才了。",
+   "en": "Maxie: Ha ha, you do love your jokes.{SCROLL}With your vast knowledge of Pokémon{NEWLINE}genetics, working as a breeder is a{CLEAR}waste of your talents.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "富士老人『不好意思啊这位大人,{NEWLINE}我就是个乡下老头,{CLEAR}对口袋妖怪基因这么高深的东西{CLEAR}完全是一窍不通。",
+   "en": "Mr. Fuji: Forgive me, sir, but I’m just{NEWLINE}an old country man.{SCROLL}Something as lofty as Pokémon genetics{NEWLINE}is completely beyond me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "赤焰松『您弟弟富士博士,{NEWLINE}可是我们火箭队的顶级科学家。{CLEAR}您在这跟我们装傻{CLEAR}可是一点意思都没有。",
+   "en": "Maxie: Your younger brother, Dr. Fuji,{NEWLINE}is one of Team Rocket’s top scientists.{SCROLL}Playing dumb with us will get you{NEWLINE}nowhere.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "富士老人『什么？那个家伙……{NEWLINE}他为了自己那个疯狂的想法,{CLEAR}居然跑去跟你们火箭队勾结！",
+   "en": "Mr. Fuji: What? That man... He went and{NEWLINE}joined forces with Team Rocket for the{CLEAR}sake of that insane idea of his!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "赤焰松『话不是这么说的,{NEWLINE}我们火箭队为您弟弟提供的{CLEAR}是实现梦想的平台,{CLEAR}作为交换,{CLEAR}您弟弟也为我们火箭队提供了{CLEAR}不可或缺的科研力量。{CLEAR}这属于典型的共赢合作。",
+   "en": "Maxie: That’s not how I’d put it. Team{NEWLINE}Rocket gives your brother a platform to{CLEAR}realize his dream.{SCROLL}In exchange, your brother gives Team{NEWLINE}Rocket research capabilities we can’t{CLEAR}do without.{SCROLL}A textbook win-win partnership.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "富士老人『既然这样,{NEWLINE}你们去跟他合作好了,抓我干什么。",
+   "en": "Mr. Fuji: Then go and work with him. Why{NEWLINE}drag me into it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "赤焰松『富士博士主持的一个科研项目{NEWLINE}是实现我们火箭队终极目标的重要保证。{SCROLL}赤焰松『但是前段时间{NEWLINE}实验室逃脱了一个重要的研发素材,{CLEAR}这使得富士博士的科研项目{CLEAR}陷入了不可预知的困境。{SCROLL}赤焰松『根据富士博士所说,{NEWLINE}您当年发现了一块珍贵的石头{CLEAR}或许能激发口袋妖怪的基因潜力。{CLEAR}我想跟您借这块石头{CLEAR}来帮助您弟弟克服目前的研究困境,{CLEAR}请您务必助我们一臂之力哟。",
+   "en": "Maxie: One of Dr. Fuji’s research{NEWLINE}projects is vital to achieving Team{CLEAR}Rocket’s ultimate goal.{SCROLL}Maxie: But some time ago, an important{NEWLINE}research subject escaped from the lab.{SCROLL}Dr. Fuji’s project has run into trouble{NEWLINE}no one could have foreseen.{SCROLL}Maxie: According to Dr. Fuji, years ago{NEWLINE}you found a precious stone that may{CLEAR}unlock a Pokémon’s genetic potential.{SCROLL}I’d like to borrow that stone to help{NEWLINE}your brother out of his rut.{SCROLL}Do lend us a hand, won’t you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "富士老人『我弟弟他那是疯了！{NEWLINE}这世上哪有这种石头？",
+   "en": "Mr. Fuji: My brother has lost his mind!{NEWLINE}There’s no such stone in this world!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "赤焰松『嘿嘿,{NEWLINE}你还真是个贪恋奇珍异宝的人。{CLEAR}你就不怕紫苑镇的居民,{CLEAR}因为你的贪婪而丢掉性命吗？",
+   "en": "Maxie: Heh heh. You really do cling to{NEWLINE}your precious treasures.{SCROLL}Aren’t you afraid the people of{NEWLINE}Lavender Town will lose their lives{CLEAR}because of your greed?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "{VAR:0103:0}『你们休想再伤害任何人！",
+   "en": "{VAR:0103:0}: You’re not hurting anyone{NEWLINE}else!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "赤焰松『真让人惊讶,{NEWLINE}居然有人可以到达这里。",
+   "en": "Maxie: How surprising. Someone actually{NEWLINE}made it all the way up here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "赤焰松『哼,有勇无谋,{NEWLINE}真是不知天高地厚的小鬼。",
+   "en": "Maxie: Hmph. All guts and no brains. A{NEWLINE}brat who doesn’t know his place.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "小绿『不用惊讶得太早,{NEWLINE}等你们被抓起来之后再慢慢惊讶吧！",
+   "en": "Blue: Don’t get surprised too soon.{NEWLINE}Save it for after you’re under arrest!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "小蓝『嘿嘿,阴谋败露之后{NEWLINE}您也开始紧张了呢,赤焰松大人。",
+   "en": "Green: Heh heh. Now that your scheme’s{NEWLINE}been exposed, you’re getting nervous{CLEAR}too, aren’t you, Master Maxie?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "小赤『冷静,小绿。{NEWLINE}这个赤焰松并不好对付……",
+   "en": "Red: Stay calm, Blue. This Maxie is no{NEWLINE}pushover...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "赤焰松『你认识我！？{NEWLINE}看来留你们不得。{SCROLL}赤焰松『你们几个给我上,{NEWLINE}把他们统统杀掉！",
+   "en": "Maxie: You know who I am?! Then I can’t{NEWLINE}let you leave.{SCROLL}Maxie: You lot, get them! Kill every last{NEWLINE}one of them!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "火箭队员『是！",
+   "en": "Grunts: Yes, sir!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "小绿『就凭你们？上啊卡咪龟！{NEWLINE}小蓝『这几个下属可不够看喔！",
+   "en": "Blue: You lot? Go, Wartortle!{SCROLL}Green: These underlings aren’t nearly{NEWLINE}enough!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "小绿『就凭你们？上啊卡咪龟！{NEWLINE}小赤『去吧妙蛙草！",
+   "en": "Blue: You lot? Go, Wartortle!{SCROLL}Red: Go, Ivysaur!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "赤焰松『哦？有两下子。{NEWLINE}看来并非是头脑发热才冲上来的。{SCROLL}赤焰松『你们都让开点,{NEWLINE}让我陪这几个小鬼玩玩。",
+   "en": "Maxie: Oh? Not bad. So you didn’t just{NEWLINE}charge up here on a hot-headed whim.{SCROLL}Maxie: Stand aside, all of you. Let me{NEWLINE}play with these brats myself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "赤焰松『出来吧,喷火驼！",
+   "en": "Maxie: Come forth, Camerupt!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "喷火驼『Came——ruuuu！",
+   "en": "Camerupt: Came-ruuuu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "赤焰松『你们做好去死的觉悟了吗？",
+   "en": "Maxie: Are you prepared to die?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "{VAR:0103:0}『我们做好的{NEWLINE}只有打败你的觉悟！",
+   "en": "{VAR:0103:0}: The only thing we’re prepared{NEWLINE}for is beating you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "小绿『让你看看我们的厉害！",
+   "en": "Blue: We’ll show you what we’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "{VAR:0103:0}『我们今天{NEWLINE}一定要粉碎你们的阴谋！",
+   "en": "{VAR:0103:0}: We’re going to crush your{NEWLINE}scheme today!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "{VAR:0103:0}『看来今天{NEWLINE}你要在这里栽跟头了哟！",
+   "en": "{VAR:0103:0}: Looks like today’s the day you{NEWLINE}fall flat on your face!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "赤焰松『哈哈哈嘿,口气倒是不小！",
+   "en": "Maxie: Ha ha ha heh! Big talk!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "小绿『嘿嘿,已经打倒你两只精灵了！",
+   "en": "Blue: Heh heh, that’s two of your{NEWLINE}Pokémon down already!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "赤焰松『少得意忘形！{NEWLINE}看我的鸭嘴炎兽！",
+   "en": "Maxie: Don’t get cocky! Go, Magmortar!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "鸭嘴炎兽『Mag——morta！",
+   "en": "Magmortar: Mag-morta!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "小蓝『看起来挺唬人的呢,{NEWLINE}咱们一起上吧,{VAR:0103:0}！",
+   "en": "Green: That thing looks pretty scary.{NEWLINE}Let’s take it on together, {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "小赤『看起来挺厉害的,{NEWLINE}咱们一起上,{VAR:0103:0}！",
+   "en": "Red: It looks tough. Let’s take it on{NEWLINE}together, {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "小蓝『哎呀呀呀,{NEWLINE}这个鸭嘴炎兽不怎么行嘛！",
+   "en": "Green: Oh my, my, this Magmortar isn’t{NEWLINE}much, is it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "小赤『很好,他现在只剩2只口袋妖怪了！",
+   "en": "Red: Good, he’s down to his last 2{NEWLINE}Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "赤焰松『哼,你们手里{NEWLINE}也没几只能战斗的精灵了！{CLEAR}看我的大狼犬把你们撕碎！",
+   "en": "Maxie: Hmph! You hardly have any{NEWLINE}Pokémon left that can fight either!{SCROLL}My Mightyena will tear you to shreds!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "大狼犬『Migh——tyeee！",
+   "en": "Mightyena: Migh-tyeee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "{VAR:0103:0}『小绿、小蓝,{NEWLINE}你们先休息一下,{CLEAR}剩下的交给我吧！",
+   "en": "{VAR:0103:0}: Blue, Green, you two take a{NEWLINE}breather. Leave the rest to me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "{VAR:0103:0}『小绿、小赤,{NEWLINE}你们先休息一下,{CLEAR}剩下的交给我吧！",
+   "en": "{VAR:0103:0}: Blue, Red, you two take a{NEWLINE}breather. Leave the rest to me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "小蓝『来,{VAR:0103:0},{NEWLINE}这是我准备的恢复药,{CLEAR}只够回复6只精灵的,{CLEAR}后面就看你的了！{CLEAR}不许让我们失望哟！",
+   "en": "Green: Here, {VAR:0103:0}. This is the{NEWLINE}medicine I brought. It’s only enough to{CLEAR}heal 6 Pokémon.{SCROLL}It’s all up to you now! Don’t you dare{NEWLINE}let us down!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "小赤『来,{VAR:0103:0},{NEWLINE}这是我准备的恢复药,{CLEAR}只够回复6只精灵的,{CLEAR}后面就看你的了！",
+   "en": "Red: Here, {VAR:0103:0}. This is the medicine{NEWLINE}I brought.{SCROLL}It’s only enough to heal 6 Pokémon.{SCROLL}It’s all up to you now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "{VAR:0103:0}『这是你准备的药,{NEWLINE}我怎么能……",
+   "en": "{VAR:0103:0}: But this is your medicine. How{NEWLINE}can I...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "小蓝『别啰里啰嗦了,{NEWLINE}咱们三个里就属你最能打！{CLEAR}给我上！",
+   "en": "Green: Quit dithering! Of the three of{NEWLINE}us, you’re the best fighter! Now get{CLEAR}out there!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "小赤『药只够恢复一个人的精灵,{NEWLINE}我和小绿选择相信你,{CLEAR}放手一搏吧！",
+   "en": "Red: There’s only enough medicine for{NEWLINE}one person’s Pokémon. Blue and I have{CLEAR}chosen to believe in you.{SCROLL}Give it everything you’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "{VAR:0103:0}『我知道了,交给我吧！",
+   "en": "{VAR:0103:0}: Got it. Leave it to me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "{VAR:0103:0}『火箭队！{NEWLINE}你们这次的阴谋休想得逞！",
+   "en": "{VAR:0103:0}: Team Rocket! Your scheme{NEWLINE}won’t work this time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "赤焰松『我倒要看看{NEWLINE}你们窃窃私语大半天,{CLEAR}能翻起多大水花来！",
+   "en": "Maxie: After all that whispering, let’s{NEWLINE}see how big a splash you can make!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "赤焰松『我赤焰松大人竟然……{NEWLINE}竟然输给了三个小鬼！{CLEAR}奇耻大辱！简直是奇耻大辱！",
+   "en": "Maxie: I, the great Maxie... lost... lost{NEWLINE}to three brats!{SCROLL}The humiliation! The utter humiliation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "{VAR:0103:0}『不行了,撑不住了……",
+   "en": "{VAR:0103:0}: I can’t... I can’t hold on...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "赤焰松『哈哈哈哈哈哈,{NEWLINE}你们这就是以卵击石自取灭亡！",
+   "en": "Maxie: Ha ha ha ha ha ha! Throwing eggs{NEWLINE}at a rock!{SCROLL}You’ve only destroyed yourselves!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "以卵击石 (egg against a rock) kept as an image."
+  },
+  {
+   "id": 112,
+   "zh": "不好了赤焰松大人！{NEWLINE}不好了！不好了！",
+   "en": "Master Maxie, trouble! Big trouble! Big,{NEWLINE}big trouble!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "赤焰松『少废话！什么事不好了？",
+   "en": "Maxie: Spit it out! What trouble?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "四天王！{NEWLINE}四天王的菊子……{CLEAR}菊子来了！",
+   "en": "The Elite Four! Agatha of the Elite{NEWLINE}Four...{SCROLL}Agatha is here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "赤焰松『可恶,偏偏在这种时候！",
+   "en": "Maxie: Damn it! Of all the times!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "菊子『看来这紫苑镇的精灵塔上{NEWLINE}还真是发生了不得了的事啊！",
+   "en": "Agatha: Well! Looks like something{NEWLINE}serious really has been going on in{CLEAR}Lavender Town’s Pokémon Tower!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "菊子『我记得你这个红毛小子,{NEWLINE}你是参加过石英大会的那个……",
+   "en": "Agatha: I remember you, you red-haired{NEWLINE}whelp. You’re the one who competed in{CLEAR}the Indigo Conference...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Agatha calls Maxie 红毛小子 (red-haired boy) and remembers him from the Indigo Conference."
+  },
+  {
+   "id": 118,
+   "zh": "赤焰松『这个老太婆不好对付！{NEWLINE}先撤退！",
+   "en": "Maxie: This old hag is trouble! Fall{NEWLINE}back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "赤焰松『你们这些碍眼的臭虫！",
+   "en": "Maxie: You pests, always getting in my{NEWLINE}way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "赤焰松『像你们这种臭小鬼{NEWLINE}来多少都一样！",
+   "en": "Maxie: Brats like you, it makes no{NEWLINE}difference how many of you come!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "菊子『终究是年轻人腿脚好啊,{NEWLINE}溜得可真够快的……{CLEAR}也罢,以后还有抓的机会。",
+   "en": "Agatha: Young legs are quick, I’ll give{NEWLINE}them that.{SCROLL}Scampered off fast enough...{SCROLL}Oh, well. There’ll be other chances to{NEWLINE}catch him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "菊子『多亏你们几个{NEWLINE}在我来之前拖住火箭队,{CLEAR}保护了紫苑镇。{SCROLL}菊子『你们要是不赶时间的话,{NEWLINE}就来金黄市转转怎么样？{CLEAR}我想有个人一定很想见见你们。{CLEAR}嘿嘿嘿嘿。",
+   "en": "Agatha: Thanks to you kids holding off{NEWLINE}Team Rocket until I got here, Lavender{CLEAR}Town is safe.{SCROLL}Agatha: If you’re not in a hurry, why{NEWLINE}not drop by Saffron City?{SCROLL}I think someone would very much like to{NEWLINE}meet you. Heh heh heh heh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "富士老人『谢谢你们{NEWLINE}在关键时刻出手相救,{CLEAR}我就住在镇上的精灵之家,{CLEAR}随时欢迎你们来坐坐。",
+   "en": "Mr. Fuji: Thank you for coming to my{NEWLINE}rescue when it mattered most.{SCROLL}I live at the Pokémon House in town.{NEWLINE}You’re welcome to drop by anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "小绿『真不敢相信,{NEWLINE}刚刚那个看着快要走不动的老婆婆{CLEAR}居然是精灵联盟四天王！{SCROLL}小绿『我很想知道她说的那个{NEWLINE}想见我们的人到底是谁。{CLEAR}嗯,有必要去看个究竟！",
+   "en": "Blue: I can’t believe that old lady who{NEWLINE}looked like she could barely walk is one{CLEAR}of the Pokémon League’s Elite Four!{SCROLL}Blue: I really want to know who it is{NEWLINE}that wants to meet us. Yep, I’ve gotta{CLEAR}go see for myself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 125,
+   "zh": "小绿『真不敢相信,{NEWLINE}刚刚那个看着快要走不动的老婆婆{CLEAR}居然是精灵联盟四天王！{SCROLL}小绿『{VAR:0103:0}也想知道{NEWLINE}她说的那个想见我们的人是谁吧？{CLEAR}我这就去金黄市看看去！",
+   "en": "Blue: I can’t believe that old lady who{NEWLINE}looked like she could barely walk is one{CLEAR}of the Pokémon League’s Elite Four!{SCROLL}Blue: {VAR:0103:0}, you want to know who she{NEWLINE}meant too, right? I’m heading to{CLEAR}Saffron City to check it out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "小蓝『精灵联盟四天王可以说是{NEWLINE}这个世界上最厉害的四个训练家了。{CLEAR}她说有人想见我们的话{CLEAR}最好还是去看看吧。",
+   "en": "Green: The Pokémon League’s Elite Four{NEWLINE}are pretty much the four strongest{CLEAR}Trainers in the world.{SCROLL}If she says someone wants to meet us,{NEWLINE}we’d better go and see.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 127,
+   "zh": "小赤『精灵联盟四天王可以说是{NEWLINE}这个世界上最厉害的四个训练家了。{CLEAR}她说有人想见我们的话{CLEAR}最好还是去看看吧。",
+   "en": "Red: The Pokémon League’s Elite Four{NEWLINE}are pretty much the four strongest{CLEAR}Trainers in the world.{SCROLL}If she says someone wants to meet us,{NEWLINE}we’d better go and see.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 128,
+   "zh": "小绿『哦？原来塔上有火箭队在搞鬼！{NEWLINE}我就说嘛这里怎么会有蔓藤怪……{SCROLL}小绿『既然真相大白了{NEWLINE}我现在就做一下准备,{CLEAR}然后上去阻止火箭队的阴谋！",
+   "en": "Blue: Oh? So it’s Team Rocket up in the{NEWLINE}tower pulling this stunt! No wonder{CLEAR}there was a Tangela here...{SCROLL}Blue: Now that the truth is out, I’ll{NEWLINE}get ready and head up to stop Team{CLEAR}Rocket’s scheme!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 129,
+   "zh": "咦？大哥哥你……{NEWLINE}你看得到我啊？{SCROLL}太好了,终于有人看得到我了！{NEWLINE}一下子就感觉不孤单了呢。{SCROLL}大哥哥你不要走,{NEWLINE}陪我玩玩好不好嘛,就一会儿。",
+   "en": "Huh? Mister, you... you can see me?{SCROLL}Yay! Someone can finally see me!{NEWLINE}Suddenly I don’t feel lonely at all.{SCROLL}Mister, don’t go! Play with me, pretty{NEWLINE}please? Just for a little while.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#129-#137: the ghost girl (can only be seen by the player); #129/#135 Mister vs #131/#136 Miss by player gender."
+  },
+  {
+   "id": 130,
+   "zh": "最近搬来的鬼斯通先生很热情呢,{NEWLINE}我终于不再孤单了！",
+   "en": "The Haunter who moved in recently is{NEWLINE}really friendly. I’m not lonely anymore!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 131,
+   "zh": "咦？大姐姐你……{NEWLINE}你看得到我啊？{SCROLL}太好了,终于有人看得到我了！{NEWLINE}一下子就感觉不孤单了呢。{SCROLL}大姐姐你不要走,{NEWLINE}陪我玩玩好不好嘛,就一会儿。",
+   "en": "Huh? Miss, you... you can see me?{SCROLL}Yay! Someone can finally see me!{NEWLINE}Suddenly I don’t feel lonely at all.{SCROLL}Miss, don’t go! Play with me, pretty{NEWLINE}please? Just for a little while.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 132,
+   "zh": "要陪小女孩玩会儿吗？",
+   "en": "Play with the little girl for a while?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 133,
+   "zh": "不嘛不嘛,陪人家玩会儿嘛！",
+   "en": "No, no, no! Play with me for a while!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 134,
+   "zh": "太好啦,那我们就玩精灵对战吧！",
+   "en": "Yay! Then let’s have a Pokémon battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 135,
+   "zh": "谢谢大哥哥,{NEWLINE}刚刚玩得很开心呢。{CLEAR}请你收下这个。",
+   "en": "Thank you, Mister. That was really fun!{SCROLL}Please take this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 136,
+   "zh": "谢谢大姐姐,{NEWLINE}刚刚玩得很开心呢。{CLEAR}请你收下这个。",
+   "en": "Thank you, Miss. That was really fun!{SCROLL}Please take this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 137,
+   "zh": "嘿嘿,有人陪我玩儿真好。",
+   "en": "Hee hee. It’s so nice to have someone{NEWLINE}to play with.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 138,
+   "zh": "自从藏在塔上的火箭队被赶跑后,{NEWLINE}这里就再也没有发生过灵异事件。{CLEAR}在塔上的精灵们终于可以安息了。",
+   "en": "Ever since Team Rocket was driven out{NEWLINE}of their hiding place in the tower, there{CLEAR}haven’t been any more hauntings.{SCROLL}The Pokémon in the tower can finally{NEWLINE}rest in peace.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 139,
+   "zh": "都说塔上已经没有灵异事件了,{NEWLINE}为什么我还能感觉到这附近{CLEAR}有种奇怪的气氛呢。",
+   "en": "They say there are no more hauntings in{NEWLINE}the tower, so why do I still sense{CLEAR}something strange around here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 140,
+   "zh": "为了能给去世的喵喵扫墓,{NEWLINE}我可是爬了好几层楼来到这里。",
+   "en": "I climbed up all these floors to visit my{NEWLINE}late Meowth’s grave.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "娜姿『你还真是有毅力,{NEWLINE}为了金色徽章一路追到这来。{CLEAR}不过你现在的实力还差得太远,{CLEAR}想要挑战我的话{CLEAR}等你收集满6枚徽章之后再说吧。",
+   "en": "Sabrina: You certainly are persistent,{NEWLINE}chasing me all the way here for the{CLEAR}Marsh Badge.{SCROLL}But you’re still far too weak. If you{NEWLINE}want to challenge me, come back when{CLEAR}you have 6 Badges.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "金色徽章 = Marsh Badge (Sabrina)."
+  },
+  {
+   "id": 142,
+   "zh": "知道塔上的老师是幻象之后,{NEWLINE}我就放心了。{CLEAR}以后要是做不完作业我就躲到这里,{CLEAR}我们老师可不敢上塔来找我。",
+   "en": "Now that I know the teacher in the{NEWLINE}tower was an illusion, I’m relieved.{SCROLL}From now on, whenever I can’t finish my{NEWLINE}homework, I’ll hide up here.{SCROLL}My teacher wouldn’t dare come up the{NEWLINE}tower after me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "这几块地板的样子好奇怪,{NEWLINE}好像是被高温灼烧过的样子。",
+   "en": "These floor tiles look strange.{SCROLL}It’s as if they’ve been scorched by{NEWLINE}intense heat.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 144,
+   "zh": "鬼斯『Gaaas！",
+   "en": "Gastly: Gaaas!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 145,
+   "zh": "胡地『Alaaaa——ka！",
+   "en": "Alakazam: Alaaaa-ka!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "鬼斯通『Hauuu——ter！",
+   "en": "Haunter: Hauuu-ter!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 147,
+   "zh": "耿鬼『Gen——ga！",
+   "en": "Gengar: Gen-ga!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 148,
+   "zh": "我是真的受不了{NEWLINE}跟精灵的生离死别,{CLEAR}以后我不会再养精灵了。",
+   "en": "I really can’t bear being parted from{NEWLINE}Pokémon by death. I’m never raising{CLEAR}Pokémon again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 149,
+   "zh": "娜姿『终于来了吗……{SCROLL}娜姿『看得出你最近的战斗经历{NEWLINE}让你的实力和意志力都成长了许多。{CLEAR}不过要达到抵抗我超能力的水平,{CLEAR}你还需要再锻炼一下。{SCROLL}娜姿『正好我想到一个{NEWLINE}锻炼意志力的方法,{CLEAR}你要试试吗？{SCROLL}",
+   "en": "Sabrina: So you’ve finally come...{SCROLL}Sabrina: I can tell your recent battles{NEWLINE}have made you much stronger, in both{CLEAR}skill and willpower.{SCROLL}But to resist my psychic powers, you{NEWLINE}still need more training.{SCROLL}Sabrina: As it happens, I’ve thought of{NEWLINE}a way to train your willpower. Would you{CLEAR}like to try?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#149-#210: Sabrina's 'make me laugh' willpower training in Pokémon Tower; #154/#155/#164/#170/#171 are menu options; #197-#205 are the tower ghosts helping out."
+  },
+  {
+   "id": 150,
+   "zh": "娜姿『这就退缩了？{NEWLINE}看来你的意志力还不够啊。",
+   "en": "Sabrina: Backing down already? Your{NEWLINE}willpower is still lacking.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 151,
+   "zh": "娜姿『很好,那么你需要做的就是——{SCROLL}娜姿『逗笑我。",
+   "en": "Sabrina: Very well. What you must do{NEWLINE}is...{SCROLL}Sabrina: Make me laugh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 152,
+   "zh": "娜姿『你那是什么表情！{SCROLL}娜姿『不要觉得逗笑我这种事很简单。{NEWLINE}你要锻炼的是精神力量,{CLEAR}而影响别人的情绪{CLEAR}恰恰是精神力量的体现。{CLEAR}如果你觉得自己做得到{CLEAR}就试试看吧。",
+   "en": "Sabrina: What is that look on your face?{SCROLL}Sabrina: Don’t think making me laugh is{NEWLINE}easy. What you’re training is your{CLEAR}mental strength.{SCROLL}And influencing other people’s emotions{NEWLINE}is exactly what mental strength is for.{SCROLL}If you think you can do it, go ahead and{NEWLINE}try.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 153,
+   "zh": "娜姿『你已经想到{NEWLINE}逗笑我的方法了吗？{SCROLL}",
+   "en": "Sabrina: Have you thought of a way to{NEWLINE}make me laugh?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 154,
+   "zh": "讲个笑话",
+   "en": "Tell a joke",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 155,
+   "zh": "我再想想",
+   "en": "Let me think again.",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 156,
+   "zh": "{VAR:0103:0}『那就说个我知道的笑话吧。{NEWLINE}要把吼鲸王装冰箱,一共分几步？",
+   "en": "{VAR:0103:0}: Then I’ll tell you a joke I{NEWLINE}know. How many steps does it take to{CLEAR}put a Wailord in a fridge?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "The fridge joke is a well-known Chinese TV gala sketch (put an elephant in the fridge); the hack swaps in Wailord. 小品 → 'sketch'."
+  },
+  {
+   "id": 157,
+   "zh": "娜姿『分三步。{NEWLINE}第一步把冰箱门打开,{CLEAR}第二部把吼鲸王装进去,{CLEAR}第三步把冰箱门关上。",
+   "en": "Sabrina: Three. Step one, open the{NEWLINE}fridge door.{SCROLL}Step two, put the Wailord in. Step{NEWLINE}three, close the fridge door.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 158,
+   "zh": "{VAR:0103:0}『哎呀,你看过那个小品啊……",
+   "en": "{VAR:0103:0}: Aw, you’ve seen that{NEWLINE}sketch...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 159,
+   "zh": "娜姿『哼,要逗笑我可没那么容易,{NEWLINE}你还是想点新鲜的招吧。",
+   "en": "Sabrina: Hmph. Making me laugh isn’t{NEWLINE}that easy. Try something fresh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 160,
+   "zh": "{VAR:0103:0}『那我给你讲个笑话。{NEWLINE}要把喉鲸王装冰箱,一共分几步？",
+   "en": "{VAR:0103:0}: Then let me tell you a joke.{NEWLINE}How many steps does it take to put a{CLEAR}Wailord in a fridge?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 161,
+   "zh": "娜姿『分三步。{NEWLINE}第一步把冰箱门打开,{CLEAR}第二部把吼鲸王装进去,{CLEAR}第三步把冰箱门关上。",
+   "en": "Sabrina: Three. Step one, open the{NEWLINE}fridge door.{SCROLL}Step two, put the Wailord in. Step{NEWLINE}three, close the fridge door.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 162,
+   "zh": "{VAR:0103:0}『错啦！这世上哪有冰箱{NEWLINE}能大到装下吼鲸王啊！{CLEAR}所以要分四步,{CLEAR}第一步把吼鲸王装到精灵球里,{CLEAR}第二步把冰箱门打开,{CLEAR}第三步把精灵球放冰箱里,{CLEAR}第四步把冰箱门关上。{SCROLL}{VAR:0103:0}『哈哈,怎么样,没想到吧。",
+   "en": "{VAR:0103:0}: Wrong! What fridge in the{NEWLINE}world is big enough for a Wailord?! So it{CLEAR}takes four steps.{SCROLL}Step one, put the Wailord in a Poké Ball.{NEWLINE}Step two, open the fridge door.{SCROLL}Step three, put the Poké Ball in the{NEWLINE}fridge.{SCROLL}Step four, close the fridge door.{SCROLL}{VAR:0103:0}: Ha ha! Bet you didn’t see that{NEWLINE}coming!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 163,
+   "zh": "娜姿『呵呵,一点都不好笑,{NEWLINE}你还是想点新鲜的招吧。",
+   "en": "Sabrina: Heh. Not funny in the{NEWLINE}slightest. Try something fresh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 164,
+   "zh": "给娜姿扮鬼脸",
+   "en": "Pull faces at Sabrina",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 165,
+   "zh": "{VAR:0103:0}『我现在来模仿一下你。",
+   "en": "{VAR:0103:0}: Now I’ll do an impression of{NEWLINE}you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 166,
+   "zh": "{VAR:0103:0}『哼,你们这些凡人,{NEWLINE}居然敢向我超能女王娜姿发起挑战,{CLEAR}真是不自量力！{CLEAR}看我用超能力把你传送进异空间去！{CLEAR}嘿呀！",
+   "en": "{VAR:0103:0}: Hmph! You mere mortals dare{NEWLINE}to challenge me, Sabrina, the Psychic{CLEAR}Queen? How presumptuous!{SCROLL}I’ll teleport you into a pocket{NEWLINE}dimension with my psychic powers! Hyah!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 167,
+   "zh": "{VAR:0103:0}『这是我用超能力{NEWLINE}创造的异空间,{CLEAR}你能被超能力影响传送到这里,{CLEAR}就说明你的意志力还差得远。{CLEAR}想逃出异空间回到现实世界的话,{CLEAR}就自己想办法吧。",
+   "en": "{VAR:0103:0}: This is a pocket dimension I{NEWLINE}created with my psychic powers.{SCROLL}If my powers could send you here, your{NEWLINE}willpower is far too weak.{SCROLL}If you want to escape and return to{NEWLINE}the real world, find your own way out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 168,
+   "zh": "{VAR:0103:0}『哈哈,怎么样？{NEWLINE}我模仿的还挺像吧？",
+   "en": "{VAR:0103:0}: Ha ha, how’s that? Pretty{NEWLINE}good impression, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 169,
+   "zh": "娜姿『学别人说话很有意思吗？{NEWLINE}就凭你这粗劣的模仿秀,{CLEAR}是逗不笑我的。{CLEAR}你还是想点别的招吧。",
+   "en": "Sabrina: Is parroting people supposed{NEWLINE}to be fun? A crude impression like that{CLEAR}won’t make me laugh.{SCROLL}Think of something else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 170,
+   "zh": "呵娜姿的痒",
+   "en": "Tickle Sabrina",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 171,
+   "zh": "模仿娜姿",
+   "en": "Imitate Sabrina",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 172,
+   "zh": "{VAR:0103:0}『请你现在平举双臂。",
+   "en": "{VAR:0103:0}: Please hold your arms straight{NEWLINE}out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 173,
+   "zh": "{VAR:0103:0}『来,你现在把手臂平举。",
+   "en": "{VAR:0103:0}: Come on, hold your arms{NEWLINE}straight out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 174,
+   "zh": "娜姿『这是要干嘛……",
+   "en": "Sabrina: What is this for...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 175,
+   "zh": "{VAR:0103:0}『当然是呵痒咯！",
+   "en": "{VAR:0103:0}: For tickling, of course!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 176,
+   "zh": "{VAR:0103:0}『呵呵呵呵呵！{SCROLL}",
+   "en": "{VAR:0103:0}: Tickle, tickle, tickle!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 177,
+   "zh": "娜姿『呀——！讨厌啊！{NEWLINE}你在摸哪里啊！",
+   "en": "Sabrina: Eek! Stop it! Where do you{NEWLINE}think you’re touching?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Innuendo kept as in the zh (D-0627)."
+  },
+  {
+   "id": 178,
+   "zh": "娜姿『够了！适可而止吧！",
+   "en": "Sabrina: Enough! That’s quite enough!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 179,
+   "zh": "娜姿『真是的！你这个家伙{NEWLINE}就不能想点正经的方法吗？",
+   "en": "Sabrina: Honestly! Can’t you think of a{NEWLINE}proper way to do it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 180,
+   "zh": "娜姿『这样动手动脚的太不像话了,{NEWLINE}你就不能想点正经的方法吗！",
+   "en": "Sabrina: Getting handsy like this is{NEWLINE}outrageous! Can’t you think of a{CLEAR}proper way to do it?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 181,
+   "zh": "{VAR:0103:0}『嘟嘟——你看我的表情！",
+   "en": "{VAR:0103:0}: Ta-da! Look at my face!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 182,
+   "zh": "{VAR:0103:0}『这是猪鼻子！",
+   "en": "{VAR:0103:0}: This is a pig nose!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 183,
+   "zh": "{VAR:0103:0}『这是香肠嘴！",
+   "en": "{VAR:0103:0}: These are sausage lips!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 184,
+   "zh": "{VAR:0103:0}『这是斗鸡眼！",
+   "en": "{VAR:0103:0}: These are crossed eyes!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 185,
+   "zh": "{VAR:0103:0}『我的颜艺怎么样？",
+   "en": "{VAR:0103:0}: How are my funny faces?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 186,
+   "zh": "娜姿『你刚刚扮的样子好丑啊……{NEWLINE}请不要再出这种蠢样了好吗？",
+   "en": "Sabrina: That looked so ugly...{SCROLL}Please don’t make such stupid faces{NEWLINE}again, all right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 187,
+   "zh": "{VAR:0103:0}『唉,好难啊……{NEWLINE}什么方法都试过了,你就是不笑。",
+   "en": "{VAR:0103:0}: Sigh, this is hard... I’ve tried{NEWLINE}everything, and you still won’t laugh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 188,
+   "zh": "娜姿『你是要放弃吗？",
+   "en": "Sabrina: Are you giving up?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 189,
+   "zh": "{VAR:0103:0}『哪能放弃呢！{NEWLINE}为了黄金徽章,我一定要把你给逗笑,{CLEAR}你就给我等着吧！",
+   "en": "{VAR:0103:0}: No way!{SCROLL}For the Marsh Badge, I’m going to make{NEWLINE}you laugh. Just you wait!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 190,
+   "zh": "娜姿『嘿嘿,那你加油哦！",
+   "en": "Sabrina: Heh heh. Good luck, then.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 191,
+   "zh": "{VAR:0103:0}『你刚刚是不是笑了！？",
+   "en": "{VAR:0103:0}: Did you just laugh?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 192,
+   "zh": "娜姿『哎呀,一不小心{NEWLINE}被你那执着的情绪给感染了。",
+   "en": "Sabrina: Oh my. Your persistence got to{NEWLINE}me before I knew it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 193,
+   "zh": "{VAR:0103:0}『那我这个意志力练习……{NEWLINE}算通过了吗？",
+   "en": "{VAR:0103:0}: So this willpower training...{NEWLINE}Does it count as passed?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 194,
+   "zh": "{VAR:0103:0}『怎么样？{NEWLINE}我这个练习是不是通过了？",
+   "en": "{VAR:0103:0}: Well? Did I pass the training?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 195,
+   "zh": "娜姿『我从小因为超能力太强,{NEWLINE}而被身边的人视为怪物,{CLEAR}都没有什么朋友。{CLEAR}你是第一个愿意为了让我开心一笑{CLEAR}而如此拼命的人。{SCROLL}娜姿『你那些笑话和表演真的很肤浅,{NEWLINE}但你为了逗乐我而不断努力、{CLEAR}绝不轻言放弃的样子,{CLEAR}确实让我忍不住想给你加油。{CLEAR}甚至还让我在不经意间{CLEAR}对你漏出了鼓励的微笑。",
+   "en": "Sabrina: My psychic powers were so{NEWLINE}strong as a child that the people{CLEAR}around me saw me as a monster.{SCROLL}I had hardly any friends.{SCROLL}You are the first person who has ever{NEWLINE}tried so hard just to make me smile.{SCROLL}Sabrina: Your jokes and acts were truly{NEWLINE}shallow.{SCROLL}But the way you kept trying to amuse me{NEWLINE}and never gave up... It made me want to{CLEAR}cheer you on.{SCROLL}It even made me slip you an encouraging{NEWLINE}smile without meaning to.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 196,
+   "zh": "娜姿『不得不承认{NEWLINE}你用你的行为感染了我的精神。{CLEAR}凭你在这里表现出的意志力,{CLEAR}我的超能力可能再也无法影响你了。{SCROLL}娜姿『你现在已经具备了{NEWLINE}跟我一战的实力。{CLEAR}道馆挑战也不必非要在道馆,{CLEAR}我们现在可以在这里……",
+   "en": "Sabrina: I must admit your actions have{NEWLINE}moved my spirit.{SCROLL}With the willpower you have shown here,{NEWLINE}my powers may never affect you again.{SCROLL}Sabrina: You are now strong enough to{NEWLINE}battle me.{SCROLL}A Gym challenge needn’t take place in{NEWLINE}the Gym. We can do it right here...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 197,
+   "zh": "鬼斯看你若有所思的样子,{NEWLINE}冲你扮了个鬼脸。",
+   "en": "Seeing you deep in thought, Gastly{NEWLINE}pulled a face at you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 198,
+   "zh": "鬼斯通看你若有所思的样子,{NEWLINE}呵了一下你的痒。",
+   "en": "Seeing you deep in thought, Haunter{NEWLINE}tickled you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 199,
+   "zh": "鬼斯通开心地笑了。",
+   "en": "Haunter laughed happily.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 200,
+   "zh": "鬼斯开心地笑了。",
+   "en": "Gastly laughed happily.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 201,
+   "zh": "耿鬼开始模仿起了你。",
+   "en": "Gengar started imitating you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 202,
+   "zh": "耿鬼『Gen——ga！{SCROLL}耿鬼模仿了你丢出精灵球的动作。",
+   "en": "Gengar: Gen-ga!{SCROLL}Gengar mimicked you throwing a Poké{NEWLINE}Ball.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 203,
+   "zh": "耿鬼『Gen——ga！{SCROLL}耿鬼模仿了被抓紧精灵球的样子。",
+   "en": "Gengar: Gen-ga!{SCROLL}Gengar mimicked getting caught in a Poké{NEWLINE}Ball.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 204,
+   "zh": "耿鬼『Gen——ga！{SCROLL}耿鬼模好像在对你说：我收服耿鬼了！",
+   "en": "Gengar: Gen-ga!{SCROLL}Gengar seems to be saying to you: ‘I{NEWLINE}caught a Gengar!’",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 205,
+   "zh": "耿鬼开心地笑了。",
+   "en": "Gengar laughed happily.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 206,
+   "zh": "娜姿『我的电话响了,稍等一下……",
+   "en": "Sabrina: My phone is ringing. One{NEWLINE}moment...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 207,
+   "zh": "娜姿『喂,我是娜姿。{SCROLL}……{SCROLL}娜姿『达马兰奇主席呀,怎么了吗？",
+   "en": "Sabrina: Hello, this is Sabrina.{SCROLL}...{SCROLL}Sabrina: President Goodshow? What is{NEWLINE}it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 208,
+   "zh": "娜姿『什……什么！？{SCROLL}娜姿『金黄市被火箭队占领了！？{NEWLINE}这不可能吧？{CLEAR}主席您不是拿我开玩笑吧？{SCROLL}……{SCROLL}……{SCROLL}娜姿『是,好的,我知道了。{NEWLINE}我现在就回去！",
+   "en": "Sabrina: Wh-what?!{SCROLL}Sabrina: Saffron City has been taken{NEWLINE}over by Team Rocket?! That can’t be!{SCROLL}Mr. President, this isn’t a joke, is it?{SCROLL}...{SCROLL}...{SCROLL}Sabrina: Yes. Understood. I’ll return{NEWLINE}at once!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 209,
+   "zh": "娜姿『{VAR:0103:0},发生紧急情况了,{NEWLINE}大批火箭队突然占领了金黄市。{CLEAR}现在不是做道馆挑战的时候,{CLEAR}我要赶紧回金黄市去。{CLEAR}你如果没什么事的话也来帮忙吧。",
+   "en": "Sabrina: {VAR:0103:0}, there’s an{NEWLINE}emergency.{SCROLL}A large force of Team Rocket has{NEWLINE}suddenly occupied Saffron City.{SCROLL}This is no time for a Gym challenge. I{NEWLINE}must hurry back to Saffron.{SCROLL}If you’re free, come and help.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 210,
+   "zh": "娜姿正在凝神修炼,没有注意到你。",
+   "en": "Sabrina is deep in her training and{NEWLINE}hasn’t noticed you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 211,
+   "zh": "可拉可拉『Cubo……{SCROLL}可拉可拉呆呆地看着前面,{NEWLINE}泪水从头骨上不停地滴落……",
+   "en": "Cubone: Cubo...{SCROLL}Cubone stares blankly ahead, tears{NEWLINE}dripping from under its skull...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 212,
+   "zh": "蔓藤怪『Taaa——gel！{SCROLL}蔓藤怪『你知道的,{NEWLINE}当年被拖走淹死的应该是你！",
+   "en": "Tangela: Taaa-gel!{SCROLL}Tangela: You know it’s true. It should{NEWLINE}have been you who got dragged off and{CLEAR}drowned back then!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Tangela illusion: the drowned child from Pallet Town (see D-0528: 0439 #19 says eaten)."
+  },
+  {
+   "id": 213,
+   "zh": "蔓藤怪『Taaa——gel！{SCROLL}蔓藤怪『该死的人是你！是你！",
+   "en": "Tangela: Taaa-gel!{SCROLL}Tangela: You’re the one who should have{NEWLINE}died! You!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 214,
+   "zh": "作为大哥哥陪我玩的报答,{NEWLINE}我可以把诅咒这个技能{CLEAR}教给大哥哥的精灵。{CLEAR}不同属性的精灵使用这个技能,{CLEAR}效果完全不同哦。{SCROLL}怎么样,要学吗？{SCROLL}",
+   "en": "To thank you for playing with me,{NEWLINE}Mister, I can teach your Pokémon the{CLEAR}move Curse.{SCROLL}It works completely differently{NEWLINE}depending on the Pokémon’s type!{SCROLL}So, want to learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Curse tutor, ghost girl; no fee (#215 无 = None, kept from v3)."
+  },
+  {
+   "id": 215,
+   "zh": "无",
+   "en": "None",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s)"
+  },
+  {
+   "id": 216,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住诅咒。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn{NEWLINE}Curse.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 217,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 218,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会诅咒了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Curse!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 219,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 220,
+   "zh": "{VAR:0101:0}学会了诅咒！",
+   "en": "{VAR:0101:0} learned Curse!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 221,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会诅咒了！",
+   "en": "And with that, your {VAR:0100:0} has{NEWLINE}learned Curse!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 222,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的诅咒……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习诅咒{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Curse...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn Curse?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 223,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 224,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 225,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 226,
+   "zh": "{VAR:0101:0}学会了诅咒！",
+   "en": "{VAR:0101:0} learned Curse!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 227,
+   "zh": "你是要放弃{NEWLINE}让它记住诅咒吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Curse?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 228,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 229,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it, come find me{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  }
+ ]
+}

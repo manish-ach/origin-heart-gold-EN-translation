@@ -1,0 +1,807 @@
+{
+ "narc": "a027",
+ "bank": 23,
+ "source": "work/extract/v4/a027/0023.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "{VAR:0100:0}",
+   "en": "{VAR:0100:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "{VAR:0101:0}",
+   "en": "{VAR:0101:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "持有物",
+   "en": "ITEM",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 3,
+   "zh": "性格",
+   "en": "NATURE",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 4 source(s)"
+  },
+  {
+   "id": 4,
+   "zh": "特性",
+   "en": "ABILITY",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:010B:0}",
+   "en": "{VAR:010B:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "箱子１",
+   "en": "BOX 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/6"
+  },
+  {
+   "id": 7,
+   "zh": "箱子２",
+   "en": "BOX 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/7"
+  },
+  {
+   "id": 8,
+   "zh": "箱子３",
+   "en": "BOX 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/8"
+  },
+  {
+   "id": 9,
+   "zh": "箱子４",
+   "en": "BOX 4",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/9"
+  },
+  {
+   "id": 10,
+   "zh": "箱子５",
+   "en": "BOX 5",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/10"
+  },
+  {
+   "id": 11,
+   "zh": "箱子６",
+   "en": "BOX 6",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/11"
+  },
+  {
+   "id": 12,
+   "zh": "箱子７",
+   "en": "BOX 7",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/12"
+  },
+  {
+   "id": 13,
+   "zh": "箱子８",
+   "en": "BOX 8",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/13"
+  },
+  {
+   "id": 14,
+   "zh": "箱子９",
+   "en": "BOX 9",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/14"
+  },
+  {
+   "id": 15,
+   "zh": "箱子１０",
+   "en": "BOX 10",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/15"
+  },
+  {
+   "id": 16,
+   "zh": "箱子１１",
+   "en": "BOX 11",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/16"
+  },
+  {
+   "id": 17,
+   "zh": "箱子１２",
+   "en": "BOX 12",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/17"
+  },
+  {
+   "id": 18,
+   "zh": "箱子１３",
+   "en": "BOX 13",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/18"
+  },
+  {
+   "id": 19,
+   "zh": "箱子１４",
+   "en": "BOX 14",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/19"
+  },
+  {
+   "id": 20,
+   "zh": "箱子１５",
+   "en": "BOX 15",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/20"
+  },
+  {
+   "id": 21,
+   "zh": "箱子１６",
+   "en": "BOX 16",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/21"
+  },
+  {
+   "id": 22,
+   "zh": "箱子１７",
+   "en": "BOX 17",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/22"
+  },
+  {
+   "id": 23,
+   "zh": "箱子１８",
+   "en": "BOX 18",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/23"
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0133:0}／{VAR:0133:1}",
+   "en": "{VAR:0133:0}/{VAR:0133:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "跳跃",
+   "en": "JUMP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 26,
+   "zh": "壁纸",
+   "en": "WALLPAPER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/26"
+  },
+  {
+   "id": 27,
+   "zh": "名字",
+   "en": "NAME",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/27"
+  },
+  {
+   "id": 28,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s); other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 29,
+   "zh": "风景１",
+   "en": "SCENERY 1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "风景２",
+   "en": "SCENERY 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "风景３",
+   "en": "SCENERY 3",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "等等",
+   "en": "ETCETERA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "最喜欢１",
+   "en": "FAVORITES 1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "最喜欢２",
+   "en": "FAVORITES 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "森林",
+   "en": "FOREST",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/35"
+  },
+  {
+   "id": 36,
+   "zh": "城市",
+   "en": "CITY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/36"
+  },
+  {
+   "id": 37,
+   "zh": "沙漠",
+   "en": "DESERT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/37"
+  },
+  {
+   "id": 38,
+   "zh": "草原",
+   "en": "SAVANNA",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/38"
+  },
+  {
+   "id": 39,
+   "zh": "岩山",
+   "en": "CRAG",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/39"
+  },
+  {
+   "id": 40,
+   "zh": "火山",
+   "en": "VOLCANO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/40"
+  },
+  {
+   "id": 41,
+   "zh": "雪山",
+   "en": "SNOW",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/41"
+  },
+  {
+   "id": 42,
+   "zh": "洞窟",
+   "en": "CAVE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/42"
+  },
+  {
+   "id": 43,
+   "zh": "海边",
+   "en": "BEACH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/43"
+  },
+  {
+   "id": 44,
+   "zh": "海底",
+   "en": "SEAFLOOR",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/44"
+  },
+  {
+   "id": 45,
+   "zh": "河",
+   "en": "RIVER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/45"
+  },
+  {
+   "id": 46,
+   "zh": "天空",
+   "en": "SKY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/46"
+  },
+  {
+   "id": 47,
+   "zh": "精灵中心",
+   "en": "POKé CENTER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0024/47; modernised from US 0024#47"
+  },
+  {
+   "id": 48,
+   "zh": "金属",
+   "en": "MACHINE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/48"
+  },
+  {
+   "id": 49,
+   "zh": "格子",
+   "en": "CHECKS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/49"
+  },
+  {
+   "id": 50,
+   "zh": "单纯",
+   "en": "SIMPLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/50"
+  },
+  {
+   "id": 51,
+   "zh": "心",
+   "en": "HEART",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/51"
+  },
+  {
+   "id": 52,
+   "zh": "灵魂",
+   "en": "SOUL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/52"
+  },
+  {
+   "id": 53,
+   "zh": "哥哥",
+   "en": "BIG BROTHER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/53"
+  },
+  {
+   "id": 54,
+   "zh": "口袋竞技",
+   "en": "POKéATHLON",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0024/54; modernised from US 0024#54"
+  },
+  {
+   "id": 55,
+   "zh": "三只",
+   "en": "TRIO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/55"
+  },
+  {
+   "id": 56,
+   "zh": "锯齿皮丘",
+   "en": "SPIKY PIKA",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/56"
+  },
+  {
+   "id": 57,
+   "zh": "舞女",
+   "en": "KIMONO GIRL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/57"
+  },
+  {
+   "id": 58,
+   "zh": "复活",
+   "en": "REVIVAL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/58"
+  },
+  {
+   "id": 59,
+   "zh": "ー",
+   "en": "-",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "携带的精灵",
+   "en": "PARTY ₧₦",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/60"
+  },
+  {
+   "id": 61,
+   "zh": "精灵移动",
+   "en": "MOVE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/61"
+  },
+  {
+   "id": 62,
+   "zh": "返回",
+   "en": "RETURN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/62"
+  },
+  {
+   "id": 63,
+   "zh": "切换箱子",
+   "en": "CHANGE BOX",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/63"
+  },
+  {
+   "id": 64,
+   "zh": "持有物整理",
+   "en": "SORT ITEMS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/64"
+  },
+  {
+   "id": 65,
+   "zh": "查看情况",
+   "en": "SUMMARY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/65"
+  },
+  {
+   "id": 66,
+   "zh": "持有物",
+   "en": "HELD ITEMS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/66"
+  },
+  {
+   "id": 67,
+   "zh": "标示",
+   "en": "MARKING",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/67"
+  },
+  {
+   "id": 68,
+   "zh": "放生",
+   "en": "RELEASE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/68"
+  },
+  {
+   "id": 69,
+   "zh": "带走",
+   "en": "WITHDRAW",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/69"
+  },
+  {
+   "id": 70,
+   "zh": "存放",
+   "en": "DEPOSIT",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0024/79; modernised from US 0024#79 | seed rejected us [ambiguous US match] (candidate US 0024#79; text not kept) | v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 71,
+   "zh": "关闭",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/71"
+  },
+  {
+   "id": 72,
+   "zh": "决定",
+   "en": "CONFIRM",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/72"
+  },
+  {
+   "id": 73,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/73"
+  },
+  {
+   "id": 74,
+   "zh": "替换",
+   "en": "SWITCH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/74"
+  },
+  {
+   "id": 75,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/75"
+  },
+  {
+   "id": 76,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/76"
+  },
+  {
+   "id": 77,
+   "zh": "切换箱子",
+   "en": "CHANGE{NEWLINE}BOX",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/77"
+  },
+  {
+   "id": 78,
+   "zh": "更换壁纸",
+   "en": "CHANGE{NEWLINE}WALLPAPER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/78"
+  },
+  {
+   "id": 79,
+   "zh": "存放精灵",
+   "en": "DEPOSIT{NEWLINE}POKéMON",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0024/79; modernised from US 0024#79"
+  },
+  {
+   "id": 80,
+   "zh": "放进背包",
+   "en": "BAG",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/80"
+  },
+  {
+   "id": 81,
+   "zh": "让精灵拿",
+   "en": "GIVE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/81"
+  },
+  {
+   "id": 82,
+   "zh": "㊚",
+   "en": "㊚",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "㊛",
+   "en": "㊛",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "{VAR:0105:0}",
+   "en": "{VAR:0105:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "{VAR:0107:0}",
+   "en": "{VAR:0107:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "{VAR:0108:0}",
+   "en": "{VAR:0108:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "性格",
+   "en": "NATURE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/87"
+  },
+  {
+   "id": 88,
+   "zh": "特性",
+   "en": "ABILITY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/88"
+  },
+  {
+   "id": 89,
+   "zh": "持有物",
+   "en": "ITEM",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/89"
+  },
+  {
+   "id": 90,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "无",
+   "en": "None",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0024/92"
+  },
+  {
+   "id": 93,
+   "zh": "？？？",
+   "en": "???",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "箱子１９",
+   "en": "BOX 19",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "箱子２０",
+   "en": "BOX 20",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "箱子２１",
+   "en": "BOX 21",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "箱子２２",
+   "en": "BOX 22",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "箱子２３",
+   "en": "BOX 23",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "箱子２４",
+   "en": "BOX 24",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

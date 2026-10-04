@@ -1,0 +1,111 @@
+{
+ "narc": "a027",
+ "bank": 666,
+ "source": "work/extract/v4/a027/0666.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "五郎",
+   "en": "Joey",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0675/0; 五郎 not in 0719; US contact Youngster Joey (US 0675)"
+  },
+  {
+   "id": 1,
+   "zh": "要是你方便的话{NEWLINE}就把电话号码告诉给我吧！{SCROLL}这样下次想要对战的时候{NEWLINE}我回答电话给你的。{VAR:0200:0}",
+   "en": "Hey, can I get your number?{NEWLINE}I’ll ring you up to battle. {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0675/1"
+  },
+  {
+   "id": 2,
+   "zh": "想要对战的时候{NEWLINE}我会打电话给你的！",
+   "en": "I’ll ring you whenever I get the urge{NEWLINE}to battle!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0675/2"
+  },
+  {
+   "id": 3,
+   "zh": "我知道了,不过⋯⋯{NEWLINE}我不想输在你手上！",
+   "en": "Oh, all right...{NEWLINE}But I won’t lose to you again!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0675/3"
+  },
+  {
+   "id": 4,
+   "zh": "快把你电话号码告诉我！{SCROLL}我可不想老是输给你！{NEWLINE}下次再来对战吧！{VAR:0200:0}",
+   "en": "Can I get your phone number?{SCROLL}I don’t want to lose against you!{NEWLINE}We have to battle again, OK? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0675/4"
+  },
+  {
+   "id": 5,
+   "zh": "又输给你了⋯⋯{NEWLINE}你真的很强啊！{SCROLL}不过,经常输{NEWLINE}反而感到心里很舒畅！{SCROLL}对了！这个给你吧！{NEWLINE}这下你就能变得更强,{CLEAR}当然,我也一样！{SCROLL}",
+   "en": "And yet another loss...{NEWLINE}No doubt about it--you’re tough.{SCROLL}Being beaten this often actually feels{NEWLINE}good now!{SCROLL}Here, take this.{NEWLINE}Use it to get even tougher. That will{CLEAR}toughen me up, too!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0675/5"
+  },
+  {
+   "id": 6,
+   "zh": "喂,你好像就在附近啊,{NEWLINE}直接找我说话吧！",
+   "en": "Hey, you’re nearby, aren’t you? What’s{NEWLINE}with the phone call? Come talk to me!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0675/6"
+  },
+  {
+   "id": 7,
+   "zh": "我那帅帅的{VAR:0100:10}{NEWLINE}你还记得吗？{CLEAR}我的{VAR:0100:10}{CLEAR}其他{VAR:0100:10}相比,{CLEAR}是完全不同的{VAR:0100:10},{CLEAR}{VAR:0100:10}中的{VAR:0100:10}。{SCROLL}你知道我在说什么吗？",
+   "en": "Remember my super-cool {VAR:0100:10}?{NEWLINE}My {VAR:0100:10} is totally different{CLEAR}from other {VAR:0100:10}. It’s a whole{CLEAR}different {VAR:0100:10}. It’s the{CLEAR}{VAR:0100:10} of all {VAR:0100:10}!{SCROLL}You know what I mean?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0675/7 | seed rejected us [tag_mismatch] (candidate US 0675#7; text not kept)"
+  },
+  {
+   "id": 8,
+   "zh": "前段时间我打败了{VAR:0100:11}！{NEWLINE}打得它满地找牙,{SCROLL}哎,没办法啊,{NEWLINE}谁叫我这么强呢！{SCROLL}下次再聊了！",
+   "en": "Oh yeah, I took down a {VAR:0100:11}{NEWLINE}in the wild the other day.{SCROLL}It was a cakewalk. Well, I guess it{NEWLINE}can’t be helped, us being so tough.{SCROLL}All right. Later!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0675/8"
+  },
+  {
+   "id": 9,
+   "zh": "前段时间我看到{VAR:0100:11}了！{NEWLINE}想要去抓的⋯⋯{CLEAR}可惜失败了！{SCROLL}哎,真是伤脑筋,{NEWLINE}谁叫我抓精灵{CLEAR}这么不熟练呢。",
+   "en": "Oh yeah, I saw a wild{NEWLINE}{VAR:0100:11}! I thought about{CLEAR}going for it, but then I failed!{SCROLL}Oh well. I guess that’s just{NEWLINE}the way it goes. I’m not very{CLEAR}good at catching Pokémon...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0675/9"
+  },
+  {
+   "id": 10,
+   "zh": "我们来对战吧！{NEWLINE}这次不会再输了{SCROLL}我在{VAR:0104:3},{NEWLINE}到了附近就赶快来找我吧！{SCROLL}再见！",
+   "en": "Let’s get together and battle!{NEWLINE}I promise things will be different!{SCROLL}{VAR:0104:3}’s where I’ll be.{NEWLINE}Give me a shout when you come.{SCROLL}All right. Later!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0675/10"
+  },
+  {
+   "id": 11,
+   "zh": "你真慢啊,{VAR:0103:0}{SCROLL}快来对战啊！{NEWLINE}我在{VAR:0104:3}等你！",
+   "en": "What’s keeping you, {VAR:0103:0}?{SCROLL}Let’s get down and battle already!{NEWLINE}I’m waiting on {VAR:0104:3}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0675/11"
+  },
+  {
+   "id": 12,
+   "zh": "现在{VAR:0100:10}的技巧{NEWLINE}已经炉火纯青了！{SCROLL}如果你想来场漂亮的战斗,{NEWLINE}就再来一次对战吧！{SCROLL}再见了！",
+   "en": "My {VAR:0100:10}’s moves are perfect now!{SCROLL}If you want to see a really great{NEWLINE}battle, come battle me again!{SCROLL}See ya!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0675/12"
+  }
+ ]
+}

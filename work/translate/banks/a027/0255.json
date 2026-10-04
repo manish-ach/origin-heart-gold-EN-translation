@@ -1,0 +1,535 @@
+{
+ "narc": "a027",
+ "bank": 255,
+ "source": "work/extract/v4/a027/0255.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "我孙女的熊宝宝{NEWLINE}对食物的品质一直很挑呢,{CLEAR}到船上后它就不吃东西了,{CLEAR}可把我孙女给愁怀了。",
+   "en": "My granddaughter’s Teddiursa has{NEWLINE}always been picky about its food.{SCROLL}Since we came aboard, it won’t eat a{NEWLINE}thing, and my granddaughter is worried{CLEAR}sick.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "呜呜……我的熊宝宝{NEWLINE}怎么也不吃船上提供的食物,{CLEAR}真担心它会饿坏身体。{SCROLL}如果能有天然蜂蜜的话{NEWLINE}我想熊宝宝一定会爱吃的。{SCROLL}可以麻烦大哥哥{NEWLINE}帮我去厨房问问有没有蜂蜜吗？{CLEAR}拜托了！",
+   "en": "Sniff... My Teddiursa won’t eat any of{NEWLINE}the food on this ship. I’m so worried{CLEAR}it’ll get sick.{SCROLL}I’m sure Teddiursa would eat some{NEWLINE}natural honey, if we had any.{SCROLL}Big brother, could you please go ask{NEWLINE}the kitchen if they have any honey?{CLEAR}Please!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: male-player variant."
+  },
+  {
+   "id": 2,
+   "zh": "呜呜……我的熊宝宝{NEWLINE}怎么也不吃船上提供的食物,{CLEAR}真担心它会饿坏身体。{SCROLL}如果能有天然蜂蜜的话{NEWLINE}我想熊宝宝一定会爱吃的。{SCROLL}可以麻烦大姐姐{NEWLINE}帮我去厨房问问有没有蜂蜜吗？{CLEAR}拜托了！",
+   "en": "Sniff... My Teddiursa won’t eat any of{NEWLINE}the food on this ship. I’m so worried{CLEAR}it’ll get sick.{SCROLL}I’m sure Teddiursa would eat some{NEWLINE}natural honey, if we had any.{SCROLL}Big sister, could you please go ask the{NEWLINE}kitchen if they have any honey? Please!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: female-player variant."
+  },
+  {
+   "id": 3,
+   "zh": "熊宝宝『Teddi……",
+   "en": "Teddiursa: Teddi...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "我这次进了不少好货,{NEWLINE}等会儿派对时拿出来卖{CLEAR}一定大赚一笔！",
+   "en": "I stocked up on lots of good stuff this{NEWLINE}time. I’ll sell it at the party later and{CLEAR}make a killing!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "哦？问我有没有高档的浅水盐？{SCROLL}有是有啦,不过那个也是{NEWLINE}要在派对上出售的商品。{CLEAR}你如果现在就想买的话{CLEAR}可是要付四倍的价钱哟。",
+   "en": "Oh? You’re asking if I have any{NEWLINE}high-grade Shoal Salt?{SCROLL}I do, but it’s stock for the party too.{NEWLINE}If you want it now, you’ll have to pay{CLEAR}four times the price.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "那么,6000元一份浅水盐,{NEWLINE}你要买吗？{SCROLL}",
+   "en": "So, $6000 for one Shoal Salt. Will you{NEWLINE}buy it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "你好穷啊,{NEWLINE}连6000元都拿不出来……",
+   "en": "You’re that broke? You can’t even come{NEWLINE}up with $6000...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "我的浅水盐绝对是上好的调味品,{NEWLINE}您尽管放心使用！",
+   "en": "My Shoal Salt is top-notch seasoning.{NEWLINE}Use it with confidence!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "男人不要靠近我,{NEWLINE}我喜欢的是年轻貌美的姑娘！",
+   "en": "Men, stay away from me! I only like{NEWLINE}young, pretty girls!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "啊！美丽的姑娘,{NEWLINE}跟你在这豪华游轮上相遇{CLEAR}仿佛就是命中注定！{CLEAR}不知姑娘今晚愿与我同席而眠否？",
+   "en": "Ah! Lovely maiden, meeting you aboard{NEWLINE}this luxury liner must be destiny!{SCROLL}Would you do me the honor of sharing my{NEWLINE}bed tonight?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Faithful: zh 同席而眠 (sleep together), mock-classical pickup line."
+  },
+  {
+   "id": 11,
+   "zh": "要送出身上的蜂蜜吗？{SCROLL}",
+   "en": "Give away the Honey?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "哇！大哥哥要送给我蜂蜜吗？{NEWLINE}真的太谢谢你了！",
+   "en": "Wow! You’re giving me honey, big{NEWLINE}brother? Thank you so much!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "哇！大姐姐要送给我蜂蜜吗？{NEWLINE}真的太谢谢你了！",
+   "en": "Wow! You’re giving me honey, big sister?{NEWLINE}Thank you so much!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: female-player variant."
+  },
+  {
+   "id": 14,
+   "zh": "来,熊宝宝,{NEWLINE}这是你最爱吃的蜂蜜喔！",
+   "en": "Here, Teddiursa! It’s honey, your{NEWLINE}favorite!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "熊宝宝『Teee——ddi！",
+   "en": "Teddiursa: Teee-ddi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "这次真的多亏了大哥哥,{NEWLINE}不然熊宝宝可能要饿一路肚子了。",
+   "en": "Thank you so much, big brother.{NEWLINE}Otherwise Teddiursa might have gone{CLEAR}hungry the whole trip.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: male-player variant."
+  },
+  {
+   "id": 17,
+   "zh": "这次真的多亏了大姐姐,{NEWLINE}不然熊宝宝可能要饿一路肚子了。",
+   "en": "Thank you so much, big sister.{NEWLINE}Otherwise Teddiursa might have gone{CLEAR}hungry the whole trip.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: female-player variant."
+  },
+  {
+   "id": 18,
+   "zh": "广播『各位旅客,{NEWLINE}本游轮的豪华派对即将开始。{CLEAR}欢迎大家到大厅来参加派对。",
+   "en": "Announcement: Attention, passengers.{NEWLINE}Our grand party is about to begin.{SCROLL}Please join us in the main hall.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "哇！好像很好玩的样子。{NEWLINE}大哥哥咱们快去参加派对吧！",
+   "en": "Wow! That sounds fun! Big brother,{NEWLINE}let’s hurry to the party!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: male-player variant."
+  },
+  {
+   "id": 20,
+   "zh": "哇！好像很好玩的样子。{NEWLINE}大姐姐咱们快去参加派对吧！",
+   "en": "Wow! That sounds fun! Big sister, let’s{NEWLINE}hurry to the party!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: female-player variant."
+  },
+  {
+   "id": 21,
+   "zh": "多亏了你,{NEWLINE}我孙女又笑逐颜开了。{CLEAR}这是我的小小心意请你收下。",
+   "en": "Thanks to you, my granddaughter is all{NEWLINE}smiles again.{SCROLL}Please accept this small token of my{NEWLINE}thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "走吧,一起去参加派对吧。",
+   "en": "Let’s go to the party together.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "奶奶虽然年纪大了,{NEWLINE}但是还可以这样到处旅行。{CLEAR}身子骨真是硬朗啊。",
+   "en": "Grandma may be getting on in years, but{NEWLINE}she can still travel around like this.{CLEAR}She’s really tough.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "喔呵呵,{NEWLINE}跟心爱的孙女一起出来旅行,{CLEAR}真的很开心呢。",
+   "en": "Oh ho ho, traveling with my darling{NEWLINE}granddaughter is such a joy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "什么？派对开始了？{SCROLL}没关系不用管我,{NEWLINE}我这个岁数的人了,{CLEAR}还是比较喜欢清净的旅行。",
+   "en": "What? The party’s started?{SCROLL}Never mind me. At my age, I prefer a{NEWLINE}quiet trip.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "这次去城都的阿鲁夫遗迹{NEWLINE}多拍几张照片的话,{CLEAR}我考古学家的人设就立得更稳了。",
+   "en": "If I take a few more photos at the{NEWLINE}Ruins of Alph in Johto this time...{SCROLL}...my archaeologist act will be even{NEWLINE}more convincing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "哟呵,小妹妹快看我的吐火绝技！",
+   "en": "Yo-ho! Little miss, check out my{NEWLINE}fire-breathing trick!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "哇好棒好棒,叔叔你好厉害！",
+   "en": "Wow, so cool! Mister, you’re amazing!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "大哥哥快看,{NEWLINE}这个叔叔会使用喷射火焰呢！",
+   "en": "Big brother, look! This mister can use{NEWLINE}Flamethrower!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: male-player variant."
+  },
+  {
+   "id": 30,
+   "zh": "大姐姐快看,{NEWLINE}这个叔叔会使用喷射火焰呢！",
+   "en": "Big sister, look! This mister can use{NEWLINE}Flamethrower!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: female-player variant."
+  },
+  {
+   "id": 31,
+   "zh": "多亏这个喷火艺人,{NEWLINE}我孙女才没有察觉现在的危险。",
+   "en": "Thanks to this fire-breather, my{NEWLINE}granddaughter hasn’t noticed the{CLEAR}danger we’re in.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "奶奶您尽管放心,不会有事的。",
+   "en": "Don’t worry, Grandma. Everything will{NEWLINE}be fine.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "好,好。{NEWLINE}奶奶相信你可以保护大家的。",
+   "en": "Yes, yes. Grandma believes you can{NEWLINE}protect everyone.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "我这个朋友的实力也很强的,{NEWLINE}要是不晕船的话一定能帮上大忙。",
+   "en": "My friend here is really strong too. If{NEWLINE}he weren’t seasick, he’d be a big help.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "呕……比起火箭队来,{NEWLINE}还是晕船更难对付吧。",
+   "en": "Urp... Seasickness is way harder to{NEWLINE}deal with than Team Rocket.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "如果一会儿游轮沉没的话,{NEWLINE}你一定要勇敢地跟我一起跳海,{CLEAR}I jump,you jump！",
+   "en": "If this ship sinks, you have to be brave{NEWLINE}and jump into the sea with me. I jump,{CLEAR}you jump!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh quotes the Titanic line in English (\"I jump, you jump\")."
+  },
+  {
+   "id": 37,
+   "zh": "我宁可加入火箭队{NEWLINE}也不会跟你跳海的。",
+   "en": "I’d sooner join Team Rocket than jump{NEWLINE}into the sea with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "要是乖乖把钱和精灵交给火箭队,{NEWLINE}是不是可以保全性命啊？",
+   "en": "If we just hand our money and Pokémon{NEWLINE}over to Team Rocket, maybe they’ll let{CLEAR}us live?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "如果这次能活着回去的话,{NEWLINE}我再也不假扮考古学家当托了。",
+   "en": "If I make it back alive, I’ll never pose{NEWLINE}as an archaeologist to shill for anyone{CLEAR}again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "我……我身上没有值钱的东西,{NEWLINE}什么都没有！",
+   "en": "I... I don’t have anything valuable on{NEWLINE}me! Nothing at all!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "怎么办……{NEWLINE}我好像把火箭队的人给坑了,{CLEAR}他们不会来报复我吧？",
+   "en": "What do I do... I think I scammed a Team{NEWLINE}Rocket member. They won’t come after{CLEAR}me, will they?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "喂,大叔,{NEWLINE}你的那个产黄金的鲤鱼王呢？{CLEAR}还有吗？我要买啊！",
+   "en": "Hey, mister, where’s that gold-making{NEWLINE}Magikarp of yours? Got any more? I want{CLEAR}one!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "别、别胡说！{NEWLINE}我什么时候卖过鲤鱼王了！",
+   "en": "D-don’t talk nonsense! When did I ever{NEWLINE}sell a Magikarp?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "明明就有啊,在刚刚的派对上……",
+   "en": "You totally did, at the party just{NEWLINE}now...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "你认错人了,快去找别人吧。",
+   "en": "You’ve got the wrong guy. Go bother{NEWLINE}someone else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "居然敢明目张胆地劫持圣安努号,{NEWLINE}火箭队这是在向精灵联盟挑衅吗？",
+   "en": "Hijacking the S.S. Anne right out in the{NEWLINE}open? Is Team Rocket trying to pick a{CLEAR}fight with the Pokémon League?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "嗯？什么？{NEWLINE}非常想念你的巴大蝴？{CLEAR}那么,你想用拉达{CLEAR}再换回你的巴大蝴吗？{SCROLL}",
+   "en": "Hm? What’s that? You really miss your{NEWLINE}Butterfree?{SCROLL}Then do you want to trade my Raticate{NEWLINE}back for your Butterfree?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "嗯,我会照顾好你的巴大蝴的,{NEWLINE}请放心吧。",
+   "en": "Okay. I’ll take good care of your{NEWLINE}Butterfree, don’t worry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "你这只不是拉达嘛。",
+   "en": "That’s not a Raticate.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "这样就交换完毕了,{NEWLINE}你的巴大蝴又再属于你了。",
+   "en": "The trade’s done. Your Butterfree is{NEWLINE}yours again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "火箭队要是敢闯进来,{NEWLINE}洒家就手撕了这帮贼搓鸟！",
+   "en": "If Team Rocket dares barge in here,{NEWLINE}this old boy will tear those lowlife{CLEAR}thugs apart with his bare hands!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "本来只是想出来旅行写个生,{NEWLINE}结果遇到火箭队这种恐怖分子。{SCROLL}我觉得可以根据这番遭遇创作一幅画,{NEWLINE}名字的话……{CLEAR}就叫做「海jiong」吧！",
+   "en": "I only wanted to travel and do some{NEWLINE}sketching, and I ran into terrorists{CLEAR}like Team Rocket.{SCROLL}I think I’ll paint a picture based on{NEWLINE}what happened. As for the title...{SCROLL}I’ll call it ‘Lost at Sea’!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "我练了这么长时间的对战技巧,{NEWLINE}结果真有事情发生时,{CLEAR}却连出手帮忙都做不到。{SCROLL}唉,我以前还是把事情想的太简单了。",
+   "en": "I trained my battle skills for so long,{NEWLINE}but when something really happened, I{CLEAR}couldn’t lift a finger to help.{SCROLL}Sigh... I used to think things were so{NEWLINE}simple.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "小蓝『等我确认这里安全了之后{NEWLINE}就去帮你。{CLEAR}在外面跟火箭队周旋的事就先靠你啦。",
+   "en": "Green: Once I make sure it’s safe here,{NEWLINE}I’ll come help you.{SCROLL}Until then, dealing with Team Rocket out{NEWLINE}there is up to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Green = male-player route (Red alternate)."
+  },
+  {
+   "id": 55,
+   "zh": "小赤『等我确认这里安全了之后{NEWLINE}就去帮你。{CLEAR}在外面跟火箭队周旋的事就先靠你了。",
+   "en": "Red: Once I make sure it’s safe here,{NEWLINE}I’ll come help you.{SCROLL}Until then, dealing with Team Rocket out{NEWLINE}there is up to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Red = female-player route (Green alternate)."
+  },
+  {
+   "id": 56,
+   "zh": "妙蛙种子『Bul——ba！",
+   "en": "Bulbasaur: Bul-ba!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "谢谢大哥哥给的蜂蜜,{NEWLINE}我的熊宝宝可爱吃了！",
+   "en": "Thank you for the honey, big brother!{NEWLINE}My Teddiursa loves it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: male-player variant."
+  },
+  {
+   "id": 58,
+   "zh": "谢谢大姐姐给的蜂蜜,{NEWLINE}我的熊宝宝可爱吃了！",
+   "en": "Thank you for the honey, big sister! My{NEWLINE}Teddiursa loves it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: female-player variant."
+  },
+  {
+   "id": 59,
+   "zh": "多亏了你,{NEWLINE}我孙女又笑逐颜开了。{CLEAR}这是我的小小心意请你收下。",
+   "en": "Thanks to you, my granddaughter is all{NEWLINE}smiles again.{SCROLL}Please accept this small token of my{NEWLINE}thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "一会儿派对上见咯。",
+   "en": "See you at the party.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "Z……Z……Z……",
+   "en": "Z... Z... Z...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "新圣安努号上的伙食不错嘛,{NEWLINE}出门旅行就该是美景美食相伴才对。",
+   "en": "The food on the new S.S. Anne is pretty{NEWLINE}good. A trip should come with great{CLEAR}views and great food.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "我的精灵是皮丘,不是皮卡丘哦！",
+   "en": "My Pokémon is a Pichu, not a Pikachu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "皮丘『Piii——chu！",
+   "en": "Pichu: Piii-chu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "为了研究各地的精灵生态,{NEWLINE}我不得不坐船到处跑。{CLEAR}虽然辛苦倒也乐趣良多。",
+   "en": "To study Pokémon ecology around the{NEWLINE}world, I have to travel everywhere by{CLEAR}ship.{SCROLL}It’s hard work, but it’s a lot of fun{NEWLINE}too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,465 @@
+{
+ "narc": "a027",
+ "bank": 464,
+ "source": "work/extract/v4/a027/0464.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "如果把坚硬的冰{NEWLINE}附着在牙齿上攻击敌人,{CLEAR}威力一定非常可观。{CLEAR}为了实践这个想法{CLEAR}我想出了一招名为「冰之牙」的技能。{SCROLL}你如果能给我1个月亮球,{NEWLINE}我就可以教给你的精灵。{SCROLL}怎么样,要学习冰之牙吗？{SCROLL}",
+   "en": "If you coated your teeth in hard ice{NEWLINE}and bit your foe with them,{SCROLL}it’d pack quite a punch.{SCROLL}To put that idea into practice, I came{NEWLINE}up with a move called Ice Fang.{SCROLL}If you give me one Moon Ball, I’ll teach{NEWLINE}it to your Pokémon.{SCROLL}So, want to learn Ice Fang?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position, flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 2,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it, come back{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 3,
+   "zh": "在道馆挑战中胜出{NEWLINE}就能获得道馆徽章,{CLEAR}每个徽章都有自己的作用,{CLEAR}你想了解下吗？",
+   "en": "Win a Gym challenge and you’ll get a Gym{NEWLINE}Badge.{SCROLL}Each Badge has its own effect. Want to{NEWLINE}hear about them?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 4,
+   "zh": "尼比道馆的{NEWLINE}灰色徽章",
+   "en": "Pewter Gym{NEWLINE}Boulder Badge",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 5,
+   "zh": "华蓝道馆的{NEWLINE}蓝色徽章",
+   "en": "Cerulean Gym{NEWLINE}Cascade Badge",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 6,
+   "zh": "枯叶道馆的{NEWLINE}橙色徽章",
+   "en": "Vermilion Gym{NEWLINE}Thunder Badge",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 7,
+   "zh": "彩虹道馆的{NEWLINE}彩虹徽章",
+   "en": "Celadon Gym{NEWLINE}Rainbow Badge",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 8,
+   "zh": "其他徽章",
+   "en": "Other Badges",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 9,
+   "zh": "可以了",
+   "en": "That’s all",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 10,
+   "zh": "还想听的话再来找我呀。",
+   "en": "If you want to hear more, come see me{NEWLINE}again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 11,
+   "zh": "金黄道馆的{NEWLINE}金色徽章",
+   "en": "Saffron Gym{NEWLINE}Marsh Badge",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Badge menu: 金黄 (Saffron) 金色徽章 = Marsh Badge, 浅红 (Fuchsia) 粉红徽章 = Soul Badge (v3 had them swapped). #19 = Marsh, #20 = Soul, #21 = Volcano descriptions.",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 12,
+   "zh": "浅红道馆的{NEWLINE}粉红徽章",
+   "en": "Fuchsia Gym{NEWLINE}Soul Badge",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 13,
+   "zh": "红莲道馆的{NEWLINE}深红徽章",
+   "en": "Cinnabar Gym{NEWLINE}Volcano Badge",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 14,
+   "zh": "常磐道馆的{NEWLINE}绿色徽章",
+   "en": "Viridian Gym{NEWLINE}Earth Badge",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 15,
+   "zh": "有了这个徽章,{NEWLINE}从别人那得到的{CLEAR}２０级以下的精灵{CLEAR}都会听你的话了。{SCROLL}而且,秘传机的碎岩{NEWLINE}也可以使用了。",
+   "en": "With this Badge, Pokémon up to Lv. 20{NEWLINE}that you got from others will obey you.{SCROLL}You’ll also be able to use the HM move{NEWLINE}Rock Smash.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 16,
+   "zh": "有了这蓝色徽章的话,{NEWLINE}从别人那得到的{CLEAR}３０级以下的精灵都会听话。{SCROLL}记住居合斩的精灵在不战斗时{NEWLINE}也能够使用这个技能了。",
+   "en": "With the Cascade Badge, Pokémon up to{NEWLINE}Lv. 30 that you got from others will{CLEAR}obey you.{SCROLL}And Pokémon that know Cut will be able{NEWLINE}to use it outside of battle too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 17,
+   "zh": "有了橙色徽章,{NEWLINE}就能在地图上使用怪力技能了。",
+   "en": "With the Thunder Badge, you’ll be able{NEWLINE}to use Strength in the field.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 18,
+   "zh": "有了彩虹徽章的话,{NEWLINE}只要是５０级以内的精灵,{CLEAR}也一定都会听从你的话。{SCROLL}并且还有可以在旅行中{NEWLINE}使用冲浪这个技能了。",
+   "en": "With the Rainbow Badge, any Pokémon up{NEWLINE}to Lv. 50 will be sure to obey you.{SCROLL}You’ll also be able to use Surf on your{NEWLINE}travels.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 19,
+   "zh": "有了金色徽章的话,{NEWLINE}已经到过的城市,{CLEAR}就可以用飞天飞去了！",
+   "en": "With the Marsh Badge, you’ll be able to{NEWLINE}use Fly to go to any town you’ve{CLEAR}already visited!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 20,
+   "zh": "有了这个徽章,{NEWLINE}即使是从别人那里得到的精灵,{CLEAR}只要是７０级以内的精灵,{CLEAR}也都会变得听你的话的。",
+   "en": "With this Badge, even Pokémon you got{NEWLINE}from others will obey you, as long as{CLEAR}they’re Lv. 70 or lower.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 21,
+   "zh": "有了这个徽章{NEWLINE}就能够在汹涌的漩涡之上{CLEAR}使用漩涡技能了。",
+   "en": "With this Badge, you’ll be able to use{NEWLINE}Whirlpool to cross raging whirlpools.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 22,
+   "zh": "只要拿着绿色徽章{NEWLINE}什么瀑布都能攀爬。{CLEAR}所有的精灵{CLEAR}会认可你的训练家能力,{CLEAR}什么命令都会服从……",
+   "en": "With the Earth Badge, you can climb any{NEWLINE}waterfall.{SCROLL}All Pokémon will recognize your skill as{NEWLINE}a Trainer and obey any command...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 23,
+   "zh": "当年流传出这个传说的海岛{NEWLINE}——水都之岛,{CLEAR}已经是远近闻名的度假胜地了。{CLEAR}有机会的话你可以坐船去看看。",
+   "en": "The island where this legend began, Alto{NEWLINE}Mare, is now a famous resort.{SCROLL}If you get the chance, take a boat and{NEWLINE}go see it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 24,
+   "zh": "神柱的爆炸,{NEWLINE}真的是一场伟大的爆炸。",
+   "en": "The God Pillars’ explosion... Now that{NEWLINE}was one great explosion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "神柱 / 岩神柱 冰神柱 钢神柱: old zh names of Regirock/Regice/Registeel ('Rock/Ice/Steel God Pillar'); the joke is that 'Explosion' made them gods. Kept literal; the pun on the old names doesn't carry into English."
+  },
+  {
+   "id": 25,
+   "zh": "传说在很久以前,有一群坏人{NEWLINE}到处杀人放火打家劫舍,{CLEAR}简直无恶不作。{CLEAR}这惊动了原本沉睡的{CLEAR}岩之柱、冰之柱、钢之柱三只口袋妖怪。{SCROLL}它们在愤怒中{NEWLINE}使用大爆炸技能消灭了坏人。{CLEAR}被救的人为了感谢岩、冰、刚三柱,{CLEAR}从此改称它们为岩神柱、冰神柱、钢神柱。",
+   "en": "Legend says that long ago, a gang of{NEWLINE}villains went around killing,{SCROLL}burning and robbing. There was no evil{NEWLINE}they wouldn’t do.{SCROLL}This woke three slumbering Pokémon: the{NEWLINE}Pillar of Rock,{SCROLL}the Pillar of Ice and the Pillar of{NEWLINE}Steel.{SCROLL}In their fury, they used Explosion and{NEWLINE}wiped out the villains.{SCROLL}To thank them, the people they saved{NEWLINE}renamed them the Rock God Pillar, Ice{CLEAR}God Pillar and Steel God Pillar.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 26,
+   "zh": "大概是几年前{NEWLINE}有个红发的小男孩来到我们家,{CLEAR}用超音蝠换走了我老伴的纽拉。{CLEAR}从那之后我老伴就迷上跟人交换精灵。{SCROLL}对现在的他来说,{NEWLINE}能够跟别人交换精灵,就是幸福。{SCROLL}我啊,只要和那样的老头子{NEWLINE}一起生活下去,{CLEAR}就是我最大的幸福了……",
+   "en": "A few years ago, a little red-haired boy{NEWLINE}came to our house and traded a Zubat{CLEAR}for my husband’s Sneasel.{SCROLL}Ever since then, my husband has been{NEWLINE}hooked on trading Pokémon with people.{SCROLL}For him these days, getting to trade{NEWLINE}Pokémon is happiness itself.{SCROLL}As for me, just living out my days with{NEWLINE}that old man of mine is my greatest{CLEAR}happiness...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "The red-haired boy = Silver (vanilla Sneasel trade lore)."
+  },
+  {
+   "id": 27,
+   "zh": "啊,{NEWLINE}我真的很幸福啊……",
+   "en": "Ah... I’m so very happy...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 28,
+   "zh": "袋龙『Kan——ga——han！",
+   "en": "Kangaskhan: Kan-ga-han!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags suspiciously_long"
+  },
+  {
+   "id": 29,
+   "zh": "啊啊……{NEWLINE}忍不住想要跟别人交换精灵啊……{SCROLL}如果你有大舌贝的话{CLEAR}能不能和我的水跃鱼交换？{VAR:0200:0}",
+   "en": "Ahh... I just can’t resist trading{NEWLINE}Pokémon...{SCROLL}If you have a Shellder, would you trade{NEWLINE}it for my Mudkip?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0464#29; text not kept)"
+  },
+  {
+   "id": 30,
+   "zh": "太棒了！{SCROLL}又完成了一次交换,{NEWLINE}跟别人换来的精灵{CLEAR}成长会格外快呢！",
+   "en": "Marvelous!{SCROLL}Another trade complete! Pokémon you{NEWLINE}get in trades grow especially fast!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 31,
+   "zh": "我要的是大舌贝哦！{SCROLL}用别的精灵可不行。",
+   "en": "It’s a Shellder I want!{SCROLL}No other Pokémon will do.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 32,
+   "zh": "不要害羞嘛,{NEWLINE}多尝试交换才能见到更多种类的精灵,{CLEAR}也能交到更多的朋友啊。",
+   "en": "Don’t be shy! The more you trade, the{NEWLINE}more kinds of Pokémon you’ll see, and{CLEAR}the more friends you’ll make.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 33,
+   "zh": "啊,交换来的大舌贝！{NEWLINE}真是幸福的交换啊……",
+   "en": "Ah, the Shellder I traded for! What a{NEWLINE}happy trade...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 34,
+   "zh": "超音蝠『Zuuuuu——bat！",
+   "en": "Zubat: Zuuuuu-bat!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 35,
+   "zh": "大舌贝『Sheee——der！",
+   "en": "Shellder: Sheee-der!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 36,
+   "zh": "我看到了！{NEWLINE}小偷偷了东西之后,{CLEAR}从北窗逃走了！",
+   "en": "I saw it! The thief stole the stuff and{NEWLINE}escaped out the north window!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 37,
+   "zh": "我家老公年轻时周游各地,{NEWLINE}收集了一大堆技能机,{CLEAR}如今全被小偷偷走了,唉……",
+   "en": "In his youth, my husband traveled all{NEWLINE}over and collected a pile of TMs.{SCROLL}Now the thief’s stolen every last one.{NEWLINE}Sigh...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; ext-review RV-019"
+  },
+  {
+   "id": 38,
+   "zh": "哈约克『Her——Diii——",
+   "en": "Herdier: Her-Diii-!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "这个可恶的小偷,{NEWLINE}把我旅行中得来的技能机{CLEAR}都给偷走了！",
+   "en": "That rotten thief stole all the TMs I{NEWLINE}collected on my travels!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 40,
+   "zh": "现在的技能机,{NEWLINE}已经可以无限次使用了！{CLEAR}比我年轻那会儿方便多了。",
+   "en": "TMs these days can be used as many{NEWLINE}times as you like!{SCROLL}So much handier than back when I was{NEWLINE}young.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 41,
+   "zh": "你拿着的那个,{NEWLINE}不就是我放技能机碟片的盒子吗？！",
+   "en": "That thing you’re holding... Isn’t that{NEWLINE}the case I keep my TM discs in?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 42,
+   "zh": "原来你费了这么多功夫{NEWLINE}帮我找回来啊,{CLEAR}真是太谢谢你了。{CLEAR}这个技能机送给你作为感谢吧！",
+   "en": "You went to all that trouble to get it{NEWLINE}back for me? Thank you so much.{SCROLL}Please take this TM as thanks!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 43,
+   "zh": "谢谢你帮我老公追回了技能机盒子,{NEWLINE}那可是他重要的宝贝呢。",
+   "en": "Thank you for getting my husband’s TM{NEWLINE}case back. It’s his precious treasure.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 44,
+   "zh": "我听爸爸说,现在的技能机碟片{NEWLINE}可以无限次使用了。{CLEAR}那个小偷偷走这么多技能机,{CLEAR}是要让很多很多的口袋妖怪学技能吗？",
+   "en": "Dad says TM discs these days can be{NEWLINE}used over and over.{SCROLL}So the thief who stole all those TMs...{SCROLL}Is he going to teach moves to lots and{NEWLINE}lots of Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 45,
+   "zh": "你并没有月亮球啊,{NEWLINE}等有球了再来找我吧。",
+   "en": "You don’t have a Moon Ball. Come back{NEWLINE}when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 46,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住冰之牙。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn Ice{NEWLINE}Fang.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 47,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I don’t think a Pokémon that hasn’t{NEWLINE}hatched yet can learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), same position; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 48,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会冰之牙了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Ice{NEWLINE}Fang!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 49,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 50,
+   "zh": "{VAR:0101:0}学会了冰之牙！",
+   "en": "{VAR:0101:0} learned Ice Fang!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 51,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会冰之牙了！{SCROLL}那么按照约定,{NEWLINE}1个月亮球我拿走了。",
+   "en": "And there you go! Your {VAR:0100:0} has{NEWLINE}learned Ice Fang!{SCROLL}And as agreed, I’ll take that one Moon{NEWLINE}Ball.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 52,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的冰之牙……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习冰之牙{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Ice Fang...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn Ice{NEWLINE}Fang?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 54,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s), same position; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 55,
+   "zh": "你是要放弃{NEWLINE}让它记住冰之牙吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Ice Fang?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

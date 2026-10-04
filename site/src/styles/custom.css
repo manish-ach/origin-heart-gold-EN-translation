@@ -1,0 +1,111 @@
+/* Origin HeartGold guide: theme on top of Starlight. Gold accent from the game's title. */
+:root {
+	--sl-color-accent-low: #3b2d06;
+	--sl-color-accent: #c9971c;
+	--sl-color-accent-high: #f5dc96;
+	--ohg-tag-bg: var(--sl-color-gray-6);
+}
+:root[data-theme='light'] {
+	--sl-color-accent-low: #f7e9c0;
+	--sl-color-accent: #8c6400;
+	--sl-color-accent-high: #4a3500;
+	--ohg-tag-bg: var(--sl-color-gray-6);
+}
+
+/* ---- tags and quest blocks */
+.tag {
+	display: inline-block; font-size: var(--sl-text-xs); line-height: 1.6; padding: 0 0.5em; margin: 0 0.25em 0.25em 0;
+	border-radius: 999px; background: var(--ohg-tag-bg); color: var(--sl-color-text); text-decoration: none; white-space: nowrap;
+}
+a.tag-place { background: var(--sl-color-accent-low); color: var(--sl-color-accent-high); }
+.tag-starter { background: #2b4a7a; color: #fff; }
+.tag-gender { background: #6a3d7a; color: #fff; }
+.tag-missable { background: #8a2b2b; color: #fff; }
+.tag-postgame { background: #33573a; color: #fff; }
+.quest-meta { margin-top: 0.25rem !important; }
+section.quest { scroll-margin-top: 5rem; }
+section.quest.is-hidden { display: none; }
+section.quest.is-done > :not(h2):not(.quest-meta):not(.quest-tools) { opacity: 0.55; }
+.quest-tools { display: flex; gap: 1rem; font-size: var(--sl-text-sm); margin-top: 0.5rem !important; }
+.quest-tools a { color: var(--sl-color-gray-3); }
+details.tech { font-size: var(--sl-text-sm); color: var(--sl-color-gray-3); border-left: 2px solid var(--sl-color-gray-5); padding-left: 0.75rem; }
+details.tech summary { cursor: pointer; }
+/* Technical references (script files, flags, code addresses) are for maintainers: they stay in the HTML but are
+   hidden unless a page is opened once with ?tech=1 (site/public/ohg.js; ?tech=0 hides them again). */
+.tech { display: none !important; }
+:root[data-tech='on'] .tech { display: revert !important; }
+
+/* ---- game setup panel */
+.game-setup {
+	border: 1px solid var(--sl-color-gray-5); border-radius: 0.5rem; padding: 0.75rem 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem;
+	align-items: center; background: var(--sl-color-gray-7, var(--sl-color-black));
+}
+.game-setup label { font-size: var(--sl-text-sm); }
+.game-setup select { margin-left: 0.35rem; }
+.game-setup .hidden-count { font-size: var(--sl-text-sm); color: var(--sl-color-gray-3); }
+
+/* ---- tables and filters */
+table.compact { font-size: var(--sl-text-sm); }
+table.compact td, table.compact th { padding: 0.25rem 0.6rem; }
+.table-filter { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: center; margin: 1rem 0; }
+.table-filter input[type='search'] { flex: 1 1 16rem; padding: 0.4rem 0.6rem; border-radius: 0.35rem; border: 1px solid var(--sl-color-gray-5); background: var(--sl-color-black); color: var(--sl-color-white); }
+.table-filter select { padding: 0.35rem; }
+.filter-count { font-size: var(--sl-text-sm); color: var(--sl-color-gray-3); }
+table.sortable th { cursor: pointer; user-select: none; }
+table.sortable th .sort-button { all: unset; cursor: pointer; display: inline; font: inherit; color: inherit; }
+table.sortable th .sort-button:focus-visible { outline: 2px solid var(--sl-color-accent); outline-offset: 2px; }
+table.sortable th[aria-sort='ascending']::after { content: ' ▲'; }
+table.sortable th[aria-sort='descending']::after { content: ' ▼'; }
+.small { font-size: var(--sl-text-sm); }
+.muted { color: var(--sl-color-gray-3); }
+
+/* ---- types */
+.type { display: inline-block; min-width: 4.5em; text-align: center; font-size: var(--sl-text-xs); font-weight: 600; padding: 0 0.4em; margin: 0 0.2em 0.1em 0; border-radius: 0.3em; color: #fff; text-shadow: 0 1px 1px rgb(0 0 0 / 0.4); }
+.type-normal { background: #9fa19f; } .type-fighting { background: #ff8000; } .type-flying { background: #81b9ef; }
+.type-poison { background: #9141cb; } .type-ground { background: #915121; } .type-rock { background: #afa981; }
+.type-bug { background: #91a119; } .type-ghost { background: #704170; } .type-steel { background: #60a1b8; }
+.type-fire { background: #d92424; } .type-water { background: #1f6fd6; } .type-grass { background: #3fa129; }
+.type-electric { background: #d4a900; } .type-psychic { background: #ef4179; } .type-ice { background: #3dcef3; }
+.type-dragon { background: #5060e1; } .type-dark { background: #624d4e; } .type-fairy { background: #ef70ef; }
+/* Dark text where white would be below WCAG AA (4.5:1); Fire and Water are darkened instead. */
+.type-normal, .type-fighting, .type-flying, .type-rock, .type-bug, .type-steel, .type-grass,
+.type-electric, .type-psychic, .type-ice, .type-fairy { color: #1b1b1b; text-shadow: none; }
+
+/* ---- Pokémon page */
+.mon-head { display: grid; gap: 0.5rem; }
+dl.facts { display: grid; grid-template-columns: max-content 1fr; gap: 0.15rem 1rem; font-size: var(--sl-text-sm); }
+dl.facts dt { color: var(--sl-color-gray-3); margin: 0; }
+dl.facts dd { margin: 0; }
+table.stats { max-width: 32rem; }
+table.stats th { text-align: left; white-space: nowrap; }
+.bar-cell { width: 100%; }
+.bar { display: block; height: 0.6rem; border-radius: 0.3rem; background: var(--sl-color-accent); }
+.prevnext { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2rem; font-size: var(--sl-text-sm); }
+
+/* ---- locations and trainers */
+.enc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.75rem 1.25rem; }
+.enc-block h4 { font-size: var(--sl-text-sm); margin: 0.5rem 0 0.25rem; }
+.enc-block table { margin-top: 0 !important; }
+details.trainer, details.shop { border: 1px solid var(--sl-color-gray-5); border-radius: 0.4rem; padding: 0.4rem 0.75rem; margin: 0.4rem 0; }
+details.trainer summary, details.shop summary { cursor: pointer; display: flex; flex-wrap: wrap; gap: 0.25rem 0.75rem; align-items: baseline; }
+.trainer-name { font-weight: 600; }
+.trainer-team { font-size: var(--sl-text-sm); color: var(--sl-color-gray-3); }
+ul.loc-list { columns: 2 16rem; }
+ul.loc-list li { break-inside: avoid; }
+
+/* ---- footer help links */
+.page-help { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; font-size: var(--sl-text-sm); margin: 2rem 0 1rem; padding-top: 1rem; border-top: 1px solid var(--sl-color-gray-5); }
+
+@media print {
+	.game-setup, .quest-tools, .page-help { display: none; }
+	details.tech { display: none; }
+}
+
+/* quest headings: long titles, keep them readable */
+.sl-markdown-content section.quest > h2 { font-size: var(--sl-text-2xl); line-height: 1.25; }
+.sl-markdown-content section.quest + section.quest { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--sl-color-gray-6); }
+@media (max-width: 50rem) {
+	.sl-markdown-content section.quest > h2 { font-size: var(--sl-text-xl); }
+	.game-setup { padding: 0.6rem 0.75rem; }
+	table.compact { display: block; overflow-x: auto; }
+}

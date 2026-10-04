@@ -1,0 +1,719 @@
+{
+ "narc": "a027",
+ "bank": 501,
+ "source": "work/extract/v4/a027/0501.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "欢迎光临！{NEWLINE}这里是游戏中心！{SCROLL}",
+   "en": "Welcome! This is the Game Corner!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "0501 is the Celadon Game Corner (FRLG-style, restored by the hack; the US HG bank is empty). Lawrence is the owner and the Collector; Erika and Yuri go into the stockroom (#23–48), leading to the Rocket base in 0315/0316."
+  },
+  {
+   "id": 1,
+   "zh": "要购买游戏硬币吗？{SCROLL}唉？你没有放硬币的代币盒啊！",
+   "en": "Would you like to buy some coins?{SCROLL}Huh? You don’t have a Coin Case to hold{NEWLINE}coins!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "需要游戏硬币吗？{SCROLL}每1枚硬币20元！{NEWLINE}要买吗？{VAR:0200:0}",
+   "en": "Do you need some game coins?{SCROLL}It’s $20 per coin! Would you like to buy{NEWLINE}some?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "是！谢谢光临！{NEWLINE}这是硬币！给！{VAR:0200:0}",
+   "en": "Yes! Thank you! Here are your coins!{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "钱不够啊！",
+   "en": "You don’t have enough money!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "哎呀……！{NEWLINE}代币盒满了啊！",
+   "en": "Oops...! Your Coin Case is full!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "……不需要啊！{NEWLINE}那么欢迎下次再来！",
+   "en": "...You don’t need any? Then please come{NEWLINE}again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "欢迎光临！{SCROLL}通过游戏积攒的硬币{NEWLINE}可以到旁边的柜台{CLEAR}换成你喜欢奖品哦！",
+   "en": "Welcome!{SCROLL}You can trade the coins you win for{NEWLINE}prizes at the counter next door!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "怎么样！很厉害吧？{NEWLINE}这里的老虎机{CLEAR}都是最新型的！{SCROLL}这么先进的游戏中心,{NEWLINE}城都地区是没有的吧！",
+   "en": "How’s that?{SCROLL}Amazing, right? The slot machines here{NEWLINE}are all the latest models!{SCROLL}I bet there’s no Game Corner this{NEWLINE}advanced in Johto!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "这个,就是这台！{SCROLL}昨天用这台机子一直都没中过,{CLEAR}今天我一定要让它中！",
+   "en": "This one! This is the machine!{SCROLL}It didn’t pay out once yesterday, but{NEWLINE}today I’m going to make it hit!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "这台机子……{NEWLINE}我看会中。{SCROLL}这里有经常中的老虎机和{NEWLINE}从来都不中的老虎机。",
+   "en": "This machine... I think it’s going to hit.{SCROLL}Some slot machines here hit all the time,{NEWLINE}and some never hit at all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "嘎哈哈！{NEWLINE}硬币一个劲地出来啊！{CLEAR}笑得停不下来了！{SCROLL}……哦？{NEWLINE}你想玩游戏啊？{SCROLL}好吧,我就把我的幸运分给你！{SCROLL}",
+   "en": "Gah-ha-ha! The coins just keep pouring{NEWLINE}out! I can’t stop laughing!{SCROLL}...Oh? You want to play?{SCROLL}All right, I’ll share some of my luck{NEWLINE}with you!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}{NEWLINE}得到了１８枚硬币！",
+   "en": "{VAR:0103:0} received 18 coins!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "嘎哈哈！{SCROLL}与人亲切,{NEWLINE}心情也好啊！",
+   "en": "Gah-ha-ha! Being kind to people puts me{NEWLINE}in a great mood!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "哎呀！你没有代币盒啊。{CLEAR}那么不好把硬币给你了呢。",
+   "en": "Oops! You don’t have a Coin Case. Then{NEWLINE}I can’t give you any coins.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "什么呀,你！{NEWLINE}代币盒居然满了！{CLEAR}好像很走运啊！",
+   "en": "What’s this?! Your Coin Case is full!{NEWLINE}Looks like you’re on a lucky streak!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "哦哦！{NEWLINE}未来的传说！{CLEAR}想玩老虎机吗？{SCROLL}我也瞄准了奖品的精灵哦。{CLEAR}但是怎么也赚不了硬币啊！",
+   "en": "Oh, hey! Legend in the making! Want to{NEWLINE}play the slots?{SCROLL}I’m aiming for a prize Pokémon too. But{NEWLINE}I just can’t win enough coins!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "唔呒呒……按概率来说{NEWLINE}皮卡丘一排比较好啊……{CLEAR}唉,不知道该选哪排了……",
+   "en": "Hmmm... By the odds, a row of Pikachu{NEWLINE}would be best... Ugh, I don’t know which{CLEAR}row to pick...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "张贴着令人怀念的{NEWLINE}游戏海报……",
+   "en": "A nostalgic game poster is on the{NEWLINE}wall...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "拿着ＤＳ来玩老虎机,{SCROLL}要么玩老虎机,{NEWLINE}要么玩ＤＳ,{CLEAR}要专心一点啊！",
+   "en": "Playing the slots while holding a DS...{SCROLL}Either play the slots or play the DS.{NEWLINE}Focus!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "有一个果汁罐,{NEWLINE}难道有人用这个玩……{CLEAR}唉？空的！{SCROLL}",
+   "en": "There’s a juice can. Did someone use{NEWLINE}this to play...? Huh? It’s empty!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "没有代币盒{NEWLINE}所有无法进行游戏！",
+   "en": "You can’t play without a Coin Case!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "硬币不够,{NEWLINE}不能玩！",
+   "en": "You don’t have enough coins to play!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "吉尔露太『欢迎光临我的游戏厅,{NEWLINE}如果你也有一个致富梦的话,{CLEAR}那这里一定是你实现梦想的地方。",
+   "en": "Lawrence: Welcome to my Game Corner.{NEWLINE}If you dream of striking it rich, this is{CLEAR}the place to make it come true.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "吉尔露太『什么？{NEWLINE}问我臭臭花去哪里了？{CLEAR}是莉佳馆主的那只臭臭花丢了吗？{CLEAR}那可真是大事件了,{CLEAR}我一定会派我的手下{CLEAR}帮莉佳馆主寻找的。",
+   "en": "Lawrence: What?{SCROLL}Where did Gloom go? You mean Gym Leader{NEWLINE}Erika’s Gloom is missing?{SCROLL}That’s a serious matter indeed. I’ll{NEWLINE}have my men help Gym Leader Erika{CLEAR}search for it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "吉尔露太『哦？{NEWLINE}问我是不是「收藏家」？{CLEAR}哈哈哈哈,过奖了过奖了,{CLEAR}我只是个购物狂而已,{CLEAR}买的东西多了{CLEAR}大家就给我起了个「收藏家」的外号,{CLEAR}浪得虚名而已啦。",
+   "en": "Lawrence: Oh? Am I the Collector? Ha ha{NEWLINE}ha ha! You flatter me.{SCROLL}I’m just a shopaholic.{SCROLL}I buy so many things that people{NEWLINE}started calling me the Collector. It’s a{CLEAR}name I hardly deserve.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "你就是「收藏家」吧！",
+   "en": "You’re the Collector!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#26–#28: the player's questions to Lawrence.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 27,
+   "zh": "你是不是在拍卖会上买了臭臭花？",
+   "en": "Did you buy Gloom at the auction?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 28,
+   "zh": "没事",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 29,
+   "zh": "吉尔露太『拍卖会？{NEWLINE}哪里的拍卖会？{CLEAR}我最近都没有离开过彩虹市啊。",
+   "en": "Lawrence: An auction? What auction? I{NEWLINE}haven’t left Celadon City at all lately.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "莉佳『吉尔露太先生,{NEWLINE}根据我们从市民那了解到的情况,{CLEAR}彩虹道馆被抢走的臭臭花{CLEAR}被您在一个非法拍卖会上买回来了。{SCROLL}莉佳『虽然我个人相信{NEWLINE}您作为一名成功的企业家,{CLEAR}绝不会去非法买卖精灵。{CLEAR}但是现在群众对您是有一些误会的,{CLEAR}所以希望您能帮我们想一个{CLEAR}向群众交代的说法。",
+   "en": "Erika: Mr. Lawrence, according to what{NEWLINE}we’ve learned from the citizens, you{CLEAR}bought the Gloom stolen from the{CLEAR}Celadon Gym at an illegal auction.{SCROLL}Erika: Personally, I believe a{NEWLINE}successful businessman like you would{CLEAR}never buy or sell Pokémon illegally.{SCROLL}But the public has some{NEWLINE}misunderstandings about you. So I hope{CLEAR}you can help us come up with an{CLEAR}explanation we can give them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "吉尔露太『哈哈哈哈哈,{NEWLINE}谢谢莉佳大小姐对我的信任。{CLEAR}我现在就安排我的手下{CLEAR}帮您一起寻找臭臭花。",
+   "en": "Lawrence: Ha ha ha ha ha! Thank you for{NEWLINE}your trust, Lady Erika.{SCROLL}I’ll have my men help you search for{NEWLINE}Gloom right away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "吉尔露太！少在这装了,{NEWLINE}快点把臭臭花交出来！",
+   "en": "Lawrence! Quit the act and hand over{NEWLINE}Gloom already!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Speaker: Yuri (百合), Erika's attendant (see #33)."
+  },
+  {
+   "id": 33,
+   "zh": "吉尔露太『看来百合小姐{NEWLINE}也对我有很深的误会呢。",
+   "en": "Lawrence: It seems Miss Yuri has a deep{NEWLINE}misunderstanding about me as well.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "莉佳『吉尔露太先生,{NEWLINE}我和道馆的伙伴们{CLEAR}几乎把整个彩虹市都搜了个遍,{CLEAR}也没有发现臭臭花。{SCROLL}莉佳『游戏厅是为数不多的{NEWLINE}还没搜查过的地方,{CLEAR}所以百合她才会会疑心重重{CLEAR}说话没有分寸,{CLEAR}希望您不要责怪她。",
+   "en": "Erika: Mr. Lawrence, my Gym friends and{NEWLINE}I have searched nearly all of Celadon{CLEAR}City and found no trace of Gloom.{SCROLL}Erika: The Game Corner is one of the few{NEWLINE}places we haven’t searched yet. That’s{CLEAR}why Yuri is so suspicious and speaking{CLEAR}out of turn. I hope you won’t hold it{CLEAR}against her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "吉尔露太『好说好说,{NEWLINE}只要莉佳馆主您相信我,{CLEAR}一切都不是问题。",
+   "en": "Lawrence: No problem at all. As long as{NEWLINE}you believe me, Gym Leader Erika,{CLEAR}nothing is a problem.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "莉佳小姐！您不要相信{NEWLINE}这个虚伪的家伙啊！{CLEAR}这个游戏厅里肯定有鬼,{CLEAR}必须要好好搜查一下！",
+   "en": "Lady Erika! Don’t trust this two-faced{NEWLINE}man!{SCROLL}Something shady is going on in this Game{NEWLINE}Corner. We have to search it properly!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "莉佳『吉尔露太先生,{NEWLINE}虽然我对您的清白深信不疑,{CLEAR}但是我的伙伴们{CLEAR}似乎是有些过于敏感了,{CLEAR}为了解开你们之间的误会,{CLEAR}也为了让我跟伙伴们有个交代,{CLEAR}希望您能带我们{CLEAR}去您游戏厅的仓库参观一下。",
+   "en": "Erika: Mr. Lawrence, I have no doubt{NEWLINE}about your innocence. But my friends{CLEAR}seem a little oversensitive.{SCROLL}To clear up the misunderstanding{NEWLINE}between you, and so I can give my{CLEAR}friends an answer, I hope you’ll show us{CLEAR}around your Game Corner’s stockroom.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "吉尔露太『……{SCROLL}吉尔露太『看来只能如此了。{NEWLINE}不过我的那个仓库东西实在太多,{CLEAR}人去多了没有落脚的地方。{CLEAR}所以请莉佳大小姐单独跟我前往吧。",
+   "en": "Lawrence: ...{SCROLL}Lawrence: I suppose there’s no other{NEWLINE}way. But my stockroom is so full of{CLEAR}things that there’s no room to stand if{CLEAR}too many people go in.{SCROLL}So I’ll ask you to come with me alone,{NEWLINE}Lady Erika.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "你是要让莉佳大小姐{NEWLINE}亲自在你那个满是灰尘的仓库里{CLEAR}翻箱倒柜地找东西吗？{SCROLL}我跟你说,没门！{NEWLINE}我要跟莉佳大小姐一起去。",
+   "en": "You want Lady Erika to go rummaging{NEWLINE}through boxes in that dusty stockroom{CLEAR}of yours herself?{SCROLL}Let me tell you, no way! I’m going with{NEWLINE}Lady Erika.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "吉尔露太『嘿嘿,好,{NEWLINE}那莉佳大小姐您就带一个随从{CLEAR}跟我一起来吧。",
+   "en": "Lawrence: Heh heh. Very well. Lady{NEWLINE}Erika, you may bring one attendant{CLEAR}along with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "莉佳『诸位,我现在跟百合{NEWLINE}去游戏厅仓库搜查一下,{CLEAR}如果发现什么问题{CLEAR}会第一时间跟大家联系。{CLEAR}请诸位在这里耐心等待不要轻举妄动。",
+   "en": "Erika: Everyone, Yuri and I will go{NEWLINE}search the Game Corner stockroom now.{CLEAR}If we find anything wrong, we’ll contact{CLEAR}you right away.{SCROLL}Please wait here patiently, and don’t do{NEWLINE}anything rash.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "莉佳『走吧,百合。",
+   "en": "Erika: Come, Yuri.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "是,莉佳大小姐。",
+   "en": "Yes, Lady Erika.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "小霞『{VAR:0103:0},{NEWLINE}我总觉得这个吉尔露太不简单,{CLEAR}虽然莉佳是很强没错,{CLEAR}但是就只有她们两个人进去的话,{CLEAR}总感觉有些危险。{SCROLL}小霞『不如咱们{NEWLINE}也跟去看看吧,你说呢？",
+   "en": "Misty: {VAR:0103:0}, I just have a feeling{NEWLINE}this Lawrence isn’t what he seems.{CLEAR}Erika is strong, sure, but it feels risky{CLEAR}with just the two of them going in.{SCROLL}Misty: Why don’t we follow them and take{NEWLINE}a look too? What do you say?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#45/#46 choice → #47 / #48."
+  },
+  {
+   "id": 45,
+   "zh": "放心吧,莉佳不会有事的",
+   "en": "Don’t worry, Erika will be fine",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 46,
+   "zh": "嗯,咱们也跟去看看！",
+   "en": "Yeah, let’s follow them!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 47,
+   "zh": "小霞『是吗……{NEWLINE}难道这份不安是我的错觉？",
+   "en": "Misty: You think so...? Maybe this{NEWLINE}uneasy feeling is just my imagination?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "小霞『谢谢你,{VAR:0103:0}！{NEWLINE}咱们这就跟上去吧。",
+   "en": "Misty: Thanks, {VAR:0103:0}! Let’s go after{NEWLINE}them right now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "现在游戏厅被精灵联盟接管了,{NEWLINE}游戏硬币的价格也做出了调整,{CLEAR}每1枚硬币5元,要买吗？",
+   "en": "Now that the Pokémon League has taken{NEWLINE}over the Game Corner, the coin price{CLEAR}has been adjusted too. It’s $5 per{CLEAR}coin. Would you like to buy some?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "买50枚硬币,250元",
+   "en": "50 coins, $250",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 51,
+   "zh": "买500枚硬币,2500元",
+   "en": "500 coins, $2500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 52,
+   "zh": "自从游戏厅被精灵联盟接管后,{NEWLINE}就在薄利运营了。{CLEAR}原来卖20元1枚的硬币,{CLEAR}现在居然只要5元。{SCROLL}可见吉尔露太这个吸血鬼{NEWLINE}当时真是吸了我们不少钱啊。",
+   "en": "Ever since the Pokémon League took{NEWLINE}over the Game Corner, it’s been running{CLEAR}on thin margins.{SCROLL}Coins used to sell for $20 each, and now{NEWLINE}they’re only $5!{SCROLL}Just goes to show how much money that{NEWLINE}bloodsucker Lawrence squeezed out of{CLEAR}us back then.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "天啊,这是要出什么事了吗？",
+   "en": "Oh my, is something about to happen?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "这么多人聚集到这里,{NEWLINE}还是莉佳大小姐带头……{CLEAR}感觉不妙呀。",
+   "en": "So many people gathered here, with Lady{NEWLINE}Erika leading them... I’ve got a bad{CLEAR}feeling about this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "真是的,这些人要办事就自己办啊,{NEWLINE}干嘛要把我们从游戏机位上赶下来！",
+   "en": "Honestly!{SCROLL}If these people have business to take{NEWLINE}care of, they should do it themselves.{CLEAR}Why chase us off our game machines?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "老头子我还是第一次见莉佳大小姐{NEWLINE}这么气势汹汹的样子呢。",
+   "en": "In all my years, this old man has never{NEWLINE}seen Lady Erika look so fierce.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "我就说这个游戏厅不干净,{NEWLINE}设置了坑玩家的后门,{CLEAR}你看莉佳大小姐带人来查这事了吧？",
+   "en": "I always said this Game Corner was{NEWLINE}crooked, with back doors rigged to{CLEAR}cheat players. See, Lady Erika’s{CLEAR}brought people to look into it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "彩虹市可没人敢砸吉尔露太的场子,{NEWLINE}莉佳大小姐带人把吉尔露太围在那,{CLEAR}是做实了他有什么问题吗？",
+   "en": "Nobody in Celadon City would dare mess{NEWLINE}with Lawrence’s place. Lady Erika has{CLEAR}him surrounded... Does that mean she’s{CLEAR}proven he’s up to something?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "来游戏厅真好,不光有游戏玩,{NEWLINE}还有热闹看。",
+   "en": "Coming to the Game Corner is great.{SCROLL}There are games to play and a show to{NEWLINE}watch!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "前面是游戏厅的库房重地,{NEWLINE}禁止入内。",
+   "en": "Up ahead is the Game Corner’s{NEWLINE}stockroom. No entry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "吉尔露太这个笑面虎,真是能装。{NEWLINE}等会儿莉佳大小姐从他这找到臭臭花,{CLEAR}他肯定会找借口说不关他的事,{CLEAR}他不知情啊什么的。",
+   "en": "That smiling snake Lawrence sure can{NEWLINE}put on an act. When Lady Erika finds{CLEAR}Gloom here, I bet he’ll make up some{CLEAR}excuse like ‘it’s nothing to do with me,{CLEAR}I didn’t know.’",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "真好奇吉尔露太的仓库里有什么,{NEWLINE}既然他的代号是「收藏家」,{CLEAR}那肯定有很多稀奇玩意儿吧。",
+   "en": "I’m dying to know what’s in Lawrence’s{NEWLINE}stockroom. With a code name like the{CLEAR}Collector, there must be lots of{CLEAR}curiosities in there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "这个游戏厅给我的感觉很不舒服,{NEWLINE}好像要吃人一样,{CLEAR}希望莉佳大小姐……{CLEAR}一定能找到臭臭花的！",
+   "en": "This Game Corner gives me a really bad{NEWLINE}feeling, like it could swallow people{CLEAR}whole. I hope Lady Erika... finds Gloom{CLEAR}for sure!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "宝石海星『Sta——mi！",
+   "en": "Starmie: Sta-mi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 65,
+   "zh": "妙蛙花『Venu——sau！",
+   "en": "Venusaur: Venu-sau!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 66,
+   "zh": "金属怪『Me——tang！",
+   "en": "Metang: Me-tang!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "小蓝『{VAR:0103:0},{NEWLINE}这个吉尔露太的游戏厅里,{CLEAR}都是些有后门的坑钱机器,{CLEAR}这样的老板肯定不是什么好人。",
+   "en": "Green: {VAR:0103:0}, this Lawrence’s Game{NEWLINE}Corner is full of rigged machines with{CLEAR}back doors to rip people off. An owner{CLEAR}like that can’t be a good guy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "小赤『{VAR:0103:0},{NEWLINE}这个吉尔露太一副处乱不惊的样子,{CLEAR}不是个好对付的人啊。",
+   "en": "Red: {VAR:0103:0}, this Lawrence is so cool{NEWLINE}and collected. He’s not going to be{CLEAR}easy to deal with.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "小蓝『仓库里发现了火箭队！？{NEWLINE}果然事情不简单。{CLEAR}{VAR:0103:0}你先去找莉佳她们,{CLEAR}我准备一下就去帮你。",
+   "en": "Green: Team Rocket in the stockroom?!{NEWLINE}I knew something was off. {VAR:0103:0}, go{CLEAR}find Erika and Yuri first. I’ll get ready{CLEAR}and come help you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "小赤『仓库里发现了火箭队！？{NEWLINE}果然事情不简单。{CLEAR}{VAR:0103:0}你先去找莉佳她们,{CLEAR}我准备一下就去帮你。",
+   "en": "Red: Team Rocket in the stockroom?! I{NEWLINE}knew something was off. {VAR:0103:0}, go{CLEAR}find Erika and Yuri first. I’ll get ready{CLEAR}and come help you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "在仓库里没有找到莉佳大小姐她们？{NEWLINE}反而发现了这是火箭队的基地？{CLEAR}可恶的吉尔露太！{CLEAR}我这就准备一下精灵,{CLEAR}拜托你先去找找莉佳大小姐吧！",
+   "en": "You didn’t find Lady Erika and Yuri in{NEWLINE}the stockroom? And instead you found{CLEAR}out it’s a Team Rocket base? That{CLEAR}rotten Lawrence!{SCROLL}I’ll get my Pokémon ready right away.{NEWLINE}Please, go look for Lady Erika first!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "天啊,莉佳大小姐她们{NEWLINE}现在身陷火箭队的基地！？{SCROLL}……{SCROLL}我要振作起来,{NEWLINE}我这就准备一下战斗用的精灵,{CLEAR}拜托你先去找找莉佳大小姐吧！！",
+   "en": "Oh no, Lady Erika and Yuri are trapped{NEWLINE}in a Team Rocket base?!{SCROLL}...{SCROLL}I have to pull myself together. I’ll get{NEWLINE}my battle Pokémon ready right away.{CLEAR}Please, go look for Lady Erika first!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "真没想到这里会跟火箭队有关,{NEWLINE}我得赶紧准备一下精灵{CLEAR}好去支援莉佳大小姐。{CLEAR}如果你还有余力的话,{CLEAR}拜托你先去找找莉佳大小姐吧,{CLEAR}拜托了。",
+   "en": "I never thought this place would be tied{NEWLINE}to Team Rocket. I need to get my{CLEAR}Pokémon ready fast so I can back up{CLEAR}Lady Erika.{SCROLL}If you still have the strength, please{NEWLINE}go look for Lady Erika first. I’m{CLEAR}begging you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "小绿『{VAR:0103:0},你的情报准不准啊？{NEWLINE}要是不准的话,{CLEAR}莉佳和我们可就出丑了。",
+   "en": "Blue: {VAR:0103:0}, is your intel even{NEWLINE}reliable? If it’s not, Erika and the rest{CLEAR}of us are going to look like fools.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "小绿『希望莉佳可以在这里{NEWLINE}顺利地找到臭臭花吧。",
+   "en": "Blue: Hope Erika manages to find Gloom{NEWLINE}here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "小绿『这里就是火箭队的基地！？{NEWLINE}他们可能劫持了莉佳！？{CLEAR}哼,真是一群阴魂不散的家伙。{SCROLL}小绿『{VAR:0103:0}你先去找找莉佳她们,{NEWLINE}我调整一下精灵之后就过去。",
+   "en": "Blue: This is Team Rocket’s base?! They{NEWLINE}might have kidnapped Erika?! Hmph,{CLEAR}these guys just keep coming back to{CLEAR}haunt us.{SCROLL}Blue: {VAR:0103:0}, go look for Erika and{NEWLINE}Yuri first. I’ll come over once I’ve{CLEAR}sorted out my Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "水箭龟『Blas——toi！",
+   "en": "Blastoise: Blas-toi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "大吾『我听说是游戏厅老板{NEWLINE}涉嫌绑架道馆馆主的精灵,{CLEAR}这么有钱的人真的缺一只臭臭花吗？",
+   "en": "Steven: I hear the Game Corner owner is{NEWLINE}suspected of kidnapping a Gym Leader’s{CLEAR}Pokémon. Does someone that rich really{CLEAR}need a Gloom?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "大吾『整个事件的幕后黑手是火箭队！？{NEWLINE}果然事情不简单啊……{CLEAR}我这就准备一下跟大家一起战斗！",
+   "en": "Steven: Team Rocket is behind this whole{NEWLINE}affair?! I knew it wasn’t that simple...{CLEAR}I’ll get ready and fight alongside{CLEAR}everyone right away!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "希罗娜『{VAR:0103:0},{NEWLINE}我本来是想来游戏厅玩玩的,{CLEAR}结果现在的气氛好像有点不太对啊。",
+   "en": "Cynthia: {VAR:0103:0}, I just came to have{NEWLINE}some fun at the Game Corner. But the{CLEAR}mood here seems a little off.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "希罗娜『道馆馆主有可能{NEWLINE}被火箭队给劫持了？这太夸张了吧。{CLEAR}是月见山上那一伙人干的吗？{CLEAR}我做一下准备就去帮你们一起战斗！",
+   "en": "Cynthia: The Gym Leader may have been{NEWLINE}kidnapped by Team Rocket?{SCROLL}That’s crazy!{SCROLL}Was it that gang from Mt. Moon? I’ll get{NEWLINE}ready and come help you fight!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "尖牙陆鲨『Ga——Bite！",
+   "en": "Gabite: Ga-Bite!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "看吉尔露太先生的样子,{NEWLINE}不像是抢走臭臭花的人啊,{CLEAR}莉佳姐姐没有搞错吧……",
+   "en": "Mr. Lawrence doesn’t look like the one{NEWLINE}who took Gloom... Sis Erika didn’t get it{CLEAR}wrong, did she...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Speaker: Kaya (小佳). #84/#85: male/female player variants (mister/miss)."
+  },
+  {
+   "id": 84,
+   "zh": "我完全被骗了！没想到吉尔露太先生{NEWLINE}居然是火箭队的人。{CLEAR}莉佳姐姐和百合姐姐她们没有事吧？{CLEAR}拜托大哥哥你去找找莉佳姐姐她们吧？",
+   "en": "I was completely fooled!{SCROLL}I never thought Mr. Lawrence was with{NEWLINE}Team Rocket.{SCROLL}Are Sis Erika and Sis Yuri all right?{NEWLINE}Mister, would you please go look for Sis{CLEAR}Erika and the others?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "我完全被骗了！没想到吉尔露太先生{NEWLINE}居然是火箭队的人。{CLEAR}莉佳姐姐和百合姐姐她们没有事吧？{CLEAR}拜托大姐姐你去找找莉佳姐姐她们吧？",
+   "en": "I was completely fooled!{SCROLL}I never thought Mr. Lawrence was with{NEWLINE}Team Rocket.{SCROLL}Are Sis Erika and Sis Yuri all right?{NEWLINE}Miss, would you please go look for Sis{CLEAR}Erika and the others?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "您好,这里是彩虹游戏厅,{NEWLINE}欢迎您来这里游玩。",
+   "en": "Hello, this is the Celadon Game Corner.{NEWLINE}Welcome, and have fun!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "算了,不买了……",
+   "en": "Never mind, I won’t buy any...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  }
+ ]
+}

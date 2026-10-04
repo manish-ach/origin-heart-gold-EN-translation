@@ -1,0 +1,483 @@
+{
+ "narc": "a027",
+ "bank": 109,
+ "source": "work/extract/v4/a027/0109.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "渡『现在所有的线索{NEWLINE}都指向你们这家店。{CLEAR}伪装和抵抗是没有用的,{CLEAR}老实交代你们的同伙躲哪去了。",
+   "en": "Lance: Every lead now points to{NEWLINE}this shop of yours. Disguises and{CLEAR}resistance are useless. Tell us{CLEAR}where your accomplices are hiding.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "渡先生啊,您是联盟四天王,{NEWLINE}可不能知法犯法。{CLEAR}没有证据就说我们是火箭队的人,{CLEAR}这么做不合适吧？",
+   "en": "Mr. Lance, you’re one of the{NEWLINE}League’s Elite Four. You can’t{CLEAR}go breaking the law yourself.{SCROLL}Calling us Team Rocket without any{NEWLINE}proof... that’s hardly proper, is it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "渡『我们当然有目击证人,{NEWLINE}水晶小姐就亲眼目睹了{CLEAR}那三个可疑人员进到你们店里。",
+   "en": "Lance: Of course we have{NEWLINE}an eyewitness. Miss Crystal saw{CLEAR}those three suspicious people walk{CLEAR}into your shop with her own eyes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "水晶『没错,有三个研究员打扮的人{NEWLINE}进到了这家商店,{CLEAR}我绝对没有看错！",
+   "en": "Crystal: That’s right. Three people{NEWLINE}dressed as researchers came into this{CLEAR}shop. I definitely didn’t see wrong!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "小姑娘啊,人有时候记错、看错{NEWLINE}那都是很正常的,{CLEAR}不必太过于较真。{CLEAR}你要知道我们都是守法的生意人,{CLEAR}绝不可能跟火箭队{CLEAR}这样的犯罪组织有牵扯。",
+   "en": "Little lady, everyone misremembers{NEWLINE}or sees things wrong now and{CLEAR}then. It’s perfectly normal.{CLEAR}No need to be so stubborn.{SCROLL}You should know we’re{NEWLINE}law-abiding businesspeople. We’d{CLEAR}never get mixed up with a criminal{CLEAR}organization like Team Rocket.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "水晶『不管你怎么说,{NEWLINE}我始终相信我的记忆,{CLEAR}继续搜查还是有必要的。",
+   "en": "Crystal: Whatever you say,{NEWLINE}I trust my own memory. We{CLEAR}still need to keep searching.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "没问题,你们随便搜！",
+   "en": "No problem. Search all you like!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "阿金『以我对学习委员的了解,{NEWLINE}她不可能没把握乱说。{CLEAR}但是我连这花盆底下都翻了,{CLEAR}还是没找到什么蛛丝马迹……{CLEAR}这火箭队隐藏地可够好的。",
+   "en": "Gold: Knowing Class Rep, she wouldn’t{NEWLINE}say something she wasn’t sure of.{SCROLL}But I even looked under the flowerpots{NEWLINE}and still didn’t find a single clue...{CLEAR}Team Rocket sure hid themselves well.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "柳伯『嗯……追踪和调查陷入瓶颈了,{NEWLINE}得找到一个突破点才行。",
+   "en": "Pryce: Hmm... Our search and{NEWLINE}investigation have hit a wall.{CLEAR}We need to find a breakthrough.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "柳伯『{VAR:0103:0}啊,{NEWLINE}我们在这里搜查了一下{CLEAR}并没有找到什么有力的线索、证据,{CLEAR}调查暂时就这样僵住了。{SCROLL}柳伯『我觉得咱们可以换一个思路,{NEWLINE}由我们四个在这里继续搜查,{CLEAR}你去外面以这间商店为中心,{CLEAR}找找周围可能藏匿火箭队的地方,{CLEAR}看能不能发现新线索。",
+   "en": "Pryce: Ah, {VAR:0103:0}. We’ve searched{NEWLINE}this place, but we haven’t found{CLEAR}any solid leads or evidence. The{CLEAR}investigation has stalled for now.{SCROLL}Pryce: I think we should try{NEWLINE}another approach. The four of{CLEAR}us will keep searching in here.{SCROLL}You go outside and, with this shop as{NEWLINE}the center, look around for places{CLEAR}where Team Rocket might be hiding.{CLEAR}See if you can turn up any new leads.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "我的胖丁非常喜欢唱歌,{NEWLINE}但是我每次听它的歌都会睡着,{CLEAR}为此胖丁非常伤心。{CLEAR}所以我想找一只{CLEAR}听到歌声不会睡觉的精灵{CLEAR}给胖丁做朋友。{SCROLL}你知道什么样的精灵{NEWLINE}可以做到这点吗？",
+   "en": "My Jigglypuff loves to sing, but every{NEWLINE}time I listen to its songs, I fall asleep.{CLEAR}That makes Jigglypuff really sad.{SCROLL}So I want to find a Pokémon that{NEWLINE}won’t fall asleep when it hears the{CLEAR}singing, to be Jigglypuff’s friend.{SCROLL}Do you know what kind of{NEWLINE}Pokémon could do that?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "幽灵系的精灵",
+   "en": "Ghost types",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "不眠特性的精灵",
+   "en": "Insomnia Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 13,
+   "zh": "传说中的精灵",
+   "en": "Legendaries",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 14,
+   "zh": "我不知道",
+   "en": "I don’t know",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 15,
+   "zh": "是吗,果然这样的精灵很难找啊。",
+   "en": "I see. I guess a Pokémon like{NEWLINE}that is really hard to find.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "啊？幽灵系的精灵？{NEWLINE}一想到幽灵系的精灵我就很害怕……",
+   "en": "Huh? Ghost-type Pokémon? Just thinking{NEWLINE}about Ghost-type Pokémon scares me...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "你是在开玩笑吧？{NEWLINE}像我这样普通的训练家,{CLEAR}去哪里找传说中的精灵啊。",
+   "en": "You’re joking, right? Where{NEWLINE}would an ordinary Trainer like{CLEAR}me find a legendary Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "对呀,让不眠特性的精灵听胖丁唱歌{NEWLINE}就不会睡着了。{CLEAR}那城都地区的哪种精灵{CLEAR}是不眠特性啊？",
+   "en": "Right! A Pokémon with the{NEWLINE}Insomnia Ability won’t fall asleep{CLEAR}listening to Jigglypuff sing.{SCROLL}So which Pokémon in Johto has Insomnia?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "咕咕",
+   "en": "Hoothoot",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 20,
+   "zh": "天然雀",
+   "en": "Natu",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 21,
+   "zh": "玛力露",
+   "en": "Marill",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 22,
+   "zh": "信使鸟",
+   "en": "Delibird",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 23,
+   "zh": "这只精灵真的是不眠特性吗？{NEWLINE}据我所知好像不是这样哦。",
+   "en": "Does that Pokémon really have{NEWLINE}Insomnia? As far as I know, it doesn’t.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "原来咕咕是不眠特性啊,{NEWLINE}我以前都不知道呢。{CLEAR}但是以我的水平很那抓到咕咕,{CLEAR}请问你有咕咕吗？{CLEAR}有的话可以跟我的松果球交换吗？",
+   "en": "So Hoothoot has Insomnia!{NEWLINE}I never knew that.{SCROLL}But I’m not good enough to catch{NEWLINE}a Hoothoot. Do you have one?{SCROLL}If you do, would you{NEWLINE}trade it for my Pineco?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "那真是太遗憾了。",
+   "en": "That’s really too bad.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "不想交换吗？那真是太遗憾了。",
+   "en": "You don’t want to trade?{NEWLINE}That’s really too bad.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "只有能听胖丁唱歌的咕咕才行哦,{NEWLINE}其他精灵不行的。",
+   "en": "It has to be a Hoothoot that{NEWLINE}can listen to Jigglypuff sing.{CLEAR}No other Pokémon will do.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "太好了,这样我就为小胖丁{NEWLINE}找到了一位忠实听众。{CLEAR}我会好好照顾咕咕,{CLEAR}让它和小胖丁成为朋友的。",
+   "en": "Wonderful! Now I’ve found a loyal{NEWLINE}listener for my little Jigglypuff.{SCROLL}I’ll take good care of Hoothoot and{NEWLINE}help it become friends with Jigglypuff.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "出来吧咕咕。",
+   "en": "Come on out, Hoothoot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "咕咕『Hooo——hoo！",
+   "en": "Hoothoot: Hooo-hoo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "咕咕,小胖丁,{NEWLINE}从今天起你们就是朋友了,{CLEAR}要好好相处哦。",
+   "en": "Hoothoot, Jigglypuff, from{NEWLINE}today on you’re friends.{CLEAR}Be good to each other, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "小胖丁很喜欢咕咕哦,{NEWLINE}毕竟那是第一个能听完它唱歌的伙伴。",
+   "en": "Little Jigglypuff really likes Hoothoot.{NEWLINE}After all, it’s the first friend who{CLEAR}ever listened to its whole song.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "胖丁『Jiii——ly！",
+   "en": "Jigglypuff: Jiii-ly!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "这里是卡吉镇特产商店,{NEWLINE}我们的特产商品正在铺货,{CLEAR}所以目前只有普通商品卖。{CLEAR}您如果有什么需要的话,{CLEAR}可以找那边的店员。",
+   "en": "This is the Mahogany Town souvenir{NEWLINE}shop. Our local specialties are{CLEAR}still being stocked, so for now{CLEAR}we only have regular goods.{SCROLL}If you need anything, please{NEWLINE}ask the clerk over there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "可恶,通道入口怎么会自己打开呢……",
+   "en": "Dammit, how did the passage{NEWLINE}entrance open by itself...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "我只是被雇来卖东西的,{NEWLINE}跟火箭队无关啊！",
+   "en": "I was just hired to sell stuff! I’ve{NEWLINE}got nothing to do with Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "卡吉镇的特产商店重新开张了,{NEWLINE}欢迎光临。{CLEAR}请问您想买点什么？",
+   "en": "The Mahogany Town souvenir{NEWLINE}shop is open again. Welcome!{CLEAR}What would you like to buy?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "飞音饼,800元",
+   "en": "Lava Cookie $800",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 39,
+   "zh": "森之羊羹,800元",
+   "en": "Old Gateau $800",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 40,
+   "zh": "哞哞牛奶,2000元",
+   "en": "Moomoo Milk $2000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 41,
+   "zh": "先不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 42,
+   "zh": "谢谢惠顾,欢迎下次光临。",
+   "en": "Thank you for shopping{NEWLINE}with us. Please come again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "这是您的商品,请拿好。",
+   "en": "Here are your goods.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "对不起,您身上的钱不够。",
+   "en": "Sorry, you don’t have enough money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "您看还需要再买点什么？{SCROLL}",
+   "en": "Would you like to buy anything else?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "这里曾经是火箭队的据点,{NEWLINE}所以现在需要严加看管,{CLEAR}闲杂人等一概禁止入内。{SCROLL}当然了,您是联盟冠军,{NEWLINE}想什么时候出入都可以。",
+   "en": "This used to be a Team Rocket hideout,{NEWLINE}so it has to be closely guarded now.{CLEAR}No unauthorized persons allowed.{SCROLL}Of course, you’re the League Champion.{NEWLINE}You can come and go whenever you like.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "这里哪有什么研究员打扮的人啊,{NEWLINE}是不是你们看错了。",
+   "en": "There’s nobody dressed{NEWLINE}as a researcher here.{CLEAR}You must have seen wrong.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "你们突然冲进来,{NEWLINE}很影响我们做生意的,{CLEAR}赶紧出去好不？",
+   "en": "You barging in like this is bad for{NEWLINE}business. Would you please get out?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "渡『如果这家店确实跟火箭队有关系,{NEWLINE}那这些店员说的话一句都不能信,{CLEAR}我们得靠自己的思考去判断。",
+   "en": "Lance: If this shop really is{NEWLINE}tied to Team Rocket, we can’t{CLEAR}trust a word these clerks say.{CLEAR}We have to judge for ourselves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "阿金『偶像,学习委员应该不会看错,{NEWLINE}但那三人进来之后确实消失不见了,{CLEAR}是不是说明这里有什么暗门？",
+   "en": "Gold: Idol, Class Rep wouldn’t{NEWLINE}see wrong. But those three really{CLEAR}did vanish after they came in.{SCROLL}Doesn’t that mean there’s a{NEWLINE}hidden door somewhere in here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "水晶『前辈,我明明看到{NEWLINE}就是有人进到店里,{CLEAR}店员却偏说没看见人,{CLEAR}这里面一定有猫腻！",
+   "en": "Crystal: I clearly saw people{NEWLINE}come into the shop, but the clerk{CLEAR}insists he didn’t see anyone.{CLEAR}Something fishy is going on here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "象牙猪『Maaaa——mo！",
+   "en": "Mamoswine: Maaaa-mo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "大竹蹦『Meeee——ga！",
+   "en": "Megaree: Meeee-ga!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "大竹蹦 = Crystal's Meganium nickname Megaree (as R033–R034)."
+  },
+  {
+   "id": 54,
+   "zh": "快龙『Draaa——gon！",
+   "en": "Dragonite: Draaa-gon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "爆太郎『Tyyyy——lo！",
+   "en": "Exbo: Tyyyy-lo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "爆太郎 = Gold's Typhlosion Exbo."
+  },
+  {
+   "id": 56,
+   "zh": "卡吉镇商店虽然不大,{NEWLINE}但这里卖的小吃都很美味,{CLEAR}而且在别处是轻易买不到的。",
+   "en": "The Mahogany Town shop may be small,{NEWLINE}but the snacks here are delicious. You{CLEAR}can’t easily get them anywhere else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "结草儿『Buuuu——my！",
+   "en": "Burmy: Buuuu-my!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

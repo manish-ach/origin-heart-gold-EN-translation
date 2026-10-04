@@ -1,0 +1,631 @@
+{
+ "narc": "a027",
+ "bank": 631,
+ "source": "work/extract/v4/a027/0631.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "喂？我是{VAR:0103:1}⋯⋯{SCROLL}呀~{VAR:0103:0},早上好！{SCROLL}",
+   "en": "Hello. This is {VAR:0103:1}...{SCROLL}Good morning, {VAR:0103:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/0"
+  },
+  {
+   "id": 1,
+   "zh": "喂？我是{VAR:0103:1}⋯⋯{SCROLL}呀~{VAR:0103:0},早上好！{SCROLL}",
+   "en": "Hello. This is {VAR:0103:1}...{SCROLL}Good morning, {VAR:0103:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/1"
+  },
+  {
+   "id": 2,
+   "zh": "喂？我是{VAR:0103:1}⋯⋯{SCROLL}呀~{VAR:0103:0},你好！{SCROLL}",
+   "en": "Hello. This is {VAR:0103:1}...{SCROLL}How’s it going, {VAR:0103:0}?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/2"
+  },
+  {
+   "id": 3,
+   "zh": "喂？我是{VAR:0103:1}⋯⋯{SCROLL}呀~{VAR:0103:0},早上好！{SCROLL}",
+   "en": "Hello. This is {VAR:0103:1}...{SCROLL}Good morning, {VAR:0103:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0640/3; ext-review RB-D04"
+  },
+  {
+   "id": 4,
+   "zh": "喂？我是{VAR:0103:1}⋯⋯{SCROLL}呀~{VAR:0103:0},晚上好！{SCROLL}",
+   "en": "Hello. This is {VAR:0103:1}...{SCROLL}Good evening, {VAR:0103:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/4"
+  },
+  {
+   "id": 5,
+   "zh": "喂？我是{VAR:0103:1}⋯⋯{SCROLL}呀~{VAR:0103:0},晚上好！{SCROLL}",
+   "en": "Hello. This is {VAR:0103:1}...{SCROLL}Good evening, {VAR:0103:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/5"
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0103:0},早上好！{SCROLL}我是{VAR:0103:1},你还在睡懒觉吗？{SCROLL}",
+   "en": "{VAR:0103:0}, good morning!{SCROLL}It’s {VAR:0103:1}. Are you sleeping in?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/6"
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0103:0},早上好！{SCROLL}我是{VAR:0103:1},你还在睡懒觉吗？{SCROLL}",
+   "en": "{VAR:0103:0}, good morning!{SCROLL}It’s {VAR:0103:1}. Are you sleeping in?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/7"
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:0103:0},你好！{SCROLL}我是{VAR:0103:1},最近还好吗？{SCROLL}",
+   "en": "{VAR:0103:0}, howdy!{SCROLL}It’s {VAR:0103:1}. How are you?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/8"
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0103:0},你好！{SCROLL}我是{VAR:0103:1},最近还好吗？{SCROLL}",
+   "en": "{VAR:0103:0}, howdy!{SCROLL}It’s {VAR:0103:1}. How are you?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/9"
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0103:0},晚上好！{SCROLL}我是{VAR:0103:1},还没睡吧？{SCROLL}",
+   "en": "Good evening, {VAR:0103:0}!{SCROLL}It’s me, {VAR:0103:1}. Were you awake?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/10"
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0103:0},晚上好！{SCROLL}我是{VAR:0103:1},还没睡吧？{SCROLL}",
+   "en": "Good evening, {VAR:0103:0}!{SCROLL}It’s me, {VAR:0103:1}. Were you awake?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/11"
+  },
+  {
+   "id": 12,
+   "zh": "喂？我是{VAR:0103:1}⋯⋯{SCROLL}哎呀~{VAR:0103:0},早上好！{SCROLL}",
+   "en": "Hello? This is {VAR:0103:1} speaking.{SCROLL}Oh. Hi, {VAR:0103:0}! Good morning!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/12"
+  },
+  {
+   "id": 13,
+   "zh": "喂？我是{VAR:0103:1}⋯⋯{SCROLL}哎呀~{VAR:0103:0},早上好！{SCROLL}",
+   "en": "Hello? This is {VAR:0103:1} speaking.{SCROLL}Oh. Hi, {VAR:0103:0}! Good morning!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/13"
+  },
+  {
+   "id": 14,
+   "zh": "喂？我是{VAR:0103:1}⋯⋯{SCROLL}哎呀~{VAR:0103:0},你好！{SCROLL}",
+   "en": "Hello? This is {VAR:0103:1} speaking.{SCROLL}Oh, hi, {VAR:0103:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/14"
+  },
+  {
+   "id": 15,
+   "zh": "喂？我是{VAR:0103:1}⋯⋯{SCROLL}哎呀~{VAR:0103:0},你好！{SCROLL}",
+   "en": "Hello? This is {VAR:0103:1} speaking.{SCROLL}Oh, hi, {VAR:0103:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/15"
+  },
+  {
+   "id": 16,
+   "zh": "喂？我是{VAR:0103:1}⋯⋯{SCROLL}哎呀~{VAR:0103:0},晚上好！{SCROLL}",
+   "en": "Hello? This is {VAR:0103:1} speaking.{SCROLL}Oh, hi, {VAR:0103:0}! Good evening!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/16"
+  },
+  {
+   "id": 17,
+   "zh": "喂？我是{VAR:0103:1}　⋯⋯{SCROLL}哎呀~{VAR:0103:0},晚上好！{SCROLL}",
+   "en": "Hello? This is {VAR:0103:1} speaking.{SCROLL}Oh, hi, {VAR:0103:0}! Good evening!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/17"
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0},早上好！{SCROLL}我是{VAR:0103:1},状态怎么样？{SCROLL}",
+   "en": "{VAR:0103:0}, good morning!{SCROLL}It’s {VAR:0103:1}. How are you?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/18"
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0103:0},早上好！{SCROLL}我是{VAR:0103:1},状态怎么样？{SCROLL}",
+   "en": "{VAR:0103:0}, good morning!{SCROLL}It’s {VAR:0103:1}. How are you?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0640/19; ext-review RB-D04"
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0103:0},你好！{SCROLL}我是{VAR:0103:1},你在干什么呢？{SCROLL}",
+   "en": "{VAR:0103:0}, howdy!{SCROLL}It’s {VAR:0103:1}. What are you doing?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/20"
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0103:0},你好！{SCROLL}我是{VAR:0103:1},你在干什么呢？{SCROLL}",
+   "en": "{VAR:0103:0}, howdy!{SCROLL}It’s {VAR:0103:1}. What are you doing?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/21"
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0103:0},晚上好！{SCROLL}我是{VAR:0103:1},还醒着吗？{SCROLL}",
+   "en": "Good evening, {VAR:0103:0}!{SCROLL}It’s me, {VAR:0103:1}. Were you awake?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/22"
+  },
+  {
+   "id": 23,
+   "zh": "{VAR:0103:0},晚上好！{SCROLL}我是{VAR:0103:1},还醒着吗？{SCROLL}",
+   "en": "Good evening, {VAR:0103:0}!{SCROLL}It’s me, {VAR:0103:1}. Were you awake?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/23"
+  },
+  {
+   "id": 24,
+   "zh": "嗨,我是{VAR:0103:1}！{SCROLL}哦！{VAR:0103:0},早上好！{SCROLL}",
+   "en": "This is {VAR:0103:1}!{SCROLL}Morning, {VAR:0103:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/24"
+  },
+  {
+   "id": 25,
+   "zh": "嗨,我是{VAR:0103:1}！{SCROLL}哦！{VAR:0103:0},早上好！{SCROLL}",
+   "en": "This is {VAR:0103:1}!{SCROLL}Morning, {VAR:0103:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/25"
+  },
+  {
+   "id": 26,
+   "zh": "嗨,我是{VAR:0103:1}！{SCROLL}哦！{VAR:0103:0},你好！{SCROLL}",
+   "en": "This is {VAR:0103:1}!{SCROLL}Afternoon, {VAR:0103:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/26"
+  },
+  {
+   "id": 27,
+   "zh": "嗨,我是{VAR:0103:1}！{SCROLL}哦！{VAR:0103:0},你好！{SCROLL}",
+   "en": "This is {VAR:0103:1}!{SCROLL}Afternoon, {VAR:0103:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/27"
+  },
+  {
+   "id": 28,
+   "zh": "嗨,我是{VAR:0103:1}！{SCROLL}哦！{VAR:0103:0},晚上好！{SCROLL}",
+   "en": "This is {VAR:0103:1}!{SCROLL}Evening, {VAR:0103:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/28"
+  },
+  {
+   "id": 29,
+   "zh": "嗨,我是{VAR:0103:1}！{SCROLL}哦！{VAR:0103:0},晚上好！{SCROLL}",
+   "en": "This is {VAR:0103:1}!{SCROLL}Evening, {VAR:0103:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/29"
+  },
+  {
+   "id": 30,
+   "zh": "哦！{SCROLL}我是{VAR:0103:1},你最近还好吗？{SCROLL}",
+   "en": "’Sup!{SCROLL}This is {VAR:0103:1}, how are ya?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/30"
+  },
+  {
+   "id": 31,
+   "zh": "哦！{SCROLL}我是{VAR:0103:1},你最近还好吗？{SCROLL}",
+   "en": "’Sup!{SCROLL}This is {VAR:0103:1}, how are ya?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/31"
+  },
+  {
+   "id": 32,
+   "zh": "哦！{SCROLL}我是{VAR:0103:1},你最近还好吗？{SCROLL}",
+   "en": "’Sup!{SCROLL}This is {VAR:0103:1}, how are ya?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/32"
+  },
+  {
+   "id": 33,
+   "zh": "哦！{SCROLL}我是{VAR:0103:1},你最近还好吗？{SCROLL}",
+   "en": "’Sup!{SCROLL}This is {VAR:0103:1}, how are ya?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/33"
+  },
+  {
+   "id": 34,
+   "zh": "哦！{SCROLL}我是{VAR:0103:1},你最近还好吗？{SCROLL}",
+   "en": "’Sup!{SCROLL}This is {VAR:0103:1}, how are ya?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/34"
+  },
+  {
+   "id": 35,
+   "zh": "哦！{SCROLL}我是{VAR:0103:1},你最近还好吗？{SCROLL}",
+   "en": "’Sup!{SCROLL}This is {VAR:0103:1}, how are ya?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/35"
+  },
+  {
+   "id": 36,
+   "zh": "嗨~我是{VAR:0103:1}。{SCROLL}哎呀,{VAR:0103:0},早上好。{SCROLL}",
+   "en": "Yes? This is {VAR:0103:1}.{SCROLL}Oh, {VAR:0103:0}. Good morning.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/36"
+  },
+  {
+   "id": 37,
+   "zh": "嗨~我是{VAR:0103:1}。{SCROLL}哎呀,{VAR:0103:0},早上好。{SCROLL}",
+   "en": "Yes? This is {VAR:0103:1}.{SCROLL}Oh, {VAR:0103:0}. Good morning.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/37"
+  },
+  {
+   "id": 38,
+   "zh": "嗨~我是{VAR:0103:1}。{SCROLL}哎呀,{VAR:0103:0},你好。{SCROLL}",
+   "en": "Yes? This is {VAR:0103:1}.{SCROLL}Oh, {VAR:0103:0}. Hello.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/38"
+  },
+  {
+   "id": 39,
+   "zh": "嗨~我是{VAR:0103:1}。{SCROLL}哎呀,{VAR:0103:0},你好。{SCROLL}",
+   "en": "Yes? This is {VAR:0103:1}.{SCROLL}Oh, {VAR:0103:0}. Hello.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/39"
+  },
+  {
+   "id": 40,
+   "zh": "嗨~我是{VAR:0103:1}。{SCROLL}哎呀,{VAR:0103:0},晚上好{SCROLL}",
+   "en": "Yes? This is {VAR:0103:1}.{SCROLL}Oh, {VAR:0103:0}, good evening.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/40"
+  },
+  {
+   "id": 41,
+   "zh": "嗨~我是{VAR:0103:1}。{SCROLL}哎呀,{VAR:0103:0},晚上好{SCROLL}",
+   "en": "Yes? This is {VAR:0103:1}.{SCROLL}Oh, {VAR:0103:0}, good evening.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/41"
+  },
+  {
+   "id": 42,
+   "zh": "{VAR:0103:0},早上好。{SCROLL}我是{VAR:0103:1},你还在睡吗？{SCROLL}",
+   "en": "Hello, {VAR:0103:0}. Good morning.{SCROLL}This is {VAR:0103:1}. Were you asleep?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/42"
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0103:0},早上好。{SCROLL}我是{VAR:0103:1},你还在睡吗？{SCROLL}",
+   "en": "Hello, {VAR:0103:0}. Good morning.{SCROLL}This is {VAR:0103:1}. Were you asleep?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/43"
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0103:0},你好。{SCROLL}我是{VAR:0103:1},最近还好吗？{SCROLL}",
+   "en": "Hi, {VAR:0103:0}.{SCROLL}This is {VAR:0103:1}. How are you doing?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/44"
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0103:0},你好。{SCROLL}我是{VAR:0103:1},最近还好吗？{SCROLL}",
+   "en": "Hi, {VAR:0103:0}.{SCROLL}This is {VAR:0103:1}. How are you doing?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/45"
+  },
+  {
+   "id": 46,
+   "zh": "{VAR:0103:0},晚上好。{SCROLL}我是{VAR:0103:1},你还没睡的吧？{SCROLL}",
+   "en": "Hi, {VAR:0103:0}.{SCROLL}This is {VAR:0103:1}. Were you awake?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/46"
+  },
+  {
+   "id": 47,
+   "zh": "{VAR:0103:0},晚上好。{SCROLL}我是{VAR:0103:1},你还没睡吧？{SCROLL}",
+   "en": "Hi, {VAR:0103:0}.{SCROLL}This is {VAR:0103:1}. Were you awake?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/47"
+  },
+  {
+   "id": 48,
+   "zh": "嗨~我是{VAR:0103:1}⋯⋯{SCROLL}哦呀哦呀,早上好。{SCROLL}",
+   "en": "This is {VAR:0103:1}...{SCROLL}Oh, hey, good morning.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/48"
+  },
+  {
+   "id": 49,
+   "zh": "嗨~我是{VAR:0103:1}⋯⋯{SCROLL}哦呀哦呀,早上好。{SCROLL}",
+   "en": "This is {VAR:0103:1}...{SCROLL}Oh, hey, good morning.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/49"
+  },
+  {
+   "id": 50,
+   "zh": "嗨~我是{VAR:0103:1}⋯⋯{SCROLL}哦呀哦呀,你好。{SCROLL}",
+   "en": "This is {VAR:0103:1}...{SCROLL}Oh, hey, good afternoon.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/50"
+  },
+  {
+   "id": 51,
+   "zh": "嗨~我是{VAR:0103:1}⋯⋯{SCROLL}哦呀哦呀,你好。{SCROLL}",
+   "en": "This is {VAR:0103:1}...{SCROLL}Oh, hey, good afternoon.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/51"
+  },
+  {
+   "id": 52,
+   "zh": "嗨~我是{VAR:0103:1}⋯⋯{SCROLL}哦呀哦呀,晚上好。{SCROLL}",
+   "en": "This is {VAR:0103:1}...{SCROLL}Evening, how are you doing?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/52"
+  },
+  {
+   "id": 53,
+   "zh": "嗨~我是{VAR:0103:1}⋯⋯{SCROLL}哦呀哦呀,晚上好。{SCROLL}",
+   "en": "This is {VAR:0103:1}...{SCROLL}Evening, how are you doing?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/53"
+  },
+  {
+   "id": 54,
+   "zh": "喂喂喂？我是{VAR:0103:1},{SCROLL}最近还好吗？早安！{SCROLL}",
+   "en": "This is {VAR:0103:1}.{SCROLL}Oh, hey! Good morning!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/54"
+  },
+  {
+   "id": 55,
+   "zh": "喂喂喂？我是{VAR:0103:1},{SCROLL}最近还好吗？早安！{SCROLL}",
+   "en": "This is {VAR:0103:1}.{SCROLL}Oh, hey! Good morning!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/55"
+  },
+  {
+   "id": 56,
+   "zh": "喂喂喂？我是{VAR:0103:1},{SCROLL}最近还好吗？午安！{SCROLL}",
+   "en": "This is {VAR:0103:1}.{SCROLL}Oh, hey! Good afternoon, what’s up?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/56"
+  },
+  {
+   "id": 57,
+   "zh": "喂喂喂？我是{VAR:0103:1},{SCROLL}最近还好吗？午安！{SCROLL}",
+   "en": "This is {VAR:0103:1}.{SCROLL}Oh, hey! Good afternoon, what’s up?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/57"
+  },
+  {
+   "id": 58,
+   "zh": "喂喂喂？我是{VAR:0103:1},{SCROLL}最近还好吗？晚上好！{SCROLL}",
+   "en": "This is {VAR:0103:1}.{SCROLL}Evening! How are you doing?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/58"
+  },
+  {
+   "id": 59,
+   "zh": "喂喂喂？我是{VAR:0103:1},{SCROLL}最近还好吗？晚上好！{SCROLL}",
+   "en": "This is {VAR:0103:1}.{SCROLL}Evening! How are you doing?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/59"
+  },
+  {
+   "id": 60,
+   "zh": "嗨~我是{VAR:0103:1}~{NEWLINE}早上好！{SCROLL}",
+   "en": "This is {VAR:0103:1}!{SCROLL}Good morning!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/60"
+  },
+  {
+   "id": 61,
+   "zh": "嗨~我是{VAR:0103:1}~{NEWLINE}早上好！{SCROLL}",
+   "en": "This is {VAR:0103:1}!{SCROLL}Good morning!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/61"
+  },
+  {
+   "id": 62,
+   "zh": "嗨~我是{VAR:0103:1}~{NEWLINE}你好！{SCROLL}",
+   "en": "This is {VAR:0103:1}!{SCROLL}Good afternoon!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/62"
+  },
+  {
+   "id": 63,
+   "zh": "嗨~我是{VAR:0103:1}~{NEWLINE}你好！{SCROLL}",
+   "en": "This is {VAR:0103:1}!{SCROLL}Good afternoon!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/63"
+  },
+  {
+   "id": 64,
+   "zh": "嗨~我是{VAR:0103:1}~{NEWLINE}晚上好！{SCROLL}",
+   "en": "This is {VAR:0103:1}!{SCROLL}Good evening!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/64"
+  },
+  {
+   "id": 65,
+   "zh": "嗨~我是{VAR:0103:1}~{NEWLINE}晚上好！{SCROLL}",
+   "en": "This is {VAR:0103:1}!{SCROLL}Good evening!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/65"
+  },
+  {
+   "id": 66,
+   "zh": "喂喂喂,早上好！{NEWLINE}我是{VAR:0103:1}~{SCROLL}",
+   "en": "Oh, hey! Good morning!{SCROLL}This is {VAR:0103:1}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/66"
+  },
+  {
+   "id": 67,
+   "zh": "喂喂喂,早上好！{NEWLINE}我是{VAR:0103:1}~{SCROLL}",
+   "en": "Oh, hey! Good morning!{SCROLL}This is {VAR:0103:1}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/67"
+  },
+  {
+   "id": 68,
+   "zh": "喂喂喂,你好！{NEWLINE}我是{VAR:0103:1}~{SCROLL}",
+   "en": "Oh, hey! Good afternoon, what’s up?{SCROLL}This is {VAR:0103:1}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/68"
+  },
+  {
+   "id": 69,
+   "zh": "喂喂喂,你好！{NEWLINE}我是{VAR:0103:1}~{SCROLL}",
+   "en": "Oh, hey! Good afternoon, what’s up?{SCROLL}This is {VAR:0103:1}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/69"
+  },
+  {
+   "id": 70,
+   "zh": "喂喂喂,晚上好！{NEWLINE}我是{VAR:0103:1}~{SCROLL}",
+   "en": "Evening! How are you doing?{SCROLL}This is {VAR:0103:1}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/70"
+  },
+  {
+   "id": 71,
+   "zh": "喂喂喂,晚上好！{NEWLINE}我是{VAR:0103:1}~{SCROLL}",
+   "en": "Evening! How are you doing?{SCROLL}This is {VAR:0103:1}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/71"
+  },
+  {
+   "id": 72,
+   "zh": "早上好！{SCROLL}这里是精灵寄存系统的{NEWLINE}管理服务！{SCROLL}",
+   "en": "Good morning!{SCROLL}This is the Pokémon Storage System{NEWLINE}Administration Service.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/72"
+  },
+  {
+   "id": 73,
+   "zh": "您好！{SCROLL}这里是精灵寄存系统的{NEWLINE}管理服务！{SCROLL}",
+   "en": "Good day!{SCROLL}This is the Pokémon Storage System{NEWLINE}Administration Service.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/73"
+  },
+  {
+   "id": 74,
+   "zh": "您辛苦啦！{SCROLL}这里是精灵寄存系统的{NEWLINE}管理服务！{SCROLL}",
+   "en": "Good evening!{SCROLL}This is the Pokémon Storage System{NEWLINE}Administration Service.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/74"
+  },
+  {
+   "id": 75,
+   "zh": "我是{VAR:0103:1}⋯⋯{SCROLL}是{VAR:0103:0}吗！早晨的空气不错啊！{SCROLL}",
+   "en": "{VAR:0103:1} here...{SCROLL}{VAR:0103:0}! Beautiful morning, hey?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/75"
+  },
+  {
+   "id": 76,
+   "zh": "我是{VAR:0103:1}⋯⋯{SCROLL}是{VAR:0103:0}吗！今天天气不错啊！{SCROLL}",
+   "en": "{VAR:0103:1} here...{SCROLL}{VAR:0103:0}! Beautiful weather, hey?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/76"
+  },
+  {
+   "id": 77,
+   "zh": "我是{VAR:0103:1}⋯⋯{SCROLL}是{VAR:0103:0}吗！月亮不错啊！{SCROLL}",
+   "en": "{VAR:0103:1} here...{SCROLL}{VAR:0103:0}! Beautiful moonlight, hey?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0640/77"
+  }
+ ]
+}

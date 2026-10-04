@@ -1,0 +1,167 @@
+{
+ "narc": "a027",
+ "bank": 558,
+ "source": "work/extract/v4/a027/0558.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "阿笔馆主在上任之后,{NEWLINE}就把老旧的桧皮道馆改造成了{CLEAR}虫系精灵的巨大的~巢~穴。{SCROLL}虽然阿笔是位非常年轻的馆主,{NEWLINE}却能将虫系精灵自如地运用,{CLEAR}单论虫精灵领域的话,{CLEAR}他可是位非常厉害的专家！",
+   "en": "After Bugsy took over, he{NEWLINE}turned the old Azalea Gym into{CLEAR}a giant Bug Pokémon ~nest~.{SCROLL}Bugsy may be a very young Gym{NEWLINE}Leader, but he handles Bug types{CLEAR}with total ease. When it comes to{CLEAR}Bug Pokémon, he’s a real expert!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "干得不错嘛！{NEWLINE}年轻训练师之间的激烈对战……{SCROLL}精灵世界的未来有希望了！",
+   "en": "Well done! That was a great clash{NEWLINE}of talented young Trainers.{SCROLL}With people like you, the future of{NEWLINE}Pokémon is bright!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0566/1"
+  },
+  {
+   "id": 2,
+   "zh": "桧皮镇　精灵道馆",
+   "en": "Azalea Town Pokémon Gym",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0566/2"
+  },
+  {
+   "id": 3,
+   "zh": "桧皮镇　精灵道馆{SCROLL}道馆馆主　阿笔{NEWLINE}所认可的训练师！{CLEAR}{VAR:0103:0}",
+   "en": "Azalea Town Pokémon Gym{SCROLL}Leader: Bugsy{NEWLINE}Certified Trainer!{CLEAR}{VAR:0103:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0566/3"
+  },
+  {
+   "id": 4,
+   "zh": "哦！您是联盟冠军{VAR:0103:0}！{NEWLINE}您是来找阿笔馆主的吗？{CLEAR}真抱歉阿笔馆主现在不在道馆,{CLEAR}因为桐树林突然反常地{CLEAR}出现了大量虫精灵,{CLEAR}所以阿笔馆主现在正带人{CLEAR}在桐树林捉虫呢。",
+   "en": "Oh! You’re League Champion {VAR:0103:0}!{NEWLINE}Are you here to see Bugsy? I’m so{CLEAR}sorry, he’s not at the Gym right now.{CLEAR}A huge number of Bug Pokémon suddenly{CLEAR}showed up in Ilex Forest, so he’s{CLEAR}leading a team there to catch them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "我们桧皮道馆{NEWLINE}是专门研究虫系精灵的道馆,{CLEAR}因此研究出了不少虫系的强力技能。{SCROLL}你如果能从阿笔馆主那拿到徽章,{NEWLINE}我就把我的虫系绝招教给你。",
+   "en": "Our Azalea Gym specializes in studying{NEWLINE}Bug-type Pokémon, so we’ve come up{CLEAR}with quite a few powerful Bug moves.{SCROLL}If you get the Badge from Bugsy, I’ll{NEWLINE}teach you our Bug-type secret move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "看来你已经取得昆虫徽章了。{SCROLL}那么你想学习我们桧皮道馆{NEWLINE}的虫系绝技——超级角击吗？",
+   "en": "I see you’ve already{NEWLINE}earned the Hive Badge.{SCROLL}So, would you like to learn our Azalea{NEWLINE}Gym’s Bug-type secret move, Megahorn?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl); Same zh as 0048 #139; English copied."
+  },
+  {
+   "id": 8,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it,{NEWLINE}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl); Same zh as 0731 #4; English copied."
+  },
+  {
+   "id": 9,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住超级角击。{SCROLL}",
+   "en": "Sorry... This Pokémon{NEWLINE}can’t learn Megahorn.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl); Same zh as 0048 #127; English copied."
+  },
+  {
+   "id": 11,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会超级角击了！{SCROLL}",
+   "en": "This {VAR:0100:0} already{NEWLINE}knows Megahorn!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl); Same zh as 0048 #129; English copied."
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0101:0}学会了超级角击！",
+   "en": "{VAR:0101:0} learned Megahorn!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会超级角击了！",
+   "en": "And with that, your {VAR:0100:0}{NEWLINE}has learned Megahorn!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的超级角击……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习超级角击{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Megahorn...!{SCROLL}But {VAR:0101:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move{NEWLINE}to learn Megahorn?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl); Same zh as 0048 #133; English copied."
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all{NEWLINE}about {VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl); Same zh as 0048 #135; English copied."
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0101:0}学会了超级角击！",
+   "en": "{VAR:0101:0} learned Megahorn!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "你是要放弃{NEWLINE}让它记住超级角击吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Megahorn?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

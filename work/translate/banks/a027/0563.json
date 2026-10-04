@@ -1,0 +1,594 @@
+{
+ "narc": "a027",
+ "bank": 563,
+ "source": "work/extract/v4/a027/0563.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "爷爷可是远近闻名的柑果球工匠,{NEWLINE}你如果想做球的话找爷爷就对啦！",
+   "en": "Grandpa’s a famous Apricorn{NEWLINE}Ball maker. If you want a Ball{CLEAR}made, Grandpa’s the one to see!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "岩铁『噢,{VAR:0103:0}{NEWLINE}工作完成得很出色啊！{SCROLL}刚才也说过了,{NEWLINE}火箭队应该在三年前被{CLEAR}叫做小赤的少年{CLEAR}给收拾掉了啊……{SCROLL}那么他们再次复活这事,{NEWLINE}总觉得有不好的预感啊……{SCROLL}先不管这个了,{VAR:0103:0},{NEWLINE}我很看好你哦！{SCROLL}如果是你的话,{NEWLINE}我会很乐意为你做球的！{SCROLL}现在在手里的只有这个了。{CLEAR}就先拿着吧！{SCROLL}",
+   "en": "Kurt: Hi, {VAR:0103:0}!{NEWLINE}You handled yourself like a real hero.{SCROLL}As I mentioned before, Team Rocket was{NEWLINE}disbanded by a boy called Red three{CLEAR}years ago.{SCROLL}Now that they have come back...{NEWLINE}I have a bad feeling about it...{SCROLL}In any case, it would please me greatly{NEWLINE}to make Poké Balls for a Trainer{CLEAR}like you, {VAR:0103:0}.{CLEAR}This is all I have now, but take it.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/1"
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}从岩铁那得到了{NEWLINE}＠０！",
+   "en": "{VAR:0103:0} received ＠０ from Kurt!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "＠０ is a vanilla item placeholder (US slot blank); kept as is.",
+   "qa_ignore": [
+    "fullwidth"
+   ]
+  },
+  {
+   "id": 3,
+   "zh": "岩铁『我用柑果{NEWLINE}做成特制的球。{SCROLL}调查外边的柑果树{NEWLINE}能收集到果实哦。{CLEAR}那样的话,我就可以做球了。",
+   "en": "Kurt: I make Poké Balls from Apricorns.{SCROLL}Collect them from trees and bring{NEWLINE}’em to me.{SCROLL}I’ll make Poké Balls out of them.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/3"
+  },
+  {
+   "id": 4,
+   "zh": "岩铁『噢噢,{NEWLINE}不是带着柑果吗！{CLEAR}好咧,来做球吧！{SCROLL}",
+   "en": "Kurt: You have Apricorns for me?{CLEAR}Fine! I’ll turn them into Poké Balls.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/4"
+  },
+  {
+   "id": 5,
+   "zh": "岩铁『制作一个球{NEWLINE}大约需要一天的时间。{CLEAR}到时候再来拿吧。",
+   "en": "Kurt: It’ll take a day to make you a{NEWLINE}Poké Ball. Come back for it later.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/5"
+  },
+  {
+   "id": 6,
+   "zh": "岩铁『这样啊……{NEWLINE}感觉有些遗憾呐。",
+   "en": "Kurt: Oh...{NEWLINE}That’s a letdown.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/6"
+  },
+  {
+   "id": 7,
+   "zh": "岩铁『正在做球呢,{NEWLINE}请不要打扰我。",
+   "en": "Kurt: I’m working!{NEWLINE}Don’t bother me!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/7"
+  },
+  {
+   "id": 8,
+   "zh": "岩铁『噢噢,{VAR:0103:0}啊,{NEWLINE}球刚刚做好,{CLEAR}拿走吧！{SCROLL}",
+   "en": "Kurt: Ah, {VAR:0103:0}!{CLEAR}I just finished your Poké Ball. Here!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/8"
+  },
+  {
+   "id": 9,
+   "zh": "岩铁『什么啊,{NEWLINE}背包已经满了啊。{SCROLL}减少行李再来拿吧。",
+   "en": "Kurt: Your Bag is full!{NEWLINE}Come back when it’s lighter.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/9"
+  },
+  {
+   "id": 10,
+   "zh": "岩铁『完成得太棒了！{SCROLL}接着去和精灵比试一下,{NEWLINE}看看能不能抓到它！",
+   "en": "Kurt: That turned out great.{SCROLL}Try catching Pokémon with it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/10"
+  },
+  {
+   "id": 11,
+   "zh": "呆呆兽都不见了……{NEWLINE}怎么办呐……{CLEAR}被坏人带走了么？",
+   "en": "The Slowpoke are gone...{NEWLINE}Were they taken away by bad people?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/11; modernised from US 0571#11"
+  },
+  {
+   "id": 12,
+   "zh": "爷爷去哪了啦？{NEWLINE}我好孤单啊……",
+   "en": "Grandpa’s gone...{NEWLINE}I’m so lonely...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/12"
+  },
+  {
+   "id": 13,
+   "zh": "呆呆兽『S……l……o……",
+   "en": "Slowpoke: S... l... o...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0571/20; modernised from US 0571#20"
+  },
+  {
+   "id": 14,
+   "zh": "爸爸在西鲁夫公司{NEWLINE}研究新型的精灵球。{SCROLL}这些天我就和{NEWLINE}爷爷还有呆呆兽看家。",
+   "en": "Dad works at Silph where he studies{NEWLINE}Poké Balls.{SCROLL}I have to stay home with Grandpa{NEWLINE}and Slowpoke.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/14; modernised from US 0571#14"
+  },
+  {
+   "id": 15,
+   "zh": "这样啊！{NEWLINE}要把爷爷的{CLEAR}电话号码告诉你吗？{VAR:0200:0}",
+   "en": "That’s right!{NEWLINE}I’ll give you my grandpa’s number. {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/15"
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0103:0}在手机上{NEWLINE}登录了岩铁！",
+   "en": "{VAR:0103:0} registered Kurt{NEWLINE}in the Pokégear!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/16"
+  },
+  {
+   "id": 17,
+   "zh": "给爷爷打电话就能{NEWLINE}知道柑果的事情哦。",
+   "en": "My grandpa can tell you more{NEWLINE}about Apricorns.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/17"
+  },
+  {
+   "id": 18,
+   "zh": "啊！为什么？{NEWLINE}不想要爷爷的电话号码么？",
+   "en": "No? Why?{NEWLINE}You don’t want to talk to my grandpa?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/18"
+  },
+  {
+   "id": 19,
+   "zh": "想和爷爷{NEWLINE}打电话吧？{VAR:0200:0}",
+   "en": "You want to talk to my grandpa,{NEWLINE}don’t you? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/19"
+  },
+  {
+   "id": 20,
+   "zh": "呆呆兽『Sloo——po！",
+   "en": "Slowpoke: Sloo-po!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "风景照片里{NEWLINE}有３个人并排站在一起。{SCROLL}岩铁师傅和大木博士{NEWLINE}还有在正中间的是……{CLEAR}四天王的菊子！",
+   "en": "It’s a landscape photo of three{NEWLINE}people standing side by side.{SCROLL}Master Kurt, Professor Oak, and in{NEWLINE}the middle... Agatha of the Elite Four!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0571/21; Hack names Agatha (US: ‘a lady with determined eyes’); retranslated."
+  },
+  {
+   "id": 22,
+   "zh": "在祭祀森林之神。",
+   "en": "It’s a statue of the forest’s{NEWLINE}protector.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/22"
+  },
+  {
+   "id": 23,
+   "zh": "广播电台正在播放{SCROLL}大木博士的精灵讲座啊。",
+   "en": "The radio is on.{SCROLL}It’s Professor Oak’s Pokémon Talk!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0571/23"
+  },
+  {
+   "id": 24,
+   "zh": "从广播里听到了{NEWLINE}火箭队的复活宣言！",
+   "en": "Team Rocket’s comeback{NEWLINE}declaration is on the radio!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "水晶『岩铁先生,{NEWLINE}跟您学习真是让我大开眼界。{CLEAR}原来使用柑果做的球{CLEAR}对口袋妖怪们有这么多好处啊。",
+   "en": "Crystal: Mr. Kurt, learning from{NEWLINE}you has been so eye-opening.{CLEAR}I never knew Balls made from{CLEAR}Apricorns were so good for Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "岩铁『其实口袋妖怪们生活的好不好,{NEWLINE}球的质量并不是关键。{CLEAR}最重要的还是训练家们重视精灵。{SCROLL}岩铁『如果训练家们能像{NEWLINE}对待朋友一样对待精灵,{CLEAR}那即便是最普通的机械球,{CLEAR}精灵们住着也会很开心。{SCROLL}岩铁『而有的训练家靠先进的球{NEWLINE}一击收服精灵,{CLEAR}然后就像道具一样{CLEAR}把它们扔在箱子里不管不问。{CLEAR}那再好的球对精灵们也没有意义。",
+   "en": "Kurt: Truth is, whether Pokémon{NEWLINE}live well or not doesn’t really{CLEAR}depend on the quality of the{CLEAR}Ball. What matters most is that{CLEAR}Trainers value their Pokémon.{SCROLL}Kurt: If Trainers treat their{NEWLINE}Pokémon like friends, the Pokémon{CLEAR}will be happy living in even the{CLEAR}most ordinary mass-produced Ball.{SCROLL}Kurt: But some Trainers use fancy{NEWLINE}Balls to catch Pokémon in one throw,{CLEAR}then toss them in a Box like tools and{CLEAR}forget about them. For those Pokémon,{CLEAR}even the best Ball means nothing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "岩铁『哦,门口那位是……！{NEWLINE}请过来吧,冠军{VAR:0103:0}先生。",
+   "en": "Kurt: Oh, the one at the door is...!{NEWLINE}Please, come in, Champion {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Male-player variant (先生); #28 female (小姐); English identical."
+  },
+  {
+   "id": 28,
+   "zh": "岩铁『哦,门口那位是……！{NEWLINE}请过来吧,冠军{VAR:0103:0}小姐。",
+   "en": "Kurt: Oh, the one at the door is...!{NEWLINE}Please, come in, Champion {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "水晶『{VAR:0103:0}前辈也来啦！",
+   "en": "Crystal: {VAR:0103:0}, you’re here too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "岩铁『哈哈,真是客气了,{NEWLINE}跟身为联盟冠军的你比起来,{CLEAR}我就是个小人物啦。",
+   "en": "Kurt: Ha ha, you’re too kind. Next to{NEWLINE}you, the League Champion, I’m a nobody.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0103:0}『岩铁先生过奖了,{NEWLINE}我得到的第一个柑果盒{CLEAR}就是您亲手制作的,{CLEAR}我应该好好谢谢您才是。",
+   "en": "{VAR:0103:0}: You flatter me, Mr. Kurt.{NEWLINE}My very first Apricorn Box was{CLEAR}made by your own hands. I’m the{CLEAR}one who should be thanking you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "岩铁『哈哈,当年大木博士跟我说过,{NEWLINE}把我送他的赠品给了你。{CLEAR}当时他就跟我说,{CLEAR}看好你取得非凡的成就,{CLEAR}后来你也果然不负众望,{CLEAR}站上了全国训练家的最巅峰啊。",
+   "en": "Kurt: Ha ha, Professor Oak told{NEWLINE}me back then that he’d given you{CLEAR}the present I sent him. He said he{CLEAR}expected great things from you.{CLEAR}And sure enough, you lived up to{CLEAR}everyone’s hopes and reached the very{CLEAR}top of all the Trainers in the land.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "咦？呆呆兽？你这是怎么了？",
+   "en": "Huh? Slowpoke? What’s wrong?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "呆呆兽……？",
+   "en": "Slowpoke...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "爷爷！呆呆兽突然跑掉了！{NEWLINE}这是怎么回事啊？",
+   "en": "Grandpa! Slowpoke suddenly{NEWLINE}ran off! What’s going on?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "岩铁『咱们家的呆呆兽{NEWLINE}平时根本懒得动弹,{CLEAR}今天突然跑出去一定事出有因。{CLEAR}千惠,你赶紧跟上去看看是怎么回事。",
+   "en": "Kurt: Our Slowpoke usually can’t{NEWLINE}be bothered to move at all. If it{CLEAR}suddenly ran out today, there must{CLEAR}be a reason. Chie, go after it right{CLEAR}away and see what’s happening.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "好的,我这就去。",
+   "en": "Okay, I’m going!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "岩铁『{VAR:0103:0}、水晶,{NEWLINE}呆呆兽是守护桧皮镇的圣兽,{CLEAR}别看他们平时呆呆的,{CLEAR}但是当同伴遇到危险的时候,{CLEAR}他们能够通过念力{CLEAR}感知到同伴的呼救。{CLEAR}我看刚才呆呆兽反常跑出去的样子,{CLEAR}肯定是发生了什么大事。{CLEAR}如果你们有时间请跟我一起来看看吧。",
+   "en": "Kurt: {VAR:0103:0}, Crystal, Slowpoke are{NEWLINE}the sacred guardians of Azalea Town.{CLEAR}They may look dopey, but when their{CLEAR}companions are in danger, they can{CLEAR}sense their cries for help with their{CLEAR}psychic power. The way our Slowpoke{CLEAR}ran off just now, something big must{CLEAR}have happened. If you have time,{CLEAR}please come and take a look with me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "{VAR:0103:0}『没问题,岩铁先生。",
+   "en": "{VAR:0103:0}: No problem, Mr. Kurt.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "水晶『如果有事,我们一定帮您解决。",
+   "en": "Crystal: If something’s wrong,{NEWLINE}we’ll definitely help you fix it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "岩铁『有你们这样优秀的训练家帮忙,{NEWLINE}应该不会有问题。{CLEAR}咱们这就去看看到底发生了什么吧。",
+   "en": "Kurt: With fine Trainers like you{NEWLINE}helping, we should be all right.{CLEAR}Let’s go see what’s happened.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "水晶『嗯,我也觉得{NEWLINE}陪伴对精灵来说非常重要。",
+   "en": "Crystal: Mm-hmm. I also{NEWLINE}think companionship is really{CLEAR}important for Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0103:0}『正好路过桧皮镇,{NEWLINE}就想着来拜访一下岩铁先生。",
+   "en": "{VAR:0103:0}: I was just passing{NEWLINE}through Azalea Town, so I thought{CLEAR}I’d pay you a visit, Mr. Kurt.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "水晶『{VAR:0103:0}前辈,{NEWLINE}岩铁先生身为制作精灵球的大师,{CLEAR}有很多关于捕获的心得,{CLEAR}我决定向他请教一下再走。",
+   "en": "Crystal: {VAR:0103:0}, Mr. Kurt is a master{NEWLINE}Poké Ball maker who knows so much{CLEAR}about catching Pokémon. I’ve decided{CLEAR}to ask him for some advice before I go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "月桂蹦『Bayyy——lee！",
+   "en": "Baylee: Bayyy-lee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Crystal's Bayleef nickname label 月桂蹦 = Baylee (D-0938/D-0953)."
+  },
+  {
+   "id": 46,
+   "zh": "阿金『偶像,等我挑战完桧皮道馆之后,{NEWLINE}就能拿到第二个徽章了,哈哈。",
+   "en": "Gold: Idol, once I beat the Azalea{NEWLINE}Gym, I’ll have my second Badge. Ha ha!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "爆太郎『Quii——la！",
+   "en": "Exbo: Quii-la!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "呆呆兽『……　……　……{SCROLL}……　……　……{SCROLL}",
+   "en": "Slowpoke: ...{SCROLL}...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Slowpoke's silent pages: zh ‘…… …… ……’ written ‘...’ as the US 0556 #9."
+  },
+  {
+   "id": 49,
+   "zh": "大葱鸭『Faaa——fe！",
+   "en": "Farfetch’d: Faaa-fe!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "最近我在跟师傅学习{NEWLINE}指挥大葱鸭劈柴,{CLEAR}可是我的大葱鸭总是练不会{CLEAR}劈柴用的居合斩,{CLEAR}如果有个技能机给它学一下就好了。",
+   "en": "Lately I’ve been learning from my{NEWLINE}master how to have Farfetch’d{CLEAR}chop firewood. But my Farfetch’d{CLEAR}just can’t get the hang of Cut.{CLEAR}If only I had a TM to teach it...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "要把居合斩技能机送给他吗？",
+   "en": "Give him the TM for Cut?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "{VAR:0103:0}『正好我这里有一个{NEWLINE}居合斩技能机,{CLEAR}就送给你吧。",
+   "en": "{VAR:0103:0}: I just happen to have{NEWLINE}a TM for Cut. You can have it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "哇,这么贵重的技能机要送给我？{NEWLINE}真的非常谢谢你,{CLEAR}这样一来我的大葱鸭{CLEAR}学习劈柴就能快一点了。{SCROLL}我也不能白拿你东西,{NEWLINE}这个是我的大葱鸭平时爱玩的长葱,{CLEAR}就送给你吧。",
+   "en": "Wow, you’re giving me such a{NEWLINE}valuable TM? Thank you so much!{CLEAR}Now my Farfetch’d will learn{CLEAR}to chop firewood a lot faster.{SCROLL}I can’t take it for nothing.{NEWLINE}This is the Leek my Farfetch’d{CLEAR}always plays with. Please take it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "我要努力练习,争取成为{NEWLINE}像师傅一样厉害的烧炭工匠。",
+   "en": "I’m going to practice hard and become a{NEWLINE}charcoal maker as great as my master.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "我这徒弟虽说悟性有点低,{NEWLINE}但他那持之以恒永不放弃的精神{CLEAR}也算是一种天赋吧。{CLEAR}希望他能发挥天赋学有所成。",
+   "en": "My apprentice may be a bit slow on{NEWLINE}the uptake, but his never-give-up{CLEAR}perseverance is a kind of talent{CLEAR}too. I hope he makes the most of it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "多谢你帮我徒弟掌握居合斩。{NEWLINE}我现在已经认出来了,{CLEAR}你就是联盟冠军{VAR:0103:0}吧？{SCROLL}能与你这样的训练家见面真是荣幸。{SCROLL}虽说我只是个烧炭的工匠,{NEWLINE}但我平时也有研究口袋妖怪对战,{CLEAR}不知道你是否愿意与我切磋一下呢？",
+   "en": "Thanks for helping my apprentice master{NEWLINE}Cut. I recognize you now. You’re{CLEAR}League Champion {VAR:0103:0}, aren’t you?{SCROLL}It’s an honor to meet{NEWLINE}a Trainer like you.{SCROLL}I may just be a charcoal maker, but{NEWLINE}I study Pokémon battling in my spare{CLEAR}time. Would you care to spar with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "那真是太遗憾了。",
+   "en": "That’s a real shame.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0554 #53; English copied."
+  },
+  {
+   "id": 58,
+   "zh": "非常感谢,我会全力以赴的！",
+   "en": "Thank you very much! I’ll{NEWLINE}give it everything I’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "真是惊人的实力。从刚才的对战中{NEWLINE}我感觉自己又学到了很多。{SCROLL}正好我最近学到了新招式,{CLEAR}作为与我切磋的回报,{CLEAR}如果你想学这个招式的话,{CLEAR}随时可以来找我。",
+   "en": "What incredible strength. I feel like{NEWLINE}I learned a lot from that battle.{SCROLL}As it happens, I recently learned{NEWLINE}a new move. As thanks for{CLEAR}sparring with me, if you’d like to{CLEAR}learn it, come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "真空斩自带会心率+1效果,{NEWLINE}配合上大葱鸭的专属道具长葱{CLEAR}和狙击手特性,{CLEAR}能在实战中发挥出巨大威力。{CLEAR}你想让你的精灵学吗？",
+   "en": "Air Cutter has a built-in +1 critical-hit{NEWLINE}ratio. Paired with Farfetch’d’s{CLEAR}exclusive Leek and the Sniper Ability,{CLEAR}it can be devastating in a real battle.{CLEAR}Would you like your Pokémon to learn it?",
+   "status": "reviewed",
+   "origin": "agent",
+   "notes": "Hack slip: #60 describes Air Cutter (真空斩, crit +1, Leek, Sniper) but the tutor lines #63-#72 teach Solar Blade (日光刃). Both kept as written."
+  },
+  {
+   "id": 61,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl); Same zh as 0048 #139; English copied."
+  },
+  {
+   "id": 62,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it,{NEWLINE}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl); Same zh as 0731 #4; English copied."
+  },
+  {
+   "id": 63,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住日光刃。{SCROLL}",
+   "en": "Sorry... This Pokémon{NEWLINE}can’t learn Solar Blade.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl); Same zh as 0048 #127; English copied."
+  },
+  {
+   "id": 65,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会日光刃了！{SCROLL}",
+   "en": "This {VAR:0100:0} already{NEWLINE}knows Solar Blade!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl); Same zh as 0048 #129; English copied."
+  },
+  {
+   "id": 67,
+   "zh": "{VAR:0101:0}学会了日光刃！",
+   "en": "{VAR:0101:0} learned Solar Blade!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会日光刃了！{SCROLL}如果你还有别的精灵想学,{NEWLINE}尽管来找我就行。",
+   "en": "And with that, your {VAR:0100:0}{NEWLINE}has learned Solar Blade!{SCROLL}If you have other Pokémon that want{NEWLINE}to learn it, just come and find me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的日光刃……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习日光刃{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to{NEWLINE}learn Solar Blade...!{SCROLL}But {VAR:0101:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move{NEWLINE}to learn Solar Blade?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl); Same zh as 0048 #133; English copied."
+  },
+  {
+   "id": 71,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all{NEWLINE}about {VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl); Same zh as 0048 #135; English copied."
+  },
+  {
+   "id": 72,
+   "zh": "你是要放弃{NEWLINE}让它记住日光刃吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Solar Blade?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,490 @@
+{
+ "narc": "a027",
+ "bank": 586,
+ "source": "work/extract/v4/a027/0586.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "你喜欢做梦吗,年轻人？",
+   "en": "Do you like dreaming, young one?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "年轻人应该有点梦想啊。",
+   "en": "Young people ought{NEWLINE}to have a few dreams.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "那你平时在梦里,都会梦到谁呢？",
+   "en": "So, who do you usually{NEWLINE}see in your dreams?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "哦,原来是那个人啊。{SCROLL}相信你的思念,{NEWLINE}一定能通过梦境传达给她吧。",
+   "en": "Oh, so it’s that person.{SCROLL}I’m sure your feelings will{NEWLINE}reach her through your dreams.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "你今天睡得好吗？想做什么样的梦呢？",
+   "en": "Did you sleep well today? What kind{NEWLINE}of dream would you like to have?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "小蓝",
+   "en": "Green",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 8 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 6,
+   "zh": "小霞",
+   "en": "Misty",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 11 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 7,
+   "zh": "小黄",
+   "en": "Yellow",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 8,
+   "zh": "希罗娜",
+   "en": "Cynthia",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 9,
+   "zh": "水晶",
+   "en": "Crystal",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 7 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 10,
+   "zh": "不会梦到谁",
+   "en": "No one",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 11,
+   "zh": "小绿",
+   "en": "Blue",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 12,
+   "zh": "小赤",
+   "en": "Red",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl) | rewritten from zh (was tm_v3)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 13,
+   "zh": "大吾",
+   "en": "Steven",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 8 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 14,
+   "zh": "阿金",
+   "en": "Gold",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 9 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 15,
+   "zh": "小银",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 16,
+   "zh": "原来是那个人啊。{SCROLL}相信你的思念,{NEWLINE}一定能通过梦境传达给他吧。",
+   "en": "So it’s that person.{SCROLL}I’m sure your feelings will{NEWLINE}reach him through your dreams.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "原来你不会梦到她们啊。",
+   "en": "So you don’t dream about any of them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "原来你不会梦到他们啊。",
+   "en": "So you don’t dream about any of them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "梦境是人内心愿望的映射,{NEWLINE}你在这里的选择,{CLEAR}就是你内心最真实的想法。",
+   "en": "Dreams reflect the wishes{NEWLINE}in a person’s heart.{SCROLL}The choice you make here shows{NEWLINE}what you truly think deep down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "一树『来吧,克雷色利亚,{NEWLINE}到精灵球里来做个美梦吧！",
+   "en": "Will: Come, Cresselia. Step into the{NEWLINE}Poké Ball and have a sweet dream!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "一树『多亏那个黑皮小子的帮忙,{NEWLINE}现在冥王做的新精灵球{CLEAR}是越来越好用了。",
+   "en": "Will: Thanks to that dark-skinned{NEWLINE}kid’s help, the new Poké Balls Charon{CLEAR}makes work better and better.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0103:0}『你们就是为了抓捕精灵{NEWLINE}才来这里的吧。",
+   "en": "{VAR:0103:0}: You came here to{NEWLINE}capture Pokémon, didn’t you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "一树『哦？怎么是你？",
+   "en": "Will: Oh? What are you doing here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0103:0}『这里到底是什么地方？{NEWLINE}刚刚被你抓住的那只精灵{CLEAR}也是传说中的精灵吗？",
+   "en": "{VAR:0103:0}: What is this place? And{NEWLINE}the Pokémon you just caught...{CLEAR}is that a Legendary Pokémon too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "一树『你居然什么都不知道{NEWLINE}就闯进了这个世界,{CLEAR}真是个有勇无谋的联盟冠军啊。{CLEAR}这里是一个独立的空间——梦境世界,{CLEAR}传说中能制造美梦的克雷色利亚{CLEAR}和制造噩梦的达克莱伊栖息在这里。{CLEAR}大奶罐就是被空间裂缝里{CLEAR}溢出的能量影响才会产生异常。{CLEAR}而我们也正是发现了这些异常,{CLEAR}才会来到这里抓捕克雷色利亚它们。",
+   "en": "Will: You barged into this world{NEWLINE}without knowing a thing? What{CLEAR}a reckless League Champion.{SCROLL}This is a separate{NEWLINE}dimension: the Dream World.{SCROLL}It’s home to the legendary{NEWLINE}Cresselia, who makes sweet dreams,{CLEAR}and Darkrai, who makes nightmares.{SCROLL}The Miltank went strange because of{NEWLINE}energy leaking from a rift in space.{SCROLL}We noticed those anomalies{NEWLINE}too, and came here to catch{CLEAR}Cresselia and its kind.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0103:0}『你们果然是冲着{NEWLINE}传说中精灵来的。{CLEAR}那么我必须在这里打倒你们{CLEAR}解放克雷色利亚。",
+   "en": "{VAR:0103:0}: So you’re after{NEWLINE}Legendary Pokémon after all.{SCROLL}Then I have to beat you{NEWLINE}here and free Cresselia.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "梨花『一树,我已经完成{NEWLINE}达克莱伊的捕获了,{CLEAR}你这边……",
+   "en": "Karen: Will, I’ve finished capturing{NEWLINE}Darkrai. How are things on your...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "梨花『联盟冠军{VAR:0103:0}？！{NEWLINE}他是怎么跟到这里来的？",
+   "en": "Karen: League Champion {VAR:0103:0}?!{NEWLINE}How did he follow us here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "梨花『联盟冠军{VAR:0103:0}？！{NEWLINE}她是怎么跟到这里来的？",
+   "en": "Karen: League Champion {VAR:0103:0}?!{NEWLINE}How did she follow us here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "一树『应该是咱们进入梦境世界时{NEWLINE}打开的空间裂缝太大,{CLEAR}把这家伙给吸进来了。",
+   "en": "Will: The rift we opened to get into{NEWLINE}the Dream World must have been{CLEAR}too big. It sucked this one in.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "梨花『怎么办,现在撤退吗？",
+   "en": "Karen: What now? Do we retreat?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "一树『别着急,既然这个冠军{NEWLINE}现在孤身一人在这里,{CLEAR}那咱们就该利用人数的优势,{CLEAR}好好陪他玩玩。{CLEAR}要是能顺道拿下他的人头,{CLEAR}那就是大功一件！",
+   "en": "Will: Relax. This Champion{NEWLINE}is here all alone.{SCROLL}So let’s use our numbers{NEWLINE}and have some fun with him.{SCROLL}If we can take his head while we’re{NEWLINE}at it, that’s a major achievement!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "一树『别着急,既然这个冠军{NEWLINE}现在孤身一人在这里,{CLEAR}那咱们就该利用人数的优势,{CLEAR}好好陪她玩玩。{CLEAR}要是能顺道拿下她的人头,{CLEAR}那就是大功一件！",
+   "en": "Will: Relax. This Champion{NEWLINE}is here all alone.{SCROLL}So let’s use our numbers{NEWLINE}and have some fun with her.{SCROLL}If we can take her head while we’re{NEWLINE}at it, that’s a major achievement!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "梨花『有道理。{NEWLINE}这可是难得的机会,{CLEAR}让这家伙尝尝咱们的厉害！",
+   "en": "Karen: Makes sense. A chance like{NEWLINE}this doesn’t come often. Let’s{CLEAR}show this one what we can do!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "一树『差距居然这么大吗……",
+   "en": "Will: Is the gap really that big...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "梨花『怎么总是栽在这家伙手里……",
+   "en": "Karen: Why do we always{NEWLINE}fall to this one...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "{VAR:0103:0}『你们已经没有能力反抗了吧？{NEWLINE}那就快把装着克雷色利亚和达克莱伊{CLEAR}的精灵球交出来！",
+   "en": "{VAR:0103:0}: You can’t fight back{NEWLINE}anymore, can you? Then hand over the{CLEAR}Poké Balls with Cresselia and Darkrai!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "一树『我说冠军大人,{NEWLINE}你与其想着怎么夺走精灵,{CLEAR}不如好好想想{CLEAR}怎么离开这个梦境世界吧。",
+   "en": "Will: Tell me, Champion... Forget{NEWLINE}about stealing our Pokémon.{SCROLL}You’d do better to worry about how{NEWLINE}you’ll ever leave the Dream World.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "梨花『我们只要带着{NEWLINE}克雷色利亚和达克莱伊,{CLEAR}就能随意进出这个世界。",
+   "en": "Karen: As long as we have Cresselia{NEWLINE}and Darkrai, we can come and go{CLEAR}from this world as we please.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "一树『而没有这些精灵的你,{NEWLINE}将永远被困在这里。",
+   "en": "Will: But without them, you’ll{NEWLINE}be trapped here forever.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "梨花『哈哈哈,拜拜啦！",
+   "en": "Karen: Ha ha ha! Bye-bye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "{VAR:0103:0}『可恶,得想办法离开才行。",
+   "en": "{VAR:0103:0}: Dammit... I{NEWLINE}have to find a way out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "梨花『来吧,达克莱伊,{NEWLINE}这个精灵球就是你的噩梦！",
+   "en": "Karen: Come, Darkrai. This{NEWLINE}Poké Ball is your nightmare!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "梨花『多亏那个黑皮小子的帮忙,{NEWLINE}现在冥王做的新精灵球{CLEAR}是越来越好用了。",
+   "en": "Karen: Thanks to that dark-skinned{NEWLINE}kid’s help, the new Poké Balls Charon{CLEAR}makes work better and better.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0103:0}『你们就是为了抓捕精灵{NEWLINE}才来这里的吧。",
+   "en": "{VAR:0103:0}: You came here to{NEWLINE}capture Pokémon, didn’t you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "梨花『哦？怎么是你？",
+   "en": "Karen: Oh? What are you doing here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "{VAR:0103:0}『这里到底是什么地方？{NEWLINE}刚刚被你抓住的那只精灵{CLEAR}也是传说中的精灵吗？",
+   "en": "{VAR:0103:0}: What is this place? And{NEWLINE}the Pokémon you just caught...{CLEAR}is that a Legendary Pokémon too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "梨花『你居然什么都不知道{NEWLINE}就闯进了这个世界,{CLEAR}真是个有勇无谋的联盟冠军啊。{CLEAR}这里是一个独立的空间——梦境世界,{CLEAR}传说中能制造美梦的克雷色利亚{CLEAR}和制造噩梦的达克莱伊栖息在这里。{CLEAR}大奶罐就是被空间裂缝里{CLEAR}溢出的能量影响才会产生异常。{CLEAR}而我们也正是发现了这些异常,{CLEAR}才会来到这里抓捕达克莱伊它们。",
+   "en": "Karen: You barged into this{NEWLINE}world without knowing a thing?{CLEAR}What a reckless League Champion.{SCROLL}This is a separate{NEWLINE}dimension: the Dream World.{SCROLL}It’s home to the legendary{NEWLINE}Cresselia, who makes sweet dreams,{CLEAR}and Darkrai, who makes nightmares.{SCROLL}The Miltank went strange because of{NEWLINE}energy leaking from a rift in space.{SCROLL}We noticed those anomalies too, and{NEWLINE}came here to catch Darkrai and its kind.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0103:0}『你们果然是冲着{NEWLINE}传说中精灵来的。{CLEAR}那么我必须在这里打倒你们{CLEAR}解放达克莱伊。",
+   "en": "{VAR:0103:0}: So you’re after{NEWLINE}Legendary Pokémon after all.{SCROLL}Then I have to beat you{NEWLINE}here and free Darkrai.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "一树『梨花,我已经完成{NEWLINE}克雷色利亚的捕获了,{CLEAR}你这边……",
+   "en": "Will: Karen, I’ve finished capturing{NEWLINE}Cresselia. How are things on your...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "一树『联盟冠军{VAR:0103:0}？！{NEWLINE}怎么会……",
+   "en": "Will: League Champion {VAR:0103:0}?!{NEWLINE}How...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "一树『难道是我打开的空间裂缝太大,{NEWLINE}把这家伙给吸进来了吗？",
+   "en": "Will: Did the rift I opened get so{NEWLINE}big that it sucked this one in?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "有些破损的古老精灵雕像。{SCROLL}雕像的里面似乎有什么东西……",
+   "en": "An old Pokémon statue, partly broken.{SCROLL}Something seems to be inside it...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "有些破损的古老精灵雕像。{SCROLL}雕像似乎跟身上的新月之羽{NEWLINE}发生了反应！",
+   "en": "An old Pokémon statue, partly broken.{SCROLL}The statue seems to be reacting{NEWLINE}to the Lunar Wing you’re carrying!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "克雷色利亚『Creee——se！",
+   "en": "Cresselia: Creee-se!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "要收服克雷色利亚吗？",
+   "en": "Will you catch Cresselia?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "达克莱伊『Daaa——kra！",
+   "en": "Darkrai: Daaa-kra!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "要收服达克莱伊吗？",
+   "en": "Will you catch Darkrai?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

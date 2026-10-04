@@ -1,0 +1,951 @@
+{
+ "narc": "a027",
+ "bank": 266,
+ "source": "work/extract/v4/a027/0266.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "关东",
+   "en": "Kanto",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/0"
+  },
+  {
+   "id": 1,
+   "zh": "城都",
+   "en": "Johto",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/1"
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0104:0}",
+   "en": "{VAR:0104:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:011C:0}",
+   "en": "{VAR:011C:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "请选择移动地点",
+   "en": "Choose your destination.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/4"
+  },
+  {
+   "id": 5,
+   "zh": "飞到{VAR:0104:0}吗？",
+   "en": "Fly to {VAR:0104:0}?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/5"
+  },
+  {
+   "id": 6,
+   "zh": "关闭",
+   "en": "Close",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/6"
+  },
+  {
+   "id": 7,
+   "zh": "飞天",
+   "en": "Fly",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/7"
+  },
+  {
+   "id": 8,
+   "zh": "放弃",
+   "en": "Quit",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s); other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 9,
+   "zh": "伪造信息{NEWLINE}ABCDEFGabcdefg",
+   "en": "Dummy info{NEWLINE}ABCDEFGabcdefg",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "所有一切都未被污染的{NEWLINE}纯洁小镇。",
+   "en": "A fairly new and quiet town.{NEWLINE}It’s a small and pretty place.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/10"
+  },
+  {
+   "id": 11,
+   "zh": "永远被绿色包围的{NEWLINE}美丽城镇。",
+   "en": "A beautiful city that is enveloped{NEWLINE}in green year-round.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/11"
+  },
+  {
+   "id": 12,
+   "zh": "被险峻的山和{NEWLINE}石头包围的城镇。",
+   "en": "A quiet city nestled between{NEWLINE}rugged mountains and rocks.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/12"
+  },
+  {
+   "id": 13,
+   "zh": "流水与鲜花的{NEWLINE}美丽城镇。",
+   "en": "A beautiful city with flowing{NEWLINE}water and blooming flowers.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/13"
+  },
+  {
+   "id": 14,
+   "zh": "适合紫色的尊贵的{NEWLINE}小镇。",
+   "en": "A small town covered in a{NEWLINE}beautiful hue of purple.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/14"
+  },
+  {
+   "id": 15,
+   "zh": "被夕阳染成{NEWLINE}橙色的港口城镇。",
+   "en": "A southern city that is bathed{NEWLINE}in orange by the setting sun.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/15"
+  },
+  {
+   "id": 16,
+   "zh": "人和精灵们悠闲{NEWLINE}生活的虹色城镇。",
+   "en": "A rich, rainbow-colored city where{NEWLINE}people and Pokémon gather.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/16"
+  },
+  {
+   "id": 17,
+   "zh": "新旧交替不断的城镇。",
+   "en": "A historic village that has{NEWLINE}become new.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/17"
+  },
+  {
+   "id": 18,
+   "zh": "被火山喷发{NEWLINE}淹没了的城镇。",
+   "en": "A town used to be here until it{NEWLINE}was swept away by an eruption.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/18"
+  },
+  {
+   "id": 19,
+   "zh": "以第一为目标的训练师{NEWLINE}接受命运考验的地方。",
+   "en": "The fate of many Trainers aiming for{NEWLINE}the top rests here.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/19"
+  },
+  {
+   "id": 20,
+   "zh": "闪着金黄色的{NEWLINE}关东最大的大城市。",
+   "en": "The biggest city in Kanto, shining{NEWLINE}with a golden light.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/20"
+  },
+  {
+   "id": 21,
+   "zh": "吹起连接{NEWLINE}起点之风的城镇。",
+   "en": "A town where the wind blows and{NEWLINE}tells of impending change.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/21"
+  },
+  {
+   "id": 22,
+   "zh": "散发着小花与{NEWLINE}海风气味的城镇。",
+   "en": "A city where you can smell small{NEWLINE}flowers and a sea breeze.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/22"
+  },
+  {
+   "id": 23,
+   "zh": "保留着古乡气息的小镇。",
+   "en": "This old village is still surrounded{NEWLINE}by trees and other scenery.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/23"
+  },
+  {
+   "id": 24,
+   "zh": "人们与精灵{NEWLINE}朴素地生活在一起的镇子。",
+   "en": "A town where people and Pokémon{NEWLINE}live together in simple harmony.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/24"
+  },
+  {
+   "id": 25,
+   "zh": "孕育着大海恩惠的{NEWLINE}海滨城镇。",
+   "en": "A beachside city that has{NEWLINE}benefitted greatly from the sea.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/25"
+  },
+  {
+   "id": 26,
+   "zh": "人与精灵{NEWLINE}交互发展的大都市。",
+   "en": "A developing city where people and{NEWLINE}Pokémon come and go as they like.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/26"
+  },
+  {
+   "id": 27,
+   "zh": "能听到潮水旋律的城镇。",
+   "en": "A city where you can hear the{NEWLINE}melody of the sea.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/27"
+  },
+  {
+   "id": 28,
+   "zh": "叙说着历史的小镇。",
+   "en": "A city that even now bears the{NEWLINE}marks of its history.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/28"
+  },
+  {
+   "id": 29,
+   "zh": "弥漫着神秘气息的{NEWLINE}隔世村庄。",
+   "en": "A town with a suspicious air to it.{NEWLINE}It’s a hiding place for ninjas.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/29"
+  },
+  {
+   "id": 30,
+   "zh": "以清澈著称的大湖。",
+   "en": "A huge lake full of clear, blue water.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/30"
+  },
+  {
+   "id": 31,
+   "zh": "开山劈石而成的{NEWLINE}神秘山村。",
+   "en": "A mysterious mountain village cut{NEWLINE}into a rock face.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/31"
+  },
+  {
+   "id": 32,
+   "zh": "在等待着什么的{NEWLINE}险峻高山。",
+   "en": "A mountain where something mysterious{NEWLINE}awaits you underfoot.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/32"
+  },
+  {
+   "id": 33,
+   "zh": "连接枯叶市和尼比市的{NEWLINE}地鼠挖的隧道。",
+   "en": "A tunnel dug by Diglett connecting{NEWLINE}Vermilion City to Pewter City.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/33; modernised from US 0273#33"
+  },
+  {
+   "id": 34,
+   "zh": "蕴藏着不可思议力量的{NEWLINE}流星雨山。",
+   "en": "A mountain where a star fell.{NEWLINE}It now holds a mysterious power.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/34"
+  },
+  {
+   "id": 35,
+   "zh": "就算崩塌了也能{NEWLINE}再次开通的洞窟。",
+   "en": "A cave that had collapsed once.{NEWLINE}It has been reconstructed.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/35"
+  },
+  {
+   "id": 36,
+   "zh": "连通紫苑镇和华蓝市的{NEWLINE}漆黑隧道。",
+   "en": "A dark tunnel that begins in Lavender{NEWLINE}Town and comes out in Cerulean City.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/36"
+  },
+  {
+   "id": 37,
+   "zh": "能轻松安全地体验{NEWLINE}野生惊悚的冒险。",
+   "en": "A place where you can experience{NEWLINE}wild thrills safely.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/68"
+  },
+  {
+   "id": 38,
+   "zh": "浮在大海之上的{NEWLINE}两座小岛。",
+   "en": "Two small islands lightly floating in{NEWLINE}the ocean.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/38"
+  },
+  {
+   "id": 39,
+   "zh": "与精灵们的共处,{NEWLINE}专职修行的塔。",
+   "en": "A tower where they study diligently{NEWLINE}to learn to live with Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/39"
+  },
+  {
+   "id": 40,
+   "zh": "据说传说中的精灵{NEWLINE}会降临的塔。",
+   "en": "A tower that’s said to have a{NEWLINE}legendary Pokémon that lands there.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/40"
+  },
+  {
+   "id": 41,
+   "zh": "无关传说,树叶都被染成{NEWLINE}夕阳色的小镇。",
+   "en": "A path said to always be bathed in{NEWLINE}sunset, no matter what the season.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/41"
+  },
+  {
+   "id": 42,
+   "zh": "被闪电造成的大火{NEWLINE}烧毁的塔。",
+   "en": "A tower that was hit by lightning, and{NEWLINE}subsequently caught fire and burned.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/42"
+  },
+  {
+   "id": 43,
+   "zh": "很大的美丽公园,{NEWLINE}旁边就是口袋竞技场。",
+   "en": "A spacious and beautiful park. It’s{NEWLINE}connected to the Pokéathlon Dome.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/43"
+  },
+  {
+   "id": 44,
+   "zh": "用旧大厦改造的{NEWLINE}广播塔。",
+   "en": "An old building that has been reused{NEWLINE}as a radio broadcasting tower.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/44"
+  },
+  {
+   "id": 45,
+   "zh": "找出古代{NEWLINE}浪漫的地方。",
+   "en": "A place to discover the{NEWLINE}romance of ancient times.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0273/45; ext-review B-010"
+  },
+  {
+   "id": 46,
+   "zh": "地下深处与大海连接,{NEWLINE}会有海水灌进来。",
+   "en": "Deep underground, it’s connected to{NEWLINE}the ocean. The water flows here.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/46"
+  },
+  {
+   "id": 47,
+   "zh": "口渴了的呆呆兽{NEWLINE}用来喝水的井。",
+   "en": "When Slowpoke are thirsty, they come{NEWLINE}here to drink.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/47; modernised from US 0273#47"
+  },
+  {
+   "id": 48,
+   "zh": "使用电龙的力量{NEWLINE}照亮大海。",
+   "en": "It shines brightly over the ocean with{NEWLINE}the power of Ampharos.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/48; modernised from US 0273#48"
+  },
+  {
+   "id": 49,
+   "zh": "使用５种规则的{NEWLINE}综合战斗馆。",
+   "en": "A Battle Stadium with five different{NEWLINE}sets of rules to enjoy.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/49"
+  },
+  {
+   "id": 50,
+   "zh": "全国所有的高手{NEWLINE}聚集的地方。",
+   "en": "A place where people from all over{NEWLINE}come to show off their strength.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/50"
+  },
+  {
+   "id": 51,
+   "zh": "伪造的游客指南{NEWLINE}火箭队秘密基地",
+   "en": "Dummy guide{NEWLINE}Team Rocket HQ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "种着很多做碳用的{NEWLINE}树的森林。",
+   "en": "A large forest full of trees that are{NEWLINE}used to make charcoal.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/52"
+  },
+  {
+   "id": 53,
+   "zh": "伪造的游客指南{NEWLINE}满金地下通路",
+   "en": "Dummy guide{NEWLINE}Goldenrod Tunnel",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "以一望无尽的宽阔为傲的{NEWLINE}天然大洞窟。",
+   "en": "A naturally large cavern that is{NEWLINE}incredibly spacious.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/54"
+  },
+  {
+   "id": 55,
+   "zh": "连接４４号道路和烟墨市的{NEWLINE}冰冻洞窟。",
+   "en": "A cave that connects Route 44 to{NEWLINE}Blackthorn City.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/55"
+  },
+  {
+   "id": 56,
+   "zh": "由于海上漩涡{NEWLINE}而无法靠近的４个岛。",
+   "en": "Four islands that are protected by{NEWLINE}whirlpools and are difficult to reach.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/56"
+  },
+  {
+   "id": 57,
+   "zh": "耸立在城都与{NEWLINE}关东之间的神圣山脉。",
+   "en": "A hallowed mountain that rises{NEWLINE}between the Johto and Kanto regions.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/57"
+  },
+  {
+   "id": 58,
+   "zh": "城都地下的{NEWLINE}漆黑隧道。",
+   "en": "A dark, difficult-to-navigate tunnel{NEWLINE}that runs beneath the Johto region.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/58"
+  },
+  {
+   "id": 59,
+   "zh": "以精灵联盟为目标的　{NEWLINE}训练师们试炼之路。",
+   "en": "A road that tests Trainers{NEWLINE}aiming at the Pokémon League.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/59"
+  },
+  {
+   "id": 60,
+   "zh": "伪造的游客指南{NEWLINE}龙之穴",
+   "en": "Dummy guide{NEWLINE}Dragon’s Den",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "连接城都与关东的{NEWLINE}大瀑布。",
+   "en": "The Tohjo waterfall that links the{NEWLINE}Kanto and Johto regions.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/61"
+  },
+  {
+   "id": 62,
+   "zh": "虫精灵很多,还残留有{NEWLINE}原始自然风貌的森林。",
+   "en": "A forest filled with nature and{NEWLINE}Bug-type Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/62"
+  },
+  {
+   "id": 63,
+   "zh": "精灵们以各种力量{NEWLINE}竞争的地方。",
+   "en": "A place where Pokémon can compete{NEWLINE}against each other’s strengths.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/63"
+  },
+  {
+   "id": 64,
+   "zh": "伪造的游客指南{NEWLINE}断崖洞穴",
+   "en": "Dummy guide{NEWLINE}Cliff Cave",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "古代传说交结的{NEWLINE}被冰雪之墙阻断的暴雪地带。",
+   "en": "A snow-covered area of old legends,{NEWLINE}surrounded by a wall of snow.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/65"
+  },
+  {
+   "id": 66,
+   "zh": "伪造的游客指南{NEWLINE}ＫＧＲ地图",
+   "en": "Dummy guide{NEWLINE}KGR map",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "为关东地区不断提供{NEWLINE}能源的地方。",
+   "en": "The plant that generates all the{NEWLINE}energy for the Kanto region.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/67"
+  },
+  {
+   "id": 68,
+   "zh": "利用天然的平台{NEWLINE}建造而成的度假区。",
+   "en": "A resort built on a natural{NEWLINE}plateau.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack rewrote the US Safari Zone description to mention the Resort Zone (度假区)."
+  },
+  {
+   "id": 69,
+   "zh": "用喷气式水力{NEWLINE}推进的定期船。",
+   "en": "A boat that traverses ocean paths{NEWLINE}using hydraulic power.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/69"
+  },
+  {
+   "id": 70,
+   "zh": "很多的绿色以及{NEWLINE}高高低低的田间小路。",
+   "en": "A country road full of greenery and{NEWLINE}rough paths.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/70"
+  },
+  {
+   "id": 71,
+   "zh": "森林入口{NEWLINE}弯弯曲曲的路。",
+   "en": "A path that winds and bends from the{NEWLINE}forest’s entrance.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/71"
+  },
+  {
+   "id": 72,
+   "zh": "由从天空中掉下来的石头{NEWLINE}造成的坑洼道路。",
+   "en": "A road where many rocks have fallen{NEWLINE}from the sky to create craters.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/72"
+  },
+  {
+   "id": 73,
+   "zh": "坡度较缓的{NEWLINE}上下坡路。",
+   "en": "A one-way road down a hill that has{NEWLINE}a gentle slope and is fun to traverse.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/73"
+  },
+  {
+   "id": 74,
+   "zh": "地下通路入口的所在的{NEWLINE}金黄市北侧的道路。",
+   "en": "A road running north of Saffron City{NEWLINE}connecting to the Underground Path.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/74"
+  },
+  {
+   "id": 75,
+   "zh": "地下通路入口的所在的{NEWLINE}金黄市南侧的道路。",
+   "en": "A road running south of Saffron City{NEWLINE}connecting to the Underground Path.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/75"
+  },
+  {
+   "id": 76,
+   "zh": "封锁的地下通路入口所在的{NEWLINE}较短道路。",
+   "en": "A short road that leads to the{NEWLINE}blocked-off Underground Path.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/76"
+  },
+  {
+   "id": 77,
+   "zh": "封锁的地下通路入口所在的{NEWLINE}较短道路。",
+   "en": "A short road that leads to the{NEWLINE}blocked-off Underground Path.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/77"
+  },
+  {
+   "id": 78,
+   "zh": "由小小的岩山和短差{NEWLINE}构成迷宫的路。",
+   "en": "A road that forms a maze crossing a{NEWLINE}small, rocky mountain.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/78"
+  },
+  {
+   "id": 79,
+   "zh": "运气好的话能{NEWLINE}到发电站的路。",
+   "en": "A road that passes along the canal{NEWLINE}and comes out at the Power Plant.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/79"
+  },
+  {
+   "id": 80,
+   "zh": "吹着柔风的{NEWLINE}绿色草原道路。",
+   "en": "A grassy path with a gentle,{NEWLINE}refreshing breeze.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/80"
+  },
+  {
+   "id": 81,
+   "zh": "钓鱼胜地,{NEWLINE}别名寂静之桥。",
+   "en": "A bridge known for its fishing.{NEWLINE}It’s also called “Silence Bridge.”",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/81"
+  },
+  {
+   "id": 82,
+   "zh": "狭窄的通路上给与{NEWLINE}训练师们锻炼的道路。",
+   "en": "A difficult, narrow path where many{NEWLINE}Trainers await you.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/82"
+  },
+  {
+   "id": 83,
+   "zh": "与海水一同吹来的{NEWLINE}舒服的海边小路。",
+   "en": "A pleasant coastal road where the{NEWLINE}breeze blows and waves roar.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/83"
+  },
+  {
+   "id": 84,
+   "zh": "在树木中穿梭,连接到{NEWLINE}海边的道路。",
+   "en": "A path that cuts through the row of{NEWLINE}trees to come out on the coastline.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/84"
+  },
+  {
+   "id": 85,
+   "zh": "自行车道,{NEWLINE}北侧的出发点。",
+   "en": "The northern starting point of{NEWLINE}Cycling Road.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/85"
+  },
+  {
+   "id": 86,
+   "zh": "大海上的坡路,{NEWLINE}自行车道。",
+   "en": "An easy path of Cycling Road running{NEWLINE}above the sea.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/86"
+  },
+  {
+   "id": 87,
+   "zh": "自行车道,{NEWLINE}北侧的终点。",
+   "en": "The southern ending point of{NEWLINE}Cycling Road.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/87"
+  },
+  {
+   "id": 88,
+   "zh": "由于红莲岛的喷发{NEWLINE}岩石崩坏的海边路。",
+   "en": "A coastal road littered with rocks due{NEWLINE}to Cinnabar Island’s volcano eruption.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/88"
+  },
+  {
+   "id": 89,
+   "zh": "很受游唦者欢迎的水路,{NEWLINE}中间还有双子岛。",
+   "en": "A popular path with swimmers.{NEWLINE}The Seafoam Islands are also here.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/89"
+  },
+  {
+   "id": 90,
+   "zh": "只留下了火山,{NEWLINE}时刻能感受到大自然威胁的海路。",
+   "en": "A coastal road where the only threat{NEWLINE}might be the volcano on the horizon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/90"
+  },
+  {
+   "id": 91,
+   "zh": "艰难险峻的通往{NEWLINE}冠军之路的道路",
+   "en": "A path to Victory Road that{NEWLINE}eventually becomes impassable.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/91"
+  },
+  {
+   "id": 92,
+   "zh": "伪造的游客指南{NEWLINE}２３号道路",
+   "en": "Dummy guide{NEWLINE}Route 23",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "在河上直接架起的{NEWLINE}风光明媚的桥路。",
+   "en": "A beautiful bridge that stretches{NEWLINE}across a river.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/93"
+  },
+  {
+   "id": 94,
+   "zh": "穿越林道的前方有个{NEWLINE}能俯瞰大海的高台。",
+   "en": "A path that winds through the forest{NEWLINE}and comes out overlooking the sea.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/94"
+  },
+  {
+   "id": 95,
+   "zh": "那蜿蜒起伏宛如是{NEWLINE}试炼般的山路。",
+   "en": "An unimaginably difficult mountain road{NEWLINE}that gives the impression of a test.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/95"
+  },
+  {
+   "id": 96,
+   "zh": "由城都到关东,开启新一段{NEWLINE}冒险的道路。",
+   "en": "A road that crosses from Johto to{NEWLINE}the Kanto region, like a new journey.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/96"
+  },
+  {
+   "id": 97,
+   "zh": "连接神圣的白银山,{NEWLINE}人迹罕至的隐藏山路。",
+   "en": "A vacant and hidden mountain road{NEWLINE}that continues to Mt. Silver.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/97"
+  },
+  {
+   "id": 98,
+   "zh": "被草的香味所包围,{NEWLINE}幽静的旅行之镇。",
+   "en": "A road that begins a journey. The{NEWLINE}road smells like freshly cut grass.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/98"
+  },
+  {
+   "id": 99,
+   "zh": "年轻训练师们寻求挑战的{NEWLINE}年轻气盛的城镇。",
+   "en": "A grassy path where you can battle{NEWLINE}other young Trainers.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/99"
+  },
+  {
+   "id": 100,
+   "zh": "虽然很短但起伏很高的{NEWLINE}令人怀念的自然道路。",
+   "en": "A short, nostalgic path winding{NEWLINE}through nature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/100"
+  },
+  {
+   "id": 101,
+   "zh": "大桥与栈桥交错的{NEWLINE}自然与文明相融合的道路。",
+   "en": "A path crossed by the Magnet Train{NEWLINE}bridge--nature meets technology.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/101"
+  },
+  {
+   "id": 102,
+   "zh": "离开洞窟后每次{NEWLINE}都是下雨天的道路。",
+   "en": "A difficult and always rainy path{NEWLINE}that comes out in a cave.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/102"
+  },
+  {
+   "id": 103,
+   "zh": "尽管在大城市旁边{NEWLINE}但却有很多绿化的城镇。",
+   "en": "A lush, green path, even though it’s{NEWLINE}right next to a city.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/103"
+  },
+  {
+   "id": 104,
+   "zh": "池子的水色让人觉得舒服,{NEWLINE}明朗且很适合走动的道路。",
+   "en": "A bright path with a lake that’s easy{NEWLINE}on the eyes and easy to traverse.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/104"
+  },
+  {
+   "id": 105,
+   "zh": "树木郁郁葱葱的{NEWLINE}绿色道路。",
+   "en": "A green and densely overgrown path{NEWLINE}that forks in two directions.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/105"
+  },
+  {
+   "id": 106,
+   "zh": "以橡果树为特征,{NEWLINE}很受训练师欢迎的道路。",
+   "en": "A popular route for Trainers, marked{NEWLINE}by three Apricorn trees.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/106"
+  },
+  {
+   "id": 107,
+   "zh": "穿过森林到达{NEWLINE}牧场的道路。",
+   "en": "A path that weaves through trees{NEWLINE}and comes out at a farm.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/107"
+  },
+  {
+   "id": 108,
+   "zh": "被高原的风风化成{NEWLINE}一阶阶的道路。",
+   "en": "A downhill path that passes through a{NEWLINE}grassy and breezy plain.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/108"
+  },
+  {
+   "id": 109,
+   "zh": "大海从浅葱市的西侧{NEWLINE}延伸至此的潮风城镇。",
+   "en": "You can hear the waves on this path{NEWLINE}from west Olivine City to the sea.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/109"
+  },
+  {
+   "id": 110,
+   "zh": "用漩涡阻挡冒险者们的{NEWLINE}海上天险。",
+   "en": "A rough spot in the sea where{NEWLINE}whirlpools block your path.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/110"
+  },
+  {
+   "id": 111,
+   "zh": "由陡峭的山脉劈出一部分{NEWLINE}形成的山路。",
+   "en": "A small path opened at the base of{NEWLINE}challenging Mt. Mortar.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/111"
+  },
+  {
+   "id": 112,
+   "zh": "穿过湖的小路,{NEWLINE}要小心贪得无厌的门卫。",
+   "en": "A woodland path that comes out at a{NEWLINE}lake. Beware the greedy gate.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/112"
+  },
+  {
+   "id": 113,
+   "zh": "跳动着被宁静的泉水与{NEWLINE}安逸的绿色洗净的心的道路。",
+   "en": "A wonderful path with a few pleasant{NEWLINE}springs and abundant greenery.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/113"
+  },
+  {
+   "id": 114,
+   "zh": "蜿蜒曲折的河边路被称为{NEWLINE}山脉之路。",
+   "en": "A winding road by a river, but called{NEWLINE}“Mountain Road.”",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/114"
+  },
+  {
+   "id": 115,
+   "zh": "连接山脚与草原,{NEWLINE}村民返回村庄的道路。",
+   "en": "A way home that runs from the base of{NEWLINE}the mountain to the plains.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/115"
+  },
+  {
+   "id": 116,
+   "zh": "为冒险这一行为感到颤抖的{NEWLINE}落差陡峭的山路。",
+   "en": "A road on a cliff that strikes fear in{NEWLINE}the hearts of those who dare to pass.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0273/116"
+  },
+  {
+   "id": 117,
+   "zh": "越过高山前往度假区,{NEWLINE}空气清晰的登山道。",
+   "en": "A mountain trail with crisp air that{NEWLINE}crosses the heights to the Resort Zone.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0273/117 | Hack rewrote the US Safari Zone description to mention the Resort Zone (度假区)."
+  }
+ ]
+}

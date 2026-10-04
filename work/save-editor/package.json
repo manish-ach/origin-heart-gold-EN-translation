@@ -1,0 +1,23 @@
+{
+  "name": "origin-save-editor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node node_modules/typescript/bin/tsc -p tsconfig.json",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "start": "npm run build && node scripts/serve.mjs",
+    "typecheck": "node node_modules/typescript/bin/tsc -p tsconfig.json --noEmit",
+    "lint": "node node_modules/eslint/bin/eslint.js src --max-warnings 0",
+    "check": "npm run typecheck && npm run lint && npm test"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3",
+    "eslint": "9.28.0",
+    "@typescript-eslint/parser": "8.34.0",
+    "@typescript-eslint/eslint-plugin": "8.34.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

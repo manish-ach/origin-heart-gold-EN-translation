@@ -1,0 +1,167 @@
+{
+ "narc": "a027",
+ "bank": 378,
+ "source": "work/extract/v4/a027/0378.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "水晶『{VAR:0103:0}前辈,来看这边。",
+   "en": "Crystal: {VAR:0103:0}, look over here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "水晶『那边就是被寄养的精灵,{NEWLINE}爷爷奶奶特意做了这个场地{CLEAR}好让精灵们在上面玩耍休息。{SCROLL}水晶『我小时候经常跟{NEWLINE}被寄养的精灵们在这玩,{CLEAR}还在精灵们休息的草垫子上睡午觉,{CLEAR}那个垫子可舒服了！",
+   "en": "Crystal: Those are the Pokémon{NEWLINE}being looked after here. Grandpa{CLEAR}and Grandma made this area{CLEAR}specially so they can play and rest.{SCROLL}Crystal: When I was little, I used{NEWLINE}to play here with the Pokémon{CLEAR}all the time. I even took naps{CLEAR}on the grass mat where they{CLEAR}rest. That mat is super comfy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "水晶『前辈如果也想寄养精灵,{NEWLINE}就来这边。",
+   "en": "Crystal: If you want to leave some{NEWLINE}Pokémon here too, come this way.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "水晶『奶奶,你瞧我把谁带来了？",
+   "en": "Crystal: Grandma, look who I brought!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "咦？水晶,你除了阿金{NEWLINE}还有别的男朋友吗？",
+   "en": "Huh? Crystal, you have another{NEWLINE}boyfriend besides Gold?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Gender branch: #4 male player (‘another boyfriend’) / #5 female player (‘Gold in a dress’); Crystal replies #6 / #7. #9 is the female-player line."
+  },
+  {
+   "id": 5,
+   "zh": "这为小姐该不会是……{NEWLINE}换上女装的阿金吧？",
+   "en": "This young lady couldn’t be...{NEWLINE}Gold in a dress, could she?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "水晶『你说什么呢奶奶！{NEWLINE}我跟阿金还有{VAR:0103:0}前辈{CLEAR}不是那种关系啦！",
+   "en": "Crystal: What are you saying,{NEWLINE}Grandma?! Gold and {VAR:0103:0}{CLEAR}and I aren’t like that!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "水晶『你说什么呢奶奶！{NEWLINE}不要总是往阿金身上靠啊！",
+   "en": "Crystal: What are you{NEWLINE}saying, Grandma?! Stop{CLEAR}always pairing me with Gold!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:0103:0}？{NEWLINE}莫非这位是……",
+   "en": "{VAR:0103:0}? Could this be...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "哈哈,奶奶开玩笑的。{NEWLINE}我只是觉得这位小姐面熟……",
+   "en": "Ha ha, Grandma’s only{NEWLINE}joking. I just thought this{CLEAR}young lady looked familiar...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "啊！你是联盟冠军{VAR:0103:0}！{NEWLINE}我和老伴在电视上看过你！{CLEAR}难怪觉得这么面熟呢。",
+   "en": "Oh! You’re League Champion {VAR:0103:0}!{NEWLINE}My husband and I saw you on TV!{CLEAR}No wonder you looked so familiar.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "水晶『嘿嘿,{VAR:0103:0}前辈也是{NEWLINE}我在旅行中的伙伴哦。{CLEAR}从他那里我学了很多东西呢。",
+   "en": "Crystal: Heh heh, {VAR:0103:0} is one of{NEWLINE}my traveling companions too. I’ve{CLEAR}learned so much on this journey.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 从他那里 (male pronoun); English repeats the name to stay gender-neutral."
+  },
+  {
+   "id": 12,
+   "zh": "我知道,我知道。{NEWLINE}能跟世上最强的训练家一起旅行,{CLEAR}我孙女还真是幸运啊。",
+   "en": "I know, I know. Getting to travel with{NEWLINE}the strongest Trainer in the world...{CLEAR}My granddaughter sure is lucky.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "水晶『{VAR:0103:0}前辈,{NEWLINE}我爷爷奶奶很会照顾精灵的,{CLEAR}你如果把精灵交给他们寄养,{CLEAR}不光精灵的等级会提高,{CLEAR}有时候还会得到精灵的蛋呢。{SCROLL}水晶『强烈推荐你把精灵{NEWLINE}寄养在这里试试哦。",
+   "en": "Crystal: {VAR:0103:0}, my grandpa and{NEWLINE}grandma are really good at taking{CLEAR}care of Pokémon. If you leave{CLEAR}your Pokémon with them, not only{CLEAR}will their levels go up, sometimes{CLEAR}you’ll even get a Pokémon Egg!{SCROLL}Crystal: I really recommend{NEWLINE}leaving some Pokémon here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}『好,我会试试的。",
+   "en": "{VAR:0103:0}: Okay, I’ll give it a try.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "水晶『奶奶,我要去满金市了。{NEWLINE}你和爷爷要保重好身体,{CLEAR}等我在城都地区旅行完了,{CLEAR}再来看你们哦！",
+   "en": "Crystal: Grandma, I’m off to Goldenrod{NEWLINE}City. You and Grandpa take care of{CLEAR}yourselves. When I’m done traveling{CLEAR}around Johto, I’ll come see you again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "嗯,水晶你从小自理能力就很强,{NEWLINE}奶奶相信你没问题的。",
+   "en": "Mm-hmm. Crystal, you’ve been able to{NEWLINE}look after yourself ever since you were{CLEAR}little. Grandma knows you’ll be fine.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "水晶『那拜拜咯,奶奶！",
+   "en": "Crystal: Bye-bye, Grandma!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0}『哇,还能得到蛋？{NEWLINE}那我可得试试。",
+   "en": "{VAR:0103:0}: Whoa, you can even get{NEWLINE}Eggs? Then I’ve got to try it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "阿响『奶奶！{SCROLL}因为都是精灵训练师{NEWLINE}所以才记电话的,{CLEAR}不要乱说哦！{SCROLL}",
+   "en": "Ethan: Grandma!{SCROLL}We only exchanged numbers because{NEWLINE}we’re both Pokémon Trainers.{CLEAR}Don’t get the wrong idea!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0385/19; US line (vanilla Ethan) rewritten from the hack's zh."
+  }
+ ]
+}

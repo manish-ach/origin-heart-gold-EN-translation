@@ -1,0 +1,191 @@
+{
+ "narc": "battle_string",
+ "bank": 3,
+ "source": "work/extract/v4/battle_string/0003.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "战斗",
+   "en": "FIGHT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 1,
+   "zh": "背包",
+   "en": "BAG",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s)"
+  },
+  {
+   "id": 2,
+   "zh": "宝可梦",
+   "en": "POKéMON",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "逃跑",
+   "en": "RUN",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 4,
+   "zh": "信息",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 5,
+   "zh": "返回",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 12 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 6,
+   "zh": "PP",
+   "en": "PP",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0133:0,0}/{VAR:0133:1,0}",
+   "en": "{VAR:0133:0,0}/{VAR:0133:1,0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "攻击{NEWLINE}防御{NEWLINE}特攻{NEWLINE}特防{NEWLINE}速度{NEWLINE}闪避{NEWLINE}命中",
+   "en": "Atk{NEWLINE}Def{NEWLINE}SpA{NEWLINE}SpD{NEWLINE}Spe{NEWLINE}Eva{NEWLINE}Acc",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Stat-stage panel labels in 24-px zh cells: abbreviated."
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0102:0,0}的",
+   "en": "{VAR:0102:0,0}’s",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0100:0}",
+   "en": "{VAR:0100:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "特性：{VAR:0100:0}",
+   "en": "Ability: {VAR:0100:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "道具：{VAR:0100:0}",
+   "en": "Item: {VAR:0100:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0100:0}回合",
+   "en": "{VAR:0100:0} turn(s)",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0101:0} {VAR:FF00:1}♂{VAR:FF00:0}{NEWLINE}Ｌｖ{VAR:0134:1}→{VAR:0134:2}",
+   "en": "{VAR:0101:0} {VAR:FF00:1}♂{VAR:FF00:0}{NEWLINE}Lv. {VAR:0134:1}→{VAR:0134:2}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0101:0} {VAR:FF00:2}♀{VAR:FF00:0}{NEWLINE}Ｌｖ{VAR:0134:1}→{VAR:0134:2}",
+   "en": "{VAR:0101:0} {VAR:FF00:2}♀{VAR:FF00:0}{NEWLINE}Lv. {VAR:0134:1}→{VAR:0134:2}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0101:0}{NEWLINE}Ｌｖ{VAR:0134:1}→{VAR:0134:2}",
+   "en": "{VAR:0101:0}{NEWLINE}Lv. {VAR:0134:1}→{VAR:0134:2}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0205}忘记！",
+   "en": "{VAR:0205}Forget",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0205}不忘记！",
+   "en": "{VAR:0205}Don’t forget",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0205}是",
+   "en": "{VAR:0205}Yes",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0205}否",
+   "en": "{VAR:0205}No",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0205}替换宝可梦",
+   "en": "{VAR:0205}Switch Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0205}继续战斗",
+   "en": "{VAR:0205}Keep battling",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

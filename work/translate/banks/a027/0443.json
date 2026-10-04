@@ -1,0 +1,1333 @@
+{
+ "narc": "a027",
+ "bank": 443,
+ "source": "work/extract/v4/a027/0443.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "你好啊,欢迎来到石头加工屋。{SCROLL}四之岛开采的石头都会送到我们这里{NEWLINE}经过加工打磨后再拿到市面上销售。{CLEAR}在四之岛种类众多的石头中,{CLEAR}最珍贵的应该就属{CLEAR}传说中水晶大岩蛇身上的水晶石了。{SCROLL}在我年轻当学徒的时候,{NEWLINE}曾经跟师傅一起遇到过水晶大岩蛇,{CLEAR}师傅当时从水晶大岩蛇身上{CLEAR}敲下了一块水晶石,{CLEAR}并将它加工成了一件水晶雕塑。{SCROLL}我一直梦想着有一天{NEWLINE}也能从水晶大岩蛇身上{CLEAR}取下一块水晶石,{CLEAR}做一件属于自己的水晶雕塑。",
+   "en": "Hello there! Welcome to the Stone{NEWLINE}Workshop.{SCROLL}Stones mined on Four Island come here{NEWLINE}to be cut and polished for sale.{SCROLL}The most precious is the crystal from{NEWLINE}the legendary Crystal Onix.{SCROLL}When I was a young apprentice, my{NEWLINE}master and I once met a Crystal Onix.{SCROLL}He chipped a piece of crystal off it and{NEWLINE}carved it into a crystal sculpture.{SCROLL}I’ve always dreamed of getting a piece{NEWLINE}of crystal from a Crystal Onix myself,{SCROLL}and making a sculpture all my own.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "石头加工屋 = Stone Workshop."
+  },
+  {
+   "id": 1,
+   "zh": "我的这只烈咬陆鲨{NEWLINE}曾经陪我走南闯北,{CLEAR}打败过无数的训练家。{CLEAR}但如今它和我一样都进入暮年,{CLEAR}没有精力出门旅行了。{SCROLL}不过我和烈咬陆鲨{NEWLINE}渴望战斗的心却从未磨灭,{CLEAR}你能跟我们来一场对战,{CLEAR}帮我们回味一下{CLEAR}曾经的那段辉煌岁月吗？",
+   "en": "My Garchomp and I traveled far and wide{NEWLINE}and beat countless Trainers.{SCROLL}But we’re both old now, too old to{NEWLINE}travel anymore.{SCROLL}Still, our hunger for battle has never{NEWLINE}faded.{SCROLL}Would you battle us, and let us relive{NEWLINE}our glory days?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "哦呵呵,真是太感谢了。{NEWLINE}那我们可要上了！",
+   "en": "Oh ho ho, thank you kindly! Here we{NEWLINE}come!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "嗯,你很厉害。{NEWLINE}在你的身上我看到了{CLEAR}自己年轻时的影子。{CLEAR}祝你未来的训练家之路一路坦途。",
+   "en": "Mm, you’re very good. I see my younger{NEWLINE}self in you.{CLEAR}May your road as a Trainer be a smooth{CLEAR}one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "啊哈哈,没想到我这一把年纪了,{NEWLINE}居然还能打赢你这样的年轻人,{CLEAR}这一刻真是梦回巅峰啊。{CLEAR}谢谢你让我重新感受到了{CLEAR}年轻时的那种感觉。{SCROLL}这个是我的一点心意,{NEWLINE}你就收下吧,{CLEAR}就当做是陪我这个老头子{CLEAR}玩乐的谢礼了。",
+   "en": "Ahaha! Who’d have thought an old man{NEWLINE}like me could still beat a youngster?{SCROLL}It’s like I’m back at my peak!{SCROLL}Thank you for letting me feel young{NEWLINE}again.{SCROLL}Here’s a little something. Take it as{NEWLINE}thanks for keeping an old man company.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "这世上没有不落幕的青春,{NEWLINE}也没有不完结的故事,{CLEAR}不论年轻时跟口袋妖怪{CLEAR}一起的冒险多么精彩,{CLEAR}也总会有告别这个世界的一天……",
+   "en": "No youth lasts forever, and every{NEWLINE}story comes to an end.{CLEAR}However grand our adventures with{CLEAR}Pokémon when we were young, one day we{CLEAR}all must say goodbye to this world...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "烈咬陆鲨『Gaaa——chom！",
+   "en": "Garchomp: Gaaa-chomp!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "未经加工的原石,不知道里面有什么。",
+   "en": "An uncut rough stone. No telling what’s{NEWLINE}inside.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "别以为这是块随处可见的石头,{NEWLINE}其实它里面有好多珍贵的进化石。{CLEAR}你如果肯花5万块买下这块碎石,{CLEAR}我保证你能大赚特赚！{SCROLL}怎么样,要买下这块石头吗？",
+   "en": "This isn’t just any old rock. It’s full{NEWLINE}of precious evolution stones!{SCROLL}Pay $50,000 for this chunk of rock, and{NEWLINE}I guarantee you’ll strike it rich!{SCROLL}Well? Want to buy it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "number_missing"
+   ]
+  },
+  {
+   "id": 9,
+   "zh": "爽快！我这就给你开石头,{NEWLINE}看看你到底能赚多少。",
+   "en": "Great! I’ll crack it open right now.{NEWLINE}Let’s see how much you’ve made.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "你身上的钱不够啊,{NEWLINE}这么珍贵的石头我可不会便宜卖的。",
+   "en": "You don’t have enough money. I won’t{NEWLINE}sell a stone this precious on the cheap.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "哎呀,真是意外,居然什么都没有。{NEWLINE}这样的事好久都没发生过了。",
+   "en": "Oh my, what a surprise. There’s nothing{NEWLINE}inside! That hasn’t happened in ages.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}『我的五万块,{NEWLINE}就这么打水漂了？！",
+   "en": "{VAR:0103:0}: My $50,000... Just gone, like{NEWLINE}that?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "要不怎么说一刀穷、一刀富、{NEWLINE}一刀穿麻布呢。{CLEAR}既然选择了买这种未打开的原石,{CLEAR}你就得做好空手而归的准备。{CLEAR}学会接受现实吧,年轻人。",
+   "en": "You know what they say about rough{NEWLINE}stones: one cut, you’re rich; one cut,{CLEAR}you’re broke; one cut, you’re in rags.{CLEAR}If you buy an unopened stone, you’d{CLEAR}better be ready to walk away{CLEAR}empty-handed.{CLEAR}Learn to accept reality, youngster.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Stone-gambling proverb 一刀穷一刀富一刀穿麻布."
+  },
+  {
+   "id": 14,
+   "zh": "嘿嘿,一刀穷一刀富,{NEWLINE}你们愿赌要服输,{CLEAR}你们一刀我致富,哈哈哈！",
+   "en": "Heh heh. One cut poor, one cut rich...{NEWLINE}You bet, you pay!{CLEAR}Your cuts make me rich! Hahaha!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "老板是个对石头很执着的人,{NEWLINE}如果有什么石头让他看上了,{CLEAR}他一定会想办法搞到手。",
+   "en": "The boss is obsessed with stones.{CLEAR}If a stone catches his eye, he’ll find a{NEWLINE}way to get it, no matter what.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "唉？在海岛洞穴的西北角{NEWLINE}发现了水晶大岩蛇的踪迹？{CLEAR}太令人兴奋了！{CLEAR}我这就去洞穴看看！",
+   "en": "What? Signs of Crystal Onix in the{NEWLINE}northwest corner of the Island Cave?{CLEAR}How exciting! I’m heading to the cave{CLEAR}right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "哈哈哈,终于让我找到{NEWLINE}水晶大岩蛇的踪迹了,{CLEAR}我一定要拿到水晶石{CLEAR}雕刻出属于自己的传世作品。",
+   "en": "Hahaha! At last, I’ve found a trail to{NEWLINE}Crystal Onix!{CLEAR}I’ll get that crystal and carve a{CLEAR}masterpiece all my own!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "施主一路舟车劳顿走到这里,{NEWLINE}想必已经非常疲劳了吧？{CLEAR}没关系,如果施主想休息的话,{CLEAR}尽管在这里休息就好。",
+   "en": "You’ve come a long way, traveler. You{NEWLINE}must be very tired.{CLEAR}Worry not. If you wish to rest, please{CLEAR}rest here as long as you like.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Monks: 施主 = traveler; 阿弥陀佛 = Amitabha."
+  },
+  {
+   "id": 19,
+   "zh": "天然鸟『Xaaa——tu！",
+   "en": "Xatu: Xaaa-tu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "大师,我的精灵生病了,{NEWLINE}医生说需要五之岛的四叶草{CLEAR}才能治这种病,{CLEAR}你们这里有卖四叶草吗？",
+   "en": "Master, my Pokémon is sick. The doctor{NEWLINE}says only a four-leaf clover from Five{CLEAR}Island can cure it.{CLEAR}Do you sell four-leaf clovers here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "阿弥陀佛,五之岛的野草{NEWLINE}大多都是三叶草,{CLEAR}四叶草极其罕见,{CLEAR}施主如果想要四叶草,{CLEAR}只能自行去岛上寻找。{CLEAR}至于找不找得到就看一个缘字了。",
+   "en": "Amitabha. The wild clover on Five Island{NEWLINE}mostly has three leaves. Four-leaf{CLEAR}clovers are very rare.{CLEAR}If you seek one, you must search the{CLEAR}island yourself.{CLEAR}Whether you find one is up to fate.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "大师你们在岛上生活这么久,{NEWLINE}就没有人采到过四叶草吗？",
+   "en": "Master, you’ve lived here so long. Has{NEWLINE}no one ever found a four-leaf clover?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "阿弥陀佛,一草一木皆有生命,{NEWLINE}我们出家人不会无缘无故{CLEAR}去采集草木的。",
+   "en": "Amitabha. Every blade of grass and{NEWLINE}every tree has life.{CLEAR}We monks do not pick plants without{CLEAR}good reason.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "好吧,那我只能自己去岛上找找看了。",
+   "en": "All right. Guess I’ll just have to{NEWLINE}search the island myself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "雪笠怪『Snooo——ver！",
+   "en": "Snover: Snooo-ver!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "多谢冠军大人相救,小僧感激不尽。{NEWLINE}从此之后小僧将在此专心研读佛经,{CLEAR}以洗刷曾经犯下的罪过。",
+   "en": "Thank you for saving me, Champion. I am{NEWLINE}deeply grateful.{CLEAR}From now on, I will devote myself to the{CLEAR}sutras here, to atone for my past{CLEAR}wrongs.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "阿弥陀佛,竟然是冠军大人大驾光临。{NEWLINE}您也是来参加诸岛巡礼的吧？",
+   "en": "Amitabha. The Champion honors us with a{NEWLINE}visit!{SCROLL}Have you also come for the Island{NEWLINE}Pilgrimage?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "诸岛巡礼 = Island Pilgrimage (the Alto Mare islands' trial circuit)."
+  },
+  {
+   "id": 28,
+   "zh": "阿弥陀佛,生老病死乃世间常态,{NEWLINE}学会坦然接受才是我佛大道。",
+   "en": "Amitabha. Birth, old age, sickness and{NEWLINE}death are the way of the world.{SCROLL}To accept them calmly is the path of the{NEWLINE}Buddha.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "无论如何,我们都随时欢迎您大驾光临。",
+   "en": "Whatever the case, you are always{NEWLINE}welcome here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "没想到您这样的大人物{NEWLINE}居然会对我们这小小水都的{CLEAR}诸岛巡礼感兴趣。{CLEAR}那么按照规矩,巡礼的考验现在开始。{SCROLL}您需要回答老身的一组问题,{NEWLINE}通过展现智慧来完成五之岛的巡礼。{CLEAR}第一题：{CLEAR}体力值201的精灵使用腹鼓后,{CLEAR}会有什么变化？",
+   "en": "I never imagined someone of your{NEWLINE}standing would take an interest in our{SCROLL}humble Alto Mare pilgrimage.{SCROLL}Well then, as is our custom, the{NEWLINE}pilgrimage trial begins now.{SCROLL}Answer my questions to prove your{NEWLINE}wisdom and pass the Five Island trial.{SCROLL}Question one:{SCROLL}What happens when a Pokémon with 201{NEWLINE}HP uses Belly Drum?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "体力变为100,物攻提升",
+   "en": "HP drops to 100, Attack rises",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 32,
+   "zh": "体力变为101,物攻提升",
+   "en": "HP drops to 101, Attack rises",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 33,
+   "zh": "体力变为100,特攻提升",
+   "en": "HP drops to 100, Sp. Atk rises",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 34,
+   "zh": "体力变为101,特攻提升",
+   "en": "HP drops to 101, Sp. Atk rises",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 35,
+   "zh": "请听第二题：{NEWLINE}双方同等级极限速度时,{CLEAR}疾风之翼的比雕使用羽栖,{CLEAR}烈咬陆鲨使用地震。{CLEAR}地震对比雕造成的效果是？",
+   "en": "Question two: Both are the same level{NEWLINE}with maximum Speed.{CLEAR}A Gale Wings Pidgeot uses Roost, and a{CLEAR}Garchomp uses Earthquake.{CLEAR}How does Earthquake affect Pidgeot?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "无伤害",
+   "en": "No damage",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 37,
+   "zh": "伤害减半",
+   "en": "Half damage",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 38,
+   "zh": "双倍伤害",
+   "en": "Double damage",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 39,
+   "zh": "一倍伤害",
+   "en": "Normal damage",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 40,
+   "zh": "请听第三题：{NEWLINE}果然翁使用返拳,鬼盆栽使用突袭,{CLEAR}会发生什么情况？",
+   "en": "Question three:{CLEAR}Wobbuffet uses Counter, and Spiritomb{NEWLINE}uses Sucker Punch. What happens?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "果然翁受伤,鬼盆栽无伤",
+   "en": "Wobbuffet hurt, Spiritomb unhurt",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 42,
+   "zh": "果然翁无伤,鬼盆栽受伤",
+   "en": "Wobbuffet unhurt, Spiritomb hurt",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 43,
+   "zh": "果然翁受伤,鬼盆栽受伤",
+   "en": "Wobbuffet hurt, Spiritomb hurt",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 44,
+   "zh": "果然翁无伤,鬼盆栽无伤",
+   "en": "Wobbuffet & Spiritomb both unhurt",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Wobbuffet unhurt, Spiritomb unhurt'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 45,
+   "zh": "请听第四题：{NEWLINE}下列哪只精灵会受到沙穴特性的影响？",
+   "en": "Question four:{SCROLL}Which of these Pokémon is affected by{NEWLINE}the Arena Trap Ability?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "沙漠蜻蜓",
+   "en": "Flygon",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 47,
+   "zh": "嘟嘟利",
+   "en": "Dodrio",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 48,
+   "zh": "巴大蝴",
+   "en": "Butterfree",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 49,
+   "zh": "雪妖女",
+   "en": "Froslass",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 50,
+   "zh": "请听第五题：{NEWLINE}精灵的每一项能力,{CLEAR}所能分配的最大努力值是？",
+   "en": "Question five:{CLEAR}What is the most EVs a Pokémon can have{NEWLINE}in a single stat?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "510",
+   "en": "510",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 52,
+   "zh": "508",
+   "en": "508",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 53,
+   "zh": "255",
+   "en": "255",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 54,
+   "zh": "252",
+   "en": "252",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 55,
+   "zh": "真不愧是冠军大人,{NEWLINE}每一个答案都完美无缺。{CLEAR}您已经展现出了自己的智慧。{CLEAR}如果是普通人的话,{CLEAR}五之岛的巡礼到这里就完成了。{CLEAR}但是您身为冠军,{CLEAR}老身想再为您增加一项考验。{SCROLL}考验的内容也很简单,{NEWLINE}只要您能够在对战中战胜老身,{CLEAR}让老身一睹冠军战斗的风采,{CLEAR}就算您完成了五之岛的巡礼。{CLEAR}不知道您做好准备了吗？",
+   "en": "As expected of the Champion. Every{NEWLINE}answer was flawless.{SCROLL}You have shown your wisdom.{SCROLL}For an ordinary visitor, the Five Island{NEWLINE}Pilgrimage would end here.{SCROLL}But as you are the Champion, I’d like to{NEWLINE}add one more trial.{SCROLL}It is quite simple. Defeat me in battle{NEWLINE}and let me witness a Champion’s skill.{SCROLL}Then you will have completed the Five{NEWLINE}Island Pilgrimage. Are you ready?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "真是抱歉您刚才的回答不够完美,{NEWLINE}请您仔细想想之后再来作答。",
+   "en": "I’m sorry, but your answers weren’t{NEWLINE}perfect.{SCROLL}Please think it over carefully and try{NEWLINE}again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "等您做好准备了,随时可以来找老身。",
+   "en": "Come see me whenever you’re ready.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "能在这里见证最强训练家的实力,{NEWLINE}是老身的荣幸。{CLEAR}咱们这就开始吧！",
+   "en": "It is my honor to witness the strength{NEWLINE}of the greatest Trainer here. Let us{CLEAR}begin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "阿弥陀佛,冠军大人的实力让老身叹服,{NEWLINE}恭喜您完成了五之岛的巡礼！{CLEAR}您如果不忙的话,{CLEAR}欢迎继续在五之岛逛逛,{CLEAR}这岛上每一个季节的风光{CLEAR}绝对都值得您去一看。",
+   "en": "Amitabha. Your strength leaves me in{NEWLINE}awe, Champion.{CLEAR}Congratulations on completing the Five{CLEAR}Island Pilgrimage!{CLEAR}If you have time, please stay and{CLEAR}explore Five Island.{CLEAR}The scenery here is worth seeing in{CLEAR}every season.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "只要您能够在对战中战胜老身,{NEWLINE}让老身一睹冠军战斗的风采,{CLEAR}就算您完成了五之岛的巡礼。{CLEAR}不知道您做好准备了吗？",
+   "en": "Defeat me in battle and let me witness a{NEWLINE}Champion’s skill.{CLEAR}Then you will have completed the Five{CLEAR}Island Pilgrimage. Are you ready?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "阿弥陀佛,冠军大人如果不忙的话,{NEWLINE}欢迎继续在五之岛逛逛,{CLEAR}这岛上每一个季节的风光{CLEAR}绝对都值得您去一看。",
+   "en": "Amitabha. If you have time, Champion,{NEWLINE}please stay and explore Five Island.{CLEAR}The scenery here is worth seeing in{CLEAR}every season.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "雪山上的人是怎么回事？",
+   "en": "The man on the snowy mountain?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 63,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 64,
+   "zh": "{VAR:0103:0}『我在五之岛的雪山顶上,{NEWLINE}遇到了一个人自称犯错被罚的人,{CLEAR}长老您能跟我说说具体是怎么回事吗？",
+   "en": "{VAR:0103:0}: On top of Five Island’s snowy{NEWLINE}mountain, I met a man who said he was{CLEAR}being punished for a mistake.{CLEAR}Elder, can you tell me what happened?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "您去雪山了啊……{SCROLL}其实在5年之前的某一天,{NEWLINE}我恰好有事不在五之岛,{CLEAR}这时候岛上来了一伙{CLEAR}自称是科考队的人。{SCROLL}他们通过各种欺骗的说辞,{NEWLINE}诱导我的一位弟子把这伙人带到了{CLEAR}五之岛北面的一个小岛上。{CLEAR}这伙人登岛后用特殊的方法{CLEAR}引出了藏在岛上的传说中的精灵梦幻,{CLEAR}并将梦幻抓走了。{CLEAR}通过后来您击溃火箭队,{CLEAR}我们才知道当时抓走梦幻的,{CLEAR}应该就是火箭队的人。",
+   "en": "You went up the snowy mountain...{SCROLL}Five years ago, I happened to be away{NEWLINE}from Five Island for a day.{SCROLL}While I was away, a group calling{NEWLINE}themselves researchers came here.{SCROLL}They lied their way into getting one of{NEWLINE}my disciples to guide them north.{SCROLL}On an islet there, they used a special{NEWLINE}trick to lure out Mew and took it.{SCROLL}Only after you crushed Team Rocket did{NEWLINE}we learn that it was most likely them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "number_missing"
+   ]
+  },
+  {
+   "id": 66,
+   "zh": "我等众僧守护五之岛,{NEWLINE}其根本目的还是守护{CLEAR}栖息在这里的精灵之祖——梦幻。{CLEAR}但是那位弟子却因为轻信别人,{CLEAR}让梦幻被火箭队抓走。{CLEAR}为了惩罚他的过失,{CLEAR}我便让他在雪山上受罚,{CLEAR}直至梦幻重新回到五之岛为止。",
+   "en": "We monks guard Five Island, but above{NEWLINE}all, we guard Mew, the ancestor of all{CLEAR}Pokémon, which dwells here.{CLEAR}But that disciple trusted strangers too{CLEAR}easily and let Team Rocket take Mew.{CLEAR}To punish his mistake, I sent him to do{CLEAR}penance on the snowy mountain until Mew{CLEAR}returns to Five Island.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "{VAR:0103:0}『雪山上温度这么低,{NEWLINE}我看他又冻又饿非常虚弱。{CLEAR}请长老先放他下来吧,{CLEAR}找回梦幻的事我来帮你想办法。",
+   "en": "{VAR:0103:0}: It’s freezing up on that{NEWLINE}mountain. He’s cold, starving and very{CLEAR}weak.{CLEAR}Please let him come down, Elder. I’ll{CLEAR}help you find a way to bring Mew back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "阿弥陀佛,冠军大人这么说,{NEWLINE}足见您的慈悲之心。{CLEAR}如果老身再坚持惩罚弟子,{CLEAR}那就显得有些不近人情了。{CLEAR}请冠军大人去雪山上告知我那弟子,{CLEAR}让他回到我这里读经受罚吧。{SCROLL}至于迎回梦幻的事,{NEWLINE}我等会与冠军大人一起努力寻找,{CLEAR}期间冠军大人如有什么疑问,{CLEAR}尽管来与老身商量。",
+   "en": "Amitabha. Your words show the{NEWLINE}compassion in your heart, Champion.{SCROLL}If I kept punishing my disciple now, it{NEWLINE}would be heartless of me.{SCROLL}Please go up the mountain and tell my{NEWLINE}disciple to return here and do penance{SCROLL}by studying the sutras.{SCROLL}As for bringing Mew home, we will search{NEWLINE}for it together with you.{SCROLL}If you have any questions in the{NEWLINE}meantime, come and talk to me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "请冠军大人去雪山上告知我那弟子,{NEWLINE}让他回到我这里读经受罚吧。",
+   "en": "Please go up the mountain and tell my{NEWLINE}disciple to return here and do penance{SCROLL}by studying the sutras.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "冠军大人有梦幻的线索了吗？{NEWLINE}去梦幻曾经出现过的地方看看,{CLEAR}或许就能找到它的踪迹。",
+   "en": "Have you found any clues about Mew,{NEWLINE}Champion?{CLEAR}Try visiting the places where Mew has{CLEAR}appeared before. You may find a trace{CLEAR}of it there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "阿弥陀佛,{NEWLINE}恭喜冠军大人得到梦幻的认可,{CLEAR}成为了传说中精灵的训练家。{CLEAR}可喜可贺,实在是可喜可贺。",
+   "en": "Amitabha. Congratulations, Champion, on{NEWLINE}earning Mew’s trust and becoming the{CLEAR}Trainer of a legendary Pokémon.{CLEAR}This is a joyous day. Truly joyous.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "呜呜呜,梦幻终于回来了,{NEWLINE}还选择了您作为它的归宿。{CLEAR}这样一来我们的使命终于完成了,{CLEAR}谢谢冠军大人,谢谢您！",
+   "en": "Waaah... Mew has finally come back, and{NEWLINE}it chose you as its home.{CLEAR}Now our mission is finally complete.{CLEAR}Thank you, Champion! Thank you so{CLEAR}much!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "烈焰猴『In——fer！",
+   "en": "Infernape: In-fer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "阿弥陀佛,老身感受得到,{NEWLINE}梦幻已经回到了五之岛！{CLEAR}冠军大人在五之岛耐心找找,{CLEAR}应该就能发现梦幻的踪迹！",
+   "en": "Amitabha. I can feel it. Mew has{NEWLINE}returned to Five Island!{CLEAR}Search Five Island patiently, Champion,{CLEAR}and you should find a trace of Mew!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "你是来六之岛旅游的吧？{NEWLINE}我们这里提供住宿服务哦,{CLEAR}休息一次1000元,要歇歇脚吗？",
+   "en": "Here to see the sights on Six Island? We{NEWLINE}offer lodging.{CLEAR}A rest is $1000. Would you like to rest{CLEAR}your feet?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "你身上带的钱不够！",
+   "en": "You don’t have enough money!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "我们将以最真挚的感情,{NEWLINE}为您提供最高级的服务。",
+   "en": "We will provide you with the finest{NEWLINE}service, from the bottom of our hearts.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "祝您在六之岛玩得愉快,{NEWLINE}如果需要休息了欢迎再来。",
+   "en": "Enjoy your time on Six Island! Come{NEWLINE}back whenever you need a rest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "我是这里的导游,{NEWLINE}你有什么想知道的吗,{CLEAR}只要给钱我什么都可以告诉你,{CLEAR}一次2000元,谢绝还价。",
+   "en": "I’m the tour guide here. Anything you{NEWLINE}want to know?{CLEAR}As long as you pay, I’ll tell you{CLEAR}anything. $2000 a question, no{CLEAR}haggling.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "六之岛有什么景点？",
+   "en": "What sights are there?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 81,
+   "zh": "六之岛有什么特产？",
+   "en": "Any local specialties?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 82,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 83,
+   "zh": "六之岛最著名的景点{NEWLINE}就是岛东侧的天降红星了,{CLEAR}据说百年以前有一颗红色流星{CLEAR}从天而降落到六之岛上。{SCROLL}从那以后岛民们便把红星{NEWLINE}当做是许愿之星,{CLEAR}每次出海渔猎之前,{CLEAR}都会向红星祈祷{CLEAR}以求出海平安、满载而归。{CLEAR}您如果也有什么愿望的话,{CLEAR}可以去摸摸红星祈祷一下,{CLEAR}或许就能实现呢。",
+   "en": "The most famous sight on Six Island is{NEWLINE}the Fallen Red Star, on the east side.{SCROLL}They say a red meteor fell from the sky{NEWLINE}onto Six Island a hundred years ago.{SCROLL}Since then, the islanders have treated{NEWLINE}the Red Star as a wishing star.{SCROLL}Before every fishing trip, they pray to{NEWLINE}it for a safe voyage and a full catch.{SCROLL}If you have a wish too, go touch the{NEWLINE}Red Star and pray. It might come true.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "天降红星 = the Fallen Red Star (Deoxys's meteorite)."
+  },
+  {
+   "id": 84,
+   "zh": "六之岛虽然有群岛最肥沃的土壤,{NEWLINE}但百年以前六之岛的生存文化{CLEAR}却是以出海抢劫、打渔为生。{CLEAR}虽然随着精灵联盟的入主,{CLEAR}这里开始发展旅游业,{CLEAR}但受制于不事耕作的传统,{CLEAR}六之岛并没有什么拿得出手的特产。",
+   "en": "Six Island has the richest soil in the{NEWLINE}islands. But a hundred years ago, its{CLEAR}people lived by piracy and fishing.{CLEAR}When the Pokémon League came, tourism{CLEAR}began to grow here.{CLEAR}But with no tradition of farming, Six{CLEAR}Island has no specialties worth{CLEAR}mentioning.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "六之岛有什么传说？",
+   "en": "Any legends here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 86,
+   "zh": "六之岛最古老的传说{NEWLINE}是关于幸福的喵喵神的传说,{CLEAR}传说当喵喵神来到岛上后,{CLEAR}岛民们即使不用出海抢劫打渔,{CLEAR}也能获得大量的财富。{SCROLL}后来天降红色流星后,{NEWLINE}岛上又开始兴起{CLEAR}触摸红星就能交到好运的传说。",
+   "en": "The oldest legend on Six Island is the{NEWLINE}legend of the Lucky Meowth God.{SCROLL}They say that once the Meowth God came{NEWLINE}to the island, the islanders grew rich{SCROLL}without having to go raiding or fishing.{SCROLL}Later, after the red meteor fell, a new{NEWLINE}legend sprang up: touch the Red Star,{SCROLL}and good luck will come your way.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "幸福的喵喵神 = the Lucky Meowth God (it turns out to be Team Rocket's Meowth)."
+  },
+  {
+   "id": 87,
+   "zh": "哎呀,是冠军大人啊,{NEWLINE}欢迎来到六之岛,{CLEAR}请问您要在这里歇歇脚吗？{CLEAR}免费的哦！",
+   "en": "Oh my, it’s the Champion! Welcome to Six{NEWLINE}Island!{CLEAR}Would you like to rest your feet here?{CLEAR}It’s free!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "切,浪费口水。",
+   "en": "Tch. What a waste of breath.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "好,那你自己找个地方{NEWLINE}躺下睡一觉吧。",
+   "en": "All right, go find yourself a spot and lie{NEWLINE}down for a nap.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "我现在开始认真当导游了哦,{NEWLINE}请问冠军大人有什么需要的吗？",
+   "en": "I’ll do my job properly as a guide now.{NEWLINE}What can I do for you, Champion?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "欢迎常来我们六之岛玩啊！",
+   "en": "Come visit Six Island again soon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "现在六之岛最出名的景点,{NEWLINE}当属幸福的喵喵神了。{CLEAR}许多游客慕名来到六之岛,{CLEAR}希望通过被喵喵神触摸,{CLEAR}实现自己的愿望。{CLEAR}并且许多游客为了让许愿更加灵验,{CLEAR}还会购买岛上生产的许愿金币。{CLEAR}这可是六之岛旅游业的收入支柱哦！",
+   "en": "These days, Six Island’s most famous{NEWLINE}attraction is the Lucky Meowth God.{CLEAR}Lots of tourists come hoping the Meowth{CLEAR}God’s touch will make their wishes come{CLEAR}true.{CLEAR}Many also buy the Wishing Coins made{CLEAR}here, to give their wishes more power.{CLEAR}They’re the backbone of Six Island’s{CLEAR}tourist trade!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "嘿嘿,自从幸福的喵喵神来到岛上后,{NEWLINE}喵喵神的护法就命令我们{CLEAR}利用岛上优质的土壤栽培树果,{CLEAR}然后护法们联系外面的公司{CLEAR}收购我们的树果。{CLEAR}原本什么特产都没有的六之岛,{CLEAR}现在变成了全国的树果生产基地了哦！{SCROLL}冠军大人旅行中也需要不少树果吧？{NEWLINE}要买一点我们六之岛的{CLEAR}特产树果带回去吗？",
+   "en": "Heh heh. Ever since the Lucky Meowth{NEWLINE}God came, its guardians have had us{SCROLL}grow Berries in the island’s rich soil.{SCROLL}Then the guardians get outside{NEWLINE}companies to buy up our Berries.{SCROLL}Six Island used to have no specialties{NEWLINE}at all.{SCROLL}Now it’s the Berry farm of the whole{NEWLINE}country!{SCROLL}You must need lots of Berries on your{NEWLINE}travels, Champion.{SCROLL}Want to take home some of Six Island’s{NEWLINE}specialty Berries?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "护法 = guardians (the Meowth God's attendants)."
+  },
+  {
+   "id": 94,
+   "zh": "原本六之岛有许多传说,{NEWLINE}但自从幸福的喵喵神来到之后,{CLEAR}六之岛从今往后就只有一个传说了。{CLEAR}那就是因为喵喵神的出现,{CLEAR}六之岛的人们重新过上了富足的生活,{CLEAR}不再是靠海上抢劫、打渔,{CLEAR}而是通过自己的双手辛勤劳动,{CLEAR}过上了幸福的生活！",
+   "en": "Six Island used to have lots of legends.{NEWLINE}But since the Lucky Meowth God arrived,{CLEAR}there’s only one.{CLEAR}Thanks to the Meowth God, the people of{CLEAR}Six Island live well again.{CLEAR}Not by piracy and fishing, but through{CLEAR}honest work with their own two hands!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "奇迹果,1000元",
+   "en": "Lum Berry, $1000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 96,
+   "zh": "PP果,1000元",
+   "en": "Leppa Berry, $1000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 97,
+   "zh": "大树果,1000元",
+   "en": "Sitrus Berry, $1000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 98,
+   "zh": "这是您的树果,请拿好。",
+   "en": "Here are your Berries.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "对不起啊冠军大人,{NEWLINE}您身上带的钱不够。",
+   "en": "Sorry, Champion. You don’t have enough{NEWLINE}money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "冠军大人还需要点别的吗？",
+   "en": "Anything else I can get you, Champion?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "看你的样子{NEWLINE}也是来六之岛的游客吧？{CLEAR}能来到这里,{CLEAR}说明你也接触过不少六之岛的居民,{CLEAR}你觉得六之岛的人怎么样呢？",
+   "en": "You look like a tourist visiting Six{NEWLINE}Island too.{CLEAR}If you’ve made it this far, you must{CLEAR}have met plenty of the locals.{CLEAR}What do you think of the people here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "我不喜欢这里的风气",
+   "en": "I don’t like how they act",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 103,
+   "zh": "我很喜欢这种做派",
+   "en": "I like their style",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 104,
+   "zh": "你还是问别人吧",
+   "en": "Ask someone else",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 105,
+   "zh": "没错,对于初到这里的游客来说,{NEWLINE}岛民的这种习俗作风很难让人接受。{CLEAR}但是你知道吗,{CLEAR}在50年前我初次登岛的时候,{CLEAR}这里的人直接就上来抢我的财物。{CLEAR}幸好当时我和快唦蛙奋起反抗,{CLEAR}他们才给了我一个求生的机会,{CLEAR}让我选一个对手进行精灵对战,{CLEAR}赢了就能带着财物平安离开。{CLEAR}幸好我的对手故意让他的帝牙海狮{CLEAR}露出破绽输给了我。{CLEAR}我才得以平安离开六之岛。{SCROLL}现在的六之岛虽然也还有很多问题,{NEWLINE}可是已经比50年前文明太多了。{CLEAR}社会的变迁不是一朝一夕,{CLEAR}它往往是一个漫长的过程,{CLEAR}希望你也能对六之岛抱有信心。",
+   "en": "Right. For a newcomer, the islanders’{NEWLINE}customs and ways are hard to accept.{SCROLL}But you know what? When I first came{NEWLINE}here 50 years ago, the locals walked{SCROLL}right up and tried to rob me.{SCROLL}Luckily, Poliwrath and I fought back,{NEWLINE}and they gave me a way out.{SCROLL}If I won a Pokémon battle against an{NEWLINE}opponent of my choice, I could go free.{SCROLL}Turns out my opponent had his Walrein{NEWLINE}slip up on purpose and let me win.{SCROLL}That’s how I got off Six Island in one{NEWLINE}piece.{SCROLL}Six Island still has problems, but it’s{NEWLINE}far better than 50 years ago.{SCROLL}Society doesn’t change overnight. It’s{NEWLINE}often a long process.{SCROLL}I hope you’ll have faith in Six Island{NEWLINE}too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "哈哈,那看来你应该{NEWLINE}是个很直爽的人。{CLEAR}其实对于初到这里的游客来说,{CLEAR}绝大多数人都不习惯岛上的习俗作风。{CLEAR}但是你知道吗,{CLEAR}在50年前我初次登岛的时候,{CLEAR}这里的人直接就上来抢我的财物。{CLEAR}幸好当时我和快唦蛙奋起反抗,{CLEAR}他们才给了我一个求生的机会,{CLEAR}让我选一个对手进行精灵对战,{CLEAR}赢了就能带着财物平安离开。{CLEAR}幸好我的对手故意让他的帝牙海狮{CLEAR}露出破绽输给了我。{CLEAR}我才得以平安离开六之岛。{SCROLL}现在的六之岛虽然也还有很多问题,{NEWLINE}可是已经比50年前文明太多了。{CLEAR}社会的变迁不是一朝一夕,{CLEAR}它往往是一个漫长的过程,{CLEAR}希望你也能对六之岛抱有信心。",
+   "en": "Ha ha, you must be a straight shooter,{NEWLINE}then. Actually, most newcomers aren’t{SCROLL}used to the island’s ways.{SCROLL}But you know what? When I first came{NEWLINE}here 50 years ago, the locals walked{SCROLL}right up and tried to rob me.{SCROLL}Luckily, Poliwrath and I fought back,{NEWLINE}and they gave me a way out.{SCROLL}If I won a Pokémon battle against an{NEWLINE}opponent of my choice, I could go free.{SCROLL}Turns out my opponent had his Walrein{NEWLINE}slip up on purpose and let me win.{SCROLL}That’s how I got off Six Island in one{NEWLINE}piece.{SCROLL}Six Island still has problems, but it’s{NEWLINE}far better than 50 years ago.{SCROLL}Society doesn’t change overnight. It’s{NEWLINE}often a long process.{SCROLL}I hope you’ll have faith in Six Island{NEWLINE}too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "幸福的喵喵神真是了不起啊,{NEWLINE}居然能在一夜之间{CLEAR}让六之岛发生这么大的变化。",
+   "en": "The Lucky Meowth God is amazing. It{NEWLINE}changed Six Island so much, practically{CLEAR}overnight.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "快唦蛙『Poooo——li！",
+   "en": "Poliwrath: Poooo-li!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "帝牙海狮『Waaa——rei！",
+   "en": "Walrein: Waaa-rei!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "欢迎来到六之岛,{NEWLINE}我是六之岛的岛主。{CLEAR}目前天降红星景点{CLEAR}已经被一个科研组包场了。{CLEAR}不过只要研究员们不介意,{CLEAR}你就随时可以去看天降红星。",
+   "en": "Welcome to Six Island. I’m the island{NEWLINE}chief.{CLEAR}Right now, a research team has booked{CLEAR}the whole Fallen Red Star site.{CLEAR}But as long as the researchers don’t{CLEAR}mind, you’re free to go see it anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "岛主 = island chief."
+  },
+  {
+   "id": 111,
+   "zh": "冠军大人,你的六之岛巡礼考验{NEWLINE}已经结束了。{CLEAR}请尽快完成巡礼{CLEAR}然后帮我们找回代欧奇希斯吧！",
+   "en": "Champion, your Six Island trial is over.{CLEAR}Please finish the pilgrimage quickly and{NEWLINE}help us get Deoxys back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "在这个时候来找我,{NEWLINE}你也是来参加诸岛巡礼的吗？",
+   "en": "Coming to see me at a time like this...{NEWLINE}Are you here for the pilgrimage too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "不是的话就去别的地方玩吧,{NEWLINE}诸岛巡礼期间我可是忙得很呢。",
+   "en": "If not, go have fun somewhere else. I’m{NEWLINE}very busy during the Island Pilgrimage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "那么我现在向你{NEWLINE}说明六之岛巡礼的规则：{CLEAR}使用巨牙鲨、地震鲶鱼、铁螯龙虾{CLEAR}这三只精灵击败我,{CLEAR}就算你通过了六之岛的巡礼挑战。{CLEAR}或者你也可以直接给我5万块,{CLEAR}也算你通过挑战。{CLEAR}你想选哪个？",
+   "en": "Then let me explain the rules of the Six{NEWLINE}Island Pilgrimage.{CLEAR}Beat me using these three Pokémon:{CLEAR}Sharpedo, Whiscash and Crawdaunt.{CLEAR}Do that, and you pass the Six Island{CLEAR}trial.{CLEAR}Or you can just give me $50,000, and{CLEAR}that counts as passing too.{CLEAR}Which will it be?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "number_missing"
+   ]
+  },
+  {
+   "id": 115,
+   "zh": "我要战斗",
+   "en": "I’ll battle",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 116,
+   "zh": "给你钱吧",
+   "en": "I’ll pay",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 117,
+   "zh": "我再想想",
+   "en": "I’ll think about it",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 118,
+   "zh": "{VAR:0103:0}『我不想费那么多事,{NEWLINE}还是直接给你钱吧。",
+   "en": "{VAR:0103:0}: I don’t want to go to all that{NEWLINE}trouble. I’ll just pay you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "看不出来你还挺年少多金的,{NEWLINE}你这样的人将来一定大有可为,{CLEAR}六之岛的巡礼挑战就算你……",
+   "en": "Well, well. Young and loaded, huh?{NEWLINE}Someone like you is sure to go far.{CLEAR}Consider your Six Island trial pass...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "你在玩我呢？{NEWLINE}你身上根本就没有这么多钱！",
+   "en": "Are you messing with me? You don’t have{NEWLINE}anywhere near that much money!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "{VAR:0103:0}『我要用精灵{NEWLINE}堂堂正正地击败你,{CLEAR}请与我对战吧！",
+   "en": "{VAR:0103:0}: I’ll beat you fair and square{NEWLINE}with my Pokémon. Battle me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "别着急,别着急。{NEWLINE}我先检查一下你的精灵啊……",
+   "en": "Easy, easy. Let me check your Pokémon{NEWLINE}first...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "你带的精灵不符合规定,{NEWLINE}整理好队伍再来吧。",
+   "en": "Your Pokémon don’t meet the rules.{NEWLINE}Sort out your party and come back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "好,精灵没有问题。{SCROLL}不过像你这样信心满满的挑战者,{NEWLINE}我很久都没见到了。{CLEAR}看来终于可以久违地活动一下筋骨了。",
+   "en": "All right, let’s see...{SCROLL}Your Pokémon check out.{SCROLL}It’s been ages since I’ve seen a{NEWLINE}challenger this confident.{SCROLL}Looks like I get to stretch my legs at{NEWLINE}last.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 125,
+   "zh": "很不错嘛年轻人,{NEWLINE}恭喜你通过六之岛的……",
+   "en": "Not bad, youngster. Congratulations on{NEWLINE}passing the Six Island...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "以前六之岛还能靠{NEWLINE}天降红星这个景点收个门票钱,{CLEAR}现在天降红星变成代欧奇希斯{CLEAR}被火箭队抢走了。{CLEAR}唉,以后六之岛岛民吃什么啊。",
+   "en": "Six Island used to make some ticket{NEWLINE}money off the Fallen Red Star.{CLEAR}But the Red Star turned out to be{CLEAR}Deoxys, and Team Rocket stole it.{CLEAR}Sigh... How are we islanders going to{CLEAR}make a living now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 127,
+   "zh": "我曾经在阿鲁夫遗迹{NEWLINE}跟秀力博士学习过,{CLEAR}根据我从博士那学到的知识{CLEAR}和我在水都群岛了解的传说,{CLEAR}我拼凑出了一个更加完整的{CLEAR}关于圣柱王的传说。{CLEAR}你想听听吗？",
+   "en": "I once studied under Professor Hale at{NEWLINE}the Ruins of Alph.{CLEAR}I’ve pieced together what I learned{CLEAR}from him with the legends of the Alto{CLEAR}Mare Islands.{CLEAR}The result is a more complete version of{CLEAR}the legend of Regigigas. Want to hear{CLEAR}it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "秀力博士 = Professor Hale (Spencer Hale, Movie 3; JP Shurī)."
+  },
+  {
+   "id": 128,
+   "zh": "关于圣柱王移动大陆的传说,{NEWLINE}据我的考察,{CLEAR}应该是圣柱王将一小片土地{CLEAR}拖离了关东大陆,{CLEAR}被圣柱王拖走的这块土地{CLEAR}最终地形成了今天的水都群岛。{CLEAR}当圣柱王拖着土地离开大陆的时候,{CLEAR}它创造了岩神柱、冰神柱、钢神柱{CLEAR}作为自己的分身,{CLEAR}代替自己守护关东大陆。{SCROLL}一直以来都以守护神身份{NEWLINE}居住在大陆的圣柱王,{CLEAR}却毅然离开大陆来守护这片小岛。{CLEAR}说明这片小岛上{CLEAR}一定有什么值得被守护的东西。{CLEAR}最终我将目光锁定在了{CLEAR}七之岛的神器祠堂这里,{CLEAR}我觉得传说中放在神器祠堂里,{CLEAR}但又看不见摸不着的那个神器,{CLEAR}一定就是圣柱王在守护的东西。{SCROLL}我还做了关于唤醒圣柱王的研究,{NEWLINE}你有兴趣了解吗？",
+   "en": "The legend says Regigigas moved{NEWLINE}continents.{SCROLL}From my research, Regigigas dragged a{NEWLINE}small piece of land away from Kanto.{SCROLL}That land eventually became today’s{NEWLINE}Alto Mare Islands.{SCROLL}When Regigigas hauled the land away, it{NEWLINE}created Regirock, Regice and Registeel.{SCROLL}They are its avatars, guarding the{NEWLINE}Kanto mainland in its place.{SCROLL}Regigigas had always lived on the{NEWLINE}mainland as its guardian deity. Yet it{SCROLL}left to guard these little islands.{SCROLL}That means there must be something{NEWLINE}here worth protecting.{SCROLL}In the end, I set my sights on the Relic{NEWLINE}Shrine on Seven Island.{SCROLL}Legend says a relic no one can see or{NEWLINE}touch is kept inside the shrine.{SCROLL}I believe that relic must be what{NEWLINE}Regigigas is protecting.{SCROLL}I’ve also researched how to awaken{NEWLINE}Regigigas. Want to hear about it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "神器祠堂 = Relic Shrine; 神器 = relic."
+  },
+  {
+   "id": 129,
+   "zh": "从我的研究结果来看,{NEWLINE}如果把那个不知名的神器从祠堂带走,{CLEAR}圣柱王一定会为了守护神器而现身。{SCROLL}从口袋妖怪能量的角度分析,{NEWLINE}如果带着三神柱去神器祠堂,{CLEAR}圣柱王应该就会感应到自己的分身,{CLEAR}从神奇祠堂中苏醒过来。{SCROLL}虽然这些都是基于现有资料的推论,{NEWLINE}还没有经过实践验证,{CLEAR}但我觉得应该已经非常接近真相了。",
+   "en": "According to my findings, if that{NEWLINE}unknown relic were taken from the{SCROLL}shrine, Regigigas would surely appear to{NEWLINE}protect it.{SCROLL}In terms of Pokémon energy, if you{NEWLINE}bring the three Regis to the Relic{SCROLL}Shrine, Regigigas should sense its{NEWLINE}avatars.{SCROLL}Then it would awaken inside the shrine.{SCROLL}All this is theory from the records we{NEWLINE}have. It hasn’t been tested yet.{SCROLL}But I think it’s very close to the{NEWLINE}truth.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh typo 神奇祠堂 = 神器祠堂."
+  },
+  {
+   "id": 130,
+   "zh": "我不喜欢大城市里{NEWLINE}那种喧嚣的生活,{CLEAR}所以搬回了水都群岛跟母亲一起住。",
+   "en": "I don’t like the hustle and bustle of{NEWLINE}big-city life.{CLEAR}So I moved back to the Alto Mare{CLEAR}Islands to live with my mother.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 131,
+   "zh": "老奶奶,我的珍珠贝{NEWLINE}贝壳里的珍珠不见了,{CLEAR}它现在因为壳里没有珍珠而非常焦虑。{CLEAR}我听说您这有一颗大珍珠,{CLEAR}我能借您的大珍珠{CLEAR}给我的珍珠贝用一下吗？",
+   "en": "Granny, the pearl in my Clamperl’s shell{NEWLINE}is gone. Without it, Clamperl is really{CLEAR}anxious.{CLEAR}I heard you have a Big Pearl.{CLEAR}Could I borrow it for my Clamperl?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 132,
+   "zh": "哎呀呀,精灵有问题可不是小事,{NEWLINE}一颗大珍珠算什么,{CLEAR}你尽管拿去用就是。",
+   "en": "Oh my, oh my. A Pokémon in trouble is no{NEWLINE}small matter!{CLEAR}What’s a Big Pearl next to that? Go on,{CLEAR}take it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 133,
+   "zh": "谢谢老奶奶,{NEWLINE}真的非常感谢！{CLEAR}我现在就带珍珠贝去海边治疗。{CLEAR}回头再来好好谢谢您。",
+   "en": "Thank you, Granny! Thank you so much!{CLEAR}I’ll take Clamperl to the shore for{NEWLINE}treatment right away. I’ll come back{CLEAR}and thank you properly later.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 134,
+   "zh": "珍珠贝『Claaa——per！",
+   "en": "Clamperl: Claaa-per!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 135,
+   "zh": "我小时候啊,可是吃了不少苦。{NEWLINE}所以现在就见不得别人吃苦受罪,{CLEAR}如果谁有什么需要帮助的地方,{CLEAR}我是能帮就帮的。",
+   "en": "I had a hard time of it when I was{NEWLINE}little.{CLEAR}So now I can’t bear to see anyone else{CLEAR}suffer.{CLEAR}If someone needs help, I help however I{CLEAR}can.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 136,
+   "zh": "你是一个主持公道、乐于助人的人,{NEWLINE}要是人人都能像你一样就好了。",
+   "en": "You stand up for what’s right and love{NEWLINE}helping others.{SCROLL}If only everyone were like you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 137,
+   "zh": "要把大珍珠还给老奶奶吗？",
+   "en": "Return the Big Pearl to the old lady?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 138,
+   "zh": "你身上没有大珍珠！",
+   "en": "You don’t have a Big Pearl!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 139,
+   "zh": "{VAR:0103:0}『老奶奶,{NEWLINE}那个问你借大珍珠的女孩,{CLEAR}她的珍珠贝其实没有事,{CLEAR}她是为了骗你的大珍珠才那么说的。{CLEAR}我现在帮你把大珍珠拿回来了,{CLEAR}你以后可得小心点,{CLEAR}别再上人家的当了。",
+   "en": "{VAR:0103:0}: Granny, that girl who{NEWLINE}borrowed your Big Pearl? Her Clamperl{CLEAR}was fine. She made it all up to trick you{CLEAR}out of your pearl. I got your Big Pearl{CLEAR}back for you. Please be careful from{CLEAR}now on, and don’t get fooled again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-010"
+  },
+  {
+   "id": 140,
+   "zh": "哦,哦。原来没有精灵生病啊。{NEWLINE}这是好事,好事啊。",
+   "en": "Oh, oh. So no Pokémon was sick after{NEWLINE}all? Well, that’s good. Good news.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "确实是什么事都没有",
+   "en": "True, nothing bad happened",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 142,
+   "zh": "可是有坏人在行骗啊",
+   "en": "But someone was scamming you",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 143,
+   "zh": "{VAR:0103:0}『确实,什么事都没有,{NEWLINE}倒也不坏。",
+   "en": "{VAR:0103:0}: True. Nothing bad happened,{NEWLINE}and that’s not so bad.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 144,
+   "zh": "哈哈,对吧。年轻人看开一点,{NEWLINE}生活才能充满阳光。{SCROLL}哦,还有你帮我拿回的那颗大珍珠,{NEWLINE}反正我也用不到了,{CLEAR}就当做是你热心助人的谢礼,{CLEAR}送给你做个纪念吧。",
+   "en": "Ha ha, right? Young folks should look on{NEWLINE}the bright side. Keeps life sunny.{SCROLL}Oh, and that Big Pearl you got back for{NEWLINE}me? I’ve no use for it anyway.{SCROLL}Keep it as thanks for your kindness, as{NEWLINE}a little keepsake.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 145,
+   "zh": "{VAR:0103:0}『是没有精灵生病,{NEWLINE}可是有坏人在行骗,{CLEAR}有好人被伤害啊。{CLEAR}这可不是什么好事吧。",
+   "en": "{VAR:0103:0}: No Pokémon was sick, but{NEWLINE}someone was scamming people, and a good{CLEAR}person got hurt.{CLEAR}That’s not good news at all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "可是那个坏人{NEWLINE}不是被你打倒了吗？{CLEAR}所以万事大吉,万事大吉啦,哈哈。{SCROLL}对了,还有你帮我拿回的那颗大珍珠,{NEWLINE}反正我也用不到了,{CLEAR}就当做是你热心助人的谢礼,{CLEAR}送给你做个纪念吧。",
+   "en": "But you beat that bad person, didn’t{NEWLINE}you? So all’s well that ends well! Ha ha.{SCROLL}Oh, and that Big Pearl you got back for{NEWLINE}me? I’ve no use for it anyway.{SCROLL}Keep it as thanks for your kindness, as{NEWLINE}a little keepsake.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 147,
+   "zh": "外面……外面有一伙人要抢天降红星,{NEWLINE}我抵挡不住被打败了,{CLEAR}您快过去看看吧！",
+   "en": "Outside... There’s a gang outside{NEWLINE}trying to steal the Fallen Red Star!{CLEAR}I tried to stop them, but I lost.{CLEAR}Please, go take a look!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 148,
+   "zh": "什么！？{NEWLINE}有人想抢我们六之岛的宝贝？{CLEAR}这么多年来,{CLEAR}头一次听说有人敢来六之岛抢东西,{CLEAR}真是好大的胆啊！",
+   "en": "What?! Someone wants to steal Six{NEWLINE}Island’s treasure?{CLEAR}In all these years, I’ve never heard of{CLEAR}anyone daring to rob Six Island.{CLEAR}What nerve!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 149,
+   "zh": "老朋友,你应该也听到了,{NEWLINE}现在岛上来了敌人要抢天降红星,{CLEAR}我需要你跟我一起去教训教训{CLEAR}这帮不知天高地厚的混蛋,{CLEAR}没问题吧？",
+   "en": "Old friend, you must have heard.{NEWLINE}Enemies have come to steal the Fallen{CLEAR}Red Star. I need you to come with me{CLEAR}and teach those arrogant bastards a{CLEAR}lesson. You’re in, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 150,
+   "zh": "那当然了,你的事就是我的事。",
+   "en": "Of course. Your business is my business.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 151,
+   "zh": "好,我就知道你靠得住。{NEWLINE}咱们走！",
+   "en": "Good. I knew I could count on you.{NEWLINE}Let’s go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 152,
+   "zh": "不、不好了,岛主大人！",
+   "en": "Ch-Chief! We’ve got trouble!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 153,
+   "zh": "冠军大人来六之岛也有段时间了吧？{NEWLINE}你应该也接触过不少六之岛的居民,{CLEAR}你觉得六之岛的人怎么样呢？",
+   "en": "You’ve been on Six Island a while now,{NEWLINE}Champion.{CLEAR}You must have met plenty of the locals.{CLEAR}What do you think of the people here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 154,
+   "zh": "根据传说,幸福的喵喵神{NEWLINE}就生活在水都群岛。{CLEAR}你快去把它找来,{CLEAR}不然就赔我一个亿！",
+   "en": "Legend says the Lucky Meowth God lives{NEWLINE}in the Alto Mare Islands.{CLEAR}Go find it and bring it here, or pay me a{CLEAR}hundred million!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 155,
+   "zh": "今后有幸福的喵喵神带领我们,{NEWLINE}一定可以过上富裕的生活。",
+   "en": "With the Lucky Meowth God to lead us,{NEWLINE}we’re sure to live rich lives now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 156,
+   "zh": "喵喵『我不会聚宝功啊喵,{NEWLINE}得想点别的办法帮这里的人搞钱才行,{CLEAR}不然被穿帮的话可就糟了喵。",
+   "en": "Meowth: I can’t even use Pay Day,{NEWLINE}meow!{CLEAR}I gotta find some other way to make{CLEAR}these folks money, or they’ll see right{CLEAR}through me, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 157,
+   "zh": "武藏『有个地方住我是很开心,{NEWLINE}但是看到喵喵这样春风得意,{CLEAR}心里还是有点不爽啊。",
+   "en": "Jessie: I’m glad to have a roof over my{NEWLINE}head, but seeing Meowth riding so high{CLEAR}still kind of bugs me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 158,
+   "zh": "小次郎『我和武藏现在看到喵喵的心态,{NEWLINE}大概就是又怕兄弟苦,{CLEAR}又怕兄弟开路虎。",
+   "en": "James: How Jessie and I feel about{NEWLINE}Meowth right now...{CLEAR}We’d hate to see our pal go broke, but{CLEAR}we’d hate even more to see him strike it{CLEAR}rich.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Meme 又怕兄弟苦，又怕兄弟开路虎 adapted."
+  },
+  {
+   "id": 159,
+   "zh": "前些日子岛上跑来一只{NEWLINE}会说人话的喵喵,{CLEAR}它应该就是幸福的喵喵神了！",
+   "en": "A while back, a Meowth that talks like a{NEWLINE}human showed up on the island.{CLEAR}It must be the Lucky Meowth God!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

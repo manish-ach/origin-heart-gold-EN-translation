@@ -1,0 +1,375 @@
+{
+ "narc": "a027",
+ "bank": 131,
+ "source": "work/extract/v4/a027/0131.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "这里是度假区的挑战台,{NEWLINE}每到周末就会举行情侣双打比赛。{CLEAR}必须要以情侣组队的方式{CLEAR}才能报名参赛。{CLEAR}所以如果你想参赛的话,{CLEAR}就请带女朋友一起来吧！",
+   "en": "This is the Resort Zone’s challenge{NEWLINE}stage. Every weekend it hosts the{CLEAR}Couples Double Battle.{SCROLL}You can only enter as a couple, so if{NEWLINE}you want to take part, bring your{CLEAR}girlfriend along!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack’s Resort Zone (度假区) replaces the vanilla Safari Zone gate map. #0/#1: girlfriend/boyfriend by player gender."
+  },
+  {
+   "id": 1,
+   "zh": "这里是度假区的挑战台,{NEWLINE}每到周末就会举行情侣双打比赛。{CLEAR}必须要以情侣组队的方式{CLEAR}才能报名参赛。{CLEAR}所以如果你想参赛的话,{CLEAR}就请带男朋友一起来吧！",
+   "en": "This is the Resort Zone’s challenge{NEWLINE}stage. Every weekend it hosts the{CLEAR}Couples Double Battle.{SCROLL}You can only enter as a couple, so if{NEWLINE}you want to take part, bring your{CLEAR}boyfriend along!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "欢迎！{NEWLINE}要买东西是吧？{SCROLL}",
+   "en": "Welcome! Looking to buy something?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags page_breaks_lost; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 3,
+   "zh": "这里是休闲之家{SCROLL}如果需要休息就请进来吧！",
+   "en": "Leisure House{SCROLL}If you need a rest, please come in!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "毽子棉『Juuu——plu！",
+   "en": "Jumpluff: Juuu-plu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "袋龙『Kaaa——ga！",
+   "en": "Kangaskhan: Kaaa-ga!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "度假区的位置这么偏,{NEWLINE}我和老头子一路走过来{CLEAR}还真是不容易呢。",
+   "en": "The Resort Zone is so out of the way.{NEWLINE}It wasn’t easy for my old man and me to{CLEAR}walk all the way here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "听说这里有情侣双打比赛,{NEWLINE}不知道我们这样的老两口{CLEAR}能不能报名参加呢。",
+   "en": "I heard there’s a Couples Double Battle{NEWLINE}here. I wonder if an old married pair{CLEAR}like us can enter.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "前面是野生精灵的栖息地,{NEWLINE}为了保护度假区周围的生态,{CLEAR}后面的草丛禁止游客进入。{CLEAR}如果你想捕捉精灵,{CLEAR}请去度假区北面的联动公园。",
+   "en": "Ahead is a wild Pokémon habitat.{SCROLL}To protect the wildlife around the{NEWLINE}Resort Zone, visitors may not enter the{CLEAR}grass beyond.{SCROLL}If you want to catch Pokémon, please go{NEWLINE}to the Pal Park, north of here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "度假区的风景这么好,{NEWLINE}将来一定能成为超过月见山{CLEAR}和自然公园的约会圣地！",
+   "en": "The scenery at the Resort Zone is so{NEWLINE}lovely. It’s sure to become a better{CLEAR}date spot than Mt. Moon or the National{CLEAR}Park someday!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "我为了来度假特地买了新裙子,{NEWLINE}怎么样,跟这里的景色很搭吧？",
+   "en": "I bought a new dress just for this{NEWLINE}vacation. What do you think? Goes great{CLEAR}with the scenery, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "本来想买点度假区特产带回去的,{NEWLINE}可是一看价格都好贵啊……",
+   "en": "I wanted to buy some Resort Zone{NEWLINE}souvenirs to take home, but one look at{CLEAR}the prices... Yikes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "度假区餐厅里有各种美味的小吃,{NEWLINE}味道真的不错！",
+   "en": "The Resort Zone restaurant has all{NEWLINE}sorts of tasty snacks. So good!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "我要是能变成巴大蝴,{NEWLINE}就可以飞往世界各地去旅游了。",
+   "en": "If I were a Butterfree, I could fly{NEWLINE}around the world on vacation.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "巴大蝴『Buuu——te！",
+   "en": "Butterfree: Buuu-te!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "在情侣双打比赛中胜出的情侣,{NEWLINE}可以携手走到北面那个{CLEAR}布满鲜花的平台{CLEAR}接收大家的祝福哦。",
+   "en": "The couple that wins the Couples Double{NEWLINE}Battle gets to walk hand in hand up to{CLEAR}the flower-covered stage to the north{CLEAR}and receive everyone’s blessings!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "为了让我的超能力进一步提升,{NEWLINE}我特地来到这个风水宝地修行。{CLEAR}你如果有时间的话,{CLEAR}陪我来一场修行对战如何？",
+   "en": "I came to this spot with great feng shui{NEWLINE}to train and push my psychic powers{CLEAR}even further. If you have time, how{CLEAR}about a training battle with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "这里是度假区{SCROLL}为您提供轻松愉快的休闲体验！",
+   "en": "Resort Zone{SCROLL}Your getaway for rest and relaxation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "你希望单打还是双打？",
+   "en": "Would you like a Single Battle or a{NEWLINE}Double Battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags page_breaks_lost"
+  },
+  {
+   "id": 19,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 20,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 21,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 22,
+   "zh": "我会认真对待每一次修行,{NEWLINE}请你也认真应战哦。",
+   "en": "I take every training session seriously.{NEWLINE}Please battle seriously too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "哎呀,你的意志力好强啊。",
+   "en": "Oh my, your willpower is so strong.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "双打的话要至少带两只精灵！",
+   "en": "You need at least two Pokémon for a{NEWLINE}Double Battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "这么好一片水,{NEWLINE}里面一定有很多鱼。{CLEAR}可惜堤岸建的有点高,{CLEAR}根本没法甩竿下去。",
+   "en": "Such a nice stretch of water. There{NEWLINE}must be lots of fish in it. Too bad the{CLEAR}embankment is built so high, I can’t{CLEAR}even cast my line.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "在情侣双打比赛上拿了冠军的话,{NEWLINE}度假区饭店的食物可以免费吃到饱。{CLEAR}为了一家三口的这顿大餐,{CLEAR}我和丈夫一定要在比赛中夺冠！",
+   "en": "If we win the Couples Double Battle, the{NEWLINE}Resort Zone restaurant lets us eat all{CLEAR}we want for free. For our family of{CLEAR}three’s big feast, my husband and I are{CLEAR}going to win this thing!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "来度假区玩喽！哦哦！",
+   "en": "We’re at the Resort Zone! Woo-hoo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "看到这里的火把没,{NEWLINE}那可都是我用喷火之技点燃的。{CLEAR}怎么样,是不是很帅啊？",
+   "en": "See these torches? I lit every one of{NEWLINE}them with my fire-breathing trick.{CLEAR}Pretty cool, huh?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "欢迎来到度假区！{NEWLINE}前面是我们度假区的游乐场所{CLEAR}——联动公园。{SCROLL}在那里您可以捕捉到{NEWLINE}城都地区几乎遇不到的稀有精灵,{CLEAR}请进去看看吧！",
+   "en": "Welcome to the Resort Zone! Up ahead is{NEWLINE}our main attraction, the Pal Park.{SCROLL}There you can catch rare Pokémon you{NEWLINE}almost never see in Johto. Please go{CLEAR}take a look!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "嘿嘿,我要让儿子好好看看{NEWLINE}我们夫妻在情侣双打比赛中的英姿。",
+   "en": "Heh heh, I want our son to see how{NEWLINE}awesome his mom and dad look in the{CLEAR}Couples Double Battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "好想要芳缘地区的宝贝龙啊,{NEWLINE}你如果有的话{CLEAR}跟我的煤炭龟交换怎么样？",
+   "en": "I really want a Bagon from Hoenn. If{NEWLINE}you have one, how about trading it for{CLEAR}my Torkoal?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "果然人人都想要宝贝龙。",
+   "en": "I guess everyone wants a Bagon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "哈哈,有了宝贝龙,{NEWLINE}我就是同学中最厉害的了！",
+   "en": "Ha ha! With a Bagon, I’ll be the{NEWLINE}toughest kid in my class!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "多谢惠顾。",
+   "en": "Thank you for your business.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 35,
+   "zh": "万能药,600元",
+   "en": "Full Heal, $600",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 36,
+   "zh": "苏打饮料,1000元",
+   "en": "Soda Pop, $1000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 37,
+   "zh": "技能机01：真气拳,7000元",
+   "en": "TM01 Focus Punch, $7000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 38,
+   "zh": "狩猎球,1500元",
+   "en": "Safari Ball, $1500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 39,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 40,
+   "zh": "对不起啊客人,{NEWLINE}您带的钱好像不够。",
+   "en": "Sorry, it looks like you don’t have{NEWLINE}enough money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 41,
+   "zh": "请问还有什么可以帮您的吗？{SCROLL}",
+   "en": "Is there anything else I can help you{NEWLINE}with?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), flags page_breaks_lost; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 42,
+   "zh": "好的,给你,{NEWLINE}谢谢惠顾。",
+   "en": "Here you go. Thank you for your{NEWLINE}business.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 43,
+   "zh": "这里是联动公园{SCROLL}快来捕捉稀有精灵吧！",
+   "en": "Pal Park{SCROLL}Come catch rare Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "我想要宝贝龙,其他精灵不行的。",
+   "en": "I want a Bagon. No other Pokémon will{NEWLINE}do.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

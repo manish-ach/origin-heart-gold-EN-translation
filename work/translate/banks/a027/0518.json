@@ -1,0 +1,367 @@
+{
+ "narc": "a027",
+ "bank": 518,
+ "source": "work/extract/v4/a027/0518.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "渡『{VAR:0103:0},当听说你打败坂木{NEWLINE}揭穿他火箭队老大身份的时候,{CLEAR}整个精灵联盟都非常震惊。{SCROLL}渡『既惊讶于坂木馆主{NEWLINE}居然是火箭队的幕后黑手,{CLEAR}更惊讶于有人居然能将他打败。{SCROLL}渡『我作为四天王的首领,{NEWLINE}将用一场倾尽全力的战斗,{CLEAR}向你表达崇高的敬意！{CLEAR}请问你是希望进行单打还是双打？{SCROLL}",
+   "en": "Lance: {VAR:0103:0}, when we heard you’d{NEWLINE}beaten Giovanni and exposed him as the{CLEAR}boss of Team Rocket, the whole{CLEAR}Pokémon League was stunned.{SCROLL}Lance: We were shocked that Gym Leader{NEWLINE}Giovanni was the mastermind behind Team{CLEAR}Rocket, and even more shocked that{CLEAR}anyone could beat him.{SCROLL}Lance: As head of the Elite Four, I’ll{NEWLINE}show you my deepest respect with a{CLEAR}battle where I give everything I have!{SCROLL}Would you prefer singles or doubles?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "League branch: #0–18 (Lance's room: Indigo Conference battle, then rematches). Rocket-occupation branch: #19–43 (Marauder and Lawrence); #19–34 = ‘one at a time’ path, #35–37 = ‘together’ path."
+  },
+  {
+   "id": 1,
+   "zh": "渡『竟然打败了我的龙系军团……{SCROLL}渡『恭喜你赢得了胜利,{NEWLINE}你现在是精灵联盟的「联盟冠军」了！{CLEAR}本来应该是这么跟你说的。{CLEAR}不过你的朋友小绿刚刚也战胜了我,{CLEAR}所以要成为「联盟冠军」,{CLEAR}你还要跟他进行一场最终决战才行。{CLEAR}他就在前面的冠军房间里,{CLEAR}你快去吧！",
+   "en": "Lance: You defeated my dragon corps...{SCROLL}Lance: Congratulations on your victory.{SCROLL}You are now the Pokémon League’s{NEWLINE}Champion!{SCROLL}That’s what I would normally say,{NEWLINE}anyway.{SCROLL}But your friend Blue has just beaten me{NEWLINE}as well.{SCROLL}So to become League Champion, you’ll{NEWLINE}have to face him in one final battle.{SCROLL}He’s in the Champion’s room ahead. Go{NEWLINE}on!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "渡『身为四天王,{NEWLINE}言行、实力都必须够格{CLEAR}成为全地区训练家的表率才行。{CLEAR}跟你一比我还需要好好修炼啊。",
+   "en": "Lance: As one of the Elite Four, my{NEWLINE}words, my conduct and my strength must{CLEAR}all set an example for every Trainer in{CLEAR}the region.{SCROLL}Compared with you, I still need much{NEWLINE}more training.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "全地区的观众{NEWLINE}都会通过我的摄像机看到你的英姿哟！",
+   "en": "Viewers across the region will see your{NEWLINE}finest moments through my camera!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "需要我帮您恢复精灵吗？{SCROLL}",
+   "en": "Shall I heal your Pokémon?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "您的精灵已经恢复了。",
+   "en": "Your Pokémon are fully healed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "渡『全国的训练家{NEWLINE}都在以你为目标而努力,{CLEAR}我也不例外！{SCROLL}渡『你现在有时间{NEWLINE}与我来一场检验实力的战斗吗？{CLEAR}单打或双打都可以。{SCROLL}",
+   "en": "Lance: Trainers all over the country{NEWLINE}are working hard with you as their goal,{CLEAR}and I’m no exception!{SCROLL}Lance: Do you have time now for a{NEWLINE}battle to test our strength?{SCROLL}Singles or doubles, either is fine.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 8,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 9,
+   "zh": "渡『好的,请多指教！",
+   "en": "Lance: Very well. I look forward to it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "恢复精灵",
+   "en": "Heal Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 11,
+   "zh": "前往下一个房间",
+   "en": "Go to the next room",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 13,
+   "zh": "好的,我现在为您恢复。",
+   "en": "Certainly. I’ll heal them now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "好的,我现在为您开门。",
+   "en": "Certainly. I’ll open the door for you{NEWLINE}now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 16,
+   "zh": "门已经开了,您随时可以通过。",
+   "en": "The door is open. You may go through{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "您好{VAR:0103:0}大人,{NEWLINE}请问您是要恢复精灵{CLEAR}还是前往下一个房间？{SCROLL}",
+   "en": "Hello, {VAR:0103:0}.{SCROLL}Would you like me to heal your Pokémon,{NEWLINE}or will you go on to the next room?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "你的精灵数量不够,{NEWLINE}无法进行双打。",
+   "en": "You don’t have enough Pokémon for a{NEWLINE}double battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0103:0}『比夏斯,吉尔露太！{NEWLINE}我已经打倒了一大半火箭队干部,{CLEAR}你们不要再做无谓的抵抗了,{CLEAR}赶紧交出人质和精灵然后投降！",
+   "en": "{VAR:0103:0}: Marauder, Lawrence!{SCROLL}I’ve already beaten more than half of{NEWLINE}Team Rocket’s Executives.{SCROLL}Stop this pointless resistance.{SCROLL}Hand over the hostages and the{NEWLINE}Pokémon, and surrender!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "比夏斯『你能打败六名干部走到这里,{NEWLINE}确实值得称赞。",
+   "en": "Marauder: Beating six Executives to get{NEWLINE}here is certainly praiseworthy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "吉尔露太『但连续不断的战斗{NEWLINE}让你疲态尽显,{CLEAR}现在你已经是强努之末了。",
+   "en": "Lawrence: But battle after battle has{NEWLINE}worn you out.{SCROLL}You’re at the end of your rope.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "比夏斯『面对精灵得到强化{NEWLINE}并手握传说中精灵的我们,{CLEAR}随便一个人都可以将你打倒。",
+   "en": "Marauder: With our enhanced Pokémon{NEWLINE}and Legendary Pokémon, either one of{CLEAR}us alone could take you down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "有信心打倒我就来试试吧",
+   "en": "Try it, if you think you can win",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 24,
+   "zh": "你们一起上我也不会输的",
+   "en": "Even both of you can’t beat me",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 25,
+   "zh": "{VAR:0103:0}『跟我一起一路走来的伙伴,{NEWLINE}绝不会比你手中的强化精灵差,{CLEAR}就算是传说中的精灵,{CLEAR}我也一样可以打败！",
+   "en": "{VAR:0103:0}: The partners who’ve come all{NEWLINE}this way with me are every bit as good{CLEAR}as your enhanced Pokémon.{SCROLL}Even Legendary Pokémon, I can beat{NEWLINE}just the same!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "比夏斯『你确实赢了几场{NEWLINE}跟传说中精灵的战斗,{CLEAR}但我的代欧奇西斯是与众不同的。{CLEAR}分身吧,代欧奇希斯！",
+   "en": "Marauder: You’ve won a few battles{NEWLINE}against Legendary Pokémon, but my{CLEAR}Deoxys is different.{SCROLL}Split, Deoxys!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "代欧奇希斯『Deooo……",
+   "en": "Deoxys: Deooo...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "比夏斯『代欧奇希斯！{NEWLINE}你这就不行了吗……？",
+   "en": "Marauder: Deoxys! Is this all you’ve{NEWLINE}got...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "吉尔露太『比夏斯大人,{NEWLINE}能跟联盟冠军战斗到这样,{CLEAR}已经非常不容易了,{CLEAR}下面就交给我吧。{CLEAR}我会把过去所有的账,{CLEAR}一次性地跟他讨回来！",
+   "en": "Lawrence: Master Marauder, holding out{NEWLINE}this long against the League Champion is{CLEAR}already quite a feat.{SCROLL}Leave the rest to me. I’ll settle every{NEWLINE}past score with him in one go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "吉尔露太『比夏斯大人,{NEWLINE}能跟联盟冠军战斗到这样,{CLEAR}已经非常不容易了,{CLEAR}下面就交给我吧。{CLEAR}我会把过去所有的账,{CLEAR}一次性地跟她讨回来！",
+   "en": "Lawrence: Master Marauder, holding out{NEWLINE}this long against the League Champion is{CLEAR}already quite a feat.{SCROLL}Leave the rest to me. I’ll settle every{NEWLINE}past score with her in one go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "洛奇亚『Luuu……",
+   "en": "Lugia: Luuu...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "吉尔露太『连坚不可摧的洛奇亚{NEWLINE}都被打败了！？",
+   "en": "Lawrence: Even the indestructible Lugia{NEWLINE}has been beaten!?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0103:0}『这样一来,{NEWLINE}你们火箭队的有生力量,{CLEAR}就只剩最后三个人了。{CLEAR}我们精灵联盟一定会取得最终的胜利！",
+   "en": "{VAR:0103:0}: That leaves Team Rocket with{NEWLINE}just three fighters.{SCROLL}The Pokémon League will win in the end!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "赢了！最终的胜利一定属于我们！{NEWLINE}打倒火箭队！取得最终胜利！",
+   "en": "We won! Final victory will be ours! Down{NEWLINE}with Team Rocket! On to final victory!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "{VAR:0103:0}『我是有些累了,但像你们这种{NEWLINE}无法与精灵心意相通的训练家,{CLEAR}来多少都不可能打败我。",
+   "en": "{VAR:0103:0}: Sure, I’m a little tired.{SCROLL}But Trainers like you, who can’t{NEWLINE}connect with their Pokémon, could never{CLEAR}beat me, no matter how many of you{CLEAR}there are.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "吉尔露太『你好像对自己充满信心呢。",
+   "en": "Lawrence: You seem awfully sure of{NEWLINE}yourself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "比夏斯『那就让我们告诉你,{NEWLINE}这份自信是多么的愚蠢！",
+   "en": "Marauder: Then let us show you just how{NEWLINE}foolish that confidence is!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "吉尔露太『我本来是彩虹市的一方巨富,{NEWLINE}都是因为你从中搅局,{CLEAR}我的火箭队干部身份才会暴露。{CLEAR}我就是做鬼也不会放过你的！",
+   "en": "Lawrence: I was one of the richest men{NEWLINE}in Celadon City!{SCROLL}It was your meddling that got me{NEWLINE}exposed as a Team Rocket Executive.{SCROLL}I won’t let you go, even if I have to{NEWLINE}haunt you from the grave!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "比夏斯『坂木老大使用的阿尔宙斯,{NEWLINE}是最强的传说中精灵,{CLEAR}你一定会败在老大的手上。",
+   "en": "Marauder: The Boss’s Arceus is the{NEWLINE}strongest Legendary Pokémon there is.{SCROLL}You’re sure to fall at the Boss’s{NEWLINE}hands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "达马兰奇主席和部长先生们{NEWLINE}就在前面的房间,{CLEAR}请冠军大人快去救他们吧。",
+   "en": "President Goodshow and the department{NEWLINE}heads are in the room ahead.{SCROLL}Please hurry and save them, Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "火箭队一冲进联盟办公大厅,{NEWLINE}就开始查找经济、人口、训练家数据,{CLEAR}看来他们是真的奔着取代精灵联盟{CLEAR}统治整个地区来的。",
+   "en": "As soon as Team Rocket stormed the{NEWLINE}administration hall, they started{CLEAR}digging through economic, population{CLEAR}and Trainer data.{SCROLL}They really mean to replace the{NEWLINE}Pokémon League and rule the region.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "科技部的部长先生{NEWLINE}被火箭队拉出去了,{CLEAR}不知道他现在是否平安无事。",
+   "en": "Team Rocket dragged off the head of{NEWLINE}the Technology Department.{SCROLL}I hope he’s safe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "我也是拥有8枚徽章的精英训练家,{NEWLINE}可是在火箭队的干部面前完全不够看。",
+   "en": "I’m an Ace Trainer with eight Badges{NEWLINE}too, but I’m no match at all for Team{CLEAR}Rocket’s Executives.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

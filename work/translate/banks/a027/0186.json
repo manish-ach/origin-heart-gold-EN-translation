@@ -1,0 +1,479 @@
+{
+ "narc": "a027",
+ "bank": 186,
+ "source": "work/extract/v4/a027/0186.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "确认ＥーＭＡＩＬ的地址",
+   "en": "Check E-mail Address",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/0 | the CHS game registers an E-MAIL address where US registers a Wii number; followed zh throughout the bank."
+  },
+  {
+   "id": 1,
+   "zh": "ＥーＭＡＩＬ的地址",
+   "en": "Register E-mail Address",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "决定接受ＥーＭＡＩＬ吗？",
+   "en": "Receive E-mail?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/2"
+  },
+  {
+   "id": 3,
+   "zh": "消除ＥーＭＡＩＬ设定",
+   "en": "Delete E-mail Settings",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/3"
+  },
+  {
+   "id": 4,
+   "zh": "返回",
+   "en": "Exit",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0188/4"
+  },
+  {
+   "id": 5,
+   "zh": "输入账号",
+   "en": "Enter Code",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "输入密码",
+   "en": "Enter Password",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "请输入密码",
+   "en": "Please enter the password.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "如果登录ＥーＭＡＩＬ地址的话{NEWLINE}存在ＧＴＳ内的精灵{CLEAR}交换成立时{CLEAR}会有电邮通知。{SCROLL}您达到２０岁以上了么？",
+   "en": "If you register an e-mail address,{NEWLINE}you will be notified by e-mail when a{CLEAR}trade for your Pokémon deposited{CLEAR}at the GTS goes through.{SCROLL}Are you 20 years of age or older?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "您所在地方能连接{NEWLINE}ＷｉーＦｉ吗？",
+   "en": "Are you in a location where you can{NEWLINE}connect to Nintendo Wi-Fi Connection?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0188/9"
+  },
+  {
+   "id": 10,
+   "zh": "请在能连接ＷｉーＦｉ的{NEWLINE}地方登陆。{SCROLL}",
+   "en": "Please register when you can connect{NEWLINE}to Nintendo Wi-Fi Connection.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0188/10"
+  },
+  {
+   "id": 11,
+   "zh": "保存ＥーＭＡＩＬ地址和ＤＳ主机{NEWLINE}的ＷｉーＦｉ使用者情报。{SCROLL}开始ＷｉーＦｉ通信{NEWLINE}准备好了吗？",
+   "en": "Your e-mail address and{NEWLINE}this DS system’s Wi-Fi user{CLEAR}information will be saved.{SCROLL}Are you ready to start{NEWLINE}Wi-Fi communication?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/11"
+  },
+  {
+   "id": 12,
+   "zh": "连接失败。{SCROLL}请确认ＷｉーＦｉ的设定。",
+   "en": "Unable to connect to Nintendo Wi-Fi{NEWLINE}Connection.{SCROLL}Please check your connection settings.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0188/12"
+  },
+  {
+   "id": 13,
+   "zh": "账号已经送到您的{NEWLINE}ＥーＭＡＩＬ中了。{SCROLL}请输入与账号相同的数字。",
+   "en": "A code has been sent{NEWLINE}to your e-mail address.{SCROLL}Please enter the same{NEWLINE}number as the code.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/13"
+  },
+  {
+   "id": 14,
+   "zh": "切断通信,{NEWLINE}中断ＥーＭＡＩＬ地址的{CLEAR}登陆吗？",
+   "en": "Disconnect and cancel{NEWLINE}registering your e-mail address?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "切断ＷｉーＦｉ连接。",
+   "en": "Disconnecting from Nintendo Wi-Fi{NEWLINE}Connection.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0188/15"
+  },
+  {
+   "id": 16,
+   "zh": "ＷｉーＦｉ连接切断。",
+   "en": "You are now disconnected from Nintendo{NEWLINE}Wi-Fi Connection.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0188/16"
+  },
+  {
+   "id": 17,
+   "zh": "请输入邮件中写的４位账号。{SCROLL}",
+   "en": "Please enter the 4-digit{NEWLINE}code written in the e-mail.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/17"
+  },
+  {
+   "id": 18,
+   "zh": "账号确认中,{NEWLINE}请稍等。",
+   "en": "Confirming the code.{NEWLINE}Please wait.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/18"
+  },
+  {
+   "id": 19,
+   "zh": "账号错误,{NEWLINE}请再一次输入。{SCROLL}",
+   "en": "Incorrect code.{NEWLINE}Please enter it again.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/19"
+  },
+  {
+   "id": 20,
+   "zh": "ＥＭＡＩＬ地址设定完毕！{SCROLL}",
+   "en": "E-mail address setup complete!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/20"
+  },
+  {
+   "id": 21,
+   "zh": "请决定确认ＥーＭＡＩＬ地址{NEWLINE}时使用的４位密码。{SCROLL}",
+   "en": "Please choose a 4-digit password{NEWLINE}for confirming your e-mail address.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/21"
+  },
+  {
+   "id": 22,
+   "zh": "为了确认,{NEWLINE}请再次输入一下。",
+   "en": "For confirmation, please{NEWLINE}enter it once more.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "密码错误！{NEWLINE}请重来。",
+   "en": "Wrong password!{NEWLINE}Please try again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "密码设定完毕！{SCROLL}",
+   "en": "Password setup complete!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/24"
+  },
+  {
+   "id": 25,
+   "zh": "ＧＴＳ　交换　{NEWLINE}成立的时候会有ＥーＭＡＩＬ{CLEAR}发来确认,{CLEAR}接受邮件吗？",
+   "en": "When a GTS trade goes through, an{NEWLINE}e-mail can be sent to let you know.{SCROLL}Would you like to receive e-mails?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/25"
+  },
+  {
+   "id": 26,
+   "zh": "ＥーＭＡＩＬ设定为了「接收」。{SCROLL}今后使用ＧＴＳ{NEWLINE}将会收到ＥーＭＡＩＬ通知。{SCROLL}",
+   "en": "E-mail set to “Receive.”{SCROLL}From now on, you will be notified{NEWLINE}by e-mail when you use the GTS.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "ＥＭＡＩＬ设定为了「不接收」。{SCROLL}今后使用ＧＴＳ{NEWLINE}不会收到ＥＭＡＩＬ通知。{SCROLL}",
+   "en": "E-mail set to “Don’t receive.”{SCROLL}From now on, you will not be notified{NEWLINE}by e-mail when you use the GTS.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "和{NEWLINE}ＥーＭＡＩＬ的设定。{SCROLL}全部消除可以吗？",
+   "en": "...and the e-mail settings.{SCROLL}Is it OK to delete them all?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/28 | zh starts with 和 (“and”): the first item of the list is missing in the source (hack-finding logged)."
+  },
+  {
+   "id": 29,
+   "zh": "所有的ＥーＭＡＩＬ{NEWLINE}设定消除了。{SCROLL}",
+   "en": "All e-mail settings have been deleted.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/29"
+  },
+  {
+   "id": 30,
+   "zh": "账号　{VAR:0134:1}ー{VAR:0135:0}",
+   "en": "Code {VAR:0134:1}-{VAR:0135:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "密码　{VAR:0135:0}",
+   "en": "Password {VAR:0135:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "正在保存进度,　{NEWLINE}请不要切断电源。",
+   "en": "Saving...{NEWLINE}Please don’t turn off the power.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0103:0}{NEWLINE}完成了记录！",
+   "en": "{VAR:0103:0} saved the game.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0188/33"
+  },
+  {
+   "id": 34,
+   "zh": "记录没有完成。",
+   "en": "The save was not completed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "请输入ＥーＭＡＩＬ地址。",
+   "en": "Please enter your e-mail address.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "请输入写在邮件中的账号的{NEWLINE}最后４位。",
+   "en": "Please enter the last 4 digits of{NEWLINE}the code written in the e-mail.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "请输入密码。",
+   "en": "Please enter the password.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "为了确认,请再输一次{NEWLINE}相同的ＥーＭＡＩＬ地址。",
+   "en": "For confirmation, please enter{NEWLINE}the same e-mail address again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/38"
+  },
+  {
+   "id": 39,
+   "zh": "ＥーＭＡＩＬ地址不对,{NEWLINE}请再输一次。",
+   "en": "That e-mail address is wrong.{NEWLINE}Please enter it again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/39"
+  },
+  {
+   "id": 40,
+   "zh": "密码不对,{NEWLINE}请再输一次。",
+   "en": "That password is wrong.{NEWLINE}Please enter it again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/40"
+  },
+  {
+   "id": 41,
+   "zh": "",
+   "en": "",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "不登录",
+   "en": "Don’t register",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0188/42"
+  },
+  {
+   "id": 43,
+   "zh": "登录",
+   "en": "REGISTER",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0188/42 | seed rejected us [ambiguous US match] (candidate US 0188#42; text not kept) | v3 TM: 1 source(s)"
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:FF00:1}ＥーＭＡＩＬ地址登录{VAR:FF00:0}",
+   "en": "{VAR:FF00:1}Register E-mail Address{VAR:FF00:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/44 | seed rejected us [tag_order] (candidate US 0188#44; text not kept) | seed rejected us [tag_order,too_many_lines] (candidate US 0188#44; text not kept)"
+  },
+  {
+   "id": 45,
+   "zh": "登陆ＥーＭＡＩＬ地址后",
+   "en": "Once you register an e-mail address,",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "在ＧＴＳ的精灵交换",
+   "en": "when a Pokémon trade at the GTS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "成立时",
+   "en": "goes through,",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "就会有电邮通知",
+   "en": "you will be notified by e-mail.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "详细的情况",
+   "en": "For details,",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "请参考使用说明",
+   "en": "please see the instruction booklet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "登陆ＥＭＡＩＬ地址吗？",
+   "en": "Register an e-mail address?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "　　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "服务器现在处在维护中。{SCROLL}请稍微等待一下再使用。{SCROLL}",
+   "en": "Nintendo Wi-Fi Connection is{NEWLINE}undergoing maintenance.{SCROLL}Please try again later.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0188/54"
+  },
+  {
+   "id": 55,
+   "zh": "服务器现在处在维护中。{SCROLL}请稍微等待一下再使用。{SCROLL}",
+   "en": "The server is undergoing maintenance.{SCROLL}Please wait a while before using it.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0188/55 | zh repeats #54 (maintenance); US had a high-traffic message."
+  },
+  {
+   "id": 56,
+   "zh": "服务器不能连接。{SCROLL}",
+   "en": "Unable to connect to Nintendo Wi-Fi{NEWLINE}Connection.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0188/56"
+  },
+  {
+   "id": 57,
+   "zh": "和服务器的通信{NEWLINE}中断。{SCROLL}",
+   "en": "Communication error. You have been{NEWLINE}disconnected from Nintendo WFC.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0188/57"
+  },
+  {
+   "id": 58,
+   "zh": "和服务器的通信中断。",
+   "en": "Communication with the{NEWLINE}server was interrupted.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

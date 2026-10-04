@@ -1,0 +1,599 @@
+{
+ "narc": "a027",
+ "bank": 102,
+ "source": "work/extract/v4/a027/0102.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "一块坚硬的石头,{NEWLINE}上面有一些明显的破损。",
+   "en": "A hard stone. It has{NEWLINE}some obvious damage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "卟噜卟噜卟噜！{SCROLL}我要称霸战斗前线！{NEWLINE}我曾经对家人{CLEAR}夸下了这样的海口,{CLEAR}谈后离家来到了这里……{SCROLL}现在到了这个地步{NEWLINE}我的腿止不住地发抖！{SCROLL}啊……要是被{NEWLINE}干掉了怎么办……",
+   "en": "I can’t stop shivering!{SCROLL}I told my family that I would conquer{NEWLINE}the Battle Frontier when I left home...{SCROLL}But now I’m here, and somehow I{NEWLINE}can’t stop shivering!{SCROLL}What am I gonna do if I get beaten{NEWLINE}to a pulp?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0104/4"
+  },
+  {
+   "id": 2,
+   "zh": "我面前的这块石头,{NEWLINE}是战斗前线建设施工的时候,{CLEAR}从地底下挖出来的。{CLEAR}当时用各种工具都无法敲碎它,{CLEAR}我觉得这也算是一种奇观了,{CLEAR}于是就把石头保留了下来,{CLEAR}放在这里当作装饰。",
+   "en": "This stone in front of me was{NEWLINE}dug out of the ground while the{CLEAR}Battle Frontier was being built.{SCROLL}No tool could break it back{NEWLINE}then. I thought it was a wonder{CLEAR}in its own right, so I kept it{CLEAR}and put it here as decoration.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 4,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 5,
+   "zh": "……你很年轻啊{SCROLL}……　……　……{NEWLINE}……　……　……{SCROLL}……好！{NEWLINE}我也可能会鼓起勇气{CLEAR}进行挑战！{SCROLL}",
+   "en": "...You look quite young.{SCROLL}...{NEWLINE}...{SCROLL}I will pull myself together and{NEWLINE}challenge the Battle Frontier...{CLEAR}Maybe!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0104/5"
+  },
+  {
+   "id": 6,
+   "zh": "我也可能会鼓起勇气{NEWLINE}去战斗前线{CLEAR}进行挑战！{SCROLL}……　……　……{NEWLINE}也有可能不去！{SCROLL}",
+   "en": "I will pull myself together and{NEWLINE}challenge the Battle Frontier!{SCROLL}...{NEWLINE}Or I might not!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0104/6"
+  },
+  {
+   "id": 7,
+   "zh": "终于到了！{NEWLINE}我到了战斗前线！{SCROLL}如果觉得路上的精灵决斗{NEWLINE}还不过瘾,{CLEAR}那就不要犹豫,到战斗前线来吧！{SCROLL}是吧？是吧？",
+   "en": "Finally!{NEWLINE}I’m here at the Battle Frontier!{SCROLL}When a Pokémon battle on the road{NEWLINE}doesn’t satisfy you any longer, you{CLEAR}have to come to the Battle Frontier!{SCROLL}Wouldn’t you agree?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0104/7"
+  },
+  {
+   "id": 8,
+   "zh": "所谓精灵对战,{NEWLINE}通常是拿手头的{CLEAR}精灵进行战斗,{SCROLL}但是稍微改变一下规则{NEWLINE}添加一些限制的话,{CLEAR}就会变得更有意思了,{SCROLL}而能够进行这种体验的,{NEWLINE}就是在战斗前线了！",
+   "en": "Normally, choosing which Pokémon is all{NEWLINE}there is to a Pokémon battle.{SCROLL}But when you change certain rules or{NEWLINE}limitations, the battle suddenly{CLEAR}becomes even more fun.{SCROLL}And this place you can have such fun...{NEWLINE}is called the Battle Frontier!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0104/8"
+  },
+  {
+   "id": 9,
+   "zh": "这里是战斗前线{SCROLL}召集！全国的高手们{NEWLINE}勇夺第一！",
+   "en": "This Is the Battle Frontier{SCROLL}Come, Proud Trainers{NEWLINE}Aim for the Top!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0104/9"
+  },
+  {
+   "id": 10,
+   "zh": "大丽『啊！来啦来啦！",
+   "en": "Dahlia: Ah! They’re here, they’re here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "光郎『欢迎欢迎！{NEWLINE}欢迎冠军大人来到战斗前线！",
+   "en": "Palmer: Welcome, welcome! Welcome{NEWLINE}to the Battle Frontier, Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}『啊……你们是？",
+   "en": "{VAR:0103:0}: Oh... Who are you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "光郎『我是战斗前线的首领光郎,{NEWLINE}这些人跟我一样,{CLEAR}都是战斗前线的首领。{CLEAR}我们六人奉达马兰奇主席之命,{CLEAR}在这里建设战斗前线。{CLEAR}整个工程耗时三年之久,{CLEAR}最近才刚刚建成开业。{CLEAR}没想到就迎来了您这样的重要客人。",
+   "en": "Palmer: I’m Palmer, one of the{NEWLINE}Frontier Brains. These folks are{CLEAR}Frontier Brains, just like me.{SCROLL}The six of us built the Battle Frontier{NEWLINE}here on President Goodshow’s orders.{SCROLL}The whole project took three{NEWLINE}years, and we only just opened.{CLEAR}We never expected a guest{CLEAR}as important as you so soon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Frontier Brains (digest): 光郎 Palmer, 凯特 Argenta, 列木 Thorton, 大丽 Dahlia, 石兰 Darach, 嘉德丽雅 Caitlin (official). zh says six Brains, five facilities."
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}『你太客气了。",
+   "en": "{VAR:0103:0}: You’re too kind.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "光郎『您是战胜联盟四天王的冠军,{NEWLINE}又是打败火箭队的英雄,{CLEAR}我们六个战斗前线首领,{CLEAR}对您可都是佩服得很。",
+   "en": "Palmer: You’re the Champion who{NEWLINE}beat the Elite Four, and the hero{CLEAR}who defeated Team Rocket. All six{CLEAR}of us Frontier Brains admire you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "凯特『光郎这话不假,{NEWLINE}我们六人对自己的实力都非常自负,{CLEAR}即使是面对联盟四天王{CLEAR}我们也未必就会输给他们。{CLEAR}但只有您这位冠军,{CLEAR}是我们一直以仰视着的。",
+   "en": "Argenta: Palmer’s not exaggerating.{NEWLINE}The six of us are very proud of our{CLEAR}strength. Even against the Elite{CLEAR}Four, we wouldn’t necessarily lose.{SCROLL}But you, Champion, are the{NEWLINE}one we’ve always looked up to.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "大丽『我买了您的很多周边哦！{NEWLINE}连我床单上都印着您的照片呢！",
+   "en": "Dahlia: I’ve bought tons of{NEWLINE}your merch! Even my bedsheets{CLEAR}have your photo on them!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "石兰『我们大小姐也是{NEWLINE}您的忠实粉丝,{CLEAR}一直想要与您见面{CLEAR}却又不好意思发出邀请。",
+   "en": "Darach: Lady Caitlin is a devoted fan of{NEWLINE}yours too. She’s long wanted to meet{CLEAR}you, but was too shy to invite you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "嘉德丽雅『石兰！不要多嘴！",
+   "en": "Caitlin: Darach! Hold your tongue!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "石兰『对不起,大小姐……",
+   "en": "Darach: My apologies, my lady...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "列木『嘿嘿！我虽然也很崇拜您,{NEWLINE}但我可是以打败您为目标的。{CLEAR}我的战斗工厂就是{CLEAR}为了达成这个目标而设计的！",
+   "en": "Thorton: Heh heh! I look up to you too,{NEWLINE}but my goal is to beat you. My Battle{CLEAR}Factory is designed to do just that!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0103:0}『战斗……工厂？",
+   "en": "{VAR:0103:0}: Battle... Factory?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "光郎『这群人见到您都太激动了,{NEWLINE}所以刚才七嘴八舌地{CLEAR}说了一些没用的东西。{SCROLL}光郎『现在由我来向您{NEWLINE}简单地介绍一下对战前线的设施吧。{CLEAR}包括刚才列木所说的战斗工厂在内,{CLEAR}战斗前线一共有5座对战设施,{CLEAR}分别是由我担任首领的战斗塔、{CLEAR}凯特担任首领的战斗舞台、{CLEAR}列木担任首领的战斗工厂、{CLEAR}嘉德丽雅担任首领{CLEAR}但由石兰代为出战的战斗城堡,{CLEAR}以及大丽担任首领的战斗轮盘。{SCROLL}光郎『每座对战设施里{NEWLINE}都有特定的挑战规则,{CLEAR}按规则连续取胜一定场次后,{CLEAR}就可以与对战设施的首领对战。",
+   "en": "Palmer: This bunch got too excited{NEWLINE}to see you, so they all talked{CLEAR}over each other about nothing.{SCROLL}Palmer: Let me give you a quick rundown{NEWLINE}of the Battle Frontier’s facilities.{SCROLL}Counting the Battle Factory{NEWLINE}Thorton just mentioned, the Battle{CLEAR}Frontier has five battle facilities:{SCROLL}the Battle Tower, led by me; the{NEWLINE}Battle Hall, led by Argenta; the{CLEAR}Battle Factory, led by Thorton;{SCROLL}the Battle Castle, led by Caitlin with{NEWLINE}Darach battling in her place; and{CLEAR}the Battle Arcade, led by Dahlia.{SCROLL}Palmer: Each facility has its own{NEWLINE}challenge rules. Win enough battles{CLEAR}in a row under the rules, and you can{CLEAR}battle that facility’s Frontier Brain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Facility names: 战斗塔 Battle Tower, 战斗舞台 Battle Hall, 战斗工厂 Battle Factory, 战斗城堡 Battle Castle, 战斗轮盘 Battle Arcade."
+  },
+  {
+   "id": 24,
+   "zh": "凯特『哎呀呀,{NEWLINE}这些乱七八糟的挑战规则,{CLEAR}我们可是想了好久才想出来呢。",
+   "en": "Argenta: Oh my, those crazy challenge{NEWLINE}rules took us ages to come up with.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "石兰『毕竟设施的定位{NEWLINE}就是为了锻炼训练家的对战技巧。{CLEAR}规则可不能定得太简单。",
+   "en": "Darach: After all, the facilities{NEWLINE}exist to hone Trainers’ battle{CLEAR}skills. The rules can’t be too simple.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "嘉德丽雅『多亏了石兰帮忙,{NEWLINE}对战城堡设置了独一无二的规则。{CLEAR}请冠军大人一定要来试试。",
+   "en": "Caitlin: Thanks to Darach’s{NEWLINE}help, the Battle Castle has{CLEAR}one-of-a-kind rules. Champion,{CLEAR}you simply must come and try them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "大丽『哎呀,我的规则{NEWLINE}才是最有趣的好吧！",
+   "en": "Dahlia: Oh, come on, my{NEWLINE}rules are the most fun, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "列木『有趣有什么用,{NEWLINE}战斗工厂的规则绝对是最耐玩的！",
+   "en": "Thorton: What good is fun? The{NEWLINE}Battle Factory’s rules are the{CLEAR}ones you’ll never get tired of!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "光郎『好了,安静一点,{NEWLINE}不要在冠军大人面前丢脸。",
+   "en": "Palmer: All right, pipe down.{NEWLINE}Don’t embarrass yourselves{CLEAR}in front of the Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "光郎『冠军大人,如您所见。{NEWLINE}战斗前线是我们这一群人的心血结晶,{CLEAR}每个人都为之沉迷和自豪,{CLEAR}我们也希望您能在这里{CLEAR}找到不一样的对战乐趣。{SCROLL}光郎『今天的营业已经开始了,{NEWLINE}我们现在要回到各自的设施主持比赛,{CLEAR}期待能在战斗前线向您挑战学习。",
+   "en": "Palmer: As you can see, Champion,{NEWLINE}the Battle Frontier is the fruit{CLEAR}of all our hard work. Every one of{CLEAR}us is hooked on it and proud of it.{SCROLL}We hope you’ll find a different{NEWLINE}kind of battling fun here.{SCROLL}Palmer: We’re open for today,{NEWLINE}so we’re heading back to run our own{CLEAR}facilities. We look forward to learning{CLEAR}from you at the Battle Frontier.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "凯特『一定要来哦。",
+   "en": "Argenta: Be sure to come.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "石兰『我和嘉德丽雅小姐{NEWLINE}恭候您的大驾。",
+   "en": "Darach: Lady Caitlin{NEWLINE}and I await your visit.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "嘉德丽雅『请您务必让我见识一下{NEWLINE}连娜姿小姐都佩服的超强意志力。",
+   "en": "Caitlin: Please, let me see{NEWLINE}the tremendous willpower{CLEAR}that even Sabrina admires.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "大丽『我在战斗轮盘等你来！",
+   "en": "Dahlia: I’ll be waiting for{NEWLINE}you at the Battle Arcade!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "列木『对战工厂就在前线的东北角,{NEWLINE}你要先去我那里哦！",
+   "en": "Thorton: The Battle Factory is{NEWLINE}in the northeast corner of the{CLEAR}Frontier. Come to mine first!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "光郎『冠军大人,咱们在战斗前线见吧！",
+   "en": "Palmer: Champion, see you{NEWLINE}at the Battle Frontier!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "你好像还没有居合斩技能机啊？{NEWLINE}那这个送给你吧！",
+   "en": "Looks like you don’t have the TM for{NEWLINE}Cut yet? Then you can have this!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "虽说居合斩不是什么厉害的技能,{NEWLINE}但出门在外的训练家没有它的话,{CLEAR}遇到挡路的小树可就麻烦了。",
+   "en": "Cut isn’t a very strong move, but a{NEWLINE}traveling Trainer without it will have a{CLEAR}hard time with little trees in the way.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "破损的碎片好像刚好可以{NEWLINE}用星之碎片补齐,{CLEAR}要用星之碎片修补石头吗？",
+   "en": "It looks like a Star Piece would fill{NEWLINE}in the broken part perfectly. Use{CLEAR}a Star Piece to repair the stone?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "{VAR:0103:0}修补了石头。",
+   "en": "{VAR:0103:0} repaired the stone.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "石头开始发出耀眼的光芒！",
+   "en": "The stone began to shine brightly!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "吉拉祈『Jiiii——ra！",
+   "en": "Jirachi: Jiiii-ra!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "石头变成了吉拉祈！",
+   "en": "The stone turned into Jirachi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "哇哇哇哇！这……石头变成了精灵！{NEWLINE}这也太不可思议了！{CLEAR}这到底是什么精灵啊？",
+   "en": "Whoa whoa whoa! Th-the stone turned{NEWLINE}into a Pokémon! That’s incredible!{CLEAR}What kind of Pokémon is it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0103:0}『火箭队的漏网之鱼？",
+   "en": "{VAR:0103:0}: Team Rocket stragglers?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "这是一千年才苏醒一次的{NEWLINE}传说中口袋妖怪吉拉祈。",
+   "en": "This is the legendary Pokémon{NEWLINE}Jirachi, which wakes only{CLEAR}once every thousand years.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "据说苏醒之后,{NEWLINE}它可以帮人达成任何愿望。",
+   "en": "They say once it wakes,{NEWLINE}it can grant any wish.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "现在它是我们的了！",
+   "en": "Now it’s ours!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0103:0}『你们要拿吉拉祈干什么！{NEWLINE}快放开它！",
+   "en": "{VAR:0103:0}: What are you going{NEWLINE}to do with Jirachi? Let it go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "我们是火箭队之意志继承者。",
+   "en": "We are the heirs of Team Rocket’s will.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "我们要创造一个被火箭队统治的世界！",
+   "en": "We’ll create a world{NEWLINE}ruled by Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "来吧吉拉祈,逆转现在的时空,{NEWLINE}把世界变成被火箭队统治的样子吧！",
+   "en": "Come on, Jirachi! Turn back{NEWLINE}time and space, and make the{CLEAR}world one ruled by Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "吉拉祈『Jiiii……ra？",
+   "en": "Jirachi: Jiiii... ra?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "奇怪,你怎么没反应啊？",
+   "en": "Huh? Why isn’t anything happening?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "传说该不会是假的吧？",
+   "en": "Don’t tell me the legend is fake?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "{VAR:0103:0}『看来吉拉祈{NEWLINE}并不能实现你们的愿望,{CLEAR}现在是时候收拾你们了。",
+   "en": "{VAR:0103:0}: Looks like Jirachi{NEWLINE}can’t grant your wish. Now{CLEAR}it’s time to deal with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "呃……我们果然不是{NEWLINE}联盟冠军的的对手……",
+   "en": "Ugh... We really are no match{NEWLINE}for the League Champion...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "我不想被抓去坐牢啊……",
+   "en": "I don’t want to go to jail...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "我们以后不当火箭队就是了！",
+   "en": "Fine, we’ll quit Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "{VAR:0103:0}『跑的够快的,{NEWLINE}难怪在石英高原没有抓住他们。",
+   "en": "{VAR:0103:0}: They sure ran fast. No wonder{NEWLINE}we didn’t catch them at Indigo Plateau.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "能够实现愿望的吉拉祈吗？{NEWLINE}确实会让人浮想联翩……",
+   "en": "A Jirachi that can grant wishes? That{NEWLINE}really gets the imagination going...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "{VAR:0103:0}『不过看刚才火箭队的样子,{NEWLINE}或许实现愿望只是一个传说罢了。",
+   "en": "{VAR:0103:0}: But judging by how it went{NEWLINE}for Team Rocket just now, granting{CLEAR}wishes may just be a legend.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "不管传说是真的假的,{NEWLINE}吉拉祈这样的精灵都太危险了,{CLEAR}请冠军大人收服它,{CLEAR}让它有个可靠的归宿吧。",
+   "en": "Legend or not, a Pokémon like Jirachi{NEWLINE}is too dangerous. Champion, please{CLEAR}catch it and give it a safe home.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "{VAR:0103:0}『好,那就由我来{NEWLINE}照顾吉拉祈吧。",
+   "en": "{VAR:0103:0}: All right.{NEWLINE}I’ll look after Jirachi.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "切,事到如今跟你拼了！",
+   "en": "Tch, it’s come to this.{NEWLINE}I’ll fight you to the end!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "火箭队万岁！",
+   "en": "Long live Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "吉拉祈好像很喜欢你,{NEWLINE}要带上它一起旅行吗？{SCROLL}",
+   "en": "Jirachi seems to really like you.{NEWLINE}Take it with you on your journey?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "队伍已满,没有吉拉祈的位置了！",
+   "en": "Your party is full. There’s{NEWLINE}no room for Jirachi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "吉拉祈加入了队伍！",
+   "en": "Jirachi joined your party!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "要给吉拉祈起昵称吗？{VAR:0200:0}{SCROLL}",
+   "en": "Give Jirachi a nickname?{VAR:0200:0}{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "昵称叫{VAR:0101:1}{NEWLINE}可以吗？{VAR:0200:0}",
+   "en": "Name it {VAR:0101:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 4 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 72,
+   "zh": "世界之大,{NEWLINE}真是什么样的口袋妖怪都有啊。",
+   "en": "The world sure is big. There are{NEWLINE}all kinds of Pokémon out there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "什么？火箭队！？",
+   "en": "What? Team Rocket?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

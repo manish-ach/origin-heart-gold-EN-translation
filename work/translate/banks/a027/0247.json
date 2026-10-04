@@ -1,0 +1,695 @@
+{
+ "narc": "a027",
+ "bank": 247,
+ "source": "work/extract/v4/a027/0247.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "小赤",
+   "en": "Red",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Default name lists. Hack names: 小赤/赤/赤红 Red, 小智 Ash, 傻东西 Dummy (joke name), 小蓝/蓝 Green, 小叶/叶/叶子 Leaf, 银/小银/坂木银 Silver. The other names are the vanilla JP names in different kanji, so the official US names are kept."
+  },
+  {
+   "id": 1,
+   "zh": "小智",
+   "en": "Ash",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/1"
+  },
+  {
+   "id": 2,
+   "zh": "小赤",
+   "en": "Red",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 3,
+   "zh": "小智",
+   "en": "Ash",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/43"
+  },
+  {
+   "id": 4,
+   "zh": "小赤",
+   "en": "Red",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 5,
+   "zh": "小智",
+   "en": "Ash",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/43"
+  },
+  {
+   "id": 6,
+   "zh": "小赤",
+   "en": "Red",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 7,
+   "zh": "小智",
+   "en": "Ash",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/43"
+  },
+  {
+   "id": 8,
+   "zh": "傻东西",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "傻东西 'silly thing': joke default name."
+  },
+  {
+   "id": 9,
+   "zh": "赤",
+   "en": "Red",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "傻东西",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "赤",
+   "en": "Red",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "傻东西",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "赤",
+   "en": "Red",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "赤红",
+   "en": "Red",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "赤红",
+   "en": "Red",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "赤红",
+   "en": "Red",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "赤红",
+   "en": "Red",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "心灵",
+   "en": "Heart",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/18"
+  },
+  {
+   "id": 19,
+   "zh": "小蓝",
+   "en": "Green",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 8 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 20,
+   "zh": "小叶",
+   "en": "Leaf",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "小蓝",
+   "en": "Green",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 8 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 22,
+   "zh": "小叶",
+   "en": "Leaf",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "小蓝",
+   "en": "Green",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 8 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 24,
+   "zh": "小叶",
+   "en": "Leaf",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "小蓝",
+   "en": "Green",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 8 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 26,
+   "zh": "小叶",
+   "en": "Leaf",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "蓝",
+   "en": "Green",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "叶",
+   "en": "Leaf",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "叶",
+   "en": "Leaf",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "蓝",
+   "en": "Green",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "蓝",
+   "en": "Green",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "叶子",
+   "en": "Leaf",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "叶子",
+   "en": "Leaf",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "蓝",
+   "en": "Green",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "小蓝",
+   "en": "Green",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 8 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 36,
+   "zh": "自己决定",
+   "en": "NEW NAME",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "银",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0254/41 | seed rejected us [ambiguous US match] (candidate US 0254#41; text not kept) | v3 TM: 3 source(s)"
+  },
+  {
+   "id": 38,
+   "zh": "银",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0254/41 | seed rejected us [ambiguous US match] (candidate US 0254#41; text not kept) | v3 TM: 3 source(s)"
+  },
+  {
+   "id": 39,
+   "zh": "银",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0254/41 | seed rejected us [ambiguous US match] (candidate US 0254#41; text not kept) | v3 TM: 3 source(s)"
+  },
+  {
+   "id": 40,
+   "zh": "银",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0254/41 | seed rejected us [ambiguous US match] (candidate US 0254#41; text not kept) | v3 TM: 3 source(s)"
+  },
+  {
+   "id": 41,
+   "zh": "银",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/41"
+  },
+  {
+   "id": 42,
+   "zh": "小银",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0254/41 | seed rejected us [ambiguous US match] (candidate US 0254#41; text not kept) | v3 TM: 2 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 43,
+   "zh": "小银",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0254/41 | seed rejected us [ambiguous US match] (candidate US 0254#41; text not kept) | v3 TM: 2 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 44,
+   "zh": "小银",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0254/41 | seed rejected us [ambiguous US match] (candidate US 0254#41; text not kept) | v3 TM: 2 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 45,
+   "zh": "小银",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0254/41 | seed rejected us [ambiguous US match] (candidate US 0254#41; text not kept) | v3 TM: 2 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 46,
+   "zh": "坂木银",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "坂木银",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "坂木银",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "坂木银",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "阿隆",
+   "en": "Darrell",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "哲夫",
+   "en": "Terell",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/51"
+  },
+  {
+   "id": 52,
+   "zh": "小彻",
+   "en": "Chris",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "广树",
+   "en": "Brad",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "正雄",
+   "en": "Dwight",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/54"
+  },
+  {
+   "id": 55,
+   "zh": "隆夫",
+   "en": "Talon",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "武宏",
+   "en": "Lonny",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 57,
+   "zh": "东悟",
+   "en": "Jess",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/57"
+  },
+  {
+   "id": 58,
+   "zh": "阿仁",
+   "en": "Eric",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 59,
+   "zh": "义直",
+   "en": "Chase",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/59"
+  },
+  {
+   "id": 60,
+   "zh": "灵魂",
+   "en": "Soul",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/60"
+  },
+  {
+   "id": 61,
+   "zh": "清美",
+   "en": "Karla",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "里子",
+   "en": "Britney",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "千惠",
+   "en": "Kelli",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "伊织",
+   "en": "Lindy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/64"
+  },
+  {
+   "id": 65,
+   "zh": "真纪子",
+   "en": "Heidi",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/65"
+  },
+  {
+   "id": 66,
+   "zh": "君子",
+   "en": "Miriam",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "小丽",
+   "en": "Trudy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/67"
+  },
+  {
+   "id": 68,
+   "zh": "顺子",
+   "en": "Aubrey",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/68"
+  },
+  {
+   "id": 69,
+   "zh": "风香",
+   "en": "Krissa",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "理惠",
+   "en": "Naomi",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/70"
+  },
+  {
+   "id": 71,
+   "zh": "节子",
+   "en": "Abby",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "妮可",
+   "en": "Dodie",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/72"
+  },
+  {
+   "id": 73,
+   "zh": "玛美",
+   "en": "Tamara",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "纪子",
+   "en": "Linda",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/65 | seed rejected us [ambiguous US match] (candidate US 0254#65; text not kept)"
+  },
+  {
+   "id": 75,
+   "zh": "由美香",
+   "en": "Fiona",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "桃子",
+   "en": "Mari",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/76"
+  },
+  {
+   "id": 77,
+   "zh": "美铃",
+   "en": "Judy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/77"
+  },
+  {
+   "id": 78,
+   "zh": "自己决定",
+   "en": "NEW NAME",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "明人",
+   "en": "Lewis",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "田恒",
+   "en": "Clint",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "聪介",
+   "en": "Ralph",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 82,
+   "zh": "小望",
+   "en": "Tommy",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "金",
+   "en": "Gold",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/83"
+  },
+  {
+   "id": 84,
+   "zh": "灵魂",
+   "en": "Soul",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/84"
+  },
+  {
+   "id": 85,
+   "zh": "心灵",
+   "en": "Heart",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0254/85"
+  }
+ ]
+}

@@ -1,0 +1,718 @@
+{
+ "narc": "a027",
+ "bank": 120,
+ "source": "work/extract/v4/a027/0120.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "水晶『嗯……这个泥土湿润的感觉,{NEWLINE}就像是被水君踩过一样……",
+   "en": "Crystal: Hmm... The way this{NEWLINE}soil feels damp... It’s just like{CLEAR}where Suicune has stepped...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "水晶『啊,{VAR:0103:0}前辈！",
+   "en": "Crystal: Oh, {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}『看你刚才很认真地{NEWLINE}观察地上的泥土,{CLEAR}是在做什么研究吗？",
+   "en": "{VAR:0103:0}: You were studying the soil{NEWLINE}on the ground really closely just{CLEAR}now. Are you researching something?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "水晶『哎呀也不是什么研究啦。{NEWLINE}我在湛蓝市的时候{CLEAR}仔细调查过水君走过的地方,{CLEAR}发现那附近的泥土{CLEAR}都会呈现一种很微妙的湿度。{CLEAR}刚才我在这里低头系鞋带的时候,{CLEAR}偶然发现这里地上的土{CLEAR}就跟当时在湛蓝市见到的一样,{CLEAR}我就在想水君会不会{CLEAR}目前正在这个冰之通路呢。",
+   "en": "Crystal: Oh, it’s not really{NEWLINE}research. Back in Cianwood{CLEAR}City, I looked carefully at the{CLEAR}places Suicune had passed.{SCROLL}I found that the soil around{NEWLINE}them always had a very{CLEAR}subtle kind of dampness.{SCROLL}Just now, when I bent down here to{NEWLINE}tie my shoelace, I noticed the ground{CLEAR}feels just like it did in Cianwood.{SCROLL}So I was wondering if Suicune might be{NEWLINE}somewhere in the Ice Path right now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0103:0}『你观察地可很真细致,{NEWLINE}如果是我的话{CLEAR}肯定不会注意到地上的泥土。",
+   "en": "{VAR:0103:0}: You really notice the{NEWLINE}details. If it were me, I’d never{CLEAR}have paid any attention to the soil.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "水晶『嘿嘿,这都多亏了空木博士{NEWLINE}平时的悉心指导。{SCROLL}水晶『前辈,我觉得冰之通路里{NEWLINE}应该还有水君留下的痕迹,{CLEAR}我想沿着痕迹调查看看,{CLEAR}说不定会发现什么。{CLEAR}如果前辈也有兴趣的话,{CLEAR}就一起来吧！",
+   "en": "Crystal: Hee hee. That’s all thanks{NEWLINE}to Prof. Elm’s careful teaching.{SCROLL}Crystal: I think Suicune must have left{NEWLINE}more traces inside the Ice Path. I want{CLEAR}to follow them and see what I can find.{SCROLL}If you’re interested{NEWLINE}too, let’s go together!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "今天是咱们第三次决斗,{NEWLINE}你准备好了吗？",
+   "en": "This is our third duel{NEWLINE}today. Are you ready?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "那当然了。{NEWLINE}我今天如果赢了你,{CLEAR}就去拿走冰面那边的冰冷岩石,{CLEAR}到时候你可不要耍赖不认。",
+   "en": "Of course. If I beat you{NEWLINE}today, I’m taking the Icy Rock{CLEAR}on the other side of the ice.{CLEAR}Don’t you dare go back on it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "上两次平手只是你运气好,{NEWLINE}这次赢的肯定是我,{CLEAR}冰冷岩石是属于我的！",
+   "en": "You only tied the last two times{NEWLINE}out of luck. This time I’m winning{CLEAR}for sure. The Icy Rock is mine!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "哼哼,那咱们就走着瞧！",
+   "en": "Heh heh. We’ll see about that!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "还是无法占到优势吗……",
+   "en": "I still can’t get the upper hand...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "上啊冰鬼护！{NEWLINE}去吧暴雪王！",
+   "en": "Go, Glalie! Go, Abomasnow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "冰鬼护『Glaaaa——li！{NEWLINE}暴雪王『Aaaa——bom！",
+   "en": "Glalie: Glaaaa-li! Abomasnow: Aaaa-bom!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "新战术也没讨到便宜啊……",
+   "en": "Even my new tactics{NEWLINE}didn’t get me anywhere...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "要上前搭话吗？",
+   "en": "Talk to them?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "你们在通过对战决定道具归属吗？",
+   "en": "Battling over who gets an item?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Battling to decide who gets an item?'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 16,
+   "zh": "不关我事",
+   "en": "None of my business",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}『你们是在通过对战{NEWLINE}决定冰冷岩石的归属吗？",
+   "en": "{VAR:0103:0}: Are you two battling to{NEWLINE}decide who gets the Icy Rock?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "对啊,有什么问题吗？",
+   "en": "Yeah. Got a problem with that?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "我也想要冰冷岩石",
+   "en": "I want the Icy Rock too",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 20,
+   "zh": "没事,你们继续",
+   "en": "Never mind, carry on",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0103:0}『其实我也想要冰冷岩石,{NEWLINE}所以对战的事能算我一个吗？",
+   "en": "{VAR:0103:0}: Actually, I want the Icy Rock{NEWLINE}too. Can you count me in on the battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "哈啊？{NEWLINE}冰冷岩石可是我们两个同时发现的,{CLEAR}你有什么资格掺和进来啊？",
+   "en": "Huh? The two of us found the{NEWLINE}Icy Rock at the same time. What{CLEAR}right do you have to butt in?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "{VAR:0103:0}『这……好吧。",
+   "en": "{VAR:0103:0}: Well... All right.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "等一下,我有一个主意！",
+   "en": "Wait, I’ve got an idea!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "什么主意？",
+   "en": "What idea?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "既然咱们两个打了这么多次{NEWLINE}都没分胜负,{CLEAR}那不如换个方式。{SCROLL}咱们分别跟这位路过的训练家对战,{NEWLINE}谁要是能以最小的代价赢过他,{CLEAR}冰冷岩石就归谁。{CLEAR}如果这位训练家{CLEAR}能连续击败咱们两个,{CLEAR}那冰冷岩石就归他。{CLEAR}你觉得怎么样？",
+   "en": "We’ve battled so many times{NEWLINE}and never settled it, so let’s{CLEAR}try something different.{SCROLL}We each battle this passing{NEWLINE}Trainer. Whoever beats him at the{CLEAR}lowest cost gets the Icy Rock.{SCROLL}And if this Trainer can beat both{NEWLINE}of us in a row, the Icy Rock{CLEAR}goes to him. What do you say?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "male player (him)"
+  },
+  {
+   "id": 27,
+   "zh": "既然咱们两个打了这么多次{NEWLINE}都没分胜负,{CLEAR}那不如换个方式。{SCROLL}咱们分别跟这位路过的训练家对战,{NEWLINE}谁要是能以最小的代价赢过她,{CLEAR}冰冷岩石就归谁。{CLEAR}如果这位训练家{CLEAR}能连续击败咱们两个,{CLEAR}那冰冷岩石就归她。{CLEAR}你觉得怎么样？",
+   "en": "We’ve battled so many times{NEWLINE}and never settled it, so let’s{CLEAR}try something different.{SCROLL}We each battle this passing{NEWLINE}Trainer. Whoever beats her at the{CLEAR}lowest cost gets the Icy Rock.{SCROLL}And if this Trainer can beat both{NEWLINE}of us in a row, the Icy Rock{CLEAR}goes to her. What do you say?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "female player (her)"
+  },
+  {
+   "id": 28,
+   "zh": "倒是个快速分胜负的好办法。",
+   "en": "That’s a quick way to{NEWLINE}settle it, all right.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "怎么样,只要连续打败我们两个,{NEWLINE}你也有资格获得冰冷岩石。{CLEAR}虽然条件比较苛刻,{CLEAR}但也给你机会了。{CLEAR}你愿意参与吗？",
+   "en": "How about it? Beat us both{NEWLINE}in a row, and you’ve earned{CLEAR}a shot at the Icy Rock too.{SCROLL}The terms are pretty tough, but{NEWLINE}at least it’s a chance. Want in?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "切,不愿意就算了。",
+   "en": "Tch. Fine, suit yourself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "好,那我就做你的第一个对手！",
+   "en": "Good. Then I’ll be your first opponent!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "居然这么厉害,{NEWLINE}我有一种不好的预感……",
+   "en": "You’re that strong? I’ve got{NEWLINE}a bad feeling about this...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "哎呀,早就说你不行了。{NEWLINE}看我的！",
+   "en": "Ugh, I told you you{NEWLINE}weren’t up to it. Watch me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "冰冷岩石对冰系训练家来说{NEWLINE}是不可获取的道具,{CLEAR}我不会把它让给任何人的,{CLEAR}你接招吧！",
+   "en": "For an Ice-type Trainer, the Icy Rock{NEWLINE}is an item you can’t do without. I’m not{CLEAR}handing it over to anyone. Take this!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 不可获取 read as typo for 不可或缺 (indispensable)"
+  },
+  {
+   "id": 35,
+   "zh": "啊……好厉害,{NEWLINE}我从没见过你这么强的人。{CLEAR}冰冷岩石在你手上{CLEAR}肯定能发挥出最大的价值。{CLEAR}你有资格拥有它,{CLEAR}请过去拿吧。",
+   "en": "Ah... Amazing. I’ve never{NEWLINE}seen anyone as strong as you.{SCROLL}The Icy Rock will do the{NEWLINE}most good in your hands. You’ve{CLEAR}earned it. Please, go and take it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "你的实力深不可测,{NEWLINE}冰冷岩石交给你我无话可说。",
+   "en": "Your strength is unfathomable.{NEWLINE}I have no complaints about{CLEAR}the Icy Rock going to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "希望你能借助冰冷岩石,{NEWLINE}充分挖掘冰系精灵的潜力。",
+   "en": "I hope the Icy Rock helps you{NEWLINE}bring out the full potential{CLEAR}of your Ice-type Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "冰鬼护『Glaaaa——li！",
+   "en": "Glalie: Glaaaa-li!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "暴雪王『Aaaa——bom！",
+   "en": "Abomasnow: Aaaa-bom!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "上次跟你的战斗让我印象深刻,{NEWLINE}我想再与你较量一次{CLEAR}验证一下我的进步,{CLEAR}请问你有时间吗？",
+   "en": "Our last battle left a{NEWLINE}big impression on me. I’d like to{CLEAR}face you again to test how much{CLEAR}I’ve improved. Do you have time?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "多谢,那我可要上了！",
+   "en": "Thanks! Here I come, then!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "啊,果然还是敌不过你啊。",
+   "en": "Ah, I still can’t beat you after all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "你是希望单打还是双打呢？",
+   "en": "Would you like singles or doubles?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 45,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 46,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 47,
+   "zh": "单打需要至少两只精灵,{NEWLINE}你身上的精灵数量不够！",
+   "en": "A Double Battle needs{NEWLINE}at least two Pokémon. You{CLEAR}don’t have enough with you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "是你呀,{NEWLINE}最近在对战中有使用冰冷岩石吗？{CLEAR}那可是很珍贵的道具,{CLEAR}你要好好利用它哦。",
+   "en": "Oh, it’s you. Have you been using{NEWLINE}the Icy Rock in your battles{CLEAR}lately? It’s a really precious{CLEAR}item, so make good use of it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0103:0}『这个规则不太公平,{NEWLINE}我不参加了。",
+   "en": "{VAR:0103:0}: These rules{NEWLINE}aren’t very fair. I’m out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "{VAR:0103:0}『没问题,{NEWLINE}只要能获得冰冷岩石,{CLEAR}这都不算什么。",
+   "en": "{VAR:0103:0}: No problem. If it gets{NEWLINE}me the Icy Rock, that’s nothing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "嘿,皮宝宝这玩意儿{NEWLINE}可是个稀罕货,{CLEAR}你是怎么搞到的？",
+   "en": "Hey, a Cleffa’s a rare catch.{NEWLINE}How’d you get your hands on it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "我在44号路看到个小鬼带着它,{NEWLINE}就上前骗那个小鬼说{CLEAR}我是宇宙中心的研究员,{CLEAR}要用火箭把皮宝宝送回家,{CLEAR}她这才依依不舍地把精灵给我。{CLEAR}当时他们分别的那个场面,{CLEAR}真是让我感动到想笑呢。",
+   "en": "I saw a brat with it on Route 44.{NEWLINE}I went up and told her I was a{CLEAR}researcher from the Space Center{CLEAR}and I’d send Cleffa home by rocket.{SCROLL}So she handed it over,{NEWLINE}all sad to let it go.{SCROLL}That tearful goodbye of theirs...{NEWLINE}It was so moving I nearly laughed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "continues the Route 44 Cleffa scene (0397 #10-#22): the fake Space Center researcher"
+  },
+  {
+   "id": 53,
+   "zh": "真是无知的小鬼,{NEWLINE}要是她知道皮皮一家的精灵{CLEAR}都是会捡月亮石的摇钱树,{CLEAR}绝对说什么也不肯送给你。",
+   "en": "What an ignorant brat. If she knew the{NEWLINE}Clefairy family are cash cows that pick{CLEAR}up Moon Stones, she’d never have given{CLEAR}it to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The Cleffa girl scene says 皮皮 (Clefairy) family); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 54,
+   "zh": "但是这个皮宝宝{NEWLINE}现在是咱们的摇钱树了,哈哈哈哈。",
+   "en": "But now this Cleffa is our{NEWLINE}cash cow. Hah hah hah hah!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "要帮那个女孩抢回皮宝宝吗？",
+   "en": "Help the girl get Cleffa back?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "{VAR:0103:0}『好啊,原来你说的{NEWLINE}送皮宝宝回家都是骗人的！",
+   "en": "{VAR:0103:0}: So that’s it! All that talk{NEWLINE}about sending Cleffa home was a lie!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "怎么这样,两个人合力都输了？",
+   "en": "What?! We lost even with{NEWLINE}the two of us together?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "哦,你是当时正巧路过的那个训练家。{NEWLINE}怎么,你听到了能让皮宝宝{CLEAR}捡月亮石发财,{CLEAR}所以想抢过去据为己有吗？",
+   "en": "Oh, you’re the Trainer who{NEWLINE}happened to pass by back then.{CLEAR}What, you heard Cleffa can pick{CLEAR}up Moon Stones and make you rich,{CLEAR}so now you want it for yourself?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "{VAR:0103:0}『呸！别把所有人{NEWLINE}都想得跟你一样贪婪！{CLEAR}我要你现在把皮宝宝交出来{CLEAR}还给那个女孩！",
+   "en": "{VAR:0103:0}: Pah! Don’t think{NEWLINE}everyone’s as greedy as you!{SCROLL}Hand over that Cleffa right now{NEWLINE}so I can give it back to that girl!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "最看不惯你这种假清高的伪君子,{NEWLINE}想抢摇钱树就直说。{CLEAR}至于抢不抢得到,{CLEAR}那就看你的本事了！",
+   "en": "Nothing gets on my nerves like a{NEWLINE}sanctimonious hypocrite like you. If you{CLEAR}want to grab the cash cow, just say so.{SCROLL}As for whether you can take it...{NEWLINE}that depends on how good you are!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "不,好不容易骗来的皮宝宝……",
+   "en": "No... The Cleffa I{NEWLINE}worked so hard to con...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "{VAR:0103:0}『不想被揍就把路让开,{NEWLINE}我要带皮宝宝回去！",
+   "en": "{VAR:0103:0}: If you don’t want{NEWLINE}a beating, get out of the{CLEAR}way. I’m taking Cleffa back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "{VAR:0103:0}『皮宝宝,{NEWLINE}你应该很想你的主人吧？{CLEAR}我现在就带你回去找她。",
+   "en": "{VAR:0103:0}: Cleffa, you must really{NEWLINE}miss your Trainer, right? I’ll{CLEAR}take you back to her right now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "皮宝宝『Cleee——fa！",
+   "en": "Cleffa: Cleee-fa!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "{VAR:0103:0}『事情的经过就是这样,{NEWLINE}所以说那个人根本就是个骗子。",
+   "en": "{VAR:0103:0}: So that’s what happened.{NEWLINE}That man was nothing but a con artist.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "原来是这样吗？！{SCROLL}天啊,要不是你{NEWLINE}皮宝宝真的就被骗子带走了。{CLEAR}非常感谢你救回了皮宝宝,{CLEAR}这颗石头是我身上最贵重的东西,{CLEAR}就送给你当作谢礼吧。",
+   "en": "Is that what happened?!{SCROLL}Oh my gosh, if it weren’t for{NEWLINE}you, a crook really would{CLEAR}have taken Cleffa away.{SCROLL}Thank you so much for saving Cleffa.{NEWLINE}This stone is the most precious thing{CLEAR}I have. Please take it as thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reward stone not named (probably Moon Stone)"
+  },
+  {
+   "id": 67,
+   "zh": "再次感谢你救回皮宝宝,{NEWLINE}让我们能够劫后重逢。谢谢！",
+   "en": "Thank you again for saving Cleffa{NEWLINE}and bringing us back together{CLEAR}after all that. Thank you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "我的搭档出去进货了,{NEWLINE}相信他很快就能带着优质的商品回来。",
+   "en": "My partner went out to pick up{NEWLINE}some stock. I’m sure he’ll be back{CLEAR}soon with some top-quality goods.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "小豪『干嘛？我在这里捉我的精灵,{NEWLINE}你少出来碍眼。",
+   "en": "Goh: What? I’m catching my{NEWLINE}Pokémon here. Get out of my sight.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "铁甲贝『Clooo——ster！",
+   "en": "Cloyster: Clooo-ster!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "你也要去烟墨市挑战龙之道馆吗？{NEWLINE}那里的训练家可都是使用龙系的高手,{CLEAR}普通攻击根本奈何他们不得。{CLEAR}但如果使用冰系技能的话,{CLEAR}就可以对龙系精灵造成可观的伤害。{SCROLL}不过学习冰系技能也是要看天赋的,{NEWLINE}你如果能打败我,{CLEAR}我就可以将珍藏的冰系技能教给你,{CLEAR}助你打败烟墨市的龙之使者们。{CLEAR}怎么样,要向我展示一下你的天赋吗？",
+   "en": "Are you headed to Blackthorn{NEWLINE}City to take on the Dragon Gym{CLEAR}too? The Trainers there are{CLEAR}all masters of Dragon types.{SCROLL}Ordinary attacks can’t touch them. But{NEWLINE}if you use Ice-type moves, you can do{CLEAR}serious damage to Dragon-type Pokémon.{SCROLL}Still, learning Ice-type moves takes{NEWLINE}talent. If you can beat me, I’ll teach{CLEAR}you my prized Ice-type move to help{CLEAR}you beat Blackthorn’s dragon masters.{SCROLL}Well? Want to show me your talent?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "好,就让我看看你有多厉害吧！",
+   "en": "All right, let’s see how good you are!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "真是个厉害的家伙,{NEWLINE}以你的水平不靠我的冰系技能,{CLEAR}应该也可以顺利征服龙之道馆。{CLEAR}不过说好的事就是说好的事,{CLEAR}你如果想学技能「冰针」,{CLEAR}随时可以来找我。",
+   "en": "You’re something else. At your level,{NEWLINE}you could probably conquer the{CLEAR}Dragon Gym without my Ice-type move.{SCROLL}But a deal’s a deal. If you{NEWLINE}want to learn Icicle Spear,{CLEAR}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "冰针的单发威力虽然不高,{NEWLINE}但如果连续命中5次的话,{CLEAR}伤害是非常大的。{CLEAR}你有哪只精灵想学这个技能吗？",
+   "en": "Icicle Spear isn’t very strong{NEWLINE}per hit, but if it lands all 5 times,{CLEAR}it does a ton of damage. Which of{CLEAR}your Pokémon wants to learn it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 76,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it,{NEWLINE}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 77,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住冰针。{SCROLL}",
+   "en": "Sorry... This Pokémon{NEWLINE}can’t learn Icicle Spear.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 79,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会冰针了！{SCROLL}",
+   "en": "This {VAR:0100:0} already{NEWLINE}knows Icicle Spear!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20}, 2{VAR:0201:20}, and{VAR:0201:20}... {VAR:0201:20}... Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl); qa-lints: unified with identical zh elsewhere (zh_variant)"
+  },
+  {
+   "id": 81,
+   "zh": "{VAR:0101:0}学会了冰针！",
+   "en": "{VAR:0101:0} learned Icicle Spear!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会冰针了！",
+   "en": "There! Your {VAR:0100:0}{NEWLINE}has learned Icicle Spear!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的冰针……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习冰针{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to{NEWLINE}learn Icicle Spear...!{SCROLL}But {VAR:0101:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move{NEWLINE}to learn Icicle Spear?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 85,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 86,
+   "zh": "你是要放弃{NEWLINE}让它记住冰针吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Icicle Spear?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "大竹蹦『Meeee——ga！",
+   "en": "Megaree: Meeee-ga!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "qa-lints: unified with identical zh elsewhere (zh_variant)"
+  }
+ ]
+}

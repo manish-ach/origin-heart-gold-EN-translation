@@ -1,0 +1,1380 @@
+{
+ "narc": "a027",
+ "bank": 113,
+ "source": "work/extract/v4/a027/0113.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "阿笔馆主,我听说有一伙人{NEWLINE}强行闯进了呆呆兽之井,{CLEAR}岩铁先生已经带人跟到井里去查看了,{CLEAR}您要不要也去看看怎么回事？",
+   "en": "Bugsy, I heard a gang forced their{NEWLINE}way into Slowpoke Well. Mr. Kurt{CLEAR}has already taken some people{CLEAR}down the well to check. Should you{CLEAR}go and see what’s going on too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "阿笔『有人强闯呆呆兽之井！？{SCROLL}阿笔『偏偏在捕虫工作{NEWLINE}进行到最关键的时候出事,{CLEAR}这可怎么办啊……",
+   "en": "Bugsy: Someone forced their{NEWLINE}way into Slowpoke Well?!{SCROLL}Bugsy: And right when the{NEWLINE}bug-catching is at its most critical{CLEAR}point... What am I going to do...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}『不用担心,{NEWLINE}呆呆兽之井的事{CLEAR}我已经帮岩铁先生解决了。",
+   "en": "{VAR:0103:0}: No need to worry. I{NEWLINE}already helped Mr. Kurt deal{CLEAR}with the Slowpoke Well business.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "阿笔『啊！您是……！{NEWLINE}联盟冠军{VAR:0103:0}先生！？{CLEAR}没想到您居然到桧皮镇来了。{SCROLL}阿笔『您刚才说{NEWLINE}呆呆兽之井的事已经解决了,{CLEAR}那里到底发生了什么啊？",
+   "en": "Bugsy: Ah! You’re...! League{NEWLINE}Champion Mr. {VAR:0103:0}?! I never{CLEAR}thought you’d come to Azalea Town.{SCROLL}Bugsy: You said the Slowpoke{NEWLINE}Well business is taken care of.{CLEAR}What on earth happened there?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Male-player variant (先生); #4 female (小姐). Also #15/#35, #36/#37, #144/#145, #146/#147."
+  },
+  {
+   "id": 4,
+   "zh": "阿笔『啊！您是……！{NEWLINE}联盟冠军{VAR:0103:0}小姐！？{CLEAR}没想到您居然到桧皮镇来了。{SCROLL}阿笔『您刚才说{NEWLINE}呆呆兽之井的事已经解决了,{CLEAR}那里到底发生了什么啊？",
+   "en": "Bugsy: Ah! You’re...! League{NEWLINE}Champion Miss {VAR:0103:0}?! I never{CLEAR}thought you’d come to Azalea Town.{SCROLL}Bugsy: You said the Slowpoke{NEWLINE}Well business is taken care of.{CLEAR}What on earth happened there?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:0103:0}『是火箭队强闯呆呆兽之井,{NEWLINE}不过岩铁先生已经带着我们{CLEAR}把火箭队给赶跑了。",
+   "en": "{VAR:0103:0}: Team Rocket forced their{NEWLINE}way into Slowpoke Well. But Mr. Kurt{CLEAR}led us in and we drove them out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "阿笔『原来如此,我也听说了{NEWLINE}最近火箭队又开始活跃的传闻,{CLEAR}只是没想到他们居然会找{CLEAR}我们这么偏远的桧皮镇下手,{CLEAR}是我太大意了。{SCROLL}阿笔『幸好有您帮忙才没出事,{NEWLINE}真的是太感谢了。",
+   "en": "Bugsy: I see. I’d also heard rumors{NEWLINE}that Team Rocket was active again{CLEAR}lately. I just never thought{CLEAR}they’d go after a remote place{CLEAR}like Azalea Town. I was careless.{SCROLL}Bugsy: Luckily you were{NEWLINE}there to help, so nothing bad{CLEAR}happened. Thank you so much.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "阿笔『其实我现在正带领{NEWLINE}桧皮道馆的训练家们{CLEAR}捕捉突然在桐树林泛滥的虫精灵。{CLEAR}既然您正巧来到这里,{CLEAR}我能邀请您与我们一起捕捉吗？",
+   "en": "Bugsy: Actually, I’m leading the Azalea{NEWLINE}Gym Trainers right now to catch the{CLEAR}Bug Pokémon that suddenly flooded Ilex{CLEAR}Forest. Since you happen to be here,{CLEAR}may I invite you to help us catch them?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "阿笔『请不要这么说嘛,{NEWLINE}难得能见到最强训练家,{CLEAR}请让我们见识一下您的风采,好吗？",
+   "en": "Bugsy: Please don’t say that. It’s so{NEWLINE}rare to meet the strongest Trainer.{CLEAR}Won’t you let us see you in action?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "阿笔『谢谢您答应我的无礼要求。{NEWLINE}请您随我来,我跟您讲解一下{CLEAR}如何捕捉这些狡猾的小家伙。",
+   "en": "Bugsy: Thank you for agreeing{NEWLINE}to my rude request. Please{CLEAR}follow me. I’ll explain how to{CLEAR}catch these sly little things.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "阿笔『我们要抓的虫精灵,{NEWLINE}都像那只狩猎凤蝶一样,{CLEAR}趴在树木的枝头吮吸树汁。{CLEAR}它们非常警觉,{CLEAR}直接抓捕是不行的。{SCROLL}阿笔『经过多次尝试失败后,{NEWLINE}我和伙伴们想出了一个可行的方法,{CLEAR}那就是用「蜂蜜」涂抹在{CLEAR}虫精灵附近的「苔藓石头」上,{CLEAR}虫精灵闻到「附近」的蜂蜜气息后,{CLEAR}会以「最快的速度」跳到地面,{CLEAR}然后选择「最短的路径」{CLEAR}跑向石头吮吸蜂蜜。{CLEAR}在这个过程中我们不能出现在{CLEAR}精灵的行进路线上,{CLEAR}否则他们就会逃走。",
+   "en": "Bugsy: The Bug Pokémon we’re catching{NEWLINE}are all like that Beautifly there.{CLEAR}They cling to the branches and suck{CLEAR}the sap. They’re very alert, so{CLEAR}grabbing them directly won’t work.{SCROLL}Bugsy: After failing many times, my{NEWLINE}team and I came up with a method{CLEAR}that works. We spread Honey on a{CLEAR}mossy rock near the Bug Pokémon.{CLEAR}When they smell Honey nearby, they{CLEAR}jump down to the ground as fast as{CLEAR}they can and take the shortest path{CLEAR}to the rock to lick the Honey. While{CLEAR}they do that, we can’t be anywhere{CLEAR}on their route, or they’ll run away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "阿笔『现在我向您示范一下{NEWLINE}如何抓住前面那只狩猎凤蝶。",
+   "en": "Bugsy: Now let me show you how{NEWLINE}to catch that Beautifly up ahead.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "阿笔『首先是涂上蜂蜜……",
+   "en": "Bugsy: First, spread the Honey...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "阿笔『然后静静地等待虫精灵过来。",
+   "en": "Bugsy: Then quietly wait for{NEWLINE}the Bug Pokémon to come.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "狩猎凤蝶『Beeeu——tii！",
+   "en": "Beautifly: Beeeu-tii!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "阿笔『{VAR:0103:0}先生,{NEWLINE}这块石头附近的精灵就交给我吧。",
+   "en": "Bugsy: Mr. {VAR:0103:0}, leave the{NEWLINE}Pokémon near this rock to me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "阿笔『趁现在,上啊飞天螳螂！",
+   "en": "Bugsy: Now! Go, Scyther!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "阿笔『就是现在,精灵球！",
+   "en": "Bugsy: Right now! Poké Ball!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "阿笔『基本就是这样了,{NEWLINE}关键点在于观察好周遭的精灵后,{CLEAR}选择合适的位置涂抹蜂蜜。{SCROLL}阿笔『这是抓捕必须的蜂蜜,{NEWLINE}请您拿好。",
+   "en": "Bugsy: That’s basically it. The key{NEWLINE}is to watch the Pokémon around{CLEAR}you carefully, then pick the{CLEAR}right spot to spread the Honey.{SCROLL}Bugsy: Here’s the Honey you’ll{NEWLINE}need to catch them. Please take it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "阿笔『现在森林里{NEWLINE}大概还剩下5只虫精灵。{CLEAR}咱们先分头抓捕精灵,{CLEAR}等处理完全部5只后{CLEAR}再回到这里汇合。{SCROLL}阿笔『那么我先去寻找虫精灵了,{NEWLINE}请您也加油吧。",
+   "en": "Bugsy: There should be about five Bug{NEWLINE}Pokémon left in the forest. Let’s split{CLEAR}up and catch them, and once all five{CLEAR}are dealt with, we’ll meet back here.{SCROLL}Bugsy: I’ll go look for Bug Pokémon,{NEWLINE}then. Good luck to you too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "一块长满苔藓的石头。",
+   "en": "A rock covered in moss.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "要往上面涂蜂蜜吗？",
+   "en": "Spread Honey on it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "音箱蟀高兴地吮吸着石头上的蜂蜜。",
+   "en": "Kricketune is happily licking{NEWLINE}the Honey on the rock.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "音箱蟀逃走了。",
+   "en": "Kricketune ran away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "独角蛛高兴地吮吸着石头上的蜂蜜。",
+   "en": "Ariados is happily licking{NEWLINE}the Honey on the rock.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "独角蛛逃走了。",
+   "en": "Ariados ran away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "结草儿逃走了。",
+   "en": "Burmy ran away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "温馨揭示板！{SCROLL}前面是桐树林中的林中之林,{NEWLINE}——时光森林。{CLEAR}据说森林之神就住在里面,{CLEAR}但是请不要妄图接近森林之神,{CLEAR}不然就会迷失在时光的夹缝中。",
+   "en": "A Friendly Notice!{SCROLL}Ahead is the forest within Ilex{NEWLINE}Forest: the Forest of Time. They{CLEAR}say the god of the forest lives{CLEAR}there. But please don’t try to{CLEAR}approach the god of the forest, or{CLEAR}you’ll be lost in the cracks of time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "钳尾蝎逃走了。",
+   "en": "Skorupi ran away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "结草儿高兴地吮吸着石头上的蜂蜜。",
+   "en": "Burmy is happily licking{NEWLINE}the Honey on the rock.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "钳尾蝎高兴地吮吸着石头上的蜂蜜。",
+   "en": "Skorupi is happily licking{NEWLINE}the Honey on the rock.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "音箱蟀正在吮吸蜂蜜,{NEWLINE}要趁机抓捕吗？",
+   "en": "Kricketune is licking the Honey.{NEWLINE}Try to catch it while you can?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "结草儿正在吮吸蜂蜜,{NEWLINE}要趁机抓捕吗？",
+   "en": "Burmy is licking the Honey.{NEWLINE}Try to catch it while you can?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "钳尾蝎正在吮吸蜂蜜,{NEWLINE}要趁机抓捕吗？",
+   "en": "Skorupi is licking the Honey.{NEWLINE}Try to catch it while you can?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "独角蛛正在吮吸蜂蜜,{NEWLINE}要趁机抓捕吗？",
+   "en": "Ariados is licking the Honey.{NEWLINE}Try to catch it while you can?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "阿笔『{VAR:0103:0}小姐,{NEWLINE}这块石头附近的精灵就交给我吧。",
+   "en": "Bugsy: Miss {VAR:0103:0}, leave the{NEWLINE}Pokémon near this rock to me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "阿笔『{VAR:0103:0}先生,{NEWLINE}桐树林突然泛滥的虫精灵{CLEAR}已经全部处理完成了。",
+   "en": "Bugsy: Mr. {VAR:0103:0}, the Bug{NEWLINE}Pokémon that suddenly flooded Ilex{CLEAR}Forest have all been dealt with.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "阿笔『{VAR:0103:0}小姐,{NEWLINE}桐树林突然泛滥的虫精灵{CLEAR}已经全部处理完成了。",
+   "en": "Bugsy: Miss {VAR:0103:0}, the Bug{NEWLINE}Pokémon that suddenly flooded Ilex{CLEAR}Forest have all been dealt with.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "阿笔『虽然您这次没有抓到精灵,{NEWLINE}但是多亏您涂抹蜂蜜和驱赶精灵,{CLEAR}我和同伴们才能将它们一网打尽。",
+   "en": "Bugsy: You didn’t catch any Pokémon{NEWLINE}this time, but thanks to you spreading{CLEAR}Honey and driving them out, my team{CLEAR}and I rounded up every last one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "阿笔『我现在要跟伙伴回道馆了。{NEWLINE}如果您哪天有时间,{CLEAR}请务必来桧皮道馆{CLEAR}给我们指导一下对战技巧。{CLEAR}我们随时恭候您的大驾。",
+   "en": "Bugsy: I’m heading back to the Gym{NEWLINE}with my team now. If you ever have{CLEAR}time, please come to the Azalea Gym{CLEAR}and give us some battle pointers.{CLEAR}We’ll be happy to welcome you anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "阿笔『您这次亲手处理了1只精灵,{NEWLINE}其余的精灵在您的驱赶下,{CLEAR}已经由我和同伴们一网打尽了。{CLEAR}感谢您的帮忙,{CLEAR}请收下我的一点心意。",
+   "en": "Bugsy: You dealt with 1 Pokémon{NEWLINE}yourself this time, and with you driving{CLEAR}out the rest, my team and I rounded{CLEAR}them all up. Thank you for your{CLEAR}help. Please accept this small token.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Bug-catching result: #38 none / #40 one / #41 two / #42 most caught."
+  },
+  {
+   "id": 41,
+   "zh": "阿笔『您这次亲手处理了2只精灵,{NEWLINE}其余的精灵在您的驱赶下,{CLEAR}已经由我和同伴们一网打尽了。{CLEAR}感谢您的帮忙,{CLEAR}请收下我的一点心意。",
+   "en": "Bugsy: You dealt with 2 Pokémon{NEWLINE}yourself this time, and with you driving{CLEAR}out the rest, my team and I rounded{CLEAR}them all up. Thank you for your{CLEAR}help. Please accept this small token.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "阿笔『您先是机智地引诱精灵,{NEWLINE}然后趁其不备攻陷它们,{CLEAR}这种熟练的身手{CLEAR}连我这个昆虫专家都自叹不如。{CLEAR}真不愧是我们的冠军啊！{CLEAR}为了表达我的敬意,{CLEAR}这个送给您吧。",
+   "en": "Bugsy: First you cleverly lured{NEWLINE}the Pokémon, then you caught them{CLEAR}off guard. Even I, a Bug expert,{CLEAR}can’t match skills like that. You{CLEAR}really are our Champion! As a mark{CLEAR}of my respect, please take this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "阿笔『好啦,今天的工作到此结束,{NEWLINE}大家回道馆休息一下吧！",
+   "en": "Bugsy: All right, that’s it for{NEWLINE}today’s work. Everyone, let’s{CLEAR}head back to the Gym and rest!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "哇,你就是联盟冠军{VAR:0103:0}呀,{NEWLINE}如果不是阿笔馆主这么称呼你,{CLEAR}我都认不出来呢。",
+   "en": "Whoa, so you’re League Champion{NEWLINE}{VAR:0103:0}! If Bugsy hadn’t called you{CLEAR}that, I wouldn’t have recognized you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "我们会守在这里,{NEWLINE}把受惊逃跑的精灵给一网打尽。",
+   "en": "We’ll stand guard here and round up{NEWLINE}any Pokémon that run off in a panic.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "为了完成这次捕捉任务,{NEWLINE}我们收集了不少蜂蜜。{CLEAR}如果你的蜂蜜用完了,{CLEAR}可以从我这里买哦。",
+   "en": "We gathered a lot of Honey for{NEWLINE}this catching job. If you run{CLEAR}out, you can buy some from me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "买1个蜂蜜{NEWLINE}500元",
+   "en": "1 Honey{NEWLINE}$500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 48,
+   "zh": "买3个蜂蜜{NEWLINE}1500元",
+   "en": "3 Honey{NEWLINE}$1500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 49,
+   "zh": "买5个蜂蜜{NEWLINE}2500元",
+   "en": "5 Honey{NEWLINE}$2500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 50,
+   "zh": "买10个蜂蜜{NEWLINE}5000元",
+   "en": "10 Honey{NEWLINE}$5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 51,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s)",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 52,
+   "zh": "想买的话随时可以来找我。",
+   "en": "If you want to buy some,{NEWLINE}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "这是你的蜂蜜,请拿好。",
+   "en": "Here’s your Honey.{NEWLINE}Take good care of it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "这些蜂蜜是我们很辛苦才收集到的,{NEWLINE}钱不够的话不能卖给你。",
+   "en": "We worked hard to gather this{NEWLINE}Honey. If you don’t have enough{CLEAR}money, I can’t sell it to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "毒粉蛾『Duuu——to！",
+   "en": "Dustox: Duuu-to!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "音箱蟀『Krii——ke！",
+   "en": "Kricketune: Krii-ke!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "结草儿『Buu——my！",
+   "en": "Burmy: Buu-my!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "钳尾蝎『Skooo——ru！",
+   "en": "Skorupi: Skooo-ru!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "独角蛛『Aaaa——ria！",
+   "en": "Ariados: Aaaa-ria!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "飞天螳螂『Scyyy——the！",
+   "en": "Scyther: Scyyy-the!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); Same zh as 0319 #91; English copied."
+  },
+  {
+   "id": 61,
+   "zh": "琴音『时光穿越,{NEWLINE}听上去感觉还蛮好的！{SCROLL}",
+   "en": "Lyra: Time travel... It{NEWLINE}has a nice ring to it!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0115/61; US ‘sure doesn’t feel good’ contradicts zh (听上去感觉还蛮好的); retranslated. #62-#67 are US Lyra lines kept (vanilla Celebi event)."
+  },
+  {
+   "id": 62,
+   "zh": "啊！我的玛力露！{SCROLL}",
+   "en": "Hey, my Marill!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0115/62; modernised from US 0115#62"
+  },
+  {
+   "id": 63,
+   "zh": "啊！我的玛力露！{SCROLL}",
+   "en": "Hey, my Marill!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0115/63; modernised from US 0115#63"
+  },
+  {
+   "id": 64,
+   "zh": "我还当再也没办法见面了呢！{SCROLL}那也就是说{NEWLINE}我们回到了原来的时代了！{SCROLL}",
+   "en": "I thought I would never see you again!{SCROLL}Wait a sec...{NEWLINE}So we must be back to our time!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0115/64"
+  },
+  {
+   "id": 65,
+   "zh": "我好想见你啊！{SCROLL}也就是说{NEWLINE}我们回到了原来的时代！{SCROLL}",
+   "en": "I missed you so much!{SCROLL}Wait a sec...{NEWLINE}So we must be back to our time!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0115/65"
+  },
+  {
+   "id": 66,
+   "zh": "真是不可思议的体验啊,{NEWLINE}我们回到了原来的时代,{CLEAR}也阻止了火箭队的阴谋,{CLEAR}只要结局好就什么都无所谓了！{CLEAR}对吧？{SCROLL}跟{VAR:0103:0}一起{NEWLINE}开始一段大冒险,{CLEAR}还是蛮有趣的！{CLEAR}但是今天我是真累了,{SCROLL}我要回去了。{NEWLINE}再见！{SCROLL}",
+   "en": "It was all so bizarre.{NEWLINE}But now that we are safely back to our{CLEAR}time and Team Rocket’s terrible design{CLEAR}fell through, we can say...{CLEAR}all’s well that ends well, right?{SCROLL}{VAR:0103:0}, you never cease to{NEWLINE}inspire great adventures!{SCROLL}It sure was an exhausting day, though.{NEWLINE}I better get going.{SCROLL}See you!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0115/66"
+  },
+  {
+   "id": 67,
+   "zh": "真是不可思议的体验啊,{NEWLINE}我们回到了原来的时代,{CLEAR}也阻止了火箭队的阴谋,{CLEAR}只要结局好就什么都无所谓了！{CLEAR}对吧？{SCROLL}跟{VAR:0103:0}一起{NEWLINE}开始一段大冒险,{CLEAR}还是蛮有趣的！{CLEAR}但是今天我是真累了,{SCROLL}我要回去了。{NEWLINE}再见！{SCROLL}",
+   "en": "It was all so bizarre.{NEWLINE}But now that we are safely back to our{CLEAR}time and Team Rocket’s terrible design{CLEAR}fell through, we can say...{CLEAR}all’s well that ends well, right?{SCROLL}{VAR:0103:0}, you never cease to{NEWLINE}inspire great adventures!{SCROLL}It sure was an exhausting day, though.{NEWLINE}I better get going.{SCROLL}See you!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0115/67"
+  },
+  {
+   "id": 68,
+   "zh": "雪城『啊……好疼！",
+   "en": "Sammy: Ow... That hurts!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "雪城『这里是……桐树林？{NEWLINE}好像有点不太一样……",
+   "en": "Sammy: This is... Ilex Forest?{NEWLINE}Something seems a little different...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "你是……那时候的那个少年——雪城？",
+   "en": "You’re... that boy from{NEWLINE}back then... Sammy?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Sammy (雪城) arrives from 40 years ago; the old ranger was his ‘Big Sis’ back then. Sammy calls her 老婆婆 → ‘Granny’, then corrects to ‘Big Sis’ (#84)."
+  },
+  {
+   "id": 71,
+   "zh": "雪城『老婆婆,你怎么会知道我的名字？",
+   "en": "Sammy: Granny, how{NEWLINE}do you know my name?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "我年轻的时候{NEWLINE}是桐树林的护林员啊,{CLEAR}你有段时间经常来桐树林{CLEAR}观察野生的口袋妖怪,{CLEAR}咱们也就经常一起在森林野餐,{CLEAR}可是后来你突然就不辞而别了。{CLEAR}你是那个时候的少年雪城吧？",
+   "en": "When I was young, I was a ranger{NEWLINE}here in Ilex Forest. For a while you{CLEAR}often came to Ilex Forest to watch{CLEAR}wild Pokémon, and we’d often have{CLEAR}picnics in the forest together.{CLEAR}But then one day you vanished{CLEAR}without a word. You’re young{CLEAR}Sammy from back then, aren’t you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "雪城『啊！你是护林员姐姐！{NEWLINE}昨天我明明还见过你,{CLEAR}怎么今天你就变得……{CLEAR}变得苍老了这么多？",
+   "en": "Sammy: Ah! You’re Big Sis Ranger!{NEWLINE}I saw you just yesterday. How did{CLEAR}you get... get so much older today?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "距离我上次见你,已经是40年前了,{NEWLINE}苍老也是正常的。",
+   "en": "It’s been 40 years since I last saw{NEWLINE}you. Of course I’ve gotten older.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "雪城『40年！？可是……",
+   "en": "Sammy: 40 years?! But...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "雪城『对了,雪拉比呢？我刚刚跟雪拉比{NEWLINE}在时光森林里遇到了坏人,{CLEAR}雪拉比为了救我受伤了。{CLEAR}我现在必须要找到雪拉比为它治疗。",
+   "en": "Sammy: Oh right, where’s Celebi?{NEWLINE}Celebi and I ran into bad guys{CLEAR}in the Forest of Time just now,{CLEAR}and Celebi got hurt saving me. I{CLEAR}have to find Celebi and heal it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "原来如此,你刚刚跟雪拉比在一起,{NEWLINE}并且遇到了危险,{CLEAR}这样就说得通了。",
+   "en": "I see. You were just with Celebi, and{NEWLINE}you were in danger. That explains it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "雪城『说得通？",
+   "en": "Sammy: Explains it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "桐树林附近的居民间{NEWLINE}流传着这样的传说：{CLEAR}森林之神雪拉比{CLEAR}能够自由地穿梭于不同时空。{SCROLL}你说刚才跟雪拉比遇到危险,{NEWLINE}那么情急之下,雪拉比可能为了保护你,{CLEAR}就带着你一起从40年前穿越过来了。",
+   "en": "The people living near Ilex Forest{NEWLINE}have a legend: Celebi, the god of the{CLEAR}forest, can travel freely through time.{SCROLL}You say you and Celebi were in danger{NEWLINE}just now. So in a pinch, Celebi may{CLEAR}have brought you along to protect{CLEAR}you, all the way from 40 years ago.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "雪城『带着我穿越了？{NEWLINE}这么说雪拉比也一起来到了这个时空？",
+   "en": "Sammy: It brought me through time?{NEWLINE}So Celebi came to this time too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "有可能吧,{NEWLINE}毕竟雪拉比穿越时空只是传说。{CLEAR}没有人知道具体的细节。{SCROLL}你穿越之前最后一次看到雪拉比,{NEWLINE}是在哪里？",
+   "en": "Maybe. After all, Celebi’s{NEWLINE}time travel is only a legend.{CLEAR}Nobody knows the details.{SCROLL}Where did you last see Celebi{NEWLINE}before you came through?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "雪城『就是在前面的时光森林,{NEWLINE}我和雪拉比被坏人追,{CLEAR}然后白光一闪我就到了这里。",
+   "en": "Sammy: In the Forest of Time up ahead.{NEWLINE}Celebi and I were being chased by{CLEAR}bad guys, and then there was a flash{CLEAR}of white light and I ended up here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "那咱们就去时光森林看看,{NEWLINE}或许雪拉比就在那里。",
+   "en": "Then let’s go look in the Forest{NEWLINE}of Time. Maybe Celebi is there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "雪城『好的,婆婆……{NEWLINE}哦不,姐姐！",
+   "en": "Sammy: Okay, Granny... I mean, Big Sis!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "哈哈,走吧。",
+   "en": "Ha ha, let’s go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "哦哦,这不是是冠军大人嘛？{NEWLINE}今天怎么有空来桐树林玩了？",
+   "en": "Oh ho, isn’t this the Champion? What{NEWLINE}brings you to Ilex Forest today?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "{VAR:0103:0}『火箭队最近{NEWLINE}在捕捉传说中的精灵,{CLEAR}为了提前阻止他们的阴谋,{CLEAR}我特地来桐树林看看有没有异常。",
+   "en": "{VAR:0103:0}: Team Rocket has been catching{NEWLINE}legendary Pokémon lately. I came to{CLEAR}check Ilex Forest for anything unusual,{CLEAR}to stop their scheme ahead of time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "哈哈,我们桐树林有森林之神雪拉比{NEWLINE}和净化一切的洁咪守护,{CLEAR}那些大坏蛋才不敢来……",
+   "en": "Ha ha, our Ilex Forest is protected{NEWLINE}by Celebi, god of the forest, and by{CLEAR}Shaymin, which purifies everything.{CLEAR}Those crooks wouldn’t dare come...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "冠军大人啊,森林之神雪拉比{NEWLINE}在它原来的时空似乎遇到了麻烦,{CLEAR}您有时间的话也来看看是怎么回事吧。",
+   "en": "Champion, it seems Celebi, god of{NEWLINE}the forest, has run into trouble{CLEAR}in its own time. If you have time,{CLEAR}please come and see what’s going on.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "你好啊,冠军大人。我后面这片树林{NEWLINE}是被称为林中之林的时光森林,{CLEAR}据说森林之神雪拉比就住在里面。{SCROLL}不过这都是我年轻当护林员时{NEWLINE}听来的传说,做不得准的。",
+   "en": "Hello, Champion. The woods behind me{NEWLINE}are the forest within the forest,{CLEAR}the Forest of Time. They say Celebi,{CLEAR}god of the forest, lives inside.{SCROLL}But those are just legends I heard{NEWLINE}back when I was a young ranger. I{CLEAR}wouldn’t put too much stock in them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "雪拉比居然能跟传说的一样穿越时空,{NEWLINE}真是太神奇了。",
+   "en": "Celebi really can travel through time,{NEWLINE}just like the legend says. How amazing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "小梅『小女子名叫小梅,{NEWLINE}乃是缘朱市的一名舞女,{CLEAR}今日与舍妹相约在桐树林北出口见面,{CLEAR}不料却在此迷了路。{CLEAR}敢问尊驾可知如何离开这片森林？",
+   "en": "Koume: This humble maiden is named{NEWLINE}Koume, a Kimono Girl of Ecruteak{CLEAR}City. Today I was to meet my younger{CLEAR}sister at the north exit of Ilex{CLEAR}Forest, but I have lost my way. May{CLEAR}I ask, honored traveler, whether{CLEAR}you know how to leave this forest?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "小梅 = Koume (Kimono Girl, archaic speech; 小女子 → ‘this humble maiden’ as Tamao, 尊驾 → ‘honored traveler’). Menu #93-#95 directions; #103/#104 lead her out or not."
+  },
+  {
+   "id": 93,
+   "zh": "向前直走",
+   "en": "Go straight ahead",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 94,
+   "zh": "向北拐弯",
+   "en": "Turn north",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 95,
+   "zh": "我路不熟,别问我",
+   "en": "I don’t know the way",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 96,
+   "zh": "小梅『原来如此,多谢尊驾指点迷津。{NEWLINE}小女子还要去森林出口与舍妹汇合,{CLEAR}就先与尊驾别过了。",
+   "en": "Koume: I see. Many thanks for showing{NEWLINE}me the way, honored traveler.{CLEAR}This humble maiden must go meet{CLEAR}her sister at the forest exit,{CLEAR}so I shall take my leave of you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "小梅『唉,小女子在此地几经折返,{NEWLINE}仍未找到离开之法。{CLEAR}这可如何是好啊……",
+   "en": "Koume: Alas, this humble maiden{NEWLINE}has doubled back here time and{CLEAR}again, yet still cannot find the{CLEAR}way out. Whatever shall I do...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "小梅『竟让尊驾与舍妹如此费心,{NEWLINE}小女子当真羞愧万分。{CLEAR}尊驾不辞劳苦的一片热情,{CLEAR}小女子感激不尽。{CLEAR}烦请尊驾这就引小女子出去吧。",
+   "en": "Koume: To have troubled you and{NEWLINE}my sister so... This humble maiden{CLEAR}is truly ashamed. Your tireless{CLEAR}kindness, honored traveler, leaves{CLEAR}me endlessly grateful. Might I{CLEAR}trouble you to lead me out now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "{VAR:0103:0}『小梅小姐,从这里出去{NEWLINE}就可以离开桐树林了,{CLEAR}你的妹妹就在前面通道等你。",
+   "en": "{VAR:0103:0}: Miss Koume, this way leads{NEWLINE}out of Ilex Forest. Your sister is{CLEAR}waiting for you in the passage up ahead.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "小梅『如此劳烦尊驾,{NEWLINE}小女子实在过意不去。{CLEAR}这点小礼物是小女子的一片心意,{CLEAR}请尊驾收下吧。",
+   "en": "Koume: To trouble you so, honored{NEWLINE}traveler... This humble maiden feels{CLEAR}truly sorry. This small gift is a token{CLEAR}of my gratitude. Please accept it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "小梅『小女子这就去与妹妹会合,{NEWLINE}改日再与尊驾相见。",
+   "en": "Koume: This humble maiden shall{NEWLINE}go meet her sister now. Until we{CLEAR}meet again, honored traveler.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "小梅『小女子天生路痴,{NEWLINE}虽承蒙尊驾指点,却依然迷路,{CLEAR}内心甚是羞愧。{SCROLL}小梅『请容小女子在此稍事休息,{NEWLINE}之后再慢慢寻找出路。",
+   "en": "Koume: This humble maiden was{NEWLINE}born with no sense of direction.{CLEAR}Even with your guidance I still{CLEAR}lost my way. I am deeply ashamed.{SCROLL}Koume: Please allow me to rest{NEWLINE}here a while. I shall look for{CLEAR}the way out slowly afterward.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "你妹妹让我带你出去",
+   "en": "Your sister sent me for you",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 104,
+   "zh": "你自己想办法出去吧",
+   "en": "Find your own way out",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 105,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 106,
+   "zh": "以前有位爱用头撞树的大哥,{NEWLINE}在这里把树叶撞得簌簌落下。{CLEAR}我在看落叶的时候,突然想出了一个{CLEAR}用空中飞舞的叶子攻击的招式,{CLEAR}叫作「飞叶风暴」。{SCROLL}你如果有精灵想学这招飞叶风暴的话,{NEWLINE}只要给我一个叶之石,{CLEAR}我就可以教你哦。{SCROLL}怎么样,要学吗？",
+   "en": "There used to be a guy here who loved{NEWLINE}to headbutt trees and knock the leaves{CLEAR}down in showers. Watching the falling{CLEAR}leaves, I suddenly came up with a{CLEAR}move that attacks with leaves whirling{CLEAR}through the air. I call it Leaf Storm.{SCROLL}If you have a Pokémon that wants{NEWLINE}to learn Leaf Storm, just give me{CLEAR}a Leaf Stone and I’ll teach it.{SCROLL}So, want to learn it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0115/14; Same zh as 0048 #139; English copied."
+  },
+  {
+   "id": 108,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it,{NEWLINE}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl); Same zh as 0731 #4; English copied."
+  },
+  {
+   "id": 109,
+   "zh": "你并没有叶之石啊,{NEWLINE}等有了再来找我吧。",
+   "en": "You don’t have a Leaf Stone.{NEWLINE}Come back when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住飞叶风暴。{SCROLL}",
+   "en": "Sorry... This Pokémon{NEWLINE}can’t learn Leaf Storm.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0115/16; US line named Headbutt (vanilla tutor); retranslated for Leaf Storm."
+  },
+  {
+   "id": 111,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl); Same zh as 0048 #127; English copied."
+  },
+  {
+   "id": 112,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会飞叶风暴了！{SCROLL}",
+   "en": "This {VAR:0100:0} already{NEWLINE}knows Leaf Storm!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0115/21; Same zh as 0048 #129; English copied."
+  },
+  {
+   "id": 114,
+   "zh": "{VAR:0101:0}学会了飞叶风暴！",
+   "en": "{VAR:0101:0} learned Leaf Storm!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会飞叶风暴了！{SCROLL}那么按照约定,{NEWLINE}1个叶之石我拿走了。",
+   "en": "And with that, your {VAR:0100:0}{NEWLINE}has learned Leaf Storm!{SCROLL}As we agreed, I’ll take 1 Leaf Stone.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的飞叶风暴……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习飞叶风暴{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to{NEWLINE}learn Leaf Storm...!{SCROLL}But {VAR:0101:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move{NEWLINE}to learn Leaf Storm?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0115/18; Same zh as 0048 #133; English copied."
+  },
+  {
+   "id": 118,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all{NEWLINE}about {VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl); Same zh as 0048 #135; English copied."
+  },
+  {
+   "id": 119,
+   "zh": "你是要放弃{NEWLINE}让它记住飞叶风暴吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Leaf Storm?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "我是谁？我在哪？",
+   "en": "Who am I? Where am I?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "抱歉,我以前总是拿头撞树,{NEWLINE}以此来练习头突技能,{CLEAR}结果把脑袋撞得不好使了。{SCROLL}你年纪轻轻的{NEWLINE}可得注意保护自己的脑袋啊,{CLEAR}这个头盔你拿着,{CLEAR}想用头撞树的时候就带上它吧。",
+   "en": "Sorry. I used to headbutt trees{NEWLINE}all the time to practice Headbutt,{CLEAR}and I knocked my brain loose.{SCROLL}You’re still young, so take care{NEWLINE}of your head. Here, take this{CLEAR}helmet. Put it on whenever you{CLEAR}feel like headbutting a tree.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "头盔: which item the script gives isn't visible (Rocky Helmet?); written ‘this helmet’."
+  },
+  {
+   "id": 122,
+   "zh": "我再也不拿头撞树了……",
+   "en": "I’ll never headbutt a tree again...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "线球『Spiii——na！{SCROLL}线球很高兴。",
+   "en": "Spinarak: Spiii-na!{SCROLL}Spinarak looks happy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "我在桐树林找了好久,{NEWLINE}都没有找到虫精灵。{CLEAR}唉,好想抓一只虫精灵当伙伴啊。",
+   "en": "I’ve searched Ilex Forest for ages{NEWLINE}and haven’t found a single Bug{CLEAR}Pokémon. Sigh... I really want to{CLEAR}catch a Bug Pokémon as a partner.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 125,
+   "zh": "我为了抓虫精灵而来到桐树林,{NEWLINE}可这里根本没有虫精灵。{CLEAR}正当我为此发愁的时候,{CLEAR}这只超可爱的小线球就出现了。{SCROLL}嘿嘿,这就是上天赐给我的伙伴吧,{NEWLINE}我会好好照顾它,跟它一起变强！",
+   "en": "I came to Ilex Forest to catch{NEWLINE}Bug Pokémon, but there weren’t{CLEAR}any here at all. Just when I{CLEAR}was getting down about it, this{CLEAR}super-cute little Spinarak showed up.{SCROLL}Heh heh, it must be a partner sent{NEWLINE}from heaven! I’ll take good care of{CLEAR}it and we’ll get strong together!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "别人都说什么寂静之桥啊、{NEWLINE}32号路啊是钓鱼圣地,{CLEAR}可是据我所知{CLEAR}有人在寂静之桥用雷电球炸鱼,{CLEAR}32号路铺了铁轨经常过火车。{SCROLL}所以说这些地方都远不如{NEWLINE}这安静的桐树林适合钓鱼。",
+   "en": "People say Silence Bridge and Route 32{NEWLINE}are the holy grounds of fishing. But{CLEAR}as far as I know, someone at Silence{CLEAR}Bridge blasts the fish with Voltorb,{CLEAR}and Route 32 has railroad tracks{CLEAR}with trains running by all the time.{SCROLL}So none of those spots are{NEWLINE}anywhere near as good for{CLEAR}fishing as quiet Ilex Forest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "寂静之桥 = Silence Bridge (glossary place); 雷电球 = Voltorb."
+  },
+  {
+   "id": 127,
+   "zh": "刚刚钓到了不错的精灵,{NEWLINE}用它来一场对战吧！",
+   "en": "I just fished up a nice{NEWLINE}Pokémon. Let’s battle with it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 128,
+   "zh": "呼呼……跟你对战好累啊。",
+   "en": "Phew... Battling you is exhausting.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 129,
+   "zh": "你好,冠军大人。{NEWLINE}为了防止桐树林再发生虫灾,{CLEAR}精灵联盟特意增派我们来当护林员,{CLEAR}由我们负责保护桐树林的生态。",
+   "en": "Hello, Champion. To keep another{NEWLINE}bug plague from hitting Ilex Forest,{CLEAR}the Pokémon League sent us here as{CLEAR}extra rangers. We’re in charge of{CLEAR}protecting the forest’s ecosystem.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 130,
+   "zh": "当护林员的日子好无聊啊,{NEWLINE}你陪我来场对战怎么样。",
+   "en": "Life as a ranger is so boring.{NEWLINE}How about a battle with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 131,
+   "zh": "呀！对战完才发现是冠军大人,{NEWLINE}难怪我不是对手呢。",
+   "en": "Eek! I only realized you were the{NEWLINE}Champion after the battle. No{CLEAR}wonder I was no match for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 132,
+   "zh": "在桐树林当护林员蛮清闲的,{NEWLINE}我要利用号这段时间{CLEAR}磨练自己的对战技巧。",
+   "en": "Being a ranger in Ilex Forest is{NEWLINE}pretty relaxed. I’m going to use{CLEAR}the time to sharpen my battle skills.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 133,
+   "zh": "又是路过的训练家来挑战啊,{NEWLINE}我躲到这里都躲不过去吗？{SCROLL}行吧,打就打。{NEWLINE}你想单打还是双打？",
+   "en": "Another passing Trainer here{NEWLINE}to challenge me? I can’t even{CLEAR}get away by hiding out here?{SCROLL}Fine, let’s battle. Singles or doubles?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 134,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 135,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 136,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 137,
+   "zh": "放马过来吧,让我好好教教你,{NEWLINE}没事别找我们护林员练手！",
+   "en": "Bring it on. I’ll teach you{NEWLINE}not to bother us rangers{CLEAR}for sparring practice!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 138,
+   "zh": "嘿,真是出乎意料,你挺厉害的嘛！",
+   "en": "Hey, that’s a surprise.{NEWLINE}You’re pretty good!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 139,
+   "zh": "杰尼龟『Jie——ni！",
+   "en": "Squirtle: Jie-ni!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 140,
+   "zh": "卡咪龟『Waaa——to！",
+   "en": "Wartortle: Waaa-to!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "戴鲁比『Hoooo——dou！",
+   "en": "Houndour: Hoooo-dou!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 142,
+   "zh": "哥哥你好,这是我刚刚捉的线球,{NEWLINE}我还没有跟它一起并肩作战过,{CLEAR}你愿意当我们的第一个对手吗？",
+   "en": "Hello, mister! This is the{NEWLINE}Spinarak I just caught. We{CLEAR}haven’t fought side by side yet.{CLEAR}Will you be our first opponent?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "哥哥/姐姐 → ‘mister’/‘miss’ (kid addressing the player)."
+  },
+  {
+   "id": 143,
+   "zh": "好吧……那我找别人吧……",
+   "en": "Okay... I’ll find someone else then...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 144,
+   "zh": "谢谢哥哥,那我们要上咯！",
+   "en": "Thanks, mister! Here we come!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 145,
+   "zh": "谢谢姐姐,那我们要上咯！",
+   "en": "Thanks, miss! Here we come!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "哥哥你好厉害哦,{NEWLINE}我们完全不是对手。{CLEAR}不过虽然我们输掉了,{CLEAR}但我觉得线球还是很有潜力的,{CLEAR}我会好好培育它跟它一起变强！",
+   "en": "Mister, you’re so strong! We were{NEWLINE}no match for you at all. But even{CLEAR}though we lost, I think Spinarak has{CLEAR}lots of potential. I’ll raise it well{CLEAR}and get strong together with it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 147,
+   "zh": "姐姐你好厉害哦,{NEWLINE}我们完全不是对手。{CLEAR}不过虽然我们输掉了,{CLEAR}但我觉得线球还是很有潜力的,{CLEAR}我会好好培育它跟它一起变强！",
+   "en": "Miss, you’re so strong! We were{NEWLINE}no match for you at all. But even{CLEAR}though we lost, I think Spinarak has{CLEAR}lots of potential. I’ll raise it well{CLEAR}and get strong together with it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 148,
+   "zh": "你好,我是桐树林的护林员。{NEWLINE}我的职责是带着杰尼龟们{CLEAR}做好桐树林的消防工作。{SCROLL}最近有一只流浪的戴鲁比{NEWLINE}进入了桐树林,{CLEAR}这种火系精灵很可能引发火灾,{CLEAR}本来发生这种事{CLEAR}应该由我们消防护林员出动抓捕,{CLEAR}但是我的杰尼龟们腿太短{CLEAR}试了好几次都追不上戴鲁比,{CLEAR}如果你有看到戴鲁比,{CLEAR}请帮忙顺道抓住它好吗？",
+   "en": "Hello, I’m an Ilex Forest ranger.{NEWLINE}My job is fire prevention in{CLEAR}the forest with my Squirtle.{SCROLL}Recently a stray Houndour wandered{NEWLINE}into Ilex Forest. A Fire type like{CLEAR}that could easily start a fire.{CLEAR}Normally we fire rangers would go{CLEAR}and catch it, but my Squirtle’s legs{CLEAR}are too short. They tried again and{CLEAR}again and couldn’t catch up with it.{CLEAR}If you see the Houndour, could you{CLEAR}catch it for me while you’re at it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 149,
+   "zh": "哇,你已经抓到了戴鲁比？{NEWLINE}真的是太感谢了,{CLEAR}这样桐树林就没有火灾的后顾之忧了。{SCROLL}作为回报请你收下这个礼物吧。",
+   "en": "Wow, you already caught the Houndour?{NEWLINE}Thank you so much! Now we don’t have{CLEAR}to worry about fires in Ilex Forest.{SCROLL}Please take this gift as thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 150,
+   "zh": "我在当护林员的日子里,{NEWLINE}听了很多关于桐树林的传说,{CLEAR}据说桐树林的洁咪{CLEAR}跟叶精灵是非常要好的朋友,{CLEAR}同时洁咪呢,又跟雪拉比是{CLEAR}非常要好的朋友。",
+   "en": "In my years as a ranger, I’ve heard{NEWLINE}lots of legends about Ilex Forest.{CLEAR}They say Shaymin of Ilex Forest is{CLEAR}close friends with Leafeon, and Shaymin{CLEAR}is also close friends with Celebi.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 151,
+   "zh": "戴鲁比逃走了。",
+   "en": "Houndour ran away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 152,
+   "zh": "戴鲁比非常生气,扑了过来！",
+   "en": "Houndour got really angry and pounced!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 153,
+   "zh": "戴鲁比已经没有力气了,{NEWLINE}要收服它吗？",
+   "en": "Houndour has no{NEWLINE}strength left. Catch it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 154,
+   "zh": "队伍已满,没有戴鲁比的位置了！",
+   "en": "Your party is full. There’s{NEWLINE}no room for Houndour!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 155,
+   "zh": "戴鲁比加入了队伍！",
+   "en": "Houndour joined your party!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 156,
+   "zh": "要给戴鲁比起昵称吗？{VAR:0200:0}",
+   "en": "Give Houndour a nickname?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 157,
+   "zh": "昵称叫{VAR:0101:1}{NEWLINE}可以吗？{VAR:0200:0}",
+   "en": "Name it {VAR:0101:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 4 more v3 TM candidates (tm_v4_matches.jsonl); Same zh as 0459 #89; English copied."
+  },
+  {
+   "id": 158,
+   "zh": "戴鲁比已经折服于你的力量,{NEWLINE}要收服它吗？",
+   "en": "Houndour has submitted to{NEWLINE}your strength. Catch it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 159,
+   "zh": "阿金『偶像！",
+   "en": "Gold: Idol!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 160,
+   "zh": "阿金『终于追上你了。{SCROLL}阿金『我跟你说,我已经拿到{NEWLINE}第二枚道馆徽章了。{CLEAR}嘿嘿,你现在有几枚{CLEAR}城都地区的徽章了呢？",
+   "en": "Gold: Finally caught up with you.{SCROLL}Gold: Guess what, I already got{NEWLINE}my second Gym Badge. Heh heh, how{CLEAR}many Johto Badges do you have now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Badge count branch: #161 two / #162 one / #163 none → #164 / #166 / #167."
+  },
+  {
+   "id": 161,
+   "zh": "{VAR:0103:0}『我也收集到了2枚{NEWLINE}城都地区的徽章。",
+   "en": "{VAR:0103:0}: I’ve collected{NEWLINE}two Johto Badges too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 162,
+   "zh": "{VAR:0103:0}『我目前只有1枚{NEWLINE}城都地区的徽章。",
+   "en": "{VAR:0103:0}: I only have{NEWLINE}one Johto Badge so far.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 163,
+   "zh": "{VAR:0103:0}『我现在还没有{NEWLINE}城都地区的徽章。",
+   "en": "{VAR:0103:0}: I don’t have{NEWLINE}any Johto Badges yet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 164,
+   "zh": "阿金『真不愧是我的偶像,{NEWLINE}看来我得再加把劲{CLEAR}才能赢得这场徽章收集比赛。",
+   "en": "Gold: That’s my idol for you.{NEWLINE}Looks like I’ll have to try even{CLEAR}harder to win our Badge race.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 165,
+   "zh": "阿金『我现在要朝满金市出发{NEWLINE}去收集下一枚徽章。{CLEAR}偶像你要是不想输掉比赛{CLEAR}就快点跟上来吧！",
+   "en": "Gold: I’m heading for Goldenrod City{NEWLINE}now to get my next Badge. Idol, if{CLEAR}you don’t want to lose the race,{CLEAR}you’d better hurry and catch up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 166,
+   "zh": "阿金『嘿嘿,目前是我领先,{NEWLINE}偶像你可得加把劲了哦。",
+   "en": "Gold: Heh heh, I’m in the lead for{NEWLINE}now. Idol, you’d better step it up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 167,
+   "zh": "阿金『什么嘛,偶像你是不是{NEWLINE}没有把跟我的比赛放在心上啊。{CLEAR}这样赢了你可一点意思都没有。",
+   "en": "Gold: What the heck, Idol? You’re not{NEWLINE}taking our race seriously, are you?{CLEAR}Beating you like this is no fun at all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 168,
+   "zh": "水晶『{VAR:0103:0}前辈,我的月桂蹦{NEWLINE}来到桐树林之后特别兴奋,{CLEAR}感觉这里好像是它的故乡呢。{SCROLL}水晶『看到月桂蹦高兴的样子,{NEWLINE}我突然发现出来旅行的意义{CLEAR}不只是收集图鉴、锻炼本领。{SCROLL}水晶『跟精灵们一起创造{NEWLINE}美好的回忆同样重要。",
+   "en": "Crystal: {VAR:0103:0}, ever since{NEWLINE}we got to Ilex Forest, my{CLEAR}Baylee has been so excited. It{CLEAR}feels like this is its hometown.{SCROLL}Crystal: Seeing Baylee so happy,{NEWLINE}I suddenly realized traveling{CLEAR}isn’t only about filling the{CLEAR}Pokédex and building up skills.{SCROLL}Crystal: Making happy{NEWLINE}memories together with your{CLEAR}Pokémon is just as important.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 169,
+   "zh": "水晶『哎呀,稍微有点感悟{NEWLINE}就忍不住向前辈倾诉,真是不好意思。{SCROLL}水晶『我的爷爷奶奶{NEWLINE}就在前边的34号路开饲育屋,{CLEAR}我现在正好顺路去看看他们。{CLEAR}前辈要是对饲育屋感兴趣的话{CLEAR}欢迎去看看哦。",
+   "en": "Crystal: Oh, I got a little sentimental{NEWLINE}and couldn’t help pouring my heart{CLEAR}out to you. Sorry about that.{SCROLL}Crystal: My grandpa and grandma run{NEWLINE}the Day-Care on Route 34 up ahead.{CLEAR}I’m going to drop by and see them{CLEAR}on the way. If you’re interested{CLEAR}in the Day-Care, come take a look!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

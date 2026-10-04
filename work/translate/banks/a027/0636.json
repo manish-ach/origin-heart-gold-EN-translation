@@ -1,0 +1,127 @@
+{
+ "narc": "a027",
+ "bank": 636,
+ "source": "work/extract/v4/a027/0636.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "阿桔",
+   "en": "Koga",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl) | Hack replaced Janine with Koga in this phone slot (US lines were Janine); retranslated in Koga’s voice."
+  },
+  {
+   "id": 1,
+   "zh": "奇怪？听不大清楚,{NEWLINE}电话坏了吗？{SCROLL}你换个地方再打试试！",
+   "en": "Sorry? I’m afraid I can’t hear you very{NEWLINE}well. Must be a bad connection.{SCROLL}Can you call again from somewhere else?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0645/1 | Hack replaced Janine with Koga in this phone slot (US lines were Janine); retranslated in Koga’s voice."
+  },
+  {
+   "id": 2,
+   "zh": "喂喂⋯⋯{NEWLINE}我最近在干什么？{CLEAR}我一直都在坚持忍者修行啊。{SCROLL}",
+   "en": "Hello...{NEWLINE}What have I been doing lately?{SCROLL}I have kept up my ninja{NEWLINE}training, as always.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack replaced Janine with Koga in this phone slot (US lines were Janine); retranslated in Koga’s voice."
+  },
+  {
+   "id": 3,
+   "zh": "训练家的道路永无止境,{NEWLINE}不要满足于现在的成就,{CLEAR}继续加油吧！",
+   "en": "The path of a Trainer has no end.{NEWLINE}Do not be satisfied with what you{CLEAR}have achieved. Keep striving!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack replaced Janine with Koga in this phone slot (US lines were Janine); retranslated in Koga’s voice."
+  },
+  {
+   "id": 4,
+   "zh": "我每个星期一{NEWLINE}都没什么事做,{CLEAR}到时候可以打电话给我！",
+   "en": "I have little to do on{NEWLINE}Mondays. You may call me then.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0645/4 | Hack replaced Janine with Koga in this phone slot (US lines were Janine); retranslated in Koga’s voice."
+  },
+  {
+   "id": 5,
+   "zh": "你电话来的正是时候,{NEWLINE}我现在手里没什么活,{CLEAR}我们来比一场吧！{VAR:0200:0}",
+   "en": "Your call comes at a good time.{NEWLINE}I have nothing on hand at the{CLEAR}moment. Let us have a match! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0645/5 | Hack replaced Janine with Koga in this phone slot (US lines were Janine); retranslated in Koga’s voice."
+  },
+  {
+   "id": 6,
+   "zh": "我的热血{NEWLINE}已经开始燃烧了。{SCROLL}我在战斗前线的训练家屋{NEWLINE}等你！",
+   "en": "My blood has begun to burn.{SCROLL}I shall await you at the Trainer{NEWLINE}House at the Battle Frontier!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0645/6 | Hack replaced Janine with Koga in this phone slot (US lines were Janine); retranslated in Koga’s voice. | Rematch venue: the hack changed the US Fighting Dojo in Saffron City to 战斗前线的训练家屋 → the Trainer House at the Battle Frontier."
+  },
+  {
+   "id": 7,
+   "zh": "啊,是吗,{NEWLINE}你不会是在⋯⋯{CLEAR}害怕吧？",
+   "en": "Ah, is that so... You would{NEWLINE}not be... afraid, would you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0645/7 | Hack replaced Janine with Koga in this phone slot (US lines were Janine); retranslated in Koga’s voice."
+  },
+  {
+   "id": 8,
+   "zh": "现在是{NEWLINE}你和我战斗的时候吗？{SCROLL}你不是还有{NEWLINE}很多其他的预约吗？",
+   "en": "Is now really the time to battle me?{SCROLL}Do you not have many{NEWLINE}other appointments?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0645/8 | Hack replaced Janine with Koga in this phone slot (US lines were Janine); retranslated in Koga’s voice."
+  },
+  {
+   "id": 9,
+   "zh": "我在战斗前线的训练家屋{NEWLINE}等你！{CLEAR}你尽快过来吧！",
+   "en": "I await you at the Trainer{NEWLINE}House at the Battle Frontier.{CLEAR}Come as swiftly as you can!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0645/9 | Hack replaced Janine with Koga in this phone slot (US lines were Janine); retranslated in Koga’s voice. | Rematch venue: the hack changed the US Fighting Dojo in Saffron City to 战斗前线的训练家屋 → the Trainer House at the Battle Frontier."
+  },
+  {
+   "id": 10,
+   "zh": "我是阿桔。{NEWLINE}你还好吧？{SCROLL}",
+   "en": "This is Koga.{NEWLINE}Are you well?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0645/10 | Hack replaced Janine with Koga in this phone slot (US lines were Janine); retranslated in Koga’s voice."
+  },
+  {
+   "id": 11,
+   "zh": "你没忘了{NEWLINE}我们在战斗前线{CLEAR}训练家屋对战的约定吧？{CLEAR}我等着你！",
+   "en": "You have not forgotten our promise{NEWLINE}to battle at the Trainer House at{CLEAR}the Battle Frontier? I am waiting!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0645/11 | Hack replaced Janine with Koga in this phone slot (US lines were Janine); retranslated in Koga’s voice. | Rematch venue: the hack changed the US Fighting Dojo in Saffron City to 战斗前线的训练家屋 → the Trainer House at the Battle Frontier."
+  },
+  {
+   "id": 12,
+   "zh": "你想听忍者的故事吗？{SCROLL}等时机到了,{NEWLINE}我会好好讲给你听的！",
+   "en": "Would you like to hear a ninja’s tale?{SCROLL}When the time is right, I{NEWLINE}shall tell you all of it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0645/12 | Hack replaced Janine with Koga in this phone slot (US lines were Janine); retranslated in Koga’s voice."
+  },
+  {
+   "id": 13,
+   "zh": "我们家族的人{NEWLINE}从小就会接受忍者特训,{CLEAR}之后成为拿钱办事的杀手。{SCROLL}我小时候从没想过会去走{NEWLINE}人生的另一条路。{SCROLL}我们忍者居然也能活在阳光下,{NEWLINE}成为成为坦荡的精灵训练家！{CLEAR}这一切都要感谢达马兰奇主席。",
+   "en": "In our clan, we receive special ninja{NEWLINE}training from childhood, and then{CLEAR}become assassins who kill for money.{SCROLL}As a child, I never imagined I{NEWLINE}could walk another path in life.{SCROLL}That we ninja could live in the{NEWLINE}light of day, as honest Pokémon{CLEAR}Trainers... For all of this, I owe{CLEAR}my thanks to President Goodshow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack replaced Janine with Koga in this phone slot (US lines were Janine); retranslated in Koga’s voice."
+  },
+  {
+   "id": 14,
+   "zh": "说起城都地区的馆主们,{NEWLINE}他们也都是独树一帜的强者。{CLEAR}有机会的话{CLEAR}真想再跟他们较量一下。",
+   "en": "The Gym Leaders of the Johto region{NEWLINE}are each formidable in their own way.{CLEAR}Given the chance, I would gladly{CLEAR}test myself against them again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack replaced Janine with Koga in this phone slot (US lines were Janine); retranslated in Koga’s voice."
+  }
+ ]
+}

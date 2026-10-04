@@ -1,0 +1,2031 @@
+{
+ "narc": "a027",
+ "bank": 462,
+ "source": "work/extract/v4/a027/0462.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "{VAR:FF01:200}啪！{VAR:FF01:100}{SCROLL}",
+   "en": "{VAR:FF01:200}Bump!{VAR:FF01:100}{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "#0-3 vanilla US Rocket grunt (Machine Part scene) kept."
+  },
+  {
+   "id": 1,
+   "zh": "哦！对不起！{NEWLINE}你没受伤吧？{CLEAR}我是大忙人！{CLEAR}我不能再和你{CLEAR}悠闲地聊天了！{CLEAR}要是被谁看见了,{CLEAR}就麻烦了！{SCROLL}",
+   "en": "Oops! I so sorry!{NEWLINE}You not hurt, OK?{CLEAR}I very busy.{CLEAR}No time for talking with you.{CLEAR}Not good for me if seen by somebody.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0469/1"
+  },
+  {
+   "id": 2,
+   "zh": "……哦,不！{NEWLINE}完全被你看到了！{CLEAR}我失误了！{SCROLL}",
+   "en": "Oh no! You seen me already!{CLEAR}I make big mistake!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0469/2"
+  },
+  {
+   "id": 3,
+   "zh": "嘿,你！{NEWLINE}把这件事都忘掉！{CLEAR}你什么都没看到,{CLEAR}什么都没听到,{CLEAR}什么都不知道,明白了吗！{SCROLL}再见！{NEWLINE}永不再见！！{SCROLL}",
+   "en": "Hey, you! Forget you see me, OK?{NEWLINE}You seen, heard, known nothing, OK?{CLEAR}Bye!{CLEAR}Bye-bye a go-go!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0469/3"
+  },
+  {
+   "id": 4,
+   "zh": "我有事不在。{NEWLINE}　　　　道馆馆主　小霞",
+   "en": "Sorry, I’ll be out for a while.{NEWLINE}Misty, Gym Leader",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0469/4"
+  },
+  {
+   "id": 5,
+   "zh": "小霞不在,{NEWLINE}我去玩了。{CLEAR}　　　　道馆训练师　宋兵乙",
+   "en": "Since Misty’s out, we’ll be away, too.{NEWLINE}Gym Trainers",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0469/5"
+  },
+  {
+   "id": 6,
+   "zh": "华蓝市　精灵道馆{SCROLL}道馆馆主——吔花",
+   "en": "Cerulean City Pokémon Gym{SCROLL}Gym Leader: Daisy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "吔花 = 樱花 (hack font substitutes 吔 for 樱) = Daisy, Misty's eldest sister (anime JP Sakura). Same English name as Oak's granddaughter Daisy."
+  },
+  {
+   "id": 7,
+   "zh": "华蓝市　精灵道馆{SCROLL}道馆馆主　吔花{NEWLINE}所认可的训练家：{CLEAR}{CLEAR}{VAR:0103:0}",
+   "en": "Cerulean City Pokémon Gym{SCROLL}Gym Leader: Daisy{NEWLINE}Recognized Trainers:{CLEAR}{CLEAR}{VAR:0103:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags fullwidth_chars"
+  },
+  {
+   "id": 8,
+   "zh": "小霞『来了啊,{VAR:0103:0}！{SCROLL}小霞『虽然我现在只是代替父亲{NEWLINE}临时行使道馆馆主的职责,{CLEAR}但也绝不会轻易地{CLEAR}就把蓝色徽章给交出去的,{CLEAR}即使是{VAR:0103:0}也不行！{SCROLL}",
+   "en": "Misty: There you are, {VAR:0103:0}!{SCROLL}Misty: I may only be standing in for my{NEWLINE}dad as acting Gym Leader...{SCROLL}But I won’t hand over the Cascade{NEWLINE}Badge easily. Not even to you, {VAR:0103:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 9,
+   "zh": "小霞『不愧是{VAR:0103:0}啊,{NEWLINE}从在月见山的时候,{CLEAR}我就知道你的潜力不可估量。{CLEAR}给,蓝色徽章！{SCROLL}",
+   "en": "Misty: That’s {VAR:0103:0} for you. Ever{NEWLINE}since Mt. Moon, I knew your potential{CLEAR}was off the charts.{SCROLL}Here, the Cascade Badge!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0103:0}从小霞那{NEWLINE}得到了蓝色徽章！",
+   "en": "{VAR:0103:0} received{NEWLINE}the Cascade Badge from Misty!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0469/10"
+  },
+  {
+   "id": 11,
+   "zh": "小霞『还有……{NEWLINE}作为和我战斗的纪念,{CLEAR}这个也给你吧！{SCROLL}",
+   "en": "Misty: Here is another memento{NEWLINE}from this battle. Take it!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0469/11"
+  },
+  {
+   "id": 12,
+   "zh": "小霞『里面是水之波动,{SCROLL}是个能使对手{NEWLINE}混乱的技能哦。{SCROLL}如果是{VAR:0103:0}的话,{NEWLINE}用起来肯定能得心应手。",
+   "en": "Misty: It’s Water Pulse,{SCROLL}a move that can leave the foe confused.{SCROLL}In your hands, {VAR:0103:0}, I’m sure it’ll{NEWLINE}work wonders.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 13,
+   "zh": "小霞『看到{VAR:0103:0}认真的样子,{NEWLINE}我也下定决心要在道馆认真修行了。{CLEAR}在帮姐姐打理华蓝道馆的同时,{CLEAR}为今年的石英大会做充分的准备！{SCROLL}小霞『然后总有一天,{NEWLINE}我会取得精英训练家资格,{CLEAR}并成为华蓝道馆的正式馆主！",
+   "en": "Misty: Seeing how serious you are,{NEWLINE}{VAR:0103:0}, I’ve made up my mind to train{CLEAR}hard at the Gym too.{SCROLL}While I help my sister run the Cerulean{NEWLINE}Gym, I’ll get ready for this year’s{CLEAR}Indigo Conference!{SCROLL}Misty: And someday, I’ll earn Ace{NEWLINE}Trainer status and become the Cerulean{CLEAR}Gym’s official Leader!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 14,
+   "zh": "你好！{NEWLINE}年轻的训练家！{SCROLL}现在华蓝道馆的情况……{NEWLINE}呃……有点小复杂。",
+   "en": "Hello there, young Trainer!{SCROLL}Things at the Cerulean Gym right now{NEWLINE}are... um... a little complicated.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 15,
+   "zh": "真是太好了！{NEWLINE}华蓝道馆现在终于走上了正轨！",
+   "en": "This is great! The Cerulean Gym is{NEWLINE}finally back on track!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 16,
+   "zh": "宝石海星『Sta——mi！",
+   "en": "Starmie: Sta-mi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 17,
+   "zh": "吔花『你好啊,{NEWLINE}我是现在华蓝道馆的馆主吔花,{CLEAR}看你的样子就知道{CLEAR}是来挑战华蓝道馆的吧？{SCROLL}吔花『有这份敢来{NEWLINE}挑战道馆的勇气,{CLEAR}就已经配得上蓝色徽章了。{CLEAR}来,徽章给你！",
+   "en": "Daisy: Hi there! I’m Daisy, the current{NEWLINE}Leader of the Cerulean Gym.{SCROLL}I can tell just by looking that you’re{NEWLINE}here to challenge the Gym, right?{SCROLL}Daisy: Having the courage to challenge{NEWLINE}a Gym at all makes you worthy of the{CLEAR}Cascade Badge.{SCROLL}Here, it’s yours!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0}从吔花那{NEWLINE}得到了蓝色徽章！",
+   "en": "{VAR:0103:0} received the Cascade Badge{NEWLINE}from Daisy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0469/10 | seed rejected us [ambiguous US match] (candidate US 0469#10; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 19,
+   "zh": "小霞『天啊！吔花姐姐！{NEWLINE}你都是这么给徽章的吗！",
+   "en": "Misty: Oh my gosh! Daisy! Is this how{NEWLINE}you always hand out Badges?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 20,
+   "zh": "吔花『对呀,我一直都是专攻{NEWLINE}华丽大赛水上表扬的,{CLEAR}温柔美丽的我本来就不适合战斗,{CLEAR}不像小霞你这个野丫头……",
+   "en": "Daisy: Yep! I’ve always specialized in{NEWLINE}water shows for Pokémon Contests.{SCROLL}Someone as gentle and lovely as me just{NEWLINE}isn’t cut out for battling.{SCROLL}Not like you, Misty, you little tomboy...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 21,
+   "zh": "小霞『真是的,我受不了了！",
+   "en": "Misty: Ugh, I can’t take this anymore!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 22,
+   "zh": "小霞『{VAR:0103:0},你过来一下。",
+   "en": "Misty: {VAR:0103:0}, come here a sec.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 23,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 24,
+   "zh": "小霞『很抱歉我姐姐这么草率地发放徽章,{NEWLINE}你应该也很不认同{CLEAR}这种徽章的获得方式吧？{CLEAR}所以请你先把徽章还回来。",
+   "en": "Misty: I’m sorry my sister handed out a{NEWLINE}Badge so carelessly.{SCROLL}You can’t feel good about getting a{NEWLINE}Badge this way either, right?{SCROLL}So please give it back for now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 25,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0103:0}的蓝色徽章被小霞收走了！",
+   "en": "{VAR:0103:0}’s Cascade Badge was taken{NEWLINE}back by Misty!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 27,
+   "zh": "小霞『我现在要去华蓝市北边的{NEWLINE}华蓝海角参加海角对战庆典。{SCROLL}小霞『如果你想要蓝色徽章的话,{NEWLINE}就先在对战庆典上{CLEAR}让大家看看你的实力吧。{CLEAR}也好让别人知道{CLEAR}华蓝道馆的徽章{CLEAR}不是随便哪一个人都可以拿走的！",
+   "en": "Misty: I’m heading to Cerulean Cape,{NEWLINE}north of Cerulean City, to enter the{CLEAR}Cape Battle Festival.{SCROLL}Misty: If you want the Cascade Badge,{NEWLINE}show everyone what you can do at the{CLEAR}Battle Festival first.{SCROLL}That way, people will know the Cerulean{NEWLINE}Gym’s Badge isn’t something just anyone{CLEAR}can walk off with!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 28,
+   "zh": "小霞『我就知道你会来的{VAR:0103:0}！{NEWLINE}我在这里等……哦不……{SCROLL}小霞『其实华蓝道馆就是我家啦。{NEWLINE}旁边的是我的姐姐吔花,{CLEAR}爸爸去精灵联盟总部任职后,{CLEAR}由姐姐暂代道馆馆主的职责。{CLEAR}你如果想挑战道馆的话,{CLEAR}找我姐姐就可以啦。",
+   "en": "Misty: I knew you’d come, {VAR:0103:0}!{SCROLL}I’ve been waiting here... Oh, no, I{NEWLINE}mean...{SCROLL}Misty: Actually, the Cerulean Gym is my{NEWLINE}home.{SCROLL}That’s my big sister Daisy next to me.{SCROLL}After Dad took a post at the{NEWLINE}Pokémon League HQ, my sister took over{CLEAR}as acting Gym Leader.{SCROLL}If you want to challenge the Gym, just{NEWLINE}talk to her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#28 (Misty eager, male-player Misty route) and #29 are alternates; #30 (Daisy teases about a boy) is male-player only, #31 the other. | consistency fix (follow-up 4)"
+  },
+  {
+   "id": 29,
+   "zh": "小霞『{VAR:0103:0}你来啦！{NEWLINE}欢迎欢迎！{SCROLL}小霞『这座华蓝道馆就是我家啦,{NEWLINE}旁边的是我的姐姐,{CLEAR}爸爸去精灵联盟总部任职后,{CLEAR}由姐姐暂代道馆馆主的职责。{CLEAR}你如果想挑战道馆的话,{CLEAR}找我姐姐就可以啦。",
+   "en": "Misty: {VAR:0103:0}, you came! Welcome,{NEWLINE}welcome!{SCROLL}Misty: This Cerulean Gym is my home.{NEWLINE}That’s my big sister next to me.{SCROLL}After Dad took a post at the{NEWLINE}Pokémon League HQ, my sister took over{CLEAR}as acting Gym Leader.{SCROLL}If you want to challenge the Gym, just{NEWLINE}talk to her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | consistency fix (follow-up 4)"
+  },
+  {
+   "id": 30,
+   "zh": "吔花『嘿嘿,我还是头一次{NEWLINE}见到小霞对男孩子这么主动呢。{CLEAR}原来这野丫也不是木头脑袋嘛。{SCROLL}吔花『一定要去华蓝海角{NEWLINE}参加对战庆典哦,{CLEAR}不可以让我们家小霞失望。",
+   "en": "Daisy: Tee-hee! I’ve never seen Misty{NEWLINE}act so forward with a boy.{SCROLL}Turns out our little tomboy isn’t a{NEWLINE}total blockhead after all.{SCROLL}Daisy: Be sure to go to the Battle{NEWLINE}Festival at Cerulean Cape, OK? You{CLEAR}can’t let our Misty down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 31,
+   "zh": "吔花『唉,小霞这野丫头{NEWLINE}给你添麻烦了,实在抱歉。{CLEAR}不过你最好还是按她说的{CLEAR}去参加海角对战庆典吧,{CLEAR}不然以她的性格,{CLEAR}很难给你徽章啊……",
+   "en": "Daisy: Sigh... I’m so sorry our tomboy{NEWLINE}Misty is causing you trouble.{SCROLL}But you’d better do as she says and{NEWLINE}enter the Cape Battle Festival.{SCROLL}With her personality, she’ll never give{NEWLINE}you the Badge otherwise...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 32,
+   "zh": "小霞『华蓝市的北面过了金球桥,{NEWLINE}就是参加对战马拉松的地方了。{CLEAR}等你的好消息哟{VAR:0103:0}。",
+   "en": "Misty: Cross Nugget Bridge, north of{NEWLINE}Cerulean City,{SCROLL}and you’ll reach the battle marathon.{SCROLL}I’ll be waiting for good news, {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 33,
+   "zh": "小霞『华蓝市的北面过了金球桥,{NEWLINE}就是参加对战马拉松的地方了。",
+   "en": "Misty: Cross Nugget Bridge, north of{NEWLINE}Cerulean City,{SCROLL}and you’ll reach the battle marathon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 34,
+   "zh": "小海狮『See——",
+   "en": "Seel: See-!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 35,
+   "zh": "小霞『呀,{VAR:0103:0}。你怎么来了？",
+   "en": "Misty: Oh, {VAR:0103:0}. What brings you{NEWLINE}here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 36,
+   "zh": "唉,吔花馆主的实力实在是……{NEWLINE}也不知道小霞大人回来后{CLEAR}道馆的风气会不会有所改变。",
+   "en": "Sigh... Miss Daisy’s battling skills are{NEWLINE}really... something.{SCROLL}I wonder if the Gym’s attitude will{NEWLINE}change once Miss Misty gets back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 37,
+   "zh": "谢谢你啊,现在的华蓝道馆{NEWLINE}总算有点战斗精神了。{SCROLL}我现在担任华蓝道馆的陪练。{SCROLL}专为想提高实力的训练家{NEWLINE}提供针对性训练服务。{CLEAR}只需要1个解冰果的服务费{CLEAR}我就可以帮你的精灵{CLEAR}针对性提高「特防」努力值{SCROLL}怎么样？{NEWLINE}需要我的陪练服务吗？{SCROLL}",
+   "en": "Thanks to you, the Cerulean Gym finally{NEWLINE}has some fighting spirit.{SCROLL}I’m the Cerulean Gym’s sparring{NEWLINE}partner now.{SCROLL}I offer focused training for Trainers{NEWLINE}who want to get stronger.{SCROLL}For a fee of just one Aspear Berry, I’ll{NEWLINE}train your Pokémon to raise its Sp.{SCROLL}Def EVs.{SCROLL}How about it? Want to spar with me?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "想练「特防」努力值的话,{NEWLINE}就来华蓝道馆修炼吧！",
+   "en": "If you want to train Sp. Def EVs, come{NEWLINE}train at the Cerulean Gym!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "你好像没有足够的解冰果{NEWLINE}支付服务费呢！",
+   "en": "Looks like you don’t have an Aspear{NEWLINE}Berry to pay the fee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 40,
+   "zh": "那么,训练开始！",
+   "en": "Then let the training begin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 41,
+   "zh": "还想练「特防」努力值的话,{NEWLINE}就来找我吧！",
+   "en": "If you want to train more Sp. Def EVs,{NEWLINE}come see me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "小霞『根据精灵联盟的规定,{NEWLINE}挑战道馆不可以使用回复类道具。{CLEAR}你先整理一下背包再来吧！",
+   "en": "Misty: Under Pokémon League rules, you{NEWLINE}can’t use healing items in a Gym{CLEAR}challenge.{SCROLL}Sort out your Bag first, then come{NEWLINE}back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 43,
+   "zh": "本来是想跟吔花小姐{NEWLINE}学水中芭蕾才来华蓝道馆的,{CLEAR}结果现在竟然让我每天练习对战,{CLEAR}苍天啊！",
+   "en": "I came to the Cerulean Gym to learn{NEWLINE}water ballet from Miss Daisy...{SCROLL}And now they make me practice battling{NEWLINE}every day. Good grief!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 44,
+   "zh": "我一直就觉得华丽大赛{NEWLINE}实在是缺少实用性,{CLEAR}如今终于不练芭蕾改练对战了,{CLEAR}真是太好了！",
+   "en": "I always thought Contests weren’t very{NEWLINE}practical.{SCROLL}Now we’ve finally quit ballet practice{NEWLINE}and switched to battling. Fantastic!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 45,
+   "zh": "啊啊！我认得你！{NEWLINE}小霞小姐她每天都……{CLEAR}哈哈,没什么啦。",
+   "en": "Ah! I know you! Miss Misty is always...{NEWLINE}Ha ha, never mind.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 46,
+   "zh": "我认得你哦,{NEWLINE}你是小霞小姐的朋友吧。",
+   "en": "I know you! You’re Miss Misty’s friend,{NEWLINE}right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 47,
+   "zh": "吔花『小霞为了迎接你来挑战,{NEWLINE}可是做了精心准备呢,快去吧！",
+   "en": "Daisy: Misty went to a lot of trouble{NEWLINE}getting ready for your challenge.{SCROLL}Go on!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 48,
+   "zh": "吔花『能够主动承担起{NEWLINE}道馆馆主的责任,{CLEAR}我们家小霞真是长大了呢。{CLEAR}如此一来我就可以安心跳芭蕾了。",
+   "en": "Daisy: Taking on the Gym Leader’s{NEWLINE}duties all on her own...{SCROLL}Our Misty has really grown up.{SCROLL}Now I can dance my ballet with peace of{NEWLINE}mind.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "小海狮『Seeeee！",
+   "en": "Seel: Seeeee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 50,
+   "zh": "比起每天艰苦的道馆训练,{NEWLINE}我还是更喜欢跟穿着比基尼的妹子{CLEAR}泡在唦池里跳芭蕾啊。",
+   "en": "Grueling Gym training every day? I’d{NEWLINE}much rather be doing ballet in the pool{CLEAR}with girls in bikinis.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 51,
+   "zh": "华蓝市　精灵道馆{SCROLL}道馆馆主——吔花{NEWLINE}所认可的训练家：{CLEAR}{VAR:0103:0}",
+   "en": "Cerulean City Pokémon Gym{SCROLL}Gym Leader: Daisy{NEWLINE}Recognized Trainers:{CLEAR}{VAR:0103:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0469/7 | seed rejected us [ambiguous US match] (candidate US 0469#7; text not kept)"
+  },
+  {
+   "id": 52,
+   "zh": "华蓝市　精灵道馆{SCROLL}道馆馆主——吔花{NEWLINE}所认可的训练家：{CLEAR}{VAR:0103:0}",
+   "en": "Cerulean City Pokémon Gym{SCROLL}Gym Leader: Daisy{NEWLINE}Recognized Trainers:{CLEAR}{VAR:0103:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0469/7 | seed rejected us [ambiguous US match] (candidate US 0469#7; text not kept)"
+  },
+  {
+   "id": 53,
+   "zh": "华蓝市　精灵道馆{SCROLL}道馆馆主——小霞",
+   "en": "Cerulean City Pokémon Gym{SCROLL}Gym Leader: Misty",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0469/7 | seed rejected us [tag_mismatch] (candidate US 0469#7; text not kept)"
+  },
+  {
+   "id": 54,
+   "zh": "小刚『你来了呀{VAR:0103:0},{NEWLINE}华蓝道馆的馆主考核{CLEAR}已经进入到最后一轮,{CLEAR}马上就可以决出正式馆主了。{SCROLL}小刚『你作为新任的联盟冠军,{NEWLINE}也来一起观战吧。",
+   "en": "Brock: You made it, {VAR:0103:0}. The{NEWLINE}Cerulean Gym Leader assessment has{CLEAR}reached its final round.{SCROLL}The official Leader will be decided very{NEWLINE}soon.{SCROLL}Brock: As the new League Champion,{NEWLINE}come watch with us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 55,
+   "zh": "小刚『两位候选人,{NEWLINE}接下来的战斗是你们的最终考核了。{SCROLL}小刚『按照联盟规定,最终考核是{NEWLINE}只能使用水系精灵的3V3单打战斗。{CLEAR}请你们听我口令放出精灵。",
+   "en": "Brock: Candidates, the next battle is{NEWLINE}your final assessment.{SCROLL}Brock: Under League rules, the final{NEWLINE}assessment is a 3-on-3 Single Battle{CLEAR}using Water types only.{SCROLL}Send out your Pokémon on my signal.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 56,
+   "zh": "小刚『预备——{SCROLL}小刚『开始！",
+   "en": "Brock: Ready...{SCROLL}Brock: Begin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 57,
+   "zh": "小霞『去吧,金鱼王！{NEWLINE}阿彻『上啊,电灯怪！",
+   "en": "Misty: Go, Seaking!{NEWLINE}Curtis: Let’s go, Lanturn!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "阿彻 = Curtis (trainer 0719 #642); the v3 draft's 'Todd Snap' does not fit this Water-type Ace Trainer."
+  },
+  {
+   "id": 58,
+   "zh": "小霞『电灯怪吗……{NEWLINE}一上来就很棘手啊……",
+   "en": "Misty: Lanturn, huh... That’s a tough{NEWLINE}one right off the bat...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 59,
+   "zh": "阿彻『今年石英大会的直播我也看了,{NEWLINE}你确实是水系精灵的专家,{CLEAR}不过我是比你更厉害的水系专家！{CLEAR}这个华蓝道馆的馆主我当定了！",
+   "en": "Curtis: I watched this year’s Indigo{NEWLINE}Conference broadcast too. You really{CLEAR}are a Water-type expert.{SCROLL}But I’m an even better Water-type{NEWLINE}expert! The Cerulean Gym is mine!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 60,
+   "zh": "阿彻『电灯怪使出放电！{SCROLL}小霞『换你了,沼王！",
+   "en": "Curtis: Lanturn, use Discharge!{SCROLL}Misty: Your turn, Quagsire!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 61,
+   "zh": "阿彻『可恶啊,{NEWLINE}居然派出地面系的精灵。",
+   "en": "Curtis: Dang it! You sent out a Ground{NEWLINE}type!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 62,
+   "zh": "小霞『既然大家{NEWLINE}都只能用水系精灵,{CLEAR}那我肯定也得准备一只蓄水的精灵呀。{CLEAR}你说是吧？",
+   "en": "Misty: If we can only use Water types,{NEWLINE}of course I’d bring one with Water{CLEAR}Absorb.{SCROLL}Makes sense, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 63,
+   "zh": "小霞『沼王,使出地震！",
+   "en": "Misty: Quagsire, use Earthquake!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 64,
+   "zh": "阿彻『该你了,暴鲤龙！",
+   "en": "Curtis: You’re up, Gyarados!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 65,
+   "zh": "小霞『有意思。{NEWLINE}沼王,使用哈欠！",
+   "en": "Misty: Interesting. Quagsire, use Yawn!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 66,
+   "zh": "阿彻『暴鲤龙,龙舞！",
+   "en": "Curtis: Gyarados, Dragon Dance!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 67,
+   "zh": "阿彻『切,被摆了一道！",
+   "en": "Curtis: Tch, I walked right into that!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 68,
+   "zh": "小霞『出来吧,宝石海星！{NEWLINE}阿彻『刺龙王,靠你了！",
+   "en": "Misty: Come on out, Starmie!{NEWLINE}Curtis: Kingdra, it’s up to you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 69,
+   "zh": "阿彻『哈哈哈,我的刺龙王{NEWLINE}面对水系精灵没有弱点！",
+   "en": "Curtis: Ha ha ha! My Kingdra has no{NEWLINE}weakness to Water types!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 70,
+   "zh": "小霞『电磁波！{NEWLINE}阿彻『龙之波动！",
+   "en": "Misty: Thunder Wave!{NEWLINE}Curtis: Dragon Pulse!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 71,
+   "zh": "阿彻『可恶,跟我正面对决啊！{NEWLINE}不要总是玩这些阴的！",
+   "en": "Curtis: Dang it, face me head-on! Quit{NEWLINE}it with these sneaky tricks!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 72,
+   "zh": "小霞『身为道馆馆主,{NEWLINE}可不能只会靠着强力精灵猛打猛冲哟。",
+   "en": "Misty: A Gym Leader can’t just rely on{NEWLINE}strong Pokémon and charge in,{SCROLL}you know.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 73,
+   "zh": "小霞真是太帅了！",
+   "en": "Misty is so cool!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 74,
+   "zh": "小霞『宝石海星,精神强念！{NEWLINE}阿彻『刺龙王,龙之波动！",
+   "en": "Misty: Starmie, use Psychic!{NEWLINE}Curtis: Kingdra, Dragon Pulse!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 75,
+   "zh": "阿彻『可恶啊……",
+   "en": "Curtis: Dang it...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 76,
+   "zh": "小霞『宝石海星,继续精神强念！{NEWLINE}阿彻『动起来刺龙王,龙之波动！",
+   "en": "Misty: Starmie, Psychic again!{NEWLINE}Curtis: Move, Kingdra! Dragon Pulse!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 77,
+   "zh": "阿彻『刺龙王！？",
+   "en": "Curtis: Kingdra?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 78,
+   "zh": "阿彻『糟糕……这下陷入被动了。",
+   "en": "Curtis: Uh-oh... Now I’m on the back{NEWLINE}foot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 79,
+   "zh": "小霞『就靠你了,沼王！{NEWLINE}阿彻『电灯怪,由你来逆转！",
+   "en": "Misty: It’s up to you, Quagsire!{NEWLINE}Curtis: Lanturn, turn this around!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 80,
+   "zh": "阿彻『居然不乘胜追击而是换人？{NEWLINE}你还真是让人摸不透啊。",
+   "en": "Curtis: You switch out instead of{NEWLINE}pressing your advantage?{SCROLL}You’re really hard to read.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 81,
+   "zh": "小霞『嘿嘿,猜不到才好玩呀。",
+   "en": "Misty: Heh heh, it’s more fun when you{NEWLINE}can’t guess.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 82,
+   "zh": "小霞『来个哈欠让电灯怪睡觉吧！{NEWLINE}阿彻『电灯怪,信号光线！",
+   "en": "Misty: Put Lanturn to sleep with Yawn!{NEWLINE}Curtis: Lanturn, Signal Beam!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 83,
+   "zh": "阿彻『这次我不换人了！{NEWLINE}继续使用信号光线！",
+   "en": "Curtis: I’m not switching this time!{NEWLINE}Keep using Signal Beam!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 84,
+   "zh": "小霞『沼王,尖石攻击！",
+   "en": "Misty: Quagsire, Stone Edge!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 85,
+   "zh": "小霞『不换人的话,{NEWLINE}就只能睡觉啦！",
+   "en": "Misty: If you don’t switch, you’ll just{NEWLINE}fall asleep!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 86,
+   "zh": "阿彻『唉……",
+   "en": "Curtis: Sigh...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 87,
+   "zh": "小霞『沼王,再来一次尖石攻击！",
+   "en": "Misty: Quagsire, Stone Edge again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 88,
+   "zh": "阿彻『暴鲤龙……{NEWLINE}你是我最后的希望了,上吧！",
+   "en": "Curtis: Gyarados... You’re my last{NEWLINE}hope. Go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 89,
+   "zh": "小霞『沼王,使出哈欠！{NEWLINE}阿彻『暴鲤龙,使用咬碎！",
+   "en": "Misty: Quagsire, use Yawn!{NEWLINE}Curtis: Gyarados, use Crunch!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 90,
+   "zh": "阿彻『看到了吗！{NEWLINE}即使只有最后一只精灵我也绝不放弃！",
+   "en": "Curtis: See that?! Even with one{NEWLINE}Pokémon left, I’ll never give up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 91,
+   "zh": "小霞『很有意志力嘛。{SCROLL}小霞『上啊,宝石海星！",
+   "en": "Misty: You’ve got real willpower.{SCROLL}Misty: Go, Starmie!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 92,
+   "zh": "小霞『用十万伏特终结比赛！{NEWLINE}阿彻『暴鲤龙,继续咬碎！",
+   "en": "Misty: Finish it with Thunderbolt!{NEWLINE}Curtis: Gyarados, keep using Crunch!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 93,
+   "zh": "阿彻『果然还是抗不下四倍弱点……",
+   "en": "Curtis: Of course it couldn’t take a{NEWLINE}quadruple weakness...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 94,
+   "zh": "小刚『阿彻的三只精灵{NEWLINE}全部失去战斗能力,{CLEAR}这场比赛是小霞获胜。{SCROLL}小刚『按照精灵联盟规定,{NEWLINE}现在授予小霞华蓝道馆馆主之职！",
+   "en": "Brock: All three of Curtis’s Pokémon{NEWLINE}are unable to battle.{SCROLL}Misty wins this match!{SCROLL}Brock: Under Pokémon League rules, I{NEWLINE}hereby appoint Misty Leader of the{CLEAR}Cerulean Gym!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 95,
+   "zh": "小霞『太好啦——！",
+   "en": "Misty: Yaaay!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 96,
+   "zh": "小霞『{VAR:0103:0},你什么时候来的呀,{NEWLINE}我都没有看到你哎。",
+   "en": "Misty: {VAR:0103:0}, when did you get here?{NEWLINE}I didn’t even see you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 97,
+   "zh": "{VAR:0103:0}『在最后一轮考核开始前{NEWLINE}来到道馆的。{CLEAR}我怕影响你的专注度,{CLEAR}就没有过去跟你打招呼。",
+   "en": "{VAR:0103:0}: I got to the Gym just before{NEWLINE}the final round started.{SCROLL}I didn’t want to break your focus, so I{NEWLINE}didn’t come over to say hi.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 98,
+   "zh": "小霞『哎呀,怎么会呢,{NEWLINE}要是知道你来给我加油,{CLEAR}我肯定能发挥的更好。",
+   "en": "Misty: Oh, come on, you wouldn’t have!{SCROLL}If I’d known you were here cheering me{NEWLINE}on, I’d have done even better.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 99,
+   "zh": "阿彻『那个……小霞……",
+   "en": "Curtis: Um... Misty...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 100,
+   "zh": "阿彻『我这场比赛输的心服口服,{NEWLINE}你确实是当之无愧的华蓝道馆馆主。{CLEAR}之前因为对你不了解,{CLEAR}言辞中多有不尊重,{CLEAR}希望你能原谅。",
+   "en": "Curtis: I lost this match fair and{NEWLINE}square. You’re truly worthy of being{CLEAR}the Cerulean Gym Leader.{SCROLL}I didn’t know you before, and I said a{NEWLINE}lot of disrespectful things.{SCROLL}I hope you can forgive me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 101,
+   "zh": "小霞『哈哈,这没什么啦。{NEWLINE}你所展现的毅力和实力{CLEAR}也挺让人钦佩的。{CLEAR}之以后还请你多多指教啦。",
+   "en": "Misty: Ha ha, don’t worry about it.{SCROLL}The grit and skill you showed were{NEWLINE}really impressive too.{SCROLL}I hope we can keep learning from each{NEWLINE}other from now on.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 102,
+   "zh": "正辉『我说呀,今天是小霞{NEWLINE}当上馆主的大喜之日。{CLEAR}咱们一起去华蓝海角野餐{CLEAR}好好庆祝一下怎么样？",
+   "en": "Bill: I say, today’s a big day, with Misty{NEWLINE}becoming Gym Leader!{SCROLL}How about we all go for a picnic at{NEWLINE}Cerulean Cape to celebrate?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 103,
+   "zh": "小霞『好呀好呀！",
+   "en": "Misty: Yes, yes!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 104,
+   "zh": "正辉『阿彻和小刚馆主也要来啊,{NEWLINE}可不要推辞哦。",
+   "en": "Bill: Curtis and Brock, you’re coming{NEWLINE}too. No excuses!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 105,
+   "zh": "小刚『我还要回去给精灵联盟报告……",
+   "en": "Brock: I still have to go report back to{NEWLINE}the Pokémon League...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 106,
+   "zh": "正辉『既然是给妹妹庆祝,{NEWLINE}那吔花小姐肯定也会去的吧！",
+   "en": "Bill: We’re celebrating her little{NEWLINE}sister,{SCROLL}so Miss Daisy is sure to come too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 107,
+   "zh": "吔花『那是当然啦！",
+   "en": "Daisy: Of course I will!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 108,
+   "zh": "小刚『报告什么的可以先放一放,{NEWLINE}还是野餐比较重要,哈哈。",
+   "en": "Brock: The report can wait. A picnic is{NEWLINE}way more important, ha ha.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 109,
+   "zh": "正辉『那还等什么,咱们走吧！",
+   "en": "Bill: Then what are we waiting for? Let’s{NEWLINE}go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 110,
+   "zh": "小霞『{VAR:0103:0},{NEWLINE}选拔华蓝道馆馆主的考核{CLEAR}很快就要开始了。{CLEAR}我一定要通过考核当上馆主。",
+   "en": "Misty: {VAR:0103:0}, the assessment to{NEWLINE}choose the Cerulean Gym Leader is{CLEAR}starting soon.{SCROLL}I’m going to pass it and become Leader,{NEWLINE}no matter what.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 111,
+   "zh": "小霞『{VAR:0103:0},最近怎么样呀？{NEWLINE}我当上馆主之后可是一直都很忙呢。{SCROLL}小霞『不过再忙也不能疏于对战训练,{NEWLINE}你现在能陪我来场练习赛吗？{SCROLL}",
+   "en": "Misty: {VAR:0103:0}, how’ve you been?{SCROLL}I’ve been swamped ever since I became{NEWLINE}Gym Leader.{SCROLL}Misty: But no matter how busy I get, I{NEWLINE}can’t slack on battle training.{SCROLL}Could you have a practice match with me{NEWLINE}now?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 112,
+   "zh": "吔花『是{VAR:0103:0}呀,{NEWLINE}小霞她正在准备最后一场考核,{CLEAR}现在需要集中精神,{CLEAR}暂时不要打扰她哟。",
+   "en": "Daisy: Oh, it’s {VAR:0103:0}. Misty is getting{NEWLINE}ready for her final assessment.{SCROLL}She needs to focus right now, so please{NEWLINE}don’t disturb her for a while.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 113,
+   "zh": "华蓝道馆的馆主只能由小霞来担任,{NEWLINE}我不接受小霞以外的任何人！",
+   "en": "Only Misty can be Leader of the{NEWLINE}Cerulean Gym!{SCROLL}I won’t accept anyone else!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 114,
+   "zh": "小霞之前虽然不是正式馆主,{NEWLINE}但也为华蓝道馆做了很多贡献。{CLEAR}我觉得精灵联盟{CLEAR}直接制定小霞当馆主比较好吧。",
+   "en": "Misty wasn’t the official Leader, but{NEWLINE}she’s done a lot for the Gym.{SCROLL}I think the Pokémon League should just{NEWLINE}appoint her Leader directly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 115,
+   "zh": "要我选的话,{NEWLINE}我还是希望吔花小姐能当馆主。{CLEAR}跟着她训练又轻松,{CLEAR}还有美女看。",
+   "en": "If it were up to me, I’d want Miss Daisy{NEWLINE}as Leader.{SCROLL}Training under her is easy, and there{NEWLINE}are pretty girls to look at.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 116,
+   "zh": "谁当馆主都无所谓啦,{NEWLINE}只要能带着大家好好训练就行。",
+   "en": "I don’t care who’s Leader, as long as{NEWLINE}they train everyone properly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 117,
+   "zh": "如果不是精灵联盟的改革,{NEWLINE}华蓝道馆的馆主之位{CLEAR}就直接由小霞继承了。{CLEAR}现在这样敞开大门让大家公平竞争,{CLEAR}比原来的传承方式更有说服力了。",
+   "en": "If not for the Pokémon League’s{NEWLINE}reforms, Misty would simply have{CLEAR}inherited the Cerulean Gym.{SCROLL}Opening the doors so everyone can{NEWLINE}compete fairly is far more convincing{CLEAR}than the old way of inheritance.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 118,
+   "zh": "{VAR:0103:0}先生,{NEWLINE}华蓝道馆的最终考核马上就要开始了。{SCROLL}详细情况请您可以{NEWLINE}直接询问小刚馆主。",
+   "en": "Mr. {VAR:0103:0}, the Cerulean Gym’s final{NEWLINE}assessment is about to begin.{SCROLL}For details, please ask Gym Leader{NEWLINE}Brock.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 119,
+   "zh": "{VAR:0103:0}小姐,{NEWLINE}华蓝道馆的最终考核马上就要开始了。{SCROLL}详细情况请您可以{NEWLINE}直接询问小刚馆主。",
+   "en": "Ms. {VAR:0103:0}, the Cerulean Gym’s final{NEWLINE}assessment is about to begin.{SCROLL}For details, please ask Gym Leader{NEWLINE}Brock.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 120,
+   "zh": "正辉『{VAR:0103:0},{NEWLINE}我听说小霞要参加馆主考核,{CLEAR}就特地过来给她加油。{SCROLL}正辉『小霞这次的对手很嚣张啊,{NEWLINE}一直在说小霞是靠父亲的关系{CLEAR}而他自己是靠实力。{CLEAR}他根本就不知道{CLEAR}小霞为了成为馆主{CLEAR}付出了比别人多得多的努力。",
+   "en": "Bill: {VAR:0103:0}, I heard Misty’s taking{NEWLINE}the Gym Leader assessment,{SCROLL}so I came to cheer her on.{SCROLL}Bill: Misty’s opponent this time is really{NEWLINE}cocky.{SCROLL}He keeps saying Misty only got this far{NEWLINE}through her dad’s connections, while he{CLEAR}got here on his own skill.{SCROLL}He has no idea how much harder than{NEWLINE}everyone else Misty has worked to{CLEAR}become Gym Leader.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 121,
+   "zh": "听说这里有训练家对战,{NEWLINE}我就过来凑热闹了。",
+   "en": "I heard there’d be a Trainer battle{NEWLINE}here, so I came along for the fun.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 122,
+   "zh": "华蓝道馆终于要结束{NEWLINE}没有馆主的混乱时代了。",
+   "en": "The Cerulean Gym’s chaotic, leaderless{NEWLINE}era is finally coming to an end.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 123,
+   "zh": "想当馆主必须要先成为精英训练家,{NEWLINE}能站到这个考核舞台上的人{CLEAR}本事就不是等闲之辈了。{CLEAR}所以我觉得谁当馆主差别不大,{CLEAR}应该都可以把华蓝道馆带向更好。",
+   "en": "To be a Gym Leader, you have to be an{NEWLINE}Ace Trainer first.{SCROLL}Anyone who makes it to this stage is no{NEWLINE}ordinary Trainer.{SCROLL}So I don’t think it matters much who{NEWLINE}wins. Either one should take the{CLEAR}Cerulean Gym somewhere better.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 124,
+   "zh": "小霞『嘿嘿,就算你是冠军,{NEWLINE}也不一定就能赢我！",
+   "en": "Misty: Heh heh, you may be the{NEWLINE}Champion,{SCROLL}but that doesn’t mean you’ll beat me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 125,
+   "zh": "小霞『哎呀,又输给你了。",
+   "en": "Misty: Aww, I lost to you again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 126,
+   "zh": "阿彻『蓝色徽章居然就这么白给,{NEWLINE}华蓝道馆已经丢脸到这种地步了吗？",
+   "en": "Curtis: The Cascade Badge, just handed{NEWLINE}out for free?{SCROLL}Has the Cerulean Gym really sunk this{NEWLINE}low?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 127,
+   "zh": "小霞『你是谁？",
+   "en": "Misty: Who are you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 128,
+   "zh": "阿彻『我叫阿彻,{NEWLINE}是以成为华蓝道馆馆主为目标{CLEAR}而不断修行的训练家。{SCROLL}阿彻『你们这些靠父辈上位的二代们{NEWLINE}没有几天可跳了,{CLEAR}等今年的馆主选拔开始后,{CLEAR}我一定要取代你们{CLEAR}成为华蓝道馆的馆主,{CLEAR}重振华蓝道馆！",
+   "en": "Curtis: The name’s Curtis. I’m a Trainer{NEWLINE}who’s been training nonstop to become{CLEAR}Leader of the Cerulean Gym.{SCROLL}Curtis: You second-generation kids who{NEWLINE}got where you are thanks to your{CLEAR}parents won’t be strutting around much{CLEAR}longer.{SCROLL}Once this year’s Gym Leader selection{NEWLINE}begins, I’ll replace you as Leader...{SCROLL}And I’ll restore the Cerulean Gym’s{NEWLINE}good name!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 129,
+   "zh": "小霞『虽然我也不认同吔花姐姐的做法,{NEWLINE}但要说担任华蓝道馆馆主,{CLEAR}那肯定是非我莫属的！",
+   "en": "Misty: I don’t agree with what Daisy did{NEWLINE}either...{SCROLL}But if anyone’s going to be Leader of{NEWLINE}the Cerulean Gym, it’s me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 130,
+   "zh": "阿彻『你应该不是精英训练家吧,{NEWLINE}就这样的实力也敢妄谈成为道馆馆主？",
+   "en": "Curtis: You’re not an Ace Trainer, are{NEWLINE}you?{SCROLL}And with skills like that, you dare talk{NEWLINE}about becoming a Gym Leader?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 131,
+   "zh": "小霞『唔……你等着瞧吧！{NEWLINE}我一定会在馆主选拔之前{CLEAR}成为精英训练家,{CLEAR}然后当上华蓝道馆的馆主！",
+   "en": "Misty: Grr... Just you wait!{SCROLL}I’ll become an Ace Trainer before the{NEWLINE}Gym Leader selection, and then I’ll be{CLEAR}Leader of the Cerulean Gym!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 132,
+   "zh": "阿彻『好啊,那就让我看看{NEWLINE}没了父辈的帮助,{CLEAR}你能有多大本事。",
+   "en": "Curtis: Fine. Let’s see what you can do{NEWLINE}without your parents’ help.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 133,
+   "zh": "小霞『你是希望单打还是双打？",
+   "en": "Misty: Do you want a Single Battle or a{NEWLINE}Double Battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 134,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 135,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s), same position; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 136,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 137,
+   "zh": "小霞『你带的精灵太少,{NEWLINE}没法进行双打。",
+   "en": "Misty: You don’t have enough Pokémon{NEWLINE}for a Double Battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 138,
+   "zh": "对不起啊,在华蓝道馆的{NEWLINE}水上芭蕾表演开始之前,{CLEAR}本道馆暂不接待访……",
+   "en": "Sorry, until the Cerulean Gym’s water{NEWLINE}ballet show begins,{SCROLL}the Gym is closed to visi...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 139,
+   "zh": "啊！您是联盟冠军{VAR:0103:0}大人,{NEWLINE}抱歉没有第一时间认出来。{CLEAR}请问您是来找小霞馆主的吗？",
+   "en": "Ah! You’re League Champion {VAR:0103:0}!{SCROLL}I’m sorry I didn’t recognize you right{NEWLINE}away.{SCROLL}Are you here to see Gym Leader Misty?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch,too_many_lines] (candidate v3 0462#139; text not kept)"
+  },
+  {
+   "id": 140,
+   "zh": "{VAR:0103:0}『是的。",
+   "en": "{VAR:0103:0}: Yes.",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 141,
+   "zh": "馆主她就在里面,请进吧。",
+   "en": "The Leader is inside. Please, come in.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 142,
+   "zh": "{VAR:0103:0}『小霞。",
+   "en": "{VAR:0103:0}: Misty.",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 143,
+   "zh": "{VAR:0103:0}『联盟收到的情报说{NEWLINE}近期有身份不明的人{CLEAR}频繁进出华蓝道馆。{CLEAR}我担心道馆出事,所以过来看看。",
+   "en": "{VAR:0103:0}: The League received intel that{NEWLINE}unidentified people have been going in{CLEAR}and out of the Cerulean Gym lately.{SCROLL}I was worried something might happen,{NEWLINE}so I came to check.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 144,
+   "zh": "小霞『我也听过这样的传闻,{NEWLINE}所以为了以防万一,{CLEAR}华蓝道馆已经不接待访客了。{CLEAR}现在道馆里除了水上芭蕾的排练演员,{CLEAR}就只剩我们自己的训练家。{CLEAR}我想应该不会有什么事的。",
+   "en": "Misty: I’ve heard those rumors too, so{NEWLINE}just in case, the Cerulean Gym has{CLEAR}stopped taking visitors.{SCROLL}Right now, the only people in the Gym{NEWLINE}are the water ballet performers and{CLEAR}our own Trainers.{SCROLL}I’m sure it’ll be fine.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 145,
+   "zh": "{VAR:0103:0}『确实是很好的对策。",
+   "en": "{VAR:0103:0}: That’s a smart precaution.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 146,
+   "zh": "{VAR:0103:0}『话说华蓝道馆有什么东西,{NEWLINE}是值得被火箭队顶上的吗？",
+   "en": "{VAR:0103:0}: By the way, is there anything{NEWLINE}in the Cerulean Gym that Team Rocket{CLEAR}might be after?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 147,
+   "zh": "小霞『嗯……这个嘛……{SCROLL}小霞『你是联盟冠军,{NEWLINE}告诉你倒也没什么。{CLEAR}其实我们华蓝道馆{CLEAR}有一个代代相传的宝物,{CLEAR}就是蓝色宝珠。{CLEAR}历代馆主的职责{CLEAR}就是守护这颗蓝色宝珠。{CLEAR}虽然这件事也不是什么秘密,{CLEAR}但随着历史的变迁,{CLEAR}知道蓝色宝珠保存在华蓝道馆的人{CLEAR}确实是越来越少了。",
+   "en": "Misty: Hmm... Well...{SCROLL}Misty: You’re the League Champion, so I{NEWLINE}guess it’s all right to tell you.{SCROLL}The truth is, the Cerulean Gym has a{NEWLINE}treasure that’s been passed down for{CLEAR}generations: the Blue Orb.{SCROLL}Every Gym Leader’s duty has been to{NEWLINE}guard it.{SCROLL}It’s not exactly a secret, but over the{NEWLINE}years, fewer and fewer people have{CLEAR}known the Blue Orb is kept here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 148,
+   "zh": "{VAR:0103:0}『这颗蓝色宝珠{NEWLINE}跟传说中的精灵有什么关系吗？",
+   "en": "{VAR:0103:0}: Is this Blue Orb linked to a{NEWLINE}Legendary Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 149,
+   "zh": "小霞『传说蓝色宝珠是{NEWLINE}能够唤醒沉睡在双子岛的{CLEAR}海洋之神盖欧卡的信物。{CLEAR}但这也只是爸爸给我们姐妹讲的故事,{CLEAR}具体是不是真的也很难说。",
+   "en": "Misty: Legend says the Blue Orb can{NEWLINE}awaken Kyogre, the god of the sea, who{CLEAR}sleeps in the Seafoam Islands.{SCROLL}But that’s just a story Dad told us{NEWLINE}sisters. Who knows if it’s true.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 150,
+   "zh": "{VAR:0103:0}『既然火箭队盯上了华蓝道馆,{NEWLINE}那么宝珠的事很可能是真的。{CLEAR}宝珠现在保存的地方安全吗？",
+   "en": "{VAR:0103:0}: If Team Rocket has its eye on{NEWLINE}the Cerulean Gym, the story about the{CLEAR}Orb may well be true.{SCROLL}Is the Orb somewhere safe right now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 151,
+   "zh": "小霞『这个嘛……吔花姐姐{NEWLINE}准备在水上芭蕾表演的时候{CLEAR}把它当作表演道具展示给观众,{CLEAR}所以现在正拿着宝珠排练呢。{CLEAR}你看那边！",
+   "en": "Misty: Well... Daisy’s planning to show{NEWLINE}it to the audience as a prop in the{CLEAR}water ballet.{SCROLL}So she’s rehearsing with the Orb right{NEWLINE}now.{SCROLL}Look over there!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 152,
+   "zh": "小霞『姐姐现在表演的这段,{NEWLINE}是美人鱼公主将大海的珍宝{CLEAR}从海底取出。",
+   "en": "Misty: In this part, the mermaid{NEWLINE}princess brings the treasure of the sea{CLEAR}up from the ocean floor.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 153,
+   "zh": "小霞『平时蓝色宝珠{NEWLINE}都是锁在道馆水池的地板下,{CLEAR}除了我和姐姐没人能打开锁。{CLEAR}表演的时候宝珠不会离开水池,{CLEAR}也不允许观众接近水池,{CLEAR}所以肯定没事的。",
+   "en": "Misty: Normally, the Blue Orb is locked{NEWLINE}under the floor of the Gym’s pool, and{CLEAR}only my sister and I can open the lock.{SCROLL}During the show, the Orb never leaves{NEWLINE}the pool,{SCROLL}and the audience can’t go near it.{SCROLL}So it’s definitely safe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 154,
+   "zh": "{VAR:0103:0}『嗯,这样的话{NEWLINE}应该就不用担心什么了。",
+   "en": "{VAR:0103:0}: I see. Then there shouldn’t{NEWLINE}be anything to worry about.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 155,
+   "zh": "吔花『喂！小泉,你游错地方了！{NEWLINE}还没有到游向人鱼公主的那一章节。",
+   "en": "Daisy: Hey! Shelly, you’re swimming to{NEWLINE}the wrong spot!{SCROLL}We haven’t gotten to the part where{NEWLINE}you swim to the mermaid princess yet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "小泉 / 泉 = Shelly (Team Aqua admin, JP Izumi), here a Team Rocket spy. #156/157/159/164/180/183 have no zh label and none was added."
+  },
+  {
+   "id": 156,
+   "zh": "对不起啊吔花小姐……",
+   "en": "Sorry, Miss Daisy...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 157,
+   "zh": "你手中的蓝色宝珠就拿来吧！",
+   "en": "Now hand over that Blue Orb!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 158,
+   "zh": "吔花『你干什么,小泉！{NEWLINE}快把蓝色宝珠还给我。",
+   "en": "Daisy: What are you doing, Shelly?! Give{NEWLINE}the Blue Orb back this instant!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 159,
+   "zh": "那可不行,我混进华蓝道馆{NEWLINE}陪你练了这么久无聊的水上芭蕾,{CLEAR}就是等着见到蓝色宝珠的这一刻。{CLEAR}现在宝珠已经到手了,{CLEAR}那咱们就再见啦,吔花小姐。",
+   "en": "No can do. I snuck into the Cerulean{NEWLINE}Gym and sat through all that boring{CLEAR}water ballet with you...{SCROLL}All just to wait for the moment I’d lay{NEWLINE}eyes on the Blue Orb.{SCROLL}Now that it’s mine, it’s goodbye, Miss{NEWLINE}Daisy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 160,
+   "zh": "吔花『小霞！",
+   "en": "Daisy: Misty!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 161,
+   "zh": "小霞『我看到了,吔花姐姐！",
+   "en": "Misty: I saw, Daisy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 162,
+   "zh": "小霞『走,{VAR:0103:0},跟我来！",
+   "en": "Misty: Come on, {VAR:0103:0}, follow me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 163,
+   "zh": "小霞『想从华蓝道馆抢东西逃跑？{NEWLINE}门都没有！{CLEAR}你现在已经无路可退了,{CLEAR}快点把蓝色宝珠还给我！",
+   "en": "Misty: You think you can rob the{NEWLINE}Cerulean Gym and get away?{SCROLL}Not a chance!{SCROLL}You’ve got nowhere left to run. Give{NEWLINE}back the Blue Orb, now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 164,
+   "zh": "哼,我既然选择今天行动,{NEWLINE}肯定是做好了各种预案的,{CLEAR}把你们引到这个角落来{CLEAR}也是计划的一部分哦。",
+   "en": "Hmph. I chose today to make my move, so{NEWLINE}of course I planned for everything.{SCROLL}Luring you into this corner is part of{NEWLINE}the plan.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 165,
+   "zh": "{VAR:FF01:200}吔花『呀——放开我！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Daisy: Eek! Let me go!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "SIZE-200% line split over two lines to fit at 2x; check in game. Double-size shout: one line per page (a line break inside {VAR:FF01:200} overflows the box and corrupts memory; heap_audit.md)."
+  },
+  {
+   "id": 166,
+   "zh": "小霞『吔花姐姐！",
+   "en": "Misty: Daisy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 167,
+   "zh": "{VAR:0103:0}『水吾桐！",
+   "en": "{VAR:0103:0}: Archie!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 168,
+   "zh": "水吾桐『哈哈哈,你们这些人,{NEWLINE}终究还是太年轻、太单纯,{CLEAR}有时候还很天真。{SCROLL}水吾桐『抢夺蓝色宝珠{NEWLINE}是我们火箭队的重要计划,{CLEAR}怎么可能只派一个人来呢。",
+   "en": "Archie: Ha ha ha! You people are still{NEWLINE}too young,{SCROLL}too simple, and sometimes naive.{SCROLL}Archie: Seizing the Blue Orb is a major{NEWLINE}Team Rocket operation.{SCROLL}Did you really think we’d send just one{NEWLINE}person?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "'too young, too simple, sometimes naive' is the zh meme line kept as an English meme."
+  },
+  {
+   "id": 169,
+   "zh": "小霞『赶紧放开吔花姐姐！",
+   "en": "Misty: Let Daisy go, now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 170,
+   "zh": "水吾桐『我对这种没用的女人{NEWLINE}一点兴趣都没有,{CLEAR}但是她对你们很重要吧？{CLEAR}所以作为交换,{CLEAR}你让我的手下带着蓝色宝珠过来。",
+   "en": "Archie: I have zero interest in a{NEWLINE}useless woman like this. But she{CLEAR}matters to you, doesn’t she?{SCROLL}So here’s the deal: let my subordinate{NEWLINE}bring the Blue Orb over here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 171,
+   "zh": "小霞『你……！",
+   "en": "Misty: You...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 172,
+   "zh": "水吾桐『哈哈哈,{NEWLINE}作为道馆馆主的职责{CLEAR}和作为妹妹的亲情{CLEAR}正在你的心里斗争吗？",
+   "en": "Archie: Ha ha ha! Is your duty as Gym{NEWLINE}Leader at war with your love for your{CLEAR}sister?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 173,
+   "zh": "吔花『这还需要犹豫吗小霞？",
+   "en": "Daisy: Do you even have to think about{NEWLINE}it, Misty?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 174,
+   "zh": "小霞『姐姐……！",
+   "en": "Misty: Daisy...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 175,
+   "zh": "吔花『蓝色宝珠丢了还可以抢回来,{NEWLINE}但你的姐姐只有一个呀！{CLEAR}先救我要紧！",
+   "en": "Daisy: If the Blue Orb gets taken, you{NEWLINE}can always steal it back.{SCROLL}But you only have one of me!{SCROLL}Saving me comes first!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 176,
+   "zh": "小霞『呃……不愧是姐姐,{NEWLINE}虽然是这个道理没错,{CLEAR}但这么说出来总感觉怪怪的。",
+   "en": "Misty: Um... That’s so you, Daisy.{SCROLL}You’re not wrong, but hearing you say{NEWLINE}it out loud feels kind of weird.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 177,
+   "zh": "水吾桐『你姐姐已经帮你{NEWLINE}把账算的很明白了,{CLEAR}你还有什么可犹豫的呢。",
+   "en": "Archie: Your sister’s already done the{NEWLINE}math for you.{SCROLL}What’s left to hesitate over?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 178,
+   "zh": "小霞『好吧,我知道了。{NEWLINE}咱们同时交换人质。",
+   "en": "Misty: Fine, I get it. We swap hostages{NEWLINE}at the same time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 179,
+   "zh": "小霞『你走吧小泉。",
+   "en": "Misty: Go, Shelly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 180,
+   "zh": "嘿嘿,水吾桐大人,我们成功了！",
+   "en": "Heh heh, Master Archie, we did it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 181,
+   "zh": "小霞『{VAR:0103:0},咱们上！",
+   "en": "Misty: {VAR:0103:0}, let’s get them!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 182,
+   "zh": "水吾桐『泉！你先带着宝珠去双子岛！",
+   "en": "Archie: Shelly! Take the Orb to the{NEWLINE}Seafoam Islands first!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 183,
+   "zh": "是！",
+   "en": "Yes, sir!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 184,
+   "zh": "水吾桐『嘿嘿,蓝色宝珠{NEWLINE}已经归我们火箭队了,{CLEAR}你们就认栽吧！",
+   "en": "Archie: Heh heh, the Blue Orb belongs{NEWLINE}to Team Rocket now. Just admit defeat!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 185,
+   "zh": "水吾桐『呼……咳……{NEWLINE}已经拖得够久了,撤退！",
+   "en": "Archie: Huff... Cough... I’ve stalled{NEWLINE}long enough. Retreat!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 186,
+   "zh": "小霞『{VAR:0103:0},刚才水吾桐说{NEWLINE}让手下带着蓝色宝珠去双子岛,{CLEAR}传说中那里正是盖欧卡沉睡的地方。{CLEAR}现在我必须去阻止火箭队{CLEAR}使用蓝色宝珠唤醒盖欧卡。{CLEAR}你如果没有其他事的话,{CLEAR}也跟我一起来吧,{CLEAR}我现在需要你的力量！",
+   "en": "Misty: {VAR:0103:0}, Archie just told his{NEWLINE}underling to take the Blue Orb to the{CLEAR}Seafoam Islands.{SCROLL}Legend says that’s exactly where{NEWLINE}Kyogre sleeps.{SCROLL}I have to stop Team Rocket from using{NEWLINE}the Blue Orb to awaken Kyogre.{SCROLL}If you’re not busy, please come with{NEWLINE}me. I need your strength right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 187,
+   "zh": "{VAR:0103:0}『没问题,{NEWLINE}阻止火箭队也是我的责任！",
+   "en": "{VAR:0103:0}: No problem. Stopping Team{NEWLINE}Rocket is my job too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 188,
+   "zh": "小霞『嗯！那我先去双子岛了,{NEWLINE}你也快点跟上来啊！",
+   "en": "Misty: Right! I’ll head to the Seafoam{NEWLINE}Islands first. Catch up quickly, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 189,
+   "zh": "吔花『你还等什么啊小霞,{NEWLINE}快去抢回蓝色宝珠！",
+   "en": "Daisy: What are you waiting for, Misty?{NEWLINE}Go get the Blue Orb back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 190,
+   "zh": "没能阻止火箭队,我真是太失职了。",
+   "en": "We couldn’t stop Team Rocket. I really{NEWLINE}failed in my duty.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 191,
+   "zh": "火箭队公然闯入道馆抢劫,{NEWLINE}这是有了足够的底气{CLEAR}跟精灵联盟叫板吗？",
+   "en": "Team Rocket barging into a Gym to rob it{NEWLINE}in plain sight...{SCROLL}Are they confident enough to take on{NEWLINE}the Pokémon League now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 192,
+   "zh": "小泉是半年前进入道馆学习芭蕾舞的,{NEWLINE}真没看出来她竟然是火箭队的人。",
+   "en": "Shelly joined the Gym to learn ballet six{NEWLINE}months ago.{SCROLL}I never would’ve guessed she was with{NEWLINE}Team Rocket.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 193,
+   "zh": "我早就觉得小泉这个人不对劲,{NEWLINE}只是以前没有证据{CLEAR}没法向吔花小姐报告。",
+   "en": "I always thought something was off{NEWLINE}about Shelly.{SCROLL}I just never had proof, so I couldn’t{NEWLINE}tell Miss Daisy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 194,
+   "zh": "小泉是火箭队的人？{NEWLINE}真是让人难以置信。",
+   "en": "Shelly’s with Team Rocket? I can’t{NEWLINE}believe it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 195,
+   "zh": "吔花小姐和小霞馆主都很紧张的样子,{NEWLINE}蓝色宝珠真的有那么重要吗？",
+   "en": "Miss Daisy and Gym Leader Misty both{NEWLINE}looked so worried. Is the Blue Orb{CLEAR}really that important?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 196,
+   "zh": "吔花『小霞孤身一人去{NEWLINE}追击火箭队太危险了,{CLEAR}拜托你一定要去双子岛帮她啊！",
+   "en": "Daisy: Chasing Team Rocket all alone is{NEWLINE}too dangerous for Misty.{SCROLL}Please, you have to go to the Seafoam{NEWLINE}Islands and help her!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 197,
+   "zh": "你好啊,冠军大人。{NEWLINE}我是华蓝道馆的陪练。{CLEAR}专为想提高实力的训练家{CLEAR}提供针对性训练服务。{CLEAR}只需要1个解冰果的服务费{CLEAR}我就可以帮你的精灵{CLEAR}针对性提高「特防」努力值{SCROLL}怎么样？{NEWLINE}需要我的陪练服务吗？{SCROLL}",
+   "en": "Hello, Champion! I’m a sparring partner{NEWLINE}at the Cerulean Gym.{SCROLL}I offer focused training for Trainers{NEWLINE}who want to get stronger.{SCROLL}For a fee of just one Aspear Berry, I’ll{NEWLINE}train your Pokémon to raise its Sp.{SCROLL}Def EVs.{SCROLL}How about it? Want to spar with me?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 198,
+   "zh": "欢迎冠军大人光临华蓝道馆。",
+   "en": "Welcome to the Cerulean Gym, Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 199,
+   "zh": "小霞『{VAR:0103:0},我会守护好华蓝市的,{NEWLINE}你放心地去对付石英高原的火箭队吧！",
+   "en": "Misty: {VAR:0103:0}, I’ll protect Cerulean{NEWLINE}City.{SCROLL}Go deal with Team Rocket at the Indigo{NEWLINE}Plateau, and don’t worry about us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#199-215 and #217-251: Misty romance route (male player), post-game Champion."
+  },
+  {
+   "id": 200,
+   "zh": "小霞『{VAR:0103:0},{NEWLINE}我要看你平平安安地回来哦,{CLEAR}要是少了一根头发,我可不饶你。",
+   "en": "Misty: {VAR:0103:0}, I want to see you come{NEWLINE}back safe and sound.{SCROLL}If you lose even a single hair, I won’t{NEWLINE}forgive you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 201,
+   "zh": "小霞『{VAR:0103:0},你不是应该{NEWLINE}去石英高原战斗了吗？{CLEAR}怎么跑到这里来了？",
+   "en": "Misty: {VAR:0103:0}, aren’t you supposed to{NEWLINE}be off fighting at the Indigo Plateau?{SCROLL}What are you doing here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 202,
+   "zh": "{VAR:0103:0}『我有点放心不下你,{NEWLINE}所以到这儿来看看。",
+   "en": "{VAR:0103:0}: I was a little worried about{NEWLINE}you, so I came by to check.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 203,
+   "zh": "小霞『就只是……来看看吗？{NEWLINE}这场跟火箭队的战斗肯定非常凶险,{CLEAR}在你前往战场之前,{CLEAR}就没有其他什么想对我说的吗？",
+   "en": "Misty: Just... to check?{SCROLL}This battle with Team Rocket is going to{NEWLINE}be really dangerous.{SCROLL}Before you head into it, isn’t there{NEWLINE}anything else you want to tell me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 204,
+   "zh": "{VAR:0103:0}『我……这……小霞,我……",
+   "en": "{VAR:0103:0}: I... uh... Misty, I...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 205,
+   "zh": "小霞『唉,你还是老样子。{NEWLINE}明明在电视讲话里说的那么好,{CLEAR}到我面前就开不了口了……{CLEAR}不过谁让我喜欢的就是这样的你呢。",
+   "en": "Misty: Sigh, you haven’t changed a bit.{SCROLL}You gave such a great speech on TV,{NEWLINE}but with me you can’t get a word out...{SCROLL}But I guess that’s exactly the you I{NEWLINE}fell for.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 206,
+   "zh": "{VAR:0103:0}『喜欢……我？",
+   "en": "{VAR:0103:0}: You... like me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 207,
+   "zh": "小霞『咱们第一次在湖边相遇时,{NEWLINE}我就觉得眼前这个男生有点点小帅,{CLEAR}后来在月见山面对暴走的暴鲤龙、{CLEAR}面对强大的火箭队,{CLEAR}你的鼓励让我感到无比温暖。{CLEAR}在华蓝海角跟你比赛、{CLEAR}在电脑世界跟你并肩作战,{CLEAR}这都是我无法忘记的美好回忆。{CLEAR}后来无论是在彩虹市大战火箭队,{CLEAR}还是一起去双子岛追回蓝色宝珠。{CLEAR}你都让我感觉你无比值得信赖,{CLEAR}我让我感觉自己越来越离不开你……",
+   "en": "Misty: When we first met by the lake, I{NEWLINE}thought you were kind of cute.{SCROLL}Later at Mt. Moon, facing a raging{NEWLINE}Gyarados and Team Rocket...{SCROLL}Your encouragement made me feel so{NEWLINE}warm.{SCROLL}Battling you at Cerulean Cape, fighting{NEWLINE}side by side in the computer world...{SCROLL}Those are wonderful memories I’ll never{NEWLINE}forget.{SCROLL}Then there was fighting Team Rocket in{NEWLINE}Celadon City, and chasing the Blue Orb{CLEAR}together to the Seafoam Islands.{SCROLL}Every time, you made me feel I could{NEWLINE}trust you completely...{SCROLL}And I found I needed you more and{NEWLINE}more...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "电脑世界 = the computer world (anime Porygon episode reference)."
+  },
+  {
+   "id": 208,
+   "zh": "{VAR:0103:0}『小霞……",
+   "en": "{VAR:0103:0}: Misty...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 209,
+   "zh": "小霞『一想到{VAR:0103:0}要登上石英高原{NEWLINE}与火箭队决战,{CLEAR}我的心里就忍不住地担心。{CLEAR}我知道如今的你{CLEAR}已经是无比强大的训练家,{CLEAR}但我却前所未有地担心你。{CLEAR}我的心似乎已经{CLEAR}与你紧紧地绑在一起了,{CLEAR}这种感觉,大概就是喜欢吧……",
+   "en": "Misty: Whenever I think of you heading{NEWLINE}up to the Indigo Plateau for the final{CLEAR}battle with Team Rocket, {VAR:0103:0}...{SCROLL}I can’t help worrying.{SCROLL}I know you’re an incredibly strong{NEWLINE}Trainer now, but I’ve never been this{CLEAR}worried about you.{SCROLL}It’s like my heart is tied tightly to{NEWLINE}yours.{SCROLL}I guess this feeling... is love...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0462#209; text not kept)"
+  },
+  {
+   "id": 210,
+   "zh": "{VAR:0103:0}『谢谢你,小霞……{NEWLINE}咱们确实一起经历了太多太多。{CLEAR}我对你的感情也早从最初的伙伴,{CLEAR}变成了心底无法割舍的那个女孩。{CLEAR}其实我早该开口告诉你的,{CLEAR}我喜欢你,小霞……",
+   "en": "{VAR:0103:0}: Thank you, Misty...{SCROLL}We really have been through so, so much{NEWLINE}together.{SCROLL}My feelings for you changed long ago,{NEWLINE}from a travel companion to the girl I{CLEAR}can’t bear to lose.{SCROLL}I should have told you a long time ago.{NEWLINE}I love you, Misty...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 211,
+   "zh": "小霞『{VAR:0103:0}……",
+   "en": "Misty: {VAR:0103:0}...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 212,
+   "zh": "小霞『能得到你的回应,我真的好开心。",
+   "en": "Misty: Hearing you say that makes me so{NEWLINE}happy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 213,
+   "zh": "{VAR:0103:0}『我现在必须要去石英高原{NEWLINE}跟火箭队决战了,{CLEAR}小霞也专心做好华蓝市的防卫工作吧。{CLEAR}等打败了火箭队,我就回来找你。",
+   "en": "{VAR:0103:0}: I have to head to the Indigo{NEWLINE}Plateau now to face Team Rocket.{SCROLL}Misty, you focus on defending Cerulean{NEWLINE}City.{SCROLL}Once we’ve beaten Team Rocket, I’ll{NEWLINE}come back for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 214,
+   "zh": "小霞『嗯,我要看你平平安安地回来哦,{NEWLINE}要是少了一根头发,我可决不轻饶！",
+   "en": "Misty: OK. I want to see you come back{NEWLINE}safe and sound.{SCROLL}If you lose even a single hair, I’ll{NEWLINE}never let you off the hook!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 215,
+   "zh": "{VAR:0103:0}『放心吧,我一定会平安回来的！",
+   "en": "{VAR:0103:0}: Don’t worry, I’ll definitely{NEWLINE}come back safe!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 216,
+   "zh": "吔花『{VAR:0103:0},{NEWLINE}谢谢你在华蓝洞穴救了小霞他们。{CLEAR}你身为联盟冠军,{CLEAR}今后还会遇到各种各样的对手吧,{CLEAR}我的水系精灵特别擅长在水中起舞,{CLEAR}因此能够熟练地使用水流尾这个招式,{CLEAR}如果你也有精灵需要掌握水流尾,{CLEAR}我可以教给它们。{SCROLL}怎么样,要学吗？{SCROLL}",
+   "en": "Daisy: {VAR:0103:0}, thank you for saving{NEWLINE}Misty and the others in Cerulean Cave.{SCROLL}As League Champion, you’ll face all{NEWLINE}kinds of opponents from now on.{SCROLL}My Water-type Pokémon are wonderful at{NEWLINE}dancing in the water, so they’re{CLEAR}experts at Aqua Tail.{SCROLL}If any of your Pokémon need to learn{NEWLINE}Aqua Tail, I can teach them.{SCROLL}So, would you like to learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 217,
+   "zh": "小霞『{VAR:0103:0}你怎么才来啊,{NEWLINE}我可是时时刻刻都在想你呢！{CLEAR}作为男朋友,{CLEAR}你也要多关心关心你女朋友才行哦！",
+   "en": "Misty: {VAR:0103:0}, what took you so long?{SCROLL}I’ve been thinking about you every{NEWLINE}minute!{SCROLL}As my boyfriend, you need to pay more{NEWLINE}attention to your girlfriend, you know!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 218,
+   "zh": "咱们一起出去走走吧",
+   "en": "Let’s go somewhere together",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 219,
+   "zh": "我想跟你来一场对战",
+   "en": "I want to battle you",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 220,
+   "zh": "我还有事要忙,回头见",
+   "en": "I’m busy. See you later",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 221,
+   "zh": "小霞『哎？又要去忙吗？{NEWLINE}确实你身为联盟冠军,{CLEAR}要承担很多责任……{CLEAR}但是忙完之后记得来陪我啊！",
+   "en": "Misty: Huh? Busy again? I know, as{NEWLINE}League Champion you’ve got lots of{CLEAR}responsibilities...{SCROLL}But come keep me company once you’re{NEWLINE}done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 222,
+   "zh": "{VAR:0103:0}『小霞,你整天待在道馆里{NEWLINE}应该也挺闷的吧？{CLEAR}不如咱们出去走走？",
+   "en": "{VAR:0103:0}: Misty, you must get bored{NEWLINE}stuck in the Gym all day.{SCROLL}Why don’t we go out somewhere?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 223,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 224,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it, come back{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 225,
+   "zh": "小霞『哎嘿,我的木头{VAR:0103:0}{NEWLINE}也学会花心思动脑筋了呀。{CLEAR}那咱们就去华蓝海角转转吧？",
+   "en": "Misty: Well, well! My blockhead {VAR:0103:0}{NEWLINE}has learned to be thoughtful!{SCROLL}Then let’s go for a stroll around{NEWLINE}Cerulean Cape!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 226,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住水流尾。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn Aqua{NEWLINE}Tail.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 227,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I don’t think a Pokémon that hasn’t{NEWLINE}hatched yet can learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 228,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会水流尾了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Aqua{NEWLINE}Tail!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 229,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 230,
+   "zh": "{VAR:0101:0}学会了水流尾！",
+   "en": "{VAR:0101:0} learned Aqua Tail!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 231,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会水流尾了！",
+   "en": "And there you go! Your {VAR:0100:0} has{NEWLINE}learned Aqua Tail!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 232,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的水流尾……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习水流尾{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Aqua Tail...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn Aqua{NEWLINE}Tail?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 233,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 234,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 235,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 236,
+   "zh": "{VAR:0101:0}学会了水流尾！",
+   "en": "{VAR:0101:0} learned Aqua Tail!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 237,
+   "zh": "你是要放弃{NEWLINE}让它记住水流尾吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Aqua Tail?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 238,
+   "zh": "{VAR:0103:0}『嗯,好！",
+   "en": "{VAR:0103:0}: Sure, sounds good!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 239,
+   "zh": "小霞『真是的,{NEWLINE}难得跟{VAR:0103:0}去一次华蓝海角,{CLEAR}还被电灯泡给打扰了。{CLEAR}那个叫阿金的小子真是个讨厌鬼。",
+   "en": "Misty: Honestly! I finally get to go to{NEWLINE}Cerulean Cape with {VAR:0103:0}, and some{CLEAR}third wheel barges in.{SCROLL}That Gold kid is such a pest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "电灯泡 (third wheel) = Gold."
+  },
+  {
+   "id": 240,
+   "zh": "别生气了,我带你出去玩",
+   "en": "Don’t be mad. Let’s go have fun",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 241,
+   "zh": "{VAR:0103:0}『别生气了小霞,{NEWLINE}这次咱们去城都的度假区好好玩玩,{CLEAR}你一定会喜欢那里的。",
+   "en": "{VAR:0103:0}: Don’t be mad, Misty. This time,{NEWLINE}let’s go have some real fun at the{CLEAR}Resort Zone in Johto.{SCROLL}I know you’ll love it there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 242,
+   "zh": "小霞『好呀好呀,{NEWLINE}我早就听说那边开了一个度假区,{CLEAR}要是能跟{VAR:0103:0}一起去玩一次,{CLEAR}一定很有意思。",
+   "en": "Misty: Yes, yes! I heard they’d opened{NEWLINE}a resort over there.{SCROLL}Going there with {VAR:0103:0} would be so{NEWLINE}much fun.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 243,
+   "zh": "{VAR:0103:0}『那还等什么,咱们走吧！",
+   "en": "{VAR:0103:0}: Then what are we waiting for?{NEWLINE}Let’s go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 244,
+   "zh": "小霞『哇,好热闹啊。{NEWLINE}{VAR:0103:0}你说要从哪里玩起比较好呢？",
+   "en": "Misty: Wow, it’s so lively! Where should{NEWLINE}we start, {VAR:0103:0}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 245,
+   "zh": "{VAR:0103:0}『嗯……小霞你喜欢水系精灵,{NEWLINE}正好北面有个联动公园,{CLEAR}可以抓到来自其他地区的水系精灵。{CLEAR}咱们要不要去那里看看？",
+   "en": "{VAR:0103:0}: Hmm...{SCROLL}You love Water types, Misty. There’s a{NEWLINE}Pal Park just north of here.{SCROLL}You can catch Water-type Pokémon from{NEWLINE}other regions there.{SCROLL}Want to go take a look?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "联动公园 = Pal Park (same as 0206)."
+  },
+  {
+   "id": 246,
+   "zh": "小霞『还有这种好地方？{NEWLINE}那可一定要去看看！{CLEAR}走,咱们去联动公园吧！",
+   "en": "Misty: There’s a place like that? Then{NEWLINE}we’ve got to see it!{SCROLL}Come on, let’s go to the Pal Park!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 247,
+   "zh": "小霞『{VAR:0103:0}你要经常来陪我哦,{NEWLINE}不然我可是会生气的。",
+   "en": "Misty: {VAR:0103:0}, you’d better come see{NEWLINE}me often, or I’m going to get mad.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 248,
+   "zh": "我想带你去见见我妈妈",
+   "en": "I want you to meet my mom",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 249,
+   "zh": "{VAR:0103:0}『小霞,从度假区回来的时候{NEWLINE}我就一直在想,{CLEAR}差不多是时候带你去见见我妈妈了。{CLEAR}你要不要跟我一起回趟真新镇呢？",
+   "en": "{VAR:0103:0}: Misty, ever since we got back{NEWLINE}from the Resort Zone,{SCROLL}I’ve been thinking...{SCROLL}It’s about time you met my mom. Would{NEWLINE}you come back to Pallet Town with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 250,
+   "zh": "小霞『去真新镇见{VAR:0103:0}的妈妈？{NEWLINE}好呀好呀,我还从来没有见过阿姨呢。{CLEAR}确实应该去拜访一下。",
+   "en": "Misty: Meet {VAR:0103:0}’s mom in Pallet{NEWLINE}Town?{SCROLL}Yes, yes! I’ve never met her before.{SCROLL}I really should pay her a visit.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 251,
+   "zh": "{VAR:0103:0}『嘿嘿,我就知道你不会拒绝的,{NEWLINE}咱们走吧！",
+   "en": "{VAR:0103:0}: Heh heh, I knew you wouldn’t{NEWLINE}say no. Let’s go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

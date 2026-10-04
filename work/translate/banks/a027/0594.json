@@ -1,0 +1,154 @@
+{
+ "narc": "a027",
+ "bank": 594,
+ "source": "work/extract/v4/a027/0594.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "好不容易来红莲岛旅次游,{NEWLINE}要给家人带点什么特产回去好呢？",
+   "en": "I finally made it to Cinnabar Island on{NEWLINE}vacation. What local specialty should I{CLEAR}bring home for my family?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Cinnabar Island tourists and a shop; the hack reuses the vanilla Global Terminal 3F bank (#3-#8 are vanilla Battle Video lines)."
+  },
+  {
+   "id": 1,
+   "zh": "每年我都会来红莲岛度假一次,{NEWLINE}这里热腾腾的熔岩总会给我一种{CLEAR}充满活力的感觉。",
+   "en": "I come to Cinnabar Island on vacation{NEWLINE}once every year.{SCROLL}The piping-hot lava here always makes{NEWLINE}me feel full of energy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "本来还想在旅游胜地的道馆{NEWLINE}打卡拍照的,{CLEAR}结果人家说红莲道馆不开了,{CLEAR}真是太可惜了。",
+   "en": "I wanted to snap a photo at the Gym in{NEWLINE}this tourist hot spot, but they told me{CLEAR}the Cinnabar Gym is closed.{SCROLL}What a shame.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "我呢,光注意　{NEWLINE}可爱的玛力露{CLEAR}战斗的视频了。",
+   "en": "My Battle Videos starring only cute{NEWLINE}little Marill are the ones I like best.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0602/3; modernised from US 0602#3"
+  },
+  {
+   "id": 4,
+   "zh": "全是精彩的战斗录像啊！{NEWLINE}明白为什么这么有人气了！{SCROLL}因为,感觉好像看看{NEWLINE}就可能变强了呢！",
+   "en": "They’re all amazing battles! I can see{NEWLINE}why they’re so popular!{SCROLL}It feels like just watching them might{NEWLINE}make you stronger!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "这样每天都享受着战斗录像。{SCROLL}这就是所谓绅士的嗜好吧。",
+   "en": "To treat one’s self to Battle Videos{NEWLINE}every day...{SCROLL}I would consider that a hobby worthy{NEWLINE}of a true gentleman.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0602/5"
+  },
+  {
+   "id": 6,
+   "zh": "神奇的战斗录像,{NEWLINE}神奇的战斗录像,{SCROLL}放这个了哦,{NEWLINE}放这个了哦,{SCROLL}怎样呢？{NEWLINE}怎样呢怎样呢！",
+   "en": "My mysterious Battle Video.{NEWLINE}My mysterious Battle Video.{SCROLL}What’s on it?{NEWLINE}What’s on it?{SCROLL}It’s a mystery!{NEWLINE}It’s a mystery! And I mean it!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0602/6"
+  },
+  {
+   "id": 7,
+   "zh": "满金市的取字{NEWLINE}造句游戏开始啦！{SCROLL}满……满金市往南是{NEWLINE}桐树林{SCROLL}金……锦绣繁华的{NEWLINE}满金市的地下通道{SCROLL}市……是穿黑衣的{NEWLINE}火箭队在我睡觉时{CLEAR}偷走了我的东西！",
+   "en": "Let me attempt the alphabet rap using{NEWLINE}Goldenrod, dig?{SCROLL}G... Go south from here for the{NEWLINE}Ilex Forest.{SCROLL}O... Over land is not where you’ll find{NEWLINE}the Goldenrod Tunnel.{SCROLL}L... Looking like criminals in their black{NEWLINE}pajamas is Team Rocket.{SCROLL}D... Um... D... is...{NEWLINE}Yeah, I know, lame-o.{CLEAR}You give it a try!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0602/7; US line kept: vanilla Goldenrod acrostic (满金市) left unchanged by the hack; the US localisation adapts the wordplay."
+  },
+  {
+   "id": 8,
+   "zh": "我是个登山爱好者,{NEWLINE}我喜欢玩{CLEAR}二楼的盒子速照！",
+   "en": "I’m a big hiking fan, and I love the Box{NEWLINE}snapshots on the second floor!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "盒子速照 read as the vanilla Box snapshot feature on 2F; vanilla leftover."
+  },
+  {
+   "id": 9,
+   "zh": "欢迎！{NEWLINE}买东西是吧？",
+   "en": "Welcome! Here to buy something?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "TM35 火焰放射{NEWLINE}5000元",
+   "en": "TM35 Flamethrower $5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Shop list: zh has item + price on one line, kept on one line (${price} before the amount, D-0008). TM35 = Flamethrower (HGSS). Check the list width in game."
+  },
+  {
+   "id": 11,
+   "zh": "木炭{NEWLINE}5000元",
+   "en": "Charcoal $5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "烧伤果{NEWLINE}500元",
+   "en": "Rawst Berry $500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "灼热岩石{NEWLINE}9800元",
+   "en": "Heat Rock $9800",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 14,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "不买了 → Nothing, thanks (D-0049).",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 15,
+   "zh": "多谢惠顾。",
+   "en": "Thank you for your business.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 16,
+   "zh": "好的,给你,{NEWLINE}谢谢惠顾。",
+   "en": "Here you go. Thank you for your{NEWLINE}business.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 17,
+   "zh": "对不起顾客,{NEWLINE}您身上的钱好像不够啊。",
+   "en": "Sorry, it looks like you don’t have{NEWLINE}enough money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

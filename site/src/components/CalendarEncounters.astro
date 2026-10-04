@@ -1,0 +1,19 @@
+---
+import Mon from './Mon.astro';
+import { areaUrl } from '../lib/data';
+import type { CalendarEncounter } from '../lib/verified-mechanics';
+const { entries } = Astro.props as { entries: CalendarEncounter[] };
+---
+<div class="calendar-table" tabindex="0" role="region" aria-label="Calendar encounters">
+	<table>
+		<thead><tr><th>Date</th><th>Pokémon</th><th>Place</th><th>Time / level</th><th>What is known</th></tr></thead>
+		<tbody>{entries.map((e) => <tr>
+			<td>{e.date}</td>
+			<td><Mon id={e.pokemon} name={e.name} /></td>
+			<td><a href={areaUrl(e.area)}>{e.place}</a></td>
+			<td>{e.period}{e.level !== null && <> · Lv. {e.level}</>}</td>
+			<td><strong>{({ configured: 'Configured encounter.', unresolved: 'Needs verification.', unavailable: 'Not an acquisition route.' })[e.status]}</strong> {e.note}</td>
+		</tr>)}</tbody>
+	</table>
+</div>
+<style>.calendar-table { overflow-x: auto; } th, td { vertical-align: top; } th:first-child, td:first-child { white-space: nowrap; }</style>

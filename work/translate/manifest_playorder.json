@@ -1,0 +1,5998 @@
+{
+ "description": "Play-order re-plan of the batches not yet done (manifest.json B060-B142). Same batch schema as manifest.json plus phase / replaces_old_batches. Built by work/translate/scripts/build_playorder.py from bank_maps.json. Batch ids are R###, to avoid clashing with the B### ids already referenced in PROGRESS.md.",
+ "done_batches_excluded": "B001-B059",
+ "totals": {
+  "batches": 69,
+  "cjk_strings": 33860,
+  "cjk_chars": 660170
+ },
+ "batches": [
+  {
+   "batch": "R001",
+   "label": "Viridian City + Mt. Moon + std_tv + std_tv_interview + std_comm_reception + std_dex_evaluation",
+   "priority": "P1",
+   "phase": "first_hour",
+   "categories": [
+    "map_script",
+    "tv_news",
+    "link_wifi",
+    "pokegear_phone"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0552",
+     "ids": [
+      0,
+      201
+     ],
+     "cjk_strings": 202,
+     "cjk_chars": 5405
+    },
+    {
+     "bank": "a027/0146",
+     "ids": [
+      0,
+      52
+     ],
+     "cjk_strings": 53,
+     "cjk_chars": 900
+    },
+    {
+     "bank": "a027/0722",
+     "ids": [
+      0,
+      62
+     ],
+     "cjk_strings": 63,
+     "cjk_chars": 1875
+    },
+    {
+     "bank": "a027/0721",
+     "ids": [
+      0,
+      38
+     ],
+     "cjk_strings": 34,
+     "cjk_chars": 540
+    },
+    {
+     "bank": "a027/0044",
+     "ids": [
+      0,
+      172
+     ],
+     "cjk_strings": 172,
+     "cjk_chars": 2456
+    },
+    {
+     "bank": "a027/0657",
+     "ids": [
+      0,
+      57
+     ],
+     "cjk_strings": 58,
+     "cjk_chars": 1374
+    }
+   ],
+   "cjk_strings": 582,
+   "cjk_chars": 12550,
+   "replaces_old_batches": [
+    "B063",
+    "B096",
+    "B115",
+    "B119",
+    "B134"
+   ]
+  },
+  {
+   "batch": "R002",
+   "label": "move_descriptions",
+   "priority": "P1",
+   "phase": "early_desc",
+   "categories": [
+    "move_descriptions"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0738",
+     "ids": [
+      1,
+      600
+     ],
+     "cjk_strings": 600,
+     "cjk_chars": 10679
+    }
+   ],
+   "cjk_strings": 600,
+   "cjk_chars": 10679,
+   "replaces_old_batches": [
+    "B102",
+    "B103"
+   ]
+  },
+  {
+   "batch": "R003",
+   "label": "move_descriptions",
+   "priority": "P1",
+   "phase": "early_desc",
+   "categories": [
+    "move_descriptions"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0738",
+     "ids": [
+      601,
+      920
+     ],
+     "cjk_strings": 302,
+     "cjk_chars": 7695
+    }
+   ],
+   "cjk_strings": 302,
+   "cjk_chars": 7695,
+   "replaces_old_batches": [
+    "B102",
+    "B103"
+   ]
+  },
+  {
+   "batch": "R004",
+   "label": "item_descriptions",
+   "priority": "P1",
+   "phase": "early_desc",
+   "categories": [
+    "item_descriptions"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0218",
+     "ids": [
+      1,
+      621
+     ],
+     "cjk_strings": 600,
+     "cjk_chars": 11076
+    }
+   ],
+   "cjk_strings": 600,
+   "cjk_chars": 11076,
+   "replaces_old_batches": [
+    "B104",
+    "B105"
+   ]
+  },
+  {
+   "batch": "R005",
+   "label": "item_descriptions + ability_descriptions + berry_descriptions",
+   "priority": "P1",
+   "phase": "early_desc",
+   "categories": [
+    "item_descriptions",
+    "ability_descriptions",
+    "berry_descriptions"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0218",
+     "ids": [
+      622,
+      790
+     ],
+     "cjk_strings": 156,
+     "cjk_chars": 2989
+    },
+    {
+     "bank": "a027/0712",
+     "ids": [
+      1,
+      327
+     ],
+     "cjk_strings": 327,
+     "cjk_chars": 4818
+    },
+    {
+     "bank": "a027/0243",
+     "ids": [
+      0,
+      63
+     ],
+     "cjk_strings": 64,
+     "cjk_chars": 1565
+    }
+   ],
+   "cjk_strings": 547,
+   "cjk_chars": 9372,
+   "replaces_old_batches": [
+    "B104",
+    "B105",
+    "B106",
+    "B107"
+   ]
+  },
+  {
+   "batch": "R006",
+   "label": "Rock Tunnel + Lavender Town + Celadon City",
+   "priority": "P2",
+   "phase": "kanto_mid",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0142",
+     "ids": [
+      0,
+      146
+     ],
+     "cjk_strings": 147,
+     "cjk_chars": 3510
+    },
+    {
+     "bank": "a027/0053",
+     "ids": [
+      0,
+      229
+     ],
+     "cjk_strings": 230,
+     "cjk_chars": 5297
+    },
+    {
+     "bank": "a027/0547",
+     "ids": [
+      0,
+      110
+     ],
+     "cjk_strings": 111,
+     "cjk_chars": 3197
+    }
+   ],
+   "cjk_strings": 488,
+   "cjk_chars": 12004,
+   "replaces_old_batches": [
+    "B060",
+    "B064",
+    "B090"
+   ]
+  },
+  {
+   "batch": "R007",
+   "label": "Fuchsia City + Cinnabar Island",
+   "priority": "P2",
+   "phase": "kanto_mid",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0090",
+     "ids": [
+      0,
+      215
+     ],
+     "cjk_strings": 216,
+     "cjk_chars": 5120
+    },
+    {
+     "bank": "a027/0546",
+     "ids": [
+      0,
+      69
+     ],
+     "cjk_strings": 69,
+     "cjk_chars": 2111
+    },
+    {
+     "bank": "a027/0593",
+     "ids": [
+      0,
+      118
+     ],
+     "cjk_strings": 119,
+     "cjk_chars": 3044
+    },
+    {
+     "bank": "a027/0594",
+     "ids": [
+      0,
+      17
+     ],
+     "cjk_strings": 18,
+     "cjk_chars": 334
+    }
+   ],
+   "cjk_strings": 422,
+   "cjk_chars": 10609,
+   "replaces_old_batches": [
+    "B060",
+    "B067",
+    "B072",
+    "B073"
+   ]
+  },
+  {
+   "batch": "R008",
+   "label": "Island Cave + Island Forest + Five Island + Secret Forest + Alto Mare Library",
+   "priority": "P2",
+   "phase": "kanto_mid_side",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0059",
+     "ids": [
+      0,
+      136
+     ],
+     "cjk_strings": 137,
+     "cjk_chars": 3974
+    },
+    {
+     "bank": "a027/0084",
+     "ids": [
+      0,
+      89
+     ],
+     "cjk_strings": 90,
+     "cjk_chars": 2077
+    },
+    {
+     "bank": "a027/0087",
+     "ids": [
+      0,
+      157
+     ],
+     "cjk_strings": 158,
+     "cjk_chars": 3922
+    },
+    {
+     "bank": "a027/0379",
+     "ids": [
+      0,
+      89
+     ],
+     "cjk_strings": 90,
+     "cjk_chars": 1876
+    },
+    {
+     "bank": "a027/0384",
+     "ids": [
+      0,
+      62
+     ],
+     "cjk_strings": 63,
+     "cjk_chars": 2389
+    }
+   ],
+   "cjk_strings": 538,
+   "cjk_chars": 14238,
+   "replaces_old_batches": [
+    "B065",
+    "B068",
+    "B076",
+    "B079",
+    "B093"
+   ]
+  },
+  {
+   "batch": "R009",
+   "label": "Alto Mare Waters + Four Island + Seven Island + Shipyard Ruins + One Island + Islander’s House …",
+   "priority": "P2",
+   "phase": "kanto_mid_side",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0393",
+     "ids": [
+      0,
+      163
+     ],
+     "cjk_strings": 164,
+     "cjk_chars": 4030
+    },
+    {
+     "bank": "a027/0554",
+     "ids": [
+      0,
+      73
+     ],
+     "cjk_strings": 74,
+     "cjk_chars": 1924
+    },
+    {
+     "bank": "a027/0562",
+     "ids": [
+      0,
+      64
+     ],
+     "cjk_strings": 64,
+     "cjk_chars": 2083
+    },
+    {
+     "bank": "a027/0570",
+     "ids": [
+      0,
+      74
+     ],
+     "cjk_strings": 75,
+     "cjk_chars": 1913
+    },
+    {
+     "bank": "a027/0578",
+     "ids": [
+      0,
+      19
+     ],
+     "cjk_strings": 20,
+     "cjk_chars": 732
+    },
+    {
+     "bank": "a027/0582",
+     "ids": [
+      0,
+      126
+     ],
+     "cjk_strings": 127,
+     "cjk_chars": 2843
+    },
+    {
+     "bank": "a027/0601",
+     "ids": [
+      0,
+      47
+     ],
+     "cjk_strings": 48,
+     "cjk_chars": 1140
+    }
+   ],
+   "cjk_strings": 572,
+   "cjk_chars": 14665,
+   "replaces_old_batches": [
+    "B063",
+    "B066",
+    "B069",
+    "B070",
+    "B081",
+    "B083",
+    "B084"
+   ]
+  },
+  {
+   "batch": "R010",
+   "label": "Ritual Shrine + Six Island",
+   "priority": "P2",
+   "phase": "kanto_mid_side",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0624",
+     "ids": [
+      0,
+      47
+     ],
+     "cjk_strings": 48,
+     "cjk_chars": 1274
+    },
+    {
+     "bank": "a027/0625",
+     "ids": [
+      0,
+      156
+     ],
+     "cjk_strings": 157,
+     "cjk_chars": 3899
+    }
+   ],
+   "cjk_strings": 205,
+   "cjk_chars": 5173,
+   "replaces_old_batches": [
+    "B089"
+   ]
+  },
+  {
+   "batch": "R011",
+   "label": "Indigo Plateau",
+   "priority": "P2",
+   "phase": "kanto_league",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0587",
+     "ids": [
+      0,
+      252
+     ],
+     "cjk_strings": 253,
+     "cjk_chars": 6620
+    },
+    {
+     "bank": "a027/0588",
+     "ids": [
+      0,
+      213
+     ],
+     "cjk_strings": 214,
+     "cjk_chars": 4690
+    }
+   ],
+   "cjk_strings": 467,
+   "cjk_chars": 11310,
+   "replaces_old_batches": [
+    "B071",
+    "B072"
+   ]
+  },
+  {
+   "batch": "R012",
+   "label": "Indigo Plateau + Pokémon League + Tohjo Falls + Cerulean Cave",
+   "priority": "P2",
+   "phase": "kanto_league",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0608",
+     "ids": [
+      0,
+      213
+     ],
+     "cjk_strings": 214,
+     "cjk_chars": 4251
+    },
+    {
+     "bank": "a027/0065",
+     "ids": [
+      0,
+      102
+     ],
+     "cjk_strings": 103,
+     "cjk_chars": 5740
+    },
+    {
+     "bank": "a027/0129",
+     "ids": [
+      0,
+      27
+     ],
+     "cjk_strings": 28,
+     "cjk_chars": 632
+    },
+    {
+     "bank": "a027/0599",
+     "ids": [
+      0,
+      136
+     ],
+     "cjk_strings": 135,
+     "cjk_chars": 3458
+    }
+   ],
+   "cjk_strings": 480,
+   "cjk_chars": 14081,
+   "replaces_old_batches": [
+    "B073",
+    "B074",
+    "B078",
+    "B081",
+    "B090"
+   ]
+  },
+  {
+   "batch": "R013",
+   "label": "trainer_battle_text",
+   "priority": "P2",
+   "phase": "tm_review",
+   "categories": [
+    "trainer_battle_text"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0718",
+     "ids": [
+      0,
+      599
+     ],
+     "cjk_strings": 600,
+     "cjk_chars": 8331
+    }
+   ],
+   "cjk_strings": 600,
+   "cjk_chars": 8331,
+   "replaces_old_batches": [
+    "B097",
+    "B098",
+    "B099",
+    "B100"
+   ]
+  },
+  {
+   "batch": "R014",
+   "label": "trainer_battle_text",
+   "priority": "P2",
+   "phase": "tm_review",
+   "categories": [
+    "trainer_battle_text"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0718",
+     "ids": [
+      600,
+      1200
+     ],
+     "cjk_strings": 600,
+     "cjk_chars": 9981
+    }
+   ],
+   "cjk_strings": 600,
+   "cjk_chars": 9981,
+   "replaces_old_batches": [
+    "B097",
+    "B098",
+    "B099",
+    "B100"
+   ]
+  },
+  {
+   "batch": "R015",
+   "label": "trainer_battle_text",
+   "priority": "P2",
+   "phase": "tm_review",
+   "categories": [
+    "trainer_battle_text"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0718",
+     "ids": [
+      1201,
+      1716
+     ],
+     "cjk_strings": 507,
+     "cjk_chars": 6070
+    }
+   ],
+   "cjk_strings": 507,
+   "cjk_chars": 6070,
+   "replaces_old_batches": [
+    "B097",
+    "B098",
+    "B099",
+    "B100"
+   ]
+  },
+  {
+   "batch": "R016",
+   "label": "walking_pokemon_reactions",
+   "priority": "P2",
+   "phase": "tm_review",
+   "categories": [
+    "walking_pokemon_reactions"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0258",
+     "ids": [
+      0,
+      599
+     ],
+     "cjk_strings": 600,
+     "cjk_chars": 4312
+    }
+   ],
+   "cjk_strings": 600,
+   "cjk_chars": 4312,
+   "replaces_old_batches": [
+    "B100",
+    "B101"
+   ]
+  },
+  {
+   "batch": "R017",
+   "label": "walking_pokemon_reactions",
+   "priority": "P2",
+   "phase": "tm_review",
+   "categories": [
+    "walking_pokemon_reactions"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0258",
+     "ids": [
+      600,
+      758
+     ],
+     "cjk_strings": 159,
+     "cjk_chars": 1183
+    }
+   ],
+   "cjk_strings": 159,
+   "cjk_chars": 1183,
+   "replaces_old_batches": [
+    "B100",
+    "B101"
+   ]
+  },
+  {
+   "batch": "R018",
+   "label": "pokedex_entries_hg",
+   "priority": "P2",
+   "phase": "pokedex",
+   "categories": [
+    "pokedex_entries"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0791",
+     "ids": [
+      1,
+      538
+     ],
+     "cjk_strings": 538,
+     "cjk_chars": 14981
+    }
+   ],
+   "cjk_strings": 538,
+   "cjk_chars": 14981,
+   "replaces_old_batches": [
+    "B108",
+    "B109",
+    "B110",
+    "B111"
+   ]
+  },
+  {
+   "batch": "R019",
+   "label": "pokedex_entries_hg",
+   "priority": "P2",
+   "phase": "pokedex",
+   "categories": [
+    "pokedex_entries"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0791",
+     "ids": [
+      539,
+      1053
+     ],
+     "cjk_strings": 515,
+     "cjk_chars": 14991
+    }
+   ],
+   "cjk_strings": 515,
+   "cjk_chars": 14991,
+   "replaces_old_batches": [
+    "B108",
+    "B109",
+    "B110",
+    "B111"
+   ]
+  },
+  {
+   "batch": "R020",
+   "label": "pokedex_entries_hg",
+   "priority": "P2",
+   "phase": "pokedex",
+   "categories": [
+    "pokedex_entries"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0791",
+     "ids": [
+      1054,
+      1440
+     ],
+     "cjk_strings": 387,
+     "cjk_chars": 11216
+    }
+   ],
+   "cjk_strings": 387,
+   "cjk_chars": 11216,
+   "replaces_old_batches": [
+    "B108",
+    "B109",
+    "B110",
+    "B111"
+   ]
+  },
+  {
+   "batch": "R021",
+   "label": "Cherrygrove City + Route 30",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0542",
+     "ids": [
+      0,
+      198
+     ],
+     "cjk_strings": 198,
+     "cjk_chars": 4730
+    },
+    {
+     "bank": "a027/0543",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 167
+    },
+    {
+     "bank": "a027/0544",
+     "ids": [
+      0,
+      20
+     ],
+     "cjk_strings": 21,
+     "cjk_chars": 492
+    },
+    {
+     "bank": "a027/0545",
+     "ids": [
+      0,
+      100
+     ],
+     "cjk_strings": 101,
+     "cjk_chars": 2662
+    },
+    {
+     "bank": "a027/0368",
+     "ids": [
+      0,
+      74
+     ],
+     "cjk_strings": 74,
+     "cjk_chars": 1685
+    },
+    {
+     "bank": "a027/0369",
+     "ids": [
+      0,
+      185
+     ],
+     "cjk_strings": 186,
+     "cjk_chars": 4473
+    }
+   ],
+   "cjk_strings": 592,
+   "cjk_chars": 14209,
+   "replaces_old_batches": [
+    "B060",
+    "B061"
+   ]
+  },
+  {
+   "batch": "R022",
+   "label": "Route 30 + Route 31 + Dark Cave + Violet City + Sprout Tower",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0370",
+     "ids": [
+      0,
+      31
+     ],
+     "cjk_strings": 28,
+     "cjk_chars": 462
+    },
+    {
+     "bank": "a027/0371",
+     "ids": [
+      0,
+      70
+     ],
+     "cjk_strings": 71,
+     "cjk_chars": 1611
+    },
+    {
+     "bank": "a027/0372",
+     "ids": [
+      0,
+      9
+     ],
+     "cjk_strings": 10,
+     "cjk_chars": 208
+    },
+    {
+     "bank": "a027/0125",
+     "ids": [
+      0,
+      29
+     ],
+     "cjk_strings": 30,
+     "cjk_chars": 862
+    },
+    {
+     "bank": "a027/0103",
+     "ids": [
+      0,
+      76
+     ],
+     "cjk_strings": 77,
+     "cjk_chars": 1518
+    },
+    {
+     "bank": "a027/0548",
+     "ids": [
+      0,
+      114
+     ],
+     "cjk_strings": 115,
+     "cjk_chars": 3061
+    },
+    {
+     "bank": "a027/0549",
+     "ids": [
+      0,
+      17
+     ],
+     "cjk_strings": 18,
+     "cjk_chars": 554
+    },
+    {
+     "bank": "a027/0550",
+     "ids": [
+      0,
+      63
+     ],
+     "cjk_strings": 64,
+     "cjk_chars": 2137
+    },
+    {
+     "bank": "a027/0551",
+     "ids": [
+      0,
+      29
+     ],
+     "cjk_strings": 30,
+     "cjk_chars": 1076
+    },
+    {
+     "bank": "a027/0553",
+     "ids": [
+      0,
+      23
+     ],
+     "cjk_strings": 24,
+     "cjk_chars": 670
+    },
+    {
+     "bank": "a027/0052",
+     "ids": [
+      0,
+      37
+     ],
+     "cjk_strings": 38,
+     "cjk_chars": 950
+    }
+   ],
+   "cjk_strings": 505,
+   "cjk_chars": 13109,
+   "replaces_old_batches": [
+    "B061",
+    "B062",
+    "B063",
+    "B064",
+    "B095"
+   ]
+  },
+  {
+   "batch": "R023",
+   "label": "Sprout Tower + Route 32 + Ruins of Alph",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0054",
+     "ids": [
+      0,
+      113
+     ],
+     "cjk_strings": 113,
+     "cjk_chars": 2950
+    },
+    {
+     "bank": "a027/0373",
+     "ids": [
+      0,
+      86
+     ],
+     "cjk_strings": 87,
+     "cjk_chars": 1898
+    },
+    {
+     "bank": "a027/0374",
+     "ids": [
+      0,
+      83
+     ],
+     "cjk_strings": 84,
+     "cjk_chars": 1996
+    },
+    {
+     "bank": "a027/0375",
+     "ids": [
+      0,
+      2
+     ],
+     "cjk_strings": 3,
+     "cjk_chars": 95
+    },
+    {
+     "bank": "a027/0070",
+     "ids": [
+      0,
+      60
+     ],
+     "cjk_strings": 59,
+     "cjk_chars": 1586
+    },
+    {
+     "bank": "a027/0071",
+     "ids": [
+      0,
+      99
+     ],
+     "cjk_strings": 100,
+     "cjk_chars": 3969
+    },
+    {
+     "bank": "a027/0072",
+     "ids": [
+      0,
+      16
+     ],
+     "cjk_strings": 16,
+     "cjk_chars": 375
+    },
+    {
+     "bank": "a027/0073",
+     "ids": [
+      0,
+      1
+     ],
+     "cjk_strings": 2,
+     "cjk_chars": 23
+    },
+    {
+     "bank": "a027/0074",
+     "ids": [
+      0,
+      10
+     ],
+     "cjk_strings": 11,
+     "cjk_chars": 419
+    },
+    {
+     "bank": "a027/0075",
+     "ids": [
+      0,
+      1
+     ],
+     "cjk_strings": 2,
+     "cjk_chars": 22
+    },
+    {
+     "bank": "a027/0077",
+     "ids": [
+      0,
+      7
+     ],
+     "cjk_strings": 7,
+     "cjk_chars": 87
+    }
+   ],
+   "cjk_strings": 484,
+   "cjk_chars": 13420,
+   "replaces_old_batches": [
+    "B064",
+    "B065",
+    "B092"
+   ]
+  },
+  {
+   "batch": "R024",
+   "label": "Ruins of Alph + Union Cave + Route 33",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0078",
+     "ids": [
+      0,
+      116
+     ],
+     "cjk_strings": 117,
+     "cjk_chars": 2356
+    },
+    {
+     "bank": "a027/0079",
+     "ids": [
+      0,
+      77
+     ],
+     "cjk_strings": 78,
+     "cjk_chars": 1785
+    },
+    {
+     "bank": "a027/0080",
+     "ids": [
+      0,
+      122
+     ],
+     "cjk_strings": 123,
+     "cjk_chars": 2806
+    },
+    {
+     "bank": "a027/0082",
+     "ids": [
+      0,
+      5
+     ],
+     "cjk_strings": 6,
+     "cjk_chars": 198
+    },
+    {
+     "bank": "a027/0083",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 12
+    },
+    {
+     "bank": "a027/0085",
+     "ids": [
+      0,
+      104
+     ],
+     "cjk_strings": 105,
+     "cjk_chars": 2233
+    },
+    {
+     "bank": "a027/0086",
+     "ids": [
+      0,
+      47
+     ],
+     "cjk_strings": 48,
+     "cjk_chars": 893
+    },
+    {
+     "bank": "a027/0376",
+     "ids": [
+      0,
+      58
+     ],
+     "cjk_strings": 59,
+     "cjk_chars": 1286
+    }
+   ],
+   "cjk_strings": 537,
+   "cjk_chars": 11569,
+   "replaces_old_batches": [
+    "B065",
+    "B092",
+    "B093"
+   ]
+  },
+  {
+   "batch": "R025",
+   "label": "Azalea Town + Slowpoke Well + Ilex Forest",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0556",
+     "ids": [
+      0,
+      95
+     ],
+     "cjk_strings": 95,
+     "cjk_chars": 1888
+    },
+    {
+     "bank": "a027/0557",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 165
+    },
+    {
+     "bank": "a027/0558",
+     "ids": [
+      0,
+      19
+     ],
+     "cjk_strings": 20,
+     "cjk_chars": 446
+    },
+    {
+     "bank": "a027/0559",
+     "ids": [
+      0,
+      24
+     ],
+     "cjk_strings": 25,
+     "cjk_chars": 686
+    },
+    {
+     "bank": "a027/0560",
+     "ids": [
+      0,
+      10
+     ],
+     "cjk_strings": 11,
+     "cjk_chars": 406
+    },
+    {
+     "bank": "a027/0561",
+     "ids": [
+      0,
+      5
+     ],
+     "cjk_strings": 6,
+     "cjk_chars": 376
+    },
+    {
+     "bank": "a027/0563",
+     "ids": [
+      0,
+      72
+     ],
+     "cjk_strings": 73,
+     "cjk_chars": 1786
+    },
+    {
+     "bank": "a027/0088",
+     "ids": [
+      0,
+      1
+     ],
+     "cjk_strings": 2,
+     "cjk_chars": 40
+    },
+    {
+     "bank": "a027/0089",
+     "ids": [
+      0,
+      124
+     ],
+     "cjk_strings": 125,
+     "cjk_chars": 2948
+    },
+    {
+     "bank": "a027/0081",
+     "ids": [
+      0,
+      136
+     ],
+     "cjk_strings": 137,
+     "cjk_chars": 2697
+    }
+   ],
+   "cjk_strings": 506,
+   "cjk_chars": 11438,
+   "replaces_old_batches": [
+    "B066",
+    "B067",
+    "B093"
+   ]
+  },
+  {
+   "batch": "R026",
+   "label": "Ilex Forest + Route 34 + Goldenrod City",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0113",
+     "ids": [
+      0,
+      169
+     ],
+     "cjk_strings": 170,
+     "cjk_chars": 4443
+    },
+    {
+     "bank": "a027/0377",
+     "ids": [
+      0,
+      167
+     ],
+     "cjk_strings": 166,
+     "cjk_chars": 3611
+    },
+    {
+     "bank": "a027/0378",
+     "ids": [
+      0,
+      19
+     ],
+     "cjk_strings": 20,
+     "cjk_chars": 478
+    },
+    {
+     "bank": "a027/0116",
+     "ids": [
+      0,
+      29
+     ],
+     "cjk_strings": 30,
+     "cjk_chars": 677
+    },
+    {
+     "bank": "a027/0117",
+     "ids": [
+      0,
+      2
+     ],
+     "cjk_strings": 3,
+     "cjk_chars": 49
+    },
+    {
+     "bank": "a027/0118",
+     "ids": [
+      0,
+      26
+     ],
+     "cjk_strings": 26,
+     "cjk_chars": 542
+    },
+    {
+     "bank": "a027/0573",
+     "ids": [
+      0,
+      127
+     ],
+     "cjk_strings": 127,
+     "cjk_chars": 3145
+    },
+    {
+     "bank": "a027/0574",
+     "ids": [
+      0,
+      49
+     ],
+     "cjk_strings": 50,
+     "cjk_chars": 1776
+    }
+   ],
+   "cjk_strings": 592,
+   "cjk_chars": 14721,
+   "replaces_old_batches": [
+    "B068",
+    "B069",
+    "B075"
+   ]
+  },
+  {
+   "batch": "R027",
+   "label": "Goldenrod City",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0575",
+     "ids": [
+      0,
+      18
+     ],
+     "cjk_strings": 19,
+     "cjk_chars": 574
+    },
+    {
+     "bank": "a027/0576",
+     "ids": [
+      0,
+      5
+     ],
+     "cjk_strings": 6,
+     "cjk_chars": 174
+    },
+    {
+     "bank": "a027/0577",
+     "ids": [
+      0,
+      78
+     ],
+     "cjk_strings": 79,
+     "cjk_chars": 2279
+    },
+    {
+     "bank": "a027/0579",
+     "ids": [
+      0,
+      49
+     ],
+     "cjk_strings": 50,
+     "cjk_chars": 1171
+    },
+    {
+     "bank": "a027/0580",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 10
+    },
+    {
+     "bank": "a027/0581",
+     "ids": [
+      0,
+      21
+     ],
+     "cjk_strings": 22,
+     "cjk_chars": 366
+    },
+    {
+     "bank": "a027/0583",
+     "ids": [
+      0,
+      71
+     ],
+     "cjk_strings": 72,
+     "cjk_chars": 976
+    },
+    {
+     "bank": "a027/0584",
+     "ids": [
+      0,
+      45
+     ],
+     "cjk_strings": 46,
+     "cjk_chars": 669
+    },
+    {
+     "bank": "a027/0585",
+     "ids": [
+      0,
+      130
+     ],
+     "cjk_strings": 131,
+     "cjk_chars": 2661
+    }
+   ],
+   "cjk_strings": 426,
+   "cjk_chars": 8880,
+   "replaces_old_batches": [
+    "B069",
+    "B070"
+   ]
+  },
+  {
+   "batch": "R028",
+   "label": "Goldenrod City + Goldenrod Tunnel",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0589",
+     "ids": [
+      0,
+      252
+     ],
+     "cjk_strings": 253,
+     "cjk_chars": 5052
+    },
+    {
+     "bank": "a027/0590",
+     "ids": [
+      0,
+      18
+     ],
+     "cjk_strings": 19,
+     "cjk_chars": 118
+    },
+    {
+     "bank": "a027/0591",
+     "ids": [
+      0,
+      103
+     ],
+     "cjk_strings": 104,
+     "cjk_chars": 1884
+    },
+    {
+     "bank": "a027/0114",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 133
+    },
+    {
+     "bank": "a027/0115",
+     "ids": [
+      0,
+      187
+     ],
+     "cjk_strings": 188,
+     "cjk_chars": 3981
+    }
+   ],
+   "cjk_strings": 576,
+   "cjk_chars": 11168,
+   "replaces_old_batches": [
+    "B072",
+    "B075"
+   ]
+  },
+  {
+   "batch": "R029",
+   "label": "Global Terminal + Dream World + Radio Tower",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0592",
+     "ids": [
+      0,
+      36
+     ],
+     "cjk_strings": 37,
+     "cjk_chars": 1027
+    },
+    {
+     "bank": "a027/0586",
+     "ids": [
+      0,
+      58
+     ],
+     "cjk_strings": 59,
+     "cjk_chars": 1215
+    },
+    {
+     "bank": "a027/0063",
+     "ids": [
+      0,
+      170
+     ],
+     "cjk_strings": 170,
+     "cjk_chars": 2991
+    },
+    {
+     "bank": "a027/0064",
+     "ids": [
+      0,
+      69
+     ],
+     "cjk_strings": 70,
+     "cjk_chars": 863
+    },
+    {
+     "bank": "a027/0066",
+     "ids": [
+      0,
+      91
+     ],
+     "cjk_strings": 92,
+     "cjk_chars": 3166
+    },
+    {
+     "bank": "a027/0067",
+     "ids": [
+      0,
+      22
+     ],
+     "cjk_strings": 23,
+     "cjk_chars": 640
+    },
+    {
+     "bank": "a027/0068",
+     "ids": [
+      0,
+      121
+     ],
+     "cjk_strings": 122,
+     "cjk_chars": 3127
+    },
+    {
+     "bank": "a027/0069",
+     "ids": [
+      0,
+      3
+     ],
+     "cjk_strings": 4,
+     "cjk_chars": 32
+    }
+   ],
+   "cjk_strings": 577,
+   "cjk_chars": 13061,
+   "replaces_old_batches": [
+    "B071",
+    "B072",
+    "B073",
+    "B074"
+   ]
+  },
+  {
+   "batch": "R030",
+   "label": "Route 35 + National Park + Pokéathlon Dome",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0380",
+     "ids": [
+      0,
+      54
+     ],
+     "cjk_strings": 55,
+     "cjk_chars": 1191
+    },
+    {
+     "bank": "a027/0381",
+     "ids": [
+      0,
+      16
+     ],
+     "cjk_strings": 17,
+     "cjk_chars": 514
+    },
+    {
+     "bank": "a027/0382",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 14,
+     "cjk_chars": 347
+    },
+    {
+     "bank": "a027/0060",
+     "ids": [
+      0,
+      193
+     ],
+     "cjk_strings": 194,
+     "cjk_chars": 4091
+    },
+    {
+     "bank": "a027/0061",
+     "ids": [
+      0,
+      32
+     ],
+     "cjk_strings": 33,
+     "cjk_chars": 511
+    },
+    {
+     "bank": "a027/0062",
+     "ids": [
+      0,
+      9
+     ],
+     "cjk_strings": 10,
+     "cjk_chars": 242
+    },
+    {
+     "bank": "a027/0135",
+     "ids": [
+      0,
+      49
+     ],
+     "cjk_strings": 50,
+     "cjk_chars": 1719
+    },
+    {
+     "bank": "a027/0136",
+     "ids": [
+      0,
+      114
+     ],
+     "cjk_strings": 115,
+     "cjk_chars": 3249
+    },
+    {
+     "bank": "a027/0137",
+     "ids": [
+      0,
+      52
+     ],
+     "cjk_strings": 53,
+     "cjk_chars": 1942
+    },
+    {
+     "bank": "a027/0138",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 14,
+     "cjk_chars": 333
+    },
+    {
+     "bank": "a027/0139",
+     "ids": [
+      0,
+      15
+     ],
+     "cjk_strings": 16,
+     "cjk_chars": 328
+    }
+   ],
+   "cjk_strings": 571,
+   "cjk_chars": 14467,
+   "replaces_old_batches": [
+    "B075",
+    "B076",
+    "B091"
+   ]
+  },
+  {
+   "batch": "R031",
+   "label": "Pokéathlon Dome + Route 36 + Route 37 + Ecruteak City",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0140",
+     "ids": [
+      0,
+      24
+     ],
+     "cjk_strings": 25,
+     "cjk_chars": 1208
+    },
+    {
+     "bank": "a027/0141",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 14,
+     "cjk_chars": 484
+    },
+    {
+     "bank": "a027/0383",
+     "ids": [
+      0,
+      84
+     ],
+     "cjk_strings": 85,
+     "cjk_chars": 2119
+    },
+    {
+     "bank": "a027/0385",
+     "ids": [
+      0,
+      33
+     ],
+     "cjk_strings": 34,
+     "cjk_chars": 783
+    },
+    {
+     "bank": "a027/0555",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 14,
+     "cjk_chars": 464
+    },
+    {
+     "bank": "a027/0386",
+     "ids": [
+      0,
+      21
+     ],
+     "cjk_strings": 22,
+     "cjk_chars": 558
+    },
+    {
+     "bank": "a027/0603",
+     "ids": [
+      0,
+      132
+     ],
+     "cjk_strings": 125,
+     "cjk_chars": 3327
+    },
+    {
+     "bank": "a027/0604",
+     "ids": [
+      0,
+      18
+     ],
+     "cjk_strings": 19,
+     "cjk_chars": 182
+    },
+    {
+     "bank": "a027/0605",
+     "ids": [
+      0,
+      79
+     ],
+     "cjk_strings": 80,
+     "cjk_chars": 3099
+    },
+    {
+     "bank": "a027/0606",
+     "ids": [
+      0,
+      32
+     ],
+     "cjk_strings": 33,
+     "cjk_chars": 1001
+    },
+    {
+     "bank": "a027/0607",
+     "ids": [
+      0,
+      60
+     ],
+     "cjk_strings": 61,
+     "cjk_chars": 1661
+    }
+   ],
+   "cjk_strings": 512,
+   "cjk_chars": 14886,
+   "replaces_old_batches": [
+    "B063",
+    "B076",
+    "B077",
+    "B091"
+   ]
+  },
+  {
+   "batch": "R032",
+   "label": "Ecruteak City + Burned Tower + Bell Tower",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0609",
+     "ids": [
+      0,
+      92
+     ],
+     "cjk_strings": 93,
+     "cjk_chars": 2540
+    },
+    {
+     "bank": "a027/0610",
+     "ids": [
+      0,
+      72
+     ],
+     "cjk_strings": 73,
+     "cjk_chars": 2688
+    },
+    {
+     "bank": "a027/0058",
+     "ids": [
+      0,
+      162
+     ],
+     "cjk_strings": 163,
+     "cjk_chars": 4462
+    },
+    {
+     "bank": "a027/0055",
+     "ids": [
+      0,
+      18
+     ],
+     "cjk_strings": 19,
+     "cjk_chars": 573
+    },
+    {
+     "bank": "a027/0056",
+     "ids": [
+      0,
+      119
+     ],
+     "cjk_strings": 120,
+     "cjk_chars": 3201
+    }
+   ],
+   "cjk_strings": 468,
+   "cjk_chars": 13464,
+   "replaces_old_batches": [
+    "B078",
+    "B079"
+   ]
+  },
+  {
+   "batch": "R033",
+   "label": "Bellchime Trail + Route 38 + Route 39 + Olivine City + Lighthouse",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0057",
+     "ids": [
+      0,
+      51
+     ],
+     "cjk_strings": 52,
+     "cjk_chars": 1654
+    },
+    {
+     "bank": "a027/0387",
+     "ids": [
+      0,
+      50
+     ],
+     "cjk_strings": 51,
+     "cjk_chars": 899
+    },
+    {
+     "bank": "a027/0388",
+     "ids": [
+      0,
+      7
+     ],
+     "cjk_strings": 8,
+     "cjk_chars": 167
+    },
+    {
+     "bank": "a027/0389",
+     "ids": [
+      0,
+      89
+     ],
+     "cjk_strings": 90,
+     "cjk_chars": 2553
+    },
+    {
+     "bank": "a027/0390",
+     "ids": [
+      0,
+      20
+     ],
+     "cjk_strings": 21,
+     "cjk_chars": 284
+    },
+    {
+     "bank": "a027/0391",
+     "ids": [
+      0,
+      42
+     ],
+     "cjk_strings": 43,
+     "cjk_chars": 895
+    },
+    {
+     "bank": "a027/0595",
+     "ids": [
+      0,
+      110
+     ],
+     "cjk_strings": 111,
+     "cjk_chars": 2399
+    },
+    {
+     "bank": "a027/0596",
+     "ids": [
+      0,
+      18
+     ],
+     "cjk_strings": 19,
+     "cjk_chars": 126
+    },
+    {
+     "bank": "a027/0597",
+     "ids": [
+      0,
+      61
+     ],
+     "cjk_strings": 62,
+     "cjk_chars": 1585
+    },
+    {
+     "bank": "a027/0598",
+     "ids": [
+      0,
+      9
+     ],
+     "cjk_strings": 10,
+     "cjk_chars": 439
+    },
+    {
+     "bank": "a027/0600",
+     "ids": [
+      0,
+      40
+     ],
+     "cjk_strings": 41,
+     "cjk_chars": 1159
+    },
+    {
+     "bank": "a027/0602",
+     "ids": [
+      0,
+      44
+     ],
+     "cjk_strings": 45,
+     "cjk_chars": 1247
+    },
+    {
+     "bank": "a027/0091",
+     "ids": [
+      0,
+      33
+     ],
+     "cjk_strings": 34,
+     "cjk_chars": 768
+    }
+   ],
+   "cjk_strings": 587,
+   "cjk_chars": 14175,
+   "replaces_old_batches": [
+    "B079",
+    "B080",
+    "B081"
+   ]
+  },
+  {
+   "batch": "R034",
+   "label": "Lighthouse + Route 40 + Frontier Access + Battle Frontier + Battle Tower + Battle Factory …",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0092",
+     "ids": [
+      0,
+      82
+     ],
+     "cjk_strings": 83,
+     "cjk_chars": 1828
+    },
+    {
+     "bank": "a027/0093",
+     "ids": [
+      0,
+      4
+     ],
+     "cjk_strings": 5,
+     "cjk_chars": 36
+    },
+    {
+     "bank": "a027/0733",
+     "ids": [
+      0,
+      41
+     ],
+     "cjk_strings": 42,
+     "cjk_chars": 1294
+    },
+    {
+     "bank": "a027/0734",
+     "ids": [
+      0,
+      5
+     ],
+     "cjk_strings": 6,
+     "cjk_chars": 155
+    },
+    {
+     "bank": "a027/0099",
+     "ids": [
+      0,
+      1
+     ],
+     "cjk_strings": 2,
+     "cjk_chars": 90
+    },
+    {
+     "bank": "a027/0100",
+     "ids": [
+      0,
+      34
+     ],
+     "cjk_strings": 35,
+     "cjk_chars": 446
+    },
+    {
+     "bank": "a027/0102",
+     "ids": [
+      0,
+      73
+     ],
+     "cjk_strings": 74,
+     "cjk_chars": 1774
+    },
+    {
+     "bank": "a027/0098",
+     "ids": [
+      0,
+      41
+     ],
+     "cjk_strings": 42,
+     "cjk_chars": 1166
+    },
+    {
+     "bank": "a027/0101",
+     "ids": [
+      0,
+      36
+     ],
+     "cjk_strings": 37,
+     "cjk_chars": 1172
+    },
+    {
+     "bank": "a027/0094",
+     "ids": [
+      0,
+      132
+     ],
+     "cjk_strings": 133,
+     "cjk_chars": 3366
+    },
+    {
+     "bank": "a027/0097",
+     "ids": [
+      0,
+      19
+     ],
+     "cjk_strings": 20,
+     "cjk_chars": 348
+    },
+    {
+     "bank": "a027/0105",
+     "ids": [
+      0,
+      33
+     ],
+     "cjk_strings": 34,
+     "cjk_chars": 933
+    },
+    {
+     "bank": "a027/0107",
+     "ids": [
+      0,
+      52
+     ],
+     "cjk_strings": 53,
+     "cjk_chars": 1009
+    }
+   ],
+   "cjk_strings": 566,
+   "cjk_chars": 13617,
+   "replaces_old_batches": [
+    "B081",
+    "B082",
+    "B094",
+    "B095"
+   ]
+  },
+  {
+   "batch": "R035",
+   "label": "Battle Arcade + Battle Hall + Route 41 + Cianwood City",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0108",
+     "ids": [
+      0,
+      55
+     ],
+     "cjk_strings": 56,
+     "cjk_chars": 1169
+    },
+    {
+     "bank": "a027/0106",
+     "ids": [
+      0,
+      99
+     ],
+     "cjk_strings": 100,
+     "cjk_chars": 2671
+    },
+    {
+     "bank": "a027/0735",
+     "ids": [
+      0,
+      114
+     ],
+     "cjk_strings": 103,
+     "cjk_chars": 1856
+    },
+    {
+     "bank": "a027/0564",
+     "ids": [
+      0,
+      106
+     ],
+     "cjk_strings": 107,
+     "cjk_chars": 3394
+    },
+    {
+     "bank": "a027/0566",
+     "ids": [
+      0,
+      63
+     ],
+     "cjk_strings": 64,
+     "cjk_chars": 1447
+    },
+    {
+     "bank": "a027/0567",
+     "ids": [
+      0,
+      8
+     ],
+     "cjk_strings": 9,
+     "cjk_chars": 295
+    },
+    {
+     "bank": "a027/0568",
+     "ids": [
+      0,
+      108
+     ],
+     "cjk_strings": 101,
+     "cjk_chars": 2017
+    },
+    {
+     "bank": "a027/0569",
+     "ids": [
+      0,
+      38
+     ],
+     "cjk_strings": 39,
+     "cjk_chars": 852
+    }
+   ],
+   "cjk_strings": 579,
+   "cjk_chars": 13701,
+   "replaces_old_batches": [
+    "B082",
+    "B083",
+    "B095"
+   ]
+  },
+  {
+   "batch": "R036",
+   "label": "Cianwood Cave + Whirl Islands + Route 42 + Mt. Mortar",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0134",
+     "ids": [
+      0,
+      56
+     ],
+     "cjk_strings": 57,
+     "cjk_chars": 1837
+    },
+    {
+     "bank": "a027/0122",
+     "ids": [
+      0,
+      10
+     ],
+     "cjk_strings": 11,
+     "cjk_chars": 506
+    },
+    {
+     "bank": "a027/0123",
+     "ids": [
+      0,
+      48
+     ],
+     "cjk_strings": 49,
+     "cjk_chars": 1323
+    },
+    {
+     "bank": "a027/0392",
+     "ids": [
+      0,
+      131
+     ],
+     "cjk_strings": 132,
+     "cjk_chars": 3037
+    },
+    {
+     "bank": "a027/0119",
+     "ids": [
+      0,
+      234
+     ],
+     "cjk_strings": 235,
+     "cjk_chars": 5400
+    }
+   ],
+   "cjk_strings": 484,
+   "cjk_chars": 12103,
+   "replaces_old_batches": [
+    "B084",
+    "B085",
+    "B091"
+   ]
+  },
+  {
+   "batch": "R037",
+   "label": "Boot Camp Ruins + Mahogany Town + Team Rocket HQ",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0572",
+     "ids": [
+      0,
+      125
+     ],
+     "cjk_strings": 118,
+     "cjk_chars": 3479
+    },
+    {
+     "bank": "a027/0109",
+     "ids": [
+      0,
+      57
+     ],
+     "cjk_strings": 58,
+     "cjk_chars": 1241
+    },
+    {
+     "bank": "a027/0611",
+     "ids": [
+      0,
+      61
+     ],
+     "cjk_strings": 62,
+     "cjk_chars": 1631
+    },
+    {
+     "bank": "a027/0613",
+     "ids": [
+      0,
+      38
+     ],
+     "cjk_strings": 39,
+     "cjk_chars": 881
+    },
+    {
+     "bank": "a027/0614",
+     "ids": [
+      0,
+      6
+     ],
+     "cjk_strings": 7,
+     "cjk_chars": 235
+    },
+    {
+     "bank": "a027/0615",
+     "ids": [
+      0,
+      16
+     ],
+     "cjk_strings": 17,
+     "cjk_chars": 482
+    },
+    {
+     "bank": "a027/0616",
+     "ids": [
+      0,
+      107
+     ],
+     "cjk_strings": 108,
+     "cjk_chars": 2980
+    },
+    {
+     "bank": "a027/0110",
+     "ids": [
+      0,
+      95
+     ],
+     "cjk_strings": 96,
+     "cjk_chars": 2283
+    }
+   ],
+   "cjk_strings": 505,
+   "cjk_chars": 13212,
+   "replaces_old_batches": [
+    "B083",
+    "B085",
+    "B086"
+   ]
+  },
+  {
+   "batch": "R038",
+   "label": "Team Rocket HQ + Lake of Rage + Route 43 + Route 44",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0111",
+     "ids": [
+      0,
+      102
+     ],
+     "cjk_strings": 103,
+     "cjk_chars": 2419
+    },
+    {
+     "bank": "a027/0112",
+     "ids": [
+      0,
+      77
+     ],
+     "cjk_strings": 78,
+     "cjk_chars": 1881
+    },
+    {
+     "bank": "a027/0617",
+     "ids": [
+      0,
+      150
+     ],
+     "cjk_strings": 151,
+     "cjk_chars": 3736
+    },
+    {
+     "bank": "a027/0618",
+     "ids": [
+      0,
+      57
+     ],
+     "cjk_strings": 46,
+     "cjk_chars": 1406
+    },
+    {
+     "bank": "a027/0619",
+     "ids": [
+      0,
+      10
+     ],
+     "cjk_strings": 11,
+     "cjk_chars": 347
+    },
+    {
+     "bank": "a027/0394",
+     "ids": [
+      0,
+      50
+     ],
+     "cjk_strings": 51,
+     "cjk_chars": 1211
+    },
+    {
+     "bank": "a027/0395",
+     "ids": [
+      0,
+      4
+     ],
+     "cjk_strings": 5,
+     "cjk_chars": 217
+    },
+    {
+     "bank": "a027/0396",
+     "ids": [
+      0,
+      7
+     ],
+     "cjk_strings": 8,
+     "cjk_chars": 275
+    },
+    {
+     "bank": "a027/0397",
+     "ids": [
+      0,
+      96
+     ],
+     "cjk_strings": 97,
+     "cjk_chars": 2587
+    }
+   ],
+   "cjk_strings": 550,
+   "cjk_chars": 14079,
+   "replaces_old_batches": [
+    "B086",
+    "B087"
+   ]
+  },
+  {
+   "batch": "R039",
+   "label": "Ice Path + Blackthorn City + Dragon’s Den",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0120",
+     "ids": [
+      0,
+      87
+     ],
+     "cjk_strings": 88,
+     "cjk_chars": 1985
+    },
+    {
+     "bank": "a027/0121",
+     "ids": [
+      0,
+      170
+     ],
+     "cjk_strings": 171,
+     "cjk_chars": 4742
+    },
+    {
+     "bank": "a027/0620",
+     "ids": [
+      0,
+      81
+     ],
+     "cjk_strings": 82,
+     "cjk_chars": 2844
+    },
+    {
+     "bank": "a027/0621",
+     "ids": [
+      0,
+      18
+     ],
+     "cjk_strings": 19,
+     "cjk_chars": 394
+    },
+    {
+     "bank": "a027/0622",
+     "ids": [
+      0,
+      46
+     ],
+     "cjk_strings": 47,
+     "cjk_chars": 1434
+    },
+    {
+     "bank": "a027/0623",
+     "ids": [
+      0,
+      8
+     ],
+     "cjk_strings": 9,
+     "cjk_chars": 378
+    },
+    {
+     "bank": "a027/0626",
+     "ids": [
+      0,
+      68
+     ],
+     "cjk_strings": 69,
+     "cjk_chars": 1481
+    },
+    {
+     "bank": "a027/0127",
+     "ids": [
+      0,
+      48
+     ],
+     "cjk_strings": 49,
+     "cjk_chars": 1370
+    }
+   ],
+   "cjk_strings": 534,
+   "cjk_chars": 14628,
+   "replaces_old_batches": [
+    "B088",
+    "B089"
+   ]
+  },
+  {
+   "batch": "R040",
+   "label": "Dragon’s Den + Route 45 + Route 46 + Cliff Cave + Route 47 + Route 48 …",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0128",
+     "ids": [
+      0,
+      67
+     ],
+     "cjk_strings": 68,
+     "cjk_chars": 1908
+    },
+    {
+     "bank": "a027/0398",
+     "ids": [
+      0,
+      118
+     ],
+     "cjk_strings": 119,
+     "cjk_chars": 2329
+    },
+    {
+     "bank": "a027/0399",
+     "ids": [
+      0,
+      128
+     ],
+     "cjk_strings": 129,
+     "cjk_chars": 2762
+    },
+    {
+     "bank": "a027/0571",
+     "ids": [
+      0,
+      17
+     ],
+     "cjk_strings": 18,
+     "cjk_chars": 383
+    },
+    {
+     "bank": "a027/0400",
+     "ids": [
+      0,
+      148
+     ],
+     "cjk_strings": 149,
+     "cjk_chars": 3318
+    },
+    {
+     "bank": "a027/0401",
+     "ids": [
+      0,
+      24
+     ],
+     "cjk_strings": 25,
+     "cjk_chars": 341
+    },
+    {
+     "bank": "a027/0143",
+     "ids": [
+      0,
+      68
+     ],
+     "cjk_strings": 69,
+     "cjk_chars": 1675
+    }
+   ],
+   "cjk_strings": 577,
+   "cjk_chars": 12716,
+   "replaces_old_batches": [
+    "B083",
+    "B089",
+    "B090",
+    "B096"
+   ]
+  },
+  {
+   "batch": "R041",
+   "label": "Sinjoh Ruins + Reversal Cave",
+   "priority": "P2",
+   "phase": "johto",
+   "categories": [
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0144",
+     "ids": [
+      0,
+      36
+     ],
+     "cjk_strings": 37,
+     "cjk_chars": 818
+    },
+    {
+     "bank": "a027/0145",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 14,
+     "cjk_chars": 745
+    },
+    {
+     "bank": "a027/0147",
+     "ids": [
+      0,
+      4
+     ],
+     "cjk_strings": 5,
+     "cjk_chars": 193
+    },
+    {
+     "bank": "a027/0148",
+     "ids": [
+      0,
+      38
+     ],
+     "cjk_strings": 39,
+     "cjk_chars": 722
+    }
+   ],
+   "cjk_strings": 95,
+   "cjk_chars": 2478,
+   "replaces_old_batches": [
+    "B096"
+   ]
+  },
+  {
+   "batch": "R042",
+   "label": "std_script + tv_news",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "battle_frontier",
+    "misc_ui_system",
+    "side_features_minigames",
+    "pokeathlon",
+    "tv_news"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0014",
+     "ids": [
+      0,
+      27
+     ],
+     "cjk_strings": 28,
+     "cjk_chars": 264
+    },
+    {
+     "bank": "a027/0018",
+     "ids": [
+      0,
+      55
+     ],
+     "cjk_strings": 38,
+     "cjk_chars": 149
+    },
+    {
+     "bank": "a027/0019",
+     "ids": [
+      0,
+      7
+     ],
+     "cjk_strings": 8,
+     "cjk_chars": 93
+    },
+    {
+     "bank": "a027/0022",
+     "ids": [
+      0,
+      7
+     ],
+     "cjk_strings": 8,
+     "cjk_chars": 66
+    },
+    {
+     "bank": "a027/0202",
+     "ids": [
+      0,
+      27
+     ],
+     "cjk_strings": 28,
+     "cjk_chars": 314
+    },
+    {
+     "bank": "a027/0239",
+     "ids": [
+      0,
+      87
+     ],
+     "cjk_strings": 88,
+     "cjk_chars": 1337
+    },
+    {
+     "bank": "a027/0261",
+     "ids": [
+      0,
+      8
+     ],
+     "cjk_strings": 9,
+     "cjk_chars": 66
+    },
+    {
+     "bank": "a027/0305",
+     "ids": [
+      0,
+      62
+     ],
+     "cjk_strings": 63,
+     "cjk_chars": 2254
+    },
+    {
+     "bank": "a027/0420",
+     "ids": [
+      0,
+      10
+     ],
+     "cjk_strings": 11,
+     "cjk_chars": 88
+    },
+    {
+     "bank": "a027/0426",
+     "ids": [
+      0,
+      15
+     ],
+     "cjk_strings": 16,
+     "cjk_chars": 211
+    },
+    {
+     "bank": "a027/0716",
+     "ids": [
+      0,
+      2
+     ],
+     "cjk_strings": 3,
+     "cjk_chars": 17
+    },
+    {
+     "bank": "a027/0029",
+     "ids": [
+      0,
+      10
+     ],
+     "cjk_strings": 11,
+     "cjk_chars": 238
+    },
+    {
+     "bank": "a027/0233",
+     "ids": [
+      0,
+      56
+     ],
+     "cjk_strings": 57,
+     "cjk_chars": 6155
+    }
+   ],
+   "cjk_strings": 368,
+   "cjk_chars": 11252,
+   "replaces_old_batches": [
+    "B118",
+    "B120",
+    "B127",
+    "B130",
+    "B131",
+    "B132",
+    "B133"
+   ]
+  },
+  {
+   "batch": "R043",
+   "label": "tv_news",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "tv_news"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0234",
+     "ids": [
+      0,
+      39
+     ],
+     "cjk_strings": 40,
+     "cjk_chars": 4818
+    },
+    {
+     "bank": "a027/0235",
+     "ids": [
+      0,
+      10
+     ],
+     "cjk_strings": 11,
+     "cjk_chars": 1280
+    },
+    {
+     "bank": "a027/0236",
+     "ids": [
+      0,
+      55
+     ],
+     "cjk_strings": 56,
+     "cjk_chars": 5796
+    }
+   ],
+   "cjk_strings": 107,
+   "cjk_chars": 11894,
+   "replaces_old_batches": [
+    "B118",
+    "B119"
+   ]
+  },
+  {
+   "batch": "R044",
+   "label": "tv_news + pokegear_radio_map + pokegear_phone",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "tv_news",
+    "pokegear_radio_map",
+    "pokegear_phone"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0237",
+     "ids": [
+      0,
+      28
+     ],
+     "cjk_strings": 29,
+     "cjk_chars": 3193
+    },
+    {
+     "bank": "a027/0238",
+     "ids": [
+      0,
+      15
+     ],
+     "cjk_strings": 16,
+     "cjk_chars": 130
+    },
+    {
+     "bank": "a027/0262",
+     "ids": [
+      0,
+      28
+     ],
+     "cjk_strings": 28,
+     "cjk_chars": 182
+    },
+    {
+     "bank": "a027/0263",
+     "ids": [
+      0,
+      1
+     ],
+     "cjk_strings": 2,
+     "cjk_chars": 4
+    },
+    {
+     "bank": "a027/0264",
+     "ids": [
+      0,
+      44
+     ],
+     "cjk_strings": 40,
+     "cjk_chars": 154
+    },
+    {
+     "bank": "a027/0266",
+     "ids": [
+      0,
+      117
+     ],
+     "cjk_strings": 116,
+     "cjk_chars": 1520
+    },
+    {
+     "bank": "a027/0402",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 8
+    },
+    {
+     "bank": "a027/0403",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 4
+    },
+    {
+     "bank": "a027/0404",
+     "ids": [
+      0,
+      5
+     ],
+     "cjk_strings": 6,
+     "cjk_chars": 166
+    },
+    {
+     "bank": "a027/0405",
+     "ids": [
+      0,
+      37
+     ],
+     "cjk_strings": 37,
+     "cjk_chars": 1211
+    },
+    {
+     "bank": "a027/0406",
+     "ids": [
+      0,
+      25
+     ],
+     "cjk_strings": 26,
+     "cjk_chars": 2770
+    },
+    {
+     "bank": "a027/0407",
+     "ids": [
+      0,
+      32
+     ],
+     "cjk_strings": 33,
+     "cjk_chars": 246
+    },
+    {
+     "bank": "a027/0408",
+     "ids": [
+      0,
+      23
+     ],
+     "cjk_strings": 24,
+     "cjk_chars": 2803
+    },
+    {
+     "bank": "a027/0409",
+     "ids": [
+      0,
+      12
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 273
+    },
+    {
+     "bank": "a027/0410",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 4
+    },
+    {
+     "bank": "a027/0411",
+     "ids": [
+      0,
+      2
+     ],
+     "cjk_strings": 3,
+     "cjk_chars": 83
+    },
+    {
+     "bank": "a027/0412",
+     "ids": [
+      0,
+      16
+     ],
+     "cjk_strings": 17,
+     "cjk_chars": 1150
+    },
+    {
+     "bank": "a027/0413",
+     "ids": [
+      0,
+      19
+     ],
+     "cjk_strings": 20,
+     "cjk_chars": 922
+    }
+   ],
+   "cjk_strings": 413,
+   "cjk_chars": 14823,
+   "replaces_old_batches": [
+    "B113",
+    "B117",
+    "B119"
+   ]
+  },
+  {
+   "batch": "R045",
+   "label": "pokegear_phone",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "pokegear_phone"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0631",
+     "ids": [
+      0,
+      77
+     ],
+     "cjk_strings": 78,
+     "cjk_chars": 699
+    },
+    {
+     "bank": "a027/0632",
+     "ids": [
+      0,
+      36
+     ],
+     "cjk_strings": 37,
+     "cjk_chars": 1628
+    },
+    {
+     "bank": "a027/0633",
+     "ids": [
+      0,
+      3
+     ],
+     "cjk_strings": 4,
+     "cjk_chars": 66
+    },
+    {
+     "bank": "a027/0634",
+     "ids": [
+      0,
+      6
+     ],
+     "cjk_strings": 7,
+     "cjk_chars": 100
+    },
+    {
+     "bank": "a027/0635",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 298
+    },
+    {
+     "bank": "a027/0636",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 371
+    },
+    {
+     "bank": "a027/0637",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 349
+    },
+    {
+     "bank": "a027/0638",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 402
+    },
+    {
+     "bank": "a027/0639",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 400
+    },
+    {
+     "bank": "a027/0640",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 405
+    },
+    {
+     "bank": "a027/0641",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 429
+    },
+    {
+     "bank": "a027/0642",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 383
+    },
+    {
+     "bank": "a027/0643",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 452
+    },
+    {
+     "bank": "a027/0644",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 420
+    },
+    {
+     "bank": "a027/0645",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 390
+    },
+    {
+     "bank": "a027/0646",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 493
+    },
+    {
+     "bank": "a027/0647",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 464
+    },
+    {
+     "bank": "a027/0648",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 495
+    },
+    {
+     "bank": "a027/0649",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 456
+    },
+    {
+     "bank": "a027/0650",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 503
+    },
+    {
+     "bank": "a027/0651",
+     "ids": [
+      0,
+      10
+     ],
+     "cjk_strings": 11,
+     "cjk_chars": 148
+    },
+    {
+     "bank": "a027/0652",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 14,
+     "cjk_chars": 268
+    }
+   ],
+   "cjk_strings": 391,
+   "cjk_chars": 9619,
+   "replaces_old_batches": [
+    "B113",
+    "B114"
+   ]
+  },
+  {
+   "batch": "R046",
+   "label": "pokegear_phone",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "pokegear_phone"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0653",
+     "ids": [
+      0,
+      158
+     ],
+     "cjk_strings": 159,
+     "cjk_chars": 5662
+    },
+    {
+     "bank": "a027/0654",
+     "ids": [
+      0,
+      158
+     ],
+     "cjk_strings": 159,
+     "cjk_chars": 5675
+    },
+    {
+     "bank": "a027/0655",
+     "ids": [
+      0,
+      29
+     ],
+     "cjk_strings": 30,
+     "cjk_chars": 864
+    },
+    {
+     "bank": "a027/0656",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 479
+    }
+   ],
+   "cjk_strings": 360,
+   "cjk_chars": 12680,
+   "replaces_old_batches": [
+    "B114",
+    "B115"
+   ]
+  },
+  {
+   "batch": "R047",
+   "label": "pokegear_phone",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "pokegear_phone"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0658",
+     "ids": [
+      0,
+      41
+     ],
+     "cjk_strings": 42,
+     "cjk_chars": 2433
+    },
+    {
+     "bank": "a027/0659",
+     "ids": [
+      0,
+      7
+     ],
+     "cjk_strings": 8,
+     "cjk_chars": 225
+    },
+    {
+     "bank": "a027/0660",
+     "ids": [
+      0,
+      21
+     ],
+     "cjk_strings": 22,
+     "cjk_chars": 543
+    },
+    {
+     "bank": "a027/0661",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 431
+    },
+    {
+     "bank": "a027/0662",
+     "ids": [
+      0,
+      15
+     ],
+     "cjk_strings": 16,
+     "cjk_chars": 537
+    },
+    {
+     "bank": "a027/0663",
+     "ids": [
+      0,
+      12
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 271
+    },
+    {
+     "bank": "a027/0664",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 328
+    },
+    {
+     "bank": "a027/0665",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 340
+    },
+    {
+     "bank": "a027/0666",
+     "ids": [
+      0,
+      12
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 333
+    },
+    {
+     "bank": "a027/0667",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 14,
+     "cjk_chars": 412
+    },
+    {
+     "bank": "a027/0668",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 326
+    },
+    {
+     "bank": "a027/0669",
+     "ids": [
+      0,
+      12
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 517
+    },
+    {
+     "bank": "a027/0670",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 440
+    },
+    {
+     "bank": "a027/0671",
+     "ids": [
+      0,
+      30
+     ],
+     "cjk_strings": 31,
+     "cjk_chars": 1034
+    },
+    {
+     "bank": "a027/0672",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 281
+    },
+    {
+     "bank": "a027/0673",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 502
+    },
+    {
+     "bank": "a027/0674",
+     "ids": [
+      0,
+      19
+     ],
+     "cjk_strings": 20,
+     "cjk_chars": 513
+    },
+    {
+     "bank": "a027/0675",
+     "ids": [
+      0,
+      16
+     ],
+     "cjk_strings": 17,
+     "cjk_chars": 461
+    },
+    {
+     "bank": "a027/0676",
+     "ids": [
+      0,
+      22
+     ],
+     "cjk_strings": 23,
+     "cjk_chars": 966
+    },
+    {
+     "bank": "a027/0677",
+     "ids": [
+      0,
+      12
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 490
+    },
+    {
+     "bank": "a027/0678",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 401
+    },
+    {
+     "bank": "a027/0679",
+     "ids": [
+      0,
+      23
+     ],
+     "cjk_strings": 23,
+     "cjk_chars": 656
+    },
+    {
+     "bank": "a027/0680",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 14,
+     "cjk_chars": 342
+    },
+    {
+     "bank": "a027/0681",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 409
+    },
+    {
+     "bank": "a027/0682",
+     "ids": [
+      0,
+      40
+     ],
+     "cjk_strings": 41,
+     "cjk_chars": 1703
+    }
+   ],
+   "cjk_strings": 441,
+   "cjk_chars": 14894,
+   "replaces_old_batches": [
+    "B115",
+    "B116"
+   ]
+  },
+  {
+   "batch": "R048",
+   "label": "pokegear_phone + tv_news + side_features_minigames",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "pokegear_phone",
+    "tv_news",
+    "side_features_minigames"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0683",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 390
+    },
+    {
+     "bank": "a027/0684",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 14,
+     "cjk_chars": 508
+    },
+    {
+     "bank": "a027/0685",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 14,
+     "cjk_chars": 390
+    },
+    {
+     "bank": "a027/0686",
+     "ids": [
+      0,
+      15
+     ],
+     "cjk_strings": 16,
+     "cjk_chars": 395
+    },
+    {
+     "bank": "a027/0687",
+     "ids": [
+      0,
+      12
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 310
+    },
+    {
+     "bank": "a027/0688",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 381
+    },
+    {
+     "bank": "a027/0689",
+     "ids": [
+      0,
+      12
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 263
+    },
+    {
+     "bank": "a027/0690",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 428
+    },
+    {
+     "bank": "a027/0691",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 14,
+     "cjk_chars": 443
+    },
+    {
+     "bank": "a027/0692",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 459
+    },
+    {
+     "bank": "a027/0693",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 443
+    },
+    {
+     "bank": "a027/0694",
+     "ids": [
+      0,
+      12
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 477
+    },
+    {
+     "bank": "a027/0695",
+     "ids": [
+      0,
+      24
+     ],
+     "cjk_strings": 24,
+     "cjk_chars": 594
+    },
+    {
+     "bank": "a027/0696",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 298
+    },
+    {
+     "bank": "a027/0697",
+     "ids": [
+      0,
+      12
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 322
+    },
+    {
+     "bank": "a027/0698",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 565
+    },
+    {
+     "bank": "a027/0699",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 329
+    },
+    {
+     "bank": "a027/0700",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 399
+    },
+    {
+     "bank": "a027/0701",
+     "ids": [
+      0,
+      12
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 404
+    },
+    {
+     "bank": "a027/0702",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 382
+    },
+    {
+     "bank": "a027/0703",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 368
+    },
+    {
+     "bank": "a027/0704",
+     "ids": [
+      0,
+      10
+     ],
+     "cjk_strings": 11,
+     "cjk_chars": 252
+    },
+    {
+     "bank": "a027/0705",
+     "ids": [
+      0,
+      10
+     ],
+     "cjk_strings": 11,
+     "cjk_chars": 315
+    },
+    {
+     "bank": "a027/0706",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 288
+    },
+    {
+     "bank": "a027/0707",
+     "ids": [
+      0,
+      44
+     ],
+     "cjk_strings": 45,
+     "cjk_chars": 1754
+    },
+    {
+     "bank": "a027/0708",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 28
+    },
+    {
+     "bank": "a027/0723",
+     "ids": [
+      0,
+      34
+     ],
+     "cjk_strings": 35,
+     "cjk_chars": 758
+    },
+    {
+     "bank": "a027/0000",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 64
+    },
+    {
+     "bank": "a027/0001",
+     "ids": [
+      0,
+      19
+     ],
+     "cjk_strings": 17,
+     "cjk_chars": 534
+    },
+    {
+     "bank": "a027/0002",
+     "ids": [
+      0,
+      5
+     ],
+     "cjk_strings": 6,
+     "cjk_chars": 87
+    },
+    {
+     "bank": "a027/0004",
+     "ids": [
+      0,
+      5
+     ],
+     "cjk_strings": 6,
+     "cjk_chars": 99
+    },
+    {
+     "bank": "a027/0011",
+     "ids": [
+      0,
+      19
+     ],
+     "cjk_strings": 20,
+     "cjk_chars": 81
+    },
+    {
+     "bank": "a027/0012",
+     "ids": [
+      3,
+      3
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 15
+    }
+   ],
+   "cjk_strings": 468,
+   "cjk_chars": 12823,
+   "replaces_old_batches": [
+    "B116",
+    "B117",
+    "B119",
+    "B129"
+   ]
+  },
+  {
+   "batch": "R049",
+   "label": "side_features_minigames + battle_frontier",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "side_features_minigames",
+    "battle_frontier"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0013",
+     "ids": [
+      0,
+      332
+     ],
+     "cjk_strings": 279,
+     "cjk_chars": 1848
+    },
+    {
+     "bank": "a027/0015",
+     "ids": [
+      1,
+      80
+     ],
+     "cjk_strings": 80,
+     "cjk_chars": 237
+    },
+    {
+     "bank": "a027/0017",
+     "ids": [
+      0,
+      34
+     ],
+     "cjk_strings": 35,
+     "cjk_chars": 365
+    },
+    {
+     "bank": "a027/0020",
+     "ids": [
+      0,
+      133
+     ],
+     "cjk_strings": 133,
+     "cjk_chars": 929
+    },
+    {
+     "bank": "a027/0021",
+     "ids": [
+      0,
+      30
+     ],
+     "cjk_strings": 27,
+     "cjk_chars": 155
+    }
+   ],
+   "cjk_strings": 554,
+   "cjk_chars": 3534,
+   "replaces_old_batches": [
+    "B120",
+    "B129",
+    "B130"
+   ]
+  },
+  {
+   "batch": "R050",
+   "label": "battle_frontier",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "battle_frontier"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0025",
+     "ids": [
+      0,
+      91
+     ],
+     "cjk_strings": 73,
+     "cjk_chars": 691
+    },
+    {
+     "bank": "a027/0026",
+     "ids": [
+      0,
+      314
+     ],
+     "cjk_strings": 315,
+     "cjk_chars": 769
+    },
+    {
+     "bank": "a027/0027",
+     "ids": [
+      0,
+      34
+     ],
+     "cjk_strings": 27,
+     "cjk_chars": 108
+    },
+    {
+     "bank": "a027/0028",
+     "ids": [
+      0,
+      3
+     ],
+     "cjk_strings": 4,
+     "cjk_chars": 19
+    },
+    {
+     "bank": "a027/0030",
+     "ids": [
+      5,
+      107
+     ],
+     "cjk_strings": 76,
+     "cjk_chars": 341
+    },
+    {
+     "bank": "a027/0031",
+     "ids": [
+      0,
+      57
+     ],
+     "cjk_strings": 58,
+     "cjk_chars": 863
+    }
+   ],
+   "cjk_strings": 553,
+   "cjk_chars": 2791,
+   "replaces_old_batches": [
+    "B120",
+    "B121"
+   ]
+  },
+  {
+   "batch": "R051",
+   "label": "battle_frontier + side_features_minigames",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "battle_frontier",
+    "side_features_minigames"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0032",
+     "ids": [
+      4,
+      95
+     ],
+     "cjk_strings": 63,
+     "cjk_chars": 293
+    },
+    {
+     "bank": "a027/0036",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 24
+    },
+    {
+     "bank": "a027/0037",
+     "ids": [
+      0,
+      3
+     ],
+     "cjk_strings": 4,
+     "cjk_chars": 18
+    },
+    {
+     "bank": "a027/0040",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 4
+    },
+    {
+     "bank": "a027/0180",
+     "ids": [
+      0,
+      165
+     ],
+     "cjk_strings": 159,
+     "cjk_chars": 1393
+    },
+    {
+     "bank": "a027/0181",
+     "ids": [
+      0,
+      49
+     ],
+     "cjk_strings": 27,
+     "cjk_chars": 139
+    },
+    {
+     "bank": "a027/0184",
+     "ids": [
+      0,
+      16
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 138
+    },
+    {
+     "bank": "a027/0186",
+     "ids": [
+      0,
+      58
+     ],
+     "cjk_strings": 56,
+     "cjk_chars": 497
+    },
+    {
+     "bank": "a027/0190",
+     "ids": [
+      0,
+      24
+     ],
+     "cjk_strings": 25,
+     "cjk_chars": 511
+    },
+    {
+     "bank": "a027/0192",
+     "ids": [
+      0,
+      25
+     ],
+     "cjk_strings": 26,
+     "cjk_chars": 92
+    },
+    {
+     "bank": "a027/0193",
+     "ids": [
+      0,
+      39
+     ],
+     "cjk_strings": 40,
+     "cjk_chars": 1005
+    },
+    {
+     "bank": "a027/0200",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 6
+    },
+    {
+     "bank": "a027/0204",
+     "ids": [
+      0,
+      12
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 119
+    },
+    {
+     "bank": "a027/0205",
+     "ids": [
+      2,
+      20
+     ],
+     "cjk_strings": 19,
+     "cjk_chars": 149
+    },
+    {
+     "bank": "a027/0211",
+     "ids": [
+      0,
+      41
+     ],
+     "cjk_strings": 42,
+     "cjk_chars": 1004
+    },
+    {
+     "bank": "a027/0212",
+     "ids": [
+      0,
+      3
+     ],
+     "cjk_strings": 4,
+     "cjk_chars": 30
+    },
+    {
+     "bank": "a027/0213",
+     "ids": [
+      0,
+      47
+     ],
+     "cjk_strings": 46,
+     "cjk_chars": 604
+    }
+   ],
+   "cjk_strings": 552,
+   "cjk_chars": 6026,
+   "replaces_old_batches": [
+    "B121",
+    "B130",
+    "B131"
+   ]
+  },
+  {
+   "batch": "R052",
+   "label": "side_features_minigames + mail + pokeathlon + easy_chat_words",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "side_features_minigames",
+    "mail",
+    "pokeathlon",
+    "easy_chat_words"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0214",
+     "ids": [
+      0,
+      99
+     ],
+     "cjk_strings": 100,
+     "cjk_chars": 459
+    },
+    {
+     "bank": "a027/0215",
+     "ids": [
+      0,
+      17
+     ],
+     "cjk_strings": 18,
+     "cjk_chars": 51
+    },
+    {
+     "bank": "a027/0222",
+     "ids": [
+      0,
+      34
+     ],
+     "cjk_strings": 35,
+     "cjk_chars": 145
+    },
+    {
+     "bank": "a027/0223",
+     "ids": [
+      0,
+      15
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 25
+    },
+    {
+     "bank": "a027/0225",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 13
+    },
+    {
+     "bank": "a027/0226",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 11,
+     "cjk_chars": 79
+    },
+    {
+     "bank": "a027/0227",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 64
+    },
+    {
+     "bank": "a027/0228",
+     "ids": [
+      0,
+      3
+     ],
+     "cjk_strings": 4,
+     "cjk_chars": 18
+    },
+    {
+     "bank": "a027/0229",
+     "ids": [
+      0,
+      2
+     ],
+     "cjk_strings": 3,
+     "cjk_chars": 18
+    },
+    {
+     "bank": "a027/0230",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 15
+    },
+    {
+     "bank": "a027/0231",
+     "ids": [
+      0,
+      23
+     ],
+     "cjk_strings": 19,
+     "cjk_chars": 138
+    },
+    {
+     "bank": "a027/0240",
+     "ids": [
+      0,
+      82
+     ],
+     "cjk_strings": 77,
+     "cjk_chars": 637
+    },
+    {
+     "bank": "a027/0241",
+     "ids": [
+      0,
+      28
+     ],
+     "cjk_strings": 25,
+     "cjk_chars": 129
+    },
+    {
+     "bank": "a027/0245",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 92
+    },
+    {
+     "bank": "a027/0257",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 11,
+     "cjk_chars": 125
+    },
+    {
+     "bank": "a027/0269",
+     "ids": [
+      4,
+      4
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 3
+    },
+    {
+     "bank": "a027/0270",
+     "ids": [
+      4,
+      32
+     ],
+     "cjk_strings": 29,
+     "cjk_chars": 206
+    },
+    {
+     "bank": "a027/0271",
+     "ids": [
+      1,
+      9
+     ],
+     "cjk_strings": 7,
+     "cjk_chars": 17
+    },
+    {
+     "bank": "a027/0275",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 29
+    },
+    {
+     "bank": "a027/0276",
+     "ids": [
+      0,
+      14
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 84
+    },
+    {
+     "bank": "a027/0277",
+     "ids": [
+      0,
+      2
+     ],
+     "cjk_strings": 3,
+     "cjk_chars": 6
+    },
+    {
+     "bank": "a027/0278",
+     "ids": [
+      0,
+      37
+     ],
+     "cjk_strings": 38,
+     "cjk_chars": 81
+    },
+    {
+     "bank": "a027/0279",
+     "ids": [
+      0,
+      37
+     ],
+     "cjk_strings": 38,
+     "cjk_chars": 75
+    },
+    {
+     "bank": "a027/0280",
+     "ids": [
+      0,
+      105
+     ],
+     "cjk_strings": 100,
+     "cjk_chars": 195
+    }
+   ],
+   "cjk_strings": 588,
+   "cjk_chars": 2704,
+   "replaces_old_batches": [
+    "B126",
+    "B128",
+    "B131",
+    "B132"
+   ]
+  },
+  {
+   "batch": "R053",
+   "label": "easy_chat_words + side_features_minigames",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "easy_chat_words",
+    "side_features_minigames"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0281",
+     "ids": [
+      0,
+      103
+     ],
+     "cjk_strings": 104,
+     "cjk_chars": 212
+    },
+    {
+     "bank": "a027/0282",
+     "ids": [
+      0,
+      46
+     ],
+     "cjk_strings": 47,
+     "cjk_chars": 115
+    },
+    {
+     "bank": "a027/0283",
+     "ids": [
+      0,
+      31
+     ],
+     "cjk_strings": 32,
+     "cjk_chars": 96
+    },
+    {
+     "bank": "a027/0284",
+     "ids": [
+      0,
+      22
+     ],
+     "cjk_strings": 21,
+     "cjk_chars": 60
+    },
+    {
+     "bank": "a027/0285",
+     "ids": [
+      0,
+      19
+     ],
+     "cjk_strings": 19,
+     "cjk_chars": 116
+    },
+    {
+     "bank": "a027/0286",
+     "ids": [
+      0,
+      19
+     ],
+     "cjk_strings": 20,
+     "cjk_chars": 81
+    },
+    {
+     "bank": "a027/0287",
+     "ids": [
+      0,
+      19
+     ],
+     "cjk_strings": 20,
+     "cjk_chars": 83
+    },
+    {
+     "bank": "a027/0288",
+     "ids": [
+      0,
+      19
+     ],
+     "cjk_strings": 19,
+     "cjk_chars": 119
+    },
+    {
+     "bank": "a027/0289",
+     "ids": [
+      0,
+      19
+     ],
+     "cjk_strings": 20,
+     "cjk_chars": 91
+    },
+    {
+     "bank": "a027/0290",
+     "ids": [
+      0,
+      142
+     ],
+     "cjk_strings": 143,
+     "cjk_chars": 566
+    },
+    {
+     "bank": "a027/0294",
+     "ids": [
+      0,
+      46
+     ],
+     "cjk_strings": 45,
+     "cjk_chars": 582
+    },
+    {
+     "bank": "a027/0296",
+     "ids": [
+      0,
+      6
+     ],
+     "cjk_strings": 7,
+     "cjk_chars": 31
+    },
+    {
+     "bank": "a027/0297",
+     "ids": [
+      0,
+      24
+     ],
+     "cjk_strings": 25,
+     "cjk_chars": 95
+    },
+    {
+     "bank": "a027/0298",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 5
+    },
+    {
+     "bank": "a027/0299",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 2
+    },
+    {
+     "bank": "a027/0300",
+     "ids": [
+      0,
+      24
+     ],
+     "cjk_strings": 25,
+     "cjk_chars": 468
+    },
+    {
+     "bank": "a027/0301",
+     "ids": [
+      0,
+      10
+     ],
+     "cjk_strings": 11,
+     "cjk_chars": 60
+    }
+   ],
+   "cjk_strings": 560,
+   "cjk_chars": 2782,
+   "replaces_old_batches": [
+    "B128",
+    "B132"
+   ]
+  },
+  {
+   "batch": "R054",
+   "label": "pokeathlon + side_features_minigames",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "pokeathlon",
+    "side_features_minigames"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0302",
+     "ids": [
+      0,
+      311
+     ],
+     "cjk_strings": 302,
+     "cjk_chars": 4211
+    },
+    {
+     "bank": "a027/0303",
+     "ids": [
+      0,
+      49
+     ],
+     "cjk_strings": 50,
+     "cjk_chars": 101
+    },
+    {
+     "bank": "a027/0304",
+     "ids": [
+      0,
+      49
+     ],
+     "cjk_strings": 50,
+     "cjk_chars": 835
+    },
+    {
+     "bank": "a027/0306",
+     "ids": [
+      0,
+      29
+     ],
+     "cjk_strings": 30,
+     "cjk_chars": 102
+    },
+    {
+     "bank": "a027/0307",
+     "ids": [
+      0,
+      128
+     ],
+     "cjk_strings": 118,
+     "cjk_chars": 934
+    },
+    {
+     "bank": "a027/0308",
+     "ids": [
+      0,
+      2
+     ],
+     "cjk_strings": 3,
+     "cjk_chars": 20
+    },
+    {
+     "bank": "a027/0309",
+     "ids": [
+      0,
+      21
+     ],
+     "cjk_strings": 21,
+     "cjk_chars": 63
+    },
+    {
+     "bank": "a027/0310",
+     "ids": [
+      0,
+      25
+     ],
+     "cjk_strings": 23,
+     "cjk_chars": 112
+    }
+   ],
+   "cjk_strings": 597,
+   "cjk_chars": 6378,
+   "replaces_old_batches": [
+    "B126",
+    "B127",
+    "B132"
+   ]
+  },
+  {
+   "batch": "R055",
+   "label": "side_features_minigames + battle_frontier",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "side_features_minigames",
+    "battle_frontier"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0311",
+     "ids": [
+      0,
+      28
+     ],
+     "cjk_strings": 29,
+     "cjk_chars": 113
+    },
+    {
+     "bank": "a027/0414",
+     "ids": [
+      0,
+      72
+     ],
+     "cjk_strings": 69,
+     "cjk_chars": 385
+    },
+    {
+     "bank": "a027/0415",
+     "ids": [
+      2,
+      22
+     ],
+     "cjk_strings": 21,
+     "cjk_chars": 158
+    },
+    {
+     "bank": "a027/0418",
+     "ids": [
+      0,
+      22
+     ],
+     "cjk_strings": 19,
+     "cjk_chars": 122
+    },
+    {
+     "bank": "a027/0419",
+     "ids": [
+      0,
+      80
+     ],
+     "cjk_strings": 81,
+     "cjk_chars": 1229
+    },
+    {
+     "bank": "a027/0421",
+     "ids": [
+      0,
+      11
+     ],
+     "cjk_strings": 12,
+     "cjk_chars": 53
+    },
+    {
+     "bank": "a027/0422",
+     "ids": [
+      0,
+      27
+     ],
+     "cjk_strings": 27,
+     "cjk_chars": 118
+    },
+    {
+     "bank": "a027/0423",
+     "ids": [
+      0,
+      61
+     ],
+     "cjk_strings": 60,
+     "cjk_chars": 558
+    },
+    {
+     "bank": "a027/0424",
+     "ids": [
+      0,
+      2
+     ],
+     "cjk_strings": 3,
+     "cjk_chars": 51
+    },
+    {
+     "bank": "a027/0425",
+     "ids": [
+      0,
+      12
+     ],
+     "cjk_strings": 11,
+     "cjk_chars": 34
+    },
+    {
+     "bank": "a027/0427",
+     "ids": [
+      0,
+      51
+     ],
+     "cjk_strings": 52,
+     "cjk_chars": 554
+    },
+    {
+     "bank": "a027/0429",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 14,
+     "cjk_chars": 85
+    },
+    {
+     "bank": "a027/0434",
+     "ids": [
+      0,
+      37
+     ],
+     "cjk_strings": 36,
+     "cjk_chars": 601
+    },
+    {
+     "bank": "a027/0629",
+     "ids": [
+      0,
+      9
+     ],
+     "cjk_strings": 10,
+     "cjk_chars": 91
+    },
+    {
+     "bank": "a027/0630",
+     "ids": [
+      0,
+      4
+     ],
+     "cjk_strings": 5,
+     "cjk_chars": 15
+    }
+   ],
+   "cjk_strings": 449,
+   "cjk_chars": 4167,
+   "replaces_old_batches": [
+    "B121",
+    "B122",
+    "B132",
+    "B133"
+   ]
+  },
+  {
+   "batch": "R056",
+   "label": "battle_frontier_trainer_text",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "battle_frontier_trainer_text"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0713",
+     "ids": [
+      0,
+      605
+     ],
+     "cjk_strings": 600,
+     "cjk_chars": 6018
+    }
+   ],
+   "cjk_strings": 600,
+   "cjk_chars": 6018,
+   "replaces_old_batches": [
+    "B122",
+    "B123"
+   ]
+  },
+  {
+   "batch": "R057",
+   "label": "battle_frontier_trainer_text",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "battle_frontier_trainer_text"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0713",
+     "ids": [
+      606,
+      920
+     ],
+     "cjk_strings": 314,
+     "cjk_chars": 3048
+    }
+   ],
+   "cjk_strings": 314,
+   "cjk_chars": 3048,
+   "replaces_old_batches": [
+    "B122",
+    "B123"
+   ]
+  },
+  {
+   "batch": "R058",
+   "label": "battle_frontier_trainer_text",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "battle_frontier_trainer_text"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0714",
+     "ids": [
+      0,
+      599
+     ],
+     "cjk_strings": 600,
+     "cjk_chars": 8091
+    }
+   ],
+   "cjk_strings": 600,
+   "cjk_chars": 8091,
+   "replaces_old_batches": [
+    "B124",
+    "B125"
+   ]
+  },
+  {
+   "batch": "R059",
+   "label": "battle_frontier_trainer_text + side_features_minigames + map_bank_unreferenced",
+   "priority": "P3",
+   "phase": "nonmap",
+   "categories": [
+    "battle_frontier_trainer_text",
+    "side_features_minigames",
+    "map_script"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0714",
+     "ids": [
+      600,
+      944
+     ],
+     "cjk_strings": 326,
+     "cjk_chars": 4142
+    },
+    {
+     "bank": "a027/0740",
+     "ids": [
+      0,
+      55
+     ],
+     "cjk_strings": 56,
+     "cjk_chars": 1320
+    },
+    {
+     "bank": "a027/0789",
+     "ids": [
+      0,
+      5
+     ],
+     "cjk_strings": 4,
+     "cjk_chars": 24
+    },
+    {
+     "bank": "a027/0076",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 21
+    },
+    {
+     "bank": "a027/0095",
+     "ids": [
+      0,
+      22
+     ],
+     "cjk_strings": 23,
+     "cjk_chars": 621
+    },
+    {
+     "bank": "a027/0096",
+     "ids": [
+      0,
+      16
+     ],
+     "cjk_strings": 17,
+     "cjk_chars": 174
+    },
+    {
+     "bank": "a027/0104",
+     "ids": [
+      0,
+      32
+     ],
+     "cjk_strings": 33,
+     "cjk_chars": 430
+    },
+    {
+     "bank": "a027/0565",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 2
+    },
+    {
+     "bank": "a027/0612",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 2
+    }
+   ],
+   "cjk_strings": 462,
+   "cjk_chars": 6736,
+   "replaces_old_batches": [
+    "B083",
+    "B092",
+    "B094",
+    "B095",
+    "B124",
+    "B125",
+    "B133"
+   ]
+  },
+  {
+   "batch": "R060",
+   "label": "pokedex_entries_ss",
+   "priority": "P4",
+   "phase": "unused",
+   "categories": [
+    "pokedex_entries"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0792",
+     "ids": [
+      1,
+      493
+     ],
+     "cjk_strings": 493,
+     "cjk_chars": 12858
+    }
+   ],
+   "cjk_strings": 493,
+   "cjk_chars": 12858,
+   "replaces_old_batches": [
+    "B111",
+    "B112"
+   ]
+  },
+  {
+   "batch": "R061",
+   "label": "pokedex_entries_platinum + link_wifi",
+   "priority": "P4",
+   "phase": "unused",
+   "categories": [
+    "pokedex_entries",
+    "link_wifi"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0798",
+     "ids": [
+      1,
+      493
+     ],
+     "cjk_strings": 493,
+     "cjk_chars": 13665
+    },
+    {
+     "bank": "a027/0039",
+     "ids": [
+      0,
+      9
+     ],
+     "cjk_strings": 10,
+     "cjk_chars": 290
+    },
+    {
+     "bank": "a027/0203",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 14,
+     "cjk_chars": 391
+    },
+    {
+     "bank": "a027/0210",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 3
+    },
+    {
+     "bank": "a027/0725",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 150
+    }
+   ],
+   "cjk_strings": 519,
+   "cjk_chars": 14499,
+   "replaces_old_batches": [
+    "B112",
+    "B134"
+   ]
+  },
+  {
+   "batch": "R062",
+   "label": "link_wifi",
+   "priority": "P4",
+   "phase": "unused",
+   "categories": [
+    "link_wifi"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0726",
+     "ids": [
+      0,
+      278
+     ],
+     "cjk_strings": 279,
+     "cjk_chars": 2238
+    },
+    {
+     "bank": "a027/0727",
+     "ids": [
+      0,
+      219
+     ],
+     "cjk_strings": 215,
+     "cjk_chars": 2809
+    },
+    {
+     "bank": "a027/0728",
+     "ids": [
+      0,
+      45
+     ],
+     "cjk_strings": 34,
+     "cjk_chars": 347
+    },
+    {
+     "bank": "a027/0741",
+     "ids": [
+      0,
+      2
+     ],
+     "cjk_strings": 3,
+     "cjk_chars": 12
+    },
+    {
+     "bank": "a027/0742",
+     "ids": [
+      1,
+      3
+     ],
+     "cjk_strings": 3,
+     "cjk_chars": 18
+    },
+    {
+     "bank": "a027/0743",
+     "ids": [
+      0,
+      9
+     ],
+     "cjk_strings": 10,
+     "cjk_chars": 45
+    },
+    {
+     "bank": "a027/0744",
+     "ids": [
+      0,
+      26
+     ],
+     "cjk_strings": 27,
+     "cjk_chars": 45
+    },
+    {
+     "bank": "a027/0745",
+     "ids": [
+      0,
+      28
+     ],
+     "cjk_strings": 29,
+     "cjk_chars": 194
+    }
+   ],
+   "cjk_strings": 600,
+   "cjk_chars": 5708,
+   "replaces_old_batches": [
+    "B135",
+    "B136"
+   ]
+  },
+  {
+   "batch": "R063",
+   "label": "link_wifi",
+   "priority": "P4",
+   "phase": "unused",
+   "categories": [
+    "link_wifi"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0746",
+     "ids": [
+      0,
+      49
+     ],
+     "cjk_strings": 50,
+     "cjk_chars": 155
+    },
+    {
+     "bank": "a027/0747",
+     "ids": [
+      0,
+      49
+     ],
+     "cjk_strings": 49,
+     "cjk_chars": 162
+    },
+    {
+     "bank": "a027/0748",
+     "ids": [
+      0,
+      49
+     ],
+     "cjk_strings": 49,
+     "cjk_chars": 166
+    },
+    {
+     "bank": "a027/0749",
+     "ids": [
+      0,
+      49
+     ],
+     "cjk_strings": 50,
+     "cjk_chars": 487
+    },
+    {
+     "bank": "a027/0750",
+     "ids": [
+      0,
+      9
+     ],
+     "cjk_strings": 10,
+     "cjk_chars": 26
+    },
+    {
+     "bank": "a027/0751",
+     "ids": [
+      0,
+      9
+     ],
+     "cjk_strings": 10,
+     "cjk_chars": 27
+    },
+    {
+     "bank": "a027/0752",
+     "ids": [
+      0,
+      9
+     ],
+     "cjk_strings": 10,
+     "cjk_chars": 31
+    },
+    {
+     "bank": "a027/0753",
+     "ids": [
+      0,
+      9
+     ],
+     "cjk_strings": 10,
+     "cjk_chars": 115
+    }
+   ],
+   "cjk_strings": 238,
+   "cjk_chars": 1169,
+   "replaces_old_batches": [
+    "B136"
+   ]
+  },
+  {
+   "batch": "R064",
+   "label": "link_wifi",
+   "priority": "P4",
+   "phase": "unused",
+   "categories": [
+    "link_wifi"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0754",
+     "ids": [
+      37,
+      636
+     ],
+     "cjk_strings": 600,
+     "cjk_chars": 3368
+    }
+   ],
+   "cjk_strings": 600,
+   "cjk_chars": 3368,
+   "replaces_old_batches": [
+    "B136",
+    "B137",
+    "B138"
+   ]
+  },
+  {
+   "batch": "R065",
+   "label": "link_wifi",
+   "priority": "P4",
+   "phase": "unused",
+   "categories": [
+    "link_wifi"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0754",
+     "ids": [
+      637,
+      909
+     ],
+     "cjk_strings": 273,
+     "cjk_chars": 1704
+    },
+    {
+     "bank": "a027/0759",
+     "ids": [
+      0,
+      2
+     ],
+     "cjk_strings": 3,
+     "cjk_chars": 8
+    },
+    {
+     "bank": "a027/0761",
+     "ids": [
+      0,
+      5
+     ],
+     "cjk_strings": 6,
+     "cjk_chars": 35
+    },
+    {
+     "bank": "a027/0762",
+     "ids": [
+      0,
+      22
+     ],
+     "cjk_strings": 23,
+     "cjk_chars": 188
+    },
+    {
+     "bank": "a027/0763",
+     "ids": [
+      0,
+      234
+     ],
+     "cjk_strings": 148,
+     "cjk_chars": 762
+    },
+    {
+     "bank": "a027/0764",
+     "ids": [
+      0,
+      36
+     ],
+     "cjk_strings": 36,
+     "cjk_chars": 496
+    },
+    {
+     "bank": "a027/0765",
+     "ids": [
+      0,
+      124
+     ],
+     "cjk_strings": 107,
+     "cjk_chars": 2036
+    }
+   ],
+   "cjk_strings": 596,
+   "cjk_chars": 5229,
+   "replaces_old_batches": [
+    "B136",
+    "B137",
+    "B138",
+    "B139"
+   ]
+  },
+  {
+   "batch": "R066",
+   "label": "link_wifi",
+   "priority": "P4",
+   "phase": "unused",
+   "categories": [
+    "link_wifi"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0766",
+     "ids": [
+      0,
+      145
+     ],
+     "cjk_strings": 137,
+     "cjk_chars": 772
+    },
+    {
+     "bank": "a027/0767",
+     "ids": [
+      0,
+      66
+     ],
+     "cjk_strings": 56,
+     "cjk_chars": 287
+    },
+    {
+     "bank": "a027/0768",
+     "ids": [
+      0,
+      24
+     ],
+     "cjk_strings": 25,
+     "cjk_chars": 102
+    },
+    {
+     "bank": "a027/0769",
+     "ids": [
+      0,
+      7
+     ],
+     "cjk_strings": 8,
+     "cjk_chars": 31
+    },
+    {
+     "bank": "a027/0770",
+     "ids": [
+      0,
+      27
+     ],
+     "cjk_strings": 28,
+     "cjk_chars": 109
+    },
+    {
+     "bank": "a027/0771",
+     "ids": [
+      0,
+      13
+     ],
+     "cjk_strings": 14,
+     "cjk_chars": 61
+    },
+    {
+     "bank": "a027/0772",
+     "ids": [
+      0,
+      31
+     ],
+     "cjk_strings": 32,
+     "cjk_chars": 87
+    },
+    {
+     "bank": "a027/0773",
+     "ids": [
+      0,
+      16
+     ],
+     "cjk_strings": 17,
+     "cjk_chars": 75
+    },
+    {
+     "bank": "a027/0774",
+     "ids": [
+      0,
+      17
+     ],
+     "cjk_strings": 18,
+     "cjk_chars": 83
+    },
+    {
+     "bank": "a027/0775",
+     "ids": [
+      0,
+      6
+     ],
+     "cjk_strings": 7,
+     "cjk_chars": 19
+    },
+    {
+     "bank": "a027/0776",
+     "ids": [
+      0,
+      22
+     ],
+     "cjk_strings": 23,
+     "cjk_chars": 93
+    },
+    {
+     "bank": "a027/0777",
+     "ids": [
+      0,
+      12
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 52
+    },
+    {
+     "bank": "a027/0778",
+     "ids": [
+      0,
+      35
+     ],
+     "cjk_strings": 36,
+     "cjk_chars": 141
+    },
+    {
+     "bank": "a027/0779",
+     "ids": [
+      0,
+      20
+     ],
+     "cjk_strings": 21,
+     "cjk_chars": 90
+    },
+    {
+     "bank": "a027/0780",
+     "ids": [
+      0,
+      50
+     ],
+     "cjk_strings": 51,
+     "cjk_chars": 116
+    },
+    {
+     "bank": "a027/0781",
+     "ids": [
+      0,
+      20
+     ],
+     "cjk_strings": 21,
+     "cjk_chars": 85
+    },
+    {
+     "bank": "a027/0782",
+     "ids": [
+      0,
+      16
+     ],
+     "cjk_strings": 17,
+     "cjk_chars": 63
+    },
+    {
+     "bank": "a027/0783",
+     "ids": [
+      0,
+      7
+     ],
+     "cjk_strings": 8,
+     "cjk_chars": 22
+    },
+    {
+     "bank": "a027/0784",
+     "ids": [
+      0,
+      24
+     ],
+     "cjk_strings": 25,
+     "cjk_chars": 85
+    }
+   ],
+   "cjk_strings": 557,
+   "cjk_chars": 2373,
+   "replaces_old_batches": [
+    "B139",
+    "B140"
+   ]
+  },
+  {
+   "batch": "R067",
+   "label": "link_wifi + debug_unused + debug_or_unlisted",
+   "priority": "P4",
+   "phase": "unused",
+   "categories": [
+    "link_wifi",
+    "debug_unused",
+    "debug_or_unlisted"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0785",
+     "ids": [
+      0,
+      51
+     ],
+     "cjk_strings": 52,
+     "cjk_chars": 189
+    },
+    {
+     "bank": "a027/0786",
+     "ids": [
+      0,
+      233
+     ],
+     "cjk_strings": 234,
+     "cjk_chars": 880
+    },
+    {
+     "bank": "a027/0787",
+     "ids": [
+      0,
+      17
+     ],
+     "cjk_strings": 18,
+     "cjk_chars": 198
+    },
+    {
+     "bank": "a027/0788",
+     "ids": [
+      0,
+      32
+     ],
+     "cjk_strings": 33,
+     "cjk_chars": 504
+    },
+    {
+     "bank": "a027/0149",
+     "ids": [
+      0,
+      46
+     ],
+     "cjk_strings": 40,
+     "cjk_chars": 192
+    },
+    {
+     "bank": "a027/0150",
+     "ids": [
+      0,
+      3
+     ],
+     "cjk_strings": 4,
+     "cjk_chars": 19
+    },
+    {
+     "bank": "a027/0151",
+     "ids": [
+      0,
+      20
+     ],
+     "cjk_strings": 21,
+     "cjk_chars": 154
+    },
+    {
+     "bank": "a027/0152",
+     "ids": [
+      0,
+      235
+     ],
+     "cjk_strings": 170,
+     "cjk_chars": 424
+    }
+   ],
+   "cjk_strings": 572,
+   "cjk_chars": 2560,
+   "replaces_old_batches": [
+    "B140",
+    "B141",
+    "B142"
+   ]
+  },
+  {
+   "batch": "R068",
+   "label": "debug_or_unlisted",
+   "priority": "P4",
+   "phase": "unused",
+   "categories": [
+    "debug_or_unlisted"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0153",
+     "ids": [
+      0,
+      31
+     ],
+     "cjk_strings": 32,
+     "cjk_chars": 100
+    },
+    {
+     "bank": "a027/0154",
+     "ids": [
+      0,
+      107
+     ],
+     "cjk_strings": 92,
+     "cjk_chars": 274
+    },
+    {
+     "bank": "a027/0155",
+     "ids": [
+      0,
+      67
+     ],
+     "cjk_strings": 68,
+     "cjk_chars": 208
+    },
+    {
+     "bank": "a027/0156",
+     "ids": [
+      0,
+      68
+     ],
+     "cjk_strings": 60,
+     "cjk_chars": 303
+    },
+    {
+     "bank": "a027/0157",
+     "ids": [
+      0,
+      19
+     ],
+     "cjk_strings": 20,
+     "cjk_chars": 55
+    },
+    {
+     "bank": "a027/0158",
+     "ids": [
+      4,
+      153
+     ],
+     "cjk_strings": 29,
+     "cjk_chars": 77
+    },
+    {
+     "bank": "a027/0159",
+     "ids": [
+      0,
+      67
+     ],
+     "cjk_strings": 68,
+     "cjk_chars": 325
+    },
+    {
+     "bank": "a027/0160",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 4
+    },
+    {
+     "bank": "a027/0162",
+     "ids": [
+      0,
+      30
+     ],
+     "cjk_strings": 30,
+     "cjk_chars": 93
+    },
+    {
+     "bank": "a027/0164",
+     "ids": [
+      0,
+      143
+     ],
+     "cjk_strings": 119,
+     "cjk_chars": 316
+    },
+    {
+     "bank": "a027/0165",
+     "ids": [
+      0,
+      78
+     ],
+     "cjk_strings": 77,
+     "cjk_chars": 216
+    }
+   ],
+   "cjk_strings": 596,
+   "cjk_chars": 1971,
+   "replaces_old_batches": [
+    "B141",
+    "B142"
+   ]
+  },
+  {
+   "batch": "R069",
+   "label": "debug_or_unlisted + debug_unused",
+   "priority": "P4",
+   "phase": "unused",
+   "categories": [
+    "debug_or_unlisted",
+    "debug_unused"
+   ],
+   "parts": [
+    {
+     "bank": "a027/0167",
+     "ids": [
+      0,
+      54
+     ],
+     "cjk_strings": 53,
+     "cjk_chars": 175
+    },
+    {
+     "bank": "a027/0168",
+     "ids": [
+      0,
+      9
+     ],
+     "cjk_strings": 10,
+     "cjk_chars": 31
+    },
+    {
+     "bank": "a027/0170",
+     "ids": [
+      0,
+      23
+     ],
+     "cjk_strings": 15,
+     "cjk_chars": 49
+    },
+    {
+     "bank": "a027/0171",
+     "ids": [
+      0,
+      12
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 49
+    },
+    {
+     "bank": "a027/0174",
+     "ids": [
+      0,
+      21
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 56
+    },
+    {
+     "bank": "a027/0175",
+     "ids": [
+      0,
+      21
+     ],
+     "cjk_strings": 6,
+     "cjk_chars": 50
+    },
+    {
+     "bank": "a027/0176",
+     "ids": [
+      0,
+      57
+     ],
+     "cjk_strings": 56,
+     "cjk_chars": 112
+    },
+    {
+     "bank": "a027/0182",
+     "ids": [
+      0,
+      0
+     ],
+     "cjk_strings": 1,
+     "cjk_chars": 8
+    },
+    {
+     "bank": "a027/0292",
+     "ids": [
+      1,
+      25
+     ],
+     "cjk_strings": 13,
+     "cjk_chars": 27
+    }
+   ],
+   "cjk_strings": 180,
+   "cjk_chars": 557,
+   "replaces_old_batches": [
+    "B142"
+   ]
+  }
+ ]
+}

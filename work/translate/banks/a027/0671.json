@@ -1,0 +1,255 @@
+{
+ "narc": "a027",
+ "bank": 671,
+ "source": "work/extract/v4/a027/0671.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "香织",
+   "en": "Liz",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "香织 not in 0719; US contact Picnicker Liz (US 0680). The hack dropped the US lottery line, so #18–#30 sit one id earlier than US"
+  },
+  {
+   "id": 1,
+   "zh": "哎？你现在在旅行？{NEWLINE}那你肯定能见识很多东西⋯⋯{SCROLL}对了,如果方便的话,{NEWLINE}能把你的电话号码告诉我吗？{CLEAR}我想和你做朋友！{SCROLL}把你看到的听到的,{NEWLINE}统统在电话里告诉我吧。{VAR:0200:0}",
+   "en": "Oh? You’re on a big journey to see the{NEWLINE}sights? Neat!{SCROLL}Let’s be friends!{NEWLINE}Can I have your phone number?{SCROLL}I want to hear about everything{NEWLINE}you’ve seen! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0680/1"
+  },
+  {
+   "id": 2,
+   "zh": "如果我听到什么有趣的事,{NEWLINE}也会马上打电话给你的。",
+   "en": "I’ll telephone you if I{NEWLINE}hear anything interesting.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0680/2"
+  },
+  {
+   "id": 3,
+   "zh": "你怎么⋯⋯{NEWLINE}不想和我做朋友吗？",
+   "en": "Aww... You won’t be my friend?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0680/3"
+  },
+  {
+   "id": 4,
+   "zh": "如果方便的话,{NEWLINE}能把你的电话号码告诉我吗？{CLEAR}我想和你做朋友！{SCROLL}把你看到的听到的,{NEWLINE}统统在电话里告诉我吧。{VAR:0200:0}",
+   "en": "Let’s be friends!{NEWLINE}Can I have your phone number?{SCROLL}I want to hear about everything{NEWLINE}you’ve seen! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0680/4"
+  },
+  {
+   "id": 5,
+   "zh": "我就在你附近,{NEWLINE}直接和我说话吧。",
+   "en": "If you’re nearby, just come talk{NEWLINE}in person!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0680/5"
+  },
+  {
+   "id": 6,
+   "zh": "听我说听我说！{SCROLL}我的{VAR:0100:10}{NEWLINE}经常来和我蹭脸,{CLEAR}真是可爱得受不了了！{SCROLL}还有还有！{SCROLL}之前它只一招就把{NEWLINE}{VAR:0100:11}给打倒了⋯⋯{CLEAR}感觉对方有点可怜。{SCROLL}我们下次再聊吧。",
+   "en": "Oh, you have to hear this.{SCROLL}My {VAR:0100:10} is so adorable!{NEWLINE}It always wants to nuzzle me!{SCROLL}And, and! Um...{SCROLL}We beat a wild {VAR:0100:11} with just{NEWLINE}one hit a little while ago.{CLEAR}We felt sorry for it, though.{SCROLL}OK, I’ll call you later!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0680/6"
+  },
+  {
+   "id": 7,
+   "zh": "听我说听我说！{SCROLL}我的{VAR:0100:10}{NEWLINE}老是用水汪汪的大眼睛{CLEAR}盯着我看！{CLEAR}可爱到不行了！{SCROLL}还有还有！{SCROLL}前段时间我发现了一只{NEWLINE}很漂亮的{VAR:0100:11}⋯⋯{SCROLL}不过那时候我正好在打电话,{NEWLINE}给它给跑掉了⋯⋯人家悔死了！{SCROLL}好了,下次再聊吧。",
+   "en": "Oh, you have to hear this.{SCROLL}My {VAR:0100:10} is so adorable!{NEWLINE}It’s always giving me cute looks!{SCROLL}And, and! Uh...{SCROLL}We just saw a really gorgeous{NEWLINE}{VAR:0100:11}.{SCROLL}But I was on the phone, so it got away.{NEWLINE}It made us really angry!{SCROLL}OK, I’ll call you later!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0680/7"
+  },
+  {
+   "id": 8,
+   "zh": "听我说听我说！{SCROLL}前段时间我在{NEWLINE}阿鲁夫遗迹听广播⋯⋯{SCROLL}听着听着,突然{NEWLINE}放出了一段奇怪的节目！{CLEAR}那是什么东西？好怪异啊。{SCROLL}我先挂咯。",
+   "en": "Listen, listen!{SCROLL}I was listening to the radio in the Ruins{NEWLINE}of Alph when an odd broadcast suddenly{CLEAR}cut in on the regular show.{CLEAR}I wonder what it was. So strange!{SCROLL}OK, I’ll call you later!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0680/8"
+  },
+  {
+   "id": 9,
+   "zh": "听我说听我说！{SCROLL}你不觉得桔梗市的阿速{NEWLINE}又酷又帅吗？{SCROLL}不过我听说他那个{NEWLINE}正在修行的老爸比阿速{CLEAR}更酷更帅。{CLEAR}真想见他一面啊,{SCROLL}好了,下次再聊吧。",
+   "en": "Listen, listen!{SCROLL}Don’t you think Falkner of Violet Gym is{NEWLINE}cool and handsome?{SCROLL}But they say his dad, who’s out training{NEWLINE}on the road, is even more cool and{CLEAR}handsome than Falkner.{SCROLL}I wish I could meet him!{SCROLL}OK, I’ll call you later!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0680/9"
+  },
+  {
+   "id": 10,
+   "zh": "听我说听我说！{SCROLL}你知道桔梗市精灵学校{NEWLINE}里的那位乔班尼老师吗？{SCROLL}他经常在小镇上{NEWLINE}来来回回地跑,{CLEAR}真是个有意思的人啊。{SCROLL}下次再聊吧。",
+   "en": "Listen, listen!{SCROLL}Do you know Earl, the teacher at{NEWLINE}the Pokémon School in Violet City?{SCROLL}He’s always running back and forth{NEWLINE}all over town. He’s such a funny guy!{SCROLL}OK, I’ll call you later!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0680/10"
+  },
+  {
+   "id": 11,
+   "zh": "听我说听我说！{SCROLL}缘朱市的舞姬们{NEWLINE}不仅仅只在练习{CLEAR}舞技哦！{SCROLL}听说她们还为{NEWLINE}在人类诞生之前{CLEAR}就已经灭绝于世的{CLEAR}传说中的精灵复活{CLEAR}而进行着某种仪式！{SCROLL}听起来好浪漫啊。{SCROLL}下次再聊吧。",
+   "en": "Listen, listen!{SCROLL}The Kimono Girls in Ecruteak City{NEWLINE}don’t just practice dancing!{SCROLL}I heard they also perform some kind{NEWLINE}of ritual to revive a legendary{CLEAR}Pokémon that vanished from the{CLEAR}world before humans were even born!{SCROLL}Isn’t that romantic?{SCROLL}OK, I’ll call you later!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0680/11"
+  },
+  {
+   "id": 12,
+   "zh": "听我说听我说！{SCROLL}你知道哞哞牧场{NEWLINE}卖的哞哞牛奶吗？{SCROLL}听说那个哞哞牛奶{NEWLINE}对美容和健康都很有好处的。{CLEAR}我也好想去喝一次,{CLEAR}一定非常好喝！{SCROLL}我先挂咯。",
+   "en": "Listen, listen!{SCROLL}Do you know about the Moomoo{NEWLINE}Milk they sell at MooMoo Farm?{SCROLL}They say it’s really good for your{NEWLINE}health and your looks. I want to{CLEAR}try some. I bet it’s delicious!{SCROLL}OK, gotta go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0680/12"
+  },
+  {
+   "id": 13,
+   "zh": "听我说听我说！{SCROLL}满金市{NEWLINE}不是有一对美容师兄弟么？{SCROLL}哥哥非常熟练,{NEWLINE}可弟弟就有点糟糕了。{SCROLL}不过弟弟比他哥哥{NEWLINE}便宜多了,{CLEAR}而且有时候{CLEAR}手法也挺不错的。{SCROLL}我一直都在为{NEWLINE}去哪边划算而犹豫不决。{SCROLL}再见了,下次再聊。",
+   "en": "Listen, listen!{SCROLL}There’s a Pokémon Salon in Goldenrod{NEWLINE}that’s run by two brothers.{SCROLL}The older brother is good, but the{NEWLINE}younger one really isn’t.{SCROLL}But the younger one charges less, and{NEWLINE}sometimes does a better job than{CLEAR}his brother.{SCROLL}Every time I go, I have a hard time{NEWLINE}trying to decide whom I should use...{SCROLL}OK, I’ll call you later!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0680/13"
+  },
+  {
+   "id": 14,
+   "zh": "听我说听我说！{SCROLL}满金市的小茜{NEWLINE}也是最近才开始{CLEAR}精灵对战的！{SCROLL}但是她这么快就被联盟{NEWLINE}选为道馆馆主,{CLEAR}看来一定是有非凡的才能啊。{SCROLL}下次再聊吧。",
+   "en": "Listen, listen!{SCROLL}Goldenrod Gym’s Whitney began battling{NEWLINE}only a little while ago!{SCROLL}But the Pokémon League chose her as a{NEWLINE}Gym Leader!{CLEAR}I bet she must be totally talented.{SCROLL}OK, I’ll call you later!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0680/14"
+  },
+  {
+   "id": 15,
+   "zh": "听我说听我说！{SCROLL}你去参加过自然公园的{NEWLINE}捕虫大会吗？{SCROLL}我也有去参加过一次⋯⋯{SCROLL}不过只抓到了绿毛虫。{SCROLL}不过那只绿毛虫{NEWLINE}非常不错的！{CLEAR}这也算很厉害啦！{SCROLL}我们下次再聊吧。",
+   "en": "Listen, listen!{SCROLL}Have you ever entered the Bug-Catching{NEWLINE}Contest at the National Park?{SCROLL}I did once...{SCROLL}but all I caught was a Caterpie.{SCROLL}But it was a really great Caterpie!{NEWLINE}So that’s pretty awesome, too!{SCROLL}OK, I’ll call you later!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0680/15; modernised from US 0680#15"
+  },
+  {
+   "id": 16,
+   "zh": "听我说听我说！{SCROLL}之前我发现了一只{NEWLINE}非常漂亮的{VAR:010E:4}！{SCROLL}将来我也想像那只{NEWLINE}{VAR:010E:4}一样漂亮！{SCROLL}下次聊吧。",
+   "en": "Listen, listen!{SCROLL}I saw a beautiful {VAR:010E:4}!{SCROLL}Someday I want to be as pretty as that{NEWLINE}{VAR:010E:4}!{SCROLL}OK, I’ll call you later!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0680/16; ext-review ROOT-005"
+  },
+  {
+   "id": 17,
+   "zh": "听我说听我说！{SCROLL}那个⋯⋯我要说什么来着？{SCROLL}啊哈哈,我忘了。{SCROLL}拜拜哈哈。",
+   "en": "Listen, listen!{SCROLL}Um... what was I going to say?{SCROLL}Ah ha ha, I forgot.{SCROLL}Bye-bye! Ha ha!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0680/17"
+  },
+  {
+   "id": 18,
+   "zh": "你现在有时间吗？{SCROLL}我现在好无聊啊,{NEWLINE}如果你有空的话,{CLEAR}就和我来一场对战吧？{SCROLL}我在{VAR:0104:3},{NEWLINE}到了就跟我打个招呼吧。",
+   "en": "Hi! Do you have some{NEWLINE}free time right now?{SCROLL}I’m so bored. If you’re free,{NEWLINE}would you like to battle?{SCROLL}I’ll be at {VAR:0104:3}.{NEWLINE}Say hi when you get here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0680/18 | seed rejected us [tag_mismatch] (candidate US 0680#18; text not kept)"
+  },
+  {
+   "id": 19,
+   "zh": "我实在闲得坐不住了,{NEWLINE}快点来对战吧！{SCROLL}我在{VAR:0104:3}{NEWLINE}等你！",
+   "en": "I’m too bored to sit still!{NEWLINE}Let’s battle right away!{SCROLL}I’ll be waiting at {VAR:0104:3}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0680/19"
+  },
+  {
+   "id": 20,
+   "zh": "淳子,你最近身体好吗？{NEWLINE}我很好,就是有点无聊！{SCROLL}哎？打错了？{NEWLINE}啊哈哈哈哈哈。",
+   "en": "Junko, how have you been?{NEWLINE}I’m fine, just kind of bored!{SCROLL}Huh? Wrong number? Ah ha ha ha ha ha.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0680/20 | seed rejected us [tag_mismatch] (candidate US 0680#20; text not kept)"
+  },
+  {
+   "id": 21,
+   "zh": "听我说！{SCROLL}我的{VAR:0100:10}{NEWLINE}⋯⋯我说⋯⋯呢⋯⋯{CLEAR}⋯⋯好可爱啊⋯⋯{CLEAR}而且⋯⋯哈⋯⋯{CLEAR}⋯⋯哈哈⋯⋯已经⋯⋯{CLEAR}吓我⋯⋯⋯⋯那么⋯⋯{CLEAR}⋯⋯是么！⋯⋯{CLEAR}不过⋯⋯非常⋯⋯{CLEAR}⋯⋯呀！{SCROLL}⋯⋯⋯⋯难道⋯⋯{NEWLINE}好像⋯⋯{CLEAR}⋯⋯是吧⋯⋯⋯⋯{CLEAR}⋯⋯⋯⋯好漂亮⋯⋯{CLEAR}⋯⋯不要啦⋯⋯{CLEAR}⋯⋯⋯⋯哎？{CLEAR}都聊这么久了！{CLEAR}跟你聊太多了,{SCROLL}不好意思打扰你这么久,{NEWLINE}我很喜欢堡电话粥的！",
+   "en": "Listen!{SCROLL}My {VAR:0100:10}... I mean... like...{NEWLINE}...so cute... and also... ha... ...ha{CLEAR}ha... already... scared me... ...so...{CLEAR}...right!... but... really... ...yeah!{SCROLL}...... no way... it seems... ...right...{NEWLINE}........ so pretty... ...stop it...{CLEAR}...... Huh? We’ve been talking{CLEAR}forever! I talked your ear off.{SCROLL}Sorry for keeping you so long.{NEWLINE}I just love long phone chats!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0680/21 | seed rejected us [tag_mismatch] (candidate US 0680#21; text not kept)"
+  },
+  {
+   "id": 22,
+   "zh": "精英训练师",
+   "en": "Ace Trainer",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0680/22 | seed rejected us [tag_mismatch] (candidate US 0680#22; text not kept); #22–#30: {VAR:010E:4} choices for #16 ('a beautiful X'), trainer classes"
+  },
+  {
+   "id": 23,
+   "zh": "成熟大姐",
+   "en": "Beauty",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 24,
+   "zh": "火箭队员",
+   "en": "Team Rocket",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0680/24"
+  },
+  {
+   "id": 25,
+   "zh": "老师",
+   "en": "Teacher",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0680/25"
+  },
+  {
+   "id": 26,
+   "zh": "比基尼大姐",
+   "en": "Swimmer♀",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0680/26"
+  },
+  {
+   "id": 27,
+   "zh": "舞姬",
+   "en": "Kimono Girl",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "滑雪者",
+   "en": "Skier",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0680/28"
+  },
+  {
+   "id": 29,
+   "zh": "巫女",
+   "en": "Medium",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "超喜欢俱乐部",
+   "en": "Pokéfan",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); zh 超喜欢俱乐部 (Fan Club); written as the class Pokéfan like US"
+  }
+ ]
+}

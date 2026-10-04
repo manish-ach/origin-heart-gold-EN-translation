@@ -1,0 +1,359 @@
+{
+ "narc": "a027",
+ "bank": 517,
+ "source": "work/extract/v4/a027/0517.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "志霸『其实早在{NEWLINE}你帮忙解救金黄市之后,{CLEAR}我就想跟你较量一下了。{SCROLL}志霸『你是喜欢单打还是双打？{SCROLL}",
+   "en": "Bruno: Truth is, ever since you helped{NEWLINE}save Saffron City, I’ve wanted to test{CLEAR}my strength against you.{SCROLL}Bruno: Do you prefer singles or{NEWLINE}doubles?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "League branch: #0–17 are the Elite Four rematch/training lines (Bruno's room). Rocket-occupation branch: #18–42 (Proton and Petrel); #18–30 = ‘one at a time’ path, #31–32 = ‘together’ path."
+  },
+  {
+   "id": 1,
+   "zh": "志霸『跟强者对战是我的爱好,{NEWLINE}咱们来好好较量一下！{SCROLL}志霸『你是喜欢单打还是双打？{SCROLL}",
+   "en": "Bruno: Battling the strong is my{NEWLINE}passion. Let’s have a real contest!{SCROLL}Bruno: Do you prefer singles or{NEWLINE}doubles?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "志霸『胜负不重要,{NEWLINE}重要的是痛快地打一场！",
+   "en": "Bruno: Winning or losing doesn’t matter.{NEWLINE}What matters is a good, hard battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "全地区的观众{NEWLINE}都会通过我的摄像机看到你的英姿哟！",
+   "en": "Viewers across the region will see your{NEWLINE}finest moments through my camera!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "需要我帮您恢复精灵吗？{SCROLL}",
+   "en": "Shall I heal your Pokémon?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "您的精灵已经恢复了。",
+   "en": "Your Pokémon are fully healed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "您好{VAR:0103:0}大人,{NEWLINE}请问您是要恢复精灵{CLEAR}还是前往下一个房间？{SCROLL}",
+   "en": "Hello, {VAR:0103:0}.{SCROLL}Would you like me to heal your Pokémon,{NEWLINE}or will you go on to the next room?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 8,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 9,
+   "zh": "志霸『没问题,来吧！",
+   "en": "Bruno: No problem. Come on!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "恢复精灵",
+   "en": "Heal Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 11,
+   "zh": "前往下一个房间",
+   "en": "Go to the next room",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 13,
+   "zh": "好的,我现在为您恢复。",
+   "en": "Certainly. I’ll heal them now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "好的,我现在为您开门。",
+   "en": "Certainly. I’ll open the door for you{NEWLINE}now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "今天先不打了",
+   "en": "Not today",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 16,
+   "zh": "门已经开了,您随时可以通过。",
+   "en": "The door is open. You may go through{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "你的精灵数量不够,{NEWLINE}无法进行双打。",
+   "en": "You don’t have enough Pokémon for a{NEWLINE}double battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0}『兰斯,伦达！{NEWLINE}外面的火箭队都被我们打败了。{CLEAR}现在轮到你们两个了！",
+   "en": "{VAR:0103:0}: Proton, Petrel!{SCROLL}We’ve beaten all of Team Rocket{NEWLINE}outside. Now it’s your turn!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "兰斯『听到了吗伦达？{NEWLINE}这个冠军想要打败咱们两个呢。",
+   "en": "Proton: Hear that, Petrel? This{NEWLINE}Champion wants to beat the two of us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "伦达『你个狗娘养的死爹玩意儿,{NEWLINE}还以为我们是以前的实力吗？{CLEAR}老子现在不仅拥有了闪电鸟,{CLEAR}还借用老大的阿尔宙斯{CLEAR}强化了原有的精灵。{CLEAR}早就不是你这种平民冠军{CLEAR}可以打败的了！",
+   "en": "Petrel: You fatherless son of a bitch,{NEWLINE}think we’re as weak as we used to be?{SCROLL}I’ve got Zapdos now, and I’ve used the{NEWLINE}Boss’s Arceus to power up the Pokémon{CLEAR}I already had.{SCROLL}A commoner Champion like you can’t beat{NEWLINE}us anymore!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "狗娘养的死爹玩意儿 kept at full strength (‘fatherless son of a bitch’), per D-0627."
+  },
+  {
+   "id": 21,
+   "zh": "兰斯『为了展示我们火箭队的气度,{NEWLINE}今天给你一个选择死法的机会。{CLEAR}你是希望被我们轮流揍死,{CLEAR}还是希望被我们一起合力揍死？",
+   "en": "Proton: To show Team Rocket’s{NEWLINE}generosity, today we’ll let you choose{CLEAR}how you die.{SCROLL}Do you want us to beat you to death one{NEWLINE}at a time, or all together?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "你们轮流上吧",
+   "en": "One at a time, then",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 23,
+   "zh": "你们一起上吧",
+   "en": "Come at me together",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0103:0}『训练家的强大是由内而外的,{NEWLINE}你们只会依靠传说中的精灵,{CLEAR}不过就是虚有其表罢了。{CLEAR}就算你们轮流跟我打车轮战,{CLEAR}我也不会输给的！",
+   "en": "{VAR:0103:0}: A Trainer’s strength comes{NEWLINE}from within.{SCROLL}All you do is lean on Legendary Pokémon.{NEWLINE}It’s nothing but a hollow show.{SCROLL}Even if you take turns ganging up on me,{NEWLINE}I won’t lose!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "伦达『妈了个逼的,{NEWLINE}那就让我杀杀你的威风！",
+   "en": "Petrel: Motherfucker! Then I’ll knock{NEWLINE}you down a peg!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "伦达『我操！怎么回事！！{NEWLINE}闪电鸟,闪电鸟！！！",
+   "en": "Petrel: Fuck! What the hell?! Zapdos,{NEWLINE}Zapdos!!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "兰斯『冷静伦达,看我收拾他。",
+   "en": "Proton: Calm down, Petrel. Watch me{NEWLINE}take care of him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "兰斯『冷静伦达,看我收拾她。",
+   "en": "Proton: Calm down, Petrel. Watch me{NEWLINE}take care of her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "兰斯『不……连我的火焰鸟……{NEWLINE}还有那么多强化精灵,{CLEAR}都败下阵来了吗……？",
+   "en": "Proton: No...{SCROLL}Even my Moltres... and all those{NEWLINE}enhanced Pokémon... all beaten...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0103:0}『你们彻底输了,{NEWLINE}去牢里好好反省自己的罪行吧。",
+   "en": "{VAR:0103:0}: You’ve lost completely.{SCROLL}Go to prison and think long and hard{NEWLINE}about your crimes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0103:0}『像你们这种{NEWLINE}只会借助外力的弱小训练家,{CLEAR}就算一起上我也不怕,{CLEAR}放马过来吧！",
+   "en": "{VAR:0103:0}: Weak Trainers like you who can{NEWLINE}only rely on borrowed power don’t{CLEAR}scare me, even together.{SCROLL}Bring it on!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "兰斯『真是个狂妄的冠军,{NEWLINE}今天一定要好好杀杀你的威风！",
+   "en": "Proton: What an arrogant Champion.{SCROLL}Today we’re knocking you down a peg for{NEWLINE}sure!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "是冠军大人赢了！",
+   "en": "The Champion won!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "太好了,冠军大人来救我们了！",
+   "en": "Thank goodness, the Champion came to{NEWLINE}save us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "呜呜呜,我爱你,冠军大人！",
+   "en": "Waaah, I love you, Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "好啊,好啊,这下精灵联盟有救了。",
+   "en": "Yes, yes! Now the Pokémon League is{NEWLINE}saved.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "伦达『你这个狗日的东西,{NEWLINE}坂木老大会替我们报仇的！",
+   "en": "Petrel: You fucking dog, Boss Giovanni{NEWLINE}will avenge us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "狗日的东西 kept crude (‘You fucking dog’), per D-0627."
+  },
+  {
+   "id": 38,
+   "zh": "兰斯『就算打败了我们,{NEWLINE}火箭队还有8位干部,{CLEAR}还有坂木老大！{CLEAR}你绝不可能打败他们所有人！",
+   "en": "Proton: Even if you beat us, Team{NEWLINE}Rocket still has eight Executives, and{CLEAR}Boss Giovanni!{SCROLL}There’s no way you can beat them all!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "谢谢冠军大人来救我们！",
+   "en": "Thank you for saving us, Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "火箭队真是太可怕了……",
+   "en": "Team Rocket is so terrifying...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "冠军大人,人家好怕,呜呜呜……",
+   "en": "Champion, I was so scared...{NEWLINE}Boo-hoo-hoo...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "年轻人,就靠你了,加油啊。",
+   "en": "Young one, it’s all up to you now. Good{NEWLINE}luck.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

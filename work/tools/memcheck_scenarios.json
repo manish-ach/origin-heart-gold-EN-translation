@@ -1,0 +1,800 @@
+{
+  "_about": "Scenarios for memcheck.py run. Each names its battery save ('sav', a file in --saves, default work/build/memcheck/, gitignored). Scripts use emu_smoke.py commands plus 'boot' (title -> Continue -> field; its A presses also talk to whatever the player faces). The field menu opens with X and its cursor starts on POKeDEX; left column POKeDEX, POKeMON, BAG, POKeGEAR; right column trainer card, SAVE, OPTIONS. Saves: route1_path_2mons.sav (Route 1 sand path away from tall grass, since wild Pokemon walk only in grass; Charmander + Caterpie), protographer.sav (Pallet Town, facing the photographer), trainer.sav (Route 1, facing an unbeaten trainer), market.sav (Poke Mart, facing the clerk), route1_townmap.sav (route1_path_2mons.sav plus the Town Map, item 442, in the key items), full_bag_6mons.sav (market.sav with every bag pocket filled and 6 Pokemon with 10-letter nicknames, 4 long moves and held items; built by writing the save data in RAM, see work/notes/heap_audit.md). 'shot' names end up in --out as <scenario>_<zh|en>_<name>.png: check them when a scenario or a save changes. trainer_2mons.sav is an isolated trainer checkpoint with the valid two-Pokemon party copied from route1_path_2mons in emulator RAM and saved normally; original saves are unchanged.",
+  "scenarios": {
+    "summary": {
+      "desc": "party -> summary: switch Pokemon on every page (rc3 crash: skills page), then swap two moves",
+      "script": "boot; press X; wait 90; press DOWN; wait 30; press A; wait 200; press A; wait 60; press A; wait 200; shot info; press DOWN; wait 200; press UP; wait 200; press RIGHT; wait 90; shot skills; press DOWN; wait 200; shot skills_switched; press UP; wait 200; press RIGHT; wait 90; press DOWN; wait 200; press UP; wait 200; press LEFT; wait 90; press A; wait 60; press A; wait 60; press DOWN; wait 30; press A; wait 120; shot move_swap; press B; wait 60; press B; wait 60; shot summary_closed; press B; wait 200; press B; wait 200; shot end",
+      "sav": "route1_path_2mons.sav",
+      "expected_message_loads": [
+        {
+          "narc": 27,
+          "bank": 295,
+          "heap": 19
+        },
+        {
+          "narc": 27,
+          "bank": 739,
+          "heap": 19
+        }
+      ],
+      "expected_checkpoints": {
+        "info": {
+          "since": "boot",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 295,
+              "heap": 19
+            }
+          ]
+        },
+        "skills": {
+          "since": "info",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 712,
+              "heap": 19
+            }
+          ]
+        },
+        "skills_switched": {
+          "since": "skills",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 712,
+              "heap": 19
+            }
+          ]
+        },
+        "move_swap": {
+          "since": "skills_switched",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 738,
+              "heap": 19
+            }
+          ]
+        }
+      },
+      "coverage_scope": "Temporal resource-load checkpoints, guarded live summary selection, and checksum-verified stored first-two move-slot swap with remaining move slots and other party Pokemon moves preserved after summary exit to party UI. Does not verify rendering, field-state moves or save/reload persistence.",
+      "party_size": 2,
+      "expected_summary_selection": {
+        "info": {
+          "since": "boot",
+          "slot": 0
+        },
+        "skills": {
+          "since": "info",
+          "slot": 0
+        },
+        "skills_switched": {
+          "since": "skills",
+          "slot": 1
+        },
+        "move_swap": {
+          "since": "skills_switched",
+          "slot": 0
+        }
+      },
+      "expected_party_order": {
+        "info": {
+          "relative_to": "boot",
+          "order": [
+            0,
+            1
+          ]
+        },
+        "skills": {
+          "relative_to": "boot",
+          "order": [
+            0,
+            1
+          ]
+        },
+        "skills_switched": {
+          "relative_to": "boot",
+          "order": [
+            0,
+            1
+          ]
+        },
+        "move_swap": {
+          "relative_to": "boot",
+          "order": [
+            0,
+            1
+          ]
+        },
+        "end": {
+          "relative_to": "boot",
+          "order": [
+            0,
+            1
+          ]
+        },
+        "summary_closed": {
+          "relative_to": "boot",
+          "order": [
+            0,
+            1
+          ]
+        }
+      },
+      "expected_move_order": {
+        "move_swap": {
+          "relative_to": "skills",
+          "slot": 0,
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        "summary_closed": {
+          "relative_to": "skills",
+          "slot": 0,
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "summary_closed": true
+        }
+      }
+    },
+    "bag": {
+      "desc": "field bag: every pocket, item menu on the first item",
+      "script": "boot; press X; wait 90; press DOWN; wait 30; press DOWN; wait 30; press A; wait 300; shot open; touch 50 16; wait 90; touch 82 16; wait 90; touch 114 16; wait 90; touch 146 16; wait 90; touch 178 16; wait 90; touch 210 16; wait 90; touch 242 16; wait 90; shot key_items; touch 18 16; wait 90; touch 64 53; wait 120; shot item_menu; press B; wait 60; press B; wait 200; shot end",
+      "sav": "route1_path_2mons.sav",
+      "expected_checkpoints": {
+        "open": {
+          "since": "boot",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 10,
+              "heap": 6
+            }
+          ]
+        }
+      }
+    },
+    "party": {
+      "desc": "party screen: Pokemon menu, switch order and switch back",
+      "script": "boot; press X; wait 90; press DOWN; wait 30; press A; wait 200; press A; wait 60; shot menu; press DOWN; wait 20; press A; wait 60; press RIGHT; wait 20; press A; wait 120; shot switched; press A; wait 60; press DOWN; wait 20; press A; wait 60; press LEFT; wait 20; press A; wait 120; press B; wait 200; shot end",
+      "sav": "route1_path_2mons.sav",
+      "expected_checkpoints": {
+        "menu": {
+          "since": "boot",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 293,
+              "heap": 12
+            }
+          ]
+        }
+      },
+      "coverage_scope": "Party menu resource entry and bounded party identity order after switching and on exit. Does not verify rendering or save persistence.",
+      "party_size": 2,
+      "expected_party_order": {
+        "switched": {
+          "relative_to": "menu",
+          "order": [
+            1,
+            0
+          ]
+        },
+        "end": {
+          "relative_to": "menu",
+          "order": [
+            0,
+            1
+          ]
+        }
+      }
+    },
+    "pokedex": {
+      "desc": "Pokedex landing screen and entry page (legacy shot name list denotes landing)",
+      "script": "boot; press X; wait 90; press A; wait 400; shot list; press A; wait 300; shot entry; press RIGHT; wait 120; press RIGHT; wait 120; press B; wait 200; press B; wait 300; shot end",
+      "sav": "route1_path_2mons.sav",
+      "expected_checkpoints": {
+        "list": {
+          "since": "boot",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 790,
+              "heap": 37
+            }
+          ]
+        }
+      },
+      "coverage_scope": "Pokedex startup resource entry only; the checkpoint named list shows the landing screen. The entry page and subsequent navigation are not asserted."
+    },
+    "trainer_card": {
+      "desc": "trainer card front and back",
+      "script": "boot; press X; wait 90; press RIGHT; wait 30; press A; wait 300; shot front; touch 128 96; wait 120; shot back; press B; wait 300; shot end",
+      "sav": "route1_path_2mons.sav",
+      "expected_checkpoints": {
+        "front": {
+          "since": "boot",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 717,
+              "heap": 25
+            }
+          ]
+        }
+      },
+      "coverage_scope": "Trainer card resource entry only; flipping to the reverse is not asserted."
+    },
+    "pokegear": {
+      "desc": "Pokegear phone entry with attempted app navigation (app changes unverified)",
+      "script": "boot; press X; wait 90; press DOWN; wait 30; press DOWN; wait 30; press DOWN; wait 30; press A; wait 400; shot open; press RIGHT; wait 200; press RIGHT; wait 200; press RIGHT; wait 200; shot app; press B; wait 300; shot end",
+      "sav": "route1_path_2mons.sav",
+      "expected_checkpoints": {
+        "open": {
+          "since": "boot",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 264,
+              "heap": 91
+            }
+          ]
+        }
+      },
+      "coverage_scope": "Pokegear phone resource entry only; switching apps is not asserted."
+    },
+    "options": {
+      "desc": "options screen",
+      "script": "boot; press X; wait 90; press RIGHT; wait 30; press DOWN; wait 30; press DOWN; wait 30; press A; wait 300; shot open; press DOWN; wait 30; press RIGHT; wait 30; press B; wait 200; press B; wait 200; shot end",
+      "sav": "route1_path_2mons.sav",
+      "expected_checkpoints": {
+        "open": {
+          "since": "boot",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 43,
+              "heap": 38
+            }
+          ]
+        }
+      },
+      "coverage_scope": "Options resource entry only; setting changes and exit state are not asserted."
+    },
+    "save_prompt": {
+      "desc": "save prompt, answered No",
+      "script": "boot; press X; wait 90; press RIGHT; wait 30; press DOWN; wait 30; press A; wait 200; shot prompt; press B; wait 200; press B; wait 200; shot end",
+      "sav": "route1_path_2mons.sav",
+      "expected_checkpoints": {
+        "prompt": {
+          "since": "boot",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 416,
+              "heap": 4
+            }
+          ]
+        }
+      },
+      "coverage_scope": "Save prompt resource entry only; cancellation and absence of a save write are not asserted."
+    },
+    "photo": {
+      "sav": "protographer.sav",
+      "desc": "Pallet Town photographer: take a photo (second tester's crash)",
+      "script": "boot; shot prompt; press A; wait 240; mash A 12 120; wait 300; shot end",
+      "expected_checkpoints": {
+        "prompt": {
+          "since": "start",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 439,
+              "heap": 11
+            },
+            {
+              "narc": 27,
+              "bank": 29,
+              "heap": 32
+            }
+          ]
+        }
+      },
+      "coverage_scope": "Photographer prompt resource entry during boot only; photo capture and final state are not asserted."
+    },
+    "battle": {
+      "sav": "trainer.sav",
+      "desc": "Trainer battle: bag, party list, summary navigation, four-move menu, attack and return to field",
+      "script": "boot; mash A 12 90; wait 300; shot menu; touch 45 168; wait 120; touch 190 50; wait 120; shot bag; touch 230 178; wait 120; touch 230 178; wait 120; touch 215 168; wait 150; shot party; touch 64 30; wait 120; shot party_menu; touch 48 178; wait 240; shot summary; press DOWN; wait 200; press RIGHT; wait 120; press DOWN; wait 200; shot summary_navigation; press B; wait 200; press B; wait 90; press B; wait 90; touch 128 88; wait 120; shot moves; touch 64 40; wait 240; shot attack; mash A 12 90; wait 600; shot end",
+      "coverage_warnings": [
+        "The trainer fixture has one occupied party slot; switching the active Pokemon requires a separate two-Pokemon fixture.",
+        "Move-menu, attack and field-return screenshots were manually verified; automated resource checkpoints do not establish the exact battle UI state."
+      ],
+      "coverage_scope": "Paired Chinese/English battle navigation with temporal message-bank assertions and memory checks; one-Pokemon fixture, with screenshots requiring visual review.",
+      "expected_checkpoints": {
+        "bag": {
+          "since": "menu",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 5,
+              "heap": 5
+            },
+            {
+              "narc": 27,
+              "bank": 219,
+              "heap": 5
+            }
+          ]
+        },
+        "party": {
+          "since": "bag",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 6,
+              "heap": 5
+            }
+          ]
+        },
+        "summary": {
+          "since": "party_menu",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 711,
+              "heap": 5
+            },
+            {
+              "narc": 27,
+              "bank": 712,
+              "heap": 5
+            }
+          ]
+        },
+        "moves": {
+          "since": "summary_navigation",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 739,
+              "heap": 5
+            }
+          ]
+        },
+        "attack": {
+          "since": "moves",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 739,
+              "heap": 5
+            }
+          ]
+        },
+        "end": {
+          "since": "attack",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 38,
+              "heap": 11
+            }
+          ]
+        }
+      }
+    },
+    "mart": {
+      "sav": "market.sav",
+      "desc": "Poke Mart: buy list pages and quantity, then SELL (opens the bag)",
+      "script": "boot; shot buy; press DOWN; wait 30; press RIGHT; wait 30; press A; wait 90; shot quantity; press B; wait 60; touch 60 176; wait 90; shot page2; press B; wait 120; shot mart_menu; press DOWN; wait 30; press A; wait 300; shot sell; touch 82 16; wait 90; touch 114 16; wait 90; touch 242 16; wait 90; press B; wait 300; press B; wait 120; shot end",
+      "expected_checkpoints": {
+        "buy": {
+          "since": "start",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 428,
+              "heap": 8
+            },
+            {
+              "narc": 27,
+              "bank": 218,
+              "heap": 11
+            }
+          ],
+          "descriptions": [
+            {
+              "item": 4,
+              "heap": 11
+            }
+          ]
+        },
+        "sell": {
+          "since": "mart_menu",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 10,
+              "heap": 6
+            }
+          ]
+        }
+      }
+    },
+    "summary_full": {
+      "sav": "full_bag_6mons.sav",
+      "desc": "as summary, with 6 Pokemon (10-letter nicknames, 4 long moves each, held items)",
+      "script": "boot; press B; wait 120; press B; wait 200; press B; wait 200; press X; wait 90; press DOWN; wait 30; press A; wait 200; press A; wait 60; press A; wait 200; shot info; press DOWN; wait 200; press UP; wait 200; press RIGHT; wait 90; shot skills; press DOWN; wait 200; shot skills_switched; press UP; wait 200; press RIGHT; wait 90; press DOWN; wait 200; press UP; wait 200; press LEFT; wait 90; press A; wait 60; press A; wait 60; press DOWN; wait 30; press A; wait 120; shot move_swap; press B; wait 60; press B; wait 60; shot summary_closed; press B; wait 200; press B; wait 200; shot end",
+      "expected_checkpoints": {
+        "info": {
+          "since": "boot",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 295,
+              "heap": 19
+            }
+          ]
+        },
+        "skills": {
+          "since": "info",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 712,
+              "heap": 19
+            }
+          ]
+        },
+        "skills_switched": {
+          "since": "skills",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 712,
+              "heap": 19
+            }
+          ]
+        },
+        "move_swap": {
+          "since": "skills_switched",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 738,
+              "heap": 19
+            }
+          ]
+        }
+      },
+      "coverage_scope": "Temporal resource-load checkpoints, guarded live summary selection, and checksum-verified stored first-two move-slot swap with remaining move slots and other party Pokemon moves preserved after summary exit to party UI. Does not verify rendering, field-state moves or save/reload persistence.",
+      "party_size": 6,
+      "expected_summary_selection": {
+        "info": {
+          "since": "boot",
+          "slot": 0
+        },
+        "skills": {
+          "since": "info",
+          "slot": 0
+        },
+        "skills_switched": {
+          "since": "skills",
+          "slot": 1
+        },
+        "move_swap": {
+          "since": "skills_switched",
+          "slot": 0
+        }
+      },
+      "expected_party_order": {
+        "info": {
+          "relative_to": "boot",
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "skills": {
+          "relative_to": "boot",
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "skills_switched": {
+          "relative_to": "boot",
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "move_swap": {
+          "relative_to": "boot",
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "end": {
+          "relative_to": "boot",
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "summary_closed": {
+          "relative_to": "boot",
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "expected_move_order": {
+        "move_swap": {
+          "relative_to": "skills",
+          "slot": 0,
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        "summary_closed": {
+          "relative_to": "skills",
+          "slot": 0,
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "summary_closed": true
+        }
+      }
+    },
+    "bag_full": {
+      "sav": "full_bag_6mons.sav",
+      "desc": "as bag, with every pocket full (longest item descriptions first)",
+      "script": "boot; press B; wait 120; press B; wait 200; press B; wait 200; press X; wait 90; press DOWN; wait 30; press DOWN; wait 30; press A; wait 300; shot open; touch 50 16; wait 90; touch 82 16; wait 90; touch 114 16; wait 90; touch 146 16; wait 90; touch 178 16; wait 90; touch 210 16; wait 90; touch 242 16; wait 90; shot key_items; press RIGHT; wait 60; press RIGHT; wait 60; press DOWN; wait 60; press DOWN; wait 60; shot key_scrolled; touch 18 16; wait 90; touch 64 53; wait 120; shot item_menu; press B; wait 60; press B; wait 200; shot end",
+      "expected_checkpoints": {
+        "open": {
+          "since": "boot",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 10,
+              "heap": 6
+            }
+          ],
+          "descriptions": [
+            {
+              "item": 232,
+              "heap": 6
+            }
+          ]
+        }
+      },
+      "expected_rendering": {
+        "open": {
+          "profile": "bag_description_v1",
+          "since": "boot",
+          "item": 232,
+          "heap": 6
+        },
+        "key_items": {
+          "profile": "bag_description_v1",
+          "since": "open",
+          "item": 437,
+          "heap": 6
+        },
+        "key_scrolled": {
+          "profile": "bag_description_v1",
+          "since": "key_items",
+          "item": 744,
+          "heap": 6
+        }
+      },
+      "coverage_scope": "Temporal resource and item-description request evidence. Selected description-region nonblank checks require the checkpoint-specific item request; this does not verify wording, clipping, or every pocket."
+    },
+    "party_full": {
+      "sav": "full_bag_6mons.sav",
+      "desc": "as party, with 6 Pokemon",
+      "script": "boot; press B; wait 120; press B; wait 200; press B; wait 200; press X; wait 90; press DOWN; wait 30; press A; wait 200; press A; wait 60; shot menu; press DOWN; wait 20; press A; wait 60; press RIGHT; wait 20; press A; wait 120; shot switched; press A; wait 60; press DOWN; wait 20; press A; wait 60; press LEFT; wait 20; press A; wait 120; press B; wait 200; shot end",
+      "expected_checkpoints": {
+        "menu": {
+          "since": "boot",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 293,
+              "heap": 12
+            }
+          ]
+        }
+      },
+      "coverage_scope": "Party menu resource entry and bounded party identity order after switching and on exit. Does not verify rendering or save persistence.",
+      "party_size": 6,
+      "expected_party_order": {
+        "switched": {
+          "relative_to": "menu",
+          "order": [
+            1,
+            0,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "end": {
+          "relative_to": "menu",
+          "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      }
+    },
+    "mart_full": {
+      "sav": "full_bag_6mons.sav",
+      "desc": "Poke Mart SELL with a full bag",
+      "script": "boot; press B; wait 120; press DOWN; wait 30; press A; wait 300; shot sell; touch 82 16; wait 90; touch 114 16; wait 90; touch 146 16; wait 90; touch 242 16; wait 90; shot sell_key; press B; wait 300; press B; wait 120; shot end",
+      "expected_checkpoints": {
+        "sell": {
+          "since": "boot",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 10,
+              "heap": 6
+            }
+          ]
+        }
+      }
+    },
+    "bag_townmap": {
+      "sav": "route1_townmap.sav",
+      "desc": "as bag, with the Town Map in the key items (Reddit: 'crashed when opening the bag after I obtained Town Map')",
+      "script": "boot; press X; wait 90; press DOWN; wait 30; press DOWN; wait 30; press A; wait 300; shot open; touch 50 16; wait 90; touch 82 16; wait 90; touch 114 16; wait 90; touch 146 16; wait 90; touch 178 16; wait 90; touch 210 16; wait 90; touch 242 16; wait 90; shot key_items; touch 18 16; wait 90; touch 64 53; wait 120; shot item_menu; press B; wait 60; press B; wait 200; shot end",
+      "expected_checkpoints": {
+        "open": {
+          "since": "boot",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 10,
+              "heap": 6
+            }
+          ]
+        }
+      },
+      "expected_rendering": {
+        "key_items": {
+          "profile": "bag_description_v1",
+          "since": "open",
+          "item": 744,
+          "heap": 6
+        }
+      },
+      "coverage_scope": "Temporal resource and item-description request evidence. Selected description-region nonblank checks require the checkpoint-specific item request; this does not verify wording, clipping, or every pocket."
+    },
+    "summary_touch": {
+      "sav": "full_bag_6mons.sav",
+      "desc": "summary: tap each party icon on the bottom screen to switch Pokemon, on the info, skills and ribbons pages (tester report)",
+      "script": "boot; press B; wait 120; press B; wait 200; press B; wait 200; press X; wait 90; press DOWN; wait 30; press A; wait 200; press A; wait 60; press A; wait 200; shot info; touch 190 56; wait 150; touch 232 56; wait 150; touch 190 90; wait 150; touch 232 90; wait 150; touch 190 123; wait 150; touch 232 123; wait 150; shot info_tapped; press RIGHT; wait 90; touch 190 56; wait 150; touch 232 56; wait 150; touch 190 90; wait 150; touch 232 90; wait 150; touch 190 123; wait 150; touch 232 123; wait 150; shot skills_tapped; press RIGHT; wait 90; touch 190 56; wait 150; touch 232 56; wait 150; touch 190 90; wait 150; touch 232 90; wait 150; touch 190 123; wait 150; touch 232 123; wait 150; shot ribbons_tapped; press B; wait 200; press B; wait 200; shot end",
+      "expected_checkpoints": {
+        "info": {
+          "since": "boot",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 295,
+              "heap": 19
+            }
+          ]
+        },
+        "skills_tapped": {
+          "since": "info_tapped",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 712,
+              "heap": 19
+            }
+          ]
+        }
+      },
+      "coverage_scope": "Summary entry and subsequent skills resource loads only; selected Pokemon identities, individual taps and ribbons page are not asserted."
+    },
+    "battle_switch": {
+      "sav": "trainer_2mons.sav",
+      "desc": "Trainer battle with two Pokemon: select Caterpie, SHIFT, and open its move menu",
+      "script": "boot; mash A 12 90; wait 300; shot menu; touch 215 168; wait 150; shot party; touch 190 40; wait 100; shot selected; touch 128 100; wait 300; shot switching; mash A 3 90; wait 180; shot switched; touch 128 80; wait 120; shot moves",
+      "party_size": 2,
+      "expected_party_order": {
+        "party": {
+          "relative_to": "boot",
+          "order": [
+            0,
+            1
+          ]
+        },
+        "switched": {
+          "relative_to": "party",
+          "order": [
+            0,
+            1
+          ]
+        }
+      },
+      "expected_checkpoints": {
+        "party": {
+          "since": "menu",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 6,
+              "heap": 5
+            }
+          ]
+        },
+        "moves": {
+          "since": "switched",
+          "loads": [
+            {
+              "narc": 27,
+              "bank": 739,
+              "heap": 5
+            }
+          ]
+        }
+      },
+      "coverage_scope": "Native two-Pokemon battle fixture, ordered party identity assertions, temporal resources and memory checks. Active battler change is visually reviewed from screenshots.",
+      "coverage_warnings": [
+        "Active battler identity is not yet independently instrumented; screenshots show the switch but automated party-order/resource checks alone cannot certify it."
+      ]
+    }
+  }
+}

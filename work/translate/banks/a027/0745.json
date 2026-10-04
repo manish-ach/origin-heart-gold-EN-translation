@@ -1,0 +1,239 @@
+{
+ "narc": "a027",
+ "bank": 745,
+ "source": "work/extract/v4/a027/0745.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "{VAR:FF00:1}广场新闻{VAR:FF00:0}",
+   "en": "{VAR:FF00:1}PLAZA NEWS{VAR:FF00:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/0"
+  },
+  {
+   "id": 1,
+   "zh": "时间",
+   "en": "TIME",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/1"
+  },
+  {
+   "id": 2,
+   "zh": "连接人数",
+   "en": "PLAZA{NEWLINE}PEOPLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/2"
+  },
+  {
+   "id": 3,
+   "zh": "最新主题",
+   "en": "LATEST NEWS HEADLINES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/3"
+  },
+  {
+   "id": 4,
+   "zh": "主题模型{VAR:FF00:1}{VAR:0103:0} {VAR:FF00:0}在 {VAR:FF00:2}{VAR:0300:1}{VAR:FF00:0}  {VAR:FF00:1}{VAR:0103:0} {VAR:0103:0} {VAR:0103:0}{VAR:FF00:0} 玩游戏。",
+   "en": "Topic template {VAR:FF00:1}{VAR:0103:0} {VAR:FF00:0}at {VAR:FF00:2}{VAR:0300:1}{VAR:FF00:0}  {VAR:FF00:1}{VAR:0103:0} {VAR:0103:0} {VAR:0103:0}{VAR:FF00:0} are playing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused template string"
+  },
+  {
+   "id": 5,
+   "zh": "在{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}{NEWLINE}　{VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0}{NEWLINE}正募集参加者⋯⋯　　{NEWLINE}还有{VAR:FF00:1}{VAR:0132:2}{VAR:FF00:0}人可参加⋯⋯",
+   "en": "{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}: {VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0} is seeking players... There is room for {VAR:FF00:1}{VAR:0132:2}{VAR:FF00:0} more...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/5"
+  },
+  {
+   "id": 6,
+   "zh": "在{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}{VAR:FF00:2}{NEWLINE}{VAR:0103:1}{VAR:FF00:0}{NEWLINE}{VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0}{NEWLINE}{VAR:FF00:4}{VAR:0103:3}{VAR:FF00:0}{NEWLINE}{VAR:FF00:5}{VAR:0103:4}{VAR:FF00:0}正在游戏中⋯⋯",
+   "en": "{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}: {VAR:FF00:2} {VAR:0103:1}{VAR:FF00:0}, {VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0}, {VAR:FF00:4}{VAR:0103:3}{VAR:FF00:0}, and {VAR:FF00:5}{VAR:0103:4}{VAR:FF00:0} are in play...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/6"
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:FF00:2}{VAR:0103:0}{VAR:FF00:0}与{VAR:FF00:3}{VAR:0103:1}{VAR:FF00:0}在说话中⋯⋯",
+   "en": "{VAR:FF00:2}{VAR:0103:0}{VAR:FF00:0} and {VAR:FF00:3}{VAR:0103:1}{VAR:FF00:0} are chatting...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/7"
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:FF00:2}{VAR:0103:0}{VAR:FF00:0}分给了{VAR:FF00:3}{VAR:0103:1}{VAR:FF00:0}{VAR:FF00:1}{VAR:0302:2}{VAR:FF00:0}⋯⋯",
+   "en": "{VAR:FF00:2}{VAR:0103:0}{VAR:FF00:0} gave {VAR:FF00:3}{VAR:0103:1}{VAR:FF00:0} a {VAR:FF00:1}{VAR:0302:2}{VAR:FF00:0}...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0757/8 | seed rejected us [tag_order] (candidate US 0757#8; text not kept)"
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}{NEWLINE}{VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0}{NEWLINE}参加了⋯⋯还有{VAR:FF00:1}{VAR:0132:2}{VAR:FF00:0}人可参加⋯⋯",
+   "en": "{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}: {VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0} has joined... There is still room for {VAR:FF00:1}{VAR:0132:2}{VAR:FF00:0} more...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/9"
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:FF00:2}{VAR:0103:0}{VAR:FF00:0}{NEWLINE}{VAR:FF00:3}{VAR:0103:1}{VAR:FF00:0}{NEWLINE}{VAR:FF00:4}{VAR:0103:2}{VAR:FF00:0}{NEWLINE}{VAR:FF00:5}{VAR:0103:3}{VAR:FF00:0}{NEWLINE}在检查{VAR:FF00:1}{VAR:0300:4}{VAR:FF00:0}⋯⋯",
+   "en": "{VAR:FF00:2}{VAR:0103:0}{VAR:FF00:0}, {VAR:FF00:3}{VAR:0103:1}{VAR:FF00:0}, {VAR:FF00:4}{VAR:0103:2}{VAR:FF00:0}, and {VAR:FF00:5}{VAR:0103:3}{VAR:FF00:0} are checking the {VAR:FF00:1}{VAR:0300:4}{VAR:FF00:0}...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/10"
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:FF00:2}{VAR:0103:0}{VAR:FF00:0}{VAR:FF00:3}{VAR:0103:1}{VAR:FF00:0}{VAR:FF00:4}{VAR:0103:2}{VAR:FF00:0}在检查{VAR:FF00:1}{VAR:0300:3}{VAR:FF00:0}⋯⋯",
+   "en": "{VAR:FF00:2}{VAR:0103:0}{VAR:FF00:0}, {VAR:FF00:3}{VAR:0103:1}{VAR:FF00:0}, and {VAR:FF00:4}{VAR:0103:2}{VAR:FF00:0} are checking the {VAR:FF00:1}{VAR:0300:3}{VAR:FF00:0}...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/11"
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:FF00:2}{VAR:0103:0}{VAR:FF00:0}{VAR:FF00:3}{VAR:0103:1}{VAR:FF00:0}在检查{VAR:FF00:1}{VAR:0300:2}{VAR:FF00:0}⋯⋯",
+   "en": "{VAR:FF00:2}{VAR:0103:0}{VAR:FF00:0} and {VAR:FF00:3}{VAR:0103:1}{VAR:FF00:0} are checking the {VAR:FF00:1}{VAR:0300:2}{VAR:FF00:0}...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/12"
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:FF00:2}{VAR:0103:0}{VAR:FF00:0}检查{VAR:FF00:1}{VAR:0300:1}{VAR:FF00:0}⋯⋯",
+   "en": "{VAR:FF00:2}{VAR:0103:0}{VAR:FF00:0} is checking the {VAR:FF00:1}{VAR:0300:1}{VAR:FF00:0}...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/13"
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:FF00:2}{VAR:0103:0}{VAR:FF00:0}检查{VAR:FF00:1}{VAR:0300:1}{VAR:FF00:0}⋯⋯",
+   "en": "{VAR:FF00:2}{VAR:0103:0}{VAR:FF00:0} is checking the {VAR:FF00:1}{VAR:0300:1}{VAR:FF00:0}...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/14"
+  },
+  {
+   "id": 15,
+   "zh": "很快ＷｉーＦｉ广场{NEWLINE}{VAR:FF00:1}{VAR:0301:0}{VAR:FF00:0}就要开始了⋯⋯",
+   "en": "It’s almost time for the Wi-Fi Plaza {VAR:FF00:1}{VAR:0301:0}{VAR:FF00:0}...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/15"
+  },
+  {
+   "id": 16,
+   "zh": "很快ＷｉーＦｉ广场{NEWLINE}{VAR:FF00:1}{VAR:0301:0}{VAR:FF00:0}就要开始了⋯⋯",
+   "en": "It’s almost time for the Wi-Fi Plaza {VAR:FF00:1}{VAR:0301:0}{VAR:FF00:0}...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/16"
+  },
+  {
+   "id": 17,
+   "zh": "很快ＷｉーＦｉ广场{NEWLINE}就要结束了,期待您的下次使用。",
+   "en": "The Wi-Fi Plaza will be closing soon. We look forward to your next visit.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/17"
+  },
+  {
+   "id": 18,
+   "zh": "在{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}{NEWLINE}{VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0}{NEWLINE}{VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0}{NEWLINE}{VAR:FF00:4}{VAR:0103:3}{VAR:FF00:0}{NEWLINE}正游戏中⋯⋯",
+   "en": "{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}: {VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0}, {VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0}, and {VAR:FF00:4}{VAR:0103:3}{VAR:FF00:0} are in play...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/18"
+  },
+  {
+   "id": 19,
+   "zh": "在{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}{NEWLINE}{VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0}{NEWLINE}{VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0}{NEWLINE}在游戏中⋯⋯",
+   "en": "{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}: {VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0} and {VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0} are in play...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/19"
+  },
+  {
+   "id": 20,
+   "zh": "很快ＷｉーＦｉ广场{NEWLINE}{VAR:FF00:1}{VAR:0301:0}{VAR:FF00:0}就要开始了⋯⋯",
+   "en": "It’s almost time for the Wi-Fi Plaza {VAR:FF00:1}{VAR:0301:0}{VAR:FF00:0}...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/20"
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:FF00:1}特别的客人{VAR:FF00:0}好像在呢⋯⋯",
+   "en": "{VAR:FF00:1}A very special visitor{VAR:FF00:0} has apparently visited...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/21"
+  },
+  {
+   "id": 22,
+   "zh": "在{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}{NEWLINE}{VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0}{NEWLINE}取得了胜利⋯⋯",
+   "en": "{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}: {VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0} has won...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/22"
+  },
+  {
+   "id": 23,
+   "zh": "在{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}{NEWLINE}{VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0}{NEWLINE}{VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0}{NEWLINE}{VAR:FF00:4}{VAR:0103:3}{VAR:FF00:0}{NEWLINE}{VAR:FF00:5}{VAR:0103:4}{VAR:FF00:0}{NEWLINE}好像破坏了１０个以上的气球⋯⋯",
+   "en": "{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}: {VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0}, {VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0}, {VAR:FF00:4}{VAR:0103:3}{VAR:FF00:0}, and {VAR:FF00:5}{VAR:0103:4}{VAR:FF00:0} have popped ten or more balloons...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/23"
+  },
+  {
+   "id": 24,
+   "zh": "在{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}{NEWLINE}{VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0}{NEWLINE}{VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0}{NEWLINE}取得了胜利⋯⋯",
+   "en": "{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}: {VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0} and {VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0} have won...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/24"
+  },
+  {
+   "id": 25,
+   "zh": "在{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}{NEWLINE}{VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0}{NEWLINE}{VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0}{NEWLINE}{VAR:FF00:4}{VAR:0103:3}{VAR:FF00:0}{NEWLINE}取得了胜利⋯⋯",
+   "en": "{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}: {VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0}, {VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0}, and {VAR:FF00:4}{VAR:0103:3}{VAR:FF00:0} have won...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/25"
+  },
+  {
+   "id": 26,
+   "zh": "在{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}{NEWLINE}{VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0}{NEWLINE}{VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0}{NEWLINE}{VAR:FF00:4}{VAR:0103:3}{VAR:FF00:0}{NEWLINE}{VAR:FF00:5}{VAR:0103:4}{VAR:FF00:0}{NEWLINE}取得了胜利⋯⋯",
+   "en": "{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}: {VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0}, {VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0}, {VAR:FF00:4}{VAR:0103:3}{VAR:FF00:0}, and {VAR:FF00:5}{VAR:0103:4}{VAR:FF00:0} have won...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/26"
+  },
+  {
+   "id": 27,
+   "zh": "在{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}{NEWLINE}{VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0}{NEWLINE}{VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0}{NEWLINE}好像破坏了１０个以上的气球⋯⋯",
+   "en": "{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}: {VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0} and {VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0} have popped ten or more balloons...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/27"
+  },
+  {
+   "id": 28,
+   "zh": "在{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}{NEWLINE}{VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0}{NEWLINE}{VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0}{NEWLINE}{VAR:FF00:4}{VAR:0103:3}{VAR:FF00:0}{NEWLINE}好像破坏了１０个以上的气球⋯⋯",
+   "en": "{VAR:FF00:1}{VAR:0300:0}{VAR:FF00:0}: {VAR:FF00:2}{VAR:0103:1}{VAR:FF00:0}, {VAR:FF00:3}{VAR:0103:2}{VAR:FF00:0}, and {VAR:FF00:4}{VAR:0103:3}{VAR:FF00:0} have popped ten or more balloons...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0757/28"
+  }
+ ]
+}

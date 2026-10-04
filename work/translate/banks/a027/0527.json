@@ -1,0 +1,300 @@
+{
+ "narc": "a027",
+ "bank": 527,
+ "source": "work/extract/v4/a027/0527.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "对不起啊,{NEWLINE}现在暂时没有火车到站。",
+   "en": "I’m sorry, there are no trains arriving{NEWLINE}at the moment.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "各位乘客请{NEWLINE}通过这里的自动检票口{CLEAR}乘坐列车……{SCROLL}",
+   "en": "Passengers need to go through the{NEWLINE}gate for the automatic ticket check...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0535/3"
+  },
+  {
+   "id": 2,
+   "zh": "噗噗,{SCROLL}非常抱歉,{NEWLINE}列车铁道{CLEAR}没有列车票的话{CLEAR}是不能乘坐的。{SCROLL}",
+   "en": "...Beep!{SCROLL}I am so sorry, but you need{NEWLINE}a Magnet Train Pass to get on{CLEAR}the Magnet Train...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0535/2"
+  },
+  {
+   "id": 3,
+   "zh": "各位乘客请{NEWLINE}通过这里的自动检票口{CLEAR}乘坐列车……{SCROLL}",
+   "en": "Passengers need to go through the{NEWLINE}gate for the automatic ticket check...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0535/3"
+  },
+  {
+   "id": 4,
+   "zh": "……乒乓咻！{NEWLINE}归还您的列车票{SCROLL}注意开往满金市的列车{NEWLINE}即将发车",
+   "en": "Ping...fwip!{NEWLINE}Here is your Pass back.{SCROLL}This train is about to leave{NEWLINE}for Goldenrod City.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0535/4"
+  },
+  {
+   "id": 5,
+   "zh": "请好好享受{NEWLINE}充满魅力与磁力的旅程！",
+   "en": "Enjoy the attractive and magnetic{NEWLINE}journey!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0535/5"
+  },
+  {
+   "id": 6,
+   "zh": "金黄~金黄~{NEWLINE}重音是金~",
+   "en": "We have arrived at Saffron! Saffron!{NEWLINE}The accent is on the “a”!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0535/6"
+  },
+  {
+   "id": 7,
+   "zh": "请好好享受{NEWLINE}充满魅力与磁力的旅程！{SCROLL}",
+   "en": "Enjoy the attractive and magnetic{NEWLINE}journey!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0535/7"
+  },
+  {
+   "id": 8,
+   "zh": "嘿,你也是在人生路上{NEWLINE}行色匆匆的旅人吗？{CLEAR}在等车的时候要不要听首歌{CLEAR}放松一下啊？",
+   "en": "Hey, are you a traveler rushing down{NEWLINE}the road of life too? How about a song{CLEAR}to help you relax while you wait for{CLEAR}your train?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "station busker with a Switch; music menu #10–#16, tracks #17–#26"
+  },
+  {
+   "id": 9,
+   "zh": "祝您一路顺风！",
+   "en": "Have a safe trip!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "您想听什么风格的音乐呢？",
+   "en": "What kind of music would you like to{NEWLINE}hear?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "要用Switch听点{NEWLINE}放松身心的音乐吗？",
+   "en": "Want to listen to some relaxing music on{NEWLINE}my Switch?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "平和安静的音乐",
+   "en": "Calm, peaceful{NEWLINE}music",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Calm, peaceful music'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 13,
+   "zh": "斗志昂扬的音乐",
+   "en": "Rousing battle{NEWLINE}music",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Rousing, fighting music'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 14,
+   "zh": "光怪陆离的音乐",
+   "en": "Weird, trippy{NEWLINE}music",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Weird, trippy music'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 15,
+   "zh": "庄严肃穆的音乐",
+   "en": "Solemn, stately{NEWLINE}music",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Solemn, stately music'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 16,
+   "zh": "算了,关机吧。",
+   "en": "Never mind,{NEWLINE}switch it off.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Never mind, switch it off.'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 17,
+   "zh": "第一首！",
+   "en": "Track one!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "第二首！",
+   "en": "Track two!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "第三首！",
+   "en": "Track three!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "第四首！",
+   "en": "Track four!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "第五首！",
+   "en": "Track five!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "第六首！",
+   "en": "Track six!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "第七首！",
+   "en": "Track seven!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "第八首！",
+   "en": "Track eight!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "第九首！",
+   "en": "Track nine!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "第十首！",
+   "en": "Track ten!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "音符鹦鹉『祝你一路顺风！{NEWLINE}祝您一路顺风咯！",
+   "en": "Chatot: Have a safe trip! Have a safe{NEWLINE}trip-trip!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "呜呜呜,这个歌手……{NEWLINE}他弹的曲子好好听啊！",
+   "en": "Sniff... This singer... The tunes he{NEWLINE}plays are so beautiful!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "从列车时刻表上来看,{NEWLINE}现在的列车趟数还比较少,{CLEAR}要过很久才能来列车吧？{CLEAR}你要是想出行的话,{CLEAR}先去枯叶市的码头转转吧。",
+   "en": "According to the timetable, there{NEWLINE}aren’t many trains yet. It’ll be a long{CLEAR}wait for the next one, won’t it? If you{CLEAR}want to travel, try the harbor in{CLEAR}Vermilion City first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "精灵联盟为了方便大家出行,{NEWLINE}加多了列车的班次呢,{CLEAR}现在只要来金黄市就有列车可以坐了。",
+   "en": "The Pokémon League added more train{NEWLINE}services to make travel easier. Now you{CLEAR}can catch a train anytime you come to{CLEAR}Saffron City.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "为了方便关东和城都地区的沟通,{NEWLINE}精灵联盟主持修建了这条{CLEAR}横穿石英高原的高速铁路,{CLEAR}将关东最大的城市金黄市{CLEAR}和城都最大的城市满金市连接了起来。",
+   "en": "To connect Kanto and Johto, the{NEWLINE}Pokémon League built this high-speed{CLEAR}railway across the Indigo Plateau. It{CLEAR}links Saffron City, Kanto’s biggest{CLEAR}city, with Goldenrod City, Johto’s{CLEAR}biggest city.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "有故事,{NEWLINE}这个黄毛歌手的歌声里,{CLEAR}有故事！",
+   "en": "There’s a story... There’s a story in{NEWLINE}this blond singer’s voice!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "[zh redacted: song lyrics; sha256:662f0cf942ff0b34e9875c1f6b6c3b076e390b5973d9feea3f153684b4958ea6]",
+   "en": "Seeing this young man singing at the{NEWLINE}station for his musical dream reminds me{CLEAR}of my own dream of becoming a singer{CLEAR}when I was young. How I’d love to stand{CLEAR}on a school stage again and sing ‘Old{CLEAR}Boy’ one more time.{SCROLL}♪ (hums the wistful chorus of ‘Old Boy,’{NEWLINE}eyes misty) ♪",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "song rule (D-0368): the zh quotes a lyric from 老男孩 (Old Boy, Chopsticks Brothers); replaced with a hum line. | zh redacted: song lyrics (zh_redact.py)"
+  },
+  {
+   "id": 34,
+   "zh": "谢谢您的驻足聆听！",
+   "en": "Thank you for stopping to listen!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "能够坐在舒适的火车上{NEWLINE}看看沿途的风景,{CLEAR}对我来说也是一种享受呢。",
+   "en": "Sitting on a comfy train and watching{NEWLINE}the scenery go by is a real treat for me{CLEAR}too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

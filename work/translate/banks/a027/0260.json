@@ -1,0 +1,253 @@
+{
+ "narc": "a027",
+ "bank": 260,
+ "source": "work/extract/v4/a027/0260.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "客人{NEWLINE}请往这边！{SCROLL}",
+   "en": "Oh, hello!{NEWLINE}Right this way, please!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/0"
+  },
+  {
+   "id": 1,
+   "zh": "初次见面！{SCROLL}我是精灵ＷｉーＦｉ俱乐部的{NEWLINE}引导员青奈,{SCROLL}那么请先往这边！{SCROLL}",
+   "en": "Hello.{NEWLINE}I’m glad to meet you.{SCROLL}My name is Teala, and I’m your guide{NEWLINE}to the Pokémon Wi-Fi Club.{SCROLL}First, I need to give you this.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/1"
+  },
+  {
+   "id": 2,
+   "zh": "登录在这个是朋友吧{NEWLINE}里的朋友,{CLEAR}使用ＷｉーＦｉ联络,{SCROLL}就能使用精灵对战{NEWLINE}精灵交换等等的机能了{SCROLL}要听详细介绍吗？",
+   "en": "That’s your Pal Pad. You may register{NEWLINE}your friends in it.{SCROLL}Once registered, you may link with{NEWLINE}those friends over Nintendo Wi-Fi{CLEAR}Connection to trade Pokémon, battle,{CLEAR}and so on.{SCROLL}Would you like to know more?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "在精灵中心２Ｆ交换精灵,{CLEAR}或在圆形剧场对战的时候,{SCROLL}就能将对手登录在是朋友卡片里。{SCROLL}此外和朋友交换朋友号码的话。{NEWLINE}就可以一起联机了。{SCROLL}要再听一边说明么？",
+   "en": "You may meet people on the second{NEWLINE}floor of a Pokémon Center for trades{CLEAR}or Colosseum battles.{SCROLL}You may register such people as{NEWLINE}friends in your Pal Pad.{SCROLL}You may also manually register friends{NEWLINE}by entering their Friend Codes into{CLEAR}your Pal Pad.{SCROLL}Would you like me to repeat that?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "那么请尽情享受ＷｉーＦｉ联络！",
+   "en": "I hope you enjoy using Nintendo{NEWLINE}WFC!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/4"
+  },
+  {
+   "id": 5,
+   "zh": "欢迎来到{NEWLINE}精灵中心ＷｉーＦｉ俱乐部！{SCROLL}是有什么疑问吗？",
+   "en": "Welcome to the Pokémon Center Wi-Fi{NEWLINE}Club!{SCROLL}May I help you with anything?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "那么说明一下ＷｉーＦｉ俱乐部{NEWLINE}的游戏方法！{SCROLL}中央的柜台可以连接到{CLEAR}ＷｉーＦｉ联络！{SCROLL}登录在朋友卡片里的朋友,{CLEAR}使用ＷｉーＦｉ联络,{SCROLL}就能使用精灵对战{SCROLL}精灵交换等等的机能了。",
+   "en": "Let me explain how the Pokémon Wi-Fi{NEWLINE}Club is set up.{SCROLL}From the middle counter, you may use{NEWLINE}Nintendo Wi-Fi Connection.{SCROLL}Over Nintendo WFC, you may conduct{NEWLINE}trades and battles with friends{CLEAR}that you’ve registered in{CLEAR}your Pal Pad.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0267/6 | seed rejected us [tag_mismatch] (candidate US 0267#6; text not kept)"
+  },
+  {
+   "id": 7,
+   "zh": "欢迎来到{NEWLINE}精灵中心ＷｉーＦｉ俱乐部！{SCROLL}要使用ＷｉーＦｉ联络吗？",
+   "en": "Welcome to the Pokémon Wi-Fi Club!{SCROLL}Would you like to use Nintendo Wi-Fi{NEWLINE}Connection?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0267/7 | seed rejected us [tag_mismatch] (candidate US 0267#7; text not kept)"
+  },
+  {
+   "id": 8,
+   "zh": "那么欢迎再来",
+   "en": "Please come again.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/8"
+  },
+  {
+   "id": 9,
+   "zh": "开始ＷｉーＦｉ连接吗？",
+   "en": "Would you like to launch{NEWLINE}Nintendo WFC?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0267/9 | seed rejected us [tag_mismatch] (candidate US 0267#9; text not kept)"
+  },
+  {
+   "id": 10,
+   "zh": "那么请往这边！{SCROLL}",
+   "en": "Right this way, please.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/10"
+  },
+  {
+   "id": 11,
+   "zh": "⋯⋯啊啦？{SCROLL}客人您还没有在朋友手册{NEWLINE}里登录朋友呢{SCROLL}在ＷｉーＦｉ俱乐部,{NEWLINE}没有在朋友手册{CLEAR}登录朋友的话,{CLEAR}是无法使用的。{SCROLL}客人想获取{NEWLINE}您的朋友号码吗？{VAR:0200:0}",
+   "en": "...Oh?{SCROLL}I’m sorry, but you don’t have any{NEWLINE}friends registered in your Pal Pad.{SCROLL}The Wi-Fi Club cannot be used if{NEWLINE}no friends are in your Pal Pad.{SCROLL}Would you like to get your own{NEWLINE}Friend Code at least? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "⋯⋯啊嘞？{SCROLL}⋯⋯啊啦？{SCROLL}客人您还没有在朋友手册{NEWLINE}里登录朋友呢{SCROLL}在ＷｉーＦｉ俱乐部,{NEWLINE}没有在朋友手册{CLEAR}登录朋友的话,{CLEAR}是无法使用的。{SCROLL}请登录了朋友之后再来。",
+   "en": "...Huh?{SCROLL}...Oh?{SCROLL}I’m sorry, but you don’t have any{NEWLINE}friends registered in your Pal Pad.{SCROLL}The Wi-Fi Club cannot be used if{NEWLINE}no friends are in your Pal Pad.{SCROLL}Please register friends in your{NEWLINE}Pal Pad, and then come back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "ＷｉーＦｉ俱乐部里,{NEWLINE}能够与朋友手册中的{CLEAR}朋友享受精灵交换和{CLEAR}通信对战的乐趣。{SCROLL}这里的通信对战{NEWLINE}分成单人和双人２种,{SCROLL}并分成「无限制」「等级５０」{NEWLINE}「等级１００」三种,{SCROLL}「等级５０」和「等级１００」的{CLEAR}精灵全部得是那个等级的。{SCROLL}要连接{NEWLINE}ＷｉーＦｉ吗？{VAR:0200:0}",
+   "en": "At any Wi-Fi Club, you may play using{NEWLINE}Nintendo Wi-Fi Connection.{SCROLL}Doing so, you may trade or battle with{NEWLINE}friends you have registered in your{CLEAR}Pal Pad.{SCROLL}Two kinds of battles can be conducted:{NEWLINE}Single or Double.{SCROLL}For each kind, you may choose one of{NEWLINE}three level restrictions: Free,{CLEAR}Level 50, or Level 100.{SCROLL}For Level 50 and Level 100, the levels{NEWLINE}of all participating Pokémon will be{CLEAR}temporarily changed to the set level.{SCROLL}Connect to Nintendo WFC? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/13"
+  },
+  {
+   "id": 14,
+   "zh": "去ＷｉーＦｉ广场",
+   "en": "GO TO WI-FI PLAZA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0267/14; qa-lints: zh says Wi-Fi Plaza (广场) although #13 describes the Wi-Fi Club; translated as written (D-1195), hack finding logged",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 15,
+   "zh": "听说明",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/15",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 16,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/16",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 17,
+   "zh": "非常抱歉⋯⋯{NEWLINE}请消灭了火箭队{CLEAR}再来吧⋯⋯",
+   "en": "Pardon us for the inconvenience...{NEWLINE}Please come back once you’ve wiped out{CLEAR}Team Rocket...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0267/17; ext-review B-006"
+  },
+  {
+   "id": 18,
+   "zh": "由我来带您去精灵中心的{NEWLINE}ＷｉーＦｉ广场。{SCROLL}要使用ＷｉーＦｉ吗？{VAR:0200:0}",
+   "en": "Hello, you may enter our{NEWLINE}Pokémon Center Wi-Fi Plaza from here.{SCROLL}Would you like to use Nintendo{NEWLINE}Wi-Fi Connection? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/18"
+  },
+  {
+   "id": 19,
+   "zh": "开始ＷｉーＦｉ连接吗？{VAR:0200:0}",
+   "en": "Connect to Nintendo WFC? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/19"
+  },
+  {
+   "id": 20,
+   "zh": "那么往这边请！{SCROLL}",
+   "en": "Please enter this way.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/20"
+  },
+  {
+   "id": 21,
+   "zh": "欢迎下次再来。",
+   "en": "We look forward to your next visit.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/8 | seed rejected us [ambiguous US match] (candidate US 0267#8; text not kept)"
+  },
+  {
+   "id": 22,
+   "zh": "ＷｉーＦｉ广场{NEWLINE}是和全世界的精灵训练员{CLEAR}交流用的设施。{SCROLL}谈话和广场游戏{NEWLINE}以及在ＷｉーＦｉ广场才有的道具{CLEAR}等等等等都能使用。{SCROLL}此外ＷｉーＦｉ广场{NEWLINE}的连接游戏,{CLEAR}时间是有限制的。{SCROLL}结束前请尽情享受！{SCROLL}要连接{NEWLINE}ＷｉーＦｉ吗？{VAR:0200:0}",
+   "en": "The Wi-Fi Plaza is a facility where you{NEWLINE}may meet Trainers from around the{CLEAR}world.{SCROLL}You can take part in chats and play{NEWLINE}Plaza Games.{SCROLL}You may also play with Tap Toys{NEWLINE}that are exclusive to the Wi-Fi Plaza.{SCROLL}Please note there is a time limit to the{NEWLINE}Wi-Fi Plaza connection.{SCROLL}You will be disconnected after a set{NEWLINE}amount of time.{SCROLL}We hope you will get the most out of{NEWLINE}each visit to the Wi-Fi Plaza!{SCROLL}Connect to Nintendo WFC? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/22"
+  },
+  {
+   "id": 23,
+   "zh": "去ＷｉーＦｉ广场",
+   "en": "GO TO WI-FI PLAZA",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/23",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 24,
+   "zh": "听说明",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/24",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 25,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/25",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 26,
+   "zh": "现在在准备中,{CLEAR}请稍后再来！",
+   "en": "Sorry, we’re getting things ready.{NEWLINE}Please come back later.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/26"
+  },
+  {
+   "id": 27,
+   "zh": "非常抱歉⋯⋯{NEWLINE}穿黑衣服的人,{CLEAR}干坏事的人,{CLEAR}加入火箭队的人,{SCROLL}我们恕不接待。",
+   "en": "Pardon us for the inconvenience...{NEWLINE}but people wearing black clothing,{CLEAR}people who engage in unlawful{CLEAR}activities, and people who are{CLEAR}members of Team Rocket{CLEAR}are barred from participating.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/27"
+  },
+  {
+   "id": 28,
+   "zh": "非常抱歉,{SCROLL}若叶镇的空木博士{NEWLINE}有来电话说{CLEAR}锯齿耳朵的皮丘{CLEAR}无法通过,{SCROLL}请先把它存入电脑,{NEWLINE}然后再来。",
+   "en": "Pardon us for the inconvenience.{SCROLL}We have received word from Professor{NEWLINE}Elm in New Bark Town that a Pichu{SCROLL}with spiky ears cannot be allowed{NEWLINE}to enter.{SCROLL}Please place it in your PC Box and{NEWLINE}enter again.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0267/28; modernised from US 0267#28"
+  },
+  {
+   "id": 29,
+   "zh": "非常抱歉,{SCROLL}您带的锯齿耳朵精灵⋯⋯{CLEAR}精灵中心的档案库里{CLEAR}没有登录,{CLEAR}因此无法通过。{SCROLL}请先把它存入电脑,{NEWLINE}然后再来。",
+   "en": "Pardon us for the inconvenience.{SCROLL}The Spiky-eared Pokémon you are{NEWLINE}traveling with...{CLEAR}It’s a kind that doesn’t appear in the{CLEAR}Pokémon Center’s database, so we{CLEAR}unfortunately cannot allow it to pass.{SCROLL}Please place it in a PC Box and{NEWLINE}come back.",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  }
+ ]
+}

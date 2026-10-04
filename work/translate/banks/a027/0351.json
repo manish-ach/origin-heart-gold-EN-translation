@@ -1,0 +1,502 @@
+{
+ "narc": "a027",
+ "bank": 351,
+ "source": "work/extract/v4/a027/0351.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "这里是１８号道路{NEWLINE}东　浅红市",
+   "en": "Rt. 18{NEWLINE}East to Fuchsia City",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0358/0",
+   "category": "sign"
+  },
+  {
+   "id": 1,
+   "zh": "我是「关东急速联盟」的老大,{NEWLINE}听我的小弟们说有个家伙{CLEAR}敢硬闯我们的地盘。{SCROLL}不过能一路走到这里,{NEWLINE}也算是挺厉害了。{CLEAR}我对你的实力很感兴趣,{CLEAR}让我亲自看看你够不够格{CLEAR}从我们的地盘通过！",
+   "en": "I’m the boss of the Kanto Speed{NEWLINE}Alliance. My boys tell me some punk had{CLEAR}the nerve to barge onto our turf.{SCROLL}Still, making it all the way here is{NEWLINE}pretty impressive.{SCROLL}I’m curious how strong you are. Let me{NEWLINE}see for myself if you’ve got what it{CLEAR}takes to cross our turf!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Route 18 end of the Kanto Speed Alliance arc (0348–0350). #3/#5 polite vs #6 firm player lines. Choices: #11 join / #12 stop hogging → #14 → #15 join / #16 → #17 → #18 agree / #19 → #20 (beat all members, then boss rematch #23/#24)."
+  },
+  {
+   "id": 2,
+   "zh": "是否接受挑战？",
+   "en": "Accept the challenge?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:0103:0}『我现有非常急的事,{NEWLINE}没时间在这里跟你耽误。",
+   "en": "{VAR:0103:0}: I’ve got something really{NEWLINE}urgent to do. I don’t have time to{CLEAR}waste here with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "哦？什么事让你这么着急？",
+   "en": "Oh? What’s got you in such a hurry?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:0103:0}『浅红市的狩猎场{NEWLINE}有只精灵得了重病,{CLEAR}需要我去送药救命,{CLEAR}请你赶紧让开！",
+   "en": "{VAR:0103:0}: A Pokémon at the Fuchsia City{NEWLINE}Safari Zone is seriously ill. I have to{CLEAR}deliver medicine to save it, so please{CLEAR}let me through!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0103:0}『浅红市的狩猎场{NEWLINE}有只精灵得了重病,{CLEAR}需要我去送药救命,{CLEAR}你赶紧给我让开！",
+   "en": "{VAR:0103:0}: A Pokémon at the Fuchsia City{NEWLINE}Safari Zone is seriously ill. I have to{CLEAR}deliver medicine to save it, so get out{CLEAR}of my way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "为病重的精灵送药？{NEWLINE}那又怎么样！{CLEAR}从我们的地盘过,{CLEAR}想不打招呼就走可不行。",
+   "en": "Medicine for a sick Pokémon? So what!{NEWLINE}Nobody crosses our turf without paying{CLEAR}their respects first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "哈哈,厉害厉害！以你的实力{NEWLINE}完全可以加入我们「关东急速联盟」。{SCROLL}我最喜欢的就是你们这些{NEWLINE}有真本事的训练家了,你过去吧！",
+   "en": "Ha ha, not bad, not bad! With skills like{NEWLINE}yours, you could easily join the Kanto{CLEAR}Speed Alliance.{SCROLL}What I like best is Trainers with real{NEWLINE}skill, like you. Go on through!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "你能打败我,很厉害嘛。{NEWLINE}我很欣赏你这样的强者,{CLEAR}以后有空常来我们自行车道玩啊。",
+   "en": "You beat me. Pretty impressive. I{NEWLINE}respect strong people like you. Come{CLEAR}hang out on our Cycling Road anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "我很欣赏你这样的强者,{NEWLINE}怎么样,要不要考虑{CLEAR}加入我们关东急速联盟？",
+   "en": "I respect strong people like you. So{NEWLINE}how about it? Want to think about{CLEAR}joining the Kanto Speed Alliance?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "好啊,我早就想加入你们了",
+   "en": "Sure! I’ve wanted to join!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "你们不要再霸占自行车路了",
+   "en": "Stop hogging Cycling Road!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 13,
+   "zh": "哈哈哈哈,我果然没看错你,{NEWLINE}从此以后你就是我们的一员,{CLEAR}随便穿越自行车路{CLEAR}都不会再有人阻止你了。",
+   "en": "Ha ha ha ha! I knew I had you pegged{NEWLINE}right. From now on you’re one of us.{CLEAR}Nobody will ever stop you on the Cycling{CLEAR}Road again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "你在开什么玩笑？{NEWLINE}把这里当作活动地盘是我们的自由！{CLEAR}谁也管不着！",
+   "en": "You kidding me? Using this place as our{NEWLINE}turf is our freedom! Nobody gets to{CLEAR}tell us what to do!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "没错,自由万岁,我要加入你们",
+   "en": "Long live freedom! I’m in!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 16,
+   "zh": "自由不是为所欲为",
+   "en": "Freedom isn’t anything goes",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 17,
+   "zh": "你是说我的自由{NEWLINE}要受法律和公德约束？{CLEAR}受约束那还叫个屁的自由啊,{CLEAR}还让人怎么尽情去享受！",
+   "en": "You’re saying my freedom has to answer{NEWLINE}to the law and public decency? Freedom{CLEAR}with rules? What the hell kind of{CLEAR}freedom is that? How’s anyone supposed{CLEAR}to have any fun?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "没错,受约束的那就不叫自由",
+   "en": "True, rules aren’t freedom",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 19,
+   "zh": "那我也有阻止你们霸占道路的自由",
+   "en": "Then I’m free to stop you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 20,
+   "zh": "对啊,你想做什么那是你的自由。{NEWLINE}至于你做不做得到,{CLEAR}就看你自己的本事了。{SCROLL}你要是能把我们「关东急速联盟」{NEWLINE}的全部成员击败,{CLEAR}我们就从此离开自行车道。",
+   "en": "Right. Whatever you want to do is your{NEWLINE}freedom. Whether you can pull it off{CLEAR}depends on your own skill.{SCROLL}If you can beat every member of the{NEWLINE}Kanto Speed Alliance, we’ll leave the{CLEAR}Cycling Road for good.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "在自行车之路上随意奔驰吧,{NEWLINE}这里是咱们「关东急速联盟」的天下！",
+   "en": "Ride the Cycling Road however you like!{NEWLINE}This place belongs to us, the Kanto{CLEAR}Speed Alliance!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "你要是能把我们「关东急速联盟」{NEWLINE}的全部成员击败,{CLEAR}我们就从此离开自行车道。",
+   "en": "If you can beat every member of the{NEWLINE}Kanto Speed Alliance, we’ll leave the{CLEAR}Cycling Road for good.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "居然击败了我的全部部下？{NEWLINE}好,那就让我亲自收拾你。{CLEAR}这次可不会像上次一样输给你了！",
+   "en": "You actually beat all my boys? Fine,{NEWLINE}then I’ll deal with you myself. I won’t{CLEAR}lose like last time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "好吧,是你赢了,{NEWLINE}你用你的暴力夺走了我们的自由。{CLEAR}我们「关东急速联盟」{CLEAR}从此离开这里就是了。",
+   "en": "All right, you win. You took our freedom{NEWLINE}away with brute force. The Kanto Speed{CLEAR}Alliance will clear out of here, then.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "爽快！来打吧！",
+   "en": "Now that’s the spirit! Let’s battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "在这里能看到很广阔的海,{NEWLINE}就是被围栏挡住了有点可惜,{CLEAR}不能钓鱼了。",
+   "en": "You can see so much of the sea from{NEWLINE}here. Too bad the fence is in the way,{CLEAR}so no fishing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "肯泰罗『Tau——ro！",
+   "en": "Tauros: Tau-ro!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "肯泰罗正在低头吃草。",
+   "en": "The Tauros is grazing with its head{NEWLINE}down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "小火马『Poooo——ny！",
+   "en": "Ponyta: Poooo-ny!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "肯泰罗攻击过来了。",
+   "en": "The Tauros charged!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "富子『没想到肯泰罗会突然攻击人,{NEWLINE}你不要紧吧？",
+   "en": "Lara: I never thought the Tauros{NEWLINE}would suddenly attack someone. Are you{CLEAR}all right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "富子 (拉拉美族的作富子) → Tomiko of the Larami tribe: invented, low confidence; 作 read as a typo/particle. Tomiko reappears at the battle marathon (Route 15). | [D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:0103:0}『还好啦,没有受伤。",
+   "en": "{VAR:0103:0}: I’m fine. Not hurt at all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "富子『肯泰罗现在正处在发情期,{NEWLINE}可能会比平时更有攻击性。{CLEAR}不过你却能轻松压制住肯泰罗,{CLEAR}真的是非常厉害呢。{SCROLL}富子『我是拉拉美族的作富子,{NEWLINE}你叫什么名字呢？",
+   "en": "Lara: The Tauros are in heat right{NEWLINE}now, so they can be more aggressive{CLEAR}than usual. But you held it off with{CLEAR}ease. That’s really impressive.{SCROLL}Lara: I’m Lara of the Laramie tribe.{NEWLINE}What’s your name?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "发情期 → in heat (faithful). | [D-0634 rename 2026-09-29: the Larami tribe → the Laramie tribe] | [D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 34,
+   "zh": "{VAR:0103:0}『我是来自真新镇的{VAR:0103:0}。",
+   "en": "{VAR:0103:0}: I’m {VAR:0103:0}, from Pallet Town.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "富子『{VAR:0103:0},{NEWLINE}15号路正要举办对战马拉松比赛,{CLEAR}那是连续对阵不同对手的对战耐力赛,{CLEAR}得冠军的话还会有大奖哦。{SCROLL}富子『像你这么强的训练家{NEWLINE}如果能来的话一定很有意思。{CLEAR}怎么样,要不要来参加？",
+   "en": "Lara: {VAR:0103:0}, the battle marathon is{NEWLINE}about to be held on Route 15. It’s an{CLEAR}endurance contest where you face one{CLEAR}opponent after another, and the{CLEAR}champion wins a big prize.{SCROLL}Lara: It would be so much fun if a{NEWLINE}strong Trainer like you came. How about{CLEAR}it? Want to enter?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 36,
+   "zh": "富子『不要这么说嘛,{NEWLINE}对战马拉松是很有挑战性的比赛,{CLEAR}非常适合你这样强大的训练家。{CLEAR}怎么样,要不要来参加？",
+   "en": "Lara: Oh, don’t say that. The battle{NEWLINE}marathon is a real challenge, perfect{CLEAR}for a strong Trainer like you. How about{CLEAR}it? Want to enter?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 37,
+   "zh": "富子『太好了,{NEWLINE}我先去比赛场地等你咯。{CLEAR}一定要来啊。",
+   "en": "Lara: Great! I’ll go on ahead and wait{NEWLINE}for you at the venue. Be sure to come!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 38,
+   "zh": "富子『近几年来,我们拉拉美族{NEWLINE}一直在协助浅红市的护林员们{CLEAR}保护这一带的生态。{CLEAR}这附近的肯泰罗能这么有活力,{CLEAR}也有我的一份功劳哦。{SCROLL}富子『你如果也喜欢肯泰罗的话,{NEWLINE}可以去摸摸它们哦,它们很乖的。",
+   "en": "Lara: For the past few years, the{NEWLINE}Laramie tribe has been helping Fuchsia{CLEAR}City’s rangers protect the wildlife{CLEAR}around here. The Tauros here are this{CLEAR}lively partly thanks to me!{SCROLL}Lara: If you like Tauros too, go ahead{NEWLINE}and pet them. They’re very gentle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0634 rename 2026-09-29: the Larami tribe → the Laramie tribe] | [D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 39,
+   "zh": "富子『{VAR:0103:0},{NEWLINE}最近的旅行怎么样呀？{CLEAR}既然来到浅红市了就多玩几天嘛。{SCROLL}富子『我的宝可梦在对战的时候{NEWLINE}学会了一个技能哈欠,{CLEAR}如果你也有精灵想学的话,{CLEAR}我可以教它们哦。{SCROLL}怎么样,要学吗？{SCROLL}",
+   "en": "Lara: {VAR:0103:0}, how’s your journey{NEWLINE}going? Since you’re in Fuchsia City,{CLEAR}stay a few days!{SCROLL}Lara: My Pokémon learned Yawn during{NEWLINE}a battle. If any of your Pokémon want{CLEAR}to learn it, I can teach them.{SCROLL}So, want to learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 40,
+   "zh": "富子『肯泰罗！不要伤人！",
+   "en": "Lara: Tauros! Don’t hurt anyone!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0633 rename 2026-09-29: Tomiko → Lara]; ext-review RV-002"
+  },
+  {
+   "id": 41,
+   "zh": "哼哼,我们「关东急速联盟」{NEWLINE}就是这条自行车道的主人！",
+   "en": "Heh heh. We, the Kanto Speed Alliance,{NEWLINE}are the masters of this Cycling Road!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "谢天谢地,霸占自行车道的暴走族们{NEWLINE}终于被赶跑了。{CLEAR}我现在心情大好,{CLEAR}如果你有精灵想学习{CLEAR}空气切割这招飞行系绝技,{CLEAR}我可以无偿交给它们哦。{SCROLL}怎么样,要学吗？{SCROLL}",
+   "en": "Thank goodness, those bikers hogging{NEWLINE}the Cycling Road are finally gone. I’m in{CLEAR}a great mood, so if any of your Pokémon{CLEAR}want to learn the Flying-type move Air{CLEAR}Slash, I’ll teach it for free!{SCROLL}So, want to learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 44,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it, come find me{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 45,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住空气切割。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn Air{NEWLINE}Slash.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 47,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会空气切割了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Air{NEWLINE}Slash!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 50,
+   "zh": "{VAR:0101:0}学会了空气切割！",
+   "en": "{VAR:0101:0} learned Air Slash!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会空气切割了！",
+   "en": "And with that, your {VAR:0100:0} has{NEWLINE}learned Air Slash!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的空气切割……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习空气切割{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Air Slash...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn Air{NEWLINE}Slash?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 54,
+   "zh": "你是要放弃{NEWLINE}让它记住空气切割吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Air Slash?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住哈欠。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn Yawn.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会哈欠了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Yawn!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "{VAR:0101:0}学会了哈欠！",
+   "en": "{VAR:0101:0} learned Yawn!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会哈欠了！",
+   "en": "And with that, your {VAR:0100:0} has{NEWLINE}learned Yawn!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的哈欠……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习哈欠{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Yawn...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn Yawn?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "你是要放弃{NEWLINE}让它记住哈欠吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Yawn?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

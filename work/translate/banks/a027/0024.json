@@ -1,0 +1,495 @@
+{
+ "narc": "a027",
+ "bank": 24,
+ "source": "work/extract/v4/a027/0024.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "怎么处理{VAR:0101:0}？",
+   "en": "{VAR:0101:0} is selected.",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 1,
+   "zh": "请标示",
+   "en": "Choose the markings.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "真的要放生吗？",
+   "en": "Release this Pokémon?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/2"
+  },
+  {
+   "id": 3,
+   "zh": "将{VAR:0101:0}放生了。",
+   "en": "{VAR:0101:0} was released.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/3"
+  },
+  {
+   "id": 4,
+   "zh": "再见了,{VAR:0101:0}！",
+   "en": "Bye-bye, {VAR:0101:0}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/4"
+  },
+  {
+   "id": 5,
+   "zh": "能携带的精灵已满！",
+   "en": "Your party’s full!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/5"
+  },
+  {
+   "id": 6,
+   "zh": "没有能战斗的精灵！",
+   "en": "That’s your last Pokémon!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/6"
+  },
+  {
+   "id": 7,
+   "zh": "箱子怎么处理？",
+   "en": "What do you want to do?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/7"
+  },
+  {
+   "id": 8,
+   "zh": "跳跃到哪个箱子？",
+   "en": "Jump to which Box?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "设置成什么主题？",
+   "en": "Pick the theme.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0025/10 | seed rejected us [ambiguous US match] (candidate US 0025#10; text not kept)"
+  },
+  {
+   "id": 10,
+   "zh": "设置成什么壁纸？",
+   "en": "Pick the wallpaper.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/10"
+  },
+  {
+   "id": 11,
+   "zh": "关闭箱子吗？",
+   "en": "Exit the Box?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/11"
+  },
+  {
+   "id": 12,
+   "zh": "继续整理箱子吗？",
+   "en": "Continue Box operations?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/12"
+  },
+  {
+   "id": 13,
+   "zh": "该箱子已满！",
+   "en": "The Box is full.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/13"
+  },
+  {
+   "id": 14,
+   "zh": "背包已满！",
+   "en": "The Bag is full.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/14"
+  },
+  {
+   "id": 15,
+   "zh": "存放了{VAR:0108:0}！",
+   "en": "Took the {VAR:0108:0}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/15"
+  },
+  {
+   "id": 16,
+   "zh": "让精灵带上了{VAR:0108:0}！",
+   "en": "{VAR:0108:0} is now being held.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/16"
+  },
+  {
+   "id": 17,
+   "zh": "精灵紧紧地拿着！",
+   "en": "It’s holding on to it tightly!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "触摸精灵！",
+   "en": "Which one will you take?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/18"
+  },
+  {
+   "id": 19,
+   "zh": "存放到哪儿？",
+   "en": "Deposit where?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/19"
+  },
+  {
+   "id": 20,
+   "zh": "无持有物",
+   "en": "No item",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "㊚",
+   "en": "㊚",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "㊛",
+   "en": "㊛",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "存放{VAR:0108:0}吗？",
+   "en": "Take this {VAR:0108:0}?",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0025/15 | seed rejected us [ambiguous US match] (candidate US 0025#15; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 24,
+   "zh": "无法收纳信件！",
+   "en": "Mail can’t be taken away.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/24"
+  },
+  {
+   "id": 25,
+   "zh": "{VAR:0108:0}怎么处理？",
+   "en": "The {VAR:0108:0} item is selected.",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 26,
+   "zh": "收起{VAR:0108:0}？",
+   "en": "Put away {VAR:0108:0}?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/26"
+  },
+  {
+   "id": 27,
+   "zh": "{VAR:0108:0}放进了背包！",
+   "en": "Placed {VAR:0108:0} in the Bag.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/27"
+  },
+  {
+   "id": 28,
+   "zh": "让精灵拿道具。",
+   "en": "Give an item to a Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "请撕下球贴！",
+   "en": "Please detach the Ball Capsule.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/29"
+  },
+  {
+   "id": 30,
+   "zh": "请拿下信件！",
+   "en": "Please remove the Mail.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/30"
+  },
+  {
+   "id": 31,
+   "zh": "无法放生蛋！",
+   "en": "You can’t release an Egg.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/31"
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:0101:0}回来了！",
+   "en": "{VAR:0101:0} came back!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/32"
+  },
+  {
+   "id": 33,
+   "zh": "是担心吗⋯⋯",
+   "en": "Was it worried about you?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/33"
+  },
+  {
+   "id": 34,
+   "zh": "蛋不能带道具！",
+   "en": "An Egg can’t hold an item.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/34"
+  },
+  {
+   "id": 35,
+   "zh": "触摸标志吧！",
+   "en": "Touch the Mark!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/35"
+  },
+  {
+   "id": 36,
+   "zh": "能够放进箱子里！",
+   "en": "Place it in the Box!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/36"
+  },
+  {
+   "id": 37,
+   "zh": "能加入携带队伍！",
+   "en": "You can add it to your party!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/37"
+  },
+  {
+   "id": 38,
+   "zh": "该箱子已满！",
+   "en": "This Box is full!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/38"
+  },
+  {
+   "id": 39,
+   "zh": "携带精灵已满！",
+   "en": "Your party is full!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/39"
+  },
+  {
+   "id": 40,
+   "zh": "性格",
+   "en": "NATURE",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 4 source(s)"
+  },
+  {
+   "id": 41,
+   "zh": "Ｌｖ．",
+   "en": "Lv.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "Ｈ　Ｐ",
+   "en": "HP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "攻击",
+   "en": "ATTACK",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s)"
+  },
+  {
+   "id": 44,
+   "zh": "防御",
+   "en": "DEFENSE",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s)"
+  },
+  {
+   "id": 45,
+   "zh": "特攻",
+   "en": "SP. ATK",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 46,
+   "zh": "特防",
+   "en": "SP. DEF",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 47,
+   "zh": "速度",
+   "en": "SPEED",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 7 source(s)"
+  },
+  {
+   "id": 48,
+   "zh": "技能",
+   "en": "MOVES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "？？？",
+   "en": "???",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "存放精灵",
+   "en": "Deposit Pokémon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/50"
+  },
+  {
+   "id": 51,
+   "zh": "带走精灵",
+   "en": "Withdraw Pokémon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/51"
+  },
+  {
+   "id": 52,
+   "zh": "整理箱子",
+   "en": "Move Pokémon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/52"
+  },
+  {
+   "id": 53,
+   "zh": "整理持有物",
+   "en": "Move Items",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/53"
+  },
+  {
+   "id": 54,
+   "zh": "信件无法移动！",
+   "en": "Mail cannot be moved!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/54"
+  },
+  {
+   "id": 55,
+   "zh": "没有{VAR:0108:0}！",
+   "en": "Cannot hold {VAR:0108:0}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/55"
+  },
+  {
+   "id": 56,
+   "zh": "有信件！",
+   "en": "It has Mail!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/56"
+  },
+  {
+   "id": 57,
+   "zh": "有球贴！",
+   "en": "It has a Ball Capsule!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/57"
+  },
+  {
+   "id": 58,
+   "zh": "这样将没有能战斗的精灵！",
+   "en": "You’re out of Pokémon that can fight!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/58"
+  },
+  {
+   "id": 59,
+   "zh": "信件无法移动！",
+   "en": "Mail cannot be moved!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/59"
+  },
+  {
+   "id": 60,
+   "zh": "能够让精灵拿着。",
+   "en": "You can give this to a Pokémon to hold.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0025/60"
+  }
+ ]
+}

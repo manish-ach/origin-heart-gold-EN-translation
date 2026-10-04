@@ -1,0 +1,2966 @@
+{
+ "narc": "a027",
+ "bank": 712,
+ "source": "work/extract/v4/a027/0712.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "ー{NEWLINE}ー",
+   "en": "-{NEWLINE}-",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "dash placeholder (ー → -, as 0218)"
+  },
+  {
+   "id": 1,
+   "zh": "造成伤害时对手可能畏缩,{NEWLINE}遭遇野生精灵的概率下降。",
+   "en": "Hits may cause flinching;{NEWLINE}fewer wild encounters.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/1 | Hack: flinch on hit (sheet: 20%) + fewer wild encounters.",
+   "qa_ignore": [
+    "glossary:精灵"
+   ]
+  },
+  {
+   "id": 2,
+   "zh": "上场时让天气变成雨天,{NEWLINE}效果持续5回合。",
+   "en": "Summons 5 turns of rain{NEWLINE}when it enters battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/2",
+   "qa_ignore": [
+    "glossary:天气"
+   ]
+  },
+  {
+   "id": 3,
+   "zh": "战斗中速度不断上升{NEWLINE}。",
+   "en": "Its Speed stat is{NEWLINE}gradually boosted.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/3"
+  },
+  {
+   "id": 4,
+   "zh": "不会被击中要害,{NEWLINE}并使碰触自己的对手受伤。",
+   "en": "Blocks critical hits.{NEWLINE}Hurts foes on contact.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/24 | seed rejected us [ambiguous US match] (candidate US 0722#24; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 5,
+   "zh": "体力全满时{NEWLINE}不会被一击杀死。",
+   "en": "It can’t be knocked out{NEWLINE}in 1 hit from full HP.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/5"
+  },
+  {
+   "id": 6,
+   "zh": "生成水流环，{NEWLINE}水系威力提升。{NEWLINE}火系威力降低。",
+   "en": "Makes an Aqua Ring. Ups{NEWLINE}Water, cuts Fire moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 7,
+   "zh": "自身不会陷入麻痹状态,{NEWLINE}并降低少量物理伤害。",
+   "en": "Prevents paralysis. Cuts{NEWLINE}physical damage a little.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/7"
+  },
+  {
+   "id": 8,
+   "zh": "沙暴天气回避率上升{NEWLINE}。",
+   "en": "Boosts the Pokémon’s{NEWLINE}evasion in a sandstorm.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/8",
+   "qa_ignore": [
+    "glossary:天气"
+   ]
+  },
+  {
+   "id": 9,
+   "zh": "一定几率使接触自己的{NEWLINE}对手麻痹。",
+   "en": "Contact with the Pokémon{NEWLINE}may cause paralysis.",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0722/24 | seed rejected us [ambiguous US match] (candidate US 0722#24; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 10,
+   "zh": "受到电攻击会回复Ｈ{NEWLINE}Ｐ。",
+   "en": "Restores HP if hit by an{NEWLINE}Electric-type move.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/10"
+  },
+  {
+   "id": 11,
+   "zh": "受到水攻击会回复Ｈ{NEWLINE}Ｐ。",
+   "en": "Restores HP if hit by a{NEWLINE}Water-type move.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/11"
+  },
+  {
+   "id": 12,
+   "zh": "不会陷入着迷状态。",
+   "en": "Prevents it from{NEWLINE}becoming infatuated.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/12"
+  },
+  {
+   "id": 13,
+   "zh": "不受天气影响。",
+   "en": "Eliminates the effects of{NEWLINE}weather.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/13"
+  },
+  {
+   "id": 14,
+   "zh": "技能命中率上升。",
+   "en": "The Pokémon’s accuracy{NEWLINE}is boosted.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/14"
+  },
+  {
+   "id": 15,
+   "zh": "不会陷入睡眠状态。",
+   "en": "Prevents the Pokémon{NEWLINE}from falling asleep.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/15"
+  },
+  {
+   "id": 16,
+   "zh": "自身变成受到攻击的{NEWLINE}技能的属性。",
+   "en": "Changes the Pokémon’s{NEWLINE}type to the foe’s move.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/16"
+  },
+  {
+   "id": 17,
+   "zh": "不会陷入中毒、麻痹、{NEWLINE}烧伤、冰冻状态。",
+   "en": "Blocks poison, paralysis,{NEWLINE}burns and freezing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/17",
+   "qa_ignore": [
+    "glossary:冰冻"
+   ]
+  },
+  {
+   "id": 18,
+   "zh": "吸引火属性攻击,{NEWLINE}免疫伤害提升特攻。",
+   "en": "Draws in Fire moves: no{NEWLINE}damage, ups Sp. Atk.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:免疫",
+    "glossary:引火"
+   ]
+  },
+  {
+   "id": 19,
+   "zh": "不会受到技能的{NEWLINE}追加效果影响。",
+   "en": "Blocks the added effects{NEWLINE}of attacks taken.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/19"
+  },
+  {
+   "id": 20,
+   "zh": "不会陷入混乱状态。",
+   "en": "Prevents the Pokémon{NEWLINE}from becoming confused.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/20",
+   "qa_ignore": [
+    "glossary:混乱"
+   ]
+  },
+  {
+   "id": 21,
+   "zh": "对方强制换人的技能{NEWLINE}对自己无效。",
+   "en": "Negates foes’ moves that{NEWLINE}force switching out.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/21"
+  },
+  {
+   "id": 22,
+   "zh": "上场即让对手物攻下{NEWLINE}降。",
+   "en": "Lowers the foe’s Attack{NEWLINE}when it enters battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/22"
+  },
+  {
+   "id": 23,
+   "zh": "踩住对手的影子,{NEWLINE}使之无法逃走。",
+   "en": "Steps on the foe’s{NEWLINE}shadow so it can’t flee.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/23"
+  },
+  {
+   "id": 24,
+   "zh": "使碰触自己的对手受{NEWLINE}伤。",
+   "en": "Inflicts damage to the{NEWLINE}foe on contact.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/24"
+  },
+  {
+   "id": 25,
+   "zh": "只会被克制自己属性的{NEWLINE}攻击打到。",
+   "en": "Only supereffective{NEWLINE}moves will hit.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/25"
+  },
+  {
+   "id": 26,
+   "zh": "不会受到地面系技能{NEWLINE}攻击。",
+   "en": "Gives full immunity to all{NEWLINE}Ground-type moves.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/26",
+   "qa_ignore": [
+    "glossary:地面"
+   ]
+  },
+  {
+   "id": 27,
+   "zh": "一定几率让接触自己的对{NEWLINE}手陷入毒、麻痹、催眠状态。",
+   "en": "Contact may poison,{NEWLINE}paralyze or cause sleep.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/27",
+   "qa_ignore": [
+    "glossary:麻痹"
+   ]
+  },
+  {
+   "id": 28,
+   "zh": "把中毒、麻痹、烧伤{NEWLINE}转移到对手身上。",
+   "en": "Passes a burn, poison,{NEWLINE}or paralysis to the foe.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/28"
+  },
+  {
+   "id": 29,
+   "zh": "不会被对手降低能力{NEWLINE}。",
+   "en": "Prevents its stats from{NEWLINE}being lowered.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/29"
+  },
+  {
+   "id": 30,
+   "zh": "下场后解除异常状态。{NEWLINE}回复少量血量。",
+   "en": "Heals status and some{NEWLINE}HP when switched out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:异常状态"
+   ]
+  },
+  {
+   "id": 31,
+   "zh": "吸引电属性攻击,{NEWLINE}免疫伤害并提升特攻。",
+   "en": "Draws in Electric moves:{NEWLINE}no damage, ups Sp. Atk.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/31",
+   "qa_ignore": [
+    "glossary:免疫"
+   ]
+  },
+  {
+   "id": 32,
+   "zh": "技能追加效果发动率{NEWLINE}上升。",
+   "en": "Boosts the likelihood of{NEWLINE}added effects appearing.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/32"
+  },
+  {
+   "id": 33,
+   "zh": "雨天速度大幅上升。",
+   "en": "Sharply boosts{NEWLINE}Speed in rain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/33"
+  },
+  {
+   "id": 34,
+   "zh": "晴天速度大幅上升。",
+   "en": "Sharply boosts{NEWLINE}Speed in sunshine.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/34",
+   "qa_ignore": [
+    "glossary:晴天"
+   ]
+  },
+  {
+   "id": 35,
+   "zh": "不容易被对手命中,{NEWLINE}遇到野生精灵概率提升。",
+   "en": "Harder to hit. Meets{NEWLINE}wild Pokémon more often.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/35",
+   "qa_ignore": [
+    "glossary:命中"
+   ]
+  },
+  {
+   "id": 36,
+   "zh": "变成和对手一样的特{NEWLINE}性。",
+   "en": "The Pokémon copies the{NEWLINE}foe’s ability.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/36"
+  },
+  {
+   "id": 37,
+   "zh": "物攻翻倍。",
+   "en": "Doubles the Pokémon’s{NEWLINE}Attack stat.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/37"
+  },
+  {
+   "id": 38,
+   "zh": "一定几率让接触自己的{NEWLINE}对手中毒。并刺伤对手。",
+   "en": "Contact may poison the{NEWLINE}foe and also hurts it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "不会害怕,{NEWLINE}不会被威吓。",
+   "en": "Prevents flinching{NEWLINE}and blocks Intimidate.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/39"
+  },
+  {
+   "id": 40,
+   "zh": "不会陷入结冰状态,{NEWLINE}并使碰触自己的对手受伤。",
+   "en": "Prevents freezing.{NEWLINE}Hurts foes on contact.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/40"
+  },
+  {
+   "id": 41,
+   "zh": "不会陷入烧伤状态。",
+   "en": "Prevents the Pokémon{NEWLINE}from getting a burn.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/41"
+  },
+  {
+   "id": 42,
+   "zh": "让钢属性的精灵无法{NEWLINE}逃脱。",
+   "en": "Prevents Steel-type{NEWLINE}Pokémon from escaping.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/42"
+  },
+  {
+   "id": 43,
+   "zh": "不受声音类技能影响{NEWLINE}。",
+   "en": "Gives full immunity to all{NEWLINE}sound-based moves.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/43"
+  },
+  {
+   "id": 44,
+   "zh": "雨天每回合恢复ＨＰ{NEWLINE}。",
+   "en": "The Pokémon gradually{NEWLINE}recovers HP in rain.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/44"
+  },
+  {
+   "id": 45,
+   "zh": "出场能引起沙暴天气,{NEWLINE}效果持续5回合。",
+   "en": "Stirs up sand for 5 turns{NEWLINE}when it enters battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/45",
+   "qa_ignore": [
+    "glossary:天气",
+    "glossary:沙暴"
+   ]
+  },
+  {
+   "id": 46,
+   "zh": "对手大量消耗ＰＰ。{NEWLINE}攻击概率让对手畏缩。",
+   "en": "Foes use more PP. Hits{NEWLINE}may make foes flinch.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "冰系和火系攻击伤害{NEWLINE}降低。",
+   "en": "Ups resistance to Fire-{NEWLINE}and Ice-type moves.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/47"
+  },
+  {
+   "id": 48,
+   "zh": "睡觉所需回合减少。",
+   "en": "The Pokémon awakens{NEWLINE}quickly from sleep.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/48",
+   "qa_ignore": [
+    "glossary:睡觉"
+   ]
+  },
+  {
+   "id": 49,
+   "zh": "一定几率使接触自己的{NEWLINE}对手烧伤。",
+   "en": "Contact with the Pokémon{NEWLINE}may burn the foe.",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0722/24 | seed rejected us [ambiguous US match] (candidate US 0722#24; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 50,
+   "zh": "肯定能从遭遇的{NEWLINE}野生精灵那里逃脱。",
+   "en": "Enables sure getaway{NEWLINE}from wild Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/50",
+   "qa_ignore": [
+    "glossary:遭遇"
+   ]
+  },
+  {
+   "id": 51,
+   "zh": "不会被对手降低命中{NEWLINE}率。",
+   "en": "Prevents the Pokémon{NEWLINE}from losing accuracy.",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0722/73 | seed rejected us [ambiguous US match] (candidate US 0722#73; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 52,
+   "zh": "不会被对手降低物攻{NEWLINE}。",
+   "en": "Prevents the Attack{NEWLINE}stat from being lowered.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/52"
+  },
+  {
+   "id": 53,
+   "zh": "战斗结束后{NEWLINE}可能会捡到道具。",
+   "en": "The Pokémon may pick{NEWLINE}up items after battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/53"
+  },
+  {
+   "id": 54,
+   "zh": "行动后要休息一回合{NEWLINE}。",
+   "en": "Pokémon can’t attack{NEWLINE}on consecutive turns.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/54"
+  },
+  {
+   "id": 55,
+   "zh": "物攻技能威力上升,{NEWLINE}但命中下降。",
+   "en": "Boosts the Attack stat,{NEWLINE}but lowers accuracy.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/55",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 56,
+   "zh": "一定几率让接触自己的{NEWLINE}对手着迷。",
+   "en": "Contact with the Pokémon{NEWLINE}may cause infatuation.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/56"
+  },
+  {
+   "id": 57,
+   "zh": "有负电在场的话{NEWLINE}特攻与速度上升。",
+   "en": "Ups Sp. Atk and Speed{NEWLINE}if a Pokémon has Minus.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/57"
+  },
+  {
+   "id": 58,
+   "zh": "有正电在场的话{NEWLINE}特攻与速度上升。",
+   "en": "Ups Sp. Atk and Speed{NEWLINE}if a Pokémon has Plus.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/58"
+  },
+  {
+   "id": 59,
+   "zh": "随天气变换形态。",
+   "en": "Castform transforms with{NEWLINE}the weather.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/59; modernised from US 0722#59"
+  },
+  {
+   "id": 60,
+   "zh": "不会失去道具。",
+   "en": "Protects the Pokémon{NEWLINE}from item theft.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/60"
+  },
+  {
+   "id": 61,
+   "zh": "一定会解除异常状态{NEWLINE}。",
+   "en": "Always heals its own{NEWLINE}status problems.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:异常状态"
+   ]
+  },
+  {
+   "id": 62,
+   "zh": "异常状态中物攻上升{NEWLINE}。",
+   "en": "Boosts Attack if there is{NEWLINE}a status problem.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/62",
+   "qa_ignore": [
+    "glossary:异常状态"
+   ]
+  },
+  {
+   "id": 63,
+   "zh": "异常状态中{NEWLINE}物防与特防上升。",
+   "en": "Ups Defense and Sp. Def{NEWLINE}with a status problem.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/63",
+   "qa_ignore": [
+    "glossary:异常状态"
+   ]
+  },
+  {
+   "id": 64,
+   "zh": "对方吸取自身ＨＰ时{NEWLINE}也会受到伤害",
+   "en": "Inflicts damage on foes{NEWLINE}using any draining move.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/64",
+   "qa_ignore": [
+    "glossary:吸取"
+   ]
+  },
+  {
+   "id": 65,
+   "zh": "危急时草系技能威力{NEWLINE}上升。",
+   "en": "Powers up Grass-type{NEWLINE}moves in a pinch.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/65"
+  },
+  {
+   "id": 66,
+   "zh": "危急时火系技能威力{NEWLINE}上升。",
+   "en": "Powers up Fire-type{NEWLINE}moves in a pinch.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/66"
+  },
+  {
+   "id": 67,
+   "zh": "危急时水系技能威力{NEWLINE}上升。",
+   "en": "Powers up Water-type{NEWLINE}moves in a pinch.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/67"
+  },
+  {
+   "id": 68,
+   "zh": "受到绝佳效果伤害减{NEWLINE}少。",
+   "en": "Reduces damage from{NEWLINE}supereffective attacks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "不会受到反作用伤害{NEWLINE}。",
+   "en": "Protects the Pokémon{NEWLINE}from recoil damage.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/69"
+  },
+  {
+   "id": 70,
+   "zh": "上场会让天气变成晴天,{NEWLINE}效果持续5回合。",
+   "en": "Summons 5 turns of sun{NEWLINE}when it enters battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/70",
+   "qa_ignore": [
+    "glossary:天气",
+    "glossary:晴天"
+   ]
+  },
+  {
+   "id": 71,
+   "zh": "战斗中对手不能逃脱{NEWLINE}。",
+   "en": "Prevents the foe from{NEWLINE}fleeing.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/71"
+  },
+  {
+   "id": 72,
+   "zh": "不会陷入睡眠状态。",
+   "en": "Prevents the Pokémon{NEWLINE}from falling asleep.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/72"
+  },
+  {
+   "id": 73,
+   "zh": "不会被对手降低能力{NEWLINE}。",
+   "en": "Prevents its stats from{NEWLINE}being lowered.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/73"
+  },
+  {
+   "id": 74,
+   "zh": "物攻翻倍。",
+   "en": "Doubles the Pokémon’s{NEWLINE}Attack stat.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/74"
+  },
+  {
+   "id": 75,
+   "zh": "不会被击中要害,{NEWLINE}并降低受到的物攻伤害。",
+   "en": "Blocks critical hits and{NEWLINE}cuts physical damage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/75"
+  },
+  {
+   "id": 76,
+   "zh": "天气的效果无效。",
+   "en": "Eliminates the effects of{NEWLINE}weather.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/76"
+  },
+  {
+   "id": 77,
+   "zh": "陷入混乱状态回避率{NEWLINE}上升。",
+   "en": "Raises evasion if the{NEWLINE}Pokémon is confused.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/77",
+   "qa_ignore": [
+    "glossary:混乱"
+   ]
+  },
+  {
+   "id": 78,
+   "zh": "受到电系攻击速度上{NEWLINE}升。",
+   "en": "Raises Speed if hit by an{NEWLINE}Electric-type move.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/78"
+  },
+  {
+   "id": 79,
+   "zh": "对手性别相同时攻击上升,{NEWLINE}反之下降。",
+   "en": "Ups Attack vs. same sex;{NEWLINE}lowers it vs. the other.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/79"
+  },
+  {
+   "id": 80,
+   "zh": "害怕时速度大幅上升{NEWLINE}。",
+   "en": "Sharply raises Speed{NEWLINE}each time it flinches.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/80"
+  },
+  {
+   "id": 81,
+   "zh": "雪天回避率上升。",
+   "en": "Raises evasion{NEWLINE}in hail.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/81 | 雪天 rendered as hail (the hack keeps Hail)."
+  },
+  {
+   "id": 82,
+   "zh": "ＨＰ一半以下{NEWLINE}就可以使用树果。",
+   "en": "Eats its Berry once HP{NEWLINE}falls to half or below.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/82"
+  },
+  {
+   "id": 83,
+   "zh": "被命中要害的话{NEWLINE}攻击力上升到极限。",
+   "en": "Maxes Attack upon{NEWLINE}taking a critical hit.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/83",
+   "qa_ignore": [
+    "glossary:命中"
+   ]
+  },
+  {
+   "id": 84,
+   "zh": "失去道具后{NEWLINE}速度大幅上升。",
+   "en": "Sharply raises Speed{NEWLINE}if its held item is lost.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/84"
+  },
+  {
+   "id": 85,
+   "zh": "火系伤害降低。",
+   "en": "Weakens the power of{NEWLINE}Fire-type moves.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/85"
+  },
+  {
+   "id": 86,
+   "zh": "能力变化加倍。",
+   "en": "Doubles the effect of{NEWLINE}its stat changes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/86; ext-review RV-005",
+   "qa_ignore": [
+    "glossary:变化"
+   ]
+  },
+  {
+   "id": 87,
+   "zh": "天热ＨＰ削减,{NEWLINE}下雨ＨＰ回复。",
+   "en": "Reduces HP if it is{NEWLINE}hot. Rain restores HP.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/87"
+  },
+  {
+   "id": 88,
+   "zh": "根据对方的防御{NEWLINE}提升自己的攻击。",
+   "en": "Ups Attack or Sp. Atk to{NEWLINE}suit the foe’s defenses.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/88"
+  },
+  {
+   "id": 89,
+   "zh": "拳击类技能威力上升{NEWLINE}。",
+   "en": "Boosts the power of{NEWLINE}punching moves.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/89"
+  },
+  {
+   "id": 90,
+   "zh": "中毒后每回合恢复Ｈ{NEWLINE}Ｐ。",
+   "en": "Restores HP if the{NEWLINE}Pokémon is poisoned.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/90"
+  },
+  {
+   "id": 91,
+   "zh": "本系技能威力大幅上{NEWLINE}升。",
+   "en": "Sharply powers up{NEWLINE}moves of the same type.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/91"
+  },
+  {
+   "id": 92,
+   "zh": "能使用很多下连续技{NEWLINE}。",
+   "en": "Increases the frequency{NEWLINE}of multi-strike moves.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/92"
+  },
+  {
+   "id": 93,
+   "zh": "雨天解除异常状态。{NEWLINE}雨天每回合恢复血量。",
+   "en": "In rain, heals status and{NEWLINE}restores HP each turn.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:异常状态"
+   ]
+  },
+  {
+   "id": 94,
+   "zh": "晴天会不断少血,{NEWLINE}但特攻提升。",
+   "en": "Boosts Sp. Atk, but{NEWLINE}lowers HP in sunshine.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/94",
+   "qa_ignore": [
+    "glossary:晴天"
+   ]
+  },
+  {
+   "id": 95,
+   "zh": "异常状态中攻击速度上升{NEWLINE}。",
+   "en": "Ups Attack and Speed{NEWLINE}with a status problem.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:异常状态"
+   ]
+  },
+  {
+   "id": 96,
+   "zh": "使出的技能全部{NEWLINE}变成普通属性。",
+   "en": "All the Pokémon’s moves{NEWLINE}become the Normal type.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/96"
+  },
+  {
+   "id": 97,
+   "zh": "容易发动会心一击,{NEWLINE}且威力上升。",
+   "en": "Ups critical-hit ratio{NEWLINE}and critical-hit power.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/97"
+  },
+  {
+   "id": 98,
+   "zh": "只受到直接攻击伤害{NEWLINE}。",
+   "en": "The Pokémon only takes{NEWLINE}damage from attacks.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/98"
+  },
+  {
+   "id": 99,
+   "zh": "双方技能必中。",
+   "en": "Ensures both Pokémon’s{NEWLINE}and foe’s attacks land.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/99"
+  },
+  {
+   "id": 100,
+   "zh": "即使速度比对手快{NEWLINE}也会后行动。",
+   "en": "The Pokémon moves after{NEWLINE}even slower foes.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/100"
+  },
+  {
+   "id": 101,
+   "zh": "能提升低攻技能的威{NEWLINE}力。",
+   "en": "Powers up the Pokémon’s{NEWLINE}weaker moves.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/101"
+  },
+  {
+   "id": 102,
+   "zh": "晴天不会陷入异常状态{NEWLINE}且队友提升物防特攻。",
+   "en": "Sun: no status. Allies’{NEWLINE}Defense, Sp. Atk rise.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:异常状态",
+    "glossary:晴天"
+   ]
+  },
+  {
+   "id": 103,
+   "zh": "不能使用持有的道具{NEWLINE}。",
+   "en": "The Pokémon can’t use{NEWLINE}any held items.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/103"
+  },
+  {
+   "id": 104,
+   "zh": "攻击不受对方特性影{NEWLINE}响。",
+   "en": "Moves can be used{NEWLINE}regardless of abilities.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/104"
+  },
+  {
+   "id": 105,
+   "zh": "容易发动会心一击。",
+   "en": "Heightens the critical-{NEWLINE}hit ratios of moves.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/105"
+  },
+  {
+   "id": 106,
+   "zh": "被打倒后会给予{NEWLINE}对方伤害。",
+   "en": "Damages the foe landing{NEWLINE}the finishing hit.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/106"
+  },
+  {
+   "id": 107,
+   "zh": "可以觉察对手{NEWLINE}拥有的危险技能。",
+   "en": "Senses the foe’s{NEWLINE}dangerous moves.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/107"
+  },
+  {
+   "id": 108,
+   "zh": "可以预判对手的技能{NEWLINE}。",
+   "en": "Determines what moves{NEWLINE}the foe has.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/108"
+  },
+  {
+   "id": 109,
+   "zh": "无视对方的能力变化{NEWLINE}。",
+   "en": "Ignores any stat{NEWLINE}changes of the foe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/109",
+   "qa_ignore": [
+    "glossary:变化"
+   ]
+  },
+  {
+   "id": 110,
+   "zh": "效果一般的时候{NEWLINE}技能威力上升。",
+   "en": "Powers up “not very{NEWLINE}effective” moves.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/110"
+  },
+  {
+   "id": 111,
+   "zh": "受到克制自身属性的{NEWLINE}攻击时降低伤害。",
+   "en": "Reduces damage from{NEWLINE}supereffective attacks.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/111"
+  },
+  {
+   "id": 112,
+   "zh": "攻击力和速度{NEWLINE}暂时降低。",
+   "en": "Temporarily lowers{NEWLINE}Attack and Speed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/112"
+  },
+  {
+   "id": 113,
+   "zh": "技能能击中鬼系精灵{NEWLINE}。",
+   "en": "Enables moves to hit{NEWLINE}Ghost-type foes.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/113",
+   "qa_ignore": [
+    "glossary:精灵"
+   ]
+  },
+  {
+   "id": 114,
+   "zh": "吸引水属性攻击,{NEWLINE}免疫伤害并提升特攻。",
+   "en": "Draws in Water moves:{NEWLINE}no damage, ups Sp. Atk.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/114",
+   "qa_ignore": [
+    "glossary:免疫",
+    "glossary:引水"
+   ]
+  },
+  {
+   "id": 115,
+   "zh": "雪天气回复ＨＰ。",
+   "en": "The Pokémon{NEWLINE}regains HP in hail.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/115",
+   "qa_ignore": [
+    "glossary:天气"
+   ]
+  },
+  {
+   "id": 116,
+   "zh": "受到克制自身属性的{NEWLINE}攻击时伤害降低。",
+   "en": "Reduces damage from{NEWLINE}supereffective attacks.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/116 | US text lacked the final period."
+  },
+  {
+   "id": 117,
+   "zh": "上场会引起冰雹,{NEWLINE}效果持续5回合。",
+   "en": "Summons 5 turns of hail{NEWLINE}when it enters battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/117"
+  },
+  {
+   "id": 118,
+   "zh": "有时会自己收集{NEWLINE}甜甜的蜜。",
+   "en": "The Pokémon may gather{NEWLINE}Honey from somewhere.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/118"
+  },
+  {
+   "id": 119,
+   "zh": "可以知道对方携带的{NEWLINE}道具。",
+   "en": "The Pokémon can check{NEWLINE}the foe’s held item.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/119",
+   "qa_ignore": [
+    "glossary:携带"
+   ]
+  },
+  {
+   "id": 120,
+   "zh": "有反作用的技能{NEWLINE}威力上升。",
+   "en": "Powers up moves that{NEWLINE}have recoil damage.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/120"
+  },
+  {
+   "id": 121,
+   "zh": "属性随携带的石板变{NEWLINE}化。",
+   "en": "Changes type to match{NEWLINE}the held Plate.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/121",
+   "qa_ignore": [
+    "glossary:变化",
+    "glossary:携带"
+   ]
+  },
+  {
+   "id": 122,
+   "zh": "晴天时自己和同伴{NEWLINE}的能力增强。",
+   "en": "Powers up it and its{NEWLINE}allies when it is sunny.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/122",
+   "qa_ignore": [
+    "glossary:晴天"
+   ]
+  },
+  {
+   "id": 123,
+   "zh": "睡眠中的对手{NEWLINE}会损失ＨＰ。",
+   "en": "Reduces a sleeping{NEWLINE}foe’s HP.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/123"
+  },
+  {
+   "id": 124,
+   "zh": "盗取接触到自己{NEWLINE}的对手的道具。",
+   "en": "Steals the item of a foe{NEWLINE}that makes contact.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/24 | seed rejected us [ambiguous US match] (candidate US 0722#24; text not kept)"
+  },
+  {
+   "id": 125,
+   "zh": "招式的效果消失{NEWLINE}但招式威力提高。",
+   "en": "Moves lose added{NEWLINE}effects but gain power.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "能力的变化发生逆转{NEWLINE}。",
+   "en": "Reverses any{NEWLINE}stat changes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:变化"
+   ]
+  },
+  {
+   "id": 127,
+   "zh": "让对手紧张，使其{NEWLINE}无法食用树果。",
+   "en": "Unnerves foes so they{NEWLINE}can’t eat Berries.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果"
+   ]
+  },
+  {
+   "id": 128,
+   "zh": "能力被降低时，{NEWLINE}攻击会大幅提高。",
+   "en": "Sharply ups Attack when{NEWLINE}its stats are lowered.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 129,
+   "zh": "HP低于一半时{NEWLINE}攻击和特攻降低。",
+   "en": "Attack and Sp. Atk drop{NEWLINE}when HP is below half.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 130,
+   "zh": "有时封住对手的招式。{NEWLINE}鬼系招式威力有所提高。",
+   "en": "May disable foes’ moves.{NEWLINE}Ups Ghost moves a bit.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 131,
+   "zh": "会治愈异常状态的同{NEWLINE}伴。",
+   "en": "Heals the status{NEWLINE}problems of its allies.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/61 | Hack: heals allies' status (US text said its own).",
+   "qa_ignore": [
+    "glossary:异常状态"
+   ]
+  },
+  {
+   "id": 132,
+   "zh": "可以减少我方的伤害{NEWLINE}。",
+   "en": "Reduces damage{NEWLINE}taken by its allies.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 133,
+   "zh": "受到物理伤害，防御会{NEWLINE}降低，速度会大幅提高。",
+   "en": "Physical hits cut Defense{NEWLINE}but sharply up Speed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 134,
+   "zh": "自身的重量会变为2{NEWLINE}倍。",
+   "en": "Doubles the{NEWLINE}Pokémon’s weight.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "number_missing"
+   ]
+  },
+  {
+   "id": 135,
+   "zh": "自身的重量会减半。",
+   "en": "Halves the{NEWLINE}Pokémon’s weight.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 136,
+   "zh": "HP全满时，受到的{NEWLINE}伤害会变少。",
+   "en": "Takes less damage{NEWLINE}when its HP is full.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 137,
+   "zh": "中毒状态下物理招式{NEWLINE}的威力会提高。",
+   "en": "Powers up physical{NEWLINE}moves when poisoned.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 138,
+   "zh": "灼伤状态下特殊招式{NEWLINE}的威力会提高。",
+   "en": "Powers up special{NEWLINE}moves when burned.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 139,
+   "zh": "可以多次制作出{NEWLINE}已被使用掉的树果。",
+   "en": "Can regrow a used{NEWLINE}Berry again and again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 140,
+   "zh": "闪避队友招式伤害。{NEWLINE}超能技能威力少量提高。",
+   "en": "Dodges allies’ attacks.{NEWLINE}Ups Psychic moves a bit.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 141,
+   "zh": "某项能力会大幅提高，{NEWLINE}而某项会降低。",
+   "en": "Sharply raises one stat{NEWLINE}and lowers another.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 142,
+   "zh": "不受沙暴影响。不会{NEWLINE}受到粉末类招式影响。",
+   "en": "Immune to sandstorms{NEWLINE}and powder moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "接触可能让对手{NEWLINE}变为中毒状态。",
+   "en": "Contact with the Pokémon{NEWLINE}may poison the foe.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0722/38"
+  },
+  {
+   "id": 144,
+   "zh": "退回同行队伍后，{NEWLINE}HP会回复一半。",
+   "en": "Restores half its HP{NEWLINE}when it’s switched out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 145,
+   "zh": "不会受到防御降低的{NEWLINE}效果。",
+   "en": "Protects its Defense{NEWLINE}from being lowered.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "沙暴天气时，{NEWLINE}速度会提高。",
+   "en": "Boosts Speed{NEWLINE}in a sandstorm.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/34 | seed rejected us [ambiguous US match] (candidate US 0722#34; text not kept)",
+   "qa_ignore": [
+    "glossary:天气"
+   ]
+  },
+  {
+   "id": 147,
+   "zh": "不易被变化招式击中。{NEWLINE}特防提升。",
+   "en": "Status moves tend to{NEWLINE}miss it. Ups Sp. Def.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 148,
+   "zh": "最后使出招式，{NEWLINE}招式的威力会提高。",
+   "en": "Powers up its move{NEWLINE}if it moves last.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/89 | seed rejected us [ambiguous US match] (candidate US 0722#89; text not kept)"
+  },
+  {
+   "id": 149,
+   "zh": "假扮成队伍中{NEWLINE}最后一只精灵。",
+   "en": "Poses as the last{NEWLINE}Pokémon in the party.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 150,
+   "zh": "变身为当前面对的{NEWLINE}宝可梦。",
+   "en": "Transforms into{NEWLINE}the foe it is facing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:宝可梦"
+   ]
+  },
+  {
+   "id": 151,
+   "zh": "穿透对手的壁障或{NEWLINE}替身进行攻击。",
+   "en": "Hits through barriers{NEWLINE}and substitutes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:穿透"
+   ]
+  },
+  {
+   "id": 152,
+   "zh": "被对手接触到后{NEWLINE}将对手变为木乃伊。",
+   "en": "Turns foes that{NEWLINE}touch it into mummies.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:木乃伊"
+   ]
+  },
+  {
+   "id": 153,
+   "zh": "如果打倒对手，{NEWLINE}攻击会提高。",
+   "en": "Raises Attack when{NEWLINE}it knocks out a foe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/62 | seed rejected us [ambiguous US match] (candidate US 0722#62; text not kept)"
+  },
+  {
+   "id": 154,
+   "zh": "受恶属性招式攻击，{NEWLINE}攻击会提高。",
+   "en": "Raises Attack when hit{NEWLINE}by a Dark-type move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/78 | seed rejected us [ambiguous US match] (candidate US 0722#78; text not kept)"
+  },
+  {
+   "id": 155,
+   "zh": "受恶、幽灵和虫招式{NEWLINE}攻击时，速度提高。",
+   "en": "Ups Speed when hit by a{NEWLINE}Dark, Ghost or Bug move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/78 | seed rejected us [ambiguous US match] (candidate US 0722#78; text not kept)"
+  },
+  {
+   "id": 156,
+   "zh": "反弹对手使出的变化{NEWLINE}招式。",
+   "en": "Reflects status moves{NEWLINE}back at the foe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 157,
+   "zh": "受草属性招式攻击不会{NEWLINE}受到伤害，攻击会提高。",
+   "en": "Immune to Grass moves,{NEWLINE}which raise its Attack.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 158,
+   "zh": "可以率先使出变化招{NEWLINE}式。",
+   "en": "Its status{NEWLINE}moves go first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 159,
+   "zh": "沙暴下岩石地钢{NEWLINE}招式威力会提高。",
+   "en": "Ups Rock, Ground, Steel{NEWLINE}moves in a sandstorm.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 160,
+   "zh": "用铁刺给予接触到{NEWLINE}自己的对手伤害。",
+   "en": "Its iron barbs hurt{NEWLINE}foes that touch it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/24 | seed rejected us [ambiguous US match] (candidate US 0722#24; text not kept)"
+  },
+  {
+   "id": 161,
+   "zh": "HP变为一半以下时{NEWLINE}，样子会改变。",
+   "en": "Changes form when HP{NEWLINE}drops to half or below.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 162,
+   "zh": "自己和同伴的命中率{NEWLINE}会提高。",
+   "en": "Raises the accuracy{NEWLINE}of it and its allies.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/14 | seed rejected us [ambiguous US match] (candidate US 0722#14; text not kept)"
+  },
+  {
+   "id": 163,
+   "zh": "可以不受对手特性的干扰，{NEWLINE}向对手使出招式。",
+   "en": "Its moves ignore{NEWLINE}the foe’s abilities.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/104 | seed rejected us [ambiguous US match] (candidate US 0722#104; text not kept)"
+  },
+  {
+   "id": 164,
+   "zh": "可以不受对手特性的干扰，{NEWLINE}向对手使出招式。",
+   "en": "Its moves ignore{NEWLINE}the foe’s abilities.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/104 | seed rejected us [ambiguous US match] (candidate US 0722#104; text not kept)"
+  },
+  {
+   "id": 165,
+   "zh": "可以防住向自己和{NEWLINE}同伴发出的心灵攻击。",
+   "en": "Shields it and its allies{NEWLINE}from mental attacks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 166,
+   "zh": "我方所有宝可梦{NEWLINE}不会变为异常状态。",
+   "en": "Its whole team is immune{NEWLINE}to status problems.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:宝可梦",
+    "glossary:异常状态"
+   ]
+  },
+  {
+   "id": 167,
+   "zh": "无论是哪种树果，{NEWLINE}食用后，HP都会回复。",
+   "en": "Restores HP whenever{NEWLINE}it eats any Berry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 168,
+   "zh": "变为与自己使出{NEWLINE}招式相同的属性。",
+   "en": "Changes type to match{NEWLINE}the move it uses.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 169,
+   "zh": "对手给予的物理{NEWLINE}招式的伤害会减半。",
+   "en": "Halves damage from{NEWLINE}physical moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 170,
+   "zh": "夺走被自己的招式{NEWLINE}击中的对手的道具。",
+   "en": "Steals the item of a{NEWLINE}foe it hits with a move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 171,
+   "zh": "可以防住对手的{NEWLINE}球和弹类招式。",
+   "en": "Protects it from{NEWLINE}ball and bomb moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 172,
+   "zh": "如果能力被降低，{NEWLINE}特攻就会大幅提高。",
+   "en": "Sharply ups Sp. Atk when{NEWLINE}its stats are lowered.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 173,
+   "zh": "啃咬类招式的威力{NEWLINE}会提高。",
+   "en": "Powers up{NEWLINE}biting moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/89 | seed rejected us [ambiguous US match] (candidate US 0722#89; text not kept)",
+   "qa_ignore": [
+    "glossary:啃咬"
+   ]
+  },
+  {
+   "id": 174,
+   "zh": "一般属性招式变冰属性。{NEWLINE}威力会少量提高。",
+   "en": "Turns Normal moves into{NEWLINE}stronger Ice moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 175,
+   "zh": "我方的宝可梦{NEWLINE}不会变为睡眠状态。",
+   "en": "Prevents sleep{NEWLINE}for its whole team.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/72 | seed rejected us [ambiguous US match] (candidate US 0722#72; text not kept)",
+   "qa_ignore": [
+    "glossary:宝可梦"
+   ]
+  },
+  {
+   "id": 176,
+   "zh": "使出攻击招式变为刀剑形态{NEWLINE}使出王者盾牌变为盾牌形态",
+   "en": "Attacking: Blade Forme;{NEWLINE}King’s Shield: Shield.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "King’s Shield not named for space (Shield Forme ‘to guard’).; ext-review RV-007"
+  },
+  {
+   "id": 177,
+   "zh": "飞行属性的招式{NEWLINE}可以率先使出。",
+   "en": "Its Flying-type{NEWLINE}moves go first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 178,
+   "zh": "炮类和波导类招式{NEWLINE}的威力会提高。",
+   "en": "Powers up pulse{NEWLINE}and cannon moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/89 | seed rejected us [ambiguous US match] (candidate US 0722#89; text not kept)"
+  },
+  {
+   "id": 179,
+   "zh": "在青草场地时，{NEWLINE}防御会提高。",
+   "en": "Boosts Defense on{NEWLINE}Grassy Terrain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 180,
+   "zh": "同伴消耗了道具时,把自己{NEWLINE}持有的道具给同伴。",
+   "en": "Passes its item to an ally{NEWLINE}that used up its own.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 181,
+   "zh": "物攻招式威力会提高{NEWLINE}。",
+   "en": "Powers up{NEWLINE}physical moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/89 | seed rejected us [ambiguous US match] (candidate US 0722#89; text not kept)"
+  },
+  {
+   "id": 182,
+   "zh": "一般属性招式变妖精{NEWLINE}属性。威力少量提高。",
+   "en": "Turns Normal moves into{NEWLINE}stronger Fairy moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 183,
+   "zh": "对于用攻击接触到自己的对手，{NEWLINE}会降低其速度。",
+   "en": "Lowers the Speed of foes{NEWLINE}that hit it with contact.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 184,
+   "zh": "一般属性招式变飞行{NEWLINE}属性。威力少量提高。",
+   "en": "Turns Normal moves into{NEWLINE}stronger Flying moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 185,
+   "zh": "亲子俩可以合计{NEWLINE}攻击2次。",
+   "en": "Parent and child{NEWLINE}attack twice in total.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "number_missing"
+   ]
+  },
+  {
+   "id": 186,
+   "zh": "全体的恶属性{NEWLINE}招式变强。",
+   "en": "Powers up all Dark-type{NEWLINE}moves on the field.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 187,
+   "zh": "全体的妖精属性{NEWLINE}招式变强。",
+   "en": "Powers up all Fairy-type{NEWLINE}moves on the field.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 188,
+   "zh": "让气场的效果发生逆转，{NEWLINE}降低威力。",
+   "en": "Reverses aura effects,{NEWLINE}weakening those moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 189,
+   "zh": "变为不会受到火属性{NEWLINE}攻击的天气。",
+   "en": "Sets weather that blocks{NEWLINE}Fire-type attacks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/26 | seed rejected us [ambiguous US match] (candidate US 0722#26; text not kept)"
+  },
+  {
+   "id": 190,
+   "zh": "变为不会受到水属性{NEWLINE}攻击的天气。",
+   "en": "Sets weather that blocks{NEWLINE}Water-type attacks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/26 | seed rejected us [ambiguous US match] (candidate US 0722#26; text not kept)"
+  },
+  {
+   "id": 191,
+   "zh": "变为令飞行属性的{NEWLINE}弱点消失的天气。",
+   "en": "Makes winds that remove{NEWLINE}Flying-type weaknesses.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:天气"
+   ]
+  },
+  {
+   "id": 192,
+   "zh": "受到攻击时，{NEWLINE}防御会提高。",
+   "en": "Raises Defense{NEWLINE}when hit.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/78 | seed rejected us [ambiguous US match] (candidate US 0722#78; text not kept)"
+  },
+  {
+   "id": 193,
+   "zh": "HP变为一半时，会慌慌张张逃走，{NEWLINE}退回同行队伍中。",
+   "en": "Panics and flees back{NEWLINE}to the party at half HP.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 194,
+   "zh": "HP变为一半时，为了回避危险，{NEWLINE}会退回到同行队伍中。",
+   "en": "Retreats to the party at{NEWLINE}half HP to avoid danger.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 195,
+   "zh": "受到水属性的招式攻击时，{NEWLINE}防御会大幅提高。",
+   "en": "Sharply raises Defense{NEWLINE}when hit by a Water move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/78 | seed rejected us [ambiguous US match] (candidate US 0722#78; text not kept)"
+  },
+  {
+   "id": 196,
+   "zh": "攻击中毒目标时，{NEWLINE}必定会击中要害。",
+   "en": "Always lands critical{NEWLINE}hits on poisoned foes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 197,
+   "zh": "HP变为一半时，壳会坏掉，{NEWLINE}变得有攻击性。",
+   "en": "Shell breaks at half HP,{NEWLINE}turning it aggressive.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 198,
+   "zh": "可以对替换出场的对手{NEWLINE}以2倍的伤害进行攻击。",
+   "en": "Deals 2x damage to a foe{NEWLINE}that just switched in.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 199,
+   "zh": "降低火属性招式的{NEWLINE}威力，不会灼伤。",
+   "en": "Weakens Fire moves on{NEWLINE}it and prevents burns.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 200,
+   "zh": "钢属性的招式{NEWLINE}威力会提高。",
+   "en": "Powers up{NEWLINE}Steel-type moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/91 | seed rejected us [ambiguous US match] (candidate US 0722#91; text not kept)"
+  },
+  {
+   "id": 201,
+   "zh": "受攻击HP变为一半，{NEWLINE}特攻会提高。",
+   "en": "Ups Sp. Atk when a hit{NEWLINE}drops its HP to half.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 202,
+   "zh": "冰雹天气时，{NEWLINE}速度会提高。",
+   "en": "Boosts Speed{NEWLINE}in hail.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/34 | seed rejected us [ambiguous US match] (candidate US 0722#34; text not kept)",
+   "qa_ignore": [
+    "glossary:天气"
+   ]
+  },
+  {
+   "id": 203,
+   "zh": "可以不接触对手就{NEWLINE}使出所有的招式。",
+   "en": "Uses all its moves{NEWLINE}without making contact.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 204,
+   "zh": "所有的声音的招式{NEWLINE}都变为水属性。",
+   "en": "All its sound moves{NEWLINE}become Water type.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 205,
+   "zh": "可以率先使出回复招{NEWLINE}式。",
+   "en": "Its healing{NEWLINE}moves go first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 206,
+   "zh": "一般属性技能变电系。{NEWLINE}威力会少量提高。",
+   "en": "Turns Normal moves into{NEWLINE}stronger Electric moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 207,
+   "zh": "电气场地时，{NEWLINE}速度会变为2倍。",
+   "en": "Doubles Speed on{NEWLINE}Electric Terrain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "number_missing"
+   ]
+  },
+  {
+   "id": 208,
+   "zh": "HP多的时候会聚起来变强。{NEWLINE}HP剩余量变少时，群体会分崩离析。",
+   "en": "Schools at high HP; the{NEWLINE}school splits at low HP.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 209,
+   "zh": "通过画皮覆盖住身体，{NEWLINE}可以防住1次攻击。",
+   "en": "Its disguise covers it{NEWLINE}and blocks 1 attack.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 210,
+   "zh": "打倒对手时，与训练{NEWLINE}家的牵绊会增强，变{NEWLINE}为小智版甲贺忍蛙。{NEWLINE}飞水手里剑的招式威{NEWLINE}力会增强。",
+   "en": "KOs make Ash-Greninja,{NEWLINE}powering Water Shuriken.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:训练家"
+   ]
+  },
+  {
+   "id": 211,
+   "zh": "HP变为一半时，{NEWLINE}细胞们会赶来支援。",
+   "en": "At half HP, its Cells{NEWLINE}rally to its aid.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 212,
+   "zh": "使钢和毒宝可梦中毒。{NEWLINE}毒技能对钢系效果拔群。",
+   "en": "Can poison Steel/Poison;{NEWLINE}Poison beats Steel.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:宝可梦"
+   ]
+  },
+  {
+   "id": 213,
+   "zh": "总是半梦半醒的状态，{NEWLINE}绝对不会醒来。",
+   "en": "Always half asleep;{NEWLINE}it never wakes up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 214,
+   "zh": "对方无法使出先制招{NEWLINE}式。",
+   "en": "Foes can’t use{NEWLINE}first-strike moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:先制"
+   ]
+  },
+  {
+   "id": 215,
+   "zh": "被对手打倒的时候，{NEWLINE}会给予对手相当于HP剩余量的伤害。",
+   "en": "When KO’d, deals damage{NEWLINE}equal to its remaining HP.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 216,
+   "zh": "有谁使出跳舞招式时，{NEWLINE}自己也能就这么接着使出跳舞招式。",
+   "en": "Copies any dance move{NEWLINE}right after it’s used.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 217,
+   "zh": "会提高我方的{NEWLINE}特殊招式的威力。",
+   "en": "Powers up allies’{NEWLINE}special moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 218,
+   "zh": "接触类招式伤害减半，{NEWLINE}火属性招式伤害增加。",
+   "en": "Halves contact damage,{NEWLINE}but Fire hurts it more.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:增加"
+   ]
+  },
+  {
+   "id": 219,
+   "zh": "让对手吓一跳，{NEWLINE}使其无法对我方使出先制招式。",
+   "en": "Dazzles foes: they can’t{NEWLINE}use first-strike moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:先制"
+   ]
+  },
+  {
+   "id": 220,
+   "zh": "宝可梦每次变为濒死状态时，{NEWLINE}特攻会提高。",
+   "en": "Ups Sp. Atk each time{NEWLINE}a Pokémon faints.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/95 | US seed was Quick Feet-like text (wrong slot); retranslated."
+  },
+  {
+   "id": 221,
+   "zh": "对于用攻击接触到自己的对手，{NEWLINE}会降低其速度。",
+   "en": "Lowers the Speed of foes{NEWLINE}that hit it with contact.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 222,
+   "zh": "继承被打倒的同伴的特性，{NEWLINE}变为相同的特性。",
+   "en": "Takes on the ability{NEWLINE}of a fainted ally.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 223,
+   "zh": "继承被打倒的同伴的特性，{NEWLINE}变为相同的特性。",
+   "en": "Takes on the ability{NEWLINE}of a fainted ally.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 224,
+   "zh": "打倒对手的时候，{NEWLINE}自己最高的那项能力会提高。",
+   "en": "KOing a foe raises{NEWLINE}its highest stat.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 225,
+   "zh": "根据持有的存储碟，{NEWLINE}自己的属性会改变。",
+   "en": "Changes type to match{NEWLINE}the Memory it holds.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 226,
+   "zh": "出场时，会布下{NEWLINE}电气场地。",
+   "en": "Sets Electric Terrain{NEWLINE}when it enters battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 227,
+   "zh": "出场时，会布下{NEWLINE}精神场地。",
+   "en": "Sets Psychic Terrain{NEWLINE}when it enters battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 228,
+   "zh": "出场时，会布下{NEWLINE}薄雾场地。",
+   "en": "Sets Misty Terrain{NEWLINE}when it enters battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 229,
+   "zh": "出场时，会布下{NEWLINE}青草场地。",
+   "en": "Sets Grassy Terrain{NEWLINE}when it enters battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 230,
+   "zh": "不会因为对手的招式或{NEWLINE}特性而被降低能力。",
+   "en": "Foes’ moves and abilities{NEWLINE}can’t lower its stats.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 231,
+   "zh": "HP全满时，{NEWLINE}受到的伤害会变少。",
+   "en": "Takes less damage{NEWLINE}when its HP is full.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 232,
+   "zh": "受到效果绝佳的攻击时，{NEWLINE}可以减弱其威力。",
+   "en": "Weakens supereffective{NEWLINE}attacks against it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/116 | seed rejected us [ambiguous US match] (candidate US 0722#116; text not kept)",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 233,
+   "zh": "效果绝佳的攻击，{NEWLINE}威力会变得更强。",
+   "en": "Its supereffective hits{NEWLINE}get even stronger.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/97 | seed rejected us [ambiguous US match] (candidate US 0722#97; text not kept)",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 234,
+   "zh": "出场时，攻击会提高{NEWLINE}。",
+   "en": "Raises Attack when{NEWLINE}it enters battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 235,
+   "zh": "出场时，防御会提高{NEWLINE}。",
+   "en": "Raises Defense when{NEWLINE}it enters battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 236,
+   "zh": "变为与自己使出的招式{NEWLINE}相同的属性。",
+   "en": "Changes type to match{NEWLINE}the move it uses.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 237,
+   "zh": "没有携带道具时，{NEWLINE}会拾取第1个投出后捕捉失败的精灵球。",
+   "en": "Itemless: fetches the{NEWLINE}first failed Poké Ball.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:携带",
+    "number_missing"
+   ]
+  },
+  {
+   "id": 238,
+   "zh": "受到攻击后撒下棉絮，{NEWLINE}降低除自己以外的所有宝可梦的速度。",
+   "en": "Hit: scatters cotton to{NEWLINE}cut all others’ Speed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:宝可梦"
+   ]
+  },
+  {
+   "id": 239,
+   "zh": "能无视具有吸引对手招式效果{NEWLINE}的特性或招式的影响。",
+   "en": "Ignores moves/abilities{NEWLINE}that draw in attacks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 240,
+   "zh": "只反弹自己受到的能{NEWLINE}力降低效果。",
+   "en": "Bounces back stat{NEWLINE}drops aimed at it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 241,
+   "zh": "冲浪或潜水时会叼来猎物。{NEWLINE}受到伤害时，会吐出猎物进行攻击。",
+   "en": "Surf or Dive nets prey;{NEWLINE}it spits it when hit.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 242,
+   "zh": "能无视具有吸引对手招式效果{NEWLINE}的特性或招式的影响。",
+   "en": "Ignores moves/abilities{NEWLINE}that draw in attacks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 243,
+   "zh": "受到水属性或火属性的招式攻击时，{NEWLINE}速度会巨幅提高。",
+   "en": "Water or Fire hits{NEWLINE}hugely raise its Speed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/78 | seed rejected us [ambiguous US match] (candidate US 0722#78; text not kept)"
+  },
+  {
+   "id": 244,
+   "zh": "声音招式的威力会提高。{NEWLINE}受到的声音招式伤害会减半。",
+   "en": "Ups sound moves; halves{NEWLINE}sound damage taken.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 245,
+   "zh": "受到攻击时，{NEWLINE}会刮起沙暴。",
+   "en": "Whips up a{NEWLINE}sandstorm when hit.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 246,
+   "zh": "受到特殊攻击{NEWLINE}伤害会减半。",
+   "en": "Halves damage from{NEWLINE}special attacks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 247,
+   "zh": "使树果成熟，效果变{NEWLINE}为2倍。",
+   "en": "Ripens Berries,{NEWLINE}doubling their effect.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "number_missing"
+   ]
+  },
+  {
+   "id": 248,
+   "zh": "头部的冰会代替自己承受物理攻击，{NEWLINE}但是样子会改变。下冰雹时，冰会恢复原状。",
+   "en": "Its ice takes a physical{NEWLINE}hit. Hail restores it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Form change not mentioned for space."
+  },
+  {
+   "id": 249,
+   "zh": "队友招式的威力会提{NEWLINE}高。",
+   "en": "Powers up{NEWLINE}allies’ moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/89 | seed rejected us [ambiguous US match] (candidate US 0722#89; text not kept)"
+  },
+  {
+   "id": 250,
+   "zh": "宝可梦的属性会根据{NEWLINE}场地的状态而变化。",
+   "en": "Changes type to{NEWLINE}match the terrain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:变化",
+    "glossary:宝可梦"
+   ]
+  },
+  {
+   "id": 251,
+   "zh": "出场时,所有光墙、反射壁{NEWLINE}和极光幕都会消失。",
+   "en": "Removes all screens and{NEWLINE}Aurora Veil on entry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:光墙",
+    "glossary:反射壁"
+   ]
+  },
+  {
+   "id": 252,
+   "zh": "我方的钢属性{NEWLINE}攻击威力会提高。",
+   "en": "Powers up its side’s{NEWLINE}Steel-type moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 253,
+   "zh": "受到接触类招式攻击时双方{NEWLINE}都会陷入灭歌状态",
+   "en": "Contact hits give both{NEWLINE}sides Perish Song.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 254,
+   "zh": "与使用接触类招式攻击自己{NEWLINE}的宝可梦互换特性。",
+   "en": "Swaps abilities with a{NEWLINE}foe that makes contact.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:宝可梦"
+   ]
+  },
+  {
+   "id": 255,
+   "zh": "虽然攻击会提高，{NEWLINE}但是只能使出一开始所选的招式。",
+   "en": "Ups Attack but locks{NEWLINE}it into its first move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 256,
+   "zh": "所有宝可梦的特性{NEWLINE}效果都会消失",
+   "en": "Nullifies the abilities{NEWLINE}of all Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 257,
+   "zh": "自己和同伴都不会陷入{NEWLINE}中毒的异常状态。",
+   "en": "Prevents poison for{NEWLINE}it and its allies.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:异常状态"
+   ]
+  },
+  {
+   "id": 258,
+   "zh": "每回合结束时会在满腹花纹与{NEWLINE}空腹花纹之间交替改变样子。",
+   "en": "Swaps its full and hungry{NEWLINE}patterns every turn.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 259,
+   "zh": "有时能比对手{NEWLINE}先一步行动。",
+   "en": "Sometimes moves{NEWLINE}before the foe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 260,
+   "zh": "接触类招式无视守住{NEWLINE}。",
+   "en": "Contact moves go{NEWLINE}through Protect.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 261,
+   "zh": "出场时会从贝壳撒药，{NEWLINE}将我方的能力变化复原。",
+   "en": "Its shell medicine resets{NEWLINE}allies’ stat changes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:变化"
+   ]
+  },
+  {
+   "id": 262,
+   "zh": "电属性的招式威力会{NEWLINE}提高。",
+   "en": "Powers up{NEWLINE}Electric-type moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/91 | seed rejected us [ambiguous US match] (candidate US 0722#91; text not kept)"
+  },
+  {
+   "id": 263,
+   "zh": "龙属性的招式威力会{NEWLINE}提高。",
+   "en": "Powers up{NEWLINE}Dragon-type moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/91 | seed rejected us [ambiguous US match] (candidate US 0722#91; text not kept)"
+  },
+  {
+   "id": 264,
+   "zh": "打倒对手时会用冰冷的{NEWLINE}声音嘶鸣并提高攻击。",
+   "en": "KOs make it neigh icily{NEWLINE}and raise its Attack.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 265,
+   "zh": "打倒对手时会用恐怖的{NEWLINE}声音嘶鸣并提高特攻。",
+   "en": "KOs make it neigh eerily{NEWLINE}and raise its Sp. Atk.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 266,
+   "zh": "兼备蕾冠王的紧张感和{NEWLINE}雪暴马的苍白嘶鸣这两种特性。",
+   "en": "Has both Unnerve{NEWLINE}and Chilling Neigh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Calyrex/Glastrier not named for space; the ability names carry it."
+  },
+  {
+   "id": 267,
+   "zh": "兼备蕾冠王的紧张感和{NEWLINE}灵幽马的漆黑嘶鸣这两种特性。",
+   "en": "Has both Unnerve{NEWLINE}and Grim Neigh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Calyrex/Spectrier not named for space."
+  },
+  {
+   "id": 268,
+   "zh": "被对手接触到后，{NEWLINE}甩不掉的气味会沾上对手。",
+   "en": "Foes that touch it{NEWLINE}catch a lingering smell.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 269,
+   "zh": "受到攻击时，{NEWLINE}会将脚下变成青草场地。",
+   "en": "Turns the ground into{NEWLINE}Grassy Terrain when hit.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 270,
+   "zh": "受到火属性的招式攻击时，{NEWLINE}攻击会提高，且不会陷入灼伤状态。",
+   "en": "Fire hits up its Attack;{NEWLINE}it can’t be burned.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/78 | seed rejected us [ambiguous US match] (candidate US 0722#78; text not kept)"
+  },
+  {
+   "id": 271,
+   "zh": "因被对手攻击而HP变为一半时，{NEWLINE}会因愤怒降低防御和特防。但攻击、特攻、速度会提高。",
+   "en": "Half HP: defenses fall,{NEWLINE}attacks and Speed rise.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:愤怒"
+   ]
+  },
+  {
+   "id": 272,
+   "zh": "因洁净的盐而不会陷入异常状态。{NEWLINE}会让幽灵属性的招式伤害减半。",
+   "en": "Salt blocks status;{NEWLINE}Ghost damage is halved.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:异常状态"
+   ]
+  },
+  {
+   "id": 273,
+   "zh": "受到火属性的招式攻击时，{NEWLINE}不会受到伤害，而是会大幅提高防御。",
+   "en": "Fire moves do no damage{NEWLINE}and sharply up Defense.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/78 | seed rejected us [ambiguous US match] (candidate US 0722#78; text not kept)"
+  },
+  {
+   "id": 274,
+   "zh": "顺风或受到风的招式{NEWLINE}攻击不会受到伤害。",
+   "en": "Takes no damage from{NEWLINE}wind moves or Tailwind.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 275,
+   "zh": "受到威吓时，攻击会提高。{NEWLINE}让替换宝可梦的招式和道具无效。",
+   "en": "Intimidate raises Attack.{NEWLINE}Blocks forced switching.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:宝可梦"
+   ]
+  },
+  {
+   "id": 276,
+   "zh": "岩石属性的招式威力{NEWLINE}会提高。",
+   "en": "Powers up{NEWLINE}Rock-type moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/91 | seed rejected us [ambiguous US match] (candidate US 0722#91; text not kept)"
+  },
+  {
+   "id": 277,
+   "zh": "受到风的招式攻击时，{NEWLINE}会变为充电状态。",
+   "en": "Becomes charged when{NEWLINE}hit by a wind move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 278,
+   "zh": "回到同行队伍后，{NEWLINE}会变为全能形态。",
+   "en": "Becomes Hero Form after{NEWLINE}returning to the party.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 279,
+   "zh": "出场时，若我方当中有吃吼霸，{NEWLINE}就会进入其口中，并从其口中发出指令。",
+   "en": "Jumps into an ally{NEWLINE}Dondozo to give orders.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "‘On entry’ dropped for space."
+  },
+  {
+   "id": 280,
+   "zh": "受到伤害时，{NEWLINE}会变为充电状态。",
+   "en": "Becomes charged{NEWLINE}when it takes damage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 281,
+   "zh": "携带着驱劲能量或天气为晴朗时，{NEWLINE}数值最高的能力会提高。",
+   "en": "Top stat up with Booster{NEWLINE}Energy or sunshine.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:天气",
+    "glossary:携带"
+   ]
+  },
+  {
+   "id": 282,
+   "zh": "携带着驱劲能量或在电气场地上时，{NEWLINE}数值最高的能力会提高。",
+   "en": "Top stat up with Booster{NEWLINE}Energy/Electric Terrain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:携带"
+   ]
+  },
+  {
+   "id": 283,
+   "zh": "不会氧化的坚固黄金{NEWLINE}身躯不会受到对手的{NEWLINE}变化招式的影响。",
+   "en": "Its rustproof gold body{NEWLINE}blocks status moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 284,
+   "zh": "以能呼唤灾厄的鼎的力量降低{NEWLINE}除自己以外的宝可梦的特攻。",
+   "en": "Its ruinous vessel cuts{NEWLINE}all others’ Sp. Atk.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:宝可梦"
+   ]
+  },
+  {
+   "id": 285,
+   "zh": "以能呼唤灾厄的剑的力量降低{NEWLINE}除自己以外的宝可梦的防御。",
+   "en": "Its ruinous sword cuts{NEWLINE}all others’ Defense.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:宝可梦"
+   ]
+  },
+  {
+   "id": 286,
+   "zh": "以能呼唤灾厄的简的力量降低{NEWLINE}除自己以外的宝可梦的攻击。",
+   "en": "Its ruinous tablets{NEWLINE}cut all others’ Attack.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:宝可梦"
+   ]
+  },
+  {
+   "id": 287,
+   "zh": "以能呼唤灾厄的勾玉的力量降低{NEWLINE}除自己以外的宝可梦的特防。",
+   "en": "Its ruinous beads cut{NEWLINE}all others’ Sp. Def.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:宝可梦"
+   ]
+  },
+  {
+   "id": 288,
+   "zh": "出场时，会将天气变为晴朗。{NEWLINE}日照强烈时，会通过古代的脉动升高攻击。",
+   "en": "Brings sun on entry.{NEWLINE}Harsh sun ups Attack.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:天气",
+    "glossary:日照"
+   ]
+  },
+  {
+   "id": 289,
+   "zh": "出场时，会布下电气场地。{NEWLINE}处于电气场地时，会通过未来的机关升高特攻。",
+   "en": "Sets Electric Terrain on{NEWLINE}entry, which ups Sp. Atk.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 290,
+   "zh": "对手的能力提高时，{NEWLINE}自己也会趁机同样地提高能力。",
+   "en": "Copies any stat{NEWLINE}boosts the foe gets.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 291,
+   "zh": "吃了树果后，{NEWLINE}会在下一回合结束时从胃反刍出来再吃1次。",
+   "en": "Eats a used Berry again{NEWLINE}at the next turn’s end.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "number_missing"
+   ]
+  },
+  {
+   "id": 292,
+   "zh": "提高切割招式的威力{NEWLINE}。",
+   "en": "Powers up{NEWLINE}slicing moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 293,
+   "zh": "出场时，攻击和特攻{NEWLINE}会按照目前被打倒的{NEWLINE}同伴数量逐渐提升，{NEWLINE}被打倒越多，提升越{NEWLINE}多。",
+   "en": "Ups Attack and Sp. Atk{NEWLINE}for each fainted ally.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 294,
+   "zh": "出场时，{NEWLINE}复制同伴的能力变化。",
+   "en": "Copies an ally’s stat{NEWLINE}changes on entry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:变化",
+    "glossary:复制"
+   ]
+  },
+  {
+   "id": 295,
+   "zh": "受到物理招式的伤害时，{NEWLINE}会在对手脚下散布毒菱。",
+   "en": "Physical hits make it{NEWLINE}scatter Toxic Spikes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 296,
+   "zh": "对手无法对我方{NEWLINE}使出先制招式。",
+   "en": "Blocks first-strike{NEWLINE}moves against its side.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:先制"
+   ]
+  },
+  {
+   "id": 297,
+   "zh": "受到地面属性的招式攻击时，{NEWLINE}不会受到伤害，而是会得到回复。",
+   "en": "Ground moves heal it{NEWLINE}instead of hurting it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:地面"
+   ]
+  },
+  {
+   "id": 298,
+   "zh": "使出变化招式时，{NEWLINE}虽然行动必定会变慢，但能不受对手的特性妨碍。",
+   "en": "Status moves go last but{NEWLINE}ignore foes’ abilities.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 299,
+   "zh": "出场时款待同伴，{NEWLINE}回复其少量HP。",
+   "en": "Heals allies a little HP{NEWLINE}when it enters battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:款待"
+   ]
+  },
+  {
+   "id": 300,
+   "zh": "一般属性和格斗属性{NEWLINE}的招式可以击中幽灵{NEWLINE}属性的宝可梦。无视{NEWLINE}对手的闪避率的变化{NEWLINE}，且命中率不会被降{NEWLINE}低。",
+   "en": "Normal/Fighting moves hit{NEWLINE}Ghosts; ignores evasion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh also says its accuracy can’t be lowered; dropped for space.",
+   "qa_ignore": [
+    "glossary:变化",
+    "glossary:命中",
+    "glossary:宝可梦"
+   ]
+  },
+  {
+   "id": 301,
+   "zh": "将回忆映于心中，让{NEWLINE}碧草面具发出光辉，{NEWLINE}提高自己的速度。",
+   "en": "Its Teal Mask shines,{NEWLINE}raising Speed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "‘with memories’ dropped for space (same for 302–304)."
+  },
+  {
+   "id": 302,
+   "zh": "将回忆映于心中，让{NEWLINE}火灶面具发出光辉，{NEWLINE}提高自己的攻击。",
+   "en": "Its Hearthflame Mask{NEWLINE}shines, raising Attack.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 303,
+   "zh": "将回忆映于心中，让{NEWLINE}水井面具发出光辉，{NEWLINE}提高自己的特防。",
+   "en": "Its Wellspring Mask{NEWLINE}shines, raising Sp. Def.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 304,
+   "zh": "将回忆映于心中，让{NEWLINE}础石面具发出光辉，{NEWLINE}提高自己的防御。",
+   "en": "Its Cornerstone Mask{NEWLINE}shines, raising Defense.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 305,
+   "zh": "凭借含有毒素的锁链{NEWLINE}的力量，有时能让被{NEWLINE}招式击中的对手陷入{NEWLINE}剧毒状态。",
+   "en": "Its toxic chain may badly{NEWLINE}poison foes it hits.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 306,
+   "zh": "首次出场时，会散发{NEWLINE}出甜腻的蜜的香味来{NEWLINE}降低对手的闪避率。",
+   "en": "On first entry, its syrup{NEWLINE}lowers foes’ evasion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 307,
+   "zh": "出场时，会吸收周围{NEWLINE}的能量，变为太晶形{NEWLINE}态。",
+   "en": "Absorbs energy on entry{NEWLINE}to take Terastal Form.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 308,
+   "zh": "甲壳蕴藏着全部属性{NEWLINE}的力量，会将自己H{NEWLINE}P全满时受到的伤害{NEWLINE}全都变为效果不好。",
+   "en": "At full HP, all hits on it{NEWLINE}are not very effective.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 309,
+   "zh": "太乐巴戈斯变为星晶{NEWLINE}形态时，蕴藏在它身{NEWLINE}上的力量会将天气和{NEWLINE}场地的影响全部归零{NEWLINE}。",
+   "en": "Stellar Terapagos erases{NEWLINE}weather and terrain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:形态"
+   ]
+  },
+  {
+   "id": 310,
+   "zh": "因桃歹郎的招式而陷{NEWLINE}入中毒状态的对手同{NEWLINE}时也会陷入混乱状态{NEWLINE}。",
+   "en": "Pecharunt’s poison{NEWLINE}also confuses its foes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:混乱"
+   ]
+  },
+  {
+   "id": 311,
+   "zh": "对面物攻下降一级，{NEWLINE}吸引火技能特攻上升。",
+   "en": "Foes’ Attack -1 stage.{NEWLINE}Draws Fire to up Sp. Atk.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:引火"
+   ]
+  },
+  {
+   "id": 312,
+   "zh": "物攻提升30%，{NEWLINE}攻击力不会被降低。",
+   "en": "Ups Attack by 30%;{NEWLINE}Attack can’t be lowered.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-006"
+  },
+  {
+   "id": 313,
+   "zh": "发动大晴天，且晴天{NEWLINE}非火系精灵损失HP。",
+   "en": "Summons harsh sun, which{NEWLINE}hurts non-Fire Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:大晴天",
+    "glossary:晴天"
+   ]
+  },
+  {
+   "id": 314,
+   "zh": "在场地四周{NEWLINE}升起极光幕。",
+   "en": "Raises Aurora Veil{NEWLINE}around the field.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:场地"
+   ]
+  },
+  {
+   "id": 315,
+   "zh": "发动电气场地。电气{NEWLINE}场地下先制技能无效。",
+   "en": "Sets Electric Terrain;{NEWLINE}first-strike moves fail.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:先制"
+   ]
+  },
+  {
+   "id": 316,
+   "zh": "命中率有所提高。",
+   "en": "Somewhat raises{NEWLINE}accuracy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/14 | seed rejected us [ambiguous US match] (candidate US 0722#14; text not kept)"
+  },
+  {
+   "id": 317,
+   "zh": "一般系招式会变火系，{NEWLINE}威力会少量提高。",
+   "en": "Turns Normal moves into{NEWLINE}stronger Fire moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 318,
+   "zh": "一般系招式会变水系，{NEWLINE}威力会少量提高。",
+   "en": "Turns Normal moves into{NEWLINE}stronger Water moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 319,
+   "zh": "一般系招式会变草系，{NEWLINE}威力会少量提高。",
+   "en": "Turns Normal moves into{NEWLINE}stronger Grass moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 320,
+   "zh": "一般系招式会变恶系，{NEWLINE}威力会少量提高。",
+   "en": "Turns Normal moves into{NEWLINE}stronger Dark moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 321,
+   "zh": "以大晴天状态使用招{NEWLINE}式。",
+   "en": "Uses moves as if{NEWLINE}in harsh sunlight.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:大晴天"
+   ]
+  },
+  {
+   "id": 322,
+   "zh": "火系威力提升。",
+   "en": "Powers up{NEWLINE}Fire-type moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 323,
+   "zh": "不会受到对手的{NEWLINE}变化招式的影响",
+   "en": "Unaffected by the{NEWLINE}foe’s status moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/19 | seed rejected us [ambiguous US match] (candidate US 0722#19; text not kept)"
+  },
+  {
+   "id": 324,
+   "zh": "一般系招式会变龙系，{NEWLINE}威力会少量提高。",
+   "en": "Turns Normal moves into{NEWLINE}stronger Dragon moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:威力"
+   ]
+  },
+  {
+   "id": 325,
+   "zh": "命中率有所提高。",
+   "en": "Somewhat raises{NEWLINE}accuracy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0722/14 | seed rejected us [ambiguous US match] (candidate US 0722#14; text not kept)"
+  },
+  {
+   "id": 326,
+   "zh": "沙暴天气下，速度{NEWLINE}大幅提升，物攻提升。",
+   "en": "Sandstorm: sharply ups{NEWLINE}Speed and ups Attack.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:天气"
+   ]
+  },
+  {
+   "id": 327,
+   "zh": "异常状态队友所受{NEWLINE}伤害减少1/4，{NEWLINE}并每回合结束{NEWLINE}恢复1/4血量。",
+   "en": "Statused allies: 1/4 less{NEWLINE}damage, heal 1/4 a turn.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "No name slot in 0711; hack sheet calls it 月光守护 (Moonlight Guard?).",
+   "qa_ignore": [
+    "glossary:异常状态"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import TrainerCard from '../../components/TrainerCard.astro';
+import { trainers, url } from '../../lib/data';
+const order = ['Gym Leaders', 'Rival battles', 'Elite Four', 'Champions', 'Team Rocket bosses and Executives', 'Other named Trainers'];
+const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+const groups = order.map((g) => ({ g, list: trainers.filter((t) => t.group === g) })).filter((x) => x.list.length);
+---
+<StarlightPage frontmatter={{ title: 'Trainers', description: 'Teams of every Gym Leader, rival, Elite Four member and boss in Origin HeartGold.' }}
+	headings={groups.map((x) => ({ depth: 2, slug: slug(x.g), text: x.g }))}>
+	<p>Full teams with levels, abilities, held items, natures and moves for the important battles. Several leaders have more than one team
+	(rematches, different story branches, or a double-battle version). Each card lists where you battle the team, whether it is a
+	single, double or multi battle, and what decides it: your menu answer, your starter, your gender or the Badges you have.
+	"Only in some story branches" means it depends on story progress; the quest guide explains when.
+	Every other trainer is listed on its <a href={url('/locations/')}>location page</a>.</p>
+	{groups.map((x) => <>
+		<h2 id={slug(x.g)}>{x.g}</h2>
+		{x.list.map((t) => <TrainerCard t={t} showPlaces />)}
+	</>)}
+</StarlightPage>

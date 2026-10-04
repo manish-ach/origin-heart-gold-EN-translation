@@ -1,0 +1,534 @@
+{
+ "narc": "a027",
+ "bank": 562,
+ "source": "work/extract/v4/a027/0562.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "您好,需要我送您回一之岛吗？{NEWLINE}每人次服务费500元。",
+   "en": "Hello. Would you like me to take you{NEWLINE}back to One Island? The fare is $500{CLEAR}per person.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Seven Island."
+  },
+  {
+   "id": 1,
+   "zh": "随时恭候您的光临。",
+   "en": "We’re always at your service.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "好的,请跟我来吧。",
+   "en": "Very well. Please follow me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "抱歉,您身上的钱不够支付服务费。",
+   "en": "Sorry, you don’t have enough money to{NEWLINE}pay the fare.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "这里是七之岛。{NEWLINE}祭祀神器的祠堂就在这里。",
+   "en": "This is Seven Island. Home of the shrine{NEWLINE}where the relic is enshrined.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "水都群岛真是个平和安静的地方,{NEWLINE}来这里养老应该挺不错的。{CLEAR}不过像这种景区的房价,{CLEAR}应该挺贵的吧。",
+   "en": "The Alto Mare Islands are so peaceful{NEWLINE}and quiet. It’d be a nice place to{CLEAR}retire. But houses in a tourist spot{CLEAR}like this must cost a fortune.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "年轻时候我就一直想来{NEWLINE}水都群岛看看,{CLEAR}可是直到退休了{CLEAR}我才有机会出这么远的门旅行。{CLEAR}人啊,忙忙碌碌一辈子,{CLEAR}终于能清闲片刻了。",
+   "en": "Ever since I was young, I’ve wanted to{NEWLINE}see the Alto Mare Islands. But it{CLEAR}wasn’t until I retired that I got the{CLEAR}chance to travel so far. A person{CLEAR}spends a whole life rushing around{CLEAR}before finally getting a moment’s peace.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "我们七之岛最著名景点{NEWLINE}是北边的神器祠堂,{CLEAR}不过游客只能参观{CLEAR}祠堂最外面的石室。{SCROLL}想要进入祠堂深处,{NEWLINE}必须通过每年一度的{CLEAR}诸岛巡礼考验才行。",
+   "en": "The most famous sight on Seven Island{NEWLINE}is the Relic Shrine to the north. But{CLEAR}tourists can only visit the outermost{CLEAR}stone chamber.{SCROLL}To enter the depths of the shrine, you{NEWLINE}have to pass the trials of the Island{CLEAR}Pilgrimage, held once a year.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "您是……联盟冠军{VAR:0103:0}大人吧？{NEWLINE}欢迎来到七之岛啊。{CLEAR}再过不久我们水都群岛的{CLEAR}诸岛巡礼就要开始了,{CLEAR}到时候希望您能赏光参加啊！",
+   "en": "You’re... League Champion {VAR:0103:0},{NEWLINE}aren’t you? Welcome to Seven Island!{CLEAR}Before long, the Island Pilgrimage of{CLEAR}the Alto Mare Islands will begin. I hope{CLEAR}you’ll honor us by taking part!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "欢迎冠军大人光临我们七之岛,{NEWLINE}现在水都群岛的{CLEAR}诸岛巡礼挑战已经开始。{CLEAR}如果像您这样伟大的训练家{CLEAR}能够参加今年的巡礼,{CLEAR}那我们将深感荣幸。{CLEAR}不知道冠军大人您意下如何？",
+   "en": "Welcome to Seven Island, Champion. The{NEWLINE}Island Pilgrimage challenge of the Alto{CLEAR}Mare Islands has now begun. If a{CLEAR}Trainer as great as you took part in{CLEAR}this year’s pilgrimage, we would be{CLEAR}deeply honored. What do you{CLEAR}say, Champion?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Seven Island chief: explains the Island Pilgrimage rules and gives the final Double Battle trial with his grandson."
+  },
+  {
+   "id": 10,
+   "zh": "我要参加诸岛巡礼",
+   "en": "I’ll join the Island Pilgrimage",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 11,
+   "zh": "我再想想",
+   "en": "Let me think about it",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "好的,我等您的好消息。",
+   "en": "Very well. I’ll await your good news.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "非常感谢冠军大人赏光参加。{NEWLINE}现在我向您介绍一下诸岛巡礼的规则。{CLEAR}您需要先去一到六之岛,{CLEAR}在那里接受各个岛主的巡礼考验。{SCROLL}其中,一之岛的岛主是图书馆馆长,{NEWLINE}二之岛的岛主是道场的极梅婆婆,{CLEAR}三之岛的岛主暂时由{CLEAR}联盟派来的工程师担任,{CLEAR}四之岛的岛主是戴草帽的壮汉,{CLEAR}五之岛的岛主是和尚们的长老,{CLEAR}六之岛的岛主是岛上最年长的训练家。{SCROLL}通过前六个岛的考验后回到我这里,{NEWLINE}由我给您最终的考验。{CLEAR}通过七个岛的全部考验后,{CLEAR}就算您完成了诸岛巡礼。{SCROLL}在挑战的过程中{NEWLINE}如果您还有什么疑惑,{CLEAR}随时可以来问我。",
+   "en": "Thank you so much for taking part,{NEWLINE}Champion. Let me explain the rules of{CLEAR}the Island Pilgrimage. First, go to One{CLEAR}Island through Six Island and take on{CLEAR}each island chief’s pilgrimage trial.{SCROLL}The chief of One Island is the library{NEWLINE}director. The chief of Two Island is{CLEAR}Granny Mae of the training hall. The{CLEAR}chief of Three Island is, for now, an{CLEAR}engineer sent by the League. The chief{CLEAR}of Four Island is a burly man in a straw{CLEAR}hat. The chief of Five Island is the{CLEAR}monks’ Elder. The chief of Six Island is{CLEAR}the oldest Trainer on the island.{SCROLL}Once you’ve passed the first six{NEWLINE}islands’ trials, come back to me, and{CLEAR}I’ll give you the final trial. When{CLEAR}you’ve passed the trials of all seven{CLEAR}islands, you’ll have completed the{CLEAR}Island Pilgrimage.{SCROLL}If you have any questions during the{NEWLINE}challenge, feel free to ask me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "一之岛的岛主是图书馆馆长,{NEWLINE}二之岛的岛主是道场的极梅婆婆,{CLEAR}三之岛的岛主暂时由{CLEAR}联盟派来的工程师担任,{CLEAR}四之岛的岛主是戴草帽的壮汉,{CLEAR}五之岛的岛主是和尚们的长老,{CLEAR}六之岛的岛主是岛上最年长的训练家。{SCROLL}通过前六个岛的考验后回到我这里,{NEWLINE}由我给您最终的考验。{CLEAR}通过七个岛的全部考验后,{CLEAR}就算您完成了诸岛巡礼。",
+   "en": "The chief of One Island is the library{NEWLINE}director. The chief of Two Island is{CLEAR}Granny Mae of the training hall. The{CLEAR}chief of Three Island is, for now, an{CLEAR}engineer sent by the League. The chief{CLEAR}of Four Island is a burly man in a straw{CLEAR}hat. The chief of Five Island is the{CLEAR}monks’ Elder. The chief of Six Island is{CLEAR}the oldest Trainer on the island.{SCROLL}Once you’ve passed the first six{NEWLINE}islands’ trials, come back to me, and{CLEAR}I’ll give you the final trial. When{CLEAR}you’ve passed the trials of all seven{CLEAR}islands, you’ll have completed the{CLEAR}Island Pilgrimage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "我已经收到各个岛主的消息了,{NEWLINE}冠军大人您已经完成了{CLEAR}前面六个岛的全部考验。{CLEAR}那么现在可以开始七之岛的考验了。{CLEAR}其实这里的考验也非常简单,{CLEAR}只要您能在双打对战中{CLEAR}打败我和我的孙子联手,{CLEAR}就算您通过考验、完成诸岛巡礼。{CLEAR}请问您现在做好准备了吗？",
+   "en": "I’ve heard from every island chief.{NEWLINE}Champion, you have passed all the trials{CLEAR}of the first six islands. So now the{CLEAR}Seven Island trial can begin.{SCROLL}The trial here is actually very simple.{NEWLINE}Beat my grandson and me together in a{CLEAR}Double Battle, and you pass the trial{CLEAR}and complete the Island Pilgrimage. Are{CLEAR}you ready now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "您准备好之后随时可以来找我。",
+   "en": "Come see me anytime once you’re ready.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "好,那我现在去召集一下观众。",
+   "en": "Very well. I’ll go gather an{NEWLINE}audience now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "其实七之岛的考验只需要战胜",
+   "en": "Actually, all the Seven Island trial{NEWLINE}takes is beating",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Unfinished fragment in the zh (sentence cut off)."
+  },
+  {
+   "id": 19,
+   "zh": "各位游客,各位居民。{NEWLINE}本次参加七之岛巡礼挑战的,{CLEAR}是咱们的联盟冠军{VAR:0103:0}。{CLEAR}为了表达对冠军大人的敬意,{CLEAR}我特意邀请大家来这里观战。{SCROLL}下面将由我和我的孙子,{NEWLINE}共同迎战联盟冠军,{CLEAR}这必将是一场精彩的对战,{CLEAR}请大家拭目以待！",
+   "en": "Tourists and residents, everyone! The{NEWLINE}challenger for the Seven Island{CLEAR}Pilgrimage this time is none other than{CLEAR}our League Champion, {VAR:0103:0}! To show{CLEAR}our respect for the Champion, I’ve{CLEAR}invited you all here to watch.{SCROLL}Now my grandson and I will face the{NEWLINE}League Champion together. This is sure{CLEAR}to be a thrilling battle, so{CLEAR}watch closely!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "冠军大人,巡礼考验现在可以开始了！",
+   "en": "Champion, the pilgrimage trial may{NEWLINE}now begin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "不愧是联盟冠军,{NEWLINE}我们爷孙联手也无法与您抗衡。{CLEAR}恭喜您通过了最后的考验,{CLEAR}您已经完成了诸岛巡礼！",
+   "en": "Just what I’d expect from the League{NEWLINE}Champion. Even my grandson and I{CLEAR}together are no match for you.{CLEAR}Congratulations on passing the final{CLEAR}trial. You have completed the{CLEAR}Island Pilgrimage!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "通过诸岛巡礼之后,{NEWLINE}您便有资格进入神器祠堂的深处了,{CLEAR}那是我们水都群岛最古老、{CLEAR}最神圣的地方。{CLEAR}如果您想收服传说中的口袋妖怪,{CLEAR}神器祠堂里的信息{CLEAR}或许对您会有所帮助。",
+   "en": "Now that you’ve completed the Island{NEWLINE}Pilgrimage, you have the right to enter{CLEAR}the depths of the Relic Shrine. It’s the{CLEAR}oldest and most sacred place in the{CLEAR}Alto Mare Islands. If you wish to catch{CLEAR}legendary Pokémon, what you find in the{CLEAR}Relic Shrine may be of help.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "我是专门负责照顾精灵的护士,{NEWLINE}如果您的精灵需要恢复,{CLEAR}我可以帮您哦。{SCROLL}要恢复精灵吗？",
+   "en": "I’m a nurse who looks after Pokémon. If{NEWLINE}your Pokémon need healing, I can{CLEAR}help you.{SCROLL}Would you like me to heal your Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "需要的话随时可以来找我。",
+   "en": "Come see me anytime you need me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "好的,其您稍等。",
+   "en": "Very well. Please wait a moment.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 其您稍等 read as 请您稍等."
+  },
+  {
+   "id": 26,
+   "zh": "您的精灵已经恢复如初了,{NEWLINE}请带上它们好好享受这趟水都之旅吧。",
+   "en": "Your Pokémon are good as new. Please{NEWLINE}take them along and enjoy your trip to{CLEAR}Alto Mare.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "幸福蛋『Bliii——sey！",
+   "en": "Blissey: Bliii-sey!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "我带来的零食还没怎么吃呢,{NEWLINE}就莫名其妙少了一大半,{CLEAR}谁能告诉我这是怎么回事啊！",
+   "en": "I’ve barely touched the snacks I{NEWLINE}brought, and somehow more than half of{CLEAR}them are gone! Can someone tell me{CLEAR}what’s going on?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "看到七之岛这些房子的草屋顶,{NEWLINE}我就忍不住想吐一把火{CLEAR}把它们都给烧了。{SCROLL}啊——我已经压抑不住{NEWLINE}内心的狂热之火了,{CLEAR}你跟我来场精灵对战帮我发泄发泄吧！",
+   "en": "Seeing the thatched roofs on the{NEWLINE}houses of Seven Island, I just want to{CLEAR}breathe fire and burn them all down.{SCROLL}Aaagh! I can’t hold back the burning{NEWLINE}passion inside me anymore! Have a{CLEAR}Pokémon battle with me and help me let{CLEAR}off some steam!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "啊……输掉之后就冷静多了,{NEWLINE}果然出来旅游还是不能太冲动。{CLEAR}刚才那么突然地拉你对战{CLEAR}真是不好意思,{CLEAR}这个送给你就当做是补偿吧。",
+   "en": "Ah... I’ve cooled down a lot after{NEWLINE}losing. You really shouldn’t get so{CLEAR}worked up on vacation. I’m sorry for{CLEAR}dragging you into a battle out of{CLEAR}nowhere like that. Please take this to{CLEAR}make up for it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "啊……输掉之后就冷静多了,{NEWLINE}果然出来旅游还是不能太冲动。",
+   "en": "Ah... I’ve cooled down a lot after{NEWLINE}losing. You really shouldn’t get so{CLEAR}worked up on vacation.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "鸭嘴炎兽『Maaaaa——mor！",
+   "en": "Magmortar: Maaaaa-mor!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "前面好像有什么东西挡着,{NEWLINE}走不动了。",
+   "en": "Something seems to be blocking the way{NEWLINE}ahead. You can’t move forward.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "{VAR:0100:1}『Nooo——tow！",
+   "en": "{VAR:0100:1}: Nooo-tow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "{VAR:0103:0}『{VAR:0100:1},怎么了吗？",
+   "en": "{VAR:0103:0}: {VAR:0100:1}, what’s wrong?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "变隐龙正在吃零食。",
+   "en": "Kecleon is eating snacks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "变隐龙『Keee——leo！{SCROLL}变隐龙受到惊吓扑了过来。",
+   "en": "Kecleon: Keee-leo!{SCROLL}Startled, Kecleon lunged at you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "哎？你说变隐龙偷走了我的零食？{NEWLINE}居然一次偷走那么多,{CLEAR}真是个贪吃的家伙。{SCROLL}不过零食被精灵吃掉还好啦,{NEWLINE}总算是没有浪费。{CLEAR}谢谢你帮我弄清楚怎么回事,{CLEAR}我这里还剩下点零食,{CLEAR}送你一个吧。",
+   "en": "Huh? You’re saying a Kecleon stole my{NEWLINE}snacks? It took that many at once?{CLEAR}What a glutton.{SCROLL}Still, it’s fine if a Pokémon ate them. At{NEWLINE}least they didn’t go to waste. Thanks{CLEAR}for figuring out what happened. I have{CLEAR}a few snacks left. Here, have one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "变隐龙手中的零食掉在了地上。",
+   "en": "The snacks in Kecleon’s hands fell to{NEWLINE}the ground.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "或许是因为长期跟人类接触的关系,{NEWLINE}有些精灵会逐渐喜欢上人类的食物。{CLEAR}如果只是偶尔吃吃还好,{CLEAR}万一碰上那种只吃人类食物的精灵,{CLEAR}这饲养成本可就贵了去了。",
+   "en": "Maybe it’s from spending so much time{NEWLINE}around people, but some Pokémon{CLEAR}gradually grow to like human food. It’s{CLEAR}fine if they eat it once in a while. But if{CLEAR}you get a Pokémon that eats nothing{CLEAR}but human food, it’ll cost you a fortune{CLEAR}to raise.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "这里是神器祠堂。{NEWLINE}传说中能连接天界的神器就放在这里。",
+   "en": "This is the Relic Shrine. The legendary{NEWLINE}relic that can connect to the heavens{CLEAR}is kept here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "东边这间房子里住着一位{NEWLINE}非常乐善好施的婆婆哦,{CLEAR}来七之岛的游客有困难了{CLEAR}都会去找她帮忙。{SCROLL}有次我的包裹被岛上的变隐龙偷走了,{NEWLINE}就是这位婆婆帮忙找回来的呢。",
+   "en": "A very generous old lady lives in the{NEWLINE}house to the east. Whenever tourists{CLEAR}on Seven Island are in trouble, they go{CLEAR}to her for help.{SCROLL}Once, a Kecleon on the island stole my{NEWLINE}bag, and she helped me get it back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "我去年参加诸岛巡礼挑战失败了,{NEWLINE}于是我就留在岛上苦练,{CLEAR}我感觉现在的自己已经进步很多了。{CLEAR}你愿意跟我来场战斗{CLEAR}帮我确认下实力水平吗？",
+   "en": "I failed the Island Pilgrimage challenge{NEWLINE}last year, so I stayed on the island to{CLEAR}train hard. I feel like I’ve improved a{CLEAR}lot. Will you battle me and help me check{CLEAR}my level?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "你是想单打还是双打？",
+   "en": "Do you want Singles or Doubles?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 46,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 47,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 48,
+   "zh": "好！无论哪种方式我都不会输的！",
+   "en": "All right! Either way, I won’t lose!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "唉,输了。{NEWLINE}看来想要参加诸岛巡礼,{CLEAR}还需要再好好准备准备。",
+   "en": "Sigh, I lost. Looks like I need more{NEWLINE}preparation before I take part in the{CLEAR}Island Pilgrimage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "只有一只精灵没法双打。",
+   "en": "You can’t have a Double Battle with only{NEWLINE}one Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "您参加的是双打比赛,{NEWLINE}请至少携带两只精灵再来参赛。",
+   "en": "You’re entering a Double Battle. Please{NEWLINE}bring at least two Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "我也想参加诸岛巡礼,{NEWLINE}可是以我的水平好像还不太够。",
+   "en": "I want to take part in the Island{NEWLINE}Pilgrimage too, but I don’t think I’m{CLEAR}good enough yet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "我听说诸岛巡礼的其中一个考验{NEWLINE}是要打败二之岛的极梅婆婆。{CLEAR}但她可是出了名的水都最强训练家,{CLEAR}外来的训练家姑且不说,{CLEAR}水都本地的训练家{CLEAR}恐怕没人是她的对手吧？",
+   "en": "I heard one of the Island Pilgrimage{NEWLINE}trials is beating Granny Mae on Two{CLEAR}Island. But she’s famous as the{CLEAR}strongest Trainer in Alto Mare. Never{CLEAR}mind outside Trainers, I doubt any local{CLEAR}Trainer in Alto Mare could beat her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "珍珠贝『Claaa——per！",
+   "en": "Clamperl: Claaa-per!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "哈哈,那个老太婆真好骗,{NEWLINE}珍珠贝里的珍珠本来就是拿来采的。{CLEAR}这样一来我不仅采了珍珠贝的珍珠,{CLEAR}还白拿一颗大珍珠,真是赚翻了。",
+   "en": "Ha ha, that old hag is so easy to fool!{NEWLINE}You’re supposed to harvest the pearls{CLEAR}in Clamperl anyway. This way, I got my{CLEAR}Clamperl’s pearl AND a free Big Pearl.{CLEAR}What a killing!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#55-#64: the Big Pearl scam (see 0443 #131-#146); #62 male / #63 female player."
+  },
+  {
+   "id": 56,
+   "zh": "原来你是骗人的,把大珍珠还回去",
+   "en": "You lied! Give back the Big Pearl",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'So you scammed her. Give the Big{NEWLINE}Pearl back'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 57,
+   "zh": "原来如此,不关我事",
+   "en": "I see. Not my business",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 58,
+   "zh": "{VAR:0103:0}『原来你是在骗那位老奶奶,{NEWLINE}你的珍珠贝根本就没有事。{CLEAR}你这样做太缺德了,{CLEAR}赶紧把大珍珠还回去。",
+   "en": "{VAR:0103:0}: So you were scamming that old{NEWLINE}lady! Your Clamperl was fine all along.{CLEAR}That’s just rotten. Give back the Big{CLEAR}Pearl, now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "人家愿意给,我愿意要,{NEWLINE}用不着你来多管闲事。",
+   "en": "She was willing to give, and I was willing{NEWLINE}to take. Nobody asked you to butt in.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "{VAR:0103:0}『老奶奶愿意给你,{NEWLINE}那是因为被你骗了,{CLEAR}你根本就没有资格拿那颗大珍珠！",
+   "en": "{VAR:0103:0}: She was only willing to give it{NEWLINE}to you because you tricked her. You{CLEAR}have no right to that Big Pearl!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "你这家伙太吵了,给我闭嘴！",
+   "en": "You’re way too noisy. Shut up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "居然打女人,你真不是个男人！{NEWLINE}你那么喜欢大珍珠,还给你就是！{CLEAR}呸！",
+   "en": "Hitting a woman? You’re no real man! If{NEWLINE}you love the Big Pearl so much, then{CLEAR}take it back! Pfft!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "好了好了,别打了！{NEWLINE}你那么喜欢大珍珠,还给你就是！{CLEAR}呸！",
+   "en": "All right, all right, stop! If you love{NEWLINE}the Big Pearl so much, then take it{CLEAR}back! Pfft!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "本小姐可是从来不吃亏的,{NEWLINE}遇到你这么个家伙{CLEAR}我真是倒了血霉了。",
+   "en": "This young lady never gets the short{NEWLINE}end of the stick. Running into someone{CLEAR}like you is just my rotten luck.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

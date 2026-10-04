@@ -1,0 +1,863 @@
+{
+ "narc": "a027",
+ "bank": 591,
+ "source": "work/extract/v4/a027/0591.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "欢迎光临！{NEWLINE}这里是游戏专柜！{SCROLL}",
+   "en": "Welcome! This is the Game Corner!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Goldenrod Game Corner (JP slots; the US replaced it with Voltorb Flip). Menu/prize labels follow the Celadon Game Corner (0501/0502). #53-#63 Gold and his Togepi at the slots; #67-#99 magnet cheater: #74 return the magnet (2000 coins) vs #75 report him (50 coins)."
+  },
+  {
+   "id": 1,
+   "zh": "您要游戏代币吗？{SCROLL}很抱歉,您没有可供存放代币的{NEWLINE}代币盒！",
+   "en": "Would you like some game coins?{SCROLL}I’m very sorry, but you don’t{NEWLINE}have a Coin Case to hold coins!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "您要游戏代币吗？{SCROLL}每50枚共计500元,{NEWLINE}请问要购买代币吗？{VAR:0200:0}",
+   "en": "Would you like some game coins?{SCROLL}It’s $500 for 50 coins.{NEWLINE}Would you like to buy some?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "感谢您的购买！{NEWLINE}这是代币,请收好！{VAR:0200:0}",
+   "en": "Thank you for your purchase!{NEWLINE}Here are your coins!{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "您的钱不够！",
+   "en": "You don’t have enough money!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "您的代币盒满了！",
+   "en": "Your Coin Case is full!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "不要吗？{NEWLINE}欢迎下次再来！",
+   "en": "You don’t want any? Please come again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "欢迎光临！{SCROLL}您可以在这里用代币{CLEAR}换取自己喜欢的奖品！{VAR:0200:0}",
+   "en": "Welcome!{SCROLL}You can exchange your coins here{NEWLINE}for the prize of your choice!{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "是么,{NEWLINE}那请您多多积攒代币！",
+   "en": "I see. Then please{NEWLINE}save up lots of coins!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "您的代币不够。{VAR:0200:0}",
+   "en": "You don’t have enough coins.{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0108:0},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "{VAR:0108:0}.{NEWLINE}Is that right?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "请收好！{SCROLL}",
+   "en": "Here you go!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "您的包满了。{SCROLL}",
+   "en": "Your Bag is full.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "您无法再携带更多的精灵。{SCROLL}请把身边的存放掉之后再来我这。",
+   "en": "You can’t carry any more Pokémon.{SCROLL}Please deposit some of the{NEWLINE}Pokémon with you, then come back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "要{VAR:0100:1}吗？{VAR:0200:0}",
+   "en": "Would you like {VAR:0100:1}?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0103:0}{NEWLINE}得到了{VAR:0100:1}！{VAR:0200:0}",
+   "en": "{VAR:0103:0} received{NEWLINE}{VAR:0100:1}!{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "欢迎光临！{SCROLL}您可以在这里用代币{CLEAR}换取自己喜欢的精灵！{VAR:0200:0}",
+   "en": "Welcome!{SCROLL}You can exchange your coins here{NEWLINE}for the Pokémon of your choice!{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0108:0}{NEWLINE}放进了{VAR:0112:1}{VAR:0200:0}口袋",
+   "en": "You put away the {VAR:0108:0}{NEWLINE}in the {VAR:0112:1} Pocket.{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "这台老虎机{NEWLINE}比其他几台容易中多了。",
+   "en": "This slot machine pays out a lot{NEWLINE}more easily than the others.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "好玩吗？{NEWLINE}这里的老虎机{CLEAR}可都是最新型的！{SCROLL}在关东你休想找到{NEWLINE}如此前卫的游戏机专柜！",
+   "en": "Having fun? The slot machines{NEWLINE}here are all the latest models!{SCROLL}You won’t find a Game Corner this{NEWLINE}cutting-edge anywhere in Kanto!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "我的人生都倾注在这一把上！{NEWLINE}转,给我转起来！",
+   "en": "My whole life is riding on this{NEWLINE}spin! Come on, spin! Spin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "这台老虎机的滚筒{NEWLINE}从左面开始停起,{SCROLL}有灯在闪烁时,{NEWLINE}说明该滚筒可以停住。",
+   "en": "The reels on this slot{NEWLINE}machine stop from the left.{SCROLL}When a light is flashing, it{NEWLINE}means that reel can be stopped.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "不胜不罢手！",
+   "en": "I’m not quitting till I win!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "我那只精灵{NEWLINE}学会冷冻光线了！{SCROLL}这代币可是攒了我好久的,{NEWLINE}但好在总算是有回报了。",
+   "en": "My Pokémon learned Ice Beam!{SCROLL}It took me forever to save up{NEWLINE}the coins, but it finally paid off.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "整天盯着老虎机屏幕{NEWLINE}搞得我头晕眼花的。",
+   "en": "Staring at slot machine{NEWLINE}screens all day has me dizzy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "没有代币盒,{NEWLINE}无法进行游戏。",
+   "en": "You can’t play without a Coin Case.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "代币不够,{NEWLINE}无法进行游戏！",
+   "en": "You don’t have enough coins to play!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "关于老虎机,我有一段又疯狂{NEWLINE}又漫长的故事,想听听吗？{VAR:0200:0}",
+   "en": "I’ve got a wild, long story about{NEWLINE}slot machines. Want to hear it?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "你还想听那段{NEWLINE}又疯狂又漫长的故事吗？{VAR:0200:0}",
+   "en": "Still want to hear my wild, long story?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "什么时候想听那段漫长的故事了,{NEWLINE}就到我这来吧。",
+   "en": "Whenever you want to hear{NEWLINE}that long story, come see me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "听完我这段又疯狂又漫长的故事,{NEWLINE}是不是觉得受益匪浅？",
+   "en": "After hearing my wild, long story,{NEWLINE}don’t you feel like you learned a lot?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "要玩好老虎机,{NEWLINE}你就得摸清上面滚筒。{SCROLL}先预读滚筒的的动向,{NEWLINE}拉的时候要稍稍提前一点,{CLEAR}这样就比较容易中。{SCROLL}「７」比较好认,{NEWLINE}你得盯紧点。",
+   "en": "To be good at slots, you have{NEWLINE}to get a feel for the reels.{SCROLL}Read where the reels are{NEWLINE}going and press a little early.{CLEAR}That way it’s easier to hit.{SCROLL}The ‘7’ is easy to spot,{NEWLINE}so keep your eyes on it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "如果凑齐了「皮卡丘」「玛力露」{NEWLINE}「柑果」「重试」,{SCROLL}你就要仔细观察{NEWLINE}屏幕内的图图犬。{SCROLL}图图犬若是高兴,{NEWLINE}则出现「７」或是「精灵球」时,{CLEAR}你能获得的代币{CLEAR}将大幅度增加！{SCROLL}所以当滚筒凑齐后,{NEWLINE}你要注意一下图图犬的表情。",
+   "en": "If you line up Pikachu,{NEWLINE}Marill, Apricorn or Replay,{SCROLL}watch the Smeargle on{NEWLINE}the screen closely.{SCROLL}If Smeargle is happy, then when{NEWLINE}a ‘7’ or a Poké Ball comes up,{CLEAR}the coins you win will go way up!{SCROLL}So once the reels line up, keep{NEWLINE}an eye on Smeargle’s expression.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Slot symbols: 柑果 → Apricorn (as 柑果大叔 → Uncle Apricorn), 重试 → Replay, 图图犬 = Smeargle."
+  },
+  {
+   "id": 33,
+   "zh": "老虎机游戏中{NEWLINE}有三种{CLEAR}表示图图犬心情的模式。{SCROLL}第一个是「普通模式」。{SCROLL}游戏必定是从{NEWLINE}普通模式开始进行的。{SCROLL}第二个是「萎靡模式」{SCROLL}当你看到图图犬周围{NEWLINE}都变成蓝色时,{CLEAR}就说明进入了萎靡模式。{SCROLL}该模式下不太容易中{NEWLINE}「７」或者「精灵球」,{SCROLL}但是更容易中{NEWLINE}「皮卡丘」「柑果」{CLEAR}「玛力露」「重试」。{SCROLL}第三个是「兴奋模式」{SCROLL}当你看到图图犬周围{NEWLINE}都变成红色时,{CLEAR}就说明进入了兴奋模式。{SCROLL}该模式下能更容易中{NEWLINE}「７」或者「精灵球」,{CLEAR}是你发财的好机会！！{SCROLL}当你熟练掌握这三种模式后,{NEWLINE}你会发现胜利来得是如此简单,{CLEAR}去好好观察吧。",
+   "en": "The slot game has three modes{NEWLINE}that show Smeargle’s mood.{SCROLL}The first is Normal Mode.{SCROLL}The game always starts in Normal Mode.{SCROLL}The second is Gloomy Mode.{SCROLL}When you see the area around Smeargle{NEWLINE}turn blue, you’ve entered Gloomy Mode.{SCROLL}In this mode, it’s harder{NEWLINE}to hit a ‘7’ or a Poké Ball,{SCROLL}but easier to hit Pikachu,{NEWLINE}Apricorn, Marill or Replay.{SCROLL}The third is Excited Mode.{SCROLL}When you see the area around Smeargle{NEWLINE}turn red, you’ve entered Excited Mode.{SCROLL}In this mode, it’s easier to hit{NEWLINE}a ‘7’ or a Poké Ball. It’s your{CLEAR}big chance to strike it rich!!{SCROLL}Once you’ve mastered these{NEWLINE}three modes, you’ll find winning{CLEAR}is a breeze. Go watch closely.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "当图图犬出现{NEWLINE}愤怒表情时,{CLEAR}说明它此时心情很糟糕。{SCROLL}如果你错失了{NEWLINE}「７」或者「精灵球」,{SCROLL}它就会怒不可赦,{NEWLINE}没准会改变{CLEAR}现在的模式！{SCROLL}愤怒表情越多,{NEWLINE}越容易动怒。{SCROLL}模式转换之后,{NEWLINE}图图犬便发泄了自己的情绪,{CLEAR}会出现许许多多的笑脸,{SCROLL}一定时间内{NEWLINE}不会再次改变模式。{SCROLL}但如果你多次不中,{NEWLINE}它的情绪又会逐步下降。",
+   "en": "When Smeargle makes an angry{NEWLINE}face, it’s in a really bad mood.{SCROLL}If you miss a ‘7’ or a Poké Ball,{SCROLL}it’ll get furious and might{NEWLINE}even change the current mode!{SCROLL}The more angry faces,{NEWLINE}the quicker it gets mad.{SCROLL}Once the mode changes, Smeargle{NEWLINE}has let off steam, and lots{CLEAR}of smiling faces will appear.{SCROLL}The mode won’t change again for a while.{SCROLL}But if you keep missing, its{NEWLINE}mood will slowly drop again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "当中了「７」或者「精灵球」后,{NEWLINE}你就可以玩上奖励游戏。{SCROLL}在奖励游戏下,{NEWLINE}中奖的几率会增加,{CLEAR}也是你发财的好机会。{SCROLL}另外,当奖励游戏结束后{NEWLINE}必定会进入兴奋模式,{SCROLL}这将延续你中大奖的好运！{SCROLL}在奖励游戏中中得越多,{SCROLL}兴奋模式的持续时间也会延长。",
+   "en": "When you hit a ‘7’ or a Poké Ball,{NEWLINE}you get to play the bonus game.{SCROLL}In the bonus game, your odds{NEWLINE}of winning go up. It’s another{CLEAR}great chance to strike it rich.{SCROLL}Also, once the bonus game ends,{NEWLINE}you’ll always enter Excited Mode.{SCROLL}That keeps your lucky streak going!{SCROLL}The more you win in the bonus game,{SCROLL}the longer Excited Mode will last.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s); other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 37,
+   "zh": "技能机",
+   "en": "TECHNICAL MACHINE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 38,
+   "zh": "装备　道具",
+   "en": "HELD ITEMS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 39,
+   "zh": "替身{NEWLINE}２０００枚",
+   "en": "Substitute{NEWLINE}2,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 40,
+   "zh": "剑舞{NEWLINE}４０００枚",
+   "en": "Swords Dance{NEWLINE}4,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 41,
+   "zh": "睡觉{NEWLINE}６０００枚",
+   "en": "Rest{NEWLINE}6,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 42,
+   "zh": "火焰放射{NEWLINE}１００００枚",
+   "en": "Flamethrower{NEWLINE}10,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 43,
+   "zh": "冷冻光线{NEWLINE}１００００枚",
+   "en": "Ice Beam{NEWLINE}10,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 44,
+   "zh": "十万伏特{NEWLINE}１００００枚",
+   "en": "Thunderbolt{NEWLINE}10,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 45,
+   "zh": "丝巾{NEWLINE}１０００枚",
+   "en": "Silk Scarf{NEWLINE}1,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 46,
+   "zh": "广角镜片{NEWLINE}１０００枚",
+   "en": "Wide Lens{NEWLINE}1,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 47,
+   "zh": "聚焦镜片{NEWLINE}１０００枚",
+   "en": "Zoom Lens{NEWLINE}1,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 48,
+   "zh": "节拍器{NEWLINE}１０００枚",
+   "en": "Metronome{NEWLINE}1,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 49,
+   "zh": "凯西　　　２００枚",
+   "en": "Abra, 200 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Pokémon prize labels written two-line like 0502 #33-#35 (zh is one line with padding). | menu width fix (follow-up 1): was 'Abra{NEWLINE}200 Coins'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 50,
+   "zh": "阿柏蛇　　７００枚",
+   "en": "Ekans, 700 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Ekans{NEWLINE}700 Coins'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 51,
+   "zh": "迷你龙　　２１００枚",
+   "en": "Dratini, 2,100 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Dratini{NEWLINE}2,100 Coins'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 52,
+   "zh": "穿山鼠　　７００枚",
+   "en": "Sandshrew, 700 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Sandshrew{NEWLINE}700 Coins'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 53,
+   "zh": "阿金『中！中！中！",
+   "en": "Gold: Hit! Hit! Hit!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "阿金『好耶！是三个精灵球！",
+   "en": "Gold: Yes! Three Poké Balls!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "阿金『你那边怎么样啊波克比？",
+   "en": "Gold: How’re you doing{NEWLINE}over there, Togepi?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh says 波克比 (species) here, not the nickname Togebo."
+  },
+  {
+   "id": 56,
+   "zh": "波克比『Tog——pi！",
+   "en": "Togepi: Tog-pi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "阿金『我去,三个7！？{NEWLINE}你居然中这么多？",
+   "en": "Gold: Damn, three 7s?!{NEWLINE}You hit that many?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "阿金『呀,是偶像啊。{NEWLINE}我刚刚玩老虎机太专注了,{CLEAR}都没注意到你就在旁边,哈哈。",
+   "en": "Gold: Oh, it’s you, Idol! I was so{NEWLINE}into the slots I didn’t even notice{CLEAR}you were right next to me, ha ha.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "{VAR:0103:0}『这只波克比是……？",
+   "en": "{VAR:0103:0}: This Togepi is...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "阿金『哦,它呀。{NEWLINE}它是我在桔梗市的时候,{CLEAR}空木博士派助手来送给我一个精灵蛋,{CLEAR}经过我一番精心照料之后,{CLEAR}孵化出来的哦。{SCROLL}阿金『别看它才刚孵化,{NEWLINE}它懂的东西可多了,{CLEAR}玩老虎机的中奖率比我都高。{CLEAR}哈哈,这大概就是精灵随主吧。",
+   "en": "Gold: Oh, this little guy? Back in{NEWLINE}Violet City, Professor Elm sent his{CLEAR}aide to give me an Egg, and after I{CLEAR}took real good care of it, it hatched.{SCROLL}Gold: It may have just hatched,{NEWLINE}but it knows a lot. It wins at the{CLEAR}slots even more than I do. Ha ha,{CLEAR}guess it takes after its Trainer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "阿金『我跟波克比在这里{NEWLINE}赢了不少代币,{CLEAR}正好偶像你也有代币盒,{CLEAR}那这些代币就分给你吧。",
+   "en": "Gold: Togepi and I won a bunch{NEWLINE}of coins here. And you’ve got{CLEAR}a Coin Case too, Idol, so I’ll{CLEAR}share these coins with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "得到了1000枚代币！",
+   "en": "Received 1000 coins!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "阿金『老虎机很好玩的,{NEWLINE}偶像你也来试试吧。",
+   "en": "Gold: The slots are a blast.{NEWLINE}Give ’em a try too, Idol!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "买50枚硬币,500元",
+   "en": "50 coins for $500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 65,
+   "zh": "买500枚硬币,5000元",
+   "en": "500 coins for $5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 66,
+   "zh": "不要",
+   "en": "No, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 67,
+   "zh": "嘿嘿嘿,我想赢多少就赢多少！",
+   "en": "Heh heh heh, I can win{NEWLINE}as much as I want!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "你带着小磁怪！？{SCROLL}离我远点！",
+   "en": "You’ve got a Magnemite?!{SCROLL}Stay away from me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "小磁怪好像很高兴。",
+   "en": "Magnemite seems happy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "喂！离我远点！",
+   "en": "Hey! Stay away from me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "男子怀里的磁铁{NEWLINE}被小磁怪吸出来了！",
+   "en": "Magnemite pulled a magnet{NEWLINE}out of the man’s coat!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "你干什么！快把磁铁还给我！",
+   "en": "What are you doing?!{NEWLINE}Give me back my magnet!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "呜呜呜……把磁铁还给我好不好,{NEWLINE}我玩老虎机还要指望它呢。{CLEAR}只要你把磁铁还给我,{CLEAR}我就给你2000个代币！{CLEAR}怎么样？",
+   "en": "*sob*... Please give me back my{NEWLINE}magnet. I’m counting on it for the{CLEAR}slots. If you give it back, I’ll{CLEAR}give you 2000 coins! How about it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "好,磁铁还给你",
+   "en": "OK, here’s your magnet",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 75,
+   "zh": "我要举报你用磁铁作弊",
+   "en": "I’ll report you for cheating",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 76,
+   "zh": "{VAR:0103:0}『用磁铁作弊是不对的,{NEWLINE}你乖乖跟我去游戏厅前台认罚吧！",
+   "en": "{VAR:0103:0}: Cheating with a magnet{NEWLINE}is wrong. Come with me quietly{CLEAR}to the Game Corner counter{CLEAR}and take your punishment!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "你……！",
+   "en": "You...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "{VAR:0103:0}『你好,这个人刚才{NEWLINE}在游戏厅用磁铁作弊,{CLEAR}应该是用这种方式赢了不少代币。",
+   "en": "{VAR:0103:0}: Hello. This man was{NEWLINE}cheating at the Game Corner{CLEAR}with a magnet just now. He must{CLEAR}have won lots of coins that way.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "还有这种事！？",
+   "en": "He did what?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "就是你用磁铁作弊赢取代币？",
+   "en": "So you’re the one who’s been{NEWLINE}cheating with a magnet to win coins?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "呜……啊……嗯……",
+   "en": "Uh... ah... um...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "是……是……",
+   "en": "Y-yes...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "真是的,什么年代了还干这种{NEWLINE}小偷小摸占小便宜的事！{CLEAR}按照本店的规定,{CLEAR}你除了要归还作弊赢的代币外,{CLEAR}还要再支付等额的赔偿金。",
+   "en": "Honestly, who still pulls petty{NEWLINE}scams like this these days? By{CLEAR}the rules of this establishment,{CLEAR}besides returning the coins you{CLEAR}won by cheating, you must also pay{CLEAR}the same amount in compensation.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "啊……我……我没钱……",
+   "en": "Ah... I... I don’t have any money...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "没钱就留在我们店里打工偿还吧,{NEWLINE}或者是你想被送去坐牢？",
+   "en": "No money? Then you can stay{NEWLINE}and work it off here. Or{CLEAR}would you rather go to jail?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "我打工！我打工！",
+   "en": "I’ll work! I’ll work!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "谢谢你帮忙抓住了这家伙,{NEWLINE}为我们店避免了不少损失。{CLEAR}这50个代币是我们店的一点心意,{CLEAR}请你收下吧！",
+   "en": "Thank you for helping catch this{NEWLINE}guy. You saved us from some big{CLEAR}losses. Please accept these 50 coins{CLEAR}as a small token of our thanks!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "{VAR:0103:0}『看在代币的份上,{NEWLINE}磁铁还给你吧。",
+   "en": "{VAR:0103:0}: For the coins’ sake,{NEWLINE}here’s your magnet back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "嘿嘿,多谢多谢！请收下这些代币。",
+   "en": "Heh heh, thanks a bunch!{NEWLINE}Please take these coins.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "我用磁铁的事不要说出去哦,拜托了！",
+   "en": "Don’t tell anyone I used{NEWLINE}a magnet, OK? Please!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "靠我必胜的老虎机诀窍,{NEWLINE}一夜暴富不是梦哈哈哈！",
+   "en": "With my never-fail slot tricks,{NEWLINE}getting rich overnight isn’t{CLEAR}just a dream, hah hah hah!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "我是这个游戏厅里最富有的人,{NEWLINE}哈哈哈哈哈哈哈哈！",
+   "en": "I’m the richest person in this{NEWLINE}Game Corner, hah hah hah hah hah!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "因为最近客人们的中奖率特别高,{NEWLINE}所以代币涨价了。{CLEAR}每50枚共计5000元,{NEWLINE}请问要购买代币吗？{VAR:0200:0}",
+   "en": "Our customers have been winning{NEWLINE}so much lately that coin prices{CLEAR}have gone up. It’s $5000 for 50{CLEAR}coins. Would you like to buy some?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "买50枚硬币,5000元",
+   "en": "50 coins for $5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 95,
+   "zh": "买500枚硬币,50000元",
+   "en": "500 coins for $50000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 96,
+   "zh": "这家游戏厅里{NEWLINE}有一个人的中奖率高的离谱……",
+   "en": "There’s someone in this Game Corner{NEWLINE}who wins ridiculously often...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "呜呜呜……为什么我总是中不了奖,{NEWLINE}而有的人却赚那么多……",
+   "en": "*sob*... Why do I never win,{NEWLINE}while some people rake it in...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "我看到有的人能疯狂地中奖,{NEWLINE}就觉得这里中奖励应该很高,{CLEAR}于是就把全部身家压在了老虎机上,{CLEAR}可事实却是我根本中不了将,{CLEAR}现在都快赔得倾家荡产了……",
+   "en": "I saw some people winning like crazy,{NEWLINE}so I figured the payouts here must{CLEAR}be big. I bet everything I owned on{CLEAR}the slots, but I can’t win at all.{CLEAR}Now I’ve lost nearly everything...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "打工很累的你知不知道！{NEWLINE}我怎么就被你给抓住了呢……{CLEAR}真是太倒霉了。",
+   "en": "Do you have any idea how exhausting{NEWLINE}this job is?! How did I ever get{CLEAR}caught by you... Just my rotten luck.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "爆太郎『Quii——la！",
+   "en": "Exbo: Quii-la!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "小磁怪『Maaa——ge！",
+   "en": "Magnemite: Maaa-ge!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "得到了2000枚代币！",
+   "en": "Received 2000 coins!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "得到了50枚代币！",
+   "en": "Received 50 coins!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

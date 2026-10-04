@@ -1,0 +1,2036 @@
+{
+ "narc": "a027",
+ "bank": 589,
+ "source": "work/extract/v4/a027/0589.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "选技能机不能只看威力,{NEWLINE}好的附加效果往往能够出奇制胜。",
+   "en": "When you pick a TM, don’t just look{NEWLINE}at its power. A good added effect can{CLEAR}often win you the battle by surprise.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "六楼的抽奖你试过了吗？{NEWLINE}我试了好多次都只是三等奖,{CLEAR}感觉亏死了。",
+   "en": "Have you tried the prize drawing{NEWLINE}on the sixth floor? I tried it{CLEAR}so many times, but only ever{CLEAR}got third prize. What a rip-off.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "逛街逛累了之后,{NEWLINE}在顶楼喝杯饮料休息一下,{CLEAR}这感觉真的好棒。",
+   "en": "When you’re tired from shopping,{NEWLINE}having a drink up on the{CLEAR}roof to rest feels so good.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "满金广播电台的主播们都是名人哦。{NEWLINE}无论是城都还是关东,{CLEAR}在哪里都能听到他们的声音。",
+   "en": "The hosts on Goldenrod Radio{NEWLINE}are all celebrities. Whether{CLEAR}you’re in Johto or Kanto, you{CLEAR}can hear their voices anywhere.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "巨钳螳螂『Sciii——zor！",
+   "en": "Scizor: Sciii-zor!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "派拉斯『Paaa——ra！",
+   "en": "Paras: Paaa-ra!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "欢迎！{NEWLINE}要买东西是吧？{SCROLL}",
+   "en": "Welcome! Looking to buy something?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags page_breaks_lost; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 7,
+   "zh": "多谢惠顾。",
+   "en": "Thank you. Please come again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 8,
+   "zh": "高级伤药{NEWLINE}4000元",
+   "en": "Hyper Potion{NEWLINE}$4000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "全回复药{NEWLINE}5000元",
+   "en": "Max Potion{NEWLINE}$5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "烧伤药{NEWLINE}250元",
+   "en": "Burn Heal{NEWLINE}$250",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "解冻药{NEWLINE}250元",
+   "en": "Ice Heal{NEWLINE}$250",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 13,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 14,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 15,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s)"
+  },
+  {
+   "id": 16,
+   "zh": "好的,给你,{NEWLINE}谢谢惠顾。",
+   "en": "Here you go. Thank you{NEWLINE}for shopping with us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 17,
+   "zh": "对不起啊客人,{NEWLINE}您带的钱好像不够。",
+   "en": "Sorry, it looks like you{NEWLINE}don’t have enough money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 18,
+   "zh": "请问还有什么可以帮您的吗？{SCROLL}",
+   "en": "Is there anything else{NEWLINE}I can help you with?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), flags page_breaks_lost; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 19,
+   "zh": "回复精灵体力{NEWLINE}４层……药店",
+   "en": "Restore Your Pokémon’s HP{NEWLINE}4F Medicine Box",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "给你心爱的精灵{NEWLINE}５层……技能机与PP专柜",
+   "en": "For Your Beloved Pokémon{NEWLINE}5F TM & PP Corner",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "如若购物疲累{NEWLINE}６层……休息广场",
+   "en": "Take a Break from Shopping!{NEWLINE}6F Rooftop Atrium",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0597/4"
+  },
+  {
+   "id": 22,
+   "zh": "TM15 破坏光线{NEWLINE}4000元",
+   "en": "TM15 Hyper Beam{NEWLINE}$4000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "TM49 抢夺{NEWLINE}3000元",
+   "en": "TM49 Snatch{NEWLINE}$3000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "TM77 自我暗示{NEWLINE}3000元",
+   "en": "TM77 Psych Up{NEWLINE}$3000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "TM78 诱惑{NEWLINE}3000元",
+   "en": "TM78 Captivate{NEWLINE}$3000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "PP小回复 1000元",
+   "en": "Ether $1000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "PP大回复 2000元",
+   "en": "Max Ether $2000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "PP量回复 3000元",
+   "en": "Elixir $3000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "PP上升剂{NEWLINE}9800元",
+   "en": "PP Up{NEWLINE}$9800",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "欢迎来到{NEWLINE}黄金百货商店的名店{CLEAR}每日大抽奖！{SCROLL}一次３００元,{NEWLINE}有精美奖品等待您,{SCROLL}想抽一个试试吗？{VAR:0200:0}",
+   "en": "The must-try of the Goldenrod{NEWLINE}Department Store!{CLEAR}Welcome to the Daily Drawing Corner!{SCROLL}You can try it for $300, and we have{NEWLINE}wonderful prizes!{SCROLL}Would you like to try it? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0597/10"
+  },
+  {
+   "id": 31,
+   "zh": "请抽奖！{SCROLL}……　……　……{NEWLINE}……　……　……{SCROLL}",
+   "en": "All right. Please draw one!{SCROLL}...{NEWLINE}...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0597/11"
+  },
+  {
+   "id": 32,
+   "zh": "哎呀……",
+   "en": "Oh my...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0597/14"
+  },
+  {
+   "id": 33,
+   "zh": "哎呀…{NEWLINE}看来钱不够呢。{SCROLL}那么,请下次再来。",
+   "en": "Oh my...{NEWLINE}You’re short of money.{SCROLL}Please come again.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0597/16"
+  },
+  {
+   "id": 34,
+   "zh": "呀！{NEWLINE}尊敬的顾客,您是{VAR:0132:0}等奖！{SCROLL}请选择您喜欢的纪念品！{SCROLL}",
+   "en": "Wow!{NEWLINE}You’ve got yourself the no. {VAR:0132:0} prize!{SCROLL}Please take it.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0597/12"
+  },
+  {
+   "id": 35,
+   "zh": "哎呀…{NEWLINE}背包好像装满了呢。{SCROLL}那么,请收回您的钱。{SCROLL}",
+   "en": "Oh my...{NEWLINE}Your Bag is full.{SCROLL}Then we’ll refund you the money.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0597/15"
+  },
+  {
+   "id": 36,
+   "zh": "那么,请下次再来。",
+   "en": "Then please come again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "周日的奖品为……{SCROLL}１等奖　心之鳞片{NEWLINE}２等奖　速度球{CLEAR}３等奖　树果{CLEAR}欢迎参与。",
+   "en": "Sunday’s prizes are...{SCROLL}1st prize: Heart Scale{NEWLINE}2nd prize: Fast Ball{CLEAR}3rd prize: a Berry{CLEAR}Come try your luck!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0597/18 Hack changed the daily drawing prizes (US listed TMs); #37-#43 rewritten from the zh (珍贵球 = Cherish Ball, glossary)."
+  },
+  {
+   "id": 38,
+   "zh": "周一的奖品为……{SCROLL}１等奖　圣灰{NEWLINE}２等奖　等级球{CLEAR}３等奖　树果{CLEAR}欢迎参与。",
+   "en": "Monday’s prizes are...{SCROLL}1st prize: Sacred Ash{NEWLINE}2nd prize: Level Ball{CLEAR}3rd prize: a Berry{CLEAR}Come try your luck!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0597/19"
+  },
+  {
+   "id": 39,
+   "zh": "周二的奖品为……{SCROLL}１等奖　幸运蛋{NEWLINE}２等奖　诱饵球{CLEAR}３等奖　树果{CLEAR}欢迎参与。",
+   "en": "Tuesday’s prizes are...{SCROLL}1st prize: Lucky Egg{NEWLINE}2nd prize: Lure Ball{CLEAR}3rd prize: a Berry{CLEAR}Come try your luck!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0597/20"
+  },
+  {
+   "id": 40,
+   "zh": "周三的奖品为……{SCROLL}１等奖　神奇糖果{NEWLINE}２等奖　重量球{CLEAR}３等奖　树果{CLEAR}欢迎参与。",
+   "en": "Wednesday’s prizes are...{SCROLL}1st prize: Rare Candy{NEWLINE}2nd prize: Heavy Ball{CLEAR}3rd prize: a Berry{CLEAR}Come try your luck!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0597/21"
+  },
+  {
+   "id": 41,
+   "zh": "周四的奖品为……{SCROLL}１等奖　PP最大剂{NEWLINE}２等奖　爱情球{CLEAR}３等奖　树果{CLEAR}欢迎参与。",
+   "en": "Thursday’s prizes are...{SCROLL}1st prize: PP Max{NEWLINE}2nd prize: Love Ball{CLEAR}3rd prize: a Berry{CLEAR}Come try your luck!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0597/22"
+  },
+  {
+   "id": 42,
+   "zh": "周五的奖品为……{SCROLL}１等奖　珍贵球{NEWLINE}２等奖　朋友球{CLEAR}３等奖　树果{CLEAR}欢迎参与。",
+   "en": "Friday’s prizes are...{SCROLL}1st prize: Cherish Ball{NEWLINE}2nd prize: Friend Ball{CLEAR}3rd prize: a Berry{CLEAR}Come try your luck!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0597/23"
+  },
+  {
+   "id": 43,
+   "zh": "周六的奖品为……{SCROLL}１等奖　PP全回复{NEWLINE}２等奖　月亮球{CLEAR}３等奖　树果{CLEAR}欢迎参与。",
+   "en": "Saturday’s prizes are...{SCROLL}1st prize: Max Elixir{NEWLINE}2nd prize: Moon Ball{CLEAR}3rd prize: a Berry{CLEAR}Come try your luck!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0597/24"
+  },
+  {
+   "id": 44,
+   "zh": "有自动售货机！{NEWLINE}想要什么饮料……{VAR:0200:0}",
+   "en": "It’s a vending machine.{NEWLINE}Which drink would you like? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0597/5"
+  },
+  {
+   "id": 45,
+   "zh": "还是算了。",
+   "en": "Decided not to buy a drink.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0597/9"
+  },
+  {
+   "id": 46,
+   "zh": "咕咚！{SCROLL}{VAR:0108:0}出来了！{SCROLL}",
+   "en": "Clang!{SCROLL}A can of {VAR:0108:0} dropped down.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0597/6"
+  },
+  {
+   "id": 47,
+   "zh": "咕咚！{SCROLL}中了！又有一堆的{NEWLINE}{VAR:0108:0}出来了！{SCROLL}",
+   "en": "Clang!{SCROLL}Bonus! Another bunch of{NEWLINE}{VAR:0108:0} dropped down!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "有自动售货机！{NEWLINE}想要什么饮料……{VAR:0200:0}",
+   "en": "It’s a vending machine.{NEWLINE}Which drink would you like? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0597/5"
+  },
+  {
+   "id": 49,
+   "zh": "钱不够了！",
+   "en": "Not enough money...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0597/8"
+  },
+  {
+   "id": 50,
+   "zh": "我说老大爷！在商场里{NEWLINE}你可不能放出土狼犬这种精灵。{CLEAR}万一它突然咬人怎么办？",
+   "en": "Hey, old man! You can’t let a{NEWLINE}Poochyena loose in the mall. What{CLEAR}if it suddenly bites someone?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#50-#85 blind man and his Poochyena guide dog: #60 speak up → #61-#77 (argue, battle the two shoppers) vs leave → #79-#81."
+  },
+  {
+   "id": 51,
+   "zh": "我是个盲人,{NEWLINE}这只土狼犬是我的导盲犬。{CLEAR}它受过专业的训练,{CLEAR}绝不会攻击周围的人,请你放心。",
+   "en": "I’m blind. This Poochyena is my guide{NEWLINE}dog. It’s been professionally trained{CLEAR}and would never attack anyone{CLEAR}around it, so please don’t worry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "那只是您以为的不攻击人,{NEWLINE}土狼犬可是恶属性精灵,{CLEAR}还是出了名的喜欢追着人跑！",
+   "en": "That’s only what you think. Poochyena{NEWLINE}are Dark-type Pokémon, and{CLEAR}they’re famous for chasing people!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "就是嘛,哪有用土狼犬当导盲犬的,{NEWLINE}要用也是用卡蒂狗好吧？",
+   "en": "Exactly. Who uses a Poochyena{NEWLINE}as a guide dog? If you need one,{CLEAR}at least use a Growlithe, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "我的土狼犬很乖的,{NEWLINE}它真的帮助了我非常多,{CLEAR}一点也不比别的精灵差。{SCROLL}你说是吧,土狼犬。",
+   "en": "My Poochyena is very well behaved.{NEWLINE}It’s truly helped me so much, and it’s{CLEAR}every bit as good as any other Pokémon.{SCROLL}Isn’t that right, Poochyena?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "土狼犬『Pooo——chy！",
+   "en": "Poochyena: Pooo-chy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "好凶的叫声啊,{NEWLINE}我听着就感觉好害怕……",
+   "en": "What a vicious bark. Just{NEWLINE}hearing it scares me...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "土狼犬『Po……",
+   "en": "Poochyena: Po...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "老大爷你看,{NEWLINE}你的土狼犬真的会吓到别人。{CLEAR}所以你还是赶紧带着你的狗走吧,{CLEAR}商场不是它待的地方。",
+   "en": "See, old man? Your Poochyena really{NEWLINE}does scare people. So just take your{CLEAR}dog and go. A mall is no place for it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "唉,好吧。我走就是。",
+   "en": "Sigh... All right. I’ll go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "要为老人说话吗？",
+   "en": "Speak up for the old man?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "{VAR:0103:0}『等一下！",
+   "en": "{VAR:0103:0}: Wait!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "{VAR:0103:0}『商场里可没说{NEWLINE}不准带导盲犬进入。{CLEAR}请对盲人和工作犬宽容点好吗？",
+   "en": "{VAR:0103:0}: Nothing says guide dogs{NEWLINE}aren’t allowed in the mall. Could you{CLEAR}please be a little more understanding{CLEAR}toward blind people and working dogs?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 64,
+   "zh": "人家老大爷都没说什么,{NEWLINE}都答应要离开了,{CLEAR}你跑出来装什么英雄啊。",
+   "en": "The old man himself didn’t say a word,{NEWLINE}and he already agreed to leave. Who are{CLEAR}you to come out here playing the hero?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "就是啊,万一这种恶属性狗把人咬了,{NEWLINE}你难道会跟这位老大爷一起赔钱？",
+   "en": "Exactly. If this Dark-type mutt{NEWLINE}bites someone, are you going to pay{CLEAR}damages along with the old man?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "{VAR:0103:0}『导盲犬是经过{NEWLINE}特殊训练的精灵,{CLEAR}你们不该用种类、属性的固有印象{CLEAR}来否定这只土狼犬对人类的善意。",
+   "en": "{VAR:0103:0}: Guide dogs are Pokémon{NEWLINE}with special training. You shouldn’t{CLEAR}let stereotypes about species{CLEAR}and types deny the goodwill this{CLEAR}Poochyena has toward people.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "呵！今天遇到爱狗人士了。",
+   "en": "Ha! Looks like we’ve met{NEWLINE}a real dog lover today.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "要是狗把你妈咬了,{NEWLINE}我就不信你还能在这装圣母。",
+   "en": "If that dog bit your mom, I{NEWLINE}bet you wouldn’t be standing{CLEAR}here playing the saint.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "{VAR:0103:0}『随你们怎么说,{NEWLINE}反正导盲犬不需要被赶出商场。",
+   "en": "{VAR:0103:0}: Say what you like. Either{NEWLINE}way, a guide dog doesn’t need{CLEAR}to be kicked out of the mall.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "{VAR:0103:0}『注意你们的态度,{NEWLINE}把嘴巴放干净点！",
+   "en": "{VAR:0103:0}: Watch your attitude,{NEWLINE}and clean up your mouth!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "你要是不愿意讲理,{NEWLINE}那我们就不跟你讲理了。",
+   "en": "If you won’t be reasonable, then we{NEWLINE}won’t be reasonable with you either.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "我们就用最简单的方法,{NEWLINE}向你证明你是错的。",
+   "en": "We’ll just use the simplest{NEWLINE}way to prove you’re wrong.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "哎哟,狗儿子打人了。",
+   "en": "Ow! The mutt’s little{NEWLINE}son is hitting people!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "狗儿子 (‘dog's son’, jab at the dog lover) → ‘The mutt’s little son’."
+  },
+  {
+   "id": 74,
+   "zh": "不知道会不会被传染狂犬病啊。",
+   "en": "Wonder if he’ll give us rabies.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "咱们还是离这种人远点吧。",
+   "en": "Let’s just stay away{NEWLINE}from people like that.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "年轻人,我感觉土狼犬{NEWLINE}在朝你摇尾巴呢。{CLEAR}这说明它很喜欢你哦。",
+   "en": "Young one, I can feel my{NEWLINE}Poochyena wagging its tail at you.{CLEAR}That means it really likes you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "谢谢你为我一个老瞎子出头,{NEWLINE}这个是我经常用来呼唤土狼犬的哨子,{CLEAR}就送给你吧。",
+   "en": "Thank you for standing up for a{NEWLINE}blind old man like me. This is the{CLEAR}whistle I always use to call my{CLEAR}Poochyena. I’d like you to have it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "你有没有觉得{NEWLINE}我的土狼犬很文静啊？{CLEAR}它可是代替了我的眼睛{CLEAR}为我指路的好伙伴呢。",
+   "en": "Don’t you think my Poochyena is very{NEWLINE}calm? It’s a good partner that acts{CLEAR}as my eyes and shows me the way.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "走吧土狼犬,咱们换个地方休息。",
+   "en": "Come on, Poochyena. Let’s{NEWLINE}go rest somewhere else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "这下子商场总算安全了。",
+   "en": "At last, the mall is safe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "就是就是,怎么能带着那么凶的狗呢。",
+   "en": "Exactly. How could anyone bring{NEWLINE}such a vicious dog in here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "你看到没有,这里有只土狼犬！{NEWLINE}恶属性的土狼犬！",
+   "en": "Did you see? There’s a Poochyena{NEWLINE}in here! A Dark-type Poochyena!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "据说土狼犬喜欢追着人跑,{NEWLINE}万一它要追我的话,那可够吓人的。",
+   "en": "They say Poochyena love chasing people.{NEWLINE}If it chased me, that’d be terrifying.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "我真的非常受不了{NEWLINE}有着长长牙齿的精灵。",
+   "en": "I really can’t stand{NEWLINE}Pokémon with long fangs.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "我虽然没被土狼犬咬过,{NEWLINE}但是有一次土狼犬追我导致我摔倒,{CLEAR}把我都给磕疼了。",
+   "en": "I’ve never been bitten by a Poochyena,{NEWLINE}but once one chased me and made{CLEAR}me fall. I got pretty banged up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "我用派拉斯的蘑菇粉{NEWLINE}做了一些万能粉,{CLEAR}你需要一点吗？",
+   "en": "I made some Heal Powder{NEWLINE}out of my Paras’s mushroom{CLEAR}spores. Would you like some?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "1个万能粉{NEWLINE}500元",
+   "en": "1 Heal Powder{NEWLINE}$500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 88,
+   "zh": "3个万能粉{NEWLINE}1500元",
+   "en": "3 Heal Powders{NEWLINE}$1500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 89,
+   "zh": "5个万能粉{NEWLINE}2500元",
+   "en": "5 Heal Powders{NEWLINE}$2500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 90,
+   "zh": "10个万能粉{NEWLINE}5000元",
+   "en": "10 Heal Powders{NEWLINE}$5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 91,
+   "zh": "我不需要",
+   "en": "No, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 92,
+   "zh": "来,这是你的万能粉。",
+   "en": "Here’s your Heal Powder.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "你身上的前不够啊。",
+   "en": "You don’t have enough money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "需要万能粉的话随时可以来找我。",
+   "en": "If you need Heal Powder,{NEWLINE}come see me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "还要再买点吗？",
+   "en": "Want to buy some more?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "在满金百货能买到{NEWLINE}别处没有的大回复量药物。",
+   "en": "At the Goldenrod Dept. Store, you{NEWLINE}can buy strong healing medicine{CLEAR}you can’t get anywhere else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "烧伤和冰冻是两个{NEWLINE}让人非常讨厌的状态,{CLEAR}你如果要长途旅行的话,{CLEAR}最好买点烧伤药和解冻药带在身上。",
+   "en": "Burns and freezing are two really{NEWLINE}nasty conditions. If you’re going{CLEAR}on a long journey, you’d better{CLEAR}carry some Burn Heals and Ice Heals.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "我买了全回复药,{NEWLINE}准备在对战中给精灵使用。{CLEAR}结果却发现根本用不了！",
+   "en": "I bought a Max Potion to use{NEWLINE}on my Pokémon in battle. Then I{CLEAR}found out I can’t use it at all!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "脚踩几条船的下场{NEWLINE}往往是掉到水里一无所有,{CLEAR}所以感情啊还是专一点好。",
+   "en": "Try standing in several boats{NEWLINE}at once and you usually end up{CLEAR}in the water with nothing. So in{CLEAR}love, it’s best to stay faithful.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "自从口袋妖怪占卜流行起来之后,{NEWLINE}训练家们之间的精灵交换{CLEAR}也变得频繁了。",
+   "en": "Ever since Pokémon fortune-telling{NEWLINE}got popular, Trainers have been{CLEAR}trading Pokémon a lot more often.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "我想为精灵买一点万能粉,{NEWLINE}但又怕精灵吃太多后{CLEAR}变得跟我不亲密了。",
+   "en": "I want to buy some Heal Powder{NEWLINE}for my Pokémon, but I’m afraid{CLEAR}if they have too much, they{CLEAR}won’t be as close to me anymore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "想延长精灵的战斗耐力,{NEWLINE}就一定要注意精灵技能PP的恢复。",
+   "en": "If you want your Pokémon to last{NEWLINE}longer in battle, you have to keep{CLEAR}restoring the PP of their moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "听说满金市的地下通道里也有商店,{NEWLINE}那里卖的东西{CLEAR}应该跟百货公司不一样吧。",
+   "en": "I hear there are shops down in{NEWLINE}Goldenrod’s Underground too.{CLEAR}They probably sell different{CLEAR}things from the department store.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "最近百货公司都没有试吃活动了,{NEWLINE}是被哪个幼儿园老师吃怕了吗？",
+   "en": "The department store hasn’t{NEWLINE}had any free samples lately. Did{CLEAR}some kindergarten teacher scare{CLEAR}them off by eating too many?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Alludes to a viral story of a kindergarten teacher gorging on free samples."
+  },
+  {
+   "id": 105,
+   "zh": "小茜『呀,联盟冠军也逛商场吗？{NEWLINE}我还以为只有我这样{CLEAR}偶尔会偷懒的人才会来呢。{CLEAR}难得在这里跟你遇见,{CLEAR}你要不要跟人家来张合影呀？",
+   "en": "Whitney: Oh, even the League Champion{NEWLINE}goes shopping? I thought only people{CLEAR}like me who slack off now and then{CLEAR}came here. Since we ran into each{CLEAR}other, want to take a picture with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "小茜『哼,都不想跟我合影吗？",
+   "en": "Whitney: Hmph, you don’t{NEWLINE}even want a picture with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "你的相册满了{SCROLL}请整理一下电脑里的照片。",
+   "en": "Your album is full.{SCROLL}Please sort out the photos on your PC.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "小茜『来来,这里,站一排,站一排！{SCROLL}",
+   "en": "Whitney: OK!{NEWLINE}Stand right next to me, right here!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0597/31"
+  },
+  {
+   "id": 109,
+   "zh": "小茜『真是不错的照片呢！",
+   "en": "Whitney: What a nice picture!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "以下全空！",
+   "en": "All blank below!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#110-#118 dev markers 以下全空 (‘all blank below’), kept literal."
+  },
+  {
+   "id": 111,
+   "zh": "以下全空！！",
+   "en": "All blank below!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "以下全空！？",
+   "en": "All blank below!?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "以下全空！！",
+   "en": "All blank below!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "以下全空！！",
+   "en": "All blank below!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "以下全空！！",
+   "en": "All blank below!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "以下全空！！？",
+   "en": "All blank below!!?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "以下全空！。",
+   "en": "All blank below!.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "以下全空！！",
+   "en": "All blank below!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "小霞『宝石海星——！！！",
+   "en": "Misty: Starmie!!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#119-#252 are the Indigo Conference semifinal scene (same zh as 0587/0513, probably unused copies here); English copied verbatim."
+  },
+  {
+   "id": 120,
+   "zh": "小霞选手的全部精灵失去战斗能力,{NEWLINE}这场比赛的胜者是梨花选手！",
+   "en": "All of Misty’s Pokémon are unable{NEWLINE}to battle! The winner of this match{CLEAR}is Karen!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #120; English copied."
+  },
+  {
+   "id": 121,
+   "zh": "小霞『在这里止步了吗……",
+   "en": "Misty: So this is as far as I go...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #121; English copied."
+  },
+  {
+   "id": 122,
+   "zh": "梨花『哼,你这种水平的训练家,{NEWLINE}自始至终都不够格当我们的对手。",
+   "en": "Karen: Hmph. From start to finish, a{NEWLINE}Trainer of your level was never good{CLEAR}enough to face us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #122; English copied."
+  },
+  {
+   "id": 123,
+   "zh": "面对水系专家小霞选手,{NEWLINE}梨花选手却从容不迫地拿下了胜利。{CLEAR}真是让人生畏的实力啊。{SCROLL}下一场面有请最后一组选手：{NEWLINE}{VAR:0103:0}和大吾选手！",
+   "en": "Against Water-type expert Misty,{NEWLINE}Karen calmly claimed the win. What{CLEAR}fearsome strength!{SCROLL}And now for our last pair: {VAR:0103:0}{NEWLINE}and Steven!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #123; English copied."
+  },
+  {
+   "id": 124,
+   "zh": "不愧是曾经解救金黄市的英雄{NEWLINE}——{VAR:0103:0}！{CLEAR}面对强大的大吾选手,{CLEAR}他依然稳稳地拿下了比赛的胜利！",
+   "en": "Just what you’d expect from {VAR:0103:0},{NEWLINE}the hero who once saved Saffron City!{SCROLL}Even against the mighty Steven, he took{NEWLINE}the match with rock-solid confidence!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #124; English copied."
+  },
+  {
+   "id": 125,
+   "zh": "大吾『哈哈,真是痛快的战斗。{NEWLINE}{VAR:0103:0}你果然还是比我厉害！",
+   "en": "Steven: Ha ha, what an exhilarating{NEWLINE}battle! {VAR:0103:0}, you really are{CLEAR}stronger than me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #125; English copied."
+  },
+  {
+   "id": 126,
+   "zh": "{VAR:0103:0}『我赢的可一点也不轻松啊。",
+   "en": "{VAR:0103:0}: That win was anything{NEWLINE}but easy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #126; English copied."
+  },
+  {
+   "id": 127,
+   "zh": "不愧是曾经解救金黄市的英雄{NEWLINE}——{VAR:0103:0}！{CLEAR}面对强大的大吾选手,{CLEAR}她依然稳稳地拿下了比赛的胜利！",
+   "en": "Just what you’d expect from {VAR:0103:0},{NEWLINE}the hero who once saved Saffron City!{SCROLL}Even against the mighty Steven,{NEWLINE}she took the match with{CLEAR}rock-solid confidence!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #127; English copied."
+  },
+  {
+   "id": 128,
+   "zh": "这样一来第一轮比赛就结束了,{NEWLINE}胜出的是——{CLEAR}小绿选手、一树选手、{CLEAR}梨花选手和{VAR:0103:0}选手！{SCROLL}请四位选手到场地中来。",
+   "en": "And that wraps up the first round!{NEWLINE}Our winners are Blue, Will, Karen{CLEAR}and {VAR:0103:0}!{SCROLL}Would all four competitors please come{NEWLINE}to the center of the field.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #128; English copied."
+  },
+  {
+   "id": 129,
+   "zh": "恭喜四位进入了石英大会的半决赛。{NEWLINE}半决赛将延续上一轮的比赛顺序,{CLEAR}先由小绿选手对阵一树选手,{CLEAR}再由{VAR:0103:0}对阵梨花选手。{SCROLL}请各位先修整一下,{NEWLINE}等准备充分后,{CLEAR}向我示意可以开始比赛即可。{CLEAR}预祝各位在半决赛有更好的表现！",
+   "en": "Congratulations to all four of{NEWLINE}you on reaching the Indigo{CLEAR}Conference semifinals.{SCROLL}The semifinals keep the order of the{NEWLINE}last round: first Blue versus Will, then{CLEAR}{VAR:0103:0} versus Karen.{SCROLL}Please rest up first. Once you’re fully{NEWLINE}ready, just give me the signal and{CLEAR}we’ll begin.{SCROLL}I wish you all an even better showing in{NEWLINE}the semifinals!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #129; English copied."
+  },
+  {
+   "id": 130,
+   "zh": "大吾『{VAR:0103:0},{NEWLINE}当我听到对手是你的时候,{CLEAR}我就觉得我的比赛可能到此就结束了。{CLEAR}不过即使如此,{CLEAR}我也绝不会轻易放弃,{CLEAR}你可要拿出全力来跟我对战啊！",
+   "en": "Steven: {VAR:0103:0}, when I heard I’d be{NEWLINE}facing you, I thought my tournament{CLEAR}might end here.{SCROLL}Even so, I won’t give up easily. Give it{NEWLINE}everything you’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #130; English copied."
+  },
+  {
+   "id": 131,
+   "zh": "{VAR:0103:0}『放心吧,即便全力以赴,{NEWLINE}我也未必就能赢得了你。",
+   "en": "{VAR:0103:0}: Don’t worry. Even going all{NEWLINE}out, I’m not sure I can beat you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #131; English copied."
+  },
+  {
+   "id": 132,
+   "zh": "你已经准备好开始半决赛了吗？",
+   "en": "Are you ready to start the semifinals?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #132; English copied."
+  },
+  {
+   "id": 133,
+   "zh": "好的,我这就召集选手。",
+   "en": "Right, I’ll call the competitors now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #133; English copied."
+  },
+  {
+   "id": 134,
+   "zh": "各位选手,{NEWLINE}以及电视机前的观众朋友们,{CLEAR}本届石英大会的半决赛即将打响。{SCROLL}石英大会作为精灵联盟{NEWLINE}最高水平的赛事,{CLEAR}深受全地区群众的喜爱和关注。{CLEAR}今天站到这个舞台上的选手,{CLEAR}也是在本届大会上{CLEAR}技压群雄一路凯歌走过来的。",
+   "en": "Competitors, and viewers watching at{NEWLINE}home: this year’s Indigo Conference{CLEAR}semifinals are about to begin!{SCROLL}As the Pokémon League’s top event, the{NEWLINE}Indigo Conference is loved and followed{CLEAR}by people all over the region.{SCROLL}The competitors standing on this stage{NEWLINE}today outclassed the field and won{CLEAR}their way here, match after match.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #134; English copied."
+  },
+  {
+   "id": 135,
+   "zh": "他们分别是——{SCROLL}来自关东真新镇的{NEWLINE}小绿选手和{VAR:0103:0}选手。{SCROLL}以及来自城都卡吉镇的{NEWLINE}一树选手和梨花选手！",
+   "en": "They are...{SCROLL}From Pallet Town in Kanto, Blue{NEWLINE}and {VAR:0103:0}!{SCROLL}And from Mahogany Town in Johto, Will{NEWLINE}and Karen!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #135; English copied."
+  },
+  {
+   "id": 136,
+   "zh": "今年是关东和城都训练家的大对决,{NEWLINE}究竟谁会笑到最后呢？{CLEAR}让我们拭目以待！！！{SCROLL}请小绿选手和一树选手留在场上,{NEWLINE}{VAR:0103:0}选手和梨花选手{CLEAR}退到场地两侧。{CLEAR}半决赛的比赛马上开始！",
+   "en": "This year it’s a grand showdown between{NEWLINE}Kanto and Johto Trainers. Who will have{CLEAR}the last laugh? Let’s find out!!!{SCROLL}Blue and Will, please remain on the{NEWLINE}field. {VAR:0103:0} and Karen, please step{CLEAR}to the sides.{SCROLL}The semifinals begin right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #136; English copied."
+  },
+  {
+   "id": 137,
+   "zh": "石英大会半决赛第一场比赛,{NEWLINE}现在开始——！",
+   "en": "The first match of the Indigo{NEWLINE}Conference semifinals... begins now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #137; English copied."
+  },
+  {
+   "id": 138,
+   "zh": "小绿『你这家伙从头到尾{NEWLINE}都一副很嚣张的样子。{CLEAR}真是有够让人不爽的。",
+   "en": "Blue: You’ve been acting cocky this{NEWLINE}whole time. It really ticks me off.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #138; English copied."
+  },
+  {
+   "id": 139,
+   "zh": "一树『等你输掉比赛之后,{NEWLINE}你会更不爽的。",
+   "en": "Will: You’ll be even more ticked off once{NEWLINE}you lose.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #139; English copied."
+  },
+  {
+   "id": 140,
+   "zh": "小绿『嘿嘿,就凭你？",
+   "en": "Blue: Heh heh. You, beat me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #140; English copied."
+  },
+  {
+   "id": 141,
+   "zh": "小绿『上啊,水箭龟！{NEWLINE}一树『去吧,电灯怪！",
+   "en": "Blue: Go, Blastoise!{NEWLINE}Will: Go, Lanturn!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #141; English copied."
+  },
+  {
+   "id": 142,
+   "zh": "小绿『哟,怎么不用你擅长的{NEWLINE}超能系精灵呢？{CLEAR}是对自己没信心了吗？",
+   "en": "Blue: Whoa, not using your beloved{NEWLINE}Psychic types? Lost your confidence?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #142; English copied."
+  },
+  {
+   "id": 143,
+   "zh": "一树『你的战术风格就是{NEWLINE}根据对手调整队伍吧。{CLEAR}我用你的战术风格打败你,{CLEAR}才能更好地证明你的弱小。",
+   "en": "Will: Your style is to tailor your team{NEWLINE}to your opponent, isn’t it?{SCROLL}Beating you with your own style is the{NEWLINE}best way to prove how weak you are.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #143; English copied."
+  },
+  {
+   "id": 144,
+   "zh": "小绿『有意思,那你就试试看吧！",
+   "en": "Blue: Interesting. Go ahead and try!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #144; English copied."
+  },
+  {
+   "id": 145,
+   "zh": "小绿『水箭龟,守住！{NEWLINE}一树『电灯怪,电磁波！",
+   "en": "Blue: Blastoise, Protect!{NEWLINE}Will: Lanturn, Thunder Wave!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #145; English copied."
+  },
+  {
+   "id": 146,
+   "zh": "真是激烈的战斗,{NEWLINE}现在小绿选手和一树选手{CLEAR}都只剩一只精灵了,{CLEAR}他们会拿出什么呢！",
+   "en": "What a fierce battle! Blue and Will are{NEWLINE}both down to their last Pokémon. What{CLEAR}will they send out?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #146; English copied."
+  },
+  {
+   "id": 147,
+   "zh": "绿『来吧,月精灵！{NEWLINE}一树『拿下他,椰蛋树！",
+   "en": "Blue: Come on out, Umbreon!{NEWLINE}Will: Get him, Exeggutor!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #147; English copied."
+  },
+  {
+   "id": 148,
+   "zh": "小绿『又是草系精灵,{NEWLINE}你还真是为我的水箭龟{CLEAR}准备了好几只克星呢。",
+   "en": "Blue: Another Grass type? You sure{NEWLINE}prepared a bunch of counters for{CLEAR}my Blastoise.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #148; English copied."
+  },
+  {
+   "id": 149,
+   "zh": "一树『你这种自封为{NEWLINE}正义伙伴的训练家,{CLEAR}居然也会用恶属性的精灵,{CLEAR}不觉得有损自己的形象吗？",
+   "en": "Will: For a self-proclaimed ally of{NEWLINE}justice, you use a Dark-type Pokémon?{CLEAR}Doesn’t that hurt your image?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #149; English copied."
+  },
+  {
+   "id": 150,
+   "zh": "小绿『恶属性不过是{NEWLINE}口袋妖怪力量类型的一个名称,{CLEAR}比起这个名称,{CLEAR}你们火箭队做的那些勾当,{CLEAR}才是真正的恶！",
+   "en": "Blue: Dark is just the name of one kind{NEWLINE}of Pokémon power.{SCROLL}The dirty work you Team Rocket creeps{NEWLINE}get up to... that’s real evil!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #150; English copied."
+  },
+  {
+   "id": 151,
+   "zh": "小绿『去吧,月精灵！使用偷袭！{NEWLINE}一树『椰蛋树,快用飞叶风暴！",
+   "en": "Blue: Go, Umbreon! Feint Attack!{NEWLINE}Will: Exeggutor, Leaf Storm, now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #151; English copied."
+  },
+  {
+   "id": 152,
+   "zh": "小绿选手在最后阶段凭借属性克制,{NEWLINE}以压倒性的姿态取得了胜利！{CLEAR}恭喜小绿选手！",
+   "en": "In the final stretch, Blue used the{NEWLINE}type matchup to win by a landslide!{CLEAR}Congratulations, Blue!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #152; English copied."
+  },
+  {
+   "id": 153,
+   "zh": "小绿『喂,Loser。你还嚣张吗？",
+   "en": "Blue: Hey, loser. Still feeling cocky?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #153; English copied."
+  },
+  {
+   "id": 154,
+   "zh": "一树『混蛋！！！{NEWLINE}早晚有一天我要亲手杀了你！",
+   "en": "Will: You bastard!!! Someday I’ll kill{NEWLINE}you with my own hands!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #154; English copied."
+  },
+  {
+   "id": 155,
+   "zh": "现在请场上的两位选手退出场地。{SCROLL}请{VAR:0103:0}选手{NEWLINE}和梨花选手进入场地。",
+   "en": "Would the two competitors on the field{NEWLINE}please leave it.{SCROLL}{VAR:0103:0} and Karen, please take{NEWLINE}the field.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #155; English copied."
+  },
+  {
+   "id": 156,
+   "zh": "小绿『喂,{VAR:0103:0},{NEWLINE}你要是没信心的话,{CLEAR}我可以替你打哦。",
+   "en": "Blue: Hey, {VAR:0103:0}. If you’re not{NEWLINE}feeling confident, I can fight for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #156; English copied."
+  },
+  {
+   "id": 157,
+   "zh": "小绿『{VAR:0103:0},这个女的也不弱,{NEWLINE}你要当心啊。",
+   "en": "Blue: {VAR:0103:0}, this woman’s no pushover{NEWLINE}either. Watch yourself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #157; English copied."
+  },
+  {
+   "id": 158,
+   "zh": "{VAR:0103:0}『你还是认真准备决赛吧,{NEWLINE}别到时候输了又说自己大意。",
+   "en": "{VAR:0103:0}: You’d better get ready for{NEWLINE}the final. Don’t lose and then say you{CLEAR}got careless again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #158; English copied."
+  },
+  {
+   "id": 159,
+   "zh": "{VAR:0103:0}『放心吧,我才不会输呢。",
+   "en": "{VAR:0103:0}: Don’t worry. I’m not going{NEWLINE}to lose.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #159; English copied."
+  },
+  {
+   "id": 160,
+   "zh": "梨花『我可不会再让你得意下去了。",
+   "en": "Karen: I won’t let you get the better{NEWLINE}of us again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #160; English copied."
+  },
+  {
+   "id": 161,
+   "zh": "{VAR:0103:0}『就凭你是火箭队的人,{NEWLINE}我也一定要在这里打倒你！",
+   "en": "{VAR:0103:0}: You’re Team Rocket, and{NEWLINE}that’s reason enough. I’m beating you{CLEAR}right here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #161; English copied."
+  },
+  {
+   "id": 162,
+   "zh": "半决赛第二场比赛——{SCROLL}现在开始！",
+   "en": "The second semifinal...{SCROLL}...begins now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #162; English copied."
+  },
+  {
+   "id": 163,
+   "zh": "梨花『连我也……输了……",
+   "en": "Karen: Even I... lost...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #163; English copied."
+  },
+  {
+   "id": 164,
+   "zh": "胜负已分！{NEWLINE}{VAR:0103:0}选手获得胜利！{CLEAR}真是让人惊叹的实力啊！",
+   "en": "We have a winner! Victory goes to{NEWLINE}{VAR:0103:0}! What astonishing strength!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #164; English copied."
+  },
+  {
+   "id": 165,
+   "zh": "小霞『好样的{VAR:0103:0}！",
+   "en": "Misty: Way to go, {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #165; English copied."
+  },
+  {
+   "id": 166,
+   "zh": "小蓝『太好了,{NEWLINE}是{VAR:0103:0}和小绿进入了决赛！",
+   "en": "Green: Yay! {VAR:0103:0} and Blue made it to{NEWLINE}the final!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #166; English copied."
+  },
+  {
+   "id": 167,
+   "zh": "小赤『太好了,{NEWLINE}是{VAR:0103:0}和小绿进入了决赛！",
+   "en": "Red: Yes! {VAR:0103:0} and Blue made it to{NEWLINE}the final!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #167; English copied."
+  },
+  {
+   "id": 168,
+   "zh": "大吾『我就知道你们可以的！",
+   "en": "Steven: I knew you two could do it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #168; English copied."
+  },
+  {
+   "id": 169,
+   "zh": "希罗娜『你们真是太棒了！",
+   "en": "Cynthia: You two are amazing!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #169; English copied."
+  },
+  {
+   "id": 170,
+   "zh": "请参加决赛的两位选手到场地中来。",
+   "en": "Would the two finalists please come to{NEWLINE}the center of the field.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #170; English copied."
+  },
+  {
+   "id": 171,
+   "zh": "恭喜两位进入本届石英大会的决赛。{SCROLL}你们是今年唯二获得{NEWLINE}挑战四天王资格的训练家,{CLEAR}正如我之前所说的,决赛将根据二位{CLEAR}战胜四天王数量的多少决定胜负。{CLEAR}如果二位战胜四天王的数量同样多,{CLEAR}那么就需要二位{CLEAR}直接进行一场较量决出冠军。{SCROLL}二位请务必拿出自己的最高水平,{NEWLINE}以冠军为目标继续前进！",
+   "en": "Congratulations to you both on{NEWLINE}reaching the final of this year’s{CLEAR}Indigo Conference.{SCROLL}You are the only two Trainers this{NEWLINE}year to earn the right to challenge{CLEAR}the Elite Four.{SCROLL}As I said before, the final will be{NEWLINE}decided by how many of the Elite Four{CLEAR}each of you defeats.{SCROLL}If you both defeat the same number,{NEWLINE}you’ll battle each other directly to{CLEAR}decide the champion.{SCROLL}Please show us your very best and keep{NEWLINE}pressing on toward the Championship!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #171; English copied."
+  },
+  {
+   "id": 172,
+   "zh": "决赛场地设在{NEWLINE}精灵联盟总部大楼内的四天王房间。{CLEAR}两位可以先随我到总部大楼{CLEAR}恢复精灵、调整队伍。{CLEAR}等准备完毕后{CLEAR}自行前往四天王房间就可以了。",
+   "en": "The final will take place in the Elite{NEWLINE}Four’s rooms inside the Pokémon League{CLEAR}HQ building.{SCROLL}You can come with me to HQ first to heal{NEWLINE}your Pokémon and adjust your teams.{SCROLL}When you’re ready, make your own way{NEWLINE}to the Elite Four’s rooms.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #172; English copied."
+  },
+  {
+   "id": 173,
+   "zh": "小绿『{VAR:0103:0},{NEWLINE}我一定会成为最后的冠军！",
+   "en": "Blue: {VAR:0103:0}, I’m going to be the one{NEWLINE}who wins it all!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #173; English copied."
+  },
+  {
+   "id": 174,
+   "zh": "小绿『{VAR:0103:0},{NEWLINE}我们都好好加油吧！",
+   "en": "Blue: {VAR:0103:0}, let’s both give it{NEWLINE}everything we’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #174; English copied."
+  },
+  {
+   "id": 175,
+   "zh": "前面是精灵联盟总部大楼,{NEWLINE}您现在要去的不是这里吧？",
+   "en": "Up ahead is the Pokémon League HQ{NEWLINE}building.{SCROLL}That’s not where you need to go right{NEWLINE}now, is it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #175; English copied."
+  },
+  {
+   "id": 176,
+   "zh": "你们的英姿将通过摄像机{NEWLINE}展示给整个地区哦！",
+   "en": "Your finest moments will be shown to the{NEWLINE}whole region through my camera!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #176; English copied."
+  },
+  {
+   "id": 177,
+   "zh": "需要我帮您回复精灵吗？",
+   "en": "Shall I heal your Pokémon for you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #177; English copied."
+  },
+  {
+   "id": 178,
+   "zh": "您的精灵已经恢复了。",
+   "en": "Your Pokémon are fully healed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #178; English copied."
+  },
+  {
+   "id": 179,
+   "zh": "水箭龟『Blas——toi！",
+   "en": "Blastoise: Blas-toi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #179; English copied."
+  },
+  {
+   "id": 180,
+   "zh": "妙蛙花『Venu——sau！",
+   "en": "Venusaur: Venu-sau!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) Same zh as 0587 #180; English copied with the cry dash normalised to one ‘-’ (D-0025)."
+  },
+  {
+   "id": 181,
+   "zh": "小绿『即便对手是认识的朋友,{NEWLINE}我也一定会赢的。",
+   "en": "Blue: Even if my opponent’s a friend,{NEWLINE}I’m going to win.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #181; English copied."
+  },
+  {
+   "id": 182,
+   "zh": "小蓝『{VAR:0103:0},{NEWLINE}我这次的对手很不好对付,{CLEAR}不知道我还能不能赢……",
+   "en": "Green: {VAR:0103:0}, my opponent this time{NEWLINE}is really tough.{SCROLL}I don’t know if I can win...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #182; English copied."
+  },
+  {
+   "id": 183,
+   "zh": "小赤『{VAR:0103:0},{NEWLINE}我这次的对手很不好对付,{CLEAR}但我会尽力的。",
+   "en": "Red: {VAR:0103:0}, my opponent this time is{NEWLINE}really tough, but I’ll do my best.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #183; English copied."
+  },
+  {
+   "id": 184,
+   "zh": "小绿『过会儿你就看我{NEWLINE}暴揍那个狂妄的小丑吧。",
+   "en": "Blue: In a bit, you can watch me pound{NEWLINE}that arrogant clown.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #184; English copied."
+  },
+  {
+   "id": 185,
+   "zh": "小蓝『谢谢你{VAR:0103:0},{NEWLINE}能跟你们成为朋友真是太好了。",
+   "en": "Green: Thank you, {VAR:0103:0}. I’m so glad{NEWLINE}I became friends with you guys.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #185; English copied."
+  },
+  {
+   "id": 186,
+   "zh": "小赤『谢谢你{VAR:0103:0},{NEWLINE}能跟你们成为朋友真是太好了。",
+   "en": "Red: Thank you, {VAR:0103:0}. I’m so glad I{NEWLINE}became friends with you guys.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #186; English copied."
+  },
+  {
+   "id": 187,
+   "zh": "小蓝『看到{VAR:0103:0}你和小绿{NEWLINE}都要在决赛加油啊,{CLEAR}可不能给咱们真新镇的训练家丢脸！",
+   "en": "Green: {VAR:0103:0}, you and Blue had both{NEWLINE}better give it your all in the finals!{SCROLL}Don’t embarrass us Trainers from Pallet{NEWLINE}Town!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #187; English copied."
+  },
+  {
+   "id": 188,
+   "zh": "小赤『看到{VAR:0103:0}你和小绿{NEWLINE}都要在决赛加油啊,{CLEAR}好不负咱们真新镇训练家之名！",
+   "en": "Red: {VAR:0103:0}, you and Blue had both{NEWLINE}better give it your all in the finals!{SCROLL}Do our Pallet Town name proud!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #188; English copied."
+  },
+  {
+   "id": 189,
+   "zh": "梨花『嘿,这个分组简直就是{NEWLINE}为了让我们进入决赛准备的。",
+   "en": "Karen: Heh, this bracket might as well{NEWLINE}have been made to put us in the finals.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #189; English copied."
+  },
+  {
+   "id": 190,
+   "zh": "梨花『你们这些井底之蛙,{NEWLINE}现在知道我们的厉害了吧？",
+   "en": "Karen: You frogs in a well. Now you know{NEWLINE}what we can do, huh?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #190; English copied."
+  },
+  {
+   "id": 191,
+   "zh": "梨花『不要以为{NEWLINE}我们会就此善罢甘休。",
+   "en": "Karen: Don’t think we’ll let this go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #191; English copied."
+  },
+  {
+   "id": 192,
+   "zh": "一树『会玩超能力的可不止娜姿,{NEWLINE}我要让你们瞧瞧我的厉害。",
+   "en": "Will: Sabrina’s not the only one who can{NEWLINE}play with psychic powers.{SCROLL}I’ll show you what I can do.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #192; English copied."
+  },
+  {
+   "id": 193,
+   "zh": "一树『哈哈哈哈哈,{NEWLINE}想击败我们是不可能的！",
+   "en": "Will: Hah hah hah hah hah! There’s no{NEWLINE}way you can beat us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #193; English copied."
+  },
+  {
+   "id": 194,
+   "zh": "一树『你们给我等着！",
+   "en": "Will: Just you wait!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #194; English copied."
+  },
+  {
+   "id": 195,
+   "zh": "希罗娜『小绿最厉害的精灵{NEWLINE}是水箭龟,{CLEAR}我的烈咬陆鲨应该可以跟它对抗。",
+   "en": "Cynthia: Blue’s strongest Pokémon is{NEWLINE}Blastoise.{SCROLL}My Garchomp should be able to stand up{NEWLINE}to it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #195; English copied."
+  },
+  {
+   "id": 196,
+   "zh": "希罗娜『能打到这里{NEWLINE}我已经心满意足了。{CLEAR}剩下的就看你们的咯！",
+   "en": "Cynthia: I’m happy just making it this{NEWLINE}far. The rest is up to you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #196; English copied."
+  },
+  {
+   "id": 197,
+   "zh": "希罗娜『以冠军为目标加油吧！",
+   "en": "Cynthia: Aim for the Championship! Good{NEWLINE}luck!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #197; English copied."
+  },
+  {
+   "id": 198,
+   "zh": "大吾『如果可以的话,{NEWLINE}我还是更想跟戴面罩的那位交手。{CLEAR}跟你对战总感觉有些信心不足。",
+   "en": "Steven: If I could choose, I’d rather{NEWLINE}face the one in the mask.{SCROLL}Battling you always leaves me a little{NEWLINE}short on confidence.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #198; English copied."
+  },
+  {
+   "id": 199,
+   "zh": "大吾『{VAR:0103:0}你还是一如既往的强。{NEWLINE}保持这个势头{CLEAR}继续努力获胜下去吧！",
+   "en": "Steven: {VAR:0103:0}, you’re as strong as{NEWLINE}ever.{SCROLL}Keep up this momentum and keep on{NEWLINE}winning!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #199; English copied."
+  },
+  {
+   "id": 200,
+   "zh": "大吾『四天王都是很厉害的对手,{NEWLINE}加油呀！",
+   "en": "Steven: The Elite Four are all very{NEWLINE}tough opponents. Good luck!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #200; English copied."
+  },
+  {
+   "id": 201,
+   "zh": "烈咬陆鲨『Garc——chom！",
+   "en": "Garchomp: Garc-chom!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #201; English copied."
+  },
+  {
+   "id": 202,
+   "zh": "巨金怪『Meta——gros！",
+   "en": "Metagross: Meta-gros!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #202; English copied."
+  },
+  {
+   "id": 203,
+   "zh": "小霞『{VAR:0103:0}你要好好打啊,{NEWLINE}期待半决赛跟你会师哦。",
+   "en": "Misty: {VAR:0103:0}, give it your best, you{NEWLINE}hear?{SCROLL}I’m looking forward to meeting you in{NEWLINE}the semifinals.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #203; English copied."
+  },
+  {
+   "id": 204,
+   "zh": "小霞『我输了没有关系,{NEWLINE}可是看到那种家伙赢了,{CLEAR}就觉得好气！{CLEAR}{VAR:0103:0},你半决赛时{CLEAR}要替我和小蓝狠狠教训他们啊！",
+   "en": "Misty: I don’t mind losing, but seeing{NEWLINE}people like that win makes me so mad!{SCROLL}{VAR:0103:0}, in the semifinals, teach them a{NEWLINE}hard lesson for me and Green!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #204; English copied."
+  },
+  {
+   "id": 205,
+   "zh": "小霞『训练家的顶点近在眼前了,{NEWLINE}你一定可以的！",
+   "en": "Misty: The top of the Trainer world is{NEWLINE}right in front of you. You can do it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #205; English copied."
+  },
+  {
+   "id": 206,
+   "zh": "宝石海星『Sta——mi！",
+   "en": "Starmie: Sta-mi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl) Same zh as 0587 #206; English copied with the cry dash normalised to one ‘-’ (D-0025)."
+  },
+  {
+   "id": 207,
+   "zh": "小蓝『是啊,都快蠢哭了呢。",
+   "en": "Green: Yeah. Stupid enough to make{NEWLINE}you cry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #37; English copied."
+  },
+  {
+   "id": 208,
+   "zh": "小赤『真是有够蠢的。",
+   "en": "Red: Real stupid, all right.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #38; English copied."
+  },
+  {
+   "id": 209,
+   "zh": "一树『你先读了我的空间！？",
+   "en": "Will: You read my Trick Room before I{NEWLINE}even used it?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #209; English copied."
+  },
+  {
+   "id": 210,
+   "zh": "小蓝『哎呀呀,{NEWLINE}居然对着我的煤炭龟放空间,{CLEAR}都快蠢哭了呢。{CLEAR}现在我的煤炭龟有了出手权,{CLEAR}不知道你那个浮游特性的青铜钟{CLEAR}吃不吃得下一发晴天大字爆呢？",
+   "en": "Green: Oh dear, oh dear. Using Trick{NEWLINE}Room on my Torkoal... So stupid it makes{CLEAR}me want to cry.{SCROLL}Now my Torkoal gets to move first.{SCROLL}I wonder if that Levitating Bronzong of{NEWLINE}yours can take a Fire Blast in the sun?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #42; English copied."
+  },
+  {
+   "id": 211,
+   "zh": "小赤『你这么聪明的人,{NEWLINE}居然对着我的煤炭龟放空间,{CLEAR}真是有够蠢的。{CLEAR}现在我的煤炭龟有了出手权,{CLEAR}估计你那个浮游特性的青铜钟{CLEAR}吃不下煤炭龟的一发晴天大字爆吧？",
+   "en": "Red: For such a smart guy, using Trick{NEWLINE}Room on my Torkoal was real stupid.{SCROLL}Now my Torkoal gets to move first.{SCROLL}I doubt that Levitating Bronzong of{NEWLINE}yours can take a Fire Blast in the sun.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #43; English copied."
+  },
+  {
+   "id": 212,
+   "zh": "一树『我之前可没用过青铜钟。{NEWLINE}你是怎么猜出来我会放空间的？",
+   "en": "Will: I’ve never used Bronzong{NEWLINE}before. How did you guess I’d set up{CLEAR}Trick Room?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #44; English copied."
+  },
+  {
+   "id": 213,
+   "zh": "小蓝『你是没在石英大会用过青铜钟。{NEWLINE}可你在尖兵训练营的时候,{CLEAR}不是经常拿这招耍我们吗？",
+   "en": "Green: Sure, you never used Bronzong{NEWLINE}at the Indigo Conference.{SCROLL}But back at the boot camp, didn’t you{NEWLINE}pull that trick on us all the time?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #45; English copied."
+  },
+  {
+   "id": 214,
+   "zh": "小赤『你是没在石英大会用过青铜钟。{NEWLINE}可你在尖兵训练营的时候,{CLEAR}不是经常拿这招耍我们吗？",
+   "en": "Red: Sure, you never used Bronzong at{NEWLINE}the Indigo Conference.{SCROLL}But back at the boot camp, didn’t you{NEWLINE}pull that trick on us all the time?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #46; English copied."
+  },
+  {
+   "id": 215,
+   "zh": "一树『你在尖兵训练营训练过？{NEWLINE}不可能,那里都是我们的人……",
+   "en": "Will: You were at the boot camp?{NEWLINE}Impossible. Everyone there was one{CLEAR}of us...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #215; English copied."
+  },
+  {
+   "id": 216,
+   "zh": "一树『我知道了,{NEWLINE}两年前有一个小鬼从训练营逃走。{CLEAR}原来就是你啊！",
+   "en": "Will: Now I get it. Two years ago, some{NEWLINE}brat escaped from the boot camp.{SCROLL}So it was you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #216; English copied."
+  },
+  {
+   "id": 217,
+   "zh": "小蓝『你们跟我一样,{NEWLINE}也都是被拐到尖兵训练营{CLEAR}被迫接受训练的吧？{CLEAR}既然这样就别再跟火箭队为伍了,{CLEAR}做一个堂堂正正的训练家不好吗？",
+   "en": "Green: You were kidnapped and forced{NEWLINE}to train at the boot camp too, just like{CLEAR}me, weren’t you?{SCROLL}Then stop siding with Team Rocket!{NEWLINE}Wouldn’t you rather be an honest,{CLEAR}upstanding Trainer?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #49; English copied."
+  },
+  {
+   "id": 218,
+   "zh": "小赤『你们跟我一样,{NEWLINE}也都是被拐到尖兵训练营{CLEAR}被迫接受训练的吧？{CLEAR}既然这样就别再跟火箭队为伍了,{CLEAR}做一个堂堂正正的训练家不好吗？",
+   "en": "Red: You were kidnapped and forced to{NEWLINE}train at the boot camp too, just like{CLEAR}me, weren’t you?{SCROLL}Then stop siding with Team Rocket!{NEWLINE}Wouldn’t you rather be an honest,{CLEAR}upstanding Trainer?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #50; English copied."
+  },
+  {
+   "id": 219,
+   "zh": "{VAR:0103:0}『小蓝是被拐的……？",
+   "en": "{VAR:0103:0}: Green was kidnapped...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #51; English copied."
+  },
+  {
+   "id": 220,
+   "zh": "{VAR:0103:0}『小赤是被拐的……？",
+   "en": "{VAR:0103:0}: Red was kidnapped...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #52; English copied."
+  },
+  {
+   "id": 221,
+   "zh": "小绿『还曾经在火箭队的训练营……？",
+   "en": "Blue: And was at Team Rocket’s{NEWLINE}boot camp...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #221; English copied."
+  },
+  {
+   "id": 222,
+   "zh": "一树『你如果觉得我和梨花{NEWLINE}跟你一样是被拐的,{CLEAR}那可就大错特错了。{CLEAR}我们是自己主动去接受训练的,{CLEAR}为的就是成为像老大那样的训练家！",
+   "en": "Will: If you think Karen and I were{NEWLINE}kidnapped like you, you’re dead wrong.{SCROLL}We signed up for that training{NEWLINE}ourselves, so we could become Trainers{CLEAR}like the Boss!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #54; English copied."
+  },
+  {
+   "id": 223,
+   "zh": "小绿『还曾经在火箭队的训练营……？",
+   "en": "Blue: And was at Team Rocket’s{NEWLINE}boot camp...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #221; English copied."
+  },
+  {
+   "id": 224,
+   "zh": "我说两位选手,{NEWLINE}再消极比赛就判你们双双出局！",
+   "en": "I say, competitors! Any more stalling{NEWLINE}and you’ll both be disqualified!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #57; English copied."
+  },
+  {
+   "id": 225,
+   "zh": "一树『哈哈哈哈哈,你永远也想象不到{NEWLINE}这世上居然有人愿意主动去接受{CLEAR}那种地狱般的训练吧！{SCROLL}一树『我的精灵能够压制你的精灵,{NEWLINE}就是咱们之间觉悟的体现！{CLEAR}上啊,青铜钟！",
+   "en": "Will: Hah hah hah hah hah! You never{NEWLINE}imagined anyone would volunteer for{CLEAR}training that hellish, did you?{SCROLL}Will: My Pokémon overpowering{NEWLINE}yours just shows the difference in{CLEAR}our resolve!{SCROLL}Go, Bronzong!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #225; English copied."
+  },
+  {
+   "id": 226,
+   "zh": "小蓝『煤……煤炭龟！{NEWLINE}大爆……哦不……快避开！",
+   "en": "Green: T-Torkoal! Fire Bl... No, wait...{NEWLINE}Dodge it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #59; English copied."
+  },
+  {
+   "id": 227,
+   "zh": "小赤『煤……煤炭龟！{NEWLINE}大爆……哦不……快避开！",
+   "en": "Red: T-Torkoal! Fire Bl... No, wait...{NEWLINE}Dodge it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #60; English copied."
+  },
+  {
+   "id": 228,
+   "zh": "哦——！{NEWLINE}两位选手停止斗嘴之后,{CLEAR}开始了一阵激烈的对攻。{CLEAR}现在两人都只剩最后一只精灵了。{CLEAR}他们中的谁会最终胜出呢？",
+   "en": "Ohh! Now that the two competitors have{NEWLINE}stopped bickering, they’ve launched{CLEAR}into a furious exchange of attacks!{SCROLL}Both are down to their last Pokémon.{NEWLINE}Which of them will come out on top?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #228; English copied."
+  },
+  {
+   "id": 229,
+   "zh": "小蓝『妙蛙花,{NEWLINE}使用阳光烈焰终结呆河马！",
+   "en": "Green: Venusaur, finish off Slowbro with{NEWLINE}Solar Beam!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #62; English copied."
+  },
+  {
+   "id": 230,
+   "zh": "小蓝『妙蛙花,{NEWLINE}使用阳光烈焰终结呆河马！",
+   "en": "Green: Venusaur, finish off Slowbro with{NEWLINE}Solar Beam!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #62; English copied."
+  },
+  {
+   "id": 231,
+   "zh": "小蓝『居然还能撑住？{NEWLINE}不过马上它的剧毒就会发作,{CLEAR}这场比赛是我赢了！",
+   "en": "Green: It’s still standing? But the{NEWLINE}poison will kick in any second now. This{CLEAR}match is mine!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #64; English copied."
+  },
+  {
+   "id": 232,
+   "zh": "小赤『居然还能撑住？{NEWLINE}不过马上它的剧毒就会发作,{CLEAR}这场比赛是我赢了！",
+   "en": "Red: It’s still standing? But the{NEWLINE}poison will kick in any second now. This{CLEAR}match is mine!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #65; English copied."
+  },
+  {
+   "id": 233,
+   "zh": "小蓝『你是什么时候{NEWLINE}对妙蛙花发动的攻击？！",
+   "en": "Green: When did you attack Venusaur?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #68; English copied."
+  },
+  {
+   "id": 234,
+   "zh": "小赤『你是什么时候{NEWLINE}对妙蛙花发动的攻击？！",
+   "en": "Red: When did you attack Venusaur?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #69; English copied."
+  },
+  {
+   "id": 235,
+   "zh": "一树『我知道你的妙蛙花体力出众,{NEWLINE}所以在两回合前发动了「预知未来」{CLEAR}这个大威力的超能系技能。{CLEAR}你刚刚的妙蛙花就是被这招打败的。",
+   "en": "Will: I knew your Venusaur had plenty{NEWLINE}of stamina.{SCROLL}So two turns ago, I used Future Sight,{NEWLINE}a powerful Psychic-type move.{SCROLL}That’s what just took your{NEWLINE}Venusaur down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #70; English copied."
+  },
+  {
+   "id": 236,
+   "zh": "现在双方都没有{NEWLINE}能够继续战斗的精灵了,{CLEAR}但是一树选手的呆河马倒下的更晚,{CLEAR}这场比赛是一树选手获胜！",
+   "en": "Neither side has a Pokémon left that{NEWLINE}can battle...{SCROLL}But Will’s Slowbro fell last, so this{NEWLINE}match goes to Will!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #71; English copied."
+  },
+  {
+   "id": 237,
+   "zh": "一树『我居然以这种狼狈的样子取胜,{NEWLINE}真是丢脸。",
+   "en": "Will: To win looking this ragged...{NEWLINE}How embarrassing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #73; English copied."
+  },
+  {
+   "id": 238,
+   "zh": "希罗娜『没有使用超能系的技能？{NEWLINE}你是赌定我会换上烈咬陆鲨吗？{CLEAR}很可惜你猜错了哦。",
+   "en": "Cynthia: No Psychic-type move? You’re{NEWLINE}betting I’ll switch in Garchomp?{SCROLL}Too bad. You guessed wrong.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #238; English copied."
+  },
+  {
+   "id": 239,
+   "zh": "小绿『嘿嘿,猜错也是没办法的事,{NEWLINE}只好将错就错了。",
+   "en": "Blue: Heh heh. Can’t help a wrong{NEWLINE}guess. Guess I’ll just roll with it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #12; English copied."
+  },
+  {
+   "id": 240,
+   "zh": "希罗娜『继续攻击,路卡利欧！{NEWLINE}小绿『胡地使用念力！",
+   "en": "Cynthia: Keep attacking, Lucario!{NEWLINE}Blue: Alakazam, use Confusion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #13; English copied."
+  },
+  {
+   "id": 241,
+   "zh": "妙蛙花居然突然体力不支倒下了？{NEWLINE}这是怎么回事？",
+   "en": "Venusaur has suddenly collapsed?{NEWLINE}What’s going on?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #66; English copied."
+  },
+  {
+   "id": 242,
+   "zh": "哎呀,紧接着呆河马{NEWLINE}也因剧毒发作倒下了！{CLEAR}这真是戏剧性的一幕。",
+   "en": "Oh! And right after that, Slowbro goes{NEWLINE}down to the poison too! What a{CLEAR}dramatic turn!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #67; English copied."
+  },
+  {
+   "id": 243,
+   "zh": "小蓝『什么？！你们居然主动……",
+   "en": "Green: What?! You actually chose to...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #55; English copied."
+  },
+  {
+   "id": 244,
+   "zh": "小赤『什么？！你们居然主动……",
+   "en": "Red: What?! You actually chose to...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #56; English copied."
+  },
+  {
+   "id": 245,
+   "zh": "小蓝『唉……输了……",
+   "en": "Green: Aww... I lost...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #74; English copied."
+  },
+  {
+   "id": 246,
+   "zh": "小赤『唉……输了……",
+   "en": "Red: Aww... I lost...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #75; English copied."
+  },
+  {
+   "id": 247,
+   "zh": "小蓝『对不起啊,小绿……{NEWLINE}有很多事都瞒着你们……",
+   "en": "Green: I’m sorry, Blue... I kept so{NEWLINE}much from all of you...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #247; English copied."
+  },
+  {
+   "id": 248,
+   "zh": "小赤『对不起啊,小绿……{NEWLINE}有很多事都瞒着你们……",
+   "en": "Red: I’m sorry, Blue... I kept so much{NEWLINE}from all of you...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #248; English copied."
+  },
+  {
+   "id": 249,
+   "zh": "小绿『说什么傻话呢。{NEWLINE}我也好,{VAR:0103:0}也好,{CLEAR}还有小霞、大吾、希罗娜他们。{CLEAR}大家不会介意你从哪里来,{CLEAR}早就把你当作是伙伴了。",
+   "en": "Blue: Don’t be silly. Me, {VAR:0103:0}, Misty,{NEWLINE}Steven, Cynthia...{SCROLL}None of us care where you came{NEWLINE}from. We’ve thought of you as one of{CLEAR}us for ages.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #249; English copied."
+  },
+  {
+   "id": 250,
+   "zh": "小蓝『呜……呜……{NEWLINE}谢谢你们……",
+   "en": "Green: *sniff*... *sob*... Thank you,{NEWLINE}all of you...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #250; English copied."
+  },
+  {
+   "id": 251,
+   "zh": "小赤『谢谢你们……",
+   "en": "Red: Thank you, all of you...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #251; English copied."
+  },
+  {
+   "id": 252,
+   "zh": "两位选手不仅为我们奉献了{NEWLINE}精彩的比赛,{CLEAR}还让我们看到了{CLEAR}训练家之间的友情光辉！{SCROLL}这才是石英大会训练家{NEWLINE}应该展现的魅力啊！",
+   "en": "These two competitors didn’t just give{NEWLINE}us a thrilling match. They showed us the{CLEAR}shining friendship between Trainers!{SCROLL}That’s the true charm Indigo{NEWLINE}Conference Trainers should show!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0587 #252; English copied."
+  }
+ ]
+}

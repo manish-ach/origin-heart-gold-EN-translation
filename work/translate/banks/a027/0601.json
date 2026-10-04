@@ -1,0 +1,391 @@
+{
+ "narc": "a027",
+ "bank": 601,
+ "source": "work/extract/v4/a027/0601.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "哦呀,今天的第一位挑战者来啦。{NEWLINE}欢迎欢迎！{SCROLL}咱们四之岛巡礼的规则很简单,{NEWLINE}干就完事了。{CLEAR}你只要能打败我,{CLEAR}就算你完成了四之岛的巡礼。{CLEAR}怎么样,现在要开始吗？",
+   "en": "Oh ho, here comes today’s first{NEWLINE}challenger. Welcome, welcome!{SCROLL}The rules of our Four Island Pilgrimage{NEWLINE}are simple: just go for it. Beat me, and{CLEAR}you’ve completed the Four Island{CLEAR}Pilgrimage. So, want to start now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Sky Pillar Peak (Four Island): Four Island chief's trial; Proton and Ariana catch Rayquaza with the Jade Orb. #22/#24 male, #23/#25 female player."
+  },
+  {
+   "id": 1,
+   "zh": "哈哈,这就让你看看{NEWLINE}水都群岛第一大力士的风采。",
+   "en": "Ha ha! Now I’ll show you the might of{NEWLINE}the strongest man in the Alto{CLEAR}Mare Islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "仔细一看……{NEWLINE}您是联盟冠军{VAR:0103:0}大人吧？{CLEAR}难怪刚才我越打越觉得不对劲,{CLEAR}怎么可能会有这么厉害的游客嘛。{SCROLL}总之我输得心服口服,{NEWLINE}恭喜您完成了四之岛的巡礼,{CLEAR}您如果还没完成诸岛巡礼,{CLEAR}现在可以去其他岛看看了。",
+   "en": "Now that I look closely... You’re{NEWLINE}League Champion {VAR:0103:0}, aren’t you?{CLEAR}No wonder something felt more and more{CLEAR}off the longer we fought. How could a{CLEAR}tourist possibly be that strong?{SCROLL}Anyway, I lost fair and square.{NEWLINE}Congratulations on completing the Four{CLEAR}Island Pilgrimage. If you haven’t{CLEAR}finished the Island Pilgrimage yet, you{CLEAR}can go visit the other islands now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "战槌龙『Raaa——pa！",
+   "en": "Rampardos: Raaa-pa!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "冠军大人,我已经认可您{NEWLINE}通过了四之岛的巡礼考验。{CLEAR}您如果还没完成诸岛巡礼,{CLEAR}现在可以去其他岛看看了。",
+   "en": "Champion, I’ve recognized that you{NEWLINE}passed the Four Island Pilgrimage trial.{CLEAR}If you haven’t finished the Island{CLEAR}Pilgrimage yet, you can go visit the{CLEAR}other islands now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "身上的绿色宝珠{NEWLINE}感受到了天空的气息,{CLEAR}正在隐隐发出绿色的光辉。{CLEAR}要使用绿色宝珠看看吗？",
+   "en": "The Jade Orb you’re carrying has{NEWLINE}sensed the air of the sky and is glowing{CLEAR}faintly green. Use the Jade Orb?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0103:0}对着天空使用了绿色宝珠！",
+   "en": "{VAR:0103:0} used the Jade Orb toward{NEWLINE}the sky!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "烈空坐『Rayyy——qua！{SCROLL}烈空坐出现了。",
+   "en": "Rayquaza: Rayyy-qua!{SCROLL}Rayquaza appeared.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "烈空坐『Rayyy——qua！{SCROLL}烈空坐掀起了强风！",
+   "en": "Rayquaza: Rayyy-qua!{SCROLL}Rayquaza whipped up a fierce wind!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "烈空坐『Rayyy——qua！",
+   "en": "Rayquaza: Rayyy-qua!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "四之岛正在举行诸岛巡礼,{NEWLINE}你们既然不是参加巡礼的挑战者,{CLEAR}就请离开天柱峰！",
+   "en": "Four Island is holding the Island{NEWLINE}Pilgrimage. Since you aren’t challengers{CLEAR}in the pilgrimage, please leave Sky{CLEAR}Pillar Peak!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "兰斯『我们火箭队正在这里执行任务,{NEWLINE}不想死就滚远点。",
+   "en": "Proton: We, Team Rocket, are on a{NEWLINE}mission here. Get lost if you don’t want{CLEAR}to die.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "火箭队！？{SCROLL}你们就是大陆那边{NEWLINE}臭名昭著的犯罪组织火箭队！？",
+   "en": "Team Rocket?!{SCROLL}You’re Team Rocket, that notorious{NEWLINE}criminal gang from the mainland?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "好啊,居然跑到水都群岛{NEWLINE}来破坏诸岛巡礼,{CLEAR}真是卑劣至极的行为,{CLEAR}我作为四之岛岛主可不能坐视不理！{SCROLL}战槌龙,使用诸刃头突！",
+   "en": "So! You’ve come all the way to the Alto{NEWLINE}Mare Islands to wreck the Island{CLEAR}Pilgrimage? That’s as low as it gets! As{CLEAR}chief of Four Island, I can’t just stand{CLEAR}by and watch!{SCROLL}Rampardos, use Head Smash!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "兰斯『螳臂当车,自取灭亡。{NEWLINE}战槌龙,让他看看什么才是{CLEAR}真正的诸刃头突！",
+   "en": "Proton: A mantis trying to stop a cart.{NEWLINE}You’re asking to be crushed.{CLEAR}Rampardos, show him what a real Head{CLEAR}Smash looks like!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "不……战槌龙！",
+   "en": "No... Rampardos!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "兰斯『下一个就轮到你了,臭乡巴老。",
+   "en": "Proton: You’re next, you stinking{NEWLINE}old hick.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}『今天有我在这里,{NEWLINE}你们休想伤害任何人！",
+   "en": "{VAR:0103:0}: As long as I’m here today, you{NEWLINE}won’t hurt anyone!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "兰斯『联盟冠军{VAR:0103:0}？{NEWLINE}为什么你会找到这里来！？",
+   "en": "Proton: League Champion {VAR:0103:0}? How{NEWLINE}did you find us here?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "你是……冠军大人？",
+   "en": "You’re... the Champion?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0103:0}『达马兰奇主席早就看出了{NEWLINE}你们的下一个目标是水都群岛,{CLEAR}果不其然就被我给逮到了。",
+   "en": "{VAR:0103:0}: President Goodshow saw long{NEWLINE}ago that your next target was the Alto{CLEAR}Mare Islands. And sure enough, I{CLEAR}caught you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "兰斯『喂！雅典娜！{NEWLINE}那个碍事的冠军跟来了,{CLEAR}你最好快一点！",
+   "en": "Proton: Hey! Ariana! That meddling{NEWLINE}Champion followed us here. You’d{CLEAR}better hurry!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "雅典娜『真的是这小子,这下可不妙了。{NEWLINE}我现在就用绿色宝珠召唤烈空坐,{CLEAR}你们给我拖住他！",
+   "en": "Ariana: It really is that boy. This is{NEWLINE}bad. I’ll summon Rayquaza with the Jade{CLEAR}Orb right now. Hold him off!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "雅典娜『真的是这丫头,这下可不妙了。{NEWLINE}我现在就用绿色宝珠召唤烈空坐,{CLEAR}你们给我拖住她！",
+   "en": "Ariana: It really is that girl. This is{NEWLINE}bad. I’ll summon Rayquaza with the Jade{CLEAR}Orb right now. Hold her off!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "兰斯『你们两个,先给我消耗一下他！",
+   "en": "Proton: You two, wear him down for{NEWLINE}me first!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "兰斯『你们两个,先给我消耗一下她！",
+   "en": "Proton: You two, wear her down for{NEWLINE}me first!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "是！",
+   "en": "Yes, sir!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 27,
+   "zh": "{VAR:0103:0}『让开,我没空跟你们浪费时间。",
+   "en": "{VAR:0103:0}: Out of my way. I don’t have{NEWLINE}time to waste on you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0103:0}『现在该轮到你了,兰斯！",
+   "en": "{VAR:0103:0}: Now it’s your turn, Proton!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "兰斯『呸,你就只有气势唬人而已,{NEWLINE}我才不怕你呢！",
+   "en": "Proton: Pfft. All you’ve got is bluster.{NEWLINE}I’m not scared of you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "雅典娜『我以绿色宝珠的名义{NEWLINE}召唤你降临,出来吧烈空坐！",
+   "en": "Ariana: In the name of the Jade Orb, I{NEWLINE}summon you to descend. Come{CLEAR}forth, Rayquaza!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "进入战斗。",
+   "en": "Battle start.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "雅典娜『哈,想跟我对战吗烈空坐？{NEWLINE}但是我可没有那个时间,{CLEAR}去吧,特制球！",
+   "en": "Ariana: Ha, you want to battle me,{NEWLINE}Rayquaza? Sorry, I don’t have time for{CLEAR}that. Go, Special Ball!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0103:0}『不！住手！",
+   "en": "{VAR:0103:0}: No! Stop!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "雅典娜『真遗憾啊联盟冠军,{NEWLINE}这次就差一点点。{CLEAR}但不得不说你这条达马兰奇的狗,{CLEAR}鼻子倒是越来越灵了。",
+   "en": "Ariana: Too bad, League Champion. So{NEWLINE}close this time. But I have to say, for{CLEAR}Goodshow’s dog, your nose is getting{CLEAR}sharper and sharper.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "{VAR:0103:0}『还不晚！{NEWLINE}只要在这里把精灵球抢回来……",
+   "en": "{VAR:0103:0}: It’s not too late! If I can{NEWLINE}just get that Poké Ball back here...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "雅典娜『蠢货,我们什么时候{NEWLINE}给过你这种机会。{CLEAR}全体撤退！",
+   "en": "Ariana: Idiot. When have we ever given{NEWLINE}you that kind of chance?{CLEAR}Everyone, retreat!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "{VAR:0103:0}『可恶,又一次……",
+   "en": "{VAR:0103:0}: Dammit, not again...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "冠军大人……",
+   "en": "Champion...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "{VAR:0103:0}『对不起,我没能保护好烈空坐……",
+   "en": "{VAR:0103:0}: I’m sorry. I couldn’t{NEWLINE}protect Rayquaza...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "虽然烈空坐被火箭队抓走了,{NEWLINE}但我能感受到您和您的精灵之间{CLEAR}有着坚如磐石的信赖。{CLEAR}无论火箭队夺取多少传说中的精灵,{CLEAR}都不可能战胜您这样的训练家。",
+   "en": "Rayquaza may have been taken by Team{NEWLINE}Rocket, but I can feel the rock-solid{CLEAR}trust between you and your Pokémon. No{CLEAR}matter how many legendary Pokémon Team{CLEAR}Rocket steals, they could never beat a{CLEAR}Trainer like you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "{VAR:0103:0}『谢谢您的鼓励。",
+   "en": "{VAR:0103:0}: Thank you for{NEWLINE}the encouragement.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "现在火箭队已经离开,{NEWLINE}我必须得继续担负起岛主的职责{CLEAR}主持完成四之岛的诸岛巡礼才行。{CLEAR}所以请恕我不能远送了。",
+   "en": "Now that Team Rocket is gone, I have to{NEWLINE}carry on with my duties as island chief{CLEAR}and see the Four Island Pilgrimage{CLEAR}through. So please forgive me for not{CLEAR}seeing you off.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0103:0}『说起诸岛巡礼,{NEWLINE}其实我在七之岛报名参加了巡礼,{CLEAR}这次来到天柱峰{CLEAR}也是为了完成四之岛的巡礼。{CLEAR}请问您的考验是什么呢？",
+   "en": "{VAR:0103:0}: Speaking of the Island{NEWLINE}Pilgrimage, I actually signed up for it{CLEAR}on Seven Island. I came to Sky Pillar{CLEAR}Peak to complete the Four Island{CLEAR}Pilgrimage, too. What’s your trial?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "原来冠军大人也在进行诸岛巡礼啊。{SCROLL}一般来说,完成四之岛的考验{NEWLINE}需要先通过海岛洞穴,{CLEAR}然后在天柱峰与我交战并打败我。{CLEAR}不过冠军大人的实力{CLEAR}我刚才已经亲眼目睹,{CLEAR}我完全没有打败您的胜算,{CLEAR}所以就算您通过四之岛的考验了。",
+   "en": "So you’re doing the Island Pilgrimage{NEWLINE}too, Champion?{SCROLL}Normally, to complete the Four Island{NEWLINE}trial, you first have to make it through{CLEAR}the Island Cave, then battle and beat{CLEAR}me on Sky Pillar Peak. But I just saw{CLEAR}your strength with my own eyes,{CLEAR}Champion. I don’t stand a chance of{CLEAR}beating you, so consider the Four{CLEAR}Island trial passed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0103:0}『这样啊……也好,{NEWLINE}那我再去其他岛看看吧。",
+   "en": "{VAR:0103:0}: I see... All right. Then I’ll go{NEWLINE}visit the other islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "嗯,祝您一路顺风。",
+   "en": "Mm. Safe travels.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "兰斯『切,达马兰奇这老狐狸。",
+   "en": "Proton: Tch. That old fox Goodshow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+# Build the guide website from the committed content in site/ and publish it to GitHub Pages.
+# The ROM is never needed here: site/src/data and site/src/content are generated locally
+# (python3 work/tools/site/build.py --content) and committed.
+# The in-browser patcher (/patch/) serves the newest release's .xdelta from the site itself:
+# the build downloads it with the release's latest.json (work/tools/site/patch_manifest.py). Never committed.
+name: Website
+
+on:
+  push:
+    branches: [main]
+    paths: ['site/**', 'guide/**', 'work/tools/site/**', 'work/save-editor/**', '.github/workflows/site.yml']
+  pull_request:
+    paths: ['site/**', 'guide/**', 'work/tools/site/**', 'work/save-editor/**']
+  workflow_dispatch:
+  # A new release redeploys the site so /patch/ serves the new patch (see the redeploy job).
+  release:
+    types: [published]
+
+# Only the deploy job gets the Pages permissions.
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  # A release run starts on the release's tag, and the github-pages environment only lets the default
+  # branch deploy. So instead of building here, start this workflow again on the default branch.
+  # (workflow_dispatch is one of the few events GITHUB_TOKEN may trigger.)
+  redeploy:
+    if: github.event_name == 'release'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - run: gh workflow run site.yml --repo "$GITHUB_REPOSITORY" --ref "$DEFAULT_BRANCH"
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+
+  # The save editor ships inside the site, but the Astro build only strips its types:
+  # typecheck, lint and test it here.
+  save-editor:
+    if: github.event_name != 'release'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: work/save-editor
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: work/save-editor/package-lock.json
+      - run: npm ci
+      - run: npm run check
+
+  build:
+    if: github.event_name != 'release'
+    runs-on: ubuntu-latest
+    env:
+      GUIDE_REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+      GUIDE_SITE_URL: https://${{ github.repository_owner }}.github.io
+      GUIDE_BASE: /${{ github.event.repository.name }}/
+      GUIDE_PUBLIC_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate the guide pages from guide/*.md
+        run: python3 work/tools/site/sync_guide.py
+      # The PDF is optional: if these two steps fail, the site deploys without it and
+      # the about page leaves out the PDF link.
+      - name: Install Pandoc and Typst (for the PDF)
+        continue-on-error: true
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-core fonts-noto-cjk
+          curl -fsSL -o pandoc.deb https://github.com/jgm/pandoc/releases/download/3.6.4/pandoc-3.6.4-1-amd64.deb
+          sudo dpkg -i pandoc.deb
+          curl -fsSL https://github.com/typst/typst/releases/download/v0.13.1/typst-x86_64-unknown-linux-musl.tar.xz | tar -xJ
+          sudo mv typst-x86_64-unknown-linux-musl/typst /usr/local/bin/
+      - name: Build the PDF
+        run: python3 work/tools/site/build_pdf.py
+        continue-on-error: true
+      - name: Fetch the newest release patch for the in-browser patcher
+        # A release carries latest.json (work/tools/site/patch_manifest.py) next to its .xdelta. Without a usable
+        # one the patcher is off and the page shows only the manual steps: a warning, never a failed build.
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_URL: ${{ github.server_url }}/${{ github.repository }}/releases/tag/
+        run: |
+          out=site/public/patch manifest="$RUNNER_TEMP/latest.json"
+          mkdir -p "$out"
+          off() {
+            echo "::warning title=In-browser patcher off::$1"
+            rm -f "$out"/*.xdelta
+            jq -n --arg reason "$1" '{available: false, reason: $reason}' > "$out/latest.json"
+            exit 0
+          }
+          release=$(gh release list --repo "$GITHUB_REPOSITORY" --exclude-drafts --limit 1 \
+            --json tagName,isPrerelease --jq '.[0] // empty') || off "could not list the releases"
+          [ -n "$release" ] || off "no published release"
+          tag=$(jq -r .tagName <<<"$release")
+          gh release download "$tag" --repo "$GITHUB_REPOSITORY" --pattern latest.json --output "$manifest" \
+            || off "release $tag has no latest.json"
+          file=$(jq -r .file "$manifest")
+          [ "$(jq -r .tag "$manifest")" = "$tag" ] || off "latest.json of $tag names another release"
+          [[ "$file" =~ ^[A-Za-z0-9._-]+\.xdelta$ ]] || off "latest.json of $tag names no .xdelta"
+          [[ "$(jq -r .patched_sha1 "$manifest")" =~ ^[0-9a-f]{40}$ ]] || off "latest.json of $tag has no patched_sha1"
+          gh release download "$tag" --repo "$GITHUB_REPOSITORY" --pattern "$file" --dir "$out" \
+            || off "could not download $file from $tag"
+          [ "$(sha1sum "$out/$file" | cut -d' ' -f1)" = "$(jq -r .sha1 "$manifest")" ] \
+            && [ "$(stat -c %s "$out/$file")" = "$(jq -r .size "$manifest")" ] \
+            || off "$file does not match the SHA-1 and size in latest.json"
+          jq --arg url "$RELEASE_URL$tag" --argjson prerelease "$(jq .isPrerelease <<<"$release")" \
+            '{available: true, tag, file, size, patched_sha1, release_url: $url, prerelease: $prerelease}' \
+            "$manifest" > "$out/latest.json"
+          cat "$out/latest.json"
+      - run: npm ci
+        working-directory: site
+      - run: npx astro build
+        working-directory: site
+      - name: Check links
+        run: python3 work/tools/site/check_site.py --base "$GUIDE_BASE"
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: site/dist
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.event_name != 'release'
+    needs: [build, save-editor]
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

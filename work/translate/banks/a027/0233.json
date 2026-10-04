@@ -1,0 +1,463 @@
+{
+ "narc": "a027",
+ "bank": 233,
+ "source": "work/extract/v4/a027/0233.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "主持人『本节目为你介绍{NEWLINE}新奥各地道馆的训练师挑战者！！{SCROLL}今天,我们来到了黑金市道馆！{SCROLL}主持人『啊~！现在刚好{NEWLINE}有训练师出来了！{CLEAR}在胸前闪闪发光的是：石炭徽章！{SCROLL}让我们快点上前采访一下！{SCROLL}主持人『初次见面~！{NEWLINE}恭喜你在黑金市道馆取得胜利！{SCROLL}请你为我们简短地描述下{NEWLINE}你现在的心情！{SCROLL}{VAR:0103:0}『{VAR:011C:1}{SCROLL}主持人『原来如此~！{NEWLINE}真是非常感谢！{SCROLL}主持人『真是十分出色的{NEWLINE}训练师啊！{SCROLL}那么,各位{NEWLINE}我们下期节目再见！",
+   "en": "Host: This show introduces the Trainers{NEWLINE}taking on Gyms all over Sinnoh!!{SCROLL}Today, we’re at the Oreburgh City Gym!{SCROLL}Host: Oh! A Trainer’s just coming{NEWLINE}out right now! And shining on{CLEAR}their chest is... the Coal Badge!{SCROLL}Let’s hurry over for an interview!{SCROLL}Host: Nice to meet you! Congratulations{NEWLINE}on your win at the Oreburgh City Gym!{SCROLL}Could you briefly tell us{NEWLINE}how you feel right now?{SCROLL}{VAR:0103:0}: {VAR:011C:1}{SCROLL}Host: I see! Thank you so much!{SCROLL}Host: What an outstanding Trainer!{SCROLL}Well, everyone, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R042/R043: DP-era leftover TV segment (US HGSS blanks this bank); probably never shown."
+  },
+  {
+   "id": 1,
+   "zh": "主持人『本节目为你介绍{NEWLINE}新奥各地道馆的训练师挑战者！！{SCROLL}今天,我们来到了白岱市道馆！{SCROLL}主持人『啊~！现在刚好{NEWLINE}有训练师出来了！{CLEAR}在胸前闪闪发光的是：森林徽章！{SCROLL}让我们快点上前采访一下！{SCROLL}主持人『你好~！{NEWLINE}恭喜你在白岱市道馆取得胜利！{SCROLL}请你为我们简短地描述下{NEWLINE}你现在的心情！{SCROLL}{VAR:0103:0}『{VAR:011C:1}{SCROLL}主持人『原来如此~！{NEWLINE}真是非常感谢！{SCROLL}主持人『真是十分出色的训练师啊！{SCROLL}那么,各位{NEWLINE}我们下期节目再见！",
+   "en": "Host: This show introduces the Trainers{NEWLINE}taking on Gyms all over Sinnoh!!{SCROLL}Today, we’re at the Eterna City Gym!{SCROLL}Host: Oh! A Trainer’s just coming{NEWLINE}out right now! And shining on their{CLEAR}chest is... the Forest Badge!{SCROLL}Let’s hurry over for an interview!{SCROLL}Host: Hello! Congratulations on{NEWLINE}your win at the Eterna City Gym!{SCROLL}Could you briefly tell us{NEWLINE}how you feel right now?{SCROLL}{VAR:0103:0}: {VAR:011C:1}{SCROLL}Host: I see! Thank you so much!{SCROLL}Host: What an outstanding Trainer!{SCROLL}Well, everyone, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "主持人『本节目为你介绍{NEWLINE}新奥各地道馆的训练师挑战者！！{SCROLL}今天,我们来到了超级英雄{NEWLINE}马克西假面坐镇的野濑市道馆！{SCROLL}主持人『啊啊！现在刚好{NEWLINE}有一位训练师从道馆里出来了！{SCROLL}在胸前闪闪发光的是：沼泽徽章！{SCROLL}竟然战胜了超级英雄马克西假面！！{CLEAR}哇~！！好羡慕！！{SCROLL}让我们快点上前采访一下！{SCROLL}主持人『你好！{NEWLINE}恭喜你在野濑市道馆{CLEAR}取得胜利⋯⋯{SCROLL}与马克西假面一决胜负的感想,{NEWLINE}请！！{SCROLL}{VAR:0103:0}『{VAR:011C:1}{SCROLL}主持人『原来如此！{NEWLINE}真是非常感谢！！！{SCROLL}主持人『啊~真是令人羡慕的训练师啊~{SCROLL}那么,各位{NEWLINE}我们下期节目再见！",
+   "en": "Host: This show introduces the Trainers{NEWLINE}taking on Gyms all over Sinnoh!!{SCROLL}Today, we’re at the Pastoria{NEWLINE}City Gym, guarded by the masked{CLEAR}superhero Crasher Wake!{SCROLL}Host: Ahh! A Trainer’s just{NEWLINE}coming out of the Gym right now!{SCROLL}And shining on their chest{NEWLINE}is... the Fen Badge!{SCROLL}They actually beat the superhero{NEWLINE}Crasher Wake!! Wow!! I’m so jealous!!{SCROLL}Let’s hurry over for an interview!{SCROLL}Host: Hello! Congratulations on{NEWLINE}your win at the Pastoria City Gym...{SCROLL}How did it feel to go head-to-head{NEWLINE}with Crasher Wake? Tell us, please!!{SCROLL}{VAR:0103:0}: {VAR:011C:1}{SCROLL}Host: I see! Thank you so much!!!{SCROLL}Host: Ahh, what an enviable Trainer!{SCROLL}Well, everyone, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "马克西假面 = Crasher Wake (masked superhero, Pastoria Gym)."
+  },
+  {
+   "id": 3,
+   "zh": "主持人『大家好~一如既往地{NEWLINE}本节目将为你介绍{CLEAR}新奥各地道馆的训练师挑战者！！{SCROLL}今天,我们来到了户张市道馆！{SCROLL}主持人『啊！现在刚好⋯⋯{NEWLINE}似乎一位曾经见过的训练师{CLEAR}从道馆里出来了！{SCROLL}在胸前闪闪发光的是：圆石徽章！{SCROLL}让我们快点上前采访一下！{SCROLL}主持人『你好！{NEWLINE}恭喜你在户张市道馆取得胜利！{SCROLL}请你为我们简短地描述下{NEWLINE}你现在的心情！{SCROLL}{VAR:0103:0}『{VAR:011C:1}{SCROLL}主持人『原来如此~！{NEWLINE}真是非常感谢！{SCROLL}主持人『真是十分出色的训练师啊！{SCROLL}那么,各位{NEWLINE}我们下期节目再见！",
+   "en": "Host: Hello, everyone! As always,{NEWLINE}this show introduces the Trainers{CLEAR}taking on Gyms all over Sinnoh!!{SCROLL}Today, we’re at the Veilstone City Gym!{SCROLL}Host: Oh! Right now... it looks like a{NEWLINE}Trainer we’ve seen before is coming{CLEAR}out of the Gym! And shining on{CLEAR}their chest is... the Cobble Badge!{SCROLL}Let’s hurry over for an interview!{SCROLL}Host: Hello! Congratulations on{NEWLINE}your win at the Veilstone City Gym!{SCROLL}Could you briefly tell us{NEWLINE}how you feel right now?{SCROLL}{VAR:0103:0}: {VAR:011C:1}{SCROLL}Host: I see! Thank you so much!{SCROLL}Host: What an outstanding Trainer!{SCROLL}Well, everyone, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "主持人『阿嚏！！{SCROLL}本、本节目为你介绍{NEWLINE}新奥各地道馆的训练师挑战者⋯⋯{SCROLL}今天,我们来到了{NEWLINE}金钾市道馆⋯⋯好冷好冷{SCROLL}主持人『啊啊⋯⋯终于,现在有{NEWLINE}训练师从道馆里出来了⋯⋯{SCROLL}在胸前闪闪发光的是：冰柱徽章！{SCROLL}啊~好冷~我们快点上前采访一下！{SCROLL}主持人『你好~{NEWLINE}恭喜你在金钾市道馆取得胜利⋯⋯{SCROLL}请你为我们简短地描述下{NEWLINE}你现在的心情。{SCROLL}{VAR:0103:0}『{VAR:011C:1}{SCROLL}主持人『原来如此~{NEWLINE}真是非常感谢！{SCROLL}主持人『真是十分出色的训练师啊~{SCROLL}那么,各位{NEWLINE}我们下期节目再见⋯⋯{SCROLL}阿嚏！！　",
+   "en": "Host: Achoo!!{SCROLL}Th-this show introduces the Trainers{NEWLINE}taking on Gyms all over Sinnoh...{SCROLL}Today, we’re at the Snowpoint{NEWLINE}City Gym... So cold, so cold...{SCROLL}Host: Ahh... Finally, a Trainer{NEWLINE}is coming out of the Gym...{SCROLL}And shining on their chest{NEWLINE}is... the Icicle Badge!{SCROLL}Brr, so cold! Let’s hurry{NEWLINE}over for an interview!{SCROLL}Host: Hello... Congratulations on{NEWLINE}your win at the Snowpoint City Gym...{SCROLL}Could you briefly tell us{NEWLINE}how you feel right now?{SCROLL}{VAR:0103:0}: {VAR:011C:1}{SCROLL}Host: I see... Thank you so much!{SCROLL}Host: What an outstanding Trainer...{SCROLL}Well, everyone, see you next time...{SCROLL}Achoo!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "主持人『大家好~一如既往地{NEWLINE}本节目将为你介绍{CLEAR}新奥各地道馆的训练师挑战者！！{SCROLL}今天,我们来到了绿缘市道馆！{SCROLL}主持人『啊~！现在刚好⋯⋯{NEWLINE}总觉得是经常见到的训练师{CLEAR}从道馆里出来了！{SCROLL}在胸前闪闪发光的是：遗迹徽章！{SCROLL}让我们快点上前采访一下！{SCROLL}主持人『你好你好~！{NEWLINE}恭喜你在绿缘市道馆取得胜利！{SCROLL}请你为我们简短地描述下{NEWLINE}你现在的心情！{SCROLL}{VAR:0103:0}『{VAR:011C:1}{SCROLL}主持人『原来如此~！{NEWLINE}真是非常感谢！{SCROLL}主持人『真是十分出色的训练师啊！{SCROLL}那么,各位{NEWLINE}我们下期节目再见！　",
+   "en": "Host: Hello, everyone! As always,{NEWLINE}this show introduces the Trainers{CLEAR}taking on Gyms all over Sinnoh!!{SCROLL}Today, we’re at the{NEWLINE}Hearthome City Gym!{SCROLL}Host: Oh! Right now... somehow it{NEWLINE}feels like a Trainer we see all the time{CLEAR}is coming out of the Gym! And shining{CLEAR}on their chest is... the Relic Badge!{SCROLL}Let’s hurry over for an interview!{SCROLL}Host: Hi, hi! Congratulations on{NEWLINE}your win at the Hearthome City Gym!{SCROLL}Could you briefly tell us{NEWLINE}how you feel right now?{SCROLL}{VAR:0103:0}: {VAR:011C:1}{SCROLL}Host: I see! Thank you so much!{SCROLL}Host: What an outstanding Trainer!{SCROLL}Well, everyone, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "主持人『大家好~一如既往地{NEWLINE}本节目将为你介绍{CLEAR}新奥各地道馆的训练师挑战者！！{SCROLL}今天,我们来到了美央市道馆！{SCROLL}主持人『啊~！现在刚好⋯⋯{NEWLINE}啊,一位熟悉的训练师{CLEAR}从道馆里出来了！{SCROLL}在胸前闪闪发光的是：矿山徽章！{SCROLL}我们这就上前去采访一下！{SCROLL}主持人『又和您见面了呢！{NEWLINE}恭喜你在美央市道馆取得胜利！{SCROLL}请你为我们简短地描述下{NEWLINE}你现在的心情！{SCROLL}{VAR:0103:0}『{VAR:011C:1}{SCROLL}主持人『原来如此~！{NEWLINE}真是非常感谢！{SCROLL}主持人『真是十分出色的训练师啊！{SCROLL}那么,各位{NEWLINE}我们下期节目再见！",
+   "en": "Host: Hello, everyone! As always,{NEWLINE}this show introduces the Trainers{CLEAR}taking on Gyms all over Sinnoh!!{SCROLL}Today, we’re at the Canalave City Gym!{SCROLL}Host: Oh! Right now... ah, a{NEWLINE}familiar Trainer is coming out of{CLEAR}the Gym! And shining on their{CLEAR}chest is... the Mine Badge!{SCROLL}Let’s go over and interview them!{SCROLL}Host: We meet again! Congratulations{NEWLINE}on your win at the Canalave City Gym!{SCROLL}Could you briefly tell us{NEWLINE}how you feel right now?{SCROLL}{VAR:0103:0}: {VAR:011C:1}{SCROLL}Host: I see! Thank you so much!{SCROLL}Host: What an outstanding Trainer!{SCROLL}Well, everyone, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "主持人『大家好~一如既往地{NEWLINE}本节目将为你介绍{CLEAR}新奥各地道馆的训练师挑战者！！{SCROLL}今天,我们来到了名木市道馆！{SCROLL}主持人『啊~！现在刚好⋯⋯{NEWLINE}又是那位训练师{CLEAR}从道馆里出来了！{SCROLL}在胸前闪闪发光的是：灯塔徽章！{SCROLL}让我们快点上前采访一下！{SCROLL}主持人『真是经常碰见呢,{CLEAR}恭喜你在名木市道馆取得胜利！{SCROLL}请你为我们简短地描述下{NEWLINE}你现在的心情！{SCROLL}{VAR:0103:0}『{VAR:011C:1}{SCROLL}主持人『原来如此~！{NEWLINE}真是非常感谢！{SCROLL}主持人『真是十分出色的训练师啊！{SCROLL}那么,各位{NEWLINE}再见！",
+   "en": "Host: Hello, everyone! As always,{NEWLINE}this show introduces the Trainers{CLEAR}taking on Gyms all over Sinnoh!!{SCROLL}Today, we’re at the{NEWLINE}Sunyshore City Gym!{SCROLL}Host: Oh! Right now... it’s that Trainer{NEWLINE}coming out of the Gym again! And shining{CLEAR}on their chest is... the Beacon Badge!{SCROLL}Let’s hurry over for an interview!{SCROLL}Host: We sure run into you a{NEWLINE}lot! Congratulations on your{CLEAR}win at the Sunyshore City Gym!{SCROLL}Could you briefly tell us{NEWLINE}how you feel right now?{SCROLL}{VAR:0103:0}: {VAR:011C:1}{SCROLL}Host: I see! Thank you so much!{SCROLL}Host: What an outstanding Trainer!{SCROLL}Well, everyone, goodbye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "ＤＪ『呀嗬~！！{SCROLL}热爱着战斗塔的{NEWLINE}全国的对战迷们{CLEAR}我们为你献上这档节目！！{SCROLL}这次是漂亮地达成{NEWLINE}{VAR:0134:0}连胜的{CLEAR}无比欢乐的家伙！{SCROLL}欢迎{VAR:0103:1}{NEWLINE}来为我们说几句话！{SCROLL}{VAR:011C:2}！！！{SCROLL}喔~！！万岁！！{SCROLL}{VAR:0134:0}连胜的欢乐{NEWLINE}完完整整地传达到了哦！{SCROLL}大家也好好享受{NEWLINE}战斗塔的乐趣哟！{SCROLL}那么~下次见！掰掰~！！",
+   "en": "DJ: Yahoo!!{SCROLL}This show is for all you{NEWLINE}battle fans across the land{CLEAR}who love the Battle Tower!!{SCROLL}This time, it’s a supremely{NEWLINE}happy dude who pulled off{CLEAR}a {VAR:0134:0}-win streak in style!{SCROLL}Welcome, {VAR:0103:1}! Say{NEWLINE}a few words for us!{SCROLL}{VAR:011C:2}!!!{SCROLL}Whoa!! Hooray!!{SCROLL}The joy of a {VAR:0134:0}-win streak{NEWLINE}came through loud and clear!{SCROLL}Everyone, have a blast{NEWLINE}at the Battle Tower too!{SCROLL}Well, see you next time! Bye-bye!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "ＤＪ『呀嗬~！！{SCROLL}热爱着战斗塔的{NEWLINE}全国的对战迷们{CLEAR}我们为你献上这档节目！！{SCROLL}这次是可惜地与{NEWLINE}{VAR:0134:0}连胜{CLEAR}失之交臂的苦闷家伙！{SCROLL}欢迎{VAR:0103:1}{NEWLINE}来为我们说几句话！{SCROLL}{VAR:011C:2}！！！{SCROLL}吼~！！泪流满面！！{SCROLL}败北的惨痛,{NEWLINE}一点一滴渗透出来了哦！{SCROLL}大家也好好享受{NEWLINE}战斗塔的乐趣哟！{SCROLL}那么~下次见！掰掰~！！",
+   "en": "DJ: Yahoo!!{SCROLL}This show is for all you{NEWLINE}battle fans across the land{CLEAR}who love the Battle Tower!!{SCROLL}This time, it’s a frustrated{NEWLINE}dude who painfully missed{CLEAR}out on a {VAR:0134:0}-win streak!{SCROLL}Welcome, {VAR:0103:1}! Say{NEWLINE}a few words for us!{SCROLL}{VAR:011C:2}!!!{SCROLL}Graah!! Tears are{NEWLINE}streaming down my face!!{SCROLL}The bitter sting of defeat is{NEWLINE}seeping out, drop by drop!{SCROLL}Everyone, have a blast{NEWLINE}at the Battle Tower too!{SCROLL}Well, see you next time! Bye-bye!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "司会『这里是：你的精灵节目~{SCROLL}这次为你介绍{VAR:0103:0}{NEWLINE}引以为傲的{VAR:0100:1}的{CLEAR}{VAR:0101:2}{CLEAR}的事情！{SCROLL}对{VAR:0103:0}来说,{NEWLINE}{VAR:0101:2}是{CLEAR}{VAR:011C:3}这样的存在！{SCROLL}请大家都来介绍自己骄傲的精灵吧！{SCROLL}那就这样,我们下期节目再见！",
+   "en": "Host: This is Your Pokémon Corner!{SCROLL}This time, we’re introducing{NEWLINE}{VAR:0103:0}’s pride and joy:{CLEAR}{VAR:0101:2} the {VAR:0100:1}!{SCROLL}To {VAR:0103:0}, {VAR:0101:2}{NEWLINE}is like... {VAR:011C:3}!{SCROLL}Everyone, come and introduce{NEWLINE}the Pokémon you’re proud of too!{SCROLL}That’s all for today. See you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "司会『这里是：你的精灵节目~{SCROLL}这次为你介绍{VAR:0103:0}{NEWLINE}引以为傲的{VAR:0100:1}{CLEAR}的事情！{SCROLL}{VAR:0103:0}来说,{NEWLINE}{VAR:0100:1}是{CLEAR}{VAR:011C:3}这样的存在！{SCROLL}请大家都来介绍自己骄傲的精灵吧！{SCROLL}那就这样,我们下期节目再见！",
+   "en": "Host: This is Your Pokémon Corner!{SCROLL}This time, we’re introducing{NEWLINE}{VAR:0103:0}’s pride and joy: {VAR:0100:1}!{SCROLL}To {VAR:0103:0}, {VAR:0100:1}{NEWLINE}is like... {VAR:011C:3}!{SCROLL}Everyone, come and introduce{NEWLINE}the Pokémon you’re proud of too!{SCROLL}That’s all for today. See you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "主播『大家的道具时间⋯⋯{SCROLL}这次是家住双叶镇的{NEWLINE}{VAR:0103:0}{CLEAR}推荐的道具⋯⋯{SCROLL}{VAR:0108:1}{SCROLL}大家的推荐是什么呢？{SCROLL}那么,今天以这句话{NEWLINE}为大家做结束语⋯⋯{SCROLL}　「比回忆更{VAR:0108:1}」{NEWLINE}⋯⋯　⋯⋯　⋯⋯{SCROLL}本节目由{NEWLINE}友好商店{CLEAR}赞助播出⋯⋯",
+   "en": "Anchor: Everyone’s Item Time...{SCROLL}This time, it’s the item recommended{NEWLINE}by {VAR:0103:0} of Twinleaf Town...{SCROLL}{VAR:0108:1}{SCROLL}What item would you recommend?{SCROLL}We’ll close today’s show{NEWLINE}with these words...{SCROLL}“More {VAR:0108:1} than memories”{NEWLINE}...... ...... ......{SCROLL}This program was brought{NEWLINE}to you by the Poké Mart...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "主播『大家的道具时间⋯⋯{SCROLL}这次是家住双叶镇的{NEWLINE}{VAR:0103:0}{CLEAR}推荐的道具⋯⋯{SCROLL}{VAR:0108:1}{SCROLL}大家的推荐是什么呢？{SCROLL}那么,今天以这句话{NEWLINE}为大家做结束语⋯⋯{SCROLL}　「{VAR:0108:1}是朋友」{NEWLINE}⋯⋯　⋯⋯　⋯⋯{SCROLL}本节目由{NEWLINE}友好商店{CLEAR}赞助播出⋯⋯",
+   "en": "Anchor: Everyone’s Item Time...{SCROLL}This time, it’s the item recommended{NEWLINE}by {VAR:0103:0} of Twinleaf Town...{SCROLL}{VAR:0108:1}{SCROLL}What item would you recommend?{SCROLL}We’ll close today’s show{NEWLINE}with these words...{SCROLL}“{VAR:0108:1} is a friend”{NEWLINE}...... ...... ......{SCROLL}This program was brought{NEWLINE}to you by the Poké Mart...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "主播『大家的道具时间⋯⋯{SCROLL}这次是家住双叶镇的{NEWLINE}{VAR:0103:0}{CLEAR}推荐的道具⋯⋯{SCROLL}{VAR:0108:1}{SCROLL}大家的推荐是什么呢？{SCROLL}那么,今天以这句话{NEWLINE}为大家做结束语⋯⋯{SCROLL}　「{VAR:0108:1}把{NEWLINE}　{VAR:0103:0}给救了」{SCROLL}⋯⋯　⋯⋯　⋯⋯{SCROLL}本节目由{NEWLINE}友好商店{CLEAR}赞助播出⋯⋯",
+   "en": "Anchor: Everyone’s Item Time...{SCROLL}This time, it’s the item recommended{NEWLINE}by {VAR:0103:0} of Twinleaf Town...{SCROLL}{VAR:0108:1}{SCROLL}What item would you recommend?{SCROLL}We’ll close today’s show{NEWLINE}with these words...{SCROLL}“{VAR:0108:1} saved {VAR:0103:0}”{NEWLINE}...... ...... ......{SCROLL}This program was brought{NEWLINE}to you by the Poké Mart...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "主播『大家的道具时间⋯⋯{SCROLL}这次是家住双叶镇的{NEWLINE}{VAR:0103:0}{CLEAR}推荐的道具⋯⋯{SCROLL}{VAR:0108:1}{SCROLL}大家的推荐是什么呢？{SCROLL}那么,今天以这句话{NEWLINE}为大家做结束语⋯⋯{SCROLL}　「{VAR:0103:0}的一半在{NEWLINE}　{VAR:0108:1}完成了」{NEWLINE}⋯⋯　⋯⋯　⋯⋯{SCROLL}本节目由{NEWLINE}友好商店{CLEAR}赞助播出⋯⋯",
+   "en": "Anchor: Everyone’s Item Time...{SCROLL}This time, it’s the item recommended{NEWLINE}by {VAR:0103:0} of Twinleaf Town...{SCROLL}{VAR:0108:1}{SCROLL}What item would you recommend?{SCROLL}We’ll close today’s show{NEWLINE}with these words...{SCROLL}“Half of {VAR:0103:0} is{NEWLINE}made of {VAR:0108:1}”{CLEAR}...... ...... ......{SCROLL}This program was brought{NEWLINE}to you by the Poké Mart...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "司会『您~久~等~啦⋯⋯{NEWLINE}到了口袋手机通信的时间咯！{SCROLL}这次介绍的是{VAR:0103:0}{NEWLINE}爱用的口袋手机应用{CLEAR}的事情哦！{SCROLL}{VAR:0103:0}爱用的{NEWLINE}应用是{VAR:0118:1}⋯⋯{SCROLL}{VAR:0118:1}的{NEWLINE}{VAR:011C:2}这样的地方,{CLEAR}很中意⋯⋯{SCROLL}真不愧是{VAR:0103:0}{NEWLINE}这着眼点真是酷啊⋯⋯{SCROLL}你也用{VAR:0118:1}{NEWLINE}像{VAR:0103:0}那样{CLEAR}很酷地试一下如何？{SCROLL}那就这样~再见⋯⋯",
+   "en": "Host: Thanks for waiting...{NEWLINE}It’s time for Pokétch Talk!{SCROLL}This time, we’re introducing{NEWLINE}{VAR:0103:0}’s favorite Pokétch app!{SCROLL}{VAR:0103:0}’s favorite app{NEWLINE}is the {VAR:0118:1}...{SCROLL}What they like about the{NEWLINE}{VAR:0118:1} is... {VAR:011C:2}...{SCROLL}That’s {VAR:0103:0} for you. What{NEWLINE}a cool way to look at it...{SCROLL}Why don’t you try using{NEWLINE}the {VAR:0118:1} as{CLEAR}coolly as {VAR:0103:0} does?{SCROLL}Well then, bye...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "主持人『选美会场到达咯！{SCROLL}这里会聚了全国各地{NEWLINE}以精灵为傲的训练师{CLEAR}的热量,好挤好闷好热！{SCROLL}哦~呀！发现结束{NEWLINE}选美的挑战者们{CLEAR}返回接待处了！{SCROLL}快随我们来个突击采访！{SCROLL}主持人『你好~！{NEWLINE}用这{VAR:0100:0}向{CLEAR}{VAR:0122:1}的{CLEAR}{VAR:0123:2}{CLEAR}做了挑战呢！{SCROLL}关于此次{VAR:0132:3}的{NEWLINE}的结果,{CLEAR}你是怎么想的呢？{SCROLL}{VAR:0103:4}『{VAR:011C:5}{SCROLL}主持人『原来如此~！{NEWLINE}非常感谢！{SCROLL}以上是从选美会场{NEWLINE}为您送来的转播~！",
+   "en": "Host: We’ve arrived{NEWLINE}at the Contest Hall!{SCROLL}It’s packed with the heat of{NEWLINE}Trainers from all over who are{CLEAR}proud of their Pokémon. So{CLEAR}crowded, so stuffy, so hot!{SCROLL}Oh! I see challengers who’ve{NEWLINE}finished their contest{CLEAR}heading back to reception!{SCROLL}Follow us for a surprise interview!{SCROLL}Host: Hello! You entered the{NEWLINE}{VAR:0122:1} {VAR:0123:2}{CLEAR}with that {VAR:0100:0}!{SCROLL}How do you feel about{NEWLINE}finishing No. {VAR:0132:3} this time?{SCROLL}{VAR:0103:4}: {VAR:011C:5}{SCROLL}Host: I see! Thank you very much!{SCROLL}That was our report{NEWLINE}from the Contest Hall!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "主持人『选美会场到达咯！{SCROLL}这里会聚了全国各地{NEWLINE}以精灵为傲的训练师{CLEAR}的热量,好挤好闷好热！{SCROLL}哦~呀！发现结束{NEWLINE}选美的挑战者们{CLEAR}返回接待处了！{SCROLL}啊~！在那里的是{NEWLINE}此次的胜利者！{SCROLL}快随我们来个突击采访！{SCROLL}主持人『你好~！{NEWLINE}用这{VAR:0100:0}向{CLEAR}{VAR:0122:1}的{CLEAR}{VAR:0123:2}{CLEAR}做了挑战呢！{SCROLL}关于此次胜利{NEWLINE}的结果,{CLEAR}你是怎么想的呢？{SCROLL}{VAR:0103:4}『{VAR:011C:5}{SCROLL}主持人『原来如此~！{NEWLINE}非常感谢！{SCROLL}以上是从选美会场{NEWLINE}为您送来的转播~！",
+   "en": "Host: We’ve arrived{NEWLINE}at the Contest Hall!{SCROLL}It’s packed with the heat of{NEWLINE}Trainers from all over who are{CLEAR}proud of their Pokémon. So{CLEAR}crowded, so stuffy, so hot!{SCROLL}Oh! I see challengers who’ve{NEWLINE}finished their contest{CLEAR}heading back to reception!{SCROLL}Ah! And over there is{NEWLINE}this contest’s winner!{SCROLL}Follow us for a surprise interview!{SCROLL}Host: Hello! You entered the{NEWLINE}{VAR:0122:1} {VAR:0123:2}{CLEAR}with that {VAR:0100:0}!{SCROLL}How do you feel about winning this time?{SCROLL}{VAR:0103:4}: {VAR:011C:5}{SCROLL}Host: I see! Thank you very much!{SCROLL}That was our report{NEWLINE}from the Contest Hall!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "司会『如果比作精灵！{NEWLINE}的节目时间到了喁~{SCROLL}这次是{VAR:0103:0}{NEWLINE}把自己比作精灵了喁~{SCROLL}{VAR:0103:0}{NEWLINE}如果把自己比作精灵的话,{CLEAR}应该是{VAR:011C:1}{CLEAR}这么想的喁~{SCROLL}嘛~自己的事情{NEWLINE}自己还能不了解嘛喁~{CLEAR}真受不了喁~{SCROLL}{VAR:0103:0}的朋友说{NEWLINE}对{VAR:0103:0}经常{CLEAR}{VAR:011C:1}啦{CLEAR}{VAR:011C:1}　{VAR:0103:0}{CLEAR}给你们念念的话,真不错喁~{CLEAR}我觉得非常有趣的喁~{SCROLL}就降子,再见喁！",
+   "en": "Host: It’s time for If{NEWLINE}I Were a Pokémon!, yo~{SCROLL}This time, {VAR:0103:0} compared{NEWLINE}themself to a Pokémon, yo~{SCROLL}If {VAR:0103:0} were a Pokémon,{NEWLINE}they’d be... {VAR:011C:1}.{CLEAR}That’s what they think, yo~{SCROLL}Well~ who knows you better than{NEWLINE}yourself, yo~ Too much, yo~{SCROLL}{VAR:0103:0}’s friends say they often{NEWLINE}go “{VAR:011C:1}” at {VAR:0103:0}.{CLEAR}“{VAR:011C:1}, {VAR:0103:0}!” Reading{CLEAR}that out to you is pretty great,{CLEAR}yo~ I think it’s super funny, yo~{SCROLL}And that’s that. Bye, yo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "司会『好照片~好朋友~！{NEWLINE}的节目时间~！{SCROLL}播音『喀嚓喀嚓！！{SCROLL}司会『嗯呀~这次是{NEWLINE}{VAR:0103:0}{CLEAR}拍摄的{VAR:0100:1}的{CLEAR}照片,我们来为您做个介绍！{CLEAR}大家意下如何？{SCROLL}播音『好朋友~！！{SCROLL}司会『好~那么~这是{NEWLINE}{VAR:0103:0}的照片~{SCROLL}播音『好照片~！{SCROLL}司会『好照片呢~{NEWLINE}平时容易忘记的{CLEAR}{VAR:0100:1}的{CLEAR}魅力展现出来了呢~{SCROLL}会场『确实如此~！{SCROLL}司会『{VAR:0103:0}是{NEWLINE}怀着{VAR:011C:2}这样的心情{CLEAR}来拍摄这张照片的呐~{SCROLL}播音『哎~！！{SCROLL}司会『下次,再在这个栏目里{NEWLINE}为大家介绍拍摄的照片吧！{CLEAR}大家意向如何~？{SCROLL}播音『好朋友~！！",
+   "en": "Host: Nice Photo, Nice{NEWLINE}Friend! It’s showtime!{SCROLL}Voice-over: Click-click!!{SCROLL}Host: Wellll, this time we’ll introduce{NEWLINE}a photo of {VAR:0100:1} taken by{CLEAR}{VAR:0103:0}! How about it, everyone?{SCROLL}Voice-over: Nice friend!!{SCROLL}Host: OK! So here’s {VAR:0103:0}’s photo!{SCROLL}Voice-over: Nice photo!{SCROLL}Host: What a nice photo! It{NEWLINE}shows off {VAR:0100:1}’s charm,{CLEAR}which is so easy to forget!{SCROLL}Audience: So true!{SCROLL}Host: {VAR:0103:0} took this photo{NEWLINE}feeling... {VAR:011C:2}!{SCROLL}Voice-over: Whoa!!{SCROLL}Host: Next time, let’s introduce{NEWLINE}another photo on this segment!{CLEAR}How about it, everyone?{SCROLL}Voice-over: Nice friend!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "播音员『街角的{NEWLINE}性格诊断节目时间到~！{SCROLL}今天的训练师是{NEWLINE}{VAR:0103:0}！{CLEAR}采访的时候听说{CLEAR}喜欢的类型是普通系！{SCROLL}喜欢普通系的人,据说是{NEWLINE}一群人一起玩的时候很开朗,{SCROLL}一旦与谁一对一的话,{NEWLINE}马上就会变成闷蛋的{CLEAR}腼腆的人哦！{SCROLL}我说中了吧？",
+   "en": "Announcer: It’s time for the{NEWLINE}Street-Corner Personality Check!{SCROLL}Today’s Trainer is {VAR:0103:0}! We{NEWLINE}hear their favorite type is Normal!{SCROLL}People who like the Normal type{NEWLINE}are said to be cheerful when{CLEAR}they’re hanging out in a group,{SCROLL}but the moment they’re{NEWLINE}one-on-one with someone, they{CLEAR}clam up. They’re shy people!{SCROLL}Did I get it right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "播音员『街角的{NEWLINE}性格诊断节目时间到~！{SCROLL}今天的训练师是{NEWLINE}{VAR:0103:0}！{CLEAR}采访的时候听说{CLEAR}喜欢的类型是火焰系！{SCROLL}喜欢火焰系的人,据说是{NEWLINE}经常为失落的朋友打气,{SCROLL}但自己遇到难受的事情时,{NEWLINE}会一个人极力忍耐的{CLEAR}努力的人哦！{SCROLL}我说中了吧？",
+   "en": "Announcer: It’s time for the{NEWLINE}Street-Corner Personality Check!{SCROLL}Today’s Trainer is {VAR:0103:0}! We{NEWLINE}hear their favorite type is Fire!{SCROLL}People who like the Fire type{NEWLINE}are said to be always cheering{CLEAR}up friends who are feeling down,{SCROLL}but when something painful happens{NEWLINE}to them, they grit their teeth and{CLEAR}bear it alone. They’re hard workers!{SCROLL}Did I get it right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "播音员『街角的{NEWLINE}性格诊断节目时间到~！{SCROLL}今天的训练师是{NEWLINE}{VAR:0103:0}！{CLEAR}采访的时候听说{CLEAR}喜欢的类型是水系！{SCROLL}喜欢水系的人,据说是{NEWLINE}不追逐流行,{SCROLL}自己喜欢的东西的话,{NEWLINE}就会一直持续下去的{CLEAR}坚强的人哦！{SCROLL}我说中了吧？",
+   "en": "Announcer: It’s time for the{NEWLINE}Street-Corner Personality Check!{SCROLL}Today’s Trainer is {VAR:0103:0}! We{NEWLINE}hear their favorite type is Water!{SCROLL}People who like the Water type are said{NEWLINE}to be people who don’t chase trends,{SCROLL}and when they like something,{NEWLINE}they stick with it forever.{CLEAR}They’re steadfast people!{SCROLL}Did I get it right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "播音员『街角的{NEWLINE}性格诊断节目时间到~！{SCROLL}今天的训练师是{NEWLINE}{VAR:0103:0}！{CLEAR}采访的时候听说{CLEAR}喜欢的类型是电系！{SCROLL}喜欢电系的人,据说是{NEWLINE}一点都不拘泥,{SCROLL}挂衬衫的衣架啦,{NEWLINE}一直使用的橡皮啦等等,{CLEAR}都用自己中意的设计的{CLEAR}时髦的人哦！{SCROLL}我说中了吧？",
+   "en": "Announcer: It’s time for the{NEWLINE}Street-Corner Personality Check!{SCROLL}Today’s Trainer is {VAR:0103:0}! We hear{NEWLINE}their favorite type is Electric!{SCROLL}People who like the Electric type{NEWLINE}are said to be not fussy at all,{SCROLL}yet their clothes hangers,{NEWLINE}the eraser they always use, and{CLEAR}so on all have designs they picked{CLEAR}themselves. They’re stylish people!{SCROLL}Did I get it right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "播音员『街角的{NEWLINE}性格诊断节目时间到~！{SCROLL}今天的训练师是{NEWLINE}{VAR:0103:0}！{CLEAR}采访的时候听说{CLEAR}喜欢的类型是草系！{SCROLL}喜欢草系的人,据说是{NEWLINE}靠自己一个人的力量,{CLEAR}努力奋战到最后一刻,{SCROLL}但有时也会为不知道何时{NEWLINE}该放弃比较好而困扰的{CLEAR}独来独往的人哦！{SCROLL}我说中了吧？",
+   "en": "Announcer: It’s time for the{NEWLINE}Street-Corner Personality Check!{SCROLL}Today’s Trainer is {VAR:0103:0}! We{NEWLINE}hear their favorite type is Grass!{SCROLL}People who like the Grass type are said{NEWLINE}to be people who fight hard on their{CLEAR}own strength right to the very end,{SCROLL}but sometimes they struggle{NEWLINE}to know when it’s better to{CLEAR}give up. They’re lone wolves!{SCROLL}Did I get it right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "播音员『街角的{NEWLINE}性格诊断节目时间到~！{SCROLL}今天的训练师是{NEWLINE}{VAR:0103:0}！{CLEAR}采访的时候听说{CLEAR}喜欢的类型是冰系！{SCROLL}喜欢冰系的人,据说是{NEWLINE}对最喜欢的朋友们,{CLEAR}什么事情都想为对方达成,{CLEAR}虽然非常努力,{SCROLL}也有为对方没有察觉到自己的心意{NEWLINE}而万分失落的时候的{CLEAR}无私的人哦！{SCROLL}我说中了吧？",
+   "en": "Announcer: It’s time for the{NEWLINE}Street-Corner Personality Check!{SCROLL}Today’s Trainer is {VAR:0103:0}! We{NEWLINE}hear their favorite type is Ice!{SCROLL}People who like the Ice type are said{NEWLINE}to be people who want to do anything{CLEAR}and everything for their dearest{CLEAR}friends, and try really hard,{SCROLL}but sometimes they feel crushed when{NEWLINE}the other person doesn’t notice how{CLEAR}they feel. They’re selfless people!{SCROLL}Did I get it right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "播音员『街角的{NEWLINE}性格诊断节目时间到~！{SCROLL}今天的训练师是{NEWLINE}{VAR:0103:0}！{CLEAR}采访的时候听说{CLEAR}喜欢的类型是格斗系！{SCROLL}喜欢格斗系的人,据说是{NEWLINE}对出色的事物心怀憧憬,{SCROLL}永远都不会停止{NEWLINE}憧憬下一个目标的{CLEAR}浪漫的人哦！{SCROLL}我说中了吧？",
+   "en": "Announcer: It’s time for the{NEWLINE}Street-Corner Personality Check!{SCROLL}Today’s Trainer is {VAR:0103:0}! We hear{NEWLINE}their favorite type is Fighting!{SCROLL}People who like the Fighting{NEWLINE}type are said to be people{CLEAR}who long for wonderful things,{SCROLL}and they never stop longing for{NEWLINE}their next goal. They’re romantics!{SCROLL}Did I get it right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "播音员『街角的{NEWLINE}性格诊断节目时间到~！{SCROLL}今天的训练师是{NEWLINE}{VAR:0103:0}！{CLEAR}采访的时候听说{CLEAR}喜欢的类型是毒系！{SCROLL}喜欢毒系的人,据说是{NEWLINE}如果碰到正悲伤着的人,{CLEAR}虽然知道鼓励一下对方比较好{SCROLL}但又想着对方会不会{NEWLINE}不想被自己看到悲伤的一面{CLEAR}而选择悄悄走开的{CLEAR}忧虑的人哦！{SCROLL}我说中了吧？",
+   "en": "Announcer: It’s time for the{NEWLINE}Street-Corner Personality Check!{SCROLL}Today’s Trainer is {VAR:0103:0}! We{NEWLINE}hear their favorite type is Poison!{SCROLL}People who like the Poison type are{NEWLINE}said to be people who know it would be{CLEAR}good to cheer up someone who’s sad,{SCROLL}but worry the person might not{NEWLINE}want to be seen that way, so they{CLEAR}quietly walk away. They’re worriers!{SCROLL}Did I get it right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "播音员『街角的{NEWLINE}性格诊断节目时间到~！{SCROLL}今天的训练师是{NEWLINE}{VAR:0103:0}！{CLEAR}采访的时候听说{CLEAR}喜欢的类型是地面系！{SCROLL}喜欢地面系的人,据说是{NEWLINE}喜欢开心的事情,{SCROLL}自己开心的事情也好,{NEWLINE}别人开心的事情也好,{CLEAR}这个呀那个呀都很在意的,{SCROLL}房间里书也好游戏也好,{NEWLINE}堆了一大堆的,{CLEAR}喜欢新奇事物的人哦！{SCROLL}我说中了吧？",
+   "en": "Announcer: It’s time for the{NEWLINE}Street-Corner Personality Check!{SCROLL}Today’s Trainer is {VAR:0103:0}! We{NEWLINE}hear their favorite type is Ground!{SCROLL}People who like the Ground type are{NEWLINE}said to be people who love fun things.{SCROLL}Things that are fun for them, things{NEWLINE}that are fun for others, they care{CLEAR}about this and that and everything,{SCROLL}and their rooms are piled high{NEWLINE}with books and games. They{CLEAR}love new and unusual things!{SCROLL}Did I get it right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "播音员『街角的{NEWLINE}性格诊断节目时间到~！{SCROLL}今天的训练师是{NEWLINE}{VAR:0103:0}！{CLEAR}采访的时候听说{CLEAR}喜欢的类型是飞行系！{SCROLL}喜欢飞行系的人,据说是{NEWLINE}大家都在思考的时候,{SCROLL}比谁都能更快地{NEWLINE}想到好主意,但是{SCROLL}因为知道大家都正在思考{NEWLINE}而悄悄给出暗示的{CLEAR}矜持的人哦！{SCROLL}我说中了吧？",
+   "en": "Announcer: It’s time for the{NEWLINE}Street-Corner Personality Check!{SCROLL}Today’s Trainer is {VAR:0103:0}! We{NEWLINE}hear their favorite type is Flying!{SCROLL}People who like the Flying type{NEWLINE}are said to be people who, when{CLEAR}everyone is thinking things over,{SCROLL}come up with a good idea{NEWLINE}faster than anyone, but{SCROLL}because they know everyone is{NEWLINE}still thinking, they quietly drop{CLEAR}a hint. They’re modest people!{SCROLL}Did I get it right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "播音员『街角的{NEWLINE}性格诊断节目时间到~！{SCROLL}今天的训练师是{NEWLINE}{VAR:0103:0}！{CLEAR}采访的时候听说{CLEAR}喜欢的类型是超能系！{SCROLL}喜欢超能系的人,据说是{NEWLINE}比起与朋友一决胜负{CLEAR}胜利时的那种喜悦,{SCROLL}更为那个朋友{NEWLINE}能与自己一决胜负的事而高兴,{CLEAR}无论赢了,还是输了{SCROLL}都能抱以感谢的{NEWLINE}时时微笑的人哦！{SCROLL}我说中了吧？",
+   "en": "Announcer: It’s time for the{NEWLINE}Street-Corner Personality Check!{SCROLL}Today’s Trainer is {VAR:0103:0}! We{NEWLINE}hear their favorite type is Psychic!{SCROLL}People who like the Psychic type{NEWLINE}are said to be happier that a friend{CLEAR}battled with them at all than about{CLEAR}the joy of winning. Win or lose,{SCROLL}they’re thankful, and always smiling!{SCROLL}Did I get it right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "播音员『街角的{NEWLINE}性格诊断节目时间到~！{SCROLL}今天的训练师是{NEWLINE}{VAR:0103:0}！{CLEAR}采访的时候听说{CLEAR}喜欢的类型是虫系！{SCROLL}喜欢虫系的人,据说是{NEWLINE}如果自己有觉得很快乐的事{SCROLL}就会想要{NEWLINE}告诉越多的朋友知道越好,{SCROLL}无论什么时候{NEWLINE}都想要说明的{CLEAR}快乐的人哦！{SCROLL}我说中了吧？",
+   "en": "Announcer: It’s time for the{NEWLINE}Street-Corner Personality Check!{SCROLL}Today’s Trainer is {VAR:0103:0}! We{NEWLINE}hear their favorite type is Bug!{SCROLL}People who like the Bug type{NEWLINE}are said to be people who,{CLEAR}when they find something fun,{SCROLL}want to tell as many{NEWLINE}friends as possible,{SCROLL}and they always want to explain{NEWLINE}it. They’re fun-loving people!{SCROLL}Did I get it right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "播音员『街角的{NEWLINE}性格诊断节目时间到~！{SCROLL}今天的训练师是{NEWLINE}{VAR:0103:0}！{CLEAR}采访的时候听说{CLEAR}喜欢的类型是岩系！{SCROLL}喜欢岩系的人,据说是{NEWLINE}当大家都很慌乱,{CLEAR}不知道如何是好时,{SCROLL}也相信一定会有解决办法的{NEWLINE}在大家的背后给以支持的{CLEAR}冷静的人哦！{SCROLL}我说中了吧？",
+   "en": "Announcer: It’s time for the{NEWLINE}Street-Corner Personality Check!{SCROLL}Today’s Trainer is {VAR:0103:0}! We{NEWLINE}hear their favorite type is Rock!{SCROLL}People who like the Rock type are{NEWLINE}said to be people who, when everyone is{CLEAR}flustered and doesn’t know what to do,{SCROLL}believe there’s always a way{NEWLINE}out and support everyone from{CLEAR}behind. They’re calm people!{SCROLL}Did I get it right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "播音员『街角的{NEWLINE}性格诊断节目时间到~！{SCROLL}今天的训练师是{NEWLINE}{VAR:0103:0}！{CLEAR}采访的时候听说{CLEAR}喜欢的类型是鬼系！{SCROLL}喜欢鬼系的人,据说是{NEWLINE}有意想不到的开心的事情时,{SCROLL}并不会把那件事{NEWLINE}安安分分照原样告诉朋友,{SCROLL}而是自己也为朋友做同样的事情的{NEWLINE}有趣的人哦！{SCROLL}我说中了吧？",
+   "en": "Announcer: It’s time for the{NEWLINE}Street-Corner Personality Check!{SCROLL}Today’s Trainer is {VAR:0103:0}! We{NEWLINE}hear their favorite type is Ghost!{SCROLL}People who like the Ghost type are{NEWLINE}said to be people who, when something{CLEAR}unexpectedly fun happens to them,{SCROLL}don’t just tell their{NEWLINE}friends about it plainly,{SCROLL}but do the very same thing for their{NEWLINE}friends. They’re entertaining people!{SCROLL}Did I get it right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "播音员『街角的{NEWLINE}性格诊断节目时间到~！{SCROLL}今天的训练师是{NEWLINE}{VAR:0103:0}！{CLEAR}采访的时候听说{CLEAR}喜欢的类型是龙系！{SCROLL}喜欢龙系的人,据说是{NEWLINE}在朋友们生日的时候,{CLEAR}偷偷地把礼物放在门口,{SCROLL}然后回家{NEWLINE}想着对方要是喜欢就太好了⋯⋯{SCROLL}这样默默期盼着的{NEWLINE}害羞的人哦！{SCROLL}我说中了吧？",
+   "en": "Announcer: It’s time for the{NEWLINE}Street-Corner Personality Check!{SCROLL}Today’s Trainer is {VAR:0103:0}! We{NEWLINE}hear their favorite type is Dragon!{SCROLL}People who like the Dragon{NEWLINE}type are said to be people who{CLEAR}secretly leave a present at the{CLEAR}door on their friends’ birthdays,{SCROLL}then go home hoping,{NEWLINE}“I hope they like it...”{SCROLL}Just quietly hoping like that.{NEWLINE}They’re bashful people!{SCROLL}Did I get it right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "播音员『街角的{NEWLINE}性格诊断节目时间到~！{SCROLL}今天的训练师是{NEWLINE}{VAR:0103:0}！{CLEAR}采访的时候听说{CLEAR}喜欢的类型是恶系！{SCROLL}喜欢恶系的人,据说是{NEWLINE}不论音乐啦书啦电影啦,{CLEAR}如果有自己非常中意的东西,{SCROLL}会一遍又一遍不厌其烦地{NEWLINE}倾心欣赏的{CLEAR}专情的人哦！{SCROLL}我说中了吧？",
+   "en": "Announcer: It’s time for the{NEWLINE}Street-Corner Personality Check!{SCROLL}Today’s Trainer is {VAR:0103:0}! We{NEWLINE}hear their favorite type is Dark!{SCROLL}People who like the Dark type are said{NEWLINE}to be people who, when they find music,{CLEAR}books or movies they really love,{SCROLL}enjoy them again and again without{NEWLINE}ever tiring. They’re devoted people!{SCROLL}Did I get it right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "播音员『街角的{NEWLINE}性格诊断节目时间到~！{SCROLL}今天的训练师是{NEWLINE}{VAR:0103:0}！{CLEAR}采访的时候听说{CLEAR}喜欢的类型是钢系！{SCROLL}喜欢钢系的人,据说是{NEWLINE}睡前在被子里,{CLEAR}自己想做这个想做那个,{SCROLL}会为自己假想各种事情,{NEWLINE}但在这其中,{CLEAR}只实践了１个的{CLEAR}奇妙的人哦！{SCROLL}我说中了吧？",
+   "en": "Announcer: It’s time for the{NEWLINE}Street-Corner Personality Check!{SCROLL}Today’s Trainer is {VAR:0103:0}! We{NEWLINE}hear their favorite type is Steel!{SCROLL}People who like the Steel type are{NEWLINE}said to be people who lie in bed before{CLEAR}sleep wanting to do this and that,{SCROLL}imagining all sorts of things, but{NEWLINE}of all of them, they actually do{CLEAR}just one. They’re peculiar people!{SCROLL}Did I get it right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "司会『松饼万岁！{NEWLINE}的节目时间！{SCROLL}这期也请来了{NEWLINE}松饼迷{CLEAR}作为特邀嘉宾,大家欢迎~！{SCROLL}松饼迷『嗨嗨~！请多关照~！{SCROLL}司会『这回是{NEWLINE}{VAR:0103:0}{CLEAR}混合制作的松饼。{SCROLL}松饼迷『喔~！　{NEWLINE}{VAR:0109:1}呀~~！{CLEAR}吃了这个的话,嘴里{CLEAR}就像是松饼的宝石箱呀~！{SCROLL}司会『{VAR:0103:0}{NEWLINE}看着做好的松饼{CLEAR}{VAR:011C:2}{CLEAR}说了这样的话哟！{SCROLL}松饼迷『我也想吃~！{SCROLL}司会『大家也请{NEWLINE}努力做出{CLEAR}不输给{VAR:0103:0}的{CLEAR}美味松饼吧！{SCROLL}就这样~下次再见！",
+   "en": "Host: It’s time for Hooray for Poffins!{SCROLL}Once again, we’ve invited a{NEWLINE}Poffin Fan as our special guest.{CLEAR}Everyone, give a warm welcome!{SCROLL}Poffin Fan: Hi, hi! Nice to meet you!{SCROLL}Host: This time, it’s the{NEWLINE}Poffin that {VAR:0103:0} mixed up.{SCROLL}Poffin Fan: Ooh! A {VAR:0109:1}!{NEWLINE}Eating this is like a treasure{CLEAR}chest of Poffins in my mouth!{SCROLL}Host: Looking at the finished Poffin,{NEWLINE}{VAR:0103:0} said... {VAR:011C:2}!{SCROLL}Poffin Fan: I want some too!{SCROLL}Host: Everyone, try hard to{NEWLINE}make tasty Poffins that can hold{CLEAR}their own against {VAR:0103:0}’s!{SCROLL}See you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "司会『松饼万岁！{NEWLINE}的节目时间！{SCROLL}这期也请来了松饼迷{CLEAR}作为特邀嘉宾,大家欢迎~！！{SCROLL}松饼迷『嗨嗨~！请多关照~！{SCROLL}司会『这回是{NEWLINE}{VAR:0103:0}{CLEAR}混合制作的松饼。{SCROLL}松饼迷『喔~！　{NEWLINE}{VAR:0109:1}呀~~！{CLEAR}吃了这个的话,嘴里{CLEAR}就像是松饼的管弦乐呀~！{SCROLL}司会『{VAR:0103:0}{NEWLINE}看着做好的松饼{CLEAR}{VAR:011C:2}{CLEAR}说了这样的话哟！{SCROLL}松饼迷『我也想吃~！{SCROLL}司会『大家也请{NEWLINE}努力做出{CLEAR}不输给{VAR:0103:0}的{CLEAR}美味松饼吧！{SCROLL}就这样~下次再见！",
+   "en": "Host: It’s time for Hooray for Poffins!{SCROLL}Once again, we’ve invited a{NEWLINE}Poffin Fan as our special guest.{CLEAR}Everyone, give a warm welcome!{SCROLL}Poffin Fan: Hi, hi! Nice to meet you!{SCROLL}Host: This time, it’s the{NEWLINE}Poffin that {VAR:0103:0} mixed up.{SCROLL}Poffin Fan: Ooh! A {VAR:0109:1}!{NEWLINE}Eating this is like an orchestra{CLEAR}of Poffins in my mouth!{SCROLL}Host: Looking at the finished Poffin,{NEWLINE}{VAR:0103:0} said... {VAR:011C:2}!{SCROLL}Poffin Fan: I want some too!{SCROLL}Host: Everyone, try hard to{NEWLINE}make tasty Poffins that can hold{CLEAR}their own against {VAR:0103:0}’s!{SCROLL}See you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "司会『松饼万岁！{NEWLINE}的节目时间！{SCROLL}这期也请来了松饼迷{CLEAR}作为特邀嘉宾,大家欢迎~！！{SCROLL}松饼迷『嗨嗨~！请多关照~！{SCROLL}司会『这回是{NEWLINE}{VAR:0103:0}{CLEAR}混合制作的松饼。{SCROLL}松饼迷『喔~！　{NEWLINE}{VAR:0109:1}呀~~！{CLEAR}吃了这个的话,嘴里{CLEAR}就像是松饼的蹦床呀~！{SCROLL}司会『{VAR:0103:0}{NEWLINE}看着做好的松饼{CLEAR}{VAR:011C:2}{CLEAR}说了这样的话哟！{SCROLL}松饼迷『我也想吃~！{SCROLL}司会『大家也请{NEWLINE}努力做出{CLEAR}不输给{VAR:0103:0}的{CLEAR}美味松饼吧！{SCROLL}就这样~下次再见！",
+   "en": "Host: It’s time for Hooray for Poffins!{SCROLL}Once again, we’ve invited a{NEWLINE}Poffin Fan as our special guest.{CLEAR}Everyone, give a warm welcome!{SCROLL}Poffin Fan: Hi, hi! Nice to meet you!{SCROLL}Host: This time, it’s the{NEWLINE}Poffin that {VAR:0103:0} mixed up.{SCROLL}Poffin Fan: Ooh! A {VAR:0109:1}!{NEWLINE}Eating this is like a trampoline{CLEAR}of Poffins in my mouth!{SCROLL}Host: Looking at the finished Poffin,{NEWLINE}{VAR:0103:0} said... {VAR:011C:2}!{SCROLL}Poffin Fan: I want some too!{SCROLL}Host: Everyone, try hard to{NEWLINE}make tasty Poffins that can hold{CLEAR}their own against {VAR:0103:0}’s!{SCROLL}See you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "司会『松饼万岁！{NEWLINE}的节目时间！{SCROLL}这期也请来了松饼迷{CLEAR}作为特邀嘉宾,大家欢迎~！！{SCROLL}松饼迷『嗨嗨~！请多关照~！{SCROLL}司会『这回是{NEWLINE}{VAR:0103:0}{CLEAR}混合制作的松饼。{SCROLL}松饼迷『喔~！　{NEWLINE}{VAR:0109:1}呀~~！{CLEAR}这还真是无法想象的呀~！{SCROLL}司会『{VAR:0103:0}{NEWLINE}看着做好的松饼{CLEAR}{VAR:011C:2}{CLEAR}说了这样的话哟！{SCROLL}松饼迷『我也想吃~！{SCROLL}司会『大家也请{NEWLINE}努力做出{CLEAR}不输给{VAR:0103:0}的{CLEAR}美味松饼吧！{SCROLL}就这样~下次再见！",
+   "en": "Host: It’s time for Hooray for Poffins!{SCROLL}Once again, we’ve invited a{NEWLINE}Poffin Fan as our special guest.{CLEAR}Everyone, give a warm welcome!{SCROLL}Poffin Fan: Hi, hi! Nice to meet you!{SCROLL}Host: This time, it’s the{NEWLINE}Poffin that {VAR:0103:0} mixed up.{SCROLL}Poffin Fan: Ooh! A {VAR:0109:1}!{NEWLINE}This is beyond imagination!{SCROLL}Host: Looking at the finished Poffin,{NEWLINE}{VAR:0103:0} said... {VAR:011C:2}!{SCROLL}Poffin Fan: I want some too!{SCROLL}Host: Everyone, try hard to{NEWLINE}make tasty Poffins that can hold{CLEAR}their own against {VAR:0103:0}’s!{SCROLL}See you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "司会『松饼万岁！{NEWLINE}的节目时间！{SCROLL}这期也请来了松饼迷{CLEAR}作为特邀嘉宾,大家欢迎~！！{SCROLL}松饼迷『嗨嗨~！请多关照~！{SCROLL}司会『这回是{NEWLINE}{VAR:0103:0}{CLEAR}混合制作的松饼。{SCROLL}松饼迷『喔~！　{NEWLINE}{VAR:0109:1}呀~~！{CLEAR}吃了这个的话,嘴里{CLEAR}就像是松饼在ＷｉーＦｉ一样！{SCROLL}司会『{VAR:0103:0}{NEWLINE}看着做好的松饼{CLEAR}{VAR:011C:2}{CLEAR}说了这样的话哟！{SCROLL}松饼迷『我也想吃~！{SCROLL}司会『大家也请{NEWLINE}努力做出{CLEAR}不输给{VAR:0103:0}的{CLEAR}美味松饼吧！{SCROLL}就这样~下次再见！",
+   "en": "Host: It’s time for Hooray for Poffins!{SCROLL}Once again, we’ve invited a{NEWLINE}Poffin Fan as our special guest.{CLEAR}Everyone, give a warm welcome!{SCROLL}Poffin Fan: Hi, hi! Nice to meet you!{SCROLL}Host: This time, it’s the{NEWLINE}Poffin that {VAR:0103:0} mixed up.{SCROLL}Poffin Fan: Ooh! A {VAR:0109:1}! Eating{NEWLINE}this is like Poffins on Wi-Fi in my mouth!{SCROLL}Host: Looking at the finished Poffin,{NEWLINE}{VAR:0103:0} said... {VAR:011C:2}!{SCROLL}Poffin Fan: I want some too!{SCROLL}Host: Everyone, try hard to{NEWLINE}make tasty Poffins that can hold{CLEAR}their own against {VAR:0103:0}’s!{SCROLL}See you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "偶像『大家好~！{NEWLINE}精灵交换{CLEAR}节目时间！！{SCROLL}嗯呀~这次是{NEWLINE}{VAR:0103:0}的{CLEAR}交换结果{CLEAR}向大家介绍~！{NEWLINE}{VAR:0103:0}呢~{NEWLINE}与{VAR:0103:1}{CLEAR}交换了精灵~{CLEAR}{VAR:0100:2}的{CLEAR}{VAR:0101:3}{CLEAR}成为了{CLEAR}新的朋友了~！{SCROLL}{VAR:0103:1}{NEWLINE}真好呐~真好呐~！{SCROLL}我也想要{VAR:0100:2}{NEWLINE}呐~！{SCROLL}那,这次就{NEWLINE}到此结束！{SCROLL}大家也尽情享受{NEWLINE}精灵交换的乐趣吧！",
+   "en": "Idol: Hi, everyone! It’s{NEWLINE}Pokémon Trade Time!!{SCROLL}This time, I’ll tell you about{NEWLINE}{VAR:0103:0}’s trade! {VAR:0103:0} traded{CLEAR}Pokémon with {VAR:0103:1}, and {VAR:0101:3}{CLEAR}the {VAR:0100:2} became a new friend!{SCROLL}{VAR:0103:1}... Lucky, lucky!{SCROLL}I want a {VAR:0100:2} too!{SCROLL}Well, that’s all for this time!{SCROLL}Everyone, enjoy trading Pokémon too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "司会『呀~大家~{NEWLINE}最近还好吗？{CLEAR}心意相通的广场节目时间到咯~！{SCROLL}这期是{VAR:0103:0}的{NEWLINE}散步与交心的记录{CLEAR}心意满满地向你介绍~{SCROLL}{VAR:0103:0}与同伴{NEWLINE}{VAR:0100:1}一起{CLEAR}已经慢慢悠悠{CLEAR}散步了好长时间啦！{SCROLL}{VAR:0100:1}{NEWLINE}对散步非常享受呢~{CLEAR}{VAR:011F:3}{CLEAR}已经顺顺利利{CLEAR}找到咯！{SCROLL}{VAR:0103:0}和{NEWLINE}{VAR:0100:1}{CLEAR}已经和和美美{CLEAR}享受了散步的时光。{CLEAR}变成{VAR:011C:5}{CLEAR}这样的气氛了呐~{SCROLL}呐~后续进展到底如何呢？{SCROLL}呀~心意相通{NEWLINE}真好呐~~~{SCROLL}那么~大家~下次再见~",
+   "en": "Host: Hiii, everyone! How’ve you been?{NEWLINE}It’s time for the Amity Square show!{SCROLL}This time, we’re lovingly{NEWLINE}bringing you {VAR:0103:0}’s record{CLEAR}of strolls and heart-to-hearts!{SCROLL}{VAR:0103:0} has been taking long, leisurely{NEWLINE}strolls with their buddy {VAR:0100:1}!{SCROLL}{VAR:0100:1} really enjoyed the walk, and{NEWLINE}found {VAR:011F:3} without a hitch!{SCROLL}{VAR:0103:0} and {VAR:0100:1} enjoyed{NEWLINE}a lovely stroll together. The mood{CLEAR}became something like... {VAR:011C:5}!{SCROLL}Now, how will things go from here?{SCROLL}Ahh, hearts in sync... How lovely!{SCROLL}Well, everyone, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "司会『呀~大家~{NEWLINE}最近还好吗？{CLEAR}心意相通的广场节目时间到咯~！{SCROLL}这期是{VAR:0103:0}的{NEWLINE}散步与交心的记录{CLEAR}心意满满地向你介绍~{SCROLL}{VAR:0103:0}与同伴{NEWLINE}{VAR:0100:1}一起{CLEAR}已经慢慢悠悠{CLEAR}散步了好长时间啦！{SCROLL}{VAR:0100:1}{NEWLINE}对散步已经完完全全地{CLEAR}享受到了呢~{SCROLL}{VAR:0103:0}和{NEWLINE}{VAR:0100:1}{CLEAR}已经乱高兴一把地{CLEAR}享受了散步的时光。{CLEAR}变成{VAR:011C:5}{CLEAR}这样的气氛了呐~{SCROLL}呐~后续进展到底如何呢？{SCROLL}呀~心意相通{NEWLINE}真好呐~~~{SCROLL}那么~大家~下次再见~",
+   "en": "Host: Hiii, everyone! How’ve you been?{NEWLINE}It’s time for the Amity Square show!{SCROLL}This time, we’re lovingly{NEWLINE}bringing you {VAR:0103:0}’s record{CLEAR}of strolls and heart-to-hearts!{SCROLL}{VAR:0103:0} has been taking long, leisurely{NEWLINE}strolls with their buddy {VAR:0100:1}!{SCROLL}{VAR:0100:1} had an absolutely{NEWLINE}wonderful time on the walk!{SCROLL}{VAR:0103:0} and {VAR:0100:1} had a{NEWLINE}wildly happy stroll together. The mood{CLEAR}became something like... {VAR:011C:5}!{SCROLL}Now, how will things go from here?{SCROLL}Ahh, hearts in sync... How lovely!{SCROLL}Well, everyone, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "司会『呀~大家~{NEWLINE}最近还好吗？{CLEAR}心意相通的广场节目时间到咯~！{SCROLL}这期是{VAR:0103:0}的{NEWLINE}散步与交心的记录{CLEAR}心意满满地向你介绍~{SCROLL}{VAR:0103:0}与同伴{NEWLINE}{VAR:0100:1}一起{CLEAR}已经慢慢悠悠{CLEAR}散步了好长时间啦！{SCROLL}{VAR:0100:1}{NEWLINE}对散步非常享受呢~{CLEAR}{VAR:0108:3}{CLEAR}已经找到了！{CLEAR}真是乐坏了！{SCROLL}{VAR:0103:0}和{NEWLINE}{VAR:0100:1}{CLEAR}已经乱高兴一把地{CLEAR}享受了散步的时光。{CLEAR}变成{VAR:011C:5}{CLEAR}这样的气氛了呐~{SCROLL}呐~后续进展到底如何呢？{SCROLL}呀~心意相通{NEWLINE}真好呐~~~{SCROLL}那么~大家~下次再见~",
+   "en": "Host: Hiii, everyone! How’ve you been?{NEWLINE}It’s time for the Amity Square show!{SCROLL}This time, we’re lovingly{NEWLINE}bringing you {VAR:0103:0}’s record{CLEAR}of strolls and heart-to-hearts!{SCROLL}{VAR:0103:0} has been taking long, leisurely{NEWLINE}strolls with their buddy {VAR:0100:1}!{SCROLL}{VAR:0100:1} really enjoyed the{NEWLINE}walk, and found {VAR:0108:3}!{CLEAR}It was over the moon!{SCROLL}{VAR:0103:0} and {VAR:0100:1} had a{NEWLINE}wildly happy stroll together. The mood{CLEAR}became something like... {VAR:011C:5}!{SCROLL}Now, how will things go from here?{SCROLL}Ahh, hearts in sync... How lovely!{SCROLL}Well, everyone, see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "主持人『战斗前线・{NEWLINE}情报最前线！{SCROLL}我现在{NEWLINE}来到了战斗舞台！{SCROLL}事实上,取得５０连胜的{NEWLINE}超强的训练师{CLEAR}正站在我面前！{SCROLL}{VAR:0103:0}和{NEWLINE}{VAR:0100:1}的{VAR:0101:2}！{CLEAR}恭喜恭喜！{CLEAR}{VAR:0103:0}很高兴的样子呢！{SCROLL}话说,一起的{NEWLINE}{VAR:0101:2}现在{CLEAR}是怎样的心情呢？{SCROLL}{VAR:0103:0}『{VAR:011C:3}{SCROLL}主持人『原⋯⋯原来如此！{NEWLINE}强大的训练师的精灵{CLEAR}是这样想的呢！{SCROLL}今后也请用{VAR:0101:2}{NEWLINE}{VAR:011C:3}的力量{CLEAR}多多努力！{CLEAR}以上,采访完毕！",
+   "en": "Host: Battle Frontier{NEWLINE}Front-Line Report!{SCROLL}I’m here at the Battle Hall!{SCROLL}And in fact, a super-strong{NEWLINE}Trainer who just won 50 in a row{CLEAR}is standing right in front of me!{SCROLL}It’s {VAR:0103:0} and {VAR:0101:2} the{NEWLINE}{VAR:0100:1}! Congratulations!{CLEAR}{VAR:0103:0} looks really happy!{SCROLL}By the way, how do you think{NEWLINE}your partner {VAR:0101:2}{CLEAR}is feeling right now?{SCROLL}{VAR:0103:0}: {VAR:011C:3}{SCROLL}Host: I-I see! So that’s how a{NEWLINE}strong Trainer’s Pokémon feels!{SCROLL}Keep up the good work with {VAR:0101:2}{NEWLINE}and the power of {VAR:011C:3}!{CLEAR}That’s the end of our interview!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "主持人『开始咯！{NEWLINE}冷・不・防・地！突击采访！{SCROLL}今天我们对{VAR:0103:0}{NEWLINE}进行突击采访！{SCROLL}{VAR:0103:0}！{NEWLINE}如果你是道馆领主的话,{CLEAR}你会给{CLEAR}道馆取什么名字呢？{SCROLL}{VAR:0103:0}『{VAR:011C:1}道馆。{SCROLL}主持人『哎~是这样吗？{NEWLINE}就这样,我们下期节目再见！",
+   "en": "Host: Here we go! Out of the{NEWLINE}blue! Surprise Interview!{SCROLL}Today we’re springing a{NEWLINE}surprise interview on {VAR:0103:0}!{SCROLL}{VAR:0103:0}! If you were a Gym Leader,{NEWLINE}what would you name your Gym?{SCROLL}{VAR:0103:0}: The {VAR:011C:1} Gym.{SCROLL}Host: Huh, really? Well,{NEWLINE}see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "主持人『开始咯！{NEWLINE}冷・不・防・地！突击采访！{SCROLL}今天我们对{VAR:0103:0}{NEWLINE}进行突击采访！{SCROLL}{VAR:0103:0}！{NEWLINE}如果把你的母亲{CLEAR}比作精灵的话,{CLEAR}你觉得是什么样的精灵呢？{SCROLL}{VAR:0103:0}『{VAR:011C:1}。{SCROLL}主持人『哎~是这样吗？{NEWLINE}就这样,我们下期节目再见！",
+   "en": "Host: Here we go! Out of the{NEWLINE}blue! Surprise Interview!{SCROLL}Today we’re springing a{NEWLINE}surprise interview on {VAR:0103:0}!{SCROLL}{VAR:0103:0}! If you compared{NEWLINE}your mom to a Pokémon, what{CLEAR}kind of Pokémon would she be?{SCROLL}{VAR:0103:0}: {VAR:011C:1}.{SCROLL}Host: Huh, really? Well,{NEWLINE}see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "主持人『开始咯！{NEWLINE}冷・不・防・地！突击采访！{SCROLL}今天我们对{VAR:0103:0}{NEWLINE}进行突击采访！{SCROLL}{VAR:0103:0}！{NEWLINE}人生中第３重要的{CLEAR}东西是什么呢？{SCROLL}{VAR:0103:0}『{VAR:011C:1}。{SCROLL}主持人『哎~是这样吗？{NEWLINE}就这样,我们下期节目再见！",
+   "en": "Host: Here we go! Out of the{NEWLINE}blue! Surprise Interview!{SCROLL}Today we’re springing a{NEWLINE}surprise interview on {VAR:0103:0}!{SCROLL}{VAR:0103:0}! What’s the third most{NEWLINE}important thing in your life?{SCROLL}{VAR:0103:0}: {VAR:011C:1}.{SCROLL}Host: Huh, really? Well,{NEWLINE}see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "主持人『开始咯！{NEWLINE}冷・不・防・地！突击采访！{SCROLL}今天我们对{VAR:0103:0}{NEWLINE}进行突击采访！{SCROLL}{VAR:0103:0}！{NEWLINE}你因为马上就要迟到了,{CLEAR}所以不得不飞快地奔跑着,{CLEAR}却在拐角撞上了谁！{CLEAR}那会是怎样的人呢？{SCROLL}{VAR:0103:0}『{VAR:011C:1}。{SCROLL}主持人『哎~是这样吗？{NEWLINE}就这样,我们下期节目再见！",
+   "en": "Host: Here we go! Out of the{NEWLINE}blue! Surprise Interview!{SCROLL}Today we’re springing a{NEWLINE}surprise interview on {VAR:0103:0}!{SCROLL}{VAR:0103:0}! You’re about to be late, so{NEWLINE}you’re running as fast as you can, and{CLEAR}you crash into someone at a corner!{CLEAR}What kind of person would it be?{SCROLL}{VAR:0103:0}: {VAR:011C:1}.{SCROLL}Host: Huh, really? Well,{NEWLINE}see you next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "主持人『战斗前线・情报最前线！{SCROLL}今天呢,{NEWLINE}在战斗塔{CLEAR}听说有关系很好的训练师两人{CLEAR}正在挑战中,{CLEAR}我们来采访一下！{SCROLL}啊~现在,正好{NEWLINE}对战结束了。{SCROLL}{VAR:0103:0}与朋友{NEWLINE}{VAR:0103:1}{CLEAR}道别了的样子。{SCROLL}{VAR:0103:0}！{NEWLINE}与{VAR:0103:1}搭档{CLEAR}看上去感觉不错呢！{SCROLL}觉得{VAR:0103:1}{NEWLINE}是怎么样的人呢？{SCROLL}{VAR:0103:0}『{VAR:011C:2}{SCROLL}主持人『 原来如此~！{NEWLINE}长期交往的{CLEAR}感觉是这样的啊~！{CLEAR}非常感谢你的配合！{CLEAR}以上,采访结束！！",
+   "en": "Host: Battle Frontier{NEWLINE}Front-Line Report!{SCROLL}Today we heard two close Trainer{NEWLINE}friends are taking on the Battle Tower,{CLEAR}so we’re here to interview them!{SCROLL}Oh, their battle just ended.{SCROLL}It looks like {VAR:0103:0} just said{NEWLINE}goodbye to their friend {VAR:0103:1}.{SCROLL}{VAR:0103:0}! You and {VAR:0103:1}{NEWLINE}seemed like a great team!{SCROLL}What kind of person do{NEWLINE}you think {VAR:0103:1} is?{SCROLL}{VAR:0103:0}: {VAR:011C:2}{SCROLL}Host: I see! So that’s what{NEWLINE}it’s like after a long friendship!{CLEAR}Thank you so much for your help!{CLEAR}That’s the end of our interview!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "主持人『战斗前线・情报最前线！{SCROLL}今天呢,{NEWLINE}在战斗城堡{CLEAR}听说有关系很好的训练师两人{CLEAR}正在挑战中,{CLEAR}我们来采访一下！{SCROLL}啊~现在,正好{NEWLINE}对战结束了。{SCROLL}{VAR:0103:0}与朋友{NEWLINE}{VAR:0103:1}{CLEAR}道别了的样子。{SCROLL}{VAR:0103:0}！{NEWLINE}与{VAR:0103:1}的搭档{CLEAR}看上去感觉不错！{SCROLL}觉得{VAR:0103:1}{NEWLINE}是怎么样的人呢？{SCROLL}{VAR:0103:0}『{VAR:011C:2}{SCROLL}主持人『 原来如此~！{NEWLINE}长期交往的{CLEAR}感觉是这样的啊~！{CLEAR}非常感谢你的配合！{CLEAR}以上,采访结束！！",
+   "en": "Host: Battle Frontier{NEWLINE}Front-Line Report!{SCROLL}Today we heard two close Trainer{NEWLINE}friends are taking on the Battle Castle,{CLEAR}so we’re here to interview them!{SCROLL}Oh, their battle just ended.{SCROLL}It looks like {VAR:0103:0} just said{NEWLINE}goodbye to their friend {VAR:0103:1}.{SCROLL}{VAR:0103:0}! You and {VAR:0103:1}{NEWLINE}seemed like a great team!{SCROLL}What kind of person do{NEWLINE}you think {VAR:0103:1} is?{SCROLL}{VAR:0103:0}: {VAR:011C:2}{SCROLL}Host: I see! So that’s what{NEWLINE}it’s like after a long friendship!{CLEAR}Thank you so much for your help!{CLEAR}That’s the end of our interview!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "主持人『战斗前线・情报最前线！{SCROLL}今天呢,{NEWLINE}在战斗舞台{CLEAR}听说有关系很好的训练师两人{CLEAR}正在挑战中,{CLEAR}我们来采访一下！{SCROLL}啊~现在,正好{NEWLINE}对战结束了。{SCROLL}{VAR:0103:0}与朋友{NEWLINE}{VAR:0103:1}{CLEAR}道别了的样子。{SCROLL}{VAR:0103:0}！{NEWLINE}与{VAR:0103:1}的搭档{CLEAR}看上去感觉不错！{SCROLL}觉得{VAR:0103:1}{NEWLINE}是怎么样的人呢？{SCROLL}{VAR:0103:0}『{VAR:011C:2}{SCROLL}主持人『 原来如此~！{NEWLINE}长期交往的{CLEAR}感觉是这样的啊~！{CLEAR}非常感谢你的配合！{CLEAR}以上,采访结束！！",
+   "en": "Host: Battle Frontier{NEWLINE}Front-Line Report!{SCROLL}Today we heard two close Trainer{NEWLINE}friends are taking on the Battle Hall,{CLEAR}so we’re here to interview them!{SCROLL}Oh, their battle just ended.{SCROLL}It looks like {VAR:0103:0} just said{NEWLINE}goodbye to their friend {VAR:0103:1}.{SCROLL}{VAR:0103:0}! You and {VAR:0103:1}{NEWLINE}seemed like a great team!{SCROLL}What kind of person do{NEWLINE}you think {VAR:0103:1} is?{SCROLL}{VAR:0103:0}: {VAR:011C:2}{SCROLL}Host: I see! So that’s what{NEWLINE}it’s like after a long friendship!{CLEAR}Thank you so much for your help!{CLEAR}That’s the end of our interview!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "主持人『战斗前线・情报最前线！{SCROLL}今天呢,{NEWLINE}在战斗工厂{CLEAR}听说有关系很好的训练师两人{CLEAR}正在挑战中,{CLEAR}我们来采访一下！{SCROLL}啊~现在,正好{NEWLINE}对战结束了。{SCROLL}{VAR:0103:0}与朋友{NEWLINE}{VAR:0103:1}{CLEAR}道别了的样子。{SCROLL}{VAR:0103:0}！{NEWLINE}与{VAR:0103:1}的搭档{CLEAR}看上去感觉不错呢！{SCROLL}觉得{VAR:0103:1}{NEWLINE}是怎么样的人呢？{SCROLL}{VAR:0103:0}『{VAR:011C:2}{SCROLL}主持人『 原来如此~！{NEWLINE}长期交往的{CLEAR}感觉是这样的啊~！{CLEAR}非常感谢你的配合！{CLEAR}以上,采访结束！！",
+   "en": "Host: Battle Frontier{NEWLINE}Front-Line Report!{SCROLL}Today we heard two close{NEWLINE}Trainer friends are taking on{CLEAR}the Battle Factory, so we’re{CLEAR}here to interview them!{SCROLL}Oh, their battle just ended.{SCROLL}It looks like {VAR:0103:0} just said{NEWLINE}goodbye to their friend {VAR:0103:1}.{SCROLL}{VAR:0103:0}! You and {VAR:0103:1}{NEWLINE}seemed like a great team!{SCROLL}What kind of person do{NEWLINE}you think {VAR:0103:1} is?{SCROLL}{VAR:0103:0}: {VAR:011C:2}{SCROLL}Host: I see! So that’s what{NEWLINE}it’s like after a long friendship!{CLEAR}Thank you so much for your help!{CLEAR}That’s the end of our interview!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "主持人『战斗前线・情报最前线！{SCROLL}今天呢,{NEWLINE}在战斗轮盘{CLEAR}听说有关系很好的训练师两人{CLEAR}正在挑战中,{CLEAR}我们来采访一下！{SCROLL}啊~现在,正好{NEWLINE}对战结束了。{SCROLL}{VAR:0103:0}与朋友{NEWLINE}{VAR:0103:1}{CLEAR}道别了的样子。{SCROLL}{VAR:0103:0}！{NEWLINE}与{VAR:0103:1}的搭档{CLEAR}看上去感觉不错呢！{SCROLL}觉得{VAR:0103:1}{NEWLINE}是怎么样的人呢？{SCROLL}{VAR:0103:0}『{VAR:011C:2}{SCROLL}主持人『 原来如此~！{NEWLINE}长期交往的{CLEAR}感觉是这样的啊~！{CLEAR}非常感谢你的配合！{CLEAR}以上,采访结束！！",
+   "en": "Host: Battle Frontier{NEWLINE}Front-Line Report!{SCROLL}Today we heard two close{NEWLINE}Trainer friends are taking on{CLEAR}the Battle Arcade, so we’re{CLEAR}here to interview them!{SCROLL}Oh, their battle just ended.{SCROLL}It looks like {VAR:0103:0} just said{NEWLINE}goodbye to their friend {VAR:0103:1}.{SCROLL}{VAR:0103:0}! You and {VAR:0103:1}{NEWLINE}seemed like a great team!{SCROLL}What kind of person do{NEWLINE}you think {VAR:0103:1} is?{SCROLL}{VAR:0103:0}: {VAR:011C:2}{SCROLL}Host: I see! So that’s what{NEWLINE}it’s like after a long friendship!{CLEAR}Thank you so much for your help!{CLEAR}That’s the end of our interview!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

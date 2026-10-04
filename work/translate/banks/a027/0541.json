@@ -1,0 +1,935 @@
+{
+ "narc": "a027",
+ "bank": 541,
+ "source": "work/extract/v4/a027/0541.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "娜姿『你终于来了啊{VAR:0103:0}。",
+   "en": "Sabrina: So you have finally arrived,{NEWLINE}{VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Mt. Silver rehab (after Mewtwo injured the player in Cerulean Cave). Tone variants, probably male/female player: #2/#3, #8/#9, #17/#18, #23/#24, #27/#28; Blue #49→#51→#53→#55 vs #50→#52→#54→#56; Yellow 哥哥/姐姐 variants #73/#74, #85/#86, #94/#95, #103/#104, #107/#108; him/her #77/#78, #87/#88; news Mr./Ms. #113/#114."
+  },
+  {
+   "id": 1,
+   "zh": "{VAR:0103:0}『娜姿小姐？{NEWLINE}你怎么会在这里？",
+   "en": "{VAR:0103:0}: Sabrina? What are you doing{NEWLINE}here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "娜姿『主席接到大木博士的汇报,{NEWLINE}说你被非常强大的精灵击伤,{CLEAR}需要清除残存在体内的超能力。{CLEAR}于是就特意安排我来这里{CLEAR}陪你进行康复锻炼。{SCROLL}娜姿『我可是放下了道馆的工作,{NEWLINE}专程来这里帮你的。{CLEAR}你可得给我快点恢复,明白了吗！",
+   "en": "Sabrina: The President received a{NEWLINE}report from Professor Oak.{SCROLL}He said a very powerful Pokémon injured{NEWLINE}you, and the psychic energy left in your{CLEAR}body must be purged.{SCROLL}So he arranged for me to come here and{NEWLINE}help with your rehabilitation.{SCROLL}Sabrina: I have set aside my Gym duties{NEWLINE}to come here just for you.{SCROLL}So you had better hurry up and{NEWLINE}recover. Understood?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "娜姿『主席接到大木博士的汇报,{NEWLINE}说你被非常强大的精灵击伤,{CLEAR}需要清除残存在体内的超能力。{CLEAR}于是就特意安排我来这里{CLEAR}陪你进行康复锻炼。{SCROLL}娜姿『你身为冠军,身体的健康{NEWLINE}就是关系地区安危的大事。{CLEAR}所以接下来的康复锻炼可不能怠慢哦。",
+   "en": "Sabrina: The President received a{NEWLINE}report from Professor Oak.{SCROLL}He said a very powerful Pokémon injured{NEWLINE}you, and the psychic energy left in your{CLEAR}body must be purged.{SCROLL}So he arranged for me to come here and{NEWLINE}help with your rehabilitation.{SCROLL}Sabrina: As Champion, your health bears{NEWLINE}on the safety of the whole region.{SCROLL}So do not slack off during the{NEWLINE}rehabilitation to come.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0103:0}『那当然。我可不想{NEWLINE}总是被这股莫名其妙的能量弄晕。",
+   "en": "{VAR:0103:0}: Of course.{SCROLL}I don’t want this weird energy making me{NEWLINE}dizzy all the time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "娜姿『很好,那我现在就用超能力{NEWLINE}看一下你身体内的能量残留状况。",
+   "en": "Sabrina: Good.{SCROLL}Then I will use my psychic power to{NEWLINE}examine the energy left in your body.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "娜姿『你体内的这股能量非常特别,{NEWLINE}看来打伤你的不是一般精灵啊。",
+   "en": "Sabrina: The energy inside you is most{NEWLINE}unusual.{SCROLL}Whatever injured you was no ordinary{NEWLINE}Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0103:0}『没错,打伤我的精灵叫作超梦,{NEWLINE}它是火箭队创造的精灵。",
+   "en": "{VAR:0103:0}: That’s right. The Pokémon{NEWLINE}that hurt me is called Mewtwo.{SCROLL}Team Rocket created it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "娜姿『嗯……情况比我想的严重。{NEWLINE}你如果想要痊愈的话,{CLEAR}接下来的几个月里{CLEAR}要听我的安排完成康复锻炼,懂了吗？",
+   "en": "Sabrina: Hmm... It is more serious than{NEWLINE}I thought.{SCROLL}To heal completely, you will follow my{NEWLINE}program for the next few months.{SCROLL}Understood?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "娜姿『嗯……情况比我想的严重。{NEWLINE}你如果想要痊愈的话,{CLEAR}接下来的几个月里{CLEAR}要听我的安排完成康复锻炼,好吗？",
+   "en": "Sabrina: Hmm... It is more serious than{NEWLINE}I thought.{SCROLL}To heal completely, please follow my{NEWLINE}program for the next few months.{SCROLL}All right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0103:0}『好的。",
+   "en": "{VAR:0103:0}: OK.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "娜姿『我给你制定的康复锻炼计划,{NEWLINE}简单来说就是充分的锻炼和休息。{CLEAR}我每隔一段时间{CLEAR}会给你安排一位训练家与你对战,{CLEAR}你在对战时要全力以赴取胜,{CLEAR}然后用白银山的温泉恢复体力。{CLEAR}在白银山的水土影响之下,{CLEAR}如此往复循环几个月后,{CLEAR}就可以清除你体内的残留能量了。",
+   "en": "Sabrina: Put simply, the rehabilitation{NEWLINE}plan I made for you is plenty of{CLEAR}exercise and rest.{SCROLL}Every so often, I will arrange for a{NEWLINE}Trainer to battle you.{SCROLL}You must give everything to win.{SCROLL}Then you will recover your strength in{NEWLINE}Mt. Silver’s hot springs.{SCROLL}With the help of Mt. Silver’s land and{NEWLINE}water, a few months of this cycle should{CLEAR}clear the energy from your body.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}『我明白了。{NEWLINE}那我的第一位对手是……？",
+   "en": "{VAR:0103:0}: I understand. So, my first{NEWLINE}opponent is...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "娜姿『不着急锻炼。你初来这里,{NEWLINE}还是先熟悉一下这里的环境比较好。{CLEAR}这个房间里有一台收音机,{CLEAR}你如果想了解外面的事情,{CLEAR}平时可以听听收音机。{CLEAR}房间外的温泉可以帮你恢复体力,{CLEAR}平时锻炼累了可以去泡温泉休息一下。{SCROLL}娜姿『你现在要做的第一件事,{NEWLINE}就是先去泡一会儿温泉,{CLEAR}让你的身体适应一下白银山的水土,{CLEAR}然后咱们再开始锻炼。",
+   "en": "Sabrina: There is no rush to train.{SCROLL}You have only just arrived, so get used{NEWLINE}to your surroundings first.{SCROLL}There is a radio in this room.{SCROLL}If you want to know what is happening{NEWLINE}outside, listen to it.{SCROLL}The hot spring outside will restore your{NEWLINE}strength.{SCROLL}When training tires you out, go soak and{NEWLINE}rest.{SCROLL}Sabrina: The first thing you must do now{NEWLINE}is soak in the hot spring for a while.{SCROLL}Let your body adjust to Mt. Silver’s{NEWLINE}land and water.{SCROLL}Then we will begin training.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "娜姿『你还没有试过屋外的温泉吧？{NEWLINE}以你现在的身体状态{CLEAR}还是先去温泉里泡一会儿,{CLEAR}让流动的泉水净化一下{CLEAR}你体内的能量比较好。",
+   "en": "Sabrina: You have not tried the hot{NEWLINE}spring outside yet, have you?{SCROLL}In your condition, you should soak for a{NEWLINE}while first.{SCROLL}Let the flowing water purify the energy{NEWLINE}inside you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "娜姿『看来你已经泡过温泉了啊,{NEWLINE}那咱们开始第一轮的锻炼吧。",
+   "en": "Sabrina: I see you have been in the hot{NEWLINE}spring.{SCROLL}Then let us begin the first round of{NEWLINE}training.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "娜姿『锻炼完之后{NEWLINE}就给我老老实实去泡温泉水,{CLEAR}偷懒可不行！",
+   "en": "Sabrina: After training, you will go soak{NEWLINE}in the hot spring like you are told.{SCROLL}No slacking!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "娜姿『看来你已经了解到{NEWLINE}温泉水的功效了。{CLEAR}今后在这里的每次锻炼之后,{CLEAR}你都要老老实实泡上几天温泉,{CLEAR}知道了吗？",
+   "en": "Sabrina: I see you understand what the{NEWLINE}spring water does now.{SCROLL}From now on, after every training{NEWLINE}session here, you will soak for a few{CLEAR}days without complaint.{SCROLL}Is that clear?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "娜姿『看来你已经了解到{NEWLINE}温泉水的功效了。{CLEAR}今后在这里的每次锻炼之后,{CLEAR}你都要乖乖去泡几天温泉哦。",
+   "en": "Sabrina: I see you understand what the{NEWLINE}spring water does now.{SCROLL}From now on, after every training{NEWLINE}session here, be good and soak for a{CLEAR}few days, all right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "小刚『哎呀,白银山的雪还真是大啊！",
+   "en": "Brock: Whew, the snow on Mt. Silver{NEWLINE}sure is heavy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0103:0}『小刚,你怎么也到{NEWLINE}这种地方来了？",
+   "en": "{VAR:0103:0}: Brock, what are you doing all{NEWLINE}the way out here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "娜姿『没错,小刚馆主就是{NEWLINE}我给你安排的第一位对手,{CLEAR}与他对战就是你这次的锻炼内容。",
+   "en": "Sabrina: That is right.{SCROLL}Gym Leader Brock is the first opponent{NEWLINE}I arranged for you.{SCROLL}Battling him is your training this time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "小刚『你在华蓝洞穴{NEWLINE}为了救我们而被超梦打伤,{CLEAR}所以娜姿小姐要我协助她{CLEAR}帮你治疗伤势,{CLEAR}我当然就义不容辞地来了。",
+   "en": "Brock: Mewtwo hurt you in Cerulean Cave{NEWLINE}while you were saving us.{SCROLL}So when Sabrina asked for my help, I{NEWLINE}came right away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "娜姿『小刚馆主,{NEWLINE}现在请你好好教教这个乱来的冠军,{CLEAR}该怎么沉稳地战斗吧。",
+   "en": "Sabrina: Brock, please teach this{NEWLINE}reckless Champion some composure.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "娜姿『小刚馆主,{NEWLINE}现在请你拿出全部实力,{CLEAR}与{VAR:0103:0}来一场痛快的战斗吧。",
+   "en": "Sabrina: Brock, please give it{NEWLINE}everything you have and give {VAR:0103:0} a{CLEAR}good, hard battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "小刚『没问题,{NEWLINE}正好我也有很多对战技巧{CLEAR}要向{VAR:0103:0}请教一下。",
+   "en": "Brock: No problem.{SCROLL}There are plenty of battle techniques I{NEWLINE}want to learn from {VAR:0103:0} anyway.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "小刚『不愧是{VAR:0103:0},{NEWLINE}我即使倾尽全力,{CLEAR}也抵不过有伤在身的你啊。",
+   "en": "Brock: That’s {VAR:0103:0} for you.{SCROLL}I went all out, and I still couldn’t beat{NEWLINE}you, injured and all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "娜姿『多亏了小刚馆主,{NEWLINE}这家伙现在的体内能量{CLEAR}已经宣泄出去了一部分。",
+   "en": "Sabrina: Thanks to you, Brock, some of{NEWLINE}the energy inside this troublemaker has{CLEAR}been released.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "娜姿『多亏了小刚馆主,{NEWLINE}{VAR:0103:0}伙现在的体内能量{CLEAR}已经宣泄出去了一部分。",
+   "en": "Sabrina: Thanks to you, Brock, some of{NEWLINE}{VAR:0103:0}’s energy has been released.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh typo ‘{VAR}伙’ (for 这家伙) read as the player's name."
+  },
+  {
+   "id": 29,
+   "zh": "小刚『很高兴能帮上你们的忙,{NEWLINE}如果下次还有需要,{CLEAR}尽管找我就好。{SCROLL}小刚『那么我先回尼比市了,{NEWLINE}等{VAR:0103:0}你伤好之后{CLEAR}欢迎再来我们尼比市玩,{CLEAR}我还想再跟你多来几场对战练习呢。",
+   "en": "Brock: Glad I could help. If you ever{NEWLINE}need me again, just ask.{SCROLL}Brock: Well, I’ll head back to Pewter{NEWLINE}City.{SCROLL}Once you’ve healed, {VAR:0103:0}, come visit{NEWLINE}Pewter City.{SCROLL}I’d love to have a few more practice{NEWLINE}battles with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "小刚『娜姿小姐,如果您也能来就更好了。{NEWLINE}毕竟您的美貌可是让美丽的月亮{CLEAR}都自叹不如呢。{CLEAR}我想如果跟您手牵手……",
+   "en": "Brock: And Sabrina, it’d be even better{NEWLINE}if you came too.{SCROLL}After all, your beauty puts even the{NEWLINE}lovely moon to shame.{SCROLL}I think if I could hold your hand...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "娜姿『咳咳！谢谢小刚馆主的美意！{NEWLINE}我要帮{VAR:0103:0}继续进行康复锻炼了！",
+   "en": "Sabrina: *Ahem!* Thank you for the kind{NEWLINE}thought, Brock!{SCROLL}I must continue {VAR:0103:0}’s{NEWLINE}rehabilitation now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "小刚『哈哈,好的娜姿小姐。{NEWLINE}那么我在尼比市等你哦。",
+   "en": "Brock: Ha ha, OK, Sabrina. I’ll be{NEWLINE}waiting for you in Pewter City.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "娜姿『{VAR:0103:0},{NEWLINE}你已经完成了第一轮的锻炼,{CLEAR}现在去外面的温泉放松一下身体吧。{CLEAR}等过几周你的身体有所恢复之后{CLEAR}我们再进行第二轮的锻炼。",
+   "en": "Sabrina: {VAR:0103:0}, you have finished the{NEWLINE}first round of training.{SCROLL}Go relax in the hot spring outside.{SCROLL}In a few weeks, once your body has{NEWLINE}recovered somewhat, we will start the{CLEAR}second round.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "娜姿『我可以感觉到{NEWLINE}你身体内的能量正在消散。{CLEAR}看来是时候开始第二轮的锻炼了。{SCROLL}娜姿『正好你的对手应该马上就到了。",
+   "en": "Sabrina: I can sense the energy in your{NEWLINE}body fading.{SCROLL}It is time to begin the second round of{NEWLINE}training.{SCROLL}Sabrina: Your opponent should be{NEWLINE}arriving any moment.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "小霞『哇,终于到了。{NEWLINE}这里可真难找。",
+   "en": "Misty: Whew, finally made it. This place{NEWLINE}is so hard to find.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "{VAR:0103:0}『小霞！？你就是娜姿馆主{NEWLINE}帮我找的第二个对手吗？",
+   "en": "{VAR:0103:0}: Misty?! You’re the second{NEWLINE}opponent Sabrina found for me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "小霞『嘿嘿,没错。{NEWLINE}看你伤的这么重,{CLEAR}我当然也想多帮帮你啦。",
+   "en": "Misty: Heh heh, that’s right. You got{NEWLINE}hurt so badly.{SCROLL}Of course I want to help out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "娜姿『小霞馆主听说可以帮你疗伤,{NEWLINE}二话不说就答应了。{CLEAR}你如果不拿出全力应战,{CLEAR}可对不起她的一片苦心。",
+   "en": "Sabrina: When Misty heard she could{NEWLINE}help heal you, she agreed without a{CLEAR}second thought.{SCROLL}If you do not give her your all, you will{NEWLINE}be letting her down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "{VAR:0103:0}『放心吧！{NEWLINE}我会认真与小霞比试的。",
+   "en": "{VAR:0103:0}: Don’t worry! I’ll take this{NEWLINE}match with Misty seriously.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "小霞『{VAR:0103:0}你跟刚从华蓝洞穴{NEWLINE}回来时的虚弱样子相比,{CLEAR}变得有精神多了！{CLEAR}这样我也就能放心使出全力{CLEAR}跟你好好比试一下了！",
+   "en": "Misty: {VAR:0103:0}, you’re way livelier than{NEWLINE}when you came back from Cerulean Cave,{CLEAR}all weak and feeble!{SCROLL}Now I can go all out without worrying{NEWLINE}and give you a real match!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "小霞『呼,真是场痛快的战斗。{NEWLINE}希望刚才的比试{CLEAR}能对治疗你的伤势有所帮助吧。",
+   "en": "Misty: Phew, what a great battle. I{NEWLINE}hope it helped heal your injuries.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "娜姿『你放心吧,小霞馆主。{NEWLINE}我能感受到{VAR:0103:0}体内的超梦能量{CLEAR}又减轻了不少。{CLEAR}你的辛苦没有白费。",
+   "en": "Sabrina: Rest assured, Misty.{SCROLL}I can sense that the Mewtwo energy{NEWLINE}inside {VAR:0103:0} has greatly weakened.{SCROLL}Your efforts were not in vain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "小霞『嘿嘿,那就好。",
+   "en": "Misty: Heh heh, good.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "小霞『{VAR:0103:0},{NEWLINE}华蓝道馆还有很多事等我处理,{CLEAR}我现在不得不回去了。{CLEAR}希望你的伤尽快痊愈,{CLEAR}到时候咱们再去华蓝海角野餐。",
+   "en": "Misty: {VAR:0103:0}, there’s a lot waiting{NEWLINE}for me at the Cerulean Gym, so I have{CLEAR}to go back now.{SCROLL}I hope you heal up soon. Then let’s go{NEWLINE}have a picnic at Cerulean Cape again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "娜姿『{VAR:0103:0},{NEWLINE}这一轮的训练你已经完成了,{CLEAR}去泡个温泉休息一下吧。{CLEAR}等过几周你的身体有所恢复之后{CLEAR}我们再进行第三轮的锻炼。",
+   "en": "Sabrina: {VAR:0103:0}, you have completed{NEWLINE}this round of training.{SCROLL}Go soak in the hot spring and rest.{SCROLL}In a few weeks, once your body has{NEWLINE}recovered somewhat, we will begin the{CLEAR}third round.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "娜姿『经过这几天的休息{NEWLINE}你的身体已经恢复了很多。{CLEAR}现在我们开始第三轮的锻炼吧。{CLEAR}这次我可是找了一个{CLEAR}能与你旗鼓相当的对手哦。",
+   "en": "Sabrina: These days of rest have done{NEWLINE}your body a great deal of good.{SCROLL}Let us begin the third round of{NEWLINE}training.{SCROLL}This time, I have found an opponent who{NEWLINE}is your equal.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "小绿『要不是有警卫指路,{NEWLINE}这里还真是难找……",
+   "en": "Blue: If the guard hadn’t shown me the{NEWLINE}way, I’d never have found this place...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "{VAR:0103:0}『原来我的第三个对手是小绿啊。",
+   "en": "{VAR:0103:0}: So my third opponent is Blue.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "小绿『听说你在华蓝洞穴{NEWLINE}被坂木给揍了,{CLEAR}你总这样打败仗可不行啊。{CLEAR}害的我不得不放下道馆的一堆事情{CLEAR}来这里帮你做康复锻炼。",
+   "en": "Blue: I heard Giovanni beat you up in{NEWLINE}Cerulean Cave.{SCROLL}You can’t keep losing like that, you{NEWLINE}know.{SCROLL}Now I had to drop a pile of Gym work to{NEWLINE}come help with your rehab.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "小绿『听说你在华蓝洞穴{NEWLINE}被坂木给打伤了。{CLEAR}我听爷爷说你治疗伤势{CLEAR}需要有人陪同锻炼,{CLEAR}于是我就自告奋勇地来了。",
+   "en": "Blue: I heard Giovanni hurt you in{NEWLINE}Cerulean Cave.{SCROLL}Gramps said your treatment needs a{NEWLINE}training partner, so I volunteered.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0103:0}『坂木的超梦可是非常厉害,{NEWLINE}你如果跟它对上,可不见得能赢。",
+   "en": "{VAR:0103:0}: Giovanni’s Mewtwo is really{NEWLINE}strong.{SCROLL}If you went up against it, you might not{NEWLINE}win either.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "{VAR:0103:0}『谢谢你小绿。{NEWLINE}多亏了有你们这些朋友帮忙,{CLEAR}我现在已经好的差不多了。",
+   "en": "{VAR:0103:0}: Thanks, Blue. With friends like{NEWLINE}you helping out, I’m almost better now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "小绿『好啊,那就让我看看,{NEWLINE}石英大会之后到现在,{CLEAR}你又进步了多少！",
+   "en": "Blue: Oh yeah?{SCROLL}Then let me see how much you’ve{NEWLINE}improved since the Indigo Conference!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "小绿『我听娜姿小姐说,{NEWLINE}只要跟你对战就能继续帮你康复,{CLEAR}我也正是为此而来的。{SCROLL}小绿『为了能让你早日痊愈,{NEWLINE}咱们现在稍微活动一下吧。",
+   "en": "Blue: Sabrina told me battling you will{NEWLINE}keep helping you recover.{SCROLL}That’s why I came.{SCROLL}Blue: So let’s get you better fast. Time{NEWLINE}for a little workout.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "小绿『看你刚才生龙活虎的样子,{NEWLINE}一点也不像有伤的人。{CLEAR}我还以为能趁你虚弱赢你一回呢。",
+   "en": "Blue: Look at you, full of fight. You{NEWLINE}don’t look injured at all.{SCROLL}And here I thought I could finally beat{NEWLINE}you while you were weak.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "小绿『看你刚才生龙活虎的样子,{NEWLINE}一点也不像有伤的人。{CLEAR}看来我的担心有点多余了啊。",
+   "en": "Blue: Look at you, full of fight. You{NEWLINE}don’t look injured at all.{SCROLL}Guess I was worrying for nothing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "{VAR:0103:0}『不……我感觉跟你对战之后,{NEWLINE}身体轻盈了许多！{CLEAR}跟前段时间的感觉大不一样了。",
+   "en": "{VAR:0103:0}: No... After battling you, my{NEWLINE}body feels so much lighter!{SCROLL}It’s totally different from how I felt a{NEWLINE}while ago.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "娜姿『可能是因为小绿馆主{NEWLINE}实力与你最为接近,{CLEAR}所以才能最大限度地帮你排出能量。",
+   "en": "Sabrina: Perhaps because Blue is the{NEWLINE}closest to you in strength, he could{CLEAR}draw out the most energy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "小绿『看来我的任务已经完成了,{NEWLINE}那我就先回常磐道馆了。{CLEAR}{VAR:0103:0}你如果康复了,{CLEAR}就来我们常磐道馆看看,{CLEAR}我可是打理地非常像样了哦。",
+   "en": "Blue: Looks like my job’s done. I’ll head{NEWLINE}back to the Viridian Gym.{SCROLL}{VAR:0103:0}, once you’ve recovered, come{NEWLINE}check out the Viridian Gym.{SCROLL}I’ve got it running in real shape now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "娜姿『多亏小绿馆主的帮忙,{NEWLINE}你体内只剩最后一点能量了。{CLEAR}你现在去泡一下温泉然后休息几周。{SCROLL}娜姿『之后由我来当你最终的对手,{NEWLINE}帮你完成身体的康复。",
+   "en": "Sabrina: Thanks to Blue’s help, only the{NEWLINE}last bit of energy remains in your body.{SCROLL}Now go soak in the hot spring and rest{NEWLINE}for a few weeks.{SCROLL}Sabrina: After that, I will be your final{NEWLINE}opponent and complete your recovery.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "娜姿『你的身体恢复地不错,{NEWLINE}是时候用我的超能力{CLEAR}帮你做最后的治疗了。{SCROLL}娜姿『接下来我会一边与你战斗,{NEWLINE}一边用超能力驱除你体内最后的能量。{CLEAR}你只管战斗就好,{CLEAR}精神上不要对我设防知道吗？",
+   "en": "Sabrina: Your body has recovered well.{SCROLL}It is time for me to use my psychic{NEWLINE}power for your final treatment.{SCROLL}Sabrina: I will battle you.{SCROLL}At the same time, my psychic power will{NEWLINE}drive out the last of the energy in you.{SCROLL}Just focus on the battle. Do not put up{NEWLINE}any mental guard against me.{SCROLL}Understood?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "{VAR:0103:0}『没问题。",
+   "en": "{VAR:0103:0}: No problem.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "娜姿『那么,最后的康复锻炼——{NEWLINE}开始！",
+   "en": "Sabrina: Then, the final rehabilitation{NEWLINE}session... begin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "{VAR:0103:0}『怎么样,娜姿小姐,{NEWLINE}我体内的能量残留已经没有了吧？",
+   "en": "{VAR:0103:0}: Well, Sabrina? The leftover{NEWLINE}energy in my body is gone now, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "娜姿『不……不……{NEWLINE}不可能……",
+   "en": "Sabrina: No... No... It cannot be...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "{VAR:0103:0}『怎么了吗？",
+   "en": "{VAR:0103:0}: What’s wrong?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "娜姿『我的超能力完全无法{NEWLINE}清除你体内的能量残留……{CLEAR}看来超梦是只非常强大的超能系精灵,{CLEAR}它的能量可以丝毫不受我的影响……{SCROLL}娜姿『是我太低估超梦的能量了,{NEWLINE}看来锻炼加泡温泉的方式{CLEAR}无法彻底根除这股能量。{CLEAR}现在只能依靠白银山的水土{CLEAR}慢慢等你自然康复了。",
+   "en": "Sabrina: My psychic power cannot clear{NEWLINE}the energy left in your body at all...{SCROLL}Mewtwo must be an extraordinarily{NEWLINE}powerful Psychic-type Pokémon.{SCROLL}My power does not touch its energy in{NEWLINE}the slightest...{SCROLL}Sabrina: I underestimated Mewtwo’s{NEWLINE}energy.{SCROLL}Training and hot springs cannot root it{NEWLINE}out completely.{SCROLL}Now all we can do is rely on Mt. Silver’s{NEWLINE}land and water, and wait for you to{CLEAR}recover naturally.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "{VAR:0103:0}『那大概需要多久呢？",
+   "en": "{VAR:0103:0}: How long will that take?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "娜姿『不好说,可能是一年,{NEWLINE}也可能是两到三年……",
+   "en": "Sabrina: Hard to say. Perhaps one year.{NEWLINE}Perhaps two or three...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "小黄『哎呀,好冷好冷……{NEWLINE}来这里避避雪吧。",
+   "en": "Yellow: Brr, so cold, so cold... I’ll get{NEWLINE}out of the snow in here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "小黄『啊……！原来屋里有人啊。",
+   "en": "Yellow: Ah...! There are people inside.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "小黄『那个……不好意思,{NEWLINE}我因为迷路……",
+   "en": "Yellow: Um... sorry, I got lost...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "小黄『啊！是{VAR:0103:0}哥哥！",
+   "en": "Yellow: Ah! It’s {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "小黄『啊！是{VAR:0103:0}姐姐！",
+   "en": "Yellow: Ah! It’s {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "{VAR:0103:0}『你怎么会到这儿来啊,小黄。",
+   "en": "{VAR:0103:0}: What are you doing here,{NEWLINE}Yellow?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "小黄『啊……那个……{NEWLINE}我……不是……",
+   "en": "Yellow: Ah... um... I... it’s not...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "娜姿『不必紧张,你是在旅行途中看到{NEWLINE}有关{VAR:0103:0}受伤的新闻,{CLEAR}因为担心他所以才来这里的吧？",
+   "en": "Sabrina: No need to be nervous.{SCROLL}You saw the news about {VAR:0103:0}’s{NEWLINE}injury on your travels, and you came{CLEAR}because you were worried about him.{SCROLL}Did you not?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "娜姿『不必紧张,你是在旅行途中看到{NEWLINE}有关{VAR:0103:0}受伤的新闻,{CLEAR}因为担心她所以才来这里的吧？",
+   "en": "Sabrina: No need to be nervous.{SCROLL}You saw the news about {VAR:0103:0}’s{NEWLINE}injury on your travels, and you came{CLEAR}because you were worried about her.{SCROLL}Did you not?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "小黄『啊！！！你怎么知道的！？",
+   "en": "Yellow: Aah!!! How did you know?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "娜姿『像你这样稚嫩的训练家,{NEWLINE}我的读心术还能读到更多东西呢。",
+   "en": "Sabrina: With a Trainer as young as you,{NEWLINE}I can read much more than that.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "小黄『啊——！你怎么能这样！",
+   "en": "Yellow: Aaah! That’s not fair!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "娜姿『你放心,我对你的事没兴趣。{NEWLINE}不过既然你也希望{VAR:0103:0}快点康复,{CLEAR}那就来帮忙吧。",
+   "en": "Sabrina: Relax. I have no interest in{NEWLINE}your affairs.{SCROLL}But since you also want {VAR:0103:0} to{NEWLINE}recover quickly, you can help.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "小黄『好的,那么我该做什么呢？",
+   "en": "Yellow: OK. So what should I do?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "娜姿『尽全力与{VAR:0103:0}来一场战斗。",
+   "en": "Sabrina: Battle {VAR:0103:0} with everything{NEWLINE}you have.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "小黄『咦——！？{NEWLINE}要我跟{VAR:0103:0}哥哥战斗！？{CLEAR}可我哪里是{VAR:0103:0}哥哥的对手啊。",
+   "en": "Yellow: Wha-?! You want me to battle{NEWLINE}{VAR:0103:0}?!{SCROLL}But I’m no match for {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "小黄『咦——！？{NEWLINE}要我跟{VAR:0103:0}姐姐战斗！？{CLEAR}可我哪里是{VAR:0103:0}姐姐的对手啊。",
+   "en": "Yellow: Wha-?! You want me to battle{NEWLINE}{VAR:0103:0}?!{SCROLL}But I’m no match for {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "娜姿『你进门的时候,我就注意到{NEWLINE}你体内蕴藏着神奇的力量。{CLEAR}我是要你通过与{VAR:0103:0}战斗,{CLEAR}用你的力量影响{VAR:0103:0},{CLEAR}帮他清除最后的能量残留。",
+   "en": "Sabrina: When you came in, I noticed a{NEWLINE}mysterious power hidden inside you.{SCROLL}I want you to battle {VAR:0103:0} and use{NEWLINE}that power to influence {VAR:0103:0}.{SCROLL}It will help clear away the last of the{NEWLINE}energy inside him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "娜姿『你进门的时候,我就注意到{NEWLINE}你体内蕴藏着神奇的力量。{CLEAR}我是要你通过与{VAR:0103:0}战斗,{CLEAR}用你的力量影响{VAR:0103:0},{CLEAR}帮她清除最后的能量残留。",
+   "en": "Sabrina: When you came in, I noticed a{NEWLINE}mysterious power hidden inside you.{SCROLL}I want you to battle {VAR:0103:0} and use{NEWLINE}that power to influence {VAR:0103:0}.{SCROLL}It will help clear away the last of the{NEWLINE}energy inside her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "小黄『这样的话,倒是没问题。",
+   "en": "Yellow: If that’s all, then no problem.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "娜姿『{VAR:0103:0},{NEWLINE}这个小姑娘可很不得了。{CLEAR}你不要看她还小就掉以轻心,{CLEAR}一定要认真战斗啊。",
+   "en": "Sabrina: {VAR:0103:0}, this girl is quite{NEWLINE}remarkable.{SCROLL}Do not underestimate her just because{NEWLINE}she is young. Battle her seriously.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "{VAR:0103:0}『啊……好,我会认真的。",
+   "en": "{VAR:0103:0}: Ah... OK, I’ll take it{NEWLINE}seriously.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "{VAR:0103:0}『小黄,你不用紧张,{NEWLINE}就当是通过对战{CLEAR}给我展示你这段时间的进步好了。",
+   "en": "{VAR:0103:0}: Don’t be nervous, Yellow.{SCROLL}Just think of it as a battle to show me{NEWLINE}how much you’ve grown.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "小黄『嗯！那我要进攻了！",
+   "en": "Yellow: Mm-hmm! Then here I come!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "小黄『哎呀,果然我和{VAR:0103:0}哥哥{NEWLINE}还差的很远啊！",
+   "en": "Yellow: Oh, I knew it. I’m still nowhere{NEWLINE}near as good as {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "小黄『哎呀,果然我和{VAR:0103:0}姐姐{NEWLINE}还差的很远啊！",
+   "en": "Yellow: Oh, I knew it. I’m still nowhere{NEWLINE}near as good as {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "{VAR:0103:0}『不,小黄……我……",
+   "en": "{VAR:0103:0}: No, Yellow... I...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "娜姿『没错,{VAR:0103:0}。多亏了小黄,{NEWLINE}你体内最后残留的能量被净化了。{CLEAR}现在你完全康复了！",
+   "en": "Sabrina: That is right, {VAR:0103:0}.{SCROLL}Thanks to Yellow, the last of the{NEWLINE}energy in your body has been purified.{SCROLL}You have fully recovered!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "{VAR:0103:0}『真是太谢谢你了小黄！",
+   "en": "{VAR:0103:0}: Thank you so much, Yellow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "小黄『可是我感觉自己{NEWLINE}好像也没有做什么啊……",
+   "en": "Yellow: But I don’t feel like I did{NEWLINE}anything...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "娜姿『虽然你自己意识不到,{NEWLINE}但你确确实实地帮助了{VAR:0103:0}。{CLEAR}我的康复方案也多亏了你的出现,{CLEAR}才没有功亏一馈。",
+   "en": "Sabrina: You may not realize it, but you{NEWLINE}truly did help {VAR:0103:0}.{SCROLL}Without you, my treatment plan would{NEWLINE}have failed at the last step.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "娜姿『{VAR:0103:0},你的伤虽然已经痊愈,{NEWLINE}但还需要再去泡泡温泉调理一下身体。{CLEAR}这是最后阶段的治疗了,{CLEAR}你可要认真对待。",
+   "en": "Sabrina: {VAR:0103:0}, your injury has{NEWLINE}healed, but you should still soak in the{CLEAR}hot spring to restore your body.{SCROLL}This is the final stage of treatment.{NEWLINE}Take it seriously.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "{VAR:0103:0}『小黄,我还以为{NEWLINE}自己要在白银山住好久呢,{CLEAR}多亏了你今天来到这里……",
+   "en": "{VAR:0103:0}: Yellow, I thought I’d be stuck{NEWLINE}on Mt. Silver for ages.{SCROLL}But thanks to you coming here today...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "小黄『那个……没什么啦！{NEWLINE}能帮上{VAR:0103:0}哥哥的忙我也很开心。",
+   "en": "Yellow: Um... it’s nothing! I’m happy I{NEWLINE}could help you, {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "小黄『那个……没什么啦！{NEWLINE}能帮上{VAR:0103:0}姐姐的忙我也很开心。",
+   "en": "Yellow: Um... it’s nothing! I’m happy I{NEWLINE}could help you, {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "{VAR:0103:0}『小黄怎么越外出历练,{NEWLINE}反而越害羞了呢……{SCROLL}{VAR:0103:0}『算了,还是先回家{NEWLINE}休息一下吧。",
+   "en": "{VAR:0103:0}: Why does Yellow get shyer the{NEWLINE}more she travels...?{SCROLL}{VAR:0103:0}: Oh well. I’ll go home and get{NEWLINE}some rest first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "胡地『Alaaa——ka！",
+   "en": "Alakazam: Alaaa-ka!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "小黄『对了,我得继续去收集徽章啦,{NEWLINE}不然就赶不上今年的石英大会了。{CLEAR}{VAR:0103:0}哥哥再见！",
+   "en": "Yellow: Oh, right, I need to keep{NEWLINE}collecting Badges, or I’ll miss this{CLEAR}year’s Indigo Conference.{SCROLL}Bye, {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "小黄『对了,我得继续去收集徽章啦,{NEWLINE}不然就赶不上今年的石英大会了。{CLEAR}{VAR:0103:0}姐姐再见！",
+   "en": "Yellow: Oh, right, I need to keep{NEWLINE}collecting Badges, or I’ll miss this{CLEAR}year’s Indigo Conference.{SCROLL}Bye, {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "收音机里正在播放新闻：{NEWLINE}一位训练家的精灵身患怪病,{CLEAR}四处求医问药无果后来到尼比市{CLEAR}请求著名的饲育家小刚为精灵治疗。{SCROLL}但小刚馆主几番检查之后{NEWLINE}对精灵的病因毫无头绪。{CLEAR}恰巧此时有一位{CLEAR}来尼比道馆挑战的年轻训练家,{CLEAR}她在抚摸生病的精灵后,{CLEAR}竟然神奇地将精灵治愈了！",
+   "en": "The radio is playing the news: A{NEWLINE}Trainer’s Pokémon came down with a{CLEAR}strange illness.{SCROLL}No one could cure it, so the Trainer{NEWLINE}asked the famed breeder Brock of{CLEAR}Pewter City.{SCROLL}But even after several exams, Gym{NEWLINE}Leader Brock was stumped.{SCROLL}Then a young Trainer who came to{NEWLINE}challenge the Pewter Gym stroked the{CLEAR}sick Pokémon.{SCROLL}It was miraculously cured!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Radio news #109–#112 hint at Yellow's powers (healing, Mt. Moon Clefairy) and wins."
+  },
+  {
+   "id": 110,
+   "zh": "收音机里正在播放新闻：{NEWLINE}在月见山的皮皮事件中,{CLEAR}一位勇敢的黄发少女挺身而出,{CLEAR}用她那神奇的力量安抚了皮皮。",
+   "en": "The radio is playing the news: In the{NEWLINE}Clefairy incident at Mt. Moon, a brave{CLEAR}blond girl stepped forward and calmed{CLEAR}the Clefairy with her mysterious power.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "收音机里正在播放新闻：{NEWLINE}钓鱼名人良智已经在{CLEAR}枯叶市的钓鱼大赛上{CLEAR}连续5年蝉联冠军了,{CLEAR}但是他今年居然败给了一位{CLEAR}来枯叶道馆挑战的年轻女孩！{CLEAR}真是出人意料的结果！",
+   "en": "The radio is playing the news: Fishing{NEWLINE}legend Ryochi had won the Vermilion City{CLEAR}Fishing Contest 5 years in a row.{SCROLL}But this year, he lost to a young girl{NEWLINE}who came to challenge the Vermilion Gym!{SCROLL}What a surprise!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "收音机里正在播放新闻：{NEWLINE}四天王的渡先生居然报名参加了{CLEAR}今年的浅红市水上冲浪大赛！{CLEAR}最终结果毫无疑问,{CLEAR}是渡先生获得了冠军。{SCROLL}第二名则是在枯叶市钓鱼大赛上{NEWLINE}一鸣惊人的黄发少女——小黄！",
+   "en": "The radio is playing the news: Lance of{NEWLINE}the Elite Four actually entered this{CLEAR}year’s Fuchsia City Surfing Contest!{SCROLL}The result was never in doubt: Lance{NEWLINE}took first place.{SCROLL}Second place went to the blond girl who{NEWLINE}made a splash at the Vermilion City{CLEAR}Fishing Contest: Yellow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "下面插播一条紧急新闻：{NEWLINE}在前段时间的浅红市冲浪大赛上,{CLEAR}与渡先生同行的精灵联盟工作人员,{CLEAR}在酒后曾向记者透露：{CLEAR}精灵联盟的冠军{VAR:0103:0}先生{CLEAR}目前身受重伤,正在白银山一带治疗。{SCROLL}虽然精灵联盟已经出面辟谣{NEWLINE}说这是工作人员酒后胡言,{CLEAR}{VAR:0103:0}先生正在联盟总部闭关修行,{CLEAR}目前身体非常健康。{CLEAR}但根据各方证据来看,{CLEAR}精灵联盟的辟谣略显苍白无力。{SCROLL}我们有理由怀疑世上最强训练家{NEWLINE}{VAR:0103:0}先生目前下落不明,{CLEAR}到底是怎样的敌人,{CLEAR}才能让我们的联盟冠军陷入如此危机？{CLEAR}请持续关注本台报道。",
+   "en": "Breaking news: At the recent Fuchsia{NEWLINE}City Surfing Contest, a Pokémon League{CLEAR}staff member traveling with Lance got{CLEAR}drunk and told a reporter something.{SCROLL}League Champion Mr. {VAR:0103:0} is gravely{NEWLINE}hurt and in treatment near Mt. Silver.{SCROLL}The Pokémon League has denied the{NEWLINE}rumor as drunken nonsense.{SCROLL}It claims Mr. {VAR:0103:0} is fit and well,{NEWLINE}training in seclusion at League HQ.{SCROLL}But judging from all the evidence, the{NEWLINE}League’s denial rings rather hollow.{SCROLL}We have reason to suspect that{NEWLINE}Mr. {VAR:0103:0}, the world’s strongest{CLEAR}Trainer, is missing.{SCROLL}What kind of enemy could put our League{NEWLINE}Champion in such danger?{SCROLL}Stay tuned to this station for more.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "下面插播一条紧急新闻：{NEWLINE}在前段时间的浅红市冲浪大赛上,{CLEAR}与渡先生同行的精灵联盟工作人员,{CLEAR}在酒后曾向记者透露：{CLEAR}精灵联盟的冠军{VAR:0103:0}小姐{CLEAR}目前身受重伤,正在白银山一带治疗。{SCROLL}虽然精灵联盟已经出面辟谣{NEWLINE}说这是工作人员酒后胡言,{CLEAR}{VAR:0103:0}小姐正在联盟总部闭关修行,{CLEAR}目前身体非常健康。{CLEAR}但根据各方证据来看,{CLEAR}精灵联盟的辟谣略显苍白无力。{SCROLL}我们有理由怀疑世上最强训练家{NEWLINE}{VAR:0103:0}小姐目前下落不明,{CLEAR}到底是怎样的敌人,{CLEAR}才能让我们的联盟冠军陷入如此危机？{CLEAR}请持续关注本台报道。",
+   "en": "Breaking news: At the recent Fuchsia{NEWLINE}City Surfing Contest, a Pokémon League{CLEAR}staff member traveling with Lance got{CLEAR}drunk and told a reporter something.{SCROLL}League Champion Ms. {VAR:0103:0} is gravely{NEWLINE}hurt and in treatment near Mt. Silver.{SCROLL}The Pokémon League has denied the{NEWLINE}rumor as drunken nonsense.{SCROLL}It claims Ms. {VAR:0103:0} is fit and well,{NEWLINE}training in seclusion at League HQ.{SCROLL}But judging from all the evidence, the{NEWLINE}League’s denial rings rather hollow.{SCROLL}We have reason to suspect that{NEWLINE}Ms. {VAR:0103:0}, the world’s strongest{CLEAR}Trainer, is missing.{SCROLL}What kind of enemy could put our League{NEWLINE}Champion in such danger?{SCROLL}Stay tuned to this station for more.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-019"
+  },
+  {
+   "id": 115,
+   "zh": "收音机没电了,听不到节目了。",
+   "en": "The radio’s batteries are dead. You{NEWLINE}can’t hear anything.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,2242 @@
+{
+ "narc": "a027",
+ "bank": 726,
+ "source": "work/extract/v4/a027/0726.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "关闭",
+   "en": "CLOSE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl) | DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 1,
+   "zh": "电脑",
+   "en": "PC",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 2,
+   "zh": "电脑",
+   "en": "PC",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 3,
+   "zh": "电脑",
+   "en": "PC",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 4,
+   "zh": "电脑",
+   "en": "PC",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 5,
+   "zh": "电脑",
+   "en": "PC",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 6,
+   "zh": "大石头",
+   "en": "Big Rock",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 7,
+   "zh": "黄色坐垫",
+   "en": "Yellow Cushion",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 8,
+   "zh": "蓝色坐垫",
+   "en": "Blue Cushion",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 9,
+   "zh": "木椅子",
+   "en": "Wooden Chair",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 10,
+   "zh": "大桌子",
+   "en": "Big Table",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 11,
+   "zh": "普通桌子",
+   "en": "Plain Table",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 12,
+   "zh": "小桌子",
+   "en": "Small Table",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 13,
+   "zh": "纵长型桌子",
+   "en": "Tall Table",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 14,
+   "zh": "横长型桌子",
+   "en": "Wide Table",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 15,
+   "zh": "精灵中心桌子",
+   "en": "Pokémon Center Table",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 16,
+   "zh": "大书架",
+   "en": "Big Bookshelf",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 17,
+   "zh": "小书架",
+   "en": "Small Bookshelf",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 18,
+   "zh": "研究物品架",
+   "en": "Research Shelf",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 19,
+   "zh": "自行车架",
+   "en": "Bike Shop Shelf",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 20,
+   "zh": "商店的架子",
+   "en": "Poké Mart Shelf",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 21,
+   "zh": "商品架",
+   "en": "Goods Shelf",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 22,
+   "zh": "餐具架子",
+   "en": "Dish Rack",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 23,
+   "zh": "木柜子",
+   "en": "Wooden Cabinet",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 24,
+   "zh": "粉色柜子",
+   "en": "Pink Cabinet",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 25,
+   "zh": "大电视机",
+   "en": "Big TV",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 26,
+   "zh": "冰箱",
+   "en": "Fridge",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 27,
+   "zh": "干净的污水槽",
+   "en": "Clean Sink",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 28,
+   "zh": "软软的床",
+   "en": "Soft Bed",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 29,
+   "zh": "垃圾箱",
+   "en": "Trash Can",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 30,
+   "zh": "纸箱",
+   "en": "Cardboard Box",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 31,
+   "zh": "木箱子",
+   "en": "Wooden Crate",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 32,
+   "zh": "集装箱",
+   "en": "Container",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 33,
+   "zh": "大圆罐",
+   "en": "Big Drum",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 34,
+   "zh": "很多大圆罐",
+   "en": "Lots of Drums",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 35,
+   "zh": "钢筋",
+   "en": "Steel Beam",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 36,
+   "zh": "盆栽",
+   "en": "Potted Plant",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 37,
+   "zh": "精灵中心花",
+   "en": "Pokémon Center Flower",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 38,
+   "zh": "回复机器",
+   "en": "Healing Machine",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 39,
+   "zh": "研究机器",
+   "en": "Research Machine",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 40,
+   "zh": "实验机器",
+   "en": "Lab Machine",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 41,
+   "zh": "游戏机",
+   "en": "Game Console",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 42,
+   "zh": "自动贩卖机",
+   "en": "Vending Machine",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 43,
+   "zh": "红色自行车",
+   "en": "Red Bike",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 44,
+   "zh": "绿色自行车",
+   "en": "Green Bike",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 45,
+   "zh": "望远镜",
+   "en": "Telescope",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 46,
+   "zh": "地球仪",
+   "en": "Globe",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 47,
+   "zh": "道馆的石像",
+   "en": "Gym Statue",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 48,
+   "zh": "红色帐篷",
+   "en": "Red Tent",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 49,
+   "zh": "蓝色帐篷",
+   "en": "Blue Tent",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 50,
+   "zh": "透明帐篷",
+   "en": "Clear Tent",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 51,
+   "zh": "迷路岩石１",
+   "en": "Maze Rock 1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 52,
+   "zh": "迷路岩石２",
+   "en": "Maze Rock 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 53,
+   "zh": "迷路岩石３",
+   "en": "Maze Rock 3",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 54,
+   "zh": "迷路岩石４",
+   "en": "Maze Rock 4",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 55,
+   "zh": "迷路岩石５",
+   "en": "Maze Rock 5",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 56,
+   "zh": "陷坑装置",
+   "en": "Pit Trap",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 57,
+   "zh": "大陷坑装置",
+   "en": "Big Pit Trap",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 58,
+   "zh": "烟雾装置",
+   "en": "Smoke Trap",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 59,
+   "zh": "烟幕装置",
+   "en": "Smoke Screen Trap",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 60,
+   "zh": "石头装置",
+   "en": "Rock Trap",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 61,
+   "zh": "落实装置",
+   "en": "Rockfall Trap",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 62,
+   "zh": "泡沫装置",
+   "en": "Bubble Trap",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 63,
+   "zh": "泡沫装置",
+   "en": "Bubble Trap",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 64,
+   "zh": "信号装置１",
+   "en": "Signal Trap 1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 65,
+   "zh": "信号装置２",
+   "en": "Signal Trap 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 66,
+   "zh": "信号装置３",
+   "en": "Signal Trap 3",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 67,
+   "zh": "信号装置４",
+   "en": "Signal Trap 4",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 68,
+   "zh": "树叶装置",
+   "en": "Leaf Trap",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 69,
+   "zh": "花瓣装置",
+   "en": "Petal Trap",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 70,
+   "zh": "火花装置",
+   "en": "Ember Trap",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 71,
+   "zh": "火焰装置",
+   "en": "Flame Trap",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 72,
+   "zh": "可爱杯",
+   "en": "Cute Cup",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 73,
+   "zh": "帅气杯",
+   "en": "Cool Cup",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 74,
+   "zh": "美丽杯",
+   "en": "Beauty Cup",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 75,
+   "zh": "强壮杯",
+   "en": "Tough Cup",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 76,
+   "zh": "聪明杯",
+   "en": "Smart Cup",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 77,
+   "zh": "蓝水晶",
+   "en": "Blue Crystal",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 78,
+   "zh": "粉色水晶",
+   "en": "Pink Crystal",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 79,
+   "zh": "红水晶",
+   "en": "Red Crystal",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 80,
+   "zh": "黄水晶",
+   "en": "Yellow Crystal",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 81,
+   "zh": "漂亮宝石",
+   "en": "Pretty Gem",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 82,
+   "zh": "闪光宝石",
+   "en": "Shiny Gem",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 83,
+   "zh": "神秘宝石",
+   "en": "Mystic Gem",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 84,
+   "zh": "闪耀的宝石",
+   "en": "Dazzling Gem",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 85,
+   "zh": "铜奖杯",
+   "en": "Bronze Trophy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 86,
+   "zh": "银奖杯",
+   "en": "Silver Trophy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 87,
+   "zh": "金奖杯",
+   "en": "Gold Trophy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 88,
+   "zh": "很棒的奖杯",
+   "en": "Great Trophy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 89,
+   "zh": "球状物体",
+   "en": "Ball Object",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 90,
+   "zh": "圆形物体",
+   "en": "Round Object",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 91,
+   "zh": "透明物体",
+   "en": "Clear Object",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 92,
+   "zh": "小火龙玩偶",
+   "en": "Charmander Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 93,
+   "zh": "妙蛙种子玩偶",
+   "en": "Bulbasaur Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 94,
+   "zh": "杰尼龟玩偶",
+   "en": "Squirtle Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 95,
+   "zh": "火球鼠玩偶",
+   "en": "Cyndaquil Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 96,
+   "zh": "菊草叶玩偶",
+   "en": "Chikorita Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 97,
+   "zh": "小锯鳄玩偶",
+   "en": "Totodile Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 98,
+   "zh": "火稚鸡玩偶",
+   "en": "Torchic Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 99,
+   "zh": "木守宫玩偶",
+   "en": "Treecko Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 100,
+   "zh": "水跃鱼玩偶",
+   "en": "Mudkip Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 101,
+   "zh": "小火猴玩偶",
+   "en": "Chimchar Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 102,
+   "zh": "草苗龟玩偶",
+   "en": "Turtwig Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 103,
+   "zh": "波加曼玩偶",
+   "en": "Piplup Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 104,
+   "zh": "皮卡丘玩偶",
+   "en": "Pikachu Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 105,
+   "zh": "正电拍拍玩偶",
+   "en": "Plusle Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 106,
+   "zh": "负电拍拍玩偶",
+   "en": "Minun Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 107,
+   "zh": "皮皮玩偶",
+   "en": "Clefairy Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | DP Underground goods; debug/unused in HG",
+   "qa_ignore": [
+    "glossary:皮皮玩偶"
+   ]
+  },
+  {
+   "id": 108,
+   "zh": "胖丁玩偶",
+   "en": "Jigglypuff Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 109,
+   "zh": "果然翁玩偶",
+   "en": "Wobbuffet Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 110,
+   "zh": "喵喵玩偶",
+   "en": "Meowth Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 111,
+   "zh": "向尾喵玩偶",
+   "en": "Skitty Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 112,
+   "zh": "卷尾猫玩偶",
+   "en": "Glameow Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 113,
+   "zh": "卷耳兔玩偶",
+   "en": "Buneary Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 114,
+   "zh": "玛狃拉玩偶",
+   "en": "Weavile Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 115,
+   "zh": "刚比兽玩偶",
+   "en": "Munchlax Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 刚比兽 = Munchlax (glossary)"
+  },
+  {
+   "id": 116,
+   "zh": "胡说盆栽玩偶",
+   "en": "Bonsly Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 117,
+   "zh": "魔尼尼玩偶",
+   "en": "Mime Jr. Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 118,
+   "zh": "路卡利欧玩偶",
+   "en": "Lucario Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 119,
+   "zh": "小球飞鱼玩偶",
+   "en": "Mantyke Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 120,
+   "zh": "唦圈鼬玩偶",
+   "en": "Buizel Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 唦圈鼬 = Buizel (as elsewhere)"
+  },
+  {
+   "id": 121,
+   "zh": "音符鹦鹉玩偶",
+   "en": "Chatot Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 122,
+   "zh": "玛纳菲玩偶",
+   "en": "Manaphy Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 123,
+   "zh": "卡比兽玩偶",
+   "en": "Snorlax Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 124,
+   "zh": "吼鲸王玩偶",
+   "en": "Wailord Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 125,
+   "zh": "飞碟磁怪玩偶",
+   "en": "Magnezone Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 126,
+   "zh": "飘飘球玩偶",
+   "en": "Drifloon Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 127,
+   "zh": "小福蛋玩偶",
+   "en": "Happiny Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 128,
+   "zh": "电栗鼠玩偶",
+   "en": "Pachirisu Doll",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 129,
+   "zh": "秘密基地的洞",
+   "en": "Secret Base Hole",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 130,
+   "zh": "秘密基地的洞",
+   "en": "Secret Base Hole",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 131,
+   "zh": "秘密基地的洞",
+   "en": "Secret Base Hole",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 132,
+   "zh": "秘密基地的洞",
+   "en": "Secret Base Hole",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 133,
+   "zh": "长沙发",
+   "en": "Sofa",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 134,
+   "zh": "盆栽",
+   "en": "Potted Plant",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 135,
+   "zh": "漂亮的花",
+   "en": "Pretty Flowers",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 136,
+   "zh": "美丽的花",
+   "en": "Lovely Flowers",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 137,
+   "zh": "可爱的花",
+   "en": "Cute Flowers",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 138,
+   "zh": "豪华的花",
+   "en": "Lavish Flowers",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 139,
+   "zh": "关闭口袋",
+   "en": "Close Bag",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 140,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 141,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 142,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 143,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 144,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 145,
+   "zh": "可以传送到秘密基地的黄色坐垫",
+   "en": "A yellow cushion that can be sent{NEWLINE}to a Secret Base.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 146,
+   "zh": "可以传送到秘密基地的蓝色坐垫",
+   "en": "A blue cushion that can be sent{NEWLINE}to a Secret Base.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 147,
+   "zh": "可以传送到秘密基地的手工小椅子",
+   "en": "A small handmade chair that can{NEWLINE}be sent to a Secret Base.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 148,
+   "zh": "可以传送到秘密基地的巨大桌子",
+   "en": "A huge table that can be sent to{NEWLINE}a Secret Base.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 149,
+   "zh": "可以传送到秘密基地的普通桌子",
+   "en": "A plain table that can be sent to{NEWLINE}a Secret Base.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 150,
+   "zh": "可以传送到秘密基地的小桌子",
+   "en": "A small table that can be sent to{NEWLINE}a Secret Base.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 151,
+   "zh": "可以传送到秘密基地的竖长桌子",
+   "en": "A tall table that can be sent to{NEWLINE}a Secret Base.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 152,
+   "zh": "可以传送到秘密基地的横长桌子",
+   "en": "A wide table that can be sent to{NEWLINE}a Secret Base.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 153,
+   "zh": "放在精灵中心的玻璃制桌子",
+   "en": "A glass table found in{NEWLINE}Pokémon Centers.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 154,
+   "zh": "可以传送到秘密基地的大书架",
+   "en": "A big bookshelf that can be sent{NEWLINE}to a Secret Base.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 155,
+   "zh": "可以传送到秘密基地的小书架",
+   "en": "A small bookshelf that can be{NEWLINE}sent to a Secret Base.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 156,
+   "zh": "可以放置各种研究类书籍的架子",
+   "en": "A shelf that holds all sorts of{NEWLINE}research books.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 157,
+   "zh": "放置在自行车店的放工具的架子",
+   "en": "A tool shelf found in the Bike{NEWLINE}Shop.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 158,
+   "zh": "放在友好商店的{NEWLINE}陈列了很多商品的架子",
+   "en": "A shelf in the Poké Mart lined{NEWLINE}with lots of goods.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 159,
+   "zh": "放在友好商店的{NEWLINE}陈列了很多商品的架子",
+   "en": "A shelf in the Poké Mart lined{NEWLINE}with lots of goods.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 160,
+   "zh": "可以整齐地摆放着很多餐具的架子",
+   "en": "A rack that neatly holds lots of{NEWLINE}dishes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 161,
+   "zh": "有格调的木制柜子",
+   "en": "A stylish wooden cabinet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 162,
+   "zh": "粉红色的漂亮柜子",
+   "en": "A pretty pink cabinet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 163,
+   "zh": "做工精美的大玩具电视",
+   "en": "A finely made big toy TV.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 164,
+   "zh": "做工精美的白色玩具冰箱",
+   "en": "A finely made white toy fridge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 165,
+   "zh": "做工精美的玩具净水槽",
+   "en": "A finely made toy sink.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 166,
+   "zh": "感觉能做好梦的软软的床",
+   "en": "A soft bed that promises sweet{NEWLINE}dreams.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 167,
+   "zh": "绿色的圆形垃圾箱",
+   "en": "A round green trash can.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 168,
+   "zh": "便于存放小物件的小纸箱",
+   "en": "A small cardboard box handy for{NEWLINE}odds and ends.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 169,
+   "zh": "装了各种东西的大木箱",
+   "en": "A big wooden crate full of all{NEWLINE}sorts of things.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 170,
+   "zh": "装了各种各样东西的大集装箱",
+   "en": "A big container full of all kinds{NEWLINE}of things.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 171,
+   "zh": "放在工厂里的大圆罐",
+   "en": "A big drum found in factories.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 172,
+   "zh": "放在工厂里的很多圆罐",
+   "en": "Lots of drums found in factories.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 173,
+   "zh": "施工时使用的红色钢筋",
+   "en": "A red steel beam used in{NEWLINE}construction.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 174,
+   "zh": "能让人感受到自然的观赏用盆栽",
+   "en": "A potted plant that brings a{NEWLINE}touch of nature.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 175,
+   "zh": "放在精灵中心的小花",
+   "en": "A little flower found in{NEWLINE}Pokémon Centers.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 176,
+   "zh": "放在精灵中心的{NEWLINE}用以回复ＨＰ的机器",
+   "en": "A machine in Pokémon Centers{NEWLINE}used to restore HP.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 177,
+   "zh": "用于精灵研究的闪闪发光的机器",
+   "en": "A gleaming machine used for{NEWLINE}Pokémon research.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 178,
+   "zh": "用于各种实验的闪烁的机器",
+   "en": "A blinking machine used for all{NEWLINE}kinds of tests.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 179,
+   "zh": "自己的家里也有的最新型游戏机",
+   "en": "The latest game console, same as{NEWLINE}the one at home.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 180,
+   "zh": "实际上买不到的玩具自动贩卖机",
+   "en": "A toy vending machine. You can’t{NEWLINE}actually buy anything.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 181,
+   "zh": "放在自行车店{NEWLINE}用于展示的红色自行车",
+   "en": "A red bicycle displayed in the{NEWLINE}Bike Shop.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 182,
+   "zh": "放在自行车店{NEWLINE}用于展示的绿色自行车",
+   "en": "A green bicycle displayed in the{NEWLINE}Bike Shop.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 183,
+   "zh": "能看得很远的望远镜装置",
+   "en": "A telescope that lets you see{NEWLINE}far away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 184,
+   "zh": "在很多地方有很多朋友的证明",
+   "en": "Proof of having many friends in{NEWLINE}many places.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 185,
+   "zh": "放在道馆里的精灵石像　",
+   "en": "A Pokémon statue found in Gyms.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 186,
+   "zh": "可以进入的巨大红色帐篷",
+   "en": "A huge red tent you can go{NEWLINE}inside.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 187,
+   "zh": "可以进入的巨大蓝色帐篷",
+   "en": "A huge blue tent you can go{NEWLINE}inside.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 188,
+   "zh": "可以进入的巨大透明的帐篷",
+   "en": "A huge see-through tent you can{NEWLINE}go inside.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 189,
+   "zh": "上边堵住了的制造迷宫的岩石",
+   "en": "A maze-making rock blocked on{NEWLINE}the top side.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 190,
+   "zh": "右边堵住了的制造迷宫的岩石",
+   "en": "A maze-making rock blocked on{NEWLINE}the right side.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 191,
+   "zh": "下边堵住了的制造迷宫的岩石",
+   "en": "A maze-making rock blocked on{NEWLINE}the bottom side.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 192,
+   "zh": "左边堵住了的制造迷宫的岩石",
+   "en": "A maze-making rock blocked on{NEWLINE}the left side.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 193,
+   "zh": "全都通着的制造迷宫的岩石",
+   "en": "A maze-making rock open on all{NEWLINE}sides.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 194,
+   "zh": "大陷阱　停止动作的装置",
+   "en": "A big pit. A trap that stops you{NEWLINE}in your tracks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 195,
+   "zh": "非常大的陷阱　停止动作的装置",
+   "en": "A very big pit. A trap that stops{NEWLINE}you in your tracks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 196,
+   "zh": "因烟雾什么也看不见的装置{NEWLINE}擦一擦也能看见",
+   "en": "A trap that blinds you with{NEWLINE}smoke. Wipe it away to see again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 197,
+   "zh": "冒出大量烟雾的装置{NEWLINE}擦一擦也能看见",
+   "en": "A trap that belches lots of{NEWLINE}smoke. Wipe it away to see again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 198,
+   "zh": "因为石头变得不能行动的装置{NEWLINE}破坏石头就能行动了",
+   "en": "A trap that pins you with rocks.{NEWLINE}Break the rocks to move again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 199,
+   "zh": "会冒出大石头的装置{NEWLINE}破坏石头就能行动了",
+   "en": "A trap that drops big rocks.{NEWLINE}Break the rocks to move again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 200,
+   "zh": "因为泡沫变得不能行动的装置{NEWLINE}泡沫破灭就能行动了",
+   "en": "A trap that pins you in bubbles.{NEWLINE}Pop them to move again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 201,
+   "zh": "会冒出很多泡沫的装置{NEWLINE}泡沫破裂就能行动了",
+   "en": "A trap that spews bubbles. Pop{NEWLINE}them to move again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 202,
+   "zh": "踩一踩就能给地下的众人{NEWLINE}传送问候信号的装置",
+   "en": "Step on it to send a Hello signal{NEWLINE}to everyone underground.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 203,
+   "zh": "踩一踩就能给地下的众人{NEWLINE}传送再见信号的装置",
+   "en": "Step on it to send a Goodbye{NEWLINE}signal to everyone underground.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 204,
+   "zh": "踩一踩就能给地下的众人传送{NEWLINE}“去集合地点”信号的装置",
+   "en": "Step on it to signal everyone{NEWLINE}underground: “Meet up!”",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 205,
+   "zh": "踩一踩就能给地下的众人传送{NEWLINE}“到这里来”信号的装置",
+   "en": "Step on it to signal everyone{NEWLINE}underground: “Over here!”",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 206,
+   "zh": "因为树叶不能行动的装置{NEWLINE}吹掉就能行动了",
+   "en": "A trap that pins you with leaves.{NEWLINE}Blow them away to move again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 207,
+   "zh": "会冒出很多花瓣的装置{NEWLINE}吹掉就能行动了",
+   "en": "A trap that spews lots of petals.{NEWLINE}Blow them away to move again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 208,
+   "zh": "因为火苗不能行动了的装置{NEWLINE}吹掉的话就能行动了",
+   "en": "A trap that pins you with flames.{NEWLINE}Blow them out to move again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 209,
+   "zh": "会冒出大火焰的装置{NEWLINE}吹掉的话就能行动了",
+   "en": "A trap that spews big flames.{NEWLINE}Blow them out to move again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 210,
+   "zh": "只送给那些真正可爱的精灵的{NEWLINE}奖杯",
+   "en": "A cup given only to truly cute{NEWLINE}Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 211,
+   "zh": "只送给那些非常酷的精灵的{NEWLINE}奖杯",
+   "en": "A cup given only to really cool{NEWLINE}Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 212,
+   "zh": "只送给那些最美丽的精灵的{NEWLINE}奖杯",
+   "en": "A cup given only to the most{NEWLINE}beautiful Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 213,
+   "zh": "只送给那些比谁都健壮的精灵的{NEWLINE}奖杯",
+   "en": "A cup given only to Pokémon{NEWLINE}tougher than any other.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 214,
+   "zh": "只送给那些异常聪明的精灵的{NEWLINE}奖杯",
+   "en": "A cup given only to exceptionally{NEWLINE}smart Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 215,
+   "zh": "送给亲切的人的稀有蓝色水晶",
+   "en": "A rare blue crystal given to kind{NEWLINE}people.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 216,
+   "zh": "送给善良的人的稀有粉色水晶",
+   "en": "A rare pink crystal given to{NEWLINE}gentle people.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 217,
+   "zh": "送给勤奋的人的稀有红色水晶",
+   "en": "A rare red crystal given to hard{NEWLINE}workers.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 218,
+   "zh": "送给踏实的人的稀有黄色水晶",
+   "en": "A rare yellow crystal given to{NEWLINE}steady people.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 219,
+   "zh": "被漂亮切割的美丽宝石",
+   "en": "A beautiful, finely cut gem.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 220,
+   "zh": "被磨得像镜面一样光亮的宝石",
+   "en": "A gem polished to a mirror shine.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 221,
+   "zh": "非常难到手的{NEWLINE}会发出神秘光亮的水晶",
+   "en": "A very hard-to-get crystal that{NEWLINE}shines with a mystic light.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 222,
+   "zh": "耀眼闪耀的非常贵重的宝石",
+   "en": "A dazzling, very precious gem.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 223,
+   "zh": "只送给实力强大的精灵的{NEWLINE}铜制奖杯",
+   "en": "A bronze trophy given only to{NEWLINE}strong Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 224,
+   "zh": "只送给实力相当强大的精灵的{NEWLINE}银制奖杯",
+   "en": "A silver trophy given only to{NEWLINE}very strong Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 225,
+   "zh": "只送给实力非常强大的精灵的{NEWLINE}金制奖杯",
+   "en": "A gold trophy given only to{NEWLINE}extremely strong Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 226,
+   "zh": "只送给天下无敌般强大的精灵的{NEWLINE}特别奖杯",
+   "en": "A special trophy given only to{NEWLINE}Pokémon of unmatched strength.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 227,
+   "zh": "精灵球形状的值得纪念的{NEWLINE}物体",
+   "en": "A commemorative object shaped{NEWLINE}like a Poké Ball.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 228,
+   "zh": "闪耀七色光的非常贵重的圆形物体",
+   "en": "A very precious round object{NEWLINE}that shines in seven colors.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 229,
+   "zh": "透明的非常贵重的物体",
+   "en": "A very precious see-through{NEWLINE}object.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 230,
+   "zh": "人影形状的可爱玩偶",
+   "en": "A cute doll shaped like a human{NEWLINE}figure.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "hack-finding: doll descriptions are shifted against the names (#92 Charmander Doll … #233 Charmander description; no Cyndaquil description)"
+  },
+  {
+   "id": 231,
+   "zh": "妙蛙种子形状的可爱玩偶",
+   "en": "A cute doll shaped like{NEWLINE}Bulbasaur.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 232,
+   "zh": "杰尼龟形状的可爱玩偶",
+   "en": "A cute doll shaped like Squirtle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 233,
+   "zh": "小火龙形状的可爱玩偶",
+   "en": "A cute doll shaped like{NEWLINE}Charmander.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 234,
+   "zh": "菊叶草形状的可爱玩偶",
+   "en": "A cute doll shaped like Chikorita.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh typo 菊叶草 for 菊草叶 (Chikorita)"
+  },
+  {
+   "id": 235,
+   "zh": "小锯鳄形状的可爱玩偶",
+   "en": "A cute doll shaped like Totodile.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 236,
+   "zh": "火稚鸡形状的可爱玩偶",
+   "en": "A cute doll shaped like Torchic.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 237,
+   "zh": "木守宫形状的可爱玩偶",
+   "en": "A cute doll shaped like Treecko.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 238,
+   "zh": "水跃鱼形状的可爱玩偶",
+   "en": "A cute doll shaped like Mudkip.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 239,
+   "zh": "小火猴形状的可爱玩偶",
+   "en": "A cute doll shaped like Chimchar.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 240,
+   "zh": "草苗龟形状的可爱玩偶",
+   "en": "A cute doll shaped like Turtwig.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 241,
+   "zh": "波加曼形状的可爱玩偶",
+   "en": "A cute doll shaped like Piplup.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 242,
+   "zh": "皮卡丘形状的可爱玩偶",
+   "en": "A cute doll shaped like Pikachu.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 243,
+   "zh": "正电拍拍形状的可爱玩偶",
+   "en": "A cute doll shaped like Plusle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 244,
+   "zh": "负电拍拍形状的可爱玩偶",
+   "en": "A cute doll shaped like Minun.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 245,
+   "zh": "皮皮形状的可爱玩偶",
+   "en": "A cute doll shaped like Clefairy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 246,
+   "zh": "胖丁形状的可爱玩偶",
+   "en": "A cute doll shaped like{NEWLINE}Jigglypuff.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 247,
+   "zh": "果然翁形状的可爱玩偶",
+   "en": "A cute doll shaped like{NEWLINE}Wobbuffet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 248,
+   "zh": "喵喵形状的可爱玩偶",
+   "en": "A cute doll shaped like Meowth.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 249,
+   "zh": "向尾喵形状的可爱玩偶",
+   "en": "A cute doll shaped like Skitty.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 250,
+   "zh": "卷尾猫形状的可爱玩偶",
+   "en": "A cute doll shaped like Glameow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 251,
+   "zh": "卷耳兔形状的可爱玩偶",
+   "en": "A cute doll shaped like Buneary.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 252,
+   "zh": "玛狃拉形状的可爱玩偶",
+   "en": "A cute doll shaped like Weavile.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 253,
+   "zh": "刚比形状的可爱玩偶",
+   "en": "A cute doll shaped like Munchlax.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 刚比 (truncated 刚比兽 = Munchlax)"
+  },
+  {
+   "id": 254,
+   "zh": "胡说盆栽形状的可爱玩偶",
+   "en": "A cute doll shaped like Bonsly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 255,
+   "zh": "魔尼尼形状的可爱玩偶",
+   "en": "A cute doll shaped like Mime Jr.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG; ext-review RB-010"
+  },
+  {
+   "id": 256,
+   "zh": "路卡利欧形状的可爱玩偶",
+   "en": "A cute doll shaped like Lucario.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 257,
+   "zh": "小球飞鱼形状的可爱玩偶",
+   "en": "A cute doll shaped like Mantyke.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 258,
+   "zh": "唦圈鼬形状的可爱玩偶",
+   "en": "A cute doll shaped like Buizel.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 唦圈鼬 = Buizel (as elsewhere)"
+  },
+  {
+   "id": 259,
+   "zh": "音符鹦鹉形状的可爱玩偶",
+   "en": "A cute doll shaped like Chatot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 260,
+   "zh": "玛纳菲形状的可爱玩偶",
+   "en": "A cute doll shaped like Manaphy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 261,
+   "zh": "卡比兽形状的可爱玩偶",
+   "en": "A cute doll shaped like Snorlax.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 262,
+   "zh": "吼鲸王形状的可爱玩偶",
+   "en": "A cute doll shaped like Wailord.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 263,
+   "zh": "飞碟磁怪形状的可爱玩偶",
+   "en": "A cute doll shaped like{NEWLINE}Magnezone.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 264,
+   "zh": "飘飘球形状的可爱玩偶",
+   "en": "A cute doll shaped like Drifloon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 265,
+   "zh": "小福蛋形状的可爱玩偶",
+   "en": "A cute doll shaped like Happiny.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 266,
+   "zh": "电栗鼠形状的可爱玩偶",
+   "en": "A cute doll shaped like Pachirisu.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 267,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 268,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 269,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 270,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 271,
+   "zh": "可坐两人的蓝色横长型的沙发",
+   "en": "A wide blue sofa that seats two.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 272,
+   "zh": "经过工人加工的奇怪盆栽",
+   "en": "An odd potted plant shaped by a{NEWLINE}craftsman.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 273,
+   "zh": "装饰着非常漂亮的花的盆栽花钵",
+   "en": "A flowerpot decorated with very{NEWLINE}pretty flowers.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 274,
+   "zh": "装饰着非常美丽的花的盆栽花钵",
+   "en": "A flowerpot decorated with very{NEWLINE}lovely flowers.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 275,
+   "zh": "装饰着非常可爱的花的盆栽花钵",
+   "en": "A flowerpot decorated with very{NEWLINE}cute flowers.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 276,
+   "zh": "繁花装饰着的花钵",
+   "en": "A flowerpot adorned with lots of{NEWLINE}flowers.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 277,
+   "zh": "退出",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  },
+  {
+   "id": 278,
+   "zh": "退出",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP Underground goods; debug/unused in HG"
+  }
+ ]
+}

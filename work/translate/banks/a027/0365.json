@@ -1,0 +1,175 @@
+{
+ "narc": "a027",
+ "bank": 365,
+ "source": "work/extract/v4/a027/0365.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "这感觉真是神奇,{NEWLINE}只要旅途上{SCROLL}有自己的精灵做伴,{NEWLINE}就不会觉得厌倦。{SCROLL}带上你的精灵{NEWLINE}去四处走走吧！{SCROLL}如果你有心{NEWLINE}和自己的精灵聊聊,{SCROLL}或许会有意想不到的收获！",
+   "en": "Isn’t it strange? As long as you have{NEWLINE}your own Pokémon with you on a journey,{CLEAR}you never get bored.{SCROLL}Take your Pokémon and go explore all{NEWLINE}over!{SCROLL}If you take the time to chat with your{NEWLINE}Pokémon, you might find something you{CLEAR}never expected!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0372/0 Hack replaced the vanilla Route 28 celebrity (US Steel Wing text in the old TM) with a Shiny Leaf NPC (#0–#5) and a Lucario hermit Meteor Mash tutor (#6–#20). Retranslated from the zh; tutor lines follow the D-0048 boilerplate."
+  },
+  {
+   "id": 1,
+   "zh": "你的精灵现在状况怎么样？{NEWLINE}多和他们聊聊……{SCROLL}咦？那精灵拿着{NEWLINE}一片叶子……{SCROLL}难道说这就是闪光树叶！{SCROLL}传说只有那些与人类{NEWLINE}有着很深的羁绊的精灵{CLEAR}才能发现这个。{CLEAR}传说里还说{SCROLL}如果能凑齐五片这样的叶子{NEWLINE}就能打造出{CLEAR}美丽的皇冠……{SCROLL}漂亮！真不愧是你啊！{SCROLL}你要是再找到了闪光树叶,{NEWLINE}请拿来给我看看！",
+   "en": "How are your Pokémon doing? Talk with{NEWLINE}them lots...{SCROLL}Huh? That Pokémon is holding a leaf...{SCROLL}Could that be a Shiny Leaf?!{SCROLL}Legend has it that only Pokémon with a{NEWLINE}deep bond with people can find these.{CLEAR}The legend also says...{SCROLL}If you gather five of these leaves, you{NEWLINE}can make a beautiful crown...{SCROLL}Wonderful! That’s just like you!{SCROLL}If you find another Shiny Leaf, please{NEWLINE}bring it to show me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0372/1"
+  },
+  {
+   "id": 2,
+   "zh": "啊,你的精灵怎么样啊？{SCROLL}偶尔和它说说话{NEWLINE}会加深羁绊的！{SCROLL}还是说想来看看你的奖状了？{SCROLL}",
+   "en": "Ah, how are your Pokémon doing?{SCROLL}Talking with them now and then will{NEWLINE}deepen your bond!{SCROLL}Or did you come to look at your award?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0372/2"
+  },
+  {
+   "id": 3,
+   "zh": "啊,你的精灵怎么样啊？{SCROLL}偶尔和它说说话喔,{NEWLINE}会加深羁绊的！{SCROLL}……　……　……{SCROLL}哇啊~！{NEWLINE}闪光树叶已经{CLEAR}收集了５片啦！{SCROLL}好~交给我吧！{NEWLINE}把收集闪光树叶{CLEAR}制成王冠！{SCROLL}然后……{SCROLL}作为纪念这个也收下吧！{SCROLL}",
+   "en": "Ah, how are your Pokémon doing?{SCROLL}Talk with them now and then, OK? It’ll{NEWLINE}deepen your bond!{SCROLL}... ... ...{SCROLL}Wow! You’ve collected five Shiny{NEWLINE}Leaves!{SCROLL}OK, leave it to me! I’ll turn your Shiny{NEWLINE}Leaves into a crown!{SCROLL}And then...{SCROLL}Take this too, as a keepsake!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0372/3; modernised from US 0372#3"
+  },
+  {
+   "id": 4,
+   "zh": "今后也要珍惜和精灵的羁绊喔！",
+   "en": "Keep cherishing your bond with your{NEWLINE}Pokémon, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "啊,精灵怎么样啊？{SCROLL}偶尔和它说说话喔,{NEWLINE}会加深羁绊的！{SCROLL}……　……　……{SCROLL}哇啊~{NEWLINE}你有闪光树叶啊！{SCROLL}嗯……{NEWLINE}有{VAR:0132:1}片啊！{CLEAR}很不错哟！{SCROLL}加油还差{VAR:0132:2}片{NEWLINE}喔！",
+   "en": "Ah, how are your Pokémon doing?{SCROLL}Talk with them now and then, OK? It’ll{NEWLINE}deepen your bond!{SCROLL}... ... ...{SCROLL}Wow, you have Shiny Leaves!{SCROLL}Hmm... You’ve got {VAR:0132:1}! Not bad at all!{SCROLL}Keep it up! Just {VAR:0132:2} more to go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "我带着路卡利欧{NEWLINE}在这里隐居修行了好多年,{CLEAR}终于帮它练成了{CLEAR}比任何物体都坚硬的拳头——「彗星拳」。{SCROLL}这是能极大提升路卡利欧{NEWLINE}作战能力的招式,{CLEAR}如果你也有精灵想学这招的话,{CLEAR}只要给我1个诱饵球,{CLEAR}我就可以教你哦。{SCROLL}怎么样,要学吗？{SCROLL}",
+   "en": "My Lucario and I have lived here in{NEWLINE}seclusion for many years, training.{SCROLL}At last, I helped it master Meteor{NEWLINE}Mash, a fist harder than anything.{SCROLL}It’s a move that greatly boosts{NEWLINE}Lucario’s fighting power.{SCROLL}If you have a Pokémon that wants to{NEWLINE}learn it, just give me one Lure Ball, and{CLEAR}I’ll teach it.{SCROLL}Well? Want it to learn the move?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 8,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it, come find me{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 9,
+   "zh": "你并没有诱饵球啊,{NEWLINE}等有球了再来找我吧。",
+   "en": "You don’t have a Lure Ball. Come back{NEWLINE}when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 10,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住彗星拳。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn{NEWLINE}Meteor Mash.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 12,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会彗星拳了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Meteor{NEWLINE}Mash!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0101:0}学会了彗星拳！",
+   "en": "{VAR:0101:0} learned Meteor Mash!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会彗星拳了！{SCROLL}那么按照约定,{NEWLINE}1个诱饵我拿走了。",
+   "en": "And with that, your {VAR:0100:0} has{NEWLINE}learned Meteor Mash!{SCROLL}As we agreed, I’ll take one Lure Ball.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的彗星拳……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习彗星拳{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Meteor{NEWLINE}Mash...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn Meteor{NEWLINE}Mash?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 19,
+   "zh": "你是要放弃{NEWLINE}让它记住彗星拳吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Meteor Mash?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "路卡利欧『Luuuu——ca！",
+   "en": "Lucario: Luuuu-ca!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,4026 @@
+{
+ "narc": "a027",
+ "bank": 189,
+ "source": "work/extract/v4/a027/0189.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "毒",
+   "en": "POISONED",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/0"
+  },
+  {
+   "id": 1,
+   "zh": "麻痹",
+   "en": "PARALYZED",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/1"
+  },
+  {
+   "id": 2,
+   "zh": "睡眠",
+   "en": "ASLEEP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/2"
+  },
+  {
+   "id": 3,
+   "zh": "烧伤",
+   "en": "BURNED",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/3"
+  },
+  {
+   "id": 4,
+   "zh": "冰冻",
+   "en": "FROZEN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/4"
+  },
+  {
+   "id": 5,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/5",
+   "category": "menu_window_x18"
+  },
+  {
+   "id": 6,
+   "zh": "单人战斗",
+   "en": "SINGLE BATTLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/6",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 7,
+   "zh": "双人战斗",
+   "en": "DOUBLE BATTLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/7",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 8,
+   "zh": "混合战斗",
+   "en": "MIX BATTLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/8",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 9,
+   "zh": "多人战斗",
+   "en": "MULTI BATTLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/9"
+  },
+  {
+   "id": 10,
+   "zh": "平等战斗",
+   "en": "FLAT BATTLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/10",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 11,
+   "zh": "听取说明",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/11",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/12",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 13,
+   "zh": "返回",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/13",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 14,
+   "zh": "加入团队",
+   "en": "JOIN GROUP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/14",
+   "category": "menu_window_x18"
+  },
+  {
+   "id": 15,
+   "zh": "成为领队",
+   "en": "BECOME LEADER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/15",
+   "category": "menu_window_x18"
+  },
+  {
+   "id": 16,
+   "zh": "现在的楼层",
+   "en": "Current Floor",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/16"
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0132:0}楼",
+   "en": "{VAR:0132:0}F",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 18,
+   "zh": "帅气度",
+   "en": "COOL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 19,
+   "zh": "美丽度",
+   "en": "BEAUTY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), same position"
+  },
+  {
+   "id": 20,
+   "zh": "可爱度",
+   "en": "CUTE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), same position"
+  },
+  {
+   "id": 21,
+   "zh": "强壮度",
+   "en": "TOUGH",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 22,
+   "zh": "聪明度",
+   "en": "SMART",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 23,
+   "zh": "交换",
+   "en": "TRADE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/23",
+   "category": "menu_window_x24"
+  },
+  {
+   "id": 24,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/24",
+   "category": "menu_window_x24"
+  },
+  {
+   "id": 25,
+   "zh": "空想杯",
+   "en": "FANCY CUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Link battle cups (DP leftover): 空想 Fancy, 黄色 Pika (guess), 小型 Little, 中央 Standard, 重量 Light. Unverified."
+  },
+  {
+   "id": 26,
+   "zh": "黄色杯",
+   "en": "PIKA CUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 27,
+   "zh": "小型杯",
+   "en": "LITTLE CUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 28,
+   "zh": "中央杯",
+   "en": "STANDARD CUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 29,
+   "zh": "重量杯",
+   "en": "LIGHT CUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:011A:0}杯",
+   "en": "{VAR:011A:0} CUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:011A:1}杯",
+   "en": "{VAR:011A:1} CUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:011A:2}杯",
+   "en": "{VAR:011A:2} CUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:011A:3}杯",
+   "en": "{VAR:011A:3} CUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 34,
+   "zh": "{VAR:011A:4}杯",
+   "en": "{VAR:011A:4} CUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 35,
+   "zh": "保管系统",
+   "en": "STORAGE SYSTEM",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 36,
+   "zh": "殿堂记录",
+   "en": "HALL OF FAME",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 37,
+   "zh": "切断开关",
+   "en": "SWITCH OFF",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 38,
+   "zh": "普通对战",
+   "en": "NORMAL BATTLE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 39,
+   "zh": "使用规则之书",
+   "en": "USE RULEBOOK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 40,
+   "zh": "决定",
+   "en": "CONFIRM",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/40",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 41,
+   "zh": "阅读规则",
+   "en": "READ RULES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 42,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/42",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 43,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/43",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 44,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/44",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 45,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/45",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 46,
+   "zh": "{VAR:0205}是",
+   "en": "{VAR:0205}YES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/46"
+  },
+  {
+   "id": 47,
+   "zh": "{VAR:0205}否",
+   "en": "{VAR:0205}NO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/47"
+  },
+  {
+   "id": 48,
+   "zh": "火",
+   "en": "FIRE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 49,
+   "zh": "水",
+   "en": "WATER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 50,
+   "zh": "草",
+   "en": "GRASS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 51,
+   "zh": "卡片",
+   "en": "CARD",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 52,
+   "zh": "对战",
+   "en": "BATTLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/52",
+   "category": "menu_window_x24"
+  },
+  {
+   "id": 53,
+   "zh": "{VAR:0103:0}",
+   "en": "{VAR:0103:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "{VAR:0103:1}",
+   "en": "{VAR:0103:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "{VAR:0103:2}",
+   "en": "{VAR:0103:2}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "{VAR:0103:3}",
+   "en": "{VAR:0103:3}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "撒下肥料",
+   "en": "FERTILIZE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 58,
+   "zh": "种下果实",
+   "en": "PLANT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 59,
+   "zh": "绘画",
+   "en": "DRAW",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_window_x24"
+  },
+  {
+   "id": 60,
+   "zh": "　",
+   "en": "　",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "公共的电脑",
+   "en": "SOMEONE’S PC",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/61",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 62,
+   "zh": "正辉的电脑",
+   "en": "BILL’S PC",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/62",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 63,
+   "zh": "{VAR:0103:0}的电脑",
+   "en": "{VAR:0103:0}’s PC",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/63",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 64,
+   "zh": "殿堂记录",
+   "en": "HALL OF FAME",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/64",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 65,
+   "zh": "相册",
+   "en": "PHOTO ALBUM",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/65"
+  },
+  {
+   "id": 66,
+   "zh": "切断开关",
+   "en": "SWITCH OFF",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/66",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 67,
+   "zh": "存放精灵",
+   "en": "DEPOSIT{NEWLINE}POKéMON",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/67; modernised from US 0191#67",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 68,
+   "zh": "取出精灵",
+   "en": "WITHDRAW{NEWLINE}POKéMON",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/68; modernised from US 0191#68",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 69,
+   "zh": "整理箱子",
+   "en": "MOVE{NEWLINE}POKéMON",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/69; modernised from US 0191#69",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 70,
+   "zh": "整理携带物品",
+   "en": "MOVE{NEWLINE}ITEMS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/70",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 71,
+   "zh": "比较能力",
+   "en": "COMPARE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 72,
+   "zh": "返回",
+   "en": "SEE YA!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 9 source(s), same position; other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 73,
+   "zh": "邮箱",
+   "en": "MAILBOX",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/73"
+  },
+  {
+   "id": 74,
+   "zh": "球贴",
+   "en": "BALL CAPSULES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 75,
+   "zh": "切断连接",
+   "en": "LOG OUT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/75"
+  },
+  {
+   "id": 76,
+   "zh": "把身上的精灵存放在箱子里",
+   "en": "Pokémon in your party may be stored{NEWLINE}in the storage system’s Boxes.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/76"
+  },
+  {
+   "id": 77,
+   "zh": "把存放在箱子里的精灵带到身上",
+   "en": "Pokémon stored in Boxes may be added{NEWLINE}to your party.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/77"
+  },
+  {
+   "id": 78,
+   "zh": "整理箱子或者身上的精灵",
+   "en": "You may sort the Pokémon in Boxes{NEWLINE}and in your party.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/78"
+  },
+  {
+   "id": 79,
+   "zh": "整理精灵带着的道具",
+   "en": "You may sort the items held by your{NEWLINE}Pokémon in Boxes and in your party.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/79"
+  },
+  {
+   "id": 80,
+   "zh": "比较箱子或者身上精灵的能力",
+   "en": "Compare the stats of Pokémon in{NEWLINE}Boxes and in your party.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 81,
+   "zh": "切断连接寄存精灵的系统",
+   "en": "Log out of the Pokémon Storage{NEWLINE}System.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/81"
+  },
+  {
+   "id": 82,
+   "zh": "可以保存２０封信",
+   "en": "Up to 20 pieces of Mail can be{NEWLINE}stored.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/82"
+  },
+  {
+   "id": 83,
+   "zh": "可以设置或修改球贴",
+   "en": "You may set or edit Capsules for{NEWLINE}decorating Poké Balls.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/83"
+  },
+  {
+   "id": 84,
+   "zh": "切断与电脑的通信",
+   "en": "Log out of your PC.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/84"
+  },
+  {
+   "id": 85,
+   "zh": "可以查看纪念照片",
+   "en": "You may look at pictures you{NEWLINE}have taken on your adventure.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/85"
+  },
+  {
+   "id": 86,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s), same position; other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 87,
+   "zh": "阅读内容",
+   "en": "READ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 88,
+   "zh": "返回背包",
+   "en": "PUT IN BAG",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 89,
+   "zh": "让精灵携带",
+   "en": "GIVE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 90,
+   "zh": "存放",
+   "en": "STORE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 91,
+   "zh": "取出",
+   "en": "WITHDRAW",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 92,
+   "zh": "参加",
+   "en": "ENTER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 93,
+   "zh": "听取说明",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 94,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/94",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 95,
+   "zh": "欢迎再次参加",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 96,
+   "zh": "华丽大赛的基本",
+   "en": "CONTEST BASICS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_window_x1"
+  },
+  {
+   "id": 97,
+   "zh": "华丽大赛的种类",
+   "en": "CONTEST TYPES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_window_x1"
+  },
+  {
+   "id": 98,
+   "zh": "关于名次",
+   "en": "ABOUT RANKS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_window_x1"
+  },
+  {
+   "id": 99,
+   "zh": "返回",
+   "en": "BACK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 9 source(s), same position; other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_window_x1"
+  },
+  {
+   "id": 100,
+   "zh": "华丽大赛是什么？",
+   "en": "WHAT’S A CONTEST?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 101,
+   "zh": "视觉部",
+   "en": "VISUAL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 102,
+   "zh": "舞蹈部",
+   "en": "DANCE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 103,
+   "zh": "表演部",
+   "en": "ACTING",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 104,
+   "zh": "返回",
+   "en": "BACK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 9 source(s), same position; other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 105,
+   "zh": "普通等级",
+   "en": "NORMAL RANK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 106,
+   "zh": "优秀等级",
+   "en": "GREAT RANK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 107,
+   "zh": "究极等级",
+   "en": "ULTRA RANK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 108,
+   "zh": "大师等级",
+   "en": "MASTER RANK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 109,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s), same position; other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 110,
+   "zh": "帅气大赛",
+   "en": "COOL CONTEST",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 111,
+   "zh": "美丽大赛",
+   "en": "BEAUTY CONTEST",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 112,
+   "zh": "可爱大赛",
+   "en": "CUTE CONTEST",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 113,
+   "zh": "聪明大赛",
+   "en": "SMART CONTEST",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 114,
+   "zh": "强壮大赛",
+   "en": "TOUGH CONTEST",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 115,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s), same position; other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 116,
+   "zh": "１楼",
+   "en": "1F",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/116",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 117,
+   "zh": "２楼",
+   "en": "2F",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/117",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 118,
+   "zh": "３楼",
+   "en": "3F",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/118",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 119,
+   "zh": "４楼",
+   "en": "4F",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/119",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 120,
+   "zh": "５楼",
+   "en": "5F",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/120",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 121,
+   "zh": "６楼",
+   "en": "6F",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/121",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 122,
+   "zh": "地下１楼",
+   "en": "B1F",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/122",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 123,
+   "zh": "地下２楼",
+   "en": "B2F",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 124,
+   "zh": "展望台",
+   "en": "LOOKOUT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 125,
+   "zh": "楼顶",
+   "en": "ROOF",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/125",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 126,
+   "zh": "取消",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/126",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 127,
+   "zh": "５０枚{VAR:0203:60}１０００¥",
+   "en": "50 Coins{VAR:0203:60}$1,000",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/127",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 128,
+   "zh": "５００枚{VAR:0203:60}１００００¥",
+   "en": "500 Coins{VAR:0203:60}$10,000",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/128",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 129,
+   "zh": "不要",
+   "en": "NO THANKS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/129",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 130,
+   "zh": "听取说明",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/130",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 131,
+   "zh": "交换",
+   "en": "TRADE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/131",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 132,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/132",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 133,
+   "zh": "什么是寄放精灵？",
+   "en": "OFFER POKéMON?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/133; modernised from US 0191#133",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 134,
+   "zh": "什么是搜索精灵？",
+   "en": "SEEK POKéMON?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/134; modernised from US 0191#134",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 135,
+   "zh": "明白了！",
+   "en": "UNDERSTOOD!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/135",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 136,
+   "zh": "{VAR:0100:0}{VAR:0102:2}{VAR:0203:90}Ｌｖ．{VAR:0134:1}",
+   "en": "{VAR:0100:0}{VAR:0102:2}{VAR:0203:90}Lv. {VAR:0134:1}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 137,
+   "zh": "{VAR:0100:0}{VAR:0102:2}{VAR:0203:90}Ｌｖ．{VAR:0134:1}",
+   "en": "{VAR:0100:0}{VAR:0102:2}{VAR:0203:90}Lv. {VAR:0134:1}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 138,
+   "zh": "放弃　　　　　　　　　　　　　",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/138",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 139,
+   "zh": "右",
+   "en": "RIGHT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 140,
+   "zh": "左",
+   "en": "LEFT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 141,
+   "zh": "团团转",
+   "en": "SPIN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_window_x24"
+  },
+  {
+   "id": 142,
+   "zh": "记录",
+   "en": "RECORD",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/142 | menu width fix (follow-up 1): was 'RECORDS'",
+   "category": "menu_window_x24"
+  },
+  {
+   "id": 143,
+   "zh": "挑战",
+   "en": "CHALLENGE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/143",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 144,
+   "zh": "听取说明",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/144",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 145,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/145",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 146,
+   "zh": "单人",
+   "en": "SINGLE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 147,
+   "zh": "双人",
+   "en": "DOUBLE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 148,
+   "zh": "继续",
+   "en": "KEEP GOING",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/148"
+  },
+  {
+   "id": 149,
+   "zh": "休息",
+   "en": "REST",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/149"
+  },
+  {
+   "id": 150,
+   "zh": "弃权",
+   "en": "RETIRE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/150"
+  },
+  {
+   "id": 151,
+   "zh": "成为领队",
+   "en": "BECOME LEADER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 152,
+   "zh": "加入团队",
+   "en": "JOIN GROUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 153,
+   "zh": "查看历代领队",
+   "en": "CHECK LEADERS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/153",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 154,
+   "zh": "挑战前面的房间",
+   "en": "CHALLENGE{NEWLINE}EARLIER ROOM",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/154",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 155,
+   "zh": "查看历代领队",
+   "en": "CHECK LEADERS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/155",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 156,
+   "zh": "怎样登入到好友？",
+   "en": "REGISTER A FRIEND?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 157,
+   "zh": "已经明白了！",
+   "en": "UNDERSTOOD!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 2 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 158,
+   "zh": "再说明一遍！",
+   "en": "TELL ME AGAIN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 159,
+   "zh": "神秘琥珀",
+   "en": "OLD AMBER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/159"
+  },
+  {
+   "id": 160,
+   "zh": "贝之化石",
+   "en": "HELIX FOSSIL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/160"
+  },
+  {
+   "id": 161,
+   "zh": "壳之化石",
+   "en": "DOME FOSSIL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/161"
+  },
+  {
+   "id": 162,
+   "zh": "根之化石",
+   "en": "ROOT FOSSIL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/162"
+  },
+  {
+   "id": 163,
+   "zh": "爪之化石",
+   "en": "CLAW FOSSIL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/163"
+  },
+  {
+   "id": 164,
+   "zh": "盾之化石",
+   "en": "ARMOR FOSSIL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/164"
+  },
+  {
+   "id": 165,
+   "zh": "头盖化石",
+   "en": "SKULL FOSSIL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/165"
+  },
+  {
+   "id": 166,
+   "zh": "双人对战",
+   "en": "BATTLES FOR TWO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/166",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 167,
+   "zh": "４人对战",
+   "en": "BATTLES FOR FOUR",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/167",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 168,
+   "zh": "打招呼",
+   "en": "GREET",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/168",
+   "category": "menu_window_x24"
+  },
+  {
+   "id": 169,
+   "zh": "聊天",
+   "en": "CONVERSE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/169",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 170,
+   "zh": "闲谈",
+   "en": "CHAT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/170",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 171,
+   "zh": "{VAR:0108:0}{VAR:0203:96}{VAR:0136:1}",
+   "en": "{VAR:0108:0}{VAR:0203:96}{VAR:0136:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 172,
+   "zh": "不要　　　　　　　　　　　　",
+   "en": "NO THANKS　　　　　　　　　　　　",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags fullwidth_chars; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 173,
+   "zh": "技能机２４　４０００枚",
+   "en": "TM24 4,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags fullwidth_chars"
+  },
+  {
+   "id": 174,
+   "zh": "技能机３０　４５００枚",
+   "en": "TM30 4,500 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags fullwidth_chars"
+  },
+  {
+   "id": 175,
+   "zh": "技能机３５　４０００枚",
+   "en": "TM35 4,000 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags fullwidth_chars"
+  },
+  {
+   "id": 176,
+   "zh": "不要",
+   "en": "NO THANKS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), same position; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 177,
+   "zh": "右",
+   "en": "RIGHT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 178,
+   "zh": "左",
+   "en": "LEFT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 179,
+   "zh": "视觉",
+   "en": "VISUAL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 180,
+   "zh": "舞蹈",
+   "en": "DANCE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 181,
+   "zh": "演技",
+   "en": "ACTING",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 182,
+   "zh": "练习是什么？",
+   "en": "WHAT’S PRACTICE?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 183,
+   "zh": "旗",
+   "en": "FLAGS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 184,
+   "zh": "玉",
+   "en": "SPHERES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 185,
+   "zh": "陷阱",
+   "en": "TRAPS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 186,
+   "zh": "货物",
+   "en": "GOODS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 187,
+   "zh": "宝藏",
+   "en": "TREASURES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 188,
+   "zh": "挑战前面的房间",
+   "en": "CHALLENGE{NEWLINE}EARLIER ROOM",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 189,
+   "zh": "红碎片",
+   "en": "RED SHARD",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 190,
+   "zh": "蓝碎片",
+   "en": "BLUE SHARD",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s), same position"
+  },
+  {
+   "id": 191,
+   "zh": "黄碎片",
+   "en": "YELLOW SHARD",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 192,
+   "zh": "绿碎片",
+   "en": "GREEN SHARD",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s), same position"
+  },
+  {
+   "id": 193,
+   "zh": "{VAR:0136:0}枚",
+   "en": "{VAR:0136:0} Coins",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/193"
+  },
+  {
+   "id": 194,
+   "zh": "基本规则",
+   "en": "BASIC RULES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/194",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 195,
+   "zh": "捕捉秀",
+   "en": "CATCHING SHOW",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 196,
+   "zh": "寄存方式",
+   "en": "STOCKING POKéMON",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/196; modernised from US 0191#196",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 197,
+   "zh": "寄存方式２",
+   "en": "STOCKING POKéMON 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 198,
+   "zh": "已经明白了！",
+   "en": "UNDERSTOOD!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/198",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 199,
+   "zh": "参加",
+   "en": "ENTER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/199",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 200,
+   "zh": "听取说明",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/200",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 201,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/201",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 202,
+   "zh": "选择精灵",
+   "en": "CHOOSE POKéMON",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 203,
+   "zh": "说明",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 204,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s), same position; other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 205,
+   "zh": "红碎片",
+   "en": "RED SHARD",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/205",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 206,
+   "zh": "蓝碎片",
+   "en": "BLUE SHARD",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/206",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 207,
+   "zh": "黄碎片",
+   "en": "YELLOW SHARD",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/207",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 208,
+   "zh": "绿碎片",
+   "en": "GREEN SHARD",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/208",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 209,
+   "zh": "月见山泉水{VAR:0203:80}800¥",
+   "en": "FRESH WATER{VAR:0203:80}$800",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/209",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 210,
+   "zh": "苏打饮料{VAR:0203:80}1000¥",
+   "en": "SODA POP{VAR:0203:80}$1,000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/210",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 211,
+   "zh": "混合果汁{VAR:0203:80}1500¥",
+   "en": "LEMONADE{VAR:0203:80}$1,500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/211",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 212,
+   "zh": "不要",
+   "en": "NO THANKS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/212",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 213,
+   "zh": "快快肥{VAR:0203:90}{NEWLINE}２００¥",
+   "en": "GROWTH MULCH{VAR:0203:90}{NEWLINE}$200",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/213"
+  },
+  {
+   "id": 214,
+   "zh": "湿湿肥{VAR:0203:90}{NEWLINE}２００¥",
+   "en": "DAMP MULCH{VAR:0203:90}{NEWLINE}$200",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/214"
+  },
+  {
+   "id": 215,
+   "zh": "长长肥{VAR:0203:90}{NEWLINE}２００¥",
+   "en": "STABLE MULCH{VAR:0203:90}{NEWLINE}$200",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/215"
+  },
+  {
+   "id": 216,
+   "zh": "粘粘肥{VAR:0203:90}{NEWLINE}２００¥",
+   "en": "GOOEY MULCH{VAR:0203:90}{NEWLINE}$200",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/216"
+  },
+  {
+   "id": 217,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/217"
+  },
+  {
+   "id": 218,
+   "zh": "什么都没有",
+   "en": "NOTHING",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 219,
+   "zh": "推荐是？",
+   "en": "RECOMMENDED?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 220,
+   "zh": "{VAR:0135:0}ＢＰ",
+   "en": "{VAR:0135:0} BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 221,
+   "zh": "{VAR:0108:0}{VAR:0203:96}{VAR:0134:1}ＢＰ",
+   "en": "{VAR:0108:0}{VAR:0203:96}{VAR:0134:1} BP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 222,
+   "zh": "不要",
+   "en": "NO THANKS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), same position; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 223,
+   "zh": "{VAR:0136:0}Ｐ",
+   "en": "{VAR:0136:0}P",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 224,
+   "zh": "电子表",
+   "en": "DIGITAL WATCH",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 225,
+   "zh": "计时表",
+   "en": "STOPWATCH",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 226,
+   "zh": "计算机",
+   "en": "CALCULATOR",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 227,
+   "zh": "便条纸",
+   "en": "MEMO PAD",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 228,
+   "zh": "针式表",
+   "en": "ANALOG WATCH",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 229,
+   "zh": "素描画",
+   "en": "DOT ARTIST",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 230,
+   "zh": "精灵名单",
+   "en": "POKéMON LIST",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 231,
+   "zh": "夏树西洋棋",
+   "en": "NATSUKI CHESS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (Pokétch app name 夏树西洋棋 (\"Natsuki chess\") is a literal mistranslation of なつきチェッカー (Friendship Checker)); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 232,
+   "zh": "道具探测器",
+   "en": "DOWSING MACHINE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 233,
+   "zh": "记数器",
+   "en": "COUNTER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 234,
+   "zh": "计步器",
+   "en": "PEDOMETER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 235,
+   "zh": "培育屋查看",
+   "en": "DAY-CARE CHECKER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 236,
+   "zh": "轮盘",
+   "en": "ROULETTE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 237,
+   "zh": "抛硬币",
+   "en": "COIN TOSS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 238,
+   "zh": "技能效果查看",
+   "en": "MOVE TESTER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 239,
+   "zh": "相性查看",
+   "en": "MATCHUP CHECKER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 240,
+   "zh": "闹钟",
+   "en": "ALARM CLOCK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 241,
+   "zh": "厨房时间",
+   "en": "KITCHEN TIMER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 242,
+   "zh": "标注地图",
+   "en": "MARKING MAP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 243,
+   "zh": "树果搜索",
+   "en": "BERRY SEARCHER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 244,
+   "zh": "颜色变换器",
+   "en": "COLOR CHANGER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 245,
+   "zh": "挂历",
+   "en": "CALENDAR",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 246,
+   "zh": "通信搜索",
+   "en": "LINK SEARCHER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 247,
+   "zh": "精灵探测器计算器",
+   "en": "RADAR CHAIN COUNTER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 248,
+   "zh": "精灵历史",
+   "en": "POKéMON HISTORY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 249,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s), same position; other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 250,
+   "zh": "其１",
+   "en": "PART 1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 251,
+   "zh": "其２",
+   "en": "PART 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 252,
+   "zh": "其３",
+   "en": "PART 3",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 253,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s), same position; other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 254,
+   "zh": "暗黑球",
+   "en": "DUSK BALL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 255,
+   "zh": "治愈球",
+   "en": "HEAL BALL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 256,
+   "zh": "快速球",
+   "en": "QUICK BALL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 257,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s), same position; other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 258,
+   "zh": "潜水球",
+   "en": "DIVE BALL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 259,
+   "zh": "宇宙之始",
+   "en": "THE UNIVERSE’S BIRTH",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 260,
+   "zh": "友好的精灵",
+   "en": "FRIENDLY POKéMON",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 261,
+   "zh": "红草绳",
+   "en": "RED ROPE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "红草绳: context unknown (quiz answer?); literal."
+  },
+  {
+   "id": 262,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s), same position; other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 263,
+   "zh": "记录",
+   "en": "RECORD",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/263"
+  },
+  {
+   "id": 264,
+   "zh": "红碎片",
+   "en": "RED SHARD",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 265,
+   "zh": "蓝碎片",
+   "en": "BLUE SHARD",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 4 source(s), same position"
+  },
+  {
+   "id": 266,
+   "zh": "黄碎片",
+   "en": "YELLOW SHARD",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 267,
+   "zh": "绿碎片",
+   "en": "GREEN SHARD",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 4 source(s), same position"
+  },
+  {
+   "id": 268,
+   "zh": "{VAR:0134:0}个",
+   "en": "{VAR:0134:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 269,
+   "zh": "１个",
+   "en": "1",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 270,
+   "zh": "１０个",
+   "en": "10",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 271,
+   "zh": "参加",
+   "en": "JOIN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/271",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 272,
+   "zh": "口袋竞技是什么",
+   "en": "POKéATHLON",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/272; modernised from US 0191#272",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 273,
+   "zh": "速度竞技",
+   "en": "SPEED COURSE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/273",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 274,
+   "zh": "力量竞技",
+   "en": "POWER COURSE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/274",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 275,
+   "zh": "耐力竞技",
+   "en": "STAMINA{NEWLINE}COURSE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/275 | menu width fix (follow-up 1): was 'STAMINA COURSE'",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 276,
+   "zh": "跳跃竞技",
+   "en": "JUMP COURSE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/276",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 277,
+   "zh": "技巧竞技",
+   "en": "SKILL COURSE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/277",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 278,
+   "zh": "全明星是什么",
+   "en": "ABOUT SUPREME",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/278",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 279,
+   "zh": "F.大师竞技",
+   "en": "F. MASTER{NEWLINE}COURSE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/279"
+  },
+  {
+   "id": 280,
+   "zh": "伙伴",
+   "en": "ALLY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/280",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 281,
+   "zh": "手下",
+   "en": "JUNIOR",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/281",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 282,
+   "zh": "朋友",
+   "en": "FRIEND",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/282",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 283,
+   "zh": "作战",
+   "en": "STRATEGY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/283",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 284,
+   "zh": "育成",
+   "en": "TRAINING",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/284",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 285,
+   "zh": "欺骗",
+   "en": "CHEATING",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/285",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 286,
+   "zh": "弱者",
+   "en": "WEAK",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/286",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 287,
+   "zh": "强者",
+   "en": "STRONG",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/287",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 288,
+   "zh": "谁都可以",
+   "en": "ANYONE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/288",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 289,
+   "zh": "爱情",
+   "en": "LOVE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/289",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 290,
+   "zh": "暴力",
+   "en": "VIOLENCE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/290",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 291,
+   "zh": "知识",
+   "en": "KNOWLEDGE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/291",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 292,
+   "zh": "强的一方",
+   "en": "STRENGTH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/292",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 293,
+   "zh": "两者兼顾",
+   "en": "BOTH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/293",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 294,
+   "zh": "弱的一方",
+   "en": "WEAKNESS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/294",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 295,
+   "zh": "拍照",
+   "en": "TAKE PHOTO",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 296,
+   "zh": "关于竞技",
+   "en": "ABOUT EVENTS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/296",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 297,
+   "zh": "关于哥哥",
+   "en": "ABOUT MAXIMO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/297",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 298,
+   "zh": "跨栏",
+   "en": "HURDLE DASH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/298",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 299,
+   "zh": "抢旗",
+   "en": "PENNANT CAPTURE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/299",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 300,
+   "zh": "抢位置",
+   "en": "CIRCLE PUSH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/300",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 301,
+   "zh": "劈石板",
+   "en": "BLOCK SMASH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/301",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 302,
+   "zh": "抢飞碟",
+   "en": "DISC CATCH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/302",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 303,
+   "zh": "蹦床",
+   "en": "LAMP JUMP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/303",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 304,
+   "zh": "赛跑",
+   "en": "RELAY RUN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/304",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 305,
+   "zh": "撞人",
+   "en": "RING DROP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/305",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 306,
+   "zh": "打雪仗",
+   "en": "SNOW THROW",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/306",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 307,
+   "zh": "足球",
+   "en": "GOAL ROLL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/307",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 308,
+   "zh": "速度竞技",
+   "en": "SPEED COURSE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/308",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 309,
+   "zh": "力量竞技",
+   "en": "POWER COURSE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/309",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 310,
+   "zh": "技巧竞技",
+   "en": "SKILL COURSE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/310",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 311,
+   "zh": "耐力竞技",
+   "en": "STAMINA{NEWLINE}COURSE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/311 | menu width fix (follow-up 1): was 'STAMINA COURSE'",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 312,
+   "zh": "跳跃竞技",
+   "en": "JUMP COURSE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/312",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 313,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s), same position; other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 314,
+   "zh": "技能机１４{NEWLINE}５５００枚硬币",
+   "en": "TM14{NEWLINE}5,500 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 315,
+   "zh": "技能机２５{NEWLINE}５５００枚硬币",
+   "en": "TM25{NEWLINE}5,500 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 316,
+   "zh": "技能机３８{NEWLINE}５５００枚硬币",
+   "en": "TM38{NEWLINE}5,500 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 317,
+   "zh": "凯西{NEWLINE}２００枚硬币",
+   "en": "Abra{NEWLINE}200 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 318,
+   "zh": "阿柏蛇{NEWLINE}７００枚硬币",
+   "en": "Ekans{NEWLINE}700 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 319,
+   "zh": "穿山鼠{NEWLINE}７００枚硬币",
+   "en": "Sandshrew{NEWLINE}700 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 320,
+   "zh": "迷你龙{NEWLINE}２１００枚硬币",
+   "en": "Dratini{NEWLINE}2,100 Coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 321,
+   "zh": "购买",
+   "en": "BUY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/321",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 322,
+   "zh": "卖出",
+   "en": "SELL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/322",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 323,
+   "zh": "没什么",
+   "en": "SEE YA!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/323",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 324,
+   "zh": "听取说明",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/324",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 325,
+   "zh": "兑换奖品",
+   "en": "PRIZE EXCHANGE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/325",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 326,
+   "zh": "运动饮料是什么？",
+   "en": "WHAT’S APRIJUICE?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/326",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 327,
+   "zh": "运动饮料的要点！",
+   "en": "APRIJUICE KNOW-HOW!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/327",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 328,
+   "zh": "购买",
+   "en": "BUY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/328",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 329,
+   "zh": "查看说明",
+   "en": "VIEW LABEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/329",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 330,
+   "zh": "存放的金额",
+   "en": "DEPOSITED MONEY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/330"
+  },
+  {
+   "id": 331,
+   "zh": "持有的金额",
+   "en": "HELD MONEY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/331"
+  },
+  {
+   "id": 332,
+   "zh": "{VAR:0137:0}¥",
+   "en": "${VAR:0137:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": ""
+  },
+  {
+   "id": 333,
+   "zh": "Ａ　加入这个团队",
+   "en": "A BUTTON: JOIN THIS GROUP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/333"
+  },
+  {
+   "id": 334,
+   "zh": "Ｂ　放弃",
+   "en": "B BUTTON: QUIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/334"
+  },
+  {
+   "id": 335,
+   "zh": "Ｂ　从成员中退出",
+   "en": "B BUTTON: REMOVE FROM MEMBERS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/335"
+  },
+  {
+   "id": 336,
+   "zh": "Ａ　以这个成员开始",
+   "en": "A BUTTON: START WITH MEMBERS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/336"
+  },
+  {
+   "id": 337,
+   "zh": "用钱来买",
+   "en": "BUY WITH MONEY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/337",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 338,
+   "zh": "用点数来买",
+   "en": "BUY WITH POINTS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/338",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 339,
+   "zh": "月见山泉水{VAR:0203:80}５０点",
+   "en": "FRESH WATER {VAR:0203:80}50 Points",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/339; modernised from US 0191#339",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 340,
+   "zh": "苏打饮料{VAR:0203:80}８０点",
+   "en": "SODA POP {VAR:0203:80}80 Points",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/340",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 341,
+   "zh": "混合果汁{VAR:0203:80}１００点",
+   "en": "LEMONADE {VAR:0203:80}100 Points",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/341",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 342,
+   "zh": "A.速度＆{NEWLINE}　跳跃竞技",
+   "en": "A. SPEED &{NEWLINE}JUMP COURSE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/342",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 343,
+   "zh": "B.跳跃＆{NEWLINE}　技巧竞技",
+   "en": "B. JUMP &{NEWLINE}SKILL COURSE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/343",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 344,
+   "zh": "C.技巧＆{NEWLINE}　力量竞技",
+   "en": "C. SKILL &{NEWLINE}POWER COURSE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/344",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 345,
+   "zh": "D.力量＆{NEWLINE}　耐力竞技",
+   "en": "D. POWER &{NEWLINE}STAMINA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/345 | menu width fix (follow-up 1): was 'D. POWER &{NEWLINE}STAMINA COURSE'",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 346,
+   "zh": "E.耐力＆{NEWLINE}　速度竞技",
+   "en": "E. STAMINA &{NEWLINE}SPEED COURSE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/346",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 347,
+   "zh": "培育道具１",
+   "en": "TRAINING{NEWLINE}ITEMS #1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/347",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 348,
+   "zh": "培育道具２",
+   "en": "TRAINING{NEWLINE}ITEMS #2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/348",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 349,
+   "zh": "战斗道具１",
+   "en": "FIGHTING{NEWLINE}ITEMS #1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/349",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 350,
+   "zh": "战斗道具２",
+   "en": "FIGHTING{NEWLINE}ITEMS #2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/350",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 351,
+   "zh": "物理技能",
+   "en": "PHYSICAL MOVES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 352,
+   "zh": "特殊技能",
+   "en": "SPECIAL MOVES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 353,
+   "zh": "变化技能",
+   "en": "STATUS MOVES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 354,
+   "zh": "攻击之源{NEWLINE}１BP",
+   "en": "PROTEIN{NEWLINE}1 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/354",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 355,
+   "zh": "特攻之源{NEWLINE}１BP",
+   "en": "CALCIUM{NEWLINE}1 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/355",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 356,
+   "zh": "防御之源{NEWLINE}１BP",
+   "en": "IRON{NEWLINE}1 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/356",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 357,
+   "zh": "特防之源{NEWLINE}１BP",
+   "en": "ZINC{NEWLINE}1 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/357",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 358,
+   "zh": "速度之源{NEWLINE}１BP",
+   "en": "CARBOS{NEWLINE}1 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/358",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 359,
+   "zh": "体力之源{NEWLINE}１BP",
+   "en": "HP UP{NEWLINE}1 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 360,
+   "zh": "力量手饰{NEWLINE}１６BP",
+   "en": "POWER BRACER{NEWLINE}16 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/360",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 361,
+   "zh": "力量腰带{NEWLINE}１６BP",
+   "en": "POWER BELT{NEWLINE}16 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/361",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 362,
+   "zh": "力量镜片{NEWLINE}１６BP",
+   "en": "POWER LENS{NEWLINE}16 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/362",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 363,
+   "zh": "力量衣带{NEWLINE}１６BP",
+   "en": "POWER BAND{NEWLINE}16 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/363",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 364,
+   "zh": "力量护膝{NEWLINE}１６BP",
+   "en": "POWER ANKLET{NEWLINE}16 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/364",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 365,
+   "zh": "力量护具{NEWLINE}１６BP",
+   "en": "POWER WEIGHT{NEWLINE}16 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/365",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 366,
+   "zh": "剧毒珠{NEWLINE}１６BP",
+   "en": "TOXIC ORB{NEWLINE}16 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/366",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 367,
+   "zh": "火焰珠{NEWLINE}１６BP",
+   "en": "FLAME ORB{NEWLINE}16 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/367",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 368,
+   "zh": "白色香草{NEWLINE}３２BP",
+   "en": "WHITE HERB{NEWLINE}32 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/368",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 369,
+   "zh": "力量香草{NEWLINE}３２BP",
+   "en": "POWER HERB{NEWLINE}32 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/369",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 370,
+   "zh": "光粉{NEWLINE}４８BP",
+   "en": "BRIGHT POWDER{NEWLINE}48 BP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/370",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 371,
+   "zh": "专爱头巾{NEWLINE}４８BP",
+   "en": "CHOICE BAND{NEWLINE}48 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/371",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 372,
+   "zh": "气息头巾{NEWLINE}４８BP",
+   "en": "FOCUS BAND{NEWLINE}48 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/372",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 373,
+   "zh": "焦点镜片{NEWLINE}４８BP",
+   "en": "SCOPE LENS{NEWLINE}48 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/373",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 374,
+   "zh": "力量头巾{NEWLINE}４８BP",
+   "en": "MUSCLE BAND{NEWLINE}48 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/374",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 375,
+   "zh": "气息腰带{NEWLINE}４８BP",
+   "en": "FOCUS SASH{NEWLINE}48 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/375",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 376,
+   "zh": "专爱围巾{NEWLINE}４８BP",
+   "en": "CHOICE SCARF{NEWLINE}48 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/376",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 377,
+   "zh": "尖锐之爪{NEWLINE}４８BP",
+   "en": "RAZOR CLAW{NEWLINE}48 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/377",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 378,
+   "zh": "尖锐之牙{NEWLINE}４８BP",
+   "en": "RAZOR FANG{NEWLINE}48 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/378",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 379,
+   "zh": "神奇糖果{NEWLINE}４８BP",
+   "en": "RARE CANDY{NEWLINE}48 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/379",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 380,
+   "zh": "燕返{NEWLINE}４０BP",
+   "en": "AERIAL ACE{NEWLINE}40 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/380",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 381,
+   "zh": "劈瓦{NEWLINE}４０BP",
+   "en": "BRICK BREAK{NEWLINE}40 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/381",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 382,
+   "zh": "蜻蜓返{NEWLINE}４０BP",
+   "en": "U-TURN{NEWLINE}40 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/382",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 383,
+   "zh": "十字剪{NEWLINE}６４BP",
+   "en": "X-SCISSOR{NEWLINE}64 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/383",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 384,
+   "zh": "尖石攻击{NEWLINE}８０BP",
+   "en": "STONE EDGE{NEWLINE}80 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/384",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 385,
+   "zh": "地震{NEWLINE}８０BP",
+   "en": "EARTHQUAKE{NEWLINE}80 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/385",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 386,
+   "zh": "暗影球{NEWLINE}６４BP",
+   "en": "SHADOW BALL{NEWLINE}64 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/386",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 387,
+   "zh": "能量球{NEWLINE}６４BP",
+   "en": "ENERGY BALL{NEWLINE}64 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/387",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 388,
+   "zh": "污泥炸弹{NEWLINE}８０BP",
+   "en": "SLUDGE BOMB{NEWLINE}80 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/388",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 389,
+   "zh": "龙之波动{NEWLINE}８０BP",
+   "en": "DRAGON PULSE{NEWLINE}80 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/389",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 390,
+   "zh": "剧毒{NEWLINE}３２BP",
+   "en": "TOXIC{NEWLINE}32 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/390",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 391,
+   "zh": "电磁波{NEWLINE}３２BP",
+   "en": "THUNDER WAVE{NEWLINE}32 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/391",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 392,
+   "zh": "鬼火{NEWLINE}３２BP",
+   "en": "WILL-O-WISP{NEWLINE}32 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/392",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 393,
+   "zh": "迷人{NEWLINE}３２BP",
+   "en": "ATTRACT{NEWLINE}32 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/393",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 394,
+   "zh": "健美{NEWLINE}４８BP",
+   "en": "BULK UP{NEWLINE}48 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/394",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 395,
+   "zh": "冥想{NEWLINE}４８BP",
+   "en": "CALM MIND{NEWLINE}48 BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/395",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 396,
+   "zh": "提升１只精灵的１０物攻努力值。",
+   "en": "Raises one Pokémon’s Attack EVs{NEWLINE}by 10.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack changed the BP vitamin/Power item/TM descriptions (EV amounts, percentages); 396-432 retranslated from the zh, US wording kept where it still matches."
+  },
+  {
+   "id": 397,
+   "zh": "提升１只精灵的１０特攻努力值。",
+   "en": "Raises one Pokémon’s Sp. Atk EVs{NEWLINE}by 10.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/397"
+  },
+  {
+   "id": 398,
+   "zh": "提升１只精灵的１０物防努力值。",
+   "en": "Raises one Pokémon’s Defense EVs{NEWLINE}by 10.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/398"
+  },
+  {
+   "id": 399,
+   "zh": "提升１只精灵的１０特防努力值。",
+   "en": "Raises one Pokémon’s Sp. Def EVs{NEWLINE}by 10.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/399"
+  },
+  {
+   "id": 400,
+   "zh": "提升１只精灵的１０速度努力值。",
+   "en": "Raises one Pokémon’s Speed EVs{NEWLINE}by 10.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/400"
+  },
+  {
+   "id": 401,
+   "zh": "提升１只精灵的１０点ＨＰ努力值",
+   "en": "Raises one Pokémon’s HP EVs{NEWLINE}by 10.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/401"
+  },
+  {
+   "id": 402,
+   "zh": "使１只精灵的等级提升１。",
+   "en": "It raises the level of a single Pokémon{NEWLINE}by one.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/402"
+  },
+  {
+   "id": 403,
+   "zh": "携带后精灵获得的物攻努力值+４{NEWLINE}但速度减半。",
+   "en": "The holder gains 4 extra Attack EVs,{NEWLINE}but its Speed is halved.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 404,
+   "zh": "携带后精灵获得的物防努力值+４{NEWLINE}但速度减半。",
+   "en": "The holder gains 4 extra Defense EVs,{NEWLINE}but its Speed is halved.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 405,
+   "zh": "携带后精灵获得的特攻努力值+４{NEWLINE}但速度减半。",
+   "en": "The holder gains 4 extra Sp. Atk EVs,{NEWLINE}but its Speed is halved.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/405"
+  },
+  {
+   "id": 406,
+   "zh": "携带后精灵获得的特防努力值+４{NEWLINE}但速度减半。",
+   "en": "The holder gains 4 extra Sp. Def EVs,{NEWLINE}but its Speed is halved.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/406"
+  },
+  {
+   "id": 407,
+   "zh": "携带后精灵获得的速度努力值+４{NEWLINE}但速度减半。",
+   "en": "The holder gains 4 extra Speed EVs,{NEWLINE}but its Speed is halved.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/407"
+  },
+  {
+   "id": 408,
+   "zh": "携带后精灵获得的ＨＰ努力值+４{NEWLINE}但速度减半。",
+   "en": "The holder gains 4 extra HP EVs,{NEWLINE}but its Speed is halved.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/408"
+  },
+  {
+   "id": 409,
+   "zh": "携带后在战斗中变为剧毒状态。",
+   "en": "It is a bizarre orb that badly poisons{NEWLINE}the holder in battle.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/409"
+  },
+  {
+   "id": 410,
+   "zh": "携带后在战斗中变为烧伤状态。",
+   "en": "It is a bizarre orb that inflicts a{NEWLINE}burn on the holder in battle.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/410"
+  },
+  {
+   "id": 411,
+   "zh": "携带后{NEWLINE}精灵的能力下降时可还原一次。",
+   "en": "It restores any lowered stat in{NEWLINE}battle. It can be used only once.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/411"
+  },
+  {
+   "id": 412,
+   "zh": "让精灵携带后,需要１回合蓄力{NEWLINE}时间的技能可立刻发动。",
+   "en": "It allows the immediate use of a move{NEWLINE}that charges on the first turn.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/412"
+  },
+  {
+   "id": 413,
+   "zh": "携带后用光迷惑对手,{NEWLINE}使对手技能命中下降１０％。",
+   "en": "It casts a tricky glare that lowers{NEWLINE}the foe’s accuracy by 10%.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/413"
+  },
+  {
+   "id": 414,
+   "zh": "携带后物攻１.５倍,{NEWLINE}但只能持续使用一招。",
+   "en": "The holder’s Attack is boosted 1.5x,{NEWLINE}but it can use only one move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 415,
+   "zh": "携带后受到致命攻击时,{NEWLINE}１０％几率剩下１ＨＰ。",
+   "en": "The holder has a 10% chance to{NEWLINE}survive a KO attack with 1 HP.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/415"
+  },
+  {
+   "id": 416,
+   "zh": "携带的精灵会心率上升１级。",
+   "en": "Raises the holder’s critical-hit{NEWLINE}ratio by one stage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 417,
+   "zh": "携带后物理技能威力上升１０％。",
+   "en": "Boosts the power of the holder’s{NEWLINE}physical moves by 10%.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 418,
+   "zh": "携带后在ＨＰ全满时受到致命攻击{NEWLINE}也会以ＨＰ１的状态存活一次。",
+   "en": "With full HP, the holder will endure{NEWLINE}one potential KO attack, leaving 1 HP.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/418"
+  },
+  {
+   "id": 419,
+   "zh": "携带后速度１.５倍,{NEWLINE}只能持续使用一招。",
+   "en": "The holder’s Speed is boosted 1.5x,{NEWLINE}but it can use only one move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 420,
+   "zh": "携带后会心率上升１级。",
+   "en": "Raises the holder’s critical-hit{NEWLINE}ratio by one stage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 421,
+   "zh": "携带后攻击,对手１０％几率害怕",
+   "en": "When the holder attacks, the foe{NEWLINE}has a 10% chance to flinch.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 422,
+   "zh": "以高速行动玩弄对手。{NEWLINE}攻击一定能命中对手。",
+   "en": "The user confounds the foe with speed.{NEWLINE}This attack never misses.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 423,
+   "zh": "用拳头攻击。{NEWLINE}能贯穿光墙和反射壁。",
+   "en": "It can break any barrier, such as Light{NEWLINE}Screen and Reflect.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/423"
+  },
+  {
+   "id": 424,
+   "zh": "在攻击对手后,{NEWLINE}自己下场交换。",
+   "en": "After attacking, the user rushes back{NEWLINE}to switch places with a party Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/424"
+  },
+  {
+   "id": 425,
+   "zh": "用镰刀一样的爪子剪切对手。",
+   "en": "The user slashes at the foe by crossing{NEWLINE}its claws as if they were scissors.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/425"
+  },
+  {
+   "id": 426,
+   "zh": "从下方突出尖锐的岩石。{NEWLINE}容易发动会心一击。",
+   "en": "Stabs the foe with a sharpened stone.{NEWLINE}It has a high critical-hit ratio.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/426"
+  },
+  {
+   "id": 427,
+   "zh": "制造山摇地动的地震。{NEWLINE}能打中挖洞的敌人并且伤害２倍。",
+   "en": "Sets off a mighty earthquake. It hits{NEWLINE}a foe using Dig for double damage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/427"
+  },
+  {
+   "id": 428,
+   "zh": "扔出一团黑影攻击。{NEWLINE}２０％降低１级特防。",
+   "en": "Hurls a shadowy blob at the foe. Has a{NEWLINE}20% chance to lower Sp. Def by 1 stage.",
+   "status": "reviewed",
+   "origin": "agent",
+   "notes": "US 0191/428"
+  },
+  {
+   "id": 429,
+   "zh": "释放能量攻击。{NEWLINE}１０％特防下降１级。",
+   "en": "Fires off gathered energy. Has a 10%{NEWLINE}chance to lower Sp. Def by 1 stage.",
+   "status": "reviewed",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 430,
+   "zh": "投出肮脏的淤泥。{NEWLINE}３０％陷入中毒状态。",
+   "en": "Hurls filthy sludge at the foe. It{NEWLINE}has a 30% chance to poison.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 431,
+   "zh": "从嘴里吐出强烈的{NEWLINE}冲击波攻击对手。",
+   "en": "The foe is attacked with a shock wave{NEWLINE}generated by the user’s gaping mouth.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/431"
+  },
+  {
+   "id": 432,
+   "zh": "让对手陷入剧毒状态。{NEWLINE}随着回合数增长伤害增加。",
+   "en": "Badly poisons the foe. The damage{NEWLINE}grows worse every turn.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/432"
+  },
+  {
+   "id": 433,
+   "zh": "释放弱电流使对手麻痹。",
+   "en": "A weak electric charge is launched at{NEWLINE}the foe. It causes paralysis if it hits.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/433"
+  },
+  {
+   "id": 434,
+   "zh": "放出怪异的蓝色火焰。{NEWLINE}能让对手烧伤。",
+   "en": "Shoots a sinister, bluish-white flame at{NEWLINE}the foe to inflict a burn.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/434"
+  },
+  {
+   "id": 435,
+   "zh": "㊚对㊛或㊛对㊚{NEWLINE}进行诱惑使其陷入着迷状态。",
+   "en": "If the opposite gender, the foe becomes{NEWLINE}infatuated and less likely to attack.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/435"
+  },
+  {
+   "id": 436,
+   "zh": "集中力量让肌肉收缩,{NEWLINE}物攻和物防上升１级。",
+   "en": "The user tenses its muscles, raising{NEWLINE}Attack and Defense by 1 stage each.",
+   "status": "reviewed",
+   "origin": "agent",
+   "notes": "US 0191/436"
+  },
+  {
+   "id": 437,
+   "zh": "集中精神让心平静,{NEWLINE}特攻和特防上升１级。",
+   "en": "The user calms its mind, raising Sp. Atk{NEWLINE}and Sp. Def by 1 stage each.",
+   "status": "reviewed",
+   "origin": "agent",
+   "notes": "US 0191/437"
+  },
+  {
+   "id": 438,
+   "zh": "返回选择种类",
+   "en": "Return to the selection screen.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/438"
+  },
+  {
+   "id": 439,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position, flags suspiciously_long; other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 440,
+   "zh": "返回",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/440",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 441,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 442,
+   "zh": "听取道具的说明",
+   "en": "ABOUT ITEMS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags suspiciously_short"
+  },
+  {
+   "id": 443,
+   "zh": "听取技能的说明",
+   "en": "ABOUT MOVES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags suspiciously_short"
+  },
+  {
+   "id": 444,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags suspiciously_long; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 445,
+   "zh": "金珠{NEWLINE}４５００¥",
+   "en": "NUGGET{NEWLINE}$4,500",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/445"
+  },
+  {
+   "id": 446,
+   "zh": "小珍珠{NEWLINE}６５０¥",
+   "en": "PEARL{NEWLINE}$650",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/446"
+  },
+  {
+   "id": 447,
+   "zh": "大珍珠{NEWLINE}３５００¥",
+   "en": "BIG PEARL{NEWLINE}$3,500",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/447"
+  },
+  {
+   "id": 448,
+   "zh": "星之砂{NEWLINE}９００¥",
+   "en": "STARDUST{NEWLINE}$900",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 449,
+   "zh": "星之碎片{NEWLINE}４６００¥",
+   "en": "STAR PIECE{NEWLINE}$4,600",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/449"
+  },
+  {
+   "id": 450,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 451,
+   "zh": "战斗前线是什么",
+   "en": "BATTLE{NEWLINE}FRONTIER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 452,
+   "zh": "关于基本的规则",
+   "en": "BASIC RULES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/452",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 453,
+   "zh": "战斗点数是什么",
+   "en": "BATTLE POINTS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/453",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 454,
+   "zh": "BP点数交换所{NEWLINE}是什么",
+   "en": "BP EXCHANGE{NEWLINE}CORNER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | menu width fix (follow-up 1): was 'EXCHANGE{NEWLINE}SERVICE CORNER'",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 455,
+   "zh": "什么是成绩显示{NEWLINE}器",
+   "en": "PERFORMANCE{NEWLINE}MONITOR",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/455",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 456,
+   "zh": "结束",
+   "en": "DONE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/456",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 457,
+   "zh": "定制区域是什么",
+   "en": "AREA{NEWLINE}CUSTOMIZER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/457",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 458,
+   "zh": "定制区域的{NEWLINE}开始方法",
+   "en": "USING THE{NEWLINE}CUSTOMIZER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/458 | menu width fix (follow-up 1): was 'USING THE AREA{NEWLINE}CUSTOMIZER'",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 459,
+   "zh": "区域的交换方法",
+   "en": "SWAPPING{NEWLINE}AREAS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/459 | menu width fix (follow-up 1): was 'SWAPPING AREAS'",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 460,
+   "zh": "区域的替换方法",
+   "en": "SWITCHING{NEWLINE}AREAS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/460",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 461,
+   "zh": "精灵的出现",
+   "en": "APPEARING{NEWLINE}POKéMON",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/461; modernised from US 0191#461",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 462,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 463,
+   "zh": "区块是什么",
+   "en": "OBJECTS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/463",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 464,
+   "zh": "区块的配置方法",
+   "en": "ARRANGING{NEWLINE}OBJECTS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/464",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 465,
+   "zh": "区块的撤除方法",
+   "en": "REMOVING{NEWLINE}OBJECTS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/465",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 466,
+   "zh": "区块的种类",
+   "en": "OBJECT TYPES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/466",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 467,
+   "zh": "精灵的出现",
+   "en": "APPEARING{NEWLINE}POKéMON",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/467; modernised from US 0191#467",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 468,
+   "zh": "区块的清除",
+   "en": "CLEARING{NEWLINE}OBJECTS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/468",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 469,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position; modernised from the v3 TM text; other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 470,
+   "zh": "泥土会加速干燥,{NEWLINE}树果的成长速度加快。",
+   "en": "It speeds up the growth of Berries.{NEWLINE}However, it also dries the soil faster.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/470"
+  },
+  {
+   "id": 471,
+   "zh": "泥土会减慢干燥,{NEWLINE}树果的成长速度减慢。",
+   "en": "It slows the growth of Berries and{NEWLINE}causes the soil to dry more slowly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/471"
+  },
+  {
+   "id": 472,
+   "zh": "泥土会减慢干燥,{NEWLINE}树果的成熟时间变长。",
+   "en": "It extends the time ripened Berries{NEWLINE}remain on their plants before falling.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0191/472"
+  },
+  {
+   "id": 473,
+   "zh": "树果枯萎后{NEWLINE}长出新芽的次数增加。",
+   "en": "It ups the number of times new plants{NEWLINE}grow where mature plants withered.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/473"
+  },
+  {
+   "id": 474,
+   "zh": "放弃购买",
+   "en": "Don’t buy.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0191/474"
+  }
+ ]
+}

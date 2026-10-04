@@ -1,0 +1,167 @@
+{
+ "narc": "a027",
+ "bank": 318,
+ "source": "work/extract/v4/a027/0318.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "向南走入常磐森林,{NEWLINE}犹如进入了树木的迷宫。",
+   "en": "Head south into Viridian Forest, and{NEWLINE}it’s like entering a maze of trees.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 1,
+   "zh": "向北可前往月见山,{NEWLINE}仿佛投入了群山的怀抱。",
+   "en": "Head north toward Mt. Moon, and it’s{NEWLINE}like being embraced by the mountains.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 2,
+   "zh": "我在常磐森林仔细研究了{NEWLINE}虫系精灵的进食习惯,{CLEAR}然后从它们的吃东西动作中{CLEAR}总结了一个口袋妖怪的招式「虫蛀」。{CLEAR}你如果有精灵想学这个招式,{CLEAR}只要给我一个重复球,{CLEAR}我就可以教给它们。{SCROLL}怎么样,要学吗？{SCROLL}",
+   "en": "I closely studied the eating habits of{NEWLINE}Bug-type Pokémon in Viridian Forest.{SCROLL}From the way they eat, I came up with a{NEWLINE}Pokémon move: Bug Bite.{SCROLL}If you have a Pokémon that wants to{NEWLINE}learn it, just give me one Repeat Ball,{CLEAR}and I’ll teach it.{SCROLL}How about it? Want to learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 4,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you ever want to learn it, come see{NEWLINE}me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 5,
+   "zh": "你并没有重复球啊,{NEWLINE}等有果子了再来找我吧。",
+   "en": "You don’t have a Repeat Ball. Come back{NEWLINE}when you’ve got a Berry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (Asks for a Repeat Ball, then says come back when you have a Berry (果子), a copy slip); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 6,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住虫蛀。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn Bug{NEWLINE}Bite.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "A Pokémon that hasn’t hatched yet{NEWLINE}can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 8,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会虫蛀了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Bug Bite!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20}, 2{VAR:0201:20}, and{VAR:0201:20}... {VAR:0201:20}... Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0101:0}学会了虫蛀！",
+   "en": "{VAR:0101:0} learned Bug Bite!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会虫蛀了！{SCROLL}那么按照约定,{NEWLINE}1个重复球我拿走了。",
+   "en": "There! Your {VAR:0100:0} has learned Bug{NEWLINE}Bite!{SCROLL}As we agreed, I’ll take 1 Repeat Ball.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的虫蛀……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习虫蛀{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn the move Bug{NEWLINE}Bite...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Forget a move to make room for Bug{NEWLINE}Bite?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "{VAR:0106:1} will be forgotten. Is that{NEWLINE}OK? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 14,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20}, 2{VAR:0201:20}, and{VAR:0201:20}... {VAR:0201:20}... Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot how to use{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0101:0}学会了虫蛀！",
+   "en": "{VAR:0101:0} learned Bug Bite!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "你是要放弃{NEWLINE}让它记住虫蛀吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Bug Bite? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "你抓到过比比鸟吗？{SCROLL}比比鸟的第一特性是疾风之翼。{NEWLINE}凡是飞行系的技能,{CLEAR}疾风之翼特性的比比鸟{CLEAR}都能以比对手更快的速度使出！",
+   "en": "Have you ever caught a Pidgeotto?{SCROLL}Pidgeotto’s first ability is Gale Wings.{NEWLINE}With Gale Wings, Pidgeotto can use any{CLEAR}Flying-type move before its opponent!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 19,
+   "zh": "比比鸟『Pi——Pi",
+   "en": "Pidgeotto: Pi-Pi",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  }
+ ]
+}

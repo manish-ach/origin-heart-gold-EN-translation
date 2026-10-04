@@ -1,0 +1,471 @@
+{
+ "narc": "a027",
+ "bank": 520,
+ "source": "work/extract/v4/a027/0520.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "渡『……进这房间真是久违了呢。{SCROLL}这里是为了赞颂经历了漫长的战斗{NEWLINE}终于成为联盟冠军的训练家而建立的,{CLEAR}你们的名字将会永远铭刻在这里！{SCROLL}此时此刻,{NEWLINE}对精灵的温柔与信赖,{SCROLL}对自己的强大和严厉,{SCROLL}拥有着重要的东西{NEWLINE}新的联盟冠军就此诞生！{SCROLL}来吧,{VAR:0103:0}、小绿！{NEWLINE}现在就记录下你们的的伙伴！{SCROLL}",
+   "en": "Lance: ...It’s been a long time since I{NEWLINE}last entered this room.{SCROLL}This room was built to honor the{NEWLINE}Trainers who fought long, hard battles{CLEAR}to become League Champion.{SCROLL}Your names will be engraved here{NEWLINE}forever!{SCROLL}Here and now, with kindness and trust{NEWLINE}toward Pokémon...{SCROLL}...with strength and strictness toward{NEWLINE}themselves...{SCROLL}...holding on to what matters most, new{NEWLINE}League Champions are born!{SCROLL}Come, {VAR:0103:0}, Blue! Register your{NEWLINE}partners now!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0528/0 | The hack rewrote the vanilla Hall of Fame speech (it now inducts the player and Blue together), so the US text was replaced. #0 and #1 have identical zh."
+  },
+  {
+   "id": 1,
+   "zh": "渡『……进这房间真是久违了呢。{SCROLL}这里是为了赞颂经历了漫长的战斗{NEWLINE}终于成为联盟冠军的训练家而建立的,{CLEAR}你们的名字将会永远铭刻在这里！{SCROLL}此时此刻,{NEWLINE}对精灵的温柔与信赖,{SCROLL}对自己的强大和严厉,{SCROLL}拥有着重要的东西{NEWLINE}新的联盟冠军就此诞生！{SCROLL}来吧,{VAR:0103:0}、小绿！{NEWLINE}现在就记录下你们的的伙伴！{SCROLL}",
+   "en": "Lance: ...It’s been a long time since I{NEWLINE}last entered this room.{SCROLL}This room was built to honor the{NEWLINE}Trainers who fought long, hard battles{CLEAR}to become League Champion.{SCROLL}Your names will be engraved here{NEWLINE}forever!{SCROLL}Here and now, with kindness and trust{NEWLINE}toward Pokémon...{SCROLL}...with strength and strictness toward{NEWLINE}themselves...{SCROLL}...holding on to what matters most, new{NEWLINE}League Champions are born!{SCROLL}Come, {VAR:0103:0}, Blue! Register your{NEWLINE}partners now!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0528/1"
+  },
+  {
+   "id": 2,
+   "zh": "请您登上台阶,{NEWLINE}登录您现在的队伍阵容吧。{SCROLL}",
+   "en": "Please climb the steps and register{NEWLINE}your current team.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "坂木『达马兰奇,精灵联盟的黄金储备{NEWLINE}就在这个房间下方吧？{CLEAR}它们现在属于火箭队了,{CLEAR}赶紧交代该如何开启金库大门。",
+   "en": "Giovanni: Goodshow, the{NEWLINE}Pokémon League’s gold reserves are{CLEAR}beneath this room, aren’t they?{SCROLL}They belong to Team Rocket now.{SCROLL}Tell me how to open the vault door, and{NEWLINE}be quick about it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Rocket-occupation branch (endgame): #3–52, Giovanni vs. Goodshow in the Hall of Fame, Giovanni's Arceus/Dialga, Beedrill's last stand, the Elite Four return."
+  },
+  {
+   "id": 4,
+   "zh": "达马兰奇『这里的黄金{NEWLINE}是从精灵联盟成立之初{CLEAR}到现在一点一点积攒下来的,{CLEAR}是整个联盟的财富命脉,{CLEAR}我就是死,也不会把黄金交给你。",
+   "en": "Goodshow: The gold here has been saved{NEWLINE}up bit by bit since the Pokémon League{CLEAR}was founded.{SCROLL}It’s the lifeblood of the entire League.{NEWLINE}I’ll die before I hand it over to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "坂木『我12岁就跟随你南征北战,{NEWLINE}如今精灵联盟统治的地区,{CLEAR}有一半都是我打下来的。{CLEAR}这些黄金本就该有我的一份。{CLEAR}可你呢？精灵联盟成立之后,{CLEAR}你既没有给我应得的报酬,{CLEAR}也没有把我当做接班人培养,{CLEAR}反倒是断了我不少财路。{CLEAR}可以说没有你的步步紧逼,{CLEAR}也就没有火箭队的诞生和壮大,{CLEAR}今天我来夺走你的权力、拿走你的黄金,{CLEAR}那都是因果报应,都是你自找的。",
+   "en": "Giovanni: I followed you into battle{NEWLINE}across the land from the age of 12.{SCROLL}Half the territory the Pokémon League{NEWLINE}rules today, I conquered.{SCROLL}A share of this gold is rightfully mine.{SCROLL}And you? Once the League was founded,{NEWLINE}you never paid me what I was owed.{SCROLL}You never groomed me as your{NEWLINE}successor.{SCROLL}Instead, you cut off plenty of my{NEWLINE}sources of income.{SCROLL}Without you backing me into a corner,{NEWLINE}Team Rocket would never have been{CLEAR}born, let alone grown so strong.{SCROLL}So today, when I take your power and{NEWLINE}your gold, it’s karma.{SCROLL}You brought this on yourself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "达马兰奇『咱们当时创立精灵联盟,{NEWLINE}是为了结束地区分裂、战乱频仍的局面,{CLEAR}是为了给这片土地上的人和精灵{CLEAR}一个和平统一的生活环境。{CLEAR}我早就看出你心术不正,{CLEAR}只想高高在上成为压迫者,{CLEAR}把权力当成吸血的工具,{CLEAR}所以才早早把你调离了权力中心。{CLEAR}我今天已经做好了舍生取义的准备,{CLEAR}你休想从我这里夺走任何东西。",
+   "en": "Goodshow: We founded the{NEWLINE}Pokémon League to end the region’s{CLEAR}divisions and endless wars, and to give{CLEAR}the people and Pokémon of this land a{CLEAR}peaceful, unified life.{SCROLL}I saw long ago that your heart was{NEWLINE}crooked.{SCROLL}All you wanted was to sit on high as an{NEWLINE}oppressor and use power as a tool to{CLEAR}suck people dry.{SCROLL}That’s why I moved you away from the{NEWLINE}center of power early on.{SCROLL}Today I’m ready to lay down my life for{NEWLINE}what’s right.{SCROLL}You won’t take a single thing from me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "坂木『我是世界最强训练家,{NEWLINE}连传说中的创世之神阿尔宙斯{CLEAR}都臣服在我的脚下。{CLEAR}所以我就该获得最高权力,{CLEAR}我,就该是这个世界的统治者！",
+   "en": "Giovanni: I am the strongest Trainer in{NEWLINE}the world.{SCROLL}Even Arceus, the legendary god of{NEWLINE}creation, bows at my feet.{SCROLL}So I deserve the highest power. I, and{NEWLINE}no one else, should rule this world!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "达马兰奇『你这样的统治者,{NEWLINE}不会得到人们的支持,{CLEAR}不会得到精灵的信赖,{CLEAR}就算取得了一时的胜利,{CLEAR}也会被团结起来的人们和精灵推翻。",
+   "en": "Goodshow: A ruler like you will never win{NEWLINE}people’s support or Pokémon’s trust.{SCROLL}Even if you win for now, people and{NEWLINE}Pokémon will unite and overthrow you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "坂木『一群凡人和精灵,{NEWLINE}拿什么反抗拥有了神之力的我？{CLEAR}达马兰奇,我会留你活到最后的。{CLEAR}让你看看到底是谁能统治这个世界。",
+   "en": "Giovanni: A rabble of ordinary people{NEWLINE}and Pokémon?{SCROLL}What could they possibly do against me,{NEWLINE}now that I have the power of a god?{SCROLL}Goodshow, I’ll keep you alive until the{NEWLINE}very end, so you can see for yourself{CLEAR}who gets to rule this world.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0103:0}『坂木！你统治世界的美梦{NEWLINE}就到此为止吧！",
+   "en": "{VAR:0103:0}: Giovanni! Your dream of ruling{NEWLINE}the world ends here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "坂木『{VAR:0103:0}？{NEWLINE}赤日和冥王的屏障陷阱{CLEAR}没能把你困住吗？",
+   "en": "Giovanni: {VAR:0103:0}? Cyrus and Charon’s{NEWLINE}barrier traps didn’t hold you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}『你们确实布置了{NEWLINE}很多陷阱和阻碍,{CLEAR}但多亏了超梦和伙伴们的帮助,{CLEAR}我终于一路走到了这里。{CLEAR}这就是团结协作的力量,{CLEAR}这就是把你打败的力量！",
+   "en": "{VAR:0103:0}: You set up plenty of traps and{NEWLINE}obstacles, all right.{SCROLL}But thanks to Mewtwo and my friends, I{NEWLINE}finally made it all the way here.{SCROLL}That’s the power of working together.{NEWLINE}That’s the power that will beat you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "坂木『你确实是我征服之路上的{NEWLINE}最大绊脚石,{CLEAR}在华蓝洞穴被你打败之后,{CLEAR}我就一直思考该如何战胜你。{CLEAR}所以我费尽周折得到阿尔宙斯的力量,{CLEAR}为的就是永远立于不败之地,{CLEAR}无论是谁来都不可能战胜我！",
+   "en": "Giovanni: You’ve been the biggest{NEWLINE}obstacle on my road to conquest.{SCROLL}Ever since you beat me in Cerulean{NEWLINE}Cave, I’ve pondered how to defeat you.{SCROLL}That’s why I went to such lengths for{NEWLINE}Arceus’s power: to stand forever{CLEAR}undefeated, beyond anyone’s reach!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}『阿尔宙斯的力量不过如此,{NEWLINE}是你输了,坂木！",
+   "en": "{VAR:0103:0}: So that’s all Arceus’s power{NEWLINE}amounts to. You’ve lost, Giovanni!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "坂木『你以为自己已经赢了吗？{NEWLINE}看来你对阿尔宙斯的能力{CLEAR}理解的还不够啊。{SCROLL}坂木『阿尔宙斯的能力是创造,{NEWLINE}它能创造我在这个维度的分身,{CLEAR}如果我同时使用掌控时间的帝牙卢卡……",
+   "en": "Giovanni: You think you’ve already won?{SCROLL}It seems you don’t understand Arceus’s{NEWLINE}abilities well enough.{SCROLL}Giovanni: Arceus’s power is creation.{SCROLL}It can create a copy of me in this{NEWLINE}dimension.{SCROLL}And if I use Dialga, master of time, at{NEWLINE}the same time...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "帝牙卢卡『Diaaa——ga！",
+   "en": "Dialga: Diaaa-ga!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "坂木『那它就能创造一个{NEWLINE}我在其他时间维度的分身！",
+   "en": "Giovanni: ...it can create a copy of me{NEWLINE}from another point in time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "阿尔宙斯『Arrrr——ceu！",
+   "en": "Arceus: Arrrr-ceu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0103:0}『那个是……！超梦！？",
+   "en": "{VAR:0103:0}: That’s...! Mewtwo!?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Continuity: the time-copy is Giovanni from the Cerulean Cave battle, presumably with his Mewtwo."
+  },
+  {
+   "id": 20,
+   "zh": "坂木『这是结合阿尔宙斯{NEWLINE}和帝牙卢卡的力量,{CLEAR}创造的在华蓝洞穴时的我。",
+   "en": "Giovanni: This is me from Cerulean Cave,{NEWLINE}created by combining the powers of{CLEAR}Arceus and Dialga.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "坂木『只要我们两个人同时出击,{NEWLINE}那就是不可战胜的！",
+   "en": "Giovanni: With both of us attacking at{NEWLINE}once, we’re invincible!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "帝牙卢卡『Diaa……",
+   "en": "Dialga: Diaa...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "阿尔宙斯『Arrr……",
+   "en": "Arceus: Arrr...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0103:0}『哈……哈……终于……{NEWLINE}阿尔宙斯和帝牙卢卡已经体力耗尽,{CLEAR}你彻底输了,坂木！",
+   "en": "{VAR:0103:0}: Hah... hah... Finally...{SCROLL}Arceus and Dialga are completely{NEWLINE}drained. You’ve lost for good, Giovanni!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "坂木『阿尔宙斯的力量就只有这样……？{NEWLINE}一切……都结束了吗……",
+   "en": "Giovanni: Is this all Arceus’s power{NEWLINE}amounts to...? Is it... all over...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0103:0}『阿尔宙斯对你来说{NEWLINE}不过是实现目的的工具,{CLEAR}你对它没有感情,它对你也没有信赖,{CLEAR}你们这样的组合注定无法战胜{CLEAR}我和我的伙伴们！",
+   "en": "{VAR:0103:0}: To you, Arceus was just a tool{NEWLINE}to get what you wanted.{SCROLL}You have no feelings for it, and it has{NEWLINE}no trust in you.{SCROLL}A pairing like that could never beat me{NEWLINE}and my partners!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "达马兰奇『说的好,{VAR:0103:0}！{NEWLINE}被权力和金钱蒙蔽了双眼的坂木,{CLEAR}永远也不会是{CLEAR}真正热爱口袋妖怪的训练家的对手。",
+   "en": "Goodshow: Well said, {VAR:0103:0}!{SCROLL}Giovanni, blinded by power and money,{NEWLINE}will never be a match for a Trainer who{CLEAR}truly loves Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "达马兰奇『多亏你的英勇表现,{NEWLINE}坂木的野心才能被粉碎,{CLEAR}整个地区才能重归和平与安定。",
+   "en": "Goodshow: Thanks to your heroics,{NEWLINE}Giovanni’s ambitions have been crushed,{CLEAR}and the whole region can return to{CLEAR}peace and stability.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0103:0}『主席先生,{NEWLINE}这都是我身为冠军应该做的。",
+   "en": "{VAR:0103:0}: Mr. President, I only did what{NEWLINE}any Champion should.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0103:0}『跟我走吧坂木,{NEWLINE}去接受你应得的审判！",
+   "en": "{VAR:0103:0}: Come with me, Giovanni.{SCROLL}It’s time you faced the judgment you{NEWLINE}deserve!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "大针蜂『Beee——dri！",
+   "en": "Beedrill: Beee-dri!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:0103:0}『大针蜂？！",
+   "en": "{VAR:0103:0}: Beedrill?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "坂木『大针蜂,你……{SCROLL}坂木『连阿尔宙斯都耗尽了体力,{NEWLINE}你还想继续为我战斗吗？",
+   "en": "Giovanni: Beedrill, you...{SCROLL}Giovanni: Even Arceus is out of{NEWLINE}strength, and you still want to keep{CLEAR}fighting for me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "大针蜂『Beee——dri！",
+   "en": "Beedrill: Beee-dri!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "坂木『好,那咱们就做最后一搏。",
+   "en": "Giovanni: Very well. Then let’s make one{NEWLINE}last stand together.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "坂木『{VAR:0103:0},{NEWLINE}你不是说什么感情和信赖吗？{CLEAR}那你就好好见识一下,{CLEAR}我和我的第一只精灵——{CLEAR}大针蜂之间的感情和信赖！",
+   "en": "Giovanni: {VAR:0103:0}, weren’t you going on{NEWLINE}about feelings and trust?{SCROLL}Then take a good look at the feelings{NEWLINE}and trust between me and my very first{CLEAR}Pokémon, Beedrill!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "大针蜂『Beee……",
+   "en": "Beedrill: Beee...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "坂木『够了,大针蜂,不要再硬撑了,{NEWLINE}是我输了,彻底地输了……",
+   "en": "Giovanni: Enough, Beedrill.{SCROLL}Don’t push yourself anymore. I’ve lost.{NEWLINE}I’ve lost completely...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "小绿『{VAR:0103:0}！达马兰奇主席！",
+   "en": "Blue: {VAR:0103:0}! President Goodshow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "{VAR:0103:0}『小绿！还有四天王……！",
+   "en": "{VAR:0103:0}: Blue! And the Elite Four...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "达马兰奇『哦呀,都来了啊,{NEWLINE}看来外面的战斗也尘埃落定了。",
+   "en": "Goodshow: Oh ho, you’re all here.{SCROLL}It seems the battle outside is settled{NEWLINE}too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "小绿『是的主席,四天王突然回归{NEWLINE}让残余的火箭队瞬间丧失了斗志。",
+   "en": "Blue: Yes, Mr. President.{SCROLL}The Elite Four’s sudden return broke{NEWLINE}what was left of Team Rocket’s will to{CLEAR}fight in an instant.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "渡『我们和各地赶来的训练家{NEWLINE}重新控制了局面,{CLEAR}战斗彻底结束了。",
+   "en": "Lance: Together with the Trainers who{NEWLINE}rushed here from all over, we’ve{CLEAR}regained control.{SCROLL}The battle is completely over.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "菊子『只是不知道{NEWLINE}{VAR:0103:0}和坂木的战斗结果如何,{CLEAR}所以就急忙赶过来。",
+   "en": "Agatha: We just didn’t know how{NEWLINE}{VAR:0103:0}’s battle with Giovanni turned{CLEAR}out, so we hurried over.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "志霸『如果有什么意外,{NEWLINE}我们还可以助{VAR:0103:0}一臂之力。",
+   "en": "Bruno: If anything had gone wrong, we{NEWLINE}could still have lent {VAR:0103:0} a hand.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "科拿『不过看坂木的神情,{NEWLINE}似乎是大局已定啊。",
+   "en": "Lorelei: But judging by Giovanni’s face,{NEWLINE}it looks like it’s all been decided.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "坂木『哼……",
+   "en": "Giovanni: Hmph...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "达马兰奇『没错,胜负已分,{NEWLINE}坂木败在了{VAR:0103:0}的手上。{CLEAR}咱们的联盟冠军{VAR:0103:0}{CLEAR}是拯救这个地区的英雄。",
+   "en": "Goodshow: That’s right. The battle is{NEWLINE}decided.{SCROLL}Giovanni fell at {VAR:0103:0}’s hands.{SCROLL}Our League Champion, {VAR:0103:0}, is the{NEWLINE}hero who saved this region.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "达马兰奇『小绿馆主,还有诸位四天王,{NEWLINE}请你们把坂木带下去关押起来,{CLEAR}等待日后的审判。",
+   "en": "Goodshow: Gym Leader Blue, and all of{NEWLINE}you Elite Four, please take Giovanni{CLEAR}away and lock him up to await trial.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "众人『是！",
+   "en": "Everyone: Yes, sir!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "众人『 rendered ‘Everyone:’ as in 0466 #125/#148 (the digest's ‘Crowd:’ reads oddly for Blue and the Elite Four answering the President)."
+  },
+  {
+   "id": 51,
+   "zh": "达马兰奇『{VAR:0103:0},你跟我来。",
+   "en": "Goodshow: {VAR:0103:0}, come with me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "达马兰奇『你打败坂木、{NEWLINE}消灭火箭队的丰功伟绩,{CLEAR}应当被永远铭记和传颂。{CLEAR}请在这里记录你和你伙伴们的信息,{CLEAR}为这段传奇故事画下最后的句号吧。",
+   "en": "Goodshow: Your great deeds in defeating{NEWLINE}Giovanni and wiping out Team Rocket must{CLEAR}be remembered and celebrated forever.{SCROLL}Please record yourself and your{NEWLINE}partners here, and bring this legendary{CLEAR}tale to its final close.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "空。",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | zh 空。 (empty placeholder); v3 ‘Sky.’ was a mistranslation."
+  },
+  {
+   "id": 54,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 55,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 56,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 57,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  }
+ ]
+}

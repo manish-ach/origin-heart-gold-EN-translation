@@ -1,0 +1,434 @@
+{
+ "narc": "a027",
+ "bank": 146,
+ "source": "work/extract/v4/a027/0146.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "根据我多年的考古经验,{NEWLINE}大地之神固拉多似乎就沉睡在{CLEAR}月见山的某处！{SCROLL}然而……尼比博物馆的专家们{NEWLINE}却非常反对我的观点。",
+   "en": "Based on my many years of{NEWLINE}archaeological experience, Groudon, the{CLEAR}god of the land, seems to be sleeping{CLEAR}somewhere in Mt. Moon!{SCROLL}But... the experts at the Pewter{NEWLINE}Museum strongly disagree with me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | R001: copied from a027/0047 #53 (identical zh) | R001: Same zh as 0047 #53 (the hack reuses the Embedded Tower Groudon room as a Mt. Moon chamber)."
+  },
+  {
+   "id": 1,
+   "zh": "这位来自芳缘地区的训练家,{NEWLINE}对化石与考古似乎很有心得呢。",
+   "en": "This Trainer from the Hoenn region{NEWLINE}seems to know a lot about fossils and{CLEAR}archaeology.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | R001: copied from a027/0047 #54 (identical zh)"
+  },
+  {
+   "id": 2,
+   "zh": "我以前在阿鲁夫遗迹工作,{NEWLINE}读过很多秀力博士写的{CLEAR}关于传说中精灵的研究资料。{CLEAR}从那些资料里看{CLEAR}传说中的精灵固拉多{CLEAR}跟月见山一定有着密不可分的关系。",
+   "en": "I used to work at the Ruins of Alph, and{NEWLINE}I read a lot of Professor Hale’s{CLEAR}research on legendary Pokémon.{SCROLL}From what those papers say, the{NEWLINE}legendary Pokémon Groudon must be{CLEAR}closely tied to Mt. Moon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | R001: 秀力博士 = Professor Hale (D-term)."
+  },
+  {
+   "id": 3,
+   "zh": "大吾『是那位专门研究{NEWLINE}传说中精灵的权威吗？{CLEAR}如果是他写的研究资料,{CLEAR}那应该是有很高的可信度。",
+   "en": "Steven: The authority on legendary{NEWLINE}Pokémon? If he wrote that research, it{CLEAR}should be very reliable.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | R001: Steven asks about Professor Hale (v3 had it wrong)."
+  },
+  {
+   "id": 4,
+   "zh": "大吾『啊！{VAR:0103:0}！{NEWLINE}你也到月见山来了啊。{CLEAR}嗯……莫非{CLEAR}你也是来研究化石和传说的？",
+   "en": "Steven: Ah! {VAR:0103:0}! So you’ve come to{NEWLINE}Mt. Moon too.{SCROLL}Hmm... Could it be you’re here to study{NEWLINE}fossils and legends as well?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | R001: copied from a027/0047 #57 (identical zh)"
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:0103:0}『啊……不……{NEWLINE}我做不了那么高深的研究……",
+   "en": "{VAR:0103:0}: Oh... No... I couldn’t do{NEWLINE}research that deep...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | R001: copied from a027/0047 #58 (identical zh)"
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0103:0}『呃,我只是路过……{NEWLINE}顺便跟你打个招呼而已……",
+   "en": "{VAR:0103:0}: Uh, I was just passing by... I{NEWLINE}only wanted to say hi...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | R001: copied from a027/0047 #59 (identical zh)"
+  },
+  {
+   "id": 7,
+   "zh": "大吾『那真是太可惜了,{NEWLINE}月见山可是充满了未知的秘密。{CLEAR}我现在要到前面去调查看看,{CLEAR}你有兴趣的话也一起来吧。",
+   "en": "Steven: That’s a pity. Mt. Moon is full{NEWLINE}of unknown secrets.{SCROLL}I’m going on ahead to investigate now.{NEWLINE}If you’re interested, come along.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 8,
+   "zh": "铁哑铃『Be——Duuuuum！",
+   "en": "Beldum: Be-Duuuuum!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl) | R001: copied from a027/0047 #61 (identical zh)"
+  },
+  {
+   "id": 9,
+   "zh": "这好像是古代精灵的化石。",
+   "en": "This looks like the fossil of an ancient{NEWLINE}Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 10,
+   "zh": "干什么！{SCROLL}这是我好不容易找到的化石,{NEWLINE}你不许抢！",
+   "en": "Hey, what are you doing?!{SCROLL}I worked hard to find this fossil.{NEWLINE}You’re not taking it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 11,
+   "zh": "好吧,既然是你比较厉害,{NEWLINE}只要你出得起价钱,{CLEAR}我就可以卖你一点化石！",
+   "en": "Fine, you’re the stronger one. As long{NEWLINE}as you can pay my price, I’ll sell you{CLEAR}some fossils!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | R001: copied from a027/0047 #12 (identical zh)"
+  },
+  {
+   "id": 12,
+   "zh": "嘿嘿,我在月见山{NEWLINE}挖到不少珍惜化石,{CLEAR}一定可以卖个好价钱！",
+   "en": "Heh heh, I dug up plenty of rare fossils{NEWLINE}in Mt. Moon. They’re sure to fetch a{CLEAR}good price!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 13,
+   "zh": "不要想着抢我的化石！{NEWLINE}想要的话就拿钱来！",
+   "en": "Don’t even think about stealing my{NEWLINE}fossils! If you want one, bring money!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | R001: copied from a027/0047 #42 (identical zh)"
+  },
+  {
+   "id": 14,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 15,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 16,
+   "zh": "贝之化石,5000元",
+   "en": "Helix Fossil, $5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | R001: 5000 here (0047 sells fossils at 50000). | menu width fix (follow-up 1): was 'Helix Fossil{NEWLINE}$5000'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 17,
+   "zh": "壳之化石,5000元",
+   "en": "Dome Fossil, $5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | menu width fix (follow-up 1): was 'Dome Fossil{NEWLINE}$5000'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 18,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 19,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 20,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 21,
+   "zh": "一手交钱,一手交货！",
+   "en": "Cash first, then the goods!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | R001: copied from a027/0047 #50 (identical zh)"
+  },
+  {
+   "id": 22,
+   "zh": "可不要乱传我这里有化石啊！",
+   "en": "And don’t go spreading it around that{NEWLINE}I’ve got fossils!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | R001: copied from a027/0047 #51 (identical zh)"
+  },
+  {
+   "id": 23,
+   "zh": "没带够钱就想要化石？{NEWLINE}可别把我当傻子！",
+   "en": "You want fossils without enough money?{NEWLINE}Don’t take me for a fool!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position | R001: copied from a027/0047 #52 (identical zh)"
+  },
+  {
+   "id": 24,
+   "zh": "又是一个男训练家吗？{NEWLINE}那就跟我来场精灵对战吧！",
+   "en": "Another guy Trainer, huh? Then let’s{NEWLINE}have a Pokémon battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | R001: Gender branch: male player (#25 female player)."
+  },
+  {
+   "id": 25,
+   "zh": "你好啊美女,{NEWLINE}如果我能在精灵对战中打败你的话,{CLEAR}你就跟我去月见山广场约会怎么样？",
+   "en": "Hey there, gorgeous. If I beat you in a{NEWLINE}Pokémon battle, how about a date with{CLEAR}me at Mt. Moon Square?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | R001: Gender branch: female player (#24 male player)."
+  },
+  {
+   "id": 26,
+   "zh": "唉,都没有女训练家{NEWLINE}愿意跟我去月见山顶约会,{CLEAR}我真是太惨了。",
+   "en": "Sigh... Not one girl Trainer will date me{NEWLINE}on top of Mt. Moon. My life sucks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 27,
+   "zh": "狗冠军追到这里了吗？",
+   "en": "Has that damn Champion tracked us down{NEWLINE}here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | R001: 狗冠军: insulting 'dog' prefix, rendered 'that damn Champion' (D-0627)."
+  },
+  {
+   "id": 28,
+   "zh": "无论如何都要在这里拖住他,{NEWLINE}咱们上！",
+   "en": "We have to hold him off here, no matter{NEWLINE}what. Let’s get him!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | R001: Gender branch: male player (#29 female)."
+  },
+  {
+   "id": 29,
+   "zh": "无论如何都要在这里拖住她,{NEWLINE}咱们上！",
+   "en": "We have to hold her off here, no matter{NEWLINE}what. Let’s get her!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | R001: Gender branch: female player (#28 male)."
+  },
+  {
+   "id": 30,
+   "zh": "到此为止了吗……",
+   "en": "Is this the end...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0103:0}『赶紧把路让开！",
+   "en": "{VAR:0103:0}: Get out of my way, now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 32,
+   "zh": "赤焰松『来吧,固拉多！{NEWLINE}感应我手中的红色宝珠,{CLEAR}现身吧！",
+   "en": "Maxie: Come, Groudon! Sense the Red{NEWLINE}Orb in my hand, and show yourself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 33,
+   "zh": "固拉多『Grooo——don！",
+   "en": "Groudon: Grooo-don!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "赤焰松『太震撼了！{NEWLINE}光是看着就快让人窒息了！",
+   "en": "Maxie: Incredible! Just looking at it{NEWLINE}takes my breath away!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | R001: v3 TM was misaligned from here to #50; all retranslated."
+  },
+  {
+   "id": 35,
+   "zh": "赤焰松『来吧,用你强大的力量{NEWLINE}为我们火箭队效忠吧！",
+   "en": "Maxie: Come! Lend your mighty power to{NEWLINE}us, Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 36,
+   "zh": "赤焰松『哈哈哈哈！得到了！{NEWLINE}我得到固拉多了！",
+   "en": "Maxie: Hahahaha! I’ve got it! Groudon{NEWLINE}is mine!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 37,
+   "zh": "没关系,召唤固拉多的仪式{NEWLINE}应该马上就能完成了。",
+   "en": "No matter. The ritual to summon Groudon{NEWLINE}should be complete any moment now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0146#37; text not kept) | R001: No speaker label in zh (Maxie, off-screen?)."
+  },
+  {
+   "id": 38,
+   "zh": "{VAR:0103:0}『赤焰松！把固拉多交出来！",
+   "en": "{VAR:0103:0}: Maxie! Hand over Groudon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0146#38; text not kept)"
+  },
+  {
+   "id": 39,
+   "zh": "赤焰松『哈哈哈,交出来？{NEWLINE}等你什么时候能抓住我了,{CLEAR}再说这种话吧！",
+   "en": "Maxie: Hahaha, hand it over? Say that{NEWLINE}once you’re able to catch me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0146#39; text not kept)"
+  },
+  {
+   "id": 40,
+   "zh": "小刚『{VAR:0103:0}！{NEWLINE}火箭队突然撤退了,{CLEAR}是你把赤焰松给打败了吗？",
+   "en": "Brock: {VAR:0103:0}! Team Rocket suddenly{NEWLINE}pulled out. Did you beat Maxie?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 41,
+   "zh": "{VAR:0103:0}『不,我没能来得及{NEWLINE}阻止赤焰松……{CLEAR}他收服固拉多之后逃走了。",
+   "en": "{VAR:0103:0}: No, I didn’t get here in time{NEWLINE}to stop Maxie... He caught Groudon and{CLEAR}got away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost,var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0146#41; text not kept)"
+  },
+  {
+   "id": 42,
+   "zh": "小刚『唉,还是晚了一步吗……",
+   "en": "Brock: Sigh... So we were one step too{NEWLINE}late...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0146#42; text not kept)"
+  },
+  {
+   "id": 43,
+   "zh": "小刚『既然这里已经没有火箭队了,{NEWLINE}那我就先回尼比市吧。{CLEAR}咱们后会有期了,{VAR:0103:0}。",
+   "en": "Brock: Now that Team Rocket’s gone{NEWLINE}from here, I’ll head back to Pewter{CLEAR}City. See you around, {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0103:0}『这次的情报{NEWLINE}都调查得差不多了,{CLEAR}回联盟总部报告一下吧。",
+   "en": "{VAR:0103:0}: I’ve checked out pretty much{NEWLINE}everything here. Time to report back to{CLEAR}League HQ.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | R001: Branch: all intel gathered (#44) vs not yet (#45)."
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0103:0}『还有没调查完的情报,{NEWLINE}去其他地方看看吧。",
+   "en": "{VAR:0103:0}: There’s still intel I haven’t{NEWLINE}checked. Let’s look somewhere else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0146#45; text not kept)"
+  },
+  {
+   "id": 46,
+   "zh": "要尝试用红色宝珠召唤固拉多吗？",
+   "en": "Try summoning Groudon with the Red Orb?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 47,
+   "zh": "固拉多出现了！",
+   "en": "Groudon appeared!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0146#47; text not kept)"
+  },
+  {
+   "id": 48,
+   "zh": "小刚『{VAR:0103:0},这些杂兵交给我,{NEWLINE}你快去抢回红色宝珠。",
+   "en": "Brock: {VAR:0103:0}, leave these grunts to{NEWLINE}me. Hurry and get the Red Orb back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags suspiciously_short,var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0146#48; text not kept)"
+  },
+  {
+   "id": 49,
+   "zh": "隆隆岩『Gooo——lem！",
+   "en": "Golem: Gooo-lem!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | R001: copied from a027/0322 #39 (identical zh)"
+  },
+  {
+   "id": 50,
+   "zh": "雪妖女『Frooo——la！",
+   "en": "Froslass: Frooo-la!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags suspiciously_long; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | R001: copied from a027/0457 #138 (identical zh)"
+  },
+  {
+   "id": 51,
+   "zh": "可恶,这个道馆馆主好强啊,{NEWLINE}我快招架不住了。",
+   "en": "Damn it, this Gym Leader is way too{NEWLINE}strong. I can’t hold out much longer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: Grunt fighting Brock (Gym Leader)."
+  },
+  {
+   "id": 52,
+   "zh": "固拉多『Grooo——don！{SCROLL}固拉多身披熔岩冲了过来！",
+   "en": "Groudon: Grooo-don!{SCROLL}Groudon charged, cloaked in lava!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

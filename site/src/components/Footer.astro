@@ -1,0 +1,22 @@
+---
+// Starlight's footer plus "report a problem" and "edit the source" links for every page.
+import Default from '@astrojs/starlight/components/Footer.astro';
+import { REPO_URL } from '../../site.config.mjs';
+const route = Astro.locals.starlightRoute;
+const source = (route.entry?.data as { source?: string })?.source;
+const page = Astro.url.pathname;
+const issue = `${REPO_URL}/issues/new?template=guide-problem.yml&page=${encodeURIComponent(page)}&title=${encodeURIComponent('[' + route.entry?.data?.title + '] ')}`;
+const edit = source ? `${REPO_URL}/edit/main/${source}` : undefined;
+---
+<div class="page-help">
+	<a href={issue} rel="noopener">Report a problem with this page</a>
+	{edit && <a href={edit} rel="noopener">Suggest an edit</a>}
+	<a href={`${REPO_URL}/issues/new?template=screenshot.yml&page=${encodeURIComponent(page)}`} rel="noopener">Send a screenshot</a>
+</div>
+<Default {...Astro.props}><slot /></Default>
+<p class="disclaimer">
+	A free, non-commercial fan project. Not affiliated with or endorsed by Nintendo, Creatures Inc., GAME FREAK inc. or The Pokémon Company.
+</p>
+<style>
+	.disclaimer { font-size: var(--sl-text-xs); color: var(--sl-color-gray-3); margin-top: 1.5rem; }
+</style>

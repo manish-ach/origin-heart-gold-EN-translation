@@ -1,0 +1,287 @@
+{
+ "narc": "a027",
+ "bank": 27,
+ "source": "work/extract/v4/a027/0027.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "战斗房间成绩",
+   "en": "Battle Room Results",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "多人战斗房间成绩",
+   "en": "Multi Battle Room Results",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "ＷｉーＦｉ战斗房间成绩",
+   "en": "Wi-Fi Battle Room Results",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0028/2"
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:FF00:1}单人战{VAR:FF00:3}的{VAR:FF00:2}{NEWLINE}{VAR:FF00:1}记录{VAR:FF00:0}",
+   "en": "{VAR:FF00:1}Single{VAR:FF00:3} {VAR:FF00:2}{NEWLINE}{VAR:FF00:1}Record{VAR:FF00:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:FF00:1}多人战{VAR:FF00:3}的{VAR:FF00:0}{NEWLINE}{VAR:FF00:1}记录{VAR:FF00:0}",
+   "en": "{VAR:FF00:1}Multi{VAR:FF00:3} {VAR:FF00:0}{NEWLINE}{VAR:FF00:1}Record{VAR:FF00:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:FF00:1}现在{VAR:FF00:3}的{VAR:FF00:0}{NEWLINE}{VAR:FF00:1}排名{VAR:FF00:0}",
+   "en": "{VAR:FF00:1}Current{VAR:FF00:3} {VAR:FF00:0}{NEWLINE}{VAR:FF00:1}Rank{VAR:FF00:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0028/5"
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:FF00:1}双人战{VAR:FF00:3}的{VAR:FF00:0}{NEWLINE}{VAR:FF00:1}记录{VAR:FF00:0}",
+   "en": "{VAR:FF00:1}Double{VAR:FF00:3} {VAR:FF00:0}{NEWLINE}{VAR:FF00:1}Record{VAR:FF00:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:FF00:1}通信{VAR:FF00:3}的{VAR:FF00:0}{NEWLINE}{VAR:FF00:1}记录{VAR:FF00:0}",
+   "en": "{VAR:FF00:1}Link{VAR:FF00:3} {VAR:FF00:0}{NEWLINE}{VAR:FF00:1}Record{VAR:FF00:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:FF00:1}ＷｉーＦｉ{VAR:FF00:3}的{VAR:FF00:0}{NEWLINE}{VAR:FF00:1}记录{VAR:FF00:0}",
+   "en": "{VAR:FF00:1}Wi-Fi{VAR:FF00:3} {VAR:FF00:0}{NEWLINE}{VAR:FF00:1}Record{VAR:FF00:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0028/8 | seed rejected us [tag_mismatch] (candidate US 0028#8; text not kept)"
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:FF00:1}上次{VAR:FF00:0}",
+   "en": "{VAR:FF00:1}PREV{VAR:FF00:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0028/9"
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:FF00:1}现在{VAR:FF00:0}",
+   "en": "{VAR:FF00:1}CURRENT{VAR:FF00:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:FF00:1}最好{VAR:FF00:0}",
+   "en": "{VAR:FF00:1}BEST{VAR:FF00:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0028/11 | 最好 = BEST (as 0018, D-1142); US had RECORD."
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:FF00:1}排名{VAR:FF00:0}",
+   "en": "{VAR:FF00:1}RANK{VAR:FF00:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0028/12"
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:FF00:2}{VAR:0135:0}{VAR:FF00:0}连胜",
+   "en": "{VAR:FF00:2}{VAR:0135:0}{VAR:FF00:0} straight wins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0133:0}",
+   "en": "{VAR:0133:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0135:0}",
+   "en": "{VAR:0135:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "连胜",
+   "en": "Streak",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "排名{VAR:0133:0}",
+   "en": "Rank {VAR:0133:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0028/17"
+  },
+  {
+   "id": 18,
+   "zh": "战斗房间{VAR:0134:1}",
+   "en": "Battle Room {VAR:0134:1}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0028/18"
+  },
+  {
+   "id": 19,
+   "zh": "历代首领一览",
+   "en": "LIST OF LEADERS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0028/19"
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0132:0}",
+   "en": "{VAR:0132:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "／",
+   "en": "/",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:FF00:3}{VAR:0103:0}{VAR:FF00:0}的情报",
+   "en": "{VAR:FF00:3}{VAR:0103:0}{VAR:FF00:0}’s Info",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0028/22"
+  },
+  {
+   "id": 23,
+   "zh": "{VAR:FF00:1}{VAR:0103:0}{VAR:FF00:0}的情报",
+   "en": "{VAR:FF00:1}{VAR:0103:0}{VAR:FF00:0}’s Info",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0028/23"
+  },
+  {
+   "id": 24,
+   "zh": "返回",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0028/24"
+  },
+  {
+   "id": 25,
+   "zh": "{VAR:0124:0}{NEWLINE}{VAR:0125:1}",
+   "en": "{VAR:0124:0}{NEWLINE}{VAR:0125:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0124:0}",
+   "en": "{VAR:0124:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "居住地未登录",
+   "en": "Location unregistered",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "居住地",
+   "en": "Home Country",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0124:0}",
+   "en": "{VAR:0124:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0125:0}",
+   "en": "{VAR:0125:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "未登录",
+   "en": "Unregistered",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "成为了第一名的心情",
+   "en": "Feeling of being number one",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0028/32"
+  },
+  {
+   "id": 33,
+   "zh": "心灵",
+   "en": "Heart",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0028/33"
+  },
+  {
+   "id": 34,
+   "zh": "灵魂",
+   "en": "Soul",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0028/34"
+  }
+ ]
+}

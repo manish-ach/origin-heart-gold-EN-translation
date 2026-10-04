@@ -1,0 +1,260 @@
+"""Curated overrides for build_glossary.py.
+
+Value formats (per category dict):
+    "English"                      -> confidence high; official id looked up by English name
+    ("English", "medium"|"low")    -> explicit confidence
+    ("English", conf, "note")      -> with reasoning (shown in unmatched.md / JSON "note")
+    "=官方中文"                    -> alias of an official zh-Hans name (id + English taken from PokéAPI)
+Custom hack content (no official equivalent) gets a proposed English name, id=null.
+"""
+
+# ----------------------------------------------------------------------------- species
+SPECIES = {
+    # regional / mega / special forms listed as separate rows by the hack
+    "冰六尾": ("Alolan Vulpix", "high", "Alolan form (Ice); shares dex #37 with 六尾 in the hack"),
+    "冰九尾": ("Alolan Ninetales", "high", "Alolan form (Ice/Fairy); shares dex #38"),
+    "喷火龙X": ("Mega Charizard X", "high", "short form of 超级喷火龙X"),
+    "超级喷火龙X": ("Mega Charizard X", "high", "Mega Evolution"),
+    "超级喷火龙Y": ("Mega Charizard Y", "high", "Mega Evolution"),
+    "洛托姆0": ("Rotom", "high", "Gen 4 form index 0 = normal"),
+    "洛托姆1": ("Heat Rotom", "high", "Gen 4 form index 1"),
+    "洛托姆2": ("Wash Rotom", "high", "Gen 4 form index 2"),
+    "洛托姆3": ("Frost Rotom", "high", "Gen 4 form index 3"),
+    "洛托姆4": ("Fan Rotom", "high", "Gen 4 form index 4"),
+    "洛托姆5": ("Mow Rotom", "high", "Gen 4 form index 5"),
+    "惩戒胡帕": ("Hoopa Confined", "high", "official form name Hoopa Confined (惩戒之胡帕)"),
+    "解放胡帕": ("Hoopa Unbound", "high", "official form name Hoopa Unbound (解放之胡帕)"),
+    "幽尾玄鱼♀": ("Basculegion (F)", "high", "female form"),
+    "幽尾玄鱼♂": ("Basculegion (M)", "high", "male form"),
+    "谜拟Ｑ": "Mimikyu",
+    "仙子精灵": ("Sylveon", "high", "old fan name; official 仙子伊布. Hack dex #642, Fairy, evolves by Fairy move + friendship"),
+    "铠甲超梦": ("Armored Mewtwo", "medium", "Pokémon GO/movie form; English name from GO. Custom in this hack (Psychic/Steel, hold 钢铁铠甲)"),
+    "水晶大岩蛇": ("Crystal Onix", "medium", "anime-only 'Crystal Onix'; custom Rock/Ice species in the hack"),
+}
+
+FORM_LABELS = {
+    "形态1": "Form 1", "形态2": "Form 2", "形态3": "Form 3", "形态0": "Form 0",
+    "1陆地": "Land Forme", "2天空": "Sky Forme", "陆地": "Land Forme", "天空": "Sky Forme",
+    "歌声形态": "Aria Forme", "舞步形态": "Pirouette Forme", "永恒之花": "Eternal Flower",
+    "黄昏": "Dusk Form", "普通": "Normal Forme", "攻击": "Attack Forme", "防御": "Defense Forme",
+    "速度": "Speed Forme", "草木": "Plant Cloak", "沙土": "Sandy Cloak", "垃圾": "Trash Cloak",
+    "阴天形态": "Overcast Form", "晴天形态": "Sunshine Form", "起源": "Origin Forme", "别种": "Altered Forme",
+}
+
+# Full-string form overrides from the encounter sheet: 形态1 = regional variant for these species
+FORM_NAMES = {
+    "六尾（形态1）": "Alolan Vulpix", "穿山鼠（形态1）": "Alolan Sandshrew", "小拳石（形态1）": "Alolan Geodude",
+    "隆隆石（形态1）": "Alolan Graveler", "蛇纹熊（形态1）": "Galarian Zigzagoon",
+    "火红不倒翁（形态1）": "Galarian Darumaka", "狃拉（形态1）": "Hisuian Sneasel", "千针鱼（形态1）": "Hisuian Qwilfish",
+    "大狼犬（形态1）": ("Mightyena (Form 1)", "low", "no official alternate form; hack-specific variant"),
+}
+
+# ----------------------------------------------------------------------------- moves
+MOVES = {
+    "火焰车": ("Flame Wheel", "high", "old 汉化 name (official 火焰轮)"),
+    "空气之刃": ("Air Slash", "medium", "old name; listed with Sharpness (锋锐) moves next to 空气利刃=Air Cutter"),
+    "秘剑千重涛": "=秘剑・千重涛",
+    "嘻闹": ("Play Rough", "high", "hack repurposed Gen 4 slot #175 (Flail) as Fairy 90 BP physical; official 嬉闹"),
+    "绑紧": ("Bind", "high", "v4.0.3 uses the official name: 0739 #20 = 绑紧 (Bind), #378 = 绞紧 (Wring Out). Only the old v3 sheet used 绑紧 for Wring Out."),
+    "绞紧": ("Wring Out", "high", "v4.0.3 move #378"),
+    "暴风": ("Hurricane", "high", "v4 move slot 542 = official Hurricane; description matches (strong wind, may confuse). Aeroblast is 气旋攻击 (#177). Confirmed by translator from bank 0739/0738."),
+    "返拳": ("Counter", "medium", "v3 slot #68 (Counter); taught at Saffron Dojo tutor"),
+}
+
+# ----------------------------------------------------------------------------- abilities
+ABILITIES = {
+    "无防御": ("No Guard", "high", "old name (official 无防守)"),
+    "碎裂盔甲": ("Weak Armor", "high", "official 碎裂铠甲"),
+    "神秘鳞片": ("Marvel Scale", "high", "official 神奇鳞片"),
+    "变幻自在": ("Protean", "high", "official 变幻自如"),
+    "变身": ("Imposter", "high", "v3 #129 '同原版'; official 变身者"),
+    "毛绒绒": ("Fluffy", "high", "v3 #218 '同原版'; official 毛茸茸"),
+    "千鸟足": ("Tangled Feet", "high", "Gen 4 ability #77; official 蹒跚"),
+    "不用道具": ("Klutz", "high", "Gen 4 ability #103; official 笨拙"),
+    # --- custom hack abilities (no official equivalent) — proposed names ≤12 chars
+    "火焰鬃毛": ("Flame Mane", "low", "custom: Fire moves +50% (Arcanine, Ponyta line)"),
+    "集中力": ("Concentrate", "low", "custom: accuracy +30%"),
+    "神秘舞蹈": ("Mystic Dance", "low", "custom: accuracy +30% (Jynx, Bellossom, Swanna)"),
+    "燃烧皮肤": ("Burning Skin", "low", "custom -ate ability: Normal->Fire +20% (cf. Aerilate=飞行皮肤)"),
+    "青草皮肤": ("Grass Skin", "low", "custom -ate ability: Normal->Grass +20%"),
+    "蔚蓝皮肤": ("Azure Skin", "low", "custom -ate ability: Normal->Water +20%"),
+    "黑暗皮肤": ("Dark Skin", "low", "custom -ate ability: Normal->Dark +20%"),
+    "坚硬皮肤": ("Hard Skin", "low", "custom -ate ability: Normal->Rock +20%"),
+    "剧毒皮肤": ("Toxic Skin", "low", "custom -ate ability: Normal->Poison +20%"),
+    "意念皮肤": ("Psyche Skin", "low", "custom -ate ability: Normal->Psychic +20%"),
+    "诅咒皮肤": ("Cursed Skin", "low", "custom -ate ability: Normal->Ghost +20%"),
+    "昆虫皮肤": ("Insect Skin", "low", "custom -ate ability: Normal->Bug +20%"),
+    "惊焰": ("Blazing Awe", "low", "custom (Typhlosion): Intimidate + draws Fire moves + SpA +1"),
+    "雷鸣": ("Thunder Roar", "low", "custom (Raikou): sets Electric Terrain, blocks priority"),
+    "霹雳火": ("Wildfire", "low", "custom (Entei): sets sun, chip damage to non-Fire"),
+    "光幕": ("Aurora Shine", "low", "custom (Suicune): sets Aurora Veil on entry"),
+    "月光守护": ("Moon Guard", "low", "custom (Cresselia)"),
+    "沙漠之鹰": ("Desert Hawk", "low", "custom (Lycanroc Dusk): sand -> Speed x2, Atk +30%"),
+    "超级硬爪": ("Mega Claws", "low", "custom (Mega Charizard X): Atk +30%, can't be lowered"),
+    "忍者羁绊": ("Ninja Bond", "low", "custom (hack Greninja): immune to status moves; not official Battle Bond (牵绊变身)"),
+    "吐息": ("Breath", "low", "custom: special moves +30%"),
+    "超级吸收": ("Super Absorb", "low", "custom: draining moves heal 100%"),
+    "冰之息": ("Icy Breath", "low", "custom: in hail/snow, self+ally Def & SpA +50%"),
+    "冰之气息": ("Icy Breath", "low", "variant spelling of 冰之息"),
+    "时光飞逝": ("Time Flies", "low", "custom: sets Tailwind on entry"),
+    "能量爆发": ("Power Burst", "low", "custom: SpA x2"),
+    "永恒之雨": ("Endless Rain", "low", "custom: permanent rain on entry"),
+    "干旱大地": ("Parched Land", "low", "custom: permanent sun on entry"),
+    "空间颠倒": ("Space Warp", "low", "custom: sets/reverts Trick Room on entry"),
+    "美梦": ("Sweet Dreams", "low", "custom: heals self/ally while asleep"),
+}
+
+# ----------------------------------------------------------------------------- items
+ITEMS = {
+    "自行车": ("Bicycle", "high", "Gen 4 name (PokéAPI zh-Hans 自行车 resolves to a later 'Bike' item)"),
+    "喷火龙进化石": ("Charizardite", "medium", "custom Mega Stone in slot #302 (Reaper Cloth); X/Y not specified"),
+    "技能机盒": ("TM Case", "medium", "custom key item in slot #418 (Red Chain); FRLG name 'TM Case'"),
+    "西鲁夫透视镜": ("Silph Scope", "high", "Kanto key item (official 西尔佛检视镜) in slot #425"),
+    "替身玩偶": ("Substitute Doll", "low", "custom key item in slot #428 (Suite Key); maybe a Poké Doll-like item"),
+    "自行车兑换券": ("Bike Voucher", "high", "FRLG key item, placed in slot #473 (Slowpoke Tail)"),
+    "圣安努号船票": ("S.S. Ticket", "high", "S.S. Anne ticket; slot #477 (Red Scale)"),
+    "邮寄包裹": ("Oak's Parcel", "low", "custom key item in slot #483 (Mystery Egg); literally 'mailed parcel'"),
+    "神秘石头": ("Mystery Stone", "low", "custom key item in slot #466 (Rage Candy Bar)"),
+    "收音机卡": "Radio Card",
+    "岩石胶囊（改名包裹盒子）": ("Parcel Box", "low", "slot #513 Lock Capsule renamed in hack to 包裹盒子"),
+    "宝物袋（改为抗老喷雾）": ("Anti-Age Spray", "low", "slot of Treasure Bag repurposed as custom 抗老喷雾"),
+    "规则之书（改为定情戒指）": ("Promise Ring", "low", "slot of Rule Book repurposed as custom 定情戒指 (engagement ring)"),
+    "银河团钥匙（改为徽章袋子）": ("Badge Case", "low", "slot of Galactic Key repurposed as custom 徽章袋子"),
+    "大木博士的信（已改名警卫的信）": ("Guard's Letter", "low", "slot of Oak's Letter renamed 警卫的信"),
+    "会员卡（预计改名金丝银线）": ("Gold Thread", "low", "Member Card slot planned to become custom 金丝银线 (gold & silver thread)"),
+    "痊愈药(治愈之力）": ("Full Restore", "medium", "Gen 4 slot #23 Full Restore; 治愈之力 note unclear"),
+}
+
+# ----------------------------------------------------------------------------- types
+TYPES = {
+    "飞": ("Flying", "high", "1-char abbreviation of 飞行"),
+    "普": ("Normal", "high", "1-char abbreviation of 普通/一般"),
+    "超": ("Psychic", "high", "1-char abbreviation of 超能力"),
+    "地": ("Ground", "high", "1-char abbreviation of 地面"),
+    "妖": ("Fairy", "high", "1-char abbreviation of 妖精"),
+    "斗": ("Fighting", "high", "1-char abbreviation of 格斗"),
+    "岩": ("Rock", "high", "1-char abbreviation of 岩石"),
+    "鬼": ("Ghost", "high", "1-char abbreviation of 幽灵"),
+    "普通": "Normal", "超能": "Psychic", "格斗系": "Fighting",
+}
+
+NATURES = {}
+
+# ----------------------------------------------------------------------------- locations
+# PokéAPI has zh-Hans location names only for Alola/Galar/Hisui etc., so Johto/Kanto are manual.
+LOCATIONS = {
+    # Johto towns
+    "若叶镇": "New Bark Town", "吉野市": "Cherrygrove City", "桔梗市": "Violet City",
+    "桧皮镇": "Azalea Town", "绘皮镇": ("Azalea Town", "high", "typo of 桧皮镇 in the sheet"),
+    "满金市": "Goldenrod City", "圆朱市": "Ecruteak City",
+    "缘朱市": ("Ecruteak City", "high", "variant of 圆朱市"), "缘珠市": ("Ecruteak City", "high", "variant of 圆朱市"),
+    "浅葱市": "Olivine City", "湛蓝市": "Cianwood City", "卡吉镇": "Mahogany Town", "烟墨市": "Blackthorn City",
+    # Kanto towns
+    "真新镇": "Pallet Town", "常磐市": "Viridian City", "尼比市": "Pewter City", "华蓝市": "Cerulean City",
+    "枯叶市": "Vermilion City", "紫苑镇": "Lavender Town", "玉虹市": "Celadon City",
+    "彩虹市": ("Celadon City", "high", "old 汉化 name for 玉虹市"), "金黄市": "Saffron City",
+    "黄金市": ("Saffron City", "medium", "variant of 金黄市 (TM97 shop); not Goldenrod (满金市)"),
+    "浅红市": "Fuchsia City", "红莲岛": "Cinnabar Island", "石英高原": "Indigo Plateau",
+    # dungeons / landmarks
+    "烧焦塔": "Burned Tower", "铃铛塔": "Bell Tower", "喇叭芽之塔": "Sprout Tower", "阿鲁夫遗迹": "Ruins of Alph",
+    "连接洞穴": "Union Cave", "呆呆兽之井": "Slowpoke Well", "桐树林": "Ilex Forest", "自然公园": "National Park",
+    "漩涡岛": "Whirl Islands", "研钵山": "Mt. Mortar", "愤怒湖": "Lake of Rage", "冰之通路": "Ice Path",
+    "龙之穴": "Dragon's Den", "黑暗洞穴": "Dark Cave", "冠军之路": "Victory Road", "白银山": "Mt. Silver",
+    "白银山洞": ("Mt. Silver Cave", "high", "interior of 白银山"), "东城瀑布": "Tohjo Falls",
+    "东城洞穴": ("Tohjo Falls", "medium", "encounter map #126 (Zubat/Goldeen/Slowpoke) = Tohjo Falls cave"),
+    "地鼠洞穴": "Diglett's Cave", "月见山": "Mt. Moon", "岩山隧道": "Rock Tunnel", "无人发电所": "Power Plant",
+    "华蓝洞穴": "Cerulean Cave", "双子岛": "Seafoam Islands", "常磐森林": "Viridian Forest",
+    "狩猎场": ("Safari Zone", "high", "HGSS Safari Zone (Johto)"), "狩猎场入口": "Safari Zone Gate",
+    "五之岛": ("Five Island", "medium", "Sevii Island (FRLG) added by the hack"),
+    "1之岛": ("One Island", "medium", "Sevii Island"), "六之岛": ("Six Island", "medium", "Sevii Island"),
+    "湛蓝洞穴": ("Cliff Cave", "medium", "encounter map #279, Cianwood-side cave (湛蓝 = Cianwood); water-only table"),
+    "海岛洞穴": ("Island Cave", "low", "custom/unclear map #217 near Ecruteak (Burned-Tower-like table)"),
+    "海岛森林": ("Island Forest", "low", "custom map #492 added by the hack"),
+    "水都海域": ("Alto Mare Waters", "low", "custom sea map #108; 水都 = Alto Mare (movie)"),
+    "桧皮道馆": "Azalea Gym", "浅红森林": ("Fuchsia Forest", "low", "custom area mentioned in species notes"),
+}
+
+# ----------------------------------------------------------------------------- general UI / game terms
+GENERAL = {
+    "精灵": ("Pokémon", "old 汉化 term (official 宝可梦)"), "宝可梦": "Pokémon", "口袋妖怪": ("Pokémon", "old term"),
+    "图鉴": "Pokédex", "图鉴编号": "Dex No.", "4.0图鉴编号": ("Dex No. (v4.0)", "hack-internal numbering, #1-493 = national"),
+    "名称": "Name", "属性": "Type", "特性": "Ability", "特性1": "Ability 1", "特性2": "Ability 2",
+    "梦特性": ("Hidden Ability", "lit. 'dream ability' (Dream World)"), "隐藏特性": "Hidden Ability",
+    "招式": "Move", "技能": ("Move", "old term for 招式"), "技能机": ("TM", "old term for 招式学习器"),
+    "秘传机": ("HM", "old term for 秘传学习器"), "招式学习器": "TM", "秘传学习器": "HM", "技能机盒": "TM Case",
+    "招式教学": "Move Tutor", "教学": "Tutor", "物理": "Physical", "特殊": "Special", "变化": "Status",
+    "类型": ("Category", "move damage category (物理/特殊/变化)"), "威力": "Power", "命中": "Accuracy", "PP": "PP",
+    "描述": "Description", "范围": ("Target", "move range column"), "单": ("Single", "single target"),
+    "全": ("All", "hits all"), "体力": "HP", "攻击": "Attack", "防御": "Defense", "特攻": "Sp. Atk",
+    "特防": "Sp. Def", "速度": "Speed", "总和": ("Total", "base stat total"), "种族值": "Base Stats",
+    "进化": "Evolution", "性格": "Nature", "个体值": "IVs", "努力值": "EVs", "等级": "Level", "经验值": "Exp. Points",
+    "亲密度": "Friendship", "携带": ("Hold", "hold item"), "道具": "Item", "树果": "Berry", "果": ("Berry", "suffix"),
+    "进化石": "Evolution Stone", "徽章": "Badge", "道馆": "Gym", "道馆馆主": "Gym Leader", "四天王": "Elite Four",
+    "冠军": "Champion", "训练家": "Trainer", "对战": "Battle", "野生": "Wild", "遭遇": "Encounter",
+    "精灵中心": "Pokémon Center", "宝可梦中心": "Pokémon Center", "商店": "Poké Mart", "友好商店": "Poké Mart",
+    "百货": "Department Store", "电脑": "PC", "盒子": "Box", "背包": "Bag", "元": ("Pokédollars (¥/₽)", "currency"),
+    "早晨": "Morning", "白天": "Day", "夜晚": "Night", "地面": ("Walking / Grass", "encounter method (not the type here)"),
+    "收音机替换": ("Radio (Hoenn/Sinnoh Sound)", "PokéGear radio encounter swap"), "冲浪": "Surfing",
+    "碎岩": "Rock Smash", "破旧钓竿": "Old Rod", "好钓竿": "Good Rod", "厉害钓竿": "Super Rod",
+    "特殊遭遇": "Special Encounters", "大量出现": "Swarm", "特殊水面": ("Special Surfing", "hack encounter slot"),
+    "夜间钓鱼": "Night Fishing", "特殊钓鱼": ("Special Fishing", "hack encounter slot"), "形态": "Form",
+    "地图": "Map", "道路": "Route", "水路": ("Route (sea)", "water route"), "号道路": ("Route N", "N号道路 -> Route N"),
+    "雌性": "Female", "雄性": "Male", "闪光": "Shiny", "异色": "Shiny", "天气": "Weather", "晴天": "Harsh sunlight",
+    "大晴天": "Sunny Day", "雨天": "Rain", "沙暴": "Sandstorm", "冰雹": "Hail", "下雪": "Snow", "场地": "Terrain",
+    "畏缩": "Flinch", "麻痹": "Paralysis", "烧伤": "Burn", "冰冻": "Freeze", "中毒": "Poison", "剧毒": "Bad poison",
+    "睡眠": "Sleep", "混乱": "Confusion", "异常状态": "Status condition", "击中要害": "Critical hit",
+    "会心一击": "Critical hit", "先制": "Priority", "威吓": "Intimidate", "效果变动": "Effect change",
+    "与八代相比": "vs. Gen 8", "与四代相比": "vs. Gen 4", "同原版": "Same as original", "本作新增": "New in this hack",
+    "新增": "New", "更改": "Changed", "增加": "Added", "稀有程度": "Rarity", "售价": "Price",
+    "获得方式": "How to obtain", "消耗方式": "How consumed", "位置": "Location", "变更情况": "Changes",
+    "起源心金": ("Pokémon Origin HeartGold", "hack title"), "心金": "HeartGold", "魂银": "SoulSilver",
+    "城都": "Johto", "关都": "Kanto", "丰缘": "Hoenn", "神奥": "Sinnoh", "合众": "Unova", "卡洛斯": "Kalos",
+    "阿罗拉": "Alola", "伽勒尔": "Galar", "帕底亚": "Paldea",
+}
+
+# Reasoning notes attached to specific terms in unmatched.md (optional)
+NOTES = {}
+
+# Proposed abbreviations for official names exceeding DS limits.
+# Priority: the actual Gen 4/5 in-game spelling (ThunderPunch, Parlyz Heal, ...) > Gen 7 truncation > proposal.
+ABBREV = {
+    # species (limit 10) — form names are not shown as species names in-game, so the base name is used
+    "Alolan Vulpix": "Vulpix", "Alolan Ninetales": "Ninetales", "Alolan Geodude": "Geodude",
+    "Alolan Graveler": "Graveler", "Alolan Sandshrew": "Sandshrew", "Galarian Zigzagoon": "Zigzagoon",
+    "Galarian Darumaka": "Darumaka", "Hisuian Sneasel": "Sneasel", "Hisuian Qwilfish": "Qwilfish",
+    "Frost Rotom": "Rotom", "Heat Rotom": "Rotom", "Hoopa Confined": "Hoopa", "Hoopa Unbound": "Hoopa",
+    "Mega Charizard X": "Charizard", "Mega Charizard Y": "Charizard", "Armored Mewtwo": "ArmrMewtwo",
+    "Crystal Onix": "CrystlOnix", "Fletchinder": "Fletchindr", "Crabominable": "Crabminabl (Gen 7 spelling)",
+    "Barraskewda": "Barrskewda", "Centiskorch": "Centskorch", "Brambleghast": "Bramblghst",
+    "Dudunsparce": "Dudunsprce", "Poltchageist": "Pltchgeist", "Basculegion": "Bsculegion",
+    "Basculegion (F)": "Bsculegion", "Basculegion (M)": "Bsculegion",
+    # moves (limit 12)
+    "Thunder Punch": "ThunderPunch", "Ancient Power": "AncientPower", "Dragon Breath": "DragonBreath",
+    "Feather Dance": "FeatherDance", "Grass Whistle": "GrassWhistle", "Self-Destruct": "Selfdestruct",
+    "High Jump Kick": "Hi Jump Kick", "Thunder Shock": "ThunderShock", "Poison Powder": "PoisonPowder",
+    "Extreme Speed": "ExtremeSpeed", "Dynamic Punch": "DynamicPunch", "Smelling Salts": "SmellingSalt",
+    "Draining Kiss": "DrainingKiss", "Dazzling Gleam": "DazzlngGleam", "Psychic Fangs": "PsychicFangs",
+    "Ceaseless Edge": "CeaselesEdge", "Grassy Terrain": "GrassTerrain", "Misty Terrain": "MistyTerrain",
+    "Mystical Fire": "MysticalFire", "Eerie Impulse": "EerieImpulse", "Electric Terrain": "ElecTerrain",
+    "Baby-Doll Eyes": "BabyDollEyes", "High Horsepower": "HighHorsepwr", "Psychic Terrain": "PsychTerrain",
+    "Expanding Force": "ExpandForce", "Dual Wingbeat": "DualWingbeat", "Scorching Sands": "ScorchSands",
+    "Terrain Pulse": "TerrainPulse", "Kowtow Cleave": "KowtowCleave", "Power-Up Punch": "PowerUpPunch",
+    "Parabolic Charge": "ParabolcChrg",
+    # abilities (limit 12)
+    "Compound Eyes": "Compoundeyes", "Lightning Rod": "Lightningrod", "Mega Launcher": "MegaLauncher",
+    "Electric Surge": "Elec. Surge", "Psychic Surge": "PsychicSurge", "Rocky Payload": "RockyPayload",
+    "Neutralizing Gas": "Neutral. Gas", "Parental Bond": "ParentalBond", "Steely Spirit": "SteelySpirit",
+    "Primordial Sea": "PrimrdialSea", "Desolate Land": "DesolateLand", "Queenly Majesty": "QueenlyMjsty",
+    "Gorilla Tactics": "GorillaTctcs", "Stance Change": "StanceChange", "Emergency Exit": "EmergncyExit",
+    "Water Compaction": "WaterCompact", "Propeller Tail": "PropellrTail", "Thermal Exchange": "ThermalExchg",
+    # items (limit 12)
+    "Paralyze Heal": "Parlyz Heal", "Energy Powder": "EnergyPowder", "Thunder Stone": "Thunderstone",
+    "Tiny Mushroom": "TinyMushroom", "Bright Powder": "BrightPowder", "Silver Powder": "SilverPowder",
+    "Deep Sea Tooth": "DeepSeaTooth", "Deep Sea Scale": "DeepSeaScale", "Black Glasses": "BlackGlasses",
+    "Never-Melt Ice": "NeverMeltIce", "Twisted Spoon": "TwistedSpoon", "Secret Potion": "SecretPotion",
+    "Dowsing Machine": "Dowsing MCHN", "Squirt Bottle": "SquirtBottle", "Yellow Apricorn": "Ylw Apricorn",
+    "Blue Apricorn": "Blu Apricorn", "Green Apricorn": "Grn Apricorn", "Pink Apricorn": "Pnk Apricorn",
+    "White Apricorn": "Wht Apricorn", "Black Apricorn": "Blk Apricorn", "Weakness Policy": "Weak. Policy",
+    "Anti-Age Spray": "AntiAgeSpray", "Substitute Doll": "Sub. Doll", "Guard's Letter": "Guard Letter",
+    "Mystery Stone": "MysteryStone",
+}

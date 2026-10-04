@@ -1,0 +1,138 @@
+{
+ "narc": "a027",
+ "bank": 426,
+ "source": "work/extract/v4/a027/0426.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "欢迎光临！{SCROLL}这里使用{VAR:0132:0}ＢＰ可以购买{NEWLINE}３张刮奖卡哦！{SCROLL}",
+   "en": "Welcome!{SCROLL}Would you like some Scratch-Off Cards?{NEWLINE}They’re three for {VAR:0132:0} BP.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0433/0"
+  },
+  {
+   "id": 1,
+   "zh": "购买吗？",
+   "en": "Would you like to buy some?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "刮卡",
+   "en": "SCRATCH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0433/2",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 3,
+   "zh": "听说明",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0433/3",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 4,
+   "zh": "返回",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0433/4",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 5,
+   "zh": "欢迎下次再来！",
+   "en": "We look forward to your next visit.",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 6,
+   "zh": "使用{VAR:0132:0}ＢＰ{NEWLINE}可以购买３张刮奖卡。{SCROLL}在卡片隐藏着精灵的标记哦。{SCROLL}刮开３次后{NEWLINE}如果发现３个同样的标记,{CLEAR}就可以得到树果和奖品哦！{SCROLL}",
+   "en": "You may buy three Scratch-Off Cards{NEWLINE}for {VAR:0132:0} BP.{SCROLL}Hidden on each Scratch-Off Card are{NEWLINE}icons of Pokémon.{SCROLL}You may scratch the film off a card{NEWLINE}three times.{SCROLL}If the same icon appears three times,{NEWLINE}you will win a prize, like a Berry!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0433/6"
+  },
+  {
+   "id": 7,
+   "zh": "刮奖卡转为{VAR:0132:2}ＢＰ,{NEWLINE}可以吗？",
+   "en": "Trade in the Scratch-Off{NEWLINE}Cards for {VAR:0132:2} BP. Is that OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 9,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 10,
+   "zh": "那么请选择３张{NEWLINE}刮奖卡！{SCROLL}",
+   "en": "OK, please select three{NEWLINE}Scratch-Off Cards.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0433/10"
+  },
+  {
+   "id": 11,
+   "zh": "恭喜了！{SCROLL}刮奖卡{NEWLINE}中了{VAR:0132:0}张！{SCROLL}",
+   "en": "Congratulations!{SCROLL}You won on {VAR:0132:0} Scratch-Off Card(s)!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0433/11"
+  },
+  {
+   "id": 12,
+   "zh": "真遗憾！已经不能再持有更多的{NEWLINE}{VAR:0108:0}了！{SCROLL}",
+   "en": "Too bad! There is no more room for{NEWLINE}the {VAR:0108:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0433/12"
+  },
+  {
+   "id": 13,
+   "zh": "接收了{VAR:0108:0}{VAR:0132:1}个！{SCROLL}",
+   "en": "You received {VAR:0132:1} {VAR:0108:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "ＢＰ不足,{NEWLINE}请下次再来！",
+   "en": "I’m sorry, but you don’t have enough{NEWLINE}BP. Please come again.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0433/14"
+  },
+  {
+   "id": 15,
+   "zh": "欢迎光临！{SCROLL}这里使用{VAR:0132:0}ＢＰ{NEWLINE}可以购买３张刮奖卡哦！{SCROLL}在卡片隐藏着精灵的标记哦。{SCROLL}刮开３次后{NEWLINE}如果发现３个同样标记,{CLEAR}就可以得到树果和奖品哦！{SCROLL}不管是哪个百变怪标记{NEWLINE}精灵都可以变身！{SCROLL}请好好收集标记吧！{SCROLL}",
+   "en": "Welcome!{NEWLINE}Would you like some Scratch-Off Cards?{SCROLL}You may buy three Scratch-Off Cards{NEWLINE}for {VAR:0132:0} BP.{SCROLL}Hidden on each Scratch-Off Card are{NEWLINE}icons of Pokémon.{SCROLL}You may scratch the obscuring film off{NEWLINE}a card three times.{SCROLL}If the same icon appears three times,{NEWLINE}you will win a prize, like a Berry.{SCROLL}Also, Ditto’s icon can transform into{NEWLINE}any other Pokémon.{SCROLL}Good luck matching Pokémon icons!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0433/15; modernised from US 0433#15"
+  }
+ ]
+}

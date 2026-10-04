@@ -1,0 +1,578 @@
+{
+ "narc": "a027",
+ "bank": 371,
+ "source": "work/extract/v4/a027/0371.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "水晶『{VAR:0103:0}前辈来这里的路上{NEWLINE}应该都看到了吧,{CLEAR}很多原本栖息在黑暗洞穴那边的精灵{CLEAR}大量地出现在了这里。{SCROLL}水晶『我怀疑洞穴的另一边{NEWLINE}有什么事情发生,{CLEAR}所以想去调查看看,{CLEAR}但是要穿过洞穴{CLEAR}就必须用闪光技能照亮道路才行,{CLEAR}可我的菊草叶偏偏还没学会闪光……{CLEAR}唉,这可怎么办是好啊。",
+   "en": "Crystal: {VAR:0103:0}, you must have{NEWLINE}seen it on your way here. Lots{CLEAR}of Pokémon that live over by{CLEAR}Dark Cave have shown up here.{SCROLL}Crystal: I think something’s{NEWLINE}happening on the other side of the{CLEAR}cave, so I want to go take a look.{SCROLL}But to get through the cave, I’d{NEWLINE}need Flash to light the way, and{CLEAR}my Chikorita hasn’t learned Flash{CLEAR}yet... *sigh*... What should I do?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "要把闪光技能机送给水晶吗？",
+   "en": "Give Crystal the TM for Flash?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}『这是我的闪光技能机,{NEWLINE}你拿去给你的菊草叶学吧。",
+   "en": "{VAR:0103:0}: Here’s my Flash TM. Take{NEWLINE}it and teach it to your Chikorita.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "水晶『哇！真的要送给我吗？{NEWLINE}谢谢前辈！{CLEAR}这样一来我就有办法穿过黑暗洞穴了。",
+   "en": "Crystal: Wow! You’re really{NEWLINE}giving it to me? Thank you! Now{CLEAR}I have a way through Dark Cave.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "水晶『来,菊草蹦。{NEWLINE}你记一下闪光的用法。",
+   "en": "Crystal: Come here, Chikoree.{NEWLINE}Learn how to use Flash.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "菊草蹦 = Crystal's Chikorita nickname (the Chikorita stage of 大竹蹦 Megaree); ‘Chikoree’ invented."
+  },
+  {
+   "id": 5,
+   "zh": "菊草蹦『Chiiii——ko！",
+   "en": "Chikoree: Chiiii-ko!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "水晶『感谢{VAR:0103:0}前辈的技能机,{NEWLINE}菊草蹦现在已经学会了闪光。{CLEAR}我准备前往黑暗洞穴中{CLEAR}看看到底发生了什么,{CLEAR}前辈有时间的话也一起来吧。",
+   "en": "Crystal: Thanks to your TM, {VAR:0103:0},{NEWLINE}Chikoree has learned Flash. I’m going{CLEAR}into Dark Cave to find out what’s going{CLEAR}on. Come along too, if you have time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "是你啊！你还记得洒家吗？{NEWLINE}当年在圣安努号上{CLEAR}多亏你出手相助,{CLEAR}洒家等人才能全身而退。{CLEAR}不想竟在这里久别重逢。{SCROLL}来来来,先与洒家痛痛快快{NEWLINE}打上一场再说！",
+   "en": "It’s you! Do you remember this old{NEWLINE}boy? Back on the S.S. Anne, you lent{CLEAR}us a hand, and my crew and I got{CLEAR}out in one piece. Who’d have thought{CLEAR}we’d meet again here after so long?{SCROLL}Come, come! First, let’s{NEWLINE}have a good, hearty battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "洒家 = ‘this old boy’ (D-phrase): the hard-drinking monk from the S.S. Anne rescue, expelled from Sprout Tower for drinking."
+  },
+  {
+   "id": 8,
+   "zh": "哈哈,厉害厉害！{NEWLINE}不亏是当年击退火箭队的英雄。{CLEAR}洒家回到城都后,就一直遗憾{CLEAR}当时没能报答你的救命之恩,{CLEAR}正好现在把这个送给你{CLEAR}就当做是谢礼吧！",
+   "en": "Ha ha! Impressive, impressive! Just{NEWLINE}what I’d expect of the hero who{CLEAR}drove off Team Rocket back then.{SCROLL}Ever since I got back to{NEWLINE}Johto, I’ve regretted never{CLEAR}repaying you for saving my life.{CLEAR}Please take this as my thanks!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "长老这人甚是不同情理,{NEWLINE}我不过是多吃了几碗酒,{CLEAR}就把我赶出塔来让我反省。{SCROLL}反正闲来无聊,你可有时间{NEWLINE}与我活动活动筋骨？",
+   "en": "That Elder is downright{NEWLINE}unreasonable. I only had a few more{CLEAR}bowls of wine, and he threw me out{CLEAR}of the tower to reflect on myself.{SCROLL}I’m bored anyway. You got time{NEWLINE}to stretch your limbs with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "洒家单打双打都没问题,{NEWLINE}你喜欢哪种打法？",
+   "en": "Singles or doubles, this old boy’s{NEWLINE}fine with either. Which do you like?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "在黑暗洞穴{NEWLINE}抓住不错的精灵！{SCROLL}锻炼下这家伙,{NEWLINE}去跟桔梗市的道馆馆主{CLEAR}阿速一决胜负！",
+   "en": "I found a good Pokémon in{NEWLINE}Dark Cave! I’m going to train{CLEAR}it and take on Falkner, the{CLEAR}Leader of Violet City’s Gym!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0378/11"
+  },
+  {
+   "id": 12,
+   "zh": "如果在战斗中使用闪光的话,{NEWLINE}可以降低对手的命中哦！",
+   "en": "If you use Flash in battle, it{NEWLINE}lowers the foe’s accuracy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "这里是３１号道路{NEWLINE}西　桔梗市",
+   "en": "Rt. 31{NEWLINE}West to Violet City",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0378/13",
+   "category": "sign"
+  },
+  {
+   "id": 14,
+   "zh": "这里是黑暗洞穴",
+   "en": "Dark Cave",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0378/14"
+  },
+  {
+   "id": 15,
+   "zh": "嗯？什么？{NEWLINE}那个是精灵的蛋？{CLEAR}第一次见到呢。{SCROLL}嗝……",
+   "en": "Huh? What is it?{NEWLINE}Is that a Pokémon Egg?{CLEAR}I’ve never seen one.{SCROLL}...Zzz...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0378/15"
+  },
+  {
+   "id": 16,
+   "zh": "黑暗洞穴……{NEWLINE}要是精灵学会闪光技能的话,{CLEAR}就能进去调查了！{SCROLL}听说关东有个跟黑暗洞穴一样{NEWLINE}伸手不见五指的岩山隧道,{CLEAR}那附近或许有卖闪光技能机的人？",
+   "en": "Dark Cave... If my Pokémon learned{NEWLINE}Flash, I could go in and look around!{SCROLL}I hear there’s a tunnel in Kanto, Rock{NEWLINE}Tunnel, that’s just as pitch-black{CLEAR}as Dark Cave. Maybe someone around{CLEAR}there sells the TM for Flash?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "哈哈,那就来吧！",
+   "en": "Ha ha, then bring it on!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "痛快,能跟你在这大战一场,{NEWLINE}胜过去那喇叭芽塔受戒千百倍！",
+   "en": "What a thrill! A big battle with you{NEWLINE}here beats taking the precepts in{CLEAR}Sprout Tower a thousand times over!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "你就带着一只精灵啊,{NEWLINE}洒家可不干那以多欺少的勾当。",
+   "en": "You’ve only got one Pokémon with you.{NEWLINE}This old boy doesn’t gang up on anyone.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "阿金『偶像,好多栖息在黑暗洞穴的精灵,{NEWLINE}纷纷从里面跑了出来,{CLEAR}我猜肯定是发生什么事了,{CLEAR}不过前面这个学习委员似的家伙{CLEAR}说什么没有闪光技能机不要冒然进去,{CLEAR}真的是太耽误事啦。",
+   "en": "Gold: Idol, loads of the Pokémon{NEWLINE}that live in Dark Cave have been{CLEAR}running out of it. Something{CLEAR}must’ve happened in there.{SCROLL}But this Class Rep type up ahead keeps{NEWLINE}saying we shouldn’t rush in without{CLEAR}a Flash TM. What a waste of time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "学习委员 → ‘Class Rep’ (Gold's nickname for Crystal, existing decision)."
+  },
+  {
+   "id": 21,
+   "zh": "阿金『虽说偶像你能来这里,{NEWLINE}肯定会对调查洞穴帮上大忙啦。{CLEAR}可是被那个学习委员{CLEAR}轻易得到了闪光技能机,{CLEAR}这样就让我显得很傻了……{SCROLL}阿金『可恶啊,得想个帅气的方式{NEWLINE}追上去才行。",
+   "en": "Gold: With you here, Idol, the cave{NEWLINE}investigation’s sure to go great. But{CLEAR}the Class Rep got a Flash TM just like{CLEAR}that, and now I look like an idiot...{SCROLL}Gold: Dang it! I gotta find a{NEWLINE}cool way to catch up with them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "爆太郎『Cyyy——da！",
+   "en": "Exbo: Cyyy-da!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "超音蝠『Zuuuu——ba！",
+   "en": "Zubat: Zuuuu-ba!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "熔岩虫『Sluuu——ma！",
+   "en": "Slugma: Sluuu-ma!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "大岩蛇『Oooo——ni！",
+   "en": "Onix: Oooo-ni!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "我正准备去黑暗洞穴{NEWLINE}捉几只岩石系的精灵{CLEAR}好用来挑战桔梗道馆,{CLEAR}结果它们居然自己从洞穴里跑了出来。{SCROLL}这些洞穴里的精灵我都预定了,{NEWLINE}你不要跟我抢啊！",
+   "en": "I was about to go into Dark Cave{NEWLINE}to catch some Rock-type Pokémon for{CLEAR}the Violet Gym. But they came running{CLEAR}out of the cave all by themselves!{SCROLL}I’ve called dibs on all the{NEWLINE}Pokémon from that cave, so{CLEAR}don’t you try to take them!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "走路草『Ooooo——di！",
+   "en": "Oddish: Ooooo-di!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 29,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 30,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 31,
+   "zh": "阿金『哎呀,你不要婆婆妈妈的,{NEWLINE}这附近出现了这么多{CLEAR}黑暗洞穴中的精灵,{CLEAR}肯定是洞穴里面发生了什么事,{CLEAR}赶紧让我进去看看。",
+   "en": "Gold: Oh, quit fussing like an old{NEWLINE}lady! With this many Dark Cave Pokémon{CLEAR}around here, something’s gotta be going{CLEAR}on inside. Let me in there already!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "水晶『我知道你想查明真相{NEWLINE}是一片好心,{CLEAR}但是洞穴里漆黑一片,{CLEAR}咱们都没有闪光技能机,{CLEAR}冒然进去很容易迷路。{SCROLL}水晶『安全起见,还是先想办法{NEWLINE}弄到闪光技能机再进去吧。",
+   "en": "Crystal: I know you want to find out{NEWLINE}what’s going on, and that’s good{CLEAR}of you. But it’s pitch-black in the{CLEAR}cave, and neither of us has a Flash{CLEAR}TM. If we rush in, we’ll get lost.{SCROLL}Crystal: To be safe, let’s find{NEWLINE}a way to get a Flash TM first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "阿金『别傻了,这里怎么可能搞得到{NEWLINE}闪光技能机呢！{SCROLL}阿金『算了,你这种{NEWLINE}过于谨慎认真的学习委员型,{CLEAR}最让我头疼了。{CLEAR}你想怎么办就怎么办吧,{CLEAR}我懒得管咯。",
+   "en": "Gold: Don’t be dumb, how are we{NEWLINE}supposed to get a Flash TM out here?!{SCROLL}Gold: Forget it. Overcautious,{NEWLINE}by-the-book Class Rep types{CLEAR}like you give me the worst{CLEAR}headaches. Do whatever you{CLEAR}want. I can’t be bothered.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "水晶『处理这种可能有危险的事,{NEWLINE}谨慎认真一点不好吗……",
+   "en": "Crystal: With something this{NEWLINE}dangerous, what’s wrong with{CLEAR}being careful and serious...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "阿金『……",
+   "en": "Gold: ...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "大家都说我记性不好,{NEWLINE}但能随时忘掉烦心事有啥不好呢。{CLEAR}如果你的精灵有烦心事忘不掉,{CLEAR}我可以帮你哦。{SCROLL}",
+   "en": "Everyone says I’ve got a{NEWLINE}bad memory. But what’s wrong with{CLEAR}being able to forget your worries{CLEAR}anytime? If your Pokémon has a{CLEAR}worry it can’t forget, I can help.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "请帮我的精灵忘掉技能",
+   "en": "Help it forget a move",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0343 #98; English copied.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 38,
+   "zh": "不用了,谢谢",
+   "en": "No, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 39,
+   "zh": "要选择哪个精灵呢？{SCROLL}",
+   "en": "Which Pokémon?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0343 #100; English copied."
+  },
+  {
+   "id": 40,
+   "zh": "嗯……那么{NEWLINE}你想要忘记哪个技能呢？{SCROLL}",
+   "en": "Hmm... Then which move should it forget?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0343 #101; English copied."
+  },
+  {
+   "id": 41,
+   "zh": "忘记{NEWLINE}{VAR:0106:0},是吧？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:0}, right?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0343 #102; English copied."
+  },
+  {
+   "id": 42,
+   "zh": "想要忘记技能的时候{NEWLINE}就来找我吧！",
+   "en": "Come see me whenever you{NEWLINE}want a move forgotten!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0343 #103; English copied."
+  },
+  {
+   "id": 43,
+   "zh": "什么？这个是蛋啊！{NEWLINE}什么技能也没学会……{SCROLL}",
+   "en": "What? This is an Egg! It{NEWLINE}hasn’t learned any moves...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0343 #104; English copied."
+  },
+  {
+   "id": 44,
+   "zh": "什么？这只精灵可只{NEWLINE}记得一个技能啊。{SCROLL}",
+   "en": "What? This Pokémon only knows one move.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0343 #105; English copied."
+  },
+  {
+   "id": 45,
+   "zh": "遗忘成功！{SCROLL}你的精灵{NEWLINE}忘记了{VAR:0106:0}！",
+   "en": "All done!{SCROLL}Your Pokémon forgot {VAR:0106:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0343 #106; English copied."
+  },
+  {
+   "id": 46,
+   "zh": "菊草叶『Chiiii——ko！",
+   "en": "Chikorita: Chiiii-ko!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "菊草叶很生气。",
+   "en": "Chikorita is angry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "洋洋蜻蜓,使用虫蛀！",
+   "en": "Yanma, use Bug Bite!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "菊草叶『Chii…………{SCROLL}菊草叶伤痕累累。",
+   "en": "Chikorita: Chii......{SCROLL}Chikorita is badly hurt.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "要收服菊草叶吗？",
+   "en": "Catch Chikorita?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "这只菊草叶从草丛里跳出来后,{NEWLINE}被我给顺手打败了。{CLEAR}结果它就不依不饶非要打败我不可,{CLEAR}真是够烦的。",
+   "en": "This Chikorita jumped out of the{NEWLINE}grass, so I beat it while I was at it.{CLEAR}Then it just wouldn’t let it go. It’s{CLEAR}determined to beat me. What a pain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "{VAR:0103:0}『那你为什么不收服它呢？",
+   "en": "{VAR:0103:0}: Then why don’t you catch it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "我只喜欢虫系精灵,{NEWLINE}这种软不拉几的草系精灵我可没兴趣。{CLEAR}你要是喜欢的话就收服它吧,{CLEAR}也让我清净清净。",
+   "en": "I only like Bug types. I’ve got{NEWLINE}no interest in wimpy, floppy{CLEAR}Grass types like that. If you{CLEAR}like it, catch it yourself and{CLEAR}give me some peace and quiet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "我在挑战桔梗道馆时输给了阿速馆主,{NEWLINE}虽然用虫系精灵{CLEAR}挑战飞行系道馆不占优势。{CLEAR}但我会努力锻炼我的虫精灵{CLEAR}去取得胜利的。",
+   "en": "I lost to Falkner when I{NEWLINE}challenged the Violet Gym. I know{CLEAR}Bug types are at a disadvantage{CLEAR}against a Flying-type Gym, but I’ll{CLEAR}train my Bug Pokémon hard and win!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "洋洋蜻蜓『Yaaa——ma！",
+   "en": "Yanma: Yaaa-ma!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "我的走路草很喜欢跟野生精灵玩,{NEWLINE}所以我就经常带它到草丛散步。",
+   "en": "My Oddish loves playing with{NEWLINE}wild Pokémon, so I often take{CLEAR}it for walks in the grass.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "呀,好可爱的菊草叶,{NEWLINE}你是来找我玩的吗？",
+   "en": "Oh, what a cute Chikorita!{NEWLINE}Did you come to play with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "菊草叶『Chiko——chiko！",
+   "en": "Chikorita: Chiko-chiko!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "唉？看你这副表情……{NEWLINE}是要跟我对战吗？",
+   "en": "Huh? That look on your face...{NEWLINE}Do you want to battle me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "嗯,没问题！{NEWLINE}那咱们就来场对战,{CLEAR}你输了的话要做我的精灵哦！",
+   "en": "OK, sure! Let’s battle. If you{NEWLINE}lose, you have to be my Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "走路草,看你的了。",
+   "en": "Oddish, you’re up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "好,走路草,使用撞击绝招！",
+   "en": "OK, Oddish, use your{NEWLINE}special move, Tackle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "走路草『Ooo……{SCROLL}走路草被撞晕了。",
+   "en": "Oddish: Ooo...{SCROLL}Oddish was knocked out cold.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "你醒醒啊走路草！",
+   "en": "Wake up, Oddish!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "走路草『Ooo……",
+   "en": "Oddish: Ooo...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "呼……走路草你没事就好。",
+   "en": "Phew... Oddish, I’m so glad you’re OK.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "菊草叶,我的走路草已经受伤了,{NEWLINE}我们认输不打了。",
+   "en": "Chikorita, my Oddish is hurt.{NEWLINE}We give up. No more battling.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "请问你现在有时间与我来场对战,{NEWLINE}陪我锻炼一下吗？{SCROLL}",
+   "en": "Excuse me, do you have time for a{NEWLINE}battle? Would you help me train?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "谢谢你愿意陪我锻炼,我要上了！",
+   "en": "Thanks for helping me{NEWLINE}train! Here I come!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "哇,你好厉害！通过跟你的对战{NEWLINE}我感觉自己学到了很多。{CLEAR}谢谢你愿意陪我练习,这个送给你吧。",
+   "en": "Wow, you’re amazing! I feel like{NEWLINE}I learned so much from battling{CLEAR}you. Thanks for practicing{CLEAR}with me. Please take this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

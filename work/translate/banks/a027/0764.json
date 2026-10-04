@@ -1,0 +1,303 @@
+{
+ "narc": "a027",
+ "bank": 764,
+ "source": "work/extract/v4/a027/0764.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "在{VAR:0300:0}游戏吗？",
+   "en": "Would you like to play{NEWLINE}{VAR:0300:0}?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/0"
+  },
+  {
+   "id": 1,
+   "zh": "参加",
+   "en": "JOIN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/1"
+  },
+  {
+   "id": 2,
+   "zh": "规则说明",
+   "en": "RULES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/2"
+  },
+  {
+   "id": 3,
+   "zh": "取消",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/3"
+  },
+  {
+   "id": 4,
+   "zh": "无法参加{VAR:0300:0}{SCROLL}",
+   "en": "You could not join the group playing{NEWLINE}{VAR:0300:0}.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/4"
+  },
+  {
+   "id": 5,
+   "zh": "正在玩游戏中！{NEWLINE}不等到结束不能参加！{SCROLL}",
+   "en": "A game is in session.{NEWLINE}You can’t join until it’s over.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/5"
+  },
+  {
+   "id": 6,
+   "zh": "参加{VAR:0300:0}的受理完毕！{SCROLL}",
+   "en": "Registration for {VAR:0300:0}{NEWLINE}is now closed.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/6"
+  },
+  {
+   "id": 7,
+   "zh": "在做好准备前请稍等{SCROLL}",
+   "en": "Readying the registration system.{NEWLINE}Please wait.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/7"
+  },
+  {
+   "id": 8,
+   "zh": "有成员通信情况不好,{CLEAR}{VAR:0300:0}中止！{SCROLL}",
+   "en": "A member’s connection failed.{NEWLINE}The {VAR:0300:0} has been canceled!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "正在等待其他成员{NEWLINE}Ｂ键⋯取消",
+   "en": "Awaiting other members...{NEWLINE}B Button: Cancel",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "正在等待其他成员{NEWLINE}Ｂ键⋯取消",
+   "en": "Awaiting other members...{NEWLINE}B Button: Cancel",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/10"
+  },
+  {
+   "id": 11,
+   "zh": "马上就要开始了！{NEWLINE}请稍等",
+   "en": "The game will start soon!{NEWLINE}Please wait.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/11"
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0300:0}",
+   "en": "{VAR:0300:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "参加{VAR:0132:0}人",
+   "en": "Joined: {VAR:0132:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "剩余{VAR:0132:0}人",
+   "en": "Spots left: {VAR:0132:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "还有{VAR:0133:0}秒",
+   "en": "{VAR:0133:0} seconds to go",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/15"
+  },
+  {
+   "id": 16,
+   "zh": "人员都到齐了！{NEWLINE}开始游戏！",
+   "en": "Enough players have gathered.{NEWLINE}Let the game begin!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/16"
+  },
+  {
+   "id": 17,
+   "zh": "有成员通信情况不好,{SCROLL}请从最初开始{NEWLINE}重新办理手续。{SCROLL}",
+   "en": "A member’s connection failed.{SCROLL}Please register from the start again.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "限制时间已确定,{NEWLINE}开始游戏！",
+   "en": "The time limit has been set.{NEWLINE}Let the game begin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0776/18; ext-review RB-011"
+  },
+  {
+   "id": 19,
+   "zh": "没有设定限制时间,{NEWLINE}人员没能集齐。{SCROLL}请从最初开始{NEWLINE}重新办理手续。{SCROLL}",
+   "en": "No time limit was set, and not{NEWLINE}enough members gathered.{SCROLL}Please register from the start again.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0776/19; ext-review RB-011"
+  },
+  {
+   "id": 20,
+   "zh": "人数已经满了,{NEWLINE}没办法加入！{SCROLL}",
+   "en": "Sorry, it’s already full.{NEWLINE}You can’t join now.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0776/20 | US said “service too busy”; zh says the group is full"
+  },
+  {
+   "id": 21,
+   "zh": "已经决定了限制时间,{NEWLINE}{VAR:0300:0}中止！{SCROLL}",
+   "en": "The time limit has been set.{NEWLINE}The {VAR:0300:0} is canceled!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0776/21; ext-review RB-011"
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0300:0}已经结束！{SCROLL}",
+   "en": "The {VAR:0300:0} is now closed.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/22"
+  },
+  {
+   "id": 23,
+   "zh": "放弃{VAR:0300:0}吗？",
+   "en": "Quit {VAR:0300:0}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/24"
+  },
+  {
+   "id": 25,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/25"
+  },
+  {
+   "id": 26,
+   "zh": "第一个参加的你退出的话{NEWLINE}房间将解散,{CLEAR}可以吗？",
+   "en": "You were the first player to join.{SCROLL}If you drop out, the group will be{NEWLINE}disbanded. Is that OK?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/26"
+  },
+  {
+   "id": 27,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/27"
+  },
+  {
+   "id": 28,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/28"
+  },
+  {
+   "id": 29,
+   "zh": "放弃加入。{SCROLL}",
+   "en": "You chose to drop out.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "到游园开始之前请稍等！{SCROLL}",
+   "en": "The Parade will be on later.{NEWLINE}Please wait for it!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/30"
+  },
+  {
+   "id": 31,
+   "zh": "等待游园开始！{NEWLINE}Ｂ键取消",
+   "en": "Waiting for the Parade to come by...{NEWLINE}B Button: Cancel",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/31"
+  },
+  {
+   "id": 32,
+   "zh": "好像已经乘不下了⋯⋯{SCROLL}",
+   "en": "There’s no more room on the Floats...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/32"
+  },
+  {
+   "id": 33,
+   "zh": "游园结束了。{SCROLL}",
+   "en": "The Parade is over.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/33"
+  },
+  {
+   "id": 34,
+   "zh": "「{VAR:0300:0}」{SCROLL}瞄准旋转的吞食兽的嘴巴{NEWLINE}把树果放进去吧！{SCROLL}只有连续放入{NEWLINE}得分才会增加！{SCROLL}进入狂热时间后{NEWLINE}能得到额外的分数！{SCROLL}瞄准了再放,{NEWLINE}还是不断地扔进去,{CLEAR}就看你自己了！{SCROLL}",
+   "en": "{VAR:0300:0}{SCROLL}Flick Berries into the mouth of a{NEWLINE}rotating Swalot.{SCROLL}Score bonus points for getting Berries{NEWLINE}in consecutively.{SCROLL}Score even more during Fever Time.{SCROLL}Take deliberate aim or fire randomly--{NEWLINE}the choice is yours!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/34; modernised from US 0776#34"
+  },
+  {
+   "id": 35,
+   "zh": "「{VAR:0300:0}」{SCROLL}为了不让魔尼尼摔倒,{NEWLINE}好好地滚动球吧！{SCROLL}如果能一直站在球上{NEWLINE}灯光就会闪烁,{CLEAR}大家就会热烈鼓掌！{SCROLL}如果全员都能站在球上,{NEWLINE}能一直站住,{CLEAR}幕布也会渐渐上升！{SCROLL}不要掉下来{NEWLINE}大家好好地站在球上吧！{SCROLL}",
+   "en": "{VAR:0300:0}{SCROLL}Roll a ball while keeping a Mime Jr.{NEWLINE}balanced on top.{SCROLL}If the Mime Jr. manages to stay on,{NEWLINE}lights flash and the applause begins.{SCROLL}If everyone manages to keep going,{NEWLINE}the curtains will rise.{SCROLL}Try to keep your Mime Jr. balanced{NEWLINE}and on the ball!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/35; modernised from US 0776#35"
+  },
+  {
+   "id": 36,
+   "zh": "「{VAR:0300:0}」{SCROLL}把泵从上面直直压下,{NEWLINE}充入大量的空气,{CLEAR}一个一个地打破气球！{SCROLL}一下一下压下到泵变红的话{NEWLINE}充入的空气就会增加！{SCROLL}然后如果好好配合{NEWLINE}周围的小果然的话,{CLEAR}就能充入更多的空气！{SCROLL}不过就算是相同的小果然,{NEWLINE}碰到细的小果然的话,{CLEAR}空气也会减少,要小心！{SCROLL}",
+   "en": "{VAR:0300:0}{SCROLL}Press down on the pump from{NEWLINE}directly above to pump maximum{CLEAR}air into a balloon until it pops.{SCROLL}Pop balloons until time runs out.{SCROLL}Pressing the pump hard will make it{NEWLINE}turn red, increasing its capacity.{SCROLL}The circling Wynaut can also help.{SCROLL}Line a Wynaut up with the pump to{NEWLINE}boost the air volume, but beware:{SCROLL}lining up the pump with a skinny{NEWLINE}Wynaut reduces the air volume.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0776/36; modernised from US 0776#36"
+  }
+ ]
+}

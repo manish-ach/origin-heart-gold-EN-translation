@@ -1,0 +1,322 @@
+{
+ "narc": "a027",
+ "bank": 478,
+ "source": "work/extract/v4/a027/0478.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "马志士『果然,我猜你一定会来这里的。{SCROLL}你跟刚刚来挑战的那个少年,{NEWLINE}在我们枯叶市的工地冲突中{CLEAR}都表现得非常勇敢。{CLEAR}不过要做大事光有勇气可不行,{CLEAR}让我看看你的实力{CLEAR}是否也能配上我的橙色徽章吧！{SCROLL}",
+   "en": "Lt. Surge: Just as I figured. I knew{NEWLINE}you’d show up here.{SCROLL}You and that boy who challenged me{NEWLINE}earlier both showed real guts in the{CLEAR}construction site clash.{SCROLL}But guts alone won’t get the big jobs{NEWLINE}done, kid.{SCROLL}Let’s see if your strength is worthy of{NEWLINE}my Thunder Badge too!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Vermilion Gym. References the Vermilion construction-site clash (0476). #16 (sided with the townsfolk) / #18 (stopped the townsfolk) are the two branches of that clash. #30–32: post-game Champion rematch."
+  },
+  {
+   "id": 1,
+   "zh": "马志士『哼,看来你也并非空有勇气,{NEWLINE}实力很可以的嘛！{CLEAR}好的,橙色徽章给你了！{SCROLL}",
+   "en": "Lt. Surge: Hmph! So you’re not all{NEWLINE}guts. You’ve got real power!{SCROLL}All right, the Thunder Badge is yours!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}从马志士那{NEWLINE}得到了橙色徽章！",
+   "en": "{VAR:0103:0} received{NEWLINE}the Thunder Badge from Lt. Surge!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0485/2"
+  },
+  {
+   "id": 3,
+   "zh": "马志士『你应该是在四处旅行锻炼吧？{NEWLINE}那样的话缺少情报可不行。{CLEAR}把这个装到你的手机上试试。",
+   "en": "Lt. Surge: You’re traveling around to{NEWLINE}train, right?{SCROLL}Then you can’t be short on intel.{SCROLL}Try plugging this into your Pokégear.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 4,
+   "zh": "马志士『这个是收音机卡。{NEWLINE}有了它你就可以用手机{CLEAR}听到广播电台的节目了！{CLEAR}节目中会有很多新闻{CLEAR}以及口袋妖怪的情报,{CLEAR}这些信息对旅途中的训练家{CLEAR}都很有帮助,{CLEAR}你用一下就知道了。",
+   "en": "Lt. Surge: This is a Radio Card.{SCROLL}With it, you can listen to radio shows on{NEWLINE}your Pokégear!{SCROLL}The shows have lots of news and{NEWLINE}Pokémon info.{SCROLL}That kind of intel is a big help to{NEWLINE}Trainers on the road.{SCROLL}Try it and you’ll see.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 5,
+   "zh": "马志士『我说你啊！{NEWLINE}还在四处旅行锻炼自己吗？{CLEAR}旅途中肯定遇到不少挫折和选择吧,{CLEAR}只要你能保持心中的正义和勇气{CLEAR}就没有什么好怕的了！",
+   "en": "Lt. Surge: Hey, you! Still traveling{NEWLINE}around to toughen yourself up?{SCROLL}You’re bound to hit plenty of setbacks{NEWLINE}and tough choices on the road.{SCROLL}But as long as you keep justice and{NEWLINE}courage in your heart, there’s nothing{CLEAR}to be afraid of!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 6,
+   "zh": "你好！{NEWLINE}未来的传说！{CLEAR}我都听说了哦,{CLEAR}你在工地的冲突中挺身而出,{CLEAR}着实让马志士馆主吃了一惊呢。{SCROLL}不够要得到马志士大人的认可,{NEWLINE}光靠这个可不行。{SCROLL}来吧,做好觉悟{NEWLINE}与马志士大人好好战斗一场吧！",
+   "en": "Hello there, future legend!{SCROLL}I heard all about it.{SCROLL}The way you stood up in the{NEWLINE}construction site clash really{CLEAR}surprised Lt. Surge.{SCROLL}But that alone won’t earn you{NEWLINE}Lt. Surge’s approval.{SCROLL}Come on, steel yourself and give{NEWLINE}Lt. Surge a real battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; ext-review RV-019"
+  },
+  {
+   "id": 7,
+   "zh": "好刺激的比赛啊！{NEWLINE}太紧张了！",
+   "en": "Whew! That was an electrifying bout!{NEWLINE}It sure made my nerves tingle.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0485/7"
+  },
+  {
+   "id": 8,
+   "zh": "吱吱喳喳……{NEWLINE}尽是些垃圾啊！",
+   "en": "Scrabble scrabble...{SCROLL}Nothing but trash in here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 9,
+   "zh": "吱吱喳喳……{NEWLINE}哎呀！垃圾箱那边{CLEAR}居然有个开关！{CLEAR}我来按一下……我按！",
+   "en": "...{NEWLINE}Oh, you found a secret switch at the{CLEAR}bottom of the trash can!{CLEAR}Better press it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0485/9"
+  },
+  {
+   "id": 10,
+   "zh": "吱吱喳喳……{NEWLINE}里面都是垃圾！{CLEAR}啊！电击屏障的{CLEAR}锁复原了！",
+   "en": "Nope! Nothing here but trash.{NEWLINE}Oh no, the electric fence is{CLEAR}locked again!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0485/10"
+  },
+  {
+   "id": 11,
+   "zh": "电击屏障的{NEWLINE}第１道锁解除了！",
+   "en": "The first electric fence is unlocked!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0485/11"
+  },
+  {
+   "id": 12,
+   "zh": "电击屏障的{NEWLINE}第２道锁解除了！{SCROLL}通向馆主的电击屏障{NEWLINE}完全打开了！",
+   "en": "The second electric fence is unlocked!{SCROLL}Now the electric fences are gone, and{NEWLINE}the path to the Leader is clear!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0485/12"
+  },
+  {
+   "id": 13,
+   "zh": "枯叶市　精灵道馆{SCROLL}道馆馆主——马志士",
+   "en": "Vermilion City Pokémon Gym{SCROLL}Gym Leader: Lt. Surge",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags fullwidth_chars"
+  },
+  {
+   "id": 14,
+   "zh": "枯叶市　精灵道馆{SCROLL}道馆馆主　马志士{NEWLINE}所认可的训练家：{CLEAR}{VAR:0103:0}",
+   "en": "Vermilion City Pokémon Gym{SCROLL}Gym Leader: Lt. Surge{NEWLINE}Certified Trainer!{CLEAR}{VAR:0103:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0485/14"
+  },
+  {
+   "id": 15,
+   "zh": "马志士馆主其实也不想{NEWLINE}让金婆婆在这里盖楼的,{CLEAR}但是金婆婆有那块地的所有权,{CLEAR}所以馆主他也拿金婆婆没办法。{SCROLL}强制停工30天{NEWLINE}已经是马志士馆主的最大权限了。{SCROLL}如今停工期限已到{NEWLINE}而联盟的禁令还没来,{CLEAR}所以焦急的市民们就开始坐不住了,{CLEAR}甚至有人指责馆主收了金婆婆的钱。{SCROLL}馆主为了防止我们沉不住气{NEWLINE}与市民发生冲突,{CLEAR}严令禁止我们离开道馆……{SCROLL}呜呜呜,马志士大人{NEWLINE}真是个坚强的男人啊！",
+   "en": "Lt. Surge never wanted Granny Kin to{NEWLINE}build here either.{SCROLL}But Granny Kin owns that land, so there{NEWLINE}was nothing he could do about her.{SCROLL}A 30-day forced work stoppage was the{NEWLINE}most he had the power to order.{SCROLL}Now the stoppage is over, and the{NEWLINE}League’s ban still hasn’t come.{SCROLL}The townsfolk are getting restless.{SCROLL}Some even accuse him of taking Granny{NEWLINE}Kin’s money.{SCROLL}So we don’t clash with them, he’s{NEWLINE}ordered us to stay in the Gym...{SCROLL}Sniff... Lt. Surge is such a tough man!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "金婆婆 = Granny Kin (Rocket backer, landowner)."
+  },
+  {
+   "id": 16,
+   "zh": "马志士『在枯叶市的工地冲突中,{NEWLINE}你能够义无反顾地选择{CLEAR}帮助枯叶市居民,{CLEAR}足见你心中的正义和勇敢。{CLEAR}作为感谢,这个也送给吧你。",
+   "en": "Lt. Surge: In the construction site{NEWLINE}clash, you didn’t hesitate to side with{CLEAR}the people of Vermilion City.{SCROLL}That shows the justice and courage in{NEWLINE}your heart.{SCROLL}As thanks, take this too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 17,
+   "zh": "马志士『这个世界可是很广阔的,{NEWLINE}去各地旅行让自己变强吧,{CLEAR}期待跟你全力一战的那天。",
+   "en": "Lt. Surge: The world’s a big place.{NEWLINE}Travel all over and get stronger.{SCROLL}I’m looking forward to the day we fight{NEWLINE}all out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 18,
+   "zh": "马志士『在枯叶市的工地冲突中,{NEWLINE}你能够站出来阻止居民闯入工地,{CLEAR}真的是帮了我大忙。{CLEAR}作为感谢,这个也送给吧你。",
+   "en": "Lt. Surge: In the construction site{NEWLINE}clash, you stepped up to stop the{CLEAR}townsfolk from storming the site.{SCROLL}You really bailed me out there. As{NEWLINE}thanks, take this too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 19,
+   "zh": "你好,{NEWLINE}我是枯叶道馆的陪练。{SCROLL}专为获得本道馆徽章的训练家{NEWLINE}提供针对性训练服务。",
+   "en": "Hello! I’m a sparring partner at{NEWLINE}Vermilion Gym.{SCROLL}I offer focused training for Trainers{NEWLINE}who have earned this Gym’s Badge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 20,
+   "zh": "请不要乱用修改器哟！",
+   "en": "Please don’t go misusing cheat devices!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 21,
+   "zh": "你好,{NEWLINE}我是枯叶道馆的陪练。{SCROLL}专为想提高实力的训练家{NEWLINE}提供针对性训练服务。{CLEAR}只需要1个解麻果的服务费{CLEAR}我就可以帮你的精灵{CLEAR}针对性提高「速度」努力值{SCROLL}怎么样？{NEWLINE}需要我的陪练服务吗？",
+   "en": "Hello! I’m a sparring partner at{NEWLINE}Vermilion Gym.{SCROLL}I offer focused training for Trainers{NEWLINE}who want to get stronger.{SCROLL}For just one Cheri Berry, I’ll train{NEWLINE}your Pokémon to raise its Speed EVs.{SCROLL}How about it? Want to spar with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "想练「速度」努力值的话,{NEWLINE}就来枯叶道馆修炼吧！",
+   "en": "If you want to train Speed EVs, come{NEWLINE}train at the Vermilion Gym!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 23,
+   "zh": "那么,训练开始！",
+   "en": "Then let the training begin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 24,
+   "zh": "你好像没有足够的解麻果{NEWLINE}支付服务费呢！",
+   "en": "Looks like you don’t have a Cheri Berry{NEWLINE}to pay the fee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 25,
+   "zh": "雷丘『Rai——chu！",
+   "en": "Raichu: Rai-chu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 26,
+   "zh": "马志士『哦？{NEWLINE}施工的人问我怎么处理那片空地？{CLEAR}你去告诉他,{CLEAR}费那么多事干什么！{CLEAR}原生态的就是最好的啦。",
+   "en": "Lt. Surge: Oh? The builder’s asking{NEWLINE}what to do with that empty lot?{SCROLL}Go tell him not to bother with all that{NEWLINE}fuss!{SCROLL}It’s best left just the way nature made{NEWLINE}it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 27,
+   "zh": "枯叶市　精灵道馆{SCROLL}道馆馆主　马志士{NEWLINE}所认可的训练家！{CLEAR}小绿",
+   "en": "Vermilion City Pokémon Gym{SCROLL}Gym Leader: Lt. Surge{NEWLINE}Certified Trainer!{CLEAR}Blue",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Statue after Blue beat Surge; layout copies #14 (US)."
+  },
+  {
+   "id": 28,
+   "zh": "马志士『还有这是我的电话号码,{NEWLINE}你给我记好了。",
+   "en": "Lt. Surge: And here’s my phone number.{NEWLINE}Don’t you forget it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0103:0}把马志士{NEWLINE}登录到了手机中！",
+   "en": "{VAR:0103:0} registered Lt. Surge’s number{NEWLINE}in the Pokégear!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 30,
+   "zh": "马志士『嘿,想不到当年那个{NEWLINE}在工地冲突中挺身而出的小鬼,{CLEAR}这么快就成长为了我们的冠军大人。{SCROLL}马志士『上次道馆战你实力尚浅,{NEWLINE}我也没有拿出全力来跟你战斗。{CLEAR}不过现在你已经成为冠军了,{CLEAR}要不要试试我马志士{CLEAR}全力电击的滋味啊？{SCROLL}",
+   "en": "Lt. Surge: Heh.{SCROLL}Who’d have thought the kid who stood up{NEWLINE}in that construction site clash would{CLEAR}grow into our Champion so fast?{SCROLL}Lt. Surge: Back in our Gym battle, you{NEWLINE}were still green, and I didn’t fight you{CLEAR}at full power.{SCROLL}But now that you’re the Champion, how’d{NEWLINE}you like a taste of Lt. Surge’s{CLEAR}full-power shock?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 31,
+   "zh": "马志士『哈哈,做好被电麻的准备吧！",
+   "en": "Lt. Surge: Ha ha! Get ready to be{NEWLINE}shocked stiff!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 32,
+   "zh": "马志士『你太厉害了,我甘拜下风！",
+   "en": "Lt. Surge: You’re too tough. I{NEWLINE}concede!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0103:0}向手机中插入了收音机卡！",
+   "en": "{VAR:0103:0} put the Radio Card into the{NEWLINE}Pokégear!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 34,
+   "zh": "马志士『你希望单打还是双打？",
+   "en": "Lt. Surge: You want a Single Battle or a{NEWLINE}Double Battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 35,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 36,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 37,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 38,
+   "zh": "马志士『你带的精灵数量不够,{NEWLINE}没法进行双打。",
+   "en": "Lt. Surge: You don’t have enough{NEWLINE}Pokémon with you for a Double Battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  }
+ ]
+}

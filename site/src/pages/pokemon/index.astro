@@ -1,0 +1,37 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import Type from '../../components/Type.astro';
+import { species, url, hasDocumentedSource } from '../../lib/data';
+const regions = [...new Set(species.map((s) => s.region))];
+---
+<StarlightPage frontmatter={{ title: 'Pokémon', description: 'Every Pokémon in Origin HeartGold: types, abilities, base stats and how to get it.', tableOfContents: false }}>
+	<p>All {species.length} species and forms in the game's data, with the hack's own types, abilities and base stats.{' '}
+	{species.filter(hasDocumentedSource).length} have a documented source, including verified held-item forms and configured calendar encounters.
+	Calendar entries are marked separately and captures have not all been tested. Entries with no source, or only an unresolved calendar entry, are hidden by default.
+	The scan is incomplete, especially for Safari Zone conditions and special encounter systems.</p>
+	<p><a href={url('/calendar/')}>Browse calendar encounters</a> · <a href={url('/mechanics/#held-item-forms')}>Held-item transformations</a></p>
+	<div class="table-filter" data-table="mon-table">
+		<input type="search" placeholder="Search by name, type or ability…" aria-label="Search Pokémon" />
+		<select data-key="region" aria-label="Region">
+			<option value="">All Pokédex ranges</option>
+			{regions.map((r) => <option value={r}>{r}</option>)}
+		</select>
+		<label><input type="checkbox" data-key="obtainable" data-show-value="no" /> Show species with no source found</label>
+		<span class="filter-count" aria-live="polite"></span>
+	</div>
+	<table id="mon-table" class="sortable compact">
+		<thead><tr><th>#</th><th>Pokémon</th><th>Type</th><th>Abilities</th><th>Hidden</th><th>BST</th></tr></thead>
+		<tbody>
+			{species.map((s) => (
+				<tr data-region={s.region} data-obtainable={hasDocumentedSource(s) ? 'yes' : 'no'} hidden={!hasDocumentedSource(s)}>
+					<td>{s.id}</td>
+					<td><a href={url(`/pokemon/${s.slug}/`)}>{s.name}</a>{s.game && <span class="sr-only"> {s.game}</span>}</td>
+					<td>{s.types.map((t) => <Type type={t} />)}</td>
+					<td>{s.abilities.join(' / ')}</td>
+					<td>{s.hidden ?? '—'}</td>
+					<td>{s.stats.reduce((a, b) => a + b, 0)}</td>
+				</tr>
+			))}
+		</tbody>
+	</table>
+</StarlightPage>

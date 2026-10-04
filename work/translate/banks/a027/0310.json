@@ -1,0 +1,215 @@
+{
+ "narc": "a027",
+ "bank": 310,
+ "source": "work/extract/v4/a027/0310.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "通信待机中,{NEWLINE}请稍等。",
+   "en": "Waiting to communicate.{NEWLINE}Please wait.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "probably unused (DP Poffin leftover; US blanks the bank)"
+  },
+  {
+   "id": 1,
+   "zh": "放入了{VAR:0108:0}！",
+   "en": "Added the {VAR:0108:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}",
+   "en": "{VAR:0103:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "焦了！快转！",
+   "en": "It’s burning! Stir faster!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "快了！溢出了！",
+   "en": "Too fast! It’s spilling!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "焦了！快点！",
+   "en": "It’s burning! Hurry!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "请慢一点！",
+   "en": "Slow down, please!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "快点！快点！",
+   "en": "Faster! Faster!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "完成！",
+   "en": "Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "结果发表",
+   "en": "Results",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "调理时间",
+   "en": "Cooking Time",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0133:0}：{VAR:0133:1}：{VAR:0133:2}",
+   "en": "{VAR:0133:0}:{VAR:0133:1}:{VAR:0133:2}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "溢出次数",
+   "en": "Spills",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0135:0}次",
+   "en": "{VAR:0135:0} times",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "烧焦次数",
+   "en": "Burns",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0135:0}次",
+   "en": "{VAR:0135:0} times",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "完成的松饼：",
+   "en": "Poffins Made:",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0109:3}　Ｌｖ．{VAR:0133:1}　ｘ　{VAR:0133:2}",
+   "en": "{VAR:0109:3} Lv.{VAR:0133:1} x {VAR:0133:2}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "团队合作",
+   "en": "Teamwork",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0135:0}点",
+   "en": "{VAR:0135:0} pts.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0103:0}将{VAR:0109:3}{NEWLINE}放入松饼盒。",
+   "en": "{VAR:0103:0} put the {VAR:0109:3}{NEWLINE}in the Poffin Case.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "要制作继续松饼吗？",
+   "en": "Keep making Poffins?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "有不方便的人,{NEWLINE}终止料理。",
+   "en": "Someone had to drop out,{NEWLINE}so the cooking has been stopped.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "请从背包那选择要制作{NEWLINE}料理的树果！",
+   "en": "Please choose a Berry from{NEWLINE}the Bag to cook with!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "松饼盒已经满了。",
+   "en": "The Poffin Case is full.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "没有树果。",
+   "en": "You don’t have any Berries.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

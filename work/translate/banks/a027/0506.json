@@ -1,0 +1,610 @@
+{
+ "narc": "a027",
+ "bank": 506,
+ "source": "work/extract/v4/a027/0506.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "阿桔『你先是在道馆击败阿杏,{NEWLINE}又在浅红森林抢到铃铛,{CLEAR}还战胜了我精心培育的毛球,{CLEAR}表现可谓相当出色。{SCROLL}阿桔『我可是非常期待{NEWLINE}跟你的这次正式道馆战。",
+   "en": "Koga: First you defeated Janine at the{NEWLINE}Gym, then you seized the bell in the{CLEAR}Fuchsia Forest, and you even beat my{CLEAR}carefully raised Venonat. A truly{CLEAR}outstanding showing.{SCROLL}Koga: I have been looking forward to{NEWLINE}this official Gym battle with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "阿桔『厉害！居然能将我的忍术{NEWLINE}一一化解并做出反击。{CLEAR}你的实力配得上这枚粉红徽章！",
+   "en": "Koga: Impressive! You saw through my{NEWLINE}ninja arts one by one and struck back.{CLEAR}You are worthy of this Soul Badge!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}从阿桔那{NEWLINE}得到了粉红徽章！",
+   "en": "{VAR:0103:0} received the Soul Badge from{NEWLINE}Koga!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0514/2"
+  },
+  {
+   "id": 3,
+   "zh": "阿桔『你已经与火箭队结了仇,{NEWLINE}恐怕日后还要不断与他们相遇、战斗。{CLEAR}我现在送给你一个技能机,{CLEAR}里面记录了我们浅红道馆{CLEAR}代代相传的毒系秘术,{CLEAR}希望能在你日后的战斗中派上用场。{SCROLL}",
+   "en": "Koga: You have made enemies of Team{NEWLINE}Rocket. I fear you will keep crossing{CLEAR}paths with them, and battling them.{SCROLL}I am giving you a TM. It holds the{NEWLINE}secret Poison-type art passed down{CLEAR}through generations at our Fuchsia{CLEAR}Gym. May it serve you well in the{CLEAR}battles to come.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "阿桔『训练家之路{NEWLINE}和忍者之路一样艰辛,{CLEAR}但如果是你的话,一定没有问题。{CLEAR}加油吧！",
+   "en": "Koga: The path of a Trainer is as hard{NEWLINE}as the path of a ninja. But for you, I{CLEAR}have no doubt. Keep at it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "你好！{NEWLINE}未来的传说！{SCROLL}……哎呀！{NEWLINE}仔细看看周围！{CLEAR}有好多{CLEAR}馆主阿桔啊！{SCROLL}哪一个才是真人,你分辨的出吗？",
+   "en": "Yo, legend in the making!{SCROLL}Whoops! Take a good look around you.{SCROLL}There are lots of Gym Leader Kogas{NEWLINE}here!{SCROLL}Can you tell which one is real?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0514/5 | US Gym-trainer lines (#5–#16, #18) retranslated: in this hack the Gym Leader is Koga (阿桔), not Janine; #6 zh says Pallet Town, not Johto."
+  },
+  {
+   "id": 6,
+   "zh": "真是出色的对决啊,{NEWLINE}从真新镇来的训练家啊！",
+   "en": "That was a great battle, Trainer from{NEWLINE}Pallet Town!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0514/6"
+  },
+  {
+   "id": 7,
+   "zh": "被骗了吧！{NEWLINE}啊哈哈哈哈！{SCROLL}",
+   "en": "Fooled you!{NEWLINE}Hahaha!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0514/7"
+  },
+  {
+   "id": 8,
+   "zh": "我的变装怎么样？{NEWLINE}人家说很适合我啊。",
+   "en": "Well? Wasn’t my disguise perfect?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0514/8"
+  },
+  {
+   "id": 9,
+   "zh": "哇哈哈！{SCROLL}是啊！{NEWLINE}我就是阿桔！{SCROLL}",
+   "en": "Wahahaha!{SCROLL}That’s right! I’m Koga!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0514/9"
+  },
+  {
+   "id": 10,
+   "zh": "是啊,我是忍者！{NEWLINE}变装成阿桔馆主{CLEAR}不错吧！",
+   "en": "That’s right, I’m a ninja! Pretty good{NEWLINE}Koga disguise, huh?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0514/10"
+  },
+  {
+   "id": 11,
+   "zh": "呼呼！{NEWLINE}我是馆主阿桔……{CLEAR}哈哈！{CLEAR}我骗你的！{SCROLL}",
+   "en": "Fufufu! I am Koga, the Gym Leader... Ha{NEWLINE}ha! Just kidding!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0514/11"
+  },
+  {
+   "id": 12,
+   "zh": "啊哈哈哈哈,{NEWLINE}太有趣了。{SCROLL}",
+   "en": "Ahahahaha! That was so much fun.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0514/12"
+  },
+  {
+   "id": 13,
+   "zh": "居然能变装成我崇拜的{NEWLINE}阿桔,我真是太高兴了。",
+   "en": "I’m so happy I get to dress up as Koga,{NEWLINE}my idol.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0514/13"
+  },
+  {
+   "id": 14,
+   "zh": "我是阿桔！{NEWLINE}真亏你能认出来啊！{CLEAR}真厉害啊！{SCROLL}",
+   "en": "I’m Koga! Nice job spotting me!{NEWLINE}Impressive!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0514/14"
+  },
+  {
+   "id": 15,
+   "zh": "开玩笑的！{SCROLL}",
+   "en": "Just kidding!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0514/15"
+  },
+  {
+   "id": 16,
+   "zh": "变装成阿桔馆主后,{NEWLINE}我感觉我也变强了。",
+   "en": "I feel stronger dressed up as Koga.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0514/16"
+  },
+  {
+   "id": 17,
+   "zh": "浅红市　精灵道馆",
+   "en": "Fuchsia City Pokémon Gym",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0514/17"
+  },
+  {
+   "id": 18,
+   "zh": "浅红市　精灵道馆{SCROLL}道馆馆主　阿桔{NEWLINE}所认可的训练师！{CLEAR}{VAR:0103:0}",
+   "en": "Fuchsia City Pokémon Gym{SCROLL}Leader: Koga{NEWLINE}Certified Trainers:{CLEAR}{VAR:0103:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0514/18"
+  },
+  {
+   "id": 19,
+   "zh": "阿桔『挑战者啊,{NEWLINE}你发现我的真身了吗？{CLEAR}按照精灵联盟的规定,{CLEAR}只要你能战胜浅红道馆的馆主,{CLEAR}粉红徽章就是你的了！",
+   "en": "Koga: Challenger, have you found my{NEWLINE}true form? By Pokémon League rules, if{CLEAR}you defeat the Fuchsia Gym Leader, the{CLEAR}Soul Badge is yours!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#19/#20 are Janine disguised as Koga (zh label 阿桔); revealed in #21–#23."
+  },
+  {
+   "id": 20,
+   "zh": "阿桔『嘿嘿,虽然你赢了我,{NEWLINE}但是粉红徽章不能给你。{CLEAR}我刚刚说过了吧,{CLEAR}战胜道馆馆主才能获得粉红徽章。{CLEAR}真遗憾呀,因为我不是馆主,{CLEAR}所以你也没得徽章咯。{SCROLL}阿桔『要问真的馆主在哪里的话……",
+   "en": "Koga: Heh heh, you beat me, but I can’t{NEWLINE}give you the Soul Badge. I just told{CLEAR}you, didn’t I? Only defeating the Gym{CLEAR}Leader earns the Soul Badge.{SCROLL}Too bad for you! I’m not the Gym{NEWLINE}Leader, so no Badge for you!{SCROLL}Koga: If you want to know where the{NEWLINE}real Gym Leader is...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "阿桔『看那边！",
+   "en": "Koga: Look over there!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "阿桔『辛苦了,阿杏。",
+   "en": "Koga: Well done, Janine.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "阿杏『嘿嘿,父亲大人,{NEWLINE}这是您头一次允许我捉弄挑战者,{CLEAR}很有意思呢。",
+   "en": "Janine: Hee hee, Father, this is the{NEWLINE}first time you’ve let me play a trick on{CLEAR}a challenger. It was fun!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "阿桔『这位挑战者,你过来。",
+   "en": "Koga: You there, challenger. Come here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "阿桔『你能打败我女儿阿杏,{NEWLINE}足见你很有实力。{CLEAR}但是想获得粉红徽章{CLEAR}可不是只靠实力就行的。{SCROLL}阿桔『据我所知,你有两个朋友{NEWLINE}也是为了粉红徽章而来到浅红市。{CLEAR}你如果想获得挑战我的资格,{CLEAR}就先把他们带我到这里来吧。",
+   "en": "Koga: Defeating my daughter Janine{NEWLINE}shows you have real skill. But earning{CLEAR}the Soul Badge takes more than skill.{SCROLL}Koga: As far as I know, two of your{NEWLINE}friends have also come to Fuchsia City{CLEAR}for the Soul Badge. If you want the{CLEAR}right to challenge me, first bring them{CLEAR}here to me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "小绿『唉,这个馆主又在卖关子,{NEWLINE}说是要等咱们三个到齐之后{CLEAR}才能公布挑战规则。",
+   "en": "Blue: Ugh, this Leader is being all{NEWLINE}mysterious again. He says he won’t tell{CLEAR}us the challenge rules until all three of{CLEAR}us are here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branches: Blue #26/#27; partner Green (male player) #31/#33/#39/#48/#52 vs Red (female player) #29/#32/#40/#49/#53; player answer #41 accept / #42 reluctant. 粉红徽章 and 浅红徽章 both = Soul Badge."
+  },
+  {
+   "id": 27,
+   "zh": "小绿『阿桔馆主好像要给咱们{NEWLINE}一个特殊的考验。{CLEAR}所以要等咱们三个到齐之后{CLEAR}他才肯公布挑战规则。",
+   "en": "Blue: Looks like Gym Leader Koga has a{NEWLINE}special test for us.{SCROLL}He won’t tell us the rules until all{NEWLINE}three of us are here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "小绿『现在人都到齐了,{NEWLINE}也该问问他挑战规则是什么了。",
+   "en": "Blue: Now that everyone’s here, let’s{NEWLINE}ask him what the rules are.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "小赤『现在去问阿桔馆主的话,{NEWLINE}他应该就会说出挑战的规则了吧。",
+   "en": "Red: If we ask Gym Leader Koga now, he{NEWLINE}should tell us the challenge rules.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "妙蛙花『Venu——sau！",
+   "en": "Venusaur: Venu-sau!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 31,
+   "zh": "小蓝『馆主说要咱们三个都到齐后{NEWLINE}才公布挑战规则。{CLEAR}{VAR:0103:0}你知道小绿在哪吗？",
+   "en": "Green: The Leader said he’ll tell us the{NEWLINE}rules once all three of us are here.{CLEAR}{VAR:0103:0}, do you know where Blue is?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "小赤『馆主说要咱们三个都到齐后{NEWLINE}才公布挑战规则。{CLEAR}{VAR:0103:0}你知道小绿在哪吗？",
+   "en": "Red: The Leader said he’ll tell us the{NEWLINE}rules once all three of us are here.{CLEAR}{VAR:0103:0}, do you know where Blue is?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "小蓝『现在去问阿桔馆主的话,{NEWLINE}他应该就会说出挑战的规则了吧。",
+   "en": "Green: If we ask Gym Leader Koga now,{NEWLINE}he should tell us the challenge rules.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "水箭龟『Blas——to！",
+   "en": "Blastoise: Blas-to!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "阿桔『最后一人也来了啊,{NEWLINE}这样一来人就到齐了。",
+   "en": "Koga: So the last one has arrived. Now{NEWLINE}everyone is here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "阿桔『那位挑战者,你到这边来吧,{NEWLINE}我现在要向你们说明挑战规则了。",
+   "en": "Koga: You there, challenger, come over{NEWLINE}here.{SCROLL}I will now explain the rules of the{NEWLINE}challenge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "阿桔『非常欢迎你们来挑战浅红道馆,{NEWLINE}我听达马兰奇主席提起过你们,{CLEAR}说你们是非常优秀的新人。{CLEAR}而且最近还在彩虹市{CLEAR}帮助莉佳馆主捣毁了火箭队基地。{CLEAR}像你们这么厉害的训练家,{CLEAR}如果用普通的挑战规则就太简单了。{CLEAR}所以我特意为你们设计了一个考验。{CLEAR}如果你们想从我这里拿到浅红徽章,{CLEAR}就必须要接受这个考验。{CLEAR}怎么样,没问题吧？",
+   "en": "Koga: Welcome, all of you, to the{NEWLINE}Fuchsia Gym.{SCROLL}President Goodshow has told me about{NEWLINE}you. He says you are outstanding{CLEAR}newcomers, and that you recently{CLEAR}helped Gym Leader Erika destroy Team{CLEAR}Rocket’s base in Celadon City.{SCROLL}For Trainers as capable as you, the{NEWLINE}usual challenge rules would be too{CLEAR}easy. So I have designed a special test{CLEAR}just for you.{SCROLL}If you want the Soul Badge from me, you{NEWLINE}must take this test. Any objections?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "小绿『吓唬谁呢,{NEWLINE}我们还能害怕不成？",
+   "en": "Blue: Who are you trying to scare? You{NEWLINE}think we’re afraid?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "小蓝『哎？？？我还是更想{NEWLINE}用普通的方式轻松地获得徽章。",
+   "en": "Green: Huh??? I’d rather get the Badge{NEWLINE}the normal, easy way.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "小赤『没问题,我愿意接受考验。",
+   "en": "Red: No problem. I accept the test.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "{VAR:0103:0}『没问题,我愿意接受考验。",
+   "en": "{VAR:0103:0}: No problem. I accept the{NEWLINE}test.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "{VAR:0103:0}『哎？？？我还是更想{NEWLINE}用普通的方式轻松地获得徽章。",
+   "en": "{VAR:0103:0}: Huh??? I’d rather get the{NEWLINE}Badge the normal, easy way.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "阿桔『哼哼,想获得浅红徽章,{NEWLINE}你们可没有选择的余地。{CLEAR}我现在开始介绍挑战规则,{CLEAR}你们可要听仔细了。{SCROLL}阿桔『在浅红市东北有一座森林,{NEWLINE}平时是不允许人进去的,{CLEAR}但是今天为你们破一次例。{CLEAR}我在浅红森林里放了一个铃铛,{CLEAR}你们三个需要去森林里找到这个铃铛,{CLEAR}最后拿到铃铛的人才有资格向我挑战。{CLEAR}另外两个没拿到铃铛的人{CLEAR}一年之内不准再向浅红道馆挑战。",
+   "en": "Koga: Heh heh. If you want the Soul{NEWLINE}Badge, you have no choice. I will now{CLEAR}explain the rules, so listen carefully.{SCROLL}Koga: Northeast of Fuchsia City lies a{NEWLINE}forest. Normally no one is allowed{CLEAR}inside, but today I make an exception{CLEAR}for you.{SCROLL}I have placed a bell in the Fuchsia{NEWLINE}Forest. The three of you must go into{CLEAR}the forest and find it. Only the one who{CLEAR}ends up holding the bell earns the right{CLEAR}to challenge me.{SCROLL}The two who don’t get the bell are{NEWLINE}barred from challenging the Fuchsia Gym{CLEAR}for a year.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "小绿『开什么玩笑,{NEWLINE}用这种方式拒绝挑战者{CLEAR}根本就不符合精灵联盟的规定！",
+   "en": "Blue: You’ve got to be kidding! Turning{NEWLINE}challengers away like this breaks{CLEAR}Pokémon League rules!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "阿桔『你这是害怕抢不到铃铛,{NEWLINE}所以着急了吗？{CLEAR}你要是这种胆小鬼的话,{CLEAR}我只能说达马兰奇主席看走了眼。",
+   "en": "Koga: Getting anxious because you fear{NEWLINE}you won’t get the bell? If you are that{CLEAR}much of a coward, I can only say{CLEAR}President Goodshow misjudged you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "小绿『少看不起人了,{NEWLINE}我肯定是抢到铃铛的那一个。",
+   "en": "Blue: Don’t look down on me! I’m{NEWLINE}definitely the one who’ll get the bell.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "阿桔『很好。{NEWLINE}那你们两位还有什么意见吗？",
+   "en": "Koga: Very good. And do you two have{NEWLINE}any objections?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "小蓝『哎,你这种玩法,{NEWLINE}我是很难抢到铃铛了。{CLEAR}就当陪{VAR:0103:0}、小绿练练咯。{CLEAR}大不了再去城都地区收集徽章。",
+   "en": "Green: Ugh, the way you’ve set this up,{NEWLINE}there’s no way I’ll get the bell.{SCROLL}I’ll just be sparring for {VAR:0103:0} and{NEWLINE}Blue. Worst case, I’ll go collect Badges{CLEAR}in Johto.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "小赤『是挺有挑战性,{NEWLINE}不过我不会逃避的。",
+   "en": "Red: It’s quite a challenge, but I won’t{NEWLINE}run from it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "{VAR:0103:0}『有机会获得徽章,{NEWLINE}我怎么能不试试呢。",
+   "en": "{VAR:0103:0}: A chance at a Badge? How{NEWLINE}could I not try?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "阿桔『很好,那么现在考验开始,{NEWLINE}拿到铃铛回到这里的人即为胜利者！",
+   "en": "Koga: Very well. The test begins now.{NEWLINE}Whoever returns here with the bell is{CLEAR}the winner!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "小蓝『{VAR:0103:0}、小绿,{NEWLINE}我就不等你们了,我先走咯。",
+   "en": "Green: {VAR:0103:0}, Blue, I’m not waiting{NEWLINE}for you. I’m off!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "小赤『{VAR:0103:0}、小绿,{NEWLINE}咱们森林里见吧！",
+   "en": "Red: {VAR:0103:0}, Blue, see you in the{NEWLINE}forest!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "小绿『走吧{VAR:0103:0},{NEWLINE}正好借这个机会较量一下,{CLEAR}看谁才是真新镇最强的训练家！",
+   "en": "Blue: Let’s go, {VAR:0103:0}. This is the{NEWLINE}perfect chance to settle who’s the{CLEAR}strongest Trainer in Pallet Town!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "阿桔『在浅红市东北部有座森林,{NEWLINE}去那里找到忍者铃铛带回来的人,{CLEAR}才有资格向我挑战。",
+   "en": "Koga: There is a forest in northeast{NEWLINE}Fuchsia City. Only one who finds the{CLEAR}ninja bell there and brings it back may{CLEAR}challenge me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "阿桔『有对夫妇失散多年的孩子{NEWLINE}可能就在浅红森林？{CLEAR}所以他们想进浅红森林找找看？{SCROLL}阿桔『可怜天下父母心,{NEWLINE}我会跟警卫打招呼放行的,{CLEAR}你转告他们尽管去找就好了。",
+   "en": "Koga: A couple’s child, lost for many{NEWLINE}years, may be in the Fuchsia Forest?{CLEAR}And so they wish to search there?{SCROLL}Koga: Every parent’s heart aches the{NEWLINE}same. I will tell the guards to let them{CLEAR}through. Tell them they may search as{CLEAR}they please.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "阿杏『别看我这样,{NEWLINE}我可是浅红道馆的第二高手哦。{CLEAR}如果你能拿到粉红徽章,{CLEAR}我就再跟你多对战几次,{CLEAR}帮你的精灵提升一下物攻努力值。",
+   "en": "Janine: Don’t let my looks fool you. I’m{NEWLINE}the second-best fighter in the Fuchsia{CLEAR}Gym! If you get the Soul Badge, I’ll{CLEAR}battle you a few more times to help{CLEAR}build your Pokémon’s Attack EVs.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "阿杏『你已经获得浅红徽章啦。{NEWLINE}那么现在你只要能给我1个烧伤果,{CLEAR}我就可以帮你锻炼{CLEAR}精灵的物攻努力值哦。{CLEAR}怎么样,需要吗？{SCROLL}",
+   "en": "Janine: You’ve got the Soul Badge now!{NEWLINE}So if you give me one Rawst Berry, I can{CLEAR}help train your Pokémon’s Attack EVs.{CLEAR}How about it? Interested?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "阿杏『想要练习的话{NEWLINE}随时欢迎来找我。",
+   "en": "Janine: If you want to train, come see{NEWLINE}me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "阿杏『好嘞,浅红道馆的忍者修行,{NEWLINE}现在开始！",
+   "en": "Janine: All right! Fuchsia Gym ninja{NEWLINE}training, begin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "阿杏『哦呼,你很行嘛！",
+   "en": "Janine: Ooh, you’re good!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "阿桔『据我所知,你有两个朋友{NEWLINE}也是为了粉红徽章而来到浅红市。{CLEAR}你如果想获得挑战我的资格,{CLEAR}就先把他们带我到这里来吧。",
+   "en": "Koga: As far as I know, two of your{NEWLINE}friends have also come to Fuchsia City{CLEAR}for the Soul Badge. If you want the{CLEAR}right to challenge me, first bring them{CLEAR}here to me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "阿桔『还有我的电话号码,{NEWLINE}你以后应该也会用得到。",
+   "en": "Koga: And here is my phone number. You{NEWLINE}will likely find a use for it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "{VAR:0103:0}把阿桔{NEWLINE}登录到了手机中！",
+   "en": "{VAR:0103:0} registered Koga in the{NEWLINE}Pokégear!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "阿桔『我本来以为{NEWLINE}坂木先生就是训练家的天花板了,{CLEAR}没想到你竟然能打败他。{SCROLL}阿桔『遇到像你这样的强者,{NEWLINE}总会让人忍不住想要过两招。{CLEAR}你是不是也想来跟我比试一下呢？{SCROLL}",
+   "en": "Koga: I believed Mr. Giovanni was as high{NEWLINE}as a Trainer could climb, yet you{CLEAR}managed to defeat him.{SCROLL}Koga: Meeting someone as strong as you{NEWLINE}makes one itch to trade a few blows.{CLEAR}You would like a match with me as well,{CLEAR}would you not?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "阿桔『你可看好了,{NEWLINE}这是我们忍者的秘传战术！",
+   "en": "Koga: Watch closely. This is the secret{NEWLINE}battle art of us ninja!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "阿桔『果然,只有在实战中{NEWLINE}才能更加真切地体会你的强大。",
+   "en": "Koga: As I thought. Only in real combat{NEWLINE}can one truly feel how strong you are.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "阿杏『{VAR:0103:0},虽然你现在是冠军了,{NEWLINE}但是修行可不能就此打住哟。{CLEAR}只要你能给我1个烧伤果,{CLEAR}我就能陪你锻炼物攻努力值哦。{CLEAR}怎么样,需要吗？{SCROLL}",
+   "en": "Janine: {VAR:0103:0}, you may be the{NEWLINE}Champion now, but your training can’t{CLEAR}stop here! If you give me one Rawst{CLEAR}Berry, I’ll help you train Attack EVs.{CLEAR}How about it? Interested?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "阿杏『你并没有烧伤果哦,{NEWLINE}等有了再来找我吧！",
+   "en": "Janine: You don’t have a Rawst Berry.{NEWLINE}Come back when you’ve got one!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "阿桔『你希望单打还是双打？{SCROLL}",
+   "en": "Koga: Would you prefer a Single Battle{NEWLINE}or a Double Battle?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 72,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 73,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 74,
+   "zh": "阿桔『你携带的精灵太少,{NEWLINE}无法进行双打。",
+   "en": "Koga: You don’t have enough Pokémon{NEWLINE}with you for a Double Battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,1765 @@
+{
+ "narc": "a027",
+ "bank": 790,
+ "source": "work/extract/v4/a027/0790.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "发现的数量",
+   "en": "SEEN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/0"
+  },
+  {
+   "id": 1,
+   "zh": "捕获的数量",
+   "en": "OBTAINED",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/1"
+  },
+  {
+   "id": 2,
+   "zh": "ＣＨＮ",
+   "en": "CHN",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "Ｅ",
+   "en": "ENG",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "ＦＲＡ",
+   "en": "FRA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "ＧＥＲ",
+   "en": "GER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "ＩＴＡ",
+   "en": "ITA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "ＳＰＡ",
+   "en": "SPA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "说明",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/8"
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "高度",
+   "en": "HT",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0802/45 | seed rejected us [ambiguous US match] (candidate US 0802#45; text not kept) | v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 11,
+   "zh": "重量",
+   "en": "WT",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0802/137 | seed rejected us [ambiguous US match] (candidate US 0802#137; text not kept) | v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 12,
+   "zh": "『搜索模式』",
+   "en": "Search Mode",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/12"
+  },
+  {
+   "id": 13,
+   "zh": "请输入条件。",
+   "en": "Please enter the search criteria.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/13"
+  },
+  {
+   "id": 14,
+   "zh": "『搜索结果』",
+   "en": "Search Results",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/14"
+  },
+  {
+   "id": 15,
+   "zh": "发现的数量　{VAR:0134:0}",
+   "en": "RESULTS {VAR:0134:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/15"
+  },
+  {
+   "id": 16,
+   "zh": "请指定图鉴的排列。",
+   "en": "Select the Pokédex listing mode.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/16"
+  },
+  {
+   "id": 17,
+   "zh": "请指定名称的首字。",
+   "en": "List by the first letter in the name.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/17"
+  },
+  {
+   "id": 18,
+   "zh": "请指定属性。",
+   "en": "List by type.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/18"
+  },
+  {
+   "id": 19,
+   "zh": "请指定重量范围。",
+   "en": "List by weight range.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/19"
+  },
+  {
+   "id": 20,
+   "zh": "请指定高度范围。",
+   "en": "List by height range.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/20"
+  },
+  {
+   "id": 21,
+   "zh": "请指定外形。",
+   "en": "List by body style.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/21"
+  },
+  {
+   "id": 22,
+   "zh": "请指定栖息地。",
+   "en": "List by area.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/22"
+  },
+  {
+   "id": 23,
+   "zh": "符合条件的精灵",
+   "en": "No matching Pokémon were found.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/23"
+  },
+  {
+   "id": 24,
+   "zh": "找不到⋯⋯",
+   "en": "Not found...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/24"
+  },
+  {
+   "id": 25,
+   "zh": "正在搜索⋯⋯",
+   "en": "Searching...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/25"
+  },
+  {
+   "id": 26,
+   "zh": "排列中",
+   "en": "ORDER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/26"
+  },
+  {
+   "id": 27,
+   "zh": "名称",
+   "en": "NAME",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/27"
+  },
+  {
+   "id": 28,
+   "zh": "属性",
+   "en": "TYPE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/28"
+  },
+  {
+   "id": 29,
+   "zh": "高度",
+   "en": "HT",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0802/45 | seed rejected us [ambiguous US match] (candidate US 0802#45; text not kept) | v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 30,
+   "zh": "重量",
+   "en": "WT",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0802/137 | seed rejected us [ambiguous US match] (candidate US 0802#137; text not kept) | v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 31,
+   "zh": "栖息地",
+   "en": "AREA",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/31"
+  },
+  {
+   "id": 32,
+   "zh": "外形",
+   "en": "FORM",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/32"
+  },
+  {
+   "id": 33,
+   "zh": "关东",
+   "en": "KANTO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 34,
+   "zh": "城都",
+   "en": "JOHTO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 35,
+   "zh": "复位",
+   "en": "RESET",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/35"
+  },
+  {
+   "id": 36,
+   "zh": "开始",
+   "en": "START",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/36"
+  },
+  {
+   "id": 37,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/37"
+  },
+  {
+   "id": 38,
+   "zh": "{VAR:0134:0}．{VAR:0132:1}",
+   "en": "{VAR:0134:0}.{VAR:0132:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "确定",
+   "en": "OK",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/39"
+  },
+  {
+   "id": 40,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/40"
+  },
+  {
+   "id": 41,
+   "zh": "编号",
+   "en": "Numerical",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/41"
+  },
+  {
+   "id": 42,
+   "zh": "五十音",
+   "en": "A to Z",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/42"
+  },
+  {
+   "id": 43,
+   "zh": "重的",
+   "en": "Heaviest",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/43"
+  },
+  {
+   "id": 44,
+   "zh": "轻的",
+   "en": "Lightest",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/44"
+  },
+  {
+   "id": 45,
+   "zh": "高的",
+   "en": "Tallest",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/45"
+  },
+  {
+   "id": 46,
+   "zh": "矮的",
+   "en": "Smallest",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/46"
+  },
+  {
+   "id": 47,
+   "zh": "恶",
+   "en": "Dark",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/47"
+  },
+  {
+   "id": 48,
+   "zh": "岩",
+   "en": "Rock",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/48"
+  },
+  {
+   "id": 49,
+   "zh": "超能",
+   "en": "Psychic",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/49"
+  },
+  {
+   "id": 50,
+   "zh": "格斗",
+   "en": "Fight",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/50"
+  },
+  {
+   "id": 51,
+   "zh": "草",
+   "en": "Grass",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/51"
+  },
+  {
+   "id": 52,
+   "zh": "冰",
+   "en": "Ice",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/52"
+  },
+  {
+   "id": 53,
+   "zh": "鬼",
+   "en": "Ghost",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/53"
+  },
+  {
+   "id": 54,
+   "zh": "地面",
+   "en": "Ground",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/54"
+  },
+  {
+   "id": 55,
+   "zh": "电",
+   "en": "Electric",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/55"
+  },
+  {
+   "id": 56,
+   "zh": "毒",
+   "en": "Poison",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/56"
+  },
+  {
+   "id": 57,
+   "zh": "龙",
+   "en": "Dragon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/57"
+  },
+  {
+   "id": 58,
+   "zh": "普通",
+   "en": "Normal",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0802/145 | seed rejected us [ambiguous US match] (candidate US 0802#145; text not kept) | v3 TM: 6 source(s), same position"
+  },
+  {
+   "id": 59,
+   "zh": "钢",
+   "en": "Steel",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/59"
+  },
+  {
+   "id": 60,
+   "zh": "飞行",
+   "en": "Flying",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/60"
+  },
+  {
+   "id": 61,
+   "zh": "火",
+   "en": "Fire",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/61"
+  },
+  {
+   "id": 62,
+   "zh": "水",
+   "en": "Water",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/62"
+  },
+  {
+   "id": 63,
+   "zh": "虫",
+   "en": "Bug",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/63"
+  },
+  {
+   "id": 64,
+   "zh": "ーーーー",
+   "en": "----",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "城都",
+   "en": "JOHTO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/65"
+  },
+  {
+   "id": 66,
+   "zh": "关东",
+   "en": "KANTO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/66"
+  },
+  {
+   "id": 67,
+   "zh": "不明",
+   "en": "UNKNOWN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/67"
+  },
+  {
+   "id": 68,
+   "zh": "ーーーー",
+   "en": "----",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "ア",
+   "en": "A",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US layout: A–Z in 69–94, 95–112 blank (zh: katakana initials). Check the search-by-letter screen in game."
+  },
+  {
+   "id": 70,
+   "zh": "イ",
+   "en": "B",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "ウ",
+   "en": "C",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "エ",
+   "en": "D",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "オ",
+   "en": "E",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "カ",
+   "en": "F",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "キ",
+   "en": "G",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "ク",
+   "en": "H",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "ケ",
+   "en": "I",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "コ",
+   "en": "J",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "サ",
+   "en": "K",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "シ",
+   "en": "L",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "ス",
+   "en": "M",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "セ",
+   "en": "N",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "ソ",
+   "en": "O",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "タ",
+   "en": "P",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "チ",
+   "en": "Q",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "ツ",
+   "en": "R",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "テ",
+   "en": "S",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "ト",
+   "en": "T",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "ナ",
+   "en": "U",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "ニ",
+   "en": "V",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "ヌ",
+   "en": "W",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "ネ",
+   "en": "X",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "ノ",
+   "en": "Y",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "ハ",
+   "en": "Z",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "ヒ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 96,
+   "zh": "フ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 97,
+   "zh": "ヘ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 98,
+   "zh": "ホ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 99,
+   "zh": "マ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 100,
+   "zh": "ミ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 101,
+   "zh": "ム",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 102,
+   "zh": "メ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 103,
+   "zh": "モ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 104,
+   "zh": "ヤ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 105,
+   "zh": "ユ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 106,
+   "zh": "ヨ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 107,
+   "zh": "ラ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 108,
+   "zh": "リ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 109,
+   "zh": "ル",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 110,
+   "zh": "レ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 111,
+   "zh": "ロ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 112,
+   "zh": "ワ",
+   "en": "",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "empty"
+   ]
+  },
+  {
+   "id": 113,
+   "zh": "ー",
+   "en": "-",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "雄性外形",
+   "en": "Male",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0802/32 | seed rejected us [ambiguous US match] (candidate US 0802#32; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 115,
+   "zh": "雌性外形",
+   "en": "Female",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0802/32 | seed rejected us [ambiguous US match] (candidate US 0802#32; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 116,
+   "zh": "西部形态",
+   "en": "West Sea",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/116"
+  },
+  {
+   "id": 117,
+   "zh": "东部形态",
+   "en": "East Sea",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/117"
+  },
+  {
+   "id": 118,
+   "zh": "草蓑衣",
+   "en": "Plant Cloak",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/118"
+  },
+  {
+   "id": 119,
+   "zh": "沙蓑衣",
+   "en": "Sandy Cloak",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/119"
+  },
+  {
+   "id": 120,
+   "zh": "垃圾蓑衣",
+   "en": "Trash Cloak",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/120"
+  },
+  {
+   "id": 121,
+   "zh": "有图鉴",
+   "en": "Has entry",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0802/121; ext-review RC-006"
+  },
+  {
+   "id": 122,
+   "zh": "日语图鉴",
+   "en": "JP Pokédex",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/122"
+  },
+  {
+   "id": 123,
+   "zh": "英语图鉴",
+   "en": "EN Pokédex",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/123"
+  },
+  {
+   "id": 124,
+   "zh": "法语图鉴",
+   "en": "FR Pokédex",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/124"
+  },
+  {
+   "id": 125,
+   "zh": "德语图鉴",
+   "en": "GE Pokédex",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/125"
+  },
+  {
+   "id": 126,
+   "zh": "意大利语图鉴",
+   "en": "IT Pokédex",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/126"
+  },
+  {
+   "id": 127,
+   "zh": "西班牙语图鉴",
+   "en": "SP Pokédex",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/127"
+  },
+  {
+   "id": 128,
+   "zh": "栖息地不明",
+   "en": "Area Unknown",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/128"
+  },
+  {
+   "id": 129,
+   "zh": "早晨",
+   "en": "Morning",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/129"
+  },
+  {
+   "id": 130,
+   "zh": "白天",
+   "en": "Day",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/130"
+  },
+  {
+   "id": 131,
+   "zh": "夜晚",
+   "en": "Night",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/131"
+  },
+  {
+   "id": 132,
+   "zh": "切换",
+   "en": "SWITCH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/132"
+  },
+  {
+   "id": 133,
+   "zh": "{VAR:0104:0}",
+   "en": "{VAR:0104:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 134,
+   "zh": "显示全部",
+   "en": "SHOW ALL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/134"
+  },
+  {
+   "id": 135,
+   "zh": "显示全部",
+   "en": "SHOW ALL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/135"
+  },
+  {
+   "id": 136,
+   "zh": "比较大小",
+   "en": "Height Check",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/136"
+  },
+  {
+   "id": 137,
+   "zh": "比较重量",
+   "en": "Weight Check",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/137"
+  },
+  {
+   "id": 138,
+   "zh": "１．５０ｍ",
+   "en": "1.50 m",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Height/weight check sample values; the hack is metric."
+  },
+  {
+   "id": 139,
+   "zh": "１．５２ｍ",
+   "en": "1.52 m",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 140,
+   "zh": "４０．０ｋｇ",
+   "en": "40.0 kg",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "４１．０ｋｇ",
+   "en": "41.0 kg",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 142,
+   "zh": "分布",
+   "en": "AREA",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/142"
+  },
+  {
+   "id": 143,
+   "zh": "大小",
+   "en": "SIZE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/143"
+  },
+  {
+   "id": 144,
+   "zh": "精灵图鉴登陆完成！",
+   "en": "Pokédex registration completed.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/144"
+  },
+  {
+   "id": 145,
+   "zh": "普通形态",
+   "en": "Normal Forme",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/145"
+  },
+  {
+   "id": 146,
+   "zh": "攻击形态",
+   "en": "Attack Forme",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/146"
+  },
+  {
+   "id": 147,
+   "zh": "防御形态",
+   "en": "Defense Forme",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/147"
+  },
+  {
+   "id": 148,
+   "zh": "速度形态",
+   "en": "Speed Forme",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/148"
+  },
+  {
+   "id": 149,
+   "zh": "地面形态",
+   "en": "Land Forme",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0802/54 | seed rejected us [ambiguous US match] (candidate US 0802#54; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 150,
+   "zh": "天空形态",
+   "en": "Sky Forme",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/150"
+  },
+  {
+   "id": 151,
+   "zh": "另一形态",
+   "en": "Altered Forme",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/151"
+  },
+  {
+   "id": 152,
+   "zh": "起源形态",
+   "en": "Origin Forme",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/152"
+  },
+  {
+   "id": 153,
+   "zh": "洛托姆的形态",
+   "en": "Rotom",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/153; modernised from US 0802#153"
+  },
+  {
+   "id": 154,
+   "zh": "微波炉洛托姆",
+   "en": "Heat Rotom",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0802/154; modernised from US 0802#154"
+  },
+  {
+   "id": 155,
+   "zh": "洗衣机洛托姆",
+   "en": "Wash Rotom",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0802/155; modernised from US 0802#155"
+  },
+  {
+   "id": 156,
+   "zh": "冰箱洛托姆",
+   "en": "Frost Rotom",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0802/156; modernised from US 0802#156"
+  },
+  {
+   "id": 157,
+   "zh": "风扇洛托姆",
+   "en": "Fan Rotom",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0802/157; modernised from US 0802#157"
+  },
+  {
+   "id": 158,
+   "zh": "割草机洛托姆",
+   "en": "Mow Rotom",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0802/158; modernised from US 0802#158"
+  },
+  {
+   "id": 159,
+   "zh": "{VAR:0100:0}的形态",
+   "en": "{VAR:0100:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 160,
+   "zh": "飘浮泡泡的形态",
+   "en": "Normal",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/160"
+  },
+  {
+   "id": 161,
+   "zh": "晴天形态",
+   "en": "Sunny Form",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0802/165 | seed rejected us [ambiguous US match] (candidate US 0802#165; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 162,
+   "zh": "雨天形态",
+   "en": "Rainy Form",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0802/165 | seed rejected us [ambiguous US match] (candidate US 0802#165; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 163,
+   "zh": "雪天形态",
+   "en": "Snowy Form",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0802/165 | seed rejected us [ambiguous US match] (candidate US 0802#165; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 164,
+   "zh": "正面",
+   "en": "Front",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 正面/背面 (front/back) replaced the US Cherrim form labels in these slots."
+  },
+  {
+   "id": 165,
+   "zh": "背面",
+   "en": "Back",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0802/165"
+  },
+  {
+   "id": 166,
+   "zh": "锯耳",
+   "en": "Spiky-eared",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/166"
+  },
+  {
+   "id": 167,
+   "zh": "{VAR:0100:0}：",
+   "en": "{VAR:0100:0}:",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 168,
+   "zh": "查看标签",
+   "en": "COMPARE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/168"
+  },
+  {
+   "id": 169,
+   "zh": "查看{VAR:0100:0}的标签",
+   "en": "Compare {VAR:0100:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/169"
+  },
+  {
+   "id": 170,
+   "zh": "外形",
+   "en": "FORMS",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0802/32 | seed rejected us [ambiguous US match] (candidate US 0802#32; text not kept) | v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 171,
+   "zh": "切换",
+   "en": "SWITCH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/171"
+  },
+  {
+   "id": 172,
+   "zh": "返回",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/172"
+  },
+  {
+   "id": 173,
+   "zh": "返回",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/173"
+  },
+  {
+   "id": 174,
+   "zh": "返回目录",
+   "en": "RETURN TO LIST",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/174"
+  },
+  {
+   "id": 175,
+   "zh": "详细资料",
+   "en": "DETAILS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 176,
+   "zh": "Lv{VAR:0100:0}",
+   "en": "Lv{VAR:0100:0}",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 177,
+   "zh": "遗传",
+   "en": "EGG",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 178,
+   "zh": "教学",
+   "en": "TUTOR",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 179,
+   "zh": "技能",
+   "en": "TM",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "技能 in the hack’s detail page, after Lv/遗传/教学 tabs; read as the TM move list. Check in game."
+  },
+  {
+   "id": 180,
+   "zh": "属性",
+   "en": "TYPE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0802/28"
+  },
+  {
+   "id": 181,
+   "zh": "威力",
+   "en": "POWER",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s)"
+  },
+  {
+   "id": 182,
+   "zh": "命中",
+   "en": "ACCURACY",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s)"
+  },
+  {
+   "id": 183,
+   "zh": "攻击",
+   "en": "ATTACK",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0802/146 | seed rejected us [ambiguous US match] (candidate US 0802#146; text not kept) | v3 TM: 2 source(s)"
+  },
+  {
+   "id": 184,
+   "zh": "防御",
+   "en": "DEFENSE",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0802/147 | seed rejected us [ambiguous US match] (candidate US 0802#147; text not kept) | v3 TM: 2 source(s)"
+  },
+  {
+   "id": 185,
+   "zh": "特攻",
+   "en": "SP. ATK",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 186,
+   "zh": "特防",
+   "en": "SP. DEF",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 187,
+   "zh": "速度",
+   "en": "SPEED",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0802/148 | seed rejected us [ambiguous US match] (candidate US 0802#148; text not kept) | v3 TM: 7 source(s)"
+  },
+  {
+   "id": 188,
+   "zh": "总和",
+   "en": "TOTAL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 189,
+   "zh": "特性",
+   "en": "ABILITY",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 190,
+   "zh": "类型",
+   "en": "CATEGORY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 191,
+   "zh": "物理",
+   "en": "PHYSICAL",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 192,
+   "zh": "特殊",
+   "en": "SPECIAL",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 193,
+   "zh": "变化",
+   "en": "STATUS",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 194,
+   "zh": "--",
+   "en": "--",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 195,
+   "zh": "HP",
+   "en": "HP",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 196,
+   "zh": "蛋组",
+   "en": "EGG GROUP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 197,
+   "zh": "怪兽组",
+   "en": "Monster",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 198,
+   "zh": "水中1组",
+   "en": "Water 1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 199,
+   "zh": "虫组",
+   "en": "Bug",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0802/63 | seed rejected us [ambiguous US match] (candidate US 0802#63; text not kept)"
+  },
+  {
+   "id": 200,
+   "zh": "飞行组",
+   "en": "Flying",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0802/60 | seed rejected us [ambiguous US match] (candidate US 0802#60; text not kept)"
+  },
+  {
+   "id": 201,
+   "zh": "陆上组",
+   "en": "Field",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 202,
+   "zh": "妖精组",
+   "en": "Fairy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 203,
+   "zh": "植物组",
+   "en": "Grass",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 204,
+   "zh": "人形组",
+   "en": "Human-Like",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 205,
+   "zh": "水中3组",
+   "en": "Water 3",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 206,
+   "zh": "矿物组",
+   "en": "Mineral",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 207,
+   "zh": "不定形组",
+   "en": "Amorphous",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 208,
+   "zh": "水中2组",
+   "en": "Water 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 209,
+   "zh": "百变怪组",
+   "en": "Ditto",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 210,
+   "zh": "龙组",
+   "en": "Dragon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0802/57 | seed rejected us [ambiguous US match] (candidate US 0802#57; text not kept)"
+  },
+  {
+   "id": 211,
+   "zh": "未发现组",
+   "en": "Undiscovered",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 212,
+   "zh": "☆",
+   "en": "☆",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "symbol kept as is"
+  }
+ ]
+}

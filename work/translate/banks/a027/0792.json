@@ -1,0 +1,3959 @@
+{
+ "narc": "a027",
+ "bank": 792,
+ "source": "work/extract/v4/a027/0792.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": " ",
+   "en": " ",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "出生时背上便带有种子,随着身体成长,{NEWLINE}种子也会变大。",
+   "en": "It is born with a seed on{NEWLINE}its back. As its body grows,{NEWLINE}the seed grows larger too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 2,
+   "zh": "背上的花苞开始洋溢香甜气味是巨大花{NEWLINE}朵即将开放的预兆。",
+   "en": "When the bud on its back begins to{NEWLINE}give off a sweet scent, it is a sign{NEWLINE}that a huge flower is about to open.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 3,
+   "zh": "能够将受到的阳光转换成能量,这种作{NEWLINE}用在夏季会变得更强。",
+   "en": "It is able to convert sunlight into{NEWLINE}energy. As a result, it is more{NEWLINE}powerful in the summertime.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/3"
+  },
+  {
+   "id": 4,
+   "zh": "尾巴的火焰是小火龙生命力的象征,健{NEWLINE}康时便会燃烧得旺盛。",
+   "en": "The flame on its tail indicates{NEWLINE}Charmander’s life force. If it is{NEWLINE}healthy, the flame burns brightly.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/4; modernised from US 0804#4"
+  },
+  {
+   "id": 5,
+   "zh": "挥动燃烧着的尾巴,用利爪将对手切裂,{NEWLINE}有着粗暴的性格。",
+   "en": "It has a barbaric nature. In battle,{NEWLINE}it whips its fiery tail around{NEWLINE}and slashes away with sharp claws.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/5"
+  },
+  {
+   "id": 6,
+   "zh": "生气时喷出能够熔化任何东西的灼热火{NEWLINE}焰来折磨对手。",
+   "en": "When angered, it breathes{NEWLINE}scorching flames hot enough to{NEWLINE}melt anything, tormenting its foe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "出生后不久便硬化的甲壳还是有弹性,{NEWLINE}用手指戳戳会弹回来。",
+   "en": "Its shell hardens soon after{NEWLINE}birth but is still springy. If poked{NEWLINE}with a finger, it bounces back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 8,
+   "zh": "巧妙地控制簇生的耳朵和尾巴以保持在{NEWLINE}水里的平衡。",
+   "en": "It deftly controls its{NEWLINE}tufted ears and tail to keep{NEWLINE}its balance in the water.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 9,
+   "zh": "从背甲的炮筒中喷出的水柱连厚厚的铁{NEWLINE}板也能击穿。",
+   "en": "The jets of water it fires from{NEWLINE}the cannons on its shell can{NEWLINE}pierce even thick iron plates.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 10,
+   "zh": "足的前端是能吸附在任何地方的吸盘,{NEWLINE}爬上树就会拼命地吃鲜嫩叶子。",
+   "en": "Its feet have suction cups that stick{NEWLINE}to any surface. Once up a tree, it{NEWLINE}eagerly devours tender leaves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/10; ext-review RC-001"
+  },
+  {
+   "id": 11,
+   "zh": "一个劲地加固外壳来保护因为准备进{NEWLINE}化而变得非常柔软的身体。",
+   "en": "It keeps hardening its shell to{NEWLINE}protect its body, which has become{NEWLINE}very soft as it prepares to evolve.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 12,
+   "zh": "翅膀上的鳞粉不会沾到水,因此不管下{NEWLINE}多大的雨都会为了收集花蜜四处飞行。",
+   "en": "The scales on its wings repel{NEWLINE}water, so it flies around gathering{NEWLINE}nectar no matter how hard it rains.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 13,
+   "zh": "利用头顶５厘米长的毒针来发起攻击,{NEWLINE}一直都待在作为食物的叶子下面。",
+   "en": "It attacks with the 5 cm poison{NEWLINE}stinger on its head. It always{NEWLINE}stays under the leaves it feeds on.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 14,
+   "zh": "正在构筑成虫的身体,随着内部变得柔{NEWLINE}软,外壳则渐渐变硬。",
+   "en": "It is building its adult body.{NEWLINE}As its insides grow soft, its{NEWLINE}outer shell steadily hardens.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 15,
+   "zh": "３支毒针之中附于尾端的那支释放出的{NEWLINE}毒最强。",
+   "en": "Of its three poison stingers,{NEWLINE}the one on the tip of its tail{NEWLINE}releases the strongest poison.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 16,
+   "zh": "大量分布于草丛和森林里,性情温顺,{NEWLINE}只会扇动翅膀掀起沙土来驱赶敌人。",
+   "en": "Common in grassland and forests,{NEWLINE}it is docile. It only flaps its wings{NEWLINE}to kick up sand and drive off foes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 17,
+   "zh": "发达的爪子深深地嵌入猎物使其动弹不{NEWLINE}得,然后直到运回到自己１００千米远{NEWLINE}的巢穴中吃掉。",
+   "en": "Its claws sink deep into prey so{NEWLINE}it can’t move. It then carries the{NEWLINE}prey to its nest 100 km away to eat.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 18,
+   "zh": "展开巨大的翅膀不仅能威吓对手,还能{NEWLINE}以２倍音速的速度在天空里飞翔。",
+   "en": "Spreading its huge wings intimidates{NEWLINE}foes. It can also soar through the{NEWLINE}sky at twice the speed of sound.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; modernised from the v3 TM text"
+  },
+  {
+   "id": 19,
+   "zh": "哪里有食物便在哪里生活,一整天都在{NEWLINE}不停地找食物。",
+   "en": "It lives wherever there is{NEWLINE}food, and it spends the whole{NEWLINE}day searching for more.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 20,
+   "zh": "靠胡须来保持平衡,门牙会不断变长,{NEWLINE}所以不管什么都会去啃。",
+   "en": "It keeps its balance with its{NEWLINE}whiskers. Its front teeth keep{NEWLINE}growing, so it gnaws on anything.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 21,
+   "zh": "为了守卫自己的领地,会扇动短小的翅{NEWLINE}膀急匆匆地飞来飞去。",
+   "en": "Very protective of its territory, it{NEWLINE}flaps its short wings busily to{NEWLINE}dart around at high speed.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/21"
+  },
+  {
+   "id": 22,
+   "zh": "灵活地运用细长的喙将地上的小虫夹起{NEWLINE}来吃掉。",
+   "en": "It deftly uses its long, thin{NEWLINE}beak to pluck small bugs from{NEWLINE}the ground and eat them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 23,
+   "zh": "一直都躲在草丛里,刚生下来不带有毒{NEWLINE}性,就算被咬到也只是会痛痛而已。",
+   "en": "It always hides in grass. When first{NEWLINE}born, it has no poison, so its{NEWLINE}bite is painful, but harmless.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/23"
+  },
+  {
+   "id": 24,
+   "zh": "拥有非常顽固的性格,只要是锁定的猎{NEWLINE}物,不管到哪都会一直追踪下去。",
+   "en": "It has a very stubborn{NEWLINE}nature. Once it locks on to{NEWLINE}prey, it will follow it anywhere.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 25,
+   "zh": "竖起尾巴探查周围的情况时偶尔会被雷{NEWLINE}给击中。",
+   "en": "It raises its tail to check its{NEWLINE}surroundings. The tail is sometimes{NEWLINE}struck by lightning in this pose.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/25"
+  },
+  {
+   "id": 26,
+   "zh": "脸颊上的电气袋里积蓄的电力达到最大{NEWLINE}时两只耳朵便会伸得直直的。",
+   "en": "If the electric pouches in its{NEWLINE}cheeks become fully charged,{NEWLINE}both ears will stand straight up.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/26"
+  },
+  {
+   "id": 27,
+   "zh": "在无水汽的干燥地方挖出深深的洞来生{NEWLINE}活,一瞬间就能将身体变圆。",
+   "en": "It digs deep burrows to live{NEWLINE}in dry places with no moisture. It{NEWLINE}can curl into a ball in an instant.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 28,
+   "zh": "以惊人气势挖掘地面,有时会使尖刺和{NEWLINE}利爪折断,不过第二天又会长齐。",
+   "en": "If it digs at an incredible pace,{NEWLINE}it may snap off its spikes and{NEWLINE}claws. They grow back in a day.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/28"
+  },
+  {
+   "id": 29,
+   "zh": "虽说不太喜欢战斗,但紧急时刻便会用{NEWLINE}角上的毒来毒杀对手。",
+   "en": "It doesn’t much like fighting, but{NEWLINE}in an emergency it poisons foes to{NEWLINE}death with the venom in its horn.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 30,
+   "zh": "性格温厚善良,尖角的成长速度缓慢,{NEWLINE}对战斗毫无兴趣。",
+   "en": "It has a gentle, kind nature.{NEWLINE}Its horn grows slowly, and it{NEWLINE}has no interest in battling.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; modernised from the v3 TM text"
+  },
+  {
+   "id": 31,
+   "zh": "用覆盖着鳞片的结实身躯,将洞穴的入{NEWLINE}口堵塞,以防止敌人来袭击幼崽。",
+   "en": "It blocks the entrance of its burrow{NEWLINE}with its sturdy, scale-covered body to{NEWLINE}keep enemies from attacking its young.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 32,
+   "zh": "竖起大大的耳朵探查四周,危险迫近之{NEWLINE}时,便会抢先发动攻击。",
+   "en": "It raises its large ears to scan{NEWLINE}its surroundings. When danger{NEWLINE}draws near, it attacks first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 33,
+   "zh": "有着易怒的性格,生气时便会用角突刺{NEWLINE}对方并注入剧毒。",
+   "en": "It has a short temper. When{NEWLINE}angered, it stabs its foe with its{NEWLINE}horn and injects a deadly poison.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 34,
+   "zh": "被充满力量的粗尾巴捆紧的对手,其脊{NEWLINE}柱会被轻易地折断。",
+   "en": "Any foe bound tight by{NEWLINE}its thick, powerful tail can{NEWLINE}easily have its spine snapped.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 35,
+   "zh": "有着天真无邪的动作和可爱叫声的超人{NEWLINE}气精灵,但是很少被发现。",
+   "en": "Its innocent movements{NEWLINE}and cute cries make it hugely{NEWLINE}popular, but it is rarely found.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 36,
+   "zh": "耳朵好到不管多远的声音都能听得很清{NEWLINE}楚,平时喜欢待在安静的地方。",
+   "en": "Its ears are so good it can clearly{NEWLINE}hear sounds from any distance. It{NEWLINE}usually likes to stay in quiet places.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 37,
+   "zh": "遭到比自己强的对手的袭击时,便装作{NEWLINE}受伤的样子迷惑对方并趁此间隙逃跑。",
+   "en": "If it is attacked by an enemy that{NEWLINE}is stronger than itself, it feigns{NEWLINE}injury to fool the enemy and escapes.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/37"
+  },
+  {
+   "id": 38,
+   "zh": "九条美丽的尾巴里积存着能活上一千年{NEWLINE}的神奇能量。",
+   "en": "Its nine beautiful tails hold a{NEWLINE}mysterious energy that lets{NEWLINE}it live for a thousand years.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 39,
+   "zh": "盯着其圆圆的眼珠时,它便会开始唱起{NEWLINE}让人想睡觉的惬意歌曲。",
+   "en": "When you stare into its round{NEWLINE}eyes, it starts singing a soothing{NEWLINE}song that makes you want to sleep.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 40,
+   "zh": "有着纹理细致的毛皮,激怒它的话便会{NEWLINE}开始不断膨胀,所以训练师要特别注意。",
+   "en": "It has finely textured fur. If it is{NEWLINE}angered, it keeps swelling up, so{NEWLINE}Trainers should be very careful.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 41,
+   "zh": "之所以在暗处也能飞来飞去,因为它是{NEWLINE}靠超音波来探测周围的情况。",
+   "en": "Capable of flying safely in dark{NEWLINE}places, it emits ultrasonic cries{NEWLINE}to check for any obstacles.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/41"
+  },
+  {
+   "id": 42,
+   "zh": "虽然能吸３００毫升的血,但一次吸太{NEWLINE}多的话身体就因变重而摇摇晃晃。",
+   "en": "It can drink 300 mL of blood, but{NEWLINE}if it drinks too much at once, it{NEWLINE}gets heavy and wobbles as it flies.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/42"
+  },
+  {
+   "id": 43,
+   "zh": "沐浴月光时开始活动,夜间为了在各地{NEWLINE}播撒种子而四处走动。",
+   "en": "If exposed to moonlight, it{NEWLINE}starts to move. It roams far and{NEWLINE}wide at night to scatter its seeds.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/43"
+  },
+  {
+   "id": 44,
+   "zh": "有着像黏黏的口水一样的花蜜,虽然味{NEWLINE}道很甜但气味却异常地臭,使得任何精{NEWLINE}灵无法靠近。",
+   "en": "Its nectar is like sticky drool.{NEWLINE}It tastes very sweet but smells so{NEWLINE}foul that no Pokémon will come near.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 45,
+   "zh": "嘭的一声花苞展开并开始散布能引起过{NEWLINE}敏反应的有毒花粉。",
+   "en": "Its bud bursts open with a pop, and{NEWLINE}it starts scattering toxic pollen{NEWLINE}that causes allergic reactions.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 46,
+   "zh": "身体变大之后,背上便能长出叫做冬虫{NEWLINE}夏草的珍贵药材。",
+   "en": "Once its body grows larger,{NEWLINE}a precious medicine called{NEWLINE}tochukaso sprouts on its back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; modernised from the v3 TM text"
+  },
+  {
+   "id": 47,
+   "zh": "随着背上真菌的成长,其散发出的蘑菇{NEWLINE}孢子的效果变得更加强力。",
+   "en": "As the fungus on its back{NEWLINE}grows, the mushroom spores it{NEWLINE}scatters become more potent.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; modernised from the v3 TM text"
+  },
+  {
+   "id": 48,
+   "zh": "全身都渗出毒液,天黑之后就聚在一起{NEWLINE}抓小虫子吃。",
+   "en": "Poison oozes from its whole{NEWLINE}body. After dark, they gather{NEWLINE}to catch and eat small bugs.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/48"
+  },
+  {
+   "id": 49,
+   "zh": "翅膀上的鳞粉颜色浓的使人中毒,颜色{NEWLINE}浅的能让人麻痹,两者的效果是不同的。",
+   "en": "The powder on its wings is poisonous{NEWLINE}if it is dark in hue. If it is light in hue,{NEWLINE}it causes paralysis.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/49"
+  },
+  {
+   "id": 50,
+   "zh": "地鼠经过之后的土壤更适宜耕种,因而{NEWLINE}成为最好的田地。",
+   "en": "If a Diglett digs through a field,{NEWLINE}it leaves the soil perfectly tilled{NEWLINE}and ideal for planting crops.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/50; modernised from US 0804#50"
+  },
+  {
+   "id": 51,
+   "zh": "拥有惊人的力量,无论多么坚硬的地面{NEWLINE}都能掘进到地下１００千米。",
+   "en": "It is amazingly strong. It{NEWLINE}can dig 100 km down through{NEWLINE}even the hardest ground.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/51"
+  },
+  {
+   "id": 52,
+   "zh": "最喜欢闪闪发光的东西,尤其喜欢金币,{NEWLINE}拾到的话便会将其藏在某处。",
+   "en": "It loves anything that shines, gold{NEWLINE}coins most of all. It hides any coins it{NEWLINE}picks up somewhere.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/52; ext-review RC-001"
+  },
+  {
+   "id": 53,
+   "zh": "凭借着柔软的肌肉,能一个脚印不留地{NEWLINE}行走,捕杀猎物只需一瞬间。",
+   "en": "Its supple muscles let it walk without{NEWLINE}leaving a single footprint. It takes{NEWLINE}only an instant to kill its prey.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/53"
+  },
+  {
+   "id": 54,
+   "zh": "虽然平日头痛剧烈时能发挥出神奇的力{NEWLINE}量,但似乎每次用完都会忘记。",
+   "en": "When its usual headache is severe,{NEWLINE}it can use mysterious powers,{NEWLINE}but it seems to forget each time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 55,
+   "zh": "能在黄昏的水边见到其踪影,据说当额{NEWLINE}头闪烁着奇妙光芒时,能自由操纵神奇{NEWLINE}的超能力。",
+   "en": "It is seen by the water at dusk. When{NEWLINE}its forehead glows strangely, it is said{NEWLINE}to control mysterious psychic powers.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 56,
+   "zh": "无意义地发怒暴走时,变得连敌我也无{NEWLINE}法分辨,靠近的话会非常危险。",
+   "en": "When it flies into a pointless rage,{NEWLINE}it can’t tell friend from foe.{NEWLINE}Going near it is very dangerous.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 57,
+   "zh": "仅是感觉到谁的视线都会暴怒起来,然{NEWLINE}后就会追赶眼前的东西。",
+   "en": "It flies into a rage if it even senses{NEWLINE}someone looking at it, then chases{NEWLINE}whatever is in front of it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/57; ext-review RC-003"
+  },
+  {
+   "id": 58,
+   "zh": "因为性格忠诚,所以为了保护训练师,{NEWLINE}会拼命地朝对手怒吼。",
+   "en": "Extremely loyal, it will fearlessly{NEWLINE}bark at any opponent to protect{NEWLINE}its own Trainer from harm.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/58"
+  },
+  {
+   "id": 59,
+   "zh": "无所畏惧的吼声充满威严,使听者不由{NEWLINE}自主地拜倒其威风之下。",
+   "en": "Its fearless roar is so majestic{NEWLINE}that all who hear it can’t{NEWLINE}help bowing before its might.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 60,
+   "zh": "腹部漩涡的旋转方向因地区而不同,好{NEWLINE}像多半和赤道有关系。",
+   "en": "The direction of its belly spiral{NEWLINE}differs by area. The equator is{NEWLINE}thought to have an effect on this.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/60"
+  },
+  {
+   "id": 61,
+   "zh": "虽然全身的皮肤是湿的,但腹部的漩涡{NEWLINE}部分的触感却是光滑的。",
+   "en": "The skin all over its body is moist, but{NEWLINE}the spiral on its belly feels smooth to{NEWLINE}the touch.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/61; ext-review RC-004"
+  },
+  {
+   "id": 62,
+   "zh": "特别擅长用上全部肌肉的力量游唦,但{NEWLINE}是为什么喜欢在地面上生活呢？",
+   "en": "It is especially good at swimming with{NEWLINE}the strength of all its muscles, yet{NEWLINE}for some reason it likes living on land.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 63,
+   "zh": "反复无常地连续使用瞬间移动时,看起{NEWLINE}来就像分身过一样。",
+   "en": "If it decides to teleport randomly,{NEWLINE}it evokes the illusion that it{NEWLINE}has created copies of itself.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/63"
+  },
+  {
+   "id": 64,
+   "zh": "当其使用超能力之时,从体内发出的特{NEWLINE}殊阿尔法射线使得机械的运转发生失常。",
+   "en": "If it uses its abilities, it{NEWLINE}emits special alpha waves that{NEWLINE}cause machines to malfunction.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/64"
+  },
+  {
+   "id": 65,
+   "zh": "脑细胞直到死亡前都在不断地分裂增殖,{NEWLINE}因此能记住所有的事情。",
+   "en": "Its brain cells keep dividing{NEWLINE}and multiplying until it dies,{NEWLINE}so it can remember everything.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 66,
+   "zh": "最喜欢锻炼身体,就算修炼了一整天也{NEWLINE}完全不能让其满足。",
+   "en": "It loves to work out and build its{NEWLINE}muscles. It is never satisfied,{NEWLINE}even if it trains hard all day long.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/66"
+  },
+  {
+   "id": 67,
+   "zh": "全身的肌肉里充满着力量,就算一动不{NEWLINE}动也能放出惊人的威慑力。",
+   "en": "The muscles covering its body teem{NEWLINE}with power. Even when still, it{NEWLINE}exudes an amazing sense of strength.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/67"
+  },
+  {
+   "id": 68,
+   "zh": "用４只手将对手的四肢按住,以此来剥{NEWLINE}夺其自由活动能力,然后再将它扔到地{NEWLINE}平线的另一边去。",
+   "en": "It pins its foe’s limbs with its{NEWLINE}four arms so it can’t move freely,{NEWLINE}then throws it over the horizon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 69,
+   "zh": "将脚伸到地下深处补充水分,要是那时{NEWLINE}遭到袭击的话便逃不掉了。",
+   "en": "It plants its feet deep underground{NEWLINE}to replenish water. It can’t escape{NEWLINE}its enemy while it’s rooted.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/69"
+  },
+  {
+   "id": 70,
+   "zh": "用锋利的叶子将比嘴还大的猎物切碎,{NEWLINE}然后一点不留地全部吃掉。",
+   "en": "If its prey is bigger than its{NEWLINE}mouth, it slices up the victim with{NEWLINE}sharp leaves, then eats every morsel.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/70"
+  },
+  {
+   "id": 71,
+   "zh": "将因蜜汁的香味而聚集来的猎物全部吞{NEWLINE}在嘴里溶解掉,是个极其凶暴残忍的植{NEWLINE}物精灵。",
+   "en": "This horrifying plant Pokémon attracts{NEWLINE}prey with aromatic honey,{NEWLINE}then melts them in its mouth.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/71"
+  },
+  {
+   "id": 72,
+   "zh": "会隐秘地漂浮在水中,经常有人在水中{NEWLINE}没看清其身影,直到被蜇了才发现它。",
+   "en": "It floats hidden in the{NEWLINE}water. People often fail to{NEWLINE}spot it until they get stung.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 73,
+   "zh": "战斗时８０支触手全部伸长创造出毒之{NEWLINE}包围网。",
+   "en": "In battle, it extends all 80 of{NEWLINE}its tentacles to entrap its opponent{NEWLINE}inside a poisonous net.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/73"
+  },
+  {
+   "id": 74,
+   "zh": "两手并用不管多么险峻的山道也能顺利{NEWLINE}地爬上去,发怒时便会不停地挥舞拳头。",
+   "en": "It uses its arms to steadily climb{NEWLINE}steep mountain paths. It swings{NEWLINE}its fists around if angered.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/74"
+  },
+  {
+   "id": 75,
+   "zh": "因为走得很慢,所以就以滚动来移动,{NEWLINE}途中有身体部位掉下来也毫不在意。",
+   "en": "It walks slowly, so it gets around{NEWLINE}by rolling. It doesn’t care if parts{NEWLINE}of its body fall off on the way.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; modernised from the v3 TM text"
+  },
+  {
+   "id": 76,
+   "zh": "特地让身体爆炸,再利用爆炸产生气势{NEWLINE}从一座山跳到另一座山。",
+   "en": "It makes its body explode on{NEWLINE}purpose, using the force of the blast{NEWLINE}to leap from one mountain to another.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 77,
+   "zh": "感到背后有动静时,便用比钻石还硬的{NEWLINE}后蹄给上一脚。",
+   "en": "Its hind legs, which have hooves that{NEWLINE}are harder than diamond, kick back{NEWLINE}at any presence it senses behind it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/77"
+  },
+  {
+   "id": 78,
+   "zh": "拥有极其惊人的加速力,开始奔跑仅仅{NEWLINE}十步便能达到最高时速２４０公里。",
+   "en": "Its acceleration is astonishing. Just{NEWLINE}ten strides after it starts running,{NEWLINE}it reaches its top speed of 240 km/h.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 79,
+   "zh": "从尾端渗出甜甜的味道,虽然没有营养,{NEWLINE}但咬到会有幸福的感觉。",
+   "en": "A sweet sap leaks from its tail’s{NEWLINE}tip. Although not nutritious, the{NEWLINE}tail is pleasant to chew on.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/79"
+  },
+  {
+   "id": 80,
+   "zh": "原本感觉就迟钝,再加上大舌贝的乱入,{NEWLINE}变得更加迟钝了。",
+   "en": "It was already slow to feel{NEWLINE}anything, and since Shellder latched{NEWLINE}on, it has become even duller.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; modernised from the v3 TM text"
+  },
+  {
+   "id": 81,
+   "zh": "能从左右两侧的单元中放出和地磁相斥{NEWLINE}的磁力,从而能够悬浮在空中。",
+   "en": "The units on its sides give off a{NEWLINE}magnetic force that repels the earth’s{NEWLINE}magnetism, so it can float in the air.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "互相连接在一起的小磁怪,磁力强大到{NEWLINE}能干燥周围的水分。",
+   "en": "Linked Magnemite. Their{NEWLINE}magnetism is so strong it can dry{NEWLINE}up the moisture around them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; modernised from the v3 TM text"
+  },
+  {
+   "id": 83,
+   "zh": "吃了附近的植物茎杆后,便一溜烟地跑{NEWLINE}去寻找其他的植物茎杆。",
+   "en": "After eating the stalks of{NEWLINE}nearby plants, it dashes off{NEWLINE}in a flash to look for more.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 84,
+   "zh": "脚印的深度可达１０厘米,用力地踩踏{NEWLINE}地面跑动穿越草原。",
+   "en": "Its footprints can be 10 cm deep.{NEWLINE}It stomps hard on the ground{NEWLINE}as it runs across grassland.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 85,
+   "zh": "随便哪一个脑袋吃食,剩下的脑袋都会{NEWLINE}被喂饱,因此不会因为争食去争吵。",
+   "en": "When any one head eats, the{NEWLINE}others are fed too, so they{NEWLINE}never quarrel over food.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; modernised from the v3 TM text"
+  },
+  {
+   "id": 86,
+   "zh": "白天多是在浅浅的海底睡觉,游唦时会{NEWLINE}闭上鼻孔。",
+   "en": "In daytime, it is often found asleep{NEWLINE}on the seabed in shallow waters.{NEWLINE}Its nostrils close while it swims.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/86"
+  },
+  {
+   "id": 87,
+   "zh": "最喜欢漂有浮冰的寒冷海水,长尾巴起{NEWLINE}到快速返回对岸的作用。",
+   "en": "It loves cold seas with{NEWLINE}drifting ice. Its long tail helps{NEWLINE}it quickly swim back to shore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/87"
+  },
+  {
+   "id": 88,
+   "zh": "臭泥路过之后,因为满是毒素导致什么{NEWLINE}草也长不出来。",
+   "en": "Grimer leaves so much poison{NEWLINE}behind that no grass will{NEWLINE}grow where it has passed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 89,
+   "zh": "身体的成分是剧毒,不小心碰到的话便{NEWLINE}会发烧而卧床不起。",
+   "en": "Its body is made of a powerful poison.{NEWLINE}Touching it accidentally will{NEWLINE}cause a fever that requires bed rest.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/89"
+  },
+  {
+   "id": 90,
+   "zh": "贝壳里积存的沙粒和大舌贝的体液混合{NEWLINE}后便形成美丽的珍珠。",
+   "en": "Grains of sand trapped in its{NEWLINE}shells mix with its body fluids to{NEWLINE}form beautiful pearls.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/90"
+  },
+  {
+   "id": 91,
+   "zh": "生活在潮流汹涌的海中的铁甲贝壳上的{NEWLINE}刺会变得既大又尖利。",
+   "en": "The spikes on the shells of Cloyster{NEWLINE}that live in seas with strong{NEWLINE}currents grow large and sharp.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 92,
+   "zh": "由气体形成的轻薄身子,不管多大的对{NEWLINE}手也能将其缠住再取其性命。",
+   "en": "Its thin body is made of{NEWLINE}gas. It can wrap up a foe of{NEWLINE}any size and take its life.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 93,
+   "zh": "据说被其气态舌头舔到的话,身体就会{NEWLINE}止不住地颤抖,不久便会力竭而亡。",
+   "en": "It is said that anyone licked by its{NEWLINE}gaseous tongue shakes uncontrollably,{NEWLINE}and soon dies of exhaustion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 94,
+   "zh": "决定好要杀死的猎物后,便会潜伏在其{NEWLINE}影子中,一动不动地等待时机给予致命{NEWLINE}一击。",
+   "en": "Once it chooses prey to kill, it lurks{NEWLINE}in its shadow, waiting motionless for{NEWLINE}the moment to strike a fatal blow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; modernised from the v3 TM text"
+  },
+  {
+   "id": 95,
+   "zh": "弯转扭曲巨大而坚实的身躯以时速８０{NEWLINE}千米地向地下掘进。",
+   "en": "It twists and bends its{NEWLINE}huge, sturdy body to tunnel{NEWLINE}underground at 80 km/h.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 96,
+   "zh": "能记住所有吃过的梦,觉得小孩子的梦{NEWLINE}比较好吃,所以很少吃大人的梦。",
+   "en": "It remembers every dream it eats. It{NEWLINE}rarely eats the dreams of adults{NEWLINE}because children’s are much tastier.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/96"
+  },
+  {
+   "id": 97,
+   "zh": "以固定的节奏摇晃随身的玉佩,让人很{NEWLINE}想睡觉。",
+   "en": "It swings the pendant it always{NEWLINE}carries at a steady rhythm,{NEWLINE}making people very sleepy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 98,
+   "zh": "大钳子很容易脱落,没了钳子之后不知{NEWLINE}怎么就变得不能横着走了。",
+   "en": "The pincers break off easily. If it{NEWLINE}loses a pincer, it somehow becomes{NEWLINE}incapable of walking sideways.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/98"
+  },
+  {
+   "id": 99,
+   "zh": "气势汹汹地举起难看的大钳子却因失去{NEWLINE}平衡而变得摇摇晃晃。",
+   "en": "It fiercely raises its huge,{NEWLINE}ugly pincer, only to lose its{NEWLINE}balance and totter about.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 100,
+   "zh": "在精灵球发售的同一时期被发现,据说{NEWLINE}有着某些联系。",
+   "en": "It was discovered when Poké Balls{NEWLINE}were introduced. It is said that{NEWLINE}there is some connection.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/100"
+  },
+  {
+   "id": 101,
+   "zh": "因为体内积存着快要溢出来的电气能量,{NEWLINE}稍微受点刺激便会爆炸。",
+   "en": "It stores an overflowing amount of{NEWLINE}electric energy inside its body.{NEWLINE}Even a small shock makes it explode.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/101"
+  },
+  {
+   "id": 102,
+   "zh": "凭借仅在蛋蛋间流通的传心术,无论何{NEWLINE}时都能集合起６只。",
+   "en": "Using telepathy only they can{NEWLINE}employ, they always form a{NEWLINE}cluster of six Exeggcute.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/102; modernised from US 0804#102"
+  },
+  {
+   "id": 103,
+   "zh": "掉下来的脑袋成为蛋蛋,为了寻找同伴{NEWLINE}便开始施放特殊的传心术。",
+   "en": "A head that falls off becomes an{NEWLINE}Exeggcute and sends out a special{NEWLINE}telepathic call to find companions.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/103; modernised from US 0804#103"
+  },
+  {
+   "id": 104,
+   "zh": "一直戴着已经死去的母亲的头盖骨,所{NEWLINE}以不清楚其真实面貌是怎样的。",
+   "en": "It always wears the skull of its{NEWLINE}dead mother, so no one knows{NEWLINE}what its real face looks like.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 105,
+   "zh": "拿着不知从哪儿捡来的骨头,有传闻说{NEWLINE}世上某处存有嘎拉嘎拉专属的坟地。",
+   "en": "It carries bones from who knows{NEWLINE}where. Rumor says a Marowak graveyard{NEWLINE}exists somewhere in the world.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/105; modernised from US 0804#105"
+  },
+  {
+   "id": 106,
+   "zh": "连续地使出踢击时,两脚会不断伸长,{NEWLINE}想要逃跑的对手也能踢到。",
+   "en": "If it starts kicking repeatedly,{NEWLINE}both legs will stretch even longer{NEWLINE}to strike a fleeing foe.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/106"
+  },
+  {
+   "id": 107,
+   "zh": "能够使出切裂空气的拳击,仅仅被擦过{NEWLINE}感觉就如烧伤一般痛苦,出拳的速度很{NEWLINE}快。",
+   "en": "It throws punches that cut through{NEWLINE}the air. Even a glancing blow hurts{NEWLINE}like a burn. It punches very fast.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 108,
+   "zh": "长长的舌头沾满了黏糊糊的唾液,不管{NEWLINE}什么都能黏住,十分方便。",
+   "en": "Its long tongue is coated in{NEWLINE}sticky saliva that can stick to{NEWLINE}anything, which is very handy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 109,
+   "zh": "体内毒气的成分比空气轻一些,因此能{NEWLINE}一直轻轻地漂浮着。",
+   "en": "The poison gas inside its body{NEWLINE}is slightly lighter than air, so{NEWLINE}it can keep floating gently.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 110,
+   "zh": "体内的毒气经过稀释到最大限度后,能{NEWLINE}够制成最高级的香水。",
+   "en": "Top-grade perfume is made using its{NEWLINE}internal poison gases by diluting{NEWLINE}them to the highest level.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/110"
+  },
+  {
+   "id": 111,
+   "zh": "不在意自己前进的方向上有着什么东西,{NEWLINE}只顾直冲将其全部毁坏而已。",
+   "en": "It doesn’t care what lies in its{NEWLINE}path. It just charges straight{NEWLINE}ahead and destroys it all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 112,
+   "zh": "变得仅靠后足就能站立,大脑也变得发{NEWLINE}达,厚厚的皮肤就算在岩浆里也安然无{NEWLINE}恙。",
+   "en": "It became able to stand on its hind{NEWLINE}legs, and its brain developed. Its{NEWLINE}thick hide is unharmed even in magma.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 113,
+   "zh": "由于数量减少变得难以捕捉,据说会给{NEWLINE}收服它的训练师带来幸福。",
+   "en": "Being few in number and difficult to{NEWLINE}capture, it is said to bring happiness{NEWLINE}to the Trainer who catches it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/113"
+  },
+  {
+   "id": 114,
+   "zh": "在藤蔓缠上活动的东西,然后奇妙地扭{NEWLINE}动,被缠上的话会浑身发痒。",
+   "en": "It wraps its vines around anything that{NEWLINE}moves and wriggles them strangely.{NEWLINE}Getting caught makes you itch all over.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 115,
+   "zh": "为了幼崽的话,不管受多么严重的伤都{NEWLINE}不会放弃战斗。",
+   "en": "To protect its young, it will{NEWLINE}never give up during battle, no{NEWLINE}matter how badly wounded it is.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/115"
+  },
+  {
+   "id": 116,
+   "zh": "凭借快速摆动发达的鳍可以倒退着移动。",
+   "en": "It can swim backward{NEWLINE}by quickly flapping its{NEWLINE}well-developed fins.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 117,
+   "zh": "鳍的前端分泌有毒液,鳍和骨能作为中{NEWLINE}药的材料而受到珍视。",
+   "en": "Its fin-tips leak poison. Its fins{NEWLINE}and bones are highly valued as{NEWLINE}ingredients in herbal medicine.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/117"
+  },
+  {
+   "id": 118,
+   "zh": "就算是急流的河水也能以每小时５节的{NEWLINE}速度迅猛地逆流而上。",
+   "en": "A strong swimmer, it is capable of{NEWLINE}swimming nonstop up fast streams at{NEWLINE}a steady speed of five knots per hour.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/118"
+  },
+  {
+   "id": 119,
+   "zh": "用角挖出河底的石头来筑巢是为了产下{NEWLINE}的卵不被河水冲走。",
+   "en": "Using its horn, it bores holes in{NEWLINE}riverbed boulders, making nests to{NEWLINE}prevent its eggs from washing away.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/119"
+  },
+  {
+   "id": 120,
+   "zh": "只要身体中发光的核心还在,身体就算{NEWLINE}被切碎也能够复原。",
+   "en": "Even if its body is torn, it can{NEWLINE}regenerate as long as the glowing{NEWLINE}central core remains intact.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/120"
+  },
+  {
+   "id": 121,
+   "zh": "不论在怎样的环境中,长大后都能变成{NEWLINE}左右对称的几何造型的身体。",
+   "en": "Whatever its environment, it{NEWLINE}grows up into a symmetrical,{NEWLINE}geometric body.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 122,
+   "zh": "从指尖放出的神奇波动能硬化空气并制{NEWLINE}造出真正的墙壁。",
+   "en": "Mysterious waves from{NEWLINE}its fingertips harden the{NEWLINE}air, creating real walls.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 123,
+   "zh": "动则仅见其残影,静则藏身于草丛,因{NEWLINE}为有保护色,所以很难看到其行踪。",
+   "en": "When it moves, only its afterimage{NEWLINE}is seen. When still, it hides in grass.{NEWLINE}Its camouflage makes it hard to spot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 124,
+   "zh": "不仅能说类似人类的语言,除此之外好{NEWLINE}像还能靠舞蹈来表达感情。",
+   "en": "It can speak something like human{NEWLINE}language, and it seems it can also{NEWLINE}express feelings through dance.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 125,
+   "zh": "因为全身常有电流放出,靠近的话头发{NEWLINE}便会倒竖起来。",
+   "en": "Electricity always flows from its{NEWLINE}whole body, so if you go near{NEWLINE}it, your hair stands on end.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 126,
+   "zh": "身体表面能产生出和太阳一样的摇动着{NEWLINE}的火焰。",
+   "en": "The surface of its body gives off{NEWLINE}wavering flames just like the sun.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/126; ext-review RC-003"
+  },
+  {
+   "id": 127,
+   "zh": "挥舞着长长的大角发动攻击,寒冷时节{NEWLINE}藏身于森林的深处。",
+   "en": "It attacks by swinging its long,{NEWLINE}large horns. In the cold season,{NEWLINE}it hides deep in the forest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 128,
+   "zh": "用三条尾巴抽打自己来积蓄战斗情绪,{NEWLINE}之后便全速发起冲击。",
+   "en": "It whips itself with its three tails{NEWLINE}to work up its fighting spirit,{NEWLINE}then charges at full speed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 129,
+   "zh": "总之就是跳,无意义地跳,有时刚跳起{NEWLINE}时就被飞来的比比鸟之流给捉走了。",
+   "en": "For no reason, it jumps and splashes{NEWLINE}about, making it easy for predators{NEWLINE}like Pidgeotto to catch it mid-jump.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/129; modernised from US 0804#129"
+  },
+  {
+   "id": 130,
+   "zh": "据说只要其出现的话,不烧光周围所有{NEWLINE}的东西怒气就停不下来。",
+   "en": "It is said that once it appears,{NEWLINE}its rage won’t stop until it has{NEWLINE}burned everything around it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 131,
+   "zh": "背上能载着人渡过大海,好像心情好的{NEWLINE}时候便会用美妙的声音唱歌。",
+   "en": "It can carry people across the sea{NEWLINE}on its back. When it’s in a good mood,{NEWLINE}it seems to sing in a lovely voice.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 132,
+   "zh": "虽然变身能力很完美,但被逗笑时就会{NEWLINE}脱力从而解除变身。",
+   "en": "Its transformation ability is perfect.{NEWLINE}However, if made to laugh, it{NEWLINE}can’t maintain its disguise.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/132"
+  },
+  {
+   "id": 133,
+   "zh": "不规则形状的遗传因子容易受到周围环{NEWLINE}境的影响,环境变化时便会进化。",
+   "en": "Its irregularly configured DNA is{NEWLINE}affected by its surroundings. It{NEWLINE}evolves if its environment changes.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/133"
+  },
+  {
+   "id": 134,
+   "zh": "喜欢洁净的水边,细胞与水分子相似,{NEWLINE}因此能够溶于水中。",
+   "en": "It likes clean water. Its cells{NEWLINE}resemble water molecules,{NEWLINE}so it can dissolve in water.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 135,
+   "zh": "体内电力蓄积之时,全身的体毛都会开{NEWLINE}始变得像针一样尖利。",
+   "en": "Every hair on its body starts to{NEWLINE}stand sharply on end if it becomes{NEWLINE}charged with electricity.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/135"
+  },
+  {
+   "id": 136,
+   "zh": "如果摊开脖子周围蓬松的毛,高达９００{NEWLINE}度的体温便会冷却下来。",
+   "en": "When it spreads the fluffy fur around{NEWLINE}its neck, its body temperature, which{NEWLINE}reaches 900 degrees, cools down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/136"
+  },
+  {
+   "id": 137,
+   "zh": "经过研究而诞生出的人工精灵,只能按{NEWLINE}照程序做出基本的动作。",
+   "en": "A manmade Pokémon that came about as{NEWLINE}a result of research. It is programmed{NEWLINE}with only basic motions.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/137"
+  },
+  {
+   "id": 138,
+   "zh": "擅长弯曲１０只脚在海中畅游的远古精{NEWLINE}灵。",
+   "en": "This Pokémon from ancient times is{NEWLINE}said to have navigated the sea by{NEWLINE}adeptly twisting its 10 tentacles.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/138"
+  },
+  {
+   "id": 139,
+   "zh": "一旦缠绕上就绝对不放开,好像会用锋{NEWLINE}利的牙将猎物撕裂再吃掉。",
+   "en": "Once wrapped around its prey,{NEWLINE}it never lets go. It eats the prey{NEWLINE}by tearing at it with sharp fangs.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/139"
+  },
+  {
+   "id": 140,
+   "zh": "远古的精灵,偶尔有作为活化石而被发{NEWLINE}现的实例。",
+   "en": "This Pokémon lived in ancient times.{NEWLINE}On rare occasions, it has been{NEWLINE}discovered as a living fossil.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/140"
+  },
+  {
+   "id": 141,
+   "zh": "用锋利的镰刀切开猎物,再吮吸其流出{NEWLINE}的体液的既凶暴又残忍的古代精灵。",
+   "en": "A ferocious, cruel ancient Pokémon. It{NEWLINE}slices open prey with its sharp scythes{NEWLINE}and sucks up the fluids that flow out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/141"
+  },
+  {
+   "id": 142,
+   "zh": "会发出尖锐的叫声,同时从古代的天空{NEWLINE}飞过的凶猛食肉精灵。",
+   "en": "A fierce, meat-eating Pokémon{NEWLINE}that flew through the ancient{NEWLINE}skies, letting out shrill cries.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 143,
+   "zh": "胃里的消化液不管什么样的毒素都能消{NEWLINE}化,所以掉地上弄脏的东西吃了也没事。",
+   "en": "Its digestive juices can break down{NEWLINE}any toxin, so it can eat food that has{NEWLINE}fallen on the dirty ground without harm.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 144,
+   "zh": "能冻结空气中的水份一边降雪一边飞过,{NEWLINE}传说中的鸟类精灵之一。",
+   "en": "One of the legendary bird Pokémon,{NEWLINE}it chills moisture in the atmosphere{NEWLINE}to create snow while flying.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/144"
+  },
+  {
+   "id": 145,
+   "zh": "传说在雷云分成两片时能看到其身影,{NEWLINE}传说中的鸟类精灵之一。",
+   "en": "Legend says it can be seen when a{NEWLINE}thundercloud splits in two. It is one of{NEWLINE}the legendary bird Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/145; ext-review RC-004"
+  },
+  {
+   "id": 146,
+   "zh": "据说火焰鸟现身过的雪国都能快人一步{NEWLINE}地进入春天,传说中鸟类精灵之一。",
+   "en": "This legendary bird Pokémon is{NEWLINE}said to bring early spring to{NEWLINE}the wintry lands it visits.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/146"
+  },
+  {
+   "id": 147,
+   "zh": "反复蜕皮而不断长大,充满生命力的精{NEWLINE}灵。",
+   "en": "A Pokémon brimming with{NEWLINE}life force. It keeps growing by{NEWLINE}shedding its skin again and again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 148,
+   "zh": "尾巴上似乎如水晶般的珠子里藏有自由{NEWLINE}操纵天气的能力。",
+   "en": "The crystal-like orbs on its tail seem{NEWLINE}to hold the power to control the{NEWLINE}weather at will.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/148; ext-review RC-001"
+  },
+  {
+   "id": 149,
+   "zh": "凭借着了不起的体格能在狂暴的海上无{NEWLINE}畏地自由飞来飞去,被称作海之化身。",
+   "en": "Its impressive build lets it fly freely{NEWLINE}and fearlessly over raging seas. It{NEWLINE}is called the embodiment of the sea.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/149"
+  },
+  {
+   "id": 150,
+   "zh": "为了在战斗中最大限度地发挥力量,平{NEWLINE}时都在一动不动地积蓄着能量。",
+   "en": "It usually remains motionless to{NEWLINE}conserve energy, so that it may{NEWLINE}unleash its full power in battle.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/150"
+  },
+  {
+   "id": 151,
+   "zh": "据说遗传基因中包含着所有精灵的信息,{NEWLINE}因此能使用任何技能。",
+   "en": "Its DNA is said to contain the genetic{NEWLINE}codes of all Pokémon, so it can{NEWLINE}use all kinds of techniques.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/151"
+  },
+  {
+   "id": 152,
+   "zh": "香气怡人的叶子有着探测周围温湿度的{NEWLINE}能力。",
+   "en": "Its fragrant leaf can{NEWLINE}sense the temperature{NEWLINE}and humidity around it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 153,
+   "zh": "颈部周围散发出的香料般的气味,经常{NEWLINE}嗅嗅会有保健的效果。",
+   "en": "It gives off a spicy scent from{NEWLINE}around its neck. Sniffing it{NEWLINE}often is good for your health.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 154,
+   "zh": "大竹葵呼出的气体中隐含着使干枯的草{NEWLINE}木复苏的神奇力量。",
+   "en": "Meganium’s breath has the power to{NEWLINE}revive dead grass and plants. It can{NEWLINE}make them healthy again.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/154; modernised from US 0804#154"
+  },
+  {
+   "id": 155,
+   "zh": "一直都将身体缩成球形,生气时和舞蹈{NEWLINE}时会从背上喷出火焰。",
+   "en": "It always keeps its body curled{NEWLINE}into a ball. When angry or dancing,{NEWLINE}it shoots flames from its back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 156,
+   "zh": "覆盖身体的毛皮是绝对不会烧起来的,{NEWLINE}所以可以抵抗任何火焰攻击。",
+   "en": "The fur covering its body{NEWLINE}never catches fire, so it can{NEWLINE}withstand any fire attack.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 157,
+   "zh": "一直隐藏着摩擦自己激烈燃烧的体毛来{NEWLINE}引起爆炸气浪的终极杀手锏。",
+   "en": "Its ultimate secret weapon, always{NEWLINE}kept hidden, is a blast caused by{NEWLINE}rubbing its fiercely burning fur.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 158,
+   "zh": "小时候就是爱捣蛋的家伙,要是眼前有{NEWLINE}会动的东西,不管是什么都要咬住。",
+   "en": "Even when young, it is a{NEWLINE}troublemaker. It bites anything{NEWLINE}that moves in front of it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 159,
+   "zh": "张开大嘴进行攻击,啃咬时脱落的牙齿{NEWLINE}会一个接一个地长出来。",
+   "en": "It opens its huge jaws wide when{NEWLINE}attacking. If it loses any fangs{NEWLINE}while biting, they grow back in.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/159"
+  },
+  {
+   "id": 160,
+   "zh": "在地上支撑身体很辛苦,但匍匐下来能{NEWLINE}以很快的速度移动。",
+   "en": "It struggles to hold up its{NEWLINE}body on land, but it can move{NEWLINE}very fast by crawling low.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/160"
+  },
+  {
+   "id": 161,
+   "zh": "为了能看清远处的情况而用尾巴站立,{NEWLINE}发现敌人后就用大叫来通知同伴。",
+   "en": "It stands on its tail so it can see{NEWLINE}a long way. If it spots an enemy, it{NEWLINE}cries loudly to warn its kind.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/161"
+  },
+  {
+   "id": 162,
+   "zh": "尾巴是从哪来的还真不清楚,虽然手脚{NEWLINE}短小却能袭击到行动敏捷的小拉达。",
+   "en": "No one can tell where its tail{NEWLINE}begins. Despite its short limbs, it{NEWLINE}can attack even nimble Rattata.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/162; modernised from US 0804#162"
+  },
+  {
+   "id": 163,
+   "zh": "靠着体内的时间感觉,不管何时都能以{NEWLINE}精确的节奏倾斜头部。",
+   "en": "Thanks to its internal sense{NEWLINE}of time, it always tilts its{NEWLINE}head at a precise rhythm.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 164,
+   "zh": "开始考虑事情时,便会将头部旋转１８０{NEWLINE}度,以增强大脑的工作机能。",
+   "en": "When it needs to think, it rotates{NEWLINE}its head 180 degrees to sharpen{NEWLINE}its intellectual power.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/164"
+  },
+  {
+   "id": 165,
+   "zh": "变冷之后从各地而来的芭瓢虫大群地集{NEWLINE}中在一起相互靠紧来取暖。",
+   "en": "When it gets cold, Ledyba from{NEWLINE}all over gather in large swarms{NEWLINE}and huddle close to keep warm.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 166,
+   "zh": "背上的星状斑纹会对夜空中星星的数量{NEWLINE}产生反应而开始变大或者变小。",
+   "en": "The star-shaped spots on its back grow{NEWLINE}larger or smaller depending on the{NEWLINE}number of stars in the night sky.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/166; ext-review RC-001"
+  },
+  {
+   "id": 167,
+   "zh": "只管在由细而坚韧的丝遍布而成的陷阱{NEWLINE}上等着猎物被捕获。",
+   "en": "It simply waits on its trap,{NEWLINE}spun from fine, tough silk,{NEWLINE}for prey to get caught.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 168,
+   "zh": "常常从后端放出一根特殊的丝线,以此{NEWLINE}与自己的巢相连接。",
+   "en": "It always trails a special{NEWLINE}thread from its rear, which{NEWLINE}keeps it linked to its nest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 169,
+   "zh": "脚也发育成为了翅膀,所以能够高速飞{NEWLINE}行,但是想要停下来休息就难办了。",
+   "en": "The development of wings on its legs{NEWLINE}enables it to fly fast but also{NEWLINE}makes it tough to stop and rest.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/169"
+  },
+  {
+   "id": 170,
+   "zh": "在黑暗的海底仅靠不断闪烁的触角的灯{NEWLINE}光作为通信手段。",
+   "en": "On the dark ocean floor, its only{NEWLINE}means of communication is its{NEWLINE}constantly flashing lights.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/170"
+  },
+  {
+   "id": 171,
+   "zh": "发出刺眼的光芒使对手头晕目眩而无法{NEWLINE}行动,再趁此时机将其整个吞下。",
+   "en": "It stuns foes with a blinding{NEWLINE}light so they can’t move,{NEWLINE}then swallows them whole.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; modernised from the v3 TM text"
+  },
+  {
+   "id": 172,
+   "zh": "虽然很小但却能放出使成年人颤抖麻痹{NEWLINE}的电击,不过其自身也会吓到。",
+   "en": "It is small, but its shocks{NEWLINE}can make grown adults shake with{NEWLINE}paralysis. It startles itself, too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 173,
+   "zh": "流星很多的夜晚,会看到的皮宝宝的体{NEWLINE}形也会不可思议地变大。",
+   "en": "On nights with many shooting{NEWLINE}stars, the Cleffa you see{NEWLINE}mysteriously grow bigger.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 174,
+   "zh": "拥有充满弹性的身体,不管何时何地都{NEWLINE}一直在弹跳。",
+   "en": "Its extremely flexible and{NEWLINE}elastic body makes it bounce{NEWLINE}continuously--anytime, anywhere.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/174"
+  },
+  {
+   "id": 175,
+   "zh": "有传言说,若让睡着的波克比好好地站{NEWLINE}住的话,就能永远获得幸福。",
+   "en": "Rumor has it that anyone who can make a{NEWLINE}sleeping Togepi stand up will be happy{NEWLINE}forever.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/175; modernised from US 0804#175"
+  },
+  {
+   "id": 176,
+   "zh": "不待在和善的人身边就会变得没有精神,{NEWLINE}即使不扇动翅膀也能浮在空中。",
+   "en": "It grows dispirited if it is not{NEWLINE}with kind people. It can float in{NEWLINE}midair without moving its wings.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/176"
+  },
+  {
+   "id": 177,
+   "zh": "平时都在地上寻找食物,但偶尔也会飞{NEWLINE}上树枝啄食树木的嫩芽。",
+   "en": "It usually looks for food on the{NEWLINE}ground, but now and then flies up to{NEWLINE}branches to peck at tree buds.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/177; ext-review RC-003"
+  },
+  {
+   "id": 178,
+   "zh": "在南美洲,传说其左眼能看到过去而右{NEWLINE}眼却能看到未来。",
+   "en": "In South America, it is said that{NEWLINE}its left eye can see the past{NEWLINE}and its right eye the future.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 179,
+   "zh": "体毛不断变长,但是到了夏天又会全部{NEWLINE}掉光,一瞬间就变回原来的样子。",
+   "en": "Its fleece keeps growing longer, but in{NEWLINE}summer it all falls out, and it returns{NEWLINE}to its original look in an instant.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 180,
+   "zh": "松软的毛易于蓄电,靠着橡胶般的皮肤{NEWLINE}使自己不会麻痹。",
+   "en": "Its fluffy fleece easily stores{NEWLINE}electricity. Its rubbery hide keeps{NEWLINE}it from being electrocuted.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/180"
+  },
+  {
+   "id": 181,
+   "zh": "尾巴上的光能传到远处,因此很早以前{NEWLINE}就作为照明光源而受到重视。",
+   "en": "The bright light on its tail can be{NEWLINE}seen far away. It has been treasured{NEWLINE}since ancient times as a beacon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/181"
+  },
+  {
+   "id": 182,
+   "zh": "在南国大量地栖息着,翩翩起舞之时花{NEWLINE}瓣相碰能奏响令人愉悦的声音。",
+   "en": "It lives in large numbers in southern{NEWLINE}lands. When it dances, its petals brush{NEWLINE}together, making a pleasant sound.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 183,
+   "zh": "尾巴末端起到救生圈的作用,就算身处{NEWLINE}激流也不会溺水。",
+   "en": "The end of its tail serves as a{NEWLINE}buoy that keeps it from drowning,{NEWLINE}even in a vicious current.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/183"
+  },
+  {
+   "id": 184,
+   "zh": "玩水的时候为了不让水流进耳朵而将长{NEWLINE}耳朵卷起来。",
+   "en": "When it plays in water, it rolls up{NEWLINE}its elongated ears to prevent their{NEWLINE}insides from getting wet.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/184"
+  },
+  {
+   "id": 185,
+   "zh": "为了免遭袭击而伪装成树,因为怕水开{NEWLINE}始下雨时就吓得匆匆忙忙地躲起来了。",
+   "en": "It disguises itself as a tree to avoid{NEWLINE}attack. It fears water, so it panics{NEWLINE}and hides as soon as rain starts.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 186,
+   "zh": "３只以上的牛蛙君聚在一起肯定会开始{NEWLINE}用吵闹的叫声合唱。",
+   "en": "Whenever three or more of these get{NEWLINE}together, they sing in a loud{NEWLINE}voice that sounds like bellowing.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/186"
+  },
+  {
+   "id": 187,
+   "zh": "身体十分轻盈,为了不被吹走而紧紧地{NEWLINE}抓着地面。",
+   "en": "Its body is so light, it must{NEWLINE}grip the ground firmly with its{NEWLINE}feet to keep from being blown away.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/187"
+  },
+  {
+   "id": 188,
+   "zh": "为了沐浴阳光,不仅会打开花瓣,还会{NEWLINE}为了想更靠近太阳而飘在空中。",
+   "en": "It spreads its petals to absorb{NEWLINE}sunlight. It also floats in the air{NEWLINE}to get closer to the sun.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/188"
+  },
+  {
+   "id": 189,
+   "zh": "一边乘着季风一边为了增加子孙后代而{NEWLINE}将孢子散布到世界各地。",
+   "en": "Drifts on seasonal winds and spreads{NEWLINE}its cotton-like spores all over{NEWLINE}the world to make more offspring.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/189"
+  },
+  {
+   "id": 190,
+   "zh": "生活在高高的大树顶端,在枝条间跳跃{NEWLINE}移动时能靠尾巴巧妙地保持平衡。",
+   "en": "It lives atop tall trees. When{NEWLINE}leaping from branch to branch, it{NEWLINE}deftly uses its tail for balance.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/190"
+  },
+  {
+   "id": 191,
+   "zh": "仅靠喝叶子背面积存的朝露为生,据说{NEWLINE}不吃其他任何的东西。",
+   "en": "It is said to live only on the morning{NEWLINE}dew that gathers on the undersides{NEWLINE}of leaves and to eat nothing else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 192,
+   "zh": "白天精神满满地到处乱跑,太阳下山后{NEWLINE}突然就变得不动了。",
+   "en": "By day it runs around full of{NEWLINE}energy. When the sun sets,{NEWLINE}it suddenly stops moving.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 193,
+   "zh": "用大大的双眼３６０度环视四周来寻找{NEWLINE}可以作为食物的虫子。",
+   "en": "Its large eyes can scan 360 degrees.{NEWLINE}It looks in all directions to seek{NEWLINE}out insects as its prey.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/193"
+  },
+  {
+   "id": 194,
+   "zh": "在地上四处走动时,会用粘糊糊的有毒{NEWLINE}粘膜覆盖在身体的表面上保护自己。",
+   "en": "When it walks around on the{NEWLINE}ground, it coats its body with a{NEWLINE}slimy, poisonous film.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/194"
+  },
+  {
+   "id": 195,
+   "zh": "由于性格优哉游哉的,游唦时头会撞上{NEWLINE}河底的石头或船底。",
+   "en": "It has a laid-back nature, so it{NEWLINE}bumps its head on riverbed rocks{NEWLINE}and boat bottoms while swimming.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 196,
+   "zh": "靠判断空气的流动就能预测此后的天气{NEWLINE}和猜测对手的行动。",
+   "en": "By reading the flow of the air,{NEWLINE}it can predict the weather to{NEWLINE}come and guess its foe’s moves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 197,
+   "zh": "为了使捕食者恐惧,身上的环状花纹在{NEWLINE}天黑时会自然地发出诡异的光芒。",
+   "en": "To scare predators, the{NEWLINE}ring patterns on its body glow{NEWLINE}eerily on their own after dark.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; modernised from the v3 TM text"
+  },
+  {
+   "id": 198,
+   "zh": "据说有东西追赶它时,它就会将对方引{NEWLINE}诱到黑暗的山路中,让追赶者彻底地迷{NEWLINE}路。",
+   "en": "It is said that when chased, it{NEWLINE}lures its attacker onto dark mountain{NEWLINE}trails where the foe will get lost.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/198"
+  },
+  {
+   "id": 199,
+   "zh": "由于在被啃咬时渗入大脑中的毒素起了{NEWLINE}作用,导致自己非凡能力的觉醒而成为{NEWLINE}呆呆兽中的首领。",
+   "en": "The toxin that seeped into its brain{NEWLINE}when bitten awakened amazing powers,{NEWLINE}and it became a leader of Slowpoke.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; modernised from the v3 TM text"
+  },
+  {
+   "id": 200,
+   "zh": "会突然咬住别人脑后的头发并拉扯,看{NEWLINE}到对方惊吓的样子便非常高兴。",
+   "en": "It suddenly bites the hair on the back{NEWLINE}of people’s heads and tugs. It is{NEWLINE}delighted to see them startled.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; ext-review RC-003"
+  },
+  {
+   "id": 201,
+   "zh": "自己的身体很薄,一直都贴在遗迹的墙{NEWLINE}上,其身形似乎含有某种神秘的意义。",
+   "en": "Its body is thin, and it always clings{NEWLINE}to the walls of ruins. Its shape seems{NEWLINE}to hold some mysterious meaning.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; modernised from the v3 TM text"
+  },
+  {
+   "id": 202,
+   "zh": "为了藏起漆黑的尾巴而默默地活在黑暗{NEWLINE}之中,自身不会发起任何攻击。",
+   "en": "To keep its pitch-black tail hidden,{NEWLINE}it lives quietly in the darkness.{NEWLINE}It is never first to attack.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/202"
+  },
+  {
+   "id": 203,
+   "zh": "尾巴上也有一个小小的头脑,所以尾巴{NEWLINE}闻到食物的气味也会自主地去咬。",
+   "en": "Its tail, which also contains a{NEWLINE}small brain, may bite on its own if{NEWLINE}it notices an alluring smell.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/203"
+  },
+  {
+   "id": 204,
+   "zh": "一边倒吊着一边等待作为食物的虫子飞{NEWLINE}过,自己本身却很少活动。",
+   "en": "It hangs and waits for flying insect{NEWLINE}prey to come near. It does not move{NEWLINE}about much on its own.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/204"
+  },
+  {
+   "id": 205,
+   "zh": "紧紧地贴着树不动,会在地面上散布坚{NEWLINE}硬外壳的碎片来让天敌无法靠近。",
+   "en": "It clings motionless to trees and{NEWLINE}scatters bits of its hard shell on{NEWLINE}the ground to keep predators away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 206,
+   "zh": "被谁发现行踪时便用尾巴挖洞逃走,翅{NEWLINE}膀也稍微能飞一点点高。",
+   "en": "If anyone spots it, it digs a hole{NEWLINE}with its tail and escapes. It can{NEWLINE}also fly just a little with its wings.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 207,
+   "zh": "一直都贴在崖壁上,发现猎物时便张开{NEWLINE}翅膀乘着风猛扑过去。",
+   "en": "It usually clings to cliffs. When it{NEWLINE}spots its prey, it spreads its wings{NEWLINE}and glides down to attack.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/207"
+  },
+  {
+   "id": 208,
+   "zh": "据说大岩蛇活了一百年以上,身体的成{NEWLINE}分就会发生变化,成为金刚石一般。",
+   "en": "It is said that if an Onix lives for{NEWLINE}over 100 years, its body’s composition{NEWLINE}changes and becomes like diamond.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/208; modernised from US 0804#208"
+  },
+  {
+   "id": 209,
+   "zh": "有着活泼喜欢玩乐的性格,所以有很多{NEWLINE}的女性争相与其玩耍。",
+   "en": "It has a lively, playful{NEWLINE}nature, so many women{NEWLINE}compete to play with it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 210,
+   "zh": "因为其过大的牙齿而一直倾斜着头,不{NEWLINE}过啃咬的力道十分厉害。",
+   "en": "Because its fangs are too heavy, it{NEWLINE}always keeps its head tilted down.{NEWLINE}However, its bite is powerful.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/210"
+  },
+  {
+   "id": 211,
+   "zh": "全身的小针是由鳞片变化而来的,被刺{NEWLINE}中时便会因中毒而慢慢失去意识。",
+   "en": "The small spikes covering its body{NEWLINE}developed from scales. They inject{NEWLINE}a toxin that causes fainting.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/211"
+  },
+  {
+   "id": 212,
+   "zh": "扇动翅膀也飞不起来,但通过高速振翅{NEWLINE}能够调节体温。",
+   "en": "Its wings are not used for flying.{NEWLINE}They are flapped at high speed to{NEWLINE}adjust its body temperature.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/212"
+  },
+  {
+   "id": 213,
+   "zh": "甲壳里积蓄着树木的果实,为了不遭到{NEWLINE}袭击而躲在石头底下一动也不动。",
+   "en": "It stores tree fruits in{NEWLINE}its shell. To avoid attack, it{NEWLINE}hides motionless under rocks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 214,
+   "zh": "虽然平常十分老实,但有打扰其吸食花{NEWLINE}蜜的家伙存在的话,便会用大角驱赶。",
+   "en": "It is usually docile, but if{NEWLINE}it is disturbed while sipping honey, it{NEWLINE}chases off the intruder with its horn.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/214"
+  },
+  {
+   "id": 215,
+   "zh": "穷凶极恶的性格,会轰走波波夫妇再吃{NEWLINE}掉巢里留下的鸟蛋。",
+   "en": "It has a truly vicious nature. It{NEWLINE}drives off Pidgey couples, then eats{NEWLINE}the eggs they leave in the nest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/215; modernised from US 0804#215"
+  },
+  {
+   "id": 216,
+   "zh": "在食物减少的冬季之前,会将食物藏在{NEWLINE}各处。",
+   "en": "Before food becomes scarce in{NEWLINE}wintertime, its habit is to hoard{NEWLINE}food in many hidden locations.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/216"
+  },
+  {
+   "id": 217,
+   "zh": "无论什么气味都能分辨,能将埋在地下{NEWLINE}深处的食物一个不剩地找出来。",
+   "en": "With its ability to distinguish any{NEWLINE}aroma, it unfailingly finds all{NEWLINE}food buried deep underground.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/217"
+  },
+  {
+   "id": 218,
+   "zh": "大量出现在火山地带,为寻找温暖的地{NEWLINE}方而慢吞吞地爬来爬去。",
+   "en": "A common sight in volcanic areas, it{NEWLINE}slowly slithers around in a{NEWLINE}constant search for warm places.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/218"
+  },
+  {
+   "id": 219,
+   "zh": "背上的壳很容易崩解脱落,有时会喷出{NEWLINE}流动在体内的高温岩浆。",
+   "en": "The shell on its back crumbles and{NEWLINE}falls off easily. Sometimes it spews the{NEWLINE}hot magma that flows inside its body.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 220,
+   "zh": "嗅到好闻的气味时便不顾前后地朝着气{NEWLINE}味的方向猛冲过去。",
+   "en": "If it smells something enticing, it{NEWLINE}dashes off headlong to find the{NEWLINE}source of the aroma.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/220"
+  },
+  {
+   "id": 221,
+   "zh": "朝着对手直冲上去时,背上的毛会倒竖{NEWLINE}起来,对声音极度敏感。",
+   "en": "If it charges at an enemy, the{NEWLINE}hairs on its back stand up straight.{NEWLINE}It is very sensitive to sound.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/221"
+  },
+  {
+   "id": 222,
+   "zh": "在南部的海之国度里,人们都生活在大{NEWLINE}群的太阳珊瑚形成的珊瑚礁之上。",
+   "en": "In a south-sea nation, the people{NEWLINE}live in communities that are{NEWLINE}built on groups of these Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/222"
+  },
+  {
+   "id": 223,
+   "zh": "会用变化成吸盘状的背鳍吸附在巨翅飞{NEWLINE}鱼身上,然后分食其吃剩的东西。",
+   "en": "Using its dorsal fin as a suction pad,{NEWLINE}it clings to a Mantine’s underside{NEWLINE}to scavenge for leftovers.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/223; modernised from US 0804#223"
+  },
+  {
+   "id": 224,
+   "zh": "有着生活在岩洞中的习性,想睡觉时便{NEWLINE}会夺取其他章鱼桶的巢穴。",
+   "en": "It instinctively sneaks into rocky{NEWLINE}holes. If it gets sleepy, it steals{NEWLINE}the nest of a fellow Octillery.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/224; modernised from US 0804#224"
+  },
+  {
+   "id": 225,
+   "zh": "为了在峭壁顶端巢穴里的雏鸟们不被饿{NEWLINE}着,一整天都在寻找并运送食物。",
+   "en": "It nests at the edge of sharp{NEWLINE}cliffs. It spends all day carrying{NEWLINE}food to its awaiting chicks.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/225"
+  },
+  {
+   "id": 226,
+   "zh": "在广阔的大海里自由地游唦,达到高速{NEWLINE}后能飞越波涛之巅。",
+   "en": "Swimming freely in open seas, it may{NEWLINE}fly out of the water and over the{NEWLINE}waves if it builds up enough speed.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/226"
+  },
+  {
+   "id": 227,
+   "zh": "喜欢在荆棘丛里筑巢,因为被刺弄伤而{NEWLINE}锻炼出的雏鸟的翅膀会变得更硬。",
+   "en": "It likes to nest in thorny{NEWLINE}bushes. Its chicks’ wings grow{NEWLINE}harder as the thorns cut them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 228,
+   "zh": "用只有同伴能理解的叫声相互确定位置,{NEWLINE}并一起追击猎物。",
+   "en": "To corner prey, they check each{NEWLINE}other’s location using barks that{NEWLINE}only they can understand.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/228"
+  },
+  {
+   "id": 229,
+   "zh": "听见其异常恐怖的嚎叫的精灵们会全都{NEWLINE}颤抖着跑回自己的巢穴里躲起来。",
+   "en": "Pokémon that hear its{NEWLINE}terrifying howl all tremble and{NEWLINE}run back to hide in their nests.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 230,
+   "zh": "好像为了积蓄力量而沉睡在深深的海底,{NEWLINE}据说觉醒之时会引起强烈的龙卷风。",
+   "en": "It sleeps deep on the ocean floor to{NEWLINE}build its energy. It is said to{NEWLINE}cause tornadoes as it wakes.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/230"
+  },
+  {
+   "id": 231,
+   "zh": "用碰鼻子来表达爱意,但因为力道过大{NEWLINE}而一不小心便会将对方推倒。",
+   "en": "It shows affection by bumping{NEWLINE}noses, but it pushes so hard it may{NEWLINE}accidentally knock the other over.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 232,
+   "zh": "牙齿又长又大的顿甲在族群里地位很高,{NEWLINE}而象牙的成长需要花很多的时间。",
+   "en": "The longer and bigger its tusks,{NEWLINE}the higher its rank in its herd.{NEWLINE}The tusks take long to grow.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/232"
+  },
+  {
+   "id": 233,
+   "zh": "随着研究的不断深入,能力得到了提高,{NEWLINE}不过有时会展现出程序里没有设定的行{NEWLINE}为。",
+   "en": "Further research enhanced its{NEWLINE}abilities. Sometimes, it may exhibit{NEWLINE}motions that were not programmed.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/233"
+  },
+  {
+   "id": 234,
+   "zh": "看着其角的造型会感觉变得奇怪,然后{NEWLINE}会发现自己渐渐连站都站不住了。",
+   "en": "Looking at the shape of its antlers{NEWLINE}makes you feel strange, and soon{NEWLINE}you find you can hardly stand.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 235,
+   "zh": "有着成年之后就会让同伴在身上画下特{NEWLINE}殊标记的习性。",
+   "en": "When it becomes an adult, it has{NEWLINE}a habit of letting its companions{NEWLINE}paint special marks on its body.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/235"
+  },
+  {
+   "id": 236,
+   "zh": "发现可以欺负的对手便会马上扑上去殴{NEWLINE}打一顿,所以就算它身体很小也千万不{NEWLINE}能掉以轻心。",
+   "en": "It pounces on any foe it can bully{NEWLINE}and beats it up, so even though it’s{NEWLINE}small, never let your guard down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 237,
+   "zh": "不断旋转身体使出踢击,能保持高速旋{NEWLINE}转的状态潜入地面之下。",
+   "en": "It kicks while spinning its body.{NEWLINE}It can burrow underground{NEWLINE}while spinning at high speed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 238,
+   "zh": "一直做出接吻的样子,随着舒畅的节奏{NEWLINE}不停地摇晃脑袋。",
+   "en": "It always makes a kissing{NEWLINE}face and sways its head{NEWLINE}to a pleasant rhythm.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/238"
+  },
+  {
+   "id": 239,
+   "zh": "不论是多么强烈的暴风雨,只要有打雷{NEWLINE}的话,就会高兴地到处去玩。",
+   "en": "Even in the most vicious storm,{NEWLINE}this Pokémon plays happily if thunder{NEWLINE}rumbles in the sky.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/239"
+  },
+  {
+   "id": 240,
+   "zh": "在火山口处被发现,体温居然也高达６{NEWLINE}００度,虽身材短小但也不能轻视。",
+   "en": "It lives in volcano craters, and its{NEWLINE}body heat reaches 600 degrees. Don’t{NEWLINE}underestimate it for its small size.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/240"
+  },
+  {
+   "id": 241,
+   "zh": "在产仔时期挤出的牛奶的营养比平时更{NEWLINE}加丰富。",
+   "en": "The milk it gives when it{NEWLINE}has young is even more{NEWLINE}nutritious than usual.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; modernised from the v3 TM text"
+  },
+  {
+   "id": 242,
+   "zh": "性格十分善良,发现生病的精灵便会细{NEWLINE}心照顾其直到康复为止。",
+   "en": "It has a very compassionate nature.{NEWLINE}If it sees a sick Pokémon, it will{NEWLINE}nurse the sufferer back to health.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/242"
+  },
+  {
+   "id": 243,
+   "zh": "能吼出如落雷般的叫声,在大地上四处{NEWLINE}奔跑的传说中的精灵之一。",
+   "en": "One of the legendary Pokémon that{NEWLINE}race across the land. It lets{NEWLINE}out cries like crashing thunder.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/243"
+  },
+  {
+   "id": 244,
+   "zh": "据说是在新火山形成时出生的,在大地{NEWLINE}上四处奔跑的精灵传送中的精灵之一。",
+   "en": "It is said to be born when a new{NEWLINE}volcano forms. One of the legendary{NEWLINE}Pokémon that race across the land.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/244"
+  },
+  {
+   "id": 245,
+   "zh": "据说其现身之时会莫名地吹起北风,在{NEWLINE}大地上四处奔跑的传说中的精灵之一。",
+   "en": "It is said that north winds somehow blow{NEWLINE}when it appears. One of the legendary{NEWLINE}Pokémon that race across the land.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/245"
+  },
+  {
+   "id": 246,
+   "zh": "在地下深处诞生,不将周围的土地整平{NEWLINE}就不会到地上来。",
+   "en": "It is born deep underground. It{NEWLINE}won’t come to the surface until{NEWLINE}it has leveled the land around it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/246"
+  },
+  {
+   "id": 247,
+   "zh": "虽然被甲壳覆盖,却能够自由地跳来跳{NEWLINE}去,既有超群的硬度也有超群的破坏力。",
+   "en": "Though covered in a shell, it can{NEWLINE}hop about freely. Its toughness and{NEWLINE}destructive power are both unmatched.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 248,
+   "zh": "拥有轻而易举将周围地形改变的力量,{NEWLINE}有着毫不在意周边一切事物的目中无人{NEWLINE}的性格。",
+   "en": "It has the power to reshape the land{NEWLINE}around it with ease. It is arrogant and{NEWLINE}cares nothing for what surrounds it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 249,
+   "zh": "被传说称为海神的精灵,据说曾有船员{NEWLINE}在暴风雨之夜看见其身影的故事。",
+   "en": "Legends call this Pokémon the god of{NEWLINE}the sea. Sailors are said to have seen{NEWLINE}it on a stormy night.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/249; ext-review RC-007"
+  },
+  {
+   "id": 250,
+   "zh": "身体闪耀着七色光芒,飞过之后便形成{NEWLINE}彩虹,神话传说中的精灵。",
+   "en": "A Pokémon of myth. Its body shines{NEWLINE}in seven colors, and a rainbow forms{NEWLINE}in the sky wherever it has flown.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 251,
+   "zh": "雪拉比消失踪迹后的森林深处所留下的{NEWLINE}蛋据说是从未来带过来的东西。",
+   "en": "When Celebi disappears deep in a{NEWLINE}forest, it is said to leave behind an{NEWLINE}egg it brought from the future.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/251; modernised from US 0804#251"
+  },
+  {
+   "id": 252,
+   "zh": "脚底的小刺能钩在墙壁和天花板上,就{NEWLINE}算倒转也不会掉下来。",
+   "en": "Small hooks on the bottom of its{NEWLINE}feet catch on walls and ceilings.{NEWLINE}That is how it can hang from above.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/252"
+  },
+  {
+   "id": 253,
+   "zh": "在大树的枝干间轻盈地跳跃移动,有着{NEWLINE}令人惊叹的爆发力。",
+   "en": "It leaps from tree branch to tree{NEWLINE}branch quite swiftly. It shows{NEWLINE}astounding agility.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/253"
+  },
+  {
+   "id": 254,
+   "zh": "在丛林里轻盈地来回奔走,用腕部生长{NEWLINE}的锋利叶子杀死猎物。",
+   "en": "It darts nimbly through the jungle and{NEWLINE}kills its prey with the sharp leaves on{NEWLINE}its arms.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/254; ext-review RC-002"
+  },
+  {
+   "id": 255,
+   "zh": "因为体内有燃着火焰的袋子,抱住的时{NEWLINE}候就像热水壶一样温暖。",
+   "en": "Inside its body is a place where it{NEWLINE}keeps a small flame. Hug it! It will{NEWLINE}be as warm as a hot-water bottle.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/255"
+  },
+  {
+   "id": 256,
+   "zh": "战斗时体内的火焰便会熊熊燃烧,踢击{NEWLINE}的破坏力超群。",
+   "en": "During a battle, the hot flame in{NEWLINE}its body increases. Its kicks have{NEWLINE}outstanding destructive power.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/256"
+  },
+  {
+   "id": 257,
+   "zh": "有着越过３０层大楼的跳跃力,火焰之{NEWLINE}拳能将对手烧成灰烬。",
+   "en": "It can leap over a 30-story building.{NEWLINE}Its fiery punches burn its foes to{NEWLINE}ashes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/257; ext-review RC-002"
+  },
+  {
+   "id": 258,
+   "zh": "拥有将巨石碾成粉末的力量,平时将身{NEWLINE}体埋在河底的淤泥中休息。",
+   "en": "It has the power to crush boulders into{NEWLINE}powder. It rests buried in the mud of{NEWLINE}riverbeds.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/258; ext-review RC-004"
+  },
+  {
+   "id": 259,
+   "zh": "以粘糊糊的泥泞地为住所,久而久之锻{NEWLINE}炼出了强韧的腰腿。",
+   "en": "Living on muddy ground that{NEWLINE}provides poor footing has made{NEWLINE}its legs sturdy.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/259"
+  },
+  {
+   "id": 260,
+   "zh": "只要挥动石头般的手腕,巨大的岩石也{NEWLINE}将碎成粉末。",
+   "en": "With just one swing of its rock-hard{NEWLINE}arms, it can crush huge boulders into{NEWLINE}powder.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/260; ext-review RC-004"
+  },
+  {
+   "id": 261,
+   "zh": "虽然会将盯上的猎物追到精疲力尽,但{NEWLINE}被反击时也会退缩。",
+   "en": "It chases its prey until the victim{NEWLINE}becomes exhausted. However, it{NEWLINE}turns tail if the prey strikes back.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/261"
+  },
+  {
+   "id": 262,
+   "zh": "组成１０匹左右的群体,凭着一丝不乱{NEWLINE}的团队合作追杀猎物。",
+   "en": "It forms packs of about ten that hunt{NEWLINE}down and kill prey with flawless{NEWLINE}teamwork.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/262; ext-review RC-002"
+  },
+  {
+   "id": 263,
+   "zh": "对许多东西都有兴趣,喜欢左一下右一{NEWLINE}下地蜿蜒行走,是擅长找东西的精灵。",
+   "en": "It gets interested in everything,{NEWLINE}which is why it zigs and zags.{NEWLINE}It is good at finding items.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/263"
+  },
+  {
+   "id": 264,
+   "zh": "直线奔跑起来时的最高速度能超过１００{NEWLINE}公里每小时,但是对弯道非常苦手。",
+   "en": "Running in a straight line, it{NEWLINE}can top 100 km/h. However, it{NEWLINE}is terrible at taking corners.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/264"
+  },
+  {
+   "id": 265,
+   "zh": "栖息在森林和草丛中,遭遇敌袭时用尾{NEWLINE}端的毒刺来与之对抗。",
+   "en": "It lives in forests and tall grass. When{NEWLINE}attacked, it fights back with the poison{NEWLINE}stinger on its tail tip.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/265; ext-review RC-001"
+  },
+  {
+   "id": 266,
+   "zh": "在树枝上缠绕丝线支撑身体防止坠落,{NEWLINE}静静地等待进化的时刻的到来。",
+   "en": "It wraps silk around branches to hold{NEWLINE}itself up and keep from falling, then{NEWLINE}quietly awaits evolution.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/266; ext-review RC-001"
+  },
+  {
+   "id": 267,
+   "zh": "色彩鲜艳的翅膀花纹是其特征,伸长细{NEWLINE}细的嘴吸取甜甜的花蜜。",
+   "en": "Vibrantly patterned wings are its{NEWLINE}prominent feature. It sucks sweet{NEWLINE}flower nectar with its long mouth.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/267"
+  },
+  {
+   "id": 268,
+   "zh": "一动不动地承受敌人的攻击,那时的痛{NEWLINE}苦会转变成力量,从而进化出强力的身{NEWLINE}体。",
+   "en": "It endures attacks with patience,{NEWLINE}because the more pain before{NEWLINE}evolution, the sturdier it becomes.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/268"
+  },
+  {
+   "id": 269,
+   "zh": "散布剧毒的粉末对抗敌人的攻击,常在{NEWLINE}半夜活动的精灵。",
+   "en": "It fights off attacks by scattering{NEWLINE}a highly toxic powder. This Pokémon{NEWLINE}is often active in the dead of night.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/269"
+  },
+  {
+   "id": 270,
+   "zh": "因为叶子长得太大太重,只好漂在水面{NEWLINE}上生活。",
+   "en": "Its leaf grew too large for it to{NEWLINE}live on land. That is how it began{NEWLINE}to live floating in the water.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/270"
+  },
+  {
+   "id": 271,
+   "zh": "黄昏时开始活动的夜行性精灵,喜欢吃{NEWLINE}河底的水苔。",
+   "en": "It is nocturnal and becomes active{NEWLINE}at nightfall. It feeds on aquatic{NEWLINE}mosses that grow in the riverbed.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/271"
+  },
+  {
+   "id": 272,
+   "zh": "靠跟着欢快的节奏摇动身体来使力量得{NEWLINE}到增强。",
+   "en": "If it hears festive music, it begins{NEWLINE}moving in rhythm in order to{NEWLINE}amplify its power.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/272"
+  },
+  {
+   "id": 273,
+   "zh": "头顶黏在树枝上垂挂着,也有被狂风吹{NEWLINE}落的时候。",
+   "en": "It attaches itself to a tree branch{NEWLINE}using the top of its head. Strong{NEWLINE}winds can sometimes make it fall.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/273"
+  },
+  {
+   "id": 274,
+   "zh": "栖息于森林的深处,能用头上的叶做成{NEWLINE}笛子能吹出令人们感到不安的诡异音色。",
+   "en": "It lives deep in forests. With the{NEWLINE}leaf on its head, it makes a flute{NEWLINE}whose song makes listeners uneasy.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/274"
+  },
+  {
+   "id": 275,
+   "zh": "在森林深处默默地生活,据说会扇动巨{NEWLINE}大的团扇刮起阵阵寒风。",
+   "en": "It lives quietly in the deep forest.{NEWLINE}It is said to create chilly winter{NEWLINE}winds with the fans it holds.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/275"
+  },
+  {
+   "id": 276,
+   "zh": "寒冷季节到来之时,一日内能飞行３００{NEWLINE}多千米,常常以刺尾虫作为食物。",
+   "en": "When the cold season comes, it{NEWLINE}can fly over 300 km in a single{NEWLINE}day. It often feeds on Wurmple.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/276"
+  },
+  {
+   "id": 277,
+   "zh": "发现生活在森林里的猎物时,便从高空{NEWLINE}急速冲下,然后用锐利的爪子捕获猎物。",
+   "en": "It dives at a steep angle as soon{NEWLINE}as it spots its prey. It catches{NEWLINE}its prey with sharp claws.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/277"
+  },
+  {
+   "id": 278,
+   "zh": "利用气流不拍打翅膀就能飞上天空,在{NEWLINE}海边的崖壁上筑巢。",
+   "en": "It soars on updrafts without{NEWLINE}flapping its wings. It makes a nest{NEWLINE}on sheer cliffs at the sea’s edge.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/278"
+  },
+  {
+   "id": 279,
+   "zh": "把幼鸟装进喙里免遭敌人攻击,风平浪{NEWLINE}静的日子里便会漂在海面上休息。",
+   "en": "It protects its young in its beak.{NEWLINE}It bobs on waves, resting on them{NEWLINE}on days when the waters are calm.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/279"
+  },
+  {
+   "id": 280,
+   "zh": "头上的红色触角拥有能敏感地获知人类{NEWLINE}情绪的神奇力量。",
+   "en": "The red horns on its head have{NEWLINE}a mysterious power that lets it{NEWLINE}keenly sense human emotions.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/280"
+  },
+  {
+   "id": 281,
+   "zh": "能凭借操纵精神力扭曲周围的空间来预{NEWLINE}见未来。",
+   "en": "It has a psychic power that{NEWLINE}enables it to distort the space{NEWLINE}around it and see into the future.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/281"
+  },
+  {
+   "id": 282,
+   "zh": "保护心灵相通的训练师的时候能发挥出{NEWLINE}精神能量的最大威力。",
+   "en": "It unleashes psychokinetic energy{NEWLINE}at full power when protecting a{NEWLINE}Trainer it has bonded closely with.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/282"
+  },
+  {
+   "id": 283,
+   "zh": "能从头顶流出类似糖稀的甜味液体,住{NEWLINE}在水草多的池子里。",
+   "en": "It secretes a thick, sweet-scented{NEWLINE}syrup from the tip of its head.{NEWLINE}It lives on weed-choked ponds.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/283"
+  },
+  {
+   "id": 284,
+   "zh": "靠着４只翅膀浮起,能自由自在地飞来{NEWLINE}飞去。",
+   "en": "It stays aloft on its four{NEWLINE}wings and can fly about{NEWLINE}wherever it pleases.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/284"
+  },
+  {
+   "id": 285,
+   "zh": "感受到危险时,会从头顶散发出有毒的{NEWLINE}孢子来保护自己。",
+   "en": "If it senses danger, it scatters{NEWLINE}poisonous spores from the top of its{NEWLINE}head to protect itself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/285; ext-review RC-001"
+  },
+  {
+   "id": 286,
+   "zh": "经常会给因吸进有毒孢子而痛苦的对手{NEWLINE}一记强烈的重拳。",
+   "en": "It scatters poisonous spores and{NEWLINE}throws powerful punches while its{NEWLINE}foe is hampered by inhaled spores.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/286"
+  },
+  {
+   "id": 287,
+   "zh": "树懒的懒惰样子能充分地引诱出看着他{NEWLINE}的人的懒惰之心。",
+   "en": "The way Slakoth lolls around makes{NEWLINE}anyone who watches it feel like{NEWLINE}doing the same.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/287; modernised from US 0804#287"
+  },
+  {
+   "id": 288,
+   "zh": "身体要是不动的话,压抑的力量便积蓄{NEWLINE}过度使健康状况变得糟糕。",
+   "en": "Its stress level rises if it{NEWLINE}cannot keep moving constantly.{NEWLINE}Too much stress makes it feel sick.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/288"
+  },
+  {
+   "id": 289,
+   "zh": "世上最游手好闲的精灵,吃光了手能触{NEWLINE}及范围的所有食物后才会挪动住处。",
+   "en": "The world’s laziest Pokémon.{NEWLINE}It moves to another spot when there’s{NEWLINE}no food left within its reach.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/289"
+  },
+  {
+   "id": 290,
+   "zh": "有时能在土里生活十年以上,从树根处{NEWLINE}吸取营养。",
+   "en": "It can sometimes live underground for{NEWLINE}more than 10 years. It absorbs{NEWLINE}nutrients from the roots of trees.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/290"
+  },
+  {
+   "id": 291,
+   "zh": "一直听它的叫声,就让人头疼得停不下{NEWLINE}来。以看不见的速度移动。",
+   "en": "Its cry leaves a lasting headache{NEWLINE}if heard for too long. It moves so{NEWLINE}quickly that it is almost invisible.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/291"
+  },
+  {
+   "id": 292,
+   "zh": "不扇动翅膀也能四处飞行,身体内空空{NEWLINE}如也,感受不到任何气息的奇妙精灵。",
+   "en": "A strange Pokémon--it flies without{NEWLINE}moving its wings, has a hollow shell{NEWLINE}for a body, and does not breathe.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/292"
+  },
+  {
+   "id": 293,
+   "zh": "察觉到危险时,便用和喷气机同等音量{NEWLINE}的叫声惊吓敌人。",
+   "en": "If it senses danger, it scares{NEWLINE}the foe by crying out with the{NEWLINE}volume of a jet-plane engine.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/293"
+  },
+  {
+   "id": 294,
+   "zh": "靠发达的腹肌将吸进的空气尽情地释放{NEWLINE}来以发出巨大的叫声。",
+   "en": "It uses its strong stomach muscles to{NEWLINE}force out all the air it has breathed{NEWLINE}in, letting out a tremendous cry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 295,
+   "zh": "战斗时发出的吼声,就像强烈地震一般,{NEWLINE}搞得地面摇摇晃晃。",
+   "en": "Its roar in battle shakes the{NEWLINE}ground like a tremor--or like{NEWLINE}an earthquake has struck.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/295"
+  },
+  {
+   "id": 296,
+   "zh": "无数次地撞击大树,锻炼出强韧的身躯{NEWLINE}和从不气馁的心灵。",
+   "en": "It toughens up by slamming into{NEWLINE}thick trees over and over. It gains{NEWLINE}a sturdy body and dauntless spirit.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/296"
+  },
+  {
+   "id": 297,
+   "zh": "非常喜欢比试力量,拥有能空手停住飞{NEWLINE}驰而来的列车的力量。",
+   "en": "It loves challenging others to{NEWLINE}tests of strength. It has the{NEWLINE}power to stop a train with a slap.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/297"
+  },
+  {
+   "id": 298,
+   "zh": "圆圆大大的尾巴里积蓄着足够多的成长{NEWLINE}所需的营养。",
+   "en": "Its tail is packed full of the{NEWLINE}nutrients it needs to grow.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/298"
+  },
+  {
+   "id": 299,
+   "zh": "相互的鼻子要靠拢时便会因为磁力的排{NEWLINE}斥而不能靠近。",
+   "en": "If two of these meet, they cannot{NEWLINE}get too close because their noses{NEWLINE}repel each other.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/299"
+  },
+  {
+   "id": 300,
+   "zh": "喜欢追着自己的尾巴,转动眼睛的表情{NEWLINE}大受人们欢迎,不过很难与训练师亲近。",
+   "en": "It loves chasing its tail, and its{NEWLINE}rolling eyes make it popular. But it{NEWLINE}rarely grows close to its Trainer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/300"
+  },
+  {
+   "id": 301,
+   "zh": "非常讨厌脏的地方,会在感觉舒适的地{NEWLINE}方不停地修整毛的造型。",
+   "en": "It dislikes dirty places. It often{NEWLINE}searches for a comfortable place{NEWLINE}in which to groom itself.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/301"
+  },
+  {
+   "id": 302,
+   "zh": "在黑暗的洞穴里修建住处,会用尖利的{NEWLINE}爪子挖出宝石并吃掉。",
+   "en": "It dwells in the darkness of caves.{NEWLINE}It uses its sharp claws to dig up{NEWLINE}gems to nourish itself.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/302"
+  },
+  {
+   "id": 303,
+   "zh": "能用钢铁触角变形而成的巨大颚一口将{NEWLINE}对手紧紧咬住。",
+   "en": "It chomps with its gaping mouth.{NEWLINE}Its huge jaws are actually steel{NEWLINE}horns that have been transformed.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/303"
+  },
+  {
+   "id": 304,
+   "zh": "身上覆盖的钢甲进化时便簌簌地剥落,{NEWLINE}然后化作崭新的铠甲。",
+   "en": "When it evolves, it sheds the steel{NEWLINE}carapace that covered its whole body{NEWLINE}and develops a new one.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/304"
+  },
+  {
+   "id": 305,
+   "zh": "最喜欢的食物是铁矿石,用钢铁身体相{NEWLINE}互冲撞来争夺地盘。",
+   "en": "It loves iron ore. Groups of them{NEWLINE}fight for territory by bashing one{NEWLINE}another with their steel bodies.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/305"
+  },
+  {
+   "id": 306,
+   "zh": "看铁尖角的长度就能知道波士可多拉{NEWLINE}的年龄,以一座大山作为自己的地盘。",
+   "en": "You can tell its age by the length{NEWLINE}of its iron horns. It claims an{NEWLINE}entire mountain as its territory.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/306"
+  },
+  {
+   "id": 307,
+   "zh": "靠冥想积蓄精神能量从而能够浮在空中,{NEWLINE}一天只吃一个树果。",
+   "en": "It meditates to heighten its inner{NEWLINE}energy and to float in the air.{NEWLINE}It eats one berry a day.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/307"
+  },
+  {
+   "id": 308,
+   "zh": "靠瑜伽修行锻炼出的精神力能够预测对{NEWLINE}手的行动。",
+   "en": "Through yoga training, it gained{NEWLINE}the psychic power to predict{NEWLINE}its foe’s next move.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/308"
+  },
+  {
+   "id": 309,
+   "zh": "体毛上蓄有静电,在空气干燥的季节全{NEWLINE}身会散落电火花。",
+   "en": "It stores electricity in its fur. It{NEWLINE}gives off sparks from all over its{NEWLINE}body in seasons when the air is dry.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/309"
+  },
+  {
+   "id": 310,
+   "zh": "据说落下闪电的地方就会有雷电兽的巢{NEWLINE}穴,从鬃毛中释放电击。",
+   "en": "Manectric are said to nest wherever{NEWLINE}lightning strikes. It releases{NEWLINE}electric shocks from its mane.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/310"
+  },
+  {
+   "id": 311,
+   "zh": "从电线杆里吸取电力,让体内积蓄的电{NEWLINE}短路来发出声音。",
+   "en": "It absorbs electricity from{NEWLINE}telephone poles. It shorts out its{NEWLINE}body to create crackling noises.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/311"
+  },
+  {
+   "id": 312,
+   "zh": "正负电流有着能使血液流动通畅,从而{NEWLINE}缓解肌肉酸痛的效果。",
+   "en": "Their positive and negative currents{NEWLINE}improve blood flow, which eases sore{NEWLINE}muscles.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/312; modernised from US 0804#312"
+  },
+  {
+   "id": 313,
+   "zh": "通过尾端亮光的忽明忽灭来与同伴对话。{NEWLINE}最喜欢甜甜萤散发出的香甜气息。",
+   "en": "It emits light from its tail to{NEWLINE}communicate. It loves the{NEWLINE}sweet aroma given off by Illumise.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/313; modernised from US 0804#313"
+  },
+  {
+   "id": 314,
+   "zh": "从缎带般的触角里发送出{NEWLINE}令心情平和的波动来终止战斗。",
+   "en": "From its ribbon-like feelers,{NEWLINE}it sends out waves that calm the{NEWLINE}heart and bring battles to an end.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/314; modernised from US 0804#314"
+  },
+  {
+   "id": 315,
+   "zh": "据说喝过富有营养的山泉水的双色玫瑰{NEWLINE}能开出颜色稀有的花朵。",
+   "en": "Roselia that drink nutritionally{NEWLINE}rich springwater are said to reveal{NEWLINE}rare coloration when they bloom.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/315; modernised from US 0804#315"
+  },
+  {
+   "id": 316,
+   "zh": "心脏和脑子都很小,身体的大部分是胃{NEWLINE}袋,不论什么东西都放在胃液中溶化。",
+   "en": "It has a small heart and brain. Its{NEWLINE}stomach comprises most of its body,{NEWLINE}with enzymes to dissolve anything.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/316"
+  },
+  {
+   "id": 317,
+   "zh": "要是嘴里放进了大东西,不管什么都能{NEWLINE}一口吞下,特殊的胃液能消化任何东西。",
+   "en": "It gulps anything that fits in its{NEWLINE}mouth. Its special enzymes can{NEWLINE}dissolve anything.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/317"
+  },
+  {
+   "id": 318,
+   "zh": "集体朝着船猛扑过去,将船底咬烂使其{NEWLINE}沉没,在密林的河水中栖息。",
+   "en": "They form packs to attack boats{NEWLINE}and rip out their hulls to sink them.{NEWLINE}They live in rivers in the jungle.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/318"
+  },
+  {
+   "id": 319,
+   "zh": "从尾端喷射海水,以时速１２０千米四{NEWLINE}处游窜的海洋恶棍。",
+   "en": "A marine rogue that jets{NEWLINE}seawater from its tail to{NEWLINE}dart about at 120 km/h.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/319"
+  },
+  {
+   "id": 320,
+   "zh": "像球一样弹起来玩耍,吞下大量的海水{NEWLINE}后使其能弹得更高。",
+   "en": "It bounces playfully like a ball.{NEWLINE}The more seawater it swallows,{NEWLINE}the higher it bounces.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/320"
+  },
+  {
+   "id": 321,
+   "zh": "体型最大的精灵,经常一大群一齐跳跃{NEWLINE}着追逐捕获猎物。",
+   "en": "It is the largest of all identified{NEWLINE}Pokémon. They jump as a pack{NEWLINE}to herd their prey.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/321"
+  },
+  {
+   "id": 322,
+   "zh": "背上的驼峰中燃烧的岩浆化作能量,然{NEWLINE}后释放出惊人的力量。",
+   "en": "The flaming magma it stores in the{NEWLINE}hump on its back is the source of{NEWLINE}its tremendous power.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/322"
+  },
+  {
+   "id": 323,
+   "zh": "生活在火山口,背上驼峰每十年一次的{NEWLINE}大喷发很有名。",
+   "en": "It lives in the crater of a volcano.{NEWLINE}It is well known that the humps on{NEWLINE}its back erupt every 10 years.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/323"
+  },
+  {
+   "id": 324,
+   "zh": "废弃的煤矿里住着许多的煤炭龟,都在{NEWLINE}一个劲地挖着煤。",
+   "en": "You find abandoned coal mines full{NEWLINE}of them. They dig tirelessly in{NEWLINE}search of coal.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/324"
+  },
+  {
+   "id": 325,
+   "zh": "靠尾巴弹跳使心脏搏动,头上戴着珍珠{NEWLINE}贝产的珍珠。",
+   "en": "It bounces around on its tail to{NEWLINE}keep its heart pumping. It carries{NEWLINE}a pearl from Clamperl on its head.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/325; modernised from US 0804#325"
+  },
+  {
+   "id": 326,
+   "zh": "操纵对手时使用的奇妙舞步过去在外国{NEWLINE}非常流行。",
+   "en": "It can perform odd dance steps to{NEWLINE}influence foes. Its style of dancing{NEWLINE}became hugely popular overseas.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/326"
+  },
+  {
+   "id": 327,
+   "zh": "偶然遇到同样斑纹的晃晃斑的几率不到{NEWLINE}４０亿分之１。",
+   "en": "The chances of two Spinda having{NEWLINE}identical spot patterns is less{NEWLINE}than one in four billion.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/327; modernised from US 0804#327"
+  },
+  {
+   "id": 328,
+   "zh": "在沙漠建造的巢穴造型像研钵一样,一{NEWLINE}旦不幸掉进去便再也逃不出来了。",
+   "en": "Its nest is a sloped, bowl-like pit{NEWLINE}in the desert. Once something has{NEWLINE}fallen in, there is no escape.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/328"
+  },
+  {
+   "id": 329,
+   "zh": "高速地振动翅膀能发出引起剧烈头痛的{NEWLINE}超声波。",
+   "en": "It vibrates its wings vigorously,{NEWLINE}creating ultrasonic waves that{NEWLINE}cause serious headaches.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/329"
+  },
+  {
+   "id": 330,
+   "zh": "因为扇动翅膀的声音和女性优美的歌声{NEWLINE}相似,因此被称为沙漠的精灵。",
+   "en": "It is nicknamed “The Desert{NEWLINE}Spirit” because the flapping of its{NEWLINE}wings sounds like a woman singing.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/330"
+  },
+  {
+   "id": 331,
+   "zh": "在少雨的干燥区域栖息。黄色的花一年{NEWLINE}开放一次。",
+   "en": "It lives in arid locations. Its{NEWLINE}yellow flowers bloom once a year.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/331"
+  },
+  {
+   "id": 332,
+   "zh": "集体缠在沙漠旅行者的身后,一直到他{NEWLINE}累得动不了的时候。",
+   "en": "Packs of them follow travelers{NEWLINE}through the desert until{NEWLINE}the travelers can no longer move.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/332"
+  },
+  {
+   "id": 333,
+   "zh": "用清澈的泉水荡涤如绵云般的翅膀,喜{NEWLINE}欢待在人类的头上。",
+   "en": "Its wings bring cottony clouds to{NEWLINE}mind. It grooms with springwater{NEWLINE}and loves to sit on heads.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/333"
+  },
+  {
+   "id": 334,
+   "zh": "悠闲地飞在天空,听到七夕青鸟美妙的哼{NEWLINE}唱便会陶醉于梦境中。",
+   "en": "It flies gracefully through the{NEWLINE}sky. Its melodic humming makes{NEWLINE}you feel like you’re in a dream.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/334"
+  },
+  {
+   "id": 335,
+   "zh": "一闻到饭匙蛇气味全身的体毛就会立刻{NEWLINE}倒竖,擅长用锐利的爪子撕裂敌人。",
+   "en": "Its fur would all stand on end if{NEWLINE}it smelled a Seviper nearby.{NEWLINE}Its sharp claws tear up its foes.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/335; modernised from US 0804#335"
+  },
+  {
+   "id": 336,
+   "zh": "靠着浸满剧毒的锋利尾巴敏捷地对抗杀{NEWLINE}手兔。",
+   "en": "In battle, it uses its bladed tail to{NEWLINE}counter any Zangoose. It secretes{NEWLINE}a deadly venom in its tail.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/336; modernised from US 0804#336"
+  },
+  {
+   "id": 337,
+   "zh": "４０年前首次在陨石坠落处被发现,仅{NEWLINE}是凝视就能让敌人沉睡。",
+   "en": "It was discovered at the site of a{NEWLINE}meteor strike 40 years ago. Its{NEWLINE}stare can lull its foes to sleep.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/337"
+  },
+  {
+   "id": 338,
+   "zh": "旋转身体放出如太阳般的光芒使敌人眩{NEWLINE}晕。",
+   "en": "When it rotates itself, it gives off{NEWLINE}light similar to the sun, thus{NEWLINE}blinding its foes.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/338"
+  },
+  {
+   "id": 339,
+   "zh": "土泥鳅的两根胡子就像人类的舌头一样,{NEWLINE}能感知食物的味道。",
+   "en": "Barboach uses its whiskers to{NEWLINE}taste things just as a person uses{NEWLINE}his or her tongue to taste things.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/339; modernised from US 0804#339"
+  },
+  {
+   "id": 340,
+   "zh": "以大沼泽作为势力范围,敌人靠近时便{NEWLINE}折腾起来引起大地震。",
+   "en": "It claims a vast swamp as its territory.{NEWLINE}If a foe comes near, it thrashes{NEWLINE}about and sets off a huge earthquake.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/340"
+  },
+  {
+   "id": 341,
+   "zh": "从外国引进的精灵,现在已经野生化了。{NEWLINE}不管多么污浊的河水都能适应。",
+   "en": "It was originally a Pokémon from{NEWLINE}afar that escaped to the wild. It{NEWLINE}can adapt to the dirtiest river.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/341"
+  },
+  {
+   "id": 342,
+   "zh": "热爱战斗的性格,对靠近住处的对手决{NEWLINE}不轻饶直接打倒。",
+   "en": "A brutish Pokémon that loves to{NEWLINE}battle. It will crash itself into any{NEWLINE}foe that approaches its nest.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/342"
+  },
+  {
+   "id": 343,
+   "zh": "凭着单足一边旋转一边移动,偶尔也能{NEWLINE}看见逆向旋转的天平偶。",
+   "en": "It moves about by spinning on its one{NEWLINE}foot. Baltoy spinning in the opposite{NEWLINE}direction are sometimes seen.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/343; modernised from US 0804#343"
+  },
+  {
+   "id": 344,
+   "zh": "相传是在２万年前的古代人用泥制成的{NEWLINE}人偶里诞生的生命。",
+   "en": "It is said to be a life that{NEWLINE}sprang from a clay doll made by{NEWLINE}ancient people 20,000 years ago.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/344"
+  },
+  {
+   "id": 345,
+   "zh": "将触手伪装成花瓣,捕获靠近的猎物,{NEWLINE}已经在１亿年前灭绝。",
+   "en": "It disguised its tentacles as petals{NEWLINE}to catch prey that came close. It{NEWLINE}went extinct 100 million years ago.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/345"
+  },
+  {
+   "id": 346,
+   "zh": "生活在温暖的海中,因为身体变重连海{NEWLINE}水也无法推动它了。",
+   "en": "It lives in warm seas. Its body has{NEWLINE}grown so heavy that even the sea’s{NEWLINE}currents can’t push it around.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/346"
+  },
+  {
+   "id": 347,
+   "zh": "精灵祖先的一种,在海中生活期间八只{NEWLINE}足退化成了翅膀。",
+   "en": "An ancestral Pokémon that lived in{NEWLINE}the ocean. Over time, its eight feet{NEWLINE}transformed into wings.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/347"
+  },
+  {
+   "id": 348,
+   "zh": "用伸缩自如的爪子刺穿并捕获猎物,身{NEWLINE}上裹着结实的铠甲。",
+   "en": "It skewers and catches prey{NEWLINE}with its retractable claws. Its{NEWLINE}body is clad in sturdy armor.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/348"
+  },
+  {
+   "id": 349,
+   "zh": "最难看的精灵,在水草丰富的河底大群{NEWLINE}地聚在一起生活。",
+   "en": "The ugliest of all Pokémon. It lives{NEWLINE}in large schools at the bottom{NEWLINE}of rivers thick with waterweed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/349"
+  },
+  {
+   "id": 350,
+   "zh": "据说见到美纳斯的倩影能使人颓废之心{NEWLINE}得到治愈。",
+   "en": "It is said that a glimpse of{NEWLINE}Milotic’s graceful form can{NEWLINE}heal a despairing heart.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/350; modernised from US 0804#350"
+  },
+  {
+   "id": 351,
+   "zh": "气温和湿度的变化能对身体细胞产生影{NEWLINE}响,从而使其发生变形的精灵。",
+   "en": "This Pokémon can change its cells,{NEWLINE}taking different forms based on{NEWLINE}the temperature and humidity.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/351"
+  },
+  {
+   "id": 352,
+   "zh": "能改变体色融入景色中悄悄地靠近猎物,{NEWLINE}但是腹部的花纹却不会消失。",
+   "en": "It changes its color to blend into its{NEWLINE}surroundings and sneak up on prey, but{NEWLINE}the pattern on its belly never fades.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/352"
+  },
+  {
+   "id": 353,
+   "zh": "据说它头上的角会吃掉人的仇恨和嫉妒,{NEWLINE}在半夜时分相当活跃的精灵。",
+   "en": "It uses its horn to feed on envy{NEWLINE}and malice, or so it’s said.{NEWLINE}It’s very active at night.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/353"
+  },
+  {
+   "id": 354,
+   "zh": "积聚被抛弃的玩偶们的怨念而化为精灵,{NEWLINE}能在昏暗的小道中发现它们的魅影。",
+   "en": "This Pokémon developed from an{NEWLINE}abandoned doll that amassed a{NEWLINE}grudge. It is seen in dark alleys.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/354"
+  },
+  {
+   "id": 355,
+   "zh": "据说不守信的小孩会在半夜里被其带到{NEWLINE}什么恐怖的地方。",
+   "en": "It is said that at midnight, it{NEWLINE}carries off children who break their{NEWLINE}promises to some terrifying place.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/355"
+  },
+  {
+   "id": 356,
+   "zh": "窥视其身体里燃烧的鬼火的话,灵魂就{NEWLINE}会被吸走。",
+   "en": "Anyone who dares peer into its body{NEWLINE}to see its spectral ball of fire{NEWLINE}will have their spirit stolen away.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/356"
+  },
+  {
+   "id": 357,
+   "zh": "脖子上的果实一年长两次,甜甜的非常{NEWLINE}好吃,是南国孩子的点心。",
+   "en": "The fruit around its neck grows twice{NEWLINE}a year. It is sweet and delicious, and{NEWLINE}a treat for children in the south.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/357"
+  },
+  {
+   "id": 358,
+   "zh": "头上的吸盘能贴在树枝和屋檐下,能分{NEWLINE}别发出七种音色。",
+   "en": "It uses the sucker on its head to{NEWLINE}hang from a tree or from eaves. It{NEWLINE}can produce seven different tones.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/358"
+  },
+  {
+   "id": 359,
+   "zh": "拥有感知自然灾害的征兆的能力,寿命{NEWLINE}超过１００年。",
+   "en": "It has the ability to foretell{NEWLINE}natural disasters. Its life span is{NEWLINE}over a hundred years.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/359"
+  },
+  {
+   "id": 360,
+   "zh": "和大群同伴一起行动,用推挤游戏来锻{NEWLINE}炼忍耐力。",
+   "en": "It tends to move in a pack.{NEWLINE}Individuals squash against one{NEWLINE}another to toughen their spirits.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/360"
+  },
+  {
+   "id": 361,
+   "zh": "据说半夜出现的雪童子会吹起大雪,靠{NEWLINE}吃冰雪为生。",
+   "en": "It’s said that if they are seen at{NEWLINE}midnight, they’ll cause heavy snow.{NEWLINE}They eat snow and ice to survive.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/361"
+  },
+  {
+   "id": 362,
+   "zh": "靠着一瞬间冻结空气中水分的能力能瞬{NEWLINE}间将猎物冷冻。",
+   "en": "It can instantly freeze moisture in{NEWLINE}the atmosphere. It uses this power{NEWLINE}to freeze its foes.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/362"
+  },
+  {
+   "id": 363,
+   "zh": "推转浮冰来渡过大海,厚厚的毛皮能抵{NEWLINE}抗冰点的严寒。",
+   "en": "It crosses the sea by pushing drift ice{NEWLINE}along. Its thick fur shields it from{NEWLINE}freezing cold.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/363; ext-review RC-003"
+  },
+  {
+   "id": 364,
+   "zh": "鼻子的神经很敏感,首次看到的东西会{NEWLINE}用鼻子触碰来记忆。",
+   "en": "Its nose is very sensitive. It touches{NEWLINE}new things with its nose to memorize{NEWLINE}them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/364; ext-review RC-001"
+  },
+  {
+   "id": 365,
+   "zh": "用强壮的牙将流冰粉碎,厚厚的脂肪能{NEWLINE}将敌人的攻击反弹回去。",
+   "en": "It shatters drift ice with its{NEWLINE}strong tusks. Its thick layer of{NEWLINE}blubber repels enemy attacks.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/365"
+  },
+  {
+   "id": 366,
+   "zh": "一生中一次的进化之时,力量增幅至最{NEWLINE}大,造出不可思议的珍珠。",
+   "en": "At its one evolution in life, its{NEWLINE}power swells to the maximum and{NEWLINE}it produces a mysterious pearl.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/366"
+  },
+  {
+   "id": 367,
+   "zh": "在黑洞洞的深海中栖息,尾巴像活物般{NEWLINE}摇动引诱猎物上钩。",
+   "en": "It lives deep in the pitch-dark sea.{NEWLINE}It attracts prey by moving its tail{NEWLINE}in mimicry of a small animal.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/367"
+  },
+  {
+   "id": 368,
+   "zh": "到了春天海水温度上升时,身体便会染{NEWLINE}成鲜艳的粉红色。",
+   "en": "Its pink body becomes more vivid{NEWLINE}with the rise of water{NEWLINE}temperatures in the springtime.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/368"
+  },
+  {
+   "id": 369,
+   "zh": "在对深海的调查中偶然被发现,一亿年{NEWLINE}里体形并没有发生变化。",
+   "en": "It was found by chance during{NEWLINE}a deep-sea survey. Its form has{NEWLINE}not changed in 100 million years.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/369"
+  },
+  {
+   "id": 370,
+   "zh": "爱心的造型很有人气,有些地方仍留有{NEWLINE}向喜欢的人赠送爱心鱼表达爱意的习俗。",
+   "en": "Its heart-shaped body makes it{NEWLINE}popular. In some places, you would{NEWLINE}give a Luvdisc to someone you love.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/370; modernised from US 0804#370"
+  },
+  {
+   "id": 371,
+   "zh": "靠着锻炼过的颈部肌肉和钢铁般坚硬的{NEWLINE}头部能将大石头一下击得粉碎。",
+   "en": "Its well-developed neck muscles{NEWLINE}and ironlike head can smash{NEWLINE}boulders into pieces.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/371"
+  },
+  {
+   "id": 372,
+   "zh": "有着如铁一样坚硬的壳,为了身体进化{NEWLINE}得更大而积蓄着能量。",
+   "en": "It surrounds its body in an{NEWLINE}iron-hard shell to accumulate{NEWLINE}enough power to evolve.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/372"
+  },
+  {
+   "id": 373,
+   "zh": "被惹怒一次就会发飙,一边在天空飞翔{NEWLINE}一边将地上的一切烧光。",
+   "en": "Once angered, it goes berserk, flying{NEWLINE}through the sky and burning everything{NEWLINE}on the ground.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/373; ext-review RC-002"
+  },
+  {
+   "id": 374,
+   "zh": "身体放出的磁场和地磁场相互排斥使其{NEWLINE}浮在空中。",
+   "en": "The magnetic force generated by{NEWLINE}its body repels the ground’s{NEWLINE}natural magnetism, letting it float.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/374"
+  },
+  {
+   "id": 375,
+   "zh": "是两只铁哑铃的合体,两个大脑为磁力{NEWLINE}神经所连接。",
+   "en": "When two Beldum fuse together, a{NEWLINE}magnetic nervous system places{NEWLINE}their brains in union.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/375; modernised from US 0804#375"
+  },
+  {
+   "id": 376,
+   "zh": "四只脚能折叠起来飞行,据说４个大脑{NEWLINE}比超级计算机还优秀。",
+   "en": "It folds its four legs when flying.{NEWLINE}Its four brains are said to be{NEWLINE}superior to a supercomputer.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/376"
+  },
+  {
+   "id": 377,
+   "zh": "和其构成身体的岩石所一样的物质可在{NEWLINE}世界上所有的地壳底层中发现。",
+   "en": "The same rocks that form its body{NEWLINE}have been found in ground layers{NEWLINE}around the world.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/377"
+  },
+  {
+   "id": 378,
+   "zh": "据说在冰川中沉睡了几千年,就连岩浆{NEWLINE}也不能融化其身体。",
+   "en": "It is said to have slept in a glacier{NEWLINE}for thousands of years. Its body{NEWLINE}can’t be melted, even by magma.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/378"
+  },
+  {
+   "id": 379,
+   "zh": "据说是比任何金属都要坚硬的身体,调{NEWLINE}查的结果发现其体内只不过是空洞。",
+   "en": "Its body is said to be harder than{NEWLINE}any kind of metal. A study has{NEWLINE}revealed that its body is hollow.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/379"
+  },
+  {
+   "id": 380,
+   "zh": "靠心灵感应来联通情感,靠能折射光线{NEWLINE}的羽毛覆盖身体来隐蔽自己。",
+   "en": "It communicates using telepathy.{NEWLINE}Its body is covered in down that{NEWLINE}refracts light to make it invisible.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/380"
+  },
+  {
+   "id": 381,
+   "zh": "有着高智力,能理解人类的语言并厌恶{NEWLINE}争斗的温和精灵。",
+   "en": "It understands human speech and is{NEWLINE}highly intelligent. It is a tender{NEWLINE}Pokémon that dislikes fighting.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/381"
+  },
+  {
+   "id": 382,
+   "zh": "曾靠着大雨和大浪扩张海域的传说中的{NEWLINE}精灵,曾经与固拉多激烈地战斗过。",
+   "en": "A mythical Pokémon said to have{NEWLINE}swelled the seas with rain and tidal{NEWLINE}waves. It battled with Groudon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/382; modernised from US 0804#382"
+  },
+  {
+   "id": 383,
+   "zh": "曾凭借高温使水蒸发来扩张大地的传说{NEWLINE}中的精灵,曾经与盖欧卡激烈地战斗过。",
+   "en": "Said to have expanded the lands by{NEWLINE}evaporating water with raging heat.{NEWLINE}It battled titanically with Kyogre.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/383; modernised from US 0804#383"
+  },
+  {
+   "id": 384,
+   "zh": "因为是从遥远的臭氧层中飞出的,直到{NEWLINE}最近才有人见过其身影。",
+   "en": "It flies in the ozone layer, way up{NEWLINE}high in the sky. Until recently,{NEWLINE}no one had ever seen it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/384"
+  },
+  {
+   "id": 385,
+   "zh": "很久以前便有传说,其觉醒之时能将额{NEWLINE}上的信笺上写下的愿望予以实现。",
+   "en": "Generations have believed that any{NEWLINE}wish written on a note on its head{NEWLINE}will come true when it awakens.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/385"
+  },
+  {
+   "id": 386,
+   "zh": "宇宙病毒突然发生变异而成为精灵,在{NEWLINE}看到极光的地方出现。",
+   "en": "A space virus that suddenly mutated{NEWLINE}and became a Pokémon. It appears{NEWLINE}in places where auroras are seen.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 387,
+   "zh": "全身沐浴着阳光进行光合作用,甲壳是{NEWLINE}由土壤硬化而形成的。",
+   "en": "Photosynthesis occurs across its{NEWLINE}body under the sun. The shell on{NEWLINE}its back is actually hardened soil.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/387"
+  },
+  {
+   "id": 388,
+   "zh": "据说在森林里生活的树林龟都有着自己{NEWLINE}专用的清冽泉眼。",
+   "en": "A Grotle that lives in the forest{NEWLINE}is said to have its own secret{NEWLINE}springwater.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/388; modernised from US 0804#388"
+  },
+  {
+   "id": 389,
+   "zh": "远古的人们曾经幻想地下有着巨大的巨{NEWLINE}树龟存在。",
+   "en": "Ancient people imagined that{NEWLINE}beneath the ground, a gigantic{NEWLINE}Torterra dwelled.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/389; modernised from US 0804#389"
+  },
+  {
+   "id": 390,
+   "zh": "腹部制造的瓦斯在尾端燃烧,身体状况{NEWLINE}不好时火焰就会变弱。",
+   "en": "The gas made in its belly burns from{NEWLINE}its rear end. The fire burns weakly{NEWLINE}when it feels sick.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/390"
+  },
+  {
+   "id": 391,
+   "zh": "尾部火焰的大小和蓝色面纹的鲜艳程度{NEWLINE}决定在族群内地位的高低。",
+   "en": "A bigger fire on its tail and a{NEWLINE}brighter blue pattern on its face{NEWLINE}means its rank in its pack is higher.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/391"
+  },
+  {
+   "id": 392,
+   "zh": "以敏捷的动作玩弄对手,采取手脚并用{NEWLINE}的独特战斗方式。",
+   "en": "It toys with foes using nimble moves. It{NEWLINE}fights in a unique style, using both{NEWLINE}hands and feet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/392; ext-review RC-003"
+  },
+  {
+   "id": 393,
+   "zh": "讨厌被别人照顾,因为不听训练师的指{NEWLINE}示导致关系很难变好。",
+   "en": "It doesn’t like to be taken care{NEWLINE}of. It’s difficult to bond with since{NEWLINE}it won’t listen to its Trainer.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/393"
+  },
+  {
+   "id": 394,
+   "zh": "不喜欢寻找同伴而独自生活,翅膀猛烈{NEWLINE}的一击能将大树劈成两半。",
+   "en": "It lives a solitary life. Its wings{NEWLINE}deliver wicked blows that can{NEWLINE}snap even the thickest of trees.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/394"
+  },
+  {
+   "id": 395,
+   "zh": "虽不喜欢无意义的争斗,但威胁到族群{NEWLINE}的安全时,也会不留情地消灭敌人。",
+   "en": "It avoids unnecessary disputes,{NEWLINE}but it will decimate anything that{NEWLINE}threatens its pride.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/395"
+  },
+  {
+   "id": 396,
+   "zh": "为寻找虫系精灵而大群的在山野里飞来{NEWLINE}飞去,叫声十分吵闹。",
+   "en": "They flock around mountains and{NEWLINE}fields, chasing after Bug Pokémon.{NEWLINE}Their singing is noisy and annoying.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/396"
+  },
+  {
+   "id": 397,
+   "zh": "有着以庞大种群行动的习性,但是同族{NEWLINE}之间的争斗也很激烈。",
+   "en": "It has a habit of moving in{NEWLINE}huge flocks, but fights among{NEWLINE}its own kind are also fierce.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/397"
+  },
+  {
+   "id": 398,
+   "zh": "进化为姆克鹰后,便离开族群独自打拼,{NEWLINE}拥有强健的翅膀。",
+   "en": "When Staravia evolve into{NEWLINE}Staraptor, they leave the flock to{NEWLINE}live alone. They have sturdy wings.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/398; modernised from US 0804#398"
+  },
+  {
+   "id": 399,
+   "zh": "在水边结群生活,由于门牙啃咬的缘故,{NEWLINE}巢穴周围的石头和树都被削去了一层。",
+   "en": "It lives in groups by the water.{NEWLINE}It chews up boulders and trees{NEWLINE}around its nest with its incisors.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/399"
+  },
+  {
+   "id": 400,
+   "zh": "堆积起用尖利门牙啃断的树枝和树根,{NEWLINE}在水边筑起巢穴。",
+   "en": "It busily makes its nest with{NEWLINE}stacks of branches and roots it{NEWLINE}has cut up with its sharp incisors.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/400"
+  },
+  {
+   "id": 401,
+   "zh": "碰到同伴时触角便会演奏出咕隆咕隆的{NEWLINE}类似木琴的音色。",
+   "en": "When it meets others of its kind, its{NEWLINE}antennae play a rumbling,{NEWLINE}xylophone-like sound.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/401; ext-review RC-003"
+  },
+  {
+   "id": 402,
+   "zh": "声音经过体内空腔的回响而成为美妙的{NEWLINE}叫声。",
+   "en": "By allowing its cry to resonate in{NEWLINE}the hollow of its belly, it produces{NEWLINE}a captivating sound.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/402"
+  },
+  {
+   "id": 403,
+   "zh": "通过肌肉的伸缩产生电力,危急时刻体{NEWLINE}毛亮得非常刺眼。",
+   "en": "The extension and contraction of{NEWLINE}its muscles generates electricity.{NEWLINE}Its fur glows when it’s in trouble.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/403"
+  },
+  {
+   "id": 404,
+   "zh": "和同伴将尾巴连在一起能从爪子中放出{NEWLINE}强力的电击。",
+   "en": "By gathering their tails together,{NEWLINE}they collectively generate powerful{NEWLINE}electricity from their claws.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/404"
+  },
+  {
+   "id": 405,
+   "zh": "雷电狮的透视能力在寻找危险物品时非{NEWLINE}常有用。",
+   "en": "Luxray’s ability to see through objects{NEWLINE}comes in handy when searching for{NEWLINE}dangerous items.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/405; modernised from US 0804#405"
+  },
+  {
+   "id": 406,
+   "zh": "沐浴着温暖的阳光,就会打开花蕾飞散{NEWLINE}出麻痹花粉,家住在清洁的水源附近。",
+   "en": "When bathed in warm sunlight, it{NEWLINE}opens its bud and scatters paralyzing{NEWLINE}pollen. It lives near clean water.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/406"
+  },
+  {
+   "id": 407,
+   "zh": "用香甜味引诱猎物靠近再下毒放倒,毒{NEWLINE}性越强,香甜味也会越发的浓烈。",
+   "en": "Its sweet aroma attracts prey.{NEWLINE}Then it spews poison. The more{NEWLINE}toxic it is, the sweeter its aroma.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/407"
+  },
+  {
+   "id": 408,
+   "zh": "头盖龙靠撞击同伴的头能进一步锻炼结{NEWLINE}实的脑袋。",
+   "en": "Cranidos toughen up their already{NEWLINE}rock-hard heads by headbutting{NEWLINE}one another.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/408; modernised from US 0804#408"
+  },
+  {
+   "id": 409,
+   "zh": "被能承受住任何冲击的厚厚的头盖骨给{NEWLINE}压着脑子才不会变大。",
+   "en": "Its skull withstands impacts of any{NEWLINE}magnitude. As a result, its brain{NEWLINE}never gets the chance to grow.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/409"
+  },
+  {
+   "id": 410,
+   "zh": "从１亿年前的地层里挖掘出的化石中诞{NEWLINE}生,有着非常坚硬的面骨。",
+   "en": "It was revived from a fossil dug out{NEWLINE}of rock layers 100 million years old.{NEWLINE}Its facial bones are extremely hard.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/410"
+  },
+  {
+   "id": 411,
+   "zh": "群居生活的护城龙们遭到敌人袭击时便{NEWLINE}一字排开,凭着坚硬的面骨防御攻击。",
+   "en": "When attacked, they form a wall.{NEWLINE}Their rock-hard faces serve to{NEWLINE}protect them from the attacks.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/411"
+  },
+  {
+   "id": 412,
+   "zh": "身体被蓑衣包着能忍耐寒冷季节,炎热{NEWLINE}的季节蓑衣也会较薄。",
+   "en": "It covers itself with a cloak to{NEWLINE}shelter from the cold. When it’s{NEWLINE}hot, its cloak is thinner.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/412"
+  },
+  {
+   "id": 413,
+   "zh": "据说气温低时进化而成的结草贵妇{NEWLINE}的蓑衣会比平时更厚。",
+   "en": "It is said that a Wormadam that{NEWLINE}evolves on a cold day will have a{NEWLINE}thicker cloak.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/413; modernised from US 0804#413"
+  },
+  {
+   "id": 414,
+   "zh": "深夜里活跃地飞来飞去,从熟睡的三合{NEWLINE}一蜂巢的巢抢了蜂蜜就跑。",
+   "en": "It flits about busily late at night,{NEWLINE}stealing honey from the hives of{NEWLINE}sleeping Combee and making off with it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/414; modernised from US 0804#414"
+  },
+  {
+   "id": 415,
+   "zh": "每到了晚上,会有１００只左右的三合{NEWLINE}一蜂巢靠在一起拼成一大块来睡觉。",
+   "en": "Every night, about{NEWLINE}100 Combee cling together{NEWLINE}into one big lump to sleep.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/415; modernised from US 0804#415"
+  },
+  {
+   "id": 416,
+   "zh": "身上的洞里能养育幼蜂,分泌出操纵三{NEWLINE}合一蜂巢的激素。",
+   "en": "It raises grubs in the holes in its{NEWLINE}body. It secretes pheromones to{NEWLINE}control Combee.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/416; modernised from US 0804#416"
+  },
+  {
+   "id": 417,
+   "zh": "脸颊上有电气袋,从尾巴释放出自己储{NEWLINE}存的电力。",
+   "en": "It’s one of the kinds of Pokémon{NEWLINE}with electric cheek pouches.{NEWLINE}It shoots charges from its tail.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/417"
+  },
+  {
+   "id": 418,
+   "zh": "使颈部的浮囊膨胀,将脸露出水面后侦{NEWLINE}查陆地上猎物的行动。",
+   "en": "It inflates the flotation sac around{NEWLINE}its neck and raises its face above{NEWLINE}water to watch for prey on land.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/418"
+  },
+  {
+   "id": 419,
+   "zh": "浮囊膨胀时便能让人乘在其背上,浮囊{NEWLINE}干瘪后便潜入水中。",
+   "en": "With its flotation sac inflated, it{NEWLINE}can carry people on its back. It{NEWLINE}deflates the sac before it dives.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/419"
+  },
+  {
+   "id": 420,
+   "zh": "吸取小球里积存的养分作为进化所需的{NEWLINE}能量。",
+   "en": "It evolves by sucking the energy{NEWLINE}out of the small ball where it had{NEWLINE}been storing nutrients.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/420"
+  },
+  {
+   "id": 421,
+   "zh": "花蕾沐浴在阳光下张开花瓣之时,便能{NEWLINE}活跃地活动起来。",
+   "en": "During times of strong sunlight,{NEWLINE}its bud blooms, its petals open{NEWLINE}fully, and it becomes very active.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/421"
+  },
+  {
+   "id": 422,
+   "zh": "能根据居住地的环境轻易地改变体形体{NEWLINE}色的精灵。",
+   "en": "Its shape and coloration vary,{NEWLINE}depending on its habitat.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/422"
+  },
+  {
+   "id": 423,
+   "zh": "遭到天敌袭击之时,能从身体中射出紫{NEWLINE}色的液体来掩护自己逃脱。",
+   "en": "When its natural enemy attacks,{NEWLINE}it oozes purple fluid and escapes.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/423"
+  },
+  {
+   "id": 424,
+   "zh": "想躲避其两只尾巴不断使出的连续攻击{NEWLINE}是极难的技术。",
+   "en": "Dodging the nonstop attacks{NEWLINE}it unleashes with its two{NEWLINE}tails takes extreme skill.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 425,
+   "zh": "传言有小孩子因为拿着和气球搞混淆的{NEWLINE}飘飘球被其带走而失踪的可怕事情。",
+   "en": "It is whispered that any child who{NEWLINE}mistakes Drifloon for a balloon and{NEWLINE}holds on to it could wind up missing.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/425; modernised from US 0804#425"
+  },
+  {
+   "id": 426,
+   "zh": "靠着体内生成或释放气体来调节飞行在{NEWLINE}天空的高度。",
+   "en": "It can generate and release gas{NEWLINE}within its body. That’s how it can{NEWLINE}control the altitude of its drift.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/426"
+  },
+  {
+   "id": 427,
+   "zh": "靠耳朵卷成的形状来表达情感,害怕的{NEWLINE}时候便将左右的耳朵都卷起来。",
+   "en": "You can tell how it feels by the way{NEWLINE}it rolls its ears. When it’s scared,{NEWLINE}both ears are rolled up.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/427"
+  },
+  {
+   "id": 428,
+   "zh": "一年里换两次体毛,寒冷季节的毛非常{NEWLINE}柔软,品质上乘。",
+   "en": "It sheds its fur twice a year.{NEWLINE}Its cold-season fur is extremely{NEWLINE}soft and of the finest quality.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/428"
+  },
+  {
+   "id": 429,
+   "zh": "用如咒文般的诡异叫声折磨对手,神出{NEWLINE}鬼没的可怕精灵。",
+   "en": "Its cries sound like incantations{NEWLINE}to torment the foe. It appears{NEWLINE}where you least expect it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/429"
+  },
+  {
+   "id": 430,
+   "zh": "冷漠无情的性格,据说绝对不会原谅手{NEWLINE}下黑暗鸦的失败。",
+   "en": "It is merciless by nature. It is said{NEWLINE}that it never forgives the mistakes{NEWLINE}of its Murkrow followers.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/430; modernised from US 0804#430"
+  },
+  {
+   "id": 431,
+   "zh": "心情舒畅的卷尾猫会用尾巴展现出如艺{NEWLINE}术体操般的美丽动作。",
+   "en": "When it’s happy, Glameow{NEWLINE}demonstrates beautiful movements{NEWLINE}of its tail, like a dancing ribbon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/431; modernised from US 0804#431"
+  },
+  {
+   "id": 432,
+   "zh": "就算是其他精灵的住处,如果感觉舒服{NEWLINE}便赖着不走,将其占为己有。",
+   "en": "It would claim another Pokémon’s{NEWLINE}nest as its own if it finds a nest{NEWLINE}sufficiently comfortable.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/432"
+  },
+  {
+   "id": 433,
+   "zh": "以人耳无法听到的高频率声音哭泣,一{NEWLINE}哭就很难停下来。",
+   "en": "It emits high-frequency cries that{NEWLINE}people can’t hear. Once it starts,{NEWLINE}it can cry for an awfully long time.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/433"
+  },
+  {
+   "id": 434,
+   "zh": "屁股喷溅出的液体的气味能使距离２千{NEWLINE}米的人也会感到难以忍受的恶臭。",
+   "en": "The fluid it sprays from its rear{NEWLINE}gives off a stench unbearable{NEWLINE}to people even 2 km away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/434"
+  },
+  {
+   "id": 435,
+   "zh": "从尾巴末端喷出臭味液体来攻击,连续{NEWLINE}射出的话臭味便会减弱。",
+   "en": "It attacks by spraying a repugnant{NEWLINE}fluid from its tail, but the stench{NEWLINE}dulls after a few squirts.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/435"
+  },
+  {
+   "id": 436,
+   "zh": "过去的人们相信铜镜怪背上的花纹寄宿{NEWLINE}着神秘的力量。",
+   "en": "Ancient people believed that the{NEWLINE}pattern on Bronzor’s back{NEWLINE}contained a mysterious power.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/436; modernised from US 0804#436"
+  },
+  {
+   "id": 437,
+   "zh": "古代的人们相信向青铜钟祈愿的话,便{NEWLINE}会降下甘霖哺育农作物。",
+   "en": "Ancient people believed that{NEWLINE}petitioning Bronzong for rain{NEWLINE}was the way to make crops grow.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/437; modernised from US 0804#437"
+  },
+  {
+   "id": 438,
+   "zh": "通过从眼里流出眼泪来调节体内多余的{NEWLINE}水份,只是看起来像是在哭泣。",
+   "en": "In order to adjust the level of fluids in{NEWLINE}its body, it exudes water from its eyes.{NEWLINE}This makes it appear to be crying.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/438"
+  },
+  {
+   "id": 439,
+   "zh": "通过一模一样的模仿让对手不知所措,{NEWLINE}然后趁此机会迅速地逃跑。",
+   "en": "In an attempt to confuse its enemy, it{NEWLINE}mimics the enemy’s movements. Then it{NEWLINE}wastes no time in making itself scarce!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/439; rewrapped to fit 216 px"
+  },
+  {
+   "id": 440,
+   "zh": "深信白色的圆石头是蛋,从而小心地带{NEWLINE}在身上,很在意卷毛的形状。",
+   "en": "Believing a round white stone is an egg,{NEWLINE}it carries it with care. It fusses over{NEWLINE}the shape of its curls.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/440; ext-review RC-003"
+  },
+  {
+   "id": 441,
+   "zh": "能模仿出和对手一样的叫声,是为了让{NEWLINE}伙伴相信其没有遭到袭击。",
+   "en": "It can mimic the exact cry of its{NEWLINE}foe. It does this so its allies will{NEWLINE}believe it hasn’t been attacked.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/441"
+  },
+  {
+   "id": 442,
+   "zh": "由１０８个灵魂融合而成,为了不让它{NEWLINE}再次作孽,从而严密地封印在要石里。",
+   "en": "It was formed from 108 spirits fused{NEWLINE}together. It is tightly sealed in an{NEWLINE}Odd Keystone so it can’t do evil again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 443,
+   "zh": "在被地热加温过的横洞里生活,敌人靠{NEWLINE}近时便会从洞中跳出并用大嘴啃咬。",
+   "en": "It lives in side tunnels warmed by{NEWLINE}geothermal heat. If foes come near, it{NEWLINE}leaps out and bites with its big mouth.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/443"
+  },
+  {
+   "id": 444,
+   "zh": "有着将在扩建巢穴时找到的地下的宝石{NEWLINE}积存在巢里的习性。",
+   "en": "As it digs to expand its nest, it{NEWLINE}habitually digs up gems that it{NEWLINE}then hoards in its nest.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/444"
+  },
+  {
+   "id": 445,
+   "zh": "身上覆盖的纹理细致的鳞片有减少空气{NEWLINE}阻力的作用,因此能够高速滑行。",
+   "en": "The fine scales covering its body reduce{NEWLINE}air resistance, letting it glide at high{NEWLINE}speed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/445; ext-review RC-003"
+  },
+  {
+   "id": 446,
+   "zh": "带着藏在乱蓬蓬的皮毛里的食物行动,{NEWLINE}吃的时候就咕嘟咕嘟地一口吞下去。",
+   "en": "It conceals food under the long fur on{NEWLINE}its body. It carts around this food{NEWLINE}stash and swallows it without chewing.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/446"
+  },
+  {
+   "id": 447,
+   "zh": "和同伴通过发出波导来进行交流,能一{NEWLINE}整晚不停地奔跑。",
+   "en": "They communicate with one another{NEWLINE}using their auras. They are able to run{NEWLINE}all through the night.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/447"
+  },
+  {
+   "id": 448,
+   "zh": "据说凭借感知波动,就连看不见的对手{NEWLINE}的身姿也能感觉到。",
+   "en": "It is said that by sensing{NEWLINE}auras, it can make out the form{NEWLINE}of even foes it cannot see.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/448; modernised from US 0804#448"
+  },
+  {
+   "id": 449,
+   "zh": "靠着身上覆盖的沙粒来防止细菌侵害自{NEWLINE}己,在沙漠的沙子下中移动。",
+   "en": "It shrouds itself in sand to ward off{NEWLINE}germs. It travels easily through the{NEWLINE}sands of the desert.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/449"
+  },
+  {
+   "id": 450,
+   "zh": "张开大嘴宣示自己的强大,能卷起大量{NEWLINE}的沙子进行攻击。",
+   "en": "It brandishes its gaping mouth in a{NEWLINE}display of fearsome strength. It raises{NEWLINE}vast quantities of sand while attacking.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/450"
+  },
+  {
+   "id": 451,
+   "zh": "躲在沙子里伏击猎物,从尾巴的钩子上{NEWLINE}分泌毒液杀死猎物。",
+   "en": "It hides in the sand to ambush prey,{NEWLINE}then kills it with venom from the hook on{NEWLINE}its tail.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/451; ext-review RC-002"
+  },
+  {
+   "id": 452,
+   "zh": "因为经常袭击穿越沙漠的人类和精灵,{NEWLINE}因而被人们视为恶魔畏惧着。",
+   "en": "It often attacks people and{NEWLINE}Pokémon crossing the desert,{NEWLINE}so people fear it as a demon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/452"
+  },
+  {
+   "id": 453,
+   "zh": "指尖分泌出的毒液能作为缓解腰痛的药{NEWLINE}物的材料。",
+   "en": "Fluid squeezed from its finger, albeit{NEWLINE}poisonous, is a significant ingredient in{NEWLINE}remedies for lower back pain.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/453"
+  },
+  {
+   "id": 454,
+   "zh": "一边利用柔软的身体躲避对手的攻击,{NEWLINE}一边突然从怀中伸出毒刺扎向敌人。",
+   "en": "It uses its supple body to dodge its{NEWLINE}foe’s attacks, then suddenly thrusts{NEWLINE}out a poison barb from its chest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/454"
+  },
+  {
+   "id": 455,
+   "zh": "能灵巧地用触手来回行走,以寻找适合{NEWLINE}伏击猎物的树枝。",
+   "en": "It walks around on its tentacles in{NEWLINE}search of a tree branch where it{NEWLINE}can dangle down and ambush prey.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/455"
+  },
+  {
+   "id": 456,
+   "zh": "通过像蝴蝶一样扇动两片尾鳍来游唦,{NEWLINE}到了夜晚尾鳍的花纹就会发光。",
+   "en": "It swims by flapping its two tail{NEWLINE}fins like a butterfly. At night,{NEWLINE}the patterns on its tail fins glow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/456; modernised from US 0804#456"
+  },
+  {
+   "id": 457,
+   "zh": "在深海底部发光的霓虹鱼看起来就好像{NEWLINE}夜空中闪耀的星星一样。",
+   "en": "Lumineon glowing on the deep-sea floor{NEWLINE}look like stars shining in the night sky.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/457; modernised from US 0804#457"
+  },
+  {
+   "id": 458,
+   "zh": "因为是在靠近海面处游动,所以从船上{NEWLINE}便能观察到其背上的花纹。",
+   "en": "When it swims close to the surface of{NEWLINE}the ocean, people aboard ships are able{NEWLINE}to observe the pattern on its back.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/458; rewrapped to fit 216 px"
+  },
+  {
+   "id": 459,
+   "zh": "寒冷季节下会到山脚下来,到了春天就{NEWLINE}回到仍有积雪的山顶上去。",
+   "en": "In the cold season, it comes down to{NEWLINE}the foot of the mountains. In spring,{NEWLINE}it returns to the still-snowy peaks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/459"
+  },
+  {
+   "id": 460,
+   "zh": "安静地生活在常年积雪的山脉里,通过{NEWLINE}引发暴雪来隐藏自己。",
+   "en": "It lives a quiet life on mountains that{NEWLINE}are perpetually covered in snow.{NEWLINE}It hides itself by whipping up blizzards.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/460"
+  },
+  {
+   "id": 461,
+   "zh": "在大雪纷飞的地方栖息,通过用爪子在{NEWLINE}树木上刻下标记来给同伴发信号。",
+   "en": "It lives in snowy regions. It carves{NEWLINE}patterns in trees with its claws as{NEWLINE}a signal to others.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/461"
+  },
+  {
+   "id": 462,
+   "zh": "利用特殊的磁场重组了三合一磁怪的分{NEWLINE}子结构,从而进化成为飞碟磁怪。",
+   "en": "Exposure to a special magnetic field{NEWLINE}changed Magneton’s molecular{NEWLINE}structure, turning it into Magnezone.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/462; modernised from US 0804#462"
+  },
+  {
+   "id": 463,
+   "zh": "能用舌头将东西卷起,送到喉咙深处积{NEWLINE}满唾液的地方里。",
+   "en": "It can roll things up in its tongue{NEWLINE}and send them deep into its{NEWLINE}throat, where its saliva pools.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/463"
+  },
+  {
+   "id": 464,
+   "zh": "从手掌的洞里发射小拳石,全身的装甲{NEWLINE}连火山喷发也能抵挡住。",
+   "en": "From holes in its palms, it fires out{NEWLINE}Geodude. Its carapace{NEWLINE}can withstand volcanic eruptions.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/464; modernised from US 0804#464"
+  },
+  {
+   "id": 465,
+   "zh": "温暖季节到来时,植物藤蔓能不断生长{NEWLINE}到要遮住眼珠的程度。",
+   "en": "When the warm season arrives,{NEWLINE}its vines keep growing{NEWLINE}until they cover its eyes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 466,
+   "zh": "电力蓄得满满的时候,两只角之间就会{NEWLINE}激烈地迸发出青蓝色的火花。",
+   "en": "When it is fully charged, blue sparks{NEWLINE}burst fiercely between its two horns.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/466; ext-review RC-004"
+  },
+  {
+   "id": 467,
+   "zh": "能从手腕的前端放射出高达２０００摄氏{NEWLINE}度的火球,嘴里呼出的气也是火热的。",
+   "en": "It shoots fireballs as hot as 2,000{NEWLINE}degrees Celsius from the tips of its{NEWLINE}arms. Even its breath is fiery hot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/467"
+  },
+  {
+   "id": 468,
+   "zh": "据说波克基斯所到访的没有争斗的和平{NEWLINE}土地上会得到各种各样的恩惠。",
+   "en": "It is said that the peaceful,{NEWLINE}strife-free lands Togekiss visits{NEWLINE}are granted all manner of blessings.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/468"
+  },
+  {
+   "id": 469,
+   "zh": "扇动翅膀的力量十分强大,用力飞上天{NEWLINE}空之时,会将周围的大树横扫一大片。",
+   "en": "Its wingbeats are so powerful that{NEWLINE}when it takes off, it flattens a wide{NEWLINE}swath of the big trees around it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/469"
+  },
+  {
+   "id": 470,
+   "zh": "在晴天下睡觉的叶精灵能通过光合作用{NEWLINE}产生清新的空气。",
+   "en": "When you see Leafeon asleep in a patch{NEWLINE}of sunshine, you’ll know it is using{NEWLINE}photosynthesis to produce clean air.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/470; modernised from US 0804#470"
+  },
+  {
+   "id": 471,
+   "zh": "冰精灵能冷却身边的空气从而生成细小{NEWLINE}的冰结晶。",
+   "en": "It causes small ice crystals to form by{NEWLINE}lowering the temperature of the{NEWLINE}surrounding atmosphere.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/471"
+  },
+  {
+   "id": 472,
+   "zh": "无声地在天空飞行,用长尾巴抓住猎物,{NEWLINE}再用尖牙刺入要害。",
+   "en": "It flies silently, seizes prey with its{NEWLINE}long tail, then sinks its sharp fangs{NEWLINE}into a vital spot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/472; ext-review RC-002"
+  },
+  {
+   "id": 473,
+   "zh": "冰河期生活在世界上的精灵,当冰河期{NEWLINE}结束时,数量就急剧减少了。",
+   "en": "It flourished worldwide during the{NEWLINE}ice age but its population declined when{NEWLINE}the masses of ice began to dwindle.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/473"
+  },
+  {
+   "id": 474,
+   "zh": "为了使其能在异次元空间内自由移动而{NEWLINE}修改了程序,不过好像出错了。",
+   "en": "Its programming was modified to enable{NEWLINE}it to travel through alien dimensions.{NEWLINE}Seems there might have been an error...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/474"
+  },
+  {
+   "id": 475,
+   "zh": "拥有敏感地获知对方意图的能力,所以{NEWLINE}能够提前发起攻击。",
+   "en": "Because it can sense what its foe{NEWLINE}is thinking, its attacks burst out{NEWLINE}first, fast, and fierce.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/475"
+  },
+  {
+   "id": 476,
+   "zh": "拥有三个迷你鼻子组成的小队,通过磁{NEWLINE}力操纵迷你鼻从三个方向来打击对手。",
+   "en": "It has a squad of three Mini-Noses,{NEWLINE}which it controls by magnetism to{NEWLINE}strike foes from three directions.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/476"
+  },
+  {
+   "id": 477,
+   "zh": "往返于今世与来世,据说会抓住彷徨于{NEWLINE}人世间的灵魂运往灵界而为人们所畏惧。",
+   "en": "It travels between this world and the{NEWLINE}next. Feared, it is said to carry off{NEWLINE}wandering souls to the spirit world.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/477"
+  },
+  {
+   "id": 478,
+   "zh": "传说是在雪山遇难的女性的化身,留在{NEWLINE}了大雪纷飞的土地上。",
+   "en": "Legend says it is the incarnation of a{NEWLINE}woman who died on a snowy mountain, left{NEWLINE}behind in that land of heavy snow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/478; modernised from US 0804#478"
+  },
+  {
+   "id": 479,
+   "zh": "由于能驱动特殊的电器,所以作为动力{NEWLINE}能源而被长期研究的精灵。",
+   "en": "Since it can power special appliances,{NEWLINE}this Pokémon has long been studied as{NEWLINE}an energy source.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/479; ext-review RC-003"
+  },
+  {
+   "id": 480,
+   "zh": "据说是赐予了人们解决各种各样的问题{NEWLINE}的智慧的精灵。",
+   "en": "It is said to be the Pokémon{NEWLINE}that gave people the wisdom to{NEWLINE}solve all manner of problems.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/480"
+  },
+  {
+   "id": 481,
+   "zh": "据说是给人们心灵带来了欢乐悲伤等情{NEWLINE}感的精灵。",
+   "en": "This Pokémon is said to have endowed{NEWLINE}the human heart with emotions, such as{NEWLINE}sorrow and joy.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/481"
+  },
+  {
+   "id": 482,
+   "zh": "据说是赠与了人们能够直面任何困难的{NEWLINE}勇气的精灵。",
+   "en": "This Pokémon is said to have endowed{NEWLINE}humans with the determination needed{NEWLINE}to face any of life’s difficulties.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/482"
+  },
+  {
+   "id": 483,
+   "zh": "凭借自己操纵时间的流动从而能够移动{NEWLINE}到过去和未来。",
+   "en": "It controls the flow of time{NEWLINE}itself, which lets it travel{NEWLINE}to the past and the future.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/483"
+  },
+  {
+   "id": 484,
+   "zh": "凭借自己操纵空间的连接从而能够移动{NEWLINE}到远处的异空间。",
+   "en": "It controls how spaces{NEWLINE}connect, which lets it travel to{NEWLINE}faraway alternate dimensions.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/484"
+  },
+  {
+   "id": 485,
+   "zh": "如岩浆般翻滚燃烧着的血液在身体里流{NEWLINE}动,一般栖息在火山的洞穴中。",
+   "en": "Boiling blood, like magma, circulates{NEWLINE}through its body. It makes its dwelling{NEWLINE}place in volcanic caves.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/485"
+  },
+  {
+   "id": 486,
+   "zh": "据说它用岩石、寒冰、钢铁分别造出了{NEWLINE}岩神柱、冰神柱和钢神柱三只精灵。",
+   "en": "It is said to have made{NEWLINE}three Pokémon, Regirock, Regice, and{NEWLINE}Registeel, out of rock, ice, and steel.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/486; modernised from US 0804#486"
+  },
+  {
+   "id": 487,
+   "zh": "据说它生活在一个与现实世界相反的破{NEWLINE}灭世界,一个被人们称为反转世界的地{NEWLINE}方。",
+   "en": "It is said to live in a torn world{NEWLINE}that is the reverse of the real one, a{NEWLINE}place people call the Distortion World.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/487"
+  },
+  {
+   "id": 488,
+   "zh": "被称为新月的化身,传说中只要带着美{NEWLINE}梦神的羽毛睡觉就能让人梦见愉快的事。",
+   "en": "The embodiment of the crescent moon.{NEWLINE}Legend says sleeping with Cresselia’s{NEWLINE}feather brings happy dreams.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/488; modernised from US 0804#488"
+  },
+  {
+   "id": 489,
+   "zh": "海水温度升高时,就令头上的浮囊膨胀{NEWLINE}来集体漂在海面上。",
+   "en": "When the water warms, they inflate the{NEWLINE}flotation sac on their heads and drift{NEWLINE}languidly on the sea in packs.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/489"
+  },
+  {
+   "id": 490,
+   "zh": "有着能够与任何精灵交换心灵的不可思{NEWLINE}议的能力。",
+   "en": "It has the mysterious{NEWLINE}ability to swap hearts{NEWLINE}with any Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/490"
+  },
+  {
+   "id": 491,
+   "zh": "靠引诱对方陷入睡眠使人类和精灵做噩{NEWLINE}梦,从而来将他们驱逐出自己的领地。",
+   "en": "It chases people and Pokémon from its{NEWLINE}territory by causing them to experience{NEWLINE}deep, nightmarish slumbers.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/491"
+  },
+  {
+   "id": 492,
+   "zh": "据说为了在冰空花束绽放的季节传达感{NEWLINE}恩之心而飞上天空。",
+   "en": "It is said to take to the sky{NEWLINE}to convey its gratitude in the{NEWLINE}season when Gracidea bloom.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0804/492"
+  },
+  {
+   "id": 493,
+   "zh": "据新奥神话里记载,其从卵中诞生而后{NEWLINE}创造出世界的全部。",
+   "en": "According to the legends of Sinnoh, this{NEWLINE}Pokémon emerged from an egg and{NEWLINE}shaped all there is in this world.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0804/493"
+  }
+ ]
+}

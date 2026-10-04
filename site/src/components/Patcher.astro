@@ -1,0 +1,412 @@
+---
+// In-browser patcher: checks the player's own HeartGold (USA) dump and applies the latest release patch with
+// xdelta3 (WebAssembly) in a Web Worker. Nothing is uploaded. Data: <base>patch/latest.json and the .xdelta
+// next to it, written by the site workflow (or work/tools/site/patch_manifest.py --site locally). Code: public/patch-tool/.
+import { REPO_URL, GAME_VERSION } from '../../site.config.mjs';
+const raw = import.meta.env.BASE_URL || '/';
+const base = raw.endsWith('/') ? raw : raw + '/';
+---
+<div class="patcher" data-base={base} data-repo={REPO_URL} data-version={GAME_VERSION}>
+	<p class="patcher-release" data-role="release">Checking for the latest patch…</p>
+
+	<div class="patcher-tool" data-role="tool" hidden>
+		<label class="patcher-drop" data-role="drop" for="patcher-rom">
+			<span class="patcher-drop-title">Drop your HeartGold file here</span>
+			<span class="patcher-drop-sub">or <span class="patcher-drop-link">choose a file</span>: the <code>.nds</code> of Pokémon HeartGold Version (USA), or a <code>.zip</code> with it inside</span>
+			<input id="patcher-rom" class="patcher-input" type="file" accept=".nds,.zip,application/zip,application/x-zip-compressed,application/octet-stream" aria-describedby="patcher-rom-help" />
+		</label>
+		<p id="patcher-rom-help" class="patcher-help">Your file stays on your device: this page checks it and patches it in your browser, and nothing is uploaded. We never provide the game itself.</p>
+
+		<ol class="patcher-steps" data-role="steps" hidden>
+			<li data-step="check"><span class="patcher-dot" aria-hidden="true"></span><span>Check your game</span></li>
+			<li data-step="patch"><span class="patcher-dot" aria-hidden="true"></span><span>Download and apply the English patch</span></li>
+			<li data-step="save"><span class="patcher-dot" aria-hidden="true"></span><span>Save your English game</span></li>
+		</ol>
+		<div class="patcher-progress" data-role="progress" hidden>
+			<label for="patcher-bar" data-role="progress-label">Working…</label>
+			<div class="patcher-bar-row">
+				<progress id="patcher-bar" max="100"></progress>
+				<button type="button" class="patcher-cancel" data-role="cancel">Cancel</button>
+			</div>
+		</div>
+		<div class="patcher-result" data-role="check" role="status" aria-live="polite"></div>
+		<div class="patcher-result" data-role="patch-status" role="status" aria-live="polite"></div>
+		<div class="patcher-result" data-role="done" tabindex="-1"></div>
+	</div>
+
+	<dialog class="patcher-dialog" data-role="oom" aria-labelledby="patcher-oom-title">
+		<h2 id="patcher-oom-title">Your browser ran out of memory</h2>
+		<p>Patching needs a few hundred MB of free memory, and this browser couldn't get it. Your file is fine and nothing was changed.</p>
+		<ul>
+			<li>Close other tabs and apps, then try again.</li>
+			<li>On a phone or tablet, try a computer instead.</li>
+			<li>Still failing? <a href="#manual">Patch by hand</a> with the steps on this page.</li>
+		</ul>
+		<form method="dialog" class="patcher-dialog-actions">
+			<button value="retry" class="patcher-dialog-primary" data-role="oom-retry" autofocus>Try again</button>
+			<button value="close">Close</button>
+		</form>
+	</dialog>
+
+	<noscript><p class="patcher-msg is-warn">The patcher needs JavaScript. Use the manual steps further down this page instead.</p></noscript>
+</div>
+
+<style>
+	.patcher { margin-top: 1.5rem; }
+	.patcher [hidden] { display: none !important; }
+	.patcher-release { font-size: var(--sl-text-sm); color: var(--sl-color-gray-2); }
+	.patcher-tool { display: grid; gap: 0; }
+	.patcher-drop {
+		position: relative; display: grid; gap: 0.35rem; justify-items: center; text-align: center; cursor: pointer;
+		border: 2px dashed var(--sl-color-gray-4); border-radius: 0.75rem; padding: 2rem 1.25rem;
+		background: var(--sl-color-gray-7, var(--sl-color-black)); transition: border-color 0.15s, background 0.15s;
+	}
+	.patcher-drop:hover, .patcher-drop.is-over { border-color: var(--sl-color-text-accent); background: var(--sl-color-accent-low); }
+	.patcher-drop:focus-within { outline: 2px solid var(--sl-color-text-accent); outline-offset: 3px; }
+	.patcher-drop.is-busy { cursor: progress; opacity: 0.6; }
+	.patcher-drop-title { font-size: var(--sl-text-xl); font-weight: 700; color: var(--sl-color-white); }
+	.patcher-drop-sub { font-size: var(--sl-text-sm); color: var(--sl-color-gray-2); max-width: 32rem; }
+	.patcher-drop-link { color: var(--sl-color-text-accent); text-decoration: underline; font-weight: 600; }
+	/* The input covers nothing visible but stays focusable and reachable by assistive tech. */
+	.patcher-input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; margin: 0 !important; }
+	.patcher-input:disabled { cursor: progress; }
+	.patcher-help { font-size: var(--sl-text-sm); color: var(--sl-color-gray-3); margin: 0.6rem 0 0 !important; }
+	.patcher-steps { list-style: none; padding: 0; margin: 1rem 0 0 !important; display: flex; flex-wrap: wrap; gap: 0.4rem 1.25rem; font-size: var(--sl-text-sm); color: var(--sl-color-gray-3); }
+	.patcher-steps li { display: flex; align-items: center; gap: 0.45rem; margin: 0 !important; }
+	.patcher-dot { width: 0.7rem; height: 0.7rem; border-radius: 50%; border: 2px solid var(--sl-color-gray-4); flex: none; }
+	.patcher-steps li.is-active { color: var(--sl-color-white); font-weight: 600; }
+	.patcher-steps li.is-active .patcher-dot { border-color: var(--sl-color-text-accent); }
+	.patcher-steps li.is-done .patcher-dot { background: var(--sl-color-green); border-color: var(--sl-color-green); }
+	.patcher-steps li.is-failed .patcher-dot { background: var(--sl-color-red); border-color: var(--sl-color-red); }
+	.patcher-progress { margin-top: 0.75rem !important; display: grid; gap: 0.25rem; font-size: var(--sl-text-sm); }
+	.patcher-bar-row { display: flex; align-items: center; gap: 0.75rem; }
+	.patcher-progress progress { flex: 1; min-width: 0; height: 0.75rem; accent-color: var(--sl-color-text-accent); margin: 0 !important; }
+	.patcher-cancel {
+		font: inherit; font-size: var(--sl-text-sm); font-weight: 600; cursor: pointer; border-radius: 999px; padding: 0.25rem 0.9rem; margin: 0 !important;
+		border: 1px solid var(--sl-color-gray-4); background: transparent; color: var(--sl-color-white);
+	}
+	.patcher-cancel:hover { border-color: var(--sl-color-red); }
+	.patcher-cancel:focus-visible { outline: 2px solid var(--sl-color-text-accent); outline-offset: 3px; }
+	.patcher-result:empty { display: none; }
+	.patcher-result { margin-top: 0.75rem !important; }
+	.patcher-result:focus-visible { outline: 2px solid var(--sl-color-text-accent); outline-offset: 3px; }
+	.patcher :global(.patcher-msg) {
+		border-left: 4px solid var(--sl-color-gray-4); padding: 0.6rem 0.9rem; border-radius: 0.25rem;
+		background: var(--sl-color-gray-6); font-size: var(--sl-text-sm); margin: 0.5rem 0 0;
+	}
+	.patcher :global(.patcher-msg > * + *) { margin-top: 0.4rem; }
+	.patcher :global(.patcher-msg.is-ok) { border-color: var(--sl-color-green); background: var(--sl-color-green-low); }
+	.patcher :global(.patcher-msg.is-warn) { border-color: var(--sl-color-orange); background: var(--sl-color-orange-low); }
+	.patcher :global(.patcher-msg.is-bad) { border-color: var(--sl-color-red); background: var(--sl-color-red-low); }
+	.patcher :global(.patcher-hashes) { font-family: var(--__sl-font-mono, monospace); font-size: var(--sl-text-xs); overflow-wrap: anywhere; }
+	.patcher :global(.patcher-save) {
+		display: inline-block; font-weight: 700; text-decoration: none; border-radius: 999px; padding: 0.7rem 1.5rem;
+		background: var(--sl-color-text-accent); color: var(--sl-color-black); overflow-wrap: anywhere; font-size: var(--sl-text-base);
+	}
+	.patcher :global(.patcher-save:focus-visible) { outline: 2px solid var(--sl-color-text-accent); outline-offset: 3px; }
+	.patcher-dialog {
+		position: fixed; inset: 0; margin: auto !important; height: fit-content;
+		max-width: min(30rem, calc(100vw - 2rem)); border: 1px solid var(--sl-color-gray-5); border-radius: 0.75rem;
+		padding: 1.25rem 1.5rem; background: var(--sl-color-bg); color: var(--sl-color-text); box-shadow: var(--sl-shadow-lg);
+	}
+	.patcher-dialog::backdrop { background: rgb(0 0 0 / 0.5); }
+	.patcher-dialog h2 { font-size: var(--sl-text-xl); margin: 0 0 0.75rem; color: var(--sl-color-white); }
+	.patcher-dialog p, .patcher-dialog ul { font-size: var(--sl-text-sm); margin: 0 0 0.75rem; }
+	.patcher-dialog-actions { display: flex; align-items: center; gap: 0.6rem; justify-content: flex-end; margin-top: 1rem; }
+	.patcher-dialog-actions button {
+		font: inherit; font-weight: 600; cursor: pointer; border-radius: 999px; padding: 0.45rem 1.1rem; margin: 0 !important;
+		border: 1px solid var(--sl-color-gray-4); background: transparent; color: var(--sl-color-white);
+	}
+	.patcher-dialog-actions .patcher-dialog-primary { background: var(--sl-color-text-accent); border-color: var(--sl-color-text-accent); color: var(--sl-color-black); }
+	.patcher-dialog-actions button:focus-visible { outline: 2px solid var(--sl-color-text-accent); outline-offset: 3px; }
+	@media (max-width: 50rem) { .patcher-drop { padding: 1.5rem 1rem; } }
+</style>
+
+<script>
+	const US_CRC = 'C180A0E9';
+	const US_SHA1 = '4fcded0e2713dc03929845de631d0932ea2b5a37';
+	const US_SIZE = 134217728; // 128 MiB, the untrimmed cartridge size
+	const REGIONS: Record<string, string> = {
+		E: 'the USA', P: 'Europe', D: 'Germany', F: 'France', I: 'Italy', S: 'Spain', J: 'Japan', K: 'Korea',
+	};
+	type Latest = { available?: boolean; tag: string; file: string; size: number; patched_sha1: string; release_url?: string };
+
+	const root = document.querySelector<HTMLElement>('.patcher');
+	if (root) init(root);
+
+	function el<T extends HTMLElement = HTMLElement>(role: string): T {
+		return root!.querySelector(`[data-role="${role}"]`) as T;
+	}
+	function esc(s: string) {
+		return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
+	}
+	function mb(n: number) {
+		return (n / 1048576).toFixed(n < 10485760 ? 1 : 0) + ' MB';
+	}
+	function msg(kind: 'ok' | 'warn' | 'bad' | '', html: string) {
+		return `<div class="patcher-msg ${kind ? 'is-' + kind : ''}">${html}</div>`;
+	}
+
+	async function init(root: HTMLElement) {
+		const base = root.dataset.base || '/';
+		const repo = root.dataset.repo || '';
+		const version = root.dataset.version || '';
+		const release = el('release');
+		const fallbackLink = (latest?: Latest) =>
+			`<a href="${esc(latest?.release_url || repo + '/releases')}" rel="noopener">the release page on GitHub</a>`;
+
+		let latest: Latest | undefined;
+		try {
+			const res = await fetch(base + 'patch/latest.json', { cache: 'no-cache' });
+			const data = res.ok ? await res.json() : null;
+			if (data && data.available !== false && data.file && /^[0-9a-f]{40}$/i.test(data.patched_sha1 || '')) latest = data;
+		} catch {
+			/* no patch published with this build */
+		}
+		const supported = typeof Worker === 'function' && typeof WebAssembly === 'object' && typeof Blob === 'function' && 'stream' in Blob.prototype;
+		if (!latest) {
+			release.innerHTML = msg('warn', `<p>The in-browser patcher isn't available right now. Download the patch from ${fallbackLink()} and follow the manual steps below.</p>`);
+			return;
+		}
+		if (!supported) {
+			release.innerHTML = msg('warn', `<p>This browser can't run the patcher. Try a recent Firefox, Chrome, Edge or Safari on a computer, or follow the manual steps below.</p>`);
+			return;
+		}
+		release.innerHTML =
+			`Latest patch: <strong>${esc(latest.tag)}</strong>${(latest as any).prerelease ? ' (test release)' : ''}, ${mb(latest.size)}, from ${fallbackLink(latest)}.`;
+		el('tool').hidden = false;
+
+		const input = root.querySelector<HTMLInputElement>('#patcher-rom')!;
+		const drop = el('drop');
+		const steps = el('steps');
+		const check = el('check');
+		const progressBox = el('progress');
+		const bar = progressBox.querySelector('progress')!;
+		const progressLabel = el('progress-label');
+		const patchStatus = el('patch-status');
+		const done = el('done');
+		const outName = `Origin_HeartGold_${version}_EN_${latest.tag}.nds`;
+
+		const oom = el<HTMLDialogElement>('oom');
+		let worker: Worker | null = null;
+		let objectUrl = '';
+		let retry: (() => void) | null = null;
+		// Out of memory: explain it in a dialog (the inline message stays as a record) and offer a retry.
+		function outOfMemory(again: () => void) {
+			retry = again;
+			// close() and Esc keep the old returnValue, so clear an earlier "retry".
+			oom.returnValue = '';
+			if (typeof oom.showModal === 'function' && !oom.open) oom.showModal();
+		}
+		oom.addEventListener('close', () => {
+			const again = retry;
+			retry = null;
+			if (oom.returnValue === 'retry' && again) again();
+		});
+		oom.querySelector('a')!.addEventListener('click', () => oom.close());
+		// "Patch by hand" links open the folded manual steps.
+		root.ownerDocument.querySelectorAll<HTMLAnchorElement>('a[href="#manual"]').forEach((a) =>
+			a.addEventListener('click', () => { const d = document.getElementById('manual'); if (d instanceof HTMLDetailsElement) d.open = true; }));
+		el('cancel').addEventListener('click', () => {
+			if (!busy) return;
+			reset(); // stops the worker and clears the steps
+			setBusy(false);
+			steps.hidden = true;
+			check.innerHTML = msg('', '<p>Cancelled. Choose a file above to start again.</p>');
+		});
+		let busy = false;
+
+		function newWorker() {
+			worker?.terminate();
+			worker = new Worker(base + 'patch-tool/worker.js', { type: 'module' });
+			return worker;
+		}
+		function setBusy(on: boolean) {
+			busy = on;
+			input.disabled = on;
+			drop.classList.toggle('is-busy', on);
+		}
+		function step(name: 'check' | 'patch' | 'save', state: 'active' | 'done' | 'failed') {
+			const li = steps.querySelector(`[data-step="${name}"]`)!;
+			li.classList.remove('is-active', 'is-done', 'is-failed');
+			li.classList.add('is-' + state);
+		}
+		function showProgress(label: string, value?: number) {
+			progressBox.hidden = false;
+			progressLabel.textContent = label;
+			if (value === undefined) bar.removeAttribute('value');
+			else bar.value = value;
+		}
+		function reset() {
+			worker?.terminate();
+			worker = null;
+			if (objectUrl) URL.revokeObjectURL(objectUrl);
+			objectUrl = '';
+			check.innerHTML = patchStatus.innerHTML = done.innerHTML = '';
+			progressBox.hidden = true;
+			steps.hidden = false;
+			steps.querySelectorAll('li').forEach((li) => li.classList.remove('is-active', 'is-done', 'is-failed'));
+		}
+		function startOver() {
+			return '<p>Choose another file above to try again.</p>';
+		}
+
+		type Hashed = { crc32: string; sha1: string; size: number; title: string; code: string; entryName?: string; ndsCount?: number };
+		function explain(r: Hashed) {
+			const facts = `<p class="patcher-hashes">${r.entryName ? esc(r.entryName) + ' · ' : ''}CRC32 ${esc(r.crc32)} · SHA-1 ${esc(r.sha1)} · ${r.size.toLocaleString('en')} bytes</p>`;
+			const game = r.code.slice(0, 3);
+			const region = REGIONS[r.code[3]];
+			let why: string;
+			if (r.sha1 === latest!.patched_sha1.toLowerCase()) {
+				return msg('ok', `<p><strong>This file is already patched:</strong> it is the English Origin HeartGold from ${esc(latest!.tag)}. You can play it as it is. To patch again, choose your original HeartGold file.</p>${facts}`);
+			} else if (!/^[A-Z0-9]{4}$/.test(r.code) || !r.title) {
+				why = "This doesn't look like a DS game file. Choose the <code>.nds</code> file you dumped from your cartridge, or a <code>.zip</code> with it inside.";
+			} else if (game === 'IPG') {
+				why = 'This is Pokémon SoulSilver. The patch only works on HeartGold (USA).';
+			} else if (game !== 'IPK') {
+				why = `This is a different DS game (${esc(r.title)}, ${esc(r.code)}). The patch only works on Pokémon HeartGold (USA).`;
+			} else if (r.size > US_SIZE) {
+				why = 'This HeartGold file is bigger than the cartridge, so it has already been patched or modified (for example the Chinese Origin HeartGold, or an earlier English build). Choose your original, unpatched dump.';
+			} else if (r.code[3] !== 'E') {
+				why = `This is HeartGold from ${region ? esc(region) : 'another region'} (${esc(r.code)}). The patch only works on the USA version (game code IPKE).`;
+			} else if (r.size < US_SIZE) {
+				why = `This is HeartGold (USA), but the file is trimmed: it is ${mb(r.size)} instead of the full 128 MB. Some tools cut the unused space at the end. Dump the cartridge again without trimming.`;
+			} else {
+				why = 'This is HeartGold (USA) with the right size, but its contents differ from a clean dump: it has been modified (for example by another patch, a cheat or an "anti-piracy fix"), or the dump is damaged. Dump your cartridge again.';
+			}
+			const more = r.ndsCount && r.ndsCount > 1 ? `<p>The .zip holds ${r.ndsCount} .nds files and none of them is a clean HeartGold (USA); this is the biggest one.</p>` : '';
+			return msg('bad', `<p><strong>This isn't the right game file.</strong> The patch needs a clean Pokémon HeartGold Version (USA), CRC32 ${US_CRC}.</p><p>${why}</p>${more}${facts}${startOver()}`);
+		}
+
+		function handle(file: File) {
+			if (busy) return;
+			reset();
+			if (/\.(7z|rar|tar|gz|tgz|xz|bz2)$/i.test(file.name)) {
+				step('check', 'failed');
+				check.innerHTML = msg('bad', `<p><strong>This page can open <code>.zip</code> files, but not <code>${esc(file.name.split('.').pop()!.toLowerCase())}</code> archives.</strong> Extract the <code>.nds</code> with 7-Zip (Windows) or by double-clicking it (Mac), then choose the <code>.nds</code>.</p>`);
+				return;
+			}
+			if (/\.xdelta$/i.test(file.name)) {
+				step('check', 'failed');
+				check.innerHTML = msg('bad', '<p><strong>That is a patch file, not your game.</strong> You don\'t need to download the patch: this page fetches it for you. Choose your HeartGold (USA) <code>.nds</code> or <code>.zip</code>.</p>');
+				return;
+			}
+			setBusy(true);
+			step('check', 'active');
+			showProgress(/\.zip$/i.test(file.name) ? 'Unzipping and checking your file' : 'Checking your file', 0);
+			const w = newWorker();
+			w.onmessage = (e) => {
+				const m = e.data;
+				if (m.type === 'progress') { bar.value = Math.round((m.done / m.total) * 100); return; }
+				progressBox.hidden = true;
+				if (m.type === 'error') {
+					setBusy(false);
+					step('check', 'failed');
+					if (m.kind === 'memory') {
+						check.innerHTML = msg('bad', '<p><strong>Your browser ran out of memory while reading your file.</strong></p>');
+						outOfMemory(() => handle(file));
+						return;
+					}
+					check.innerHTML = msg('bad', `<p><strong>Your file couldn't be read.</strong> ${esc(m.message)}</p>`);
+					return;
+				}
+				if (m.crc32 === US_CRC && m.sha1 === US_SHA1 && m.size === US_SIZE) {
+					step('check', 'done');
+					check.innerHTML = msg('ok', `<p><strong>✓ Pokémon HeartGold Version (USA), clean dump.</strong>${m.entryName ? ` Found <code>${esc(m.entryName)}</code> in your .zip.` : ''}</p>`);
+					patch(m.source || file);
+				} else {
+					setBusy(false);
+					step('check', m.sha1 === latest!.patched_sha1.toLowerCase() ? 'done' : 'failed');
+					check.innerHTML = explain(m);
+				}
+			};
+			w.onerror = (e) => {
+				e.preventDefault();
+				setBusy(false);
+				progressBox.hidden = true;
+				step('check', 'failed');
+				check.innerHTML = msg('bad', "<p>This browser couldn't start the patcher (it needs module Web Workers). Try a recent Firefox, Chrome, Edge or Safari, or follow the manual steps below.</p>");
+			};
+			w.postMessage({ cmd: 'hash', file, preferCrc: US_CRC });
+		}
+
+		function patch(source: Blob) {
+			step('patch', 'active');
+			showProgress('Starting…');
+			const started = Date.now();
+			const w = newWorker();
+			const fail = (html: string) => {
+				setBusy(false);
+				progressBox.hidden = true;
+				step('patch', 'failed');
+				patchStatus.innerHTML = msg('bad', html);
+			};
+			w.onmessage = (e) => {
+				const m = e.data;
+				if (m.type === 'progress') {
+					const pct = m.total ? Math.round((m.done / m.total) * 100) : 0;
+					showProgress(m.phase === 'download' ? `Downloading the patch: ${mb(m.done)} of ${mb(m.total)}` : `Patching: ${pct}%`, pct);
+					return;
+				}
+				w.terminate();
+				if (m.type === 'error') {
+					if (m.kind === 'memory') {
+						fail('<p><strong>Patching failed: your browser ran out of memory.</strong></p>');
+						outOfMemory(() => { reset(); step('check', 'done'); setBusy(true); patch(source); });
+						return;
+					}
+					const hint = m.kind === 'download'
+							? 'Check your connection and try again.'
+							: 'Make sure you chose your original HeartGold (USA) file, then try again.';
+					fail(`<p><strong>Patching failed.</strong> ${esc(m.message)}</p><p>${hint} If it keeps failing, use the manual steps below.</p>`);
+					return;
+				}
+				if (!m.verified) {
+					fail(`<p><strong>The patched game didn't pass the final check.</strong> Its SHA-1 is ${esc(m.sha1)}, but it should be ${esc(latest!.patched_sha1)}. Don't play this file. Try again, or use the manual steps below; if it happens again, please <a href="${esc(repo)}/issues" rel="noopener">report it</a>.</p>`);
+					return;
+				}
+				setBusy(false);
+				progressBox.hidden = true;
+				step('patch', 'done');
+				step('save', 'active');
+				const secs = Math.max(1, Math.round((Date.now() - started) / 1000));
+				patchStatus.innerHTML = msg('ok', `<p><strong>✓ Patched in ${secs} s</strong> and verified: the result matches the release exactly.</p>`);
+				objectUrl = URL.createObjectURL(m.blob);
+				done.innerHTML =
+					`<p><a class="patcher-save" href="${objectUrl}" download="${esc(outName)}" data-role="save">⬇ Save ${esc(outName)}</a></p>` +
+					`<p class="patcher-help">${mb(m.size)} · SHA-1 <span class="patcher-hashes">${esc(m.sha1)}</span></p>` +
+					msg('', '<p><strong>Keep your original HeartGold file.</strong> You need it again to apply future updates of the patch. Play the new file in an emulator; we test with melonDS.</p>');
+				done.querySelector('[data-role="save"]')!.addEventListener('click', () => step('save', 'done'));
+				done.focus();
+			};
+			w.onerror = (e) => {
+				e.preventDefault();
+				// A worker that dies mid-patch has almost always hit the memory limit.
+				fail('<p><strong>The patcher stopped unexpectedly</strong>, most likely because your browser ran out of memory.</p>');
+				outOfMemory(() => { reset(); step('check', 'done'); setBusy(true); patch(source); });
+			};
+			w.postMessage({ cmd: 'patch', source, patchUrl: base + 'patch/' + encodeURIComponent(latest!.file), patchSize: latest!.size, expectSha1: latest!.patched_sha1 });
+		}
+
+		input.addEventListener('change', () => {
+			const file = input.files?.[0];
+			if (file) handle(file);
+			input.value = ''; // choosing the same file again still triggers a check
+		});
+		// Drag and drop onto the drop zone; a file dropped anywhere else on the page must not open it in the tab.
+		let depth = 0;
+		drop.addEventListener('dragenter', (e) => { e.preventDefault(); depth++; if (!busy) drop.classList.add('is-over'); });
+		drop.addEventListener('dragleave', () => { if (--depth <= 0) { depth = 0; drop.classList.remove('is-over'); } });
+		drop.addEventListener('dragover', (e) => { e.preventDefault(); if (e.dataTransfer) e.dataTransfer.dropEffect = busy ? 'none' : 'copy'; });
+		drop.addEventListener('drop', (e) => {
+			e.preventDefault();
+			depth = 0;
+			drop.classList.remove('is-over');
+			const file = e.dataTransfer?.files?.[0];
+			if (file) handle(file);
+		});
+		window.addEventListener('dragover', (e) => e.preventDefault());
+		window.addEventListener('drop', (e) => e.preventDefault());
+		window.addEventListener('beforeunload', (e) => { if (busy) e.preventDefault(); });
+	}
+</script>

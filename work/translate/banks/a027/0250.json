@@ -1,0 +1,319 @@
+{
+ "narc": "a027",
+ "bank": 250,
+ "source": "work/extract/v4/a027/0250.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "欢迎光临枯叶码头！{SCROLL}请出示你的船票……{NEWLINE}好,请进吧！{SCROLL}",
+   "en": "Welcome to Vermilion Harbor!{SCROLL}Please show your S.S. Ticket... All{NEWLINE}right, please come through!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0257/0"
+  },
+  {
+   "id": 1,
+   "zh": "船如果每天航行的话,{NEWLINE}也是会累的哦！{CLEAR}今天是停航的日子。{SCROLL}往浅葱市的航班{NEWLINE}是在星期三和星期日{CLEAR}请按时前来！",
+   "en": "Operating a ship every day can wear{NEWLINE}you out! It’s not running today.{SCROLL}It leaves for Olivine City on Wednesdays{NEWLINE}and Sundays!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0257/1"
+  },
+  {
+   "id": 2,
+   "zh": "欢迎光临圣安努号！{SCROLL}请出示你的船票……{NEWLINE}好,请进吧！",
+   "en": "Welcome to the S.S. Anne!{SCROLL}Please show your S.S. Ticket... All{NEWLINE}right, please come through!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0257/2"
+  },
+  {
+   "id": 3,
+   "zh": "圣安努号是往来于{NEWLINE}关东和城都地区的豪华游轮。{CLEAR}在枯叶市乘上圣安努号的话,{CLEAR}就可以抵达成都地区的浅葱市了。",
+   "en": "The S.S. Anne is a luxury cruise ship{NEWLINE}that sails between Kanto and Johto.{SCROLL}Board the S.S. Anne in Vermilion City,{NEWLINE}and you can reach Olivine City in Johto.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "您好,圣安努号目前{NEWLINE}正在做出航前的最后准备,{CLEAR}请您稍后再来。",
+   "en": "Hello. The S.S. Anne is making its final{NEWLINE}preparations before departure. Please{CLEAR}come back later.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "您好,因为前段时间发生了{NEWLINE}火箭队袭击游轮的事件,{CLEAR}所以码头暂时不对游客开放。{SCROLL}给您带来的不便请见谅。",
+   "en": "Hello. Because of the recent Team{NEWLINE}Rocket attack on a cruise ship, the{CLEAR}harbor is closed to visitors for now.{SCROLL}We apologize for the inconvenience.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "小蓝『现在还没到{NEWLINE}游轮的出航时间,{CLEAR}看来得再等会儿了。",
+   "en": "Green: It’s not departure time yet.{NEWLINE}Looks like we’ll have to wait a bit{CLEAR}longer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Green = male-player route (Red alternate)."
+  },
+  {
+   "id": 7,
+   "zh": "小赤『现在还没到{NEWLINE}游轮的出航时间,{CLEAR}看来得再等会儿了。",
+   "en": "Red: It’s not departure time yet. Looks{NEWLINE}like we’ll have to wait a bit longer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Red = female-player route (Green alternate)."
+  },
+  {
+   "id": 8,
+   "zh": "妙蛙草『Ivy——saur！",
+   "en": "Ivysaur: Ivy-saur!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 9,
+   "zh": "小绿『圣安努号迟迟不出航,{NEWLINE}还真是跟{VAR:0103:0}你这个{CLEAR}迟迟拿不到徽章的性格很像啊。",
+   "en": "Blue: The S.S. Anne sure is taking{NEWLINE}forever to sail.{SCROLL}Just like you, {VAR:0103:0}, taking forever{NEWLINE}to get a Badge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "小绿『距离圣安努号出航还有段时间,{NEWLINE}{VAR:0103:0}你可以利用这段时间{CLEAR}先去挑战下枯叶道馆。",
+   "en": "Blue: There’s still time before the{NEWLINE}S.S. Anne sails, {VAR:0103:0}.{SCROLL}Use it to go challenge the Vermilion Gym{NEWLINE}first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "卡咪龟『War——toooo！",
+   "en": "Wartortle: War-toooo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "您好像没有圣安努号的船票啊！{SCROLL}很抱歉,没有船票的话不能坐船。",
+   "en": "You don’t seem to have an S.S. Ticket!{SCROLL}Sorry, you can’t board without one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "欢迎光临圣安努号！",
+   "en": "Welcome to the S.S. Anne!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "有一直陪着我的爷爷和熊宝宝在,{NEWLINE}有保护我们的大哥哥、大姐姐们在,{CLEAR}有给我表演精彩杂技的叔叔在,{CLEAR}我一点都不害怕呢。",
+   "en": "Grandpa and Teddiursa were with me the{NEWLINE}whole time, the big brothers and sisters{CLEAR}protected us...{SCROLL}...and the mister did amazing tricks for{NEWLINE}me, so I wasn’t scared at all!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: male-player variant."
+  },
+  {
+   "id": 15,
+   "zh": "马志士『小姑娘有没有害怕呀？",
+   "en": "Lt. Surge: Were you scared, little lady?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "马志士『嗯,真是个勇敢的姑娘。",
+   "en": "Lt. Surge: Yeah, you’re one brave girl.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "大哥哥,{NEWLINE}谢谢你一路上帮助、保护我们！",
+   "en": "Thank you for helping us and protecting{NEWLINE}us the whole way, big brother!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: male-player variant."
+  },
+  {
+   "id": 18,
+   "zh": "大姐姐,{NEWLINE}谢谢你一路上帮助、保护我们！",
+   "en": "Thank you for helping us and protecting{NEWLINE}us the whole way, big sister!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: female-player variant."
+  },
+  {
+   "id": 19,
+   "zh": "熊宝宝『Teeee——ddi！",
+   "en": "Teddiursa: Teeee-ddi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "如果没有你,{NEWLINE}我们这一船人还不知会怎样呢。{CLEAR}真的真的是太谢谢你了。",
+   "en": "If it weren’t for you, who knows what{NEWLINE}would have happened to everyone on{CLEAR}that ship?{SCROLL}Thank you so, so much.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "真是有惊无险,{NEWLINE}能有这番奇遇倒也算是值回了票价。",
+   "en": "That was a close call. But an adventure{NEWLINE}like that was worth the price of the{CLEAR}ticket.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "喔哦！真是难忘的经历,{NEWLINE}以后可以把这段经历{CLEAR}融入到我的表演中来了。",
+   "en": "Whoa! What an unforgettable{NEWLINE}experience. I can work it into my act{CLEAR}from now on!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "哈哈哈,我就说我命好,{NEWLINE}遇事绝对可以逢凶化吉。",
+   "en": "Ha ha ha! Told you I’m lucky. Whatever{NEWLINE}happens, I always land on my feet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "唉,好好的旅行泡汤了,{NEWLINE}都怪可恶的火箭队！",
+   "en": "Sigh... Our lovely trip, ruined. It’s all{NEWLINE}that rotten Team Rocket’s fault!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "经过这次事情我算是明白了,{NEWLINE}要成为强大的训练家{CLEAR}锻炼对战的实力就可以了,{CLEAR}但要成为有用的训练家,{CLEAR}还是需要一定的智慧的。",
+   "en": "After all this, I finally get it. To be a{NEWLINE}strong Trainer, battle skills are{CLEAR}enough...{SCROLL}But to be a useful Trainer, you need{NEWLINE}some brains too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "是不是咱们因为老去遗迹打卡,{NEWLINE}所以才总是遇到这种倒霉事啊。",
+   "en": "Do you think we keep running into bad{NEWLINE}luck like this because we’re always{CLEAR}posing for photos at ruins?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "别慌别慌,都是小场面。{NEWLINE}大不了咱们换个方式,{CLEAR}以后你假扮口袋妖怪饲育家,{CLEAR}我来卖口袋妖怪保健品。",
+   "en": "Relax, relax, this is nothing. Worst{NEWLINE}case, we change our act.{SCROLL}From now on, you pose as a Pokémon{NEWLINE}Breeder, and I’ll sell Pokémon health{CLEAR}supplements.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "嗯,这个听起来靠谱点。",
+   "en": "Yeah, that sounds more believable.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "我这辈子什么风浪都见过,{NEWLINE}这点事情不算啥。{CLEAR}只要我这可爱的孙女没受伤就行了。",
+   "en": "I’ve weathered every storm there is in{NEWLINE}my life. This is nothing.{SCROLL}As long as my sweet granddaughter isn’t{NEWLINE}hurt, that’s all that matters.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "我年轻身体好,受点伤不算什么。{NEWLINE}看到奶奶平安无事我也就放心了。",
+   "en": "I’m young and strong, a few bumps are{NEWLINE}nothing. I’m just relieved Grandma’s{CLEAR}safe and sound.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "洒家的命是你们救的,{NEWLINE}以后但有差遣,任凭驱驰！",
+   "en": "You folks saved this old boy’s life!{NEWLINE}Whatever you need from now on, just{CLEAR}say the word!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "洒家 speaker: bold, old-fashioned swashbuckler voice (Water Margin style)."
+  },
+  {
+   "id": 32,
+   "zh": "我觉得用一幅画已经不足以{NEWLINE}表达我这次海上旅行的遭遇了。{CLEAR}我要把我的故事卖给导演{CLEAR}让他去拍一部「海jiong」去。",
+   "en": "One painting isn’t enough to capture{NEWLINE}what happened to me on this voyage.{SCROLL}I’m going to sell my story to a director{NEWLINE}and have him shoot a movie called ‘Lost{CLEAR}at Sea’!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "海jiong is a pun on the film 泰囧 (Lost in Thailand); rendered as ‘Lost at Sea’."
+  },
+  {
+   "id": 33,
+   "zh": "嘿嘿,鲤鱼王和钱都没有被抢走,{NEWLINE}真是太好了。",
+   "en": "Heh heh, they didn’t take my Magikarp{NEWLINE}or my money. What a relief.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "哈哈,脚踏实地的感觉最好了,{NEWLINE}我决定要走回城都去！",
+   "en": "Ha ha, nothing beats solid ground under{NEWLINE}your feet. I’ve decided to walk back to{CLEAR}Johto!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "还是抓一只会飞空的精灵吧,{NEWLINE}这样以后去哪旅行也都方便了。",
+   "en": "I think I’ll catch a Pokémon that can{NEWLINE}fly. Then I can travel anywhere easily.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "居然让那个火箭队员{NEWLINE}买到了那么神奇的鲤鱼王,{CLEAR}真是太不公平了。",
+   "en": "That Team Rocket guy got to buy such{NEWLINE}an amazing Magikarp? That’s so unfair.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "对不起,因为圣安努号发生了{NEWLINE}非常可怕的劫持游轮事件,{CLEAR}所以码头的客运船暂时不发船了。",
+   "en": "We’re sorry. After the terrible{NEWLINE}hijacking of the S.S. Anne, passenger{CLEAR}ships from this harbor are suspended{CLEAR}for now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "欢迎光临枯叶码头！{SCROLL}为了保证关东地区的航运畅通,{NEWLINE}精灵联盟已经重新建造了圣安努号,{CLEAR}请在这崭新的客轮上{CLEAR}享受您的海上之旅吧。{SCROLL}",
+   "en": "Welcome to Vermilion Harbor!{SCROLL}To keep Kanto’s shipping running{NEWLINE}smoothly, the Pokémon League has{CLEAR}rebuilt the S.S. Anne.{SCROLL}Please enjoy your voyage aboard this{NEWLINE}brand-new liner.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

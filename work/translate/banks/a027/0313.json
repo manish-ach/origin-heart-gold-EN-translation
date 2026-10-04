@@ -1,0 +1,600 @@
+{
+ "narc": "a027",
+ "bank": 313,
+ "source": "work/extract/v4/a027/0313.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "这里是２号道路{NEWLINE}北　尼比市",
+   "en": "Rt. 2{NEWLINE}North to Pewter City",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0320/0",
+   "category": "sign"
+  },
+  {
+   "id": 1,
+   "zh": "因为紧急事态,前方禁止通行。",
+   "en": "The road ahead is closed due to an{NEWLINE}emergency.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 2,
+   "zh": "伊布『Eee……",
+   "en": "Eevee: Eee...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 3,
+   "zh": "伊布身上伤痕累累。",
+   "en": "Eevee is covered in wounds.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 4,
+   "zh": "喵喵『就是这只伊布喵,{NEWLINE}这次跑出来的实验精灵之一。{CLEAR}抓回去咱们就立功了喵。",
+   "en": "Meowth: This Eevee’s one of the lab{NEWLINE}Pokémon that got loose, meow.{SCROLL}If we bring it back, we get the credit,{NEWLINE}meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 5,
+   "zh": "武藏『嘿嘿,立下大功,{NEWLINE}从特别队员晋升为干部候补！",
+   "en": "Jessie: Heh heh! With credit like that,{NEWLINE}we’ll go from Rocket Elite to Executive{CLEAR}candidates!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0103:0}『等一下！{NEWLINE}这只伊布受伤挺重的,{CLEAR}应该先送去治疗才对。",
+   "en": "{VAR:0103:0}: Wait a second! This Eevee is{NEWLINE}badly hurt.{SCROLL}It needs to be treated first!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0103:0}『住手！{NEWLINE}没看到伊布伤的这么重吗？{CLEAR}我不许你们现在打它的主意！",
+   "en": "{VAR:0103:0}: Stop! Can’t you see how badly{NEWLINE}Eevee is hurt?{SCROLL}I won’t let you lay a finger on it now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 8,
+   "zh": "武藏『哪来的小鬼{NEWLINE}敢挡我们火箭队的路,闪开！",
+   "en": "Jessie: Who’s this brat, getting in Team{NEWLINE}Rocket’s way? Scram!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 9,
+   "zh": "小次郎『还有花不完的奖金！",
+   "en": "James: And more bonus money than we{NEWLINE}can ever spend!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 10,
+   "zh": "武藏『你以为你是谁啊,{NEWLINE}居然想阻挡我们火箭队最快的组合！",
+   "en": "Jessie: Who do you think you are, trying{NEWLINE}to stand in the way of Team Rocket’s{CLEAR}fastest duo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 11,
+   "zh": "喵喵『这个小鬼头好厉害啊喵！",
+   "en": "Meowth: This little brat’s pretty{NEWLINE}tough, meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}『会说话的喵喵！？",
+   "en": "{VAR:0103:0}: A talking Meowth!?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:FF01:200}抢了就跑大作战！！！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Grab and Run!!!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | seed rejected tm_v3 [line_too_wide] (candidate v3 0313#13; text not kept) | Big-text title card (SIZE 200%). 抢了就跑大作战 → “Grab and Run” operation."
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}『确实是很快啊……",
+   "en": "{VAR:0103:0}: They really are fast...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0103:0}『最快？",
+   "en": "{VAR:0103:0}: The fastest?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 16,
+   "zh": "小次郎『我们要在这里{NEWLINE}找到什么时候啊。",
+   "en": "James: How long are we going to keep{NEWLINE}searching here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | #16–33: Team Rocket trio scene (eavesdropped plan); #35–45: Team Rocket motto, English dub version."
+  },
+  {
+   "id": 17,
+   "zh": "喵喵『你们不要做梦了喵{NEWLINE}就凭我们几个,{CLEAR}就算找到了那些精灵{CLEAR}也不一定打得过的喵。",
+   "en": "Meowth: Quit dreamin’, meow. With just{NEWLINE}the three of us...{SCROLL}...even if we find those Pokémon, we{NEWLINE}might not be able to beat ‘em, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 18,
+   "zh": "最近研究发现{NEWLINE}很多虫系精灵都具备{CLEAR}掌握蝶舞这项绝招的潜力。{SCROLL}而关于蝶舞的最新研究表明,{NEWLINE}这项技能可以在战斗中提升{CLEAR}精灵的特攻特防速度能力值。{SCROLL}如果你也有精灵想学习蝶舞,{NEWLINE}只要给我一个速度球,{CLEAR}我就可以教你哦。{CLEAR}怎么样,要学吗？{SCROLL}",
+   "en": "Recent research has found that many{NEWLINE}Bug-type Pokémon have the potential to{CLEAR}master Quiver Dance.{SCROLL}And the latest research shows that{NEWLINE}this move raises a Pokémon’s Sp. Atk,{CLEAR}Sp. Def, and Speed in battle.{SCROLL}If you have a Pokémon that wants to{NEWLINE}learn Quiver Dance, just give me one{CLEAR}Fast Ball and I’ll teach it.{SCROLL}How about it? Want to learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "巴大蝴『Butteee——",
+   "en": "Butterfree: Butteee-",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 20,
+   "zh": "小次郎『哇,我要用奖金去吃豪华大餐！{NEWLINE}哦,等等,还是买绝版瓶盖比较好呢？",
+   "en": "James: Ooh, I’ll spend my bonus on a{NEWLINE}lavish feast!{SCROLL}Oh, wait. Maybe I should buy some rare{NEWLINE}bottle caps instead?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 21,
+   "zh": "武藏『那你说要怎么办啊？{NEWLINE}放着大好的立功机会不去争取吗？",
+   "en": "Jessie: Then what do you suggest? Let a{NEWLINE}golden chance at glory slip by?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 22,
+   "zh": "喵喵『不,我们一定要立功的喵,{NEWLINE}但是我要做的聪明一点啊喵。",
+   "en": "Meowth: Nah, we gotta get the credit,{NEWLINE}meow. But we gotta be smart about it,{CLEAR}meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 23,
+   "zh": "武藏、小次郎『做的聪明一点？？？",
+   "en": "Jessie & James: Smart about it???",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 24,
+   "zh": "喵喵『没错啊喵,{NEWLINE}你们想一下,{CLEAR}最先发现逃走精灵的部队,{CLEAR}一定会与它交战的喵。{SCROLL}喵喵『我们只要在一旁观战,{NEWLINE}等那个精灵足够疲惫的时候,{CLEAR}全力冲刺去把它抓住,{CLEAR}最后的战功就是我们的了喵。",
+   "en": "Meowth: That’s right, meow. Think about{NEWLINE}it.{SCROLL}Whoever finds the runaway Pokémon first{NEWLINE}is gonna have to battle it, meow.{SCROLL}Meowth: We just watch from the{NEWLINE}sidelines. When the Pokémon’s worn out,{CLEAR}we charge in and grab it.{SCROLL}Then all the credit’s ours, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 25,
+   "zh": "武藏、小次郎『原来如此！{NEWLINE}真是聪明的作战计划。",
+   "en": "Jessie & James: I see! What a clever{NEWLINE}plan.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 26,
+   "zh": "喵喵『而且我听说啊,{NEWLINE}这次从实验室跑出来的口袋妖怪,{CLEAR}也有一些并不是特别强。{SCROLL}喵喵『我们可以先挑弱的下手,{NEWLINE}早点抓回去领奖金啊喵。",
+   "en": "Meowth: And I heard some of the{NEWLINE}Pokémon that got out of the lab this{CLEAR}time ain’t all that strong.{SCROLL}Meowth: We can go after the weak ones{NEWLINE}first, bring ‘em back early, and collect{CLEAR}the bonus, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 27,
+   "zh": "武藏『真不愧是喵喵啊,{NEWLINE}确实是个好的作战方针。{CLEAR}很好,从现在起,{CLEAR}我们就开始执行,{CLEAR}渔翁得利抢先下手大作战！",
+   "en": "Jessie: That’s our Meowth! A fine{NEWLINE}strategy indeed.{SCROLL}Very well. Starting now, we launch{NEWLINE}Operation Sit Back and Swoop In!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | 渔翁得利抢先下手大作战 → Operation Sit Back and Swoop In."
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:FF01:200}小次郎、喵喵『唔哦哦哦哦哦——！！！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Whoooooa!!!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Big text; zh label 小次郎、喵喵 dropped so the 200% line fits (Jessie answers both in #29)."
+  },
+  {
+   "id": 29,
+   "zh": "武藏『笨蛋小声点！{NEWLINE}好像有人在偷听！{CLEAR}快藏起来！",
+   "en": "Jessie: Pipe down, you fools! I think{NEWLINE}someone’s listening!{SCROLL}Hide, quick!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 30,
+   "zh": "土狼犬『Wang！Poo！",
+   "en": "Poochyena: Woof! Poo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | Cry 汪 (woof) + Poo(chyena)."
+  },
+  {
+   "id": 31,
+   "zh": "小次郎『哈哈,{NEWLINE}数不尽的功劳和奖励！",
+   "en": "James: Ha ha! Endless glory and{NEWLINE}rewards!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 32,
+   "zh": "这只伊布好像非常孤单无助,{NEWLINE}多带几只精灵来陪陪它怎么样？",
+   "en": "This Eevee seems so lonely and helpless.{SCROLL}Why not bring a few more Pokémon along{NEWLINE}to keep it company?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 33,
+   "zh": "喵喵『还等什么,动手吧喵！",
+   "en": "Meowth: What’re we waitin’ for? Let’s{NEWLINE}get it, meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 34,
+   "zh": "{VAR:0103:0}『火箭队？是干什么的？",
+   "en": "{VAR:0103:0}: Team Rocket? What’s that?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 35,
+   "zh": "武藏『既然你诚心诚意地发问了,",
+   "en": "Jessie: Prepare for trouble!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 36,
+   "zh": "小次郎『我们就大发慈悲地告诉你。",
+   "en": "James: Make it double!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 37,
+   "zh": "武藏『为了防止世界被破坏,",
+   "en": "Jessie: To protect the world{NEWLINE}from devastation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 38,
+   "zh": "小次郎『为了守护世界的和平。",
+   "en": "James: To unite all peoples within{NEWLINE}our nation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 39,
+   "zh": "武藏『贯彻爱与真实的邪恶,",
+   "en": "Jessie: To denounce the evils of truth{NEWLINE}and love!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 40,
+   "zh": "小次郎『可爱又迷人的反派角色。",
+   "en": "James: To extend our reach to the{NEWLINE}stars above!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 41,
+   "zh": "武藏『武藏！",
+   "en": "Jessie: Jessie!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Team Rocket motto: original English wording (coordinator rule, see PROGRESS.md), not the dub motto."
+  },
+  {
+   "id": 42,
+   "zh": "小次郎『小次郎！",
+   "en": "James: James!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Team Rocket motto: original English wording (coordinator rule, see PROGRESS.md), not the dub motto."
+  },
+  {
+   "id": 43,
+   "zh": "武藏『我们是穿梭在银河的火箭队,",
+   "en": "Jessie: Team Rocket, blast off at the{NEWLINE}speed of light!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 44,
+   "zh": "小次郎『白洞,白色的明天在等着我们！",
+   "en": "James: Surrender now, or prepare{NEWLINE}to fight!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 45,
+   "zh": "喵喵『就是这样喵！",
+   "en": "Meowth: Meowth! That’s right!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Canon English dub motto (user decision, D-1437)."
+  },
+  {
+   "id": 46,
+   "zh": "{VAR:0103:0}『哈哈,火箭队？{NEWLINE}是什么篮球俱乐部吗？",
+   "en": "{VAR:0103:0}: Ha ha, Team Rocket? Is that{NEWLINE}some kind of basketball team?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 47,
+   "zh": "小次郎『嘿嘿,被我们的气势吓到了吧？",
+   "en": "James: Heh heh! Awed by our presence,{NEWLINE}are you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 48,
+   "zh": "武藏『知道我们的厉害了,{NEWLINE}就快点让开！",
+   "en": "Jessie: Now that you know how tough we{NEWLINE}are, get out of our way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0103:0}『不管你们是什么人,{NEWLINE}今天都休想带走伊布。",
+   "en": "{VAR:0103:0}: I don’t care who you are.{NEWLINE}You’re not taking Eevee today.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 50,
+   "zh": "{VAR:0103:0}『这么逊的台词,{NEWLINE}你们是认真的吗……{CLEAR}就这还想让我让开？",
+   "en": "{VAR:0103:0}: Lines that lame? Are you{NEWLINE}serious...{SCROLL}And you expect me to move for that?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 51,
+   "zh": "小次郎『可恶,一时大意竟然输了……",
+   "en": "James: Curses! We let our guard down{NEWLINE}and lost...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 52,
+   "zh": "武藏『小次郎,喵喵,实施作战计划！",
+   "en": "Jessie: James, Meowth! Put the plan{NEWLINE}into action!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 53,
+   "zh": "小次郎、喵喵『明白！",
+   "en": "James & Meowth: Roger!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 54,
+   "zh": "{VAR:0103:0}『现在不是感叹的时候,{NEWLINE}得去救小伊布才行！",
+   "en": "{VAR:0103:0}: This is no time to stand{NEWLINE}around. I’ve got to save little Eevee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 55,
+   "zh": "大甲『Pin——sir！",
+   "en": "Pinsir: Pin-sir!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "你知道皮肤类特性吗？{SCROLL}",
+   "en": "Do you know about the abilities that{NEWLINE}change a move’s type, like Aerilate?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | 皮肤类特性 = the -ate abilities (Aerilate, Pixilate…); rendered as 'abilities … like Aerilate'."
+  },
+  {
+   "id": 57,
+   "zh": "我的大甲就是飞行皮肤特性哦！",
+   "en": "My Pinsir has the Aerilate ability!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "所谓皮肤类特性,{NEWLINE}就是将普通属性的招式,{CLEAR}变成该皮肤对应的属性打出,{CLEAR}而且威力还会提升20%。{SCROLL}像我的大甲就是飞行皮肤特性,{NEWLINE}它使用80威力的普通系技能怪力,{CLEAR}是按照96威力的飞行系技能打出的,{CLEAR}怎么样,是不是有点厉害？",
+   "en": "Abilities like that turn Normal-type{NEWLINE}moves into the ability’s type, and boost{CLEAR}their power by 20%, too.{SCROLL}Take my Pinsir with Aerilate. When it{NEWLINE}uses Strength, an 80-power{CLEAR}Normal-type move...{SCROLL}...it hits like a 96-power Flying-type{NEWLINE}move! Pretty impressive, huh?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "去尼比市的近路被封了,{NEWLINE}这下要送快递只能走常磐森林了。{CLEAR}真是不方便。",
+   "en": "The shortcut to Pewter City is closed,{NEWLINE}so now I have to go through Viridian{CLEAR}Forest to make my deliveries.{SCROLL}It’s such a hassle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 60,
+   "zh": "什么时候想学了,{NEWLINE}随时可以来找我。",
+   "en": "If you ever want to learn it, come see{NEWLINE}me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 61,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), same position, flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 62,
+   "zh": "你并没有速度球啊,{NEWLINE}等有球了再来找我吧。",
+   "en": "You don’t have a Fast Ball. Come back{NEWLINE}when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 63,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住蝶舞。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn{NEWLINE}Quiver Dance.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "A Pokémon that hasn’t hatched yet{NEWLINE}can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 65,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会蝶舞了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Quiver{NEWLINE}Dance!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20}, 2{VAR:0201:20}, and{VAR:0201:20}... {VAR:0201:20}... Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 67,
+   "zh": "{VAR:0101:0}学会了蝶舞！",
+   "en": "{VAR:0101:0} learned Quiver Dance!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会蝶舞了！{SCROLL}那么按照约定,{NEWLINE}1个速度球我拿走了。",
+   "en": "There! Your {VAR:0100:0} has learned{NEWLINE}Quiver Dance!{SCROLL}As we agreed, I’ll take 1 Fast Ball.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的蝶舞……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习蝶舞{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn the move{NEWLINE}Quiver Dance...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Forget a move to make room for Quiver{NEWLINE}Dance?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "{VAR:0106:1} will be forgotten. Is that{NEWLINE}OK? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 71,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot how to use{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 72,
+   "zh": "你是要放弃{NEWLINE}让它记住蝶舞吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Quiver Dance? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "警卫们撤走后,{NEWLINE}走这条路去尼比市就方便多了。",
+   "en": "Now that the guards are gone, taking{NEWLINE}this road to Pewter City is much easier.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  }
+ ]
+}

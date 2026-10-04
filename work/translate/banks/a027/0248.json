@@ -1,0 +1,143 @@
+{
+ "narc": "a027",
+ "bank": 248,
+ "source": "work/extract/v4/a027/0248.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "欢迎光临！{NEWLINE}新圣安努号游轮欢迎您！{SCROLL}……说是这样,{NEWLINE}引擎的保养还真是花时间呢！{SCROLL}目前还没有任何出航计划……",
+   "en": "Welcome! Welcome aboard the new{NEWLINE}S.S. Anne!{SCROLL}...Or so I’d like to say. The engine{NEWLINE}maintenance sure is taking its time!{SCROLL}We don’t have any departures scheduled{NEWLINE}yet...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "The hack renamed the ship: 新圣安努号 = the new S.S. Anne (US had Fast Ship S.S. Aqua)."
+  },
+  {
+   "id": 1,
+   "zh": "欢迎光临！{NEWLINE}高速船圣安努号欢迎您！{CLEAR}这位客人,您的船票？{SCROLL}",
+   "en": "Welcome aboard the fast ship S.S. Anne!{NEWLINE}May I see your S.S. Ticket, please?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0255/1"
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}{NEWLINE}想要出示船票{SCROLL}……可是,没有船票。{SCROLL}",
+   "en": "{VAR:0103:0} tried to show the{NEWLINE}S.S. Ticket...{SCROLL}...But no Ticket here!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0255/2"
+  },
+  {
+   "id": 3,
+   "zh": "这样啊……{SCROLL}虽然想让您免费乘坐,{CLEAR}但规定就是规定,{CLEAR}还请您能够谅解。",
+   "en": "I’m sorry...{SCROLL}Another person without a Ticket{NEWLINE}wouldn’t make much of a difference,{CLEAR}I think.{SCROLL}But a rule is a rule.{NEWLINE}Sorry, kiddo.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0255/3"
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0103:0}向工作人员{NEWLINE}出示了船票！{SCROLL}",
+   "en": "{VAR:0103:0} flashed the S.S. Ticket.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0255/4"
+  },
+  {
+   "id": 5,
+   "zh": "嗯哈~验票完毕！{SCROLL}马上就要出航咯！{NEWLINE}快点上船吧！{SCROLL}",
+   "en": "OK, you have a Ticket!{SCROLL}We’re departing soon.{NEWLINE}Get on board quick!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0255/5"
+  },
+  {
+   "id": 6,
+   "zh": "怎么？{NEWLINE}船票已经看过了哦。",
+   "en": "What?{NEWLINE}You already showed me the Ticket.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0255/6"
+  },
+  {
+   "id": 7,
+   "zh": "欢迎光临水绿号！{SCROLL}请出示船票……{NEWLINE}嗯,请进吧！{SCROLL}",
+   "en": "Welcome to the S.S. Aqua!{SCROLL}Your Ticket is...right there.{NEWLINE}Please come through.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "zh still says 水绿号 (S.S. Aqua) here, a leftover of the vanilla name; kept the US line. Consider changing to S.S. Anne for consistency. | coordinator: S.S. Aqua → S.S. Anne (hack renamed the ship) | D-1195 + user 2026-09-29: follow the zh 水绿号 = S.S. Aqua (hack finding: probably not renamed)"
+  },
+  {
+   "id": 8,
+   "zh": "船如果每天航行的话,{NEWLINE}也是会累的哦！{CLEAR}今天是停航的日子。{SCROLL}往枯叶市的航次{NEWLINE}是在星期一和星期五{CLEAR}请按时前来！",
+   "en": "Operating a ship every day can wear{NEWLINE}you out!{CLEAR}It’s not running today.{SCROLL}It leaves for Vermilion City on Mondays{NEWLINE}and Fridays!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0255/8"
+  },
+  {
+   "id": 9,
+   "zh": "大木博士『哦~{VAR:0103:0}！{NEWLINE}总觉得……你越来越有{CLEAR}冠军的风范了！{SCROLL}既然当上了冠军,{NEWLINE}精灵图鉴{CLEAR}也应该做得与冠军{CLEAR}相称才行！{SCROLL}来,把图鉴给我一下！{NEWLINE}我帮你把图鉴{CLEAR}升级成全国版的吧！{SCROLL}",
+   "en": "Prof. Oak: Hello!{NEWLINE}You are starting to have the{CLEAR}attitude of a Champion, {VAR:0103:0}!{SCROLL}It’s time for your Pokédex to match{NEWLINE}who you are.{CLEAR}Let me see your Pokédex for a second.{SCROLL}I’ll upgrade your Pokédex with{NEWLINE}the National Mode.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0255/9"
+  },
+  {
+   "id": 10,
+   "zh": "大木博士『哦~{VAR:0103:0}！{NEWLINE}总觉得……你越来越有{CLEAR}冠军的风范了！{SCROLL}既然当上了冠军,{NEWLINE}精灵图鉴{CLEAR}也应该做得与冠军{CLEAR}相称才行！{SCROLL}来,把图鉴给我一下！{NEWLINE}我帮你把图鉴{CLEAR}升级成全国版的吧！{SCROLL}",
+   "en": "Prof. Oak: Hello!{NEWLINE}You are starting to have the...{CLEAR}attitude of a Champion, {VAR:0103:0}!{SCROLL}It’s time for your Pokédex to match{NEWLINE}who you are.{CLEAR}Let me see your Pokédex for a second.{SCROLL}I’ll upgrade your Pokédex with{NEWLINE}the National Mode.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0255/10"
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0103:0}的精灵图鉴{NEWLINE}变成全国版了！",
+   "en": "{VAR:0103:0}’s Pokédex was upgraded{NEWLINE}with the National Mode!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0255/11"
+  },
+  {
+   "id": 12,
+   "zh": "大木博士『要完成{NEWLINE}全国图鉴{CLEAR}估计不是件简单的事呢……{CLEAR}请继续努力！{SCROLL}",
+   "en": "Prof. Oak: It won’t be easy to{NEWLINE}complete the National Pokédex...{SCROLL}However, I’m sure you will make an{NEWLINE}honest attempt on our behalf!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0255/12"
+  },
+  {
+   "id": 13,
+   "zh": "哦呀！{NEWLINE}已经这么晚了！{SCROLL}我现在要去满金市的广播电台{NEWLINE}录节目去了！{SCROLL}你终于要向关东地区进发了吧？{SCROLL}我的研究所在一个叫真新镇的小镇里。{SCROLL}如果你到了那里附近的话,{NEWLINE}让我看看你的图鉴吧！{SCROLL}",
+   "en": "Oh, time flies!{SCROLL}I have a radio show to record{NEWLINE}at Goldenrod Radio Tower.{SCROLL}You must be heading for Kanto.{SCROLL}If you come near Pallet Town, do drop{NEWLINE}by my Pokémon Research Lab!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0255/13"
+  },
+  {
+   "id": 14,
+   "zh": "新圣安努号依靠{NEWLINE}喷射的能量,{SCROLL}得以在海面上{NEWLINE}高速地航行！",
+   "en": "The new S.S. Anne runs on jet power, so{NEWLINE}it can race across the sea at high{CLEAR}speed!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0255/14"
+  },
+  {
+   "id": 15,
+   "zh": "你是从关东来的？{SCROLL}貌似那里有着许多珍稀的精灵呢！{CLEAR}真好啊~我也想去呐~",
+   "en": "You’ve been to Kanto already?{SCROLL}I hear many rare Pokémon live{NEWLINE}over there.{SCROLL}Sounds exciting.{NEWLINE}I’d love to visit!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0255/15"
+  },
+  {
+   "id": 16,
+   "zh": "欢迎光临浅葱码头！{SCROLL}为了保证城都地区的航运畅通,{NEWLINE}精灵联盟已经将浅葱码头{CLEAR}彻底翻新了一遍,{CLEAR}请从这崭新的码头{CLEAR}开始您的海上之旅吧。{SCROLL}",
+   "en": "Welcome to Olivine Harbor!{SCROLL}To keep Johto’s shipping running{NEWLINE}smoothly, the Pokémon League has fully{CLEAR}renovated Olivine Harbor.{SCROLL}Please begin your sea voyage from this{NEWLINE}brand-new harbor.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

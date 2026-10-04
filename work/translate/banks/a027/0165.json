@@ -1,0 +1,639 @@
+{
+ "narc": "a027",
+ "bank": 165,
+ "source": "work/extract/v4/a027/0165.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "重放",
+   "en": "Replay",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 1,
+   "zh": "混响",
+   "en": "Reverb",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 2,
+   "zh": "原声文件",
+   "en": "Source file",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 3,
+   "zh": "ＦＬＤＢＧＭＶＯＬ",
+   "en": "FLDBGMVOL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 4,
+   "zh": "叫声模式",
+   "en": "Cry pattern",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 5,
+   "zh": "就这样",
+   "en": "As is",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 6,
+   "zh": "简短",
+   "en": "Short",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 7,
+   "zh": "生气",
+   "en": "Angry",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 8,
+   "zh": "Ｗ记住",
+   "en": "W memorize",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 记住 (remember); US “W howling”"
+  },
+  {
+   "id": 9,
+   "zh": "Ｗ超Ｖ１",
+   "en": "W super V1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 10,
+   "zh": "打败",
+   "en": "Defeated",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 11,
+   "zh": "Ｗ超Ｖ２",
+   "en": "W super V2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 12,
+   "zh": "Ｗ吼叫１",
+   "en": "W roar 1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 13,
+   "zh": "Ｗ吼叫２",
+   "en": "W roar 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 14,
+   "zh": "Ｗ声音１",
+   "en": "W voice 1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 15,
+   "zh": "Ｗ声音２",
+   "en": "W voice 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 16,
+   "zh": "没有活力",
+   "en": "Listless",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 17,
+   "zh": "没有活力简短",
+   "en": "Listless short",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 18,
+   "zh": "出力ＥＦＦ",
+   "en": "Output EFF",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 19,
+   "zh": "立体声",
+   "en": "Stereo",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0167/19 | debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 20,
+   "zh": "单声道",
+   "en": "Mono",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 21,
+   "zh": "环绕声",
+   "en": "Surround",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 22,
+   "zh": "耳机",
+   "en": "Headphones",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 23,
+   "zh": "音符鹦鹉",
+   "en": "Chatot",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0167/23 | debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 24,
+   "zh": "录音开始",
+   "en": "Start recording",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 25,
+   "zh": "录音停止",
+   "en": "Stop recording",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 26,
+   "zh": "重放",
+   "en": "Replay",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 27,
+   "zh": "停止",
+   "en": "Stop",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 28,
+   "zh": "保存",
+   "en": "Save",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 29,
+   "zh": "脚本启动",
+   "en": "Script launch",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 30,
+   "zh": "ＦＬＤＢＧＭ拍子",
+   "en": "FLDBGM tempo",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 31,
+   "zh": "测试脚本",
+   "en": "Test script",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 32,
+   "zh": "无",
+   "en": "None",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0167/32 | debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 33,
+   "zh": "脚本调试",
+   "en": "Script debug",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 34,
+   "zh": "洁咪舞",
+   "en": "Shaymin dance",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 洁咪舞 (unclear; US “warehouse key”); ext-review RCA-009: 洁咪 read as an old transliteration of Shaymin (Sheimi); medium confidence"
+  },
+  {
+   "id": 35,
+   "zh": "３大湖",
+   "en": "3 Lakes",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 36,
+   "zh": "精灵中心地下",
+   "en": "Pokémon Center B1F",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 37,
+   "zh": "无",
+   "en": "None",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0167/37 | debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 38,
+   "zh": "无",
+   "en": "None",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0167/38 | debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 39,
+   "zh": "声音ＥＦＦ",
+   "en": "Sound EFF",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 40,
+   "zh": "波形测试",
+   "en": "Waveform test",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 41,
+   "zh": "脚本集",
+   "en": "Script set",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 42,
+   "zh": "插旗徽章",
+   "en": "Flag Badges",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 43,
+   "zh": "隐藏物品",
+   "en": "Hidden items",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 44,
+   "zh": "截图",
+   "en": "Screenshot",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 45,
+   "zh": "录音重放",
+   "en": "Recording playback",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 录音重放; JP ギネス (records)"
+  },
+  {
+   "id": 46,
+   "zh": "跳过",
+   "en": "Jump",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 47,
+   "zh": "手机",
+   "en": "Pokégear",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text | debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 48,
+   "zh": "无",
+   "en": "None",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0167/48 | debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 49,
+   "zh": "战斗搜索",
+   "en": "Battle search",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 50,
+   "zh": "电量ＭＡＸ",
+   "en": "Battery MAX",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 51,
+   "zh": "电量ＣＬＲ",
+   "en": "Battery CLR",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 52,
+   "zh": "通过ーＭＡＸ",
+   "en": "Clear-MAX",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 53,
+   "zh": "通过ーＣＬＲ",
+   "en": "Clear-CLR",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 54,
+   "zh": "脚本启动",
+   "en": "Script launch",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 55,
+   "zh": "等级１设定",
+   "en": "Set Lv. 1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 56,
+   "zh": "等级２设定",
+   "en": "Set Lv. 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 57,
+   "zh": "等级３设定",
+   "en": "Set Lv. 3",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 58,
+   "zh": "等级４设定",
+   "en": "Set Lv. 4",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 59,
+   "zh": "等级５设定",
+   "en": "Set Lv. 5",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 60,
+   "zh": "{VAR:0135:1}",
+   "en": "{VAR:0135:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "ＢＧＭ无效",
+   "en": "BGM off",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 62,
+   "zh": "ＢＧＭ有效",
+   "en": "BGM on",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 63,
+   "zh": "ＧＢ切换",
+   "en": "GB switch",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 64,
+   "zh": "前线",
+   "en": "Frontier",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 65,
+   "zh": "工厂",
+   "en": "Battle Factory",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 66,
+   "zh": "舞台",
+   "en": "Battle Hall",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 67,
+   "zh": "城堡",
+   "en": "Battle Castle",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 68,
+   "zh": "轮盘",
+   "en": "Battle Arcade",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 69,
+   "zh": "单人",
+   "en": "Single",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 70,
+   "zh": "双人",
+   "en": "Double",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0167/70 | debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 71,
+   "zh": "对战",
+   "en": "Battle",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s) | debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 72,
+   "zh": "ＷＩＦＩ对战",
+   "en": "WIFI battle",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 73,
+   "zh": "塔",
+   "en": "Battle Tower",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 74,
+   "zh": "别墅事件切换",
+   "en": "Villa event switch",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 75,
+   "zh": "工厂开放",
+   "en": "Factory open",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 76,
+   "zh": "到达前线",
+   "en": "Arrive at Frontier",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 77,
+   "zh": "舞台奖励确认",
+   "en": "Check Hall rewards",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  },
+  {
+   "id": 78,
+   "zh": "努力值测试",
+   "en": "EV test",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (sound/script debug menu)"
+  }
+ ]
+}

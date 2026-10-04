@@ -1,0 +1,1047 @@
+{
+ "narc": "a027",
+ "bank": 508,
+ "source": "work/extract/v4/a027/0508.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "欢迎光临！{NEWLINE}这里是联动公园！{SCROLL}在狩猎场无法满足的{NEWLINE}一流精灵训练师,{CLEAR}能在这里发挥他们的高超绝技！{VAR:0200:0}",
+   "en": "Welcome! This is the Pal Park!{SCROLL}This is where top-notch Pokémon{NEWLINE}Trainers who aren’t satisfied with the{CLEAR}Safari Zone come to show off their{CLEAR}catching skills!{SCROLL}Would you like to take part?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#0/#1: zh ends on a statement before the Yes/No box; added ‘Would you like to take part?’ so the prompt reads. 固定捕捉模式 → Fixed Catch mode (invented)."
+  },
+  {
+   "id": 1,
+   "zh": "欢迎光临！{NEWLINE}这里是联动公园！{SCROLL}在狩猎场无法满足的{NEWLINE}一流精灵训练师,{CLEAR}能在这里发挥他们的高超绝技！{VAR:0200:0}",
+   "en": "Welcome! This is the Pal Park!{SCROLL}This is where top-notch Pokémon{NEWLINE}Trainers who aren’t satisfied with the{CLEAR}Safari Zone come to show off their{CLEAR}catching skills!{SCROLL}Would you like to take part?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "是吗！你要参加啊！{SCROLL}那么,赶快来听听联动公园的{NEWLINE}规则说明吧！{SCROLL}你想听什么呢？{VAR:0200:0}",
+   "en": "Yes! You agreed to participate!{NEWLINE}Let’s not waste any time!{SCROLL}Let me explain how Pal Park works.{NEWLINE}What should I explain? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/2"
+  },
+  {
+   "id": 3,
+   "zh": "联动公园是{NEWLINE}用规定数量的球,{SCROLL}如何快速完全{NEWLINE}捕捉６只精灵的竞技场所。{SCROLL}可捕捉的精灵{NEWLINE}已经为参赛的训练师{CLEAR}准备好了。{SCROLL}如果没有预存好６只,{NEWLINE}我们就开启固定捕捉模式,{CLEAR}在这个模式下公园里会放入{CLEAR}芳缘地区或者神奥地区的精灵,{CLEAR}供游客捕捉。{SCROLL}……你还想听点什么？{VAR:0200:0}",
+   "en": "At the Pal Park, you compete to catch{NEWLINE}six Pokémon as quickly as possible with a{CLEAR}set number of Balls.{SCROLL}The Pokémon to be caught are provided{NEWLINE}in advance by the participating Trainer.{SCROLL}If you haven’t stocked six Pokémon, we{NEWLINE}switch on Fixed Catch mode.{SCROLL}In this mode, Pokémon from Hoenn or{NEWLINE}Sinnoh are released into the park for{CLEAR}visitors to catch.{SCROLL}...Would you like to know anything else?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "捕捉秀开始时,{NEWLINE}会给你６个公园球。{SCROLL}请使用这些球,{NEWLINE}将６只精灵全部捕捉。{SCROLL}在固定捕捉模式下,{NEWLINE}则不再限制携带的精灵球。{SCROLL}……你还想听点什么？{VAR:0200:0}",
+   "en": "At the start of the Catching Show,{NEWLINE}you’ll be given six Park Balls.{SCROLL}Use them to catch all six Pokémon.{SCROLL}In Fixed Catch mode, there’s no limit on{NEWLINE}the Poké Balls you can use.{SCROLL}...Would you like to know anything else?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "请往你的ＮＤＳ的{NEWLINE}ＧＢＡ卡带插口内{SCROLL}插入红宝石、蓝宝石、火红{NEWLINE}叶绿、绿宝石中的{CLEAR}任意一张卡带。{CLEAR}打开ＤＳ电源,{SCROLL}在主菜单上{NEWLINE}选择从（ＧＢＡ系列）{CLEAR}传送,{SCROLL}那在那张卡带上捕捉到的{NEWLINE}６只精灵能够预存到{CLEAR}联动公园。{SCROLL}但是使用ＤＳｉ的话,{NEWLINE}由于不能插入ＧＢＡ卡带,{CLEAR}无法预存精灵。{CLEAR}请注意。{SCROLL}……你还想听点什么？{VAR:0200:0}",
+   "en": "Insert a Game Boy Advance Pokémon{NEWLINE}Ruby, Sapphire, Emerald, FireRed,{CLEAR}or LeafGreen in the Game Pak slot.{SCROLL}Six of the currently caught Pokémon{NEWLINE}can migrate from the Game Pak to the{CLEAR}DS Game Card when your DS is turned on{CLEAR}and you select “MIGRATE FROM...”{SCROLL}Please note that you cannot insert a{NEWLINE}GBA Game Pak into a Nintendo DSi{CLEAR}to migrate.{SCROLL}...Would you like to know{NEWLINE}anything else? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/5"
+  },
+  {
+   "id": 6,
+   "zh": "那么,现在要参加捕捉秀了吗？{VAR:0200:0}",
+   "en": "Would you like to take part in{NEWLINE}a Catching Show now? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/6"
+  },
+  {
+   "id": 7,
+   "zh": "是吗,真可惜啊。{SCROLL}如果你想参加的话,{NEWLINE}就跟我说一声吧！",
+   "en": "Aww, that’s too bad.{SCROLL}Well, just give me a shout again{NEWLINE}if you’d like to participate.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/7"
+  },
+  {
+   "id": 8,
+   "zh": "呀！{VAR:0103:0}！{SCROLL}你是来参加{NEWLINE}捕捉秀的吗？{VAR:0200:0}",
+   "en": "Hi there, {VAR:0103:0}!{SCROLL}Did you come to participate in{NEWLINE}a Catching Show? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/8"
+  },
+  {
+   "id": 9,
+   "zh": "呀！{VAR:0103:0}！{SCROLL}你是来参加{NEWLINE}捕捉秀的吗？{VAR:0200:0}",
+   "en": "Hi there, {VAR:0103:0}!{SCROLL}Did you come to participate in{NEWLINE}a Catching Show? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/9"
+  },
+  {
+   "id": 10,
+   "zh": "那么,给你公园球！{SCROLL}{VAR:0103:0}得到了{NEWLINE}６个公园球！{SCROLL}至今为止,第１位是{VAR:0103:1}的{NEWLINE}记录,{VAR:0135:2}点！{SCROLL}那么！{VAR:0103:0}{NEWLINE}请你把华丽的捕捉技术{CLEAR}展现给各位观众吧！！{SCROLL}",
+   "en": "OK, here are your Park Balls!{SCROLL}{VAR:0103:0} received{NEWLINE}six Park Balls.{SCROLL}The current record holder is{NEWLINE}{VAR:0103:1} with {VAR:0135:2} points.{SCROLL}OK, off you go, {VAR:0103:0}.{SCROLL}Dazzle us with a masterful display{NEWLINE}of Pokémon catching!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/10"
+  },
+  {
+   "id": 11,
+   "zh": "那么,给你公园球！{SCROLL}{VAR:0103:0}得到了{NEWLINE}６个公园球！{SCROLL}至今为止,第１位是{VAR:0103:1}的{NEWLINE}记录,{VAR:0135:2}点！{SCROLL}那么！{VAR:0103:0}{NEWLINE}请你把华丽的捕捉技术{CLEAR}展现给各位观众吧！！{SCROLL}",
+   "en": "OK, here are your Park Balls!{SCROLL}{VAR:0103:0} received{NEWLINE}six Park Balls.{SCROLL}The current record holder is{NEWLINE}{VAR:0103:1} with {VAR:0135:2} points.{SCROLL}OK, off you go, {VAR:0103:0}.{SCROLL}Dazzle us with a masterful display{NEWLINE}of Pokémon catching!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/11"
+  },
+  {
+   "id": 12,
+   "zh": "唉……要参加捕捉秀{NEWLINE}精灵的数量不够啊。{SCROLL}等你预存了从芳缘地区带来的{NEWLINE}６只精灵后,{CLEAR}你再来吧！",
+   "en": "Oh, hold on. You don’t have enough{NEWLINE}Pokémon for a Catching Show.{SCROLL}You’ll need to stock us with six{NEWLINE}Pokémon to participate.{SCROLL}You should make some Pokémon migrate{NEWLINE}from Hoenn or another region!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/12"
+  },
+  {
+   "id": 13,
+   "zh": "那么,赶快来听听联动公园{NEWLINE}的规则说明吧！{SCROLL}你想听什么呢？{VAR:0200:0}",
+   "en": "Let me explain how the Pal Park works!{SCROLL}What would you like to know?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0516/13"
+  },
+  {
+   "id": 14,
+   "zh": "辛苦你了！{NEWLINE}剩余的球{CLEAR}我就替你回收了。{SCROLL}下次再来的话,一定{NEWLINE}要把６只都捕捉到哦！",
+   "en": "I’m sorry you had to retire.{NEWLINE}I’ll take what Park Balls you{CLEAR}have left.{SCROLL}Next time, please do stay to catch{NEWLINE}all six Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/14"
+  },
+  {
+   "id": 15,
+   "zh": "唉？盒子里好像{NEWLINE}容纳不了６只精灵了呢。{SCROLL}那样,辛辛苦苦捕捉到的,{NEWLINE}也无法领回了呢。{SCROLL}整理好了盒子再来吧。",
+   "en": "Oh? Your PC Boxes don’t have room for{NEWLINE}six more Pokémon.{SCROLL}That means you couldn’t take home the{NEWLINE}Pokémon you worked so hard to catch.{SCROLL}Please make some room in your Boxes and{NEWLINE}come back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "精灵６只捕获！{NEWLINE}恭喜你！！{SCROLL}观看的客人们也对刚才的{NEWLINE}捕捉秀兴奋不已呢！{SCROLL}那么,这次捕捉秀{NEWLINE}满意的分数是？{SCROLL}……　……　……{NEWLINE}……　……　……{SCROLL}捕捉点数　{VAR:0135:0}点！{SCROLL}时间点数　{VAR:0135:1}点！{SCROLL}属性点数　{VAR:0135:2}点！{SCROLL}结果是{SCROLL}……　……　……{NEWLINE}……　……　……{SCROLL}{VAR:0135:3}点！！{SCROLL}",
+   "en": "Congratulations!{NEWLINE}That’s all six Pokémon caught!{SCROLL}The audience sure enjoyed watching{NEWLINE}your Catching Show.{SCROLL}All right, let’s see your all-important{NEWLINE}score from this show!{SCROLL}...{NEWLINE}...{SCROLL}Catching Points: {VAR:0135:0}!{SCROLL}Time Points: {VAR:0135:1}!{SCROLL}Type Points: {VAR:0135:2}!{SCROLL}The total is...{SCROLL}...{NEWLINE}...{SCROLL}{VAR:0135:3} points!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/16"
+  },
+  {
+   "id": 17,
+   "zh": "哦哦！这真是个好成绩！{NEWLINE}太精彩了！！{SCROLL}",
+   "en": "Wow! That’s an outstanding record!{NEWLINE}Kudos to you!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "嗯！马马虎虎的成绩呢,{NEWLINE}很精彩！{SCROLL}",
+   "en": "Hmm! That’s a decent record. Nicely{NEWLINE}done!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "要把捕捉到的精灵{NEWLINE}放进盒子吗？{VAR:0200:0}",
+   "en": "Would you like to put all caught{NEWLINE}Pokémon in PC Boxes? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/19"
+  },
+  {
+   "id": 20,
+   "zh": "好了！{NEWLINE}放进盒子了！{SCROLL}那么,写进记录报告吧！{SCROLL}",
+   "en": "Done!{NEWLINE}Your Pokémon have been boxed away.{SCROLL}You’ll now have to save the game.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/20"
+  },
+  {
+   "id": 21,
+   "zh": "是吗,那么下次用这只精灵{NEWLINE}可能创造出{CLEAR}更高的分数哦！{SCROLL}还想捕捉精灵的话,{NEWLINE}欢迎再来挑战啊！",
+   "en": "Oh, then it might be fun for you to{NEWLINE}go for an even better score by{CLEAR}trying to catch these six again.{SCROLL}If you want to do another Catching{NEWLINE}Show, just come see us!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/21"
+  },
+  {
+   "id": 22,
+   "zh": "还想捕捉精灵的话,{NEWLINE}欢迎再来挑战啊！{SCROLL}",
+   "en": "If you want to do another Catching{NEWLINE}Show, come see us again, please!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/22"
+  },
+  {
+   "id": 23,
+   "zh": "那么,作为纪念品,{NEWLINE}这个就送给你吧！{SCROLL}",
+   "en": "It’s time for your prize!{NEWLINE}Here you are!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/23"
+  },
+  {
+   "id": 24,
+   "zh": "那么,要用同一只精灵{NEWLINE}再次进行吗？{VAR:0200:0}",
+   "en": "Do another Catching Show{NEWLINE}with the same Pokémon? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/24"
+  },
+  {
+   "id": 25,
+   "zh": "至今为止,第１位是{VAR:0103:1}的{NEWLINE}记录,{VAR:0135:2}点！{CLEAR}你能超过这个记录吗？",
+   "en": "The current record holder is{NEWLINE}{VAR:0103:1} with {VAR:0135:2} points.{CLEAR}Can you top that?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/25"
+  },
+  {
+   "id": 26,
+   "zh": "哦哦！超过２０００点了啊！{NEWLINE}那么这个给你！{SCROLL}",
+   "en": "Oh! You’ve topped 2,000 points!{NEWLINE}You’ve earned this, then!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/26"
+  },
+  {
+   "id": 27,
+   "zh": "目标更高的分数{NEWLINE}努力吧！",
+   "en": "Keep working on getting a higher{NEWLINE}score!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/27"
+  },
+  {
+   "id": 28,
+   "zh": "哦哦！超过２５００点了啊！{NEWLINE}那么这个给你！{SCROLL}",
+   "en": "Oh! You’ve topped 2,500 points!{NEWLINE}You’ve earned this, then!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/28"
+  },
+  {
+   "id": 29,
+   "zh": "哦哦！超过３０００点了啊！{NEWLINE}那么这个给你！{SCROLL}",
+   "en": "Oh! You’ve topped 3,000 points!{NEWLINE}You’ve earned this, then!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/29"
+  },
+  {
+   "id": 30,
+   "zh": "哦哦！超过３５００点了啊！{NEWLINE}那么这个给你！{SCROLL}",
+   "en": "Oh! You’ve topped 3,500 points!{NEWLINE}You’ve earned this, then!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0516/30"
+  },
+  {
+   "id": 31,
+   "zh": "真是好记录啊！{NEWLINE}我已经没话说了！",
+   "en": "You’ve set an incredible record!{NEWLINE}There’s nothing left to say!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "背包满了啊,{NEWLINE}下次再来吧。",
+   "en": "Your Bag is full.{NEWLINE}You should come back later.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/32"
+  },
+  {
+   "id": 33,
+   "zh": "在固定捕捉模式下,{NEWLINE}根据星期几的不同,{CLEAR}出现的精灵也会不同哦。",
+   "en": "In Fixed Catch mode, the Pokémon that{NEWLINE}appear change depending on the day of{CLEAR}the week.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "唉,我吗？{NEWLINE}我从不自己{CLEAR}去捕捉精灵。{SCROLL}但是我很喜欢{NEWLINE}看捕捉秀。{SCROLL}我特别喜欢{NEWLINE}城都地区和芳缘地区的{CLEAR}精灵。{SCROLL}我所不知的地方,{NEWLINE}真是好神秘啊。",
+   "en": "Oh, me?{NEWLINE}No, I never catch Pokémon myself.{CLEAR}But I enjoy Catching Shows a lot.{SCROLL}I love to see Johto and Hoenn Pokémon,{NEWLINE}especially.{SCROLL}The regions I’ve never been to{NEWLINE}are so mysterious.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/34"
+  },
+  {
+   "id": 35,
+   "zh": "今天我想把幸福{NEWLINE}分享给大家……{SCROLL}我也把这个……{NEWLINE}皇冠送给你。{SCROLL}虽然只是装饰精灵的{NEWLINE}小饰品而已。{SCROLL}",
+   "en": "I feel so happy that I’d like to share{NEWLINE}my happiness with you today.{SCROLL}I must crown you with this...{NEWLINE}Crown.{SCROLL}Oh, before you get the wrong idea,{NEWLINE}it’s an Accessory for Pokémon.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/35"
+  },
+  {
+   "id": 36,
+   "zh": "今天我想把幸福{NEWLINE}分送给大家……{SCROLL}我也把这个……{NEWLINE}后冠送给你。{SCROLL}虽然只是装饰精灵的{NEWLINE}小饰品而已。{SCROLL}",
+   "en": "I feel so happy that I’d like to share{NEWLINE}my happiness with you today.{SCROLL}I feel compelled to give you this{NEWLINE}Tiara.{SCROLL}Oh, before you get the wrong idea,{NEWLINE}it’s an Accessory for Pokémon.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/36"
+  },
+  {
+   "id": 37,
+   "zh": "今天我想把幸福{NEWLINE}分送给大家……{SCROLL}我也把这张背景{NEWLINE}「海底」送给你。{SCROLL}装饰的时候,{NEWLINE}请你一定要使用这个哦。{SCROLL}",
+   "en": "I feel so happy that I’d like to share{NEWLINE}my happiness with you today.{SCROLL}I wish you would take this{NEWLINE}“Seafloor” Backdrop.{SCROLL}Please try using it when dressing up{NEWLINE}your Pokémon with Accessories.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/37"
+  },
+  {
+   "id": 38,
+   "zh": "今天我想把幸福{NEWLINE}分送给大家……{SCROLL}我也把这张背景{NEWLINE}「地底」送给你。{SCROLL}装饰的时候,{NEWLINE}请你一定要使用这个哦。{SCROLL}",
+   "en": "I feel so happy that I’d like to share{NEWLINE}my happiness with you today.{SCROLL}I wish you would take this{NEWLINE}“Underground” Backdrop.{SCROLL}Please try using it when dressing up{NEWLINE}your Pokémon with Accessories.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/38"
+  },
+  {
+   "id": 39,
+   "zh": "今天我想把幸福{NEWLINE}分送给大家……{SCROLL}我也把这张背景{NEWLINE}「天空」送给你。{SCROLL}装饰的时候,{NEWLINE}请你一定要使用这个哦。{SCROLL}",
+   "en": "I feel so happy that I’d like to share{NEWLINE}my happiness with you today.{SCROLL}I wish you would take this{NEWLINE}“Sky” Backdrop.{SCROLL}Please try using it when dressing up{NEWLINE}your Pokémon with Accessories.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/39"
+  },
+  {
+   "id": 40,
+   "zh": "有了口袋竞技场,{NEWLINE}就有战斗前线,{CLEAR}有了狩猎场,{CLEAR}也就有联动公园……{SCROLL}除了我之外的其他人,{NEWLINE}全都拼命努力着。{CLEAR}啊啊,一想到这里就{CLEAR}心跳不已！",
+   "en": "Not only is there the Pokéathlon and{NEWLINE}the Safari Zone, but also the{CLEAR}Battle Frontier and the Pal Park...{SCROLL}People other than me are working{NEWLINE}so hard... How dreamy...{CLEAR}This region sets my heart aflutter.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/40"
+  },
+  {
+   "id": 41,
+   "zh": "哇,是联盟冠军{VAR:0103:0}！！！{NEWLINE}没想到出来度假居然能遇到我的偶像！",
+   "en": "Wow, it’s League Champion {VAR:0103:0}!!!{SCROLL}I never thought I’d meet my idol while{NEWLINE}on vacation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "哇,{VAR:0103:0}！！{NEWLINE}你在捕捉秀的表现很帅哦！{SCROLL}我也想成为像{VAR:0103:0}{NEWLINE}一样的精灵训练师呢！",
+   "en": "Wow, {VAR:0103:0}!! You looked so cool in{NEWLINE}the Catching Show!{SCROLL}I want to be a Pokémon Trainer just like{NEWLINE}{VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0516/42 | seed rejected us [tag_mismatch] (candidate US 0516#42; text not kept)"
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0103:0}{NEWLINE}请你加油。",
+   "en": "Keep it up, {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0516/43"
+  },
+  {
+   "id": 44,
+   "zh": "我儿子是冠军大人的大粉丝,{NEWLINE}他总嚷嚷着有一天也要成为联盟冠军。",
+   "en": "My son is a huge fan of the Champion. He{NEWLINE}keeps saying he’ll become League{CLEAR}Champion someday too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "想要看珍稀的精灵,{NEWLINE}就来参加联动公园的捕捉秀！{SCROLL}这是最好的方法！",
+   "en": "If you want to see rare Pokémon,{NEWLINE}Catching Shows at the Pal Park are{CLEAR}the best!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0516/45"
+  },
+  {
+   "id": 46,
+   "zh": "由于检测到你没有预存精灵,{NEWLINE}所以将开启固定捕捉模式,{CLEAR}在这个模式下每次捕捉{CLEAR}需收取1万元的费用,可以吗？{SCROLL}",
+   "en": "We’ve detected that you haven’t{NEWLINE}stocked any Pokémon, so Fixed Catch{CLEAR}mode will be switched on. In this mode,{CLEAR}each catch costs $10000. Is that OK?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "真是抱歉,你身上的钱不够。",
+   "en": "I’m terribly sorry, but you don’t have{NEWLINE}enough money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "在固定捕捉模式下{NEWLINE}我们是不提供精灵球的,{CLEAR}请客人你使用自己的精灵球{CLEAR}向各位观众展示华丽的捕捉技术吧！{SCROLL}",
+   "en": "In Fixed Catch mode, we don’t provide{NEWLINE}Poké Balls. Please use your own Poké{CLEAR}Balls to show the audience your dazzling{CLEAR}catching skills!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "即使没有卡带{NEWLINE}也能在固定模式下捕捉精灵。{CLEAR}这只洛托姆就是{CLEAR}我在固定捕捉模式下抓到的。",
+   "en": "Even without a Game Pak, you can catch{NEWLINE}Pokémon in Fixed Catch mode. I caught{CLEAR}this Rotom in Fixed Catch mode.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "洛托姆『Rooo——tom！",
+   "en": "Rotom: Rooo-tom!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "因为我有相应的卡带,{NEWLINE}所以我能在这里捕捉到雨翅蛾！",
+   "en": "I have the right Game Pak, so I could{NEWLINE}catch Masquerain here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "雨翅蛾『Maaa——que！",
+   "en": "Masquerain: Maaa-que!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "{VAR:0103:0}『你好,我和我女朋友{NEWLINE}想参加联动公园的捕捉活动,{CLEAR}可以两个人一起进吗？",
+   "en": "{VAR:0103:0}: Hi! My girlfriend and I want to{NEWLINE}join the Pal Park catching event. Can{CLEAR}the two of us go in together?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Post-game Pal Park date with Misty (#53–#89), then Couples Double Battle at the Resort Zone: Yellow partner #90–#98 (player male, 小黄 calls him 哥哥; English drops ‘big brother’) or Misty partner #99–#107; shared #108–#118; Misty ceremony #119–#129."
+  },
+  {
+   "id": 54,
+   "zh": "没有问题,鉴于您目前的状态,{NEWLINE}我们将开启固定捕捉模式,可以吗？",
+   "en": "No problem. Given your current{NEWLINE}situation, we’ll switch on Fixed Catch{CLEAR}mode. Is that OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "{VAR:0103:0}『好的,没问题。",
+   "en": "{VAR:0103:0}: Sure, that’s fine.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "在固定捕捉模式下{NEWLINE}我们是不提供精灵球的,{CLEAR}请客人你使用自己的精灵球{CLEAR}向各位观众展示华丽的捕捉技术吧！",
+   "en": "In Fixed Catch mode, we don’t provide{NEWLINE}Poké Balls. Please use your own Poké{CLEAR}Balls to show the audience your dazzling{CLEAR}catching skills!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "小霞『{VAR:0103:0},{NEWLINE}虽说关东的狩猎场很出名,{CLEAR}但我一次都没去过。{CLEAR}所以我是第一次来这种地方哎！{CLEAR}不知道在这里会遇到{CLEAR}什么样的水系精灵,{CLEAR}咱们快去找找看吧！",
+   "en": "Misty: {VAR:0103:0}, Kanto’s Safari Zone may{NEWLINE}be famous, but I’ve never been even{CLEAR}once. So this is my first time at a place{CLEAR}like this!{SCROLL}I wonder what Water-type Pokémon we’ll{NEWLINE}find here. Let’s go look!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "小霞『唔……这边没有……{NEWLINE}走,咱们去那边看看。",
+   "en": "Misty: Hmm... Nothing over here... Come{NEWLINE}on, let’s check over there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "小霞『这只精灵是天平偶吧？{NEWLINE}确实是在关东很难见到的精灵。",
+   "en": "Misty: This Pokémon is a Baltoy, right?{NEWLINE}You really don’t see those in Kanto.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "小霞『咦？那边的是雪笠怪？",
+   "en": "Misty: Huh? Is that a Snover over{NEWLINE}there?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "小霞『哇,矮矮胖胖的好可爱啊。",
+   "en": "Misty: Aww, it’s so short and chubby.{NEWLINE}How cute!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "{VAR:0103:0}『没想到小霞你对{NEWLINE}水系精灵之外的口袋妖怪{CLEAR}也这么喜欢啊。",
+   "en": "{VAR:0103:0}: Misty, I didn’t know you liked{NEWLINE}Pokémon besides Water types this much.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "小霞『那当然啦,我是口袋妖怪训练家,{NEWLINE}当然会喜欢所有的口袋妖怪啦。",
+   "en": "Misty: Of course! I’m a Pokémon{NEWLINE}Trainer. Naturally I like all Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "{VAR:0103:0}『哦？真的是这样吗？",
+   "en": "{VAR:0103:0}: Oh? Is that really true?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "小霞『呃……那个……嗯……{NEWLINE}虫系精灵除外吧,哈哈哈。",
+   "en": "Misty: Uh... well... um... Except Bug{NEWLINE}types, I guess. Ha ha ha.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "{VAR:0103:0}『我就说嘛,记得以前在常磐森林,{NEWLINE}你见了大针蜂怕的要死。",
+   "en": "{VAR:0103:0}: I knew it. I remember back in{NEWLINE}Viridian Forest, a Beedrill scared you{CLEAR}half to death.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "小霞『切,要你多嘴啊！",
+   "en": "Misty: Tch, nobody asked you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "{VAR:0103:0}『哈哈哈,我不说了。{NEWLINE}那你现在要抓这只雪笠怪吗？",
+   "en": "{VAR:0103:0}: Ha ha ha, OK, I’ll drop it. So,{NEWLINE}are you going to catch this Snover?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "小霞『不了吧,我要把有限的精灵球{NEWLINE}留给这里的水系精灵。",
+   "en": "Misty: Nah. I’m saving my limited Poké{NEWLINE}Balls for the Water types here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "{VAR:0103:0}『好,那咱们去别的地方看看。",
+   "en": "{VAR:0103:0}: OK, let’s go look somewhere{NEWLINE}else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "小霞『喂喂喂！快看呐{VAR:0103:0}！{NEWLINE}那是水跃鱼和波加曼！",
+   "en": "Misty: Hey hey hey! Look, {VAR:0103:0}! It’s{NEWLINE}a Mudkip and a Piplup!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "{VAR:0103:0}『哈哈,看到稀有的水系精灵,{NEWLINE}小霞你一下子就兴奋起来了。",
+   "en": "{VAR:0103:0}: Ha ha, Misty, one look at a{NEWLINE}rare Water type and you’re all fired up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "小霞『水跃鱼！波加曼！{NEWLINE}这边这边！快来我这边！",
+   "en": "Misty: Mudkip! Piplup! Over here, over{NEWLINE}here! Come to me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "水跃鱼『Muuu——ki？",
+   "en": "Mudkip: Muuu-ki?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "波加曼『Piii——plu？",
+   "en": "Piplup: Piii-plu?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "小霞『水跃鱼、波加曼,我叫小霞,{NEWLINE}你们愿意做我的精灵吗？{CLEAR}愿意的话就跟我一起回华蓝市吧！",
+   "en": "Misty: Mudkip, Piplup, I’m Misty. Will you{NEWLINE}be my Pokémon? If you will, come back to{CLEAR}Cerulean City with me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "水跃鱼『Muuu——ki！{NEWLINE}波加曼『Piii——plu！{SCROLL}两只精灵蹭了蹭小霞的手。",
+   "en": "Mudkip: Muuu-ki!{NEWLINE}Piplup: Piii-plu!{SCROLL}The two Pokémon nuzzled Misty’s hand.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "小霞『哇,你们这就是愿意咯？{NEWLINE}太好了,那就到我的精灵球里来吧！",
+   "en": "Misty: Wow, does that mean yes? Great!{NEWLINE}Then hop into my Poké Balls!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "{VAR:0103:0}『好厉害啊小霞,{NEWLINE}居然不用战斗就获得了精灵的认可。",
+   "en": "{VAR:0103:0}: Amazing, Misty. You won them{NEWLINE}over without even battling.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "小霞『嘿嘿,这个应该叫作{NEWLINE}水系口袋妖怪大师的魅力。{CLEAR}你这种只懂得战斗的直男{CLEAR}大概是不会懂的。",
+   "en": "Misty: Hee hee. That’s what you call the{NEWLINE}charm of a Water Pokémon Master.{CLEAR}A clueless guy like you who only knows{CLEAR}battling probably wouldn’t get it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Misty’s anime goal “Water Pokémon Master” (D-1436)."
+  },
+  {
+   "id": 81,
+   "zh": "{VAR:0103:0}『切,我在旅行途中,{NEWLINE}也遇到过很多不用战斗{CLEAR}也愿意跟随我的精灵呢。",
+   "en": "{VAR:0103:0}: Tch. On my journey, I’ve met{NEWLINE}plenty of Pokémon that chose to follow{CLEAR}me without a battle, too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "小霞『那就说明你也很有魅力嘛,{NEWLINE}不然我怎么会跟你在一起呢？{CLEAR}你说是吧。",
+   "en": "Misty: Then that means you’re pretty{NEWLINE}charming too. Otherwise, why would I be{CLEAR}with you? Right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "{VAR:0103:0}『嘿嘿,也还好啦。",
+   "en": "{VAR:0103:0}: Heh heh, I guess I’m not too{NEWLINE}bad.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "小霞『今天在联动公园的收获不小,{NEWLINE}咱们现在出去吧。",
+   "en": "Misty: We got a lot out of the Pal Park{NEWLINE}today. Let’s head out now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "二位刚才在联动公园的精彩表现{NEWLINE}我们都看到了,{CLEAR}居然可以不用战斗就收服精灵,{CLEAR}真的是让人大为震撼。{CLEAR}如果二位能去参加我们度假区的{CLEAR}情侣双打比赛的话,{CLEAR}一定能取得好成绩。",
+   "en": "We all saw your wonderful performance{NEWLINE}in the Pal Park just now. You won{CLEAR}Pokémon over without even battling.{CLEAR}Truly astonishing!{SCROLL}If you two entered our Resort Zone’s{NEWLINE}Couples Double Battle, I’m sure you’d{CLEAR}do great.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "小霞『哦？情侣双打比赛？{NEWLINE}听起来很有意思啊。{CLEAR}要怎么才能参加呢？",
+   "en": "Misty: Oh? A Couples Double Battle?{NEWLINE}That sounds fun. How do we enter?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "从这里出去往东走,{NEWLINE}有一个对站平台,{CLEAR}跟平台旁边的主持人报名就可以了。",
+   "en": "Head out of here and go east. There’s a{NEWLINE}battle stage. Just sign up with the MC{CLEAR}next to it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "小霞『听到了吗{VAR:0103:0}？{NEWLINE}情侣双打比赛哎,应该很有意思。{CLEAR}咱们去报名参赛吧！",
+   "en": "Misty: Did you hear that, {VAR:0103:0}? A{NEWLINE}Couples Double Battle! That should be{CLEAR}fun. Let’s sign up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "{VAR:0103:0}『没问题,咱们走。",
+   "en": "{VAR:0103:0}: Sure, let’s go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "{VAR:0103:0}『你好啊主持人先生,{NEWLINE}我们听说这里有双打比赛,{CLEAR}现在还可以报名吗？",
+   "en": "{VAR:0103:0}: Hello, Mr. MC. We heard{NEWLINE}there’s a Double Battle tournament{CLEAR}here. Can we still sign up?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "哎呀呀,今天的情侣双打比赛真是火爆,{NEWLINE}在比赛开始前一刻{CLEAR}居然还有恩爱的情侣来报名。{CLEAR}总之欢迎二位参加今天的比赛,{CLEAR}我们的双打对战即将开始,{CLEAR}请二位到对战场地边就位吧！",
+   "en": "My, my! Today’s Couples Double Battle{NEWLINE}is a real hit. A loving couple signing up{CLEAR}at the very last minute!{SCROLL}Anyway, welcome to today’s tournament,{NEWLINE}you two. Our Double Battles are about{CLEAR}to begin, so please take your places by{CLEAR}the battlefield!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "各位来宾大家好,{NEWLINE}度假区的特色项目{CLEAR}情侣双打对战即将开始,{CLEAR}下面由我简单介绍一下规则。{CLEAR}第一场比赛胜出的情侣将留在台上,{CLEAR}他们将以车轮战的方式{CLEAR}迎接不断上台的情侣组合。{CLEAR}当所有报名的情侣{CLEAR}都登台比赛过至少一次后,{CLEAR}胜场最多的情侣组合{CLEAR}将成为本次比赛的冠军。{CLEAR}获得冠军的情侣{CLEAR}会受到所有度假区来宾的美好祝福。{CLEAR}下面请大家在这个欢乐的地方,{CLEAR}尽情享受充满爱意{CLEAR}又激情澎湃的精灵对战吧！",
+   "en": "Good day, everyone! The Resort Zone’s{NEWLINE}signature event, the Couples Double{CLEAR}Battle, is about to begin! Let me{CLEAR}briefly explain the rules.{SCROLL}The couple that wins the first match{NEWLINE}stays on stage and takes on one{CLEAR}challenging couple after another.{SCROLL}Once every registered couple has{NEWLINE}battled on stage at least once, the{CLEAR}couple with the most wins becomes{CLEAR}today’s champion.{SCROLL}The champion couple will receive the{NEWLINE}warm blessings of every guest at the{CLEAR}Resort Zone!{SCROLL}And now, everyone, enjoy Pokémon{NEWLINE}battles full of love and passion in this{CLEAR}happy place!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "下面有请参加第一场比赛的{NEWLINE}两对情侣闪亮登场！",
+   "en": "Now, let’s welcome the two couples in{NEWLINE}the first match!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "{VAR:0103:0}『小黄,加油哦！",
+   "en": "{VAR:0103:0}: Go for it, Yellow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "小黄『嗯,我要跟{VAR:0103:0}哥哥一起,{NEWLINE}获得大家的祝福！",
+   "en": "Yellow: Yeah! I’ll win everyone’s{NEWLINE}blessing together with you, {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "恋爱最甜美的时候,{NEWLINE}就是刚刚在一起时的青涩时光。",
+   "en": "The sweetest part of love is those shy,{NEWLINE}fresh early days of dating.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "我们虽然青涩,但绝不弱小,{NEWLINE}让你们看看我们的厉害！",
+   "en": "We may be new at this, but we’re not{NEWLINE}weak! We’ll show you what we’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "好！下面第一场情侣双打比赛,{NEWLINE}现在开始！",
+   "en": "All right! The first Couples Double{NEWLINE}Battle begins now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "{VAR:0103:0}『你好啊主持人先生,{NEWLINE}我们听说这里有双打比赛,{CLEAR}现在还可以报名吗？",
+   "en": "{VAR:0103:0}: Hello, Mr. MC. We heard{NEWLINE}there’s a Double Battle tournament{CLEAR}here. Can we still sign up?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "哎呀呀,今天的情侣双打比赛真是火爆,{NEWLINE}在比赛开始前一刻{CLEAR}居然还有恩爱的情侣来报名。{CLEAR}总之欢迎二位参加今天的比赛,{CLEAR}我们的双打对战即将开始,{CLEAR}请二位到对战场地边就位吧！",
+   "en": "My, my! Today’s Couples Double Battle{NEWLINE}is a real hit. A loving couple signing up{CLEAR}at the very last minute!{SCROLL}Anyway, welcome to today’s tournament,{NEWLINE}you two. Our Double Battles are about{CLEAR}to begin, so please take your places by{CLEAR}the battlefield!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "各位来宾大家好,{NEWLINE}度假区的特色项目{CLEAR}情侣双打对战即将开始,{CLEAR}下面由我简单介绍一下规则。{CLEAR}第一场比赛胜出的情侣将留在台上,{CLEAR}他们将以车轮战的方式{CLEAR}迎接不断上台的情侣组合。{CLEAR}当所有报名的情侣{CLEAR}都登台比赛过至少一次后,{CLEAR}胜场最多的情侣组合{CLEAR}将成为本次比赛的冠军。{CLEAR}获得冠军的情侣{CLEAR}会受到所有度假区来宾的美好祝福。{CLEAR}下面请大家在这个欢乐的地方,{CLEAR}尽情享受充满爱意{CLEAR}又激情澎湃的精灵对战吧！",
+   "en": "Good day, everyone! The Resort Zone’s{NEWLINE}signature event, the Couples Double{CLEAR}Battle, is about to begin! Let me{CLEAR}briefly explain the rules.{SCROLL}The couple that wins the first match{NEWLINE}stays on stage and takes on one{CLEAR}challenging couple after another.{SCROLL}Once every registered couple has{NEWLINE}battled on stage at least once, the{CLEAR}couple with the most wins becomes{CLEAR}today’s champion.{SCROLL}The champion couple will receive the{NEWLINE}warm blessings of every guest at the{CLEAR}Resort Zone!{SCROLL}And now, everyone, enjoy Pokémon{NEWLINE}battles full of love and passion in this{CLEAR}happy place!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "下面有请参加第一场比赛的{NEWLINE}两对情侣闪亮登场！",
+   "en": "Now, let’s welcome the two couples in{NEWLINE}the first match!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "{VAR:0103:0}『加油,小霞！",
+   "en": "{VAR:0103:0}: Go for it, Misty!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "小霞『嘿嘿,那当然,我是不会输的！",
+   "en": "Misty: Hee hee, of course. I won’t lose!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "恋爱最甜美的时候,{NEWLINE}就是刚刚在一起时的青涩时光。",
+   "en": "The sweetest part of love is those shy,{NEWLINE}fresh early days of dating.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "我们虽然青涩,但绝不弱小,{NEWLINE}让你们看看我们的厉害！",
+   "en": "We may be new at this, but we’re not{NEWLINE}weak! We’ll show you what we’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "好！下面第一场情侣双打比赛,{NEWLINE}现在开始！",
+   "en": "All right! The first Couples Double{NEWLINE}Battle begins now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "哇！真是一边倒的对战,{NEWLINE}我在度假区从未见过{CLEAR}如此强大的情侣组合！{SCROLL}下面进行第二回合的比赛,{NEWLINE}请第二对情侣登台！",
+   "en": "Wow! What a one-sided battle! I’ve{NEWLINE}never seen such a powerful couple at{CLEAR}the Resort Zone!{SCROLL}Now for the second round. Will the{NEWLINE}second couple please take the stage!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "任何人都无法阻挡我们热烈的爱情！",
+   "en": "Nothing can stop our burning love!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "就算是联盟冠军来了都不行！",
+   "en": "Not even the League Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "好！比赛现在开始！",
+   "en": "All right! The match begins now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "真是难以置信的压倒性胜利,{NEWLINE}恭喜我们的优胜情侣！{SCROLL}请下一组情侣登台！",
+   "en": "What an incredible, overwhelming{NEWLINE}victory!{SCROLL}Congratulations to our winning couple!{SCROLL}Will the next couple please take the{NEWLINE}stage!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "爸爸妈妈加油！",
+   "en": "Go, Mom and Dad!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "虽然生孩子、养孩子压力很大,{NEWLINE}但是这却让我们体会到了{CLEAR}不同以往的幸福。",
+   "en": "Having and raising kids is a lot of{NEWLINE}pressure, but it’s given us a kind of{CLEAR}happiness we never knew before.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "祝你们将来也能体会到这种幸福吧。",
+   "en": "We hope you two get to know that{NEWLINE}happiness someday too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "陪伴,是最长情的告白。{NEWLINE}能与一个人白头偕老相爱一生,{CLEAR}是最幸福的事了。",
+   "en": "Being there for someone is the truest{NEWLINE}confession of love. Growing old{CLEAR}together with one person and loving{CLEAR}them all your life is the greatest{CLEAR}happiness there is.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "[zh redacted: song lyrics; sha256:8b7221d40fedab6486d9f9de00020e006bd57093486d8fcb1582334991bd348a]",
+   "en": "♪ (hums a classic love song about{NEWLINE}growing old together) ♪{SCROLL}Only once you’ve lived it will you two{NEWLINE}feel the weight of those words.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "The zh quotes a lyric from the song 最浪漫的事; not translated (song rule), replaced with a hum line. #116 陪伴,是最长情的告白 is an ad slogan, translated. | zh redacted: song lyrics (zh_redact.py)"
+  },
+  {
+   "id": 118,
+   "zh": "太强了！真的太强了！{NEWLINE}这对初次登上舞台的情侣组合{CLEAR}竟然击败了今天所有报名参赛的情侣。{CLEAR}恭喜你们成为本次比赛的冠军！",
+   "en": "Amazing! Truly amazing! This couple on{NEWLINE}stage for the very first time has{CLEAR}beaten every couple entered today!{SCROLL}Congratulations on becoming today’s{NEWLINE}champions!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 119,
+   "zh": "下面请二位到这边来,{NEWLINE}我们将为二位举行祝福仪式。",
+   "en": "Now, will you two please come this way?{NEWLINE}We’ll hold a blessing ceremony for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "恭喜二位优秀的训练家情侣,{NEWLINE}在经过重重磨练之后,{CLEAR}终于站到了这个神圣的舞台上。{SCROLL}今天来到度假区的所有宾客,{NEWLINE}都是你们深厚感情的见证者。{CLEAR}不知道二位在这里{CLEAR}有没有什么特别的话想跟对方说呢？",
+   "en": "Congratulations to this wonderful{NEWLINE}Trainer couple!{SCROLL}After trial upon trial, you finally stand{NEWLINE}upon this sacred stage.{SCROLL}Every guest at the Resort Zone today{NEWLINE}is a witness to your deep bond. Is{CLEAR}there anything special either of you{CLEAR}would like to say to the other?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "{VAR:0103:0}『小霞,感谢你能{NEWLINE}出现在我的生命中,{CLEAR}过去跟你在一起的时光非常幸福。{CLEAR}在未来,我将用我的全部热情和爱意,{CLEAR}来陪伴你、支持你、照顾你。{CLEAR}我将与你一起度过{CLEAR}今后人生的每一个阶段,{CLEAR}经历生活的每一种色彩、{CLEAR}分享生活的每一份喜悦,{CLEAR}分担生活的每一次痛苦。{CLEAR}直到永远……",
+   "en": "{VAR:0103:0}: Misty, thank you for coming{NEWLINE}into my life. Every moment I’ve spent{CLEAR}with you has made me so happy.{SCROLL}From now on, with all my heart and all my{NEWLINE}love, I’ll be by your side, support you{CLEAR}and take care of you.{SCROLL}I’ll go through every stage of life with{NEWLINE}you, see every color life has, share{CLEAR}every joy and share every pain.{CLEAR}Forever and ever...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Wedding-style vows; label repeated on each page."
+  },
+  {
+   "id": 122,
+   "zh": "小霞『{VAR:0103:0}……{NEWLINE}你的出现对我来说{CLEAR}就像是黑夜中看见了太阳,{CLEAR}一下子照亮了我生活中的每一个角落。{CLEAR}从今往后无论是富贵还是穷困、{CLEAR}健康还是疾病、顺境还是逆境,{CLEAR}我都将永远陪在你的身边,{CLEAR}直到永远……",
+   "en": "Misty: {VAR:0103:0}... When you came along,{NEWLINE}it was like seeing the sun in the dead of{CLEAR}night. You lit up every corner of my life{CLEAR}all at once.{SCROLL}From now on, for richer or poorer, in{NEWLINE}sickness and in health, in good times{CLEAR}and bad, I’ll always be by your side.{CLEAR}Forever and ever...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "呜呜呜,真的是太感人了！{NEWLINE}两位情侣在我们的仪式上{CLEAR}交换了相守一生的誓言。{CLEAR}下面请两位用深情的拥吻,{CLEAR}为今天的祝福仪式画上圆满的句号！{SCROLL}各位来宾请为他们送上祝福的掌声！",
+   "en": "*sniff* This is so moving! Our couple has{NEWLINE}exchanged vows to be together for life{CLEAR}at our ceremony. Now, please seal{CLEAR}today’s blessing ceremony with a{CLEAR}passionate embrace and kiss!{SCROLL}Everyone, please give them a round of{NEWLINE}applause!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "{VAR:0103:0}『小霞……",
+   "en": "{VAR:0103:0}: Misty...",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 125,
+   "zh": "小霞『{VAR:0103:0}……",
+   "en": "Misty: {VAR:0103:0}...",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 126,
+   "zh": "{VAR:0103:0}『仪式结束了,大家也都散了……",
+   "en": "{VAR:0103:0}: The ceremony’s over, and{NEWLINE}everyone’s gone...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 127,
+   "zh": "小霞『但今后咱们两个{NEWLINE}永远都会在一起了……",
+   "en": "Misty: But from now on, the two of us{NEWLINE}will be together forever...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 128,
+   "zh": "{VAR:0103:0}『嘿嘿,这次在度假区{NEWLINE}玩的很开心哦。{CLEAR}咱们出来旅行也有段时间了,{CLEAR}现在回华蓝市吧？",
+   "en": "{VAR:0103:0}: Heh heh, I had a lot of fun at{NEWLINE}the Resort Zone this time. We’ve been{CLEAR}traveling for a while now. Shall we head{CLEAR}back to Cerulean City?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 129,
+   "zh": "小霞『嗯,好！",
+   "en": "Misty: Mm-hmm, OK!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

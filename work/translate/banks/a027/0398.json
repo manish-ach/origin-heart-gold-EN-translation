@@ -1,0 +1,976 @@
+{
+ "narc": "a027",
+ "bank": 398,
+ "source": "work/extract/v4/a027/0398.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "我收集到了城都地区的7枚徽章,{NEWLINE}再加上两年前在关东收集到的{CLEAR}华蓝道馆的徽章,{CLEAR}这样我就是持有8枚徽章的{CLEAR}高级训练家了。{SCROLL}所以说啊,你们要想提高对战水平,{NEWLINE}跟我学习肯定是没错的。",
+   "en": "I’ve collected 7 Johto Badges.{NEWLINE}Add the Cerulean Gym Badge I got in{CLEAR}Kanto two years ago, and that makes{CLEAR}me a Senior Trainer with 8 Badges.{SCROLL}So if you two want to get{NEWLINE}better at battling, learning{CLEAR}from me is the way to go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Badge thief (blond fake Senior Trainer); stolen Badges belong to 0620 #76-#80"
+  },
+  {
+   "id": 1,
+   "zh": "这里是４５号道路{NEWLINE}前面是山间小路",
+   "en": "Rt. 45{NEWLINE}Mountain Road ahead",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0405/1",
+   "category": "sign"
+  },
+  {
+   "id": 2,
+   "zh": "这里是黑暗洞穴",
+   "en": "Dark Cave",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0405/2"
+  },
+  {
+   "id": 3,
+   "zh": "哇,持有8枚徽章{NEWLINE}那岂不是可以参加石英大会了？",
+   "en": "Whoa, with 8 Badges, can’t you{NEWLINE}enter the Indigo Conference?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "没错,我可是石英大会级别的训练家。",
+   "en": "That’s right. I’m an Indigo{NEWLINE}Conference-level Trainer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "那哥哥你有参加过石英大会吗？",
+   "en": "So have you ever been in the{NEWLINE}Indigo Conference, mister?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "那个……我……我刚收集齐这8枚徽章,{NEWLINE}下一步就准备参加石英大会。{CLEAR}我现在就是一边准备石英大会,{CLEAR}一边带学生修行。{CLEAR}你们要是想学习对战的话,{CLEAR}最好快点交费报名,{CLEAR}然后咱们一起训练。",
+   "en": "Well... I... I only just collected{NEWLINE}these 8 Badges. The Indigo{CLEAR}Conference is my next step.{SCROLL}Right now I’m getting ready for{NEWLINE}it while I train students on the side.{CLEAR}If you want to learn how to battle,{CLEAR}you’d better pay your fee and sign{CLEAR}up quick. Then we can train together.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "嗯,那我先数一数{NEWLINE}我的零用钱还剩多少。",
+   "en": "OK, let me count how much{NEWLINE}allowance I have left first.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "我的零用钱都快花光了,{NEWLINE}我打电话问我爸妈要点零用钱来,{CLEAR}大哥哥你稍等一等哈。",
+   "en": "I’ve spent almost all my allowance.{NEWLINE}I’ll call my mom and dad and ask{CLEAR}for more. Just wait a sec, mister.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "好的,等你们交了钱咱们就开始上课。",
+   "en": "Sure. Once you’ve{NEWLINE}paid, we’ll start class.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "你的徽章是自己赢来的吗",
+   "en": "Earned those Badges?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 11,
+   "zh": "不关我事",
+   "en": "None of my business",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}『你的徽章是自己赢来的吗？",
+   "en": "{VAR:0103:0}: Did you earn{NEWLINE}those Badges yourself?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "干什么啊,你在质疑我的实力吗？",
+   "en": "What’s your problem?{NEWLINE}You doubting my skills?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "有人丢了徽章",
+   "en": "Someone lost their Badges",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 15,
+   "zh": "我对你的经历很感兴趣",
+   "en": "Tell me your Badge story",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 16,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}『啊,没什么。{NEWLINE}我就是路过的。",
+   "en": "{VAR:0103:0}: Oh, nothing.{NEWLINE}I’m just passing by.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "那就赶紧走你的路去！",
+   "en": "Then hurry up and get going!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0103:0}『烟墨市有人丢了徽章,{NEWLINE}我正在调查这件事。",
+   "en": "{VAR:0103:0}: Someone in Blackthorn City{NEWLINE}lost their Badges. I’m looking into it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "喂喂喂,你这是在怀疑我吗？{NEWLINE}我警告你啊,{CLEAR}饭可以乱吃,话不可以乱讲的。{CLEAR}你要是无凭无据怀疑我,{CLEAR}当心我去精灵联盟告你！",
+   "en": "Hey, hey, hey, are you accusing me?{NEWLINE}I’m warning you. You can eat whatever{CLEAR}you like, but watch what you say.{SCROLL}If you accuse me without any proof,{NEWLINE}I’ll report you to the Pokémon League!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "饭可以乱吃,话不可以乱讲 idiom kept literally"
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0103:0}『其实我对你{NEWLINE}收集徽章的经历很感兴趣,{CLEAR}你能给我讲讲吗？",
+   "en": "{VAR:0103:0}: Actually, I’m really{NEWLINE}interested in how you collected your{CLEAR}Badges. Could you tell me about it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "没问题,你想听我在哪座城市的经历呢？",
+   "en": "Sure. Which city do you{NEWLINE}want to hear about?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "你去过喇叭芽之塔吗",
+   "en": "Been to Sprout Tower?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 24,
+   "zh": "你喜欢满金市的游戏厅吗",
+   "en": "Like the Game Corner?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 25,
+   "zh": "你觉得蜜柑馆主是个什么样的人",
+   "en": "What’s Jasmine like?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 26,
+   "zh": "你是怎么战胜阿四馆主的",
+   "en": "How’d you beat Chuck?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 27,
+   "zh": "{VAR:0103:0}『说说你在{NEWLINE}喇叭芽之塔的见闻吧。",
+   "en": "{VAR:0103:0}: Tell me what{NEWLINE}you saw at Sprout Tower.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "我跟你说啊,{NEWLINE}喇叭芽之塔的和尚可贪财了,{CLEAR}有一次我想要爬上喇叭芽之塔修行,{CLEAR}结果这群和尚居然问我要香火钱。{CLEAR}我最讨厌这种假正经的和尚了,{CLEAR}所以我当时扭头就走了。",
+   "en": "Let me tell you, the monks at Sprout{NEWLINE}Tower are real money-grubbers.{CLEAR}Once I wanted to climb Sprout{CLEAR}Tower to train, and those monks{CLEAR}actually asked me for an offering!{SCROLL}I can’t stand holier-than-thou{NEWLINE}monks like that, so I just{CLEAR}turned around and left.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0103:0}『嗯……他们确实是会收香火钱。",
+   "en": "{VAR:0103:0}: Hmm... They{NEWLINE}do ask for offerings.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "是吧是吧,只要是去过的人{NEWLINE}都会有这种经历的。",
+   "en": "Right? Anyone who’s been there{NEWLINE}has had that happen.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0103:0}『你在满金市的游戏厅{NEWLINE}赢过多少代币？",
+   "en": "{VAR:0103:0}: How many coins did you{NEWLINE}win at the Goldenrod Game Corner?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "可别跟我提满金市的游戏厅了,{NEWLINE}我去那里都是输钱的,{CLEAR}就从来没赢过！",
+   "en": "Don’t even mention the Goldenrod{NEWLINE}Game Corner. I always lose money{CLEAR}there. I’ve never won once!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0103:0}『哈哈,我的运气也不怎么样。",
+   "en": "{VAR:0103:0}: Ha ha, I haven’t{NEWLINE}had much luck there either.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "是吧是吧,只要是去过的人{NEWLINE}都会有这种感受的。",
+   "en": "Right? Anyone who’s been there{NEWLINE}feels the same way.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "{VAR:0103:0}『阿四馆主的{NEWLINE}格斗系精灵非常强大,{CLEAR}你当时是怎么取胜的呢？",
+   "en": "{VAR:0103:0}: Chuck’s Fighting-type Pokémon{NEWLINE}are really strong. How did you beat him?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "当然是靠有疾风之翼的比雕了,{NEWLINE}一招空气切割就能带走他一只精灵,{CLEAR}我打起来可一点都不费劲。",
+   "en": "With my Pidgeot with Gale{NEWLINE}Wings, of course! One Air Slash{CLEAR}took out one of his Pokémon at{CLEAR}a time. It was no sweat at all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "{VAR:0103:0}『这……{NEWLINE}用比雕对付格斗系精灵{CLEAR}确实会很轻松。",
+   "en": "{VAR:0103:0}: Well... Pidgeot would{NEWLINE}make Fighting types pretty easy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "嘿嘿,那当然了,{NEWLINE}我对精灵的特性背得可熟了。",
+   "en": "Heh heh, of course. I know my{NEWLINE}Pokémon Abilities by heart.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "{VAR:0103:0}『你觉得蜜柑馆主{NEWLINE}是个什么样的人呢？",
+   "en": "{VAR:0103:0}: What do you{NEWLINE}think Jasmine is like?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "那是一个像钢铁一样冰冷的女孩,{NEWLINE}强大和冷酷就是她的代名词,{CLEAR}从她强力的攻击中{CLEAR}我感受不到任何的温度。",
+   "en": "She’s a girl as cold as steel. Power{NEWLINE}and ruthlessness, that’s what she’s{CLEAR}all about. I couldn’t feel any warmth{CLEAR}at all in her powerful attacks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "{VAR:0103:0}『呵呵,暴露了吧？",
+   "en": "{VAR:0103:0}: Heh. Gave{NEWLINE}yourself away, didn’t you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "你什么意思？",
+   "en": "What do you mean?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0103:0}『蜜柑馆主虽然使用钢系精灵,{NEWLINE}但她本人可是很温柔善良的。{CLEAR}你说的那些大概是根据{CLEAR}「钢系精灵使用者」这个概念{CLEAR}自己联想的吧？{CLEAR}你根本就没有见过蜜柑馆主,{CLEAR}更不可能从她那赢得钢铁徽章。{CLEAR}你的徽章大概是从烟墨市的{CLEAR}某个训练家那偷来的吧？",
+   "en": "{VAR:0103:0}: Jasmine uses{NEWLINE}Steel-type Pokémon, but she’s{CLEAR}actually very gentle and kind.{SCROLL}You probably made all that up{NEWLINE}from the idea of a Steel-type user.{CLEAR}You’ve never even met Jasmine, let{CLEAR}alone won the Mineral Badge from her.{SCROLL}You stole your Badges from some{NEWLINE}Trainer in Blackthorn City, didn’t you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "你、你胡说！{NEWLINE}蜜柑馆主明明就是{CLEAR}我说的那个样子！{CLEAR}我才不是什么徽章小偷！",
+   "en": "Y-you’re lying! Jasmine is exactly{NEWLINE}the way I said! I’m no Badge thief!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0103:0}『别再嘴硬瞎说了,{NEWLINE}快把徽章交出来！",
+   "en": "{VAR:0103:0}: Stop lying through your{NEWLINE}teeth and hand over those Badges!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "可恶,我好不容易搞到的7枚徽章,{NEWLINE}怎么可能轻易交给你！",
+   "en": "Dammit! The 7 Badges I worked{NEWLINE}so hard to get? No way I’m{CLEAR}just handing them over to you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "{VAR:0103:0}『就你这样的实力,{NEWLINE}别说8枚徽章了,{CLEAR}恐怕赢取1枚徽章都难吧。",
+   "en": "{VAR:0103:0}: With skills like yours, forget{NEWLINE}8 Badges. I doubt you could win even 1.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "呜呜呜……你这么厉害,{NEWLINE}你说是什么就是什么呗。",
+   "en": "*sob sob*... You’re so strong.{NEWLINE}Whatever you say goes, I guess.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0103:0}『承认了就好,{NEWLINE}现在把徽章交出来吧,{CLEAR}我要去还给烟墨市的那位训练家。",
+   "en": "{VAR:0103:0}: Good, you admit it. Now hand{NEWLINE}over the Badges. I’m taking them back{CLEAR}to that Trainer in Blackthorn City.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "哼,强盗,我给你就是。",
+   "en": "Hmph. Robber. Fine, take them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "好不容易集齐了8没徽章,{NEWLINE}这下倒好,只剩1个了。",
+   "en": "I finally collected 8 Badges, and{NEWLINE}now look. I’ve only got 1 left.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh typo 8没徽章 = 8枚徽章"
+  },
+  {
+   "id": 52,
+   "zh": "前面这位哥哥很厉害哦,{NEWLINE}他可是拥有8枚徽章的高级训练家！",
+   "en": "This guy’s really strong! He’s{NEWLINE}a Senior Trainer with 8 Badges!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "原来那个黄头发的大哥哥{NEWLINE}是个骗子啊,{CLEAR}好险啊,零用钱差点就被骗走了。",
+   "en": "So that blond guy was a con{NEWLINE}artist! That was close. He nearly{CLEAR}conned me out of my allowance.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "我要跟这个大哥哥学习精灵对战,{NEWLINE}成为高级训练家！{CLEAR}只是……我的零用钱花完了,{CLEAR}也不知道爸妈能不能再给我点。",
+   "en": "I’m going to learn Pokémon battling{NEWLINE}from this guy and become a Senior{CLEAR}Trainer! It’s just... I’ve spent{CLEAR}all my allowance, and I don’t know{CLEAR}if Mom and Dad will give me any more.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "通过这件事我得出一个结论,{NEWLINE}只要我没有钱,骗子就骗不到我。{CLEAR}不对……{CLEAR}我没有钱还有腰子呢,{CLEAR}要是去缅北、泰国那块的话,{CLEAR}就算没钱还可能被割腰子。{CLEAR}看来以后还得加强防骗意识啊！",
+   "en": "This taught me something:{NEWLINE}if I don’t have any money,{CLEAR}con artists can’t con me.{SCROLL}Wait, no... Even with no money,{NEWLINE}I’ve still got my kidneys. If I end{CLEAR}up in northern Myanmar or Thailand,{SCROLL}they could cut out my kidneys even if{NEWLINE}I’m broke. I guess I need to be even{CLEAR}more careful about scams from now on!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "dark joke about kidney-harvesting scam compounds in northern Myanmar kept (D-0627)"
+  },
+  {
+   "id": 56,
+   "zh": "能从烟墨市那边过来,{NEWLINE}说明你是一个很不简单的训练家。{CLEAR}正好我这里也有几只不错的水系精灵,{CLEAR}咱们来比试比试。",
+   "en": "If you came here from Blackthorn{NEWLINE}City, you must be one tough Trainer. I{CLEAR}happen to have some good Water-type{CLEAR}Pokémon. Let’s have a match.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "还是你更厉害啊。",
+   "en": "You’re better after all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "比起对战来,{NEWLINE}我还是更擅长钓鱼。",
+   "en": "I’m better at fishing{NEWLINE}than at battling.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "这条路很少有训练家会来,{NEWLINE}难得你从这儿经过,{CLEAR}陪我来场对战练习怎么样？",
+   "en": "Hardly any Trainers come this{NEWLINE}way. Since you’re passing by, how{CLEAR}about a practice battle with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "你习惯单打还是双打？",
+   "en": "Are you used to singles or doubles?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 62,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 63,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 64,
+   "zh": "好的,让你看看岩石系精灵的力量！",
+   "en": "All right, let me show you the{NEWLINE}power of Rock-type Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "哈哈哈,跟你对战很有意思,{NEWLINE}有时间的话再来找我玩啊。",
+   "en": "Hah hah hah! Battling you is fun.{NEWLINE}Come play again when you have time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "双打对战至少要携带两只精灵,{NEWLINE}你身上的精灵数量不够！",
+   "en": "A Double Battle needs{NEWLINE}at least two Pokémon. You{CLEAR}don’t have enough with you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "护城龙『Baaaa——si！",
+   "en": "Bastiodon: Baaaa-si!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "因为这一带人迹罕至,{NEWLINE}所以我在这里收养了很多{CLEAR}受到重伤无法自愈的野生精灵。{SCROLL}我目前正在为精灵们{NEWLINE}采集美味的野果,{CLEAR}而我的快龙正在河对岸{CLEAR}照看那些精灵。",
+   "en": "Hardly anyone comes around here,{NEWLINE}so I take in wild Pokémon that are{CLEAR}too badly hurt to heal on their own.{SCROLL}Right now I’m gathering tasty wild{NEWLINE}fruit for them, while my Dragonite{CLEAR}looks after them across the river.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "快龙『Draaa——gon！",
+   "en": "Dragonite: Draaa-gon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "咦？快龙的这个叫声！？",
+   "en": "Huh? That cry of Dragonite’s?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "这里的精灵卖相都很好啊,{NEWLINE}反正它们也不是你的精灵吧,{CLEAR}那你就别多管闲事了,{CLEAR}乖乖让开我要抓走它们拿去卖。",
+   "en": "These Pokémon here look like{NEWLINE}they’d sell nicely. They’re not{CLEAR}your Pokémon anyway, right? So{CLEAR}mind your own business and step{CLEAR}aside. I’m catching them to sell.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "那可不行,{NEWLINE}这里的精灵都受过重伤,{CLEAR}我决不能让你带走它们！",
+   "en": "No way. The Pokémon here have all been{NEWLINE}badly hurt. I won’t let you take them!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "多管闲事。{NEWLINE}猫鼬斩使用切裂{CLEAR}清除这个碍事的家伙！",
+   "en": "Busybody. Zangoose, use Slash and{NEWLINE}clear this pest out of the way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "猫鼬斩『Zaaa——go！",
+   "en": "Zangoose: Zaaa-go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "打不动快龙！？",
+   "en": "It can’t even dent Dragonite?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "快龙你冷静,控制好情绪啊！",
+   "en": "Dragonite, calm down! Get{NEWLINE}your temper under control!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "猫鼬斩『Zaaaa……",
+   "en": "Zangoose: Zaaaa...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "啊？这么厉害！？",
+   "en": "Huh? It’s that strong?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "啊哟喂！疼死我了！{NEWLINE}这快龙怎么这么暴躁！",
+   "en": "Ow-ow-ow! That hurts like crazy!{NEWLINE}Why is this Dragonite so vicious?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "别、别、别再打了,我不抓这里的精灵了！",
+   "en": "S-s-stop hitting me! I won’t{NEWLINE}catch the Pokémon here anymore!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "好了快龙,坏人已经走了,{NEWLINE}你冷静一下吧！",
+   "en": "OK, Dragonite, the bad guy’s gone.{NEWLINE}Calm down now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "啊……还是没法控制自己的情绪吗？",
+   "en": "Oh... You still can’t{NEWLINE}control your temper?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "你们快跑啊,一会儿快龙发起狂来,{NEWLINE}可能会伤害到你们的！",
+   "en": "Run, you two! When Dragonite goes{NEWLINE}berserk in a moment, it might hurt you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "{VAR:0103:0}『不必担心,我来帮你压制快龙。",
+   "en": "{VAR:0103:0}: Don’t worry. I’ll{NEWLINE}help you hold Dragonite down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "{VAR:0103:0}『你现在没有体力继续闹了吧？{NEWLINE}可以安静点了吗？",
+   "en": "{VAR:0103:0}: You don’t have the{NEWLINE}energy to keep rampaging now,{CLEAR}do you? Will you calm down?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "快龙『Draa……",
+   "en": "Dragonite: Draa...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "刚才的战斗不会错的,{NEWLINE}您是联盟冠军{VAR:0103:0}吧？{CLEAR}不愧是冠军大人,{CLEAR}居然能轻松压制我这只暴走的快龙。",
+   "en": "There’s no mistaking that battle.{NEWLINE}You’re the League Champion,{CLEAR}{VAR:0103:0}, aren’t you? As expected{CLEAR}of the Champion, holding down my{CLEAR}rampaging Dragonite with ease.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "{VAR:0103:0}『这只快龙不太听你的话啊,{NEWLINE}是你交换来的吗？",
+   "en": "{VAR:0103:0}: This Dragonite{NEWLINE}doesn’t listen to you very{CLEAR}well. Did you get it in a trade?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "不是的,刚才快龙使用了一招{NEWLINE}威力很大的龙系技能「逆鳞」。{CLEAR}这个技能有个副作用{CLEAR}就是会使使用者混乱。{CLEAR}我的快龙对技能的掌握还不够,{CLEAR}所以副作用的效果格外突出。",
+   "en": "No. Dragonite just used a very powerful{NEWLINE}Dragon-type move, Outrage. The move{CLEAR}has a side effect: it confuses the user.{SCROLL}My Dragonite hasn’t fully{NEWLINE}mastered the move yet, so the{CLEAR}side effect hits it especially hard.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "{VAR:0103:0}『原来如此。",
+   "en": "{VAR:0103:0}: I see.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "感谢冠军大人压制了快龙,{NEWLINE}不然让它大闹一番的话,{CLEAR}我和精灵们可能都会受伤。{CLEAR}我在这山野间生活{CLEAR}也没有什么拿得出手的谢礼,{CLEAR}唯有对逆鳞这个技能特别有研究,{CLEAR}如果冠军大人的精灵想学习逆鳞的话,{CLEAR}我随时可以教它们。{CLEAR}相信以冠军大人的水准,{CLEAR}一定能够用好这个技能。",
+   "en": "Thank you, Champion, for holding{NEWLINE}Dragonite down. If it had gone{CLEAR}on a rampage, the Pokémon and{CLEAR}I might all have been hurt.{SCROLL}Living out here in the wild, I don’t{NEWLINE}have much to offer as thanks. But{CLEAR}I’ve studied Outrage very closely.{SCROLL}If your Pokémon want to learn{NEWLINE}Outrage, Champion, I can teach them{CLEAR}anytime. At your level, I’m sure{CLEAR}you’ll put the move to good use.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "抱歉我得回去看看了。",
+   "en": "Sorry, I have to go{NEWLINE}back and check on them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "作为冠军大人帮我压制快龙的感谢,{NEWLINE}我可以将我对逆鳞这个技能的理解{CLEAR}教给您的精灵。{CLEAR}请问冠军大人现在有哪只精灵{CLEAR}需要学习逆鳞吗？",
+   "en": "As thanks for holding down my{NEWLINE}Dragonite, Champion, I can pass on{CLEAR}what I know about Outrage to your{CLEAR}Pokémon. Do any of your Pokémon{CLEAR}need to learn Outrage now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "想学的话随时欢迎来找我。",
+   "en": "If you want to learn it, you’re{NEWLINE}welcome to come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 96,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住逆鳞。{SCROLL}",
+   "en": "Sorry... This Pokémon{NEWLINE}can’t learn Outrage.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 98,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会逆鳞了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Outrage!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20}, 2{VAR:0201:20}, and{VAR:0201:20}... {VAR:0201:20}... Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl); qa-lints: unified with identical zh elsewhere (zh_variant)"
+  },
+  {
+   "id": 100,
+   "zh": "{VAR:0101:0}学会了逆鳞！",
+   "en": "{VAR:0101:0} learned Outrage!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "这样一来{NEWLINE}您的{VAR:0100:0}{CLEAR}已经学会逆鳞了！{SCROLL}相信以冠军大人的水准,{NEWLINE}一定能够用好这个技能。",
+   "en": "There! Your {VAR:0100:0}{NEWLINE}has learned Outrage!{SCROLL}At your level, Champion, I’m sure{NEWLINE}you’ll put the move to good use.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的逆鳞……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习逆鳞{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Outrage...!{SCROLL}But {VAR:0101:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a{NEWLINE}move to learn Outrage?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 104,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 105,
+   "zh": "你是要放弃{NEWLINE}让它记住逆鳞吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Outrage?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "蚊香蝌蚪『Pooo——li！",
+   "en": "Poliwag: Pooo-li!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "皮丘『Piii——chu！",
+   "en": "Pichu: Piii-chu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "毽子花『Skiii——plo！",
+   "en": "Skiploom: Skiii-plo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "惊角鹿『Staaa——ler！",
+   "en": "Stantler: Staaa-ler!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "你好啊路过的训练家,{NEWLINE}我这里有不少精灵进化用的道具,{CLEAR}你看有没有你需要的？{SCROLL}",
+   "en": "Hello there, passing Trainer! I’ve{NEWLINE}got lots of items for evolving{CLEAR}Pokémon. See anything you need?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 112,
+   "zh": "岩浆驱动器,5000元",
+   "en": "Magmarizer $5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 113,
+   "zh": "电力驱动器,5000元",
+   "en": "Electirizer $5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 114,
+   "zh": "不融冰,5000元",
+   "en": "Never-Melt Ice $5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 115,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 116,
+   "zh": "好嘞,这是您的东西,请拿好。",
+   "en": "There you go. Here’s your item.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "你身上就这么点钱,{NEWLINE}我的东西很难卖给你啊。",
+   "en": "With only that much money on you,{NEWLINE}I can’t really sell you anything.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "我这里随时都有货,{NEWLINE}需要的话再来找我啊。",
+   "en": "I’ve always got stock. If you{NEWLINE}need anything, come find me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

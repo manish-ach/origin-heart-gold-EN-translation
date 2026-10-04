@@ -1,0 +1,391 @@
+{
+ "narc": "a027",
+ "bank": 471,
+ "source": "work/extract/v4/a027/0471.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "富士老先生的家{NEWLINE}确实是这……{CLEAR}但他昨晚出去后就没有回来。{SCROLL}镇上的人也都说没有看到……",
+   "en": "Mr. Fuji does live here...{SCROLL}But he went out last night and never{NEWLINE}came back.{SCROLL}Nobody in town says they’ve seen him{NEWLINE}either...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "你好,这里是富士爷爷的精灵之家,{NEWLINE}是照顾被遗弃精灵的地方。{SCROLL}你要找富士爷爷的话恐怕得等等了,{NEWLINE}因为他昨天外出后就一直没回来。",
+   "en": "Hello. This is Mr. Fuji’s Pokémon House,{NEWLINE}where we look after abandoned Pokémon.{SCROLL}If you’re looking for Mr. Fuji, I’m{NEWLINE}afraid you’ll have to wait. He went out{CLEAR}yesterday and hasn’t come back since.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "溜溜糖球『Surs！",
+   "en": "Surskit: Surs!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "尼多娜『Ni——do！",
+   "en": "Nidorina: Ni-do!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "波波『Piii——ge！",
+   "en": "Pidgey: Piii-ge!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "可拉可拉『Cubo！",
+   "en": "Cubone: Cubo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "可拉可拉浑身颤抖。",
+   "en": "Cubone is trembling all over.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "可拉可拉攻击了{VAR:0103:0}！",
+   "en": "Cubone attacked {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "对不起啊,没有伤到你吧。{SCROLL}这只可拉可拉还是只小宝宝,{NEWLINE}因为母亲被火箭队杀害的关系{CLEAR}它现在对人类都不太信任,{CLEAR}只对救过它的富士爷爷亲近。",
+   "en": "I’m so sorry! You’re not hurt, are{NEWLINE}you?{SCROLL}This Cubone is still just a baby. Its{NEWLINE}mother was killed by Team Rocket...{SCROLL}So now it doesn’t trust people. It only{NEWLINE}feels close to Mr. Fuji, who saved it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0103:0}『被火箭队杀害？！",
+   "en": "{VAR:0103:0}: Killed by Team Rocket?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "前几天有一批自称火箭队的坏人{NEWLINE}来到了紫苑镇,{CLEAR}他们在这一带疯狂搜索着什么。{SCROLL}就是在那次事件中,{NEWLINE}可拉可拉的母亲为了保护可拉可拉{CLEAR}而被火箭队残忍地杀害了。",
+   "en": "A few days ago, a bunch of crooks{NEWLINE}calling themselves Team Rocket came to{CLEAR}Lavender Town. They searched high and{CLEAR}low around here for something.{SCROLL}That’s when Cubone’s mother was{NEWLINE}cruelly killed by Team Rocket while she{CLEAR}was protecting Cubone.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0103:0}『对生命毫不尊重,{NEWLINE}确实是火箭队的一贯作风……{SCROLL}{VAR:0103:0}『火箭队现在人呢？{NEWLINE}已经离开紫苑镇了吗？",
+   "en": "{VAR:0103:0}: No respect for life at all...{NEWLINE}That’s Team Rocket, all right...{SCROLL}{VAR:0103:0}: Where is Team Rocket now?{NEWLINE}Have they left Lavender Town?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#11/#12, #14/#15, #17/#18: player tone variants."
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}『火箭队这帮人{NEWLINE}简直无法无天了！{SCROLL}{VAR:0103:0}『他们现在在哪呢？{NEWLINE}已经离开紫苑镇了吗？",
+   "en": "{VAR:0103:0}: Team Rocket has gone{NEWLINE}completely lawless!{SCROLL}{VAR:0103:0}: Where are they now? Have they{NEWLINE}left Lavender Town?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "镇子上来了火箭队之后,{NEWLINE}富士爷爷就打电话联络了精灵联盟。{SCROLL}联盟准备派四天王之一的菊子女士{NEWLINE}来帮我们赶跑火箭队。{CLEAR}可是菊子还没来呢,{CLEAR}火箭队突然从镇上消失了。{SCROLL}镇子周围没有他们撤离的迹象,{NEWLINE}真的就这么凭空消失了。",
+   "en": "After Team Rocket showed up in town,{NEWLINE}Mr. Fuji phoned the Pokémon League.{SCROLL}The League was going to send Agatha of{NEWLINE}the Elite Four to help drive them out.{SCROLL}But before Agatha even arrived, Team{NEWLINE}Rocket suddenly vanished from town.{SCROLL}There was no sign they’d left the area.{NEWLINE}They just vanished into thin air.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}『说的跟灵异事件一样……",
+   "en": "{VAR:0103:0}: You make it sound like a ghost{NEWLINE}story...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0103:0}『你这说的,就跟灵异事件似的。",
+   "en": "{VAR:0103:0}: The way you tell it, it’s just{NEWLINE}like a ghost story.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "唉,镇子最近可邪门了,{NEWLINE}自从前天火箭队消失之后,{CLEAR}镇上的精灵之塔里{CLEAR}就频繁发生各种灵异事件。{SCROLL}镇上的人都说{NEWLINE}是精灵之塔里的鬼魂{CLEAR}把火箭队的人给吃了。{SCROLL}富士爷爷昨天外出之后{NEWLINE}也一直没有回来,{CLEAR}好让人担心啊……",
+   "en": "Sigh... Strange things have been going{NEWLINE}on in town lately.{SCROLL}Ever since Team Rocket vanished the day{NEWLINE}before yesterday...{SCROLL}...all sorts of ghostly things have been{NEWLINE}happening in Pokémon Tower.{SCROLL}People in town say the ghosts in the{NEWLINE}tower ate Team Rocket.{SCROLL}And Mr. Fuji hasn’t come back since he{NEWLINE}went out yesterday. I’m so worried...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}『你既然这么担心的话,{NEWLINE}我去精灵之塔帮你看看吧。",
+   "en": "{VAR:0103:0}: If you’re that worried, I’ll go{NEWLINE}check Pokémon Tower for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0}『难道说富士爷爷的消失{NEWLINE}跟精灵之塔有关系？{CLEAR}既然如此,我去帮你看看吧。",
+   "en": "{VAR:0103:0}: Could Mr. Fuji’s disappearance{NEWLINE}have something to do with Pokémon{CLEAR}Tower? In that case, I’ll go take a look{CLEAR}for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "谢谢你的好意,{NEWLINE}不过那座塔很危险的样子,{CLEAR}你千万不要勉强。",
+   "en": "Thank you, that’s very kind. But that{NEWLINE}tower seems dangerous. Please don’t{CLEAR}push yourself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "可拉可拉『Cubo……",
+   "en": "Cubone: Cubo...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "希望富士爷爷不要有事……",
+   "en": "I hope Mr. Fuji is all right...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0103:0}『最近怎么了吗？",
+   "en": "{VAR:0103:0}: What’s wrong lately?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "可拉可拉『Cubo……{SCROLL}可拉可拉好像在轻声哭泣。",
+   "en": "Cubone: Cubo...{SCROLL}Cubone seems to be crying softly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "我都听富士爷爷说了,{NEWLINE}多亏了你们才能赶跑火箭队,{CLEAR}你们真是太厉害了！",
+   "en": "Mr. Fuji told me everything.{SCROLL}You all drove Team Rocket away! You’re{NEWLINE}amazing!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "可拉可拉『Cubo！{SCROLL}可拉可拉好像很喜欢你。",
+   "en": "Cubone: Cubo!{SCROLL}Cubone seems to like you a lot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "富士老人『看到你们在塔顶{NEWLINE}与火箭队的战斗后,{CLEAR}我能感受到在你们三人中,{CLEAR}你与精灵之间有着特殊的羁绊。{SCROLL}富士老人『所以我想把这个托付给你。",
+   "en": "Mr. Fuji: When I watched the three of{NEWLINE}you battle Team Rocket at the top of{CLEAR}the tower...{SCROLL}...I could feel that you, of the three,{NEWLINE}share a special bond with Pokémon.{SCROLL}Mr. Fuji: That’s why I want to entrust{NEWLINE}this to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "富士老人『实不相瞒,{NEWLINE}火箭队出现在这里就是为了这块石头。{CLEAR}这是我以前与弟弟一起做研究时{CLEAR}发现的一块奇异石头,{CLEAR}它里面很可能蕴藏着{CLEAR}激发口袋妖怪潜能的神奇力量。{CLEAR}但是具体的使用方法现在还不知晓。{SCROLL}富士老人『我仔细思考过后觉得,{NEWLINE}凭着你与精灵之间的这种特殊羁绊{CLEAR}或许有朝一日{CLEAR}就能发现其中的奥秘也说不定。{SCROLL}富士老人『所以请带着它一起旅行吧,{NEWLINE}应该会对你有帮助的。",
+   "en": "Mr. Fuji: To tell you the truth, this{NEWLINE}stone is the very reason Team Rocket{CLEAR}came here.{SCROLL}My younger brother and I found this{NEWLINE}strange stone long ago, while we were{CLEAR}doing research together.{SCROLL}It may hold a mysterious power that can{NEWLINE}draw out a Pokémon’s hidden potential.{CLEAR}But how to use it is still unknown.{SCROLL}Mr. Fuji: After thinking it over, I{NEWLINE}believe that with the special bond you{CLEAR}share with Pokémon...{SCROLL}...perhaps one day you’ll uncover its{NEWLINE}secret.{SCROLL}Mr. Fuji: So please, take it with you on{NEWLINE}your travels. It should help you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "富士老人 → Mr. Fuji (label ‘Mr. Fuji:’); his younger brother is Dr. Fuji (富士博士, 0316 #117)."
+  },
+  {
+   "id": 28,
+   "zh": "可拉可拉『Cubo……{SCROLL}可拉可拉好像有点精神了。",
+   "en": "Cubone: Cubo...{SCROLL}Cubone seems to have perked up a{NEWLINE}little.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "刚刚可拉可拉自己回来了,{NEWLINE}精神状态看起来好了不少。{CLEAR}是出去的时候遇到了什么事吗……",
+   "en": "Cubone just came back on its own. It{NEWLINE}seems to be in much better spirits. Did{CLEAR}something happen while it was out...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "富士老人『我和弟弟都是{NEWLINE}口袋妖怪基因学的专家。{CLEAR}弟弟他原本有个非常可爱的女儿,{CLEAR}名字叫做小爱。{CLEAR}遗憾的是小爱在5岁时{CLEAR}因为一场意外而不幸去世。{CLEAR}我弟弟出于对小爱的思念,{CLEAR}就想用基因技术将小爱「复活」过来。{SCROLL}富士老人『让死人复生,{NEWLINE}这种想法太过疯狂,{CLEAR}所有一起做研究的同事{CLEAR}都不支持他的想法,{CLEAR}之后我弟弟就负气出走{CLEAR}从此再无音信。{SCROLL}富士老人『想不到这么多年过去了,{NEWLINE}他居然跟火箭队勾结在一起,{CLEAR}但愿他不要为火箭队{CLEAR}做什么可怕的研究吧。",
+   "en": "Mr. Fuji: My younger brother and I were{NEWLINE}both experts in Pokémon genetics.{SCROLL}My brother had a lovely daughter named{NEWLINE}Amber. Sadly, Amber died in an accident{CLEAR}when she was 5.{SCROLL}Missing her terribly, my brother wanted{NEWLINE}to use genetic technology to bring{CLEAR}Amber back to life.{SCROLL}Mr. Fuji: Bringing back the dead... The{NEWLINE}idea was too insane.{SCROLL}None of our fellow researchers would{NEWLINE}support him. He left in anger, and we{CLEAR}never heard from him again.{SCROLL}Mr. Fuji: I never imagined that after all{NEWLINE}these years, he’d end up working with{CLEAR}Team Rocket.{SCROLL}I only hope he isn’t doing some terrible{NEWLINE}research for them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "小爱 → Amber (Dr. Fuji’s daughter, official English name from Mewtwo Returns / The Origin of Mewtwo)."
+  },
+  {
+   "id": 31,
+   "zh": "富士老人『听说你打倒了{NEWLINE}火箭队的首领坂木！{CLEAR}真是英雄出少年啊。",
+   "en": "Mr. Fuji: I heard you defeated Giovanni,{NEWLINE}the boss of Team Rocket! Truly, heroes{CLEAR}are born young.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "果然照顾精灵{NEWLINE}还得看富士老先生的啊,{CLEAR}他回来之后这里的精灵都乖多了。",
+   "en": "When it comes to caring for Pokémon,{NEWLINE}nobody beats Mr. Fuji. The Pokémon here{CLEAR}have been so much better behaved since{CLEAR}he came back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "富士老人『谢谢你们的出手相救,{NEWLINE}这个小纪念品请你收下。",
+   "en": "Mr. Fuji: Thank you all for coming to my{NEWLINE}rescue.{SCROLL}Please accept this small memento.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "富士老人『这是我做的手工艺品,{NEWLINE}不过也有一些实际用途。{CLEAR}比如吹响它的话,{CLEAR}会让沉睡的精灵清醒过来。",
+   "en": "Mr. Fuji: It’s something I made by hand,{NEWLINE}but it has its uses too.{SCROLL}For example, playing it will wake up{NEWLINE}sleeping Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "可拉可拉『Cubo！{SCROLL}可拉可拉嗅了嗅你身上的味道。",
+   "en": "Cubone: Cubo!{SCROLL}Cubone sniffed you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "可拉可拉『Cubo！{SCROLL}可拉可拉趴在{VAR:0103:0}身上{NEWLINE}轻轻哭泣。",
+   "en": "Cubone: Cubo!{SCROLL}Cubone clung to {VAR:0103:0} and cried{NEWLINE}softly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "我还是第一次见到可拉可拉{NEWLINE}对富士爷爷以外的人产生亲近感。{CLEAR}莫非是你身上有它熟悉的味道？{CLEAR}请问你最近去过哪里呢？{CLEAR}有见过富士爷爷吗？",
+   "en": "This is the first time I’ve seen Cubone{NEWLINE}warm up to anyone other than Mr. Fuji.{SCROLL}Could it be that you smell like someone{NEWLINE}it knows? Where have you been lately?{CLEAR}Have you seen Mr. Fuji?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "{VAR:0103:0}『我最近去过一趟{NEWLINE}镇上的精灵之塔,{CLEAR}但并没有见过你说的富士爷爷。",
+   "en": "{VAR:0103:0}: I went to Pokémon Tower{NEWLINE}recently, but I didn’t see any Mr. Fuji.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "这样啊……",
+   "en": "I see...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "可拉可拉……这是怎么了啊……",
+   "en": "Cubone... What’s gotten into you...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "那个……实在不好意思。{NEWLINE}可拉可拉就这样突然跑出去{CLEAR}万一遇到什么事就不好了。{CLEAR}我因为要照顾精灵之家的口袋妖怪们,{CLEAR}所以没办法走开。{CLEAR}拜托你把可拉可拉找回来吧！",
+   "en": "Um... I’m really sorry to ask. Cubone{NEWLINE}just ran off like that, and I’m afraid{CLEAR}something might happen to it.{SCROLL}I have to look after the Pokémon here{NEWLINE}at the Pokémon House, so I can’t leave.{SCROLL}Please, could you find Cubone and bring{NEWLINE}it back?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "咦？可拉可拉对你的态度{NEWLINE}好像不太一样了,{CLEAR}莫非是你身上有它熟悉的味道？{CLEAR}请问你最近去过哪里呢？{CLEAR}有见过富士爷爷吗？",
+   "en": "Huh? Cubone’s acting differently toward{NEWLINE}you. Could it be that you smell like{CLEAR}someone it knows?{SCROLL}Where have you been lately? Have you{NEWLINE}seen Mr. Fuji?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "富士老人『哦？自从可拉可拉{NEWLINE}离开母亲之后,{CLEAR}还是第一次对我以外的人{CLEAR}产生这么强的亲近之情。{CLEAR}它好像非常喜欢你啊！{SCROLL}富士老人『正好你也在各地旅行,{NEWLINE}要带上它一起出去走走吗？{SCROLL}",
+   "en": "Mr. Fuji: Oh? This is the first time since{NEWLINE}Cubone lost its mother that it’s grown{CLEAR}this attached to anyone besides me.{SCROLL}It seems to like you very much!{SCROLL}Mr. Fuji: You travel all over, don’t{NEWLINE}you?{SCROLL}Would you like to take it along with you?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "队伍满了,没有可拉可拉的位置！",
+   "en": "Your party is full! There’s no room for{NEWLINE}Cubone!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "昵称叫{VAR:0101:1}{NEWLINE}可以吗？{VAR:0200:0}",
+   "en": "Is {VAR:0101:1} the nickname you want to{NEWLINE}give?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 4 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 46,
+   "zh": "可拉可拉加入了队伍！",
+   "en": "Cubone joined your party!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "要给可拉可拉起昵称吗？{VAR:0200:0}",
+   "en": "Give a nickname to Cubone?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

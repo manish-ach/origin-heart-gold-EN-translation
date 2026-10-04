@@ -1,0 +1,183 @@
+{
+ "narc": "a027",
+ "bank": 660,
+ "source": "work/extract/v4/a027/0660.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "千里",
+   "en": "Tiffany",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl); caller is Picnicker Tiffany (US 0669); 千里 here is the Japanese name Chisato, not Norman (0719 #228/#266 千里 → Norman)"
+  },
+  {
+   "id": 1,
+   "zh": "你也喜欢皮皮吗？{SCROLL}皮皮非常可爱吧。{SCROLL}我们好像很合得来啊！{NEWLINE}我们做个朋友怎么样？{CLEAR}方便的话把你的电话号码{CLEAR}告诉给我好吗？{SCROLL}我们聊些关于皮皮的话题吧！{VAR:0200:0}",
+   "en": "Hi! You like Clefairy, too?{NEWLINE}They’re so very cute, aren’t they?{SCROLL}I think we can be good friends!{NEWLINE}I want to know your phone number!{SCROLL}Let’s talk about Clefairy! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0669/1; modernised from US 0669#1"
+  },
+  {
+   "id": 2,
+   "zh": "我的小皮皮{NEWLINE}非常可爱吧。",
+   "en": "Isn’t my Clefairy super adorable?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0669/2; modernised from US 0669#2"
+  },
+  {
+   "id": 3,
+   "zh": "好遗憾啊⋯⋯{SCROLL}不过你要还想聊关于{NEWLINE}皮皮的话题的话,{CLEAR}就再来找我吧！",
+   "en": "Aww... Oh well. Look for me if you want{NEWLINE}to talk about Clefairy.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0669/3; modernised from US 0669#3"
+  },
+  {
+   "id": 4,
+   "zh": "如果你方便的话{NEWLINE}能把电话号码告诉我吗？{SCROLL}聊聊关于皮皮的话题吧！{VAR:0200:0}",
+   "en": "Won’t you give me your number?{NEWLINE}Let’s talk about Clefairy! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0669/4; modernised from US 0669#4"
+  },
+  {
+   "id": 5,
+   "zh": "你来了啊！{NEWLINE}这个送给你,{CLEAR}皮皮玩偶！{SCROLL}",
+   "en": "Oh, there you are! Here,{NEWLINE}this is for you. A Poké Doll!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0669/5; modernised from US 0669#5"
+  },
+  {
+   "id": 6,
+   "zh": "我说⋯⋯{NEWLINE}难道找我聊天很困难吗？{SCROLL}虽然打电话也可以,{NEWLINE}不过你都来这么近了,{CLEAR}干嘛不直接找我聊啊。",
+   "en": "Um... Well...{NEWLINE}Is it that difficult to talk to me?{SCROLL}I mean, by phone is all right, but if{NEWLINE}we’re this close, you don’t have to{CLEAR}stay away.{CLEAR}You can just come talk to me.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0669/6"
+  },
+  {
+   "id": 7,
+   "zh": "啊,{VAR:010E:4},不好了！{NEWLINE}我的皮皮⋯⋯{CLEAR}哎？{CLEAR}你是{VAR:0103:0}？{SCROLL}抱、抱歉！{NEWLINE}刚才拨太快,打错了！{SCROLL}不好意思啊,再见！",
+   "en": "{VAR:010E:4}, it’s awful! My{NEWLINE}Clefairy... Huh? This is {VAR:0103:0}?{SCROLL}S-sorry! I dialed too fast{NEWLINE}and got the wrong number!{SCROLL}So sorry! Bye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0669/7; modernised from US 0669#7"
+  },
+  {
+   "id": 8,
+   "zh": "啊,{VAR:010E:4},不好了！{NEWLINE}我的皮皮⋯⋯{CLEAR}哎？{CLEAR}你是{VAR:0103:0}？{SCROLL}抱、抱歉！{NEWLINE}刚才拨太快,打错了！{SCROLL}不好意思啊,再见！",
+   "en": "{VAR:010E:4}, it’s awful! My{NEWLINE}Clefairy... Huh? This is {VAR:0103:0}?{SCROLL}S-sorry! I dialed too fast{NEWLINE}and got the wrong number!{SCROLL}So sorry! Bye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0669/8; modernised from US 0669#8"
+  },
+  {
+   "id": 9,
+   "zh": "你是不是觉得{NEWLINE}我的{VAR:0100:10}很可爱啊？{SCROLL}我们一直睡在一起,{NEWLINE}软绵绵的,好暖和！{SCROLL}还有,{NEWLINE}前段时间我和{VAR:0100:11}{CLEAR}大战了一场⋯⋯{SCROLL}结果我的小皮皮{NEWLINE}差一点就挂掉了！{SCROLL}太过分了！{NEWLINE}{VAR:0100:11}什么的,人家最讨厌了！{SCROLL}这次就聊这些了,拜拜！",
+   "en": "My {VAR:0100:10}’s adorable, don’t you{NEWLINE}think so?{SCROLL}I always sleep next to it--it’s so{NEWLINE}fluffy and warm!{SCROLL}Oh, and we had to battle a wild{NEWLINE}{VAR:0100:11} a while ago...{SCROLL}My Clefairy came close to fainting!{NEWLINE}Isn’t that awful?{SCROLL}I hate those nasty {VAR:0100:11}!{NEWLINE}Bye-bye!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0669/9; modernised from US 0669#9"
+  },
+  {
+   "id": 10,
+   "zh": "你是不是觉得{NEWLINE}我的{VAR:0100:10}很可爱啊？{SCROLL}我们一直睡在一起,{NEWLINE}软绵绵的,好暖和！{SCROLL}还有,{NEWLINE}前段时间我和{VAR:0100:11}{CLEAR}大战了一场⋯⋯{SCROLL}结果小皮皮畏战了,{NEWLINE}一溜烟逃了！{SCROLL}今后我一定要{NEWLINE}好好保护我的小皮皮,{SCROLL}再见！",
+   "en": "My {VAR:0100:10}’s adorable, don’t you{NEWLINE}think so?{SCROLL}I always sleep next to it--it’s so{NEWLINE}fluffy and warm!{SCROLL}Oh, and we had to battle a wild{NEWLINE}{VAR:0100:11} a while ago...{SCROLL}My Clefairy got frightened, so we ran{NEWLINE}away as fast as we could!{SCROLL}I just can’t help feeling protective of{NEWLINE}my Clefairy.{SCROLL}Bye-bye!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0669/10; modernised from US 0669#10"
+  },
+  {
+   "id": 11,
+   "zh": "虽然很唐突⋯⋯{NEWLINE}不过我想来一场精灵对战。{SCROLL}我在{VAR:0104:3}{NEWLINE}和小皮皮一起等你。",
+   "en": "I know this might surprise you, but{NEWLINE}would you like to battle?{SCROLL}I’ll be waiting with Clefairy on{NEWLINE}{VAR:0104:3}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0669/11; modernised from US 0669#11"
+  },
+  {
+   "id": 12,
+   "zh": "你怎么了？怎么还没来？{SCROLL}小皮皮都已经{NEWLINE}等得睡过去了。{CLEAR}不知道对战的时候会不会醒⋯⋯{SCROLL}我们在{VAR:0104:3},{NEWLINE}快来啊！",
+   "en": "What’s wrong? Can’t you visit?{SCROLL}Clefairy got tired and fell asleep.{NEWLINE}I’m not sure if I can wake it up...{SCROLL}Please hurry to {VAR:0104:3}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0669/12; modernised from US 0669#12"
+  },
+  {
+   "id": 13,
+   "zh": "人家最喜欢把小皮皮{NEWLINE}打扮得漂漂亮亮的了！",
+   "en": "I love dressing up my Clefairy!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0669/13; modernised from US 0669#13"
+  },
+  {
+   "id": 14,
+   "zh": "之前我在满金市百货商店{NEWLINE}看到一个非常非常可爱的{CLEAR}皮皮玩偶。{CLEAR}我想把它送给你,{SCROLL}我在{VAR:0104:3},{NEWLINE}有空了就来拿吧。",
+   "en": "I saw a super-cute Poké Doll at the{NEWLINE}Goldenrod Dept. Store the other{CLEAR}day. I want to give it to you!{SCROLL}I’m at {VAR:0104:3}.{NEWLINE}Come get it when you’re free.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0669/14"
+  },
+  {
+   "id": 15,
+   "zh": "你怎么了？怎么还没来？{NEWLINE}皮皮玩偶可是很可爱的！{SCROLL}我在{VAR:0104:3},{NEWLINE}快点来吧！",
+   "en": "What’s wrong? Can’t you visit?{SCROLL}This Poké Doll is so cute, too!{NEWLINE}Please hurry to {VAR:0104:3}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0669/15"
+  },
+  {
+   "id": 16,
+   "zh": "爷爷",
+   "en": "Grandpa",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0669/16"
+  },
+  {
+   "id": 17,
+   "zh": "奶奶",
+   "en": "Grandma",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0669/17"
+  },
+  {
+   "id": 18,
+   "zh": "妈妈",
+   "en": "Mom",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0669/18"
+  },
+  {
+   "id": 19,
+   "zh": "爸爸",
+   "en": "Dad",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0669/19"
+  },
+  {
+   "id": 20,
+   "zh": "姐姐",
+   "en": "Sis",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0669/20"
+  },
+  {
+   "id": 21,
+   "zh": "哥哥",
+   "en": "Bro",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0669/21"
+  }
+ ]
+}

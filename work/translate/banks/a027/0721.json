@@ -1,0 +1,319 @@
+{
+ "narc": "a027",
+ "bank": 721,
+ "source": "work/extract/v4/a027/0721.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "你好！{SCROLL}这是长寿市电视台的专访！{SCROLL}可以请你讲几句吗？{VAR:0200:0}",
+   "en": "Hello!{SCROLL}This is a special interview for Jubilife{NEWLINE}TV!{SCROLL}Could you say a few words for us? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: Leftover DP TV interviewer (长寿市电视台 = Jubilife TV); US HGSS blanks this bank, probably never shown."
+  },
+  {
+   "id": 1,
+   "zh": "哎呀,这可太遗憾了。{NEWLINE}那么下次{CLEAR}还请多多关照！",
+   "en": "Oh, what a shame. Well, we hope you’ll{NEWLINE}help us out next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "谢谢你接受采访！{SCROLL}这次专访的内容会在{NEWLINE}电视节目上{CLEAR}播出,{CLEAR}到时请看电视吧！",
+   "en": "Thank you for the interview!{SCROLL}It’ll air on a TV show, so be sure to{NEWLINE}tune in!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "デバッグデータ",
+   "en": "Debug data",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: zh is Japanese デバッグデータ (debug data); English written plainly."
+  },
+  {
+   "id": 4,
+   "zh": "谢谢了！{NEWLINE}那么马上进入正题吧⋯⋯{SCROLL}在战斗塔的挑战辛苦了！{SCROLL}能简单地说一下现在的心情吗？{SCROLL}",
+   "en": "Thanks! Now, straight to the point...{SCROLL}Great work on your Battle Tower{NEWLINE}challenge!{SCROLL}Could you briefly tell us how you feel{NEWLINE}right now?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "デバッグデータ",
+   "en": "Debug data",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "谢谢！{NEWLINE}那么马上进入正题吧⋯⋯{SCROLL}那只{VAR:0100:0}感觉不错嘛！{SCROLL}简单说说你的{VAR:0100:0}吧！{SCROLL}",
+   "en": "Thanks! Now, straight to the point...{SCROLL}That {VAR:0100:0} looks great!{SCROLL}Tell us a little about your {VAR:0100:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "デバッグデータ",
+   "en": "Debug data",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "谢谢！{NEWLINE}那么马上进入正题吧⋯⋯{SCROLL}你现在使用的手机插件{CLEAR}能给我看看吗？{SCROLL}是{VAR:0118:0}吗,{NEWLINE}原来如此！{SCROLL}那么,简单说说你的{VAR:0118:0}吧！{SCROLL}",
+   "en": "Thanks! Now, straight to the point...{SCROLL}Could you show me the Pokétch app{NEWLINE}you’re using?{SCROLL}The {VAR:0118:0}? I see!{SCROLL}Then tell us a little about your{NEWLINE}{VAR:0118:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: 手机插件 = Pokétch app; {VAR:0118:0} = app name."
+  },
+  {
+   "id": 9,
+   "zh": "谢谢！{NEWLINE}那么马上进入正题吧⋯⋯{SCROLL}刚才的选美竞赛挑战辛苦了！{SCROLL}请简单谈谈现在的心情！{SCROLL}",
+   "en": "Thanks! Now, straight to the point...{SCROLL}Great job in the Super Contest just{NEWLINE}now!{SCROLL}Tell us briefly how you feel right now!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "デバッグデータ",
+   "en": "Debug data",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "谢谢！{NEWLINE}那么马上进入正题吧⋯⋯{SCROLL}关于照片说两句吧！{SCROLL}",
+   "en": "Thanks! Now, straight to the point...{SCROLL}Tell us a little about the photo!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "谢谢！{NEWLINE}那么马上进入正题吧⋯⋯{SCROLL}请从中选择{CLEAR}你喜欢的精灵的类型吧！{SCROLL}",
+   "en": "Thanks! Now, straight to the point...{SCROLL}Please pick your favorite Pokémon type{NEWLINE}from these!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "谢谢！{NEWLINE}那么马上进入正题吧⋯⋯{SCROLL}制造完松饼{CLEAR}现在你的心情如何！{SCROLL}",
+   "en": "Thanks! Now, straight to the point...{SCROLL}How do you feel now that you’ve finished{NEWLINE}making Poffins?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: 松饼 = Poffins (DP)."
+  },
+  {
+   "id": 14,
+   "zh": "デバッグデータ",
+   "en": "Debug data",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "谢谢！{NEWLINE}那么马上进入正题吧⋯⋯{SCROLL}请简单说说{CLEAR}你和{VAR:0100:0}散步后的心情！{SCROLL}",
+   "en": "Thanks! Now, straight to the point...{SCROLL}Tell us briefly how you felt after your{NEWLINE}walk with {VAR:0100:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "谢谢！{NEWLINE}那么马上进入正题吧⋯⋯{SCROLL}和你一起战斗的{VAR:0100:0}{CLEAR}现在是什么心情呢？{SCROLL}作为训练师你怎么看？{NEWLINE}能简单地告诉我吗！{SCROLL}",
+   "en": "Thanks! Now, straight to the point...{SCROLL}How do you think {VAR:0100:0} feels after{NEWLINE}battling alongside you?{SCROLL}What do you think, as its Trainer? Tell{NEWLINE}me briefly!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "谢谢！{NEWLINE}那么马上进入正题吧⋯⋯{SCROLL}如果你成为了道馆馆主{CLEAR}你会给道馆取什么名字呢？{SCROLL}",
+   "en": "Thanks! Now, straight to the point...{SCROLL}If you became a Gym Leader, what would{NEWLINE}you name your Gym?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "谢谢！{NEWLINE}那么马上进入正题吧⋯⋯{SCROLL}如果把你的母亲比作精灵,{CLEAR}你希望她成为什么样的精灵呢？{SCROLL}",
+   "en": "Thanks! Now, straight to the point...{SCROLL}If your mom were a Pokémon, what kind{NEWLINE}of Pokémon would you want her to be?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "谢谢！{NEWLINE}那么马上进入正题吧⋯⋯{SCROLL}能告诉我你人生中{CLEAR}第三重要的东西是什么吗？{SCROLL}",
+   "en": "Thanks! Now, straight to the point...{SCROLL}Could you tell me the third most{NEWLINE}important thing in your life?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "谢谢！{NEWLINE}那么马上进入正题吧⋯⋯{SCROLL}提问！你睡懒觉了{NEWLINE}慌慌张张地往前跑{SCROLL}在拐角处和某人相撞了,{CLEAR}你觉得那会是谁呢？{SCROLL}",
+   "en": "Thanks! Now, straight to the point...{SCROLL}Question! You overslept and you’re{NEWLINE}dashing out in a panic...{SCROLL}You crash into someone at a corner. Who{NEWLINE}do you think it is?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "谢谢！{NEWLINE}那么马上进入正题吧⋯⋯{SCROLL}你对在多人战中一起战斗过的{NEWLINE}{VAR:0103:0}{CLEAR}是什么印象呢？{CLEAR}请简单谈一谈！{SCROLL}",
+   "en": "Thanks! Now, straight to the point...{SCROLL}What did you think of {VAR:0103:0}, your{NEWLINE}Multi Battle partner? Tell us briefly!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "普通",
+   "en": "Normal",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 6 source(s)"
+  },
+  {
+   "id": 23,
+   "zh": "火",
+   "en": "Fire",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s)"
+  },
+  {
+   "id": 24,
+   "zh": "水",
+   "en": "Water",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s)"
+  },
+  {
+   "id": 25,
+   "zh": "电",
+   "en": "Electric",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 26,
+   "zh": "草",
+   "en": "Grass",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s)"
+  },
+  {
+   "id": 27,
+   "zh": "冰",
+   "en": "Ice",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 28,
+   "zh": "格斗",
+   "en": "Fighting",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 29,
+   "zh": "毒",
+   "en": "Poison",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 30,
+   "zh": "地面",
+   "en": "Ground",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 31,
+   "zh": "飞行",
+   "en": "Flying",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 32,
+   "zh": "超能",
+   "en": "Psychic",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 33,
+   "zh": "虫",
+   "en": "Bug",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 34,
+   "zh": "岩石",
+   "en": "Rock",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "鬼",
+   "en": "Ghost",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 36,
+   "zh": "龙",
+   "en": "Dragon",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 37,
+   "zh": "恶",
+   "en": "Dark",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 38,
+   "zh": "钢",
+   "en": "Steel",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  }
+ ]
+}

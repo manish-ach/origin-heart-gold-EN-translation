@@ -1,0 +1,607 @@
+{
+ "narc": "a027",
+ "bank": 161,
+ "source": "work/extract/v4/a027/0161.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "みれません",
+   "en": "Can’t be seen",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 1,
+   "zh": "とじる",
+   "en": "Close",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 2,
+   "zh": "タウンマップ",
+   "en": "Town Map",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 3,
+   "zh": "ポケギア",
+   "en": "Pokégear",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 4,
+   "zh": "ポケギアTEL",
+   "en": "Pokégear Phone",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 5,
+   "zh": "そらをとぶ",
+   "en": "Fly",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 6,
+   "zh": "タウンマップ",
+   "en": "Town Map",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 7,
+   "zh": "PGアプリ0",
+   "en": "PG App 0",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 8,
+   "zh": "PGマップ",
+   "en": "PG Map",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 9,
+   "zh": "PGラジオ",
+   "en": "PG Radio",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 10,
+   "zh": "マップLv0",
+   "en": "Map Lv0",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 11,
+   "zh": "マップLv1",
+   "en": "Map Lv1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 12,
+   "zh": "マップLv2",
+   "en": "Map Lv2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 13,
+   "zh": "メール",
+   "en": "Mail",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 14,
+   "zh": "さくせい",
+   "en": "Create",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 15,
+   "zh": "みる",
+   "en": "Look",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 16,
+   "zh": "でんわちょう",
+   "en": "Phone book",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 17,
+   "zh": "とうろく＋",
+   "en": "♡Register One",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 18,
+   "zh": "とうろくAll",
+   "en": "♡Register All",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 19,
+   "zh": "よやくテスト",
+   "en": "Reservation test",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 20,
+   "zh": "ぜんぶけす",
+   "en": "Delete all",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 21,
+   "zh": "サファリ",
+   "en": "Safari",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 22,
+   "zh": "レイアウト",
+   "en": "Layout",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 23,
+   "zh": "OBJレイアウト",
+   "en": "OBJ Layout",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 24,
+   "zh": "パラメータＭ",
+   "en": "Parameter M",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 25,
+   "zh": "パラメータＦ",
+   "en": "Parameter F",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 26,
+   "zh": "アプリ",
+   "en": "Apps",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 27,
+   "zh": "Ｆノート",
+   "en": "F Notebook",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 28,
+   "zh": "Tてちょう",
+   "en": "T Notebook",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 29,
+   "zh": "Rコーナー",
+   "en": "R Corner",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 30,
+   "zh": "Kプランター",
+   "en": "K Planter",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 31,
+   "zh": "イメージクリップ",
+   "en": "Image Clip",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 32,
+   "zh": "IC nrm",
+   "en": "IC nrm",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "IC 1st",
+   "en": "IC 1st",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "しゃしんとる",
+   "en": "Take photo",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 35,
+   "zh": "しゃしんFULL",
+   "en": "♡Photos FULL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 36,
+   "zh": "しゃしんAけす",
+   "en": "Delete photo A",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 37,
+   "zh": "とうだいデモ",
+   "en": "Lighthouse demo",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 38,
+   "zh": "ぼんぐり",
+   "en": "Apricorns",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 39,
+   "zh": "ノーマル",
+   "en": "Normal",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 40,
+   "zh": "ポットモード",
+   "en": "Pot mode",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 41,
+   "zh": "ボールモード",
+   "en": "Ball mode",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 42,
+   "zh": "ポット1st",
+   "en": "Pot 1st",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 43,
+   "zh": "ぼんぐりMax",
+   "en": "Apricorns Max",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 44,
+   "zh": "ぼんぐりから",
+   "en": "Apricorns empty",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 45,
+   "zh": "ジュースクリア",
+   "en": "Clear juice",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 46,
+   "zh": "つうしんジュースクリア",
+   "en": "Clear link juice",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 47,
+   "zh": "アンノーン",
+   "en": "Unown",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 48,
+   "zh": "パズル1",
+   "en": "Puzzle 1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 49,
+   "zh": "パズル2",
+   "en": "Puzzle 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 50,
+   "zh": "パズル3",
+   "en": "Puzzle 3",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 51,
+   "zh": "パズル4",
+   "en": "Puzzle 4",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 52,
+   "zh": "Ａノート",
+   "en": "A Notebook",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 53,
+   "zh": "スロット",
+   "en": "Slot",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 54,
+   "zh": "スロット０",
+   "en": "Slot 0",
+   "status": "reviewed",
+   "origin": "agent",
+   "notes": "debug menu, unused; US text [User-approved warning review 2026-10-04; exact proposal applied.]"
+  },
+  {
+   "id": 55,
+   "zh": "スロット１",
+   "en": "Slot 1",
+   "status": "reviewed",
+   "origin": "agent",
+   "notes": "debug menu, unused; US text [User-approved warning review 2026-10-04; exact proposal applied.]"
+  },
+  {
+   "id": 56,
+   "zh": "スロット２",
+   "en": "Slot 2",
+   "status": "reviewed",
+   "origin": "agent",
+   "notes": "debug menu, unused; US text [User-approved warning review 2026-10-04; exact proposal applied.]"
+  },
+  {
+   "id": 57,
+   "zh": "スロット３",
+   "en": "Slot 3",
+   "status": "reviewed",
+   "origin": "agent",
+   "notes": "debug menu, unused; US text [User-approved warning review 2026-10-04; exact proposal applied.]"
+  },
+  {
+   "id": 58,
+   "zh": "カプセル PC",
+   "en": "♡Ball Capsules",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 59,
+   "zh": "カプセルフル",
+   "en": "♡Ball Capsules (full)",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 60,
+   "zh": "カプセルすこし",
+   "en": "♡Ball Capsules (fewer)",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 61,
+   "zh": "カプセルクリア",
+   "en": "♡Ball Capsules (none)",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 62,
+   "zh": "デモ",
+   "en": "Demo",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 63,
+   "zh": "たまごデモN",
+   "en": "Egg demo N",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 64,
+   "zh": "たまごデモM",
+   "en": "Egg demo M",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 65,
+   "zh": "バトルタワー",
+   "en": "Battle Tower",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 66,
+   "zh": "ランダムどうき",
+   "en": "synchronize random seeds",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 67,
+   "zh": "ルームＦクリア",
+   "en": "Clear Room F",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 68,
+   "zh": "ギネスいっぱい",
+   "en": "Max Records",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 69,
+   "zh": "wifiダミーデータ",
+   "en": "wifi dummy data",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 70,
+   "zh": "BP500",
+   "en": "BP500",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "BP9998",
+   "en": "BP9998",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "Map.{VAR:0132:0}　Lv.{VAR:0133:1}　くさ　{VAR:0133:2}こ：{VAR:0134:3},　き　{VAR:0133:4}こ：{VAR:0134:5}{NEWLINE}　いわ　{VAR:0133:6}こ：{VAR:0134:7},　みず　{VAR:0133:8}こ：{VAR:0134:9}",
+   "en": "Map.{VAR:0132:0}　Lv.{VAR:0133:1}　Grass　{VAR:0133:2}x: {VAR:0134:3},　Tree　{VAR:0133:4}x: {VAR:0134:5}{NEWLINE}　Rock　{VAR:0133:6}x: {VAR:0134:7},　Water　{VAR:0133:8}x: {VAR:0134:9}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 73,
+   "zh": "そのた",
+   "en": "Other",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 74,
+   "zh": "トレーナーハウスクリア",
+   "en": "Clear Trainer House",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  }
+ ]
+}

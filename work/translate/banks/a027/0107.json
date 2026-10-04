@@ -1,0 +1,431 @@
+{
+ "narc": "a027",
+ "bank": 107,
+ "source": "work/extract/v4/a027/0107.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "欢迎来到战斗城堡！{SCROLL}在这里向您介绍单人玩的{NEWLINE}单人战和双打！{SCROLL}",
+   "en": "Welcome to the Battle Castle!{SCROLL}I am your guide to the Single and{NEWLINE}Double Battle challenges.{SCROLL}Please be aware that these challenges{NEWLINE}are designed for a single Trainer.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/0"
+  },
+  {
+   "id": 1,
+   "zh": "要挑战哪一个呢？{VAR:0200:0}",
+   "en": "Which challenge would you{NEWLINE}like to take? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/1"
+  },
+  {
+   "id": 2,
+   "zh": "在这个战斗城堡里{NEWLINE}灵活使用城堡点数,{CLEAR}看看能够撑到什么地步。{CLEAR}城堡点数⋯⋯{SCROLL}也就是ＣＰ会根据你的{NEWLINE}胜利方式和内容发生变化！{SCROLL}推荐用这些ＣＰ{NEWLINE}回复精灵的体力,{SCROLL}或者租借道具来进行战斗。{SCROLL}成功取得７连胜之后{NEWLINE}将获赠ＢＰ值！{SCROLL}另外,如果要临时中断挑战,{SCROLL}必须保存好进度,不然{NEWLINE}就不能从上次的{SCROLL}中断点接着玩了！{NEWLINE}一定要注意这一点！{SCROLL}",
+   "en": "At the Battle Castle, you may take a{NEWLINE}Single or Double Battle challenge.{SCROLL}Here, you are provided with Castle{NEWLINE}Points (CP) that you must manage.{SCROLL}The CP are used for healing Pokémon,{NEWLINE}renting items or Berries, and so on.{SCROLL}CP are earned by winning matches.{NEWLINE}The amount varies by how you win.{SCROLL}The objective is to keep a winning{NEWLINE}streak alive while managing your CP.{SCROLL}If you manage to win seven matches in{NEWLINE}a row, you will earn Battle Points (BP).{SCROLL}If you want to interrupt your{NEWLINE}challenge, please save the game.{SCROLL}If you don’t save, you will be{NEWLINE}disqualified from your challenge.{SCROLL}Please be aware of that!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/2"
+  },
+  {
+   "id": 3,
+   "zh": "欢迎来到战斗城堡！{SCROLL}这儿向您介绍可以和{NEWLINE}朋友一起玩的多人战！{SCROLL}",
+   "en": "Welcome to the Battle Castle!{SCROLL}I am your guide to the Multi Battle{NEWLINE}challenge.{SCROLL}Please be aware that this challenge{NEWLINE}requires two Trainers.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/3"
+  },
+  {
+   "id": 4,
+   "zh": "要挑战战斗城堡多人战吗？{VAR:0200:0}",
+   "en": "Would you like to take the Battle{NEWLINE}Castle Multi Battle challenge? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/4"
+  },
+  {
+   "id": 5,
+   "zh": "这儿可以两个人合作{NEWLINE}与训练师进行多人战！{SCROLL}战胜了的话每人都能得到ＣＰ！{SCROLL}ＣＰ不但可以用于自己的精灵{NEWLINE}也可以用于朋友的精灵。{SCROLL}不断征战当成功实现{NEWLINE}７连胜之后,{CLEAR}会获赠ＢＰ值！{SCROLL}另外,在进行多人战的时候{NEWLINE}不能临时中断！{SCROLL}",
+   "en": "You may team up with a friend for a{NEWLINE}Multi Battle challenge.{SCROLL}Both Trainers are provided with Castle{NEWLINE}Points (CP) that must be managed.{SCROLL}The CP is used for healing Pokémon,{NEWLINE}renting items or Berries, and so on.{SCROLL}Trainers can use their CP on not only{NEWLINE}their own Pokémon, but also their{CLEAR}partner’s.{SCROLL}Both Trainers earn CP by winning{NEWLINE}matches.{SCROLL}The objective is to keep a winning{NEWLINE}streak alive while managing your CP.{SCROLL}If you manage to win seven matches in{NEWLINE}a row, you will earn Battle Points (BP).{SCROLL}Please note: a Battle Castle Multi{NEWLINE}Battle challenge can’t be interrupted.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/5"
+  },
+  {
+   "id": 6,
+   "zh": "那么,恭候您的再次光临！",
+   "en": "We look forward to your next visit!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "那么,请选择要参加的精灵！{SCROLL}",
+   "en": "Please select the Pokémon you wish{NEWLINE}to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/7"
+  },
+  {
+   "id": 8,
+   "zh": "这位客人！{NEWLINE}您这里能够参加比赛的{CLEAR}精灵不足{VAR:0132:0}只！{SCROLL}要参加比赛必须准备{VAR:0132:1}只种类{NEWLINE}不同的精灵！{SCROLL}",
+   "en": "Excuse me!{SCROLL}You don’t have {VAR:0132:0} eligible Pokémon.{SCROLL}You must have {VAR:0132:1} different Pokémon{NEWLINE}to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/8"
+  },
+  {
+   "id": 9,
+   "zh": "另外,蛋不能参加比赛！{SCROLL}",
+   "en": "Also, Eggs are ineligible to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/9"
+  },
+  {
+   "id": 10,
+   "zh": "另外,蛋,{VAR:0100:1},{NEWLINE}不能参加比赛！{SCROLL}",
+   "en": "Eggs and {VAR:0100:1} are not allowed{NEWLINE}to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/10"
+  },
+  {
+   "id": 11,
+   "zh": "另外,蛋,{VAR:0100:1},{NEWLINE}{VAR:0100:2},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, and {VAR:0100:2}{NEWLINE}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/11"
+  },
+  {
+   "id": 12,
+   "zh": "另外,蛋,{VAR:0100:1},{NEWLINE}{VAR:0100:2},{VAR:0100:3},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}and {VAR:0100:3} are not allowed{CLEAR}to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/12"
+  },
+  {
+   "id": 13,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, and {VAR:0100:4}{CLEAR}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/13"
+  },
+  {
+   "id": 14,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4}, and{CLEAR}{VAR:0100:5} are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/14"
+  },
+  {
+   "id": 15,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6}{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, and {VAR:0100:6}{CLEAR}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/15"
+  },
+  {
+   "id": 16,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6}, and{CLEAR}{VAR:0100:7} are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/16"
+  },
+  {
+   "id": 17,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, and {VAR:0100:8}{CLEAR}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/17"
+  },
+  {
+   "id": 18,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8}, and{CLEAR}{VAR:0100:9} are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/18"
+  },
+  {
+   "id": 19,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, and {VAR:0100:10}{CLEAR}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/19"
+  },
+  {
+   "id": 20,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{VAR:0100:11},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, {VAR:0100:10}, and{CLEAR}{VAR:0100:11} are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/20"
+  },
+  {
+   "id": 21,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{VAR:0100:11}{CLEAR}{VAR:0100:12}{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, {VAR:0100:10},{CLEAR}{VAR:0100:11}, and {VAR:0100:12}{CLEAR}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/21"
+  },
+  {
+   "id": 22,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{VAR:0100:11}{CLEAR}{VAR:0100:12},{VAR:0100:13},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, {VAR:0100:10},{CLEAR}{VAR:0100:11}, {VAR:0100:12}, and{CLEAR}{VAR:0100:13} are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/22"
+  },
+  {
+   "id": 23,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{VAR:0100:11}{CLEAR}{VAR:0100:12},{VAR:0100:13},{VAR:0100:14},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, {VAR:0100:10},{CLEAR}{VAR:0100:11}, {VAR:0100:12},{CLEAR}{VAR:0100:13}, and {VAR:0100:14}{CLEAR}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/23"
+  },
+  {
+   "id": 24,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{VAR:0100:11}{CLEAR}{VAR:0100:12},{VAR:0100:13},{VAR:0100:14}{CLEAR}{VAR:0100:15},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, {VAR:0100:10},{CLEAR}{VAR:0100:11}, {VAR:0100:12},{CLEAR}{VAR:0100:13}, {VAR:0100:14}, and{CLEAR}{VAR:0100:15} are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/24"
+  },
+  {
+   "id": 25,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{VAR:0100:11}{CLEAR}{VAR:0100:12},{VAR:0100:13},{VAR:0100:14}{CLEAR}{VAR:0100:15},{VAR:0100:16},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, {VAR:0100:10},{CLEAR}{VAR:0100:11}, {VAR:0100:12},{CLEAR}{VAR:0100:13}, {VAR:0100:14},{CLEAR}{VAR:0100:15}, and {VAR:0100:16}{CLEAR}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/25"
+  },
+  {
+   "id": 26,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{VAR:0100:11}{CLEAR}{VAR:0100:12},{VAR:0100:13},{VAR:0100:14}{CLEAR}{VAR:0100:15},{VAR:0100:16},{VAR:0100:17},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, {VAR:0100:10},{CLEAR}{VAR:0100:11}, {VAR:0100:12},{CLEAR}{VAR:0100:13}, {VAR:0100:14},{CLEAR}{VAR:0100:15}, {VAR:0100:16}, and{CLEAR}{VAR:0100:17} are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/26"
+  },
+  {
+   "id": 27,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{VAR:0100:11}{CLEAR}{VAR:0100:12},{VAR:0100:13},{VAR:0100:14}{CLEAR}{VAR:0100:15},{VAR:0100:16},{VAR:0100:17}{CLEAR}{VAR:0100:18},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, {VAR:0100:10},{CLEAR}{VAR:0100:11}, {VAR:0100:12},{CLEAR}{VAR:0100:13}, {VAR:0100:14},{CLEAR}{VAR:0100:15}, {VAR:0100:16},{CLEAR}{VAR:0100:17}, and {VAR:0100:18}{CLEAR}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/27"
+  },
+  {
+   "id": 28,
+   "zh": "请准备好了再来。{SCROLL}",
+   "en": "Please come back when you’re ready.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "您和朋友选择了同样的{VAR:0100:0}！{SCROLL}请和朋友商量好之后再来。{SCROLL}",
+   "en": "Both Trainers have chosen the{NEWLINE}Pokémon {VAR:0100:0}.{SCROLL}Please confer with the other Trainer{NEWLINE}and choose different Pokémon.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/29"
+  },
+  {
+   "id": 30,
+   "zh": "您和朋友选择了同样的{VAR:0100:0}或者{VAR:0100:1}！{SCROLL}请和朋友商量好之后再来。{SCROLL}",
+   "en": "Both Trainers have chosen the Pokémon{NEWLINE}{VAR:0100:0} and {VAR:0100:1}.{SCROLL}Please confer with the other Trainer{NEWLINE}and choose different Pokémon.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/30"
+  },
+  {
+   "id": 31,
+   "zh": "在介绍之前要保存进度{NEWLINE}可以吗？{VAR:0200:0}",
+   "en": "Your progress must be saved{NEWLINE}before I explain. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "好啦,请到这边来！",
+   "en": "Right this way, please!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/32"
+  },
+  {
+   "id": 33,
+   "zh": "已经等您很久了！{SCROLL}在接着玩刚才的挑战之前,{NEWLINE}保存进度！",
+   "en": "We’ve missed you!{SCROLL}You must save the game before you{NEWLINE}resume your challenge. Please wait.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/33"
+  },
+  {
+   "id": 34,
+   "zh": "这位客人！！{SCROLL}上次您没有保存好进度{NEWLINE}就结束了比赛吧！{SCROLL}挑战已经无效了！{SCROLL}",
+   "en": "Excuse me!{SCROLL}You didn’t save before you quit your{NEWLINE}challenge last time.{SCROLL}Because of that, you have been{NEWLINE}disqualified from your challenge!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/34"
+  },
+  {
+   "id": 35,
+   "zh": "恭喜您了！{SCROLL}您将获得缎带作为{NEWLINE}这场胜利的奖赏！{SCROLL}",
+   "en": "Congratulations!{SCROLL}In recognition of your victory,{NEWLINE}we present you with a Ribbon!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US ‘commemorative print’ rewritten: hack zh says 缎带 (Ribbon). #36/#37 still add prints; check in game."
+  },
+  {
+   "id": 36,
+   "zh": "{VAR:0103:0}把金印花{NEWLINE}放进战斗记录器！{SCROLL}",
+   "en": "The Gold Print was added to{NEWLINE}{VAR:0103:0}’s Vs. Recorder!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/36"
+  },
+  {
+   "id": 37,
+   "zh": "{VAR:0103:0}把银印花{NEWLINE}放进战斗记录器！{SCROLL}",
+   "en": "The Silver Print was added to{NEWLINE}{VAR:0103:0}’s Vs. Recorder!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/37"
+  },
+  {
+   "id": 38,
+   "zh": "单人战",
+   "en": "SINGLE BATTLE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "双打",
+   "en": "DOUBLE BATTLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/39"
+  },
+  {
+   "id": 40,
+   "zh": "进行挑战",
+   "en": "TAKE CHALLENGE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/40"
+  },
+  {
+   "id": 41,
+   "zh": "听取说明",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/41"
+  },
+  {
+   "id": 42,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/42"
+  },
+  {
+   "id": 43,
+   "zh": "２人中的１人选择“成为领队”{SCROLL}另１人请选择“加入小组”。{VAR:0200:0}",
+   "en": "One Trainer should select{NEWLINE}“BECOME LEADER.”{SCROLL}The other Trainer must select{NEWLINE}“JOIN GROUP.” {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/43"
+  },
+  {
+   "id": 44,
+   "zh": "开始进行ＤＳ无线通信吗？{VAR:0200:0}",
+   "en": "We need to launch DS Wireless{NEWLINE}Communications. {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/44"
+  },
+  {
+   "id": 45,
+   "zh": "开始介绍之前保存进度！",
+   "en": "You must save the game before{NEWLINE}I show you in. Please wait.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/45"
+  },
+  {
+   "id": 46,
+   "zh": "竖起耳朵给我听好了！{NEWLINE}如果能让精灵无伤获胜,{CLEAR}那你将能得到{CLEAR}大量的城堡点数！{SCROLL}这东西是多多益善,{NEWLINE}你看大叔我{CLEAR}一个子儿都摸不出来,真丢人啊。",
+   "en": "Listen carefully!{SCROLL}If your Pokémon win without taking{NEWLINE}damage, you earn more CP.{CLEAR}The more, the merrier!{CLEAR}Look at me. I don’t have much...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/46"
+  },
+  {
+   "id": 47,
+   "zh": "如果你提升了对手的{NEWLINE}等级并取得胜利,{CLEAR}那你获得的{CLEAR}城堡点数也就是ＣＰ{CLEAR}将会有所增加。{SCROLL}这也就是{NEWLINE}所谓的{CLEAR}风险与机遇并存。",
+   "en": "Listen!{SCROLL}You can earn more Castle Points or CP{NEWLINE}by facing higher-level opponents.{SCROLL}This is what they call high risk,{NEWLINE}high return!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/47"
+  },
+  {
+   "id": 48,
+   "zh": "在开战之前,{NEWLINE}你别吝啬自己的ＣＰ,{CLEAR}应该在这好好对对手调查一番！{SCROLL}俗话说的好,{SCROLL}不入虎穴{NEWLINE}焉得虎子{NEWLINE}⋯⋯　⋯⋯　⋯⋯{SCROLL}呀,貌似不是这么用的！",
+   "en": "Before every battle, you should check{NEWLINE}the opponent’s lineup.{SCROLL}Don’t be cheap with your CP.{NEWLINE}It’s like that old saying goes about{CLEAR}knowing your enemy.{SCROLL}“Unless you enter the enemy’s lair,{NEWLINE}you cannot take their prize.”{SCROLL}...{CLEAR}That’s not the right old saying!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/48"
+  },
+  {
+   "id": 49,
+   "zh": "石兰{SCROLL}能舍身为嘉德丽雅⋯⋯{CLEAR}这年头,{SCROLL}还能找到这么好的人吗？",
+   "en": "Darach, ready to give{NEWLINE}his all for Caitlin...{SCROLL}Where can you find a man{NEWLINE}that good these days?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "石兰 Darach / 嘉德丽雅 Caitlin."
+  },
+  {
+   "id": 50,
+   "zh": "刚开始的时候{NEWLINE}只能回复精灵的ＨＰ,{SCROLL}但随着ＣＰ的增加和{NEWLINE}等级的提升,{SCROLL}就算是ＰＰ{NEWLINE}也是可以回复的！",
+   "en": "At first, you can only use CP for{NEWLINE}restoring HP.{SCROLL}But you can spend CP to rank up.{NEWLINE}Then, you can even restore PP!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/50"
+  },
+  {
+   "id": 51,
+   "zh": "在这座城堡中,{NEWLINE}你要意识到因为一个失败{SCROLL}而让你辛苦积攒的ＣＰ{NEWLINE}付诸东流就和家常便饭一样。",
+   "en": "If you lose, your entire stock of CP{NEWLINE}is cleaned out to zero!{SCROLL}This is the rule at the Battle Castle.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/51"
+  },
+  {
+   "id": 52,
+   "zh": "我将来的愿望就是{NEWLINE}穿上漂亮的礼服,{CLEAR}住在城堡中！{SCROLL}⋯⋯错了错了！{SCROLL}是和穿着漂亮的礼服的人{NEWLINE}共塌堡中！",
+   "en": "My dream is to wear a beautiful dress{NEWLINE}and live in a castle!{SCROLL}That’s not what I meant to say...{SCROLL}My dream is to live in a castle with{NEWLINE}someone who wears a beautiful dress!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0109/52"
+  }
+ ]
+}

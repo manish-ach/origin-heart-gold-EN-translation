@@ -1,0 +1,388 @@
+{
+ "narc": "a027",
+ "bank": 584,
+ "source": "work/extract/v4/a027/0584.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "欢迎光临！{NEWLINE}这里是满金百货。",
+   "en": "Welcome to the Goldenrod{NEWLINE}Department Store.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0592/0"
+  },
+  {
+   "id": 1,
+   "zh": "满金百货齐聚了各色商品。{SCROLL}但有些东西要到商场内的{NEWLINE}抽奖专柜抽奖才能得到。",
+   "en": "The Goldenrod Dept. Store{NEWLINE}has all kinds of goods.{SCROLL}But some things you can only{NEWLINE}get from the prize drawing at{CLEAR}the store’s lottery counter.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0592/1 US ‘Game Corner prizes’ replaced: zh says the store's own lottery counter (抽奖专柜)."
+  },
+  {
+   "id": 2,
+   "zh": "百货店的大姐姐{NEWLINE}对我这样的小孩{CLEAR}也有好好打招呼呢,{CLEAR}专业的就是厉害。",
+   "en": "The ladies at this department store{NEWLINE}greet even a kid like me properly.{CLEAR}Real pros are something else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "嘛,今天也要{NEWLINE}买好多东西哦！",
+   "en": "I’m raring to shop again today!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0592/3"
+  },
+  {
+   "id": 4,
+   "zh": "来到满金百货,就会切身感受到{NEWLINE}满金市是座大城市,{CLEAR}这里的商品比别处可多多了。",
+   "en": "Coming to the Goldenrod Dept. Store{NEWLINE}really makes you feel what a big{CLEAR}city Goldenrod is. There’s way more{CLEAR}stuff here than anywhere else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "我的精灵战斗时会携带特伤果,{NEWLINE}专门用来对付那些{CLEAR}擅长特殊攻击的精灵。",
+   "en": "My Pokémon hold a Rowap Berry in{NEWLINE}battle, specially to deal with Pokémon{CLEAR}that are good at special attacks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "不能靠近{NEWLINE}穿黑衣服的人,{CLEAR}妈妈这么说过的。",
+   "en": "Mom told me to stay away from{NEWLINE}people in black suits.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0592/6"
+  },
+  {
+   "id": 7,
+   "zh": "１层……前台{NEWLINE}２层……训练师超市{CLEAR}３层……果子超市{CLEAR}４层……药盒{CLEAR}５层……技能机专柜{CLEAR}６层……休息广场",
+   "en": "1F Service Counter{NEWLINE}2F Trainer’s Market{CLEAR}3F Berry Market{CLEAR}4F Medicine Box{CLEAR}5F TM Corner{CLEAR}6F Rooftop Atrium",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0592/7 Floor directory: US ‘3F Battle Collection’ replaced by the hack's 3F 果子/树果超市 → Berry Market (see #13, 0590 #7); other floors keep US names."
+  },
+  {
+   "id": 8,
+   "zh": "沙菲雅『满金市的商场好大呀,{NEWLINE}有好多东西我从来都没见过。",
+   "en": "Sapphire: This Goldenrod mall{NEWLINE}is so big! There’s so much{CLEAR}stuff I’ve never seen before.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#8-#11 Ruby takes Sapphire to the grass (sets up the Salamence incident in 0577)."
+  },
+  {
+   "id": 9,
+   "zh": "路比『我跟你说我们这{NEWLINE}还有更好玩的呢。{CLEAR}一会儿我带你去这附近的草丛转一转,{CLEAR}让你见识一下我们这的精灵。",
+   "en": "Ruby: Let me tell you, there’s even{NEWLINE}more fun stuff around here. In a{CLEAR}bit, I’ll take you to the tall grass{CLEAR}nearby and show you our local Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "沙菲雅『唉？可是……咱们又没有精灵,{NEWLINE}这么去草丛不太好吧。",
+   "en": "Sapphire: Huh? But... we don’t have{NEWLINE}any Pokémon. Going into the grass like{CLEAR}that doesn’t sound like a good idea.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "路比『怕什么,我们这的精灵{NEWLINE}都很温顺不会有危险的。{CLEAR}再说就算有什么意外,{CLEAR}我也会保护你的,放心好啦。",
+   "en": "Ruby: What’s there to be scared{NEWLINE}of? The Pokémon around here are{CLEAR}all gentle. They won’t hurt anyone.{CLEAR}Besides, even if something happens,{CLEAR}I’ll protect you. Don’t worry!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "旅行的帮手{NEWLINE}２层……训练家超市",
+   "en": "Helpers for Your Journey{NEWLINE}2F Trainer’s Market",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "让精灵更健康大{NEWLINE}３层……树果超市",
+   "en": "For Healthy, Growing Pokémon{NEWLINE}3F Berry Market",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "欢迎！{NEWLINE}要买东西是吧？{SCROLL}",
+   "en": "Welcome! Looking to buy something?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags page_breaks_lost; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 15,
+   "zh": "多谢惠顾。",
+   "en": "Thank you. Please come again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 16,
+   "zh": "黑眼镜{NEWLINE}2000元",
+   "en": "Black Glasses{NEWLINE}$2000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 17,
+   "zh": "黑带{NEWLINE}2000元",
+   "en": "Black Belt{NEWLINE}$2000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 18,
+   "zh": "磁铁{NEWLINE}2000元",
+   "en": "Magnet{NEWLINE}$2000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 19,
+   "zh": "诅咒符{NEWLINE}2000元",
+   "en": "Spell Tag{NEWLINE}$2000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 20,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 21,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 22,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 23,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s)",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 24,
+   "zh": "好的,给你,{NEWLINE}谢谢惠顾。",
+   "en": "Here you go. Thank you{NEWLINE}for shopping with us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 25,
+   "zh": "对不起啊客人,{NEWLINE}您带的钱好像不够。",
+   "en": "Sorry, it looks like you{NEWLINE}don’t have enough money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 26,
+   "zh": "请问还有什么可以帮您的吗？{SCROLL}",
+   "en": "Is there anything else{NEWLINE}I can help you with?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), flags page_breaks_lost; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 27,
+   "zh": "星星果{NEWLINE}500元",
+   "en": "Starf Berry{NEWLINE}$500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 28,
+   "zh": "迷之果{NEWLINE}500元",
+   "en": "Enigma Berry{NEWLINE}$500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 29,
+   "zh": "物伤果{NEWLINE}500元",
+   "en": "Jaboca Berry{NEWLINE}$500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 30,
+   "zh": "特伤果{NEWLINE}500元",
+   "en": "Rowap Berry{NEWLINE}$500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 31,
+   "zh": "在这样的大商场里,{NEWLINE}所有商品都是明码标价,{CLEAR}会砍价是没有用的。",
+   "en": "In a big store like this, every{NEWLINE}price is marked. Haggling{CLEAR}won’t get you anywhere.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "每当我心情好的时候,{NEWLINE}我就想买点东西庆祝一下。{CLEAR}每当我心情不好的时候,{CLEAR}我就想买点东西发泄一下。",
+   "en": "Whenever I’m in a good mood, I want{NEWLINE}to buy something to celebrate.{CLEAR}Whenever I’m in a bad mood, I want{CLEAR}to buy something to blow off steam.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "当你不知道给精灵{NEWLINE}带什么道具的时候,{CLEAR}大树果往往是个不错的选择。",
+   "en": "When you don’t know what item to{NEWLINE}give your Pokémon to hold, a Sitrus{CLEAR}Berry is often a good choice.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "可恶啊,如果平时有好好种树果,{NEWLINE}就不需要跑到百货商店来买了。",
+   "en": "Dang it. If I’d been growing{NEWLINE}Berries properly, I wouldn’t{CLEAR}have to come all the way to the{CLEAR}department store to buy them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "电栗鼠『Paaa——chi！",
+   "en": "Pachirisu: Paaa-chi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "我在为我的盔甲鸟{NEWLINE}选一款合适的道具。",
+   "en": "I’m picking out a good{NEWLINE}item for my Skarmory.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "盔甲鸟『Skaaa——mo！",
+   "en": "Skarmory: Skaaa-mo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "我最喜欢跟自己的精灵一起逛商场了。",
+   "en": "I love going shopping with my Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "龅牙狸『Biii——do！",
+   "en": "Bidoof: Biii-do!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "世界上的树果有好多好多种,{NEWLINE}连在满金百货这样的大商场{CLEAR}都无法买到所有种类呢。",
+   "en": "There are so many kinds of{NEWLINE}Berries in the world that even{CLEAR}a big store like the Goldenrod{CLEAR}Dept. Store can’t stock them all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "你好,欢迎来到满金百货。{NEWLINE}我们这新上了商品——气球。{CLEAR}好玩又好用,您要买点吗？",
+   "en": "Hello, welcome to the Goldenrod{NEWLINE}Dept. Store. We have a new product:{CLEAR}the Air Balloon! It’s fun and{CLEAR}useful. Would you like to buy some?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "1个气球{NEWLINE}300元",
+   "en": "1 Air Balloon{NEWLINE}$300",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 43,
+   "zh": "3个气球{NEWLINE}900元",
+   "en": "3 Air Balloons{NEWLINE}$900",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 44,
+   "zh": "5个气球{NEWLINE}1500元",
+   "en": "5 Air Balloons{NEWLINE}$1500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 45,
+   "zh": "10个气球{NEWLINE}3000元",
+   "en": "10 Air Balloons{NEWLINE}$3000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  }
+ ]
+}

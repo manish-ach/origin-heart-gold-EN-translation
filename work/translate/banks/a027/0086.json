@@ -1,0 +1,406 @@
+{
+ "narc": "a027",
+ "bank": 86,
+ "source": "work/extract/v4/a027/0086.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "我的运气特别好,{NEWLINE}总是能在考古队挖掘的土堆里{CLEAR}捡到不错的道具,{CLEAR}你如果喜欢的话我可以卖一点给你。{SCROLL}这是今天的道具,你想买吗？{SCROLL}",
+   "en": "I’m super lucky. I’m always{NEWLINE}finding good items in the dirt piles{CLEAR}the archaeology team digs up.{CLEAR}If you like, I can sell you some.{SCROLL}Here’s today’s item. Want to buy it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "神秘琥珀,8000元",
+   "en": "Old Amber $8000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 2,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s); Shop menu per D-0049 (v3 ‘Nothing’ replaced).",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 3,
+   "zh": "欢迎改天再来。",
+   "en": "Come again another day.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "好嘞,请拿好这个珍贵的商品。",
+   "en": "There you go! Take good{NEWLINE}care of this precious item.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "我住在这里！{NEWLINE}如果你喜欢也可以住下来,{CLEAR}空闲的地方多的是。",
+   "en": "I live here! If you like, you can live{NEWLINE}here too. There’s plenty of free space.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "我捡个道具卖钱不容易,{NEWLINE}是不会低价出售的,{CLEAR}你多带点钱再来吧。",
+   "en": "It’s not easy scrounging up items{NEWLINE}to sell, so I don’t sell cheap.{CLEAR}Come back with more money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "觉醒石,3000元",
+   "en": "Dawn Stone $3000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 8,
+   "zh": "玲珑猫尾,1000元",
+   "en": "Fluffy Tail $1000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 9,
+   "zh": "护身防具,5000元",
+   "en": "Protector $5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 10,
+   "zh": "弯勺,1000元",
+   "en": "Twisted Spoon $1000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 11,
+   "zh": "坚硬石头,1000元",
+   "en": "Hard Stone $1000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "气息腰带,100元",
+   "en": "Focus Sash $100",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 13,
+   "zh": "前面是还没有深入研究的{NEWLINE}阿鲁夫遗迹石室,{CLEAR}在失踪的秀力博士回来之前,{CLEAR}禁止任何游客前往石室。",
+   "en": "Ahead are chambers of{NEWLINE}the Ruins of Alph that haven’t been{CLEAR}fully studied yet. Until the missing{CLEAR}Professor Hale returns, no visitors{CLEAR}are allowed into the chambers.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "你也是听了关于连接洞穴的歌谣,{NEWLINE}所以来这里寻找传说中精灵的吗？",
+   "en": "Did you hear the rhyme about{NEWLINE}Union Cave too, and come looking{CLEAR}for the legendary Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "唉？没有听过关于传说的歌谣吗？{NEWLINE}我记得在连接洞穴里听谁唱过来着。",
+   "en": "Huh? You haven’t heard the rhyme{NEWLINE}about the legend? I’m sure I heard{CLEAR}somebody here in Union Cave singing it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "这首歌谣的歌词好像是在描述{NEWLINE}唤醒传说中精灵的方法。{CLEAR}但是根据我的研究,{CLEAR}只有方法是不够的,{CLEAR}必须要在特定的日子{CLEAR}使用这个方法才能奏效。",
+   "en": "The words of the rhyme seem to describe{NEWLINE}how to awaken the legendary Pokémon.{SCROLL}But from my research, the method{NEWLINE}alone isn’t enough. It only works{CLEAR}if you use it on a particular day.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "我为了寻找传说中的精灵,{NEWLINE}在连接洞穴里待了不知道多久,{CLEAR}连外面的日期都忘了。{CLEAR}你能告诉我今天是星期几吗？",
+   "en": "I’ve been in Union Cave searching{NEWLINE}for the legendary Pokémon for{CLEAR}who knows how long. I’ve even lost{CLEAR}track of the date outside. Can you{CLEAR}tell me what day of the week it is?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "星期一",
+   "en": "Monday",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 19,
+   "zh": "星期二",
+   "en": "Tuesday",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 20,
+   "zh": "星期三",
+   "en": "Wednesday",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 21,
+   "zh": "星期四",
+   "en": "Thursday",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 22,
+   "zh": "星期五",
+   "en": "Friday",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 23,
+   "zh": "星期六",
+   "en": "Saturday",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 24,
+   "zh": "星期天",
+   "en": "Sunday",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 25,
+   "zh": "哦,今天是日耀日的星期天啊,{NEWLINE}不知道我何时才能找到传说中的精灵{CLEAR}然后去外面享受周末的时光。",
+   "en": "Oh, so today is Sunday, the day of{NEWLINE}the sun. I wonder when I’ll find{CLEAR}the legendary Pokémon and get{CLEAR}to go out and enjoy the weekend.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Weekday lines follow the Japanese-style day names in the zh (日/月/火/水/木/金/土耀日): sun, moon, fire, water, wood, metal, earth."
+  },
+  {
+   "id": 26,
+   "zh": "哦,今天是月耀日的星期一啊,{NEWLINE}又是一周的开始,{CLEAR}我要打起精神来寻找传说中的精灵。",
+   "en": "Oh, so today is Monday, the day of{NEWLINE}the moon. Another week begins. I’d{CLEAR}better pull myself together and keep{CLEAR}searching for the legendary Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "哦,今天是火耀日的星期二啊,{NEWLINE}地底的岩浆在这个日子里也会沸腾吧。",
+   "en": "Oh, so today is Tuesday, the day of{NEWLINE}fire. I bet the magma underground{CLEAR}boils on a day like this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Heatran hint: the rhyme (0085 #99) plus the right day (Tuesday, fire)."
+  },
+  {
+   "id": 28,
+   "zh": "哦,今天是水耀日的星期三啊,{NEWLINE}今天全国各地是不是都在下雨啊。",
+   "en": "Oh, so today is Wednesday, the day{NEWLINE}of water. I wonder if it’s raining{CLEAR}all over the country today.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "哦,今天是木耀日的星期四啊,{NEWLINE}我听说桐树林在这个日子里,{CLEAR}会有罕见的精灵出现。",
+   "en": "Oh, so today is Thursday, the day{NEWLINE}of wood. I heard rare Pokémon{CLEAR}appear in Ilex Forest on this day.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "哦,今天是金耀日的星期五啊,{NEWLINE}钢系的精灵在今天会特别活跃吗？",
+   "en": "Oh, so today is Friday, the day{NEWLINE}of metal. I wonder if Steel-type{CLEAR}Pokémon are extra lively today.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "哦,今天是土耀日的星期六啊,{NEWLINE}连接洞穴不会突发地震{CLEAR}把我们给埋了吧。",
+   "en": "Oh, so today is Saturday, the day of{NEWLINE}earth. I hope Union Cave doesn’t have{CLEAR}a sudden earthquake and bury us all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "你走到这里已经很疲惫了吧,{NEWLINE}需要我用超能力为你治疗吗？{CLEAR}一次只要500块哦。",
+   "en": "You must be worn out after coming{NEWLINE}all this way. Want me to heal you with{CLEAR}my psychic powers? Just $500 a time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "你的钱不够治疗费用,{NEWLINE}我可不会免费帮你。",
+   "en": "You don’t have enough money for the{NEWLINE}treatment. I’m not doing it for free.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "看我的超能力！",
+   "en": "Behold my psychic powers!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "一股神秘的热气袭来！",
+   "en": "A mysterious wave of{NEWLINE}heat rushes at you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "神秘的热气被清净符驱散了。",
+   "en": "The mysterious heat was{NEWLINE}driven off by the Cleanse Tag.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "嘿嘿,前面有神奇的热气{NEWLINE}会阻挡你的去路,{CLEAR}只有老身给你带路,{CLEAR}才能驱散热气通过那里。{SCROLL}你愿意花2000元{NEWLINE}雇老身带你通过前面的路吗？",
+   "en": "Heh heh. Up ahead, a strange heat{NEWLINE}will block your path. Only if this{CLEAR}old woman leads the way can the{CLEAR}heat be driven off so you can pass.{SCROLL}Will you hire this old woman for{NEWLINE}$2000 to take you through?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "你身上剩的钱可不够我做法发功啊。",
+   "en": "You don’t have enough money{NEWLINE}left for me to work my magic.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "嘿嘿,来吧,老身为你引路。",
+   "en": "Heh heh, come along. This{NEWLINE}old woman will lead the way.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "天灵灵、地灵灵,热气先不要显灵！",
+   "en": "Spirits of heaven, spirits of earth,{NEWLINE}heat, don’t you show your face!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "嘿！热气退散！",
+   "en": "Hah! Heat, begone!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "你可以放心通过前面了,{NEWLINE}这一次热气不会再出现了。{CLEAR}不过也仅限这一次,{CLEAR}下次你如果还想通过这里的话,{CLEAR}就再来找我吧。",
+   "en": "You can pass through safely now.{NEWLINE}The heat won’t come back this time.{SCROLL}But only this time. If you{NEWLINE}want to pass through here{CLEAR}again, come and find me again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "这里是熔岩池的中心。",
+   "en": "This is the center of the lava pool.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "背包里的火山镇石似乎在发热,{NEWLINE}要把火山镇石放到台子上吗？",
+   "en": "The Magma Stone in your{NEWLINE}Bag seems to be heating up. Place{CLEAR}the Magma Stone on the pedestal?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "席多蓝恩『Cyyy——！{SCROLL}熔岩中的精灵席多蓝恩出现了！{NEWLINE}要尝试捕捉它吗？",
+   "en": "Heatran: Cyyy--!{SCROLL}Heatran, the Pokémon of the{NEWLINE}lava, appeared! Try to catch it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "金铃铛『Gooo——rin！",
+   "en": "Chingling: Gooo-rin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "因为秀力博士的归来,{NEWLINE}遗迹的研究终于可以继续推动了。",
+   "en": "Now that Professor Hale is{NEWLINE}back, research on the ruins{CLEAR}can finally move forward.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

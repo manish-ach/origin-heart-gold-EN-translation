@@ -1,0 +1,728 @@
+{
+ "narc": "a027",
+ "bank": 331,
+ "source": "work/extract/v4/a027/0331.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "贴着传单！{SCROLL}最近有不守礼节的训练家{NEWLINE}在地下通道{CLEAR}进行精灵对决,{SCROLL}因附近居民对此投诉,{CLEAR}故封闭地下通道！{CLEAR}　　　　……金黄市警察",
+   "en": "There’s a notice posted!{SCROLL}Recently, ill-mannered Trainers have{NEWLINE}been holding Pokémon battles in the{CLEAR}Underground Path.{SCROLL}Due to complaints from local residents,{NEWLINE}the Underground Path is closed!{SCROLL}...Saffron City Police",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "下面是地下通道。{SCROLL}通过金黄市的地下,{NEWLINE}可以从紫苑镇{CLEAR}到达彩虹市。",
+   "en": "The Underground Path is down below.{SCROLL}It runs under Saffron City, from{NEWLINE}Lavender Town to Celadon City.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "柑果有着特殊的香味儿,{NEWLINE}对口袋妖怪来说这种味道{CLEAR}有镇静安神的作用,{CLEAR}比起新型机械构造的球,{CLEAR}口袋妖怪们更适合待在柑果球里。{SCROLL}所以我觉得愿意用柑果球{NEWLINE}来容纳口袋妖怪的训练家,{CLEAR}才是对口袋妖怪足够有爱的训练家。",
+   "en": "Apricorns have a special fragrance.{SCROLL}For Pokémon, that scent is calming and{NEWLINE}soothing.{SCROLL}Pokémon are much happier in Apricorn{NEWLINE}Balls than in Balls with fancy new{CLEAR}mechanical parts.{SCROLL}So I believe that only Trainers who keep{NEWLINE}their Pokémon in Apricorn Balls truly{CLEAR}love their Pokémon enough.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "现在的机械精灵球越来越先进了,{NEWLINE}有泛用性极好的高级球,{CLEAR}也有针对性很强的快速球、巢穴球等。{SCROLL}多使用这些球{NEWLINE}才能迅速扩大自己的队伍,{CLEAR}成为一名优秀的训练家。{SCROLL}我认识一个{NEWLINE}过于溺爱口袋妖怪的训练家,{CLEAR}她训练出的那只向尾喵{CLEAR}可是有够软弱的。",
+   "en": "Mechanical Poké Balls keep getting more{NEWLINE}advanced.{SCROLL}There are all-purpose Ultra Balls, and{NEWLINE}specialized ones like Quick Balls and{CLEAR}Nest Balls.{SCROLL}Use lots of those, and you can build a{NEWLINE}team fast and become a great Trainer.{SCROLL}I know a Trainer who spoils her Pokémon{NEWLINE}way too much. That Skitty she raised{CLEAR}is a real softie.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The cat is called 向尾喵 (Skitty) in most lines but 卷尾猫 (Glameow) in #5/#19/#48, with Glameow cries); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 4,
+   "zh": "向尾喵『Gla——mea！",
+   "en": "Skitty: Gla-mea!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (Label 向尾喵 (Skitty) on a Glameow cry); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 5,
+   "zh": "你怎么了卷尾猫？{NEWLINE}身体不舒服吗？",
+   "en": "What’s wrong, Glameow? Aren’t you{NEWLINE}feeling well?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "你要去哪啊向尾喵？{NEWLINE}等等我啊！",
+   "en": "Where are you going, Skitty? Wait for{NEWLINE}me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The cat is called 向尾喵 (Skitty) in most lines but 卷尾猫 (Glameow) in #5/#19/#48, with Glameow cries); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 7,
+   "zh": "喂喂喂！猫老大,{NEWLINE}你这是发情之后饥不择食了吗？{CLEAR}赶紧离那种母猫远一点！",
+   "en": "Hey, hey, hey! Persian, are you so hard{NEWLINE}up in heat you’ll go for anything? Get{CLEAR}away from a cat like that!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Faithful: zh 发情之后饥不择食 (in heat, so desperate it’ll take anything)."
+  },
+  {
+   "id": 8,
+   "zh": "你怎么说话呢！{NEWLINE}明明是你们家猫老大{CLEAR}跑来勾引我们家向尾喵的！",
+   "en": "How dare you! Your Persian is the one{NEWLINE}who came over to flirt with our Skitty!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The cat is called 向尾喵 (Skitty) in most lines but 卷尾猫 (Glameow) in #5/#19/#48, with Glameow cries); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 9,
+   "zh": "猫老大『Per——si！",
+   "en": "Persian: Per-si!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "胡说！我的猫老大{NEWLINE}可是我严格训练出来的优秀战士,{CLEAR}怎么可能看上你这只软弱的猫呢！{SCROLL}够了猫老大,赶紧跟我回去！",
+   "en": "Nonsense! My Persian is a fine warrior I{NEWLINE}trained strictly myself. It would never{CLEAR}fall for a softie cat like yours!{SCROLL}That’s enough, Persian. Come back with{NEWLINE}me, now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "猫老大『Per……si……",
+   "en": "Persian: Per... si...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "你说谁的精灵弱啊！{NEWLINE}我用爱培养的精灵{CLEAR}绝不会比你的精灵弱！",
+   "en": "Who are you calling weak?! A Pokémon I{NEWLINE}raised with love will never be weaker{CLEAR}than yours!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "哼,培养精灵{NEWLINE}用的是技巧和方法,{CLEAR}说什么爱能让精灵变强,{CLEAR}你当这是小学生看动画片啊！",
+   "en": "Hmph! Raising Pokémon takes technique{NEWLINE}and method.{SCROLL}‘Love makes Pokémon stronger’? What is{NEWLINE}this, a kids’ cartoon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "你这么漠视与精灵之间的感情,{NEWLINE}是不可能成为强大训练家的！",
+   "en": "Ignoring the bond with your Pokémon{NEWLINE}like that, you’ll never be strong!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "好啊,那今天咱们比一比,{NEWLINE}看谁的精灵更厉害！",
+   "en": "Fine! Then let’s settle it today and see{NEWLINE}whose Pokémon is stronger!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "比就比,我才不怕你呢！",
+   "en": "You’re on! I’m not scared of you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "上啊猫老大,{NEWLINE}使出聚宝功砸向尾喵的头！",
+   "en": "Go, Persian! Use Pay Day on Skitty’s{NEWLINE}head!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The cat is called 向尾喵 (Skitty) in most lines but 卷尾猫 (Glameow) in #5/#19/#48, with Glameow cries); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 18,
+   "zh": "动起来,向尾喵！{NEWLINE}抢先使出报恩！",
+   "en": "Move it, Skitty! Hit first with Return!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The cat is called 向尾喵 (Skitty) in most lines but 卷尾猫 (Glameow) in #5/#19/#48, with Glameow cries); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 19,
+   "zh": "卷尾猫『Gla……mea……",
+   "en": "Glameow: Gla... mea...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "你怎么了猫老大？{NEWLINE}为什么不攻击！",
+   "en": "What’s wrong, Persian? Why won’t you{NEWLINE}attack?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "不要退缩啊向尾喵,{NEWLINE}拿出你平时英勇的姿态来！",
+   "en": "Don’t back down, Skitty! Show your{NEWLINE}usual brave self!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The cat is called 向尾喵 (Skitty) in most lines but 卷尾猫 (Glameow) in #5/#19/#48, with Glameow cries); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0103:0}『不要再为难精灵了,{NEWLINE}你们身为训练家{CLEAR}都没有发现这两只精灵{CLEAR}不愿意去攻击彼此吗？",
+   "en": "{VAR:0103:0}: Stop forcing your Pokémon. As{NEWLINE}Trainers, haven’t you noticed that{CLEAR}these two don’t want to fight?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "身为训练家的我……{NEWLINE}居然不能理解猫老大所传达的意思。",
+   "en": "As a Trainer... I couldn’t even{NEWLINE}understand what Persian was trying to{CLEAR}tell me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "我只看到了自己对向尾喵的爱,{NEWLINE}却忽视了向尾喵的所爱……",
+   "en": "All I could see was my love for{NEWLINE}Skitty...{SCROLL}I never noticed who Skitty loves...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The cat is called 向尾喵 (Skitty) in most lines but 卷尾猫 (Glameow) in #5/#19/#48, with Glameow cries); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 25,
+   "zh": "看来我培养口袋妖怪的方法{NEWLINE}确实有很多不足之处啊。",
+   "en": "Looks like my way of raising Pokémon{NEWLINE}really has a lot of shortcomings.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "想不到会有陌生的训练家{NEWLINE}比我更懂向尾喵的想法。",
+   "en": "I never thought a Trainer I’d never met{NEWLINE}would understand Skitty’s feelings{CLEAR}better than I do.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The cat is called 向尾喵 (Skitty) in most lines but 卷尾猫 (Glameow) in #5/#19/#48, with Glameow cries); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 27,
+   "zh": "想不到你对口袋妖怪这么有研究。{NEWLINE}请你务必跟我来场对战,{CLEAR}让我学习一下口袋妖怪的培养方法。",
+   "en": "I never thought you’d know so much{NEWLINE}about Pokémon.{SCROLL}Please, have a battle with me. I want to{NEWLINE}learn how you raise Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "也请跟我来一场对战,{NEWLINE}让我感受一下{CLEAR}你和你精灵之间的感情。",
+   "en": "Please battle me too. I want to feel the{NEWLINE}bond between you and your Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0103:0}『呃,好吧……",
+   "en": "{VAR:0103:0}: Uh, OK...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#29/#30: player answer variants."
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0103:0}『没问题！{NEWLINE}身为训练家怎么能拒绝你们呢。",
+   "en": "{VAR:0103:0}: No problem! As a Trainer, how{NEWLINE}could I say no?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "上吧,猫老大！{NEWLINE}加油,向尾喵！",
+   "en": "Go, Persian!{NEWLINE}Do your best, Skitty!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The cat is called 向尾喵 (Skitty) in most lines but 卷尾猫 (Glameow) in #5/#19/#48, with Glameow cries); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 32,
+   "zh": "你真的是非常厉害的训练家,{NEWLINE}我会好好记住今天这一课,{CLEAR}努力把猫老大培养得更强！",
+   "en": "You really are an amazing Trainer. I’ll{NEWLINE}remember today’s lesson, and work hard{CLEAR}to make Persian even stronger!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "我在战斗中就可以感受得到,{NEWLINE}你和精灵之间那深厚的感情。{CLEAR}我以后也会更加用心培养向尾喵的。",
+   "en": "I could feel it during the battle: the{NEWLINE}deep bond between you and your{CLEAR}Pokémon. From now on, I’ll put even{CLEAR}more heart into raising Skitty.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The cat is called 向尾喵 (Skitty) in most lines but 卷尾猫 (Glameow) in #5/#19/#48, with Glameow cries); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 34,
+   "zh": "回去了,猫老大。{NEWLINE}咱们走吧,向尾喵。",
+   "en": "Let’s go home, Persian.{NEWLINE}Come on, Skitty. Let’s go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The cat is called 向尾喵 (Skitty) in most lines but 卷尾猫 (Glameow) in #5/#19/#48, with Glameow cries); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 35,
+   "zh": "猫老大？{NEWLINE}卷向尾喵……",
+   "en": "Persian?{NEWLINE}Glameow...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh typo 卷向尾喵 (mix of both names).",
+   "qa_ignore": [
+    "glossary:向尾喵"
+   ]
+  },
+  {
+   "id": 36,
+   "zh": "你这只猫,真是的……{NEWLINE}如果你喜欢这片草地的话,{CLEAR}那以后咱们就在这里训练吧。",
+   "en": "Honestly, you silly cat... If you like{NEWLINE}this meadow so much, we’ll train here{CLEAR}from now on.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "好吧……{NEWLINE}向尾喵你如果不想走的话,{CLEAR}就在这里再多待会儿吧。",
+   "en": "Oh, all right... Skitty, if you don’t{NEWLINE}want to leave, you can stay here a{CLEAR}little longer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The cat is called 向尾喵 (Skitty) in most lines but 卷尾猫 (Glameow) in #5/#19/#48, with Glameow cries); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 38,
+   "zh": "猫老大『Per——si！{NEWLINE}向尾喵『Glaaaa——meo！",
+   "en": "Persian: Per-si!{NEWLINE}Skitty: Glaaaa-meo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (Label 向尾喵 (Skitty) on a Glameow cry); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 39,
+   "zh": "柑果有着特殊的香味儿,{NEWLINE}对口袋妖怪来说这种味道{CLEAR}有镇静安神的作用,{CLEAR}比起新型机械构造的球,{CLEAR}口袋妖怪们更适合待在柑果球里。{SCROLL}所以我觉得愿意用柑果球{NEWLINE}来容纳口袋妖怪的训练家,{CLEAR}才是对口袋妖怪足够有爱的训练家。{SCROLL}我曾经的一位朋友{NEWLINE}就过于追求所谓的效率,{CLEAR}而过于忽视了精灵的感受。",
+   "en": "Apricorns have a special fragrance.{SCROLL}For Pokémon, that scent is calming and{NEWLINE}soothing.{SCROLL}Pokémon are much happier in Apricorn{NEWLINE}Balls than in Balls with fancy new{CLEAR}mechanical parts.{SCROLL}So I believe that only Trainers who keep{NEWLINE}their Pokémon in Apricorn Balls truly{CLEAR}love their Pokémon enough.{SCROLL}A friend of mine was so obsessed with{NEWLINE}so-called efficiency that he ignored how{CLEAR}his Pokémon felt.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "比起战斗的能力,{NEWLINE}精灵的可爱外表更重要。{SCROLL}据说枯叶市有一批{NEWLINE}坚决拥护这个理念的人,{CLEAR}他们还组建了一个口袋妖怪同好会,{CLEAR}好想去那里看看啊。",
+   "en": "A Pokémon’s cute looks matter more{NEWLINE}than its battle skills.{SCROLL}I hear there’s a group in Vermilion City{NEWLINE}who firmly believe that. They even{CLEAR}started a Pokémon Fan Club. I’d love to{CLEAR}go see it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "我们是将可爱贯彻到底的可爱少女！{NEWLINE}你要跟我们战斗吗？",
+   "en": "We’re cute girls who are cute through{NEWLINE}and through! Want to battle us?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "是因为我们太可爱了{NEWLINE}而不想跟我们战斗吗？",
+   "en": "Is it because we’re too cute that you{NEWLINE}don’t want to battle us?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "很好,让你看一下{NEWLINE}我们可爱外表下的强大！",
+   "en": "Very well. We’ll show you the power{NEWLINE}behind our cute looks!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "虽然你赢了,{NEWLINE}但还是我们比较可爱。",
+   "en": "You may have won, but we’re still cuter.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "现在我还小,{NEWLINE}只能往可爱的方向去打扮。{CLEAR}等我以后长大了,{CLEAR}我就往成熟艳丽的方向去打扮！",
+   "en": "I’m still little, so I can only dress up{NEWLINE}cute. When I grow up, I’m going for a{CLEAR}grown-up, glamorous look!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "前段时间发现在地下通道{NEWLINE}有训练家做赌博性质的对战。{CLEAR}为了避免类似的事情再发生,{CLEAR}所以就封禁了这条地下通道。",
+   "en": "A while ago, we found Trainers holding{NEWLINE}battles for bets down in the{CLEAR}Underground Path.{SCROLL}To keep that from happening again, the{NEWLINE}Underground Path was closed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "当我花更多时间{NEWLINE}与猫老大进行感情交流之后,{CLEAR}我们的相处变得更加轻松愉快,{CLEAR}训练效果也更好了。{SCROLL}能学到这些东西都要感谢你,{NEWLINE}作为回报这个技能机送给你吧。",
+   "en": "Once I spent more time bonding with{NEWLINE}Persian, we got along better and had{CLEAR}more fun, and training went better too.{SCROLL}I owe everything I learned to you.{NEWLINE}Please take this TM as thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "原来锻炼精灵{NEWLINE}还有这么多标准化的方法,{CLEAR}我以前那样随随便便地培养{CLEAR}感觉耽误了卷尾猫不少时间呢……",
+   "en": "So there are all these standard{NEWLINE}methods for training Pokémon. I was so{CLEAR}careless raising my Glameow before, I{CLEAR}feel like I wasted a lot of its time...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "爷爷我这么大岁数了{NEWLINE}还能保持身体健康,{CLEAR}靠的就是平时多吃营养保健品。{CLEAR}你虽然年轻,但是也要注意保健啊,{CLEAR}要来点营养品补补吗？{SCROLL}",
+   "en": "At my age, I’m still in good health. The{NEWLINE}secret is eating lots of health foods.{SCROLL}You may be young, but you should take{NEWLINE}care of your health too. Want some{CLEAR}health food to build you up?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "月见山泉水,1000元",
+   "en": "Fresh Water, $1000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 51,
+   "zh": "复活草,20000元",
+   "en": "Revival Herb, $20000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "哞哞牛奶,2500元",
+   "en": "Moomoo Milk, $2500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 53,
+   "zh": "我很健康,不用补了",
+   "en": "I’m healthy, no thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 54,
+   "zh": "注意身体健康啊年轻人,{NEWLINE}要是哪里不舒服了{CLEAR}可以再来试试我的补品。",
+   "en": "Look after your health, young one. If{NEWLINE}you ever feel unwell, come try my health{CLEAR}foods again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "纯天然的月见山泉水,{NEWLINE}喝了对身体大有好处哦。",
+   "en": "All-natural Fresh Water from Mt. Moon.{NEWLINE}Drinking it does wonders for the body.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "保持身体健康是需要花钱的,{NEWLINE}我这里可不免费施舍补品。",
+   "en": "Staying healthy costs money. I don’t{NEWLINE}hand out my health foods for free.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "年轻人眼光真好,{NEWLINE}这可是能让人直接返老还童的神草。",
+   "en": "You’ve got a good eye, young one.{SCROLL}This is a miracle herb that’ll make you{NEWLINE}young again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "牛奶好啊,多吃肉蛋奶{NEWLINE}非但不会让热带雨林消失,{CLEAR}反而会让你有更强的力量去击退邪恶。",
+   "en": "Milk is great! Eating more meat, eggs{NEWLINE}and milk won’t make the rainforests{CLEAR}disappear. It’ll give you the strength{CLEAR}to fight off evil!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "因为金黄市被火箭队袭击,{NEWLINE}地下通道作为应急通道被重新启用了。",
+   "en": "Since Team Rocket attacked Saffron{NEWLINE}City, the Underground Path has been{CLEAR}reopened as an emergency route.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "菊子『得到金黄市{NEWLINE}被火箭队袭击的消息后,{CLEAR}我们四天王便火速赶来解围。{CLEAR}但却被眼前这道看不见的屏障{CLEAR}阻挡在了城市外面。{CLEAR}我的耿鬼就算幻化成气体、影子{CLEAR}都无法穿过去。{CLEAR}唉,年纪大了,{CLEAR}连这道小小的透明墙都能把我难住。",
+   "en": "Agatha: When we heard Team Rocket had{NEWLINE}attacked Saffron City, we Elite Four{CLEAR}rushed over to help.{SCROLL}But this invisible barrier has kept us{NEWLINE}out of the city.{SCROLL}Even when my Gengar turns into gas or a{NEWLINE}shadow, it can’t get through.{SCROLL}Hmph. I’m getting old, when a little{NEWLINE}see-through wall like this can stump me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "耿鬼『Gen——ga！",
+   "en": "Gengar: Gen-ga!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "娜姿『{VAR:0103:0},{NEWLINE}火箭队不仅占领了金黄市,{CLEAR}还在城市外围制造了一道透明屏障。{CLEAR}金黄市的四个入口{CLEAR}全都被屏障封住无法通过。{CLEAR}即使我用超能力也无法打破屏障。{SCROLL}娜姿『原本计划由四天王和馆主们{NEWLINE}分别从四个入口突入城市围攻火箭队。{CLEAR}结果现在大家都被挡在了外面。{SCROLL}娜姿『依目前的状况看,{NEWLINE}菊子女士和我的能力{CLEAR}都无法破解屏障。{CLEAR}不如你先去金黄市的另外三个入口,{CLEAR}看看其他训练家破解屏障的思路。{CLEAR}我也趁这段时间再想想{CLEAR}有没有其他进入金黄市的办法。",
+   "en": "Sabrina: {VAR:0103:0}. Team Rocket hasn’t{NEWLINE}just taken over Saffron City. They’ve{CLEAR}put up an invisible barrier around it.{SCROLL}All four entrances to Saffron City are{NEWLINE}sealed off by the barrier. Even my{CLEAR}psychic powers can’t break it.{SCROLL}Sabrina: The plan was for the Elite Four{NEWLINE}and the Gym Leaders to storm the city{CLEAR}through the four entrances and{CLEAR}surround Team Rocket.{SCROLL}Instead, we’re all stuck outside.{SCROLL}Sabrina: As things stand, neither{NEWLINE}Agatha’s powers nor mine can break it.{SCROLL}Why don’t you go to Saffron City’s{NEWLINE}other three entrances first, and see{CLEAR}what the other Trainers have in mind?{SCROLL}In the meantime, I’ll think about{NEWLINE}whether there’s another way into{CLEAR}Saffron City.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "胡地『Alaaa——ka！",
+   "en": "Alakazam: Alaaa-ka!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "小蓝『{VAR:0103:0},{NEWLINE}我刚离开金黄市去找娜姿小姐,{CLEAR}就感觉身后有些不对劲。{CLEAR}于是转身想回去看看,{CLEAR}结果却撞上了一道无形的屏障。{SCROLL}小蓝『这道看起来牢不可破的屏障,{NEWLINE}很有可能是火箭队用特殊增幅装置{CLEAR}把吸盘魔偶的力量放大后做出的。{CLEAR}如果能破除那个增幅装置的话,{CLEAR}或许就能破除屏障。",
+   "en": "Green: {VAR:0103:0}, I’d only just left{NEWLINE}Saffron City to go find Sabrina when I{CLEAR}sensed something wrong behind me.{SCROLL}So I turned around to go back and{NEWLINE}check, and hit an invisible barrier.{SCROLL}Green: This barrier looks unbreakable.{NEWLINE}Team Rocket probably made it by{CLEAR}boosting a Mr. Mime’s power with some{CLEAR}special amplifier.{SCROLL}If we can destroy that amplifier, we{NEWLINE}might be able to break the barrier.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Partner branch: #64/#76 Green (male-player route), #65/#77 Red (female-player route)."
+  },
+  {
+   "id": 65,
+   "zh": "小赤『{VAR:0103:0},{NEWLINE}我刚离开金黄市去找娜姿小姐,{CLEAR}就感觉身后有些不对劲。{CLEAR}于是转身想回去看看,{CLEAR}结果却撞上了一道无形的屏障。{SCROLL}小赤『这道看起来牢不可破的屏障,{NEWLINE}很有可能是火箭队用特殊增幅装置{CLEAR}把吸盘魔偶的力量放大后做出的。{CLEAR}如果能破除那个增幅装置的话,{CLEAR}或许就能破除屏障。",
+   "en": "Red: {VAR:0103:0}, I’d only just left{NEWLINE}Saffron City to go find Sabrina when I{CLEAR}sensed something wrong behind me.{SCROLL}So I turned around to go back and{NEWLINE}check, and hit an invisible barrier.{SCROLL}Red: This barrier looks unbreakable.{NEWLINE}Team Rocket probably made it by{CLEAR}boosting a Mr. Mime’s power with some{CLEAR}special amplifier.{SCROLL}If we can destroy that amplifier, we{NEWLINE}might be able to break the barrier.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "妙蛙花『Venu——sau！",
+   "en": "Venusaur: Venu-sau!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 67,
+   "zh": "现在地下通道正式重新启用,{NEWLINE}我作为这里的巡警,要严格监督,{CLEAR}杜绝再发生地下赌博式决斗的事情。",
+   "en": "The Underground Path has officially{NEWLINE}reopened. As the officer here, I’ll keep{CLEAR}a close watch to make sure no{CLEAR}underground betting battles ever{CLEAR}happen again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "娜姿『你已经去金黄市的其他入口{NEWLINE}都看过了啊。{CLEAR}大家都没办法破解屏障吗……{SCROLL}娜姿『……{SCROLL}娜姿『我刚刚倒是想了一个办法,{NEWLINE}只是不知道能不能成功。{SCROLL}娜姿『{VAR:0103:0}你是去过{NEWLINE}我所制造的异空间的。{CLEAR}我的超能力虽然没法穿透屏障{CLEAR}将人直接送进金黄市,{CLEAR}但是我可以把人先送进异空间,{CLEAR}再通过异空间里我的分身{CLEAR}把人传送到金黄道馆。{CLEAR}这样就能绕开屏障进入金黄市了。",
+   "en": "Sabrina: So you’ve checked all of{NEWLINE}Saffron City’s other entrances. And{CLEAR}nobody could break the barrier...{SCROLL}Sabrina: ...{SCROLL}Sabrina: I’ve just thought of one way,{NEWLINE}though I don’t know if it will work.{SCROLL}Sabrina: {VAR:0103:0}, you’ve been to the{NEWLINE}other dimension I created.{SCROLL}My psychic powers can’t pierce the{NEWLINE}barrier to send someone straight into{CLEAR}Saffron City.{SCROLL}But I can send someone into my other{NEWLINE}dimension first, then have my double{CLEAR}there send them on to the Saffron Gym.{SCROLL}That way, we can get around the barrier{NEWLINE}and into Saffron City.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "娜姿『只是像四天王{NEWLINE}和诸位馆主这样的强者,{CLEAR}他们的意志力也很强大,{CLEAR}我的传送术无法影响到他们。{CLEAR}而实力不行的人{CLEAR}传送进金黄市又起不到作用。{CLEAR}我现在能想到的最合适被传送的对象{CLEAR}就只有你了,{VAR:0103:0}。{SCROLL}娜姿『你的意志力刚刚达到{NEWLINE}能够抵抗我超能力的程度。{CLEAR}如果你彻底放松精神,{CLEAR}而我拼劲全力,{CLEAR}应该还有希望把你传送进去。{CLEAR}怎么样,你愿意配合我的方法{CLEAR}尝试着进入金黄市吗？",
+   "en": "Sabrina: The trouble is, strong people{NEWLINE}like the Elite Four and the Gym Leaders{CLEAR}also have very strong wills.{SCROLL}My teleportation can’t affect them. And{NEWLINE}sending in someone who isn’t strong{CLEAR}enough would be pointless.{SCROLL}Right now, the only person I can think{NEWLINE}of who’s right to send is you, {VAR:0103:0}.{SCROLL}Sabrina: Your willpower is only just{NEWLINE}strong enough to resist my powers.{SCROLL}If you relax your mind completely and I{NEWLINE}give it everything I have, there’s still{CLEAR}hope I can send you in.{SCROLL}Well? Will you go along with my plan and{NEWLINE}try to get into Saffron City?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "娜姿『真是太好了！{SCROLL}娜姿『你现在放松精神,{NEWLINE}什么都不要想,{CLEAR}就像是要睡着那种状态。{CLEAR}对,就是这样。{CLEAR}我现在要开始传送你了。",
+   "en": "Sabrina: I’m so glad!{SCROLL}Sabrina: Now relax your mind. Don’t{NEWLINE}think about anything, as if you’re about{CLEAR}to fall asleep.{SCROLL}Yes, just like that. I’m going to start{NEWLINE}sending you now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "娜姿『呀啊啊啊啊——！",
+   "en": "Sabrina: Hyaaaaaah!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "娜姿『去吧！",
+   "en": "Sabrina: Go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "娜姿『呼、呼、呼……{NEWLINE}啊……{VAR:0103:0}……{CLEAR}我……已经……呼……{CLEAR}精疲力竭了……{SCROLL}娜姿『呼……剩下的……{NEWLINE}就……呼……交给……{CLEAR}你了……呼……{SCROLL}娜姿『不要……逞强……呼……{NEWLINE}去正面……呼……{CLEAR}攻击……火箭队……{CLEAR}只要想办法……呼……{CLEAR}解除屏障……{CLEAR}呼……胜利必然……{CLEAR}就是咱们的……呼……{SCROLL}娜姿『呼、呼……以防万一……{NEWLINE}呼……把我家里的那个……呼……{CLEAR}那个娃娃……也带上……呼……{NEWLINE}要小心呐……",
+   "en": "Sabrina: Hah, hah, hah...{SCROLL}Ah... {VAR:0103:0}... I’m... hah...{NEWLINE}completely... drained...{SCROLL}Sabrina: Hah... The rest... is... hah...{NEWLINE}up to... you... hah...{SCROLL}Sabrina: Don’t... push yourself...{NEWLINE}hah... Don’t attack... Team Rocket...{CLEAR}head-on... hah...{SCROLL}If you can just... find a way... to lift{NEWLINE}the barrier... hah... victory... will{CLEAR}be... ours... hah...{SCROLL}Sabrina: Hah, hah... Just in case...{NEWLINE}take that... hah... doll from my{CLEAR}house... Be careful...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "娜姿『怎么样,{VAR:0103:0}{NEWLINE}你愿意配合我的方法{CLEAR}尝试着进入金黄市吗？",
+   "en": "Sabrina: Well, {VAR:0103:0}?{SCROLL}Will you go along with my plan and try to{NEWLINE}get into Saffron City?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "前面有一道看不见的屏障,{NEWLINE}无法再向前走了。",
+   "en": "There’s an invisible barrier ahead. You{NEWLINE}can’t go any farther.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 76,
+   "zh": "小蓝『啊？问我怎么知道的？{NEWLINE}哈哈,当然是猜的呀！",
+   "en": "Green: Huh? How did I know? Ha ha, I{NEWLINE}guessed, of course!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "小赤『啊？问我怎么知道的？{NEWLINE}嗯……这个嘛……我猜的……",
+   "en": "Red: Huh? How did I know? Well... um... I{NEWLINE}guessed...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "当我花更多时间{NEWLINE}与猫老大进行感情交流之后,{CLEAR}我们的相处变得更加轻松愉快,{CLEAR}训练效果也更好了。",
+   "en": "Once I spent more time bonding with{NEWLINE}Persian, we got along better and had{CLEAR}more fun, and training went better too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "徽章数量就代表训练家的等级,{NEWLINE}你跟我的等级相差太多,{CLEAR}咱们两个就没必要对战了吧。",
+   "en": "The number of Badges shows a Trainer’s{NEWLINE}rank. Our ranks are too far apart.{CLEAR}There’s no point in us battling.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "你的训练家等级看起来很高啊,{NEWLINE}要跟我来场对战比试一下吗？{SCROLL}",
+   "en": "Your Trainer rank looks pretty high.{NEWLINE}Want to have a battle with me?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "你想单打还是双打？{SCROLL}",
+   "en": "Single or Double Battle?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 82,
+   "zh": "单打",
+   "en": "Single",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 83,
+   "zh": "双打",
+   "en": "Double",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 84,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 85,
+   "zh": "你的精灵不够进行双打。",
+   "en": "You don’t have enough Pokémon for a{NEWLINE}Double Battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "好的,来一场高水平的对决吧！",
+   "en": "All right, let’s have a high-level{NEWLINE}battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "跟你这样的强者对决,{NEWLINE}即使输了也很开心。",
+   "en": "Battling someone as strong as you is{NEWLINE}fun, even if I lose.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "彷徨夜灵『Dus——clop！",
+   "en": "Dusclops: Dus-clop!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

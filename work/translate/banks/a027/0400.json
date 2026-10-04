@@ -1,0 +1,1207 @@
+{
+ "narc": "a027",
+ "bank": 400,
+ "source": "work/extract/v4/a027/0400.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "{VAR:FF01:200}阿金『偶像！！！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Gold: Idol!!!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "阿金『我在前面发现了一伙人,{NEWLINE}看穿着应该是火箭队。{CLEAR}偶像你也来看看吧,{CLEAR}如果真是火箭队要干什么坏事,{CLEAR}咱们必须出手阻止他们才行！",
+   "en": "Gold: I spotted a group of people{NEWLINE}up ahead. From their clothes,{CLEAR}they must be Team Rocket.{SCROLL}Come take a look too, Idol. If Team{NEWLINE}Rocket really is up to something{CLEAR}bad, we’ve got to stop them!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}『好的阿金,{NEWLINE}你先跟住他们,{CLEAR}我随后就到。",
+   "en": "{VAR:0103:0}: OK, Gold. You keep tailing{NEWLINE}them. I’ll be right behind you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "阿金『没问题,交给我吧！",
+   "en": "Gold: No problem. Leave it to me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "还是先去阿金那边{NEWLINE}看看火箭队的情况吧。",
+   "en": "I’d better go check on Gold{NEWLINE}and see what Team Rocket’s up to.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "阿四『唔哈哈,我正在这里训练呢,{NEWLINE}冠军大人是特意来找我的吗！{CLEAR}既然如此要拍张照片{CLEAR}留作纪念吗？{VAR:0200:0}",
+   "en": "Chuck: Wahahah! I’m training here!{NEWLINE}Did you come all this way just to{CLEAR}see me, Champion? In that case, how{CLEAR}about a photo to remember it by?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "阿四『要照了，{NEWLINE}别眨眼啊！{SCROLL}",
+   "en": "Chuck: Say cheese!{NEWLINE}Don’t close your eyes!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0407/6"
+  },
+  {
+   "id": 7,
+   "zh": "阿四『很棒的照片！{NEWLINE}你也有个好纪念品了！",
+   "en": "Chuck: Great picture!{NEWLINE}This will be a good memory for you, too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US line kept, typo 'wil' fixed"
+  },
+  {
+   "id": 8,
+   "zh": "阿四『追到这里来{NEWLINE}太有诚意了！",
+   "en": "Chuck: You followed me all the way here?{NEWLINE}That’s real dedication!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The hack’s line (\"You followed me all the way here, how sincere!\") differs from the US refusal line, which English had kept); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 9,
+   "zh": "相册好像装满了。{SCROLL}请在电脑里整理相册的照片。",
+   "en": "Your Photo Album seems to be full.{SCROLL}Please sort out the pictures{NEWLINE}in your album on a PC.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0103:0}『阿金？{NEWLINE}你怎么跑那边去了？",
+   "en": "{VAR:0103:0}: Gold? What are{NEWLINE}you doing over there?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "阿金『偶像,快看上面那伙人,{NEWLINE}果然就是火箭队没错。{CLEAR}他们在那摆了个奇怪的机器,{CLEAR}好像是要干什么。",
+   "en": "Gold: Idol, look at those people{NEWLINE}up there. They’re Team Rocket,{CLEAR}all right. They’ve set up some{CLEAR}weird machine over there. Looks{CLEAR}like they’re up to something.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "梨花『冥王发明的这个装置{NEWLINE}到底行不行啊,{CLEAR}可别又掉链子。",
+   "en": "Karen: Is this device Charon{NEWLINE}invented even going to work?{CLEAR}It had better not fail us again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "一树『因为没有得到{NEWLINE}浅葱灯塔的电龙,{CLEAR}所以装置可能没法做到完美。{CLEAR}不过以目前吸引电系精灵的效果来看,{CLEAR}应该能达到咱们的预期。",
+   "en": "Will: Since we didn’t get Amphy{NEWLINE}from the Olivine Lighthouse,{CLEAR}the device may not be perfect.{SCROLL}But judging by how well it’s drawing{NEWLINE}in Electric-type Pokémon so far,{CLEAR}it should do what we expect.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "浅葱灯塔的电龙 = Amphy"
+  },
+  {
+   "id": 14,
+   "zh": "梨花『这种路边的野狗{NEWLINE}吸引多少都没有意义,{CLEAR}关键是要引出雷公那家伙。",
+   "en": "Karen: Luring in any number of these{NEWLINE}stray mutts means nothing. What{CLEAR}matters is drawing out that Raikou.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "路边的野狗 (Karen's contempt for the lured wild Electric types) → 'stray mutts'"
+  },
+  {
+   "id": 15,
+   "zh": "一树『能量探测器显示雷公就在附近,{NEWLINE}再耐心等一会儿吧。",
+   "en": "Will: The energy detector shows Raikou{NEWLINE}is nearby. Be patient a little longer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "阿金『偶像,我记得那两个人是{NEWLINE}跟你一起参加过石英大会的选手,{CLEAR}看这个架势,{CLEAR}他们该不会是加入火箭队了吧？",
+   "en": "Gold: Idol, I remember those two.{NEWLINE}They were in the Indigo Conference{CLEAR}with you. From the look of it... they{CLEAR}didn’t join Team Rocket, did they?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}『他们本来就是火箭队的人,{NEWLINE}只是因为一些原因我没有证据,{CLEAR}所以没法当众揭穿他们。",
+   "en": "{VAR:0103:0}: They were Team Rocket{NEWLINE}all along. For certain reasons{CLEAR}I didn’t have proof, so I{CLEAR}couldn’t expose them in public.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "阿金『现在他们跟火箭队混在一起,{NEWLINE}这就是最好的罪证。{CLEAR}而且听他们的对话{CLEAR}好像是在打雷公的主意。{CLEAR}咱们可不能让雷公落到火箭队手里！",
+   "en": "Gold: Well, now they’re{NEWLINE}hanging out with Team Rocket.{CLEAR}That’s all the proof we need.{SCROLL}And from what they were saying,{NEWLINE}it sounds like they’re after{CLEAR}Raikou. We can’t let Raikou{CLEAR}fall into Team Rocket’s hands!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "阿金『喂喂喂！你们这些火箭队,{NEWLINE}是在这组团观光吗？",
+   "en": "Gold: Hey, hey, hey! You Team Rocket{NEWLINE}guys on some kind of group tour?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "梨花『怎么会有臭小鬼到这儿来。",
+   "en": "Karen: How did some stinking{NEWLINE}brat get all the way up here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "一树『呵,看来不只是臭小鬼啊,{NEWLINE}还有位老相识也来了呢。",
+   "en": "Will: Heh. Looks like it’s not{NEWLINE}just a stinking brat. An old{CLEAR}acquaintance has come too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "梨花『切,联盟冠军{VAR:0103:0}吗……",
+   "en": "Karen: Tch. League Champion {VAR:0103:0}...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "阿金『我说你们两个,{NEWLINE}不要臭小鬼、臭小鬼地叫啊！{CLEAR}我可是冠军{VAR:0103:0}的得力帮手,{CLEAR}专门收拾你们火箭队的！",
+   "en": "Gold: Hey, you two, quit calling{NEWLINE}me a stinking brat! I’m Champion{CLEAR}{VAR:0103:0}’s right-hand man, and I’m{CLEAR}here to take out Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "一树『你这个联盟冠军{NEWLINE}是在浅葱灯塔上察觉到了什么,{CLEAR}所以才一路追踪到这来的吗？",
+   "en": "Will: Did you notice something at{NEWLINE}the Olivine Lighthouse, League{CLEAR}Champion? Is that why you{CLEAR}tracked us all the way here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "阿金『别无视我啊！{NEWLINE}是我发现了你们火箭队的踪迹,{CLEAR}才拉着偶像过来的。",
+   "en": "Gold: Don’t ignore me! I’m the{NEWLINE}one who found your trail, and{CLEAR}I dragged my idol over here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "梨花『你当上联盟冠军之后{NEWLINE}越来越花哨了,{CLEAR}居然还找了个啦啦队跟班,{CLEAR}真是有够吵的。",
+   "en": "Karen: You’ve gotten flashier and{NEWLINE}flashier since you became League{CLEAR}Champion. Now you’ve even got a{CLEAR}cheerleader sidekick. So noisy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "阿金『喂！！！你们这帮混蛋！！！",
+   "en": "Gold: Hey!!! You bunch of jerks!!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0103:0}『不要用废话拖延时间了。{NEWLINE}根据我刚才偷听到的对话内容,{CLEAR}你们应该是想用那边的装置{CLEAR}吸引雷公过来然后趁机捕捉吧？",
+   "en": "{VAR:0103:0}: Stop stalling{NEWLINE}with this nonsense. From what{CLEAR}I just overheard, you’re planning{CLEAR}to use that device over there to{CLEAR}lure Raikou in and catch it, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "一树『很敏锐的洞察力,{NEWLINE}真不愧是我们火箭队的宿敌。",
+   "en": "Will: Very perceptive. As expected{NEWLINE}of Team Rocket’s archenemy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0103:0}『那么只要在雷公出现之前{NEWLINE}破坏掉那个装置,{CLEAR}应该就能阻止你们的计划。",
+   "en": "{VAR:0103:0}: Then all I have to do is{NEWLINE}destroy that device before Raikou{CLEAR}shows up, and your plan is over.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "梨花『嗯哼,完全正确。{NEWLINE}但前提是你能做得到。",
+   "en": "Karen: Mm-hmm, exactly right.{NEWLINE}That is, if you can do it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "阿金『有我和偶像在,{NEWLINE}打败你们还不是小菜一碟！",
+   "en": "Gold: With me and my idol here,{NEWLINE}beating you will be a piece of cake!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0103:0}『阿金,不可以大意,{NEWLINE}这两个人非常厉害。",
+   "en": "{VAR:0103:0}: Gold, don’t let your guard{NEWLINE}down. These two are really strong.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "梨花『臭小鬼口气挺大啊,{NEWLINE}但是我们现在可没时间教育你。",
+   "en": "Karen: Big talk from a stinking{NEWLINE}brat. But we don’t have time to{CLEAR}teach you a lesson right now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "一树『你们几个,{NEWLINE}把这两个家伙给我拖住。",
+   "en": "Will: You lot, hold these{NEWLINE}two off for me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "{VAR:FF01:200}火箭队员『是！！！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Grunts: Yes, sir!!!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "为了我最喜欢的梨花大人,{NEWLINE}我跟你拼了！",
+   "en": "For my beloved Master Karen,{NEWLINE}I’ll fight you to the end!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "为了我最喜欢的一树大人,{NEWLINE}你去死吧！",
+   "en": "For my beloved Master Will... die!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "对不起,梨花大人,我失败了……",
+   "en": "I’m sorry, Master Karen. I failed...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "不要啊,我会被一树大人讨厌的。",
+   "en": "No! Master Will is going to hate me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "我们可不会{NEWLINE}把无聊的感情带进战斗。",
+   "en": "We don’t bring pointless{NEWLINE}feelings into battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "我们只会用最理智的方式击败你！",
+   "en": "We’ll beat you in the most{NEWLINE}rational way possible!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0103:0}『你们的计划到此为止了！",
+   "en": "{VAR:0103:0}: Your plan ends here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "是,一树大人！",
+   "en": "Yes, Master Will!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "一树『站起来雷公,{NEWLINE}吸取电能继续战斗！",
+   "en": "Will: Get up, Raikou.{NEWLINE}Absorb the power and keep fighting!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "一树『居然能连续击败雷公两次,{NEWLINE}没想到你居然强到这种地步。",
+   "en": "Will: You beat Raikou twice in a row? I{NEWLINE}never imagined you were this strong.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "不行了,撑不住了……",
+   "en": "I can’t... I can’t hold out...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "没能达成使命……",
+   "en": "I couldn’t complete my mission...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "一树『没想到四个队员{NEWLINE}只拖了这么短时间。{CLEAR}看来只能咱们亲自出马了。",
+   "en": "Will: Four grunts, and they only held{NEWLINE}them off for this long? Looks like{CLEAR}we’ll have to handle this ourselves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "梨花『我就不信你们战斗这么久之后,{NEWLINE}还有余力打赢我们两个。",
+   "en": "Karen: After fighting this long,{NEWLINE}I don’t believe you have anything{CLEAR}left to beat the two of us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "一树『可恶啊……",
+   "en": "Will: Blast it...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "雷公『Raiii——ko！",
+   "en": "Raikou: Raiii-ko!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "梨花『雷公出现了！",
+   "en": "Karen: Raikou’s here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "一树『哈哈,时机刚刚好,{NEWLINE}快启用拘束器功能！",
+   "en": "Will: Hah hah! Perfect timing.{NEWLINE}Activate the restraint function, now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "阿金『喂喂喂,雷公！",
+   "en": "Gold: Hey, hey, hey! Raikou!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "{VAR:0103:0}『不只是能吸引雷公,{NEWLINE}甚至还能捕捉！？",
+   "en": "{VAR:0103:0}: It doesn’t just lure{NEWLINE}Raikou in, it can even catch it?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "一树『雷公,臣服在这强大的能量下吧,{NEWLINE}从现在起你是我们火箭队的精灵了！",
+   "en": "Will: Raikou, submit to this{NEWLINE}overwhelming power! From now on,{CLEAR}you’re Team Rocket’s Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "一树『哈哈哈哈哈,{NEWLINE}我现在可以掌控雷公的力量了,{CLEAR}你这个联盟冠军就在这化为焦炭吧！",
+   "en": "Will: Hah hah hah hah hah! Now I{NEWLINE}control Raikou’s power! Burn to a{CLEAR}crisp right here, League Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "一树『哼,没想到借助雷公的力量{NEWLINE}还是打不过你,{CLEAR}但只要装置还在,{CLEAR}雷公就可以吸取电能恢复体力。",
+   "en": "Will: Hmph. Even with Raikou’s power{NEWLINE}I can’t beat you. But as long as{CLEAR}the device is still here, Raikou can{CLEAR}absorb power from it and recover.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "阿金『关键是装置吗……",
+   "en": "Gold: So the device is the key...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "一树『来吧,联盟冠军,{NEWLINE}我看你还能撑多久！",
+   "en": "Will: Come on, League Champion.{NEWLINE}Let’s see how long you can hold out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "阿金『偶像挺住,{NEWLINE}我去把那个装置给破坏掉！",
+   "en": "Gold: Hang in there, Idol!{NEWLINE}I’ll go wreck that device!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "梨花『你休想打装置的主意！",
+   "en": "Karen: Don’t even think about{NEWLINE}going after that device!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "灾难兽『Aaaa——so！",
+   "en": "Absol: Aaaa-so!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "梨花『对付你这种臭小鬼,{NEWLINE}我还是绰绰有余的。",
+   "en": "Karen: I’ve got more than enough{NEWLINE}to handle a stinking brat like you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "阿金『哦？那你能挡住我的精灵球吗？",
+   "en": "Gold: Oh? Then can{NEWLINE}you stop my Poké Ball?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "梨花『精灵球？",
+   "en": "Karen: Poké Ball?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "阿金『看我的杆法！",
+   "en": "Gold: Check out my cue work!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "梨花『想让球撞墙拐弯绕过我去？{NEWLINE}真是天真的战术。",
+   "en": "Karen: Bounce the Ball off the wall to{NEWLINE}curve it around me? What a naive trick.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "阿金『嘿嘿……{SCROLL}阿金『看我的二连球！",
+   "en": "Gold: Heh heh...{SCROLL}Gold: Check out my combo shot!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Gold's billiards-style Poké Ball shots (杆法 / 二连球), as 0399 #84"
+  },
+  {
+   "id": 71,
+   "zh": "梨花『混蛋,居然用球撞球！",
+   "en": "Karen: Damn you! He used{NEWLINE}a ball to hit another ball!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "阿金『上啊波克太郎,{NEWLINE}使用空气切割劈碎那个装置！",
+   "en": "Gold: Go, Togebo! Use Air Slash{NEWLINE}and smash that device to pieces!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "波克基古『Tooo——ge！",
+   "en": "Togetic: Tooo-ge!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "雷公『Raiii——ko！{SCROLL}雷公的眼神变得不一样了。",
+   "en": "Raikou: Raiii-ko!{SCROLL}The look in Raikou’s eyes has changed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "雷公『Raiii——ko！{SCROLL}雷公的眼神变复原了。",
+   "en": "Raikou: Raiii-ko!{SCROLL}Raikou’s eyes are back to normal.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "一树『啊……！{NEWLINE}我的超能力无法控制雷公了。",
+   "en": "Will: Ah...!{NEWLINE}My psychic powers can’t control Raikou!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "梨花『不……雷公！",
+   "en": "Karen: No... Raikou!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "阿金『哈哈,装置被破坏了,{NEWLINE}干得漂亮波克太郎！",
+   "en": "Gold: Hah hah! The device is{NEWLINE}busted! Nice job, Togebo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "{VAR:0103:0}『雷公已经跑掉了,{NEWLINE}你们彻底失败了。",
+   "en": "{VAR:0103:0}: Raikou has run off.{NEWLINE}You’ve failed completely.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "一树『明明就差一点,真是不甘心。",
+   "en": "Will: We were so close.{NEWLINE}This is infuriating.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "梨花『都是这个小鬼害的,{NEWLINE}你去死吧！",
+   "en": "Karen: This is all that brat’s{NEWLINE}fault. Die!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "阿金『哇哇哇,哪有突然攻击人的,{NEWLINE}你们火箭队真是不讲武德！",
+   "en": "Gold: Whoa, whoa, whoa! Who attacks{NEWLINE}people out of nowhere? You Team{CLEAR}Rocket guys have no martial ethics!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "{VAR:0103:0}『你不要紧吧,阿金。",
+   "en": "{VAR:0103:0}: Are you all right, Gold?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "阿金『嘿嘿,没事。{NEWLINE}刚刚波克太郎帮我挡下了攻击。",
+   "en": "Gold: Heh heh, I’m fine. Togebo{NEWLINE}blocked the attack for me just now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "梨花『混蛋,至少要把{NEWLINE}这个臭小鬼给……",
+   "en": "Karen: Damn you, I’ll at least{NEWLINE}take this stinking brat...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "一树『梨花不要恋战！{NEWLINE}咱们该回去复命了。",
+   "en": "Will: Karen, don’t drag this out!{NEWLINE}We need to go back and report.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "梨花『切……",
+   "en": "Karen: Tch...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "一树『全体队员,撤退！",
+   "en": "Will: All units, retreat!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "阿金『终于走了,{NEWLINE}这两个火箭队干部好难对付啊。",
+   "en": "Gold: They’re finally gone. Those two{NEWLINE}Team Rocket Executives are tough.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "{VAR:0103:0}『他们应该是火箭队{NEWLINE}搞的一个什么尖兵训练营,{CLEAR}那里面培训出来的训练家。",
+   "en": "{VAR:0103:0}: They must be{NEWLINE}Trainers trained at some kind{CLEAR}of boot camp Team Rocket runs.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "阿金『啊？火箭队是在量产{NEWLINE}这种实力的训练家吗？",
+   "en": "Gold: Huh? Team Rocket is{NEWLINE}mass-producing Trainers this strong?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "{VAR:0103:0}『那倒不是,{NEWLINE}他们应该是尖兵训练营里{CLEAR}最强的训练家了。",
+   "en": "{VAR:0103:0}: Not quite. They must be the{NEWLINE}strongest Trainers from the boot camp.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "阿金『培养训练家、捕捉传说中的精灵……{NEWLINE}看来火箭队是打算搞个大事情啊！{SCROLL}阿金『偶像,我隐隐约约有种危机感,{NEWLINE}看来现在不是去度假区放松的时候,{CLEAR}我还是继续挑战道馆锻炼自己吧。{CLEAR}下一站就以缘朱市东面的{CLEAR}卡吉镇为目标,{CLEAR}去那里拿我的第7枚徽章！",
+   "en": "Gold: Training Trainers, catching{NEWLINE}Legendary Pokémon... Looks like Team{CLEAR}Rocket’s planning something big!{SCROLL}Gold: Idol, I’ve got a vague{NEWLINE}feeling of danger. This is no time{CLEAR}to go relax at the Resort Zone.{SCROLL}I’ll keep challenging Gyms and{NEWLINE}training myself instead. My next{CLEAR}stop is Mahogany Town, east of{CLEAR}Ecruteak City, for my 7th Badge!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "空 placeholder → '---' (D-0550)"
+  },
+  {
+   "id": 95,
+   "zh": "爆太郎『Tyyy——lo！",
+   "en": "Exbo: Tyyy-lo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "{VAR:0103:0}『呼呼……无论多少次,{NEWLINE}我都会把你们打败！",
+   "en": "{VAR:0103:0}: Huff, huff... No matter how{NEWLINE}many times it takes, I’ll beat you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "一树『哼,少在那逞强,{NEWLINE}你精灵的体力就快见底了。{CLEAR}今天一定要让你尝尝失败的滋味！",
+   "en": "Will: Hmph, quit putting on a{NEWLINE}brave face. Your Pokémon are{CLEAR}almost out of strength. Today{CLEAR}you’ll finally taste defeat!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "梨花『出来吧,灾难兽。",
+   "en": "Karen: Come out, Absol.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "阿金『还藏了一只精灵没用吗？{NEWLINE}不过我的爆太郎也还有体力。{CLEAR}上啊,爆太郎,{CLEAR}直冲过去破坏那个装置！",
+   "en": "Gold: You were hiding another Pokémon?{NEWLINE}Well, my Exbo still has some fight in{CLEAR}it too. Go, Exbo! Charge straight{CLEAR}through and wreck that device!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "我这个人有恐高症,{NEWLINE}一靠近悬崖边上腿就吓得直打哆嗦。{CLEAR}去年我走这条路时,{CLEAR}就因为吓得腿软掉了下去。{CLEAR}幸好当时有一只艾路雷朵{CLEAR}飞身跳下把我接住了。{SCROLL}不知道那只艾路雷朵{NEWLINE}现在过得怎么样,{CLEAR}有没有被哪位训练家收服。",
+   "en": "I’m scared of heights. My legs{NEWLINE}start shaking as soon as I{CLEAR}get near the edge of a cliff.{SCROLL}Last year when I came{NEWLINE}along this path, my legs gave out{CLEAR}from fright and I fell. Luckily, a{CLEAR}Gallade leapt down and caught me.{SCROLL}I wonder how that Gallade is doing{NEWLINE}now. Has some Trainer caught it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "你不觉得在悬崖边对战,{NEWLINE}是一件很浪漫的事吗？{CLEAR}如果你有时间的话,{CLEAR}就在这儿跟我比试一下怎么样？",
+   "en": "Don’t you think battling at the edge of{NEWLINE}a cliff is romantic? If you have time,{CLEAR}how about a match with me right here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "你想用哪种方式作战？",
+   "en": "How would you like to battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 104,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 105,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 106,
+   "zh": "来好好享受一下这场巅峰决战吧！",
+   "en": "Let’s enjoy a battle at the peak!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "即便是输了,但能在这里享受战斗,{NEWLINE}还是让人感觉心情畅快。",
+   "en": "I lost, but enjoying a battle{NEWLINE}here still makes me feel great.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "双打至少需要两只精灵,{NEWLINE}你带的精灵数量不够。",
+   "en": "A Double Battle needs{NEWLINE}at least two Pokémon. You{CLEAR}don’t have enough with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "你看到这条瀑布了吗？{NEWLINE}每年的这个季节,{CLEAR}千针鱼们都会顺瀑布而上{CLEAR}到上面的池塘产下宝宝。{SCROLL}但是最近千针鱼在这片水域{NEWLINE}的出生数量明显下降了,{CLEAR}我怀疑是水源污染造成的这种情况,{CLEAR}目前正在调查研究。",
+   "en": "See this waterfall? Every year at this{NEWLINE}time, Qwilfish swim up the waterfall{CLEAR}to lay their eggs in the pond above.{SCROLL}But lately the number of Qwilfish{NEWLINE}born in these waters has dropped{CLEAR}sharply. I suspect water pollution is{CLEAR}behind it, and I’m looking into it now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "根据我的考古研究成果,{NEWLINE}在这片区域应该有一个洞穴{CLEAR}能够通往异世界。{CLEAR}可是我在绕来绕去之后{CLEAR}却只发现了这块度假区的招牌。{CLEAR}是我的研究出问题了吗……",
+   "en": "According to my archaeological{NEWLINE}research, there should be{CLEAR}a cave around here that{CLEAR}leads to another world.{SCROLL}But after going around in circles, all{NEWLINE}I found was this sign for the Resort{CLEAR}Zone. Did I get my research wrong...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "千针鱼『Qwiii——fi！",
+   "en": "Qwilfish: Qwiii-fi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "我们准备去度假区{NEWLINE}参加情侣双打比赛,{CLEAR}你能陪我们过过招练习一下吗？",
+   "en": "We’re going to the Resort Zone to{NEWLINE}enter the Couples Double Battle. Could{CLEAR}you have a practice match with us?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "嘿嘿,让你看看爱情的力量！",
+   "en": "Heh heh! Let us show{NEWLINE}you the power of love!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "你很厉害嘛,{NEWLINE}如果你能带上自己的恋人{CLEAR}去度假区参加情侣双打比赛,{CLEAR}肯定能拿冠军！",
+   "en": "You’re really good! If you took{NEWLINE}your sweetheart to the Resort{CLEAR}Zone for the Couples Double{CLEAR}Battle, you’d win for sure!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "哇,吓我一跳！{NEWLINE}你这家伙什么时候过来的。",
+   "en": "Whoa, you scared me!{NEWLINE}When did you get here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "你是在捕食千针鱼？",
+   "en": "Catching Qwilfish to eat?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 117,
+   "zh": "哈哈哈,来吧来吧,{NEWLINE}美味的刺身都到我网里来吧。",
+   "en": "Hah hah hah! Come on, come on,{NEWLINE}all you tasty sashimi, into my net!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "不关我事",
+   "en": "None of my business",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 119,
+   "zh": "{VAR:0103:0}『谁要吃你的刺身,{NEWLINE}捕食口袋妖怪是法律禁止的！",
+   "en": "{VAR:0103:0}: Nobody wants your{NEWLINE}sashimi! Catching Pokémon{CLEAR}to eat is against the law!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "你什么意思,想断我财路是吗？",
+   "en": "What’s that supposed to mean? You{NEWLINE}trying to cut off my livelihood?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "{VAR:0103:0}『这种不义之财的财路,{NEWLINE}根本就不应该存在,{CLEAR}立刻停止你非法捕捉的行为。",
+   "en": "{VAR:0103:0}: A livelihood built on dirty{NEWLINE}money like that shouldn’t exist at all.{CLEAR}Stop catching them illegally right now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "{VAR:0103:0}『没错,我就是要断了你这种{NEWLINE}非法的生财之路。",
+   "en": "{VAR:0103:0}: That’s right. I’m going to cut{NEWLINE}off your illegal way of making money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "这么说你是非挡我财路不可了？{NEWLINE}俗话说断人财路犹如杀人父母,{CLEAR}我可不是那种眼睁睁看着双亲被害{CLEAR}却无动于衷的不孝子。{SCROLL}今天我就好好教教你这个年轻人,{NEWLINE}什么叫做少管闲事！",
+   "en": "So you’re set on cutting off my{NEWLINE}livelihood? As the saying goes,{CLEAR}cutting off a man’s livelihood{CLEAR}is like killing his parents.{SCROLL}And I’m not the kind of ungrateful{NEWLINE}son who watches his parents{CLEAR}get killed and does nothing.{SCROLL}Today I’ll teach you, young{NEWLINE}one, to mind your own business!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "断人财路犹如杀人父母 idiom kept literally"
+  },
+  {
+   "id": 124,
+   "zh": "{VAR:0103:0}『你在这捕捉千针鱼{NEWLINE}是想拿它们做刺身吗？",
+   "en": "{VAR:0103:0}: Are you catching Qwilfish{NEWLINE}here to make them into sashimi?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 125,
+   "zh": "{VAR:0103:0}『我在问你呢,{NEWLINE}捕捉千针鱼是为了吃吗？",
+   "en": "{VAR:0103:0}: I’m asking you. Are you{NEWLINE}catching Qwilfish to eat them?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "哦？你也喜欢吃千针鱼刺身吗？{NEWLINE}从我这里买的话很便宜哦,{CLEAR}10万块一条就卖给你,{CLEAR}你想来几条啊？",
+   "en": "Oh? You like Qwilfish sashimi too?{NEWLINE}It’s cheap if you buy from me.{CLEAR}I’ll sell you one for $100,000.{CLEAR}How many do you want?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 127,
+   "zh": "你能用攀瀑登上这里,{NEWLINE}说明你在训练家这条路上没少吃苦。{CLEAR}好不容易取得了这样的成就,{CLEAR}你就不想坐下来好好享受一下人生,{CLEAR}享受一下别人吃不到的美味吗？",
+   "en": "If you could climb up here with{NEWLINE}Waterfall, you’ve been through{CLEAR}a lot on the road as a Trainer.{SCROLL}After working so hard to get this{NEWLINE}far, don’t you want to sit back{CLEAR}and enjoy life? Enjoy a delicacy{CLEAR}nobody else gets to taste?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 128,
+   "zh": "{VAR:0103:0}『我努力成为训练家,{NEWLINE}是为了跟口袋妖怪并肩作战,{CLEAR}可不是为了吃它们。",
+   "en": "{VAR:0103:0}: I worked hard to become{NEWLINE}a Trainer so I could fight side by side{CLEAR}with Pokémon, not so I could eat them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 129,
+   "zh": "你怎么这么厉害……",
+   "en": "How are you so strong...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 130,
+   "zh": "{VAR:0103:0}『你还要为你的父母报仇吗？",
+   "en": "{VAR:0103:0}: Still want to{NEWLINE}avenge your parents?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 131,
+   "zh": "哎呀,您这是说哪的话呢。{NEWLINE}我以后一定做一个守法的好公民,{CLEAR}这种违法的买卖我再也不会干了。",
+   "en": "Oh my, what are you saying? From now on{NEWLINE}I’ll be a good, law-abiding citizen. I’ll{CLEAR}never do illegal business like this again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 132,
+   "zh": "{VAR:0103:0}『不只是以后的问题,{NEWLINE}你要为你以前所犯下的……",
+   "en": "{VAR:0103:0}: It’s not just about{NEWLINE}the future. You have to answer{CLEAR}for what you’ve done before...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 133,
+   "zh": "您说的对！{NEWLINE}但我家里的煤气灶忘关了,{CLEAR}我得赶紧回去看看！",
+   "en": "You’re absolutely right! But I forgot{NEWLINE}to turn off the gas stove at home.{CLEAR}I’ve got to hurry back and check!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 134,
+   "zh": "巨牙鲨,快！",
+   "en": "Sharpedo, go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 135,
+   "zh": "{VAR:0103:0}『做坏事的人{NEWLINE}都这么擅长逃跑吗……",
+   "en": "{VAR:0103:0}: Why are people{NEWLINE}who do bad things always{CLEAR}so good at running away...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 136,
+   "zh": "其实是因为有人在捕猎",
+   "en": "Someone’s poaching them",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 137,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 138,
+   "zh": "{VAR:0103:0}『其实瀑布上游的池塘{NEWLINE}有人在用网捕捉千针鱼卖钱。{CLEAR}这可能是千针鱼数量下降的主要原因。",
+   "en": "{VAR:0103:0}: Actually, someone’s{NEWLINE}been catching Qwilfish with a net{CLEAR}in the pond above the waterfall{CLEAR}to sell. That’s probably the main{CLEAR}reason there are fewer Qwilfish.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 139,
+   "zh": "那怎么行,在这种产卵地{NEWLINE}无节制捕鱼是明令禁止的,{CLEAR}必须要通知精灵联盟{CLEAR}赶紧制止这种事。",
+   "en": "That’s terrible! Unrestrained fishing at{NEWLINE}a spawning ground like this is strictly{CLEAR}forbidden. I have to tell the{CLEAR}Pokémon League so they can put a stop{CLEAR}to it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 140,
+   "zh": "{VAR:0103:0}『你放心吧,{NEWLINE}我已经赶跑了捕捉的人,{CLEAR}现在不会有人再威胁到千针鱼了。",
+   "en": "{VAR:0103:0}: Don’t worry. I’ve already{NEWLINE}chased off the poacher. Nothing’s{CLEAR}threatening the Qwilfish now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "真的吗？那真是太好了。{NEWLINE}人与精灵与大自然和谐相处,{CLEAR}必须要懂得克制、互惠、共存,{CLEAR}否则对其他生物的残忍,{CLEAR}最终可能会变成对人类自己的惩罚。{SCROLL}谢谢你为保护环境做出的贡献,{NEWLINE}这个是我的一点心意请你收下吧。",
+   "en": "Really? That’s wonderful. For people,{NEWLINE}Pokémon and nature to live in harmony,{CLEAR}we have to practice restraint,{CLEAR}give and take, and coexistence.{SCROLL}Otherwise, cruelty to{NEWLINE}other living things may end up as{CLEAR}punishment for humans ourselves.{SCROLL}Thank you for your part in{NEWLINE}protecting the environment. Please{CLEAR}accept this small token of my thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 142,
+   "zh": "人与精灵与大自然和谐相处,{NEWLINE}必须要懂得克制、互惠、共存,{CLEAR}否则对其他生物的残忍,{CLEAR}最终可能会变成对人类自己的惩罚。",
+   "en": "For people, Pokémon and nature{NEWLINE}to live in harmony, we have{CLEAR}to practice restraint, give{CLEAR}and take, and coexistence.{SCROLL}Otherwise, cruelty to{NEWLINE}other living things may end up as{CLEAR}punishment for humans ourselves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "我在附近遇到过一只艾路雷朵",
+   "en": "I met a Gallade near here",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 144,
+   "zh": "{VAR:0103:0}『我在附近{NEWLINE}遇到过一只艾路雷朵,{CLEAR}当时它正在试图救治一只卷耳兔,{CLEAR}不知道是不是你说的那只。",
+   "en": "{VAR:0103:0}: I met a Gallade near here.{NEWLINE}It was trying to help a Buneary.{CLEAR}I wonder if it’s the one you mean.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 145,
+   "zh": "那应该就是{NEWLINE}救我的那只艾路雷朵,{CLEAR}看来它还是一如既往地助人为乐啊。{SCROLL}谢谢你给我带来艾路雷朵的消息,{NEWLINE}这个就当做是谢礼送给你吧。",
+   "en": "That must be the Gallade that{NEWLINE}saved me. Looks like it’s still{CLEAR}helping others, same as ever.{SCROLL}Thanks for bringing me news of{NEWLINE}Gallade. Please take this as thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "我感觉像艾路雷朵、风速狗、{NEWLINE}还有路卡利欧这些口袋妖怪,{CLEAR}天生就爱帮助其他人和精灵。{SCROLL}真希望我将来也能{NEWLINE}拥有一只这样的口袋妖怪。",
+   "en": "I feel like Pokémon such as Gallade,{NEWLINE}Arcanine and Lucario are just born{CLEAR}to help other people and Pokémon.{SCROLL}I really hope I can have a{NEWLINE}Pokémon like that someday.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 147,
+   "zh": "你在旅行途中应该见到过{NEWLINE}某些岩壁上有凸起的颗粒吧？{CLEAR}如果你的精灵会攀岩术,{CLEAR}就能沿着那些凸起爬上岩壁了。{SCROLL}据说研钵山有位隐居的攀岩达人,{NEWLINE}你如果想让精灵学攀岩术的话,{CLEAR}可以去那里找他试试。",
+   "en": "On your travels, you must have{NEWLINE}seen rock walls with little bumps{CLEAR}sticking out, right? If your Pokémon{CLEAR}know Rock Climb, they can climb{CLEAR}up those walls using the bumps.{SCROLL}They say a reclusive rock-climbing{NEWLINE}master lives on Mt. Mortar. If{CLEAR}you want your Pokémon to learn{CLEAR}Rock Climb, go look for him there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 148,
+   "zh": "雷公注视着你,{NEWLINE}想要向你发起挑战。{SCROLL}要与雷公战斗吗？",
+   "en": "Raikou is staring at you,{NEWLINE}wanting to challenge you.{SCROLL}Battle Raikou?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

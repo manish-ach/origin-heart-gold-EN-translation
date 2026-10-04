@@ -1,0 +1,1415 @@
+{
+ "narc": "a027",
+ "bank": 130,
+ "source": "work/extract/v4/a027/0130.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "小霞『怎么办怎么办,{NEWLINE}虫精灵实在是太可怕了,{CLEAR}可是又不能丢下暴鲤龙不管……",
+   "en": "Misty: What do I do, what do I do? Bug{NEWLINE}Pokémon are just too scary...{SCROLL}But I can’t just leave Gyarados{NEWLINE}behind...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 1,
+   "zh": "小霞『啊,{VAR:0103:0}！{NEWLINE}竟然在这时候又遇到你！{CLEAR}快,帮我个忙！{CLEAR}我因为遇到大针蜂慌了神,{CLEAR}就把爸爸送我的装着暴鲤龙的精灵球{CLEAR}落在那边的台阶上了。{CLEAR}你应该不会介意{CLEAR}帮我拿回暴鲤龙的吧。",
+   "en": "Misty: Ah, {VAR:0103:0}! Running into you{NEWLINE}again, now of all times! Quick, help me{CLEAR}out!{SCROLL}I panicked when I ran into some{NEWLINE}Beedrill...{SCROLL}...and dropped the Poké Ball with the{NEWLINE}Gyarados my dad gave me on the ledge{CLEAR}over there.{SCROLL}You wouldn’t mind getting Gyarados back{NEWLINE}for me, would you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 2,
+   "zh": "大针蜂群很有敌意地盯着你,{NEWLINE}看起来很危险,{CLEAR}还是不要靠近地好……",
+   "en": "The swarm of Beedrill is glaring at you{NEWLINE}with hostility. It looks dangerous.{SCROLL}Better not get any closer...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 3,
+   "zh": "大针蜂群很有敌意地盯着你,{NEWLINE}看起来很危险,{CLEAR}要与大针蜂沟通吗？{SCROLL}",
+   "en": "The swarm of Beedrill is glaring at you{NEWLINE}with hostility. It looks dangerous.{SCROLL}Try talking to the Beedrill?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0103:0}『那个……{NEWLINE}我是帮人来拿回精灵球的,{CLEAR}你们让一下可以吗？",
+   "en": "{VAR:0103:0}: Um... I’m just here to get a{NEWLINE}Poké Ball back for someone.{SCROLL}Could you let me through?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 5,
+   "zh": "希罗娜『你好,{NEWLINE}请问你的名字是……{SCROLL}……{SCROLL}希罗娜『{VAR:0103:0}啊！{NEWLINE}我刚刚跟常磐森林的捉虫少年们{CLEAR}来了几场不错的对战,{CLEAR}你如果不介意的话,{CLEAR}也陪我再练习一下吧！",
+   "en": "Cynthia: Hello. May I ask your name...{SCROLL}...{SCROLL}Cynthia: {VAR:0103:0}! I just had some{NEWLINE}wonderful battles with the Bug Catchers{CLEAR}of Viridian Forest.{SCROLL}If you don’t mind, would you practice{NEWLINE}with me a little more?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0130#5; text not kept)"
+  },
+  {
+   "id": 6,
+   "zh": "希罗娜『呀,{NEWLINE}是{VAR:0103:0}啊！{CLEAR}真高兴能在这见到你！{SCROLL}希罗娜『我跟常磐森林的捉虫少年们{NEWLINE}学了不少有趣的东西,{CLEAR}让你见识一下哟！",
+   "en": "Cynthia: Oh, it’s {VAR:0103:0}! I’m so glad{NEWLINE}to see you here!{SCROLL}Cynthia: I learned lots of interesting{NEWLINE}things from the Bug Catchers of Viridian{CLEAR}Forest.{SCROLL}Let me show you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 7,
+   "zh": "老夫在常磐森林隐居多年,{NEWLINE}竟然被你给找到了。{SCROLL}相遇就是缘分,{NEWLINE}陪老夫来场精彩的对战可好？",
+   "en": "I have lived in seclusion in Viridian{NEWLINE}Forest for many years, and yet you{CLEAR}found me.{SCROLL}A meeting like this must be fate. Would{NEWLINE}you care for a splendid battle with this{CLEAR}old man?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | Hidden old master (Gible cry #81, reward #83)."
+  },
+  {
+   "id": 8,
+   "zh": "希罗娜『果然在旅行中不断磨练,{NEWLINE}才能成长得更加迅速。{CLEAR}这是我跟捉虫少年们学的新技能,{CLEAR}对你应该也有帮助,{CLEAR}你拿着试试吧！",
+   "en": "Cynthia: It’s true. You grow fastest{NEWLINE}when you keep honing yourself on the{CLEAR}road.{SCROLL}This is a new move I learned from the{NEWLINE}Bug Catchers. It should help you too.{SCROLL}Take it and give it a try!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 9,
+   "zh": "希罗娜『期待与你的重逢和再战哟！",
+   "en": "Cynthia: I look forward to meeting and{NEWLINE}battling you again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 10,
+   "zh": "大针蜂很生气！",
+   "en": "The Beedrill are furious!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 11,
+   "zh": "大针蜂群逃走了……",
+   "en": "The swarm of Beedrill fled...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}捡起了精灵球。{SCROLL}里面装着一只强壮的暴鲤龙。",
+   "en": "{VAR:0103:0} picked up the Poké Ball.{SCROLL}A strong Gyarados is inside.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 13,
+   "zh": "小霞『喂——{VAR:0103:0}！{NEWLINE}这边！这边！",
+   "en": "Misty: Hey, {VAR:0103:0}! Over here! Over{NEWLINE}here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}『这个是你落下的精灵球吧？{NEWLINE}我帮你找回来了。",
+   "en": "{VAR:0103:0}: This is the Poké Ball you{NEWLINE}dropped, right? I got it back for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0103:0}把精灵球还给了小霞。",
+   "en": "{VAR:0103:0} gave the Poké Ball back to{NEWLINE}Misty.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 16,
+   "zh": "小霞『谢谢你帮我拿回精灵球,{NEWLINE}真没想到你居然这么靠谱。{CLEAR}这个就当作谢礼给你啦！",
+   "en": "Misty: Thanks for getting my Poké Ball{NEWLINE}back. Who knew you’d be so dependable?{SCROLL}Take this as a thank-you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 17,
+   "zh": "小霞『还有这是我的电话号码,{NEWLINE}你也记下吧！",
+   "en": "Misty: And here’s my phone number. Make{NEWLINE}sure you save it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 18,
+   "zh": "小霞『我现在要回华蓝市了。{NEWLINE}等你哪天来华蓝市的话,{CLEAR}记得去找我啊！{CLEAR}那……拜拜啦！",
+   "en": "Misty: I’m heading back to Cerulean City{NEWLINE}now.{SCROLL}If you ever come to Cerulean City, come{NEWLINE}find me! Well... bye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 19,
+   "zh": "小蓝『{VAR:0103:0}！{NEWLINE}你也到常磐森林来了？",
+   "en": "Green: {VAR:0103:0}! You came to Viridian{NEWLINE}Forest too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | Partner branch: 小蓝 Green lines (#19, 23, 47, 49, 56, 60, 64, 68, 85, 87, 88, 90, 117) are the male-player route; 小赤 Red lines (#20, 24, 48, 50, 57, 61, 65, 69, 84, 86, 89, 91, 118) the female-player route."
+  },
+  {
+   "id": 20,
+   "zh": "小赤『{VAR:0103:0}！{NEWLINE}你是恰好经过这里吗？",
+   "en": "Red: {VAR:0103:0}! Just passing through?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0103:0}『我在2号路遇到了{NEWLINE}几个自称火箭队的黑衣人,{CLEAR}他们抢走了受伤的伊布。{CLEAR}为了救出伊布我就一路追到了这里。",
+   "en": "{VAR:0103:0}: On Route 2, I ran into some{NEWLINE}people in black who called themselves{CLEAR}Team Rocket.{SCROLL}They took an injured Eevee. I chased{NEWLINE}them all the way here to rescue it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0130#21; text not kept)"
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0103:0}『我在2号路遇到了{NEWLINE}几个自称火箭队的黑衣人,{CLEAR}他们抢走了受伤的伊布。{CLEAR}为了救出伊布我就一路追到了这里。",
+   "en": "{VAR:0103:0}: On Route 2, I ran into some{NEWLINE}people in black who called themselves{CLEAR}Team Rocket.{SCROLL}They took an injured Eevee. I chased{NEWLINE}them all the way here to rescue it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0130#21; text not kept)"
+  },
+  {
+   "id": 23,
+   "zh": "小蓝『哦？你也知道火箭队？{NEWLINE}看来他们越发名目张胆了。{CLEAR}其实我的目标也是火箭队,{CLEAR}你听我的作战计……",
+   "en": "Green: Oh? You know about Team Rocket{NEWLINE}too? They’re getting bolder and bolder.{SCROLL}Actually, Team Rocket is my target too.{NEWLINE}Listen, here’s my plan of att...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 24,
+   "zh": "小赤『哦？你也知道火箭队？{NEWLINE}看来他们越发名目张胆了。{CLEAR}其实我的目标也是火箭队,{CLEAR}我们现在这里埋伏……",
+   "en": "Red: Oh? You know about Team Rocket{NEWLINE}too? They’re getting bolder and bolder.{SCROLL}Actually, Team Rocket is my target too.{NEWLINE}For now, we lie in wait here...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 25,
+   "zh": "{VAR:0103:0}『伊布现在的有伤在身,{NEWLINE}不能再等了！",
+   "en": "{VAR:0103:0}: Eevee’s hurt. We can’t wait{NEWLINE}any longer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0103:0}『不能再等啦,{NEWLINE}小伊布现在伤的很严重！",
+   "en": "{VAR:0103:0}: We can’t wait anymore! Little{NEWLINE}Eevee is badly hurt!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 27,
+   "zh": "{VAR:0103:0}『火箭队！{NEWLINE}快放了小伊布！",
+   "en": "{VAR:0103:0}: Team Rocket! Let little Eevee{NEWLINE}go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0103:0}『喂！火箭队！{NEWLINE}快放了小伊布！",
+   "en": "{VAR:0103:0}: Hey! Team Rocket! Let little{NEWLINE}Eevee go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 29,
+   "zh": "武藏『臭小鬼居然追到这里,{NEWLINE}还真是有毅力啊。",
+   "en": "Jessie: The brat actually chased us all{NEWLINE}the way here. You’re persistent, I’ll{CLEAR}give you that.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 30,
+   "zh": "小次郎『你这股拼劲有当火箭队的潜质,{NEWLINE}不如加入我们吧,{CLEAR}有五险一金还和年终奖哟。",
+   "en": "James: With drive like that, you’ve got{NEWLINE}what it takes to be in Team Rocket. Why{CLEAR}not join us?{SCROLL}Full benefits, and a year-end bonus{NEWLINE}too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | 五险一金 (Chinese statutory benefits package) → 'Full benefits'."
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0103:0}『我对你们不感兴趣,{NEWLINE}快交出小伊布,{CLEAR}现在带它治疗才是最要紧的！",
+   "en": "{VAR:0103:0}: I’m not interested in you.{NEWLINE}Just hand over little Eevee.{SCROLL}Getting it treated is what matters right{NEWLINE}now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:0103:0}『废话少说,快交出小伊布,{NEWLINE}我要带它去治疗！",
+   "en": "{VAR:0103:0}: Cut the chatter and hand over{NEWLINE}little Eevee. I’m taking it to get{CLEAR}treated!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 33,
+   "zh": "武藏『真是搞笑,{NEWLINE}你让我交我就交,{CLEAR}把我们火箭队当什么人了。",
+   "en": "Jessie: Don’t make me laugh. Hand it{NEWLINE}over just because you say so?{SCROLL}Who do you think Team Rocket is?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 34,
+   "zh": "小次郎『没错,{NEWLINE}这可是我们跟老大邀功请赏的{CLEAR}重要战果呢。",
+   "en": "James: That’s right. This is the big{NEWLINE}prize we’re presenting to the boss for{CLEAR}our reward.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 35,
+   "zh": "喂！刚刚上面来命令了,{NEWLINE}在月见山发现1号目标,{CLEAR}现在马上去月见山集合！{SCROLL}快走吧！",
+   "en": "Hey! Orders just came down from the{NEWLINE}top. Target No. 1 has been spotted at{CLEAR}Mt. Moon.{SCROLL}Everyone assemble at Mt. Moon{NEWLINE}immediately!{SCROLL}Let’s go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 36,
+   "zh": "{VAR:0103:0}『很好！趁现在抢下伊布！",
+   "en": "{VAR:0103:0}: Good! Now’s our chance to{NEWLINE}grab Eevee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 37,
+   "zh": "武藏『哼,今天算你们走运。",
+   "en": "Jessie: Hmph. You got lucky today.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 38,
+   "zh": "小次郎『上头的命令可不能违背。",
+   "en": "James: We can’t disobey orders from the{NEWLINE}top.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 39,
+   "zh": "喵喵『下次不要再让我们撞见你们喵。",
+   "en": "Meowth: Don’t let us catch you around{NEWLINE}here again, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 40,
+   "zh": "乔伊『那群黑衣人好像离开了,{NEWLINE}是被你们赶走的吗？",
+   "en": "Nurse Joy: Those people in black seem{NEWLINE}to have left.{SCROLL}Did you drive them away?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | This 'Nurse Joy' is suspicious (#117–118); 乔伊 is a Rocket Elite in 0719. Label kept as Nurse Joy since she is posing as one."
+  },
+  {
+   "id": 41,
+   "zh": "{VAR:0103:0}『那个不重要啦。{NEWLINE}乔伊小姐,这只伊布受了重伤,{CLEAR}拜托你现在帮它治疗一下吧！",
+   "en": "{VAR:0103:0}: That’s not important. Nurse{NEWLINE}Joy, this Eevee is badly hurt.{SCROLL}Please treat it right away!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 42,
+   "zh": "乔伊『……",
+   "en": "Nurse Joy: ...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 43,
+   "zh": "乔伊『好,我看看。",
+   "en": "Nurse Joy: All right, let me take a look.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 44,
+   "zh": "乔伊『你能见义勇为是好事,{NEWLINE}但是也要量力而行,{CLEAR}有时候审时度势也很重要。{CLEAR}希望你在以后的旅行中{CLEAR}能够多为自己想一想。",
+   "en": "Nurse Joy: It’s good that you stand up{NEWLINE}for others, but you should know your{CLEAR}limits.{SCROLL}Sometimes it’s important to read the{NEWLINE}situation.{SCROLL}I hope that from now on, you’ll think{NEWLINE}about yourself a little more on your{CLEAR}journey.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 45,
+   "zh": "伊布恢复了健康！",
+   "en": "Eevee’s health was restored!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 46,
+   "zh": "喵喵『这附近有好多我们的同伴,{NEWLINE}不会让你讨到便宜的喵。",
+   "en": "Meowth: We got lots of pals around{NEWLINE}here. You ain’t gettin’ off easy, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 47,
+   "zh": "小蓝『我们也不是只有一个人呀！",
+   "en": "Green: We’re not alone either, you{NEWLINE}know!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 48,
+   "zh": "小赤『我们也不是只有一个人！",
+   "en": "Red: We’re not alone either!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 49,
+   "zh": "小蓝『你们想以多欺少？{NEWLINE}嘿嘿,可没那么容易！",
+   "en": "Green: Gonna gang up on us? Heh heh, it{NEWLINE}won’t be that easy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 50,
+   "zh": "小赤『你们休想以多欺少！",
+   "en": "Red: Don’t think you can gang up on us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 51,
+   "zh": "武藏、小次郎『不过是两个小鬼,{NEWLINE}少在那嚣张了,{CLEAR}让你看看我们的厉害！",
+   "en": "Jessie & James: You’re just a couple of{NEWLINE}brats. Quit acting so tough.{SCROLL}We’ll show you what we’re made of!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 52,
+   "zh": "武藏『啊！！！！！{NEWLINE}战功被抢去了！！！！",
+   "en": "Jessie: Aaaah!!!!! They stole our{NEWLINE}glory!!!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 53,
+   "zh": "小次郎『唉,打输了嘛,{NEWLINE}这也是没办法的事。",
+   "en": "James: Well, we lost. Nothing we can do{NEWLINE}about it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 54,
+   "zh": "喵喵『没关系,我这就去{NEWLINE}把同伴叫过来喵！",
+   "en": "Meowth: No sweat. I’ll go get our pals{NEWLINE}over here right now, meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 55,
+   "zh": "乔伊『现在伊布已经脱离生命危险了。",
+   "en": "Nurse Joy: Eevee is out of danger now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 56,
+   "zh": "小蓝『这个不重要啦,{NEWLINE}倒是你,居然主动找火箭队麻烦,{CLEAR}他们可是个很危险的犯罪组织,{CLEAR}你可算是惹火上身咯。",
+   "en": "Green: That’s not important. But you...{NEWLINE}picking a fight with Team Rocket on your{CLEAR}own?{SCROLL}They’re a really dangerous criminal{NEWLINE}organization. You’re just asking for{CLEAR}trouble.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 57,
+   "zh": "小赤『这个不重要,{NEWLINE}倒是你,居然主动找火箭队麻烦,{CLEAR}他们可是个很危险的犯罪组织,{CLEAR}跟他们扯上关系可不是好事。",
+   "en": "Red: That’s not important. But you...{NEWLINE}picking a fight with Team Rocket on your{CLEAR}own?{SCROLL}They’re a really dangerous criminal{NEWLINE}organization. Getting mixed up with them{CLEAR}is bad news.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 58,
+   "zh": "{VAR:0103:0}『我们真新镇训练家,{NEWLINE}才不怕这群坏人！",
+   "en": "{VAR:0103:0}: We Trainers from Pallet Town{NEWLINE}aren’t scared of these bad guys!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 59,
+   "zh": "{VAR:0103:0}『我们真新镇训练家,{NEWLINE}才不怕这群坏人呢！",
+   "en": "{VAR:0103:0}: We Trainers from Pallet Town{NEWLINE}aren’t scared of bad guys like them!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 60,
+   "zh": "小蓝『真新镇的……{SCROLL}小蓝『看来你这个人很有正义感嘛,{NEWLINE}咱们交换下电话号码吧,{CLEAR}以后我遇到坏人就向你求救咯！",
+   "en": "Green: From Pallet Town...{SCROLL}Green: Looks like you’ve got a real{NEWLINE}sense of justice. Let’s trade phone{CLEAR}numbers.{SCROLL}Next time I run into bad guys, I’ll call{NEWLINE}you for help!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 61,
+   "zh": "小赤『真新镇……{SCROLL}小赤『看来你这个人很有正义感,{NEWLINE}不介意的话跟我交换下电话号码{CLEAR}就当是交个朋友吧！",
+   "en": "Red: Pallet Town...{SCROLL}Red: Looks like you’ve got a real sense{NEWLINE}of justice. If you don’t mind, let’s{CLEAR}trade phone numbers.{SCROLL}Think of it as making a new friend!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 62,
+   "zh": "伊布『Eee——vee！",
+   "en": "Eevee: Eee-vee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "伊布似乎很喜欢你,{NEWLINE}要收服它吗？",
+   "en": "Eevee seems to really like you. Catch{NEWLINE}it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 64,
+   "zh": "{VAR:0103:0}把小蓝的电话号码{NEWLINE}登录在了手机中。",
+   "en": "{VAR:0103:0} registered Green’s number in{NEWLINE}the Pokégear.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 65,
+   "zh": "{VAR:0103:0}把小赤的电话号码{NEWLINE}登录在了手机中。",
+   "en": "{VAR:0103:0} registered Red’s number in the{NEWLINE}Pokégear.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 66,
+   "zh": "最新情报,{NEWLINE}在月见山发现了目标的踪迹,{CLEAR}现在全员前往月见山！{CLEAR}快走吧！",
+   "en": "Latest intel: the target’s trail has{NEWLINE}been found at Mt. Moon.{SCROLL}All members, head to Mt. Moon now!{NEWLINE}Let’s go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 67,
+   "zh": "宝石海星『Staaa……",
+   "en": "Starmie: Staaa...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 68,
+   "zh": "小蓝『你是谁？{NEWLINE}是偶然经过这里吗？",
+   "en": "Green: Who are you? Just passing by?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 69,
+   "zh": "小赤『什么人！？{NEWLINE}来这干什么！？",
+   "en": "Red: Who’s there!? What are you doing{NEWLINE}here!?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 70,
+   "zh": "烈雀『Spe——Spe！",
+   "en": "Spearow: Spe-Spe!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "吉利蛋『Chea……",
+   "en": "Chansey: Chea...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 72,
+   "zh": "乔伊『前面有一伙凶巴巴的黑衣人{NEWLINE}似乎在找什么东西,{CLEAR}你最好不要过去招惹他们。",
+   "en": "Nurse Joy: There’s a group of{NEWLINE}mean-looking people in black up ahead.{CLEAR}They seem to be looking for something.{SCROLL}You’d better not go bothering them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 73,
+   "zh": "{VAR:0103:0}『乔伊小姐,有只受伤的伊布{NEWLINE}被几个自称火箭队的黑衣人抢走了,{CLEAR}我想他们应该就在前面,{CLEAR}请让我过去救出伊布！",
+   "en": "{VAR:0103:0}: Nurse Joy, some people in{NEWLINE}black calling themselves Team Rocket{CLEAR}took an injured Eevee.{SCROLL}I think they’re just up ahead. Please{NEWLINE}let me through so I can rescue it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 74,
+   "zh": "乔伊『这个火箭队听起来就很厉害,{NEWLINE}为了你的安全,还是离他们远点吧。",
+   "en": "Nurse Joy: This Team Rocket sounds{NEWLINE}very dangerous.{SCROLL}For your own safety, you should stay{NEWLINE}away from them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 75,
+   "zh": "{VAR:0103:0}『那可不行,{NEWLINE}我怎么能眼睁睁地看着{CLEAR}受伤的伊布落入坏人手中不管呢。{CLEAR}请你让开道路让我过去！",
+   "en": "{VAR:0103:0}: I can’t do that. How could I{NEWLINE}just stand by and watch an injured{CLEAR}Eevee fall into the hands of bad guys?{SCROLL}Please let me through!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 76,
+   "zh": "乔伊『好吧,既然你执意要过去,{NEWLINE}我也没什么好说的了。",
+   "en": "Nurse Joy: Very well. If you insist on{NEWLINE}going, there’s nothing more I can say.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 77,
+   "zh": "乔伊『既然你执意要过去,{NEWLINE}我也没什么好说的了。{CLEAR}祝你成功救出伊布吧。",
+   "en": "Nurse Joy: If you insist on going,{NEWLINE}there’s nothing more I can say.{SCROLL}Good luck rescuing Eevee.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 78,
+   "zh": "乔伊『多亏你赶走碍事的烈雀,{NEWLINE}这样就能正常通行了。{SCROLL}乔伊『通过这件事你是否感觉到{NEWLINE}口袋妖怪有时并不友善,{CLEAR}如何看待口袋妖怪{CLEAR}还需要我们慎重思考。",
+   "en": "Nurse Joy: Thanks to you chasing off{NEWLINE}those pesky Spearow, people can get{CLEAR}through again.{SCROLL}Nurse Joy: Did this whole thing make you{NEWLINE}feel that Pokémon aren’t always{CLEAR}friendly?{SCROLL}How we should view Pokémon is something{NEWLINE}we all need to think about carefully.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 79,
+   "zh": "{VAR:0103:0}『……{SCROLL}……",
+   "en": "{VAR:0103:0}: ...{SCROLL}...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "乔伊『嘻嘻,我好像说太多啦。{NEWLINE}总之今天多亏你的帮忙,{CLEAR}咱们以后有缘再见啦。{CLEAR}要成为强大的训练家哟。",
+   "en": "Nurse Joy: Tee hee, I think I’ve said{NEWLINE}too much. Anyway, thanks for your help{CLEAR}today.{SCROLL}Let’s meet again if fate allows. Become{NEWLINE}a strong Trainer, okay?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 81,
+   "zh": "圆陆鲨『Gi——ble！",
+   "en": "Gible: Gi-ble!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 82,
+   "zh": "妙蛙种子『Bul——ba！",
+   "en": "Bulbasaur: Bul-ba!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "哎呀,真是久违的战斗呢！{SCROLL}谢谢你啊年轻人,{NEWLINE}请收下我的这点心意！",
+   "en": "Ahh, a battle at long last!{SCROLL}Thank you, young one. Please accept{NEWLINE}this small token of my thanks!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 84,
+   "zh": "小赤『{VAR:0103:0},这是我的新朋友妙蛙种子{NEWLINE}看起来很帅吧？{SCROLL}小赤『话说前边的烈雀把路挡住了,{NEWLINE}你要是想驱散烈雀的话{CLEAR}击败其中的头鸟就可以了。{SCROLL}小赤『我嘛……{NEWLINE}还想再跟妙蛙种子玩会儿。",
+   "en": "Red: {VAR:0103:0}, this is my new friend{NEWLINE}Bulbasaur. Looks cool, right?{SCROLL}Red: By the way, the Spearow up ahead{NEWLINE}are blocking the path.{SCROLL}If you want to drive them off, just beat{NEWLINE}their leader.{SCROLL}Red: Me? ...I want to play with{NEWLINE}Bulbasaur a little longer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 85,
+   "zh": "小蓝『幸好有你帮忙赶跑烈雀,{NEWLINE}不然我的事可要被耽误了。{CLEAR}以后有机会再谢你吧,我先走啦！",
+   "en": "Green: Good thing you helped chase off{NEWLINE}the Spearow, or my business would’ve{CLEAR}been held up.{SCROLL}I’ll thank you properly another time.{NEWLINE}I’m off!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 86,
+   "zh": "小赤『竟然可以一人击退鸟群,{NEWLINE}你还真是让人佩服。{CLEAR}虽然很想好好感谢你,{CLEAR}但是我还有是在身,{CLEAR}以后有机会再见了。",
+   "en": "Red: You drove off a whole flock of{NEWLINE}birds by yourself? I’m impressed.{SCROLL}I’d really like to thank you properly,{NEWLINE}but I’ve got things to take care of.{CLEAR}See you around.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 87,
+   "zh": "小蓝『{VAR:0103:0},这是我刚收服的妙蛙种子{NEWLINE}看起来很帅吧？{SCROLL}小蓝『话说前边的烈雀把路挡住了,{NEWLINE}你要是想驱散烈雀的话{CLEAR}击败其中的头鸟就可以了。{SCROLL}小蓝『我嘛……{NEWLINE}当然是给你加油啦。",
+   "en": "Green: {VAR:0103:0}, this is the Bulbasaur I{NEWLINE}just caught. Looks cool, right?{SCROLL}Green: By the way, the Spearow up{NEWLINE}ahead are blocking the path.{SCROLL}If you want to drive them off, just beat{NEWLINE}their leader.{SCROLL}Green: Me? ...I’ll be cheering you on,{NEWLINE}of course.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 88,
+   "zh": "小蓝『这是我的电话号码,{NEWLINE}你记一下,{CLEAR}以后有空记得联系我啊！",
+   "en": "Green: Here’s my phone number. Save it,{NEWLINE}okay?{SCROLL}Give me a call when you’ve got time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 89,
+   "zh": "小赤『我把我的电话号码{NEWLINE}留给你吧,{CLEAR}以后有空互相联系也方便！",
+   "en": "Red: I’ll leave you my phone number.{SCROLL}That way we can keep in touch!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 90,
+   "zh": "小蓝『刚刚火箭队说{NEWLINE}他们的目标在月见山,{CLEAR}我想跟去调查一下,{CLEAR}咱们回头见咯。",
+   "en": "Green: Team Rocket just said their{NEWLINE}target is at Mt. Moon.{SCROLL}I’m going to follow them and{NEWLINE}investigate. See you later!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 91,
+   "zh": "小赤『刚刚火箭队说{NEWLINE}他们的目标在月见山,{CLEAR}我想跟去调查一下,{CLEAR}咱们回头再见啦。",
+   "en": "Red: Team Rocket just said their target{NEWLINE}is at Mt. Moon.{SCROLL}I’m going to follow them and{NEWLINE}investigate. See you around.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 92,
+   "zh": "可让我堵到你了,{NEWLINE}这次你没地方躲了吧！",
+   "en": "Gotcha cornered at last! Nowhere to{NEWLINE}hide this time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 93,
+   "zh": "小黄『……",
+   "en": "Yellow: ...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 94,
+   "zh": "你说你跑个什么劲啊,{NEWLINE}我又不是要你的命。{CLEAR}你乖乖跟我去火箭队的尖兵训练营,{CLEAR}凭你的神奇天赋,只要认真训练,{CLEAR}绝对可以成为世界上最强的训练家。{CLEAR}就算那个新的联盟冠军{VAR:0103:0}{CLEAR}也不会是你的对手。",
+   "en": "What are you running for? I’m not going{NEWLINE}to kill you.{SCROLL}Just come quietly with me to Team{NEWLINE}Rocket’s boot camp.{SCROLL}With your amazing gift, if you train{NEWLINE}hard, you could become the strongest{CLEAR}Trainer in the world.{SCROLL}Even that new League Champion,{NEWLINE}{VAR:0103:0}, wouldn’t stand a chance{CLEAR}against you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#92–116: post-game Yellow scene (player is League Champion). #103/#110 = male player (哥哥), #104/#111 = female player (姐姐); the English drops the honorific, as in 0446.; ext-review RV-022"
+  },
+  {
+   "id": 95,
+   "zh": "小黄『你们火箭队不是都解散了吗？{NEWLINE}怎么还敢出来做坏事！",
+   "en": "Yellow: Didn’t Team Rocket disband?{SCROLL}How dare you still go around doing bad{NEWLINE}things!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 96,
+   "zh": "坂木老大确实是下达了{NEWLINE}解散火箭队的命令,{CLEAR}但是我们城都分部的首领阿波罗大人,{CLEAR}可不甘心就这样解散。{CLEAR}我们只是暂时转入地下暗中活动,{CLEAR}将来总有一天我们火箭队{CLEAR}会取代精灵联盟成为统治者。{CLEAR}你现在加入我们,{CLEAR}将来就是开国功臣了！{CLEAR}还犹豫什么呢,跟我走吧！",
+   "en": "Boss Giovanni did order Team Rocket to{NEWLINE}disband...{SCROLL}...but Lord Archer, leader of our Johto{NEWLINE}branch, isn’t about to let it end like{CLEAR}that.{SCROLL}We’ve only gone underground for now.{SCROLL}Someday, Team Rocket will replace the{NEWLINE}Pokémon League and rule over everyone.{SCROLL}Join us now, and you’ll be one of the{NEWLINE}founding heroes!{SCROLL}What are you waiting for? Come with me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | 阿波罗 = Archer (Johto branch leader)."
+  },
+  {
+   "id": 97,
+   "zh": "小黄『你们在关东做了那么多坏事,{NEWLINE}还想让我加入你们……{CLEAR}我才不去呢！",
+   "en": "Yellow: You did so many bad things in{NEWLINE}Kanto, and you still want me to join{CLEAR}you...{SCROLL}No way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 98,
+   "zh": "一个连精灵对战都不会的小鬼,{NEWLINE}可没有资格拒绝我。{CLEAR}你要是不乖乖听话,{CLEAR}我就只好来硬的了！{SCROLL}上啊,毒骷蛙！",
+   "en": "A brat who can’t even battle has no{NEWLINE}right to refuse me.{SCROLL}If you won’t come quietly, I’ll just{NEWLINE}have to use force!{SCROLL}Go, Toxicroak!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 99,
+   "zh": "{VAR:FF01:200}{VAR:0103:0}『住手！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}{VAR:0103:0}: Stop!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 100,
+   "zh": "{VAR:0103:0}『你们这些火箭队{NEWLINE}还真是阴魂不散！",
+   "en": "{VAR:0103:0}: You Team Rocket guys just{NEWLINE}won’t go away!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 101,
+   "zh": "你是……{NEWLINE}联盟冠军{VAR:0103:0}！！！？？？{SCROLL}我看你才是一直阴魂不散地{NEWLINE}缠着我们火箭队吧,{CLEAR}连我们拉拢新成员你也要来妨碍。{SCROLL}我虽然打不过你,{NEWLINE}但也绝不会听你的话！{CLEAR}上啊,毒骷蛙！",
+   "en": "You’re... League Champion{NEWLINE}{VAR:0103:0}!!!???{SCROLL}If you ask me, you’re the one who won’t{NEWLINE}leave Team Rocket alone. You even have{CLEAR}to butt in when we recruit!{SCROLL}I may not be able to beat you, but I’ll{NEWLINE}never do what you say! Go, Toxicroak!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 102,
+   "zh": "竟然会在这里遇到你,{NEWLINE}真是倒霉透了……{CLEAR}你阻碍我们火箭队的仇,{CLEAR}我们总有一天会报的,{CLEAR}咱们走着瞧吧！",
+   "en": "Of all the rotten luck, running into you{NEWLINE}here...{SCROLL}We’ll pay you back someday for getting{NEWLINE}in Team Rocket’s way. Just you wait!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 103,
+   "zh": "小黄『{VAR:0103:0}哥哥！{NEWLINE}没想到你会来这里！{CLEAR}刚刚真是太谢谢你了。",
+   "en": "Yellow: {VAR:0103:0}! I never thought you’d{NEWLINE}come here!{SCROLL}Thank you so much for helping me just{NEWLINE}now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 104,
+   "zh": "小黄『{VAR:0103:0}姐姐！{NEWLINE}没想到你会来这里！{CLEAR}刚刚真是太谢谢你了。",
+   "en": "Yellow: {VAR:0103:0}! I never thought you’d{NEWLINE}come here!{SCROLL}Thank you so much for helping me just{NEWLINE}now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 105,
+   "zh": "{VAR:0103:0}『我在常磐市遇到你叔叔,{NEWLINE}他说你彻夜未归,{CLEAR}所以拜托我来找你。",
+   "en": "{VAR:0103:0}: I met your uncle in Viridian{NEWLINE}City. He said you didn’t come home last{CLEAR}night...{SCROLL}...so he asked me to look for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 106,
+   "zh": "小黄『唉,昨天来常磐森林写生,{NEWLINE}没想到竟然遇到了火箭队,{CLEAR}我在森林里躲了一夜,{CLEAR}最终还是被他给发现了。",
+   "en": "Yellow: Sigh... Yesterday I came to{NEWLINE}Viridian Forest to sketch, and I ran{CLEAR}into Team Rocket.{SCROLL}I hid in the forest all night, but he{NEWLINE}found me in the end.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 107,
+   "zh": "{VAR:0103:0}『我看你的精灵{NEWLINE}状态都很好啊,{CLEAR}为什么不用它们跟火箭队战斗呢？",
+   "en": "{VAR:0103:0}: Your Pokémon all look healthy.{SCROLL}Why didn’t you use them to fight Team{NEWLINE}Rocket?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 108,
+   "zh": "小黄『我跟精灵们是好朋友,{NEWLINE}我不想让它们受伤……{CLEAR}所以才没有用它们战斗。",
+   "en": "Yellow: My Pokémon are my good friends.{NEWLINE}I don’t want them to get hurt...{SCROLL}That’s why I didn’t use them to battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 109,
+   "zh": "{VAR:0103:0}『我能理解{NEWLINE}你想保护精灵的心情,{CLEAR}但世界上也存在火箭队这样的坏人。{CLEAR}所以为了保护心爱的精灵们,{CLEAR}有时候战斗不可避免。{CLEAR}锻炼出能够守护人们和精灵的力量,{CLEAR}这也是训练家的意义所在呀。{SCROLL}{VAR:0103:0}『不会有人一直跟在你身边{NEWLINE}当你的贴身保镖的,{CLEAR}所以咱们也得学着让自己变强不是吗？",
+   "en": "{VAR:0103:0}: I understand wanting to{NEWLINE}protect your Pokémon.{SCROLL}But there are bad people in the world,{NEWLINE}like Team Rocket.{SCROLL}So to protect the Pokémon you love,{NEWLINE}sometimes a battle can’t be avoided.{SCROLL}Building the strength to protect people{NEWLINE}and Pokémon is part of what being a{CLEAR}Trainer means.{SCROLL}{VAR:0103:0}: Nobody can stay by your side{NEWLINE}forever as your bodyguard.{SCROLL}So we have to learn to get stronger{NEWLINE}ourselves, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "小黄『唔……为了守护人们和精灵{NEWLINE}而不断变强的训练家……{SCROLL}小黄『我明白了,{VAR:0103:0}哥哥！{NEWLINE}我会努力成为这样的训练家的！",
+   "en": "Yellow: Hmm... A Trainer who keeps{NEWLINE}getting stronger to protect people and{CLEAR}Pokémon...{SCROLL}Yellow: I get it, {VAR:0103:0}! I’ll work{NEWLINE}hard to become that kind of Trainer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [line_too_wide,tag_mismatch] (candidate v3 0130#110; text not kept)"
+  },
+  {
+   "id": 111,
+   "zh": "小黄『唔……为了守护人们和精灵{NEWLINE}而不断变强的训练家……{SCROLL}小黄『我明白了,{VAR:0103:0}姐姐！{NEWLINE}我会努力成为这样的训练家的！",
+   "en": "Yellow: Hmm... A Trainer who keeps{NEWLINE}getting stronger to protect people and{CLEAR}Pokémon...{SCROLL}Yellow: I get it, {VAR:0103:0}! I’ll work{NEWLINE}hard to become that kind of Trainer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 112,
+   "zh": "{VAR:0103:0}『嗯,相信你可以的！{SCROLL}{VAR:0103:0}『你叔叔应该也等着急了,{NEWLINE}你快先回常磐市吧！",
+   "en": "{VAR:0103:0}: Yeah, I know you can do it!{SCROLL}{VAR:0103:0}: Your uncle must be worried{NEWLINE}sick. Hurry back to Viridian City!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 113,
+   "zh": "小黄『啊！对哦！我这就回去！",
+   "en": "Yellow: Oh! You’re right! I’ll go right{NEWLINE}now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 114,
+   "zh": "小黄『走吧,小拉拉、嘟嘟、小虫,{NEWLINE}咱们回常磐市去！",
+   "en": "Yellow: Let’s go, Ratty, Dody, Kitty!{NEWLINE}Back to Viridian City!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | 小虫 (little bug) read as Yellow's Caterpie, Kitty (Adventures; = 小蝶 in 0445/0446). Check.; ext-review RV-023: Dody = Yellow’s Doduo nickname (Adventures)"
+  },
+  {
+   "id": 115,
+   "zh": "毒骷蛙『Toxiii——cro！",
+   "en": "Toxicroak: Toxiii-cro!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "{VAR:0103:0}『啊——！{NEWLINE}得快点去常磐道馆参加考核才行！",
+   "en": "{VAR:0103:0}: Aaah!{SCROLL}I’ve got to hurry to the Viridian Gym{NEWLINE}for my assessment!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "小蓝『这个乔伊一定有什么古怪……",
+   "en": "Green: There’s something fishy about{NEWLINE}this Nurse Joy...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 118,
+   "zh": "小赤『这个乔伊小姐怪怪的……",
+   "en": "Red: This Nurse Joy is kind of{NEWLINE}strange...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 119,
+   "zh": "{VAR:0103:0}『有吗……？",
+   "en": "{VAR:0103:0}: Is she...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 120,
+   "zh": "{VAR:0103:0}『哦？是吗？",
+   "en": "{VAR:0103:0}: Oh? You think so?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 121,
+   "zh": "身上带的精灵满了,没有伊布的位置！",
+   "en": "Your party is full. There’s no room for{NEWLINE}Eevee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 122,
+   "zh": "伊布加入了队伍！",
+   "en": "Eevee joined your party!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 123,
+   "zh": "要给伊布起昵称吗？{VAR:0200:0}",
+   "en": "Give Eevee a nickname?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 124,
+   "zh": "昵称叫{VAR:0101:1}{NEWLINE}可以吗？{VAR:0200:0}",
+   "en": "Is {VAR:0101:1} the nickname you want to{NEWLINE}give? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 4 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 125,
+   "zh": "年轻人,我花了很多心血在这附近种花。{NEWLINE}但是最近森林里的烈雀{CLEAR}经常来这里搞破坏,{CLEAR}非常影响花的生长。{SCROLL}你能不能帮我吓吓烈雀们,{NEWLINE}好让它们不敢再轻易接近这里？{SCROLL}",
+   "en": "Young one, I’ve put my heart into{NEWLINE}growing flowers around here.{SCROLL}But lately the Spearow from the forest{NEWLINE}keep coming here to wreck things...{SCROLL}...and it’s really hurting my flowers.{SCROLL}Could you help me give the Spearow a{NEWLINE}scare, so they won’t dare come near{CLEAR}here so easily again?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 126,
+   "zh": "太好了,谢谢你愿意帮忙。{SCROLL}请你站到北侧的高地上,{NEWLINE}烈雀们看到后就会觉得你在挑衅,{CLEAR}然后它们很可能会向你发起攻击。{CLEAR}你只需要击败鸟群吓跑它们就好,{CLEAR}不必真的伤害到烈雀们。{CLEAR}拜托了。",
+   "en": "Wonderful, thank you for helping.{SCROLL}Please stand on the high ground to the{NEWLINE}north. When the Spearow see you,{CLEAR}they’ll think you’re challenging them...{SCROLL}...and they’ll probably attack you.{SCROLL}You only need to beat the flock to{NEWLINE}scare them off. There’s no need to{CLEAR}actually hurt them.{SCROLL}I’m counting on you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 127,
+   "zh": "烈雀们攻击过来了！",
+   "en": "The Spearow are attacking!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 128,
+   "zh": "大嘴雀『Feee——row！",
+   "en": "Fearow: Feee-row!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags fullwidth_chars"
+  },
+  {
+   "id": 129,
+   "zh": "大嘴雀『Feee——row！{SCROLL}大嘴雀攻击过来了！",
+   "en": "Fearow: Feee-row!{SCROLL}Fearow is attacking!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags fullwidth_chars"
+  },
+  {
+   "id": 130,
+   "zh": "没想到你把烈雀群的首领{NEWLINE}大嘴雀都打败了,{CLEAR}真是厉害啊！{SCROLL}这样一来烈雀们应该{NEWLINE}不敢再来破坏花朵了,{CLEAR}非常感谢你的帮忙,{CLEAR}这是用常磐森林的花粉酿成的花蜜,{CLEAR}送给你当作谢礼吧！",
+   "en": "You even beat Fearow, the leader of the{NEWLINE}Spearow flock! I never expected that.{CLEAR}Impressive!{SCROLL}Now the Spearow shouldn’t dare wreck{NEWLINE}my flowers anymore.{SCROLL}Thank you so much for your help. This is{NEWLINE}nectar made from Viridian Forest’s{CLEAR}pollen.{SCROLL}Please take it as thanks!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | 花蜜 → nectar (the gift item itself is announced elsewhere)."
+  },
+  {
+   "id": 131,
+   "zh": "自从烈雀们被赶跑之后,{NEWLINE}我终于可以安心种花了。",
+   "en": "Ever since the Spearow were chased off,{NEWLINE}I can finally grow my flowers in peace.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 132,
+   "zh": "布鲁『S——nu——！",
+   "en": "Snubbull: S-nu-!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 133,
+   "zh": "波波『Po——Pi——！",
+   "en": "Pidgey: Po-Pi-!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 134,
+   "zh": "布鲁在这里过得很开心。",
+   "en": "Snubbull is having a great time here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 135,
+   "zh": "布鲁似乎玩的很开心,{NEWLINE}要把它带回去吗？{SCROLL}",
+   "en": "Snubbull seems to be having a lot of{NEWLINE}fun. Take it back with you?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 136,
+   "zh": "哇,我的布鲁回来了。{NEWLINE}买狗的钱总算没有打水漂。{CLEAR}这是说好的报酬,你拿着吧。",
+   "en": "Wow, my Snubbull’s back! The money I{NEWLINE}spent buying this dog didn’t go to waste{CLEAR}after all.{SCROLL}Here’s the reward I promised. Take it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 137,
+   "zh": "{VAR:0103:0}得到了20000元。",
+   "en": "{VAR:0103:0} received $20000.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 138,
+   "zh": "这只狗如果放任不管,{NEWLINE}一定还会再乱跑的,{CLEAR}该用饥饿训练法还是疼痛训练法{CLEAR}教会它规矩呢……",
+   "en": "If I leave this dog alone, it’ll just run{NEWLINE}off again.{SCROLL}Should I teach it some manners with{NEWLINE}hunger training or pain training...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 139,
+   "zh": "波波『Po——Pi——！",
+   "en": "Pidgey: Po-Pi-!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 140,
+   "zh": "波波『Po——Pi——！{SCROLL}波波的叫声很孤单……",
+   "en": "Pidgey: Po-Pi-!{SCROLL}Pidgey’s cry sounds lonely...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "据说在常磐森林只要有蜂蜜,{NEWLINE}就能吸引来珍贵的虫精灵,{CLEAR}可是到底该怎么做呢……？",
+   "en": "They say that if you have Honey, you{NEWLINE}can lure rare Bug Pokémon in Viridian{CLEAR}Forest.{SCROLL}But how exactly do you do it...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 142,
+   "zh": "常磐森林是一个天然大迷宫,{NEWLINE}里面高低错落的可绕人了。",
+   "en": "Viridian Forest is a huge natural maze.{NEWLINE}With all its ups and downs, it’s easy to{CLEAR}get turned around.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 143,
+   "zh": "树干上有块晶莹的区域……",
+   "en": "There’s a glistening patch on the tree{NEWLINE}trunk...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 144,
+   "zh": "要涂点蜂蜜在上面吗？",
+   "en": "Spread some Honey on it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 145,
+   "zh": "好像有虫精灵过来了！",
+   "en": "Looks like a Bug Pokémon is coming!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 146,
+   "zh": "我朋友发现了一只{NEWLINE}堪称常磐森林虫王的飞天螳螂,{CLEAR}他一路追着那只飞天螳螂去3号路了。",
+   "en": "My friend found a Scyther that’s{NEWLINE}practically the Bug King of Viridian{CLEAR}Forest.{SCROLL}He chased that Scyther all the way to{NEWLINE}Route 3.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 147,
+   "zh": "常磐森林是虫系精灵的宝库,{NEWLINE}多在这里逛逛会有很多收获的！",
+   "en": "Viridian Forest is a treasure trove of{NEWLINE}Bug-type Pokémon. Explore it a lot, and{CLEAR}you’ll find plenty!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 148,
+   "zh": "这里是常磐森林。{NEWLINE}旅行者请当心大针蜂和烈雀。",
+   "en": "This is Viridian Forest.{SCROLL}Travelers, beware of Beedrill and{NEWLINE}Spearow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 149,
+   "zh": "最近常磐森林的烈雀{NEWLINE}又闹得越来越凶了,{CLEAR}我非常需要一只能压制烈雀的比比鸟{CLEAR}帮我保护一下这里的花朵。{CLEAR}如果你有比雕的话,{CLEAR}能把它借给我用一段时间吗？{SCROLL}",
+   "en": "Lately the Spearow in Viridian Forest{NEWLINE}have been acting up worse than ever.{SCROLL}I really need a Pidgeotto that can keep{NEWLINE}the Spearow in check and protect the{CLEAR}flowers here.{SCROLL}If you have a Pidgeot, could you lend it{NEWLINE}to me for a while?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | D-1195: reverted to match the zh (Asks for a 比比鸟 (Pidgeotto), then a 比雕 (Pidgeot); the check is for Pidgeot); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 150,
+   "zh": "我费了好大功夫{NEWLINE}才把这一带的烈雀给赶跑,{CLEAR}这些终于可以安心种花了。",
+   "en": "It took a lot of work to chase the{NEWLINE}Spearow out of this area.{SCROLL}Now I can finally grow my flowers in{NEWLINE}peace.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 151,
+   "zh": "没关系,我自己再想想办法。",
+   "en": "That’s all right. I’ll think of something{NEWLINE}else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 152,
+   "zh": "这个是精灵蛋,不是比雕啊。",
+   "en": "That’s an Egg, not a Pidgeot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 153,
+   "zh": "你这只精灵不是比雕啊。{NEWLINE}如果是用来压制烈雀的话,{CLEAR}果然还是比雕最合适吧？",
+   "en": "That Pokémon isn’t a Pidgeot.{SCROLL}If it’s to keep the Spearow in check, a{NEWLINE}Pidgeot really would be best, don’t you{CLEAR}think?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 154,
+   "zh": "……哎呀{NEWLINE}那这样你的精灵{CLEAR}就会１只都不剩了哦！",
+   "en": "...Oh dear, then you wouldn’t have a{NEWLINE}single Pokémon left!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 155,
+   "zh": "{VAR:0103:0}把比雕送出去了！",
+   "en": "{VAR:0103:0} handed over Pidgeot!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 156,
+   "zh": "谢谢你借比雕给我用啊,{NEWLINE}等我用它把花田附近的烈雀都赶走后,{CLEAR}你再来找我取回比雕就行了。{SCROLL}这段时间我会好好照顾比雕的,{NEWLINE}你尽管放心。",
+   "en": "Thank you for lending me your Pidgeot.{NEWLINE}Once I’ve used it to chase off all the{CLEAR}Spearow near the flower field...{SCROLL}...come back and pick it up.{SCROLL}I’ll take good care of Pidgeot in the{NEWLINE}meantime, so don’t worry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 157,
+   "zh": "多亏你的比雕帮忙,{NEWLINE}现在烈雀们再也不敢{CLEAR}来我这附近捣乱了。{CLEAR}你跟比雕分开这么久,{CLEAR}应该都很想念彼此吧。{CLEAR}我现在就把它还给你。",
+   "en": "Thanks to your Pidgeot’s help, the{NEWLINE}Spearow no longer dare to make trouble{CLEAR}around here.{SCROLL}You and Pidgeot have been apart for so{NEWLINE}long. You must miss each other.{SCROLL}I’ll give it back to you now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 158,
+   "zh": "啊呀,你的队伍满了,{NEWLINE}现在没有办法带走比雕呢。",
+   "en": "Oh dear, your party’s full. You can’t{NEWLINE}take Pidgeot back right now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 159,
+   "zh": "{VAR:0103:0}拿回了比雕！",
+   "en": "{VAR:0103:0} got Pidgeot back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 160,
+   "zh": "小银『在那场大战之后,{NEWLINE}父亲被判处了死刑……{CLEAR}我从精灵联盟那里领回了父亲的遗体,{CLEAR}然后把他埋在了这片{CLEAR}他从小长大的森林里……",
+   "en": "Silver: After that great battle, my{NEWLINE}father was sentenced to death...{SCROLL}I claimed my father’s body from the{NEWLINE}Pokémon League...{SCROLL}...and buried him here in the forest{NEWLINE}where he grew up...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | Post-game: Silver at Giovanni's grave."
+  },
+  {
+   "id": 161,
+   "zh": "大力鳄『Feeee——ra！",
+   "en": "Feraligatr: Feeee-ra!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 162,
+   "zh": "常磐森林里虫系精灵非常多,{NEWLINE}这对草系精灵来说很不利。{CLEAR}所以草系精灵{CLEAR}必须要时刻注意回复体力才行。{CLEAR}恰好超级吸取这个草系技能{CLEAR}就可以在造成伤害的同时回复体力。{CLEAR}如果你有精灵想学超级吸取的话,{CLEAR}只要给我一个蜂蜜我就可以交给它们。{SCROLL}怎么样,要学吗？{SCROLL}",
+   "en": "Viridian Forest is full of Bug-type{NEWLINE}Pokémon, which is bad news for Grass{CLEAR}types.{SCROLL}So Grass-type Pokémon always have to{NEWLINE}be careful to recover their HP.{SCROLL}And it just so happens that the{NEWLINE}Grass-type move Mega Drain restores HP{CLEAR}while dealing damage.{SCROLL}If you have a Pokémon that wants to{NEWLINE}learn Mega Drain, just give me one Honey{CLEAR}and I’ll teach it.{SCROLL}How about it? Want to learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 163,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 164,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住超级吸取。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn Mega{NEWLINE}Drain.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 165,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you ever want to learn it, come see{NEWLINE}me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 166,
+   "zh": "你并没有蜂蜜啊,{NEWLINE}等有了再来找我吧。",
+   "en": "You don’t have any Honey. Come back{NEWLINE}when you do.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 167,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "A Pokémon that hasn’t hatched yet{NEWLINE}can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), same position; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 168,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会超级吸取了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Mega{NEWLINE}Drain!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 169,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20}, 2{VAR:0201:20}, and{VAR:0201:20}... {VAR:0201:20}... Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 170,
+   "zh": "{VAR:0101:0}学会了超级吸取！",
+   "en": "{VAR:0101:0} learned Mega Drain!",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 171,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会超级吸取了！{SCROLL}那么按照约定,{NEWLINE}1个蜂蜜我拿走了。",
+   "en": "There! Your {VAR:0100:0} has learned{NEWLINE}Mega Drain!{SCROLL}As we agreed, I’ll take 1 Honey.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 172,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的超级吸取……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习超级吸取{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn the move{NEWLINE}Mega Drain...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Forget a move to make room for Mega{NEWLINE}Drain?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 173,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "{VAR:0106:1} will be forgotten. Is that{NEWLINE}OK? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 174,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot how to use{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s), same position; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 175,
+   "zh": "你是要放弃{NEWLINE}让它记住超级吸取吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Mega Drain? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

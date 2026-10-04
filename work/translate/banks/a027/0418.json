@@ -1,0 +1,191 @@
+{
+ "narc": "a027",
+ "bank": 418,
+ "source": "work/extract/v4/a027/0418.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "朋友们正在等呢！",
+   "en": "Your friends are waiting!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "probably unused (DP leftover; US blanks the bank) (Pt Battle Castle leftover)"
+  },
+  {
+   "id": 1,
+   "zh": "使用{VAR:0133:0}ＣＰ{NEWLINE}提高等级吗？",
+   "en": "Use {VAR:0133:0} CP{NEWLINE}to raise the rank?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 3,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 4,
+   "zh": "ＣＰ不足！",
+   "en": "You don’t have enough CP!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "使用了好伤药{NEWLINE}就可以恢复了！",
+   "en": "Your Pokémon can now be{NEWLINE}restored with Super Potions!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "使用了高级伤药和ＰＰ全回复,{NEWLINE}现在又可以恢复了！",
+   "en": "Your Pokémon can now be restored with{NEWLINE}Hyper Potions and Max Elixirs!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "可以出租的道具增加了！",
+   "en": "More items can now be rented!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "对战精灵的资料可以通过{NEWLINE}使用ＣＰ来查看！",
+   "en": "You can now use CP to view{NEWLINE}your opponents’ data!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "对战精灵使用的技能可以通过{NEWLINE}使用ＣＰ来查看。！",
+   "en": "You can now use CP to view{NEWLINE}the moves your opponents use!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "已经不能再提升等级了！",
+   "en": "The rank can’t be raised any higher!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0103:0}选择{NEWLINE}了「返回」！",
+   "en": "{VAR:0103:0} chose{NEWLINE}to go back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}",
+   "en": "{VAR:0103:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0103:0}",
+   "en": "{VAR:0103:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0135:0}ＣＰ",
+   "en": "{VAR:0135:0} CP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0135:0}ＣＰ",
+   "en": "{VAR:0135:0} CP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "恢复",
+   "en": "Heal",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "等级{VAR:0132:0}",
+   "en": "Rank {VAR:0132:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "道具",
+   "en": "Item",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 4 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 19,
+   "zh": "道具{VAR:0132:0}",
+   "en": "Item {VAR:0132:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "情报",
+   "en": "Info",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 21,
+   "zh": "等级{VAR:0132:0}",
+   "en": "Rank {VAR:0132:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "返回",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 12 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  }
+ ]
+}

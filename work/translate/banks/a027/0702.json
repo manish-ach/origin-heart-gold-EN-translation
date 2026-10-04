@@ -1,0 +1,103 @@
+{
+ "narc": "a027",
+ "bank": 702,
+ "source": "work/extract/v4/a027/0702.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "努",
+   "en": "Anthony",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "努 not in 0719; US contact Hiker Anthony (US 0711)"
+  },
+  {
+   "id": 1,
+   "zh": "话说回来,{SCROLL}我是一个登山男,{NEWLINE}所以经常要爬山！{SCROLL}反倒是镇里不常去！{SCROLL}看你这样子,应该是在{NEWLINE}经常在各个城市之间旅行吧。{SCROLL}既然如此,那我们就{NEWLINE}交换一下电话号码,{CLEAR}相互交换各自的情报吧？{VAR:0200:0}",
+   "en": "By the way, I’m a Hiker, so I often go{NEWLINE}to mountains and caves.{SCROLL}I don’t usually go to the town.{SCROLL}I bet you go to all kinds of towns on{NEWLINE}your journey, don’t you?{SCROLL}You know, if we were to trade phone{NEWLINE}numbers, then we could exchange{CLEAR}all kinds of information, yes? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0711/1"
+  },
+  {
+   "id": 2,
+   "zh": "等我想到那些暖心窝的话后,{CLEAR}我会打电话告诉你的！",
+   "en": "I’ll give you a call when I think of a{NEWLINE}good, heart-warming story, OK?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0711/2"
+  },
+  {
+   "id": 3,
+   "zh": "你说话这么无情,{NEWLINE}小心我把你留在山里。",
+   "en": "Talk that heartlessly and I might just{NEWLINE}leave you stranded in the mountains.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "怎么样？{NEWLINE}和喜欢冒险的同伴{CLEAR}交换一下电话号码吧？{VAR:0200:0}",
+   "en": "What do you say?{NEWLINE}Would you like to exchange numbers{CLEAR}with another adventurer? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0711/4"
+  },
+  {
+   "id": 5,
+   "zh": "都这么近了还要打电话？{SCROLL}大叔我就⋯⋯{NEWLINE}那么耀眼吗？",
+   "en": "You’re nearby, and yet you’re going to{NEWLINE}call me on the phone?{SCROLL}Am I that “dazzling” that you need to{NEWLINE}keep your distance?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0711/5"
+  },
+  {
+   "id": 6,
+   "zh": "前段日子{VAR:0100:10}{NEWLINE}我找来了很多{CLEAR}看起来很好吃的果实,{CLEAR}于是,我就和它一起吃了！{SCROLL}虽然不知道这东西能不能吃⋯⋯{NEWLINE}但真的很好吃。{SCROLL}你自己保重！",
+   "en": "The other day, my {VAR:0100:10} found me{NEWLINE}lots of tasty-looking Berries, so we ate{CLEAR}them together!{SCROLL}I’m not sure if they were even edible...{NEWLINE}but they were really delicious.{SCROLL}Take care!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0711/6; ext-review RB-001"
+  },
+  {
+   "id": 7,
+   "zh": "最近我经常能遇到{NEWLINE}{VAR:0100:11}！{CLEAR}别担心,我把它秒了。{SCROLL}你多保重！",
+   "en": "Lately, I’ve been running across wild{NEWLINE}{VAR:0100:11} quite often.{CLEAR}They’re easily taken care of.{SCROLL}All right then!{NEWLINE}Be good!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0711/7"
+  },
+  {
+   "id": 8,
+   "zh": "对了,前不久我在和{NEWLINE}{VAR:0100:11}战斗的时候,{CLEAR}被一旁路过的{CLEAR}成熟大姐吸引,{CLEAR}结果被它给逃走了。{SCROLL}你对战的时候一定要集中精神啊！{NEWLINE}请多保重！",
+   "en": "Oh yeah, I was battling this{NEWLINE}{VAR:0100:11} the other day...{CLEAR}It took off when I got distracted by a{CLEAR}passing Beauty.{SCROLL}Learn from my mistake--always stay{NEWLINE}focused on the job at hand!{SCROLL}All right then!{NEWLINE}Be good!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0711/8"
+  },
+  {
+   "id": 9,
+   "zh": "让我们现在来场精灵对战吧！{SCROLL}我在{VAR:0104:3},{NEWLINE}等你养足了精神就来吧。",
+   "en": "Come on, let’s have a{NEWLINE}Pokémon battle right now!{SCROLL}I’m at {VAR:0104:3}. Come{NEWLINE}over once you’re rested up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0711/9"
+  },
+  {
+   "id": 10,
+   "zh": "喂喂！{NEWLINE}难道你忘了{SCROLL}和我进行精灵对战的约定了？{NEWLINE}我在{VAR:0104:3}等你！",
+   "en": "Hello! You haven’t forgotten about our{NEWLINE}battle, have you?{SCROLL}{VAR:0104:3}! I’m waiting!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0711/10"
+  },
+  {
+   "id": 11,
+   "zh": "说起我为什么会如此喜欢山呢,{SCROLL}喜欢栖息在山中的精灵{NEWLINE}的确是其中一点,{CLEAR}但最为重要的,{CLEAR}就是我喜欢山本身。{SCROLL}我实在不理解为什么{NEWLINE}有那么多人喜欢大海⋯⋯",
+   "en": "I wonder why I like mountains so much...{SCROLL}It wouldn’t be wrong to say I also like{NEWLINE}the Pokémon that dwell on mountains.{SCROLL}But I bet that the number one reason is{NEWLINE}that I just like mountains.{SCROLL}I really don’t get why so many people{NEWLINE}like the sea...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0711/11; ext-review RB-001"
+  }
+ ]
+}

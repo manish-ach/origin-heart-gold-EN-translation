@@ -1,0 +1,103 @@
+{
+ "narc": "a027",
+ "bank": 664,
+ "source": "work/extract/v4/a027/0664.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "文敏",
+   "en": "Wendy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0673/0; 文敏 = 0719 #567 Wendy (US contact Torin)"
+  },
+  {
+   "id": 1,
+   "zh": "下次见面{NEWLINE}我一定会报仇的。{CLEAR}一定要和我再对战一次！{SCROLL}对了！把你的{NEWLINE}电话号码告诉我吧！{VAR:0200:0}",
+   "en": "Next time we meet, I’m getting my{NEWLINE}revenge. You have to battle me again!{SCROLL}Oh, I know! Tell me your phone number!{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0673/1"
+  },
+  {
+   "id": 2,
+   "zh": "登录完成！{NEWLINE}再见了！",
+   "en": "All right, registration complete!{NEWLINE}Later!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0673/2"
+  },
+  {
+   "id": 3,
+   "zh": "遗憾⋯⋯",
+   "en": "That’s too bad...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0673/3"
+  },
+  {
+   "id": 4,
+   "zh": "你看！果然{NEWLINE}还是想和我{CLEAR}交换电话号码吧？{VAR:0200:0}",
+   "en": "Hey! You really want to trade phone{NEWLINE}numbers with me, don’t you? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0673/4"
+  },
+  {
+   "id": 5,
+   "zh": "哎？{NEWLINE}我能听到风车的声音⋯⋯{SCROLL}莫非你已经{NEWLINE}到我附近了？{SCROLL}那就直接找我好了嘛！",
+   "en": "Huh?{NEWLINE}I can hear the sound of a windmill...{SCROLL}That must mean that you’re nearby,{NEWLINE}aren’t you?{SCROLL}So come have a proper conversation!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0673/5"
+  },
+  {
+   "id": 6,
+   "zh": "我的{VAR:0100:10}{NEWLINE}一直为我努力着！{SCROLL}在学校教给它的技能{NEWLINE}它马上就能完美地使用。{SCROLL}你的精灵{NEWLINE}会这么听你话么？",
+   "en": "My {VAR:0100:10} always{NEWLINE}works so hard for me!{SCROLL}Any move I learn at school, it{NEWLINE}can use perfectly right away.{SCROLL}Do your Pokémon listen{NEWLINE}to you that well?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0673/6"
+  },
+  {
+   "id": 7,
+   "zh": "昨天我把{VAR:0100:11}{NEWLINE}好好教训了一顿！{SCROLL}只要把在学校学到的技能{NEWLINE}用出来就能轻松获胜！{SCROLL}你是在哪个学校毕业的？{NEWLINE}什么⋯⋯没上过学？！{CLEAR}这怎么可能？",
+   "en": "Yesterday we taught a{NEWLINE}{VAR:0100:11} a real lesson!{SCROLL}All I had to do was use the moves I{NEWLINE}learned at school, and we won easily!{SCROLL}Which school did you graduate{NEWLINE}from? What... you never went to{CLEAR}school?! How is that possible?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0673/7"
+  },
+  {
+   "id": 8,
+   "zh": "前几天我在最后关头{NEWLINE}被{VAR:0100:11}逃掉了！{CLEAR}真是可惜啊。{SCROLL}为了不忘记这份耻辱,{NEWLINE}我将所有逃掉的精灵的名字{CLEAR}全部都记录在了笔记本上。{SCROLL}现在我的笔记本上{NEWLINE}都是精灵的名字！",
+   "en": "Recently I was trying to catch a{NEWLINE}{VAR:0100:11}, but it ran away!{CLEAR}So disappointing!{SCROLL}And so I don’t forget how disappointing{NEWLINE}it was, I’m writing down the name of the{CLEAR}Pokémon that got away on my notebook.{SCROLL}There’re Pokémon names all over{NEWLINE}my notebook!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0673/8"
+  },
+  {
+   "id": 9,
+   "zh": "差不多该和我比一场了吧,{NEWLINE}我在{VAR:0104:3}等你！",
+   "en": "Hey, come battle me again.{NEWLINE}I’ll be waiting at {VAR:0104:3}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0673/9"
+  },
+  {
+   "id": 10,
+   "zh": "喂喂,还记得我们约在{NEWLINE}{VAR:0104:3}的对战吗？{CLEAR}快点来吧。",
+   "en": "Hello? I’m at {VAR:0104:3}. We{NEWLINE}were going to battle, weren’t we?{CLEAR}Hurry on over!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0673/10"
+  },
+  {
+   "id": 11,
+   "zh": "哎？平时只能看到{NEWLINE}放学的我们？{SCROLL}是啊。{SCROLL}因为去上学的时候,{NEWLINE}为了不迟到而总是急急忙忙的,{CLEAR}所以也就没空在上学时{CLEAR}进行对战了！",
+   "en": "Huh? The only time you ever see me is{NEWLINE}when I’m on my way home from school?{SCROLL}I suppose you’re right...{SCROLL}But when I’m on my way to school, I’m{NEWLINE}always in a rush so that I’m not late.{SCROLL}I don’t have any time for Pokémon{NEWLINE}battles then!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0673/11"
+  }
+ ]
+}

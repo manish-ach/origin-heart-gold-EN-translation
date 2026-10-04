@@ -1,0 +1,761 @@
+{
+ "narc": "a027",
+ "bank": 609,
+ "source": "work/extract/v4/a027/0609.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "玉绪『舞蹈练习绝非仅为练习,{NEWLINE}亦是向神明祈祷,{CLEAR}汝切不可怠慢。",
+   "en": "Tamao: Dance practice is never mere{NEWLINE}practice. It is also a prayer to the{CLEAR}gods. You must not treat it lightly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Kimono Girls: 彩月 Satsuki (eldest), 小桃 Momo (2nd), 玉绪 Tamao (3rd), 小梅 Koume (4th), 吔 Aya (youngest). Branches: #10/#11 watch the dance (#12-#28), #22/#23 answer; #84/#85/#86 summon Ho-Oh (#87/#91/#92) or Lugia (#88/#89)"
+  },
+  {
+   "id": 1,
+   "zh": "吔『哎呀,姐姐们太过正经了。{NEWLINE}练习而已又不是公开表演,{CLEAR}穿什么不是练呢。",
+   "en": "Sakura: Ugh, you sisters are way{NEWLINE}too serious. It’s only practice,{CLEAR}not a public show. What does it matter{CLEAR}what I wear?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 2,
+   "zh": "小梅『以实战之态度勤加练习,{NEWLINE}方能临事不乱,用时不慌,{CLEAR}彩月大姐的教诲汝不可忘记。",
+   "en": "Koume: Only by practicing as though it{NEWLINE}were the real thing can one stay calm{CLEAR}when the moment comes. You must not{CLEAR}forget Big Sister Satsuki’s teaching.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "吔『我练舞一直都很认真啦。{NEWLINE}只是时代在变啊姐姐们,{CLEAR}现在都流行美少女穿着短裙跳舞,{CLEAR}传统服装什么的已经过时啦。",
+   "en": "Sakura: I always take dance practice{NEWLINE}seriously! It’s just that times are{CLEAR}changing, sisters.{SCROLL}These days it’s all pretty girls dancing{NEWLINE}in short skirts. Traditional costumes{CLEAR}are totally out of style.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 4,
+   "zh": "彩月『汝怎可口出狂妄之言,{NEWLINE}吾等所着之服饰、所练之舞蹈{CLEAR}皆有其来历渊源,{CLEAR}汝不可轻慢不敬！",
+   "en": "Satsuki: How dare you speak so{NEWLINE}arrogantly! The garments we wear and{CLEAR}the dances we practice all have their{CLEAR}origins and history. You must not treat{CLEAR}them with disrespect!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "吔『好啦彩月大姐,{NEWLINE}别说的那么严重嘛。{CLEAR}我换上衣服跟你们练习就是。",
+   "en": "Sakura: Okay, okay, Big Sis Satsuki,{NEWLINE}don’t make it sound so serious. I’ll{CLEAR}change and practice with you, all right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 6,
+   "zh": "吔『呀！姐姐们,你们看这是谁来了！",
+   "en": "Sakura: Oh! Sisters, look who’s here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 7,
+   "zh": "彩月『联盟冠军大驾光临,{NEWLINE}小女子姐妹有失远迎,{CLEAR}请联盟冠军恕罪。",
+   "en": "Satsuki: The League Champion honors{NEWLINE}us with a visit, and we sisters{CLEAR}failed to greet you properly.{CLEAR}Please forgive us, Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:0103:0}『啊……你们太客气了。",
+   "en": "{VAR:0103:0}: Ah... You’re too kind.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "彩月『小女子与舍妹正欲排练舞蹈,{NEWLINE}冠军大人如不嫌弃,{CLEAR}请留步一观如何？",
+   "en": "Satsuki: My sisters and I were{NEWLINE}just about to rehearse our dance.{CLEAR}If you do not mind, Champion,{CLEAR}would you stay and watch?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "好啊,我正好想看看",
+   "en": "Sure, I’d love to watch",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 11,
+   "zh": "我还有事先走了",
+   "en": "Sorry, I have to go",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "彩月『小女子所练之舞,{NEWLINE}并非普通舞蹈,{CLEAR}乃是专为有缘之人而跳。{SCROLL}彩月『冠军大人今日{NEWLINE}既机缘巧合来至寒舍,{CLEAR}便请驻足一观,{CLEAR}一偿吾等姐妹之心愿如何？",
+   "en": "Satsuki: The dance we practice is no{NEWLINE}ordinary dance. It is danced only for{CLEAR}one bound to us by fate.{SCROLL}Satsuki: Since fate has brought{NEWLINE}you to our humble hall today,{CLEAR}Champion, would you stay and watch,{CLEAR}and grant us sisters our wish?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0103:0}『我今天还有事,先不看了吧。",
+   "en": "{VAR:0103:0}: I have somewhere to be today,{NEWLINE}so I’ll pass for now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}『感谢您的盛情邀请,{NEWLINE}那我今天就开开眼界。",
+   "en": "{VAR:0103:0}: Thank you for the kind{NEWLINE}invitation. Then today I’ll get to see{CLEAR}something special.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "彩月『多谢冠军大人赏光。{NEWLINE}烦请冠军大人台下落座,{CLEAR}吾等姐妹这就准备开始。",
+   "en": "Satsuki: Thank you for honoring us,{NEWLINE}Champion. Please take a seat below{CLEAR}the stage. We sisters shall prepare{CLEAR}to begin at once.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "彩月『吔,贵客至此,不可怠慢,{NEWLINE}速速更衣上台。",
+   "en": "Satsuki: Sakura, an honored guest is{NEWLINE}here. We must not keep them waiting.{CLEAR}Change your clothes and take the stage{CLEAR}at once.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 17,
+   "zh": "吔『好的,彩月大姐。",
+   "en": "Sakura: Yes, Big Sis Satsuki.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 18,
+   "zh": "吔『呼,这身衣服可真够重的。",
+   "en": "Sakura: Phew, this outfit sure is heavy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 19,
+   "zh": "彩月『音乐起！",
+   "en": "Satsuki: Music!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "彩月『舞蹈已毕,{NEWLINE}请冠军大人上台一叙。",
+   "en": "Satsuki: Our dance is finished.{NEWLINE}Champion, please come up on stage{CLEAR}for a word.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "彩月『冠军大人看了方才之舞蹈,{NEWLINE}是否觉得何处尚有不足？",
+   "en": "Satsuki: Having seen our dance just{NEWLINE}now, Champion, do you feel anything{CLEAR}was lacking?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "非常好,我很喜欢",
+   "en": "Very good, I loved it",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 23,
+   "zh": "跳得还不够整齐",
+   "en": "Not quite in sync",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0103:0}『我觉得跳得很好,{NEWLINE}看完之后感觉身心愉悦。",
+   "en": "{VAR:0103:0}: I thought it was wonderful.{NEWLINE}Watching it left me feeling refreshed,{CLEAR}body and mind.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "彩月『冠军大人竟能与此舞{NEWLINE}产生身心之共鸣？！{CLEAR}果真您便是……",
+   "en": "Satsuki: Our dance moved you{NEWLINE}in body and mind, Champion?!{CLEAR}Then you truly are...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0103:0}『我感觉刚才的舞步不够整齐,{NEWLINE}有些地方会显得有点乱。",
+   "en": "{VAR:0103:0}: I felt the steps just{NEWLINE}now weren’t quite in sync.{CLEAR}Some parts looked a little messy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "彩月『冠军大人竟能看破{NEWLINE}吾等舞步之不足！？{CLEAR}果真您便是……",
+   "en": "Satsuki: You saw through the{NEWLINE}flaws in our steps, Champion?!{CLEAR}Then you truly are...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "彩月『吾与姐妹定当继续勤练,{NEWLINE}盼有朝一日能在重楼之上、深渊之下{CLEAR}为冠军大人再跳此舞。",
+   "en": "Satsuki: My sisters and I shall keep{NEWLINE}practicing diligently, in hopes that one{CLEAR}day we may dance this dance for you{CLEAR}again, high atop the tower and deep{CLEAR}beneath the abyss.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "小桃『小女子乃五姐妹之次女小桃。{SCROLL}小桃『小女子有一朋友{NEWLINE}在东城洞穴附近工作,{CLEAR}也不知他近来可好……",
+   "en": "Momo: This humble maiden is Momo,{NEWLINE}second of the five sisters.{SCROLL}Momo: This humble maiden has a{NEWLINE}friend who works near Tohjo Falls.{CLEAR}I wonder how he fares these days...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "玉绪『小女子乃五姐妹之三女玉绪。{NEWLINE}今日又与冠军重逢,{CLEAR}小女子不胜欣喜。{CLEAR}不知冠军大人可否让小女子{CLEAR}再见识一下您对战的英姿呢？",
+   "en": "Tamao: This humble maiden is Tamao,{NEWLINE}third of the five sisters.{CLEAR}This humble maiden is overjoyed to meet{CLEAR}the Champion again today.{SCROLL}Might the Champion allow this humble{NEWLINE}maiden to witness your gallant battling{CLEAR}once more?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "彩月『吾乃五姐妹之大姐彩月,{NEWLINE}带领众妹妹在此勤修苦练,{CLEAR}只为有朝一日能为有缘之人献上一舞。",
+   "en": "Satsuki: I am Satsuki, eldest of{NEWLINE}the five sisters. I lead my younger{CLEAR}sisters in rigorous training here,{CLEAR}all so that one day we may offer a dance{CLEAR}to the one bound to us by fate.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "玉绪『恕小女子打扰了。",
+   "en": "Tamao: This humble maiden begs{NEWLINE}your pardon for the intrusion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "copied from a027/0548#44 (identical zh)"
+  },
+  {
+   "id": 33,
+   "zh": "玉绪『冠军大人期望何种对战？",
+   "en": "Tamao: What kind of battle does the{NEWLINE}Champion desire?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | replaced (was tm_v3) | copied from a027/0377#22 (identical zh)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 35,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl) | replaced (was tm_v3) | copied from a027/0377#23 (identical zh)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 36,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl) | replaced (was tm_v3) | copied from a027/0377#24 (identical zh)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 37,
+   "zh": "玉绪『期待与冠军大人再次交手。",
+   "en": "Tamao: This humble maiden looks forward{NEWLINE}to facing the Champion again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "玉绪『小女子技艺尚浅,{NEWLINE}请冠军大人赐教。",
+   "en": "Tamao: This humble maiden’s skill{NEWLINE}is still shallow. Please, Champion,{CLEAR}grant me your guidance.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "玉绪『无愧为当世最强训练家,{NEWLINE}小女子受教了。",
+   "en": "Tamao: Truly the strongest Trainer{NEWLINE}of this age. This humble maiden has{CLEAR}learned much.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "玉绪『冠军大人所带精灵{NEWLINE}未够双打之数！{CLEAR}请带足之后再来。",
+   "en": "Tamao: The Champion does not have{NEWLINE}enough Pokémon for a Double Battle!{CLEAR}Please return with enough.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "小梅『小女子乃是{NEWLINE}五姐妹之四女小梅。{CLEAR}桐树林中承蒙冠军大人引路,{CLEAR}小女子才得以脱身。{CLEAR}冠军大人之热心友善,{CLEAR}小女子深有体会。",
+   "en": "Koume: This humble maiden is Koume,{NEWLINE}fourth of the five sisters.{SCROLL}It was thanks to the Champion showing{NEWLINE}the way in Ilex Forest that this{CLEAR}humble maiden found her way out.{CLEAR}This humble maiden knows well how warm{CLEAR}and kind the Champion is.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "吔『嘿嘿,我是五姐妹中最小的吔。{NEWLINE}姐姐们都太一本正经了。{CLEAR}还是用普通的说话方式比较轻松。{SCROLL}吔『话说冠军大人你一路上旅行,{NEWLINE}应该收集到了很多道具吧？{CLEAR}姐姐们的伊布都进化成了各种形态,{CLEAR}只有我的伊布还没进化。{CLEAR}你如果有水之石的话能送我一块吗？{CLEAR}我想让我的伊布进化成水精灵。{SCROLL}要送给吔水之石吗？",
+   "en": "Sakura: Hee hee, I’m Sakura,{NEWLINE}the youngest of the five sisters.{CLEAR}My big sisters are way too stiff. Talking{CLEAR}normally is so much more relaxing.{SCROLL}Sakura: So, Champion, you must have{NEWLINE}collected loads of items on your{CLEAR}travels, right?{SCROLL}All my sisters’ Eevee have evolved into{NEWLINE}different forms, but mine still hasn’t.{CLEAR}If you have a Water Stone,{CLEAR}could you give me one? I want my Eevee{CLEAR}to evolve into Vaporeon.{SCROLL}Give Sakura a Water Stone?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 43,
+   "zh": "吔『哎？连冠军大人也没有吗……",
+   "en": "Sakura: Huh? Not even the Champion{NEWLINE}has one...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 44,
+   "zh": "吔『冠军大人你真的有水之石吗？{NEWLINE}没有的话不要勉强自己。",
+   "en": "Sakura: Do you really have a Water{NEWLINE}Stone, Champion? If you don’t, don’t{CLEAR}push yourself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 45,
+   "zh": "吔『哇！这是水之石！{SCROLL}吔『谢谢你冠军大人,{NEWLINE}这样我的伊布就能进化成水精灵了！{SCROLL}吔『我也不能白拿你的东西,{NEWLINE}这个送给你就当是回礼了。",
+   "en": "Sakura: Wow! It’s a Water Stone!{SCROLL}Sakura: Thank you, Champion!{NEWLINE}Now my Eevee can evolve into Vaporeon!{SCROLL}Sakura: I can’t just take your stuff{NEWLINE}for nothing. Here, take this as a{CLEAR}thank-you gift.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 46,
+   "zh": "吔『我的伊布进化成水精灵了哦。{NEWLINE}冠军大人你想在对战中{CLEAR}见识一下水精灵的厉害吗？",
+   "en": "Sakura: My Eevee evolved into{NEWLINE}Vaporeon! Champion, do you want to see{CLEAR}how tough Vaporeon is in battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 47,
+   "zh": "吔『对水精灵不感兴趣吗？{NEWLINE}我明明觉得水精灵很可爱的说。",
+   "en": "Sakura: Not interested in Vaporeon?{NEWLINE}But I think Vaporeon is so cute...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 48,
+   "zh": "吔『你想单打还是双打？",
+   "en": "Sakura: Do you want a Single Battle or a{NEWLINE}Double Battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 49,
+   "zh": "吔『好吧,想打的时候再来找我啊。",
+   "en": "Sakura: Okay, come find me whenever you{NEWLINE}want to battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 50,
+   "zh": "吔『嘿嘿,舞女吔和她的水精灵{NEWLINE}要上了哦！",
+   "en": "Sakura: Hee hee, Kimono Girl Sakura and{NEWLINE}her Vaporeon are coming at you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 51,
+   "zh": "吔『哎呀,我果然还是{NEWLINE}跟冠军大人有很大差距啊。",
+   "en": "Sakura: Aww, I’m still way behind the{NEWLINE}Champion after all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 52,
+   "zh": "吔『冠军大人就用一只精灵{NEWLINE}跟我玩双打？{CLEAR}太瞧不起人了吧。",
+   "en": "Sakura: Champion, you want to play a{NEWLINE}Double Battle with me with just one{CLEAR}Pokémon? Don’t look down on me{CLEAR}like that!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 53,
+   "zh": "要把警卫的信交给小桃吗？",
+   "en": "Give the guard’s letter to Momo?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "小桃『您说有人托您带书信于我！？{NEWLINE}请速给我一看。",
+   "en": "Momo: You say someone asked{NEWLINE}you to bring me a letter?!{CLEAR}Please, let me see it at once.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "小桃『小桃小姐敬启：{NEWLINE}从我离开缘朱市外出执勤,{CLEAR}已经过去一年有余了,{CLEAR}这段时间你还好吗？{CLEAR}我仍然清楚地记得我离开的那天,{CLEAR}缘朱市下着大雨,{CLEAR}你撑着油纸伞为我送行时的样子。{CLEAR}我本应在那时{CLEAR}就把深藏在心底的话告诉你,{CLEAR}但最终却没有说出口。{SCROLL}随着时间一天天过去,{NEWLINE}我对小桃小姐的思念之情{CLEAR}再也无法压抑。{CLEAR}于是决定踏出这重要的一步{CLEAR}好让此生不留遗憾。{CLEAR}苦于哨所没有电话我只能以信传音,{CLEAR}我想正式地告诉小桃小姐,{CLEAR}我喜欢你,请与我交往好吗？{CLEAR}盼回音。",
+   "en": "Momo: Dear Miss Momo,{SCROLL}It has been more than a year since{NEWLINE}I left Ecruteak City for my post.{CLEAR}How have you been?{SCROLL}I still clearly remember the day I left.{NEWLINE}It was pouring in Ecruteak City,{CLEAR}and you saw me off holding an{CLEAR}oil-paper umbrella.{SCROLL}I should have told you then what I{NEWLINE}kept deep in my heart, but in the end,{CLEAR}I never said it.{SCROLL}As the days went by, I could no{NEWLINE}longer hold back how much I miss you,{CLEAR}Miss Momo. So I decided to take this{CLEAR}important step, so that I will have no{CLEAR}regrets in this life.{SCROLL}There is no phone at the outpost,{NEWLINE}so this letter must speak for me.{CLEAR}I want to tell you properly, Miss Momo:{CLEAR}I like you. Will you go out with me?{SCROLL}Awaiting your reply.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Yuichi’s love letter (D-0706) read aloud by Momo"
+  },
+  {
+   "id": 56,
+   "zh": "小桃『呜……哈哈。此等傻瓜,{NEWLINE}早早说出,何须等到今日！{SCROLL}小桃『多谢冠军大人为我带此书信,{NEWLINE}此物乃是小女子之谢礼,{CLEAR}请冠军大人笑纳。",
+   "en": "Momo: *sob*... Ha ha. What a fool.{NEWLINE}Had he only said it sooner, there would{CLEAR}have been no need to wait until today!{SCROLL}Momo: Thank you, Champion,{NEWLINE}for bringing me this letter. This is a{CLEAR}token of this humble maiden’s gratitude.{CLEAR}Please accept it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "小桃『彩月大姐,{NEWLINE}吾今日收到佑一之信。{CLEAR}故欲去东城洞穴哨所一遭,{CLEAR}当面回应佑一之情。",
+   "en": "Momo: Big Sister Satsuki,{NEWLINE}today I received a letter from Yuichi.{CLEAR}So I wish to go to the outpost at Tohjo{CLEAR}Falls and answer his feelings in person.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "彩月『吾妹牵挂之事{NEWLINE}今日终有回音,{CLEAR}实是可喜可贺。{CLEAR}汝当速去,一路小心。",
+   "en": "Satsuki: What has weighed{NEWLINE}on my sister’s heart has at{CLEAR}last been answered today.{CLEAR}That is truly cause for joy.{CLEAR}Go quickly, and take care on the way.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "小桃『谢彩月大姐。",
+   "en": "Momo: Thank you, Big Sister Satsuki.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "小桃『谢冠军大人带信之恩,{NEWLINE}小女子感激不尽。",
+   "en": "Momo: Thank you, Champion,{NEWLINE}for bringing the letter.{CLEAR}This humble maiden is deeply grateful.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "你好,舞台这边的楼梯有点破损,{NEWLINE}修好之前暂停使用。",
+   "en": "Hello. The stairs by the stage are a{NEWLINE}little damaged, so they’re closed until{CLEAR}they’re repaired.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "啊哈！休息的时候{NEWLINE}来这里看看美女跳舞,{CLEAR}真的是一种享受。",
+   "en": "Aha! Coming here on my break to watch{NEWLINE}beautiful girls dance is a real treat.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "我是看着这些女娃娃长大的,{NEWLINE}她们从小就在刻苦练舞,{CLEAR}真是一群有毅力的女孩子啊！",
+   "en": "I’ve watched these girls grow up.{NEWLINE}They’ve practiced dancing hard{CLEAR}ever since they were little.{CLEAR}What a determined bunch of girls!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "舞女们可不止是会跳舞哦,{NEWLINE}她们还是精灵对战的高手,{CLEAR}其中有三位更是取得了{CLEAR}联盟认定的精英训练家资格。",
+   "en": "The Kimono Girls don’t just dance,{NEWLINE}you know. They’re also masters of{CLEAR}Pokémon battles.{SCROLL}Three of them have even earned{NEWLINE}League-certified Ace Trainer status.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "可达鸭『Psyyy——duck！",
+   "en": "Psyduck: Psyyy-duck!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "乔伊『因为最近百变怪们工作太累了,{NEWLINE}就带它们来看舞蹈放松一下。{CLEAR}结果却被告知今天只有排练{CLEAR}没有正式演出。{CLEAR}不过就算是排练也好啦,{CLEAR}多看一点是一点嘛。",
+   "en": "Joy: The Ditto have been working much{NEWLINE}too hard lately, so I brought them to{CLEAR}watch the dancing and relax.{SCROLL}But they told me there’s only a{NEWLINE}rehearsal today, no real performance.{CLEAR}Oh well, even a rehearsal is nice.{CLEAR}Every little bit counts!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "乔伊『咦？你说咱们两个之前见过？{SCROLL}乔伊『哈哈,怎么可能,{NEWLINE}咱们这是初次见面。{CLEAR}一定是你在旅行中见过太多乔伊小姐,{CLEAR}所以脸盲分不出来谁是谁。",
+   "en": "Joy: Huh? You say we’ve met before?{SCROLL}Joy: Ha ha, that’s impossible.{NEWLINE}This is the first time we’ve met.{SCROLL}You must have seen so many Nurse Joys{NEWLINE}on your travels that you can’t tell us{CLEAR}apart anymore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "百变怪『Diii——tto！",
+   "en": "Ditto: Diii-tto!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "copied from a027/0369#22 (identical zh)"
+  },
+  {
+   "id": 69,
+   "zh": "小桃『唉,斯人已去再无音信,{NEWLINE}这万千离愁别绪,该从何说起……",
+   "en": "Momo: Sigh... He is gone, and not a word{NEWLINE}since. All these countless sorrows of{CLEAR}parting... where should I even begin...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "舞女还在这里啊……",
+   "en": "The Kimono Girls are still here...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "干什么？我来看美女不行啊？",
+   "en": "What? Can’t a guy come look at{NEWLINE}pretty girls?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "动向确认……",
+   "en": "Movements confirmed...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "小桃『为了凤王和缘朱市,{NEWLINE}一定要打败火箭队。",
+   "en": "Momo: For Ho-Oh and for Ecruteak City,{NEWLINE}we must defeat Team Rocket.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "小桃『吾等姐妹所等之日终于到来了。",
+   "en": "Momo: The day we sisters have awaited{NEWLINE}has finally come.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "吔『嘿嘿,刚才小松馆主来过了,{NEWLINE}冠军大人应该知道是什么事吧？",
+   "en": "Sakura: Hee hee, Morty was just here.{NEWLINE}Champion, you know what it’s{CLEAR}about, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 76,
+   "zh": "小梅『铃铛塔上迷宫错落复杂,{NEWLINE}若是吾只身前往,{CLEAR}定然是有去无回……",
+   "en": "Koume: The Bell Tower is a{NEWLINE}maze of twists and turns.{CLEAR}If this humble maiden went alone,{CLEAR}she would surely never come back...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "小梅『小女子虽然行路迷糊,{NEWLINE}但对敌可一点都不迷糊,{CLEAR}终有一日定要与火箭队清算！",
+   "en": "Koume: This humble maiden may be{NEWLINE}muddled about directions, but she is not{CLEAR}the least bit muddled about her foes.{CLEAR}One day she will settle the score with{CLEAR}Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "玉绪『命运之日终于来临,{NEWLINE}姐妹们的心情都很激动呢。",
+   "en": "Tamao: The day of destiny has finally{NEWLINE}come. My sisters are all so excited.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "玉绪『凤王虽是被火箭队所掌控,{NEWLINE}但每每念及有冠军大人在,{CLEAR}小女子便觉无比安心。",
+   "en": "Tamao: Ho-Oh may be in Team Rocket’s{NEWLINE}grasp, but whenever this humble{CLEAR}maiden remembers the Champion is here,{CLEAR}she feels completely at ease.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "吔『火箭队这帮坏蛋,{NEWLINE}下次让我撞见了一定打他们屁股！",
+   "en": "Sakura: Those Team Rocket creeps!{NEWLINE}Next time I run into them, I’m gonna{CLEAR}spank their butts!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "[D-0959 rename 2026-09-29: Aya → Sakura]; ext-review RA-H04"
+  },
+  {
+   "id": 81,
+   "zh": "彩月『冠军大人,{NEWLINE}小松馆主已经找过吾等姐妹了,{CLEAR}待吾等稍作准备后便前往铃铛塔。",
+   "en": "Satsuki: Champion, Morty has{NEWLINE}already been to see us sisters.{CLEAR}Once we have made some preparations,{CLEAR}we shall go to the Bell Tower.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "彩月『火箭队所犯之罪行不可原谅,{NEWLINE}吾等姐妹定与之对抗到底！",
+   "en": "Satsuki: Team Rocket’s crimes are{NEWLINE}unforgivable. We sisters shall fight{CLEAR}them to the very end!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "彩月『冠军大人率领吾等战胜火箭队,{NEWLINE}真可谓是盖世英雄。{CLEAR}吾等姐妹所跳之舞{CLEAR}正是为了帮助冠军大人这样的训练家{CLEAR}与传说中的精灵见面而存在的。{CLEAR}如若冠军大人想要召唤传说中的精灵,{CLEAR}可以随时告知小女子,{CLEAR}吾等姐妹必将为冠军大人{CLEAR}献上这最后一舞。",
+   "en": "Satsuki: You led us to victory{NEWLINE}over Team Rocket, Champion.{CLEAR}You are truly a peerless hero.{SCROLL}The dance we sisters perform exists{NEWLINE}precisely to help Trainers like you meet{CLEAR}legendary Pokémon.{SCROLL}If you wish to summon a legendary{NEWLINE}Pokémon, Champion, simply tell this{CLEAR}humble maiden anytime, and we sisters{CLEAR}shall offer you this final dance.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "我想要见凤王",
+   "en": "I want to see Ho-Oh",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 85,
+   "zh": "我想要见洛奇亚",
+   "en": "I want to see Lugia",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 86,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "copied from a027/0443#63 (identical zh)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 87,
+   "zh": "彩月『召唤凤王之必备道具透明铃铛{NEWLINE}尚在小松馆主手中。{CLEAR}冠军大人想再上铃铛塔顶与凤王重逢,{CLEAR}需先至小松馆主处取得透明铃铛,{CLEAR}然后返回告知小女子即可。",
+   "en": "Satsuki: The Clear Bell,{NEWLINE}which is needed to summon Ho-Oh,{CLEAR}is still in Morty’s hands.{SCROLL}If you wish to climb to the top of{NEWLINE}the Bell Tower and meet Ho-Oh again,{CLEAR}Champion, first obtain the Clear Bell{CLEAR}from Morty, then come back and tell{CLEAR}this humble maiden.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "彩月『深渊之下沉睡的大海守护神{NEWLINE}——洛奇亚,{CLEAR}传说曾经召唤来雨云{CLEAR}拯救了干旱的城都大地。{CLEAR}冠军大人成为洛奇亚的训练家{CLEAR}实乃顺天应人。{CLEAR}吾等姐妹这就前往漩涡岛{CLEAR}为召唤洛奇亚做准备。",
+   "en": "Satsuki: Lugia, the guardian of the{NEWLINE}seas who sleeps beneath the abyss...{CLEAR}Legend says it once summoned rain{CLEAR}clouds and saved the drought-stricken{CLEAR}land of Johto.{SCROLL}For you to become Lugia’s Trainer,{NEWLINE}Champion, is the will of heaven and the{CLEAR}wish of the people. We sisters shall set{CLEAR}off for the Whirl Islands at once to{CLEAR}prepare for summoning Lugia.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "彩月『姐妹们,冠军大人想与洛奇亚见面,{NEWLINE}是时候跳起吾等宿命之舞了,{CLEAR}随我一起去漩涡岛。",
+   "en": "Satsuki: Sisters, the Champion{NEWLINE}wishes to meet Lugia. The time has{CLEAR}come to dance our dance of destiny.{CLEAR}Follow me to the Whirl Islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "彩月『歌舞连乘数百年来传承之舞蹈,{NEWLINE}终于完成了它的使命。{CLEAR}感谢冠军大人！",
+   "en": "Satsuki: The dance handed down at the{NEWLINE}Dance Theater for hundreds of years{CLEAR}has at last fulfilled its purpose.{CLEAR}Thank you, Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "彩月『看来冠军大人{NEWLINE}已从小松馆主处取得透明铃铛。{CLEAR}吾等姐妹这就前往铃铛塔{CLEAR}为召唤凤王做最后准备。",
+   "en": "Satsuki: It seems you have obtained{NEWLINE}the Clear Bell from Morty, Champion.{CLEAR}We sisters shall go to the Bell Tower{CLEAR}at once and make the final preparations{CLEAR}for summoning Ho-Oh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "彩月『姐妹们,冠军大人想与凤王见面,{NEWLINE}是时候跳起吾等宿命之舞了,{CLEAR}随我一起去铃铛塔。",
+   "en": "Satsuki: Sisters, the Champion{NEWLINE}wishes to meet Ho-Oh. The time has{CLEAR}come to dance our dance of destiny.{CLEAR}Follow me to the Bell Tower.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

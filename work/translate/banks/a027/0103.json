@@ -1,0 +1,643 @@
+{
+ "narc": "a027",
+ "bank": 103,
+ "source": "work/extract/v4/a027/0103.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "老师的教案：",
+   "en": "Teacher’s lesson plan:",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "呀,您是……{SCROLL}您是冠军大人{VAR:0103:0}吧！{NEWLINE}没想到您会到我们训练家学校来。{CLEAR}如果学生知道您来了,{CLEAR}一定会非常高兴的。{SCROLL}不知道您现在是否有时间,{NEWLINE}与我们的学生交流分享下{CLEAR}您作为训练家的经验呢？",
+   "en": "Oh, you’re...{SCROLL}You’re Champion {VAR:0103:0}, aren’t{NEWLINE}you? I never thought you’d visit{CLEAR}our Pokémon Academy! The students{CLEAR}will be thrilled to hear you’re here.{SCROLL}If you have time now, would you{NEWLINE}share some of your experience{CLEAR}as a Trainer with our students?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "是因为您太忙吗……",
+   "en": "Is it because you’re too busy...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "太好了！请您随我站到讲台前面,{NEWLINE}我现在就向学生介绍您。",
+   "en": "Wonderful! Please follow me to the{NEWLINE}front of the class. I’ll introduce{CLEAR}you to the students right away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "同学们,都安静一下。",
+   "en": "Class, settle down, please.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "我旁边站着的这位训练家,{NEWLINE}是非常了不起的人物哦。{CLEAR}你们知道是谁吗？",
+   "en": "The Trainer standing next{NEWLINE}to me is a very remarkable{CLEAR}person. Do you know who it is?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "哎？是很厉害的人吗？",
+   "en": "Huh? Someone really strong?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "会比联盟冠军{VAR:0103:0}更厉害吗？",
+   "en": "Stronger than League{NEWLINE}Champion {VAR:0103:0}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "我还是觉得小绿更厉害！",
+   "en": "I still think Blue’s stronger!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "咳！咳！大家安静！{NEWLINE}同学们可能还没认出来,{CLEAR}这位就是咱们的{CLEAR}现任联盟冠军{VAR:0103:0}！",
+   "en": "Ahem! Ahem! Quiet, everyone!{NEWLINE}You may not have recognized this{CLEAR}person, but this is our current{CLEAR}League Champion, {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "哇！好像真的是哎！",
+   "en": "Wow! It really is!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0103:0}哥哥！请给我签名！",
+   "en": "{VAR:0103:0}! Can I have your autograph?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Gender pairs with no difference in English: #11/#12 (哥哥/姐姐), #71/#72."
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}姐姐！请给我签名！",
+   "en": "{VAR:0103:0}! Can I have your autograph?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "什么嘛,气势完全比不上小绿馆主。",
+   "en": "What? Doesn’t have half the{NEWLINE}presence of Gym Leader Blue.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "不要老师说一句,你们就接一句！{SCROLL}{VAR:0103:0}冠军今天来咱们学校,{NEWLINE}是与同学们交流分享{CLEAR}作为训练家的经验心得的,{CLEAR}同学们有什么问题可以尽管请教。{CLEAR}谁想先提问？",
+   "en": "Stop talking back every{NEWLINE}time I say something!{SCROLL}Champion {VAR:0103:0} came to{NEWLINE}our Academy today to share what{CLEAR}they’ve learned as a Trainer. If{CLEAR}you have questions, go right ahead{CLEAR}and ask. Who wants to go first?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Neutral ‘they’ for the Champion (the teacher's line has no gender variant)."
+  },
+  {
+   "id": 15,
+   "zh": "我先来！{SCROLL}我最近看书上说{NEWLINE}柔软特性被发现了新的效果,{CLEAR}冠军大人你知道是什么效果吗？",
+   "en": "Me first!{SCROLL}I read in a book that they found a{NEWLINE}new effect for the Limber Ability.{CLEAR}Champion, do you know what it is?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Classroom Q&A #15–#55: menu answers; which answer the script counts as right isn't visible (#20/#21, #26–#28, #34–#37, #44/#45, #51–#54 are the replies)."
+  },
+  {
+   "id": 16,
+   "zh": "抵御更多异常状态",
+   "en": "Blocks more status conditions",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 17,
+   "zh": "增加闪避",
+   "en": "Raises evasiveness",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 18,
+   "zh": "增加命中",
+   "en": "Raises accuracy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 19,
+   "zh": "降低物理伤害",
+   "en": "Reduces physical damage",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 20,
+   "zh": "冠军大人你说的真的对吗？{NEWLINE}我记得好像是降低物理伤害来着……",
+   "en": "Champion, are you sure that’s right? I{NEWLINE}thought it reduced physical damage...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "对对对！书上好像也是这么说的！{NEWLINE}冠军您大人知道的真多！",
+   "en": "Yes, yes! That’s what the book said{NEWLINE}too! You know so much, Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "那个……冠军大人,{NEWLINE}我听说伊布有一个仙子精灵的形态。{CLEAR}可是怎么让伊布变成仙子精灵呢？",
+   "en": "Um... Champion, I heard Eevee has{NEWLINE}a Sylveon form. But how do you{CLEAR}make Eevee turn into Sylveon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "对伊布使用觉醒石",
+   "en": "Use a Dawn Stone on Eevee",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 24,
+   "zh": "培养与伊布之间的亲密度",
+   "en": "Raise Eevee’s friendship",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 25,
+   "zh": "让伊布学会妖精系技能",
+   "en": "Teach Eevee a Fairy-type move",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 26,
+   "zh": "伊布能变成仙子精灵？我怎么不知道",
+   "en": "Eevee can become Sylveon?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 27,
+   "zh": "连伊布能变成仙子精灵您都不知道？{NEWLINE}您虽然身为冠军,{CLEAR}但见识好像很一般嘛。",
+   "en": "You didn’t even know Eevee can become{NEWLINE}Sylveon? You may be the Champion,{CLEAR}but you don’t seem to know much.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "哎？原来是用这种方法吗？{NEWLINE}好神奇啊！",
+   "en": "Huh? So that’s how you{NEWLINE}do it? That’s so cool!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "我有问题要问！{SCROLL}听说你当年在石英大会上{NEWLINE}用作弊的手段通过了淘汰赛第一轮,{CLEAR}有这样的事吗？",
+   "en": "I have a question!{SCROLL}I heard you cheated your way{NEWLINE}through the first knockout round at{CLEAR}the Indigo Conference. Is that true?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "确实如此,我通过作弊一路赢到底",
+   "en": "Yep, I cheated all the way",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 31,
+   "zh": "我凭本事赢下了全部比赛",
+   "en": "I won every match on merit",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'I won every match fair and square'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 32,
+   "zh": "你问这种问题太没礼貌了",
+   "en": "That’s a very rude question",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 33,
+   "zh": "反正赢小绿完全不需要作弊",
+   "en": "No need to cheat to beat Blue",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'I don’t need to cheat to beat Blue'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 34,
+   "zh": "卑鄙小人！你这样的人能成为冠军{NEWLINE}简直就是对全地区训练家的污辱！",
+   "en": "You lowlife! Someone like you{NEWLINE}being Champion is an insult to{CLEAR}every Trainer in the region!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "吹牛,我看你根本就没那个本事！",
+   "en": "Liar! I bet you couldn’t do it at all!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "哈哈,被我说到痛处心虚了吧！",
+   "en": "Ha ha, I hit a sore spot,{NEWLINE}didn’t I? You’re feeling guilty!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "你、你、你……太气人了！",
+   "en": "You, you, you... That makes me so mad!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "住嘴吧！不准再没事找事了！{SCROLL}其他同学还有要向冠军大人请教的吗？",
+   "en": "That’s enough out of you!{NEWLINE}No more stirring up trouble!{SCROLL}Does anyone else have a{NEWLINE}question for the Champion?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "冠军大人,您对战过的对手中,{NEWLINE}谁是最难对付的呢？",
+   "en": "Champion, of all the opponents you’ve{NEWLINE}battled, who was the toughest?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "劲敌小绿",
+   "en": "My rival, Blue",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 41,
+   "zh": "火箭队首领坂木",
+   "en": "Rocket Boss Giovanni",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 42,
+   "zh": "四天王渡",
+   "en": "Lance of the Elite Four",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 43,
+   "zh": "都很一般,比我都差远了",
+   "en": "They were all way weaker than me",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 44,
+   "zh": "哇！冠军大人您俯视天下的样子真帅！",
+   "en": "Wow! You look so cool, looking down on{NEWLINE}the whole world like that, Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "哎？还有让您觉得难以对付的人吗？",
+   "en": "Huh? There are people{NEWLINE}even you think are tough?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "冠军大人,您能不能给我们推荐一些{NEWLINE}适合新手用的精灵啊？",
+   "en": "Champion, could you recommend some{NEWLINE}Pokémon that are good for beginners?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "御三家系列",
+   "en": "The first partner Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 48,
+   "zh": "进化快的虫系",
+   "en": "Fast-evolving Bug types",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 49,
+   "zh": "速攻型精灵",
+   "en": "Fast, hard-hitting Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 50,
+   "zh": "生存力强的盾牌型精灵",
+   "en": "Tough, defensive Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 51,
+   "zh": "御三家是挺好啦,{NEWLINE}可是那么稀有的精灵,很难弄到的……",
+   "en": "The first partner Pokémon are{NEWLINE}nice, but they’re so rare.{CLEAR}They’re really hard to get...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "我辛辛苦苦把虫系养大,{NEWLINE}结果后期就派不上用场了,{CLEAR}这岂不是在浪费时间吗？",
+   "en": "If I work so hard to raise Bug types,{NEWLINE}and then they’re useless later on,{CLEAR}isn’t that just a waste of time?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "盾牌型精灵战斗起来好慢的……",
+   "en": "Defensive Pokémon take{NEWLINE}forever to win a battle...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "嗯！嗯！出手比别人更快！{NEWLINE}打击比别人更狠！{CLEAR}这样爽快打法的精灵{CLEAR}果然才是正确的选择！",
+   "en": "Yeah! Yeah! Move faster than{NEWLINE}everyone else! Hit harder than{CLEAR}everyone else! Pokémon that battle{CLEAR}like that are the right choice!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "冠军大人,{NEWLINE}我最讨厌问什么无聊的问题了,{CLEAR}你跟我来一场战斗吧,{CLEAR}这比解答什么问题都实在！",
+   "en": "Champion, I hate boring questions most{NEWLINE}of all. Battle me instead! That’s way{CLEAR}more useful than answering questions!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "不愧是冠军,真的好厉害……",
+   "en": "That’s the Champion{NEWLINE}for you. So strong...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "看来同学们通过与冠军大人交流,{NEWLINE}收获都很大啊！{CLEAR}那么就让我们用热烈的掌声,{CLEAR}一起感谢冠军大人吧。",
+   "en": "It looks like everyone learned a{NEWLINE}lot from talking with the Champion!{CLEAR}Now let’s all thank the Champion{CLEAR}with a big round of applause.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "谢谢——",
+   "en": "Thank you-!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "谢谢您与孩子们互动。{NEWLINE}真是给您添麻烦了。{CLEAR}这个送给你作为谢礼。",
+   "en": "Thank you for spending time with{NEWLINE}the children. I’m sorry for all the{CLEAR}trouble. Please take this as thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "欢迎您以后常来我们学校坐坐。",
+   "en": "Please drop by our{NEWLINE}Academy again anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "跟您近距离接触过之后,{NEWLINE}孩子们学习起来更用功了呢。",
+   "en": "After seeing you up close, the{NEWLINE}children are studying even harder.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "我的初始精灵要好好挑选,{NEWLINE}因为它可能是陪伴我最久、{CLEAR}最有感情的精灵呢。",
+   "en": "I have to choose my first{NEWLINE}Pokémon carefully. It might end{CLEAR}up being the one that stays with{CLEAR}me longest, the one I love most.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "我也想要火球鼠作为初始精灵,{NEWLINE}可是那么稀有的精灵去哪里弄啊……",
+   "en": "I want a Cyndaquil as my first{NEWLINE}Pokémon too, but where do you{CLEAR}even get such a rare Pokémon...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "俗话说读万卷书不如行万里路,{NEWLINE}等我从精灵学校毕业了,{CLEAR}我就去城都各地旅行,{CLEAR}收集道馆徽章！",
+   "en": "Like they say, traveling a thousand{NEWLINE}miles beats reading ten thousand{CLEAR}books. Once I graduate from the{CLEAR}Pokémon Academy, I’m going to travel{CLEAR}all over Johto and collect Gym Badges!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "您成为冠军之前,{NEWLINE}一定也在关东各地旅行过吧？{CLEAR}真是让人羡慕的训练家生活啊。",
+   "en": "You must have traveled all over{NEWLINE}Kanto before you became Champion,{CLEAR}right? What an enviable Trainer life.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "我们精灵学校有很多学生,{NEWLINE}但是毕业后能成为精英训练家的人{CLEAR}少之又少……",
+   "en": "Our Pokémon Academy has lots of{NEWLINE}students, but very few of them become{CLEAR}Ace Trainers after graduating...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "对我来说成不成为{NEWLINE}精英训练家不重要啦,{CLEAR}能与精灵一起快乐地生活{CLEAR}我就心满意足了。",
+   "en": "Being an Ace Trainer doesn’t{NEWLINE}matter to me. I’m happy as long as{CLEAR}I can live happily with my Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "我要成为向常磐市馆主小绿那样{NEWLINE}气质与实力并存的训练家。",
+   "en": "I want to be a Trainer like Blue,{NEWLINE}the Viridian City Gym Leader.{CLEAR}He’s got style and strength!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "你是冠军又怎么样,{NEWLINE}在我心中还是小绿馆主比较强。",
+   "en": "So what if you’re the{NEWLINE}Champion? In my heart, Gym{CLEAR}Leader Blue is still stronger.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "精灵学校是系统性学习{NEWLINE}口袋妖怪知识的地方,{CLEAR}只有在这里打好了基础,{CLEAR}才能成为精英训练家。",
+   "en": "The Pokémon Academy is where you{NEWLINE}study Pokémon systematically. Only{CLEAR}by building a solid foundation here{CLEAR}can you become an Ace Trainer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "{VAR:0103:0}哥哥！{NEWLINE}人家是你的忠实粉丝哦,{CLEAR}人家就是因为把你当成偶像,{CLEAR}才会来精灵学校学习的哦。",
+   "en": "{VAR:0103:0}! I’m your biggest fan!{NEWLINE}You’re my idol, and that’s why I came{CLEAR}to study at the Pokémon Academy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "{VAR:0103:0}姐姐！{NEWLINE}人家是你的忠实粉丝哦,{CLEAR}人家就是因为把你当成偶像,{CLEAR}才会来精灵学校学习的哦。",
+   "en": "{VAR:0103:0}! I’m your biggest fan!{NEWLINE}You’re my idol, and that’s why I came{CLEAR}to study at the Pokémon Academy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "知道我这里是什么位置吗？",
+   "en": "Do you know what spot this is?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "真是没上过学的土老帽,{NEWLINE}我这里是上课睡觉的最佳位置。",
+   "en": "What a clueless bumpkin. You’ve{NEWLINE}obviously never been to school. This{CLEAR}is the best seat in class for sleeping.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "嘿嘿,我实在是不愿意学习,{NEWLINE}所以老师就把我安排到这里来了。",
+   "en": "Heh heh, I really don’t want to{NEWLINE}study, so the teacher put me here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "看到你这位冠军之后,{NEWLINE}我突然就觉得{CLEAR}能成为你这样的人应该也不错。{CLEAR}看来今后需要好好学点东西了。",
+   "en": "Seeing you, the Champion,{NEWLINE}I suddenly feel like being someone{CLEAR}like you would be pretty cool. Guess{CLEAR}I’d better start studying for real.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

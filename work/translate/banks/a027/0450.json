@@ -1,0 +1,317 @@
+{
+ "narc": "a027",
+ "bank": 450,
+ "source": "work/extract/v4/a027/0450.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "我就是想要帮助{NEWLINE}你这位战斗狂人的{CLEAR}技能大叔！{SCROLL}只要分我一点战斗点数,{NEWLINE}我就教给你一些{CLEAR}技巧型技能！{VAR:0200:0}",
+   "en": "I’m the Move Tutor who’s here to help{NEWLINE}battle-crazy Trainers like you!{SCROLL}Share a little BP with me, and I’ll teach{NEWLINE}your Pokémon some skillful moves! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "BP Move Tutors (Trainer House, Viridian); wording adapted from the US Frontier tutors (a027/0748). zh 4 → four."
+  },
+  {
+   "id": 1,
+   "zh": "真是不走运！{NEWLINE}没有这精灵能学会的{CLEAR}技能！",
+   "en": "Oh, how unlucky! There’s no move I can{NEWLINE}teach that Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "真是不爽！{NEWLINE}战斗点数不够！",
+   "en": "Oh, what a letdown! You don’t have{NEWLINE}enough BP!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "放弃让{VAR:0100:0}{NEWLINE}学技能！{CLEAR}你居然这么说？{VAR:0200:0}",
+   "en": "Giving up on teaching {VAR:0100:0} a{NEWLINE}move! That’s what you want? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0100:0}要学{NEWLINE}{VAR:0106:1}……{SCROLL}但是{NEWLINE}{VAR:0100:0}已经有４个技能,{CLEAR}已满！{SCROLL}要为学{VAR:0106:1}{NEWLINE}而放弃其他的技能吗？{VAR:0200:0}",
+   "en": "{VAR:0100:0} wants to learn the move{NEWLINE}{VAR:0106:1}...{SCROLL}But {VAR:0100:0} already knows four{NEWLINE}moves, so it can’t!{SCROLL}Forget a move so that {VAR:0106:1} can{NEWLINE}be learned? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "number_missing"
+   ]
+  },
+  {
+   "id": 5,
+   "zh": "忘记{NEWLINE}{VAR:0106:1}吗？可以吧？{VAR:0200:0}",
+   "en": "{VAR:0106:1} will be forgotten. That’s{NEWLINE}OK, right? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "就是说{NEWLINE}放弃学{CLEAR}{VAR:0106:1}是吧？{VAR:0200:0}",
+   "en": "So you want to give up on {VAR:0106:1},{NEWLINE}am I right? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0100:0}放弃了{NEWLINE}{VAR:0106:1}！",
+   "en": "{VAR:0100:0} gave up on learning{NEWLINE}{VAR:0106:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:0100:0}学会{NEWLINE}{VAR:0106:1}啦！",
+   "en": "{VAR:0100:0} learned {VAR:0106:1}. Wow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "那么！{NEWLINE}期待我们的下次相见啦！",
+   "en": "Well then! Until next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "我是赌上生命{NEWLINE}进行精灵对战的你的强力同伴,{CLEAR}技能大叔！{SCROLL}只要分给我点战斗点数{NEWLINE}我就教给你一些{CLEAR}力量型技能！{VAR:0200:0}",
+   "en": "I’m the Move Tutor, the mighty ally of{NEWLINE}Trainers who put their lives on the line{CLEAR}in Pokémon battles!{SCROLL}Share a little BP with me, and I’ll teach{NEWLINE}your Pokémon some powerful moves! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "哦哦~！！{NEWLINE}没有这个精灵能学的{CLEAR}技能！",
+   "en": "Oh no! There’s no move I can teach{NEWLINE}that Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "哦哦~！！{NEWLINE}战斗点数不足！",
+   "en": "Oh no! You don’t have enough BP!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "放弃让{VAR:0100:0}{NEWLINE}学技能吗？{VAR:0200:0}",
+   "en": "Quit trying to teach {VAR:0100:0} new{NEWLINE}moves? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0100:0}要学{NEWLINE}{VAR:0106:1}……{SCROLL}但是{NEWLINE}{VAR:0100:0}已有４个技能,{CLEAR}技能已满！{SCROLL}要为学{VAR:0106:1}{NEWLINE}而放弃其他的技能吗？{VAR:0200:0}",
+   "en": "{VAR:0100:0} wants to learn the move{NEWLINE}{VAR:0106:1}...{SCROLL}But {VAR:0100:0} already knows four{NEWLINE}moves!{SCROLL}Forget a move so that {VAR:0106:1} can{NEWLINE}be learned? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "number_missing"
+   ]
+  },
+  {
+   "id": 15,
+   "zh": "遗忘{VAR:0106:1},{NEWLINE}可以吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}, am I right? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "唔…就是说{NEWLINE}放弃学{CLEAR}{VAR:0106:1}吗~！{VAR:0200:0}",
+   "en": "Hmm... So you want to give up on{NEWLINE}{VAR:0106:1}, huh? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0100:0}放弃了学{NEWLINE}{VAR:0106:1}！",
+   "en": "{VAR:0100:0} gave up on learning{NEWLINE}{VAR:0106:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0100:0}学会了{NEWLINE}{VAR:0106:1}！",
+   "en": "{VAR:0100:0} learned {VAR:0106:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "那么！下次再来玩吧！",
+   "en": "Well then! Come see me again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "我是将灵魂注入{NEWLINE}精灵对战的你的温柔的同伴,{CLEAR}技能大叔！{SCROLL}只要分给我一些战斗点数{NEWLINE}我就教给你一些能{CLEAR}撼动心灵的技能。{VAR:0200:0}",
+   "en": "I’m the Move Tutor, the gentle ally of{NEWLINE}Trainers who pour their hearts and{CLEAR}souls into Pokémon battles!{SCROLL}Share a little BP with me, and I’ll teach{NEWLINE}your Pokémon some moves that stir the{CLEAR}heart. {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "唔……{NEWLINE}没有这精灵能学的{CLEAR}技能啊。",
+   "en": "Hmm... There’s no move I can teach that{NEWLINE}Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "哎呀呀……{NEWLINE}战斗点数好像不够啊。",
+   "en": "Oh dear... Looks like you don’t have{NEWLINE}enough BP.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "让{VAR:0100:0}放弃{NEWLINE}学技能吗？{VAR:0200:0}",
+   "en": "Giving up on teaching {VAR:0100:0} a{NEWLINE}move? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0100:0}要学{NEWLINE}{VAR:0106:1}……{SCROLL}但是{NEWLINE}{VAR:0100:0}{CLEAR}技能已满！{SCROLL}要为学{VAR:0106:1}{NEWLINE}而放弃其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0100:0} wants to learn the move{NEWLINE}{VAR:0106:1}...{SCROLL}But {VAR:0100:0} already knows four{NEWLINE}moves!{SCROLL}Forget a move so that {VAR:0106:1} can{NEWLINE}be learned? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "遗忘{VAR:0106:1},{NEWLINE}没错吧？{VAR:0200:0}",
+   "en": "{VAR:0106:1} will be forgotten. Do I{NEWLINE}have that right? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "那么……放弃学习{NEWLINE}{VAR:0106:1}吗？{VAR:0200:0}",
+   "en": "So... you want to give up on{NEWLINE}{VAR:0106:1}? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "{VAR:0100:0}放弃了{NEWLINE}{VAR:0106:1}！",
+   "en": "{VAR:0100:0} gave up on {VAR:0106:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0100:0}学会了{NEWLINE}{VAR:0106:1}！",
+   "en": "{VAR:0100:0} learned {VAR:0106:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "那么再见！{NEWLINE}积攒了战斗点数后{CLEAR}再来吧！",
+   "en": "Bye now! Come back once you’ve saved{NEWLINE}up more BP!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "你好,这里是训练家屋,{NEWLINE}为去战斗前线的训练家们{CLEAR}提供休息与社交的场所。{CLEAR}在这里的负一层还设置了{CLEAR}让训练家们自由对战的房间,{CLEAR}如果想与其他训练家交朋友的话,{CLEAR}那里会是个不错的选择。",
+   "en": "Hello, this is the Trainer House. It’s a{NEWLINE}place for Trainers headed to the Battle{CLEAR}Frontier to rest and meet each other.{SCROLL}On our B1F, there’s also a room where{NEWLINE}Trainers can battle freely.{SCROLL}If you want to make friends with other{NEWLINE}Trainers, that’s a great place to go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "别看战斗前线的首领们名气不大,{NEWLINE}他们当年可是选拔联盟四天王时{CLEAR}惜败的银牌选手,{CLEAR}实力不输给道馆馆主们哦！",
+   "en": "The Frontier Brains may not be famous,{NEWLINE}but they were the runners-up when the{CLEAR}Elite Four were chosen.{SCROLL}They’re every bit as strong as Gym{NEWLINE}Leaders!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "BP点数又叫战斗点数,{NEWLINE}是在战斗前线通过对战累积的点数。{CLEAR}有BP点数的话{CLEAR}就能跟这里的大叔们{CLEAR}学一些很有用的技能。",
+   "en": "BP, or Battle Points, are points you{NEWLINE}earn by battling at the Battle{CLEAR}Frontier.{SCROLL}With BP, you can learn some really{NEWLINE}useful moves from the guys here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "在不同的镇子{NEWLINE}和不同的训练师战斗,{CLEAR}不只是为了培育精灵,{SCROLL}还有为自己积累经验这一意义,{SCROLL}真新镇的冠军{NEWLINE}一定将关东地区的所有镇子{CLEAR}都走过一遍吧！",
+   "en": "You go all over the place and battle{NEWLINE}all kinds of Trainers.{SCROLL}This is not just to train your Pokémon.{NEWLINE}This is also a chance to experience{CLEAR}many things yourself.{SCROLL}I bet the Champion from{NEWLINE}Pallet Town went to all the{CLEAR}cities and towns in Kanto.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0457/3 | US lines #33/#35/#36/#37 kept (vanilla Trainer House)."
+  },
+  {
+   "id": 34,
+   "zh": "呼……{SCROLL}精灵决斗累了的话,{NEWLINE}就在这里稍作休息吧！",
+   "en": "Whew...{SCROLL}If you’re tired from Pokémon battles,{NEWLINE}take a little rest here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0457/4"
+  },
+  {
+   "id": 35,
+   "zh": "地下练习所{NEWLINE}练习赛开始！{CLEAR}有自信的训练家{CLEAR}请来参加！{SCROLL}在口袋计步器和朋友通信的话{NEWLINE}朋友会过来哦！{SCROLL}请注意自己在地下的时候,{NEWLINE}就算通信也不会{CLEAR}有朋友过来！",
+   "en": "Practice battles are held in the{NEWLINE}Training Hall downstairs.{SCROLL}Skilled Trainers are invited to{NEWLINE}participate.{SCROLL}Communicate with your friends through{NEWLINE}the Pokéwalker to bring them here!{SCROLL}Be aware that you cannot bring them{NEWLINE}here once you are downstairs!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0457/5"
+  },
+  {
+   "id": 36,
+   "zh": "训练家屋的规则是{SCROLL}１　１次能和１个不同类型的{NEWLINE}　　训练家决斗！{SCROLL}２　等级５０以上的精灵{NEWLINE}　　会变成５０级的强度,{CLEAR}　　不足５０级的则不变！{SCROLL}３　不能从背包里{NEWLINE}　　使用道具！{SCROLL}４　在战斗中精灵持有的{NEWLINE}　　回复物品也要收回！{SCROLL}５　就算战斗胜利了{NEWLINE}　　也得不到经验值！{SCROLL}６　相对的赢的人{NEWLINE}　　可以得到战斗点数！{SCROLL}好了,有自信的训练家{NEWLINE}请来参加！",
+   "en": "Trainer House Rules{SCROLL}1. You can challenge various Trainers{NEWLINE}one at a time.{SCROLL}2. All Pokémon over Level 50 become{NEWLINE}Level 50 for the battle.{CLEAR}Those below Level 50 stay unchanged.{SCROLL}3. You cannot use items from your Bag.{SCROLL}4. Afterward, your Pokémon will recover{NEWLINE}and the held item will be restored.{SCROLL}5. You cannot earn experience from{NEWLINE}the battle.{SCROLL}6. You earn Battle Points instead!{SCROLL}Skilled Trainers are invited to{NEWLINE}participate.",
+   "status": "reviewed",
+   "origin": "agent",
+   "notes": "US 0457/6 [User-approved warning review 2026-10-04; exact proposal applied.]"
+  },
+  {
+   "id": 37,
+   "zh": "对战攻略手册……{SCROLL}文字像是{NEWLINE}大岩蛇留下的痕迹一样。{CLEAR}看不清……",
+   "en": "...What’s this?{NEWLINE}A strategy memo?{SCROLL}This writing looks like Onix tracks...{CLEAR}It’s completely illegible...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0457/7; modernised from US 0457#7"
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "narc": "a027",
+ "bank": 350,
+ "source": "work/extract/v4/a027/0350.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "你！{NEWLINE}从城都地区来的啊！",
+   "en": "You! You’re from Johto!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "关东急速联盟 → the Kanto Speed Alliance (Cycling Road bike gang; also 0351, 0570, 0718). Invented."
+  },
+  {
+   "id": 1,
+   "zh": "好强……！",
+   "en": "So strong...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "不可原谅,居然被{NEWLINE}城都地区的家伙小看了！",
+   "en": "Unforgivable! Getting shown up by some{NEWLINE}punk from Johto!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "喂！你是哪来的！{NEWLINE}这里可是我们「关东急速联盟」的地盘,{CLEAR}你不准靠近,给我回去！",
+   "en": "Hey! Where’d you come from? This is the{NEWLINE}turf of the Kanto Speed Alliance!{CLEAR}You’re not allowed near here. Go back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0103:0}『我有急事要去浅红市,{NEWLINE}请你让我过去！",
+   "en": "{VAR:0103:0}: I have urgent business in{NEWLINE}Fuchsia City. Please let me through!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#4/#5: alternate player lines (polite / firm). #9 (male) / #10 (female, 本姑娘) player variants."
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:0103:0}『我有急事要去浅红市,{NEWLINE}要是耽误了,你可付不起责任,{CLEAR}赶紧让开！",
+   "en": "{VAR:0103:0}: I have urgent business in{NEWLINE}Fuchsia City. If you hold me up, you’ll{CLEAR}pay for it. Get out of the way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "哼,有急事的人多着呢,{NEWLINE}你让我让开我就让开？{SCROLL}我们「关东急速联盟」的面子{NEWLINE}还要不要了？",
+   "en": "Hmph! Lots of people have urgent{NEWLINE}business. You think I’ll just move{CLEAR}because you tell me to?{SCROLL}What about the Kanto Speed Alliance’s{NEWLINE}reputation?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "是否硬闯？",
+   "en": "Force your way through?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "哼,算你识相,滚回去吧！",
+   "en": "Hmph! Smart choice. Now scram!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0103:0}『事情紧急,{NEWLINE}你再不让开我就硬闯了！",
+   "en": "{VAR:0103:0}: This is an emergency.{SCROLL}If you don’t move, I’m going through by{NEWLINE}force!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0103:0}『这里是公用道路,{NEWLINE}你霸占着路不让走还有理了？{CLEAR}再不让开当心本姑娘不客气！",
+   "en": "{VAR:0103:0}: This is a public road! Blocking{NEWLINE}it and acting like you’re in the right?{CLEAR}If you don’t move, this girl won’t go{CLEAR}easy on you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "看来不给你点颜色看看{NEWLINE}你是不会回去了！",
+   "en": "Looks like you won’t go back until I{NEWLINE}teach you a lesson!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "哼哼,你赢了我又怎么样。{NEWLINE}我们这么多伙伴在这座桥上,{CLEAR}他们绝不会轻易放你过去的！{SCROLL}虽然我不知道你有什么急事,{NEWLINE}但是跟我们「关东急速联盟」过不去,{CLEAR}你就休想按时通过这条自行车之路！",
+   "en": "Hmph, so what if you beat me? We’ve got{NEWLINE}lots of members on this bridge. They{CLEAR}won’t let you pass so easily!{SCROLL}I don’t know what your urgent business{NEWLINE}is, but if you cross the Kanto Speed{CLEAR}Alliance, you can forget about getting{CLEAR}down this Cycling Road on time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "虽然我不知道你有什么急事,{NEWLINE}但是跟我们「关东急速联盟」过不去,{CLEAR}你就休想按时通过这条自行车之路！",
+   "en": "I don’t know what your urgent business{NEWLINE}is, but if you cross the Kanto Speed{CLEAR}Alliance, you can forget about getting{CLEAR}down this Cycling Road on time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "听老大说你的实力比他还强,{NEWLINE}看来输给你,我也没什么可丢人的。",
+   "en": "The boss said you’re even stronger{NEWLINE}than him. Guess there’s no shame in{CLEAR}losing to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "欢迎加入我们「关东急速联盟」,{NEWLINE}能跟你这么强的人当伙伴,{CLEAR}我感到很荣幸。",
+   "en": "Welcome to the Kanto Speed Alliance!{NEWLINE}It’s an honor to have someone as{CLEAR}strong as you as a buddy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "看来你是铁了心{NEWLINE}要跟我们「关东急速联盟」作对了。{CLEAR}我虽然不是你的对手,{CLEAR}但你也不可能击败我们所有的伙伴！",
+   "en": "Looks like you’re dead set on going up{NEWLINE}against the Kanto Speed Alliance. I’m no{CLEAR}match for you, but there’s no way you{CLEAR}can beat all our members!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "呜呜……都是你害的！{NEWLINE}这里不再是只属于我们的自由王国了。",
+   "en": "Waaah... This is all your fault! This{NEWLINE}isn’t our own free kingdom anymore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "不用再憋在角落里骑车,真好！",
+   "en": "It’s great not having to ride cooped up{NEWLINE}in a corner anymore!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "这条路的路障终于清理了,{NEWLINE}这下骑车的感觉就通透了。",
+   "en": "The roadblocks on this road have finally{NEWLINE}been cleared.{SCROLL}Riding here feels so free now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "在宽宽的自行车道上骑车,{NEWLINE}感觉真不错。",
+   "en": "Riding on the wide Cycling Road feels{NEWLINE}great.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "在这里骑车,{NEWLINE}上坡的时候格外累人呢。",
+   "en": "Riding here gets really tiring on the{NEWLINE}uphill parts.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "不知道那些暴走族发了什么善心,{NEWLINE}居然会放弃霸占自行车道。",
+   "en": "I wonder what got into those bikers.{NEWLINE}They actually gave up hogging the{CLEAR}Cycling Road.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "我老早就想来这里{NEWLINE}痛痛快快地骑一回了。",
+   "en": "I’ve wanted to come ride here to my{NEWLINE}heart’s content for ages.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "此路禁止通行,{NEWLINE}「关东急速联盟」封。",
+   "en": "No entry. By order of the Kanto Speed{NEWLINE}Alliance.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "往前走是没有意义的,{NEWLINE}前面的路被暴走族给封死了。",
+   "en": "There’s no point going on. The bike gang{NEWLINE}has blocked the road ahead.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "你很厉害吗？{NEWLINE}闯进暴走族的底盘可不是闹着玩的。",
+   "en": "You think you’re tough? Barging into{NEWLINE}the bike gang’s turf is no joke.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "我已经尽力反抗暴走族了,{NEWLINE}虽然以失败告终。{CLEAR}但我没有遗憾！",
+   "en": "I did my best to stand up to the bike{NEWLINE}gang. I failed, but I have no regrets!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

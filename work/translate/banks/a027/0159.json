@@ -1,0 +1,551 @@
+{
+ "narc": "a027",
+ "bank": 159,
+ "source": "work/extract/v4/a027/0159.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "覆盖",
+   "en": "Overlay",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 1,
+   "zh": "测试",
+   "en": "Test",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 2,
+   "zh": "预兆",
+   "en": "Omen",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 预兆 (omen); US “Acting”"
+  },
+  {
+   "id": 3,
+   "zh": "视觉",
+   "en": "Vision",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s) | debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 4,
+   "zh": "影像预览",
+   "en": "Visual preview",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 5,
+   "zh": "跳舞",
+   "en": "Dance",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 6,
+   "zh": "跳舞+有交替",
+   "en": "Dance + switching",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 7,
+   "zh": "跳舞+无交替",
+   "en": "Dance + no switching",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 8,
+   "zh": "通信",
+   "en": "Link",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 9,
+   "zh": "粒子",
+   "en": "Particles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 10,
+   "zh": "结果发表",
+   "en": "Results",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 11,
+   "zh": "跳舞＋无限制",
+   "en": "Dance + no limit",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 12,
+   "zh": "帅气大师　ＯＮ",
+   "en": "Cool Master ON",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 13,
+   "zh": "帅气大师　ＯＦＦ",
+   "en": "Cool Master OFF",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 14,
+   "zh": "美丽大师　ＯＮ",
+   "en": "Beauty Master ON",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 15,
+   "zh": "美丽大师　ＯＦＦ",
+   "en": "Beauty Master OFF",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 16,
+   "zh": "可爱大师　ＯＮ",
+   "en": "Cute Master ON",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 17,
+   "zh": "可爱大师　ＯＦＦ",
+   "en": "Cute Master OFF",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 18,
+   "zh": "智慧大师　ＯＮ",
+   "en": "Smart Master ON",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 19,
+   "zh": "智慧大师　ＯＦＦ",
+   "en": "Smart Master OFF",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 20,
+   "zh": "勇敢大师　ＯＮ",
+   "en": "Tough Master ON",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 21,
+   "zh": "勇敢大师　ＯＦＦ",
+   "en": "Tough Master OFF",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 22,
+   "zh": "外部保存",
+   "en": "External save",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 23,
+   "zh": "外部读取",
+   "en": "External load",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 24,
+   "zh": "脚本测试",
+   "en": "Script test",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 25,
+   "zh": "截图",
+   "en": "Screenshot",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 26,
+   "zh": "外部保存未初期化完成旗子",
+   "en": "External save uninitialized flag",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 27,
+   "zh": "气球",
+   "en": "Balloon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text | zh 气球 (balloon); US “Upgrade”"
+  },
+  {
+   "id": 28,
+   "zh": "ＧＤＳ地址全部更新",
+   "en": "Update all GDS addresses",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 29,
+   "zh": "ＧＤＳ记录器",
+   "en": "GDS recorder",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 30,
+   "zh": "足迹板",
+   "en": "Footprint Stamp",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 31,
+   "zh": "级别　普通",
+   "en": "Rank: Normal",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 32,
+   "zh": "级别　高级",
+   "en": "Rank: Great",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 33,
+   "zh": "级别　超级",
+   "en": "Rank: Ultra",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 34,
+   "zh": "级别　大师",
+   "en": "Rank: Master",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 35,
+   "zh": "类型　帅气",
+   "en": "Type: Cool",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 36,
+   "zh": "类型　美丽",
+   "en": "Type: Beauty",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 37,
+   "zh": "类型　可爱",
+   "en": "Type: Cute",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 38,
+   "zh": "类型　智慧",
+   "en": "Type: Smart",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 39,
+   "zh": "类型　勇敢",
+   "en": "Type: Tough",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 40,
+   "zh": "战斗影像",
+   "en": "Battle Video",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 41,
+   "zh": "影像排行",
+   "en": "Video rankings",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 42,
+   "zh": "训练师排行榜",
+   "en": "Trainer rankings",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 43,
+   "zh": "着装",
+   "en": "Dress-up",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 44,
+   "zh": "发送信件",
+   "en": "Send mail",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 发送信件 (send mail); US “Box data”"
+  },
+  {
+   "id": 45,
+   "zh": "正在操作{VAR:0100:0}{VAR:0132:1}",
+   "en": "Processing {VAR:0100:0}{VAR:0132:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 46,
+   "zh": "错误发生",
+   "en": "An error occurred",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 47,
+   "zh": "影像本身　电流破坏",
+   "en": "Own Video: Corrupt Current",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 48,
+   "zh": "影像本身　镜子破坏",
+   "en": "Own Video: Corrupt Mirror",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 49,
+   "zh": "影像本身　电流钥匙变更",
+   "en": "Own Video: Change Current Key",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 50,
+   "zh": "影像本身　镜子变更",
+   "en": "Own Video: Change Mirror",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 51,
+   "zh": "影像１　电流破坏",
+   "en": "Video 1: Corrupt Current",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 52,
+   "zh": "影像１　镜子破坏",
+   "en": "Video 1: Corrupt Mirror",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 53,
+   "zh": "影像１　电流钥匙变更",
+   "en": "Video 1: Change Current Key",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 54,
+   "zh": "录像１　镜子变更",
+   "en": "Video 1: Change Mirror",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 55,
+   "zh": "录像２　电流破坏",
+   "en": "Video 2: Corrupt Current",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 56,
+   "zh": "录像２　镜子破坏",
+   "en": "Video 2: Corrupt Mirror",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 57,
+   "zh": "录像２　电流钥匙变更",
+   "en": "Video 2: Change Current Key",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 58,
+   "zh": "录像２　镜子变更",
+   "en": "Video 2: Change Mirror",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 59,
+   "zh": "录像３　电流破坏",
+   "en": "Video 3: Corrupt Current",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 60,
+   "zh": "录像３　镜子破坏",
+   "en": "Video 3: Corrupt Mirror",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 61,
+   "zh": "录像３　电流钥匙变更",
+   "en": "Video 3: Change Current Key",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 62,
+   "zh": "录像３　镜子变更",
+   "en": "Video 3: Change Mirror",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 63,
+   "zh": "舞台　电流破坏",
+   "en": "Stage: Corrupt Current",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 64,
+   "zh": "舞台　镜子破坏",
+   "en": "Stage: Corrupt Mirror",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 65,
+   "zh": "舞台　电流钥匙变更",
+   "en": "Stage: Change Current Key",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 66,
+   "zh": "舞台　镜子变更",
+   "en": "Stage: Change Mirror",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  },
+  {
+   "id": 67,
+   "zh": "通常保存破坏",
+   "en": "Corrupt Normal Save",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug/unused (contest/GDS debug menu)"
+  }
+ ]
+}

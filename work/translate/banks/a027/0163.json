@@ -1,0 +1,567 @@
+{
+ "narc": "a027",
+ "bank": 163,
+ "source": "work/extract/v4/a027/0163.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "ワイプ",
+   "en": "Wipe",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 1,
+   "zh": "エンカウント",
+   "en": "Encounter",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 2,
+   "zh": "テスト",
+   "en": "Test",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 3,
+   "zh": "きょくどうき",
+   "en": "Track sync",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese); ext-review RCA-010"
+  },
+  {
+   "id": 4,
+   "zh": "てがきデータか",
+   "en": "Record drawing data",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 5,
+   "zh": "マイクテスト",
+   "en": "Mic test",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 6,
+   "zh": "まえ　えらんだもの",
+   "en": "Previous choice",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 7,
+   "zh": "ステージ",
+   "en": "Stage",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 8,
+   "zh": "キャッスル",
+   "en": "Castle",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 9,
+   "zh": "ファクトリーＲ",
+   "en": "Factory R",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 10,
+   "zh": "ファクトリーＣ",
+   "en": "Factory C",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 11,
+   "zh": "とじる",
+   "en": "Close",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 12,
+   "zh": "アプリ",
+   "en": "Apps",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 13,
+   "zh": "べんり",
+   "en": "Utilities",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 14,
+   "zh": "えんしゅつ",
+   "en": "Effects",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 15,
+   "zh": "ツール",
+   "en": "Tools",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 16,
+   "zh": "DP",
+   "en": "DP",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "GSしんき",
+   "en": "GS machine",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 18,
+   "zh": "　　　　　　　　　　　　　　　　　　　　",
+   "en": "　　　　　　　　　　　　　　　　　　　　",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 19,
+   "zh": "くさ　００",
+   "en": "Grass 00",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 20,
+   "zh": "くさ　０１",
+   "en": "Grass 01",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 21,
+   "zh": "みず　００",
+   "en": "Water 00",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 22,
+   "zh": "みず　０１",
+   "en": "Water 01",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 23,
+   "zh": "ダンジョン　００",
+   "en": "Dungeon 00",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 24,
+   "zh": "ダンジョン　０１",
+   "en": "Dungeon 01",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 25,
+   "zh": "TR くさ00",
+   "en": "TR Grass 00",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 26,
+   "zh": "TR くさ01",
+   "en": "TR Grass 01",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 27,
+   "zh": "TR みず00",
+   "en": "TR Water 00",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 28,
+   "zh": "TR みず01",
+   "en": "TR Water 01",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 29,
+   "zh": "TR ダン 00",
+   "en": "TR Dungeon 00",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 30,
+   "zh": "TR ダン 01",
+   "en": "TR Dungeon 01",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 31,
+   "zh": "sp タワー",
+   "en": "sp Tower",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 32,
+   "zh": "sp ダブル",
+   "en": "sp Double",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 33,
+   "zh": "GINGA 00",
+   "en": "GINGA 00",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "GINGA 01",
+   "en": "GINGA 01",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "LEGEND",
+   "en": "LEGEND",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "ルギア",
+   "en": "Lugia",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 37,
+   "zh": "GYM ハヤト",
+   "en": "GYM Falkner",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 38,
+   "zh": "GYM ツクシ",
+   "en": "GYM Bugsy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 39,
+   "zh": "GYM アカネ",
+   "en": "GYM Whitney",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 40,
+   "zh": "GYM マツバ",
+   "en": "GYM Morty",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 41,
+   "zh": "GYM ミカン",
+   "en": "GYM Jasmine",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 42,
+   "zh": "GYM シジマ",
+   "en": "GYM Chuck",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 43,
+   "zh": "GYM ヤナギ",
+   "en": "GYM Pryce",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 44,
+   "zh": "GYM イブキ",
+   "en": "GYM Clair",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 45,
+   "zh": "SITEN 00",
+   "en": "SITEN 00",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "SITEN 01",
+   "en": "SITEN 01",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "SITEN 02",
+   "en": "SITEN 02",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "SITEN 03",
+   "en": "SITEN 03",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "CHANP",
+   "en": "CHANP",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "R したっぱ",
+   "en": "R Grunt",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 51,
+   "zh": "R ラムダ",
+   "en": "R Petrel",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 52,
+   "zh": "R ランス",
+   "en": "R Proton",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 53,
+   "zh": "R アポロ",
+   "en": "R Archer",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 54,
+   "zh": "R アテナ",
+   "en": "R Ariana",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 55,
+   "zh": "R サカキ",
+   "en": "R Giovanni",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 56,
+   "zh": "しょうじ",
+   "en": "Sliding door",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 57,
+   "zh": "むかし",
+   "en": "Past",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 58,
+   "zh": "ライバル",
+   "en": "Rival",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 59,
+   "zh": "GYM タケシ",
+   "en": "GYM Brock",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 60,
+   "zh": "GYM カスミ",
+   "en": "GYM Misty",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 61,
+   "zh": "GYM マチス",
+   "en": "GYM Lt. Surge",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 62,
+   "zh": "GYM エリカ",
+   "en": "GYM Erika",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 63,
+   "zh": "GYM アンズ",
+   "en": "GYM Janine",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 64,
+   "zh": "GYM ナツメ",
+   "en": "GYM Sabrina",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 65,
+   "zh": "GYM カツラ",
+   "en": "GYM Blaine",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 66,
+   "zh": "GYM グリーン",
+   "en": "GYM Blue",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 67,
+   "zh": "ホウオウ",
+   "en": "Ho-Oh",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 68,
+   "zh": "キーそうさ{NEWLINE}　さいせい：A　ていし：B　しゅうりょう：Y{NEWLINE}　BGMへんこう：ひだりみぎ{NEWLINE}　へんすうへんこう：うえした{NEWLINE}データ{NEWLINE}　シンクすう：{NEWLINE}　BGMばんごう：{NEWLINE}　へんすうばんごう：{NEWLINE}　へんすうなかみ：{NEWLINE}　チックすう：",
+   "en": "Controls{NEWLINE}　Play: A　Stop: B　Quit: Y{NEWLINE}　Change BGM: Left/Right{NEWLINE}　Change variable: Up/Down{NEWLINE}Data{NEWLINE}　Syncs:{NEWLINE}　BGM no.:{NEWLINE}　Variable no.:{NEWLINE}　Variable value:{NEWLINE}　Ticks:",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 69,
+   "zh": "せつめい{NEWLINE}　てがきさいげんのためデータかをおこなう{NEWLINE}　デバッガのウィンドウにひょうじされる{NEWLINE}　ここから　ここまでをコピペしてください{NEWLINE}そうさ{NEWLINE}　タッチかいし　で　データか　かいし{NEWLINE}　タッチはなし　で　データか　おわり{NEWLINE}　LかRおしながらで　はなしても　おわらない{NEWLINE}　うえかXおしながらで　トリガのみ　けんち{NEWLINE}　Aでかくにんエフェクトを　みる{NEWLINE}",
+   "en": "Notes{NEWLINE}　Records data to replay hand-drawn input{NEWLINE}　Shown in the debugger window{NEWLINE}　Copy and paste from here to here{NEWLINE}Controls{NEWLINE}　Touch to start recording{NEWLINE}　Release to stop recording{NEWLINE}　Hold L or R to keep going on release{NEWLINE}　Hold Up or X to detect triggers only{NEWLINE}　A to view the check effect{NEWLINE}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  }
+ ]
+}

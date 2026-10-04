@@ -1,0 +1,367 @@
+{
+ "narc": "a027",
+ "bank": 516,
+ "source": "work/extract/v4/a027/0516.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "菊子『看到你们这些年轻人{NEWLINE}活力满满地来到这里,{CLEAR}老婆子我很是欣慰啊！{CLEAR}不过对战就是要真刀真枪,{CLEAR}我是不会放水的。{SCROLL}菊子『你选一个战斗规则吧。{SCROLL}",
+   "en": "Agatha: It does this old woman good to{NEWLINE}see you youngsters come bounding in{CLEAR}here so full of pep!{SCROLL}But a battle is fought for real, and I{NEWLINE}won’t go easy on you.{SCROLL}Agatha: Pick your battle rules.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "League branch: #0–17 are the Elite Four rematch/training lines (Agatha's room). Rocket-occupation branch: #18–43 (Cyrus and Maxie); #18–32 = ‘take turns’ path, #33–37 = ‘both at once’ path."
+  },
+  {
+   "id": 1,
+   "zh": "菊子『哎呀呀,今天又有空{NEWLINE}来陪我这个老婆子解解闷？{SCROLL}菊子『这次想练单打还是双打？{SCROLL}",
+   "en": "Agatha: Well, well, got time to keep this{NEWLINE}old woman company again today?{SCROLL}Agatha: Singles or doubles practice this{NEWLINE}time?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "菊子『老了,老了……{NEWLINE}是该把位置让给你们年轻人了。",
+   "en": "Agatha: I’m getting old, getting old...{NEWLINE}Time I made way for you youngsters.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "全地区的观众{NEWLINE}都会通过我的摄像机看到你的英姿哟！",
+   "en": "Viewers across the region will see your{NEWLINE}finest moments through my camera!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "需要我帮您恢复精灵吗？{SCROLL}",
+   "en": "Shall I heal your Pokémon?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "您的精灵已经恢复了。",
+   "en": "Your Pokémon are fully healed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "您好{VAR:0103:0}大人,{NEWLINE}请问您是要恢复精灵{CLEAR}还是前往下一个房间？{SCROLL}",
+   "en": "Hello, {VAR:0103:0}.{SCROLL}Would you like me to heal your Pokémon,{NEWLINE}or will you go on to the next room?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 8,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 9,
+   "zh": "菊子『嘿嘿嘿,来吧！",
+   "en": "Agatha: Heh heh heh, come on!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "恢复精灵",
+   "en": "Heal Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 11,
+   "zh": "前往下一个房间",
+   "en": "Go to the next room",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 13,
+   "zh": "好的,我现在为您恢复。",
+   "en": "Certainly. I’ll heal them now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "好的,我现在为您开门。",
+   "en": "Certainly. I’ll open the door for you{NEWLINE}now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 16,
+   "zh": "门已经开了,您随时可以通过。",
+   "en": "The door is open. You may go through{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "你的精灵数量不够,{NEWLINE}无法进行双打。",
+   "en": "You don’t have enough Pokémon for a{NEWLINE}double battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0}『赤日、赤焰松！{NEWLINE}不要再做无谓的反抗了,{CLEAR}认罪投降是你们唯一的出路！",
+   "en": "{VAR:0103:0}: Cyrus, Maxie!{SCROLL}Stop resisting. It’s pointless. Confess{NEWLINE}and surrender. It’s your only way out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "赤日『你好像真觉得自己能打赢我们？",
+   "en": "Cyrus: You seem to genuinely believe{NEWLINE}you can beat us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "赤焰松『别把我跟水吾桐相提并论,{NEWLINE}我对固拉多大地之力的掌控{CLEAR}不是那个笨蛋能比的。",
+   "en": "Maxie: Don’t lump me in with Archie.{SCROLL}My command of Groudon’s power over the{NEWLINE}land is far beyond anything that fool{CLEAR}could manage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "赤日『我对帕路奇亚空间能力的使用,{NEWLINE}是所有火箭队员中最强的。{CLEAR}今天有我们在这里,{CLEAR}你休想再前进一步。",
+   "en": "Cyrus: No one in Team Rocket wields{NEWLINE}Palkia’s spatial power like I do.{SCROLL}With us here today, you won’t take one{NEWLINE}more step.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "你的空间能力没什么了不起",
+   "en": "Your space power is no big deal",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Your space power is nothing special'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 23,
+   "zh": "只会说大话,你们一起上吧",
+   "en": "All talk. Come at me together",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0103:0}『你那引以为豪的空间能力,{NEWLINE}在研钵山洞窟、在冠军之路入口、{CLEAR}在石英高原训练场{CLEAR}被我们破解过无数次。{CLEAR}就算你能驱使帕路奇亚,{CLEAR}我也不会输给你！",
+   "en": "{VAR:0103:0}: That space power you’re so{NEWLINE}proud of...{SCROLL}We broke through it countless times, at{NEWLINE}Mt. Mortar, at the Victory Road{CLEAR}entrance, and at the Indigo Plateau{CLEAR}training grounds.{SCROLL}Even if you control Palkia, I won’t lose{NEWLINE}to you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "赤日『狂妄的小鬼,{NEWLINE}我要让你付出血的代价！",
+   "en": "Cyrus: Arrogant brat. I’ll make you pay{NEWLINE}in blood!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "帕路奇亚『Paaa……",
+   "en": "Palkia: Paaa...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "赤日『帕路奇亚,{NEWLINE}你的力量不是无穷的吗？{CLEAR}怎么会这样……",
+   "en": "Cyrus: Palkia, isn’t your power{NEWLINE}supposed to be infinite?{SCROLL}How could this happen...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "赤焰松『不要惊慌失措,赤日。{NEWLINE}我和固拉多会让这个冠军明白,{CLEAR}大地之神的力量是凡人无法阻挡的！",
+   "en": "Maxie: Don’t panic, Cyrus.{SCROLL}Groudon and I will make this Champion{NEWLINE}understand that no mortal can stop the{CLEAR}power of the god of the land!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "固拉多『Grooo……",
+   "en": "Groudon: Grooo...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "赤焰松『固拉多,怎么连你也……",
+   "en": "Maxie: Groudon, even you...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0103:0}『你们用洗脑的精灵球{NEWLINE}强行收服传说中的精灵,{CLEAR}它们怎么可能有{CLEAR}帮你们战斗至最后的意志力呢？{CLEAR}所以失败是你们必然的结果。{CLEAR}你们就在接下来的余生中{CLEAR}好好反思自己的罪行吧！",
+   "en": "{VAR:0103:0}: You enslaved Legendary{NEWLINE}Pokémon with brainwashing Poké Balls.{SCROLL}How could they ever have the will to{NEWLINE}fight for you to the very end?{SCROLL}That’s why defeat was inevitable.{SCROLL}Spend the rest of your lives reflecting{NEWLINE}on your crimes!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:0103:0}大人！我们的英雄！{NEWLINE}打败火箭队咯！好耶！",
+   "en": "{VAR:0103:0}! Our hero! Team Rocket’s{NEWLINE}beaten! Yay!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0103:0}『无论你们用的是空间之力{NEWLINE}还是大地之力,{CLEAR}都只是通过洗脑强行驱使精灵罢了,{CLEAR}像你们这样使出的能力,{CLEAR}就算两个人一起上,也是不堪一击！",
+   "en": "{VAR:0103:0}: Space or land, it makes no{NEWLINE}difference.{SCROLL}You’re just forcing Pokémon to obey{NEWLINE}through brainwashing.{SCROLL}Power used like that falls apart at a{NEWLINE}touch, even with both of you at once!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "赤日『像你这样把跟精灵的感情、羁绊{NEWLINE}当成必修课的小鬼。",
+   "en": "Cyrus: A brat like you, who treats{NEWLINE}feelings and bonds with Pokémon as{CLEAR}required coursework...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "赤焰松『永远也无法理解{NEWLINE}暴力征服的强大与畅快。",
+   "en": "Maxie: ...will never understand the{NEWLINE}might and thrill of violent conquest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "赤日『今天你就用自己的生命。",
+   "en": "Cyrus: Today you’ll pay with your life...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "赤焰松『为你的天真愚蠢买单吧！",
+   "en": "Maxie: ...for your naive stupidity!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "赤日『你能打败我只是运气好罢了。{NEWLINE}如果我可以一个人同时掌握{CLEAR}时间、空间、反转的力量,{CLEAR}你一定不是我的对手！",
+   "en": "Cyrus: You only beat me through luck.{SCROLL}If I alone could command the powers of{NEWLINE}time, space and reversal, you’d be no{CLEAR}match for me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "赤焰松『或许真的如你所说,{NEWLINE}我没能掌握固拉多的真正力量{CLEAR}所以才会输的这么彻底……",
+   "en": "Maxie: Perhaps you’re right.{SCROLL}I never mastered Groudon’s true power,{NEWLINE}and that’s why I lost so completely...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "火箭队简直就是噩梦,{NEWLINE}拜托冠军大人快点让噩梦结束吧。",
+   "en": "Team Rocket is a living nightmare.{SCROLL}Please, Champion, hurry and put an end{NEWLINE}to it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "这些火箭队押我们过来时{NEWLINE}对我们拳打脚踢的。{CLEAR}实在是太可恶了。",
+   "en": "When Team Rocket dragged us here, they{NEWLINE}punched and kicked us the whole way.{SCROLL}They’re absolutely vile.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "不论火箭队做这些事出于什么目的,{NEWLINE}都是绝对不可原谅的。",
+   "en": "Whatever their reasons, what Team{NEWLINE}Rocket has done is unforgivable.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "我刚才还在心中默念{NEWLINE}冠军大人快来救我,{CLEAR}然后您真的就出现了！",
+   "en": "I was just silently praying for the{NEWLINE}Champion to come save me, and then you{CLEAR}actually showed up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

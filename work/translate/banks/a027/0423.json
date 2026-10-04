@@ -1,0 +1,503 @@
+{
+ "narc": "a027",
+ "bank": 423,
+ "source": "work/extract/v4/a027/0423.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "要放置{VAR:0108:0}吗？",
+   "en": "Place the {VAR:0108:0}?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/0"
+  },
+  {
+   "id": 1,
+   "zh": "{VAR:0108:0}放置完毕。",
+   "en": "Placed the {VAR:0108:0}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/1"
+  },
+  {
+   "id": 2,
+   "zh": "还能放{VAR:0133:0}个。",
+   "en": "There are {VAR:0133:0} left to place.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/2"
+  },
+  {
+   "id": 3,
+   "zh": "已经放不了了。",
+   "en": "Cannot place any more.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/3"
+  },
+  {
+   "id": 4,
+   "zh": "没有放的空间了。",
+   "en": "No open spaces left.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/4"
+  },
+  {
+   "id": 5,
+   "zh": "不能放在陆地上。",
+   "en": "Cannot place on land.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/5"
+  },
+  {
+   "id": 6,
+   "zh": "不能放在湖边。",
+   "en": "Cannot place on the waterside.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/6"
+  },
+  {
+   "id": 7,
+   "zh": "不能再放了。",
+   "en": "Cannot place any more.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/7"
+  },
+  {
+   "id": 8,
+   "zh": "返回",
+   "en": "Return",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/8"
+  },
+  {
+   "id": 9,
+   "zh": "决定",
+   "en": "CONFIRM",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 4 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 10,
+   "zh": "放弃",
+   "en": "Quit",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s); other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 11,
+   "zh": "交换",
+   "en": "Switch",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s)"
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0132:0}/{VAR:0132:1}",
+   "en": "{VAR:0132:0}/{VAR:0132:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0108:0}",
+   "en": "{VAR:0108:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "草丛",
+   "en": "Shrubbery",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/14"
+  },
+  {
+   "id": 15,
+   "zh": "红花",
+   "en": "Red Flower",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/15"
+  },
+  {
+   "id": 16,
+   "zh": "白花",
+   "en": "White Flower",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/16"
+  },
+  {
+   "id": 17,
+   "zh": "树",
+   "en": "Tree",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/17"
+  },
+  {
+   "id": 18,
+   "zh": "树桩",
+   "en": "Stump",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0430/17 | seed rejected us [ambiguous US match] (candidate US 0430#17; text not kept)"
+  },
+  {
+   "id": 19,
+   "zh": "树枝",
+   "en": "Branches",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/19"
+  },
+  {
+   "id": 20,
+   "zh": "小石头",
+   "en": "Small Rock",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/20"
+  },
+  {
+   "id": 21,
+   "zh": "大石头",
+   "en": "Big Rock",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/21"
+  },
+  {
+   "id": 22,
+   "zh": "青苔石",
+   "en": "Mossy Rock",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/22"
+  },
+  {
+   "id": 23,
+   "zh": "水池",
+   "en": "Puddle",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "喷泉",
+   "en": "Fountain",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/24"
+  },
+  {
+   "id": 25,
+   "zh": "水的外形",
+   "en": "Body of Water",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 水的外形 \"form of water\"; US Water Hole; zh 水的外形 \"form of water\"; US Water Hole; zh 水的外形 \"form of water\"; US Water Hole; zh 水的外形 \"form of water\"; US Water Hole; zh 水的外形 \"form of water\"; US Water Hole"
+  },
+  {
+   "id": 26,
+   "zh": "长凳",
+   "en": "Bench",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/26"
+  },
+  {
+   "id": 27,
+   "zh": "短栅栏１",
+   "en": "Short Fence1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/27"
+  },
+  {
+   "id": 28,
+   "zh": "短栅栏２",
+   "en": "Short Fence2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/28"
+  },
+  {
+   "id": 29,
+   "zh": "长栅栏１",
+   "en": "Long Fence1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/29"
+  },
+  {
+   "id": 30,
+   "zh": "长栅栏２",
+   "en": "Long Fence2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/30"
+  },
+  {
+   "id": 31,
+   "zh": "告示牌",
+   "en": "Signboard",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/31"
+  },
+  {
+   "id": 32,
+   "zh": "自己的石像",
+   "en": "Your Statue",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/32"
+  },
+  {
+   "id": 33,
+   "zh": "自己的旗子",
+   "en": "Your Flag",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/33"
+  },
+  {
+   "id": 34,
+   "zh": "街灯",
+   "en": "Outside Lamp",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/34"
+  },
+  {
+   "id": 35,
+   "zh": "右路标",
+   "en": "Guidepost(R)",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/35"
+  },
+  {
+   "id": 36,
+   "zh": "左路标",
+   "en": "Guidepost(L)",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/36"
+  },
+  {
+   "id": 37,
+   "zh": "垃圾箱",
+   "en": "Trash Can",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/37"
+  },
+  {
+   "id": 38,
+   "zh": "草丛。{NEWLINE}草原的精灵{NEWLINE}似乎很喜欢。",
+   "en": "A thick tuft of grass.{NEWLINE}The Pokémon on the{NEWLINE}Plains seem to like it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/38"
+  },
+  {
+   "id": 39,
+   "zh": "火热颜色的花。{NEWLINE}草原的精灵{NEWLINE}似乎很喜欢。",
+   "en": "A very intensely colored flower.{NEWLINE}The Pokémon on the{NEWLINE}Plains seem to like it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/39"
+  },
+  {
+   "id": 40,
+   "zh": "颜色温柔的花。{NEWLINE}草原的精灵{NEWLINE}似乎很喜欢。",
+   "en": "A very tenderly colored flower.{NEWLINE}The Pokémon on the{NEWLINE}Plains seem to like it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/40"
+  },
+  {
+   "id": 41,
+   "zh": "稍微有点矮的树。{NEWLINE}森林的精灵{NEWLINE}似乎很喜欢。",
+   "en": "A somewhat short tree.{NEWLINE}The Pokémon in the{NEWLINE}Forest seem to like it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/41"
+  },
+  {
+   "id": 42,
+   "zh": "树被砍掉留下的树桩。{NEWLINE}森林的精灵{NEWLINE}似乎很喜欢。",
+   "en": "A remainder from a tree that was{NEWLINE}cut down. The Pokémon in the{NEWLINE}Forest seem to like it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/42"
+  },
+  {
+   "id": 43,
+   "zh": "树枝堆。{NEWLINE}森林的精灵{NEWLINE}似乎很喜欢。",
+   "en": "A pile of broken branches.{NEWLINE}The Pokémon in the{NEWLINE}Forest seem to like it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/43"
+  },
+  {
+   "id": 44,
+   "zh": "小小的圆石。{NEWLINE}岩场的精灵{NEWLINE}似乎很喜欢。",
+   "en": "A smallish round rock.{NEWLINE}The Pokémon in the{NEWLINE}rocky Areas seem to like it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/44"
+  },
+  {
+   "id": 45,
+   "zh": "大大的石头。{NEWLINE}岩场的精灵{NEWLINE}似乎很喜欢。",
+   "en": "A big, scraggy rock.{NEWLINE}The Pokémon in the{NEWLINE}rocky Areas seem to like it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/45"
+  },
+  {
+   "id": 46,
+   "zh": "表面长着青苔的石头。{NEWLINE}岩场的精灵{NEWLINE}似乎很喜欢。",
+   "en": "A mossy rock.{NEWLINE}The Pokémon in the{NEWLINE}rocky Areas seem to like it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/46"
+  },
+  {
+   "id": 47,
+   "zh": "地面上的一个水池。{NEWLINE}湖边的精灵{NEWLINE}似乎很喜欢。",
+   "en": "Water collected on the ground.{NEWLINE}The Pokémon by the{NEWLINE}water seem to like it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/47"
+  },
+  {
+   "id": 48,
+   "zh": "能用冲浪进入的湖。{NEWLINE}湖边的精灵{NEWLINE}似乎很喜欢。",
+   "en": "A lake you can enter using Surf.{NEWLINE}The Pokémon by the{NEWLINE}water seem to like it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0430/48"
+  },
+  {
+   "id": 49,
+   "zh": "能喷出冷冷的好喝的水。{NEWLINE}湖边的的精灵{NEWLINE}似乎很喜欢。",
+   "en": "Cool, delicious drinking{NEWLINE}water. The Pokémon by the{NEWLINE}water seem to like it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/49"
+  },
+  {
+   "id": 50,
+   "zh": "细长的长凳。{NEWLINE}公园和休息场所{NEWLINE}经常能看到。",
+   "en": "A long and thin bench.{NEWLINE}The kind you would find in{NEWLINE}any park or rest area.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/50"
+  },
+  {
+   "id": 51,
+   "zh": "横排的短栅栏。{NEWLINE}连着放几个能围住{NEWLINE}池子或者花田。",
+   "en": "A short, horizontal fence.{NEWLINE}If you used a few of these, you could{NEWLINE}probably enclose a lake or flower patch.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/51"
+  },
+  {
+   "id": 52,
+   "zh": "纵排的短栅栏。{NEWLINE}连着放几个能围住{NEWLINE}池子或者花田。",
+   "en": "A short, vertical fence.{NEWLINE}If you used a few of these, you could{NEWLINE}probably enclose a lake or flower patch.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/52"
+  },
+  {
+   "id": 53,
+   "zh": "横排的长栅栏。{NEWLINE}连着放几个能围住{NEWLINE}池子或者花田。",
+   "en": "A long, horizontal fence.{NEWLINE}If you used a few of these, you could{NEWLINE}probably enclose a lake or flower patch.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/53"
+  },
+  {
+   "id": 54,
+   "zh": "纵排的长栅栏。{NEWLINE}连着放几个能围住{NEWLINE}池子或者花田。",
+   "en": "A long, vertical fence.{NEWLINE}If you used a few of these, you could{NEWLINE}probably enclose a lake or flower patch.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/54"
+  },
+  {
+   "id": 55,
+   "zh": "木头做的告示牌。{NEWLINE}插在地上做标示。",
+   "en": "A signboard made of wood. If you{NEWLINE}planted a stake in the ground, you{NEWLINE}could post this sign on it.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/55"
+  },
+  {
+   "id": 56,
+   "zh": "以自己为原型的石像。{NEWLINE}竖起这个自己就会{NEWLINE}感觉到光荣了。",
+   "en": "A stone statue made in your image.{NEWLINE}If you placed this, you could really{NEWLINE}get the sense of being a great hero.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/56"
+  },
+  {
+   "id": 57,
+   "zh": "画着自己的旗子。{NEWLINE}竖起这个自己就会{NEWLINE}感觉到很自豪。",
+   "en": "A flag with a picture of you on it.{NEWLINE}If you placed this, you would really{NEWLINE}feel proud of yourself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0430/57; ext-review RCA-023"
+  },
+  {
+   "id": 58,
+   "zh": "照亮周围的街灯。{NEWLINE}将起放置在黑暗中{NEWLINE}就能照亮道路。",
+   "en": "An electric light that illuminates the{NEWLINE}Area. If placed in the darkness, it could{NEWLINE}create a beautiful path of light.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/58"
+  },
+  {
+   "id": 59,
+   "zh": "指向右边的路标。{NEWLINE}看到的人可能会跟着{NEWLINE}箭头的方向走。",
+   "en": "A sign pointing right. Any person who{NEWLINE}sees this would naturally want to go find{NEWLINE}out what it could be pointing to.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/59"
+  },
+  {
+   "id": 60,
+   "zh": "指向左边的路标。{NEWLINE}看到的人可能会跟着{NEWLINE}箭头的方向走。",
+   "en": "A sign pointing left. Any person who{NEWLINE}sees this would naturally want to go find{NEWLINE}out what it could be pointing to.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/60"
+  },
+  {
+   "id": 61,
+   "zh": "扔垃圾的垃圾箱。{NEWLINE}垃圾一定要扔进{NEWLINE}垃圾箱或者带走啊。",
+   "en": "A trash can for disposing of litter.{NEWLINE}If you have any litter, be sure to{NEWLINE}throw it away or take it with you.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0430/61"
+  }
+ ]
+}

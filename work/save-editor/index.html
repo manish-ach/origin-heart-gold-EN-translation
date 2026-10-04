@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#172e29" />
+    <title>Origin Save Editor</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <script type="module" src="./dist/app.js"></script>
+  </head>
+  <body>
+    <main class="workspace">
+      <header class="page-header">
+        <div class="eyebrow">POKÉMON ORIGIN HEARTGOLD <span class="badge">Prototype</span></div>
+        <h1>Your team.<br /><span>A little fine-tuning.</span></h1>
+        <p class="intro">Open your save, edit your party, money and bag, and download a new copy. Your original stays untouched.</p>
+      </header>
+
+      <section class="card import-card" aria-labelledby="import-heading">
+        <div>
+          <p class="step">01 / OPEN A SAVE</p>
+          <h2 id="import-heading">Bring your adventure</h2>
+          <p>For English Origin HeartGold v4.0.3. Choose a 512 KiB <code>.sav</code> file or a DeSmuME <code>.dsv</code> save.</p>
+        </div>
+        <div class="file-control">
+          <label for="file-input">Choose save file</label>
+          <input id="file-input" type="file" accept=".sav,.dsv" aria-describedby="local-note" />
+          <p id="local-note" class="small">Processed locally in your browser. No uploads or ROM needed.</p>
+        </div>
+      </section>
+
+      <div id="status" class="status" role="status" aria-live="polite">Ready when you are. Choose a save to get started.</div>
+      <section id="save-details" class="save-details" aria-label="Save details"></section>
+
+      <div class="team-layout">
+        <section class="card party-card" aria-labelledby="party-heading">
+          <p class="step">02 / PICK A POKÉMON</p>
+          <h2 id="party-heading">Your party</h2>
+          <div id="party-list" class="party-list"><p class="empty-state">Your party will appear here after you open a save.</p></div>
+        </section>
+        <section class="card editor-card" aria-labelledby="editor-heading">
+          <p class="step">03 / MAKE IT YOURS</p>
+          <h2 id="editor-heading">Pokémon editor</h2>
+          <div id="editor"><p class="empty-state">Select a party member to inspect and edit its moves, stats, shiny state and Pokérus.</p></div>
+        </section>
+      </div>
+
+      <section class="card inventory-card" aria-labelledby="inventory-heading">
+        <h2 id="inventory-heading">Money and bag</h2>
+        <div id="inventory-editor"><p class="empty-state">Open a save to inspect money and inventory.</p></div>
+      </section>
+
+      <section class="card export-card" aria-labelledby="export-heading">
+        <div>
+          <h2 id="export-heading">Ready to head back?</h2>
+          <p>Keep a backup of your save before trying the edited copy in-game.</p>
+        </div>
+        <div class="actions">
+          <button id="export-original" class="secondary" type="button" disabled>Export unchanged</button>
+          <button id="export-edited" class="primary" type="button" disabled>Download edited save</button>
+        </div>
+      </section>
+      <footer><strong>A focused first step.</strong> Edit party moves, level, nature, IVs, EVs, shiny state, Pokérus, money and bag items. PC boxes, story and quest progress editing are outside its scope.</footer>
+    </main>
+  </body>
+</html>

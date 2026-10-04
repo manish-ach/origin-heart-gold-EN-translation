@@ -1,0 +1,26 @@
+{
+ "narc": "a027",
+ "bank": 200,
+ "source": "work/extract/v4/a027/0200.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "大家　快乐{NEWLINE}ＷｉーＦｉ　通信",
+   "en": "Fun for Everyone{NEWLINE}Wi-Fi Connection",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "大家 快乐 Wi-Fi 通信; context unknown (probably a Wi-Fi Plaza/club title), US blank."
+  },
+  {
+   "id": 1,
+   "zh": "{VAR:011C:0}　{VAR:011C:1}{NEWLINE}{VAR:011C:2}　{VAR:011C:3}",
+   "en": "{VAR:011C:0}　{VAR:011C:1}{NEWLINE}{VAR:011C:2}　{VAR:011C:3}",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "layout placeholder kept as is (ideographic-space separators); US blanks it",
+   "qa_ignore": [
+    "fullwidth"
+   ]
+  }
+ ]
+}

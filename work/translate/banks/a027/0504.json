@@ -1,0 +1,716 @@
+{
+ "narc": "a027",
+ "bank": 504,
+ "source": "work/extract/v4/a027/0504.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "狩猎场的园长巴奥巴{NEWLINE}最近好像把狩猎场改造了一番,{CLEAR}据说翻新的狩猎场很不一样哦。",
+   "en": "Baoba, the Safari Zone Warden, seems to{NEWLINE}have renovated the Safari Zone{CLEAR}recently. They say the new Safari Zone{CLEAR}is something else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "因为浅红市周围{NEWLINE}有丰富的野生口袋妖怪资源,{CLEAR}所以这附近的盗猎案件非常频繁。{SCROLL}好在阿桔馆主自上任以来{NEWLINE}积极组建护林员组织,{CLEAR}极大地减少了盗猎行为。",
+   "en": "The area around Fuchsia City is rich in{NEWLINE}wild Pokémon, so poaching cases are{CLEAR}very common around here.{SCROLL}Luckily, ever since Gym Leader Koga{NEWLINE}took office, he’s been building up a{CLEAR}ranger force, and poaching has dropped{CLEAR}a lot.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "这个城镇的著名景点{NEWLINE}是浅红市狩猎场。{CLEAR}将保护区中的一部分精灵拿出来{CLEAR}供大家适度捕捉。{CLEAR}既压缩了非法盗猎的市场空间,{CLEAR}又控制了精灵的过度繁殖,{CLEAR}是个很不错的主意呢。",
+   "en": "This town’s famous attraction is the{NEWLINE}Fuchsia City Safari Zone. Some of the{CLEAR}Pokémon in the preserve are set aside{CLEAR}for people to catch in moderation.{SCROLL}It shrinks the market for illegal{NEWLINE}poaching and keeps the Pokémon from{CLEAR}overbreeding. Pretty clever idea, huh?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "这里是浅红市{NEWLINE}繁荣的城镇",
+   "en": "Fuchsia City{NEWLINE}Happening and Passing City",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0512/3",
+   "category": "sign"
+  },
+  {
+   "id": 4,
+   "zh": "浅红市的{NEWLINE}道馆馆主阿桔{CLEAR}是个神出鬼没的忍者。",
+   "en": "Fuchsia City’s Gym Leader, Koga, is a{NEWLINE}ninja who comes and goes like a phantom.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "张贴着广告！{SCROLL}浅红市狩猎场——{NEWLINE}为您和精灵创造浪漫的相遇。",
+   "en": "There’s an ad posted!{SCROLL}Fuchsia City Safari Zone: a romantic{NEWLINE}encounter between you and Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "这里是狩猎场园长的家",
+   "en": "Safari Zone Warden’s Home",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0512/6 | US ‘Home of the Pal Park Warden’ retranslated: zh says Safari Zone Warden (the Safari Zone still exists in this hack)."
+  },
+  {
+   "id": 7,
+   "zh": "用碎片换果实！{NEWLINE}用碎片换果实！{SCROLL}呀,呀！我是{NEWLINE}碎片和树果的交换人。{SCROLL}你要是有碎片的话,{NEWLINE}我就把３个树果{CLEAR}作为礼物给你！{SCROLL}",
+   "en": "Shard de Berry!{NEWLINE}Shard de Berry!{SCROLL}Yah, yah!{NEWLINE}I trade Berry for Shard.{SCROLL}If ya bring me some Shards,{NEWLINE}I will give ya three Berries, yah!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0512/7"
+  },
+  {
+   "id": 8,
+   "zh": "用碎片换果实！{NEWLINE}用碎片换果实！{SCROLL}呀,呀！我是{NEWLINE}碎片和树果的交换人。{SCROLL}给我一个碎片的话,{NEWLINE}我就把３个树果{CLEAR}作为礼物给你！{SCROLL}要用哪个碎片换果实？{VAR:0200:0}",
+   "en": "Shard de Berry!{NEWLINE}Shard de Berry!{SCROLL}Yah, yah!{NEWLINE}I trade Berry for Shard.{SCROLL}If ya bring me some Shards,{NEWLINE}I will give ya three Berries, yah!{SCROLL}Which Shard will ya trade for{NEWLINE}de Berry? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0512/8"
+  },
+  {
+   "id": 9,
+   "zh": "还想用碎片换果实吗？{VAR:0200:0}",
+   "en": "More Shards to trade for{NEWLINE}de Berries? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0512/9"
+  },
+  {
+   "id": 10,
+   "zh": "呀,呀！{NEWLINE}有兴趣的话再来啊！{SCROLL}",
+   "en": "Yah, yah!{NEWLINE}Come back when ya’ve changed{CLEAR}ya mind, yah!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0512/10"
+  },
+  {
+   "id": 11,
+   "zh": "你给我红碎片,{NEWLINE}我就把果实套装Ｅ{CLEAR}送给你！{SCROLL}",
+   "en": "I’ll give ya de Berry Set E{NEWLINE}for de Red Shard, yah!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0512/11"
+  },
+  {
+   "id": 12,
+   "zh": "你给我蓝碎片,{NEWLINE}我就把果实套装Ｆ{CLEAR}送给你！{SCROLL}",
+   "en": "I’ll give ya de Berry Set F{NEWLINE}for de Blue Shard, yah!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0512/12"
+  },
+  {
+   "id": 13,
+   "zh": "你给我黄碎片,{NEWLINE}我就把果实套装Ｇ{CLEAR}送给你！{SCROLL}",
+   "en": "I’ll give ya de Berry Set G{NEWLINE}for de Yellow Shard, yah!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0512/13"
+  },
+  {
+   "id": 14,
+   "zh": "你给我绿碎片,{NEWLINE}我就把果实套装Ｈ{CLEAR}送给你！{SCROLL}",
+   "en": "I’ll give ya de Berry Set H{NEWLINE}for de Green Shard, yah!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0512/14"
+  },
+  {
+   "id": 15,
+   "zh": "这套果实你已经拿不下了。{SCROLL}等用掉点之后再来吧！{SCROLL}",
+   "en": "Ya already have many Berries{NEWLINE}of dis set.{SCROLL}Come back when ya need more, yah!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0512/15"
+  },
+  {
+   "id": 16,
+   "zh": "老板,这个阿桔可是浅红市的馆主,{NEWLINE}他真的会按咱们说的做吗？",
+   "en": "Boss, this Koga is Fuchsia City’s Gym{NEWLINE}Leader.{SCROLL}Will he really do what we tell him?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Granny Kin and her lackey bribing Koga (ninja head of Kanto)."
+  },
+  {
+   "id": 17,
+   "zh": "金婆婆『呵呵,{NEWLINE}这个阿桔可不只是个馆主,{CLEAR}他还是关东地区的忍者头头,婆婆。{SCROLL}金婆婆『在忍者世界中,{NEWLINE}跟被委托的使命比起来,{CLEAR}道义原则都是狗屁的,婆婆。{CLEAR}他既然收下了咱们的巨额委托金,{CLEAR}就一定会按要求完成任务的婆婆。",
+   "en": "Granny Kin: Heh heh. This Koga isn’t{NEWLINE}just a Gym Leader. He’s also the head{CLEAR}of all the ninja in Kanto, dearie.{SCROLL}Granny Kin: In the ninja world,{NEWLINE}principles are a load of crap next to{CLEAR}the job you’re hired for, dearie. He{CLEAR}took our huge commission, so he’ll do{CLEAR}exactly as we asked, dearie.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "原来如此,{NEWLINE}这样的人确实是收买的最佳选择,{CLEAR}老板您真是高明啊！",
+   "en": "I see. Then he really is the best man to{NEWLINE}buy off. Brilliant as always, Boss!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "金婆婆『哈哈哈,走了婆婆。",
+   "en": "Granny Kin: Ha ha ha! Let’s go, dearie.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "小蓝『{VAR:0103:0}去过浅红道馆了吗？{NEWLINE}那个馆主让手下都打扮成他的样子,{CLEAR}搞得我都不知道该向谁挑战了。",
+   "en": "Green: {VAR:0103:0}, have you been to the{NEWLINE}Fuchsia Gym? The Leader has all his{CLEAR}people dress up like him, so I couldn’t{CLEAR}even tell who to challenge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Partner branch: Green (male player) #20/#22 vs Red (female player) #21/#23."
+  },
+  {
+   "id": 21,
+   "zh": "小赤『{VAR:0103:0}去过浅红道馆了吗？{NEWLINE}那里面的人个个都是变装高手,{CLEAR}我进去一看全是道馆馆主,{CLEAR}我都不知道该向谁发起挑战了。",
+   "en": "Red: {VAR:0103:0}, have you been to the{NEWLINE}Fuchsia Gym? Everyone in there is a{CLEAR}master of disguise. When I went in, they{CLEAR}all looked like the Gym Leader! I had no{CLEAR}idea who to challenge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "小蓝『哎？馆主主动现身了？{NEWLINE}还主动邀请咱们去挑战？{CLEAR}那可真是太好了,{CLEAR}可以不用再思考怎么看破那些变装了。{SCROLL}小蓝『我这就找他挑战去,{NEWLINE}{VAR:0103:0}你也快来吧。",
+   "en": "Green: Huh? The Leader showed himself?{NEWLINE}And he invited us to challenge him?{CLEAR}That’s great!{SCROLL}Now we don’t have to figure out how to{NEWLINE}see through those disguises.{SCROLL}Green: I’m going to challenge him right{NEWLINE}now. {VAR:0103:0}, you hurry up too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "小赤『馆主主动现身了？{NEWLINE}还主动邀请咱们去挑战？{CLEAR}那可真是太好了,{CLEAR}不然我还真是没法看出谁是馆主。{SCROLL}小赤『我这就找他挑战去,{NEWLINE}{VAR:0103:0}你也快来吧。",
+   "en": "Red: The Leader showed himself? And he{NEWLINE}invited us to challenge him? That’s{CLEAR}great! Otherwise I’d never have figured{CLEAR}out who the Leader was.{SCROLL}Red: I’m going to challenge him right{NEWLINE}now. {VAR:0103:0}, you hurry up too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "妙蛙花『Venu——sau！",
+   "en": "Venusaur: Venu-sau!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 25,
+   "zh": "小豪『哇哇哇,这里居然有热带龙！{NEWLINE}这可是在关东几乎不可能遇到的精灵,{CLEAR}我的图鉴里都还没有呢。",
+   "en": "Goh: Whoa whoa whoa, there’s a Tropius{NEWLINE}here! You almost never see this{CLEAR}Pokémon in Kanto. I don’t even have it{CLEAR}in my Pokédex yet!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "小豪『请问,这只热带龙{NEWLINE}是狩猎场的野生精灵吗？",
+   "en": "Goh: Excuse me, is this Tropius a wild{NEWLINE}Pokémon from the Safari Zone?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "没错,这只热带龙{NEWLINE}是狩猎场里的野生精灵。",
+   "en": "That’s right. This Tropius is a wild{NEWLINE}Pokémon from the Safari Zone.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "小豪『既然是狩猎场的野生精灵,{NEWLINE}那我就可以随便抓啦！",
+   "en": "Goh: If it’s a wild Safari Zone Pokémon,{NEWLINE}then I can catch it, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "呃,不行不行,{NEWLINE}虽说是狩猎场的精灵,{CLEAR}但是园长把它放在这里是为了展览,{CLEAR}你不能私自捕捉。",
+   "en": "Uh, no, no. It may be a Safari Zone{NEWLINE}Pokémon, but the Warden put it here on{CLEAR}display. You can’t catch it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "小豪『哎呀,你别这么死板嘛,{NEWLINE}我只是为了集齐图鉴,{CLEAR}又不是真的要抓走热带龙。{SCROLL}小豪『我就扔一球,就一球,{NEWLINE}如果能抓住热带龙,{CLEAR}登录图鉴后我立马放了它还给你们。{CLEAR}如果一球抓不住,我也就不再抓了。{CLEAR}怎么样？不过分吧？",
+   "en": "Goh: Aw, don’t be so uptight. I just{NEWLINE}want to complete my Pokédex.{SCROLL}It’s not like I’m actually taking the{NEWLINE}Tropius away.{SCROLL}Goh: I’ll throw one Ball. Just one. If I{NEWLINE}catch it, I’ll register it in my Pokédex{CLEAR}and release it back to you right away.{CLEAR}If one Ball doesn’t do it, I’ll stop. How{CLEAR}about it? That’s fair, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "不行不行,展览的精灵不能捕捉。",
+   "en": "No, no. Pokémon on display can’t be{NEWLINE}caught.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "小豪『我不是要捕捉热带龙,{NEWLINE}我只是想集齐图鉴,这是我的梦想！{SCROLL}小豪『你们狩猎场为了商业利益{NEWLINE}就不惜去践踏别人的梦想,{CLEAR}哼,你们这种自以为是的规矩{CLEAR}不遵守也罢！",
+   "en": "Goh: I’m not trying to keep the{NEWLINE}Tropius. I just want to complete my{CLEAR}Pokédex. It’s my dream!{SCROLL}Goh: Your Safari Zone will trample on{NEWLINE}someone’s dream just to make a buck?{CLEAR}Hmph! Rules this self-righteous aren’t{CLEAR}worth following!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "喂！你要干什么！",
+   "en": "Hey! What are you doing?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "小豪『放心吧,{NEWLINE}我会马上放生还给你们的。",
+   "en": "Goh: Relax. I’ll release it back to you{NEWLINE}right away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "要阻止小豪抓捕热带龙吗？{SCROLL}",
+   "en": "Stop Goh from catching the Tropius?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Goh/Tropius choice: don’t stop (#36–#42) / stop (#43 or #44, then #45 → #46 or #47 → battle #48–#51)."
+  },
+  {
+   "id": 36,
+   "zh": "小豪『精灵球——Go！",
+   "en": "Goh: Poké Ball! Go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "小豪『嘿嘿,百发百中,{NEWLINE}就是这么简单！{CLEAR}我看看图鉴啊……{SCROLL}小豪『很好,已经登录上了。",
+   "en": "Goh: Heh heh. Never miss. Easy as that!{NEWLINE}Let me check my Pokédex...{SCROLL}Goh: Great, it’s registered.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "小豪『出来吧,热带龙！",
+   "en": "Goh: Come on out, Tropius!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "小豪『好了,你已经没用了。{NEWLINE}我现在把你放生,{CLEAR}继续在这当你的展览品吧。",
+   "en": "Goh: OK, I’m done with you. I’m{NEWLINE}releasing you now. Go back to being a{CLEAR}display piece.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "小豪『你看吧,就是这么效率,{NEWLINE}你什么损失也没有。",
+   "en": "Goh: See? Efficient. You didn’t lose a{NEWLINE}thing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "你这家伙怎么能这么乱来！",
+   "en": "How can you be so reckless?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "小豪『实现伟大梦想的道路上{NEWLINE}肯定会遭到你这种浅薄的非议,{CLEAR}随你怎么说吧,{CLEAR}我收集图鉴的脚步可不会就此停下。",
+   "en": "Goh: Anyone chasing a great dream runs{NEWLINE}into shallow critics like you. Say{CLEAR}whatever you want. I’m not going to{CLEAR}stop filling my Pokédex.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0103:0}『住手！{NEWLINE}不准捕捉这只热带龙。",
+   "en": "{VAR:0103:0}: Stop! You’re not allowed to{NEWLINE}catch this Tropius.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0103:0}『住手！{NEWLINE}你没听见人家说不让捉热带龙吗？",
+   "en": "{VAR:0103:0}: Stop! Didn’t you hear them{NEWLINE}say you can’t catch the Tropius?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "小豪『跟你有什么关系,{NEWLINE}轮得到你多管闲事吗！",
+   "en": "Goh: What’s it to you? Who asked you to{NEWLINE}butt in?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "{VAR:0103:0}『你在这里违规捕捉,{NEWLINE}谁都有资格制止你！",
+   "en": "{VAR:0103:0}: You’re catching Pokémon{NEWLINE}against the rules. Anyone has the right{CLEAR}to stop you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "{VAR:0103:0}『哼！你又是个什么东西,{NEWLINE}凭什么在这里随便捉精灵！",
+   "en": "{VAR:0103:0}: Hmph! Who are you to catch{NEWLINE}Pokémon here as you please?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "小豪『想阻碍我完成图鉴？{NEWLINE}哼,你得有这个实力才行！",
+   "en": "Goh: You want to get in the way of my{NEWLINE}Pokédex? Hmph. You’d better have the{CLEAR}skills to back it up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "小豪『破坏别人的梦想很好玩是吗？{NEWLINE}让你很有成就感是吗？{CLEAR}你现在一定觉得自己很了不起是吗？{SCROLL}小豪『咱们走着瞧吧,{NEWLINE}我的梦想可不会因为你而破灭！",
+   "en": "Goh: Is it fun wrecking other people’s{NEWLINE}dreams? Does it make you feel{CLEAR}accomplished? Bet you think you’re{CLEAR}pretty great right now, huh?{SCROLL}Goh: We’ll see about that. My dream{NEWLINE}isn’t going to die because of you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "小豪『像你这么弱的训练家,{NEWLINE}就乖乖闭嘴吧！",
+   "en": "Goh: A weak Trainer like you should just{NEWLINE}shut up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "小豪『看到没？一切如初,{NEWLINE}只有你像个傻子一样冲出来碍事。{CLEAR}如果世界上少一些你这样的人,{CLEAR}大家的生活一定会轻松很多。{CLEAR}希望你以后能长点记性别瞎捣乱。",
+   "en": "Goh: See? Everything’s just like it was.{NEWLINE}The only one who rushed in and got in{CLEAR}the way like an idiot was you.{SCROLL}The world would be a lot easier with{NEWLINE}fewer people like you. Hopefully you’ll{CLEAR}learn your lesson and quit meddling.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "多年前我带老婆孩子来浅红市玩,{NEWLINE}结果因为一时疏忽,{CLEAR}跟当时年幼的儿子达郎失散了。{SCROLL}这几年我和妻子一直在这附近{NEWLINE}寻找达郎的下落,{CLEAR}但却一无所获……{CLEAR}唉,如果一切能重来,{CLEAR}我肯定不会再这么大意了。",
+   "en": "Years ago, I brought my wife and son to{NEWLINE}Fuchsia City.{SCROLL}In one careless moment, we got{NEWLINE}separated from our little boy, Taro.{SCROLL}My wife and I have been searching{NEWLINE}around here for Taro for years, but we{CLEAR}haven’t found a thing... Sigh. If I{CLEAR}could do it all over again, I’d never be{CLEAR}so careless.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Lost son 达郎 → Taro (invented reading). #52 father / #53 mother; #54 (father: ‘with my wife’) / #55 (mother) player-gender-independent speaker variants. Outcome in 0509 #8 (boy’s body) or 0506 #56."
+  },
+  {
+   "id": 53,
+   "zh": "我和丈夫在这一带{NEWLINE}寻找走丢的儿子达郎已经好多年了,{CLEAR}也不知道他现在是生是死,呜呜呜……",
+   "en": "My husband and I have been searching{NEWLINE}this area for our lost son, Taro, for so{CLEAR}many years. We don’t even know if he’s{CLEAR}alive or dead... *sob*",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "什么？在浅红森林{NEWLINE}发现了一个小男孩可能是达郎？！{CLEAR}天呐,终于有达郎的下落了！！！{SCROLL}我想现在就跟妻子去浅红森林看看,{NEWLINE}不过浅红森林一般人是不让进的,{CLEAR}能拜托你向阿桔馆主申请一下,{CLEAR}让我们进去吗？",
+   "en": "What? A little boy who might be Taro was{NEWLINE}found in the Fuchsia Forest?! Oh my{CLEAR}goodness, finally a lead on Taro!!!{SCROLL}I want to go to the Fuchsia Forest with{NEWLINE}my wife right now, but ordinary people{CLEAR}aren’t allowed in. Could you ask Gym{CLEAR}Leader Koga to let us in?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "什么？在浅红森林{NEWLINE}发现了一个小男孩可能是达郎？！{CLEAR}天呐,终于有达郎的下落了！！！{SCROLL}我想现在就跟丈夫去浅红森林看看,{NEWLINE}不过浅红森林一般人是不让进的,{CLEAR}能拜托你向阿桔馆主申请一下,{CLEAR}让我们进去吗？",
+   "en": "What? A little boy who might be Taro was{NEWLINE}found in the Fuchsia Forest?! Oh my{CLEAR}goodness, finally a lead on Taro!!!{SCROLL}I want to go to the Fuchsia Forest with{NEWLINE}my husband right now, but ordinary{CLEAR}people aren’t allowed in. Could you ask{CLEAR}Gym Leader Koga to let us in?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "阿桔馆主已经答应{NEWLINE}让我们进去了吗？{CLEAR}真是太好了！{CLEAR}我们现在就去浅红森林找达郎去！",
+   "en": "Gym Leader Koga has agreed to let us{NEWLINE}in?{SCROLL}That’s wonderful! We’re going to the{NEWLINE}Fuchsia Forest to find Taro right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "您好,请问您喜欢这里展出的精灵吗？{SCROLL}",
+   "en": "Hello! Do you like the Pokémon on{NEWLINE}display here?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "如果您去我们狩猎场玩一圈的话,{NEWLINE}相信您会喜欢上这些可爱的小精灵。",
+   "en": "If you take a trip around our Safari{NEWLINE}Zone, I’m sure you’ll fall in love with{CLEAR}these cute little Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "如果您喜欢这些可爱的小精灵,{NEWLINE}就该去我们的狩猎场玩一玩,{CLEAR}那里的精灵种类多得数不清呢。",
+   "en": "If you like these cute little Pokémon,{NEWLINE}you should visit our Safari Zone. There{CLEAR}are more kinds of Pokémon there than{CLEAR}you can count!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "狩猎场的精灵种类好多啊,{NEWLINE}连出自芳缘地区的精灵都有。",
+   "en": "There are so many kinds of Pokémon in{NEWLINE}the Safari Zone. There are even{CLEAR}Pokémon from the Hoenn region.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "乘龙真是优雅美丽的精灵啊,{NEWLINE}据说四天王里的科拿就有一只乘龙呢。",
+   "en": "Lapras is such an elegant, beautiful{NEWLINE}Pokémon. They say Lorelei of the Elite{CLEAR}Four has one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "嘿嘿,我的嘟嘟利{NEWLINE}可是有陆地飞机之称的。{CLEAR}在赛跑方面,我对它有绝对的信心。",
+   "en": "Heh heh. My Dodrio is known as a{NEWLINE}land-bound airplane. When it comes to{CLEAR}racing, I have total confidence in it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "听说城都地区有只比速度{NEWLINE}不比对战的口袋妖怪竞技比赛,{CLEAR}或许那里更适合嘟嘟利奔跑？",
+   "en": "I heard there’s a Pokémon competition{NEWLINE}in Johto that’s about speed, not{CLEAR}battling. Maybe that’d be a better{CLEAR}place for Dodrio to run?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "嘟嘟利『Dodo——ri！",
+   "en": "Dodrio: Dodo-ri!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "我的顽皮弹的心理有些脆弱,{NEWLINE}一旦遇到刺激就会爆炸。{CLEAR}我想带它去参加一下对战马拉松比赛,{CLEAR}锻炼锻炼它的心理素质。",
+   "en": "My Electrode has fragile nerves. The{NEWLINE}slightest shock makes it explode. I{CLEAR}want to take it to the battle marathon{CLEAR}to toughen it up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "自从参加了对战马拉松比赛,{NEWLINE}顽皮弹就特别抗压了呢,{CLEAR}已经不会再轻易自爆了。",
+   "en": "Since entering the battle marathon,{NEWLINE}Electrode handles pressure really well.{SCROLL}It doesn’t self-destruct so easily{NEWLINE}anymore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "顽皮弹『Elec——tro！",
+   "en": "Electrode: Elec-tro!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "我这里有一些只有在狩猎场{NEWLINE}才能见到的狩猎球哦,{CLEAR}数量不多卖完为止,{CLEAR}你要买点吗？{SCROLL}",
+   "en": "I’ve got some Safari Balls, the kind you{NEWLINE}only find at the Safari Zone. Only a few{CLEAR}left, and when they’re gone, they’re{CLEAR}gone. Want to buy some?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "1个狩猎球,1500元",
+   "en": "1 Safari Ball, $1500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 70,
+   "zh": "5个狩猎球,7000元",
+   "en": "5 Safari Balls, $7000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 71,
+   "zh": "10个狩猎球,13500元",
+   "en": "10 Safari Balls, $13500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 72,
+   "zh": "不买了。",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 73,
+   "zh": "狩猎球可不是常见的货,{NEWLINE}过了这村就没这店了。",
+   "en": "Safari Balls aren’t something you see{NEWLINE}every day. Miss this chance, and it{CLEAR}won’t come again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "来,你的狩猎球,{NEWLINE}请拿好。",
+   "en": "Here are your Safari Balls. Take good{NEWLINE}care of them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "你这点钱想买狩猎球的话,{NEWLINE}我很难办啊。",
+   "en": "With that little money, I can’t really{NEWLINE}sell you any Safari Balls.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "浅红市背靠山林、面朝大海,{NEWLINE}如果我是精灵的话,{CLEAR}也愿意生活在这种地方。",
+   "en": "Fuchsia City has mountains and forests{NEWLINE}at its back and the sea in front. If I{CLEAR}were a Pokémon, I’d want to live{CLEAR}somewhere like this too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "白海狮好漂亮啊,{NEWLINE}我去华蓝道馆看表演的时候{CLEAR}都没见过这么大的白海狮。{CLEAR}果然要看精灵还是得来浅红市。",
+   "en": "The Dewgong is so beautiful! Even when{NEWLINE}I went to see the show at the Cerulean{CLEAR}Gym, I never saw a Dewgong this big. If{CLEAR}you want to see Pokémon, Fuchsia City is{CLEAR}the place.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "我也想成为浅红市的精灵护林员,{NEWLINE}在郊外与精灵一起愉快的生活。",
+   "en": "I want to become a Fuchsia City Pokémon{NEWLINE}ranger too, and live happily with{CLEAR}Pokémon out in the wild.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "多刺菊石兽『Oma——sta！",
+   "en": "Omastar: Oma-sta!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "浅红市森林保护区,{NEWLINE}未经阿桔馆主允许禁止入内。",
+   "en": "Fuchsia City Forest Preserve. No entry{NEWLINE}without Gym Leader Koga’s permission.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "你在赛跑马拉松大会上的表现{NEWLINE}真是让人印象深刻。{CLEAR}这是我平时训练嘟嘟利用的哨子,{CLEAR}送给你吧,{CLEAR}就当做是让我开眼界的谢礼了。",
+   "en": "Your performance at the marathon race{NEWLINE}was really impressive. This is the{CLEAR}whistle I use to train my Dodrio. Take{CLEAR}it, as thanks for opening my eyes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "赛跑马拉松大会 (the marathon race, cf. 0343 #71 Route 14 口袋妖怪马拉松赛跑), not the battle marathon."
+  },
+  {
+   "id": 82,
+   "zh": "烈咬陆鲨『Gar——chom！！",
+   "en": "Garchomp: Gar-chom!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "希罗娜『{VAR:0103:0},{NEWLINE}你已经拿到粉红徽章了吗？{CLEAR}真是有够迅速的。{SCROLL}希罗娜『我的尖牙陆鲨{NEWLINE}已经进化成烈咬陆鲨了,{CLEAR}要不要跟我对战一场试试？",
+   "en": "Cynthia: {VAR:0103:0}, you already have the{NEWLINE}Soul Badge? That was fast!{SCROLL}Cynthia: My Gabite has evolved into{NEWLINE}Garchomp.{SCROLL}Want to have a battle with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "希罗娜『其实,我来这里的路上{NEWLINE}遭到了火箭队的袭击,{CLEAR}好在尖牙陆鲨关键时刻{CLEAR}进化成了烈咬陆鲨,{CLEAR}我才能击败敌人全身而退。",
+   "en": "Cynthia: Actually, Team Rocket{NEWLINE}attacked me on my way here. Luckily,{CLEAR}Gabite evolved into Garchomp at the{CLEAR}crucial moment, and I beat them and got{CLEAR}away unharmed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "希罗娜『你不想打啊,{NEWLINE}是最近太疲惫了吗？",
+   "en": "Cynthia: You don’t want to battle? Have{NEWLINE}you been worn out lately?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "希罗娜『你可要做好准备,{NEWLINE}我的烈咬陆鲨很强的。",
+   "en": "Cynthia: Better be ready. My Garchomp{NEWLINE}is very strong.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "希罗娜『看样子我也得不断变强,{NEWLINE}让自己配得上烈咬陆鲨才行。",
+   "en": "Cynthia: I need to get stronger too, if{NEWLINE}I want to be worthy of Garchomp.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

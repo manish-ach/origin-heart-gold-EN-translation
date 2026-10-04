@@ -1,0 +1,700 @@
+{
+ "narc": "a027",
+ "bank": 538,
+ "source": "work/extract/v4/a027/0538.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "启动了{VAR:0103:0}的电脑！{SCROLL}查看了邮件箱！{SCROLL}",
+   "en": "{VAR:0103:0} booted up the PC and{NEWLINE}checked the Mailbox!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0546/0"
+  },
+  {
+   "id": 1,
+   "zh": "１封邮件也没有……",
+   "en": "There is no Mail...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0546/1"
+  },
+  {
+   "id": 2,
+   "zh": "有台Switch游戏机！{SCROLL}现在最受欢迎的游戏是……,{NEWLINE}塞尔达传说、马里奥系列……！{SCROLL}口袋妖怪剑盾和珍钻复刻{NEWLINE}人气似乎不大行啊！",
+   "en": "There’s a Switch!{SCROLL}The most popular games right now are...{SCROLL}The Legend of Zelda, the Mario{NEWLINE}series...!{SCROLL}Pokémon Sword and Shield and the{NEWLINE}Diamond and Pearl remakes don’t seem to{CLEAR}be doing so hot!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack's jab at Sword/Shield and the BDSP remakes (珍钻复刻) kept."
+  },
+  {
+   "id": 3,
+   "zh": "还是自己的床最舒服了！好好休息一下吧。{SCROLL}",
+   "en": "Nothing beats your own bed! Time for a{NEWLINE}good rest.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "啊,整个人都精神了！",
+   "en": "Ahh, I feel completely refreshed!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "家里的网不太好,{NEWLINE}暂时没法登录邮箱！",
+   "en": "The Internet at home is spotty. Can’t{NEWLINE}log in to check mail right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "第一首！",
+   "en": "Track 1!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "第二首！",
+   "en": "Track 2!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "第三首！",
+   "en": "Track 3!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "第四首！",
+   "en": "Track 4!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "第五首！",
+   "en": "Track 5!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "第六首！",
+   "en": "Track 6!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "第七首！",
+   "en": "Track 7!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "第八首！",
+   "en": "Track 8!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "第九首！",
+   "en": "Track 9!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "第十首！",
+   "en": "Track 10!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "要用Switch听点{NEWLINE}放松身心的音乐吗？",
+   "en": "Listen to some relaxing music on the{NEWLINE}Switch?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "平和安静的音乐",
+   "en": "Calm, peaceful{NEWLINE}music",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Calm, peaceful music'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 18,
+   "zh": "斗志昂扬的音乐",
+   "en": "Rousing battle{NEWLINE}music",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Rousing battle music'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 19,
+   "zh": "光怪陆离的音乐",
+   "en": "Weird, trippy{NEWLINE}music",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Weird, trippy music'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 20,
+   "zh": "庄严肃穆的音乐",
+   "en": "Solemn, stately{NEWLINE}music",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Solemn, stately music'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 21,
+   "zh": "算了,关机吧。",
+   "en": "Never mind.{NEWLINE}Turn it off.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'Never mind. Turn it off.'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 22,
+   "zh": "身上正好带着信纸,{NEWLINE}要用身上的信纸{CLEAR}写一些对另一半说的情话吗？",
+   "en": "You happen to have some Mail with you.{SCROLL}Use it to write sweet nothings to your{NEWLINE}other half?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Love-letter scenes (post-game, player's bedroom in Pallet Town) by partner: Yellow (male player) #25–#39; Green (male player) #40/#43/#45/#47/#49/#51/#53/#55/#57; Red (female player) #41/#44/#46/#48/#50/#52/#54/#56/#58; Misty #63–#73; Cynthia #74–#85. Intimate lines kept at the zh's strength."
+  },
+  {
+   "id": 23,
+   "zh": "{VAR:0103:0}『嗯……该怎么写好呢,{NEWLINE}这样吧！",
+   "en": "{VAR:0103:0}: Hmm... How should I put this...{NEWLINE}Oh, I know!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0103:0}『嘿嘿,还不错。",
+   "en": "{VAR:0103:0}: Heh heh, not bad.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "小黄『{VAR:0103:0}哥哥在房间里吗？{NEWLINE}我能进来吗？",
+   "en": "Yellow: {VAR:0103:0}, are you in your room?{NEWLINE}Can I come in?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0103:0}『啊……好！进来吧！",
+   "en": "{VAR:0103:0}: Ah... Sure! Come on in!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "小黄『咦？{VAR:0103:0}哥哥在写东西？{NEWLINE}能给我看看吗？",
+   "en": "Yellow: Huh? Are you writing something,{NEWLINE}{VAR:0103:0}? Can I see?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0103:0}『纸上写的都是{NEWLINE}我想对你说的话,{CLEAR}你读读看！",
+   "en": "{VAR:0103:0}: Everything on this paper is{NEWLINE}what I want to say to you.{SCROLL}Go ahead, read it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "小黄『亲爱的小黄,{NEWLINE}你就像是春天里常磐市的丁香花……",
+   "en": "Yellow: ‘Dearest Yellow, you’re like the{NEWLINE}lilacs of Viridian City in spring...’",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "小黄『{VAR:0103:0}哥哥写的好诗意,{NEWLINE}我都有点不好意思了。",
+   "en": "Yellow: That’s so poetic, {VAR:0103:0}...{NEWLINE}Now I’m kind of embarrassed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0103:0}『这些都是我的心声,{NEWLINE}不知不觉就写下来了。",
+   "en": "{VAR:0103:0}: It’s all straight from my{NEWLINE}heart. It just came out as I wrote.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "小黄『{VAR:0103:0}哥哥……我们……{NEWLINE}靠的好近……",
+   "en": "Yellow: {VAR:0103:0}... we’re... so close...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0103:0}『没关系的,再近一点也可以……",
+   "en": "{VAR:0103:0}: It’s OK. We can get even{NEWLINE}closer...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "{VAR:0103:0}『小黄……{NEWLINE}我会永远永们远在一起的……",
+   "en": "{VAR:0103:0}: Yellow... we’ll be together{NEWLINE}forever and ever...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh typo 永远永们远 (‘forever and ever’); same in #51/#52/#69/#77."
+  },
+  {
+   "id": 35,
+   "zh": "小黄『{VAR:0103:0}哥哥,我们居然……{NEWLINE}我还是好害羞啊……",
+   "en": "Yellow: {VAR:0103:0}, we actually... I’m still{NEWLINE}so embarrassed...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "{VAR:0103:0}『哈哈,也还好吧。",
+   "en": "{VAR:0103:0}: Ha ha, it wasn’t that bad, was{NEWLINE}it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "小黄『呜……你欺负人家,{NEWLINE}我要下去休息一下了！",
+   "en": "Yellow: Waah... You’re so mean to me!{NEWLINE}I’m going downstairs to rest!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "小黄『空",
+   "en": "Yellow: ---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh label + 空 placeholder → ‘Name: ---’ (#38/#39, #59–#62, #68, #72/#73, #76, #80/#81)."
+  },
+  {
+   "id": 39,
+   "zh": "小黄『空",
+   "en": "Yellow: ---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "小蓝『{VAR:0103:0}你在楼上吗？我上来了哦！",
+   "en": "Green: {VAR:0103:0}, are you upstairs? I’m{NEWLINE}coming up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "小赤『{VAR:0103:0}你在楼上吗？我上来了哦！",
+   "en": "Red: {VAR:0103:0}, are you upstairs? I’m{NEWLINE}coming up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "{VAR:0103:0}『啊……我在！你上来吧！",
+   "en": "{VAR:0103:0}: Ah... Yeah, I’m here! Come on{NEWLINE}up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "小蓝『咦？{VAR:0103:0}你在写东西啊？{NEWLINE}没想到热衷于对战的你{CLEAR}居然会静下心来写点东西,{CLEAR}很难得一见哦。",
+   "en": "Green: Huh? You’re writing something,{NEWLINE}{VAR:0103:0}?{SCROLL}I never thought a battle nut like you{NEWLINE}would sit still long enough to write.{SCROLL}What a rare sight.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "小赤『咦？{VAR:0103:0}你在写东西啊？{NEWLINE}没想到热衷于对战的你{CLEAR}居然会静下心来写点东西,{CLEAR}真是难得一见。",
+   "en": "Red: Huh? You’re writing something,{NEWLINE}{VAR:0103:0}?{SCROLL}I never thought someone so into{NEWLINE}battling would sit down and write.{SCROLL}That’s really rare.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "小蓝『亲爱的小蓝,{NEWLINE}你就像是吟唱着优美歌声的青绵鸟……",
+   "en": "Green: ‘Dearest Green, you’re like a{NEWLINE}Swablu singing a lovely song...’",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "小赤『亲爱的小赤,{NEWLINE}你就像是拥有着坚实臂膀的隆隆岩……",
+   "en": "Red: ‘Dearest Red, you’re like a Golem{NEWLINE}with rock-solid arms...’",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "小蓝『嗯……这些情话有够土的,{NEWLINE}不过我能从中感受到你的真情,{CLEAR}我很喜欢哦{VAR:0103:0}。",
+   "en": "Green: Hmm... These lines are pretty{NEWLINE}corny.{SCROLL}But I can tell you really mean them. I{NEWLINE}love it, {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "小赤『{VAR:0103:0}写的好诗意,{NEWLINE}我都有点不好意思了。",
+   "en": "Red: That’s so poetic, {VAR:0103:0}... Now{NEWLINE}I’m kind of embarrassed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "小蓝『{VAR:0103:0}……我们……{NEWLINE}靠的好近……",
+   "en": "Green: {VAR:0103:0}... we’re... so close...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "小赤『{VAR:0103:0}……我们……{NEWLINE}靠的好近……",
+   "en": "Red: {VAR:0103:0}... we’re... so close...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0103:0}『小蓝……{NEWLINE}我会永远永们远在一起的……",
+   "en": "{VAR:0103:0}: Green... we’ll be together{NEWLINE}forever and ever...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "{VAR:0103:0}『小赤……{NEWLINE}我会永远永们远在一起的……",
+   "en": "{VAR:0103:0}: Red... we’ll be together{NEWLINE}forever and ever...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "小蓝『那是当然的,{NEWLINE}我再也不要跟你分开了！",
+   "en": "Green: Of course we will. I’m never{NEWLINE}leaving your side again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "小赤『那是当然的,{NEWLINE}我绝不会跟你分开！",
+   "en": "Red: Of course. I’ll never leave your{NEWLINE}side!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "{VAR:0103:0}『你身上的味道好香啊……{NEWLINE}真是让人闻不够。",
+   "en": "{VAR:0103:0}: You smell so good... I can’t{NEWLINE}get enough of it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "{VAR:0103:0}『小赤的胳膊好有型啊,{NEWLINE}真想一直这样搂着你。",
+   "en": "{VAR:0103:0}: Your arms are so toned, Red.{SCROLL}I wish I could hold on to you like this{NEWLINE}forever.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "小蓝『哎呀,你还真是不害羞。{NEWLINE}以后的日子还长着呢,{CLEAR}咱们还是赶紧下去吧。{CLEAR}不然让阿姨看到多不好意思啊。",
+   "en": "Green: My, you’re not shy at all. We{NEWLINE}have plenty of time ahead of us.{SCROLL}Let’s hurry back downstairs. It’d be so{NEWLINE}embarrassing if your mom saw us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "小赤『以后的日子还长着呢,{NEWLINE}咱们还是赶紧下去吧。{CLEAR}不然让阿姨看到就不好了。",
+   "en": "Red: We have plenty of time ahead of us.{NEWLINE}Let’s hurry back downstairs.{SCROLL}It wouldn’t be good if your mom saw us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "小蓝『空",
+   "en": "Green: ---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "{VAR:0103:0}『空",
+   "en": "{VAR:0103:0}: ---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "小蓝『空",
+   "en": "Green: ---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "{VAR:0103:0}『空",
+   "en": "{VAR:0103:0}: ---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "小霞『{VAR:0103:0}你在楼上吗？我上来了哦！",
+   "en": "Misty: {VAR:0103:0}, are you upstairs? I’m{NEWLINE}coming up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "小霞『咦？{VAR:0103:0}你在写东西啊？{NEWLINE}没想到身为战斗狂的你{CLEAR}居然会静下心来写东西,{CLEAR}写的什么快给我看看。",
+   "en": "Misty: Huh? You’re writing something,{NEWLINE}{VAR:0103:0}?{SCROLL}I never thought a battle maniac like you{NEWLINE}would sit still and write. What is it?{SCROLL}Let me see!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "小霞『亲爱的小霞,{NEWLINE}你就像是在水中翩翩起舞的美纳斯……",
+   "en": "Misty: ‘Dearest Misty, you’re like a{NEWLINE}Milotic dancing in the water...’",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "小霞『哈哈,你的这些土味情话,{NEWLINE}是跟小刚学的吗？{CLEAR}虽然表达的水平一般,{CLEAR}不过我能从中感受到你的心意,{CLEAR}就像我对你的心意一样……",
+   "en": "Misty: Ha ha, did you learn these cheesy{NEWLINE}lines from Brock?{SCROLL}Your way with words is so-so.{SCROLL}But I can feel what you mean... just{NEWLINE}like I feel about you...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "小霞『{VAR:0103:0}……我们……{NEWLINE}靠的好近……",
+   "en": "Misty: {VAR:0103:0}... we’re... so close...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "小霞『空",
+   "en": "Misty: ---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "{VAR:0103:0}『小霞……{NEWLINE}我会永远永们远在一起的……",
+   "en": "{VAR:0103:0}: Misty... we’ll be together{NEWLINE}forever and ever...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "小霞『那是当然的,{NEWLINE}我再也不要跟你分开了！",
+   "en": "Misty: Of course we will. I’m never{NEWLINE}leaving your side again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "{VAR:0103:0}『你的皮肤真滑啊,{NEWLINE}是因为长年接触水系精灵的缘故吗？",
+   "en": "{VAR:0103:0}: Your skin is so smooth.{SCROLL}Is that from all those years around{NEWLINE}Water-type Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "小霞『空",
+   "en": "Misty: ---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "小霞『空",
+   "en": "Misty: ---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "希罗娜『{VAR:0103:0}……我们……{NEWLINE}靠的好近……",
+   "en": "Cynthia: {VAR:0103:0}... we’re... so close...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "{VAR:0103:0}『没关系的,再近一点也可以……",
+   "en": "{VAR:0103:0}: It’s OK. We can get even{NEWLINE}closer...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "希罗娜『空",
+   "en": "Cynthia: ---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "{VAR:0103:0}『希罗娜……{NEWLINE}我会永远永们远在一起的……",
+   "en": "{VAR:0103:0}: Cynthia... we’ll be together{NEWLINE}forever and ever...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "希罗娜『嗯,真想这样永远躺在你怀里……",
+   "en": "Cynthia: Mm... I wish I could lie in your{NEWLINE}arms like this forever...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "{VAR:0103:0}『你金黄色的头发真美啊,{NEWLINE}像波浪一样飘荡额柔软。",
+   "en": "{VAR:0103:0}: Your golden hair is so{NEWLINE}beautiful. So soft, flowing like waves.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "希罗娜『空",
+   "en": "Cynthia: ---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "希罗娜『空",
+   "en": "Cynthia: ---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "希罗娜『{VAR:0103:0}你在楼上吗？我上来了哦！",
+   "en": "Cynthia: {VAR:0103:0}, are you upstairs? I’m{NEWLINE}coming up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "希罗娜『咦？{VAR:0103:0}你在写东西啊？{NEWLINE}没想到身为战斗专家的你{CLEAR}居然还有这么细腻的一面,{CLEAR}能给我看看写的什么吗？",
+   "en": "Cynthia: Oh? You’re writing something,{NEWLINE}{VAR:0103:0}?{SCROLL}I never expected a battle expert like{NEWLINE}you to have such a tender side.{SCROLL}May I see what you wrote?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "希罗娜『亲爱的希罗娜,{NEWLINE}你就像是在沙漠中穿行的烈咬陆鲨……",
+   "en": "Cynthia: ‘Dearest Cynthia, you’re like a{NEWLINE}Garchomp racing across the desert...’",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "希罗娜『嗯哼,真没想到你这位冠军{NEWLINE}居然会说出这样的话。{CLEAR}虽然看起来有点难为情,{CLEAR}不过我能从中感受到你的心意,{CLEAR}就像我对你的心意一样……",
+   "en": "Cynthia: Mm-hmm. I never thought I’d{NEWLINE}hear words like these from a Champion.{SCROLL}It’s a little embarrassing.{SCROLL}But I can feel what you mean... just{NEWLINE}like I feel about you...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

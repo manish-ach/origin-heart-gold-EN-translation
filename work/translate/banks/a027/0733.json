@@ -1,0 +1,350 @@
+{
+ "narc": "a027",
+ "bank": 733,
+ "source": "work/extract/v4/a027/0733.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "我听说40号路附近{NEWLINE}有一只会冲浪的铁甲暴龙,{CLEAR}我非常想要得到它。{CLEAR}可是我不会冲浪术{CLEAR}没法到水路去寻找,{CLEAR}如果你在水路中看到了这只铁甲暴龙,{CLEAR}拜托帮我把它抓来好吗？",
+   "en": "I heard there’s a Rhydon{NEWLINE}that can Surf somewhere near{CLEAR}Route 40. I really want it.{SCROLL}But I can’t use Surf, so I{NEWLINE}can’t go search the water.{SCROLL}If you see that Rhydon out{NEWLINE}on the water, could you{CLEAR}please catch it for me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "好,我帮你去抓",
+   "en": "OK, I’ll catch it for you",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Choice: #1 help → #3 … #6/#7; #2 refuse → #4.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 2,
+   "zh": "你自己想办法吧",
+   "en": "Figure it out yourself",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 3,
+   "zh": "谢谢你愿意帮忙,{NEWLINE}只要你能把铁甲暴龙带来,{CLEAR}我一定给你与其价值对等的报酬。",
+   "en": "Thanks for helping! If you bring{NEWLINE}me that Rhydon, I’ll pay you back{CLEAR}with something just as valuable.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "好吧……",
+   "en": "All right...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "你还是别打铁甲暴龙的主意了",
+   "en": "Forget about that Rhydon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Player menu: tell her to give up (#5 → #6) / wait (#8).",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0103:0}『我遇到你说的铁甲暴龙了,{NEWLINE}其实这只铁甲暴龙曾经因为怕水{CLEAR}而没敢下水去救落水的主人,{CLEAR}导致自己的主人被淹死。{CLEAR}它为此感到非常自责{CLEAR}所以才会强迫自己去学冲浪。{CLEAR}现在它跟海上救生员组成了搭档,{CLEAR}专门搭救在这附近落水的游客,{CLEAR}所以请你放弃捕捉它的想法吧。",
+   "en": "{VAR:0103:0}: I found the{NEWLINE}Rhydon you told me about.{SCROLL}A long time ago, this Rhydon was{NEWLINE}so scared of water that it didn’t{CLEAR}dare go in to save its drowning{CLEAR}Trainer, and its Trainer drowned.{SCROLL}It blamed itself so much that it{NEWLINE}forced itself to learn to Surf.{SCROLL}Now it’s partnered with a lifeguard,{NEWLINE}and the two of them rescue tourists{CLEAR}who fall into the water around here.{SCROLL}So please give up on catching it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "原来铁甲暴龙背负着这么沉重的过去……{SCROLL}我要是再执意去捕捉它,{NEWLINE}确实是有点不合适了。{CLEAR}不过仍然谢谢你{CLEAR}帮我打听了铁甲暴龙的消息,{CLEAR}这个是我的一点心意,请你收下吧。",
+   "en": "So that Rhydon carries{NEWLINE}such a heavy past...{SCROLL}If I kept insisting on catching{NEWLINE}it, that really wouldn’t be right.{SCROLL}Still, thank you for finding out{NEWLINE}about the Rhydon for me. Here’s{CLEAR}a little something. Please take it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "你再等等吧",
+   "en": "Just wait a bit longer",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 9,
+   "zh": "从铁甲暴龙身上,{NEWLINE}我能感受到人与精灵之间{CLEAR}那深厚的羁绊。{CLEAR}这样的精灵真是让我肃然起敬！",
+   "en": "From that Rhydon, I can feel the deep{NEWLINE}bond between people and Pokémon. A{CLEAR}Pokémon like that fills me with respect!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "我是40号水路的救生员,{NEWLINE}专门负责营救附近的落水游客。",
+   "en": "I’m the lifeguard on Route{NEWLINE}40. I rescue tourists who fall{CLEAR}into the water around here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "铁甲暴龙『Rhyyy——do！",
+   "en": "Rhydon: Rhyyy-do!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "这只铁甲暴龙出现在这里,{NEWLINE}很可能就是会冲浪的铁甲暴龙,{CLEAR}要尝试捕捉吗？",
+   "en": "This Rhydon showing up here...{NEWLINE}It might be the Rhydon that{CLEAR}can Surf. Try to catch it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:FF01:200}喂！你干什么呢！快住手！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Hey! What are you doing?! Stop it!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Double-size shout: one line per page (a line break inside {VAR:FF01:200} overflows the box and corrupts memory; heap_audit.md)."
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}『好,到这个程度的话{NEWLINE}就能轻松捕捉了。",
+   "en": "{VAR:0103:0}: OK, it’s weak{NEWLINE}enough to catch easily now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0103:0}『我答应了别人,{NEWLINE}帮她捕捉这只会冲浪的铁甲暴龙,{CLEAR}请问有什么问题吗？",
+   "en": "{VAR:0103:0}: I promised someone{NEWLINE}I’d catch this Surfing Rhydon{CLEAR}for her. Is there a problem?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "当然有问题了！{SCROLL}我是这里的救生员,{NEWLINE}这只铁甲暴龙是我的搭档。{CLEAR}遇到附近有落水的游客,{CLEAR}我们两个就会合作救人。{CLEAR}所以你不能把它抓走！",
+   "en": "Of course there’s a problem!{SCROLL}I’m the lifeguard here, and this{NEWLINE}Rhydon is my partner. When tourists{CLEAR}fall into the water nearby, the two{CLEAR}of us work together to save them.{SCROLL}So you can’t catch it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}『真是抱歉,{NEWLINE}我要是知道它有主人,{CLEAR}肯定不会出手抓它。",
+   "en": "{VAR:0103:0}: I’m really sorry. If I’d{NEWLINE}known it had a Trainer, I never{CLEAR}would have tried to catch it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "其实我也算不上铁甲暴龙的主人。{NEWLINE}它的主人在很久之前{CLEAR}就不幸溺水身亡了,{CLEAR}铁甲暴龙当时就在岸边,{CLEAR}但因为自身非常怕水,{CLEAR}所以没能下水去救它的主人,{CLEAR}只能眼睁睁地看着主人淹死。{SCROLL}铁甲暴龙为此非常自责,{NEWLINE}于是强迫自己苦练游唦,{CLEAR}终于掌握了在水上冲浪的技术。{CLEAR}我看中了它这份能力和决心,{CLEAR}所以就邀请它跟我一起来当救生员。",
+   "en": "Actually, I’m not really its{NEWLINE}Trainer. Its Trainer tragically{CLEAR}drowned a long time ago.{SCROLL}Rhydon was right there on the shore,{NEWLINE}but it was terrified of water, so it{CLEAR}couldn’t go in to save its Trainer. It{CLEAR}could only watch its Trainer drown.{SCROLL}Rhydon blamed itself terribly, so it{NEWLINE}forced itself to practice swimming, and{CLEAR}finally mastered surfing on the water.{SCROLL}I saw its ability and its resolve, so I{NEWLINE}asked it to become a lifeguard with me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 游唦 read as 游泳 (swimming)."
+  },
+  {
+   "id": 19,
+   "zh": "这里是４０号水路{NEWLINE}南面　湛蓝市",
+   "en": "Rt. 40{NEWLINE}South to Cianwood City",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0744/19",
+   "category": "sign"
+  },
+  {
+   "id": 20,
+   "zh": "前方　战斗前线",
+   "en": "Ahead: Battle Frontier",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0103:0}『没想到铁甲暴龙{NEWLINE}还有这样的过去……{CLEAR}我会去跟那个拜托我的人解释,{CLEAR}劝她放弃捕捉铁甲暴龙的念头。",
+   "en": "{VAR:0103:0}: I never imagined Rhydon had{NEWLINE}a past like that... I’ll go explain to{CLEAR}the person who asked me, and convince{CLEAR}her to give up on catching it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "谢谢你能体谅铁甲暴龙的心情。",
+   "en": "Thank you for understanding{NEWLINE}how Rhydon feels.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "这只铁甲暴龙为了练成冲浪术,{NEWLINE}不知道吃了多少苦。{CLEAR}或许在它看来,只要能弥补遗憾,{CLEAR}做什么都是值得的吧。",
+   "en": "Who knows how much this Rhydon{NEWLINE}suffered to learn to Surf. Maybe{CLEAR}to it, anything is worth it if it{CLEAR}can make up for that regret.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "铁甲暴龙『Rhyyy——do！{SCROLL}铁甲暴龙非常抵触你。",
+   "en": "Rhydon: Rhyyy-do!{SCROLL}Rhydon is very hostile toward you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "就算是野生的精灵{NEWLINE}也有可能携带着道具,{CLEAR}比如野生的珍珠贝{CLEAR}身上就可能带着珍珠哦。",
+   "en": "Even wild Pokémon can be{NEWLINE}holding items. For example, a wild{CLEAR}Clamperl might be holding a Pearl.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "珍珠贝『Claaa——pe！",
+   "en": "Clamperl: Claaa-pe!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "乘龙『Laaaa——ra！",
+   "en": "Lapras: Laaaa-ra!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "这只乘龙是我从蛋里孵出来养大的,{NEWLINE}但是我看到图鉴上说{CLEAR}野外的乘龙因为人类的过度捕捉{CLEAR}已经濒临灭绝了。{CLEAR}所以我思考再三之后,{CLEAR}决定把我养的乘龙放生,{CLEAR}好让野外的乘龙不至于灭绝。{SCROLL}话虽然这样说,{NEWLINE}但是真到与乘龙分别的时刻,{CLEAR}我又突然好舍不得……",
+   "en": "I hatched this Lapras from an Egg and{NEWLINE}raised it. But I read in the Pokédex{CLEAR}that wild Lapras are nearly extinct{CLEAR}because people caught too many.{SCROLL}So after thinking it over and over,{NEWLINE}I decided to release my Lapras,{CLEAR}so the wild Lapras won’t die out.{SCROLL}That’s what I decided, but now{NEWLINE}that it’s time to say goodbye, I{CLEAR}suddenly can’t bear to let it go...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "不要放生",
+   "en": "Don’t release it",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Choice: #29 keep → #31/#32/#40; #30 release → #33–#39/#41.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 30,
+   "zh": "放生吧",
+   "en": "Release it",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0103:0}『你把乘龙放生之后,{NEWLINE}它可能也要面临被其他人捉去的命运。{CLEAR}与其做这样毫无意义的放生,{CLEAR}还不如你自己把乘龙收好。",
+   "en": "{VAR:0103:0}: After you release it, it might{NEWLINE}just end up caught by someone else.{SCROLL}Rather than a pointless release{NEWLINE}like that, you’d be better off{CLEAR}keeping your Lapras yourself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "好像真是这么回事啊,{NEWLINE}如果我放生的乘龙再被别人捉去,{CLEAR}那确实是毫无意义……{SCROLL}谢谢你及时提醒我,{NEWLINE}不然我可能就要做傻事了,{CLEAR}请你收下我的这份谢礼。",
+   "en": "I guess that’s true... If the Lapras{NEWLINE}I release gets caught by someone{CLEAR}else, it really would be pointless...{SCROLL}Thanks for warning me in time, or I{NEWLINE}might have done something stupid.{CLEAR}Please accept this as thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0103:0}『放生亲手养大的乘龙,{NEWLINE}以此拯救濒危的野生乘龙种群,{CLEAR}这个想法既浪漫,又能保护生态。{CLEAR}我觉得你的决定非常正确,{CLEAR}请大大方方地跟乘龙告别吧！",
+   "en": "{VAR:0103:0}: Releasing a Lapras you raised{NEWLINE}yourself to save the endangered{CLEAR}wild Lapras... That’s romantic, and{CLEAR}it protects the ecosystem too.{SCROLL}I think you’ve made the right call.{NEWLINE}Say goodbye to your Lapras proudly!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "听你这么一说,{NEWLINE}我更加确信在这里跟乘龙告别{CLEAR}是一件意义重大的事,{CLEAR}不应该这么犹豫不决。",
+   "en": "Hearing you say that makes{NEWLINE}me even more sure that saying{CLEAR}goodbye to Lapras here means a{CLEAR}lot. I shouldn’t hesitate like this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "乘龙,咱们在这里分别吧！{NEWLINE}你要游到远一点的地方,{CLEAR}找一个漂亮的新娘,{CLEAR}多生几个宝宝哦！",
+   "en": "Lapras, this is where we part!{NEWLINE}Swim far away, find a beautiful{CLEAR}bride and have lots of babies!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "乘龙『Laaaa——ra！{SCROLL}乘龙摇了摇头。",
+   "en": "Lapras: Laaaa-ra!{SCROLL}Lapras shook its head.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "你已经不是个宝宝了,{NEWLINE}哪有孩子长大后不独立生活的。{CLEAR}广阔的大海、同族的伙伴在等着你呢！{CLEAR}去吧,去属于你的新天地吧！",
+   "en": "You’re not a baby anymore. All children{NEWLINE}grow up and live on their own. The wide{CLEAR}sea and others of your kind are waiting{CLEAR}for you! Go on, go to your new world!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "再见了,乘龙！{NEWLINE}呜……",
+   "en": "Goodbye, Lapras! *sniff*...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "乘龙『Laaaa——ra！{SCROLL}乘龙点了点头。",
+   "en": "Lapras: Laaaa-ra!{SCROLL}Lapras nodded.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "谢谢你提醒我,{NEWLINE}我以后会好好照顾乘龙,{CLEAR}不会再突发奇想说什么放生了。",
+   "en": "Thanks for warning me. From now{NEWLINE}on I’ll take good care of Lapras,{CLEAR}and I won’t come up with any more{CLEAR}crazy ideas about releasing it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "希望乘龙可以在大海上{NEWLINE}找到属于自己的幸福吧。",
+   "en": "I hope Lapras finds its own{NEWLINE}happiness out on the sea.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

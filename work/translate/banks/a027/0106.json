@@ -1,0 +1,807 @@
+{
+ "narc": "a027",
+ "bank": 106,
+ "source": "work/extract/v4/a027/0106.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "欢迎来到战斗舞台！{SCROLL}在这里向您介绍单人玩的{NEWLINE}单人战和双打！{SCROLL}",
+   "en": "Welcome to the Battle Hall!{SCROLL}I am your guide to the Single and{NEWLINE}Double Battle challenges.{SCROLL}Please be aware that these challenges{NEWLINE}are designed for a single Trainer.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/0"
+  },
+  {
+   "id": 1,
+   "zh": "要挑战哪一项呢？{VAR:0200:0}",
+   "en": "Which challenge would you{NEWLINE}like to take?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/1"
+  },
+  {
+   "id": 2,
+   "zh": "这个战斗舞台里{NEWLINE}用３０级以上的精灵进行战斗{CLEAR}看能撑到什么程度。{CLEAR}我们有精灵种类{NEWLINE}以及连胜场次的记录。{CLEAR}不论哪一只精灵都可以{NEWLINE}向着最强的目标去挑战！{SCROLL}如果要开始进行战斗{NEWLINE}首先请选择精灵的{CLEAR}种类和级别。{SCROLL}和符合条件的精灵进行战斗。{SCROLL}成功实现１０连胜的话{NEWLINE}就能获赠ＢＰ点！{SCROLL}另外,如果想临时中止挑战。{SCROLL}请保存好进度,{NEWLINE}不然就不能接着{SCROLL}这个中断点继续玩了！{NEWLINE}请一定要注意！{SCROLL}",
+   "en": "At the Battle Hall, you battle{NEWLINE}with Pokémon of Lv. 30 or higher{CLEAR}to see how far you can go.{SCROLL}We keep records for each kind{NEWLINE}of Pokémon and its winning{CLEAR}streak, so any Pokémon at all{CLEAR}can aim to be the strongest!{SCROLL}To start, first choose the type and{NEWLINE}rank of the Pokémon you want to face.{SCROLL}Then you battle Pokémon{NEWLINE}that match your choice.{SCROLL}Win 10 matches in a row,{NEWLINE}and you’ll receive BP!{SCROLL}Also, if you want to{NEWLINE}pause your challenge,{SCROLL}please save your progress.{NEWLINE}Otherwise, you won’t be able to{CLEAR}continue from where you stopped.{CLEAR}Please keep that in mind!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "欢迎来到战斗舞台！{SCROLL}这里向您介绍可以和{NEWLINE}伙伴一起玩的多人战！{SCROLL}",
+   "en": "Welcome to the Battle Hall!{SCROLL}I am your guide to the Multi Battle{NEWLINE}challenge.{SCROLL}Please be aware that this challenge{NEWLINE}requires two Trainers.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/3"
+  },
+  {
+   "id": 4,
+   "zh": "要挑战战斗舞台的多人战？{VAR:0200:0}",
+   "en": "Would you like to take the Battle{NEWLINE}Hall Multi Battle challenge? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/4"
+  },
+  {
+   "id": 5,
+   "zh": "在这里两人可以选择{NEWLINE}３０级以上的同类精灵{CLEAR}进行多人战！{SCROLL}开始进行战斗的时候,{NEWLINE}要先选择精灵的{CLEAR}种类和级别,{CLEAR}然后和符合条件的精灵{CLEAR}进行战斗。{SCROLL}重复战斗的过程成功取得{NEWLINE}１０连胜的话{CLEAR}就将获赠ＢＰ点！{SCROLL}另外,在战斗舞台,{NEWLINE}多人战里不能临时中断！{SCROLL}",
+   "en": "You may team up with a friend for a{NEWLINE}Multi Battle challenge using the{CLEAR}same kind of Pokémon that are at{CLEAR}least Lv. 30 each.{SCROLL}When you enter the Hall, you will be{NEWLINE}asked to choose the type and rank of{CLEAR}the Pokémon you want to battle.{SCROLL}If you manage to win ten matches in{NEWLINE}a row, you will earn Battle Points (BP).{SCROLL}Please note: a Battle Hall Multi Battle{NEWLINE}challenge can’t be interrupted.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/5"
+  },
+  {
+   "id": 6,
+   "zh": "那么,恭候您的再次光临！",
+   "en": "We look forward to your next visit!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "要挑战５０级和{NEWLINE}无限制中的哪一项？",
+   "en": "Which challenge would you like:{NEWLINE}Level 50 or Open Level?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "开始介绍之前要进行进度保存{NEWLINE}可以吗？{VAR:0200:0}",
+   "en": "Your progress must be saved{NEWLINE}before I explain. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "好啦,请到这边来！",
+   "en": "Right this way, please!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/9"
+  },
+  {
+   "id": 10,
+   "zh": "那么,恭候您的再次光临！{SCROLL}",
+   "en": "We look forward to your next visit!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "已经等您很久了！{SCROLL}接着开始刚才的挑战{NEWLINE}之前保存进度！",
+   "en": "We’ve missed you!{SCROLL}You must save the game before you{NEWLINE}resume your challenge. Please wait.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/11"
+  },
+  {
+   "id": 12,
+   "zh": "这位客人！！{SCROLL}上次没有保存好进度{NEWLINE}就结束了挑战吧！{SCROLL}挑战变成无效的了！{SCROLL}",
+   "en": "Excuse me!{SCROLL}You didn’t save before you quit your{NEWLINE}challenge last time.{SCROLL}Because of that, you have been{NEWLINE}disqualified from your challenge!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/12"
+  },
+  {
+   "id": 13,
+   "zh": "恭喜您了！{SCROLL}送给您纪念印花作为奖励！{SCROLL}",
+   "en": "Congratulations!{SCROLL}Please accept this commemorative{NEWLINE}print as your reward!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}把金印花{NEWLINE}放进战斗记录器！{SCROLL}",
+   "en": "The Gold Print was added to{NEWLINE}{VAR:0103:0}’s Vs. Recorder!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/14"
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0103:0}把银印花{NEWLINE}放进战斗记录器！{SCROLL}",
+   "en": "The Silver Print was added to{NEWLINE}{VAR:0103:0}’s Vs. Recorder!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/15"
+  },
+  {
+   "id": 16,
+   "zh": "单人战",
+   "en": "SINGLE BATTLE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "双打",
+   "en": "DOUBLE BATTLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/17"
+  },
+  {
+   "id": 18,
+   "zh": "进行挑战",
+   "en": "TAKE CHALLENGE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/18"
+  },
+  {
+   "id": 19,
+   "zh": "听取说明",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/19"
+  },
+  {
+   "id": 20,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/20"
+  },
+  {
+   "id": 21,
+   "zh": "５０级",
+   "en": "LEVEL 50",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "无限制",
+   "en": "OPEN LEVEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/22"
+  },
+  {
+   "id": 23,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/23"
+  },
+  {
+   "id": 24,
+   "zh": "虽然很想培养出厉害的精灵,{NEWLINE}但怎样的精灵才是好的呢,{SCROLL}完全不知道！{NEWLINE}对于有这种困惑的训练师{CLEAR}战斗工厂正是您所需要的！",
+   "en": "Want to raise strong Pokémon{NEWLINE}but have no clue which one to pick...?{SCROLL}For those Trainers who feel this way,{NEWLINE}the Battle Factory is truly a place{CLEAR}worth visiting!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/24"
+  },
+  {
+   "id": 25,
+   "zh": "是这样的啊,对吧⋯⋯{SCROLL}人们说人生也是一种学习{NEWLINE}精灵战斗对于训练师的学习来说{CLEAR}这儿正合适⋯⋯",
+   "en": "You are quite right.{SCROLL}They say life is an endless series of{NEWLINE}learning opportunities.{SCROLL}This place is the best for learning{NEWLINE}about Pokémon battles and about{CLEAR}other Trainers...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/25"
+  },
+  {
+   "id": 26,
+   "zh": "嘿哟！嘿哟！{SCROLL}还没有精灵的我{NEWLINE}就从投球开始练习！",
+   "en": "Aaaaand--bam!{NEWLINE}Aaaaaaaaaand--bam!{SCROLL}I don’t have Pokémon yet, so I’m{NEWLINE}practicing throwing Poké Balls!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/26"
+  },
+  {
+   "id": 27,
+   "zh": "奶奶！奶奶！{NEWLINE}我换到了首饰！{CLEAR}送给奶奶！",
+   "en": "Grandma, yoo-hoo! Grandma!{NEWLINE}I’ve come to trade Accessories!{CLEAR}I’ve got somethin’ just for my grandma!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/27"
+  },
+  {
+   "id": 28,
+   "zh": "哎呀呀,谢谢啦⋯⋯{SCROLL}这么可爱,这么厉害,{NEWLINE}还这么善良,{SCROLL}真是我的宝贝小孙孙呢⋯⋯",
+   "en": "Oh, thank you, my dear...{SCROLL}You’re so cute and strong and nice...{NEWLINE}I’m lucky to have a grandchild like you.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/28"
+  },
+  {
+   "id": 29,
+   "zh": "和那边的老婆婆{NEWLINE}在一起的小女孩⋯⋯{CLEAR}那小孩非常厉害⋯⋯{CLEAR}人不可貌相啊⋯⋯",
+   "en": "That little girl over there with{NEWLINE}her grandma...{SCROLL}I happen to know that little girl is{NEWLINE}incredibly strong...{SCROLL}Looks can sometimes be deceiving.{NEWLINE}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/29"
+  },
+  {
+   "id": 30,
+   "zh": "两人中的１人选择“作为领队”{SCROLL}另一人请选择“加入小组”。{VAR:0200:0}",
+   "en": "One Trainer should select{NEWLINE}“BECOME LEADER.”{SCROLL}The other Trainer must select{NEWLINE}“JOIN GROUP.”{VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/30"
+  },
+  {
+   "id": 31,
+   "zh": "开始进行ＤＳ无线通信。{VAR:0200:0}",
+   "en": "We need to launch DS Wireless{NEWLINE}Communications.{VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/31"
+  },
+  {
+   "id": 32,
+   "zh": "开始介绍之前保存进度！",
+   "en": "You must save the game before I{NEWLINE}show you in. Please wait.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/32"
+  },
+  {
+   "id": 33,
+   "zh": "请选择参加的精灵。{SCROLL}",
+   "en": "Please choose the Pokémon you wish{NEWLINE}to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/33"
+  },
+  {
+   "id": 34,
+   "zh": "已经存在{VAR:0100:0}的连胜纪录。{SCROLL}要把它删除,{NEWLINE}重新开始在{VAR:0100:1}进行挑战吗？{VAR:0200:0}",
+   "en": "There is an ongoing winning streak{NEWLINE}saved for {VAR:0100:0}.{SCROLL}Delete this record and start a new{NEWLINE}challenge with {VAR:0100:1}?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/34"
+  },
+  {
+   "id": 35,
+   "zh": "这位客人！{NEWLINE}您这边够参加挑战的{CLEAR}３０级以上的{NEWLINE}精灵１只也没有！{SCROLL}",
+   "en": "Excuse me!{SCROLL}You don’t have a single eligible Pokémon{NEWLINE}of at least Lv. 30!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/35"
+  },
+  {
+   "id": 36,
+   "zh": "这位客人！在双打里{NEWLINE}如果没有２只同种类的{CLEAR}３０级以上的精灵{CLEAR}是不能参加挑战的。{CLEAR}{SCROLL}",
+   "en": "Excuse me!{SCROLL}For Double Battles, you must have two{NEWLINE}of the same kind of Pokémon that are{CLEAR}at least Lv. 30 each.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/36"
+  },
+  {
+   "id": 37,
+   "zh": "另外,蛋不能参加比赛！{SCROLL}",
+   "en": "Also, Eggs are ineligible to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/37"
+  },
+  {
+   "id": 38,
+   "zh": "另外,蛋,{VAR:0100:1},{NEWLINE}不能参加比赛！{SCROLL}",
+   "en": "Eggs and {VAR:0100:1} are not allowed{NEWLINE}to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/38"
+  },
+  {
+   "id": 39,
+   "zh": "另外,蛋,{VAR:0100:1},{NEWLINE}{VAR:0100:2},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, and {VAR:0100:2}{NEWLINE}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/39"
+  },
+  {
+   "id": 40,
+   "zh": "另外,蛋,{VAR:0100:1},{NEWLINE}{VAR:0100:2},{VAR:0100:3},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}and {VAR:0100:3} are not allowed{CLEAR}to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/40"
+  },
+  {
+   "id": 41,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, and {VAR:0100:4}{CLEAR}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/41"
+  },
+  {
+   "id": 42,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4}, and{CLEAR}{VAR:0100:5} are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/42"
+  },
+  {
+   "id": 43,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6}{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, and {VAR:0100:6}{CLEAR}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/43"
+  },
+  {
+   "id": 44,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6}, and{CLEAR}{VAR:0100:7} are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/44"
+  },
+  {
+   "id": 45,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, and {VAR:0100:8}{CLEAR}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/45"
+  },
+  {
+   "id": 46,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8}, and{CLEAR}{VAR:0100:9} are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/46"
+  },
+  {
+   "id": 47,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, and {VAR:0100:10}{CLEAR}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/47"
+  },
+  {
+   "id": 48,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{VAR:0100:11},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, {VAR:0100:10}, and{CLEAR}{VAR:0100:11} are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/48"
+  },
+  {
+   "id": 49,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{VAR:0100:11}{CLEAR}{VAR:0100:12}{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, {VAR:0100:10},{CLEAR}{VAR:0100:11}, and {VAR:0100:12}{CLEAR}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/49"
+  },
+  {
+   "id": 50,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{VAR:0100:11}{CLEAR}{VAR:0100:12},{VAR:0100:13},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, {VAR:0100:10},{CLEAR}{VAR:0100:11}, {VAR:0100:12}, and{CLEAR}{VAR:0100:13} are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/50"
+  },
+  {
+   "id": 51,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{VAR:0100:11}{CLEAR}{VAR:0100:12},{VAR:0100:13},{VAR:0100:14},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, {VAR:0100:10},{CLEAR}{VAR:0100:11}, {VAR:0100:12},{CLEAR}{VAR:0100:13}, and {VAR:0100:14}{CLEAR}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/51"
+  },
+  {
+   "id": 52,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{VAR:0100:11}{CLEAR}{VAR:0100:12},{VAR:0100:13},{VAR:0100:14}{CLEAR}{VAR:0100:15},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, {VAR:0100:10},{CLEAR}{VAR:0100:11}, {VAR:0100:12},{CLEAR}{VAR:0100:13}, {VAR:0100:14}, and{CLEAR}{VAR:0100:15} are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/52"
+  },
+  {
+   "id": 53,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{VAR:0100:11}{CLEAR}{VAR:0100:12},{VAR:0100:13},{VAR:0100:14}{CLEAR}{VAR:0100:15},{VAR:0100:16},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, {VAR:0100:10},{CLEAR}{VAR:0100:11}, {VAR:0100:12},{CLEAR}{VAR:0100:13}, {VAR:0100:14},{CLEAR}{VAR:0100:15}, and {VAR:0100:16}{CLEAR}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/53"
+  },
+  {
+   "id": 54,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{VAR:0100:11}{CLEAR}{VAR:0100:12},{VAR:0100:13},{VAR:0100:14}{CLEAR}{VAR:0100:15},{VAR:0100:16},{VAR:0100:17},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, {VAR:0100:10},{CLEAR}{VAR:0100:11}, {VAR:0100:12},{CLEAR}{VAR:0100:13}, {VAR:0100:14},{CLEAR}{VAR:0100:15}, {VAR:0100:16}, and{CLEAR}{VAR:0100:17} are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/54"
+  },
+  {
+   "id": 55,
+   "zh": "另外,蛋,{VAR:0100:1},{VAR:0100:2},{NEWLINE}{VAR:0100:3},{VAR:0100:4},{VAR:0100:5}{CLEAR}{VAR:0100:6},{VAR:0100:7},{VAR:0100:8}{CLEAR}{VAR:0100:9},{VAR:0100:10},{VAR:0100:11}{CLEAR}{VAR:0100:12},{VAR:0100:13},{VAR:0100:14}{CLEAR}{VAR:0100:15},{VAR:0100:16},{VAR:0100:17}{CLEAR}{VAR:0100:18},{CLEAR}不能参加比赛！{SCROLL}",
+   "en": "Eggs, {VAR:0100:1}, {VAR:0100:2},{NEWLINE}{VAR:0100:3}, {VAR:0100:4},{CLEAR}{VAR:0100:5}, {VAR:0100:6},{CLEAR}{VAR:0100:7}, {VAR:0100:8},{CLEAR}{VAR:0100:9}, {VAR:0100:10},{CLEAR}{VAR:0100:11}, {VAR:0100:12},{CLEAR}{VAR:0100:13}, {VAR:0100:14},{CLEAR}{VAR:0100:15}, {VAR:0100:16},{CLEAR}{VAR:0100:17}, and {VAR:0100:18}{CLEAR}are not allowed to enter.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/55"
+  },
+  {
+   "id": 56,
+   "zh": "请准备好之后再来！{SCROLL}",
+   "en": "Please come see me when you are ready.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/56"
+  },
+  {
+   "id": 57,
+   "zh": "战斗舞台单人战的参赛规则是{CLEAR}同一种类的２只精灵才能参加。{SCROLL}请和朋友商量好之后{NEWLINE}再次光临。{SCROLL}",
+   "en": "The Battle Hall Single Battle challenge{NEWLINE}requires two Pokémon of the same{CLEAR}species to enter.{SCROLL}Please confer with your friend and{NEWLINE}come back again.{SCROLL}",
+   "status": "reviewed",
+   "origin": "agent",
+   "notes": "US 0108/57"
+  },
+  {
+   "id": 58,
+   "zh": "进行挑战。",
+   "en": "CHALLENGE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/58"
+  },
+  {
+   "id": 59,
+   "zh": "吃饭的时候,你是先吃喜欢的,{NEWLINE}还是把它留在最后呢？{SCROLL}我有个建议,{NEWLINE}在这座战斗舞台,{CLEAR}你应该先选择自己不擅长的类型！{SCROLL}因为战斗越到后面,{NEWLINE}对手的等级也越高！",
+   "en": "Do you eat your favorite dish first or{NEWLINE}leave it for later?{SCROLL}At the Battle Hall, it’s better to start{NEWLINE}with the types that your Pokémon{CLEAR}do not like. Why?{SCROLL}Because the opposition goes up in{NEWLINE}level as you progress!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/59"
+  },
+  {
+   "id": 60,
+   "zh": "我真是爱死这地方了！{SCROLL}这里会根据精灵的不同种类,{NEWLINE}对其连胜纪录进行保存,{CLEAR}所以无论哪种精灵{CLEAR}都能登上那座舞台！{SCROLL}让自己的精灵{NEWLINE}不断刷新纪录,{CLEAR}这感觉真是妙不可言！",
+   "en": "That opulent stage!{SCROLL}Your streaks of winnings are kept per{NEWLINE}each kind of Pokémon.{CLEAR}Every Pokémon can get up there.{SCROLL}Don’t you think it’s wonderful{NEWLINE}you can aim for the top with{CLEAR}any Pokémon?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/60"
+  },
+  {
+   "id": 61,
+   "zh": "呆⋯⋯{SCROLL}你别看我的呆河马一副呆像,{NEWLINE}它好歹也是和{CLEAR}那位首领战斗过的！{SCROLL}对了,那位首领{NEWLINE}会以相同的等级等待你的挑战！",
+   "en": "Slow...{SCROLL}My Slowbro is a cutie, but he’s even{NEWLINE}battled the Brain here.{SCROLL}The Brain will take your Pokémon on at{NEWLINE}the same level, to be fair.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/61; modernised from US 0108#61"
+  },
+  {
+   "id": 62,
+   "zh": "呆河马『⋯⋯　⋯⋯呀哒恩？",
+   "en": "Slowbro: ...Slow?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/62; modernised from US 0108#62"
+  },
+  {
+   "id": 63,
+   "zh": "来,你听我说,{SCROLL}如果你想在{NEWLINE}总和成绩上有所突破,{CLEAR}那就不能光靠一只精灵去打拼,{CLEAR}而是挑选各种精灵,{CLEAR}前去战斗舞台进行挑战。",
+   "en": "Here is a tip!{SCROLL}You should try the Battle Hall with{NEWLINE}not just your favorite Pokémon,{SCROLL}but different kinds of Pokémon{NEWLINE}if you want to build your{CLEAR}overall record as well.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/63"
+  },
+  {
+   "id": 64,
+   "zh": "在这座战斗舞台上,{NEWLINE}相同种类的精灵{CLEAR}会以不同精灵的身份{CLEAR}以当前连胜数{CLEAR}进行挑战！{SCROLL}我建议你给不同的精灵{NEWLINE}学习各种技能。",
+   "en": "At the Battle Hall, if it’s the same kind{NEWLINE}of Pokémon, you can enter different{CLEAR}ones and still keep your record.{SCROLL}You may want to have different ones{NEWLINE}knowing different types of moves.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/64"
+  },
+  {
+   "id": 65,
+   "zh": "以毽子草做比方,{NEWLINE}它是「草」和「飞行」{CLEAR}类型的精灵。{SCROLL}所以它不仅会出现在「草」类型,{NEWLINE}还会出现在「飞行」类型中！{SCROLL}你问我是什么类型？{NEWLINE}讨厌啦,人家是⋯⋯{CLEAR}「爽朗」和「美女」类的啦。",
+   "en": "You know how Hoppip has two types--{NEWLINE}Grass and Flying?{SCROLL}That means it can appear as a{NEWLINE}Grass type and as a Flying type.{SCROLL}Me?{SCROLL}You could think of me as...{NEWLINE}a “Lighthearted” type and{CLEAR}a “Beautiful” type, I guess.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/65; modernised from US 0108#65"
+  },
+  {
+   "id": 66,
+   "zh": "我告诉你件事,{SCROLL}战斗舞台中,{NEWLINE}对方精灵的等级{CLEAR}会根据我方{CLEAR}派出的精灵等级而进行改变。{SCROLL}所以我们无需为{NEWLINE}精灵的等级担心,{CLEAR}只管派自己想派的精灵就行了。",
+   "en": "A piece of advice...{SCROLL}At the Battle Hall, the opposing{NEWLINE}Pokémon are matched in level to yours.{SCROLL}That way, you can choose any of your{NEWLINE}Pokémon without worrying about{CLEAR}their levels.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/66"
+  },
+  {
+   "id": 67,
+   "zh": "我最喜欢战斗舞台{NEWLINE}那个能记载了{CLEAR}连胜纪录的功能。{SCROLL}我说,{SCROLL}如果能和朋友们{NEWLINE}以相同条件进行挑战,{CLEAR}看看谁能获得更多的连胜数{CLEAR}是不是很有意思呢？",
+   "en": "The Battle Hall lets you keep the{NEWLINE}winning-streak records.{CLEAR}That’s neat, huh?{SCROLL}...Wait a sec!{SCROLL}My friend and I can start challenges{NEWLINE}with identical conditions and see who{CLEAR}can stretch their win streak{CLEAR}the longest.{CLEAR}That’s even more fun!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/67"
+  },
+  {
+   "id": 68,
+   "zh": "那么,现在通知您在{NEWLINE}战斗舞台的单人战中{CLEAR}最多连胜次数的总和。{CLEAR}",
+   "en": "I keep track of the total number of{NEWLINE}wins from your longest Single Battle{CLEAR}win streaks at the Battle Hall.{SCROLL}To explain, I add only the longest win{NEWLINE}streaks of each kind of Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/68"
+  },
+  {
+   "id": 69,
+   "zh": "总记录超过一定的数值之后{CLEAR}将获赠ＢＰ作为奖励。{SCROLL}{VAR:0103:0}现在的总记录是{CLEAR}{VAR:0137:1}。{SCROLL}",
+   "en": "When your total win-streak record hits{NEWLINE}certain figures, you will earn BP as{CLEAR}a reward.{SCROLL}{VAR:0103:0}, your total win-streak{NEWLINE}record is presently {VAR:0137:1}.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/69"
+  },
+  {
+   "id": 70,
+   "zh": "已经超过了{VAR:0137:2},{NEWLINE}获赠ＢＰ作为奖励。{SCROLL}",
+   "en": "Your total win-streak record has{NEWLINE}reached {VAR:0137:2}.{CLEAR}Here is your BP reward.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/70"
+  },
+  {
+   "id": 71,
+   "zh": "超过{VAR:0137:3},{NEWLINE}将获赠ＢＰ作为奖励。",
+   "en": "When your total win-streak record{NEWLINE}reaches {VAR:0137:3}, you will earn BP.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/71"
+  },
+  {
+   "id": 72,
+   "zh": "{VAR:0103:0}得到{VAR:0135:4}ＢＰ！",
+   "en": "{VAR:0103:0} received {VAR:0135:4} BP!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/72"
+  },
+  {
+   "id": 73,
+   "zh": "{VAR:0103:0}现在的总记录是{CLEAR}{VAR:0137:1}。{SCROLL}",
+   "en": "{VAR:0103:0}, your total win-streak{NEWLINE}record stands at {VAR:0137:1}.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/73"
+  },
+  {
+   "id": 74,
+   "zh": "{VAR:0103:0}现在的总记录是{CLEAR}{VAR:0137:1}。{SCROLL}哎呀呀！{NEWLINE}好厉害的记录啊！！",
+   "en": "{VAR:0103:0}, your total win-streak{NEWLINE}record stands at {VAR:0137:1}.{SCROLL}...My goodness!{NEWLINE}That’s a fantastic record!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/74"
+  },
+  {
+   "id": 75,
+   "zh": "欧彦『说起战斗舞台{NEWLINE}最近有些一般！{SCROLL}因为老没有那种{NEWLINE}咄咄逼人的挑战者。{SCROLL}能够战胜头目的⋯⋯{NEWLINE}挑战者还没有出现呢。",
+   "en": "Winston: The Battle Hall’s been kind of{NEWLINE}boring lately.{SCROLL}There haven’t been any dazzling{NEWLINE}challengers who can electrify crowds.{SCROLL}The kind of challenger who can beat the{NEWLINE}Brain... Aren’t there any around?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/75"
+  },
+  {
+   "id": 76,
+   "zh": "欧彦『嗯⋯⋯{NEWLINE}你该不会是{CLEAR}迷上了战斗舞台吧？{SCROLL}战斗舞台很有意思吧？{NEWLINE}赢的次数越多会有越多的{CLEAR}精灵出现！",
+   "en": "Winston: Let me take a wild guess.{NEWLINE}Are you getting into the Battle Hall?{CLEAR}It’s addictively fun, huh?{SCROLL}The more you win, the more kinds of{NEWLINE}Pokémon you get to see, too.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/76"
+  },
+  {
+   "id": 77,
+   "zh": "欧彦『目不转睛地{NEWLINE}盯着面前的舞台看了半天{SCROLL}感觉你很有天赋啊。{SCROLL}对了⋯⋯{NEWLINE}要不要让我验证一下？{CLEAR}不知为何我看好你哦！",
+   "en": "Winston: ...{NEWLINE}...Oh, sorry for staring!{SCROLL}I saw you on stage the last time.{NEWLINE}You’ve got some star quality.{SCROLL}I think I’m going to keep an eye on you.{NEWLINE}There’s real charisma there.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/77"
+  },
+  {
+   "id": 78,
+   "zh": "欧彦『每次你登上舞台{NEWLINE}我都在看着呢,{CLEAR}看着看着觉得很高兴！{SCROLL}现在一直在盼着你和你的{NEWLINE}精灵搭档上台呢！！{CLEAR}",
+   "en": "Winston: I check you out every time{NEWLINE}you get up on stage.{SCROLL}You’re fun to watch, let me tell you.{SCROLL}Now I’m always looking forward to{NEWLINE}seeing the combo of you and your{CLEAR}Pokémon on stage.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/78"
+  },
+  {
+   "id": 79,
+   "zh": "欧彦『喂,你小子！{NEWLINE}接下来要和哪一只精灵{CLEAR}去获得记录呢！？{SCROLL}这个问题一直在我的脑海里{NEWLINE}盘绕,夜里都睡不着觉了,{CLEAR}每天早上都睡懒觉,这就是我！",
+   "en": "Winston: Hey, there!{NEWLINE}What are you going to do this time?{SCROLL}Which Pokémon are you going for a{NEWLINE}record with next?{SCROLL}When I get to thinking about that,{NEWLINE}I get too wound up to sleep at night.{SCROLL}That’s why I’ve been sleeping in lately!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/79"
+  },
+  {
+   "id": 80,
+   "zh": "欧彦『厉害！{NEWLINE}太厉害了！{CLEAR}你太棒了！{SCROLL}能对那么多的精灵们{NEWLINE}倾注那样的感情,{CLEAR}并不是很平常很容易的事情！",
+   "en": "Winston: Awesome!{NEWLINE}Seriously awesome!{CLEAR}You’re beyond awesome, even!{SCROLL}The love you show so many Pokémon...{NEWLINE}It’s no easy feat, I can tell ya!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/80"
+  },
+  {
+   "id": 81,
+   "zh": "欧彦『能那样让精灵{NEWLINE}踊跃争斗的训练师{CLEAR}你是第一个哦！{SCROLL}我为你自豪和骄傲！{SCROLL}在获得记录之前我就跟别人说{NEWLINE}“那小子会成大事的”！",
+   "en": "Winston: I’ve never seen Pokémon{NEWLINE}battle as enjoyably as yours do.{SCROLL}You’re the first of a kind for me as{NEWLINE}Trainers go.{SCROLL}You know, I brag about you to everyone{NEWLINE}who’s willing to listen.{SCROLL}I was saying that you’re going to be a{NEWLINE}star before you even got a record!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/81"
+  },
+  {
+   "id": 82,
+   "zh": "欧彦『ＧＯ！ＧＯ！{VAR:0103:0}{NEWLINE}ＧＯ！ＧＯ！{VAR:0103:0}{SCROLL}我正在创作加油的舞蹈呢！{SCROLL}所以今后继续努力{NEWLINE}不断收获更多的记录！",
+   "en": "Winston: Go, {VAR:0103:0}, go!{NEWLINE}Go, {VAR:0103:0}, go!{SCROLL}I’m thinking up some dance steps and{NEWLINE}cheers I can do to support you.{SCROLL}If you want to see them, you’ll need to{NEWLINE}keep working on your records!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/82"
+  },
+  {
+   "id": 83,
+   "zh": "欧彦『在舞台上{NEWLINE}经历无数战斗{CLEAR}所获得的无数光荣！{SCROLL}真是太厉害了！",
+   "en": "Winston: You’re phenomenal.{NEWLINE}All the battles you waged on stage...{CLEAR}All those moments of glory...{SCROLL}Your star burns so bright and huge!{NEWLINE}I can barely open my eyes around you!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/83"
+  },
+  {
+   "id": 84,
+   "zh": "欧彦『战斗舞台上你的爱是{CLEAR}无限博大{CLEAR}无限深厚的⋯⋯{SCROLL}热爱所有的精灵{CLEAR}是永远都不会改变的！！",
+   "en": "Winston: The love for Pokémon you{NEWLINE}exhibited at the Battle Hall is as{CLEAR}infinitely deep as it is wide...{SCROLL}You can count on me, Winston, to be{NEWLINE}your lifelong fan.{SCROLL}Just as you love Pokémon, I love you{NEWLINE}as the Pokémon superstar!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/84"
+  },
+  {
+   "id": 85,
+   "zh": "Ｌ『战斗舞台最近比较没看头⋯{SCROLL}因为老没有那种{NEWLINE}咄咄逼人的挑战者。{SCROLL}不知道会不会出现那种{NEWLINE}希望成为他的粉丝的挑战者。",
+   "en": "Serena: It’s about the Battle Hall...{NEWLINE}It hasn’t excited me lately.{SCROLL}There’s been no gorgeous sort of{NEWLINE}challenger who can dazzle me.{SCROLL}The kind of challenger who can make me{NEWLINE}a fan... Aren’t there any around?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/85"
+  },
+  {
+   "id": 86,
+   "zh": "Ｌ『啊,那个⋯⋯{SCROLL}你该不会是{CLEAR}迷上了战斗舞台吧？{SCROLL}战斗舞台很有意思吧？{NEWLINE}赢得次数越多就会有越多的{CLEAR}精灵出现！",
+   "en": "Serena: Um... Excuse me?{SCROLL}If you don’t mind me asking, are you{NEWLINE}getting into the Battle Hall?{SCROLL}It’s fun in an engrossing way, isn’t it?{NEWLINE}Did you know?{SCROLL}The more you win, the more kinds of{NEWLINE}Pokémon appear.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/86"
+  },
+  {
+   "id": 87,
+   "zh": "Ｌ『啊,那个⋯⋯{SCROLL}之前的舞台上见过你{NEWLINE}一下子就感兴趣了{SCROLL}嗯,以前是今后也希望{NEWLINE}作为您的粉丝支持您{CLEAR}可以吗？",
+   "en": "Serena: Um... Excuse me?{SCROLL}I watched you when you were on stage.{NEWLINE}It made me feel all tingly seeing you.{SCROLL}Um... You won’t mind if I cheer for you{NEWLINE}from now on, will you? Please, may I?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/87"
+  },
+  {
+   "id": 88,
+   "zh": "Ｌ『啊,那个⋯⋯{SCROLL}我会尽全力支持您的{SCROLL}我自己虽然不能和精灵{NEWLINE}一起登上舞台⋯⋯{SCROLL}所以希望能够帮到您！",
+   "en": "Serena: Um... Excuse me?{SCROLL}I cheer for you the best I can.{SCROLL}I can’t get up on stage with you, but{NEWLINE}I want to lend my support to your{CLEAR}Pokémon and you for trying so hard.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/88"
+  },
+  {
+   "id": 89,
+   "zh": "Ｌ『啊,那个⋯⋯{SCROLL}接下来要和什么样的精灵一起{CLEAR}去获取记录呢！？{SCROLL}我经常在考虑这样的问题{CLEAR}导致晚上都睡不着了！",
+   "en": "Serena: Um... Excuse me?{SCROLL}Can you tell me what kind of Pokémon{NEWLINE}you’re going for a record with next?{SCROLL}When I start thinking about that, I get{NEWLINE}sort of all choked up.{SCROLL}I have trouble sleeping at night when{NEWLINE}I get that way.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/89"
+  },
+  {
+   "id": 90,
+   "zh": "Ｌ『啊,那个⋯⋯{SCROLL}太厉害了,太厉害了！{CLEAR}你真的是,太厉害了！！{SCROLL}能对那么多的精灵们{NEWLINE}倾注那样的感情,{CLEAR}并不是很平常很容易的事情！",
+   "en": "Serena: Um... Excuse me?{SCROLL}Fantastic! It’s fantastic!{NEWLINE}You’re fabulously fantastic!{SCROLL}The love you show so many Pokémon...{NEWLINE}It must take extraordinary effort.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/90"
+  },
+  {
+   "id": 91,
+   "zh": "Ｌ『能够让精灵变得如此活跃的人{CLEAR}你是头一个！{SCROLL}我⋯⋯曾向朋友们夸你呢！{SCROLL}我说也想成为{NEWLINE}像你那样棒的训练师！",
+   "en": "Serena: I’ve never seen Pokémon{NEWLINE}battle as enjoyably as yours do.{SCROLL}You’re the first Trainer ever who’s{NEWLINE}done that.{SCROLL}I... I brag about you to all my friends.{NEWLINE}I hope you don’t mind.{SCROLL}I tell them I wish I could be as{NEWLINE}wonderful a Trainer as you!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/91"
+  },
+  {
+   "id": 92,
+   "zh": "Ｌ『加油！加油！{VAR:0103:0}{NEWLINE}一起加油啊,小精灵！{SCROLL}啊,那个⋯⋯{SCROLL}我正在考虑用{NEWLINE}舞蹈什么的来加油呢！{SCROLL}啊,啊,对不起{NEWLINE}我自己一个人{SCROLL}情不自禁地兴奋起来了⋯⋯",
+   "en": "Serena: Hurray, hurray, {VAR:0103:0}!{NEWLINE}Go, Pokémon, go!{SCROLL}...Oh! Um... Excuse me.{SCROLL}I was working on cheers and a dance{NEWLINE}routine for you.{SCROLL}B-but, I’m sorry for being so silly and{NEWLINE}giddy and...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/92"
+  },
+  {
+   "id": 93,
+   "zh": "Ｌ『在舞台上经历无数战斗{CLEAR}获得的无上光荣！{SCROLL}连一直关注着你的我{CLEAR}都能感觉到变得幸福了{NEWLINE}哈哈！",
+   "en": "Serena: You’re so inspiring to me.{SCROLL}All the glory you earned while battling{NEWLINE}so often on that shining stage...{SCROLL}Just seeing you makes me feel all{NEWLINE}happy inside. ♫",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/93"
+  },
+  {
+   "id": 94,
+   "zh": "Ｌ『战斗舞台上{NEWLINE}你对精灵的爱{SCROLL}是无限广博{NEWLINE}无限深厚的⋯⋯{SCROLL}热爱所有的精灵的你⋯⋯{CLEAR}我,最喜欢了！！",
+   "en": "Serena: Your Pokémon love that you’ve{NEWLINE}shown at the Battle Hall is as infinitely{CLEAR}deep as it is wide...{SCROLL}It’s amazing, but you love every kind of{NEWLINE}Pokémon there is.{SCROLL}I love you for being so amazing and{NEWLINE}dedicated!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/94"
+  },
+  {
+   "id": 95,
+   "zh": "小蓝『我就喜欢看{NEWLINE}{VAR:0103:0}那{CLEAR}战斗时的英姿,{SCROLL}他不管是{NEWLINE}成功还是失败{CLEAR}都像是在享受每一场战斗！",
+   "en": "Green: I just love{NEWLINE}watching {VAR:0103:0} battle.{SCROLL}Win or lose, he looks like he’s{NEWLINE}enjoying every single battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Green is the partner of the male player (he = the player). US 'Lyra' label replaced."
+  },
+  {
+   "id": 96,
+   "zh": "小赤『战斗舞台简直是{NEWLINE}精灵爱好者的圣地！{SCROLL}我们能在这看到很多{NEWLINE}自己未曾见过的精灵,{SCROLL}我看它们一眼就冲动得不行了！",
+   "en": "Red: The Battle Hall is a holy{NEWLINE}land for Pokémon lovers!{SCROLL}You get to see so many Pokémon{NEWLINE}you’ve never seen before.{SCROLL}One look at them and I{NEWLINE}can hardly contain myself!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Red = partner of the female player. US 'Ethan' label replaced."
+  },
+  {
+   "id": 97,
+   "zh": "妈妈『{VAR:0103:0}！{SCROLL}你做的很好,{NEWLINE}妈妈为你感到骄傲！{SCROLL}虽然每位选手{NEWLINE}都发挥出了最好的水平,{CLEAR}但在我眼里还是你最棒！{SCROLL}哦,对了！{SCROLL}妈妈回家的时候{NEWLINE}去彩虹市的百货店买点{CLEAR}{VAR:0103:0}用得上的东西。",
+   "en": "Mom: {VAR:0103:0}!{SCROLL}You did so well. Mom’s proud of you!{SCROLL}Every contestant gave it their all, but{NEWLINE}in my eyes, you’re the best of them!{SCROLL}Oh, that’s right!{SCROLL}On my way home, I’ll stop by the{NEWLINE}Celadon Department Store and{CLEAR}buy something {VAR:0103:0} can use.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "hack changed Goldenrod to Celadon (彩虹市)."
+  },
+  {
+   "id": 98,
+   "zh": "大木博士『你现在可以称得上是{NEWLINE}一名优秀的训练师了！{SCROLL}光是你抓到的那些精灵数量{NEWLINE}就足以令人惊叹,{SCROLL}而且你还能于它们沟通心灵,{NEWLINE}并肩作战。{SCROLL}遇到你是我一生{NEWLINE}最大的光荣。",
+   "en": "Prof. Oak: You can truly call{NEWLINE}yourself an outstanding Trainer now!{SCROLL}The number of Pokémon you’ve{NEWLINE}caught is amazing enough on its own.{SCROLL}But you also connect with them heart{NEWLINE}to heart and fight side by side.{SCROLL}Meeting you has been the{NEWLINE}greatest honor of my life.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0108/98"
+  },
+  {
+   "id": 99,
+   "zh": "小茜『人家{NEWLINE}好喜欢去那种{CLEAR}万众瞩目的舞台。{SCROLL}你想多了,{NEWLINE}其实不是人家想受人瞩目,{SCROLL}只是觉得可爱的精灵们{NEWLINE}能登台亮相{CLEAR}会让我得到最大的满足。",
+   "en": "Whitney: I love showy events like{NEWLINE}the Battle Hall.{SCROLL}I’m not saying that I want to stand out{NEWLINE}in the crowd...{SCROLL}I just love seeing cute Pokémon{NEWLINE}getting lots of attention!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0108/99"
+  }
+ ]
+}

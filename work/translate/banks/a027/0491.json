@@ -1,0 +1,471 @@
+{
+ "narc": "a027",
+ "bank": 491,
+ "source": "work/extract/v4/a027/0491.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "据说乔伊小姐们{NEWLINE}都是从这里买香水的呢。",
+   "en": "They say the Nurse Joys all buy their{NEWLINE}perfume here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "买这里的香水送给女朋友,{NEWLINE}她一定会非常喜欢！",
+   "en": "If I buy perfume here for my girlfriend,{NEWLINE}she’ll love it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "把道具给精灵使用的话,{NEWLINE}它们会很高兴哦！{CLEAR}不过也有讨厌的道具……",
+   "en": "Using items on them makes{NEWLINE}Pokémon happy.{CLEAR}They hate certain items, though...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0498/2"
+  },
+  {
+   "id": 3,
+   "zh": "发挥精灵力量{NEWLINE}５楼……香水香草与树果专柜",
+   "en": "Bring Out Pokémon Potential{NEWLINE}5F: Perfume, Herbs & Berries",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack renamed the 5F counter; US ‘Battle Collection’ replaced.",
+   "qa_ignore": [
+    "glossary:树果"
+   ]
+  },
+  {
+   "id": 4,
+   "zh": "莉佳『就是这个,{NEWLINE}这种花香味的香水{CLEAR}可以帮助你的可达鸭缓解头疼。",
+   "en": "Erika: This is the one.{SCROLL}This floral perfume can help ease your{NEWLINE}Psyduck’s headaches.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "小霞『好棒哦,好香的味道。",
+   "en": "Misty: Wow, that’s lovely. What a nice{NEWLINE}scent.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "莉佳『你们两位是小霞的朋友吧？{NEWLINE}觉得这款新型香水怎么样呢？",
+   "en": "Erika: You two are Misty’s friends,{NEWLINE}aren’t you? What do you think of this{CLEAR}new perfume?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "莉佳『嘿嘿,我就知道你会喜欢{NEWLINE}我们这个新款香水的。",
+   "en": "Erika: Tee-hee. I just knew you’d like{NEWLINE}our new perfume.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "小绿『啊……不……我……",
+   "en": "Blue: Ah... No... I...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "小绿『我对香水的研究还很浅啦,{NEWLINE}但是我的这位朋友{CLEAR}对香水很在行哦。",
+   "en": "Blue: I don’t really know much about{NEWLINE}perfume yet. But this friend of mine is{CLEAR}an expert on it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "小绿『喂！{VAR:0103:0}！{NEWLINE}快,莉佳馆主叫你呢。",
+   "en": "Blue: Hey! {VAR:0103:0}! Quick, Gym Leader{NEWLINE}Erika’s asking you something.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "小绿『{VAR:0103:0}！{NEWLINE}快,帮我一下。",
+   "en": "Blue: {VAR:0103:0}! Quick, help me out here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "莉佳『你们还有{NEWLINE}一起来的朋友啊。{SCROLL}莉佳『那么这位训练家,{NEWLINE}你应该也闻到这个香水味了吧,{CLEAR}你觉得怎么样呢？{SCROLL}",
+   "en": "Erika: Oh, you have another friend with{NEWLINE}you.{SCROLL}Erika: Well then, young Trainer, you{NEWLINE}must be able to smell this perfume too.{CLEAR}What do you think of it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Choice: #13 praise → #28/#29 (good path); #14 dismiss → #15–#27, #35/#36 (rude path that leads to the Gym ban)."
+  },
+  {
+   "id": 13,
+   "zh": "你们的香水很香啊",
+   "en": "It smells wonderful",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 14,
+   "zh": "香水这种东西一点意义都没有",
+   "en": "Perfume is pointless",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0103:0}『香水这种东西,{NEWLINE}一点意义都没有。{CLEAR}没什么值得买的。",
+   "en": "{VAR:0103:0}: Perfume is completely{NEWLINE}pointless. It’s not worth buying.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "莉佳『你说这话就不对了,{NEWLINE}你说的没有意义到底是什么意思啊。{CLEAR}这么讲太没有礼貌了吧。",
+   "en": "Erika: That’s simply not true. What do{NEWLINE}you even mean by ‘pointless’? That’s{CLEAR}awfully rude, you know.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}『香水只是女人为了{NEWLINE}迷惑男人而擦的东西吧。{CLEAR}我就是这个意思啊。",
+   "en": "{VAR:0103:0}: Isn’t perfume just something{NEWLINE}girls put on to catch guys’ attention?{CLEAR}That’s what I mean.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "莉佳『听好了,{NEWLINE}你对香水的认识太肤浅了。{CLEAR}香水可以使人心情松弛,{CLEAR}使人镇定,使人恢复精神,{CLEAR}还可以治疗心灵,用途可多呢。",
+   "en": "Erika: Listen here. Your understanding{NEWLINE}of perfume is far too shallow.{SCROLL}Perfume can relax you, calm you and{NEWLINE}restore your spirits. It can even heal{CLEAR}the heart. It has so many uses!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "小蓝『哎呀,{VAR:0103:0},{NEWLINE}你的神经确实有点太粗啦。",
+   "en": "Green: Oh dear, {VAR:0103:0}, you really are{NEWLINE}a bit dense.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "小绿『…………",
+   "en": "Blue: ...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0103:0}『其实卖香水的商家{NEWLINE}都是用这种华丽的说辞{CLEAR}来骗人的吧。",
+   "en": "{VAR:0103:0}: Isn’t all that fancy talk just{NEWLINE}a sales pitch to fool people?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "莉佳『真是没有礼貌！{NEWLINE}这可是凝聚着我和臭臭花感情的香水,{CLEAR}像你这种无法了解其中意义的人,{CLEAR}真是不配来我们彩虹市！",
+   "en": "Erika: How rude! This perfume holds the{NEWLINE}bond between my Gloom and me.{SCROLL}Someone like you, who can’t understand{NEWLINE}what it means, doesn’t deserve to be in{CLEAR}Celadon City!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "莉佳『今天真是太扫兴了,{NEWLINE}百合,咱们走！",
+   "en": "Erika: What a thoroughly unpleasant{NEWLINE}day. Yuri, we’re leaving!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "是！莉佳大小姐。",
+   "en": "Yes, Lady Erika!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "小霞『你这个人的神经{NEWLINE}实在是太粗啦,{CLEAR}莉佳可是制作香水的专家！{CLEAR}你怎么可以这样说她的香水呢。",
+   "en": "Misty: You’re way too dense! Erika is an{NEWLINE}expert perfumer! How could you say{CLEAR}that about her perfume?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "小绿『{VAR:0103:0},你知道吗？{NEWLINE}这是我认识你以来最佩服你的一次。{CLEAR}因为我跟你想的一样……{SCROLL}小绿『谢谢你把我{NEWLINE}想说的都说出来了啊,{CLEAR}听着真是太痛快了。",
+   "en": "Blue: {VAR:0103:0}, you know what? This is{NEWLINE}the most I’ve ever respected you since{CLEAR}we met. Because I think the same way...{SCROLL}Blue: Thanks for saying everything I{NEWLINE}wanted to say. That felt great to hear.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "莉佳『一般来说臭臭花的分泌物{NEWLINE}都是臭味且具有攻击性的,{CLEAR}但我这只臭臭花的分泌物却是香的,{CLEAR}而且还有镇静、安神的效果。{CLEAR}你之所以能在香水中感觉到宁静,{CLEAR}就是因为它里面含有臭臭花的成分。",
+   "en": "Erika: The secretions of Gloom normally{NEWLINE}smell foul and can be harmful.{SCROLL}But the secretions of my Gloom are{NEWLINE}fragrant, and they have a calming,{CLEAR}soothing effect.{SCROLL}The reason you feel so at peace with{NEWLINE}this perfume is that it contains an{CLEAR}essence from my Gloom.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0103:0}『你们香水的味道{NEWLINE}香味纯正而且淡雅别致,{CLEAR}给人一种非常宁静的感觉。",
+   "en": "{VAR:0103:0}: Your perfume has a pure,{NEWLINE}delicate and elegant scent. It gives a{CLEAR}really peaceful feeling.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "莉佳『居然能注意到{NEWLINE}我们香水的安神功效,{CLEAR}看来你也很懂嘛。{SCROLL}莉佳『其实能够做出这么好的香水,{NEWLINE}多亏了我的伙伴臭臭花。{CLEAR}在我很小的时候,{CLEAR}我曾被一只狂暴的臭泥袭击。{CLEAR}当时恰好有一只臭臭花路过{CLEAR}它用自己分泌物的味道{CLEAR}让臭泥瞬间安静了下来。{CLEAR}从那以后我就和这只臭臭花{CLEAR}成了最好的伙伴。",
+   "en": "Erika: You noticed our perfume’s calming{NEWLINE}effect?{SCROLL}You really do know your stuff.{SCROLL}Erika: In truth, I owe this wonderful{NEWLINE}perfume to my partner, Gloom.{SCROLL}When I was very little, I was attacked{NEWLINE}by a rampaging Grimer.{SCROLL}Just then, a Gloom happened to pass by.{SCROLL}Its scent calmed the Grimer down in an{NEWLINE}instant.{SCROLL}Ever since then, that Gloom and I have{NEWLINE}been the best of partners.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "莉佳『谢谢你们{NEWLINE}听我说了这么多香水的事。{CLEAR}我现在要回彩虹道馆了,{CLEAR}随时欢迎你们来玩哟。{SCROLL}莉佳『百合,咱们走吧。",
+   "en": "Erika: Thank you for listening to me go{NEWLINE}on about perfume. I’m going back to the{CLEAR}Celadon Gym now.{SCROLL}You’re welcome to visit anytime.{SCROLL}Erika: Yuri, let’s go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "小霞『想不到你对香水{NEWLINE}还挺懂嘛,{CLEAR}对你刮目相看了哟。",
+   "en": "Misty: Who knew you knew so much about{NEWLINE}perfume?{SCROLL}I’m seeing you in a whole new light.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "小蓝『嘿嘿,我一直以为{NEWLINE}{VAR:0103:0}你是个呆呆的老实人,{CLEAR}没想到你还挺懂女孩子的心嘛。",
+   "en": "Green: Heh heh. I always thought you{NEWLINE}were a dull, simple sort, {VAR:0103:0}. Who{CLEAR}knew you understood girls so well?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "小绿『{VAR:0103:0}你是真能扯啊,{NEWLINE}还什么淡雅、什么宁静的。{CLEAR}要是让我说的话{CLEAR}这香水实在一点意义都没有。{CLEAR}好在莉佳终于回道馆了,{CLEAR}快去挑战她拿徽章吧。",
+   "en": "Blue: {VAR:0103:0}, you sure can lay it on{NEWLINE}thick. ‘Delicate,’ ‘peaceful’... Give me{CLEAR}a break.{SCROLL}If you ask me, this perfume is totally{NEWLINE}pointless. At least Erika’s finally gone{CLEAR}back to her Gym. Let’s go challenge her{CLEAR}for a Badge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "小绿『我和小赤来这里找莉佳,{NEWLINE}只是为了约她回道馆接受我们挑战,{CLEAR}结果她却拉着我们聊起香水来了。{CLEAR}唉,多亏你即时赶到,{CLEAR}才让她心满意足地走了。{CLEAR}比起聊香水来,{CLEAR}我还是更喜欢道馆对战。",
+   "en": "Blue: Red and I only came here to get{NEWLINE}Erika to go back to her Gym so we could{CLEAR}challenge her.{SCROLL}But she dragged us into chatting about{NEWLINE}perfume.{SCROLL}Sigh... Good thing you showed up in time,{NEWLINE}or she’d never have left happy.{SCROLL}Me, I’d much rather have a Gym battle{NEWLINE}than talk about perfume.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh names 小赤 (Red) here though the Blue/Green scene is in #8–#33; kept as written. Red version of the companion lines: #38–#40."
+  },
+  {
+   "id": 35,
+   "zh": "莉佳『而且你刚刚闻的香水,{NEWLINE}更是大有来历！{SCROLL}莉佳『在我很小的时候,{NEWLINE}我曾被一只狂暴的臭泥袭击。{CLEAR}当时恰好有一只臭臭花路过{CLEAR}它用自己分泌物的味道{CLEAR}让臭泥瞬间安静了下来。{CLEAR}从那以后我就和这只臭臭花{CLEAR}成了最好的伙伴。",
+   "en": "Erika: And the perfume you just smelled{NEWLINE}has a very special story behind it!{SCROLL}Erika: When I was very little, I was{NEWLINE}attacked by a rampaging Grimer.{SCROLL}Just then, a Gloom happened to pass by.{SCROLL}Its scent calmed the Grimer down in an{NEWLINE}instant.{SCROLL}Ever since then, that Gloom and I have{NEWLINE}been the best of partners.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "莉佳『一般来说臭臭花的分泌物{NEWLINE}都是臭味且具有攻击性的,{CLEAR}但我这只臭臭花的分泌物却是香的,{CLEAR}而且还有镇静、安神的效果。{CLEAR}加入了这种特殊成分的高级香水,{CLEAR}你竟然说一点意义都没有……{SCROLL}莉佳『你真是个超级没有品味的人！",
+   "en": "Erika: The secretions of Gloom normally{NEWLINE}smell foul and can be harmful.{SCROLL}But the secretions of my Gloom are{NEWLINE}fragrant, and they have a calming,{CLEAR}soothing effect.{SCROLL}A fine perfume made with such a special{NEWLINE}ingredient, and you call it pointless...{SCROLL}Erika: You have absolutely no taste!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "小蓝『真的是很特别的味道,{NEWLINE}居然会给人一种安心的感觉！",
+   "en": "Green: What a special scent. It really{NEWLINE}makes you feel at ease!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "小赤『啊……这……嗯……{NEWLINE}很香,很香……",
+   "en": "Red: Ah... Um... Yeah... It smells nice,{NEWLINE}really nice...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "小蓝『唉,你这个人呀,{NEWLINE}真是不懂女孩子的心！",
+   "en": "Green: Honestly, you really don’t{NEWLINE}understand how girls feel!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "小赤『多亏{VAR:0103:0}你即时过来,{NEWLINE}不然我还真不知道该怎么说。{CLEAR}现在莉佳终于回道馆了,{CLEAR}咱们还是快去挑战吧。",
+   "en": "Red: {VAR:0103:0}, good thing you came over{NEWLINE}when you did. I had no idea what to say.{SCROLL}Now Erika’s finally gone back to her{NEWLINE}Gym. Let’s hurry and challenge her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "水箭龟『Blas——to！",
+   "en": "Blastoise: Blas-to!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "嘘,小点声。{NEWLINE}莉佳大小姐正在讲解香水呢。",
+   "en": "Shh, keep it down. Lady Erika is{NEWLINE}explaining the perfumes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "这里的香水真是太棒了,{NEWLINE}典雅清新到无可挑剔！{CLEAR}比那些熏人的浓艳香水好太多太多。",
+   "en": "The perfume here is just wonderful.{NEWLINE}Elegant and fresh, absolutely flawless!{CLEAR}So much better than those heavy,{CLEAR}overpowering scents.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "哈哈哈哈哈,{NEWLINE}这里可以买到好多不常见的树果,{CLEAR}拿回去种的话一定大赚一笔。",
+   "en": "Ha ha ha ha! You can buy lots of rare{NEWLINE}Berries here. If I plant them back{CLEAR}home, I’ll make a fortune.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果"
+   ]
+  },
+  {
+   "id": 45,
+   "zh": "您好,这里是彩虹道馆的熏香专柜。{NEWLINE}请问您需要点什么？",
+   "en": "Hello, this is the Celadon Gym’s incense{NEWLINE}counter. What can I get for you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "怪异香炉{NEWLINE}9000元",
+   "en": "Odd Incense{NEWLINE}$9000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "空{NEWLINE}9000元",
+   "en": "---{NEWLINE}$9000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "满腹香炉{NEWLINE}9000元",
+   "en": "Full Incense{NEWLINE}$9000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "水波香炉{NEWLINE}9000元",
+   "en": "Wave Incense{NEWLINE}$9000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "鲜花香炉{NEWLINE}9000元",
+   "en": "Rose Incense{NEWLINE}$9000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "空{NEWLINE}9600元",
+   "en": "---{NEWLINE}$9600",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "清净香炉{NEWLINE}9000元",
+   "en": "Pure Incense{NEWLINE}$9000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s)"
+  },
+  {
+   "id": 54,
+   "zh": "多谢惠顾。",
+   "en": "Thank you. Please come again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 55,
+   "zh": "好的,给你,{NEWLINE}谢谢惠顾。",
+   "en": "Here you go. Thank you for shopping{NEWLINE}with us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 56,
+   "zh": "您身上的钱{NEWLINE}似乎不够买这个商品呀！",
+   "en": "It looks like you don’t have enough{NEWLINE}money for that!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

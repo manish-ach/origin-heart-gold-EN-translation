@@ -1,0 +1,4 @@
+---
+const { type } = Astro.props as { type: string };
+---
+<span class={`type type-${type.toLowerCase()}`}>{type}</span>

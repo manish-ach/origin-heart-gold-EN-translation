@@ -1,0 +1,1045 @@
+{
+ "narc": "a027",
+ "bank": 10,
+ "source": "work/extract/v4/a027/0010.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "使用",
+   "en": "USE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/0"
+  },
+  {
+   "id": 1,
+   "zh": "丢弃",
+   "en": "TRASH",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/1"
+  },
+  {
+   "id": 2,
+   "zh": "登录",
+   "en": "REGISTER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/2"
+  },
+  {
+   "id": 3,
+   "zh": "带上",
+   "en": "GIVE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/3"
+  },
+  {
+   "id": 4,
+   "zh": "查看标签",
+   "en": "CHECK TAG",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 5,
+   "zh": "决定",
+   "en": "CONFIRM",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/5"
+  },
+  {
+   "id": 6,
+   "zh": "下来",
+   "en": "WALK",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/6"
+  },
+  {
+   "id": 7,
+   "zh": "返回",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 12 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 8,
+   "zh": "返回",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 12 source(s), same position; other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 9,
+   "zh": "出示",
+   "en": "SHOW",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "ダミー",
+   "en": "DUMMY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "取消",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 12,
+   "zh": "持有物",
+   "en": "ITEM",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 13,
+   "zh": "信件",
+   "en": "MAIL",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 14,
+   "zh": "存放",
+   "en": "DEPOSIT",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 15,
+   "zh": "存放",
+   "en": "DEPOSIT",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 16,
+   "zh": "查看",
+   "en": "CHECK",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/16"
+  },
+  {
+   "id": 17,
+   "zh": "无",
+   "en": "NONE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 6 source(s)"
+  },
+  {
+   "id": 18,
+   "zh": "解除",
+   "en": "DESELECT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/18"
+  },
+  {
+   "id": 19,
+   "zh": "???",
+   "en": "???",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "?????",
+   "en": "?????",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "/",
+   "en": "/",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0133:0}/{VAR:0133:1}",
+   "en": "{VAR:0133:0}/{VAR:0133:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "-",
+   "en": "-",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "--",
+   "en": "--",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "---",
+   "en": "---",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "㊚",
+   "en": "㊚",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "㊛",
+   "en": "㊛",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "Lv",
+   "en": "Lv",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "No",
+   "en": "No",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "+",
+   "en": "+",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "→",
+   "en": "→",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "IDNo",
+   "en": "IDNo",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "　",
+   "en": "　",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "光标",
+   "en": "CURSOR",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "返回上一页！",
+   "en": "Back to the previous page!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "要做什么？",
+   "en": "What will you do?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "给予",
+   "en": "GIVE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "x",
+   "en": "x",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "饮用",
+   "en": "DRINK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "{VAR:0135:0}枚",
+   "en": "{VAR:0135:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "关闭",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0108:0}怎么处理？",
+   "en": "The {VAR:0108:0} item is selected.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/43"
+  },
+  {
+   "id": 44,
+   "zh": "在此无法获得信件！",
+   "en": "You can’t write Mail here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "没有精灵！",
+   "en": "There are no Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "移动{VAR:0108:0}",
+   "en": "Move the {VAR:0108:0}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/46"
+  },
+  {
+   "id": 47,
+   "zh": "无法拿上{NEWLINE}{VAR:0108:0}！",
+   "en": "The {VAR:0108:0} can’t be held.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/47"
+  },
+  {
+   "id": 48,
+   "zh": "在此无法拿上{NEWLINE}{VAR:0108:0}！",
+   "en": "The {VAR:0108:0} can’t be{NEWLINE}held here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "存放几个{NEWLINE}{VAR:0108:0}？",
+   "en": "Deposit how many{NEWLINE}{VAR:0108:0}(s)?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "存入{VAR:0108:0}{NEWLINE}{VAR:0133:1}个。",
+   "en": "Deposited {VAR:0133:1}{NEWLINE}{VAR:0108:0}(s).",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "无法再存放了！",
+   "en": "You can’t deposit any more!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "这是很重要的东西,{NEWLINE}无法存放！",
+   "en": "That’s too important{NEWLINE}to deposit!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "{VAR:0108:0}扔掉几个？",
+   "en": "Throw away how many{NEWLINE}{VAR:0108:0}(s)?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/53"
+  },
+  {
+   "id": 54,
+   "zh": "{VAR:0108:0}{NEWLINE}{VAR:0133:1}个丢弃。",
+   "en": "Threw away {VAR:0133:1} {VAR:0108:0}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/54"
+  },
+  {
+   "id": 55,
+   "zh": "丢弃{VAR:0108:0}{NEWLINE}{VAR:0134:1}个,可以吗？",
+   "en": "Is it OK to throw away{NEWLINE}{VAR:0134:1} {VAR:0108:0}?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/55"
+  },
+  {
+   "id": 56,
+   "zh": "爸爸的话⋯⋯{NEWLINE}{VAR:0103:0}！{CLEAR}东西不能乱用！",
+   "en": "Dad’s words...{NEWLINE}{VAR:0103:0}! There’s a time and{CLEAR}place for everything!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "这里无法下车！",
+   "en": "You can’t dismount your Bike here.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/57"
+  },
+  {
+   "id": 58,
+   "zh": "您的硬币有{VAR:0136:0}枚",
+   "en": "Your Coins: {VAR:0136:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/58"
+  },
+  {
+   "id": 59,
+   "zh": "技能机启动！{VAR:0202:3}{VAR:0202:4}",
+   "en": "Booted up a TM.{VAR:0202:3}{VAR:0202:4}{NEWLINE}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/59"
+  },
+  {
+   "id": 60,
+   "zh": "秘传机启动！{VAR:0202:3}{VAR:0202:4}",
+   "en": "Booted up an HM.{VAR:0202:3}{VAR:0202:4}{NEWLINE}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/60"
+  },
+  {
+   "id": 61,
+   "zh": "里面有{VAR:0106:0}技能！{SCROLL}要让精灵学习{VAR:0106:0}吗？",
+   "en": "It contained{NEWLINE}{VAR:0106:0}.{SCROLL}Teach {VAR:0106:0}{NEWLINE}to a Pokémon?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/61"
+  },
+  {
+   "id": 62,
+   "zh": "{VAR:0103:0}使用了{NEWLINE}{VAR:0108:1}！",
+   "en": "{VAR:0103:0} used the{NEWLINE}{VAR:0108:1}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/62"
+  },
+  {
+   "id": 63,
+   "zh": "之前使用的喷剂效果还在！",
+   "en": "Since a Repel’s effects still linger,{NEWLINE}you can’t use this now.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/63"
+  },
+  {
+   "id": 64,
+   "zh": "{VAR:0103:0}使用了{NEWLINE}{VAR:0108:1}！{SCROLL}与精灵遭遇的概率提升了！",
+   "en": "{VAR:0103:0} used the{NEWLINE}{VAR:0108:1}.{SCROLL}Wild Pokémon will be lured.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/64"
+  },
+  {
+   "id": 65,
+   "zh": "{VAR:0103:0}使用了{NEWLINE}{VAR:0108:1}！{SCROLL}与精灵遭遇的概率下降了！",
+   "en": "{VAR:0103:0} used the{NEWLINE}{VAR:0108:1}.{SCROLL}Wild Pokémon will be repelled.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/65"
+  },
+  {
+   "id": 66,
+   "zh": "箱子满了！",
+   "en": "The Box is full!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 67,
+   "zh": "粉量{VAR:0135:0}",
+   "en": "Powder: {VAR:0135:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "No{VAR:0133:0}{VAR:0106:1}",
+   "en": "No{VAR:0133:0}{VAR:0106:1}",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "No{VAR:0133:0}{VAR:0106:1}",
+   "en": "No{VAR:0133:0}{VAR:0106:1}",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "{VAR:0133:0}{VAR:0106:1}",
+   "en": "{VAR:0133:0}{VAR:0106:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "树果的粉",
+   "en": "Berry Powder",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "吹响了精灵之笛！{NEWLINE}唔~！真是美妙的音色！",
+   "en": "Played the Poké Flute!{NEWLINE}Mmm! What a lovely tune!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "精灵之笛 here is the Poké Flute (Azure Flute is 天界之笛); glossary entry 精灵之笛 → Azure Flute is wrong for HGSS.",
+   "qa_ignore": [
+    "glossary:精灵之笛"
+   ]
+  },
+  {
+   "id": 73,
+   "zh": "吹响了精灵之笛！",
+   "en": "Played the Poké Flute!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:精灵之笛"
+   ]
+  },
+  {
+   "id": 74,
+   "zh": "听到笛子的声音,{NEWLINE}精灵醒了过来。",
+   "en": "The Pokémon woke up{NEWLINE}at the sound of the flute.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "移动",
+   "en": "MOVE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/75"
+  },
+  {
+   "id": 76,
+   "zh": "{VAR:0108:0}{NEWLINE}无法卖出。",
+   "en": "{VAR:0108:0}? Oh, no.{NEWLINE}I can’t buy that.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/76"
+  },
+  {
+   "id": 77,
+   "zh": "{VAR:0108:0}{NEWLINE}要卖多少？",
+   "en": "{VAR:0108:0}?{NEWLINE}How many will you sell?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/77"
+  },
+  {
+   "id": 78,
+   "zh": "那么就以{VAR:0137:0}¥{NEWLINE}收取了。",
+   "en": "I can pay ${VAR:0137:0}.{NEWLINE}Would that be OK?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/78"
+  },
+  {
+   "id": 79,
+   "zh": "交出了{VAR:0108:0},{NEWLINE}得到了{VAR:0137:1}¥。",
+   "en": "Turned over the {VAR:0108:0}{NEWLINE}and received ${VAR:0137:1}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/79"
+  },
+  {
+   "id": 80,
+   "zh": "零花钱",
+   "en": "Money",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/80"
+  },
+  {
+   "id": 81,
+   "zh": "{VAR:0137:0}¥",
+   "en": "${VAR:0137:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "x{VAR:0133:0}",
+   "en": "x{VAR:0133:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "＋{VAR:0137:0}¥",
+   "en": "+${VAR:0137:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 85,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 86,
+   "zh": "卖",
+   "en": "SELL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/86"
+  },
+  {
+   "id": 87,
+   "zh": "x{VAR:0134:0}",
+   "en": "x{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "取出",
+   "en": "WITHDRAW",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 89,
+   "zh": "PP",
+   "en": "PP",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "威力",
+   "en": "POWER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/90"
+  },
+  {
+   "id": 91,
+   "zh": "命中",
+   "en": "ACCURACY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/91"
+  },
+  {
+   "id": 92,
+   "zh": "分类",
+   "en": "CATEGORY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/92"
+  },
+  {
+   "id": 93,
+   "zh": "{VAR:0133:0}",
+   "en": "{VAR:0133:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "{VAR:0134:0}",
+   "en": "{VAR:0134:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "贴纸{VAR:0135:0}张",
+   "en": "Seals: {VAR:0135:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/95"
+  },
+  {
+   "id": 96,
+   "zh": "饰品{VAR:0134:0}个{NEWLINE}壁纸{VAR:0133:1}张",
+   "en": "Accessories: {VAR:0134:0}{NEWLINE}Backdrops: {VAR:0133:1}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/96"
+  },
+  {
+   "id": 97,
+   "zh": "关上背包",
+   "en": "Close the Bag",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "埋",
+   "en": "BURY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "打开",
+   "en": "OPEN",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "积累的战斗点数{NEWLINE}{VAR:0135:0}ＢＰ",
+   "en": "Saved Battle Points:{NEWLINE}{VAR:0135:0} BP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/100"
+  },
+  {
+   "id": 101,
+   "zh": "属性",
+   "en": "TYPE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/101"
+  },
+  {
+   "id": 102,
+   "zh": "能够把背包中的一些道具{NEWLINE}登录到快捷键上。",
+   "en": "A Key Item in the Bag can be assigned{NEWLINE}to this button for instant use.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/102"
+  },
+  {
+   "id": 103,
+   "zh": "能够登录两个道具{NEWLINE}到快捷键上！{NEWLINE}",
+   "en": "You can only register up to two items{NEWLINE}to buttons!{NEWLINE}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/103"
+  },
+  {
+   "id": 104,
+   "zh": "ＧＢ播放器的电源打开了！",
+   "en": "Turned on the power for{NEWLINE}GB Sounds!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/104"
+  },
+  {
+   "id": 105,
+   "zh": "ＧＢ播放器的电源切断了！",
+   "en": "Turned off the power for{NEWLINE}GB Sounds!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/105"
+  },
+  {
+   "id": 106,
+   "zh": "{VAR:0108:0}无法使用。",
+   "en": "Can’t use the {VAR:0108:0}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/106"
+  },
+  {
+   "id": 107,
+   "zh": "看了下宝物袋里面！",
+   "en": "Peeked inside the Treasure Bag!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "拿出了{VAR:0108:0}！",
+   "en": "Took out the {VAR:0108:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "{VAR:0108:0}{NEWLINE}收进了{VAR:011B:1}。",
+   "en": "Put the {VAR:0108:0}{NEWLINE}in the {VAR:011B:1}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "全部拿了出来！",
+   "en": "Took everything out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "里面什么都没有⋯⋯",
+   "en": "There was nothing inside...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "但是{VAR:011B:0}满了,{NEWLINE}没拿出来⋯⋯",
+   "en": "But the {VAR:011B:0} was full,{NEWLINE}so nothing could be taken out...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "电池电力不足！{NEWLINE}距充电完成{CLEAR}还有{VAR:0133:0}步　",
+   "en": "The battery is low!{NEWLINE}It needs {VAR:0133:0} more steps{CLEAR}to finish charging.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "草丛里很安静⋯⋯",
+   "en": "The grass is quiet...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "松饼的数量",
+   "en": "Poffins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "{VAR:0134:0}／１００",
+   "en": "{VAR:0134:0}/100",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "请选择用来{NEWLINE}做料理的树果！",
+   "en": "Choose a Berry{NEWLINE}to cook with!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "带着走的时候{NEWLINE}无法使用！",
+   "en": "Can’t be used when you have someone{NEWLINE}with you!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/118"
+  },
+  {
+   "id": 119,
+   "zh": "现在不是干这事的时候！",
+   "en": "You can’t be doing that now!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/119"
+  },
+  {
+   "id": 120,
+   "zh": "道具口袋{NEWLINE}装有对冒险帮助很大{NEWLINE}的方便道具。",
+   "en": "Item Pocket{NEWLINE}For items that will be useful during your{NEWLINE}adventure.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/120"
+  },
+  {
+   "id": 121,
+   "zh": "回复类口袋{NEWLINE}装有回复精灵ＨＰ或ＰＰ的{NEWLINE}回复类道具。",
+   "en": "Medicine Pocket{NEWLINE}For items to regain your Pokémon’s{NEWLINE}HP and PP.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/121"
+  },
+  {
+   "id": 122,
+   "zh": "精灵球口袋{NEWLINE}装着各种各样的精灵球。",
+   "en": "Poké Ball Pocket{NEWLINE}For all different types of Poké Balls.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/122"
+  },
+  {
+   "id": 123,
+   "zh": "技能机口袋{NEWLINE}装着各种各样的技能机。",
+   "en": "TMs & HMs Pocket{NEWLINE}For all different types of TMs and HMs.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/123"
+  },
+  {
+   "id": 124,
+   "zh": "树果口袋{NEWLINE}能装上大量的树果。",
+   "en": "Berry Pocket{NEWLINE}For storing lots of Berries.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0010/124"
+  },
+  {
+   "id": 125,
+   "zh": "信件口袋{NEWLINE}装有五彩的便笺。",
+   "en": "Mail Pocket{NEWLINE}For colorful stationery.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0010/125"
+  },
+  {
+   "id": 126,
+   "zh": "战斗用品口袋{NEWLINE}装有精灵对战用的道具。",
+   "en": "Battle Items Pocket{NEWLINE}For items that are useful during battle.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/126"
+  },
+  {
+   "id": 127,
+   "zh": "重要物品口袋{NEWLINE}装有冒险必备的重要道具。",
+   "en": "Key Items Pocket{NEWLINE}For items vital to your adventure.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0010/127"
+  },
+  {
+   "id": 128,
+   "zh": "停下",
+   "en": "STOP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0010/128"
+  }
+ ]
+}

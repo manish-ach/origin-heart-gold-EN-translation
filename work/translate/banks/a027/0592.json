@@ -1,0 +1,306 @@
+{
+ "narc": "a027",
+ "bank": 592,
+ "source": "work/extract/v4/a027/0592.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "您好,这里是{NEWLINE}环球贸易站,{CLEAR}简称ＧＴＳ！{SCROLL}您可以在这里{NEWLINE}通过ＷｉーＦｉ链接{SCROLL}与全世界的玩家交换精灵。{SCROLL}请问您想使用{NEWLINE}环球精灵交换系统吗？{VAR:0200:0}",
+   "en": "Welcome! This is the Global Trade{NEWLINE}Station, or GTS for short.{SCROLL}We enable the trading of Pokémon with{NEWLINE}people worldwide over Nintendo WFC.{SCROLL}Would you like to do a global{NEWLINE}Pokémon trade? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/0"
+  },
+  {
+   "id": 1,
+   "zh": "您好！{NEWLINE}欢迎来到ＧＴＳ！{SCROLL}您想通过ＷｉーＦｉ链接{NEWLINE}与其他玩家进行{CLEAR}环球精灵交换吗？{VAR:0200:0}",
+   "en": "Hello!{NEWLINE}Welcome to the GTS!{SCROLL}Would you like to do a global Pokémon{NEWLINE}trade over Nintendo Wi-Fi{CLEAR}Connection? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/1"
+  },
+  {
+   "id": 2,
+   "zh": "在ＧＴＳ中,您可以通过{NEWLINE}存放精灵和搜寻精灵{SCROLL}这两种方法进行精灵的交换。{SCROLL}您想听详细说明吗？{VAR:0200:0}",
+   "en": "You may trade Pokémon one of two{NEWLINE}ways at the GTS.{SCROLL}You may offer a Pokémon for trade,{NEWLINE}or search among offered Pokémon.{SCROLL}Should I describe things in greater{NEWLINE}detail? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/2"
+  },
+  {
+   "id": 3,
+   "zh": "您可以在这寄存{NEWLINE}想要拿去交换的精灵,{SCROLL}之后您可以去寻找{NEWLINE}自己想要的精灵。{SCROLL}在存放期间,{NEWLINE}如果发现了条件相一致的精灵,{CLEAR}就可以进行交换。{SCROLL}您还需要听取{NEWLINE}其他的详细说明吗？{VAR:0200:0}",
+   "en": "You will be asked to put up the{NEWLINE}Pokémon you are offering to trade.{SCROLL}At that time, you will be asked what{NEWLINE}Pokémon you would like in return.{SCROLL}If another player offers your desired{NEWLINE}Pokémon in return for your offered{CLEAR}Pokémon, the trade will go through.{SCROLL}Should I explain anything else? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/3"
+  },
+  {
+   "id": 4,
+   "zh": "我们也可以从{NEWLINE}寄存的众多精灵中{SCROLL}挑选出您所需要的精灵。{SCROLL}当你要交换该精灵时,{NEWLINE}需要将对方需要的精灵{CLEAR}寄存给我们。{SCROLL}您还需要听取{NEWLINE}其他的详细说明吗？{VAR:0200:0}",
+   "en": "You may search among the Pokémon{NEWLINE}that are offered by other Trainers.{SCROLL}They will all identify what Pokémon{NEWLINE}their Trainers want back in return.{SCROLL}If you find one that you want, you{NEWLINE}must provide us with the kind of{CLEAR}Pokémon wanted in return.{SCROLL}Should I explain anything else? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/4"
+  },
+  {
+   "id": 5,
+   "zh": "请问您想使用{NEWLINE}环球精灵交换系统吗？{VAR:0200:0}",
+   "en": "Would you like to make a global{NEWLINE}Pokémon trade? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/5"
+  },
+  {
+   "id": 6,
+   "zh": "欢迎下次再来。",
+   "en": "Please do visit again.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/6"
+  },
+  {
+   "id": 7,
+   "zh": "欢迎使用ＧＴＳ！{SCROLL}",
+   "en": "Welcome to the GTS!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "很抱歉,{SCROLL}您手头以及箱子中的{NEWLINE}精灵都已经满了,{SCROLL}您需要将手头或者箱子{NEWLINE}清理出空位{CLEAR}才能使用ＧＴＳ。",
+   "en": "I’m sorry...{SCROLL}Your party and your PC Boxes{NEWLINE}are both full of Pokémon.{SCROLL}Please free up some space in your{NEWLINE}party or a Box before using the GTS.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "很抱歉,{NEWLINE}如果您手头{SCROLL}没有两只以上的精灵,{NEWLINE}那您将无法使用ＧＴＳ。{SCROLL}请您带上精灵再来。",
+   "en": "I’m sorry, but if you don’t have{NEWLINE}at least two Pokémon with you,{SCROLL}you won’t be able to use the GTS.{SCROLL}Please come back with more Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "地球怎么才这么点啊？{SCROLL}什么！你说这只是一个模型？{NEWLINE}真正的地球{CLEAR}有它的成千上万倍大？{SCROLL}我滴这个乖乖龙地咚！",
+   "en": "Such a small world it is, eh?{SCROLL}Eh? Wait, this is a miniature?{NEWLINE}The real Earth is millions of times bigger{CLEAR}than this?{SCROLL}Whoaaaaaaa!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/10"
+  },
+  {
+   "id": 11,
+   "zh": "这个地球仪上{NEWLINE}还能记录下{SCROLL}曾与你交换过的{NEWLINE}玩家的地址！",
+   "en": "This globe can also record the locations{NEWLINE}of the players you’ve traded with!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "我们把精灵寄存在这,{NEWLINE}然后回去睡上一觉,{CLEAR}等你醒来的时候,{CLEAR}发现交换已经完成了！",
+   "en": "All I need to do is leave a Pokémon{NEWLINE}here to trade.{SCROLL}Who knows, it might be traded while{NEWLINE}I’m asleep tonight.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/12"
+  },
+  {
+   "id": 13,
+   "zh": "这里的设备太先进了,{NEWLINE}我们可以通过它{CLEAR}与住在{CLEAR}世界另一头的{CLEAR}口袋爱好者{SCROLL}方便地进行交换！",
+   "en": "Using the equipment here, you can easily{NEWLINE}trade Pokémon with other Pokémon fans{CLEAR}on the other side of the world!{SCROLL}That’s incredible!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/13"
+  },
+  {
+   "id": 14,
+   "zh": "这个地球仪上{NEWLINE}可是能够记录下{CLEAR}你所住的地方哦！{SCROLL}记录之后,{NEWLINE}与你交换过的玩家{CLEAR}也能知道你住在什么地方。",
+   "en": "You can register where you live on{NEWLINE}this giant globe.{SCROLL}Once you do, you can show your location{NEWLINE}to anyone you communicate with.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/14"
+  },
+  {
+   "id": 15,
+   "zh": "是ＷｉーＦｉ链接{NEWLINE}让我从此过上了{CLEAR}能与其他玩家{CLEAR}便捷交换的日子。",
+   "en": "Nintendo WFC is so easy to use,{NEWLINE}even I can trade Pokémon now!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/15"
+  },
+  {
+   "id": 16,
+   "zh": "你看着,这礼拜{SCROLL}我一定要打进排行榜前四……{NEWLINE}那才叫真见鬼了。",
+   "en": "Watch me. This week I’m definitely{NEWLINE}making the top four of the rankings...{SCROLL}Yeah, and pigs will fly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0600/16 | rewritten from zh (was us)"
+  },
+  {
+   "id": 17,
+   "zh": "全球接点共分三层！{SCROLL}你可以通过传送点{NEWLINE}方便地在三个楼层间来回！{SCROLL}蓝色前往１Ｆ　ＧＴＳ排行榜！{SCROLL}绿色前往２Ｆ　盒子速照和{NEWLINE}盛装速照！{SCROLL}粉色前往３Ｆ　对战录像！",
+   "en": "The Global Terminal has three floors!{SCROLL}You can use the warp panels to{NEWLINE}get between the floors easily!{SCROLL}Blue goes to the GTS and{NEWLINE}Trainer Rankings on 1F!{SCROLL}Green goes to Box Data{NEWLINE}and Dress-Up Data on 2F!{SCROLL}Pink goes to the Battle Videos on 3F!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "你的宝贝是{VAR:0100:0}吧？{VAR:0200:0}",
+   "en": "Your favorite is {VAR:0100:0},{NEWLINE}isn’t it? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/18"
+  },
+  {
+   "id": 19,
+   "zh": "你的宝贝是蛋吧？{VAR:0200:0}",
+   "en": "Your favorite is that Egg,{NEWLINE}isn’t it? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/19"
+  },
+  {
+   "id": 20,
+   "zh": "你看,我没说错吧！{NEWLINE}我想的一点都没错！",
+   "en": "See? I was right!{NEWLINE}I knew it all along!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "你的宝贝不是{VAR:0100:0}吗？",
+   "en": "...Oh? Your favorite really is{NEWLINE}{VAR:0100:0}, isn’t it?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/21"
+  },
+  {
+   "id": 22,
+   "zh": "你的宝贝不是蛋吗？",
+   "en": "...Oh? Your favorite really is that Egg,{NEWLINE}isn’t it?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/22"
+  },
+  {
+   "id": 23,
+   "zh": "我想知道所有人的宝贝精灵！",
+   "en": "I want to know everyone’s{NEWLINE}favorite Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "你在对别人{SCROLL}介绍自己的时候会说哪些呢？{NEWLINE}快点告诉我吧！{VAR:0200:0}",
+   "en": "Yo, yo, yo!{SCROLL}Wanna let the world know about you?{NEWLINE}Then you gotta tell me, yo! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/24"
+  },
+  {
+   "id": 25,
+   "zh": "我已经对你有所了解了！{SCROLL}如果你想换一句说辞,{NEWLINE}来找我就行。",
+   "en": "Yo, I know all I need to know about{NEWLINE}you now.{SCROLL}If you want to change your message,{NEWLINE}I’m the guy to see, yo!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/25"
+  },
+  {
+   "id": 26,
+   "zh": "什么！{NEWLINE}你就没什么话想说吗？{SCROLL}如果你想换一句说辞,{NEWLINE}来找我就行。",
+   "en": "Yo! You don’t have anything you want{NEWLINE}to say?{SCROLL}If you want to change your message,{NEWLINE}I’m the guy to see, yo!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/26"
+  },
+  {
+   "id": 27,
+   "zh": "全球接点中{NEWLINE}设置了各式各样的机器。{SCROLL}这些机器可以通过战斗记录器{NEWLINE}进行通信！{SCROLL}首先,请挑选一个{NEWLINE}你喜欢的机器。",
+   "en": "The Global Terminal has{NEWLINE}all sorts of machines.{SCROLL}You can connect to them{NEWLINE}with your Vs. Recorder!{SCROLL}First, pick whichever machine you like.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "欢迎来到全球接点！{SCROLL}你可以在这里{NEWLINE}查看全世界训练师的记录{SCROLL}并且还能与全世界玩家交换精灵！",
+   "en": "Welcome to the Global Terminal!{SCROLL}Here you can view the records of{NEWLINE}Trainers from all over the world,{SCROLL}and trade Pokémon with{NEWLINE}players around the globe!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "要使用ＷｉーＦｉ连接{NEWLINE}查看训练师排行榜吗？{VAR:0200:0}",
+   "en": "Connect to Nintendo Wi-Fi{NEWLINE}Connection for Trainer Rankings? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/29"
+  },
+  {
+   "id": 30,
+   "zh": "训练师排行榜{NEWLINE}会将全世界的训练师{CLEAR}划分为数个小队,{CLEAR}这些小队将相互战斗,{CLEAR}争夺排名。{SCROLL}您的成绩将{NEWLINE}自动发送到您所在的队伍。{SCROLL}请注意一点！{SCROLL}如果你反复参加{NEWLINE}同一个排行榜,{SCROLL}则发送的成绩会覆盖掉{CLEAR}上一次的成绩。{SCROLL}",
+   "en": "Trainer Rankings split Trainers all over{NEWLINE}the world into several teams, and the{CLEAR}teams battle it out for the top spot.{SCROLL}Your results are sent to{NEWLINE}your team automatically.{SCROLL}Please note!{SCROLL}If you enter the same{NEWLINE}ranking more than once,{SCROLL}your new results will{NEWLINE}overwrite the previous ones.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "要使用ＷｉーＦｉ连接{NEWLINE}查看对战录像排行榜吗？{VAR:0200:0}",
+   "en": "Connect to Nintendo Wi-Fi Connection{NEWLINE}and examine the Battle Video{CLEAR}Rankings? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/31"
+  },
+  {
+   "id": 32,
+   "zh": "对战录像排行榜{NEWLINE}会将那些备受欢迎的对战录像{CLEAR}推荐给您。{SCROLL}你可以在这些录像中{NEWLINE}参考别人的对战思路。{SCROLL}",
+   "en": "Battle Video Rankings recommend the{NEWLINE}most popular Battle Videos to you.{SCROLL}You can study them to learn how{NEWLINE}other Trainers think in battle.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "使用",
+   "en": "USE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/33",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 34,
+   "zh": "听取说明",
+   "en": "INFO",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/34",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 35,
+   "zh": "取消",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0600/35",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 36,
+   "zh": "选择绿色{NEWLINE}可以前往２Ｆ{CLEAR}查看盒子速照以及{CLEAR}盛装速照。{SCROLL}选择粉色{NEWLINE}可以前往３Ｆ{CLEAR}查看对战录像。",
+   "en": "Choose green to go to 2F and{NEWLINE}view Box Data and Dress-Up Data.{SCROLL}Choose pink to go to 3F{NEWLINE}and view Battle Videos.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "narc": "a027",
+ "bank": 388,
+ "source": "work/extract/v4/a027/0388.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "你是从哪里来的？{SCROLL}诶？真新镇？{SCROLL}那里好像是……{NEWLINE}大木博士和联盟冠军居住的镇子吧？{CLEAR}从这么遥远的地方来的啊！",
+   "en": "Where did you say you’re from?{SCROLL}Huh? Pallet Town?{SCROLL}Isn’t that the town where Prof. Oak{NEWLINE}and the League Champion live? You’ve{CLEAR}come a long way to get here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack changed the US line: zh 真新镇/大木博士和联盟冠军 (Pallet Town, Prof. Oak and the Champion); retranslated.; ext-review RV-019"
+  },
+  {
+   "id": 1,
+   "zh": "看你经常出门旅行的样子,{NEWLINE}旅途中应该收集了不少道具吧？{CLEAR}但是背包的容量其实是有限的哦,{CLEAR}如果哪种道具收集了上千个的话,{CLEAR}背包很可能就装不下了,{CLEAR}到那时候一定要记得清理背包。",
+   "en": "You look like someone who travels{NEWLINE}a lot. You must have picked up{CLEAR}plenty of items on the road.{SCROLL}But your Bag’s space is{NEWLINE}actually limited. If you collect{CLEAR}a thousand or more of one{CLEAR}item, it might not fit anymore.{SCROLL}When that happens, be sure{NEWLINE}to clear out your Bag.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "您希望暴走族去水都吗？",
+   "en": "Do you want the bikers{NEWLINE}to go to Alto Mare?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Toggle for the Alto Mare Bikers event (暴走族 → bikers; cf. the Alto Mare Bikers)."
+  },
+  {
+   "id": 3,
+   "zh": "让暴走族去水都",
+   "en": "Send them to Alto Mare",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 4,
+   "zh": "暴走族留在关东",
+   "en": "Keep them in Kanto",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 5,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 6,
+   "zh": "现在暴走族是去水都的状态了。",
+   "en": "The bikers are now set{NEWLINE}to go to Alto Mare.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "现在暴走族没有去水都。",
+   "en": "The bikers are now{NEWLINE}not going to Alto Mare.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "consistency fix (follow-up 4)"
+  }
+ ]
+}

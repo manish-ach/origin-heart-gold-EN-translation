@@ -1,0 +1,615 @@
+{
+ "narc": "a027",
+ "bank": 253,
+ "source": "work/extract/v4/a027/0253.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "水吾桐『等我的手下{NEWLINE}把精灵和财物都搜刮完,{CLEAR}你和圣安努号就可以去海底报到了。{SCROLL}水吾桐『哈哈哈,真是适合{NEWLINE}你这个老海员的死法啊。",
+   "en": "Archie: Once my men finish grabbing all{NEWLINE}the Pokémon and valuables...{SCROLL}...you and the S.S. Anne can go report{NEWLINE}to the bottom of the sea.{SCROLL}Archie: Ha ha ha! A fitting end for an{NEWLINE}old sea dog like you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "船长『为什么要做这种事,水吾桐……{NEWLINE}你明明是个优秀的水手和训练家,{CLEAR}为什么要加入火箭队这种犯罪组织。",
+   "en": "Captain: Why are you doing this,{NEWLINE}Archie...? You’re a fine sailor and a{CLEAR}fine Trainer.{SCROLL}Why would you join a criminal gang like{NEWLINE}Team Rocket?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "水吾桐『你问为什么？{NEWLINE}本大爷可是拥有12个徽章、{CLEAR}在石英大会中拿到名次的精英训练家！{CLEAR}结果却被派在这破船上{CLEAR}每天给这些一无是处的客人陪笑脸,{CLEAR}最终渐渐变成跟他们一样的普通人……",
+   "en": "Archie: Why, you ask? I’m an Ace{NEWLINE}Trainer with 12 Badges who placed at{CLEAR}the Indigo Conference!{SCROLL}And yet I get stuck on this rust{NEWLINE}bucket, smiling for good-for-nothing{CLEAR}passengers every day...{SCROLL}...until I slowly turn as ordinary as{NEWLINE}they are...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-020"
+  },
+  {
+   "id": 3,
+   "zh": "水吾桐『哦？竟然有一只小老鼠闯进来。",
+   "en": "Archie: Oh? A little mouse has snuck in.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "水吾桐『你能来到这里,{NEWLINE}应该也是有点本事的。{CLEAR}怎么样,要不要加入我们火箭队？",
+   "en": "Archie: If you made it this far, you{NEWLINE}must have some skill.{SCROLL}How about it? Want to join Team Rocket?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:0103:0}『我可是堂堂的真新镇训练家！{NEWLINE}怎么可能加入你们这种犯罪组织！",
+   "en": "{VAR:0103:0}: I’m a proud Trainer from{NEWLINE}Pallet Town! No way I’d join a criminal{CLEAR}gang like yours!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0103:0}『真是好笑,{NEWLINE}你们火箭队给我当手下还差不多！",
+   "en": "{VAR:0103:0}: What a joke. Team Rocket{NEWLINE}would make better underlings for me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "水吾桐『哼,骗谁呢。{NEWLINE}你的眼神里可丝毫没有要加入的诚意。",
+   "en": "Archie: Hmph. Who are you kidding?{NEWLINE}There’s not a shred of real interest in{CLEAR}your eyes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "水吾桐『既然这样,那就拿你的脑袋{NEWLINE}作为我们火箭队征服世界的垫脚石吧。{CLEAR}给我上,铁螯龙虾！",
+   "en": "Archie: In that case, your head will be{NEWLINE}a stepping stone for Team Rocket’s{CLEAR}conquest of the world.{SCROLL}Get ’em, Crawdaunt!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "水吾桐『哈哈哈哈,{NEWLINE}就凭你们怎么可能赢得了本大爷！{CLEAR}回来吧,我的口袋妖怪们。",
+   "en": "Archie: Ha ha ha ha! As if the likes of{NEWLINE}you could ever beat me! Return, my{CLEAR}Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "水吾桐『你们这群失败的垃圾{NEWLINE}就跟圣安努号一起{CLEAR}沉没在这片大海里吧！{CLEAR}哈哈哈哈哈哈哈！",
+   "en": "Archie: You pack of worthless trash can{NEWLINE}sink to the bottom of this sea along{CLEAR}with the S.S. Anne!{SCROLL}Hahahahahaha!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "小绿『喂喂！这船怎么回事……",
+   "en": "Blue: Hey, hey! What’s going on with{NEWLINE}this ship...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "小蓝『该不会是火箭队{NEWLINE}真的想要把船给弄沉吧！？",
+   "en": "Green: Don’t tell me Team Rocket really{NEWLINE}means to sink the ship?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Green = male-player route (Red alternate)."
+  },
+  {
+   "id": 13,
+   "zh": "小赤『难道火箭队真的{NEWLINE}想要把船给弄沉！？",
+   "en": "Red: Is Team Rocket really trying to{NEWLINE}sink the ship?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Red = female-player route (Green alternate)."
+  },
+  {
+   "id": 14,
+   "zh": "船长『你们几个快过来,{NEWLINE}我这里正好有三件救生衣！",
+   "en": "Captain: You three, over here, quick! I{NEWLINE}have exactly three life jackets!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "水吾桐『可恶的臭小鬼们！{NEWLINE}居然敢坏本大爷的事！{CLEAR}我绝对饶不了你们！{CLEAR}你们就跟圣安努号一起{CLEAR}沉没在这片大海里吧！",
+   "en": "Archie: Rotten brats! How dare you ruin{NEWLINE}my plans! I’ll never forgive you!{SCROLL}You can sink to the bottom of this sea{NEWLINE}along with the S.S. Anne!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "乘坐我们水绿号的{NEWLINE}感觉如何？{SCROLL}感觉就像在海面上{NEWLINE}滑行一样对吧！",
+   "en": "How do you like S.S. Aqua’s ride?{SCROLL}She practically skates across{NEWLINE}the waves.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "zh 水绿号 (S.S. Aqua) is a vanilla leftover in #16/#17; US lines kept. | coordinator: S.S. Aqua → S.S. Anne (hack renamed the ship) | D-1195 + user 2026-09-29: follow the zh 水绿号 = S.S. Aqua (hack finding: probably not renamed)"
+  },
+  {
+   "id": 17,
+   "zh": "嗨~真是好久不见,你还好吗？{NEWLINE}水绿号今天的状态也是一级棒！{SCROLL}对了对了,前不久,去新奥地区{NEWLINE}玩的时候,{SCROLL}发现了一个感觉怪怪的{NEWLINE}东西！{SCROLL}难得一见,就把这个东西给你吧！{SCROLL}",
+   "en": "Long time no see.{NEWLINE}How are you doing?{SCROLL}The S.S. Aqua is as smooth as she{NEWLINE}can be!{SCROLL}By the way, I found this mysterious{NEWLINE}thing when I went to Sinnoh{CLEAR}the other day.{SCROLL}Now that we’ve met again,{NEWLINE}I would like you to have it.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0260/7 | coordinator: S.S. Aqua → S.S. Anne (hack renamed the ship) | D-1195 + user 2026-09-29: follow the zh 水绿号 = S.S. Aqua (hack finding: probably not renamed)"
+  },
+  {
+   "id": 18,
+   "zh": "水吾桐『看来你还真有两下子,{NEWLINE}不过我水吾桐大人也不是吃素的,{CLEAR}这就让你见识一下火箭队干部的实力！",
+   "en": "Archie: Looks like you’ve got some skill.{NEWLINE}But I, Archie, am no pushover either.{SCROLL}Now I’ll show you the power of a Team{NEWLINE}Rocket Executive!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "水吾桐『出来吧,我的口袋妖怪们！",
+   "en": "Archie: Come on out, my Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "地震鲶鱼『Whiiii——ca！",
+   "en": "Whiscash: Whiiii-ca!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "刺龙王『King——dra！",
+   "en": "Kingdra: King-dra!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "帝牙海狮『Wal——rein！",
+   "en": "Walrein: Wal-rein!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "巨牙鲨『Shar——pe！",
+   "en": "Sharpedo: Shar-pe!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "镰刀盔『Ka——buto！",
+   "en": "Kabutops: Ka-buto!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "铁螯龙虾『Craw——daun！",
+   "en": "Crawdaunt: Craw-daun!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "水吾桐『哈哈哈哈,就凭你{NEWLINE}也想阻止全力出击的本大爷？{CLEAR}螳臂当车！",
+   "en": "Archie: Ha ha ha ha! You think you can{NEWLINE}stop me when I’m going all out? You’re a{CLEAR}bug trying to stop a train!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "小绿『治疗混乱稍微耽误了点时间,{NEWLINE}怎么样啊{VAR:0103:0},你还没有被揍扁吧？",
+   "en": "Blue: Curing the confusion took a little{NEWLINE}longer than I thought. How’s it going,{CLEAR}{VAR:0103:0}? Not flattened yet?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "小绿『治疗混乱稍微耽误了点时间,{NEWLINE}不过{VAR:0103:0}你现在可以放心了,{CLEAR}我来帮你揍扁他。",
+   "en": "Blue: Curing the confusion took a little{NEWLINE}while, but you can relax now, {VAR:0103:0}.{SCROLL}I’ll help you flatten him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "小蓝『你们火箭队{NEWLINE}真是越来越张扬了啊,{CLEAR}居然都敢明目张胆地抢劫游轮了！",
+   "en": "Green: Team Rocket’s getting bolder{NEWLINE}and bolder. Robbing a cruise ship right{CLEAR}out in the open!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Green = male-player route (Red alternate)."
+  },
+  {
+   "id": 30,
+   "zh": "小赤『你们火箭队{NEWLINE}真是越来越张扬了啊,{CLEAR}居然都敢明目张胆地抢劫游轮了！",
+   "en": "Red: Team Rocket’s getting bolder and{NEWLINE}bolder. Robbing a cruise ship right out{CLEAR}in the open!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Red = female-player route (Green alternate)."
+  },
+  {
+   "id": 31,
+   "zh": "水吾桐『你们这些下等人{NEWLINE}真是喜欢唧唧歪歪。{CLEAR}那么想死的话我就成全你们！",
+   "en": "Archie: You lowlifes sure love to yap. If{NEWLINE}you want to die that badly, I’ll be{CLEAR}happy to oblige!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "水吾桐『混蛋！{NEWLINE}你们这些碍事的臭小鬼！{CLEAR}总有一天我要把你们的头给拧下来！",
+   "en": "Archie: Bastards! You meddling brats!{NEWLINE}Someday I’ll wring your heads off!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "船长『居然可以赶走水吾桐,{NEWLINE}你们几个年轻人可真是了不起。{CLEAR}也多亏有你们的帮助,{CLEAR}才能重新夺回圣安努号的控制权。",
+   "en": "Captain: You actually drove Archie off.{NEWLINE}You young people are remarkable.{SCROLL}Thanks to your help, we’ve taken back{NEWLINE}control of the S.S. Anne.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "船长『为了防止再有意外发生,{NEWLINE}圣安努号的本次航行暂时终止,{CLEAR}我现在就把游轮开回枯叶港。",
+   "en": "Captain: To prevent any more trouble,{NEWLINE}this voyage of the S.S. Anne is{CLEAR}cancelled.{SCROLL}I’ll take the ship back to Vermilion{NEWLINE}Harbor right away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "小绿『终于出来了啊{VAR:0103:0},{NEWLINE}刚刚这次航行可真够惊险的,{CLEAR}不过倒也使我收获了不少经验。{CLEAR}就是不能去城都地区旅行有点可惜。{CLEAR}算了,以后还有机会。{CLEAR}暂时先以关东的8个徽章为目标吧,{CLEAR}{VAR:0103:0}你可别被我落下太远哦。",
+   "en": "Blue: You’re finally out, {VAR:0103:0}. That{NEWLINE}voyage was a close call, but I learned a{CLEAR}lot from it.{SCROLL}Shame we couldn’t go traveling in Johto.{NEWLINE}Oh well, there’ll be other chances.{SCROLL}For now, I’m aiming for Kanto’s 8{NEWLINE}Badges. {VAR:0103:0}, don’t fall too far{CLEAR}behind me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "小蓝『火箭队真是防不胜防啊,{NEWLINE}以后的旅途你也要多加小心,{CLEAR}可别中了他们的诡计。",
+   "en": "Green: You never know what Team Rocket{NEWLINE}will pull. Be careful on your journey{CLEAR}from now on...{SCROLL}...and don’t fall for their tricks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Green = male-player route (Red alternate)."
+  },
+  {
+   "id": 37,
+   "zh": "小赤『火箭队真是防不胜防啊,{NEWLINE}以后的旅途你也要多加小心,{CLEAR}可别中了他们的诡计。",
+   "en": "Red: You never know what Team Rocket{NEWLINE}will pull. Be careful on your journey{CLEAR}from now on...{SCROLL}...and don’t fall for their tricks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Red = female-player route (Green alternate)."
+  },
+  {
+   "id": 38,
+   "zh": "小绿『你出来了{VAR:0103:0},{NEWLINE}刚刚这次航行可真够惊险的,{CLEAR}不过倒也使我收获了不少经验。{CLEAR}就是不能去城都地区旅行有点可惜。{CLEAR}算了,以后还有机会。{CLEAR}暂时先以关东的8个徽章为目标吧,{CLEAR}{VAR:0103:0}你也要加油哦。",
+   "en": "Blue: There you are, {VAR:0103:0}. That{NEWLINE}voyage was a close call, but I learned a{CLEAR}lot from it.{SCROLL}Shame we couldn’t go traveling in Johto.{NEWLINE}Oh well, there’ll be other chances.{SCROLL}For now, I’m aiming for Kanto’s 8{NEWLINE}Badges. {VAR:0103:0}, you keep at it too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "乔伊『您醒过来啦？{NEWLINE}真是太好了,{CLEAR}你的朋友们都很担心你呢。",
+   "en": "Joy: You’re awake? Thank goodness.{NEWLINE}Your friends were all so worried about{CLEAR}you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "马志士『终于啊,你也恢复意识了。{NEWLINE}我把你们从水里拉上来的时候{CLEAR}还以为又是三个遇难者呢。{SCROLL}马志士『圣安努号上发生的事情{NEWLINE}我都听你那两个伙伴说了。{CLEAR}你们能跟火箭队战斗到最后一刻{CLEAR}真是非常了不起。{SCROLL}马志士『通过这件事情{NEWLINE}我感受到了你们身上的潜力,{CLEAR}所以无论过去发生了什么,{CLEAR}我都希望你能坚持这次修行之旅。{SCROLL}马志士『这样当再有危机来临时,{NEWLINE}你就能拿出更强的实力保护大家了。{CLEAR}努力成为一名伟大的训练家吧！",
+   "en": "Lt. Surge: Finally, you’ve come around.{NEWLINE}When I pulled you kids out of the{CLEAR}water...{SCROLL}...I figured we had three more victims.{SCROLL}Lt. Surge: Your two buddies told me{NEWLINE}everything that happened on the{CLEAR}S.S. Anne.{SCROLL}You fought Team Rocket to the very{NEWLINE}end. That’s really something.{SCROLL}Lt. Surge: This showed me what you kids{NEWLINE}are capable of.{SCROLL}So whatever happened before, I want{NEWLINE}you to stick with this training journey,{CLEAR}kid.{SCROLL}Lt. Surge: That way, when the next{NEWLINE}crisis comes, you’ll be strong enough to{CLEAR}protect everyone.{SCROLL}Work hard and become a great Trainer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "小绿『火箭队炸毁了圣安努号的引擎{NEWLINE}最终导致圣安努号沉没……{CLEAR}犯下这种罪行的火箭队……{CLEAR}视生命如草芥的火箭队……",
+   "en": "Blue: Team Rocket blew up the{NEWLINE}S.S. Anne’s engine and sank the ship...{SCROLL}Team Rocket did this... Team Rocket{NEWLINE}treats lives like they’re nothing...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "小绿『所以{VAR:0103:0},{NEWLINE}我们一定要变得更强,{CLEAR}要从这种坏人手里保护大家！{CLEAR}总有一天要让火箭队{CLEAR}为今天所做的事情付出代价！",
+   "en": "Blue: So, {VAR:0103:0}, we’ve got to get{NEWLINE}stronger. We have to protect everyone{CLEAR}from scum like that!{SCROLL}Someday we’ll make Team Rocket pay for{NEWLINE}what they did today!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "小蓝『都怪我考虑不周全{NEWLINE}才会让事情变成这样……{CLEAR}我从小就跟火箭队接触,{CLEAR}虽然知道他们是危险的犯罪组织,{CLEAR}但真没想到他们会这么丧心病狂,{CLEAR}还是我太低估他们了啊……",
+   "en": "Green: It’s my fault for not thinking{NEWLINE}things through...{SCROLL}I’ve dealt with Team Rocket since I was{NEWLINE}little. I knew they were a dangerous{CLEAR}criminal gang...{SCROLL}...but I never dreamed they’d go this{NEWLINE}far. I underestimated them...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Green = male-player route (Red alternate)."
+  },
+  {
+   "id": 44,
+   "zh": "小赤『都怪我考虑不周全{NEWLINE}才会让事情变成这样……{CLEAR}我从小就跟火箭队接触,{CLEAR}虽然知道他们是危险的犯罪组织,{CLEAR}但真没想到他们会这么丧心病狂,{CLEAR}还是我太低估他们了啊……",
+   "en": "Red: It’s my fault for not thinking{NEWLINE}things through...{SCROLL}I’ve dealt with Team Rocket since I was{NEWLINE}little. I knew they were a dangerous{CLEAR}criminal gang...{SCROLL}...but I never dreamed they’d go this{NEWLINE}far. I underestimated them...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Red = female-player route (Green alternate)."
+  },
+  {
+   "id": 45,
+   "zh": "小蓝『{VAR:0103:0}你以后在旅行中{NEWLINE}或许还会再遇到火箭队,{CLEAR}到时候一定要多加小心啊！",
+   "en": "Green: {VAR:0103:0}, you may run into Team{NEWLINE}Rocket again on your travels.{SCROLL}Be really careful when you do!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Green = male-player route (Red alternate)."
+  },
+  {
+   "id": 46,
+   "zh": "小赤『{VAR:0103:0}你以后在旅行中{NEWLINE}或许还会再遇到火箭队,{CLEAR}到时候一定要多加小心啊！",
+   "en": "Red: {VAR:0103:0}, you may run into Team{NEWLINE}Rocket again on your travels.{SCROLL}Be really careful when you do!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Red = female-player route (Green alternate)."
+  },
+  {
+   "id": 47,
+   "zh": "船长『任何人都有存在的意义和价值,{NEWLINE}并不是说平凡就……",
+   "en": "Captain: Everyone has meaning and{NEWLINE}worth. Being ordinary doesn’t mean...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "水吾桐『住嘴！本大爷可是精英！{NEWLINE}注定要站到世界的中心成为人上人！{CLEAR}绝不会掉在这种普通人堆里沉沦！{SCROLL}水吾桐『我要跟随我们火箭队的首领{NEWLINE}登上这个世界权力的巅峰,{CLEAR}享受将你们踩在脚下的快感！",
+   "en": "Archie: Shut up! I’m elite! I’m destined{NEWLINE}to stand at the center of the world,{CLEAR}above everyone else!{SCROLL}I’ll never sink into a heap of ordinary{NEWLINE}people like this!{SCROLL}Archie: I’ll follow Team Rocket’s Boss{NEWLINE}to the summit of this world’s power...{SCROLL}...and enjoy the thrill of crushing all{NEWLINE}of you underfoot!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "小绿『卡咪龟,给它最后一击！",
+   "en": "Blue: Wartortle, finish it off!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "小蓝『看你的了,妙蛙种子！",
+   "en": "Green: You’re up, Bulbasaur!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Green = male-player route (Red alternate)."
+  },
+  {
+   "id": 51,
+   "zh": "小赤『趁现在！妙蛙种子！",
+   "en": "Red: Now’s our chance! Bulbasaur!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Branch: Red = female-player route (Green alternate)."
+  },
+  {
+   "id": 52,
+   "zh": "马志士『嘿,你！我都听说了。{NEWLINE}在船上痛扁了火箭队这帮人。{CLEAR}也多亏你们的活跃表现{CLEAR}乘客和船员都平安无事。{SCROLL}马志士『这是对你们行为的表彰,{NEWLINE}收下吧。",
+   "en": "Lt. Surge: Hey, you! I heard all about{NEWLINE}it. You kids gave those Team Rocket{CLEAR}goons a beating on that ship.{SCROLL}Thanks to you, the passengers and crew{NEWLINE}are all safe and sound.{SCROLL}Lt. Surge: This is a reward for what you{NEWLINE}did. Take it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "我是专门负责照顾船长起居的服务员。{SCROLL}船长这么大年龄了{NEWLINE}还能保持健康的身体从事航海工作,{CLEAR}可是有我很大的功劳呐！",
+   "en": "I’m the steward who looks after the{NEWLINE}captain.{SCROLL}The captain’s still fit enough to sail at{NEWLINE}his age, and that’s largely thanks to{CLEAR}me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "我是船上的二副,{NEWLINE}平时游轮的航行都是由我操控。{CLEAR}我的航海技术都是跟副船长学的哟。",
+   "en": "I’m the ship’s second mate. I usually{NEWLINE}steer the ship. I learned all my{CLEAR}seamanship from the first mate.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "船长『唔……{NEWLINE}吐出来之后总算好受点了。",
+   "en": "Captain: Urgh... I feel a bit better now{NEWLINE}that I’ve thrown up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "船长『呀,是船上的游客啊,{NEWLINE}来这里参观吗？欢迎欢迎。{SCROLL}船长『怎么样,{NEWLINE}我们圣安努号很漂亮吧？{CLEAR}可惜我快要退休了,{CLEAR}不知道还能再陪她出海几次。{SCROLL}船长『好在我已经向精灵联盟{NEWLINE}推荐了一个出色的接班人,{CLEAR}就是我们现在的副船长水吾桐。{CLEAR}他可是航海的专家,{CLEAR}又是精灵联盟认定的精英训练家,{CLEAR}由他来照顾圣安努号最合适不过了。",
+   "en": "Captain: Oh, one of our passengers!{NEWLINE}Here to look around? Welcome, welcome.{SCROLL}Captain: Well, isn’t our S.S. Anne a{NEWLINE}beauty? Sadly, I’m retiring soon.{SCROLL}I wonder how many more times I’ll get to{NEWLINE}sail with her.{SCROLL}Captain: Luckily, I’ve recommended a{NEWLINE}fine successor to the Pokémon League:{CLEAR}our first mate, Archie.{SCROLL}He’s an expert sailor and a{NEWLINE}League-certified Ace Trainer. There’s{CLEAR}no one better to look after the{CLEAR}S.S. Anne.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-020"
+  },
+  {
+   "id": 57,
+   "zh": "船长『海上航行的浪漫之一{NEWLINE}就是可以跟陌生人相识并成为朋友。{CLEAR}话说你已经跟多少乘客打过招呼了呢？",
+   "en": "Captain: One of the joys of sailing is{NEWLINE}meeting strangers and becoming friends.{SCROLL}So, how many passengers have you said{NEWLINE}hello to?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "船长『哈哈,一不小心{NEWLINE}跟你说了这么多我们船上的事。{CLEAR}感谢你能耐心听完,请收下这个。{CLEAR}就当作参观圣安努号的纪念品吧。",
+   "en": "Captain: Ha ha, I got carried away{NEWLINE}telling you all about our ship. Thanks{CLEAR}for listening so patiently.{SCROLL}Please take this, as a souvenir of your{NEWLINE}visit to the S.S. Anne.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "船长『让精灵学会居合斩的话,{NEWLINE}就能斩断路上的小树了,{CLEAR}是很方便的技能哦。",
+   "en": "Captain: Teach a Pokémon Cut, and it{NEWLINE}can cut down small trees in your path.{CLEAR}It’s a very handy move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "广播『各位旅客,{NEWLINE}本游轮的豪华派对即将开始。{CLEAR}欢迎大家到大厅来参加派对。",
+   "en": "Announcement: Attention, passengers.{NEWLINE}Our grand party is about to begin.{SCROLL}Please join us in the main hall.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "船长『哎呀,派对好像开始了,{NEWLINE}你快去参加派对吧。{CLEAR}我们圣安努号的派对可是很热闹的。",
+   "en": "Captain: Oh my, sounds like the party’s{NEWLINE}started. Hurry along and join in.{SCROLL}Parties on the S.S. Anne are always{NEWLINE}lively.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "船长『派对已经开始了,{NEWLINE}你快去参加派对吧。{CLEAR}我们圣安努号的派对可是很热闹的。",
+   "en": "Captain: The party’s already started.{NEWLINE}Hurry along and join in.{SCROLL}Parties on the S.S. Anne are always{NEWLINE}lively.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "马志士大人！{NEWLINE}又发现了一具遇难者遗体！",
+   "en": "Lt. Surge, sir! We found another{NEWLINE}victim’s body!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "马志士『等等！{NEWLINE}如果他穿着救生衣的话……{SCROLL}马志士『他还有呼吸！",
+   "en": "Lt. Surge: Wait! If he’s wearing a life{NEWLINE}jacket...{SCROLL}Lt. Surge: He’s still breathing!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "马志士『快来帮忙！发现生还者了！",
+   "en": "Lt. Surge: Over here! We’ve got a{NEWLINE}survivor!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "马志士大人！{NEWLINE}这边两个穿救生衣的人也还有呼吸！",
+   "en": "Lt. Surge, sir! These two in life{NEWLINE}jackets are still breathing too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "马志士『那还磨蹭什么！{NEWLINE}快把他们送去抢救！",
+   "en": "Lt. Surge: Then what are you waiting{NEWLINE}for?! Get them to emergency care, now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "你好,我是新圣安努号的船长。{NEWLINE}船上全区域对游客开放参观,{CLEAR}希望你能玩得愉快。",
+   "en": "Hello, I’m the captain of the new{NEWLINE}S.S. Anne. The whole ship is open to{CLEAR}visitors.{SCROLL}I hope you enjoy yourself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "你好,欢迎来到新圣安努号。{NEWLINE}作为第1000位到访的旅客,{CLEAR}请收下我为您准备的特别礼物。",
+   "en": "Hello, and welcome to the new S.S. Anne.{NEWLINE}As our 1000th visitor...{SCROLL}...please accept this special gift I’ve{NEWLINE}prepared for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "祝你在新圣安努号上玩得愉快。",
+   "en": "Enjoy your time aboard the new{NEWLINE}S.S. Anne.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "{VAR:0103:0}『可恶,等级差太多了……",
+   "en": "{VAR:0103:0}: Blast it, the level gap is too{NEWLINE}big...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "水吾桐『哈哈哈,自寻死路的家伙。{NEWLINE}铁螯龙虾,给我剪断这个小鬼的脖子！",
+   "en": "Archie: Ha ha ha! You asked for it.{NEWLINE}Crawdaunt, snip this brat’s neck!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Faithful: zh 剪断这个小鬼的脖子 ('snip this brat's neck')."
+  },
+  {
+   "id": 73,
+   "zh": "{VAR:0103:0}『如你所愿,我正陷入苦战呢。",
+   "en": "{VAR:0103:0}: Just like you hoped, I’m in a{NEWLINE}tough fight.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "{VAR:0103:0}『你能来真是太好了,{NEWLINE}敌人不是一般的强,{CLEAR}再打下去我可能就撑不住了。",
+   "en": "{VAR:0103:0}: I’m so glad you came. This{NEWLINE}guy’s way stronger than a normal{CLEAR}enemy.{SCROLL}I might not have lasted much longer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "水吾桐『阻挡我水吾桐计划的人,{NEWLINE}只有一个下场,{CLEAR}那就是——死！",
+   "en": "Archie: Anyone who gets in the way of my{NEWLINE}plans meets only one end...{SCROLL}...death!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

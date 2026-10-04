@@ -1,0 +1,175 @@
+{
+ "narc": "a027",
+ "bank": 544,
+ "source": "work/extract/v4/a027/0544.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "与别人交换来的精灵,{NEWLINE}亲密度会重置。{CLEAR}身为训练家,{CLEAR}要好好培养与精灵的感情才行啊。",
+   "en": "A Pokémon you get in a trade{NEWLINE}starts over with its friendship.{CLEAR}As a Trainer, you need to build{CLEAR}a bond with your Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "火箭队曾经在吉野市大闹过一番,{NEWLINE}当时有几位优秀的训练家奋起反抗,{CLEAR}却惨遭毒手不幸身亡。{SCROLL}后来多亏了联盟冠军{VAR:0103:0}{NEWLINE}先后在常磐道馆和华蓝洞穴{CLEAR}击败了火箭队首领坂木,{CLEAR}这个邪恶的组织才能够销声匿迹。",
+   "en": "Team Rocket once ran riot here{NEWLINE}in Cherrygrove City. A few brave{CLEAR}Trainers stood up to them,{CLEAR}but they were brutally killed.{SCROLL}Later, League Champion {VAR:0103:0}{NEWLINE}beat the Rocket Boss Giovanni{CLEAR}at the Viridian Gym and again in{CLEAR}Cerulean Cave. Only then did that{CLEAR}evil organization finally vanish.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "寄生种子是可以每回合{NEWLINE}吸收对手体力的技能,{CLEAR}像吔花宝这样攻击力较弱的精灵,{CLEAR}使用寄生种子,{CLEAR}就可以给强大的对手造成可观的伤害。{SCROLL}如果你有精灵想学寄生种子的话,{NEWLINE}只要给我一个朋友球,{CLEAR}我就可以教你哦。{SCROLL}要学寄生种子吗？",
+   "en": "Leech Seed drains the foe’s HP{NEWLINE}every turn. With it, even a Pokémon{CLEAR}with weak attacks, like Cherubi, can{CLEAR}do serious damage to a strong foe.{SCROLL}If you’ve got a Pokémon that wants{NEWLINE}to learn Leech Seed, just give me{CLEAR}one Friend Ball and I’ll teach it.{SCROLL}Want to learn Leech Seed?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "想学的话欢迎再来找我。",
+   "en": "If you want to learn{NEWLINE}it, come see me again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "欢迎来到{NEWLINE}口袋无线俱乐部联机房！{SCROLL}……哦,您好,{NEWLINE}我正在背欢迎词。{SCROLL}您还需静候一段时间{NEWLINE}等待联机房开放！",
+   "en": "Welcome to the Pokémon{NEWLINE}Wireless Club Union Room!{SCROLL}...Oh, hello. I’m just{NEWLINE}practicing my welcome speech.{SCROLL}Please wait a while longer{NEWLINE}for the Union Room to open!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "欢迎来到口袋无线俱乐部{NEWLINE}圆形剧场！{SCROLL}……哦,您好,{NEWLINE}我正在背欢迎词。{SCROLL}您还需静候一段时间{NEWLINE}等待圆形剧场开放！",
+   "en": "Welcome to the Pokémon{NEWLINE}Wireless Club Colosseum!{SCROLL}...Oh, hello. I’m just{NEWLINE}practicing my welcome speech.{SCROLL}Please wait a while longer{NEWLINE}for the Colosseum to open!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "我怎么越看你越像{NEWLINE}联盟冠军{VAR:0103:0}啊……",
+   "en": "The more I look at you, the more you{NEWLINE}look like League Champion {VAR:0103:0}...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 8,
+   "zh": "你并没有朋友球啊,{NEWLINE}等有球了再来找我吧。",
+   "en": "You don’t have a Friend Ball.{NEWLINE}Come back when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住寄生种子。{SCROLL}",
+   "en": "Sorry... This Pokémon{NEWLINE}can’t learn Leech Seed.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 11,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会接力棒了！{SCROLL}",
+   "en": "This {VAR:0100:0} already{NEWLINE}knows Baton Pass!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack slip: the Leech Seed tutor's ‘already knows’ line names Baton Pass (接力棒); translated as written."
+  },
+  {
+   "id": 12,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0101:0}学会了寄生种子！",
+   "en": "{VAR:0101:0} learned Leech Seed!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会寄生种子了！{SCROLL}那么按照约定,{NEWLINE}1个朋友球我拿走了。",
+   "en": "And with that, your {VAR:0100:0}{NEWLINE}has learned Leech Seed!{SCROLL}As we agreed, I’ll take 1 Friend Ball.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的寄生种子……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习寄生种子{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to{NEWLINE}learn Leech Seed...!{SCROLL}But {VAR:0101:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move{NEWLINE}to learn Leech Seed?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all{NEWLINE}about {VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0101:0}学会了寄生种子！",
+   "en": "{VAR:0101:0} learned Leech Seed!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "你是要放弃{NEWLINE}让它记住寄生种子吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Leech Seed?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "吔花宝『Cheee——ru！",
+   "en": "Cherubi: Cheee-ru!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

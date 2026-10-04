@@ -1,0 +1,1151 @@
+{
+ "narc": "a027",
+ "bank": 290,
+ "source": "work/extract/v4/a027/0290.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "四散",
+   "en": "Scatter",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug animation name, probably unused"
+  },
+  {
+   "id": 1,
+   "zh": "上下震动",
+   "en": "Tremble vertically",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/1"
+  },
+  {
+   "id": 2,
+   "zh": "上下拉长",
+   "en": "Pull vertically",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/2"
+  },
+  {
+   "id": 3,
+   "zh": "缩小爆发",
+   "en": "Shrink then swell",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/3"
+  },
+  {
+   "id": 4,
+   "zh": "上下弹跳",
+   "en": "Bounce vertically",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "左右震动",
+   "en": "Tremble horizontally",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/5"
+  },
+  {
+   "id": 6,
+   "zh": "跳跃烟雾",
+   "en": "Jump smoke",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0297/6; ext-review RCA-013: unused debug label; zh 投掷 (throw) / 烟雾 (smoke) look like slips for JP スロー (slow) / スモール (small); kept as the zh says (D-1195)"
+  },
+  {
+   "id": 7,
+   "zh": "积蓄力量左右弹跳",
+   "en": "Store then jump horizontally",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/7"
+  },
+  {
+   "id": 8,
+   "zh": "上下摇晃",
+   "en": "Vertical shake",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/8"
+  },
+  {
+   "id": 9,
+   "zh": "弥次郎兵卫投掷",
+   "en": "Baltoy: slow",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/9; modernised from US 0297#9"
+  },
+  {
+   "id": 10,
+   "zh": "左右跳动投掷",
+   "en": "Horizontal jump: throw",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0297/10; ext-review RCA-013: unused debug label; zh 投掷 (throw) / 烟雾 (smoke) look like slips for JP スロー (slow) / スモール (small); kept as the zh says (D-1195)"
+  },
+  {
+   "id": 11,
+   "zh": "锯齿状左右弹跳",
+   "en": "Sliced sideways jump",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/11"
+  },
+  {
+   "id": 12,
+   "zh": "左右弹跳烟雾",
+   "en": "Horizontal bounce: smoke",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0297/12; ext-review RCA-013: unused debug label; zh 投掷 (throw) / 烟雾 (smoke) look like slips for JP スロー (slow) / スモール (small); kept as the zh says (D-1195)"
+  },
+  {
+   "id": 13,
+   "zh": "边摇边左右",
+   "en": "Shake while moving sideways",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "咔空咔空",
+   "en": "Jerk",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/14"
+  },
+  {
+   "id": 15,
+   "zh": "影分身",
+   "en": "Double Team",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/15"
+  },
+  {
+   "id": 16,
+   "zh": "左右摇动投掷",
+   "en": "Horizontal shake: throw",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0297/16; ext-review RCA-013: unused debug label; zh 投掷 (throw) / 烟雾 (smoke) look like slips for JP スロー (slow) / スモール (small); kept as the zh says (D-1195)"
+  },
+  {
+   "id": 17,
+   "zh": "边摇边上下",
+   "en": "Shake while moving up and down",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "左右拉扯",
+   "en": "Pull horizontally",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/18"
+  },
+  {
+   "id": 19,
+   "zh": "电火花",
+   "en": "Spark",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "软绵绵",
+   "en": "Floppy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "2回变小爆发",
+   "en": "Shrink twice then swell",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/21"
+  },
+  {
+   "id": 22,
+   "zh": "摇篮投掷",
+   "en": "Cradle: throw",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0297/22; ext-review RCA-013: unused debug label; zh 投掷 (throw) / 烟雾 (smoke) look like slips for JP スロー (slow) / スモール (small); kept as the zh says (D-1195)"
+  },
+  {
+   "id": 23,
+   "zh": "左右弹跳",
+   "en": "Bounce horizontally",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "上下跳跃后左右跳跃",
+   "en": "vertical jump to horizontal jump",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/24"
+  },
+  {
+   "id": 25,
+   "zh": "锯齿状左右弹跳",
+   "en": "Zigzag sideways bounce",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0297/25; ext-review RCA-013: unused debug label; zh 投掷 (throw) / 烟雾 (smoke) look like slips for JP スロー (slow) / スモール (small); kept as the zh says (D-1195)"
+  },
+  {
+   "id": 26,
+   "zh": "上下摇晃投掷",
+   "en": "Vertical shake: throw",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0297/26; ext-review RCA-013: unused debug label; zh 投掷 (throw) / 烟雾 (smoke) look like slips for JP スロー (slow) / スモール (small); kept as the zh says (D-1195)"
+  },
+  {
+   "id": 27,
+   "zh": "抓挠",
+   "en": "Scratch",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "弥次郎兵卫2会",
+   "en": "Baltoy: twice",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/28; modernised from US 0297#28"
+  },
+  {
+   "id": 29,
+   "zh": "左右摇晃",
+   "en": "Horizontal shake ",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/29"
+  },
+  {
+   "id": 30,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/30"
+  },
+  {
+   "id": 31,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/31"
+  },
+  {
+   "id": 32,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/32"
+  },
+  {
+   "id": 33,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/33"
+  },
+  {
+   "id": 34,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/34"
+  },
+  {
+   "id": 35,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/35"
+  },
+  {
+   "id": 36,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/36"
+  },
+  {
+   "id": 37,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/37"
+  },
+  {
+   "id": 38,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/38"
+  },
+  {
+   "id": 39,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/39"
+  },
+  {
+   "id": 40,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/40"
+  },
+  {
+   "id": 41,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/41"
+  },
+  {
+   "id": 42,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/42"
+  },
+  {
+   "id": 43,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/43"
+  },
+  {
+   "id": 44,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/44"
+  },
+  {
+   "id": 45,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/45"
+  },
+  {
+   "id": 46,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/46"
+  },
+  {
+   "id": 47,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/47"
+  },
+  {
+   "id": 48,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/48"
+  },
+  {
+   "id": 49,
+   "zh": "模型",
+   "en": "Dummy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/49"
+  },
+  {
+   "id": 50,
+   "zh": "Ｂ　影分身1",
+   "en": "B　Double Team 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/50"
+  },
+  {
+   "id": 51,
+   "zh": "Ｂ　影分身2",
+   "en": "B　Double Team 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/51"
+  },
+  {
+   "id": 52,
+   "zh": "Ｂ　影分身3",
+   "en": "B　Double Team 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/52"
+  },
+  {
+   "id": 53,
+   "zh": "Ｂ　左右摇晃1",
+   "en": "B　Horizontal shake 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/53"
+  },
+  {
+   "id": 54,
+   "zh": "Ｂ　左右摇晃2",
+   "en": "B　Horizontal shake 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/54"
+  },
+  {
+   "id": 55,
+   "zh": "Ｂ　左右摇晃3",
+   "en": "B　Horizontal shake 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/55"
+  },
+  {
+   "id": 56,
+   "zh": "Ｂ　上下震动1",
+   "en": "B　Vertical tremble 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/56"
+  },
+  {
+   "id": 57,
+   "zh": "Ｂ　上下震动2",
+   "en": "B　Vertical tremble 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/57"
+  },
+  {
+   "id": 58,
+   "zh": "Ｂ　上下震动3",
+   "en": "B　Vertical tremble 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/58"
+  },
+  {
+   "id": 59,
+   "zh": "Ｂ　左右震动1",
+   "en": "B　Horizontal tremble 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/59"
+  },
+  {
+   "id": 60,
+   "zh": "Ｂ　左右震动2",
+   "en": "B　Horizontal tremble 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/60"
+  },
+  {
+   "id": 61,
+   "zh": "Ｂ　左右震动3",
+   "en": "B　Horizontal tremble 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/61"
+  },
+  {
+   "id": 62,
+   "zh": "Ｂ　上下伸缩1",
+   "en": "B　Vertical stretch 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/62"
+  },
+  {
+   "id": 63,
+   "zh": "Ｂ　上下伸缩2",
+   "en": "B　Vertical stretch 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/63"
+  },
+  {
+   "id": 64,
+   "zh": "Ｂ　上下伸缩3",
+   "en": "B　Vertical stretch 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/64"
+  },
+  {
+   "id": 65,
+   "zh": "Ｂ　左右伸缩1",
+   "en": "B　Horizontal stretch 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/65"
+  },
+  {
+   "id": 66,
+   "zh": "Ｂ　左右伸缩2",
+   "en": "B　Horizontal stretch 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/66"
+  },
+  {
+   "id": 67,
+   "zh": "Ｂ　左右伸缩3",
+   "en": "B　Horizontal stretch 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/67"
+  },
+  {
+   "id": 68,
+   "zh": "Ｂ　上下左右伸缩1",
+   "en": "B　Vertical & horizontal stretch 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/68"
+  },
+  {
+   "id": 69,
+   "zh": "Ｂ　上下左右伸缩2",
+   "en": "B　Vertical & horizontal stretch 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/69"
+  },
+  {
+   "id": 70,
+   "zh": "Ｂ　上下左右伸缩3",
+   "en": "B　Vertical & horizontal stretch 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/70"
+  },
+  {
+   "id": 71,
+   "zh": "Ｂ　急刹1",
+   "en": "B　Jerk 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/71"
+  },
+  {
+   "id": 72,
+   "zh": "Ｂ　急刹2",
+   "en": "B　Jerk 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/72"
+  },
+  {
+   "id": 73,
+   "zh": "Ｂ　急刹3",
+   "en": "B　Jerk 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/73"
+  },
+  {
+   "id": 74,
+   "zh": "Ｂ　三角1",
+   "en": "B　Triangle1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/74"
+  },
+  {
+   "id": 75,
+   "zh": "Ｂ　三角2",
+   "en": "B　Triangle2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/75"
+  },
+  {
+   "id": 76,
+   "zh": "Ｂ　三角3",
+   "en": "B　Triangle3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/76"
+  },
+  {
+   "id": 77,
+   "zh": "Ｂ　弹回1",
+   "en": "B　Bound1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/77"
+  },
+  {
+   "id": 78,
+   "zh": "Ｂ　弹回2",
+   "en": "B　Bound2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/78"
+  },
+  {
+   "id": 79,
+   "zh": "Ｂ　弹回3",
+   "en": "B　Bound3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/79"
+  },
+  {
+   "id": 80,
+   "zh": "Ｂ　弹回小型1",
+   "en": "B　Bound: small1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/80"
+  },
+  {
+   "id": 81,
+   "zh": "Ｂ　弹回小型2",
+   "en": "B　Bound: small2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/81"
+  },
+  {
+   "id": 82,
+   "zh": "Ｂ　弹回小型3",
+   "en": "B　Bound: small3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/82"
+  },
+  {
+   "id": 83,
+   "zh": "Ｂ　左右摇摆1",
+   "en": "B　Sway sideways 1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "Ｂ　左右摇摆2",
+   "en": "B　Sway sideways 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "Ｂ　左右摇摆3",
+   "en": "B　Sway sideways 3",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "Ｂ　静止1",
+   "en": "B　still 1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0297/86; ext-review RCA-013"
+  },
+  {
+   "id": 87,
+   "zh": "Ｂ　静止2",
+   "en": "B　still 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0297/87; ext-review RCA-013"
+  },
+  {
+   "id": 88,
+   "zh": "Ｂ　静止3",
+   "en": "B　still 3",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0297/88; ext-review RCA-013"
+  },
+  {
+   "id": 89,
+   "zh": "Ｂ　缩小后爆发1",
+   "en": "B　Shrink and Swell　1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/89"
+  },
+  {
+   "id": 90,
+   "zh": "Ｂ　缩小后爆发2",
+   "en": "B　Shrink and Swell　2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/90"
+  },
+  {
+   "id": 91,
+   "zh": "Ｂ　缩小后爆发3",
+   "en": "B　Shrink and Swell　3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/91"
+  },
+  {
+   "id": 92,
+   "zh": "Ｂ　突进1",
+   "en": "B　Take Down 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/92"
+  },
+  {
+   "id": 93,
+   "zh": "Ｂ　突进",
+   "en": "B　Take Down",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/93"
+  },
+  {
+   "id": 94,
+   "zh": "Ｂ　突进",
+   "en": "B　Take Down",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/94"
+  },
+  {
+   "id": 95,
+   "zh": "Ｂ　枯萎红1",
+   "en": "B　Fade: red 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/95"
+  },
+  {
+   "id": 96,
+   "zh": "Ｂ　枯萎红2",
+   "en": "B　Fade: red 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/96"
+  },
+  {
+   "id": 97,
+   "zh": "Ｂ　枯萎红3",
+   "en": "B　Fade: red 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/97"
+  },
+  {
+   "id": 98,
+   "zh": "Ｂ　枯萎蓝1",
+   "en": "B　Fade: blue 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/98"
+  },
+  {
+   "id": 99,
+   "zh": "Ｂ　枯萎蓝2",
+   "en": "B　Fade: blue 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/99"
+  },
+  {
+   "id": 100,
+   "zh": "Ｂ　枯萎蓝3",
+   "en": "B　Fade: blue 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/100"
+  },
+  {
+   "id": 101,
+   "zh": "Ｂ　枯萎绿1",
+   "en": "B　Fade: green 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/101"
+  },
+  {
+   "id": 102,
+   "zh": "Ｂ　枯萎绿2",
+   "en": "B　Fade: green 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/102"
+  },
+  {
+   "id": 103,
+   "zh": "Ｂ　枯萎绿3",
+   "en": "B　Fade: green 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/103"
+  },
+  {
+   "id": 104,
+   "zh": "Ｂ　电火花1",
+   "en": "B　Spark1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/104"
+  },
+  {
+   "id": 105,
+   "zh": "Ｂ　电火花2",
+   "en": "B　Spark2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/105"
+  },
+  {
+   "id": 106,
+   "zh": "Ｂ　电火花3",
+   "en": "B　Spark3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/106"
+  },
+  {
+   "id": 107,
+   "zh": "Ｂ　震动着横向移动1",
+   "en": "B　Move horizontally with tremble 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/107"
+  },
+  {
+   "id": 108,
+   "zh": "Ｂ　震动着横向移动2",
+   "en": "B　Move horizontally with tremble 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/108"
+  },
+  {
+   "id": 109,
+   "zh": "Ｂ　震动着横向移动3",
+   "en": "B　Move horizontally with tremble 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/109"
+  },
+  {
+   "id": 110,
+   "zh": "Ｂ　高速回转1",
+   "en": "B　Rapid rotation 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/110"
+  },
+  {
+   "id": 111,
+   "zh": "Ｂ　高速回转2",
+   "en": "B　Rapid rotation 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/111"
+  },
+  {
+   "id": 112,
+   "zh": "Ｂ　高速回转3",
+   "en": "B　Rapid rotation 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/112"
+  },
+  {
+   "id": 113,
+   "zh": "Ｂ　爆发1",
+   "en": "B　Swell 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/113"
+  },
+  {
+   "id": 114,
+   "zh": "Ｂ　鼓起2",
+   "en": "B　Swell 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/114"
+  },
+  {
+   "id": 115,
+   "zh": "Ｂ　爆发3",
+   "en": "B　Swell 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/115"
+  },
+  {
+   "id": 116,
+   "zh": "Ｂ　缩小后爆发1",
+   "en": "B　Shrink & Swell 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/116"
+  },
+  {
+   "id": 117,
+   "zh": "Ｂ　缩小后爆发2",
+   "en": "B　Shrink & Swell 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/117"
+  },
+  {
+   "id": 118,
+   "zh": "Ｂ　缩小后爆发3",
+   "en": "B　Shrink & Swell 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/118"
+  },
+  {
+   "id": 119,
+   "zh": "Ｂ　散乱横向摇晃Ａ1",
+   "en": "B　Squashed with horizontal shake A1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/119"
+  },
+  {
+   "id": 120,
+   "zh": "Ｂ　散乱横向摇晃Ａ2",
+   "en": "B　Squashed with horizontal shake A2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/120"
+  },
+  {
+   "id": 121,
+   "zh": "Ｂ　散乱横向摇晃Ａ3",
+   "en": "B　Squashed with horizontal shake A3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/121"
+  },
+  {
+   "id": 122,
+   "zh": "Ｂ　散乱横向摇晃Ｂ1",
+   "en": "B　Squashed with horizontal shake B1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/122"
+  },
+  {
+   "id": 123,
+   "zh": "Ｂ　散乱横向摇晃Ｂ2",
+   "en": "B　Squashed with horizontal shake B2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/123"
+  },
+  {
+   "id": 124,
+   "zh": "Ｂ　散乱横向摇晃Ｂ3",
+   "en": "B　Squashed with horizontal shake B3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/124"
+  },
+  {
+   "id": 125,
+   "zh": "Ｂ　锯齿状左右弹跳1",
+   "en": "B　Zigzag sideways bounce 1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0297/125; ext-review RCA-013: unused debug label; zh 投掷 (throw) / 烟雾 (smoke) look like slips for JP スロー (slow) / スモール (small); kept as the zh says (D-1195)"
+  },
+  {
+   "id": 126,
+   "zh": "Ｂ　锯齿状左右弹跳2",
+   "en": "B　Zigzag sideways bounce 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0297/126; ext-review RCA-013: unused debug label; zh 投掷 (throw) / 烟雾 (smoke) look like slips for JP スロー (slow) / スモール (small); kept as the zh says (D-1195)"
+  },
+  {
+   "id": 127,
+   "zh": "Ｂ　锯齿状左右弹跳3",
+   "en": "B　Zigzag sideways bounce 3",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0297/127; ext-review RCA-013: unused debug label; zh 投掷 (throw) / 烟雾 (smoke) look like slips for JP スロー (slow) / スモール (small); kept as the zh says (D-1195)"
+  },
+  {
+   "id": 128,
+   "zh": "Ｂ　边摇晃边上下1",
+   "en": "B　Up & down with shake 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/128"
+  },
+  {
+   "id": 129,
+   "zh": "Ｂ　边摇晃边上下2",
+   "en": "B　Up & down with shake 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/129"
+  },
+  {
+   "id": 130,
+   "zh": "Ｂ　边摇晃边上下3",
+   "en": "B　Up & down with shake 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/130"
+  },
+  {
+   "id": 131,
+   "zh": "Ｂ　踩脚1",
+   "en": "B　Walk in place 1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/131"
+  },
+  {
+   "id": 132,
+   "zh": "Ｂ　踩脚2",
+   "en": "B　Walk in place 2",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/132"
+  },
+  {
+   "id": 133,
+   "zh": "Ｂ　踩脚3",
+   "en": "B　Walk in place 3",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/133"
+  },
+  {
+   "id": 134,
+   "zh": "ＰＬ　Ｂ　锯齿状左右弹跳小型",
+   "en": "PL　B　Zigzag sideways bounce: small",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0297/134; ext-review RCA-013: unused debug label; zh 投掷 (throw) / 烟雾 (smoke) look like slips for JP スロー (slow) / スモール (small); kept as the zh says (D-1195)"
+  },
+  {
+   "id": 135,
+   "zh": "ＰＬ　Ｂ　积蓄后左右跳跃",
+   "en": "PL　B　Store then jump horizontally",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/135"
+  },
+  {
+   "id": 136,
+   "zh": "ＰＬ　Ｂ　弥次郎兵卫　投掷",
+   "en": "PL　B　Baltoy: slow",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/136; modernised from US 0297#136"
+  },
+  {
+   "id": 137,
+   "zh": "ＰＬ　Ｂ　横向跳跃　投掷",
+   "en": "PL　B　Sideways jump: throw",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0297/137; ext-review RCA-013: unused debug label; zh 投掷 (throw) / 烟雾 (smoke) look like slips for JP スロー (slow) / スモール (small); kept as the zh says (D-1195)"
+  },
+  {
+   "id": 138,
+   "zh": "ＰＬ　Ｂ　左右弹跳　小型",
+   "en": "PL　B　Horizontal jump: small",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0297/138; ext-review RCA-013"
+  },
+  {
+   "id": 139,
+   "zh": "ＰＬ　Ｂ　边摇晃边左右",
+   "en": "PL　B　Shake sideways",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 140,
+   "zh": "ＰＬ　Ｂ　边摇晃边上下",
+   "en": "PL　B　Shake up and down",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "ＰＬ　Ｂ　摇篮　投掷",
+   "en": "PL　B　Cradle: throw",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0297/141; ext-review RCA-013: unused debug label; zh 投掷 (throw) / 烟雾 (smoke) look like slips for JP スロー (slow) / スモール (small); kept as the zh says (D-1195)"
+  },
+  {
+   "id": 142,
+   "zh": "ＰＬ　Ｂ　左右弹跳",
+   "en": "PL　B　Horizontal jump",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0297/142"
+  }
+ ]
+}

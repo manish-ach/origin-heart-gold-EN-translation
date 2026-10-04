@@ -1,0 +1,264 @@
+{
+ "narc": "a027",
+ "bank": 814,
+ "source": "work/extract/v4/a027/0814.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "连锁次数",
+   "en": "Chain",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "隐藏特性概率",
+   "en": "HA Odds",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "HA = Hidden Ability (short table label)",
+   "qa_ignore": [
+    "glossary"
+   ]
+  },
+  {
+   "id": 2,
+   "zh": "异色概率",
+   "en": "Shiny Odds",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:011C:0}",
+   "en": "{VAR:011C:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "连续捕捉机制说明",
+   "en": "Chain Catch Info",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "次数",
+   "en": "Chain",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "异色概率",
+   "en": "Shiny",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "隐藏特性",
+   "en": "HA",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "HA = Hidden Ability (short table label)",
+   "qa_ignore": [
+    "glossary"
+   ]
+  },
+  {
+   "id": 8,
+   "zh": "31个体项",
+   "en": "31 IVs",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "0-5",
+   "en": "0-5",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "6-10",
+   "en": "6-10",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "10-20",
+   "en": "10-20",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "21以上",
+   "en": "21+",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "1/4096",
+   "en": "1/4096",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "3/4096",
+   "en": "3/4096",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "5/4096",
+   "en": "5/4096",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "7/4096",
+   "en": "7/4096",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "-",
+   "en": "-",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "10%",
+   "en": "10%",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "50%",
+   "en": "50%",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "70%",
+   "en": "70%",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "1项",
+   "en": "1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "2项",
+   "en": "2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "4项",
+   "en": "4",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "捕捉任意一个异色后连锁计数清零。",
+   "en": "Catching a shiny resets the chain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "生活在{VAR:011C:0}，{NEWLINE}{VAR:011C:1}可以发现的宝可梦",
+   "en": "Pokémon living in {VAR:011C:0}:{NEWLINE}{VAR:011C:1} encounters",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "VAR1 = one of 0814 #26-30 (time of day / Surf / Fishing)",
+   "qa_ignore": [
+    "whitespace"
+   ]
+  },
+  {
+   "id": 26,
+   "zh": "早晨（4点-10点）",
+   "en": "Morning (4-10)",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "白天（10点-20点）",
+   "en": "Day (10-20)",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "夜晚（20点-4点）",
+   "en": "Night (20-4)",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "冲浪",
+   "en": "Surf",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 30,
+   "zh": "钓鱼",
+   "en": "Fishing",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  }
+ ]
+}

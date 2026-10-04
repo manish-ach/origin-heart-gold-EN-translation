@@ -1,0 +1,737 @@
+{
+ "narc": "a027",
+ "bank": 84,
+ "source": "work/extract/v4/a027/0084.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "我是专门研究植物的学者,{NEWLINE}根据我的考察,{CLEAR}六之岛的土壤非常特殊,{CLEAR}大概是我见的{CLEAR}过最适合作物生长的土壤了。{CLEAR}但是这里的人们似乎并不喜欢耕作,{CLEAR}看到这大好的土地闲置浪费{CLEAR}真是让人着急。",
+   "en": "I’m a scholar who studies plants. From{NEWLINE}my surveys, the soil on Six Island is{CLEAR}very special. It may be the best soil{CLEAR}for growing crops I’ve ever seen.{SCROLL}But the people here don’t seem to like{NEWLINE}farming. It’s so frustrating to see{CLEAR}such fine land lying idle and going{CLEAR}to waste.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Island Forest (Six Island). #0/#32: botanist before/after the Lucky Meowth God arrives."
+  },
+  {
+   "id": 1,
+   "zh": "由此向东,即可离开森林。",
+   "en": "Head east from here to leave{NEWLINE}the forest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "你是来旅游的吧？{NEWLINE}要通过这里得交门票钱,{CLEAR}一个人3000块,拿来吧。",
+   "en": "You’re a tourist, right? You gotta pay{NEWLINE}admission to get through here. $3000 a{CLEAR}head. Hand it over.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#2-#18: toll-gate thug before the Lucky Meowth God era; #9 polite / #10 blunt player variant."
+  },
+  {
+   "id": 3,
+   "zh": "交钱通过",
+   "en": "Pay and go through",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 4,
+   "zh": "硬闯过去",
+   "en": "Force your way through",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 5,
+   "zh": "原路返回",
+   "en": "Go back the way you came",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 6,
+   "zh": "切,我看你是没钱吧。",
+   "en": "Tch. You’re just broke, aren’t you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "一个人3000块啊,{NEWLINE}我看你身上这点钱不够付门票吧！",
+   "en": "It’s $3000 a head! You don’t have{NEWLINE}enough money on you to pay admission!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "很好,你可以过去了。",
+   "en": "Good. You can go through.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0103:0}『六之岛应该是{NEWLINE}全面向公众开放才对,{CLEAR}你在这里设卡收费,{CLEAR}恐怕不合规定吧？{CLEAR}请把路让开！",
+   "en": "{VAR:0103:0}: Six Island is supposed to be{NEWLINE}fully open to the public. Setting up a{CLEAR}checkpoint and charging fees here can’t{CLEAR}be allowed, can it? Please get out of{CLEAR}the way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0103:0}『六之岛应该是{NEWLINE}全面向公众开放才对,{CLEAR}你在这里设卡收费,{CLEAR}恐怕不合规定吧？{CLEAR}赶紧给我把路让开！",
+   "en": "{VAR:0103:0}: Six Island is supposed to be{NEWLINE}fully open to the public. Setting up a{CLEAR}checkpoint and charging fees here is{CLEAR}against the rules, isn’t it? Get out of{CLEAR}my way, now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "少拿精灵联盟的规定唬人,{NEWLINE}老子生在这里、长在这里,{CLEAR}就吃定这里了,{CLEAR}没有钱谁也别想从我这过去。",
+   "en": "Don’t try to scare me with{NEWLINE}Pokémon League rules. I was born here,{CLEAR}raised here, and this place is mine. No{CLEAR}money, no way past me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}『你要是再不让路,{NEWLINE}就别怪我不客气了。",
+   "en": "{VAR:0103:0}: If you don’t get out of the{NEWLINE}way, don’t blame me for what{CLEAR}happens next.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "哈哈哈,就凭你？这是不自量力。{NEWLINE}看来我得好好教教你这岛上的规矩了！",
+   "en": "Ha ha ha! You? Don’t make me laugh.{NEWLINE}Looks like I’ll have to teach you the{CLEAR}rules of this island!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "你好厉害……{NEWLINE}恐怕连二之岛的极梅婆婆{CLEAR}也不是你的对手。{SCROLL}我服输了,我不配收你的门票,{NEWLINE}你过去吧！",
+   "en": "You’re really tough... I bet even{NEWLINE}Granny Mae on Two Island is no match{CLEAR}for you.{SCROLL}I give up. I’ve got no right to charge{NEWLINE}you admission. Go on through!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "你很厉害,从这里过不需要买票。",
+   "en": "You’re really tough. You don’t need a{NEWLINE}ticket to go through here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "这条路只进不出,{NEWLINE}你要离开森林找别的路去！",
+   "en": "This path is one-way in. Find another{NEWLINE}way if you want to leave the forest!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}交出了3000元。",
+   "en": "{VAR:0103:0} handed over $3000.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "我已经允许你通过了,赶紧走。{NEWLINE}别妨碍我做生意。",
+   "en": "I already let you through. Get moving.{NEWLINE}Don’t get in the way of my business.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "圈圈熊『Uuuu——sa！",
+   "en": "Ursaring: Uuuu-sa!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "猫鼬斩『Zaaaa——go！",
+   "en": "Zangoose: Zaaaa-go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "现在的游客真是没有精神,{NEWLINE}连精灵对战斗都不愿意打。{CLEAR}看你倒像是个有模有样的训练家,{CLEAR}跟我来场精灵对战怎么样？",
+   "en": "Tourists these days have no spirit.{NEWLINE}They won’t even have a Pokémon battle.{CLEAR}But you look like a proper Trainer. How{CLEAR}about a battle with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "真是个没激情的年轻人！",
+   "en": "What a spineless youngster!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "好！来一决胜负吧！",
+   "en": "All right! Let’s settle this!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "你很厉害,{NEWLINE}比一般的游客强太多了。{CLEAR}这是我从上一个游客那里{CLEAR}赢来的战利品,{CLEAR}既然你打赢了我,{CLEAR}那这个战利品就送给你了！",
+   "en": "You’re really tough. Way stronger than{NEWLINE}your average tourist. These are spoils{CLEAR}I won off the last tourist. Since you{CLEAR}beat me, the spoils are yours!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "要是每个游客都像你这样{NEWLINE}勇猛善战就有意思了。",
+   "en": "If every tourist fought as boldly as{NEWLINE}you, things would be a lot more fun.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "我一进森林,{NEWLINE}就被一个壮汉叫住,{CLEAR}非要跟我进行精灵对战,{CLEAR}结果我打输之后,{CLEAR}他就强行从我身上{CLEAR}抢走了我最爱的娃娃,{CLEAR}说是什么战利品。{SCROLL}我想跟他讨要回来,{NEWLINE}但是一看到他那粗野的模样,{CLEAR}我就吓得两腿发抖不敢靠近。",
+   "en": "As soon as I entered the forest, some{NEWLINE}big brute stopped me and insisted on a{CLEAR}Pokémon battle. When I lost, he forcibly{CLEAR}took my favorite doll from me, calling it{CLEAR}his ‘spoils.’{SCROLL}I want to ask for it back, but one look{NEWLINE}at how rough he is, and my legs start{CLEAR}shaking. I’m too scared to go near him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "要把娃娃还给她吗？",
+   "en": "Give the doll back to her?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "唉？你帮我把娃娃抢回来了？{NEWLINE}太好了！真的是非常谢谢你！{CLEAR}我真没想到还有跟娃娃重逢的这一天。{SCROLL}这个是我来这里的路上收集的道具,{NEWLINE}就送给你当作谢礼吧。",
+   "en": "Huh? You got my doll back for me?{NEWLINE}That’s wonderful! Thank you so much! I{CLEAR}never thought I’d see my doll again.{SCROLL}I collected this item on my way here.{NEWLINE}Please take it as thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "这里的人根本就不讲道理,{NEWLINE}拉住你就非要按他们的规矩怎样怎样,{CLEAR}真是太野蛮了。",
+   "en": "The people here don’t listen to reason{NEWLINE}at all. They grab you and insist you do{CLEAR}this and that by their rules. It’s{CLEAR}just barbaric.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "幸福的喵喵神大人说{NEWLINE}要笑脸相迎八方客,{CLEAR}虽然这跟岛上的传统不太一样,{CLEAR}但既然是喵喵神大人的指示,{CLEAR}照办总是没有错的。",
+   "en": "The Lucky Meowth God says we should{NEWLINE}welcome guests from all over with a{CLEAR}smile. It’s not really the island{CLEAR}tradition, but since the Lucky Meowth{CLEAR}God said so, you can’t go wrong doing as{CLEAR}you’re told.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "最近岛民对游客的态度变化很大,{NEWLINE}比原来可有礼貌太多了。",
+   "en": "The islanders’ attitude toward tourists{NEWLINE}has changed a lot lately. They’re so{CLEAR}much more polite than before.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "最近岛上来了个什么幸福的喵喵神,{NEWLINE}它不仅会说人话,{CLEAR}还特别重视岛上的种植业生产,{CLEAR}我通过与它合作,{CLEAR}终于让长久以来对六之岛{CLEAR}土壤的研究成果派上用场了。",
+   "en": "Some so-called Lucky Meowth God came{NEWLINE}to the island recently. Not only can it{CLEAR}talk like a human, it really cares about{CLEAR}farming on the island. By working with{CLEAR}it, I’ve finally been able to put my long{CLEAR}years of research on Six Island’s soil{CLEAR}to use.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "还给她",
+   "en": "Give it back",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "算了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "我听说六之岛的岛民{NEWLINE}很擅长精灵对战,{CLEAR}所以特地来这里修行。{CLEAR}你愿意跟我来场对战切磋一下吗？",
+   "en": "I heard the people of Six Island are{NEWLINE}really good at Pokémon battles, so I{CLEAR}came here specially to train. Will you{CLEAR}have a practice battle with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "你是擅长单打还是双打？",
+   "en": "Are you better at Singles or Doubles?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 38,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 39,
+   "zh": "不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 40,
+   "zh": "嘿嘿,让你看看如魔术般的{NEWLINE}精灵对战技巧！",
+   "en": "Heh heh, let me show you Pokémon battle{NEWLINE}skills like magic!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "哇,你好厉害。感觉跟你对战{NEWLINE}比自己修行进步快多了。{CLEAR}如果你有时间的话欢迎再来找我切磋。",
+   "en": "Wow, you’re amazing. I feel like battling{NEWLINE}you helps me improve way faster than{CLEAR}training alone. If you have time, come{CLEAR}spar with me again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "双人至少要有两只精灵才行。",
+   "en": "You need at least two Pokémon for a{NEWLINE}Double Battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "沙漠蜻蜓『Flyyy——gon！",
+   "en": "Flygon: Flyyy-gon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "据说把护身金币扔到这个池塘里{NEWLINE}就能让许的愿望成真,{CLEAR}你要是有护身金币的话{CLEAR}就送我一个呗,{CLEAR}我有好多愿望想要实现呢。",
+   "en": "They say if you throw an Amulet Coin{NEWLINE}into this pond, your wish will come true.{CLEAR}If you have an Amulet Coin, how about{CLEAR}giving me one? I’ve got so many wishes I{CLEAR}want to come true.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "要把护身金币送给她吗？",
+   "en": "Give her the Amulet Coin?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "哦？真的要送我护身金币啊,{NEWLINE}谢谢你啊,你可真是个好人。",
+   "en": "Oh? You’re really giving me your Amulet{NEWLINE}Coin? Thanks! You’re such a{CLEAR}nice person.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "幸福的喵喵神啊,{NEWLINE}请你降临到六之岛,{CLEAR}带领我们变美变富,{CLEAR}请赐给我们好多好多钱吧！",
+   "en": "Oh, Lucky Meowth God, please come down{NEWLINE}to Six Island and lead us to beauty and{CLEAR}riches! Please give us lots and lots{CLEAR}of money!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "丢——{SCROLL}噗通——！",
+   "en": "Toss...{SCROLL}Plop!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "希望这颗金币{NEWLINE}能让我许的愿望成真。",
+   "en": "I hope this coin makes my wish{NEWLINE}come true.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "谢谢你送给我金币帮我许愿啊,{NEWLINE}你有什么愿望也说出来听听吧,{CLEAR}我可以顺道帮你祈祷一下。",
+   "en": "Thanks for giving me a coin to make a{NEWLINE}wish with. Tell me your wish, too. I can{CLEAR}pray for you while I’m at it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "我也想一夜暴富",
+   "en": "I want to get rich overnight",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 52,
+   "zh": "我想变得有吸引力",
+   "en": "I want to be more attractive",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 53,
+   "zh": "我想变得更强",
+   "en": "I want to get stronger",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 54,
+   "zh": "我没什么愿望",
+   "en": "I don’t really have a wish",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 55,
+   "zh": "什么愿望都没有？{NEWLINE}嘿,真没想到世界上还有你这种人。",
+   "en": "No wishes at all? Heh, I never thought{NEWLINE}there were people like you in the world.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "嘿嘿,那必须的,{NEWLINE}致富是每个人的心愿嘛。{CLEAR}你放心吧,我会替你祈祷的。",
+   "en": "Heh heh, of course you do. Getting rich{NEWLINE}is everyone’s dream. Don’t worry, I’ll{CLEAR}pray for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "没想到你还是个闷骚型的。{NEWLINE}我会向幸福的喵喵神祈祷,{CLEAR}为你求得满满的桃花运的。",
+   "en": "Didn’t figure you for the secretly{NEWLINE}frisky type. I’ll pray to the Lucky{CLEAR}Meowth God to send you loads of luck{CLEAR}in love.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "你看起来已经够强了啊……{NEWLINE}不过算了,我会替你祈祷的。",
+   "en": "You already look plenty strong... Oh,{NEWLINE}well. I’ll pray for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "我只管祈祷许愿,{NEWLINE}剩下的交给幸福的喵喵神吧！",
+   "en": "My job is just to pray and make wishes.{NEWLINE}The rest is up to the Lucky Meowth God!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "我的愿望实现了,{NEWLINE}幸福的喵喵神降临到六之岛了！{CLEAR}这一切都是我的功劳！",
+   "en": "My wish came true! The Lucky Meowth{NEWLINE}God has come down to Six Island! It’s{CLEAR}all thanks to me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "狡猾天狗『Shiii——ry！",
+   "en": "Shiftry: Shiii-ry!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "石像的底座上写着：{NEWLINE}这是幸福的猫老大神,{CLEAR}是比幸福的喵喵神更神的神。",
+   "en": "Written on the base of the statue: This{NEWLINE}is the Lucky Persian God, a god even{CLEAR}godlier than the Lucky Meowth God.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "前面是六之岛的著名景点{NEWLINE}——带来幸福的神像。{CLEAR}游览一次500元,{CLEAR}你过去要去看看吗？",
+   "en": "Up ahead is Six Island’s famous{NEWLINE}attraction: the statue that brings{CLEAR}good fortune. It’s $500 per visit. Want{CLEAR}to go take a look?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "真有意思,没钱还学人家出来旅游。",
+   "en": "Now that’s funny. No money, and you{NEWLINE}still go traveling like everyone else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "游览一次500块,{NEWLINE}你身上的钱不够！",
+   "en": "It’s $500 per visit. You don’t have{NEWLINE}enough money on you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "我们六之岛的许愿神一向都很灵的,{NEWLINE}你这500块真的是赚到了。",
+   "en": "Our Six Island wishing god always{NEWLINE}delivers. That $500 was money{CLEAR}well spent.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "这座猫老大石像,{NEWLINE}是我从大陆那边好不容易淘换到的,{CLEAR}要是毁了还真有点舍不得。{CLEAR}我觉得当喵喵神大人{CLEAR}进化成猫老大神的时候,{CLEAR}这石像应该还能派上用场吧？",
+   "en": "I went to a lot of trouble to get this{NEWLINE}Persian statue from the mainland. It’d{CLEAR}be a real shame to see it ruined. I{CLEAR}figure when the Meowth God evolves into{CLEAR}the Persian God, this statue will come in{CLEAR}handy again, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "咦？你是素利拍吗？{NEWLINE}我只在图鉴上见过素利普,{CLEAR}这还是我第一次见真正的素利拍哎。{CLEAR}咱们一起来玩好不好啊？",
+   "en": "Huh? Are you a Hypno? I’ve only seen{NEWLINE}Drowzee in the Pokédex. This is my first{CLEAR}time seeing a real Hypno! Do you want to{CLEAR}play with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#68-#87: lost girl from Three Island (0441 #153-#156) and a Hypno; #74/#77/#82 male, #75/#78/#83 female player."
+  },
+  {
+   "id": 69,
+   "zh": "素利拍『Hyyyy——no！{SCROLL}素利拍有些警惕。",
+   "en": "Hypno: Hyyyy-no!{SCROLL}Hypno seems wary.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "素利拍『Hyyyy——no！{SCROLL}素利拍晃起了手中的圆环,{NEWLINE}开始使用催眠术！",
+   "en": "Hypno: Hyyyy-no!{SCROLL}Hypno swung the ring in its hand and{NEWLINE}started using Hypnosis!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "唔……好困……",
+   "en": "Mmm... So sleepy...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "{VAR:0103:0}『素利拍！不要伤害小孩子！",
+   "en": "{VAR:0103:0}: Hypno! Don’t hurt that child!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "啊……刚刚头好晕啊……",
+   "en": "Ah... My head was spinning just now...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "你好啊大哥哥,{NEWLINE}我记得我刚刚在跟素利拍玩,{CLEAR}可为什么大哥哥会突然出现在这里,{CLEAR}莫非你是素利拍变的吗？{CLEAR}太神奇了！",
+   "en": "Hi, mister. I remember I was just{NEWLINE}playing with Hypno. So why did you{CLEAR}suddenly show up here? Are you Hypno in{CLEAR}disguise? That’s amazing!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "你好啊大姐姐,{NEWLINE}我记得我刚刚在跟素利拍玩,{CLEAR}可为什么大姐姐会突然出现在这里,{CLEAR}莫非你是素利拍变的吗？{CLEAR}太神奇了！",
+   "en": "Hi, miss. I remember I was just playing{NEWLINE}with Hypno. So why did you suddenly{CLEAR}show up here? Are you Hypno in{CLEAR}disguise? That’s amazing!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "{VAR:0103:0}『我只是刚好路过,{NEWLINE}看到素利拍想用催眠术攻击你,{CLEAR}所以就跑过来阻止它。",
+   "en": "{VAR:0103:0}: I was just passing by and saw{NEWLINE}Hypno trying to use Hypnosis on you, so{CLEAR}I ran over to stop it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "原来是这样啊,谢谢大哥哥。",
+   "en": "Oh, so that’s what happened. Thank{NEWLINE}you, mister.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "原来是这样啊,谢谢大姐姐。",
+   "en": "Oh, so that’s what happened. Thank{NEWLINE}you, miss.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "{VAR:0103:0}『我记得三之岛有位先生{NEWLINE}拜托我找他走丢的女儿,{CLEAR}看你的装扮跟那位先生描述的一样,{CLEAR}你是跟爸爸一起来三之岛{CLEAR}然后自己跑到这里来的吗？",
+   "en": "{VAR:0103:0}: On Three Island, a man asked{NEWLINE}me to find his lost daughter. You’re{CLEAR}dressed just like he described. Did you{CLEAR}come to Three Island with your dad and{CLEAR}then wander off here on your own?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "嘻嘻,对啊。{NEWLINE}我看到有旅行社的人要来六之岛,{CLEAR}于是就跟着他们一起来了。",
+   "en": "Hee hee, yep. I saw some people from a{NEWLINE}travel agency heading to Six Island, so{CLEAR}I tagged along.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "{VAR:0103:0}『那你现在跟我回三之岛吧,{NEWLINE}你爸爸找不到你很担心的。",
+   "en": "{VAR:0103:0}: Then come back to Three{NEWLINE}Island with me now. Your dad’s really{CLEAR}worried because he can’t find you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "让爸爸担心了吗？{NEWLINE}唔……真是对不起。{CLEAR}拜托大哥哥带我回三之岛吧,{CLEAR}我要去见爸爸。",
+   "en": "I made Daddy worry? Mmm... I’m really{NEWLINE}sorry. Please take me back to Three{CLEAR}Island, mister. I want to see Daddy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "让爸爸担心了吗？{NEWLINE}唔……真是对不起。{CLEAR}拜托大姐姐带我回三之岛吧,{CLEAR}我要去见爸爸。",
+   "en": "I made Daddy worry? Mmm... I’m really{NEWLINE}sorry. Please take me back to Three{CLEAR}Island, miss. I want to see Daddy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "{VAR:0103:0}『好,咱们走。",
+   "en": "{VAR:0103:0}: Okay, let’s go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "真没想到我女儿居然跑去了六之岛,{NEWLINE}您到那么远的地方把她带回来,{CLEAR}这一路上也很辛苦吧？{CLEAR}我也没什么好感谢您的,{CLEAR}这个红哨子就请您收下吧。",
+   "en": "I can’t believe my daughter ran off all{NEWLINE}the way to Six Island. You went so far{CLEAR}to bring her back. It must have been a{CLEAR}hard trip. I don’t have much to thank{CLEAR}you with, but please accept this{CLEAR}Red Flute.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "您让我见识到了{NEWLINE}水都群岛人的热情热心、乐于助人,{CLEAR}能来这旅游真是太好了。",
+   "en": "You’ve shown me how warm and helpful{NEWLINE}the people of the Alto Mare Islands{CLEAR}are. I’m so glad I came here{CLEAR}on vacation.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "素利拍『Hyyyy——no！{SCROLL}素利拍攻了过来！",
+   "en": "Hypno: Hyyyy-no!{SCROLL}Hypno attacked!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "值为13",
+   "en": "Value: 13",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Debug/placeholder line (值为13 'value is 13')."
+  },
+  {
+   "id": 89,
+   "zh": "受幸福的喵喵神大人指示,{NEWLINE}所有来六之岛的游客{CLEAR}都可以自由通过此地,{CLEAR}请过去吧。",
+   "en": "By order of the Lucky Meowth God, all{NEWLINE}tourists visiting Six Island may pass{CLEAR}through here freely. Please go ahead.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

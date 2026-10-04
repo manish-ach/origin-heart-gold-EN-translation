@@ -1,0 +1,368 @@
+{
+  "_doc": "QA configuration for qa.py. Categories define box limits; 'banks' assigns a category to a bank ('<narc>/<NNNN>'); unassigned banks are auto-classified (dialogue if any zh string has {SCROLL}/{CLEAR}, else 'ui'). A workspace bank file may override with a top-level \"category\", and a string with \"category\". Pixel limits come from pret/pokeheartgold (dialog_box.c: 27x4 tiles) and the ROM font (font_widths.json). See work/notes/text_metrics.md.",
+  "categories": {
+    "dialogue": {
+      "font": 1,
+      "line_px": 216,
+      "lines": 2,
+      "desc": "field/script message box, 27x4 tiles = 216x32 px, font 1"
+    },
+    "battle": {
+      "font": 1,
+      "line_px": 216,
+      "lines": 2,
+      "desc": "battle message box (ov12 AddWindow bg1 2,19,27x4), font 1"
+    },
+    "sign": {
+      "font": 1,
+      "line_px": 160,
+      "lines": 2,
+      "desc": "signpost box with the map/wayfinding graphic on the left (dialog_box.c type 0/1: x+7 tiles, 20x4 tiles = 160 px). Assign per string/bank when known."
+    },
+    "species": {
+      "font": 0,
+      "max_chars": 10,
+      "lines": 1,
+      "desc": "species names (nickname buffer = 10 chars)"
+    },
+    "moves": {
+      "font": 0,
+      "max_chars": 12,
+      "lines": 1
+    },
+    "items": {
+      "font": 0,
+      "max_chars": 12,
+      "lines": 1
+    },
+    "abilities": {
+      "font": 0,
+      "max_chars": 12,
+      "lines": 1
+    },
+    "types": {
+      "font": 0,
+      "max_chars": 8,
+      "lines": 1
+    },
+    "natures": {
+      "font": 0,
+      "max_chars": 8,
+      "lines": 1
+    },
+    "locations": {
+      "font": 0,
+      "max_chars": 18,
+      "lines": 1,
+      "desc": "map names; vanilla US max 17 chars",
+      "severity": "warning"
+    },
+    "ui": {
+      "font": 0,
+      "relative_to_zh": true,
+      "severity": "warning",
+      "desc": "menus/labels with unknown box: warn when an English line is wider than the widest Chinese line of the bank, or has more lines than the Chinese"
+    },
+    "pokedex": {
+      "font": 0,
+      "line_px": 216,
+      "lines": 3,
+      "desc": "Pokédex entry text box (bank 0791); US HG entries are 3 lines, max 204 px; other US entry banks reach 222 px. No {SCROLL}."
+    },
+    "move_desc": {
+      "font": 0,
+      "line_px": 120,
+      "lines": 5,
+      "desc": "move description panel (summary screen / move relearner / TM bag): measured on the official US bank 0749 = 467 entries, max 5 lines, max 120 px per line (font 0 and 1 identical), no {SCROLL}. Hack zh 0738 also uses up to 5 lines."
+    },
+    "item_desc": {
+      "font": 0,
+      "line_px": 215,
+      "lines": 3,
+      "desc": "item description panel (Bag / Poké Mart): measured on the official US bank 0221 = 514 entries, max 3 lines, max 215 px per line (52 lines at 215, none wider; font 0 and 1 identical), {NEWLINE} only. Hack zh 0218 uses 3 lines (4-5 only on hack TM items)."
+    },
+    "ability_desc": {
+      "font": 0,
+      "line_px": 136,
+      "lines": 2,
+      "desc": "ability description (summary screen): measured on the official US bank 0722 = 124 entries, max 2 lines, max 136 px per line (font 0 and 1 identical), {NEWLINE} only. The hack's own custom descriptions in 0712 (#311-326) are also 2 lines of <= 10 hanzi."
+    },
+    "berry_desc": {
+      "font": 0,
+      "line_px": 180,
+      "lines": 3,
+      "desc": "berry tag description (bank 0243): the US counterpart (0250) is blanked (spaces only), so the box is taken from the hack's zh: 64 entries, max 3 lines, max 180 px (15 hanzi) per line. {NEWLINE} only. Probably a DP leftover screen; verify in game."
+    },
+    "menu_touch_1line": {
+      "font": 4,
+      "line_px": 224,
+      "lines": 1,
+      "desc": "touch menu with 2-4 options: one full-width button per option, window 28x2 tiles = 224 px, ONE line. Measured by follow-up 1 (menu-width audit): script menus are cmd 749/750 MenuInit(StdGmm) + 751 MenuItemAdd + 752 MenuExec (bottom-screen touch buttons, pret ov27_0225C618 = hack overlay 28: window templates ov27_0225D4B8, text in font 4 at x=0) or cmd 64/65 + 66 + 67 (top-screen window, pret ov01_021EDC84: width = ceil((widest option in font 0 + 12)/8) tiles at tile x, frame 1 tile each side, must end by tile 31). Assigned per string (\"category\" field) to every option a script menu uses; a string used by several menus gets the tightest one. NOTE: the build keeps the hack's font 4, whose space is 7 px; QA's default vanilla_us set measures it at 5 px, so leave 2 px per space of margin."
+    },
+    "menu_touch_col5": {
+      "font": 4,
+      "line_px": 104,
+      "lines": 2,
+      "desc": "touch menu with 5 options: two columns of 13x4-tile windows = 104 px, 2 lines. Measured by follow-up 1 (menu-width audit): script menus are cmd 749/750 MenuInit(StdGmm) + 751 MenuItemAdd + 752 MenuExec (bottom-screen touch buttons, pret ov27_0225C618 = hack overlay 28: window templates ov27_0225D4B8, text in font 4 at x=0) or cmd 64/65 + 66 + 67 (top-screen window, pret ov01_021EDC84: width = ceil((widest option in font 0 + 12)/8) tiles at tile x, frame 1 tile each side, must end by tile 31). Assigned per string (\"category\" field) to every option a script menu uses; a string used by several menus gets the tightest one. NOTE: the build keeps the hack's font 4, whose space is 7 px; QA's default vanilla_us set measures it at 5 px, so leave 2 px per space of margin."
+    },
+    "menu_touch_col": {
+      "font": 4,
+      "line_px": 96,
+      "lines": 2,
+      "desc": "touch menu with 6-8 options: two columns of 12x4-tile windows = 96 px, 2 lines. Measured by follow-up 1 (menu-width audit): script menus are cmd 749/750 MenuInit(StdGmm) + 751 MenuItemAdd + 752 MenuExec (bottom-screen touch buttons, pret ov27_0225C618 = hack overlay 28: window templates ov27_0225D4B8, text in font 4 at x=0) or cmd 64/65 + 66 + 67 (top-screen window, pret ov01_021EDC84: width = ceil((widest option in font 0 + 12)/8) tiles at tile x, frame 1 tile each side, must end by tile 31). Assigned per string (\"category\" field) to every option a script menu uses; a string used by several menus gets the tightest one. NOTE: the build keeps the hack's font 4, whose space is 7 px; QA's default vanilla_us set measures it at 5 px, so leave 2 px per space of margin."
+    },
+    "menu_window_x1": {
+      "font": 0,
+      "line_px": 228,
+      "lines": 1,
+      "desc": "top-screen script menu window at tile x=1: (31-1)*8-12 = 228 px for the widest option. Measured by follow-up 1 (menu-width audit): script menus are cmd 749/750 MenuInit(StdGmm) + 751 MenuItemAdd + 752 MenuExec (bottom-screen touch buttons, pret ov27_0225C618 = hack overlay 28: window templates ov27_0225D4B8, text in font 4 at x=0) or cmd 64/65 + 66 + 67 (top-screen window, pret ov01_021EDC84: width = ceil((widest option in font 0 + 12)/8) tiles at tile x, frame 1 tile each side, must end by tile 31). Assigned per string (\"category\" field) to every option a script menu uses; a string used by several menus gets the tightest one. NOTE: the build keeps the hack's font 4, whose space is 7 px; QA's default vanilla_us set measures it at 5 px, so leave 2 px per space of margin."
+    },
+    "menu_window_x18": {
+      "font": 0,
+      "line_px": 92,
+      "lines": 1,
+      "desc": "top-screen script menu window at tile x=18 (Union Room group menu, 0189 #14/#15/#5): (31-18)*8-12 = 92 px. Measured by follow-up 1 (menu-width audit): script menus are cmd 749/750 MenuInit(StdGmm) + 751 MenuItemAdd + 752 MenuExec (bottom-screen touch buttons, pret ov27_0225C618 = hack overlay 28: window templates ov27_0225D4B8, text in font 4 at x=0) or cmd 64/65 + 66 + 67 (top-screen window, pret ov01_021EDC84: width = ceil((widest option in font 0 + 12)/8) tiles at tile x, frame 1 tile each side, must end by tile 31). Assigned per string (\"category\" field) to every option a script menu uses; a string used by several menus gets the tightest one. NOTE: the build keeps the hack's font 4, whose space is 7 px; QA's default vanilla_us set measures it at 5 px, so leave 2 px per space of margin."
+    },
+    "menu_window_x24": {
+      "font": 0,
+      "line_px": 44,
+      "lines": 1,
+      "desc": "top-screen script menu window at tile x=24 (the hack's Union Room menu, script file 953): (31-24)*8-12 = 44 px. Measured by follow-up 1 (menu-width audit): script menus are cmd 749/750 MenuInit(StdGmm) + 751 MenuItemAdd + 752 MenuExec (bottom-screen touch buttons, pret ov27_0225C618 = hack overlay 28: window templates ov27_0225D4B8, text in font 4 at x=0) or cmd 64/65 + 66 + 67 (top-screen window, pret ov01_021EDC84: width = ceil((widest option in font 0 + 12)/8) tiles at tile x, frame 1 tile each side, must end by tile 31). Assigned per string (\"category\" field) to every option a script menu uses; a string used by several menus gets the tightest one. NOTE: the build keeps the hack's font 4, whose space is 7 px; QA's default vanilla_us set measures it at 5 px, so leave 2 px per space of margin."
+    },
+    "trainer_names": {
+      "font": 0,
+      "max_chars": 10,
+      "lines": 1,
+      "desc": "trainer names (a027/0719, US 0729). The battle copies a name into u16[8] (EnemyTrainerSet_Init, hack arm9 0x02072544) and drops it if it doesn't fit, so the build stores these names {COMPRESSED} (9-bit packing: 10 characters in 7 units), like US. Every code must be < 0x1FF. See 'compressed_banks' and D-1326."
+    },
+    "frontier_names": {
+      "font": 0,
+      "max_chars": 7,
+      "lines": 1,
+      "desc": "Battle Frontier trainer names (a027/0026, US 0027): copied uncompressed into u16[8] (hack arm9 0x0204AD38 after the load at 0x0204ACFC), so 7 characters max, like US."
+    }
+  },
+  "banks": {
+    "a027/0232": "species",
+    "a027/0739": "moves",
+    "a027/0219": "items",
+    "a027/0711": "abilities",
+    "a027/0724": "types",
+    "a027/0033": "natures",
+    "a027/0183": "locations",
+    "battle_string/0000": "battle",
+    "battle_string/0001": "battle",
+    "battle_string/0002": "battle",
+    "battle_string/0003": "battle",
+    "a027/0791": "pokedex",
+    "a027/0792": "pokedex",
+    "a027/0798": "pokedex",
+    "a027/0738": "move_desc",
+    "a027/0218": "item_desc",
+    "a027/0712": "ability_desc",
+    "a027/0243": "berry_desc",
+    "a027/0719": "trainer_names",
+    "a027/0026": "frontier_names"
+  },
+  "var_widths": {
+    "_doc": "Estimated expansion width (px) of {VAR:01KK:..} placeholders, keyed by command id. typ = used for the error threshold, max = worst case (warning). Latin glyphs are 6 px. Kinds from pret gmm usage: 00 species, 01 nickname, 03 player/trainer name, 04 location, 05 ability, 06 move, 08 item, 0D stat, 0E trainer class, 0F type, 1C easy-chat word, 32-3B numbers (digits = kind-49).",
+    "digit_px": 6,
+    "default": {
+      "typ": 48,
+      "max": 72
+    },
+    "by_cmd": {
+      "0100": {
+        "typ": 54,
+        "max": 60
+      },
+      "0101": {
+        "typ": 54,
+        "max": 60
+      },
+      "0102": {
+        "typ": 54,
+        "max": 60
+      },
+      "0103": {
+        "typ": 36,
+        "max": 42
+      },
+      "0104": {
+        "typ": 66,
+        "max": 102
+      },
+      "0105": {
+        "typ": 60,
+        "max": 72
+      },
+      "0106": {
+        "typ": 60,
+        "max": 72
+      },
+      "0107": {
+        "typ": 42,
+        "max": 48
+      },
+      "0108": {
+        "typ": 60,
+        "max": 72
+      },
+      "0109": {
+        "typ": 60,
+        "max": 72
+      },
+      "010C": {
+        "typ": 42,
+        "max": 60
+      },
+      "010D": {
+        "typ": 42,
+        "max": 60
+      },
+      "010E": {
+        "typ": 60,
+        "max": 78
+      },
+      "010F": {
+        "typ": 36,
+        "max": 48
+      },
+      "011C": {
+        "typ": 48,
+        "max": 72
+      }
+    },
+    "by_narc": {
+      "battle_string": {
+        "0100": {
+          "typ": 60,
+          "max": 78
+        },
+        "0102": {
+          "typ": 54,
+          "max": 60
+        }
+      }
+    }
+  },
+  "glossary": {
+    "prose_categories": [
+      "species",
+      "moves",
+      "items",
+      "abilities",
+      "locations",
+      "general"
+    ],
+    "min_term_len": 2,
+    "skip_terms": [
+      "道具",
+      "技能",
+      "特性",
+      "属性",
+      "攻击",
+      "防御",
+      "特攻",
+      "特防",
+      "速度",
+      "对战",
+      "招式",
+      "名称"
+    ]
+  },
+  "compressed_banks": {
+    "_doc": "Banks the build stores {COMPRESSED} (ws.export applies it; build.py verifies it). raw_ids stay uncompressed, exactly like US 0729 ids 707-711: the Frontier Brain VS screen (hack ov77 0x0223616A, US ov80 0x0223A212) prints those names with no message formatter, so they must be plain text and fit u16[8] (raw_max_chars). max_units = the fixed buffer the battle copies into (u16[8] incl. the 0xFFFF terminator).",
+    "a027/0719": {
+      "raw_ids": [
+        707,
+        708,
+        709,
+        710,
+        711
+      ],
+      "raw_max_chars": 7,
+      "max_units": 8
+    }
+  },
+  "passthrough_banks": {
+    "_doc": "Official foreign-language Pokédex data the hack ships untranslated (dex entries 0793-0797, species names 0804-0808, categories 0809-0813, in EN/FR/DE/IT/ES). Not published: .gitignore excludes the bank files and `ws.py init` regenerates them from work/extract/v4, every string kept as is (en = zh, origin copy, note 'foreign-language data, kept as is (<language>)').",
+    "a027/0793": "English",
+    "a027/0794": "French",
+    "a027/0795": "German",
+    "a027/0796": "Italian",
+    "a027/0797": "Spanish",
+    "a027/0804": "English",
+    "a027/0805": "French",
+    "a027/0806": "German",
+    "a027/0807": "Italian",
+    "a027/0808": "Spanish",
+    "a027/0809": "English",
+    "a027/0810": "French",
+    "a027/0811": "German",
+    "a027/0812": "Italian",
+    "a027/0813": "Spanish"
+  },
+  "glossary_names": {
+    "_doc": "qa.py glossary_name lint: capitalised English name spans in prose are compared with the known names (glossary, name banks 0232/0739/0219/0711 and their 'abbreviated from' notes, 0724/0033/0183, active register terms). Hits: old_names (Gen 4 spellings, error for species/moves), a spelling variant of a known name (same letters, different spacing/case/accents), a name-bank abbreviation used in prose (warning), or an unknown word one edit away from a species/move/item/ability (fuzzy). 'allow' lists reviewed false positives with the reason; per string use qa_ignore 'glossary_name' or 'glossary_name:<span>'.",
+    "old_names": {
+      "Faint Attack": "Feint Attack",
+      "Vicegrip": "Vise Grip",
+      "ViceGrip": "Vise Grip",
+      "Sand-Attack": "Sand Attack",
+      "Softboiled": "Soft-Boiled",
+      "BubbleBeam": "Bubble Beam",
+      "Bubblebeam": "Bubble Beam",
+      "DoubleSlap": "Double Slap",
+      "SolarBeam": "Solar Beam",
+      "SonicBoom": "Sonic Boom",
+      "Conversion2": "Conversion 2",
+      "SmokeScreen": "Smokescreen",
+      "Hi Jump Kick": "High Jump Kick",
+      "Selfdestruct": "Self-Destruct",
+      "ThunderPunch": "Thunder Punch",
+      "ThunderShock": "Thunder Shock",
+      "SmellingSalt": "Smelling Salts",
+      "DynamicPunch": "Dynamic Punch",
+      "ExtremeSpeed": "Extreme Speed",
+      "AncientPower": "Ancient Power",
+      "DragonBreath": "Dragon Breath",
+      "FeatherDance": "Feather Dance",
+      "GrassWhistle": "Grass Whistle",
+      "PoisonPowder": "Poison Powder",
+      "X Defend": "X Defense",
+      "X Special": "X Sp. Atk",
+      "BalmMushroom": "Balm Mushroom",
+      "Up-Grade": "Upgrade",
+      "MiracleSeed": "Miracle Seed",
+      "Compoundeyes": "Compound Eyes",
+      "Lightningrod": "Lightning Rod",
+      "Pokeball": "Poké Ball",
+      "Poke Ball": "Poké Ball",
+      "Pokéball": "Poké Ball"
+    },
+    "allow": {
+      "Psychic♂": "trainer-class list label (超能力者 男), class Psychic + gender mark, not the move (0013)",
+      "Psychic♀": "trainer-class list label (超能力者 女), not the move",
+      "Bag ON": "UI toggle label 背包ON (0153), not Bagon",
+      "Pukachu": "debug trainer name 普卡丘, romanised (0176, debug/unused)",
+      "Ratatata": "Rattata's cry (0326)",
+      "Houndoo": "Houndoom's cry, cut off (0357)",
+      "Ga-Bite": "Gabite's cry (0501)",
+      "Splish": "onomatopoeia 扑腾扑腾 'Splish, splash!' (0713), not the move Splash",
+      "Smoke Screen Trap": "DP Underground trap 烟幕装置 (0726, debug/unused), not the move Smokescreen",
+      "Head Butt Pokémon": "official species category of Cranidos/Rampardos (头锤精灵), spelled with a space",
+      "WaterBubble Pokémon": "species category 水泡精灵 with the space dropped to fit 110 px (0803 note, Gen 4 style)",
+      "SickleGrass Pokémon": "species category 镰草精灵 with the space dropped to fit 110 px (0803 note, Gen 4 style)",
+      "Dragon Gym": "Blackthorn Gym described by its type (龙之道馆), not the item Dragon Gem",
+      "Color Changer": "device 颜色变换器 (0297/0300), not the ability Color Change",
+      "Rage Candy Bar": "Mahogany Town souvenir (愤怒馒头) in the US radio commercial, not an item bank name",
+      "Blu Apricorn": "US 12-character list label (0166, ♡ prefix leaves no room)",
+      "Ylw Apricorn": "US 12-character list label (0166)",
+      "Grn Apricorn": "US 12-character list label (0166)",
+      "Pnk Apricorn": "US 12-character list label (0166)",
+      "Wht Apricorn": "US 12-character list label (0166)",
+      "Blk Apricorn": "US 12-character list label (0166)"
+    }
+  }
+}

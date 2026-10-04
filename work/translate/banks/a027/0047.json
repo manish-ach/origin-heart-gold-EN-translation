@@ -1,0 +1,1242 @@
+{
+ "narc": "a027",
+ "bank": 47,
+ "source": "work/extract/v4/a027/0047.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "希罗娜『嗨,{VAR:0103:0}！{NEWLINE}这个洞穴里好多岔路啊。{SCROLL}到底是左边还是右边呢,{NEWLINE}真的好难选择啊。{CLEAR}{VAR:0103:0}你知道该往哪走吗？{SCROLL}",
+   "en": "Cynthia: Hi, {VAR:0103:0}! This cave has so{NEWLINE}many forks.{SCROLL}Left or right... It’s so hard to{NEWLINE}choose. Do you know which way to go,{CLEAR}{VAR:0103:0}?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 1,
+   "zh": "往左走！",
+   "en": "Go left!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 2,
+   "zh": "往右走！",
+   "en": "Go right!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 3,
+   "zh": "我也不知道,你凭直觉吧！",
+   "en": "No idea. Trust your gut!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 4,
+   "zh": "希罗娜『不愧是关东本地人,{NEWLINE}果然熟知这里的地形！{CLEAR}那我就走左边的道路啦。",
+   "en": "Cynthia: Spoken like a true Kanto local!{NEWLINE}You really know your way around.{SCROLL}Then I’ll take the path on the left.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 5,
+   "zh": "希罗娜『啊？右边吗？{NEWLINE}看起来好悠远的样子。{CLEAR}不过我相信{VAR:0103:0}指的路！",
+   "en": "Cynthia: Huh? Right? That way looks like{NEWLINE}it goes on forever.{SCROLL}But I trust your directions, {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 6,
+   "zh": "希罗娜『原来{VAR:0103:0}也没来过这里啊,{NEWLINE}那我就凭女人的直觉吧！{CLEAR}向左边出发咯。",
+   "en": "Cynthia: So you’ve never been here{NEWLINE}either, {VAR:0103:0}. Then I’ll go with my{CLEAR}woman’s intuition!{SCROLL}Off to the left I go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0103:0}『……",
+   "en": "{VAR:0103:0}: ...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "希罗娜『左边是死路……{NEWLINE}看来右边是对的。{CLEAR}虽然这次走错了,{CLEAR}不过再也不用纠结选哪边倒也不错。",
+   "en": "Cynthia: The left was a dead end...{NEWLINE}Looks like right was correct.{SCROLL}I went the wrong way this time, but at{NEWLINE}least I don’t have to agonize over{CLEAR}which way to go anymore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 9,
+   "zh": "圆陆鲨『Gi——ble！",
+   "en": "Gible: Gi-ble!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 10,
+   "zh": "希罗娜『{VAR:0103:0}你也沿着{NEWLINE}正确路线过来了啊。{CLEAR}不过据前边的警卫大叔说,{CLEAR}月见山上正在施工,{CLEAR}所以现在没法通行。",
+   "en": "Cynthia: So you came the right way too,{NEWLINE}{VAR:0103:0}.{SCROLL}But the guard up ahead says there’s{NEWLINE}construction on Mt. Moon, so no one can{CLEAR}get through right now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 11,
+   "zh": "现在月见山上全是我们火箭队的人,{NEWLINE}你们敢来找麻烦真是自寻死路。",
+   "en": "Mt. Moon is crawling with Team Rocket{NEWLINE}right now. Coming here to make trouble{CLEAR}is just asking to get crushed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 12,
+   "zh": "好吧,既然是你比较厉害,{NEWLINE}只要你出得起价钱,{CLEAR}我就可以卖你一点化石！",
+   "en": "Fine, you’re the stronger one. As long{NEWLINE}as you can pay my price, I’ll sell you{CLEAR}some fossils!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 13,
+   "zh": "似乎是古老的精灵雕像。",
+   "en": "It appears to be an ancient Pokémon{NEWLINE}statue.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 14,
+   "zh": "当心山洞里的超音蝠！",
+   "en": "Watch out for Zubat in the caves!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 15,
+   "zh": "小蓝『{VAR:0103:0},{NEWLINE}我的精灵刚刚受伤了需要休息,{CLEAR}你如果有余力的话{CLEAR}就去支援一下大家吧。",
+   "en": "Green: {VAR:0103:0}, my Pokémon just got{NEWLINE}hurt and need to rest. If you’ve got{CLEAR}the strength, go back up the others.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | Green = male-player route; #16 Red = female-player route."
+  },
+  {
+   "id": 16,
+   "zh": "小赤『{VAR:0103:0},{NEWLINE}我的精灵刚刚受伤了需要休息,{CLEAR}你如果有余力的话{CLEAR}就去支援一下大家吧。",
+   "en": "Red: {VAR:0103:0}, my Pokémon just got hurt{NEWLINE}and need to rest. If you’ve got the{CLEAR}strength, go back up the others.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 17,
+   "zh": "小绿『{VAR:0103:0},咱们一起上！{NEWLINE}让这个什么火箭队看看{CLEAR}咱们真新镇训练家的厉害！",
+   "en": "Blue: {VAR:0103:0}, let’s take them on{NEWLINE}together! Let’s show this Team Rocket{CLEAR}or whatever what Pallet Town Trainers{CLEAR}can do!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 18,
+   "zh": "小绿『好了,{VAR:0103:0}。{NEWLINE}这几个躁动的家伙交给我来看着,{CLEAR}你去帮其他人吧。",
+   "en": "Blue: OK, {VAR:0103:0}. I’ll keep an eye on{NEWLINE}these troublemakers. You go help the{CLEAR}others.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 19,
+   "zh": "你们这些小鬼就被碾碎在{NEWLINE}火箭队滚滚向前的车轮下吧！",
+   "en": "You brats are going to be crushed{NEWLINE}under the wheels of Team Rocket’s{CLEAR}march!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 20,
+   "zh": "啊……真是出师不利。",
+   "en": "Ugh... What a lousy start.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 21,
+   "zh": "臭丫头,让你看看火箭队姐姐{NEWLINE}最喜欢的以多欺少战术。",
+   "en": "Listen, girlie. Let big sis show you Team{NEWLINE}Rocket’s favorite tactic: ganging up on{CLEAR}you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 22,
+   "zh": "小霞『哼,{VAR:0103:0}已经来帮忙了,{NEWLINE}我们两个合力才不会输给你们呢！",
+   "en": "Misty: Hmph! {VAR:0103:0}’s here to help{NEWLINE}now. Together, there’s no way we’ll{CLEAR}lose to you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 23,
+   "zh": "输了！？真是不爽……",
+   "en": "We lost?! This stinks...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 24,
+   "zh": "小霞『{VAR:0103:0},{NEWLINE}这两个人已经没有战斗能力了,{CLEAR}你去帮其他人吧。",
+   "en": "Misty: {VAR:0103:0}, these two can’t fight{NEWLINE}anymore. Go help the others.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 25,
+   "zh": "小帅哥,加入我们火箭队怎么样啊？",
+   "en": "Hey there, handsome. How about joining{NEWLINE}Team Rocket?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 26,
+   "zh": "大吾『我对你们这种{NEWLINE}不清不楚的组织没兴趣。{SCROLL}大吾『{VAR:0103:0},{NEWLINE}跟我联手击退这伙人吧！",
+   "en": "Steven: I have no interest in a shady{NEWLINE}organization like yours.{SCROLL}Steven: {VAR:0103:0}, help me drive this lot{NEWLINE}back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 27,
+   "zh": "糟糕,这下要被伦达大人骂了。",
+   "en": "Uh-oh. Lord Petrel is going to chew me{NEWLINE}out for this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 28,
+   "zh": "大吾『这几个人已经无力反抗了,{NEWLINE}{VAR:0103:0}你去帮其他伙伴吧。",
+   "en": "Steven: These people can’t fight back{NEWLINE}anymore. {VAR:0103:0}, go help our other{CLEAR}friends.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 29,
+   "zh": "脸上没什么表情起伏嘛,{NEWLINE}你是被我们火箭队给吓傻了吧？{CLEAR}哈哈哈！",
+   "en": "Not much expression on that face, huh?{NEWLINE}Scared stiff by Team Rocket, are you?{CLEAR}Ha ha ha!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 30,
+   "zh": "希罗娜『你们确实不弱,{NEWLINE}但我和{VAR:0103:0}的组合{CLEAR}要比你们更厉害。",
+   "en": "Cynthia: You’re certainly not weak. But{NEWLINE}{VAR:0103:0} and I make a stronger team.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 31,
+   "zh": "确实是厉害的小鬼……",
+   "en": "You really are a tough kid...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 32,
+   "zh": "希罗娜『{VAR:0103:0},{NEWLINE}我这里的敌人已经没有威胁了,{CLEAR}你去帮帮其他人吧！",
+   "en": "Cynthia: {VAR:0103:0}, the enemies here{NEWLINE}aren’t a threat anymore. Go help the{CLEAR}others!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 33,
+   "zh": "不好了……！{NEWLINE}埋伏的兄弟们好像都被打败了……",
+   "en": "This is bad...! Looks like all our guys in{NEWLINE}the ambush got beaten...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 34,
+   "zh": "没想到这几个小鬼这么厉害……",
+   "en": "Who knew these brats were so strong...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 35,
+   "zh": "封路任务到此为止！{NEWLINE}全体使用穿洞绳撤退！",
+   "en": "The roadblock mission ends here!{NEWLINE}Everyone, use your Escape Ropes and{CLEAR}fall back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 36,
+   "zh": "收到！",
+   "en": "Roger!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 37,
+   "zh": "走,向伦达大人报告去！",
+   "en": "Come on, let’s go report to Lord{NEWLINE}Petrel!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 38,
+   "zh": "武藏『看起来情况不妙啊……",
+   "en": "Jessie: Things aren’t looking good...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 39,
+   "zh": "小次郎『我说咱们不如……",
+   "en": "James: I say we just...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 40,
+   "zh": "武藏、小次郎、喵喵『开溜吧！",
+   "en": "Jessie, James & Meowth: ...scram!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 41,
+   "zh": "这是月见山的化石",
+   "en": "These are fossils from Mt. Moon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 42,
+   "zh": "不要想着抢我的化石！{NEWLINE}想要的话就拿钱来！",
+   "en": "Don’t even think about stealing my{NEWLINE}fossils! If you want one, bring money!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 43,
+   "zh": "根之化石{NEWLINE}50000元",
+   "en": "Root Fossil{NEWLINE}$50000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 44,
+   "zh": "爪之化石{NEWLINE}50000元",
+   "en": "Claw Fossil{NEWLINE}$50000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 45,
+   "zh": "贝之化石{NEWLINE}50000元",
+   "en": "Helix Fossil{NEWLINE}$50000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 46,
+   "zh": "壳之化石{NEWLINE}50000元",
+   "en": "Dome Fossil{NEWLINE}$50000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 47,
+   "zh": "盾之化石{NEWLINE}50000元",
+   "en": "Armor Fossil{NEWLINE}$50000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 48,
+   "zh": "头盖化石{NEWLINE}50000元",
+   "en": "Skull Fossil{NEWLINE}$50000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 49,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s), same position"
+  },
+  {
+   "id": 50,
+   "zh": "一手交钱,一手交货！",
+   "en": "Cash first, then the goods!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 51,
+   "zh": "可不要乱传我这里有化石啊！",
+   "en": "And don’t go spreading it around that{NEWLINE}I’ve got fossils!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 52,
+   "zh": "没带够钱就想要化石？{NEWLINE}可别把我当傻子！",
+   "en": "You want fossils without enough money?{NEWLINE}Don’t take me for a fool!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 53,
+   "zh": "根据我多年的考古经验,{NEWLINE}大地之神固拉多似乎就沉睡在{CLEAR}月见山的某处！{SCROLL}然而……尼比博物馆的专家们{NEWLINE}却非常反对我的观点。",
+   "en": "Based on my many years of{NEWLINE}archaeological experience, Groudon, the{CLEAR}god of the land, seems to be sleeping{CLEAR}somewhere in Mt. Moon!{SCROLL}But... the experts at the Pewter{NEWLINE}Museum strongly disagree with me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 54,
+   "zh": "这位来自芳缘地区的训练家,{NEWLINE}对化石与考古似乎很有心得呢。",
+   "en": "This Trainer from the Hoenn region{NEWLINE}seems to know a lot about fossils and{CLEAR}archaeology.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 55,
+   "zh": "所以说,根据我的理论,{NEWLINE}固拉多应该就在这里！",
+   "en": "And so, according to my theory,{NEWLINE}Groudon should be right here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 56,
+   "zh": "大吾『嗯,听完您的论述之后,{NEWLINE}我也觉得非常有可能！",
+   "en": "Steven: Hmm, after hearing your{NEWLINE}argument, I also think it’s very{CLEAR}possible!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 57,
+   "zh": "大吾『啊！{VAR:0103:0}！{NEWLINE}你也到月见山来了啊。{CLEAR}嗯……莫非{CLEAR}你也是来研究化石和传说的？",
+   "en": "Steven: Ah! {VAR:0103:0}! So you’ve come to{NEWLINE}Mt. Moon too.{SCROLL}Hmm... Could it be you’re here to study{NEWLINE}fossils and legends as well?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 58,
+   "zh": "{VAR:0103:0}『啊……不……{NEWLINE}我做不了那么高深的研究……",
+   "en": "{VAR:0103:0}: Oh... No... I couldn’t do{NEWLINE}research that deep...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 59,
+   "zh": "{VAR:0103:0}『呃,我只是路过……{NEWLINE}顺便跟你打个招呼而已……",
+   "en": "{VAR:0103:0}: Uh, I was just passing by... I{NEWLINE}only wanted to say hi...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 60,
+   "zh": "大吾『那真是太可惜了,{NEWLINE}月见山可是充满了未知的秘密。{CLEAR}我现在要进去调查研究了,{CLEAR}你有兴趣的话也进来看看吧。",
+   "en": "Steven: That’s a pity. Mt. Moon is full{NEWLINE}of unknown secrets.{SCROLL}I’m going inside to investigate now. If{NEWLINE}you’re interested, come in and take a{CLEAR}look.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 61,
+   "zh": "铁哑铃『Be——Duuuuum！",
+   "en": "Beldum: Be-Duuuuum!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 62,
+   "zh": "地震鲶鱼『Nama！",
+   "en": "Whiscash: Nama!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 63,
+   "zh": "小蓝『真是不走运啊{VAR:0103:0}！{SCROLL}小蓝『我想到月见山山顶去,{NEWLINE}却被警卫挡住不让走。{CLEAR}话说你觉得警卫们{CLEAR}是那种见钱眼开的人吗？",
+   "en": "Green: What rotten luck, {VAR:0103:0}!{SCROLL}Green: I wanted to go to the top of{NEWLINE}Mt. Moon, but the guards won’t let{CLEAR}me through.{SCROLL}Say, do you think these guards are the{NEWLINE}type who’d take a bribe?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | Branch: Green = male-player route; #64 Red = female-player route.; ext-review RV-019"
+  },
+  {
+   "id": 64,
+   "zh": "小赤『又在这里见面了啊{VAR:0103:0}！{SCROLL}小赤『我本来想去月见山山顶的,{NEWLINE}却被警卫挡住不让走。{CLEAR}话说你有没有觉得警卫们{CLEAR}似乎有点怪怪的？",
+   "en": "Red: We meet again, {VAR:0103:0}!{SCROLL}Red: I wanted to go to the top of{NEWLINE}Mt. Moon, but the guards won’t let{CLEAR}me through.{SCROLL}Say, don’t you think there’s something{NEWLINE}weird about these guards?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; ext-review RV-019"
+  },
+  {
+   "id": 65,
+   "zh": "胖丁『Ji——ly！{NEWLINE}Pu！pu！",
+   "en": "Jigglypuff: Ji-ly! Pu! Pu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags suspiciously_long"
+  },
+  {
+   "id": 66,
+   "zh": "乔伊『前面的警卫说{NEWLINE}月见山的道路正在施工,{CLEAR}暂时不能通行。{SCROLL}乔伊『所以你趁着体力充沛,{NEWLINE}掉头回去才是上策吧！",
+   "en": "Joy: The guard up ahead says the path{NEWLINE}through Mt. Moon is under construction{CLEAR}and closed for now.{SCROLL}Joy: So the smart thing to do is turn{NEWLINE}back while you still have plenty of{CLEAR}energy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 67,
+   "zh": "吉利蛋『Cha——see！",
+   "en": "Chansey: Cha-see!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 68,
+   "zh": "小蓝『这是我刚在月见山{NEWLINE}捕获的胖丁。{CLEAR}听到它歌声的{CLEAR}人和口袋妖怪会迅速沉睡,{CLEAR}是很有用的技能哟。",
+   "en": "Green: This is the Jigglypuff I just{NEWLINE}caught on Mt. Moon.{SCROLL}People and Pokémon who hear its song{NEWLINE}fall asleep in no time. It’s a really{CLEAR}useful move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 69,
+   "zh": "小赤『这是我刚在月见山{NEWLINE}捕获的胖丁。{CLEAR}它的歌声能让听到的{CLEAR}人和口袋妖怪迅速沉睡,{CLEAR}是很可怕的技能。",
+   "en": "Red: This is the Jigglypuff I just{NEWLINE}caught on Mt. Moon.{SCROLL}Its song makes any person or Pokémon{NEWLINE}who hears it fall asleep in no time. It’s{CLEAR}a scary move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 70,
+   "zh": "前方道路正在施工,{NEWLINE}不准再往前走了！",
+   "en": "The road ahead is under construction!{NEWLINE}No one goes any farther!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 71,
+   "zh": "小绿『月见山被封,{NEWLINE}暂时无法过去。{CLEAR}可真是耽误我收集徽章！",
+   "en": "Blue: Mt. Moon is closed off, so I can’t{NEWLINE}get through for now. This is really{CLEAR}holding up my Badge collecting!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 72,
+   "zh": "卡咪龟『War——tor！",
+   "en": "Wartortle: War-tor!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 73,
+   "zh": "大吾『因为前面无法通行,{NEWLINE}所以我现在只能{CLEAR}研究月见山的石头了。",
+   "en": "Steven: Since the way ahead is closed,{NEWLINE}all I can do for now is study the stones{CLEAR}of Mt. Moon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 74,
+   "zh": "小霞『{VAR:0103:0}你也到这里来了啊！{NEWLINE}前面的路暂时被封住了,{CLEAR}不知道要多久才能开放。",
+   "en": "Misty: So you made it here too,{NEWLINE}{VAR:0103:0}! The road ahead is closed for{CLEAR}now.{SCROLL}Who knows how long it’ll be before it{NEWLINE}opens.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 75,
+   "zh": "宝石海星『Sta——mi！",
+   "en": "Starmie: Sta-mi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 76,
+   "zh": "{VAR:0103:0}『这里已经封路很久了,{NEWLINE}好多人都被堵在这里,{CLEAR}什么时候才能通行啊？",
+   "en": "{VAR:0103:0}: This road’s been closed for{NEWLINE}ages, and lots of people are stuck{CLEAR}here. When can we get through?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 77,
+   "zh": "{VAR:0103:0}『这里封路已经够久了,{NEWLINE}好多人都被堵在这里,{CLEAR}什么时候通行能不能给个准信啊！",
+   "en": "{VAR:0103:0}: This road’s been closed long{NEWLINE}enough, and lots of people are stuck{CLEAR}here. Just tell us when it’s opening!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 78,
+   "zh": "滚边儿去！{NEWLINE}哪那么多废话！",
+   "en": "Beat it! Quit your yapping!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 79,
+   "zh": "小绿『有没有搞错！{NEWLINE}不仅不公布通行时间,{CLEAR}还张口骂人！{SCROLL}小绿『你们这算哪门子警卫！",
+   "en": "Blue: You’ve got to be kidding! You{NEWLINE}won’t say when it’ll open, and now{CLEAR}you’re insulting people?!{SCROLL}Blue: What kind of guards are you?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 80,
+   "zh": "小霞『你们到底是{NEWLINE}精灵联盟哪个部门的？{SCROLL}小霞『没见过执法态度{NEWLINE}像你们这么蛮横的！",
+   "en": "Misty: Which department of the{NEWLINE}Pokémon League are you even from?{SCROLL}Misty: I’ve never seen law enforcement{NEWLINE}act so rudely!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 81,
+   "zh": "大吾『警卫先生,我们只是想知道{NEWLINE}大概的解封时间,{CLEAR}麻烦你告知一下吧！",
+   "en": "Steven: Officer, we’d just like a rough{NEWLINE}idea of when the road will reopen.{CLEAR}Please, let us know.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 82,
+   "zh": "希罗娜『迟迟不能通行的话,{NEWLINE}会让人很难选择{CLEAR}到底是继续往前走还是原路返回啊！",
+   "en": "Cynthia: If we can’t get through soon,{NEWLINE}it’ll be so hard to choose between{CLEAR}pressing on and turning back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 83,
+   "zh": "无可奉告！{NEWLINE}施工完毕自然就解封了！",
+   "en": "No comment! It’ll reopen when the{NEWLINE}construction is done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 84,
+   "zh": "小蓝『快抓住那只皮皮啊！{NEWLINE}它身上带着至少价值一百万元的{CLEAR}超巨大的月亮石呢！",
+   "en": "Green: Quick, catch that Clefairy! It’s{NEWLINE}carrying a gigantic Moon Stone worth at{CLEAR}least a million dollars!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | Branch: Green (male-player route) / #85 Red (female-player route)."
+  },
+  {
+   "id": 85,
+   "zh": "小赤『快抓住那只皮皮！{NEWLINE}它身上带着极其巨大的月亮石！{CLEAR}至少价值一百万元啊！",
+   "en": "Red: Quick, catch that Clefairy! It’s{NEWLINE}carrying an enormous Moon Stone! It’s{CLEAR}worth at least a million dollars!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 86,
+   "zh": "哇塞！一百万元的月亮石！{NEWLINE}抢过来我们就发了！",
+   "en": "Whoa! A Moon Stone worth a million! If{NEWLINE}we grab it, we’re rich!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 87,
+   "zh": "蠢货！说什么傻话！{NEWLINE}我们正在执行任务呢！",
+   "en": "Idiot! What are you talking about?!{NEWLINE}We’re in the middle of a mission!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 88,
+   "zh": "可是大哥,{NEWLINE}有钱不赚不是我们火箭队的本色啊……",
+   "en": "But, boss... It’s not Team Rocket’s{NEWLINE}style to pass up easy money...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 89,
+   "zh": "小蓝『哈哈,果然你们不是警卫,{NEWLINE}而是火箭队在假扮的！{CLEAR}好了小百变,回来吧！",
+   "en": "Green: Ha ha! I knew it. You’re not{NEWLINE}guards, you’re Team Rocket in disguise!{SCROLL}OK, Ditty, come on back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; ext-review RA-001: Ditty = Green’s Ditto nickname (Adventures)"
+  },
+  {
+   "id": 90,
+   "zh": "小赤『我就觉得哪有你们这种警卫,{NEWLINE}果然是火箭队假扮的！{CLEAR}可以解除变身了百变怪！",
+   "en": "Red: I knew no real guard would act like{NEWLINE}you. You’re Team Rocket in disguise!{SCROLL}You can drop the Transform now, Ditto!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 91,
+   "zh": "混蛋,竟然被你们识破了！{NEWLINE}不过你们想凭人数突破这里……{CLEAR}真是太瞧不起我们火箭队了！",
+   "en": "Dammit, you saw through us! But if you{NEWLINE}think you can push through here just{CLEAR}because there’s more of you...{SCROLL}...you’re seriously underestimating{NEWLINE}Team Rocket!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 92,
+   "zh": "{VAR:0103:0}『火箭队！{NEWLINE}原来是你们假扮警卫在这里堵路！",
+   "en": "{VAR:0103:0}: Team Rocket! So you’re the{NEWLINE}ones blocking the road, pretending to{CLEAR}be guards!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 93,
+   "zh": "小绿『既然不是真正的警卫,{NEWLINE}那就赶紧把路让开！",
+   "en": "Blue: If you’re not real guards, then{NEWLINE}get out of the way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 94,
+   "zh": "小霞『竟然敢假扮警卫！{NEWLINE}你们还真是胆大包天啊！",
+   "en": "Misty: You dared to pose as guards?{NEWLINE}You’ve got some nerve!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 95,
+   "zh": "大吾『你们在这里阻挡行人上山,{NEWLINE}怕是有什么不可告人的秘密吧！",
+   "en": "Steven: Stopping people from going up{NEWLINE}the mountain... You must be hiding some{CLEAR}dirty secret!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 96,
+   "zh": "希罗娜『既然不是真正的警卫,{NEWLINE}那我就不用再纠结前进还是返回了！",
+   "en": "Cynthia: If you’re not real guards,{NEWLINE}then I don’t have to agonize over{CLEAR}whether to go on or turn back anymore!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 97,
+   "zh": "小蓝『面对这么多训练家,{NEWLINE}你们还是乖乖让开比较好哟！",
+   "en": "Green: With this many Trainers here,{NEWLINE}you’d better step aside like good little{CLEAR}crooks!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 98,
+   "zh": "小赤『面对这么多训练家,{NEWLINE}你们还是赶紧把路让开吧！",
+   "en": "Red: With this many Trainers here, you’d{NEWLINE}better clear the road right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 99,
+   "zh": "出来吧！队友们！",
+   "en": "Come on out, team!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 100,
+   "zh": "动手！干掉他们！",
+   "en": "Get them! Take them down!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 101,
+   "zh": "小绿『呸！这群歹徒！{NEWLINE}真是有够嚣张的！",
+   "en": "Blue: Tch! These thugs are way too full{NEWLINE}of themselves!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 102,
+   "zh": "小霞『我可不能眼睁睁地{NEWLINE}看着你们作恶！",
+   "en": "Misty: I’m not going to just stand by{NEWLINE}and watch you do evil!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 103,
+   "zh": "大吾『这背后想必是{NEWLINE}有什么大的阴谋吧！",
+   "en": "Steven: There must be some grand{NEWLINE}scheme behind all this!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 104,
+   "zh": "希罗娜『比起做出选择,{NEWLINE}我更擅长战斗！",
+   "en": "Cynthia: I’m much better at battling{NEWLINE}than at making choices!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 105,
+   "zh": "小蓝『来吧{VAR:0103:0}！{NEWLINE}现在就是不想打也得打了！",
+   "en": "Green: Come on, {VAR:0103:0}! We have to{NEWLINE}fight now, like it or not!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 106,
+   "zh": "小赤『来吧{VAR:0103:0}！{NEWLINE}我们一起击退火箭队！",
+   "en": "Red: Come on, {VAR:0103:0}! Let’s drive back{NEWLINE}Team Rocket together!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 107,
+   "zh": "妈的！竟然全员战败？！{SCROLL}得赶紧向伦达达人报告！",
+   "en": "Dammit! All of us got beaten?!{SCROLL}We’ve got to report to Lord Petrel,{NEWLINE}fast!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 108,
+   "zh": "小绿『我说{VAR:0103:0}！{NEWLINE}打赢了也别呆在那里啊！{CLEAR}现在对方的人数占优,{CLEAR}赶紧支援一下大家！",
+   "en": "Blue: Hey, {VAR:0103:0}! Don’t just stand{NEWLINE}there after you win!{SCROLL}They’ve got us outnumbered right now.{NEWLINE}Go help everyone!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 109,
+   "zh": "小绿『对方的人数占优啊！{NEWLINE}{VAR:0103:0}如果你还有余力的话{CLEAR}就过来支援一下大家！！",
+   "en": "Blue: They’ve got us outnumbered!{NEWLINE}{VAR:0103:0}, if you’ve got any strength{CLEAR}left, come help everyone!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 110,
+   "zh": "小霞『{VAR:0103:0}快来！{SCROLL}小霞『我需要你的帮助！",
+   "en": "Misty: {VAR:0103:0}, hurry!{SCROLL}Misty: I need your help!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 111,
+   "zh": "大吾『这群人比想象中要强啊！{SCROLL}大吾『是一群训练有素的家伙呢！",
+   "en": "Steven: These people are stronger than{NEWLINE}I thought!{SCROLL}Steven: They’re a well-trained bunch!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 112,
+   "zh": "希罗娜『呀！{SCROLL}希罗娜『好厉害的攻击……",
+   "en": "Cynthia: Eek!{SCROLL}Cynthia: What a powerful attack...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 113,
+   "zh": "小绿『{VAR:0103:0},刚刚的战斗消耗很大。{NEWLINE}我需要让我的精灵休息一下。{CLEAR}你先去追上去看个究竟,{CLEAR}我随后就到！",
+   "en": "Blue: {VAR:0103:0}, that battle took a lot{NEWLINE}out of us. My Pokémon need a rest.{SCROLL}You go on ahead and find out what’s{NEWLINE}going on. I’ll catch up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 114,
+   "zh": "小霞『刚刚多亏有{VAR:0103:0}你帮忙。{SCROLL}小霞『想不到关东地区{NEWLINE}居然有这样的一个组织！{CLEAR}看来需要先通知一下精灵联盟了。",
+   "en": "Misty: Thanks for your help back there,{NEWLINE}{VAR:0103:0}.{SCROLL}Misty: Who knew there was an{NEWLINE}organization like that in Kanto! I’d{CLEAR}better let the Pokémon League know.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0047#114; text not kept)"
+  },
+  {
+   "id": 115,
+   "zh": "大吾『漂亮的战斗啊{VAR:0103:0}！{NEWLINE}话说与我们作战的那群人{CLEAR}应该在月见山上密谋着什么！{CLEAR}我觉得有必要好好调查一番。",
+   "en": "Steven: That was a splendid battle,{NEWLINE}{VAR:0103:0}!{SCROLL}By the way, that group we fought must{NEWLINE}be plotting something on Mt. Moon! I{CLEAR}think it needs a proper investigation.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 116,
+   "zh": "希罗娜『刚刚谢谢你啦{VAR:0103:0}。{NEWLINE}现在我疲惫的精灵们可以休息一下了。{CLEAR}不过刚刚那群人{CLEAR}为什么要在这里封路呢……",
+   "en": "Cynthia: Thanks for your help, {VAR:0103:0}.{NEWLINE}Now my tired Pokémon can finally rest.{SCROLL}But why were those people blocking the{NEWLINE}road here...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 117,
+   "zh": "小蓝『嘿嘿,{VAR:0103:0}{NEWLINE}你不用谢我帮你揭穿火箭队的伪装啦。{SCROLL}小蓝『如果你还想继续去{NEWLINE}调查火箭队的阴谋呢,{CLEAR}我建议你还是躲在暗处观察比较好。{CLEAR}硬碰硬可不是个好主意。",
+   "en": "Green: Heh heh, {VAR:0103:0}, no need to{NEWLINE}thank me for exposing Team Rocket’s{CLEAR}disguise.{SCROLL}Green: If you want to keep{NEWLINE}investigating Team Rocket’s scheme, I’d{CLEAR}say you should watch from the shadows.{SCROLL}Taking them head-on isn’t a good idea.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | Branch: Green (male-player route) / #118 Red (female-player route)."
+  },
+  {
+   "id": 118,
+   "zh": "小赤『多亏有{VAR:0103:0}你们这么多{NEWLINE}擅长战斗训练家聚在这里{CLEAR}我才敢揭穿火箭队的伪装。{CLEAR}不过面对火箭队这么多人的组织,{CLEAR}去硬碰硬可不是个好主意。",
+   "en": "Red: I only dared to expose Team{NEWLINE}Rocket’s disguise because you and all{CLEAR}these strong Trainers were here,{CLEAR}{VAR:0103:0}.{SCROLL}But going head-on against an{NEWLINE}organization as big as Team Rocket isn’t{CLEAR}a good idea.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 119,
+   "zh": "乔伊『我刚刚都看到了,{NEWLINE}你一个人对付了那么多……{CLEAR}那么多坏人。{SCROLL}乔伊『想必你和你的精灵{NEWLINE}也已经很疲惫了吧。{CLEAR}我来帮你恢复一下。",
+   "en": "Joy: I saw everything. You took on so{NEWLINE}many... so many bad guys all by{CLEAR}yourself.{SCROLL}Joy: You and your Pokémon must be{NEWLINE}exhausted. Let me heal you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 120,
+   "zh": "乔伊『这些人好像{NEWLINE}不是那么好对付的。{CLEAR}我劝你还是不要再{CLEAR}继续探究他们的事了。",
+   "en": "Joy: Those people don’t seem easy to{NEWLINE}deal with. I’d advise you not to dig into{CLEAR}their business any further.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 121,
+   "zh": "这面墙壁上的花纹{NEWLINE}似乎有些与众不同。",
+   "en": "The pattern on this wall seems a little{NEWLINE}different from the rest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 122,
+   "zh": "我常年在洞穴里练习喷火,{NEWLINE}现在连牙齿上都沾着火焰,{CLEAR}于是我领悟了一招名为火之牙的技能。{CLEAR}如果你想让精灵想学火之牙的话,{CLEAR}只要给我1个黑暗球,我就可以教给它。{SCROLL}怎么样,要学吗？",
+   "en": "I’ve been practicing breathing fire in{NEWLINE}this cave for years. Now even my teeth{CLEAR}have flames on them!{SCROLL}That’s how I came up with a move called{NEWLINE}Fire Fang.{SCROLL}If you want your Pokémon to learn Fire{NEWLINE}Fang, just give me one Dusk Ball and I’ll{CLEAR}teach it.{SCROLL}So, want to learn it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 123,
+   "zh": "你挺厉害的嘛！{SCROLL}这块石头是我在月见山捡到的,{NEWLINE}送给你留个纪念吧。",
+   "en": "You’re pretty good!{SCROLL}I found this stone on Mt. Moon. Take it{NEWLINE}as a souvenir.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 124,
+   "zh": "不想与月见山的野生精灵战斗的话,{NEWLINE}就走棕色的土地吧！",
+   "en": "If you don’t want to battle the wild{NEWLINE}Pokémon in Mt. Moon, walk on the brown{CLEAR}ground!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 125,
+   "zh": "武藏『在月见山顶发生的事,{NEWLINE}我们可是都听说了。{CLEAR}居然敢破坏我们火箭队的计划。",
+   "en": "Jessie: We heard all about what{NEWLINE}happened at the top of Mt. Moon. How{CLEAR}dare you ruin Team Rocket’s plans!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 126,
+   "zh": "小次郎『而且还打败了{NEWLINE}火箭队十干部之一的伦达大人。{CLEAR}老大知道后一定会震怒的。",
+   "en": "James: And you beat Lord Petrel, one of{NEWLINE}Team Rocket’s Ten Executives. The Boss{CLEAR}will be furious when he hears.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 127,
+   "zh": "喵喵『加上上次在常磐森林,{NEWLINE}坏我们的好事,{CLEAR}我们要跟你好好算算这笔账啊喵。",
+   "en": "Meowth: Plus there’s the time you{NEWLINE}ruined our fun in Viridian Forest. We got{CLEAR}a score to settle with you, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 128,
+   "zh": "{VAR:0103:0}『火箭队十干部！？{NEWLINE}那么厉害的家伙有十个！？",
+   "en": "{VAR:0103:0}: Team Rocket’s Ten{NEWLINE}Executives?! There are ten guys that{CLEAR}strong?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 129,
+   "zh": "武藏『呀——呵呵！{NEWLINE}怕了吧,小鬼头。",
+   "en": "Jessie: Ya-ha ha ha! Scared now, brat?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 130,
+   "zh": "小次郎『我们火箭队的老大{NEWLINE}实力更是在十干部之上哟！",
+   "en": "James: And our Boss is even stronger{NEWLINE}than the Ten Executives!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 131,
+   "zh": "喵喵『你要是识相的话,{NEWLINE}就磕头认错吧喵！",
+   "en": "Meowth: If ya know what’s good for ya,{NEWLINE}ya’ll get down on your knees and say{CLEAR}sorry, meow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 132,
+   "zh": "{VAR:0103:0}『听了你说的这些……{SCROLL}{VAR:0103:0}『只会让人更想打败你们！",
+   "en": "{VAR:0103:0}: Hearing all that...{SCROLL}{VAR:0103:0}: ...just makes me want to beat{NEWLINE}you even more!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost,var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0047#132; text not kept)"
+  },
+  {
+   "id": 133,
+   "zh": "武藏『你还真是处于逆反期呢。",
+   "en": "Jessie: My, aren’t you in a rebellious{NEWLINE}phase.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 134,
+   "zh": "小次郎『对付你这样的小鬼头,{NEWLINE}打一顿是最有效的了。",
+   "en": "James: A good thrashing is the best way{NEWLINE}to deal with a brat like you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 135,
+   "zh": "喵喵『作战失败了喵,{NEWLINE}再不撤被揍的就是我们了喵。",
+   "en": "Meowth: The plan’s a bust, meow. If we{NEWLINE}don’t scram now, we’re the ones gettin’{CLEAR}pounded, meow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 136,
+   "zh": "武藏『可恶的臭小鬼,{NEWLINE}你给我等着！",
+   "en": "Jessie: You rotten brat! Just you wait!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 137,
+   "zh": "小次郎『好讨厌的感觉啊！",
+   "en": "James: Looks like Team Rocket’s{NEWLINE}blasting off again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 138,
+   "zh": "{VAR:0103:0}『马上就要离开月见山了……{NEWLINE}身上只有一只精灵也太少了。{CLEAR}趁离开之前多去捉几只吧。",
+   "en": "{VAR:0103:0}: I’m about to leave Mt. Moon...{NEWLINE}Having just one Pokémon with me is way{CLEAR}too few.{SCROLL}I should catch a few more before I go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 139,
+   "zh": "月见山洞穴有些地方的泥土{NEWLINE}含水量会偏高一点,{CLEAR}颜色也会偏棕色一些。{SCROLL}野生口袋妖怪们{NEWLINE}不喜欢这种湿乎乎的土地,{CLEAR}所以你如果走在棕色的地面上{CLEAR}就不用担心遇到野生精灵了。{SCROLL}我告诉了你这么有用的信息,{NEWLINE}你不陪我来场对战感谢一下吗？",
+   "en": "In some parts of Mt. Moon’s caves, the{NEWLINE}soil holds a bit more water, so it looks{CLEAR}browner.{SCROLL}Wild Pokémon don’t like that soggy{NEWLINE}ground. So if you walk on brown ground,{CLEAR}you won’t have to worry about running{CLEAR}into wild Pokémon.{SCROLL}I told you something that useful, so{NEWLINE}won’t you thank me with a battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 140,
+   "zh": "你走到这洞穴深处,{NEWLINE}一定非常累吧？{CLEAR}不用担心,我来帮你回复。",
+   "en": "You must be exhausted after coming this{NEWLINE}deep into the cave. Don’t worry, I’ll{CLEAR}heal your team.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 141,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 142,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it, come find me{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 143,
+   "zh": "你并没有黑暗球啊,{NEWLINE}等有球了再来找我吧。",
+   "en": "You don’t have a Dusk Ball. Come back{NEWLINE}when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 144,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住火之牙。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn Fire{NEWLINE}Fang.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 145,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 146,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会火之牙了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Fire{NEWLINE}Fang!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost,var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0047#146; text not kept)"
+  },
+  {
+   "id": 147,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 148,
+   "zh": "{VAR:0101:0}学会了火之牙！",
+   "en": "{VAR:0101:0} learned Fire Fang!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 149,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会火之牙了！{SCROLL}那么按照约定,{NEWLINE}1个黑暗球我拿走了。",
+   "en": "And with that, your {VAR:0100:0} has{NEWLINE}learned Fire Fang!{SCROLL}As we agreed, I’ll take one Dusk Ball.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 150,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的火之牙……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习火之牙{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Fire Fang...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn Fire{NEWLINE}Fang?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0047#150; text not kept)"
+  },
+  {
+   "id": 151,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 152,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 153,
+   "zh": "你是要放弃{NEWLINE}让它记住火之牙吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Fire Fang?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0047#153; text not kept)"
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "narc": "a027",
+ "bank": 581,
+ "source": "work/extract/v4/a027/0581.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "咲『你好啊,客人。{NEWLINE}我是这家花店的店长咲。{CLEAR}虽说是花店的店长,{CLEAR}但我却特别喜欢火系精灵呢。",
+   "en": "Saki: Hello there, customer! I’m Saki,{NEWLINE}the manager of this flower shop. I{CLEAR}may run a flower shop, but what I{CLEAR}really love is Fire-type Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "咲 → Saki (flower shop manager; invented romanisation, low confidence)."
+  },
+  {
+   "id": 1,
+   "zh": "咲『哇！你带着的那个是……{NEWLINE}冰空花束！{CLEAR}据说带着冰空花束去{CLEAR}桐树林深处的时光森林神庙,{CLEAR}就有可能会遇到洁咪哦。",
+   "en": "Saki: Wow! What you’ve got there...{NEWLINE}is that a Gracidea? They say if{CLEAR}you take a Gracidea to the shrine{CLEAR}deep in Ilex Forest, in the Forest{CLEAR}of Time, you might meet Shaymin.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "时光森林神庙 → ‘the shrine in the Forest of Time’ (the Ilex Forest shrine, 0081)."
+  },
+  {
+   "id": 2,
+   "zh": "您好,满金市花店。{NEWLINE}有什么可以帮您的吗？",
+   "en": "Welcome to the Goldenrod Flower{NEWLINE}Shop! How may I help you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "快快肥{NEWLINE}200元",
+   "en": "Growth Mulch{NEWLINE}$200",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 4,
+   "zh": "湿湿肥{NEWLINE}200元",
+   "en": "Damp Mulch{NEWLINE}$200",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 5,
+   "zh": "长长肥{NEWLINE}200元",
+   "en": "Stable Mulch{NEWLINE}$200",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 6,
+   "zh": "粘粘肥{NEWLINE}200元",
+   "en": "Gooey Mulch{NEWLINE}$200",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 7,
+   "zh": "精神香草{NEWLINE}100元",
+   "en": "Mental Herb{NEWLINE}$100",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 8,
+   "zh": "力量香草{NEWLINE}100元",
+   "en": "Power Herb{NEWLINE}$100",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 9,
+   "zh": "白色香草{NEWLINE}100元",
+   "en": "White Herb{NEWLINE}$100",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 10,
+   "zh": "鲜花香炉{NEWLINE}9000元",
+   "en": "Rose Incense{NEWLINE}$9000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 11,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s)",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 12,
+   "zh": "好的,给你,{NEWLINE}谢谢惠顾。",
+   "en": "Here you go. Thank you{NEWLINE}for shopping with us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 13,
+   "zh": "诶……不好意思,{NEWLINE}您的钱不够哦。",
+   "en": "Well... Excuse me, but{NEWLINE}you’re short of money.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0589/13"
+  },
+  {
+   "id": 14,
+   "zh": "请问还有什么可以帮您的吗？{SCROLL}",
+   "en": "Is there anything else{NEWLINE}I can help you with?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), flags page_breaks_lost; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 15,
+   "zh": "多谢惠顾。",
+   "en": "Thank you. Please come again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 16,
+   "zh": "你也是有树果培养皿的人呀,{NEWLINE}这么说来我们店里这些东西{CLEAR}你或许用得到哦。",
+   "en": "Oh, you have Berry Pots too!{NEWLINE}Then some of the things in our{CLEAR}shop might come in handy for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "咲『哇哦,你带的那只精灵{NEWLINE}就是传说中的洁咪吧！{CLEAR}真的是非常可爱呢。{SCROLL}咲『据说洁咪跟雪拉比是好朋友,{NEWLINE}你带着洁咪去时光森林神庙,{CLEAR}或许能遇到雪拉比哦。",
+   "en": "Saki: Wow, that Pokémon with you must{NEWLINE}be the legendary Shaymin! It’s so cute.{SCROLL}Saki: They say Shaymin and Celebi{NEWLINE}are good friends. If you take{CLEAR}Shaymin to the shrine in the Forest{CLEAR}of Time, you might meet Celebi.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "咲『哇哦,你带的那只精灵{NEWLINE}是森林之神雪拉比吧！{SCROLL}咲『没想到连森林之神都能收服,{NEWLINE}你真是太厉害了。",
+   "en": "Saki: Wow, that Pokémon with you{NEWLINE}is Celebi, the god of the forest!{SCROLL}Saki: I can’t believe you caught the{NEWLINE}god of the forest. You’re amazing!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "你好像还没有树果培养皿吧？{NEWLINE}正好我们店里有不少存货,{CLEAR}你想要的话{CLEAR}可以5000元一个卖你哦。{CLEAR}怎么样,要买吗？",
+   "en": "Looks like you don’t have Berry Pots{NEWLINE}yet? We happen to have plenty in stock.{CLEAR}If you like, I can sell you a set for{CLEAR}$5000. How about it? Want to buy some?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "来,这是树果培养皿,请你收好。",
+   "en": "Here are your Berry Pots.{NEWLINE}Please take good care of them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "对不起啊,你身上的钱不够。",
+   "en": "Sorry, you don’t have enough money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

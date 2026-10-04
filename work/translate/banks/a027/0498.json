@@ -1,0 +1,267 @@
+{
+ "narc": "a027",
+ "bank": 498,
+ "source": "work/extract/v4/a027/0498.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "哈哈,今天的拍卖会{NEWLINE}真是大赚一笔啊。",
+   "en": "Ha ha! We made a killing at today’s{NEWLINE}auction.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "你是什么人？{NEWLINE}怎么进来的？！{CLEAR}赶紧给我出去！",
+   "en": "Who are you? How did you get in here?!{NEWLINE}Get out right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "有人拿了臭臭花到你这里来卖？",
+   "en": "Someone brought a Gloom to sell?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#2–#5: the player's choices (Gloom / buy / sell / leave). | menu width fix (follow-up 1): was 'Did someone bring you a Gloom to sell?'; ext-review LD-002",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 3,
+   "zh": "我是来买精灵的",
+   "en": "I’m here to buy Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 4,
+   "zh": "我手头有珍稀的精灵要卖",
+   "en": "I have rare Pokémon to sell",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 5,
+   "zh": "对不起,打扰了",
+   "en": "Sorry to bother you",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 6,
+   "zh": "我们这里是私人会所,{NEWLINE}没有邀请禁止入内。{CLEAR}赶紧给我滚！",
+   "en": "This is a private club. No entry without{NEWLINE}an invitation. Get lost!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "你在胡说什么？{NEWLINE}我们这里是高端的私人娱乐会所,{CLEAR}不是买卖精灵的市场！{SCROLL}我不知道你是怎么进来的,{NEWLINE}但是你现在马上给我滚！",
+   "en": "What are you talking about?{SCROLL}This is an exclusive private{NEWLINE}entertainment club, not a market for{CLEAR}buying and selling Pokémon!{SCROLL}I don’t know how you got in here, but{NEWLINE}get lost right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "你这个穷逼没听懂我的话吗？{NEWLINE}我让你滚出去啊。",
+   "en": "Are you deaf, you broke-ass loser? I{NEWLINE}said get the hell out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 穷逼 kept at strength."
+  },
+  {
+   "id": 9,
+   "zh": "就你带的这些精灵,{NEWLINE}多的就像路边的野狗,{CLEAR}哪个会买你的哦。{CLEAR}赶紧给我滚！",
+   "en": "The Pokémon you’ve got are as common{NEWLINE}as stray dogs by the roadside. Who’d{CLEAR}ever buy them? Get lost!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "我一眼就看出您身价不凡,{NEWLINE}绝对是那种社会精英人上人！{CLEAR}我跟您说您要是喜欢精灵,{CLEAR}来我们这里买准没错。{SCROLL}您喜欢什么样的精灵就跟我们说,{NEWLINE}我们会想办法给您弄来的。{CLEAR}今天的拍卖会上有个人{CLEAR}就买到了他预定的那种臭臭花。{CLEAR}没错,就跟莉佳馆主的那只一模一样,{CLEAR}能够分泌珍贵的香水原料哦！{SCROLL}整个关东,您只有在我们这里{NEWLINE}才能买到这么稀有的精灵。",
+   "en": "I could tell at a glance that you’re{NEWLINE}someone special.{SCROLL}A true member of the elite!{SCROLL}Let me tell you, if you like Pokémon, you{NEWLINE}can’t go wrong buying from us.{SCROLL}Tell us what kind of Pokémon you want,{NEWLINE}and we’ll find a way to get it for you.{SCROLL}At today’s auction, one man got exactly{NEWLINE}the Gloom he’d ordered. That’s right,{CLEAR}just like Gym Leader Erika’s! It gives{CLEAR}off a precious perfume ingredient!{SCROLL}In all of Kanto, only here can you buy{NEWLINE}such rare Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "哇,原来您带着{NEWLINE}这么珍稀的精灵啊。{CLEAR}那肯定能卖个好价钱。{SCROLL}我跟您说,就今天有个人{NEWLINE}拿了一只非常特殊的臭臭花来,{CLEAR}没错,就跟莉佳馆主的那只一模一样,{CLEAR}能够分泌珍贵的香水原料哦！{CLEAR}这只臭臭花卖了一个非常高的价钱。{SCROLL}整个关东,您只有在我们这里{NEWLINE}才能找到出这么多钱的买主！",
+   "en": "Wow, so you’ve brought such rare{NEWLINE}Pokémon!{SCROLL}They’ll fetch a good price for sure.{SCROLL}Let me tell you, just today someone{NEWLINE}brought in a very special Gloom. That’s{CLEAR}right, just like Gym Leader Erika’s! It{CLEAR}gives off a precious perfume ingredient!{SCROLL}That Gloom sold for a very high price.{SCROLL}In all of Kanto, only here will you find{NEWLINE}buyers willing to pay that much!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}『你提到有人买了臭臭花？{NEWLINE}是谁买的？",
+   "en": "{VAR:0103:0}: You said someone bought a{NEWLINE}Gloom? Who bought it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "嘿嘿,那可是在地下交易界{NEWLINE}赫赫有名的「收藏家」。{CLEAR}他每次来我们这里,{CLEAR}都可以买到超级珍稀的精灵哦！",
+   "en": "Heh heh. That’d be the Collector,{NEWLINE}famous in the underground trade.{SCROLL}Every time he comes here, he gets{NEWLINE}super-rare Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "嘿嘿,那可是在地下交易界{NEWLINE}赫赫有名的「收藏家」。{CLEAR}他每次买珍稀精灵可都是一掷千金！{CLEAR}你的精灵要卖给他的话,{CLEAR}一定也能卖个好价钱的。",
+   "en": "Heh heh. That’d be the Collector,{NEWLINE}famous in the underground trade. He{CLEAR}spends a fortune every time he buys{CLEAR}rare Pokémon!{SCROLL}If you sell your Pokémon to him, you’ll{NEWLINE}get a good price for sure.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0103:0}『「收藏家」？{NEWLINE}他是谁？",
+   "en": "{VAR:0103:0}: The Collector? Who’s that?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "你是来买精灵的{NEWLINE}还是来查户口的？{CLEAR}不买就给我滚！",
+   "en": "Are you here to buy Pokémon or to{NEWLINE}interrogate me? If you’re not buying,{CLEAR}get lost!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "你是来做生意的{NEWLINE}还是来查户口的？{CLEAR}不卖精灵就给我滚！",
+   "en": "Are you here to do business or to{NEWLINE}interrogate me? If you’re not selling{CLEAR}Pokémon, get lost!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "主人您好,欢迎您的光临。",
+   "en": "Welcome, sir. Thank you for coming.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "老板您好,欢迎您的光临。",
+   "en": "Welcome, boss. Thank you for coming.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "你谁啊？看什么看？我认识你吗？",
+   "en": "Who are you? What are you looking at?{NEWLINE}Do I know you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "我带了一只素利拍来,{NEWLINE}专为那些睡眠不好的人治疗失眠。{CLEAR}你可以找它试一试。",
+   "en": "I brought a Hypno to help people who{NEWLINE}can’t sleep well get over their{CLEAR}insomnia. You can give it a try.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "这里原来是个非法的会所,{NEWLINE}现在被改成市民休闲中心了。",
+   "en": "This used to be an illegal club. Now it’s{NEWLINE}been turned into a leisure center for{CLEAR}the citizens.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "你好啊,{NEWLINE}你也是来这里放空自己的吗？",
+   "en": "Hello. Did you come here to clear your{NEWLINE}head too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "在繁华喧闹的彩虹市中{NEWLINE}有这么一个幽静的地方很不错呢。",
+   "en": "It’s nice to have a peaceful spot like{NEWLINE}this in bustling Celadon City.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "休闲中心的书还挺全的,{NEWLINE}连最新一期的口袋迷杂志都有。",
+   "en": "The leisure center has a good selection{NEWLINE}of books. They even have the latest{CLEAR}issue of the Pokémon fan magazine.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 口袋迷杂志; 口袋迷 is Game Freak elsewhere, but here reads as a fan magazine."
+  },
+  {
+   "id": 26,
+   "zh": "素利拍『Hyp——no！",
+   "en": "Hypno: Hyp-no!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "嘿嘿,在这里可以打游戏！",
+   "en": "Heh heh, you can play games here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "要让素利拍帮你催眠休息一下吗？",
+   "en": "Would you like Hypno to help you get{NEWLINE}some rest?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "睡起来之后精神好多了。",
+   "en": "I feel so much more refreshed after{NEWLINE}that nap.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "真是多亏你介绍我来这里,{NEWLINE}我现在的失眠症状好多了。{CLEAR}原来买的保健品再也用不到了,{CLEAR}送给你吧。",
+   "en": "Thanks to you telling me about this{NEWLINE}place, my insomnia is much better now.{SCROLL}I won’t need the health supplements I{NEWLINE}bought anymore. You can have them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "自从知道了这里,{NEWLINE}再也不怕失眠了。",
+   "en": "Now that I know about this place, I’m{NEWLINE}not afraid of insomnia anymore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

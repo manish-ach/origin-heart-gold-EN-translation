@@ -1,0 +1,484 @@
+{
+ "narc": "a027",
+ "bank": 132,
+ "source": "work/extract/v4/a027/0132.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "您好,这里是度假区的民宿。{NEWLINE}我们将为您提供最舒适的休息体验。{CLEAR}每次休息500元,{CLEAR}请问您现在需要吗？{SCROLL}",
+   "en": "Hello, this is the Resort Zone{NEWLINE}guesthouse. We offer the most{CLEAR}comfortable rest you’ll find.{SCROLL}Each stay is $500. Would you like to{NEWLINE}rest now?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "对不起,您身上的钱不够。",
+   "en": "I’m sorry, you don’t have enough{NEWLINE}money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "好的,现在就为您安排。",
+   "en": "Very well. We’ll get things ready for{NEWLINE}you right away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "您和您的精灵都已经恢复精神了,{NEWLINE}祝您在度假区玩得愉快。",
+   "en": "You and your Pokémon are fully{NEWLINE}refreshed. Enjoy your time at the{CLEAR}Resort Zone.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "您好,楼上是娱乐室。{NEWLINE}请随意参观游玩。",
+   "en": "Hello. Upstairs is the game room. Feel{NEWLINE}free to look around and have fun.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "我信了别人的邪,{NEWLINE}身无分文就出来穷游,{CLEAR}结果现在既没钱住宿、也没钱吃饭。{CLEAR}你能借我1万块吗？",
+   "en": "I fell for someone’s nonsense and set{NEWLINE}off backpacking without a cent. Now I{CLEAR}can’t afford a room or food.{SCROLL}Could you lend me $10000?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "谢谢你愿意借我钱,{NEWLINE}你可真是个好人！{CLEAR}这个是我在旅行途中捡到的道具,{CLEAR}就送给你吧！",
+   "en": "Thanks for lending me the money. You’re{NEWLINE}such a good person! Here’s an item I{CLEAR}picked up on my travels. It’s yours!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "你好像也没有那么多钱啊……",
+   "en": "Looks like you don’t have that much{NEWLINE}money either...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "为啥有的人就能{NEWLINE}啥也不带穷游各地,{CLEAR}这些人的食宿路费{CLEAR}到底是从哪里来的啊。",
+   "en": "How do some people travel everywhere{NEWLINE}without bringing a thing? Where does{CLEAR}their food, lodging and fare money even{CLEAR}come from?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "休息充分之后,{NEWLINE}就该去联动公园抓精灵了。{CLEAR}这次我一定要抓到玛沙那！",
+   "en": "Once I’ve rested up, it’s off to the Pal{NEWLINE}Park to catch Pokémon. This time I’m{CLEAR}definitely catching a Meditite!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "小拳石『Geooo——du！",
+   "en": "Geodude: Geooo-du!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "这景区的笔记本电脑配置还不错,{NEWLINE}连最新的游戏都能高画质运行！{SCROLL}要跟短裤小子抢着玩电脑吗？",
+   "en": "The laptops at this resort have pretty{NEWLINE}good specs. They can even run the{CLEAR}latest games on high settings!{SCROLL}Fight the Youngster for the computer?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Choice: fight the Youngster for the PC (battle) or let him keep it (#44 → Brave Bird tutor)."
+  },
+  {
+   "id": 12,
+   "zh": "这人占着电脑玩了这么久,{NEWLINE}也该轮到我了吧！",
+   "en": "This guy’s been hogging the computer{NEWLINE}forever. It should be my turn by now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "姆克鸟『Staaaa——ra！",
+   "en": "Staravia: Staaaa-ra!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "欢迎光临！{NEWLINE}请问您想吃点什么？{SCROLL}",
+   "en": "Welcome! What would you like to eat?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "多谢惠顾。",
+   "en": "Thank you for your business.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 16,
+   "zh": "树果汁{NEWLINE}800元",
+   "en": "Berry Juice{NEWLINE}$800",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 17,
+   "zh": "森之羊羹{NEWLINE}1600元",
+   "en": "Old Gateau{NEWLINE}$1600",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 18,
+   "zh": "飞音饼{NEWLINE}1600元",
+   "en": "Lava Cookie{NEWLINE}$1600",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 19,
+   "zh": "哞哞牛奶{NEWLINE}3000元",
+   "en": "Moomoo Milk{NEWLINE}$3000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 20,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s)",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 21,
+   "zh": "好的,给你,{NEWLINE}谢谢惠顾。",
+   "en": "Here you go. Thank you for your{NEWLINE}business.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 22,
+   "zh": "请问还有什么可以帮您的吗？{SCROLL}",
+   "en": "Is there anything else I can help you{NEWLINE}with?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), flags page_breaks_lost; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 23,
+   "zh": "对不起啊客人,{NEWLINE}您带的钱好像不够。",
+   "en": "Sorry, it looks like you don’t have{NEWLINE}enough money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 24,
+   "zh": "这里有好多美女啊,嘿嘿嘿嘿。",
+   "en": "So many pretty girls here. Heh heh heh{NEWLINE}heh.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "这里的饭菜好吃是好吃,{NEWLINE}就是有点太贵了。",
+   "en": "The food here is tasty, sure, but it’s a{NEWLINE}bit too pricey.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "你也是来度假的吗？{NEWLINE}那就在这儿好好放松一下吧。",
+   "en": "Are you here on vacation too? Then{NEWLINE}relax and enjoy yourself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "我曾经去极梅婆婆的道馆{NEWLINE}学习终极技能,{CLEAR}但因为资质太差,到最后也没能掌握。{CLEAR}不过我经过自己的潜心研究,{CLEAR}找到了一条属于自己的技能之路。{CLEAR}那便是无论有什么负面作用,{CLEAR}只管提高技能的威力就好。{CLEAR}我的招式虽然不如{CLEAR}极梅婆婆的招式那么完美,{CLEAR}但威力却是非常的大。{CLEAR}你如果能给我一个速度球的话,{CLEAR}我就可以把超大威力的火系技能{CLEAR}闪焰冲锋教给你的精灵。{CLEAR}怎么样,要学吗？{SCROLL}",
+   "en": "I once went to Granny Mae’s dojo to{NEWLINE}learn ultimate moves, but I didn’t have{CLEAR}the talent and never mastered them.{SCROLL}Still, after studying hard on my own, I{NEWLINE}found my own path.{SCROLL}And that path is: crank up a move’s{NEWLINE}power, whatever the drawbacks!{SCROLL}My moves aren’t as perfect as Granny{NEWLINE}Mae’s, but their power is enormous.{SCROLL}If you give me a Fast Ball, I’ll teach{NEWLINE}your Pokémon the super-powerful{CLEAR}Fire-type move Flare Blitz. How about{CLEAR}it? Want to learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 29,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it, come find me{NEWLINE}anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 30,
+   "zh": "你并没有速度球啊,{NEWLINE}等有球了再来找我吧。",
+   "en": "You don’t have a Fast Ball. Come back{NEWLINE}when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 31,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住闪焰冲锋。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn Flare{NEWLINE}Blitz.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 33,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会闪焰冲锋了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Flare{NEWLINE}Blitz!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 35,
+   "zh": "{VAR:0101:0}学会了闪焰冲锋！",
+   "en": "{VAR:0101:0} learned Flare Blitz!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会闪焰冲锋了！{SCROLL}那么按照约定,{NEWLINE}1个速度球我拿走了。",
+   "en": "And with that, your {VAR:0100:0} has{NEWLINE}learned Flare Blitz!{SCROLL}As we agreed, I’ll take one Fast Ball.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的闪焰冲锋……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习闪焰冲锋{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Flare{NEWLINE}Blitz...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn Flare{NEWLINE}Blitz?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 39,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 40,
+   "zh": "你是要放弃{NEWLINE}让它记住闪焰冲锋吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Flare Blitz?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "呆河狸『Biiii——ba！",
+   "en": "Bibarel: Biiii-ba!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "一边吃饭一边看电视最下饭了。",
+   "en": "Watching TV while you eat makes the{NEWLINE}food go down even better.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "喷火龙『Chaaa——ri！",
+   "en": "Charizard: Chaaa-ri!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "什么？！你也想玩电脑？{NEWLINE}不行不行,我还没玩够呢。{SCROLL}你要是不跟我抢着玩电脑的话,{NEWLINE}我就把我的姆克鸟的绝招{CLEAR}「勇鸟猛攻」教给你作为补偿。{CLEAR}怎么样,要学吗？{SCROLL}",
+   "en": "What?! You want to use the computer{NEWLINE}too? No way, I’m not done yet.{SCROLL}If you don’t fight me for the computer,{NEWLINE}I’ll teach you my Staravia’s signature{CLEAR}move, Brave Bird, to make up for it. How{CLEAR}about it? Want to learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 46,
+   "zh": "哼,就算你不学勇鸟猛攻,{NEWLINE}我也不会把电脑让给你的。",
+   "en": "Hmph. Learn Brave Bird or not, I’m still{NEWLINE}not giving up the computer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住勇鸟猛攻。{SCROLL}",
+   "en": "Sorry... This Pokémon can’t learn Brave{NEWLINE}Bird.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 49,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会勇鸟猛攻了！{SCROLL}",
+   "en": "This {VAR:0100:0} already knows Brave{NEWLINE}Bird!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0101:0}学会了勇鸟猛攻！",
+   "en": "{VAR:0101:0} learned Brave Bird!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会勇鸟猛攻了！",
+   "en": "And with that, your {VAR:0100:0} has{NEWLINE}learned Brave Bird!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的勇鸟猛攻……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习勇鸟猛攻{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Brave{NEWLINE}Bird...!{SCROLL}But {VAR:0101:0} already knows four{NEWLINE}moves!{SCROLL}Should it forget a move to learn Brave{NEWLINE}Bird?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 55,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 56,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 57,
+   "zh": "{VAR:0101:0}学会了勇鸟猛攻！",
+   "en": "{VAR:0101:0} learned Brave Bird!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "你是要放弃{NEWLINE}让它记住勇鸟猛攻吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Brave Bird?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,256 @@
+{
+ "narc": "a027",
+ "bank": 116,
+ "source": "work/extract/v4/a027/0116.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "好了,听好哦豪力,{NEWLINE}帮我移动那个行李！{SCROLL}",
+   "en": "All right, listen up, Machoke.{NEWLINE}Help me move that load!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0118/0; modernised from US 0118#0"
+  },
+  {
+   "id": 1,
+   "zh": "换了豪力之后,{NEWLINE}原本很费力的活一下就完成了！{SCROLL}但我觉得老板愿意提高成本{NEWLINE}把腕力换成豪力,{CLEAR}并不是因为他良心发现,{CLEAR}而是因为你来过。",
+   "en": "Now that we have Machoke, jobs that{NEWLINE}used to be so hard get done in no time!{SCROLL}But I don’t think the boss agreed{NEWLINE}to raise his costs and swap Machop{CLEAR}for Machoke because his conscience{CLEAR}kicked in. It’s because you came by.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "豪力『Maaaa——cho！",
+   "en": "Machoke: Maaaa-cho!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "这些箱子太重了,腕力根本推不动嘛。{SCROLL}",
+   "en": "These crates are too heavy.{NEWLINE}Machop can’t push them at all.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "换豪力来做应该就能推动了",
+   "en": "Machoke could push these",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 5,
+   "zh": "不关我事",
+   "en": "Not my problem",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 6,
+   "zh": "我们也想换豪力来做啊,{NEWLINE}可惜老板不给配豪力,{CLEAR}只分给我们腕力来干这些活。",
+   "en": "We want Machoke to do it too, but{NEWLINE}the boss won’t give us Machoke. He{CLEAR}only gives us Machop for this work.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "多亏了口袋妖怪的帮助,{NEWLINE}干这些重体力活{CLEAR}再也不需要那么多人力了。",
+   "en": "Thanks to Pokémon, heavy{NEWLINE}labor like this doesn’t take{CLEAR}nearly as many people anymore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "腕力干活太吃力,该换豪力了",
+   "en": "Too hard for Machop; use Machoke",
+   "status": "reviewed",
+   "origin": "agent",
+   "notes": "Moving-company boss debate: menus #4/#5, #8, #10/#11, #13/#14, #17/#18; player lines #21-#24; battle #19/#20.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 9,
+   "zh": "你说的太轻巧了,{NEWLINE}换豪力来做不得加钱啊？{CLEAR}豪力吃的可比腕力多多了。{CLEAR}而且大部分活腕力都能做,{CLEAR}就为了那几个重箱子,{CLEAR}我就改养豪力,你觉得合适吗？",
+   "en": "Easy for you to say. Using Machoke{NEWLINE}costs more, doesn’t it? Machoke{CLEAR}eats way more than Machop. And{CLEAR}Machop can do most of the jobs.{CLEAR}You think I should start keeping{CLEAR}Machoke just for a few heavy crates?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "这样超极限干活很伤身体",
+   "en": "Overwork is bad for their bodies",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 11,
+   "zh": "你说的对",
+   "en": "You’re right",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "我开搬运公司,{NEWLINE}是为了赚钱不是为了做慈善。{CLEAR}你那么有爱心,你出钱开个疗养公司{CLEAR}给这些干活伤身的精灵疗养呗。",
+   "en": "I run a moving company to make{NEWLINE}money, not to do charity. If you{CLEAR}care so much, why don’t you pay{CLEAR}to open a rehab center for all{CLEAR}the Pokémon worn out by work?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "保障精灵健康是你的义务",
+   "en": "Their health is your duty",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 14,
+   "zh": "我没那么多钱",
+   "en": "I don’t have that kind of money",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 15,
+   "zh": "没钱就去赚,{NEWLINE}试过你就知道赚钱的难了。{CLEAR}就不会再说出{CLEAR}让我把腕力换成豪力这样的话了。",
+   "en": "If you don’t have money, go earn some.{NEWLINE}Once you try, you’ll learn how hard it{CLEAR}is to make money. Then you won’t tell me{CLEAR}to swap my Machop for Machoke anymore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "我的义务就是赚钱,{NEWLINE}除此之外别跟我扯这些没用的。",
+   "en": "My duty is to make money. Don’t bother{NEWLINE}me with any of that useless stuff.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "只能用力量教育你了",
+   "en": "Guess I’ll teach you by force",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 18,
+   "zh": "算了,懒得理你",
+   "en": "Forget it, you’re not worth it",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 19,
+   "zh": "哼,我出来混这么多年,{NEWLINE}看我不顺眼的人一大把,{CLEAR}还真没谁能把我怎么样！",
+   "en": "Hmph. I’ve been in this business{NEWLINE}for years. Plenty of people can’t{CLEAR}stand me, and not one of them{CLEAR}has ever done a thing about it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "我认输！我认输！{SCROLL}仔细一想你说的也有道理,{NEWLINE}毕竟口袋妖怪不仅仅是工具,{CLEAR}我在使用它们的时候{CLEAR}确实有义务保障它们的健康。{SCROLL}我以后会给搬运队配几只豪力,{NEWLINE}帮腕力们完成比较重的活。{CLEAR}你放心好啦。",
+   "en": "I give up! I give up!{SCROLL}Come to think of it, you have a point.{NEWLINE}Pokémon aren’t just tools, after{CLEAR}all. When I use them, it really is{CLEAR}my duty to protect their health.{SCROLL}From now on I’ll give the moving crew{NEWLINE}a few Machoke to help the Machop with{CLEAR}the heavier jobs. You can rest easy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0103:0}『我看你们这的腕力,{NEWLINE}在推重箱子的时候很吃力,{CLEAR}是不是换豪力来更好一些？",
+   "en": "{VAR:0103:0}: Your Machop are really{NEWLINE}struggling to push those heavy crates.{CLEAR}Wouldn’t it be better to use Machoke?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0103:0}『可是长期超出极限干活,{NEWLINE}对腕力们的身体很不好啊。",
+   "en": "{VAR:0103:0}: But working past{NEWLINE}their limits for so long is really{CLEAR}bad for the Machop’s health.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "{VAR:0103:0}『你是口袋妖怪的使用者,{NEWLINE}在享有它们劳动成果的同时,{CLEAR}也应该保障它们的健康,{CLEAR}这是法律给你规定的义务。",
+   "en": "{VAR:0103:0}: You use these Pokémon. While{NEWLINE}you enjoy the fruits of their labor,{CLEAR}you should also protect their health.{CLEAR}That’s a duty the law places on you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0103:0}『看来对于你们这种人,{NEWLINE}讲道理是不管用的。{CLEAR}那就别怪我用力量纠正你的观点了。",
+   "en": "{VAR:0103:0}: Looks like reasoning{NEWLINE}doesn’t work on people like{CLEAR}you. Then don’t blame me for{CLEAR}correcting your views by force.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "唉,腕力换成豪力,{NEWLINE}每个月净利润得少5个百分点。",
+   "en": "Sigh. Swapping Machop for{NEWLINE}Machoke is going to cut my{CLEAR}monthly net profit by 5 percent.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "听说老板要把腕力换成豪力,{NEWLINE}这下工作就轻松多了。",
+   "en": "I heard the boss is swapping the{NEWLINE}Machop for Machoke. Our work’s{CLEAR}going to be way easier now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "好了,听好哦腕力,{NEWLINE}帮我移动那个箱子！{SCROLL}",
+   "en": "All right, listen up, Machop.{NEWLINE}Help me move that crate!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0118/0; modernised from US 0118#0 | seed rejected us [ambiguous US match] (candidate US 0118#0; text not kept)"
+  },
+  {
+   "id": 28,
+   "zh": "腕力『Maa……",
+   "en": "Machop: Maa...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "腕力『Maaaa——cho！",
+   "en": "Machop: Maaaa-cho!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

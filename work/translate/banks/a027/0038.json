@@ -1,0 +1,940 @@
+{
+ "narc": "a027",
+ "bank": 38,
+ "source": "work/extract/v4/a027/0038.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "辛苦您了！{NEWLINE}这里是精灵中心。{SCROLL}我们会让您的精灵{NEWLINE}恢复体力。{SCROLL}请将您的精灵{NEWLINE}交给我吧？{VAR:0200:0}",
+   "en": "Hello, and welcome to{NEWLINE}the Pokémon Center.{SCROLL}We restore your tired Pokémon{NEWLINE}to full health.{SCROLL}Would you like to rest your{NEWLINE}Pokémon?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/0"
+  },
+  {
+   "id": 1,
+   "zh": "那么我先收下了！",
+   "en": "OK, I’ll take your Pokémon for a few{NEWLINE}seconds.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/1"
+  },
+  {
+   "id": 2,
+   "zh": "久等了！{SCROLL}您的精灵都恢复精神了！{SCROLL}",
+   "en": "Thank you for waiting.{SCROLL}We’ve restored your Pokémon to full{NEWLINE}health.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/2"
+  },
+  {
+   "id": 3,
+   "zh": "还请下次再来啊！",
+   "en": "Please, come back again any time!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/3"
+  },
+  {
+   "id": 4,
+   "zh": "欢迎光临！{NEWLINE}这里是精灵中心。{SCROLL}我们会让您的精灵{NEWLINE}恢复体力。{SCROLL}请将您的⋯⋯{SCROLL}",
+   "en": "Hello, and welcome to{NEWLINE}the Pokémon Center.{SCROLL}We restore your tired Pokémon{NEWLINE}to full health.{SCROLL}Would you like to...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/4"
+  },
+  {
+   "id": 5,
+   "zh": "这、这张卡是！？{SCROLL}这颜色！！{NEWLINE}星星的数量！！{SCROLL}我之前也见过很多{NEWLINE}高级的训练师,{SCROLL}但有这么厉害的{NEWLINE}黑色卡片的,{CLEAR}{VAR:0103:0}还是第一个啊！{SCROLL}好了,让{VAR:0103:0}的{NEWLINE}精灵好好休息吧！{VAR:0200:0}",
+   "en": "Th-that Trainer Card!{SCROLL}That color! And all those stars!{SCROLL}I’ve seen plenty of high-ranking{NEWLINE}Trainers before...{SCROLL}But you’re the first, {VAR:0103:0},{NEWLINE}with a card as amazing{CLEAR}as that Black Card!{SCROLL}Now, let’s give your Pokémon,{NEWLINE}{VAR:0103:0}, a good rest! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack zh: Black Card (JP: first Black Card after Gray Cards)."
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0103:0},辛苦您了！{NEWLINE}还是老样子是吧！{VAR:0200:0}",
+   "en": "Great to see you, {VAR:0103:0}!{NEWLINE}You want the usual, right? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/6"
+  },
+  {
+   "id": 7,
+   "zh": "那么请交给我吧！",
+   "en": "I will be pleased to take your{NEWLINE}Pokémon for a few seconds.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/7"
+  },
+  {
+   "id": 8,
+   "zh": "让您久等了！",
+   "en": "Thank you for waiting.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/8"
+  },
+  {
+   "id": 9,
+   "zh": "还请下次再来！",
+   "en": "We hope to see you again!",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0040/3 | seed rejected us [ambiguous US match] (candidate US 0040#3; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 10,
+   "zh": "您交给我的精灵{NEWLINE}似乎染有病毒。{SCROLL}具体的我不清楚,{NEWLINE}但病毒似乎是{CLEAR}附着在精灵身上的{CLEAR}一种小生命体。{SCROLL}附着期间的精灵能更好的培养。",
+   "en": "Your Pokémon may be infected with{NEWLINE}the Pokérus.{SCROLL}Little is known about the Pokérus{NEWLINE}except that they are microscopic{CLEAR}life-forms that attach to Pokémon.{SCROLL}While infected, Pokémon are said to{NEWLINE}grow exceptionally well.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/10"
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0103:0}手上{NEWLINE}已经没有可战斗的精灵了！{SCROLL}{VAR:0103:0}{NEWLINE}眼前一片漆黑！",
+   "en": "{VAR:0103:0} is out of battle-ready{NEWLINE}Pokémon!{SCROLL}{VAR:0103:0}’s vision dimmed!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/11"
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0101:0}{NEWLINE}力尽了。",
+   "en": "{VAR:0101:0}{NEWLINE}fainted!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 13,
+   "zh": "要将至今为止的进度{NEWLINE}写进存档吗？{VAR:0200:0}",
+   "en": "Would you like to save the game? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/13"
+  },
+  {
+   "id": 14,
+   "zh": "会覆盖之前的记录,{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "There is already a saved file.{NEWLINE}Is it OK to overwrite it? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/14"
+  },
+  {
+   "id": 15,
+   "zh": "存档覆盖中⋯⋯{NEWLINE}请不要切断电源。",
+   "en": "Saving...{NEWLINE}Don’t turn off the power.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/15"
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0103:0}{NEWLINE}记录完成！",
+   "en": "{VAR:0103:0} saved the game.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/16"
+  },
+  {
+   "id": 17,
+   "zh": "注意！！{SCROLL}写有从『继续冒险』{NEWLINE}进行冒险的记录！{SCROLL}在那儿进行的冒险和{NEWLINE}所有的精灵与道具{CLEAR}都会消失⋯⋯{SCROLL}真的要覆盖吗？",
+   "en": "Caution!!{SCROLL}There is a saved adventure that{NEWLINE}you play from CONTINUE!{SCROLL}That adventure, and all of its{NEWLINE}Pokémon and items,{CLEAR}will be lost...{SCROLL}Do you really want to overwrite it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 18,
+   "zh": "无法写入存档。",
+   "en": "Save error.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/18"
+  },
+  {
+   "id": 19,
+   "zh": "正在写入存档⋯⋯{NEWLINE}请不要切断电源。",
+   "en": "Saving...{NEWLINE}Don’t turn off the power.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 20,
+   "zh": "已经有其他的记录存在了,{CLEAR}因此无法记录！{SCROLL}详细情况请阅读{CLEAR}使用说明书。",
+   "en": "There is already another saved file,{CLEAR}so the game can’t be saved.{SCROLL}Please refer to the Instruction{CLEAR}Booklet for details.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0040/20"
+  },
+  {
+   "id": 21,
+   "zh": "记录写入中⋯⋯{NEWLINE}请不要切断电源。",
+   "en": "Saving a lot of data...{NEWLINE}Don’t turn off the power.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/21"
+  },
+  {
+   "id": 22,
+   "zh": "要给{VAR:0100:0}{NEWLINE}起昵称吗？",
+   "en": "Give a nickname to{NEWLINE}{VAR:0100:0}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 23,
+   "zh": "{VAR:0103:0}给予了{NEWLINE}{VAR:0108:1}！",
+   "en": "{VAR:0103:0} handed over{NEWLINE}the {VAR:0108:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0103:0}得到了{NEWLINE}口袋手机插件{VAR:0118:1}！",
+   "en": "{VAR:0103:0} obtained the Pokétch app{NEWLINE}{VAR:0118:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "DP leftover: 口袋手机 here is the Pokétch."
+  },
+  {
+   "id": 25,
+   "zh": "得到了{VAR:0108:0}！",
+   "en": "Obtained the {VAR:0108:0}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/25"
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0103:0}将插件{NEWLINE}装进口袋手机！{SCROLL}",
+   "en": "{VAR:0103:0} added the app{NEWLINE}to the Pokétch!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 27,
+   "zh": "很遗憾！{NEWLINE}背包满了！",
+   "en": "Too bad!{NEWLINE}The Bag is full...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/27"
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0103:0}得到了{NEWLINE}{VAR:FF00:2}{VAR:0108:1}{VAR:FF00:0}！",
+   "en": "{VAR:0103:0} obtained{NEWLINE}the {VAR:FF00:2}{VAR:0108:1}{VAR:FF00:0}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/28"
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0103:0}得到了{NEWLINE}{VAR:FF00:1}{VAR:0108:1}{VAR:FF00:0}！",
+   "en": "{VAR:0103:0} obtained{NEWLINE}the {VAR:FF00:1}{VAR:0108:1}{VAR:FF00:0}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/29"
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0103:0}将{VAR:0108:1}{VAR:FF00:2}{NEWLINE}{VAR:011F:2}{VAR:FF00:0}收进口袋。",
+   "en": "{VAR:0103:0} put the {VAR:0108:1}{NEWLINE}in the {VAR:FF00:2}{VAR:011F:2}{VAR:FF00:0} Pocket.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/30"
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0103:0}将{VAR:011F:1}{NEWLINE}收进饰品盒。",
+   "en": "{VAR:0103:0} put away the{NEWLINE}{VAR:011F:1} in the Fashion Case.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "0038 is shifted by one against the US bank from #31 on; US text re-aligned (US id+1)."
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:0103:0}按下了{NEWLINE}电脑的开关！{SCROLL}",
+   "en": "{VAR:0103:0} booted up the PC.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/32 | seed rejected us [tag_mismatch] (candidate US 0040#32; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 33,
+   "zh": "要连接到哪台电脑{NEWLINE}进行通信呢？{VAR:0200:0}",
+   "en": "Which PC should be accessed? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/33 | seed rejected us [tag_mismatch] (candidate US 0040#33; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 34,
+   "zh": "打开了精灵的存放系统！{SCROLL}",
+   "en": "The Pokémon Storage System{NEWLINE}was accessed.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/34 | seed rejected us [tag_mismatch] (candidate US 0040#34; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 35,
+   "zh": "连接到了{VAR:0103:0}的电脑！{SCROLL}",
+   "en": "Accessed {VAR:0103:0}’s PC.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/35 | seed rejected us [tag_mismatch] (candidate US 0040#35; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 36,
+   "zh": "大木博士的话⋯⋯{NEWLINE}{VAR:0103:0}啊！{CLEAR}这东西不是这么用的！",
+   "en": "Oak’s words echoed...{NEWLINE}{VAR:0103:0}! There’s a time and{CLEAR}place for everything! But not now.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/36"
+  },
+  {
+   "id": 37,
+   "zh": "欢迎！{NEWLINE}要买东西是吧？{VAR:0200:0}",
+   "en": "Welcome!{NEWLINE}What do you need? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0038#37; text not kept)"
+  },
+  {
+   "id": 38,
+   "zh": "先恢复精灵的{NEWLINE}体力吧。",
+   "en": "First, let’s restore your{NEWLINE}Pokémon to full health.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 39,
+   "zh": "大家都精神起来了！{SCROLL}那么,请努力吧！",
+   "en": "There! All happy and healthy!{SCROLL}Good luck and take care!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 40,
+   "zh": "妈妈『{VAR:0103:0}！{NEWLINE}欢迎回来。{SCROLL}看起来很累了吧,{SCROLL}稍微休息一下{NEWLINE}怎么样？{SCROLL}⋯⋯　⋯⋯　⋯⋯{NEWLINE}⋯⋯　⋯⋯　⋯⋯",
+   "en": "Mom: {VAR:0103:0}!{NEWLINE}Welcome home.{SCROLL}It sounds like you had quite the{NEWLINE}experience out there.{SCROLL}Maybe you should take a quick{NEWLINE}rest so you can relax.{SCROLL}...{NEWLINE}...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 41,
+   "zh": "妈妈『哎呀呀！{NEWLINE}你和精灵们{CLEAR}都很精神呢！{SCROLL}对了！刚才我听博士说了⋯⋯{SCROLL}精灵的体力⋯⋯{NEWLINE}唔⋯就是那个ＨＰ没了的话{SCROLL}就要去精灵中心恢复一下,{SCROLL}要是要到很远的地方冒险{NEWLINE}就最好在商店里{CLEAR}买好伤药,{CLEAR}这样比较保险。{SCROLL}那么,我会帮你加油的！{SCROLL}要小心！{NEWLINE}一路走好！",
+   "en": "Mom: Oh, good! You and your{NEWLINE}Pokémon are looking great.{SCROLL}Oh, yes, I heard from the Professor.{SCROLL}He said that a Pokémon’s energy is{NEWLINE}measured in HP (Hit Points).{SCROLL}If your Pokémon lose their HP,{NEWLINE}you can restore it at any{CLEAR}Pokémon Center.{SCROLL}If you’re going to travel far away,{NEWLINE}the smart Trainer stocks up on{CLEAR}Potions at the Pokémon Mart.{SCROLL}Make me proud, honey!{NEWLINE}Take care!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 42,
+   "zh": "妈妈『哎呀呀！{NEWLINE}你和精灵们{CLEAR}都很精神呢！{SCROLL}对了{VAR:0103:0},{NEWLINE}精灵的体力耗尽{CLEAR}就不能战斗了,{CLEAR}所以在那之前一定要回来哦,{SCROLL}在家里休息一下{NEWLINE}就又能精力十足了！{CLEAR}那么,我会帮你加油的！{SCROLL}要小心！{NEWLINE}一路走好！",
+   "en": "Mom: Oh, good! You and your{NEWLINE}Pokémon are looking great.{SCROLL}Oh yes, {VAR:0103:0}, your Pokémon{NEWLINE}will faint if it runs out of HP.{SCROLL}If your Pokémon loses its HP, come{NEWLINE}home before it faints.{SCROLL}It will be healed to full health by{NEWLINE}taking a rest.{SCROLL}Well, honey, make me proud!{NEWLINE}Take care!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 43,
+   "zh": "先让精灵们{NEWLINE}恢复一下吧。",
+   "en": "First, let’s restore your Pokémon{NEWLINE}to full health.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/43 | seed rejected us [tag_mismatch] (candidate US 0040#43; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 44,
+   "zh": "大家都精神十足了！",
+   "en": "Your Pokémon have been healed{NEWLINE}to perfect health.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 45,
+   "zh": "精灵的体力ＨＰ{NEWLINE}要是没了的话,{CLEAR}就请到这里来吧。{SCROLL}要是稍微要去远一点的地方,{SCROLL}那建议你最好去商店里{NEWLINE}备一些伤药。{SCROLL}那么,请努力吧！",
+   "en": "Please visit a Pokémon Center when{NEWLINE}your Pokémon’s HP goes down.{SCROLL}If you’re planning to travel any{NEWLINE}distance, you should stock up on{CLEAR}Potions at a Pokémon Mart.{SCROLL}Good luck, Trainer!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 46,
+   "zh": "邮箱里没有信件。{SCROLL}",
+   "en": "There’s no Mail in the Mailbox.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/46"
+  },
+  {
+   "id": 47,
+   "zh": "内容会消失,{NEWLINE}要还原吗？",
+   "en": "Its contents will be lost.{NEWLINE}Put it back anyway?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0040/47"
+  },
+  {
+   "id": 48,
+   "zh": "真不走运啊⋯⋯",
+   "en": "No bites...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 49,
+   "zh": "逃掉了⋯⋯",
+   "en": "The Pokémon got away...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/49"
+  },
+  {
+   "id": 50,
+   "zh": "钓竿拉得太早了！",
+   "en": "Reeled it in too quickly...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 51,
+   "zh": "钓到精灵了！",
+   "en": "Landed a Pokémon!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/51"
+  },
+  {
+   "id": 52,
+   "zh": "{VAR:0101:0}努力忍住了毒,{NEWLINE}毒消失了！{SCROLL}",
+   "en": "{VAR:0101:0} survived the poisoning.{NEWLINE}The poison faded away!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/52 | seed rejected us [tag_mismatch] (candidate US 0040#52; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 53,
+   "zh": "为了让地下通路{NEWLINE}换气的通风口！",
+   "en": "It’s a vent that brings fresh air{NEWLINE}into the Underground!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 54,
+   "zh": "㊚",
+   "en": "♂",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US text re-aligned (US id+1)"
+  },
+  {
+   "id": 55,
+   "zh": "㊛",
+   "en": "♀",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US text re-aligned (US id+1)"
+  },
+  {
+   "id": 56,
+   "zh": "这儿似乎什么也没有⋯⋯",
+   "en": "There appears to be nothing here...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 57,
+   "zh": "不知道怎么,{NEWLINE}甜甜的香味消失了⋯⋯",
+   "en": "The sweet scent faded for some{NEWLINE}reason...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/57"
+  },
+  {
+   "id": 58,
+   "zh": "要骑上自行车吗？{VAR:0200:0}",
+   "en": "Ride your Bike? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/58 | seed rejected us [tag_mismatch] (candidate US 0040#58; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 59,
+   "zh": "要从自行车上下来吗？{VAR:0200:0}",
+   "en": "Get off your Bike? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/59"
+  },
+  {
+   "id": 60,
+   "zh": "这儿不能骑车！",
+   "en": "You can’t ride your Bike here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 61,
+   "zh": "哦呀⋯⋯",
+   "en": "Oh?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/61"
+  },
+  {
+   "id": 62,
+   "zh": "蛋孵化了,{NEWLINE}{VAR:0100:0}诞生了！",
+   "en": "The Egg hatched, and{NEWLINE}{VAR:0100:0} was born!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 63,
+   "zh": "要给刚出生的{VAR:0100:0}{NEWLINE}起名字吗？",
+   "en": "Would you like to give a nickname to{NEWLINE}the newly hatched {VAR:0100:0}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0040/63"
+  },
+  {
+   "id": 64,
+   "zh": "喷剂的效果消失了。",
+   "en": "Repel’s effect wore off...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/64 | seed rejected us [tag_mismatch] (candidate US 0040#64; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 65,
+   "zh": "得到了{VAR:0108:0}！",
+   "en": "Obtained the {VAR:0108:0}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/65 | seed rejected us [tag_mismatch] (candidate US 0040#65; text not kept) | v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 66,
+   "zh": "{VAR:0108:0}　{VAR:0133:1}{NEWLINE}入手！",
+   "en": "Obtained {VAR:0108:0}{NEWLINE}x{VAR:0133:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags fullwidth_chars"
+  },
+  {
+   "id": 67,
+   "zh": "非常抱歉。{SCROLL}地下正调整中,{NEWLINE}现在还不能下去。{SCROLL}下次再来吧。",
+   "en": "I’m very sorry.{SCROLL}The Underground is being adjusted,{NEWLINE}so you can’t go down there yet.{SCROLL}Please come back another time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 68,
+   "zh": "欢迎来到精灵无线俱乐部{NEWLINE}联机房间！{SCROLL}⋯⋯这段话你姑且先记下吧。{SCROLL}联机房间的开放{NEWLINE}还请再等一会儿吧！",
+   "en": "Welcome to the Pokémon Wireless Club{NEWLINE}Union Room!{SCROLL}...That’s the line I’m practicing.{SCROLL}The Union Room will open{NEWLINE}very soon, so please wait a little!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0040/68"
+  },
+  {
+   "id": 69,
+   "zh": "精灵通信俱乐部{NEWLINE}圆形剧场！{SCROLL}⋯⋯这段话你姑且先记下吧。{SCROLL}圆形剧场的开放{NEWLINE}还请再等一会儿吧！",
+   "en": "Welcome to the Pokémon Comm. Club{NEWLINE}Colosseum!{SCROLL}...That’s the line I’m practicing.{SCROLL}The Colosseum will open very{NEWLINE}soon, so please wait a little!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 70,
+   "zh": "读了下手上这块石板背面的字。{SCROLL}似乎是宇宙诞生时的碎片。{SCROLL}",
+   "en": "There is text engraved in the back{NEWLINE}of the obtained Plate...{SCROLL}“When the universe was created,{NEWLINE}its shards became this Plate.”{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 71,
+   "zh": "读了下手上这块石板背面的字。{SCROLL}给予石板的力量是{NEWLINE}打倒了巨人们的力量。{SCROLL}",
+   "en": "There is text engraved in the back{NEWLINE}of the obtained Plate...{SCROLL}“The power of defeated giants{NEWLINE}infuses this Plate.”{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/71"
+  },
+  {
+   "id": 72,
+   "zh": "读了下手上这块石板背面的字。{SCROLL}它将时间和空间的两个{NEWLINE}分身逐入尘世。{SCROLL}",
+   "en": "There is text engraved in the back{NEWLINE}of the obtained Plate...{SCROLL}“Two beings of time and space set{NEWLINE}free from the Original One.”{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 73,
+   "zh": "读了下手上这块石板背面的字。{SCROLL}它诞生了连接时间和空间的{NEWLINE}第３只精灵。{SCROLL}",
+   "en": "There is text engraved in the back{NEWLINE}of the obtained Plate...{SCROLL}“It brought forth a third Pokémon to{NEWLINE}connect time and space.”{SCROLL}",
+   "status": "reviewed",
+   "origin": "agent",
+   "notes": "US 0040/73"
+  },
+  {
+   "id": 74,
+   "zh": "读了下手上这块石板背面的字。{SCROLL}两只形体,三只心灵{NEWLINE}孕育生命,创造世界。{SCROLL}",
+   "en": "There is text engraved in the back{NEWLINE}of the obtained Plate...{SCROLL}“Two make matter, and three make{NEWLINE}spirit, shaping the world.”{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/74"
+  },
+  {
+   "id": 75,
+   "zh": "读了下手上这块石板背面的字。{SCROLL}在宇宙诞生前{NEWLINE}它一个人孤独地呼吸。{SCROLL}",
+   "en": "There is text engraved in the back{NEWLINE}of the obtained Plate...{SCROLL}“The Original One breathed alone{NEWLINE}before the universe came.”{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 76,
+   "zh": "读了下手上这块石板背面的字。{SCROLL}诞生的精灵都分到了石板的力量。{SCROLL}",
+   "en": "There is text engraved in the back{NEWLINE}of the obtained Plate...{SCROLL}“The powers of Plates are shared{NEWLINE}among Pokémon.”{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/76"
+  },
+  {
+   "id": 77,
+   "zh": "读了下手上这块石板背面的字。{SCROLL}石板,握紧各种,变化,力量涌出。{SCROLL}",
+   "en": "There is text engraved in the back{NEWLINE}of the obtained Plate...{SCROLL}“The rightful bearer of a Plate{NEWLINE}draws from the Plate it holds.”{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/77"
+  },
+  {
+   "id": 78,
+   "zh": "一张贴纸也没有贴,{NEWLINE}找不到球贴！{SCROLL}",
+   "en": "You don’t have a single Seal,{NEWLINE}so Ball Capsules can’t be used!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 79,
+   "zh": "再一次保存记录⋯⋯{CLEAR}请不要切断电源。",
+   "en": "Saving again...{CLEAR}Don’t turn off the power.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0040/79"
+  },
+  {
+   "id": 80,
+   "zh": "要将至今为止的进度{NEWLINE}写入存档中吗？",
+   "en": "Would you like to save your{NEWLINE}progress so far?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 81,
+   "zh": "是否覆盖之前的记录？",
+   "en": "There is already a saved file.{NEWLINE}Is it OK to overwrite it?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 82,
+   "zh": "早上好！{NEWLINE}这里是精灵中心。{SCROLL}在这里可以恢复精灵的体力。{SCROLL}要让您的精灵休息一下吗？{VAR:0200:0}",
+   "en": "Good morning!{NEWLINE}Welcome to the Pokémon Center.{SCROLL}We restore your tired Pokémon{NEWLINE}to full health.{SCROLL}Would you like to rest your Pokémon?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0040/82 | seed rejected us [tag_mismatch] (candidate US 0040#82; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 83,
+   "zh": "你好！{NEWLINE}这里是精灵中心。{SCROLL}在这里可以恢复{NEWLINE}精灵的体力。{SCROLL}要让您的精灵休息一下吗？{VAR:0200:0}",
+   "en": "Hello, and welcome to{NEWLINE}the Pokémon Center.{SCROLL}We restore your tired Pokémon{NEWLINE}to full health.{SCROLL}Would you like to rest your{NEWLINE}Pokémon? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/83"
+  },
+  {
+   "id": 84,
+   "zh": "{VAR:0103:0}拿着的{NEWLINE}天界之笛传出声响。{SCROLL}要吹响天界之笛吗？{VAR:0200:0}",
+   "en": "{VAR:0103:0}’s Azure Flute is making{NEWLINE}a sound!{SCROLL}Would you like to blow into the{NEWLINE}Azure Flute? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/84 | seed rejected us [tag_mismatch] (candidate US 0040#84; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 85,
+   "zh": "{VAR:0103:0}吹响了天界之笛！{SCROLL}",
+   "en": "{VAR:0103:0} blew the Azure Flute.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/85 | seed rejected us [tag_mismatch] (candidate US 0040#85; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 86,
+   "zh": "出现了光之梯！",
+   "en": "A glowing stairway appeared!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/86 | seed rejected us [tag_mismatch] (candidate US 0040#86; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 87,
+   "zh": "天界之笛空鸣着⋯⋯{SCROLL}在这地方用似乎没什么用⋯⋯",
+   "en": "The Azure Flute echoed hollowly...{SCROLL}It appears to be meaningless using{NEWLINE}the Azure Flute here...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/87"
+  },
+  {
+   "id": 88,
+   "zh": "{VAR:0103:0}将{VAR:0108:1}放进了{VAR:FF00:2}{NEWLINE}{VAR:011B:2}{VAR:FF00:0}口袋。{SCROLL}",
+   "en": "{VAR:0103:0} put the {VAR:0108:1}{NEWLINE}in the {VAR:FF00:2}{VAR:011B:2}{VAR:FF00:0} Pocket.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/88 | seed rejected us [tag_mismatch] (candidate US 0040#88; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 89,
+   "zh": "{VAR:0103:0}将{VAR:011F:1}{NEWLINE}收进了饰品盒。{SCROLL}",
+   "en": "{VAR:0103:0} put away the{NEWLINE}{VAR:011F:1} in the Fashion Case.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/89 | seed rejected us [tag_mismatch] (candidate US 0040#89; text not kept) | v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 90,
+   "zh": "{VAR:0119:0}{NEWLINE}被送进了地下的电脑！{SCROLL}",
+   "en": "{VAR:0119:0} was sent{NEWLINE}to the PC in the Underground!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0040/90 | seed rejected us [tag_mismatch] (candidate US 0040#90; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 91,
+   "zh": "检查想教的技能！{NEWLINE}会知道需要的碎片！！",
+   "en": "Check the move you want to teach!{NEWLINE}You’ll see which Shards you need!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 92,
+   "zh": "背包满了。{SCROLL}白金球不能拿下来,{NEWLINE}不能往里面装东西了。",
+   "en": "Your Bag is full.{SCROLL}The Griseous Orb can’t be taken off,{NEWLINE}so you can’t go inside.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 93,
+   "zh": "殿堂记录的资料损坏。{SCROLL}再进行一次殿堂记录{NEWLINE}就没问题了。{SCROLL}",
+   "en": "Your Hall of Fame data is corrupted.{SCROLL}It will be fixed if you enter the{NEWLINE}Hall of Fame again.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 94,
+   "zh": "{VAR:0103:0}得到了{NEWLINE}{VAR:011F:1}！{SCROLL}{VAR:011F:1}的饰品盒已经满了！",
+   "en": "{VAR:0103:0} received{NEWLINE}{VAR:011F:1}!{SCROLL}But the Fashion Case has no room{NEWLINE}for {VAR:011F:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0040/94 | seed rejected us [tag_mismatch] (candidate US 0040#94; text not kept) | v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0038#94; text not kept)"
+  },
+  {
+   "id": 95,
+   "zh": "{VAR:0103:0}将{VAR:011F:1}{NEWLINE}收进了饰品盒。",
+   "en": "{VAR:0103:0} put away the{NEWLINE}{VAR:011F:1} in the Fashion Case.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/95"
+  },
+  {
+   "id": 96,
+   "zh": "{VAR:0103:0}找到了闪光树叶！{SCROLL}{VAR:0103:0}将闪光树叶{NEWLINE}戴到了{VAR:0101:1}上！",
+   "en": "{VAR:0103:0} found a Shiny Leaf!{SCROLL}{VAR:0103:0} put the Shiny Leaf on{NEWLINE}{VAR:0101:1}!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 97,
+   "zh": "{VAR:0103:0}找到了闪光树叶！{SCROLL}{VAR:0101:1}已经有闪光树叶了！",
+   "en": "{VAR:0103:0} found a Shiny Leaf!{SCROLL}But {VAR:0101:1} already has a{NEWLINE}Shiny Leaf!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/97 | seed rejected us [tag_mismatch] (candidate US 0040#97; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 98,
+   "zh": "哦呀？{NEWLINE}{VAR:0101:0}的样子⋯⋯{SCROLL}",
+   "en": "Oh?{NEWLINE}{VAR:0101:0} is acting strangely...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0040/98 | seed rejected us [tag_mismatch] (candidate US 0040#98; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 99,
+   "zh": "{VAR:0101:0}变成了地面形态！",
+   "en": "{VAR:0101:0} changed into its{NEWLINE}Land Forme!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/99"
+  },
+  {
+   "id": 100,
+   "zh": "电话号码登陆进手机！{SCROLL}",
+   "en": "Registered the phone number in the{NEWLINE}Pokégear!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 101,
+   "zh": "{VAR:0100:0}恢复精神,{NEWLINE}{VAR:0100:0}又能跟在后面走了！{SCROLL}",
+   "en": "{VAR:0100:0} is feeling better, so you{NEWLINE}decided to take {VAR:0100:0} with you!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 102,
+   "zh": "我说我说！{SCROLL}战斗前或不小心{NEWLINE}输掉时的心情什么的,{SCROLL}你最习惯的心情{NEWLINE}能告诉我听吗？{VAR:0200:0}",
+   "en": "Hey!{SCROLL}Can you tell me how you feel right{NEWLINE}before a match? How you feel when you{CLEAR}win or lose? What it would be{CLEAR}like to be number one? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/102 | seed rejected us [tag_mismatch] (candidate US 0040#102; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 103,
+   "zh": "那就告诉我{NEWLINE}战斗前的心情吧！{SCROLL}",
+   "en": "All right, tell me how you feel{NEWLINE}before battle!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/103 | seed rejected us [tag_mismatch] (candidate US 0040#103; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 104,
+   "zh": "那就告诉我{NEWLINE}胜利后的心情吧！{SCROLL}",
+   "en": "All right, tell me how you feel after{NEWLINE}you win!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/104"
+  },
+  {
+   "id": 105,
+   "zh": "那就告诉我{NEWLINE}输掉时的心情吧！{SCROLL}",
+   "en": "All right, tell me how you feel after{NEWLINE}you lose!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/105"
+  },
+  {
+   "id": 106,
+   "zh": "那就告诉我{NEWLINE}成为第一后的心情吧！{SCROLL}",
+   "en": "All right, tell me how it would feel to be{NEWLINE}number one!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/106"
+  },
+  {
+   "id": 107,
+   "zh": "哎？不告诉我吗？{NEWLINE}真遗憾⋯⋯",
+   "en": "Excuse me? You won’t say?{NEWLINE}That’s too bad...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/107"
+  },
+  {
+   "id": 108,
+   "zh": "谢谢！{NEWLINE}还能告诉我其他的吗？{VAR:0200:0}",
+   "en": "Thank you! Will you tell me about{NEWLINE}anything else? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/108 | seed rejected us [tag_mismatch] (candidate US 0040#108; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 109,
+   "zh": "明白了,谢谢！",
+   "en": "Got it! Thanks!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/109 | seed rejected us [tag_mismatch] (candidate US 0040#109; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 110,
+   "zh": "明白了,谢谢！{NEWLINE}是吗,{VAR:011C:0}吗⋯⋯",
+   "en": "Got it! Thanks!{NEWLINE}{VAR:011C:0}, huh...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/110 | seed rejected us [tag_mismatch] (candidate US 0040#110; text not kept) | v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 111,
+   "zh": "战斗前",
+   "en": "BEFORE BATTLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/111 | seed rejected us [tag_mismatch] (candidate US 0040#111; text not kept) | v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 112,
+   "zh": "胜利后",
+   "en": "WHEN YOU WIN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 113,
+   "zh": "输掉时",
+   "en": "WHEN YOU LOSE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/113",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 114,
+   "zh": "成为第一后",
+   "en": "WHEN YOU’RE #1",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0040/114",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 115,
+   "zh": "不说",
+   "en": "NOT TELLING",
+   "status": "draft",
+   "origin": "us",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col5"
+  }
+ ]
+}

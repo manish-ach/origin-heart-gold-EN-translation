@@ -1,0 +1,454 @@
+{
+ "narc": "a027",
+ "bank": 380,
+ "source": "work/extract/v4/a027/0380.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "我通过广播{NEWLINE}收集了很多精灵的情报哦。{CLEAR}我想我已经很强了。{CLEAR}来与我比试一下……",
+   "en": "I’ve gathered all kinds of{NEWLINE}Pokémon info from the radio.{CLEAR}I think I’m pretty strong now.{SCROLL}Come have a match with me...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "哦！不……一看你就非常厉害,{NEWLINE}我还是找别人比试吧。",
+   "en": "Oh! No... One look at you and I{NEWLINE}can tell you’re really strong.{CLEAR}I’ll find someone else to battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "什么啊,不是要送我胖丁啊。",
+   "en": "What? You’re not giving me a Jigglypuff?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "壶壶『Shuuu——le！",
+   "en": "Shuckle: Shuuu-le!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "胖丁『Jiii——ly！",
+   "en": "Jigglypuff: Jiii-ly!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "布鲁皇『Graaa——bul！",
+   "en": "Granbull: Graaa-bul!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "冰伊布『Glaaa——ceo！",
+   "en": "Glaceon: Glaaa-ceo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "我想用壶壶酿造好喝的树果汁,{NEWLINE}但是壶壶完全不缩入壳中睡觉,{CLEAR}这样的话是无法顺利酿造的。{SCROLL}如果有一只胖丁来给壶壶们{NEWLINE}唱唱歌、催催眠就好了。",
+   "en": "I want to use my Shuckle to brew tasty{NEWLINE}Berry juice.{SCROLL}But they won’t pull into their shells{NEWLINE}and sleep, so the brewing won’t{CLEAR}go right.{SCROLL}If only a Jigglypuff would sing my{NEWLINE}Shuckle a lullaby and put them{CLEAR}to sleep...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "要把身上的胖丁送给他吗？",
+   "en": "Give him the Jigglypuff in your party?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "什么！？要送给我胖丁？{NEWLINE}是你身上的胖丁吗？",
+   "en": "What?! You’ll give me a Jigglypuff?{NEWLINE}The one in your party?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "这不是个精灵蛋吗？{NEWLINE}别拿我寻开心啊。",
+   "en": "Isn’t that a Pokémon Egg?{NEWLINE}Don’t mess with me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0103:0}把胖丁送出去了！",
+   "en": "{VAR:0103:0} handed over the Jigglypuff!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "哇哇！真的是胖丁呢！{NEWLINE}这样一来我的壶壶就能顺利入睡{CLEAR}酿出好喝的树果汁了。{SCROLL}真不知道该怎么感谢你才好,{NEWLINE}这是我酿树果汁用的一些树果,{CLEAR}送给你吧。{SCROLL}",
+   "en": "Wow! It really is a Jigglypuff!{SCROLL}Now my Shuckle can fall asleep and brew{NEWLINE}some tasty Berry juice.{SCROLL}I don’t know how to thank you. Here are{NEWLINE}some of the Berries I use for my juice.{CLEAR}Please take them.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "多亏你送的胖丁,{NEWLINE}今后再也不用担心{CLEAR}壶壶无法入睡了。",
+   "en": "Thanks to the Jigglypuff you gave me,{NEWLINE}I’ll never have to worry about my{CLEAR}Shuckle not sleeping again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "你这是也不是胖丁啊,{NEWLINE}别拿我寻开心好吗？",
+   "en": "That’s not a Jigglypuff either.{NEWLINE}Stop messing with me, will you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "……哎呀{NEWLINE}那这样你的精灵{CLEAR}就会１只都不剩了哦！",
+   "en": "...Oh no, that means you won’t have any{NEWLINE}Pokémon left!",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s), flags page_breaks_lost"
+  },
+  {
+   "id": 16,
+   "zh": "最近从这里路过的训练家{NEWLINE}都没有什么像样的家伙,{CLEAR}看你还挺厉害的样子,{CLEAR}愿意跟我较量一下吗？",
+   "en": "None of the Trainers passing through{NEWLINE}here lately have been any good.{SCROLL}You look pretty tough, though.{NEWLINE}Want to have a match with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "你是喜欢单打还是双打？",
+   "en": "Do you like Single or Double Battles?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 19,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 20,
+   "zh": "广播台的音乐频道每周四{NEWLINE}都会播放神奥地区的传统音乐,{CLEAR}这时候开着收音机走的话,{CLEAR}就能遇到神奥地区的精灵了！",
+   "en": "Every Thursday, the music channel{NEWLINE}plays traditional music from the{CLEAR}Sinnoh region.{SCROLL}If you walk around with the radio{NEWLINE}on then, you can run into Pokémon{CLEAR}from Sinnoh!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "你知道咱们的联盟冠军{VAR:0103:0}吗？{NEWLINE}你只要把精灵锻炼得{CLEAR}像冠军大人的精灵那样强大,{CLEAR}就什么都不用害怕了。",
+   "en": "Do you know our League{NEWLINE}Champion, {VAR:0103:0}?{SCROLL}If you train your Pokémon to be{NEWLINE}as strong as the Champion’s,{CLEAR}you won’t need to fear anything.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl) | rewritten from zh (was tm_v3)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 23,
+   "zh": "来吧,让你感受一下冬天的温度！",
+   "en": "Come on! Let me give you a taste{NEWLINE}of winter!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "好久没有遇到你这样的高手了,{NEWLINE}真是畅快的战斗。",
+   "en": "I haven’t met a Trainer this good in{NEWLINE}ages. What a satisfying battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "你只带着1只精灵,不能进行双打！",
+   "en": "You only have one Pokémon with you,{NEWLINE}so you can’t have a Double Battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "我听一起打工的朋友说,{NEWLINE}我喜欢的那个女生{CLEAR}在北边的自然公园跟一个老头约会。{CLEAR}我很想去确认一下我朋友在骗我,{CLEAR}但又害怕事实真如朋友说的那样……",
+   "en": "A friend from my part-time job told me{NEWLINE}the girl I like was on a date with some{CLEAR}old man in the National Park up north.{SCROLL}I really want to go check, to prove my{NEWLINE}friend is lying to me...{SCROLL}But I’m scared it’ll turn out to{NEWLINE}be true...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "呜呜……嗯……{NEWLINE}谢谢你把真像告诉我,{CLEAR}不然我真的很难鼓起勇气{CLEAR}去直面这个现实。{SCROLL}这个礼物我本来想送给那个女孩的,{NEWLINE}现在留着也没什么用了,{CLEAR}不如就送给你吧。",
+   "en": "*sob*... Mm...{NEWLINE}Thank you for telling me the truth.{SCROLL}Otherwise I could never have worked up{NEWLINE}the courage to face it.{SCROLL}I was going to give this present to{NEWLINE}that girl. It’s no use to me now,{CLEAR}so you can have it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "这里是３５号道路{NEWLINE}南　满金市",
+   "en": "Rt. 35{NEWLINE}South to Goldenrod City",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0387/28",
+   "category": "sign"
+  },
+  {
+   "id": 29,
+   "zh": "北　自然公园{NEWLINE}西　口袋竞技场",
+   "en": "North to the National Park{NEWLINE}West to the Pokéathlon Dome",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0387/29",
+   "category": "sign"
+  },
+  {
+   "id": 30,
+   "zh": "[zh redacted: song lyrics; sha256:5b72dbed3ee89ddb9670a9d5820d365ebd32e90a74ba80c3572c3d5af543a2f9]",
+   "en": "♪ (sobs out a breakup ballad about{NEWLINE}heading south, away from the park{CLEAR}where she is...) ♪{SCROLL}Waaah...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "song rule (D-1012): the zh parodies lyrics of Jay Chou's 一路向北; replaced with a hum line | zh redacted: song lyrics (zh_redact.py)"
+  },
+  {
+   "id": 31,
+   "zh": "因为我养的精灵是布鲁皇,{NEWLINE}周围的人都笑话我是大狗牙,{CLEAR}也没有人愿意跟我玩。{CLEAR}你能陪我玩一会儿吗？",
+   "en": "Because my Pokémon is a Granbull,{NEWLINE}everyone around me makes fun of me and{CLEAR}calls me ‘Dog Fangs.’{SCROLL}Nobody wants to play with me.{NEWLINE}Will you play with me for a while?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "太好了！咱们来场精灵对战可以吗？",
+   "en": "Yay! Can we have a Pokémon battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "唔……你不愿意啊……",
+   "en": "Oh... You don’t want to...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "你可要小心哦,{NEWLINE}我的布鲁皇很厉害的！",
+   "en": "You’d better watch out.{NEWLINE}My Granbull is really strong!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "虽然我输了,{NEWLINE}但是能跟朋友一起来场精灵对战,{CLEAR}这种感觉真是太棒了！{SCROLL}作为感谢请你收下这个吧。",
+   "en": "I lost, but having a Pokémon battle with{NEWLINE}a friend feels so great!{SCROLL}Please take this as thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "谢谢你陪我玩,{NEWLINE}能跟朋友一起来场精灵对战,{CLEAR}这种感觉真是太棒了！",
+   "en": "Thanks for playing with me.{SCROLL}Having a Pokémon battle with a friend{NEWLINE}feels so great!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "这只波波好像很饿,{NEWLINE}要喂它一点橘果吗？",
+   "en": "This Pidgey seems very hungry.{NEWLINE}Feed it an Oran Berry?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "波波『Piii……",
+   "en": "Pidgey: Piii...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "身上的橘果不够！",
+   "en": "You don’t have enough Oran Berries!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "{VAR:0103:0}『来,波波。吃点橘果吧。",
+   "en": "{VAR:0103:0}: Here, Pidgey.{NEWLINE}Have an Oran Berry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "波波『Piii——dge！",
+   "en": "Pidgey: Piii-dge!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "波波的体力恢复了！",
+   "en": "Pidgey recovered its strength!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "波波的身上似乎带着一封信,{NEWLINE}要读一读吗？",
+   "en": "The Pidgey seems to be carrying a{NEWLINE}letter. Read it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "你好,未曾谋面的朋友,{NEWLINE}很高兴以这样的方式与你相识。{CLEAR}我因为身体原因不能出门,{CLEAR}只能以波波传信的方式交朋友。{CLEAR}如果你不介意的话,{CLEAR}请带上你旅途中的故事,{CLEAR}来缘朱市讲给我听听好吗？",
+   "en": "Hello, friend I’ve never met.{NEWLINE}I’m happy to meet you like this.{SCROLL}My health keeps me from going outside,{NEWLINE}so I can only make friends by sending{CLEAR}letters with Pidgey.{SCROLL}If you don’t mind, would you come to{NEWLINE}Ecruteak City and tell me the stories{CLEAR}from your journey?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0103:0}『北边的自然公园里{NEWLINE}确实有一个跟老头约会的女孩,{CLEAR}穿着蓝色上衣红色短裙,{CLEAR}一头长发好像染过。{CLEAR}笑起来脸上会有酒窝,很可爱。{CLEAR}不知道是不是你说的那个女孩。",
+   "en": "{VAR:0103:0}: There really is a girl on a{NEWLINE}date with an old man in the National{CLEAR}Park up north.{SCROLL}She was wearing a blue top and a{NEWLINE}red skirt, and had long hair that{CLEAR}looked dyed.{SCROLL}She gets dimples when she smiles.{NEWLINE}Really cute.{SCROLL}I don’t know if she’s the girl you mean.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "那里确实有一个跟老头约会的女孩",
+   "en": "She’s with an old man",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 47,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 48,
+   "zh": "啊……这……这确实是她,{NEWLINE}她……她真的……{CLEAR}她怎么能这样呢……",
+   "en": "Ah... That... That’s her, all right.{NEWLINE}She... She really...{SCROLL}How could she do this...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0103:0}『看开一点吧,{NEWLINE}有些人不值得你这么动情。",
+   "en": "{VAR:0103:0}: Try to let it go.{NEWLINE}Some people aren’t worth getting this{CLEAR}worked up over.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "小松『满金市的所有出口{NEWLINE}都被精灵联盟的部队封住了。{CLEAR}如果不想再做无谓的牺牲,{CLEAR}就赶紧交出精灵投降！",
+   "en": "Morty: Every exit from Goldenrod{NEWLINE}City has been sealed off by{CLEAR}Pokémon League forces.{SCROLL}If you don’t want any more pointless{NEWLINE}sacrifices, hand over your Pokémon{CLEAR}and surrender!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "哈哈哈,蠢货。{NEWLINE}几乎所有的传说中精灵{CLEAR}都被我们火箭队掌握了,{CLEAR}你如果不想做无谓的牺牲,{CLEAR}就乖乖交出精灵投降！",
+   "en": "Hah hah hah, you fool.{NEWLINE}Team Rocket controls nearly every{CLEAR}Legendary Pokémon.{SCROLL}If you don’t want any pointless{NEWLINE}sacrifices, hand over your Pokémon and{CLEAR}surrender quietly!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "小松『真是一群冥顽不灵的家伙。{NEWLINE}耿鬼看好这里,{CLEAR}一个火箭队员也不要放走。",
+   "en": "Morty: What a bunch of stubborn fools.{SCROLL}Gengar, guard this spot.{NEWLINE}Don’t let a single Rocket get away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "耿鬼『Geeeen——ga！",
+   "en": "Gengar: Geeeen-ga!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "{VAR:0103:0}『这里交给小松馆主就好,{NEWLINE}我还是先去广播塔找坂木吧。",
+   "en": "{VAR:0103:0}: I’ll leave this to Morty.{NEWLINE}I should go find Giovanni at the{CLEAR}Radio Tower.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

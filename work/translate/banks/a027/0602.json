@@ -1,0 +1,369 @@
+{
+ "narc": "a027",
+ "bank": 602,
+ "source": "work/extract/v4/a027/0602.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "你说口袋妖怪吃起来{NEWLINE}到底是什么味道啊,{CLEAR}听说呆呆兽的尾巴就很好吃,{CLEAR}可惜现在已经买不到了。",
+   "en": "What do you think Pokémon taste like? I{NEWLINE}heard Slowpoke tails are really tasty,{CLEAR}but sadly you can’t buy them anymore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "……啊呜啊呜……啊呜啊呜{SCROLL}……唔！{NEWLINE}噎在喉咙里了！！{SCROLL}不行不行,{NEWLINE}吃饭一定要细嚼慢咽。",
+   "en": "Gobble...gobble...{SCROLL}...Choke!{NEWLINE}Ack... I’m choking!{SCROLL}Whew! That was close.{NEWLINE}I should chew before I swallow my food.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0611/1"
+  },
+  {
+   "id": 2,
+   "zh": "到了浅葱市,一定要到{NEWLINE}这个食堂里来吃饭哦！{SCROLL}这里的饭不管哪一种都会给人{NEWLINE}带来力量,让人欲罢不能！",
+   "en": "Whenever I roll into Olivine, I always{NEWLINE}visit the Olivine Café.{SCROLL}Everything on the menu makes me feel{NEWLINE}stronger. I can’t stop eating!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0611/2"
+  },
+  {
+   "id": 3,
+   "zh": "这个浅葱市食堂里面{NEWLINE}有很多的菜都能让那些{CLEAR}自卖自夸的海男满足！",
+   "en": "Olivine Café’s menu is chock-full{NEWLINE}of hearty fare for beefy Sailors!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0611/3"
+  },
+  {
+   "id": 4,
+   "zh": "蜜柑『贵安{NEWLINE}……　……　……！{SCROLL}啊,不是,这碗东西{NEWLINE}并不是全部{CLEAR}我一个吃掉的……{SCROLL}对,对了！{NEWLINE}是我之前说过的那个人{CLEAR}他吃剩下的……{SCROLL}……　……　……{SCROLL}要不要和我交换电话号码？{NEWLINE}我们好不容易见面不是么？{VAR:0200:0}",
+   "en": "Jasmine: Hi!{NEWLINE}...!{SCROLL}These empty dishes in front of me{NEWLINE}are not all mine...{SCROLL}Er...{SCROLL}Actually, the person who sat here{NEWLINE}ahead of me ate a lot...{SCROLL}Anyway, do you want to exchange{NEWLINE}phone numbers? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0611/4"
+  },
+  {
+   "id": 5,
+   "zh": "{VAR:0103:0}把蜜柑{NEWLINE}登录在了手机中！",
+   "en": "{VAR:0103:0} registered Jasmine{NEWLINE}in the Pokégear!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0611/5"
+  },
+  {
+   "id": 6,
+   "zh": "蜜柑『这下子就无论{NEWLINE}什么时候都可以对话了呢！{SCROLL}星期三的白天可以进行精灵对战,{CLEAR}记得给我打电话哦！",
+   "en": "Jasmine: Now we can contact each{NEWLINE}other anytime.{SCROLL}I should be able to battle you around{NEWLINE}noon on Wednesdays.{CLEAR}I’ll be waiting for your call!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0611/6"
+  },
+  {
+   "id": 7,
+   "zh": "蜜柑『啊……这样啊……",
+   "en": "Jasmine: Oh... I understand...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0611/7"
+  },
+  {
+   "id": 8,
+   "zh": "蜜柑『{VAR:0103:0}大人！{NEWLINE}您也喜欢浅葱市堂的美食吗？{CLEAR}感觉……跟您多了一个共同点呢。{SCROLL}蜜柑『难得在这遇见您,{NEWLINE}不知道您愿意跟我……{CLEAR}跟我合一张影吗？",
+   "en": "Jasmine: {VAR:0103:0}! You like the food at{NEWLINE}the Olivine Café too? It feels like...{CLEAR}we have one more thing in common.{SCROLL}Jasmine: Since I’ve run into{NEWLINE}you here... would you... would{CLEAR}you take a photo with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "{VAR}大人 → name only (Jasmine is formal; no ‘Lord’)."
+  },
+  {
+   "id": 9,
+   "zh": "蜜柑『千奇百怪的地方{NEWLINE}都能见到你啊。{SCROLL}机会难得,和我照张相{NEWLINE}作为纪念怎么样？{VAR:0200:0}",
+   "en": "Jasmine: We seem to...bump into each{NEWLINE}other often.{SCROLL}Why don’t we take a picture{NEWLINE}to make this a memory? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0611/9"
+  },
+  {
+   "id": 10,
+   "zh": "蜜柑『那我拍咯。{SCROLL}",
+   "en": "Jasmine: Are you ready?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0611/10"
+  },
+  {
+   "id": 11,
+   "zh": "蜜柑『好,拍完了！{NEWLINE}嗯,不错不错。",
+   "en": "Jasmine: You did a fine job.{NEWLINE}We look good.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0611/11"
+  },
+  {
+   "id": 12,
+   "zh": "蜜柑『这样啊……",
+   "en": "Jasmine: I see...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0611/12"
+  },
+  {
+   "id": 13,
+   "zh": "相册里面的相片好像已经装满了。{SCROLL}用电脑把相册里面的照片{NEWLINE}整理一下吧！",
+   "en": "Your Photo Album is full.{SCROLL}Access your PC to delete{NEWLINE}some pictures.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0611/13"
+  },
+  {
+   "id": 14,
+   "zh": "这两只豪力{NEWLINE}为浅葱码头的翻新工程{CLEAR}出了很大的力气,{CLEAR}于是我想请它们吃点好吃的。{CLEAR}可是豪力们好像吃不惯人类的食物,{CLEAR}要是有大树果这种{CLEAR}精灵们爱吃的果子就好了。",
+   "en": "These two Machoke worked{NEWLINE}really hard on the renovation of{CLEAR}Olivine Harbor, so I wanted to{CLEAR}treat them to something tasty.{SCROLL}But they don’t seem used to human{NEWLINE}food. If only I had something Pokémon{CLEAR}love to eat, like Sitrus Berries.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "豪力『Maaa……{SCROLL}豪力很饿。",
+   "en": "Machoke: Maaa...{SCROLL}Machoke is hungry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "你谁啊你……嗝……{NEWLINE}老子可是在……战斗前线{CLEAR}练习过对战技巧的高手！{CLEAR}看你一脸……一脸不服的样子,{CLEAR}老子就教教你该怎么做人。",
+   "en": "Who the hell are you... *hic*... I’m{NEWLINE}a pro who trained my battle skills{CLEAR}at the... the Battle Frontier!{SCROLL}Look at that... that defiant face of{NEWLINE}yours. I’ll teach you some manners.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Drunk man (老子 register), battle trigger."
+  },
+  {
+   "id": 17,
+   "zh": "嗝——！{NEWLINE}我的酒好像醒了……{CLEAR}刚才发生什么事了吗？！",
+   "en": "*HIC*! I think I just sobered up...{NEWLINE}Did something happen just now?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "不能再喝了……{NEWLINE}我真的不能再喝了……{CLEAR}嗝——！",
+   "en": "No more... I really can’t{NEWLINE}drink any more... *HIC*!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "我是在浅葱食堂{NEWLINE}干了快30年的大厨,{CLEAR}这天底下就没有我不会做的菜。{CLEAR}只是最近食堂的原料和工具有点短缺,{CLEAR}我想试验的三个菜：{CLEAR}饼卷大葱、拔丝大树果、铁板五花肉{CLEAR}暂时都没法做了。",
+   "en": "I’ve been head chef at the Olivine{NEWLINE}Café for almost 30 years. There’s{CLEAR}no dish in the world I can’t make.{SCROLL}But lately the Café has been short on{NEWLINE}ingredients and tools, so the three{CLEAR}dishes I want to try out are on hold:{SCROLL}scallion pancake wraps, candied{NEWLINE}Sitrus Berries and sizzling pork belly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same three dishes the player teaches in 0600 #32–#34; wording kept identical."
+  },
+  {
+   "id": 20,
+   "zh": "你看我身上带的东西能派上用场吗",
+   "en": "Can any of my stuff help?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 21,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 22,
+   "zh": "这第一道菜饼卷大葱{NEWLINE}需要的长葱你就没有,{CLEAR}我还是自己想想办法吧。",
+   "en": "You don’t have the Leek I need for the{NEWLINE}first dish, the scallion pancake wraps.{CLEAR}I’ll figure something out myself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "哦！你身上带着长葱啊,{NEWLINE}不错不错,{CLEAR}这个可以用来做饼卷大葱。",
+   "en": "Oh! You’ve got a Leek on you.{NEWLINE}Very nice! I can use this for{CLEAR}the scallion pancake wraps.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "但是没有蜂蜜啊,{NEWLINE}这样的话就没法做拔丝大树果了。",
+   "en": "But there’s no Honey. Without it, I{NEWLINE}can’t make the candied Sitrus Berries.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "但是没有大树果啊,{NEWLINE}这样的话就没法做拔丝大树果了。",
+   "en": "But there are no Sitrus{NEWLINE}Berries. Without them, I can’t{CLEAR}make the candied Sitrus Berries.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "你的背包里还有……{NEWLINE}蜂蜜和大树果,{CLEAR}这样拔丝大树果就有着落了。",
+   "en": "Your Bag also has... Honey and{NEWLINE}Sitrus Berries! That takes care{CLEAR}of the candied Sitrus Berries.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "最后一道菜铁板五花肉{NEWLINE}所需要的五花肉我这里有,{CLEAR}但这次我想把五花肉{CLEAR}放到滚烫的精灵身上,{CLEAR}用精灵的体温{CLEAR}把五花肉烤地滋滋冒油。{CLEAR}这种精灵的话……",
+   "en": "For the last dish, sizzling pork belly,{NEWLINE}I’ve got the pork belly right here.{SCROLL}But this time, I want to lay the{NEWLINE}pork belly on a red-hot Pokémon{CLEAR}and let its body heat sizzle{CLEAR}the meat till it drips with fat.{SCROLL}For that kind of Pokémon...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "不行,你身上没有这种精灵。",
+   "en": "No good. You don’t have that{NEWLINE}kind of Pokémon with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "你身上带着的那个熔岩蜗牛,{NEWLINE}这炽热的温度、坚硬的甲壳,{CLEAR}正好适合做铁板五花肉！",
+   "en": "That Magcargo you’ve got! With its{NEWLINE}searing heat and hard shell, it’s{CLEAR}perfect for sizzling pork belly!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "这样一来所有的材料都备齐了,{NEWLINE}我要开始做菜了。{CLEAR}你如果想学就在一边看着,{CLEAR}我可以把做菜的窍门都告诉你。",
+   "en": "That’s all the ingredients ready.{NEWLINE}Time to start cooking! If you want{CLEAR}to learn, watch from over there.{CLEAR}I’ll tell you all the tricks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "首先是饼卷大葱,{NEWLINE}饼的厚薄、葱的白绿、料的咸淡{CLEAR}这几个方面都很重要……",
+   "en": "First, scallion pancake wraps. The{NEWLINE}thickness of the pancake, the white{CLEAR}and green of the scallion, how salty{CLEAR}the sauce is... All of it matters...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "然后是拔丝大树果,{NEWLINE}糖汁里加蜂蜜会使味道更甜美,{CLEAR}但也更考验火候……",
+   "en": "Next, candied Sitrus Berries.{NEWLINE}Adding Honey to the syrup makes{CLEAR}it sweeter, but you really{CLEAR}have to watch the heat...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "最后是铁板五花肉,{NEWLINE}将腌好的五花肉{CLEAR}铺在熔岩蜗牛的背上,{CLEAR}因为熔岩蜗牛的体温较高,{CLEAR}所以肉要切厚一点……",
+   "en": "Last, sizzling pork belly.{NEWLINE}Lay the marinated pork{CLEAR}belly on Magcargo’s back.{SCROLL}Magcargo runs pretty hot, so you{NEWLINE}need to slice the meat thicker...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "这样一来我想试验的三个菜{NEWLINE}就全部完成了。{CLEAR}除了刚刚教你的做菜技巧,{CLEAR}还有这个你也收下吧,{CLEAR}就当做是你帮忙的谢礼了。",
+   "en": "And with that, all three dishes{NEWLINE}I wanted to try are done.{SCROLL}Besides the cooking tips{NEWLINE}I just taught you, take this{CLEAR}too, as thanks for your help.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "做菜是门很高深的技巧,{NEWLINE}需要时间慢慢打磨。",
+   "en": "Cooking is a deep art. It takes{NEWLINE}time to polish your skills.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "要把身上的大树果送给他吗？",
+   "en": "Give him your Sitrus Berries?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "哎？要送我大树果吗？",
+   "en": "Huh? You want to give{NEWLINE}me Sitrus Berries?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "可是你的大树果太少了,{NEWLINE}不够这两只豪力吃的。{CLEAR}我还是再想想别的办法吧。",
+   "en": "But you don’t have enough Sitrus{NEWLINE}Berries to feed both Machoke.{CLEAR}I’ll think of something else.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "真的是太谢谢你了！{NEWLINE}这样豪力们就能好好美餐一顿了。",
+   "en": "Thank you so much! Now the{NEWLINE}Machoke can have a real feast.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "让精灵们劳动时{NEWLINE}付出的汗水有所回报,{CLEAR}这样劳动才显得有价值、有意义。",
+   "en": "When Pokémon work hard, their sweat{NEWLINE}should be rewarded. That’s what{CLEAR}makes work worthwhile and meaningful.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "豪力『Maaa——cho！{SCROLL}豪力很满足。",
+   "en": "Machoke: Maaa-cho!{SCROLL}Machoke looks satisfied.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "多亏了你的树果,{NEWLINE}豪力才能吃得这么开心。{CLEAR}这个是我和豪力们翻修码头时{CLEAR}用剩下的机械零件,{CLEAR}是很难买到的高级货哦,{CLEAR}就送给你当谢礼吧！",
+   "en": "Thanks to your Berries, the{NEWLINE}Machoke got to eat so happily.{SCROLL}These are machine parts left over from{NEWLINE}when the Machoke and I renovated the{CLEAR}harbor. They’re high-quality and hard{CLEAR}to find. Please take them as thanks!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Which item the machine parts are isn't visible."
+  },
+  {
+   "id": 43,
+   "zh": "来,豪力,这是你们最爱吃的大树果哦！",
+   "en": "Here, Machoke! Your{NEWLINE}favorite, Sitrus Berries!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "豪力『Maaa——cho！",
+   "en": "Machoke: Maaa-cho!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

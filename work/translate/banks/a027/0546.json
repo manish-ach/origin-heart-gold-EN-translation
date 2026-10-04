@@ -1,0 +1,567 @@
+{
+ "narc": "a027",
+ "bank": 546,
+ "source": "work/extract/v4/a027/0546.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "你好,{NEWLINE}实验室的电力系统被破坏了,{CLEAR}目前无法维修。{CLEAR}所以我们暂时不接待访客,{CLEAR}您请回去吧！",
+   "en": "Hello. The lab’s power system is{NEWLINE}damaged and can’t be repaired yet.{SCROLL}So we aren’t receiving visitors at the{NEWLINE}moment. Please go back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Detrick lab (Cinnabar) after the Mewtwo incident; continues 0511 #41-#46."
+  },
+  {
+   "id": 1,
+   "zh": "电脑上有{NEWLINE}实验室紧急锁闭门的开启程序,{CLEAR}是否开关对应的锁闭门？",
+   "en": "The computer has a program for the{NEWLINE}lab’s emergency lockdown doors. Open{CLEAR}or close the matching lockdown door?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "滴——{SCROLL}实验室一层的紧急锁闭门打开了。",
+   "en": "Beep!{SCROLL}The emergency lockdown door on the{NEWLINE}lab’s first floor opened.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "紧急锁闭门牢牢地关着,{NEWLINE}用一般方法很难打开。{CLEAR}或许哪里有开启的装置？",
+   "en": "The emergency lockdown door is shut{NEWLINE}tight. It won’t open by ordinary means.{SCROLL}Maybe there’s a device somewhere that{NEWLINE}opens it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "电脑上有{NEWLINE}实验室紧急锁闭门的开关程序,{CLEAR}是否开关对应的锁闭门？",
+   "en": "The computer has a program for the{NEWLINE}lab’s emergency lockdown doors. Open{CLEAR}or close the matching lockdown door?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "滴——{SCROLL}对应的门开启了。",
+   "en": "Beep!{SCROLL}The matching door opened.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "滴——{SCROLL}对应的门关闭了。",
+   "en": "Beep!{SCROLL}The matching door closed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "滴——{SCROLL}操作成功。",
+   "en": "Beep!{SCROLL}Operation successful.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:FF01:200}{VAR:0103:0}！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}{VAR:0103:0}!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "小蓝『果然你也在这里。{NEWLINE}我在餐厅听说实验室发生了意外事故,{CLEAR}就跟夏伯一起过来了。{CLEAR}看这个实验室的样子,{CLEAR}这里肯定是座火箭队的基地了。{CLEAR}不过这座基地到底发生了什么事故,{CLEAR}以至于让他们惊慌失措暴露了呢？",
+   "en": "Green: I knew you’d be here too.{SCROLL}At the restaurant I heard about an{NEWLINE}accident at the lab, so Blaine and I{CLEAR}rushed over.{SCROLL}From the look of this lab, it’s definitely{NEWLINE}a Team Rocket base.{SCROLL}But what accident made them panic so{NEWLINE}badly that they gave themselves away?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Partner branch: Green (#9/#36/#39) or Red (#10/#37/#40)."
+  },
+  {
+   "id": 10,
+   "zh": "小赤『果然你也在这里。{NEWLINE}我在餐厅听说实验室发生了意外事故,{CLEAR}就跟夏伯一起过来了。{CLEAR}看这个实验室的样子,{CLEAR}这里应该是座火箭队的基地吧。{CLEAR}不过这座基地到底发生了什么事故,{CLEAR}以至于让他们惊慌失措暴露了呢？",
+   "en": "Red: I knew you’d be here too.{SCROLL}At the restaurant I heard about an{NEWLINE}accident at the lab, so Blaine and I{CLEAR}rushed over.{SCROLL}From the look of this lab, it must be a{NEWLINE}Team Rocket base.{SCROLL}But what accident made them panic so{NEWLINE}badly that they gave themselves away?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0103:0}『我听说是这里有个怪物,{NEWLINE}不过目前还没发现什么踪迹。",
+   "en": "{VAR:0103:0}: I heard there’s some kind of{NEWLINE}monster here, but I haven’t seen any{CLEAR}sign of it yet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:FF01:200}夏伯『喂！你们两个！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Blaine: Hey! You two!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "SIZE-200% shout split with {NEWLINE} to fit at 2x. Double-size shout: one line per page (a line break inside {VAR:FF01:200} overflows the box and corrupts memory; heap_audit.md)."
+  },
+  {
+   "id": 13,
+   "zh": "夏伯『你们有看到小爱吗？{NEWLINE}就是那个跟我玩猜谜的小姑娘,{CLEAR}我找遍了实验室都没看到她。",
+   "en": "Blaine: Have you seen Amber? The little{NEWLINE}girl who plays riddles with me.{SCROLL}I’ve searched the whole lab and can’t{NEWLINE}find her anywhere.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}『没有啊,我来这里的路上{NEWLINE}只遇到了火箭队的人。",
+   "en": "{VAR:0103:0}: No. On my way here, I only ran{NEWLINE}into Team Rocket.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "夏伯『前面的房间你们去过了吗？",
+   "en": "Blaine: Have you checked the room up{NEWLINE}ahead?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0103:0}『还没来得及去。",
+   "en": "{VAR:0103:0}: Not yet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "夏伯『那咱们赶紧去看看吧！",
+   "en": "Blaine: Then let’s go and look, quick!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "富士博士『你冷静一点,超梦。{NEWLINE}我们可是创造了你的父母！",
+   "en": "Dr. Fuji: Calm down, Mewtwo. We are the{NEWLINE}parents who created you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Dr. Fuji (Team Rocket scientist, Mr. Fuji's brother) and Mewtwo; Amber 2 is a sickly clone of his dead daughter (see 0471 #30)."
+  },
+  {
+   "id": 19,
+   "zh": "超梦『父……母……",
+   "en": "Mewtwo: Par... ents...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "富士博士『创造你的人就是你的父母！{NEWLINE}我们就是你的父母！",
+   "en": "Dr. Fuji: Those who created you are{NEWLINE}your parents! We are your parents!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "超梦『我……{NEWLINE}还在沉睡的时候……{CLEAR}小爱在梦中告诉我,{CLEAR}有爱,才是父母……",
+   "en": "Mewtwo: While I... was still asleep...{NEWLINE}Amber told me in a dream...{SCROLL}...that love is what makes a parent...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "富士博士『你所说的小爱2号{NEWLINE}是我好多年前制作的克隆体,{CLEAR}当时的技术还很不成熟,{CLEAR}导致克隆体先天多病。{CLEAR}得病去世是她无法避免的命运。",
+   "en": "Dr. Fuji: The Amber 2 you speak of is a{NEWLINE}clone I made many years ago.{SCROLL}The technology was still immature back{NEWLINE}then, so the clone was born sickly.{SCROLL}Dying of illness was a fate she could{NEWLINE}never have escaped.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "富士博士『但是在制造你的过程中,{NEWLINE}我们突破了基因技术的关键。{CLEAR}现在再制造一个小爱的话,{CLEAR}她一定可以健康长大！{SCROLL}富士博士『我知道你跟我一样喜欢小爱,{NEWLINE}那就一起为火箭队效力吧。{CLEAR}正是因为有了他们全方位的支持,{CLEAR}你才能诞生,小爱才能复活！",
+   "en": "Dr. Fuji: But in creating you, we made a{NEWLINE}breakthrough in genetic technology.{SCROLL}If we make another Amber now, she’ll{NEWLINE}surely grow up healthy!{SCROLL}Dr. Fuji: You love Amber as I do, so{NEWLINE}work with me for Team Rocket.{SCROLL}Only thanks to their full support could{NEWLINE}you be born and Amber be revived!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "超梦『我和你口中的2号,{NEWLINE}都是可以随意支配的试验品吧……{CLEAR}你这种人不懂得尊重生命,{CLEAR}却妄想操纵生命！！！{SCROLL}超梦『你们……{NEWLINE}必须在这里被终结！",
+   "en": "Mewtwo: The one you call No. 2 and I...{NEWLINE}are both test subjects for you to use{CLEAR}as you please...{SCROLL}People like you have no respect for{NEWLINE}life, yet you presume to control it!!!{SCROLL}Mewtwo: You... must be ended here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "富士博士『终结？你要干什么！？",
+   "en": "Dr. Fuji: Ended? What are you going to{NEWLINE}do?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "超梦『哼……",
+   "en": "Mewtwo: Hmph...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "富士博士『你不要过来啊——！！！",
+   "en": "Dr. Fuji: Stay away from me-!!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:FF01:200}嘭！！！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}BOOM!!!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "呀啊——！！！富士博士——！！！",
+   "en": "Aaaah-!!! Dr. Fuji-!!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "别发呆了,快逃啊！",
+   "en": "Don’t just stand there! Run!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "超梦『外面的人……？",
+   "en": "Mewtwo: People outside...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "夏伯『这只精灵不知是敌是友,{NEWLINE}注意保护好自己！",
+   "en": "Blaine: We don’t know if this Pokémon is{NEWLINE}friend or foe. Watch yourselves!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "超梦『愚蠢的人类……",
+   "en": "Mewtwo: Foolish humans...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "夏伯『走了吗……{SCROLL}夏伯『唉……",
+   "en": "Blaine: It’s gone...{SCROLL}Blaine: Sigh...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "夏伯『一直以来我都把小爱{NEWLINE}当成孙女一样看待。{CLEAR}在我眼中她就像家人一样……{SCROLL}夏伯『我一直以为{NEWLINE}小爱住的这间实验室{CLEAR}就是个普通的实验室。{CLEAR}没想到小爱的出生和死亡{CLEAR}竟然都是这里的一个实验……{SCROLL}夏伯『这群把生命和感情{NEWLINE}当玩物的混蛋！！！！{CLEAR}我绝对不会放过它们！！！",
+   "en": "Blaine: I always thought of Amber as my{NEWLINE}own granddaughter.{SCROLL}To me, she was family...{SCROLL}Blaine: I always thought the lab Amber{NEWLINE}lived in was just an ordinary lab.{SCROLL}I never imagined her birth and her{NEWLINE}death were both just an experiment...{SCROLL}Blaine: These bastards who treat life{NEWLINE}and feelings as playthings!!!!{SCROLL}I will never let them get away with{NEWLINE}this!!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "小蓝『那个叫超梦的精灵{NEWLINE}能因为小爱而愤怒,{CLEAR}我想它的本性应该不坏吧。{CLEAR}火箭队的人制造了超梦却无法控制,{CLEAR}最终反被杀死,{CLEAR}也算是自食恶果了。",
+   "en": "Green: That Pokémon, Mewtwo, got angry{NEWLINE}for Amber’s sake, so I don’t think it’s{CLEAR}bad at heart.{SCROLL}Team Rocket created Mewtwo but{NEWLINE}couldn’t control it, and it ended up{CLEAR}killing them.{SCROLL}They reaped what they sowed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "小赤『那个叫超梦的精灵{NEWLINE}能因为小爱而愤怒,{CLEAR}我想它的本性应该不坏。{CLEAR}火箭队的人制造了超梦却无法控制,{CLEAR}最终反被杀死,{CLEAR}也算是自食恶果了。",
+   "en": "Red: That Mewtwo got angry for Amber’s{NEWLINE}sake, so it can’t be all bad.{SCROLL}Team Rocket created Mewtwo but{NEWLINE}couldn’t control it, and it ended up{CLEAR}killing them.{SCROLL}They reaped what they sowed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "超梦『哼……",
+   "en": "Mewtwo: Hmph...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "小蓝『{VAR:0103:0}接下来准备去哪？{NEWLINE}我想回金黄市挑战一下娜姿小姐。{CLEAR}上次我去金黄道馆挑战她的时候,{CLEAR}因为差距太大,直接被她给拒绝了。{SCROLL}小蓝『不过现在咱们已经成长了很多,{NEWLINE}也该具备挑战她的资格了。{CLEAR}之后就以金黄道馆的{CLEAR}黄金徽章为目标前进如何？",
+   "en": "Green: {VAR:0103:0}, where are you headed{NEWLINE}next? I want to go back to Saffron City{CLEAR}and challenge Sabrina.{SCROLL}Last time I went to Saffron Gym, the{NEWLINE}gap between us was so big she turned me{CLEAR}down flat.{SCROLL}Green: But we’ve grown a lot since{NEWLINE}then, so we should be good enough to{CLEAR}challenge her now.{SCROLL}How about we aim for the Saffron Gym’s{NEWLINE}Marsh Badge next?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "小赤『{VAR:0103:0}接下来准备去哪？{NEWLINE}我想回金黄市挑战一下娜姿小姐。{CLEAR}上次我去金黄道馆挑战她的时候,{CLEAR}因为差距太大,直接被她给拒绝了。{SCROLL}小赤『不过现在咱们已经成长了很多,{NEWLINE}也该具备挑战她的资格了。{CLEAR}之后就以金黄道馆的{CLEAR}黄金徽章为目标前进吧。",
+   "en": "Red: {VAR:0103:0}, where are you headed{NEWLINE}next? I want to go back to Saffron City{CLEAR}and challenge Sabrina.{SCROLL}Last time I went to Saffron Gym, the{NEWLINE}gap between us was so big she turned me{CLEAR}down flat.{SCROLL}Red: But we’ve grown a lot since then,{NEWLINE}so we should be good enough to{CLEAR}challenge her now.{SCROLL}Let’s aim for the Saffron Gym’s Marsh{NEWLINE}Badge next.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "超梦『Mew——！！！",
+   "en": "Mewtwo: Mew-!!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "富士博士『刚刚那是你的声音吗超梦？{NEWLINE}真是太惊人了,{CLEAR}你居然可以通过意念与人交流！",
+   "en": "Dr. Fuji: Was that your voice just now,{NEWLINE}Mewtwo? Astonishing!{SCROLL}You can speak to people with your mind!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "富士博士『在梦幻逃走之后,{NEWLINE}我们用人工推导的方法{CLEAR}补全了梦幻的数据,{CLEAR}并依据数据完成了对你的创造,{CLEAR}你的基因一半来自梦幻{CLEAR}一半来自于我们的创造。{CLEAR}说我们就是你的父亲一点都不为过！{SCROLL}富士博士『所以收起你那叛逆的情绪,{NEWLINE}好好为火箭队效力吧！",
+   "en": "Dr. Fuji: After Mew escaped, we filled in{NEWLINE}Mew’s data by artificial inference and{CLEAR}used it to create you.{SCROLL}Half your genes come from Mew, and half{NEWLINE}are our own creation.{SCROLL}It’s no exaggeration to say we are your{NEWLINE}father!{SCROLL}Dr. Fuji: So put away that rebellious{NEWLINE}attitude and serve Team Rocket well!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "超梦『我知道父母是什么……",
+   "en": "Mewtwo: I know what parents are...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "富士博士『没错！无论因为梦幻逃走{NEWLINE}还是缺少基因石导致的研究困难,{CLEAR}都没有阻挡我们对你的研发,{CLEAR}你的诞生就是源自我们全体研发人员{CLEAR}对你的爱啊！",
+   "en": "Dr. Fuji: Exactly! Neither Mew’s escape{NEWLINE}nor the missing gene stone could stop{CLEAR}our work on you.{SCROLL}You were born out of the love all of us{NEWLINE}researchers have for you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "超梦『就像……{NEWLINE}你对小爱的爱,一样……？",
+   "en": "Mewtwo: Just like... your love for{NEWLINE}Amber...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "富士博士『对呀,你和小爱对我来说{NEWLINE}都是自己的孩子！{CLEAR}所以不要再闹了,{CLEAR}乖乖听话进到精灵球里吧。",
+   "en": "Dr. Fuji: That’s right. You and Amber{NEWLINE}are both my own children!{SCROLL}So stop this nonsense and get into your{NEWLINE}Poké Ball like a good boy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "超梦『住口！你口中所说的爱……{NEWLINE}就是像今天那样……{SCROLL}{VAR:FF01:200}把小爱当实验废品处理掉吗！！！！{VAR:FF01:100}",
+   "en": "Mewtwo: Silence! This love you speak{NEWLINE}of... Is it what you did today...{SCROLL}{VAR:FF01:200}Scrapping Amber like lab waste?!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "SIZE-200% second page split with {NEWLINE}; check it fits at 2x. Double-size shout: one line per page (a line break inside {VAR:FF01:200} overflows the box and corrupts memory; heap_audit.md)."
+  },
+  {
+   "id": 49,
+   "zh": "超梦『不要觉得我还没有苏醒{NEWLINE}就什么都不知道。{CLEAR}小爱今天是得病去世的吗！！！",
+   "en": "Mewtwo: Don’t think I knew nothing just{NEWLINE}because I had not yet awakened.{SCROLL}Did Amber die of illness today?!!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "富士博士『基因缺陷{NEWLINE}让小爱得了无法治好的病,{CLEAR}与其等她发病时痛苦地死去,{CLEAR}不如趁她开心时让她笑着离开。{SCROLL}富士博士『作为父亲的我做出这种决定,{NEWLINE}也是非常痛心啊！",
+   "en": "Dr. Fuji: A genetic defect gave Amber{NEWLINE}an incurable disease.{SCROLL}Rather than let her die in agony when it{NEWLINE}struck, it was kinder to let her go with{CLEAR}a smile while she was happy.{SCROLL}Dr. Fuji: Making that decision broke my{NEWLINE}heart too, as her father!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Dr. Fuji euthanised Amber 2 (让她笑着离开) — kept faithful (D-0627)."
+  },
+  {
+   "id": 51,
+   "zh": "夏伯『怎么可能……{NEWLINE}小爱她被……",
+   "en": "Blaine: It can’t be... Amber was...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "夏伯『我现在要向精灵联盟{NEWLINE}报告这里的事情。{CLEAR}安全起见,你们也尽早离开吧！",
+   "en": "Blaine: I’m going to report what{NEWLINE}happened here to the Pokémon League.{SCROLL}For your own safety, you should leave{NEWLINE}as soon as you can too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "滴——{SCROLL}实验室一层的紧急锁闭门关上了。",
+   "en": "Beep!{SCROLL}The emergency lockdown door on the{NEWLINE}lab’s first floor closed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "死去的富士博士{NEWLINE}脸上满是恐惧和愤怒……",
+   "en": "Dr. Fuji’s lifeless face is frozen in{NEWLINE}terror and rage...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "研发日志1：今天火箭队把{NEWLINE}传说中的精灵梦幻给捉来了,{CLEAR}真是太不可思议了,{CLEAR}这种精灵居然是真实存在的！？{CLEAR}以它为原型的话,{CLEAR}肯定能制作出史上最强的精灵！{SCROLL}要继续读吗？",
+   "en": "R&D Log 1: Today Team Rocket brought in{NEWLINE}the legendary Pokémon Mew.{SCROLL}Unbelievable!{SCROLL}This Pokémon really exists?! Using it as{NEWLINE}a template, we can surely create the{CLEAR}strongest Pokémon in history!{SCROLL}Keep reading?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "研发日志2：梦幻的力量超乎想象,{NEWLINE}稍一疏忽就被它给跑掉了。{CLEAR}缺少了重要的研究资料,{CLEAR}研发前景很不乐观。{CLEAR}不过哥哥那里的那块基因石,{CLEAR}或许能在今后的研究中帮上忙。{SCROLL}要继续读吗？",
+   "en": "R&D Log 2: Mew’s power is beyond{NEWLINE}imagining. One moment’s carelessness,{CLEAR}and it got away.{SCROLL}Without this vital research material,{NEWLINE}the project’s prospects are grim.{SCROLL}But the gene stone my brother has{NEWLINE}might help our future research.{SCROLL}Keep reading?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "研发日志3：小爱2号{NEWLINE}今天发病非常严重,{CLEAR}多个内脏器官都发生了病变。{CLEAR}看来下一个克隆体3号{CLEAR}必须要进行充分的基因调整。{CLEAR}偏偏火箭队获取基因石失败了,{CLEAR}这让目前的基因研究难以继续开展。{SCROLL}要继续读吗？",
+   "en": "R&D Log 3: Amber 2 had a very severe{NEWLINE}attack today. Several of her internal{CLEAR}organs are affected.{SCROLL}It seems the next clone, No. 3, must{NEWLINE}undergo thorough genetic adjustment.{SCROLL}And of all things, Team Rocket failed to{NEWLINE}get the gene stone, so our genetic{CLEAR}research can hardly go on.{SCROLL}Keep reading?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "研发日志4：真是太棒了,{NEWLINE}我们通过海量数据的统计分析,{CLEAR}发现了基因控制性状的核心规律。{CLEAR}如此一来梦幻2号和小爱3号的开发{CLEAR}都将是一路坦途了！",
+   "en": "R&D Log 4: Wonderful! Through{NEWLINE}statistical analysis of massive amounts{CLEAR}of data, we have found the core rules{CLEAR}by which genes control traits.{SCROLL}With this, developing Mew 2 and Amber 3{NEWLINE}will be smooth sailing!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "紧急锁闭门操作手册：{NEWLINE}有的电脑控制1扇锁闭门,{CLEAR}有的电脑则控制2扇锁闭门。",
+   "en": "Emergency Lockdown Door Manual: Some{NEWLINE}computers control 1 lockdown door,{CLEAR}while others control 2.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "这里是实验室的杂物间,{NEWLINE}没有什么值钱的东西！",
+   "en": "This is the lab’s storeroom. There’s{NEWLINE}nothing valuable in here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "火箭队第731号{NEWLINE}基因研究实验室。",
+   "en": "Team Rocket Gene Research Laboratory{NEWLINE}No. 731",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "731号 alludes to Unit 731 (WWII biological warfare unit); number kept."
+  },
+  {
+   "id": 62,
+   "zh": "能够控制基因的人,就是造物的神！",
+   "en": "Whoever controls genes is a god of{NEWLINE}creation!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "富士博士『快把强化精灵拿出来！",
+   "en": "Dr. Fuji: Bring out the enhanced{NEWLINE}Pokémon, now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "是！",
+   "en": "Yes, sir!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM retranslated"
+  },
+  {
+   "id": 65,
+   "zh": "富士博士『你们四个一起上,{NEWLINE}把超梦给我围住！",
+   "en": "Dr. Fuji: All four of you, surround{NEWLINE}Mewtwo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "富士博士『现在用最强技能压制超梦！",
+   "en": "Dr. Fuji: Now use your strongest moves{NEWLINE}to subdue Mewtwo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "富士博士『太……太强了！{NEWLINE}这么简单就打倒了四只强化精灵……",
+   "en": "Dr. Fuji: S-so strong! It beat four{NEWLINE}enhanced Pokémon so easily...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "可怕……太可怕了……{NEWLINE}我的精灵在一瞬间{CLEAR}就被那个怪物打倒了……",
+   "en": "Terrifying... So terrifying...{SCROLL}That monster beat my Pokémon in an{NEWLINE}instant...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "梦幻『Meee——eew！",
+   "en": "Mew: Meee-eew!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,551 @@
+{
+ "narc": "a027",
+ "bank": 514,
+ "source": "work/extract/v4/a027/0514.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "精灵联盟是考验{NEWLINE}能否全胜四天王４人的地方。{SCROLL}输了的话,当然只能从最初重新开始！",
+   "en": "At the Pokémon League, you’ll get{NEWLINE}tested by the Elite Four.{CLEAR}You have to beat them all.{SCROLL}If you lose, you have to start{NEWLINE}all over!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/0"
+  },
+  {
+   "id": 1,
+   "zh": "我的凯西可以用瞬间移动{NEWLINE}把你瞬间送回家哦。{CLEAR}怎么样,现在想回家吗？{SCROLL}",
+   "en": "My Abra can Teleport you home in an{NEWLINE}instant.{SCROLL}How about it? Want to go home now?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "凯西『A——bra！",
+   "en": "Abra: A-bra!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:0103:0}『等等{SCROLL}你现在是要去挑战精灵联盟？{SCROLL}但是……{NEWLINE}你还是放弃吧。{SCROLL}那是因为我培育变强的精灵,{CLEAR}这次会将你们打倒的！{SCROLL}来吧,就在这里！{NEWLINE}和我一决胜负吧！{SCROLL}",
+   "en": "{VAR:0103:0}: Hold it.{SCROLL}You’re going to take the{NEWLINE}Pokémon League challenge now?{SCROLL}You’ll have to give up on that.{SCROLL}My well-trained-beyond-recognition{NEWLINE}Pokémon are going to pound you.{SCROLL}Right now, right here!{NEWLINE}I challenge you!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/3"
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0103:0}『……呜,{NEWLINE}都这样了还不能获胜吗,{SCROLL}看来……{NEWLINE}我还要更加相信我的精灵啊……{CLEAR}原来如此啊,{SCROLL}算了,打扰你真是不好意思啊,{SCROLL}想挑战冠军的话,{NEWLINE}别忘了给精灵回复体力啊。{SCROLL}",
+   "en": "{VAR:0103:0}: ...Oh, no... I still can’t{NEWLINE}win after all that training...{SCROLL}I...I have to believe more in my{NEWLINE}Pokémon...{SCROLL}...No big deal.{NEWLINE}Sorry to have got in the way.{SCROLL}Don’t forget to rest your Pokémon{NEWLINE}before you challenge the Champion!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/4"
+  },
+  {
+   "id": 5,
+   "zh": "这个入口通往四天王的房间！{SCROLL}他们是非常厉害的！{NEWLINE}进去了就不能再返回了,{CLEAR}做好准备了吗？{CLEAR}相信自己,拿出勇气,前进吧！{SCROLL}",
+   "en": "Once you enter this door, you will be{NEWLINE}facing one of the Elite Four.{SCROLL}They are really tough!{NEWLINE}You cannot exit once you enter.{CLEAR}Are you ready?{CLEAR}Be courageous and go for it!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/5"
+  },
+  {
+   "id": 6,
+   "zh": "这个入口通往四天王的房间！{SCROLL}他们是非常厉害的！{NEWLINE}进入了就不能再返回了,{CLEAR}做好准备了吗？{CLEAR}相信自己,拿出勇气,前进吧！",
+   "en": "Once you enter this door, you will be{NEWLINE}facing one of the Elite Four.{SCROLL}They are really tough!{NEWLINE}You cannot exit once you enter.{CLEAR}Are you ready?{CLEAR}Be courageous and go for it!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/6"
+  },
+  {
+   "id": 7,
+   "zh": "要看哪个排行榜？{VAR:0200:0}",
+   "en": "Which Ranking do you want to see? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/7"
+  },
+  {
+   "id": 8,
+   "zh": "团队排行榜",
+   "en": "GROUP RANKING",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/8"
+  },
+  {
+   "id": 9,
+   "zh": "全球排行榜",
+   "en": "GLOBAL RANKING",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/9"
+  },
+  {
+   "id": 10,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s); other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 11,
+   "zh": "要看哪项排行榜？{VAR:0200:0}",
+   "en": "What kind of Ranking{NEWLINE}do you want to see? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/11"
+  },
+  {
+   "id": 12,
+   "zh": "精灵记录",
+   "en": "Pokémon RECORDS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/12; modernised from US 0522#12"
+  },
+  {
+   "id": 13,
+   "zh": "战斗塔记录",
+   "en": "BATTLE TOWER RECORDS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/13"
+  },
+  {
+   "id": 14,
+   "zh": "放弃",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s); other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 15,
+   "zh": "要看哪项记录？{VAR:0200:0}",
+   "en": "Which record would you like{NEWLINE}to see? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/15"
+  },
+  {
+   "id": 16,
+   "zh": "打倒的精灵",
+   "en": "Pokémon{NEWLINE}DEFEATED",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/16; modernised from US 0522#16"
+  },
+  {
+   "id": 17,
+   "zh": "捕捉的精灵",
+   "en": "Pokémon{NEWLINE}CAUGHT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/17; modernised from US 0522#17"
+  },
+  {
+   "id": 18,
+   "zh": "精灵的蛋",
+   "en": "Pokémon{NEWLINE}EGGS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/18; modernised from US 0522#18"
+  },
+  {
+   "id": 19,
+   "zh": "钓到的精灵",
+   "en": "ENCOUNTERED{NEWLINE}WHILE FISHING",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/19"
+  },
+  {
+   "id": 20,
+   "zh": "单人战",
+   "en": "SINGLE{NEWLINE}BATTLES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "双人战",
+   "en": "DOUBLE{NEWLINE}BATTLES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "多人战",
+   "en": "MULTI{NEWLINE}BATTLES",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/22"
+  },
+  {
+   "id": 23,
+   "zh": "通信多人战",
+   "en": "LINK MULTI{NEWLINE}BATTLES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0522/22 | seed rejected us [ambiguous US match] (candidate US 0522#22; text not kept)"
+  },
+  {
+   "id": 24,
+   "zh": "ＷｉーＦｉ战",
+   "en": "WI-FI BATTLE{NEWLINE}ROOM",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/24"
+  },
+  {
+   "id": 25,
+   "zh": "平均胜利数",
+   "en": "AVG WIN{NEWLINE}STREAK",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/25"
+  },
+  {
+   "id": 26,
+   "zh": "返回",
+   "en": "RETURN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0522/26"
+  },
+  {
+   "id": 27,
+   "zh": "好嘞,去吧！",
+   "en": "All right, off you go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "这里是联盟机关办公大厅,{NEWLINE}闲杂人等禁止入内。",
+   "en": "This is the League administration hall.{NEWLINE}Authorized personnel only.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "这里是达马兰奇主席的办公室,{NEWLINE}闲杂人等禁止入内。",
+   "en": "This is President Goodshow’s office.{NEWLINE}Authorized personnel only.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "这里是达马兰奇主席的办公室,{NEWLINE}冠军大人请进。",
+   "en": "This is President Goodshow’s office.{NEWLINE}Please go in, Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "欢迎冠军大人来到精灵联盟总部。",
+   "en": "Welcome to Pokémon League HQ,{NEWLINE}Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "这里是联盟机关办公大厅,{NEWLINE}冠军大人请进。",
+   "en": "This is the League administration hall.{NEWLINE}Please go in, Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "这个入口通往四天王的房间。{NEWLINE}你现在要去的不是这里吧！",
+   "en": "This entrance leads to the Elite Four’s{NEWLINE}rooms.{SCROLL}That’s not where you need to go right{NEWLINE}now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "{VAR:0103:0}『小豪,乔伊！",
+   "en": "{VAR:0103:0}: Goh! Joy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Rocket-occupation branch (endgame): #28–67 (Goh and Rocket Joy in the lobby, Goh's intel on the Elite Four rooms, the Rocket healer)."
+  },
+  {
+   "id": 35,
+   "zh": "小豪『哟,这不那个卑鄙的冠军吗？{NEWLINE}真没想到你居然能{CLEAR}穿过层层阻碍来到这里。",
+   "en": "Goh: Yo, if it isn’t that dirty, cheating{NEWLINE}Champion.{SCROLL}Never thought you’d actually make it{NEWLINE}past all those obstacles.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "乔伊『现在回头还不晚哦{VAR:0103:0},{NEWLINE}火箭队现在已经势不可挡,{CLEAR}很快就能统治整个地区。{CLEAR}只要加入我们,{CLEAR}将来这片土地上的所有人和精灵{CLEAR}都可以随你驱使,{CLEAR}请不要再犹豫了！",
+   "en": "Joy: {VAR:0103:0}, it’s not too late to turn{NEWLINE}back.{SCROLL}Team Rocket is unstoppable now, and{NEWLINE}soon we’ll rule the whole region.{SCROLL}Just join us, and one day every person{NEWLINE}and Pokémon in this land will obey you.{SCROLL}Please, don’t hesitate any longer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "{VAR:0103:0}『让我像你们一样{NEWLINE}高高在上欺压别人？{CLEAR}抱歉我做不到！{CLEAR}坂木和达马兰奇主席{CLEAR}还有精灵联盟的官员们{CLEAR}都在前面的四天王房间吧？{CLEAR}我现在就去打败坂木救出他们,{CLEAR}彻底粉碎你们的阴谋！",
+   "en": "{VAR:0103:0}: Lord it over others and crush{NEWLINE}them like you do?{SCROLL}Sorry, I can’t do that!{SCROLL}Giovanni, President Goodshow and the{NEWLINE}League officials are all in the Elite{CLEAR}Four’s rooms ahead, right?{SCROLL}I’m going to beat Giovanni right now,{NEWLINE}rescue them, and crush your scheme{CLEAR}once and for all!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "小豪『乔伊小姐,早就跟你说了{NEWLINE}这个王八蛋不识好歹。{CLEAR}不要在他身上浪费时间了,{CLEAR}跟我一起干掉他！",
+   "en": "Goh: Miss Joy, I told you ages ago.{SCROLL}This bastard doesn’t know what’s good{NEWLINE}for him.{SCROLL}Stop wasting time on him and help me{NEWLINE}take him out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "小豪『乔伊小姐,早就跟你说了{NEWLINE}这个王八蛋不识好歹。{CLEAR}不要在她身上浪费时间了,{CLEAR}跟我一起干掉她！",
+   "en": "Goh: Miss Joy, I told you ages ago.{SCROLL}This bastard doesn’t know what’s good{NEWLINE}for her.{SCROLL}Stop wasting time on her and help me{NEWLINE}take her out!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "乔伊『唉,该说的话我都说了。{NEWLINE}如果你还是不肯回心转意,{CLEAR}那我也不必再心软,请乖乖去死吧！",
+   "en": "Joy: Sigh... I’ve said everything I had{NEWLINE}to say.{SCROLL}If you still won’t change your mind, I{NEWLINE}don’t need to go easy on you anymore.{SCROLL}So please, be a dear and die!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "小豪『不可能……{NEWLINE}我拥有6只传说中的精灵,{CLEAR}怎么会输给你！？{CLEAR}不可能,一定是哪里搞错了,不可能……",
+   "en": "Goh: No way... I’ve got six Legendary{NEWLINE}Pokémon!{SCROLL}How could I lose to you?! No way, there{NEWLINE}must be some mistake. No way...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "{VAR:0103:0}『别犯傻了小豪,{NEWLINE}你刚刚使用的传说中精灵,{CLEAR}跟我在冠军之路看到的一样,{CLEAR}都只是用传说中精灵的能量{CLEAR}制造的幻影罢了。",
+   "en": "{VAR:0103:0}: Don’t be stupid, Goh.{SCROLL}The Legendary Pokémon you just used{NEWLINE}are the same as the ones I saw on{CLEAR}Victory Road.{SCROLL}They’re just phantoms made from{NEWLINE}Legendary Pokémon’s energy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "小豪『什么！？{NEWLINE}你说坂木老大送给我的精灵,{CLEAR}都是虚假的幻影？",
+   "en": "Goh: What?!{SCROLL}You’re saying the Pokémon Boss Giovanni{NEWLINE}gave me are all fake phantoms?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "小豪『喂,乔伊,这家伙说的是真的吗？{NEWLINE}你们火箭队说好要帮我集齐图鉴,{CLEAR}结果拿幻影耍我是吗？",
+   "en": "Goh: Hey, Joy, is what this guy said{NEWLINE}true?{SCROLL}Team Rocket promised to help me{NEWLINE}complete my Pokédex, and you’ve been{CLEAR}jerking me around with phantoms?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "乔伊『像你这种反复无常的小人,{NEWLINE}如果不是因为有个抓精灵的特长,{CLEAR}坂木老大看都不会看你一眼。{CLEAR}你竟然还妄想得到{CLEAR}火箭队好不容易抓来的传说精灵,{CLEAR}你也配？",
+   "en": "Joy: A fickle little weasel like you...{SCROLL}If you didn’t have a knack for catching{NEWLINE}Pokémon, Boss Giovanni wouldn’t even{CLEAR}glance at you.{SCROLL}And you actually dreamed of getting the{NEWLINE}Legendary Pokémon Team Rocket worked{CLEAR}so hard to catch?{SCROLL}You? As if you deserve them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "小豪『敢耍我？我弄死你！",
+   "en": "Goh: You played me? I’ll kill you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "{VAR:0103:0}『住手小豪！",
+   "en": "{VAR:0103:0}: Stop, Goh!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "{VAR:0103:0}『就算你现在{NEWLINE}跟火箭队撇清关系,{CLEAR}也掩盖不了你曾经帮助火箭队的事实。{CLEAR}如果你想将功抵过,就老实告诉我{CLEAR}火箭队在前面四天王的房间里{CLEAR}有没有布置什么陷阱,{CLEAR}如果我进去救人质,{CLEAR}有没有需要注意的地方。",
+   "en": "{VAR:0103:0}: Cutting ties with Team Rocket{NEWLINE}now won’t erase the fact that you{CLEAR}helped them.{SCROLL}If you want to make up for it, tell me{NEWLINE}straight.{SCROLL}Has Team Rocket set any traps in the{NEWLINE}Elite Four’s rooms ahead?{SCROLL}Anything I should watch out for when I{NEWLINE}go in to save the hostages?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "小豪『好,既然火箭队对我不仁,{NEWLINE}就别怪我不义了。",
+   "en": "Goh: Fine.{SCROLL}If Team Rocket’s going to screw me{NEWLINE}over, they can’t blame me for turning{CLEAR}on them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "乔伊『哼,叛徒,老大果然没有看错。{NEWLINE}跟你搭档真是我的耻辱！",
+   "en": "Joy: Hmph, traitor. The boss was right{NEWLINE}about you all along.{SCROLL}Being partnered with you was a{NEWLINE}disgrace!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "小豪『闭嘴吧你,我现在在帮精灵联盟{NEWLINE}消灭你们火箭队,{CLEAR}我是伸张正义呢！",
+   "en": "Goh: Shut up. I’m helping the{NEWLINE}Pokémon League wipe out Team{CLEAR}Rocket now.{SCROLL}I’m on the side of justice!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "{VAR:0103:0}『少说废话,{NEWLINE}赶紧把你知道的情报告诉我。",
+   "en": "{VAR:0103:0}: Enough talk. Hurry up and tell{NEWLINE}me what you know.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "小豪『虽然我也很讨厌你这个冠军,{NEWLINE}但我现在更想报复火箭队。{CLEAR}下面我说的是我亲眼所见的情报,{CLEAR}你可给我听好了。",
+   "en": "Goh: I hate you too, Champion, but{NEWLINE}right now I want payback on Team{CLEAR}Rocket more.{SCROLL}What I’m about to tell you is what I saw{NEWLINE}with my own eyes, so listen up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "小豪『火箭队启动了{NEWLINE}石英大会用的那种机关,{CLEAR}只要有一个人进入了四天王的房间,{CLEAR}入口通道就会立刻关闭,{CLEAR}以此保证每次房间里只有一个敌人。{CLEAR}这样无论来多少训练家,{CLEAR}房间里的干部们都可以逐一击破。",
+   "en": "Goh: Team Rocket switched on the{NEWLINE}system the Indigo Conference uses.{SCROLL}As soon as one person enters the Elite{NEWLINE}Four’s rooms, the entrance shuts.{SCROLL}So there’s only ever one enemy inside{NEWLINE}at a time.{SCROLL}That way, however many Trainers come,{NEWLINE}the Executives inside can pick them off{CLEAR}one by one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "{VAR:0103:0}『看来进入房间之后{NEWLINE}就要单打独斗了……{CLEAR}还有其他要注意的地方吗？",
+   "en": "{VAR:0103:0}: So once I’m inside, I’m on my{NEWLINE}own...{SCROLL}Anything else I should watch out for?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "小豪『从第一个四天王房间开始,{NEWLINE}每个房间里都有两名干部看押人质。{CLEAR}四天王房间和冠军房间{CLEAR}合计有10名干部。{CLEAR}坂木则是押着达马兰奇去了冠军殿堂。",
+   "en": "Goh: From the first Elite Four room on,{NEWLINE}two Executives guard the hostages in{CLEAR}each room.{SCROLL}That’s 10 Executives across the Elite{NEWLINE}Four rooms and the Champion’s room.{SCROLL}And Giovanni took Goodshow to the Hall{NEWLINE}of Fame.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "{VAR:0103:0}『这11个敌人{NEWLINE}每人身上至少有一只传说中精灵,{CLEAR}是这样吧？",
+   "en": "{VAR:0103:0}: So each of these 11 enemies{NEWLINE}has at least one Legendary Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "小豪『那我就不知道了,{NEWLINE}我以为所有的传说中精灵都在我这呢。{CLEAR}结果全是假货！{CLEAR}这帮天杀的混蛋,真是该死！",
+   "en": "Goh: That I don’t know. I thought all{NEWLINE}the Legendary Pokémon were with me.{SCROLL}Turns out they were all fakes! Those{NEWLINE}goddamn bastards! They deserve to die!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "{VAR:0103:0}『不要抱怨了,{NEWLINE}还有其他注意事项吗？",
+   "en": "{VAR:0103:0}: Quit complaining. Anything else{NEWLINE}I should know?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "小豪『最后还有一点,{NEWLINE}你进去之后的这一路战斗,{CLEAR}没有任何人会给你回复,{CLEAR}所以备齐了药品再往里进,{CLEAR}省得死在半路。",
+   "en": "Goh: One last thing.{SCROLL}Once you’re in, nobody’s going to heal{NEWLINE}you the whole way through.{SCROLL}So stock up on medicine before you go,{NEWLINE}or you’ll die halfway.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "{VAR:0103:0}『没错,进入这里之后{NEWLINE}将是漫长的战斗,{CLEAR}我得好好准备一下才行。",
+   "en": "{VAR:0103:0}: Right. Once I’m in, it’s going{NEWLINE}to be a long fight.{SCROLL}I’d better get properly prepared.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "进入这里之后,便无法再返回了,{NEWLINE}途中也没有任何回复精灵的地方。{CLEAR}确定要进去吗？",
+   "en": "Once you enter, there’s no turning{NEWLINE}back, and there’s nowhere to heal your{CLEAR}Pokémon along the way.{SCROLL}Are you sure you want to go in?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "我这里是给火箭队员们回复精灵的,{NEWLINE}当然你如果肯交钱的话{CLEAR}也可以给你的精灵回复。{CLEAR}1万元回复一次,你要交钱回复吗？",
+   "en": "I heal Pokémon for Team Rocket members{NEWLINE}here.{SCROLL}Of course, if you’re willing to pay, I{NEWLINE}can heal yours too.{SCROLL}It’s $10000 a heal. Want to pay for{NEWLINE}one?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "有钱能使鬼推磨,{NEWLINE}我不管你是不是敌人,{CLEAR}只要你交钱我就帮你的精灵回复。",
+   "en": "Money talks. I don’t care if you’re the{NEWLINE}enemy.{SCROLL}Pay up, and I’ll heal your Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "你这个联盟冠军连1万元都拿不出来,{NEWLINE}你还给达马兰奇打什么工啊,{CLEAR}加入我们火箭队算了。",
+   "en": "You’re the League Champion and you{NEWLINE}can’t even cough up $10000?{SCROLL}Why are you still working for Goodshow?{NEWLINE}Just join Team Rocket already.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "小豪『你进去之后的这一路战斗,{NEWLINE}没有任何人会给你回复,{CLEAR}所以备齐了药品再往里进,{CLEAR}省得死在半路。",
+   "en": "Goh: Once you’re in, nobody’s going to{NEWLINE}heal you the whole way through.{SCROLL}So stock up on medicine before you go,{NEWLINE}or you’ll die halfway.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "乔伊『你很强,但我仍然坚信{NEWLINE}坂木老大比你更强。{CLEAR}你向他挑战,就是以卵击石、自取灭亡。",
+   "en": "Joy: You’re strong, but I still firmly{NEWLINE}believe Boss Giovanni is stronger.{SCROLL}Challenging him is like throwing an egg{NEWLINE}at a rock.{SCROLL}You’re only destroying yourself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+---
+import FormChanges from '../../components/FormChanges.astro';
+import CalendarEncounters from '../../components/CalendarEncounters.astro';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import Type from '../../components/Type.astro';
+import Mon from '../../components/Mon.astro';
+import Evolution from '../../components/Evolution.astro';
+import { species, speciesById, moveById, itemByName, itemUrl, areaBySlug, areaUrl, url, STAT_NAMES, type Species, type Move } from '../../lib/data';
+
+export function getStaticPaths() {
+	return species.map((s) => ({ params: { slug: s.slug }, props: { s } }));
+}
+const { s } = Astro.props as { s: Species };
+const total = s.stats.reduce((a, b) => a + b, 0);
+const ev = s.ev.map((v, i) => (v ? `${v} ${STAT_NAMES[i]}` : '')).filter(Boolean).join(', ') || '—';
+const idx = species.findIndex((x) => x.id === s.id);
+const prev = species[idx - 1], next = species[idx + 1];
+const mv = (id: number) => moveById.get(id);
+const moveRow = (m: Move | undefined) => (m ? [m.type, m.cat, m.power, m.acc, m.pp] : ['?', '?', '?', '?', '?']);
+const headings = [
+	{ depth: 2, slug: 'where', text: 'Where to find it' },
+	...(s.formChanges.length ? [{ depth: 2, slug: 'forms', text: 'Held-item forms' }] : []),
+	...(s.calendar.length ? [{ depth: 2, slug: 'calendar', text: 'Calendar encounters' }] : []),
+	{ depth: 2, slug: 'evolution', text: 'Evolution' },
+	{ depth: 2, slug: 'moves', text: 'Level-up moves' },
+	{ depth: 2, slug: 'tm', text: 'TMs and HMs' },
+	...(s.tutors.length ? [{ depth: 2, slug: 'tutors', text: 'Move tutors' }] : []),
+	...(s.egg.length ? [{ depth: 2, slug: 'egg', text: 'Egg moves' }] : []),
+];
+---
+<StarlightPage
+	frontmatter={{ title: `#${String(s.id).padStart(4, '0')} ${s.name}`, description: `${s.name} in Origin HeartGold: types, abilities, base stats, moves and where to catch it.` }}
+	headings={headings}
+>
+	<div class="mon-head">
+		<div class="types">{s.types.map((t) => <Type type={t} />)}{s.game && <span class="small muted"> In-game spelling: {s.game}</span>}</div>
+		<dl class="facts">
+			<dt>Abilities</dt><dd>{s.abilities.join(' / ') || '—'}</dd>
+			<dt>Hidden ability</dt><dd>{s.hidden ?? '—'}</dd>
+			<dt>Catch rate</dt><dd>{s.catch}</dd>
+			<dt>Gender</dt><dd>{s.gender}</dd>
+			<dt>Egg groups</dt><dd>{s.eggGroups.join(' / ')}</dd>
+			<dt>Growth</dt><dd>{s.growth}</dd>
+			<dt>EV yield</dt><dd>{ev}</dd>
+			{s.held.length > 0 && <><dt>Wild held item</dt><dd>{s.held.join(', ')}</dd></>}
+		</dl>
+	</div>
+	<table class="stats compact">
+		<tbody>
+			{s.stats.map((v, i) => (
+				<tr><th>{STAT_NAMES[i]}</th><td>{v}</td><td class="bar-cell"><span class="bar" style={`width:${Math.min(100, v / 2)}%`}></span></td></tr>
+			))}
+			<tr><th>Total</th><td>{total}</td><td></td></tr>
+		</tbody>
+	</table>
+
+	<h2 id="where">Where to find it</h2>
+	{s.foundIn.length > 0 && (
+		<ul>{s.foundIn.map((f) => (<li><a href={areaUrl(f.area)}>{areaBySlug.get(f.area)?.name ?? f.area}</a>: {f.methods.join(', ')}</li>))}</ul>
+	)}
+	{s.how ? <p>How to get it: {s.how}</p> : s.formChanges.some((f) => f.result === s.id) ? <p>Available through a held-item transformation; see below.</p> : s.calendar.length ? <p>A date-specific entry is documented below. Check its status before treating it as a catch location.</p> : <p><strong>No source found in the reviewed game data.</strong> The search is incomplete, including Safari Zone area conditions, roaming Pokémon and some special encounter systems.</p>}
+	{s.formChanges.length > 0 && <>
+		<h2 id="forms">Held-item forms</h2>
+		<FormChanges entries={s.formChanges} />
+	</>}
+	{s.calendar.length > 0 && <>
+		<h2 id="calendar">Calendar encounters</h2>
+		<p>Verified in the date-specific encounter table; captures have not been replayed. These are separate from ordinary encounters. <a href={url('/calendar/')}>Calendar rules and caveats</a>.</p>
+		<CalendarEncounters entries={s.calendar} />
+	</>}
+	{(s.quests ?? []).length > 0 && <p>See the quest guide: {(s.quests ?? []).map((q, i) => <>{i > 0 && '; '}<a href={url(q.href)}>{q.title}</a></>)}.</p>}
+
+	<h2 id="evolution">Evolution</h2>
+	{s.evoFrom.length === 0 && s.evoTo.length === 0 && <p>Does not evolve.</p>}
+	{s.evoFrom.length > 0 && <Evolution label="Evolves from" entries={s.evoFrom} />}
+	{s.evoTo.length > 0 && <Evolution label="Evolves into" entries={s.evoTo} />}
+	{s.evoNotes.map((n) => <p>{n}</p>)}
+
+	<h2 id="moves">Level-up moves</h2>
+	<table class="compact">
+		<thead><tr><th>Lv</th><th>Move</th><th>Type</th><th>Cat.</th><th>Power</th><th>Acc.</th><th>PP</th></tr></thead>
+		<tbody>
+			{s.levelup.map(([lv, id]) => { const m = mv(id); return (
+				<tr><td>{lv === 0 ? 'Evo' : lv}</td><td><a href={url(`/moves/#move-${id}`)}>{m?.name}</a></td>{moveRow(m).map((c, i) => <td>{i === 0 ? <Type type={c} /> : c}</td>)}</tr>
+			); })}
+		</tbody>
+	</table>
+
+	<h2 id="tm">TMs and HMs</h2>
+	{s.tms === 'all' ? <p>Can learn every TM and HM.</p> : s.tms.length === 0 ? <p>None.{s.tmNote ? ` ${s.tmNote}` : ''}</p> : (
+		<table class="compact">
+			<thead><tr><th>TM</th><th>Move</th><th>Type</th><th>Cat.</th><th>Power</th><th>Acc.</th><th>PP</th></tr></thead>
+			<tbody>
+				{s.tms.map(([lab, id]) => { const m = mv(id); return (
+					<tr><td>{itemByName.has(`${lab} ${m?.name}`) ? <a href={itemUrl(itemByName.get(`${lab} ${m?.name}`))}>{lab}</a> : lab}</td><td><a href={url(`/moves/#move-${id}`)}>{m?.name}</a></td>{moveRow(m).map((c, i) => <td>{i === 0 ? <Type type={c} /> : c}</td>)}</tr>
+				); })}
+			</tbody>
+		</table>
+	)}
+
+	{s.tutors.length > 0 && <>
+		<h2 id="tutors">Move tutors</h2>
+		<p>{s.tutors.map((id, i) => <>{i > 0 && ', '}<a href={url(`/tutors/#tutor-${id}`)}>{mv(id)?.name}</a></>)}</p>
+	</>}
+	{s.egg.length > 0 && <>
+		<h2 id="egg">Egg moves</h2>
+		<p>{s.egg.map((id, i) => <>{i > 0 && ', '}<a href={url(`/moves/#move-${id}`)}>{mv(id)?.name}</a></>)}</p>
+	</>}
+
+	<nav class="prevnext">
+		{prev ? <a href={url(`/pokemon/${prev.slug}/`)}>← #{prev.id} {prev.name}</a> : <span></span>}
+		<a href={url('/pokemon/')}>All Pokémon</a>
+		{next ? <a href={url(`/pokemon/${next.slug}/`)}>#{next.id} {next.name} →</a> : <span></span>}
+	</nav>
+</StarlightPage>

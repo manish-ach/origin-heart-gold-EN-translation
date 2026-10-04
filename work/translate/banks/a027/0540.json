@@ -1,0 +1,520 @@
+{
+ "narc": "a027",
+ "bank": 540,
+ "source": "work/extract/v4/a027/0540.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "尊敬的客人,欢迎乘坐圣安努号游轮！{SCROLL}",
+   "en": "Welcome aboard the S.S. Anne, honored{NEWLINE}guest!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#0–#9: S.S. Anne ferry desk (Vermilion/Olivine); #10–#62: One Island, Alto Mare Islands."
+  },
+  {
+   "id": 1,
+   "zh": "客人您有事吗？{NEWLINE}今天不出航！",
+   "en": "Can I help you? We’re not sailing today!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "您好,欢迎乘坐新圣安努号游轮。{NEWLINE}请问您想的目的地是？{SCROLL}",
+   "en": "Hello, and welcome aboard the new{NEWLINE}S.S. Anne. Where would you like to go?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "浅葱市",
+   "en": "Olivine City",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 4,
+   "zh": "枯叶市",
+   "en": "Vermilion City",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 5,
+   "zh": "我等会儿再来",
+   "en": "I’ll come back later",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 6,
+   "zh": "真是抱歉,{NEWLINE}现在开往城都地区的航线还未恢复,{CLEAR}所以暂时去不了浅葱市。",
+   "en": "I’m very sorry.{SCROLL}Service to Johto hasn’t resumed yet,{NEWLINE}so we can’t sail to Olivine City for now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "好的,目的地枯叶市,请您登船！",
+   "en": "Very well. Destination: Vermilion City.{NEWLINE}Please come aboard!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "好的,目的地浅葱市,请您登船！",
+   "en": "Very well. Destination: Olivine City.{NEWLINE}Please come aboard!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "不过现在是群岛的涨潮期,{NEWLINE}为了保证游客们的安全,{CLEAR}暂时只开放一、二、三岛供游客观光。{CLEAR}如果您想去其他四岛的话,{CLEAR}得等一段时间再来了。",
+   "en": "However, it’s high-tide season in the{NEWLINE}islands.{SCROLL}For our passengers’ safety, only One,{NEWLINE}Two and Three Island are open to{CLEAR}visitors for now.{SCROLL}If you’d like to visit the other four{NEWLINE}islands, please come back another time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "嘿嘿,又来到水都群岛了,{NEWLINE}先去海上男儿餐厅吃顿好的再说。",
+   "en": "Heh heh, back in the Alto Mare Islands{NEWLINE}again.{SCROLL}First, a good meal at the Seafarers’{NEWLINE}Restaurant!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "海上男儿餐厅 → ‘the Seafarers’ Restaurant’ (invented)."
+  },
+  {
+   "id": 11,
+   "zh": "这里是水都群岛——一之岛。",
+   "en": "This is One Island in the Alto Mare{NEWLINE}Islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "草绳结的威力会根据{NEWLINE}对手体重不同而变化,{CLEAR}当对手体重在200kg以上时,{CLEAR}威力甚至可以达到惊人的120！",
+   "en": "Grass Knot’s power depends on the{NEWLINE}target’s weight.{SCROLL}Against a foe of 200 kg or more, it hits{NEWLINE}with a whopping 120 power!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "我的罗丝雷朵虽然力气不大,{NEWLINE}但却非常擅长在对战中借力打力,{CLEAR}你也想学习这方面的技巧吗？{SCROLL}",
+   "en": "My Roserade isn’t very strong, but in{NEWLINE}battle it’s great at turning a foe’s own{CLEAR}weight against it.{SCROLL}Want to learn that kind of technique?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "不想学吗……{NEWLINE}明明是很聪明的战斗方式。",
+   "en": "You don’t want to learn it...? It’s such{NEWLINE}a clever way to fight.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "哦？你要用种子换我的技巧啊？{SCROLL}没问题,你的种子我收下了,{NEWLINE}然后……这个给你。",
+   "en": "Oh? You want to trade a seed for my{NEWLINE}technique?{SCROLL}No problem. I’ll take your seed, and{NEWLINE}then... this is for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "这里面记录着罗丝雷朵{NEWLINE}借力打力的战斗技巧,{CLEAR}你要好好利用哦。",
+   "en": "This holds Roserade’s technique for{NEWLINE}turning a foe’s weight against it.{SCROLL}Make good use of it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "我听说有个能提高{NEWLINE}草系招式威力的神奇种子,{CLEAR}如果你想学罗丝雷朵的战斗技巧,{CLEAR}就拿一颗这样的种子来跟我换吧。",
+   "en": "I’ve heard of an amazing seed that{NEWLINE}powers up Grass-type moves.{SCROLL}If you want Roserade’s technique,{NEWLINE}trade me one of those seeds.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "要用奇迹种跟对方交换吗？{SCROLL}",
+   "en": "Trade a Miracle Seed?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "传说中拉帝欧斯和拉帝亚斯{NEWLINE}是一之岛的守护神,{CLEAR}可是人们却只在绘本上见过它们。{SCROLL}如果我能跟这两只精灵中的{NEWLINE}其中一只合个影的话,{CLEAR}就算是不虚此行了。",
+   "en": "Legend says Latios and Latias are One{NEWLINE}Island’s guardian deities.{SCROLL}But people have only ever seen them in{NEWLINE}picture books.{SCROLL}If I could get a photo with either one{NEWLINE}of them, this trip would be worth it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "欢迎来到水都群岛。",
+   "en": "Welcome to the Alto Mare Islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "从这里望去海阔风平、远影孤舟,{NEWLINE}确实是配得上「水都」之名的美景。",
+   "en": "From here you can see the wide, calm{NEWLINE}sea and a lone boat far away.{SCROLL}Truly a view worthy of Alto Mare’s name.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "你是第一次来水都群岛吗？",
+   "en": "Is this your first time in the Alto Mare{NEWLINE}Islands?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "请您尽情享受{NEWLINE}在水都群岛的美好时光。",
+   "en": "Please enjoy your time in the Alto Mare{NEWLINE}Islands.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "水都群岛共有7座主岛{NEWLINE}和2个大型岛礁组成,{CLEAR}目前一之岛、二之岛、三之岛{CLEAR}商业化开发程度较高,{CLEAR}绝对是您旅行购物的首选。{SCROLL}如果您想感受水都群岛的自然气息,{NEWLINE}四、五、六、七岛将会带给您{CLEAR}完全不同的感受。",
+   "en": "The Alto Mare Islands consist of 7 main{NEWLINE}islands and 2 large reefs.{SCROLL}One, Two and Three Island are the most{NEWLINE}developed.{SCROLL}They’re the top choice for shopping on{NEWLINE}your trip.{SCROLL}If you want to experience the islands’{NEWLINE}natural side, Four, Five, Six and Seven{CLEAR}Island will feel completely different.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "哇！你身旁的那只精灵{NEWLINE}不就是拉帝亚斯吗！？",
+   "en": "Wow! Isn’t that Pokémon next to you{NEWLINE}Latias?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "哇！你身旁的那只精灵{NEWLINE}不就是拉帝欧斯吗！？",
+   "en": "Wow! Isn’t that Pokémon next to you{NEWLINE}Latios?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "可以让我跟它合张影吗？拜托了。{SCROLL}",
+   "en": "Could I take a picture with it? Please!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "不行吗？那真是太遗憾了……",
+   "en": "No? That’s too bad...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "太棒了！请你帮我们好好拍几张照片。",
+   "en": "Yay! Please take some nice photos of{NEWLINE}us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0103:0}『准备好,我要开始拍咯！",
+   "en": "{VAR:0103:0}: Ready? Here I go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "我看一下拍的怎么样……",
+   "en": "Let me see how they turned out...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "嗯！拍的非常好呢！{SCROLL}谢谢你能让我跟传说中的精灵合影,{NEWLINE}这是在海边专用的防晒镜,送给你吧！",
+   "en": "Wow! They came out great!{SCROLL}Thanks for letting me take a photo with{NEWLINE}a legendary Pokémon.{SCROLL}Here, have these beach sunglasses!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "防晒镜 (‘beach sunglasses’): which item the script gives isn't visible (Black Glasses? Wise Glasses?)."
+  },
+  {
+   "id": 33,
+   "zh": "你居然能收服传说中的精灵,{NEWLINE}真是太厉害了。",
+   "en": "You actually caught a legendary{NEWLINE}Pokémon? That’s amazing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "{VAR:0103:0}『好,再换个姿势！",
+   "en": "{VAR:0103:0}: OK, now another pose!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "{VAR:0103:0}『好了,可以了。",
+   "en": "{VAR:0103:0}: OK, that’s a wrap.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "在我们群岛餐厅{NEWLINE}既可以品尝到各地的美味小吃,{CLEAR}又能享受对战的乐趣,{CLEAR}请您务必进店体验一下。",
+   "en": "At our island restaurant, you can taste{NEWLINE}snacks from all over.{SCROLL}You can enjoy battles, too! Be sure to{NEWLINE}stop by!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "三之岛的叔叔阿姨们搬走的时候,{NEWLINE}把这只露力丽送给了我。{CLEAR}它真的好可爱啊！",
+   "en": "When the folks on Three Island moved{NEWLINE}away, they gave me this Azurill.{SCROLL}It’s sooo cute!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "露力丽『Azu——riii！",
+   "en": "Azurill: Azu-riii!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "罗丝雷朵『Rooo——se！",
+   "en": "Roserade: Rooo-se!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "雨翅蛾的原栖息地是芳缘地区,{NEWLINE}在关东和城都是抓不到的。{SCROLL}但是因为水都群岛{NEWLINE}特殊的地理位置和气候,{CLEAR}很多芳缘和神奥地区的精灵{CLEAR}都会在这里出现哦。",
+   "en": "Masquerain are native to Hoenn. You{NEWLINE}can’t catch them in Kanto or Johto.{SCROLL}But thanks to the Alto Mare Islands’{NEWLINE}special location and climate, lots of{CLEAR}Hoenn and Sinnoh Pokémon show up here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "根据我对传说的研究,{NEWLINE}拉帝欧斯和拉帝亚斯能赶走邪恶强盗,{CLEAR}不仅仅是因为他们自身的强大。{CLEAR}还因为他们拥有着{CLEAR}一个特殊的力量增幅道具「心之水滴」。{SCROLL}如果水都群岛的传说{NEWLINE}是真实发生过的事情,{CLEAR}那么心之水滴一定藏在群岛某处！",
+   "en": "From my research into the legends,{NEWLINE}Latios and Latias didn’t drive off evil{CLEAR}thieves just because they’re strong.{SCROLL}They also had a special item that boosts{NEWLINE}their power: the Soul Dew.{SCROLL}If the Alto Mare legend really{NEWLINE}happened, then the Soul Dew must be{CLEAR}hidden somewhere in the islands!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "你相信传说中守护水都群岛的{NEWLINE}拉帝欧斯和拉帝亚斯是真实存在的吗？",
+   "en": "Do you believe Latios and Latias, the{NEWLINE}legendary guardians of the Alto Mare{CLEAR}Islands, really exist?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "不管你怎么想,{NEWLINE}我觉得那些传说中的精灵{CLEAR}都是真实存在的。",
+   "en": "Whatever you think, I believe all those{NEWLINE}legendary Pokémon are real.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "对吧对吧！{NEWLINE}就比如说我小时候有一次{CLEAR}失足掉进了湍急的河道里,{CLEAR}正当我在水中挣扎的时候,{CLEAR}我就感觉自己被什么给抱上了岸。{CLEAR}可是当我起身环顾四周时,{CLEAR}却什么也没有发现。{SCROLL}但我知道那一定是{NEWLINE}拉帝欧斯和拉帝亚斯在暗中保护了我！",
+   "en": "Right, right?! Like when I was little, I{NEWLINE}slipped and fell into a raging stream.{SCROLL}As I struggled in the water, I felt{NEWLINE}something lift me onto the bank.{SCROLL}But when I got up and looked around,{NEWLINE}there was nothing there.{SCROLL}But I know it must have been Latios and{NEWLINE}Latias, secretly protecting me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "雨翅蛾『Masss——que！",
+   "en": "Masquerain: Masss-que!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "水都图书馆",
+   "en": "Alto Mare Library",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) Old TM said ‘Route 204’; zh is 水都图书馆 (as 0272 #19)."
+  },
+  {
+   "id": 47,
+   "zh": "水都群岛旅行社,{NEWLINE}带您游遍美丽的水乡！",
+   "en": "Alto Mare Islands Travel Agency{NEWLINE}Tours of our beautiful water town!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "前方似乎已经没有路了。",
+   "en": "There doesn’t seem to be a path ahead.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:FF01:200}{VAR:0103:0}先生！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Mr. {VAR:0103:0}!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "SIZE-200% shout, male (#49) / female (#50) player.",
+   "qa_ignore": [
+    "whitespace"
+   ]
+  },
+  {
+   "id": 50,
+   "zh": "{VAR:FF01:200}{VAR:0103:0}小姐！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Miss {VAR:0103:0}!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "whitespace"
+   ]
+  },
+  {
+   "id": 51,
+   "zh": "您好,我是精灵联盟的纪检委员,{NEWLINE}我们刚刚收到群众提供的证据,{CLEAR}证明您与三之岛的黑恶势力勾结,{CLEAR}收受他们的金钱充当他们的保护伞。{SCROLL}对此达马兰奇主席非常重视,{NEWLINE}他老人家希望您能洁身自好,{CLEAR}保持身为联盟冠军的尊严,{CLEAR}千万不要走罪犯坂木的老路。{SCROLL}为了给公众一个交代,{NEWLINE}我们将按照您的财力{CLEAR}最高扣除您收受金额的双倍作为惩戒,{CLEAR}请您积极配合。",
+   "en": "Hello. I’m a discipline inspector from{NEWLINE}the Pokémon League.{SCROLL}We have just received evidence from the{NEWLINE}public that you have been colluding with{CLEAR}organized crime on Three Island, taking{CLEAR}their money and acting as their{CLEAR}protective umbrella.{SCROLL}President Goodshow takes this very{NEWLINE}seriously.{SCROLL}He hopes you will keep your hands clean,{NEWLINE}uphold the dignity of the League{CLEAR}Champion and never follow in the{CLEAR}footsteps of the criminal Giovanni.{SCROLL}To give the public an answer, we will{NEWLINE}deduct up to double the amount you{CLEAR}received as a penalty, as far as your{CLEAR}finances allow.{SCROLL}We ask for your full cooperation.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Anti-corruption satire (纪检委员 discipline inspector, 黑恶势力 organized crime, 保护伞 ‘protective umbrella’, 不负初心 slogan in #53) kept faithful. Triggered by taking the Three Island gang's money (cf. D-0303 area banks)."
+  },
+  {
+   "id": 52,
+   "zh": "{VAR:0103:0}交纳了罚金！",
+   "en": "{VAR:0103:0} paid the fine!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "希望您能以此为戒,{NEWLINE}不负人生最初的那一颗真心。",
+   "en": "May this be a lesson to you. Stay true{NEWLINE}to the pure heart you started out with.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "喵喵『唉,喵……",
+   "en": "Meowth: Sigh, meow...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "乘龙『Laaaa——pras！",
+   "en": "Lapras: Laaaa-pras!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "游客你好,现在是水都群岛的涨潮期,{NEWLINE}为了您的安全公共海域暂不开放。",
+   "en": "Hello, visitor. It’s high-tide season in{NEWLINE}the Alto Mare Islands.{SCROLL}The public waters are closed for your{NEWLINE}safety.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "前面的树好像只是一个幻影！",
+   "en": "The tree ahead seems to be just an{NEWLINE}illusion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "卡侬『……{SCROLL}少女睁着大眼睛看了看你。",
+   "en": "Bianca: ...{SCROLL}The girl gazes at you with wide eyes.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "卡侬 = Bianca (Pokémon Heroes); the girl in #58–#62 is presumably Latias in disguise."
+  },
+  {
+   "id": 59,
+   "zh": "少女冲你眨了眨眼,{NEWLINE}似乎是想约你一起玩。",
+   "en": "The girl winks at you. She seems to want{NEWLINE}you to come play.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "少女在向你招手,似乎想要你过去。",
+   "en": "The girl is beckoning to you. She seems{NEWLINE}to want you to come over.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "少女钻入树丛不见了！",
+   "en": "The girl slipped into the bushes and{NEWLINE}vanished!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "少女正在拨弄着喷泉中的清水。",
+   "en": "The girl is playing with the clear water{NEWLINE}in the fountain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

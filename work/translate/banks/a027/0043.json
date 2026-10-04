@@ -1,0 +1,495 @@
+{
+ "narc": "a027",
+ "bank": 43,
+ "source": "work/extract/v4/a027/0043.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "改变设定",
+   "en": "OPTIONS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0045/0"
+  },
+  {
+   "id": 1,
+   "zh": "音乐速度",
+   "en": "MUSIC SPEED",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack replaced TEXT SPEED with 音乐速度 (music speed), values 正常/1/2/1/4 (#9-11). Check in game what it does."
+  },
+  {
+   "id": 2,
+   "zh": "战斗动画",
+   "en": "BATTLE SCENE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0045/2"
+  },
+  {
+   "id": 3,
+   "zh": "战斗规则",
+   "en": "BATTLE STYLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0045/3"
+  },
+  {
+   "id": 4,
+   "zh": "封面类型",
+   "en": "TITLE SCREEN",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack option 封面类型 (cover type): new/old title screen (#16/#17). Guess: title screen style."
+  },
+  {
+   "id": 5,
+   "zh": "战斗背景",
+   "en": "BATTLE BG",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Hack option 战斗背景 (battle background): Gen 4 / new / Gen 5 (#18-20)."
+  },
+  {
+   "id": 6,
+   "zh": "窗口",
+   "en": "FRAME",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0045/6"
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0205}决定",
+   "en": "{VAR:0205}CONFIRM",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0045/7"
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:0205}取消",
+   "en": "{VAR:0205}QUIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0045/8"
+  },
+  {
+   "id": 9,
+   "zh": "正常",
+   "en": "NORMAL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "1/2",
+   "en": "1/2",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "1/4",
+   "en": "1/4",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "开启",
+   "en": "ON",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0045/12"
+  },
+  {
+   "id": 13,
+   "zh": "关闭",
+   "en": "OFF",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0045/13"
+  },
+  {
+   "id": 14,
+   "zh": "交替战斗",
+   "en": "SHIFT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0045/14"
+  },
+  {
+   "id": 15,
+   "zh": "连续战斗",
+   "en": "SET",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0045/15"
+  },
+  {
+   "id": 16,
+   "zh": "新版封面",
+   "en": "NEW",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "旧版封面",
+   "en": "OLD",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "4代",
+   "en": "GEN 4",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "新版",
+   "en": "NEW",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "5代",
+   "en": "GEN 5",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "类型1",
+   "en": "TYPE 1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/21"
+  },
+  {
+   "id": 22,
+   "zh": "类型２",
+   "en": "TYPE 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/22"
+  },
+  {
+   "id": 23,
+   "zh": "类型３",
+   "en": "TYPE 3",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/23"
+  },
+  {
+   "id": 24,
+   "zh": "类型４",
+   "en": "TYPE 4",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/24"
+  },
+  {
+   "id": 25,
+   "zh": "类型５",
+   "en": "TYPE 5",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/25"
+  },
+  {
+   "id": 26,
+   "zh": "类型６",
+   "en": "TYPE 6",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/26"
+  },
+  {
+   "id": 27,
+   "zh": "类型７",
+   "en": "TYPE 7",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/27"
+  },
+  {
+   "id": 28,
+   "zh": "类型８",
+   "en": "TYPE 8",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/28"
+  },
+  {
+   "id": 29,
+   "zh": "类型９",
+   "en": "TYPE 9",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/28 | seed rejected us [ambiguous US match] (candidate US 0045#28; text not kept) | v3 TM: 1 source(s)"
+  },
+  {
+   "id": 30,
+   "zh": "类型１０",
+   "en": "TYPE 10",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/30"
+  },
+  {
+   "id": 31,
+   "zh": "类型１１",
+   "en": "TYPE 11",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/31"
+  },
+  {
+   "id": 32,
+   "zh": "类型１２",
+   "en": "TYPE 12",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/32"
+  },
+  {
+   "id": 33,
+   "zh": "类型１３",
+   "en": "TYPE 13",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/33"
+  },
+  {
+   "id": 34,
+   "zh": "类型１４",
+   "en": "TYPE 14",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/34"
+  },
+  {
+   "id": 35,
+   "zh": "类型１５",
+   "en": "TYPE 15",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/35"
+  },
+  {
+   "id": 36,
+   "zh": "类型１６",
+   "en": "TYPE 16",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/36"
+  },
+  {
+   "id": 37,
+   "zh": "类型１７",
+   "en": "TYPE 17",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/37"
+  },
+  {
+   "id": 38,
+   "zh": "类型１８",
+   "en": "TYPE 18",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/38"
+  },
+  {
+   "id": 39,
+   "zh": "类型１９",
+   "en": "TYPE 19",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/38 | seed rejected us [ambiguous US match] (candidate US 0045#38; text not kept) | v3 TM: 1 source(s)"
+  },
+  {
+   "id": 40,
+   "zh": "类型２０",
+   "en": "TYPE 20",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/39"
+  },
+  {
+   "id": 41,
+   "zh": "窗口　类型１",
+   "en": "WINDOW TYPE 1",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/41"
+  },
+  {
+   "id": 42,
+   "zh": "窗口　类型２",
+   "en": "WINDOW TYPE 2",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/42"
+  },
+  {
+   "id": 43,
+   "zh": "窗口　类型３",
+   "en": "WINDOW TYPE 3",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/43"
+  },
+  {
+   "id": 44,
+   "zh": "窗口　类型４",
+   "en": "WINDOW TYPE 4",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/44"
+  },
+  {
+   "id": 45,
+   "zh": "窗口　类型５",
+   "en": "WINDOW TYPE 5",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/45"
+  },
+  {
+   "id": 46,
+   "zh": "窗口　类型６",
+   "en": "WINDOW TYPE 6",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/46"
+  },
+  {
+   "id": 47,
+   "zh": "窗口　类型７",
+   "en": "WINDOW TYPE 7",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/47"
+  },
+  {
+   "id": 48,
+   "zh": "窗口　类型８",
+   "en": "WINDOW TYPE 8",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/48"
+  },
+  {
+   "id": 49,
+   "zh": "窗口　类型９",
+   "en": "WINDOW TYPE 9",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/49"
+  },
+  {
+   "id": 50,
+   "zh": "窗口　类型１０",
+   "en": "WINDOW TYPE 10",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/50"
+  },
+  {
+   "id": 51,
+   "zh": "窗口　类型１１",
+   "en": "WINDOW TYPE 11",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/51"
+  },
+  {
+   "id": 52,
+   "zh": "窗口　类型１２",
+   "en": "WINDOW TYPE 12",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/52"
+  },
+  {
+   "id": 53,
+   "zh": "窗口　类型１３",
+   "en": "WINDOW TYPE 13",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/53"
+  },
+  {
+   "id": 54,
+   "zh": "窗口　类型１４",
+   "en": "WINDOW TYPE 14",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/54"
+  },
+  {
+   "id": 55,
+   "zh": "窗口　类型１５",
+   "en": "WINDOW TYPE 15",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/55"
+  },
+  {
+   "id": 56,
+   "zh": "窗口　类型１６",
+   "en": "WINDOW TYPE 16",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/56"
+  },
+  {
+   "id": 57,
+   "zh": "窗口　类型１７",
+   "en": "WINDOW TYPE 17",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/57"
+  },
+  {
+   "id": 58,
+   "zh": "窗口　类型１８",
+   "en": "WINDOW TYPE 18",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/58"
+  },
+  {
+   "id": 59,
+   "zh": "窗口　类型１９",
+   "en": "WINDOW TYPE 19",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/59"
+  },
+  {
+   "id": 60,
+   "zh": "窗口　类型２０",
+   "en": "WINDOW TYPE 20",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0045/59 | seed rejected us [ambiguous US match] (candidate US 0045#59; text not kept) | v3 TM: 1 source(s)"
+  }
+ ]
+}

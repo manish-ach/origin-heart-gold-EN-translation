@@ -1,0 +1,160 @@
+[
+ {
+  "narc": "a/0/6/8",
+  "also": [
+   "data/clothes1/a068.narc",
+   "data/clothes2/a068.narc"
+  ],
+  "graphic": 1,
+  "screens": [
+   0,
+   7,
+   8
+  ],
+  "loaded_bytes": 0,
+  "note": "Pokédex header: ov5 loads whole NCGR (size argument 0); same assets in costume copies.",
+  "load_sites": [
+   {
+    "file": "overlay5",
+    "offset": 4048,
+    "length": 36,
+    "expect_sha1": "9caec6129524"
+   },
+   {
+    "file": "overlay5",
+    "offset": 26198,
+    "length": 36,
+    "expect_sha1": "f6656f44a451"
+   }
+  ]
+ },
+ {
+  "narc": "a/0/6/8",
+  "also": [
+   "data/clothes1/a068.narc",
+   "data/clothes2/a068.narc"
+  ],
+  "graphic": 4,
+  "screens": [
+   5,
+   6,
+   9,
+   10,
+   11
+  ],
+  "loaded_bytes": 0,
+  "note": "Pokédex buttons: all nine audited ov5 member-4 load sites request the whole NCGR.",
+  "load_sites": [
+   {
+    "file": "overlay5",
+    "offset": 4118,
+    "length": 36,
+    "expect_sha1": "07acf5720bd7"
+   },
+   {
+    "file": "overlay5",
+    "offset": 6050,
+    "length": 36,
+    "expect_sha1": "3226ae41eac7"
+   },
+   {
+    "file": "overlay5",
+    "offset": 9094,
+    "length": 36,
+    "expect_sha1": "4fde128d4823"
+   },
+   {
+    "file": "overlay5",
+    "offset": 9510,
+    "length": 36,
+    "expect_sha1": "0ca2021a2273"
+   },
+   {
+    "file": "overlay5",
+    "offset": 10038,
+    "length": 36,
+    "expect_sha1": "4e81c01d963a"
+   },
+   {
+    "file": "overlay5",
+    "offset": 10358,
+    "length": 36,
+    "expect_sha1": "f2ebd0736b7a"
+   },
+   {
+    "file": "overlay5",
+    "offset": 10710,
+    "length": 36,
+    "expect_sha1": "2d34da3ecf7e"
+   },
+   {
+    "file": "overlay5",
+    "offset": 19228,
+    "length": 36,
+    "expect_sha1": "2cb25db1180c"
+   },
+   {
+    "file": "overlay5",
+    "offset": 27026,
+    "length": 36,
+    "expect_sha1": "d7ee341993d4"
+   }
+  ]
+ },
+ {
+  "narc": "a/0/4/9",
+  "also": [
+   "data/clothes1/a049.narc",
+   "data/clothes2/a049.narc"
+  ],
+  "graphic": 41,
+  "screens": [
+   47,
+   48
+  ],
+  "loaded_bytes": 0,
+  "note": "Trainer card units: ov47 requests the whole 8bpp NCGR.",
+  "load_sites": [
+   {
+    "file": "overlay47",
+    "offset": 2498,
+    "length": 36,
+    "expect_sha1": "886727a53155"
+   }
+  ]
+ },
+ {
+  "narc": "a/2/6/4",
+  "graphic": 8,
+  "screens": [
+   3
+  ],
+  "loaded_bytes": 0,
+  "note": "Title logo/subtitle: ov56 requests the whole 8bpp NCGR.",
+  "load_sites": [
+   {
+    "file": "overlay56",
+    "offset": 23088,
+    "length": 36,
+    "expect_sha1": "a7218bfd549f"
+   }
+  ]
+ },
+ {
+  "narc": "data/linkcapture.narc",
+  "graphic": 26,
+  "screens": [
+   25
+  ],
+  "loaded_bytes": 1536,
+  "note": "Chain Logger: ov28 loads 0x600 bytes at base tile 50. File capacity is 96 tiles but only 48 are usable.",
+  "load_sites": [
+   {
+    "file": "overlay28",
+    "offset": 14224,
+    "length": 36,
+    "expect_sha1": "04ad5a2a661f"
+   }
+  ]
+ }
+]

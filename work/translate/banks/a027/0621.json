@@ -1,0 +1,164 @@
+{
+ "narc": "a027",
+ "bank": 621,
+ "source": "work/extract/v4/a027/0621.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "虽然在商店里买不到,{NEWLINE}但元气块可以使{CLEAR}濒死的精灵完全复活！{SCROLL}不过ＰＰ点{NEWLINE}不会回复,这点要注意！",
+   "en": "You can’t buy a Max Revive, but it fully{NEWLINE}restores a fainted Pokémon.{SCROLL}Beware--it won’t restore PP, the{NEWLINE}Power Points needed for moves.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0630/0"
+  },
+  {
+   "id": 1,
+   "zh": "金色喷雾器能使弱小的{NEWLINE}精灵无法接近你。{SCROLL}是数种喷雾器中,{NEWLINE}持续时间最长的！",
+   "en": "Max Repel keeps weak Pokémon away{NEWLINE}from you. It’s the longest lasting of{CLEAR}the Repel sprays.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0630/1"
+  },
+  {
+   "id": 2,
+   "zh": "您好,看您的训练师卡片,{NEWLINE}是从真新镇来的吧？{SCROLL}我这里有一份从城都地区寄来{CLEAR}给大木博士的包裹。{SCROLL}能麻烦您带给大木博士吗？{NEWLINE}谢谢了！",
+   "en": "Hello! Your Trainer Card says{NEWLINE}you’re from Pallet Town, right?{SCROLL}I have a parcel here from Johto{NEWLINE}addressed to Professor Oak.{SCROLL}Could you take it to{NEWLINE}him for me? Thank you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Viridian Mart leftover lines (same zh as 0446 #2-#5); English copied from 0446"
+  },
+  {
+   "id": 3,
+   "zh": "送包裹的事就拜托您了{NEWLINE}非常感谢！",
+   "en": "I’m counting on you to deliver{NEWLINE}that parcel. Thanks so much!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 4,
+   "zh": "最近我们商店经{NEWLINE}常有一只野生的皮卡丘光顾,{CLEAR}它今天又来我们店里偷东西了。{CLEAR}再这样下去,{CLEAR}店里的生意就不好做了。{SCROLL}看您是很厉害的训练家的样子,{NEWLINE}拜托您把它收服或赶走吧。{SCROLL}据我所知它总是出现在常磐市周边,{NEWLINE}只要你找找应该能找到。",
+   "en": "Lately a wild Pikachu keeps{NEWLINE}dropping by our store.{SCROLL}It came in and stole from us{NEWLINE}again today. If this keeps{CLEAR}up, we’ll go out of business.{SCROLL}You look like a strong Trainer. Could{NEWLINE}you please catch it or chase it off?{SCROLL}As far as I know, it’s always{NEWLINE}around Viridian City. If you{CLEAR}look, you should find it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 5,
+   "zh": "最近我们商店经{NEWLINE}常有一只野生的精灵光顾,{CLEAR}它今天又来我们店里偷东西了。{CLEAR}再这样下去,{CLEAR}店里的生意就不好做了。{SCROLL}看您是很厉害的训练家的样子,{NEWLINE}拜托您把它收服或赶走吧。{SCROLL}据我所知它总是出现在常磐市周边,{NEWLINE}只要你找找应该能找到。",
+   "en": "Lately a wild Pokémon keeps{NEWLINE}dropping by our store.{SCROLL}It came in and stole from us{NEWLINE}again today. If this keeps{CLEAR}up, we’ll go out of business.{SCROLL}You look like a strong Trainer. Could{NEWLINE}you please catch it or chase it off?{SCROLL}As far as I know, it’s always{NEWLINE}around Viridian City. If you{CLEAR}look, you should find it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 6,
+   "zh": "欢迎！{NEWLINE}要买东西是吧？{SCROLL}",
+   "en": "Welcome! Looking to buy something?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags page_breaks_lost; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 7,
+   "zh": "多谢惠顾。",
+   "en": "Thank you. Please come again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 8,
+   "zh": "高级伤药{NEWLINE}4000元",
+   "en": "Hyper Potion{NEWLINE}$4000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "two-line shop entry (D-0049)",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 9,
+   "zh": "万能药{NEWLINE}600元",
+   "en": "Full Heal{NEWLINE}$600",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 10,
+   "zh": "TM02：龙爪{NEWLINE}5000元",
+   "en": "Dragon Claw{NEWLINE}TM02, $5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'TM02 Dragon Claw{NEWLINE}$5000'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 11,
+   "zh": "纪念球{NEWLINE}1000元",
+   "en": "Premier Ball{NEWLINE}$1000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 12,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 13,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 14,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 15,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s)",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 16,
+   "zh": "好的,给你,{NEWLINE}谢谢惠顾。",
+   "en": "Here you go. Thank you{NEWLINE}for shopping with us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 17,
+   "zh": "对不起啊客人,{NEWLINE}您带的钱好像不够。",
+   "en": "Sorry, it looks like you{NEWLINE}don’t have enough money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 18,
+   "zh": "请问还有什么可以帮您的吗？{SCROLL}",
+   "en": "Is there anything else{NEWLINE}I can help you with?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), flags page_breaks_lost; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  }
+ ]
+}

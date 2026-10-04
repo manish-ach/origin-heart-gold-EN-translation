@@ -1,0 +1,543 @@
+{
+ "narc": "a027",
+ "bank": 767,
+ "source": "work/extract/v4/a027/0767.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "朋友手册",
+   "en": "PAL PAD",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/0"
+  },
+  {
+   "id": 1,
+   "zh": "看一下朋友列表",
+   "en": "CHECK FRIEND ROSTER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/1"
+  },
+  {
+   "id": 2,
+   "zh": "登录朋友号码",
+   "en": "REGISTER FRIEND CODE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/2"
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:0103:0}的朋友号码",
+   "en": "{VAR:0103:0}’S FRIEND CODE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/3"
+  },
+  {
+   "id": 4,
+   "zh": "关闭",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/4"
+  },
+  {
+   "id": 5,
+   "zh": "朋友列表",
+   "en": "FRIEND ROSTER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/5"
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0103:0}",
+   "en": "{VAR:0103:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "返回",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "US 0779/7 | seed rejected us [tag_mismatch] (candidate US 0779#7; text not kept) | v3 TM: 12 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 8,
+   "zh": "详细信息",
+   "en": "DETAILS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "写名字",
+   "en": "REWRITE NAME",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/9"
+  },
+  {
+   "id": 10,
+   "zh": "删除",
+   "en": "DELETE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/10"
+  },
+  {
+   "id": 11,
+   "zh": "取消",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/11"
+  },
+  {
+   "id": 12,
+   "zh": "怎么处理{VAR:0103:0}的信息？",
+   "en": "What would you like to do{NEWLINE}with {VAR:0103:0}’s data?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "和{VAR:0103:0}的记录",
+   "en": "RECORD WITH {VAR:0103:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/13"
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0205}Ａ：返回上一个画面",
+   "en": "{VAR:0205}A: Return to Previous Screen",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/14"
+  },
+  {
+   "id": 15,
+   "zh": "组",
+   "en": "GROUP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/15"
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0103:0}",
+   "en": "{VAR:0103:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0205}{VAR:0103:0}",
+   "en": "{VAR:0205}{VAR:0103:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0205}{VAR:0133:0}／{VAR:0133:1}",
+   "en": "{VAR:0205}{VAR:0133:0}/{VAR:0133:1}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "对战成绩",
+   "en": "BATTLE RECORD",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/19"
+  },
+  {
+   "id": 20,
+   "zh": "胜利",
+   "en": "WIN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/20"
+  },
+  {
+   "id": 21,
+   "zh": "失败",
+   "en": "LOSE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/21"
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0206}{VAR:0135:0}",
+   "en": "{VAR:0206}{VAR:0135:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "交换精灵",
+   "en": "Pokémon TRADES",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0206}{VAR:0135:0}",
+   "en": "{VAR:0206}{VAR:0135:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "料理回数",
+   "en": "POFFIN SESSIONS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0135:0}",
+   "en": "{VAR:0135:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "最后游玩日期",
+   "en": "DATE LAST PLAYED",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/27"
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0135:0}／{VAR:0133:1}／{VAR:0133:2}",
+   "en": "{VAR:0135:0}/{VAR:0133:1}/{VAR:0133:2}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "战斗塔",
+   "en": "BATTLE TOWER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/29"
+  },
+  {
+   "id": 30,
+   "zh": "战斗工厂",
+   "en": "BATTLE FACTORY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/30"
+  },
+  {
+   "id": 31,
+   "zh": "战斗城堡",
+   "en": "BATTLE CASTLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/31"
+  },
+  {
+   "id": 32,
+   "zh": "战斗舞台",
+   "en": "BATTLE HALL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/32"
+  },
+  {
+   "id": 33,
+   "zh": "战斗轮盘",
+   "en": "BATTLE ARCADE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/33"
+  },
+  {
+   "id": 34,
+   "zh": "前回",
+   "en": "PREV",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "现在",
+   "en": "CURRENT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "最后",
+   "en": "LAST",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 最后 (last); 0766#59 has 最高 (record) in the same slot"
+  },
+  {
+   "id": 37,
+   "zh": "{VAR:0135:0}连胜",
+   "en": "WIN STREAK: {VAR:0135:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/37"
+  },
+  {
+   "id": 38,
+   "zh": "等级５０",
+   "en": "LEVEL 50",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/38"
+  },
+  {
+   "id": 39,
+   "zh": "自由等级",
+   "en": "OPEN LEVEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "出租／交换",
+   "en": "RENTAL/TRADE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/40"
+  },
+  {
+   "id": 41,
+   "zh": "{VAR:0206}城堡点数",
+   "en": "{VAR:0206}CASTLE POINTS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/41"
+  },
+  {
+   "id": 42,
+   "zh": "{VAR:0100:0}的纪录",
+   "en": "{VAR:0100:0}’S RECORD",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/42"
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0206}{VAR:0135:0}回",
+   "en": "{VAR:0206}{VAR:0135:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0206}{VAR:0135:0}ＣＰ",
+   "en": "{VAR:0206}{VAR:0135:0} CP",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0135:0}连胜",
+   "en": "WIN STREAK: {VAR:0135:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/45"
+  },
+  {
+   "id": 46,
+   "zh": "{VAR:0135:0}游戏过关",
+   "en": "GAMES CLEARED: {VAR:0135:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/46"
+  },
+  {
+   "id": 47,
+   "zh": "广场游戏的回数",
+   "en": "PLAZA GAMES PLAYED",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/47"
+  },
+  {
+   "id": 48,
+   "zh": "{VAR:0300:0}",
+   "en": "{VAR:0300:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0135:0}回",
+   "en": "{VAR:0135:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0779/51 | seed rejected us [tag_mismatch] (candidate US 0779#51; text not kept)"
+  },
+  {
+   "id": 50,
+   "zh": "{VAR:0103:0}的朋友号码",
+   "en": "{VAR:0103:0}’S FRIEND CODE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/50"
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0205}返回",
+   "en": "{VAR:0205}RETURN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/51"
+  },
+  {
+   "id": 52,
+   "zh": "{VAR:0205}{VAR:0135:1}　{VAR:0135:2}　{VAR:0135:3}",
+   "en": "{VAR:0205}{VAR:0135:1} {VAR:0135:2} {VAR:0135:3}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "如果互相输入朋友号码的话,{NEWLINE}使用ＷｉーＦｉ通信{NEWLINE}可以和远处的朋友们{NEWLINE}快乐的交换或者对战。",
+   "en": "By exchanging Friend Codes{NEWLINE}with other players, you may{NEWLINE}trade and battle with them{NEWLINE}over Nintendo Wi-Fi Connection.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/53"
+  },
+  {
+   "id": 54,
+   "zh": "得到了朋友号码的话,{NEWLINE}请再次连接ＷｉーＦｉ通信。",
+   "en": "Once you have your Friend Code,{NEWLINE}please connect to Wi-Fi again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0779/54; ext-review RB-011"
+  },
+  {
+   "id": 55,
+   "zh": "{VAR:0135:1}　{VAR:0135:2}　{VAR:0135:3}{NEWLINE}{VAR:0103:0}登录",
+   "en": "{VAR:0135:1} {VAR:0135:2} {VAR:0135:3}{NEWLINE}{VAR:0103:0} will be registered.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/55"
+  },
+  {
+   "id": 56,
+   "zh": "搞错了朋友号码{NEWLINE}{VAR:0135:1}　{VAR:0135:2}　{VAR:0135:3}",
+   "en": "The Friend Code is wrong.{NEWLINE}{VAR:0135:1} {VAR:0135:2} {VAR:0135:3}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "删除{VAR:0103:0}{NEWLINE}真的可以吗？？",
+   "en": "Delete {VAR:0103:0}.{NEWLINE}Are you really sure??",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0779/65 | seed rejected us [ambiguous US match] (candidate US 0779#65; text not kept)"
+  },
+  {
+   "id": 58,
+   "zh": "朋友列表满了！",
+   "en": "Your Friend Roster is full!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/58"
+  },
+  {
+   "id": 59,
+   "zh": "已经登录过了相同的朋友号码。",
+   "en": "That Friend Code has already been{NEWLINE}registered before.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/59"
+  },
+  {
+   "id": 60,
+   "zh": "{VAR:0103:0}的朋友号码{NEWLINE}{VAR:0135:1}　{VAR:0135:2}　{VAR:0135:3}",
+   "en": "{VAR:0103:0}’s Friend Code:{NEWLINE}{VAR:0135:1} {VAR:0135:2} {VAR:0135:3}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/60"
+  },
+  {
+   "id": 61,
+   "zh": "查看朋友号码",
+   "en": "CHECK FRIEND CODE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/61"
+  },
+  {
+   "id": 62,
+   "zh": "将{VAR:0103:0}登录到{NEWLINE}朋友手册中吗？",
+   "en": "Register {VAR:0103:0} in your{NEWLINE}Pal Pad?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/62"
+  },
+  {
+   "id": 63,
+   "zh": "朋友列表已经满了！{NEWLINE}要删除谁吗？",
+   "en": "Your Friend Roster is full.{NEWLINE}Will you delete someone?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/63"
+  },
+  {
+   "id": 64,
+   "zh": "要放弃{VAR:0103:0}的登录吗？",
+   "en": "Give up on registering{NEWLINE}{VAR:0103:0}?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/64"
+  },
+  {
+   "id": 65,
+   "zh": "要删除{VAR:0103:0}的数据吗？",
+   "en": "Delete {VAR:0103:0}’s data from{NEWLINE}your Friend Roster?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/65"
+  },
+  {
+   "id": 66,
+   "zh": "请再次与{VAR:0103:0}连接。",
+   "en": "Connect to {VAR:0103:0} one more time,{NEWLINE}please.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0779/66"
+  }
+ ]
+}

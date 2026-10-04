@@ -1,0 +1,1887 @@
+{
+ "narc": "a027",
+ "bank": 763,
+ "source": "work/extract/v4/a027/0763.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "欢迎来到ＧＴＳ！",
+   "en": "Welcome to the GTS!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "寄放的精灵交换成功了！",
+   "en": "Your offered Pokémon has been traded!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0101:0}不能被交换{SCROLL}",
+   "en": "{VAR:0101:0} can’t be traded.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/2; ext-review RB-011"
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:0101:0}好像逃跑了⋯⋯{SCROLL}",
+   "en": "{VAR:0101:0} appears to have{NEWLINE}fled...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/3"
+  },
+  {
+   "id": 4,
+   "zh": "在寻找什么吗？需要寄放吗？",
+   "en": "Are you seeking or offering a Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "要对{VAR:0101:0}做什么？",
+   "en": "Do what with this {VAR:0101:0}?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/5"
+  },
+  {
+   "id": 6,
+   "zh": "要带走{VAR:0101:0}吗？",
+   "en": "Will you take {VAR:0101:0} back?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "中断ＷｉーＦｉ通信可以吗？",
+   "en": "Is it OK to disconnect from{NEWLINE}Nintendo Wi-Fi Connection?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/7"
+  },
+  {
+   "id": 8,
+   "zh": "想要怎么样的精灵？",
+   "en": "What kind of Pokémon are you seeking?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/8"
+  },
+  {
+   "id": 9,
+   "zh": "请选择想要的精灵。",
+   "en": "Please choose the Pokémon you want.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/9"
+  },
+  {
+   "id": 10,
+   "zh": "请选择性别。",
+   "en": "Please choose its gender.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/10"
+  },
+  {
+   "id": 11,
+   "zh": "请决定精灵的等级。",
+   "en": "Please choose the level.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/11"
+  },
+  {
+   "id": 12,
+   "zh": "请选择要寻找的精灵。",
+   "en": "Please choose the Pokémon you want!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/12"
+  },
+  {
+   "id": 13,
+   "zh": "正在寻找精灵⋯⋯",
+   "en": "Searching for the Pokémon you want...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/13"
+  },
+  {
+   "id": 14,
+   "zh": "没有找到！",
+   "en": "None were found!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/14"
+  },
+  {
+   "id": 15,
+   "zh": "要放弃寻找吗？",
+   "en": "Stop searching?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/15"
+  },
+  {
+   "id": 16,
+   "zh": "要和这个训练师交换吗？",
+   "en": "Trade Pokémon with this Trainer?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/16"
+  },
+  {
+   "id": 17,
+   "zh": "请选择想要交换的精灵",
+   "en": "Choose the Pokémon you are trading.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/17"
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0101:0}怎么样了？",
+   "en": "What’s become of {VAR:0101:0}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "已经被交换了⋯⋯",
+   "en": "It has already been traded...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "和指定的精灵不一样哟！",
+   "en": "That isn’t the Pokémon you asked for!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "请选择要寄放的精灵。",
+   "en": "Choose the Pokémon you want to offer.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/21"
+  },
+  {
+   "id": 22,
+   "zh": "寄放{VAR:0101:0}吗？",
+   "en": "Offer {VAR:0101:0}?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/22"
+  },
+  {
+   "id": 23,
+   "zh": "这个条件可以吗？",
+   "en": "Are these conditions OK?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/23"
+  },
+  {
+   "id": 24,
+   "zh": "正在确认ＧＴＳ的状态⋯⋯",
+   "en": "Checking GTS’s status...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/24"
+  },
+  {
+   "id": 25,
+   "zh": "放下精灵球盒子可以吗？",
+   "en": "Is it OK to detach the Ball Capsule?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "不能交换这只精灵！{SCROLL}",
+   "en": "That Pokémon may not be offered{NEWLINE}for trade!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/26"
+  },
+  {
+   "id": 27,
+   "zh": "不能交换蛋！{SCROLL}",
+   "en": "An Egg may not be offered{NEWLINE}for trade!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/27"
+  },
+  {
+   "id": 28,
+   "zh": "已经不能再持有更多的精灵了！{SCROLL}",
+   "en": "You can’t carry any more Pokémon!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "盒子已经满了{NEWLINE}无法放入更多精灵！{SCROLL}",
+   "en": "Your Storage Boxes are full.{NEWLINE}You can’t receive a Pokémon!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/29"
+  },
+  {
+   "id": 30,
+   "zh": "找到交换对象了！",
+   "en": "A trade partner has been found!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/30"
+  },
+  {
+   "id": 31,
+   "zh": "连接ＷｉーＦｉ通信。",
+   "en": "Nintendo Wi-Fi Connection",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/31"
+  },
+  {
+   "id": 32,
+   "zh": "请触摸选择对象。",
+   "en": "Touch “SELECT” to set trade partner.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/32"
+  },
+  {
+   "id": 33,
+   "zh": "请改变条件。",
+   "en": "Please change your conditions.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/33"
+  },
+  {
+   "id": 34,
+   "zh": "请稍微花点时间。",
+   "en": "Please wait a while.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "身上已经满了,{NEWLINE}不能再持有{CLEAR}带着信件的精灵了！{SCROLL}",
+   "en": "Your party is full.{NEWLINE}You can’t receive a Pokémon that{CLEAR}is holding Mail!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "身上已经满了,无法再持有了。",
+   "en": "Your party is full. You can’t take it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "因为戴着特别缎带{NEWLINE}不能拿来交换！{SCROLL}",
+   "en": "It has a special Ribbon.{NEWLINE}It can’t be offered for a trade.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/37"
+  },
+  {
+   "id": 38,
+   "zh": "ＧＴＳ确认失败。",
+   "en": "GTS check failed.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/38"
+  },
+  {
+   "id": 39,
+   "zh": "{VAR:0205}全球交换系统",
+   "en": "{VAR:0205}GLOBAL TRADE SYSTEM",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/39"
+  },
+  {
+   "id": 40,
+   "zh": "{VAR:0205}查看能力",
+   "en": "{VAR:0205}SUMMARY",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/40"
+  },
+  {
+   "id": 41,
+   "zh": "{VAR:0205}寄存精灵",
+   "en": "{VAR:0205}DEPOSIT Pokémon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/41; modernised from US 0775#41"
+  },
+  {
+   "id": 42,
+   "zh": "{VAR:0205}寻找精灵",
+   "en": "{VAR:0205}SEEK Pokémon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/42; modernised from US 0775#42"
+  },
+  {
+   "id": 43,
+   "zh": "{VAR:0205}结束",
+   "en": "{VAR:0205}EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/43"
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0101:0}",
+   "en": "{VAR:0101:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "{VAR:0100:1}",
+   "en": "{VAR:0100:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "Ｌｖ．{VAR:0134:2}",
+   "en": "Lv. {VAR:0134:2}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "携带物",
+   "en": "ITEM",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "{VAR:0108:3}",
+   "en": "{VAR:0108:3}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "寄放人",
+   "en": "OFFERER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/49"
+  },
+  {
+   "id": 50,
+   "zh": "{VAR:0103:4}",
+   "en": "{VAR:0103:4}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "想要的精灵",
+   "en": "WANTED",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "{VAR:0100:5}",
+   "en": "{VAR:0100:5}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "Ｌｖ.{VAR:0134:6}以上",
+   "en": "Lv. {VAR:0134:6} and up",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "Ｌｖ.未指定",
+   "en": "Lv. ANY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "带走",
+   "en": "WITHDRAW",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 56,
+   "zh": "就那样",
+   "en": "LEAVE AS IS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 58,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 59,
+   "zh": "名字",
+   "en": "NAME",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/59"
+  },
+  {
+   "id": 60,
+   "zh": "寻找精灵",
+   "en": "SEEK Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "精灵",
+   "en": "Pokémon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/61; modernised from US 0775#61"
+  },
+  {
+   "id": 62,
+   "zh": "{VAR:0100:0}",
+   "en": "{VAR:0100:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "性别",
+   "en": "GENDER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/63"
+  },
+  {
+   "id": 64,
+   "zh": "{VAR:0128:1}",
+   "en": "{VAR:0128:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "等级",
+   "en": "LEVEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/65"
+  },
+  {
+   "id": 66,
+   "zh": "{VAR:0129:0,65535}",
+   "en": "{VAR:0129:0,65535}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "寻找",
+   "en": "SEARCH",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "{VAR:0205}返回",
+   "en": "{VAR:0205}BACK",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/68"
+  },
+  {
+   "id": 69,
+   "zh": "选择",
+   "en": "SELECT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/69"
+  },
+  {
+   "id": 70,
+   "zh": "{VAR:0101:0}",
+   "en": "{VAR:0101:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "{VAR:0100:1}",
+   "en": "{VAR:0100:1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "Ｌｖ．{VAR:0134:2}",
+   "en": "Lv. {VAR:0134:2}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "携带物",
+   "en": "ITEM",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "{VAR:0108:3}",
+   "en": "{VAR:0108:3}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "寄存人",
+   "en": "OFFERER",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "{VAR:0103:4}",
+   "en": "{VAR:0103:4}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "想要的精灵",
+   "en": "WANTED",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/77"
+  },
+  {
+   "id": 78,
+   "zh": "{VAR:0100:5}",
+   "en": "{VAR:0100:5}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "{VAR:0128:6}",
+   "en": "{VAR:0128:6}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "{VAR:0129:0,65535}",
+   "en": "{VAR:0129:0,65535}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "居住地",
+   "en": "LOCATION",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "{VAR:0124:8}",
+   "en": "{VAR:0124:8}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "{VAR:0125:9}",
+   "en": "{VAR:0125:9}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "身边的精灵",
+   "en": "PARTY Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/101 | seed rejected us [ambiguous US match] (candidate US 0775#101; text not kept)"
+  },
+  {
+   "id": 85,
+   "zh": "取消",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 86,
+   "zh": "{VAR:010B:0}",
+   "en": "{VAR:010B:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "看看情况",
+   "en": "SUMMARY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "交换",
+   "en": "TRADE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/88"
+  },
+  {
+   "id": 89,
+   "zh": "取消",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/89"
+  },
+  {
+   "id": 90,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 91,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 92,
+   "zh": "身边的",
+   "en": "IN PARTY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "名字",
+   "en": "NAME",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s)"
+  },
+  {
+   "id": 94,
+   "zh": "寄放精灵",
+   "en": "OFFER Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "{VAR:010B:0}",
+   "en": "{VAR:010B:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "身边的精灵",
+   "en": "PARTY Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/101 | seed rejected us [ambiguous US match] (candidate US 0775#101; text not kept)"
+  },
+  {
+   "id": 97,
+   "zh": "取消",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 98,
+   "zh": "看看情况",
+   "en": "SUMMARY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "寄放",
+   "en": "OFFER",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/99"
+  },
+  {
+   "id": 100,
+   "zh": "取消",
+   "en": "CANCEL",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/100"
+  },
+  {
+   "id": 101,
+   "zh": "想要的精灵",
+   "en": "WANTED",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/101"
+  },
+  {
+   "id": 102,
+   "zh": "{VAR:0100:0}",
+   "en": "{VAR:0100:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "{VAR:0129:0,1}",
+   "en": "{VAR:0129:0,1}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "寄放精灵",
+   "en": "OFFER Pokémon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0775/104; modernised from US 0775#104"
+  },
+  {
+   "id": 105,
+   "zh": "{VAR:0101:2}",
+   "en": "{VAR:0101:2}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "Ｌｖ．",
+   "en": "Lv.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "{VAR:0134:3}",
+   "en": "{VAR:0134:3}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "Ｌｖ．{VAR:0134:3}",
+   "en": "Lv. {VAR:0134:3}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "返回",
+   "en": "BACK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/109"
+  },
+  {
+   "id": 110,
+   "zh": "ア",
+   "en": "A",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 111,
+   "zh": "カ",
+   "en": "Ka",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 112,
+   "zh": "サ",
+   "en": "Sa",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 113,
+   "zh": "タ",
+   "en": "Ta",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 114,
+   "zh": "ナ",
+   "en": "Na",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 115,
+   "zh": "ハ",
+   "en": "Ha",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 116,
+   "zh": "マ",
+   "en": "Ma",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 117,
+   "zh": "ヤ",
+   "en": "Ya",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 118,
+   "zh": "ラ",
+   "en": "Ra",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 119,
+   "zh": "ワ",
+   "en": "Wa",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 120,
+   "zh": "不介意",
+   "en": "ANY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "㊚",
+   "en": "♂",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "㊛",
+   "en": "♀",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 123,
+   "zh": "{VAR:0205}返回",
+   "en": "{VAR:0205}BACK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 124,
+   "zh": "不介意",
+   "en": "ANY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 125,
+   "zh": "Ｌｖ．１０以下",
+   "en": "Lv. 10 and under",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "Ｌｖ．１０以上",
+   "en": "Lv. 10 and up",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 127,
+   "zh": "Ｌｖ．２０以上",
+   "en": "Lv. 20 and up",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 128,
+   "zh": "Ｌｖ．３０以上",
+   "en": "Lv. 30 and up",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/128 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 129,
+   "zh": "Ｌｖ．４０以上",
+   "en": "Lv. 40 and up",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/129 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 130,
+   "zh": "Ｌｖ．５０以上",
+   "en": "Lv. 50 and up",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/130 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 131,
+   "zh": "Ｌｖ．６０以上",
+   "en": "Lv. 60 and up",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/131 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 132,
+   "zh": "Ｌｖ．７０以上",
+   "en": "Lv. 70 and up",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/132 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 133,
+   "zh": "Ｌｖ．８０以上",
+   "en": "Lv. 80 and up",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/133 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 134,
+   "zh": "Ｌｖ．９０以上",
+   "en": "Lv. 90 and up",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/134 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 135,
+   "zh": "Ｌｖ．１００",
+   "en": "Lv. 100",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 136,
+   "zh": "{VAR:0205}返回",
+   "en": "{VAR:0205}BACK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/136 | seed rejected us [tag_mismatch] (candidate US 0775#136; text not kept) | v3 TM: 1 source(s)"
+  },
+  {
+   "id": 137,
+   "zh": "正在向ＧＴＳ传送精灵。",
+   "en": "Sending your Pokémon to the GTS.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/137 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 138,
+   "zh": "已经在ＧＴＳ登录了精灵！{SCROLL}",
+   "en": "Your Pokémon has been registered{NEWLINE}with the GTS!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/138 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 139,
+   "zh": "正在从ＧＴＳ取回精灵。",
+   "en": "Taking your Pokémon back from the GTS.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/139 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 140,
+   "zh": "已经从ＧＴＳ取回了精灵！{SCROLL}",
+   "en": "You took your Pokémon back{NEWLINE}from the GTS!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "正在和ＧＴＳ交换精灵！",
+   "en": "Trading Pokémon with the GTS!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 142,
+   "zh": "交换精灵已经成功！{SCROLL}",
+   "en": "The Pokémon trade was successful!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "很遗憾,已经被其他人交换了。{SCROLL}",
+   "en": "Unfortunately, it was already traded{NEWLINE}to another Trainer.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 144,
+   "zh": "正在写入存档,{NEWLINE}请勿切断电源。",
+   "en": "Saving...{NEWLINE}Do not turn off the power.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 145,
+   "zh": "现在正在与ＧＴＳ进行通信⋯⋯",
+   "en": "Communicating with the GTS...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "ＧＴＳ现在正在维护中,{SCROLL}请过一段时间之后再使用。{SCROLL}",
+   "en": "The GTS is currently undergoing{NEWLINE}maintenance.{SCROLL}Please try again later.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 147,
+   "zh": "ＧＴＳ现在满员了,{SCROLL}请过一段时间之后再使用。{SCROLL}",
+   "en": "The GTS is full right now.{SCROLL}Please try again later.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/147 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 148,
+   "zh": "无法进行检查⋯",
+   "en": "The check could not be done...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/148 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 149,
+   "zh": "发生通信错误。",
+   "en": "A communication error occurred.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 150,
+   "zh": "发生通信错误。{SCROLL}",
+   "en": "A communication error occurred.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/150 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 151,
+   "zh": "无法连接ＧＴＳ,{SCROLL}返回接待处。{SCROLL}",
+   "en": "Unable to connect to the GTS.{SCROLL}Returning to the reception counter.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/151 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 152,
+   "zh": "ＧＴＳ的连接被中断了,{SCROLL}返回接待处。{SCROLL}",
+   "en": "You were disconnected from the GTS.{SCROLL}Returning to the reception counter.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/152 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 153,
+   "zh": "ＧＴＳ的连接被中断了。",
+   "en": "You were disconnected from the GTS.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/153 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 154,
+   "zh": "返回接待处。",
+   "en": "Returning to the reception counter.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/154 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 155,
+   "zh": "不介意",
+   "en": "ANY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 156,
+   "zh": "Ｌｖ．１到１０",
+   "en": "Lv. 1 to 10",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/156 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 157,
+   "zh": "Ｌｖ．１１到２０",
+   "en": "Lv. 11 to 20",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 158,
+   "zh": "Ｌｖ．２１到３０",
+   "en": "Lv. 21 to 30",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/158 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 159,
+   "zh": "Ｌｖ．３１到４０",
+   "en": "Lv. 31 to 40",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/159 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 160,
+   "zh": "Ｌｖ．４１到５０",
+   "en": "Lv. 41 to 50",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/160 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 161,
+   "zh": "Ｌｖ．５１到６０",
+   "en": "Lv. 51 to 60",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/161 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 162,
+   "zh": "Ｌｖ．６１到７０",
+   "en": "Lv. 61 to 70",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/162 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 163,
+   "zh": "Ｌｖ．７１到８０",
+   "en": "Lv. 71 to 80",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/163 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 164,
+   "zh": "Ｌｖ．８１到９０",
+   "en": "Lv. 81 to 90",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/164 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 165,
+   "zh": "Ｌｖ．９１到１００",
+   "en": "Lv. 91 to 100",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/165 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 166,
+   "zh": "{VAR:0205}返回",
+   "en": "{VAR:0205}BACK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/166 | seed rejected us [tag_mismatch] (candidate US 0775#166; text not kept) | v3 TM: 1 source(s)"
+  },
+  {
+   "id": 167,
+   "zh": "居住地",
+   "en": "LOCATION",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 168,
+   "zh": "{VAR:0124:0}",
+   "en": "{VAR:0124:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 169,
+   "zh": "不介意",
+   "en": "ANY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 170,
+   "zh": "不介意",
+   "en": "ANY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 171,
+   "zh": "{VAR:0205}返回",
+   "en": "{VAR:0205}BACK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/171 | seed rejected us [tag_mismatch] (candidate US 0775#171; text not kept) | v3 TM: 1 source(s)"
+  },
+  {
+   "id": 172,
+   "zh": "请决定对方的地域。",
+   "en": "Please choose the partner’s region.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 173,
+   "zh": "这样的精灵不能拿来交换！{SCROLL}",
+   "en": "That Pokémon cannot be traded!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/173 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 174,
+   "zh": "锯齿皮丘不能交换。{VAR:0207}",
+   "en": "Spiky-eared Pichu cannot be traded.{VAR:0207}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/174 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 175,
+   "zh": "这个带着道具的精灵{NEWLINE}不能拿来交换！{SCROLL}",
+   "en": "A Pokémon holding that item{NEWLINE}cannot be traded!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 176,
+   "zh": "主人",
+   "en": "OT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 177,
+   "zh": "认证邮件发送失败。{SCROLL}",
+   "en": "Failed to send the authentication email.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/177 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 178,
+   "zh": "发生通信错误。{SCROLL}",
+   "en": "A communication error occurred.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/178; modernised from US 0775#178 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 179,
+   "zh": "内容有问题,{NEWLINE}无法发送。{SCROLL}",
+   "en": "There was a problem with the data.{NEWLINE}It could not be sent.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/179 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 180,
+   "zh": "服务器正在维护中,{NEWLINE}请稍后再连接。{SCROLL}",
+   "en": "The server is undergoing maintenance.{NEWLINE}Please connect again later.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/180 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 181,
+   "zh": "邮件的认证失败。{SCROLL}",
+   "en": "Email authentication failed.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/181 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 182,
+   "zh": "中断ＷｉーＦｉ通信。",
+   "en": "Disconnecting from Nintendo Wi-Fi{NEWLINE}Connection...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/182 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 183,
+   "zh": "已经中断ＷｉーＦｉ通信。",
+   "en": "You have disconnected from Nintendo{NEWLINE}Wi-Fi Connection.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/183 | US text in this slot was misaligned (US bank has 4 extra strings); translated from zh"
+  },
+  {
+   "id": 184,
+   "zh": "ア",
+   "en": "A",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 185,
+   "zh": "イ",
+   "en": "I",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 186,
+   "zh": "ウ",
+   "en": "U",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 187,
+   "zh": "エ",
+   "en": "E",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 188,
+   "zh": "オ",
+   "en": "O",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 189,
+   "zh": "カ",
+   "en": "Ka",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 190,
+   "zh": "キ",
+   "en": "Ki",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 191,
+   "zh": "ク",
+   "en": "Ku",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 192,
+   "zh": "ケ",
+   "en": "Ke",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 193,
+   "zh": "コ",
+   "en": "Ko",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 194,
+   "zh": "サ",
+   "en": "Sa",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 195,
+   "zh": "シ",
+   "en": "Shi",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 196,
+   "zh": "ス",
+   "en": "Su",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 197,
+   "zh": "セ",
+   "en": "Se",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 198,
+   "zh": "ソ",
+   "en": "So",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 199,
+   "zh": "タ",
+   "en": "Ta",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 200,
+   "zh": "チ",
+   "en": "Chi",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 201,
+   "zh": "ツ",
+   "en": "Tsu",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 202,
+   "zh": "テ",
+   "en": "Te",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 203,
+   "zh": "ト",
+   "en": "To",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 204,
+   "zh": "ナ",
+   "en": "Na",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 205,
+   "zh": "ニ",
+   "en": "Ni",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 206,
+   "zh": "ヌ",
+   "en": "Nu",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 207,
+   "zh": "ネ",
+   "en": "Ne",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 208,
+   "zh": "ノ",
+   "en": "No",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 209,
+   "zh": "ハ",
+   "en": "Ha",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 210,
+   "zh": "ヒ",
+   "en": "Hi",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 211,
+   "zh": "フ",
+   "en": "Fu",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 212,
+   "zh": "ヘ",
+   "en": "He",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 213,
+   "zh": "ホ",
+   "en": "Ho",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 214,
+   "zh": "マ",
+   "en": "Ma",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 215,
+   "zh": "ミ",
+   "en": "Mi",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 216,
+   "zh": "ム",
+   "en": "Mu",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 217,
+   "zh": "メ",
+   "en": "Me",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 218,
+   "zh": "モ",
+   "en": "Mo",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 219,
+   "zh": "ヤ",
+   "en": "Ya",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 220,
+   "zh": "ユ",
+   "en": "Yu",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 221,
+   "zh": "ヨ",
+   "en": "Yo",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 222,
+   "zh": "ラ",
+   "en": "Ra",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 223,
+   "zh": "リ",
+   "en": "Ri",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 224,
+   "zh": "ル",
+   "en": "Ru",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 225,
+   "zh": "レ",
+   "en": "Re",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 226,
+   "zh": "ロ",
+   "en": "Ro",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 227,
+   "zh": "ワ",
+   "en": "Wa",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Japanese kana search index left in the hack (US uses ABC groups); romanised"
+  },
+  {
+   "id": 228,
+   "zh": "　",
+   "en": " ",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 229,
+   "zh": "ＧＴＳ",
+   "en": "GTS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 230,
+   "zh": "ＧＴＳ交换精灵",
+   "en": "GTS: Trade Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 231,
+   "zh": "ＧＴＳ查看状态",
+   "en": "GTS: Check Status",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 232,
+   "zh": "ＧＴＳ寄存精灵",
+   "en": "GTS: Offer Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 233,
+   "zh": "ＧＴＳ寻找精灵",
+   "en": "GTS: Seek Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/233"
+  },
+  {
+   "id": 234,
+   "zh": "返回",
+   "en": "BACK",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0775/234; modernised from US 0775#234"
+  }
+ ]
+}

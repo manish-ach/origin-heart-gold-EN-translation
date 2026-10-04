@@ -1,0 +1,231 @@
+{
+ "narc": "a027",
+ "bank": 490,
+ "source": "work/extract/v4/a027/0490.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "礼物是人和人之间{NEWLINE}传达感情的重要媒介,{CLEAR}试想一下突然有一天,{CLEAR}一只漂亮的比比鸟{CLEAR}带着你朋友送你的礼物向你飞来,{CLEAR}那是件多么让人开心的事啊。",
+   "en": "Gifts are an important way for people to{NEWLINE}share their feelings.{SCROLL}Just imagine: one day, a beautiful{NEWLINE}Pidgeotto comes flying to you with a gift{CLEAR}from your friend. How wonderful would{CLEAR}that be?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "比比鸟『Pi——Pii——！",
+   "en": "Pidgeotto: Pi-Pii!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "欢迎！{NEWLINE}买东西是吧？",
+   "en": "Welcome! What can I get for you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "白色香草 100元",
+   "en": "White Herb $100",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "精神香草 100元",
+   "en": "Mental Herb $100",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "力量香草 100元",
+   "en": "Power Herb $100",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s)"
+  },
+  {
+   "id": 7,
+   "zh": "多谢惠顾。",
+   "en": "Thank you. Please come again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 8,
+   "zh": "好的,给你,{NEWLINE}谢谢惠顾。",
+   "en": "Here you go. Thank you for shopping{NEWLINE}with us.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 9,
+   "zh": "您身上的钱{NEWLINE}似乎不够买这个商品呀！",
+   "en": "It looks like you don’t have enough{NEWLINE}money for that!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "阿速『{VAR:0103:0}小姐,{NEWLINE}没想到会在关东跟您不期而遇。{CLEAR}我正在这给桔梗市警队的队员们{CLEAR}挑选节日礼品呢。{SCROLL}阿速『您如果不介意的话,{NEWLINE}咱们为这次意外的相遇{CLEAR}拍张照片留个纪念如何？",
+   "en": "Falkner: Miss {VAR:0103:0}, what a surprise{NEWLINE}to run into you here in Kanto. I’m{CLEAR}picking out holiday gifts for the{CLEAR}members of the Violet City police squad.{SCROLL}Falkner: If you don’t mind, how about a{NEWLINE}photo to remember this chance meeting?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#10 (miss) / #23 (mister): female/male player variants. zh 桔梗市警队 kept literal (Violet City police squad)."
+  },
+  {
+   "id": 11,
+   "zh": "阿速『谢谢！{NEWLINE}那我拍了哦……{SCROLL}",
+   "en": "Falkner: All right!{NEWLINE}Are you ready?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0497/11"
+  },
+  {
+   "id": 12,
+   "zh": "阿速『嗯！{NEWLINE}拍的真好。",
+   "en": "Falkner: Yes!{NEWLINE}We look good.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0497/12"
+  },
+  {
+   "id": 13,
+   "zh": "阿速『是吗,我知道了。{NEWLINE}那么,我和父亲{CLEAR}一起拍张照吧……",
+   "en": "Falkner: I see. Understood. In that{NEWLINE}case, I’ll take one with my father...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0497/13"
+  },
+  {
+   "id": 14,
+   "zh": "相册装满了照片。{SCROLL}请用电脑整理一下{NEWLINE}相册的照片。",
+   "en": "Your Photo Album is full.{SCROLL}Access your PC and delete some{NEWLINE}pictures.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "阿杏　『唔斯！",
+   "en": "Janine: Bah!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0497/15"
+  },
+  {
+   "id": 16,
+   "zh": "我要给我女朋友发邮件,{NEWLINE}所以才来买蓝色信纸的！",
+   "en": "I’m here to buy Bubble Mail to send to{NEWLINE}my girlfriend.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 蓝色信纸 = Bubble Mail (glossary); US said Bloom Mail."
+  },
+  {
+   "id": 17,
+   "zh": "你！听我说！{SCROLL}以前只有在城都地区的桔梗市{NEWLINE}才能买到隧道信纸,{SCROLL}现在,这家店{NEWLINE}也终于进货了！",
+   "en": "You know what?{SCROLL}Tunnel Mail is finally available{NEWLINE}at this department store!{SCROLL}Previously, it was only sold{NEWLINE}in Violet City.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0497/17"
+  },
+  {
+   "id": 18,
+   "zh": "饱含心意的礼物{NEWLINE}４楼……礼品专柜",
+   "en": "Gifts to Express Yourself!{NEWLINE}4F: Wiseman Gifts",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0497/18"
+  },
+  {
+   "id": 19,
+   "zh": "嗯……好不容易来关东旅次游,{NEWLINE}带点什么礼物回去好呢？",
+   "en": "Hmm... I’ve finally made it to Kanto on a{NEWLINE}trip. What gifts should I bring home?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "唉……人到中年危机感加重,{NEWLINE}导致最近常常失眠,好痛苦啊……{CLEAR}有没有什么快速入眠的好办法呢？",
+   "en": "Sigh...{SCROLL}Midlife worries have been piling up, and{NEWLINE}lately I can hardly sleep. It’s awful...{SCROLL}Isn’t there some good way to fall{NEWLINE}asleep fast?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "你说彩虹大厦楼顶{NEWLINE}有人在用素利拍帮人入睡？{CLEAR}嗯,确实可以去试试,{CLEAR}死马当作活马医吧。",
+   "en": "You say someone on the roof of the{NEWLINE}Celadon Condominiums uses a Hypno to{CLEAR}help people sleep?{SCROLL}Hmm, I might as well give it a try.{NEWLINE}Nothing else has worked.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "嗯……好不容易来关东旅次游,{NEWLINE}带点什么礼物回去好呢？",
+   "en": "Hmm... I’ve finally made it to Kanto on a{NEWLINE}trip. What gifts should I bring home?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "阿速『{VAR:0103:0}先生,{NEWLINE}没想到会在关东跟您不期而遇。{CLEAR}我正在这给桔梗市警队的队员们{CLEAR}挑选节日礼品呢。{SCROLL}阿速『您如果不介意的话,{NEWLINE}咱们为这次意外的相遇{CLEAR}拍张照片留个纪念如何？",
+   "en": "Falkner: Mr. {VAR:0103:0}, what a surprise{NEWLINE}to run into you here in Kanto. I’m{CLEAR}picking out holiday gifts for the{CLEAR}members of the Violet City police squad.{SCROLL}Falkner: If you don’t mind, how about a{NEWLINE}photo to remember this chance meeting?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "阿速『谢谢！{NEWLINE}那我拍了哦……{SCROLL}",
+   "en": "Falkner: All right!{NEWLINE}Are you ready?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0497/11"
+  },
+  {
+   "id": 25,
+   "zh": "阿速『嗯！{NEWLINE}拍的真好。",
+   "en": "Falkner: Yes!{NEWLINE}We look good.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0497/12"
+  },
+  {
+   "id": 26,
+   "zh": "阿速『对不起打扰到您了。",
+   "en": "Falkner: I’m sorry to have bothered{NEWLINE}you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "相册装满了照片。{SCROLL}请用电脑整理一下{NEWLINE}相册的照片。",
+   "en": "Your Photo Album is full.{SCROLL}Access your PC and delete some{NEWLINE}pictures.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

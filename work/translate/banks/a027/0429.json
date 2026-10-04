@@ -1,0 +1,135 @@
+{
+ "narc": "a027",
+ "bank": 429,
+ "source": "work/extract/v4/a027/0429.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "结束游戏,{NEWLINE}可以吗？",
+   "en": "End the game.{NEWLINE}Is that OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "probably unused (DP leftover; US blanks the bank) (DP Game Corner slots); probably unused (DP leftover; US blanks the bank) (DP Game Corner slots); probably unused (DP leftover; US blanks the bank) (DP Game Corner slots)"
+  },
+  {
+   "id": 1,
+   "zh": "代币变成了50000枚,{NEWLINE}不能再多了。",
+   "en": "You have 50,000 coins.{NEWLINE}You can’t hold any more.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "没有３枚代币,{NEWLINE}游戏结束。",
+   "en": "You don’t have 3 coins.{NEWLINE}Game over.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "没有代币,{NEWLINE}游戏结束。",
+   "en": "You’re out of coins.{NEWLINE}Game over.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "押注",
+   "en": "BET",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "开始",
+   "en": "START",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 6,
+   "zh": "停下",
+   "en": "STOP",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0205}触摸放入３枚代币",
+   "en": "{VAR:0205}Touch to insert 3 coins",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:0205}触摸旋转转轮",
+   "en": "{VAR:0205}Touch to spin the reels",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0205}触摸停下一个转轮",
+   "en": "{VAR:0205}Touch to stop a reel",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0205}触摸放入１枚代币",
+   "en": "{VAR:0205}Touch to insert 1 coin",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "结果 {VAR:0132:0}　EX {VAR:0132:1}　指定 {VAR:0132:2}　EX {VAR:0132:3} Hard {VAR:0132:4}",
+   "en": "Result {VAR:0132:0} EX {VAR:0132:1} Set {VAR:0132:2} EX {VAR:0132:3} Hard {VAR:0132:4}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "游戏　{VAR:013B:0}　加注  {VAR:0133:1}　连庄 {VAR:0136:2}",
+   "en": "Game {VAR:013B:0} Raise {VAR:0133:1} Streak {VAR:0136:2}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "游戏　{VAR:013B:0}　加注 -{VAR:0133:1}　连庄 {VAR:0136:2}",
+   "en": "Game {VAR:013B:0} Raise -{VAR:0133:1} Streak {VAR:0136:2}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "１ {VAR:0135:0}/{VAR:0136:1},　２ {VAR:0135:2}/{VAR:0136:3}{NEWLINE}３ {VAR:0135:4}/{VAR:0136:5},　４ {VAR:0135:6}/{VAR:0136:7}{NEWLINE}５ {VAR:0135:8}/{VAR:0136:9},　６ {VAR:0135:10}/{VAR:0136:11}",
+   "en": "1 {VAR:0135:0}/{VAR:0136:1}, 2 {VAR:0135:2}/{VAR:0136:3}{NEWLINE}3 {VAR:0135:4}/{VAR:0136:5}, 4 {VAR:0135:6}/{VAR:0136:7}{NEWLINE}5 {VAR:0135:8}/{VAR:0136:9}, 6 {VAR:0135:10}/{VAR:0136:11}",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "full-width → ASCII; DP slots leftover (US blanks it)"
+  },
+  {
+   "id": 15,
+   "zh": "７ {VAR:0135:12}/{VAR:0136:13}",
+   "en": "7 {VAR:0135:12}/{VAR:0136:13}",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "full-width → ASCII; DP slots leftover (US blanks it)"
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "narc": "a027",
+ "bank": 348,
+ "source": "work/extract/v4/a027/0348.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "这里是专卖中草药的传统药店,{NEWLINE}虽然不如城都的湛蓝市药店有名,{CLEAR}但我们卖的药质量可一点也不差。{CLEAR}小伙子你要买点吗？{SCROLL}",
+   "en": "This is a traditional herbal medicine{NEWLINE}shop. We’re not as famous as the{CLEAR}Cianwood City pharmacy in Johto, but{CLEAR}our medicine is every bit as good.{SCROLL}Want to buy some, young man?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#0 (young man) / #6 (young lady): male/female player variants. #15–19: discount after the Secret Potion delivery (0349 #2)."
+  },
+  {
+   "id": 1,
+   "zh": "那个谁,{NEWLINE}想知道句妙语不？{VAR:0200:0}",
+   "en": "Hello, hello. Would you like to hear a{NEWLINE}trendy saying?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "嗯……{SCROLL}以现在的趋势来说,{NEWLINE}这句话很适合你。{SCROLL}{VAR:011C:0}！{SCROLL}在适当的时候用上吧。",
+   "en": "Very well...{SCROLL}The trendy thing for you to say{NEWLINE}would be...{SCROLL}{VAR:011C:0}!{SCROLL}That’s a trendy sort of thing{NEWLINE}to say.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0355/2"
+  },
+  {
+   "id": 3,
+   "zh": "什么！那样可是{NEWLINE}会被时代抛弃的哦。",
+   "en": "Oh, come on now! With an attitude like{NEWLINE}that, you’ll fall behind the times!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "适当的时候{NEWLINE}用上适当的妙语吧。",
+   "en": "I hope you’ll use trendy sayings in{NEWLINE}trendy ways.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "那个谁,{NEWLINE}有在用妙语不？",
+   "en": "Hello, hello. Are you using trendy{NEWLINE}sayings?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "这里是专卖中草药的传统药店,{NEWLINE}虽然不如城都的湛蓝市药店有名,{CLEAR}但我们卖的药质量可一点也不差。{CLEAR}小姑娘你要买点吗？{SCROLL}",
+   "en": "This is a traditional herbal medicine{NEWLINE}shop. We’re not as famous as the{CLEAR}Cianwood City pharmacy in Johto, but{CLEAR}our medicine is every bit as good.{SCROLL}Want to buy some, young lady?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "力之粉{NEWLINE}800元",
+   "en": "Energy Powder{NEWLINE}$800",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 8,
+   "zh": "力之根{NEWLINE}3500元",
+   "en": "Energy Root{NEWLINE}$3500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 9,
+   "zh": "万能粉{NEWLINE}600元",
+   "en": "Heal Powder{NEWLINE}$600",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 10,
+   "zh": "复活草{NEWLINE}10000元",
+   "en": "Revival Herb{NEWLINE}$10000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 11,
+   "zh": "我不需要",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 12,
+   "zh": "需要的话随时再来啊。",
+   "en": "Come back anytime you need anything.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "可能精灵们不喜欢苦的味道,{NEWLINE}但是吃下去还是对身体有好处的。",
+   "en": "Pokémon may not like the bitter taste,{NEWLINE}but it’s still good for their health.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "传统药草制作成本很高,{NEWLINE}钱不够的话很难卖给你啊。",
+   "en": "Traditional herbal medicine is costly to{NEWLINE}make. If you don’t have enough money, I{CLEAR}can’t sell it to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "多亏有你帮我送药,{NEWLINE}精灵才能保住性命。{CLEAR}以后你来我这儿可以按折扣买药,{CLEAR}怎么样,现在要买吗？",
+   "en": "Thanks to you delivering the medicine{NEWLINE}for me, that Pokémon’s life was saved.{SCROLL}From now on, you can buy medicine from{NEWLINE}me at a discount. How about it? Want to{CLEAR}buy some now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "力之粉{NEWLINE}400元",
+   "en": "Energy Powder{NEWLINE}$400",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 17,
+   "zh": "力之根{NEWLINE}2000元",
+   "en": "Energy Root{NEWLINE}$2000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 18,
+   "zh": "万能粉{NEWLINE}400元",
+   "en": "Heal Powder{NEWLINE}$400",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 19,
+   "zh": "复活草{NEWLINE}5000元",
+   "en": "Revival Herb{NEWLINE}$5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  }
+ ]
+}

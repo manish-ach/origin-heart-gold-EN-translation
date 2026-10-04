@@ -1,0 +1,283 @@
+{
+ "narc": "a027",
+ "bank": 360,
+ "source": "work/extract/v4/a027/0360.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "……笔记上有写着什么！{NEWLINE}要看吗？{VAR:0200:0}",
+   "en": "There’s something written here.{NEWLINE}Read it? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0367/0"
+  },
+  {
+   "id": 1,
+   "zh": "……能协助精灵训练师{CLEAR}是我们兄弟的荣幸,{SCROLL}训练师来搭话时,{NEWLINE}会送上实用的道具！{SCROLL}致　弟弟、妹妹们{NEWLINE}长女　月子　……{SCROLL}要读下一页吗？{VAR:0200:0}",
+   "en": "To my brothers and sisters:{SCROLL}We take pride in serving{NEWLINE}Pokémon Trainers.{SCROLL}When Trainers talk to you, give them{NEWLINE}something useful.{SCROLL}Love,{NEWLINE}Monica{SCROLL}Keep reading? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0367/1"
+  },
+  {
+   "id": 2,
+   "zh": "星期一　月子{NEWLINE}　　……　４０号水路{SCROLL}星期二　火子{NEWLINE}　　……　２９号道路{SCROLL}星期三　水雄{NEWLINE}　　……　愤怒湖{SCROLL}星期四　木雄{NEWLINE}　　……　３６号道路{SCROLL}星期五　金子{NEWLINE}　　……　３２号道路{SCROLL}星期六　土雄{NEWLINE}　　……　烟墨市{SCROLL}星期日　日雄{NEWLINE}　　……　３７号道路",
+   "en": "Monday, Monica{NEWLINE}Rt. 40{SCROLL}Tuesday, Tuscany{NEWLINE}Rt. 29{SCROLL}Wednesday, Wesley{NEWLINE}Lake of Rage{SCROLL}Thursday, Arthur{NEWLINE}Rt. 36{SCROLL}Friday, Frieda{NEWLINE}Rt. 32{SCROLL}Saturday, Santos{NEWLINE}Blackthorn City{SCROLL}Sunday, Sunny{NEWLINE}Rt. 37",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0367/2"
+  },
+  {
+   "id": 3,
+   "zh": "我们是喜欢帮助{NEWLINE}旅行中的训练家的一家人。{CLEAR}你如果能答对我的问题,{CLEAR}我会送你道具哦。{CLEAR}要尝试一下回答问题吗？",
+   "en": "We’re a family who loves helping{NEWLINE}Trainers on their travels.{SCROLL}If you can answer my questions{NEWLINE}correctly, I’ll give you an item.{SCROLL}Want to try answering?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Quiz (#4–28): the intended answers aren't visible in the text (likely Flame Orb / Focus Sash / Light Clay / Focus Sash / Soothe Bell)."
+  },
+  {
+   "id": 4,
+   "zh": "拥有毅力特性的精灵,{NEWLINE}携带下列哪个道具伤害加成最高？",
+   "en": "For a Pokémon with the Guts Ability,{NEWLINE}which of these held items gives the{CLEAR}biggest damage boost?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "生命宝珠",
+   "en": "Life Orb",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 6,
+   "zh": "力量头巾",
+   "en": "Muscle Band",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 7,
+   "zh": "专爱围巾",
+   "en": "Choice Scarf",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 8,
+   "zh": "火焰珠",
+   "en": "Flame Orb",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 9,
+   "zh": "下列哪个道具是一次性的？",
+   "en": "Which of these items is single-use?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "清净符",
+   "en": "Cleanse Tag",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 11,
+   "zh": "弱点保险",
+   "en": "Weakness Policy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | v3 ‘Odd Keystone’ was the vanilla item in this slot; the hack renamed it 弱点保险 (glossary: Weakness Policy).",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 12,
+   "zh": "气息头巾",
+   "en": "Focus Band",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 13,
+   "zh": "心之水滴",
+   "en": "Soul Dew",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 14,
+   "zh": "能延长技能效果回合数的道具是哪个？",
+   "en": "Which item makes a move’s effect last{NEWLINE}more turns?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "光之黏土",
+   "en": "Light Clay",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 光之黏土 / 不化冰 / 海潮熏香 / 岩钉 / 炽热岩石 are older names; official Light Clay / Never-Melt Ice / Wave Incense / Stealth Rock / Heat Rock used.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 16,
+   "zh": "不化冰",
+   "en": "Never-Melt Ice",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 17,
+   "zh": "软沙",
+   "en": "Soft Sand",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 18,
+   "zh": "海潮熏香",
+   "en": "Wave Incense",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 19,
+   "zh": "岩钉对下列哪个道具的效果影响最大？",
+   "en": "Which of these items does Stealth Rock{NEWLINE}affect the most?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "炽热岩石",
+   "en": "Heat Rock",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 21,
+   "zh": "电气珠",
+   "en": "Light Ball",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 22,
+   "zh": "气息腰带",
+   "en": "Focus Sash",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 23,
+   "zh": "剩饭",
+   "en": "Leftovers",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 24,
+   "zh": "下列哪个道具在对战中没有效果？",
+   "en": "Which of these items has no effect in{NEWLINE}battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "红线",
+   "en": "Destiny Knot",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 26,
+   "zh": "岩石石板",
+   "en": "Stone Plate",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 27,
+   "zh": "气球",
+   "en": "Air Balloon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text | v3 ‘Upgrade’ was the vanilla item in this slot; the hack renamed it 气球 (Air Balloon).",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 28,
+   "zh": "安闲铃",
+   "en": "Soothe Bell",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 29,
+   "zh": "有的问题没有答对哦。",
+   "en": "You got some of the questions wrong.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "看来你对道具的事情真的很了解,{NEWLINE}那我就把这个这个送给你吧。{CLEAR}以你的见识应该能发挥出它的威力。",
+   "en": "You really know your items! Then I’ll{NEWLINE}give you this.{SCROLL}Someone as knowledgeable as you should{NEWLINE}be able to bring out its full power.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "我的孩子们在城都各地{NEWLINE}为旅行中的训练家提供有帮助的道具。{CLEAR}你在旅行中或许会遇到他们哦。",
+   "en": "My children are all over Johto, giving{NEWLINE}Trainers on their travels useful items.{SCROLL}You might run into them on your{NEWLINE}journey.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

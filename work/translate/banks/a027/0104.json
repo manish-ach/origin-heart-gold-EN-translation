@@ -1,0 +1,271 @@
+{
+ "narc": "a027",
+ "bank": 104,
+ "source": "work/extract/v4/a027/0104.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "我是想要帮助{NEWLINE}你这位战斗狂人的{CLEAR}技能大叔！{SCROLL}只要分我一点战斗点数{NEWLINE}我就教给你一些{CLEAR}技巧型技能！{VAR:0200:0}",
+   "en": "I’m the Move Tutor who’s here to help{NEWLINE}battle-crazy Trainers like you!{SCROLL}Share a little BP with me, and I’ll teach{NEWLINE}your Pokémon some skillful moves! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "same text as 0450 (Frontier move tutors); US slot blank, probably unused"
+  },
+  {
+   "id": 1,
+   "zh": "真是不走运！{NEWLINE}没有这精灵能学会的{CLEAR}技能！",
+   "en": "Oh, how unlucky! There’s no move I can{NEWLINE}teach that Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "真是不爽！{NEWLINE}战斗点数不够！",
+   "en": "Oh, what a letdown! You don’t have{NEWLINE}enough BP!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "放弃让{VAR:0100:0}{NEWLINE}学技能！{CLEAR}你居然这么说？{VAR:0200:0}",
+   "en": "Giving up on teaching {VAR:0100:0} a{NEWLINE}move! That’s what you want? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0100:0}要学{NEWLINE}{VAR:0106:1}⋯⋯{SCROLL}但是{NEWLINE}{VAR:0100:0}已经有４个技能,{CLEAR}已满！{SCROLL}要为学{VAR:0106:1}{NEWLINE}而放弃其他的技能吗？{VAR:0200:0}",
+   "en": "{VAR:0100:0} wants to learn the move{NEWLINE}{VAR:0106:1}...{SCROLL}But {VAR:0100:0} already knows four{NEWLINE}moves, so it can’t!{SCROLL}Forget a move so that {VAR:0106:1} can{NEWLINE}be learned? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "忘记{NEWLINE}{VAR:0106:1}吗？可以吧？{VAR:0200:0}",
+   "en": "{VAR:0106:1} will be forgotten. That’s{NEWLINE}OK, right? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "就是说{NEWLINE}放弃学{CLEAR}{VAR:0106:1}是吧？{VAR:0200:0}",
+   "en": "So you want to give up on {VAR:0106:1},{NEWLINE}am I right? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0100:0}放弃了{NEWLINE}{VAR:0106:1}！",
+   "en": "{VAR:0100:0} gave up on {VAR:0106:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "１　２⋯⋯　完成！{SCROLL}{VAR:0100:0}漂亮地忘记了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}而且⋯⋯！{SCROLL}",
+   "en": "1, 2, and... Done!{SCROLL}{VAR:0100:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0100:0}学会{NEWLINE}{VAR:0106:1}啦！",
+   "en": "{VAR:0100:0} learned {VAR:0106:1}. Wow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "那么！{NEWLINE}期待我们的下次相见啦！",
+   "en": "Well then! Until next time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "我是赌上生命{NEWLINE}进行精灵对战的你的强力的同伴,{CLEAR}技能大叔！{SCROLL}只要分给我点战斗点数{NEWLINE}我就教给你一些{CLEAR}力量型技能！{VAR:0200:0}",
+   "en": "I’m the Move Tutor, the mighty ally of{NEWLINE}Trainers who put their lives on the line{CLEAR}in Pokémon battles!{SCROLL}Share a little BP with me, and I’ll teach{NEWLINE}your Pokémon some powerful moves! {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "哦哦~！！{NEWLINE}没有这个精灵能学的{CLEAR}技能！",
+   "en": "Oh no! There’s no move I can teach{NEWLINE}that Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "哦哦~！！{NEWLINE}战斗点数不足！",
+   "en": "Oh no! You don’t have enough BP!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "放弃让{VAR:0100:0}{NEWLINE}学技能吗？？{VAR:0200:0}",
+   "en": "Quit trying to teach {VAR:0100:0} new{NEWLINE}moves?? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0100:0}要学{NEWLINE}{VAR:0106:1}⋯⋯{SCROLL}但是{NEWLINE}{VAR:0100:0}已有４个技能,{CLEAR}技能已满！{SCROLL}要为学{VAR:0106:1}{NEWLINE}而放弃其他的技能吗？{VAR:0200:0}",
+   "en": "{VAR:0100:0} wants to learn the move{NEWLINE}{VAR:0106:1}...{SCROLL}But {VAR:0100:0} already knows four{NEWLINE}moves!{SCROLL}Forget a move so that {VAR:0106:1} can{NEWLINE}be learned? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "遗忘{VAR:0106:1},{NEWLINE}可以吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}, am I right? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "唔⋯就是说{NEWLINE}放弃学{CLEAR}{VAR:0106:1}吗~！{VAR:0200:0}",
+   "en": "Hmm... So you want to give up on{NEWLINE}{VAR:0106:1}, huh? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0100:0}放弃了学{NEWLINE}{VAR:0106:1}！",
+   "en": "{VAR:0100:0} gave up on learning{NEWLINE}{VAR:0106:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "１　２⋯⋯　完成！{SCROLL}{VAR:0100:0}漂亮地忘记了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}而且⋯⋯！{SCROLL}",
+   "en": "1, 2, and... Done!{SCROLL}{VAR:0100:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0100:0}学会了{NEWLINE}{VAR:0106:1}！",
+   "en": "{VAR:0100:0} learned {VAR:0106:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "那么！下次再来玩吧！",
+   "en": "Well then! Come see me again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "我是将灵魂注入{NEWLINE}精灵对战的你的的温柔的同伴,{CLEAR}技能大叔！{SCROLL}只要分给我一些战斗点数{NEWLINE}我就教给你一些能{CLEAR}撼动心灵的技能。{VAR:0200:0}",
+   "en": "I’m the Move Tutor, the gentle ally of{NEWLINE}Trainers who pour their hearts and{CLEAR}souls into Pokémon battles!{SCROLL}Share a little BP with me, and I’ll teach{NEWLINE}your Pokémon some moves that stir the{CLEAR}heart. {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "唔⋯⋯{NEWLINE}没有这精灵能学的{CLEAR}技能啊。",
+   "en": "Hmm... There’s no move I can teach that{NEWLINE}Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "哎呀呀⋯⋯{NEWLINE}战斗点数好像不够啊。",
+   "en": "Oh dear... Looks like you don’t have{NEWLINE}enough BP.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "让{VAR:0100:0}放弃{NEWLINE}学技能吗？{VAR:0200:0}",
+   "en": "Giving up on teaching {VAR:0100:0} a{NEWLINE}move? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0100:0}要学{NEWLINE}{VAR:0106:1}⋯⋯{SCROLL}但是{NEWLINE}{VAR:0100:0}{CLEAR}技能已满！{SCROLL}要为学{VAR:0106:1}{NEWLINE}而放弃其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0100:0} wants to learn the move{NEWLINE}{VAR:0106:1}...{SCROLL}But {VAR:0100:0} already knows four{NEWLINE}moves!{SCROLL}Forget a move so that {VAR:0106:1} can{NEWLINE}be learned? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "遗忘{VAR:0106:1},{NEWLINE}没错吧？{VAR:0200:0}",
+   "en": "{VAR:0106:1} will be forgotten. Do I{NEWLINE}have that right? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "那么⋯⋯放弃学习{NEWLINE}{VAR:0106:1}吗？{VAR:0200:0}",
+   "en": "So... you want to give up on{NEWLINE}{VAR:0106:1}? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0100:0}放弃了{NEWLINE}{VAR:0106:1}！",
+   "en": "{VAR:0100:0} gave up on {VAR:0106:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "１　２⋯⋯　完成！{SCROLL}{VAR:0100:0}漂亮地忘记了{NEWLINE}{VAR:0106:1}！{SCROLL}而且⋯⋯！{SCROLL}",
+   "en": "1, 2, and... Done!{SCROLL}{VAR:0100:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0100:0}学会了{NEWLINE}{VAR:0106:1}！",
+   "en": "{VAR:0100:0} learned {VAR:0106:1}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "那么再见！{NEWLINE}积攒了战斗点数后{CLEAR}再来吧！",
+   "en": "Bye now! Come back once you’ve saved{NEWLINE}up more BP!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

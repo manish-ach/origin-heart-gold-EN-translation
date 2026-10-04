@@ -1,0 +1,601 @@
+{
+ "narc": "a027",
+ "bank": 519,
+ "source": "work/extract/v4/a027/0519.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "小绿『哟,{VAR:0103:0}。你也来了啊！{NEWLINE}真是让人高兴。",
+   "en": "Blue: Yo, {VAR:0103:0}. So you made it too!{NEWLINE}Now that makes me happy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Champion's room. Indigo Conference branch: #0–19 (Blue as the first League Champion; #0/#3/#5/#8/#10/#12 and #1/#4/#6/#9/#11/#13 are two variants of Blue's lines, probably by player gender). Post-game rematch menu: #20–58 (Blue / Yellow / Gold; Yellow #45/#47/#49 male player, #46/#48/#58 female player). Rocket-occupation branch: #59–72 (Archer and Ariana)."
+  },
+  {
+   "id": 1,
+   "zh": "小绿『{VAR:0103:0},看到你也来到这里,{NEWLINE}我真的很高兴。",
+   "en": "Blue: {VAR:0103:0}, I’m really glad to see{NEWLINE}you made it here too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}『你已经被精灵联盟{NEWLINE}认定为「联盟冠军」了吗？",
+   "en": "{VAR:0103:0}: Has the League already{NEWLINE}recognized you as League Champion?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "小绿『这是当然的啊,{NEWLINE}毕竟我可是自坂木之后,{CLEAR}唯一一个击败过四天王的人。{CLEAR}不过,现在又多了一个你。",
+   "en": "Blue: Obviously.{SCROLL}After all, I’m the only one since{NEWLINE}Giovanni to beat the Elite Four.{SCROLL}But now there’s you too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "小绿『这是当然的啊,{NEWLINE}毕竟我可是自坂木之后,{CLEAR}唯一一个击败过四天王的人。{CLEAR}当然,现在你也是了。",
+   "en": "Blue: Obviously.{SCROLL}After all, I’m the only one since{NEWLINE}Giovanni to beat the Elite Four.{SCROLL}And now you have too, of course.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "小绿『{VAR:0103:0},{NEWLINE}我从真新镇领取精灵开始,{CLEAR}无论是收集图鉴,还是挑战道馆,{CLEAR}事事都走在你前面。{CLEAR}这次石英大会也是一样,{CLEAR}我比你更早成为「联盟冠军」。{SCROLL}小绿『你知道这意味着什么吗？",
+   "en": "Blue: {VAR:0103:0}, ever since we got our{NEWLINE}Pokémon in Pallet Town, whether it was{CLEAR}filling the Pokédex or challenging Gyms,{CLEAR}I’ve always been one step ahead of you.{SCROLL}This Indigo Conference is no different.{SCROLL}I became League Champion before you{NEWLINE}did.{SCROLL}Blue: You know what that means?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "小绿『{VAR:0103:0},{NEWLINE}咱们从真新镇出发以来,{CLEAR}旅行的路线、经历的事情都非常相似。{CLEAR}甚至这次石英大会,{CLEAR}咱们都战胜了四天王来到了这里。{CLEAR}你知道这意味着什么吗？",
+   "en": "Blue: {VAR:0103:0}, ever since we set out{NEWLINE}from Pallet Town, our routes and{CLEAR}everything we’ve been through have{CLEAR}been really similar.{SCROLL}Even at this Indigo Conference, we both{NEWLINE}beat the Elite Four to get here.{SCROLL}You know what that means?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0103:0}『意味着……什么？",
+   "en": "{VAR:0103:0}: It means... what?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "小绿『意味着我是这个世界上{NEWLINE}「最强」的训练家,{CLEAR}你要想成为「联盟冠军」{CLEAR}就必须先打败我！{SCROLL}小绿『你现在选一个战斗方式,{NEWLINE}咱们一决胜负吧！{SCROLL}",
+   "en": "Blue: It means I’m the strongest{NEWLINE}Trainer in the world!{SCROLL}If you want to become League Champion,{NEWLINE}you’ll have to beat me first!{SCROLL}Blue: Pick how you want to battle. Let’s{NEWLINE}settle this!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "小绿『意味着咱们两个{NEWLINE}必须要在这里进行最后的战斗,{CLEAR}才能决定谁是「联盟冠军」！{SCROLL}小绿『你现在选一个战斗方式,{NEWLINE}咱们一决胜负吧！{SCROLL}",
+   "en": "Blue: It means the two of us have to{NEWLINE}fight one final battle here to decide{CLEAR}who’s League Champion!{SCROLL}Blue: Pick how you want to battle. Let’s{NEWLINE}settle this!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "小绿『怎么可能,这就结束了吗……{NEWLINE}最后的最后我还是输给了你……？{CLEAR}明明好不容易成为了「联盟冠军」……",
+   "en": "Blue: No way. It’s over already...? At{NEWLINE}the very end, I still lost to you...?{SCROLL}And I’d finally become League{NEWLINE}Champion...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "小绿『哈啊,是我输了……{NEWLINE}好不容易成为联盟冠军,{CLEAR}第一场比赛却输给了你……",
+   "en": "Blue: Haah... I lost...{SCROLL}I’d finally become League Champion, and{NEWLINE}I lost my very first match to you...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "小绿『虽然很不甘心,但我还是要以{NEWLINE}「联盟冠军」的身份告诉你,{CLEAR}你现在可以代替我,{CLEAR}成为新的「联盟冠军」了。",
+   "en": "Blue: I hate this, but as League{NEWLINE}Champion, I’m telling you...{SCROLL}You can take my place as the new League{NEWLINE}Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "小绿『虽然有点失落,但我还是要以{NEWLINE}「联盟冠军」的身份告诉你,{CLEAR}你现在可以代替我,{CLEAR}成为新的「联盟冠军」了。",
+   "en": "Blue: It stings a little, but as League{NEWLINE}Champion, I’m telling you...{SCROLL}You can take my place as the new League{NEWLINE}Champion.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "达马兰奇『不,{NEWLINE}你们都是优秀的「联盟冠军」！",
+   "en": "Goodshow: No, you are both outstanding{NEWLINE}League Champions!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "达马兰奇『好久不见！{NEWLINE}你们都变得更可靠了呢,{CLEAR}甚至还战胜了联盟四天王,{CLEAR}真是了不起！{SCROLL}达马兰奇『你们对于精灵的信赖和爱{NEWLINE}一点点积累下来,{CLEAR}最后终于结出了今天的硕果！{SCROLL}达马兰奇『我作为精灵联盟的主席,{NEWLINE}现在正式宣布你们同时成为{CLEAR}精灵联盟的新任「联盟冠军」！",
+   "en": "Goodshow: It’s been a long time!{SCROLL}You’ve both grown so dependable, and{NEWLINE}you’ve even beaten the Elite Four.{SCROLL}Truly remarkable!{SCROLL}Goodshow: The trust and love you’ve{NEWLINE}built up with your Pokémon, little by{CLEAR}little, have finally borne fruit today!{SCROLL}Goodshow: As President of the{NEWLINE}Pokémon League, I declare you both our{CLEAR}new League Champions!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0103:0}『同时？{NEWLINE}小绿『同时？",
+   "en": "{VAR:0103:0}: Both of us?{NEWLINE}Blue: Both of us?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "达马兰奇『没错,按照石英大会的规定,{NEWLINE}连续击败四天王的人{CLEAR}就可以被认定为「联盟冠军」。{CLEAR}你们两个之间的胜负,{CLEAR}只是用来决定本届大会冠军的。",
+   "en": "Goodshow: That’s right.{SCROLL}Under the rules of the Indigo{NEWLINE}Conference, anyone who defeats the{CLEAR}Elite Four in a row is recognized as{CLEAR}League Champion.{SCROLL}The match between you two only decides{NEWLINE}this year’s tournament winner.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "达马兰奇『好了,你们现在{NEWLINE}跟渡去冠军殿堂吧。{CLEAR}去把自己的名字留在那里。",
+   "en": "Goodshow: Now, go with Lance to the{NEWLINE}Hall of Fame and record your names.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "渡『跟我来吧！",
+   "en": "Lance: Follow me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "全地区的观众{NEWLINE}都会通过我的摄像机看到你的英姿哟！",
+   "en": "Viewers across the region will see your{NEWLINE}finest moments through my camera!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "需要我帮您恢复精灵吗？{SCROLL}",
+   "en": "Shall I heal your Pokémon?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "您的精灵已经恢复了。",
+   "en": "Your Pokémon are fully healed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "水箭龟『Blas——toi！",
+   "en": "Blastoise: Blas-toi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "您好,冠军大人。{NEWLINE}有什么可以为您效劳的吗？{SCROLL}",
+   "en": "Hello, Champion. How may I help you?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "帮我恢复精灵",
+   "en": "Heal my Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 26,
+   "zh": "帮我联系训练家来这里对战",
+   "en": "Call a Trainer here to battle",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 27,
+   "zh": "我要进入冠军殿堂",
+   "en": "Enter the Hall of Fame",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 28,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 29,
+   "zh": "您希望与谁对战呢？{SCROLL}",
+   "en": "Who would you like to battle?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "小绿",
+   "en": "Blue",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 31,
+   "zh": "小黄",
+   "en": "Yellow",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 32,
+   "zh": "阿金",
+   "en": "Gold",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 9 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 33,
+   "zh": "还是算了",
+   "en": "Actually, never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 34,
+   "zh": "好的,我现在就{NEWLINE}帮您联系小绿先生。{SCROLL}…………{SCROLL}…………{SCROLL}小绿先生已经到了。",
+   "en": "Certainly. I’ll contact Mr. Blue for you{NEWLINE}right away.{SCROLL}......{SCROLL}......{SCROLL}Mr. Blue has arrived.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "好的,由我来为您带路。",
+   "en": "Certainly. Allow me to show you the way.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "小绿『{VAR:0103:0},听说你想跟我对战？{NEWLINE}正好我也想活动活动。{CLEAR}就是不知道你的实力退步了没有,{CLEAR}可别让我失望啊！{SCROLL}",
+   "en": "Blue: {VAR:0103:0}, I hear you want to{NEWLINE}battle me?{SCROLL}Good timing. I was itching to stretch my{NEWLINE}legs.{SCROLL}Only question is whether you’ve gotten{NEWLINE}rusty. Don’t let me down!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "小绿『{VAR:0103:0},听说你想跟我对战？{NEWLINE}正好我也想活动活动。{CLEAR}你这次是想单打还是双打？{CLEAR}咱们现在开始吧！{SCROLL}",
+   "en": "Blue: {VAR:0103:0}, I hear you want to{NEWLINE}battle me?{SCROLL}Good timing. I was itching to stretch my{NEWLINE}legs.{SCROLL}Singles or doubles this time? Let’s get{NEWLINE}started!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "小绿『你还是一如既往地强啊,{NEWLINE}看来要想打败你我还得好好锻炼。{SCROLL}小绿『我先回去了,{NEWLINE}你什么时候想要对战了再找我吧！",
+   "en": "Blue: You’re as strong as ever.{SCROLL}Guess I’ve got more training to do if I{NEWLINE}want to beat you.{SCROLL}Blue: I’m heading back. Look me up{NEWLINE}whenever you want another battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 40,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 41,
+   "zh": "小绿『这是决定「联盟冠军」称号的单打,{NEWLINE}拿出你的全力来吧！",
+   "en": "Blue: This singles battle decides the{NEWLINE}League Champion title.{SCROLL}Give it everything you’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "小绿『这是决定「联盟冠军」称号的双打,{NEWLINE}拿出你的全力来吧！",
+   "en": "Blue: This doubles battle decides the{NEWLINE}League Champion title.{SCROLL}Give it everything you’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "小绿『不知道你的实力退步了没有,{NEWLINE}可别让我失望啊！",
+   "en": "Blue: Only question is whether you’ve{NEWLINE}gotten rusty. Don’t let me down!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "小绿『没问题,咱们现在开始吧！",
+   "en": "Blue: No problem. Let’s get started!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "小黄『{VAR:0103:0}哥哥,{NEWLINE}当我听说你想约我对战的时候,{CLEAR}我真是高兴极了。{CLEAR}能在冠军之间和哥哥来一场战斗,{CLEAR}是我一直以来的愿望！{SCROLL}",
+   "en": "Yellow: {VAR:0103:0}, when I heard you{NEWLINE}wanted to battle me, I was so happy!{SCROLL}Battling you in the Champion’s room has{NEWLINE}always been my dream!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "The zh 哥哥/姐姐 honorific after the player's name is dropped, as in 0466/0446."
+  },
+  {
+   "id": 46,
+   "zh": "小黄『{VAR:0103:0}姐姐,{NEWLINE}我最近都有在努力锻炼自己和精灵,{CLEAR}能在这冠军之间和你来一场战斗,{CLEAR}是我一直以来的愿望！{SCROLL}",
+   "en": "Yellow: {VAR:0103:0}, I’ve been working hard{NEWLINE}lately to train myself and my Pokémon.{SCROLL}Battling you here in the Champion’s room{NEWLINE}has always been my dream!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "小黄『没问题,我会好好表现,{NEWLINE}让{VAR:0103:0}哥哥看看我的进步！",
+   "en": "Yellow: Sure! I’ll do my best and show{NEWLINE}you how much I’ve improved, {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "小黄『没问题,我会拿出全力的,{NEWLINE}{VAR:0103:0}姐姐你就来见证一下{CLEAR}我的进步吧！",
+   "en": "Yellow: Sure! I’ll give it my all.{SCROLL}{VAR:0103:0}, come see how much I’ve{NEWLINE}improved!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "小黄『虽然输掉了对战,{NEWLINE}但是能跟{VAR:0103:0}哥哥一起练习{CLEAR}我真的很开心！{SCROLL}小黄『我现在差不多要回常磐市了,{NEWLINE}以后哥哥如果想找练习的对手{CLEAR}要再约我啊！",
+   "en": "Yellow: I lost, but getting to practice{NEWLINE}with you made me really happy, {VAR:0103:0}!{SCROLL}Yellow: I should head back to Viridian{NEWLINE}City soon.{SCROLL}If you ever want a practice partner,{NEWLINE}invite me again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "好的,我现在就{NEWLINE}帮您联系小黄小姐。{SCROLL}…………{SCROLL}…………{SCROLL}小黄小姐已经到了。",
+   "en": "Certainly. I’ll contact Miss Yellow for{NEWLINE}you right away.{SCROLL}......{SCROLL}......{SCROLL}Miss Yellow has arrived.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "好的,我现在就{NEWLINE}帮您联系阿金先生。{SCROLL}…………{SCROLL}…………{SCROLL}阿金先生已经到了。",
+   "en": "Certainly. I’ll contact Mr. Gold for you{NEWLINE}right away.{SCROLL}......{SCROLL}......{SCROLL}Mr. Gold has arrived.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "阿金『偶像,我一听说你想约我比试{NEWLINE}就一溜烟地跑过来了。{CLEAR}在若叶镇都遇不到什么厉害的训练家,{CLEAR}还是来这里跟你对战有意思！{SCROLL}",
+   "en": "Gold: Idol, the second I heard you{NEWLINE}wanted a match, I came running!{SCROLL}There are no strong Trainers back in{NEWLINE}New Bark Town.{SCROLL}Battling you here is way more fun!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "阿金『偶像,我一听说你想约我比试{NEWLINE}就一溜烟地跑过来了。{CLEAR}在若叶镇都遇不到什么厉害的训练家,{CLEAR}还是来这里跟你对战有意思！{SCROLL}",
+   "en": "Gold: Idol, the second I heard you{NEWLINE}wanted a match, I came running!{SCROLL}There are no strong Trainers back in{NEWLINE}New Bark Town.{SCROLL}Battling you here is way more fun!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "阿金『我的每一只精灵都锻炼到了极限,{NEWLINE}偶像你可要小心了！",
+   "en": "Gold: I’ve trained every one of my{NEWLINE}Pokémon to the limit.{SCROLL}Better watch out, Idol!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "阿金『我的每一只精灵都锻炼到了极限,{NEWLINE}偶像你可要小心了！",
+   "en": "Gold: I’ve trained every one of my{NEWLINE}Pokémon to the limit.{SCROLL}Better watch out, Idol!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "阿金『哎——呀,真不愧是偶像。{NEWLINE}只有跟你对战我才能发现{CLEAR}自己精灵身上的不足。{CLEAR}我现在就回若叶镇{CLEAR}给精灵们来一堂特训课去。",
+   "en": "Gold: Aw, maaan, that’s my idol for you.{SCROLL}Only battling you shows me where my{NEWLINE}Pokémon fall short.{SCROLL}I’m heading back to New Bark Town right{NEWLINE}now for some special training.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "你的精灵数量不够,{NEWLINE}无法进行双打。",
+   "en": "You don’t have enough Pokémon for a{NEWLINE}double battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "小黄『啊,我果然还是差得远。{NEWLINE}看来还得回去好好锻炼才行。{SCROLL}小黄『那么我现在要回常磐市了,{NEWLINE}以后姐姐如果想找练习的对手{CLEAR}要再约我啊！",
+   "en": "Yellow: Ah, I’ve still got a long way to{NEWLINE}go.{SCROLL}I’ll have to go back and train harder.{SCROLL}Yellow: I’m heading back to Viridian City{NEWLINE}now.{SCROLL}If you ever want a practice partner,{NEWLINE}invite me again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "{VAR:0103:0}『阿波罗,雅典娜！{NEWLINE}我已经打倒了前面的所有干部,{CLEAR}火箭队的覆灭近在眼前,{CLEAR}你们注定要失败了！",
+   "en": "{VAR:0103:0}: Archer, Ariana! I’ve beaten{NEWLINE}every Executive before you.{SCROLL}Team Rocket’s downfall is at hand.{NEWLINE}You’re doomed to fail!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "阿波罗『你连坂木老大的面都没见到,{NEWLINE}也敢说火箭队会覆灭？",
+   "en": "Archer: You haven’t even laid eyes on{NEWLINE}Boss Giovanni, and you dare say Team{CLEAR}Rocket will fall?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "雅典娜『只不过打败了几个干部,{NEWLINE}就觉得自己能战胜我们？",
+   "en": "Ariana: You beat a few Executives and{NEWLINE}think you can defeat us?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "{VAR:0103:0}『没错！无论是你们还是坂木,{NEWLINE}都是用着跟自己毫无感情的口袋妖怪,{CLEAR}却自以为了不起的最差劲训练家。{CLEAR}我会在这里打倒你们,{CLEAR}让整个地区重归和平与安定！",
+   "en": "{VAR:0103:0}: That’s right!{SCROLL}You and Giovanni use Pokémon you feel{NEWLINE}nothing for, yet think you’re great.{SCROLL}You’re the worst kind of Trainers.{SCROLL}I’ll defeat you here and bring peace{NEWLINE}and stability back to the whole region!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "阿波罗『你确实是非常强训练家,{NEWLINE}但持有传说中精灵的我们{CLEAR}也绝不逊色于你。",
+   "en": "Archer: You’re certainly a very strong{NEWLINE}Trainer, but with our Legendary{CLEAR}Pokémon, we’re every bit your equal.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "雅典娜『我们现在的力量,{NEWLINE}是一路追随坂木老大才获得的。{CLEAR}你现在就见识一下,{CLEAR}这份连接我们和坂木老大的羁绊之力,{CLEAR}是多么强烈吧！",
+   "en": "Ariana: The power we have now, we{NEWLINE}earned by following Boss Giovanni all{CLEAR}this way.{SCROLL}Now see for yourself how strong the{NEWLINE}bond between us and Boss Giovanni{CLEAR}really is!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "凤王『Hooo……",
+   "en": "Ho-Oh: Hooo...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "烈空坐『Rayyy……",
+   "en": "Rayquaza: Rayyy...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "雅典娜『连天空之主烈空坐{NEWLINE}都不能打败你,{CLEAR}怎么会这样,怎么会这样……",
+   "en": "Ariana: Not even Rayquaza, lord of the{NEWLINE}skies, could beat you...{SCROLL}How can this be? How can this be...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "阿波罗『看来这世界上唯一能打败你的,{NEWLINE}就只有坂木老大了。{CLEAR}你就到前面的冠军殿堂去,{CLEAR}好好感受一下坂木老大{CLEAR}给你带来的真正恐惧吧。",
+   "en": "Archer: It seems the only one in this{NEWLINE}world who can beat you is Boss Giovanni.{SCROLL}Go on to the Hall of Fame ahead, and get{NEWLINE}a real taste of the terror Boss{CLEAR}Giovanni brings.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "谢天谢地冠军大人你来了。{NEWLINE}我还以为精灵联盟真的就要覆灭了呢。",
+   "en": "Thank heavens you’re here, Champion.{SCROLL}I really thought the Pokémon League{NEWLINE}was finished.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "坂木押着达马兰奇主席去了冠军殿堂,{NEWLINE}请{VAR:0103:0}你尽快去救出主席、打败坂木,{CLEAR}为这场战争画上句号吧。",
+   "en": "Giovanni took President Goodshow to the{NEWLINE}Hall of Fame.{SCROLL}{VAR:0103:0}, please rescue the President{NEWLINE}and defeat Giovanni as soon as you can.{SCROLL}Put an end to this war.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "{VAR:0103:0}『好的,交给我吧！",
+   "en": "{VAR:0103:0}: Right, leave it to me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "雅典娜『坂木老大掌握着{NEWLINE}时间之力和创世之力,{CLEAR}你就算再厉害,也不可能是他的对手。",
+   "en": "Ariana: Boss Giovanni commands the{NEWLINE}powers of time and creation.{SCROLL}However strong you are, you’re no{NEWLINE}match for him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,1582 @@
+{
+ "narc": "a027",
+ "bank": 529,
+ "source": "work/extract/v4/a027/0529.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "欢迎光临西鲁夫公司！{NEWLINE}如果您没有预约的话,{CLEAR}请先在大厅等候。",
+   "en": "Welcome to Silph Co.! If you don’t have{NEWLINE}an appointment, please wait in the{CLEAR}lobby.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "我是西鲁夫公司的保安,{NEWLINE}是拥有4枚徽章的中级训练家！{CLEAR}我决不允许任何人{CLEAR}到西鲁夫公司来为非作歹。",
+   "en": "I’m a Silph Co. security guard, an{NEWLINE}Intermediate Trainer with four Badges!{CLEAR}I won’t let anyone cause trouble at{CLEAR}Silph Co.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "西鲁夫公司的新制品喔！{CLEAR}还没有哪里有卖呢！",
+   "en": "It’s Silph Co.’s latest product! It{NEWLINE}isn’t on sale anywhere yet!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "retranslated from zh; was: US 0537/2"
+  },
+  {
+   "id": 3,
+   "zh": "西鲁夫公司电梯,{NEWLINE}下级员工乘坐电梯时{CLEAR}需礼让上级员工！",
+   "en": "Silph Co. Elevator{NEWLINE}Junior staff must yield to senior staff{CLEAR}when riding the elevator!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "pre-takeover sign (#3) vs post-takeover sign (#33)"
+  },
+  {
+   "id": 4,
+   "zh": "这里是西鲁夫公司的接待大厅,{NEWLINE}您可以乘坐西侧的电梯{CLEAR}到公司的各个楼层。",
+   "en": "This is the Silph Co. reception lobby.{NEWLINE}Take the elevator on the west side to{CLEAR}reach any floor of the company.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "诸葛亮从来不问,{NEWLINE}为什么我们的箭那么少。{SCROLL}关羽从来不问,{NEWLINE}为什么我们的士兵那么少。{SCROLL}张飞从来不问,{NEWLINE}兵临城下我该怎么办。{SCROLL}——若万事俱备,你的价值何在！",
+   "en": "Zhuge Liang never asked why we had so{NEWLINE}few arrows.{SCROLL}Guan Yu never asked why we had so few{NEWLINE}soldiers.{SCROLL}Zhang Fei never asked what to do with{NEWLINE}the enemy at the gates.{SCROLL}If everything were already in place,{NEWLINE}what would YOU be worth?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "corporate ‘wolf culture’ poster citing Three Kingdoms heroes; kept literal (satire)."
+  },
+  {
+   "id": 6,
+   "zh": "为关东创造了无数就业岗位的{NEWLINE}——伟大的•西鲁夫公司。",
+   "en": "Creator of countless jobs for Kanto:{NEWLINE}the great Silph Co.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "一切由劳动者创造,{NEWLINE}哪里容得下寄生虫。{CLEAR}劳动最光荣！",
+   "en": "Everything is created by the workers.{NEWLINE}There’s no room for parasites. Labor is{CLEAR}glorious!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "post-takeover slogans (#7/#8), political satire kept faithful"
+  },
+  {
+   "id": 8,
+   "zh": "值得赞美的不是苦难,{NEWLINE}而是经历苦难后的收获。",
+   "en": "What deserves praise is not suffering,{NEWLINE}but what you gain after it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "菊子『达马兰奇主席{NEWLINE}和西鲁夫社长的谈话{CLEAR}很快就能结束了,{CLEAR}等会谈正式结束之后,{CLEAR}他会亲自接见你们的。",
+   "en": "Agatha: The talks between President{NEWLINE}Goodshow and Silph’s president will be{CLEAR}over soon. Once the meeting has{CLEAR}formally ended, he’ll receive you in{CLEAR}person.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "菊子『哟！{NEWLINE}最后一位训练家也到了。",
+   "en": "Agatha: Well! The last Trainer has{NEWLINE}arrived.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "小绿『{VAR:0103:0}你这个{NEWLINE}磨蹭的家伙！{CLEAR}每次都是慢半拍。",
+   "en": "Blue: {VAR:0103:0}, you slowpoke! You’re{NEWLINE}always one step behind.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Blue's two tones #11 / #12; partner branch Green (#13, #26) / Red (#14, #27)"
+  },
+  {
+   "id": 12,
+   "zh": "小绿『太好了,{VAR:0103:0}{NEWLINE}我还以为你不来了呢。",
+   "en": "Blue: Great, {VAR:0103:0}! I thought you{NEWLINE}weren’t coming.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "小蓝『我跟你说啊{VAR:0103:0},{NEWLINE}这次邀请咱们见面的{CLEAR}可是精灵联盟的主席先生！{CLEAR}你一会儿可别犯傻哟。",
+   "en": "Green: Listen, {VAR:0103:0}, the one who{NEWLINE}invited us this time is the President of{CLEAR}the Pokémon League himself! Don’t go{CLEAR}acting silly, okay?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "小赤『{VAR:0103:0}就算不知道{NEWLINE}邀请咱们的人是达马兰奇主席,{CLEAR}她也一定回来的。",
+   "en": "Red: Even if {VAR:0103:0} didn’t know it was{NEWLINE}President Goodshow who invited us,{CLEAR}she’d definitely have come.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh typo 回来 for 会来; Red refers to the (female) player as ‘she’."
+  },
+  {
+   "id": 15,
+   "zh": "菊子『你爷爷放弃对战{NEWLINE}去搞研究,{CLEAR}真是可惜了。",
+   "en": "Agatha: Your grandpa gave up battling{NEWLINE}to do research. What a waste.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "小绿『爷爷的性格比较平和,{NEWLINE}不喜欢让精灵做这么严格的训练。",
+   "en": "Blue: Gramps is pretty mild-mannered.{NEWLINE}He doesn’t like putting Pokémon through{CLEAR}such tough training.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "菊子『所以说训练家的心境{NEWLINE}也是决定其上限的……",
+   "en": "Agatha: That’s why a Trainer’s state of{NEWLINE}mind decides how far they can go...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "渡『各位！{NEWLINE}主席和社长的会谈顺利结束了。",
+   "en": "Lance: Everyone! The talks between the{NEWLINE}President and Silph’s president went{CLEAR}smoothly.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "科拿『真是太好了。",
+   "en": "Lorelei: That’s wonderful.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "志霸『哈哈哈,我就说嘛！",
+   "en": "Bruno: Ha ha ha! What did I tell you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "渡『西鲁夫社长真的是一位{NEWLINE}非常深明大义的企业家,{CLEAR}他无条件同意了联盟的所有提议。",
+   "en": "Lance: Silph’s president is truly an{NEWLINE}enlightened businessman. He{CLEAR}unconditionally agreed to all of the{CLEAR}League’s proposals.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "志霸『什么结果？",
+   "en": "Bruno: What was the outcome?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "渡『菊子女士,主席说现在可以{NEWLINE}接见那几位年轻训练家了,{CLEAR}请他们过来吧。",
+   "en": "Lance: Madam Agatha, the President{NEWLINE}says he can receive the young Trainers{CLEAR}now. Please bring them over.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "菊子『嘿,真是让人好等。",
+   "en": "Agatha: Heh. Kept us waiting long{NEWLINE}enough.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "菊子『好了,达马兰奇主席的工作{NEWLINE}已经圆满完成。{CLEAR}你们现在跟着渡去见他吧。",
+   "en": "Agatha: Right. President Goodshow’s{NEWLINE}work here is done. Now follow Lance to{CLEAR}go and see him.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "小绿『是！{NEWLINE}小蓝『好嘞！",
+   "en": "Blue: Yes, ma’am! Green: You bet!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "小绿、小赤『是！",
+   "en": "Blue & Red: Yes, ma’am!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "娜姿『这里正在进行特殊安保,{NEWLINE}你如果没事不要靠近！",
+   "en": "Sabrina: Special security measures are{NEWLINE}in place here. If you have no business{CLEAR}here, stay away!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "大吾『听说金黄市有一家公司{NEWLINE}跟芳缘地区的得文公司差不多,{CLEAR}于是特地跑过来看看。{CLEAR}相比之下还是西鲁夫公司更气派啊。",
+   "en": "Steven: I heard there was a company in{NEWLINE}Saffron City a lot like Hoenn’s Devon{CLEAR}Corporation, so I came to take a look.{CLEAR}Silph Co. is even more impressive, I must{CLEAR}say.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "大吾『{VAR:0103:0},{NEWLINE}你也来西鲁夫公司参观啊,{CLEAR}看来咱们两个的兴趣点很相似嘛。{CLEAR}说起共同的兴趣来,{CLEAR}要来一场久违的精灵对战吗？",
+   "en": "Steven: {VAR:0103:0}, you’re visiting Silph{NEWLINE}Co. too? Seems we have similar{CLEAR}interests. Speaking of shared{CLEAR}interests, how about a Pokémon battle?{CLEAR}It’s been a while.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "达马兰奇主席",
+   "en": "President Goodshow",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "菊子『喂,你要去哪啊？{NEWLINE}达马兰奇主席正在社长室等着呢。",
+   "en": "Agatha: Hey, where are you going?{NEWLINE}President Goodshow is waiting in the{CLEAR}president’s office.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "西鲁夫公司电梯,{NEWLINE}请遵循先来后到的原则乘坐。",
+   "en": "Silph Co. Elevator{NEWLINE}Please ride on a first-come,{CLEAR}first-served basis.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "您好,这里是社长办公室,{NEWLINE}如果没有什么事的话{CLEAR}请不要去打扰社长办公。",
+   "en": "Hello, this is the president’s office. If{NEWLINE}you have no business here, please don’t{CLEAR}disturb the president at work.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "志霸『我都听小刚说了哦,{NEWLINE}你们很能干嘛,{CLEAR}居然可以再月见山{CLEAR}击退那么一大帮火箭队。",
+   "en": "Bruno: Brock told me all about it. You{NEWLINE}kids are something! You drove off a{CLEAR}whole gang of Team Rocket at Mt. Moon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "科拿『多亏你们{NEWLINE}当时在圣安努号上,{CLEAR}不然船上发生的事情{CLEAR}可能永远都不会被世人知道了。",
+   "en": "Lorelei: Thanks to you being on the{NEWLINE}S.S. Anne, the world didn’t stay in the{CLEAR}dark about what happened on that ship.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-019"
+  },
+  {
+   "id": 37,
+   "zh": "菊子『在精灵之塔和你们交战的{NEWLINE}那个火箭队干部,{CLEAR}应该是在石英大会上{CLEAR}取得过精英训练家资格的。{CLEAR}想不到你们三个初级训练家{CLEAR}居然能跟他斗个旗鼓相当。",
+   "en": "Agatha: That Team Rocket Executive you{NEWLINE}fought at the Pokémon Tower must have{CLEAR}earned Ace Trainer status at the Indigo{CLEAR}Conference. Who’d have thought three{CLEAR}Junior Trainers like you could fight him{CLEAR}to a standstill?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "我是社长大人的秘书,{NEWLINE}负责陪社长出席各种活动。",
+   "en": "I’m the president’s secretary. I{NEWLINE}accompany the president to all sorts of{CLEAR}events.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "自从精灵联盟{NEWLINE}接管了西鲁夫公司以来,{CLEAR}社长就再也没有带我出去玩过了。",
+   "en": "Ever since the Pokémon League took{NEWLINE}over Silph Co., the president hasn’t{CLEAR}taken me out to have fun even once.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "我正在处理公司的各项事务,{NEWLINE}很忙的好吗？{CLEAR}请不要打扰我好吗！",
+   "en": "I’m handling all kinds of company{NEWLINE}business here. I’m really busy, okay?{CLEAR}Please don’t bother me, okay?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "现在公司施行了加班3倍工资的规定,{NEWLINE}我再也不嫌活多干不完了。",
+   "en": "The company now pays triple for{NEWLINE}overtime, so I don’t mind having too{CLEAR}much work anymore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "大吾『厉害！{NEWLINE}感觉跟你之间的差距又变大了。",
+   "en": "Steven: Amazing! I feel like the gap{NEWLINE}between us has grown even wider.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "大吾『这是我在旅行途中{NEWLINE}发现的稀有石头,{CLEAR}分你一块吧。",
+   "en": "Steven: This is a rare stone I found on{NEWLINE}my travels. Here, have one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "金属怪『Me——tang！",
+   "en": "Metang: Me-tang!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "西鲁夫公司好大啊,{NEWLINE}花一天时间根本参观不完。",
+   "en": "Silph Co. is so big. You couldn’t see all{NEWLINE}of it in a whole day.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "能跟西鲁夫公司{NEWLINE}这样的大公司合作,{CLEAR}真是太好了。",
+   "en": "Getting to work with a big company like{NEWLINE}Silph Co. is just wonderful.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "{VAR:0103:0}！",
+   "en": "{VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Joy's reveal: #47, #61–#79, #48–#60. Menu #63–#66 (answers #67/#69/#71/#73); #59 male / #60 female player."
+  },
+  {
+   "id": 48,
+   "zh": "乔伊『不,我是希望你能{NEWLINE}为自己的安全考虑,{CLEAR}不要再往前深入去与火箭队为敌了。",
+   "en": "Joy: No. I want you to think of your own{NEWLINE}safety, and stop going any deeper to{CLEAR}fight Team Rocket.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0103:0}『那可不行,{NEWLINE}身为真新镇的训练家{CLEAR}怎能坐视火箭队为所欲为。",
+   "en": "{VAR:0103:0}: I can’t do that. As a Trainer{NEWLINE}from Pallet Town, how could I just{CLEAR}stand by while Team Rocket does{CLEAR}whatever it wants?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "乔伊『你是下定决心{NEWLINE}要跟火箭队对抗到底了？",
+   "en": "Joy: You’re determined to fight Team{NEWLINE}Rocket to the bitter end?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0103:0}『嗯！",
+   "en": "{VAR:0103:0}: Yes!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "乔伊『唉,那你去吧！",
+   "en": "Joy: Sigh... Then go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "乔伊『在常磐市见到你的时候,{NEWLINE}我就觉得你是个有潜力的新人。{CLEAR}后来在月见山和圣安努号上,{CLEAR}你的表现也验证了我的眼光。{CLEAR}本打算拉你入伙跟你组成搭档,{CLEAR}谁知你却执意要跟我们火箭队作对。{CLEAR}为了阻止你给老大添麻烦,{CLEAR}就由我在这里解决掉你吧。",
+   "en": "Joy: When I met you in Viridian City, I{NEWLINE}thought you were a rookie with{CLEAR}potential. At Mt. Moon and on the{CLEAR}S.S. Anne, you proved me right. I was{CLEAR}planning to recruit you as my partner,{CLEAR}but you insisted on opposing us, Team{CLEAR}Rocket. To keep you from causing the{CLEAR}boss any more trouble, I’ll finish you{CLEAR}off right here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-019"
+  },
+  {
+   "id": 54,
+   "zh": "{VAR:0103:0}『不用担心,{NEWLINE}我一定会平安回来的。",
+   "en": "{VAR:0103:0}: Don’t worry. I’ll definitely{NEWLINE}come back safe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "乔伊『上啊！吉利蛋！",
+   "en": "Joy: Go! Chansey!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "{VAR:0103:0}『你这是干什么！",
+   "en": "{VAR:0103:0}: What are you doing?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "{VAR:0103:0}『乔伊小姐你……{NEWLINE}是火箭队的人？！",
+   "en": "{VAR:0103:0}: Miss Joy... you’re with Team{NEWLINE}Rocket?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "乔伊『没错,我火箭员乔伊{NEWLINE}今天要在这里把你打败！",
+   "en": "Joy: That’s right. I, Rocket Joy, will{NEWLINE}defeat you right here, today!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "乔伊『不愧是我看上的男人！{NEWLINE}不到一年时间,你就从一个新人{CLEAR}成长为我无法击败的对手了。{SCROLL}乔伊『你继续前进吧,{NEWLINE}去好好体会一下我们老大的恐怖。",
+   "en": "Joy: That’s the man I set my sights on!{NEWLINE}In less than a year, you’ve grown from{CLEAR}a rookie into an opponent I can’t beat.{SCROLL}Joy: Go on ahead. Go and get a real{NEWLINE}taste of how terrifying our boss is.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "乔伊『不愧是我看上的伙伴！{NEWLINE}不到一年时间,你就从一个新人{CLEAR}成长为我无法击败的对手了。{SCROLL}乔伊『你继续前进吧,{NEWLINE}去好好体会一下我们老大的恐怖。",
+   "en": "Joy: That’s the partner I set my sights{NEWLINE}on! In less than a year, you’ve grown{CLEAR}from a rookie into an opponent I can’t{CLEAR}beat.{SCROLL}Joy: Go on ahead. Go and get a real{NEWLINE}taste of how terrifying our boss is.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "{VAR:0103:0}『乔伊小姐？？",
+   "en": "{VAR:0103:0}: Miss Joy??",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "乔伊『我们以前见过面的,{NEWLINE}你还记得我吗？{SCROLL}",
+   "en": "Joy: We’ve met before. Do you remember{NEWLINE}me?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "在常磐森林见过",
+   "en": "In Viridian Forest",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 64,
+   "zh": "在月见山见过",
+   "en": "At Mt. Moon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 65,
+   "zh": "在圣安努号见过",
+   "en": "On the S.S. Anne",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 66,
+   "zh": "我对你没印象",
+   "en": "I don’t remember you",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 67,
+   "zh": "{VAR:0103:0}『我不太记得了……",
+   "en": "{VAR:0103:0}: I don’t really remember...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "乔伊『你还真是无情啊,{NEWLINE}从你来到常磐市开始我就在关注你了。{CLEAR}咱们先后在常磐森林、月见山{CLEAR}以及圣安努号都见过面的。",
+   "en": "Joy: How heartless of you. I’ve been{NEWLINE}watching you ever since you came to{CLEAR}Viridian City. We met in Viridian Forest,{CLEAR}at Mt. Moon and on the S.S. Anne.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "{VAR:0103:0}『我记得你,{NEWLINE}咱们在常磐森林见过。",
+   "en": "{VAR:0103:0}: I remember you. We met in{NEWLINE}Viridian Forest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "乔伊『没错,当时你救下了一只伊布,{NEWLINE}我还为它治疗了呢。{CLEAR}后来咱们又在月见山、{CLEAR}圣安努号上见过几次。{CLEAR}你都还记得吧？",
+   "en": "Joy: That’s right. You saved an Eevee,{NEWLINE}and I treated it. Later we met a few{CLEAR}more times, at Mt. Moon and on the{CLEAR}S.S. Anne. You remember, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-019"
+  },
+  {
+   "id": 71,
+   "zh": "{VAR:0103:0}『我记得你,{NEWLINE}咱们在月见山见过。",
+   "en": "{VAR:0103:0}: I remember you. We met at{NEWLINE}Mt. Moon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-019"
+  },
+  {
+   "id": 72,
+   "zh": "乔伊『没错,当时多亏你帮忙{NEWLINE}才能赶跑挡路的火箭队。{CLEAR}其实咱们还在常磐森林、{CLEAR}圣安努号上见过几次。{CLEAR}你都还记得吧？",
+   "en": "Joy: That’s right. Thanks to your help,{NEWLINE}we drove off the Team Rocket members{CLEAR}blocking the way. We also met a few{CLEAR}times in Viridian Forest and on the{CLEAR}S.S. Anne. You remember, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RV-019"
+  },
+  {
+   "id": 73,
+   "zh": "{VAR:0103:0}『我记得你,{NEWLINE}咱们在圣安努号见过。",
+   "en": "{VAR:0103:0}: I remember you. We met on the{NEWLINE}S.S. Anne.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "乔伊『没错,当时多亏你帮忙{NEWLINE}才能赶跑抢劫游轮的火箭队。{CLEAR}其实咱们还在常磐森林、{CLEAR}月见山上见过几次。{CLEAR}你都还记得吧？",
+   "en": "Joy: That’s right. Thanks to your help,{NEWLINE}we drove off the Team Rocket members{CLEAR}robbing the ship. We also met a few{CLEAR}times in Viridian Forest and at Mt. Moon.{CLEAR}You remember, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "{VAR:0103:0}『这么说来,{NEWLINE}咱们确实见过好多次。{CLEAR}可是自从圣安努号事件之后{CLEAR}我就没再见过你了,{CLEAR}我还担心你是不是遭遇了什么不测呢。",
+   "en": "{VAR:0103:0}: Now that you mention it, we{NEWLINE}really have met lots of times. But I{CLEAR}haven’t seen you since the S.S. Anne{CLEAR}incident. I was worried something might{CLEAR}have happened to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "乔伊『你能担心我的安危,{NEWLINE}我真的好开心。{CLEAR}所以今天看到你深陷险境,{CLEAR}我也不能置之不理。",
+   "en": "Joy: You were worried about me? That{NEWLINE}makes me so happy. So when I see you in{CLEAR}such danger today, I can’t just ignore{CLEAR}it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "{VAR:0103:0}『哦？乔伊小姐是要{NEWLINE}送给我什么珍贵的道具吗？",
+   "en": "{VAR:0103:0}: Oh? Are you going to give me{NEWLINE}some rare item, Miss Joy?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "乔伊『火箭队这次来的人非常多,{NEWLINE}你这样孤军深入肯定难以应付。{CLEAR}我真的很担心你会出事,{CLEAR}所以拜托你不要再往前走了。",
+   "en": "Joy: Team Rocket brought a huge number{NEWLINE}of people this time. Going in deep all{CLEAR}alone like this, you won’t be able to{CLEAR}handle it. I’m really worried something{CLEAR}will happen to you, so please, don’t go{CLEAR}any further.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "{VAR:0103:0}『精灵联盟的四天王和馆主们{NEWLINE}都在金黄市外面等着我破除屏障呢。{CLEAR}我可不能在这里半途而废。",
+   "en": "{VAR:0103:0}: The Elite Four and the Gym{NEWLINE}Leaders of the Pokémon League are all{CLEAR}waiting outside Saffron City for me to{CLEAR}break the barrier. I can’t give up{CLEAR}halfway now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "你是哪里来的？{NEWLINE}赶紧给我去墙角站好！",
+   "en": "Where’d you come from? Go stand in the{NEWLINE}corner, now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "哼,居然打不过你。{NEWLINE}看来不能抓你来当人质了。",
+   "en": "Hmph, I can’t beat you. Guess I can’t{NEWLINE}grab you as a hostage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "我不管你是谁,{NEWLINE}给我老老实实站好！",
+   "en": "I don’t care who you are. Stand still{NEWLINE}and behave!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "就算打不过你,{NEWLINE}我也不会轻易放走这些人质。",
+   "en": "Even if I can’t beat you, I’m not{NEWLINE}letting these hostages go that easily.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "我们西鲁夫公司的接待大厅,{NEWLINE}变成火箭队的接待大厅了……",
+   "en": "Our Silph Co. reception lobby has{NEWLINE}turned into Team Rocket’s reception{CLEAR}lobby...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "欢迎光临西鲁夫公司！{NEWLINE}上次火箭队袭击公司时多亏了您呢。",
+   "en": "Welcome to Silph Co.! Thank you so much{NEWLINE}for your help when Team Rocket{CLEAR}attacked the company.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "我本来还想反抗火箭队,{NEWLINE}结果却被他们揍得只能躲到柜台里……",
+   "en": "I wanted to fight back against Team{NEWLINE}Rocket, but they beat me up so badly I{CLEAR}could only hide behind the counter...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "我身为西鲁夫公司的警卫,{NEWLINE}面对火箭队时却毫无还手之力……",
+   "en": "I’m a Silph Co. guard, but against Team{NEWLINE}Rocket I couldn’t even fight back...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "我只是来西鲁夫公司谈生意,{NEWLINE}结果却遇到火箭队袭击这种事。{CLEAR}求你救救我们吧！",
+   "en": "I only came to Silph Co. to do business,{NEWLINE}and then Team Rocket attacked. Please,{CLEAR}save us!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "这些火箭队员盯得我浑身不舒服,{NEWLINE}要是我有口袋妖怪,{CLEAR}早就狠狠教训他们了。",
+   "en": "These Team Rocket goons staring at me{NEWLINE}gives me the creeps. If I had a{CLEAR}Pokémon, I’d have taught them a real{CLEAR}lesson by now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "妈的,这个社长真会享受。{NEWLINE}弄了这么一大帮美女给他当秘书。",
+   "en": "Damn, this president really knows how{NEWLINE}to live. He’s got a whole bunch of babes{CLEAR}working as his secretaries.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "你想从我这里救人？{NEWLINE}门儿都没有！",
+   "en": "You want to rescue people from me? Not{NEWLINE}a chance!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "呜呜呜……我好害怕……",
+   "en": "Boo-hoo... I’m so scared...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "现在这种情况,{NEWLINE}只要别杀我,让我做什么都行！",
+   "en": "The way things are, I’ll do anything you{NEWLINE}want, as long as you don’t kill me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "西鲁夫公司还有未来吗……",
+   "en": "Does Silph Co. even have a future{NEWLINE}anymore...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "雅典娜『虽然早就猜到{NEWLINE}会有人闯进来妨碍我们,{CLEAR}但真没想到居然是你这个小鬼,{CLEAR}看来精灵联盟也是无人可用了。",
+   "en": "Ariana: I figured someone would barge in{NEWLINE}here to get in our way. I just never{CLEAR}imagined it would be a brat like you. The{CLEAR}Pokémon League must really be out of{CLEAR}people.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "{VAR:0103:0}『少在那瞧不起人,{NEWLINE}这一路上阻挡我的火箭队{CLEAR}可是都被我打败了！",
+   "en": "{VAR:0103:0}: Don’t look down on me! I’ve{NEWLINE}beaten every Team Rocket member who{CLEAR}got in my way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "雅典娜『老娘是火箭队关东基地长,{NEWLINE}跟你前面的对手可不是一个等级的。{CLEAR}你那可笑的自信和脆弱的生命{CLEAR}都将在这里被我粉碎！",
+   "en": "Ariana: Listen up, I run Team Rocket’s{NEWLINE}Kanto Base. I’m in a whole different{CLEAR}league from the opponents you’ve faced{CLEAR}so far. Your laughable confidence and{CLEAR}your fragile life will both be crushed{CLEAR}right here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "雅典娜『连我……也输了吗？！",
+   "en": "Ariana: Even I... lost?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "{VAR:0103:0}『既然你输了,{NEWLINE}就赶紧把路让开。{CLEAR}我要去社长室破除你们的屏障。",
+   "en": "{VAR:0103:0}: You lost, so get out of the{NEWLINE}way. I’m going to the president’s office{CLEAR}to break your barrier.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "player variants #99 / #100"
+  },
+  {
+   "id": 100,
+   "zh": "{VAR:0103:0}『破除金黄市屏障的关键{NEWLINE}就在前边社长室里吧？{CLEAR}既然你输了,就赶紧给我让开！",
+   "en": "{VAR:0103:0}: The key to breaking Saffron{NEWLINE}City’s barrier is in the president’s{CLEAR}office ahead, right? You lost, so get{CLEAR}out of my way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "雅典娜『嘿嘿,我们火箭队的老大{NEWLINE}正在社长室里跟西鲁夫的社长谈判呢。{CLEAR}你要是想进去的话就进去吧。{CLEAR}我们老大会让你见识到{CLEAR}什么是真正的地狱！",
+   "en": "Ariana: Heh heh. Our boss is in the{NEWLINE}president’s office right now,{CLEAR}negotiating with Silph’s president. Go in{CLEAR}if you want. Our boss will show you what{CLEAR}real hell looks like!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "火箭队首领『现在精灵联盟{NEWLINE}已经逐步接管西鲁夫公司,{CLEAR}如果你再不跟我们火箭队联手,{CLEAR}你拥有的一切将全部充公,{CLEAR}你父辈辛苦建立的商业帝国{CLEAR}可就全被你给败光了。",
+   "en": "Rocket Boss: The Pokémon League is{NEWLINE}gradually taking over Silph Co. If you{CLEAR}don’t join forces with Team Rocket now,{CLEAR}everything you own will be confiscated,{CLEAR}and the business empire your father’s{CLEAR}generation worked so hard to build will{CLEAR}be squandered by you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "eavesdropping scene #102–#117 (alt. #168/#169); menu #193/#194, #172/#173 (attack the barrier Pokémon → #130–#145 / attack the boss → #174–#186)"
+  },
+  {
+   "id": 103,
+   "zh": "唉,我没有您这样的本事。{NEWLINE}所以在时代洪流面前能保住性命,{CLEAR}拿着精灵联盟给的安置钱{CLEAR}安心做个无所事事的名誉社长,{CLEAR}也就心满意足了。",
+   "en": "Sigh... I don’t have your talents. If I{NEWLINE}can survive the tide of the times, take{CLEAR}the Pokémon League’s resettlement{CLEAR}money and live out my days as an idle{CLEAR}honorary president, I’ll be content.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "火箭队首领『罢了,竖子不足与谋。{SCROLL}火箭队首领『你既然不肯跟我合作,{NEWLINE}那就乖乖交出你们公司研发的那个{CLEAR}任何精灵都能一球捕捉的大师球吧。{SCROLL}火箭队首领『我有只非常珍贵的精灵{NEWLINE}最近从实验室逃走了,{CLEAR}现在急需这个大师球一用。",
+   "en": "Rocket Boss: Enough. The boy is not{NEWLINE}worth scheming with.{SCROLL}Rocket Boss: Since you refuse to work{NEWLINE}with me, just hand over the Master Ball{CLEAR}your company developed. The one that{CLEAR}can catch any Pokémon with a single{CLEAR}throw.{SCROLL}Rocket Boss: A very precious Pokémon{NEWLINE}of mine recently escaped from the lab. I{CLEAR}need this Master Ball urgently.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "竖子不足与谋: classical quote (Fan Zeng), rendered plainly"
+  },
+  {
+   "id": 105,
+   "zh": "大师球是什么？我从来没听说过啊。",
+   "en": "Master Ball? What’s that? I’ve never{NEWLINE}heard of it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#37"
+  },
+  {
+   "id": 106,
+   "zh": "火箭队首领『哈哈哈,{NEWLINE}你不敢跟精灵联盟作对,{CLEAR}却敢在我面前装傻。{CLEAR}真有你的啊！",
+   "en": "Rocket Boss: Ha ha ha! You don’t dare{NEWLINE}cross the Pokémon League, yet you dare{CLEAR}play dumb in front of me. Impressive!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#38"
+  },
+  {
+   "id": 107,
+   "zh": "啊,这……唉……{SCROLL}大师球是公司的最高科研机密,{NEWLINE}就这么把它给您,{CLEAR}我怕精灵联盟事后跟我为难。",
+   "en": "Ah, well... Um... Sigh...{SCROLL}The Master Ball is the company’s top{NEWLINE}research secret. If I just hand it over{CLEAR}to you, I’m afraid the Pokémon League{CLEAR}will make things hard for me afterward.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "火箭队首领『你怕精灵联盟,{NEWLINE}就不怕我们火箭队吗？",
+   "en": "Rocket Boss: You’re afraid of the{NEWLINE}Pokémon League, but not of Team{CLEAR}Rocket?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 109,
+   "zh": "不敢不敢。大师球我就带在身上,{NEWLINE}我现在把它给您。",
+   "en": "I wouldn’t dare, I wouldn’t dare! I{NEWLINE}have the Master Ball with me. I’ll give{CLEAR}it to you right now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#41"
+  },
+  {
+   "id": 110,
+   "zh": "这就是我们西鲁夫公司{NEWLINE}最新研发的大师球了。{CLEAR}捕捉任何精灵都只需一球。",
+   "en": "This is Silph Co.’s newest development:{NEWLINE}the Master Ball. It catches any{CLEAR}Pokémon with just one throw.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#42"
+  },
+  {
+   "id": 111,
+   "zh": "火箭队首领『就只有这一个吗？",
+   "en": "Rocket Boss: Is this the only one?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#43"
+  },
+  {
+   "id": 112,
+   "zh": "负责大师球开发的那个技术员,{NEWLINE}在做出这个球后就累死了。{CLEAR}所以目前世界上只有这一个大师球。",
+   "en": "The technician in charge of developing{NEWLINE}the Master Ball worked himself to death{CLEAR}after making it. So right now, this is{CLEAR}the only Master Ball in the world.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#44"
+  },
+  {
+   "id": 113,
+   "zh": "火箭队首领『世上只有一个的珍品……{NEWLINE}这么看倒也不虚此行。",
+   "en": "Rocket Boss: A treasure that’s one of{NEWLINE}a kind... In that case, this trip was{CLEAR}worth it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#45"
+  },
+  {
+   "id": 114,
+   "zh": "恕我多嘴地问一句,{NEWLINE}您的实力早就已经无敌于天下。{CLEAR}到底是什么样的精灵{CLEAR}值得您这样大费周章地拿大师球来捉？",
+   "en": "If you’ll pardon my asking... You’re{NEWLINE}already stronger than anyone in the{CLEAR}world. What kind of Pokémon is worth{CLEAR}going to all this trouble to catch with a{CLEAR}Master Ball?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "火箭队首领『这可是火箭队的机密,{NEWLINE}知道的人要么是火箭队的高层,{CLEAR}要么是死人。{SCROLL}火箭队首领『你很想听是吗？",
+   "en": "Rocket Boss: That is a Team Rocket{NEWLINE}secret. Those who know it are either{CLEAR}Team Rocket’s top brass... or dead.{SCROLL}Rocket Boss: Do you really want to hear{NEWLINE}it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "对不起,就当我什么都没说。",
+   "en": "I’m sorry! Just pretend I never said{NEWLINE}anything.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#48"
+  },
+  {
+   "id": 117,
+   "zh": "火箭队首领和西鲁夫社长的谈话{NEWLINE}似乎快要结束了。{CLEAR}再不采取行动就来不及了。",
+   "en": "The talk between Team Rocket’s boss{NEWLINE}and Silph’s president seems to be{CLEAR}ending. If you don’t act now, it’ll be{CLEAR}too late.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "火箭队首领『原来是你这个小子。{NEWLINE}我看过雅典娜他们的报告,{CLEAR}你坏了我们火箭队不少事啊。",
+   "en": "Rocket Boss: So it’s you, boy. I’ve{NEWLINE}read Ariana’s reports. You’ve spoiled{CLEAR}quite a few of Team Rocket’s plans.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#50"
+  },
+  {
+   "id": 119,
+   "zh": "火箭队首领『原来是你这个丫头。{NEWLINE}我看过雅典娜他们的报告,{CLEAR}你坏了我们火箭队不少事啊。",
+   "en": "Rocket Boss: So it’s you, girl. I’ve{NEWLINE}read Ariana’s reports. You’ve spoiled{CLEAR}quite a few of Team Rocket’s plans.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#51"
+  },
+  {
+   "id": 120,
+   "zh": "{VAR:0103:0}『我今天也是{NEWLINE}来阻止你们阴谋的！",
+   "en": "{VAR:0103:0}: And today I’m here to stop{NEWLINE}your schemes too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#78"
+  },
+  {
+   "id": 121,
+   "zh": "{VAR:0103:0}『今天我也是来坏你们事的！",
+   "en": "{VAR:0103:0}: And today I’m here to spoil{NEWLINE}your plans again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#52"
+  },
+  {
+   "id": 122,
+   "zh": "火箭队首领『你能来到这里,{NEWLINE}说明你突破了我部下们的层层封锁。{CLEAR}看来乔伊对你的推荐也不无道理。{CLEAR}我对你的实力和勇气很感兴趣。{CLEAR}怎么样,要不要加入我们火箭队,{CLEAR}一起成为这个世界的统治者呢？",
+   "en": "Rocket Boss: If you’ve made it here,{NEWLINE}you broke through layer after layer of{CLEAR}my subordinates’ blockades.{SCROLL}It seems Joy’s recommendation of you{NEWLINE}wasn’t unfounded.{SCROLL}I’m interested in your strength and{NEWLINE}your courage. How about it? Will you{CLEAR}join Team Rocket and rule this world{CLEAR}with us?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#53"
+  },
+  {
+   "id": 123,
+   "zh": "{VAR:0103:0}『我才不会{NEWLINE}跟你们这种人同流合污！{CLEAR}{VAR:0100:1}！跟他拼了！",
+   "en": "{VAR:0103:0}: I’d never join forces with{NEWLINE}people like you! {VAR:0100:1}! Give it{CLEAR}everything you’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "{VAR:0103:0}『你们还是去监狱里{NEWLINE}做统治世界的春秋大梦吧！{CLEAR}{VAR:0100:1}！跟他拼了！",
+   "en": "{VAR:0103:0}: Go dream about ruling the{NEWLINE}world from a prison cell! {VAR:0100:1}!{CLEAR}Give it everything you’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 125,
+   "zh": "火箭队首领『年轻气盛,{NEWLINE}不知道天高地厚。{CLEAR}你现在好好体会一下世界的宽广吧！",
+   "en": "Rocket Boss: Young and reckless, with{NEWLINE}no idea how big the world is. Now let me{CLEAR}show you just how vast it really is!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#55"
+  },
+  {
+   "id": 126,
+   "zh": "火箭队首领『很有两下子嘛,{NEWLINE}不过我的实力可不止于此。",
+   "en": "Rocket Boss: Not bad at all. But my{NEWLINE}strength doesn’t end there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#56"
+  },
+  {
+   "id": 127,
+   "zh": "火箭队首领『你现在明白{NEWLINE}你我之间的差距了吗？",
+   "en": "Rocket Boss: Do you understand the gap{NEWLINE}between us now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#57"
+  },
+  {
+   "id": 128,
+   "zh": "{VAR:0103:0}『可恶,真的好强……{NEWLINE}不过精灵联盟的四天王和馆主们{CLEAR}已经包围了金黄市,{CLEAR}你是跑不了的！",
+   "en": "{VAR:0103:0}: Dammit, you really are{NEWLINE}strong...{SCROLL}But the Elite Four and the Gym Leaders{NEWLINE}of the Pokémon League have surrounded{CLEAR}Saffron City. You can’t escape!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#58"
+  },
+  {
+   "id": 129,
+   "zh": "火箭队首领『你是说那些{NEWLINE}连金黄市都进不来的废物吗？",
+   "en": "Rocket Boss: You mean those losers who{NEWLINE}can’t even get into Saffron City?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#59"
+  },
+  {
+   "id": 130,
+   "zh": "{VAR:0103:0}『我早就注意到了,{NEWLINE}那边的吸盘魔偶和素利拍{CLEAR}就是制造屏障的核心吧？{CLEAR}我虽然无法打败你,但是……",
+   "en": "{VAR:0103:0}: I noticed a while ago. That{NEWLINE}Mr. Mime and Hypno over there are the{CLEAR}core of the barrier, aren’t they? I{CLEAR}can’t beat you, but...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#60"
+  },
+  {
+   "id": 131,
+   "zh": "{VAR:0103:0}『快！{NEWLINE}趁现在攻击素利拍！",
+   "en": "{VAR:0103:0}: Quick! Attack Hypno now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 132,
+   "zh": "火箭队首领『尼多后,阻止它！",
+   "en": "Rocket Boss: Nidoqueen, stop it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#62"
+  },
+  {
+   "id": 133,
+   "zh": "{VAR:0103:0}『嘿嘿……{NEWLINE}终究还是我快一步。{CLEAR}这样一来,你的屏障应该保不住了吧？",
+   "en": "{VAR:0103:0}: Heh heh... I was one step{NEWLINE}faster after all. Your barrier won’t{CLEAR}hold up now, will it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#63"
+  },
+  {
+   "id": 134,
+   "zh": "火箭队首领『哈哈,好一手出其不意。{NEWLINE}真没想到会被你抢了先。{CLEAR}你这样的人放任不管必成后患。{SCROLL}火箭队首领『尼多后,干掉这个小鬼！",
+   "en": "Rocket Boss: Ha! A fine surprise{NEWLINE}attack. I never thought you’d beat me{CLEAR}to it. Leave someone like you alone, and{CLEAR}you’ll become a threat.{SCROLL}Rocket Boss: Nidoqueen, finish off this{NEWLINE}brat!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 135,
+   "zh": "小绿『水箭龟快挡住尼多后！",
+   "en": "Blue: Blastoise, block Nidoqueen!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#66"
+  },
+  {
+   "id": 136,
+   "zh": "小绿『{VAR:0103:0}你没事吧？",
+   "en": "Blue: {VAR:0103:0}, are you okay?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#68"
+  },
+  {
+   "id": 137,
+   "zh": "{VAR:0103:0}『我应该是……{NEWLINE}受伤……了……",
+   "en": "{VAR:0103:0}: I think... I’m... hurt...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#65"
+  },
+  {
+   "id": 138,
+   "zh": "火箭队首领『居然又冒出一个{NEWLINE}自寻死路的小鬼。",
+   "en": "Rocket Boss: And here’s another brat{NEWLINE}who’s asking to die.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#67"
+  },
+  {
+   "id": 139,
+   "zh": "雅典娜『不好了老大,{NEWLINE}屏障出现了裂缝,就快撑不住了。",
+   "en": "Ariana: Boss, it’s bad! The barrier is{NEWLINE}cracking. It won’t hold much longer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#69"
+  },
+  {
+   "id": 140,
+   "zh": "火箭队首领『嗯,我知道。{NEWLINE}立即通知全体队员,{CLEAR}去金黄车站坐火车撤退！",
+   "en": "Rocket Boss: Yes, I know. Order all{NEWLINE}members to retreat at once. We’ll take{CLEAR}the train from Saffron Station!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "雅典娜『是！",
+   "en": "Ariana: Yes, sir!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#71"
+  },
+  {
+   "id": 142,
+   "zh": "火箭队首领『看来破除屏障,{NEWLINE}帮你捡了一条命呢。{CLEAR}我们以后肯定还会再见面的,{CLEAR}希望下次跟你的对战会更有趣一点。",
+   "en": "Rocket Boss: Looks like breaking the{NEWLINE}barrier saved your life. We will surely{CLEAR}meet again. I hope our next battle is{CLEAR}more interesting.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "小绿『{VAR:0103:0}！{NEWLINE}火箭队的人好像退去了,{CLEAR}看来你成功破除了屏障啊！",
+   "en": "Blue: {VAR:0103:0}! Team Rocket seems to{NEWLINE}have pulled out. Looks like you broke{CLEAR}the barrier!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 144,
+   "zh": "{VAR:0103:0}『咳咳……没错……{NEWLINE}是咱们……{CLEAR}赢了……",
+   "en": "{VAR:0103:0}: Cough, cough... That’s{NEWLINE}right... We... won...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 145,
+   "zh": "小绿『喂喂！{VAR:0103:0}！{NEWLINE}你是不是受伤了！？{CLEAR}坚持住！我现在就带你去精灵中心！",
+   "en": "Blue: Hey, hey! {VAR:0103:0}! Are you{NEWLINE}hurt?! Hang in there! I’m taking you to{CLEAR}the Pokémon Center right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "小绿『你终于醒啦？{NEWLINE}才这点伤就昏迷过去,{CLEAR}看来你还差得远啊。",
+   "en": "Blue: You’re finally awake? Passing out{NEWLINE}over a few little scratches... Looks{CLEAR}like you’ve still got a long way to go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#79"
+  },
+  {
+   "id": 147,
+   "zh": "小绿『你终于醒啦？{NEWLINE}看你刚才昏迷的样子,{CLEAR}还真是让人担心。",
+   "en": "Blue: You’re finally awake? The way you{NEWLINE}were out cold had me really worried.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#80"
+  },
+  {
+   "id": 148,
+   "zh": "小蓝『别听小绿嘴硬,{NEWLINE}他把你从西鲁夫公司背来的时候{CLEAR}满脸都写着担心呢。",
+   "en": "Green: Don’t listen to Blue acting{NEWLINE}tough. When he carried you here from{CLEAR}Silph Co., he looked worried sick.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 149,
+   "zh": "小赤『你现在能恢复意识真是太好了。",
+   "en": "Red: I’m so glad you’ve come to.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#82"
+  },
+  {
+   "id": 150,
+   "zh": "小霞『呜呜……真是的,{NEWLINE}不要再这么吓我们了。",
+   "en": "Misty: Sniff... Honestly! Don’t scare us{NEWLINE}like that ever again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#83"
+  },
+  {
+   "id": 151,
+   "zh": "小霞『看到你平安无事,{NEWLINE}我们也能放心了。",
+   "en": "Misty: Seeing you safe and sound is such{NEWLINE}a relief.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#84"
+  },
+  {
+   "id": 152,
+   "zh": "大吾『咳咳,大伙……{NEWLINE}刚恢复的伤员{CLEAR}是不是需要安静地休息一下呢？",
+   "en": "Steven: Ahem. Everyone... Shouldn’t{NEWLINE}someone who just recovered get some{CLEAR}peace and quiet?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#85"
+  },
+  {
+   "id": 153,
+   "zh": "希罗娜『哈哈,看到{VAR:0103:0}恢复意识,{NEWLINE}大家都很兴奋呢。",
+   "en": "Cynthia: Ha ha, everyone’s so excited{NEWLINE}to see {VAR:0103:0} awake.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#86"
+  },
+  {
+   "id": 154,
+   "zh": "渡『看来{VAR:0103:0}的状态很好啊！{NEWLINE}伤势已经没有大碍了吗？",
+   "en": "Lance: {VAR:0103:0}, you look well! Are your{NEWLINE}injuries no longer serious?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#87"
+  },
+  {
+   "id": 155,
+   "zh": "{VAR:0103:0}『连渡先生也来了？{NEWLINE}我已经没事了！",
+   "en": "{VAR:0103:0}: Even you came, Mr. Lance? I’m{NEWLINE}fine now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#88"
+  },
+  {
+   "id": 156,
+   "zh": "渡『没事就好。{NEWLINE}这本来是精灵联盟的救援行动,{CLEAR}却把诸位牵扯进来,真的非常抱歉。{CLEAR}不过多亏了{VAR:0103:0}和小绿的活跃,{CLEAR}这次事件才能顺利解决。{CLEAR}我代表精灵联盟向你们表示感谢。{SCROLL}渡『这是达马兰奇主席{NEWLINE}让我带给二位的感谢品,{CLEAR}请你们收下吧。",
+   "en": "Lance: Good. This was meant to be a{NEWLINE}Pokémon League rescue operation. I’m{CLEAR}truly sorry you all got dragged into it.{SCROLL}But thanks to {VAR:0103:0} and Blue, the{NEWLINE}incident was resolved. On behalf of the{CLEAR}Pokémon League, thank you.{SCROLL}Lance: President Goodshow asked me to{NEWLINE}bring you both these tokens of his{CLEAR}gratitude. Please accept them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#89"
+  },
+  {
+   "id": 157,
+   "zh": "渡『这次事件{NEWLINE}还有很多后续工作要处理,{CLEAR}我现在要回联盟总部了。{CLEAR}期待在本届石英大会上与你们重逢。",
+   "en": "Lance: There’s still a lot to deal with{NEWLINE}after this incident. I have to head back{CLEAR}to League HQ now.{SCROLL}I look forward to seeing you again at{NEWLINE}this year’s Indigo Conference.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#90 | consistency fix (follow-up 4)"
+  },
+  {
+   "id": 158,
+   "zh": "娜姿『我听说{VAR:0103:0}恢复意识了,{NEWLINE}就过来看看。{CLEAR}没想到大家都在。{CLEAR}这次事件非常感谢大家伸出援手。{CLEAR}我作为金黄市的道馆馆主{CLEAR}没有尽到守护城市的责任,{CLEAR}深感自责。{CLEAR}之前拒绝各位的挑战是我不对,{CLEAR}今后金黄道馆将全面开放{CLEAR}接受任何级别的训练家前来挑战。{CLEAR}随时欢迎各位光临。",
+   "en": "Sabrina: I heard {VAR:0103:0} had come to,{NEWLINE}so I came to see you. I didn’t expect{CLEAR}everyone to be here.{SCROLL}Thank you all for helping out in this{NEWLINE}incident. As Saffron City’s Gym Leader,{CLEAR}I failed in my duty to protect the city,{CLEAR}and I blame myself deeply.{SCROLL}I was wrong to refuse your challenges{NEWLINE}before. From now on, the Saffron Gym is{CLEAR}fully open to Trainers of every level.{SCROLL}You are welcome anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#91"
+  },
+  {
+   "id": 159,
+   "zh": "娜姿『果然,大家都在。{NEWLINE}这次事件非常感谢大家伸出援手。{CLEAR}我作为金黄市的道馆馆主{CLEAR}没有尽到守护城市的责任,{CLEAR}深感自责。{CLEAR}之前拒绝各位的挑战是我不对,{CLEAR}今后金黄道馆将全面开放{CLEAR}接受任何级别的训练家前来挑战。{CLEAR}随时欢迎各位光临。",
+   "en": "Sabrina: Just as I thought, everyone is{NEWLINE}here. Thank you all for helping out in{CLEAR}this incident.{SCROLL}As Saffron City’s Gym Leader, I failed in{NEWLINE}my duty to protect the city, and I{CLEAR}blame myself deeply.{SCROLL}I was wrong to refuse your challenges{NEWLINE}before. From now on, the Saffron Gym is{CLEAR}fully open to Trainers of every level.{SCROLL}You are welcome anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#94"
+  },
+  {
+   "id": 160,
+   "zh": "小绿『我老早就想挑战金黄道馆了,{NEWLINE}就先不陪你这个伤病号咯。",
+   "en": "Blue: I’ve been itching to challenge the{NEWLINE}Saffron Gym for ages. So I won’t stick{CLEAR}around with you, invalid.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#92"
+  },
+  {
+   "id": 161,
+   "zh": "小绿『{VAR:0103:0},我想去挑战{NEWLINE}金黄道馆试试,{CLEAR}如果你的伤好了,也一起来吧！",
+   "en": "Blue: {VAR:0103:0}, I’m going to try{NEWLINE}challenging the Saffron Gym. Come too{CLEAR}once you’ve healed up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#93"
+  },
+  {
+   "id": 162,
+   "zh": "希罗娜『看到{VAR:0103:0}你没事,{NEWLINE}我们也就放心了。{CLEAR}祝你早日康复,再次踏上旅途哦。",
+   "en": "Cynthia: {VAR:0103:0}, it’s such a relief to{NEWLINE}see you’re all right. Get well soon and{CLEAR}get back on the road!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#95"
+  },
+  {
+   "id": 163,
+   "zh": "大吾『{VAR:0103:0}你先安心修养吧,{NEWLINE}健康的身体比什么都重要。{CLEAR}我就先不打扰你了。",
+   "en": "Steven: {VAR:0103:0}, just focus on resting.{NEWLINE}Good health matters more than{CLEAR}anything. I’ll leave you in peace.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#96"
+  },
+  {
+   "id": 164,
+   "zh": "小蓝『等{VAR:0103:0}你伤好了{NEWLINE}别忘了挑战金黄道馆哦。{CLEAR}集齐了8枚徽章之后,{CLEAR}咱们一起参加石英大会。",
+   "en": "Green: Once you’re healed, {VAR:0103:0},{NEWLINE}don’t forget to challenge the Saffron{CLEAR}Gym! After we’ve collected all eight{CLEAR}Badges, let’s enter the Indigo{CLEAR}Conference together.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#97"
+  },
+  {
+   "id": 165,
+   "zh": "小赤『等{VAR:0103:0}你伤好了{NEWLINE}别忘了挑战金黄道馆啊。{CLEAR}集齐了8枚徽章之后,{CLEAR}咱们一起参加石英大会。",
+   "en": "Red: Once you’re healed, {VAR:0103:0},{NEWLINE}don’t forget to challenge the Saffron{CLEAR}Gym! After we’ve collected all eight{CLEAR}Badges, let’s enter the Indigo{CLEAR}Conference together.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#98"
+  },
+  {
+   "id": 166,
+   "zh": "小霞『{VAR:0103:0},{NEWLINE}你以后一定要注意自己的安全。{CLEAR}我可不想再这样担惊受怕了。",
+   "en": "Misty: {VAR:0103:0}, you have to be more{NEWLINE}careful from now on. I don’t want to be{CLEAR}that scared ever again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#99"
+  },
+  {
+   "id": 167,
+   "zh": "小霞『{VAR:0103:0},{NEWLINE}我现在要回华蓝道馆{CLEAR}为石英大会做最后的特训了。{CLEAR}等你伤好之后也要加油哦！",
+   "en": "Misty: {VAR:0103:0}, I’m heading back to the{NEWLINE}Cerulean Gym for some last-minute{CLEAR}training before the Indigo Conference.{CLEAR}Good luck once you’ve healed up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#100"
+  },
+  {
+   "id": 168,
+   "zh": "火箭队首领『你是西鲁夫公司的社长,{NEWLINE}生来高人一等,注定此生不凡,{CLEAR}曾经视楼下的那些员工如同草芥。{CLEAR}你要是不跟我们联手,{CLEAR}那些升斗小民早晚有一天{CLEAR}会骑到你头上来的。",
+   "en": "Rocket Boss: You are the president of{NEWLINE}Silph Co. Born above others, destined{CLEAR}for greatness. You once looked on the{CLEAR}employees downstairs as no better than{CLEAR}weeds. If you don’t join forces with us,{CLEAR}one day those commoners will climb all{CLEAR}over you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 169,
+   "zh": "唉……我本来也没什么本事,{NEWLINE}靠继承父亲的遗产作威作福了大半生。{CLEAR}既然命运安排我变成普通人,{CLEAR}那我就安心做个普通人吧。",
+   "en": "Sigh... I never had much talent. I{NEWLINE}spent most of my life throwing my weight{CLEAR}around on my father’s fortune. If fate{CLEAR}has made me an ordinary man, then I’ll{CLEAR}be content to live as one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review C008"
+  },
+  {
+   "id": 170,
+   "zh": "我要好好锻炼精灵对战能力,{NEWLINE}确保公司的安全。",
+   "en": "I’m going to train my Pokémon hard so I{NEWLINE}can keep the company safe.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 171,
+   "zh": "前边是社长室,你想去就去吧。{NEWLINE}反正他现在就是个没用的摆设。",
+   "en": "The president’s office is up ahead. Go if{NEWLINE}you want. He’s just a useless{CLEAR}figurehead now anyway.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 172,
+   "zh": "攻击制造屏障的精灵",
+   "en": "Attack the barrier Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 173,
+   "zh": "直接攻击火箭队首领",
+   "en": "Attack the Rocket Boss directly",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 174,
+   "zh": "{VAR:0103:0}『{VAR:0100:1}！{NEWLINE}趁现在攻击火箭队首领！",
+   "en": "{VAR:0103:0}: {VAR:0100:1}! Attack the{NEWLINE}Rocket Boss while you can!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 175,
+   "zh": "火箭队首领『旁边有只小老鼠偷听,{NEWLINE}真当我不知道呐？",
+   "en": "Rocket Boss: A little rat eavesdropping{NEWLINE}nearby... Did you really think I hadn’t{CLEAR}noticed?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 176,
+   "zh": "火箭队首领『年轻气盛{NEWLINE}是要付出代价的。{CLEAR}尼多后,拍扁他们！",
+   "en": "Rocket Boss: Youthful recklessness{NEWLINE}comes at a price. Nidoqueen, flatten{CLEAR}them!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 177,
+   "zh": "{VAR:0103:0}『咳……咳……{NEWLINE}好强……",
+   "en": "{VAR:0103:0}: Cough... cough... So strong...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 178,
+   "zh": "火箭队首领『就这么干掉你有点可惜,{NEWLINE}不过你自己一心求死,也怪不得我了。{CLEAR}尼多后,给他最后一击！",
+   "en": "Rocket Boss: It’s a bit of a shame to{NEWLINE}finish you off like this. But you seem so{CLEAR}set on dying, you’ve only yourself to{CLEAR}blame. Nidoqueen, deliver the final blow!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 179,
+   "zh": "{VAR:0103:0}『替身玩偶！",
+   "en": "{VAR:0103:0}: Substitute Doll!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 180,
+   "zh": "{VAR:0103:0}『咳……{NEWLINE}快……攻击素利拍……！",
+   "en": "{VAR:0103:0}: Cough... Quick... attack{NEWLINE}Hypno...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 181,
+   "zh": "火箭队首领『真是出乎意料,{NEWLINE}你竟然能在我的眼皮底下{CLEAR}破坏掉屏障核心。{SCROLL}火箭队首领『不过你也就到此为止了,{NEWLINE}尼多后,干掉他们！",
+   "en": "Rocket Boss: How unexpected. You{NEWLINE}destroyed the barrier’s core right{CLEAR}under my nose.{SCROLL}Rocket Boss: But this is as far as you{NEWLINE}go. Nidoqueen, finish them!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 182,
+   "zh": "火箭队首领『竟然能打败我的尼多后,{NEWLINE}你让我有些期待了啊。",
+   "en": "Rocket Boss: You beat my Nidoqueen?{NEWLINE}Now you have me curious.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 183,
+   "zh": "{VAR:0103:0}『咳咳……{NEWLINE}好难对付……",
+   "en": "{VAR:0103:0}: Cough, cough... He’s so{NEWLINE}tough...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 184,
+   "zh": "{VAR:0103:0}『咳咳……终于……{NEWLINE}走了吗……",
+   "en": "{VAR:0103:0}: Cough, cough... Are they...{NEWLINE}finally gone...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 185,
+   "zh": "{VAR:0103:0}『输了……吗……",
+   "en": "{VAR:0103:0}: Did I... lose...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 186,
+   "zh": "小绿『屏障破碎之后,{NEWLINE}火箭队见势不妙就撤退了。",
+   "en": "Blue: Once the barrier shattered, Team{NEWLINE}Rocket saw things going south and{CLEAR}retreated.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 187,
+   "zh": "{VAR:0103:0}『呼……太好了……",
+   "en": "{VAR:0103:0}: Phew... Thank goodness...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 188,
+   "zh": "小绿『嘿嘿,才这点伤就昏迷过去,{NEWLINE}看来你还差得远啊。",
+   "en": "Blue: Heh heh. Passing out over a few{NEWLINE}little scratches? Looks like you’ve still{CLEAR}got a long way to go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 189,
+   "zh": "小绿『看你刚才昏迷的样子,{NEWLINE}真是让人担心。",
+   "en": "Blue: The way you were out cold had me{NEWLINE}really worried.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 190,
+   "zh": "{VAR:0103:0}『被看穿了吗……？",
+   "en": "{VAR:0103:0}: You saw right through me...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 191,
+   "zh": "{VAR:0103:0}『我才不会{NEWLINE}跟你们这种人同流合污！",
+   "en": "{VAR:0103:0}: I’d never join forces with{NEWLINE}people like you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#77"
+  },
+  {
+   "id": 192,
+   "zh": "{VAR:0103:0}『你们还是去监狱里{NEWLINE}做统治世界的春秋大梦吧！",
+   "en": "{VAR:0103:0}: Go dream about ruling the{NEWLINE}world from a prison cell!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "reused a027/0495#54"
+  },
+  {
+   "id": 193,
+   "zh": "火箭队首领似乎在和西鲁夫社长谈话,{NEWLINE}要趁现在采取行动吗？",
+   "en": "Team Rocket’s boss seems to be talking{NEWLINE}with Silph’s president. Act now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 194,
+   "zh": "再听一会儿",
+   "en": "Listen a little longer",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 195,
+   "zh": "{VAR:0103:0}『我这是……在哪？{NEWLINE}火箭队呢……？",
+   "en": "{VAR:0103:0}: Where... am I? Where’s Team{NEWLINE}Rocket...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

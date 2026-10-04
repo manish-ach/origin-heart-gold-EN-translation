@@ -1,0 +1,664 @@
+{
+ "narc": "a027",
+ "bank": 620,
+ "source": "work/extract/v4/a027/0620.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "十分抱歉。{NEWLINE}这前面是只有被选中的训练家们{CLEAR}才允许被使用的修行场所。{CLEAR}如果没有伊吹馆主的许可{CLEAR}是不能进去的。{SCROLL}请回吧。",
+   "en": "I’m very sorry. Beyond here is a{NEWLINE}training ground that only chosen{CLEAR}Trainers may use. You can’t{CLEAR}enter without the permission{CLEAR}of Clair, the Gym Leader.{SCROLL}Please go back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "这前面是烟墨市的禁地龙之洞穴,{NEWLINE}如果没有伊吹馆主的许可{CLEAR}是不能进去的。",
+   "en": "Beyond here is the Dragon’s Den,{NEWLINE}Blackthorn City’s sacred ground.{CLEAR}You can’t enter without the{CLEAR}permission of Clair, the Gym Leader.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "伊吹馆主已经通知我了,{NEWLINE}您具备进入龙之洞穴的资格,{CLEAR}请进去吧。",
+   "en": "Clair has already informed me.{NEWLINE}You’re qualified to enter the{CLEAR}Dragon’s Den. Please go in.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "阿金『下次咱们挑战时{NEWLINE}一定要吸取教训,{CLEAR}尾太郎你先使用击掌奇袭{CLEAR}破掉快龙的多重鳞片。",
+   "en": "Gold: Next time we challenge her,{NEWLINE}we’ve got to learn our lesson.{CLEAR}Aibo, you open with Fake Out to{CLEAR}break Dragonite’s Multiscale.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "尾太郎『Aaaa——bi！",
+   "en": "Aibo: Aaaa-bi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "阿金『下一回合伊吹的快龙{NEWLINE}很可能会使用逆鳞,{CLEAR}这时候我就会还你上场了波克太郎。{CLEAR}你登场之后使用月亮之力{CLEAR}给快龙狠狠地来一下！",
+   "en": "Gold: Next turn, Clair’s Dragonite{NEWLINE}will probably use Outrage. That’s when{CLEAR}I switch you in, Togebo. Once you’re{CLEAR}out, hit Dragonite hard with Moonblast!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "波克太郎『Toooo——ge！",
+   "en": "Togebo: Toooo-ge!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "阿金『最后是爆太郎,{NEWLINE}一旦伊吹想用腹鼓喷火龙的{CLEAR}爆裂燃烧强攻,{CLEAR}爆太郎你就出来引火反推,{CLEAR}明白了吗？",
+   "en": "Gold: And last, Exbo. The moment{NEWLINE}Clair tries an all-out Blast Burn{CLEAR}with her Belly Drum Charizard,{CLEAR}you switch in, soak it up with{CLEAR}Flash Fire and hit back. Got it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "引火反推: Exbo (Typhlosion) switches in on Blast Burn, absorbs it with Flash Fire and hits back"
+  },
+  {
+   "id": 8,
+   "zh": "爆太郎『Tyyyy——lo！",
+   "en": "Exbo: Tyyyy-lo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "阿金『啊！偶像！{SCROLL}阿金『我刚刚在挑战烟墨道馆时,{NEWLINE}被伊吹馆主给打败了。{CLEAR}所以现在正在给我的精灵们{CLEAR}布置新的战术安排,{CLEAR}等我准备好了,{CLEAR}就去找她再打一次。{SCROLL}阿金『偶像你可不要忘了{NEWLINE}咱们比赛收集徽章的约定,{CLEAR}我很快就能收集到第8枚徽章了。{CLEAR}到时候如果你还没能收集满8枚徽章,{CLEAR}这场比赛可就是我赢了哦！",
+   "en": "Gold: Ah! Idol!{SCROLL}Gold: I just challenged the Blackthorn{NEWLINE}Gym and got beaten by Clair.{SCROLL}So right now I’m working out new{NEWLINE}tactics for my Pokémon. Once I’m ready,{CLEAR}I’m going back to fight her again.{SCROLL}Gold: Don’t you forget our bet{NEWLINE}on who collects the Badges first,{CLEAR}Idol. I’ll have my 8th Badge soon.{SCROLL}If you haven’t got all 8 Badges{NEWLINE}by then, I win the race!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "这里是烟墨市,{NEWLINE}恬静的小山城。",
+   "en": "Blackthorn City{NEWLINE}A Quiet Mountain Retreat",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0629/10",
+   "category": "sign"
+  },
+  {
+   "id": 11,
+   "zh": "烟墨市精灵道馆{NEWLINE}馆主　伊吹{CLEAR}神圣的龙之使者！",
+   "en": "Blackthorn City Pokémon Gym{NEWLINE}Leader: Clair{CLEAR}The Blessed User of Dragon Pokémon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0629/11"
+  },
+  {
+   "id": 12,
+   "zh": "这里是精灵技能之家,{SCROLL}能够让精灵记住或{NEWLINE}忘记技能的不可思议的地方。",
+   "en": "Move Deleter and Move Tutor House{SCROLL}A Mysterious House Where You Can Make{NEWLINE}Pokémon Forget and Remember Moves",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0629/12"
+  },
+  {
+   "id": 13,
+   "zh": "前方　龙之洞穴",
+   "en": "Dragon’s Den Ahead",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0629/13"
+  },
+  {
+   "id": 14,
+   "zh": "提示板！{SCROLL}在草丛中不用跑的,{NEWLINE}慢慢行走的话,野生精灵{CLEAR}就不太会出现。{SCROLL}当你携带的精灵{NEWLINE}已经疲惫了的时候{CLEAR}就尽可能不要跑,{CLEAR}慢慢走到精灵中心！",
+   "en": "Trainer Tips{SCROLL}If you walk slowly through tall grass{NEWLINE}instead of running, wild Pokémon are{CLEAR}less likely to appear.{SCROLL}When your party Pokémon are tired, try{NEWLINE}not to run, and walk slowly to a{CLEAR}Pokémon Center!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0629/14; ext-review ROOT-017"
+  },
+  {
+   "id": 15,
+   "zh": "烟墨道馆是整个城都地区{NEWLINE}实力最强的道馆,{CLEAR}我为了能获得这里的升龙徽章,{CLEAR}特地练了一只妖精系的大嘴娃。{CLEAR}但我对自己目前的实力不太有底,{CLEAR}你能跟我来场对战{CLEAR}帮我认清一下自己的实力吗？",
+   "en": "The Blackthorn Gym is the{NEWLINE}strongest Gym in all of Johto. To{CLEAR}win the Rising Badge here, I trained{CLEAR}a Fairy-type Mawile specially.{SCROLL}But I’m not really sure how{NEWLINE}strong I am yet. Could you battle{CLEAR}me and help me see where I stand?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "谢谢,请多指教！",
+   "en": "Thanks! I’m in your hands!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "居然输得这么惨,{NEWLINE}看来我还差的远呐。{CLEAR}不过谢谢你帮我认清自己的实力,{CLEAR}这个是我的一点心意,请你收下吧。",
+   "en": "I lost that badly? I guess I’ve{NEWLINE}still got a long way to go. But thanks{CLEAR}for showing me where I stand. Here’s a{CLEAR}little something from me. Please take it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "看来要获得升龙徽章{NEWLINE}我还要准备得更充分才行。",
+   "en": "Looks like I need to prepare a{NEWLINE}lot more to win the Rising Badge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "大嘴娃『Maaa——wi！",
+   "en": "Mawile: Maaa-wi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "因为烟墨市的道馆馆主太强了,{NEWLINE}战斗起来也经常不留情面,{CLEAR}所以来这里挑战的训练家们{CLEAR}经常需要反复挑战多次才能获得徽章。{SCROLL}在看过那么多训练家{NEWLINE}一次又一次地尝试挑战后,{CLEAR}我突然悟出了一招{CLEAR}名为「新月之舞」的精灵技能。{CLEAR}让我的皮克西在月光下,{CLEAR}对着月光翩翩起舞{CLEAR}后特攻与速度都提高了！{CLEAR}虽说这招没什么威力,{CLEAR}但却能强化你的宝可梦,{CLEAR}你如果有精灵想学的话,{CLEAR}只要给我一个抗龙果,{CLEAR}我就可以教你。{SCROLL}怎么样,要让精灵学习新月之舞吗？",
+   "en": "The Blackthorn Gym Leader is{NEWLINE}so strong, and she often shows no{CLEAR}mercy in battle. Trainers who come{CLEAR}here usually have to challenge her{CLEAR}again and again to earn the Badge.{SCROLL}After watching so many Trainers try{NEWLINE}again and again, it suddenly came{CLEAR}to me: a move called Lunar Dance.{SCROLL}My Clefable danced gracefully in{NEWLINE}the moonlight, and afterward its{CLEAR}Sp. Atk and Speed both went up!{SCROLL}The move has no power of its own,{NEWLINE}but it can power up your Pokémon.{CLEAR}If you have a Pokémon that wants{CLEAR}to learn it, just give me one{CLEAR}Haban Berry and I’ll teach it.{SCROLL}Well? Shall I teach one of{NEWLINE}your Pokémon Lunar Dance?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "hack's Lunar Dance raises Sp. Atk and Speed (as zh)"
+  },
+  {
+   "id": 21,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it,{NEWLINE}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 22,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 23,
+   "zh": "你并没有抗龙果啊,{NEWLINE}等什么时候有了再来找我吧。",
+   "en": "You don’t have a Haban Berry.{NEWLINE}Come back when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住新月之舞。{SCROLL}",
+   "en": "Sorry... This Pokémon{NEWLINE}can’t learn Lunar Dance.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 26,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会新月之舞了！{SCROLL}",
+   "en": "This {VAR:0100:0} already{NEWLINE}knows Lunar Dance!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20}, 2{VAR:0201:20}, and{VAR:0201:20}... {VAR:0201:20}... Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl); qa-lints: unified with identical zh elsewhere (zh_variant)"
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0101:0}学会了新月之舞！",
+   "en": "{VAR:0101:0} learned Lunar Dance!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会新月之舞了！{SCROLL}那么按照约定,{NEWLINE}1个抗龙果我拿走了。",
+   "en": "There! Your {VAR:0100:0}{NEWLINE}has learned Lunar Dance!{SCROLL}And as agreed, I’ll take 1 Haban Berry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的新月之舞……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习新月之舞{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to{NEWLINE}learn Lunar Dance...!{SCROLL}But {VAR:0101:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move{NEWLINE}to learn Lunar Dance?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 33,
+   "zh": "你是要放弃{NEWLINE}让它记住新月之舞吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Lunar Dance?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "你在对战中有过{NEWLINE}因为接不住对面一发十万伏特{CLEAR}而饮恨败北的经历吗？{CLEAR}如果是这样的话,{CLEAR}那你就需要加强自己精灵的{CLEAR}特防努力值锻炼了。{CLEAR}只要你能给我一个解冰果,{CLEAR}我就可以陪你锻炼一下{CLEAR}精灵的特防努力值。{SCROLL}怎么样,需要我陪你练习吗？",
+   "en": "Have you ever lost a battle{NEWLINE}because you couldn’t take a single{CLEAR}Thunderbolt from your opponent?{SCROLL}If so, you need to train up your{NEWLINE}Pokémon’s Sp. Def EVs. Give me one{CLEAR}Aspear Berry, and I’ll help you{CLEAR}train your Pokémon’s Sp. Def EVs.{SCROLL}Well? Want me to train with you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "我的精灵等级都不高,{NEWLINE}你放开手脚战斗就好。",
+   "en": "My Pokémon aren’t very{NEWLINE}high level, so go all out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "你身上没有解冰果啊,{NEWLINE}等有解冰果了再来找我吧。",
+   "en": "You don’t have an Aspear Berry.{NEWLINE}Come back when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "结草贵妇『Wooo——mad！",
+   "en": "Wormadam: Wooo-mad!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "你在对战中有过{NEWLINE}因为接不住对面一发岩崩{CLEAR}而饮恨败北的经历吗？{CLEAR}如果是这样的话,{CLEAR}那你就需要加强自己精灵的{CLEAR}物防努力值锻炼了。{CLEAR}只要你能给我一个解毒果,{CLEAR}我就可以陪你锻炼一下{CLEAR}精灵的物防努力值。{SCROLL}怎么样,需要我陪你练习吗？",
+   "en": "Have you ever lost a battle{NEWLINE}because you couldn’t take a single{CLEAR}Rock Slide from your opponent?{SCROLL}If so, you need to train up your{NEWLINE}Pokémon’s Defense EVs. Give me{CLEAR}one Pecha Berry, and I’ll help you{CLEAR}train your Pokémon’s Defense EVs.{SCROLL}Well? Want me to train with you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "你身上没有解毒果啊,{NEWLINE}等有解毒果了再来找我吧。",
+   "en": "You don’t have a Pecha Berry.{NEWLINE}Come back when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "隆隆石『Graaa——ve！",
+   "en": "Graveler: Graaa-ve!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "我的河马王在烟墨市锻炼过努力值后,{NEWLINE}实力提升了一大截呢！",
+   "en": "After training its EVs in{NEWLINE}Blackthorn City, my Slowking{CLEAR}got a whole lot stronger!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "河马王『Slooo——ki！",
+   "en": "Slowking: Slooo-ki!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "被称为龙之使者的训练家{NEWLINE}全都来自烟墨市。{CLEAR}等我长大以后,{CLEAR}也要当一名使用龙系精灵的龙之使者！",
+   "en": "The Trainers they call dragon{NEWLINE}masters all come from Blackthorn{CLEAR}City. When I grow up, I’m going{CLEAR}to be a dragon master who{CLEAR}uses Dragon-type Pokémon too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "烟墨市名义上的管理者{NEWLINE}是烟墨道馆的馆主伊吹,{CLEAR}但在烟墨市说话最有分量的,{CLEAR}还是龙之洞穴中的烟墨市大长老。{SCROLL}毕竟长老大人{NEWLINE}可是跟达马兰奇主席一起{CLEAR}初创精灵联盟的元老嘛。",
+   "en": "Officially, Blackthorn City is run{NEWLINE}by Clair, the Gym Leader. But the{CLEAR}one whose word carries the most{CLEAR}weight here is the Great Elder of{CLEAR}Blackthorn in the Dragon’s Den.{SCROLL}After all, the Elder is one of{NEWLINE}the founding elders who started{CLEAR}the Pokémon League together{CLEAR}with President Goodshow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "烟墨市大长老 → the Great Elder of Blackthorn (Dragon's Den elder)"
+  },
+  {
+   "id": 45,
+   "zh": "我为了进入龙之洞穴修行,{NEWLINE}特意来到烟墨市这座山城。{CLEAR}然而要进入龙之洞穴{CLEAR}就必须获得道馆馆主伊吹的认可,{CLEAR}但我目前的实力还不足以跟伊吹抗衡,{CLEAR}所以就需要进入龙之洞穴修行……{CLEAR}哎呀,就这样陷入死循环了。",
+   "en": "I came to this mountain{NEWLINE}town of Blackthorn to train{CLEAR}in the Dragon’s Den. But to enter{CLEAR}the Dragon’s Den, you need the{CLEAR}approval of Clair, the Gym Leader.{SCROLL}I’m not strong enough to stand{NEWLINE}up to Clair yet, so I need to{CLEAR}train in the Dragon’s Den... Ugh,{CLEAR}I’m stuck in an endless loop.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "龙系精灵的种族值本身就偏高,{NEWLINE}加上只有龙、冰、妖三个弱点,{CLEAR}又能抵抗水火草电四个属性,{CLEAR}堪称是最完美、最强大的精灵群体了。",
+   "en": "Dragon-type Pokémon have high{NEWLINE}base stats to begin with. They{CLEAR}have only three weaknesses,{CLEAR}Dragon, Ice and Fairy,{SCROLL}and they resist Water, Fire, Grass{NEWLINE}and Electric. You could call them{CLEAR}the most perfect and powerful{CLEAR}group of Pokémon there is.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "你好啊冠军大人,{NEWLINE}伊吹馆主就在道馆里面,{CLEAR}你如果想从她那里赢得升龙徽章的话,{CLEAR}最好只携带龙系{CLEAR}或者龙形态的精灵前去挑战。",
+   "en": "Hello, Champion. Clair is inside{NEWLINE}the Gym. If you want to win the{CLEAR}Rising Badge from her, it’s best to{CLEAR}challenge her with only Dragon-type{CLEAR}or dragon-shaped Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "真不愧是冠军大人,{NEWLINE}我好久都没见过伊吹馆主吃败仗了。",
+   "en": "As expected of the Champion! I{NEWLINE}haven’t seen Clair lose in a long time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "大竹葵『Meeeee——ga！",
+   "en": "Meganium: Meeeee-ga!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "水晶『前辈,我跟阿金{NEWLINE}都去挑战过烟墨道馆了,{CLEAR}但都输给了伊吹馆主。{CLEAR}从这次失败中,{CLEAR}我感受到我的伙伴们{CLEAR}还需要更高强度的锻炼。{SCROLL}水晶『我想如果跟前辈{NEWLINE}来一场对战练习的话,{CLEAR}一定会有很好的锻炼效果。{CLEAR}不知道前辈现在有时间吗？",
+   "en": "Crystal: Gold and I both{NEWLINE}challenged the Blackthorn{CLEAR}Gym, but we both lost to Clair.{SCROLL}That defeat showed me that my partners{NEWLINE}still need much harder training.{SCROLL}Crystal: I think a practice{NEWLINE}battle with you would be really good{CLEAR}training. Do you have time right now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "水晶『是吗……？那真是太遗憾了。",
+   "en": "Crystal: Oh...? That’s too bad.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "水晶『谢谢前辈愿意指导,{NEWLINE}我会全力以赴真人对待的。",
+   "en": "Crystal: Thank you for{NEWLINE}agreeing to coach me! I’ll{CLEAR}give it everything I’ve got.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "水晶『哎呀,跟前辈打过之后,{NEWLINE}我暴露的不足之处更多了。{CLEAR}谢谢前辈帮我发现自身的问题,{CLEAR}这个是我的一点心意,请您收下吧！",
+   "en": "Crystal: Oh dear, battling{NEWLINE}you showed up even more of my{CLEAR}weak points. Thank you for helping{CLEAR}me find my problems. This is a little{CLEAR}something from me. Please accept it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "水晶『前辈,阿金又进入道馆挑战了,{NEWLINE}不知道他这次能不能成功。",
+   "en": "Crystal: Gold has gone into{NEWLINE}the Gym to challenge it again. I{CLEAR}wonder if he’ll make it this time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "水晶『阿金好厉害啊,{NEWLINE}调整了一下战术{CLEAR}就能打败伊吹馆主。{CLEAR}看来我也得加把劲训练才行。",
+   "en": "Crystal: Gold is amazing. He adjusted{NEWLINE}his tactics a little and beat Clair.{CLEAR}I’d better train harder too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "阿金『啊——终于拿到升龙徽章了,{NEWLINE}真是不容易啊！",
+   "en": "Gold: Ahh, I finally got the{NEWLINE}Rising Badge! That was tough!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "水晶『烟墨道馆的这位伊吹馆主{NEWLINE}真的是非常厉害,{CLEAR}要不是现学了你取胜的巧妙战术,{CLEAR}我还真未必能赢下比赛。{SCROLL}水晶『虽说这一路上{NEWLINE}你总是叫我学习委员,{CLEAR}但其实对战方面{CLEAR}我要向你学习的东西更多呢。",
+   "en": "Crystal: Clair of the Blackthorn{NEWLINE}Gym is really incredibly strong. If{CLEAR}I hadn’t copied your clever winning{CLEAR}tactics, I might not have won.{SCROLL}Crystal: You’ve called me Class{NEWLINE}Rep this whole trip, but when{CLEAR}it comes to battling, I’ve got{CLEAR}a lot more to learn from you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "阿金『哈哈哈,学习委员居然会夸我。",
+   "en": "Gold: Hah hah hah! Class{NEWLINE}Rep’s actually praising me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "阿金『啊呀,偶像！",
+   "en": "Gold: Whoa, Idol!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "阿金『你应该没忘记咱们比赛{NEWLINE}谁先集齐城都地区8个徽章的事吧？",
+   "en": "Gold: You haven’t forgotten{NEWLINE}our race to see who collects{CLEAR}Johto’s 8 Badges first, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "{VAR:0103:0}『嗯,我当然不会忘记。",
+   "en": "{VAR:0103:0}: Yeah, of course{NEWLINE}I haven’t forgotten.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "阿金『我刚刚打败了伊吹馆主,{NEWLINE}收集到第8枚徽章了哦。{CLEAR}那偶像你现在有集齐8个徽章吗？",
+   "en": "Gold: I just beat Clair and got{NEWLINE}my 8th Badge. What about you,{CLEAR}Idol? Have you got all 8 Badges?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "{VAR:0103:0}『你看,这是我的8枚{NEWLINE}城都地区的徽章。",
+   "en": "{VAR:0103:0}: Look, here{NEWLINE}are my 8 Johto Badges.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "阿金『啊呀呀,我是刚刚{NEWLINE}才从伊吹馆主那赢得升龙徽章的,{CLEAR}这么说来偶像比我更早{CLEAR}集齐了8枚徽章吧？{CLEAR}真可惜呀,差一点就能赢过偶像了。",
+   "en": "Gold: Aw, man! I only just won{NEWLINE}the Rising Badge from Clair. So that{CLEAR}means you got all 8 before me, Idol?{SCROLL}What a shame. I almost beat you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "阿金『虽说跟偶像的这场比赛输了,{NEWLINE}但因为这一路上偶像的帮助,{CLEAR}我也成长了不少。{CLEAR}能够把您视作追赶和模仿的对象,{CLEAR}真的是一件很幸福的事。{CLEAR}这是我为偶像你准备的礼物,{CLEAR}请收下吧！",
+   "en": "Gold: I lost our race, Idol, but{NEWLINE}thanks to all your help along{CLEAR}the way, I’ve grown a lot.{SCROLL}Having you as someone to chase{NEWLINE}and learn from has made me really{CLEAR}happy. I got this gift ready{CLEAR}for you, Idol. Please take it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "阿金『偶像,今年的石英大会{NEWLINE}再过不久就要开赛了,{CLEAR}我现在准备回若叶镇{CLEAR}为参加大会做新一轮的特训。{CLEAR}到时候好在大会上一鸣惊人！{CLEAR}说不定还能向偶像你的冠军宝座{CLEAR}发起冲击哦。",
+   "en": "Gold: Idol, this year’s Indigo{NEWLINE}Conference starts pretty soon. I’m{CLEAR}heading back to New Bark Town now to do{CLEAR}a new round of special training for it.{SCROLL}That way I’ll make a splash at the{NEWLINE}Conference! Maybe I’ll even take a{CLEAR}shot at your Champion’s throne, Idol.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "{VAR:0103:0}『期待你能在大会上{NEWLINE}有精彩的表现。",
+   "en": "{VAR:0103:0}: I’m looking forward to seeing{NEWLINE}you do great at the Conference.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "阿金『哈哈,感谢偶像这一路上的陪伴,{NEWLINE}那咱们就在大会上见啦！",
+   "en": "Gold: Ha ha! Thanks for sticking{NEWLINE}with me all this way, Idol.{CLEAR}See you at the Conference!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "{VAR:0103:0}『真是不巧,{NEWLINE}我并没有集齐8枚徽章……",
+   "en": "{VAR:0103:0}: Bad luck. I haven’t{NEWLINE}collected all 8 Badges...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "阿金『哟呵呵呵！赢啦！{NEWLINE}我在徽章收集比赛中打败了联盟冠军！{CLEAR}哇哈哈哈哈！",
+   "en": "Gold: Yo-ho-ho-ho! I won! I{NEWLINE}beat the League Champion in the{CLEAR}Badge race! Wah-hah-hah-hah!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "阿金『咳咳,好像有点得意忘形过头了。{SCROLL}阿金『我感觉我能通过{NEWLINE}这一年来的旅行取得这么大的进步,{CLEAR}跟偶像你一路上的帮助是分不开的。{CLEAR}能够把您视作追赶和模仿的对象,{CLEAR}真的是一件很幸福的事。{CLEAR}这是我为偶像你准备的礼物,{CLEAR}请收下吧！",
+   "en": "Gold: *ahem* I think I got{NEWLINE}a little carried away there.{SCROLL}Gold: I feel like the huge{NEWLINE}progress I’ve made on this{CLEAR}year’s journey is all thanks to{CLEAR}your help along the way, Idol.{SCROLL}Having you as someone to chase{NEWLINE}and learn from has made me really{CLEAR}happy. I got this gift ready{CLEAR}for you, Idol. Please take it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "水晶『{VAR:0103:0}前辈,{NEWLINE}不知不觉中咱们已经走遍了{CLEAR}几乎整个城都地区。{CLEAR}感谢您一路上的教导和帮助,{CLEAR}我也从您身上学到了很多东西。{CLEAR}这是我为您准备的礼物,{CLEAR}请您一定要收下。",
+   "en": "Crystal: {VAR:0103:0}, before we{NEWLINE}knew it, we’ve traveled almost{CLEAR}all of the Johto region.{SCROLL}Thank you for all your guidance and{NEWLINE}help along the way. I’ve learned so{CLEAR}much from you. I got this gift ready{CLEAR}for you. Please be sure to accept it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "水晶『我现在要去若叶镇{NEWLINE}给空木博士汇报一下{CLEAR}我这一路上收集到的精灵和生态数据,{CLEAR}然后再为石英大会做一下准备。{CLEAR}虽说我不像阿金那样{CLEAR}有信心去冲击联盟冠军,{CLEAR}但至少也要成为精英训练家呀。{SCROLL}水晶『咱们石英大会上再见啦,前辈！",
+   "en": "Crystal: Now I’m going to New{NEWLINE}Bark Town to report to Prof. Elm{CLEAR}on the Pokémon and ecological{CLEAR}data I gathered on my journey.{SCROLL}Then I’ll get ready for the Indigo{NEWLINE}Conference. I’m not as confident{CLEAR}as Gold about taking on the{CLEAR}League Champion, but I at least{CLEAR}want to become an Ace Trainer.{SCROLL}Crystal: See you at{NEWLINE}the Indigo Conference!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "{VAR:0103:0}『嗯,再见！",
+   "en": "{VAR:0103:0}: Yeah, see you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "{VAR:0103:0}『呼……{NEWLINE}这样一来城都地区的旅行{CLEAR}似乎也告一段落了。{CLEAR}但是火箭队依然存在,{CLEAR}要彻底根除这伙人还是任重道远啊……",
+   "en": "{VAR:0103:0}: Phew... With that, my journey{NEWLINE}through Johto seems to be wrapping up.{SCROLL}But Team Rocket is still out{NEWLINE}there. Rooting them out for{CLEAR}good is still a long road...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "我的、我的徽章不见了！{NEWLINE}我辛辛苦苦收集的{CLEAR}城都地区的7个徽章不见了！{CLEAR}明明就只差烟墨道馆的徽章{CLEAR}就能参加石英大会了,{CLEAR}结果在这个时候弄丢了徽章,{CLEAR}呜呜呜呜……这可怎么办啊……",
+   "en": "My... my Badges are gone! The 7 Johto{NEWLINE}Badges I worked so hard for are gone!{SCROLL}I only needed the Blackthorn Gym’s{NEWLINE}Badge to enter the Indigo Conference,{CLEAR}and now I’ve lost my Badges... *sob{CLEAR}sob*... What am I going to do...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "谢谢你帮我找回了徽章,{NEWLINE}这下我可以安心备战烟墨道馆了。",
+   "en": "Thanks for finding my Badges.{NEWLINE}Now I can prepare for the{CLEAR}Blackthorn Gym without worrying.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "要把徽章还给失主吗？",
+   "en": "Return the Badges to the owner?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "哎？这不是我的徽章吗？{NEWLINE}是你帮我找回来的？！{CLEAR}我还以为再也找不回来了呢,{CLEAR}刚才都把我给急死了。{CLEAR}真的是非常非常感谢你{CLEAR}帮了我这么大的忙,{CLEAR}这个送给你当作谢礼吧！",
+   "en": "Huh? Aren’t these my Badges?{NEWLINE}You found them for me?!{SCROLL}I thought I’d never get them{NEWLINE}back. I was worried sick just now.{SCROLL}Thank you so, so much{NEWLINE}for helping me out like this.{CLEAR}Please take this as thanks!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "呼,这下终于可以{NEWLINE}安心备战烟墨道馆了。",
+   "en": "Phew, now I can finally prepare for{NEWLINE}the Blackthorn Gym without worrying.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "水晶『哎呀,跟前辈打过之后,{NEWLINE}我暴露的不足之处更多了。{CLEAR}谢谢前辈帮我发现自身的问题。",
+   "en": "Crystal: Oh dear, battling you showed{NEWLINE}up even more of my weak points. Thank{CLEAR}you for helping me find my problems.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

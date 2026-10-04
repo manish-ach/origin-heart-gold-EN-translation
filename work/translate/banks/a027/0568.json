@@ -1,0 +1,921 @@
+{
+ "narc": "a027",
+ "bank": 568,
+ "source": "work/extract/v4/a027/0568.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "有个黑皮肤的训练家{NEWLINE}说我完全不会培育小福蛋,{CLEAR}让一只潜力巨大的精灵{CLEAR}只维持在宝宝形态是一种浪费。{CLEAR}我确实养了小福蛋好久了,{CLEAR}可是它一直都没有进化,{CLEAR}是不是真像那个训练家说的那样,{CLEAR}我没有培养精灵的天赋,{CLEAR}让小福蛋留在我身边是在耽误它啊。",
+   "en": "A dark-skinned Trainer told me I{NEWLINE}have no idea how to raise Happiny. He{CLEAR}said keeping a Pokémon with so much{CLEAR}potential in its baby form is a waste.{SCROLL}It’s true I’ve been raising my Happiny{NEWLINE}for ages, but it still hasn’t evolved.{SCROLL}Is that Trainer right? Do I have no{NEWLINE}talent for raising Pokémon? Am I holding{CLEAR}Happiny back by keeping it with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "黑皮肤的训练家: unnamed; possibly an anime/Unova reference (Iris?). Kept literal."
+  },
+  {
+   "id": 1,
+   "zh": "进化变强并不是唯一目的",
+   "en": "Evolving isn’t everything",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "choice: #1 → #4/#5 (encourage), #2 → #6–#14 (ask for Happiny; it refuses), #3 decline.; ext-review C013",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 2,
+   "zh": "那你把小福蛋给我吧",
+   "en": "Then give Happiny to me",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 3,
+   "zh": "不关我事",
+   "en": "Not my problem",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0103:0}『培育精灵的意义{NEWLINE}不该局限于变强,{CLEAR}你与精灵经历的点点滴滴、{CLEAR}共同创造的美好回忆,{CLEAR}这都是我们和精灵在一起的意义。{CLEAR}所以不管别人怎么说,{CLEAR}只要你和小福蛋在一起{CLEAR}感到开心快乐就好了。",
+   "en": "{VAR:0103:0}: Raising Pokémon isn’t{NEWLINE}only about getting stronger.{SCROLL}All the little moments you{NEWLINE}share, the happy memories you{CLEAR}make together... That’s what{CLEAR}being with Pokémon is all about.{SCROLL}So whatever anyone else says, as{NEWLINE}long as you and Happiny are happy{CLEAR}together, that’s what matters.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "你说的好有道理！{NEWLINE}我不自觉地被那个训练家的语言引导,{CLEAR}居然错误地以为{CLEAR}不能变强对精灵来说就不幸福。{SCROLL}多亏有你点醒我,{NEWLINE}让我更清晰地认识到了{CLEAR}与精灵在一起的丰富意义,{CLEAR}不然我可能要纠结好久了。{CLEAR}这个小礼物送给你就当是谢礼吧。",
+   "en": "You’re so right! I let that{NEWLINE}Trainer’s words lead me astray. I{CLEAR}actually believed that not getting{CLEAR}stronger made a Pokémon unhappy.{SCROLL}Thanks to you, I see more clearly{NEWLINE}how much being with Pokémon really{CLEAR}means. I might have agonized{CLEAR}over this for ages otherwise.{SCROLL}Please take this little gift as thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0103:0}『你把小福蛋交给我培育吧,{NEWLINE}我保证让它变成强大的精灵。",
+   "en": "{VAR:0103:0}: Let me raise Happiny. I{NEWLINE}promise I’ll make it a strong Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "你好像有很多徽章啊,{NEWLINE}应该是个很厉害的训练家吧。{CLEAR}嗯……",
+   "en": "You seem to have lots of Badges.{NEWLINE}You must be a really strong Trainer.{SCROLL}Hmm...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "小福蛋,继续跟着我{NEWLINE}你可能永远都没法变强了,{CLEAR}现在我把你交给这位训练家培育,{CLEAR}你愿意吗？",
+   "en": "Happiny, if you keep following me,{NEWLINE}you might never get stronger.{CLEAR}Would you like me to hand you{CLEAR}over to this Trainer to raise?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "小福蛋『Haa——pi！{SCROLL}小福蛋摇了摇头。",
+   "en": "Happiny: Haa-pi!{SCROLL}Happiny shook its head.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "你……不愿意变强,{NEWLINE}想留在我身边吗？",
+   "en": "You... don’t want to get stronger?{NEWLINE}You want to stay with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "小福蛋『Haa——pi！{SCROLL}小福蛋点了点头。",
+   "en": "Happiny: Haa-pi!{SCROLL}Happiny nodded.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "但我不是一个称职的训练家,{NEWLINE}培育了你这么久,{CLEAR}都没能让你进化、变强,{CLEAR}你跟着厉害一点的训练家{CLEAR}可能进步地会更快啊。",
+   "en": "But I’m not a proper Trainer.{NEWLINE}I’ve raised you for so long,{CLEAR}and I still couldn’t make{CLEAR}you evolve or get stronger.{SCROLL}With a better Trainer, you{NEWLINE}might improve a lot faster.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "我明白了,你是不想离开我。{NEWLINE}呜呜呜……确实……{CLEAR}从把你孵化出来开始,{CLEAR}咱们一起吃饭、一起旅行、一起泡温泉,{CLEAR}留下了很多美好回忆,{CLEAR}虽然这些回忆不能让你变强,{CLEAR}但是却让咱们的感情羁绊更加深刻,{CLEAR}或许培育精灵的意义{CLEAR}并不仅仅是变强,{CLEAR}在一起时的幸福感才是最重要的。",
+   "en": "I get it. You don’t want to leave{NEWLINE}me. Waaah... You’re right...{SCROLL}Ever since you hatched, we’ve{NEWLINE}eaten together, traveled together,{CLEAR}soaked in hot springs together...{CLEAR}We made so many happy memories.{SCROLL}Those memories didn’t make{NEWLINE}you stronger, but they{CLEAR}made our bond deeper.{SCROLL}Maybe raising Pokémon isn’t just about{NEWLINE}getting stronger. Maybe the happiness{CLEAR}of being together is what matters most.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "对不起啊,{NEWLINE}我现在觉得变强没那么重要了,{CLEAR}跟小福蛋在一起才是最重要的,{CLEAR}所以小福蛋不能给你了。{CLEAR}不过为了表达歉意,{CLEAR}这个送给你就当做是补偿吧。",
+   "en": "I’m sorry. I don’t think getting{NEWLINE}stronger matters so much now. Being{CLEAR}with Happiny is what matters most,{CLEAR}so I can’t give Happiny to you.{SCROLL}But to say sorry, please{NEWLINE}take this to make up for it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "对于我这样的训练家来说,{NEWLINE}变强与否可能真的不重要,{CLEAR}与自己喜欢的精灵一起享受生活{CLEAR}这才是最重要的。",
+   "en": "For a Trainer like me, getting{NEWLINE}stronger may not really matter.{CLEAR}Enjoying life with the Pokémon{CLEAR}I love is what matters most.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "小福蛋『Haa——pi！",
+   "en": "Happiny: Haa-pi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "我的朋友把天蝎寄养在了我这里,{NEWLINE}可是朋友的天蝎{CLEAR}非常喜欢我的斗笠菇的剧毒珠,{CLEAR}两只精灵经常为了抢剧毒珠而打架。{CLEAR}要是再有一个剧毒珠就好了……",
+   "en": "A friend left her Gligar with me.{NEWLINE}But my friend’s Gligar just loves{CLEAR}my Breloom’s Toxic Orb, and the{CLEAR}two of them keep fighting over it.{SCROLL}If only I had one more Toxic Orb...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "要把身上的剧毒珠送给她吗？",
+   "en": "Give her the Toxic Orb you have?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "你有剧毒珠要送给我？{NEWLINE}真是太感谢了,{CLEAR}这样一来两个孩子{CLEAR}就不会因为抢玩具而打闹了。",
+   "en": "You’ll give me a Toxic{NEWLINE}Orb? Thank you so much!{SCROLL}Now those two won’t squabble{NEWLINE}over their toy anymore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "斗笠菇、天蝎,你们别闹了！{NEWLINE}快看我手里的这个,{CLEAR}这是你们最喜欢的剧毒珠哦！",
+   "en": "Breloom, Gligar, stop it, you{NEWLINE}two! Look what I’ve got here.{CLEAR}It’s your favorite Toxic Orb!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "斗笠菇『Breee——loo！",
+   "en": "Breloom: Breee-loo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "天蝎『Gliii……",
+   "en": "Gligar: Gliii...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "现在有了两个剧毒珠,{NEWLINE}你们一人一个就不要再抢了。",
+   "en": "Now there are two Toxic Orbs.{NEWLINE}One each, so no more fighting.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "天蝎『Gliii——ga！{SCROLL}天蝎对剧毒珠似乎没什么兴趣了。",
+   "en": "Gligar: Gliii-ga!{SCROLL}Gligar doesn’t seem very interested{NEWLINE}in the Toxic Orb anymore.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "来,天蝎,拿着吧,{NEWLINE}以后这个就是你的剧毒珠了。",
+   "en": "Here, Gligar, take it. From now{NEWLINE}on, this Toxic Orb is yours.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "天蝎……？{NEWLINE}你不是很喜欢剧毒珠吗？",
+   "en": "Gligar...? Don’t you love Toxic Orbs?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "天蝎『Gliii——ga！",
+   "en": "Gligar: Gliii-ga!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "这……",
+   "en": "Wha...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "对不起啊,{NEWLINE}有了两个剧毒珠之后,{CLEAR}天蝎好像就对剧毒珠没那么喜欢了。{CLEAR}所以剧毒珠还是还给你吧。",
+   "en": "I’m sorry. Now that there are two{NEWLINE}Toxic Orbs, Gligar doesn’t seem{CLEAR}to like them so much anymore.{SCROLL}So I’d better give your Toxic Orb back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "拿回了剧毒珠。",
+   "en": "Got the Toxic Orb back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "耽误了你这么多时间真是不好意思,{NEWLINE}这个作为补偿送给你吧。",
+   "en": "I’m sorry for taking up so much of your{NEWLINE}time. Please take this to make up for it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "自从把剧毒珠还给你之后,{NEWLINE}天蝎似乎又对{CLEAR}斗笠菇的剧毒珠感兴趣了。{CLEAR}这种性格就跟个小孩子一样。",
+   "en": "Ever since I gave your Toxic Orb{NEWLINE}back, Gligar’s been interested{CLEAR}in Breloom’s Toxic Orb again.{CLEAR}It’s just like a little kid.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "好啦,你们两个别闹了！",
+   "en": "All right, you two, knock it off!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "哦？是观光客吗？{NEWLINE}看到外面的相机了吗？{CLEAR}用它拍张照片吧！{SCROLL}拍好的照片可以在{NEWLINE}精灵中心的电脑上查看,{CLEAR}一边旅行一边拍照,{CLEAR}与精灵留下美好的回忆吧。",
+   "en": "Oh? Are you a tourist? Did you see the{NEWLINE}camera outside? Use it to take a photo!{SCROLL}You can view your photos on{NEWLINE}the PC at a Pokémon Center. Take{CLEAR}pictures as you travel and make{CLEAR}happy memories with your Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "各地的道馆馆主们{NEWLINE}有时会离开道馆闲逛,{CLEAR}如果你能在道馆之外的地方{CLEAR}遇见这些馆主,{CLEAR}我想他们应该会很高兴与你来张合影。{SCROLL}但是他们每个人外出的时间都不一样,{NEWLINE}如果你想知道的话我可以告诉你。{SCROLL}想打听哪位馆主的外出时间？",
+   "en": "Gym Leaders from all over sometimes{NEWLINE}leave their Gyms to wander around.{SCROLL}If you run into them away from{NEWLINE}their Gyms, I bet they’d be{CLEAR}happy to take a photo with you.{SCROLL}But they each go out at{NEWLINE}different times. If you want{CLEAR}to know, I can tell you.{SCROLL}Which Gym Leader’s outing{NEWLINE}times would you like to know?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "小绿",
+   "en": "Blue",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 37,
+   "zh": "小刚",
+   "en": "Brock",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 4 source(s)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 38,
+   "zh": "小霞",
+   "en": "Misty",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 11 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 39,
+   "zh": "马志士",
+   "en": "Lt. Surge",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 40,
+   "zh": "莉佳",
+   "en": "Erika",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 41,
+   "zh": "阿桔",
+   "en": "Koga",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 42,
+   "zh": "夏伯",
+   "en": "Blaine",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 43,
+   "zh": "娜姿",
+   "en": "Sabrina",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 44,
+   "zh": "阿速",
+   "en": "Falkner",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 45,
+   "zh": "阿笔",
+   "en": "Bugsy",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 46,
+   "zh": "小茜",
+   "en": "Whitney",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 47,
+   "zh": "小松",
+   "en": "Morty",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 48,
+   "zh": "蜜柑",
+   "en": "Jasmine",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 49,
+   "zh": "阿四",
+   "en": "Chuck",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 50,
+   "zh": "柳伯",
+   "en": "Pryce",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 51,
+   "zh": "伊吹",
+   "en": "Clair",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s)",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 52,
+   "zh": "下一页",
+   "en": "Next page",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 53,
+   "zh": "上一页",
+   "en": "Previous page",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 54,
+   "zh": "算了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 55,
+   "zh": "小绿馆主每周五会去红莲岛修行。",
+   "en": "Gym Leader Blue goes to Cinnabar{NEWLINE}Island to train every Friday.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "小刚馆主每天17点到20点{NEWLINE}会去地鼠洞穴进行地质考察。",
+   "en": "Gym Leader Brock goes to Diglett’s{NEWLINE}Cave for geological surveys{CLEAR}every day from 17:00 to 20:00.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "小霞馆主每天14点到16点{NEWLINE}会去华蓝海角看风景。",
+   "en": "Gym Leader Misty goes to{NEWLINE}Cerulean Cape to enjoy the view{CLEAR}every day from 14:00 to 16:00.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "娜姿馆主每周一会坐船来浅葱港。",
+   "en": "Gym Leader Sabrina takes the boat{NEWLINE}to Olivine Harbor every Monday.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "马志士馆主每周五、周六{NEWLINE}会来哞哞农场买牛奶。",
+   "en": "Gym Leader Lt. Surge comes{NEWLINE}to MooMoo Farm to buy milk{CLEAR}every Friday and Saturday.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "莉佳馆主每周一会在彩虹市闲逛。",
+   "en": "Gym Leader Erika strolls around{NEWLINE}Celadon City every Monday.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "阿桔馆主每天18点到20点{NEWLINE}会到冠军之路附近修行。",
+   "en": "Gym Leader Koga trains near Victory{NEWLINE}Road every day from 18:00 to 20:00.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "夏伯每周四会在红莲岛室外散步。",
+   "en": "Blaine takes a walk outdoors on{NEWLINE}Cinnabar Island every Thursday.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "阿速馆主每周三{NEWLINE}会去彩虹百货买东西。",
+   "en": "Gym Leader Falkner goes shopping{NEWLINE}at the Celadon Department{CLEAR}Store every Wednesday.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "阿笔馆主每周一、三、五{NEWLINE}会去自然公园玩。",
+   "en": "Gym Leader Bugsy goes to play{NEWLINE}in the National Park every{CLEAR}Monday, Wednesday and Friday.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "小茜馆主每天18点到20点{NEWLINE}会去满金百货逛街。",
+   "en": "Gym Leader Whitney goes shopping{NEWLINE}at the Goldenrod Dept. Store{CLEAR}every day from 18:00 to 20:00.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "小松馆主每周五会去铃音小路修行。",
+   "en": "Gym Leader Morty goes to Bellchime{NEWLINE}Trail to train every Friday.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "蜜柑馆主每天12点到13点{NEWLINE}会去浅葱食堂吃饭。",
+   "en": "Gym Leader Jasmine eats at the Olivine{NEWLINE}Café every day from 12:00 to 13:00.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "阿四馆主每周日会去47号路锻炼。",
+   "en": "Gym Leader Chuck goes to Route{NEWLINE}47 to work out every Sunday.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "柳伯基本不外出,{NEWLINE}你每天都可以在卡吉道馆找到他。",
+   "en": "Pryce hardly ever goes out. You can{NEWLINE}find him at the Mahogany Gym any day.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "伊吹每周五会去龙之洞穴特训。",
+   "en": "Clair goes to the Dragon’s Den{NEWLINE}for special training every Friday.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "我当年可是费了好大功夫{NEWLINE}才打听到伊布进化成冰精灵的方法,{CLEAR}如果你能打败我的冰精灵,{CLEAR}我就把这个方法告诉你。{SCROLL}怎么样,要与我较量一下吗？",
+   "en": "Back in the day, it took me{NEWLINE}a lot of work to find out how{CLEAR}to evolve Eevee into Glaceon.{SCROLL}If you can beat my Glaceon,{NEWLINE}I’ll tell you how it’s done.{SCROLL}So, want to have a match with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "看到这么稀有的冰精灵,{NEWLINE}你是害怕了吗？",
+   "en": "What, are you scared{NEWLINE}of such a rare Glaceon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "嘿嘿,让你看看冰精灵的厉害！",
+   "en": "Heh heh, I’ll show you{NEWLINE}what Glaceon can do!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "你好强啊！{NEWLINE}像你这么强的训练家{CLEAR}有资格成为冰精灵的主人,{CLEAR}所以请收下这个吧！",
+   "en": "You’re so strong! A Trainer as{NEWLINE}strong as you deserves to own{CLEAR}a Glaceon. So please take this!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "如果你也有伊布的话,{NEWLINE}试着让它带上这个不融冰升级,{CLEAR}这样就能进化成冰精灵了。",
+   "en": "If you have an Eevee too, try leveling{NEWLINE}it up while it holds this Never-Melt{CLEAR}Ice. Then it’ll evolve into Glaceon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "据说在神奥地区,{NEWLINE}伊布有别的方式能进化成冰精灵。{CLEAR}但在城都地区,{CLEAR}要得到冰精灵就只能依靠不融冰了。",
+   "en": "They say Eevee has another{NEWLINE}way to evolve into Glaceon{CLEAR}in the Sinnoh region.{SCROLL}But in the Johto region, Never-Melt{NEWLINE}Ice is the only way to get a Glaceon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "如你所见,我们三兄弟都是{NEWLINE}使用伊布的训练家。{CLEAR}如果你能答对我提出的{CLEAR}关于伊布的问题,{CLEAR}我就送你一个珍贵的道具。{CLEAR}要不要试试啊？",
+   "en": "As you can see, we three{NEWLINE}brothers all use Eevee.{SCROLL}If you can answer my questions about{NEWLINE}Eevee correctly, I’ll give you a{CLEAR}precious item. Want to give it a try?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "什么时候想试试了再来找我。",
+   "en": "Come find me whenever{NEWLINE}you want to give it a try.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "现在请听第一题：{SCROLL}伊布共有几个进化形态？",
+   "en": "Here’s the first question:{SCROLL}How many evolved forms{NEWLINE}does Eevee have?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "6",
+   "en": "6",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 81,
+   "zh": "7",
+   "en": "7",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 82,
+   "zh": "8",
+   "en": "8",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 83,
+   "zh": "9",
+   "en": "9",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 84,
+   "zh": "现在请听第二题：{SCROLL}下列哪个进化石{NEWLINE}对伊布的进化没有作用？",
+   "en": "Here’s the second question:{SCROLL}Which of these evolution stones has{NEWLINE}no effect on Eevee’s evolution?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "火之石",
+   "en": "Fire Stone",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 86,
+   "zh": "月之石",
+   "en": "Moon Stone",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 87,
+   "zh": "叶之石",
+   "en": "Leaf Stone",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 88,
+   "zh": "雷之石",
+   "en": "Thunder Stone",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 89,
+   "zh": "现在请听第三题：{SCROLL}伊布的哪个进化型,{NEWLINE}物防种族值最高？",
+   "en": "Here’s the third question:{SCROLL}Which of Eevee’s evolutions{NEWLINE}has the highest base Defense?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "叶精灵",
+   "en": "Leafeon",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 91,
+   "zh": "月亮精灵",
+   "en": "Umbreon",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 92,
+   "zh": "仙子精灵",
+   "en": "Sylveon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 'Illumise' was wrong: 仙子精灵 = Sylveon.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 93,
+   "zh": "冰精灵",
+   "en": "Glaceon",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 94,
+   "zh": "现在请听第四题：{SCROLL}所有伊布的进化型,{NEWLINE}其种族值总和都是？",
+   "en": "Here’s the fourth question:{SCROLL}What is the base stat total of{NEWLINE}every one of Eevee’s evolutions?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "500",
+   "en": "500",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 96,
+   "zh": "510",
+   "en": "510",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 97,
+   "zh": "515",
+   "en": "515",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 98,
+   "zh": "525",
+   "en": "525",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 99,
+   "zh": "现在请听第五题：{SCROLL}下列哪只伊布的进化型,{NEWLINE}不具备在特殊天气下加速的特性？",
+   "en": "Here’s the fifth question:{SCROLL}Which of Eevee’s evolutions{NEWLINE}has no Ability that boosts{CLEAR}its Speed in special weather?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "雷精灵",
+   "en": "Jolteon",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 101,
+   "zh": "火精灵",
+   "en": "Flareon",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 102,
+   "zh": "水精灵",
+   "en": "Vaporeon",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 103,
+   "zh": "叶精灵",
+   "en": "Leafeon",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 104,
+   "zh": "很抱歉,你刚才的回答中有错误,{NEWLINE}好好想想再重新作答吧。",
+   "en": "Sorry, some of your answers were{NEWLINE}wrong. Think it over and try again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "不错不错,{NEWLINE}居然能回答对我的全部问题,{CLEAR}看来你平时也很喜欢伊布啊。{CLEAR}那么这颗进化奇石送给你,{CLEAR}你让还能继续进化的精灵带上它试试,{CLEAR}或许会有意想不到的效果哦。",
+   "en": "Not bad at all! You got every{NEWLINE}one of my questions right. You{CLEAR}must really love Eevee too.{SCROLL}So here, take this Eviolite. Have{NEWLINE}a Pokémon that can still evolve hold{CLEAR}it. It might have a surprising effect.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 106,
+   "zh": "仙子精灵是最新发现的伊布形态,{NEWLINE}几乎没有训练家拥有这只精灵,{CLEAR}你如果带一只仙子精灵上街的话,{CLEAR}一定非常吸睛。",
+   "en": "Sylveon is the most recently{NEWLINE}discovered form of Eevee.{CLEAR}Hardly any Trainers own one.{SCROLL}If you took a Sylveon out on the{NEWLINE}street, you’d turn every head.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 107,
+   "zh": "冰精灵『Glaaa——ceo！",
+   "en": "Glaceon: Glaaa-ceo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "仙子精灵『Syyy——veo！",
+   "en": "Sylveon: Syyy-veo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

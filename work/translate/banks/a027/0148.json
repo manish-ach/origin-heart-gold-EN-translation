@@ -1,0 +1,319 @@
+{
+ "narc": "a027",
+ "bank": 148,
+ "source": "work/extract/v4/a027/0148.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "烈空坐『咕啦咕啦！{SCROLL}",
+   "en": "Rayquaza: Gula-gula!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0150/0; modernised from US 0150#0 | D-1195: reverted to match the zh (Rayquaza is given Kyogre’s cry 咕啦咕啦); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 1,
+   "zh": "烈空坐{NEWLINE}消失了踪影……",
+   "en": "Rayquaza disappeared...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0150/1; modernised from US 0150#1"
+  },
+  {
+   "id": 2,
+   "zh": "烈空坐『咕啦咕啦！{NEWLINE}",
+   "en": "Rayquaza: Gula-gula!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0150/2; modernised from US 0150#2 | D-1195: reverted to match the zh (Rayquaza is given Kyogre’s cry 咕啦咕啦); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 3,
+   "zh": "坂木『找到白金宝珠了吗？",
+   "en": "Giovanni: Have you{NEWLINE}found the Griseous Orb?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "冥王『宝珠就在我身上,您看。",
+   "en": "Charon: I have the{NEWLINE}Orb right here. Look.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "坂木『很好,这样骑拉帝纳{NEWLINE}就是我们的囊中之物了。",
+   "en": "Giovanni: Excellent. Now{NEWLINE}Giratina is as good as ours.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0103:0}『别做白日梦了坂木,{NEWLINE}我会在这里阻止你们的！",
+   "en": "{VAR:0103:0}: Stop daydreaming, Giovanni.{NEWLINE}I’m going to stop you right here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "坂木『哦？有只小狗闻着味道过来了。",
+   "en": "Giovanni: Oh? A little puppy{NEWLINE}has sniffed its way here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "冥王『真是阴魂不散……{NEWLINE}老大,要干掉这个臭小鬼吗？",
+   "en": "Charon: What a pest, haunting{NEWLINE}us everywhere... Boss, shall{CLEAR}I finish off this stinking brat?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "坂木『现在还不是时候,{NEWLINE}按计划去捕捉骑拉帝纳。",
+   "en": "Giovanni: Not yet. Go{NEWLINE}catch Giratina as planned.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "冥王『是。",
+   "en": "Charon: Yes, sir.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0103:0}『休想得逞！",
+   "en": "{VAR:0103:0}: You won’t get away with this!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}『这里就是「那个世界」？{NEWLINE}坂木他们也到了这里吗……？",
+   "en": "{VAR:0103:0}: So this is the{NEWLINE}other world? Did Giovanni and{CLEAR}the others come here too...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "冥王『坂木老大,这里应该就是{NEWLINE}反转世界的尽头了。{CLEAR}请您在这里召唤骑拉帝纳吧！",
+   "en": "Charon: Boss Giovanni, this should{NEWLINE}be the far end of the Distortion{CLEAR}World. Please summon Giratina here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "反转世界 → the Distortion World (as the US line 0144 #15)"
+  },
+  {
+   "id": 14,
+   "zh": "坂木『能够反转一切的力量,在这里苏醒……",
+   "en": "Giovanni: The power to reverse{NEWLINE}all things awakens here...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0103:0}『给我住手,坂木！",
+   "en": "{VAR:0103:0}: Stop right there, Giovanni!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "冥王『联盟冠军的小鬼？！{SCROLL}冥王『你怎么会出现在这里？{NEWLINE}难道是被宝珠的力量一起进来的？",
+   "en": "Charon: The League Champion brat?!{SCROLL}Charon: How did you get in here? Did{NEWLINE}the Orb’s power pull you in with us?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "坂木『他怎么来的并不重要,{NEWLINE}我现在需要时间召唤骑拉帝纳,{CLEAR}你给我拖住这个家伙。",
+   "en": "Giovanni: How he got here doesn’t{NEWLINE}matter. I need time to summon{CLEAR}Giratina. Hold this one off for me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh 他 (him) only; no female-player variant"
+  },
+  {
+   "id": 18,
+   "zh": "冥王『好的老大,交给我吧！",
+   "en": "Charon: Very well, Boss. Leave it to me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "冥王『我虽然不是你的对手,{NEWLINE}但拖延一会儿还是做得到的！",
+   "en": "Charon: I may be no match for you,{NEWLINE}but I can still stall you for a while!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0103:0}『没有精灵了就赶紧让开,{NEWLINE}不要挡路！",
+   "en": "{VAR:0103:0}: You’re out of Pokémon,{NEWLINE}so move! Out of my way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "冥王『嘿嘿,太迟了………",
+   "en": "Charon: Heh heh. Too late...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "坂木『骑拉帝纳！{NEWLINE}以这白金玉为信物,{CLEAR}我在此将你召唤,{CLEAR}现身吧！",
+   "en": "Giovanni: Giratina! By this Griseous Orb{NEWLINE}as a token, I summon you here. Appear!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "骑拉帝纳『Giiii——ra！",
+   "en": "Giratina: Giiii-ra!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "坂木『你就是骑拉帝纳吗？{NEWLINE}跟画册里有腿的样子不太一样啊。",
+   "en": "Giovanni: So you’re Giratina? You don’t{NEWLINE}look much like the one with legs in the{CLEAR}picture books.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Giratina shows up in Origin Forme (no legs); ext-review RA-015"
+  },
+  {
+   "id": 25,
+   "zh": "坂木『也罢,这都不重要。{NEWLINE}从今天起你就是我的手下了。{CLEAR}去吧特制球！",
+   "en": "Giovanni: Well, none of that{NEWLINE}matters. From today on, you’re{CLEAR}my servant. Go, Special Ball!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "坂木『很好,这样一来{NEWLINE}终于可以逆转那该死的诅咒,{CLEAR}到达冰之通路最深处了。",
+   "en": "Giovanni: Excellent. Now I can finally{NEWLINE}reverse that damned curse and reach{CLEAR}the deepest part of the Ice Path.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "{VAR:0103:0}『别做梦了坂木,{NEWLINE}这个世界无法使用穿洞绳,{CLEAR}你已经无处可逃了,{CLEAR}跟我回去认罪是你唯一的出路。",
+   "en": "{VAR:0103:0}: Dream on, Giovanni. Escape{NEWLINE}Ropes don’t work in this world. You’ve{CLEAR}got nowhere to run. Coming back with{CLEAR}me to face justice is your only way out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "坂木『哈哈哈,穿洞绳？{NEWLINE}拥有白金宝珠和骑拉帝纳的我{CLEAR}离开这里还需要穿洞绳吗？",
+   "en": "Giovanni: Hah hah hah! Escape Rope?{NEWLINE}With the Griseous Orb and Giratina,{CLEAR}do I need an Escape Rope to leave?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "坂木『再见了,联盟冠军{VAR:0103:0}。",
+   "en": "Giovanni: Farewell,{NEWLINE}League Champion {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0103:0}『又被他们逃掉了……{NEWLINE}不过刚刚坂木说{CLEAR}要去冰之通路的最深处。{CLEAR}现在追去那里的话,{CLEAR}或许能够阻止他们的下一步计划。",
+   "en": "{VAR:0103:0}: They got away again...{NEWLINE}But Giovanni just said he’s going to{CLEAR}the deepest part of the Ice Path.{SCROLL}If I go after them there now, I might{NEWLINE}be able to stop their next move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "啊……坂木老大和冥王大人{NEWLINE}钻到奇怪的树丛里之后{CLEAR}嗖的一下就不见了！{SCROLL}这、这、这……到底是怎么回事啊。",
+   "en": "Ah... Boss Giovanni and Master{NEWLINE}Charon went into that weird thicket,{CLEAR}and then whoosh, they vanished!{SCROLL}Wh-wh-what on earth is going on?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "你是联盟冠军{VAR:0103:0}！{SCROLL}不过我现在没功夫理你,{NEWLINE}我得赶紧找到{CLEAR}离开这个该死地方的路才行。",
+   "en": "You’re the League Champion, {VAR:0103:0}!{SCROLL}But I don’t have time for you{NEWLINE}now. I’ve got to find a way out{CLEAR}of this damned place, fast.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "这里就是反转世界吗……{NEWLINE}阴森森的好可怕啊。",
+   "en": "So this is the Distortion World...{NEWLINE}It’s so dark and creepy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "骑拉帝纳可能就在前面沉睡,{NEWLINE}要使用白金宝珠召唤骑拉帝纳吗？",
+   "en": "Giratina might be sleeping up ahead. Use{NEWLINE}the Griseous Orb to summon Giratina?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "骑拉帝纳出现了！",
+   "en": "Giratina appeared!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "古老的精灵雕像。",
+   "en": "An ancient Pokémon statue.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "雕像上散发出神奇的力量！",
+   "en": "The statue is giving off{NEWLINE}a mysterious power!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "雕像与身上的白金宝珠产生了共鸣！",
+   "en": "The statue is resonating with{NEWLINE}the Griseous Orb you carry!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

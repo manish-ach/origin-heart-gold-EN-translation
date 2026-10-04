@@ -1,0 +1,871 @@
+{
+ "narc": "a027",
+ "bank": 319,
+ "source": "work/extract/v4/a027/0319.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "前面是月见山,{SCROLL}途中还有{NEWLINE}月见山广场！",
+   "en": "Mt. Moon ahead.{SCROLL}Mt. Moon Square is on{NEWLINE}the way to the top!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0326/0"
+  },
+  {
+   "id": 1,
+   "zh": "从没见过这样的岩石！{SCROLL}难不成是……{NEWLINE}宇宙来的陨石？",
+   "en": "Never seen a stone like this before!{SCROLL}Could it be...{NEWLINE}a meteorite from space?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0326/1"
+  },
+  {
+   "id": 2,
+   "zh": "触摸陨石{NEWLINE}使某只精灵的{CLEAR}行动速度提高了！",
+   "en": "Touching the meteorite boosted{NEWLINE}the Speed of a certain Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0326/2"
+  },
+  {
+   "id": 3,
+   "zh": "触摸陨石{NEWLINE}使某只精灵的{CLEAR}防御力量增强了！",
+   "en": "Touching the meteorite raised a certain{NEWLINE}Pokémon’s Defense!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0326/3"
+  },
+  {
+   "id": 4,
+   "zh": "触摸陨石{NEWLINE}使某只精灵的{CLEAR}战斗力量增强了！",
+   "en": "Touching the meteorite raised a certain{NEWLINE}Pokémon’s Attack!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0326/4"
+  },
+  {
+   "id": 5,
+   "zh": "触摸陨石{NEWLINE}使某只精灵成为{CLEAR}平衡状态",
+   "en": "Touching the meteorite put a certain{NEWLINE}Pokémon into a balanced state.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 6,
+   "zh": "我的蛇纹熊是拾荒特性,{NEWLINE}战斗结束后有可能捡到各种道具。{CLEAR}如果你比较缺钱的话,{CLEAR}随身带一只拾荒特性的精灵,{CLEAR}是对旅行大有帮助的！",
+   "en": "My Zigzagoon has the Pickup Ability, so{NEWLINE}it may pick up all kinds of items after{CLEAR}battles.{SCROLL}If you’re short on money, bringing{NEWLINE}along a Pokémon with Pickup is a big help{CLEAR}on your travels!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 7,
+   "zh": "小火龙『Char——ma！",
+   "en": "Charmander: Char-ma!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 8,
+   "zh": "拉鲁拉丝『Ral……Ral！",
+   "en": "Ralts: Ral... Ral!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 9,
+   "zh": "这位来自芳缘地区的训练家,{NEWLINE}对化石与考古似乎很有心得呢。",
+   "en": "This Trainer from the Hoenn region{NEWLINE}seems to know a lot about fossils and{CLEAR}archaeology.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 10,
+   "zh": "你已经学会{NEWLINE}能击碎岩石的秘技了吗？{SCROLL}如果不会的话,你可以去请教下{NEWLINE}尼比市里的某位长者,{CLEAR}他可是这方面的专家。",
+   "en": "Have you learned the secret technique{NEWLINE}for smashing rocks?{SCROLL}If not, go ask a certain old man in{NEWLINE}Pewter City. He’s an expert at it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 11,
+   "zh": "这个给你！",
+   "en": "Here, this is for you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 12,
+   "zh": "哈哈,这是我的蛇纹熊捡的哟！",
+   "en": "Ha ha, my Zigzagoon picked that up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 13,
+   "zh": "大吾『嗯,听完您的论述之后,{NEWLINE}我也觉得非常有可能！",
+   "en": "Steven: Hmm, after hearing your{NEWLINE}argument, I also think it’s very{CLEAR}possible!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 14,
+   "zh": "大吾『啊！{VAR:0103:0}！{NEWLINE}你也到月见山来了啊。{CLEAR}嗯……莫非{CLEAR}你也是来研究化石和传说的？",
+   "en": "Steven: Ah! {VAR:0103:0}! So you’ve come to{NEWLINE}Mt. Moon too.{SCROLL}Hmm... Could it be you’re here to study{NEWLINE}fossils and legends as well?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 15,
+   "zh": "蛇纹熊『Zig——za！",
+   "en": "Zigzagoon: Zig-za!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0103:0}『啊……不……{NEWLINE}我做不了那么高深的研究……",
+   "en": "{VAR:0103:0}: Oh... No... I couldn’t do{NEWLINE}research that deep...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}『呃,我只是路过……{NEWLINE}顺便跟你打个招呼而已……",
+   "en": "{VAR:0103:0}: Uh, I was just passing by... I{NEWLINE}only wanted to say hi...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 18,
+   "zh": "大吾『那真是太可惜了,{NEWLINE}月见山可是充满了未知的秘密。{CLEAR}我现在要进去调查研究了,{CLEAR}你有兴趣的话也进来看看吧。",
+   "en": "Steven: That’s a pity. Mt. Moon is full{NEWLINE}of unknown secrets.{SCROLL}I’m going inside to investigate now. If{NEWLINE}you’re interested, come in and take a{CLEAR}look.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 19,
+   "zh": "拉鲁拉丝『Ral……Ral……{SCROLL}拉鲁拉丝似乎有些沮丧。",
+   "en": "Ralts: Ral... Ral...{SCROLL}Ralts seems a little down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost | Branch: Ralts variant (alternates with Charmander ids #21/22, 51/52, 54/56, 59/60, 61/84, 62/67, 68/69, 70/71, 74/75, 76–79/80–83, 85/86, 87/88)."
+  },
+  {
+   "id": 20,
+   "zh": "不好意思啊,年轻人,{NEWLINE}这只拉鲁拉丝是我老伴亲手孵化的。{CLEAR}自从我老伴去世以后,{CLEAR}拉鲁拉丝每天都在盼着她回来。{SCROLL}所以一听到有人靠近,{NEWLINE}它就跑过来了。",
+   "en": "Sorry about that, youngster. My late{NEWLINE}wife hatched this Ralts herself.{SCROLL}Ever since she passed away, Ralts has{NEWLINE}been waiting every day for her to come{CLEAR}back.{SCROLL}So whenever it hears someone coming, it{NEWLINE}runs right over.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 21,
+   "zh": "小火龙『Char……ma……{SCROLL}小火龙似乎有些沮丧。",
+   "en": "Charmander: Char... ma...{SCROLL}Charmander seems a little down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost | Branch: Charmander variant of the Ralts lines (see #19)."
+  },
+  {
+   "id": 22,
+   "zh": "不好意思啊,年轻人,{NEWLINE}这只小火龙是我老伴亲手孵化的。{CLEAR}自从我老伴去世以后,{CLEAR}小火龙每天都在盼着她回来。{SCROLL}所以一听到有人靠近,{NEWLINE}它就跑过来了。",
+   "en": "Sorry about that, youngster. My late{NEWLINE}wife hatched this Charmander herself.{SCROLL}Ever since she passed away, Charmander{NEWLINE}has been waiting every day for her to{CLEAR}come back.{SCROLL}So whenever it hears someone coming, it{NEWLINE}runs right over.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 23,
+   "zh": "{VAR:FF01:200}唔哦哦哦！！！！！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Whoooooa!!!!!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "暴鲤龙『Gy——a——ra！",
+   "en": "Gyarados: Gy-a-ra!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 25,
+   "zh": "暴鲤龙似乎非常暴躁！",
+   "en": "Gyarados seems really riled up!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:FF01:200}小霞『暴鲤龙快住手！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Misty: Stop, Gyarados!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "SIZE-200% big text; split over two lines to fit. Double-size shout: one line per page (a line break inside {VAR:FF01:200} overflows the box and corrupts memory; heap_audit.md)."
+  },
+  {
+   "id": 27,
+   "zh": "小霞『可以了,暴鲤龙！{NEWLINE}回到精灵球里来吧！",
+   "en": "Misty: That’s enough, Gyarados! Return{NEWLINE}to your Poké Ball!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 28,
+   "zh": "小霞『对不起啊{VAR:0103:0},{NEWLINE}你没受伤吧？",
+   "en": "Misty: I’m so sorry, {VAR:0103:0}. You’re{NEWLINE}not hurt, are you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0103:0}『一点小冲击而已,{NEWLINE}当然没事啦。",
+   "en": "{VAR:0103:0}: It was just a little bump. Of{NEWLINE}course I’m fine.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0103:0}『嗯,我没事的啦！",
+   "en": "{VAR:0103:0}: Mm-hm, I’m totally fine!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 31,
+   "zh": "小霞『呼……{NEWLINE}你没受伤真是太好了！{SCROLL}小霞『这是我的暴鲤龙,{NEWLINE}准确点说是爸爸给我的。{CLEAR}因为我目前的训练家等级还不够,{CLEAR}所以还不能自如地指挥它。{SCROLL}小霞『本来想在月见山上{NEWLINE}跟它一起锻炼一下的,{CLEAR}没成想却差点误伤了你。{CLEAR}唉，我还真是没用。",
+   "en": "Misty: Phew... I’m so glad you’re not{NEWLINE}hurt!{SCROLL}Misty: This is my Gyarados. Well, to be{NEWLINE}exact, my dad gave it to me.{SCROLL}My Trainer level isn’t high enough yet,{NEWLINE}so I can’t command it properly.{SCROLL}Misty: I wanted to train with it here on{NEWLINE}Mt. Moon, but instead it nearly hurt{CLEAR}you.{SCROLL}Sigh... I’m so useless.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:0103:0}『不,小霞,{NEWLINE}没有人天生就是精英训练家。{CLEAR}也正因如此,{CLEAR}我才选择出门旅行锻炼自己,{CLEAR}直到成为口袋妖怪联盟冠军。{SCROLL}{VAR:0103:0}『我一直都坚信{NEWLINE}只要不断努力,{CLEAR}就一定可以成为强大的训练家。",
+   "en": "{VAR:0103:0}: No, Misty. Nobody is born an{NEWLINE}Ace Trainer.{SCROLL}That’s exactly why I chose to go out{NEWLINE}and travel to train myself, until I{CLEAR}become the Pokémon League Champion.{SCROLL}{VAR:0103:0}: I’ve always believed that if{NEWLINE}you keep working hard, you can become a{CLEAR}strong Trainer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags var_mismatch | seed rejected tm_v3 [tag_mismatch] (candidate v3 0319#32; text not kept); ext-review RV-020"
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0103:0}『小霞不可以这么消极哟,{NEWLINE}没有人天生就是精英训练家呢。{CLEAR}我之所以离开真新镇游历{CLEAR}也是希望自己不断变强,{CLEAR}然后成为最后成为优秀的训练家。{SCROLL}{VAR:0103:0}『即使你现在达不到期望的实力,{NEWLINE}但是咱们可以一起努力,{CLEAR}然后一起成为强大的训练家哟！",
+   "en": "{VAR:0103:0}: Don’t be so down on yourself,{NEWLINE}Misty. Nobody is born an Ace Trainer.{SCROLL}I left Pallet Town to travel because I{NEWLINE}want to keep getting stronger and{CLEAR}become a great Trainer.{SCROLL}{VAR:0103:0}: Even if you’re not as strong{NEWLINE}as you want to be yet, we can work{CLEAR}hard together and both become{CLEAR}strong Trainers!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; ext-review RV-020"
+  },
+  {
+   "id": 34,
+   "zh": "小霞『{VAR:0103:0}……{SCROLL}小霞『谢谢你！",
+   "en": "Misty: {VAR:0103:0}...{SCROLL}Misty: Thank you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 35,
+   "zh": "小霞『谢谢你,{VAR:0103:0}。",
+   "en": "Misty: Thank you, {VAR:0103:0}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 36,
+   "zh": "{VAR:0103:0}『嘿嘿。{NEWLINE}怎么样,要不要跟我来一场{CLEAR}锻炼实力的对决呢？",
+   "en": "{VAR:0103:0}: Heh heh. So how about it? Want{NEWLINE}to have a battle with me to hone our{CLEAR}skills?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 37,
+   "zh": "{VAR:0103:0}『太客气啦。{NEWLINE}小霞你要不要跟我来一场{CLEAR}重拾信心的对决呢？",
+   "en": "{VAR:0103:0}: Don’t mention it. Misty, how{NEWLINE}about a battle with me to get your{CLEAR}confidence back?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 38,
+   "zh": "我是尼比市博物馆的研究员,{NEWLINE}在这里进行有关陨石的研究。{CLEAR}看你也是个对探索未知{CLEAR}充满兴趣的人,{CLEAR}这个送给你。",
+   "en": "I’m a researcher from the Pewter{NEWLINE}Museum of Science. I’m studying the{CLEAR}meteorite here.{SCROLL}You look like someone who loves{NEWLINE}exploring the unknown, too. Here, this{CLEAR}is for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 39,
+   "zh": "这个道具探测器{NEWLINE}可以感应到肉眼看不见的隐藏物品,{CLEAR}常拿出来探测一下的话,{CLEAR}或许会有意想不到的发现！",
+   "en": "This Dowsing Machine can sense hidden{NEWLINE}items you can’t see with the naked eye.{SCROLL}If you use it often, you might make some{NEWLINE}surprising discoveries!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 40,
+   "zh": "嗯……根据我在这里的研究,{NEWLINE}这个陨石砸出来的天坑,{CLEAR}似乎与某种来自外太空的口袋妖怪有关！",
+   "en": "Hmm... According to my research here,{NEWLINE}the crater this meteorite made seems to{CLEAR}be linked to some kind of Pokémon from{CLEAR}outer space!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 41,
+   "zh": "月见山的山洞里{NEWLINE}有很多珍惜的口袋妖怪,{CLEAR}如果能用黑暗球抓的话会事半功倍,{CLEAR}正好我这里有的卖。",
+   "en": "The caves of Mt. Moon are full of rare{NEWLINE}Pokémon. Catching them with Dusk Balls{CLEAR}makes it way easier.{SCROLL}And as luck would have it, I’ve got some{NEWLINE}for sale.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 42,
+   "zh": "怎么样,要买一点吗？{SCROLL}",
+   "en": "So, want to buy some?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 43,
+   "zh": "1个 黑暗球{NEWLINE}1200元",
+   "en": "1 Dusk Ball{NEWLINE}$1200",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 44,
+   "zh": "3个 黑暗球{NEWLINE}3600元",
+   "en": "3 Dusk Balls{NEWLINE}$3600",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 45,
+   "zh": "5个 黑暗球{NEWLINE}6000元",
+   "en": "5 Dusk Balls{NEWLINE}$6000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 46,
+   "zh": "10个 黑暗球{NEWLINE}12000元",
+   "en": "10 Dusk Balls{NEWLINE}$12000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 47,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s), same position",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 48,
+   "zh": "需要的话再来哦！",
+   "en": "Come back if you need any!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 49,
+   "zh": "没拿够钱的话,我可不卖啊！",
+   "en": "If you haven’t got enough money, I’m{NEWLINE}not selling!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 50,
+   "zh": "来,请拿好！",
+   "en": "Here you go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 51,
+   "zh": "小火龙『Char——ma！",
+   "en": "Charmander: Char-ma!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 52,
+   "zh": "拉鲁拉丝『Ral……Ral！",
+   "en": "Ralts: Ral... Ral!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 53,
+   "zh": "你能这么大老远帮我带水回来,{NEWLINE}足见你待人至诚、至善。",
+   "en": "You came all this way to bring me back{NEWLINE}water. That shows how sincere and kind{CLEAR}you are.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 54,
+   "zh": "善良的训练家啊,{NEWLINE}请听老头子一言。{SCROLL}这只拉鲁拉丝{NEWLINE}是我老伴临终前托付给我的,{CLEAR}对我而言它就像我家人一样。{SCROLL}可惜如今我也年老体弱,{NEWLINE}可能也没法长久地照顾它了。{CLEAR}实在不忍心当我去世之后{CLEAR}留它自己在这里伤心落寞。",
+   "en": "Kind Trainer, please hear an old man{NEWLINE}out.{SCROLL}My wife entrusted this Ralts to me{NEWLINE}before she passed away. To me, it’s like{CLEAR}family.{SCROLL}But I’m old and frail now, and I may not{NEWLINE}be able to look after it much longer.{SCROLL}I can’t bear the thought of leaving it{NEWLINE}here all sad and alone when I’m gone.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 55,
+   "zh": "所以能否请你现在带上它,{NEWLINE}一同踏上旅途呢？",
+   "en": "So would you take it with you now, on{NEWLINE}your journey?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 56,
+   "zh": "我的这只小火龙特别帅气矫健,{NEWLINE}我实在不忍心当我去世之后{CLEAR}留它自己在这里伤心落寞。{SCROLL}所以能否请你现在带上它,{NEWLINE}一同踏上旅途呢？",
+   "en": "This Charmander of mine is so handsome{NEWLINE}and spirited. I can’t bear the thought{CLEAR}of leaving it here all sad and alone when{CLEAR}I’m gone.{SCROLL}So would you take it with you now, on{NEWLINE}your journey?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 57,
+   "zh": "是么……{NEWLINE}那真是太遗憾了。",
+   "en": "I see... That’s a real shame.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 58,
+   "zh": "你身上的精灵已经带满,{NEWLINE}没有这孩子的位置了。",
+   "en": "Your party is already full. There’s no{NEWLINE}room for this little one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 59,
+   "zh": "{VAR:0103:0}从画家老伯那得到了拉鲁拉丝！",
+   "en": "{VAR:0103:0} received Ralts from the old{NEWLINE}painter!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 60,
+   "zh": "{VAR:0103:0}从画家老伯那得到了小火龙！",
+   "en": "{VAR:0103:0} received Charmander from the{NEWLINE}old painter!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 61,
+   "zh": "保重啊,拉鲁拉丝！",
+   "en": "Take care, Ralts!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 62,
+   "zh": "唉,我最近身体越来越差了,{NEWLINE}不知道还能陪伴拉鲁拉丝多久。{SCROLL}原本我是听说{NEWLINE}多喝月见山顶的泉水能够强身健体,{CLEAR}所以才搬到这里来住的,{CLEAR}奈何现在腿脚不行{CLEAR}根本爬不到山顶去。{SCROLL}所以能不能麻烦你{NEWLINE}帮我带一瓶月见山的泉水来呢？",
+   "en": "Sigh... My health keeps getting worse. I{NEWLINE}don’t know how much longer I can stay{CLEAR}with Ralts.{SCROLL}I moved here because I heard that{NEWLINE}drinking the spring water from the top{CLEAR}of Mt. Moon keeps you strong and{CLEAR}healthy.{SCROLL}But my legs are too weak now. I can’t{NEWLINE}make it up the mountain at all.{SCROLL}So could I trouble you to bring me a{NEWLINE}bottle of Mt. Moon spring water?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 63,
+   "zh": "哦哦,已经带来了啊！{NEWLINE}这可是超有益身体健康的山泉水呢！{SCROLL}咕嘟咕嘟……咕嘟咕嘟……{SCROLL}咕嘟咕嘟……咕嘟咕嘟……{SCROLL}啊,真是好水！{NEWLINE}太谢谢你了,年轻人。",
+   "en": "Oh, oh, you brought it already! This{NEWLINE}mountain spring water is wonderful for{CLEAR}your health!{SCROLL}Glug glug... Glug glug...{SCROLL}Glug glug... Glug glug...{SCROLL}Ah, that’s good water! Thank you so{NEWLINE}much, youngster.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 64,
+   "zh": "我也不能白喝你的水。{NEWLINE}这个是我的一点心意{CLEAR}请收下吧！",
+   "en": "I can’t just take your water for{NEWLINE}nothing. Please accept this small token{CLEAR}of thanks!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 65,
+   "zh": "哈哈,能把精灵托付给你,{NEWLINE}我也就放心了。",
+   "en": "Ha ha, now that I can entrust it to{NEWLINE}you, my mind is at ease.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 66,
+   "zh": "我的口袋妖怪是拾荒特性哟！{NEWLINE}跟野生的精灵对战后{CLEAR}偶尔就能捡到好用的道具。",
+   "en": "My Pokémon has the Pickup Ability! After{NEWLINE}battles with wild Pokémon, it sometimes{CLEAR}picks up useful items.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 67,
+   "zh": "唉,我最近身体越来越差了,{NEWLINE}不知道还能陪伴小火龙多久。{SCROLL}原本我是听说月见山顶的泉水{NEWLINE}能够强身健体,{CLEAR}所以才搬到这里来住的,{CLEAR}奈何现在腿脚不行{CLEAR}根本爬不到山顶去。{SCROLL}所以能不能麻烦你{NEWLINE}帮我带一瓶月见山的泉水来呢？",
+   "en": "Sigh... My health keeps getting worse. I{NEWLINE}don’t know how much longer I can stay{CLEAR}with Charmander.{SCROLL}I moved here because I heard the{NEWLINE}spring water from the top of Mt. Moon{CLEAR}keeps you strong and healthy.{SCROLL}But my legs are too weak now. I can’t{NEWLINE}make it up the mountain at all.{SCROLL}So could I trouble you to bring me a{NEWLINE}bottle of Mt. Moon spring water?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 68,
+   "zh": "拉鲁拉丝『Ral……Ral！{SCROLL}拉鲁拉丝的叫声非常悲伤。",
+   "en": "Ralts: Ral... Ral!{SCROLL}Ralts’s cry sounds so sad.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 69,
+   "zh": "小火龙『Char——ma！{SCROLL}小火龙的叫声非常悲伤。",
+   "en": "Charmander: Char-ma!{SCROLL}Charmander’s cry sounds so sad.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 70,
+   "zh": "拉鲁拉丝身上带着一封信,{NEWLINE}要读吗？",
+   "en": "Ralts is carrying a letter. Read it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 71,
+   "zh": "小火龙身上带着一封信,{NEWLINE}要读吗？",
+   "en": "Charmander is carrying a letter. Read{NEWLINE}it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 72,
+   "zh": "小霞『嗯！",
+   "en": "Misty: OK!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 73,
+   "zh": "小霞『真是场痛快的战斗啊！{NEWLINE}谢谢你{VAR:0103:0}！{CLEAR}我现在要赶回华蓝市了,{CLEAR}期待与你的再次对决喔！",
+   "en": "Misty: That was a great battle! Thanks,{NEWLINE}{VAR:0103:0}!{SCROLL}I have to hurry back to Cerulean City{NEWLINE}now. I can’t wait for our next match!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 74,
+   "zh": "走吧拉鲁拉丝,{NEWLINE}不可以给别人添麻烦。",
+   "en": "Come along, Ralts. You mustn’t bother{NEWLINE}people.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 75,
+   "zh": "走吧小火龙,{NEWLINE}不可以给别人添麻烦。",
+   "en": "Come along, Charmander. You mustn’t{NEWLINE}bother people.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 76,
+   "zh": "太好了拉鲁拉丝。{SCROLL}这位好心的训练家{NEWLINE}愿意带你一起旅行呢。",
+   "en": "Isn’t that wonderful, Ralts?{SCROLL}This kind Trainer is willing to take you{NEWLINE}along on a journey.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 77,
+   "zh": "拉鲁拉丝『Ral……Ral……{SCROLL}拉鲁拉丝非常恋恋不舍。",
+   "en": "Ralts: Ral... Ral...{SCROLL}Ralts doesn’t want to say goodbye.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 78,
+   "zh": "听话啊,拉鲁拉丝,{NEWLINE}我们不是已经说好了吗？{SCROLL}而且我想妈妈也一定非常希望{NEWLINE}你能四处旅行,{CLEAR}然后成长为一个强大的精灵呢。",
+   "en": "Be good now, Ralts. Didn’t we already{NEWLINE}agree?{SCROLL}And I’m sure Mama would want you to{NEWLINE}travel all over and grow into a strong{CLEAR}Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 79,
+   "zh": "拉鲁拉丝『Ral——Ral！{SCROLL}拉鲁拉丝点了点头。",
+   "en": "Ralts: Ral-Ral!{SCROLL}Ralts nodded.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 80,
+   "zh": "太好了小火龙。{SCROLL}这位好心的训练家{NEWLINE}愿意带你一起旅行呢。",
+   "en": "Isn’t that wonderful, Charmander?{SCROLL}This kind Trainer is willing to take you{NEWLINE}along on a journey.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 81,
+   "zh": "小火龙『Char——ma……{SCROLL}小火龙非常恋恋不舍。",
+   "en": "Charmander: Char-ma...{SCROLL}Charmander doesn’t want to say{NEWLINE}goodbye.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 82,
+   "zh": "听话啊,小火龙,{NEWLINE}我们不是已经说好了吗？{SCROLL}而且我想妈妈也一定非常希望{NEWLINE}你能四处旅行,{CLEAR}然后成长为一个强大的精灵呢。",
+   "en": "Be good now, Charmander. Didn’t we{NEWLINE}already agree?{SCROLL}And I’m sure Mama would want you to{NEWLINE}travel all over and grow into a strong{CLEAR}Pokémon.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 83,
+   "zh": "小火龙『Char——ma！{SCROLL}小火龙点了点头。",
+   "en": "Charmander: Char-ma!{SCROLL}Charmander nodded.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 84,
+   "zh": "保重啊,小火龙！",
+   "en": "Take care, Charmander!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 85,
+   "zh": "写在弥留之际：{NEWLINE}老伴去世之后,{CLEAR}幸好有拉鲁拉丝的陪伴,{CLEAR}才能让我在最后的这段时光里{CLEAR}感受到心灵的温暖。{SCROLL}只是如今大限将至,{NEWLINE}我对拉鲁拉丝实在是放心不下,{CLEAR}如果有哪位好心的……{SCROLL}字写到这里就没有了。",
+   "en": "Written in my final days:{SCROLL}After my wife passed away, Ralts kept{NEWLINE}me company. Thanks to it, my heart{CLEAR}stayed warm through this last stretch{CLEAR}of my life.{SCROLL}But now my time is nearly up, and I{NEWLINE}can’t stop worrying about Ralts. If{CLEAR}some kind soul...{SCROLL}The writing stops there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 86,
+   "zh": "写在弥留之际：{NEWLINE}老伴去世之后,{CLEAR}幸好有小火龙的陪伴,{CLEAR}才能让我在最后的这段时光里{CLEAR}感受到心灵的温暖。{SCROLL}只是如今大限将至,{NEWLINE}我对小火龙实在是放心不下,{CLEAR}如果有哪位好心的……{SCROLL}字写到这里就没有了。",
+   "en": "Written in my final days:{SCROLL}After my wife passed away, Charmander{NEWLINE}kept me company. Thanks to it, my heart{CLEAR}stayed warm through this last stretch{CLEAR}of my life.{SCROLL}But now my time is nearly up, and I{NEWLINE}can’t stop worrying about Charmander.{CLEAR}If some kind soul...{SCROLL}The writing stops there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 87,
+   "zh": "要收服拉鲁拉丝吗？",
+   "en": "Take Ralts with you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 88,
+   "zh": "要收服小火龙吗？",
+   "en": "Take Charmander with you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 89,
+   "zh": "要安慰小霞吗？{SCROLL}",
+   "en": "Comfort Misty?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost"
+  },
+  {
+   "id": 90,
+   "zh": "小霞『我看我还是早点回华蓝市吧,{NEWLINE}省的到处给人添麻烦,再见啦！",
+   "en": "Misty: I think I’d better just head{NEWLINE}back to Cerulean City before I cause{CLEAR}anyone else trouble. Bye!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 91,
+   "zh": "飞天螳螂『Scyyy——the！",
+   "en": "Scyther: Scyyy-the!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 92,
+   "zh": "我的这只飞天螳螂,{NEWLINE}是我在常磐森林遇到的。{CLEAR}为了收服它我一路追到了这里。{CLEAR}最终好不容易才让它成为了我的伙伴。{CLEAR}虽说整个过程非常艰辛,{CLEAR}但是飞天螳螂的强大{CLEAR}完全对得起我的付出。{SCROLL}你想看看我这只{NEWLINE}好不容易抓住的飞天螳螂{CLEAR}到底有多厉害吗？",
+   "en": "I met this Scyther of mine in Viridian{NEWLINE}Forest. I chased it all the way here to{CLEAR}catch it.{SCROLL}It took everything I had to finally make{NEWLINE}it my partner.{SCROLL}The whole thing was really tough, but{NEWLINE}Scyther’s strength was worth every bit{CLEAR}of the effort.{SCROLL}Want to see just how strong this{NEWLINE}hard-won Scyther of mine is?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 93,
+   "zh": "看来我和飞天螳螂还需要不断磨合啊。",
+   "en": "Looks like Scyther and I still need to{NEWLINE}work on our teamwork.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 94,
+   "zh": "飞天螳螂是很少见的虫系精灵,{NEWLINE}我会好好珍惜它的。",
+   "en": "Scyther is a rare Bug-type Pokémon.{NEWLINE}I’m going to take good care of it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 95,
+   "zh": "最近我都没有看到飞天螳螂,{NEWLINE}它是离开这片区域了？{CLEAR}还是被什么人收服了吗？",
+   "en": "I haven’t seen the Scyther around{NEWLINE}lately. Did it leave the area? Or did{CLEAR}someone catch it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 96,
+   "zh": "我在常磐森林遇到了一只飞天螳螂,{NEWLINE}为了收服它我一路追到这里。{CLEAR}但是飞天螳螂实在是太强了,{CLEAR}我暂时还无法打败它……{SCROLL}现在飞天螳螂正在3号路这一带游荡,{NEWLINE}我一定要在它离开前把它收服！",
+   "en": "I ran into a Scyther in Viridian Forest{NEWLINE}and chased it all the way here to catch{CLEAR}it.{SCROLL}But that Scyther is way too strong. I{NEWLINE}can’t beat it yet...{SCROLL}Right now it’s roaming around Route 3. I{NEWLINE}have to catch it before it leaves!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 97,
+   "zh": "飞天螳螂高傲地看着下面。{NEWLINE}要向它发起挑战吗？",
+   "en": "The Scyther is looking down haughtily.{NEWLINE}Challenge it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 98,
+   "zh": "为了追求极致的武道,{NEWLINE}我和精灵们在这里修行。{CLEAR}如果你是足够强的训练家的话,{CLEAR}我很愿意跟你比试一下。",
+   "en": "My Pokémon and I train here in pursuit{NEWLINE}of the ultimate martial way.{SCROLL}If you’re a strong enough Trainer, I’d{NEWLINE}be glad to have a match with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 99,
+   "zh": "为了追求极致的武道,{NEWLINE}我和精灵们在这里修行。{CLEAR}我看你是非常有实力的训练家,{CLEAR}要跟我比试一下吗？{SCROLL}",
+   "en": "My Pokémon and I train here in pursuit{NEWLINE}of the ultimate martial way.{SCROLL}You look like a very skilled Trainer.{NEWLINE}Care for a match?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 100,
+   "zh": "你想单打还是双打？{SCROLL}",
+   "en": "Would you like a Single Battle or a{NEWLINE}Double Battle?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags page_breaks_lost; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 101,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 6 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 102,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 5 source(s), same position; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 103,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 104,
+   "zh": "希望这场战斗{NEWLINE}是我渴望的强强对话。",
+   "en": "I hope this battle will be the clash of{NEWLINE}titans I’ve been longing for.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 105,
+   "zh": "哈哈哈,跟你战斗很有意思。{NEWLINE}以后有时间再来找我对练吧。",
+   "en": "Ha ha ha, battling you was fun. Come{NEWLINE}spar with me again sometime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 106,
+   "zh": "双打要至少携带2只精灵！",
+   "en": "You need at least two Pokémon for a{NEWLINE}Double Battle!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  }
+ ]
+}

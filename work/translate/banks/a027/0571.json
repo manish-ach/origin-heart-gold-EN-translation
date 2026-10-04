@@ -1,0 +1,151 @@
+{
+ "narc": "a027",
+ "bank": 571,
+ "source": "work/extract/v4/a027/0571.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "洞窟中的道路{NEWLINE}分成两条的时候。{CLEAR}其中一条是正确的,{CLEAR}还有一条可能是死路。{SCROLL}但是啊,人如果不是{NEWLINE}两条道路都试过的话,{CLEAR}是不会甘心的吧？{SCROLL}向上的梯子,{NEWLINE}还是向下的梯子……{SCROLL}你选择哪一个呢？",
+   "en": "When a path in a cave splits in{NEWLINE}two, one way is the right one, and{CLEAR}the other might be a dead end.{SCROLL}But people are never satisfied until{NEWLINE}they’ve tried both paths, are they?{SCROLL}The ladder going up, or{NEWLINE}the ladder going down...{SCROLL}Which one will you choose?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "岩石系技能总给人一种{NEWLINE}坚硬强大的感觉,{CLEAR}但其实也有一些岩石系技能{CLEAR}充满了特殊的技巧。{SCROLL}你如果能给我一个月亮球,{NEWLINE}我就可以把非常特殊的岩石系技能{CLEAR}力量宝石教给你的精灵。{SCROLL}怎么样,要学吗？{SCROLL}",
+   "en": "Rock-type moves always seem hard and{NEWLINE}powerful, but some Rock-type moves{CLEAR}are actually full of special technique.{SCROLL}If you give me a Moon Ball, I can{NEWLINE}teach your Pokémon a very special{CLEAR}Rock-type move: Power Gem.{SCROLL}Well? Want to learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "岛周围的漩涡是{NEWLINE}海神大人创造出的。{CLEAR}有听说过这样的传说。{SCROLL}如果没有记住特别的技能,{NEWLINE}就不能往前走了。",
+   "en": "I’ve heard a legend that the whirlpools{NEWLINE}around the islands were created by the{CLEAR}sea god.{SCROLL}You can’t go any farther without a{NEWLINE}special move.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US line kept (vanilla leftover about the Whirl Islands); ext-review C014"
+  },
+  {
+   "id": 3,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 4,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it,{NEWLINE}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 5,
+   "zh": "你并没有月亮球啊,{NEWLINE}等有果子了再来找我吧。",
+   "en": "You don’t have a Moon Ball. Come back{NEWLINE}when you’ve got a Berry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (Asks for a Moon Ball, then says come back when you have a Berry (果子), a copy slip); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 6,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住力量宝石。{SCROLL}",
+   "en": "Sorry... This Pokémon{NEWLINE}can’t learn Power Gem.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 8,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会力量宝石了！{SCROLL}",
+   "en": "This {VAR:0100:0} already{NEWLINE}knows Power Gem!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20}, 2{VAR:0201:20}, and{VAR:0201:20}... {VAR:0201:20}... Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl); qa-lints: unified with identical zh elsewhere (zh_variant)"
+  },
+  {
+   "id": 10,
+   "zh": "{VAR:0101:0}学会了力量宝石！",
+   "en": "{VAR:0101:0} learned Power Gem!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会力量宝石了！{SCROLL}那么按照约定,{NEWLINE}1个月亮球我拿走了。",
+   "en": "There! Your {VAR:0100:0}{NEWLINE}has learned Power Gem!{SCROLL}And as agreed, I’ll take 1 Moon Ball.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的力量宝石……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习力量宝石{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to{NEWLINE}learn Power Gem...!{SCROLL}But {VAR:0101:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move{NEWLINE}to learn Power Gem?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 14,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20}, 2{VAR:0201:20}, and{VAR:0201:20}... {VAR:0201:20}... Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl); qa-lints: unified with identical zh elsewhere (zh_variant)"
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0101:0}学会了力量宝石！",
+   "en": "{VAR:0101:0} learned Power Gem!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "你是要放弃{NEWLINE}让它记住力量宝石吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Power Gem?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

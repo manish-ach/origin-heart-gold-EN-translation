@@ -1,0 +1,463 @@
+{
+ "narc": "a027",
+ "bank": 503,
+ "source": "work/extract/v4/a027/0503.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "欢迎光临！{NEWLINE}这里是彩虹餐厅。{CLEAR}我们现在正在举办大胃王比赛,{CLEAR}报名费2000元,{CLEAR}你要不要也来参加一下呢？{SCROLL}",
+   "en": "Welcome! This is the Celadon{NEWLINE}Restaurant. We’re holding an eating{CLEAR}contest right now.{SCROLL}The entry fee is $2000. Would you like{NEWLINE}to join in?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "呼呼我吃我吃……{NEWLINE}呼呼我吃我吃……{SCROLL}我是个大胃王,{NEWLINE}这次比赛我赢定了！{SCROLL}",
+   "en": "Huff, huff, munch, munch... Huff, huff,{NEWLINE}munch, munch...{SCROLL}I’m a champion eater. I’ve got this{NEWLINE}contest in the bag!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "我吃,唔咕咕,嗯我吃！{NEWLINE}（现在不能搭话！）{SCROLL}拼命吃,唔咕……{NEWLINE}（好像要从嘴里喷出来了……）{SCROLL}",
+   "en": "Chomp, chew, munch...{NEWLINE}(Please don’t talk to me now!){SCROLL}Chomp, chew, cough...{NEWLINE}(Food is gonna come out of my mouth...){SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0510/2"
+  },
+  {
+   "id": 3,
+   "zh": "啪咕啪咕啪咕！{SCROLL}……哎？这里是{NEWLINE}大胃王比赛的会场？{SCROLL}糟糕！{SCROLL}我还以为是{NEWLINE}这里是比速食比赛……{SCROLL}",
+   "en": "Munch munch munch...{NEWLINE}...What? This is the eatathon contest?{SCROLL}Ouch!{SCROLL}I thought it was the speed-eating{NEWLINE}contest...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0510/3"
+  },
+  {
+   "id": 4,
+   "zh": "咕噜咕噜……{SCROLL}我还能吃！{SCROLL}再来一份树果！老板！{SCROLL}",
+   "en": "Crunch... Crunch...{SCROLL}I can keep eating!{NEWLINE}More, chef!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0510/4"
+  },
+  {
+   "id": 5,
+   "zh": "咕噜咕噜……{SCROLL}你在这家店是不会有人{NEWLINE}给你代币盒的。{CLEAR}到城都地区找找吧。{SCROLL}",
+   "en": "Crunch... Crunch...{SCROLL}Nobody at this restaurant is going to{NEWLINE}give you a Coin Case.{SCROLL}Try looking in Johto.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US line was a duplicate of #4; retranslated from the zh."
+  },
+  {
+   "id": 6,
+   "zh": "我吃我吃,{NEWLINE}居然有大胃王比赛{CLEAR}这样的好事！{CLEAR}真是太幸福了！{SCROLL}",
+   "en": "Munch, munch! An eating contest? What{NEWLINE}a wonderful thing! I’m so happy!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "大胃王比赛是一场{NEWLINE}没有时间限制,{CLEAR}没有终结的战斗！{CLEAR}第１名将免去餐费！",
+   "en": "Eatathon Contest!{NEWLINE}No time limit!{CLEAR}A battle without end!{SCROLL}The biggest eater gets it{NEWLINE}all for free!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0510/7"
+  },
+  {
+   "id": 8,
+   "zh": "小蓝『我刚刚在餐厅里听说,{NEWLINE}彩虹市有一个秘密的拍卖行,{CLEAR}专门高价拍卖珍稀的精灵。{SCROLL}小蓝『我感觉偷臭臭花的人{NEWLINE}很可能是把它拿去那里卖了。",
+   "en": "Green: I just heard in the restaurant{NEWLINE}that there’s a secret auction house in{CLEAR}Celadon City that auctions rare Pokémon{CLEAR}for big money.{SCROLL}Green: I’ve got a feeling whoever stole{NEWLINE}Gloom probably took it there to sell.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "#8 Green (male-player route) / #9 Red (female-player route)."
+  },
+  {
+   "id": 9,
+   "zh": "小赤『我刚刚在餐厅里听说,{NEWLINE}彩虹市有一个秘密的拍卖行,{CLEAR}专门高价拍卖珍稀的精灵。{SCROLL}小赤『我感觉偷臭臭花的人{NEWLINE}很可能是把它拿去那里卖了。",
+   "en": "Red: I just heard in the restaurant{NEWLINE}that there’s a secret auction house in{CLEAR}Celadon City that auctions rare Pokémon{CLEAR}for big money.{SCROLL}Red: I’ve got a feeling whoever stole{NEWLINE}Gloom probably took it there to sell.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "那真是太遗憾了。",
+   "en": "That’s too bad.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "你身上的这点钱{NEWLINE}好像不够参赛的呀。",
+   "en": "It looks like you don’t have enough{NEWLINE}money to enter.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "好的,您的参赛费我收下了,{NEWLINE}现在请您听清楚参赛规则：{CLEAR}本餐厅的大胃王比赛,{CLEAR}是比谁吃的多的比赛。{CLEAR}但是餐厅只提供最初的10个大树果{CLEAR}作为初始食物,{CLEAR}您想要吃更多的食物,{CLEAR}就必须通过精灵对战{CLEAR}从其他选手那赢过来才行。{SCROLL}如果您能击败{NEWLINE}我们餐厅里的所有参赛者,{CLEAR}并把赢来的大树果都吃掉,{CLEAR}那您一定可以成为本次比赛的大胃王。",
+   "en": "All right, I’ve received your entry fee.{SCROLL}Now please listen carefully to the{NEWLINE}rules.{SCROLL}Our restaurant’s eating contest is{NEWLINE}about who can eat the most. But we only{CLEAR}provide 10 Sitrus Berries to start.{SCROLL}If you want more food, you have to win{NEWLINE}it from the other contestants in{CLEAR}Pokémon battles.{SCROLL}If you can beat every contestant in the{NEWLINE}restaurant and eat all the Sitrus{CLEAR}Berries you win, you’re sure to be{CLEAR}crowned champion eater.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 13,
+   "zh": "您好,我们的比赛规则是：{NEWLINE}餐厅提供最初的10个大树果{CLEAR}作为初始食物,{CLEAR}您想要吃更多的食物,{CLEAR}就必须通过精灵对战{CLEAR}从其他选手那赢过来才行。{SCROLL}如果您能击败{NEWLINE}我们餐厅里的所有参赛者,{CLEAR}并把赢来的大树果都吃掉,{CLEAR}那您一定可以成为本次比赛的大胃王。",
+   "en": "Hello! Our contest rules are: the{NEWLINE}restaurant provides 10 Sitrus Berries{CLEAR}to start.{SCROLL}If you want more food, you have to win{NEWLINE}it from the other contestants in{CLEAR}Pokémon battles.{SCROLL}If you can beat every contestant in the{NEWLINE}restaurant and eat all the Sitrus{CLEAR}Berries you win, you’re sure to be{CLEAR}crowned champion eater.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 14,
+   "zh": "这是您的大树果,请收好。{NEWLINE}祝您比赛愉快。",
+   "en": "Here are your Sitrus Berries. Enjoy the{NEWLINE}contest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 15,
+   "zh": "哇哇哇,您已经赢下{NEWLINE}并吃掉了这么多大树果了啊！{CLEAR}厉害厉害,以您的饭量{CLEAR}整个关东地区也没有人能比得上。{CLEAR}大胃王的称号您当之无愧。{CLEAR}这是您本次比赛的奖品——{CLEAR}树果套装礼盒,{CLEAR}请您收好。",
+   "en": "Wow, wow, wow! You’ve already won and{NEWLINE}eaten so many Sitrus Berries! Amazing!{SCROLL}With an appetite like yours, no one in{NEWLINE}all of Kanto can compare. You truly{CLEAR}deserve the title of champion eater.{SCROLL}Here’s your prize for this contest: a{NEWLINE}Berry Set gift box. Please take it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 16,
+   "zh": "本餐厅的大胃王比赛常年举行,{NEWLINE}欢迎您下次再来参赛。",
+   "en": "Our restaurant holds its eating contest{NEWLINE}all year round. Please come and compete{CLEAR}again next time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "我的树果都被你抢走了,{NEWLINE}没得吃了……",
+   "en": "You took all my Berries. Now I’ve got{NEWLINE}nothing to eat...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 18,
+   "zh": "你就带了这么几个树果,{NEWLINE}打赢你我也得不到多少,{CLEAR}我才不跟你比呢。",
+   "en": "You only brought a few Berries. I{NEWLINE}wouldn’t get much even if I beat you.{CLEAR}I’m not battling you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 19,
+   "zh": "你也是参赛选手吗？{NEWLINE}那就跟我来场对战吧,{CLEAR}赢的人交出树果！",
+   "en": "Are you a contestant too?{SCROLL}Then battle me! The winner takes the{NEWLINE}loser’s Berries!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 20,
+   "zh": "没办法……我的树果归你了。",
+   "en": "Oh well... My Berries are yours.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 21,
+   "zh": "嘻嘻,是我赢了,{NEWLINE}树果给我吧。",
+   "en": "Tee-hee, I win. Hand over your Berries.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 22,
+   "zh": "本来我吃的就慢,{NEWLINE}还被你抢了这么多。{CLEAR}唉……",
+   "en": "I’m a slow eater to begin with, and you{NEWLINE}took so many from me. Sigh...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "你带的树果太少了,{NEWLINE}跟你打没啥意义。",
+   "en": "You’ve got too few Berries. There’s no{NEWLINE}point in battling you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 24,
+   "zh": "我正愁树果快吃完了该怎么办呢,{NEWLINE}既然你也是参赛选手,{CLEAR}那就跟我来一场赌上树果的对战吧！",
+   "en": "I was just worrying about running out{NEWLINE}of Berries. Since you’re a contestant{CLEAR}too, let’s have a battle with our{CLEAR}Berries on the line!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 25,
+   "zh": "输了,我的树果是你的了。",
+   "en": "I lost. My Berries are yours.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 26,
+   "zh": "按照约定,你的树果我就收下了。",
+   "en": "As we agreed, I’ll take your Berries.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 27,
+   "zh": "啊啊啊啊,我宝贝的树果——{NEWLINE}没有啦……",
+   "en": "Aaah! My precious Berries... are{NEWLINE}gone...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 28,
+   "zh": "我看你包里没啥货,{NEWLINE}不是来骗我树果的吧？",
+   "en": "I don’t see much in your Bag. You’re{NEWLINE}not here to trick me out of my Berries,{CLEAR}are you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 29,
+   "zh": "10个树果根本不够吃的,{NEWLINE}你要是愿意通过对战来送树果,{CLEAR}那我可是感激不尽！",
+   "en": "10 Berries aren’t nearly enough to eat.{NEWLINE}If you want to give me Berries by{CLEAR}battling, I’d be very grateful!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 30,
+   "zh": "结果成了我给你送树果了……",
+   "en": "Instead, I ended up giving you{NEWLINE}Berries...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 31,
+   "zh": "哈哈,谢谢你的树果。",
+   "en": "Ha ha, thanks for the Berries.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 32,
+   "zh": "被赢走的树果{NEWLINE}我可再也变不出来啦。",
+   "en": "I can’t magic back the Berries you won{NEWLINE}from me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 33,
+   "zh": "你没有多少树果吧,{NEWLINE}是想来我这空手套白狼吗？",
+   "en": "You don’t have many Berries, do you?{SCROLL}Are you trying to get something for{NEWLINE}nothing?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 34,
+   "zh": "只要再从你那里赢几个树果,{NEWLINE}我就能变一个大的树果魔术了。",
+   "en": "If I win just a few more Berries from{NEWLINE}you, I can do a big Berry magic trick.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 35,
+   "zh": "啊……我的树果被你变没了。",
+   "en": "Ah... You made my Berries disappear.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 36,
+   "zh": "你再看看你的背包,{NEWLINE}是不是少了几个树果？{CLEAR}哈哈,那都是被我变没的！",
+   "en": "Check your Bag again. Aren’t you{NEWLINE}missing a few Berries? Ha ha, I made{CLEAR}them all vanish!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 37,
+   "zh": "没有树果可吃,只能吃土了……",
+   "en": "No Berries to eat... Guess I’ll have to{NEWLINE}eat dirt...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 38,
+   "zh": "别看你包里鼓鼓的,{NEWLINE}那些根本不是树果吧。{CLEAR}我的鼻子对吃的可灵敏了,{CLEAR}你骗不了我。",
+   "en": "Your Bag may look stuffed, but those{NEWLINE}aren’t Berries, are they? My nose is{CLEAR}really sharp when it comes to food. You{CLEAR}can’t fool me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 39,
+   "zh": "哈哈哈,我的树果快吃完了,{NEWLINE}正好再从你那里赢一点！",
+   "en": "Ha ha ha!{SCROLL}I’m almost out of Berries. Perfect{NEWLINE}timing to win some more from you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 40,
+   "zh": "我仅存的树果……给你吧。",
+   "en": "My last Berries... Take them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 41,
+   "zh": "太棒了,新鲜的树果吃起来！",
+   "en": "Awesome! Time to dig into some fresh{NEWLINE}Berries!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:树果",
+    "glossary:大树果"
+   ]
+  },
+  {
+   "id": 42,
+   "zh": "妙蛙花『Venu——sau！",
+   "en": "Venusaur: Venu-sau!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  }
+ ]
+}

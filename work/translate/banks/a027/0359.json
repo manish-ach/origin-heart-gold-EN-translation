@@ -1,0 +1,284 @@
+{
+ "narc": "a027",
+ "bank": 359,
+ "source": "work/extract/v4/a027/0359.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "有个能舒舒服服休息的地方{NEWLINE}真幸运啊！{CLEAR}你肯定是这么想的吧？{SCROLL}你们这些路过的训练家{NEWLINE}都想在我这里白白休息那可不行。{CLEAR}想让我帮你的精灵恢复{CLEAR}得给我2000元服务费,{CLEAR}怎么样,要在我这恢复精灵吗？",
+   "en": "Lucky to find a nice, cozy place to{NEWLINE}rest, huh?{SCROLL}That’s what you’re thinking, right?{SCROLL}You passing Trainers all want to rest{NEWLINE}here for free, but that won’t fly.{SCROLL}If you want me to heal your Pokémon,{NEWLINE}it’s a $2000 service fee.{SCROLL}Well? Want to heal your Pokémon here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Rest-house hustler: sells a Weakness Policy as ‘insurance’ (弱点保险, a pun kept as ‘policy’) before the Indigo Conference (#4–21), and Focus Sashes afterwards (#22–32)."
+  },
+  {
+   "id": 1,
+   "zh": "看你挺有钱的样子,{NEWLINE}没想到这么小气！",
+   "en": "You look like you’ve got money, but{NEWLINE}you’re such a cheapskate!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "你这人钱包比脸还干净,{NEWLINE}连2000块都拿不出来,{CLEAR}就别在我这休息了。",
+   "en": "Your wallet’s even cleaner than your{NEWLINE}face.{SCROLL}You can’t even cough up $2000? Then{NEWLINE}don’t rest here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "好,你在这安心休息会儿吧。",
+   "en": "Great. Rest easy here for a while.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "小伙子,看你这个样子,{NEWLINE}应该是准备去精灵联盟{CLEAR}参加石英大会的吧？",
+   "en": "Young man, by the looks of you, you’re{NEWLINE}heading to the Pokémon League for the{CLEAR}Indigo Conference, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "小姑娘,看你这个样子,{NEWLINE}应该是准备去精灵联盟{CLEAR}参加石英大会的吧？",
+   "en": "Young lady, by the looks of you, you’re{NEWLINE}heading to the Pokémon League for the{CLEAR}Indigo Conference, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "你跟其他训练家不一样,{NEWLINE}愿意花钱在我这休息,{CLEAR}那大爷我就好心给你点建议。{SCROLL}这石英大会可不是闹着玩的,{NEWLINE}去那里参赛的训练家可都特别厉害。{CLEAR}你要是没有充足的准备,{CLEAR}在大会上肯定会被修理得很惨,{CLEAR}甚至从此失去作为训练家的自信。{SCROLL}为了保证你和你的精灵{NEWLINE}在石英大会上一切平安,{CLEAR}在我这里买份保险怎么样？",
+   "en": "Unlike the other Trainers, you’re willing{NEWLINE}to pay to rest here, so this old man will{CLEAR}kindly give you some advice.{SCROLL}The Indigo Conference is no joke.{SCROLL}The Trainers competing there are all{NEWLINE}seriously tough.{SCROLL}If you’re not fully prepared, you’re{NEWLINE}sure to get thrashed, and you might{CLEAR}even lose your confidence as a Trainer{CLEAR}for good.{SCROLL}To keep you and your Pokémon safe at{NEWLINE}the Indigo Conference, how about taking{CLEAR}out a policy with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "好啊,给我看看你的保险",
+   "en": "Sure, show me your policy",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 8,
+   "zh": "我是联盟冠军,不需要你的保险",
+   "en": "I’m the Champion. I don’t need it",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 9,
+   "zh": "你是联盟冠军{VAR:0103:0}？{NEWLINE}少在那说笑了！{CLEAR}我听说联盟冠军{VAR:0103:0}{CLEAR}是能跟怪力掰手腕、{CLEAR}跑得比嘟嘟利还快、{CLEAR}脑筋比胡地还聪明的最强训练家。{CLEAR}怎么可能是你这种小鬼嘛。{SCROLL}我的保险也不贵,500块钱一份,{NEWLINE}你不要为了省钱就吹这种大牛好吧？",
+   "en": "You’re League Champion {VAR:0103:0}? Quit{NEWLINE}joking around!{SCROLL}I heard League Champion {VAR:0103:0} is the{NEWLINE}strongest Trainer around.{SCROLL}They can arm-wrestle a Machamp, outrun{NEWLINE}a Dodrio, and outthink an Alakazam.{SCROLL}No way that’s a little kid like you.{SCROLL}My policies aren’t expensive.{SCROLL}Just $500 each. Don’t go telling tall{NEWLINE}tales just to save money, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "嘿嘿,好嘞。我卖的险种是{NEWLINE}专门给精灵用的弱点保险,{CLEAR}当精灵被针对弱点攻击时,{CLEAR}攻击和特攻就会大幅提高。{CLEAR}一份只卖你500块,你要买多少呢？",
+   "en": "Heh heh, you got it. What I sell is a{NEWLINE}Weakness Policy made just for Pokémon.{SCROLL}When your Pokémon gets hit where it’s{NEWLINE}weak, its Attack and Sp. Atk go way up.{SCROLL}Just $500 each for you. How many do{NEWLINE}you want?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "1份弱点保险{NEWLINE}500元",
+   "en": "Weakness Policy{NEWLINE}1 for $500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '1 Weakness Policy{NEWLINE}$500'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 12,
+   "zh": "5份弱点保险{NEWLINE}2500元",
+   "en": "Weakness Policy{NEWLINE}5 for $2500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '5 Weakness Policies{NEWLINE}$2500'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 13,
+   "zh": "10份弱点保险{NEWLINE}5000元",
+   "en": "Weakness Policy{NEWLINE}10 for $5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '10 Weakness Policies{NEWLINE}$5000'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 14,
+   "zh": "20份弱点保险{NEWLINE}10000元",
+   "en": "Weakness Policy{NEWLINE}20 for $10000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '20 Weakness Policies{NEWLINE}$10000'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 15,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s)",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 16,
+   "zh": "你什么时候想买了,{NEWLINE}再来找我啊！",
+   "en": "Come find me whenever you want to buy{NEWLINE}some!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "好的,这是你的保险,{NEWLINE}请拿好！",
+   "en": "All right, here’s your policy. Hang on{NEWLINE}to it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "你带的这点钱,{NEWLINE}可不够买我的东西！",
+   "en": "The money you’ve got on you isn’t{NEWLINE}enough to buy my stuff!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "你又到我这里来,{NEWLINE}是想给自己的精灵买份保险吗？",
+   "en": "Back again? Want to buy a policy for{NEWLINE}your Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "那就是想来我这休息了？{NEWLINE}一次2000块哦。",
+   "en": "Then you want to rest here? It’s $2000{NEWLINE}a go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "什么都不要来我这干嘛？{NEWLINE}不要挡着我做生意！",
+   "en": "You don’t want anything? Then what are{NEWLINE}you doing here?{SCROLL}Don’t get in the way of my business!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "你跟其他训练家不一样,{NEWLINE}愿意花钱在我这休息,{CLEAR}那大爷我就好心给你点建议。{SCROLL}这石英大会可不是闹着玩的,{NEWLINE}去那里参赛的训练家可都特别厉害。{CLEAR}你要是没有充足的准备,{CLEAR}在大会上肯定会被修理得很惨,{CLEAR}甚至从此失去作为训练家的自信。{SCROLL}为了保证你和你的精灵{NEWLINE}即使被揍得很惨也能剩一口气,{CLEAR}我可以把气息腰带这个道具卖给你。{CLEAR}怎么样,要买吗？",
+   "en": "Unlike the other Trainers, you’re willing{NEWLINE}to pay to rest here, so this old man will{CLEAR}kindly give you some advice.{SCROLL}The Indigo Conference is no joke.{SCROLL}The Trainers competing there are all{NEWLINE}seriously tough.{SCROLL}If you’re not fully prepared, you’re{NEWLINE}sure to get thrashed, and you might{CLEAR}even lose your confidence as a Trainer{CLEAR}for good.{SCROLL}So you and your Pokémon have at least{NEWLINE}one breath left, even when you get{CLEAR}beaten to a pulp at the Indigo{CLEAR}Conference, I can sell you an item{CLEAR}called a Focus Sash.{SCROLL}Well? Want to buy one?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "我正好需要气息腰带",
+   "en": "I could use a Focus Sash",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 24,
+   "zh": "我是联盟冠军,只有我揍别人的份",
+   "en": "I’m Champion. I do the beating",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was 'I’m the Champion. I do the beating'",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 25,
+   "zh": "你是联盟冠军{VAR:0103:0}？{NEWLINE}少在那说笑了！{CLEAR}我听说联盟冠军{VAR:0103:0}{CLEAR}是能跟怪力掰手腕、{CLEAR}跑得比嘟嘟利还快、{CLEAR}脑筋比胡地还聪明的最强训练家。{CLEAR}怎么可能是你这种小鬼嘛。{SCROLL}我的气息腰带也不贵,500块钱一条,{NEWLINE}你不要为了省钱就吹这种大牛好吧？",
+   "en": "You’re League Champion {VAR:0103:0}? Quit{NEWLINE}joking around!{SCROLL}I heard League Champion {VAR:0103:0} is the{NEWLINE}strongest Trainer around.{SCROLL}They can arm-wrestle a Machamp, outrun{NEWLINE}a Dodrio, and outthink an Alakazam.{SCROLL}No way that’s a little kid like you.{SCROLL}My Focus Sashes aren’t expensive{NEWLINE}either.{SCROLL}Just $500 each. Don’t go telling tall{NEWLINE}tales just to save money, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "嘿嘿,只要带着气息腰带,{NEWLINE}在体力全满的时候{CLEAR}就不会被一击击倒。{CLEAR}而且一条只卖你500块,便宜得很。{CLEAR}你要买多少呢？",
+   "en": "Heh heh, as long as it holds a Focus{NEWLINE}Sash, a Pokémon with full HP won’t be{CLEAR}knocked out in one hit.{SCROLL}And they’re just $500 each. A steal!{NEWLINE}How many do you want?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "1条气息腰带{NEWLINE}500元",
+   "en": "Focus Sash{NEWLINE}1 for $500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '1 Focus Sash{NEWLINE}$500'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 28,
+   "zh": "5条气息腰带{NEWLINE}2500元",
+   "en": "Focus Sash{NEWLINE}5 for $2500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '5 Focus Sashes{NEWLINE}$2500'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 29,
+   "zh": "10条气息腰带{NEWLINE}5000元",
+   "en": "Focus Sash{NEWLINE}10 for $5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '10 Focus Sashes{NEWLINE}$5000'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 30,
+   "zh": "20条气息腰带{NEWLINE}10000元",
+   "en": "Focus Sash{NEWLINE}20 for $10000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '20 Focus Sashes{NEWLINE}$10000'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 31,
+   "zh": "好的,这是你的腰带,{NEWLINE}请拿好！",
+   "en": "All right, here’s your sash. Hang on to{NEWLINE}it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "你又到我这里来,{NEWLINE}是想给自己的精灵买条腰带吗？",
+   "en": "Back again? Want to buy a sash for your{NEWLINE}Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

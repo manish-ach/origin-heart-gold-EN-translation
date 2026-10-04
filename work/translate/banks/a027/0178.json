@@ -1,0 +1,159 @@
+{
+ "narc": "a027",
+ "bank": 178,
+ "source": "work/extract/v4/a027/0178.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "恭喜传输成功！",
+   "en": "Congrats! Transfer successful!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "D-1195: reverted to match the zh (The Hall of Fame header says 恭喜传输成功 (\"Congratulations, transfer successful\"), apparently a mistranslation of the JP); logged in hack_findings_import.jsonl"
+  },
+  {
+   "id": 1,
+   "zh": "{VAR:0100:0}　㊚",
+   "en": "{VAR:0100:0} ♂",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0100:0}　㊛",
+   "en": "{VAR:0100:0} ♀",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "{VAR:0100:0}",
+   "en": "{VAR:0100:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0101:0}",
+   "en": "{VAR:0101:0}",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "Ｌｖ．{VAR:0134:0}",
+   "en": "Lv. {VAR:0134:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "主人：{VAR:0103:0}",
+   "en": "OT/{VAR:0103:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "在{VAR:0104:0}{NEWLINE}相遇。",
+   "en": "Met at{NEWLINE}{VAR:0104:0}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0180/7"
+  },
+  {
+   "id": 8,
+   "zh": "在{VAR:0104:0}{NEWLINE}孵出。",
+   "en": "Hatched at{NEWLINE}{VAR:0104:0}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0180/8"
+  },
+  {
+   "id": 9,
+   "zh": "通信交换而来。",
+   "en": "Obtained in a link{NEWLINE}trade.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0180/9"
+  },
+  {
+   "id": 10,
+   "zh": "自关东地区而来。",
+   "en": "Arrived from the{NEWLINE}Kanto region.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0180/10"
+  },
+  {
+   "id": 11,
+   "zh": "自芳缘地区而来。",
+   "en": "Arrived from the{NEWLINE}Hoenn region.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0180/11"
+  },
+  {
+   "id": 12,
+   "zh": "自离这里很远的地方{NEWLINE}而来。",
+   "en": "Arrived from a{NEWLINE}distant land.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0180/12"
+  },
+  {
+   "id": 13,
+   "zh": "命中注定的相遇。",
+   "en": "Obtained in a fateful{NEWLINE}encounter.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0180/13"
+  },
+  {
+   "id": 14,
+   "zh": "自新奥地区而来。",
+   "en": "Arrived from the{NEWLINE}Sinnoh region.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0180/14"
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0104:0}{NEWLINE}收到。",
+   "en": "Received at{NEWLINE}{VAR:0104:0}.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0180/15"
+  },
+  {
+   "id": 16,
+   "zh": "恭喜称霸精灵联盟！",
+   "en": "League Champion! Congratulations!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0180/16"
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}　ＩＤ{VAR:0136:1}　游戏时间{VAR:0134:2}：{VAR:0133:3}",
+   "en": "{VAR:0103:0} ID: {VAR:0136:1} Time: {VAR:0134:2}:{VAR:0133:3}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0180/17"
+  },
+  {
+   "id": 18,
+   "zh": "２０{VAR:0133:0}／{VAR:0133:1}／{VAR:0133:2}",
+   "en": "20{VAR:0133:0}/{VAR:0133:1}/{VAR:0133:2}",
+   "status": "draft",
+   "origin": "copy",
+   "notes": "date format kept, digits folded to ASCII (US blanks it)"
+  }
+ ]
+}

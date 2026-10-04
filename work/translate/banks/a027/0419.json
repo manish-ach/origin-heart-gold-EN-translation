@@ -1,0 +1,655 @@
+{
+ "narc": "a027",
+ "bank": 419,
+ "source": "work/extract/v4/a027/0419.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "首先将客人的精灵{NEWLINE}所持有的道具寄存！{SCROLL}",
+   "en": "First, I’ll need to hold on to any{NEWLINE}items held by your Pokémon.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/0"
+  },
+  {
+   "id": 1,
+   "zh": "请稍等一下。",
+   "en": "Please wait a moment.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/1"
+  },
+  {
+   "id": 2,
+   "zh": "请到里面来！",
+   "en": "Please step inside!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "辛苦了！{NEWLINE}将精灵恢复活力吧！",
+   "en": "Good going!{NEWLINE}We’ll heal your Pokémon now.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/3"
+  },
+  {
+   "id": 4,
+   "zh": "接着是{VAR:0135:0}第一轮的游戏！{NEWLINE}准备好了吗？",
+   "en": "Next up, game no. {VAR:0135:0}!{NEWLINE}Are you ready?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/4"
+  },
+  {
+   "id": 5,
+   "zh": "将至今为止的战斗{NEWLINE}记录在战斗录像上吗？",
+   "en": "Would you like to save the last battle{NEWLINE}as your Battle Video?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "{VAR:0103:0}的战斗{NEWLINE}已经记录了。{SCROLL}",
+   "en": "{VAR:0103:0}’s battle has been saved{NEWLINE}as a Battle Video.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/6"
+  },
+  {
+   "id": 7,
+   "zh": "发生了故障{NEWLINE}无法记录。{SCROLL}",
+   "en": "There was an error.{NEWLINE}The Battle Video couldn’t be saved.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/7"
+  },
+  {
+   "id": 8,
+   "zh": "消除战斗录像,{NEWLINE}记录现在的对战吗？",
+   "en": "Delete your existing Battle Video and{NEWLINE}save the last battle?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/8"
+  },
+  {
+   "id": 9,
+   "zh": "在记录中,{NEWLINE}请不要切断电源！",
+   "en": "Saving...{NEWLINE}Don’t turn off the power.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/9"
+  },
+  {
+   "id": 10,
+   "zh": "记录存档,{NEWLINE}终止游戏吗？",
+   "en": "Would you like to save and take a break{NEWLINE}from playing?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/10"
+  },
+  {
+   "id": 11,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 12,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 13,
+   "zh": "要中断游戏吗？",
+   "en": "Would you like to retire from this{NEWLINE}challenge?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/13"
+  },
+  {
+   "id": 14,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 15,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0103:0}在选择,{NEWLINE}请稍等。",
+   "en": "{VAR:0103:0} is choosing.{NEWLINE}Please wait.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/16"
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}选择了{NEWLINE}休息。",
+   "en": "{VAR:0103:0} chose{NEWLINE}to rest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0}选择了{NEWLINE}退出。",
+   "en": "{VAR:0103:0} chose to retire.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/18"
+  },
+  {
+   "id": 19,
+   "zh": "欢迎来到战斗轮盘！{SCROLL}",
+   "en": "Welcome to the Battle Arcade!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/19"
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0135:0}第一轮的游戏！{NEWLINE}挑战！来吧！！",
+   "en": "Game no. {VAR:0135:0}!{NEWLINE}Come on!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/20"
+  },
+  {
+   "id": 21,
+   "zh": "请快一点！！{NEWLINE}轮盘赌！去试试吧！！",
+   "en": "Without further ado...{NEWLINE}Let’s activate the game board!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/21"
+  },
+  {
+   "id": 22,
+   "zh": "这次的活动是这边！！",
+   "en": "This is our current event!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/22"
+  },
+  {
+   "id": 23,
+   "zh": "{VAR:0103:0}的精灵{NEWLINE}在ＨＰ减少的状态下{CLEAR}进行战斗！！",
+   "en": "The match will commence with{NEWLINE}{VAR:0103:0}’s Pokémon without full HP!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/23"
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0103:0}{VAR:0103:1}的精灵{NEWLINE}在ＨＰ减少状态下{CLEAR}进行战斗！！",
+   "en": "The match will commence with{NEWLINE}{VAR:0103:0}’s and {VAR:0103:1}’s{CLEAR}Pokémon without full HP!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/24"
+  },
+  {
+   "id": 25,
+   "zh": "{VAR:0103:0}的精灵{NEWLINE}在增强力量的状态下{CLEAR}进行战斗！！",
+   "en": "The match will commence with{NEWLINE}{VAR:0103:0}’s Pokémon leveled up!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/25"
+  },
+  {
+   "id": 26,
+   "zh": "{VAR:0103:0}{VAR:0103:1}的精灵{NEWLINE}在力量增强{CLEAR}的状态下进行战斗！",
+   "en": "The match will commence with{NEWLINE}{VAR:0103:0}’s and {VAR:0103:1}’s{CLEAR}Pokémon leveled up!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/26"
+  },
+  {
+   "id": 27,
+   "zh": "{VAR:0103:0}的精灵{NEWLINE}在毒状态下{CLEAR}进行战斗！！",
+   "en": "The match will commence with{NEWLINE}{VAR:0103:0}’s Pokémon poisoned!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/27"
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0103:0}{VAR:0103:1}的精灵{NEWLINE}在毒状态下{CLEAR}进行战斗！！",
+   "en": "The match will commence with{NEWLINE}{VAR:0103:0} and {VAR:0103:1}’s{CLEAR}Pokémon poisoned!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/28"
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0103:0}的精灵{NEWLINE}在麻痹状态下{CLEAR}进行战斗！！",
+   "en": "The match will commence with{NEWLINE}{VAR:0103:0}’s Pokémon paralyzed!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/29"
+  },
+  {
+   "id": 30,
+   "zh": "{VAR:0103:0}{VAR:0103:1}的精灵{NEWLINE}在麻痹状态下{CLEAR}进行战斗！！",
+   "en": "The match will commence with{NEWLINE}{VAR:0103:0} and {VAR:0103:1}’s{CLEAR}Pokémon paralyzed!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/30"
+  },
+  {
+   "id": 31,
+   "zh": "{VAR:0103:0}的精灵{NEWLINE}在烧伤状态下{CLEAR}进行战斗！！",
+   "en": "The match will commence with{NEWLINE}{VAR:0103:0}’s Pokémon burned!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/31"
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:0103:0}{VAR:0103:1}的精灵{NEWLINE}在烧伤状态下{CLEAR}进行战斗！！",
+   "en": "The match will commence with{NEWLINE}{VAR:0103:0} and {VAR:0103:1}’s{CLEAR}Pokémon burned!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/32"
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0103:0}的精灵{NEWLINE}在睡眠状态下{CLEAR}进行战斗！！",
+   "en": "The match will commence with{NEWLINE}{VAR:0103:0}’s Pokémon asleep!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/33"
+  },
+  {
+   "id": 34,
+   "zh": "{VAR:0103:0}{VAR:0103:1}的精灵{NEWLINE}在睡觉状态下{CLEAR}进行战斗！！",
+   "en": "The match will commence with{NEWLINE}{VAR:0103:0} and {VAR:0103:1}’s{CLEAR}Pokémon asleep!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/34"
+  },
+  {
+   "id": 35,
+   "zh": "{VAR:0103:0}的精灵{NEWLINE}在冰冻的状态下{CLEAR}进行战斗！！",
+   "en": "The match will commence with{NEWLINE}{VAR:0103:0}’s Pokémon frozen!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/35"
+  },
+  {
+   "id": 36,
+   "zh": "{VAR:0103:0}{VAR:0103:1}的精灵{NEWLINE}在冰冻状态下{CLEAR}进行战斗！！",
+   "en": "The match will commence with{NEWLINE}{VAR:0103:0} and {VAR:0103:1}’s{CLEAR}Pokémon frozen!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/36"
+  },
+  {
+   "id": 37,
+   "zh": "给{VAR:0103:0}的精灵{NEWLINE}喂了{VAR:0108:2}！！",
+   "en": "{VAR:0103:0}’s Pokémon were{NEWLINE}given the {VAR:0108:2}!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/37"
+  },
+  {
+   "id": 38,
+   "zh": "给{VAR:0103:0}{VAR:0103:1}的精灵{NEWLINE}喂了{CLEAR}{VAR:0108:2}！！",
+   "en": "{VAR:0103:0} and {VAR:0103:1}’s{NEWLINE}Pokémon were given the{CLEAR}{VAR:0108:2}!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/38"
+  },
+  {
+   "id": 39,
+   "zh": "这边请！{SCROLL}",
+   "en": "Here you go!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/39"
+  },
+  {
+   "id": 40,
+   "zh": "在强烈阳光照射下的环境战斗！！",
+   "en": "This match will be conducted under{NEWLINE}harsh sunlight.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/40"
+  },
+  {
+   "id": 41,
+   "zh": "在下大雨的环境战斗！！",
+   "en": "This match will be conducted under a{NEWLINE}steady rainfall.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/41"
+  },
+  {
+   "id": 42,
+   "zh": "在刮沙尘暴的环境战斗！！",
+   "en": "This match will be conducted under{NEWLINE}a raging sandstorm.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/42"
+  },
+  {
+   "id": 43,
+   "zh": "在暴雪覆盖的环境战斗！！",
+   "en": "This match will be conducted in a raging{NEWLINE}blizzard!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/43; ext-review RCA-020"
+  },
+  {
+   "id": 44,
+   "zh": "在被雾气所包围的环境战斗！！",
+   "en": "This match will be conducted in a{NEWLINE}dense fog.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/44"
+  },
+  {
+   "id": 45,
+   "zh": "在时空扭曲的环境战斗！！",
+   "en": "This match will be conducted on a floor{NEWLINE}where time and space are distorted.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/45"
+  },
+  {
+   "id": 46,
+   "zh": "检查各自的精灵,{NEWLINE}然后开始对战吧！！",
+   "en": "Check each other’s Pokémon,{NEWLINE}and then let the battle begin!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/46"
+  },
+  {
+   "id": 47,
+   "zh": "下一个游戏开始{NEWLINE}轮盘赌的速度会提升哦！！",
+   "en": "From the next game on, the{NEWLINE}game board’s speed will be increased.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/47"
+  },
+  {
+   "id": 48,
+   "zh": "下一个游戏开始{NEWLINE}轮盘赌的速度会上升哦！！",
+   "en": "From the next game on, the{NEWLINE}game board’s speed will be increased!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/48; zh repeats 速度会上升 (speed goes up) in the slow-down slot; US decreased; zh repeats 速度会上升 (speed goes up) in the slow-down slot; US decreased; zh repeats 速度会上升 (speed goes up) in the slow-down slot; US decreased; zh repeats 速度会上升 (speed goes up) in the slow-down slot; US decreased; zh repeats 速度会上升 (speed goes up) in the slow-down slot; US decreased"
+  },
+  {
+   "id": 49,
+   "zh": "下一个游戏开始,{NEWLINE}轮盘赌的转动变为随机了！！",
+   "en": "For the next game, the game board’s{NEWLINE}motion will become random.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/49"
+  },
+  {
+   "id": 50,
+   "zh": "{VAR:0103:0}送了{VAR:0133:2}ＢＰ作为{NEWLINE}礼物！！",
+   "en": "{VAR:0103:0} gave {VAR:0133:2} BP as a gift!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/50; ext-review RCA-021"
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0103:0}{VAR:0103:1}{NEWLINE}送了{VAR:0133:2}ＢＰ作礼物！！",
+   "en": "{VAR:0103:0} and {VAR:0103:1} gave {VAR:0133:2} BP as a{NEWLINE}gift!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/51; ext-review RCA-021"
+  },
+  {
+   "id": 52,
+   "zh": "准备好了吗？",
+   "en": "Are you ready?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/52"
+  },
+  {
+   "id": 53,
+   "zh": "噢！真走运！！{NEWLINE}对战通过了！！",
+   "en": "Oh! Lucky!{NEWLINE}You can skip the battle!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/53"
+  },
+  {
+   "id": 54,
+   "zh": "遗憾啊！！{NEWLINE}这次没有活动哦！",
+   "en": "Too bad!{NEWLINE}There is no event this time!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/54"
+  },
+  {
+   "id": 55,
+   "zh": "那么！开始战斗！！",
+   "en": "OK! Let the battle commence!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/55"
+  },
+  {
+   "id": 56,
+   "zh": "{VAR:0103:0}的精灵{NEWLINE}在毒状态下⋯⋯{SCROLL}噢！！真走运！！{SCROLL}{VAR:0103:0}的精灵{CLEAR}没有变动呢！！",
+   "en": "{VAR:0103:0}’s Pokémon will enter the match{NEWLINE}poisoned...{SCROLL}Oh! A lucky break!{SCROLL}None of {VAR:0103:0}’s Pokémon were{NEWLINE}changed!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/56; ext-review RCA-022"
+  },
+  {
+   "id": 57,
+   "zh": "{VAR:0103:0}{VAR:0103:1}的精灵{NEWLINE}是毒状态⋯⋯{SCROLL}噢！！真走运！！{SCROLL}两个人都没有替换中毒的{NEWLINE}精灵！！",
+   "en": "{VAR:0103:0}’s and {VAR:0103:1}’s Pokémon will{NEWLINE}begin poisoned...{SCROLL}Oh! A lucky break!{SCROLL}Neither of them had a Pokémon changed{NEWLINE}to poisoned!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/57; ext-review RCA-022"
+  },
+  {
+   "id": 58,
+   "zh": "{VAR:0103:0}的精灵{NEWLINE}在麻痹状态下⋯⋯{SCROLL}噢　！！真走运！！{SCROLL}{VAR:0103:0}没有{NEWLINE}替换麻痹的精灵！！",
+   "en": "{VAR:0103:0}’s Pokémon will enter the match{NEWLINE}paralyzed...{SCROLL}Oh! A lucky break!{SCROLL}{VAR:0103:0} had no Pokémon changed to{NEWLINE}paralyzed!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/58; ext-review RCA-022"
+  },
+  {
+   "id": 59,
+   "zh": "{VAR:0103:0}{VAR:0103:1}的精灵{NEWLINE}处于麻痹状态⋯⋯{SCROLL}噢！！真走运！！{SCROLL}两人都没有替换处在麻痹状态的{NEWLINE}精灵！！",
+   "en": "{VAR:0103:0}’s and {VAR:0103:1}’s Pokémon will{NEWLINE}begin paralyzed...{SCROLL}Oh! A lucky break!{SCROLL}Neither of them had a Pokémon changed{NEWLINE}to paralyzed!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/59; ext-review RCA-022"
+  },
+  {
+   "id": 60,
+   "zh": "{VAR:0103:0}的精灵{NEWLINE}处于烧伤状态下⋯⋯{SCROLL}噢！！真走运！！{SCROLL}{VAR:0103:0}{NEWLINE}没有替换已经烧伤的{CLEAR}精灵呢！！",
+   "en": "{VAR:0103:0}’s Pokémon will enter the match{NEWLINE}burned...{SCROLL}Oh! A lucky break!{SCROLL}{VAR:0103:0} had no Pokémon changed to{NEWLINE}burned!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/60; ext-review RCA-022"
+  },
+  {
+   "id": 61,
+   "zh": "{VAR:0103:0}{VAR:0103:1}的精灵{NEWLINE}处于烧伤状态⋯⋯{SCROLL}噢！！真走运！！{SCROLL}两个人都没有替换{NEWLINE}已经烧伤的精灵！！",
+   "en": "{VAR:0103:0}’s and {VAR:0103:1}’s Pokémon will{NEWLINE}begin burned...{SCROLL}Oh! A lucky break!{SCROLL}Neither of them had a Pokémon changed{NEWLINE}to burned!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/61; ext-review RCA-022"
+  },
+  {
+   "id": 62,
+   "zh": "{VAR:0103:0}的精灵处于{NEWLINE}睡觉状态下⋯⋯{SCROLL}噢！！真走运！！{SCROLL}{VAR:0103:0}没有{NEWLINE}替换处于睡眠状态{CLEAR}的精灵！！",
+   "en": "{VAR:0103:0}’s Pokémon will enter the match{NEWLINE}asleep...{SCROLL}Oh! A lucky break!{SCROLL}{VAR:0103:0} had no Pokémon changed to{NEWLINE}asleep!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/62; ext-review RCA-022"
+  },
+  {
+   "id": 63,
+   "zh": "{VAR:0103:0}{VAR:0103:1}的精灵{NEWLINE}在睡觉状态下⋯⋯{SCROLL}噢！！真走运！！{SCROLL}两个人都没有替换精灵！！",
+   "en": "{VAR:0103:0}’s and {VAR:0103:1}’s Pokémon will{NEWLINE}begin asleep...{SCROLL}Oh! A lucky break!{SCROLL}Neither of them had a Pokémon{NEWLINE}changed!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/63; ext-review RCA-022"
+  },
+  {
+   "id": 64,
+   "zh": "{VAR:0103:0}的精灵处于{NEWLINE}冰冻状态下⋯⋯{SCROLL}噢！！真走运！！{SCROLL}{VAR:0103:0}{NEWLINE}两个人都没有替换{CLEAR}处于冰冻状态的精灵！！",
+   "en": "{VAR:0103:0}’s Pokémon will enter the match{NEWLINE}frozen...{SCROLL}Oh! A lucky break!{SCROLL}{VAR:0103:0}... Neither of the two had a{NEWLINE}Pokémon changed to frozen!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/64; zh single-player line says 两个人都没有 (neither of the two); zh single-player line says 两个人都没有 (neither of the two); zh single-player line says 两个人都没有 (neither of the two); zh single-player line says 两个人都没有 (neither of the two); zh single-player line says 两个人都没有 (neither of the two); ext-review RCA-022"
+  },
+  {
+   "id": 65,
+   "zh": "{VAR:0103:0}{VAR:0103:1}的{NEWLINE}精灵处于冰冻状态⋯⋯{SCROLL}噢！！真走运！！{SCROLL}两个人都没有替换{CLEAR}处于冰冻状态的精灵！！",
+   "en": "{VAR:0103:0}’s and {VAR:0103:1}’s Pokémon will{NEWLINE}begin frozen...{SCROLL}Oh! A lucky break!{SCROLL}Neither of them had a Pokémon changed{NEWLINE}to frozen!!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/65; ext-review RCA-022"
+  },
+  {
+   "id": 66,
+   "zh": "７连胜,{NEWLINE}恭喜你了！{SCROLL}给你战斗点！{SCROLL}",
+   "en": "Seven wins in a row!{NEWLINE}Congratulations!{SCROLL}Here are your Battle Points!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "{VAR:0103:0}获得了{NEWLINE}{VAR:0133:1}ＢＰ！{SCROLL}",
+   "en": "{VAR:0103:0} received {VAR:0133:1} BP!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/67"
+  },
+  {
+   "id": 68,
+   "zh": "客人已经不能再持有{NEWLINE}更多的战斗点了。{SCROLL}",
+   "en": "You can’t carry any more{NEWLINE}Battle Points.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "寄存的道具现在还给你！{SCROLL}",
+   "en": "We will return any items we were holding{NEWLINE}for you.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/69"
+  },
+  {
+   "id": 70,
+   "zh": "在存档上记录,{NEWLINE}请不要切断电源。",
+   "en": "Saving...{NEWLINE}Don’t turn off the power.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "寄存的道具现在还给你！{SCROLL}",
+   "en": "We will return any items we were holding{NEWLINE}for you.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "继续",
+   "en": "CONTINUE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/72"
+  },
+  {
+   "id": 73,
+   "zh": "记录",
+   "en": "RECORD",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/73"
+  },
+  {
+   "id": 74,
+   "zh": "休息",
+   "en": "REST",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/74"
+  },
+  {
+   "id": 75,
+   "zh": "退出",
+   "en": "RETIRE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0426/75"
+  },
+  {
+   "id": 76,
+   "zh": "客人！{NEWLINE}祝贺你！{SCROLL}你已经充分证明了{NEWLINE}自己的实力,{CLEAR}顾问正在期待着{CLEAR}与客人的战斗哦！{SCROLL}请和轮盘女神对战吧！{CLEAR}做好觉悟了吗？{SCROLL}",
+   "en": "Congratulations, Trainer!{SCROLL}You have more than proven your{NEWLINE}strength. Our advisor is looking{CLEAR}forward to battling you!{SCROLL}Please battle the Arcade Star!{NEWLINE}Are you prepared?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/76"
+  },
+  {
+   "id": 77,
+   "zh": "大丽『塞拉,嘿塞拉♫{NEWLINE}人生就像是{CLEAR}一场赌博。{CLEAR}塞拉,嘿塞拉♫{CLEAR}快快结果。{SCROLL}大丽『嘿嘿,这是我平时常哼的歌,{NEWLINE}不过像冠军大人这种{CLEAR}用实力碾压一切霉运的人,{CLEAR}可能很难与歌词有共鸣吧。{CLEAR}所以如果我今天能让冠军大人{CLEAR}感受到运气的重要性,{CLEAR}那我就算成功啦！{SCROLL}",
+   "en": "Dahlia: ♪ (hums a carefree tune{NEWLINE}about life being one big gamble) ♪{SCROLL}Dahlia: Hehe, I always hum that song.{NEWLINE}But someone like you, Champion, who{CLEAR}crushes bad luck with sheer skill,{CLEAR}probably can’t relate to the words.{SCROLL}So if I can make you feel how important{NEWLINE}luck is today, I’ll call that a win!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "song rule: 塞拉,嘿塞拉♫ ditty replaced by a hum line; song rule: 塞拉,嘿塞拉♫ ditty replaced by a hum line; song rule: 塞拉,嘿塞拉♫ ditty replaced by a hum line; song rule: 塞拉,嘿塞拉♫ ditty replaced by a hum line; song rule: 塞拉,嘿塞拉♫ ditty replaced by a hum line"
+  },
+  {
+   "id": 78,
+   "zh": "大丽『塞拉,嘿塞拉♫{NEWLINE}人生就像是{CLEAR}一场赌博。{CLEAR}塞拉,嘿塞拉♫{CLEAR}快快结果。{SCROLL}大丽『冠军大人能来到这里{NEWLINE}与我见面,{CLEAR}绝对不是只靠运气那么简单。{CLEAR}一直仰望着您的我{CLEAR}是最清楚这一点的。{SCROLL}大丽『但我还是像确认一下,{NEWLINE}如果幸运女神站在我这边的话,{CLEAR}我是不是就能稍微触及到您了呢？{SCROLL}",
+   "en": "Dahlia: ♪ (hums a carefree tune{NEWLINE}about life being one big gamble) ♪{SCROLL}Dahlia: You didn’t make it all the way{NEWLINE}here to me just by luck, Champion.{SCROLL}I’ve always looked up to you,{NEWLINE}so I know that better than anyone.{SCROLL}Dahlia: But I still want to check...{NEWLINE}If Lady Luck is on my side, can I reach{CLEAR}you, even just a little?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "song rule: 塞拉,嘿塞拉♫ ditty replaced by a hum line; zh 像确认 is a typo for 想确认; song rule: 塞拉,嘿塞拉♫ ditty replaced by a hum line; zh 像确认 is a typo for 想确认; song rule: 塞拉,嘿塞拉♫ ditty replaced by a hum line; zh 像确认 is a typo for 想确认; song rule: 塞拉,嘿塞拉♫ ditty replaced by a hum line; zh 像确认 is a typo for 想确认; song rule: 塞拉,嘿塞拉♫ ditty replaced by a hum line; zh 像确认 is a typo for 想确认"
+  },
+  {
+   "id": 79,
+   "zh": "大丽『真厉害啊！{CLEAR}冠军大人爱着精灵,{CLEAR}精灵也信任您。{CLEAR}所以不管发生什么事都能顺利跨越。{CLEAR}真是完美的胜利啊！{SCROLL}",
+   "en": "Dahlia: That was amazing!{NEWLINE}You love your Pokémon, Champion,{CLEAR}and they trust you.{SCROLL}That’s why you got past everything{NEWLINE}thrown your way. A perfect victory!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0426/79"
+  },
+  {
+   "id": 80,
+   "zh": "大丽『冠军大人真的{NEWLINE}很厉害呢！{CLEAR}将不幸化为幸运,{CLEAR}这是冠军才有的实力表现！{SCROLL}大丽『能和冠军大人对战,{NEWLINE}大丽真的很高兴呢！{SCROLL}",
+   "en": "Dahlia: Champion, you really are{NEWLINE}amazing! Turning bad luck into good{CLEAR}luck takes a Champion’s strength!{SCROLL}Dahlia: Dahlia is so, so happy{NEWLINE}she got to battle you, Champion!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

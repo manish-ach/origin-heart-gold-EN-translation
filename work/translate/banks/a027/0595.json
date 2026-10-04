@@ -1,0 +1,909 @@
+{
+ "narc": "a027",
+ "bank": 595,
+ "source": "work/extract/v4/a027/0595.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "水晶『前辈,我在这一带{NEWLINE}钓起过好多大钳蟹,{CLEAR}但却一直没钓到巨钳蟹。{CLEAR}要是有高级钓竿的话{CLEAR}说不定就能钓上来了。",
+   "en": "Crystal: I’ve fished up lots{NEWLINE}of Krabby around here, but I still{CLEAR}haven’t hooked a Kingler. Maybe if I{CLEAR}had a Super Rod, I could reel one in.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "前辈 dropped (Crystal voice)."
+  },
+  {
+   "id": 1,
+   "zh": "我跟你说,{NEWLINE}我买到精灵图鉴了哦。{CLEAR}虽然不是大木博士亲手做的,{CLEAR}但也是很难买到的稀有道具呢。",
+   "en": "Listen, I bought a Pokédex!{NEWLINE}It’s not one Prof. Oak made{CLEAR}himself, but it’s still a rare{CLEAR}item that’s really hard to get.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "我的可可多拉虽然只有1级,{NEWLINE}但是任何精灵的防御{CLEAR}在它面前都不堪一击。{CLEAR}这都要归功于一个神技「蛮干」。{CLEAR}如果你给我一个重量球的话,{CLEAR}我就可以把蛮干教给你的精灵。{SCROLL}怎么样,要学吗？",
+   "en": "My Aron may only be Level 1, but no{NEWLINE}Pokémon’s defenses can stand up to it.{SCROLL}It’s all thanks to a{NEWLINE}godlike move: Endeavor.{SCROLL}If you give me a Heavy Ball, I can{NEWLINE}teach Endeavor to your Pokémon.{SCROLL}So, want to learn it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it,{NEWLINE}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 line rewritten to the tutor boilerplate (D-0048)."
+  },
+  {
+   "id": 4,
+   "zh": "你并没有重量球啊,{NEWLINE}等有球了再来找我吧。",
+   "en": "You don’t have a Heavy Ball.{NEWLINE}Come back when you’ve got one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "这里是浅葱市{NEWLINE}弥漫着海风味道的港口城市",
+   "en": "Olivine City{NEWLINE}The Port with Sea Breezes",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0604/5",
+   "category": "sign"
+  },
+  {
+   "id": 6,
+   "zh": "这里是浅葱港口{NEWLINE}高速船乘船处",
+   "en": "Olivine Port{NEWLINE}Fast-Ship Pier",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0604/6"
+  },
+  {
+   "id": 7,
+   "zh": "浅葱市　精灵道馆{NEWLINE}道馆馆主　蜜柑{CLEAR}铁壁般防御的女孩",
+   "en": "Olivine City Pokémon Gym{NEWLINE}Leader: Jasmine{CLEAR}The Steel-Clad Defense Girl",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0604/7"
+  },
+  {
+   "id": 8,
+   "zh": "这里是浅葱市的灯塔{SCROLL}别名又称作{NEWLINE}闪烁的灯塔",
+   "en": "Olivine’s Lighthouse{SCROLL}It is also known as{NEWLINE}the Glitter Lighthouse.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0604/8"
+  },
+  {
+   "id": 9,
+   "zh": "月桂蹦『Bayyy——lee！",
+   "en": "Baylee: Bayyy-lee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "要把高级钓竿送给水晶吗？",
+   "en": "Give the Super Rod to Crystal?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "水晶『哎？前辈要送我高级钓竿？{NEWLINE}这……这个礼物太贵重了。{CLEAR}我还是自己想办法吧。",
+   "en": "Crystal: Huh? You want to give me your{NEWLINE}Super Rod? Th-this gift is far too{CLEAR}valuable. I’ll find a way on my own.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "{VAR:0103:0}『水晶,我这里有一根高级钓竿,{NEWLINE}送给你吧。",
+   "en": "{VAR:0103:0}: Crystal, I’ve got a{NEWLINE}Super Rod here. It’s yours.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0103:0}『你就别跟我客气啦,{NEWLINE}我出来旅行这么久,{CLEAR}该用超级钓竿的地方也都用了。{CLEAR}你现在帮空木博士收集精灵,{CLEAR}怎么能少了这种方便的道具呢。{CLEAR}你就别推辞了,{CLEAR}收下这个钓竿吧。",
+   "en": "{VAR:0103:0}: Don’t be so polite with{NEWLINE}me. I’ve been traveling so long,{CLEAR}I’ve already used the Super{CLEAR}Rod everywhere I needed to.{SCROLL}You’re catching Pokémon for{NEWLINE}Prof. Elm now. How can you do{CLEAR}without such a handy item?{SCROLL}Don’t say no. Take this rod.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh says 高级钓竿 in #10–12 and 超级钓竿 here; both read as the Super Rod."
+  },
+  {
+   "id": 14,
+   "zh": "水晶『这……好的,谢谢{VAR:0103:0}前辈！{SCROLL}水晶『我会好好珍惜这根钓竿,{NEWLINE}带着它的时候就像是……{CLEAR}就像是{VAR:0103:0}前辈在我身边一样……",
+   "en": "Crystal: Th-then... all{NEWLINE}right. Thank you, {VAR:0103:0}!{SCROLL}Crystal: I’ll treasure this{NEWLINE}rod. Whenever I have it with{CLEAR}me, it’ll feel like... like you’re{CLEAR}right by my side, {VAR:0103:0}...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Crystal's two replies: #14/#16 wistful (probably male player), #15/#17 practical (probably female player); 前辈 dropped per Crystal's voice."
+  },
+  {
+   "id": 15,
+   "zh": "水晶『这……好的,谢谢{VAR:0103:0}前辈！{SCROLL}水晶『我会好好利用前辈送的钓竿,{NEWLINE}把城都地区的水系精灵全部抓到！",
+   "en": "Crystal: Th-then... all{NEWLINE}right. Thank you, {VAR:0103:0}!{SCROLL}Crystal: I’ll put the rod you gave{NEWLINE}me to good use and catch every{CLEAR}Water-type Pokémon in Johto!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "See #14."
+  },
+  {
+   "id": 16,
+   "zh": "水晶『我会好好珍惜这根钓竿,{NEWLINE}带着它的时候就像是……{CLEAR}就像是{VAR:0103:0}前辈在我身边一样……",
+   "en": "Crystal: I’ll treasure this{NEWLINE}rod. Whenever I have it with{CLEAR}me, it’ll feel like... like you’re{CLEAR}right by my side, {VAR:0103:0}...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "水晶『我会好好利用前辈送的钓竿,{NEWLINE}把城都地区的水系精灵全部抓到！",
+   "en": "Crystal: I’ll put the rod you gave{NEWLINE}me to good use and catch every{CLEAR}Water-type Pokémon in Johto!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Tutor boilerplate (D-0048)."
+  },
+  {
+   "id": 19,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it,{NEWLINE}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 20,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会蛮干了！{SCROLL}",
+   "en": "This {VAR:0100:0} already{NEWLINE}knows Endeavor!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的蛮干……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习蛮干{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to learn Endeavor...!{SCROLL}But {VAR:0101:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move{NEWLINE}to learn Endeavor?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Tutor boilerplate."
+  },
+  {
+   "id": 23,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Tutor boilerplate."
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Tutor boilerplate."
+  },
+  {
+   "id": 25,
+   "zh": "{VAR:0101:0}学会了蛮干！",
+   "en": "{VAR:0101:0} learned Endeavor!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会蛮干了！{SCROLL}那么按照约定,{NEWLINE}1个重量球我拿走了。",
+   "en": "There! Your {VAR:0100:0}{NEWLINE}has learned Endeavor!{SCROLL}And as agreed, I’ll take 1 Heavy Ball.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "你是要放弃{NEWLINE}让它记住蛮干吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Endeavor?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住蛮干。{SCROLL}",
+   "en": "Sorry... This Pokémon{NEWLINE}can’t learn Endeavor.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it,{NEWLINE}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 30,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Tutor boilerplate."
+  },
+  {
+   "id": 31,
+   "zh": "啊！你是联盟冠军{VAR:0103:0}！",
+   "en": "Ah! You’re League Champion {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "姐妹们快看！{NEWLINE}是联盟冠军{VAR:0103:0}啊！",
+   "en": "Look, girls! It’s League{NEWLINE}Champion {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "哇！真的是冠军大人哎！",
+   "en": "Wow! It really is the Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "呀——啊啊啊！！！{NEWLINE}居然可以在这里见到真人哎！",
+   "en": "Kyaaaaah!!! I can’t believe we{NEWLINE}get to see the real thing here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "冠军大人,我们是追星姐妹团。{NEWLINE}今天既然遇到了您这位大明星,{CLEAR}可不能让您就这么走了。",
+   "en": "Champion, we’re the Star-Chaser{NEWLINE}Sisters! Now that we’ve run{CLEAR}into a big star like you, we{CLEAR}can’t just let you walk away.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "追星姐妹团 → the Star-Chaser Sisters (invented)."
+  },
+  {
+   "id": 36,
+   "zh": "{VAR:0103:0}『呃……你想干什么？",
+   "en": "{VAR:0103:0}: Uh... What do you want?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "说起冠军大人的话,{NEWLINE}当然就是对战界的大明星了。",
+   "en": "When it comes to the Champion,{NEWLINE}you’re the biggest star in{CLEAR}the battling world, of course.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "所以我们想跟您来一场对战。",
+   "en": "So we want to have a battle with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "让您那夺目的光芒,{NEWLINE}留在我们青春的记忆中。",
+   "en": "So your dazzling light will stay{NEWLINE}in the memories of our youth.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "冠军大人你不可以拒绝,{NEWLINE}不然追星少女们是会哭泣的！",
+   "en": "You can’t say no, Champion,{NEWLINE}or these fangirls will cry!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "呀——！{NEWLINE}我刚刚承受了冠军大人的攻击！{CLEAR}啊,我这一生都不会忘记的！",
+   "en": "Kyaah! I just took an attack{NEWLINE}from the Champion! Ah, I’ll never{CLEAR}forget this as long as I live!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "我也要,我也要！{NEWLINE}冠军大人请跟我对战！",
+   "en": "Me too, me too! Champion,{NEWLINE}please battle me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "我刚刚距离冠军大人那么近！！！{NEWLINE}啊,不行了,我心跳太快要晕倒了。",
+   "en": "I was sooo close to the Champion just{NEWLINE}now!!! Ah, I can’t take it, my heart’s{CLEAR}racing so fast I’m gonna faint.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "还有我,还有我！{NEWLINE}冠军大人你不可以偏心！",
+   "en": "And me, and me! Champion,{NEWLINE}you can’t play favorites!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "啊……冠军大人好强,{NEWLINE}人家不行了啦！",
+   "en": "Aah... The Champion’s so{NEWLINE}strong, I just can’t take it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "谢谢冠军大人满足我们{NEWLINE}与明星近距离接触的梦想。{CLEAR}这是我们为冠军大人准备的礼物,{CLEAR}请您收下吧！",
+   "en": "Thank you, Champion, for{NEWLINE}making our dream of meeting{CLEAR}a star up close come true!{SCROLL}We prepared this gift for{NEWLINE}you. Please accept it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "你们听说了吗？{NEWLINE}最近芳缘地区出了一个{CLEAR}华丽大赛的明星,{CLEAR}好像是叫作米可利。",
+   "en": "Have you heard? There’s a new Super{NEWLINE}Contest star in the Hoenn region{CLEAR}lately. I think his name is Wallace.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "我知道我知道,{NEWLINE}他是一个将男人的帅和女人的美丽{CLEAR}完美融合的超级明星。",
+   "en": "I know, I know! He’s a superstar{NEWLINE}who perfectly blends a man’s{CLEAR}cool with a woman’s beauty.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "哇,还有这种既帅又美的明星啊,{NEWLINE}不知道他有女朋友了没。",
+   "en": "Wow, there’s a star who’s{NEWLINE}both cool and beautiful? I{CLEAR}wonder if he has a girlfriend.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "关于这方面的消息我也有听说哦。{NEWLINE}据说他跟一个女训练家走得很近,{CLEAR}但不确定两人是不是男女朋友。",
+   "en": "I heard something about that too. They{NEWLINE}say he’s close to a female Trainer,{CLEAR}but nobody’s sure if they’re dating.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "有没有女朋友不重要啦。{NEWLINE}只要能去看看他的华丽大赛,{CLEAR}然后再跟他合影、要签名,{CLEAR}我就很满足了。",
+   "en": "Girlfriend or not, who cares?{NEWLINE}If I could just go see his Super{CLEAR}Contest, then get a photo and{CLEAR}an autograph, I’d be happy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "米可利在芳缘地区太远啦,{NEWLINE}城都地区的口袋竞技名人辛夷,{CLEAR}就是经常上电视的大明星。{CLEAR}我觉得先去跟他合影比较现实。",
+   "en": "Wallace is way off in Hoenn. Johto’s{NEWLINE}Pokéathlon celebrity Magnus is{CLEAR}a big star who’s always on TV.{SCROLL}I think getting a photo with{NEWLINE}him first is more realistic.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "嗯！有道理！{NEWLINE}我要穿着竞技运动服跟辛夷合影！",
+   "en": "Yeah! Good point! I’ll wear my athletic{NEWLINE}uniform for my photo with Magnus!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "我要让辛夷在我的衣服上签名！",
+   "en": "I’m going to have{NEWLINE}Magnus sign my clothes!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "明星在哪里,我们就去那里！",
+   "en": "Wherever the stars are,{NEWLINE}that’s where we go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "我想收集与所有明星的合影{NEWLINE}做一本纪念相册。",
+   "en": "I want to collect photos with every{NEWLINE}star and make a souvenir album.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "有朝一日,我也要当大明星。",
+   "en": "Someday, I’m going to be a big star too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "可可多拉『Aaaa——ro！",
+   "en": "Aron: Aaaa-ron!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "鲤鱼王『Maaa——gi！",
+   "en": "Magikarp: Maaa-gi!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "大嘴鸥『Peee——li！",
+   "en": "Pelipper: Peee-li!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "我为了看大海,{NEWLINE}从研钵山一路骑车来到这里。{CLEAR}大海很棒哦！",
+   "en": "I biked all the way here from Mt. Mortar{NEWLINE}just to see the sea. The sea is great!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "大ー海ー好ー蓝ー啊ー{NEWLINE}好ー咸ー啊ー！",
+   "en": "The seaaa is sooo bluuue!{NEWLINE}It’s sooo saaalty!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "漆黑的夜路很危险！{NEWLINE}漆黑的海上也有很多危险！{SCROLL}没有灯塔的灯光{NEWLINE}船是没有办法航行的！",
+   "en": "Dark roads are dangerous at night.{SCROLL}But, in the pitch-black night,{NEWLINE}the sea is even more treacherous!{SCROLL}Without the beacon of the Lighthouse{NEWLINE}to guide her, no ship can sail.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0604/1"
+  },
+  {
+   "id": 64,
+   "zh": "灯塔闪烁着明亮的光芒,{NEWLINE}在夜晚的海上成为我们的航标。{SCROLL}即便没有船,{NEWLINE}也可以坐在精灵背上乘风破浪。{CLEAR}精灵用他们千奇百怪的能力,{CLEAR}融入了我们的生活。{SCROLL}无法想象这个世界如果失去了精灵{NEWLINE}将会变成怎样！",
+   "en": "The Lighthouse shines bright, a{NEWLINE}beacon for us on the sea at night.{SCROLL}Even without a ship, you can{NEWLINE}ride the waves on a Pokémon’s back.{CLEAR}Pokémon have become part of our{CLEAR}lives with all their amazing abilities.{SCROLL}I can’t imagine what this world{NEWLINE}would be like without Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "有些人吹嘘说,{NEWLINE}他拥有生活在海之彼岸{CLEAR}湛蓝市中才有的珍稀精灵！",
+   "en": "Some guy was bragging that he has{NEWLINE}a rare Pokémon you can only find{CLEAR}in Cianwood City, across the sea!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "好想减肥,但又好想去浅葱食堂{NEWLINE}吃美味的海滨料理。{CLEAR}好纠结啊……",
+   "en": "I want to lose weight, but I also{NEWLINE}really want to eat the tasty seaside{CLEAR}food at the Olivine Café. I’m so torn...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "无论是海上航行还是外出旅行,{NEWLINE}只要出门就会承担风险。{CLEAR}这时候您就应该买一份人身保险,{CLEAR}给自己和家人一个平安放心。{SCROLL}正好我这里有最新推出的弱点保险,{NEWLINE}非常适合您这样外出旅行的人,{CLEAR}您看要不要买一点？",
+   "en": "Whether you’re sailing the seas{NEWLINE}or traveling the land, every{CLEAR}time you go out, you take a risk.{SCROLL}That’s when you should buy{NEWLINE}insurance, for your own peace{CLEAR}of mind and your family’s.{SCROLL}As it happens, I’ve got the brand-new{NEWLINE}Weakness Policy. It’s perfect for{CLEAR}travelers like you. Care to buy some?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "1份弱点保险{NEWLINE}500元",
+   "en": "Weakness Policy{NEWLINE}1 for $500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '1 Weakness Policy{NEWLINE}$500'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 69,
+   "zh": "5份弱点保险{NEWLINE}2500元",
+   "en": "Weakness Policy{NEWLINE}5 for $2500",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '5 Weakness Policies{NEWLINE}$2500'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 70,
+   "zh": "10份弱点保险{NEWLINE}5000元",
+   "en": "Weakness Policy{NEWLINE}10 for $5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '10 Weakness Policies{NEWLINE}$5000'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 71,
+   "zh": "20份弱点保险{NEWLINE}10000元",
+   "en": "Weakness Policy{NEWLINE}20 for $10000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '20 Weakness Policies{NEWLINE}$10000'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 72,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s)",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 73,
+   "zh": "好的,这是您的保险,{NEWLINE}请拿好！",
+   "en": "All right, here’s your{NEWLINE}policy. Hold on to it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "您带的这点钱好像不够啊！",
+   "en": "Looks like you don’t have enough money!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "您什么时候想买保险了,{NEWLINE}再来找我啊！",
+   "en": "Come see me whenever you{NEWLINE}want to buy insurance!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "看到船员们出海,{NEWLINE}我就觉得非常兴奋。{CLEAR}好想有一天我能拥有一只暴鲤龙,{CLEAR}坐在它的背上出海旅行啊！",
+   "en": "Watching the sailors head out to{NEWLINE}sea gets me so excited. Someday{CLEAR}I want my own Gyarados, so I can{CLEAR}ride on its back and sail the seas!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "小朋友,你喜欢鲤鱼王吗？",
+   "en": "Kid, do you like Magikarp?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "喜欢,非常喜欢。",
+   "en": "I do! I really, really like them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "哈哈,那可真是太好了。{NEWLINE}我这里这只鲤鱼王{CLEAR}可是非常特别的鲤鱼王哦！",
+   "en": "Ha ha, that’s just great. This Magikarp{NEWLINE}of mine is a very special Magikarp!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "非常特别？",
+   "en": "Very special?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "它是会产黄金的鲤鱼王！",
+   "en": "It’s a Magikarp that lays gold!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "产黄金！？",
+   "en": "Lays gold?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "对,鲤鱼王一次产一千个卵。{NEWLINE}你想想看,{CLEAR}一千只鲤鱼王再产一千个卵,{CLEAR}一千的一千倍是百万啊！{SCROLL}你想想百万再产卵的话,{NEWLINE}这可就是天文数字了！",
+   "en": "That’s right. A Magikarp lays a{NEWLINE}thousand eggs at a time. Think about it!{SCROLL}A thousand Magikarp each lay a{NEWLINE}thousand eggs. A thousand thousands is{CLEAR}a million!{SCROLL}And if that million lay eggs, you’re{NEWLINE}looking at an astronomical number!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Same zh as 0252 #68 (US line); copied."
+  },
+  {
+   "id": 84,
+   "zh": "哇,那确实是很多钱啊！",
+   "en": "Wow, that really is a lot of money!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "所以啊小弟弟,{NEWLINE}只要你买了这只鲤鱼王,{CLEAR}很快就能富可敌国了！{SCROLL}我看你这么年轻,就算你便宜点,{NEWLINE}这个鲤鱼王呢加上产卵装置、{CLEAR}培育装置、还有教育装置,{CLEAR}总共算你三万块。{CLEAR}咱们一手交钱一手交货怎么样？",
+   "en": "So, little man, if you buy this Magikarp,{NEWLINE}you’ll be richer than a king in no time!{SCROLL}You’re so young, so I’ll give{NEWLINE}you a deal. This Magikarp, plus{CLEAR}the egg-laying kit, the breeding{CLEAR}kit and the training kit...{SCROLL}All together, just $30,000 for you.{NEWLINE}Cash on delivery, how about it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Seller calls the kid 小弟弟 (boy)."
+  },
+  {
+   "id": 86,
+   "zh": "我是很想买啦,{NEWLINE}可是我的零花钱只有一点点。{CLEAR}你看这样好不好啊叔叔,{CLEAR}你先把鲤鱼王给我,{CLEAR}三万块就当我欠你的,{CLEAR}等鲤鱼王产了黄金赚了钱之后,{CLEAR}我还你双倍的钱。{CLEAR}这样咱们两个都得到了想要的东西,{CLEAR}你看好不好呀？",
+   "en": "I really want to buy it, but I{NEWLINE}only have a little pocket money.{SCROLL}How about this, mister? You{NEWLINE}give me the Magikarp first,{CLEAR}and I’ll owe you the $30,000.{SCROLL}Once the Magikarp lays gold and makes{NEWLINE}money, I’ll pay you back double.{SCROLL}That way we both get what we{NEWLINE}want. Doesn’t that sound good?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "你们现在的小孩,{NEWLINE}买东西都是想白漂的吗？{CLEAR}真是太没有教养了。{SCROLL}总之你不给钱,{NEWLINE}休想拿走我的鲤鱼王！",
+   "en": "Kids these days, always wanting{NEWLINE}stuff for free? No manners at all.{SCROLL}Anyway, no money, no Magikarp!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "呜……我明明很想买鲤鱼王的。",
+   "en": "*sniff*... I really wanted{NEWLINE}to buy that Magikarp.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "{VAR:0103:0}『哪里有什么{NEWLINE}会产黄金的鲤鱼王,{CLEAR}你分明就是在骗人吧！",
+   "en": "{VAR:0103:0}: There’s no such thing{NEWLINE}as a Magikarp that lays gold.{CLEAR}You’re obviously a con man!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "你这人怎么说话呢！{NEWLINE}我卖的东西可都是货真价实！{CLEAR}你可不要……",
+   "en": "How dare you talk like that!{NEWLINE}Everything I sell is the{CLEAR}genuine article! Don’t you...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "啊！你是在圣安努号上救了我的恩人！{NEWLINE}真没想到还能在这遇见你。",
+   "en": "Ah! You’re the one who saved{NEWLINE}me on the S.S. Anne! I never{CLEAR}thought I’d run into you here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "{VAR:0103:0}『既然你也在圣安努号上{NEWLINE}吃过火箭队的苦头,{CLEAR}那你就将心比心{CLEAR}不要再用骗术伤害别人了好吗？",
+   "en": "{VAR:0103:0}: You suffered at Team Rocket’s{NEWLINE}hands on the S.S. Anne too. So put{CLEAR}yourself in others’ shoes, and stop{CLEAR}hurting people with your scams, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "恩人你可不能这么说,{NEWLINE}我的鲤鱼王真的产过黄金。{CLEAR}不过既然恩人不让卖了,{CLEAR}那我就不卖了,{CLEAR}我自己留着致富就是。",
+   "en": "You can’t say that, my savior.{NEWLINE}My Magikarp really did lay gold.{SCROLL}But since you won’t let me sell it, I{NEWLINE}won’t. I’ll keep it and get rich myself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "这个是我们家鲤鱼王的特产,{NEWLINE}就当是报答你的救命之恩,{CLEAR}送给你吧。",
+   "en": "This is a specialty of my Magikarp.{NEWLINE}Take it as thanks for saving my life.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "有一天早上我发现{NEWLINE}在我养殖鲤鱼王的水池里{CLEAR}出现了一颗金珠。{CLEAR}我断定那就是鲤鱼王产的卵,{CLEAR}我那一池的鲤鱼王中,{CLEAR}肯定有能产黄金的鲤鱼王！",
+   "en": "One morning I found a Nugget in the{NEWLINE}pond where I raise my Magikarp.{SCROLL}I’m sure it’s a Magikarp egg.{NEWLINE}Somewhere in my pond full of Magikarp,{CLEAR}there has to be one that lays gold!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "我的大嘴鸥经常会从海上{NEWLINE}叼一些树果回来。{CLEAR}你如果想要的话,我可以卖你一点。",
+   "en": "My Pelipper often brings back{NEWLINE}Berries from the sea. If you{CLEAR}want some, I can sell you a few.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "1个大树果{NEWLINE}1000元",
+   "en": "Sitrus Berry{NEWLINE}1 for $1000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '1 Sitrus Berry{NEWLINE}$1000'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 98,
+   "zh": "3个大树果{NEWLINE}3000元",
+   "en": "Sitrus Berry{NEWLINE}3 for $3000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '3 Sitrus Berries{NEWLINE}$3000'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 99,
+   "zh": "5个大树果{NEWLINE}5000元",
+   "en": "Sitrus Berry{NEWLINE}5 for $5000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '5 Sitrus Berries{NEWLINE}$5000'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 100,
+   "zh": "10个大树果{NEWLINE}10000元",
+   "en": "Sitrus Berry{NEWLINE}10 for $10000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '10 Sitrus Berries{NEWLINE}$10000'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 101,
+   "zh": "想买的话随时再来找我。",
+   "en": "If you want to buy some,{NEWLINE}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "你带的钱不够啊。",
+   "en": "You don’t have enough money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 103,
+   "zh": "这是你的树果,请拿好。",
+   "en": "Here are your Berries. Take them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "无论是海上航行还是外出旅行,{NEWLINE}都需要即使补充维生素。{CLEAR}我们公司生产的PP果,{CLEAR}就是最好的维生素补品。{CLEAR}您看要不要买一点呢？",
+   "en": "Whether you’re sailing the{NEWLINE}seas or traveling the land, you{CLEAR}need to keep your vitamins up.{SCROLL}The Leppa Berries our{NEWLINE}company produces are the best vitamin{CLEAR}supplement there is. Care to buy some?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "1个PP果{NEWLINE}2000元",
+   "en": "Leppa Berry{NEWLINE}1 for $2000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '1 Leppa Berry{NEWLINE}$2000'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 106,
+   "zh": "3个PP果{NEWLINE}6000元",
+   "en": "Leppa Berry{NEWLINE}3 for $6000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '3 Leppa Berries{NEWLINE}$6000'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 107,
+   "zh": "5个PP果{NEWLINE}10000元",
+   "en": "Leppa Berry{NEWLINE}5 for $10000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '5 Leppa Berries{NEWLINE}$10000'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 108,
+   "zh": "10个PP果{NEWLINE}20000元",
+   "en": "Leppa Berry{NEWLINE}10 for $20000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "menu width fix (follow-up 1): was '10 Leppa Berries{NEWLINE}$20000'",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 109,
+   "zh": "您什么时候想补充维生素了,{NEWLINE}再来找我啊！",
+   "en": "Come see me whenever you{NEWLINE}want to top up your vitamins!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 110,
+   "zh": "好的,这是您的树果,{NEWLINE}请拿好！",
+   "en": "All right, here are your{NEWLINE}Berries. Hold on to them!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

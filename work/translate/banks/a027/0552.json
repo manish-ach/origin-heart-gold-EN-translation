@@ -1,0 +1,1636 @@
+{
+ "narc": "a027",
+ "bank": 552,
+ "source": "work/extract/v4/a027/0552.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "乔班尼！{NEWLINE}精灵学堂超棒呐！{SCROLL}当然了,不管是不是这里的正式学生,{NEWLINE}都可以从我这里学到{CLEAR}很多很多精灵知识。{SCROLL}那么你想知道什么？{NEWLINE}关于变强的秘诀,{CLEAR}想知道吗？{VAR:0200:0}",
+   "en": "Earl, I am! Wonderful is the Pokémon{NEWLINE}Academy, yes!{SCROLL}Of course, student or not, learn much{NEWLINE}about Pokémon from me you can!{SCROLL}What you want to know? Want to be a{NEWLINE}winner is you? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0560/0 | R001: Earl (乔班尼, US name) keeps the US inverted speech (D voice).; ext-review C012"
+  },
+  {
+   "id": 1,
+   "zh": "那么,我来教你吧！{SCROLL}精灵列表最左上,{NEWLINE}是首先出站的精灵,{CLEAR}如果能知道对方的精灵阵容,{CLEAR}根据实际情况更换首战精灵！{SCROLL}会在战斗一开始就{NEWLINE}就积累下很大优势！{SCROLL}还想知道什么？{VAR:0200:0}",
+   "en": "Good! Teach you, I will!{SCROLL}Top left of your party list, the Pokémon{NEWLINE}that battles first is.{SCROLL}Know the foe’s team, do you? Then{NEWLINE}switch your lead to match!{SCROLL}A big edge from the very start, that{NEWLINE}gives you!{SCROLL}More from me you want to hear? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0560/1 | R001: Hack rewrote Earl's lesson (lead Pokémon vs the foe's lineup); retranslated in Earl's US voice."
+  },
+  {
+   "id": 2,
+   "zh": "那么,好的精灵培育法{CLEAR}想知道吗？{VAR:0200:0}",
+   "en": "So, want to know how to raise{NEWLINE}Pokémon well? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0560/2"
+  },
+  {
+   "id": 3,
+   "zh": "那么,我来教你吧！{SCROLL}只要精灵出场战斗过,{NEWLINE}就能分得本次胜利的经验。{SCROLL}佩戴学习装置的精灵,{NEWLINE}不出场也能获得经验。{SCROLL}佩戴幸运蛋的精灵,{NEWLINE}因出场战斗而获得的经验{CLEAR}会提升很多！{SCROLL}活用这些方法{NEWLINE}让更多的精灵提高等级,{CLEAR}比只有一只强力精灵,{CLEAR}更容易在对战中取得优势{SCROLL}还想知道什么？{VAR:0200:0}",
+   "en": "Fine! Teach you, I will!{SCROLL}A Pokémon that comes out in battle, a{NEWLINE}share of the Exp. Points it gets.{SCROLL}Holding an Exp. Share, a Pokémon gets{NEWLINE}Exp. Points without even battling.{SCROLL}Holding a Lucky Egg, many more Exp.{NEWLINE}Points from battle it gets!{SCROLL}Use these to level up many Pokémon, you{NEWLINE}should. Better than one strong Pokémon{CLEAR}alone for winning battles, that is!{SCROLL}More from me you want to hear? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0560/3 | R001: Hack rewrote Earl's lesson (Exp. Share / Lucky Egg); retranslated in Earl's US voice."
+  },
+  {
+   "id": 4,
+   "zh": "那么,好的精灵战斗法,{CLEAR}想知道吗？{VAR:0200:0}",
+   "en": "So, want to know how to{NEWLINE}battle well? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0560/4"
+  },
+  {
+   "id": 5,
+   "zh": "那么,我来教你吧！{SCROLL}这个世界没有逆属性大师！{SCROLL}属性相克在真正的战斗中至关重要,{NEWLINE}用克制对方的招式去攻击,{CLEAR}及时换上不易被克制的精灵,{CLEAR}多样化的对战才是聪明的！",
+   "en": "Fine! Teach you, I will!{SCROLL}In this world, flip type matchups{NEWLINE}around, no one can!{SCROLL}In real battles, type matchups{NEWLINE}everything are! Hit the foe with moves{CLEAR}it is weak to. Switch in Pokémon it{CLEAR}cannot hit well. Mix it up, and smart{CLEAR}battling it is!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0560/5 | R001: zh 这个世界没有逆属性大师 ('no inverse-type master in this world'): read as 'type matchups can't be flipped' (no Inverse Battles). Retranslated."
+  },
+  {
+   "id": 6,
+   "zh": "能在旅途中活用我刚刚所说的,{NEWLINE}你就已经足够厉害了。{SCROLL}要和抓到的精灵{NEWLINE}好好相处哦！",
+   "en": "Use what I taught on your journey, and{NEWLINE}strong enough you are!{SCROLL}Good friends with the Pokémon you{NEWLINE}catch, you must be!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0560/6 | R001: Hack-changed line; retranslated."
+  },
+  {
+   "id": 7,
+   "zh": "在本子上{NEWLINE}记下老师的话！{SCROLL}不把黑板上的东西{NEWLINE}写到本子上的话……",
+   "en": "I’m taking notes of the teacher’s{NEWLINE}lecture.{SCROLL}I’d better copy the stuff on the{NEWLINE}blackboard, too.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0560/7"
+  },
+  {
+   "id": 8,
+   "zh": "我和希罗娜是好朋友,{NEWLINE}真舍不得她离开,{CLEAR}呜呜呜……",
+   "en": "Cynthia and I are best friends. I really{NEWLINE}don’t want her to leave... Waaah...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0560/8 | R001: Hack-changed (US line was about a trade); retranslated."
+  },
+  {
+   "id": 9,
+   "zh": "我们学校有三个留学生,{NEWLINE}分别是来自城都的小银{CLEAR}来自芳缘的大吾{CLEAR}来自神奥的希罗娜。{CLEAR}大吾和希罗娜今天就毕业了,{CLEAR}而小银则是刚刚入学。",
+   "en": "Our school has three exchange{NEWLINE}students: Silver from Johto, Steven{CLEAR}from Hoenn and Cynthia from Sinnoh.{SCROLL}Steven and Cynthia graduate today, and{NEWLINE}Silver only just enrolled.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0560/9 | R001: Hack-changed; retranslated."
+  },
+  {
+   "id": 10,
+   "zh": "人造的恢复药剂,{NEWLINE}即使精灵佩戴在身上{CLEAR}也不会去使用。{SCROLL}只有当精灵携带天然树果的时候,{NEWLINE}它们才会在适当的时机吃下树果。",
+   "en": "A Pokémon won’t use man-made medicine,{NEWLINE}even if it’s holding some.{SCROLL}Only when it holds natural Berries will a{NEWLINE}Pokémon eat them at the right moment.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0560/10 | R001: Hack-changed; retranslated."
+  },
+  {
+   "id": 11,
+   "zh": "精灵有着被称为特性的能力！{SCROLL}好像是根据精灵的种类{NEWLINE}来决定精灵是怎样的特性。{SCROLL}好的特性能让看起来普通的精灵{NEWLINE}变得非常强大！",
+   "en": "Pokémon have powers called Abilities!{SCROLL}It seems the kind of Pokémon decides{NEWLINE}which Ability it has.{SCROLL}A good Ability can make an{NEWLINE}ordinary-looking Pokémon really strong!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0560/11 | R001: Last sentence changed by the hack; retranslated."
+  },
+  {
+   "id": 12,
+   "zh": "黑板上写着{NEWLINE}关于精灵在战斗时会发生的{CLEAR}状态变化的说明。{SCROLL}",
+   "en": "The blackboard explains Pokémon{NEWLINE}status changes in battle.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0560/12"
+  },
+  {
+   "id": 13,
+   "zh": "要看哪个项目？{VAR:0200:0}",
+   "en": "Read which topic? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0560/13"
+  },
+  {
+   "id": 14,
+   "zh": "受到毒效果后,{NEWLINE}体力会不断减少。{SCROLL}该效果将保留到战斗结束后,{NEWLINE}移动中会不断扣除体力,{CLEAR}可以用解毒药消除此效果。{SCROLL}",
+   "en": "If poisoned, a Pokémon steadily{NEWLINE}loses HP.{SCROLL}The poison lingers after the battle,{NEWLINE}and HP is lost as you walk.{CLEAR}To cure it, use an Antidote.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0560/14"
+  },
+  {
+   "id": 15,
+   "zh": "受到麻痹效果后,速度会下降,{NEWLINE}有一定几率无法发动技能。{SCROLL}该效果将保留到{NEWLINE}战斗结束后,{CLEAR}可以用解麻药消除此效果。{SCROLL}",
+   "en": "Paralysis reduces speed and may{NEWLINE}prevent movement.{SCROLL}It remains after battle, so use{NEWLINE}a Paralyze Heal.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0560/15; modernised from US 0560#15"
+  },
+  {
+   "id": 16,
+   "zh": "受到睡觉效果后,{NEWLINE}精灵只能使用梦话和打鼾{CLEAR}这两个攻击技能。{SCROLL}该效果将保留到{NEWLINE}战斗结束后,{CLEAR}可以用清醒药消除此效果。{SCROLL}",
+   "en": "If asleep, your Pokémon can use only{NEWLINE}certain moves, such as Sleep Talk and{CLEAR}Snore.{SCROLL}A sleeping Pokémon doesn’t wake up{NEWLINE}after battle.{CLEAR}Wake it up with an Awakening.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0560/16"
+  },
+  {
+   "id": 17,
+   "zh": "受到烧伤效果后,{NEWLINE}精灵的体力会逐渐下降,{CLEAR}同时也会降低攻击力。{SCROLL}该效果将保留到{NEWLINE}战斗结束后,{CLEAR}可以用烧伤药消除此效果。{SCROLL}",
+   "en": "A burn consumes HP, little by little,{NEWLINE}and also reduces the Attack stat.{SCROLL}A burn lingers after battle.{NEWLINE}Use a Burn Heal as the cure.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0560/17"
+  },
+  {
+   "id": 18,
+   "zh": "受到冰冻效果后,{NEWLINE}精灵无法做出任何行动。{SCROLL}该效果将保留到{NEWLINE}战斗结束后,{CLEAR}可以用解冻药消除此效果。{SCROLL}",
+   "en": "If your Pokémon is frozen,{NEWLINE}it can’t do a thing.{SCROLL}It remains frozen after battle.{NEWLINE}Thaw it out with an Ice Heal.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0560/18"
+  },
+  {
+   "id": 19,
+   "zh": "这个孩子的笔记……{SCROLL}口袋妖怪的攻击分为{NEWLINE}物理攻击和特殊攻击,{CLEAR}同样防御也分物理防御和特殊防御。{SCROLL}要继续阅读吗？{VAR:0200:0}",
+   "en": "It’s this kid’s notebook...{SCROLL}‘Pokémon attacks are either physical or{NEWLINE}special. Defense is split into physical{CLEAR}and special, too.’{SCROLL}Keep reading? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0560/19 | R001: Hack-changed notebook page; retranslated."
+  },
+  {
+   "id": 20,
+   "zh": "每个口袋妖怪擅长的{NEWLINE}攻击和防御类型不同,{CLEAR}要活用田忌赛马的战法,{CLEAR}以己之长攻敌之短。{SCROLL}要继续阅读吗？{VAR:0200:0}",
+   "en": "‘Each Pokémon is good at different kinds{NEWLINE}of attack and defense. Pit your{CLEAR}strengths against the foe’s weak{CLEAR}spots, like in the old tale of Tian Ji’s{CLEAR}horse race!’{SCROLL}Keep reading? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0560/20 | R001: zh 田忌赛马 (Tian Ji's horse race, Chinese strategy tale) kept as a brief reference."
+  },
+  {
+   "id": 21,
+   "zh": "口袋妖怪是可以携带道具的,{NEWLINE}道具有时会{CLEAR}极大地影响精灵的战斗表现。{SCROLL}仔细阅读道具说明,{NEWLINE}为精灵佩戴合适的道具吧！{SCROLL}要继续阅读吗？{VAR:0200:0}",
+   "en": "‘Pokémon can hold items. An item can{NEWLINE}hugely change how a Pokémon battles.’{SCROLL}‘Read the item descriptions carefully,{NEWLINE}and give your Pokémon the right item!’{SCROLL}Keep reading? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0560/21 | R001: Hack-changed; retranslated."
+  },
+  {
+   "id": 22,
+   "zh": "培育口袋妖怪{NEWLINE}并使用其参与对战的人{CLEAR}被称作精灵训练家。{SCROLL}训练家的目标是{NEWLINE}战胜各地精灵道馆的{CLEAR}强力训练师！{SCROLL}下一页……{NEWLINE}是空白的！{SCROLL}",
+   "en": "‘People who catch and use Pokémon{NEWLINE}in battle are called Pokémon Trainers.’{SCROLL}‘They are expected to visit Pokémon{NEWLINE}Gyms and defeat other Trainers.’{SCROLL}The next page is... Blank!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0560/22 | R001: quotes changed to single ‘ ’ to match #19–#21."
+  },
+  {
+   "id": 23,
+   "zh": "少年『我想练好精灵对战,{NEWLINE}成为精灵联盟认定的高级训练家,{CLEAR}这样就能领到训练家津贴,{CLEAR}体面又舒适地生活了。",
+   "en": "Boy: I want to get good at Pokémon{NEWLINE}battles and become a Senior Trainer{CLEAR}certified by the Pokémon League.{SCROLL}Then I’ll get a Trainer allowance and{NEWLINE}live a nice, comfy, respectable life.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0560/23 | R001: Hack-changed; retranslated. 高级训练家 = Senior Trainer."
+  },
+  {
+   "id": 24,
+   "zh": "毒",
+   "en": "POISON",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0560/24",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 25,
+   "zh": "麻痹",
+   "en": "PARALYSIS",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0560/25",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 26,
+   "zh": "睡眠",
+   "en": "SLEEP",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0560/26",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 27,
+   "zh": "烧伤",
+   "en": "BURN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0560/27",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 28,
+   "zh": "冰冻",
+   "en": "FROZEN",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0560/28",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 29,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0560/29",
+   "category": "menu_touch_col"
+  },
+  {
+   "id": 30,
+   "zh": "唔……{SCROLL}能把你喜欢的训练师{NEWLINE}告诉我么？{SCROLL}",
+   "en": "Hmm...{SCROLL}Could you tell me your favorite kind of{NEWLINE}Trainer?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 31,
+   "zh": "是哪位训练师呢？{VAR:0200:0}",
+   "en": "Which kind of Trainer is it? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 32,
+   "zh": "那个{VAR:010E:0}{NEWLINE}不错吧？{VAR:0200:0}",
+   "en": "{VAR:010E:0}, huh?{NEWLINE}Pretty great, right? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | R001: {VAR:010E:0} = trainer class name."
+  },
+  {
+   "id": 33,
+   "zh": "原来如此,{NEWLINE}既然你如此喜欢{CLEAR}{VAR:010E:0},{SCROLL}说不定别人眼中{NEWLINE}你就是{CLEAR}{VAR:010E:0}。{SCROLL}",
+   "en": "I see. So you like {VAR:010E:0} that{NEWLINE}much...{SCROLL}Then maybe, in other people’s eyes,{NEWLINE}you’re a {VAR:010E:0} yourself.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 34,
+   "zh": "那么,什么时候{NEWLINE}想把你喜欢的训练师{CLEAR}告诉我的话,{CLEAR}我愿闻其详。",
+   "en": "If you ever want to tell me your{NEWLINE}favorite kind of Trainer, I’m all ears.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 35,
+   "zh": "你……有被误认为{NEWLINE}是{VAR:010E:0}的经历吗？{SCROLL}不过,我看起来也像{NEWLINE}其他的训练师。{SCROLL}那么……{SCROLL}再次请问,能告诉我{NEWLINE}你所喜欢的训练师么？{SCROLL}",
+   "en": "Have you... ever been mistaken for a{NEWLINE}{VAR:010E:0}?{SCROLL}Then again, I look like other kinds of{NEWLINE}Trainers myself.{SCROLL}So...{SCROLL}Let me ask again. Could you tell me your{NEWLINE}favorite kind of Trainer?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 36,
+   "zh": "同学你好！{NEWLINE}欢迎来到精灵学堂！{SCROLL}看你的训练师卡片,{NEWLINE}应该是关东人吧？{CLEAR}我们精灵学堂里,{CLEAR}有两位来自其他地区的留学生哟。{SCROLL}如果你能代表咱们关东的{NEWLINE}新人训练家击败他们,{CLEAR}老师我会给你丰厚奖励哟。",
+   "en": "Hello there, student! Welcome to the{NEWLINE}Pokémon Academy!{SCROLL}Your Trainer Card says you’re from{NEWLINE}Kanto, right? Our Academy has two{CLEAR}exchange students from other regions.{SCROLL}If you can beat them for the honor of{NEWLINE}Kanto’s Rookie Trainers, I’ll give you a{CLEAR}generous reward!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 37,
+   "zh": "留学生们毕业后,{NEWLINE}精灵学堂变得好冷清啊！",
+   "en": "The Pokémon Academy is so quiet since{NEWLINE}the exchange students graduated!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 38,
+   "zh": "哇,同学你真厉害！{NEWLINE}这两位可都是{CLEAR}我们最优秀的学生啊！{SCROLL}那么按照约定请你收下这个。",
+   "en": "Wow, you’re amazing! Those two are our{NEWLINE}very best students!{SCROLL}As promised, please accept this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 39,
+   "zh": "希罗娜『与旅行的训练家战斗？{NEWLINE}这是老师安排的毕业测试吗？{CLEAR}我会好好应战的！",
+   "en": "Cynthia: A battle with a traveling{NEWLINE}Trainer? Is this a graduation test the{CLEAR}teacher set up? I’ll give it my all!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 40,
+   "zh": "希罗娜『我在这儿经历了{NEWLINE}一段很愉快的时光呢,{CLEAR}所以到底是外出旅行锻炼{CLEAR}还是继续留在学校学习,{CLEAR}让我很难选择啊。",
+   "en": "Cynthia: I’ve had such a lovely time{NEWLINE}here. Should I go off traveling to{CLEAR}train, or stay at school and keep{CLEAR}studying? It’s so hard to choose.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 41,
+   "zh": "希罗娜『跟你的对战,{NEWLINE}让我坚定了外出旅行锻炼的想法。{CLEAR}谢谢你帮我做出选择。",
+   "en": "Cynthia: Battling you made up my mind.{NEWLINE}I’m going off traveling to train. Thanks{CLEAR}for helping me choose!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 42,
+   "zh": "大吾『在即将毕业之际,{NEWLINE}与关东的训练家实际对战,{CLEAR}一定能有新的收获吧！",
+   "en": "Steven: Just before graduating, I get a{NEWLINE}real battle against a Trainer from{CLEAR}Kanto. I’m sure to learn something new!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 43,
+   "zh": "大吾『父亲之所以送我到关东来留学,{NEWLINE}是因为这里的口袋妖怪对战水平{CLEAR}是所有地区中最高的。",
+   "en": "Steven: My father sent me to study in{NEWLINE}Kanto because Pokémon battling here is{CLEAR}the best of any region.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 44,
+   "zh": "大吾『这里首创的精灵联盟制度,{NEWLINE}对芳缘地区的训练家们{CLEAR}很具有借鉴意义呢。",
+   "en": "Steven: The Pokémon League system{NEWLINE}that started here has a lot to teach{CLEAR}the Trainers of Hoenn.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 45,
+   "zh": "小银『我跟小蓝姐可是旧相识,{NEWLINE}我劝你不要打她的主意！",
+   "en": "Silver: Sis and I go way back. Don’t you{NEWLINE}even think about making a move on her!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | R001: Silver calls Green 'Sis' (小蓝姐)."
+  },
+  {
+   "id": 46,
+   "zh": "小银『小赤哥哥跟我是老朋友了,{NEWLINE}肯定比你们的交情深！",
+   "en": "Silver: Red and I are old friends. We’re{NEWLINE}way closer than you two, for sure!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 47,
+   "zh": "小银『哼,我不就是放走了{NEWLINE}尖兵训练营的一个人嘛,{CLEAR}老爸就把我叫到身边来责备,{CLEAR}至于么……",
+   "en": "Silver: Hmph. All I did was let one guy{NEWLINE}from the boot camp go, and my old man{CLEAR}calls me in to chew me out. Seriously?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 48,
+   "zh": "圆陆鲨『Gi...ooo",
+   "en": "Gible: Gi...ooo",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 49,
+   "zh": "铁哑铃『Be——Duuuuum！",
+   "en": "Beldum: Be-Duuuuum!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl) | R001: copied from a027/0047 #61 (identical zh)"
+  },
+  {
+   "id": 50,
+   "zh": "小蓝『这是小银,{NEWLINE}在我小时候遇到困难时帮过我。{CLEAR}别看他样子凶凶的,{CLEAR}其实心地还挺善良的。",
+   "en": "Green: This is Silver. He helped me out{NEWLINE}when I was in trouble as a kid.{SCROLL}He looks scary, but he’s actually{NEWLINE}pretty kind.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | R001: Partner branch: Green version (see #85 Red version)."
+  },
+  {
+   "id": 51,
+   "zh": "精灵球是连接我们和精灵的纽带,{NEWLINE}请善用这些精灵球{CLEAR}来认识更多的伙伴。{SCROLL}如果还想进行知识挑战,{NEWLINE}我们的学生也可以满足你哟。",
+   "en": "Poké Balls are the bond between us and{NEWLINE}Pokémon. Use these well, and make lots{CLEAR}more friends!{SCROLL}If you want another quiz challenge, our{NEWLINE}students can give you one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "看着希罗娜离去的空座位,{NEWLINE}我的心里就涌起一阵失落感。",
+   "en": "Every time I look at Cynthia’s empty{NEWLINE}seat, I feel a pang of loneliness.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 53,
+   "zh": "每只口袋妖怪都有自己的属性,{NEWLINE}同样每个招式也有自己的属性,{CLEAR}当精灵和招式的属性相同时,{CLEAR}招式的威力就会提升50%,{CLEAR}这就是所谓的本系加成。",
+   "en": "Every Pokémon has its own type, and{NEWLINE}every move has a type too.{SCROLL}When a Pokémon uses a move of its own{NEWLINE}type, the move’s power goes up by 50%.{SCROLL}That’s called the same-type attack{NEWLINE}bonus.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 54,
+   "zh": "是否接受问答挑战？",
+   "en": "Take the quiz challenge?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 55,
+   "zh": "被我的学识吓到了吧？",
+   "en": "Blown away by my knowledge, huh?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 56,
+   "zh": "回答错误,想想清楚再来吧！",
+   "en": "Wrong answer! Think it over and come{NEWLINE}back!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 57,
+   "zh": "肥大是对以下哪只口袋妖怪的昵称？",
+   "en": "Which of these Pokémon has the nickname{NEWLINE}‘Fatty’?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | R001: 肥大 ('Fatty') is Snorlax's old Hong Kong name; answer Snorlax (#59)."
+  },
+  {
+   "id": 58,
+   "zh": "快龙",
+   "en": "Dragonite",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 3 source(s), same position"
+  },
+  {
+   "id": 59,
+   "zh": "卡比兽",
+   "en": "Snorlax",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 60,
+   "zh": "呆河马",
+   "en": "Slowbro",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 61,
+   "zh": "请假王",
+   "en": "Slaking",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 62,
+   "zh": "下列哪个特性,{NEWLINE}是在对战中完全无效的特性？",
+   "en": "Which of these Abilities does absolutely{NEWLINE}nothing in battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 63,
+   "zh": "磁力",
+   "en": "Magnet Pull",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 64,
+   "zh": "压力",
+   "en": "Pressure",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 65,
+   "zh": "复眼",
+   "en": "Compound Eyes",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 66,
+   "zh": "发光",
+   "en": "Illuminate",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 67,
+   "zh": "下列哪个精灵的物攻种族值更高？",
+   "en": "Which of these Pokémon has the highest{NEWLINE}base Attack stat?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | R001: v3 had types; options are Leafeon/Vaporeon/Flareon/Jolteon (answer Leafeon, Atk 110)."
+  },
+  {
+   "id": 68,
+   "zh": "叶精灵",
+   "en": "Leafeon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 69,
+   "zh": "水精灵",
+   "en": "Vaporeon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 70,
+   "zh": "火精灵",
+   "en": "Flareon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 71,
+   "zh": "雷精灵",
+   "en": "Jolteon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 72,
+   "zh": "我行我素的大舌头,{NEWLINE}陷入下列哪个状态5回合后,{CLEAR}损失的生命值最多？",
+   "en": "An Own Tempo Lickitung is hit by one of{NEWLINE}these for 5 turns. Which one makes it{CLEAR}lose the most HP?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position, flags fullwidth_chars,page_breaks_lost | R001: Own Tempo prevents confusion; 猛毒 = badly poisoned ('Bad Poison')."
+  },
+  {
+   "id": 73,
+   "zh": "混乱",
+   "en": "Confusion",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 74,
+   "zh": "猛毒",
+   "en": "Bad Poison",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 75,
+   "zh": "烧伤",
+   "en": "Burn",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 76,
+   "zh": "寄生种子",
+   "en": "Leech Seed",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 2 source(s), same position"
+  },
+  {
+   "id": 77,
+   "zh": "最后一题,一个人如果持有4枚徽章{NEWLINE}则精灵联盟认定此人为？",
+   "en": "Last question! What does the{NEWLINE}Pokémon League call someone who holds{CLEAR}4 Badges?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 78,
+   "zh": "高级训练家",
+   "en": "Senior Trainer",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 79,
+   "zh": "新人训练家",
+   "en": "Rookie Trainer",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 80,
+   "zh": "初级训练家",
+   "en": "Junior Trainer",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 81,
+   "zh": "中级训练家",
+   "en": "Intermediate Trainer",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 82,
+   "zh": "哇！{NEWLINE}你居然全部答上了我的问题！{CLEAR}看来你不光实战厉害,{CLEAR}连知识都很广博！{SCROLL}这是我平时读书学习用的道具,{NEWLINE}给精灵用的话效果也很棒的。{CLEAR}请收下它！",
+   "en": "Wow! You answered every single one of{NEWLINE}my questions! You’re not just strong in{CLEAR}battle, you know your stuff, too!{SCROLL}This is what I use when I read and{NEWLINE}study. It works great on Pokémon, too.{CLEAR}Please take it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 83,
+   "zh": "大吾和希罗娜毕业离开了,{NEWLINE}以他们的实力,{CLEAR}应该可以开创光明的未来吧。",
+   "en": "Steven and Cynthia have graduated and{NEWLINE}left. With their skills, they’re sure to{CLEAR}have bright futures.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 84,
+   "zh": "小银还没毕业就走了……{NEWLINE}他是去更好的学校了吗？",
+   "en": "Silver left before he even graduated...{NEWLINE}Did he go to a better school?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 85,
+   "zh": "小赤『这是小银,{NEWLINE}在我小时候遇到困难时帮过我。{CLEAR}别看他样子凶凶的,{CLEAR}其实心地还挺善良的。",
+   "en": "Red: This is Silver. He helped me out{NEWLINE}when I was in trouble as a kid.{SCROLL}He looks scary, but he’s actually{NEWLINE}pretty kind.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position | R001: Partner branch: Red version (see #50 Green version)."
+  },
+  {
+   "id": 86,
+   "zh": "妙蛙花『Venu——sau！",
+   "en": "Venusaur: Venu-sau!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 87,
+   "zh": "看到我的学生大吾和希罗娜{NEWLINE}在石英大会上{CLEAR}取得了前8强的好成绩,{CLEAR}我感觉非常自豪！{SCROLL}可是一看到他们今天来跟我告别,{NEWLINE}我又非常伤心,唉……",
+   "en": "Seeing my students Steven and Cynthia{NEWLINE}make the top 8 at the Indigo Conference{CLEAR}makes me so proud!{SCROLL}But seeing them come to say goodbye{NEWLINE}today makes me so sad... Sigh...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 88,
+   "zh": "呜呜呜……{NEWLINE}希罗娜今天就要回神奥了……{CLEAR}下次见面就不知道是什么时候了……{CLEAR}呜呜呜……",
+   "en": "Waaah... Cynthia’s going back to Sinnoh{NEWLINE}today... Who knows when we’ll see each{CLEAR}other again... Waaah...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 89,
+   "zh": "我们这里原来有个{NEWLINE}非常臭屁的同学小银,{CLEAR}他整天自以为是的瞧不起我们。{CLEAR}但是大吾和希罗娜前辈{CLEAR}作为我们学校的学生{CLEAR}能进入石英大会前8强,{CLEAR}就足以说明我们学校的厉害！",
+   "en": "We used to have this super stuck-up{NEWLINE}classmate, Silver. He was so full of{CLEAR}himself, always looking down on us.{SCROLL}But Steven and Cynthia, from our very{NEWLINE}own school, made the top 8 at the{CLEAR}Indigo Conference!{SCROLL}That proves how awesome our school is!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 90,
+   "zh": "烈咬陆鲨『Gar——chom！",
+   "en": "Garchomp: Gar-chom!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position; other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl) | R001: copied from a027/0327 #42 (identical zh)"
+  },
+  {
+   "id": 91,
+   "zh": "希罗娜『{VAR:0103:0}……呜呜呜……{NEWLINE}我就要走了,好舍不得这里呀……{CLEAR}呜呜呜……",
+   "en": "Cynthia: {VAR:0103:0}... *sniff*... I’m{NEWLINE}leaving soon. I’m going to miss this{CLEAR}place so much... *sniff*",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), same position"
+  },
+  {
+   "id": 92,
+   "zh": "希罗娜『{VAR:0103:0},我难得来一趟关东,{NEWLINE}就想着回学校看看。{CLEAR}这里的样子还是跟四年前一样,{CLEAR}真是让人感到熟悉和亲切啊。{SCROLL}希罗娜『说起来咱们就是在这里{NEWLINE}通过进行对战才认识的,{CLEAR}现在时过境迁咱们也都变得更强了。{CLEAR}要不要在跟我来一次对战,{CLEAR}回味一下初次相识时候的感觉？",
+   "en": "Cynthia: {VAR:0103:0}, I’m in Kanto for{NEWLINE}once, so I wanted to visit the school.{SCROLL}It looks just like it did four years ago.{NEWLINE}It feels so familiar and cozy.{SCROLL}Cynthia: Come to think of it, we met{NEWLINE}right here, through a battle.{SCROLL}A lot has changed since then, and we’ve{NEWLINE}both gotten stronger.{SCROLL}How about another battle, to relive the{NEWLINE}day we met?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: Post-game partner route (Cynthia as the male player's girlfriend) starts here: #92-#201."
+  },
+  {
+   "id": 93,
+   "zh": "希罗娜『唉？不想跟我对战吗？",
+   "en": "Cynthia: Huh? You don’t want to battle{NEWLINE}me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "希罗娜『你是希望单打还是双打呢？",
+   "en": "Cynthia: Would you like a Single or a{NEWLINE}Double Battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 96,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 97,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 98,
+   "zh": "希罗娜『我可是会全力以赴哟,{NEWLINE}{VAR:0103:0}你要小心了！",
+   "en": "Cynthia: I’m going to give it everything{NEWLINE}I’ve got. Watch yourself, {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "希罗娜『哇,真不愧是{VAR:0103:0}！{NEWLINE}你才是当之无愧的最强训练家。",
+   "en": "Cynthia: Wow, that’s {VAR:0103:0} for you!{NEWLINE}You truly are the strongest Trainer{CLEAR}there is.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "希罗娜『双打要至少携带两只精灵,{NEWLINE}你身上的精灵不够哦。",
+   "en": "Cynthia: You need at least two Pokémon{NEWLINE}for a Double Battle. You don’t have{CLEAR}enough with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "哦吼,本校毕业的两名学生{NEWLINE}大吾和希罗娜,{CLEAR}分别成为了芳缘地区{CLEAR}和深奥地区的联盟冠军,{CLEAR}这充分说明了——",
+   "en": "Oho! Two graduates of our school,{NEWLINE}Steven and Cynthia, have become the{CLEAR}League Champions of Hoenn and Sinnoh!{CLEAR}This is clear proof that...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: zh 深奥地区 (typo/pun for 神奥 Sinnoh) written as Sinnoh. Line is cut off on purpose (——)."
+  },
+  {
+   "id": 102,
+   "zh": "乔班尼！{NEWLINE}精灵学堂超棒呐！{SCROLL}不管是不是这里的正式学生,{NEWLINE}都可以从我这里学到{CLEAR}很多很多精灵知识。{SCROLL}那么你想知道什么？{NEWLINE}关于变强的秘诀,{CLEAR}想知道吗？{VAR:0200:0}",
+   "en": "Earl, I am! Wonderful is the Pokémon{NEWLINE}Academy, yes!{SCROLL}Student or not, learn much about{NEWLINE}Pokémon from me you can!{SCROLL}What you want to know? Want to be a{NEWLINE}winner is you? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: Hack variant of #0 (drops 当然了); same US text.; ext-review C012"
+  },
+  {
+   "id": 103,
+   "zh": "希罗娜回来看我了！{NEWLINE}呜呜呜,能跟好朋友重逢{CLEAR}真是让人高兴！",
+   "en": "Cynthia came back to see me! Waaah...{NEWLINE}I’m so happy to see my best friend!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 104,
+   "zh": "听说希罗娜交男朋友了。{SCROLL}像她那样优秀的女孩子,{NEWLINE}男朋友会是什么样呢？",
+   "en": "I heard Cynthia got a boyfriend.{SCROLL}I wonder what kind of guy a girl as{NEWLINE}amazing as her would go out with?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 105,
+   "zh": "烈咬陆鲨『Gaaa——chom！",
+   "en": "Garchomp: Gaaa-chomp!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "qa-lints: unified with identical zh elsewhere (zh_variant)"
+  },
+  {
+   "id": 106,
+   "zh": "希罗娜『你好慢啊{VAR:0103:0},{NEWLINE}我在这等里你好久了,{CLEAR}身为人家的男朋友{CLEAR}总是玩消失可不好哦。",
+   "en": "Cynthia: You’re so slow, {VAR:0103:0}. I’ve{NEWLINE}been waiting here for ages. It’s not{CLEAR}nice for a boyfriend to keep vanishing{CLEAR}on me, you know.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: Partner route: Cynthia (male player's girlfriend)."
+  },
+  {
+   "id": 107,
+   "zh": "咱们一起出去走走吧",
+   "en": "Let’s go for a walk",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #152 (identical zh)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 108,
+   "zh": "我想跟你来一场对战",
+   "en": "Let’s have a battle",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #153 (identical zh)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 109,
+   "zh": "我还有事要忙,回头见",
+   "en": "I’m busy. See you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #154 (identical zh)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 110,
+   "zh": "希罗娜『我还会在这儿待一段时间,{NEWLINE}你如果不忙的话就多来陪陪我吧。",
+   "en": "Cynthia: I’ll be staying here for a{NEWLINE}while. If you’re not busy, come and{CLEAR}keep me company more often.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 111,
+   "zh": "希罗娜『这算是交往后的{NEWLINE}第一次约会吗？{CLEAR}好让人期待啊。{CLEAR}那咱们要去哪呢？{CLEAR}关东的月见山、华蓝海角{CLEAR}都挺适合情侣约会的,{CLEAR}可是我都没有跟你一起{CLEAR}去城都地区旅行过,{CLEAR}所以也非常想跟你去城都地区逛逛……{CLEAR}哎呀,好难选择啊。{CLEAR}还是由{VAR:0103:0}你来决定吧,{CLEAR}咱们这次去哪约会？",
+   "en": "Cynthia: Is this our first date since we{NEWLINE}started going out? I can’t wait! So,{CLEAR}where should we go?{SCROLL}Mt. Moon and Cerulean Cape in Kanto are{NEWLINE}both great date spots...{SCROLL}But we’ve never traveled around Johto{NEWLINE}together, so I’d love to go there with{CLEAR}you too...{SCROLL}Oh, it’s so hard to choose!{SCROLL}You decide, {VAR:0103:0}. Where should we go{NEWLINE}on our date?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 112,
+   "zh": "{VAR:0103:0}『咱们只在关东地区一起旅行过,{NEWLINE}都没有一起去过城都地区,{CLEAR}这次就去城都地区看看怎么样？",
+   "en": "{VAR:0103:0}: We’ve only ever traveled{NEWLINE}together in Kanto. We’ve never been to{CLEAR}Johto together. How about we go and{CLEAR}see Johto this time?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 113,
+   "zh": "希罗娜『好啊,具体要去哪里呢？",
+   "en": "Cynthia: Sure! Where in Johto, exactly?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 114,
+   "zh": "{VAR:0103:0}『你跟我来吧,{NEWLINE}到了你就知道了。",
+   "en": "{VAR:0103:0}: Just follow me. You’ll see when{NEWLINE}we get there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 115,
+   "zh": "希罗娜『哦吼,故作神秘,{NEWLINE}你这样还真是别有一番魅力。",
+   "en": "Cynthia: Oho, playing mysterious? It’s{NEWLINE}actually kind of charming on you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 116,
+   "zh": "您好,欢迎乘坐新圣安努号游轮。{NEWLINE}请问您想的目的地是？",
+   "en": "Welcome aboard the new S.S. Anne! What{NEWLINE}is your destination?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 117,
+   "zh": "{VAR:0103:0}『我和我女朋友想去浅葱市,{NEWLINE}这是船票。",
+   "en": "{VAR:0103:0}: My girlfriend and I want to go{NEWLINE}to Olivine City. Here are our tickets.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 118,
+   "zh": "好的,目的地浅葱市,请您登船！",
+   "en": "Very well. Destination: Olivine City.{NEWLINE}Please board!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0251 #8 (identical zh)"
+  },
+  {
+   "id": 119,
+   "zh": "{VAR:0103:0}『这是我第一次{NEWLINE}跟希罗娜一起坐船呢。",
+   "en": "{VAR:0103:0}: This is my first time on a boat{NEWLINE}with you, Cynthia.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 120,
+   "zh": "希罗娜『嗯哼,也是我第一次{NEWLINE}跟{VAR:0103:0}这样单独相处呢……",
+   "en": "Cynthia: Mm-hmm. And it’s my first time{NEWLINE}alone with you like this, {VAR:0103:0}...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 121,
+   "zh": "{VAR:0103:0}『希罗娜……",
+   "en": "{VAR:0103:0}: Cynthia...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 122,
+   "zh": "豪华游轮圣安努号{NEWLINE}已经抵达浅葱码头了！",
+   "en": "The luxury liner S.S. Anne has arrived{NEWLINE}at Olivine Harbor!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0252 #6 (identical zh)"
+  },
+  {
+   "id": 123,
+   "zh": "{VAR:0103:0}『船靠岸了,咱们走吧……？",
+   "en": "{VAR:0103:0}: We’ve docked. Shall we go...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 124,
+   "zh": "希罗娜『嗯,好……",
+   "en": "Cynthia: Mm, okay...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 125,
+   "zh": "{VAR:0103:0}『这里就是浅葱灯塔,{NEWLINE}怎么样,风景不错吧？",
+   "en": "{VAR:0103:0}: This is the Olivine Lighthouse.{NEWLINE}Nice view, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 126,
+   "zh": "希罗娜『真的哎,这里的视野好棒！",
+   "en": "Cynthia: It really is! You can see so{NEWLINE}far from up here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 127,
+   "zh": "{VAR:0103:0}『你看这里的东北方,{NEWLINE}那边就是圆珠市。",
+   "en": "{VAR:0103:0}: Look to the northeast. That’s{NEWLINE}Ecruteak City over there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 128,
+   "zh": "希罗娜『哇,在这里居然看得见{NEWLINE}烧焦塔和铃铛塔！",
+   "en": "Cynthia: Wow, you can even see the{NEWLINE}Burned Tower and Bell Tower from here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 129,
+   "zh": "空！",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s) | R001: zh 空！ placeholder, written as '---' (as D-0550)."
+  },
+  {
+   "id": 130,
+   "zh": "{VAR:0103:0}『我在城都地区旅行时,{NEWLINE}在烧焦塔跟火箭队战斗过。{CLEAR}后来在这座浅葱灯塔上,{CLEAR}为了救出电龙小明,{CLEAR}又跟火箭队一伙人大战了一番。",
+   "en": "{VAR:0103:0}: In Johto, I fought Team{NEWLINE}Rocket at the Burned Tower.{SCROLL}Later, right here at the Olivine{NEWLINE}Lighthouse, I fought a Team Rocket{CLEAR}gang to rescue Amphy the Ampharos.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: 电龙小明 = Amphy the Ampharos (Olivine Lighthouse)."
+  },
+  {
+   "id": 131,
+   "zh": "希罗娜『{VAR:0103:0}作为冠军真还真是忙啊！",
+   "en": "Cynthia: Being Champion really keeps you{NEWLINE}busy, {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 132,
+   "zh": "{VAR:0103:0}『职责所在,忙也是没办法的事。{NEWLINE}好在火箭队已经被消灭,{CLEAR}以后应该会轻松一些了。",
+   "en": "{VAR:0103:0}: It comes with the job. Can’t{NEWLINE}be helped. Luckily, Team Rocket’s been{CLEAR}wiped out, so things should get easier{CLEAR}from now on.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 133,
+   "zh": "希罗娜『其实我当上神奥地区的冠军{NEWLINE}也没有多久,{CLEAR}该如何当好这个冠军心里还很没有底。{CLEAR}你这位联盟史上最伟大的冠军{CLEAR}能给我讲讲自己的心得吗？",
+   "en": "Cynthia: Truth is, I haven’t been{NEWLINE}Sinnoh’s Champion for very long, and I’m{CLEAR}still not sure how to be a good one.{SCROLL}You’re the greatest Champion in League{NEWLINE}history. Could you share some of what{CLEAR}you’ve learned?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 134,
+   "zh": "{VAR:0103:0}『这个嘛……{NEWLINE}我也说不上来具体该怎么做,{CLEAR}总之坚持住心中的那份正义不要改变,{CLEAR}尽自己所能去帮助别人,{CLEAR}应该就能做一个好冠军了吧？",
+   "en": "{VAR:0103:0}: Well... I can’t really say{NEWLINE}exactly what to do.{SCROLL}Just hold on to the sense of justice in{NEWLINE}your heart and never let it change.{CLEAR}Help others as much as you can. That{CLEAR}should make you a good Champion, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 135,
+   "zh": "希罗娜『听起来很简单的道理,{NEWLINE}真要实践起来恐怕也没那么容易。{CLEAR}如果以后我遇到什么困难了,{CLEAR}{VAR:0103:0}你可一定要来帮我哦！",
+   "en": "Cynthia: It sounds simple, but I bet{NEWLINE}it’s not so easy to actually do. If I{CLEAR}ever run into trouble, you’d better{CLEAR}come help me, {VAR:0103:0}!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 136,
+   "zh": "{VAR:0103:0}『那当然了,谁让我是你的……",
+   "en": "{VAR:0103:0}: Of course. After all, I’m{NEWLINE}your...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 137,
+   "zh": "希罗娜『谁让你是我的男朋友呢！{SCROLL}希罗娜『亲一个！",
+   "en": "Cynthia: ...boyfriend! That’s right!{SCROLL}Cynthia: Come here, give me a kiss!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 138,
+   "zh": "{VAR:0103:0}『天不早了,咱们回常磐市吧？",
+   "en": "{VAR:0103:0}: It’s getting late. Shall we{NEWLINE}head back to Viridian City?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 139,
+   "zh": "希罗娜『嗯,好！",
+   "en": "Cynthia: Mm-hmm, okay!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 140,
+   "zh": "希罗娜『{VAR:0103:0},跟你一起出去玩{NEWLINE}真是让人开心。{CLEAR}你要是有时间的话,{CLEAR}咱们再出去逛逛吧！",
+   "en": "Cynthia: Going out with you is so much{NEWLINE}fun, {VAR:0103:0}. If you have time, let’s go{CLEAR}out again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 141,
+   "zh": "{VAR:0103:0}『上次我在城都地区旅行时,{NEWLINE}正好碰上那边的度假区开业。{CLEAR}不过因为当时有任务在身,{CLEAR}并没有在那好好放松放松。{CLEAR}现在终于有时间了,{CLEAR}希罗娜要不要跟我一起去度假区逛逛？",
+   "en": "{VAR:0103:0}: Last time I was in Johto, the{NEWLINE}Resort Zone there had just opened.{SCROLL}But I was on a mission back then, so I{NEWLINE}never got to relax. Now I finally have{CLEAR}the time.{SCROLL}Cynthia, want to go check out the{NEWLINE}Resort Zone with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 142,
+   "zh": "希罗娜『度假区？{NEWLINE}听起来就觉得放松和愉悦,{CLEAR}还等什么呢,咱们走吧！",
+   "en": "Cynthia: The Resort Zone? Just the{NEWLINE}name sounds relaxing and fun! What are{CLEAR}we waiting for? Let’s go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 143,
+   "zh": "希罗娜『哇哇,好热闹啊！{NEWLINE}看的我眼都花了,{CLEAR}该从哪边逛起呢？",
+   "en": "Cynthia: Wow, it’s so lively! My eyes{NEWLINE}don’t know where to look. Where should{CLEAR}we start?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 144,
+   "zh": "{VAR:0103:0}『不需要有那么强的目的性,{NEWLINE}咱们随便走走就好。",
+   "en": "{VAR:0103:0}: We don’t need a plan. Let’s{NEWLINE}just wander around.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 145,
+   "zh": "希罗娜『唔……可是随便走的话{NEWLINE}也要有个方向呀,{CLEAR}到底该选哪边呢？",
+   "en": "Cynthia: Hmm... But even wandering{NEWLINE}needs a direction. Which way do we go?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 146,
+   "zh": "{VAR:0103:0}『希罗娜要是不好做决定的话,{NEWLINE}就跟我来吧。",
+   "en": "{VAR:0103:0}: If you can’t decide, Cynthia,{NEWLINE}just follow me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 147,
+   "zh": "希罗娜『好！",
+   "en": "Cynthia: Okay!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 148,
+   "zh": "希罗娜『哇,各种摊位,可真是热闹啊！",
+   "en": "Cynthia: Wow, stalls everywhere! It’s{NEWLINE}so lively!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 149,
+   "zh": "希罗娜『嗯？前面有栅栏围起来了……",
+   "en": "Cynthia: Hm? There’s a fence up{NEWLINE}ahead...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 150,
+   "zh": "希罗娜『你好,前面是禁止参观区吗？{NEWLINE}为什么用栅栏围起来？",
+   "en": "Cynthia: Excuse me, is the area ahead{NEWLINE}off-limits? Why is it fenced off?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 151,
+   "zh": "哦,再往前走就是野生精灵的保护区了。{NEWLINE}当时建这个度假区就已经侵占了{CLEAR}一部分野生精灵的栖息地,{CLEAR}为了保证野生精灵的自然、健康繁衍,{CLEAR}所以剩余的栖息地必须严格保护。",
+   "en": "Oh, past here is the wild Pokémon{NEWLINE}preserve.{SCROLL}Building this Resort Zone already took{NEWLINE}over part of their habitat.{SCROLL}So the rest has to be strictly{NEWLINE}protected, to make sure they can keep{CLEAR}breeding naturally and healthily.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 152,
+   "zh": "希罗娜『原来如此,想要人和精灵{NEWLINE}共享资源和谐相处{CLEAR}确实是一门非常神奥的学问……",
+   "en": "Cynthia: I see. Getting people and{NEWLINE}Pokémon to share resources and live in{CLEAR}harmony really is a profound science...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: zh 神奥的学问 puns 神奥 (Sinnoh) on 深奥 (profound); pun lost in English."
+  },
+  {
+   "id": 153,
+   "zh": "{VAR:0103:0}『既然无法再往前走了,{NEWLINE}咱们就去那边看看吧？",
+   "en": "{VAR:0103:0}: Since we can’t go any farther,{NEWLINE}let’s go look over there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 154,
+   "zh": "希罗娜『好！",
+   "en": "Cynthia: Okay!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 155,
+   "zh": "希罗娜『哇,这里有好多花啊！{NEWLINE}如果能跟{VAR:0103:0}一起站在花坛中央,{CLEAR}一定特别浪漫。",
+   "en": "Cynthia: Wow, so many flowers! Standing{NEWLINE}in the middle of the flower bed with you,{CLEAR}{VAR:0103:0}, would be so romantic.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 156,
+   "zh": "{VAR:0103:0}『这有什么难的,咱们走！",
+   "en": "{VAR:0103:0}: Easy! Let’s go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 157,
+   "zh": "{VAR:FF01:200}等一下！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Wait!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 158,
+   "zh": "前面的花坛是为情侣双打比赛优胜者{NEWLINE}准备的庆典场地,{CLEAR}现在禁止进入。",
+   "en": "The flower bed ahead is the celebration{NEWLINE}stage for the winners of the Couples{CLEAR}Double Battle. No entry right now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 159,
+   "zh": "希罗娜『情侣双打比赛？{NEWLINE}那是个什么比赛？{CLEAR}我们也能参加吗？",
+   "en": "Cynthia: The Couples Double Battle?{NEWLINE}What kind of contest is that? Can we{CLEAR}enter too?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 160,
+   "zh": "情侣双打比赛是度假区{NEWLINE}为来这里旅游的情侣们{CLEAR}举行的精灵对战娱乐赛,{CLEAR}只要是来旅游的情侣都可以报名参赛。{CLEAR}比赛马上就要开始了,{CLEAR}你们如果有意参加的话,{CLEAR}就快去南边的比赛场地旁报名吧。",
+   "en": "The Couples Double Battle is a fun{NEWLINE}Pokémon battle event the Resort Zone{CLEAR}holds for visiting couples. Any couple{CLEAR}on vacation here can sign up.{SCROLL}It’s about to start, so if you’d like to{NEWLINE}take part, hurry and sign up by the{CLEAR}battle stage to the south!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 161,
+   "zh": "希罗娜『听起来很有意思啊{VAR:0103:0},{NEWLINE}咱们也报名参赛吧？",
+   "en": "Cynthia: That sounds fun, {VAR:0103:0}.{NEWLINE}Let’s sign up too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 162,
+   "zh": "{VAR:0103:0}『好啊,这样又能跟希罗娜{NEWLINE}并肩作战了！",
+   "en": "{VAR:0103:0}: Sure! Now I get to fight side{NEWLINE}by side with you again, Cynthia!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 163,
+   "zh": "{VAR:0103:0}『你好啊主持人先生,{NEWLINE}我们听说这里有双打比赛,{CLEAR}现在还可以报名吗？",
+   "en": "{VAR:0103:0}: Hello, Mr. MC. We heard{NEWLINE}there’s a Double Battle contest here.{CLEAR}Can we still sign up?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #205 (identical zh); qa-lints: unified with identical zh elsewhere (zh_variant)"
+  },
+  {
+   "id": 164,
+   "zh": "哎呀呀,今天的情侣双打比赛真是火爆,{NEWLINE}在比赛开始前一刻{CLEAR}居然还有恩爱的情侣来报名。{CLEAR}总之欢迎二位参加今天的比赛,{CLEAR}我们的双打对战即将开始,{CLEAR}请二位到对战场地边就位吧！",
+   "en": "Oh my, today’s Couples Double Battle is{NEWLINE}a real hit!{SCROLL}A loving couple signing up right before{NEWLINE}the start!{SCROLL}Anyway, welcome to today’s contest!{NEWLINE}Our Double Battles are about to begin,{CLEAR}so please take your places by the{CLEAR}battlefield!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #206 (identical zh)"
+  },
+  {
+   "id": 165,
+   "zh": "各位来宾大家好,{NEWLINE}度假区的特色项目{CLEAR}情侣双打对战即将开始,{CLEAR}下面由我简单介绍一下规则。{CLEAR}第一场比赛胜出的情侣将留在台上,{CLEAR}他们将以车轮战的方式{CLEAR}迎接不断上台的情侣组合。{CLEAR}当所有报名的情侣{CLEAR}都登台比赛过至少一次后,{CLEAR}胜场最多的情侣组合{CLEAR}将成为本次比赛的冠军。{CLEAR}获得冠军的情侣{CLEAR}会受到所有度假区来宾的美好祝福。{CLEAR}下面请大家在这个欢乐的地方,{CLEAR}尽情享受充满爱意{CLEAR}又激情澎湃的精灵对战吧！",
+   "en": "Welcome, everyone! The Resort Zone’s{NEWLINE}special event, the Couples Double{CLEAR}Battle, is about to begin!{SCROLL}Let me quickly explain the rules. The{NEWLINE}winning couple of the first match stays{CLEAR}on the stage.{SCROLL}They’ll then take on each new couple{NEWLINE}that steps up, one after another.{SCROLL}Once every couple that signed up has{NEWLINE}battled at least once, the couple with{CLEAR}the most wins is the champion!{SCROLL}The champion couple will receive the{NEWLINE}blessings of every guest at the Resort{CLEAR}Zone.{SCROLL}Now, everyone, enjoy some Pokémon{NEWLINE}battles full of love and passion here in{CLEAR}this happy place!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #207 (identical zh)"
+  },
+  {
+   "id": 166,
+   "zh": "下面有请参加第一场比赛的{NEWLINE}两对情侣闪亮登场！",
+   "en": "Now, let’s welcome our first two couples{NEWLINE}to the stage!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #208 (identical zh)"
+  },
+  {
+   "id": 167,
+   "zh": "{VAR:0103:0}『希罗娜,{NEWLINE}他们都是普通的训练家,{CLEAR}你要全力以赴吗？",
+   "en": "{VAR:0103:0}: Cynthia, they’re just regular{NEWLINE}Trainers. Are you going to go all out?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 168,
+   "zh": "希罗娜『那当然了,身为神奥冠军,{NEWLINE}我必须认真对待任何一场比赛！",
+   "en": "Cynthia: Of course!{SCROLL}As Sinnoh’s Champion, I must take every{NEWLINE}battle seriously!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 169,
+   "zh": "好！下面第一场情侣双打比赛,{NEWLINE}现在开始！",
+   "en": "All right! The first Couples Double{NEWLINE}Battle starts now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #211 (identical zh)"
+  },
+  {
+   "id": 170,
+   "zh": "哇！真是一边倒的对战,{NEWLINE}我在度假区从未见过{CLEAR}如此强大的情侣组合！{SCROLL}下面进行第二回合的比赛,{NEWLINE}请第二对情侣登台！",
+   "en": "Wow! What a one-sided battle! I’ve{NEWLINE}never seen such a strong couple at the{CLEAR}Resort Zone!{SCROLL}On to round two! Will our second couple{NEWLINE}please take the stage!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #212 (identical zh)"
+  },
+  {
+   "id": 171,
+   "zh": "加油啊！我看好你们哦！",
+   "en": "Go get ’em! We’re rooting for you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #213 (identical zh)"
+  },
+  {
+   "id": 172,
+   "zh": "任何人都无法阻挡我们热烈的爱情！",
+   "en": "Nobody can stand in the way of our{NEWLINE}burning love!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #214 (identical zh)"
+  },
+  {
+   "id": 173,
+   "zh": "就算是联盟冠军来了都不行！",
+   "en": "Not even the League Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #215 (identical zh)"
+  },
+  {
+   "id": 174,
+   "zh": "恋爱最甜美的时候,{NEWLINE}就是刚刚在一起时的青涩时光。",
+   "en": "The sweetest time in love is when you’ve{NEWLINE}just started going out.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #216 (identical zh)"
+  },
+  {
+   "id": 175,
+   "zh": "我们虽然青涩,但绝不弱小,{NEWLINE}让你们看看我们的厉害！",
+   "en": "We may be new at this, but we’re not{NEWLINE}weak! We’ll show you what we can do!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #217 (identical zh)"
+  },
+  {
+   "id": 176,
+   "zh": "好！比赛现在开始！",
+   "en": "All right! Let the battle begin!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #218 (identical zh)"
+  },
+  {
+   "id": 177,
+   "zh": "真是难以置信的压倒性胜利,{NEWLINE}恭喜我们的优胜情侣！{SCROLL}请下一组情侣登台！",
+   "en": "What an unbelievable, overwhelming win!{NEWLINE}Congratulations to our winning couple!{SCROLL}Will the next couple please take the{NEWLINE}stage!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #219 (identical zh)"
+  },
+  {
+   "id": 178,
+   "zh": "爸爸妈妈加油！",
+   "en": "Go, Mom and Dad!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #220 (identical zh)"
+  },
+  {
+   "id": 179,
+   "zh": "虽然生孩子、养孩子压力很大,{NEWLINE}但是这却让我们体会到了{CLEAR}不同以往的幸福。",
+   "en": "Having kids and raising them is a lot of{NEWLINE}pressure...{SCROLL}but it’s given us a kind of happiness{NEWLINE}we’d never known before.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #221 (identical zh)"
+  },
+  {
+   "id": 180,
+   "zh": "祝你们将来也能体会到这种幸福吧。",
+   "en": "We hope you’ll find that happiness{NEWLINE}someday too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #222 (identical zh)"
+  },
+  {
+   "id": 181,
+   "zh": "陪伴,是最长情的告白。{NEWLINE}能与一个人白头偕老相爱一生,{CLEAR}是最幸福的事了。",
+   "en": "Being there for someone is the truest{NEWLINE}confession of love.{SCROLL}Growing old together, loving each other{NEWLINE}all your life... There’s no greater{CLEAR}happiness.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #223 (identical zh)"
+  },
+  {
+   "id": 182,
+   "zh": "[zh redacted: song lyrics; sha256:8b7221d40fedab6486d9f9de00020e006bd57093486d8fcb1582334991bd348a]",
+   "en": "♪ (hums a classic love song about{NEWLINE}growing old together) ♪{SCROLL}Only once you’ve lived it will you two{NEWLINE}feel the weight of those words.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: zh quotes a lyric of 最浪漫的事; replaced with a hum line per the song rule (D-0368/D-0664, same as 0508 #117). | zh redacted: song lyrics (zh_redact.py)"
+  },
+  {
+   "id": 183,
+   "zh": "太强了！真的太强了！{NEWLINE}这对初次登上舞台的情侣组合{CLEAR}竟然击败了今天所有报名参赛的情侣。{CLEAR}恭喜你们成为本次比赛的冠军！",
+   "en": "Amazing! Just amazing!{SCROLL}This couple, on stage for the very first{NEWLINE}time, has beaten every couple who{CLEAR}entered today!{SCROLL}Congratulations on becoming today’s{NEWLINE}champions!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #225 (identical zh)"
+  },
+  {
+   "id": 184,
+   "zh": "下面请二位到这边来,{NEWLINE}我们将为二位举行祝福仪式。",
+   "en": "Now, please step this way. We’ll hold{NEWLINE}the blessing ceremony for you two.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #226 (identical zh)"
+  },
+  {
+   "id": 185,
+   "zh": "恭喜二位优秀的训练家情侣,{NEWLINE}在经过重重磨练之后,{CLEAR}终于站到了这个神圣的舞台上。{SCROLL}今天来到度假区的所有宾客,{NEWLINE}都是你们深厚感情的见证者。{CLEAR}不知道二位在这里{CLEAR}有没有什么特别的话想跟对方说呢？",
+   "en": "Congratulations to our wonderful{NEWLINE}Trainer couple! After trial upon trial,{CLEAR}you’ve finally reached this sacred{CLEAR}stage.{SCROLL}Every guest at the Resort Zone today{NEWLINE}is a witness to your deep love.{SCROLL}Is there anything special you two would{NEWLINE}like to say to each other here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #227 (identical zh)"
+  },
+  {
+   "id": 186,
+   "zh": "{VAR:0103:0}『希罗娜,我从未想过{NEWLINE}我居然有机会与你这样一位{CLEAR}光彩照人的女孩相伴。{CLEAR}我曾经以为在追寻变强的道路上{CLEAR}会越走越孤单,{CLEAR}但你以冠军之姿重新出现在我面前时,{CLEAR}我马上就感觉到{CLEAR}我不再是孤单的一个人了,{CLEAR}身为联盟冠军的责任、压力、孤单,{CLEAR}我的很多朋友们可能不懂,{CLEAR}但我知道,你绝对是能够理解我的。{CLEAR}我希望你今后能永远与我相伴,{CLEAR}我们共同跨过人生中的每一次挑战,{CLEAR}享受人生中的每一段时光……",
+   "en": "{VAR:0103:0}: Cynthia, I never imagined I’d{NEWLINE}get the chance to be with a girl as{CLEAR}dazzling as you.{SCROLL}I used to think the further I went on{NEWLINE}the road to getting stronger, the{CLEAR}lonelier I’d be.{SCROLL}But when you appeared before me again{NEWLINE}as a Champion, I knew right away that I{CLEAR}wasn’t alone anymore.{SCROLL}The duty, the pressure and the{NEWLINE}loneliness of being League Champion... A{CLEAR}lot of my friends might not get it, but I{CLEAR}know you truly understand me.{SCROLL}I want you by my side forever. Let’s{NEWLINE}face every challenge in life together,{CLEAR}and enjoy every moment of it...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: Partner route vows (Cynthia)."
+  },
+  {
+   "id": 187,
+   "zh": "希罗娜『{VAR:0103:0}……{NEWLINE}如果没有你的激励,{CLEAR}我可能都不会踏上{CLEAR}游历关东和城都地区的旅行,{CLEAR}没有你在前方像明灯一样给我领路,{CLEAR}我就无法成为现在的我。{CLEAR}能像今天这样牵起{CLEAR}我所爱恋之人的手,{CLEAR}对我来说简直就像做梦一样,{CLEAR}我希望我们以后可以{CLEAR}永远这样甜蜜、幸福……",
+   "en": "Cynthia: {VAR:0103:0}... Without you to{NEWLINE}inspire me, I might never have set out{CLEAR}to travel through Kanto and Johto.{SCROLL}Without you lighting the way ahead of me{NEWLINE}like a beacon, I could never have{CLEAR}become who I am now.{SCROLL}Holding hands with the one I love, like I{NEWLINE}am today... It feels just like a dream.{SCROLL}I hope we can always be this sweet and{NEWLINE}this happy...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 188,
+   "zh": "呜呜呜,真的是太感人了！{NEWLINE}两位情侣在我们的仪式上{CLEAR}交换了相守一生的誓言。{CLEAR}下面请两位用深情的拥吻,{CLEAR}为今天的祝福仪式画上圆满的句号！{SCROLL}各位来宾请为他们送上祝福的掌声！",
+   "en": "Waaah, that’s so moving!{SCROLL}Our couple has just exchanged vows to{NEWLINE}stay together for life!{SCROLL}Now, please seal today’s blessing{NEWLINE}ceremony with a loving kiss!{SCROLL}Everyone, give them a round of{NEWLINE}applause!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #230 (identical zh)"
+  },
+  {
+   "id": 189,
+   "zh": "{VAR:0103:0}『希罗娜……",
+   "en": "{VAR:0103:0}: Cynthia...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 190,
+   "zh": "希罗娜『{VAR:0103:0}……",
+   "en": "Cynthia: {VAR:0103:0}...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 191,
+   "zh": "{VAR:0103:0}『仪式结束了,大家也都散了……",
+   "en": "{VAR:0103:0}: The ceremony’s over, and{NEWLINE}everyone’s gone home...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #233 (identical zh)"
+  },
+  {
+   "id": 192,
+   "zh": "希罗娜『但是今天的回忆{NEWLINE}在我心里可永远不会散去……",
+   "en": "Cynthia: But today’s memories will never{NEWLINE}leave my heart...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 193,
+   "zh": "{VAR:0103:0}『嘿嘿,这次在度假区{NEWLINE}玩的很开心哦。{CLEAR}咱们出来旅行也有段时间了,{CLEAR}现在回常磐市吧？",
+   "en": "{VAR:0103:0}: Heh heh. I had a great time at{NEWLINE}the Resort Zone.{SCROLL}We’ve been traveling for a while now.{NEWLINE}Shall we head back to Viridian City?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #235 (identical zh)"
+  },
+  {
+   "id": 194,
+   "zh": "希罗娜『嗯,好！",
+   "en": "Cynthia: Mm-hmm, okay!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 195,
+   "zh": "希罗娜『{VAR:0103:0},跟你在一起真开心！{NEWLINE}这段时间我感觉很幸福呢。",
+   "en": "Cynthia: Being with you makes me so{NEWLINE}happy, {VAR:0103:0}! I’ve felt so happy all{CLEAR}this time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 196,
+   "zh": "我想带你去见见我妈妈",
+   "en": "I want you to meet my mom",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "R001: copied from a027/0445 #237 (identical zh)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 197,
+   "zh": "{VAR:0103:0}『希罗娜,从度假区回来的时候{NEWLINE}我就一直在想,{CLEAR}差不多是时候带你去见见我妈妈了。{CLEAR}你要不要跟我一起回趟真新镇呢？",
+   "en": "{VAR:0103:0}: Cynthia, ever since the Resort{NEWLINE}Zone, I’ve been thinking...{SCROLL}It’s about time you met my mom. Will you{NEWLINE}come back to Pallet Town with me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 198,
+   "zh": "希罗娜『哇！这是要带我去见家长吗？{NEWLINE}{VAR:0103:0}能约我去真新镇{CLEAR}我是很开心啦,{CLEAR}不过心里也还是有点小忐忑。",
+   "en": "Cynthia: Wow! You’re taking me to meet{NEWLINE}your family? I’m really happy you asked{CLEAR}me to Pallet Town, {VAR:0103:0}... but I’m a{CLEAR}little nervous, too.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 199,
+   "zh": "{VAR:0103:0}『希罗娜在面对火箭队时{NEWLINE}都都毫无惧色,{CLEAR}去见我妈妈也是小菜一碟啦。",
+   "en": "{VAR:0103:0}: You didn’t flinch even when{NEWLINE}you faced Team Rocket, Cynthia. Meeting{CLEAR}my mom will be a piece of cake.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 200,
+   "zh": "希罗娜『嗯……这个嘛,该怎么说你呢,{NEWLINE}其实这两者还是完全不一样的。{CLEAR}不过我也不是那么扭捏的人,{CLEAR}既然早晚都要去见{VAR:0103:0}妈妈,{CLEAR}现在去也许正是最合适的时候。",
+   "en": "Cynthia: Hmm... How do I put this? Those{NEWLINE}are two totally different things.{SCROLL}But I’m not the shy type. I’ll have to{NEWLINE}meet your mom sooner or later,{CLEAR}{VAR:0103:0}, so why not now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 201,
+   "zh": "{VAR:0103:0}『嘿嘿,那咱们走吧。",
+   "en": "{VAR:0103:0}: Heh heh. Then let’s go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

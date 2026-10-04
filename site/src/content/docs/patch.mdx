@@ -1,0 +1,50 @@
+---
+title: Patch your game
+description: Drop your own Pokémon HeartGold (USA) .nds or .zip and get Origin HeartGold in English back, patched in your browser. Nothing is uploaded.
+editUrl: false
+---
+
+import { Aside } from '@astrojs/starlight/components';
+import Patcher from '../../components/Patcher.astro';
+import { REPO_URL } from '../../../site.config.mjs';
+
+Drop your own **Pokémon HeartGold Version (USA)** file below, as a `.nds` or a `.zip`, and you get Origin HeartGold (起源心金) v4.0.3 in English back.
+The page checks your file, downloads the latest patch and applies it for you. You don't need to download the patch, find a patching tool or unzip anything.
+
+<Patcher />
+
+<Aside type="caution" title="Bring your own game">
+No ROMs are provided here, ever. Dump your own HeartGold (USA) cartridge first.
+The European, Japanese and Korean versions won't work, and neither will a file that's already patched or trimmed: the page tells you if your file is one of those.
+</Aside>
+
+## Good to know
+
+- **Nothing is uploaded.** Everything happens in your browser tab. Your file never leaves your device; the page only downloads the patch from this website.
+- **Keep your original file.** The patcher makes a new file and never changes yours. You need the original again for every new version of the patch.
+- **Checked twice.** The page only patches a clean HeartGold (USA) dump, CRC32 **C180A0E9**, and checks the finished game against the SHA-1 published with the release before it lets you save it.
+- **Then play** the saved `.nds` in an emulator. The patch is tested in [melonDS](https://melonds.kuribo64.net/); other emulators and flashcarts haven't been tested.
+  More help is on the [How to use this guide](../about/#what-you-need-to-play) page.
+
+<details id="manual">
+<summary>If the patcher doesn't work for you: patch by hand</summary>
+
+You can do the same thing with any xdelta patcher:
+
+1. Download the `.xdelta` patch from the <a href={REPO_URL + '/releases'}>newest release on GitHub</a>. Its `README.txt` lists the SHA-1 your patched game should have.
+2. If your HeartGold file is zipped, unzip it first.
+3. Open [xdelta-wasm](https://kotcrab.github.io/xdelta-wasm/), another in-browser patcher. Choose your HeartGold `.nds` as the source file and the `.xdelta` as the patch, apply it and save the new `.nds`.
+4. Or use `xdelta3` from a terminal (replace the patch name with the file you downloaded):
+
+   ```sh
+   xdelta3 -d -s "Pokemon - HeartGold Version (USA).nds" Origin_HeartGold_v4.0.3_EN_<version>.xdelta Origin_HeartGold_EN.nds
+   ```
+
+</details>
+
+## How it works
+
+The page computes your file's CRC32 and SHA-1 (unpacking a `.zip` first with your browser's built-in decompression),
+downloads the latest patch from this website and applies it with
+[xdelta3](https://github.com/jmacd/xdelta) compiled to WebAssembly by [xdelta-wasm](https://github.com/kotcrab/xdelta-wasm),
+inside a background worker in your browser tab. Both are open source under the Apache License 2.0; see the [credits](../about/#credits).

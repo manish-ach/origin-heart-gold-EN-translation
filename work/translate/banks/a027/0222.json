@@ -1,0 +1,287 @@
+{
+ "narc": "a027",
+ "bank": 222,
+ "source": "work/extract/v4/a027/0222.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "松软的土地。{SCROLL}",
+   "en": "It’s soft, earthy soil.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "probably unused (DP Berry-soil leftover; US blanks the bank)"
+  },
+  {
+   "id": 1,
+   "zh": "{VAR:0108:0}在摇曳。{SCROLL}",
+   "en": "The {VAR:0108:0} is swaying.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "施肥",
+   "en": "FERTILIZE",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "种树果",
+   "en": "PLANT BERRY",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "放弃",
+   "en": "EXIT",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s); other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 5,
+   "zh": "要施肥吗？",
+   "en": "Use fertilizer?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 7,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 8,
+   "zh": "要种树果吗？",
+   "en": "Plant a Berry?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 10,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 11,
+   "zh": "把{VAR:0108:0}{NEWLINE}撒到地里了！{SCROLL}",
+   "en": "You scattered the{NEWLINE}{VAR:0108:0} on the soil!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "在松软的土地里种下{NEWLINE}{VAR:0108:0}！",
+   "en": "You planted the {VAR:0108:0}{NEWLINE}in the soft soil!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "种{VAR:0108:0}的地方！{SCROLL}",
+   "en": "This is where the{NEWLINE}{VAR:0108:0} was planted!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0108:0}发芽了！{SCROLL}",
+   "en": "The {VAR:0108:0}{NEWLINE}has sprouted!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "{VAR:0108:0}的树干变大了！{SCROLL}",
+   "en": "The {VAR:0108:0}’s{NEWLINE}trunk has grown bigger!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0108:0}{NEWLINE}开花了！{SCROLL}",
+   "en": "The {VAR:0108:0} is in bloom!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "要用喷壶浇水吗？",
+   "en": "Water it with the watering can?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 19,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 20,
+   "zh": "似乎很乐在其中！",
+   "en": "It seems to be enjoying it!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0108:0}结了{VAR:0133:1}个果！{NEWLINE}要摘树果吗？",
+   "en": "{VAR:0108:0} bore {VAR:0133:1} Berries!{NEWLINE}Want to pick them?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 23,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 24,
+   "zh": "{VAR:0103:0}把{VAR:0108:1}{NEWLINE}搁在一边。",
+   "en": "{VAR:0103:0} left the{NEWLINE}{VAR:0108:1} alone.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "{VAR:0108:0}{VAR:0133:1}个入手！{SCROLL}",
+   "en": "Obtained {VAR:0133:1} {VAR:0108:0}!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "背包满了,{NEWLINE}舍弃{VAR:0108:0}。",
+   "en": "The Bag is full, so the{NEWLINE}{VAR:0108:0} was discarded.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "{VAR:0103:0}把{VAR:0108:1}{NEWLINE}{VAR:0112:3}放入口袋！{SCROLL}回复到了松软的土地。",
+   "en": "{VAR:0103:0} put the {VAR:0108:1}{NEWLINE}in the {VAR:0112:3} Pocket!{SCROLL}The soil returned to its{NEWLINE}soft, earthy state.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "松软的土地。",
+   "en": "It’s soft, earthy soil.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "{VAR:0108:0}正在摇曳。",
+   "en": "The {VAR:0108:0} is swaying.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "把{VAR:0108:0}{NEWLINE}撒到地里了！",
+   "en": "You scattered the{NEWLINE}{VAR:0108:0} on the soil!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "种{VAR:0108:0}的地方！",
+   "en": "This is where the{NEWLINE}{VAR:0108:0} was planted!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "{VAR:0108:0}发芽了！",
+   "en": "The {VAR:0108:0} has sprouted!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "{VAR:0108:0}的树干{NEWLINE}长大了！",
+   "en": "The {VAR:0108:0}’s trunk{NEWLINE}grew bigger!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "{VAR:0108:0}{NEWLINE}开花了！",
+   "en": "The {VAR:0108:0}{NEWLINE}is in bloom!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

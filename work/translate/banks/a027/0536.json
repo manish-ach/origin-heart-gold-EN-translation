@@ -1,0 +1,577 @@
+{
+ "narc": "a027",
+ "bank": 536,
+ "source": "work/extract/v4/a027/0536.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "哎呀,我的老公好像很忙啊,{NEWLINE}身体没什么问题吧？{SCROLL}他一碰到精灵的研究{NEWLINE}就专心得连饭也顾不上吃！",
+   "en": "Oh my, my husband seems awfully busy. I{NEWLINE}hope he’s looking after himself.{SCROLL}Once he gets into his Pokémon research,{NEWLINE}he’s so focused he forgets to eat!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0544/0 | seed rejected us [tag_mismatch] (candidate US 0544#0; text not kept)"
+  },
+  {
+   "id": 1,
+   "zh": "空木博士特地从城都地区{NEWLINE}抓了三只非常稀有的口袋妖怪{CLEAR}作为赠送给图鉴所有者的初始精灵。{SCROLL}你想知道它们分别是从哪里抓的吗？{SCROLL}",
+   "en": "Professor Elm caught three very rare{NEWLINE}Johto Pokémon himself.{SCROLL}They’re first partners for his Pokédex{NEWLINE}holders.{SCROLL}Would you like to know where each one{NEWLINE}was caught?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "想知道的话随时可以来问我。",
+   "en": "If you ever want to know, just ask me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "我儿子阿金总嚷嚷着{NEWLINE}要成为最强的训练家。{CLEAR}虽然我也知道这条路并不好走,{CLEAR}但既然孩子这么执着又努力,{CLEAR}我又怎能不支持呢。",
+   "en": "My son Gold is always going on about{NEWLINE}becoming the strongest Trainer.{SCROLL}I know it’s not an easy road, but when{NEWLINE}my boy is that determined and works{CLEAR}that hard, how could I not support him?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "我儿子阿金今天就要外出旅行了。{SCROLL}看到这孩子迈出独立成长的第一步,{NEWLINE}我真的非常欣慰。",
+   "en": "My son Gold is setting off on his journey{NEWLINE}today.{SCROLL}Seeing him take his first step toward{NEWLINE}standing on his own makes me so happy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "长太郎『Aiii——po！",
+   "en": "Aibo: Aiii-po!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "菊草叶",
+   "en": "Chikorita",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 7,
+   "zh": "火球鼠",
+   "en": "Cyndaquil",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 8,
+   "zh": "小锯鳄",
+   "en": "Totodile",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 9,
+   "zh": "我不想知道",
+   "en": "No, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 10,
+   "zh": "菊草叶是在桐树林捉到的,{NEWLINE}那里是茂密的森林,{CLEAR}生活着各种类型的草系精灵呢。",
+   "en": "Chikorita was caught in Ilex Forest.{SCROLL}It’s a dense forest where all kinds of{NEWLINE}Grass-type Pokémon live.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "火球鼠是在47号路的山洞捉到的,{NEWLINE}博士为了去那儿走了好远的路。",
+   "en": "Cyndaquil was caught in the cave on{NEWLINE}Route 47.{SCROLL}The Professor walked a long way to get{NEWLINE}there.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "小锯鳄是在愤怒湖捉到的,{NEWLINE}我记得当时湖里有很多鲤鱼王呢。",
+   "en": "Totodile was caught at the Lake of{NEWLINE}Rage.{SCROLL}I remember the lake was full of Magikarp{NEWLINE}back then.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "皮皮是进化了的精灵。{NEWLINE}这个假说最早是由空木博士提出的。{CLEAR}后来随着城都地区发现了皮宝宝,{CLEAR}空木博士的假说才得以证实。",
+   "en": "Professor Elm was the first to suggest{NEWLINE}that Clefairy is an evolved Pokémon.{SCROLL}When Cleffa was later discovered in{NEWLINE}Johto, his theory was proven.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "皮宝宝『Cleee——fa！",
+   "en": "Cleffa: Cleee-fa!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "你好,这里是专门接待{NEWLINE}过往训练家的若叶镇民宿。{CLEAR}请问有什么可以帮您的吗？",
+   "en": "Hello, and welcome to the New Bark{NEWLINE}Guesthouse, where Trainers passing{CLEAR}through can stay.{SCROLL}How can I help you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:若叶镇"
+   ]
+  },
+  {
+   "id": 16,
+   "zh": "休息一下　500元",
+   "en": "Rest ($500)",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Menu item; zh separates label and price with a full-width space.",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 17,
+   "zh": "吃点东西",
+   "en": "Something to eat",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 18,
+   "zh": "没事了",
+   "en": "Never mind",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 19,
+   "zh": "好的,休息请您移步楼上。",
+   "en": "Certainly. Please go upstairs to rest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "您身上带的钱好像不够啊。",
+   "en": "I’m afraid you don’t have enough money.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "您想来点什么呢？",
+   "en": "What would you like?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "树果汁{NEWLINE}100元",
+   "en": "Berry Juice{NEWLINE}$100",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 23,
+   "zh": "月见山泉水{NEWLINE}2000元",
+   "en": "Fresh Water{NEWLINE}$2000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 24,
+   "zh": "橘果{NEWLINE}100元",
+   "en": "Oran Berry{NEWLINE}$100",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 25,
+   "zh": "大树果{NEWLINE}1000元",
+   "en": "Sitrus Berry{NEWLINE}$1000",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 26,
+   "zh": "不买了",
+   "en": "Nothing, thanks",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 8 source(s)",
+   "category": "menu_touch_col5"
+  },
+  {
+   "id": 27,
+   "zh": "来,您要的东西,请拿好。",
+   "en": "Here you are. Enjoy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "欢迎光临若叶镇民宿。{NEWLINE}二楼是娱乐和休息的地方,{CLEAR}您在这里放松尽情放松就好。",
+   "en": "Welcome to the New Bark Guesthouse.{SCROLL}The second floor is for fun and{NEWLINE}relaxation.{SCROLL}Please make yourself at home.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "qa_ignore": [
+    "glossary:若叶镇"
+   ]
+  },
+  {
+   "id": 29,
+   "zh": "一台连着网的电脑。",
+   "en": "A PC connected to the Internet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "最新款的Switch,{NEWLINE}但因为是破解版,{CLEAR}所以没有卡带！",
+   "en": "The latest Switch! But it’s a hacked{NEWLINE}one, so there aren’t any game cards!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "我从神奥地区到这里,{NEWLINE}一路上非常劳累。{CLEAR}幸好有这间民宿可以休息,{CLEAR}等我养足精力后{CLEAR}就去会会石英高原附近的高手。",
+   "en": "I came all the way here from Sinnoh, and{NEWLINE}the trip wore me out.{SCROLL}Good thing this guesthouse was here.{SCROLL}Once I’ve got my strength back, I’ll go{NEWLINE}take on the strong Trainers near the{CLEAR}Indigo Plateau.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "你知道我身边的这只精灵是什么吗？{SCROLL}",
+   "en": "Do you know what this Pokémon next to{NEWLINE}me is?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Quiz: the NPC's Pokémon is his Luxio (#49 ‘my Luxio’), but #55 is a Luxray cry; answers not visible. #45–48 translated literally."
+  },
+  {
+   "id": 33,
+   "zh": "小电狮",
+   "en": "Shinx",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 34,
+   "zh": "电光狮",
+   "en": "Luxio",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 35,
+   "zh": "雷电狮",
+   "en": "Luxray",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s); modernised from the v3 TM text",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 36,
+   "zh": "不知道",
+   "en": "No idea",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 37,
+   "zh": "看来你需要扩充一下{NEWLINE}自己的知识面了。",
+   "en": "Looks like you need to broaden your{NEWLINE}knowledge a bit.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "不对哦,你可以好好想想再回答。",
+   "en": "Nope, that’s not it. Think it over and{NEWLINE}try again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "那么它是什么属性的精灵呢？",
+   "en": "Then what type is it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "地面",
+   "en": "Ground",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 41,
+   "zh": "普通",
+   "en": "Normal",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 6 source(s)"
+  },
+  {
+   "id": 42,
+   "zh": "电",
+   "en": "Electric",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 43,
+   "zh": "格斗",
+   "en": "Fighting",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 44,
+   "zh": "根据图鉴描述,{NEWLINE}它拥有什么特殊能力呢？",
+   "en": "According to the Pokédex, what special{NEWLINE}power does it have?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "电磁感知",
+   "en": "Senses electricity",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 46,
+   "zh": "声波定位",
+   "en": "Echolocation",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 47,
+   "zh": "召唤雷电",
+   "en": "Calls lightning",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 48,
+   "zh": "透视物体",
+   "en": "Sees through things",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 49,
+   "zh": "哇哦！想不到你对{NEWLINE}神奥地区的精灵也这么了解。{SCROLL}正好我的这只电光狮{NEWLINE}在满金市的饲育屋{CLEAR}孵化了一只小电狮,{CLEAR}如果你不嫌弃的话{CLEAR}请带上这只小电狮旅行吧,{CLEAR}它一定会成为你的得力助手。{SCROLL}要带上小电狮一起旅行吗？",
+   "en": "Wow! I didn’t expect you to know Sinnoh{NEWLINE}Pokémon so well.{SCROLL}As it happens, my Luxio had a Shinx{NEWLINE}hatch at the Goldenrod City Day Care.{SCROLL}If you don’t mind, please take this{NEWLINE}Shinx along on your journey.{SCROLL}I’m sure it’ll be a great help to you.{SCROLL}Will you take Shinx with you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "你身上带的精灵太多了{NEWLINE}整理一下背包再来吧。",
+   "en": "You’re carrying too many Pokémon. Sort{NEWLINE}out your party and come back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0103:0}得到了小电狮！",
+   "en": "{VAR:0103:0} received a Shinx!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "对持有的小电狮起昵称吗？{VAR:0200:0}",
+   "en": "Give a nickname to the Shinx you{NEWLINE}received?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "你要好好开发小电狮的潜力哦！",
+   "en": "Be sure to bring out Shinx’s full{NEWLINE}potential!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "昵称叫{VAR:0101:1}{NEWLINE}可以吗？{VAR:0200:0}",
+   "en": "Is {VAR:0101:1} the nickname you want to{NEWLINE}give? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 4 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 55,
+   "zh": "雷电狮『Lax——ray！",
+   "en": "Luxray: Lax-ray!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "唉,阿金这小子出去旅行之后,{NEWLINE}就没人陪我打台球了。",
+   "en": "Sigh...{SCROLL}Now that Gold’s gone off on his journey,{NEWLINE}I’ve got nobody to play pool with.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "我将来也要像阿金哥哥那样{NEWLINE}走遍城都地区、收集道馆徽章！",
+   "en": "When I grow up, I’ll travel all over{NEWLINE}Johto collecting Gym Badges, like Gold!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "我听说阿金哥哥被空木博士选中,{NEWLINE}要出去旅行了。{CLEAR}等我将来长大了,{CLEAR}我也要像阿金哥哥那样出去旅行！",
+   "en": "I heard Gold was chosen by Professor{NEWLINE}Elm and is going on a journey.{SCROLL}When I’m older, I’m going on a journey{NEWLINE}just like him!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "阿金这小子虽然调皮,{NEWLINE}头脑倒是很灵光。{SCROLL}也难怪空木博士{NEWLINE}会选中他帮自己做研究。",
+   "en": "Gold may be a little rascal, but he’s{NEWLINE}sharp as a tack.{SCROLL}No wonder Professor Elm picked him to{NEWLINE}help with his research.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "我对精灵的情绪非常敏感,{NEWLINE}如果你想知道你和精灵之间的亲密度,{CLEAR}我可以帮你看看哦。{SCROLL}需要让阿姨帮你看看亲密度吗？",
+   "en": "I’m very sensitive to how Pokémon feel.{SCROLL}If you want to know how close you are{NEWLINE}to your Pokémon, I can take a look.{SCROLL}Shall Auntie check its friendship for{NEWLINE}you?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "想看的话随时来找我。",
+   "en": "Come see me anytime you want to know.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "要看哪个精灵的亲密度呢？{SCROLL}",
+   "en": "Which Pokémon should I check?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "蛋状态下是没有亲密度的。",
+   "en": "An Egg doesn’t have any friendship yet.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "{VAR:0100:0}跟你亲密到了{NEWLINE}无以复加的程度！{CLEAR}你就是它心中最完美的训练家！",
+   "en": "{VAR:0100:0} couldn’t possibly be any{NEWLINE}closer to you!{SCROLL}You’re its perfect Trainer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "{VAR:0100:0}非常喜欢你。{NEWLINE}如果你再努努力的话,{CLEAR}你们会更加亲密。",
+   "en": "{VAR:0100:0} likes you a lot. If you keep{NEWLINE}at it, you’ll become even closer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "{VAR:0100:0}跟你的关系还不错。{NEWLINE}但依然有很大的提升空间。",
+   "en": "{VAR:0100:0} gets along with you pretty{NEWLINE}well.{SCROLL}But there’s still plenty of room to{NEWLINE}grow.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "{VAR:0100:0}对你还有些生疏,{NEWLINE}你要好好培养你们之间的感情啊。",
+   "en": "{VAR:0100:0} is still a little distant with{NEWLINE}you. Work on building your bond.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

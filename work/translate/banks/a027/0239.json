@@ -1,0 +1,711 @@
+{
+ "narc": "a027",
+ "bank": 239,
+ "source": "work/extract/v4/a027/0239.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "叮咚！时间到,{NEWLINE}捕虫大会就此结束。{SCROLL}",
+   "en": "Ding-ding! Time’s up!{NEWLINE}The Bug-Catching Contest is over.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/0"
+  },
+  {
+   "id": 1,
+   "zh": "叮咚！球用完了,{NEWLINE}捕虫大会就此结束。{SCROLL}",
+   "en": "Ding-ding! You’ve run out of Poké{NEWLINE}Balls. The Bug-Catching Contest’s over.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/1"
+  },
+  {
+   "id": 2,
+   "zh": "叮咚！不能再抓了,{NEWLINE}捕虫大会结束{SCROLL}",
+   "en": "Ding-ding! You can’t{NEWLINE}catch any more Pokémon. The{CLEAR}Bug-Catching Contest is over.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "剩余时间还有{VAR:0133:0}分,{NEWLINE}要结束吗？{VAR:0200:0}{NEWLINE}",
+   "en": "You still have {VAR:0133:0} minute(s) left.{NEWLINE}Do you want to finish now?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/3"
+  },
+  {
+   "id": 4,
+   "zh": "今天是星期二,{NEWLINE}在此将举办捕虫大会！{SCROLL}规则很简单！{SCROLL}只要看你用手上的{NEWLINE}一只精灵能不能抓到{CLEAR}比较强的虫精灵就行了。{SCROLL}要参加吗？{VAR:0200:0}",
+   "en": "Today’s Tuesday.{SCROLL}That means the Bug-Catching Contest is{NEWLINE}on today.{SCROLL}The rules are simple.{SCROLL}Using one of your Pokémon, catch a{NEWLINE}Bug-type Pokémon to be judged.{SCROLL}Would you like to give it a try?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/4"
+  },
+  {
+   "id": 5,
+   "zh": "今天是星期四,{NEWLINE}在此将举办捕虫大会！{SCROLL}规则很简单！{SCROLL}只要看你用手上的{NEWLINE}一只精灵能不能抓到{CLEAR}比较强的虫精灵就行了。{SCROLL}要参加吗？{VAR:0200:0}",
+   "en": "Today’s Thursday.{SCROLL}That means the Bug-Catching Contest is{NEWLINE}on today.{SCROLL}The rules are simple.{SCROLL}Using one of your Pokémon, catch a{NEWLINE}Bug-type Pokémon to be judged.{SCROLL}Would you like to give it a try?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/5"
+  },
+  {
+   "id": 6,
+   "zh": "今天是星期六,{NEWLINE}在此将举办捕虫大会！{SCROLL}规则很简单！{SCROLL}只要看你用手上的{NEWLINE}一只精灵能不能抓到{CLEAR}比较强的虫精灵就行了。{SCROLL}要参加吗？{VAR:0200:0}",
+   "en": "Today’s Saturday.{SCROLL}That means the Bug-Catching Contest is{NEWLINE}on today.{SCROLL}The rules are simple.{SCROLL}Using one of your Pokémon, catch a{NEWLINE}Bug-type Pokémon to be judged.{SCROLL}Would you like to give it a try?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/6"
+  },
+  {
+   "id": 7,
+   "zh": "这里会{NEWLINE}举办捕虫大会⋯⋯{CLEAR}只能在周二、四、六{SCROLL}才能参加,{NEWLINE}而抓到的虫精灵{CLEAR}也可以自己拿回去。",
+   "en": "The Bug-Catching Contest is held on{NEWLINE}Tuesday, Thursday, and Saturday.{SCROLL}Not only do you earn a prize just for{NEWLINE}participating, you also get to keep the{CLEAR}last bug Pokémon you caught.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/7"
+  },
+  {
+   "id": 8,
+   "zh": "是{VAR:0205}",
+   "en": "Yes{VAR:0205}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "否{VAR:0205}",
+   "en": "No{VAR:0205}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "哎？{NEWLINE}您的精灵不止一只啊！{SCROLL}就从您手上⋯⋯{NEWLINE}选出{VAR:0101:0}{CLEAR}来参加吧,{CLEAR}可以吗？{VAR:0200:0}",
+   "en": "Uh-oh...{NEWLINE}You have more than one Pokémon.{SCROLL}You’ll have to use {VAR:0101:0}, the{NEWLINE}first Pokémon in your party.{SCROLL}Is that OK with you? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/10"
+  },
+  {
+   "id": 11,
+   "zh": "是{VAR:0205}",
+   "en": "Yes{VAR:0205}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "否{VAR:0205}",
+   "en": "No{VAR:0205}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0103:0}将精灵{NEWLINE}寄存给了管理员！{SCROLL}那么剩下的精灵{NEWLINE}就由我们保管吧！{SCROLL}",
+   "en": "Fine, we’ll hold your other Pokémon{NEWLINE}while you compete.{SCROLL}{VAR:0103:0}’s Pokémon were left with{NEWLINE}the Contest Helper.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/13"
+  },
+  {
+   "id": 14,
+   "zh": "请收下大会{NEWLINE}专用的精灵球吧！{SCROLL}{VAR:0103:0}得到了{NEWLINE}２０个竞技球！{SCROLL}",
+   "en": "Here are the Sport Balls for the{NEWLINE}Contest.{SCROLL}{VAR:0103:0} received 20 Sport Balls.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/14"
+  },
+  {
+   "id": 15,
+   "zh": "谁抓到看起来最强的{NEWLINE}精灵谁就是冠军！{SCROLL}时间限制是２０分钟！{SCROLL}另外竞技球用完{NEWLINE}大会也即时结束！{SCROLL}最后抓到的精灵{NEWLINE}会赠送给参加者！{SCROLL}请多多努力{NEWLINE}抓强些的虫精灵吧！{SCROLL}",
+   "en": "The person who gets the strongest bug{NEWLINE}Pokémon is the winner.{SCROLL}You have 20 minutes.{SCROLL}If you run out of Sport Balls, you’re{NEWLINE}done.{SCROLL}You can keep the last Pokémon you{NEWLINE}catch as your own.{SCROLL}Go out and catch the strongest{NEWLINE}Bug-type Pokémon you can find!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/15"
+  },
+  {
+   "id": 16,
+   "zh": "真遗憾！{SCROLL}您似乎不能{NEWLINE}再抓精灵了！",
+   "en": "Oh no!{SCROLL}I’m sorry, you don’t have enough{NEWLINE}room to catch any more Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/16"
+  },
+  {
+   "id": 17,
+   "zh": "是吗,{NEWLINE}请下次再参加吧！",
+   "en": "OK. We hope you’ll take part in the{NEWLINE}future.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/17"
+  },
+  {
+   "id": 18,
+   "zh": "今天的捕虫大会{NEWLINE}结束了,{SCROLL}请下次{NEWLINE}再来参加吧！",
+   "en": "Today’s Bug-Catching Contest is over.{SCROLL}We hope you will participate again in{NEWLINE}the future.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/18"
+  },
+  {
+   "id": 19,
+   "zh": "还会有只有在{NEWLINE}公园才能找到的精灵哦！",
+   "en": "Some Pokémon can only be seen in{NEWLINE}the Park.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/19"
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0103:0}是吧？{SCROLL}这是说好的奖品。{SCROLL}",
+   "en": "{VAR:0103:0}?{SCROLL}Here’s the prize we were holding{NEWLINE}for you.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/20"
+  },
+  {
+   "id": 21,
+   "zh": "哦呀？{NEWLINE}{VAR:0103:0}的背包{CLEAR}好像已经满了啊⋯⋯{SCROLL}奖品我先帮你保管{NEWLINE}请您整理一下背包吧。",
+   "en": "Uh-oh...{NEWLINE}Your Bag is full, {VAR:0103:0}.{SCROLL}We’ll hold on to your prize.{NEWLINE}Please make room, then come see me.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/21"
+  },
+  {
+   "id": 22,
+   "zh": "请参加下次的{NEWLINE}捕虫大会吧！",
+   "en": "We hope you’ll take part in a{NEWLINE}Bug-Catching Contest in the future!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/22"
+  },
+  {
+   "id": 23,
+   "zh": "剩余时间{NEWLINE}还有{VAR:0133:0}分。{CLEAR}要结束吗？{VAR:0200:0}",
+   "en": "You still have {VAR:0133:0} minute(s) left.{NEWLINE}Do you want to finish now? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/23"
+  },
+  {
+   "id": 24,
+   "zh": "是{VAR:0205}",
+   "en": "Yes{VAR:0205}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "否{VAR:0205}",
+   "en": "No{VAR:0205}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "是吗,{NEWLINE}那么接下来的时间{CLEAR}还请多多努力呀！{SCROLL}",
+   "en": "OK. Please go back outside and{NEWLINE}finish up.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/26"
+  },
+  {
+   "id": 27,
+   "zh": "是吗,{NEWLINE}那么请在{CLEAR}自然公园等待结果发表吧。{SCROLL}",
+   "en": "OK. Please wait in the National Park for{NEWLINE}the announcement of the winners.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/27"
+  },
+  {
+   "id": 28,
+   "zh": "请整理背包后{NEWLINE}再来吧",
+   "en": "Please make room in your{NEWLINE}Bag, then come see me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0246/28 | R042: zh says organise your Bag (US: reorder your Pokémon); retranslated."
+  },
+  {
+   "id": 29,
+   "zh": "审查各位抓到的精灵！{SCROLL}⋯⋯　⋯⋯　⋯⋯{NEWLINE}⋯⋯　⋯⋯　⋯⋯{SCROLL}公布结果！！{NEWLINE}咣咣咣！！{SCROLL}",
+   "en": "We will now judge the Pokémon you’ve{NEWLINE}caught.{SCROLL}......{NEWLINE}......{SCROLL}We have chosen the winners!{NEWLINE}Are you ready for this?{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/29"
+  },
+  {
+   "id": 30,
+   "zh": "第３名是抓到了{VAR:0100:1}的{NEWLINE}{VAR:0103:0}。{SCROLL}",
+   "en": "Placing third is {VAR:0103:0}, who{NEWLINE}caught a writhing {VAR:0100:1}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/30"
+  },
+  {
+   "id": 31,
+   "zh": "第３名是抓到了{VAR:0100:1}的{NEWLINE}{VAR:010E:2}的{CLEAR}{VAR:0103:0}{SCROLL}",
+   "en": "Placing third is the {VAR:010E:2}{NEWLINE}{VAR:0103:0}, who caught a writhing{CLEAR}{VAR:0100:1}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/31"
+  },
+  {
+   "id": 32,
+   "zh": "得分是{NEWLINE}{VAR:0134:3}分！{SCROLL}",
+   "en": "The score was {VAR:0134:3} points!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/32"
+  },
+  {
+   "id": 33,
+   "zh": "第２名是抓到了{VAR:0100:1}的{NEWLINE}{VAR:0103:0}。{SCROLL}",
+   "en": "Placing second is {VAR:0103:0}, who{NEWLINE}caught a wriggling {VAR:0100:1}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/33"
+  },
+  {
+   "id": 34,
+   "zh": "第２名是抓带的{VAR:0100:1}的{NEWLINE}{VAR:010E:2}的{CLEAR}{VAR:0103:0}。{SCROLL}",
+   "en": "Placing second is the {VAR:010E:2}{NEWLINE}{VAR:0103:0}, who caught a{CLEAR}wriggling {VAR:0100:1}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/34"
+  },
+  {
+   "id": 35,
+   "zh": "那么！这次大会的{NEWLINE}第一名,冠军就是⋯⋯{SCROLL}抓到了{VAR:0100:1}的{NEWLINE}{VAR:0103:0}。{SCROLL}",
+   "en": "This Bug-Catching Contest winner is...{SCROLL}{VAR:0103:0}, who caught a whopping{NEWLINE}{VAR:0100:1}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/35"
+  },
+  {
+   "id": 36,
+   "zh": "那么！这次大会的{NEWLINE}第一名,冠军就是⋯⋯{SCROLL}抓到了{VAR:0100:1}的{NEWLINE}{VAR:010E:2}的{CLEAR}{VAR:0103:0}。{SCROLL}",
+   "en": "This Bug-Catching Contest winner is...{SCROLL}The {VAR:010E:2} {VAR:0103:0}, who{NEWLINE}caught a whopping {VAR:0100:1}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/36"
+  },
+  {
+   "id": 37,
+   "zh": "赠予冠军{VAR:0103:0}{NEWLINE}{VAR:0108:3}。{SCROLL}",
+   "en": "{VAR:0103:0}, the First Place{NEWLINE}finisher, wins the {VAR:0108:3}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/37"
+  },
+  {
+   "id": 38,
+   "zh": "赠予第２名{VAR:0103:0}{NEWLINE}{VAR:0108:3}。{SCROLL}",
+   "en": "{VAR:0103:0}, the Second Place{NEWLINE}finisher, wins the {VAR:0108:3}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/38"
+  },
+  {
+   "id": 39,
+   "zh": "赠予第３名{VAR:0103:0}{NEWLINE}{VAR:0108:3}。{SCROLL}",
+   "en": "{VAR:0103:0}, the Third Place{NEWLINE}finisher, wins the {VAR:0108:3}!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/39"
+  },
+  {
+   "id": 40,
+   "zh": "赠予{NEWLINE}很遗憾没拿到名次的人{CLEAR}{VAR:0108:3}。{SCROLL}",
+   "en": "Everyone else gets a {VAR:0108:3} as{NEWLINE}a consolation prize!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/40"
+  },
+  {
+   "id": 41,
+   "zh": "哦呀？{SCROLL}{VAR:0103:0}的背包{NEWLINE}似乎已经满了啊⋯⋯{SCROLL}奖品我先帮你收好,{NEWLINE}请整理一下背包吧。{SCROLL}",
+   "en": "Uh-oh...{NEWLINE}Your Bag is full, {VAR:0103:0}.{SCROLL}We’ll hold on to your prize.{NEWLINE}Please make room, then come see me.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/41"
+  },
+  {
+   "id": 42,
+   "zh": "请各位再参加{NEWLINE}下一次的捕虫大会吧！{SCROLL}",
+   "en": "We hope you’ll take part in a{NEWLINE}Bug-Catching Contest in the future!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/42"
+  },
+  {
+   "id": 43,
+   "zh": "要给抓到的{VAR:0100:1}{NEWLINE}起名字吗？{VAR:0200:0}",
+   "en": "Give a nickname to the{NEWLINE}{VAR:0100:1} you caught? {VAR:0200:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/43"
+  },
+  {
+   "id": 44,
+   "zh": "{VAR:0103:0}是吧？{NEWLINE}这是说好的奖品。{SCROLL}",
+   "en": "{VAR:0103:0}?{SCROLL}Here’s the prize we were holding{NEWLINE}for you.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/44"
+  },
+  {
+   "id": 45,
+   "zh": "哦呀？{SCROLL}{VAR:0103:0}的背包{NEWLINE}似乎是满了啊⋯⋯{SCROLL}奖品我先帮你收好,{NEWLINE}请整理一下背包吧。{SCROLL}",
+   "en": "Uh-oh...{NEWLINE}Your Bag is full, {VAR:0103:0}.{SCROLL}We’ll hold on to your prize.{NEWLINE}Please make room, then come see me.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/45"
+  },
+  {
+   "id": 46,
+   "zh": "手上的东西满了,{NEWLINE}{VAR:0101:5}{CLEAR}传送到了箱子！{SCROLL}",
+   "en": "Your party’s full, so {VAR:0101:5} was{NEWLINE}sent to your Box in Bill’s PC.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/46"
+  },
+  {
+   "id": 47,
+   "zh": "寄存在我们这儿的{NEWLINE}精灵还您{SCROLL}",
+   "en": "We’ll return the Pokémon we kept for{NEWLINE}you. Here you go!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/47"
+  },
+  {
+   "id": 48,
+   "zh": "干安『听好了！{NEWLINE}这次的冠军一定是我！{CLEAR}别妨碍我啊！",
+   "en": "Don: Got it? I’m going to win! Don’t{NEWLINE}bother me.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/48"
+  },
+  {
+   "id": 49,
+   "zh": "干安『强的精灵{NEWLINE}出不出来{CLEAR}还是很考验人品的啊~",
+   "en": "Don: Luck plays a big part in this.{SCROLL}You never know if Pokémon will{NEWLINE}appear.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/49"
+  },
+  {
+   "id": 50,
+   "zh": "干安『你冠军！？{SCROLL}真羡慕啊~拿了冠军{NEWLINE}一定很爽吧？",
+   "en": "Don: You won? The winner is you!?{SCROLL}I’m so jealous... It’d be fantastic{NEWLINE}to be the winner...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/50"
+  },
+  {
+   "id": 51,
+   "zh": "洋二『我的派拉斯特{NEWLINE}能撒下蘑菇孢子{CLEAR}让出现的精灵睡着！",
+   "en": "Ed: My Parasect makes Pokémon fall{NEWLINE}asleep with Spore.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/51; modernised from US 0246#51"
+  },
+  {
+   "id": 52,
+   "zh": "洋二『要拿冠军{NEWLINE}就不能要那些{SCROLL}体力没剩多少{NEWLINE}没精打采的怪。",
+   "en": "Ed: You can’t win with Pokémon that are{NEWLINE}run down or low on HP.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/52"
+  },
+  {
+   "id": 53,
+   "zh": "洋二『唔~真羡慕,{NEWLINE}这次只是我状态不好罢了。",
+   "en": "Ed: I envy you. I just couldn’t do it{NEWLINE}this time.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/53"
+  },
+  {
+   "id": 54,
+   "zh": "绘里『为了这次大会{NEWLINE}我特意准备了能造成{CLEAR}对方状态异常的精灵。",
+   "en": "Abby: I’ve been training Pokémon that{NEWLINE}inflict status problems for{CLEAR}this contest.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/54"
+  },
+  {
+   "id": 55,
+   "zh": "绘里『听说颜色鲜艳{NEWLINE}长的漂亮的虫子容易拿第一,{CLEAR}是真的吗？",
+   "en": "Abby: I heard that using Pokémon with{NEWLINE}beautiful colors makes it easier to win.{CLEAR}I wonder if that’s true?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/55"
+  },
+  {
+   "id": 56,
+   "zh": "绘里『太漂亮了！现在的你{NEWLINE}闪闪发光呀！",
+   "en": "Abby: Wonderful! You sparkle and gleam{NEWLINE}right now. You really do!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/56"
+  },
+  {
+   "id": 57,
+   "zh": "明仁『冠军？{NEWLINE}跟这个相比我还是{CLEAR}更想要稀有的精灵。",
+   "en": "William: Winning? I’m more interested in{NEWLINE}finding rare Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/57"
+  },
+  {
+   "id": 58,
+   "zh": "明仁『能找到想要的精灵{NEWLINE}我就满足了。",
+   "en": "William: Well, I’m satisfied because{NEWLINE}I caught a Pokémon I wanted.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/58"
+  },
+  {
+   "id": 59,
+   "zh": "明仁『你第一吗！{NEWLINE}你抓到什么了？{CLEAR}让我看看让我看看！",
+   "en": "William: You’re the winner? What did you{NEWLINE}catch? Show me, show me!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/59"
+  },
+  {
+   "id": 60,
+   "zh": "贞夫『⋯⋯　⋯⋯　⋯⋯{NEWLINE}⋯⋯　⋯⋯　⋯⋯　嘘！{SCROLL}飞天螳螂要逃走了,{NEWLINE}下次再说吧,",
+   "en": "Benny: ...... ...... ......{NEWLINE}...... ...... Ssssh!{SCROLL}You’ll scare off Scyther.{NEWLINE}I’ll talk to you later.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/60; modernised from US 0246#60"
+  },
+  {
+   "id": 61,
+   "zh": "贞夫『我跟你说啊,之前{NEWLINE}我抓到过飞天螳螂,{CLEAR}但还是没赢⋯⋯",
+   "en": "Benny: Listen, I caught a Scyther{NEWLINE}before, but I didn’t win.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/61; modernised from US 0246#61"
+  },
+  {
+   "id": 62,
+   "zh": "贞夫『这次我只是{NEWLINE}来看看情况的！{SCROLL}下次开始再动真格的！",
+   "en": "Benny: I just came to see how things{NEWLINE}were going today, you know?{SCROLL}I’ll really try my best next time!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/62"
+  },
+  {
+   "id": 63,
+   "zh": "佑一『要抓虫精灵{NEWLINE}也是要先削弱它{CLEAR}然后再扔球啊。",
+   "en": "Barry: You should weaken bug Pokémon{NEWLINE}first, then throw a Poké Ball.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/63"
+  },
+  {
+   "id": 64,
+   "zh": "佑一『等级越高{NEWLINE}越容易拿第一⋯⋯{CLEAR}似乎还有其他的诀窍。",
+   "en": "Barry: It’s easier to win if you get a{NEWLINE}high-level bug Pokémon. But I think{CLEAR}they also consider some other points.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/64"
+  },
+  {
+   "id": 65,
+   "zh": "佑一『你抓的精灵真是帅啊！",
+   "en": "Barry: That Pokémon you caught...{NEWLINE}It’s awesome!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/65"
+  },
+  {
+   "id": 66,
+   "zh": "里见『我最喜欢虫精灵了。",
+   "en": "Cindy: I really love bug Pokémon!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/66"
+  },
+  {
+   "id": 67,
+   "zh": "里见『我最喜欢虫精灵了。{SCROLL}已经说过了？",
+   "en": "Cindy: I really love bug Pokémon!{SCROLL}Did I already say that?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/67"
+  },
+  {
+   "id": 68,
+   "zh": "里见『恭喜你！{NEWLINE}对了⋯⋯{SCROLL}我最喜欢虫精灵了。",
+   "en": "Cindy: Congratulations on winning!{NEWLINE}By the way...{SCROLL}Did I mention that I really love bug{NEWLINE}Pokémon?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/68"
+  },
+  {
+   "id": 69,
+   "zh": "智道『 自出生起{NEWLINE}就只抓虫精灵的{SCROLL}我怎么可能会输！",
+   "en": "Josh: I’ve been collecting bug Pokémon{NEWLINE}since I was just a baby.{SCROLL}There’s no way I’m going to lose!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/69"
+  },
+  {
+   "id": 70,
+   "zh": "智道『听说有人用{NEWLINE}绿毛虫拿到了冠军！",
+   "en": "Josh: I heard that somebody won with a{NEWLINE}Caterpie!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/70; modernised from US 0246#70"
+  },
+  {
+   "id": 71,
+   "zh": "智道『捕虫大会{NEWLINE}不是抓草啊鸟什么的{CLEAR}而是要抓虫子！{SCROLL}拿到了冠军的你{NEWLINE}应该是知道的吧？",
+   "en": "Josh: It’s called a Bug-Catching{NEWLINE}Contest, not a Bird-Catching Contest!{SCROLL}You, of all people, should know that.{NEWLINE}After all, you won!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/71"
+  },
+  {
+   "id": 72,
+   "zh": "库塔『什么？{NEWLINE}有说话的闲工夫{CLEAR}就再多找找虫子吧？",
+   "en": "Samuel: What?{NEWLINE}If you’ve got the time to chat, go find{CLEAR}some bug Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/72"
+  },
+  {
+   "id": 73,
+   "zh": "库塔『唔⋯⋯{NEWLINE}还以为分数能更高点的。",
+   "en": "Samuel: So... I thought I would{NEWLINE}score higher...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/73"
+  },
+  {
+   "id": 74,
+   "zh": "库塔『不甘心⋯⋯{NEWLINE}这次的失败我要当作教训⋯⋯",
+   "en": "Samuel: It’s so disappointing...{NEWLINE}I won’t forget this defeat, and...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/74"
+  },
+  {
+   "id": 75,
+   "zh": "知之『虫精灵的事{NEWLINE}我已经充~分学习过了。{CLEAR}一定能拿到第一的！",
+   "en": "Kipp: I’ve studied bug Pokémon a lot.{NEWLINE}I’m going to win for sure.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/75"
+  },
+  {
+   "id": 76,
+   "zh": "知之『就是学习了{NEWLINE}也赢不了啊。",
+   "en": "Kipp: I study a lot, but that’s not{NEWLINE}enough to win.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/76"
+  },
+  {
+   "id": 77,
+   "zh": "知之『告诉我秘诀吧！{NEWLINE}我想赢啊！",
+   "en": "Kipp: Could you give me some tips?{NEWLINE}I want to win!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/77"
+  },
+  {
+   "id": 78,
+   "zh": "干安",
+   "en": "Don",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/78"
+  },
+  {
+   "id": 79,
+   "zh": "洋二",
+   "en": "Ed",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/79"
+  },
+  {
+   "id": 80,
+   "zh": "绘里",
+   "en": "Abby",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/80"
+  },
+  {
+   "id": 81,
+   "zh": "明仁",
+   "en": "William",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/81"
+  },
+  {
+   "id": 82,
+   "zh": "贞夫",
+   "en": "Benny",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/82"
+  },
+  {
+   "id": 83,
+   "zh": "佑一",
+   "en": "Barry",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/83"
+  },
+  {
+   "id": 84,
+   "zh": "里见",
+   "en": "Cindy",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/84"
+  },
+  {
+   "id": 85,
+   "zh": "智道",
+   "en": "Josh",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/85"
+  },
+  {
+   "id": 86,
+   "zh": "库塔",
+   "en": "Samuel",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/86"
+  },
+  {
+   "id": 87,
+   "zh": "知之",
+   "en": "Kipp",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0246/87"
+  }
+ ]
+}

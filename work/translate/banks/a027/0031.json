@@ -1,0 +1,471 @@
+{
+ "narc": "a027",
+ "bank": 31,
+ "source": "work/extract/v4/a027/0031.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "石兰『欢迎来到战斗城堡。{NEWLINE}在下石兰代城堡的主人{CLEAR}嘉德丽雅大小姐{CLEAR}为您提供服务。{SCROLL}石兰『首先客人们的精灵{NEWLINE}所携带的道具{CLEAR}请先交给我保管。{CLEAR}接着再给客人们能在这城堡中{CLEAR}使用的１０ＣＰ的城堡点数,{CLEAR}请收下。{SCROLL}",
+   "en": "Darach: Welcome to the Battle Castle.{NEWLINE}I, Darach, am at your service on behalf{CLEAR}of the castle’s owner, Lady Caitlin.{SCROLL}Darach: First, I must ask you{NEWLINE}to entrust me with the items your{CLEAR}Pokémon are holding. Next, please{CLEAR}accept these 10 Castle Points,{CLEAR}or CP, for use within this castle.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "欢迎。{SCROLL}这是规定,请将{VAR:0103:0}大人的{NEWLINE}精灵们所携带的东西{CLEAR}交给我保管吧。{SCROLL}然后这是能在城堡中使用的{NEWLINE}１０ＣＰ城堡点数,{CLEAR}请收下。{SCROLL}",
+   "en": "Welcome.{SCROLL}{VAR:0103:0}, as per the rules, I must{NEWLINE}ask you to entrust me with the{CLEAR}items your Pokémon are holding.{SCROLL}And here are 10 Castle Points,{NEWLINE}or CP, for use within the{CLEAR}castle. Please accept them.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "请稍等。",
+   "en": "Please wait a moment.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/2"
+  },
+  {
+   "id": 3,
+   "zh": "那么⋯⋯{NEWLINE}请进去吧。",
+   "en": "Very well.{NEWLINE}Please proceed.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/3"
+  },
+  {
+   "id": 4,
+   "zh": "恢复精灵的状态{SCROLL}",
+   "en": "I shall now restore your Pokémon.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0032/4"
+  },
+  {
+   "id": 5,
+   "zh": "接下来是第{VAR:0135:0}战,{NEWLINE}准备好了吗？",
+   "en": "Coming up is battle no. {VAR:0135:0}.{NEWLINE}I trust you are ready?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/5"
+  },
+  {
+   "id": 6,
+   "zh": "要将刚才的战斗{NEWLINE}记录到战斗录像中吗？",
+   "en": "Would you care to save the last battle{NEWLINE}as your Battle Video?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/6"
+  },
+  {
+   "id": 7,
+   "zh": "{VAR:0103:0}的战斗{NEWLINE}记录下来了。{SCROLL}",
+   "en": "{VAR:0103:0}’s battle has been saved{NEWLINE}as a Battle Video.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/7"
+  },
+  {
+   "id": 8,
+   "zh": "由于机能出现问题,{NEWLINE}无法记录。{SCROLL}",
+   "en": "Due to a malfunction, the{NEWLINE}battle could not be recorded.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "要删除已经存在的录像,{NEWLINE}记录下刚才的战斗吗？",
+   "en": "Would you care to delete your existing{NEWLINE}video and record the last battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "记录中⋯⋯{NEWLINE}请不要切断电源！",
+   "en": "Saving...{NEWLINE}Please do not turn the power off.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/10"
+  },
+  {
+   "id": 11,
+   "zh": "要保存后结束吗？",
+   "en": "Would you like to save and quit?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 13,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 14,
+   "zh": "要中止挑战吗？",
+   "en": "Do you wish to retire from this{NEWLINE}Battle Castle challenge?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/14"
+  },
+  {
+   "id": 15,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 16,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 17,
+   "zh": "{VAR:0103:0}正在选择,{NEWLINE}请稍等。",
+   "en": "{VAR:0103:0} is choosing.{NEWLINE}Please wait.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/17"
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0}{NEWLINE}选择了休息。",
+   "en": "{VAR:0103:0} chose to rest.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "{VAR:0103:0}{NEWLINE}选择了重来。",
+   "en": "{VAR:0103:0} chose to restart.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0032/19 | zh 重来 (start over/restart) in the Retire slot (#48 menu); followed zh (hack-finding logged)."
+  },
+  {
+   "id": 20,
+   "zh": "那么请选择{NEWLINE}要做什么吧。{SCROLL}",
+   "en": "Please choose what you wish to do.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/20"
+  },
+  {
+   "id": 21,
+   "zh": "进行精灵的恢复和{NEWLINE}道具的租借。",
+   "en": "You may heal your{NEWLINE}Pokémon and rent items.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "能够查看{NEWLINE}对战对手的情报。",
+   "en": "You may check on your opponent’s{NEWLINE}Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/22"
+  },
+  {
+   "id": 23,
+   "zh": "与训练师对战",
+   "en": "Battle against a Trainer.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/23"
+  },
+  {
+   "id": 24,
+   "zh": "能够放弃与{NEWLINE}训练师的对战。",
+   "en": "You may pass on battling a Trainer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "需要{VAR:0134:0}ＣＰ,{NEWLINE}可以吗？",
+   "en": "It will cost {VAR:0134:0} CP.{NEWLINE}Is that acceptable?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/25"
+  },
+  {
+   "id": 26,
+   "zh": "是",
+   "en": "YES",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 20 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 27,
+   "zh": "否",
+   "en": "NO",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 19 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 28,
+   "zh": "非常抱歉,{NEWLINE}ＣＰ不够。{SCROLL}",
+   "en": "I am terribly sorry, but{NEWLINE}you do not have enough CP.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "在前面能够选择{NEWLINE}「放弃」。{SCROLL}不想对战的时候{NEWLINE}就选择「放弃」吧。{SCROLL}",
+   "en": "From here on, you may choose “Pass.”{SCROLL}Whenever you do not wish to{NEWLINE}battle, please choose “Pass.”{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "嘉德丽雅『⋯⋯　⋯⋯　⋯⋯{NEWLINE}石兰！请给冠军大人ＣＰ！",
+   "en": "Caitlin: ...... ...... ......{NEWLINE}Darach! Give the Champion CP!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0032/30 | hack zh: Caitlin tells Darach to give the Champion CP (US: this Trainer)."
+  },
+  {
+   "id": 31,
+   "zh": "石兰『{VAR:0103:1}大人,{NEWLINE}真是了不起的胜利啊。",
+   "en": "Darach: {VAR:0103:1}, a truly{NEWLINE}magnificent victory.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "石兰『{VAR:0103:1}大人,{NEWLINE}真是精彩的胜利啊。",
+   "en": "Darach: {VAR:0103:1}, a{NEWLINE}truly splendid victory.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "石兰『{VAR:0103:1}大人,{NEWLINE}真是不错的胜利啊。",
+   "en": "Darach: {VAR:0103:1}, a fine victory indeed.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "石兰『{VAR:0103:1}大人,{NEWLINE}您辛苦了⋯⋯",
+   "en": "Darach: {VAR:0103:1}, good effort...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/34"
+  },
+  {
+   "id": 35,
+   "zh": "石兰『{VAR:0103:1}大人,{NEWLINE}真是了不起的胜利啊。{SCROLL}",
+   "en": "Darach: {VAR:0103:1}, a truly{NEWLINE}magnificent victory.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "石兰『{VAR:0103:1}大人,{NEWLINE}真是精彩的胜利啊。{SCROLL}",
+   "en": "Darach: {VAR:0103:1}, a{NEWLINE}truly splendid victory.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "石兰『{VAR:0103:1}大人,{NEWLINE}真是不错的胜利啊。{SCROLL}",
+   "en": "Darach: {VAR:0103:1}, a fine victory indeed.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "石兰『{VAR:0103:1}大人,{NEWLINE}您辛苦了⋯⋯{SCROLL}",
+   "en": "Darach: {VAR:0103:1}, good effort...{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/38"
+  },
+  {
+   "id": 39,
+   "zh": "照嘉德丽雅小姐的吩咐,{NEWLINE}给您{VAR:0133:0}ＣＰ。",
+   "en": "Lady Caitlin has instructed me to award{NEWLINE}you {VAR:0133:0} CP.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/39"
+  },
+  {
+   "id": 40,
+   "zh": "石兰『突破７战！{NEWLINE}恭喜恭喜！{SCROLL}为表彰{VAR:0103:0}大人的善战{NEWLINE}送您战斗点数！{SCROLL}",
+   "en": "Darach: Seven battles{NEWLINE}cleared! Congratulations!{SCROLL}In recognition of your valiant{NEWLINE}efforts, {VAR:0103:0}, please{CLEAR}accept these Battle Points!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "{VAR:0103:0}得到了{NEWLINE}{VAR:0133:1}ＢＰ！{SCROLL}",
+   "en": "{VAR:0103:0} received {VAR:0133:1} BP!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/41"
+  },
+  {
+   "id": 42,
+   "zh": "存放的道具交还给您。{SCROLL}",
+   "en": "We’ll return any items that we were{NEWLINE}holding for you.{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/42"
+  },
+  {
+   "id": 43,
+   "zh": "正在保存中,{NEWLINE}请不要切断电源。",
+   "en": "Saving... Please do not{NEWLINE}turn off the power.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "嘉德丽雅『⋯⋯放弃？{NEWLINE}⋯⋯　⋯⋯为什么！",
+   "en": "Caitlin: ...Pass?{NEWLINE}...... ......Why?!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0032/44"
+  },
+  {
+   "id": 45,
+   "zh": "继续",
+   "en": "CONTINUE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/45"
+  },
+  {
+   "id": 46,
+   "zh": "记录",
+   "en": "RECORD",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/46"
+  },
+  {
+   "id": 47,
+   "zh": "休息",
+   "en": "REST",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/47"
+  },
+  {
+   "id": 48,
+   "zh": "重来",
+   "en": "RESTART",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "自己",
+   "en": "SELF",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/49"
+  },
+  {
+   "id": 50,
+   "zh": "对手",
+   "en": "OPPONENT",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/50"
+  },
+  {
+   "id": 51,
+   "zh": "对战",
+   "en": "BATTLE",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0032/51"
+  },
+  {
+   "id": 52,
+   "zh": "放弃",
+   "en": "PASS",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 17 source(s); other variants: 9 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 53,
+   "zh": "石兰『{VAR:0103:0}大人,{NEWLINE}恭喜！{SCROLL}主人在看到了您{NEWLINE}战斗至此的实力后,{SCROLL}决定让您与城堡首领{CLEAR}进行对战。{SCROLL}做好准备了吗？{SCROLL}",
+   "en": "Darach: {VAR:0103:0}, congratulations!{SCROLL}Having seen the strength you{NEWLINE}have shown in battling this far,{SCROLL}my lady has decided that you shall{NEWLINE}battle the Brain of the Castle.{SCROLL}Are you prepared?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "城堡首领 = the castle’s Brain; Darach himself is the Castle Valet (#54 城堡守护者)."
+  },
+  {
+   "id": 54,
+   "zh": "石兰『欢迎。{SCROLL}我就是城堡守护者{NEWLINE}石兰。{SCROLL}我的主人嘉德丽雅小姐{NEWLINE}是个好强的人⋯⋯{SCROLL}但由于种种原因{NEWLINE}被禁止参加对战。{SCROLL}所以就由我代替{NEWLINE}主人向您挑战。{SCROLL}⋯⋯我石兰{NEWLINE}是不会手下留情的。{SCROLL}那么,开始吧！{NEWLINE}嘿嘿！{SCROLL}",
+   "en": "Darach: Welcome.{SCROLL}I am Darach, the Castle Valet.{SCROLL}My lady, Lady Caitlin, is a{NEWLINE}fiercely competitive person...{SCROLL}But for various reasons, she{NEWLINE}is forbidden from battling.{SCROLL}Therefore, I shall challenge{NEWLINE}you in my lady’s stead.{SCROLL}...I, Darach, will show you no mercy.{SCROLL}Now, let us begin! Heh heh!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0032/54"
+  },
+  {
+   "id": 55,
+   "zh": "石兰『实力还是{NEWLINE}那么强劲啊⋯⋯{SCROLL}{VAR:0103:0}大人,{NEWLINE}真是厉害。{SCROLL}⋯⋯不过我石兰{NEWLINE}在近距离欣赏到您的{SCROLL}战斗之后注意到了。{SCROLL}是什么呢？{SCROLL}训练家的话应该{NEWLINE}要在战斗中学会礼仪！{SCROLL}那么,开始吧！{NEWLINE}哈哈！！{SCROLL}",
+   "en": "Darach: Your strength is{NEWLINE}as formidable as ever...{SCROLL}{VAR:0103:0}, you are truly remarkable.{SCROLL}...However, having watched{NEWLINE}you battle up close,{SCROLL}I, Darach, noticed something.{SCROLL}What might it be?{SCROLL}A Trainer ought to learn{NEWLINE}etiquette through battle!{SCROLL}Now, let us begin! Ha ha!!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "石兰『{VAR:0103:0}大人的{NEWLINE}实力真的实在是{CLEAR}太强了！{SCROLL}我继承了我们一族{NEWLINE}悠久的训练家心得都不能{CLEAR}战胜您吗⋯⋯{SCROLL}嘉德丽雅小姐{NEWLINE}看到您的精彩战斗之后{CLEAR}心情也变得愉快了。{SCROLL}{VAR:0103:0}大人,{NEWLINE}请下次再来城堡吧。{SCROLL}我们非常欢迎！{SCROLL}",
+   "en": "Darach: {VAR:0103:0}, your{NEWLINE}strength is truly overwhelming!{SCROLL}Even the Trainer’s wisdom{NEWLINE}handed down through my family for{CLEAR}generations could not defeat you...{SCROLL}Watching your splendid battle has{NEWLINE}put Lady Caitlin in quite a good mood.{SCROLL}{VAR:0103:0}, please do{NEWLINE}visit the castle again.{SCROLL}You will be most welcome!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "石兰『原来如此⋯⋯{SCROLL}我感觉到的{NEWLINE}弱点是我的错觉吗⋯⋯{SCROLL}还是在战斗的时候{NEWLINE}修正了呢⋯⋯{SCROLL}不管怎么样,{NEWLINE}都要恭喜您！{SCROLL}虽然嘴巴上不说,{NEWLINE}但其实嘉德丽雅小姐{CLEAR}也是非常欣赏您的战斗。{SCROLL}为了小姐,{NEWLINE}您今后也要再来城堡啊！{SCROLL}",
+   "en": "Darach: I see...{SCROLL}Was the weakness I sensed{NEWLINE}merely my imagination...{SCROLL}Or did you correct it in{NEWLINE}the midst of battle...?{SCROLL}Either way, congratulations!{SCROLL}Though she will not say so, Lady Caitlin{NEWLINE}truly admires the way you battle.{SCROLL}For my lady’s sake, please{NEWLINE}do come back to the castle!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

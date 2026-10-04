@@ -1,0 +1,879 @@
+{
+ "narc": "a027",
+ "bank": 169,
+ "source": "work/extract/v4/a027/0169.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "カメラセット",
+   "en": "Set Camera",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 1,
+   "zh": "ゆれくさ",
+   "en": "Swaying grass",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 2,
+   "zh": "たかさチェックB",
+   "en": "Height Check B",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 3,
+   "zh": "たかさチェックG",
+   "en": "Height Check G",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 4,
+   "zh": "カメラ",
+   "en": "Camera",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 5,
+   "zh": "たかさへんこう",
+   "en": "Change player’s height",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 6,
+   "zh": "カメラじょうほう",
+   "en": "Camera Info",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 7,
+   "zh": "カメラリスト",
+   "en": "Camera List",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 8,
+   "zh": "アニメ",
+   "en": "Animation",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 9,
+   "zh": "つり",
+   "en": "Fishing",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 10,
+   "zh": "いどうポケモン",
+   "en": "Travelling Pokémon",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 11,
+   "zh": "たいりょうはっせい",
+   "en": "Pokémon mass outbreak",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 12,
+   "zh": "サファリ",
+   "en": "Safari",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 13,
+   "zh": "ＡＧＢ",
+   "en": "GBA",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 14,
+   "zh": "3たいポケ",
+   "en": "3 Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 15,
+   "zh": "きょり",
+   "en": "Distance",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 16,
+   "zh": "アングルX",
+   "en": "X-axis",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 17,
+   "zh": "アングルY",
+   "en": "Y-axis",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 18,
+   "zh": "アングルZ",
+   "en": "Z-axis",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 19,
+   "zh": "パース",
+   "en": "Perspective",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 20,
+   "zh": "タイプ",
+   "en": "Type",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 21,
+   "zh": "PER",
+   "en": "PER",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "ORT",
+   "en": "ORT",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "ニア",
+   "en": "Near",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 24,
+   "zh": "ファー",
+   "en": "Distant",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 25,
+   "zh": "LOOK-X",
+   "en": "LOOK-X",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "LOOK-Y",
+   "en": "LOOK-Y",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "LOOK-Z",
+   "en": "LOOK-Z",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "X",
+   "en": "X",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "O",
+   "en": "O",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "BLOCK",
+   "en": "BLOCK",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "LOCAL",
+   "en": "LOCAL",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "HEIGHT",
+   "en": "HEIGHT",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "はつどう",
+   "en": "Trigger",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 34,
+   "zh": "チェーン",
+   "en": "Chain",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 35,
+   "zh": "じょうほう",
+   "en": "Info",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 36,
+   "zh": "レコード",
+   "en": "Records",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 37,
+   "zh": "ロッド",
+   "en": "Rod",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 38,
+   "zh": "100%",
+   "en": "100%",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "とくしゅポイント",
+   "en": "Special point",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 40,
+   "zh": "じょうほう",
+   "en": "Info",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 41,
+   "zh": "ばしょへんこう",
+   "en": "Location change",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 42,
+   "zh": "エントリ",
+   "en": "Entry",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 43,
+   "zh": "ライコウ",
+   "en": "Raikou",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 44,
+   "zh": "エンテイ",
+   "en": "Entei",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 45,
+   "zh": "ラティアス",
+   "en": "Latias",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 46,
+   "zh": "ラティオス",
+   "en": "Latios",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 47,
+   "zh": "かいし",
+   "en": "Start",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 48,
+   "zh": "ゾーンかくにん",
+   "en": "Zone info",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 49,
+   "zh": "はっせいちゅう",
+   "en": "Now ON",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 50,
+   "zh": "はっせいしてない",
+   "en": "Now OFF",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 51,
+   "zh": "なし",
+   "en": "None",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 52,
+   "zh": "サファイア",
+   "en": "Sapphire",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 53,
+   "zh": "ルビー",
+   "en": "Ruby",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 54,
+   "zh": "エメラルド",
+   "en": "Emerald",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 55,
+   "zh": "レッド",
+   "en": "Red",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 56,
+   "zh": "グリーン",
+   "en": "Green",
+   "status": "draft",
+   "origin": "us",
+   "notes": "debug menu, unused; US text"
+  },
+  {
+   "id": 57,
+   "zh": "ポケスロン",
+   "en": "Pokéathlon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 58,
+   "zh": "かいし",
+   "en": "Start",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 59,
+   "zh": "デバッグフラグ",
+   "en": "Debug flag",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 60,
+   "zh": "きょうぎ　してい",
+   "en": "Set event",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 61,
+   "zh": "コースしてい",
+   "en": "Set course",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 62,
+   "zh": "スロンポイント",
+   "en": "Athlete Points",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 63,
+   "zh": "メダル",
+   "en": "Medals",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 64,
+   "zh": "スペック",
+   "en": "Performance",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 65,
+   "zh": "スペックデバッグ",
+   "en": "Performance debug",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 66,
+   "zh": "じかんむげん",
+   "en": "Unlimited time",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 67,
+   "zh": "NPCていし",
+   "en": "Stop NPCs",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 68,
+   "zh": "カンストてまえ",
+   "en": "Just below max",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 69,
+   "zh": "POW",
+   "en": "POW",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "SPD",
+   "en": "SPD",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "JMP",
+   "en": "JMP",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "STA",
+   "en": "STA",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "TEQ",
+   "en": "TEQ",
+   "status": "draft",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "ハードル",
+   "en": "Hurdle",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 75,
+   "zh": "フラッグ",
+   "en": "Flag",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 76,
+   "zh": "サークル",
+   "en": "Circle",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 77,
+   "zh": "カワラ",
+   "en": "Block",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 78,
+   "zh": "キャッチ",
+   "en": "Catch",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 79,
+   "zh": "ジャンプ",
+   "en": "Jump",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 80,
+   "zh": "マラソン",
+   "en": "Marathon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 81,
+   "zh": "レスリング",
+   "en": "Wrestling",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 82,
+   "zh": "スロー",
+   "en": "Throw",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 83,
+   "zh": "シュート",
+   "en": "Shoot",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 84,
+   "zh": "はもんテスト",
+   "en": "Ripple test",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 85,
+   "zh": "きねんさつえい",
+   "en": "Commemorative photo",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 86,
+   "zh": "とる",
+   "en": "Take",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 87,
+   "zh": "モデルけしてとる",
+   "en": "Take without model",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 88,
+   "zh": "ロケットいっしょにとる",
+   "en": "Take with Rockets",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 89,
+   "zh": "リーダーいっしょにとる",
+   "en": "Take with leader",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 90,
+   "zh": "みる",
+   "en": "View",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 91,
+   "zh": "ロケットだん",
+   "en": "Team Rocket",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 92,
+   "zh": "ポケスロンレコード",
+   "en": "Pokéathlon records",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 93,
+   "zh": "リニア",
+   "en": "Magnet Train",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 94,
+   "zh": "コガネ",
+   "en": "Goldenrod",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 95,
+   "zh": "ヤマブキ",
+   "en": "Saffron",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 96,
+   "zh": "つれあるきビュー",
+   "en": "Walking view",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 97,
+   "zh": "ふね",
+   "en": "Ship",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 98,
+   "zh": "アサギ",
+   "en": "Olivine",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 99,
+   "zh": "クチバ",
+   "en": "Vermilion",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 100,
+   "zh": "ロムバージョン",
+   "en": "ROM version",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 101,
+   "zh": "デバッグなし",
+   "en": "No debug",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 102,
+   "zh": "ゴールド",
+   "en": "Gold",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 103,
+   "zh": "シルバー",
+   "en": "Silver",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 104,
+   "zh": "つれあるき",
+   "en": "Walking Pokémon",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 105,
+   "zh": "はっぱ",
+   "en": "Leaves",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 106,
+   "zh": "きげんち",
+   "en": "Mood value",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "debug menu, unused; literal (US keeps the Japanese)"
+  },
+  {
+   "id": 107,
+   "zh": "O",
+   "en": "O",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  },
+  {
+   "id": 108,
+   "zh": "X",
+   "en": "X",
+   "status": "reviewed",
+   "origin": "copy",
+   "notes": ""
+  }
+ ]
+}

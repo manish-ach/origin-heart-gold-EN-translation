@@ -1,0 +1,28 @@
+name: Send a screenshot
+description: Share screenshots of a place, puzzle or menu so we can improve the directions.
+labels: [screenshot]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Filled in for you when you use the link on the page.
+  - type: textarea
+    id: screens
+    attributes:
+      label: Screenshots
+      description: Drag and drop your images here.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: What do they show?
+      description: For example "the door to the auction room on the Condominiums roof".
+  - type: checkboxes
+    id: ok
+    attributes:
+      label: Permission
+      options:
+        - label: I took these screenshots myself and give permission to use them in this project. The game's art belongs to its owners.
+          required: true

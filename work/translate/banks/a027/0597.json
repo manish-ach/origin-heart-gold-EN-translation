@@ -1,0 +1,506 @@
+{
+ "narc": "a027",
+ "bank": 597,
+ "source": "work/extract/v4/a027/0597.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "蜜柑『啊,您是联盟冠军{VAR:0103:0}大人！{SCROLL}蜜柑『啊……我……刚打完道馆战,{NEWLINE}身上还满是汗味呢。{CLEAR}居然以这样的形象与您见面,{CLEAR}真是太丢人了……",
+   "en": "Jasmine: Ah, you’re{NEWLINE}League Champion {VAR:0103:0}!{SCROLL}Jasmine: Oh... I... I just finished{NEWLINE}a Gym battle, and I’m still all{CLEAR}sweaty. Meeting you looking like{CLEAR}this... It’s so embarrassing...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "{VAR}大人 → ‘League Champion {player}’; Jasmine is shy and formal with the Champion."
+  },
+  {
+   "id": 1,
+   "zh": "蜜柑『真不愧是您,{NEWLINE}在限制这么多的情况下{CLEAR}依然能将我的钢铁防守击破。{CLEAR}那么,按照咱们的约定,{CLEAR}请您收下我的钢铁徽章吧。{SCROLL}",
+   "en": "Jasmine: That’s just like you. Even{NEWLINE}with so many restrictions, you still{CLEAR}broke through my steel defense.{SCROLL}So, as we agreed, please{NEWLINE}accept my Mineral Badge.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "{VAR:0103:0}从蜜柑那里{NEWLINE}得到了钢铁徽章！",
+   "en": "{VAR:0103:0} received{NEWLINE}the Mineral Badge from Jasmine!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0606/2"
+  },
+  {
+   "id": 3,
+   "zh": "蜜柑『还有这个技能机也……{SCROLL}",
+   "en": "Jasmine: And this TM, too...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "{VAR:0103:0}从蜜柑那里{NEWLINE}得到了技能机２３！",
+   "en": "{VAR:0103:0} received TM23 from Jasmine!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "空",
+   "en": "---",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 138 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 6,
+   "zh": "蜜柑『冠军大人,很高兴见到您。{NEWLINE}最近您还好吗？{CLEAR}那个……您这次来浅葱道馆,{CLEAR}是专程来找我对战的吗？",
+   "en": "Jasmine: Champion, it’s so nice{NEWLINE}to see you. How have you been?{SCROLL}Um... Did you come to the{NEWLINE}Olivine Gym just to battle me?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "蜜柑『不是为了对战而来？{NEWLINE}那……那就是专程来看我的？{CLEAR}哎呀……我、我可没有不好意思！",
+   "en": "Jasmine: You didn’t come to battle?{NEWLINE}Th-then did you come just to see me?{CLEAR}Oh my... I-I’m not embarrassed at all!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "蜜柑『谢谢您来看望浅葱道馆的大家,{NEWLINE}欢迎您有空再来玩啊。",
+   "en": "Jasmine: Thank you for visiting{NEWLINE}everyone at the Olivine Gym. Please{CLEAR}come again whenever you’re free.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "蜜柑『这次的战斗{NEWLINE}就请您拿出全部实力,{CLEAR}让我一睹冠军的风采吧！",
+   "en": "Jasmine: In this battle, please{NEWLINE}give it everything you’ve got and{CLEAR}let me see what a Champion can do!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "蜜柑『您是希望单打还是双打？",
+   "en": "Jasmine: Would you like{NEWLINE}Singles or Doubles?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "蜜柑『这样啊……真是遗憾。",
+   "en": "Jasmine: I see... That’s a shame.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US line rewritten to match the shorter zh."
+  },
+  {
+   "id": 12,
+   "zh": "蜜柑『虽然输了,{NEWLINE}但是能跟您对战我还是很开心的！",
+   "en": "Jasmine: I lost, but I’m still{NEWLINE}so happy I got to battle you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "蜜柑『您带的精灵数量不足两只,{NEWLINE}没法进行双打对战。",
+   "en": "Jasmine: You have fewer than{NEWLINE}two Pokémon with you, so we{CLEAR}can’t have a Double Battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "蜜柑『精灵蛋也可以,{NEWLINE}{VAR:0103:0}抚养长大的{CLEAR}精灵都很厉害呢。",
+   "en": "Jasmine: An Egg would be fine{NEWLINE}too. Any Pokémon raised by you,{CLEAR}{VAR:0103:0}, is sure to be strong.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US line rewritten: hack zh says an Egg is fine too, anything the player raised is strong."
+  },
+  {
+   "id": 15,
+   "zh": "蜜柑『我很高兴……{NEWLINE}但我无法接受{CLEAR}如此贵重的精灵。",
+   "en": "Jasmine: I’d appreciate it so much...{NEWLINE}Except that I cannot accept such{CLEAR}a precious Pokémon.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0606/15"
+  },
+  {
+   "id": 16,
+   "zh": "是道馆馆主蜜柑么？{SCROLL}灯塔里的精灵的状况{NEWLINE}好像不是很好,{CLEAR}所以她去照看了！{SCROLL}真正强的训练师,{NEWLINE}是力量和温柔{CLEAR}兼备的人呢……",
+   "en": "Jasmine, the Gym Leader?{NEWLINE}She’s at the Lighthouse.{SCROLL}She’s been tending to a sick Pokémon.{SCROLL}A strong Trainer is compassionate{NEWLINE}at the same time...",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0606/16"
+  },
+  {
+   "id": 17,
+   "zh": "蜜柑馆主非常擅长使用钢系精灵。{SCROLL}为了不让挑战者们{NEWLINE}发现她心中的那份温柔,{CLEAR}用钢铁的那般冷酷{CLEAR}将其深藏起来了！",
+   "en": "Jasmine uses Steel-type Pokémon.{SCROLL}She’s trying to hide her tenderness{NEWLINE}behind her steely coldness.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0606/17"
+  },
+  {
+   "id": 18,
+   "zh": "冠军大人在灯塔上的战斗真是厉害,{NEWLINE}不愧为传说中的火箭队克星。",
+   "en": "Your battle at the Lighthouse was{NEWLINE}amazing, Champion. You really are{CLEAR}the legendary bane of Team Rocket.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "嗯,你果然来了呢！{SCROLL}虽说你为道馆馆主{NEWLINE}而帮了大忙,但是{CLEAR}道馆就是道馆！{SCROLL}请你认真对待！",
+   "en": "I knew you’d come here.{SCROLL}Thank you for helping the Gym Leader,{NEWLINE}but battle is a separate matter.{SCROLL}Go for it!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0606/19"
+  },
+  {
+   "id": 20,
+   "zh": "厉害！以这个劲头{NEWLINE}可以试着到各地去转转。{SCROLL}既然有冲浪技能,{NEWLINE}那么去愤怒湖看看{CLEAR}怎么样呢！",
+   "en": "Impressive!{SCROLL}You should continue your journey to{NEWLINE}different places.{SCROLL}Since you can use Surf, why don’t you{NEWLINE}try it on the Lake of Rage?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0606/20"
+  },
+  {
+   "id": 21,
+   "zh": "呵呵,我在灯塔里{NEWLINE}已经见识过你的实力了。{SCROLL}这次,你和蜜柑{NEWLINE}算是棋逢对手！{SCROLL}……我为你加油！",
+   "en": "Giggle...{SCROLL}I know how capable you are{NEWLINE}from the Lighthouse.{SCROLL}It’s time you showed that side of{NEWLINE}yourself to Jasmine! Good luck!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0606/21"
+  },
+  {
+   "id": 22,
+   "zh": "表现的很出色呢……{SCROLL}你拥有如此超群的实力,{NEWLINE}那应该把目标定得更高！{SCROLL}你已经去过卡吉镇了么？",
+   "en": "You are amazing...{SCROLL}You should aim even higher, since{NEWLINE}you have such potential.{SCROLL}Have you been to Mahogany Town?",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0606/22"
+  },
+  {
+   "id": 23,
+   "zh": "浅葱市　精灵道馆",
+   "en": "Olivine City Pokémon Gym",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0606/23"
+  },
+  {
+   "id": 24,
+   "zh": "浅葱市　精灵道馆{SCROLL}道馆馆主　蜜柑{NEWLINE}所认可的训练师！{CLEAR}{VAR:0103:0}",
+   "en": "Olivine City Pokémon Gym{SCROLL}Leader: Jasmine{NEWLINE}Certified Trainer!{CLEAR}{VAR:0103:0}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0606/24"
+  },
+  {
+   "id": 25,
+   "zh": "我是来挑战道馆的",
+   "en": "I’m here to challenge the Gym",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "没事,我就随便看看",
+   "en": "Nothing, just looking",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "蜜柑『那个……冠军大人今天来这儿,{NEWLINE}是来视察工作吗？",
+   "en": "Jasmine: Um... Champion, are you{NEWLINE}here today to inspect our work?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0103:0}『其实我正和阿金比赛{NEWLINE}收集城都地区的8个徽章,{CLEAR}所以想向你挑战取得钢铁徽章。",
+   "en": "{VAR:0103:0}: Actually, I’m racing Gold to{NEWLINE}collect Johto’s 8 Badges. So I’d like{CLEAR}to challenge you for the Mineral Badge.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "蜜柑『啊！不敢不敢。{NEWLINE}冠军大人与我对战怎么能说是挑战呢。{CLEAR}应该是我向您发起挑战才对。{CLEAR}不过我肯定不是您的对手,{CLEAR}虽说我很想直接把钢铁徽章给您,{CLEAR}但是这样恐怕不太符合规矩。{CLEAR}所以请您与我来一场{CLEAR}限制型的比赛吧。",
+   "en": "Jasmine: Ah! Oh, no, no. How could{NEWLINE}a battle between you and me be{CLEAR}called a challenge? If anything, I{CLEAR}should be the one challenging you.{SCROLL}Of course, I’m no match for you.{NEWLINE}I’d love to just hand you the{CLEAR}Mineral Badge, but I’m afraid that{CLEAR}wouldn’t really follow the rules.{SCROLL}So please face me in a{NEWLINE}battle with restrictions.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "蜜柑『您需要使用3只{NEWLINE}「物防种族值不低于130」的精灵{CLEAR}与我进行3V3单打对战。{CLEAR}如果能在这个限制规则下击败我,{CLEAR}我就将钢铁徽章授予给您。{SCROLL}蜜柑『您已经做好{NEWLINE}道馆战的准备了吗？",
+   "en": "Jasmine: You’ll need to use three{NEWLINE}Pokémon with a base Defense{CLEAR}of 130 or higher and face me{CLEAR}in a 3-on-3 Single Battle.{SCROLL}If you can beat me under these rules,{NEWLINE}I’ll award you the Mineral Badge.{SCROLL}Jasmine: Are you ready{NEWLINE}for the Gym battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "蜜柑『等您做好了准备,{NEWLINE}随时可以来找我。",
+   "en": "Jasmine: Whenever you’re{NEWLINE}ready, come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "蜜柑『咱们是3V3的比赛,{NEWLINE}您携带的精灵数量不够呀。",
+   "en": "Jasmine: This is a 3-on-3 battle. You{NEWLINE}don’t have enough Pokémon with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "蜜柑『咱们是3V3的比赛,{NEWLINE}您携带的精灵数量太多了。",
+   "en": "Jasmine: This is a 3-on-3 battle.{NEWLINE}You have too many Pokémon with you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "蜜柑『这次战斗的限制条件是{NEWLINE}使用「物防种族值不低于130」的精灵{CLEAR}与我进行3V3单打对战。{CLEAR}您携带有不符合条件的精灵,{CLEAR}请您整理一下背包再来吧。",
+   "en": "Jasmine: For this battle, you must use{NEWLINE}Pokémon with a base Defense of 130{CLEAR}or higher in a 3-on-3 Single Battle.{SCROLL}Some of the Pokémon you’re{NEWLINE}carrying don’t qualify. Please sort{CLEAR}out your party and come back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "蜜柑『当我在石英大会转播中{NEWLINE}看到您战斗的英姿时,{CLEAR}我就成为了您的铁杆粉丝。{CLEAR}今天我会拿出我最擅长的{CLEAR}铜墙铁壁一般的防守,{CLEAR}与您进行一场全力以赴的战斗！",
+   "en": "Jasmine: When I watched you battle{NEWLINE}on the Indigo Conference broadcast,{CLEAR}I became your biggest fan.{SCROLL}Today I’ll use my specialty, a defense{NEWLINE}as solid as a wall of steel, and{CLEAR}battle you with everything I have!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "{VAR:FF01:200}不好了！蜜柑大人！！！{VAR:FF01:100}",
+   "en": "{VAR:FF01:200}Lady Jasmine! Trouble!!!{VAR:FF01:100}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Gym Trainers call her 蜜柑大人 → ‘Lady Jasmine’. Double-size shout: one line per page (a line break inside {VAR:FF01:200} overflows the box and corrupts memory; heap_audit.md)."
+  },
+  {
+   "id": 37,
+   "zh": "蜜柑『发生什么事了？",
+   "en": "Jasmine: What’s happened?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "是火箭队！{NEWLINE}火箭队突然出现在了浅葱灯塔,{CLEAR}好像是冲着小明来的！",
+   "en": "It’s Team Rocket! Team Rocket suddenly{NEWLINE}showed up at the Olivine Lighthouse.{CLEAR}They seem to be after Amphy!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "小明 = Amphy (电龙小明, D-0772)."
+  },
+  {
+   "id": 39,
+   "zh": "蜜柑『光天化日之下就敢现身,{NEWLINE}火箭队真是太目中无人了。{CLEAR}招呼道馆的大伙一起去浅葱灯塔,{CLEAR}无论他们是冲着什么来的,{CLEAR}都叫他们有来无回！",
+   "en": "Jasmine: Showing up in broad daylight...{NEWLINE}Team Rocket has no shame at all.{SCROLL}Gather everyone at the Gym and{NEWLINE}head to the Olivine Lighthouse.{CLEAR}Whatever they’re after, they{CLEAR}won’t leave in one piece!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "是！蜜柑大人！",
+   "en": "Yes, Lady Jasmine!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "阿金『偶像,他们刚才说什么{NEWLINE}灯塔出现了火箭队,{CLEAR}咱们也过去看看吧,{CLEAR}可不能让火箭队这帮人为所欲为！",
+   "en": "Gold: Idol, did they just{NEWLINE}say Team Rocket showed up at the{CLEAR}Lighthouse? Let’s go check it out{CLEAR}too. We can’t let those Team Rocket{CLEAR}creeps do whatever they want!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "蜜柑『{VAR:0103:0}大人,{NEWLINE}火箭队突然出现在浅葱市,{CLEAR}目标有可能是我们浅葱灯塔上{CLEAR}提供能源的电龙小明。{CLEAR}我现在必须去处理一下这件事,{CLEAR}您如果有时间的话……{CLEAR}也请一起来吧！",
+   "en": "Jasmine: {VAR:0103:0}, Team Rocket{NEWLINE}has suddenly appeared in Olivine{CLEAR}City. Their target may be Amphy,{CLEAR}who powers our Olivine Lighthouse.{SCROLL}I have to go deal with this now. If{NEWLINE}you have time... please come too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "阿金『偶像,我刚刚已经{NEWLINE}从蜜柑馆主那儿获得了钢铁徽章,{CLEAR}虽然蜜柑馆主表面上是柔弱的女孩子,{CLEAR}可战斗起来一点都不马虎。",
+   "en": "Gold: Idol, I just got the{NEWLINE}Mineral Badge from Jasmine!{SCROLL}She looks like a delicate girl, but she{NEWLINE}doesn’t mess around in battle at all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "爆太郎『Tyyy——lo！",
+   "en": "Exbo: Tyyy-lo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "你好,我专为获得钢铁徽章的训练家{NEWLINE}提供技能教学服务。{CLEAR}如果你能从蜜柑小姐那赢得钢铁徽章,{CLEAR}我就可以教你一招金属爆破技能。",
+   "en": "Hello! I offer move tutoring to Trainers{NEWLINE}who’ve earned the Mineral Badge.{SCROLL}If you can win the Mineral{NEWLINE}Badge from Miss Jasmine, I{CLEAR}can teach you Metal Burst.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "你好啊冠军大人,{NEWLINE}多谢您在灯塔上帮我们赶走火箭队。{CLEAR}请问您现在需要让您的精灵{CLEAR}学习金属爆破吗？",
+   "en": "Hello, Champion! Thank you for{NEWLINE}helping us drive Team Rocket out of{CLEAR}the Lighthouse. Would you like your{CLEAR}Pokémon to learn Metal Burst now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 48,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it,{NEWLINE}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 49,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住金属爆破。{SCROLL}",
+   "en": "Sorry... This Pokémon{NEWLINE}can’t learn Metal Burst.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……{SCROLL}",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 51,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会金属爆破了！{SCROLL}",
+   "en": "This {VAR:0100:0} already{NEWLINE}knows Metal Burst!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 53,
+   "zh": "{VAR:0101:0}学会了金属爆破！",
+   "en": "{VAR:0101:0} learned Metal Burst!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}已经学会金属爆破了！{SCROLL}虽然这是一招变化技能,{NEWLINE}但如果配合上钢系精灵的强大防御,{CLEAR}这招往往可以打出巨量伤害。",
+   "en": "There! Your {VAR:0100:0}{NEWLINE}has learned Metal Burst!{SCROLL}It’s a status move, but paired with{NEWLINE}a Steel type’s mighty defenses,{CLEAR}it can often deal massive damage.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "zh calls Metal Burst a 变化技能 (status move); kept as written."
+  },
+  {
+   "id": 55,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的金属爆破……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习金属爆破{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to{NEWLINE}learn Metal Burst...!{SCROLL}But {VAR:0101:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move{NEWLINE}to learn Metal Burst?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 57,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all about{NEWLINE}{VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 58,
+   "zh": "你是要放弃{NEWLINE}让它记住金属爆破吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Metal Burst?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 60,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 61,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  }
+ ]
+}

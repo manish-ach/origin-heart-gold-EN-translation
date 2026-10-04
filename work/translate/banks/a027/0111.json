@@ -1,0 +1,831 @@
+{
+ "narc": "a027",
+ "bank": 111,
+ "source": "work/extract/v4/a027/0111.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "冲进来的这帮人好强啊,{NEWLINE}我根本就挡不住。",
+   "en": "The people who stormed in{NEWLINE}are way too strong. There’s{CLEAR}no way I can hold them back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "小蓝『{VAR:0103:0},一树交给我来对付吧,{NEWLINE}这次我不会再输了。",
+   "en": "Green: {VAR:0103:0}, leave Will to{NEWLINE}me. I won’t lose this time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "小赤『{VAR:0103:0},一树交给我来对付吧,{NEWLINE}这次我不会再输了。",
+   "en": "Red: {VAR:0103:0}, leave Will to{NEWLINE}me. I won’t lose this time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "小蓝『妙蛙花,使用催眠粉。",
+   "en": "Green: Venusaur, use Sleep Powder.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "小赤『妙蛙花,使用催眠粉。",
+   "en": "Red: Venusaur, use Sleep Powder.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "妙蛙花『Veee——nu！",
+   "en": "Venusaur: Veee-nu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "一树『青铜钟,保护！",
+   "en": "Will: Bronzong, Protect!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "柳伯『真没想到乔伊小姐{NEWLINE}居然也是火箭队的一员,{CLEAR}看来坂木这小子收买了不少人啊。",
+   "en": "Pryce: Who would have thought Miss{NEWLINE}Joy was a member of Team Rocket{CLEAR}too? That Giovanni boy has bought{CLEAR}off quite a few people, it seems.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Rocket Joy (乔伊) battles Pryce; Will and Karen (Rocket) also here; Cassidy & Butch double battle."
+  },
+  {
+   "id": 8,
+   "zh": "柳伯『象牙猪,使用暴风雪！",
+   "en": "Pryce: Mamoswine, use Blizzard!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "乔伊『吉利蛋变小！",
+   "en": "Joy: Chansey, Minimize!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "柳伯『变小、生蛋,真是难缠的战术。",
+   "en": "Pryce: Minimize and Soft-Boiled...{NEWLINE}What a troublesome strategy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "乔伊『柳伯馆主承让了。",
+   "en": "Joy: Thank you for{NEWLINE}going easy on me, Pryce.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "柳伯『哼,嚣张的小丫头。{NEWLINE}象牙猪继续猛攻！",
+   "en": "Pryce: Hmph, what a cheeky young{NEWLINE}lady. Mamoswine, keep up the attack!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "小蓝『你已经二连保了,{NEWLINE}下回合可就护不住了哦。",
+   "en": "Green: That’s two Protects in a{NEWLINE}row. It won’t hold up next turn.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "小赤『你已经二连保了,{NEWLINE}下回合可就护不住了。",
+   "en": "Red: That’s two Protects in a{NEWLINE}row. It won’t hold up next turn.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "一树『那咱们就走着瞧。",
+   "en": "Will: We’ll see about that.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "{VAR:0103:0}从渡那里{NEWLINE}得到秘传机０５！",
+   "en": "{VAR:0103:0} received HM05 from Lance!",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0113/16"
+  },
+  {
+   "id": 17,
+   "zh": "小蓝『妙蛙花,疯狂植物！",
+   "en": "Green: Venusaur, Frenzy Plant!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "小赤『妙蛙花,疯狂植物！",
+   "en": "Red: Venusaur, Frenzy Plant!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "一树『青铜钟,精神强念！",
+   "en": "Will: Bronzong, Psychic!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "「产生怪电波装置」{SCROLL}这扇门看来只对说密码的{NEWLINE}人的声音产生反应{CLEAR}而打开……",
+   "en": "‘Radio Transmitter’{SCROLL}It seems this door opens only{NEWLINE}for the voice of the person{CLEAR}who says the password...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "US 0113/20"
+  },
+  {
+   "id": 21,
+   "zh": "门关着……{SCROLL}{VAR:0103:0}{NEWLINE}输入密码,{SCROLL}门开了！{SCROLL}",
+   "en": "The door’s closed...{SCROLL}{VAR:0103:0} entered the password.{SCROLL}The door opened!{SCROLL}",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0113/21"
+  },
+  {
+   "id": 22,
+   "zh": "产生怪电波的装置{NEWLINE}不停在工作。",
+   "en": "It’s the radio transmitter that’s{NEWLINE}sending the sinister signal.{SCROLL}It’s working at full capacity.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0113/22"
+  },
+  {
+   "id": 23,
+   "zh": "产生怪电波的装置{NEWLINE}好像停了。",
+   "en": "The radio transmitter has finally{NEWLINE}stopped its evil broadcast.",
+   "status": "draft",
+   "origin": "us",
+   "notes": "US 0113/23"
+  },
+  {
+   "id": 24,
+   "zh": "梨花『小银大人,{NEWLINE}我们才是你的伙伴,{CLEAR}你这样做坂木老大会生气哦。",
+   "en": "Karen: Master Silver, we’re{NEWLINE}your real friends. Boss Giovanni{CLEAR}will be angry if you keep this up.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "小银『我要成为最强训练家,{NEWLINE}才不会被什么无聊的组织牵绊。{CLEAR}上啊大力鳄,水流喷射！",
+   "en": "Silver: I’m going to be the strongest{NEWLINE}Trainer. I won’t be tied down by some{CLEAR}stupid organization. Go, Feraligatr,{CLEAR}Aqua Jet!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "ext-review RA-008"
+  },
+  {
+   "id": 26,
+   "zh": "梨花『不疼不痒。{NEWLINE}狡猾天狗使用种子机枪！",
+   "en": "Karen: That didn’t even tickle.{NEWLINE}Shiftry, use Bullet Seed!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "大力鳄『Feeee——ra！{SCROLL}大力鳄快撑不住了,{NEWLINE}要帮助小银吗？",
+   "en": "Feraligatr: Feeee-ra!{SCROLL}Feraligatr can’t hold out{NEWLINE}much longer. Help Silver?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "{VAR:0103:0}『小银,梨花非常厉害,{NEWLINE}交给我来对付吧。",
+   "en": "{VAR:0103:0}: Silver, Karen is{NEWLINE}really strong. Leave her to me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "梨花『你这个碍事的冠军,{NEWLINE}居然敢到我们的基地来,{CLEAR}这次一定要让你有来无回！",
+   "en": "Karen: You meddling Champion, how{NEWLINE}dare you come into our base. This{CLEAR}time, you won’t leave here alive!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "梨花『我……又输了……",
+   "en": "Karen: I... lost again...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "小银『切,多管闲事。",
+   "en": "Silver: Tch. Mind your own business.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "小银『我的大力鳄受伤了,{NEWLINE}这次就交给你吧。",
+   "en": "Silver: My Feraligatr is hurt.{NEWLINE}I’ll leave this one to you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "梨花『打败了我又如何？{NEWLINE}我们的「R计划」马上就要实施了,{CLEAR}到时候有你好看的！",
+   "en": "Karen: So what if you beat me? Our{NEWLINE}‘Project R’ is about to go into action.{CLEAR}Then you’ll get what’s coming to you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "狡猾天狗『Shiii——ry！",
+   "en": "Shiftry: Shiii-ry!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "大力鳄『Feeee——ra！",
+   "en": "Feraligatr: Feeee-ra!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s)"
+  },
+  {
+   "id": 36,
+   "zh": "小银『连梨花都打不过,{NEWLINE}看来我还差得远啊。",
+   "en": "Silver: I can’t even beat Karen.{NEWLINE}I’ve still got a long way to go.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "亚玛多『联盟冠军{VAR:0103:0},{NEWLINE}你就到此为止吧！",
+   "en": "Cassidy: League Champion{NEWLINE}{VAR:0103:0}, this is as far as you go!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "小三郎『这里是我们的基地,{NEWLINE}可容不得你胡作非为！",
+   "en": "Butch: This is our base. We{NEWLINE}won’t let you run wild here!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "亚玛多『二打一怎么还是输呢,{NEWLINE}好讨厌的感觉！",
+   "en": "Cassidy: Two on one, and we still lost?{NEWLINE}Looks like we’re blasting off again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "小三郎『你有本事就继续往前走吧,{NEWLINE}这次我们火箭队的干部全员都在,{CLEAR}一定能让你有来无回。",
+   "en": "Butch: Go on ahead if you’ve{NEWLINE}got the guts. This time every{CLEAR}Team Rocket Executive is{CLEAR}here. You won’t leave alive.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "你到这个角落来干什么！{NEWLINE}这里没有你要找的东西。",
+   "en": "What are you doing in this{NEWLINE}corner?! There’s nothing{CLEAR}you’re looking for here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "啊……我没能守住重要的钥匙。",
+   "en": "Ah... I couldn’t protect{NEWLINE}the important key.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "顽皮弹的电力正在被机器抽走,{NEWLINE}看起来很痛苦。{SCROLL}要打断它吗？",
+   "en": "The machine is draining Electrode’s{NEWLINE}electricity. It looks like it’s in pain.{SCROLL}Stop it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "水晶『对不起了顽皮弹。{NEWLINE}大竹蹦使用能量球！",
+   "en": "Crystal: I’m sorry, Electrode.{NEWLINE}Megaree, use Energy Ball!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "小蓝『火箭队真是造孽啊。{NEWLINE}妙蛙花,给顽皮弹个痛快吧。{CLEAR}使用疯狂植物！",
+   "en": "Green: Team Rocket is so cruel.{NEWLINE}Venusaur, put Electrode out of{CLEAR}its misery. Use Frenzy Plant!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "小赤『火箭队真是造孽啊。{NEWLINE}妙蛙花,给顽皮弹个痛快吧。{CLEAR}使用疯狂植物！",
+   "en": "Red: Team Rocket is so cruel.{NEWLINE}Venusaur, put Electrode out of{CLEAR}its misery. Use Frenzy Plant!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "小蓝『{VAR:0103:0},{NEWLINE}这边的顽皮弹都处理完了,{CLEAR}咱们去看看另外一边的情况吧。",
+   "en": "Green: {VAR:0103:0}, all the Electrode on{NEWLINE}this side are taken care of. Let’s{CLEAR}go see how the other side is doing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "小赤『{VAR:0103:0},{NEWLINE}这边的顽皮弹都处理完了,{CLEAR}咱们去看看另外一边的情况吧。",
+   "en": "Red: {VAR:0103:0}, all the Electrode on{NEWLINE}this side are taken care of. Let’s{CLEAR}go see how the other side is doing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "{VAR:0103:0}『好。",
+   "en": "{VAR:0103:0}: OK.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "渡『{VAR:0103:0},我们没有办法{NEWLINE}将顽皮弹从装置上取下来,{CLEAR}所以只能把它们全部打倒了。{CLEAR}你们那边的情况呢？",
+   "en": "Lance: {VAR:0103:0}, we couldn’t get{NEWLINE}the Electrode off the device, so{CLEAR}we had no choice but to knock them{CLEAR}all out. How about on your side?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "{VAR:0103:0}『我们也是一样,{NEWLINE}打倒了全部的顽皮弹。",
+   "en": "{VAR:0103:0}: Same here. We{NEWLINE}knocked out all the Electrode.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "渡『秀力博士,这样电波装置{NEWLINE}就停止工作了吗？",
+   "en": "Lance: Prof. Hale, has the{NEWLINE}radio-wave device stopped now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "秀力博士『理论上应该是的。{NEWLINE}你们谁带着收音机的话,{CLEAR}可以打开听听,{CLEAR}如果可以正常收听节目,{CLEAR}那肯定就没问题了。",
+   "en": "Prof. Hale: In theory, it{NEWLINE}should have. If any of you have{CLEAR}a radio, turn it on and listen.{SCROLL}If you can hear the shows normally,{NEWLINE}then there’s definitely no problem.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "柳伯『哦？让我听听我的收音机……",
+   "en": "Pryce: Oh? Let me listen to my radio...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "柳伯『呵！没错！是小胡桃的声音！{NEWLINE}卡吉镇的电波干扰总算消除了。",
+   "en": "Pryce: Ho! That’s it! That’s Mary’s{NEWLINE}voice! The radio interference in{CLEAR}Mahogany Town is finally gone.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "渡『呼……由红色暴鲤龙{NEWLINE}牵扯出的一系列事件{CLEAR}总算是告一段落了。",
+   "en": "Lance: Phew... The whole chain{NEWLINE}of events that started with the red{CLEAR}Gyarados has finally come to an end.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "渡『柳伯前辈、{VAR:0103:0},{NEWLINE}我现在要返回精灵联盟,{CLEAR}向达马兰奇主席报告这里发生的一切,{CLEAR}咱们后会有期。",
+   "en": "Lance: Mr. Pryce, {VAR:0103:0}, I{NEWLINE}have to go back to the Pokémon League{CLEAR}now to report everything{CLEAR}that happened here to President{CLEAR}Goodshow. Until we meet again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "柳伯『{VAR:0103:0}、阿金啊,{NEWLINE}我万万没想到,{CLEAR}在我眼皮底下的卡吉镇{CLEAR}居然成了藏匿火箭队的窝点,{CLEAR}看来在彻底解决掉火箭队之前,{CLEAR}我是没脸退休了。{SCROLL}柳伯『从今天起我会重新担负起{NEWLINE}道馆馆主的职责。{CLEAR}如果你们想找个地方锻炼自己,{CLEAR}随时欢迎来卡吉道馆。",
+   "en": "Pryce: {VAR:0103:0}, Gold... I never{NEWLINE}imagined that Mahogany Town,{CLEAR}right under my nose, had become{CLEAR}a hideout for Team Rocket.{SCROLL}Until Team Rocket is dealt with for{NEWLINE}good, I would be ashamed to retire.{SCROLL}Pryce: From today, I will take{NEWLINE}up my duties as Gym Leader again. If{CLEAR}you want a place to train, you are{CLEAR}always welcome at the Mahogany Gym.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "阿金『偶像,我原来一直觉得{NEWLINE}火箭队是个不成器的犯罪集团,{CLEAR}但经历过这次事件之后,{CLEAR}我才真正意识到{CLEAR}火箭队是个既有阴谋和野心,{CLEAR}又有强大力量的危险组织。{CLEAR}现在他们虽然逃走藏了起来,{CLEAR}但等他们积蓄够力量后{CLEAR}一定会再出来搞事。{SCROLL}阿金『为了将来能在{NEWLINE}跟火箭队的战斗中出一份力,{CLEAR}我需要以更加认真的态度{CLEAR}锻炼自己才行。{CLEAR}下一步就以尽快收集齐{CLEAR}城都地区的最后两个徽章为目标吧,{CLEAR}偶像你可不要太落后了哦。",
+   "en": "Gold: Idol, I always thought{NEWLINE}Team Rocket was a gang of{CLEAR}good-for-nothing crooks.{SCROLL}But after all this, I finally get it.{NEWLINE}Team Rocket is a dangerous organization{CLEAR}with schemes, ambition and real power.{SCROLL}They’ve run off and hidden{NEWLINE}for now, but once they build{CLEAR}up their strength, they’ll come{CLEAR}back to cause trouble for sure.{SCROLL}Gold: If I want to do my{NEWLINE}part in the fight against Team{CLEAR}Rocket someday, I have to take{CLEAR}my training way more seriously.{SCROLL}My next goal is to get the last two{NEWLINE}Johto Badges as fast as I can.{CLEAR}Don’t fall too far behind, Idol!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "秀力博士『谢谢你,{VAR:0103:0}。{NEWLINE}这是我第二次被你救了,{CLEAR}真不知道该怎么感谢你才好。{CLEAR}如果你以后{CLEAR}对收服传说中的精灵有什么疑问,{CLEAR}可以来阿鲁夫研究所找我,{CLEAR}我必将知无不言、言无不尽。",
+   "en": "Prof. Hale: Thank you, {VAR:0103:0}. This{NEWLINE}is the second time you’ve saved me. I{CLEAR}don’t know how to thank you enough.{SCROLL}If you ever have questions{NEWLINE}about catching legendary Pokémon, come{CLEAR}see me at the Ruins of Alph Research{CLEAR}Center. I’ll tell you everything I know.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "水晶『前辈,我也有跟阿金类似的感受。{NEWLINE}这次来到火箭队基地,{CLEAR}确实有被他们的体量震惊到。{CLEAR}原本我以为只要大家齐心协力,{CLEAR}就能轻松打败火箭队,{CLEAR}现在看来事情不会那么简单。{CLEAR}为了不让火箭队{CLEAR}再在这片土地上制造悲剧,{CLEAR}我今后必须要有拼死一战的觉悟了。{SCROLL}水晶『听说卡吉镇东边的冰之通路{NEWLINE}既有少见的冰系精灵,{CLEAR}又有高手在那里修行,{CLEAR}我准备去那里一边抓精灵一边锻炼,{CLEAR}咱们回头见啦前辈。",
+   "en": "Crystal: I feel the same way Gold does.{NEWLINE}Coming to this Team Rocket base, I was{CLEAR}honestly shocked by how big they are.{SCROLL}I used to think that if we all worked{NEWLINE}together, we could easily beat Team{CLEAR}Rocket. Now it doesn’t look that simple.{SCROLL}To stop Team Rocket from{NEWLINE}causing any more tragedies in{CLEAR}this land, I have to be ready to{CLEAR}fight with everything I’ve got.{SCROLL}Crystal: I hear the Ice Path{NEWLINE}east of Mahogany Town has rare{CLEAR}Ice-type Pokémon and strong{CLEAR}Trainers training there.{SCROLL}I’m going to go there to catch{NEWLINE}Pokémon and train. See you later!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "小蓝『小银,你今后有什么打算？",
+   "en": "Green: Silver, what are your plans now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "小赤『小银,你今后有什么打算？",
+   "en": "Red: Silver, what are your plans now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "小银『我也要去收集徽章,{NEWLINE}参加今年的石英大会。{CLEAR}并且在大会上打赢联盟冠军,{CLEAR}成为最强训练家！",
+   "en": "Silver: I’m going to collect{NEWLINE}Badges too and enter this{CLEAR}year’s Indigo Conference.{SCROLL}And I’ll beat the League Champion there{NEWLINE}and become the strongest Trainer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "小蓝『哈哈,这么有干劲啊。{NEWLINE}那你好好努力,{CLEAR}到时候我给你加油！",
+   "en": "Green: Ha ha, you’re so fired{NEWLINE}up! Then work hard, and I’ll{CLEAR}be there cheering for you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "小赤『嗯,有志气。{NEWLINE}那你可得好好努力,{CLEAR}期待你成为最强的那天！",
+   "en": "Red: Yeah, that’s the spirit.{NEWLINE}Then you’d better work hard.{CLEAR}I’m looking forward to the day{CLEAR}you become the strongest!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "小银『谢谢小蓝姐。",
+   "en": "Silver: Thanks, Sis.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "小银『我一定不辜负小赤哥的期待。",
+   "en": "Silver: I won’t let you down, Red.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "小银『你等着吧,咱们石英大会见！",
+   "en": "Silver: Just you wait. See you{NEWLINE}at the Indigo Conference!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "小银『冠军小姐,咱们石英大会见了！",
+   "en": "Silver: See you at the Indigo{NEWLINE}Conference, Miss Champion!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "小蓝『{VAR:0103:0},这次还是跟以前一样,{NEWLINE}只捣毁了火箭队基地,{CLEAR}没能抓住元凶首恶呢。",
+   "en": "Green: {VAR:0103:0}, it’s the same as{NEWLINE}always. We wrecked a Team Rocket base,{CLEAR}but we didn’t catch the ringleaders.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "小赤『{VAR:0103:0},这次还是跟以前一样,{NEWLINE}只捣毁了火箭队基地,{CLEAR}没能抓住元凶首恶啊。",
+   "en": "Red: {VAR:0103:0}, it’s the same as always.{NEWLINE}We wrecked a Team Rocket base, but{CLEAR}we didn’t catch the ringleaders.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "{VAR:0103:0}『是啊,火箭队这帮人逃走之后,{NEWLINE}一定又会躲到暗处密谋反扑,{CLEAR}咱们不能掉以轻心。",
+   "en": "{VAR:0103:0}: Yeah. After running off,{NEWLINE}Team Rocket is sure to hide in the{CLEAR}shadows again and plot a comeback.{CLEAR}We can’t let our guard down.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "小蓝『嘿嘿,要我说啊,{NEWLINE}只要有你在就没什么好怕的,{CLEAR}毕竟你可是我们的英雄冠军。",
+   "en": "Green: Hee hee. If you ask me,{NEWLINE}there’s nothing to be scared of{CLEAR}as long as you’re around. You’re{CLEAR}our hero Champion, after all.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "小赤『嗯……想要关东和城都地区{NEWLINE}彻底和平安的,{CLEAR}还有很长的路要走啊。",
+   "en": "Red: Hmm... We’ve still got{NEWLINE}a long way to go before Kanto{CLEAR}and Johto are truly at peace.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "{VAR:0103:0}『也不能这么说,{NEWLINE}火箭队的实力还是很强的,{CLEAR}要靠大家共同的力量……",
+   "en": "{VAR:0103:0}: I wouldn’t say that. Team{NEWLINE}Rocket is still really strong. It’ll{CLEAR}take all of us working together...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "{VAR:0103:0}『哎呀,也不用那么担心啦,{NEWLINE}自古以来邪不压正,{CLEAR}最后的胜利一定是咱们的。",
+   "en": "{VAR:0103:0}: Oh, don’t worry so much.{NEWLINE}Good has always triumphed over evil.{CLEAR}In the end, victory will be ours.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "小蓝『好啦,我知道这些大道理。{NEWLINE}但是你会保护我的,对吗？",
+   "en": "Green: OK, OK, I know all that.{NEWLINE}But you’ll protect me, right?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "小赤『你说的对,全地区的人{NEWLINE}都会跟咱们站在一起{CLEAR}对抗火箭队的暴行,{CLEAR}咱们没有输的道理。",
+   "en": "Red: You’re right. People all{NEWLINE}over the region will stand with us{CLEAR}against Team Rocket’s violence.{CLEAR}There’s no way we can lose.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "{VAR:0103:0}『那当然了,{NEWLINE}我绝不允许火箭队再伤害任何人。",
+   "en": "{VAR:0103:0}: Of course. I’ll never let{NEWLINE}Team Rocket hurt anyone again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "{VAR:0103:0}『嘿嘿,所以说嘛,{NEWLINE}安心生活、好好锻炼,{CLEAR}为最后消灭火箭队做好准备就行了。",
+   "en": "{VAR:0103:0}: Hee hee, exactly. Just live{NEWLINE}your life, train hard and be ready{CLEAR}to finish off Team Rocket in the end.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "小蓝『嗯、嗯,可靠的联盟冠军。{NEWLINE}我现在要回家啦,{CLEAR}以后有空记得来找我玩啊！",
+   "en": "Green: Mm-hmm, my reliable League{NEWLINE}Champion. I’m heading home now.{CLEAR}Come visit me when you’re free!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "小赤『哈哈,说的真对,{NEWLINE}不愧是联盟冠军。{CLEAR}听完你的话我就安心多了。{SCROLL}小赤『现在我要回家了,{NEWLINE}以后有空欢迎来我家作客。",
+   "en": "Red: Ha ha, well said. That’s the{NEWLINE}League Champion for you. Hearing{CLEAR}that puts my mind at ease.{SCROLL}Red: I’m going home now. Come visit{NEWLINE}my house any time you’re free.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "音符鹦鹉『火箭队终将统治世界！",
+   "en": "Chatot: Team Rocket will rule the world!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "秀力博士『理论上来说,{NEWLINE}只要没有精灵为电波发生装置供电,{CLEAR}它就能停止运转。",
+   "en": "Prof. Hale: In theory, as long as no{NEWLINE}Pokémon is powering the radio-wave{CLEAR}generator, it will stop running.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "顽皮弹的电力正在被机器抽走,{NEWLINE}看起来很痛苦。",
+   "en": "The machine is draining Electrode’s{NEWLINE}electricity. It looks like it’s in pain.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "爆太郎『Tyyy——lo！",
+   "en": "Exbo: Tyyy-lo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "阿金『偶像,这里就交给我就行了,{NEWLINE}你去看看另一侧的精灵吧。",
+   "en": "Gold: Idol, I’ve got this. Go check{NEWLINE}on the Pokémon on the other side.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "渡『{VAR:0103:0},{NEWLINE}电波装置束缚住了顽皮弹。{CLEAR}看来让顽皮弹们解脱的唯一办法{CLEAR}只能是与它们战斗了。",
+   "en": "Lance: {VAR:0103:0}, the radio device has{NEWLINE}the Electrode bound tight. It seems the{CLEAR}only way to free them is to battle them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 90,
+   "zh": "快龙『Draaa——gon！",
+   "en": "Dragonite: Draaa-gon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 91,
+   "zh": "柳伯『虽说错不在顽皮弹,{NEWLINE}可也不能放任它们{CLEAR}继续为电波装置供电。",
+   "en": "Pryce: It is not the Electrode’s{NEWLINE}fault, but we cannot let them{CLEAR}keep powering the radio device.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 92,
+   "zh": "象牙猪『Maaaa——mo！",
+   "en": "Mamoswine: Maaaa-mo!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "水晶『前辈,大竹蹦的藤鞭完全没办法{NEWLINE}把顽皮弹从装置上拉下来。{CLEAR}看来只能攻击顽皮弹了。",
+   "en": "Crystal: Megaree’s Vine Whip can’t pull{NEWLINE}the Electrode off the device at all.{CLEAR}Looks like we’ll have to attack them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "大竹蹦『Meeeee——ga！",
+   "en": "Megaree: Meeeee-ga!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "小蓝『这个电波装置……{NEWLINE}不榨干顽皮弹最后一丝体力之前{CLEAR}是不会停下来的,{CLEAR}真是个恶毒的设计。",
+   "en": "Green: This radio device...{NEWLINE}It won’t stop until it’s drained{CLEAR}every last bit of Electrode’s{CLEAR}strength. What a vicious design.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 96,
+   "zh": "小赤『这个电波装置……{NEWLINE}不榨干顽皮弹最后一丝体力之前{CLEAR}是不会停下来的,{CLEAR}真是个恶毒的设计。",
+   "en": "Red: This radio device...{NEWLINE}It won’t stop until it’s drained{CLEAR}every last bit of Electrode’s{CLEAR}strength. What a vicious design.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 97,
+   "zh": "妙蛙花『Veeee——nu！",
+   "en": "Venusaur: Veeee-nu!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 98,
+   "zh": "小银『要不是我的精灵受伤了,{NEWLINE}我一个人就能把这些顽皮弹处理完。",
+   "en": "Silver: If my Pokémon weren’t{NEWLINE}hurt, I could take care of{CLEAR}these Electrode all by myself.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 99,
+   "zh": "伦达的音符鹦鹉,已经没人要了。{NEWLINE}要捕捉吗？",
+   "en": "Petrel’s Chatot. Nobody{NEWLINE}wants it anymore. Catch it?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "滴——系统提示：{NEWLINE}开门前请说出口令{CLEAR}「火箭队终将统治世界」。{SCROLL}要说出口令吗？",
+   "en": "Beep! System notice: Please say the{NEWLINE}password before opening the door:{CLEAR}‘Team Rocket will rule the world!’{SCROLL}Say the password?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 101,
+   "zh": "{VAR:0103:0}『火箭队终将统治世界。",
+   "en": "{VAR:0103:0}: Team Rocket{NEWLINE}will rule the world!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 102,
+   "zh": "滴——声纹不对,无法开门。",
+   "en": "Beep! Voiceprint mismatch.{NEWLINE}The door cannot be opened.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

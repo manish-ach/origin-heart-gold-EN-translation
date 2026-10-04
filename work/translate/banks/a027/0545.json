@@ -1,0 +1,824 @@
+{
+ "narc": "a027",
+ "bank": 545,
+ "source": "work/extract/v4/a027/0545.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "兄弟你好,以前我在练习格斗时,{NEWLINE}被超能力训练家打的一败涂地。{SCROLL}从那以后我就下定决心{NEWLINE}一定要努力修炼打败超能力者。{CLEAR}你愿意与我来一场全力以赴的决斗{CLEAR}帮我检验一下自身实力吗？",
+   "en": "Hey there, bro. A while back, when{NEWLINE}I was training my fighting skills, a{CLEAR}Psychic Trainer beat me to a pulp.{SCROLL}Ever since, I’ve been determined{NEWLINE}to train hard and beat Psychics.{CLEAR}Will you give me an all-out{CLEAR}battle to test my strength?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Gender branch: #0 (male player, 兄弟) / #72 (female, 姐们); also #6/#7, #21/#23, #58/#59."
+  },
+  {
+   "id": 1,
+   "zh": "沙瓦郎『Hit——mon！",
+   "en": "Hitmonlee: Hit-mon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "水晶『你真的来孤儿院看孩子们了,{NEWLINE}真是太感谢了！{CLEAR}能让孩子们跟你的精灵玩一会儿吗？",
+   "en": "Crystal: You really came to see{NEWLINE}the kids at the orphanage! Thank{CLEAR}you so much! Would you let them{CLEAR}play with your Pokémon for a bit?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "水晶『不可以啊……{NEWLINE}那真是太遗憾了。",
+   "en": "Crystal: You can’t...?{NEWLINE}That’s a real shame.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "水晶『太好了,我这就招呼孩子们过来。",
+   "en": "Crystal: Wonderful!{NEWLINE}I’ll call the kids over.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "水晶『小朋友们,{NEWLINE}今天咱们孤儿院来了一位训练家,{CLEAR}想跟精灵一起玩的人可以过来咯！",
+   "en": "Crystal: Everyone! A Trainer{NEWLINE}has come to visit the orphanage{CLEAR}today. If you want to play with{CLEAR}the Pokémon, come on over!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "哇,这次来的是一位大哥哥训练家。",
+   "en": "Wow, this time it’s a{NEWLINE}big-brother Trainer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "哇,这次来的是一位大姐姐训练家。",
+   "en": "Wow, this time it’s a big-sister Trainer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "快让我们看看你的精灵吧。",
+   "en": "Hurry up and show us your Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 9,
+   "zh": "唉？带着稀有的精灵吗？",
+   "en": "Huh? Did you bring a rare Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "水晶『孩子们对精灵很感兴趣,{NEWLINE}所以拜托你介绍一下自己的精灵吧。",
+   "en": "Crystal: The kids are really{NEWLINE}curious about Pokémon, so please{CLEAR}introduce your Pokémon to them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "{VAR:0103:0}『咳咳,大家好啊。{NEWLINE}我现在介绍一下我的伙伴{VAR:0100:1}。",
+   "en": "{VAR:0103:0}: Ahem. Hi, everyone. Let me{NEWLINE}introduce my partner, {VAR:0100:1}.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "说了这么多故事,{NEWLINE}但这只就是普通的{VAR:0100:1}嘛。{CLEAR}我前几天可是在吉野市北边{CLEAR}见到了只有在黑暗洞穴里{CLEAR}才会出现的熔岩虫呢。{CLEAR}单论稀有度的话,{CLEAR}果然还是我见到的熔岩虫更稀有吧！",
+   "en": "That’s a lot of stories, but it’s just{NEWLINE}an ordinary {VAR:0100:1}. The other day,{CLEAR}north of Cherrygrove City, I saw a{CLEAR}Slugma! They only show up in Dark Cave!{SCROLL}If we’re talking rare, the{NEWLINE}Slugma I saw is way rarer!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "你少在那吹牛啦！{NEWLINE}熔岩虫怎么可能会跑到吉野市来。",
+   "en": "Quit making stuff up! No way{NEWLINE}a Slugma would come all the{CLEAR}way to Cherrygrove City.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "说了这么多故事,{NEWLINE}这不过就是很常见的熔岩虫嘛。{CLEAR}我前几天可是在吉野市北边{CLEAR}见到了好几只熔岩虫呢。{SCROLL}这根本就不是什么稀有的精灵吧！",
+   "en": "That’s a lot of stories, but{NEWLINE}it’s just a plain old Slugma. The{CLEAR}other day, north of Cherrygrove{CLEAR}City, I saw a bunch of Slugma!{SCROLL}That’s not a rare Pokémon at all!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "我才没吹牛呢！{SCROLL}你要是不信,{NEWLINE}我这就去抓一只熔岩虫给你们瞧瞧！",
+   "en": "I’m not making it up!{SCROLL}If you don’t believe me, I’ll go catch{NEWLINE}a Slugma right now and show you!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "唉,真是的,怎么说走就走了。",
+   "en": "Oh, honestly. Running{NEWLINE}off just like that.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "水晶啊,拉特要是真去黑暗洞穴,{NEWLINE}那就太危险了,{CLEAR}麻烦你去把他追回来吧。",
+   "en": "Crystal, if Rhett really goes to Dark{NEWLINE}Cave, it’ll be too dangerous. Could you{CLEAR}please go after him and bring him back?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "水晶『好的,园长！",
+   "en": "Crystal: Yes, Director!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "园长 (orphanage head) → ‘Director’ (as 馆长 → the director)."
+  },
+  {
+   "id": 19,
+   "zh": "水晶『打断你的介绍,实在是对不起！{NEWLINE}但是我也不能丢下拉特不管,{CLEAR}所以请原谅我暂时失陪了。",
+   "en": "Crystal: I’m so sorry for{NEWLINE}interrupting your introduction! But{CLEAR}I can’t just leave Rhett on his own,{CLEAR}so please excuse me for a while.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "哇,是{VAR:0100:1}哎！{NEWLINE}我还是第一次见。",
+   "en": "Wow, it’s a {VAR:0100:1}! That’s{NEWLINE}my first time seeing one.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "大哥哥能给我们讲一下{NEWLINE}你和{VAR:0100:1}之间的故事吗？",
+   "en": "Big brother, can you tell us a{NEWLINE}story about you and {VAR:0100:1}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 22,
+   "zh": "{VAR:0103:0}『这就说来话长了,{NEWLINE}我记得第一次跟{VAR:0100:1}见面是在……",
+   "en": "{VAR:0103:0}: That’s a long story. I think{NEWLINE}the first time I met {VAR:0100:1} was...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "大姐姐能给我们讲一下{NEWLINE}你和{VAR:0100:1}之间的故事吗？",
+   "en": "Big sister, can you tell us a{NEWLINE}story about you and {VAR:0100:1}?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "空木『你来了啊{VAR:0103:0},{NEWLINE}我已经跟水晶聊过了,{CLEAR}她确实是个做事认真{CLEAR}又有实力的训练家。{SCROLL}空木『我觉得完全可以{NEWLINE}把精灵和图鉴托付给她。",
+   "en": "Prof. Elm: There you are, {VAR:0103:0}.{NEWLINE}I’ve talked with Crystal. She really{CLEAR}is a hardworking and skilled Trainer.{SCROLL}Prof. Elm: I’m sure I can trust{NEWLINE}her with a Pokémon and a Pokédex.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "空木『水晶,你就放心地去旅行吧,{NEWLINE}孤儿院的事我会出资帮忙的,{CLEAR}就当是给你的研究经费了。",
+   "en": "Prof. Elm: Crystal, go on your{NEWLINE}journey and don’t worry. I’ll fund{CLEAR}the orphanage to help out. Think{CLEAR}of it as your research grant.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "水晶『谢谢博士！{NEWLINE}我一定尽可能集齐图鉴,{CLEAR}为您的研究出一份力。",
+   "en": "Crystal: Thank you, Professor!{NEWLINE}I’ll fill the Pokédex as best I can{CLEAR}and do my part for your research.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "空木『祝你和菊草叶一路顺风,{NEWLINE}有事的话随时电话联系我。",
+   "en": "Prof. Elm: Safe travels to you{NEWLINE}and Chikorita. If anything comes{CLEAR}up, give me a call anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "水晶『好的,博士。",
+   "en": "Crystal: I will, Professor.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "空木『{VAR:0103:0},多亏了你{NEWLINE}我才能遇到水晶这么优秀的训练家,{CLEAR}真的非常感谢。{CLEAR}有时间的话欢迎再来若叶镇玩。",
+   "en": "Prof. Elm: {VAR:0103:0}, thanks to you,{NEWLINE}I’ve met an outstanding Trainer like{CLEAR}Crystal. Thank you so much. Come visit{CLEAR}New Bark Town again when you have time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "水晶『{VAR:0103:0}前辈,{NEWLINE}感谢您的推荐,{CLEAR}让我获得了出去旅行的机会,{CLEAR}孤儿院也获得了空木博士的资助。{CLEAR}我将以您为榜样,{CLEAR}在旅行中不断努力提升自己,{CLEAR}成为一名优秀的训练家。{CLEAR}以后就请多多指教啦！",
+   "en": "Crystal: {VAR:0103:0}, thank you for{NEWLINE}recommending me. Now I get to go{CLEAR}on a journey, and the orphanage{CLEAR}has Professor Elm’s support too.{SCROLL}I’ll follow your example and{NEWLINE}keep working to improve myself on my{CLEAR}journey, until I’m a great Trainer. I{CLEAR}hope you’ll keep showing me the way!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "水晶『冠军前辈又来看孩子们吗？{NEWLINE}他们可都非常崇拜您呢,{CLEAR}您要是愿意多陪他们玩一会儿,{CLEAR}他们一定会非常高兴的。",
+   "en": "Crystal: Have you come to see the kids{NEWLINE}again, Champion? They all look up to you{CLEAR}so much. If you could play with them{CLEAR}a little longer, they’d be so happy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "我的锻炼不会停止,{NEWLINE}你什么时候想战斗了都可以来找我。",
+   "en": "My training never stops. Come find{NEWLINE}me whenever you want to battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "你习惯单打还是双打？",
+   "en": "Do you prefer Single or Double Battles?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 35,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 36,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 37,
+   "zh": "你身上只有一只精灵,{NEWLINE}我可不能以多欺少。",
+   "en": "You’ve only got one Pokémon with you.{NEWLINE}I can’t gang up on you like that.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "呵啊！全力以赴地战斗吧！",
+   "en": "Hyaah! Let’s give it{NEWLINE}everything we’ve got!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "你好厉害啊,{NEWLINE}比那个玩超能力的还厉害。",
+   "en": "You’re amazing! Even stronger{NEWLINE}than that Psychic guy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "我一直想为美丽花编排一支舞蹈,{NEWLINE}但是它目前没有跳舞的经验,{CLEAR}所以很难跳出我想要的效果。{SCROLL}要是能有一个舞蹈类的技能机{NEWLINE}给美丽花学一下,{CLEAR}帮它入入门就好了。",
+   "en": "I’ve always wanted to choreograph{NEWLINE}a dance for my Bellossom. But{CLEAR}it’s never danced before, so it’s{CLEAR}hard to get the effect I want.{SCROLL}If only I had a dance-move{NEWLINE}TM to teach Bellossom, just{CLEAR}to help it get started...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "要把剑舞技能机送给她吗？",
+   "en": "Give her the TM for Swords Dance?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "你要送给我剑舞技能机？！{NEWLINE}天啊,这么贵重的东西……我……{CLEAR}我不能白拿你的剑舞,{CLEAR}作为回报我可以把美丽花的技能{CLEAR}光合作用教给你,{CLEAR}如果你想学了随时可以来找我。",
+   "en": "You’re giving me the Swords{NEWLINE}Dance TM?! Oh my, something so{CLEAR}valuable... I... I can’t take{CLEAR}your Swords Dance for nothing!{SCROLL}In return, I can teach your Pokémon{NEWLINE}my Bellossom’s move, Synthesis. Come{CLEAR}see me whenever you want to learn it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "多亏你的剑舞技能机,{NEWLINE}我的美丽花现在跳舞顺畅多了。{SCROLL}作为感谢,{NEWLINE}我可以教给你的精灵光合作用,{CLEAR}你现在要学吗？",
+   "en": "Thanks to your Swords Dance{NEWLINE}TM, my Bellossom dances so{CLEAR}much more smoothly now.{SCROLL}As thanks, I can teach your Pokémon{NEWLINE}Synthesis. Want to learn it now?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "想学的话随时再来找我。",
+   "en": "If you want to learn it,{NEWLINE}come find me anytime.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 2 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 45,
+   "zh": "要让哪个精灵学呢？{SCROLL}",
+   "en": "Which Pokémon should learn it?{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s), flags page_breaks_lost; other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 46,
+   "zh": "抱歉……这个精灵{NEWLINE}没法记住光合作用。{SCROLL}",
+   "en": "Sorry... This Pokémon{NEWLINE}can’t learn Synthesis.{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "还没出生的精灵{NEWLINE}恐怕学不会这个技能……",
+   "en": "I’m afraid a Pokémon that hasn’t{NEWLINE}hatched yet can’t learn this move...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 48,
+   "zh": "这只{VAR:0100:0}{NEWLINE}已经会光合作用了！{SCROLL}",
+   "en": "This {VAR:0100:0} already{NEWLINE}knows Synthesis!{SCROLL}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "１{VAR:0201:20}　２{VAR:0201:20}　…{VAR:0201:20}…{VAR:0201:20}完成！",
+   "en": "1{VAR:0201:20} 2{VAR:0201:20} ...{VAR:0201:20}...{VAR:0201:20}Done!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s), flags fullwidth_chars; other variants: 6 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 50,
+   "zh": "{VAR:0101:0}学会了光合作用！",
+   "en": "{VAR:0101:0} learned Synthesis!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "这样一来{NEWLINE}你的{VAR:0100:0}{CLEAR}就学会光合作用了。{CLEAR}光合作用可以回复精灵的体力,{CLEAR}晴天下使用的话效果还会翻倍哦。",
+   "en": "And with that, your {VAR:0100:0}{NEWLINE}has learned Synthesis. Synthesis{CLEAR}restores a Pokémon’s HP, and in{CLEAR}sunny weather it works twice as well.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "{VAR:0101:0}完全忘了{NEWLINE}{VAR:0106:1}的用法！{SCROLL}然后……！",
+   "en": "{VAR:0101:0} forgot all{NEWLINE}about {VAR:0106:1}!{SCROLL}And...!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 4 source(s); other variants: 7 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 53,
+   "zh": "忘记{VAR:0106:1},{NEWLINE}确定吗？{VAR:0200:0}",
+   "en": "Forget {VAR:0106:1}. Is that OK?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 1 source(s); other variants: 5 more v3 TM candidates (tm_v4_matches.jsonl)"
+  },
+  {
+   "id": 54,
+   "zh": "{VAR:0101:0}想要记住{NEWLINE}新的光合作用……！{SCROLL}但是{VAR:0101:0}{NEWLINE}已经记住4个技能了！{SCROLL}为了学习光合作用{NEWLINE}要让它忘记其他技能吗？{VAR:0200:0}",
+   "en": "{VAR:0101:0} wants to{NEWLINE}learn Synthesis...!{SCROLL}But {VAR:0101:0} already{NEWLINE}knows four moves!{SCROLL}Should it forget a move{NEWLINE}to learn Synthesis?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "你是要放弃{NEWLINE}让它记住光合作用吗？{VAR:0200:0}",
+   "en": "Give up on teaching it Synthesis?{VAR:0200:0}",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "美丽花『Beeee——los！",
+   "en": "Bellossom: Beeee-los!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "我前些天在吉野市北边的入口{NEWLINE}见到了熔岩虫！{CLEAR}那可是只有在黑暗洞穴才能遇到的{CLEAR}巨大巨大超级超级高级的精灵。",
+   "en": "The other day, I saw a{NEWLINE}Slugma by the north entrance of{CLEAR}Cherrygrove City! You can only{CLEAR}find those in Dark Cave. It’s a{CLEAR}super-duper, mega-rare Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "大哥哥你竟然是联盟冠军,{NEWLINE}那你的精灵一定比熔岩虫要稀有得多。{CLEAR}有时间的话就多带几只精灵{CLEAR}来给我们看看嘛。",
+   "en": "Big brother, you’re the League{NEWLINE}Champion?! Then your Pokémon must be{CLEAR}way rarer than a Slugma. Bring more of{CLEAR}them to show us when you have time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "大姐姐你竟然是联盟冠军,{NEWLINE}那你的精灵一定比熔岩虫要稀有得多。{CLEAR}有时间的话就多带几只精灵{CLEAR}来给我们看看嘛。",
+   "en": "Big sister, you’re the League{NEWLINE}Champion?! Then your Pokémon must be{CLEAR}way rarer than a Slugma. Bring more of{CLEAR}them to show us when you have time!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "拉特他特别喜欢往孤儿院外面跑,{NEWLINE}然后回来给我们讲一些{CLEAR}奇奇怪怪的见闻。",
+   "en": "Rhett loves running off outside the{NEWLINE}orphanage. Then he comes back and{CLEAR}tells us all kinds of weird stories.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "园长,再多给我讲讲口袋妖怪的事嘛。",
+   "en": "Director, tell me more{NEWLINE}stories about Pokémon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "咳咳,今天已经给你{NEWLINE}讲了3个口袋妖怪故事了,{CLEAR}就让我歇会儿吧。",
+   "en": "Ahem. I’ve already told you 3 Pokémon{NEWLINE}stories today. Let me rest a little.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "这里是由精灵联盟出资建立的孤儿院,{NEWLINE}我是这里的园长。{CLEAR}虽说联盟给的经费足够养育这些孩子,{CLEAR}但为了让孩子们过上更好的生活,{CLEAR}热心的水晶总是想尽办法{CLEAR}为孤儿院赚钱。",
+   "en": "This orphanage was founded{NEWLINE}with money from the Pokémon League,{CLEAR}and I’m its director.{SCROLL}The League’s funding is enough to{NEWLINE}raise these children. But Crystal,{CLEAR}bless her, is always finding ways{CLEAR}to earn money for the orphanage,{CLEAR}so the kids can have a better life.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "拉特的父亲在火箭队来到吉野市时,{NEWLINE}为了救水晶丢了性命。{CLEAR}从那以后水晶就对{CLEAR}孤儿院的孩子们特别关心。{SCROLL}虽然她一直以来都想去城都各地{NEWLINE}游历旅行、锻炼自己。{CLEAR}但因为记挂孤儿院一直没有出去。{CLEAR}这次多亏了你和空木博士,{CLEAR}她才能放下孤儿院的事,{CLEAR}踏上属于自己的梦想之路。",
+   "en": "When Team Rocket came to Cherrygrove{NEWLINE}City, Rhett’s father lost his life{CLEAR}saving Crystal. Ever since, Crystal has{CLEAR}cared deeply for the children here.{SCROLL}She’s always wanted to travel{NEWLINE}around Johto and train herself.{CLEAR}But she worried about the{CLEAR}orphanage too much to leave.{SCROLL}Thanks to you and Professor Elm,{NEWLINE}she can finally set the orphanage{CLEAR}aside and follow her own dream.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "您好心来看孩子们,{NEWLINE}拉特这孩子却跑出来胡闹,{CLEAR}真的是非常抱歉。",
+   "en": "You were kind enough to visit the{NEWLINE}children, and then Rhett ran off{CLEAR}causing trouble. I’m truly sorry.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "拉特总是喜欢吹牛,{NEWLINE}我才不信他见到了熔岩虫呢。",
+   "en": "Rhett’s always making stuff up.{NEWLINE}I don’t believe he saw a Slugma.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "等水晶姐姐旅行回来,{NEWLINE}我要让她好好给我讲讲旅途中的故事。",
+   "en": "When Crystal comes back from{NEWLINE}her journey, I’m gonna make her{CLEAR}tell me all her travel stories.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "水晶『对不起啊,孩子们给你添麻烦了。{NEWLINE}我会好好教育他们的！",
+   "en": "Crystal: I’m sorry the kids{NEWLINE}caused you so much trouble.{CLEAR}I’ll have a good talk with them!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "菊草叶『Chiii——ko！",
+   "en": "Chikorita: Chiii-ko!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "你所展现出的强大实力,{NEWLINE}让我看到了击败超能力的可能性。{CLEAR}作为给我启发的感谢,{CLEAR}请收下这个吧。",
+   "en": "The power you showed me made me see{NEWLINE}that Psychics can be beaten. To thank{CLEAR}you for inspiring me, please take this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "让你的精灵锻炼时带上这个,{NEWLINE}它的防御值会比平时成长地更快,{CLEAR}是非常有用的锻炼工具。",
+   "en": "Have your Pokémon hold this{NEWLINE}while it trains. Its Defense will{CLEAR}grow faster than usual. It’s{CLEAR}a really useful training tool.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "姐们你好,以前我在练习攀岩时,{NEWLINE}遇到了一个使用超能力的训练家,{CLEAR}我向他发起挑战{CLEAR}结果被打的一败涂地。{SCROLL}从那以后我就下定决心{NEWLINE}一定要努力修炼打败他。{CLEAR}你愿意与我来一场{CLEAR}全力以赴的决斗吗？",
+   "en": "Hey there, sis. A while back, when I{NEWLINE}was practicing rock climbing, I ran into{CLEAR}a Trainer who used Psychic Pokémon. I{CLEAR}challenged him and got beaten to a pulp.{SCROLL}Ever since, I’ve been determined{NEWLINE}to train hard and beat him. Will{CLEAR}you give me an all-out battle?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "水晶『{VAR:0103:0}前辈,{NEWLINE}多亏了你我才能出去旅行{CLEAR}并成为精英训练家,{CLEAR}真的非常感谢！",
+   "en": "Crystal: {VAR:0103:0}, thanks to you, I{NEWLINE}got to go on a journey and become{CLEAR}an Ace Trainer. Thank you so much!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 74,
+   "zh": "水晶『前辈,听说白银大会{NEWLINE}马上就要开始了。{CLEAR}我准备一下之后就去会场。",
+   "en": "Crystal: I heard the Silver{NEWLINE}Conference is starting soon. I’ll get{CLEAR}ready and then head to the venue.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "水晶姐姐出门了,{NEWLINE}不知道要什么时候才能回来。",
+   "en": "Crystal’s gone out. I{NEWLINE}wonder when she’ll be back.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "水晶姐姐旅行中的故事好有意思哦,{NEWLINE}等我长大了也要像姐姐那样出门旅行。",
+   "en": "Crystal’s travel stories are so{NEWLINE}cool! When I grow up, I’m gonna{CLEAR}go on a journey just like her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "大竹蹦『Meee——ga！",
+   "en": "Megaree: Meee-ga!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "旅行归来的水晶{NEWLINE}变得越发成熟稳重了。{CLEAR}现在孤儿院的孩子们{CLEAR}都以她为榜样不断努力呢。",
+   "en": "Crystal came back from her journey{NEWLINE}more mature and steady than ever.{CLEAR}Now the kids here all look up to{CLEAR}her and work hard to be like her.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "水晶『呀,是{VAR:0103:0}前辈！{NEWLINE}我听说你最近都挺忙的,{CLEAR}怎么有空来孤儿院了呢？",
+   "en": "Crystal: Oh, it’s {VAR:0103:0}! I heard{NEWLINE}you’ve been really busy lately.{CLEAR}What brings you to the orphanage?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 80,
+   "zh": "{VAR:0103:0}『是这样的,吉野市附近{NEWLINE}貌似有三圣兽活动的踪迹,{CLEAR}所以我就过来确认一下,{CLEAR}以防三圣兽被火箭队抓走。{CLEAR}你最近有发现吉野市周边{CLEAR}有什么异常吗？",
+   "en": "{VAR:0103:0}: Well, it looks like{NEWLINE}the legendary beasts have been{CLEAR}spotted near Cherrygrove City.{CLEAR}I came to check it out, before{CLEAR}Team Rocket catches them.{SCROLL}Have you noticed anything{NEWLINE}strange around here lately?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "水晶『说起异常,{NEWLINE}最近城市西边的潮水涨落极其反常,{CLEAR}海风的风向也从常见的西风{CLEAR}变成了极少出现的北风。{CLEAR}如果这不是自然现象的话,{CLEAR}就有可能是三圣兽在附近造成的。",
+   "en": "Crystal: Now that you mention it,{NEWLINE}the tides west of the city have been{CLEAR}really odd lately. And the sea wind has{CLEAR}switched from the usual west wind to a{CLEAR}north wind, which we almost never get.{SCROLL}If that’s not natural, the legendary{NEWLINE}beasts could be causing it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "{VAR:0103:0}『西边的海与风……{NEWLINE}会是水君造成的吗？",
+   "en": "{VAR:0103:0}: The sea and wind to{NEWLINE}the west... Could it be Suicune?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "水晶『按三圣兽属性来说的话,{NEWLINE}就只可能是水君了。{CLEAR}正好我现在也有空,{CLEAR}就陪前辈一起在这附近{CLEAR}找找水君怎么样？",
+   "en": "Crystal: Going by the beasts’{NEWLINE}types, it could only be Suicune. I’m{CLEAR}free right now, so how about I help{CLEAR}you search for Suicune around here?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 84,
+   "zh": "{VAR:0103:0}『好啊,有你帮忙一定事半功倍。",
+   "en": "{VAR:0103:0}: Sure. With your{NEWLINE}help, this’ll be twice as easy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 85,
+   "zh": "水晶『嗯,那咱们现在就走吧！",
+   "en": "Crystal: OK, let’s go right now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 86,
+   "zh": "水晶『没想到水君会选择我{NEWLINE}成为它的训练家,{CLEAR}这真是莫大的荣幸！",
+   "en": "Crystal: I never thought{NEWLINE}Suicune would choose me as its{CLEAR}Trainer. It’s such an honor!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 87,
+   "zh": "水晶『前辈,最近我一直{NEWLINE}在帮空木博士整理精灵资料,{CLEAR}都没怎么进行对战训练,{CLEAR}再这样下去就生疏啦。{CLEAR}你现在如果有时间的话,{CLEAR}能跟我来一场对战帮我锻炼一下吗？",
+   "en": "Crystal: Lately I’ve been helping{NEWLINE}Professor Elm sort his Pokémon data,{CLEAR}and I’ve hardly done any battle{CLEAR}training. At this rate I’ll get rusty!{SCROLL}If you have time now, could you{NEWLINE}battle me and help me train?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 88,
+   "zh": "水晶『太好了,咱们是单打还是双打？",
+   "en": "Crystal: Great! Singles or Doubles?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 89,
+   "zh": "单打",
+   "en": "Singles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 6 source(s); other variants: 1 more v3 TM candidate (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 90,
+   "zh": "双打",
+   "en": "Doubles",
+   "status": "draft",
+   "origin": "tm_v3",
+   "notes": "v3 TM: 5 source(s); other variants: 2 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 91,
+   "zh": "先不打了",
+   "en": "Not now",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "v3 TM: 3 source(s); other variants: 3 more v3 TM candidates (tm_v4_matches.jsonl)",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 92,
+   "zh": "水晶『我会认真对待这次训练的,{NEWLINE}前辈你可不要手下留情哦。",
+   "en": "Crystal: I’ll take this{NEWLINE}training seriously. So don’t{CLEAR}you dare go easy on me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 93,
+   "zh": "水晶『看来我要学的还有很多啊,{NEWLINE}谢谢前辈指教。",
+   "en": "Crystal: Looks like I still have a lot{NEWLINE}to learn. Thank you for the lesson!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 94,
+   "zh": "水晶『前辈你身上带的精灵太少,{NEWLINE}不够进行双打。",
+   "en": "Crystal: You don’t have enough{NEWLINE}Pokémon with you for a Double Battle.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 95,
+   "zh": "水晶『{VAR:0103:0}前辈你来啦！{NEWLINE}最近我一直在帮空木博士整理资料时,{CLEAR}总是不能静下心来,{CLEAR}可能……是因为一直在想你吧。{CLEAR}现在能见到你我真开心！",
+   "en": "Crystal: {VAR:0103:0}, you’re here! Lately,{NEWLINE}when I’m sorting data for Professor{CLEAR}Elm, I just can’t concentrate. Maybe...{CLEAR}it’s because I keep thinking about you.{SCROLL}I’m so happy I get to see you now!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Post-game Crystal partner route (#95–#100): Crystal's romance lines, like the Cynthia route in 0552 (D-0780)."
+  },
+  {
+   "id": 96,
+   "zh": "咱们一起出去走走吧",
+   "en": "Let’s go for a walk together",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 97,
+   "zh": "我想跟你来一场对战",
+   "en": "I want to battle you",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 98,
+   "zh": "我还有事要忙,回头见",
+   "en": "I’ve got things to do. See you",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "",
+   "category": "menu_touch_1line"
+  },
+  {
+   "id": 99,
+   "zh": "水晶『好的,前辈先去忙吧。{NEWLINE}我会一直在这里等着前辈的。",
+   "en": "Crystal: OK, go take care{NEWLINE}of your things. I’ll be{CLEAR}right here waiting for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 100,
+   "zh": "{VAR:0103:0}『水晶总是窝在吉野市做忙活,{NEWLINE}多少也会有些闷吧？{CLEAR}不如咱们一起出去走走？",
+   "en": "{VAR:0103:0}: Crystal, you’re always{NEWLINE}cooped up busy in Cherrygrove City.{CLEAR}Don’t you get a little bored? Why{CLEAR}don’t we go out for a walk together?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}

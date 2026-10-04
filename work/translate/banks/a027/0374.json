@@ -1,0 +1,679 @@
+{
+ "narc": "a027",
+ "bank": 374,
+ "source": "work/extract/v4/a027/0374.json",
+ "strings": [
+  {
+   "id": 0,
+   "zh": "乔伊『前几天32号路{NEWLINE}刮了一场猛烈的暴风,{CLEAR}周围许多训练家的精灵因此受伤。{CLEAR}我现在为了医治这些精灵{CLEAR}忙得不可开交。{SCROLL}如果您目前没有要忙的事情,{NEWLINE}请帮我治疗一下受伤的精灵吧。",
+   "en": "Joy: A few days ago, a fierce storm{NEWLINE}hit Route 32, and lots of Trainers’{CLEAR}Pokémon around here got hurt. I’ve{CLEAR}been run off my feet treating them all.{SCROLL}Joy: If you’re not busy right{NEWLINE}now, would you please help me{CLEAR}treat the injured Pokémon?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "zh": "我的可拉可拉被暴风卷上天去{NEWLINE}掉下来的时候摔破了头骨,{CLEAR}其实在对战中也会遇到{CLEAR}头骨受伤的情况,{CLEAR}通常只要给可拉可拉喂一些{CLEAR}补充营养的食物它就能自己痊愈。{CLEAR}可是这附近压根弄不到像样的营养品,{CLEAR}这可如何是好啊。",
+   "en": "My Cubone got swept up into{NEWLINE}the sky by the storm, and when{CLEAR}it fell, it cracked its skull.{SCROLL}Skull injuries happen in battle too.{NEWLINE}Usually, if you feed Cubone something{CLEAR}nourishing, it heals on its own.{SCROLL}But there’s nothing decent like{NEWLINE}that to be had anywhere around{CLEAR}here. What am I going to do?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 2,
+   "zh": "我的胡说盆栽被暴风吹得撞上了岩石,{NEWLINE}导致身体出现了一条裂缝,{CLEAR}如果把坚硬的岩石{CLEAR}填补进胡说盆栽的伤口,{CLEAR}应该就能减轻它的痛苦。{CLEAR}可是我没有这种东西啊……",
+   "en": "The storm slammed my{NEWLINE}Bonsly into a rock, and now{CLEAR}it has a crack in its body.{SCROLL}If something hard like stone{NEWLINE}were packed into Bonsly’s wound,{CLEAR}it should ease the pain. But I{CLEAR}don’t have anything like that...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 3,
+   "zh": "可拉可拉『Cuuu……uu……{SCROLL}可拉可拉哭得很凶！",
+   "en": "Cubone: Cuuu... uu...{SCROLL}Cubone is crying hard!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 4,
+   "zh": "胡说盆栽『Bon……boo……{SCROLL}胡说盆栽正疼得流眼泪！",
+   "en": "Bonsly: Bon... boo...{SCROLL}Bonsly is crying in pain!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 5,
+   "zh": "卡比兽『Sss……{SCROLL}卡比兽发不出声音……",
+   "en": "Snorlax: Sss...{SCROLL}Snorlax can’t make a sound...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 6,
+   "zh": "谢谢你帮我治好了可拉可拉。",
+   "en": "Thanks for helping heal my Cubone.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 7,
+   "zh": "身上带着哞哞牛奶,{NEWLINE}要喂给可拉可拉吗？",
+   "en": "You have some Moomoo{NEWLINE}Milk. Give it to Cubone?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 8,
+   "zh": "{VAR:0103:0}『可拉可拉,{NEWLINE}我这里有哞哞牛奶,{CLEAR}喝了对你的伤势恢复有好处,{CLEAR}来一杯吧！",
+   "en": "{VAR:0103:0}: Cubone, I have some{NEWLINE}Moomoo Milk here. It’ll help{CLEAR}you get better. Have a glass!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Tone variants: #8/#9 and #13/#14 (Moomoo Milk / Hard Stone lines)."
+  },
+  {
+   "id": 9,
+   "zh": "{VAR:0103:0}『可拉可拉,{NEWLINE}我这里有哞哞牛奶,{CLEAR}喝了就不会疼了哦{CLEAR},来一杯怎么样？",
+   "en": "{VAR:0103:0}: Cubone, I have some Moomoo{NEWLINE}Milk here. Drink it and it won’t{CLEAR}hurt anymore. How about a glass?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 10,
+   "zh": "可拉可拉『Cuuu——bon！{SCROLL}可拉可拉的伤势恢复了许多！",
+   "en": "Cubone: Cuuu-bon!{SCROLL}Cubone looks much better!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 11,
+   "zh": "谢谢你给可拉可拉喂了牛奶,{NEWLINE}这样它的伤势应该就能慢慢痊愈了,{CLEAR}作为感谢这个送给你吧。",
+   "en": "Thanks for giving Cubone the{NEWLINE}milk. Now its injury should slowly{CLEAR}heal. Please take this as thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 12,
+   "zh": "背包里有坚硬石头,{NEWLINE}要拿来填补胡说盆栽的身体吗？",
+   "en": "You have a Hard Stone in your Bag.{NEWLINE}Use it to patch up Bonsly’s body?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 13,
+   "zh": "{VAR:0103:0}『胡说盆栽,{NEWLINE}我这里有坚硬石头,{CLEAR}可以填补你的伤口,{CLEAR}你再坚持一下。",
+   "en": "{VAR:0103:0}: Bonsly, I have a Hard Stone{NEWLINE}here. It can fill in your wound.{CLEAR}Just hang in there a little longer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 14,
+   "zh": "{VAR:0103:0}『胡说盆栽,{NEWLINE}我这里有坚硬石头,{CLEAR}可以填补你的伤口哦,{CLEAR}你再坚持一下下就好了。",
+   "en": "{VAR:0103:0}: Bonsly, I have a Hard Stone{NEWLINE}here. It can fill in your wound. Just{CLEAR}hang in there a teeny bit longer, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 15,
+   "zh": "胡说盆栽『Bons——ly！{SCROLL}胡说盆栽舒服多了！",
+   "en": "Bonsly: Bons-ly!{SCROLL}Bonsly feels much better!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 16,
+   "zh": "多亏了你,{NEWLINE}胡说盆栽似乎没那么疼了,{CLEAR}真不知道该怎么感谢你,{CLEAR}这个干脆送给你吧。",
+   "en": "Thanks to you, Bonsly doesn’t seem to{NEWLINE}hurt so much anymore. I don’t know how{CLEAR}to thank you... Here, just take this.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 17,
+   "zh": "乔伊『呀,您是……{NEWLINE}您是联盟冠军！{CLEAR}没想到您竟然会来到{CLEAR}我们这间偏远的精灵中心。",
+   "en": "Joy: Oh! You’re... you’re{NEWLINE}the League Champion! I never{CLEAR}thought you’d come to a remote{CLEAR}little Pokémon Center like ours.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 18,
+   "zh": "{VAR:0103:0}『我在32号路遇到了{NEWLINE}一只受伤严重的宝宝丁,{CLEAR}它因为伤情不能轻易移动,{CLEAR}所以想请你过去进行救治。",
+   "en": "{VAR:0103:0}: I came across a badly{NEWLINE}hurt Igglybuff on Route 32.{CLEAR}It can’t be moved safely, so I’d{CLEAR}like you to go over and treat it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 19,
+   "zh": "乔伊『我明白您的意思,{NEWLINE}但是这间精灵中心里{CLEAR}都是因为暴风受伤的精灵,{CLEAR}我得先把这里的精灵治好{CLEAR}才能去治疗宝宝丁。{CLEAR}您如果有时间,{CLEAR}请帮我治疗一下受伤的精灵吧。{CLEAR}等完成这里的治疗,{CLEAR}我就跟您去救治宝宝丁。",
+   "en": "Joy: I understand, but this{NEWLINE}Pokémon Center is full of Pokémon that{CLEAR}the storm hurt. I have to treat them{CLEAR}before I can go and see to Igglybuff.{SCROLL}Joy: If you have time, please help{NEWLINE}me treat the injured Pokémon.{CLEAR}Once I’ve finished here, I’ll{CLEAR}go with you to save Igglybuff.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 20,
+   "zh": "{VAR:0103:0}『我在旅行中恰好路过这里,{NEWLINE}没想到竟然有这么多人。",
+   "en": "{VAR:0103:0}: I just happened to be{NEWLINE}passing by on my journey. I never{CLEAR}expected so many people here.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 21,
+   "zh": "{VAR:0103:0}大人,{NEWLINE}这里的伤者基本治疗完毕了,{CLEAR}请带我去治疗外面受伤的宝宝丁吧。",
+   "en": "Champion {VAR:0103:0}, the patients{NEWLINE}here are almost all taken{CLEAR}care of. Please take me to{CLEAR}the injured Igglybuff outside.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Speaker unlabelled (Joy by context)."
+  },
+  {
+   "id": 22,
+   "zh": "水晶『这是用派拉蹦的蘑菇孢子{NEWLINE}做成的特殊止疼药粉,{CLEAR}服下之后就不疼了哦,{CLEAR}巴鲁郎你试试吧。",
+   "en": "Crystal: This is a special painkilling{NEWLINE}powder made from Parasee’s mushroom{CLEAR}spores. Take it and it won’t hurt{CLEAR}anymore. Go on, Tyrogue, try it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 23,
+   "zh": "巴鲁郎『Tyy……",
+   "en": "Tyrogue: Tyy...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 24,
+   "zh": "巴鲁郎服下了药粉。",
+   "en": "Tyrogue took the powder.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 25,
+   "zh": "巴鲁郎『Tyyyy——rog！{SCROLL}巴鲁郎看起来好多了！",
+   "en": "Tyrogue: Tyyyy-rog!{SCROLL}Tyrogue looks much better!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 26,
+   "zh": "哇,真是神奇！{NEWLINE}谢谢你治好了巴鲁郎！",
+   "en": "Wow, that’s amazing!{NEWLINE}Thanks for healing Tyrogue!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 27,
+   "zh": "水晶『嘿嘿,你客气了,{NEWLINE}这没什么的。",
+   "en": "Crystal: Hee hee, you’re{NEWLINE}welcome. It was nothing.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 28,
+   "zh": "阿金『这是我捡的树叶,{NEWLINE}给结草儿粘上应该就没问题了。",
+   "en": "Gold: These are some leaves I picked{NEWLINE}up. Stick ’em on Burmy and it’ll be fine.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 29,
+   "zh": "呃,这种治疗方法真的靠谱吗……",
+   "en": "Uh, are you sure this{NEWLINE}treatment actually works...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 30,
+   "zh": "阿金『哎呀,你信我的没错啦。",
+   "en": "Gold: Aw, come on, just trust me.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 31,
+   "zh": "阿金『来,结草儿。{NEWLINE}试试我给你做的树叶新衣。",
+   "en": "Gold: Here, Burmy. Try on the{NEWLINE}new leaf outfit I made for you.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 32,
+   "zh": "结草儿『Buu……",
+   "en": "Burmy: Buu...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 33,
+   "zh": "结草儿『Buuuu——my！{SCROLL}结草儿看起来安心多了。",
+   "en": "Burmy: Buuuu-my!{SCROLL}Burmy looks much calmer.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 34,
+   "zh": "哇！这样都行。可真有你的。",
+   "en": "Whoa! That actually worked?{NEWLINE}You’re really something.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 35,
+   "zh": "阿金『嘿嘿,那是当然的,{NEWLINE}我可是若叶镇的阿金啊！",
+   "en": "Gold: Heh heh, of course!{NEWLINE}I’m Gold of New Bark Town!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 36,
+   "zh": "乔伊『你的卡比兽是因为{NEWLINE}吃太多卡到喉咙才会发不出声,{CLEAR}我刚刚帮它夹出了喉咙里的异物,{CLEAR}它现在已经没事了。",
+   "en": "Joy: Your Snorlax couldn’t make{NEWLINE}a sound because it ate too much and{CLEAR}got something stuck in its throat. I{CLEAR}just pulled it out, so it’s fine now.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 37,
+   "zh": "谢谢你,乔伊小姐。",
+   "en": "Thank you, Nurse Joy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 38,
+   "zh": "乔伊姐姐,帮我的铁炮鱼看看吧。",
+   "en": "Nurse Joy, please take{NEWLINE}a look at my Remoraid.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 39,
+   "zh": "乔伊『嗯……铁炮鱼虽然伤口面积大,{NEWLINE}但都是皮外伤,{CLEAR}用普通的好伤药就可以了。",
+   "en": "Joy: Hmm... Remoraid’s wounds cover a{NEWLINE}large area, but they’re only skin-deep.{CLEAR}An ordinary Super Potion will do.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 40,
+   "zh": "铁炮鱼『Reee——mo！{SCROLL}铁炮鱼的伤口开始愈合了！",
+   "en": "Remoraid: Reee-mo!{SCROLL}Remoraid’s wounds are starting to heal!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 41,
+   "zh": "乔伊『这样一来铁炮鱼就不要紧了。{NEWLINE}记得伤口痊愈之前尽量减少活动,{CLEAR}尤其不要对战知道吗？",
+   "en": "Joy: Remoraid will be fine{NEWLINE}now. Remember, keep it as still as{CLEAR}you can until the wounds heal. And{CLEAR}absolutely no battling, understand?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 42,
+   "zh": "好的,乔伊小姐。{NEWLINE}我会照顾好铁炮鱼的。",
+   "en": "OK, Nurse Joy. I’ll take{NEWLINE}good care of Remoraid.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 43,
+   "zh": "那个……乔伊小姐,我的土龙……",
+   "en": "Um... Nurse Joy, my Dunsparce...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 44,
+   "zh": "乔伊『我已经跟你说过了,{NEWLINE}你的土龙根本就没有受伤。{CLEAR}精灵中心现在很忙的,{CLEAR}尤请不要这时候来添乱好吗！",
+   "en": "Joy: I already told you, your Dunsparce{NEWLINE}isn’t hurt at all. The Pokémon Center is{CLEAR}really busy right now, so please don’t{CLEAR}come in and make more work for me!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 45,
+   "zh": "那等你忙完之后能跟我约会……",
+   "en": "Then once you’re done, would{NEWLINE}you go on a date with...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 46,
+   "zh": "乔伊『不——！行——！",
+   "en": "Joy: NO! WAY!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 47,
+   "zh": "唉,好吧……",
+   "en": "Sigh... OK...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 48,
+   "zh": "乔伊『谢谢您冠军大人,{NEWLINE}在您和几位热心训练家的帮助下,{CLEAR}这一批来就医的精灵们{CLEAR}似乎都治疗地差不多了。",
+   "en": "Joy: Thank you, Champion. With{NEWLINE}your help and a few kind-hearted{CLEAR}Trainers, this round of patients{CLEAR}is just about all treated.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 49,
+   "zh": "乔伊『哦？还有精灵因为暴风受伤吗？{NEWLINE}那就请带我过去看看吧。",
+   "en": "Joy: Oh? There’s another{NEWLINE}Pokémon hurt by the storm?{CLEAR}Then please take me to see it.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 50,
+   "zh": "乔伊『宝宝丁的伤势确实很严重,{NEWLINE}只用好伤药的话恐怕无济于事。{CLEAR}好在我这里有从铃铛塔进货的圣灰,{CLEAR}给宝宝丁兑水冲服应该有效。",
+   "en": "Joy: Igglybuff’s injuries really are{NEWLINE}serious. A Super Potion alone won’t{CLEAR}do much. Luckily, I have some Sacred{CLEAR}Ash we stock from the Bell Tower.{CLEAR}Mixed with water, it should work.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 51,
+   "zh": "乔伊『来,宝宝丁,{NEWLINE}试试喝下这些圣灰水。{CLEAR}马上就会好起来的。",
+   "en": "Joy: Here, Igglybuff, try{NEWLINE}drinking this Sacred Ash water.{CLEAR}You’ll be better in no time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 52,
+   "zh": "宝宝丁『……",
+   "en": "Igglybuff: ...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 53,
+   "zh": "宝宝丁『Iii——ly！{SCROLL}宝宝丁精神焕发！",
+   "en": "Igglybuff: Iii-ly!{SCROLL}Igglybuff is full of energy again!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 54,
+   "zh": "哇,宝宝丁,你没事了！",
+   "en": "Wow, Igglybuff, you’re OK!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 55,
+   "zh": "原来你是冠军{VAR:0103:0}大人啊,{NEWLINE}抱歉我都没认出来。{CLEAR}居然劳烦您这样的大人物帮我跑腿,{CLEAR}我真的好难为情啊……{SCROLL}请收下这个{NEWLINE}带着我歉意和谢意的道具吧。",
+   "en": "So you’re Champion {VAR:0103:0}! Sorry,{NEWLINE}I didn’t even recognize you. To think I{CLEAR}had someone as important as you running{CLEAR}errands for me... I’m so embarrassed...{SCROLL}Please take this item, with{NEWLINE}my apologies and my thanks.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 56,
+   "zh": "乔伊『谢谢冠军大人帮忙,{NEWLINE}这样一来在风暴事件中受伤的精灵{CLEAR}应该都得到即时救治了。",
+   "en": "Joy: Thank you for your help, Champion.{NEWLINE}Now all the Pokémon hurt in the storm{CLEAR}should have received treatment in time.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 57,
+   "zh": "真的太好了,{NEWLINE}我还以为宝宝丁要不行了呢！{CLEAR}谢谢你乔伊小姐。",
+   "en": "I’m so glad! I thought Igglybuff wasn’t{NEWLINE}going to make it! Thank you, Nurse Joy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 58,
+   "zh": "乔伊『这都多亏了{NEWLINE}咱们的联盟冠军{VAR:0103:0}大人{CLEAR}跑去告诉我这里有一只受伤的宝宝丁。{CLEAR}我才能即时赶过来进行治疗。{CLEAR}你也该好好谢谢冠军大人才是哦。",
+   "en": "Joy: It’s all thanks to our League{NEWLINE}Champion {VAR:0103:0}, who came to tell{CLEAR}me there was an injured Igglybuff{CLEAR}here, so I could come and treat{CLEAR}it in time. You should thank{CLEAR}the Champion properly too, OK?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 59,
+   "zh": "乔伊『如果您的精灵{NEWLINE}因旅途疲惫需要休息的话,{CLEAR}我很乐意为您效劳。",
+   "en": "Joy: If your Pokémon need{NEWLINE}a rest after the journey, I’d{CLEAR}be happy to take care of them.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 60,
+   "zh": "虽然那天的暴风很大,{NEWLINE}但是我的卡比兽完全没受影响。{CLEAR}倒是它这个乱吃东西的习惯{CLEAR}更容易危害健康。",
+   "en": "The storm that day was really strong,{NEWLINE}but my Snorlax wasn’t bothered at{CLEAR}all. Its habit of eating anything it{CLEAR}finds is much worse for its health.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 61,
+   "zh": "我的卡比兽突然无法发声,{NEWLINE}只能来这求助乔伊小姐了。",
+   "en": "My Snorlax suddenly lost its{NEWLINE}voice, so I had to come here{CLEAR}and ask Nurse Joy for help.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 62,
+   "zh": "卡比兽『Snoo——la！{SCROLL}卡比兽开心地笑了。",
+   "en": "Snorlax: Snoo-la!{SCROLL}Snorlax smiled happily.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 63,
+   "zh": "唉,我的追求{NEWLINE}给乔伊小姐添麻烦了吗……",
+   "en": "Sigh... Was I bothering Nurse{NEWLINE}Joy by asking her out...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 64,
+   "zh": "一会儿我要让乔伊小姐{NEWLINE}看一下我的土龙,{CLEAR}等看完之后,{CLEAR}我就以感谢为名约乔伊小姐吃饭。{CLEAR}嗯！就这么办。",
+   "en": "In a bit, I’ll have Nurse Joy take{NEWLINE}a look at my Dunsparce. When she’s{CLEAR}done, I’ll ask her out to dinner to{CLEAR}say thanks. Yeah! That’s the plan.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 65,
+   "zh": "土龙『Dun——pa！",
+   "en": "Dunsparce: Dun-pa!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 66,
+   "zh": "我的结草儿身上的树叶,{NEWLINE}被暴风吹走了一大半,{CLEAR}从那之后结草儿就像{CLEAR}受到惊吓一样不太正常了。{SCROLL}这种情况该怎么治疗啊……",
+   "en": "The storm blew away more than{NEWLINE}half the leaves on my Burmy. Ever{CLEAR}since, it’s been acting strange,{CLEAR}like it’s had a big fright.{SCROLL}How do you treat something like this...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 67,
+   "zh": "太好啦,结草儿终于变回{NEWLINE}原来悠闲淡定的样子了。",
+   "en": "Yay, Burmy’s finally back to its{NEWLINE}old laid-back, easygoing self.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 68,
+   "zh": "铁炮鱼直接被从水里吹到天上{NEWLINE}然后重重地摔下来,{CLEAR}我看的好心疼啊……",
+   "en": "My Remoraid got blown straight{NEWLINE}out of the water up into the{CLEAR}sky, then slammed back down.{CLEAR}It broke my heart to watch...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 69,
+   "zh": "铁炮鱼没有事,真的太好了。",
+   "en": "Remoraid’s OK. I’m so relieved.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 70,
+   "zh": "铁炮鱼『Reee————",
+   "en": "Remoraid: Reee----",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 71,
+   "zh": "水晶『{VAR:0103:0}前辈,{NEWLINE}我和阿金路过这里的时候,{CLEAR}发现有好多受伤的精灵,{CLEAR}于是决定留下来,{CLEAR}看能不能帮上乔伊小姐什么忙。",
+   "en": "Crystal: {VAR:0103:0}, when Gold and I{NEWLINE}passed through here, we found lots of{CLEAR}hurt Pokémon, so we decided to stay{CLEAR}and see if we could help Nurse Joy.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 72,
+   "zh": "水晶『看到受伤的精灵被治愈,{NEWLINE}我也很开心呢！",
+   "en": "Crystal: It makes me happy to{NEWLINE}see hurt Pokémon get better too!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 73,
+   "zh": "月桂蹦『Bayy——lee！",
+   "en": "Baylee: Bayy-lee!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "月桂蹦: Crystal's Chikoree (菊草蹦) after evolving into Bayleef; -蹦 nickname pattern → 'Baylee'. 0080 still labels the evolved Pokémon 菊草蹦."
+  },
+  {
+   "id": 74,
+   "zh": "派拉蹦『Para——sec！",
+   "en": "Parasee: Para-sec!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 75,
+   "zh": "都怪我平时疏于对巴鲁郎锻炼,{NEWLINE}才会让它受伤,都怪我……",
+   "en": "It’s my fault for not training{NEWLINE}Tyrogue properly. That’s why{CLEAR}it got hurt. It’s all my fault...",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 76,
+   "zh": "这位女训练家好厉害,{NEWLINE}居然用神奇的药粉治好了巴鲁郎。",
+   "en": "That girl Trainer is amazing. She healed{NEWLINE}Tyrogue with some kind of magic powder.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 77,
+   "zh": "阿金『偶像,这只结草儿{NEWLINE}虽然没受什么皮外伤,{CLEAR}但精神上好像出了问题,{CLEAR}会是应激反应么……",
+   "en": "Gold: Idol, this Burmy doesn’t{NEWLINE}have any wounds on the outside, but{CLEAR}something’s wrong with it on the inside.{CLEAR}Is it some kind of stress reaction...?",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 78,
+   "zh": "阿金『原来只要给结草儿{NEWLINE}披上树叶就好了啊,{CLEAR}它该不会是因为{CLEAR}没有树叶遮蔽身体而害羞吧。",
+   "en": "Gold: So all it needed was some{NEWLINE}leaves on it, huh? Don’t tell me{CLEAR}Burmy was just embarrassed ‘cause{CLEAR}it had nothing to cover itself with.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 79,
+   "zh": "火岩鼠『Quii——la！",
+   "en": "Quilava: Quii-la!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": "Label 火岩鼠 (species): presumably Gold's Exbo after evolving."
+  },
+  {
+   "id": 80,
+   "zh": "在哪里待着,{NEWLINE}都不如在精灵中心待着安全。",
+   "en": "There’s no place as safe{NEWLINE}as a Pokémon Center.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 81,
+   "zh": "可拉可拉『Cuuu——bon！",
+   "en": "Cubone: Cuuu-bon!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 82,
+   "zh": "胡说盆栽『Bons——ly！",
+   "en": "Bonsly: Bons-ly!",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  },
+  {
+   "id": 83,
+   "zh": "我以后会好好照顾胡说盆栽,{NEWLINE}不会再让它受伤了。",
+   "en": "I’ll take good care of Bonsly from{NEWLINE}now on. I won’t let it get hurt again.",
+   "status": "draft",
+   "origin": "agent",
+   "notes": ""
+  }
+ ]
+}
