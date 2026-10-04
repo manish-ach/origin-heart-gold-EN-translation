@@ -77,7 +77,7 @@ Run every command from the repo root. Never edit generated files by hand: change
 
 ## Credits
 
-- **起源心金 (Origin HeartGold):** original hack by [雁南飞TB](https://space.bilibili.com/1461403176) (Yannanfei TB). v4.0.x by Alex, built on [hg-engine](https://github.com/BluRosie/hg-engine), with special thanks from Alex to 耿耿耿耿鬼酱, 叶师傅 and 呱呱. Official channels: QQ group 1055021987 and the [起源心金 Tieba](https://tieba.baidu.com/f?kw=%E8%B5%B7%E6%BA%90%E5%BF%83%E9%87%91).
+- **起源心金 (Origin HeartGold):** original hack by [雁南飞TB](https://space.bilibili.com/1461403176) (Yannanfei TB). v4.0.x by [Alex](https://youhua.baidu.com/home/main?lp=home_follow_main&un=chendelpiero), built on [hg-engine](https://github.com/BluRosie/hg-engine), with special thanks from Alex to 耿耿耿耿鬼酱, 叶师傅 and 呱呱. Official channels: QQ group 1055021987 and the [起源心金 Tieba](https://tieba.baidu.com/f?kw=%E8%B5%B7%E6%BA%90%E5%BF%83%E9%87%91).
 - **hg-engine** and its contributors: engine, plus the FAIRY type icons and weather banner letters used here. See [their credits](https://github.com/BluRosie/hg-engine/blob/main/CREDITS.md).
 - **u/Shake69:** the partial v3 English translation, reused as translation memory with permission.
 - **u/riap0526:** packaged the Chinese patches and docs.
@@ -93,6 +93,6 @@ This is a free, non-commercial fan project and is not affiliated with or endorse
 - **Tools and scripts** (`work/tools/`, `work/translate/scripts/`, `work/glossary/*.py`): [Apache 2.0](LICENSE).
 - **Our own translation work and docs:** [CC0 1.0](LICENSE-CONTENT). Use them however you like, as far as the rights are ours to give.
 - **`work/tools/charmaps/charmap_zh_xzonn_gen4.tsv`:** [GPL-3.0](work/tools/charmaps/LICENSE-GPL-3.0.txt), from [Xzonn/PokemonChineseTranslationRevise](https://github.com/Xzonn/PokemonChineseTranslationRevise). `charmap_en.tsv` comes from pret's `charmap.txt`.
-- **Not covered by these licenses:** official Nintendo text and graphics, the hack's Chinese text, u/Shake69's v3 lines, the graphics in `work/graphics/` that are derived from the US ROM or from hg-engine (including the hg-engine assets in `work/graphics/vendor/`, free and non-commercial only, with credit), the vendored xdelta-wasm in `site/public/vendor/xdelta-wasm/` (Apache-2.0, see its `LICENSE.txt`) and the GPL-3.0 Chinese character table above. Each keeps its own owner's terms.
+- **Not covered by these licenses:** official Nintendo text and graphics, the hack's Chinese text, u/Shake69's v3 lines, the graphics in `work/graphics/` that are derived from the US ROM or from hg-engine (including the hg-engine assets in `work/graphics/vendor/`, free and non-commercial only, with credit), the vendored xdelta-wasm in `site/public/vendor/xdelta-wasm/` (Apache-2.0, see its `LICENSE.txt`; the Emscripten runtime inside it is MIT, see `LICENSE-emscripten.txt`) and the GPL-3.0 Chinese character table above. Each keeps its own owner's terms.
 
 Releases must stay free: no paywalls and no donation links. hg-engine requires this.

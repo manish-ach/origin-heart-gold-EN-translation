@@ -4,7 +4,9 @@ What:     the HGSS event-script command table (command number -> [name, argument
           commands 0-842: the hack's command table (arm9 0x020F793C) has 843 entries, the JP base,
           numbered as in pret (pret's US-only 843-852 are left out). Data only: names and sizes, no code.
 Source:   pret/pokeheartgold (https://github.com/pret/pokeheartgold), asm/macros/script.inc,
-          tabulated as JSON (upstream commit not recorded).
+          tabulated as JSON. Matches commit 49a132efdfbbc523f778d6effc6fe43aac8ded2f (2026-08-12, the
+          last change to script.inc before this table was made): all 843 names and argument sizes
+          checked identical on 2026-10-05.
 License:  pret publishes no license file. This is a factual table (command numbers, names, argument
           sizes); pret is credited here and in the README.
 Used by:  docs/romdata.py (script disassembly for gen_docs.py), audit/verify_sheet_rows.py.

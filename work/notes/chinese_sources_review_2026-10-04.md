@@ -5,7 +5,7 @@ Researched 2026-10-04. Scope: public Chinese release information compared with o
 ## Sources and access limits
 
 - **S1: Alex's original 4.0 release announcement**, [Tieba thread 10981775037](https://tiebac.baidu.com/p/10981775037?fr=good). Search-indexed body was readable; direct opening failed. Primary author statement about 4.0 intent, not a runtime test of our particular 4.0.3 binary.
-- **S2: Alex's profile / release history**, [alexmj21 / chendelpiero](https://youhua.baidu.com/home/main?lp=home_follow_main&un=chendelpiero). Indexed profile includes a September 5, 2026 4.02 update excerpt; direct opening failed. The excerpt is incomplete, so do not reconstruct missing changes.
+- **S2: Alex's profile / release history**, [Alex's Baidu profile](https://youhua.baidu.com/home/main?lp=home_follow_main&un=chendelpiero). Indexed profile includes a September 5, 2026 4.02 update excerpt; direct opening failed. The excerpt is incomplete, so do not reconstruct missing changes.
 - **S3: older walkthrough collection**, [StrugglingTom](https://www.bilibili.com/list/ml2287243592?bvid=BV1Ba411L7FD&oid=214880374). Predates v4. Useful for finding scenes, not for validating current mechanics. Video footage was not inspected.
 - **S4: example of unreliable secondary advice**, a 4.0 article on an app download portal (link not kept). Its starter advice names the Johto trio, while its own walkthrough describes the Pallet opening and Pikachu replacing Squirtle. Reject it as an independent authority.
 
