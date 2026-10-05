@@ -20,6 +20,7 @@ export default defineConfig({
 			head: [
 				{ tag: 'meta', attrs: { name: 'ohg-repo', content: REPO_URL } },
 				{ tag: 'script', attrs: { src: base + 'ohg.js', defer: true } },
+				{ tag: 'script', attrs: { 'data-goatcounter': 'https://originheartgold.goatcounter.com/count', async: true, src: '//gc.zgo.at/count.js' } },
 			],
 			components: {
 				Footer: './src/components/Footer.astro',
