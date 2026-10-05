@@ -9,7 +9,7 @@ Upload latest.json with the release, before or when you publish it:
     gh release create v1.0.0-rc5 --prerelease work/release/v1.0.0-rc5/{*.xdelta,README.txt,latest.json}
     gh release upload v1.0.0-rc5 work/release/v1.0.0-rc5/latest.json      # for a release that already exists
 
-The site workflow downloads the newest release's latest.json and the .xdelta it names, checks the SHA-1 and
+The site workflow downloads the highest-version release's latest.json and the .xdelta it names, checks the SHA-1 and
 serves both from the website (browsers can't fetch GitHub release assets cross-origin). A release without
 latest.json leaves the patcher off, with a warning in the workflow run.
 

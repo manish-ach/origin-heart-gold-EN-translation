@@ -12,7 +12,9 @@ labels. Its per-string ledger explicitly retains unknown consumers and
 unproven variable bounds. See the final consumer-contract validation in
 [tooling_rollout.md](tooling_rollout.md).
 
-New review items are 50 intentionally blanked entries (banks 0034/0035/0041/0267)
+(Resolved for rc5, 2026-10-04, D-1483: the 50 blanked entries are translated from
+the Japanese with their codes kept, and 0616#37 is one 200% line again; the safety
+check has 0 control failures.) New review items were 50 intentionally blanked entries (banks 0034/0035/0041/0267)
 whose Chinese-hack unreachability is unproven, and the documented SIZE reset in
 0616#37. These fail source-control preservation; they are not newly confirmed
 game bugs. Existing QA ignores do not waive this independent check. Native
@@ -136,7 +138,7 @@ as a claim that this outstanding translation review is complete.
 Status: fixed for rc5 (2026-10-04). The 17 descriptions were shortened to fit
 the 114-unit buffer; the 2026-10-04 rc5 gate reports 0 buffer overflows and the
 `bag_full` scenario passes with no rejected copies
-(`work/build/rc5-release-check/quality/report.json`). History below.
+(`work/build/rc5-release-check2/quality/report.json`). History below.
 
 Original status: confirmed English regression; a guarded capacity check now fails it.
 Game-data fixes require discussion with the user.
@@ -211,7 +213,7 @@ gate correctly failed the new English rejections. Evidence:
 
 Status: fixed for rc5 (2026-10-04). The rc5 build's link-capture screen stays
 within the 48 loaded tiles (highest 47) and the artifact gate passes
-(`work/build/rc5-release-check/quality/report.json`). History below.
+(`work/build/rc5-release-check2/quality/report.json`). History below.
 
 Original status: confirmed, already documented; current source assets are corrected, but
 the tested RC4 ROM and release packages retain the old graphic.

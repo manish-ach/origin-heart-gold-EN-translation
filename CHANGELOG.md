@@ -5,7 +5,7 @@ Patches apply to **Pokémon HeartGold (USA)**, CRC32 `C180A0E9`.
 
 ## [1.0.0-rc5] - 2026-10-04
 
-Tester release. 182 strings in 57 banks and one graphic differ from rc4: no code, script, map or Pokémon data changed.
+Tester release. 233 strings in 62 banks and one graphic differ from rc4: no code, script, map or Pokémon data changed.
 
 ### Fixed
 - Blank item and move descriptions in the Bag, shops and the battle Bag: 17 English descriptions (Scope Lens, Sticky Barb, Lucky Egg, Soothe Bell, Focus Band, Shed Shell…) were longer than the 114-character buffer those screens copy into, so the game left the box empty. They are shortened to fit (F001); a new check (`text_buffer_check.py`) measures every description against the buffer read from the game's own code.
@@ -15,6 +15,7 @@ Tester release. 182 strings in 57 banks and one graphic differ from rc4: no code
 - Easy Chat: 11 words that shared their English with another word (three "I"s, "YOU", "WOW", "OK"…) are now distinct, so passwords and the word picker are unambiguous (D-1462). New words: THIS GUY, THIS OLD MAN, YOURS TRULY, YOU THERE, LAD, OOOH, UH-HUH, HOWDY, I WON'T, COME ON IN, PERFECTION.
 - Trainer names: Gus → Grady (no longer clashes with the other Gus, D-1434) and Nick → Nate (matches his dialogue, D-1116).
 - The Mt. Moon couple's song is replaced with hum lines (song rule D-0368, D-1459). A line about the player is gender-neutral (D-1224), and the Route 11 grass-cutter is no longer called a boy (D-1435). The Quagsire thief's menu option now names Quagsire's Poké Ball (D-1482). Smaller fixes: a certificate's line breaks, MooMoo Farm, the debug slot labels.
+- 50 Japanese leftover messages (Contest judging, dance and reception text; four Pokéwalker messages) were blank in English, as in US HeartGold. Blanking dropped the hack's control codes, including two YES/NO prompts, which could break a scene if one were ever shown. They are now translated from the Japanese with every code kept (D-1483). Pryce's double-size shout in the Mahogany Town hostage scene is one line on one page again, as in the Chinese (D-1389).
 
 ### Changed
 - Anime and manga quotes now use the canon English wording (D-1436), checked against Bulbapedia. Team Rocket's motto, Cassidy & Butch's motto and their parodies use the original-series English dub lines ("Prepare for trouble!" … "Meowth! That's right!", D-1437); Team Rocket's defeat line is "Looks like Team Rocket's blasting off again!" (D-1438); Misty is a "Water Pokémon Master"; Crystal's Smoochum is Chumee (VIZ); Goh's catch line follows the dub.
@@ -36,12 +37,11 @@ Tester release. 182 strings in 57 banks and one graphic differ from rc4: no code
 - Missables and shared flags: the Seafoam post-game Rocket scene removes the Articuno you could still catch before the Hall of Fame (TM14, D-1422); the Unown Report never progresses (D-1427); the Route 17 Shiny Stone can't be obtained (D-1400); several quests share one flag or variable (D-1401, D-1405, D-1412, D-1413, D-1416, D-1424, D-1429, D-1431).
 - The Game Corner charges 50,000 for 50 coins (D-1415). Lantern riddles: a wrong answer at riddle 4 or 5 repeats riddles 2–5 (D-1419). The stats-page hint says L/R, but only L opens the IV/EV panel (D-1458).
 
-### Known issues (ours, unchanged from rc4)
-- 50 strings the hack left blank are still blank in English. They're probably unreachable, but that isn't proven (`work/notes/tooling_findings.md`). Pryce's double-size line uses one page per line (D-1389). The static text check reports these 51 strings as failures by design, until they are proven unreachable or safe.
+### Known issues (ours)
 - The battle emulator scenarios (`battle`, `battle_switch`) can't yet confirm every battle checkpoint; their memory and text checks pass.
 
 ### Verification
-Release gate (`quality_runner.py`, all checks) on the rc5 build: 453 tool tests and 25 docs tests pass; translation QA 0 errors; 16 of 18 emulator scenarios pass and the 2 battle scenarios are incomplete, with 0 memory or text findings in any; the build artifact, description buffers (0 overflows) and native text loading (76,862 entries) pass; the static text check flags only the 51 known strings above. The ROM differs from rc4 only in the message archive and the link-capture graphic. All 182 changed strings were reread against the Chinese.
+Release gate (`quality_runner.py`, all checks) on the rc5 build: 453 tool tests and 25 docs tests pass; translation QA 0 errors; 16 of 18 emulator scenarios pass and the 2 battle scenarios are incomplete, with 0 memory or text findings in any; the build artifact, description buffers (0 overflows) and native text loading (76,862 entries) pass; the static text check finds 0 control-code failures in 76,862 strings (it reports "incomplete" because it can't prove a maximum length for every runtime variable). The ROM differs from rc4 only in the message archive and the link-capture graphic. All 233 changed strings were reread against the Chinese (or the Japanese, for the leftovers).
 
 ## [1.0.0-rc4] - 2026-09-30
 

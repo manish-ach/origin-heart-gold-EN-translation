@@ -1,7 +1,7 @@
 # Build the guide website from the committed content in site/ and publish it to GitHub Pages.
 # The ROM is never needed here: site/src/data and site/src/content are generated locally
 # (python3 work/tools/site/build.py --content) and committed.
-# The in-browser patcher (/patch/) serves the newest release's .xdelta from the site itself:
+# The in-browser patcher (/patch/) serves the highest-version release's .xdelta from the site itself:
 # the build downloads it with the release's latest.json (work/tools/site/patch_manifest.py). Never committed.
 name: Website
 
@@ -105,8 +105,14 @@ jobs:
             jq -n --arg reason "$1" '{available: false, reason: $reason}' > "$out/latest.json"
             exit 0
           }
-          release=$(gh release list --repo "$GITHUB_REPOSITORY" --exclude-drafts --limit 1 \
-            --json tagName,isPrerelease --jq '.[0] // empty') || off "could not list the releases"
+          # The highest version (vX.Y.Z, vX.Y.Z-rcN; a final beats its rcs), not the newest by date,
+          # so publishing an older release afterwards never replaces the served patch.
+          release=$(gh release list --repo "$GITHUB_REPOSITORY" --exclude-drafts --limit 100 \
+            --json tagName,isPrerelease --jq '
+              map(select(.tagName | test("^v[0-9]+\\.[0-9]+\\.[0-9]+(-rc[0-9]+)?$")))
+              | max_by(.tagName | capture("^v(?<a>[0-9]+)\\.(?<b>[0-9]+)\\.(?<c>[0-9]+)(-rc(?<r>[0-9]+))?$")
+                       | [(.a, .b, .c | tonumber), (.r // "1e9" | tonumber)]) // empty') \
+            || off "could not list the releases"
           [ -n "$release" ] || off "no published release"
           tag=$(jq -r .tagName <<<"$release")
           gh release download "$tag" --repo "$GITHUB_REPOSITORY" --pattern latest.json --output "$manifest" \

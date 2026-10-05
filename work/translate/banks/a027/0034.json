@@ -20,10 +20,10 @@
   {
    "id": 1,
    "zh": "{VAR:FF00:1}{VAR:0132:0}かいめ{VAR:FF00:0}の　えんぎ！{NEWLINE}どの　わざで　えんぎする？",
-   "en": "",
+   "en": "{VAR:FF00:1}Appeal no. {VAR:0132:0}{VAR:FF00:0}!{NEWLINE}Which move will you use?",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -34,10 +34,10 @@
   {
    "id": 2,
    "zh": "{VAR:FF00:1}さいご{VAR:FF00:0}の　えんぎ！{NEWLINE}どの　わざで　えんぎする？",
-   "en": "",
+   "en": "{VAR:FF00:1}Final{VAR:FF00:0} appeal!{NEWLINE}Which move will you use?",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -48,10 +48,10 @@
   {
    "id": 3,
    "zh": "{VAR:0101:0}は　{VAR:0103:1}に{NEWLINE}{VAR:0106:2}で　えんぎ！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0101:0} appeals to{NEWLINE}{VAR:0103:1} with {VAR:0106:2}!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -90,10 +90,10 @@
   {
    "id": 6,
    "zh": "{VAR:0103:0}は{NEWLINE}{VAR:0101:1}と　{VAR:0101:2}の{SCROLL}えんぎが　つよく{NEWLINE}いんしょうに　のこった！　{VAR:FF00:1}+２{VAR:FF00:0}！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0103:0} was strongly{NEWLINE}impressed by {VAR:0101:1}{SCROLL}and {VAR:0101:2}’s appeals!{NEWLINE}{VAR:FF00:1}+2{VAR:FF00:0}!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -104,10 +104,10 @@
   {
    "id": 7,
    "zh": "{VAR:0103:0}は{NEWLINE}{VAR:0101:1}と　{VAR:0101:2}と{SCROLL}{VAR:0101:3}の　えんぎが{NEWLINE}いんしょうに　のこった！　{VAR:FF00:1}+１{VAR:FF00:0}！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0103:0} was impressed by{NEWLINE}{VAR:0101:1}, {VAR:0101:2}{SCROLL}and {VAR:0101:3}’s appeals!{NEWLINE}{VAR:FF00:1}+1{VAR:FF00:0}!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -118,10 +118,10 @@
   {
    "id": 8,
    "zh": "{VAR:0103:0}は　ぜんいんの{NEWLINE}えんぎを　みて　それぞれの{CLEAR}いんしょうが　うすくなった！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0103:0} saw everyone’s{NEWLINE}appeals, and each one made{CLEAR}a weaker impression!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -132,10 +132,10 @@
   {
    "id": 9,
    "zh": "{VAR:0103:0}は　{VAR:0101:1}の{NEWLINE}えんぎが　とても　つよく{CLEAR}いんしょうに　のこった！　{VAR:FF00:1}+３{VAR:FF00:0}！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0103:0} was very strongly{NEWLINE}impressed by {VAR:0101:1}’s{CLEAR}appeal! {VAR:FF00:1}+3{VAR:FF00:0}!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -160,10 +160,10 @@
   {
    "id": 11,
    "zh": "{VAR:0103:0}は　かっこよさを{NEWLINE}えんぎする　わざを　みて{CLEAR}ボルテージが　あがった！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0103:0} saw a move{NEWLINE}with a Cool appeal, and{CLEAR}the excitement went up!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -174,10 +174,10 @@
   {
    "id": 12,
    "zh": "{VAR:0103:0}は　うつくしさを{NEWLINE}えんぎする　わざを　みて{CLEAR}ボルテージが　あがった！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0103:0} saw a move{NEWLINE}with a Beauty appeal, and{CLEAR}the excitement went up!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -188,10 +188,10 @@
   {
    "id": 13,
    "zh": "{VAR:0103:0}は　かわいさを{NEWLINE}えんぎする　わざを　みて{CLEAR}ボルテージが　あがった！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0103:0} saw a move{NEWLINE}with a Cute appeal, and{CLEAR}the excitement went up!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -202,10 +202,10 @@
   {
    "id": 14,
    "zh": "{VAR:0103:0}は　かしこさを{NEWLINE}えんぎする　わざを　みて{CLEAR}ボルテージが　あがった！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0103:0} saw a move{NEWLINE}with a Smart appeal, and{CLEAR}the excitement went up!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -216,10 +216,10 @@
   {
    "id": 15,
    "zh": "{VAR:0103:0}は　たくましさを{NEWLINE}えんぎする　わざを　みて{CLEAR}ボルテージが　あがった！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0103:0} saw a move{NEWLINE}with a Tough appeal, and{CLEAR}the excitement went up!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -244,10 +244,10 @@
   {
    "id": 17,
    "zh": "{VAR:0103:0}は　かっこよさを{NEWLINE}えんぎする　わざを　みて{CLEAR}ボルテージが　さがった！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0103:0} saw a move{NEWLINE}with a Cool appeal, and{CLEAR}the excitement went down!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -258,10 +258,10 @@
   {
    "id": 18,
    "zh": "{VAR:0103:0}は　うつくしさを{NEWLINE}えんぎする　わざを　みて{CLEAR}ボルテージが　さがった！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0103:0} saw a move{NEWLINE}with a Beauty appeal, and{CLEAR}the excitement went down!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -272,10 +272,10 @@
   {
    "id": 19,
    "zh": "{VAR:0103:0}は　かわいさを{NEWLINE}えんぎする　わざを　みて{CLEAR}ボルテージが　さがった！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0103:0} saw a move{NEWLINE}with a Cute appeal, and{CLEAR}the excitement went down!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -286,10 +286,10 @@
   {
    "id": 20,
    "zh": "{VAR:0103:0}は　かしこさを{NEWLINE}えんぎする　わざを　みて{CLEAR}ボルテージが　さがった！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0103:0} saw a move{NEWLINE}with a Smart appeal, and{CLEAR}the excitement went down!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -300,10 +300,10 @@
   {
    "id": 21,
    "zh": "{VAR:0103:0}は　たくましさを{NEWLINE}えんぎする　わざを　みて{CLEAR}ボルテージが　さがった！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0103:0} saw a move{NEWLINE}with a Tough appeal, and{CLEAR}the excitement went down!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -356,10 +356,10 @@
   {
    "id": 25,
    "zh": "すごく　もりあがった！　{VAR:FF00:1}＋{VAR:0132:0}{VAR:FF00:0}！{SCROLL}",
-   "en": "",
+   "en": "The crowd went wild! {VAR:FF00:1}+{VAR:0132:0}{VAR:FF00:0}!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -426,10 +426,10 @@
   {
    "id": 30,
    "zh": "{VAR:0101:0}は{NEWLINE}あまり　めだたなかったようだ⋯{SCROLL}",
-   "en": "",
+   "en": "{VAR:0101:0} didn’t seem{NEWLINE}to stand out much...{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -440,10 +440,10 @@
   {
    "id": 31,
    "zh": "{VAR:0101:0}は{NEWLINE}まあまあ　めだったようだ{SCROLL}",
-   "en": "",
+   "en": "{VAR:0101:0} seemed to{NEWLINE}stand out a little.{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -454,10 +454,10 @@
   {
    "id": 32,
    "zh": "{VAR:0101:0}は{NEWLINE}しっかり　めだった！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0101:0}{NEWLINE}stood out well!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -468,10 +468,10 @@
   {
    "id": 33,
    "zh": "{VAR:0101:0}は{NEWLINE}かなり　めだった！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0101:0}{NEWLINE}stood out a lot!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
@@ -482,10 +482,10 @@
   {
    "id": 34,
    "zh": "{VAR:0101:0}は{NEWLINE}おもいっきり　めだった！{SCROLL}",
-   "en": "",
+   "en": "{VAR:0101:0}{NEWLINE}stood out tremendously!{SCROLL}",
    "status": "draft",
-   "origin": "copy",
-   "notes": "DP Super Contest judging text (Japanese leftover); US HGSS blanks this bank, mirrored; unused",
+   "origin": "agent",
+   "notes": "DP Super Contest judging text (Japanese leftover). rc5 fix 2026-10-04: translated from the Japanese instead of left blank, so the hack’s control codes are kept (was blank like US HGSS).",
    "qa_ignore": [
     "empty",
     "tag_mismatch",
