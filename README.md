@@ -2,33 +2,16 @@
 
 An English fan translation of **起源心金 (Pokémon Origin HeartGold) v4.0.3**, a Chinese ROM hack of Pokémon HeartGold. The hack retells the story with characters from Pokémon Origins, the anime and Pokémon Adventures.
 
-**Status: release candidate (v1.0.0-rc5).** All 67,078 translatable strings are in English and pass the automated checks. The event scripts have been audited (softlocks, trades, gifts, passwords; see [CHANGELOG.md](CHANGELOG.md)), and game documentation generated from the ROM's own data is in [work/docs/](work/docs/README.md). Please report anything odd.
-
 ## Play it
 
-You need your own copy of **Pokémon HeartGold Version (USA)** and the English patch. We don't provide ROMs, and the patch only works on that exact game.
+[Patch your game here](https://originheartgold.github.io/origin-heart-gold-EN-translation/patch/) and run on any emulator.
+Real Nintendo hardware is **not** supported and might result in strange and unexpected behavior.
 
-1. **Dump your own cartridge** to a `.nds` file. The European, Japanese, Korean or Chinese versions won't work, and neither will a ROM that's already patched or trimmed.
-2. **Check the file.** Its CRC32 must be `C180A0E9` (SHA-1 `4fcded0e2713dc03929845de631d0932ea2b5a37`).
-   - Windows: right-click the file in Explorer → **7-Zip** → **CRC SHA** → **CRC-32**.
-   - macOS: in Terminal, `crc32 "Pokemon - HeartGold Version (USA).nds"` (it prints lowercase, `c180a0e9`).
-   - Linux: `sha1sum "Pokemon - HeartGold Version (USA).nds"` and compare with the SHA-1 above.
+Stuck on a quest? The [quest guide]([guide/README.md](https://originheartgold.github.io/origin-heart-gold-EN-translation/guide/)) covers side quests, puzzles and easy-to-miss events, region by region.
 
-   If it doesn't match, the patch will fail or produce a broken game.
-3. **Download the patch:** the latest `Origin_HeartGold_v4.0.3_EN_<version>.xdelta` from [Releases](../../releases).
-4. **Apply it** with any xdelta patcher:
-   - Easiest: the **Patch your game** page (`/patch/`) of the guide website, linked in this repository's About box. It checks your file, downloads the latest patch for you, applies it in your browser (nothing is uploaded), verifies the result and saves it as `Origin_HeartGold_v4.0.3_EN_<version>.nds`. Use a desktop browser: patching needs a few hundred MB of memory. With that page you can skip steps 2 and 3.
-   - In the browser, by hand: open [xdelta-wasm](https://kotcrab.github.io/xdelta-wasm/), pick your HeartGold `.nds` as the source file and the `.xdelta` as the patch, apply it and save the new `.nds`.
-   - From the command line with `xdelta3` (replace the patch name with the file you downloaded):
-     ```sh
-     xdelta3 -d -s "Pokemon - HeartGold Version (USA).nds" Origin_HeartGold_v4.0.3_EN_v1.0.0-rc5.xdelta origin_hg_en.nds
-     ```
-   Keep your original `.nds`: the patch writes a new file. The release's `README.txt` lists the SHA-1 the patched ROM should have.
-5. **Play** the new `.nds` in [melonDS](https://melonds.kuribo64.net/), which is what we test with. Other emulators and flashcarts haven't been tested.
+Cannot find a Pokémon? Check the [full reference](https://originheartgold.github.io/origin-heart-gold-EN-translation/pokemon/) including movesets including egg, and moveset, evolution level or method, location, and more.
 
-Stuck on a quest? The [quest guide](guide/README.md) covers side quests, puzzles and easy-to-miss events, region by region.
-
-Found a bad line or text running off the box? [Open an issue](../../issues) with a screenshot.
+**Status: release candidate (v1.0.0-rc5).** All 67,078 translatable strings are in English and pass the automated checks. The event scripts have been audited (softlocks, trades, gifts, passwords; see [CHANGELOG.md](CHANGELOG.md)), and game documentation generated from the ROM's own data is in [work/docs/](work/docs/README.md). Please report anything odd.
 
 ## How it works
 
