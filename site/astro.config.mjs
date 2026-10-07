@@ -24,12 +24,12 @@ export default defineConfig({
 			],
 			components: {
 				Footer: './src/components/Footer.astro',
+				Header: './src/components/GuideHeader.astro',
 			},
 			sidebar: [
 				{ label: 'Start here', items: [
 					{ label: 'Home', link: '/' },
 					{ label: 'Patch your game', slug: 'patch' },
-					{ label: 'Save editor', link: '/save-editor/' },
 					{ label: 'How to use this guide', slug: 'about' },
 					{ label: 'Mechanics and controls', slug: 'mechanics' },
 				] },
