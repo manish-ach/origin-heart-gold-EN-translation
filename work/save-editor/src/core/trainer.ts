@@ -1,6 +1,6 @@
 import { EditorError } from './errors.js';
 import { readSave, patchGeneralRegion } from './save.js';
-import { decodeName } from './pokemon.js';
+import { decodeName, encodeName } from './pokemon.js';
 /** Origin player profile inside the general block. Do not use vanilla US HGSS badge offsets.
  * Origin ARM9 reads/writes badge IDs 0–7 at profile +0x1c and 8–15 at +0x1f.
  * Profile starts at general +0x64, so the badge bytes are +0x80 and +0x83.
@@ -55,4 +55,13 @@ export function patchBadge(input: Uint8Array, bank: number, bit: number, earned:
   const mask = 1 << bit;
   return patchGeneralRegion(input, bank === 0 ? BADGES : BADGES_2,
     Uint8Array.of(earned ? current | mask : current & ~mask));
+}
+
+export function patchTrainerProfile(input:Uint8Array, changes:{name?:string;gender?:'male'|'female';tid?:number;sid?:number;language?:number}):Uint8Array {
+ let result=input;
+ if(changes.name!==undefined){if(!changes.name||[...changes.name].length>7)throw new EditorError('invalid-input','Trainer name must have 1–7 characters.');const encoded=encodeName(changes.name).slice(0,16);if(decodeName(new DataView(encoded.buffer),0,8)!==changes.name)throw new EditorError('invalid-input','Unsupported trainer name.');result=patchGeneralRegion(result,NAME,encoded);}
+ for(const [key,offset] of [['tid',TID],['sid',SID]] as const){const n=changes[key];if(n!==undefined){integer(n,0,65535,key);const bytes=new Uint8Array(2);new DataView(bytes.buffer).setUint16(0,n,true);result=patchGeneralRegion(result,offset,bytes);}}
+ if(changes.gender!==undefined){if(!['male','female'].includes(changes.gender))throw new EditorError('invalid-input','Invalid gender.');result=patchGeneralRegion(result,GENDER,Uint8Array.of(changes.gender==='female'?1:0));}
+ if(changes.language!==undefined){integer(changes.language,1,8,'Language');result=patchGeneralRegion(result,LANGUAGE,Uint8Array.of(changes.language));}
+ return result;
 }

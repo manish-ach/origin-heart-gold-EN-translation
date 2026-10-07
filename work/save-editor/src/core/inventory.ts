@@ -85,3 +85,21 @@ export function patchInventoryPocket(input: Uint8Array, pocketId: PocketId, item
   }
   return result;
 }
+
+/** Fill available slots without removing existing items or touching key items. */
+export function fillBag(input: Uint8Array, data: InventoryData): {bytes: Uint8Array; omitted: number} {
+  let bytes = input, omitted = 0;
+  const inventory = readInventory(input);
+  for (const pocket of POCKETS) {
+    if (pocket.id === 'keyItems') continue;
+    const stacks = inventory.pockets[pocket.id].map(item => ({...item, quantity: pocket.maxQuantity}));
+    const present = new Set(stacks.map(item => item.id));
+    for (const item of data.items) {
+      if (item.pocket !== pocket.id || !item.name || item.name.startsWith('Item #') || present.has(item.id)) continue;
+      if (stacks.length >= pocket.capacity) { omitted++; continue; }
+      stacks.push({id: item.id, quantity: pocket.maxQuantity}); present.add(item.id);
+    }
+    bytes = patchInventoryPocket(bytes, pocket.id, stacks, data);
+  }
+  return {bytes, omitted};
+}

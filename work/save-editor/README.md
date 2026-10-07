@@ -111,3 +111,23 @@ The theme button switches between light and dark and remembers the choice locall
 Run `npm test` for typechecking and tests. Real-save tests skip when no local fixture is available. To include them, set `OHG_SAVE_FIXTURE=/absolute/path/to/test.sav` or place a save at `local/fixture.sav` (gitignored). Never commit save files.
 
 Badge state is read from the active save's Origin-specific bytes at general `+0x80` and `+0x83`. It is never inferred from party levels, story progress, or previous files. Neighboring profile bytes do not affect badges. The theme control uses sun/moon icons with accessible labels and tooltips.
+
+## Selected species and bulk bag edits
+
+The species selector changes only the selected party or PC Pokémon, retains identity and training, uses the selected form, and preserves its level while recalculating stats. Custom nicknames, moves and abilities are retained. Eggs must hatch first.
+
+“Add all items ×999” maximizes existing stacks and adds missing named items until each pocket is full, without changing key items. TMs/HMs use the supported maximum of 99. The result reports items that do not fit. Undo reverses the whole action.
+
+The add and species selectors include all 16 Hisuian forms listed in the guide. They store the native base species plus form 1, and use form-specific stats, abilities and learnsets. Form mappings and base stats were checked against the local rc5 ROM. In-game loading of newly created Hisuian Pokémon remains unverified.
+
+The Pokémon header includes icon-only gender editing for party and PC Pokémon, limited to genders supported by the species. See FEATURE_COMPARISON.md for the comparison with Light Platinum and PKHeX.
+
+## Advanced tools
+
+The hero’s compact male/female toggle sits directly below the shiny button. The selected icon is highlighted and the other is dim. Always-visible bento cards contain nickname/flag, direct experience, friendship, OT gender and encounter/egg fields. The species picker includes 383 native forms, including the 16 Hisuian forms.
+
+PC tools move, copy or clone into free slots, fill free box slots with distinct PIDs, sort by species, maximize IVs/friendship and search across the loaded save. Individual file, Showdown, ribbon/marking and compatibility panels are hidden from the Pokémon UI. Trainer includes editable player profile and a Pokédex card with seen/caught progress and species status controls; Mystery Gift and the Save file card are hidden. The item reference is in Bag.
+
+Both inner chunk and main save checksums are repaired. Undo remains available for complete save operations. See FEATURE_COMPARISON.md for supported features and practical limits, and NATIVE_LAYOUT.md for format provenance. Compatibility findings are partial Origin checks, not a complete legality verdict. Native game loading remains to be verified.
+
+The Bag uses compact pocket cards and a scrollable inventory list. Selected-item price, held-effect, Fling and use metadata appear beside the quantity controls; there is no separate collapsed item-reference panel. The layout stacks on narrow screens.

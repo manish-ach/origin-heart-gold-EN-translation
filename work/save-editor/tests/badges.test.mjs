@@ -8,6 +8,7 @@ function fixture(base = 0) {
     dv.setUint32(offset + 0x90, 6, true);
     bytes[offset + 0x7e] = 0xff; bytes[offset + 0x7f] = 0xff;
     bytes[offset + 0x80] = 0x55; bytes[offset + 0x83] = 0xaa;
+    dv.setUint16(offset + 0x8c,crc16(bytes.subarray(offset+0x60,offset+0x8c)),true);
     const footer = offset + 0xf7cc - 16;
     dv.setUint32(footer, offset === base ? 2 : 1, true);
     dv.setUint32(footer + 4, 0xf7cc, true);
@@ -27,7 +28,7 @@ for (const base of [0, 0x40000]) test(`all badge bits preserve unrelated data, a
     assert.equal(readTrainer(output).badgeCount, before.badgeCount + (earned ? 1 : -1));
     assert.deepEqual(patchBadge(output, bank, bit, !earned), input);
     assert.deepEqual(patchBadge(output, bank, bit, earned), output);
-    const allowed = new Set([base + (bank === 0 ? 0x80 : 0x83), base + 0xf7cc - 2, base + 0xf7cc - 1]);
+    const allowed = new Set([base + (bank === 0 ? 0x80 : 0x83), base + 0x8c, base + 0x8d, base + 0xf7cc - 2, base + 0xf7cc - 1]);
     for (let i = 0; i < input.length; i++) if (output[i] !== input[i]) assert.ok(allowed.has(i), `unexpected change at ${i}`);
   }
   assert.deepEqual(input, fixture(base));

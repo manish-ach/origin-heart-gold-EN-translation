@@ -27,6 +27,13 @@ export interface OriginSave {
   partyRecords: Uint8Array[];
 }
 
+/** Native rc5 chunk starts/sizes from ARM9 table 0x020f30cc. Every chunk
+ * ends with a CRC16 and two padding bytes; the general block has its own CRC. */
+const GENERAL_CHUNKS: readonly (readonly [number,number])[] = [[0,0x5c],[0x60,0x2c],[0x90,0x5b0],[0x644,0x864],[0xeac,0x474],[0x1324,0x80],[0x13a8,0x370],[0x171c,0x1e0],[0x1900,0x880],[0x2184,0x2f8],[0x2480,0x1400],[0x3884,0x20],[0x38a8,0x834],[0x40e0,0x460],[0x4544,0x108],[0x4650,0x620],[0x4c74,0x1c0],[0x4e38,0x170],[0x4fac,0x3ec],[0x539c,0x1694],[0x6a34,0x10],[0x6a48,0x68],[0x6ab4,0xf8],[0x6bb0,0xbc8],[0x777c,0xea0],[0x8620,0x8c0],[0x8ee4,0xff8],[0x9ee0,0x1680],[0xb564,0x688],[0xbbf0,0x28],[0xbc1c,8],[0xbc28,0x40],[0xbc6c,8],[0xbc78,8],[0xbc84,0x658],[0xc2e0,0x5fc],[0xc8e0,0x1294],[0xdb78,0xb80],[0xe6fc,0x80],[0xe780,0x134],[0xe8b8,0xf00]];
+function repairChunkCrc(bytes:Uint8Array,base:number,start:number,length:number):void {
+ const dv=view(bytes);for(const [offset,size] of GENERAL_CHUNKS)if(start<offset+size&&start+length>offset)dv.setUint16(base+offset+size,crc16(bytes.subarray(base+offset,base+offset+size)),true);
+}
+
 /** CRC16-CCITT: polynomial 0x1021, seed 0xffff, no reflection/final XOR. */
 export function crc16(bytes: Uint8Array): number {
   let crc = 0xffff;
@@ -147,6 +154,7 @@ export function patchPartyRecord(input: Uint8Array, slot: number, record: Uint8A
   }
   const data = view(save.bytes);
   save.bytes.set(record, offset);
+  repairChunkCrc(save.bytes,save.generalOffset,PARTY_OFFSET+slot*PARTY_STRIDE,record.length);
   const footer = save.generalOffset + GENERAL_SIZE - FOOTER_SIZE;
   data.setUint16(footer + 14, crc16(save.bytes.subarray(save.generalOffset, footer)), true);
   return save.bytes;
@@ -167,6 +175,7 @@ export function patchGeneralRegion(input: Uint8Array, relativeOffset: number, re
   }
   const data = view(save.bytes);
   save.bytes.set(replacement, offset);
+  repairChunkCrc(save.bytes,save.generalOffset,relativeOffset,replacement.length);
   const footer = save.generalOffset + GENERAL_SIZE - FOOTER_SIZE;
   data.setUint16(footer + 14, crc16(save.bytes.subarray(save.generalOffset, footer)), true);
   return save.bytes;
@@ -239,6 +248,7 @@ export function patchBoxRecord(input: Uint8Array, box: number, slot: number, rec
   const dv = view(storage.bytes);
   const flags = storage.offset + 0x18004;
   dv.setUint32(flags, dv.getUint32(flags, true) | (1 << box), true);
+  dv.setUint16(storage.offset+0x183f4,crc16(storage.bytes.subarray(storage.offset,storage.offset+0x183f4)),true);
   const footer = storage.offset + STORAGE_SIZE - FOOTER_SIZE;
   dv.setUint16(footer + 14, crc16(storage.bytes.subarray(storage.offset, footer)), true);
   return storage.bytes;

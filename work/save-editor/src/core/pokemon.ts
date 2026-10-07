@@ -1,3 +1,4 @@
+import { personalIndex, speciesInfo, possibleGenders } from './species-info.js';
 import { EditorError } from './errors.js';
 /** Origin v4.0.3 boxed Pokémon codec; see research-pokemon.md for native evidence. */
 export type PokerusStatus = 'none' | 'infected' | 'cured';
@@ -10,7 +11,7 @@ import type { StatValues } from './stats.js';
 export type { StatValues } from './stats.js';
 export interface PokemonStatChanges { ivs?: StatValues; evs?: StatValues; level?: number; nature?: number }
 export interface DecodedPokemon {
-  pid: number; speciesId: number; moves: PokemonMove[];
+  pid: number; speciesId: number; gender: 'male' | 'female' | 'genderless'; moves: PokemonMove[];
   shiny: boolean; naturalShiny: boolean; shinyOverride: boolean;
   pokerus: { status: PokerusStatus; strain: number; days: number; raw: number };
   ivs: StatValues; evs: StatValues; nature: number; form: number; experience: number; isEgg: boolean;
@@ -99,6 +100,7 @@ export function decodePokemon(record: Uint8Array): DecodedPokemon {
     evs: statValues(i => data.getUint8(a + 16 + i)),
     nature: natureOverride ? natureOverride - 1 : pid % 25,
     form: data.getUint8(b + 24) >>> 3,
+    gender: (data.getUint8(b + 24) & 4) ? 'genderless' : (data.getUint8(b + 24) & 2) ? 'female' : 'male',
     experience: data.getUint32(a + 8, true),
     ability: data.getUint16(b + 26, true), abilitySlot: data.getUint8(a + 13),
     heldItem: data.getUint16(a + 2, true), nickname: decodeName(data, c),
@@ -193,6 +195,51 @@ export function patchPokemonStats(
   return result;
 }
 
+/** Change only this record's species, retaining its identity and training. */
+export function patchPokemonSpecies(record: Uint8Array, speciesId: number, name: string,
+  personal: {baseStats: readonly [number, number, number, number, number, number]; growthRate: number; growthThresholds: readonly number[]},
+  previousThresholds: readonly number[], genderRatio: number, form = 0): Uint8Array {
+  const mon = decodePokemon(record);
+  if (!Number.isInteger(speciesId) || speciesId < 1 || speciesId > 1025) throw new EditorError('invalid-input', 'Choose a supported species.');
+  if (mon.isEgg) throw new EditorError('invalid-pokemon', 'Hatch the egg before changing species.');
+  if (!Number.isInteger(form) || form < 0 || form > 31 || (form && personalIndex(speciesId, form) === speciesId)) throw new EditorError('invalid-input', 'Unsupported species form.');
+  if (mon.speciesId === speciesId && mon.form === form) return Uint8Array.from(record);
+  let level = mon.party?.level ?? 1;
+  if (!mon.party) for (let n = 2; n <= 100; n++) if (mon.experience >= previousThresholds[n]!) level = n;
+  const {payload, a, b, c, pid} = unpack(record);
+  const dv = view(payload);
+  dv.setUint16(a, speciesId, true);
+  dv.setUint32(a + 8, experienceForLevel(level, personal.growthRate, personal.growthThresholds), true);
+  // Forms do not transfer between species. Gender follows the new species and existing PID.
+  payload[b + 24] = (form << 3) | (payload[b + 24]! & 1) | (genderRatio === 255 ? 4 : genderRatio === 254 || (genderRatio !== 0 && (pid & 255) < genderRatio) ? 2 : 0);
+  if (!(dv.getUint32(b + 16, true) & 0x80000000)) payload.set(encodeName(name), c);
+  const result = Uint8Array.from(record), sum = checksum(payload);
+  view(result).setUint16(6, sum, true);
+  result.set(crypt(payload, sum), 8);
+  if (mon.party) {
+    const tailBytes = crypt(record.subarray(136), pid), tail = view(tailBytes);
+    const stats = calculateStats(personal.baseStats, mon.ivs, mon.evs, level, mon.nature, speciesId);
+    tail.setUint16(6, adjustCurrentHp(mon.party.currentHp, mon.party.stats.hp, stats.hp, speciesId), true);
+    STAT_KEYS.forEach((key, i) => tail.setUint16(8 + i * 2, stats[key], true));
+    result.set(crypt(tailBytes, pid), 136);
+  }
+  return result;
+}
+
+/** Edit stored Gen IV gender bits; PID, form, nature and shininess remain unchanged. */
+export function patchPokemonGender(record: Uint8Array, gender: 'male' | 'female' | 'genderless'): Uint8Array {
+  const mon = decodePokemon(record);
+  const info = speciesInfo(mon.speciesId, mon.form);
+  if (!info || !possibleGenders(info.genderRatio).includes(gender)) throw new EditorError('invalid-input', 'That gender is not possible for this species.');
+  if (mon.isEgg) throw new EditorError('invalid-pokemon', 'Hatch the egg before changing gender.');
+  if (mon.gender === gender) return Uint8Array.from(record);
+  const {payload, b} = unpack(record);
+  payload[b + 24] = (payload[b + 24]! & ~6) | (gender === 'female' ? 2 : gender === 'genderless' ? 4 : 0);
+  const result = Uint8Array.from(record), sum = checksum(payload);
+  view(result).setUint16(6, sum, true); result.set(crypt(payload, sum), 8);
+  return result;
+}
+
 /** Origin's native override avoids changing PID, gender, nature or ability. */
 export function patchPokemonShiny(record: Uint8Array, shiny: boolean): Uint8Array {
   if (typeof shiny !== 'boolean') throw new EditorError('invalid-pokemon', 'Choose a shiny state.');
@@ -269,7 +316,7 @@ export function emptyPartyRecord(): Uint8Array {
 }
 
 const NAME_CODES: Record<string, number> = Object.fromEntries(Object.entries(NAME_PUNCT).map(([code, ch]) => [ch, Number(code)]));
-function encodeName(name: string): Uint8Array {
+export function encodeName(name: string): Uint8Array {
   const out = new Uint8Array(22); const dv = view(out);
   let n = 0;
   for (const ch of name) {
@@ -288,7 +335,7 @@ function encodeName(name: string): Uint8Array {
 }
 
 export interface NewPokemon {
-  speciesId: number; level: number; nature: number; shiny: boolean;
+  speciesId: number; form?: number; level: number; nature: number; shiny: boolean;
   gender: 'male' | 'female' | 'genderless';
   ability: number; abilitySlot: number;
   ivs: StatValues; moves: readonly { id: number; pp: number }[]; name: string;
@@ -308,8 +355,10 @@ export function createPokemon(template: Uint8Array, spec: NewPokemon, random: ()
   integer(spec.speciesId, 1, 1025, 'Species'); integer(spec.level, 1, 100, 'Level'); integer(spec.nature, 0, 24, 'Nature');
   integer(spec.ability, 1, ABILITY_MAX, 'Ability'); integer(spec.abilitySlot, 0, 2, 'Ability slot');
   validateStatValues(spec.ivs, 'IV');
-  if (!spec.moves.length || spec.moves.length > 4) throw new EditorError('invalid-input', 'Choose one to four moves.');
+  if (!Array.isArray(spec.moves) || spec.moves.length > 4) throw new EditorError('invalid-input', 'Choose up to four moves.');
   for (const m of spec.moves) { integer(m.id, 1, 920, 'Move'); integer(m.pp, 0, 255, 'PP'); }
+  const form = spec.form ?? 0;
+  if (!Number.isInteger(form) || form < 0 || form > 31 || (form && personalIndex(spec.speciesId, form) === spec.speciesId)) throw new EditorError('invalid-input', 'Unsupported species form.');
   const r = spec.genderRatio;
   const allowed = r === 255 ? 'genderless' : r === 254 ? 'female' : r === 0 ? 'male' : undefined;
   if (allowed ? spec.gender !== allowed : spec.gender === 'genderless') throw new EditorError('invalid-input', 'That gender is not possible for this species.');
@@ -341,7 +390,7 @@ export function createPokemon(template: Uint8Array, spec: NewPokemon, random: ()
   STAT_KEYS.forEach((key, i) => { ivWord |= spec.ivs[key] << (i * 5); });
   data.setUint32(b + 16, ivWord >>> 0, true);
   data.setUint32(b + 20, spec.shiny ? 0x80000000 : 0, true);
-  payload[b + 24] = spec.gender === 'female' ? 2 : spec.gender === 'genderless' ? 4 : 0;
+  payload[b + 24] = (form << 3) | (spec.gender === 'female' ? 2 : spec.gender === 'genderless' ? 4 : 0);
   data.setUint16(b + 26, spec.ability, true);
   payload.set(source.payload.subarray(source.b + 28, source.b + 32), b + 28);
   // Block C
@@ -395,4 +444,64 @@ export function patchPokemonOT(record: Uint8Array, changes: {name?: string; tid?
   view(result).setUint16(6, sum, true);
   result.set(crypt(payload, sum), 8);
   return result;
+}
+
+export interface PokemonMetadata {
+ nickname: string | undefined; nicknamed: boolean; friendship: number; markings: number; language: number;
+ originGame: number; otGender: 'male' | 'female'; ball: number; metLevel: number; metLocation: number; eggLocation: number;
+ metDate: string; eggDate: string; encounterType: number; fateful: boolean; ribbons: [number, number, number];
+}
+function storedDate(payload: Uint8Array, offset: number): string {
+ return payload[offset + 1] ? `${2000 + payload[offset]!}-${String(payload[offset+1]).padStart(2,'0')}-${String(payload[offset+2]).padStart(2,'0')}` : '';
+}
+export function readPokemonMetadata(record: Uint8Array): PokemonMetadata {
+ const {payload,a,b,c,d} = unpack(record), dv = view(payload);
+ const location = (newOffset:number,oldOffset:number) => { const n=dv.getUint16(newOffset,true); return n && n!==3002 ? n : dv.getUint16(oldOffset,true); };
+ return {nickname:decodeName(dv,c),nicknamed:!!(dv.getUint32(b+16,true)&0x80000000),friendship:payload[a+12]!,markings:payload[a+14]!,language:payload[a+15]!,
+ originGame:payload[c+23]!,otGender:payload[d+28]!&128?'female':'male',ball:payload[d+30]!||payload[d+27]!,metLevel:payload[d+28]!&127,
+ metLocation:location(b+30,d+24),eggLocation:location(b+28,d+22),metDate:storedDate(payload,d+19),eggDate:storedDate(payload,d+16),encounterType:payload[d+29]!,fateful:!!(payload[b+24]!&1),
+ ribbons:[dv.getUint32(a+28,true),dv.getUint32(c+24,true),dv.getUint32(c+28,true)]};
+}
+export function patchPokemonMetadata(record: Uint8Array, changes: Partial<PokemonMetadata>): Uint8Array {
+ const {payload,a,b,c,d} = unpack(record), dv = view(payload);
+ const integer=(value:number,min:number,max:number,label:string) => {if(!Number.isInteger(value)||value<min||value>max)throw new EditorError('invalid-input',`${label} must be ${min}–${max}.`);};
+ if(changes.nickname!==undefined){integer([...changes.nickname].length,1,10,'Nickname length');const encoded=encodeName(changes.nickname);if(decodeName(view(encoded),0)!==changes.nickname)throw new EditorError('invalid-input','Unsupported nickname characters.');payload.set(encoded,c);}
+ if(changes.nicknamed!==undefined){if(typeof changes.nicknamed!=='boolean')throw new EditorError('invalid-input','Invalid nickname flag.');dv.setUint32(b+16,((dv.getUint32(b+16,true)&0x7fffffff)|(changes.nicknamed?0x80000000:0))>>>0,true);}
+ for(const [key,offset] of [['friendship',a+12],['markings',a+14],['language',a+15],['originGame',c+23],['encounterType',d+29]] as const){const n=changes[key];if(n!==undefined){integer(n,0,key==='markings'?63:255,key);payload[offset]=n;}}
+ if(changes.otGender!==undefined){if(!['male','female'].includes(changes.otGender))throw new EditorError('invalid-input','Invalid OT gender.');payload[d+28]=(payload[d+28]!&127)|(changes.otGender==='female'?128:0);}
+ if(changes.metLevel!==undefined){integer(changes.metLevel,0,100,'Met level');payload[d+28]=(payload[d+28]!&128)|changes.metLevel;}
+ if(changes.ball!==undefined){integer(changes.ball,1,24,'Poké Ball');payload[d+27]=changes.ball;payload[d+30]=changes.ball;}
+ for(const [key,modern,old] of [['metLocation',d+24,b+30],['eggLocation',d+22,b+28]] as const){const n=changes[key];if(n!==undefined){integer(n,0,65535,key);dv.setUint16(modern,n,true);dv.setUint16(old,n,true);}}
+ for(const [key,offset] of [['metDate',d+19],['eggDate',d+16]] as const){const date=changes[key];if(date!==undefined){if(date===''){payload.fill(0,offset,offset+3);continue;}const parsed=new Date(`${date}T00:00:00Z`);if(!/^\d{4}-\d{2}-\d{2}$/.test(date)||!Number.isFinite(parsed.getTime())||parsed.toISOString().slice(0,10)!==date)throw new EditorError('invalid-input','Invalid date.');integer(parsed.getUTCFullYear(),2000,2255,'Year');payload[offset]=parsed.getUTCFullYear()-2000;payload[offset+1]=parsed.getUTCMonth()+1;payload[offset+2]=parsed.getUTCDate();}}
+ if(changes.fateful!==undefined){if(typeof changes.fateful!=='boolean')throw new EditorError('invalid-input','Invalid encounter flag.');payload[b+24]=(payload[b+24]!&~1)|(changes.fateful?1:0);}
+ if(changes.ribbons!==undefined){if(changes.ribbons.length!==3)throw new EditorError('invalid-input','Three ribbon banks required.');[a+28,c+24,c+28].forEach((offset,i)=>{integer(changes.ribbons![i]!,0,0xffffffff,'Ribbon bank');dv.setUint32(offset,changes.ribbons![i]!,true);});}
+ const result=Uint8Array.from(record),sum=checksum(payload);view(result).setUint16(6,sum,true);result.set(crypt(payload,sum),8);return result;
+}
+export function patchPokemonExperience(record: Uint8Array, experience: number, personal: {baseStats:readonly [number,number,number,number,number,number];growthRate:number;growthThresholds:readonly number[]}): Uint8Array {
+ const mon=decodePokemon(record);if(mon.isEgg||!Number.isInteger(experience)||experience<personal.growthThresholds[1]!||experience>personal.growthThresholds[100]!)throw new EditorError('invalid-input','Experience must fit this species’ level 1–100 growth curve.');
+ const {payload,a,pid}=unpack(record);view(payload).setUint32(a+8,experience,true);
+ const result=Uint8Array.from(record),sum=checksum(payload);view(result).setUint16(6,sum,true);result.set(crypt(payload,sum),8);
+ if(mon.party){let level=1;for(let n=2;n<=100;n++)if(experience>=personal.growthThresholds[n]!)level=n;
+ const stats=calculateStats(personal.baseStats,mon.ivs,mon.evs,level,mon.nature,mon.speciesId),tail=crypt(record.subarray(136),pid),dv=view(tail);
+ dv.setUint8(4,level);dv.setUint16(6,adjustCurrentHp(mon.party.currentHp,mon.party.stats.hp,stats.hp,mon.speciesId),true);STAT_KEYS.forEach((key,i)=>dv.setUint16(8+i*2,stats[key],true));result.set(crypt(tail,pid),136);}
+ return result;
+}
+export function toPartyPokemon(record: Uint8Array, personal: {baseStats:readonly [number,number,number,number,number,number];growthThresholds:readonly number[]}): Uint8Array {
+ const mon=decodePokemon(record);if(record.length===236)return Uint8Array.from(record);
+ let level=1;for(let n=2;n<=100;n++)if(mon.experience>=personal.growthThresholds[n]!)level=n;
+ const result=new Uint8Array(236);result.set(record);const tail=new Uint8Array(100),dv=view(tail),stats=calculateStats(personal.baseStats,mon.ivs,mon.evs,level,mon.nature,mon.speciesId);
+ dv.setUint8(4,level);dv.setUint16(6,stats.hp,true);STAT_KEYS.forEach((key,i)=>dv.setUint16(8+i*2,stats[key],true));result.set(crypt(tail,mon.pid),136);return result;
+}
+/** Create a distinct identity while retaining all metadata and effective shiny/nature/gender. */
+export function clonePokemon(record: Uint8Array, random:()=>number=Math.random, naturalTarget?:boolean): Uint8Array {
+ const mon=decodePokemon(record),old=unpack(record),ot=(mon.sid<<16)|mon.tid;
+ let pid=0;for(let tries=0;;tries++){if(tries>1000000)throw new EditorError('invalid-input','Could not generate a distinct personality.');pid=Math.floor(random()*0x100000000)>>>0;
+ if(naturalTarget ?? mon.naturalShiny){const low=pid&65535,high=((ot>>>16)^(ot&65535)^low^Math.floor(random()*8))&65535;pid=((high<<16)|low)>>>0;}
+ const natural=((ot>>>16)^(ot&65535)^(pid>>>16)^(pid&65535))<8;
+ const info=speciesInfo(mon.speciesId,mon.form)!;const gender=info.genderRatio===255?'genderless':info.genderRatio===254?'female':info.genderRatio===0?'male':(pid&255)<info.genderRatio?'female':'male';
+ if(pid!==mon.pid&&pid%25===mon.nature&&gender===mon.gender&&natural===(naturalTarget??mon.naturalShiny))break;}
+ const [a,b,c,d]=BLOCKS[(pid>>>13)&31]!,payload=new Uint8Array(128);
+ [a,b,c,d].forEach((offset,i)=>payload.set(old.payload.slice([old.a,old.b,old.c,old.d][i]!,[old.a,old.b,old.c,old.d][i]!+32),offset));
+ const result=Uint8Array.from(record),sum=checksum(payload);view(result).setUint32(0,pid,true);view(result).setUint16(6,sum,true);result.set(crypt(payload,sum),8);
+ if(record.length===236)result.set(crypt(crypt(record.subarray(136),old.pid),pid),136);return result;
 }

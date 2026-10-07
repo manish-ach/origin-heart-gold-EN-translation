@@ -24,11 +24,12 @@ test('hidden power picks the cheapest IV spread', () => {
   assert.equal(Object.values(ivsForHiddenPower(perfect, 8)).filter(v => v === 30).length, 3);
 });
 
-test('party abilities decode to one of the species abilities', {skip: !fixture}, () => {
+test('party abilities decode including retained off-species abilities', {skip: !fixture}, () => {
   for (const record of readSave(fixture).partyRecords) {
     const mon = decodePokemon(record);
-    const info = speciesInfo(mon.speciesId, mon.form);
-    assert.equal(info.abilities[mon.abilitySlot], mon.ability);
+    assert.ok(Number.isInteger(mon.ability) && mon.ability > 0 && mon.ability <= 65535);
+    assert.ok([0, 1, 2].includes(mon.abilitySlot));
+    // Species changes intentionally retain the effective ability, including off-species choices.
   }
 });
 

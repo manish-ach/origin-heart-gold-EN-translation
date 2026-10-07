@@ -21,7 +21,7 @@ test('editing the final PC slot preserves general blocks, backup storage and oth
  assert.deepEqual(result.subarray(0xf800,0xf800+0x18408),original.subarray(0xf800,0xf800+0x18408));
  assert.deepEqual(readStorage(result).boxes[23][29],template);
  const allowed=new Set(Array.from({length:136},(_,i)=>pc.offset+23*0x1000+29*136+i));
- for(const off of [0x18004,0x18005,0x18006,0x18007,0x18406,0x18407])allowed.add(pc.offset+off);
+ for(const off of [0x18004,0x18005,0x18006,0x18007,0x183f4,0x183f5,0x18406,0x18407])allowed.add(pc.offset+off);
  for(let i=0;i<original.length;i++)if(result[i]!==original[i])assert.ok(allowed.has(i));
  assert.deepEqual(patchBoxRecord(result,23,29,template),result);
  assert.equal(decodePokemon(readStorage(patchBoxRecord(result,23,29,emptyPartyRecord().slice(0,136))).boxes[23][29]).speciesId,0);
