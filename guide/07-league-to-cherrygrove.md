@@ -87,7 +87,7 @@ Then accept her offer.
 *Source:* script file 841 (script 12, L903, L2395–L2715; flags 1833, 1961; `GiveMon 403, Lv. 5`). Woman ≈134,7 (guesthouse entrance ≈131,10, New Bark Town door ≈690,407).
 
 ## Route 29: Casey's Pokéathlon question (→ Electirizer)
-<!-- quest: kind=side; id=q-0181 -->
+<!-- quest: kind=side; id=q-0181; missable=yes -->
 
 **Where:** Route 29, a girl with an Elekid, about 20 steps south of the gatehouse to Route 46.
 
@@ -105,7 +105,7 @@ Then accept her offer.
 *Source:* script file 225 (script 3, L1253, L4128–L4166: `TrainerBattle [608, 0, 1, 0]` @4135 with no win check, then item 322 @4148; script 14 and L1324–L1408; flags 1962, 1969, 1970). Casey ≈624,409 (gatehouse door ≈626,389); after running off ≈590,392.
 
 ## Route 29: Uncle Apricorn wants Kurt's Apricorn Box (say No twice)
-<!-- quest: kind=side; id=q-0182 -->
+<!-- quest: kind=side; id=q-0182; missable=yes -->
 
 **Where:** Route 29, the man by the Apricorn tree, west of the Route 46 gatehouse.
 
@@ -127,7 +127,7 @@ Then accept her offer.
 *Source:* script file 225 (script 15, L3690/L3735/L3780–L3938; flag 1971; items 468, 492–498). Uncle Apricorn ≈599,393.
 
 ## Cherrygrove City: the Berry Pots girl (→ 6 PP Up; one chance)
-<!-- quest: kind=side; id=q-0183 -->
+<!-- quest: kind=side; id=q-0183; missable=yes -->
 
 **Where:** Cherrygrove City, a girl among the flowers at the south-east edge, a few steps south-west of the south-east house door.
 
@@ -163,7 +163,7 @@ Then accept her offer.
 *Source:* script file 847 (scripts 17, 18; L6876, L7621–L7841, L8181–L8573; `TrainerBattle 665`, `666`; flags 1973, 1974, 1975, 1978), file 51 L4285–L4318 (Ruins of Alph clears them). Boy ≈537,404; Poké Ball ≈527,407.
 
 ## Route 27 → Ecruteak City: the outpost guard's letter to Momo (before the Mineral Badge)
-<!-- quest: kind=side; id=q-0185 -->
+<!-- quest: kind=side; id=q-0185; missable=yes -->
 
 **Where:** the guard post house on Route 27, just south of the two Tohjo Falls entrances (guard Yuichi); Momo is one of the Kimono Girls at the Ecruteak Dance Theater.
 
@@ -293,7 +293,7 @@ Continues [Five Island: the four-leaf clover](05-saffron-cinnabar.md#five-island
 
 **Notes:** if you did win the clover on Five Island, he's already here with a healthy Turtwig and just thanks you (no item).
 
-*Source:* script file 945 (script 17, L1178–L1447; `GetPartyLeadAlive` + species 151; item 37 ×3; flags 1530, 1531), file 58 L4425/L7744 (Five Island clears 1530 or 1531). Reachability: 1530/1531 are set again by the Route 31 gatehouse Silver scene (file 231 @253) and the Route 39 Crystal scene (file 249 @4178), but the ferry only offers Four/Five Island once flag 2024 is set (file 894 @346), and 2024 is set by that same Route 39 block (249 @4066), so the clover always comes after both; the S.S. Anne B1F scripts that also use 1530/1531 (file 162 scripts 12, 13) aren't attached to any object. Turtwig owner ≈807,278 (Pokémon Center door ≈822,265).
+*Source:* script file 945 (script 17, L1178–L1447; `GetPartyLeadAlive` + species 151; item 37 ×3; flags 1530, 1531), file 58 L4425/L7744 (Five Island clears 1530 or 1531). Reachability: 1530/1531 are set again by the Route 31 gatehouse Silver scene (file 231 @253) and the Route 39 Crystal scene (file 249 @4178), the ferry offers Four/Five Island once flag 2024 is set (file 894 @346), and 2024 is set by that same Route 39 block (249 @4066); Five Island can also be reached earlier by Surf from the Alto Mare Waters (emulator, 2026-10-13), so the clover scene itself can come first, but the Mew this quest needs only comes with the Island Pilgrimage (after the League HQ round 4); the S.S. Anne B1F scripts that also use 1530/1531 (file 162 scripts 12, 13) aren't attached to any object. Turtwig owner ≈807,278 (Pokémon Center door ≈822,265).
 
 ## Indigo Plateau (final chapter): Mewtwo joins you (take it before the Elite Four)
 <!-- quest: kind=side; id=q-0194 -->

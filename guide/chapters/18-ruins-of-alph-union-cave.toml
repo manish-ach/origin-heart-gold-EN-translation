@@ -1,0 +1,126 @@
+id = "ch18-ruins-of-alph-union-cave"
+order = 18
+title = "Chapter 18: The Ruins of Alph, Route 32 and Union Cave"
+summary = "Find the missing Molly in the Ruins of Alph, then follow Route 32 and Union Cave south to Route 33."
+kind = "story"
+intro = """
+With the Sprout Tower ceremony over, Gold and Crystal turn up at the **Ruins of Alph**, where a researcher's daughter has vanished. The ruins are also the key to the road south: a **railway crew** blocks Route 32 just south of Violet City, and it only leaves when the Molly story is over. Behind it lie Route 32, Union Cave and Route 33.
+
+**Main quest in this chapter:** find Molly in the Ruins of Alph, bring her back, and walk south through Route 32 and Union Cave. On Route 33 a scene with Gold, Crystal, Silver and two Team Rocket Executives sends you on to Azalea Town.
+
+**Deadlines:** the **Route 32 Pokémon Center storm patients** (Nurse Joy, the Cubone, the Bonsly and the Igglybuff) must be finished before you walk out of Union Cave onto Route 33. Bring **Moomoo Milk** and a **Hard Stone** with you.
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**The Ruins of Alph.** In the Research Center the assistant tells you that **Molly**, Prof. Hale's six-year-old daughter, is missing. Ask **both Gold** (just north-west of the Research Center door) **and Crystal** (south of the small building in the middle of the ruins) about Molly and answer Yes each time: only then does **Silver** appear in the Kabuto chamber in the north-east. If the grass beside the chamber blocks you, it is solid scenery: walk around the large ruin to the south and approach the door from the east.
+
+Battle Silver; the Unown then drop everyone into a dead end. Keep choosing until the new option **"I don't know either"** appears, face **Entei**, touch the statue on the right and fight your way through the dream world: Molly's clone, three Multi Battles with Silver, Gold and Crystal, and two Double Battles against Entei's team on the stairs. Back at the Research Center you receive the **Unown Report**.
+
+Also in the ruins: a girl who saw her own face on a statue (bring a Potion), an Infernape's owner outside the Route 36 gatehouse, a tutor for Ancient Power (1 Rare Bone) and the four stone panels with their back walls.
+"""
+unlocks = ["q-0224", "q-0225", "q-0364", "q-0226", "q-0227"]
+evidence = "guide/08 q-0224, q-0225, q-0226, q-0227 and guide/13 q-0364 (script files 51 Alph Research Center chain, 39/41/43/45 chamber puzzles, 38 Research Center; 08-ruins-of-alph-silver.md has the grass detour). Gold and Crystal at the ruins appear after the Sprout Tower ceremony (file 18 @3835-@3865 flags 1839, 1909, 1827, 1849, 1851). The 'Alph' chapter ends at file 51 @4253 (SetFlag 1904) and @4269 (clears the Kabuto wall flag 539); file 51 @4308 sets var 0x40a7 = 2."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**The Molly chapter ends.** **This closes for good:** Goh's challenge in Violet City ("Teach Goh a lesson"). The **railway crew** on Route 32 leaves, and the Kabuto wall closes again. If you took the Wooper's Poké Ball by force in Cherrygrove City, a Quagsire ambushes you the next time you walk along the Route 32 riverbank (one battle, then 10 each of your Ultra Balls, Great Balls and Poké Balls are taken).
+"""
+unlocks = ["q-0223"]
+closes = ["q-0211"]
+evidence = "script file 232 (Route 32: the crew objects are hidden by flag 1904, set at file 51 @4253; the Quagsire coord script 23 at 468,387 triggers on var 0x40a7 = 2, set at file 51 @4308); guide/08 q-0211 ('until the end of the Ruins of Alph story, which sends Goh away'), q-0223 ('triggers after the Ruins of Alph chapter, when you bring Molly back to the Research Center')."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**Route 32.** South of the crew's old spot the route is full of small jobs: a **fire-breather** who only battles Fire types (TM50 Overheat), a girl whose **Mareep** keeps running off (give her a Magnet), a man who asks whether people should eat Pokémon, and a **storm-damaged Hoppip** owner who wants her three Hoppip brought back (the Hurricane tutor). At the south end the **Route 32 Pokémon Center** is full of storm patients: talk to **Nurse Joy** first, give the Cubone **Moomoo Milk** and patch the Bonsly with a **Hard Stone** (a PP Max each), and fetch Joy for the injured Igglybuff outside (a Life Orb).
+"""
+unlocks = ["q-0218", "q-0219", "q-0220", "q-0221", "q-0222"]
+evidence = "guide/08 q-0218, q-0219, q-0220, q-0221, q-0222 (script file 232 Route 32; the Pokemon Center patients are tracked by markers that the Route 33 scene resets, file 236 @6565 and @6584)."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**Union Cave.** Union Cave 1F has Goh and a wild Cyndaquil on a ledge in the west, a boy with a Zubat in the east, and Hiker Jeb with his Tyranitar in the south-west. On B1F a weekday item seller, a psychic healer and the old woman who asks for $2,000 to lead you past the lava heat wait further in. (The Cyndaquil quest closes when you finish Bugsy's hunt in Ilex Forest.)
+"""
+unlocks = ["q-0230", "q-0231", "q-0233"]
+evidence = "guide/08 q-0230, q-0231, q-0233 (script files for Union Cave 1F/B1F; Cyndaquil objects removed by Koume's scene in Ilex Forest, see Chapter 19). The Heatran event q-0232 needs the Magma Stone from the Silver Conference closing ceremony (handoff)."
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**Route 33: Gold, Crystal, Silver and Team Rocket.** As you step out of Union Cave Gold tells you about the lower level, Crystal arrives with new catches, and Silver is cornered by Proton and Archie. Gold chases Silver away; Silver says Team Rocket is planning something around Azalea Town. **This closes for good:** the Route 32 Pokémon Center storm event (any unfinished PP Max or the Life Orb is lost). A rain-team Ace Trainer waits a few steps south-west of the cave exit.
+"""
+unlocks = ["q-0234"]
+closes = ["q-0222"]
+evidence = "script file 236 (Route 33: coord script 3 on var 0x40ac = 3, scene @4808-@6565, SetVar 0x40ac = 4 @6565, SetVar 0x40a6 = 5 @6584 which resets the shared markers); guide/08 q-0222 ('from your first visit until you walk out of Union Cave onto Route 33... all unfinished rewards are lost'), q-0234."
+
+[[quests]]
+id = "q-0224"
+available_note = "A how-to for the grass that blocks the way to Silver; see the detour with pictures."
+
+[[quests]]
+id = "q-0225"
+available_note = "Starts once Gold and Crystal are at the ruins, after the Sprout Tower ceremony."
+
+[[quests]]
+id = "q-0364"
+
+[[quests]]
+id = "q-0226"
+available_note = "Bring a Potion."
+
+[[quests]]
+id = "q-0227"
+available_note = "Mixed entry: Infernape's owner, the Ancient Power tutor, Prof. Hale's legend hints (after the Mahogany Rocket story) and two post-game Entei and Sinjoh notes."
+
+[[quests]]
+id = "q-0223"
+needs = ["q-0184"]
+available_note = "Only if you took the Wooper's Poké Ball by force in Cherrygrove City."
+
+[[quests]]
+id = "q-0218"
+available_note = "The tree Hoppip needs a big Flying type as your lead (Pidgeot, Noctowl, ...)."
+
+[[quests]]
+id = "q-0219"
+available_note = "Your whole party must be Fire types."
+level_note = "The fire-breather's team is Lv. 62-65."
+
+[[quests]]
+id = "q-0220"
+available_note = "Needs a Magnet."
+
+[[quests]]
+id = "q-0221"
+
+[[quests]]
+id = "q-0222"
+missable = true
+available_note = "Needs Moomoo Milk and a Hard Stone (they are not taken). Finish before you leave Union Cave."
+
+[[quests]]
+id = "q-0230"
+missable = true
+available_note = "Closes when you finish the Ilex Forest bug hunt (Chapter 19)."
+level_note = "Goh's team is Lv. 84-85."
+
+[[quests]]
+id = "q-0231"
+
+[[quests]]
+id = "q-0233"
+available_note = "The B1F passage to the Ruins of Alph chambers stays blocked by a guard until Prof. Hale is back (after the Mahogany Rocket story)."
+level_note = "Hiker Jeb's team is Lv. 82-83."
+
+[[quests]]
+id = "q-0234"
+level_note = "The rain team is Lv. 82-83."

@@ -1,0 +1,105 @@
+id = "ch17-violet-city-sprout-tower"
+order = 17
+title = "Chapter 17: Violet City, Sprout Tower and the Zephyr Badge"
+summary = "Violet City, the memorial ceremony in Sprout Tower and Falkner's Flying-type Gym."
+kind = "story"
+intro = """
+Violet City is the first Johto city with a Gym, but the Gym is closed: **Falkner is at Sprout Tower**, where a memorial ceremony is about to start. Several local quests are tied to that ceremony and disappear when it has played.
+
+**Main quest in this chapter:** climb Sprout Tower (past the monks who ask for a toll), take part in the memorial ceremony on the third floor, then win the **Zephyr Badge** from Falkner. The ceremony only starts once you have played the Route 46 dig scene from Chapter 16.
+
+**Before the ceremony** (it closes them for good): Kimono Girl Tamao's and Crystal's battles, the repentant thief, and Gold's warm-up battle in Sprout Tower. **Before you leave Violet for the south:** the Marill quest and the Goh battle also run out later (see their notes).
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Violet City.** Walk north from Route 31 into Violet City. In the north part of town **Tamao** (a Kimono Girl) and **Crystal** each ask for a battle, a man south-east of the Sprout Tower entrance has a confession to make, the **Marill's owner** is looking for her runaway Marill on the west side, **Goh** is bullying a boy near the Poké Mart, the **Pokémon Academy** (east house on the Gym's street) holds a class Q&A, and a runner's house at the south end of town wants to see a Rapidash. A couple stands south of the Academy door (the boyfriend only if the S.S. Anne did not sink). The Pokémon Center has Primo's password man and a shard trader.
+
+At the very north end of **Route 32**, just south of Violet City and north of the railway crew, a wandering seller offers Skull and Armor Fossils.
+"""
+unlocks = ["q-0205", "q-0206", "q-0209", "q-0210", "q-0211", "q-0212", "q-0216", "q-0217", "q-0229"]
+evidence = "guide/08 q-0205, q-0206, q-0209, q-0210, q-0211, q-0212, q-0216, q-0217, q-0229 (script files 854 Violet; 232 Route 32 for the fossil seller and the crew: the crew objects are hidden by flag 1904, set at the end of the Alph chapter, file 51 @4253; the Quick Powder and Friday sibling are south of the crew)."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**Sprout Tower: the monks' toll.** On the first floor three monks block the way up to the third floor with their Bellsprout and ask for an offering: **$3,000, $5,000 and $10,000**, or you battle them (Lv. 62-65 each). Either answer moves that monk's Bellsprout aside for good; the game does not check that you have the money. Optional extras: **Gold** wants a warm-up battle on the first floor (only before the ceremony), the **S.S. Anne monk** (only if you saved the ship) gives a Chesto Berry, and the **Elder** on the third floor accepts training battles.
+"""
+unlocks = ["q-0207", "q-0208"]
+evidence = "guide/08 q-0207, q-0208 (script file 18 Sprout Tower; Bellsprout blockers cleared per monk; Gold hides with the ceremony)."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**The memorial ceremony.** On the third floor Falkner asks you to say a few words (all three answers lead to the same scene). **This closes for good:** Tamao's and Crystal's battles and the repentant thief in Violet City, and Gold's warm-up battle in Sprout Tower; Crystal moves on to the Ruins of Alph. Afterwards a **Youngster with a Forretress** appears at the west edge of Violet, who teaches Shell Smash if you show him TM74 Gyro Ball.
+"""
+unlocks = ["q-0213"]
+closes = ["q-0205", "q-0209"]
+evidence = "script file 18 (Sprout Tower 3F): HidePerson on the Violet objects @3604-@3831 (Tamao and Crystal are objects hidden by flag 739), SetVar 0x40ac = 3 @3835, ClearFlag 740 @3841 (new Violet objects appear); the ceremony coord script needs var 0x40ac = 2 (set by the Route 46 dig). guide/08 q-0205, q-0209 closes; q-0213 'appears after the Sprout Tower ceremony'."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**Violet Gym: Falkner.** The Gym is open now. Falkner only accepts the challenge if you carry **four Pokémon or fewer and every one is a Flying type** (the game checks a fixed list of non-Flying species; Eggs are skipped). Win the **Zephyr Badge**, **TM51 Roost** and Falkner's number. The Gym's tutor then teaches Sky Attack.
+"""
+unlocks = ["q-0214"]
+evidence = "guide/08 q-0214 (Falkner's species list, Zephyr Badge; Gym closed until the ceremony: a guard says Falkner is at the tower)."
+
+[[quests]]
+id = "q-0205"
+missable = true
+level_note = "Tamao's team is Lv. 84-85."
+
+[[quests]]
+id = "q-0206"
+available_note = "The boyfriend only stands here if you saved the S.S. Anne."
+
+[[quests]]
+id = "q-0209"
+missable = true
+
+[[quests]]
+id = "q-0210"
+missable = true
+available_note = "Finish it before Crystal's scene in Ilex Forest (Chapter 19), which ends the quest."
+
+[[quests]]
+id = "q-0211"
+missable = true
+available_note = "Goh leaves when the Ruins of Alph story is over (Chapter 18)."
+level_note = "Goh's team is Lv. 84-85."
+
+[[quests]]
+id = "q-0212"
+
+[[quests]]
+id = "q-0216"
+
+[[quests]]
+id = "q-0217"
+
+[[quests]]
+id = "q-0229"
+available_note = "A mixed entry. Only the fossil seller at the north end of Route 32 can be visited now; the Quick Powder and the Friday sibling are south of the railway crew (Chapter 18)."
+
+[[quests]]
+id = "q-0207"
+level_note = "The monks' teams are Lv. 62-65."
+
+[[quests]]
+id = "q-0208"
+available_note = "Gold's warm-up battle is only before the ceremony; the S.S. Anne monk needs the ship saved."
+level_note = "Gold is Lv. 10-11; the Elder and the S.S. Anne monk are Lv. 81-82."
+
+[[quests]]
+id = "q-0213"
+available_note = "Needs TM74 Gyro Ball (10,000 coins at the Celadon Game Corner). The game does not take the TM."
+
+[[quests]]
+id = "q-0214"
+available_note = "Only after the Sprout Tower ceremony; at most four Pokémon, all Flying types."

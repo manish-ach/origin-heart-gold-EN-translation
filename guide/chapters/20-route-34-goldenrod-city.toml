@@ -1,0 +1,142 @@
+id = "ch20-route-34-goldenrod-city"
+order = 20
+title = "Chapter 20: Route 34, Goldenrod City and the Plain Badge"
+summary = "Route 34 and the big city of Goldenrod: the Radio Tower recording, Whitney's Gym and a long list of city jobs."
+kind = "story"
+intro = """
+Goldenrod City is the biggest town so far, with a Department Store, an underground shopping street, a Game Corner, a Radio Tower and a Gym. **Whitney** is not in her Gym when you arrive: she is at the Radio Tower, where a radio show called "The Strongest Trainer" is about to record its first guest. How you answer the director decides how you earn the **Plain Badge**.
+
+**Main quest in this chapter:** reach Goldenrod City through Route 34, record the show on Radio Tower 4F (let Whitney do it, or do it yourself) and win the **Plain Badge** at the Goldenrod Gym.
+
+**Before the Plain Badge:** Prof. Rowan's Chimchar (he leaves with the Gym win) and the underground battlers. **Before Silver's scene on Route 37 (Chapter 21 onwards):** Goh and the Lopunny owner, the Purugly girl's "act" and Mary's secret photos. **Before the Glacier Badge:** the Game Corner magnet cheater. The **love reading** at the fortune-teller must be done before the League HQ's round-3 order (see the romance entry).
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Route 34.** North of Ilex Forest's gatehouse the **Day-Care** stands by the road with a police officer and his Arcanine a few steps north-west of its door; a Youngster with a Sunkern in the north-west is still smarting from Whitney (he only helps you after the Plain Badge, and only until the Rising Badge). A **dancer with a twisted ankle** north of the gatehouse tells you about the dance master in a hidden grove at the very south end of the route (bring a Potion). The north end of Route 34, close to Goldenrod, is where the Salamence scene will play later.
+"""
+unlocks = ["q-0249", "q-0250", "q-0252"]
+evidence = "guide/09 q-0249, q-0250, q-0252 (script file 237 Route 34; var 0x408b 10 to 13 are set on this route, @3593-@7071). The dancer is not there before the Ilex Forest chapter (guide/09 q-0249)."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**Goldenrod City.** Things to know in town before the Gym:
+
+- **Magnet Train Station** (east of the Radio Tower): **Prof. Rowan** and his assistant offer a Sinnoh Chimchar (Lv. 5).
+- **West plaza:** Goh and the Lopunny owner (a Normal-types-only battle).
+- **Purugly girl and the clinic:** a choice with two endings (spare Jessie, James and Meowth first).
+- **Department Store:** the Air Balloon girl outside, the blind man with a Poochyena on 6F, the Machop moving company in the basement.
+- **Goldenrod Tunnel (underground):** brawlers drive the shops away; walk in from either end.
+- **Radio Tower:** Mary on 4F suspects someone of photographing her, the quiz attendant is on 1F and Buena's Password on 2F.
+- **Game Corner:** a Pokéfan wins too much; lead with a Magnemite.
+- **North of town:** the fortune-teller's house and the Flower Shop.
+"""
+unlocks = ["q-0253", "q-0254", "q-0255", "q-0256", "q-0257", "q-0259", "q-0260", "q-0261", "q-0262", "q-0263", "q-0264", "q-0265", "q-0266", "q-0267", "q-0268"]
+evidence = "guide/09 q-0253 to q-0268 (script files 890 Magnet Train Station, 882 Goldenrod, 883 Gym, 888/889 Department Store, 94 Goldenrod Tunnel B1F, the Radio Tower files and 32). Each quest's own 'Who gets it / when' line gives its window; Rowan and the underground gang end with the Gym win, Goh/Purugly/Mary end with the Route 37 Silver scene, the Game Corner man with the Glacier Badge (Chapters 21 onward)."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**The recording and the Plain Badge.** At the top of the Radio Tower the studio director drops Whitney as the first guest in favour of you. Answer **"Let Whitney do it"** and she calls you to the Gym for a plain one-on-one battle (Plain Badge, 10 Air Balloons and her number). Answer **"I'll do the show"** and Whitney storms off; at the Gym she demands a **Multi Battle** with **Gold** against Whitney and **Norman**, and you first have to bring Norman: find his son Ruby and Sapphire in trouble on the north end of Route 34 (a wild **Lv. 60 Salamence** you can catch, one chance), then invite Norman at his Friendship Checker house or at the Magnet Train Station. Either way the recording gives you 3 Max Elixirs and 2 Heart Scales. **This closes for good** (the Gym win): Prof. Rowan's Chimchar and the underground battlers (who leave anyway).
+"""
+unlocks = ["q-0258", "q-0251"]
+closes = ["q-0253", "q-0260"]
+evidence = "guide/09 q-0258 (Radio Tower 4F recording, two Gym routes; Norman's house; rewards), q-0251 (Route 34 north end, 'during the Goldenrod Gym story, after Norman asks you to find his son Ruby'), q-0253 ('the Gym win removes Rowan and his assistant for good'), q-0260 ('beating Whitney also clears the gang out'). Script file 883 @691 SetVar 0x4098 = 2 (Gym); file 890 @2713/@2852 SetVar 0x40ac = 10, 11 (Magnet Train Station: Norman)."
+
+[[quests]]
+id = "q-0249"
+missable = true
+available_note = "Needs a Potion for the dancer, then a free party slot twice. Only 'Strike a battle-command pose' works; every other dance ends it."
+level_note = "The two dancers are Lv. 62-65."
+
+[[quests]]
+id = "q-0250"
+missable = true
+available_note = "The reward needs the Plain Badge and must be claimed before you win the Rising Badge."
+
+[[quests]]
+id = "q-0252"
+
+[[quests]]
+id = "q-0253"
+missable = true
+available_note = "Pick the Chimchar up before you win the Plain Badge."
+
+[[quests]]
+id = "q-0254"
+missable = true
+available_note = "Closes with the Route 37 scene with Silver (a later chapter)."
+level_note = "Goh's team is Lv. 84-85."
+
+[[quests]]
+id = "q-0255"
+missable = true
+available_note = "Finish the Ilex Forest bug hunt first. Closes with the Route 37 scene with Silver (a later chapter)."
+
+[[quests]]
+id = "q-0256"
+available_note = "Needs an Air Balloon (Department Store 2F)."
+
+[[quests]]
+id = "q-0257"
+missable = true
+level_note = "Suneo and Reina are Lv. 62-65."
+
+[[quests]]
+id = "q-0259"
+missable = true
+available_note = "Closes with the Route 37 scene with Silver (a later chapter): report back to Mary before it."
+level_note = "Chaz is Lv. 62-65; the photographer Moose is Lv. 70."
+
+[[quests]]
+id = "q-0260"
+missable = true
+available_note = "Optional. Beating Whitney clears the gang out anyway."
+level_note = "The gang's six Trainers are Lv. 62-65."
+
+[[quests]]
+id = "q-0261"
+level_note = "Gentleman Jack is Lv. 65."
+
+[[quests]]
+id = "q-0262"
+available_note = "Needs the Pokégear radio."
+
+[[quests]]
+id = "q-0263"
+
+[[quests]]
+id = "q-0264"
+missable = true
+available_note = "Before the Glacier Badge (Mahogany Town). Lead with a Magnemite."
+level_note = "Pokéfan Wells is Lv. 62-64."
+
+[[quests]]
+id = "q-0265"
+available_note = "$10,000, one reading per game."
+
+[[quests]]
+id = "q-0266"
+missable = true
+available_note = "A mixed entry. The love reading in Goldenrod must be done before the League HQ's round-3 order (after the Silver Conference); the Dream World choice, the confessions in the final chapter and the dates come much later."
+
+[[quests]]
+id = "q-0267"
+
+[[quests]]
+id = "q-0268"
+available_note = "The shops and the Haircut Brothers open once the underground battlers are gone."
+
+[[quests]]
+id = "q-0258"
+
+[[quests]]
+id = "q-0251"
+missable = true
+available_note = "Only on the Multi Battle route (you chose 'I'll do the show')."
+level_note = "The wild Salamence is Lv. 60."

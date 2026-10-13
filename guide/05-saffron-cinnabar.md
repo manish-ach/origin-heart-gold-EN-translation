@@ -460,7 +460,7 @@ After your first Hall of Fame entry, talk to Blaine in the Gym for a rematch: ch
 *Source:* script file 735 (script 17, L7060–L7082; var 0x40b3 = 3, flag 2190), file 55 (script 16, step trigger at 42,36; Hypno `WildBattle` Lv. 30 at @953, only a loss branches away; sets 0x40b3 = 4), file 782 L6007–L6046 (the chief). The father's hide flag 2017 is set when you first sail to the islands (file 826 @991) and cleared only by the Dragon's Den clear (file 112 @4899). Positions: father ≈174,144 (Shipyard Ruins door ≈169,140); girl ≈35,35.
 
 ## Island Forest (Six Island): before the Lucky Meowth God
-<!-- quest: kind=side; id=q-0138 -->
+<!-- quest: kind=side; id=q-0138; missable=yes -->
 
 The Island Forest changes for good only if you let Jessie, James and Meowth stay on Six Island and then walk into the forest ([Six Island: Deoxys and the Lucky Meowth God](06-sevii-islands-indigo.md#six-island-deoxys-and-the-lucky-meowth-god-post-game)). **Do these first:** after that, the people below stay where they are, but they switch to other lines and their quests can no longer be done. A Spoils you haven't returned stays in your Bag. The statue attendant moves next to the statue and stops charging.
 
@@ -532,7 +532,7 @@ The forest has two entrances from Six Island: a wide one on the west side and on
 *Source:* script file 58 (scripts 22–30, L2816–L3257, L3343–L5399, L6480–L7798; var 0x409c 4→3→5→6→7→8, 9→10), file 737 L4442–L4517 (Elder sets 0x409c = 9; "Five years ago" and the Mew story are the Elder's lines 443#65/66, not the disciple's). Positions: south-entrance monk ≈94,84; east-path monk ≈122,62; snowy-mountain monks ≈94,48 and ≈82,57; disciple ≈79,47; Elder's hut door ≈118,42.
 
 ## Five Island: the four-leaf clover (speak up for him)
-<!-- quest: kind=side; id=q-0142 -->
+<!-- quest: kind=side; id=q-0142; missable=yes -->
 
 **Where:** a clover hunter by a tree on the east side of the island (south-west of the east-path monk), and a Trainer with a sick Pokémon, about 12 steps east of the south-entrance monk.
 

@@ -75,7 +75,7 @@
 *Source:* script file 851 (scripts 4, 6; L1271–L2745; var 0x408b 7 → 9, flags 1964, 1965, 1967, 1968), file 847 (L7995–L8091 tour, coord 547,385 → L5553–L5763, L7374 sets 0x408b = 8; Slugma question L1945, trainer 745, Heal Balls (item 14) ×5 at L6549–L6561), file 840 (lab script 3, L1436–L1530: hides the orphanage Crystal (flag 1964) and shows the Elm scene (clears 1968)); post-game: L926 checks flags 1645 (confessed) and 2145 (Crystal ruled out) before the walk option; flag 1964 is cleared again at the final Hall of Fame (file 822 L2522). Positions: Crystal at 34,4 in the orphanage; Rhett at ≈547,385, north exit ≈549,386.
 
 ## Route 30: the Stantler roadblock (Noctowl's Foresight)
-<!-- quest: kind=side; id=q-0200 -->
+<!-- quest: kind=side; id=q-0200; missable=yes -->
 
 **Where:** the northern part of Route 30, north of the fishing pond and south of Mr. Pokémon's house: a herd of Stantler blocks one of the two paths north. A man standing just south of them, next to a sign, complains about it.
 
@@ -93,7 +93,7 @@
 *Source:* script file 227 (scripts 5, 10, 12; L2453–L2567, L3984–L4149; flag 1807), file 259 L3586 (Route 46 sets 1807). Positions: herd ≈548–553,311–313; complaining man ≈552,317.
 
 ## Route 30 → Route 31: the wild Chikorita that challenges Trainers (catch it; one chance)
-<!-- quest: kind=side; id=q-0201 -->
+<!-- quest: kind=side; id=q-0201; missable=yes -->
 
 **Where:** Route 30 (a Youngster with a Rattata, a short way south of the Stantler herd) → Route 31 (a girl with an Oddish near the east end of Route 31; then a Bug Catcher with a Yanma in the west part of the route, towards the Violet City gatehouse).
 
@@ -159,7 +159,7 @@
 *Source:* file 851 script 2, L840–L1638, L2325–L2370; trainer 610; flag 1647.
 
 ## Violet City: Tamao and Crystal (before the Sprout Tower ceremony)
-<!-- quest: kind=side; id=q-0205 -->
+<!-- quest: kind=side; id=q-0205; missable=yes -->
 
 **Where:** north part of Violet City: Kimono Girl Tamao a few steps north of the gap between the Poké Mart and the Gym; Crystal with her Chikorita further north, straight above the Gym door.
 
@@ -219,7 +219,7 @@ Either answer moves his Bellsprout aside for good. Losing a battle blacks you ou
 *Source:* script file 16 (scripts 7, 11; flags 2106, 1810, 1093), file 18 (script 9; L2281–L2576). Positions: Gold ≈15,20; S.S. Anne monk ≈6,40.
 
 ## Violet City: the repentant thief (choice, no reward)
-<!-- quest: kind=side; id=q-0209 -->
+<!-- quest: kind=side; id=q-0209; missable=yes -->
 
 **Where:** a man a few steps south-east of the Sprout Tower entrance.
 
@@ -236,7 +236,7 @@ No answer gives a reward.
 *Source:* script file 854 (script 17; answers 1–3 set his hide flag 1827 at L1932/L1947/L1962; "Thanks for clearing up my doubts" L1914); the ceremony also sets 1827 (file 18 L3857). Position ≈491,232.
 
 ## Violet City: the runaway Marill (→ Heart Scale, 2 PP Max)
-<!-- quest: kind=side; id=q-0210 -->
+<!-- quest: kind=side; id=q-0210; missable=yes -->
 
 **Where:** Violet City, the Marill's owner on the west side of town, south-west of the Poké Mart; the Marill at the east edge of town, north of the Route 31 gatehouse. Later, Union Cave 1F.
 
@@ -262,7 +262,7 @@ No answer gives a reward.
 *Source:* script file 854 (scripts 5, 27; L1682–L1830, L2117–L2230, L3780–L3837, L3903–L5163; var 0x40AD, flags 1528, 1824–1826, 1896), file 231 (Route 31 gatehouse L179 sets 0x40AD = 1), file 56 (Union Cave script 5, L785–L989 and L2460–L2874; trainer #756; the return to Violet is set at L2848/L2852 right after the win), file 92 (Ilex Forest L10459–L10467 hide the Union Cave scene and the corner Marill; L10515–L10534 set 0x40AD = 8 and hide the Marill beside the owner unless the var is already 8, else L10927 shows the owner and Marill again; the owner's hide flag 1825, set when she leaves at L3815, is cleared only by the Union Cave win and L10927). Positions: owner ≈463,262; Marill ≈505,254 → ≈505,236; Union Cave ≈51,86.
 
 ## Violet City: teach Goh a lesson (before the Ruins of Alph chapter ends)
-<!-- quest: kind=side; id=q-0211 -->
+<!-- quest: kind=side; id=q-0211; missable=yes -->
 
 **Where:** a few steps south-east of the Poké Mart door, where Goh is mocking a local boy.
 
@@ -442,7 +442,7 @@ What the game actually checks is a fixed list of non-Fire species. It covers eve
 *Source:* script file 232 (script 22, L11784; flag 1849). Flag 1849 is also set by file 854 (Violet City, Crystal's battle, L2109) and cleared by file 18 (Sprout Tower 3F, L3853). He stands south of the railway crew (flag 1904, cleared only at the end of the Molly chapter, which needs the ceremony), and Crystal's Violet battle is hidden by flag 739 after the ceremony, so both items can't be had. Position ≈460,416.
 
 ## Route 32 Pokémon Center: the storm patients and the injured Igglybuff (missable; before Route 33)
-<!-- quest: kind=side; id=q-0222 -->
+<!-- quest: kind=side; id=q-0222; missable=yes -->
 
 **Where:** the Route 32 Pokémon Center (at the south end of the route, just north of Union Cave) and, outside, a Trainer kneeling by an injured Igglybuff, a short walk north-west of the Pokémon Center door.
 
@@ -571,7 +571,7 @@ If Silver isn't inside, speak to the Research Center assistant and ask both Gold
 *Source:* seller: file 232 script 1 (≈459,291). Quick Powder: file 232 script 4 (≈456,337); the script's HidePerson sets the item's hide flag 1314 for good. The only clear is Brock's Boulder Badge scene in Pewter Gym (file 750 @655), long before. Friday sibling: file 232 script 6 (≈458,308).
 
 ## Union Cave 1F: Goh and the wild Cyndaquil (before you finish the Ilex Forest story)
-<!-- quest: kind=side; id=q-0230 -->
+<!-- quest: kind=side; id=q-0230; missable=yes -->
 
 **Where:** Union Cave 1F, west side. Goh ("One-Ball Man", with a Manectric) stands next to a woman who asks about "the old rhyme about Union Cave". About ten steps south of them, a Cyndaquil sits on a ledge; examine the spot just east of it (beside an item ball).
 

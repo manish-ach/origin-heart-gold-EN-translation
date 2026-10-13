@@ -8,7 +8,7 @@ Sabrina has sent you to the Alto Mare Islands. The reason is simple: **the Virid
 
 **Main quest in this chapter:** take the ship from Vermilion to the Alto Mare Islands, find a partner for Granny Mae's trial on Two Island (it turns out to be Blue) and pass her five-stage test, then go back to Viridian City and win the **Earth Badge** from Giovanni.
 
-Most of the islands' side quests wait for later in the game: the One Island travel agency, which sails to Four, Five, Six and Seven Island, is closed for "high-tide season" until Johto's sea route reopens, and Three Island's biker business starts then too. What is open now is One Island and Two Island, and the waters between.
+The Alto Mare travel agency, which sails to Four, Five, Six and Seven Island, is closed for "high-tide season" until Johto's sea route reopens, and Three Island's biker business starts then too. You do not have to wait for the ferries, though: One Island and Two Island are open, and with Surf you can sail to **every island** yourself (see the optional step on Four to Seven Island). The Island Pilgrimage, the Island Cave story and the biker business come much later.
 
 The Earth Badge also ends the Pidgeot loan for Pikachu starters.
 """
@@ -46,7 +46,16 @@ text = """
 **Also on the islands.** On **Two Island**, Fern's clinic has a "sick" Chatot (bring a Chatot as your first healthy Pokémon), and the market has a barter stall, a treasure seller and an S.S. Anne passenger who thanks you if the ship did not sink. On **One Island**, the Pokémon Center's composer wants a title for his piece, the Island Restaurant serves battle meals, and the Alto Mare Library has a legends quiz. With Surf you can also reach the **Alto Mare Waters**: a lifeguard and Charmander's owner, and a fan who battles you for a Heart Scale.
 """
 unlocks = ["q-0152", "q-0135", "q-0153", "q-0154", "q-0146", "q-0148", "q-0150"]
-evidence = "guide/06 q-0152, q-0153, q-0154; guide/05 q-0135, q-0146, q-0148, q-0150 (script files 782, 734, 889, 845, 894, 244, 965, 963). The travel agency (file 894 script 11) is closed while flag 2024 is clear. UNVERIFIED: when a Chatot first becomes available, and that the Alto Mare Waters can be entered by Surf before the agency opens (file 965 has no flag-2024 check)."
+evidence = "guide/06 q-0152, q-0153, q-0154; guide/05 q-0135, q-0146, q-0148, q-0150 (script files 782, 734, 889, 845, 894, 244, 965, 963). The travel agency (file 894 script 11) is closed while flag 2024 is clear. UNVERIFIED: when a Chatot first becomes available. The Alto Mare Waters can be entered by Surf from One Island (the sea is one water body, see s04b)."
+
+[[steps]]
+id = "s04b"
+main = false
+text = """
+**Surf to Four, Five, Six and Seven Island.** The travel agency's ferries are closed, but you do not need them: with Surf (Rainbow Badge) the open sea of the Alto Mare Waters leads to the shore of every island, and from there into the towns. The extras that have no story condition can be done as soon as you are here: the **Manaphy Egg** girl in the Alto Mare Waters and her trail over Six, Five and Four Island; on **Four Island** the Mystery Stone buyer (do **not** sell Mr. Fuji's stone) and the Stone Workshop extras; on **Five Island** the four-leaf clover scene (only while a sick Trainer is there, i.e. **before** you meet the Virtue examiner in the Viridian Gym), the monk's hungry Snorlax and the Croagunk's mother; on **Six Island** the Island Forest jobs and the Crawdaunt wallet thief; on **Seven Island** the Clamperl pearl scam and the snack thief (an Alomomola first in your party); and a few small extras. The Island Pilgrimage, the Island Cave story and the Three Island bikers come much later.
+"""
+unlocks = ["q-0149", "q-0159", "q-0160", "q-0142", "q-0143", "q-0144", "q-0138", "q-0170", "q-0171", "q-0172", "q-0177"]
+evidence = "Emulator (Chinese ROM, DeSmuME harness, 2026-10-13; the wild-encounter rates were zeroed in a scratch copy of the ROM only to avoid random battles): from the Alto Mare Waters with only the Rainbow Badge, flag 2024 clear and var 0x408b = 1, Surf and walking reached Four Island (map 162 at the Island Cave door area), Five Island (map 154, next to the ferry-house door), Six Island (the Island Forest door tile) and Seven Island (stepped through the Ritual Shrine door into map 289). Static: the sea is one water body that touches every island's shore (collision grid of the Alto Mare matrix), and no island script tests flag 2024; the ferry scripts (files 155, 845, 894) do. Per-quest gating read in scripts: file 965 (Manaphy chain flags 2203-2208 only), 861 (Four Island: coords only), 58 scripts 9, 14, 15, 18, 19 (no story var), 943 (script 13 egg girl; no story var), 870 script 19 and 12, 55 (Island Forest, coords only). The new S.S. Anne gives the Alto Mare option only with the Marsh Badge (file 155 L133 CheckBadge 4). The clover needs flag 1228 clear, which the Viridian Gym Virtue examiner sets (guide/05 q-0142, file 741 @1226)."
 
 [[steps]]
 id = "s05"
@@ -91,6 +100,58 @@ available_note = "Needs Surf."
 [[quests]]
 id = "q-0150"
 available_note = "The Alto Mare Waters fan needs Surf. The Mt. Mortar Trainer in the same entry is in Johto."
+
+[[quests]]
+id = "q-0149"
+available_note = "Needs Surf. The girl in the Alto Mare Waters starts it; you follow her to Six, Five and Four Island and back."
+level_note = "The treasure hunters are Lv. 62-65."
+
+[[quests]]
+id = "q-0159"
+missable = true
+needs = ["q-0064"]
+available_note = "Needs Surf and Mr. Fuji's Mystery Stone. Do not sell it. Closes with the Rising Badge."
+
+[[quests]]
+id = "q-0160"
+level_note = "The Garchomp veteran's team is Lv. 65."
+
+[[quests]]
+id = "q-0142"
+missable = true
+available_note = "Needs Surf. Only while a sick Trainer is on Five Island: do it before you meet the Virtue examiner in the Viridian Gym."
+
+[[quests]]
+id = "q-0143"
+available_note = "Bring 5 Lava Cookies, 5 Rare Candies and 5 Old Gateaux."
+level_note = "The sweeping monk is Lv. 88-89."
+
+[[quests]]
+id = "q-0144"
+available_note = "Bring Fresh Water."
+
+[[quests]]
+id = "q-0138"
+missable = true
+available_note = "Do these before the Lucky Meowth God scene in the post-game, which changes the Island Forest for good."
+
+[[quests]]
+id = "q-0170"
+missable = true
+available_note = "Needs Surf. Before the post-game Island Forest change."
+level_note = "Sailor John is Lv. 62-65."
+
+[[quests]]
+id = "q-0171"
+level_note = "Lady Mina is Lv. 62-65."
+
+[[quests]]
+id = "q-0172"
+available_note = "An Alomomola must be your first healthy Pokémon (found by Surfing on Route 19)."
+
+[[quests]]
+id = "q-0177"
+available_note = "A mixed entry of small extras on Two, Six and Seven Island; all can be done now."
 
 [[quests]]
 id = "q-0006"

@@ -218,7 +218,7 @@ All three real choices send her to the Shipyard Ruins; only teaching her changes
 *Source:* script file 879 (script 1, L357–L2508; var 0x4097 5/6; flags 1663, 2018, 2022; the gauntlet's end L2428 clears 2020, the rebuild man's hide flag), file 735 (rebuild man ≈175,109, script 13: L7006 gives item 321 Protector only with flag 2021, set when you say Yes to his request in the One Island Pokémon Center, file 889 script 6, object 9 with the same sprite; door biker Muramasa ≈169,141, L2590–L2670, `TrainerBattle 656`, hide flag 2016, cleared again by the bribe at 879 L1903), file 845 (coord script 20 at 146,160, var 0x4097 = 6, L1465–L1612; eight `SubMoneyImmediate 50000`; L1612 resets 0x4097 to 1, so the Big Sis check `0x4097 == 5` at 879 L1283 fails afterwards; Big Sis's hide flag 2019 is set at 782 L5861 and never cleared in play), file 112 L4859–L4917 (Dragon's Den clears the bikers, sets 2020, clears 2017 and 2023). Positions: Shipyard Ruins door ≈169,140; biker ≈19,7 inside.
 
 ## Four Island: the Mystery Stone buyer (don't sell it)
-<!-- quest: kind=side; id=q-0159 -->
+<!-- quest: kind=side; id=q-0159; missable=yes -->
 
 **Where:** a stone collector at the far south end of Four Island (well south of the ferry man and the nurse), and a woman with a Misdreavus in the middle of town (east of the man with the Graveler).
 
@@ -378,7 +378,7 @@ Then, "as you are the Champion", he adds a battle: **Elder Huguo** (Infernape, T
 *Source:* script file 845 (script 7, L1337–L2980; flag 1114). Tourist ≈141,151 (Pokémon Center door ≈142,147).
 
 ## Six Island: the Crawdaunt wallet thief (before the Lucky Meowth God)
-<!-- quest: kind=side; id=q-0170 -->
+<!-- quest: kind=side; id=q-0170; missable=yes -->
 
 **Where:** a tourist admiring a Crawdaunt near the Six Island ferry dock (just south of the ferry man). Its owner, **Sailor John**, stands across the water to the east (south-west of the Fallen Red Star).
 

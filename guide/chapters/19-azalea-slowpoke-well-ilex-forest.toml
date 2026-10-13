@@ -1,0 +1,95 @@
+id = "ch19-azalea-slowpoke-well-ilex-forest"
+order = 19
+title = "Chapter 19: Azalea Town, Slowpoke Well and Ilex Forest"
+summary = "Team Rocket goes after the Tidal Bell in Slowpoke Well, Bugsy needs help in Ilex Forest, and you win the Hive Badge."
+kind = "story"
+intro = """
+Silver's warning on Route 33 was right: Team Rocket is in **Azalea Town** and heads for **Slowpoke Well**. After the well, Ilex Forest is next: Bugsy is away on a bug hunt, so the Azalea Gym stays empty until you have helped him.
+
+**Main quest in this chapter:** stop Team Rocket in Slowpoke Well, take part in Bugsy's Honey hunt in Ilex Forest, win the **Hive Badge** at the Azalea Gym (no Pokémon strong against Bug), and lead the lost Kimono Girl Koume out of the forest, which opens the road to Route 34 and Goldenrod City.
+
+**Order tips:** finish Bugsy's hunt **before** you talk to Koume, Sakura or the fire ranger (they share the hunt's progress), and take the **Rocky Helmet** only after the hunt. Koume's rescue ends the Union Cave Cyndaquil and the Violet City Marill for good.
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Azalea Town: the Slowpoke trouble.** Azalea has a **Slowpoke quiz** (a few steps south of the Pokémon Center), a data-obsessed **Super Nerd** with a Porygon-Z next to the Gym, and the **Charcoal Kiln** in the south, where the apprentice's Farfetch'd cannot learn Cut. Go to **Kurt's house** in the north-west: his Slowpoke suddenly runs off and Kurt asks you and Crystal to find out why. Outside, a Rocket grunt blocks Slowpoke Well; Gold beats his Steelix and the grunt invites you to the well.
+"""
+unlocks = ["q-0235", "q-0236", "q-0238", "q-0239"]
+evidence = "guide/08 q-0235, q-0236, q-0238, q-0239 (script files 863 Azalea, 871 Kurt's house). Scenes: file 871 coord script 2 on var 0x40ac = 4 (Slowpoke runs off, @925-@1245, SetVar 0x40ac = 5); file 863 coord script 5 on var 0x40ac = 5 (grunt, Steelix, Gold's battle, @1316-@1856, SetVar 0x40ac = 6)."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**Slowpoke Well.** Kurt, Gold and Crystal go in with you. On the first level Jessie, James and Meowth offer to let you pass (take it or fight them; they attack from behind if you trust them), and the Executives **Proton** and **Archie** are after the **Tidal Bell**, which a Slowking guards. Silver snatches the bell in the middle of the fight; Gold takes it back from him. Kurt thanks you at his house with Apricorn Balls and his phone number and asks you to keep the secret of the bell. **This ends for good** the Apricorn Ball service of the Pewter City maker (he says he will make no more balls).
+"""
+closes = ["q-0024"]
+evidence = "script file 60 (Slowpoke Well B1F: coord script 1 on var 0x40ac = 6 and script 2 on 7, scenes @218-@3967, SetVar 0x40ac = 7 @3925 and 8 @3085; @3165 SetFlag 415 which ends the Pewter maker's service, guide/02 q-0024: 'Service ends when flag 415 is set'); Kurt's thanks and Apricorn Balls @3237-@3563."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**Ilex Forest: Bugsy's bug hunt.** Enter Ilex Forest from the south gate. About a dozen steps up the path Bugsy and his team wait with a plan: spread **Honey** on four rocks to lure four Bug Pokémon (Kricketune, Ariados, Burmy, Skorupi). **Where you stand decides the result:** if you are on a bug's path, it runs away. Do the Ariados rock before the Skorupi rock, and finish the hunt before you talk to Koume, Sakura or the fire ranger. Handling at most three bugs yourself earns the top reward (3 Energy Powder, PP Max and a Heart Scale). Bugsy then goes back to the Azalea Gym.
+
+Do not take the **Rocky Helmet** from the man with the sore head before the hunt ends; the other forest extras (Leaf Storm tutor, rangers, Bug Catcher Andy) are listed in the quest.
+"""
+unlocks = ["q-0242", "q-0248"]
+evidence = "guide/09 q-0242, q-0248 (script file 92 Ilex Forest: hunt progress shared with Sakura, Koume and the ranger; the forest's story ends at @10509 SetVar 0x40ac = 9). Slowpoke Well must be over: guide/09 q-0242 'after Slowpoke Well'."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**Azalea Gym: Bugsy.** With the hunt finished, Bugsy is back in his Gym. He asks you to bring **no Pokémon that is strong against Bug** (a fixed list of 203 species: every Fire, Flying and Rock type and a few more, Eggs skipped). Win the **Hive Badge**, **TM81 X-Scissor** and his number. You can also do this after Koume's rescue.
+"""
+unlocks = ["q-0237"]
+evidence = "guide/08 q-0237 ('Bugsy is away in Ilex Forest until you finish the Ilex Forest bug-catching story'; fixed list of 203 species; Hive Badge, TM81)."
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**Koume, the lost Kimono Girl.** Koume stands in the middle of the forest and cannot find her way; whatever you answer, she wanders off. Talk to her sister **Sakura** in the north gatehouse (she blocks the Route 34 door until Koume is safe), then go back and choose **"Your sister sent me for you"**: Koume follows you to the exit and thanks you with a Sun Stone. Straight afterwards Gold and Crystal talk to you. **This closes for good:** the wild Cyndaquil in Union Cave (and Goh there) and the runaway Marill in Violet City. The forest rangers appear. The fire ranger's **stray Houndour** (10 Safari Balls) can be started once the hunt is over.
+"""
+unlocks = ["q-0243", "q-0244"]
+closes = ["q-0230", "q-0210"]
+evidence = "guide/09 q-0243 (this scene 'ends several earlier side quests for good: the Union Cave Cyndaquil and the Violet City Marill'), q-0244, guide/08 q-0230 ('closes for good when you finish the Ilex Forest bug-catching story'), q-0210 ('the quest closes when Crystal's story scene in Ilex Forest plays'). Script file 92 @10509 SetVar 0x40ac = 9."
+
+[[quests]]
+id = "q-0235"
+
+[[quests]]
+id = "q-0236"
+level_note = "Shingo's Shedinja is Lv. 65 with Wonder Guard."
+
+[[quests]]
+id = "q-0238"
+available_note = "Needs HM01 Cut (Cerulean). The game does not check that you have it."
+level_note = "The master's team is Lv. 62-65."
+
+[[quests]]
+id = "q-0239"
+
+[[quests]]
+id = "q-0242"
+
+[[quests]]
+id = "q-0248"
+available_note = "Take the Rocky Helmet only after the bug hunt."
+
+[[quests]]
+id = "q-0237"
+needs = ["q-0242"]
+level_note = "Bugsy's team is Lv. 80."
+
+[[quests]]
+id = "q-0243"
+available_note = "Finish Bugsy's hunt first: Koume's, Sakura's and the ranger's talks share the hunt's progress."
+
+[[quests]]
+id = "q-0244"
+available_note = "Safest order: finish Bugsy's hunt first, then start this."

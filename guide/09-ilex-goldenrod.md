@@ -205,7 +205,7 @@
 *Source:* script file 92 (scripts 13, 20, 23, 24, 26, 27; Andy ≈78,25, trainer 121, flags 427/1481). Rocky Helmet man ≈63,12 (shares flag 2104 with the Ariados rock; hack finding: a set 2104 makes the Ariados rock skip at L1927 → L4344 without adding to counter 0x409f, while the end-of-hunt checks (e.g. L4490, L9322) only need 2104 set, so the hunt still ends; Skorupi's rock also resolves Ariados if it is still up, so Ariados can never be the last bug left); Leaf Storm tutor ≈64,39; Heath ≈92,62 and Flo ≈74,57 (appear after Koume); Noah ≈39,16; Flo and Noah share flag 1460, set only on a win.
 
 ## Route 34: Totodile, the dance master (one chance)
-<!-- quest: kind=side; id=q-0249 -->
+<!-- quest: kind=side; id=q-0249; missable=yes -->
 
 **Where:** a dancer with a twisted ankle on the path between the Day-Care and the Ilex Forest gatehouse, about 25 steps north of the gatehouse. The dance-off grove is at the very south end of Route 34, below the Ilex Forest gatehouse, reached by following the water south.
 
@@ -225,7 +225,7 @@
 *Source:* script file 237 (scripts 9, 14, 15; L3258, L5047, L3288–L5922, L6830–L7071; var 0x408b 11 → 12 → 13; coord script 14 on 0x408b = 11; trainers 766+767; flag 1839). Positions: dancer ≈371,425; grove ≈370,472.
 
 ## Route 34: advice for Whitney's victim (→ Razor Claw)
-<!-- quest: kind=side; id=q-0250 -->
+<!-- quest: kind=side; id=q-0250; missable=yes -->
 
 **Where:** a Youngster with a Sunkern in the north-west of Route 34, north-west of the police officer and his Arcanine.
 
@@ -240,7 +240,7 @@
 *Source:* script file 237 (script 16; L3696–L7248; flag 2102; CheckBadge 10 and 15). Flag 2102 is also set during the bug hunt and cleared when it ends. Youngster ≈356,397.
 
 ## Route 34: Ruby, Sapphire and the wild Salamence (part of the Goldenrod Gym chain)
-<!-- quest: kind=main; id=q-0251 -->
+<!-- quest: kind=main; id=q-0251; missable=yes -->
 
 **Where:** the north end of Route 34, near Goldenrod City.
 
@@ -262,7 +262,7 @@
 *Source:* script file 237 (script 5, L3168, L4958–L5045, L6379; trainer 765). Officer ≈364,405; Day-Care door ≈368,410.
 
 ## Goldenrod Magnet Train Station: Prof. Rowan's Chimchar (missable; before the Plain Badge)
-<!-- quest: kind=side; id=q-0253 -->
+<!-- quest: kind=side; id=q-0253; missable=yes -->
 
 **Where:** Magnet Train Station 1F: Prof. Rowan and his assistant stand in the middle of the hall, up and to the right of the entrance. The station door is just east of the Radio Tower.
 
@@ -280,7 +280,7 @@
 *Source:* script file 890 (Magnet Train Station 1F, script 10, L2062–L2181; objects 4/5 hidden by flag 1613, set in file 883 L577). Positions: Rowan ≈11,9 in the station; station door ≈348,349.
 
 ## Goldenrod City: Goh and the Lopunny owner (win with Normal types only)
-<!-- quest: kind=side; id=q-0254 -->
+<!-- quest: kind=side; id=q-0254; missable=yes -->
 
 **Where:** the west plaza at the far west edge of town (the old Wi-Fi center site). A man stands there with his Lopunny; Goh is a few steps south-east of him.
 
@@ -301,7 +301,7 @@
 *Source:* script file 882 (scripts 2 and 5, L2105–L2872, L15488–L16230; trainer 769; flags 792/1614). The owner is male (573#16); "No" gets the coward line (573#21). Positions: Lopunny owner ≈314,350; Goh ≈322,353.
 
 ## Goldenrod City: the Purugly girl and Team Rocket's "act" (choice with two endings)
-<!-- quest: kind=side; id=q-0255 -->
+<!-- quest: kind=side; id=q-0255; missable=yes -->
 
 **Where:** two small houses that share one interior:
 - the **clinic** in the north-east of town, beside the Flower Shop, where Jessie, James and Meowth are recovering;
@@ -344,7 +344,7 @@
 *Source:* script file 882 (script 33, L15963–L16013), file 896 (script 24). Girl ≈370,362.
 
 ## Goldenrod Dept. Store 6F: the blind man's Poochyena (one chance)
-<!-- quest: kind=side; id=q-0257 -->
+<!-- quest: kind=side; id=q-0257; missable=yes -->
 
 **Where:** Department Store 6F (rooftop atrium), at the far west (left) side, an old man with a Poochyena.
 
@@ -386,7 +386,7 @@
 *Source:* script files 32 (Radio Tower 4F, script 2 L487–L2670, menu L495, flag 115 at L1599, starter flags at L1919; flags 748/443 cleared at L2660–L2664 put Whitney and Gold in the Gym), 883 (Gym; L81, L474–L1878, MultiBattle 343/30/266 at L1303 with no party-count check; the party-count check at L1172–L1182 belongs to the Doubles rematch; "stand in front of me" L1255 → L1891 on the Multi Battle path), 888 (Norman's house, L1696–L1875, L2389–L2432), 890 (station, script 9, L2486–L3260), 896 (Ruby and Sapphire). Doors: Gym ≈366,334; Norman's house ≈341,366. Hyper Voice tutor ≈368,335.
 
 ## Radio Tower → Goldenrod Tunnel: Mary's secret photos (→ Cherish Ball; missable)
-<!-- quest: kind=side; id=q-0259 -->
+<!-- quest: kind=side; id=q-0259; missable=yes -->
 
 **Where:** Radio Tower 4F (Mary), a clerk in the street a few steps south of the Radio Tower door, then the underground warehouse.
 
@@ -407,7 +407,7 @@
 *Source:* script files 32 (script 5 and L1956–L2379, flags 144/2161), 94 (B1F: L930 checks the Basement Key at the "NO ENTRY" sign ≈25,30, hidden by flag 448), 96 (script 5; trainer 780; flag 138), 882 (script 9, L15738–L15780), 97 (warehouse, flag 2161; trainer 781), 246 (Route 37 L283: clears 144). Route: B1F ≈25,30 → Goldenrod Tunnel ≈25,9 → stairs ≈25,3 → B2F ≈27,4; Chaz ≈26,15 by the warehouse door ≈26,14. Clerk ≈344,354.
 
 ## Goldenrod Underground: drive out the underground battlers (optional; before the Plain Badge)
-<!-- quest: kind=side; id=q-0260 -->
+<!-- quest: kind=side; id=q-0260; missable=yes -->
 
 **Where:** the shopping street under Goldenrod (Goldenrod Tunnel B1F). Walking along its west side, you're stopped before you reach the brawl.
 
@@ -500,7 +500,7 @@ At **30 points** on your first card, Buena also gives you her **phone number**. 
 *Source:* script file 29 (zone 112; the tower floors are one map). Blue Card: script 18 L1190–L1271 (item 472; var 0x4115 counts cards). Daily checks: L3621/L3648 (flag 2742, heard the show; no script sets it, the radio code does: overlay 92 @0x021F5842 when the show reaches segment 4) and L3824 (flag 2723, tried today; set at L4326 before the answer is checked). `GetBuenasPassword` at L4266/L4582: a menu of three words, right answer → L4353, wrong → L5210. Points: var 0x413A, +1 at L4393, prizes L5402–L5638 (items 4, 24, 46, 47, 48, 92, 50, 45 at 1/3/5/10/15/20/25/30). No prize: L5656 shows msg 32, the lottery line (hack finding). Phone number L4435/L5257 (needs 30 points and var 0x4115 < 2). New card and reset L5766–L5839. Full Bag: L5741 → L2721 → L3672 ends the scene with the point already added; at 30, L4380 sends the next right answer to L5221 without adding a point. Points attendant (object 9, walks over before message 88 at L5738): script 17 L1150. Positions: Buena ≈24,43; attendant ≈18,44; east stairs ≈23,37. The second Buena in file 30 (zone 186, Radio Tower 2F) belongs to a map that no door leads to.
 
 ## Goldenrod Game Corner: the magnet cheater (before the Glacier Badge)
-<!-- quest: kind=side; id=q-0264 -->
+<!-- quest: kind=side; id=q-0264; missable=yes -->
 
 **Where:** the Game Corner, in the middle of town a few steps north of the Pokémon Center. The Pokéfan sits on the left (west) side of the hall.
 
@@ -544,7 +544,7 @@ At **30 points** on your first card, Buena also gives you her **phone number**. 
 *Source:* script file 895 (script 1, L215–L597; flag 1617). House door ≈352,334. Evolution methods from the ROM's evolution table, checked against the evolution code (arm9 0x020700FC): Rhydon method 37 (level up holding Protector), Happiny method 1 (friendship 220+), Haunter method 19 (holding Spell Tag at night, hours 20–3).
 
 ## Romance route: how it's unlocked, how your partner is chosen, and what locks a partner out (central entry)
-<!-- quest: kind=side; id=q-0266 -->
+<!-- quest: kind=side; id=q-0266; missable=yes -->
 
 Origin HeartGold has a hidden romance route. You pick **one** partner and confess in the final chapter. The scripts then offer post-game dates for some partners only, and moving in appears unreachable for everyone (table in step 4). Four steps decide it. **Steps 1 and 2 are missable:** the love reading must come before the MooMoo Farm investigation, which the League HQ's round-3 order opens after the Silver Conference.
 

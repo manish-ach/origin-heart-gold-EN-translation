@@ -1,0 +1,67 @@
+id = "ch14-cerulean-cave-mt-silver-lodge"
+order = 14
+title = "Chapter 14: Cerulean Cave and the Mt. Silver Lodge"
+summary = "After your first Hall of Fame entry: Giovanni's duel in Cerulean Cave, your rehabilitation at the Mt. Silver lodge and Prof. Oak's errand that opens Johto."
+kind = "story"
+intro = """
+Your first Hall of Fame entry ends the Kanto story. The way on is a chain of three scenes: a duel with Giovanni in Cerulean Cave, a long rest at the hot-spring lodge on Mt. Silver, and a visit to Prof. Oak, who sends you to New Bark Town with three Pokédexes. Only after that does the guard on Route 26 let you into Johto.
+
+**Main quest in this chapter:** win the duel against Giovanni and Mewtwo in Cerulean Cave, go through the rehabilitation at the Mt. Silver lodge (talk to Sabrina, battle, soak in the hot spring, repeat), then go home to Pallet Town and thank Prof. Oak.
+
+**Do not confuse the conferences.** The Indigo Conference ended with your Hall of Fame entry. The **Silver Conference** that people mention from now on is a separate event on top of Mt. Silver. It starts much later, after you have the Johto Badges, and it is what starts the League HQ investigations. You cannot take part in it yet.
+"""
+
+[[steps]]
+id = "s01"
+main = false
+text = """
+**What the first Hall of Fame entry opens.** The game counts as cleared. The Elite Four now offer repeatable Singles or Doubles practice battles, and in the Champion's room the attendant can call Blue to battle (Yellow and Gold join the list later). The extras the guide calls "after your first Hall of Fame" open too, for example Sabrina's and Blaine's rematches. These are **not** post-game: post-game only starts with the final Hall of Fame entry at the very end of the story.
+"""
+unlocks = ["q-0197"]
+evidence = "guide/07 q-0197 (script file 822 first entry L20-L316, the game-clear flag 2404; practice menus in files 817-820 behind CheckFlag 2404; Champion's room list file 821 L1331, L1860). The final entry (flag 2261) is the post-game boundary."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**Cerulean Cave: Giovanni's duel.** Cerulean Cave lies behind the fence on the west side of Cerulean City. Misty and Brock are invited too: a mysterious letter from Nurse Joy asks you to the hidden arena at the bottom of the cave. Cross the cave (its Pokémon are very strong) and talk to Nurse Joy, who leads the guests to Giovanni.
+
+Giovanni fights with his full **Lv. 100** team. Losing does not white you out, and if you **win**, Mewtwo uses Recover and the same battle starts again: the duel only moves on when you lose. You wake up "at the bottom of the lake" and challenge Giovanni again in a **Double Battle** (**a loss here does white you out**, and you replay the whole scene). If you chose Charmander and still carry Mr. Fuji's Mystery Stone, the stone turns into a Charizardite. After the win you free Mewtwo, Giovanni escapes and you wake up at home.
+"""
+unlocks = ["q-0178"]
+evidence = "guide/07 q-0178 (script file 912: TrainerBattle 402 no-loss at L4818/L4922, win loops at L4855, double battle 402+402 at L2559 with WhiteOut L4849, Charizardite L5414-L5517; flag 1805 set at L3807 after the cave story). Invitation: Dragonite letter to Bill at the Cape picnic (file 216 @10948, sets flag 783 which removes the fence notice at the cave door, 216 @11134). Giovanni's lines in 912 (@4231 'congratulations on becoming League Champion', @4265 'back at the Viridian Gym') place the duel after the Earth Badge and the Indigo Conference. UNVERIFIED: whether the duel can start earlier; the arena objects are visible from the start and no script in 912, 139 or 11 tests flag 2404 (see questions file)."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**Mt. Silver: the rehabilitation.** Back home, Prof. Oak says the Pokémon League will let you onto Mt. Silver to recover. At the reception gate on Route 26 (the building between Route 22 and the Indigo Plateau) the guard now sends you west to Route 28, through Mt. Silver Cave and out of its north-west corner, where the hot-spring lodge stands. Sabrina runs the treatment: **talk to Sabrina, battle, soak in the hot spring, talk to Sabrina again.** The opponents are Brock, then Misty, then Blue, then Sabrina herself, and in the same visit Yellow walks in and finishes the cure. Every battle that you lose whites you out; talk to Sabrina to retry the round. After Yellow, soak once more; Sabrina joins you in the spring, and you go home to Pallet Town.
+
+Mt. Silver itself stays closed beyond the lodge: the mountain path is shut by order of President Goodshow until you hold the Rising Badge.
+"""
+unlocks = ["q-0179", "q-0198"]
+evidence = "guide/07 q-0179 (script files 846 lodge, 844 hot spring; var 0x4110 1 to 6, flag 609 go soak; end @3126-@3242 warps to Pallet Town and sets flag 1501). Gate: file 213 coord script 3 (var 0x4110 = 0): with flag 1805 set the guard says 'You're here to recover from your injuries... the cabin at the foot of the mountain' and sets 0x4110 = 1 (@750-@868); without it 'No one may pass without the Pokemon League's permission' (@905). File 105 (cave entrance guard): flag 1501 clear = welcome to the lodge, flag 1501 set and no Rising Badge (CheckBadge 15) = 'closed by order of President Goodshow'. The Silver Conference proper starts only at var 0x40A2 = 8 (file 31 script 10 @2845, after Blackthorn), so the Giovanni scene on the mountain (file 844 coord at 23,139 on var 0x40A2 = 8) does not play now."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**Home and Prof. Oak.** You wake up in your house in Pallet Town. Your mother tells you to thank Prof. Oak before you go. In Oak's lab President Goodshow is waiting: while you were fighting Giovanni, Team Rocket in Johto attacked several cities, and the League wants you to follow them there. Oak gives you **three Pokédexes for Prof. Elm** in New Bark Town. Walk to the Indigo Plateau gate and follow Route 26 south: the Johto border guard now lets you pass.
+"""
+evidence = "script file 842 (end of the rehab, Mom's lines @5951-@6049, sets flag 596 clear and var 0x4119 = 0 which arms Oak's lab scene), file 738 script 13 (flag 1501 branch L2258 to L3149-L3617: Goodshow, Team Rocket moved to Johto, three Pokedexes, SetVar 0x408b = 2 @3591). Route 26 guard: file 218 coord script 5 (var 0x408b = 1: 'Up ahead is the Johto region... not where you need to be going right now')."
+
+[[quests]]
+id = "q-0197"
+
+[[quests]]
+id = "q-0178"
+level_note = "Giovanni's team is Lv. 100."
+
+[[quests]]
+id = "q-0179"
+needs = ["q-0178"]
+available_note = "You need to have won the Cerulean Cave duel: the guard at the Route 26 gate only offers the lodge after it."
+
+[[quests]]
+id = "q-0198"
+available_note = "A mixed entry. The Mt. Silver photographers can be visited from the lodge trip on; Tuscany on Route 29 (Tuesdays) and Crystal's Poké Ball sale in Cherrygrove belong to the next chapters; Koga's photo in the League reception gate only exists after the final Hall of Fame entry."

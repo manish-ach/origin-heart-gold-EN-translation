@@ -1,0 +1,113 @@
+id = "ch16-cherrygrove-dark-cave"
+order = 16
+title = "Chapter 16: Route 29, Cherrygrove City and the Dark Cave"
+summary = "Crystal's tour of Cherrygrove City, Route 30 and 31, and Team Rocket's dig at the other end of Dark Cave."
+kind = "story"
+intro = """
+From New Bark Town the road runs west along Route 29 to Cherrygrove City, then north along Routes 30 and 31 towards Violet City. On the way you meet **Crystal**, a local girl who is about to become a Pokédex holder, and you run into the first Team Rocket trouble of Johto at Dark Cave.
+
+**Main quest in this chapter:** follow Crystal's tour of Cherrygrove City to the orphanage, go on north to the Dark Cave entrance on Route 31, and then stop Team Rocket's dig on **Route 46**. You must play the Route 46 scene: the memorial ceremony in Violet City's Sprout Tower only starts after it.
+
+**Deadlines:** the dig scene removes the Stantler herd on Route 30, so do the Noctowl trick first if you want the Stantler. Mr. Pokémon only asks his quiz after the Dark Cave trouble is over, and **before you own HM08 Rock Climb**.
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Route 29.** Walk west from New Bark Town. A man by the Apricorn tree wants to buy Kurt's Apricorn Box, a girl with an Elekid asks you about a Pokéathlon athlete (one chance either way for both), and a die-hard fan challenges you to a battle near the New Bark end of the route (he offers sparring any time afterwards). A side gatehouse leads north to Route 46 and the Dark Cave exit; you will use it later in this chapter.
+"""
+unlocks = ["q-0181", "q-0182"]
+evidence = "guide/07 q-0181, q-0182 (script file 225: scripts 3, 14, 15; the fan @4003-@4118 is a coord scene on var 0x408b = 5 and sets 0x408b = 6)."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**Cherrygrove City: Crystal's tour.** At the east edge of town Crystal calls you over and shows you the city: she sells 10 Poké Balls for $800 during the tour (one free if you cannot pay) and ends at the **orphanage**. In the orphanage let the children play with your Pokémon; Rhett runs off after a Slugma, and you help Crystal hold the Slugma back at the north edge of town (a battle against three Slugma that earns 5 Heal Balls). Silver also shows up here and drops his Trainer Card. Besides the story you can do in town: the **Berry Pots girl** in the south-east flowers (needs the Squirt Bottle), the **Wooper and the lost Poké Ball** on the west shore, and a fighter's house in the south-west row.
+"""
+unlocks = ["q-0199", "q-0183", "q-0184", "q-0204"]
+evidence = "script file 847 (Cherrygrove: coord scripts on var 0x408b = 6, 7, 8; Crystal's balls @7093-@7122 and @7956, Rhett and Slugma @7271-@7374, Silver's Trainer Card @7410, orphanage door @8030, SetVar 0x408b = 7 @8091 and 8 @7374); guide/08 q-0199, q-0204; guide/07 q-0183, q-0184 (file 847 scripts 15, 17, 18)."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**Elm and Crystal's Pokédex.** Crystal's skill impresses you. Later, back in Prof. Elm's lab with Gold (the talk is about a stolen Totodile and the Trainer Card Silver dropped), you recommend Crystal as a Pokédex holder. Elm goes to the orphanage and gives Crystal a Pokédex and a Chikorita. That releases the wild **Chikorita** on Routes 30 and 31.
+"""
+unlocks = ["q-0201"]
+evidence = "guide/08 q-0199 steps 4-5 and its Source line (file 851 scripts 4 and 6, var 0x408b 7 to 9; file 840 lab script 3 L1436-L1530 hides the orphanage Crystal with flag 1964 and shows the Elm scene by clearing 1968), q-0201 (the Chikorita event starts after Elm gives Crystal her Pokedex). UNVERIFIED: the exact call or walk that sends you back to Elm's lab (file 840 script 3 @1222-@1530 plays the thief and recommendation talk, flags 413, 401, 1964)."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**Route 30.** North of Cherrygrove the road leads past a fishing pond to **Mr. Pokémon's house** at the north end. A herd of **Stantler** blocks one of the two paths: lead with a **Noctowl** (it need not know Foresight) and talk to a Stantler to dispel the illusion; one real Stantler is left to catch. A Youngster with a Rattata starts the wild Chikorita's rampage, which continues on Route 31. Mr. Pokémon first only worries about Dark Cave; once the trouble is over he asks his five-question quiz (Exp. Share).
+"""
+unlocks = ["q-0200", "q-0202"]
+evidence = "script file 227 (Route 30: Stantler herd objects hidden by flag 1807, set by the Foresight solution @2557/@4080 and by the Route 46 dig, file 259 @3586); file 229 (Mr. Pokemon's house: quiz after flag 1808 or 2335, and a Rock Climb tip instead once you carry HM08, script 3 @88). guide/08 q-0200, q-0202."
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**Route 31 and the Dark Cave entrance.** On Route 31 the wild Chikorita beats an Oddish and meets a Bug Catcher with a Yanma near the west end (catch it there). In front of the Dark Cave entrance Gold and Crystal argue: Gold wants to rush in, Crystal says that nobody has **Flash**. Give Crystal your **TM70 Flash** so her Chikorita can light the way (TM70 costs $8,000 in the Route 10 Pokémon Center in Kanto if you do not have one).
+"""
+unlocks = ["q-0203"]
+evidence = "script file 230 (Route 31: coord script 16 at the Dark Cave entrance on var 0x40ac = 0 plays the Gold and Crystal argument @536-@587 and sets var 0x40ac = 1 @594 whatever you carry); guide/08 q-0203 (the TM hand-over)."
+
+[[steps]]
+id = "s06"
+main = true
+text = """
+**Route 46: Team Rocket's dig.** Walk to the north end of Route 46, two steps south of the Dark Cave door (from the Route 29 gatehouse or through Dark Cave). Crystal has cornered Cassidy and Butch while they dig: you fight them in a Multi Battle with Crystal as partner, then **Charon and Lawrence** in a Double Battle with no healing in between. Charon's Dugtrio grabs Crystal; when Charon orders you to put your Pokémon away, answer **Yes** if you want Crystal as your romance partner. Afterwards the dig site clears, the herd of Stantler on Route 30 is gone for good, and the dig man's "rolling" item shop stops selling.
+"""
+unlocks = ["q-0332"]
+closes = ["q-0200"]
+evidence = "guide/12 q-0332 (script file 259: coord script 4 on var 0x40ac = 1; battles @227-@1789; Yes/No @2133/@2267 (No sets flag 2145, Crystal locked out); @3570-@3594 sets flags 1807 and 1808 and var 0x40ac = 2). Flag 1807 hides the Route 30 Stantler herd objects (zone 34 object list). File 18 (Sprout Tower 3F): coord script 2 triggers the ceremony only on var 0x40ac = 2."
+
+[[quests]]
+id = "q-0181"
+missable = true
+
+[[quests]]
+id = "q-0182"
+missable = true
+
+[[quests]]
+id = "q-0199"
+
+[[quests]]
+id = "q-0183"
+missable = true
+available_note = "She only checks for the Squirt Bottle (from the Pewter flower garden)."
+
+[[quests]]
+id = "q-0184"
+
+[[quests]]
+id = "q-0204"
+
+[[quests]]
+id = "q-0201"
+missable = true
+needs = ["q-0199"]
+level_note = "The wild Chikorita is Lv. 5."
+
+[[quests]]
+id = "q-0200"
+missable = true
+available_note = "Do it before the Route 46 dig scene: the dig removes the herd and the Stantler."
+
+[[quests]]
+id = "q-0202"
+needs = ["q-0332"]
+available_note = "Only after the Dark Cave trouble is over, and only while you do not carry HM08 Rock Climb."
+
+[[quests]]
+id = "q-0203"
+
+[[quests]]
+id = "q-0332"
+available_note = "Required: the Sprout Tower ceremony in Violet City only starts after this scene."
+level_note = "Cassidy and Butch are Lv. 67-69; Charon and Lawrence are Lv. 87-88."

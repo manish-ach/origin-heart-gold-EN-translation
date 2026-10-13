@@ -1,0 +1,66 @@
+id = "ch15-route-26-new-bark-town"
+order = 15
+title = "Chapter 15: Into Johto: Route 26, Route 27 and New Bark Town"
+summary = "Walk south from the Indigo Plateau gate to Route 27 and New Bark Town and deliver Prof. Oak's Pokédexes to Prof. Elm."
+kind = "story"
+intro = """
+Johto begins. The guard at the north end of Route 26 no longer turns you back, and the road leads south and then west to New Bark Town, where Prof. Elm waits for the Pokédexes you carry.
+
+**Main quest in this chapter:** follow Route 26 and Route 27 to New Bark Town and give the Pokédexes to Prof. Elm in his lab. Gold, the boy who is just setting out, challenges you to a race for the eight Johto Badges.
+
+**Before you go further:** Johto has its own Badge order (Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier, Rising). Your eight Kanto Badges are enough for Surf, Cut, Strength, Fly, Whirlpool and Waterfall; Rock Climb needs the Rising Badge.
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Route 26.** Walk out of the reception gate to the south. The guard at the north end of Route 26 ("Up ahead is the Johto region...") only stops you until Oak's errand has started. Two houses stand by the road: the **weekday siblings' house** (the item quiz) with a man and his Phanpy a little way south-east of its door, and the house at the **north end** of the route (the old man who sells rest).
+"""
+unlocks = ["q-0187", "q-0188", "q-0189"]
+evidence = "script file 218 (Route 26: coord script 5 at the north end needs var 0x408b = 1, Oak sets 2 @3591 in file 738); guide/07 q-0187, q-0188, q-0189 (files 218 script 7, 220 script 2, 219)."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**Route 27 and Tohjo Falls.** At the east end of Route 27 a short scene plays: a Mew nuzzles you, Goh barges in and fights you for it, and Eusine realises that the "Suicune" he was chasing was not the real one. Further west, the **guard post** just south of the two Tohjo Falls entrances registers you as the Champion; the guard there has a letter for a girl in Ecruteak. A **musician** stands about 40 steps east of the guard post. With the Earth Badge (Waterfall) and Surf you can also reach the **hidden room in Tohjo Falls**, where a Black Belt waits for a battle.
+"""
+unlocks = ["q-0185", "q-0186", "q-0190"]
+evidence = "script file 221 (Route 27: coord script 2 at var 0x408b = 2, Mew/Goh/Eusine scene @1951-@2337, SetVar 0x408b = 3 @2337; guard registration @1564-@1630, musician script 7); file 114 (Tohjo Falls hidden room, script 5); file 146 L2402 (Waterfall needs CheckBadge 7 = Earth Badge)."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**New Bark Town and Prof. Elm.** At the west end of Route 27 you reach New Bark Town. Gold is about to set out with his Cyndaquil. Go into **Prof. Elm's lab** and hand over the Pokédex: Elm is amazed that the Champion delivered it in person, gives Gold his Pokédex (the other two are kept for promising new Trainers), registers his phone number in your Pokégear and thanks you with a gift. Gold challenges you to see who collects all eight Johto Badges first.
+
+In the **New Bark Town Guesthouse**, a woman with a Luxray asks a three-question quiz about the Pokémon next to her.
+"""
+unlocks = ["q-0180"]
+evidence = "script files 839 (New Bark: coord scripts on var 0x408b = 3 and 4, SetVar 0x408b = 4 @273) and 840 (Elm's lab: script 18 @2002-@3391 delivers the Pokedex, Gold's race challenge @2222-@2273, phone number @2575, gift item 426 @2633, SetVar 0x408b = 5 @3391); guide/07 q-0180 (file 841 script 12)."
+
+[[quests]]
+id = "q-0187"
+
+[[quests]]
+id = "q-0188"
+
+[[quests]]
+id = "q-0189"
+
+[[quests]]
+id = "q-0185"
+missable = true
+available_note = "Get the letter now and give it to Momo in Ecruteak before you win the Mineral Badge in Olivine City."
+
+[[quests]]
+id = "q-0186"
+
+[[quests]]
+id = "q-0190"
+available_note = "Needs Surf and the Earth Badge (Waterfall)."
+level_note = "The Black Belt's team is Lv. 81-82."
+
+[[quests]]
+id = "q-0180"
