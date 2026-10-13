@@ -1,0 +1,87 @@
+id = "ch02-mt-moon"
+order = 2
+title = "Chapter 2: Mt. Moon"
+summary = "Route 3 and Mt. Moon: gather your four companions and get past the fake construction guards."
+kind = "story"
+intro = """
+You have the Boulder Badge and Rock Smash. The next stop is Mt. Moon, but a roadblock of "construction" guards sits at the north end of the first cave, and it only opens once **Blue, Misty, Steven and Cynthia are all waiting there** and you hold the Boulder Badge.
+
+**Main quest in this chapter:** meet Misty on Route 3, bring Steven and Cynthia into the cave, then talk to the guard. The fight that follows (four Multi Battles) leads to Mt. Moon Square and the way on to Cerulean City.
+
+Closes in this chapter: Bruno at the Pewter Pokémon Center.
+"""
+
+[[steps]]
+id = "s01"
+main = false
+text = """
+**Pewter City, before you leave.** The Gym's sparring partner now takes a Pecha Berry to train your Defense. If you haven't yet, beat **Steven** at the Museum of Science (he must be in your pocket for the roadblock) and Blue on the path to the Gym.
+"""
+unlocks = ["q-0043"]
+evidence = "guide/02-pewter-to-vermilion.md q-0043 (script 750 L907, needs Boulder Badge), q-0029 table (companion flags 1310 Blue, 1372 Misty, 1358 Steven, 1371 Cynthia; Steven at the Pewter Museum, file 753 script 21 L4045)"
+
+[[steps]]
+id = "s02"
+main = false
+text = """
+**Route 3.** Walking east you pass a Bug Catcher (a Scyther chase for Charmander starters, a battle for everyone else) and an old painter who is ill and wants Fresh Water for a Big Root and his late wife's Ralts. You can't buy Fresh Water yet; it goes on sale in Mt. Moon Square once the roadblock story is over.
+"""
+unlocks = ["q-0027", "q-0026"]
+evidence = "script file 175 (scripts 30, 31 Bug Catcher; script 9 painter); file 6 (shop needs flag 1994, see q-0031); order along the road from the NPC coordinates (Kenji 1117,104; painter 1130,124; Misty trigger 1149,119-123; Pokémon Center door 1167,106)"
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**Misty's Gyarados.** Walk past the Trainer further east and Misty's runaway Gyarados charges you. Win or lose, the story goes on. Misty apologises and asks "Comfort Misty?": **answer Yes**. Answering No closes her romance route. Either answer puts her in Mt. Moon as your second companion.
+"""
+unlocks = ["q-0028"]
+evidence = "script file 175 (script 17 coord trigger at x1149 z119-123 var 0x4086 = 0, L3346-L4102; 'No' sets flag 2142; both clear Misty's hide flag 1372)"
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**Mt. Moon, first cave.** Talk to Cynthia at the first fork (any answer to her left-or-right question works). Take the east passage down to the inner cave for Steven (talk to him again after beating him at the Museum) and for the Super Nerd who sells fossils. Nurse Joy heals you inside the cave.
+"""
+unlocks = ["q-0030"]
+evidence = "script files 7 (Cynthia script L4234 clears 1371), 133 (Steven L1554 clears 1358; fossil seller scripts 7-8), q-0029 table"
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**The roadblock.** With Blue, Misty, Steven and Cynthia all standing by the guards and the Boulder Badge in your case, talk to the guard. Green (Red for a girl) exposes them as Team Rocket and you fight four Multi Battles, one beside each companion. This leads to the Mt. Moon Square scene (Mew), and **Bruno leaves the Pewter Pokémon Center**. The Underground Path doorways on Route 5, 6, 7 and 8 also open now.
+"""
+unlocks = ["q-0029"]
+closes = ["q-0025"]
+evidence = "script file 7 (script 15 L1815/L2575: guard checks flags 1310, 1372, 1358, 1371 and the Boulder Badge), file 9 (script 20 @5498 sets Bruno's hide flag 1311; @5598 sets 1226, which hides the Underground Path doorway blockers; see guide q-0034). Bruno: file 751 script 8."
+
+[[steps]]
+id = "s06"
+main = true
+text = """
+**Out of Mt. Moon.** Route 4 leads to Cerulean City. The Fresh Water shop in Mt. Moon Square is open now, so the painter on Route 3 can be helped if you want his Ralts.
+"""
+evidence = "guide/02 q-0026 ('Getting Fresh Water'), q-0031 (shop sells Fresh Water from the roadblock until Asher's gang moves in after the Cascade Badge)"
+
+[[quests]]
+id = "q-0043"
+available_note = "Pewter's sparring partner opens now. Cerulean's opens with the Cascade Badge and Vermilion's with the Thunder Badge."
+
+[[quests]]
+id = "q-0027"
+
+[[quests]]
+id = "q-0026"
+missable = true
+available_note = "Needs Fresh Water, sold in Mt. Moon Square after the roadblock story. The painter dies when you win the Cascade Badge."
+
+[[quests]]
+id = "q-0028"
+
+[[quests]]
+id = "q-0030"
+
+[[quests]]
+id = "q-0029"

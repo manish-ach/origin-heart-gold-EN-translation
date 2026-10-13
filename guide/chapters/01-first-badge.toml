@@ -1,0 +1,176 @@
+id = "ch01-first-badge"
+order = 1
+title = "Chapter 1: The First Badge"
+summary = "Pallet Town to Pewter City and Brock's Boulder Badge."
+kind = "story"
+intro = """
+You start in Pallet Town. Professor Oak has asked you and Blue to try for the Viridian Gym Leader job, and the road to it runs through Viridian Forest to Pewter City and your first Badge.
+
+**Main quest in this chapter:** choose your starter, reach Viridian City, take Oak's Parcel back to Pallet Town, beat Blue on Route 22, cross Viridian Forest, then win the **Boulder Badge** from Brock in Pewter City.
+
+Three things in this chapter can be lost for good, so do them before you move on: the Pallet Town send-off gifts (before you walk into Viridian), the Viridian Academy exchange students (before you leave Viridian northward; the challenge cannot actually be started in a normal game, see the quest) and the Pewter Pokémon Center's Elite Four Bruno (before Mt. Moon).
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Pallet Town.** Pick your starter in Professor Oak's lab. Then talk to Mom at home (she gives you the Running Shoes) and get the Town Map from Daisy before you leave town. Each starter has a send-off gift waiting in town: Pikachu from the man with the Eevee, Charmander from the man by the south fence, Bulbasaur from the Poliwag in your own kitchen.
+"""
+unlocks = ["q-0001"]
+evidence = "guide/01-pallet-to-pewter.md#pallet-town-send-off-gifts-one-per-starter-before-viridian; script files 733, 736, 738, 842 (starter, Running Shoes, Town Map, gift NPC scripts)"
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**Route 1.** Head north. Green (Red if you are a girl) shows you how to catch a Pokémon. When the scene is over, the three Viridian thief quests are armed, one per starter.
+"""
+evidence = "script file 168 (Route 1 tutorial scene sets the thief quest flags, @586-@626); guide quests q-0003..q-0005. Tester said these open after the parcel: REFUTED, nothing in the Viridian thief scripts checks the parcel."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**Viridian City.** Walking in from Route 1 plays Blue's scene beside the Pokémon Center: he gives you his number and heads for the Indigo Plateau. **This closes the Pallet Town send-off gifts for good.** From here on the town is yours. Anything for your starter's thief quest, the would-be professor's quiz (Exp. Share) and the Pokémon Academy are open now (but its exchange-student challenge cannot be started, see the quest).
+"""
+closes = ["q-0001"]
+unlocks = ["q-0002", "q-0003", "q-0004", "q-0005", "q-0008"]
+evidence = "script file 739 (coord script 14 on the only way into town; Blue's scene L3274-L3335 sets 0x4075=1 and hides the gift NPCs); guide q-0001 source notes (collision check: no way round the trigger). Quests: 744 (quiz), 739 (thieves), 859 (Academy)."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**The parcel.** The clerk in the Viridian Poké Mart asks you to carry a parcel from Johto to Professor Oak. Take it back to Pallet Town; Oak thanks you with an Apricorn Box. You need that box to leave Viridian northward.
+"""
+evidence = "script file 740 (clerk gives item 484 Oak's Parcel, L134-L182), 738 L1536-L1677 (Oak takes the parcel, gives item 468 Apricorn Box); 739 coord script 16 (north exit of Viridian: no Apricorn Box -> turned back, L3453/L4965). Tester said a Mew scene plays on the trip: NOT FOUND. The only Mew scenes on Route 1 (168 scripts 6 and 16) belong to the late Mew hunt (var 0x409C = 11) and are not part of this trip."
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**Route 22.** Walk west from Viridian to the end of Route 22. Blue is stuck at the League guard (you need eight Badges to enter) and challenges you; beat him. You can't go north out of Viridian until you have done this.
+"""
+evidence = "script file 212 (script 6: Blue L478-L529, sets 0x4076=1); 739 coord script 16 sends you back while 0x4076 = 0 (L3409, 'Blue says he's going to challenge the Pokémon League')"
+
+[[steps]]
+id = "s06"
+main = true
+text = """
+**Leaving Viridian northward.** With the parcel delivered and Blue beaten, the road north opens. **This closes the Academy's exchange students** (Steven and Cynthia leave the classroom). Take the south gate to Route 2: fake police block the road to Pewter, so the way on is through Viridian Forest.
+"""
+closes = ["q-0008"]
+evidence = "script file 212 L1880-L1947 (Blue event, with the Apricorn Box in the bag) and 738 L1651-L1655 (parcel, if Blue is done) both set flags 1057 and 1244 (students gone), whichever comes second; 739 coord script 16 requires var 0x4076 = 1 and item 468 to pass. Route 2 police: zone 10 objects at 1050-1051,193 (hide flag 1873, see chapter 5)."
+
+[[steps]]
+id = "s07"
+main = false
+text = """
+**Viridian Forest, south end.** The man in the south gatehouse offers $20,000 to bring back his runaway Snubbull; the Snubbull is playing with a Pidgey in the middle of the forest. The flower-garden woman on the east side gives you 2 Honey for scaring off the Spearow flock, and the Honey tree in the south-west spreads it for a weekday Bug Pokémon.
+"""
+unlocks = ["q-0013", "q-0014", "q-0016"]
+evidence = "guide/01-pallet-to-pewter.md q-0013, q-0014, q-0016 sources (script file 173 gatehouse, 115 forest scripts 11-16). q-0014 closes at the Volcano Badge (Cinnabar, a later chapter)."
+
+[[steps]]
+id = "s08"
+main = true
+text = """
+**The Team Rocket scene.** In the middle of the forest a Team Rocket grunt corners an Eevee. When the scene ends, you say you must hurry to the Viridian Gym for your assessment. Nurse Joy heals the Eevee, and it waits for you in the far north-east corner of the forest.
+"""
+unlocks = ["q-0017"]
+evidence = "script file 115 (script 21 at 46,43 is the Rocket scene; ends @3559-@3604 with the line about the Viridian Gym assessment, sets 0x40AF = 1); q-0017 script 10 (flag 411). UNVERIFIED: the exact moment the Eevee appears is taken from the guide quest text ('after the Team Rocket Eevee story'), not re-read from the script."
+
+[[steps]]
+id = "s09"
+main = false
+text = """
+**Viridian Gym (optional now, story whenever you enter).** The first time you walk into the Gym after the forest scene, Brock tells you the Gym Leader assessment deadline has passed, Blue becomes the Viridian Gym Leader and Brock leaves to run Misty's assessment in Cerulean. The Gym itself stays shut until much later (Giovanni is away).
+"""
+evidence = "script file 741 (coord script 8 at 5,7 needs var 0x40AF = 1; scene L1777-L2197 sets 0x40AF = 3 and hide flag 1003). UNVERIFIED: whether anything forces this before Pewter; nothing in Pewter, Route 2 or the forest north gatehouse checks 0x40AF."
+
+[[steps]]
+id = "s10"
+main = true
+text = """
+**North exit of the forest.** Past the gatehouse, Route 2 continues north towards Pewter. A weak Charmander (Pikachu starters) or an abandoned Nidoran♀ with a man who wants it (other starters) wait just outside the exit. Both need something from Pewter City first: Pikachu starters must hear a Trainer in the Pewter Pokémon Center brag about his "garbage" Charmander; the others need a Friend Ball, which the warm-up Trainer in Pewter gives you after you beat him.
+"""
+unlocks = ["q-0010", "q-0011"]
+evidence = "script file 170 (scripts 3-5; Charmander needs the Pewter Pokémon Center Trainer, 751 L430; Nidoran♀ man needs item 497 Friend Ball), 748 L1582-L1641 (warm-up Trainer 124 gives Friend Ball x2). Position check: map name is just 'Route 2'; these NPCs stand at the north-west corner of the zone the guide calls Route 2 East (1026-1032,133-136), outside the Viridian Forest north gatehouse door at 1028,138. The heading was corrected from 'Route 2 East'."
+
+[[steps]]
+id = "s11"
+main = true
+text = """
+**Pewter City.** Look around before the Gym: Anemone's flower garden on the hill (Sitrus Berries for the hiker's Hard Stone and the Sudowoodo man's TM69), the small house in the south-west for Apricorn Balls, and the Pokémon Center, where the Elite Four's Bruno will fight you once. **Blue ambushes you on the path between the Pokémon Center and the Gym**; beat him (a later Mt. Moon scene needs him). The Museum of Science has Steven, another companion you will want in Mt. Moon.
+"""
+unlocks = ["q-0023", "q-0018", "q-0024", "q-0025"]
+evidence = "script files 748 (Anemone, hiker, Sudowoodo man, Blue's step trigger 1045,96-98 -> var 0x407B), 754 (Apricorn Ball maker), 751 (Bruno, script 8 L612); Steven: 753/133 per q-0029 notes."
+
+[[steps]]
+id = "s12"
+main = true
+text = """
+**The Pewter Gym.** Brock keeps leaving. Follow him from the Gym to the north-east house, then the museum (answer the siblings' quizzes), then Anemone's garden, and he finally battles you back at the Gym. Win the **Boulder Badge**, 5 TM39 Rock Tomb and Brock's number. With the badge you can use Rock Smash.
+"""
+unlocks = []
+evidence = "guide/01..02 q-0023; script files 750, 753, 754, 748. Field moves: guide/13 'Field moves: which Badge each one needs' (Rock Smash = Boulder Badge)."
+
+[[quests]]
+id = "q-0001"
+missable = true
+available_note = "Closes for good the moment you walk into Viridian City."
+
+[[quests]]
+id = "q-0002"
+
+[[quests]]
+id = "q-0003"
+
+[[quests]]
+id = "q-0004"
+
+[[quests]]
+id = "q-0005"
+
+[[quests]]
+id = "q-0008"
+missable = true
+available_note = "Cannot be started in a normal new game (suspected hack bug): the teacher only offers the challenge while a flag is set that Professor Oak's lab introduction clears, so he only says goodbye to Steven and Cynthia. Checked in the script and in the emulator."
+
+[[quests]]
+id = "q-0013"
+
+[[quests]]
+id = "q-0014"
+missable = true
+available_note = "Closes for good once you have the Volcano Badge (Cinnabar, much later)."
+
+[[quests]]
+id = "q-0016"
+
+[[quests]]
+id = "q-0017"
+
+[[quests]]
+id = "q-0010"
+missable = true
+available_note = "Closes when you win the Cascade Badge in Cerulean City."
+
+[[quests]]
+id = "q-0011"
+
+[[quests]]
+id = "q-0023"
+
+[[quests]]
+id = "q-0018"
+
+[[quests]]
+id = "q-0024"
+available_note = "Pikachu starters meet the Apricorn Ball maker here from the start. With other starters he only moves here after you save Nidoran♀ on Route 2."
+
+[[quests]]
+id = "q-0025"
+missable = true
+available_note = "One try only, and he leaves once the Mt. Moon roadblock story ends (Chapter 2)."

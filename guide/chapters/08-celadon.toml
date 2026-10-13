@@ -1,0 +1,157 @@
+id = "ch08-celadon"
+order = 8
+title = "Chapter 8: Saffron City and Celadon City"
+summary = "Through Saffron City to Route 7, the Team Rocket hideout under Celadon and the Rainbow Badge."
+kind = "story"
+intro = """
+Saffron City is open to you now, and its west gate leads out to Route 7 and Celadon City. Celadon is Erika's town, and Team Rocket's hideout lies beneath the Game Corner.
+
+**Main quest in this chapter:** pass through Saffron City, fight alongside Misty on Route 7, help Erika find her stolen Gloom (the hunt sends you to the Condominiums roof and the Game Corner owner), get through the Rocket hideout (the Persian statue password is a day-and-hour puzzle) and win the **Rainbow Badge**. The badge lets you use Surf, but the Surf HM itself is not given here: it lies on the ground in Fuchsia Forest (next chapter).
+
+Things that close in this chapter: Misty's sparring match on Route 7 ends the Bicycle-lending offer in Cerulean, and the Celadon hideout finale empties the Team Rocket warehouse on Route 2.
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Saffron City.** The first time you walk in, Lance brings you, Blue and Green (Red for a girl) to meet the Pokémon League President in the Silph Co. building (he gives you 3 Rare Candies). Once that scene is over, the guards on Route 7 open Saffron's west gate. **Cynthia leaves Route 12 at this point**, so battle her there first if you want her optional fight.
+
+Saffron's own quests are open now, all of them before Team Rocket takes the city over later in the game. **Sabrina's willpower test at the Saffron Gym is part of the main story:** it sends Sabrina to Pokémon Tower, so you have to do it before you can go for the Marsh Badge. You can do it right now (pick up the Mind Plate in the pocket dimension before you leave it). Also here: Cynthia and Steven in the Gym and the Silph Co. lobby, the Copycat's transformation show, the dog lover (bring a Growlithe), the Hunyuan Dojo and a few small extras.
+"""
+unlocks = ["q-0113", "q-0114", "q-0115", "q-0116", "q-0117", "q-0120"]
+closes = ["q-0105"]
+evidence = "script file 795 (Saffron City coord script 1 at 11,12 var 0x40C5 = 0: the Goodshow scene @560-@972, sets 0x40B9 = 1, which opens the Route 7 gate (file 187 script 2 triggers while 0x40B9 = 0: 'Saffron City is closed to all traffic right now'); @976 sets Cynthia's Route 12 hide flag 1162 (q-0105 closes); @988 clears flag 1089 (Cynthia and Steven in Saffron, q-0114); @992 clears flag 1097 (Sabrina in her Gym, q-0113)); guide/04 q-0112 (President's meeting, 3 Rare Candies). Sabrina leaves the Gym for the tower at file 830 @923-@927 (SetFlag 1097, ClearFlag 1100: the tower Sabrina, landmarks list of zone 155); the tower Sabrina only exists after that scene (flag 1100 is also set by file 9 @5566 and file 17 @11987). Placement of q-0113..q-0120 re-checked: all of them are open before the takeover (takeover sets 1511, which hides the townsfolk, file 17 @12077)."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**Route 7.** Leave Saffron by the west gate. Two steps north-west of the gatehouse door on the Route 7 side, Misty's sparring match starts: a fight against a Flareon trainer, then a Multi Battle beside Misty against two berserk Pokémon, an Aggron and a Cacturne, both **Lv. 45**. Erika arrives, calms them with Gloom's Sweet Scent and takes Misty off to her perfume shop. **This ends the Bicycle-lending offer in Cerulean.** It also empties the Celadon Condominiums massage parlour and starts the Tony and Mary scene on the Department Store roof (see the quest).
+"""
+unlocks = ["q-0068", "q-0077"]
+closes = ["q-0037"]
+evidence = "script file 186 (script 3 coord trigger at 1271,238 var 0x40C6 = 0, L1735; MultiBattle 272 344 345; end sets flag 1626 and the Celadon story flags @1807); guide/02 q-0037 (offer closes on flag 1626)"
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**Celadon Department Store, 5F.** Erika's perfume counter: Erika asks Misty, Blue and Green/Red what they think of her perfume. Male players choose: "It smells wonderful" keeps the Gym open to you; "Perfume is pointless" bans you from the Gym until you sneak in dressed as a girl. After the scene, battle Erika (normally, or in disguise).
+"""
+unlocks = ["q-0070", "q-0071"]
+evidence = "guide/03 q-0070, q-0071 (script files 791 script 7 L1124/L1137, 783 scripts 22, 26, 784)"
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**Erika's Gloom is stolen.** Nobody tells you where to go. Talk to your friend in the Restaurant and Cynthia in the Department Store 1F; both give you a lead. The auction house is on the roof of the Condominiums (use the elevator in the top-left corner of the lobby); a waiter there fights you if you have both leads, and the boss only believes you if you carry $65,535 or one of the starter Pokémon in your party. The gambler in the middle of town sells you his Coin Case for $50,000 and then tells you the buyer is Lawrence, the Game Corner owner. Report to Erika. **Once you have told Erika that Lawrence is the Collector, Tony and Mary on the Department Store roof are gone for good.**
+"""
+unlocks = ["q-0072"]
+closes = ["q-0077"]
+evidence = "guide/03 q-0072 (script files 783, 787, 803, 794, 797, 798, 799; flags 1179, 1797)"
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**The Game Corner and the Rocket hideout.** Misty goes with you (she gives you HM07 Waterfall on the way, and her Gyarados if you are a male Bulbasaur player). Run the launcher program in the first basement, then crack the Persian statue's five-digit password (it changes with the weekday and the hour). Beat Jessie, James and the Executives. When it is over Erika gives you the **Rainbow Badge**, Misty leaves for Cerulean and **the Team Rocket warehouse on Route 2 is cleared out for good.** Professor Birch also leaves Route 12 for good (his Torchic).
+"""
+unlocks = ["q-0073"]
+closes = ["q-0009", "q-0099"]
+evidence = "guide/03 q-0073 (script file 172 scripts 7, 9-17, 28, hour check L10419; file 853: GiveBadge 3 @3330, Misty/Blue/Green goodbyes @3432-@3674, finale sets flags 1473 and 308 @3782-@3786 which empty the Route 2 warehouse, see q-0009)"
+
+[[steps]]
+id = "s06"
+main = false
+text = """
+**Around Celadon.** An old man and his granddaughter with the Teddiursa wait on the Department Store's 3F with a Max Revive for you, but only if the S.S. Anne did not sink. On the west side of town a child with a Skitty trades the Fake Out tutor for a Fluffy Tail (the prize quiz on the Department Store roof pays out the Fluffy Tails).
+"""
+unlocks = ["q-0076", "q-0074", "q-0075"]
+evidence = "guide/03 q-0074 (script file 783 scripts 39, 40; Fluffy Tails come from the Department Store roof prize quiz, q-0076, script file 792 script 15) and q-0075 (file 789 script 3; hide flag 1093 set when the ship sinks)"
+
+[[steps]]
+id = "s07"
+main = false
+text = """
+**More in Celadon (all optional).** In the Restaurant you can enter the eating contest ($2,000 entry, repeatable). The Condominiums hold Grandma's treats errand on 2F (Master Ball; it ends when Saffron is freed later in the game) and the Game Freak Club on 3F (the GB Sounds need the Earth Badge). Once the Rocket hideout has fallen, the Condominiums roof room reopens: the Hypno there heals your party for free, and the insomniac from the Department Store's 4F pays you for it. The Game Corner also sells coins much cheaper after the hideout (see the quest).
+"""
+unlocks = ["q-0078", "q-0079", "q-0080", "q-0081", "q-0082"]
+evidence = "guide/04 q-0076 (script file 792 script 15, flag 1883), q-0078 (794 scripts 12-14; head of R&D hidden by flag 1226 until the Rock Tunnel rescue, 129 @1141), q-0079 (803 script 1), q-0080 (790 script 7, 798; roof room opens when 853 clears flag 1803), q-0081 (796), q-0082 (801: $20 per coin while flag 1803 is set, $5 after the Rocket base scene). The roof quiz and the Restaurant have no story gate in their scripts (UNVERIFIED: not played from a fresh game)."
+
+[[quests]]
+id = "q-0068"
+
+[[quests]]
+id = "q-0070"
+
+[[quests]]
+id = "q-0071"
+available_note = "Only if you chose 'Perfume is pointless' (male players)."
+
+[[quests]]
+id = "q-0072"
+needs = ["q-0070"]
+
+[[quests]]
+id = "q-0073"
+needs = ["q-0072"]
+
+[[quests]]
+id = "q-0076"
+
+[[quests]]
+id = "q-0074"
+needs = ["q-0076"]
+available_note = "Needs Fluffy Tails from the prize quiz on the Department Store roof."
+
+[[quests]]
+id = "q-0075"
+available_note = "Only if the S.S. Anne did not sink (Chapter 6)."
+
+[[quests]]
+id = "q-0077"
+missable = true
+available_note = "Starts at Misty's sparring match on Route 7 and ends for good when you tell Erika that Lawrence is the Collector. Have Suzie in the Condominiums lobby give you the free massage first."
+
+[[quests]]
+id = "q-0078"
+missable = true
+available_note = "The head of R&D at Silph Co. is only there after the Rock Tunnel rescue. The quest closes when Saffron is freed (Chapter 11): report back to Grandma before then."
+
+[[quests]]
+id = "q-0079"
+
+[[quests]]
+id = "q-0080"
+available_note = "Opens after the Rocket hideout has fallen."
+
+[[quests]]
+id = "q-0081"
+available_note = "The Sound Designer's GB Sounds need the Earth Badge."
+
+[[quests]]
+id = "q-0082"
+
+[[quests]]
+id = "q-0113"
+available_note = "Required for the main story: Sabrina only goes to Pokémon Tower after this scene. Available once you have been to the Goodshow meeting."
+
+[[quests]]
+id = "q-0114"
+
+[[quests]]
+id = "q-0115"
+available_note = "You need a Twisted Spoon (item ball in the Magnet Train station, or from Route 13)."
+
+[[quests]]
+id = "q-0116"
+available_note = "You need a Growlithe in your party."
+
+[[quests]]
+id = "q-0117"
+
+[[quests]]
+id = "q-0120"
+available_note = "Parts of this entry open later: the Choice items need the Plain Badge, and Sabrina's rematch needs your first Hall of Fame."

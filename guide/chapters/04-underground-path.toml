@@ -1,0 +1,77 @@
+id = "ch04-underground-path"
+order = 4
+title = "Chapter 4: Past the Cascade Badge"
+summary = "Mt. Moon Square revisited, Route 9 and 10, the Route 5 shelter and the Underground Path to Vermilion."
+kind = "story"
+intro = """
+With the Cascade Badge you can use Cut and the Route 5 raid is armed. Saffron City is on lockdown, so the only way on to Vermilion City is the **Underground Path** under Route 5 and Route 6.
+
+**Main quest in this chapter:** go down the Underground Path (it needs the Cascade Badge) and come out on Route 6, the road to Vermilion City.
+
+Do the Route 5 shelter raid before you go down: the raid is a one-time chance (it is also on a story deadline) and the Route 11 Swablu quest in Vermilion depends on it.
+"""
+
+[[steps]]
+id = "s01"
+main = false
+text = """
+**Mt. Moon Square again.** The Square's visitors are back and Asher's gang blocks the spring (the shop stops selling Fresh Water meanwhile). Beat Asher and collect thank-you gifts: Destiny Knot, Everstone, and a Soothe Bell from the couple by the shop.
+"""
+unlocks = ["q-0031"]
+evidence = "guide/02-pewter-to-vermilion.md q-0031; script files 9, 6, 758 @3895/@3899 (the Cascade Badge scene clears flags 1387 and 1994)"
+
+[[steps]]
+id = "s02"
+main = false
+text = """
+**East of Cerulean: Routes 9 and 10.** Route 9 has the Squirtle Squad trap (Pikachu starters), a girl deciding whether to release her Butterfree and a man with a Paras who wants a Repel. The Pokémon Center at the north end of Route 10 has Cynthia, who offers one battle between the Cape festival and the day you beat Archie on the S.S. Anne. The tunnel door beside it (Rock Tunnel) is guarded for now.
+"""
+unlocks = ["q-0056", "q-0057", "q-0058", "q-0066"]
+evidence = "script files 190 (Route 9: scripts 4/5 Squirtle, 13/19 Butterfree girl), 192 (Route 10 Pokémon Center, Cynthia hide flag 1102 cleared at the festival 216 @11989, set again at the Archie fight 157 @1492). UNVERIFIED: the earliest moment Route 9 can be entered. The collision grid shows the corridor east of Cerulean ends in one-way ledges; walking it was not completed in the emulator. Placed here, after the festival, because Cynthia only stands in the Route 10 Pokémon Center from then on."
+
+[[steps]]
+id = "s03"
+main = false
+text = """
+**Route 5.** Walk south down the middle of the path to the Pokémon shelter: a Team Rocket grunt is stealing the shelter girl's Pokémon. **Step in and help** (the Pokémon at risk is Bulbasaur for Pikachu starters, Growlithe for everyone else). Refusing loses it for good. Winning gets you the Pokémon, a Cleanse Tag from the grandfather and the Magical Leaf tutor. Her Swablu escapes to Route 11.
+"""
+unlocks = ["q-0033"]
+evidence = "script files 179 (script 3 trigger x1297-1302 z160, var 0x409E = 0; the Cascade Badge scene resets it), 183 (shelter house); file 17 @12165 closes an unfinished raid at the Sabrina laugh."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**Saffron's gates and the Underground Path.** The guards at the gatehouse refuse to let you into Saffron City ("lockdown"). Take the Underground Path from the Route 5 gatehouse instead. In the middle, a street fighting event runs: Blue's win streak, four challengers and then Green (Red for a girl). You don't have to win the last fight. Afterwards the MC hides on Route 6 and hands over your "prize money" (Fast Ball and Love Ball). **The Underground Path doorways close again when you rescue Prof. Hale in Rock Tunnel.**
+"""
+unlocks = ["q-0034"]
+evidence = "script files 182 (Route 5 gatehouse script 2 triggers while var 0x409F = 0: 'Saffron City's gates are under lockdown'), 185, 187 (Route 6/7 gates); 181 (script 3 and the battle script check CheckBadge 1 = Cascade; script 8 L2293/L2389); 184 (MC, flag 1866). Doorway blockers: flag 1226 (set at the roadblock end 9 @5598, cleared by the Rock Tunnel rescue 129 @1141)."
+
+[[quests]]
+id = "q-0031"
+needs = ["q-0029"]
+available_note = "Opens with the Cascade Badge. The Fresh Water shop is closed while Asher's gang holds the spring."
+
+[[quests]]
+id = "q-0056"
+missable = true
+available_note = "Pikachu starters only. Closes when Sabrina laughs in Pokémon Tower (the start of the Saffron takeover)."
+
+[[quests]]
+id = "q-0057"
+
+[[quests]]
+id = "q-0058"
+available_note = "Not for Pikachu starters."
+
+[[quests]]
+id = "q-0066"
+available_note = "Cynthia's Route 10 battle is only here until you beat Archie on the S.S. Anne (Chapter 6). The Route 9 and Route 11 strong Trainers (Veteran Dawn, Ace Trainer Marisa) need the Marsh Badge, much later."
+
+[[quests]]
+id = "q-0033"
+missable = true
+available_note = "Closes when Sabrina laughs in Pokémon Tower. Choosing No loses the Pokémon, the Cleanse Tag, the Magical Leaf tutor and the Route 11 Swablu reward."
+
+[[quests]]
+id = "q-0034"

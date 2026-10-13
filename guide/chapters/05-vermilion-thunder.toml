@@ -1,0 +1,113 @@
+id = "ch05-vermilion-thunder"
+order = 5
+title = "Chapter 5: Vermilion City and the Thunder Badge"
+summary = "The construction-site dispute, Lt. Surge's Thunder Badge and everything Vermilion opens up."
+kind = "story"
+intro = """
+Vermilion City is on the edge of a fight: Granny Kin wants to build over the Diglett tunnels and Lt. Surge is meant to be blocking her. You arrive just as the argument boils over.
+
+**Main quest in this chapter:** hear out the six townspeople, choose a side with Blue or with Green/Red (this choice **locks one partner out of the romance route** and changes two gifts), fight the clash the next morning, then beat Lt. Surge for the **Thunder Badge** (Strength).
+
+Arriving in Vermilion also lifts the fake police on Route 2 near Viridian City. That opens a warehouse and a gatehouse there that were out of reach until now. Several side quests start here: the Good Rod, the Fan Club, Horsea and Wingull, the seaside cook, and Route 11.
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Arriving in Vermilion.** The first time you step into town, a street scene plays: Lt. Surge, Granny Kin and the townspeople argue over the construction site. Afterwards you can walk around town. Blue and Green (Red for a girl) wait in the Pokémon Center.
+
+**Because you have now been to Vermilion, the fake police on Route 2 leave.** The Team Rocket warehouse on the eastern road north of Viridian City and the gatehouse with the Magcargo fan are open now (see the two quests; the warehouse ball is a **starter-dependent gift** and is lost when the Celadon hideout falls).
+"""
+unlocks = ["q-0009", "q-0012"]
+evidence = "script file 774 (script 14: coord trigger at 1305,289 with var 0x40A3 = 0; end of the scene @1227-@1263 sets flag 1873, which is the hide flag of the Route 2 'road closed' police: zone 10 objects 1050-1051,193, zone 414 object 1034,139; and the Route 2 man says 'Now that the guards are gone...' when 1873 is set, file 169 script 10 L1496). Collision check (MapGrid zone 414, flood fill from the Viridian Forest north gatehouse): with the police at 1034,139 the Diglett's Cave door and the warehouse door are unreachable; without them both are reachable. Tester suspicion 'after Diglett's Cave': REFUTED, the gate is the first arrival in Vermilion (the Cave itself plays no part). Ariana's level: trainer 443 = Tyranitar Lv. 55, Nidoqueen Lv. 50 (tester guessed 64: REFUTED); grunt = trainer 274 (Lv. 25 team)."
+
+[[steps]]
+id = "s02"
+main = false
+text = """
+**Things to do in town** (all open as soon as you can walk around): feed the Wingull and the Horsea by the water (Oran and Yache Berries), show the fisherman Ryochi a Horsea for the Good Rod, win over three Fan Club members for the Bike Voucher (you need a Poké Doll for one of them), and bring the seaside cook a Shoal Salt and a Big Mushroom. East of town, Route 11 has a Swablu girl and an argument over cutting the grass.
+"""
+unlocks = ["q-0044", "q-0047", "q-0048", "q-0049", "q-0054", "q-0055"]
+evidence = "guide/02-pewter-to-vermilion.md q-0044; guide/03 q-0047, q-0048, q-0049, q-0054, q-0055 (script files 774, 779, 780, 781, 197). The Swablu return needs the Route 5 raid (q-0033). The Good Rod angler needs the clash to be over and the townsfolk side."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**The dispute.** Talk to Blue or Green/Red, then listen to all six townspeople: Lt. Surge and Granny Kin at the fenced site, a resident near the Poké Mart, a sailor near the port, a man in the south-east corner and a woman west of the site. Go back and say Yes to the partner whose side you want. **Warning:** the next Yes locks out one romance partner (Green/Red if you back Blue, Blue if you back Green/Red) until the Six Island wish.
+"""
+unlocks = ["q-0046"]
+evidence = "guide/03-vermilion-to-celadon.md q-0046 (script files 777 scripts 2/11, 774 scripts 1, 12, 13, 21, 23, 24; law side sets 2141, townsfolk side sets 2153)"
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**The clash.** The night passes and the clash starts the next morning (Lorelei announces the League's construction ban). The law side fights two Multi Battles, the townsfolk side one against Lt. Surge and Blue. Afterwards the town hands out thank-you gifts: Cheri Berries, a Magnet, and (townsfolk side only) a King's Rock from the sailor and Big Mushrooms from the woman.
+"""
+unlocks = ["q-0045", "q-0036"]
+evidence = "guide/02-pewter-to-vermilion.md q-0045 (file 774 scripts 1, 21, 23, 24, 31); King's Rock needs flag 1065 = townsfolk side (the Cerulean TM04 trade, q-0036, then works with it)"
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**Lt. Surge's Gym.** Battle Lt. Surge for the **Thunder Badge**. He gives you a Light Ball (a Thunder Stone if your starter is Pikachu), the Radio Card and his number. With the badge you can use Strength, the Vermilion sparring partner trains Speed, and the S.S. Anne is open to you.
+"""
+evidence = "script file 776 (GiveBadge 2 @428; Light Ball/Thunder Stone per starter flag 1288); guide/13 'Field moves' (Strength = Thunder Badge); S.S. Anne boarding checks CheckBadge 2 and the S.S. Ticket (154 L890-L946)"
+
+[[steps]]
+id = "s06"
+main = false
+text = """
+**The Bike Voucher.** Once the Fan Club chairman gives you the Bike Voucher, the Cerulean Bike Shop trades it for a Bicycle. With the Bicycle you can lend it to the kid in south Cerulean for an Amulet Coin later (the reward waits for the Rainbow Badge).
+"""
+unlocks = ["q-0037"]
+evidence = "script files 780 (voucher), 764 (Bike Shop), 756 (script 22 kid: returns the bike and gives the Amulet Coin only with the Rainbow Badge; the offer closes with the Route 7 scene, 186 @1807, Chapter 8)"
+
+[[quests]]
+id = "q-0046"
+
+[[quests]]
+id = "q-0045"
+
+[[quests]]
+id = "q-0044"
+
+[[quests]]
+id = "q-0047"
+
+[[quests]]
+id = "q-0048"
+
+[[quests]]
+id = "q-0049"
+
+[[quests]]
+id = "q-0009"
+available_note = "Not available at the start: opens when you first arrive in Vermilion City. Take the live ball before the Celadon hideout falls (Chapter 8)."
+level_note = "Ariana's team is Tyranitar Lv. 55 and Nidoqueen Lv. 50. Losing to her doesn't white you out; losing to the grunt does."
+
+[[quests]]
+id = "q-0012"
+available_note = "Not available at the start: opens when you first arrive in Vermilion City."
+
+[[quests]]
+id = "q-0054"
+missable = true
+needs = ["q-0033"]
+available_note = "The Route 5 raid must be finished first (win it and take the saved Pokémon to return the Swablu). Closes when Sabrina laughs in Pokémon Tower."
+
+[[quests]]
+id = "q-0055"
+
+[[quests]]
+id = "q-0036"
+available_note = "Needs a King's Rock: the sailor's gift here if you took the townsfolk side."
+
+[[quests]]
+id = "q-0037"
+missable = true
+needs = ["q-0048"]
+available_note = "Needs your Bicycle (Bike Voucher from the Fan Club). The reward waits for the Rainbow Badge, and the offer is lost at Misty's sparring match on Route 7 (Chapter 8)."

@@ -70,7 +70,7 @@
 ## Pewter City: the Apricorn Ball maker
 <!-- quest: kind=side; id=q-0024 -->
 
-Continues [Route 2 East: Nidoran♀ and the Apricorn Ball maker](01-pallet-to-pewter.md#route-2-east-nidoran-and-the-apricorn-ball-maker-non-pikachu-starters).
+Continues [Route 2, north of Viridian Forest: Nidoran♀ and the Apricorn Ball maker](01-pallet-to-pewter.md#route-2-north-of-viridian-forest-nidoran-and-the-apricorn-ball-maker-non-pikachu-starters).
 
 **Where:** the small house in the southwest of town, about 11 steps west and 5 steps south of the Pokémon Center door.
 
@@ -86,7 +86,7 @@ Continues [Route 2 East: Nidoran♀ and the Apricorn Ball maker](01-pallet-to-pe
 *Source:* file 754 (script 4, L697, L829, L840); flags 415 (file 60, Slowpoke Well), 2722 and 0x413b (file 871). Saved Nidoran♀ = flag 1349 clear. Ball in progress = flag 2722, 10-ball counter = var 0x413b, which sets flag 295 at 10 (no script checks 295). Service ends when flag 415 is set. The room is the east half (local 36,8) of the shared "Pewter Northeast house" map, entered from the city door at 1037,111, not from the northeast door (warp anchors checked).
 
 ## Pewter Pokémon Center: Elite Four Bruno (one attempt, before Mt. Moon)
-<!-- quest: kind=side; id=q-0025 -->
+<!-- quest: kind=side; id=q-0025; missable=yes -->
 
 **Where:** Bruno and his Hitmonchan stand about 12 steps straight north of the Pokémon Center entrance.
 
@@ -97,7 +97,7 @@ Continues [Route 2 East: Nidoran♀ and the Apricorn Ball maker](01-pallet-to-pe
 *Source:* file 751 (script 8, L612). "Done" flag 1328 is set before the battle; he is hidden by flag 1311. Position 7,7 (door 8,19).
 
 ## Route 3: the old painter's Ralts (Fresh Water errand; before the Cascade Badge)
-<!-- quest: kind=side; id=q-0026 -->
+<!-- quest: kind=side; id=q-0026; missable=yes -->
 
 **Where:** an old man with a Ralts, southwest of the Route 3 Pokémon Center: about 37 steps west and 18 steps south of its door, a few steps south of an item ball.
 
@@ -205,7 +205,7 @@ Once all four are there, they wait just south of the guards. Then talk to the gu
 *Source:* file 133 (script 13, L2304, L2351; needs flag 2261 = final Hall of Fame and item 534 Red Orb); flag 2287 set on catch, knockout or flee (emulator, EN: fled, 2287 set); file 842 L1900 (Lance gives the Red Orb). Altar ≈37,115; arrival warp 9,130 (from 57,16). Emulator walk (EN, guide review 2026-10-06, pass2-B `groudon_walk.py`/`groudon_walk2.py`, Mt. Moon trainers' flags set): 107 25,55 → via 42,35/49,44/51,18/35,18/35,29 → warp 28,34 → 524 42,13 → 57,16 → 9,130 → via 9,150/32,141/46,131/38,130/26,133/26,115 → 36,115, facing east: "Try summoning Groudon with the Red Orb?" (line 46). The 57,16 passage is in a closed pocket of map 524 (≈100 tiles) whose only other exit is the warp at 42,12, linked to the first cave's warp at 28,34 (map 107; entrance 25,56); the main inner cave and Steven's pocket don't connect to it (collision-grid flood fill). The ball-sprite object at 36,115 is a cutscene prop (hidden by scratch flag 1366), not a pick-up.
 
 ## Route 5: the Pokémon shelter raid (after the Cascade Badge)
-<!-- quest: kind=side; id=q-0033 -->
+<!-- quest: kind=side; id=q-0033; missable=yes -->
 
 **Where:** outside the Pokémon shelter house on Route 5. The scene starts when you walk south down the middle of the path toward the house, about 11 steps north of its door. The side lanes to the west and east of the house skip it, so walk straight down the middle.
 
@@ -240,7 +240,7 @@ Once all four are there, they wait just south of the guards. Then talk to the gu
 *Source:* files 181 (script 3 and the battle script check `CheckBadge 1` = Cascade Badge; script 8, L2293/L2389; earlier losses go to L2379 WhiteOut), 184 (script 1, L629; one-time flag 1866). MC ≈1311,260; Underground Path gatehouse door 1309,265. Doorway blockers are hidden by flag 1226 (Route 5 object 22, Route 6 objects 10/20, Route 7 object 22, Route 8 object 9); 1226 is set at the end of the Mt. Moon roadblock story (file 9 script 20 @5598) and the takeover (file 17 @12023) and cleared by the Rock Tunnel rescue (file 129 @1141); emulator (CN, Route 7): blocked with 1226 clear, open with it set (guide-review-20261006/known-issues/C/). The battle (coord script 8, var 0x40a2 = 0) sets 0x40a2 = 1 (L3420) and hides the crowd with flag 1050 (L3358).
 
 ## Route 24 / Cerulean City: the burglary case → TM Case → TM28 Dig
-<!-- quest: kind=side; id=q-0035 -->
+<!-- quest: kind=side; id=q-0035; missable=yes -->
 
 **Where:** Cerulean City. The police officer stands 3 steps west of the door of the robbed house, the house north-east of the Pokémon Center. The robbed man is inside that house (it's the **east room of the Cerulean north house**).
 
@@ -269,7 +269,7 @@ Once all four are there, they wait just south of the guards. Then talk to the gu
 *Source:* file 756 (script 3, L1503, L3003). Position ≈1297,127.
 
 ## Cerulean City: lend the kid your Bicycle (→ Amulet Coin)
-<!-- quest: kind=side; id=q-0037 -->
+<!-- quest: kind=side; id=q-0037; missable=yes -->
 
 **Where:** a kid in south Cerulean, just south-west of the Bike Maniac's house door (west of the Poké Mart). The kid is there from the start, but is away during two stretches of the story: from your talk with Blue at the Viridian Gym (after he becomes its Gym Leader) until Misty wins her Cerulean Gym Leader assessment, and again during the League HQ investigation, from one of your League HQ reports until Misty leaves for the Seafoam Islands ([League HQ: the Trainer Affairs Department's investigations](07-league-to-cherrygrove.md#league-hq-the-trainer-affairs-departments-investigations-where-to-go-next)).
 
@@ -282,7 +282,7 @@ Once all four are there, they wait just south of the guards. Then talk to the gu
 *Source:* file 756 (script 22, L2667, L3560, L3506; the return checks `CheckBadge 3` = Rainbow Badge; Amulet Coin = item 223). The offer closes on flag 1626 (Route 7 scene). He is hidden by flag 1003: not set at new game, set by Blue's Viridian Gym scene (file 741 @2179) and the League HQ briefing (file 31 @4797), cleared when Misty wins her assessment (758 @2695) and when she leaves for Seafoam (758 @6360). Position ≈1295,146.
 
 ## Route 25: Nugget Bridge's "tasty treat" (say No)
-<!-- quest: kind=side; id=q-0038 -->
+<!-- quest: kind=side; id=q-0038; missable=yes -->
 
 **Where:** a man on the path north of Nugget Bridge, about 21 steps north of the bridge's last Trainer, who congratulates you on beating the bridge Trainers.
 

@@ -1,0 +1,163 @@
+id = "ch09-fuchsia-soul-badge"
+order = 9
+title = "Chapter 9: Cycling Road, Fuchsia City and the Soul Badge"
+summary = "The Secret Potion run down Cycling Road, Koga's ninja trial in Fuchsia and the Soul Badge."
+kind = "story"
+intro = """
+With the Rainbow Badge in your pocket, the herbal shop on Route 16 has a job for you and Cycling Road leads south to Fuchsia City. You need a **Bicycle** for the road (the Bike Voucher from the Vermilion Fan Club gets you one in Cerulean).
+
+**Main quest in this chapter:** deliver the Secret Potion to the Safari Zone Warden, then in Fuchsia City clear Koga's trial (the fake Kogas, the ninja bell in Fuchsia Forest, Blue and the Executives) and win the **Soul Badge**. The **Surf HM lies on the ground in Fuchsia Forest**, so you pick it up during Koga's trial. Winning the Soul Badge also reopens Route 19 (the sea road south) and puts Cynthia and Steven in Fuchsia.
+
+Most side quests here are **optional, but several disappear for good when Sabrina laughs in Pokémon Tower (Chapter 11)**: the Battle Marathon and its White Flute, Cynthia's and Steven's Fuchsia battles and Goh at the Tropius display. Do them first. Two choices here cannot be redone: the potion's outcome decides whether Baoba's Dragonair lives, and the Taro rescue depends on a Yes.
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**The Secret Potion.** Walk out of Celadon by the west gate to Route 16. The old lady in the herbal shop's gatehouse is there only since the Rainbow Badge scene; she gives you a **Secret Potion** for a sick Pokémon at the Fuchsia Safari Zone. You get one chance: the potion has to reach the Safari Zone Warden before the Dragonair is lost, and **beating two or more of the road bikers on the way makes you too late.**
+"""
+unlocks = ["q-0083"]
+evidence = "guide/04 q-0083 (script files 207 script 5, 209 script 3 L1708-L2104, 211 script 5 L501-L1468, 805 L82). The herbalist is hidden by flag 1800, which the Rainbow Badge scene clears (file 853 L3774 area); the outcome is flag 1801 (set = Dragonair dies), decided from the 12 biker trainer flags 1674-1682, 1687, 1692, 1693. The gatehouse guard on Cycling Road checks for the Bicycle."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**Cycling Road.** At the top of the road a Kanto Speed Alliance biker blocks you; with the potion in your Bag choose to force your way through and beat **Biker Eddie**. Then ride south and **avoid the other bikers** (one win is fine, two ruin the delivery). At the bottom, on Route 18, the gang boss Paxton stops you and battles you, then you walk into the Route 18 gatehouse where Baoba takes the potion. Afterwards Paxton asks you to join the gang or take it on: joining makes all twelve road bikers count as beaten, refusing three times means you have to beat all twelve and then fight Paxton again as a Double Battle.
+"""
+unlocks = ["q-0084"]
+evidence = "guide/04 q-0083, q-0084 (script files 209, 210 script 4 L820-L1735, 211). q-0084 needs the potion handed over first (Paxton's offer is script 4 of file 210, available after the delivery)."
+
+[[steps]]
+id = "s03"
+main = false
+text = """
+**Route 18, east of the gatehouse.** A Tauros grazes just south of the gatehouse and charges you; Lara and her Ponyta calm it and invite you to a **Battle Marathon on Route 15**. Say Yes (she keeps asking). Until you do, the Route 15 entrance from Fuchsia stays closed.
+"""
+unlocks = ["q-0092"]
+evidence = "guide/04 q-0092 (script file 210 scripts 6, 9; available while var 0x40db = 0; leaving sets flag 1198 so the Dodrio and Electrode owners are away in Fuchsia)."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**Fuchsia City and Koga's Gym.** Fuchsia City has several small things to do from the moment you arrive: the Rock-type fan in the Pokémon Center, the Shard trader, the Safari Ball seller, Baoba's family house and **Goh by the Tropius display**. The main business is Koga's Gym in the south-west corner. A cutscene by the Gym shows Granny Kin buying off Koga. Inside, four fake Kogas (one is Janine) lead to the real Koga, who wants Blue and Green/Red with you before he explains his challenge: bring back the **ninja bell** from Fuchsia Forest, the preserve in the north-east corner of town. The guard lets you in after Koga explains.
+"""
+unlocks = ["q-0085", "q-0089", "q-0091"]
+evidence = "guide/04 q-0085, q-0089, q-0091 (script files 804, 806 scripts 2, 9, 14, 807, 810). Goh's hide flag 1683 is set only by the Saffron takeover (file 17 @12119), so he is there from the first visit; Koga's challenge is explained once Blue, Green/Red and you stand in the Gym (806 L1892-L1903 line 'two of your friends have also come to Fuchsia City for the Soul Badge')."
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**Fuchsia Forest and the ninja bell.** Blue and your friend take two of the three paths; take the third. Beat the Fearow-mobbing "Mean Birds", then **Blue** for the bell, then **Koga's tired-out Venonat battle and the Executive Maxie fight** (losing to Maxie does not white you out). **HM03 Surf lies on the ground in the forest, a short way north-east of the entrance**: pick it up. Once the bell story is over, Koga's three disciples, the Kangaskhan and a Toxic Orb and Toxic Plate appear in the forest, and the rangers' house in the north-east of town has a ranger who wants to see a Golem.
+"""
+unlocks = ["q-0086", "q-0087", "q-0088"]
+evidence = "guide/04 q-0085 (script file 61 L2224-L7367 and the item list: HM03 Surf is an item ball in the Fuchsia preserve, site/src/data/items.json: the only source of HM03 in the game, no GiveItem 422 in any script), q-0086, q-0087, q-0088 (61 scripts 6, 8, 9, 15, 17, 19; 810 script 6). Koga is hidden during the Saffron takeover, so the Taro quest's Koga step has to wait if you have not done it by then."
+
+[[steps]]
+id = "s06"
+main = true
+text = """
+**The Soul Badge.** Back in the Gym, battle **Koga** for the **Soul Badge**, **TM36 Sludge Bomb** and his number. The badge scene also **reopens Route 19** (the sea road to Cinnabar, shut by volcanic ash since the Rainbow Badge) and brings **Cynthia and Steven** out in Fuchsia for one battle each.
+"""
+unlocks = ["q-0090"]
+evidence = "script file 806 (GiveBadge 5 @407; L1977-L2011: SetFlag 1804, ClearFlag 1207 (Cynthia and Steven, q-0090), ClearFlag 1210 and SetVar 0x40ae = 1 (Route 19 kid, q-0121), SetFlag 1214/1222/1216/1590 (Cinnabar's restaurant and Blaine scene, next chapter)); file 853 L3174 closed Route 19 at the Rainbow Badge scene."
+
+[[steps]]
+id = "s07"
+main = false
+text = """
+**The Battle Marathon (Routes 15 and 14).** After Lara's invitation, sign up with the receptionist just inside Route 15. Four stages (two wild Pokémon, four trainers in a row, Lass Kay, then Route 14 with Jessie and James and finally Bird Keeper Dudley). You win the Large Supplement Set by beating Dudley; losing to him is allowed and gives the smaller set. **If the marathon has not been run when Sabrina laughs in Pokémon Tower, it is cancelled and its prizes are gone.**
+"""
+unlocks = ["q-0093"]
+evidence = "guide/04 q-0093 (script files 203, 202, 201 script 28, 210 script 9; cancel in file 17 @12563-@12586 sets var 0x40db = 2)."
+
+[[steps]]
+id = "s08"
+main = false
+text = """
+**After the marathon.** The Dodrio owner in Fuchsia now gives the **White Flute**; Mack the magician and the man with the empty wallet turn up at the ends of Route 15; the woman at the north end of Route 14 wants to see a Chansey leading your party; and the League member who blocked Route 13 -> Route 14 steps aside.
+"""
+unlocks = ["q-0094", "q-0095", "q-0096"]
+evidence = "guide/04 q-0094 (file 804 scripts 20, 22; var 0x40db = 1 after the marathon, file 202 L3578), q-0095 (file 203 scripts 3, 18; hide flag 1823, cleared when the marathon ends, file 202 L974/L3446, or is cancelled, 17 @12590), q-0096 (file 202 script 6)."
+
+[[steps]]
+id = "s09"
+main = false
+text = """
+**With Surf in your Bag.** **Power Plant** on Route 10: the door lies across the water, so you need Surf (and the Rainbow Badge). Inside is Zapdos, a **Lv. 90 trainer-style fight** with TM25 Thunder as the only prize, and an ecologist. **Route 19**, now open: a kid with a Pikachu wants a Pidgeot to whip up waves on the south beach (needs a Pidgeot leading your party and Surf).
+"""
+unlocks = ["q-0060", "q-0121"]
+evidence = "guide/03 q-0060 (script file 196 scripts 11-14: Power Plant door ~20 steps south of the Route 10 Pokémon Center; collision grid of zone 18 with water blocked cuts the door off, per the chapter 7 handoff), guide/05 q-0121 (script file 954 scripts 4, 8; file 955). The Surf field-move check is Badge 3 (Rainbow), item HM03 only from the Fuchsia preserve."
+
+[[quests]]
+id = "q-0083"
+available_note = "One chance: beating two or more of the Cycling Road bikers before the delivery dooms Baoba's Dragonair. Needs a Bicycle."
+
+[[quests]]
+id = "q-0084"
+needs = ["q-0083"]
+
+[[quests]]
+id = "q-0092"
+
+[[quests]]
+id = "q-0085"
+
+[[quests]]
+id = "q-0089"
+missable = true
+available_note = "Goh leaves Fuchsia for good when Team Rocket takes over Saffron (Chapter 11)."
+
+[[quests]]
+id = "q-0091"
+
+[[quests]]
+id = "q-0086"
+needs = ["q-0085"]
+
+[[quests]]
+id = "q-0087"
+needs = ["q-0085"]
+available_note = "Answer Yes when asked to help drive off the poachers: No is permanent. Koga is away during the Saffron takeover, so finish it before then."
+
+[[quests]]
+id = "q-0088"
+needs = ["q-0085"]
+
+[[quests]]
+id = "q-0090"
+missable = true
+needs = ["q-0085"]
+available_note = "Opens with the Soul Badge and closes when Team Rocket takes over Saffron (Chapter 11)."
+
+[[quests]]
+id = "q-0093"
+missable = true
+needs = ["q-0092"]
+available_note = "Cancelled when Sabrina laughs in Pokémon Tower (Chapter 11)."
+
+[[quests]]
+id = "q-0094"
+missable = true
+needs = ["q-0093"]
+available_note = "Only after the marathon is finished (win or lose); lost if the marathon is cancelled."
+
+[[quests]]
+id = "q-0095"
+available_note = "Appears once the marathon is over or cancelled. Talk to the man at the east end of Route 15 before watching the show."
+
+[[quests]]
+id = "q-0096"
+available_note = "Route 14 only opens after the marathon is over or cancelled. Needs a Chansey leading your party."
+
+[[quests]]
+id = "q-0060"
+available_note = "Needs Surf. The Zapdos fight and TM25 are optional; a Team Rocket chain here and the catch come much later."
+level_note = "Zapdos is Lv. 90."
+
+[[quests]]
+id = "q-0121"
+available_note = "Needs the Soul Badge (Route 19 reopens), Surf and a Pidgeot leading your party."

@@ -277,7 +277,7 @@
 *Source:* script file 812 (script 19, L3741–L4118; flag 1627; tutor L3572). Position ≈1044,501.
 
 ## Cinnabar Island: the Egg in the lava (Treecko Egg; missable)
-<!-- quest: kind=side; id=q-0126 -->
+<!-- quest: kind=side; id=q-0126; missable=yes -->
 
 **Where:** a man at the lava's edge in the north-east of the island, east of the lab, with an Egg lying right beside him.
 
@@ -307,7 +307,7 @@
 *Source:* script files 812 (scripts 12–14; L3242–L3548; flags 1584, 1742, 1747, 1748; the graffiti flag 1742 is set before the battle, @3390, and a loss whites you out, hack finding D-1420), 813 (script 6, flag 1586), 905 (script 14). The painter's hide flag 1093 is set by the sinking (file 157 @2852) and cleared only by the Celebi trip (file 52 @4858). Positions: painter ≈1032,489; Leroy ≈1028,508; couple ≈1034,502; Pokémon Center man ≈10,7; fossil scientist ≈4,4 (side door ≈1029,493).
 
 ## Seafoam Islands: the ice walls, Articuno and the researcher (TM14 Blizzard)
-<!-- quest: kind=side; id=q-0128 -->
+<!-- quest: kind=side; id=q-0128; missable=yes -->
 
 **Where:** the deepest chamber of the Seafoam Islands (reached from B4F). A researcher stands just inside the entrance. Further north, three ice blocks close the passage, and Articuno sits a few steps behind them.
 

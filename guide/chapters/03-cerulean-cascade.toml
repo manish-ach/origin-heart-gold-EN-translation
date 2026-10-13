@@ -1,0 +1,92 @@
+id = "ch03-cerulean-cascade"
+order = 3
+title = "Chapter 3: Cerulean City and the Cascade Badge"
+summary = "Cerulean City, the Cape Battle Festival, Bill's cottage and Misty's Cascade Badge."
+kind = "story"
+intro = """
+Cerulean City is where the story slows down. Misty's sister Daisy hands out the Cascade Badge for free, Misty takes it back and sends you to the **Cerulean Cape Battle Festival** first, and only after the festival (and a computer-virus emergency at Bill's cottage) does she give it to you properly.
+
+**Main quest in this chapter:** reach Cerulean City, take part in the Battle Festival on Route 25, help Bill and Misty at the Sea Cottage (Bill thanks you with the **S.S. Ticket**), and win the **Cascade Badge** from Misty.
+
+The Cascade Badge scene is a big door closing. It removes the "tasty treat" man on Route 25, makes the old painter on Route 3 pass away and takes the roadside Charmander and the Pewter Trainer who talks about it, so do those first.
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Cerulean City.** Blue meets you on the north side of town and wants a battle ("the festival is taking forever to start"). Pay attention to the robbed house north-east of the Pokémon Center: the police officer there starts a burglary case, and it has a deadline (see the quest).
+"""
+unlocks = ["q-0035"]
+evidence = "script file 756 (coord script 15 at 1325,106 var 0x4097 = 0: Blue L1987; burglary case scripts 5, 16-19, 23). Deadline: Sabrina's laugh in Pokémon Tower (file 17 @12111/@12115 sets 'case closed' flag 1024)."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**The Gym, first visit.** If you already walked into the Viridian Gym after the forest (Chapter 1), the Cerulean Gym is full of spectators for the final round of Misty's Gym Leader assessment. Talk to Brock: Misty beats the challenger Curtis in a Water-type-only match and Brock appoints her Leader. The Gym then opens normally. Otherwise you start straight at the next part.
+"""
+evidence = "script file 758 (script 17 = Brock, shown while hide flag 1381 is clear; the assessment ends @2651-@2731 with ClearFlag 1003/1008/1307); 741 @2175-@2191 (the Viridian Gym scene sets 1307/1003 and clears 1381). UNVERIFIED: whether the assessment scene can also play after the festival; the order is read from the flags only."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**Daisy's free badge.** Daisy is the Gym Leader on duty and hands you the Cascade Badge for nothing. Misty comes in, is furious, and takes it back: she is going to the Cerulean Cape (north of town) to enter the Battle Festival, and you should show what you can do there first.
+"""
+evidence = "script file 758 (script 4: Daisy gives the badge L433, Misty 'give it back' L876-L916, 'show everyone what you can do at the Battle Festival first'; ends @4153 ClearFlag 597 for the Route 25 festival gate)"
+
+[[steps]]
+id = "s04"
+main = false
+text = """
+**Nugget Bridge (Route 24) and Route 25.** Beat the Trainers on the bridge. On Route 25, a man on the path north of the bridge offers you a "tasty treat": **say No.** Yes gets you robbed; No gets you a one-time battle. He disappears when you win the Cascade Badge.
+"""
+unlocks = ["q-0038"]
+closes = []
+evidence = "script file 216 (script 12: hide flag 1021 set before the battle, L1434; Cascade Badge scene 758 @3875 sets 1021); 756/215 (burglary grunt)"
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**The Cape Battle Festival (Route 25).** Walk on east along Route 25 and join the festival. Beat the Trainers in order, answer the quiz at the checkpoint (all five right heals you; otherwise you battle the examiner), and the awards ceremony places you 1st to 3rd depending on how the two festival battles went. You get Rare Candies for your placing.
+"""
+unlocks = ["q-0039"]
+evidence = "script file 216 (scripts 1-8 along Route 25 x1351-1389; ceremony L11645-L11732; the road is closed ('we're getting ready') until Misty has left the Gym, 758 @4153)"
+
+[[steps]]
+id = "s06"
+main = true
+text = """
+**The Sea Cottage.** After the awards a shout comes from the house on the Cape. Bill's computer has a virus: go into cyberspace with Misty to clear it out. Bill thanks you with tickets for the S.S. Anne (you get the **S.S. Ticket**) and registers his number. Afterwards Bill's grandfather will trade items for Pokémon you show him.
+"""
+unlocks = ["q-0040"]
+evidence = "script file 216 @11930 (Misty: 'someone's shouting in the house on the Cape'), 217 (script 1: virus story L270-L1207, S.S. Ticket item 478 given @1249); S.S. Ticket is needed at the Vermilion Harbor (154 L946 HasItem 478), see chapter 6."
+
+[[steps]]
+id = "s07"
+main = true
+text = """
+**Back to the Gym: the Cascade Badge.** Misty battles you as the acting Gym Leader and this time hands over the **Cascade Badge** and TM03. You can now use Cut. **This closes:** the Route 25 "tasty treat" man, the Pewter Trainer who brags about his Charmander (and the roadside Charmander), and the old painter's Ralts on Route 3 (he passes away; his Ralts waits at his house with a letter).
+"""
+closes = ["q-0038", "q-0010", "q-0026"]
+evidence = "script file 758 (script 1: GiveBadge 1 @293; scene @3875-@3903 sets hide flags 1021 (tasty-treat man), 1026 (Steven in the Cerulean Bike Shop), 1390 (painter dies), 1367 (roadside Charmander and the Pewter Pokémon Center Trainer) and var 0x4085 = 1). Field moves: guide/13 (Cut = Cascade Badge)."
+
+[[quests]]
+id = "q-0035"
+missable = true
+available_note = "Finish the case (beat the Route 24 grunt) before Sabrina laughs in Pokémon Tower, later in the story, or the TM Case and TM28 are lost for good."
+
+[[quests]]
+id = "q-0038"
+missable = true
+available_note = "Only before you win the Cascade Badge."
+
+[[quests]]
+id = "q-0039"
+
+[[quests]]
+id = "q-0040"
+needs = ["q-0039"]
+available_note = "Only after the computer-virus story at Bill's cottage."

@@ -1,0 +1,144 @@
+id = "ch07-rock-tunnel-lavender"
+order = 7
+title = "Chapter 7: Rock Tunnel and Lavender Town"
+summary = "Rescue Prof. Hale in Rock Tunnel, then Lavender Town and the haunted Pokémon Tower."
+kind = "story"
+intro = """
+With the S.S. Anne behind you, the road goes through Rock Tunnel to Lavender Town. Team Rocket is after Prof. Hale's research in the tunnel, and in Lavender it is after something in the Pokémon Tower.
+
+**Main quest in this chapter:** rescue Prof. Hale in Rock Tunnel, climb Pokémon Tower (**twice**, with a trip back to Cubone in between), and reach the end of the tower story, when Agatha breaks up Team Rocket there. Afterwards the guard at the Route 8 gatehouse lets you into Saffron City.
+
+Two things close as you go: the Underground Path (the Rock Tunnel rescue) and, if you skip them, the tower's optional Trainers (they vanish after the two illusion grunts).
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Rock Tunnel.** Enter from the north door on Route 10 (a Pokémon that knows Flash lights the cave). Somewhere inside, Prof. Hale shouts that someone is stealing his research: Jessie, James and Meowth have him cornered. Beat them in a Double Battle. **The rescue closes the Underground Path doorways** (an invisible barrier stops you at each one).
+"""
+closes = ["q-0034"]
+unlocks = ["q-0059"]
+evidence = "script file 129 (scripts 3-5 coord triggers at 26,15 / 24,35 / 32,29 var 0x40B2 = 0; Double Battle trainers 974+975 @838; @1101-@1141: sets 1153 (shops/gates in Lavender), 1567 (needed for the tower's 'Mom' fight) and ClearFlag 1226, the hide flag of the Underground Path doorway blockers, so the blockers return)"
+
+[[steps]]
+id = "s02"
+main = false
+text = """
+**Rock Tunnel's hide-and-seek.** On the lower level a schoolkid "seeker" wants you to find four of his friends hidden in the tunnel: the corner kid (battle him *carefully*: losing freezes the game), the fake archaeologist, a "Pikachu" and a ninja disguised as a boulder. He pays you TM80 Rock Slide.
+"""
+evidence = "guide/03-vermilion-to-celadon.md q-0059 (script file 129 scripts 8, 10-12, 18; hack bug: a loss to the corner kid freezes, D-1395 / D-1548)"
+
+[[steps]]
+id = "s03"
+main = false
+text = """
+**Lavender Town.** Beyond the tunnel, a girl on Route 10 just south-east of the south exit asks you not to go. The Lavender fortune-teller can turn that into a curse that keeps pulling you back into town (Cleanse Tags break it, see the quest). The House of Memories trades one Big Pearl for one Heart Scale, as often as you like.
+"""
+unlocks = ["q-0061", "q-0063"]
+evidence = "script files 194 (girl), 771 (fortune-teller), 765/770 (storyteller, Heavy Ball), 772 script 4 (Heart Scale trade L296-L391, no one-time flag)"
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**Pokémon Tower, first climb.** Beat Blue at the stairs and climb. At the upper staircase a voice sends you back: nothing lets you continue yet. Go to Mr. Fuji's Volunteer Pokémon House (door about eight steps south of the Pokémon Center door) and talk to Cubone, who now warms to you, cries and runs out of the house. Let the scene finish.
+"""
+evidence = "guide/03 q-0062 (first-climb/Cubone sequence checked against the Chinese v4.0.3 scripts: file 17 script 2 @128-167 sets flag 2276; file 769 script 6 L2399 resets the tower and clears flag 1155/1356; Blue = trainer 200, coord script 4 at x=14 z=2-5)"
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**Pokémon Tower, return climb.** The tower's Trainers and illusions now appear, including "Mom" (**answer No and win**; she blocks the only way on). After you beat the two illusion grunts, the Magcargo behind them can be caught (catch it before you take any stairs; a loss freezes the game). Grab the Silph Scope that appears, and fight the Trainers you skipped before you take a staircase: they vanish afterwards. Then Maxie, Team Rocket and Mr. Fuji, until Agatha breaks up the Team Rocket group in the tower.
+"""
+unlocks = ["q-0062"]
+evidence = "guide/03 q-0062 (file 17 scripts 4, 7, 10, 12; 'Mom' trainer 207 needs flag 1567 = the Rock Tunnel rescue; hack bug: a loss to the Magcargo freezes)"
+
+[[steps]]
+id = "s06"
+main = false
+text = """
+**Mr. Fuji's house.** After Agatha, the Cubone is yours to take, Mr. Fuji gives you the Poké Flute and then the Mystery Stone (talk to him twice).
+"""
+unlocks = ["q-0064"]
+evidence = "script file 769 (scripts 7, 8; L1662), file 17 @8203 (shows Cubone)"
+
+[[steps]]
+id = "s07"
+main = true
+text = """
+**Route 8 and Saffron's east gate.** East of Lavender, Route 8 has a quarrelling Persian and Skitty owner pair that rewards you with TM40 Aerial Ace. At the Route 8 gatehouse the guard first says Saffron is under lockdown, then lets you through as one of the Trainers Lady Agatha mentioned. That opens Saffron City's gates for you.
+"""
+unlocks = ["q-0069"]
+evidence = "script file 189 (Route 8 gatehouse coord script 2: when flag 1153 is clear, 'Oh! You're one of the young Trainers Lady Agatha mentioned! ... go right ahead!' sets var 0x409F = 1); flag 1153 is set by the Rock Tunnel rescue (129 @1105) and cleared at the end of the tower story (17 @8199). Route 5/6 gates (182/185) stay shut while 0x409F = 0. Route 8 owners: file 188 scripts 3, 4, 5, 11."
+
+[[steps]]
+id = "s08"
+main = false
+text = """
+**Silence Bridge (Route 12) and Route 13.** South of Lavender, the long bridge on Route 12 is open once the tower story is over. A sleeping Snorlax blocks it halfway: wake it with the **Poké Flute** from Mr. Fuji. North of the Snorlax you meet the TM salesman, the fish-zapper and the Milotic, and the couple whose Pokémon Team Rocket killed; south of it are the Fishing Guru (Super Rod, needs the Good Rod from Vermilion), Bug Catcher Harlan (if the Route 9 girl let her Butterfree go), Picnicker Lily and Prof. Birch. Route 13 beyond is an amateur "Southeast League".
+
+**Two of these end soon:** Cynthia's optional battle at the north end of Route 12 ends when you reach Saffron for the first time (Chapter 8), and **Prof. Birch's Torchic is lost for good when the Rainbow Badge scene plays** in Celadon (Chapter 8). So wake the Snorlax and talk to Birch before you win the Rainbow Badge. From Route 13 you cannot walk on to Route 14 and Fuchsia yet: a League member blocks the way until the Battle Marathon is over or cancelled (Chapter 9).
+"""
+unlocks = ["q-0098", "q-0099", "q-0100", "q-0101", "q-0102", "q-0103", "q-0104", "q-0105", "q-0097"]
+evidence = "guide/04 q-0097..q-0105 (script files 199 Route 12, 200 Fishing Guru, 201 Route 13). Poké Flute from Mr. Fuji after the tower story (769 L1662, step s06). Route 12 object flags (landmarks list of zone 20): Cynthia hidden by 1162 (set by file 795 @976, the Goodshow meeting), Prof. Birch by 1447/417 (set by file 853 @3790-@3802, the Rainbow Badge scene), Snorlax and the three blockers by 1158 (set by waking it, file 199 @1464). Route 13 -> Route 14 is blocked while var 0x40db = 0 (file 201 script 28), set to 1 by the marathon's end (202 L3578) or 2 by the takeover (17 @12563). UNVERIFIED: not walked from a fresh game; the Lavender exits are shut while flag 1153 is set (set by the Rock Tunnel rescue, cleared at the end of the tower story, 17 @8199), so Route 12 only opens after the tower story."
+
+[[quests]]
+id = "q-0059"
+available_note = "Rock Tunnel's lower level. Do not lose to the corner kid: his battle freezes the game after a loss (hack bug), so save first."
+
+[[quests]]
+id = "q-0061"
+
+[[quests]]
+id = "q-0063"
+
+[[quests]]
+id = "q-0062"
+
+[[quests]]
+id = "q-0064"
+needs = ["q-0062"]
+available_note = "Opens after Agatha breaks up Team Rocket in the tower."
+
+[[quests]]
+id = "q-0069"
+
+[[quests]]
+id = "q-0098"
+needs = ["q-0064"]
+available_note = "Needs the Poké Flute from Mr. Fuji."
+
+[[quests]]
+id = "q-0099"
+missable = true
+needs = ["q-0098"]
+available_note = "Only until the Rainbow Badge scene in Celadon (Chapter 8)."
+
+[[quests]]
+id = "q-0100"
+
+[[quests]]
+id = "q-0101"
+
+[[quests]]
+id = "q-0102"
+available_note = "Only if the Route 9 girl let her Butterfree go."
+
+[[quests]]
+id = "q-0103"
+needs = ["q-0047"]
+available_note = "Needs the Good Rod (Vermilion City)."
+
+[[quests]]
+id = "q-0104"
+
+[[quests]]
+id = "q-0105"
+missable = true
+available_note = "Cynthia leaves Route 12 when you first reach Saffron (Chapter 8)."
+
+[[quests]]
+id = "q-0097"
+available_note = "Reached from the south end of Route 12, after you have woken the Snorlax."

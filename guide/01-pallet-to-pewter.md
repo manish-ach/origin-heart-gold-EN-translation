@@ -11,8 +11,8 @@
 - [Viridian City: the Mankey thief (Pikachu starters only)](#viridian-city-the-mankey-thief-pikachu-starters-only)
 - [Viridian City: Pokémon Academy exchange students (missable early)](#viridian-city-pokémon-academy-exchange-students-missable-early)
 - [Route 2: the Rocket warehouse Poké Ball (starter-dependent gift)](#route-2-the-rocket-warehouse-poké-ball-starter-dependent-gift)
-- [Route 2 East: the abandoned Charmander (Pikachu starters only)](#route-2-east-the-abandoned-charmander-pikachu-starters-only)
-- [Route 2 East: Nidoran♀ and the Apricorn Ball maker (non-Pikachu starters)](#route-2-east-nidoran-and-the-apricorn-ball-maker-non-pikachu-starters)
+- [Route 2, north of Viridian Forest: the abandoned Charmander (Pikachu starters only)](#route-2-north-of-viridian-forest-the-abandoned-charmander-pikachu-starters-only)
+- [Route 2, north of Viridian Forest: Nidoran♀ and the Apricorn Ball maker (non-Pikachu starters)](#route-2-north-of-viridian-forest-nidoran-and-the-apricorn-ball-maker-non-pikachu-starters)
 - [Route 2: the Magcargo fan (show a Pokémon)](#route-2-the-magcargo-fan-show-a-pokémon)
 - [Viridian Forest: the runaway Snubbull ($20,000, one-time choice)](#viridian-forest-the-runaway-snubbull-20000-one-time-choice)
 - [Viridian Forest: the flower garden and the Spearow (missable)](#viridian-forest-the-flower-garden-and-the-spearow-missable)
@@ -28,7 +28,7 @@
 - [Pallet Town: Lance's visit home (after the final Hall of Fame)](#pallet-town-lances-visit-home-after-the-final-hall-of-fame)
 
 ## Pallet Town: send-off gifts (one per starter, before Viridian)
-<!-- quest: kind=side; id=q-0001 -->
+<!-- quest: kind=side; id=q-0001; missable=yes -->
 
 **Where:** Pallet Town and your house.
 
@@ -129,11 +129,11 @@ With any other starter, the Meowth resident only says a general line about livin
 *Source:* script file 739 (scripts 12 and 29, reward L5100: item 492; keeper script 29, L1571–L1619, starts the quest only with 1288, 1330 and 1335 set; 1330 and 1335 are set by the Route 1 tutorial, file 168 @586/@594; Blue scene L3339 sets flag 1330 (the Mankey's hide flag), and the keeper then pays only if 1336 is clear). Reachability of Blue's trigger: see the send-off gifts source above. Positions: keeper ≈1019,255; Mankey ≈1050,246.
 
 ## Viridian City: Pokémon Academy exchange students (missable early)
-<!-- quest: kind=side; id=q-0008 -->
+<!-- quest: kind=side; id=q-0008; missable=yes -->
 
 **Where:** the Pokémon Academy (the school building south of the northeast house).
 
-**Who gets it / when:** anyone, but only in the early game. Steven and Cynthia leave, and the teacher changes to Earl's lessons, once you have **both delivered Oak's Parcel and beaten Blue on Route 22**.
+**Who gets it / when:** **in a normal new game the challenge cannot be started (suspected hack bug).** The teacher only offers it while story flag 1107 is set; the game sets that flag only at the very start of a new game and clears it again in Professor Oak's lab introduction, so by the time you can reach Viridian the teacher only says goodbye to Steven and Cynthia (checked in the script and played in the emulator on the Chinese ROM: with the flag clear, "Seeing my students Steven and Cynthia..."; with it set, "Welcome to the Pokémon Academy!"). The description below is what the challenge does if the flag were set. Steven and Cynthia leave, and the teacher changes to Earl's lessons, once you have **both delivered Oak's Parcel and beaten Blue on Route 22**.
 
 **How it works:**
 1. Talk to the teacher at the front of the classroom. The Academy has two exchange students, and you're asked to beat them for Kanto's honour.
@@ -144,14 +144,16 @@ With any other starter, the Meowth resident only says a general line about livin
 
 **Follow-up:** Cynthia also waits in **Viridian Forest**, about a dozen steps east of the north exit, whether or not you beat her at the Academy. Only her greeting changes. She offers a battle (Gible Lv. 9, Riolu Lv. 8, Budew Lv. 6); beat her for **5 × TM54 False Swipe**. She leaves afterwards.
 
-**Notes:** later on the teacher goes back to asking you to beat the two exchange students, although Steven and Cynthia have gone, so the challenge can't be finished then. For Bulbasaur and Charmander starters this happens when the [Nidoran♀ story with the Apricorn Ball maker](#route-2-east-nidoran-and-the-apricorn-ball-maker-non-pikachu-starters) ends (either answer); for Pikachu starters, after the Team Rocket scene in Viridian Forest. Cosmetic ([Known issues](known-issues.md#pokémon-academy-resets-after-the-apricorn-quest)).
+**Notes:** the Viridian Forest Cynthia (TM54 × 5) is separate and can be met normally. For the same reason the teacher's later reset to "beat the exchange students" is not seen in play: for Bulbasaur and Charmander starters it would happen when the [Nidoran♀ story with the Apricorn Ball maker](#route-2-north-of-viridian-forest-nidoran-and-the-apricorn-ball-maker-non-pikachu-starters) ends (either answer); for Pikachu starters, after the Team Rocket scene in Viridian Forest. Cosmetic ([Known issues](known-issues.md#pokémon-academy-resets-after-the-apricorn-quest)).
 
 *Source:* script files 859 (scripts 1, 9, 10; trainers 3 and 2; flags 1057/1244 end the early lessons and are set by whichever of file 738 L1651 (parcel) or file 212 L1931 (Route 22 Blue) comes second; the teacher sets flag 1218; script 1 L111 offers the challenge again once 1057 is clear, while 1244 keeps the students hidden), 115 (script 3: greeting by flag 1292 = beaten at the Academy, trainer 65, TM54 = item 381 × 5 at L1498, then L3712 sets her hide flag 1063; nothing else sets it; Cynthia ≈51,34; Team Rocket scene ending, reached from L4696/L4721: L5748 `CheckFlag 1288` (Pikachu starter, set by 738 @3891) → L6969, @6973 clears 1057), 170 (@3782 and @4355 clear 1057).
 
 ## Route 2: the Rocket warehouse Poké Ball (starter-dependent gift)
 <!-- quest: kind=side; id=q-0009 -->
 
-**Where:** the small house on Route 2 East that Team Rocket uses as a warehouse (the fake police block the road next to it).
+**Where:** the small house on the eastern road of Route 2, north of Viridian City, that Team Rocket uses as a warehouse (the fake police block the road next to it).
+
+**When:** not at the start. The fake police stand on the road, and the house is out of reach, until you first arrive in Vermilion City (the street scene before the construction-site dispute). After that the road is open again.
 
 **How it works:** the room is full of Poké Balls. All but one only say "A Poké Ball with a Pokémon inside." The live one is in the second row, just right of where the grunt first stands. Take it (Yes).
 
@@ -163,10 +165,10 @@ With any other starter, the Meowth resident only says a general line about livin
 
 *Source:* script file 171 (script 3, flag 1473; the live ball is at 6,4; it checks only the menu answer, party size and starter). The grunt (zone 417 object 17, hide flag 308) has object type 0 and sight 0, so he never spots you; script 2 menu @114/@122: battle 274 (a loss → L1645 `WhiteOut`) then Ariana `TrainerBattle 443, 0, 1, 0` (a loss → L1651, which runs the same pack-up and ends at L2103), or "I got lost". Ariana's pack-up hides objects 0–16 except the ball (8). File 853 @3782/@3786 (Celadon hideout finale) sets 1473 and 308.
 
-## Route 2 East: the abandoned Charmander (Pikachu starters only)
-<!-- quest: kind=side; id=q-0010 -->
+## Route 2, north of Viridian Forest: the abandoned Charmander (Pikachu starters only)
+<!-- quest: kind=side; id=q-0010; missable=yes -->
 
-**Where:** a weak Charmander near the north end of Route 2 East, a couple of steps north-west of the door of the Viridian Forest north gatehouse.
+**Where:** a weak Charmander just outside the north exit of Viridian Forest, on the western edge of this stretch of Route 2: a couple of steps north-west of the door of the Viridian Forest north gatehouse.
 
 **Who gets it / when:** Pikachu starters. It appears after the Viridian Forest Team Rocket scene. You must first hear a Trainer in the **Pewter City Pokémon Center** brag about dumping his "garbage" Charmander by the road. Before that, Charmander "doesn't seem to want to be caught" and nothing happens.
 
@@ -184,10 +186,10 @@ With any other starter, the Meowth resident only says a general line about livin
 
 *Source:* script files 170 (script 3, L787, L2290; Charmander ≈1026,136; checks flag 1348), 751 (Pewter Pokémon Center scripts 10/11; the Trainer sets flag 1348 at L430), 115 (L5748 decides which Route 2 event you get). The roadside Charmander (zone 414 object 3) and the Pokémon Center Trainer (zone 475 object 12) share hide flag 1367, set by the Cascade Badge scene (758 @3887) and cleared only by 115 @6981 (Viridian Forest setup). The Pokémon Center Charmander (object 13) uses flag 1360, which 1367 doesn't touch. The Route 3 letter Charmander (file 175, hide flag 1366) never appears, so it can't hide this one.
 
-## Route 2 East: Nidoran♀ and the Apricorn Ball maker (non-Pikachu starters)
+## Route 2, north of Viridian Forest: Nidoran♀ and the Apricorn Ball maker (non-Pikachu starters)
 <!-- quest: kind=side; id=q-0011 -->
 
-**Where:** a man and an abandoned Nidoran♀ at the north end of Route 2 East, a few steps north-east of the door of the Viridian Forest north gatehouse.
+**Where:** a man and an abandoned Nidoran♀ just outside the north exit of Viridian Forest, a few steps north-east of the door of the Viridian Forest north gatehouse.
 
 **Who gets it / when:** Bulbasaur and Charmander starters, after the Viridian Forest Team Rocket scene.
 
@@ -207,7 +209,9 @@ With any other starter, the Meowth resident only says a general line about livin
 ## Route 2: the Magcargo fan (show a Pokémon)
 <!-- quest: kind=side; id=q-0012 -->
 
-**Where:** the gatehouse at the north end of Route 2's eastern path, the one that leads on to Route 2 East (not the Viridian Forest gatehouse next to it).
+**Where:** the gatehouse on Route 2's eastern road, the one that joins the Viridian side to the Pewter side (not the Viridian Forest gatehouse next to it).
+
+**When:** not at the start. The fake police block both ends of this road until you first arrive in Vermilion City (the street scene before the construction-site dispute).
 
 **How it works:** a man wants to touch a Magcargo. Have **Magcargo** in your party and talk to him.
 
@@ -244,7 +248,7 @@ With any other starter, the Meowth resident only says a general line about livin
 *Source:* script file 115 (script 11: `CheckBadge 6` (Volcano, given by Blaine in file 15) → L2225; L2318: `TrainerBattle [59, 59]`, trainer 59 = 3 × Spearow Lv. 7; `WildBattle 22` Lv. 20 at L2627, then `CheckBattleWon`, which counts a flee or a catch as a win; Honey = item 94 × 2 at L2760; losses → L3673 `WhiteOut`; flag 1062; woman ≈90,72).
 
 ## Viridian Forest: lend her a Pidgeot (Pikachu starters only)
-<!-- quest: kind=side; id=q-0015 -->
+<!-- quest: kind=side; id=q-0015; missable=yes -->
 
 **Who gets it / when:** Pikachu starters who have the Volcano Badge, but not the Earth Badge, and haven't become Champion yet.
 

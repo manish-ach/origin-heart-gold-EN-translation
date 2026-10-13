@@ -1,0 +1,85 @@
+id = "ch10-cinnabar-volcano-badge"
+order = 10
+title = "Chapter 10: Surf to Cinnabar Island and the Volcano Badge"
+summary = "Surf south past Seafoam Islands to Cinnabar Island, Blaine's hidden Gym and the Detrick lab where Mewtwo breaks loose."
+kind = "story"
+intro = """
+With Surf, the Soul Badge and Route 19 open again, the sea road leads south to **Cinnabar Island**. Its Gym is hidden in a restaurant and its lab is where the next story beat happens.
+
+**Main quest in this chapter:** find Blaine's Gym (the riddle restaurant), win the **Volcano Badge**, then go into the **Detrick lab** and watch Mewtwo break out. **Do not skip the lab:** until that scene has played, Sabrina in Pokémon Tower only says she is "deep in her training", so the next chapter cannot start.
+
+The Volcano Badge also changes the Viridian Forest: the flower woman's Spearow errand ends (it closes for good), and for **Pikachu starters** the Pidgeot loan appears instead. That loan closes again at the Earth Badge.
+"""
+
+[[steps]]
+id = "s01"
+main = false
+text = """
+**Surfing south.** Between Fuchsia and Cinnabar the sea road runs over Route 19 and Route 20 and past the **Seafoam Islands**. Their deepest chamber has a researcher, ice walls and **Articuno**: a Magcargo or Moltres leading your party melts the ice; Articuno is a Lv. 90 fight where no Balls can be thrown (a catch is only possible after the last Hall of Fame), and beating it makes the researcher give you **TM14 Blizzard**, the only one in the game. Route 21 runs north from Cinnabar to Pallet Town's shore: a Trainer with a Lairon and a wild Lv. 60 Mr. Mime are waiting there for the Iron Head tutor.
+"""
+unlocks = ["q-0128", "q-0122"]
+evidence = "guide/05 q-0128 (script file 195 scripts 2, 3, 10; flag 1500 ice, 1483 researcher), q-0122 (script file 957 scripts 4-6). Route 19 reopens at the Soul Badge scene (806 L1977-L1993) and is closed between the Rainbow and Soul Badge scenes (853 L3174, 806 L1977). UNVERIFIED: whether Route 21 from Pallet Town reaches Cinnabar before the Soul Badge (Surf only comes with the Soul Badge trial, and the Soul Badge scene sets the Cinnabar story flags, so the intended order is Soul Badge first)."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**Cinnabar Island: the hidden Gym.** There is no Gym building: the restaurant on the east side that refuses outsiders is the Gym. Blue is arguing with the staff inside; the owner is out playing riddles with Amber in front of the lab. Fetch him, then answer the owner's three riddles (any answer works; Blue or Green/Red covers wrong ones). The owner is **Blaine**, and the secret door in the back opens.
+"""
+unlocks = ["q-0123", "q-0125", "q-0127", "q-0126"]
+evidence = "guide/05 q-0123 (script files 905 scripts 1, 3, 812 script 1, 15; the Soul Badge scene sets flags 1214/1216/1222/1590 and var 0x40ae, 806 L1993-L2011), q-0125 (812 script 19), q-0126 (812 scripts 20, 21; the man and the Egg are removed at the end of the League HQ round 1 Moltres scene, file 196 L1642-L1650), q-0127 (812 scripts 12-14)."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**The Volcano Badge.** Battle Blaine. He gives you the **Volcano Badge**, **TM38 Fire Blast** and his number. From now on the Viridian Forest flower woman says the Spearow are already gone, so **her Spearow errand is closed for good**, and Pikachu starters can lend her a Pidgeot instead.
+"""
+unlocks = ["q-0015"]
+closes = ["q-0014"]
+evidence = "script file 15 (GiveBadge 6 @1387). File 115 script 11 L603: CheckBadge 6 (Volcano) set -> L2225, where a non-Pikachu starter (flag 1288 clear) or an Earth Badge (CheckBadge 7 @2247) or the game-clear flag 2404 sends her to 'the Spearow were chased off' (L2307); only Pikachu starters with the Volcano Badge, the Parcel/Blue flag 410, no Earth Badge and no 2404 get the loan request (L2277). Independently re-read in this pass."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**The Detrick lab.** With the Volcano Badge the guard lets you into the lab in the north of the island. A researcher says the monster has gone berserk and Dr. Fuji sealed the building behind emergency shutters: the computers inside toggle the doors in a puzzle (the quest lists the working route). At the back of the lab Mewtwo breaks out, Dr. Fuji dies and Blaine's staff mourn Amber. **This scene is required before Sabrina's tower trial.**
+"""
+unlocks = ["q-0124"]
+evidence = "guide/05 q-0124 (script files 812 script 8, 852 scripts 3-9, 12; back-room trigger needs var 0x40AF = 0 and sets it to 1 @2626). File 17 L3237: Sabrina in Pokémon Tower sends you away while var 0x40AF = 0 ('deep in her training') and needs the Volcano Badge (file 17 L1383 CheckBadge 6)."
+
+[[quests]]
+id = "q-0128"
+missable = true
+available_note = "TM14 Blizzard is only available until the League HQ investigation's Team Rocket scene in the Seafoam Islands. The ice needs a Magcargo or Moltres leading your party."
+level_note = "Articuno is Lv. 90."
+
+[[quests]]
+id = "q-0122"
+available_note = "Needs Surf."
+level_note = "The wild Mr. Mime is Lv. 60."
+
+[[quests]]
+id = "q-0123"
+needs = ["q-0085"]
+
+[[quests]]
+id = "q-0125"
+
+[[quests]]
+id = "q-0127"
+
+[[quests]]
+id = "q-0126"
+missable = true
+available_note = "The man and the Egg disappear for good during the League HQ investigation's Power Plant and Moltres scenes, long after this chapter."
+
+[[quests]]
+id = "q-0015"
+missable = true
+needs = ["q-0123"]
+available_note = "Pikachu starters only. Closes at the Earth Badge (Chapter 12)."
+
+[[quests]]
+id = "q-0124"
+needs = ["q-0123"]

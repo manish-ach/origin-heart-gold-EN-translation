@@ -1,0 +1,68 @@
+id = "ch06-ss-anne"
+order = 6
+title = "Chapter 6: The S.S. Anne"
+summary = "The party on board, the Team Rocket hijack and the one chance to save the ship."
+kind = "story"
+intro = """
+The S.S. Anne leaves Vermilion Harbor on a cruise to Olivine City, and Team Rocket has other plans. You can only board with the **Thunder Badge** and the **S.S. Ticket** Bill gave you at the Sea Cottage.
+
+**Main quest in this chapter:** survive the party, follow the Teddiursa trail, stop the hijack and **win the final fight against Archie with the bomb defused**. There is no retry once you have fought Archie. If the ship sinks, later NPCs in Johto speak as if passengers died, and the S.S. Anne passenger gift in Celadon never appears.
+
+Beating Archie also opens Rock Tunnel's north entrance for the next chapter, and Cynthia leaves the Route 10 Pokémon Center.
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Boarding.** At Vermilion Harbor the clerk lets you through once you have the Thunder Badge and the S.S. Ticket (the ticket is Bill's thank-you from Chapter 3). **Save first**: two orders of events below can leave you stuck on the ship for good.
+"""
+evidence = "script file 154 (harbor greeter: L890 CheckBadge 2 else 'final preparations, come back later'; L946 HasItem 478 S.S. Ticket else 'You don't seem to have an S.S. Ticket'); ticket given in file 217 @1249 (Chapter 3)."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**The old man, then the girl's Honey.** From the moment you board, the party guests stand in the main hall and Blue offers a battle. Do it in this order: **beat the old man in the main hall first**, do **not** talk to Blue yet, then help the girl with the Teddiursa in the first north-west cabin. She wants Honey: give her yours, or swap one Shoal Salt with the cook in the B1F kitchen for Honey (a merchant in the hall sells Shoal Salt for $1,500). Her grandfather rewards you with a Water Stone. Giving the Honey before the old man's battle, or talking to Blue first, soft-locks the story.
+"""
+unlocks = ["q-0050"]
+evidence = "guide/03-vermilion-to-celadon.md q-0050 (script files 161, 162, 156 scripts 22/23, 157; flags 1423, 1424, 1440). Emulator-tested order per that entry."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**The party battles.** Win over the six guests in the main hall (Blue, the old boy, the Raticate Gentleman, the Trainer at the north, the Trainer on the west who "had my eye on you" and Sabrina's Psychic student). The waiter then wants to serve the food, but the Teddiursa has run off: go down to the B1F kitchen, where it is eating honey from the fridge. Back in the hall the Team Rocket hijack begins; you and Green/Red fight three Multi Battles in a row.
+"""
+unlocks = ["q-0051"]
+evidence = "guide/03 q-0051 (file 156 scripts 30-32, 34, 40; 162 scripts 5, 6; 158 script 5)"
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**The bomb and Archie.** After the hijack, go down to the B1F engine room and beat the "maintenance" man to **defuse the bomb**. Then climb to the captain's cabin and fight Archie. You can lose his first battle, but **the last one must be won** or the ship sinks even with the bomb defused. With the bomb defused and Archie beaten, the Captain sails back to Vermilion and Lt. Surge gives you a Magnet outside.
+"""
+unlocks = ["q-0052"]
+evidence = "guide/03 q-0052 (file 162 script 9; file 157 script 4: only @2154 sets 'bomb defused'; a loss on the last Archie fight jumps to the sinking). Aftermath: Archie fight sets Cynthia's Route 10 hide flag 1102 (157 @1492) and removes the Rock Tunnel guard (see chapter 7)."
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**After the ship.** Blue says he is aiming for Kanto's eight Badges; Green/Red warns you about Team Rocket. The guard in front of Rock Tunnel's north door is gone, so the tunnel is open, and Cynthia has left the Route 10 Pokémon Center.
+"""
+evidence = "script file 157 (@1488-@1496 the Archie fight sets hide flags 1101 (Steven on Route 10), 1102 (Cynthia in the Route 10 Pokémon Center) and 1092 (the 'archaeologists at work' guard in front of the Rock Tunnel door); @1961-@2117 Blue/Green lines; Surge's Magnet only with the bomb defused)"
+
+[[quests]]
+id = "q-0050"
+
+[[quests]]
+id = "q-0051"
+needs = ["q-0050"]
+
+[[quests]]
+id = "q-0052"
+missable = true
+needs = ["q-0051"]
+available_note = "One chance: the ship sinks if the bomb isn't defused or you lose the last fight with Archie."

@@ -1,0 +1,101 @@
+id = "ch12-alto-mare-viridian-earth-badge"
+order = 12
+title = "Chapter 12: The Alto Mare Islands, Viridian Gym and the Earth Badge"
+summary = "Granny Mae's trial on Two Island reopens the Viridian Gym; Giovanni's Earth Badge is the last Kanto Badge."
+kind = "story"
+intro = """
+Sabrina has sent you to the Alto Mare Islands. The reason is simple: **the Viridian Gym stays closed until you pass Granny Mae's trial on Two Island**, and the Earth Badge is the last Kanto Badge you need for the Victory Road gate.
+
+**Main quest in this chapter:** take the ship from Vermilion to the Alto Mare Islands, find a partner for Granny Mae's trial on Two Island (it turns out to be Blue) and pass her five-stage test, then go back to Viridian City and win the **Earth Badge** from Giovanni.
+
+Most of the islands' side quests wait for later in the game: the One Island travel agency, which sails to Four, Five, Six and Seven Island, is closed for "high-tide season" until Johto's sea route reopens, and Three Island's biker business starts then too. What is open now is One Island and Two Island, and the waters between.
+
+The Earth Badge also ends the Pidgeot loan for Pikachu starters.
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**The ship.** At Vermilion Harbor, show your S.S. Ticket and take the ship to the Alto Mare Islands. Sabrina told you the harbor is open again. **Save before you start Granny Mae's trial:** it cannot be paused.
+"""
+evidence = "script file 826 script 3 @905-@1013 (Sabrina: 'The harbor in Vermilion City is open again. Take your S.S. Ticket there'); file 153/155 (the ship's destination menu 'Vermilion City / Alto Mare Islands'; Olivine City is closed until flag 2024, set in Johto by Gold's Route 39 scene, 249 @4066). UNVERIFIED: which island the ship lands on."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**Two Island: a partner for Granny Mae.** Granny Mae's hall is behind the north-east door of Two Island. The receptionist only starts the trial for two challengers, so ask the Trainer from Johto standing a few steps south of the north-east Islander's House door to join you. He has lost his nerve, but **Blue** turns up ("Viridian Gym was closed...") and teams up with you.
+"""
+unlocks = ["q-0134"]
+evidence = "guide/05 q-0134 (script file 734 script 3 L1508/L2497-L2962; var 0x40b0 = 2, flag 1105; file 782 sets 0x40b0)."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**Granny Mae's ultimate-move trial.** Talk to the receptionist with Blue at your side: a singles assessment, a five-question knowledge quiz, a doubles assessment, a single battle against **Blue** and a Multi Battle with Blue against Granny Mae and Dana. The last three run straight into each other with no healing in between, so **heal before you walk up to the doubles opponent**. Pass it and Blue says he is going to the Viridian Gym. Granny Mae now teaches Frenzy Plant, Blast Burn and Hydro Cannon to fully evolved starters, for free.
+"""
+unlocks = ["q-0151"]
+evidence = "guide/06 q-0151 (script file 782 scripts 5-10, 14; vars 0x40b0, 0x40ab; flag 1705 set at L5318/L5370 after the trial, which is what the Viridian Gym door guard checks, file 741 script 2)."
+
+[[steps]]
+id = "s04"
+main = false
+text = """
+**Also on the islands.** On **Two Island**, Fern's clinic has a "sick" Chatot (bring a Chatot as your first healthy Pokémon), and the market has a barter stall, a treasure seller and an S.S. Anne passenger who thanks you if the ship did not sink. On **One Island**, the Pokémon Center's composer wants a title for his piece, the Island Restaurant serves battle meals, and the Alto Mare Library has a legends quiz. With Surf you can also reach the **Alto Mare Waters**: a lifeguard and Charmander's owner, and a fan who battles you for a Heart Scale.
+"""
+unlocks = ["q-0152", "q-0135", "q-0153", "q-0154", "q-0146", "q-0148", "q-0150"]
+evidence = "guide/06 q-0152, q-0153, q-0154; guide/05 q-0135, q-0146, q-0148, q-0150 (script files 782, 734, 889, 845, 894, 244, 965, 963). The travel agency (file 894 script 11) is closed while flag 2024 is clear. UNVERIFIED: when a Chatot first becomes available, and that the Alto Mare Waters can be entered by Surf before the agency opens (file 965 has no flag-2024 check)."
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**Back to Viridian City: the Viridian Gym.** The Gym is open again. Talk to the man just inside the door (face him from directly in front): he is the **Virtue examiner**. Help Yellow, the girl standing with her uncle and his Doduo just south of the Mart, get her first Pokémon (you need a plain Poké Ball). Then answer the second examiner's Wisdom quiz, get through the Skill trainers and battle **Giovanni** for the **Earth Badge**. **The Earth Badge ends the Pidgeot loan** for Pikachu starters.
+"""
+unlocks = ["q-0006", "q-0007"]
+closes = ["q-0015"]
+evidence = "guide/01 q-0006, q-0007 (script files 739 script 11, 741 scripts 2, 6; GiveBadge 7 @2863 in file 741). File 115 L2247: CheckBadge 7 (Earth) set sends the flower woman to the 'Spearow chased off' line, so the loan request stops (q-0015)."
+
+[[quests]]
+id = "q-0134"
+available_note = "Only while Granny Mae's trial is waiting for a partner."
+
+[[quests]]
+id = "q-0151"
+needs = ["q-0134"]
+level_note = "Opponents are Lv. 72-76."
+
+[[quests]]
+id = "q-0152"
+available_note = "Your first healthy Pokémon must be a Chatot."
+
+[[quests]]
+id = "q-0135"
+
+[[quests]]
+id = "q-0153"
+
+[[quests]]
+id = "q-0154"
+level_note = "The diners' teams are Lv. 65."
+
+[[quests]]
+id = "q-0146"
+
+[[quests]]
+id = "q-0148"
+available_note = "Needs Surf."
+
+[[quests]]
+id = "q-0150"
+available_note = "The Alto Mare Waters fan needs Surf. The Mt. Mortar Trainer in the same entry is in Johto."
+
+[[quests]]
+id = "q-0006"
+needs = ["q-0151"]
+
+[[quests]]
+id = "q-0007"
+needs = ["q-0006"]

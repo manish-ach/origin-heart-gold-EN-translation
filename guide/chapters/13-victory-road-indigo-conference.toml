@@ -1,0 +1,65 @@
+id = "ch13-victory-road-indigo-conference"
+order = 13
+title = "Chapter 13: Victory Road and the Indigo Conference"
+summary = "The qualifiers on Victory Road, the Indigo Conference tournament and the Elite Four, ending in your first Hall of Fame."
+kind = "story"
+intro = """
+With eight Kanto Badges you can enter the Victory Road gate and take part in the **Indigo Conference**. This is the end of the Kanto story: after your first Hall of Fame entry the game moves on to Johto.
+
+**Main quest in this chapter:** pass the qualifiers on Victory Road (uncover the League staff member disguised as a competitor and learn the password), win the tournament matches on the Indigo Plateau and the League HQ plaza, beat the Elite Four and the final against Blue, and enter the **Hall of Fame**.
+
+You need the **Earth Badge** to get in (the gate guard only checks that one), and you must have sold or tossed all **Escape Ropes** before the receptionist lets you into the cave.
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**The Victory Road gate and the qualifiers.** Walk into the middle of the hall: at the opening ceremony the MC explains the rules. A League staff member is disguised as one of the competitors, and you must find out who to learn the password. The receptionist at the cave door in the north of the hall turns you back if you still carry Escape Ropes (sell them to the clerk beside her). Beat Ninja Girl **Janine** on Victory Road 2F first: only then does the right Trainer on 3F, chosen by your gender, starter and Route 11 choice (see the quest's table), reveal the password. Give the password to the staff member at the exit on 3F after beating the two guards in a Double Battle.
+
+On **Victory Road 1F**, on the west side, an item ball is actually a wild **Lv. 70 Electrode**.
+"""
+unlocks = ["q-0155", "q-0020"]
+evidence = "guide/06 q-0155 (script files 763 scripts 3, 4, 34, 110 scripts 8, 11, 13, 14, 18-21, 109 (Janine #564)); guide/01 q-0020 (script file 109 script 9: WildBattle 101 Lv. 70 Electrode, own hide flag 1241; the 1F item ball at 21,40 has no other story flag: zone 124 listing, landmarks; the Blue and Yellow objects of the final chapter are hidden by flag 2311, the ball is not). UNVERIFIED: that every player walks over 1F during the qualifiers (the gate's south door is 46,59 on 1F, the stairs up are at 19,4/19,5)."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**The main tournament.** Your friends gather one by one on the slope above the Victory Road exit; talk to Blue, Green/Red, Misty, Cynthia and Steven, then to the MC at the top. Round one is a fight against Goh on the Water Field (Lv. 80). Blue then asks whether you will cheer for Misty or Steven: **this choice matters for the romance route** (cheering for one closes the other's route; skipping both closes both). The tournament then moves to the League HQ plaza: a battle against **Steven** and a semifinal against **Karen**.
+"""
+unlocks = ["q-0156"]
+evidence = "guide/06 q-0156 (script file 923 slope MC script 7; file 900 script 1/7 L985 TrainerBattle 986 (Goh), L2778 sets 2155 (Steven closed), L3867 sets 2142 (Misty closed), 'No' sets both; file 899 stage two TrainerBattle 635, 636)."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**The final: the Elite Four and Blue.** President Goodshow congratulates the last two finalists (you and Blue): the final is decided by how many of the Elite Four each of you beats, and tied scores are settled by a battle against each other. The final is held in the Elite Four's rooms inside the League HQ building (a trip to HQ first lets you heal and change your team). Beat the Elite Four and then **Blue**, who is already League Champion and demands to be beaten first; each of them lets you choose Singles or Doubles. Goodshow declares you both outstanding Champions, and Lance leads you to the **Hall of Fame**.
+"""
+unlocks = ["q-0131"]
+evidence = "script files 899 (L4996-L5013: Goodshow, 'the final will be decided by how many of the Elite Four each of you defeats'), 821 (Blue lines @134-@254, TrainerBattle 261 singles/doubles @1228/@1293, Blue's concession and Goodshow @1724-@1750), 822 (first entry L20-L316, HallOfFameAnim). File 822: first entry is the game-clear flag 2404; the final entry later sets 2261. UNVERIFIED: the Elite Four rooms' own scripts were not read in this pass."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**End of the Kanto story.** The Hall of Fame entry marks the game as cleared. Several repeatable extras open: the Elite Four's and Blue's practice battles, Sabrina's and Blaine's rematches, and for Pikachu starters the Pidgeot you lent in the Viridian Forest can now be collected. Giovanni's duel in Cerulean Cave comes next, then Mt. Silver, New Bark Town and Johto (the next chapters).
+"""
+evidence = "guide/07 q-0197 'The Hall of Fame: what your two entries unlock' (first entry, flag 2404); guide/01 q-0015 (loan return needs flag 2404, script file 115 L5794); guide/05 q-0131 (script file 15 L873, L1140-L1811, flag 2404), q-0120 (file 826 script 11, flag 2404)."
+
+[[quests]]
+id = "q-0155"
+available_note = "The gate guard only lets you in with the Earth Badge. You must have no Escape Ropes in your Bag to enter the cave."
+level_note = "The qualifier Trainers are Lv. 73-75."
+
+[[quests]]
+id = "q-0020"
+
+[[quests]]
+id = "q-0156"
+needs = ["q-0155"]
+
+[[quests]]
+id = "q-0131"
+available_note = "Opens after your first Hall of Fame entry."

@@ -1,0 +1,100 @@
+id = "ch11-saffron-takeover-marsh-badge"
+order = 11
+title = "Chapter 11: Pokémon Tower, the Saffron Takeover and the Marsh Badge"
+summary = "Make Sabrina laugh in Pokémon Tower, take back Saffron City from Team Rocket and win the Marsh Badge."
+kind = "story"
+intro = """
+Everything is lined up for Sabrina's trial: you did her willpower test in the Saffron Gym (Chapter 8), you have the Volcano Badge and you saw Mewtwo break out in the Detrick lab (Chapter 10). If any of those is missing, Sabrina in Pokémon Tower sends you away.
+
+**Main quest in this chapter:** make Sabrina laugh in Pokémon Tower (the call that ends the scene tells you Team Rocket has taken Saffron City), get into the sealed city through Sabrina's pocket dimension, fight through Silph Co. to the Rocket Boss, and then battle Sabrina for the **Marsh Badge** (Fly).
+
+**Before you go to the tower, finish these, because the takeover closes them for good:** the Route 5 shelter raid, the Cerulean burglary case (if you have not beaten the Route 24 grunt), the Route 11 Swablu, the Route 9 Squirtle Squad (Pikachu starters), the Fuchsia Battle Marathon and its White Flute, Cynthia's and Steven's battles in Fuchsia and Goh at the Tropius display. The employee's Lapras and Grandma's treats for Shota end later in this chapter.
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Pokémon Tower, Sabrina's laughing test.** Sabrina waits on the tower's upper floors, with her Alakazam. Accept her willpower training ("Make me laugh"). Her menu starts with only "Tell a joke"; each ghost Pokémon in the tower (a Gastly, a Haunter and a Gengar) gives you one more idea once Sabrina has set the task. Try all four options once each. After the fourth, you say you will not give up and she laughs.
+"""
+unlocks = ["q-0065"]
+evidence = "guide/03 q-0065 (script file 17 scripts 23, 26, 28, 29; task flag 1504; options 1505-1508; Volcano Badge check at L1383; var 0x40AF != 0 at L3237 or 'deep in her training'). Tower Sabrina's hide flag 1100 is cleared by the Gym scene (830 @927) and set again by the takeover (17 @11987). Ghosts' hide flag 1570 is cleared in the president's office (795)."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**The call: Team Rocket has taken over Saffron City.** The moment Sabrina laughs, the Saffron takeover starts. **This closes for good everything you have not done yet from this list:** the Route 5 shelter raid, the Cerulean burglary case, the Route 11 Swablu, the Squirtle Squad on Route 9, the Fuchsia Battle Marathon and the White Flute, Cynthia's and Steven's Fuchsia battles, and Goh at the Tropius display. The Saffron townsfolk and shops are gone until the city is freed, and Koga is away from the Fuchsia Gym.
+"""
+unlocks = ["q-0110"]
+closes = ["q-0033", "q-0035", "q-0054", "q-0056", "q-0089", "q-0090", "q-0093", "q-0094"]
+evidence = "script file 17 L11987-L12610 (the end of the tower scene): SetFlag 1100/1511 (Saffron townsfolk hidden, landmarks of zone 59), SetFlag 1683 (Goh), 1207 (Cynthia and Steven in Fuchsia), 755 (Koga), 1226; L12442-L12551 closes the Squirtle Squad (flag 1094) and L12563-L12586 cancels the marathon (var 0x40db = 2). Hide-flag matches checked in the zone listings (landmarks): zone 56 Goh 1683, Cynthia and Steven 1207, zone 480 Koga 755. The Route 5 raid, burglary case and Swablu closes are from guide/02 q-0033, q-0035 and guide/03 q-0054, q-0056; the burglary case only closes if the Route 24 grunt is not beaten yet."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**Getting into Saffron.** An invisible barrier seals all four gates. At the Route 8 gate (the Lavender side) Sabrina, Agatha and your friend explain it and send you to check the other three gates: talk to at least one **person** (not a Pokémon) at the north, south and west gates. Then go back to Sabrina and say Yes: she sends you through her pocket dimension. Inside, the caretaker in the house in the south-east gives you the **Sub. Doll** and sends you into the occupied Saffron Gym. Blue joins you there and you fight off the Rockets together; he suggests sneaking into Silph Co.
+"""
+unlocks = ["q-0111"]
+evidence = "guide/04 q-0111 (script file 188 script 16, L618-L2723; gate flags 1494-1496 cleared by talking to people: files 179, 184, 186; Warp 405; Blue's scene in message bank 524 lines 20-44, played in the emulator by the earlier author)."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**Silph Co.** Use the elevator to Rotom's Room (guarded by four Grunts and Executive Lawrence, who is Lv. 73-74: bring a healthy team). A glowing floor panel in the south-east corner leads to the hostages' floor. There, after Jessie, James and the Maxie fight, the employee in the hostages' room offers you a **Lv. 70 Lapras**: take it before you go up, because **the hostages leave when the Rocket Boss battle ends**. Outside the Hunyuan Dojo, a Rocket Grunt is bothering Master Ma (optional).
+"""
+unlocks = ["q-0119", "q-0109", "q-0118"]
+evidence = "guide/05 q-0119 (script file 835 scripts 2-8, takeover objects hidden by flag 1208), guide/04 q-0109 (755 script 28 L3176; hostages hidden by flag 1208, set at 834 @5066/@5207), guide/05 q-0118 (824 scripts 37, 38). Rotom's Room is also open before the takeover (flag 1208 hides only the takeover objects); it is placed here because its floor panel is the way onward."
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**The president's office.** Beat Ariana at the top of Silph Co. to reach the office, where the Rocket Boss presses the president to join Team Rocket. Choose how to act (it changes only a few lines), watch your Sub. Doll take the blow, then battle the **Rocket Boss** (Nidoqueen, Beedrill, Rhydon, Marowak, Swampert, Sandslash, all Lv. 100). **Losing does not white you out and the story goes on either way.** You wake up in the Pokémon Center and Lance gives you a Vs. Recorder: **Saffron is freed**, the hostages are gone and Grandma's treats errand in Celadon is over.
+"""
+unlocks = ["q-0112"]
+closes = ["q-0109", "q-0078"]
+evidence = "guide/04 q-0112 (script file 834 script 30 Ariana L1401, choice L3400/L3756, battle L4755, Vs. Recorder L5641, end flags L5948-L6010; liberation sets 0x40cf = 5 @5994, which closes Grandma's errand, and clears Koga's hide flag 755 @5968)."
+
+[[steps]]
+id = "s06"
+main = true
+text = """
+**The Marsh Badge.** With Saffron free again, battle **Sabrina** in her Gym for the **Marsh Badge**, which lets your Pokémon use Fly outside battle. She registers her number and tells you to visit the **Alto Mare Islands**, where Granny Mae has mastered ultimate moves: **the Vermilion harbor has reopened**, so take your S.S. Ticket there. The Marsh Badge also unlocks two strong optional Trainers: Veteran Dawn on Route 9 now, and Ace Trainer Marisa on Route 11 once a later story scene in Johto has played. Koga is back in Fuchsia for anything left in that town.
+"""
+evidence = "script file 826 (script 1: Marsh Badge only once flag 1166 (Saffron freed) is set, GiveBadge 4 @165; script 3 @830-@1013: Sabrina's number, 'The harbor in Vermilion City is open again. Take your S.S. Ticket there', clears the harbor and island flags 1494-1508/2013-2019, sets 0x4097 = 2); guide/03 q-0066 (Route 9 Dawn: CheckBadge 4; Route 11 Marisa: CheckBadge 4 and flag 759)."
+
+[[quests]]
+id = "q-0065"
+needs = ["q-0113", "q-0124"]
+available_note = "Needs the Volcano Badge, the Saffron Gym test (Chapter 8) and the Detrick lab scene (Chapter 10)."
+
+[[quests]]
+id = "q-0110"
+needs = ["q-0065"]
+
+[[quests]]
+id = "q-0111"
+needs = ["q-0065"]
+
+[[quests]]
+id = "q-0119"
+available_note = "You need a Rotom in your party. The room is repeatable and free; before the takeover it is a quiet server room."
+
+[[quests]]
+id = "q-0109"
+missable = true
+needs = ["q-0111"]
+available_note = "Take it before the Rocket Boss battle: the hostages leave afterwards."
+level_note = "The Lapras is Lv. 70."
+
+[[quests]]
+id = "q-0118"
+needs = ["q-0111"]
+
+[[quests]]
+id = "q-0112"
+needs = ["q-0111"]
+available_note = "The first half (President Goodshow's meeting) is in Chapter 8; this is the takeover finale."

@@ -64,7 +64,7 @@
 *Source:* script file 792 (script 15, L2295–L3166; flag 1883). Attendant at ≈12,3 on the roof map.
 
 ## Celadon Department Store roof: Tony and Mary's grooming (missable)
-<!-- quest: kind=side; id=q-0077 -->
+<!-- quest: kind=side; id=q-0077; missable=yes -->
 
 **Where:** Department Store roof (6F). Two "grooming genius" Breeders, Tony and Mary, work in the left-hand (west) corner of the roof with a queue of customers in front of them. A Kirlia owner standing just above the queue grumbles that Ms. Suzie in the Celadon Condominiums is far better. Suzie is in the Condominiums lobby (1F), in the upper right part of the room.
 
@@ -82,7 +82,7 @@
 *Source:* script files 792 (script 21, coord trigger at 4,5 on var 0x40d0 = 0, which is also the var's starting value; Tony/Mary hide flags 1544/1545 start clear; scripts 11, 15; the quest var is set to 2 at @1530, before the Jessie & James battle, and flags 1544/1545 set, 1535 cleared; Beedrill is trainer 462), 794 (script 1, L728/L1387/L758; $2,000 at L788 whenever flag 1535 is clear and 0x40d0 ≠ 2), 186 (Route 7 scene end, @1783/@1819, sets flag 1535 and 0x40d0 = 1, disarming the trigger; 794 @1402 sets it back to 0 after the free massage), 783 L4581–L4612 (closes it). Positions on the roof map: Tony ≈1,8, Mary ≈1,7, Kirlia owner ≈2,5; Suzie ≈10,5 on Condominiums 1F. Emulator (`emu_harness.py guide0107 --case tony`, both ROMs): with 0x40d0 = 0 and 1535 clear Suzie offers the paid massage (494#0); the roof trigger plays the scene, Beedrill 462 and then 460 + 461, and 0x40d0 is 2 (1544/1545 set, 1535 clear) when Jessie & James's battle starts; from that state Suzie offers the free massage (494#36).
 
 ## Celadon Condominiums → Silph Co. 5F: Grandma's treats for Shota (Master Ball; missable)
-<!-- quest: kind=side; id=q-0078 -->
+<!-- quest: kind=side; id=q-0078; missable=yes -->
 
 **Where:** an old woman with a Pikachu on **Celadon Condominiums 2F**, and the head of R&D on **Silph Co. 5F** in Saffron. To reach 2F, take the stairs on the right-hand (east) side of the Condominiums lobby; Grandma stands a few steps up from where you arrive, next to a photo album. On Silph Co. 5F, the head of R&D is in the right-hand (east) half of the floor, near the bottom.
 
@@ -274,7 +274,7 @@ Not a quest, but a money tip. Until the Gloom search ends, coins cost **$20** ea
 *Source:* file 810 (script 6, L420). Rangers' house door ≈1229,407 (not ≈1222,435, which is Baoba's family room); ranger ≈37,6.
 
 ## Fuchsia City: Goh and the Tropius on display (choice, no reward)
-<!-- quest: kind=side; id=q-0089 -->
+<!-- quest: kind=side; id=q-0089; missable=yes -->
 
 **Where:** the Tropius exhibit a few steps south-west of the Safari Zone entrance. Goh stands next to it.
 
@@ -291,7 +291,7 @@ Either way Goh leaves and there is no item.
 *Source:* file 804 (script 14, L4293, L4759, L5503; Goh is trainer 323; hide flag 1683, set by the takeover, file 17 @12119). Exhibit ≈1207,408, Goh ≈1207,411.
 
 ## Fuchsia City: Cynthia and Steven (after the Soul Badge, before the Saffron takeover)
-<!-- quest: kind=side; id=q-0090 -->
+<!-- quest: kind=side; id=q-0090; missable=yes -->
 
 **Where:** Cynthia with her Garchomp just below and left of the Gym door. Steven with his Metagross in the Safari Zone entrance building, on the left side.
 
@@ -329,7 +329,7 @@ Either way Goh leaves and there is no item.
 *Source:* file 210 (scripts 6, 9; L1158–L3666; available while var 0x40db = 0; leaving sets flag 1198). Lara ≈1167,433–434, Tauros ≈1160,434.
 
 ## Route 15 → Route 14: the Cape Battle Marathon (missable)
-<!-- quest: kind=side; id=q-0093 -->
+<!-- quest: kind=side; id=q-0093; missable=yes -->
 
 **Where:** Route 15, entered from the Fuchsia gatehouse. The receptionist stands a few steps east of the gatehouse exit.
 
@@ -358,7 +358,7 @@ Losing any battle before Dudley whites you out. **Losing to Dudley is allowed:**
 *Source:* file 203 (scripts 2, 4–9, 14; L1125–L4647; stage 2 trainers 375, 376, 372, 394, optional 353; stage 3 trainer 426 single), file 202 (script 3, L974–L3606; Don 463, Jessie 464, James 465, Dudley 466 as `TrainerBattle 466 0 1 0`), file 201 (script 28, coord gated by var 0x40db = 0), file 210 (script 9, L1322), file 17 L12563 (cancel sets var 0x40db = 2). Positions: receptionist ≈1253,423, healer ≈1334,431, stage 2 ≈1278–1292,433.
 
 ## Fuchsia City: the Dodrio owner's White Flute (Battle Marathon; before the Saffron takeover)
-<!-- quest: kind=side; id=q-0094 -->
+<!-- quest: kind=side; id=q-0094; missable=yes -->
 
 **Where:** in Fuchsia, a man with a Dodrio (in the south part of town, a few steps below the door of Baoba's family house) and a woman with an Electrode (in the north, a few steps south-east of the Safari Zone entrance).
 
@@ -435,7 +435,7 @@ After all eight, the **Champion, Ace Trainer Gus** (near the guide at the east e
 *Source:* file 199 (scripts 6, 8, 14; L1384, L1728, L2686, L3119; `WildBattle 143` at @1440, then `CheckBattleWon`, which also counts a flee or a catch as a win, emulator-confirmed for the Victory Road Electrode; a win sets the hide flag 1158 at @1464, a loss goes to `WhiteOut` at L2493). Positions: Snorlax ≈1426–1427,305–306, Route 11 gate door ≈1408,305, farmer ≈1410,305, Jet ≈1428,306.
 
 ## Route 12: Prof. Birch's Torchic (missable)
-<!-- quest: kind=side; id=q-0099 -->
+<!-- quest: kind=side; id=q-0099; missable=yes -->
 
 **Where:** south part of Route 12, below the sleeping Snorlax. Prof. Birch stands five steps west of the Fishing Guru's house door. A wild Poochyena is chasing him.
 
@@ -539,7 +539,7 @@ Continues [Route 9: the Butterfree girl](03-vermilion-to-celadon.md#route-9-the-
 *Source:* file 199 (script 7, obj 1 with no hide flag; one TM per purchase at L1488/L1548/L1608/L1668; items 332, 333, 335, 337; no badge or flag check). Salesman ≈1427,293.
 
 ## Route 12: other optional battles
-<!-- quest: kind=side; id=q-0105 -->
+<!-- quest: kind=side; id=q-0105; missable=yes -->
 
 - **Cynthia** (at the north end of Route 12, with Gabite) offers a battle against her new catches (Feebas, Spiritomb, Gabite, Lucario, Lv. 25–30). One time only, no prize. She leaves Route 12 after the meeting with President Goodshow and Lance at Silph Co., so it's missable.
 - **Picnicker Lily**, the would-be ninja (in the south part of the route, on the west side): "Want to see?" → Yes → Double Battle → **Poison Barb** (once).
@@ -609,7 +609,7 @@ Continues [Misty's romance](02-pewter-to-vermilion.md#cerulean-gym--cerulean-cap
 *Source:* file 809 (receptionist: L5439 room check, L5785 weekday branches clearing hide flags 2124–2131, L6431–L6528 $10,000 and warp to map 109); file 12 (48 one-time battles, scripts 7–54); wild table record = 142 + weekday − 1 (arm9 0x0203A7B0, D-1484). Monday branch L6143: `ScrCmd_522` (the current hour, observed) 7–18 → L6679 clears 2124 + 2127 (A, D), else 2128 + 2131 (E, H); emulator `emu_harness.py guide0107 --case monday` (00:30, 06:30 → E+H; 07:30, 12:30, 18:30 → A+D; 19:30, 23:30 → E+H).
 
 ## Silph Co. (Saffron takeover): the employee's Lapras (missable)
-<!-- quest: kind=side; id=q-0109 -->
+<!-- quest: kind=side; id=q-0109; missable=yes -->
 
 **Where:** Silph Co. cafeteria floor, among the locked-up hostages (next to the hostage who heals your Pokémon), during the Team Rocket occupation of Saffron.
 

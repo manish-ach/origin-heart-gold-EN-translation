@@ -248,7 +248,7 @@ Losing the last Archie battle also sinks the ship, even with the bomb defused: t
 *Source:* file 5 (script 4, L532, L749; script 1, L473, L608; script 8). Statue ≈23,75; Brock ≈36,4. The statue needs var 0x40A2 ≥ 13, set right after Goodshow's closing line at the Silver Conference closing ceremony (file 107 @9518); Goodshow's briefing (file 31 @1625) sets 14. Brock: file 5 L608 hides him (flag 610) unless the hour is 17 **and** 18 **and** 19 (same pattern as the Celadon street photographer; hack finding).
 
 ## Route 11: the Swablu from the shelter
-<!-- quest: kind=side; id=q-0054 -->
+<!-- quest: kind=side; id=q-0054; missable=yes -->
 
 Continues [Route 5: the Pokémon shelter raid](02-pewter-to-vermilion.md#route-5-the-pokémon-shelter-raid-after-the-cascade-badge).
 
@@ -291,7 +291,7 @@ Continues [Route 5: the Pokémon shelter raid](02-pewter-to-vermilion.md#route-5
 *Source:* file 197 (scripts 5, 6; L1335, L2239, L2489, L3415, L3466; the argument sets flag 1894 at @1570; the loser's hide flag is 1610 or 1895), file 110 (Victory Road 3F checks 1610/1895). Positions ≈1377–1380,305.
 
 ## Route 9: the Squirtle Squad steals your Pokédex (Pikachu starters only)
-<!-- quest: kind=side; id=q-0056 -->
+<!-- quest: kind=side; id=q-0056; missable=yes -->
 
 **Where:** Route 9. The trap is a Poké Ball on the ground at the far west end of the route. The gang waits further east, on the north side of the route.
 
