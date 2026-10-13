@@ -18,6 +18,8 @@ import tempfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, '..', '..', '..'))
 GUIDE = os.path.join(REPO, 'guide')
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import chapters as chapters_mod  # noqa: E402
 OUT = os.path.join(REPO, 'site', 'public', 'downloads', 'origin-heartgold-guide.pdf')
 SITE_URL = os.environ.get('GUIDE_PUBLIC_URL', '')
 
@@ -35,8 +37,49 @@ TEMPLATE_HEADER = r'''
 
 
 def chapters():
-    files = sorted(f for f in os.listdir(GUIDE) if re.match(r'^\d+-.*\.md$', f))
+    """Guide files that are plain pages and go after the chapters (the quest files only supply quest entries)."""
+    files = [f for f in sorted(os.listdir(GUIDE)) if f == '08-ruins-of-alph-silver.md']
     return files + (['known-issues.md'] if os.path.exists(os.path.join(GUIDE, 'known-issues.md')) else [])
+
+
+def quest_blocks():
+    """quest id -> its Markdown entry (H2 to the next H2), read from the numbered guide files."""
+    blocks = {}
+    for fn in sorted(os.listdir(GUIDE)):
+        if not re.match(r'^\d+-.*\.md$', fn) or fn == '08-ruins-of-alph-silver.md':
+            continue
+        cur = None
+        for ln in open(os.path.join(GUIDE, fn), encoding='utf-8').read().split('\n'):
+            if ln.startswith('## '):
+                cur = [ln]
+                continue
+            if cur is None:
+                continue
+            m = re.match(r'^<!--\s*quest:.*?\bid=(q-\d+).*-->\s*$', ln.strip())
+            if m and len(cur) <= 2:
+                blocks[m.group(1)] = cur
+                QUEST_FILE[m.group(1)] = fn
+            cur.append(ln)
+    return {k: '\n'.join(v) for k, v in blocks.items()}
+
+
+def chapter_markdown(ch, blocks):
+    """One chapter file -> Markdown: title, intro, walkthrough, then its quest entries."""
+    out = ['# ' + ch['title'], '', ch['intro'].strip(), '']
+    if ch['steps']:
+        out += ['## Walkthrough', '']
+        for st in ch['steps']:
+            out += [st['text'].strip(), '']
+            if st.get('unlocks'):
+                out += ['Opens up:', ''] + ['- ' + QUEST_TITLES[q] for q in st['unlocks']] + ['']
+            if st.get('closes'):
+                out += ['**Warning: this closes for good:**', ''] + ['- ' + QUEST_TITLES[q] for q in st['closes']] + ['']
+    for q in ch['quests']:
+        out += [blocks[q['id']].rstrip('\n'), '']
+        extra = [x for x in (q.get('available_note'), q.get('level_note')) if x]
+        if extra:
+            out += ['*' + ' '.join(extra) + '*', '']
+    return '\n'.join(out)
 
 
 def gh_slug(s):
@@ -82,6 +125,8 @@ def prepare(fn, text):
 
 
 CHAPTER_IDS = {}
+QUEST_TITLES = {}
+QUEST_FILE = {}
 
 
 def main(argv=None):
@@ -106,9 +151,21 @@ def main(argv=None):
              intro_par, '',
              ('The full guide, with the Pokédex, every location, items, trainers and move tutors, is online at <%s>. '
               'Report mistakes there.' % SITE_URL) if SITE_URL else '', '']
+    blocks = quest_blocks()
+    for q, text in blocks.items():
+        QUEST_TITLES[q] = text.split('\n')[0][3:].strip()
+    for ch in chapters_mod.load():
+        for q in ch['quests']:  # a link to a whole region file goes to the first chapter that holds one of its quests
+            CHAPTER_IDS.setdefault(QUEST_FILE[q['id']], gh_slug(ch['title']))
+    for ch in chapters_mod.load():
+        parts.append(prepare('chapter', chapter_markdown(ch, blocks)))
     for fn in chapters():
         parts.append(prepare(fn, open(os.path.join(GUIDE, fn), encoding='utf-8').read()))
     md = '\n'.join(title) + '\n\n' + '\n\n'.join(parts) + '\n'
+    # An in-document link needs a heading to land on. Targets that only exist on the website (HTML widgets such as
+    # the Forest of Time route viewer) have no heading in the PDF: keep the link text, drop the link.
+    ids = {gh_slug(m.group(1)) for m in re.finditer(r'^#{1,6} (.+)$', md, flags=re.M)}
+    md = re.sub(r'\[([^\]]*)\]\(#([^)\s]+)\)', lambda m: m.group(0) if m.group(2) in ids else m.group(1), md)
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
     with tempfile.TemporaryDirectory() as tmp:
         src = os.path.join(tmp, 'guide.md')

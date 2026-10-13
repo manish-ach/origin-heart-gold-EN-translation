@@ -1,0 +1,30 @@
+---
+// Old region pages (/guide/pewter-to-vermilion/) no longer exist: the guide is split into chapters.
+// This page forwards an old link, including its #anchor, to the chapter that now holds that quest.
+import legacy from "../../generated/guide_legacy.json";
+
+export function getStaticPaths() {
+  return Object.keys(legacy).map((slug) => ({ params: { legacy: slug } }));
+}
+const { legacy: slug } = Astro.params;
+const entry = (legacy as Record<string, { default: string; anchors: Record<string, string> }>)[slug];
+const base = import.meta.env.BASE_URL.replace(/\/?$/, "/");
+const first = `${base}guide/${entry.default}/`;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <title>Guide moved</title>
+    <noscript><meta http-equiv="refresh" content={`0; url=${first}`} /></noscript>
+    <script is:inline define:vars={{ entry, base }}>
+      const hash = decodeURIComponent(location.hash.slice(1));
+      const chapter = entry.anchors[hash] || entry.default;
+      location.replace(`${base}guide/${chapter}/${entry.anchors[hash] ? "#" + hash : ""}`);
+    </script>
+  </head>
+  <body>
+    <p>The quest guide is now split into chapters. <a href={first}>Continue to the guide</a>.</p>
+  </body>
+</html>

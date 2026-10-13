@@ -352,3 +352,16 @@ section.quest { padding: 1.25rem; margin-block: 1.5rem; border: 1px solid var(--
   .table-scroll > table > tbody > tr > td:first-child { position: static; box-shadow: none; }
   section.quest { break-inside: avoid; }
 }
+
+/* ---- chapter pages: walkthrough steps, "opens up" lists and warning boxes */
+.chapter-step { margin: 1rem 0; padding-left: 0.9rem; border-left: 3px solid var(--sl-color-accent); }
+.chapter-step.chapter-optional { border-left-color: var(--sl-color-gray-4); }
+.chapter-unlocks, .chapter-warning { margin: 0.6rem 0; padding: 0.5rem 0.8rem; border-radius: 0.4rem; font-size: var(--sl-text-sm); }
+.chapter-unlocks { background: var(--sl-color-accent-low); }
+.chapter-warning { background: #4a1d1d; color: #fff; border: 1px solid #8a2b2b; }
+:root[data-theme='light'] .chapter-warning { background: #fbe4e4; color: #5a1010; border-color: #c06060; }
+.chapter-unlocks ul, .chapter-warning ul { margin: 0.3rem 0 0; padding-left: 1.2rem; }
+.chapter-warning a { color: inherit; text-decoration: underline; }
+li.chapter-quest.is-done > a { text-decoration: line-through; opacity: 0.6; }
+li.chapter-quest.is-hidden, .chapter-unlocks.is-hidden, .chapter-warning.is-hidden { display: none; }
+p.quest-note { margin: 0.4rem 0 !important; padding: 0.3rem 0.6rem; border-left: 3px solid var(--sl-color-accent); background: var(--sl-color-accent-low); font-size: var(--sl-text-sm); }

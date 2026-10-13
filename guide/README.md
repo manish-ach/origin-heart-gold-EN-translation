@@ -1,30 +1,20 @@
 # Origin HeartGold quest guide
 
-Main quests, side quests, puzzles and easy-to-miss events in Origin HeartGold (起源心金 v4.0.3), region by region in rough play order.
+Main quests, side quests, puzzles and easy-to-miss events in Origin HeartGold (起源心金 v4.0.3), in the order the game unlocks them, chapter by chapter.
 
 The quest instructions are based on the game's event scripts, maps, trainers and wild Pokémon tables, with specific audit findings noted beside the affected steps. Steps that were checked in an emulator say so; most others have not been played through. The English patch doesn't change what happens in quests, so what's described is how the original Chinese hack behaves. Directions are approximate, and steps marked "not confirmed in game" have not been checked by playing. The game starts in Pallet Town in Kanto. Johto opens up after you become Kanto Champion and finish the story scenes that follow (see [Pokémon League, Mt. Silver and New Bark Town](07-league-to-cherrygrove.md)).
 
 Several quests depend on your **starter** (Charmander, Pikachu or Bulbasaur), gender, the weekday, or earlier choices. Each entry says so in its title or under **Who gets it**. "Post-game" in this guide means after your **final** Hall of Fame entry; things that open after your first one say so.
 
-On the website, every entry has a **Main quest** or **Side quest** tag. Main quests cover story and badge progression, including conditional story routes and walkthroughs; side quests cover optional activities and rewards. **Post-game** tags mark entries that open only after the final Hall of Fame. Use **Quest type** and **Progress** at the top of each chapter to filter them alongside your starter, character and finished quests. Entries with both earlier and later steps stay visible before post-game; read their steps for the later unlocks. Your filters are remembered between chapters, and a quest you follow a direct link to always stays visible.
+On the website, every entry has a **Main quest** or **Side quest** tag. Main quests cover story and badge progression, including conditional story routes and walkthroughs; side quests cover optional activities and rewards. **Post-game** tags mark entries that open only after the final Hall of Fame. Use **Quest type** at the top of each chapter to filter them alongside your starter, character and finished quests. Your filters are remembered between chapters, and a quest you follow a direct link to always stays visible.
 
 The website also has [moves](/moves/), [abilities](/abilities/), [TMs and HMs](/tms/) and [items](/items/). Their evidence labels separate configured game data, in-game text, attributed author notes and specific gameplay tests. [Reference sources](/reference-sources/) explains coverage and conflicts; an author note or matching data does not prove an event can be reached.
 
-## Regions
+## Chapters
 
-- [Pallet Town to Pewter City](01-pallet-to-pewter.md) (22)
-- [Pewter City to Vermilion City](02-pewter-to-vermilion.md) (23)
-- [Vermilion City to Celadon City](03-vermilion-to-celadon.md) (30)
-- [Celadon City, Fuchsia City and Saffron City](04-celadon-fuchsia-saffron.md) (37)
-- [Saffron City to Cinnabar Island](05-saffron-cinnabar.md) (38)
-- [Sevii Islands and Indigo Plateau](06-sevii-islands-indigo.md) (27)
-- [Pokémon League, Mt. Silver and New Bark Town](07-league-to-cherrygrove.md) (21)
-- [Cherrygrove City to Azalea Town](08-cherrygrove-to-azalea.md) (42)
-- [Ilex Forest and Goldenrod City](09-ilex-goldenrod.md) (28)
-- [Radio Tower, Ecruteak City and Olivine City](10-ecruteak-olivine.md) (37)
-- [Battle Frontier, Cianwood City and Mahogany Town](11-cianwood-mahogany.md) (25)
-- [Lake of Rage, Blackthorn City and beyond](12-lake-of-rage-to-sinjoh.md) (31)
-- [Dungeons, Battle Tower and game-wide events](13-dungeons-and-common.md) (6)
+Each chapter says where to go next (the main quest), which quests it opens up, and which ones it closes for good. Post-game chapters come last. The chapters are listed on the website; on GitHub they are the files in `guide/chapters/`, and the quest entries themselves are in the numbered files beside this one.
+
+<!-- chapter-list -->
 
 - [Hidden items](hidden-items.md): every hidden item with a screenshot of where to stand and press A.
 - [Known issues](known-issues.md): suspected bugs in the original hack that affect quests (reported, not fixed).

@@ -35,7 +35,7 @@ text = """
 - Route 37 and the rest of town have small extras (Sunny the Sunday sibling, the S.S. Anne fan, the Eruption tutor and more).
 """
 unlocks = ["q-0285", "q-0282", "q-0283", "q-0284", "q-0289", "q-0287", "q-0286", "q-0293"]
-evidence = "guide/10 q-0285 ('after the Burned Tower chapter'; Gold leaves when the Route 39 scene plays), q-0282, q-0283, q-0284, q-0286 (hand over a Water Stone; skipped once you hold the Rising Badge), q-0287, q-0289 (needs the Pidgey letter from q-0271), q-0293 (Aura Sphere tutor after the Burned Tower battle). Gym opens with var 0x4098 = 7 and flag 462 (file 23 script 1, @3517)."
+evidence = "guide/10 q-0285 ('after the Burned Tower chapter'; Gold leaves when the Route 39 scene plays), q-0282, q-0283, q-0284, q-0286 (hand over a Water Stone; skipped once you hold the Rising Badge), q-0287 (NOCLOSE q-0287: a one-time choice, nothing later closes it), q-0289 (needs the Pidgey letter from q-0271), q-0293 (Aura Sphere tutor after the Burned Tower battle). Gym opens with var 0x4098 = 7 and flag 462 (file 23 script 1, @3517)."
 
 [[steps]]
 id = "s03"
@@ -75,6 +75,7 @@ available_note = "Needs a Water Stone. Once you hold the Rising Badge Sakura no 
 
 [[quests]]
 id = "q-0287"
+missable = true
 available_note = "A one-time choice: only 'Then give it to me' gets the Shellos."
 
 [[quests]]

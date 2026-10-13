@@ -60,9 +60,7 @@
 			<label>Starter <select name="starter"><option value="">Any</option><option>Charmander</option><option>Pikachu</option><option>Bulbasaur</option></select></label>
 			<label>Playing as <select name="gender"><option value="">Either</option><option value="male">Boy</option><option value="female">Girl</option></select></label>
 			<label>Quest type <select name="kind"><option value="">All quests</option><option value="main">Main quest</option><option value="side">Side quest</option></select></label>
-			<label>Progress <select name="progress"><option value="">All stages</option><option value="before">Before post-game</option><option value="postgame">Post-game only</option></select></label>
 			<label><input type="checkbox" name="hidedone"> Hide finished</label>
-			<span class="quest-filter-help">Post-game quests open after your final Hall of Fame entry. Entries with earlier steps stay under “Before post-game”.</span>
 			<span class="hidden-count" role="status" aria-live="polite"></span>`;
 		const content = document.querySelector('.sl-markdown-content');
 		content?.prepend(panel);
@@ -70,8 +68,6 @@
 		$('starter').value = ['Charmander', 'Pikachu', 'Bulbasaur'].includes(setup.starter) ? setup.starter : '';
 		$('gender').value = ['male', 'female'].includes(setup.gender) ? setup.gender : '';
 		$('kind').value = ['main', 'side'].includes(setup.kind) ? setup.kind : '';
-		// Preserve the old “Show quests after the final Hall of Fame” preference.
-		$('progress').value = ['', 'before', 'postgame'].includes(setup.progress) ? setup.progress : setup.postgame === false ? 'before' : '';
 		$('hidedone').checked = !!setup.hidedone;
 
 		for (const q of quests) {
@@ -102,8 +98,28 @@
 			return t?.closest('section.quest') || null;
 		};
 
+		// a quest is filtered out when the player's game can't get it (starter, gender) or it is the other quest type
+		const filteredOut = (ds, s) => !!((s.starter && ds.starter && !ds.starter.split(',').includes(s.starter)) ||
+			(s.gender && ds.gender && !ds.gender.split(',').includes(s.gender)) || (s.kind && ds.kind && ds.kind !== s.kind));
+
+		// Chapter walkthrough: quest links under "Opens up" and "Warning". Done quests are crossed out; filtered-out ones
+		// vanish. A Warning box disappears when everything in it is done or filtered out, and an empty list goes with its box.
+		function applyChapterLinks(s) {
+			for (const li of document.querySelectorAll('li.chapter-quest')) {
+				const isDone = done.has('quest:' + li.dataset.questId);
+				li.classList.toggle('is-done', isDone);
+				li.classList.toggle('is-hidden', filteredOut(li.dataset, s));
+			}
+			for (const box of document.querySelectorAll('.chapter-warning, .chapter-unlocks')) {
+				const items = [...box.querySelectorAll('li.chapter-quest')];
+				const warn = box.classList.contains('chapter-warning');
+				const live = items.filter((li) => !li.classList.contains('is-hidden') && !(warn && li.classList.contains('is-done')));
+				box.classList.toggle('is-hidden', !live.length);
+			}
+		}
+
 		function apply() {
-			const s = { starter: $('starter').value, gender: $('gender').value, kind: $('kind').value, progress: $('progress').value, hidedone: $('hidedone').checked };
+			const s = { starter: $('starter').value, gender: $('gender').value, kind: $('kind').value, hidedone: $('hidedone').checked };
 			store.set('setup', s);
 			const target = hashQuest();
 			let hidden = 0;
@@ -111,13 +127,11 @@
 				const st = q.dataset.starter?.split(',');
 				const g = q.dataset.gender?.split(',');
 				const key = keyOf(q);
-				const hide = q !== target && ((s.starter && st && !st.includes(s.starter)) || (s.gender && g && !g.includes(s.gender)) ||
-					(s.kind && q.dataset.kind !== s.kind) ||
-					(s.progress === 'before' && q.dataset.postgame === 'yes') ||
-					(s.progress === 'postgame' && q.dataset.postgame !== 'yes') || (s.hidedone && key && done.has(key)));
+				const hide = q !== target && (filteredOut(q.dataset, s) || (s.hidedone && key && done.has(key)));
 				q.classList.toggle('is-hidden', !!hide);
 				if (hide) hidden++;
 			}
+			applyChapterLinks(s);
 			panel.querySelector('.hidden-count').textContent = `${quests.length - hidden} of ${quests.length} quests shown.${hidden === quests.length ? ' No matching quests in this chapter. Change your filters to see more.' : ''}${target ? ' The linked quest stays visible.' : ''}`;
 			// keep the page's table of contents in step
 			document.querySelectorAll('starlight-toc a, mobile-starlight-toc a').forEach((a) => {

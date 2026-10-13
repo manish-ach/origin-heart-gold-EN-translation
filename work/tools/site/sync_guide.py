@@ -31,6 +31,8 @@ import shutil
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+import chapters as chapters_mod  # noqa: E402
 REPO = os.path.abspath(os.path.join(HERE, '..', '..', '..'))
 GUIDE = os.path.join(REPO, 'guide')
 IMAGES = os.path.join(GUIDE, 'images')
@@ -41,6 +43,9 @@ ALIASES = os.path.join(HERE, 'area_aliases.json')
 LEDGER_PATH = os.path.join(HERE, 'quest_ledger.json')
 QUEST_LEDGER = json.load(open(LEDGER_PATH, encoding='utf-8'))
 QUEST_RECORDS = {q['id']: q for q in QUEST_LEDGER['quests']}
+LEGACY_PATH = os.path.join(REPO, 'site', 'src', 'generated', 'guide_legacy.json')
+PLAIN_PAGES = ('index', 'known-issues', 'hidden-items', 'ruins-of-alph-silver')  # pages that are not quest lists
+CHAPTER_LIST_MARKER = '<!-- chapter-list -->'
 
 STARTERS = ('Charmander', 'Pikachu', 'Bulbasaur')
 # Bare heading ids that were shared by two quest pages when Done ticks were keyed by heading id alone.
@@ -66,6 +71,8 @@ def page_slug(fn):
 
 
 def page_order(fn):
+    if fn == '08-ruins-of-alph-silver.md':
+        return 98  # after the chapters
     m = re.match(r'^(\d+)-', fn)
     if m:
         return int(m.group(1))
@@ -228,14 +235,27 @@ class AreaIndex:
         return found[0] if found else None
 
 
-def rewrite_links(text, depth):
-    """guide-relative .md links -> site-relative URLs. depth = directories below /guide/."""
+def rewrite_links(text, depth, link_map=None, unresolved=None):
+    """guide-relative .md links -> site-relative URLs. depth = directories below /guide/.
+
+    link_map maps (guide file, anchor or None) to the chapter page that now holds that quest: the region
+    files are not pages any more, only the chapter pages are. Links that match nothing are collected in
+    `unresolved` (the caller fails the run) and left pointing at the old page."""
     up = '../' * depth
 
     def repl(m):
         target, anchor = m.group(1), m.group(2) or ''
         if target == 'README.md':
             url = up or './'
+        elif link_map is not None and page_slug(target) not in PLAIN_PAGES:
+            chapter = link_map.get((target, anchor[1:] or None))
+            if chapter is None:
+                if unresolved is not None:
+                    unresolved.append('%s%s' % (target, anchor))
+                chapter = page_slug(target)
+            url = up + chapter + '/'
+            if depth == 0:
+                url = './' + url
         else:
             url = up + page_slug(target) + '/'
             if depth == 0:
@@ -399,7 +419,7 @@ def validate_ledger(srcs, ledger=QUEST_LEDGER):
         raise SystemExit('duplicate quest IDs in ledger')
     actual = {}
     for fn, src in srcs.items():
-        if page_slug(fn) in ('index', 'known-issues', 'hidden-items'):
+        if page_slug(fn) in PLAIN_PAGES:
             continue
         for heading, meta in quest_headings(src):
             identity = meta.get('id')
@@ -452,7 +472,7 @@ def validate_ledger(srcs, ledger=QUEST_LEDGER):
         visit(identity)
 
 
-def convert(fn, src, areas, shared_ids=(), report=None, force_mdx=False):
+def convert(fn, src, areas, shared_ids=(), report=None, force_mdx=False, collect=None, link_map=None, unresolved=None):
     """(file name, text) of the site page for guide/<fn>: <slug>.mdx when it has solver markers, else <slug>.md."""
     lines = src.rstrip('\n').split('\n')
     title = None
@@ -464,6 +484,15 @@ def convert(fn, src, areas, shared_ids=(), report=None, force_mdx=False):
     lines = strip_page_toc(lines)
     metas = iter([m for _, m in quest_headings('\n'.join(lines))])
     body, in_quest, pending_meta, solvers = [], False, False, []
+    current = None  # (quest id, info dict, index in body where its <section> starts)
+
+    def close_section():
+        nonlocal current
+        if current and collect is not None:
+            qid, rec, start = current
+            rec['lines'] = body[start:]
+            collect[qid] = rec
+        current = None
     for ln in fold_sources(lines):
         m = SOLVER_RE.match(ln)
         if m:
@@ -484,11 +513,12 @@ def convert(fn, src, areas, shared_ids=(), report=None, force_mdx=False):
         if ln.startswith('## '):
             if in_quest:
                 body += ['', '</section>', '']
+                close_section()
             h = ln[3:].strip()
             meta = next(metas)
             where = 'guide/%s: %s' % (fn, h)
             tags = apply_meta(heading_tags(h), meta, where)
-            if slug not in ('index', 'known-issues', 'hidden-items') and 'kind' not in tags:
+            if slug not in PLAIN_PAGES and 'kind' not in tags:
                 raise SystemExit('%s: add quest metadata with kind=main or kind=side' % where)
             attrs = ['data-%s="%s"' % (k, html.escape(','.join(v) if isinstance(v, list) else v if isinstance(v, str) else 'yes', quote=True)) for k, v in sorted(tags.items())]
             if meta.get('id'):
@@ -508,8 +538,10 @@ def convert(fn, src, areas, shared_ids=(), report=None, force_mdx=False):
                     attrs.extend('data-%s="%s"' % (k, html.escape(v, quote=True)) for k, v in extra.items())
             if gh_slug(h) in shared_ids:
                 attrs.append('data-legacy-shared="yes"')
-            in_quest = slug not in ('index', 'known-issues', 'hidden-items')
+            in_quest = slug not in PLAIN_PAGES
             if in_quest:
+                current = (meta.get('id'), {'title': h, 'tags': tags, 'anchor': gh_slug(h), 'file': fn,
+                                            'solvers': [], 'solver_start': len(solvers)}, len(body))
                 body += ['<section class="quest" %s>' % ' '.join(attrs) if attrs else '<section class="quest">', '']
             body.append(ln)
             body.append('')
@@ -530,7 +562,12 @@ def convert(fn, src, areas, shared_ids=(), report=None, force_mdx=False):
         body.append(ln)
     if in_quest:
         body += ['', '</section>']
-    text = rewrite_links('\n'.join(body), depth)
+        close_section()
+    if collect is not None:
+        for rec in collect.values():
+            if rec['file'] == fn:
+                rec['solvers'] = [n for n in SOLVERS if any(SOLVER_SLOT % n in x for x in rec['lines'])]
+    text = rewrite_links('\n'.join(body), depth, link_map, unresolved)
     text = re.sub(r'\n{3,}', '\n\n', text)
     fm = ['---', 'title: %s' % json.dumps(title or slug), 'sidebar:', '  order: %d' % page_order(fn)]
     if slug == 'index':
@@ -553,6 +590,84 @@ def convert(fn, src, areas, shared_ids=(), report=None, force_mdx=False):
     return page_slug(fn) + '.mdx', '\n'.join(fm) + '\n'.join(head) + text
 
 
+def chapter_list(chapters):
+    """Markdown list of the chapters for the guide index (links relative to /guide/)."""
+    out = []
+    for ch in chapters:
+        out.append('- [%s](./%s/): %s (%d)' % (ch['title'], ch['id'], ch['summary'], len(ch['quests'])))
+    return '\n'.join(out)
+
+
+def build_chapter_page(ch, collect, chapter_of, link_map, unresolved, force_mdx=False):
+    """(file name, text) of the site page for one chapter."""
+    info = collect
+    sections, solvers = {}, []
+    for q in ch['quests']:
+        rec = collect[q['id']]
+        lines = list(rec['lines'])
+        notes = []
+        if q.get('available_note'):
+            notes.append(q['available_note'].strip())
+        if q.get('level_note'):
+            notes.append(q['level_note'].strip())
+        if q.get('needs'):
+            notes.append('Do first: ' + ', '.join(chapters_mod.quest_link(n, info, chapter_of, ch['id']) for n in q['needs']) + '.')
+        if notes:
+            # after the heading and its tag line
+            i = next(k for k, x in enumerate(lines) if x.startswith('## '))
+            j = i + 1
+            while j < len(lines) and not lines[j].strip():
+                j += 1
+            if j < len(lines) and lines[j].startswith('<p class="quest-meta">'):
+                j += 1
+            lines[j:j] = ['', '<p class="quest-note">%s</p>' % ' '.join(notes), '']
+        if q.get('missable') and 'data-missable' not in lines[0]:
+            raise SystemExit('%s: %s is missable in the chapter but the section has no missable tag' % (ch['_file'], q['id']))
+        # "[...](#some-quest)" links inside a quest body: that quest may now sit in another chapter
+        def local(m, fn=rec['file']):
+            target = link_map.get((fn, m.group(1)))
+            if target is None or target == ch['id']:
+                return m.group(0)
+            return '](../%s/#%s)' % (target, m.group(1))
+        lines = [re.sub(r'\]\(#([^)\s]+)\)', local, x) for x in lines]
+        sections[q['id']] = lines
+        solvers += rec['solvers']
+    body = chapters_mod.render_chapter(ch, collect, chapter_of, sections, None, None)
+    text = rewrite_links('\n'.join(body), 1, link_map, unresolved)
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    order = 10 + ch['order']
+    fm = ['---', 'title: %s' % json.dumps(ch['title'], ensure_ascii=False), 'description: %s' % json.dumps(ch['summary'], ensure_ascii=False),
+          'sidebar:', '  order: %d' % order, '  label: %s' % json.dumps(chapters_mod.short_label(ch), ensure_ascii=False),
+          'source: guide/chapters/%s' % ch['_file'], 'editUrl: false', '---', '']
+    text = text.strip('\n') + '\n'
+    if not (solvers or force_mdx):
+        return ch['id'] + '.md', '\n'.join(fm) + text
+    text = escape_mdx(text)
+    comps = sorted({SOLVERS[n] for n in solvers})
+    head = ["import %s from '../../../components/%s.astro';" % (c, c) for c in comps]
+    head += ['', GEN_NOTE % ('chapters/' + ch['_file']), '']
+    for n in dict.fromkeys(solvers):
+        text = text.replace(SOLVER_SLOT % n, '<%s />' % SOLVERS[n])
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    return ch['id'] + '.mdx', '\n'.join(fm) + '\n'.join(head) + text
+
+
+def legacy_map(srcs, collect, chapter_of):
+    """Old region page slug -> {default chapter, anchors}: lets /guide/<old>/#anchor forward to the right chapter."""
+    out = {}
+    for fn in sorted(srcs):
+        slug = page_slug(fn)
+        if slug in PLAIN_PAGES:
+            continue
+        ids = [qid for qid, r in collect.items() if r['file'] == fn]
+        if not ids:
+            continue
+        ids.sort(key=lambda q: chapter_of[q])
+        out[slug] = {'default': chapter_of[ids[0]],
+                     'anchors': {collect[q]['anchor']: chapter_of[q] for q in ids}}
+    return out
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
     ap.add_argument('--check', action='store_true')
@@ -570,7 +685,7 @@ def main(argv=None):
     # so a tick on one of these can't be told apart and is not carried over (see site/public/ohg.js).
     pages_of, quest_ids = {}, {}
     for fn, src in srcs.items():
-        if page_slug(fn) in ('index', 'known-issues', 'hidden-items'):
+        if page_slug(fn) in PLAIN_PAGES:
             continue
         for h, meta in quest_headings(src):
             pages_of.setdefault(gh_slug(h), set()).add(fn)
@@ -581,9 +696,47 @@ def main(argv=None):
         raise SystemExit('duplicate quest ids in <!-- quest: id=... -->: %s' % dup)
     shared = LEGACY_SHARED_IDS | {k for k, v in pages_of.items() if len(v) > 1}
     want, report = {}, []
+    chapters = chapters_mod.load()
+    ledger_ids = {q['id'] for q in QUEST_LEDGER['quests']}
+    collect, unresolved = {}, []
+    # pass 1: the quest files only give up their quest sections (they are not pages any more)
     for fn, src in srcs.items():
-        name, text = convert(fn, src, areas, shared, report, a.all_mdx)
+        if page_slug(fn) not in PLAIN_PAGES:
+            convert(fn, src, areas, shared, report, a.all_mdx, collect=collect)
+    missable_ids = {qid for qid, r in collect.items() if r['tags'].get('missable')}
+    errors = chapters_mod.validate(chapters, ledger_ids, missable_ids)
+    if errors:
+        raise SystemExit('guide/chapters: %d problems, first ones:\n  ' % len(errors) + '\n  '.join(errors[:15]))
+    chapter_of = {q['id']: ch['id'] for ch in chapters for q in ch['quests']}
+    link_map = {}
+    first_of_file = {}
+    for ch in chapters:
+        for q in ch['quests']:
+            rec = collect[q['id']]
+            link_map[(rec['file'], rec['anchor'])] = ch['id']
+            first_of_file.setdefault(rec['file'], ch['id'])
+    for fn, ch_id in first_of_file.items():
+        link_map[(fn, None)] = ch_id
+    # pass 2: pages that stay (index, known issues, hidden items) with links to the chapter pages
+    for fn, src in srcs.items():
+        if page_slug(fn) in PLAIN_PAGES:
+            name, text = convert(fn, src, areas, shared, report, a.all_mdx, link_map=link_map, unresolved=unresolved)
+            if page_slug(fn) == 'index':
+                text = text.replace(CHAPTER_LIST_MARKER, chapter_list(chapters))
+            want[name] = text
+    for ch in chapters:
+        name, text = build_chapter_page(ch, collect, chapter_of, link_map, unresolved, a.all_mdx)
         want[name] = text
+    # quest bodies link to each other: every such link must land on a chapter page
+    if unresolved:
+        raise SystemExit('guide links that match no quest heading (fix the anchor in the guide):\n  ' + '\n  '.join(sorted(set(unresolved))))
+    legacy = legacy_map(srcs, collect, chapter_of)
+    legacy_text = json.dumps(legacy, indent=1, ensure_ascii=False, sort_keys=True) + '\n'
+    legacy_old = open(LEGACY_PATH, encoding='utf-8').read() if os.path.exists(LEGACY_PATH) else None
+    if legacy_old != legacy_text and not a.check:
+        os.makedirs(os.path.dirname(LEGACY_PATH), exist_ok=True)
+        with open(LEGACY_PATH, 'w', encoding='utf-8') as fh:
+            fh.write(legacy_text)
     if a.unmatched:
         for r in report:
             print('no location link: ' + r)

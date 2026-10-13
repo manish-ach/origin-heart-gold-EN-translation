@@ -11,16 +11,16 @@ The story often moves on only after you talk to the right person, sometimes some
 
 | Where you're stuck | What to do |
 |---|---|
-| Pewter City: Brock keeps leaving the Gym | Follow him to the north-east house, the museum (answer his siblings' quizzes) and the flower garden. [Finding Brock](../guide/pewter-to-vermilion/#pewter-city-finding-brock-the-gym-leaders-errands) |
-| Mt. Moon: guards block the way | [What opens the roadblock](../guide/pewter-to-vermilion/#mt-moon-what-opens-the-fake-guards-roadblock) |
-| Vermilion City: "ask around town some more" | Talk to all six people involved, including Granny Kin right next to Lt. Surge at the construction site, then go back to Blue or your friend in the Pokémon Center. [The construction-site dispute](../guide/vermilion-to-celadon/#vermilion-city-the-construction-site-dispute-choose-a-side) |
-| Lavender Town: nothing happens at the Pokémon Tower | Go to Mr. Fuji's Pokémon House and talk to the Cubone. [Pokémon Tower](../guide/vermilion-to-celadon/#pokémon-tower-side-battles-and-extras) |
-| Lavender Town: "I want to see you..." and you can't leave town | The Lavender curse: buy the fortune-teller's 10 Cleanse Tags and use them at an exit, then talk to the girl in the fortune-teller's house and answer No. [The girl who waits](../guide/vermilion-to-celadon/#route-10--lavender-town-the-girl-who-waits-the-lavender-curse) |
-| Celadon City: where is Erika's Gloom? | [The stolen Gloom](../guide/vermilion-to-celadon/#celadon-city-the-stolen-gloom-story-chain-easy-to-get-stuck) |
-| Celadon Rocket base: the Persian statue password | The password changes with the day of the week and the hour. [How to read it](../guide/vermilion-to-celadon/#celadon-rocket-warehouse-the-secret-passage-and-the-persian-statue-password) |
-| Saffron City: a barrier blocks every gate | Talk to someone at the north, south and west gates, then go back to Sabrina at the east gate (Route 8). [Getting past the barrier](../guide/celadon-fuchsia-saffron/#saffron-city-takeover-getting-past-the-barrier-into-the-city) |
+| Pewter City: Brock keeps leaving the Gym | Follow him to the north-east house, the museum (answer his siblings' quizzes) and the flower garden. [Finding Brock](../guide/ch01-first-badge/#pewter-city-finding-brock-the-gym-leaders-errands) |
+| Mt. Moon: guards block the way | [What opens the roadblock](../guide/ch02-mt-moon/#mt-moon-what-opens-the-fake-guards-roadblock) |
+| Vermilion City: "ask around town some more" | Talk to all six people involved, including Granny Kin right next to Lt. Surge at the construction site, then go back to Blue or your friend in the Pokémon Center. [The construction-site dispute](../guide/ch05-vermilion-thunder/#vermilion-city-the-construction-site-dispute-choose-a-side) |
+| Lavender Town: nothing happens at the Pokémon Tower | Go to Mr. Fuji's Pokémon House and talk to the Cubone. [Pokémon Tower](../guide/ch07-rock-tunnel-lavender/#pokémon-tower-side-battles-and-extras) |
+| Lavender Town: "I want to see you..." and you can't leave town | The Lavender curse: buy the fortune-teller's 10 Cleanse Tags and use them at an exit, then talk to the girl in the fortune-teller's house and answer No. [The girl who waits](../guide/ch07-rock-tunnel-lavender/#route-10--lavender-town-the-girl-who-waits-the-lavender-curse) |
+| Celadon City: where is Erika's Gloom? | [The stolen Gloom](../guide/ch08-celadon/#celadon-city-the-stolen-gloom-story-chain-easy-to-get-stuck) |
+| Celadon Rocket base: the Persian statue password | The password changes with the day of the week and the hour. [How to read it](../guide/ch08-celadon/#celadon-rocket-warehouse-the-secret-passage-and-the-persian-statue-password) |
+| Saffron City: a barrier blocks every gate | Talk to someone at the north, south and west gates, then go back to Sabrina at the east gate (Route 8). [Getting past the barrier](../guide/ch11-saffron-takeover-marsh-badge/#saffron-city-takeover-getting-past-the-barrier-into-the-city) |
 
-Some story choices only come once, like the [bomb on the S.S. Anne](../guide/vermilion-to-celadon/#ss-anne-defuse-the-bomb-or-the-ship-sinks-one-chance). Missable rewards are marked in the guide; [Known issues](../guide/known-issues/) lists the ones that can close for good.
+Some story choices only come once, like the [bomb on the S.S. Anne](../guide/ch06-ss-anne/#ss-anne-defuse-the-bomb-or-the-ship-sinks-one-chance). Missable rewards are marked in the guide; [Known issues](../guide/known-issues/) lists the ones that can close for good.
 
 ## Getting the game running
 
@@ -161,8 +161,8 @@ No. Charizard is the only Pokémon that can Mega Evolve, holding the Charizardit
 
 ### Where do I get a Light Ball?
 
-- Pikachu starters get one as a [send-off gift in Pallet Town](../guide/pallet-to-pewter/#pallet-town-send-off-gifts-one-per-starter-before-viridian). Get it before you go to Viridian City.
-- Lt. Surge gives one after your Gym battle in Vermilion City (Pikachu starters get a Thunder Stone instead). [After the construction-site clash](../guide/pewter-to-vermilion/#vermilion-city-after-the-construction-site-clash).
+- Pikachu starters get one as a [send-off gift in Pallet Town](../guide/ch01-first-badge/#pallet-town-send-off-gifts-one-per-starter-before-viridian). Get it before you go to Viridian City.
+- Lt. Surge gives one after your Gym battle in Vermilion City (Pikachu starters get a Thunder Stone instead). [After the construction-site clash](../guide/ch05-vermilion-thunder/#vermilion-city-after-the-construction-site-clash).
 - Wild [Pikachu](../pokemon/pikachu/) can hold one.
 
 ### Why can't I use a Full Heal or a Revive in battle?

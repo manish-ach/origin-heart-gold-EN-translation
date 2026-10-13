@@ -47,7 +47,7 @@ The cap is set by the **first Gym in this list that you haven't beaten yet**. Th
 In practice, **the cap stops limiting you once you've beaten Sabrina** (with every Kanto Gym before her also beaten): from then on it is 100, the normal maximum, for the rest of the game, all through Johto included.
 
 - **The cap goes up after the Gym battle.** The battle against the Gym Leader still uses the old cap, so a Pokémon already at the cap gets no EXP from it. The new cap applies from your next battle.
-- **Erika counts as beaten as soon as you win the battle against her in the Celadon Gym.** In this hack she hands over the Rainbow Badge only later, at a ceremony after the [stolen Gloom story](../guide/vermilion-to-celadon/#celadon-city-the-stolen-gloom-story-chain-easy-to-get-stuck), but the cap rises to 55 right after your win.
+- **Erika counts as beaten as soon as you win the battle against her in the Celadon Gym.** In this hack she hands over the Rainbow Badge only later, at a ceremony after the [stolen Gloom story](../guide/ch08-celadon/#celadon-city-the-stolen-gloom-story-chain-easy-to-get-stuck), but the cap rises to 55 right after your win.
 - **The earliest Gym you haven't beaten decides.** Beating a later Gym first doesn't raise the cap past a Gym you skipped. For example, if you start the Saffron City takeover before you've beaten Koga, the cap stays at **55** until you go back and beat him, whatever else you beat in the meantime. Once you beat Koga, the cap jumps straight to the level for the next Gym you still haven't beaten.
 - **The cap never goes down.** Beating more Gyms can only keep it the same or raise it.
 
