@@ -52,7 +52,8 @@ main = true
 text = """
 **After the ship.** Blue says he is aiming for Kanto's eight Badges; Green/Red warns you about Team Rocket. The guard in front of Rock Tunnel's north door is gone, so the tunnel is open, and Cynthia has left the Route 10 Pokémon Center.
 """
-evidence = "script file 157 (@1488-@1496 the Archie fight sets hide flags 1101 (Steven on Route 10), 1102 (Cynthia in the Route 10 Pokémon Center) and 1092 (the 'archaeologists at work' guard in front of the Rock Tunnel door); @1961-@2117 Blue/Green lines; Surge's Magnet only with the bomb defused)"
+closes = ["q-0052"]
+evidence = "script file 157 (@1488-@1496 the Archie fight sets hide flags 1101 (Steven on Route 10), 1102 (Cynthia in the Route 10 Pokémon Center) and 1092 (the 'archaeologists at work' guard in front of the Rock Tunnel door); @1961-@2117 Blue/Green lines; Surge's Magnet only with the bomb defused) Closes q-0052: the bomb can only be defused between the hijack and the last Archie fight (guide/03 q-0052 When line), which has been played by now."
 
 [[quests]]
 id = "q-0050"

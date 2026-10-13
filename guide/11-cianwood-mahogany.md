@@ -98,7 +98,7 @@
 *Source:* script file 960 (scripts 3–6; flags 2094–2100; trainers 824–827), file 872 (script 3, L2417–L3220, L3958). Positions: host ≈186,357 in Cianwood; challengers ≈203,335 (NW), ≈244,336 (NE), ≈217,372 (SW), ≈237,362 (SE) on Route 41.
 
 ## Cianwood City: Eusine, Suicune and Goh (optional; before the Route 42 story)
-<!-- quest: kind=side; id=q-0310 -->
+<!-- quest: kind=side; id=q-0310; missable=yes -->
 
 **Where:** the north end of Cianwood City, beach north of the houses (Eusine stands next to Suicune; Crystal and her Meganium nearby).
 

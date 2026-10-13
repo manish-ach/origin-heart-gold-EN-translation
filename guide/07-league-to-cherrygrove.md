@@ -296,7 +296,7 @@ Continues [Five Island: the four-leaf clover](05-saffron-cinnabar.md#five-island
 *Source:* script file 945 (script 17, L1178–L1447; `GetPartyLeadAlive` + species 151; item 37 ×3; flags 1530, 1531), file 58 L4425/L7744 (Five Island clears 1530 or 1531). Reachability: 1530/1531 are set again by the Route 31 gatehouse Silver scene (file 231 @253) and the Route 39 Crystal scene (file 249 @4178), the ferry offers Four/Five Island once flag 2024 is set (file 894 @346), and 2024 is set by that same Route 39 block (249 @4066); Five Island can also be reached earlier by Surf from the Alto Mare Waters (emulator, 2026-10-13), so the clover scene itself can come first, but the Mew this quest needs only comes with the Island Pilgrimage (after the League HQ round 4); the S.S. Anne B1F scripts that also use 1530/1531 (file 162 scripts 12, 13) aren't attached to any object. Turtwig owner ≈807,278 (Pokémon Center door ≈822,265).
 
 ## Indigo Plateau (final chapter): Mewtwo joins you (take it before the Elite Four)
-<!-- quest: kind=side; id=q-0194 -->
+<!-- quest: kind=side; id=q-0194; missable=yes -->
 
 **Where:** the Indigo Plateau slope, after the spatial-barrier scene with Cyrus and Charon. Mewtwo stays in the middle of the path, about 28 steps straight north of the Victory Road exit.
 
@@ -311,7 +311,7 @@ Continues [Five Island: the four-leaf clover](05-saffron-cinnabar.md#five-island
 *Source:* script file 923 (script 31, L2266–L2395, `GiveMon 150, Lv. 95`; obj 42 at ≈912,243 hidden by flag 2310), file 822 L2470 (Hall of Fame sets 2310).
 
 ## Indigo Plateau slope (final chapter): Steven's and Cynthia's confessions
-<!-- quest: kind=side; id=q-0195 -->
+<!-- quest: kind=side; id=q-0195; missable=yes -->
 
 Part of the romance route; the rules are in the [central romance entry](09-ilex-goldenrod.md#romance-route-how-its-unlocked-how-your-partner-is-chosen-and-what-locks-a-partner-out-central-entry).
 

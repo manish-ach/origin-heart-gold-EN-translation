@@ -18,7 +18,7 @@ text = """
 **Route 34.** North of Ilex Forest's gatehouse the **Day-Care** stands by the road with a police officer and his Arcanine a few steps north-west of its door; a Youngster with a Sunkern in the north-west is still smarting from Whitney (he only helps you after the Plain Badge, and only until the Rising Badge). A **dancer with a twisted ankle** north of the gatehouse tells you about the dance master in a hidden grove at the very south end of the route (bring a Potion). The north end of Route 34, close to Goldenrod, is where the Salamence scene will play later.
 """
 unlocks = ["q-0249", "q-0250", "q-0252"]
-evidence = "guide/09 q-0249, q-0250, q-0252 (script file 237 Route 34; var 0x408b 10 to 13 are set on this route, @3593-@7071). The dancer is not there before the Ilex Forest chapter (guide/09 q-0249)."
+evidence = "guide/09 q-0249, q-0250, q-0252 (script file 237 Route 34; var 0x408b 10 to 13 are set on this route, @3593-@7071). The dancer is not there before the Ilex Forest chapter (guide/09 q-0249). NOCLOSE q-0249: only the pose answer works and every other dance ends the quest (one chance)."
 
 [[steps]]
 id = "s02"
@@ -36,7 +36,7 @@ text = """
 - **North of town:** the fortune-teller's house and the Flower Shop.
 """
 unlocks = ["q-0253", "q-0254", "q-0255", "q-0256", "q-0257", "q-0259", "q-0260", "q-0261", "q-0262", "q-0263", "q-0264", "q-0265", "q-0266", "q-0267", "q-0268"]
-evidence = "guide/09 q-0253 to q-0268 (script files 890 Magnet Train Station, 882 Goldenrod, 883 Gym, 888/889 Department Store, 94 Goldenrod Tunnel B1F, the Radio Tower files and 32). Each quest's own 'Who gets it / when' line gives its window; Rowan and the underground gang end with the Gym win, Goh/Purugly/Mary end with the Route 37 Silver scene, the Game Corner man with the Glacier Badge (Chapters 21 onward)."
+evidence = "guide/09 q-0253 to q-0268 (script files 890 Magnet Train Station, 882 Goldenrod, 883 Gym, 888/889 Department Store, 94 Goldenrod Tunnel B1F, the Radio Tower files and 32). Each quest's own 'Who gets it / when' line gives its window; Rowan and the underground gang end with the Gym win, Goh/Purugly/Mary end with the Route 37 Silver scene, the Game Corner man with the Glacier Badge (Chapters 21 onward). NOCLOSE q-0257: one choice (speaking up for the old man); No makes him leave for good."
 
 [[steps]]
 id = "s03"
@@ -46,7 +46,7 @@ text = """
 """
 unlocks = ["q-0258", "q-0251"]
 closes = ["q-0253", "q-0260"]
-evidence = "guide/09 q-0258 (Radio Tower 4F recording, two Gym routes; Norman's house; rewards), q-0251 (Route 34 north end, 'during the Goldenrod Gym story, after Norman asks you to find his son Ruby'), q-0253 ('the Gym win removes Rowan and his assistant for good'), q-0260 ('beating Whitney also clears the gang out'). Script file 883 @691 SetVar 0x4098 = 2 (Gym); file 890 @2713/@2852 SetVar 0x40ac = 10, 11 (Magnet Train Station: Norman)."
+evidence = "guide/09 q-0258 (Radio Tower 4F recording, two Gym routes; Norman's house; rewards), q-0251 (Route 34 north end, 'during the Goldenrod Gym story, after Norman asks you to find his son Ruby'), q-0253 ('the Gym win removes Rowan and his assistant for good'), q-0260 ('beating Whitney also clears the gang out'). Script file 883 @691 SetVar 0x4098 = 2 (Gym); file 890 @2713/@2852 SetVar 0x40ac = 10, 11 (Magnet Train Station: Norman). NOCLOSE q-0251: one catch chance for the wild Salamence, and only on the Multi Battle route (the other route never offers it)."
 
 [[quests]]
 id = "q-0249"

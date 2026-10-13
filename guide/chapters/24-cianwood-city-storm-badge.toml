@@ -1,0 +1,135 @@
+id = "ch24-cianwood-city-storm-badge"
+order = 24
+title = "Chapter 24: Cianwood City, Cianwood Cave and the Storm Badge"
+summary = "The Secret Potion for Amphy, Chuck in Cianwood Cave, the Raikou device on Route 47 and the Storm Badge."
+kind = "story"
+intro = """
+Cianwood City lies across the water south-west of Olivine, past Routes 40 and 41. The Pharmacy there has the medicine for **Amphy**, and its Gym is closed until she is cured. Once the Gym reopens its Leader, **Chuck**, is training in Cianwood Cave, and a scene on Route 47 on the far side of the cave has you fight Team Rocket with Gold.
+
+**Main quest in this chapter:** get the Secret Potion from the Cianwood Pharmacy, take it to Jasmine at the top of the Olivine Lighthouse, find and beat Chuck in Cianwood Cave, fight Will, Karen and the Raikou device with Gold on Route 47, and win the **Storm Badge** at the Cianwood Gym.
+
+**Before you leave for Route 42 (Chapter 25):** the Eusine, Suicune and Goh scene on the Cianwood beach (it disappears for good once Silver's scene on Route 42 plays).
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Cianwood City and the Pharmacy.** Reach Cianwood by water (Surf, from the Rainbow Badge). Go to the Pharmacy just west of the Pokémon Center: **Gold and Crystal** are inside, arguing with the pharmacist. Talk to Gold or Crystal, not the man behind the counter; they show your Trainer Card as League Champion and you get the **Secret Potion**. Fly back to Jasmine at the top of the Olivine Lighthouse and talk to her at Amphy's side for **TM91 Flash Cannon** and her number (Chapter 23).
+
+While you are here: a Rhydon that can Surf on Route 40, the **Whirl Islands Challenge** host north of the Pokémon Center (four quiz-and-battle islands on Route 41), Ace Trainer Hans (Close Combat), a girl fishing on the east shore (a Lure Ball for a Max Elixir), houses with a Happiny girl, a Breloom and a Gligar, a woman at the Pokémon Center with a spare Tentacool, and small extras on Routes 40 and 41. In the Battle Frontier to the north you get a free Vs. Recorder.
+"""
+unlocks = ["q-0308", "q-0307", "q-0309", "q-0311", "q-0312", "q-0315", "q-0316", "q-0317", "q-0319", "q-0318"]
+evidence = "guide/11 q-0308 (Gold and Crystal in the shop, from the Lighthouse battle until Amphy is cured), q-0307, q-0309 (Surf needed; any time you can reach Cianwood), q-0311, q-0312, q-0315, q-0316, q-0317, q-0319, q-0318 ('in practice unavailable': Yellow and Misty are hidden by the Route 39 scene, guide/11 q-0318). No script on Routes 40 and 41, Cianwood City or Frontier Access tests the Johto story variable (scripts 958, 959, 960, 872-878), so these places can be reached by Surf as soon as you are in Olivine City; they are placed here because the story sends you here after the Lighthouse."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**Amphy is cured.** With Amphy cured, Gold and Crystal leave the Pharmacy (its herbal-medicine counter sells again) and the Cianwood Gym door is free: Chuck's wife no longer stands in front of it. On the beach at the north end of town **Eusine** battles Suicune and loses, and Goh turns up to catch it: "Stop Goh?" decides whether you fight him (Lv. 85). Do this scene now; it disappears for good in the next chapter. Inside the Gym Chuck's wife tells you he is training in the cave west of town.
+"""
+unlocks = ["q-0310", "q-0313"]
+evidence = "guide/11 q-0310 (appears after you cure Amphy; script file 872 script 28, flags 481/482), q-0313 (before the cure Chuck's wife blocks the Gym door, after it you walk in, tested in an emulator), q-0308 (counter closed while Gold and Crystal are in the shop). Amphy cure: guide/10 q-0305; Olivine Lighthouse file 66 @3750 SetVar 0x4098 = 13."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**Cianwood Cave: Chuck.** Go through the gate at the west end of town and follow the cave path past two of Chuck's students. In the training area his footwork lesson plays, and then you battle **Chuck** (six Pokémon, Lv. 88-89). Win and he goes back to the Gym, and the **Resort Zone** on Route 48 opens.
+"""
+unlocks = ["q-0106", "q-0108", "q-0349"]
+evidence = "guide/11 q-0313 (Cianwood Cave file 121: @1533 SetVar 0x4098 = 14, @1630 SetVar = 15); q-0349 (Route 48 after the Cianwood Cave battle); guide/04 q-0106 (Resort Zone guesthouse backpacker, file 117), q-0108 ('open after the Cianwood Gym story', Pal Park reception, file 809)."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**Route 47: Will, Karen and the Raikou device.** Stepping out onto Route 47 on the far side of the cave, Gold calls you over: Will and Karen have built a device that lures Raikou. You and Gold fight five battles in a row with **no healing in between**: two Grunt Multi Battles, then Will and Karen (Lv. 90), then **Raikou** under their control twice. Gold's Togetic smashes the device and Raikou runs off. **Heal fully and bring plenty of restoring items first.** The scene also clears the tourist crowd from the **Route 42 gatehouse** on the Ecruteak side, so the road east is open. A man at the foot of the waterfall on Route 47 has a Qwilfish poacher story (you need Waterfall).
+"""
+unlocks = ["q-0348", "q-0132", "q-0350", "q-0362"]
+evidence = "guide/12 q-0348 (script file 260: scripts 2 and 4, coord triggers on var 0x4098 = 15; scene ends with flags 2116 and 2185 and @4467 SetVar 0x4098 = 12), guide/05 q-0132 (file 253 objects 1-4 hidden by flag 2116, set by file 260 @4455), q-0350."
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**The Cianwood Gym.** Chuck trains under the waterfall: turn the **large winch** on the back wall to stop it (every visit), then pick "I'm here for the Badge". It is a **Double Battle**, 4-on-4, with 2 to 4 Pokémon in your party. He asks for Fighting types; the game checks a fixed list of banned species. Win for the **Storm Badge**, Macho Brace and his number. His wife then teaches Heal Bell.
+"""
+unlocks = ["q-0314"]
+evidence = "guide/11 q-0314 (Chuck's rules; Cianwood Gym script). Order: the Gym needs Chuck back from the cave (q-0313); it does not depend on Route 47 or Route 42."
+
+[[quests]]
+id = "q-0308"
+available_note = "Talk to Gold or Crystal, not the pharmacist. Then fly back to Jasmine (Chapter 23)."
+
+[[quests]]
+id = "q-0307"
+available_note = "Needs Surf."
+
+[[quests]]
+id = "q-0309"
+available_note = "Needs Surf. Sign up with the host before talking to the islanders."
+
+[[quests]]
+id = "q-0311"
+
+[[quests]]
+id = "q-0312"
+
+[[quests]]
+id = "q-0315"
+
+[[quests]]
+id = "q-0316"
+available_note = "The Tentacool gift needs exactly one Pokémon in your party and an empty PC box."
+
+[[quests]]
+id = "q-0317"
+available_note = "Leave Swimmer Marina on Route 41 until after the Route 18 Dragonair delivery (Chapter 9)."
+
+[[quests]]
+id = "q-0319"
+
+[[quests]]
+id = "q-0318"
+available_note = "In practice unavailable: Yellow and Misty are hidden by the Route 39 scene and never come back."
+
+[[quests]]
+id = "q-0310"
+missable = true
+available_note = "Appears once Amphy is cured and disappears for good when Silver's scene on Route 42 plays."
+
+[[quests]]
+id = "q-0313"
+level_note = "Chuck's team is Lv. 88-89."
+
+[[quests]]
+id = "q-0106"
+
+[[quests]]
+id = "q-0108"
+available_note = "Open after the Cianwood Gym story. Entry costs $10,000."
+
+[[quests]]
+id = "q-0349"
+
+[[quests]]
+id = "q-0348"
+available_note = "Heal fully first: the five battles run back to back."
+level_note = "Will and Karen are Lv. 90; Raikou is Lv. 90."
+
+[[quests]]
+id = "q-0132"
+
+[[quests]]
+id = "q-0350"
+available_note = "Needs Waterfall (Earth Badge) for the Shady Guy above the falls."
+
+[[quests]]
+id = "q-0362"
+available_note = "A mixed entry: the Route 47 and Route 48 extras open here, the Route 46 Earth Power tutor has been open since Chapter 16, the Route 45 and Dragon's Den parts belong to Chapter 27 and the photo spots come after the final Hall of Fame."
+
+[[quests]]
+id = "q-0314"
+needs = ["q-0313"]
+level_note = "Chuck's team is Lv. 80."

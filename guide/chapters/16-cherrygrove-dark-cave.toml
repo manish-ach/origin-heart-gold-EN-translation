@@ -18,7 +18,7 @@ text = """
 **Route 29.** Walk west from New Bark Town. A man by the Apricorn tree wants to buy Kurt's Apricorn Box, a girl with an Elekid asks you about a Pokéathlon athlete (one chance either way for both), and a die-hard fan challenges you to a battle near the New Bark end of the route (he offers sparring any time afterwards). A side gatehouse leads north to Route 46 and the Dark Cave exit; you will use it later in this chapter.
 """
 unlocks = ["q-0181", "q-0182"]
-evidence = "guide/07 q-0181, q-0182 (script file 225: scripts 3, 14, 15; the fan @4003-@4118 is a coord scene on var 0x408b = 5 and sets 0x408b = 6)."
+evidence = "guide/07 q-0181, q-0182 (script file 225: scripts 3, 14, 15; the fan @4003-@4118 is a coord scene on var 0x408b = 5 and sets 0x408b = 6). NOCLOSE q-0181: one-time choice, either answer ends it. NOCLOSE q-0182: one-time sale, the offer ends when you accept or refuse three times."
 
 [[steps]]
 id = "s02"
@@ -27,7 +27,7 @@ text = """
 **Cherrygrove City: Crystal's tour.** At the east edge of town Crystal calls you over and shows you the city: she sells 10 Poké Balls for $800 during the tour (one free if you cannot pay) and ends at the **orphanage**. In the orphanage let the children play with your Pokémon; Rhett runs off after a Slugma, and you help Crystal hold the Slugma back at the north edge of town (a battle against three Slugma that earns 5 Heal Balls). Silver also shows up here and drops his Trainer Card. Besides the story you can do in town: the **Berry Pots girl** in the south-east flowers (needs the Squirt Bottle), the **Wooper and the lost Poké Ball** on the west shore, and a fighter's house in the south-west row.
 """
 unlocks = ["q-0199", "q-0183", "q-0184", "q-0204"]
-evidence = "script file 847 (Cherrygrove: coord scripts on var 0x408b = 6, 7, 8; Crystal's balls @7093-@7122 and @7956, Rhett and Slugma @7271-@7374, Silver's Trainer Card @7410, orphanage door @8030, SetVar 0x408b = 7 @8091 and 8 @7374); guide/08 q-0199, q-0204; guide/07 q-0183, q-0184 (file 847 scripts 15, 17, 18)."
+evidence = "script file 847 (Cherrygrove: coord scripts on var 0x408b = 6, 7, 8; Crystal's balls @7093-@7122 and @7956, Rhett and Slugma @7271-@7374, Silver's Trainer Card @7410, orphanage door @8030, SetVar 0x408b = 7 @8091 and 8 @7374); guide/08 q-0199, q-0204; guide/07 q-0183, q-0184 (file 847 scripts 15, 17, 18). NOCLOSE q-0183: one-time choice (Berry Pots girl), No gives up for good."
 
 [[steps]]
 id = "s03"
@@ -36,7 +36,7 @@ text = """
 **Elm and Crystal's Pokédex.** Crystal's skill impresses you. Later, back in Prof. Elm's lab with Gold (the talk is about a stolen Totodile and the Trainer Card Silver dropped), you recommend Crystal as a Pokédex holder. Elm goes to the orphanage and gives Crystal a Pokédex and a Chikorita. That releases the wild **Chikorita** on Routes 30 and 31.
 """
 unlocks = ["q-0201"]
-evidence = "guide/08 q-0199 steps 4-5 and its Source line (file 851 scripts 4 and 6, var 0x408b 7 to 9; file 840 lab script 3 L1436-L1530 hides the orphanage Crystal with flag 1964 and shows the Elm scene by clearing 1968), q-0201 (the Chikorita event starts after Elm gives Crystal her Pokedex). UNVERIFIED: the exact call or walk that sends you back to Elm's lab (file 840 script 3 @1222-@1530 plays the thief and recommendation talk, flags 413, 401, 1964)."
+evidence = "guide/08 q-0199 steps 4-5 and its Source line (file 851 scripts 4 and 6, var 0x408b 7 to 9; file 840 lab script 3 L1436-L1530 hides the orphanage Crystal with flag 1964 and shows the Elm scene by clearing 1968), q-0201 (the Chikorita event starts after Elm gives Crystal her Pokedex). UNVERIFIED: the exact call or walk that sends you back to Elm's lab (file 840 script 3 @1222-@1530 plays the thief and recommendation talk, flags 413, 401, 1964). NOCLOSE q-0201: one catch chance, the Chikorita disappears after the battle however it ends; it is also lost for good if you talk to Brock in the Pewter Museum before the event (guide/08 q-0201 Notes)."
 
 [[steps]]
 id = "s04"
@@ -101,6 +101,7 @@ available_note = "Do it before the Route 46 dig scene: the dig removes the herd 
 
 [[quests]]
 id = "q-0202"
+missable = true
 needs = ["q-0332"]
 available_note = "Only after the Dark Cave trouble is over, and only while you do not carry HM08 Rock Climb."
 

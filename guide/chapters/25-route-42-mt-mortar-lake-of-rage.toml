@@ -1,0 +1,83 @@
+id = "ch25-route-42-mt-mortar-lake-of-rage"
+order = 25
+title = "Chapter 25: Route 42, Mt. Mortar and the Lake of Rage"
+summary = "Silver and a brainwashed Entei on Route 42, the Mt. Mortar expedition, Mahogany Town and the red Gyarados at the Lake of Rage."
+kind = "story"
+intro = """
+With the Route 42 gatehouse open, Route 42 leads east past three entrances of **Mt. Mortar** to Mahogany Town and, beyond it, to Route 43 and the **Lake of Rage**. The road has a story scene at its east end: **Silver** and Ariana with a brainwashed **Entei**. At the lake a red Gyarados attacks a tourist and **Lance** is there with his Dragonite.
+
+**Main quest in this chapter:** walk Route 42 to its east end and fight with Silver against Ariana's Entei, then (after Mahogany Town and Route 43) talk to Lance at the Lake of Rage, fight the red Gyarados and the "researcher" who runs the radio transmitter, and report to Pryce.
+
+**Before you leave Route 42:** the Eusine, Suicune and Goh scene in Cianwood (Chapter 24) closes at Silver's scene. **Before you win the Mahogany Rocket HQ (Chapter 26):** the girl with the listless Sentret on Route 43. **Before you take HM08 Rock Climb:** Mr. Pokémon's quiz on Route 30 (Chapter 16).
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Route 42 and the Entei scene.** Smeargle's Sketch (west end), Blissey's Egg, Fisherman Manzo and Hiker Dolan are on the way; at the east end the story scene plays: **Silver and Ariana with a brainwashed Entei**, three Multi Battles at Silver's side and then Ariana's Entei. **This closes for good:** the Eusine, Suicune and Goh scene on the Cianwood beach.
+"""
+unlocks = ["q-0320"]
+closes = ["q-0310"]
+evidence = "guide/11 q-0320 (Route 42 extras; Dolan moves east after the Entei scene), q-0348 (the story moves on to Route 42 after Route 47), guide/11 q-0310 ('It disappears for good once the Route 42 story scene with Silver plays'; script file 872 script 28 flags 481/482, file 252 sets 481 as well). Script file 252 (Route 42 coord on var 0x4098 = 12; @4813 SetVar 0x4098 = 16; @4745 sets flag 164, which lets Lance start the Lake of Rage scene)."
+
+[[steps]]
+id = "s02"
+main = false
+text = """
+**Mt. Mortar.** Three entrances on Route 42 lead into the cave. A **Hiker** in the north of the front cave has lost his map to a runaway Hitmontop; chase it to Karate King **Kiyo** in the back cave and bring the **Map** back for **HM08 Rock Climb**. **Taking HM08 closes for good** Mr. Pokémon's Exp. Share quiz on Route 30, so do the quiz first if you want it. A Psychic with a Diglett leads a **five-member expedition** (Battle Girl, a kid who wants a Focus Sash and a quiz man): you can finish it any time, and you need it in the final chapter to reach Ariana and the statue.
+"""
+unlocks = ["q-0321", "q-0322"]
+closes = ["q-0202"]
+evidence = "guide/11 q-0321 (script: Hiker and Kiyo; HM08 hand-over; 'once you carry HM08, Mr. Pokémon no longer offers his Exp. Share quiz', known issue hm08-and-mr-pokémons-quiz), q-0322 ('the members are there from the start, and you can finish the expedition any time'; needed in the final chapter). guide/08 q-0202 (Mr. Pokémon quiz, only while you do not carry HM08)."
+
+[[steps]]
+id = "s03"
+main = false
+text = """
+**Mahogany Town and Route 43.** Passing through Mahogany: **Magician Colum** and his Girafarig north of the town (a Shell Bell), the souvenir shop annex with the Jigglypuff girl, the Red Scale boy and more. On Route 43 a **girl with a listless Sentret** wants a Chesto Berry. The Mahogany Gym is closed (Pryce is retiring) and the Rocket story only starts after the lake.
+"""
+unlocks = ["q-0326", "q-0328", "q-0333"]
+evidence = "guide/11 q-0326 (any time), q-0328 (mixed: the shop annex and Red Scale boy now, Pryce's Haze student after the Glacier Badge, doll vendor after the HQ), guide/12 q-0333 ('from your first visit until you clear the Team Rocket HQ under Mahogany'). Mahogany gym closed: guide/11 q-0325."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**Lake of Rage.** Walk north from Route 43 to the south shore and **talk to Lance** (the scene does not start by itself). A wild **red Gyarados** (Lv. 30) attacks a tourist; more follow and Lance and Gold catch two. Pryce's radio is being jammed: three people in lab coats have set up a transmitter. Yours is the "researcher" on the north shore: pick "Neat gadget there" and answer Yes to "Investigate the device by force?" to fight **Scientist Yamada**. Then tell Pryce on the south shore. He concludes that the real source is in Mahogany Town. Once that is done, the fossil man in the Route 43 gatehouse gives you **TM25 Thunder**.
+"""
+unlocks = ["q-0334", "q-0360"]
+evidence = "guide/12 q-0334 (script file 934: script 18 Lance, WildBattle 130 Lv. 30, script 15 TrainerBattle 901, script 16 @5288 SetVar 0x4098 = 17). The scene needs flag 164 from the Route 42 Entei scene (guide/12 q-0334 reachability review 2026-10-06)."
+
+[[quests]]
+id = "q-0320"
+available_note = "A mixed entry: the Entei scene at the east end is part of the story."
+
+[[quests]]
+id = "q-0321"
+available_note = "Rock Climb itself needs the Rising Badge. Taking HM08 closes Mr. Pokémon's quiz."
+level_note = "Karate King Kiyo's team is Lv. 81-82."
+
+[[quests]]
+id = "q-0322"
+available_note = "You need it finished for the final chapter."
+
+[[quests]]
+id = "q-0326"
+
+[[quests]]
+id = "q-0328"
+available_note = "A mixed entry: Pryce's Haze student needs the Glacier Badge and the doll vendor only appears after the Rocket HQ."
+
+[[quests]]
+id = "q-0333"
+missable = true
+available_note = "Until you clear the Team Rocket HQ under Mahogany Town."
+
+[[quests]]
+id = "q-0360"
+available_note = "A mixed entry: the Route 43 fossil man needs the transmitter fight above; the Route 44 extras come with Chapter 27."
+
+[[quests]]
+id = "q-0334"
+level_note = "The red Gyarados is Lv. 30; Scientist Yamada is Lv. 62-65."

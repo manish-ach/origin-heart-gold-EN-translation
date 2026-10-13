@@ -1,0 +1,87 @@
+id = "ch22-ecruteak-burned-tower-fog-badge"
+order = 22
+title = "Chapter 22: Ecruteak City, the Burned Tower and the Fog Badge"
+summary = "The Marauder at the Burned Tower, the Bell Tower gate quiz, Morty's Ghost Gym and Ecruteak's small errands."
+kind = "story"
+intro = """
+Ecruteak City is a quiet old town with a Dance Theater, the Burned Tower in the north-west and the Bell Tower behind a gatehouse in the north. Team Rocket turns up here too: a man in a red cape, the **Marauder**, is about to smash the Sealing Mirror in the Burned Tower, and he will only listen to **Morty**, who is away at the Bell Tower.
+
+**Main quest in this chapter:** stop the Marauder in the Burned Tower basement, pass the Bell Tower gate quiz to reach Morty, fight the Marauder and Maxie in the Burned Tower, then win the **Fog Badge** from Morty (Chapter 23 starts at the road west to Olivine).
+
+**Before the Rising Badge** (Chapter 27): Sakura's Water Stone request in the Dance Theater. **Before the Route 39 scene with Gold** (next chapter): Gold's training battles in the Pokémon Center.
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**The Burned Tower and the Bell Tower gate.** In the Burned Tower basement the Marauder is at the Sealing Mirror: pick the option that stops him. He says he will only listen to Morty. Go to the Bell Tower gatehouse in the north of town and tell the guard **"I'm the Champion. I need Morty."** Then answer his six questions, all in one go (a wrong answer starts you over). Walk up Bellchime Trail to Morty and Eusine, then go back to the Burned Tower: Gold and Silver wait at the entrance, and in the basement the Marauder breaks the seal and Team Rocket attacks. You fight the **Marauder and Maxie** together in a Double Battle on your own.
+"""
+unlocks = ["q-0280"]
+evidence = "guide/10 q-0280 (script file 23: script 5 L3965-L5402 sets 0x4098 = 4; script 4 sets 6; script 1 L1482 trainers 800 + 822, L3517 sets 7 and flag 462 which opens the Gym; file 22 script 7 sets 5; file 922 script 1 flag 457). Starts after Silver's scene on Route 37 (guide/10 q-0280)."
+
+[[steps]]
+id = "s02"
+main = false
+text = """
+**What the Burned Tower story opens in Ecruteak.** Morty's Gym is open now, and **Gold** appears at the left of the Pokémon Center entrance for a series of training battles (three in a row, 12 Soda Pop in the end). The Bell Tower gatehouse guard now teaches **Aura Sphere**. Around town:
+
+- Two kids argue about the strongest legendary beast (one answer per game).
+- A girl at the west end wants to see a Pokémon as stunning as Ho-Oh (Shed Shell).
+- An old man on the east side asks five lantern riddles (2 Power Bands).
+- The wheelchair-bound writer in the house east of the Pokémon Center is waiting for her Pidgey; if you carried the letter from Route 35, she rewards your stories (Wise Glasses).
+- The boy with a Shellos in the right-hand of the two houses below the Burned Tower (a one-time choice).
+- **Sakura**, the Kimono Girl at the right end of the row in the Dance Theater, wants a **Water Stone** for a Spell Tag.
+- Route 37 and the rest of town have small extras (Sunny the Sunday sibling, the S.S. Anne fan, the Eruption tutor and more).
+"""
+unlocks = ["q-0285", "q-0282", "q-0283", "q-0284", "q-0289", "q-0287", "q-0286", "q-0293"]
+evidence = "guide/10 q-0285 ('after the Burned Tower chapter'; Gold leaves when the Route 39 scene plays), q-0282, q-0283, q-0284, q-0286 (hand over a Water Stone; skipped once you hold the Rising Badge), q-0287, q-0289 (needs the Pidgey letter from q-0271), q-0293 (Aura Sphere tutor after the Burned Tower battle). Gym opens with var 0x4098 = 7 and flag 462 (file 23 script 1, @3517)."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**Morty's Ghost Gym.** Morty only battles a **full party of six**, and the game checks each Pokémon against a fixed list of Psychic and Ghost species, not their actual types. It is a **Double Battle** and he sends out his six two at a time. Win for the **Fog Badge** and TM30 Shadow Ball. **Get the Fog Badge before the League HQ's round 4:** after Ho-Oh is stolen at the Bell Tower Morty will not battle you until your final Hall of Fame entry.
+"""
+unlocks = ["q-0281"]
+evidence = "guide/10 q-0281 (script file 918 script 2: party-size and species checks, TrainerBattle 31; the Gym refusals in two windows of the League HQ investigation are in its Notes). The story does not check for the Fog Badge on Routes 38 and 39 (no script test of 0x4098 on those routes; the Route 39 Gold scene triggers on var 0x4098 = 7)."
+
+[[quests]]
+id = "q-0280"
+
+[[quests]]
+id = "q-0281"
+available_note = "Needs a full party of six accepted Pokémon. Morty also refuses in two windows of the League HQ investigation: do it before round 4."
+
+[[quests]]
+id = "q-0282"
+available_note = "One answer per game."
+
+[[quests]]
+id = "q-0283"
+
+[[quests]]
+id = "q-0284"
+
+[[quests]]
+id = "q-0285"
+missable = true
+available_note = "Gold leaves the Pokémon Center for good when the scene with Gold and Crystal on Route 39 plays."
+
+[[quests]]
+id = "q-0286"
+missable = true
+available_note = "Needs a Water Stone. Once you hold the Rising Badge Sakura no longer makes the request."
+
+[[quests]]
+id = "q-0287"
+available_note = "A one-time choice: only 'Then give it to me' gets the Shellos."
+
+[[quests]]
+id = "q-0289"
+needs = ["q-0271"]
+available_note = "Needs the letter from the hungry Pidgey on Route 35."
+
+[[quests]]
+id = "q-0293"
+available_note = "A mixed entry. The S.S. Anne fan and the Eruption tutor only exist if the ship was saved; the Kimono Girls' dance rehearsal needs Koume's Ilex Forest story."

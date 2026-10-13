@@ -175,7 +175,7 @@ A loss at any stage whites you out. Talk to the receptionist to try again; she r
 *Source:* script file 923 (slope MC script 7 at ≈912,227, waits on flags 1505/1515/1422/1421, then warps you to the plaza), file 900 (script 1/7 L1606–L1734 and L8497–L8569; L2778 sets 2155 (Steven closed), L3867 sets 2142 (Misty closed), "No" sets both at L1678/L1682; round one is script 1 L985 `TrainerBattle 986` (Goh, Lv. 80); the Lv. 76–77 copy at L7876 `TrainerBattle 562` only runs if you talk to the MC inside the plaza, which you can't), file 899 (stage two `TrainerBattle` 635, 636), file 815 (plaza hub); romance flags checked in files 758 (Misty) and 923 (Steven).
 
 ## Three Island: the biker Big Sis who can't ride
-<!-- quest: kind=side; id=q-0157 -->
+<!-- quest: kind=side; id=q-0157; missable=yes -->
 
 Continues [Three Island: the Alto Mare Bikers](05-saffron-cinnabar.md#three-island-the-alto-mare-bikers-save-the-meowth).
 
@@ -197,7 +197,7 @@ All three real choices send her to the Shipyard Ruins; only teaching her changes
 *Source:* script file 782 (script 20, L2718–L3035, L5861; var 0x4097 = 3/4/5, flag 2019, her hide flag, cleared when you first sail to the islands, file 826 @983, and set by the Dragon's Den clear, file 112 @4871). Bridge biker: file 735 coord script 11 at ≈180,123 on var 0x4097 = 2 (set at the first sailing, 826 @1007), object 24 at ≈181,123; movement at @7576 steps you back north. Emulator (CN and EN, 2026-10-06, work/build/harness/guide-review-20261006/pass2-C/bridge_*: var 0x4097 = 2 → stopped at 180,122/123 with line 441#135; = 3 → walked on to 180,125). House: Three Island door ≈180,120; Big Sis ≈7,36 inside.
 
 ## Shipyard Ruins (Three Island): the bikers' Chief, a bribe or a fight
-<!-- quest: kind=side; id=q-0158 -->
+<!-- quest: kind=side; id=q-0158; missable=yes -->
 
 **Where:** the Shipyard Ruins, the door at the south-west corner of Three Island. **Biker Muramasa** stands in front of the door: beat him to get in (Kangaskhan, Scizor, Shiftry; Lv. 62–64; a loss whites you out). Inside, the biker at the back of the ruins (top right, surrounded by four bikers) asks if you're here to see the Chief.
 
@@ -332,7 +332,7 @@ Then, "as you are the Champion", he adds a battle: **Elder Huguo** (Infernape, T
 *Source:* script file 737 (script 12, L2008–L2514, L3471–L3529, L3416–L4517; flags 2172, 2175; var 0x409c 8→9).
 
 ## Six Island: the chief's trial and the Fallen Red Star
-<!-- quest: kind=main; id=q-0167 -->
+<!-- quest: kind=main; id=q-0167; missable=yes -->
 
 **Where:** the Six Island chief's room, behind the **east** house door of Six Island (the west house door leads to the inn and the tour guide), and the Fallen Red Star, a red pyramid north of the chief's door on the island's east side.
 
@@ -419,7 +419,7 @@ Then, "as you are the Champion", he adds a battle: **Elder Huguo** (Infernape, T
 *Source:* script file 870 (scripts 9, 12; L988–L1498, L1038–L1766; flags 2197, 2198; L1038 compares the first healthy party Pokémon with species 594; `WildBattle 352` at L1703 is followed by `CheckBattleWon`, so fleeing takes the win path, and only a loss jumps to L1032 `WhiteOut`). Tourist ≈240,109; blocked spot ≈245,103 (shrine door ≈241,105). Emulator (`emu_harness.py guide0107 --case kecleon`): Alomomola lead → cries 164 (Noctowl), msgs 33–37 and a wild Kecleon (352); Noctowl lead → msg 33 only.
 
 ## Victory Road 3F (final chapter): Silver's and Crystal's confessions
-<!-- quest: kind=side; id=q-0173 -->
+<!-- quest: kind=side; id=q-0173; missable=yes -->
 
 **Where:** Victory Road 3F, during the final march on Team Rocket (after the barrier at the gate is broken).
 

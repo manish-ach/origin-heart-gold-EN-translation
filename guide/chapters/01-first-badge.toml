@@ -113,7 +113,7 @@ main = true
 text = """
 **The Pewter Gym.** Brock keeps leaving. Follow him from the Gym to the north-east house, then the museum (answer the siblings' quizzes), then Anemone's garden, and he finally battles you back at the Gym. Win the **Boulder Badge**, 5 TM39 Rock Tomb and Brock's number. With the badge you can use Rock Smash.
 """
-unlocks = []
+unlocks = ["q-0367"]
 evidence = "guide/01..02 q-0023; script files 750, 753, 754, 748. Field moves: guide/13 'Field moves: which Badge each one needs' (Rock Smash = Boulder Badge)."
 
 [[quests]]
@@ -136,7 +136,7 @@ id = "q-0005"
 [[quests]]
 id = "q-0008"
 missable = true
-available_note = "Cannot be started in a normal new game (suspected hack bug): the teacher only offers the challenge while a flag is set that Professor Oak's lab introduction clears, so he only says goodbye to Steven and Cynthia. Checked in the script and in the emulator."
+available_note = "Cannot be started in a normal new game (suspected hack bug): the teacher only offers the challenge in a game state that Professor Oak's lab introduction switches off for good, so he only says goodbye to Steven and Cynthia. Checked in the game's code and in the emulator."
 
 [[quests]]
 id = "q-0013"
@@ -168,9 +168,14 @@ id = "q-0018"
 
 [[quests]]
 id = "q-0024"
+missable = true
 available_note = "Pikachu starters meet the Apricorn Ball maker here from the start. With other starters he only moves here after you save Nidoran♀ on Route 2."
 
 [[quests]]
 id = "q-0025"
 missable = true
 available_note = "One try only, and he leaves once the Mt. Moon roadblock story ends (Chapter 2)."
+
+[[quests]]
+id = "q-0367"
+available_note = "A reference for the whole game: which Badge each field move (Rock Smash, Cut, Strength, Surf, Fly, Whirlpool, Waterfall, Rock Climb) needs. In this hack you do not need a Pokemon that knows the move."

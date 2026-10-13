@@ -68,7 +68,7 @@
 *Source:* files 750 (Gym, L485/L850; the win gives item 366 = TM39 ×5 at L604), 754 (script 1, script 3), 753 (scripts 16, 17, 20; L3143, L3543, L4622 sets 1315 and clears 1316), 748 (script 27, L4562 clears 1322). Step 1 sets flag 1321. The Nidoran♂ room is the west half (local 4,8) of the shared "Pewter Northeast house" map, entered from the city door at 1068,87; the garden cutscene is the step trigger at 1064–1065,111, var 0x4082 = 1 (Pewter events: Gym door 1047,92, Anemone 1064,107, Pokémon Center door 1048,106).
 
 ## Pewter City: the Apricorn Ball maker
-<!-- quest: kind=side; id=q-0024 -->
+<!-- quest: kind=side; id=q-0024; missable=yes -->
 
 Continues [Route 2, north of Viridian Forest: Nidoran♀ and the Apricorn Ball maker](01-pallet-to-pewter.md#route-2-north-of-viridian-forest-nidoran-and-the-apricorn-ball-maker-non-pikachu-starters).
 
@@ -227,7 +227,7 @@ Once all four are there, they wait just south of the guards. Then talk to the gu
 *Source:* file 179 (script 3, L1283, L2144; trainer 966; which Pokémon is decided by flag 1037/1038, set in file 9 L5646), file 183 (scripts 1–4; L669, L904 Cleanse Tag needs raid-won flag 305, L1037 Magical Leaf); file 758 L8040 clears flag 1043 and resets var 0x409e (Cascade Badge); file 17 @12165 closes an unfinished raid (Sabrina scene). Route 11 is file 197 (flags 1445/1451; it checks 1046 and 1047, which file 9 L5538/L5542 sets and the raid win clears for the saved Pokémon only, so taking that one Pokémon is enough). Step trigger x 1297–1302, z 160 (var 0x409e = 0); side lanes x≈1291–1293 and x≈1306–1308; house door 1297,171.
 
 ## Underground Path: the underground battle (story, Cascade Badge)
-<!-- quest: kind=main; id=q-0034 -->
+<!-- quest: kind=main; id=q-0034; missable=yes -->
 
 **Where:** the Underground Path, entered from the Route 5 gatehouse. You need the **Cascade Badge** to take part (the people at the entrance talk about needing "two Badges").
 
@@ -340,7 +340,7 @@ Cynthia and Misty fill the other places.
 *Source:* file 217 (script 1, L1903, L2293, L2761).
 
 ## Route 25: Suicune (post-game)
-<!-- quest: kind=side; id=q-0041 -->
+<!-- quest: kind=side; id=q-0041; missable=yes -->
 
 **Where:** Cerulean Cape, south-east of Bill's house (the Sea Cottage): about 15 steps south and 4 steps east of its door.
 
@@ -351,7 +351,7 @@ Cynthia and Misty fill the other places.
 *Source:* file 216 (script 40, L7548; a flee counts as a win and sets 2319; emulator, EN: Lv. 90, fled, gone after reloading). Suicune appears when the Burned Tower script (file 23) clears flag 2319. Position ≈1411,53; Sea Cottage door 1407,38.
 
 ## Cerulean Gym / Cerulean Cape: Misty's romance
-<!-- quest: kind=side; id=q-0042 -->
+<!-- quest: kind=side; id=q-0042; missable=yes -->
 
 Continues [the Pallet Town to Pewter City romance entry](01-pallet-to-pewter.md#romance-route-victory-road-confessions-yellows-dates-and-your-house). For how the romance works as a whole (love reading, Dream World, locks), see [the central romance entry](09-ilex-goldenrod.md#romance-route-how-its-unlocked-how-your-partner-is-chosen-and-what-locks-a-partner-out-central-entry).
 

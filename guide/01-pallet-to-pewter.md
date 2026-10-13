@@ -149,7 +149,7 @@ With any other starter, the Meowth resident only says a general line about livin
 *Source:* script files 859 (scripts 1, 9, 10; trainers 3 and 2; flags 1057/1244 end the early lessons and are set by whichever of file 738 L1651 (parcel) or file 212 L1931 (Route 22 Blue) comes second; the teacher sets flag 1218; script 1 L111 offers the challenge again once 1057 is clear, while 1244 keeps the students hidden), 115 (script 3: greeting by flag 1292 = beaten at the Academy, trainer 65, TM54 = item 381 × 5 at L1498, then L3712 sets her hide flag 1063; nothing else sets it; Cynthia ≈51,34; Team Rocket scene ending, reached from L4696/L4721: L5748 `CheckFlag 1288` (Pikachu starter, set by 738 @3891) → L6969, @6973 clears 1057), 170 (@3782 and @4355 clear 1057).
 
 ## Route 2: the Rocket warehouse Poké Ball (starter-dependent gift)
-<!-- quest: kind=side; id=q-0009 -->
+<!-- quest: kind=side; id=q-0009; missable=yes -->
 
 **Where:** the small house on the eastern road of Route 2, north of Viridian City, that Team Rocket uses as a warehouse (the fake police block the road next to it).
 
@@ -233,7 +233,7 @@ With any other starter, the Meowth resident only says a general line about livin
 *Source:* script files 173 (script 4; sets flag 1237), 115 (scripts 12/13, L2869; Snubbull checks flag 1237).
 
 ## Viridian Forest: the flower garden and the Spearow (missable)
-<!-- quest: kind=side; id=q-0014 -->
+<!-- quest: kind=side; id=q-0014; missable=yes -->
 
 **Where:** the woman by the flowers on the far east side of the forest, north-east of the south entrance (head east from the entrance, past the Trainer standing there).
 
@@ -339,7 +339,7 @@ In Johto, the Honey seller on [Route 36](10-ecruteak-olivine.md#route-35--route-
 *Source:* script file 109 (script 9, flag 1241; ball at 21,40; `CheckBattleWon` counts a flee as a win). Emulator: `emu_harness.py guide0107 --case electrode`.
 
 ## Romance route: Victory Road confessions, Yellow's dates and your house
-<!-- quest: kind=side; id=q-0021 -->
+<!-- quest: kind=side; id=q-0021; missable=yes -->
 
 This entry covers only the steps that happen on this page's maps (Victory Road, Viridian City and your house). How the route is switched on, how your one partner is chosen in the Dream World and what locks a partner out are explained in [the central romance entry](09-ilex-goldenrod.md#romance-route-how-its-unlocked-how-your-partner-is-chosen-and-what-locks-a-partner-out-central-entry).
 

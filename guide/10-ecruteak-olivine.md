@@ -310,7 +310,7 @@
 *Source:* script file 916 (script 30, L5147–L6927; flag 432). Grandpa at ≈408,164.
 
 ## Ecruteak Pokémon Center: Gold's training battles (→ 12 Soda Pop; missable)
-<!-- quest: kind=side; id=q-0285 -->
+<!-- quest: kind=side; id=q-0285; missable=yes -->
 
 **Where:** Ecruteak Pokémon Center, Gold with his Quilava, just left of the entrance.
 
@@ -326,7 +326,7 @@
 *Source:* script file 919 (script 12; trainers 804, 805; flags 2060–2062, obj flag 572), file 23 L3535 (shows him), file 249 (script 23, Gold's Route 39 battle, trainer 809; L4114 hides him). Gold at ≈5,18.
 
 ## Ecruteak City (Dance Theater): Sakura wants a Water Stone (→ Spell Tag; before the Rising Badge)
-<!-- quest: kind=side; id=q-0286 -->
+<!-- quest: kind=side; id=q-0286; missable=yes -->
 
 **Where:** Dance Theater, Kimono Girl Sakura (right end of the row).
 
@@ -414,7 +414,7 @@
 *Source:* script file 924 (L4299–L5610; menu 84–86; flag 265; sets 0x40a9 = 7 / 9), file 918 (L13817–L15482; trainer 715; Clear Bell item 474; sets 0x40a9 = 8), file 21 (script 7 L239–L1696; script 1 → L5969–L6288; trainer 88; GiveMon 250 Lv. 95; flag 1140), file 22 (L1023–L2617, flag 714), file 918 L477 (Friday flag 749).
 
 ## Burned Tower: Prof. Hale, Molly and the three beasts (post-game; frees Entei, Suicune, Raikou)
-<!-- quest: kind=side; id=q-0292 -->
+<!-- quest: kind=side; id=q-0292; missable=yes -->
 
 **Where:** Burned Tower basement, where the Sealing Mirror stood.
 
@@ -573,7 +573,7 @@ A chain across four places in Olivine. **HM05 Whirlpool** is the reward. Crossin
 *Source:* script files 915 (script 11, L914–L1770; flag 2066), 913 (scripts 6, 7; L185–L301, L501–L1252; flag 2069). Chef at ≈11,4 in the Café. The fisherman's door is ≈273,247 (not ≈292,241, which is the seal girl's room).
 
 ## Olivine City: give Crystal your Super Rod (before the Mineral Badge; romance)
-<!-- quest: kind=side; id=q-0302 -->
+<!-- quest: kind=side; id=q-0302; missable=yes -->
 
 **Where:** Olivine City, Crystal and her Bayleef by the harbour entrance, a few steps north of the building that leads to the harbour.
 

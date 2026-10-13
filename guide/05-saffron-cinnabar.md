@@ -419,7 +419,7 @@ After your first Hall of Fame entry, talk to Blaine in the Gym for a rematch: ch
 *Source:* script file 734 (scripts 5, 6, 8; the passenger's hide flag 1093 is set by the sinking, file 157 @2852, and cleared only by the Celebi trip, file 52 @4858; flag 1634). Positions: barter stall ≈105,135; treasure seller ≈119,141; passenger ≈103,111 (house door ≈99,113).
 
 ## Three Island: the Alto Mare Bikers (save the Meowth?)
-<!-- quest: kind=side; id=q-0136 -->
+<!-- quest: kind=side; id=q-0136; missable=yes -->
 
 **Where:** Three Island. Two bikers block the north entrance. More bikers stand outside the gang's house (the Islander's House on the north side, a biker guarding its door), and one biker is picking on a stray Meowth a few steps north-west of them.
 

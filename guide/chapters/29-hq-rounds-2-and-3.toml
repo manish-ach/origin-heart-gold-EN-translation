@@ -1,0 +1,84 @@
+id = "ch29-hq-rounds-2-and-3"
+order = 29
+title = "Chapter 29: League HQ Rounds 2 and 3"
+summary = "Seafoam Islands and Kyogre, then Violet City's stolen Jade Orb, the Forest of Time, the legendary tracks in Johto and the sick Miltank at MooMoo Farm."
+kind = "story"
+intro = """
+Report round 1 to the Trainer Affairs desk and it hands out **round 2**, then **round 3**. Round 2 stays in Kanto: a museum exhibition in Pewter City and the water ballet at the Cerulean Gym, which leads to the Seafoam Islands. Round 3 sends you all over Johto: the Jade Orb in Violet City, legendary tracks near New Bark Town and Cherrygrove City, people in black in Ilex Forest and ghostly rumours at MooMoo Farm.
+
+**Main quest in this chapter:** finish every lead of round 2, report, then finish every lead of round 3 and report again.
+
+**Temporary effects to know about:** taking the round-3 order makes the MooMoo Farm Miltank fall sick (the Sunflora old lady stops talking until you cure them), and while the golden trophy is missing in Violet City the runner will not do his Rapidash request. **If you want the romance route, do the Goldenrod love reading before the Dream World** (Chapter 20).
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Round 2: Pewter Museum and the Cerulean Gym.** The desk sends you to suspicious people at the **Pewter Museum** exhibition and to strangers at the **Cerulean Gym** water ballet. At the Gym, Archie steals Misty's **Blue Orb** and sends it to the Seafoam Islands. In the deep chamber at the Seafoam Islands, Misty joins you for a **Multi Battle** against two Grunts (Lv. 63-65). Then Lawrence has Moltres melt the ice and **Articuno is taken**: a second Multi Battle against Executive Lawrence (Lv. 87-90) and a Grunt. Archie summons **Kyogre** with the Blue Orb and escapes with it. **This closes for good:** Articuno and its TM14 Blizzard (Chapter 10). The melted ice walls come back, so melt them yourself to reach the Blue Orb pedestal at the north end.
+"""
+unlocks = ["q-0129"]
+closes = ["q-0128"]
+evidence = "guide/05 q-0129 (script file 195: script 12 step trigger while var 0x408c = 14; the Cerulean Gym scene sets 14, file 758 @6356-@6372; @957 hides Articuno before the second Multi Battle; script 14 L2410-L2889, flag 2288; the scene ends with 0x408c = 15), guide/05 q-0128 (Articuno hidden for good at this scene, handoff from agent 2). The Pewter Museum exhibition has no quest of its own (guide/07 q-0192 round table; questions file)."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**Round 3: the Violet Gym and the Jade Orb.** Talk to Falkner in the Violet Gym: a guard reports that the marathon runner's golden trophy was stolen. The runner's house is at the south end of town; a scene plays there and word arrives that former Leader Verdell has taken something from the Gym. Back in the Gym, Falkner tells you the **Jade Orb** is gone. That counts as the Violet lead.
+"""
+unlocks = ["q-0215"]
+evidence = "guide/08 q-0215 (round 3; Violet Gym, the runner's house, Falkner), script of the Violet Gym; guide/07 q-0192 (round 3 order, file 31 script 29 @4654 SetVar 0x40a2 = 17)."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**Round 3: legendary tracks at New Bark Town and Cherrygrove City.** Ask Gold and Crystal. In New Bark Town you and Gold fight Cassidy and Butch in a Multi Battle before **Raikou** picks Gold as its Trainer; in Cherrygrove, **Suicune** picks Crystal after her duel with Eusine. These scenes have no quest of their own.
+"""
+evidence = "guide/07 q-0192 Notes (New Bark scene: Multi Battle against Cassidy and Butch, Raikou picks Gold, file 839, flag 2292; Cherrygrove: Suicune picks Crystal, file 847, flag 2294)."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**Round 3: Ilex Forest and the Forest of Time.** The old ranger by the path into the Forest of Time now plays the scene: a boy, **Sammy**, falls out of the past and the injured **Celebi** needs 10 Fresh Water, 10 Sitrus Berries and a lead Pokémon that can make light (Staryu, Starmie, Chinchou, Lanturn, Ampharos, Volbeat or Clamperl). Heal Celebi, hold off two Grunts and follow the five-exit route through the forest (top-middle, top-middle, top-right, top-left, top-middle). At the end Executive Marauder (Lv. 89-90) attacks twice. The reward is a Leaf Stone, a Max Elixir and a PP Max. Afterwards the shrine at the north end of the forest lets you receive **Shaymin** (Gracidea and a Leafeon lead, between 8:00 and 19:59) and then **Celebi** (Shaymin lead, between 20:00 and 7:59).
+"""
+unlocks = ["q-0245", "q-0365", "q-0246"]
+evidence = "guide/09 q-0245 (round 3; 'before it she only tells the Celebi legend'), q-0365 (the five-exit route; the last exit loops back while you fetch the medicine and from Bugsy's Honey until the Sammy chapter starts), q-0246 (after the Sammy chapter; Gracidea from the Cinnabar lab; one Shaymin and one Celebi per game)."
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**Round 3: MooMoo Farm.** The round-3 order made the Miltank sick: the farmer now asks for help. Say Yes, go into the west stable room and walk to the back wall. Will and Karen open a rift and you are pulled into the **Dream World** (partner choice, a Double Battle against Will and Karen, then the way back). Talk to the farmer again afterwards: he gives you one Moomoo Milk, and the farm is back to normal for good. Report round 3 to the desk when all four leads are done.
+"""
+unlocks = ["q-0298"]
+closes = ["q-0266"]
+evidence = "guide/10 q-0298 (round 3; the order makes the Miltank sick: file 31 @4654-@4666 ClearFlag 744 (Miltank healthy), set again by the Dream World cure, file 898 @2329; emulator, CN and EN: Miltank healthy and the farmer only greets until the order). The Dream World and the romance partner choice: guide/09 romance route entry. Closes q-0266: the love reading (and the romance route) must be done before this step; the fortune-teller stops offering it once you have fought Will and Karen in the Dream World (guide/09 q-0266 step 1)."
+
+[[quests]]
+id = "q-0129"
+available_note = "The Kyogre catch itself comes after the final Hall of Fame (postgame). Melt the ice walls yourself (Magcargo or Moltres in the lead) to reach the pedestal."
+level_note = "Executive Lawrence's team is Lv. 87-90."
+
+[[quests]]
+id = "q-0215"
+
+[[quests]]
+id = "q-0245"
+available_note = "Needs 10 Fresh Water and a lead Pokémon that can make light. The Sitrus Berries are never checked."
+level_note = "Executive Marauder's team is Lv. 89-90."
+
+[[quests]]
+id = "q-0365"
+
+[[quests]]
+id = "q-0246"
+needs = ["q-0245"]
+available_note = "One Shaymin and one Celebi per game. Needs the Gracidea (an item ball in the Cinnabar lab) and a Leafeon, then a Shaymin lead for Celebi."
+level_note = "Shaymin and Celebi are Lv. 90 gifts."
+
+[[quests]]
+id = "q-0298"
+available_note = "Only after the round-3 order. Do the Goldenrod love reading first if you want the romance route."

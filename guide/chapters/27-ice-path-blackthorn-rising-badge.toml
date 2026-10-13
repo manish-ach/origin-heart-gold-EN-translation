@@ -1,0 +1,124 @@
+id = "ch27-ice-path-blackthorn-rising-badge"
+order = 27
+title = "Chapter 27: Route 44, the Ice Path, Blackthorn City and the Rising Badge"
+summary = "East from Mahogany through the Ice Path, Clair's dragon rule and the Dragon's Den: the eighth and last Johto Badge."
+kind = "story"
+intro = """
+East of Mahogany Town the road runs along Route 44 and through the **Ice Path** to **Blackthorn City**, the home of the Dragon-type Gym. **Clair** doubts your Champion title and sets terms, and the real test is waiting in the **Dragon's Den**, where the Elder gives the **Rising Badge**. That is the eighth Johto Badge and it ends a lot of Johto errands for good.
+
+**Main quest in this chapter:** cross Route 44 and the Ice Path (with Crystal, and a Team Rocket trap for Suicune on B2F), beat Clair with a party of dragons or dragon-shaped Pokémon, and pass the Elder's trial in the Dragon's Den for the **Rising Badge**.
+
+**Before the Rising Badge, these close for good:** coaching Crystal outside the Blackthorn Gym, Sakura's Water Stone request in Ecruteak, the Three Island bikers' errands (Chapter 23), the Razor Claw reward on Route 34 and the Four Island Mystery Stone buyer (both Chapter 12 and Chapter 20). Make the Ice Path's **Anti-Age Spray** in this chapter too: you need it in the final chapter.
+"""
+
+[[steps]]
+id = "s01"
+main = false
+text = """
+**Route 44.** On the way to the Ice Path a girl with a **Cleffa** (her con men wait on Ice Path 1F), a boy whose brother has a **Heracross** at the east end.
+"""
+unlocks = ["q-0337", "q-0338"]
+evidence = "guide/12 q-0337 (Route 44 west end; the con men on Ice Path 1F; one-time), q-0338 (Route 44; the older brother at the east end). Both 'any time' per guide/12; placed with the Ice Path crossing, which the story reaches after the Rocket HQ (guide/12 q-0355: 'any time after the Team Rocket HQ chapter')."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**The Ice Path.** Crystal studies the "damp soil" that Suicune leaves behind. On 1F two Trainers duel over an **Icy Rock** (north part of the floor) and there are tutors and extras. On B2F you meet Eusine, and then the "Joy from Blackthorn City": she says Suicune is hurt and sets up a "treatment device". It is a brainwashing trap. You fight two Grunts in a row, then **Rocket Elite Joy**, and Crystal's Meganium destroys the device. In the east part of B2F, reached from B3F, a Swinub Trainer wants **10 Durin Berries** (the Mahogany nurse gives 15) and an old man can make the **Anti-Age Spray**. **You need the spray in the final chapter.**
+"""
+unlocks = ["q-0339", "q-0340", "q-0355", "q-0361"]
+evidence = "guide/12 q-0339 (any time), q-0340 (the story's Ice Path crossing), q-0355 (any time after the Team Rocket HQ chapter; needs 20 Durin Berries in total), q-0361 (Icicle Spear tutor, Black Belt Boyd, Blackthorn extras). Vars: file 101 script 3 @477 SetVar 0x40a2 = 2, script 4 @3793 = 3."
+
+[[steps]]
+id = "s03"
+main = false
+text = """
+**Blackthorn City.** The town has a few errands before you take on the Gym. **Crystal** stands just outside the Gym with her Meganium and offers a practice battle for a **PP Max**: do it before the Dragon's Den. A Blackthorn Trainer has lost his seven Johto Badges; the "Senior Trainer" on Route 45 with the kids only brags about them until you talk to the Blackthorn man (3 Energy Powder). On Route 45 a man looks after hurt wild Pokémon, and his rampaging Dragonite teaches **Outrage**.
+"""
+unlocks = ["q-0341", "q-0342", "q-0345"]
+evidence = "guide/12 q-0341 (when you arrive in Blackthorn; Gold and Crystal have just lost to Clair), q-0342 (talk to the Blackthorn Trainer first), q-0345 (any time on Route 45). Arrival: file 939 (Blackthorn Gym), 937 (town)."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**Clair's Gym.** The Gym floor has holes: the wrong tile drops you back to the entrance. Clair will only face you in a **Single Battle** with Dragon-type or dragon-shaped Pokémon and checks your **whole party** against a fixed list (Gyarados, Charizard, Rhydon, Kingdra and so on; Horsea, Onix, Tyranitar and most other Gen 1-4 Pokémon are refused). Beat her (Lv. 85) and she still withholds the Badge: she sends you to the Elder in the Dragon's Den.
+"""
+unlocks = ["q-0343"]
+evidence = "guide/12 q-0343 (script file 939: @14168 SetVar 0x40a2 = 4 after the Clair battle; the party list; known issue clairs-dragon-rule)."
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**The Dragon's Den and the Rising Badge.** North of town, **Ace Trainer Ao Run** stops you four steps in. The Dragon Shrine sits behind a whirlpool: examine it with the Volcano Badge to cross. Entering the shrine starts the **Elder's battle** (six Lv. 90 dragons). Then five questions (you cannot fail them), and Clair arrives to give you the **Rising Badge**, TM59 Dragon Pulse and her number. The Elder is also where **Mr. Fuji's Mystery Stone** becomes a **Charizardite**, and without the stone he teaches **Dragon Rush**. **This closes for good** (the Rising Badge): Crystal's coaching outside the Gym, Sakura's Water Stone request, the **Three Island bikers** (and the Protector reward from the Chief), the Razor Claw reward on Route 34 and the Four Island Mystery Stone buyer. Rock Climb works now.
+"""
+unlocks = ["q-0346", "q-0347"]
+closes = ["q-0341", "q-0286", "q-0136", "q-0157", "q-0158", "q-0159", "q-0250"]
+evidence = "script file 111 (script 15 @926 SetVar 0x40a2 = 5), file 112 (script 6: @4849 SetVar 0x40a2 = 6 and the badge; @4859-@4917 clear the bikers' flags 2013, 2014, 2018 and the asker's flag 2022, set 2020, guide/05 q-0136 and file 879/735 notes; @4871 sets Big Sis's hide flag 2019). guide/12 q-0346 ('Getting the Rising Badge also ends Three Island's biker occupation for good'), q-0341 ('when you receive the Rising Badge she leaves her spot'), guide/10 q-0286 ('once you have the Rising Badge she skips the request'), guide/09 q-0250 (claim the Razor Claw before the Rising Badge; handoff from agent 3), guide/05 q-0159 (after the Rising Badge he no longer buys; handoff from agent 3). Rock Climb needs CheckBadge 15 (guide/13 q-0367)."
+
+[[steps]]
+id = "s06"
+main = false
+text = """
+**Back in Blackthorn City.** Gold and Crystal meet you in front of the Gym: Gold has just won his eighth Badge and asks if you have all eight Johto Badges. With all eight (Zephyr to Rising) he admits he lost the race and gives **5 PP Max**; with any missing he gives **1 PP Up**, and Crystal adds 3 Max Revives either way. **One chance.** Elm in New Bark Town also has a present for all eight Badges: 5 Rare Candy and 5 PP Max.
+"""
+unlocks = ["q-0344", "q-0191"]
+evidence = "guide/12 q-0344 (automatic right after the Rising Badge; the game checks all eight badges), guide/07 q-0191 (script file 840 script 1: CheckBadge 8 to 15, flag 220, items 50 and 53). Vars: file 937 @4630 SetVar 0x40a2 = 7 after the Dragon's Den."
+
+[[quests]]
+id = "q-0337"
+
+[[quests]]
+id = "q-0338"
+
+[[quests]]
+id = "q-0339"
+
+[[quests]]
+id = "q-0340"
+level_note = "The Grunts are Lv. 62-65; Rocket Elite Joy is Lv. 86-87."
+
+[[quests]]
+id = "q-0355"
+needs = ["q-0327"]
+available_note = "Needs 10 Durin Berries for the Swinub Trainer and 10 more for the spray."
+
+[[quests]]
+id = "q-0361"
+available_note = "A mixed entry. Santos (Saturdays) and the Blackthorn tutors are in town; the Play Rough tutor needs the runaway Trainer's errand from Route 36."
+
+[[quests]]
+id = "q-0341"
+missable = true
+available_note = "Before you receive the Rising Badge."
+level_note = "Crystal's team is Lv. 80-81."
+
+[[quests]]
+id = "q-0342"
+
+[[quests]]
+id = "q-0345"
+
+[[quests]]
+id = "q-0343"
+level_note = "Clair's team is Lv. 85."
+
+[[quests]]
+id = "q-0346"
+needs = ["q-0343"]
+available_note = "Needs the Volcano Badge to cross the whirlpool. Do the Three Island biker errands first."
+level_note = "The Elder's team is Lv. 90."
+
+[[quests]]
+id = "q-0347"
+available_note = "Carry Mr. Fuji's Mystery Stone for the Charizardite; do not sell it on Four Island."
+
+[[quests]]
+id = "q-0344"
+needs = ["q-0346"]
+available_note = "One chance, right after the Rising Badge. Bring all eight Johto Badges for 5 PP Max."
+
+[[quests]]
+id = "q-0191"
+available_note = "Needs all eight Johto Badges (Zephyr to Rising). Elm is in his lab in New Bark Town."

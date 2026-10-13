@@ -1,0 +1,157 @@
+id = "ch31-island-pilgrimage"
+order = 31
+title = "Chapter 31: The Island Pilgrimage"
+summary = "Sign up on Seven Island, clear the trials of all six islands, then follow Team Rocket from the Ritual Shrine to the Ruins of Alph."
+kind = "story"
+intro = """
+After round 4 President Goodshow sends you to the Alto Mare (Sevii) Islands: sign up for the **Island Pilgrimage** on Seven Island as cover, and watch for Team Rocket. The pilgrimage is a trial on each island, in any order. When it is done, the Ritual Shrine on Seven Island opens, **Giovanni takes the Azure Flute** there, and the trail leads on to the Ruins of Alph.
+
+**Main quest in this chapter:** report round 4, sign up with the Seven Island chief, clear the trials of One to Six Island, face the audience battle on Seven Island, follow Team Rocket from the Ritual Shrine to the Ruins of Alph and report to Goodshow.
+
+**Before your final Hall of Fame entry (Chapter 32):** the Six Island chief's trial. The ferries to Four to Seven Island run from the One Island travel agency ($500).
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Report round 4 and sign up.** Report round 4 at the Trainer Affairs desk for the pilgrimage order. On Seven Island, the chief (an old man in the middle of the village, a few steps west of the Blissey nurse) lists the chiefs: One Island's library director, Granny Mae on Two Island, the League's engineer on Three Island, the straw-hatted man on Four Island, the monks' Elder on Five Island and the oldest Trainer on Six Island. Say you will take part. Bianca now stands in the Alto Mare Library as well.
+"""
+unlocks = ["q-0161"]
+evidence = "guide/06 q-0161 (the chief only says the pilgrimage will begin soon until the order; the ferries to Four to Seven Island run from the One Island travel agency, $500), guide/07 q-0192 ('After round 4, Goodshow sends you to the Alto Mare Islands'). Order: file 31 script 29 @4416 SetVar 0x40a2 = 19, @3322 and @3854 SetVar = 20 (the pilgrimage order)."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**One Island: the Secret Forest.** Talk to Bianca in the Alto Mare Library first; she then appears on One Island. Follow "Bianca" (really **Latias**) through an illusory tree into the hidden garden. At the fountain Latios appears, then the One Island chief and the real Bianca arrive and Latias reveals herself. Will, Karen and Goh burst in: a Double Battle against Will and Karen (Lv. 90), then Goh. Say yes when the chief offers you **Latios and Latias** (Lv. 80) and take the **Soul Dew**: you need two free party slots. That counts as the One Island trial. With Latios or Latias in your party, a tourist south of the Pokémon Center gives you a photo and **Black Glasses**.
+"""
+unlocks = ["q-0147", "q-0169"]
+evidence = "guide/05 q-0147 (round 4 plus the Seven Island sign-up; Bianca in the Alto Mare Library; counts as the One Island pilgrimage trial), q-0169 (put Latias or Latios first and talk to the tourist)."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**Two Island and Three Island.** On Two Island, Granny Mae and Dana fight you one against two in a Double Battle (Lv. 81-82). On Three Island the League's engineer (the northern of the two house doors) sets you the trial of helping a tourist: the father on the south side of the island (a few steps south-east of the Shipyard Ruins entrance) says his daughter is in the **Island Forest** on Six Island. Find her in the north-west of the forest, deal with the wild **Hypno** (Lv. 30; catching it counts as a win), take her home and report back to the engineer. The father only stands there once you have cleared the Dragon's Den (the Rising Badge).
+"""
+unlocks = ["q-0162", "q-0163", "q-0137"]
+evidence = "guide/06 q-0162 (Granny Mae and Dana, Double Battle), q-0163 (the engineer's trial), guide/05 q-0137 (the father only stands on Three Island after the Rising Badge; wild Hypno Lv. 30 in the Island Forest; Red Flute)."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**Four Island and Sky Pillar Peak.** A guard stands next to the northernmost cave entrance at the top of the town: beat **Guitarist Brian** (Lv. 81-82), then climb **Sky Pillar Peak** through the Island Cave. At the top a Team Rocket scene replaces the chief's trial: two Grunts, then **Executive Proton** and a Grunt together. **Ariana catches Rayquaza** with the Jade Orb and escapes anyway. The scene counts as your Four Island pass.
+"""
+unlocks = ["q-0164", "q-0165"]
+evidence = "guide/06 q-0164 (the path guard, Guitarist Brian), q-0165 (Sky Pillar Peak scene during the pilgrimage, after the Seven Island sign-up)."
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**Five Island: the monks.** Beat the monk at the south entrance, show another monk a **Cherubi** you caught on the island, push up the snowy mountain past two more sages and talk to the **freezing disciple** at the top. In the monks' hut the Elder asks five questions (the answers are in the quest) and then fights you (Lv. 81-82). After the win, talk to him again and pick "The man on the snowy mountain?": he forgives the disciple, and you climb back up to tell him he may come down. Freeing the disciple is optional for the pilgrimage but starts the long **Mew hunt**: read the four logs on the desk in the Cinnabar lab, then Mew shows itself on Route 1, in Mt. Moon Square, on Route 27 and finally on Five Island, where you battle it at Lv. 90. If you answered No to the Turtwig owner's four-leaf clover on Five Island, he moves to the foot of Mt. Silver: bring Mew there for 3 Revival Herbs.
+"""
+unlocks = ["q-0141", "q-0166", "q-0145", "q-0193"]
+evidence = "guide/05 q-0141 (monks' trials in a fixed order), guide/06 q-0166 (the Elder's quiz and battle; 'you can only tell him about the freezing disciple after beating him'), guide/05 q-0145 (Mew hunt after the disciple is freed; each sighting requires the previous one), guide/07 q-0193 (Turtwig owner at the foot of Mt. Silver, only if you answered No on Five Island, needs Mew in the lead; script file 945 script 17)."
+
+[[steps]]
+id = "s06"
+main = true
+text = """
+**Six Island.** Behind the east house door the chief sets his rule: beat him using exactly **Sharpedo, Whiscash and Crawdaunt**, or pay **$50,000**. Either way a man bursts in: a gang is stealing the **Fallen Red Star** north of the door. Executive Marauder and Executive Petrel fight you in a Double Battle while Maxie and Archie shine the Red and Blue Orbs on the stone, and the stone wakes **Deoxys**; Petrel catches it and they escape. **Only before your final Hall of Fame entry** does the chief still offer this trial.
+"""
+unlocks = ["q-0167"]
+evidence = "guide/06 q-0167 ('only before your final Hall of Fame entry. After that he no longer offers the trial'; the chief's rule and the Fallen Red Star scene)."
+
+[[steps]]
+id = "s07"
+main = true
+text = """
+**Seven Island, the Ritual Shrine and the Ruins of Alph.** Back on Seven Island the chief gathers an audience: a **Double Battle** against **Elder Donglai and Camper Penn** (Lv. 81-82; bring at least two Pokémon). The pilgrimage is complete. In the shrine at the north edge of the village, talk to the shrine keeper (with her Vaporeon): Giovanni, Cyrus and Archer appear, you fight **Executive Archer** (Ho-Oh Lv. 95), and Charon picks up the **Azure Flute**. Team Rocket teleports to the **Ruins of Alph**: reopen the back wall of any of the four chambers, walk to the stone replica statues west of the temple door and fight three battles with no healing in between (Cyrus, Charon, then Archer in a Double Battle). Giovanni calls out Dialga, Palkia and Giratina and catches **Arceus**. Walk out of the temple and report to Goodshow at League HQ.
+"""
+unlocks = ["q-0168", "q-0228"]
+evidence = "guide/06 q-0161 (the audience battle; the pilgrimage's end), q-0168 (the Ritual Shrine opens only after the pilgrimage; Archer fight; Charon picks up the flute), guide/08 q-0228 (Ruins of Alph hall after the Kabuto back wall closed again; three battles with no healing; Giovanni catches Arceus)."
+
+[[quests]]
+id = "q-0161"
+needs = ["q-0192"]
+available_note = "Only after round 4. Bring at least two Pokémon for the final audience battle."
+level_note = "Elder Donglai and Camper Penn are Lv. 81-82."
+
+[[quests]]
+id = "q-0147"
+needs = ["q-0161", "q-0351"]
+available_note = "Needs two free party slots. Do it after the Seven Island sign-up and the Lake of Rage scene."
+level_note = "Will and Karen are Lv. 90; Goh's lead is Lv. 85."
+
+[[quests]]
+id = "q-0169"
+needs = ["q-0147"]
+available_note = "Needs Latios or Latias leading your party."
+
+[[quests]]
+id = "q-0162"
+needs = ["q-0161"]
+level_note = "Granny Mae and Dana are Lv. 81-82."
+
+[[quests]]
+id = "q-0163"
+needs = ["q-0161"]
+
+[[quests]]
+id = "q-0137"
+needs = ["q-0163"]
+available_note = "The father only stands on Three Island after the Rising Badge. A free party slot helps if you catch the Hypno."
+level_note = "The wild Hypno is Lv. 30."
+
+[[quests]]
+id = "q-0164"
+needs = ["q-0161"]
+level_note = "Guitarist Brian is Lv. 81-82."
+
+[[quests]]
+id = "q-0165"
+needs = ["q-0164"]
+level_note = "Executive Proton's team is Lv. 86-87."
+
+[[quests]]
+id = "q-0141"
+needs = ["q-0161"]
+available_note = "The monks' trials run in a fixed order."
+level_note = "The Five Island sages are around Lv. 62."
+
+[[quests]]
+id = "q-0166"
+needs = ["q-0141"]
+level_note = "Elder Huguo is Lv. 81-82."
+
+[[quests]]
+id = "q-0145"
+needs = ["q-0141", "q-0166"]
+available_note = "Starts after you free the disciple on the snowy mountain. You need a free party slot."
+level_note = "Mew is Lv. 90."
+
+[[quests]]
+id = "q-0193"
+needs = ["q-0145"]
+available_note = "Only if you did not win the four-leaf clover on Five Island. Lead with Mew."
+
+[[quests]]
+id = "q-0167"
+missable = true
+needs = ["q-0161"]
+available_note = "The chief stops offering the trial after your final Hall of Fame entry. Beat him with exactly Sharpedo, Whiscash and Crawdaunt, or pay $50,000."
+level_note = "Elder Wensha is Lv. 81-82."
+
+[[quests]]
+id = "q-0168"
+needs = ["q-0161"]
+available_note = "Only after the pilgrimage is complete."
+level_note = "Executive Archer's lead is Ho-Oh, Lv. 95."
+
+[[quests]]
+id = "q-0228"
+needs = ["q-0168"]
+level_note = "The three Executives are Lv. 87-92."

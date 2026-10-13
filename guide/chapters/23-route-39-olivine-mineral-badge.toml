@@ -1,0 +1,146 @@
+id = "ch23-route-39-olivine-mineral-badge"
+order = 23
+title = "Chapter 23: Routes 38 and 39, Olivine City and the Mineral Badge"
+summary = "West from Ecruteak: MooMoo Farm, Gold and Crystal on Route 39, Olivine City, Jasmine's Steel Gym and Team Rocket in the Lighthouse."
+kind = "story"
+intro = """
+Route 38 and Route 39 lead from Ecruteak City to Olivine City, a harbour town with a Gym, a Café and a Lighthouse. At the south end of Route 39 **Gold and Crystal** stop you for the scene that opens the sea routes: from then on the ferries run and several errands on the Sevii Islands wake up. In Olivine you win the **Mineral Badge**, and Team Rocket takes over the Lighthouse straight afterwards.
+
+**Main quest in this chapter:** cross Routes 38 and 39, battle Gold at the south end of Route 39, win the **Mineral Badge** from Jasmine and drive Team Rocket out of the Lighthouse. Amphy, the Lighthouse Pokémon, is poisoned: the medicine comes from Cianwood City (next chapter) and the reward waits at the top of the Lighthouse.
+
+**Before the Mineral Badge:** the guard's letter to Momo (Chapter 15) and giving Crystal your Super Rod. **Before the Rising Badge (Chapter 27):** the Three Island bikers' errands.
+"""
+
+[[steps]]
+id = "s01"
+main = false
+text = """
+**Route 38.** West of Ecruteak the road is short: a kid with a Murkrow that stole a coin ("Nugget trap") hides behind the fence at the east end, a Magician trains Apricorns in the west part and a merchant sells TM78 Captivate at the west end. Route 38 to Olivine City also has a handful of small extras (Route 39's Hiker, the Café's drunk veteran, the Aron kid's Endeavor lesson).
+"""
+unlocks = ["q-0294", "q-0306"]
+evidence = "guide/10 q-0294 (Route 38, any time, one time), q-0306 (small extras across Route 38, Route 39 and Olivine City). Route 38 and Route 39 are not gated by any story variable (no script tests 0x4098 on them; the Route 39 Gold scene triggers on var 0x4098 = 7, file 249 script 23)."
+
+[[steps]]
+id = "s02"
+main = false
+text = """
+**MooMoo Farm (Route 39).** The Miltank are healthy now. The farmer sells Moomoo Milk, a "Team Rocket grunt" east of the stable wants $10,000 (an optional Lv. 62-65 battle), the old lady among the Sunflora tells her story for a **Seal Case**, and a Donphan owner wants a **Protector** (he gives a Power Weight). Buy **10 Moomoo Milk** for the baby Pichu's mother in Ecruteak, who then teaches Volt Tackle.
+"""
+unlocks = ["q-0295", "q-0296", "q-0297", "q-0288"]
+evidence = "guide/10 q-0295 (from your first visit, one time), q-0296 (needs a Protector, from Three Island q-0158), q-0297 (only while the Miltank are healthy: from the first visit until the League HQ's round-3 order, tested in an emulator), q-0288 (10 Moomoo Milk; the milk is sold at MooMoo Farm)."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**Route 39: Gold and Crystal.** At the south end of Route 39 the two friends stop you. Gold has the Fog Badge and wants a battle with his partners right now. **This closes for good:** Gold's training battles in the Ecruteak Pokémon Center (he leaves for good, finished or not). The scene also **opens the sea routes**: the new S.S. Anne offers Olivine City, the One Island ferryman and the Alto Mare travel agency boat run, a man in the One Island Pokémon Center starts asking you to drive off the bikers on Three Island, and the Island Cave on Four Island and the Two Island quiz wake up. (Yellow and Misty are hidden from now on; see the Battle Tower partner room entry in Chapter 24.)
+"""
+unlocks = ["q-0136", "q-0157", "q-0158", "q-0139", "q-0140"]
+closes = ["q-0285"]
+evidence = "script file 249 (script 23, coord trigger on var 0x4098 = 7: Gold 'Idol!!!', TrainerBattle 809 at @1543; @4042 SetVar 0x4098 = 8, @4066 SetFlag 2024, @4048 SetVar 0x409a = 6, @5025 clears flag 1109 which starts the biker quest). Flag 2024 gates the ferries (file 155 L392, file 845 L1871, file 894 script 11 L346), not Surf trips to Four to Seven Island. guide/10 q-0285 (Gold leaves the Pokémon Center when this scene plays). The bikers' asker (file 889 script 6) needs 1109 clear; the Island Cave chain needs 0x409a >= 6 (guide/05 q-0139 Source)."
+
+[[steps]]
+id = "s04"
+main = false
+text = """
+**Olivine City, before the Gym.** Around town: three **Star-Chaser Sisters** (talk to them from the middle), the Café with its **three dishes for the fisherman's Super Rod**, the drunk veteran in the Café, the Sitrus Berry chain towards **HM05 Whirlpool** (Café, Lighthouse engineer, then a boy in the north-east house who needs a Tentacool), and a salesman with a "gold-laying Magikarp" if the S.S. Anne was saved. Down at the harbour entrance **Crystal** is still in town: if you carry a Super Rod she would love one for her Kingler.
+"""
+unlocks = ["q-0299", "q-0300", "q-0301", "q-0302", "q-0303"]
+evidence = "guide/10 q-0299, q-0300 (the Lighthouse engineer is away from the Mineral Badge until Rocket is driven out), q-0301, q-0302 (Crystal leaves Olivine with the Team Rocket alarm after the Gym battle), q-0303 (only if the S.S. Anne did not sink; script bank of Olivine City, file 909)."
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**The Olivine Gym.** Jasmine fights a **3-on-3 Single Battle** with only Pokémon on her list of base Defense 130 or higher (carry three or fewer). Win for the **Mineral Badge**. She starts to hand over a TM, but a Gym Trainer bursts in: Team Rocket is at the Lighthouse. **This closes for good:** Crystal at the harbour (the Team Rocket alarm removes her), so give her the Super Rod before the fight, and the Momo letter (deliver it before this badge, Chapter 15). The Mineral Badge also opens the **Two Island** Water-type quiz.
+"""
+unlocks = ["q-0304", "q-0133"]
+closes = ["q-0302", "q-0185"]
+evidence = "script file 909 (script 8: @370 SetVar 0x4098 = 9, @16106 SetVar = 10 after the badge; CheckBadge 13 = Mineral Badge). guide/10 q-0304, q-0302 ('only until you beat Jasmine'). guide/07 q-0185 ('must happen before you earn the Mineral Badge'; file 222 and file 924 CheckBadge 13). guide/05 q-0133 ('you need the Mineral Badge', script file 734)."
+
+[[steps]]
+id = "s06"
+main = true
+text = """
+**The Olivine Lighthouse.** Team Rocket holds the Lighthouse: the stairs are closed and you go up by elevator. Drive them out. At the top **Amphy** has been poisoned and Jasmine asks you to fetch medicine from Cianwood City. That is the next chapter; the **Secret Potion** brings you back here for TM91 Flash Cannon and Jasmine's number.
+"""
+unlocks = ["q-0305"]
+evidence = "script file 66 (Lighthouse: @567 SetVar 0x4098 = 11, @2501 = 12, @3750 = 13). guide/10 q-0305 (story right after the Mineral Badge; needs the Secret Potion from Cianwood, guide/11 q-0308). Note: the Lighthouse engineer in the Machine Part chain is away from the Mineral Badge until Rocket is out (guide/10 q-0300)."
+
+[[quests]]
+id = "q-0294"
+
+[[quests]]
+id = "q-0306"
+
+[[quests]]
+id = "q-0295"
+
+[[quests]]
+id = "q-0296"
+available_note = "Needs a Protector (from the Three Island bikers' errand)."
+
+[[quests]]
+id = "q-0297"
+available_note = "Only while the Miltank are healthy: before the League HQ's round-3 order and again after the sick-Miltank investigation."
+
+[[quests]]
+id = "q-0288"
+available_note = "Needs 10 Moomoo Milk (MooMoo Farm). The woman with the Pichu is in Ecruteak City."
+
+[[quests]]
+id = "q-0136"
+missable = true
+available_note = "A man in the One Island Pokémon Center asks you to drive off the bikers. The bikers leave Three Island for good when you win the Rising Badge."
+
+[[quests]]
+id = "q-0157"
+missable = true
+available_note = "Only during the biker occupation, until the Rising Badge."
+
+[[quests]]
+id = "q-0158"
+missable = true
+available_note = "Only during the biker occupation, until the Rising Badge. The Protector you win is for the Donphan owner on Route 39."
+level_note = "The Chief's gauntlet is Lv. 62-64."
+
+[[quests]]
+id = "q-0139"
+available_note = "Four Island: talk to the craftsman first. One chance at the Crystal Onix; save and bring Poké Balls."
+level_note = "The Crystal Onix is Lv. 40."
+
+[[quests]]
+id = "q-0140"
+
+[[quests]]
+id = "q-0299"
+
+[[quests]]
+id = "q-0300"
+available_note = "Needs 20 Sitrus Berries, then a Tentacool in your party for the boy. The Lighthouse engineer is away between the Mineral Badge and the end of the Rocket fight."
+
+[[quests]]
+id = "q-0301"
+
+[[quests]]
+id = "q-0302"
+missable = true
+available_note = "Needs a Super Rod. Crystal leaves Olivine for good after the Gym battle."
+
+[[quests]]
+id = "q-0303"
+available_note = "Only if the S.S. Anne did not sink."
+
+[[quests]]
+id = "q-0304"
+available_note = "Carry three or fewer Pokémon, each on Jasmine's Defense list."
+level_note = "Jasmine's team is Lv. 80."
+
+[[quests]]
+id = "q-0133"
+available_note = "Two Island: needs the Mineral Badge."
+
+[[quests]]
+id = "q-0305"
+needs = ["q-0304"]
+available_note = "Finished after the Cianwood trip (next chapter): bring back the Secret Potion."

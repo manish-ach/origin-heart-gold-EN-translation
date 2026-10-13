@@ -64,8 +64,8 @@ text = """
 **Back to Viridian City: the Viridian Gym.** The Gym is open again. Talk to the man just inside the door (face him from directly in front): he is the **Virtue examiner**. Help Yellow, the girl standing with her uncle and his Doduo just south of the Mart, get her first Pokémon (you need a plain Poké Ball). Then answer the second examiner's Wisdom quiz, get through the Skill trainers and battle **Giovanni** for the **Earth Badge**. **The Earth Badge ends the Pidgeot loan** for Pikachu starters.
 """
 unlocks = ["q-0006", "q-0007"]
-closes = ["q-0015"]
-evidence = "guide/01 q-0006, q-0007 (script files 739 script 11, 741 scripts 2, 6; GiveBadge 7 @2863 in file 741). File 115 L2247: CheckBadge 7 (Earth) set sends the flower woman to the 'Spearow chased off' line, so the loan request stops (q-0015)."
+closes = ["q-0015", "q-0142"]
+evidence = "guide/01 q-0006, q-0007 (script files 739 script 11, 741 scripts 2, 6; GiveBadge 7 @2863 in file 741). File 115 L2247: CheckBadge 7 (Earth) set sends the flower woman to the 'Spearow chased off' line, so the loan request stops (q-0015). Closes q-0142: once you have met the Virtue examiner the sick Trainer on Five Island is gone and the clover scene normally cannot start (guide/05 q-0142 Who gets it / when)."
 
 [[quests]]
 id = "q-0134"

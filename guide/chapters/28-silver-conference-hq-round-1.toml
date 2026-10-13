@@ -1,0 +1,81 @@
+id = "ch28-silver-conference-hq-round-1"
+order = 28
+title = "Chapter 28: The Silver Conference and the League HQ's First Round"
+summary = "Giovanni on Mt. Silver, the Silver Conference at the summit and the first leads from the Trainer Affairs desk."
+kind = "story"
+intro = """
+With the Rising Badge in your case the story returns to the Pokémon League. **President Goodshow** announces the **Silver Conference**, a tournament on Mt. Silver whose best eight Trainers each get one battle against the League Champion: you. That is not the Indigo Conference you already won. At the summit **Giovanni** shows up first; the conference follows; and Goodshow's closing speech starts the **League HQ investigation**, a long series of "rounds" in which the Trainer Affairs desk sends you to places around Kanto and Johto.
+
+**Main quest in this chapter:** hear Goodshow out at League HQ, go up Mt. Silver (the path opens with the Rising Badge), stop Giovanni, battle the eight finalists, then report to Goodshow and take the first order from the Trainer Affairs desk. Round 1 sends you to the Power Plant, Cinnabar Island and Rock Tunnel.
+
+**What opens after the closing ceremony:** the warm stone in the Diglett's Cave statue (the Magma Stone) and, with it, Heatran in Union Cave (Tuesdays). **While the conference runs** the photographer at the foot of Mt. Silver stays away.
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**League HQ and Mt. Silver.** Go to the Pokémon League administration hall on the Indigo Plateau. Goodshow explains the Silver Conference: Lance and Lorelei will examine the competitors on the mountain, and you will battle the first eight Trainers to reach the summit, one Pokémon battle each. Walk to Mt. Silver (the way beyond the hot-spring lodge is shut until you hold the Rising Badge). On the way up **Giovanni** attacks Lance and Lorelei; step in and **battle Giovanni** yourself. Then at the summit you are the Champion on the stage: the eight finalists (among them a Hoenn Trainer, Yellow, Green or Red, Karate King Kiyo, Silver and Gold) challenge you one at a time, as Singles or Doubles, with a chance to restore your Pokémon between fights.
+"""
+evidence = "script file 31 (script 10, coord trigger at the HQ desk area on var 0x40a2 = 7: @2845 SetVar 0x40a2 = 8 with flags 684, 302, 1108, 1806, 499, 1122 set and flags 1964, 1339 cleared; Lance: 'See you on Mt. Silver'), file 105 (cave entrance guard: CheckBadge 15 with flag 1501), file 844 (script 3, coord at 23,139 on var 0x40a2 = 8: Lance and Lorelei against Giovanni, TrainerBattle 701; @1717 SetVar 0x40a2 = 9), file 107 (scripts 1 to 7: the summit conference; @3835 SetVar 9, @4561 = 10, @6028 = 11, @2553 = 12). The photographer at the foot is hidden while flag 1339 is clear (guide/07 q-0198 Source)."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**The closing ceremony.** After the last battle Goodshow takes the stage, declares the first Silver Conference closed and warns that Team Rocket is hiding. From this moment the **warm stone** in the broken statue in the north-east of the lower Diglett's Cave can be taken (a **Magma Stone**, once only). In Union Cave, **Heatran** sleeps in the lava pool on B1F: put the Magma Stone on the pedestal on a **Tuesday**.
+"""
+unlocks = ["q-0053", "q-0232"]
+evidence = "script file 107 (script 7: @9518 SetVar 0x40a2 = 13, closing speech, sets flag 1339). guide/03 q-0053 ('from the Silver Conference closing ceremony on'; file 5 script 4 needs 0x40a2 >= 13), guide/08 q-0232 (needs the Magma Stone; no Hall of Fame entry needed; Tuesdays)."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**The Trainer Affairs desk.** Goodshow's briefing at HQ explains that Team Rocket is after legendary Pokémon and that the League has collected leads from all over the region. Walk north from the Trainer Affairs signs by the hall entrance to the desk at the back: it gives the leads of each **round**, and you must come back and report after finishing **every** lead of a round. If a report is incomplete, the desk just repeats the current leads. **Round 1** sends you to suspicious people at the **Power Plant** (Chapter 9) and then **Cinnabar Island**, and to a secret group in **Rock Tunnel**.
+"""
+unlocks = ["q-0192"]
+evidence = "script file 31 (script 29 @1625 SetVar 0x40a2 = 14 after the briefing; script 4 the desk: var 14 gives the round 1 order, @2261 SetVar 15). guide/07 q-0192 (round table). Power Plant chain: guide/03 q-0060 (round 1 part, placed in Chapter 9)."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**Round 1: the Power Plant and Cinnabar.** At the Power Plant (reached over water with Surf) the ecologist warns you and Lawrence's Grunts attack deeper in. On Cinnabar Island, walk up towards the lava in the north-east: **Executive Lawrence** (Lv. 87-88) burns a Paras to lure Moltres, and his Grunts catch it and escape. **This closes for good:** the Egg man and his Egg on Cinnabar.
+"""
+unlocks = ["q-0130"]
+closes = ["q-0126"]
+evidence = "guide/05 q-0130 (script file 196: the Lawrence scene; L1642-L1650 remove the Egg man and the Egg), q-0126 (guide/05; 'the man and the Egg are removed at the end of the League HQ round 1 Moltres scene'). Power Plant: guide/03 q-0060."
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**Round 1: Rock Tunnel.** In the memorial chamber at the far south end of Rock Tunnel's lower level Goh has joined Team Rocket and is reading the stone with a Rocket "Joy". Win two Double Battles. Then read the stone with a **Wailord in the first party slot and a Relicanth in the sixth** and answer four questions (Yes, No, Yes, "Be ready to fight"): Regirock, Regice and Registeel appear and each joins you as a gift at **Lv. 90**. Report back to the desk when every lead is done.
+"""
+unlocks = ["q-0067"]
+evidence = "guide/03 q-0067 (Rock Tunnel memorial chamber; the party condition and the four answers; examine each titan to invite it)."
+
+[[quests]]
+id = "q-0053"
+available_note = "In Kanto: Diglett's Cave. The Brock photo part is not reachable because of a hack bug."
+
+[[quests]]
+id = "q-0232"
+needs = ["q-0053"]
+available_note = "Tuesdays only. Surf is needed in Union Cave. Heatran is a one-chance catch."
+level_note = "Heatran is Lv. 90."
+
+[[quests]]
+id = "q-0192"
+available_note = "The desk repeats the current leads until every lead of a round is done."
+
+[[quests]]
+id = "q-0130"
+available_note = "The Moltres catch itself comes after the final Hall of Fame (postgame)."
+level_note = "Executive Lawrence's team is Lv. 87-88."
+
+[[quests]]
+id = "q-0067"
+available_note = "Needs a Wailord in your first slot and a Relicanth in your sixth, and a free party slot for each titan."
+level_note = "The three titans are Lv. 90."

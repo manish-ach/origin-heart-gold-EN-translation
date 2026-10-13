@@ -1,0 +1,69 @@
+id = "ch26-mahogany-rocket-hq-glacier-badge"
+order = 26
+title = "Chapter 26: Mahogany Town, the Team Rocket HQ and the Glacier Badge"
+summary = "The souvenir shop that hides a Rocket base, the Boot Camp Ruins, the HQ's three floors and Pryce's no-weather Gym."
+kind = "story"
+intro = """
+The jamming radio waves at the Lake of Rage come from a **Team Rocket base under the Mahogany Town souvenir shop**. **Lance, Pryce, Gold and Crystal** go in with you, but the shop clerk denies everything: Pryce sends you to search outside. The old Rocket training camp, the **Boot Camp Ruins** at the east end of Mt. Mortar B1F, hides the secret passage into the base. When the base falls, Pryce cancels his retirement and the Gym reopens.
+
+**Main quest in this chapter:** search the shop with Pryce, crack the password in the Boot Camp Ruins, fight through the HQ's B1F, B2F and B3F to Archer's room and the radio room, then win the **Glacier Badge**.
+
+**Before the Glacier Badge:** the Game Corner magnet cheater in Goldenrod. **Don't miss the Rainbow Wing:** it is an item ball in Archer's room and you need it for the Bell Tower in Chapter 30 (the shop guard lets you back into the base afterwards).
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**The souvenir shop and the Boot Camp Ruins.** Walk up to the shop door: Gold, Crystal, Lance and Pryce go in with you. Talk to **Pryce** inside; he sends you to search outside. Go to the Boot Camp Ruins (the door is at the far east end of Mt. Mortar B1F, Chapter 25). Your friend (Green for male players, Red for female players) and Silver wait there. Check the **PC in the office** (it needs a five-digit password), read **Archer's notebook** in the big hall and work out the digits from the Pokédex numbers on the crumpled note: the code is **1 4 2 4 6**. The passage into the base opens in the room to the south.
+"""
+unlocks = ["q-0323"]
+evidence = "guide/11 q-0323 (script file 881: vars 0x4098 = 21 to 26 along the ruins; file 88 and 926 for the shop, @498 SetVar 0x4098 = 18, @422 = 19, @736 = 20), guide/11 q-0324 step 1 (Pryce tells you to search outside)."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**The Team Rocket HQ.** The base has three floors and Archer's room. B1F: Persian statues are cameras that call Grunts; the control room opens every passage and a **Sun Stone** lies on this floor. B2F: Butch and Cassidy, Scientist Fujimoto (beat him for the **Secret Key**) and Karen, who is beating Silver. B3F: the Executives' room door needs the Secret Key and two passwords ("Slowpoke Tail" and "Raticate Tail"); behind it "Giovanni" is Petrel in disguise. Archer's room is a Double Battle followed straight by Archer himself, **with no healing in between**. The last fight is the radio room, where you stop the Electrode. **Talk to Petrel's Chatot on B2F before you leave** (one chance). **This closes for good:** the girl with the listless Sentret on Route 43 no longer asks for the berry once the HQ is cleared.
+"""
+unlocks = ["q-0324", "q-0335"]
+closes = ["q-0333"]
+evidence = "guide/11 q-0324 (script files 89 and 90: @716 SetVar 0x4098 = 27, @2331 / @3047 = 28, file 90 @811 = 29, @3001 = 30; file 933 @3313 = 31; the Chatot is gone once you leave B2F), guide/12 q-0335 (Secret Key and the two passwords), guide/12 q-0333 ('once the HQ is cleared, she no longer asks for the berry')."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**The Mahogany Gym.** The Gym reopens because Pryce cancels his retirement. It is a **Double Battle** (you need at least 2 Pokémon) and Pryce refuses anyone carrying a Pokémon whose Ability changes the weather (the check is by species). Win for the **Glacier Badge**. **This closes for good:** the Game Corner magnet cheater in Goldenrod. After the HQ the nurse-assistant in the Mahogany Pokémon Center gives you Durin Berries for the Ice Path, and a flock of Pidgeot and Noctowl squabbles on Route 43.
+"""
+unlocks = ["q-0325", "q-0327", "q-0336"]
+closes = ["q-0264"]
+evidence = "guide/11 q-0325 (Gym only after the HQ chapter, Pryce's no-weather list, known issue pryces-weather-rule), q-0327 (after the HQ chapter), guide/12 q-0336 (flock appears after the HQ). guide/09 q-0264 ('before the Glacier Badge')."
+
+[[quests]]
+id = "q-0323"
+available_note = "The door to the ruins is at the east end of Mt. Mortar B1F."
+
+[[quests]]
+id = "q-0324"
+level_note = "Karen is Lv. 90; Archer's room is a Double Battle followed by Archer."
+
+[[quests]]
+id = "q-0335"
+needs = ["q-0324"]
+available_note = "Needs the Secret Key from B2F."
+level_note = "Charon, Cyrus, Ariana and Lawrence are Lv. 87-90; Petrel is Lv. 86-87."
+
+[[quests]]
+id = "q-0325"
+needs = ["q-0324"]
+available_note = "Needs at least 2 Pokémon and none on Pryce's weather list."
+level_note = "Pryce's team is Lv. 85."
+
+[[quests]]
+id = "q-0327"
+needs = ["q-0324"]
+
+[[quests]]
+id = "q-0336"
+needs = ["q-0324"]

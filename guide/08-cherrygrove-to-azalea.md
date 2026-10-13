@@ -114,7 +114,7 @@
 *Source:* script file 227 (scripts 18, 21, L2586–L4206; flag 1323), file 230 (scripts 7, 15, 17, 18, 20; L1123–L2485, L1700–L2544; flags 1238, 1812, 1813; `WildBattle 152 Lv. 5`; trainer 799, item 151), file 851 L488–L492. Flag 1323 is also set by Brock in the Pewter Museum (file 753 script 16) whenever his siblings' quiz isn't finished (hack finding D-1424). Positions: Youngster ≈552,331; Oddish girl ≈562,282; Bug Catcher ≈531,278.
 
 ## Route 30: Mr. Pokémon's quiz (→ Exp. Share)
-<!-- quest: kind=side; id=q-0202 -->
+<!-- quest: kind=side; id=q-0202; missable=yes -->
 
 **Where:** Mr. Pokémon's house, at the north end of Route 30.
 

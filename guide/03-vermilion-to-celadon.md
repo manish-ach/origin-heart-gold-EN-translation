@@ -210,7 +210,7 @@ After the Honey delivery, the girl thanks you whenever you speak to her. The coo
 *Source:* file 156 (scripts 30–32, 34, 40; L4502, L4604, L4721, L4887; script 20 shop L4270–L4444), file 162 (script 5, script 6), file 158 (script 5). Blue (flag 1423, @4524), the old boy (1424, @4622) and the pre-party cabin battle (file 158, flag 1517) are set before the battle or without a result check. Hijack loss: L5829 whites out and warps to 1F ≈24,3.
 
 ## S.S. Anne: defuse the bomb or the ship sinks (one chance)
-<!-- quest: kind=main; id=q-0052 -->
+<!-- quest: kind=main; id=q-0052; missable=yes -->
 
 **Where:** B1F engine room, at the far east end of B1F. Before the hijack, a crewman there mutters about "hitting the propeller shaft from the side" and claims to be doing maintenance.
 

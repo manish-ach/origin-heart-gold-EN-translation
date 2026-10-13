@@ -1,0 +1,77 @@
+id = "ch21-routes-35-37-national-park"
+order = 21
+title = "Chapter 21: Routes 35 to 37, the National Park and Silver on Route 37"
+summary = "North of Goldenrod: the National Park, the odd tree on Route 36 and the first rematch scene with Silver on Route 37."
+kind = "story"
+intro = """
+With the Plain Badge in your case the roads north of Goldenrod open: Route 35 and the National Park, then Route 36 with its odd tree. Once the tree is gone you walk on to Route 37, where **Silver** is waiting. That scene is the end of this chapter, and it closes several Goldenrod jobs for good.
+
+**Main quest in this chapter:** get past the odd tree on Route 36 (Crystal waters it), then walk north on Route 37 and meet Silver.
+
+**Do these first, they close at Silver's scene:** Goh and the Lopunny owner, the Purugly girl's "act" and Mary's secret photos (all in Goldenrod), plus the National Park offer from Will and Karen to teach them a lesson. The Plain Badge also removes Prof. Rowan's Chimchar (Chapter 20).
+"""
+
+[[steps]]
+id = "s01"
+main = false
+text = """
+**Route 35 and the National Park.** Take the north gatehouse out of Goldenrod. Route 35 has several small errands: the **Shuckle juice-maker** wants a Jigglypuff, a **hungry Pidgey** carries a letter that is finished in Ecruteak City later, a Battle Girl's Granbull learns "Dog Fangs", and a heartbroken boy sends you to a couple in the National Park. In the National Park itself, the **mother and the puppy-love kids** have a two-ending story, and on Tuesdays, Thursdays and Saturdays the officer in either gatehouse runs the **Bug-Catching Contest**. Will and Karen (the ex-Elite Four) stand on the west side of the park until Silver's scene on Route 37 and offer a Double Battle at Lv. 90.
+"""
+unlocks = ["q-0270", "q-0271", "q-0272", "q-0273", "q-0274", "q-0278", "q-0279"]
+evidence = "guide/10 q-0270 to q-0274, q-0278, q-0279 (script files 240 Route 35, the National Park files, 243 Route 36 gatehouse). Routes 35 and 36 open with the Plain Badge (guide/10 q-0274, q-0275). The Will and Karen offer in the park lasts 'from the Plain Badge until Silver's scene on Route 37' (guide/10 q-0279)."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**Route 36 and the odd tree.** The tree at the junction west of the Violet City gatehouse blocks the road to Ecruteak. After the Plain Badge **Crystal and Gold** wait just south of it: talk to Crystal, she waters the tree with the Squirt Bottle and it turns into a **Sudowoodo** that runs off. Do this **before your first visit inside the Pokéathlon Dome**. If you carry a **Rock Incense**, the little girl Lily and her uncle ask about it later, which also deals with the second, unmasked Sudowoodo on the route. An Ace Trainer in the Violet City gatehouse has a runaway Dragonair story that you can only finish in Blackthorn City.
+"""
+unlocks = ["q-0275", "q-0276", "q-0277"]
+evidence = "guide/10 q-0275 (script file 243 Route 36, script 14 L634-L1217; flags 551, 463), q-0276 (Rock Incense after the odd-tree scene), q-0277 (Violet gatehouse Ace Trainer; finished in Blackthorn City). Known issue: do the tree scene before the first Pokéathlon Dome visit (guide/10 q-0275 notes)."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**Route 37: Silver.** North of the tree Route 37 leads towards Ecruteak City. Silver is waiting on the road; after the scene the way on is open. **This closes for good:** Goh and the Lopunny owner, the Purugly girl's "act" and Mary's secret photos in Goldenrod, and the National Park offer from Will and Karen. If you still have to deliver a letter or take a berry in the Momo/Yuichi story (Chapter 15), note that this scene also resets Momo's "letter received" state, so deliver the guard's letter to Momo in Ecruteak **after** this scene.
+"""
+closes = ["q-0254", "q-0255", "q-0259"]
+evidence = "script file 246 (script 6, @271 SetVar 0x4098 = 3, hides the two Silver objects and clears the hide flags 144, 461, 462); file 246 @331 clears flags 576 and 1604 (Momo's letter state, guide/09 q-0185 note). Closes q-0254, q-0255, q-0259 per guide/09 'Who gets it / when' lines and agent 3's handoff (Route 37 scene). q-0279 Will and Karen offer: guide/10 q-0279 ('From the Plain Badge until Silver's scene on Route 37')."
+
+[[quests]]
+id = "q-0270"
+
+[[quests]]
+id = "q-0271"
+available_note = "The chain is finished in Ecruteak City (Chapter 22): the Pidgey's letter goes to the writer there."
+
+[[quests]]
+id = "q-0272"
+
+[[quests]]
+id = "q-0273"
+available_note = "The couple in the park are hidden during the Bug-Catching Contest."
+
+[[quests]]
+id = "q-0274"
+
+[[quests]]
+id = "q-0278"
+available_note = "Tuesdays, Thursdays and Saturdays only, once per day."
+
+[[quests]]
+id = "q-0279"
+available_note = "A mixed entry. The Will and Karen Double Battle (Lv. 90) in the National Park is only offered until Silver's scene on Route 37, and answering No closes it at once."
+level_note = "Will and Karen are Lv. 90."
+
+[[quests]]
+id = "q-0275"
+
+[[quests]]
+id = "q-0276"
+needs = ["q-0275"]
+available_note = "Needs a Rock Incense (from the girl at the Ruins of Alph, or an item ball in Diglett's Cave)."
+
+[[quests]]
+id = "q-0277"
+available_note = "You can only finish it in Blackthorn City (Chapter 27)."

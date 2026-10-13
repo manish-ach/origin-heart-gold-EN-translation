@@ -1,0 +1,97 @@
+id = "ch33-postgame-lances-visit-seized-items"
+order = 33
+title = "Chapter 33: Postgame, Lance's Visit and the Seized Items"
+summary = "Back home after the final Hall of Fame: Lance returns the legendary items, and the orbs open the legendary encounters across Kanto, the Sevii Islands and Sinjoh Ruins."
+kind = "postgame"
+intro = """
+The story ends with your final Hall of Fame entry. You wake up at home in Pallet Town, and **Lance** visits with the legendary items that were seized from Team Rocket. They are the keys to most of the postgame: the Red, Blue, Jade, Adamant and Lustrous Orbs, plus the Silver Wing and the Rainbow Wing. Johto's side of the postgame is in the next chapter.
+
+**Main quest in this chapter:** none; this is the postgame. Walk into your house in Pallet Town to start Lance's visit, then use the orbs: Groudon in Mt. Moon, Kyogre in the Seafoam Islands, Rayquaza on Four Island, Deoxys on Six Island, and Dialga, Palkia and Giratina, with Regigigas and Arceus at the Sinjoh Ruins.
+
+**One chance each, so save first:** Groudon, Kyogre, Rayquaza, Deoxys, Dialga, Palkia, Giratina, Regigigas and Arceus all disappear for good if you catch them, knock them out or run away. A loss lets you retry only where the quest says so.
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Lance's visit.** When you step onto the ground floor of your house, Mom invites you to watch President Goodshow's live speech about the Team Rocket affair. Then Lance arrives with the seized items: the **Silver Wing**, **Rainbow Wing**, **Red Orb**, **Blue Orb**, **Jade Orb**, **Adamant Orb** and **Lustrous Orb**. (The Griseous Orb is not among them.) The visit also brings **Articuno** back to the Seafoam Islands, **Cresselia and Darkrai** to the Dream World, **Dialga, Palkia and Giratina** to their places, and the **Fallen Red Star** back to Six Island. The Elite Four are back in their rooms and **Zapdos** (Power Plant) and **Moltres** (Cinnabar) can be caught.
+"""
+unlocks = ["q-0022", "q-0060", "q-0130"]
+evidence = "guide/01 q-0022 (script file 842, the Lance branch of script 15 after flag 2261; the gifts are the seven key items 482, 483, 534, 535, 532, 135, 136 set at L1868-L1964), guide/07 q-0197 (final entry: flag 2261; Zapdos and Moltres), guide/03 q-0060 and guide/05 q-0130 (the postgame catches). Zapdos and Moltres are parts of those earlier quests."
+
+[[steps]]
+id = "s02"
+main = false
+text = """
+**Kanto.** In the deepest part of **Mt. Moon's inner cave**, at the altar where Maxie summoned Groudon, use the **Red Orb**: a wild **Groudon**. In the deep chamber of the **Seafoam Islands**, melt the ice, then catch **Articuno** (back since Lance's visit) and use the **Blue Orb** on the pedestal at the north end for **Kyogre** (Lv. 95).
+"""
+unlocks = ["q-0032", "q-0128", "q-0129"]
+evidence = "guide/02 q-0032 (Mt. Moon altar; needs the Red Orb in the Bag; knocking out or running away removes Groudon for good), guide/05 q-0129 step 4 (Lv. 95 Kyogre at the pedestal, one attempt) and q-0128 ('Articuno doesn't come back after this scene until Lance's visit')."
+
+[[steps]]
+id = "s03"
+main = false
+text = """
+**The Sevii Islands.** On **Four Island**, climb Sky Pillar Peak with the **Jade Orb** for **Rayquaza**. On **Six Island**, check the Fallen Red Star with both the **Red and Blue Orbs** in your Bag: a wild **Deoxys** (Lv. 95), one chance. The chief then demands a fortune; **Jessie, James and Meowth** work at the Island Restaurant on One Island, and the "Meowth God" settles the claim. **This closes for good** the Island Forest errands (the toll thug, the stolen doll and the wishing pond, and the Crawdaunt wallet thief) if you let the trio stay on Six Island, so finish those first. The shrine keeper at the Ritual Shrine on Seven Island may offer to lend the **Azure Flute**, but in a normal game the offer cannot be reached. With Latias leading your party, the fountain in the Secret Forest on One Island also has a short extra scene.
+"""
+unlocks = ["q-0174", "q-0175", "q-0176", "q-0147"]
+closes = ["q-0138", "q-0170"]
+evidence = "guide/06 q-0174 (Sky Pillar Peak summit; the Jade Orb), q-0175 (the Deoxys fight, the chief's claim and the three endings; 'the let them stay ending changes the Island Forest for good. Finish the forest's toll thug, stolen doll and wishing pond and the Crawdaunt wallet quest first'), q-0176 (the keeper checks story progress and says 'keep it safe' after the report at League HQ), guide/05 q-0147 Notes (the Latias fountain scene after the final entry), q-0138 and q-0170 (Island Forest quests that must be done before the Lucky Meowth God, handoff from agent 2 and agent 3)."
+
+[[steps]]
+id = "s04"
+main = false
+text = """
+**Dialga, Palkia, Giratina and the Sinjoh Ruins.** With Lance's visit done, Dialga and Palkia are back at the north ends of their spaces (from the Ice Path and from Mt. Mortar) and Giratina at the end of the Distortion World in Reversal Cave. After the final Hall of Fame entry the Ice Path statue only works if you carry the **Adamant Orb**. Then, with **Dialga, Palkia and Giratina all in your party** and the **Azure Flute** in your Bag, step into the centre circle of the Sinjoh Ruins (the Ruins of Alph's temple of Arceus), fight **Regigigas** (Lv. 95) on the path to the steps, and call **Arceus**. If you could not get the flute, Arceus stays out of reach.
+"""
+unlocks = ["q-0357", "q-0359"]
+evidence = "guide/12 q-0357 (after the final entry and Lance's visit; one chance each; Dialga and Palkia reappear, Giratina resets), q-0359 (Regigigas and Arceus: 'after your final Hall of Fame entry, if you could get back in'; the Azure Flute from the shrine keeper's postgame gift and all three of Dialga, Palkia and Giratina in the party), q-0355 Notes (the Ice Path statue needs the Adamant Orb after the final entry)."
+
+[[steps]]
+id = "s05"
+main = false
+text = """
+**Dates.** After the final Hall of Fame entry the partners' dates open (if the romance route is on and you have confessed to someone). **Misty** (male players) offers a Resort Zone date from the Cerulean Gym menu with four Multi Battles in a row; winning the Couples Double Battle can leave her missing from the Gym afterwards, so save before. **Green or Red** (the reverse of every other partner) lives with their parents in the house on Route 30 and only offers dates if you have never confessed to anyone. Yellow's dates in Viridian City are in Chapter 32's romance entry.
+"""
+unlocks = ["q-0107", "q-0241"]
+evidence = "guide/04 q-0107 (starts from Misty's date menu; the missing-Misty hack bug), guide/08 q-0241 (Route 30 house; only if you have never confessed), guide/01 q-0021 (Yellow's dates in Viridian City, placed in Chapter 32 with the confessions). Date progress is shared by all partners (var 0x40b5)."
+
+[[quests]]
+id = "q-0022"
+available_note = "The scene starts on its own as soon as you stand on the ground floor of your house."
+
+[[quests]]
+id = "q-0032"
+available_note = "Needs the Red Orb. One chance."
+
+[[quests]]
+id = "q-0174"
+available_note = "Needs the Jade Orb. One chance: save first."
+
+[[quests]]
+id = "q-0175"
+available_note = "Needs the Red Orb and the Blue Orb. One chance: if you lose, the Red Star is gone and the rest of this entry never plays."
+level_note = "Deoxys is Lv. 95; Elder Wensha is Lv. 81-82."
+
+[[quests]]
+id = "q-0176"
+available_note = "Probably unobtainable in a normal game: the keeper stops lending the flute once you have reported to Goodshow after the Arceus scene."
+
+[[quests]]
+id = "q-0357"
+available_note = "One chance each: save first. The Ice Path statue needs the Adamant Orb."
+
+[[quests]]
+id = "q-0359"
+needs = ["q-0357"]
+available_note = "Needs the Azure Flute and Dialga, Palkia and Giratina in your party."
+level_note = "Regigigas is Lv. 95."
+
+[[quests]]
+id = "q-0107"
+available_note = "Male players only, with Misty as your partner. Save first: winning can leave her missing from the Gym."
+
+[[quests]]
+id = "q-0241"
+available_note = "Only if you have never confessed to anyone."

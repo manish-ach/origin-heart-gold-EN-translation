@@ -1,0 +1,92 @@
+id = "ch32-final-march-hall-of-fame"
+order = 32
+title = "Chapter 32: The Final March and the Final Hall of Fame"
+summary = "Team Rocket's all-out war: the Radio Tower broadcast, Victory Road, Mewtwo, the Elite Four rooms and Giovanni in the Hall of Fame."
+kind = "story"
+intro = """
+Goodshow sends you home to rest. While you rest, Team Rocket launches an all-out war: it attacks the Goldenrod Radio Tower and then Pokémon League HQ. As the Hero Champion you broadcast a call to arms from the Radio Tower and then march on the Indigo Plateau through Victory Road, the plateau slope and the Elite Four's rooms, now held by Team Rocket Executives, to Giovanni in the Hall of Fame. Your **final Hall of Fame entry** ends the story. Everything after it is postgame.
+
+**Main quest in this chapter:** broadcast from the Radio Tower, fight through Victory Road (Blue's fake, your companions), win the Multi Battle with Mewtwo's help, beat the four Elite Four rooms, Archer and Ariana, and then Giovanni's three battles in a row.
+
+**Things you can still lose here:** every romance confession (one per game), Mewtwo (take it before the Elite Four), and the Six Island chief's trial (Chapter 31). All of these close with the final Hall of Fame entry. **There is no healing inside the Elite Four's rooms.**
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**Home and the Radio Tower.** Goodshow tells you to go home and rest while Team Rocket has not yet launched its all-out war. Rest at home in Pallet Town; then Team Rocket attacks the Radio Tower in Goldenrod City and League HQ. Go to the Observation Deck at the top of the Radio Tower: the director lets you broadcast live to the whole region, a call to arms that has the Gym Leaders ship supplies to Goldenrod and Saffron. The broadcast switches on the Victory Road scenes, and it also opens **Misty's confession** in the Cerulean Gym for male players (she asks why you are not at the Indigo Plateau).
+"""
+unlocks = ["q-0042"]
+evidence = "script file 31 (script 29: @3322 and @3854 SetVar 0x40a2 = 20 after the pilgrimage report, 'go home and get some rest'), file 843 (script 4 @1025 SetVar 0x40a2 = 21), file 842 (script 15 @5078 SetVar 0x40a2 = 22, many flags set and cleared), file 34 (Radio Tower: the live broadcast, @3187 ClearFlag 2311, @3191 ClearFlag 2312; @6164 SetVar 0x40a2 = 23). guide/02 q-0042 (Misty's confession: after the live broadcast, before the final Hall of Fame; file 758 L6418 needs flag 2311 clear)."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**Victory Road.** On 1F **Blue** is stuck in a stalemate against a Team Rocket fake of himself, and you must say which Blue is real. **"The right one is the real Blue"** is correct; the wrong answer cannot be undone, makes you fight the real Blue as well and closes Blue's romance route for female players. Your companions fight Team Rocket on Victory Road and stay behind to heal: **talk again only to the partner you chose** to get a confession (one per game). On **3F**, after the barrier at the gate is broken, Silver and Crystal have two more scenes, and the side that lost the Vermilion construction-site dispute (Chapter 5) comes back there.
+"""
+unlocks = ["q-0019", "q-0021", "q-0173"]
+evidence = "guide/01 q-0019 (script file 109 script 12: the wrong answer sets flag 2153), q-0021 (file 109 scripts 14, 18, 21, 24: confession spots, one confession per game; flags 1618 and 1645), guide/06 q-0173 (Victory Road 3F; file 110), guide/03 q-0020 note (the fake ball, placed in Chapter 13). The Victory Road objects wait for flag 2311 to be cleared by the Radio Tower broadcast (guide/01 q-0021 Source)."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**The Indigo Plateau slope and Mewtwo.** At the top of Victory Road Cyrus and Charon raise a spatial barrier. **Mewtwo** breaks Palkia's barrier and you win a **Multi Battle** at its side. Afterwards Mewtwo waits in the middle of the path, about 28 steps north of the Victory Road exit, and says: "Once you have sorted out your team... come find me here." **Take it before you enter the Elite Four** (it closes for good). About nine steps north of Mewtwo, **Steven** (female players) and **Cynthia** (male players) rest by the path: talk to your chosen partner for a confession if the romance route is on and nobody else has been confessed to.
+"""
+unlocks = ["q-0194", "q-0195"]
+evidence = "guide/07 q-0194 (final chapter, after Mewtwo breaks Palkia's barrier; 'The final Hall of Fame removes it for good, and once you walk into the Elite Four's rooms you can't come back out'; script file 923 script 31), q-0195 (file 923 scripts 29, 30; zone 85 in this hack)."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**The Elite Four's rooms under Team Rocket.** Once you go through the Elite Four door you cannot come back and the attendants cannot heal you; a Rocket nurse in the entrance hall heals your party for **$10,000** a time. In each of the four rooms two Executives wait (Archie and Charon in Lorelei's, Maxie and Cyrus in Agatha's, Proton and Petrel in Bruno's, the Marauder and Lawrence in Lance's): fight them one after the other or as a Double Battle. Then **Archer and Ariana** in a Double Battle.
+"""
+unlocks = ["q-0196"]
+evidence = "guide/07 q-0196 (script file 816 script 12 L1556-L1632 the $10,000 heal, script 9 the door; files 817-820 the four rooms; the pairings and choices in the quest table)."
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**Giovanni and the final Hall of Fame.** In the Hall of Fame Giovanni waits with three battles in a row: a single battle (Arceus, Dialga, Nidoking, Empoleon and more), a Double Battle against Giovanni and his Cerulean Cave double (Mewtwo, Rhydon, Tyranitar, Arcanine and more), and finally a single battle against a lone **Lv. 100 Beedrill**. Your final entry into the Hall of Fame ends the story and **closes for good** the Six Island chief's trial, Mewtwo, and every confession scene (Victory Road, the plateau slope, Victory Road 3F and Misty's). Postgame starts at home in Pallet Town.
+"""
+closes = ["q-0167", "q-0194", "q-0021", "q-0042", "q-0173", "q-0195"]
+evidence = "script file 822 (script 1: @2570 SetVar 0x40a2 = 25; the final entry L2450-L2582 sets flag 2261; first-entry path L20-L316 with flag 2404; L870 the final-chapter path var 0x409e = 18), file 815 (@3815 SetVar 0x40a2 = 24 on the Indigo Plateau). Closes: guide/06 q-0167 ('only before your final Hall of Fame entry'), guide/07 q-0194 ('missable ... the final Hall of Fame removes it for good'), guide/01 q-0021 ('Confession ... before your final Hall of Fame entry'), guide/02 q-0042 ('Missable: after the final Hall of Fame she only offers practice battles'), q-0173 and q-0195 (confession scenes before the final entry)."
+
+[[quests]]
+id = "q-0042"
+missable = true
+available_note = "A mixed entry: the confession (male players, Cerulean Gym, after the broadcast) closes at the final Hall of Fame; Misty's dates are postgame."
+
+[[quests]]
+id = "q-0019"
+available_note = "One chance: the wrong answer cannot be undone."
+level_note = "The real Blue's team is Lv. 96-97."
+
+[[quests]]
+id = "q-0021"
+missable = true
+available_note = "A mixed entry: confessions on Victory Road close at the final Hall of Fame; Yellow's dates and your house are postgame."
+
+[[quests]]
+id = "q-0173"
+missable = true
+available_note = "One confession per game: only talk to your chosen partner."
+
+[[quests]]
+id = "q-0194"
+missable = true
+available_note = "Take it before you enter the Elite Four: the final Hall of Fame removes it for good."
+
+[[quests]]
+id = "q-0195"
+missable = true
+available_note = "Needs the love reading from the Goldenrod fortune-teller, no earlier confession and an open partner route."
+
+[[quests]]
+id = "q-0196"
+available_note = "There is no healing inside the Elite Four's rooms."
+level_note = "Giovanni's last Pokémon is a Lv. 100 Beedrill."

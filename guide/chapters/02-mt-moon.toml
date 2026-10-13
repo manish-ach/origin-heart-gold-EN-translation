@@ -61,8 +61,9 @@ evidence = "script file 7 (script 15 L1815/L2575: guard checks flags 1310, 1372,
 id = "s06"
 main = true
 text = """
-**Out of Mt. Moon.** Route 4 leads to Cerulean City. The Fresh Water shop in Mt. Moon Square is open now, so the painter on Route 3 can be helped if you want his Ralts.
+**Out of Mt. Moon.** A small cave entrance between Mt. Moon and Mt. Moon Square leads, on Monday nights (20:00 to 23:59) and early Tuesday mornings (00:00 to 03:59) by the DS clock, to a copy of the Square where six Clefairy dance around a rock and leave a **Moon Stone**. Route 4 leads to Cerulean City. The Fresh Water shop in Mt. Moon Square is open now, so the painter on Route 3 can be helped if you want his Ralts.
 """
+unlocks = ["q-0363"]
 evidence = "guide/02 q-0026 ('Getting Fresh Water'), q-0031 (shop sells Fresh Water from the roadblock until Asher's gang moves in after the Cascade Badge)"
 
 [[quests]]
@@ -85,3 +86,7 @@ id = "q-0030"
 
 [[quests]]
 id = "q-0029"
+
+[[quests]]
+id = "q-0363"
+available_note = "Mondays 20:00-23:59 or Tuesdays 00:00-03:59 by the DS clock. Pick up the Moon Stone before you leave the Square."

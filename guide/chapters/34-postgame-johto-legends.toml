@@ -1,0 +1,107 @@
+id = "ch34-postgame-johto-legends"
+order = 34
+title = "Chapter 34: Postgame, the Legends of Johto"
+summary = "The three beasts, Ho-Oh and Lugia, the Griseous Orb, the Battle Frontier's stone and the dreams of Cresselia and Darkrai."
+kind = "postgame"
+intro = """
+The second half of the postgame is Johto's: **Prof. Hale and Molly** free the three legendary beasts at the Burned Tower, Satsuki and Morty bring back **Ho-Oh** and **Lugia**, Dark Cave returns the Griseous Orb, and the Dream World's **Cresselia and Darkrai** are back. All of this needs your final Hall of Fame entry and, for most of it, **Lance's visit** (Chapter 33).
+
+**Main quest in this chapter:** none; this is the postgame.
+
+**Do this first, it can be lost:** the Burned Tower scene with Prof. Hale and Molly. **Do not talk to the leader of the Mt. Mortar expedition again** before you have seen it: if you say Yes to "Are you a really strong Trainer?" and beat him, the scene never plays and Entei, Raikou and Suicune never appear. Answer No to be safe.
+
+**One chance each, so save first:** Raikou, Suicune, Entei, Lugia, Ho-Oh's trainer-style fight, Cresselia and Darkrai.
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**The Burned Tower and the three beasts.** After Lance's visit, walk into the Burned Tower basement where the Sealing Mirror stood. **Prof. Hale and Molly** meet Entei, Raikou and Suicune, and all three run off. This unlocks their postgame encounters: **Suicune** on Cerulean Cape (Route 25) in Kanto, **Raikou** on Route 47 at the spot where Will's device stood, and **Entei** in the dream room of the Ruins of Alph. Before the scene, do **not** rematch the Mt. Mortar expedition leader (see above).
+"""
+unlocks = ["q-0292", "q-0358", "q-0041", "q-0227"]
+evidence = "guide/10 q-0292 (after the final entry and Lance's visit; Warning: rematching the Mt. Mortar expedition leader first stops the scene), guide/12 q-0358 (Route 47 Raikou; one chance; 'that scene can be lost if you rematch the Mt. Mortar expedition leader first'), guide/02 q-0041 (Route 25 Suicune, Lv. 90, after the Burned Tower scene), guide/08 q-0227 (the Entei note in the Ruins of Alph extras)."
+
+[[steps]]
+id = "s02"
+main = false
+text = """
+**Rematching the Mt. Mortar leader first.** If you walk into the Mt. Mortar expedition (Chapter 25) after Lance's visit and beat its leader before the Burned Tower scene has played, the scene is lost for good and so are the three beasts. Answer No to his question.
+"""
+closes = ["q-0292", "q-0358", "q-0041"]
+evidence = "guide/10 q-0292 Warning and guide/11 q-0322 Notes ('Beating him in that window resets the expedition's progress ... and the scene that frees Entei, Raikou and Suicune never plays'; known issue burned-tower-beasts-scene-and-the-expedition-leader), guide/12 q-0358 Warning, guide/02 q-0041 ('after the post-game Burned Tower scene'). UNVERIFIED: whether Suicune and Raikou are also lost; the guide says the beasts never appear."
+
+[[steps]]
+id = "s03"
+main = false
+text = """
+**Ho-Oh, Lugia and the Griseous Orb.** In Ecruteak's Dance Theater, **Satsuki**, the eldest Kimono Girl, lets you ask to see **Ho-Oh** or **Lugia**. For Ho-Oh, Morty gives you the **Clear Bell** after a Single Battle against his full team, then you climb the Bell Tower roof and fight Ho-Oh (Lv. 95) trainer-style before the catch. For Lugia she sends the sisters to the Whirl Islands (Lugia, one chance). In **Dark Cave**, the old woman by the Route 45 entrance says the League sent the **Griseous Orb** back: take it from the shrine in the deepest part.
+"""
+unlocks = ["q-0291", "q-0329", "q-0240"]
+evidence = "guide/10 q-0291 (Satsuki, Morty's Clear Bell, Ho-Oh Lv. 95), guide/11 q-0329 (Whirl Islands B3F, Lugia; 'Lugia comes back for you after your final Hall of Fame entry'; the Silver Wing from Lance), guide/08 q-0240 (Dark Cave shrine, Griseous Orb once)."
+
+[[steps]]
+id = "s04"
+main = false
+text = """
+**The Battle Frontier and the Forest of Time.** At Frontier Access, the man beside the damaged stone on the east side explains it was dug up during the Frontier's construction and nothing could break it; after the final entry it leads to **Jirachi** (see the quest). In the Frontier Access Pokémon Center the psychic on the right now offers his memory battles. In the **Forest of Time**, if the S.S. Anne **sank** and you have both Shaymin and Celebi, lead with Celebi at the shrine and answer "I can't watch innocents be killed": Celebi takes you back to the ship to fight Archie, undoing the sinking.
+"""
+unlocks = ["q-0330", "q-0331", "q-0247"]
+evidence = "guide/11 q-0330 (Frontier Access stone; 'Before that, examining the stone only shows A hard stone'), q-0331 (the psychic: 'Before that he just says he is still developing the power'), guide/09 q-0247 (after the final entry, both Shaymin and Celebi, only if the ship sank; Archie Lv. 43-45)."
+
+[[steps]]
+id = "s05"
+main = false
+text = """
+**The Dream World.** In the MooMoo Farm stable on Route 39, enter by the west door and examine the spot at the back wall: the energy warps you to the Dream World (the game does not actually check the Lunar Wing). **Cresselia** waits on the west side and **Darkrai** on the east side, both at Lv. 90, one chance each. The broken statue at the north end brings you back.
+"""
+unlocks = ["q-0269"]
+evidence = "guide/09 q-0269 (after the final entry, once the postgame scene at home has sent you off to hunt legendary Pokémon; wild Lv. 90; leaving via the broken statue)."
+
+[[quests]]
+id = "q-0292"
+missable = true
+available_note = "Needs the final Hall of Fame entry and Lance's visit. Do it before you rematch the Mt. Mortar expedition leader."
+
+[[quests]]
+id = "q-0358"
+missable = true
+needs = ["q-0292"]
+available_note = "One chance: save first. Needs the Burned Tower scene."
+level_note = "Raikou is Lv. 90."
+
+[[quests]]
+id = "q-0041"
+missable = true
+needs = ["q-0292"]
+available_note = "In Kanto, on Cerulean Cape. One chance: save first."
+level_note = "Suicune is Lv. 90."
+
+[[quests]]
+id = "q-0291"
+available_note = "You need a free party slot and Morty's Clear Bell."
+level_note = "Ho-Oh is Lv. 95."
+
+[[quests]]
+id = "q-0329"
+available_note = "One chance: save first."
+
+[[quests]]
+id = "q-0240"
+available_note = "Collect it once."
+
+[[quests]]
+id = "q-0330"
+
+[[quests]]
+id = "q-0331"
+
+[[quests]]
+id = "q-0247"
+available_note = "Only if you failed to defuse the S.S. Anne bomb, and only with both Shaymin and Celebi."
+level_note = "Archie's team is Lv. 43-45."
+
+[[quests]]
+id = "q-0269"
+available_note = "One chance each: save first."
+level_note = "Cresselia and Darkrai are Lv. 90."

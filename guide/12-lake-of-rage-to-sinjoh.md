@@ -61,7 +61,7 @@ Entries are grouped by place, not by story order. Two of them come earlier in th
 *Source:* script file 259 (coord script 4 on var 0x40ac = 1; L227–L1789 battles; L2133 Yes, L2267 No sets flag 2145; L3570–L3594 sets flags 1807 and 1808 and var 0x40ac = 2; script 1 shop, flag 1808), file 230 L594 (Route 31 sets 0x40ac = 1), file 18 (Sprout Tower 3F coord needs 0x40ac = 2). Positions: trigger row ≈627–629,331, Dark Cave door 628,329, shop man ≈618,366.
 
 ## Route 43: a Chesto Berry for the listless Sentret (→ 2 Lum Berries; before the Rocket HQ is cleared)
-<!-- quest: kind=side; id=q-0333 -->
+<!-- quest: kind=side; id=q-0333; missable=yes -->
 
 **Where:** Route 43, the girl with a Sentret beside the sign just north of the gatehouse at the south end of the route (she's on the sign's west side). After the Mahogany Rocket HQ chapter she stands on the other side of the sign, a couple of steps east of it.
 
@@ -204,7 +204,7 @@ Entries are grouped by place, not by story order. Two of them come earlier in th
 *Source:* script file 101 (scripts 3 and 4; coord triggers at 49,32 and 13,55 on var 0x40a2 = 1 and 2; sets 0x40a2 = 3, flags 2242, 2243).
 
 ## Blackthorn City: coaching Crystal (before the Rising Badge; missable)
-<!-- quest: kind=side; id=q-0341 -->
+<!-- quest: kind=side; id=q-0341; missable=yes -->
 
 **Where:** Blackthorn City, just outside the Gym, a few steps south-east of its door, with her Meganium. Gold and his Pokémon practise nearby.
 
@@ -559,7 +559,7 @@ Gold's Togetic then smashes the device, Raikou breaks free and runs, and the Exe
 *Source:* script file 130 (script 10 L2706 Dialga, WildBattle 483 Lv. 95, flag 2342; script 11 L2748 Palkia, WildBattle 484 Lv. 95, flag 2343), file 135 (script 5 L264–L325 statue needs flag 2261 + item 112; script 28 L2400–L2528 Giratina, WildBattle 487 Lv. 95, flag 2340; all three set their flag on any result except a loss or draw: `CheckBattleWon` is false only for outcomes 2/3, arm9 0x0205172C, so fleeing counts), file 842 L1868–L1976 (Lance gives Silver Wing, Rainbow Wing, Red, Blue, Jade, Adamant and Lustrous Orbs) and L2193–L2201 (clears 2342, 2343, 2340), file 101 L4101–L4177 (Ice Path statue: flag 2261 + item 135). Positions: Dialga ≈89,30; Palkia ≈25,30; Giratina spot ≈49,117; pad ≈47,171 → ≈49,124. The story scene removes Palkia for good: `HidePerson 6` (L2381) sets Palkia's hide flag 2343 (the same mechanism as every `HidePerson`; tested in an emulator, guide review pass 2, CN and EN: Palkia present before, absent after the hide and a reload, `pass2-A/palkia_hide_*`). Lance's L2197 clears 2343 again.
 
 ## Route 47: Raikou (after the final Hall of Fame)
-<!-- quest: kind=side; id=q-0358 -->
+<!-- quest: kind=side; id=q-0358; missable=yes -->
 
 **Where:** Route 47, at the spot where Will's device stood, in the north-west of the route.
 

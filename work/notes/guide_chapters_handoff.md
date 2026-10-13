@@ -1,5 +1,16 @@
 # Guide chapters: handoff between agents
 
+## STATUS (agent 4, 2026-10-13): NO OPEN ITEMS. Every handoff item below is placed.
+
+All 368 quests of `quest_ledger.json` are placed in exactly one chapter (chapters 1-34; 32 story chapters, 2 postgame). Where each handed-off quest went:
+
+- Agent 1 list (guide/01-03): q-0006, q-0007 (ch12, placed by agent 2), q-0015 (ch10), q-0019 / q-0021 / q-0042 / q-0173 (ch32, final march; confessions close at the final Hall of Fame), q-0020 (ch13), q-0022 (ch33), q-0032 (ch33), q-0041 (ch34), q-0053 (ch28), q-0060 (ch09), q-0065 (ch11), q-0067 (ch28, HQ round 1).
+- Agent 2 list (guide/04-06): q-0106, q-0108 (ch24), q-0107 (ch33), q-0129 (ch29, closes q-0128), q-0130 (ch28, closes q-0126), q-0132 (ch24), q-0133 (ch23), q-0136 / q-0157 / q-0158 (ch23, closed at the Rising Badge in ch27), q-0137 / q-0141 / q-0145 / q-0147 / q-0161 to q-0168 / q-0169 (ch31), q-0139 / q-0140 (ch23), q-0174 / q-0175 / q-0176 (ch33), q-0138 / q-0170 closed by the Deoxys step of ch33, q-0173 (ch32), q-0149 / q-0159 / q-0160 / q-0142 / q-0143 / q-0144 / q-0171 / q-0172 / q-0177 (ch12, agent 3).
+- Agent 3 list (guide/07-09): q-0191 (ch27), q-0192 (ch28), q-0193 (ch31), q-0194 / q-0195 / q-0196 (ch32), q-0215 / q-0245 / q-0246 (ch29), q-0228 (ch31), q-0232 (ch28), q-0240 / q-0247 / q-0269 / q-0241 (ch34 / ch33), q-0290 (ch30), q-0298 (ch29), q-0351 / q-0352 / q-0353 / q-0366 (ch30), q-0354 / q-0356 (ch30: the scripts put Giovanni's Dark Cave, Reversal Cave and Dialga/Palkia chain inside HQ round 4), q-0270 to q-0279 (ch21), q-0280 to q-0289 and q-0293 (ch22; q-0288 in ch23 because it needs MooMoo milk), q-0294 to q-0297 and q-0299 to q-0306 (ch23), q-0307 to q-0320 (ch24), q-0321 / q-0322 / q-0326 / q-0328 / q-0333 / q-0334 / q-0360 (ch25), q-0323 to q-0325 / q-0327 / q-0335 / q-0336 (ch26), q-0337 to q-0347 / q-0355 / q-0361 (ch27), q-0348 to q-0350 / q-0362 (ch24), q-0357 / q-0359 (ch33), q-0358 / q-0291 / q-0292 / q-0329 / q-0330 / q-0331 (ch34), q-0363 (ch02), q-0365 (ch29), q-0367 (ch01), q-0368 (ch14).
+- Closes owed (all applied): Route 37 scene (ch21: q-0254, q-0255, q-0259), Route 39 scene (ch23: q-0285), Mineral Badge (ch23: q-0185, q-0302), Route 42 scene (ch25: q-0310), HM08 (ch25: q-0202), Rocket HQ cleared (ch26: q-0333), Glacier Badge (ch26: q-0264), Rising Badge (ch27: q-0341, q-0286, q-0136, q-0157, q-0158, q-0159, q-0250), Silver Conference start (ch28 text: the foot photographer of q-0198 is hidden), HQ round 1 (ch28: q-0126), round 2 (ch29: q-0128), round 3 (ch29: q-0266), final Hall of Fame (ch32: q-0167, q-0194, q-0021, q-0042, q-0173, q-0195), the Lucky Meowth God (ch33: q-0138, q-0170), the Mt. Mortar leader rematch hazard (ch34: q-0292, q-0358, q-0041), q-0052 (ch06), q-0142 (ch12).
+
+The older notes below are kept as history.
+
 ## Agent 1 (guide/01-03) done. Where the story stops
 
 Chapters written (guide/chapters/): ch01-first-badge (order 1), ch02-mt-moon (2), ch03-cerulean-cascade (3), ch04-underground-path (4), ch05-vermilion-thunder (5), ch06-ss-anne (6), ch07-rock-tunnel-lavender (7), ch08-celadon (8). All kind = "story". **Last chapter: ch08-celadon, order 8.** The next agent starts at order 9.

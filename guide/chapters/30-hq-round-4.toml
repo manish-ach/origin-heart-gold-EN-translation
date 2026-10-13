@@ -1,0 +1,91 @@
+id = "ch30-hq-round-4"
+order = 30
+title = "Chapter 30: League HQ Round 4"
+summary = "Ho-Oh stolen from the Bell Tower, Lugia at the Whirl Islands, Giovanni's chase from Dark Cave to Dialga's and Palkia's spaces, and Petrel at the Lake of Rage."
+kind = "story"
+intro = """
+**Round 4** is the big one. Team Rocket is stealing legendary Pokémon one by one, and the desk sends you to four places: the **Bell Tower** in Ecruteak City, the **Whirl Islands**, **Dark Cave** and the **Lake of Rage**. The Dark Cave lead is a long chain: Giovanni's group takes the Griseous Orb, you chase them through the Distortion World in Reversal Cave, up the Ice Path's cursed tunnel and into the sealed spaces of Dialga and Palkia. (The guide's quest titles call these scenes "final chapter"; the game counts them as part of this round: the desk only accepts your report after the whole chain is done.)
+
+**Main quest in this chapter:** finish every lead of round 4 and report to the Trainer Affairs desk. Round 4 ends with the order to sign up for the Island Pilgrimage (next chapter).
+
+**Get these ready first:** the **Fog Badge** (Morty will not battle you from the moment Ho-Oh is stolen until your final Hall of Fame entry), the **Rainbow Wing** from Archer's room in the Mahogany HQ (Chapter 26), the **Mt. Mortar expedition** finished (Chapter 25) and the **Anti-Age Spray** from the Ice Path (Chapter 27).
+"""
+
+[[steps]]
+id = "s01"
+main = true
+text = """
+**The Bell Tower.** Talk to **Morty** in the Gym: he needs a **Rainbow Wing**. With one, he leaves to prepare and the monk at the back of Bell Tower 1F lets you climb the tower. On the roof the "Kimono Girls" dance the Prayer Dance. They are Team Rocket's Joy and her Ditto: fight **Executive Archer and a Grunt** in a Double Battle. Then Goh catches **Ho-Oh** with one ball and they escape. From here until your final Hall of Fame entry Morty will not battle you for the Fog Badge, the Kimono Girls only talk about Team Rocket and Momo's letter cannot be handed over.
+"""
+unlocks = ["q-0290"]
+evidence = "guide/10 q-0290 (Morty needs a Rainbow Wing; the Archer fight on the roof; 'From here until your final Hall of Fame Morty won't give the Gym battle'), guide/10 q-0281 Notes (the two refusal windows), guide/10 q-0286 Notes (Kimono Girls). Round 4 order: file 31 script 29 @4517 SetVar 0x40a2 = 18 with 0x40a4 = 7, 0x40a9 = 3, 0x40af = 4, 0x40b2 = 4. The report check at @1702 needs 0x40a4 = 8, 0x40a9 = 5, 0x40af = 13 and 0x40b2 = 5."
+
+[[steps]]
+id = "s02"
+main = true
+text = """
+**The Whirl Islands.** Crossing the whirlpools needs the Volcano Badge. Executive Lawrence uses the legendary birds to wake **Lugia**: you battle a Rocket pair, Lawrence and then Lugia itself, but he catches it anyway. (Lugia comes back after the final Hall of Fame.)
+"""
+evidence = "guide/11 q-0329 (Lugia is stolen during round 4; the Lugia catch itself is after the final Hall of Fame), guide/10 q-0300 (Whirlpool needs the Volcano Badge). The Whirl Islands lead is the 0x40a4 variable (7 to 8) of the round-4 report check, file 31 @1702."
+
+[[steps]]
+id = "s03"
+main = true
+text = """
+**Dark Cave and Reversal Cave.** In Dark Cave, Charon takes the **Griseous Orb** from the shrine in the south-west of the deepest part (it returns after the final Hall of Fame). Giovanni, Charon and three Grunts then wait in front of the ancient statue in **Reversal Cave** on the west side of Route 47. The statue sends you into the **Distortion World**, a maze of warp pads where Escape Ropes do not work. At the end Charon holds you off (Lv. 87-88), Giovanni summons **Giratina** with the orb and leaves, saying he is heading for the deepest part of the Ice Path.
+"""
+unlocks = ["q-0354"]
+evidence = "guide/12 q-0354 (script file 135: script 7 coord 28,18 @861 SetVar 0x40af = 7; script 24 coord 49,123 trainer 553, @2222 SetVar = 8), file 108 (Dark Cave orb scene: @522 SetVar 0x40af = 5, @1180 = 6; flag 1808, Giovanni's group shown by clearing flag 1142 at L1176), guide/08 q-0240 ('Earlier, in the story, Charon takes the Griseous Orb from this shrine')."
+
+[[steps]]
+id = "s04"
+main = true
+text = """
+**The Ice Path tunnel and the sealed spaces.** On Ice Path B2F, show the boy who guards the tunnel your **Anti-Age Spray** (Chapter 27) and walk to the ancient statue at its end: it sends you to **Dialga's space**. Giovanni is forcing Dialga into a Special Ball and Executive Cyrus (Lv. 89-90) holds you off. Then take the statue on Mt. Mortar B1F (the expedition, Chapter 25) to **Palkia's space**: after Executive Ariana (Lv. 90) the statue sends you on after Giovanni, whose Beedrill finishes Palkia off. He catches it and leaves holding all three keys to "the ultimate power". The Dialga fight keeps the Ice Path tunnel open from then on. Report to the Trainer Affairs desk.
+"""
+unlocks = ["q-0356"]
+evidence = "guide/12 q-0356 (script file 130: script 7 coord 88,42 @1947 trainer 817, SetVar 0x40af = 10; script 8 coord 24,57 = 12; script 9 coord 24,45 trainers 817 + 553, SetVar = 13), guide/12 q-0355 (the tunnel needs the Anti-Age Spray; re-locks until the battle in Dialga's space), guide/11 q-0322 (Ariana at the Mt. Mortar statue). Order of the 0x40af chain (agent 4 check, file dumps): Dark Cave file 108 requires 4 and sets 5, 6; Reversal Cave file 135 requires 7 (set @861) and sets 8 (@2222); Ice Path file 101 sets 9 (@4735) and requires 9 at @3929; Dialga file 130 sets 10 (@1959); Mt. Mortar statue file 98 sets 11 (@3520); Palkia file 130 sets 12 (@1008) and 13 (@2696); the report check at file 31 @1702 needs 0x40af = 13."
+
+[[steps]]
+id = "s05"
+main = true
+text = """
+**The Lake of Rage.** In the house in the north-west corner of the lake, Petrel threatens the man who lives there about "the Pokémon in the lake". Step in and fight **Petrel and a Grunt** (Petrel is Lv. 86-87). He runs away, and the man thanks you and tells you about the three legendary Pokémon of the lake. **After this scene, on Wednesdays** (by the DS clock, once the Mahogany HQ is cleared), the calm-day visitors appear at the lake: Fisherman Carson, Wesley the Wednesday sibling and an item on the ground. The man's three trials (a quiz for **Uxie**, a bond of maximum friendship for **Mesprit** and a battle for **Azelf**) must be done in order, and each Pokémon then waits at the lake on Wednesdays.
+"""
+unlocks = ["q-0351", "q-0352", "q-0353", "q-0366"]
+evidence = "guide/12 q-0351 (round 4; Petrel and a Grunt, script file 935: @135-@565 the Petrel scene, then the trials with 0x4098 = 33 to 36), q-0352 (after the Petrel scene; the trials must be done in order), q-0353 (Wednesdays after the HQ and the Petrel scene), guide/13 q-0366 (calm-day check on entering the lake or Route 43)."
+
+[[quests]]
+id = "q-0290"
+needs = ["q-0324"]
+available_note = "Needs the Rainbow Wing from Archer's room in the Mahogany HQ."
+
+[[quests]]
+id = "q-0354"
+available_note = "Escape Ropes do not work in the Distortion World."
+level_note = "Executive Charon's team is Lv. 87-88."
+
+[[quests]]
+id = "q-0356"
+needs = ["q-0354", "q-0355", "q-0322"]
+available_note = "Needs the Anti-Age Spray for Dialga's space and the finished Mt. Mortar expedition for Palkia's."
+level_note = "Executive Cyrus is Lv. 89-90 and Executive Ariana is Lv. 90."
+
+[[quests]]
+id = "q-0351"
+level_note = "Petrel is Lv. 86-87."
+
+[[quests]]
+id = "q-0352"
+needs = ["q-0351"]
+available_note = "Wednesdays only. Save before each battle: catching, knocking out or fleeing removes the Pokémon for good."
+level_note = "The three lake Pokémon are Lv. 90."
+
+[[quests]]
+id = "q-0353"
+needs = ["q-0351"]
+available_note = "Wednesdays only, after the Mahogany HQ and the Petrel scene."
+
+[[quests]]
+id = "q-0366"
+available_note = "A reference: how the game decides a Wednesday is a calm day."

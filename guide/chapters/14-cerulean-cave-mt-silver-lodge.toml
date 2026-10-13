@@ -28,8 +28,8 @@ text = """
 
 Giovanni fights with his full **Lv. 100** team. Losing does not white you out, and if you **win**, Mewtwo uses Recover and the same battle starts again: the duel only moves on when you lose. You wake up "at the bottom of the lake" and challenge Giovanni again in a **Double Battle** (**a loss here does white you out**, and you replay the whole scene). If you chose Charmander and still carry Mr. Fuji's Mystery Stone, the stone turns into a Charizardite. After the win you free Mewtwo, Giovanni escapes and you wake up at home.
 """
-unlocks = ["q-0178"]
-evidence = "guide/07 q-0178 (script file 912: TrainerBattle 402 no-loss at L4818/L4922, win loops at L4855, double battle 402+402 at L2559 with WhiteOut L4849, Charizardite L5414-L5517; flag 1805 set at L3807 after the cave story). Invitation: Dragonite letter to Bill at the Cape picnic (file 216 @10948, sets flag 783 which removes the fence notice at the cave door, 216 @11134). Giovanni's lines in 912 (@4231 'congratulations on becoming League Champion', @4265 'back at the Viridian Gym') place the duel after the Earth Badge and the Indigo Conference. UNVERIFIED: whether the duel can start earlier; the arena objects are visible from the start and no script in 912, 139 or 11 tests flag 2404 (see questions file)."
+unlocks = ["q-0178", "q-0368"]
+evidence = "guide/07 q-0178 (script file 912: TrainerBattle 402 no-loss at L4818/L4922, win loops at L4855, double battle 402+402 at L2559 with WhiteOut L4849, Charizardite L5414-L5517; flag 1805 set at L3807 after the cave story). Invitation: Dragonite letter to Bill at the Cape picnic (file 216 @10948, sets flag 783 which removes the fence notice at the cave door, 216 @11134). Giovanni's lines in 912 (@4231 'congratulations on becoming League Champion', @4265 'back at the Viridian Gym') place the duel after the Earth Badge and the Indigo Conference. UNVERIFIED: whether the duel can start earlier; the arena objects are visible from the start and no script in 912, 139 or 11 tests flag 2404 (see questions file). Agent 4 recheck (2026-10-13): files 912, 139, 11 and 216 never test flag 2404. The Cape picnic gate flags 1494, 1495 and 1504 are cleared by the Saffron Marsh Badge scene (file 826 @912-@920), and the picnic then runs the letter scene (file 216 @10948-@11134), so the invitation may become available right after the Marsh Badge, before the first Hall of Fame. The letter and Giovanni's lines assume the Champion title. Still UNVERIFIED by play; the chapter keeps the guide's order."
 
 [[steps]]
 id = "s03"
@@ -65,3 +65,7 @@ available_note = "You need to have won the Cerulean Cave duel: the guard at the 
 [[quests]]
 id = "q-0198"
 available_note = "A mixed entry. The Mt. Silver photographers can be visited from the lodge trip on; Tuscany on Route 29 (Tuesdays) and Crystal's Poké Ball sale in Cherrygrove belong to the next chapters; Koga's photo in the League reception gate only exists after the final Hall of Fame entry."
+
+[[quests]]
+id = "q-0368"
+available_note = "A mixed entry. The Splash Plate item ball on Cerulean Cave B1F is available with the duel; the Tohjo Falls Dawn Stone is Chapter 15, and the Olivine Lighthouse photographer and the Ice Path holes belong to Chapters 23 and 27."
