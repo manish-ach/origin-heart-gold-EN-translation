@@ -11,7 +11,7 @@ from pathlib import Path
 import shutil
 import sys
 import traceback
-from support import ROOT, OUTPUT, SOURCE, sha256
+from support import ROOT, OUTPUT, SOURCE, FOCUS_COUNT, sha256, RECEIPT
 from evidence import register_values, write_json
 from native_ui_oracles import focus_regions, inspect_battery, validate_page_navigation
 sys.path.insert(0, str(ROOT / 'work/tools'))
@@ -20,6 +20,12 @@ from emu_harness import Harness
 
 def candidate_binding(receipt_path):
     receipt = json.loads(receipt_path.read_text())
+    # The receipt says which tools built the candidate; a development candidate
+    # binds only in development mode and a release one only in release mode.
+    from build import DEV_ENV, tool_mode
+    mode = receipt.get('tool_mode', 'release')
+    if mode != tool_mode():
+        raise ValueError(f'Receipt tool mode {mode} differs from this run ({tool_mode()}, {DEV_ENV}): '+str(receipt_path))
     for item in [receipt['input'], receipt['output']]:
         if sha256(item['path']) != item['sha256']:
             raise ValueError('Stale ROM binding: ' + item['path'])
@@ -38,7 +44,7 @@ def candidate_binding(receipt_path):
     for name,item in receipt['build_artifacts'].items():
         if sha256(item['path'])!=item['sha256']:
             raise ValueError('Candidate build artifact changed: '+name)
-    return receipt, {'receipt_sha256': sha256(receipt_path), 'candidate_sha256': receipt['output']['sha256'],
+    return receipt, {'tool_mode': mode, 'receipt_sha256': sha256(receipt_path), 'candidate_sha256': receipt['output']['sha256'],
                      'input_sha256': receipt['input']['sha256'], 'implementation_sources': current,
                      'script_commands_sha256':sha256(ROOT/'work/tools/docs/script_cmds.json'),
                      'driver_sha256': sha256(__file__), 'harness_sha256':sha256(ROOT/'work/tools/emu_harness.py'), 'test_sources':{str(p.relative_to(ROOT)):sha256(p) for p in sorted((SOURCE/'tests').rglob('*')) if p.is_file() and p.suffix in ('.py','.c','.h','.asm','.ld','.json','.toml','.md') and '__pycache__' not in p.parts}, 'battery_source_sha256':sha256(ROOT/'work/build/memcheck/trainer.sav'), 'negative_seed_save_sha256':sha256(ROOT/'work/build/memcheck/full_bag_6mons.sav'),
@@ -47,7 +53,7 @@ def candidate_binding(receipt_path):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--receipt',type=Path,default=ROOT/'work/build/difficulty-v2/integration-impl/receipt.json')
+    p.add_argument('--receipt',type=Path,default=RECEIPT)
     p.add_argument('--out',type=Path,default=OUTPUT/'native-tests/ui')
     p.add_argument('--phase',choices=('ui','reload','cold0','newgame'),default='ui')
     args=p.parse_args(); out=args.out.resolve();out.mkdir(parents=True,exist_ok=True)
@@ -195,16 +201,16 @@ def main():
                 for row in navigation['points'] if row['name']!='restored']
             open_options()
             visual=[]
-            for focus in range(5):
+            for focus in range(FOCUS_COUNT):
                 assert h.u32(labels['page']+36)==focus, 'custom focus did not follow D-pad'
                 point('focus-'+str(focus))
                 visual.append(focus_regions(out/('focus-'+str(focus)+'.png'),focus))
-                if focus<4:press_key('DOWN',after=30)
+                if focus<FOCUS_COUNT-1:press_key('DOWN',after=30)
             press_key('DOWN',after=30)
             assert h.u32(labels['page']+36)==0
             result['focus_regions']=visual
-            result['cases']['ui.visible_glyphs']={'status':'incomplete','reason':'Five fresh focus captures require matching source-bound manual visual review; no automatic readability claim.',
-                'artifacts':[{'path':str(out/('focus-'+str(i)+'.png')),'sha256':sha256(out/('focus-'+str(i)+'.png'))} for i in range(5)]}
+            result['cases']['ui.visible_glyphs']={'status':'incomplete','reason':f'{FOCUS_COUNT} fresh focus captures require matching source-bound manual visual review; no automatic readability claim.',
+                'artifacts':[{'path':str(out/('focus-'+str(i)+'.png')),'sha256':sha256(out/('focus-'+str(i)+'.png'))} for i in range(FOCUS_COUNT)]}
             # Native callback's state argument exposes live Options identity;
             # read only. No injection of page/transaction/settings outcome.
             assert 'state' in last_input,'missing native input trace'
@@ -220,7 +226,8 @@ def main():
             passed('ui.b_cancel');flush()
             # Selection persists in the field menu; reopen with a direct touch.
             open_options()
-            for button in ('RIGHT','DOWN','RIGHT','DOWN','RIGHT','DOWN','DOWN','A'):press_key(button,after=20)
+            # ITEMS, SHARE, CAP toggled; DOWN past TRAINER AI and CANCEL to APPLY.
+            for button in ('RIGHT','DOWN','RIGHT','DOWN','RIGHT','DOWN','DOWN','DOWN','A'):press_key(button,after=20)
             h.step(240);point('applied-dpad')
             expected=original^0x8028
             assert h.u16(options)==expected,('D-pad Apply mismatch',hex(original),hex(h.u16(options)),hex(expected))

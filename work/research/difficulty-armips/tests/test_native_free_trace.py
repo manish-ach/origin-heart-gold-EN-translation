@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 import types
 import unittest
-from support import ROOT
+from support import RECEIPT
 from native_battle import BattleTrace
 from native_battle_helpers import native_free_callsite
 
@@ -11,7 +11,7 @@ from native_battle_helpers import native_free_callsite
 class NativeFreeTraceTests(unittest.TestCase):
     @staticmethod
     def session():
-        receipt=json.loads((ROOT/'work/build/difficulty-v2/integration-impl/receipt.json').read_text())
+        receipt=json.loads(RECEIPT.read_text())
         return types.SimpleNamespace(labels=receipt['build']['elf_labels'],
             payload=(Path(receipt['artifacts'])/'resident.bin').read_bytes())
 

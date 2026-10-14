@@ -2,7 +2,7 @@
 """Native special encounter paired against default difficulty settings."""
 import argparse,os,sys,shutil,json
 from pathlib import Path
-from support import ROOT,OUTPUT,sha256
+from support import ROOT,OUTPUT,sha256,RECEIPT
 from evidence import write_json,utc
 from native_ui import candidate_binding
 from native_battle_helpers import NativeSession,capture_failure,registers,party_summary
@@ -10,7 +10,7 @@ from native_battle import BattleTrace
 from native_battle_oracles import require
 from emu_harness import Harness,script_bytes,encode_pokemon,BATTLE_BUTTONS,MOVE_BUTTONS
 p=argparse.ArgumentParser(description=__doc__)
-p.add_argument('--receipt',type=Path,default=ROOT/'work/build/difficulty-v2/integration-impl/receipt.json')
+p.add_argument('--receipt',type=Path,default=RECEIPT)
 p.add_argument('--out',type=Path,required=True)
 p.add_argument('--flags',type=int,choices=(0,7))
 args=p.parse_args()

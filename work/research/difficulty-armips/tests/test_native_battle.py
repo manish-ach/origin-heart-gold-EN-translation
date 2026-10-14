@@ -6,7 +6,7 @@ from pathlib import Path
 import types
 import unittest
 from unittest.mock import patch
-from support import SOURCE, scratch, sha256
+from support import SOURCE, scratch, sha256, RECEIPT
 from evidence import validate_native, write_json
 from native_battle_helpers import NativeSession
 from native_battle_oracles import compare_caps, validate_run, root_reuse, holder_verdict
@@ -24,8 +24,7 @@ class NativeBattleFrameworkTests(unittest.TestCase):
 
     def test_typed_fixture_is_repeatable_and_uses_valid_recalculated_records(self):
         from native_battle_fixture import prepare_fixture_templates
-        from support import ROOT
-        receipt=json.loads((ROOT/'work/build/difficulty-v2/integration-impl/receipt.json').read_text())
+        receipt=json.loads(RECEIPT.read_text())
         with scratch('typed-battle-fixture-') as tmp:
             out=Path(tmp)
             first=prepare_fixture_templates(receipt,out/'first')

@@ -3,7 +3,7 @@ import copy
 import json
 from pathlib import Path
 import unittest
-from support import ROOT, scratch, sha256
+from support import scratch, sha256, RECEIPT
 from evidence import validate_native, write_json
 from native_items_cases import NO_EFFECT, case_for
 from native_items_oracles import checkpoint
@@ -80,7 +80,7 @@ class NextItemsTests(unittest.TestCase):
     def test_no_effect_scope_retains_positive_inputs_and_index(self):
         from native_items_fixture import prepare
         import save_core
-        receipt=json.loads((ROOT/'work/build/difficulty-v2/integration-impl/receipt.json').read_text())
+        receipt=json.loads(RECEIPT.read_text())
         with scratch('no-effect-inputs-') as tmp:
             root=Path(tmp);positives=plan(root/'runs','single',28);negative=plan(root/'runs','no-effect',17)
             self.assertEqual(len(negative),8);self.assertEqual(len(report_paths(root/'runs')),10)

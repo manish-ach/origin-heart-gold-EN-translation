@@ -16,6 +16,8 @@ import install
 
 def verify(receipt_path, output):
     receipt = json.loads(receipt_path.read_text())
+    install.require(receipt.get('tool_mode', 'release') == build.tool_mode(),
+                    f'receipt tool mode differs from {build.DEV_ENV}: verify a development build in development mode')
     for item in [receipt['input'], receipt['output'], *receipt['sources'].values(),
                  *receipt['tools'].values(), *receipt['build_artifacts'].values()]:
         install.require(install.sha(Path(item['path']).read_bytes()) == item['sha256'],
@@ -35,7 +37,8 @@ def verify(receipt_path, output):
     diff = install.verify_stage(raw, staged, hooks, edits, report, comp)
     logical = install.verify_rom(original, candidate, raw, staged, payload, report)
     negative = install.negative_checks(raw, comp, hooks, edits, arm, overlays, candidate)
-    result = dict(status='passed', receipt=install.pin(receipt_path), input=receipt['input'],
+    status = build.DEV_LABEL + '; passed' if build.dev_tools() else 'passed'
+    result = dict(status=status, tool_mode=build.tool_mode(), receipt=install.pin(receipt_path), input=receipt['input'],
                   output=receipt['output'], fresh_compilation=str(stage), layout=layout,
                   guards=guards, stage_exact_diff=diff, logical_preservation=logical,
                   negative_checks=negative, native_acceptance=False)

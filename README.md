@@ -68,6 +68,7 @@ Run every command from the repo root. Never edit generated files by hand: change
 - **hg-engine** and its contributors: engine, plus the FAIRY type icons and weather banner letters used here. See [their credits](https://github.com/BluRosie/hg-engine/blob/main/CREDITS.md).
 - **u/Shake69:** the partial v3 English translation, reused as translation memory with permission.
 - **u/riap0526:** packaged the Chinese patches and docs.
+- **Advanced trainer AI:** from the Spanish translation by luisvent.
 - **Xzonn:** the Gen 4 Chinese character table.
 - **[pret/pokeheartgold](https://github.com/pret/pokeheartgold)**, **[ndspy](https://github.com/RoadrunnerWMC/ndspy)** and **[PokéAPI](https://pokeapi.co/)** (official English names).
 

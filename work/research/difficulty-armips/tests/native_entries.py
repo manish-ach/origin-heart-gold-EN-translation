@@ -6,7 +6,7 @@ from pathlib import Path
 import shutil
 import sys
 import traceback
-from support import ROOT, OUTPUT, sha256
+from support import ROOT, OUTPUT, sha256, RECEIPT
 from evidence import write_json, utc
 from native_ui import candidate_binding
 from native_battle_helpers import NativeSession, capture_failure, registers
@@ -180,7 +180,7 @@ def exercise_roamer(session, trace, report):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--case', choices=tuple(CASES), required=True)
-    p.add_argument('--receipt', type=Path, default=ROOT/'work/build/difficulty-v2/integration-impl/receipt.json')
+    p.add_argument('--receipt', type=Path, default=RECEIPT)
     p.add_argument('--out', type=Path, required=True)
     args = p.parse_args()
     if Path.cwd().resolve() != ROOT or sys.flags.optimize: p.error('Run at repository root with assertions enabled')

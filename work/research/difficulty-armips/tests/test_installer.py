@@ -29,9 +29,15 @@ class InstallerTests(unittest.TestCase):
         self.assertEqual(self.report['undefined_symbols'],[])
         self.assertEqual(self.report['relocations'],[])
 
-    def test_all_source_and_tool_pins_checked(self):
+    def test_source_pins_checked_and_tools_pinned_per_mode(self):
+        # Release: every tool equals its pin. Development: each is recorded with its release pin.
         sources,tools=install.source_tools()
         self.assertGreater(len(sources),30);self.assertIn('clang_real',tools)
+        pinned=json.loads((SOURCE/'research/options-source-pins.json').read_text())['tools']
+        for name,p in pinned.items():
+            with self.subTest(tool=name):
+                if build.dev_tools():self.assertEqual(tools[name]['release_sha256'],p['sha256'])
+                else:self.assertEqual((tools[name]['sha256'],tools[name]['version']),(p['sha256'],p['version']))
         with patch.object(install,'sha',return_value='0'*64):
             with self.assertRaisesRegex(ValueError,'source guard|protected provenance'):
                 install.source_tools()
@@ -101,6 +107,9 @@ class InstallerTests(unittest.TestCase):
         with scratch('installer-') as temp:
             dest=Path(temp);stage=dest/'success';stage.mkdir()
             with patch.object(install,'OUTPUT',dest):install.execute(INPUT,stage)
+            receipt=json.loads((dest/'receipt.json').read_text())
+            self.assertEqual(receipt['tool_mode'],build.tool_mode())
+            self.assertEqual(receipt['status'].startswith(build.DEV_LABEL),build.dev_tools())
             promoted={name:sha256(dest/name) for name in ('candidate.nds','receipt.json')}
             for mode in ('late_verify','source_changed','bad_input'):
                 stage=dest/mode;stage.mkdir()
@@ -153,6 +162,43 @@ class InstallerTests(unittest.TestCase):
         # Restore cached assembled fixture for following tests/models.
         for f,data in self.staged.items():(self.stage/f).write_bytes(data)
         for span in self.report['stub_spans']:(self.stage/span['file']).write_bytes(self.payload[span['start']-build.BASE:span['end']-build.BASE])
+
+
+class ToolModeTests(unittest.TestCase):
+    """Release compares every tool with its pin; only DIFFICULTY_DEV_TOOLS=1 records instead."""
+    def test_release_rejects_and_development_records_a_changed_tool(self):
+        with scratch('tools-') as tmp:
+            tool=Path(tmp)/'armips';tool.write_text('#!/bin/sh\necho "armips assembler local"\n');tool.chmod(0o755)
+            pins={'armips':{'path':str(tool),'sha256':'0'*64,'version':'pinned'}}
+            for value in ('','0','true','yes'):
+                with self.subTest(value=value),patch.dict(os.environ,{build.DEV_ENV:value}):
+                    self.assertEqual(build.tool_mode(),'release')
+                    with self.assertRaisesRegex(ValueError,'tool guard armips'):install.check_tools(pins)
+            with patch.dict(os.environ,{build.DEV_ENV:'1'}):
+                row=install.check_tools(pins)['armips']
+            self.assertEqual((row['sha256'],row['release_sha256'],row['matches_release_pin']),(sha256(tool),'0'*64,False))
+            self.assertEqual((row['version'],row['release_version']),('armips assembler local','pinned'))
+            tool.write_text('#!/bin/sh\n');tool.chmod(0o755)
+            with patch.dict(os.environ,{build.DEV_ENV:'1'}),self.assertRaisesRegex(ValueError,'printed no version line'):
+                install.check_tools(pins)
+            pins['armips']['sha256']=sha256(tool)
+            with patch.dict(os.environ,{build.DEV_ENV:''}):
+                self.assertEqual(install.check_tools(pins)['armips'],
+                                 dict(path=str(tool),bytes=tool.stat().st_size,sha256=sha256(tool),version='pinned'))
+
+    def test_candidate_binding_takes_the_mode_from_the_receipt(self):
+        from native_ui import candidate_binding
+        self.assertEqual(build.OUTPUT.name=='integration-impl-dev',build.dev_tools())  # own folder per mode
+        with scratch('binding-mode-') as tmp:
+            path=Path(tmp)/'receipt.json'
+            for env,mode in (('','development'),('1','release'),('1',None)):
+                path.write_text(json.dumps({} if mode is None else {'tool_mode':mode}))
+                with self.subTest(env=env,mode=mode),patch.dict(os.environ,{build.DEV_ENV:env}):
+                    with self.assertRaisesRegex(ValueError,'tool mode'):candidate_binding(path)
+            for env,mode in (('','release'),('',None),('1','development')):
+                path.write_text(json.dumps({} if mode is None else {'tool_mode':mode}))
+                with self.subTest(env=env,mode=mode),patch.dict(os.environ,{build.DEV_ENV:env}):
+                    with self.assertRaises(KeyError):candidate_binding(path)  # past the mode check
 
 
 class PublicationTests(unittest.TestCase):

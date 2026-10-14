@@ -44,11 +44,32 @@ static struct {
     uint8_t rows[3][0x54];
     void *choices[6];
     uint32_t nav[4]; /* Native Window, independently owned on Options heap38. */
+    /* TRAINER AI: the stored flag pair (dg_ai_encode bits) and the draft
+     * (DG_AiSetting). Appended so the earlier field offsets that native test
+     * drivers read stay unchanged. */
+    uint32_t ai_stored, ai_draft;
 } page;
 static int last_apply;
 static void load_page_rows(void *d);
 static void release_page_rows(void);
 static int owned(void *state) { return page.manager && page.state == state; }
+/* TRAINER AI uses the hack's own saved-flag path, the same one the AI's
+ * selector reads: GetSaveData 02001194, Save_VarsFlags_Get 0204F858, then
+ * CheckFlag 0204F864, SetFlag 0204F890 or ClearFlag 0204F8B8. */
+static void *ai_vars(void) {
+    return (void *)C1(0x0204f859u,CALL(0x02001195u,0,0,0,0,0,0,0,0));
+}
+/* The stored pair as dg_ai_encode bits: bit0 0x2C2, bit1 0x2C3. */
+static uint32_t ai_read(void) {
+    void *v=ai_vars();
+    return ((uint32_t)C2(0x0204f865u,v,DG_AI_FLAG_ON)!=0) |
+           ((uint32_t)(C2(0x0204f865u,v,DG_AI_FLAG_KEY)!=0)<<1);
+}
+static void ai_write(uint32_t value) {
+    void *v=ai_vars(); uint32_t f=dg_ai_encode(value);
+    C2((f&1u)?0x0204f891u:0x0204f8b9u,v,DG_AI_FLAG_ON);
+    C2((f&2u)?0x0204f891u:0x0204f8b9u,v,DG_AI_FLAG_KEY);
+}
 static int custom(void *state) { return owned(state) && page.mode; }
 static uint32_t epoch_next(void) {
     ++next_epoch;
@@ -90,6 +111,8 @@ int dg_menu_init(void *manager, int *step) {
     page.manager = manager; page.state = d; page.string = str; page.epoch = epoch;
     page.focus = 0; page.closing = 0; page.fault = 0; last_apply = 0;
     page.mode = mode; page.nav_live = 0; page.cursor_live = 0;
+    page.ai_stored = ai_read();
+    page.ai_draft = dg_ai_decode(page.ai_stored&1u,page.ai_stored&2u);
     load_page_rows(d);
     if (page.fault) {
         release_page_rows(); C1(0x02026891u,str); dg_options_cancel(&page.txn);
@@ -114,6 +137,7 @@ static uint16_t glyph(unsigned c) {
     if (c=='/') return 0x1b1;
     if (c=='-') return 0x1be;
     if (c=='.') return 0x1ae;
+    if (c==',') return 0x1ad;
     if (c==':') return 0x1c4;
     return 0x1de;
 }
@@ -172,6 +196,17 @@ static void fill(void *d, unsigned offset, unsigned color) {
 static void copy(void *d, unsigned offset) { C1(0x0201dda9u,(uint8_t *)d+offset); }
 #define SELECTED 0x00030200u
 #define NORMAL 0x00010200u
+static void ai_row(void *d) {
+    /* Native slot3 would run the renderer's row-3 preview (0200589C), so draw
+     * TRAINER AI with the renderer's own steps: erase the value area as
+     * 021E53EC does, then each value at its 48-pixel pitch, the chosen one
+     * in SELECTED colour. Row y 65 matches the native slot3 outline. */
+    static const char *const values[DG_AI_COUNT]={"OFF","KEY","ALL"};
+    CALL(0x0201e2a5u,(uint8_t *)d+0x44,0x22,108,65,320,20,0,0);
+    for (unsigned i=0;i<DG_AI_COUNT;++i)
+        text(d,0x44,108+48*i,65,values[i],i==page.ai_draft?SELECTED:NORMAL);
+    copy(d,0x44);
+}
 static void navigation(void *d) {
     if (!page.nav_live) {
         /* BG1 native windows own tiles10..633. Reserve the immediately
@@ -200,9 +235,9 @@ static void footer(void *d) {
     if (!page.cursor_live) return;
     if (page.mode) {
         uint32_t flags=U32(d,0x10); uint16_t choice=U16(d,0x2d2);
-        unsigned row=page.focus<3?page.focus:7;
+        unsigned row=page.focus<4?page.focus:7;
         U32(d,0x10)=(flags&~28u)|(row<<2);
-        U16(d,0x2d2)=page.focus==4?1:0;
+        U16(d,0x2d2)=page.focus==5?1:0;
         C2(0x021e5945u,d,row);
         U32(d,0x10)=flags; U16(d,0x2d2)=choice;
     } else C2(0x021e5945u,d,(U32(d,0x10)>>2)&7);
@@ -229,6 +264,7 @@ static void refresh_focus(void *d) {
     }
     if (page.focus==1) { first="OFF blocks benched EXP and EVs."; second="Level caps still apply."; }
     if (page.focus==2) { first="Gym-based cap. Never decreases."; second="Candy and Day Care unchanged."; }
+    if (page.focus==3) { first="Advanced AI: OFF for no trainers, KEY"; second="for important trainers, ALL for all."; }
     if (page.fault) { first="Settings changed. Cancel and reopen."; second="No difficulty changes applied."; }
     text(d,0x54,4,0,first,0x0001020fu);
     text(d,0x54,4,16,second,0x0001020fu);
@@ -249,11 +285,10 @@ void dg_menu_draw(void *d) {
     }
     fill(d,0x34,0); fill(d,0x44,0x22); fill(d,0x54,0xff);
     text(d,0x34,2,5,"DIFFICULTY",0x000f0200u);
-    static const char *const names[3]={"ITEMS IN BATTLE","SHARE","CAP"};
-    for (unsigned r=0;r<3;++r) {
-        text(d,0x44,4,5+20*r,names[r],NORMAL);
-        native_row(d,r);
-    }
+    static const char *const names[4]={"ITEMS IN BATTLE","SHARE","CAP","TRAINER AI"};
+    for (unsigned r=0;r<4;++r) text(d,0x44,4,5+20*r,names[r],NORMAL);
+    for (unsigned r=0;r<3;++r) native_row(d,r);
+    ai_row(d);
     native_footer_labels(d);
     footer(d);
     refresh_focus(d);
@@ -289,10 +324,13 @@ static void choose(unsigned row, unsigned value) {
     uint32_t f=(page.txn.draft_flags & ~mask) | (value?mask:0);
     if (dg_options_set_draft(&page.txn,(uintptr_t)page.manager,page.epoch,f)<0) page.fault=1;
 }
+static void row_draw(void *d, unsigned row) {
+    if (row<3) native_row(d,row); else ai_row(d);
+}
 static void finish(void *d, unsigned apply, unsigned touch) {
     if (apply && (page.fault || !page.txn.active ||
         (READ16(page.txn.options_identity)&DG_DIFFICULTY_MASK) !=
-        (page.txn.original_word&DG_DIFFICULTY_MASK))) {
+        (page.txn.original_word&DG_DIFFICULTY_MASK) || ai_read()!=page.ai_stored)) {
         page.fault=1; refresh_focus(d); return;
     }
     /* Match native input-mode bookkeeping; no title/audio/background preview.
@@ -333,30 +371,37 @@ void dg_menu_input(void *d) {
     }
     if (READ16(SYSTEM+0x64)) {
         unsigned x=READ16(SYSTEM+0x60), y=READ16(SYSTEM+0x62);
-        for (unsigned r=0;r<3;++r) {
+        for (unsigned r=0;r<4;++r) {
             if (y>=22+20*r && y<42+20*r && x>=8 && x<248) {
                 page.focus=r;
-                if (x>=108) choose(r,x>=160);
-                native_row(d,r); refresh_focus(d); return;
+                /* Value bands start 4 pixels left of each value's screen x. */
+                if (x>=108 && r<3) choose(r,x>=160);
+                if (x>=108 && r==3) page.ai_draft=x<160?DG_AI_OFF:x<208?DG_AI_KEY:DG_AI_ALL;
+                row_draw(d,r); refresh_focus(d); return;
             }
         }
         if (y>=168 && y<192 && x>=112 && x<240) {
-            page.focus=x<176?4:3;
-            finish(d,page.focus==4,1); return;
+            page.focus=x<176?5:4;
+            finish(d,page.focus==5,1); return;
         }
         return; /* Empty/unused rows and other touch regions are inert. */
     }
-    if (keys&KEY_UP) page.focus=page.focus? page.focus-1:4;
-    else if (keys&KEY_DOWN) page.focus=page.focus==4?0:page.focus+1;
+    if (keys&KEY_UP) page.focus=page.focus? page.focus-1:5;
+    else if (keys&KEY_DOWN) page.focus=page.focus==5?0:page.focus+1;
     else if (page.focus<3 && (keys&(KEY_LEFT|KEY_RIGHT|KEY_A))) {
         CALL(0x021e5541u,d,page.focus,page.rows[page.focus]+4,1,0,0,0,0);
         choose(page.focus,U16(page.rows[page.focus],6));
-    } else if (page.focus>=3 && (keys&(KEY_LEFT|KEY_RIGHT))) {
-        page.focus=page.focus==3?4:3;
-    } else if (page.focus>=3 && (keys&KEY_A)) {
-        finish(d,page.focus==4,0); return;
+    } else if (page.focus==3 && (keys&(KEY_LEFT|KEY_RIGHT|KEY_A))) {
+        /* Three values: Left steps back, Right and A step forward, wrapping.
+         * No division: the resident link has no runtime helpers. */
+        if (keys&(KEY_RIGHT|KEY_A)) page.ai_draft=page.ai_draft+1<DG_AI_COUNT?page.ai_draft+1:0;
+        else page.ai_draft=page.ai_draft?page.ai_draft-1:DG_AI_COUNT-1;
+    } else if (page.focus>=4 && (keys&(KEY_LEFT|KEY_RIGHT))) {
+        page.focus=page.focus==4?5:4;
+    } else if (page.focus>=4 && (keys&KEY_A)) {
+        finish(d,page.focus==5,0); return;
     } else return;
-    if (page.focus<3) native_row(d,page.focus);
+    if (page.focus<4) row_draw(d,page.focus);
     refresh_focus(d);
 }
 int dg_menu_exit_animation(void *d) {
@@ -387,9 +432,17 @@ int dg_menu_exit(void *manager, int *step) {
         page.manager=0; page.state=0; page.string=0; page.epoch=0;
         return 1;
     }
-    if ((U32(d,0x10)&3u)==1)
+    if ((U32(d,0x10)&3u)!=1) last_apply=DG_SETTINGS_NO_CHANGE;
+    else if (ai_read()!=page.ai_stored) last_apply=DG_SETTINGS_STALE; /* No write at all. */
+    else {
         last_apply=dg_options_apply((uint16_t *)PTR(d,0x24),(uintptr_t)manager,page.epoch,&page.txn);
-    else last_apply=DG_SETTINGS_NO_CHANGE;
+        /* TRAINER AI commits with the Options word, never after its failure. */
+        /* Compare pairs, not values: Confirm also rewrites the stray 0x2C3
+         * of 0x2C2-clear (OFF) as the canonical pair, both clear. */
+        if (last_apply>=0 && dg_ai_encode(page.ai_draft)!=page.ai_stored) {
+            ai_write(page.ai_draft); last_apply=DG_SETTINGS_CHANGED;
+        }
+    }
     dg_options_cancel(&page.txn);
     void *str=page.string;
     page.manager=0; page.state=0; page.string=0; page.epoch=0; page.closing=0;

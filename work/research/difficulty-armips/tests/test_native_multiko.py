@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 import unittest
 from unittest.mock import patch
-from support import ROOT,scratch
+from support import scratch,RECEIPT
 from native_multiko_oracles import aggregate_bytes,compare,validate_run
 
 
@@ -146,7 +146,7 @@ class MultiKOTests(unittest.TestCase):
     def test_trainer6_input_is_valid_typed_hp1_splash_without_native_generator(self):
         from native_battle_fixture import prepare_fixture_templates
         from native_multiko_fixture import prepare_enemy
-        receipt=json.loads((ROOT/'work/build/difficulty-v2/integration-impl/receipt.json').read_text())
+        receipt=json.loads(RECEIPT.read_text())
         with scratch('multiko-input-') as tmp:
             out=Path(tmp);templates=prepare_fixture_templates(receipt,out,levels=(5,8,12))
             a,meta=prepare_enemy(receipt,out,templates);b,_=prepare_enemy(receipt,out,templates)

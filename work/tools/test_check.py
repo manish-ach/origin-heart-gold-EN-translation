@@ -209,9 +209,10 @@ class Emu(unittest.TestCase):
             C.main(["--full", "--emu"])
             C.main(["--full", "--repro", "--emu"])
             C.main(["--full"])
-        self.assertEqual(seen[0][-2:], ["build", "emu"])
-        self.assertEqual(seen[1][-3:], ["build", "repro", "emu"])
+        self.assertEqual(seen[0][-3:], ["build", "emu", "emu-ai"])         # the AI's quick tier after the layer
+        self.assertEqual(seen[1][-4:], ["build", "repro", "emu", "emu-ai"])
         self.assertNotIn("emu", seen[2])                                  # not in --full by default
+        self.assertNotIn("emu-ai", seen[2])
 
     def test_emu_prerequisites_fail(self):
         with self.assertRaises(C.Skip) as cm:
@@ -236,6 +237,37 @@ class Emu(unittest.TestCase):
         self.assertEqual(seen[0][-1], "emu")
         with contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit):
             C.main(["--full", "--emu-only", "textfit,bogus"])
+
+    def test_emu_only_ai_runs_no_layer(self):
+        seen = []
+        with patch.object(C, "run", side_effect=lambda steps: seen.append([n for n, _ in steps]) or 0):
+            C.main(["--full", "--emu-only", "ai"])
+            C.main(["--full", "--emu-only", "fixes,ai"])
+        self.assertEqual(seen[0][-2:], ["build", "emu-ai"])
+        self.assertEqual(seen[1][-3:], ["build", "emu", "emu-ai"])
+
+    def test_layer_gets_only_its_parts(self):
+        seen = {}
+
+        class FakePopen:
+            def __init__(self, cmd, **kw):
+                seen["cmd"] = cmd
+                self.stdout, self.returncode = iter([]), 1
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *a):
+                return False
+        with tempfile.TemporaryDirectory() as td:
+            for n in C.EMU_SAVES:
+                (Path(td) / n).write_bytes(b"")
+            with patch.object(C.subprocess, "run") as run, patch.object(C.subprocess, "Popen", FakePopen):
+                run.return_value.returncode = 0
+                with self.assertRaises(C.Failed):                         # no report: the layer failed
+                    C.step_emu("armips", {"report": {"rom": {"path": "x.nds"}}}, Path(td) / "check", td)
+        cmd = seen["cmd"]
+        self.assertEqual(cmd[cmd.index("--parts") + 1], "fixes,scenarios,textfit,freeze")
 
     def test_emu_report(self):
         report = {"verdict": "FAIL", "pass": False, "pending_approvals": 1, "meta": {"seconds": 1234.5},
@@ -291,6 +323,174 @@ class Emu(unittest.TestCase):
                              "seconds": 30}], "rows": []}
         text = C.emu_summary(report, Path("R"))
         self.assertTrue(text.startswith("PASS in 10 s; report R/report.html"))
+
+
+class AdvancedAi(unittest.TestCase):
+    """The advanced AI's checks: ai-payload and ai-unit (fast and --full), ai-static (--full), emu-ai (--emu)."""
+
+    def test_fast_patterns_name_unit_classes(self):
+        for pattern in C.AI_UNIT_NO_ROM:
+            module, cls, rest = pattern.split(".")
+            self.assertEqual(rest, "")                                    # a class, not a substring of others
+            source = (C.AI_UNIT / f"{module}.py").read_text(encoding="utf-8")
+            self.assertIn(f"\nclass {cls}(", source, pattern)
+
+    def test_steps(self):
+        seen = []
+        with patch.object(C, "run", side_effect=lambda steps: seen.append([n for n, _ in steps]) or 0), \
+                contextlib.redirect_stdout(io.StringIO()):
+            C.main([])
+            C.main(["--full"])
+        self.assertEqual(seen[0][-3:], ["ai-payload", "ai-unit", "tests"])
+        self.assertIn("ai-unit", seen[1])
+        self.assertEqual(seen[1][-3:], ["tests", "ai-static", "build"])
+        self.assertNotIn("emu-ai", seen[1])
+        with contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit):
+            C.main(["--ai-rom", "x.nds"])                                 # a --full option
+
+    def test_payload_pins(self):
+        with tempfile.TemporaryDirectory() as td:
+            ai = Path(td)
+            (ai / "src").mkdir()
+            (ai / "payload").mkdir()
+            (ai / "src" / "a.c").write_text("int a;\n")
+            (ai / "payload" / "slot.bin").write_bytes(b"\x01")
+            pins = {"sources": {"src/a.c": hashlib.sha256(b"int a;\n").hexdigest()},
+                    "files": {"slot.bin": hashlib.sha256(b"\x01").hexdigest()}}
+            payload = ai / "payload" / "payload.json"
+            payload.write_text(__import__("json").dumps(pins))
+            with patch.object(C, "AI", ai), patch.object(C, "AI_PAYLOAD", payload), patch.object(C, "REPO", ai.parent):
+                self.assertIn("1 sources and 1 files", C.step_ai_payload())
+                (ai / "src" / "a.c").write_text("int b;\n")              # edited without rebuilding the payload
+                (ai / "payload" / "slot.bin").unlink()
+                with self.assertRaises(C.Failed) as cm:
+                    C.step_ai_payload()
+        self.assertIn("src/a.c (changed), payload/slot.bin (missing)", str(cm.exception))
+        self.assertIn("builder/build.py --layout en --out work/advanced-ai/payload", str(cm.exception))
+
+    def test_unit_fast_subset_full_all_and_skip_reasons(self):
+        stderr = ("test_a (test_x.A.test_a) ... ok\n"
+                  "setUpClass (test_build.EnglishBuild) ... skipped 'needs the pinned toolchain: not found'\n"
+                  "test_b (test_x.B.test_b) ... skipped 'ADVAI_ES_REPO is not set'\n"
+                  "test_c (test_x.B.test_c) ... skipped 'ADVAI_ES_REPO is not set'\n\n"
+                  "Ran 4 tests in 0.1s\n\nOK (skipped=3)\n")
+        calls = []
+
+        def run(cmd, **kw):
+            calls.append(cmd)
+            return subprocess.CompletedProcess(cmd, 0, "", stderr)
+        with patch.object(C.subprocess, "run", side_effect=run):
+            fast = C.step_ai_unit(full=False)
+            full = C.step_ai_unit(full=True)
+        self.assertEqual([calls[0][i + 1] for i, x in enumerate(calls[0]) if x == "-k"], list(C.AI_UNIT_NO_ROM))
+        self.assertNotIn("-k", calls[1])
+        self.assertIn("4 tests, OK (skipped=3); no ROM", fast)
+        self.assertNotIn("no ROM", full)
+        self.assertIn("skipped (1): needs the pinned toolchain: not found", full)
+        self.assertIn("skipped (2): ADVAI_ES_REPO is not set", full)
+        failed = "FAIL: test_a (test_x.A.test_a)\n\nRan 4 tests in 0.1s\n\nFAILED (failures=1)\n"
+        with patch.object(C.subprocess, "run", return_value=subprocess.CompletedProcess([], 1, "", failed)):
+            with self.assertRaises(C.Failed) as cm:
+                C.step_ai_unit(full=True)
+        self.assertIn("FAIL: test_a", str(cm.exception))
+
+    def test_ai_build_inputs(self):
+        with tempfile.TemporaryDirectory() as td:
+            out = Path(td) / "check-ai"
+            with patch.object(C, "AI_BASE", Path(td) / "rc8_release.nds"), patch.object(C.subprocess, "run") as run:
+                with self.assertRaises(C.Skip) as cm:                     # no input: a skip, never a failure
+                    C.AiBuild(None, out).get()
+                self.assertFalse(cm.exception.fail)
+                self.assertIn("rc8_release.nds", str(cm.exception))
+                with self.assertRaises(C.Failed):                         # --ai-rom names a missing file
+                    C.AiBuild(str(Path(td) / "none.nds"), out).get()
+                run.assert_not_called()
+                (Path(td) / "rc8_release.nds").write_bytes(b"rom")
+                run.return_value = subprocess.CompletedProcess([], 0, "", "")
+                ai = C.AiBuild(None, out)
+                self.assertEqual(ai.get()[0], out / "check_ai.nds")
+                ai.get()
+                (cmd,), _ = run.call_args
+                self.assertEqual(run.call_count, 1)                        # installed once per run
+                self.assertTrue(cmd[1].endswith("builder/install.py"))
+                self.assertEqual(cmd[cmd.index("--input") + 1], str(Path(td) / "rc8_release.nds"))
+                run.reset_mock()
+                run.return_value = subprocess.CompletedProcess([], 1, "", "refused: no difficulty")
+                ai = C.AiBuild(None, out)
+                for _ in range(2):
+                    with self.assertRaises(C.Failed) as cm:
+                        ai.get()
+                self.assertEqual(run.call_count, 1)
+                self.assertIn("no difficulty", str(cm.exception))
+                given = Path(td) / "given.nds"
+                given.write_bytes(b"rom")
+                run.reset_mock()
+                run.return_value = subprocess.CompletedProcess([], 1, "FAIL hook 0 not a bl", "")
+                with self.assertRaises(C.Failed) as cm:                   # --ai-rom without the AI
+                    C.AiBuild(str(given), out).get()
+                self.assertTrue(run.call_args[0][0][1].endswith("builder/verify.py"))
+                self.assertIn("not a bl", str(cm.exception))
+
+    class FakeAi:
+        def get(self):
+            return Path("/x/check_ai.nds"), "the payload installed on rc8_release.nds"
+
+    def run_tier(self, step, lines, code, saves_ok=True):
+        seen = {}
+
+        class FakePopen:
+            def __init__(self, cmd, **kw):
+                seen["cmd"] = cmd
+                self.stdout, self.returncode = iter(lines), code
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *a):
+                return False
+        saves = subprocess.CompletedProcess([], 0 if saves_ok else 1, "blank  missing\n", "")
+        with tempfile.TemporaryDirectory() as td, patch.object(C.subprocess, "Popen", FakePopen), \
+                patch.object(C, "require_emulator"), contextlib.redirect_stdout(io.StringIO()), \
+                patch.object(C.subprocess, "run", return_value=saves):
+            try:
+                return step(td), seen.get("cmd")
+            except (C.Failed, C.Skip) as ex:
+                return ex, seen.get("cmd")
+
+    SUMMARY = ["quick tier on x (payload p), 2 workers\n", "- bench\n", "    pass: score 98%\n", "\n",
+               "quick tier: x/check_ai.nds\n", "  bench              pass    score 98%\n",
+               "  settings           FAIL    exit 1\n", "1 passed, 1 failed, 0 skipped, 0 pending in 60 s\n"]
+
+    def test_emu_ai_runs_quick_with_the_job_budget(self):
+        got, cmd = self.run_tier(lambda td: C.step_emu_ai(self.FakeAi(), 2, td), self.SUMMARY, 1)
+        self.assertEqual(cmd[2:4], ["quick", "--rom"])
+        self.assertEqual(cmd[cmd.index("--workers") + 1], "2")
+        self.assertEqual(cmd[cmd.index("--payload") + 1], str(C.AI_PAYLOAD))
+        self.assertIsInstance(got, C.Failed)
+        text = str(got)
+        self.assertTrue(text.startswith("1 passed, 1 failed, 0 skipped, 0 pending in 60 s on check_ai.nds "
+                                        "(the payload installed on rc8_release.nds)"))
+        self.assertIn("settings           FAIL    exit 1", text)                # the rows again on a failure
+        got, _ = self.run_tier(lambda td: C.step_emu_ai(self.FakeAi(), 2, td), self.SUMMARY[:6] + self.SUMMARY[7:], 0)
+        self.assertNotIn("bench", got)                                    # a pass: the counts and the log only
+        self.assertIn("\nlog ", got)
+
+    def test_emu_ai_without_saves_is_a_skip(self):
+        got, cmd = self.run_tier(lambda td: C.step_emu_ai(self.FakeAi(), 2, td), self.SUMMARY, 0, saves_ok=False)
+        self.assertIsInstance(got, C.Skip)
+        self.assertFalse(got.fail)
+        self.assertIn("saves.py make", str(got))
+        self.assertIsNone(cmd)
+
+    def test_tier_without_summary_fails(self):
+        got, _ = self.run_tier(lambda td: C.step_emu_ai(self.FakeAi(), 2, td), ["Traceback ...\n"], 1)
+        self.assertIsInstance(got, C.Failed)
+        self.assertIn("printed no summary", str(got))
+
+    def test_static_leaves_its_unit_step_to_ai_unit(self):
+        listing = "unit  builder  unit  ready\nbench-claims  a  bench/aibench.py  ready\nhostai-replay b h ready\n"
+        with patch.object(C.subprocess, "run", return_value=subprocess.CompletedProcess([], 0, listing, "")):
+            self.assertEqual(C.static_steps("x.nds"), ["bench-claims", "hostai-replay"])
 
 
 class Repro(unittest.TestCase):

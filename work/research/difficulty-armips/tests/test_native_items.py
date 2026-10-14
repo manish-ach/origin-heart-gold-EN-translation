@@ -6,7 +6,7 @@ from pathlib import Path
 import types
 import unittest
 from unittest.mock import patch
-from support import ROOT, SOURCE, scratch, sha256
+from support import ROOT, SOURCE, scratch, sha256, RECEIPT
 from evidence import validate_native, write_json
 from native_battle_helpers import NativeSession
 from native_items_oracles import checkpoint
@@ -209,7 +209,7 @@ class NativeItemsFrameworkTests(unittest.TestCase):
         import save_core
         from emu_harness import SaveFile, POCKETS
         from native_items_fixture import prepare
-        receipt=json.loads((ROOT/'work/build/difficulty-v2/integration-impl/receipt.json').read_text())
+        receipt=json.loads(RECEIPT.read_text())
         with scratch('eligible-items-fixtures-') as tmp:
             for item,pocket in ((151,'berries'),(155,'berries'),(154,'berries'),(65,'battle')):
                 fixture=prepare(receipt,Path(tmp)/str(item),item)
@@ -358,7 +358,7 @@ class NativeItemsFrameworkTests(unittest.TestCase):
         import save_core
         from native_items_fixture import prepare,install_player
         from native_items_matrix import plan,variants
-        receipt=json.loads((ROOT/'work/build/difficulty-v2/integration-impl/receipt.json').read_text())
+        receipt=json.loads(RECEIPT.read_text())
         with scratch('pp-revive-fixtures-') as tmp:
             jobs=plan(Path(tmp)/'matrix','pp-revive-checkpoint',17)
             self.assertEqual([(j['item'],j['mode']) for j in jobs],[(38,'all'),(38,'restricted'),(28,'all'),(28,'restricted')])
@@ -466,7 +466,7 @@ class NativeItemsFrameworkTests(unittest.TestCase):
         from ndspy.narc import NARC
         from native_items_cases import CASES,ADDITIONS,PENDING_ADDITIONS
         from native_items_fixture import prepare
-        receipt=json.loads((ROOT/'work/build/difficulty-v2/integration-impl/receipt.json').read_text())
+        receipt=json.loads(RECEIPT.read_text())
         archive=NARC(NintendoDSRom.fromFile(receipt['output']['path']).getFileByName('a/0/1/7'))
         self.assertEqual(len(ADDITIONS)+len(PENDING_ADDITIONS),20)
         for item,case in CASES.items():
@@ -530,7 +530,7 @@ class NativeItemsFrameworkTests(unittest.TestCase):
     def test_antidote_typed_fixture_preserves_poison_and_full_hp(self):
         import save_core
         from native_items_fixture import prepare
-        receipt=json.loads((ROOT/'work/build/difficulty-v2/integration-impl/receipt.json').read_text())
+        receipt=json.loads(RECEIPT.read_text())
         with scratch('antidote-fixture-') as tmp:
             fixture=prepare(receipt,Path(tmp),18)
             for key,status in (('damaged',8),('healthy',0)):
@@ -544,7 +544,7 @@ class NativeItemsFrameworkTests(unittest.TestCase):
     def test_typed_fixture_valid_repeatable_and_battery_owned(self):
         import save_core
         from native_items_fixture import prepare
-        receipt = json.loads((ROOT/'work/build/difficulty-v2/integration-impl/receipt.json').read_text())
+        receipt = json.loads(RECEIPT.read_text())
         source = ROOT/'work/build/memcheck/trainer.sav'; original_hash = sha256(source)
         with scratch('typed-items-fixture-') as tmp:
             a,b = [prepare(receipt,Path(tmp)/n) for n in ('a','b')]
@@ -563,7 +563,7 @@ class NativeItemsFrameworkTests(unittest.TestCase):
         import save_core
         from emu_harness import SaveFile
         from native_items_fixture import prepare
-        receipt=json.loads((ROOT/'work/build/difficulty-v2/integration-impl/receipt.json').read_text())
+        receipt=json.loads(RECEIPT.read_text())
         source=ROOT/'work/build/memcheck/trainer.sav'; source_bytes=source.read_bytes()
         with scratch('items-repeated-out-') as tmp:
             out=Path(tmp)

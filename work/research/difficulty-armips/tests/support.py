@@ -2,6 +2,7 @@
 from pathlib import Path
 import hashlib
 import subprocess
+import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[4]
@@ -10,6 +11,13 @@ OUTPUT = ROOT / 'work/build/difficulty-v2/tests'
 CN = ROOT / 'work/rom/origin_v4.0.3_cn.nds'
 CN_SHA256 = '4807ab2c130581cb9d4f6110fc64b41ca4807b8d28e7622ebd3c9740baed95c8'
 HISTORY = ROOT / 'work/build/exp-share-research'
+# The candidate receipt of the current tool mode: integration-impl, or
+# integration-impl-dev with DIFFICULTY_DEV_TOOLS=1 (build.py OUTPUT).
+sys.path.insert(0, str(SOURCE))
+from build import RECEIPT  # noqa: E402,F401  (re-exported)
+# Options page 2: ITEMS, SHARE, CAP, TRAINER AI, then CANCEL and APPLY.
+OPTIONS_ROWS = 4
+FOCUS_COUNT = OPTIONS_ROWS + 2
 
 
 def sha256(path):

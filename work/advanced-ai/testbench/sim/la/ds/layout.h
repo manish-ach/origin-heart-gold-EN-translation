@@ -1,0 +1,25 @@
+_Static_assert(offsetof(Battle, party) == 0, "party");
+_Static_assert(offsetof(Battle, n) == 552, "n");
+_Static_assert(offsetof(Battle, v) == 554, "v");
+_Static_assert(offsetof(Battle, side) == 698, "side");
+_Static_assert(offsetof(Battle, weather) == 722, "weather");
+_Static_assert(offsetof(Battle, weather_turns) == 723, "weather_turns");
+_Static_assert(offsetof(Battle, terrain) == 724, "terrain");
+_Static_assert(offsetof(Battle, terrain_turns) == 725, "terrain_turns");
+_Static_assert(offsetof(Battle, trick_room) == 726, "trick_room");
+_Static_assert(offsetof(Battle, turn) == 728, "turn");
+_Static_assert(offsetof(Battle, rng) == 736, "rng");
+_Static_assert(offsetof(Battle, winner) == 744, "winner");
+_Static_assert(offsetof(Battle, last_faint) == 745, "last_faint");
+_Static_assert(offsetof(Battle, tally) == 746, "tally");
+_Static_assert(offsetof(Battle, last_used) == 768, "last_used");
+_Static_assert(offsetof(Battle, last_hit) == 770, "last_hit");
+_Static_assert(offsetof(Battle, tf_saved) == 774, "tf_saved");
+_Static_assert(offsetof(Battle, verbose) == 868, "verbose");
+_Static_assert(sizeof(Mon) == 46, "Mon");
+_Static_assert(sizeof(Volatile) == 72, "Volatile");
+_Static_assert(sizeof(Side) == 12, "Side");
+_Static_assert(sizeof(Tally) == 22, "Tally");
+_Static_assert(sizeof(Action) == 2, "Action");
+_Static_assert(sizeof(LaCfg) == 28, "LaCfg");
+/* host sizeof(Battle) = 880 */

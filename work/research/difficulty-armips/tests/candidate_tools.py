@@ -9,7 +9,7 @@ sys.path.insert(0, str(SOURCE))
 build = importlib.import_module('build')
 install = importlib.import_module('install')
 INPUT = ROOT / json.loads((SOURCE/'compatibility.json').read_text())['roms']['en']['path']
-RECEIPT = ROOT / 'work/build/difficulty-v2/integration-impl/receipt.json'
+RECEIPT = build.RECEIPT
 
 @functools.lru_cache(maxsize=1)
 def assembled():

@@ -9,7 +9,7 @@ import os
 from pathlib import Path
 import traceback
 import sys
-from support import ROOT, OUTPUT, sha256
+from support import ROOT, OUTPUT, sha256, RECEIPT
 from evidence import write_json, utc
 from native_ui import candidate_binding
 from native_battle_helpers import NativeSession, capture_failure
@@ -90,7 +90,7 @@ def play(session, trace, run, flush):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--receipt', type=Path, default=ROOT/'work/build/difficulty-v2/integration-impl/receipt.json')
+    p.add_argument('--receipt', type=Path, default=RECEIPT)
     p.add_argument('--out', type=Path, required=True)
     p.add_argument('--item', type=int, choices=tuple(CASES), default=17)
     p.add_argument('--category', type=int, choices=(0,1))

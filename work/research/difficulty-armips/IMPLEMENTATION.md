@@ -19,6 +19,10 @@ The first command compiles, links, assembles, installs and independently verifie
 a real candidate. The second runs host/static tests without launching an emulator.
 `tests/run.py --require-complete` also requires all native evidence and currently
 fails that gate. Native runs require the parent's separate approval.
+On a machine whose tools differ from the pinned ones, `DIFFICULTY_DEV_TOOLS=1`
+builds a development candidate that is never a release candidate, in its own
+folder `work/build/difficulty-v2/integration-impl-dev/`; see
+[development tools mode](research/dev-tools-mode.md).
 
 The installer accepts only the completed English input above, SHA-256
 `a5a418b277bf07390e7282413923ec34f1c364f4a96c88936d65a73a80d51f40`.
@@ -31,8 +35,9 @@ production build does not install this feature.
 
 Hold **L while opening Options from the field menu** to select DIFFICULTY.
 Normal entry retains all seven ordinary Options, including TEXT SPEED. Use
-D-pad/touch to choose ITEMS, SHARE and CAP; select APPLY or CANCEL, or press B
-to cancel. Defaults are **DEFAULT (Chinese item permissions), Share ON, Cap OFF**. Apply changes RAM;
+D-pad/touch to choose ITEMS, SHARE, CAP and TRAINER AI; select APPLY or CANCEL, or press B
+to cancel. TRAINER AI (OFF/KEY/ALL) is stored in event flags 0x2C2/0x2C3, not
+in the Options word, and defaults to OFF; see [the TRAINER AI row](research/options-trainer-ai.md). Defaults are **DEFAULT (Chinese item permissions), Share ON, Cap OFF**. Apply changes RAM;
 **save normally to persist**. Cancel discards the draft; no automatic save occurs.
 
 - **ITEMS IN BATTLE (D-2412):** `DEFAULT` preserves the untouched Chinese hack's

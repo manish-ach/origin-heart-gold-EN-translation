@@ -11,7 +11,7 @@ import os
 from pathlib import Path
 import sys
 import traceback
-from support import ROOT, OUTPUT, sha256
+from support import ROOT, OUTPUT, sha256, RECEIPT
 from evidence import write_json, utc
 from native_ui import candidate_binding
 from native_battle_helpers import NativeSession, registers, capture_failure
@@ -205,7 +205,7 @@ def play(s,t,result,flush,installed,token):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--out',type=Path,required=True)
-    p.add_argument('--receipt',type=Path,default=ROOT/'work/build/difficulty-v2/integration-impl/receipt.json')
+    p.add_argument('--receipt',type=Path,default=RECEIPT)
     a=p.parse_args();out=a.out.resolve()
     if Path.cwd().resolve()!=ROOT or sys.flags.optimize or not out.is_relative_to(OUTPUT):p.error('repo root/owned output/assertions required')
     out.mkdir(parents=True,exist_ok=True)

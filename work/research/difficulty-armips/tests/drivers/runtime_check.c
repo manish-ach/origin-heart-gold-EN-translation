@@ -113,7 +113,10 @@ int main(void){
 
  /* Allocation edges, stale pointer restoration, replay with familiar flags,
   * high unknown bits, and original Options bits differing outside policy. */
- assert(dg_runtime_ram(0x02000000,4,4));assert(dg_runtime_ram(0x023dbffc,4,4));
+ assert(dg_runtime_ram(0x02000000,4,4));assert(dg_runtime_ram(0x023d3ffc,4,4));
+ assert(dg_runtime_ram(0x02000000,0x003d4000,4));assert(!dg_runtime_ram(0x02000000,0x003d4004,4));
+ /* The advanced AI's resident code 0x023D4000..0x023DC000 and difficulty's own reservation are not data. */
+ assert(!dg_runtime_ram(0x023d4000,4,4));assert(!dg_runtime_ram(0x023d3ffd,4,1));assert(!dg_runtime_ram(0x023dbffc,4,4));
  assert(!dg_runtime_ram(0x023dc000,4,4));assert(!dg_runtime_ram(0x01fffffc,4,4));
  for(unsigned bit=9;bit<32;bit++)assert(!dg_runtime_ordinary(1u<<bit,0));
  for(unsigned i=0;i<8;i++){fixture(allowed[i],0x10,7);dg_battle_begin();assert(!dg_growth_snapshot());}

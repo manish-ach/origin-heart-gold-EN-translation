@@ -3,6 +3,7 @@ import binascii
 from pathlib import Path
 import struct
 from PIL import Image
+from support import OPTIONS_ROWS
 
 
 def validate_page_navigation(run):
@@ -57,7 +58,7 @@ def focus_regions(path, focus):
     assert im.size==(256,384), im.size
     red=lambda p:p[0]>190 and p[1]<100 and p[2]<110
     regions={}
-    for row in range(3):
+    for row in range(OPTIONS_ROWS):
         y=192+24+20*row
         pixels=[im.getpixel((x,yy)) for yy in range(y,y+18) for x in range(0,5)]
         regions['row'+str(row)+'_left_red']=sum(map(red,pixels))

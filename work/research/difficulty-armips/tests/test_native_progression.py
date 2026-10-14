@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 import unittest
 from unittest.mock import patch
-from support import ROOT, SOURCE, scratch
+from support import SOURCE, scratch, RECEIPT
 from native_progression_cases import CASES, plan
 from native_progression_oracles import validate
 
@@ -13,7 +13,7 @@ class NativeProgressionTests(unittest.TestCase):
     def test_six_isolated_checkpoints_and_valid_high_level_growth_fixtures(self):
         from native_battle_fixture import prepare_fixture_templates
         levels={8}|{s['level'] for s in CASES.values()}
-        receipt=json.loads((ROOT/'work/build/difficulty-v2/integration-impl/receipt.json').read_text())
+        receipt=json.loads(RECEIPT.read_text())
         with scratch('progression-fixture-') as tmp:
             prepare_fixture_templates(receipt,Path(tmp),levels=levels)
             meta=json.loads((Path(tmp)/'fixture-templates.json').read_text())

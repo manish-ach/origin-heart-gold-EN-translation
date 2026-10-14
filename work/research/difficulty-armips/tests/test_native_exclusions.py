@@ -5,7 +5,7 @@ import sys
 import unittest
 from unittest.mock import patch
 from native_exclusions_oracles import FIELDS,validate_local,validate_remote,record,fixture_metadata
-from support import scratch,ROOT
+from support import scratch,ROOT,RECEIPT
 from pathlib import Path
 from native_exclusion_snapshot import wait_closed_party
 sys.path.insert(0,str(ROOT/"work/tools"))
@@ -108,7 +108,7 @@ class ExclusionAcceptance(unittest.TestCase):
     def test_distinct_strict_seed_provenance_and_mutated_metadata(self):
         import json
         from native_exclusion_fixture import prepare_fixture_templates
-        receipt=json.loads((ROOT/'work/build/difficulty-v2/integration-impl/receipt.json').read_text())
+        receipt=json.loads(RECEIPT.read_text())
         with scratch('exclusion-input-provenance-') as tmp:
             base=Path(tmp)
             egg=prepare_fixture_templates(receipt,base/'egg-fixture',levels=(1,),seed_slot=1)[1]

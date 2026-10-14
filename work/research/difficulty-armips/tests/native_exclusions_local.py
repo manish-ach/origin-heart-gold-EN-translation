@@ -6,12 +6,12 @@ import shutil
 import hashlib
 import datetime
 from pathlib import Path
-from support import ROOT, OUTPUT
+from support import ROOT, OUTPUT, RECEIPT
 import argparse
 p=argparse.ArgumentParser(description=__doc__)
 p.add_argument('--out',type=Path,required=True)
 p.add_argument('--flags',type=int,choices=(0,1),required=True)
-p.add_argument('--receipt',type=Path,default=ROOT/'work/build/difficulty-v2/integration-impl/receipt.json')
+p.add_argument('--receipt',type=Path,default=RECEIPT)
 args=p.parse_args()
 if Path.cwd().resolve()!=ROOT or sys.flags.optimize:p.error('Run at repository root with assertions enabled')
 from native_ui import candidate_binding

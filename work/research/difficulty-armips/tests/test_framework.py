@@ -7,7 +7,7 @@ import sys
 import types
 import unittest
 from unittest.mock import patch
-from support import SOURCE, scratch, sha256
+from support import SOURCE, FOCUS_COUNT, scratch, sha256
 from evidence import bound_process, write_json, register_values, validate_native, record_focus_review
 
 class FrameworkTests(unittest.TestCase):
@@ -43,11 +43,11 @@ class FrameworkTests(unittest.TestCase):
             manifest={'cases':[{'id':'ui.visible_glyphs','driver':'native_ui.py'},
                                {'id':'ui.dpad_apply','driver':'native_ui.py'}]}
             report={'status':'failed','binding':binding,'nonce':'one','old_state_loaded':False,
-                    'focus_regions':[{'focus':i} for i in range(5)],'cases':{}}
+                    'focus_regions':[{'focus':i} for i in range(FOCUS_COUNT)],'cases':{}}
             process={'status':'failed','nonce':'one','returncode':1,'finished_utc':'now'}
-            for i in range(5):(out/f'focus-{i}.png').write_bytes(bytes([i]))
+            for i in range(FOCUS_COUNT):(out/f'focus-{i}.png').write_bytes(bytes([i]))
             write_json(p,report);write_json(out/'process.json',process)
-            record_focus_review(p,binding,'parent','All five images reviewed')
+            record_focus_review(p,binding,'parent','All focus images reviewed')
             got=validate_native(manifest,[p],binding)
             self.assertEqual(got['ui.visible_glyphs']['status'],'passed')
             self.assertEqual(got['ui.dpad_apply']['status'],'missing')
@@ -71,8 +71,8 @@ class FrameworkTests(unittest.TestCase):
         h=types.SimpleNamespace(frame=17,press=lambda button,**kw:calls.append((button,kw)))
         ns={'h':h,'inputs':[]}
         exec(compile(ast.Module(body=[helper,loop],type_ignores=[]),'native-input-sequence','exec'),ns)
-        self.assertEqual([c[0] for c in calls],['RIGHT','DOWN','RIGHT','DOWN','RIGHT','DOWN','DOWN','A'])
-        self.assertEqual(len(ns['inputs']),8)
+        self.assertEqual([c[0] for c in calls],['RIGHT','DOWN','RIGHT','DOWN','RIGHT','DOWN','DOWN','DOWN','A'])
+        self.assertEqual(len(ns['inputs']),9)
         self.assertTrue(all(c[1]=={'after':20} for c in calls))
 
     def test_bounded_child_exit_abort_timeout_and_missing_executable(self):
@@ -151,5 +151,6 @@ class FrameworkTests(unittest.TestCase):
         self.assertNotIn("getattr(h.reg,'r'",text)
         with scratch('bad-binding-') as tmp:
             p=Path(tmp)/'receipt.json';fake=Path(tmp)/'rom.nds';fake.write_bytes(b'fixture')
-            p.write_text(json.dumps({'input':{'path':str(fake),'sha256':'wrong'},'output':{}}))
+            from build import tool_mode  # the mode check precedes the ROM check
+            p.write_text(json.dumps({'tool_mode':tool_mode(),'input':{'path':str(fake),'sha256':'wrong'},'output':{}}))
             with self.assertRaisesRegex(ValueError,'Stale ROM'):native_ui.candidate_binding(p)

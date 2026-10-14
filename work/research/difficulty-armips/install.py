@@ -13,14 +13,17 @@ import ndspy.code
 import ndspy.fnt
 from publication import publish_pair, recover_publication
 from publication import PublicationRecoveryRequired as PublicationRecoveryRequired
-from build import (ROOT, SOURCE, OUTPUT, BASE, LIMIT, LLD, require, sha, pin, build)
+from build import (ROOT, SOURCE, OUTPUT, BASE, LIMIT, LLD, require, sha, pin, build,
+                   DEV_LABEL, dev_tools, tool_mode, tool_env)
 
 BASES = {'arm9.bin': 0x02000000, 'itcm.bin': 0x01FF8000,
          'overlay9.bin': 0x021E4DA0, 'overlay14.bin': 0x022007E0, 'overlay50.bin': 0x021E4980}
-# Completed 69-fix RC8 baseline. Every difference from the RC7 baseline (47 fixes,
-# SHA-256 18b6d147...) is attributed in work/notes/rc8_difficulty_compatibility_20261013.md;
-# the RC7 review is work/notes/rc7_difficulty_compatibility_20261010.md.
-INPUT_SHA = 'f23e22632620454698c9a8f96b6e834737327b86fa5e5b9c3247d58f7a4d492d'
+# Standard build of main after rc8 (trainer full names, D-2487). Every difference from
+# the rc8 baseline (SHA-256 f23e2263...) is attributed in
+# work/notes/main_difficulty_compatibility_20261013.md; the rc8 and rc7 reviews are
+# work/notes/rc8_difficulty_compatibility_20261013.md and rc7_difficulty_compatibility_20261010.md.
+# One accepted input per version: rebuild rc8 from its tag, whose pin is f23e2263.
+INPUT_SHA = '96793c3981717374cebb71c361114165a18d91e646f99263bb6522866ded3c3c'
 OV_PINS = {9: (39040, 'f66e9ff1ec5525797654017d246c4d61f2ae70382d25e83df0e1680dbb890b0d'),
            14: (337216, '7c98bd2050bc3ffc71ebe3a31be6dd9680d2bf090c2b2206ee7b36bbfe5c93c1')}
 ITEM_RANGES = [(0x02202954,0x0220297E,'c0e1c2238dc930beb13445bd0e936066f3cd47b1b681472b6efa1255b5fd3304'),
@@ -62,10 +65,11 @@ def bounds(arm, overlays):
     low = struct.unpack_from('<I',main,0xD1A1C)[0]
     high = struct.unpack_from('<I',main,0xD1970)[0]
     require((low,high) == (0x02264920,0x023E0000), 'original arena bounds / double install')
-    require(struct.unpack_from('<I',main,0xD1A28)[0] == 0x01FF8FC0, 'ITCM arena extent')
+    # TEXT SPEED ends at 0x01FF8FC0; trainer display (work/tools/trainer_display.py) follows to 0x01FF9140.
+    require(struct.unpack_from('<I',main,0xD1A28)[0] == 0x01FF9140, 'ITCM arena extent')
     max_overlay = max(o.ramAddress+o.ramSize+o.bssSize for o in overlays.values())
     require(bss_end <= max_overlay <= low < BASE < LIMIT == 0x023E0000, 'overlay/arena/resident overlap')
-    require([(len(s.data),s.bssSize) for s in arm.sections] == [(1115808,0),(4032,0),(96,32)], 'autoload sizes')
+    require([(len(s.data),s.bssSize) for s in arm.sections] == [(1115808,0),(4416,0),(96,32)], 'autoload sizes')
     for s in arm.sections:
         require(s.ramAddress+len(s.data)+s.bssSize <= BASE or s.ramAddress >= 0x027E0000, 'autoload collision')
     return {'original_arena_low':low,'original_arena_high':high,'arena_high':BASE,
@@ -129,6 +133,32 @@ def validate_sections(raw, comp, hooks, edits):
     return checked
 
 
+def tool_version(name,path):
+    import subprocess
+    argv=[str(path)] if name=='armips' else [str(path),'--version']
+    result=subprocess.run(argv,cwd=ROOT,text=True,capture_output=True,env=tool_env(str(path)))
+    lines=(result.stdout+result.stderr).strip().splitlines()
+    require(lines,f'tool {name} printed no version line: {path}')
+    return lines[0]
+
+
+def check_tools(pinned):
+    """Release: each tool must equal its pin. Development (DIFFICULTY_DEV_TOOLS=1):
+    record the local tool and how it differs from the release pin instead."""
+    result={}
+    for name,p in pinned.items():
+        # Tool paths are stored as $HOME/... so the pins work on any machine.
+        path=Path(os.path.expandvars(p['path']))
+        if not dev_tools():
+            require(sha(path.read_bytes())==p['sha256'],f'tool guard {name}')
+            result[name]=dict(pin(path),version=p['version'])
+            continue
+        local=pin(path)
+        result[name]=dict(local,version=tool_version(name,path),release_sha256=p['sha256'],
+                          release_version=p['version'],matches_release_pin=local['sha256']==p['sha256'])
+    return result
+
+
 def source_tools():
     old=json.loads((SOURCE/'research/options-source-pins.json').read_text())
     overrides=json.loads((SOURCE/'native/integration_contract.json').read_text())['source_overrides']
@@ -144,12 +174,9 @@ def source_tools():
             expected=overrides.get(name,{}).get('sha256',p['sha256'])
             require(sha((ROOT/name).read_bytes())==expected,f'source guard {name}')
             checked[name]=pin(ROOT/name)
-    for name,p in old['tools'].items():
-        # Tool paths are stored as $HOME/... so the pins work on any machine.
-        require(sha(Path(os.path.expandvars(p['path'])).read_bytes())==p['sha256'],f'tool guard {name}')
+    toolpins=check_tools(old['tools'])
     sources={str(p.relative_to(ROOT)):pin(p) for p in sorted(SOURCE.rglob('*'))
              if p.is_file() and p.suffix in ('.py','.c','.h','.asm','.ld','.json','.toml','.md')}
-    toolpins={name:dict(pin(os.path.expandvars(p['path'])),version=p['version']) for name,p in old['tools'].items()}
     # Capture the real Xcode compiler and Rust linker behind the small drivers.
     import subprocess
     realclang=subprocess.check_output(['/usr/bin/xcrun','--find','clang'],cwd=ROOT,text=True).strip()
@@ -157,6 +184,9 @@ def source_tools():
     toolpins['clang_real']=pin(realclang)
     require(rustlld.is_file(),'underlying rust-lld missing')
     toolpins['rust_lld_real']=pin(rustlld)
+    libllvm=Path(LLD).parents[4]/'libLLVM.dylib'
+    if dev_tools() and libllvm.is_file():
+        toolpins['rust_libllvm']=pin(libllvm)
     toolpins['python']=dict(pin(sys.executable),version=sys.version)
     for module in (ndspy.rom,ndspy.code,ndspy.fnt):
         toolpins[module.__name__]=pin(module.__file__)
@@ -341,9 +371,10 @@ def execute(input_path, stage):
     require(sha(input_path.read_bytes())==INPUT_SHA,'input changed while building')
     for p in list(sources.values())+list(tools.values()):
         require(pin(p['path'])['sha256']==p['sha256'],f'build input changed: {p["path"]}')
-    receipt={'format':1,'status':'built, installed, reopened and logically verified; native acceptance pending',
+    status='built, installed, reopened and logically verified; native acceptance pending'
+    receipt={'format':1,'status':DEV_LABEL+'; '+status if dev_tools() else status,'tool_mode':tool_mode(),
              'input':pin(input_path),'output':dict(pin(temp),path=str(OUTPUT/'candidate.nds')),
-             'input_selection':'pinned completed 47-fix RC7 English baseline; compatibility review retained',
+             'input_selection':'pinned main standard build after rc8; work/notes/main_difficulty_compatibility_20261013.md',
              'sources':sources,'tools':tools,'layout':layout,'build':report,'guards':guards,
              'dependency_guards':comp['dependencies'],
              'item_frame_guards':[{'start':a,'end':b,'sha256':h} for a,b,h in ITEM_RANGES],
@@ -355,5 +386,6 @@ def execute(input_path, stage):
     (stage/'receipt.json').write_text(json.dumps(receipt,indent=2)+'\n')
     publish_pair(temp, stage/'receipt.json', OUTPUT)
     return {'candidate':str(OUTPUT/'candidate.nds'),'sha256':receipt['output']['sha256'],
+                      'status':receipt['status'],'tool_mode':receipt['tool_mode'],
                       'resident_bytes':len(payload),'reservation_bytes':LIMIT-BASE,
                       'negative_rejections':negatives['rejections'],'artifacts':str(stage)}

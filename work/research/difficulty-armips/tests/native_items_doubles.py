@@ -7,7 +7,7 @@ import os
 from pathlib import Path
 import sys
 import traceback
-from support import ROOT, OUTPUT, sha256
+from support import ROOT, OUTPUT, sha256, RECEIPT
 from evidence import write_json, utc
 from native_ui import candidate_binding
 from native_battle_helpers import NativeSession, registers, capture_failure
@@ -341,7 +341,7 @@ def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--out',type=Path,required=True)
     p.add_argument('--gate',choices=tuple(GATES),default='item')
     p.add_argument('--slot',type=int,choices=(0,1),default=1)
-    p.add_argument('--receipt',type=Path,default=ROOT/'work/build/difficulty-v2/integration-impl/receipt.json')
+    p.add_argument('--receipt',type=Path,default=RECEIPT)
     a=p.parse_args();out=a.out.resolve()
     if Path.cwd().resolve()!=ROOT or sys.flags.optimize or not out.is_relative_to(OUTPUT):p.error('repo root/owned output/assertions required')
     out.mkdir(parents=True,exist_ok=True);run=dict(name=f'double-{a.gate}-slot{a.slot}',item=GATE_ITEM,fault_item=GATE_ITEM,flags=0,gate=a.gate,fault_slot=a.slot,events=[])

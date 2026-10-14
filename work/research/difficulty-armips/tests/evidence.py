@@ -6,7 +6,7 @@ from pathlib import Path
 import signal
 import subprocess
 import uuid
-from support import ROOT, OUTPUT, sha256
+from support import ROOT, OUTPUT, FOCUS_COUNT, sha256
 
 
 def utc(): return datetime.now(timezone.utc).isoformat()
@@ -203,14 +203,14 @@ def validate_native(manifest, report_paths, binding, expected=None):
             if process.get('status') not in ('passed','failed') or process.get('returncode',-1)<0 or not process.get('finished_utc'):raise ValueError('visual execution did not finalize normally')
             if report.get('old_state_loaded') is not False:raise ValueError('visual evidence used old state')
             artifacts=review.get('artifacts',[])
-            names=[f'focus-{i}.png' for i in range(5)]
+            names=[f'focus-{i}.png' for i in range(FOCUS_COUNT)]
             if report.get('page_navigation'):
                 names += ['page-'+p['name']+'.png' for p in report['page_navigation']['points']]
             if len(artifacts)!=len(names):raise ValueError('review must cover all focus and page-navigation captures')
             for name,a in zip(names,artifacts):
                 target=(path.parent/name).resolve()
                 if Path(a['path']).resolve()!=target or sha256(target)!=a['sha256']:raise ValueError('changed focus capture')
-            if {p.get('focus') for p in report.get('focus_regions',[])}!=set(range(5)):raise ValueError('native focus trace incomplete')
+            if {p.get('focus') for p in report.get('focus_regions',[])}!=set(range(FOCUS_COUNT)):raise ValueError('native focus trace incomplete')
             statuses['ui.visible_glyphs']={'status':'passed','report':str(review_path),'scope':'manually reviewed visual slice only'}
         except (ValueError,KeyError,OSError) as exc:
             statuses['ui.visible_glyphs']={'status':'incomplete','reason':str(exc)}
@@ -223,7 +223,7 @@ def record_focus_review(path,binding,reviewer,attestation):
     """Called only after explicit visual review of current focus and page captures."""
     path=Path(path);report=json.loads(path.read_text())
     if report.get('binding')!=binding:raise ValueError('Cannot attest stale test sources; rerun native captures first')
-    names=[f'focus-{i}.png' for i in range(5)]
+    names=[f'focus-{i}.png' for i in range(FOCUS_COUNT)]
     if report.get('page_navigation'):
         names += ['page-'+p['name']+'.png' for p in report['page_navigation']['points']]
     review={'status':'passed','scope':'visual slice only; native process status unchanged',

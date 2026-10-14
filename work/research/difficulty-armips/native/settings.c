@@ -48,3 +48,9 @@ void dg_options_cancel(struct DG_SettingsTxn *t) {
     t->active = 0; t->owner = 0; t->epoch = 0; t->options_identity = 0;
     t->original_word = 0; t->original_flags = 0; t->draft_flags = 0;
 }
+uint32_t dg_ai_decode(uint32_t on, uint32_t key) {
+    return !on ? DG_AI_OFF : key ? DG_AI_KEY : DG_AI_ALL;
+}
+uint32_t dg_ai_encode(uint32_t v) {
+    return v == DG_AI_KEY ? 3u : v == DG_AI_ALL ? 1u : 0u;
+}

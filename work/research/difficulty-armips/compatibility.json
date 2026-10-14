@@ -7,7 +7,7 @@
       "arm9": {
         "base": "0x2000000",
         "size": 1115808,
-        "sha256": "4b55c2e7b28ee11f69cd0fed3aeff1555ea7463c10edb5386f7043adaa9063dc"
+        "sha256": "90ac2b2efd2c75e3e36f580df732d90668149bd617a0d011ed523316da3fd0ab"
       },
       "overlay50": {
         "base": "0x21e4980",
@@ -16,8 +16,8 @@
       },
       "itcm": {
         "base": "0x1ff8000",
-        "size": 4032,
-        "sha256": "b52c94deb88d138d98cee663f8568e6d4dd7da91ae272610ad802f79c693371e"
+        "size": 4416,
+        "sha256": "e738fb1122abe3db965698723abfed8442946b0d117f79544d77a53755d848d7"
       }
     },
     "cn": {
@@ -40,8 +40,8 @@
   },
   "roms": {
     "en": {
-      "path": "work/build/rc8-harness/baseline69.nds",
-      "sha256": "f23e22632620454698c9a8f96b6e834737327b86fa5e5b9c3247d58f7a4d492d"
+      "path": "work/build/advanced-ai/base/main_standard.nds",
+      "sha256": "96793c3981717374cebb71c361114165a18d91e646f99263bb6522866ded3c3c"
     },
     "cn": {
       "path": "work/rom/origin_v4.0.3_cn.nds",
@@ -442,7 +442,7 @@
       "pass_end": 33524617,
       "call_print": 33525293
     },
-    "unaltered_extent_end": "0x01ff8fc0",
+    "unaltered_extent_end": "0x01ff9140",
     "source_sha256": "11b4a2f343cf8673164b7528f2e2149aa0d1dc103069aa123c03c63dd3c3ec5a",
     "semantic_limitation": "Old reserved TEXT SPEED encodings2/3 become bit2 NORMAL/FAST plus CAP; no migration marker; title high bit becomes ITEMS_ALL; do not claim downgrade equivalence.",
     "allowed_delta_span_bytes": 10,

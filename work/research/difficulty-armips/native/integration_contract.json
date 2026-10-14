@@ -2,9 +2,13 @@
   "format": 1,
   "source_overrides": {
     "work/research/difficulty-armips/native/options.c": {
-      "sha256": "1f732fe8931c4af87890cb1976f5884843751cc40f22ebf9cafb5d3020d95182",
-      "reason": "User request 2026-10-12: DEFAULT preserves untouched Chinese item permissions; ALL expansion unchanged. Menu uses ITEMS IN BATTLE and choice-specific help.",
+      "sha256": "949583a6a3a378aad136afbd51e0c87f281aaa27db606667c29a8b254036d012",
+      "reason": "Advanced AI phase 4 (work/advanced-ai/PLAN.md, decision 4): TRAINER AI row on Options page 2 (OFF/KEY/ALL), stored in event flags 0x2C2/0x2C3 through the hack's GetSaveData/SaveVarsFlags/CheckFlag/SetFlag/ClearFlag, committed with the shared Apply/Cancel transaction. Confirm writes the canonical flag pair (review item 8). See research/options-trainer-ai.md.",
       "history": [
+        {
+          "sha256": "1f732fe8931c4af87890cb1976f5884843751cc40f22ebf9cafb5d3020d95182",
+          "reason": "User request 2026-10-12: DEFAULT preserves untouched Chinese item permissions; ALL expansion unchanged. Menu uses ITEMS IN BATTLE and choice-specific help."
+        },
         {
           "sha256": "3230099f6103b132ed6bc2893f0e6c5d65a9c44fa6bcfbb92bb60c3707e45c1c",
           "reason": "Integration changes only CAP help to explicitly state Candy and Day Care unchanged; native Candy deferred under D-2304. Original pin retained in options-source-pins.json."
@@ -70,12 +74,24 @@
       ]
     },
     "work/research/difficulty-armips/compatibility.json": {
-      "sha256": "842cfa165cb5416c32fa7ff362ffcae8d348e87cdf01346eba982d9ebbb1b499",
-      "reason": "Reviewed RC8 input (work/notes/rc8_difficulty_compatibility_20261013.md): all hook/Options/ITCM and dependency bytes unchanged; whole-file changes attributed to enabled production patches."
+      "sha256": "2fa020c402ff7e7e5a0710d37b7f39f104f1c117798a83a07ef4e22a7b525cd5",
+      "reason": "Reviewed main standard input (work/notes/main_difficulty_compatibility_20261013.md): all 46 hook/edit sites, 18 dependencies and item/revival pins unchanged; arm9 differs only at autoload bookkeeping, the trainer-display trampoline 0x0202703C and the ITCM arena word; ITCM keeps its rc8 bytes and gains the trainer-display payload to 0x01FF9140.",
+      "history": [
+        {
+          "sha256": "842cfa165cb5416c32fa7ff362ffcae8d348e87cdf01346eba982d9ebbb1b499",
+          "reason": "Reviewed RC8 input (work/notes/rc8_difficulty_compatibility_20261013.md): all hook/Options/ITCM and dependency bytes unchanged; whole-file changes attributed to enabled production patches."
+        }
+      ]
     },
     "work/tools/text_speed_patch.py": {
-      "sha256": "833852baf233d4d82fa8be430438a643ce08cf5ca0616ddb209f8f1422e2a1e1",
-      "reason": "Production compatible-fix verifier added; native TEXT SPEED sources and payload unchanged."
+      "sha256": "bdc5a9ee878875765583d2ba9079bac3c380c514f07ac9bd4f13a1028063355b",
+      "reason": "Main after rc8 (425c1ee): verify() takes an optional native_tail so the trainer-display payload may follow TEXT SPEED in ITCM (to 0x01FF9140). TEXT SPEED sources and payload unchanged; difficulty does not call verify(). work/notes/main_difficulty_compatibility_20261013.md.",
+      "history": [
+        {
+          "sha256": "833852baf233d4d82fa8be430438a643ce08cf5ca0616ddb209f8f1422e2a1e1",
+          "reason": "Production compatible-fix verifier added; native TEXT SPEED sources and payload unchanged."
+        }
+      ]
     },
     "work/research/difficulty-armips/native/growth.c": {
       "sha256": "8ad06856d95238d3f19fa5d0fcb5c969241f83d4576ef5bd5d8dde0c60a45889",
@@ -94,6 +110,26 @@
       "sha256": "ad859d842772dbe6961180aaadd999ac5e628992d0137557c7888ba4b5179015",
       "reason": "User request 2026-10-12: DEFAULT preserves untouched Chinese item permissions; ALL expansion unchanged. Menu uses ITEMS IN BATTLE and choice-specific help.",
       "history": []
+    },
+    "work/research/difficulty-armips/native/settings.c": {
+      "sha256": "89814914882fb432d67162da168a505b432f130de5533aaf8cf7af193390bc75",
+      "reason": "Advanced AI phase 4 (work/advanced-ai/PLAN.md, decision 4): TRAINER AI row on Options page 2 (OFF/KEY/ALL), stored in event flags 0x2C2/0x2C3 through the hack's GetSaveData/SaveVarsFlags/CheckFlag/SetFlag/ClearFlag, committed with the shared Apply/Cancel transaction. See research/options-trainer-ai.md.",
+      "history": [
+        {
+          "sha256": "38426b761de8b54b218cb63b7192674997338228ddeed8d808e48839476c74d1",
+          "reason": "Original pin in options-source-pins.json."
+        }
+      ]
+    },
+    "work/research/difficulty-armips/native/settings.h": {
+      "sha256": "b4bbc4b192d7798a446a75ee548675fafb7e8af53fc24b8302139d76d4affbf7",
+      "reason": "Advanced AI phase 4 (work/advanced-ai/PLAN.md, decision 4): TRAINER AI row on Options page 2 (OFF/KEY/ALL), stored in event flags 0x2C2/0x2C3 through the hack's GetSaveData/SaveVarsFlags/CheckFlag/SetFlag/ClearFlag, committed with the shared Apply/Cancel transaction. See research/options-trainer-ai.md.",
+      "history": [
+        {
+          "sha256": "e6875942402a9b792357b6f3ca23db13039a7093c41f98f75f5d693fbbb5aca0",
+          "reason": "Original pin in options-source-pins.json."
+        }
+      ]
     }
   },
   "interactive_contract": {

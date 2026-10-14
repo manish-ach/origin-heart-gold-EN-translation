@@ -5,6 +5,24 @@ Patches apply to **Pokémon HeartGold (USA)**, CRC32 `C180A0E9`.
 
 ## [Unreleased]
 
+### Added
+- **Advanced trainer AI, optional (D-2503, D-2506):** a stronger AI for opposing trainers, switched off by default. A trainer it controls plans each turn with your team in view: it weighs every move, switch and item by working out how the turn would go, avoids moves that cannot work, switches out of bad match-ups, picks its lead Pokémon, and sometimes reads the move you chose that turn. To turn it on, open **OPTIONS**, go to page **2/2 (DIFFICULTY)** and set **TRAINER AI**:
+  - **OFF** (default): every trainer uses the hack's own AI, as before.
+  - **KEY:** important trainers only: Gym Leaders and every trainer in a Gym, the Elite Four, Champions, rivals, Team Rocket's boss and Executives, other story characters, Ace Trainers and Veterans.
+  - **ALL:** every trainer.
+
+  Choose CONFIRM, then save the game to keep the setting. Double battles, multi battles with a partner included, always keep the hack's own AI, and so does any turn the advanced AI cannot handle.
+- **Not tested on real hardware yet.** The advanced AI's tests run in an emulator (DeSmuME). If you play with it on a DS, DSi or 3DS, please report how it goes, whether it works or not.
+
+### Added (tools)
+- `work/advanced-ai/builder/release.py`: installs the advanced AI on difficulty's verified candidate and writes the release xdelta and a receipt that chains every hash, from the standard build to the patch (RELEASING.md, step 3). Covered by `work/advanced-ai/testbench/unit/test_release.py`.
+
+### Release notes
+- The release patch is one xdelta: the standard build, the difficulty settings and the advanced trainer AI. A release that ships the AI passes its static, quick and deep test levels on the release ROM.
+
+### Credits
+Advanced trainer AI: from the Spanish translation by luisvent.
+
 ## [1.0.0-rc8] - 2026-10-13
 
 Release candidate. Adds the Victory Road freeze fix and switches on 22 further fixes that rc7 carried switched off, plus the text fixes below. Hardware and Delta remain untested.

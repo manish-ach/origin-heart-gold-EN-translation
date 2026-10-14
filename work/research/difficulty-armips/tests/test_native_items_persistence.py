@@ -3,7 +3,7 @@ from copy import deepcopy
 import json
 from pathlib import Path
 import unittest
-from support import ROOT, scratch
+from support import scratch, RECEIPT
 from test_native_items import sample, medicine_sample
 from native_items_cases import GATE_ITEM
 from native_items_persistence import validate, fixture
@@ -59,7 +59,7 @@ class PersistenceTests(unittest.TestCase):
             with self.subTest(mutation=mutation),self.assertRaises(AssertionError):validate(r)
 
     def test_initial_fixture_uses_strict_typed_hp1_enemy_and_dragon_rage_actor(self):
-        receipt=json.loads((ROOT/'work/build/difficulty-v2/integration-impl/receipt.json').read_text())
+        receipt=json.loads(RECEIPT.read_text())
         import save_core
         with scratch('persistence-fixture-') as tmp:
             f,enemy=fixture(receipt,Path(tmp))

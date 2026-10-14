@@ -2,7 +2,7 @@
 import copy,json,unittest
 from pathlib import Path
 from unittest.mock import patch
-from support import ROOT,scratch
+from support import scratch,RECEIPT
 from native_edges_oracles import validate,validate_boundary
 
 
@@ -40,7 +40,7 @@ class EdgeTests(unittest.TestCase):
     def test_real_candidate_other_curve_and_level100_typed_fixtures(self):
         from native_battle_fixture import prepare_fixture_templates
         from emu_harness import decode_pokemon,encode_pokemon
-        receipt=json.loads((ROOT/'work/build/difficulty-v2/integration-impl/receipt.json').read_text())
+        receipt=json.loads(RECEIPT.read_text())
         with scratch('growth-edges-') as tmp:
             a=Path(tmp)/'rattata';b=Path(tmp)/'bulbasaur'
             first=prepare_fixture_templates(receipt,a,levels=(100,),species=20)

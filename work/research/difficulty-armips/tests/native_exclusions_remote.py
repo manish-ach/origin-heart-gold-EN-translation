@@ -7,12 +7,12 @@ import sys
 import shutil
 import json
 from pathlib import Path
-from support import ROOT,OUTPUT
+from support import ROOT,OUTPUT,RECEIPT
 import argparse,hashlib
 p=argparse.ArgumentParser(description=__doc__)
 p.add_argument('--flags',type=int,choices=(0,1),required=True)
 p.add_argument('--out',type=Path,required=True)
-p.add_argument('--receipt',type=Path,default=ROOT/'work/build/difficulty-v2/integration-impl/receipt.json')
+p.add_argument('--receipt',type=Path,default=RECEIPT)
 args=p.parse_args()
 if Path.cwd().resolve()!=ROOT or sys.flags.optimize:p.error('Run at repository root with assertions enabled')
 if not args.out.resolve().is_relative_to(OUTPUT):p.error('Output outside owned tests directory')

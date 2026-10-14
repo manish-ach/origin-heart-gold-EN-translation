@@ -32,7 +32,7 @@ settings writes. Each phase has its own terminal result/process/log files under
 not lost behind a UI failure. Reload requires a current, nonce-bound native Save
 checkpoint and byte-identical exported battery; stale checkpoints fail closed.
 
-Current prepared UI coverage includes the five original input cases, five focus
+Current prepared UI coverage includes the five original input cases, six focus
 captures, every ordinary row Apply/Cancel, 32 difficulty/title/TEXT SPEED input
 combinations, native Save/export/Origin CRC-mirror inspection, and a real
 L/R/START/SELECT reset with nonzero-before/zero-after BSS and saved-word reload.
@@ -140,15 +140,16 @@ after Options exit, with r0=6 rather than a state pointer. The probe now compare
 actual loaded instruction bytes against the installed overlay50, retaining
 address-reuse diagnostics separately. Genuine custom preview calls still fail.
 
-After the assistant or human reviewer has inspected all five fresh `focus-0.png` … `focus-4.png` captures,
+After the assistant or human reviewer has inspected all six fresh `focus-0.png` … `focus-5.png` captures
+(four rows including TRAINER AI, then CANCEL and APPLY; `support.FOCUS_COUNT`),
 record that specific review without launching native code. Identify the actual
 reviewer with `--reviewer`; the parent assistant performed the latest review:
 
 ```sh
-.venv/bin/python work/research/difficulty-armips/tests/run.py --record-focus-review "Reviewed all five: readable glyphs/help, no overlap or stationary outline, correct row dash and both footer focus colors."
+.venv/bin/python work/research/difficulty-armips/tests/run.py --record-focus-review "Reviewed all six: readable glyphs/help, no overlap or stationary outline, correct row dash and both footer focus colors."
 ```
 
-This records candidate/source binding, invocation nonce and all five image hashes.
+This records candidate/source binding, invocation nonce and all six image hashes.
 The gate may accept this visual slice despite a later independent assertion
 failure, but never promotes any other case from that failed run. Running,
 interrupted, stale-source or changed-image evidence is rejected. New native

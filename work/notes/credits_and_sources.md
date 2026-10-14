@@ -5,6 +5,7 @@
 - **起源心金 (Origin HeartGold)**: original hack by 雁南飞TB (Bilibili space 1461403176). v3 "complete edition" shipped in three protagonist skins (Anime / Origins / Special).
 - **v4.0.x**: developed by Alex (not 雁南飞TB), built on hg-engine. Profile with release history: https://youhua.baidu.com/home/main?lp=home_follow_main&un=chendelpiero
 - **Chinese patches (v3 Anime/Origins/Special, v4.0.3) and docs**: packaged by u/riap0526.
+- **Advanced trainer AI**: from the Spanish translation by luisvent. The AI core of the Spanish translation's release rc44 (Spanish workspace commit `dc8577c`), reused with the author's permission; every file taken and its hash are in `work/advanced-ai/PROVENANCE.md`. Credit line (D-2510): "Advanced trainer AI: from the Spanish translation by luisvent."
 - **Partial v3 English (Origins/Red skin)**: u/Shake69, made with DS Pokémon ROM Editor (DSPRE) around early 2025. By their account it fully translates moves, items, menus and the Pokédex, and the story up to about Cerulean. Used here as translation memory.
 - **Base ROM for all patches**: Pokémon HeartGold (USA) `IPKE`, CRC32 C180A0E9, MD5 258cea3a62ac0d6eb04b5a0fd764d788. Verified: v4.0.3 Cn and v3 Eng apply cleanly. The patched hack ROM itself identifies as `IPKJ` and keeps the Japanese code layout (120 overlays, against 129 in the USA ROM); see `hardcoded_text.md`.
 - Source thread: r/PokemonROMhacks, "The best Pokémon DS ROM hack is Chinese (and almost nobody knows about it)", 2026-09-28 (saved copy at `reddit-thread-1wsbpj6.md` in the repo root, local only: `.gitignore` keeps it out of git).
@@ -18,7 +19,7 @@
 
 ## Release notes to remember
 - Ship an xdelta patch against the USA ROM only; never a full ROM (subreddit rule 1).
-- Credit 雁南飞TB, Alex, u/Shake69 (TM source) and u/riap0526. u/Shake69 granted permission to reuse their v3 English work (confirmed by the user, 2026-09-28). The project distributes only xdelta patches, never the hack or a ROM.
+- Credit 雁南飞TB, Alex, u/Shake69 (TM source), u/riap0526 and, for the advanced trainer AI, luisvent (its credit line is above). u/Shake69 granted permission to reuse their v3 English work (confirmed by the user, 2026-09-28). The project distributes only xdelta patches, never the hack or a ROM.
 
 ## Contacting the creators
 

@@ -34,6 +34,7 @@ These are settled. Don't reopen them without asking the user. Each one is record
 - `work/translate/STYLE.md`: the style rules. Follow them.
 - `work/translate/decisions/DIGEST.md`: every decided name, rule and character voice. Reuse names exactly. It isn't committed: generate it first with `python3 work/tools/decisions.py render-progress --out work/translate/decisions/DIGEST.md`. Look up a term with `python3 work/tools/decisions.py list --search <zh or en>`.
 - `work/translate/PROGRESS.md` → Done: which batches are finished.
+- `work/advanced-ai/README.md`: the optional advanced trainer AI (sources, builder, tests, rules, touch points). Read it before changing the AI or a file it lists.
 - `work/notes/text_metrics.md` (box sizes, break codes), plus `python3 work/tools/qa.py --help` and `python3 work/tools/ws.py --help`.
 - `work/notes/decisions_workflow.md`: how to record decisions.
 - Glossary: `work/glossary/*.json`.

@@ -1,0 +1,28 @@
+# A dual binary: sim with a second advanced-AI build as policy advb (sim cf --p0 advb), for head-to-head games of two
+# AI versions.   make -f Makefile.dual ROM=<rom> AI_B=<dir with advai.c, replace.c, lead.c, engine.h, tune.h, ids.h>
+#                [AI_DEFS_B=-D...]   -> B_dual/sim (B as in Makefile)
+include Makefile
+AI_B ?= $(AI)
+AI_DEFS_B ?= $(AI_DEFS)
+BD := $(B)_dual
+RENAME := adv_entry ai_debug ai_memcpy ai_memset ai_replace g_tune host_ai_reset host_counted host_counted_names \
+          host_debug host_formula_ai host_ncounted sim_ai_new_phase ai_serves host_fn policy_advanced sim_ai_call \
+          sim_ai_counts sim_ai_ov11 sim_ai_globals_size sim_ai_globals_save sim_ai_globals_load sim_ai_state_size \
+          sim_ai_state_save sim_ai_state_load ai_lead_pick ai_lead fs fs_level rd_t rd_pct \
+          sim_ai_tune_n sim_ai_tune_get sim_ai_tune_set sim_ai_read_s
+DEFS_B := $(foreach n,$(RENAME),-D$(n)=$(n)_b) -DBRIDGE_B $(AI_DEFS_B)
+
+$(BD)/ai_b.o: ai_sim.c $(HOSTAI)/ai_unit.c $(AI_B)/advai.c $(AI_B)/replace.c $(wildcard $(AI_B)/lead.c) $(AI_B)/engine.h \
+              $(AI_B)/tune.h $(AI_B)/ids.h
+	@mkdir -p $(BD)
+	$(CC) $(BASE_CFLAGS) $(DEFS_B) -include $(HOSTAI)/host_engine.h -I $(AI_B) -I $(HOSTAI) -c ai_sim.c -o $@
+
+$(BD)/bridge_b.o: bridge.c sim.h policy.h $(HOSTAI)/host_engine.h $(AI_B)/engine.h
+	@mkdir -p $(BD)
+	$(CC) $(BASE_CFLAGS) $(DEFS_B) -I $(AI_B) -c bridge.c -o $@
+
+$(BD)/sim: $(SIM:%=$(B)/%.o) $(B)/bridge.o $(B)/ai.o $(B)/simdata.o $(BD)/ai_b.o $(BD)/bridge_b.o
+	$(CC) $^ -o $@
+
+dual: $(BD)/sim
+.DEFAULT_GOAL := dual

@@ -11,7 +11,7 @@ from pathlib import Path
 import shutil
 import sys
 import traceback
-from support import ROOT, OUTPUT, sha256
+from support import ROOT, OUTPUT, sha256, RECEIPT
 from evidence import write_json, utc
 from native_ui import candidate_binding
 from native_battle_helpers import NativeSession, registers, party_summary, prepare_templates, install_fixture, capture_failure, prepare_opponent, native_free_callsite, TrainerLaunch, TRAINER_SINGLES, TRAINER_DOUBLES
@@ -274,7 +274,7 @@ def play_battle(session, trace, run, launcher=None):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--receipt', type=Path, default=ROOT/'work/build/difficulty-v2/integration-impl/receipt.json')
+    p.add_argument('--receipt', type=Path, default=RECEIPT)
     p.add_argument('--out', type=Path, default=OUTPUT/'native-tests/battle')
     p.add_argument('--scope', choices=('pair', 'matrix', 'holder'), default='pair')
     p.add_argument('--kind', choices=('wild', 'trainer', 'double'), default='wild',

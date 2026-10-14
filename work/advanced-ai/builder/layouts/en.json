@@ -1,0 +1,30 @@
+{
+ "name": "en",
+ "description": "The English layout, option A (docs/build-contract.md): the resident code in a new ITCM autoload section at a fixed 0x01FF9500, past the largest ITCM block any locale can have (text speed, then the trainer full-name block, which ends at 0x01FF9320 at most) with 0x1E0 to spare, its work RAM at the top of ITCM as in the Spanish build, the rest in a new main-RAM autoload section below difficulty's. The ITCM section's bss runs through the work RAM, so every boot zeroes it. Steering is compiled out (AI_NO_STEER).",
+ "regions": {
+  "slot": {"origin": "0x021F6E20", "limit": "0x022007E0"},
+  "itcm": {"origin": "0x01FF9500", "limit": "0x01FFEE00", "zero_work_ram": true},
+  "itcm_ram": {"origin": "0x01FFEE00", "limit": "0x01FFFF8C"},
+  "main": {"origin": "0x023D4000", "limit": "0x023DC000"}
+ },
+ "overlay10": {"ram": "0x021E4DA0", "copied": 11, "copied_size": "0x12060", "copied_bss": "0x20",
+               "static_init": ["0x021F6DE8", "0x021F6DEC"]},
+ "asm": [
+  {"src": "aiselect.s"},
+  {"src": "check_flag.s"}
+ ],
+ "cflags": ["-DAI_NO_STEER"],
+ "hooks": [
+  {"file": "overlay14", "address": "0x02223D10", "before": "f1f700fe", "target": "ai_slot_select", "kind": "bl"},
+  {"file": "overlay14", "address": "0x02203736", "before": "e1f733fb", "target": "ai_entry", "kind": "bl"},
+  {"file": "overlay14", "address": "0x02203C06", "before": "fff7b5fe", "target": "ai_replace", "kind": "bl"},
+  {"file": "overlay14", "address": "0x022029CC", "before": "12f0baff", "target": "ai_bag_check", "kind": "bl"},
+  {"file": "overlay14", "address": "0x022153C2", "before": "0ef03dfb", "target": "ai_lead", "kind": "bl"}
+ ],
+ "words": [
+  {"file": "arm9", "address": "0x020D1A28", "before": "itcm_end", "before_max": "0x01FF9500", "after": "00000002",
+   "purpose": "ITCM arena start, which the input sets to the end of its ITCM block (0x01FF8FC0 after text speed, more with trainer full names; never past the AI's itcm origin): the AI's itcm region and work RAM take the rest of ITCM"},
+  {"file": "arm9", "address": "0x020D1970", "before": "00c03d02", "after": "00403d02",
+   "purpose": "main arena high (difficulty set it to 0x023DC000): the AI's main region 0x023D4000-0x023DC000 below it"}
+ ]
+}

@@ -4,8 +4,8 @@
     python3 work/tools/check.py [--fast]       registry + asm lint, FIXES.md current, ruff, the synthetic assembly
                                                (when armips is found), unit tests (armips hidden); no ROM
     python3 work/tools/check.py --full         also: asmpatch.py check, the disassembly snapshots, the USA
-                                               claims, the unit tests with armips (GOLDEN), a full build
-                                               compared with work/patches/expected.toml
+                                               claims, the unit tests with armips (GOLDEN), the advanced AI's
+                                               static tier, a full build compared with work/patches/expected.toml
     python3 work/tools/check.py --staged       the fast check on the staged files (the pre-commit hook)
     python3 work/tools/check.py --staged --registry-only
                                                only the registry step (the hook, for decision-register commits)
@@ -19,9 +19,10 @@
                                                record the full build's hashes in work/patches/expected.toml
     python3 work/tools/check.py --full --emu   also: the emulator layer on the build (emu_harness.py layer): fix
                                                scenarios, behaviour scenarios, text fit, freeze reproducers; one
-                                               report (about 35-40 min; --emu-only fixes,scenarios,textfit,freeze)
+                                               report (about 35-40 min); then the advanced AI's quick tier on the
+                                               AI build (--emu-only fixes,scenarios,textfit,freeze,ai)
 
-Fast (the default, also the pre-commit hook and CI; about 6 s) needs no ROM, and armips only for asm-synth:
+Fast (the default, also the pre-commit hook and CI; about 10 s) needs no ROM, and armips only for asm-synth:
   registry   fixes.py check: fix.toml schema, regions, overlaps, `.open` lines, `.string` = en, and the asm
              lint (header, .area around every write, a guard before every area's first write, every area
              inside fix.toml's regions or appended under expect_end with a [[grow]], line length);
@@ -32,6 +33,11 @@ Fast (the default, also the pre-commit hook and CI; about 6 s) needs no ROM, and
              of the binaries (work/patches/sizes.toml), guards off: syntax, .area overflows, regions, growth,
              strings; not the bytes. Needs armips v0.11.0 (--armips, $ARMIPS, PATH): skipped with a note when
              it is not found, a failure when --armips names one that is not there (CI passes --armips);
+  ai-payload the advanced AI's committed payload (work/advanced-ai/payload/payload.json) pins every source it was
+             built from and every .bin by SHA-256: each must equal the tree, so a source edited without
+             rebuilding the payload fails here, without the toolchain (--full rebuilds it: ai-unit);
+  ai-unit    the advanced AI's unit tests that need no ROM and no toolchain (AI_UNIT_NO_ROM: the installer's and
+             verifier's synthetic ROMs, the toolchain pin, ids.h, the trainer-mark lists; about 4 s);
   tests      every work/tools/test_*.py, with armips hidden (the armips tests skip; tests that read the
              Chinese ROM run when it is there and skip when it is not). Requires Node.js 22+ and the
              sealed save-core build: npm --prefix work/save-editor run build (never built/downloaded here).
@@ -43,6 +49,13 @@ Full adds (and fails when armips v0.11.0, the two ROMs or xdelta3 are missing; a
   us-refs    every [[us_ref]] claim checked against the USA ROM (usref.py);
   tests      the unit tests again with armips: the per-binary GOLDEN SHA-1s of test_asmpatch.py, which do not
              depend on the translation text;
+  ai-unit    every advanced-AI unit test (instead of the fast subset): also the builder's two builds against the
+             committed payload (arm-none-eabi-gcc 16.2.0), the real-ROM installs and refusals (the rc8 release,
+             the Chinese ROM), the Spanish comparisons (ADVAI_ES_REPO). Each skips without its input; the step
+             lists every skip reason. About 22 s;
+  ai-static  the rest of the advanced AI's static tier, work/advanced-ai/testbench/run.py static (its unit step is
+             ai-unit), on the AI build (below): the bench's claims against the ROM data, the test bench's
+             self-tests, the host-AI and simulator replays of the bench record, aitune's tests. About 15 s;
   build      build.py into --work-dir (default work/build/check), then its hashes against
              work/patches/expected.toml (see EXPECTED_HELP below): nontext_sha1 must match; the text, ROM and
              xdelta hashes are reported, and fail the step only with --strict-release. prereq warns about an
@@ -75,6 +88,17 @@ Full adds (and fails when armips v0.11.0, the two ROMs or xdelta3 are missing; a
              in <work-dir>-emu/report/<stamp>/. The step fails on any failure; pending approvals are listed and
              do not fail it. --emu-only PARTS runs some parts (with the build), for speed while iterating.
              Not part of --full by default.
+  emu-ai     the part `ai`: the advanced AI's quick tier, testbench/run.py quick --workers <--emu-jobs>, on the AI
+             build (below): the 365 graded bench scenarios, the behaviour checks and a short property-test run,
+             judged against testbench/references/. It runs after the emulator layer, never beside it, so at most
+             --emu-jobs emulators run at once. Needs the test bench's saves (testbench/lib/saves.py check).
+
+The AI build (ai-static, emu-ai) is --ai-rom (checked by builder/verify.py), else the committed payload installed by
+builder/install.py on the rc8 release, work/build/advanced-ai/base/rc8_release.nds, into <work-dir>-ai/check_ai.nds
+(about 2 s, every run). It is not this run's build: the installer needs an English build with difficulty, and build.py
+makes none. Without the rc8 release (or --ai-rom), or without the test bench's saves, those steps are a SKIP, never a
+failure, --strict-release included: the standard build holds no AI. The release installs it after difficulty
+(builder/release.py) and runs the three tiers on that ROM (RELEASING.md, step 3; work/advanced-ai/docs/checks.md).
 
 Exit status 0 only when no step failed. Each step prints PASS / FAIL / SKIP with its time.
 """
@@ -108,6 +132,17 @@ REPRO_ENVS = ({"TZ": "UTC", "LC_ALL": "C", "LANG": "C", "PYTHONHASHSEED": "0"},
 REPORT_PATH_KEYS = (("base", "path"), ("rom", "path"), ("patch", "path"))
 NO_ARMIPS = "/nonexistent/armips-hidden-by-check.py"     # $ARMIPS for the fast tests: armips is not found
 TEXT_NARCS = ("a/0/2/7", "battle/string/battle_string.narc")
+AI = WORK / "advanced-ai"                                   # the optional advanced trainer AI (its README.md)
+AI_PAYLOAD = AI / "payload" / "payload.json"
+AI_TESTBENCH = AI / "testbench"
+AI_UNIT = AI_TESTBENCH / "unit"
+AI_BASE = WORK / "build" / "advanced-ai" / "base" / "rc8_release.nds"   # docs/build-contract.md, "Inputs"
+# The unit test classes that need no ROM and no toolchain (testbench/unit/README.md, "Needs"), as unittest -k patterns:
+# the fast check runs only these (about 4 s), --full every unit test. test_check.py checks that each names a class.
+AI_UNIT_NO_ROM = ("test_build.ToolchainPin.", "test_install.Synthetic.", "test_install.ThumbBl.",
+                  "test_verify.Synthetic.", "test_ids.IdsHeader.", "test_marks.Lists.",
+                  "test_release.Release.")
+UNITTEST_SKIP = re.compile(r" \.\.\. skipped '(.*)'$")      # a skipped test's line in unittest -v output
 EXPECTED_HELP = """\
 work/patches/expected.toml records four SHA-1s of the default full build (`build.py`, every enabled fix):
   nontext_sha1  every part of the ROM except the two message NARCs (arm9, arm7, overlay tables, banner and
@@ -558,23 +593,28 @@ def locale_note(env) -> str:
 
 
 EMU_SAVES = ("full_bag_6mons.sav", "route1_path_2mons.sav", "market.sav")   # what the emulator parts import
-EMU_PARTS = ("fixes", "scenarios", "textfit", "freeze")
+LAYER_PARTS = ("fixes", "scenarios", "textfit", "freeze")      # emu_harness.py layer's parts (the emu step)
+EMU_PARTS = LAYER_PARTS + ("ai",)                               # ai: the advanced AI's quick tier (the emu-ai step)
 
 
 def emu_dir_of(work_dir) -> Path:
     return Path(work_dir).with_name(Path(work_dir).name + "-emu")
 
 
-def step_emu(armips, first: dict, work_dir, saves, jobs=3, only=None, since=None, freeze_saves=None) -> str:
-    """The emulator layer (emu_harness.py layer, emu_layer.py) on the full build's ROM: fix scenarios, behaviour
-    scenarios, text fit, freeze reproducers; one report in <work-dir>-emu/report/<stamp>/. Fix control ROMs in
-    <work-dir>-emu/controls are reused only when their build report and message text match this build (emu_fixes
-    control_problems); otherwise rebuilt there."""
-    if "report" not in first:
-        raise Skip("no build to test (the build step failed)", fail=True)
+def require_emulator():
     probe = subprocess.run([sys.executable, "-c", "import desmume.emulator, PIL"], capture_output=True, text=True)
     if probe.returncode:
         raise Skip(f"--emu needs py-desmume and pillow in {sys.executable} (the emulator harness's venv)", fail=True)
+
+
+def step_emu(armips, first: dict, work_dir, saves, jobs=3, only=None, since=None, freeze_saves=None) -> str:
+    """The emulator layer (emu_harness.py layer, emu_layer.py) on the full build's ROM: fix scenarios, behaviour
+    scenarios, text fit, freeze reproducers (`only`: some of LAYER_PARTS); one report in <work-dir>-emu/report/<stamp>/.
+    Fix control ROMs in <work-dir>-emu/controls are reused only when their build report and message text match this
+    build (emu_fixes control_problems); otherwise rebuilt there."""
+    if "report" not in first:
+        raise Skip("no build to test (the build step failed)", fail=True)
+    require_emulator()
     missing = [n for n in EMU_SAVES if not (Path(saves) / n).is_file()]
     if missing:
         raise Skip(f"--emu needs the battery saves {', '.join(missing)} in {saves} (--emu-saves)", fail=True)
@@ -584,7 +624,7 @@ def step_emu(armips, first: dict, work_dir, saves, jobs=3, only=None, since=None
     cmd = [sys.executable, str(TOOLS / "emu_harness.py"), "layer", "--rom", first["report"]["rom"]["path"],
            "--rom-report", str(Path(work_dir) / "build_report.json"), "--controls", str(emu_dir / "controls"),
            "--armips", armips, "--sav-dir", str(saves), "--jobs", str(jobs), "--out-root", str(emu_dir),
-           "--stamp", stamp, "--parts", ",".join(only or EMU_PARTS)]
+           "--stamp", stamp, "--parts", ",".join(only or LAYER_PARTS)]
     if since:
         cmd += ["--since", since]
     if freeze_saves:
@@ -679,6 +719,157 @@ def step_repro(armips, first: dict, work_dir, env=None) -> str:
 
 
 # --------------------------------------------------------------------------------------
+# the advanced trainer AI (work/advanced-ai; work/advanced-ai/docs/checks.md)
+# --------------------------------------------------------------------------------------
+
+def file_sha256(path):
+    try:
+        return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+    except FileNotFoundError:
+        return None
+
+
+def step_ai_payload():
+    """payload.json's SHA-256 pins: the sources (relative to work/advanced-ai) and the .bin files next to it."""
+    pins = json.loads(AI_PAYLOAD.read_text(encoding="utf-8"))
+    pinned = [(n, AI / n, h) for n, h in sorted(pins["sources"].items())]
+    pinned += [(f"payload/{n}", AI_PAYLOAD.parent / n, h) for n, h in sorted(pins["files"].items())]
+    stale = []
+    for name, path, want in pinned:
+        got = file_sha256(path)
+        if got != want:
+            stale.append(f"{name} ({'missing' if got is None else 'changed'})")
+    if stale:
+        raise Failed(f"{AI_PAYLOAD.relative_to(REPO)} was not built from this tree: {', '.join(stale)}. Rebuild it "
+                     f"(arm-none-eabi-gcc 16.2.0): .venv/bin/python work/advanced-ai/builder/build.py --layout en "
+                     f"--out work/advanced-ai/payload, then review the diff and run the AI's checks "
+                     f"(work/advanced-ai/docs/checks.md)")
+    return f"{len(pins['sources'])} sources and {len(pins['files'])} files as payload.json pins them"
+
+
+def step_ai_unit(full):
+    """The advanced AI's unit tests: fast, the AI_UNIT_NO_ROM classes; --full, all of them. Every distinct skip reason
+    (a missing ROM, the toolchain, ADVAI_ES_REPO) is listed with its count."""
+    cmd = [sys.executable, "-m", "unittest", "discover", "-v", "-s", str(AI_UNIT), "-p", "test_*.py"]
+    if not full:
+        cmd += [arg for pattern in AI_UNIT_NO_ROM for arg in ("-k", pattern)]
+    r = subprocess.run(cmd, cwd=REPO, env=dict(os.environ, PYTHONDONTWRITEBYTECODE="1"), capture_output=True,
+                       text=True)
+    lines = r.stderr.splitlines()
+    ran = next((ln for ln in reversed(lines) if ln.startswith("Ran ")), "")
+    result = next((ln for ln in reversed(lines) if ln.startswith(("OK", "FAILED", "NO TESTS RAN"))), "")
+    where = AI_UNIT.relative_to(REPO)
+    if r.returncode or not result.startswith("OK"):
+        fails = [ln for ln in lines if ln.startswith(("FAIL:", "ERROR:"))]
+        raise Failed(f"{where}:\n" + "\n".join(fails[:40] + [ran, result] if fails else [r.stderr.strip()[-4000:]]))
+    skipped = {}
+    for ln in lines:
+        mo = UNITTEST_SKIP.search(ln)
+        if mo:
+            skipped[mo.group(1)] = skipped.get(mo.group(1), 0) + 1
+    head = f"{where}: {ran.split(' in ')[0][4:]}, {result}" + ("" if full else "; no ROM (--full: every test)")
+    return "\n".join([head] + [f"skipped ({n}): {why}" for why, n in skipped.items()])
+
+
+class AiBuild:
+    """The ROM the AI's static and quick tiers run on, made once per run (ai-static and emu-ai share it): --ai-rom,
+    checked by builder/verify.py, else the committed payload installed by builder/install.py on the rc8 release into
+    <work-dir>-ai/check_ai.nds. Reinstalled every run (about 2 s; the installer writes the same bytes)."""
+
+    def __init__(self, given, out_dir):
+        self.given, self.out_dir = given, Path(out_dir)
+        self._made = None                       # (rom, what it is), or the Skip / Failed it raised
+
+    def get(self):
+        """(rom path, a description of it); raises Skip when there is no input, Failed when it cannot be made."""
+        if self._made is None:
+            try:
+                self._made = self._make()
+            except (Skip, Failed) as ex:
+                self._made = ex
+        if isinstance(self._made, Exception):
+            raise self._made
+        return self._made
+
+    def _make(self):
+        if self.given:
+            rom = Path(self.given).resolve()
+            if not rom.is_file():
+                raise Failed(f"--ai-rom {self.given}: no such file")
+            r = subprocess.run([sys.executable, str(AI / "builder" / "verify.py"), str(rom)], cwd=REPO,
+                               capture_output=True, text=True)
+            if r.returncode:
+                raise Failed(f"--ai-rom {self.given} is not the committed payload installed (builder/verify.py):\n"
+                             + (r.stdout + r.stderr).strip()[-3000:])
+            return rom, f"--ai-rom {rom.name}"
+        if not AI_BASE.is_file():
+            raise Skip(f"no AI build: the AI installs only on an English build with difficulty, and this run's build "
+                       f"has none. Put the rc8 release at {os.path.relpath(AI_BASE, REPO)} (docs/build-contract.md, "
+                       f"'Inputs') or give --ai-rom. The release runs the AI's tiers on its own ROM (RELEASING.md, "
+                       f"step 3), so this is not a failure (work/advanced-ai/docs/checks.md)")
+        self.out_dir.mkdir(parents=True, exist_ok=True)
+        rom = self.out_dir / "check_ai.nds"
+        r = subprocess.run([sys.executable, str(AI / "builder" / "install.py"), "--input", str(AI_BASE),
+                            "--out", str(rom)], cwd=REPO, capture_output=True, text=True)
+        if r.returncode:
+            raise Failed(f"builder/install.py on {AI_BASE.name} failed:\n" + (r.stdout + r.stderr).strip()[-3000:])
+        return rom, f"the payload installed on {AI_BASE.name}"
+
+
+def run_tier(tier, ai, log_dir, extra=()) -> str:
+    """testbench/run.py <tier> on the AI build, its lines shown as they come and kept in <log_dir>/<tier>-<stamp>.log;
+    its summary (the counts line, the step rows, the log path), raised as Failed when the tier failed."""
+    rom, what = ai.get()
+    cmd = [sys.executable, str(AI_TESTBENCH / "run.py"), tier, "--rom", str(rom), "--payload", str(AI_PAYLOAD),
+           *extra]
+    lines = []
+    with subprocess.Popen(cmd, cwd=REPO, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True) as proc:
+        for ln in proc.stdout:
+            lines.append(ln)
+            print("     " + ln.rstrip(), flush=True)
+    Path(log_dir).mkdir(parents=True, exist_ok=True)
+    log = Path(log_dir) / f"{tier}-{time.strftime('%Y%m%d-%H%M%S')}.log"
+    log.write_text("".join(lines), encoding="utf-8")
+    start = max((i for i, ln in enumerate(lines) if ln.startswith(f"{tier} tier: ")), default=None)
+    if start is None:
+        raise Failed("\n".join([f"run.py {tier} (exit {proc.returncode}) printed no summary:"]
+                               + [ln.rstrip() for ln in lines[-15:]] + [f"log {log}"]))
+    rows = [ln.rstrip() for ln in lines[start + 1:] if ln.strip()]
+    head = f"{rows[-1]} on {rom.name} ({what})"
+    if proc.returncode:                           # the step rows again: the streamed lines have scrolled away
+        raise Failed("\n".join([head] + rows[:-1] + [f"log {log}"]))
+    return f"{head}\nlog {log}"
+
+
+def static_steps(rom) -> list:
+    """The static tier's step names (run.py static --list), its unit step left out: ai-unit runs the unit tests."""
+    r = subprocess.run([sys.executable, str(AI_TESTBENCH / "run.py"), "static", "--rom", str(rom), "--payload",
+                        str(AI_PAYLOAD), "--list"], cwd=REPO, capture_output=True, text=True)
+    if r.returncode:
+        raise Failed("run.py static --list failed:\n" + (r.stdout + r.stderr).strip()[-3000:])
+    return [ln.split()[0] for ln in r.stdout.splitlines() if ln.strip() and ln.split()[0] != "unit"]
+
+
+def step_ai_static(ai, log_dir) -> str:
+    rom, _ = ai.get()
+    return run_tier("static", ai, log_dir, ["--only", ",".join(static_steps(rom))])
+
+
+def step_emu_ai(ai, jobs, log_dir) -> str:
+    """The `ai` part of --emu: run.py quick with --emu-jobs workers (each holds one slot of the machine-wide
+    emulator pool, testbench/lib/emupool.py)."""
+    require_emulator()
+    ai.get()
+    r = subprocess.run([sys.executable, str(AI_TESTBENCH / "lib" / "saves.py"), "check"], cwd=REPO,
+                       capture_output=True, text=True)
+    if r.returncode:
+        raise Skip("the test bench's saves are not all in place (testbench/lib/saves.py check):\n" + r.stdout.strip()
+                   + "\nmake them: ADVAI_ES_REPO=<the Spanish workspace repository> .venv/bin/python "
+                     "work/advanced-ai/testbench/lib/saves.py make")
+    return run_tier("quick", ai, log_dir, ["--workers", str(jobs)])
+
+
+# --------------------------------------------------------------------------------------
 # runner
 # --------------------------------------------------------------------------------------
 
@@ -757,7 +948,8 @@ def main(argv=None) -> int:
                          "(another folder, names, cwd and environment); both builds must be byte-identical")
     ap.add_argument("--emu", action="store_true",
                     help="with --full: the emulator layer on the build (emu_harness.py layer: fix scenarios, "
-                         "behaviour scenarios, text fit, freeze reproducers; one report; needs py-desmume)")
+                         "behaviour scenarios, text fit, freeze reproducers; one report; needs py-desmume), then "
+                         "the advanced AI's quick tier on the AI build (the part ai)")
     ap.add_argument("--emu-only", help=f"with --emu: comma list of parts to run ({', '.join(EMU_PARTS)}; default all)")
     ap.add_argument("--emu-since", help="with --emu: text fit of the strings changed since this git ref (default: the "
                                         "latest tag, git describe --tags --abbrev=0, else v1.0.0-rc5)")
@@ -768,16 +960,20 @@ def main(argv=None) -> int:
                          "as emu_harness.py fixes --sav-dir)")
     ap.add_argument("--emu-jobs", type=int, default=3, help="emulators alive at once for --emu, all parts together "
                                                             "(at most 3)")
+    ap.add_argument("--ai-rom", help="with --full: the AI build the advanced AI's static and quick tiers run on (an "
+                                     "English build with difficulty and the committed payload installed; default: "
+                                     "the payload installed on work/build/advanced-ai/base/rc8_release.nds into "
+                                     "<work-dir>-ai/)")
     a = ap.parse_args(argv)
     if a.emu_only or a.emu_since or a.emu_freeze_saves:
         a.emu = True
-    if (a.update_expected or a.strict_release or a.repro or a.emu) and not a.full:
-        ap.error("--update-expected, --strict-release, --repro and --emu need --full")
-    emu_only = None
+    if (a.update_expected or a.strict_release or a.repro or a.emu or a.ai_rom) and not a.full:
+        ap.error("--update-expected, --strict-release, --repro, --emu and --ai-rom need --full")
+    emu_parts = EMU_PARTS
     if a.emu_only:
-        emu_only = [p.strip() for p in a.emu_only.split(",") if p.strip()]
-        bad = [p for p in emu_only if p not in EMU_PARTS]
-        if bad or not emu_only:
+        emu_parts = [p.strip() for p in a.emu_only.split(",") if p.strip()]
+        bad = [p for p in emu_parts if p not in EMU_PARTS]
+        if bad or not emu_parts:
             ap.error(f"--emu-only: unknown part(s) {', '.join(bad) or '(none)'}; parts: {', '.join(EMU_PARTS)}")
     repro = a.repro or a.strict_release
     # build.py runs with cwd=REPO (the repro build elsewhere): a relative --work-dir is relative to the repo root
@@ -789,7 +985,8 @@ def main(argv=None) -> int:
     if a.registry_only:
         return run([("registry", step_registry)])
     steps = [("registry", step_registry), ("fixes-md", step_fixes_md), ("ruff", lambda: step_ruff(a.full)),
-             ("asm-synth", lambda: step_synthetic(a.armips, a.full or a.armips is not None))]
+             ("asm-synth", lambda: step_synthetic(a.armips, a.full or a.armips is not None)),
+             ("ai-payload", step_ai_payload), ("ai-unit", lambda: step_ai_unit(a.full))]
     if not a.full:
         steps.append(("tests", step_tests_fast))
         code = run(steps)
@@ -812,18 +1009,24 @@ def main(argv=None) -> int:
 
     cache = AssemblyCache()
     first = {}
+    ai_dir = work_dir.with_name(work_dir.name + "-ai")
+    ai = AiBuild(a.ai_rom, ai_dir)
     steps += [("prereq", prereq), ("asmpatch", need(step_asmpatch)),
               ("listings", need(lambda p: step_listings(p, cache))),
               ("us-refs", need(lambda p: step_us_refs(p, cache))),
               ("tests", need(step_tests_full)),
+              ("ai-static", lambda: step_ai_static(ai, ai_dir)),
               ("build", need(lambda p: step_build(p, work_dir, a.update_expected, a.strict_release,
                                                   env=REPRO_ENVS[0] if repro else None, out=first)))]
     if repro:
         steps.append(("repro", need(lambda p: step_repro(p, first, work_dir.with_name(work_dir.name + "-repro"),
                                                          env=REPRO_ENVS[1]))))
-    if a.emu:
-        steps.append(("emu", need(lambda p: step_emu(p, first, work_dir, a.emu_saves, a.emu_jobs, emu_only,
+    layer_parts = [p for p in emu_parts if p in LAYER_PARTS]
+    if a.emu and layer_parts:
+        steps.append(("emu", need(lambda p: step_emu(p, first, work_dir, a.emu_saves, a.emu_jobs, layer_parts,
                                                      a.emu_since, a.emu_freeze_saves))))
+    if a.emu and "ai" in emu_parts:                 # after the layer, so at most --emu-jobs emulators at once
+        steps.append(("emu-ai", lambda: step_emu_ai(ai, a.emu_jobs, ai_dir)))
     return run(steps)
 
 

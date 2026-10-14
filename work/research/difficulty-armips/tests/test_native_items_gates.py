@@ -3,7 +3,7 @@ from copy import deepcopy
 import json
 from pathlib import Path
 import unittest
-from support import ROOT, scratch
+from support import scratch, RECEIPT
 from test_native_items import sample
 from native_items_cases import GATE_ITEM
 from native_items_gates_oracles import GATES, continued, injection
@@ -134,7 +134,7 @@ class GateTests(unittest.TestCase):
     def test_typed_gate_fixture_keeps_valid_records_and_two_physical_pockets(self):
         from native_items_gates import fixture
         from emu_harness import SaveFile
-        receipt=json.loads((ROOT/'work/build/difficulty-v2/integration-impl/receipt.json').read_text())
+        receipt=json.loads(RECEIPT.read_text())
         with scratch('gates-fixture-') as tmp:
             f=fixture(receipt,Path(tmp))
             self.assertEqual(f['metadata']['stock'],[[GATE_ITEM,3],[151,3]])

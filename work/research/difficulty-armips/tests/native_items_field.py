@@ -9,7 +9,7 @@ from pathlib import Path
 import sys
 import traceback
 import uuid
-from support import ROOT, OUTPUT, CN, CN_SHA256, sha256
+from support import ROOT, OUTPUT, CN, CN_SHA256, sha256, RECEIPT
 from evidence import write_json, utc, bound_process
 from native_items_control import OriginalSession, identity
 from native_items_fixture import prepare
@@ -229,7 +229,7 @@ def compare(rows,pair):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--receipt',type=Path,default=ROOT/'work/build/difficulty-v2/integration-impl/receipt.json')
+    p.add_argument('--receipt',type=Path,default=RECEIPT)
     p.add_argument('--native-timeout',type=int,default=180)
     p.add_argument('--child',choices=('cn-field','candidate-field'));p.add_argument('--out',type=Path)
     args=p.parse_args()

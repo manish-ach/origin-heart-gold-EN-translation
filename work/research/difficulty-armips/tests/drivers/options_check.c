@@ -13,12 +13,35 @@ static uint32_t keys,held,touch,x,y;
 static int fail_alloc, frees,heaps,deletes,normal_rows,normal_draw,normal_input,normal_exit,hidden,printed;
 static int data_live, bg0_enabled, bg_calls, sprite_setup;
 static int nav_created, nav_removed, cursor_row, native_choices, footer_confirm, footer_quit;
+/* TRAINER AI: saved flags behind the native flag routines, and what the page draws. */
+#define SAVE_TOKEN 0x02009000u
+#define VARS_TOKEN 0x0200a000u
+static unsigned flag_on, flag_key;
+static int flag_reads, flag_writes, ai_fills, ai_labels, footer_choice;
+static uint32_t ai_colors[3];
+static uint16_t help_first[40], help_second[40];
 void *dg_menu_test_pointer(uint32_t address) {
  if (!address) return 0;
  assert(address==0x02003000); return opts;
 }
 static uintptr_t string_token=0x02007000;
 static uint16_t last_text[40];
+/* charmap.tbl codes, independent of options.c's glyph(). */
+static int text_is(const uint16_t *t,const char *s){
+ unsigned n=0;
+ for(;s[n];++n){
+  unsigned c=(unsigned char)s[n];
+  uint16_t g=c>='A'&&c<='Z'?0x12b+c-'A':c>='a'&&c<='z'?0x145+c-'a':c==' '?0x1de:c==','?0x1ad:c==':'?0x1c4:c=='.'?0x1ae:0;
+  assert(g);if(t[n]!=g)return 0;
+ }
+ return t[n]==0xffff;
+}
+static unsigned shown_ai(void){
+ /* Exactly one value in SELECTED colour, the others NORMAL. */
+ unsigned shown=3;
+ for(unsigned i=0;i<3;++i){assert(ai_colors[i]==0x30200||ai_colors[i]==0x10200);if(ai_colors[i]==0x30200){assert(shown==3);shown=i;}}
+ assert(shown<3);return shown;
+}
 uint32_t dg_menu_test_read32(uintptr_t a) {
  if(a==0x21d0094+0x44) return held;
  if(a==0x21d0094+0x48) return keys;
@@ -31,8 +54,16 @@ uint16_t dg_menu_test_read16(uintptr_t a) {
  assert(a==(uintptr_t)opts);return *opts;
 }
 uintptr_t dg_menu_test_call(uintptr_t a,uintptr_t b,uintptr_t c,uintptr_t d,uintptr_t e,uintptr_t f,uintptr_t g,uintptr_t h,uintptr_t i) {
- (void)e;(void)f;(void)g;(void)h;(void)i;
+ (void)i;
  switch(a) {
+ case 0x2001195: return SAVE_TOKEN;
+ case 0x204f859: assert(b==SAVE_TOKEN);return VARS_TOKEN;
+ case 0x204f865: assert(b==VARS_TOKEN && (c==0x2c2 || c==0x2c3));++flag_reads;return c==0x2c2?flag_on:flag_key;
+ case 0x204f891: case 0x204f8b9:
+   assert(b==VARS_TOKEN && (c==0x2c2 || c==0x2c3));++flag_writes;
+   *(c==0x2c2?&flag_on:&flag_key)=a==0x204f891;return 0;
+ case 0x201e2a5:
+   assert(b==(uintptr_t)data+0x44 && c==0x22 && d==108 && e==65 && f==320 && g==20);++ai_fills;return 0;
  case 0x2029349: return (uintptr_t)opts;
  case 0x203e521: assert(c==(uintptr_t)args);return 0;
  case 0x20071c1: assert(b==(uintptr_t)manager);return (uintptr_t)args;
@@ -58,7 +89,7 @@ uintptr_t dg_menu_test_call(uintptr_t a,uintptr_t b,uintptr_t c,uintptr_t d,uint
  case 0x1ff8b35: ++sprite_setup;return 0;
  case 0x201c459: assert(b==0 && c<=1);bg0_enabled=(int)c;++bg_calls;return 0;
  case 0x2024e49: assert(c<=1);if(!c)++hidden;return 0;
- case 0x21e5945: assert(b==(uintptr_t)data && c<8);cursor_row=(int)c;return 0;
+ case 0x21e5945: assert(b==(uintptr_t)data && c<8);cursor_row=(int)c;if(c==7)footer_choice=W16(data,0x2d2);return 0;
  case 0x21e53ed: assert(b==(uintptr_t)data && c<7);return 0;
  case 0x21e5541:
    assert(b==(uintptr_t)data && c<3 && W16((void *)d,0)==2);
@@ -71,7 +102,15 @@ uintptr_t dg_menu_test_call(uintptr_t a,uintptr_t b,uintptr_t c,uintptr_t d,uint
  case 0x200bb0d:
    assert(d==string_token && (c==7 || c==8));
    if(c==8)++footer_confirm;else ++footer_quit;return 0;
- case 0x2020835: assert(d==string_token && g==0xff);++printed;return 0;
+ case 0x2020835:
+   assert(d==string_token && g==0xff);++printed;
+   if(b==(uintptr_t)data+0x44 && f==65 && e>=108){
+    static const char *const v[3]={"OFF","KEY","ALL"};
+    assert((e-108)%48==0 && (e-108)/48<3 && text_is(last_text,v[(e-108)/48]));ai_colors[(e-108)/48]=(uint32_t)h;
+   }
+   if(b==(uintptr_t)data+0x44 && e==4 && f==65){assert(text_is(last_text,"TRAINER AI"));++ai_labels;}
+   if(b==(uintptr_t)data+0x54 && e==4) memcpy(f?help_second:help_first,last_text,sizeof last_text);
+   return 0;
  case 0x201e1a9: case 0x201dda9: case 0x2017c49: return 0;
  default: fprintf(stderr,"unexpected native call %lx\n",(unsigned long)a);assert(0);return 0;
  }
@@ -107,6 +146,12 @@ int main(void) {
   assert(((v>>6)&3)==((w>>6)&3));assert(((v>>8)&3)==((w>>8)&3));assert(((v>>10)&31)==((w>>10)&31));
  }
  for(unsigned bad=8;bad<=0x10000;bad<<=1) assert(dg_settings_merge(0x4444,bad)==0x4444);
+ /* TRAINER AI codec: 0x2C2 clear is OFF whatever 0x2C3 holds; OFF clears both. */
+ assert(dg_ai_decode(0,0)==DG_AI_OFF && dg_ai_decode(0,1)==DG_AI_OFF);
+ assert(dg_ai_decode(1,0)==DG_AI_ALL && dg_ai_decode(1,1)==DG_AI_KEY && dg_ai_decode(7,9)==DG_AI_KEY);
+ assert(dg_ai_encode(DG_AI_OFF)==0 && dg_ai_encode(DG_AI_ALL)==1 && dg_ai_encode(DG_AI_KEY)==3);
+ assert(dg_ai_encode(DG_AI_COUNT)==0 && dg_ai_encode(0xffffffffu)==0);
+ for(unsigned v=0;v<DG_AI_COUNT;++v) assert(dg_ai_decode(dg_ai_encode(v)&1,dg_ai_encode(v)&2)==v);
  long ps=sysconf(_SC_PAGESIZE);unsigned char *guard=mmap(0,(size_t)ps*2,PROT_READ|PROT_WRITE,MAP_PRIVATE|MAP_ANON,-1,0);
  assert(guard!=MAP_FAILED);assert(!mprotect(guard+ps,(size_t)ps,PROT_NONE));
  uint16_t *edge=(uint16_t *)(guard+ps-2);*edge=0x1404;
@@ -131,23 +176,28 @@ int main(void) {
   * no test setter for page mode, selection, transaction flags or exit result. */
  unsigned char *low=calloc(1,0x8000);
  assert(low);data=low;manager=low+0x1000;args=low+0x2000;opts=(uint16_t *)(low+0x3000);
+ int writes=flag_writes;
  for(unsigned flags=0;flags<8;++flags) {
   *opts=0x5144;unsigned before_frees=frees,before_heaps=heaps,before_deletes=deletes;
   open_page(1);assert(dg_menu_exit_animation(data)==0);
   for(unsigned row=0;row<7;++row) assert(W16(data,0x84+row*0x54)==2);
   int cursor_calls=bg_calls;
   /* Visit all three rows and both footer choices, then wrap to ITEMS. */
-  for(unsigned focus=0;focus<5;++focus) {
-   assert(bg0_enabled && bg_calls==cursor_calls);assert(cursor_row==(int)(focus<3?focus:7));input(128);
+  /* Four rows, then CANCEL and APPLY, then wrap to ITEMS. */
+  for(unsigned focus=0;focus<6;++focus) {
+   assert(bg0_enabled && bg_calls==cursor_calls);assert(cursor_row==(int)(focus<4?focus:7));
+   if(focus>=4) assert(footer_choice==(focus==5));
+   input(128);
   }
   assert(bg0_enabled && bg_calls==cursor_calls);
   if(flags&4) input(16);input(128);if(flags&1)input(16);input(128);if(flags&2)input(16);
-  input(128);input(128);input(1);assert((W32(data,0x10)&3)==1);
+  input(128);input(128);input(128);input(1);assert((W32(data,0x10)&3)==1);
   assert(*opts==0x5144); /* Draft does not write live Options. */
   close_page();assert(*opts==dg_settings_merge(0x5144,flags));
   assert(frees==(int)before_frees+1 && heaps==(int)before_heaps+1 && deletes==(int)before_deletes+7);
   close_page();assert(frees==(int)before_frees+1 && heaps==(int)before_heaps+1);
  }
+ assert(flag_writes==writes); /* The Options word alone; no TRAINER AI change. */
  *opts=0x4144;open_page(1);tap(192,35);tap(192,55);tap(192,75);tap(149,180);close_page();assert(dg_settings_decode(*opts)==7);
  unsigned keep=*opts;open_page(1);input(16);input(2);close_page();assert(*opts==keep);
  open_page(1);tap(116,35);tap(200,180);close_page();assert(*opts==keep);
@@ -164,11 +214,76 @@ int main(void) {
  assert(*opts==dg_settings_merge(0x4146,4));
  keep=*opts;open_page(0);W16(data,0x86)=0;
  tap(85,180);tap(116,35);tap(18,180);input(2);close_page();assert(*opts==keep);
+ /* TRAINER AI row. Each starting flag pair shows its value; B and touch Cancel
+  * write no flag, and neither does an unchanged Apply, except that Apply turns
+  * the stray pair (0x2C2 clear, 0x2C3 set) into canonical OFF. The Options word
+  * is left alone throughout. */
+ static const unsigned start[4][3]={{0,0,DG_AI_OFF},{0,1,DG_AI_OFF},{1,0,DG_AI_ALL},{1,1,DG_AI_KEY}};
+ *opts=0x4144;
+ for(unsigned st=0;st<4;++st) for(unsigned way=0;way<3;++way) {
+  flag_on=start[st][0];flag_key=start[st][1];writes=flag_writes;
+  int labels=ai_labels,fills=ai_fills;
+  open_page(1);assert(shown_ai()==start[st][2] && ai_labels==labels+1 && ai_fills==fills+1);
+  if(way==0)input(2);else if(way==1)tap(200,180);else tap(149,180);
+  close_page();
+  unsigned canonical=way==2 && st==1;
+  assert(flag_writes==writes+(canonical?2:0) && flag_on==start[st][0] &&
+         flag_key==(canonical?0:start[st][1]) && *opts==0x4144);
+  assert(dg_menu_last_apply_result()==(int)canonical);
+ }
+ /* D-pad: three DOWNs reach the row, with the native outline on slot3 and its
+  * help. RIGHT and A step forward, LEFT back, wrapping; no write before Apply. */
+ flag_on=flag_key=0;writes=flag_writes;
+ open_page(1);for(unsigned n=0;n<3;++n)input(128);
+ assert(cursor_row==3 && text_is(help_first,"Advanced AI: OFF for no trainers, KEY") &&
+        text_is(help_second,"for important trainers, ALL for all."));
+ static const uint32_t step_keys[7]={16,16,16,32,32,1,32};
+ static const unsigned step_values[7]={DG_AI_KEY,DG_AI_ALL,DG_AI_OFF,DG_AI_ALL,DG_AI_KEY,DG_AI_ALL,DG_AI_KEY};
+ for(unsigned n=0;n<7;++n){input(step_keys[n]);assert(shown_ai()==step_values[n] && cursor_row==3);}
+ assert(flag_writes==writes && !flag_on && !flag_key);
+ input(128);input(128);assert(cursor_row==7 && footer_choice==1);
+ input(1);assert((W32(data,0x10)&3)==1 && flag_writes==writes);
+ close_page();
+ assert(flag_on && flag_key && flag_writes==writes+2 && *opts==0x4144 && dg_menu_last_apply_result()==1);
+ /* Touch: value bands at screen x 108..159, 160..207 and 208..247 in y 82..101;
+  * the label area only focuses; y 81 is CAP's band and y 102 is inert. */
+ writes=flag_writes;open_page(1);
+ tap(150,95);assert(shown_ai()==DG_AI_OFF && cursor_row==3);
+ tap(159,82);assert(shown_ai()==DG_AI_OFF);
+ tap(160,101);assert(shown_ai()==DG_AI_KEY);
+ tap(207,90);assert(shown_ai()==DG_AI_KEY);
+ tap(208,90);assert(shown_ai()==DG_AI_ALL);
+ tap(50,95);assert(shown_ai()==DG_AI_ALL && cursor_row==3);
+ tap(130,102);assert(shown_ai()==DG_AI_ALL && cursor_row==3);
+ tap(130,81);assert(shown_ai()==DG_AI_ALL && cursor_row==2);
+ assert(flag_writes==writes);tap(149,180);close_page();
+ assert(flag_on && !flag_key && flag_writes==writes+2 && *opts==0x4144);
+ /* Page 1 Confirm commits the TRAINER AI draft with the ordinary drafts; B cancels both. */
+ writes=flag_writes;
+ open_page(0);input(256);for(unsigned n=0;n<3;++n)input(128);input(32);assert(shown_ai()==DG_AI_KEY);
+ input(512);input(2);close_page();assert(flag_on && !flag_key && flag_writes==writes);
+ open_page(0);input(256);for(unsigned n=0;n<3;++n)input(128);input(32);input(512);tap(149,180);close_page();
+ assert(flag_on && flag_key && flag_writes==writes+2);
+ /* Flags changed under the page: Apply is refused on the page and at exit,
+  * and neither the flags nor the Options word is written. */
+ flag_on=1;flag_key=0;writes=flag_writes;
+ open_page(1);input(16);for(unsigned n=0;n<3;++n)input(128);input(16);
+ flag_key=1;tap(149,180);assert(!(W32(data,0x10)&3));input(2);close_page();
+ assert(flag_writes==writes && flag_on && flag_key && *opts==0x4144);
+ flag_key=0;open_page(1);input(16);for(unsigned n=0;n<3;++n)input(128);input(16);tap(149,180);
+ assert((W32(data,0x10)&3)==1);flag_on=0;close_page();
+ assert(flag_writes==writes && !flag_on && !flag_key && *opts==0x4144 && dg_menu_last_apply_result()==-2);
+ /* The Options word changed after Apply: its STALE result also blocks the flags. */
+ open_page(1);for(unsigned n=0;n<3;++n)input(128);input(16);tap(149,180);
+ assert((W32(data,0x10)&3)==1);*opts^=8;close_page();
+ assert(flag_writes==writes && !flag_on && !flag_key && dg_menu_last_apply_result()==-2);
+ *opts^=8;
  assert(nav_created==nav_removed);
  int old_rows=normal_rows,old_draw=normal_draw,old_input=normal_input,old_exit=normal_exit;
  open_page(0);input(16);assert(dg_menu_exit_animation(data)==17);close_page();
  assert(normal_rows==old_rows+1 && normal_draw==old_draw+1 && normal_input==old_input+1 && normal_exit==old_exit+1);
- fail_alloc=1;open_page(1);close_page();assert(normal_rows==old_rows+2 && normal_draw==old_draw+2 && normal_exit==old_exit+2);
+ int reads=flag_reads;
+ fail_alloc=1;open_page(1);close_page();assert(flag_reads==reads); /* Fallback never reads the flags. */assert(normal_rows==old_rows+2 && normal_draw==old_draw+2 && normal_exit==old_exit+2);
  assert(native_choices>0);
- printf("PASS 524288 codec cases; halfword guard page; transaction invalid/stale/no-op; 8 draft/apply patterns; input/touch/cancel/hidden-row/cleanup/fallback ABI mocks. Native UI acceptance NOT claimed.\n");
+ printf("PASS 524288 codec cases; halfword guard page; transaction invalid/stale/no-op; 8 draft/apply patterns; input/touch/cancel/hidden-row/cleanup/fallback ABI mocks; TRAINER AI codec, 4 flag states x 3 exits (canonical stray pair), D-pad/touch/shared-confirm/stale flag writes. Native UI acceptance NOT claimed.\n");
 }

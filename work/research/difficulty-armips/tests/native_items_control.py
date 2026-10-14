@@ -8,7 +8,7 @@ from pathlib import Path
 import sys
 import traceback
 import uuid
-from support import ROOT, OUTPUT, CN, CN_SHA256, sha256, source_hashes, arm9_main
+from support import ROOT, OUTPUT, CN, CN_SHA256, sha256, source_hashes, arm9_main, RECEIPT
 from evidence import write_json, utc, bound_process
 from native_ui import candidate_binding
 from native_battle_helpers import NativeSession, registers, capture_failure
@@ -265,7 +265,7 @@ def validate_pair(rows,pair):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--receipt',type=Path,default=ROOT/'work/build/difficulty-v2/integration-impl/receipt.json')
+    p.add_argument('--receipt',type=Path,default=RECEIPT)
     p.add_argument('--native-timeout',type=int,default=180)
     p.add_argument('--child',choices=('candidate-all-wild','cn-wild'))
     p.add_argument('--out',type=Path)

@@ -99,6 +99,13 @@ static void revival_checks(void) {
   }
   assert(effect(28,38,actor,target)==1);
  }
+ /* A bound mon is accepted up to the advanced AI's code at 0x023D4000 and
+  * refused inside it (0x023D4000..0x023DC000), where the old bound accepted it. */
+ for(unsigned n=0;n<4;n++) {
+  uintptr_t mon=(uintptr_t[]){0x023d3fe0,0x023d3fe4,0x023d4000,0x023dbfe0}[n];
+  effect_reset();bind_mon(mon,2);
+  assert(effect(28,38,MON1,mon)==(n==0?0:1));
+ }
  /* Scope bound follows provider on each call: no stale/pending token survives
   * invalidation, same-address root reuse, or an interleaved NPC operation. */
  effect_reset();assert(effect(28,38,MON1,MON2)==0);

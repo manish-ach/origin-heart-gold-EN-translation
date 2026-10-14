@@ -3,8 +3,9 @@
 
 #define ROOT_SLOT ((uintptr_t)0x02255BACu)
 #define RAM_START ((uintptr_t)0x02000000u)
-/* Exclude the integration-owned resident reservation and ARM7 memory. */
-#define RAM_END ((uintptr_t)0x023DC000u)
+/* Exclude the advanced AI's resident code (0x023D4000..0x023DC000), the
+ * integration-owned resident reservation and ARM7 memory. */
+#define RAM_END ((uintptr_t)0x023D4000u)
 
 #ifdef DG_ITEMS_HOST_TEST
 #define read8 dg_items_test_read8

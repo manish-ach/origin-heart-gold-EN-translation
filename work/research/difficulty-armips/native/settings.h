@@ -27,4 +27,13 @@ int dg_options_set_draft(struct DG_SettingsTxn *txn, uintptr_t owner,
 int dg_options_apply(uint16_t *options, uintptr_t owner, uint32_t epoch,
                      struct DG_SettingsTxn *txn);
 void dg_options_cancel(struct DG_SettingsTxn *txn);
+/* TRAINER AI lives in two saved event flags, not in the Options word
+ * (work/advanced-ai/docs/build-contract.md). Values in row order. */
+#define DG_AI_FLAG_ON 0x2C2u
+#define DG_AI_FLAG_KEY 0x2C3u
+enum DG_AiSetting { DG_AI_OFF = 0, DG_AI_KEY = 1, DG_AI_ALL = 2, DG_AI_COUNT = 3 };
+/* on/key: zero or nonzero flag states. 0x2C2 clear is OFF whatever 0x2C3 holds. */
+uint32_t dg_ai_decode(uint32_t on, uint32_t key);
+/* Bit0 = flag 0x2C2, bit1 = flag 0x2C3. OFF and invalid values clear both. */
+uint32_t dg_ai_encode(uint32_t value);
 #endif

@@ -1,6 +1,6 @@
 """Independent native lifecycle acceptance; the ordinary battle oracle still applies."""
 import json
-from support import ROOT
+from support import ROOT, RECEIPT
 from native_battle_oracles import require, validate_run
 
 CASES = {'arena': 'runtime.arena', 'load_identity': 'runtime.load_identity'}
@@ -38,7 +38,7 @@ def validate(report, out=None):
         require(len([i for i in report['inputs'] if i.get('hold') == 'L']) == 3,
                 'Options/battle/reopen lifecycle incomplete')
     else:
-        ranges = json.loads((ROOT/'work/build/difficulty-v2/integration-impl/receipt.json').read_text())['build']['zero_ranges']
+        ranges = json.loads(RECEIPT.read_text())['build']['zero_ranges']
         require(report['reset_zero_ranges'] == ranges, 'wrong reset BSS observation ranges')
         before, after = report['before_reset_bss'], report['reset_loader_bss']
         require(len(before) == len(after) == len(ranges) and bool(ranges), 'incomplete reset BSS observations')

@@ -2,7 +2,7 @@
 import copy
 import unittest
 from native_items_field import observe, compare, HP_OFFSET, FieldTrace
-from support import CN_SHA256, load_rom, arm9_main
+from support import CN_SHA256, load_rom, arm9_main, RECEIPT
 
 
 def sample(hp=15):
@@ -49,12 +49,12 @@ class FieldBaselineTests(unittest.TestCase):
         import json
         from pathlib import Path
         from types import SimpleNamespace
-        from support import ROOT, scratch
+        from support import scratch
         from native_items_fixture import prepare
         from native_items_field import sealed_state
         from emu_harness import encode_pokemon
         import save_core
-        receipt=json.loads((ROOT/'work/build/difficulty-v2/integration-impl/receipt.json').read_text())
+        receipt=json.loads(RECEIPT.read_text())
         with scratch('field-encrypted-regression-') as tmp:
             out=Path(tmp);fixture=prepare(receipt,out,28)
             row=sample();party=row['before']['party'];bag=row['before']['inventory']['bag_address']

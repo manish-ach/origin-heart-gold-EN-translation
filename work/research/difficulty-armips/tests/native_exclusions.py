@@ -6,7 +6,7 @@ import os
 from pathlib import Path
 import subprocess
 import sys
-from support import ROOT, OUTPUT, sha256
+from support import ROOT, OUTPUT, sha256, RECEIPT
 from evidence import utc, write_json
 from native_ui import candidate_binding
 from native_battle_oracles import require
@@ -15,7 +15,7 @@ from native_exclusions_oracles import validate_report
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--receipt',type=Path,default=ROOT/'work/build/difficulty-v2/integration-impl/receipt.json')
+    parser.add_argument('--receipt',type=Path,default=RECEIPT)
     parser.add_argument('--out',type=Path,required=True)
     args=parser.parse_args()
     if Path.cwd().resolve()!=ROOT or sys.flags.optimize:

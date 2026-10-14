@@ -22,9 +22,11 @@ static uint16_t read16(uintptr_t p) { return *(const volatile uint16_t *)p; }
 #define native_begin ((void (*)(void))(uintptr_t)0x02215D15u)
 #define native_free ((uintptr_t (*)(void *))(uintptr_t)0x0201B33Du)
 #endif
+/* Main RAM below the advanced AI's resident code (0x023D4000..0x023DC000,
+ * work/advanced-ai/docs/memory-layout.md), difficulty's own reservation and ARM7. */
 uint32_t dg_runtime_ram(uintptr_t p, uint32_t size, uint32_t alignment) {
-    return size <= 0x003DC000u && alignment && !(alignment & (alignment-1u)) &&
-        !(p & (alignment-1u)) && p >= 0x02000000u && p <= 0x023DC000u-size;
+    return size <= 0x003D4000u && alignment && !(alignment & (alignment-1u)) &&
+        !(p & (alignment-1u)) && p >= 0x02000000u && p <= 0x023D4000u-size;
 }
 uintptr_t dg_runtime_save(void) {
     uintptr_t p=current_save();
