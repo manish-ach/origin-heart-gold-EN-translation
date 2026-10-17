@@ -449,6 +449,8 @@ def export(ctx):
     evolutions = export_evolutions(ctx, sp_slug)
     # (from, to, how) -> (HeartGold method or None,) for evolutions the hack changed
     orig = {(e['id'], e['to'], e['how']): (e['original'],) for e in evolutions if 'original' in e}
+    heights = R.parse_u32_table(ctx.rom['zukan'][R.ZUKAN_HEIGHT])
+    weights = R.parse_u32_table(ctx.rom['zukan'][R.ZUKAN_WEIGHT])
     for sp in sp_ids:
         p = ctx.personal[sp]
         t1, t2 = p['types']
@@ -483,6 +485,9 @@ def export(ctx):
             tms='all' if sp == G.MEW else [[R.tm_label(i), ctx.tm[i]] for i in tms],
             tutors=[m for m in G.tutor_compat_for(ctx, tutors, sp) if m in move_ids],
             egg=[m for m in (ctx.eggmoves[sp] if sp < len(ctx.eggmoves) else []) if m in move_ids],
+            # Pokédex height (dm) and weight (hg), a/0/7/4 members 0/1 by species index; only base species
+            # (the form rows of the table follow another order). Battles do not use them (see damage_calc_data.md).
+            **(dict(height=heights[sp], weight=weights[sp]) if sp < len(heights) else {}),
         ))
 
     # ---- encounters per area
@@ -615,15 +620,26 @@ def export(ctx):
                                how=how, conds=list(conds)))
         uniq = list({json.dumps(p, sort_keys=True): p for p in places}.values())
         team = []
-        for m in mons:
+        pids = R.trainer_personalities(tid, td['cls'], mons, lambda c: ctx.rom.arm9[R.TRAINER_CLASS_GENDER - R.ARM9_BASE + c],
+                                       lambda s, f: ctx.personal[species_index(ctx, s, f)]['gender'])
+        for m, pid in zip(mons, pids):
             idx = species_index(ctx, m['species'], m['form'])
+            # default moves (empty list): friendship is unknown only if a learnset could give Frustration
+            frus = not m['moves'] and any(mv == R.TRAINER_FRUSTRATION and lv <= m['level']
+                                          for s in {m['species'], idx} for lv, mv in ctx.learn[s])
             team.append(dict(id=idx, name=ctx.sp(m['species'], m['form']), level=m['level'],
                              ability=ctx.ab(m['ability']) if m['ability'] else None, abilityId=m['ability'] or None,
                              itemId=m['item'] or None, moveIds=list(m['moves']),
                              item=ctx.it(m['item']) if m['item'] else None,
-                             nature=R.NATURES[m['nature']] if m['nature'] is not None and m['nature'] < 25 else None,
+                             nature=R.NATURES[m['nature'] if m['nature'] is not None else R.nature_from_personality(pid)]
+                             if m['nature'] is None or m['nature'] < 25 else None,
                              ivs=m['ivs'], hpIvs=m['hp_ivs'], evs=m['evs'] if any(m['evs']) else None,
-                             moves=[ctx.mv(x) for x in m['moves']]))
+                             moves=[ctx.mv(x) for x in m['moves']],
+                             natureSource='set' if m['nature'] is not None else 'generated',
+                             # The game's gender function reads the BASE species' ratio (no form lookup), while
+                             # the PID's byte-1 gender tweak above uses the form's ratio (damage_calc_data.md §2).
+                             gender=R.gender_from_personality(ctx.personal[m['species']]['gender'], pid),
+                             friendship=None if frus else R.trainer_friendship(m['moves'])))
         cls_name = ctx.TRC.get(td['cls'], '').strip()
         tr = dict(id=tid, cls=cls_name, name=ctx.TRN.get(tid, '').strip() or ('' if cls_name else 'Unnamed trainer'),
                   double=bool(td['double']), items=[ctx.it(i) for i in td['items']], team=team, places=uniq,

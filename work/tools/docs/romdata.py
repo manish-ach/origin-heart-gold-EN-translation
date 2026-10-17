@@ -44,6 +44,8 @@ STD_MAPPING = 0x020F70E0     # 30 x {u16 lo, u16 script file, u16 msg bank}
 FOSSIL_OVERLAY, FOSSIL_TABLE, FOSSIL_COUNT = 22, 0x0225C0F0, 7   # {u16 item, u16 species}, read by GetFossilPokemon
 
 ITEM_TM01, ITEM_HM01, ITEM_HM08 = 328, 420, 427
+TRAINER_CLASS_GENDER = 0x020FF77C   # u8 per trainer class: 1 = female (read at 0x02072720)
+ZUKAN_HEIGHT, ZUKAN_WEIGHT = 0, 1   # members of a/0/7/4: u32 per species index, decimetres / hectograms
 ITEM_TM93, ITEM_TM130 = 537, 574
 
 NARCS = {
@@ -52,6 +54,7 @@ NARCS = {
     'trpoke': 'a/0/5/6', 'trade': 'a/1/1/2', 'item': 'a/0/1/7',
     'scripts': 'a/0/1/2', 'events': 'a/0/3/2', 'compat': 'data/tutor_moves.narc',
     'eggmoves': 'data/egg_moves.narc', 'moves': 'extra/new_move_data.narc',
+    'zukan': 'a/0/7/4',
 }
 RAW_FILES = {'bugcontest': 'data/mushi/mushi_encount.bin'}
 
@@ -298,6 +301,69 @@ def parse_trpoke(b, count):
     return mons
 
 
+def parse_u32_table(b):
+    return list(struct.unpack_from('<%dI' % (len(b) // 4), b))
+
+
+def lcrng(seed):
+    """The arm9 LC RNG (0x02020480): seed * 0x41C64E6D + 0x6073; LCRandom returns the high half."""
+    return (seed * 0x41C64E6D + 0x6073) & 0xFFFFFFFF
+
+
+def trainer_personalities(trainer_id, trainer_class, mons, class_gender, gender_ratio):
+    """Personality values the CN v4.0.3 party loader gives each Pokemon of a trainer (arm9 0x0207272C).
+
+    Per Pokemon: seed = trainer id + species + level + raw IV byte (0x020727B6), LCRandom is called
+    (class & 0xFF) times (0x020727DC) and pid = (last result << 8) + mod (0x020727F2; with no call the
+    seed itself is shifted). mod starts at 0x78 for a female trainer class, else 0x88 (0x0207277A), and
+    0x0207295C rewrites it in place from the record's byte 1: a nonzero low nibble sets it to the form's
+    gender ratio + 2 (nibble 1) or - 2, high nibble 1 clears bit 0, 2 sets bit 0. mod is never reset
+    between Pokemon, so a change carries over to the rest of the party (observed in the emulator).
+    gender_ratio(species, form) returns the personal gender byte; class_gender(cls) the table byte."""
+    mod = 0x78 if class_gender(trainer_class & 0xFF) == 1 else 0x88
+    out = []
+    for m in mons:
+        seed = (trainer_id + m['species'] + m['level'] + m['iv']) & 0xFFFFFFFF
+        rnd = state = seed
+        for _ in range(trainer_class & 0xFF):
+            state = lcrng(state)
+            rnd = state >> 16
+        g, a = m['abil_slot'] & 0xF, (m['abil_slot'] & 0xF0) >> 4
+        if m['abil_slot']:
+            if g:
+                mod = (gender_ratio(m['species'], m['form']) + (2 if g == 1 else -2)) & 0xFFFFFFFF
+            if a == 1:
+                mod &= ~1
+            elif a == 2:
+                mod |= 1
+        out.append(((rnd << 8) + mod) & 0xFFFFFFFF)
+    return out
+
+
+def nature_from_personality(pid):
+    """0x0206F1A0: nature = override field 190 - 1 when set, else personality % 25."""
+    return pid % 25
+
+
+def gender_from_personality(ratio, pid):
+    """0x0206F3A0: ratio 0 male, 254 female, 255 genderless, else female when ratio > pid & 0xFF."""
+    if ratio == 255:
+        return 'genderless'
+    if ratio == 254:
+        return 'female'
+    if ratio == 0:
+        return 'male'
+    return 'female' if ratio > (pid & 0xFF) else 'male'
+
+
+TRAINER_FRUSTRATION = 218
+
+
+def trainer_friendship(moves):
+    """0x020729A8: friendship 0 when a move slot holds Frustration (218), else 255."""
+    return 0 if TRAINER_FRUSTRATION in moves else 255
+
+
 # ---------------------------------------------------------------- trades
 def parse_trade(b):
     v = struct.unpack('<21I', b[:84])
@@ -446,10 +512,13 @@ class Rom:
 
     def __init__(self, path=ROM_PATH, cache=CACHE, refresh=False):
         self.path = path
+        d = None
         if not refresh and os.path.exists(cache) and os.path.getmtime(cache) >= os.path.getmtime(path):
             with open(cache, 'rb') as fh:
                 d = pickle.load(fh)
-        else:
+            if any(k not in d for k in NARCS):      # cache from before a member was added: rebuild
+                d = None
+        if d is None:
             import ndspy.rom
             import ndspy.narc
             rom = ndspy.rom.NintendoDSRom.fromFile(path)

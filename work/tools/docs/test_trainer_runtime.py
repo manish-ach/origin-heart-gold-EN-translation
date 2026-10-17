@@ -57,5 +57,58 @@ class TrainerRuntimeTests(unittest.TestCase):
                 self.assertEqual(hashlib.sha256(arm9[start:end]).hexdigest(), expected)
 
 
+def mon(species, level, iv, abil_slot=0, form=0):
+    return dict(species=species, level=level, iv=iv, abil_slot=abil_slot, form=form)
+
+
+class TrainerPersonalityTests(unittest.TestCase):
+    """Expected values were read from the CN ROM in the emulator (party loader, 2026-10-14)."""
+    male_class = staticmethod(lambda c: 0)
+    female_class = staticmethod(lambda c: 1)
+
+    def pids(self, tid, cls, mons, class_gender, ratio=lambda s, f: 127):
+        return R.trainer_personalities(tid, cls, mons, class_gender, ratio)
+
+    def test_mod_carries_over_to_the_next_pokemon(self):
+        # trainer 6 (class 2): the first record sets bit 0, the second keeps it
+        self.assertEqual(self.pids(6, 2, [mon(396, 4, 10, 0x20), mon(19, 5, 10)], self.male_class),
+                         [0x31B989, 0x52E689])
+
+    def test_class_zero_shifts_the_seed(self):
+        self.assertEqual(self.pids(167, 0, [mon(465, 26, 100), mon(40, 25, 100)], self.male_class),
+                         [0x2F688, 0x14C88])
+
+    def test_female_class_and_gender_nibble(self):
+        self.assertEqual(self.pids(9, 50, [mon(40, 62, 150, 0x20)], self.female_class), [0xD21179])
+        # trainer 165: nibble 3 -> ratio - 2 (Wobbuffet ratio 127)
+        self.assertEqual(self.pids(165, 58, [mon(24, 26, 100), mon(108, 25, 100, 0x20), mon(202, 24, 232, 3)],
+                                   self.male_class)[2], 0xC39C7D)
+
+    def test_nature_gender_friendship(self):
+        self.assertEqual(R.NATURES[R.nature_from_personality(0x31B989)], 'Hasty')
+        self.assertEqual(R.gender_from_personality(127, 0xC39C7D), 'female')
+        self.assertEqual(R.gender_from_personality(127, 0x52E689), 'male')
+        self.assertEqual(R.gender_from_personality(255, 0), 'genderless')
+        self.assertEqual(R.trainer_friendship([33, 218]), 0)
+        self.assertEqual(R.trainer_friendship([216]), 255)
+
+    @unittest.skipUnless(os.path.isfile(R.ROM_PATH), 'local CN ROM unavailable')
+    def test_reviewed_personality_code(self):
+        import ndspy.rom
+        arm9 = ndspy.rom.NintendoDSRom.fromFile(R.ROM_PATH).arm9
+        regions = [
+            (0x72720, 0x7272C, '4a717fe5710fb25b03f9feea8586b758c0427599abec9064eac7eddd9630b70f'),  # class gender byte
+            (0x72768, 0x727A2, '23c8b29a12916f7e562536c72d68603462e000dd6af2e56991e9528b29d137e0'),  # mod 0x78/0x88
+            (0x7295C, 0x729A8, '69e29f58102296a06c9e4ae27c98c2c9dfacbcc3ad6dc7f75878eb5fd52cc7b8'),  # byte-1 nibbles
+            (0x729A8, 0x729DA, '8af53e74828169ac7517441c4ef1f4078ca677f8887b1aabe5d04792612cc040'),  # friendship
+            (0x20480, 0x204A4, 'ba864ed280f9a7a7ec345002e6c336940aeec06bf9a6e825ddc69f43e82f2b22'),  # LC RNG
+            (0x6F1A0, 0x6F1EE, '677f127a7f706af1267f50ade5a8e395886bb2a691663ff84bcf19d5615ae2bd'),  # nature
+            (0x6F344, 0x6F3DA, 'debe0527258f8241873ce23b2ab33261ef5600160d11ef46287083c3c85a3682'),  # gender
+        ]
+        for start, end, expected in regions:
+            with self.subTest(address=hex(0x02000000 + start)):
+                self.assertEqual(hashlib.sha256(arm9[start:end]).hexdigest(), expected)
+
+
 if __name__ == '__main__':
     unittest.main()
