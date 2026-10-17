@@ -3,11 +3,18 @@
 # (python3 work/tools/site/build.py --content) and committed.
 # The in-browser patcher (/patch/) serves the highest-version release's .xdelta from the site itself:
 # the build downloads it with the release's latest.json (work/tools/site/patch_manifest.py). Never committed.
+#
+# Tester preview: the same Pages site also carries a preview build of another branch under /preview/
+# (repository variable PREVIEW_REF, default `website-fix`). Every production run builds it next to main;
+# a push to the preview branch starts a production run (see preview-redeploy). The preview has a banner,
+# noindex and no analytics (GUIDE_PREVIEW=1). A broken preview never blocks the production deploy.
 name: Website
 
 on:
   push:
-    branches: [main]
+    # website-fix: the tester preview branch (keep in step with the PREVIEW_REF variable).
+    # Pushes there only trigger preview-redeploy.
+    branches: [main, website-fix]
     paths: ['site/**', 'guide/**', 'work/tools/site/**', 'work/tools/docs/**', 'work/save-editor/**', 'work/save-core/**', 'work/research/save_core/**', 'work/tools/save_core.py', 'work/tools/test_save_*.py', 'work/tools/check_save_*.py', 'work/tools/test_check_save_harness.py', 'work/tools/check.py', 'work/tools/emu_*.py', 'work/tools/test_emu_*.py', 'work/tools/requirements-runtime.txt', '.github/workflows/site.yml']
   pull_request:
     paths: ['site/**', 'guide/**', 'work/tools/site/**', 'work/tools/docs/**', 'work/save-editor/**', 'work/save-core/**', 'work/research/save_core/**', 'work/tools/save_core.py', 'work/tools/test_save_*.py', 'work/tools/check_save_*.py', 'work/tools/test_check_save_harness.py', 'work/tools/check.py', 'work/tools/emu_*.py', 'work/tools/test_emu_*.py', 'work/tools/requirements-runtime.txt', '.github/workflows/site.yml']
@@ -21,7 +28,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: website-${{ github.event_name == 'pull_request' && github.ref || github.event_name == 'release' && github.ref || 'production' }}
+  group: website-${{ (github.event_name == 'pull_request' || github.event_name == 'release' || github.ref_name != github.event.repository.default_branch) && github.ref || 'production' }}
   cancel-in-progress: true
 
 jobs:
@@ -39,10 +46,23 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
 
+  # A push to the preview branch: rebuild the site from the default branch, which builds the preview
+  # under /preview/ (same reason as redeploy: only the default branch may deploy to github-pages).
+  preview-redeploy:
+    if: github.event_name == 'push' && github.ref_name != github.event.repository.default_branch && github.ref_name == (vars.PREVIEW_REF || 'website-fix')
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - run: gh workflow run site.yml --repo "$GITHUB_REPOSITORY" --ref "$DEFAULT_BRANCH"
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+
   # The save editor ships inside the site, but the Astro build only strips its types:
   # typecheck and test it here.
   save-editor:
-    if: github.event_name != 'release'
+    if: github.event_name != 'release' && (github.event_name != 'push' || github.ref_name == github.event.repository.default_branch)
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -76,7 +96,7 @@ jobs:
         working-directory: .
 
   build:
-    if: github.event_name != 'release'
+    if: github.event_name != 'release' && (github.event_name != 'push' || github.ref_name == github.event.repository.default_branch)
     runs-on: ubuntu-latest
     env:
       GUIDE_REPO_URL: ${{ github.server_url }}/${{ github.repository }}
@@ -167,13 +187,56 @@ jobs:
           GUIDE_TEST_DIST: '1'
       - name: Check links
         run: python3 work/tools/site/check_site.py --base "$GUIDE_BASE"
+      # Tester preview under /preview/: never fails the job; on any problem production deploys alone.
+      - name: Build the tester preview (PREVIEW_REF) under /preview/
+        id: preview
+        if: github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch
+        continue-on-error: true
+        env:
+          PREVIEW_REF: ${{ vars.PREVIEW_REF || 'website-fix' }}
+          GUIDE_BASE: /${{ github.event.repository.name }}/preview/
+          GUIDE_PUBLIC_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/preview/
+          GUIDE_PREVIEW: '1'
+        run: |
+          set -euo pipefail
+          if ! git ls-remote --exit-code --heads origin "$PREVIEW_REF" >/dev/null; then
+            echo "::notice title=No tester preview::branch $PREVIEW_REF does not exist; deploying production only"
+            exit 0
+          fi
+          git fetch --no-tags --depth 1 origin "refs/heads/$PREVIEW_REF"
+          dir="$RUNNER_TEMP/preview"
+          git worktree add --detach "$dir" FETCH_HEAD
+          echo "Preview: $PREVIEW_REF at $(git -C "$dir" rev-parse --short HEAD)"
+          # Same release patch and PDF tools as production; the PDF stays optional.
+          mkdir -p "$dir/site/public"
+          cp -R site/public/patch "$dir/site/public/patch"
+          cd "$dir"
+          python3 work/tools/site/sync_guide.py
+          python3 work/tools/site/build_pdf.py || echo "::warning title=Tester preview::no PDF"
+          (cd site && npm ci) && (cd work/save-editor && npm ci)
+          (cd site && npm run build)
+          (cd site && GUIDE_TEST_DIST=1 npm test) || echo "::warning title=Tester preview::site tests fail on $PREVIEW_REF"
+          python3 work/tools/site/check_site.py --base "$GUIDE_BASE" || echo "::warning title=Tester preview::broken links on $PREVIEW_REF"
+          echo "dist=$dir/site/dist" >> "$GITHUB_OUTPUT"
+      - name: Add the tester preview to the production site
+        if: steps.preview.outcome == 'success' && steps.preview.outputs.dist != ''
+        env:
+          PREVIEW_DIST: ${{ steps.preview.outputs.dist }}
+          GUIDE_PREVIEW_BASE: /${{ github.event.repository.name }}/preview/
+        run: |
+          cp -R "$PREVIEW_DIST" site/dist/preview
+          # Only effective if the site is ever served from a domain root; the preview pages carry noindex anyway.
+          printf 'User-agent: *\nDisallow: %s\n' "$GUIDE_PREVIEW_BASE" > site/dist/robots.txt
+      - name: Warn when the tester preview failed
+        if: steps.preview.outcome == 'failure'
+        run: echo "::warning title=Tester preview not deployed::the preview build failed; production deploys without /preview/"
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request'
         with:
           path: site/dist
 
   deploy:
-    if: github.event_name != 'pull_request' && github.event_name != 'release'
+    if: github.event_name != 'pull_request' && github.event_name != 'release' && (github.event_name != 'push' || github.ref_name == github.event.repository.default_branch)
     needs: [build, save-editor]
     concurrency:
       group: pages-deploy
