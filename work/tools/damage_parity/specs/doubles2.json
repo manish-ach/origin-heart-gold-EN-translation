@@ -1,0 +1,135 @@
+{
+ "name": "doubles2",
+ "player": [
+  {
+   "species": 68,
+   "level": 100,
+   "moves": [
+    157,
+    89,
+    304,
+    150
+   ]
+  },
+  {
+   "species": 143,
+   "level": 100,
+   "moves": [
+    150
+   ]
+  }
+ ],
+ "bpp": [
+  {
+   "species": 68,
+   "ability": 99
+  },
+  {
+   "species": 143,
+   "ability": 50
+  }
+ ],
+ "battles": [
+  {
+   "trainer": 34,
+   "trainer2": 34,
+   "tmEdit": {
+    "454": {
+     "moves": [
+      150
+     ],
+     "ability": 50
+    },
+    "308": {
+     "moves": [
+      150
+     ],
+     "ability": 50
+    },
+    "107": {
+     "moves": [
+      150
+     ],
+     "ability": 50
+    },
+    "106": {
+     "moves": [
+      150
+     ],
+     "ability": 50
+    }
+   },
+   "turns": [
+    {
+     "slot": 0,
+     "slot2": 0,
+     "target2": [
+      192,
+      104
+     ],
+     "tag": "spread-2-targets",
+     "field": {
+      "gameType": "Doubles"
+     }
+    },
+    {
+     "slot": 1,
+     "slot2": 0,
+     "target": [
+      64,
+      40
+     ],
+     "target2": [
+      192,
+      104
+     ],
+     "tag": "eq-3-targets",
+     "field": {
+      "gameType": "Doubles"
+     }
+    },
+    {
+     "slot": 2,
+     "slot2": 0,
+     "target2": [
+      192,
+      104
+     ],
+     "tag": "hv-2-targets",
+     "field": {
+      "gameType": "Doubles"
+     },
+     "set": {
+      "454": {
+       "hp": 1
+      }
+     }
+    },
+    {
+     "slot": 0,
+     "slot2": 0,
+     "target2": [
+      192,
+      104
+     ],
+     "tag": "spread-after-replacement",
+     "field": {
+      "gameType": "Doubles"
+     }
+    },
+    {
+     "slot": 2,
+     "slot2": 0,
+     "target2": [
+      192,
+      104
+     ],
+     "tag": "hv-after-replacement",
+     "field": {
+      "gameType": "Doubles"
+     }
+    }
+   ]
+  }
+ ]
+}

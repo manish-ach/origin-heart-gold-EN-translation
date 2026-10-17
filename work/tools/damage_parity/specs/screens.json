@@ -1,0 +1,117 @@
+{
+ "name": "screens",
+ "player": [
+  {
+   "species": 68,
+   "level": 50,
+   "moves": [
+    33,
+    52,
+    280,
+    150
+   ]
+  }
+ ],
+ "bpp": [
+  {
+   "species": 68,
+   "ability": 99
+  }
+ ],
+ "battles": [
+  {
+   "wild": {
+    "species": 143,
+    "level": 100,
+    "moves": [
+     115
+    ],
+    "bpp": {
+     "ability": 50,
+     "item": 0
+    }
+   },
+   "turns": [
+    {
+     "slot": 0,
+     "tag": "reflect-phys",
+     "field": {
+      "defenderSide": {
+       "reflect": true
+      }
+     }
+    },
+    {
+     "slot": 1,
+     "tag": "reflect-special",
+     "field": {
+      "defenderSide": {
+       "reflect": true
+      }
+     }
+    },
+    {
+     "slot": 2,
+     "tag": "reflect-phys",
+     "field": {
+      "defenderSide": {
+       "reflect": true
+      }
+     }
+    },
+    {
+     "slot": 0,
+     "crit": true,
+     "tag": "reflect-crit",
+     "field": {
+      "defenderSide": {
+       "reflect": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "wild": {
+    "species": 143,
+    "level": 100,
+    "moves": [
+     113
+    ],
+    "bpp": {
+     "ability": 50,
+     "item": 0
+    }
+   },
+   "turns": [
+    {
+     "slot": 1,
+     "tag": "ls-special",
+     "field": {
+      "defenderSide": {
+       "lightScreen": true
+      }
+     }
+    },
+    {
+     "slot": 0,
+     "tag": "ls-phys",
+     "field": {
+      "defenderSide": {
+       "lightScreen": true
+      }
+     }
+    },
+    {
+     "slot": 1,
+     "tag": "ls-special",
+     "field": {
+      "defenderSide": {
+       "lightScreen": true
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

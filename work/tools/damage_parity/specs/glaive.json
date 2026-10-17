@@ -1,0 +1,118 @@
+{
+ "name": "glaive",
+ "player": [
+  {
+   "species": 68,
+   "level": 100,
+   "moves": [
+    862,
+    33,
+    150
+   ]
+  }
+ ],
+ "bpp": [
+  {
+   "species": 68,
+   "ability": 99
+  },
+  {
+   "species": 143,
+   "ability": 50,
+   "item": 0
+  }
+ ],
+ "wild": {
+  "species": 143,
+  "level": 60,
+  "moves": [
+   33
+  ]
+ },
+ "turns": [
+  {
+   "slot": 2,
+   "tag": "control",
+   "set": {
+    "68": {
+     "spe": 200,
+     "hp": 290
+    },
+    "143": {
+     "spe": 10,
+     "hp": 600
+    }
+   }
+  },
+  {
+   "slot": 0,
+   "tag": "glaive-first",
+   "set": {
+    "68": {
+     "spe": 200,
+     "hp": 290
+    },
+    "143": {
+     "spe": 10,
+     "hp": 600
+    }
+   }
+  },
+  {
+   "slot": 1,
+   "tag": "next-turn-player-first",
+   "set": {
+    "68": {
+     "spe": 200,
+     "hp": 290
+    },
+    "143": {
+     "spe": 10,
+     "hp": 600
+    }
+   }
+  },
+  {
+   "slot": 0,
+   "tag": "glaive-player-slower",
+   "set": {
+    "68": {
+     "spe": 1,
+     "hp": 290
+    },
+    "143": {
+     "spe": 300,
+     "hp": 600
+    }
+   }
+  },
+  {
+   "slot": 2,
+   "tag": "next-turn-foe-first",
+   "set": {
+    "68": {
+     "spe": 1,
+     "hp": 290
+    },
+    "143": {
+     "spe": 300,
+     "hp": 600
+    }
+   }
+  },
+  {
+   "slot": 2,
+   "tag": "two-turns-later",
+   "set": {
+    "68": {
+     "spe": 1,
+     "hp": 290
+    },
+    "143": {
+     "spe": 300,
+     "hp": 600
+    }
+   }
+  }
+ ]
+}

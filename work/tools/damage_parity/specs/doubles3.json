@@ -1,0 +1,130 @@
+{
+ "name": "doubles3",
+ "player": [
+  {
+   "species": 68,
+   "level": 100,
+   "moves": [
+    157,
+    304,
+    150
+   ]
+  },
+  {
+   "species": 143,
+   "level": 100,
+   "moves": [
+    150
+   ]
+  }
+ ],
+ "bpp": [
+  {
+   "species": 68,
+   "ability": 99
+  },
+  {
+   "species": 143,
+   "ability": 50
+  }
+ ],
+ "battles": [
+  {
+   "trainer": 102,
+   "trainer2": 102,
+   "noTrainerRef": true,
+   "tmEdit": {
+    "350": {
+     "moves": [
+      150
+     ],
+     "ability": 50
+    },
+    "281": {
+     "moves": [
+      150
+     ],
+     "ability": 50
+    }
+   },
+   "turns": [
+    {
+     "slot": 0,
+     "slot2": 0,
+     "target2": [
+      192,
+      104
+     ],
+     "tag": "spread-2-targets",
+     "field": {
+      "gameType": "Doubles"
+     },
+     "set": {
+      "281": {
+       "hp": 1
+      },
+      "350": {
+       "hp": 3000
+      }
+     }
+    },
+    {
+     "slot": 0,
+     "slot2": 0,
+     "target": [
+      [
+       64,
+       40
+      ],
+      [
+       192,
+       40
+      ]
+     ],
+     "target2": [
+      192,
+      104
+     ],
+     "tag": "spread-1-target-left",
+     "field": {
+      "gameType": "Doubles",
+      "spreadTargets": 1
+     },
+     "set": {
+      "350": {
+       "hp": 3000
+      }
+     }
+    },
+    {
+     "slot": 1,
+     "slot2": 0,
+     "target": [
+      [
+       64,
+       40
+      ],
+      [
+       192,
+       40
+      ]
+     ],
+     "target2": [
+      192,
+      104
+     ],
+     "tag": "hv-1-target-left",
+     "field": {
+      "gameType": "Doubles",
+      "spreadTargets": 1
+     },
+     "set": {
+      "350": {
+       "hp": 3000
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+ "name": "abil_def",
+ "player": [
+  {
+   "species": 68,
+   "level": 50,
+   "moves": [
+    33,
+    52,
+    280,
+    86
+   ]
+  }
+ ],
+ "bpp": [
+  {
+   "species": 68,
+   "ability": 99
+  }
+ ],
+ "battles": [
+  {
+   "wild": {
+    "species": 143,
+    "level": 100,
+    "moves": [
+     150
+    ],
+    "bpp": {
+     "ability": 7,
+     "item": 0
+    }
+   },
+   "turns": [
+    {
+     "slot": 0,
+     "tag": "limber-phys"
+    },
+    {
+     "slot": 1,
+     "tag": "limber-special"
+    },
+    {
+     "slot": 0,
+     "crit": true,
+     "tag": "limber-phys-crit"
+    }
+   ]
+  },
+  {
+   "wild": {
+    "species": 143,
+    "level": 100,
+    "moves": [
+     150
+    ],
+    "bpp": {
+     "ability": 75,
+     "item": 0
+    }
+   },
+   "turns": [
+    {
+     "slot": 0,
+     "tag": "shellarmor-phys"
+    },
+    {
+     "slot": 2,
+     "tag": "shellarmor-phys"
+    }
+   ]
+  },
+  {
+   "wild": {
+    "species": 143,
+    "level": 100,
+    "moves": [
+     150
+    ],
+    "bpp": {
+     "ability": 63,
+     "item": 0
+    }
+   },
+   "turns": [
+    {
+     "slot": 0,
+     "tag": "marvel-nostatus"
+    },
+    {
+     "slot": 3,
+     "tag": "twave"
+    },
+    {
+     "slot": 0,
+     "tag": "marvel-par-phys",
+     "defStatus": "par"
+    },
+    {
+     "slot": 1,
+     "tag": "marvel-par-special",
+     "defStatus": "par"
+    }
+   ]
+  },
+  {
+   "wild": {
+    "species": 143,
+    "level": 100,
+    "moves": [
+     150
+    ],
+    "bpp": {
+     "ability": 6,
+     "item": 0
+    }
+   },
+   "turns": [
+    {
+     "slot": 1,
+     "tag": "damp-def-fire"
+    },
+    {
+     "slot": 0,
+     "tag": "damp-def-tackle"
+    }
+   ]
+  },
+  {
+   "wild": {
+    "species": 143,
+    "level": 100,
+    "moves": [
+     150
+    ],
+    "bpp": {
+     "ability": 68,
+     "item": 0
+    }
+   },
+   "turns": [
+    {
+     "slot": 2,
+     "tag": "swarm-def-se"
+    },
+    {
+     "slot": 0,
+     "tag": "swarm-def-neutral"
+    }
+   ]
+  },
+  {
+   "wild": {
+    "species": 143,
+    "level": 100,
+    "moves": [
+     150
+    ],
+    "bpp": {
+     "ability": 327,
+     "item": 0
+    }
+   },
+   "turns": [
+    {
+     "slot": 0,
+     "tag": "a327-nostatus"
+    },
+    {
+     "slot": 3,
+     "tag": "twave"
+    },
+    {
+     "slot": 0,
+     "tag": "a327-par",
+     "defStatus": "par"
+    }
+   ]
+  }
+ ]
+}

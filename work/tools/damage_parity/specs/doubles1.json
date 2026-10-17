@@ -1,0 +1,146 @@
+{
+ "name": "doubles1",
+ "player": [
+  {
+   "species": 68,
+   "level": 100,
+   "moves": [
+    157,
+    304,
+    150
+   ]
+  },
+  {
+   "species": 143,
+   "level": 100,
+   "moves": [
+    150
+   ]
+  }
+ ],
+ "bpp": [
+  {
+   "species": 68,
+   "ability": 99
+  },
+  {
+   "species": 143,
+   "ability": 50
+  }
+ ],
+ "battles": [
+  {
+   "trainer": 34,
+   "trainer2": 34,
+   "tmEdit": {
+    "454": {
+     "moves": [
+      115
+     ],
+     "ability": 50
+    },
+    "308": {
+     "moves": [
+      113
+     ],
+     "ability": 50
+    },
+    "107": {
+     "moves": [
+      150
+     ],
+     "ability": 50
+    },
+    "106": {
+     "moves": [
+      150
+     ],
+     "ability": 50
+    }
+   },
+   "turns": [
+    {
+     "slot": 0,
+     "slot2": 0,
+     "tag": "setup(foes faster: screens up)",
+     "target2": [
+      192,
+      104
+     ],
+     "field": {
+      "gameType": "Doubles",
+      "defenderSide": {
+       "reflect": true,
+       "lightScreen": true
+      }
+     }
+    },
+    {
+     "slot": 0,
+     "slot2": 0,
+     "tag": "spread-phys-reflect-d",
+     "field": {
+      "gameType": "Doubles",
+      "defenderSide": {
+       "reflect": true,
+       "lightScreen": true
+      }
+     },
+     "target2": [
+      192,
+      104
+     ]
+    },
+    {
+     "slot": 1,
+     "slot2": 0,
+     "tag": "spread-spec-ls-d",
+     "field": {
+      "gameType": "Doubles",
+      "defenderSide": {
+       "reflect": true,
+       "lightScreen": true
+      }
+     },
+     "target2": [
+      192,
+      104
+     ]
+    },
+    {
+     "slot": 0,
+     "slot2": 0,
+     "crit": true,
+     "tag": "spread-crit-d",
+     "field": {
+      "gameType": "Doubles",
+      "defenderSide": {
+       "reflect": true,
+       "lightScreen": true
+      }
+     },
+     "target2": [
+      192,
+      104
+     ]
+    },
+    {
+     "slot": 1,
+     "slot2": 0,
+     "tag": "spread-spec-ls-d",
+     "field": {
+      "gameType": "Doubles",
+      "defenderSide": {
+       "reflect": true,
+       "lightScreen": true
+      }
+     },
+     "target2": [
+      192,
+      104
+     ]
+    }
+   ]
+  }
+ ]
+}

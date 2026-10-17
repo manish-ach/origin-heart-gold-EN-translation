@@ -93,4 +93,8 @@ export default defineConfig({
   devToolbar: {
     enabled: false,
   },
+  vite: {
+    // Keep /*! @license */ banners (the damage engine's MIT notice) in minified bundles.
+    build: { rolldownOptions: { output: { comments: { legal: true } } } },
+  },
 });

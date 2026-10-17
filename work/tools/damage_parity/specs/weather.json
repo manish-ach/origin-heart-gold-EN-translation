@@ -1,0 +1,82 @@
+{
+ "name": "weather",
+ "player": [
+  {
+   "species": 68,
+   "level": 50,
+   "moves": [
+    240,
+    55,
+    52,
+    241
+   ]
+  }
+ ],
+ "bpp": [
+  {
+   "species": 68,
+   "ability": 99
+  },
+  {
+   "species": 143,
+   "ability": 50,
+   "item": 0
+  }
+ ],
+ "wild": {
+  "species": 143,
+  "level": 100,
+  "moves": [
+   150
+  ]
+ },
+ "turns": [
+  {
+   "slot": 1,
+   "tag": "water-none"
+  },
+  {
+   "slot": 0,
+   "tag": "rain-dance"
+  },
+  {
+   "slot": 1,
+   "tag": "water-rain",
+   "field": {
+    "weather": "Rain"
+   }
+  },
+  {
+   "slot": 2,
+   "tag": "fire-rain",
+   "field": {
+    "weather": "Rain"
+   }
+  },
+  {
+   "slot": 3,
+   "tag": "sunny-day"
+  },
+  {
+   "slot": 2,
+   "tag": "fire-sun",
+   "field": {
+    "weather": "Sun"
+   }
+  },
+  {
+   "slot": 1,
+   "tag": "water-sun",
+   "field": {
+    "weather": "Sun"
+   }
+  },
+  {
+   "slot": 2,
+   "tag": "fire-sun",
+   "field": {
+    "weather": "Sun"
+   }
+  }
+ ]
+}

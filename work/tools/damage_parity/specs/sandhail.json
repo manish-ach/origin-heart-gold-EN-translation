@@ -1,0 +1,111 @@
+{
+ "name": "sandhail",
+ "player": [
+  {
+   "species": 68,
+   "level": 50,
+   "moves": [
+    201,
+    258,
+    52,
+    33
+   ]
+  }
+ ],
+ "bpp": [
+  {
+   "species": 68,
+   "ability": 99
+  }
+ ],
+ "battles": [
+  {
+   "wild": {
+    "species": 185,
+    "level": 100,
+    "moves": [
+     150
+    ],
+    "bpp": {
+     "ability": 50,
+     "item": 0
+    }
+   },
+   "turns": [
+    {
+     "slot": 2,
+     "tag": "special-none"
+    },
+    {
+     "slot": 0,
+     "tag": "sandstorm"
+    },
+    {
+     "slot": 2,
+     "tag": "special-sand-rock",
+     "field": {
+      "weather": "Sand"
+     }
+    },
+    {
+     "slot": 3,
+     "tag": "phys-sand-rock",
+     "field": {
+      "weather": "Sand"
+     }
+    },
+    {
+     "slot": 2,
+     "tag": "special-sand-rock",
+     "field": {
+      "weather": "Sand"
+     }
+    }
+   ]
+  },
+  {
+   "wild": {
+    "species": 362,
+    "level": 100,
+    "moves": [
+     150
+    ],
+    "bpp": {
+     "ability": 50,
+     "item": 0
+    }
+   },
+   "turns": [
+    {
+     "slot": 3,
+     "tag": "phys-none"
+    },
+    {
+     "slot": 1,
+     "tag": "hail"
+    },
+    {
+     "slot": 3,
+     "tag": "phys-hail-ice",
+     "field": {
+      "weather": "Hail"
+     }
+    },
+    {
+     "slot": 2,
+     "tag": "special-hail-ice",
+     "field": {
+      "weather": "Hail"
+     }
+    },
+    {
+     "slot": 3,
+     "tag": "phys-hail-ice",
+     "field": {
+      "weather": "Hail"
+     }
+    }
+   ]
+  }
+ ]
+}
