@@ -63,7 +63,10 @@ const inactive = battles.length > 0 && battles.every((p) => p.conds.length > 0 &
 		</tbody>
 	</table>
 	<p class="small muted">IVs show HP separately when it differs; “others” means each of the other five stats.
-		{!showEvs && ' No EV investment.'} “Generated” means the nature can vary.</p>
+		{!showEvs && ' No EV investment.'}</p>
 
-	{showProfileLink && <p class="small"><a href={url(`/trainers/records/${t.id}/#trainer-${t.id}`)}>View all encounters and teams</a></p>}
+	<p class="small">
+		{showProfileLink && <><a href={url(`/trainers/records/${t.id}/#trainer-${t.id}`)}>View all encounters and teams</a>{t.team.some((m) => m.id) && ' · '}</>}
+		{t.team.some((m) => m.id) && <a href={url(`/team-builder/#battle=${t.id}`)}>Battle check</a>}
+	</p>
 </details>

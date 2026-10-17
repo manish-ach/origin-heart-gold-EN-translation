@@ -156,6 +156,12 @@ body:has(#team-builder) { --sl-content-width: 82rem; }
 #team-builder .tb-empty strong { color: var(--tb-ink); font-size: 1rem; }
 #team-builder .tb-empty > span:last-child { font-size: .78rem; }
 #team-builder .tb-mobile-nav { display: none; }
+/* Battle check: a calm entry point; its own styles load with it (battle-check.css). */
+#team-builder .tb-battle { display: none; min-width: 0; margin: 0; background: var(--tb-card); border: 1px solid var(--tb-border); border-radius: 18px; padding: 1.2rem; }
+#team-builder[data-view='battle'] .tb-battle { display: block; grid-column: 1 / -1; }
+#team-builder[data-view='battle'] :is(.tb-browse, .tb-guide) { display: none; }
+#team-builder :is(.tb-battle-entry, .tb-battle-back) { margin: 0; border: 1px solid var(--tb-border); border-radius: 999px; background: var(--tb-card); color: var(--tb-muted); padding: .3rem .75rem; font-size: .7rem; }
+#team-builder :is(.tb-battle-entry, .tb-battle-back):hover { color: var(--tb-ink); border-color: var(--tb-muted); }
 #team-builder #tb-guide-heading { scroll-margin-top: 6rem; }
 #team-builder .tb-credit { margin-top: 1.5rem; color: var(--tb-muted); font-size: .65rem; }
 /* Let the catalog use the full canvas until a Pokémon needs a field guide. */
@@ -171,6 +177,7 @@ body:has(#team-builder) { --sl-content-width: 82rem; }
   #team-builder .tb-mobile-nav button { flex: 1; margin: 0; border: 0; border-radius: 8px; background: transparent; padding: .65rem; font-size: .8rem; color: var(--tb-muted); }
   #team-builder .tb-mobile-nav button[aria-pressed='true'] { background: var(--tb-card); color: var(--tb-ink); box-shadow: 0 2px 6px #0000000a; }
   #team-builder[data-view='browse'] .tb-guide, #team-builder[data-view='guide'] .tb-browse { display: none; }
+  #team-builder :is(.tb-battle-entry, .tb-battle-back) { display: none; }
   #team-builder .tb-catalog { grid-template-columns: repeat(4,minmax(0,1fr)); }
   #team-builder .tb-slots { grid-template-columns: repeat(3,minmax(0,1fr)); }
   #team-builder .tb-slot-select, #team-builder .tb-empty-slot { min-height: 174px; }
@@ -183,7 +190,7 @@ body:has(#team-builder) { --sl-content-width: 82rem; }
   #team-builder .tb-slot-select strong { font-size: .72rem; }
   #team-builder .tb-slot-select .type { font-size: .51rem; padding-inline: .25rem; }
   #team-builder .tb-catalog { grid-template-columns: repeat(3,minmax(0,1fr)); }
-  #team-builder .tb-guide { padding: .85rem; }
+  #team-builder :is(.tb-guide, .tb-battle) { padding: .85rem; }
   #team-builder .tb-detail-heading { padding: .8rem; }
   #team-builder .tb-detail-heading .tb-art { width: 92px; height: 92px; }
   #team-builder .tb-journey { gap: .65rem; }

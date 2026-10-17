@@ -1,4 +1,5 @@
-import { TEAM_SIZE, STORAGE_KEY, sanitizeTeam, parseTeamHash, teamHash, filterCatalog, availableTeamPokemon } from './team-builder.mjs';
+import { TEAM_SIZE, filterCatalog, availableTeamPokemon } from './team-builder.mjs';
+import { loadStoredState, saveStoredState, parseStateHash, stateHash, sanitizeSets, sanitizeSet, sanitizeOpponent } from './team-builder-state.mjs';
 import { encounterChance } from './encounter-format.mjs';
 import { referenceArtwork } from '../../../work/save-editor/src/ui/artwork';
 import { formatTimeHints } from './time-hints.mjs';
@@ -24,9 +25,9 @@ export function setupTeamBuilder() {
   const link = (href: string | null, text: unknown) => href ? `<a href="${escape(url(href))}">${escape(text)}</a>` : escape(text);
   const types = (mon: Mon) => mon.types.map(type => `<span class="type type-${escape(type.toLowerCase())}">${escape(type)}</span>`).join('');
   const tone = (mon: Mon) => `style="--mon-hue:${hues[mon.types[0]] ?? 42}"`;
-  const art = (mon: Mon) => {
+  const art = (mon: Mon, extra = '') => {
     const image = referenceArtwork(mon.baseSpeciesId, mon.formId);
-    return `<span class="tb-art" ${tone(mon)}>${image ? `<img src="${escape(image.src)}" data-fallback="${escape(image.fallback)}" alt="" width="128" height="128" loading="lazy" />` : '<span class="tb-art-empty" aria-hidden="true">◇</span>'}</span>`;
+    return `<span class="tb-art${extra}" ${tone(mon)}>${image ? `<img src="${escape(image.src)}" data-fallback="${escape(image.fallback)}" alt="" width="128" height="128" loading="lazy" />` : '<span class="tb-art-empty" aria-hidden="true">◇</span>'}</span>`;
   };
   const wireImages = (parent: HTMLElement) => parent.querySelectorAll<HTMLImageElement>('img[data-fallback]').forEach(img => {
     img.addEventListener('error', () => {
@@ -35,10 +36,15 @@ export function setupTeamBuilder() {
     });
   });
   let team: number[] = [];
+  let sets: Record<number, any> = {};
+  let opponent: any = null;
   let storageAvailable = true;
-  try { team = sanitizeTeam(JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '[]'), knownIds); }
+  try { ({ team, sets, opponent } = loadStoredState(localStorage, knownIds)); }
   catch { storageAvailable = false; }
-  team = parseTeamHash(location.hash, knownIds) ?? team;
+  const linked = parseStateHash(location.hash, knownIds);
+  // An explicit shared team (and its sets) takes precedence over browser storage.
+  if (linked.team) { team = linked.team; sets = linked.sets ?? {}; }
+  if (linked.opponent !== undefined) opponent = linked.opponent;
   let active: number | null = team[0] ?? null;
   let page = 0;
   let request = 0;
@@ -47,12 +53,13 @@ export function setupTeamBuilder() {
   const status = (text: string) => { get('status').textContent = text; };
 
   function persist() {
-    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(team)); storageAvailable = true; }
+    sets = sanitizeSets(sets, team);
+    try { saveStoredState(localStorage, { team, sets, opponent }); storageAvailable = true; }
     catch { storageAvailable = false; }
     get('save-status').textContent = storageAvailable
       ? '✓ Saved in this browser'
       : 'Browser storage is unavailable. Copy your team link to keep this team.';
-    try { history.replaceState(history.state, '', `${location.pathname}${location.search}${teamHash(team)}`); }
+    try { history.replaceState(history.state, '', `${location.pathname}${location.search}${stateHash({ team, sets, opponent }, { battle: root.dataset.view === 'battle' })}`); }
     catch { /* The planner still works when history is disabled. */ }
     get('share-fallback').hidden = true;
   }
@@ -205,16 +212,61 @@ export function setupTeamBuilder() {
     } finally { if (token === request) panel.setAttribute('aria-busy', 'false'); }
   }
 
+  // Battle check: its code, the damage engine and their data load only when it is opened.
+  let battle: { refresh(): void; selectOpponent(opponent: any): void } | null = null;
+  let battleLoading: Promise<void> | null = null;
+  let battleStale = false;
+  function openBattle() {
+    if (battle || battleLoading) return;
+    const body = get('battle-body');
+    body.setAttribute('aria-busy', 'true');
+    body.innerHTML = '<p class="tb-help">Loading Battle check…</p>';
+    battleLoading = import('./battle-check').then(({ mountBattleCheck }) => mountBattleCheck({
+      root, panel: body, url, escape, hues, wireImages,
+      art: (id, size = 'sm') => { const mon = byId.get(id); return mon ? art(mon, ` tb-art-${size}`) : '<span class="tb-art"></span>'; },
+      team: () => team, active: () => active,
+      setActive: id => { active = id; renderTeam(); void renderDetails(); },
+      sets: () => sets,
+      setSet: (id, set) => { const clean = sanitizeSet(set); if (clean) sets[id] = clean; else delete sets[id]; persist(); },
+      opponent: () => opponent,
+      setOpponent: next => { opponent = sanitizeOpponent(next); persist(); },
+      replaceTeam: (ids, next) => { team = ids.filter(id => knownIds.has(id)).slice(0, TEAM_SIZE); sets = sanitizeSets(next, team); active = team[0] ?? null; update(); },
+      canJoin: id => knownIds.has(id),
+      status, findPokemon: () => { showView('browse'); get('search').focus(); },
+    })).then(view => { battle = view; battleStale = false; body.setAttribute('aria-busy', 'false'); })
+      .catch(() => {
+        battleLoading = null;
+        body.setAttribute('aria-busy', 'false');
+        body.innerHTML = '<p>Couldn’t load Battle check. Your team is still saved in the page.</p><button type="button" data-battle-retry>Try again</button>';
+      });
+  }
   function showView(view: string) {
     root.dataset.view = view;
     root.querySelectorAll<HTMLButtonElement>('[data-view]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.view === view)));
+    if (view !== 'battle') return;
+    openBattle();
+    // After the caller's own updates (a linked opponent is checked first), so it never draws a stale opponent.
+    if (battle && battleStale) queueMicrotask(() => { if (battleStale && root.dataset.view === 'battle') refreshBattle(); });
   }
-  showView('browse');
-  function update() { persist(); renderTeam(); renderCatalog(); void renderDetails(); }
+  function refreshBattle() { battleStale = false; battle?.refresh(); }
+  showView(linked.battle ? 'battle' : 'browse');
+  // A hidden Battle check is redrawn when it is shown again, not on every team change.
+  function update() {
+    persist(); renderTeam(); renderCatalog(); void renderDetails();
+    if (root.dataset.view === 'battle') refreshBattle(); else battleStale = true;
+  }
   root.addEventListener('click', event => {
     const button = (event.target as Element).closest<HTMLButtonElement>('button');
     if (!button || button.disabled) return;
-    if (button.dataset.view) { showView(button.dataset.view); return; }
+    if (button.dataset.view) {
+      const leaving = root.dataset.view === 'battle' || button.dataset.view === 'battle';
+      showView(button.dataset.view);
+      if (leaving) persist();
+      if (button.dataset.view === 'battle' && button.closest('.tb-guide')) get('battle-heading').scrollIntoView({ block: 'start', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+      return;
+    }
+    if (button.hasAttribute('data-battle-retry')) { openBattle(); return; }
+    if (button.hasAttribute('data-battle-back')) { showView('guide'); persist(); get('guide-heading').scrollIntoView({ block: 'start', behavior: 'instant' }); return; }
     if (button.dataset.stage) {
       const source = get<HTMLDetailsElement>(`source-${button.dataset.stage}`); source.open = true;
       source.querySelector('summary')?.focus({ preventScroll: true });
@@ -238,6 +290,7 @@ export function setupTeamBuilder() {
       active = id; update();
       const selector = button.dataset.add ? `[data-add="${id}"]` : `[data-select="${id}"]`;
       root.querySelector<HTMLButtonElement>(selector)?.focus({ preventScroll: true });
+      if (button.dataset.select && root.dataset.view === 'battle') { status(`${byId.get(id)!.name} selected for Battle check.`); return; }
       if (button.dataset.select) { showView('guide'); get('guide-heading').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' }); }
     }
   });
@@ -248,15 +301,21 @@ export function setupTeamBuilder() {
   });
   get('previous').addEventListener('click', () => { page--; renderCatalog(); });
   get('next').addEventListener('click', () => { page++; renderCatalog(); });
-  get('clear').addEventListener('click', () => { team = []; active = null; showView('browse'); update(); status('Team cleared. Choose a Pokémon to start again.'); get('search').focus(); });
+  get('clear').addEventListener('click', () => { team = []; sets = {}; active = null; if (root.dataset.view !== 'battle') showView('browse'); update(); status('Team cleared. Choose a Pokémon to start again.'); get('search').focus(); });
   get('share').addEventListener('click', async () => {
-    const href = new URL(location.href); href.hash = teamHash(team);
+    const href = new URL(location.href); href.hash = stateHash({ team, sets, opponent }, { battle: root.dataset.view === 'battle' });
     try { await navigator.clipboard.writeText(href.href); status('Team link copied. Anyone with this link can open your team.'); }
     catch { get('share-fallback').hidden = false; const input = get<HTMLInputElement>('share-url'); input.value = href.href; input.focus(); input.select(); status('Copy the selected link to share your team.'); }
   });
   window.addEventListener('hashchange', () => {
-    const shared = parseTeamHash(location.hash, knownIds);
-    if (shared !== null) { team = shared; active = team[0] ?? null; update(); }
+    const shared = parseStateHash(location.hash, knownIds);
+    if (shared.team !== null) { team = shared.team; sets = shared.sets ?? {}; active = team[0] ?? null; }
+    if (shared.battle) {
+      if (shared.opponent !== undefined) { opponent = shared.opponent; }
+      showView('battle');
+      if (battle && shared.opponent !== undefined) battle.selectOpponent(shared.opponent);
+    }
+    if (shared.team !== null || shared.battle) update();
   });
   root.querySelector<HTMLElement>('.tb-app')!.hidden = false;
   update();
