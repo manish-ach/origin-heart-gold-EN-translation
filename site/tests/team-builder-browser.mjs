@@ -34,7 +34,7 @@ try {
   check(await page.locator('#tb-slots [data-select]').count(), 4, 'shared team');
   const text = await page.locator('#tb-details').textContent();
   assert.match(text, /Lv\. 16/); assert.match(text, /Lv\. 32/);
-  assert.match(text, /Pikachu starter: after the Cascade Badge/);
+  assert.match(text, /Pikachu starter only\. After the Cascade Badge/);
   assert.match(text, /Hard catch/); assert.doesNotMatch(text, /45 \/ 255/); assert.match(text, /Grass\/cave, day/); assert.match(text, /1%/);
   checks += 6;
   await page.locator('[data-select="94"]').click(); await guide('Gengar');
