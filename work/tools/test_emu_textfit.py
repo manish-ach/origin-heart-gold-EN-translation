@@ -1,5 +1,6 @@
 """Unit tests for emu_textfit (no emulator, no PIL): selection from a git ref, window mapping, the expected
 views, the fill-ins and the fit judge on synthetic pixel buffers."""
+import importlib.util
 import json
 import subprocess
 import tempfile
@@ -90,6 +91,7 @@ class SpanishTargets(unittest.TestCase):
             with self.assertRaises(ValueError):
                 T.item_plan(("a027", 60, 0), lang="es")
 
+    @unittest.skipUnless(importlib.util.find_spec("PIL"), "image checks require pinned Pillow")
     def test_dex_reader_checks_actual_glyphs_and_locale_font(self):
         from unittest.mock import patch
         from PIL import Image
