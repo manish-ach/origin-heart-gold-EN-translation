@@ -13,6 +13,7 @@ import PokemonImage from '../../components/PokemonImage.astro';
 import AbilityLink from '../../components/AbilityLink.astro';
 import MoveTable from '../../components/MoveTable.astro';
 import Evolution from '../../components/Evolution.astro';
+import { changeBySlug, signed } from '../../lib/species-changes';
 import { species, speciesById, tmByLabel, tms, itemById, itemUrl, tutorsByMove, url, STAT_NAMES, type Species } from '../../lib/data';
 
 export function getStaticPaths() {
@@ -24,6 +25,7 @@ const acquisitionQuestLinks = new Set(s.acquisitions.flatMap(source => source.qu
 const additionalQuests = (s.quests ?? []).filter(quest => !acquisitionQuestLinks.has(quest.href));
 const obtainableForm = s.formChanges.some(f => f.result === s.id && speciesById.get(f.base)?.how);
 const total = s.stats.reduce((a, b) => a + b, 0);
+const change = changeBySlug.get(s.slug);
 const ev = s.ev.map((v, i) => (v ? `${v} ${STAT_NAMES[i]}` : '')).filter(Boolean).join(', ') || '—';
 const idx = species.findIndex((x) => x.id === s.id);
 const prev = species[idx - 1], next = species[idx + 1];
@@ -45,7 +47,7 @@ const headings = [
 >
 	<Availability reason={s.unavailableReason} detail />
 	<div class="pokemon-overview"><PokemonImage s={s} size="large" /><div class="mon-head">
-		<div class="types">{s.types.map((t) => <Type type={t} />)}{s.game && <span class="small muted"> In-game spelling: {s.game}</span>}</div>
+		<div class="types">{s.types.map((t) => <Type type={t} />)}{s.game && <span class="small muted"> In-game spelling: {s.game}</span>}{change?.typesChanged && <span class="small muted"> Official games: {change.officialTypes.join(' / ')} (<a href={url('/type-changes/')}>type changes</a>)</span>}</div>
 		<dl class="facts">
 			<dt>Abilities</dt><dd>{s.abilityIds.length ? s.abilityIds.map(id => <AbilityLink id={id} summary />) : '—'}</dd>
 			<dt>Hidden ability</dt><dd><AbilityLink id={s.hiddenAbilityId} summary /></dd>
@@ -61,9 +63,9 @@ const headings = [
 	<table class="stats compact">
 		<tbody>
 			{s.stats.map((v, i) => (
-				<tr><th>{STAT_NAMES[i]}</th><td>{v}</td><td class="bar-cell"><span class="bar" style={`width:${Math.min(100, v / 2)}%`}></span></td></tr>
+				<tr><th>{STAT_NAMES[i]}</th><td>{v}{change?.statsChanged && !change.comparedWith && change.officialStats[i] !== v && <span class="small muted"> (official {change.officialStats[i]})</span>}</td><td class="bar-cell"><span class="bar" style={`width:${Math.min(100, v / 2)}%`}></span></td></tr>
 			))}
-			<tr><th>Total</th><td>{total}</td><td></td></tr>
+			<tr><th>Total</th><td>{total}</td><td class="small muted">{change?.statsChanged && <>Official games: {change.officialTotal}{change.comparedWith && ` (${change.comparedWith.name})`}, {total === change.officialTotal ? 'same total, different spread' : `${signed(total - change.officialTotal)} in this hack`}. <a href={url('/stat-changes/')}>All base stat changes</a></>}</td></tr>
 		</tbody>
 	</table>
 

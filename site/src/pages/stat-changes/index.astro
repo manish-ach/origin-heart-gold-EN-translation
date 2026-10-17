@@ -1,0 +1,30 @@
+---
+// Computed from species.json and official_species.json (lib/species-changes.ts); nothing here is typed by hand.
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { speciesChanges, grouped, statDiffText, signed, slugOf } from '../../lib/species-changes';
+import { availabilityLabel, url } from '../../lib/data';
+const changed = speciesChanges.filter((c) => c.statsChanged);
+const shown = changed.filter((c) => c.availability === 'documented');
+const other = changed.filter((c) => c.availability !== 'documented');
+const groups = grouped(shown);
+const title = (name: string) => name === 'Official forms' || name === 'Custom forms' ? name : `${name} Pokémon`;
+const headings = [...groups.map((g) => ({ depth: 2, slug: slugOf(g.name), text: title(g.name) })), ...(other.length ? [{ depth: 2, slug: 'not-obtainable', text: 'Not obtainable in normal play' }] : [])];
+---
+<StarlightPage frontmatter={{ title: 'Base stat changes', description: 'Every Pokémon and form whose base stats in Origin HeartGold differ from the official games.' }} headings={headings}>
+<p>Origin HeartGold changes the base stats of many Pokémon: some get a higher base stat total (BST), others keep the total but move points between stats. The tables list the {shown.length} species and forms you can get in the game whose base stats differ from the official games. This is how the original Chinese hack works; the English patch changes none of it.</p>
+<p>“Official” is the species’ latest official base stats, so changes made in later official games (for example Pikachu’s higher Defense) don’t count as Origin HeartGold changes. The <a href={url('/pokemon/')}>Pokémon pages</a> always show the stats you will actually meet. See also <a href={url('/type-changes/')}>Type changes</a>.</p>
+{groups.map((g) => <>
+	<h2 id={slugOf(g.name)}>{title(g.name)} ({g.rows.length})</h2>
+	{g.name === 'Custom forms' && <p>These forms exist only in Origin HeartGold; each is compared with its ordinary species.</p>}
+	<table class="compact"><thead><tr><th>Pokémon</th><th>Official BST</th><th>Origin HeartGold</th><th>Change</th><th>Stats that differ</th></tr></thead>
+	<tbody>{g.rows.map((c) => <tr>
+		<td><a href={url(`/pokemon/${c.s.slug}/`)}>{c.s.name}</a>{c.comparedWith && <span class="small muted"> (vs {c.comparedWith.name})</span>}</td>
+		<td>{c.officialTotal}</td><td><strong>{c.total}</strong></td><td>{signed(c.total - c.officialTotal)}</td>
+		<td class="small">{statDiffText(c)}</td></tr>)}</tbody></table>
+</>)}
+{other.length > 0 && <>
+	<h2 id="not-obtainable">Not obtainable in normal play ({other.length})</h2>
+	<p>These entries also differ, but the guide knows no way to get them in normal play.</p>
+	<ul class="small">{other.map((c) => <li><a href={url(`/pokemon/${c.s.slug}/`)}>{c.s.name}</a> ({availabilityLabel(c.s)}): BST {c.officialTotal} → {c.total}; {statDiffText(c)}</li>)}</ul>
+</>}
+</StarlightPage>

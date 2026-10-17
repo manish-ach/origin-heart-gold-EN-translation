@@ -87,6 +87,16 @@ The desktop planner places the catalog beside a field guide. Mobile uses Find Po
 Field guide tabs. Evolution cards open each stage's catch locations; full acquisition
 conditions, alternative evolution routes and base stats are expandable.
 
+### Base stat and type changes
+
+`/stat-changes/` and `/type-changes/` (and the "Official games" notes on each Pokémon page) are computed
+at build time by `src/lib/species-changes.ts` from `src/data/species.json` and
+`src/data/official_species.json`. That file lists the official values (the latest official games) only
+for entries that differ from the hack. Its Generation I–IV and HeartGold-form entries come from the US
+ROM plus the later official changes in `work/tools/site/species_comparisons.py`
+(`--check-us-rom` / `--import-us-rom`); later species and forms are curated (`"source": "official"`).
+`test_species_comparisons.py` fails when an entry no longer differs from the game data.
+
 ### Shared time, encounter and catch labels
 
 `TimeHints.astro` renders sun/moon symbols and dotted-underlined time labels for

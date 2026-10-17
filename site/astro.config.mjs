@@ -71,6 +71,8 @@ export default defineConfig({
             { label: "TMs and HMs", link: "/tms/" },
             { label: "Abilities", link: "/abilities/" },
             { label: "Overworld abilities", slug: "overworld-abilities" },
+            { label: "Type changes", link: "/type-changes/" },
+            { label: "Base stat changes", link: "/stat-changes/" },
             { label: "Apricorn trees", slug: "apricorn-trees" },
             { label: "Trainers", link: "/trainers/" },
             { label: "Move tutors", link: "/tutors/" },
