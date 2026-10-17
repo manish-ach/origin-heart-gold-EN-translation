@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
-import { REPO_URL, SITE_URL, BASE } from "./site.config.mjs";
+import { REPO_URL, SITE_URL, BASE, PREVIEW } from "./site.config.mjs";
 
 const base = BASE.endsWith("/") ? BASE : BASE + "/";
 
@@ -21,9 +21,10 @@ export default defineConfig({
       head: [
         { tag: "meta", attrs: { name: "ohg-repo", content: REPO_URL } },
         { tag: "script", attrs: { src: base + "ohg.js", defer: true } },
-        {
+        ...(PREVIEW ? [{ tag: "meta", attrs: { name: "robots", content: "noindex, nofollow" } }] : []),
+        ...(PREVIEW ? [] : [{
           tag: "script",
-          // Only load analytics on the configured public site, never local previews.
+          // Only load analytics on the configured public site, never local or /preview/ builds.
           content: `if (location.protocol === "https:" && location.origin === ${JSON.stringify(new URL(SITE_URL).origin)}) {
             const script = document.createElement("script");
             script.dataset.goatcounter = "https://originheartgold.goatcounter.com/count";
@@ -31,7 +32,7 @@ export default defineConfig({
             script.src = "https://gc.zgo.at/count.js";
             document.head.append(script);
           }`,
-        },
+        }]),
       ],
       components: {
         MobileMenuToggle: "./src/components/MobileMenuToggle.astro",
@@ -40,6 +41,7 @@ export default defineConfig({
         Hero: "./src/components/Hero.astro",
         Footer: "./src/components/Footer.astro",
         Header: "./src/components/GuideHeader.astro",
+        Banner: "./src/components/Banner.astro",
       },
       sidebar: [
         {
