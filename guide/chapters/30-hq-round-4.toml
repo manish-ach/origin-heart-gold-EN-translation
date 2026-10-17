@@ -41,7 +41,7 @@ evidence = "guide/12 q-0354 (script file 135: script 7 coord 28,18 @861 SetVar 0
 id = "s04"
 main = true
 text = """
-**The Ice Path tunnel and the sealed spaces.** On Ice Path B2F, show the boy who guards the tunnel your **Anti-Age Spray** (Chapter 27) and walk to the ancient statue at its end: it sends you to **Dialga's space**. Giovanni is forcing Dialga into a Special Ball and Executive Cyrus (Lv. 89-90) holds you off. Then take the statue on Mt. Mortar B1F (the expedition, Chapter 25) to **Palkia's space**: after Executive Ariana (Lv. 90) the statue sends you on after Giovanni, whose Beedrill finishes Palkia off. He catches it and leaves holding all three keys to "the ultimate power". The Dialga fight keeps the Ice Path tunnel open from then on. Report to the Trainer Affairs desk.
+**The Ice Path tunnel and the sealed spaces.** On Ice Path B2F, show the boy who guards the tunnel your **Anti-Age Spray** (Chapter 27) and walk to the ancient statue at its end: it sends you to **Dialga's space**. Giovanni is forcing Dialga into a Special Ball and Executive Cyrus (Lv. 89-90) holds you off. Then take the statue on Mt. Mortar B1F (the expedition, Chapter 25) to **Palkia's space**: after Executive Ariana (Lv. 90) the statue sends you on after Giovanni, whose Beedrill finishes Palkia off. He catches it and leaves holding all three keys to "the ultimate power". The Dialga fight keeps the Ice Path tunnel open from then on.
 """
 unlocks = ["q-0356"]
 evidence = "guide/12 q-0356 (script file 130: script 7 coord 88,42 @1947 trainer 817, SetVar 0x40af = 10; script 8 coord 24,57 = 12; script 9 coord 24,45 trainers 817 + 553, SetVar = 13), guide/12 q-0355 (the tunnel needs the Anti-Age Spray; re-locks until the battle in Dialga's space), guide/11 q-0322 (Ariana at the Mt. Mortar statue). Order of the 0x40af chain (agent 4 check, file dumps): Dark Cave file 108 requires 4 and sets 5, 6; Reversal Cave file 135 requires 7 (set @861) and sets 8 (@2222); Ice Path file 101 sets 9 (@4735) and requires 9 at @3929; Dialga file 130 sets 10 (@1959); Mt. Mortar statue file 98 sets 11 (@3520); Palkia file 130 sets 12 (@1008) and 13 (@2696); the report check at file 31 @1702 needs 0x40af = 13."
@@ -51,6 +51,8 @@ id = "s05"
 main = true
 text = """
 **The Lake of Rage.** In the house in the north-west corner of the lake, Petrel threatens the man who lives there about "the Pokémon in the lake". Step in and fight **Petrel and a Grunt** (Petrel is Lv. 86-87). He runs away, and the man thanks you and tells you about the three legendary Pokémon of the lake. **After this scene, on Wednesdays** (by the DS clock, once the Mahogany HQ is cleared), the calm-day visitors appear at the lake: Fisherman Carson, Wesley the Wednesday sibling and an item on the ground. The man's three trials (a quiz for **Uxie**, a bond of maximum friendship for **Mesprit** and a battle for **Azelf**) must be done in order, and each Pokémon then waits at the lake on Wednesdays.
+
+When all four leads are done, report to the Trainer Affairs desk.
 """
 unlocks = ["q-0351", "q-0352", "q-0353", "q-0366"]
 evidence = "guide/12 q-0351 (round 4; Petrel and a Grunt, script file 935: @135-@565 the Petrel scene, then the trials with 0x4098 = 33 to 36), q-0352 (after the Petrel scene; the trials must be done in order), q-0353 (Wednesdays after the HQ and the Petrel scene), guide/13 q-0366 (calm-day check on entering the lake or Route 43)."

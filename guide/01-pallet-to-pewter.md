@@ -133,7 +133,7 @@ With any other starter, the Meowth resident only says a general line about livin
 
 **Where:** the Pokémon Academy (the school building south of the northeast house).
 
-**Who gets it / when:** **in a normal new game the challenge cannot be started (suspected hack bug).** The teacher only offers it while story flag 1107 is set; the game sets that flag only at the very start of a new game and clears it again in Professor Oak's lab introduction, so by the time you can reach Viridian the teacher only says goodbye to Steven and Cynthia (checked in the script and played in the emulator on the Chinese ROM: with the flag clear, "Seeing my students Steven and Cynthia..."; with it set, "Welcome to the Pokémon Academy!"). The description below is what the challenge does if the flag were set. Steven and Cynthia leave, and the teacher changes to Earl's lessons, once you have **both delivered Oak's Parcel and beaten Blue on Route 22**.
+**Who gets it / when:** **in a normal new game the challenge cannot be started (suspected hack bug).** The teacher only offers it in a game state that Professor Oak's lab introduction switches off for good, so by the time you can reach Viridian he only says goodbye to Steven and Cynthia ("Seeing my students Steven and Cynthia..."; checked in the game's scripts and in an emulator). The description below is what the challenge would do. Steven and Cynthia leave, and the teacher changes to Earl's lessons, once you have **both delivered Oak's Parcel and beaten Blue on Route 22**.
 
 **How it works:**
 1. Talk to the teacher at the front of the classroom. The Academy has two exchange students, and you're asked to beat them for Kanto's honour.

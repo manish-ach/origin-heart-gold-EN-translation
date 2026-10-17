@@ -32,7 +32,7 @@ evidence = "script file 168 (Route 1 tutorial scene sets the thief quest flags, 
 id = "s03"
 main = true
 text = """
-**Viridian City.** Walking in from Route 1 plays Blue's scene beside the Pokémon Center: he gives you his number and heads for the Indigo Plateau. **This closes the Pallet Town send-off gifts for good.** From here on the town is yours. Anything for your starter's thief quest, the would-be professor's quiz (Exp. Share) and the Pokémon Academy are open now (but its exchange-student challenge cannot be started, see the quest).
+**Viridian City.** Walking in from Route 1 plays Blue's scene beside the Pokémon Center: he gives you his number and heads for the Indigo Plateau. **This closes the Pallet Town send-off gifts for good.** From here on the town is yours. Your starter's thief quest, the would-be professor's quiz (Exp. Share) and the Pokémon Academy are open now (but its exchange-student challenge cannot be started, see the quest).
 """
 closes = ["q-0001"]
 unlocks = ["q-0002", "q-0003", "q-0004", "q-0005", "q-0008"]
@@ -58,7 +58,7 @@ evidence = "script file 212 (script 6: Blue L478-L529, sets 0x4076=1); 739 coord
 id = "s06"
 main = true
 text = """
-**Leaving Viridian northward.** With the parcel delivered and Blue beaten, the road north opens. **This closes the Academy's exchange students** (Steven and Cynthia leave the classroom). Take the south gate to Route 2: fake police block the road to Pewter, so the way on is through Viridian Forest.
+**Leaving Viridian northward.** With the parcel delivered and Blue beaten, the road north opens. **This closes the Academy's exchange students** (Steven and Cynthia leave the classroom). Head north onto Route 2: fake police block the road to Pewter, so go through the gatehouse into Viridian Forest.
 """
 closes = ["q-0008"]
 evidence = "script file 212 L1880-L1947 (Blue event, with the Apricorn Box in the bag) and 738 L1651-L1655 (parcel, if Blue is done) both set flags 1057 and 1244 (students gone), whichever comes second; 739 coord script 16 requires var 0x4076 = 1 and item 468 to pass. Route 2 police: zone 10 objects at 1050-1051,193 (hide flag 1873, see chapter 5)."
@@ -178,4 +178,4 @@ available_note = "One try only, and he leaves once the Mt. Moon roadblock story 
 
 [[quests]]
 id = "q-0367"
-available_note = "A reference for the whole game: which Badge each field move (Rock Smash, Cut, Strength, Surf, Fly, Whirlpool, Waterfall, Rock Climb) needs. In this hack you do not need a Pokemon that knows the move."
+available_note = "A reference for the whole game: which Badge each field move (Rock Smash, Cut, Strength, Surf, Fly, Whirlpool, Waterfall, Rock Climb) needs. In this hack you do not need a Pokémon that knows the move."

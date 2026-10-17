@@ -8,7 +8,7 @@ With the S.S. Anne behind you, the road goes through Rock Tunnel to Lavender Tow
 
 **Main quest in this chapter:** rescue Prof. Hale in Rock Tunnel, climb Pokémon Tower (**twice**, with a trip back to Cubone in between), and reach the end of the tower story, when Agatha breaks up Team Rocket there. Afterwards the guard at the Route 8 gatehouse lets you into Saffron City.
 
-Two things close as you go: the Underground Path (the Rock Tunnel rescue) and, if you skip them, the tower's optional Trainers (they vanish after the two illusion grunts).
+Three things close as you go: the Underground Path (the Rock Tunnel rescue), the tower's optional Trainers if you skip them (they vanish after the two illusion grunts), and Cynthia's optional battle on Route 12 (she leaves when you first reach Saffron).
 """
 
 [[steps]]
@@ -68,7 +68,7 @@ evidence = "script file 769 (scripts 7, 8; L1662), file 17 @8203 (shows Cubone)"
 id = "s07"
 main = true
 text = """
-**Route 8 and Saffron's east gate.** East of Lavender, Route 8 has a quarrelling Persian and Skitty owner pair that rewards you with TM40 Aerial Ace. At the Route 8 gatehouse the guard first says Saffron is under lockdown, then lets you through as one of the Trainers Lady Agatha mentioned. That opens Saffron City's gates for you.
+**Route 8 and Saffron's east gate.** East of Lavender, Route 8 has a quarrelling Persian and Skitty owner pair that rewards you with TM40 Aerial Ace. At the Route 8 gatehouse the guard first says Saffron is under lockdown, then lets you through as one of the Trainers Lady Agatha mentioned. That opens Saffron City's gates for you. **Before you walk in,** battle Cynthia at the north end of Route 12 if you want to (next step): she leaves when you first reach Saffron.
 """
 unlocks = ["q-0069"]
 evidence = "script file 189 (Route 8 gatehouse coord script 2: when flag 1153 is clear, 'Oh! You're one of the young Trainers Lady Agatha mentioned! ... go right ahead!' sets var 0x409F = 1); flag 1153 is set by the Rock Tunnel rescue (129 @1105) and cleared at the end of the tower story (17 @8199). Route 5/6 gates (182/185) stay shut while 0x409F = 0. Route 8 owners: file 188 scripts 3, 4, 5, 11."
