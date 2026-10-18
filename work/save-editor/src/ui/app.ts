@@ -22,8 +22,10 @@ import { BADGE_SPRITES } from './badge-sprites.js';
 import { combobox, type ComboChoice } from './combobox.js';
 import { artworkUrl, fallbackArtworkUrl, miniSpriteUrl, itemSpriteUrl, pcSprite, img } from './sprites.js';
 
+// The guide site's copy sets data-theme-key="starlight-theme", so the editor follows the site's theme choice.
+const THEME_KEY = document.documentElement.dataset.themeKey || 'ohg-editor-theme';
 try {
-  const savedTheme = localStorage.getItem('ohg-editor-theme');
+  const savedTheme = localStorage.getItem(THEME_KEY);
   if (savedTheme === 'light' || savedTheme === 'dark') document.documentElement.dataset.theme = savedTheme;
 } catch {}
 const themeToggle = document.getElementById('theme-toggle') as HTMLButtonElement;
@@ -42,7 +44,7 @@ themeToggle.addEventListener('click', () => {
     || (!document.documentElement.dataset.theme && systemTheme.matches);
   const theme = dark ? 'light' : 'dark';
   document.documentElement.dataset.theme = theme;
-  try { localStorage.setItem('ohg-editor-theme', theme); } catch {}
+  try { localStorage.setItem(THEME_KEY, theme); } catch {}
   updateThemeToggle();
 });
 systemTheme.addEventListener('change', updateThemeToggle);

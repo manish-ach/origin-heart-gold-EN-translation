@@ -22,7 +22,7 @@ test('indexable pages have unique titles and descriptions, valid JSON-LD and a s
 	for (const file of pages()) {
 		const html = readFileSync(file, 'utf8');
 		const rel = file.slice(dist.length - 1).replace(/index\.html$/, '');
-		if (/<meta name="robots" content="noindex/.test(html) || rel === '/save-editor/') continue;
+		if (/<meta name="robots" content="noindex/.test(html)) continue;
 		const canonical = html.match(/<link rel="canonical" href="([^"]+)"/)?.[1];
 		assert.ok(canonical, `${rel}: canonical`);
 		const blocks = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];

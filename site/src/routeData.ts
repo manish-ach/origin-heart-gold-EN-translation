@@ -24,12 +24,12 @@ const removeWhere = (head: Head, test: (e: Head[number]) => boolean) => {
 	for (let i = head.length - 1; i >= 0; i--) if (test(head[i])) head.splice(i, 1);
 };
 
-const organization = {
+export const organization = {
 	'@type': 'Organization', '@id': `${homeUrl}#organization`, name: ORG_NAME, url: homeUrl,
 	logo: { '@type': 'ImageObject', url: abs(`${prodBase}favicon-512.png`), width: 512, height: 512 },
 	sameAs: [GITHUB_URL, DISCORD_URL],
 };
-const website = {
+export const website = {
 	'@type': 'WebSite', '@id': `${homeUrl}#website`, name: SITE_NAME, url: homeUrl, inLanguage: 'en',
 	alternateName: ['Pokémon Origin HeartGold English', 'Origin HeartGold English translation', '起源心金 English patch'],
 	description: OFFICIAL_LINE, publisher: { '@id': `${homeUrl}#organization` },
