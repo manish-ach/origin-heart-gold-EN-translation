@@ -42,19 +42,20 @@ const inactive = battles.length > 0 && battles.every((p) => p.conds.length > 0 &
 		</ul>
 	)}
 	{t.items.length > 0 && <p class="small">Uses items: {t.items.join(', ')}</p>}
-	<table class="compact">
+	<table class="compact stack-table">
+		<caption class="sr-only">{label}’s team</caption>
 		<thead><tr><th>Pokémon</th><th>Lv</th><th>Ability</th><th>Item</th><th>Nature</th><th>IVs</th>{showEvs && <th>EVs</th>}<th>Moves</th></tr></thead>
 		<tbody>
 			{t.team.map((m) => (
 				<tr>
-					<td><div class="pokemon-cell">{speciesById.has(m.id!) && <PokemonImage s={speciesById.get(m.id!)!} />}<Mon id={m.id} name={m.name} /></div></td>
-					<td>{m.level}</td>
-					<td>{m.abilityId ? <AbilityLink id={m.abilityId} /> : (m.ability ?? (m.id ? 'Species default' : '—'))}</td>
-					<td>{m.itemId && itemById.has(m.itemId) ? <a href={itemUrl(itemById.get(m.itemId))}>{m.item}</a> : (m.item ?? '—')}</td>
-					<td>{m.nature ?? (m.id ? 'Generated' : '—')}</td>
-					<td>{ivText(m)}</td>
-					{showEvs && <td>{evText(m.evs)}</td>}
-					<td>{m.moves.length ? m.moves.map((mv, i) => {
+					<td data-label="Pokémon"><div class="pokemon-cell">{speciesById.has(m.id!) && <PokemonImage s={speciesById.get(m.id!)!} />}<Mon id={m.id} name={m.name} /></div></td>
+					<td data-label="Level">{m.level}</td>
+					<td data-label="Ability">{m.abilityId ? <AbilityLink id={m.abilityId} /> : (m.ability ?? (m.id ? 'Species default' : '—'))}</td>
+					<td data-label="Item">{m.itemId && itemById.has(m.itemId) ? <a href={itemUrl(itemById.get(m.itemId))}>{m.item}</a> : (m.item ?? '—')}</td>
+					<td data-label="Nature">{m.nature ?? (m.id ? 'Generated' : '—')}</td>
+					<td data-label="IVs">{ivText(m)}</td>
+					{showEvs && <td data-label="EVs">{evText(m.evs)}</td>}
+					<td data-label="Moves">{m.moves.length ? m.moves.map((mv, i) => {
 						const mm = moveById.get(m.moveIds[i]);
 						return <>{i > 0 && ', '}{mm ? <a href={moveUrl(mm)}>{mv}</a> : mv}</>;
 						}) : <em>{m.id ? 'level-up moves' : '—'}</em>}</td>

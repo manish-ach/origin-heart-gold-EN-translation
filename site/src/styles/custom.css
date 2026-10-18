@@ -373,3 +373,43 @@ p.quest-note { margin: 0.4rem 0 !important; padding: 0.3rem 0.6rem; border-left:
 .chapter-hidden-items > summary:focus-visible { outline: 2px solid var(--sl-color-text-accent); outline-offset: 3px; border-radius: .2rem; }
 .chapter-hidden-items[open] { padding-bottom: .85rem; }
 .chapter-hidden-items li { margin-block: .35rem; }
+
+/* ---- accessibility pass (website audit bucket B) */
+/* Light theme gold: dark enough for 4.5:1 text on paper, on the accent-low tint ("Opens up" lists, quest notes,
+   hero panels) and on the caution aside (W-031). Same hue as before, about 8% darker. */
+:root[data-theme='light'] { --sl-color-accent: #86600f; }
+
+/* Sort buttons in table headers: at least 24 px tall (WCAG 2.5.8), 44 px on touch screens (W-038). */
+table.sortable th .sort-button { display: inline-flex; align-items: center; min-height: 24px; min-width: 24px; }
+@media (pointer: coarse) { table.sortable th .sort-button { min-height: 44px; } }
+
+/* Heading anchor links: a 24 px target on phones too. */
+.sl-markdown-content .sl-anchor-link { min-width: 24px; min-height: 24px; display: inline-flex; align-items: center; justify-content: center; }
+
+/* Trainer teams and encounter lists become one card per row on phones instead of a sideways-scrolling table
+   (W-037). Each cell shows its column name from data-label; the header row stays for screen readers. */
+@media (max-width: 40rem) {
+  .table-scroll:has(> table.stack-table) { overflow: visible; border: 0; background: none; }
+  .sl-markdown-content table.stack-table { display: block; border: 0; background: none; font-size: .85rem; }
+  table.stack-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  table.stack-table tbody { display: grid; gap: .6rem; }
+  table.stack-table tr { display: block; margin: 0; padding: .6rem .8rem; border: 1px solid var(--sl-color-gray-5); border-radius: .65rem; background: var(--sl-color-bg-nav); }
+  .sl-markdown-content table.stack-table td, .sl-markdown-content .table-scroll > table.stack-table > tbody > tr > td:first-child {
+    display: block; position: relative; margin: 0; min-width: 0; max-width: none; padding: .3rem 0 .3rem 5.5rem;
+    border: 0; box-shadow: none; background: none;
+  }
+  .sl-markdown-content table.stack-table td::before {
+    content: attr(data-label); position: absolute; left: 0; top: .45rem; width: 5rem;
+    color: var(--sl-color-gray-3); font-size: .72rem; font-weight: 650; line-height: 1.4;
+  }
+  .sl-markdown-content table.stack-table td:first-child, .sl-markdown-content .table-scroll > table.stack-table > tbody > tr > td:first-child {
+    padding: 0 0 .5rem; margin-bottom: .25rem; border-bottom: 1px solid var(--sl-color-gray-6); font-weight: 600;
+  }
+  .sl-markdown-content table.stack-table td:first-child::before { content: none; }
+  .sl-markdown-content table.stack-table tbody tr:hover > td { background: none; }
+  .sl-markdown-content table.stack-table td p { margin: .15rem 0 0; }
+}
+.sl-markdown-content .home-more { margin-top: 1.5rem; font-size: .9rem; color: var(--sl-color-gray-2); line-height: 2; }
+
+/* Cards: the hover look also shows on keyboard focus. */
+.sl-markdown-content .sl-link-card:focus-within { border-color: var(--sl-color-accent); }

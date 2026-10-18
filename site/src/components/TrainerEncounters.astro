@@ -1,13 +1,14 @@
 ---
 import { areaUrl } from '../lib/data';
 import { teamLevelRange } from '../lib/trainer-encounters.mjs';
-const { encounters } = Astro.props;
+const { encounters, caption = 'Where you battle this trainer' } = Astro.props;
 ---
-<table class="compact trainer-encounters">
+<table class="compact trainer-encounters stack-table">
+  <caption class="sr-only">{caption}</caption>
   <thead><tr><th>Location</th><th>Battle and conditions</th><th>Team</th></tr></thead>
   <tbody>{encounters.map(({ team, number, place }) => <tr>
-    <td>{place.area ? <a href={areaUrl(place.area)}>{place.map || 'Location'}</a> : (place.map || 'Location unconfirmed')}</td>
-    <td>{place.how}{place.conds.length > 0 && <p class="small">{place.conds.join(' or ')}</p>}</td>
-    <td><a href={`#trainer-${team.id}`}>Team {number} · {teamLevelRange(team)}</a><p class="small">{team.team.map(m => m.name).join(' · ')}</p></td>
+    <td data-label="Location">{place.area ? <a href={areaUrl(place.area)}>{place.map || 'Location'}</a> : (place.map || 'Location unconfirmed')}</td>
+    <td data-label="Battle">{place.how}{place.conds.length > 0 && <p class="small">{place.conds.join(' or ')}</p>}</td>
+    <td data-label="Team"><a href={`#trainer-${team.id}`}>Team {number} · {teamLevelRange(team)}</a><p class="small">{team.team.map(m => m.name).join(' · ')}</p></td>
   </tr>)}</tbody>
 </table>
