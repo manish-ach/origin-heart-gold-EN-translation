@@ -1,7 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
-import { buildTrainerProfiles, inactiveEncounter } from '../src/lib/trainer-encounters.mjs';
+import { readFileSync, readdirSync, statSync } from 'node:fs';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { buildTrainerProfiles, inactiveEncounter, trainerMainIds, trainerProfilePath } from '../src/lib/trainer-encounters.mjs';
 
 const trainers = JSON.parse(readFileSync(new URL('../src/data/trainers.json', import.meta.url), 'utf8'));
 const { profiles, byId } = buildTrainerProfiles(trainers);
@@ -65,4 +67,43 @@ test('inactive scenes are separated without hiding active alternatives', () => {
     assert.ok(profile.encounters.every(e => !inactiveEncounter(e.place)));
     assert.ok(profile.inactive.every(e => inactiveEncounter(e.place)));
   }
+});
+
+test('trainer links name the main record of the character, at the team card', () => {
+  const mainIds = trainerMainIds(profiles);
+  for (const t of trainers) {
+    const main = byId.get(t.id).id;
+    assert.equal(mainIds[t.id], main === t.id ? undefined : main, `trainer ${t.id}`);
+    assert.equal(trainerProfilePath(main, t.id), `/trainers/records/${main}/#trainer-${t.id}`);
+  }
+  assert.equal(trainerProfilePath(244), '/trainers/records/244/');
+});
+
+// Every record of one character renders the same profile and the duplicates are canonical to the main record, so
+// links inside the site go straight to the main record (no canonicalised URL is linked internally).
+test('internal links to trainer pages use the main record and an existing team card', { skip: process.env.GUIDE_TEST_DIST !== '1' }, () => {
+  const dist = fileURLToPath(new URL('../dist/', import.meta.url));
+  const files = function* (dir) {
+    for (const name of readdirSync(dir)) {
+      const p = join(dir, name);
+      if (statSync(p).isDirectory()) { if (!['_astro', 'pagefind'].includes(name)) yield* files(p); }
+      else if (name.endsWith('.html')) yield p;
+    }
+  };
+  let links = 0;
+  const bad = [];
+  for (const file of files(dist)) {
+    const html = readFileSync(file, 'utf8');
+    for (const [, id, team] of html.matchAll(/href="[^"]*\/trainers\/records\/(\d+)\/(?:#trainer-(\d+))?"/g)) {
+      links++;
+      const profile = byId.get(Number(id));
+      if (!profile || profile.id !== Number(id)) bad.push(`${file.slice(dist.length)}: records/${id} (main ${profile?.id})`);
+      else if (team && !profile.teams.some(t => t.id === Number(team))) bad.push(`${file.slice(dist.length)}: records/${id}#trainer-${team}`);
+    }
+  }
+  assert.ok(links > 1000, `${links} trainer links`);
+  assert.deepEqual(bad.slice(0, 10), [], `${bad.length} links to non-main trainer records`);
+  // Battle check builds its links in the browser from battle-data.json.
+  const battle = JSON.parse(readFileSync(join(dist, 'team-builder/battle-data.json'), 'utf8'));
+  assert.deepEqual(battle.mainIds, Object.fromEntries(Object.entries(trainerMainIds(profiles)).map(([k, v]) => [k, v])));
 });

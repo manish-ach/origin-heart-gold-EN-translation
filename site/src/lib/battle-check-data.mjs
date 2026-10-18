@@ -23,7 +23,9 @@
  * with no known battle location come last.
  *   area: the slug of the place it is listed under (for later battles: its first place; '' for the last group)
  *   areaNames: {slug: name}
+ *   mainIds: {record id: main record id} for records whose trainer profile page is another record's (links use it)
  */
+import { buildTrainerProfiles, trainerMainIds } from './trainer-encounters.mjs';
 export const BATTLE_DATA_VERSION = 2;
 
 const AFTER_CINNABAR = 43.5;
@@ -125,6 +127,7 @@ export function buildBattleData({ trainers, areas, guide = [], species, tms = []
   return {
     v: BATTLE_DATA_VERSION,
     areaNames: Object.fromEntries(areas.filter(area => used.has(area.slug)).map(area => [area.slug, area.name])),
+    mainIds: trainerMainIds(buildTrainerProfiles(trainers).profiles),
     trainers: order.map(({ t, f, area }) => {
       // The battle in the place it is listed under comes first (the picker shows the first place).
       const live = p => !p.how?.startsWith('your partner') && !(p.conds?.length && p.conds.every(c => c.startsWith('never ')));

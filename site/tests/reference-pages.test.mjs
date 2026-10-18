@@ -121,7 +121,7 @@ test('every stored equipment reference resolves to its exact trainer detail', {s
     const html = read(`items/${item.slug}`);
     for (const id of item.trainerUses) {
       assert.ok(byId.has(id),`${item.name}: trainer ${id}`);
-      assert.ok(hasLink(html,`/trainers/records/${id}/`),`${item.name}: trainer ${id}`);
+      assert.ok(hasLink(html,`/trainers/records/${profiles.get(id).id}/#trainer-${id}`),`${item.name}: trainer ${id}`);
     }
     assert.ok(!html.includes('/trainers/#trainer-'),item.name);
   }

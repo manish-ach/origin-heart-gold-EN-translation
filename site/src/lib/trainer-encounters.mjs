@@ -32,6 +32,18 @@ export function trainerIdentity(t) {
     (t.group && t.name.trim() && t.name !== 'Unnamed trainer' ? `character:${t.name}` : `record:${t.id}`);
 }
 
+/** The profile page of a character whose main (lowest) record is `mainId`; with `teamId`, that team's card on it. */
+export function trainerProfilePath(mainId, teamId) {
+  return `/trainers/records/${mainId}/${teamId == null ? '' : `#trainer-${teamId}`}`;
+}
+
+/** {record id: main record id} for every record that is not its character's main record. */
+export function trainerMainIds(profiles) {
+  const out = {};
+  for (const profile of profiles) for (const t of profile.teams) if (t.id !== profile.id) out[t.id] = profile.id;
+  return out;
+}
+
 export function inactiveEncounter(place) {
   return place.conds.length > 0 && place.conds.every(c => c.startsWith('never '));
 }

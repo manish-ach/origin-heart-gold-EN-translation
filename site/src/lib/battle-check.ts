@@ -5,6 +5,7 @@
  */
 import { loadCalc, mirrorField, NO_KO_TEXT } from './calc/index.ts';
 import { trainerMon, LATER } from './battle-check-data.mjs';
+import { trainerProfilePath } from './trainer-encounters.mjs';
 import {
   createDex, resolveSet, compactSet, learnableMoves, exportShowdown, importShowdown, NATURES, STAT_LABELS, DEFAULT_LEVEL,
   normalizeName, evolutionLevel, EV_TOTAL,
@@ -63,6 +64,7 @@ export async function mountBattleCheck(host: BattleHost) {
   const calc = loadCalc(calcData);
   const dex = createDex(calcData, battleData);
   const areaNames: Record<string, string> = battleData.areaNames ?? {};
+  const mainIds: Record<number, number> = battleData.mainIds ?? {};
   const trainers = (battleData.trainers as Any[]).map(([id, cls, name, double, flags, area, places, team], order) => {
     const mons = (team as Any[]).map(trainerMon);
     const label = `${cls} ${name}`.trim() || 'Unnamed trainer';
@@ -235,7 +237,7 @@ export async function mountBattleCheck(host: BattleHost) {
       const place = t.places[0];
       heading = `<div class="tb-bc-foe-head"><div><strong class="tb-bc-foe-name">${escape(t.label)}</strong>
         <span class="tb-bc-foe-meta">${escape([place?.[0], t.levelText].filter(Boolean).join(' · '))}${t.double ? ' · <span class="tb-bc-chip">Double battle</span>' : ''}</span>
-        ${place ? `<span class="tb-bc-foe-how">${escape(place[1])}${place[2] ? `, ${escape(place[2])}` : ''}${t.places.length > 1 ? ` · <a href="${escape(host.url(`/trainers/records/${t.id}/`))}">${t.places.length - 1} more ${t.places.length === 2 ? 'battle' : 'battles'}</a>` : ''}</span>` : ''}</div>
+        ${place ? `<span class="tb-bc-foe-how">${escape(place[1])}${place[2] ? `, ${escape(place[2])}` : ''}${t.places.length > 1 ? ` · <a href="${escape(host.url(trainerProfilePath(mainIds[t.id] ?? t.id, t.id)))}">${t.places.length - 1} more ${t.places.length === 2 ? 'battle' : 'battles'}</a>` : ''}</span>` : ''}</div>
         <button type="button" class="tb-bc-button" data-bc-change>Change</button></div>`;
     } else {
       heading = `<div class="tb-bc-foe-head"><div><strong class="tb-bc-foe-name">Any Pokémon</strong><span class="tb-bc-foe-meta">A free calculation against one Pokémon you choose.</span></div><button type="button" class="tb-bc-button" data-bc-change>Change</button></div>`;

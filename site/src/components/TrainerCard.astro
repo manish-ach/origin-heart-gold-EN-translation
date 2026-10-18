@@ -6,6 +6,7 @@ import Mon from './Mon.astro';
 import AbilityLink from './AbilityLink.astro';
 import TrainerTeamPreview from './TrainerTeamPreview.astro';
 import PokemonImage from './PokemonImage.astro';
+import { trainerTeamUrl } from '../lib/trainer-profiles';
 // `area`: on a location page, list only the battles in that area (all of them if none match).
 const { t, showPlaces = false, area, note, expanded = false, showProfileLink = true, illustrated = false } = Astro.props as { t: Trainer; showPlaces?: boolean; area?: string; note?: string; expanded?: boolean; showProfileLink?: boolean; illustrated?: boolean };
 // One line per distinct battle: place, format and (when a scene picks between teams) the condition in words.
@@ -67,7 +68,7 @@ const inactive = battles.length > 0 && battles.every((p) => p.conds.length > 0 &
 		{!showEvs && ' No EV investment.'}</p>
 
 	<p class="small">
-		{showProfileLink && <><a href={url(`/trainers/records/${t.id}/#trainer-${t.id}`)}>View all encounters and teams</a>{t.team.some((m) => m.id) && ' · '}</>}
+		{showProfileLink && <><a href={trainerTeamUrl(t.id)}>View all encounters and teams</a>{t.team.some((m) => m.id) && ' · '}</>}
 		{t.team.some((m) => m.id) && <a href={url(`/team-builder/#battle=${t.id}`)}>Battle check</a>}
 	</p>
 </details>

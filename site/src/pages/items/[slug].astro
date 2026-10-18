@@ -14,6 +14,7 @@ import FormChanges from '../../components/FormChanges.astro';
 import { formChanges } from '../../lib/verified-mechanics';
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { itemSeo } from '../../lib/page-seo';
+import { trainerTeamUrl } from '../../lib/trainer-profiles';
 import { items, tmByItemId, tmCompatibility, moveById, moveUrl, areaUrl, areaBySlug, speciesById, pokemonUrl, trainerById, tutorCost, url, type Item } from '../../lib/data';
 
 export function getStaticPaths() {
@@ -119,7 +120,7 @@ const priceLine = i.price ? (sold ? ` · buy for ${money(i.price)}, sells for ${
 	{(i.evolutionUses.length > 0 || i.tutorUses.length > 0 || i.trainerUses.length > 0) && <><h2 id="related-uses">Other uses</h2>
 	{i.evolutionUses.length > 0 && <><h3>Evolution requirements</h3><ul>{i.evolutionUses.map(e => <li><a href={pokemonUrl(e.speciesId)}>{speciesById.get(e.speciesId)?.name}</a> → <a href={pokemonUrl(e.resultId)}>{speciesById.get(e.resultId)?.name}</a>: {e.how}{e.never && <> · <strong>Unavailable:</strong> {e.blocked ?? 'This evolution method is not supported in the game.'}</>}</li>)}</ul></>}
 	{i.tutorUses.length > 0 && <><h3>Move tutor payments</h3><ul>{i.tutorUses.map(t => <li><a href={moveUrl(moveById.get(t.moveId))}>{moveById.get(t.moveId)?.name}</a> · {tutorCost(t.cost)} · {t.places.map((p,k) => <>{k>0 && ', '}{p.area ? <a href={areaUrl(p.area)}>{p.place}</a> : p.place}</>)}</li>)}</ul></>}
-	{i.trainerUses.length > 0 && <details><summary>Held by trainers’ Pokémon ({i.trainerUses.length} teams)</summary><p class="small">A trainer's held item is not necessarily obtainable. Check the battle location and story conditions on their team page.</p><ul>{i.trainerUses.map(id => {const t=trainerById.get(id);return <li><a href={url(`/trainers/records/${id}/`)}>{t ? `${t.cls} ${t.name}` : `Trainer ${id}`}</a></li>;})}</ul></details>}
+	{i.trainerUses.length > 0 && <details><summary>Held by trainers’ Pokémon ({i.trainerUses.length} teams)</summary><p class="small">A trainer's held item is not necessarily obtainable. Check the battle location and story conditions on their team page.</p><ul>{i.trainerUses.map(id => {const t=trainerById.get(id);return <li><a href={trainerTeamUrl(id)}>{t ? `${t.cls} ${t.name}` : `Trainer ${id}`}</a></li>;})}</ul></details>}
 	</>}
   {tm && <><h2 id="compatible-pokemon">Compatible Pokémon ({compatible.length})</h2><p>Check each Pokémon’s availability before planning your team. Forms are listed separately; Mew can learn every TM and HM.</p><div class="table-filter" data-table="compatible-table"><input type="search" placeholder="Search compatible Pokémon…" aria-label="Search compatible Pokémon" /><select data-key="availability" aria-label="Compatible Pokémon availability"><option value="">All availability</option><option value="documented">Where to get it</option><option value="battle">Battle only</option><option value="unavailable">NOT AVAILABLE IN GAME</option><option value="unknown">No known way to get it</option></select><span class="filter-count" aria-live="polite"></span></div><PokemonReferenceTable id="compatible-table" rows={compatible} label="Compatibility" caption={`Pokémon compatible with ${i.name}`} /><p><a href={url('/tms/')}>← All TMs and HMs</a></p></>}
 
