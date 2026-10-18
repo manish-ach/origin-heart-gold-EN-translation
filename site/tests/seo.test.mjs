@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { firstSentence } from '../src/lib/reference-format.mjs';
 
 const built = process.env.GUIDE_TEST_DIST === '1';
 const dist = fileURLToPath(new URL('../dist/', import.meta.url));
@@ -15,6 +16,14 @@ function* pages(dir = dist) {
 	}
 }
 const unescape = (s) => s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'");
+
+test('search descriptions keep abbreviations inside the first sentence', () => {
+	assert.equal(firstSentence('Ups Sp. Atk when hit. Lasts one turn.'), 'Ups Sp. Atk when hit.');
+	assert.equal(firstSentence('With this ticket, you can board the S.S. Aqua. Keep it.'), 'With this ticket, you can board the S.S. Aqua.');
+	assert.equal(firstSentence('Ups Attack vs. the same gender. More text.'), 'Ups Attack vs. the same gender.');
+	assert.equal(firstSentence('Hits hard! Then rests.'), 'Hits hard!');
+	assert.equal(firstSentence('No full stop'), 'No full stop');
+});
 
 test('indexable pages have unique titles and descriptions, valid JSON-LD and a social card', { skip: !built }, (t) => {
 	const titles = new Map(), descriptions = new Map();
@@ -36,6 +45,7 @@ test('indexable pages have unique titles and descriptions, valid JSON-LD and a s
 		if (!canonical.endsWith(rel)) continue; // a duplicate that names its main page
 		const title = unescape(html.match(/<title>([^<]*)<\/title>/)[1]);
 		const description = unescape(html.match(/<meta name="description" content="([^"]*)"/)?.[1] ?? '');
+		assert.doesNotMatch(description, /\b(?:Sp|vs|S\.S|Lv)\.(?:\s+(?:\d+|No) Pokémon|$)/, `${rel}: description cut at an abbreviation`);
 		assert.ok(!titles.has(title), `${rel}: title "${title}" also on ${titles.get(title)}`);
 		assert.ok(description && !descriptions.has(description), `${rel}: description also on ${descriptions.get(description)}`);
 		assert.doesNotMatch(description, /\bD-\d{4}\b/, rel);

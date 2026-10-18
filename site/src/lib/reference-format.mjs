@@ -101,3 +101,9 @@ export function playerNote(text) {
     .replace(/ Read from the game code; not tested in game\./gi, '')
     .replace(/ Tested in an emulator[^.]*\./gi, '');
 }
+
+/** The first sentence of a game text, for search descriptions. "Sp. Atk", "vs.", "S.S. Anne", "Lv." and the like don't end a
+ * sentence. */
+export function firstSentence(text) {
+  return (text.match(/^.*?(?<!\b(?:Sp|Lv|Mt|Prof|Dr|Mr|Mrs|Ms|Lt|St|vs|approx|e\.g|i\.e|S\.S))[.!?](?=\s|$)/)?.[0] ?? text).trim();
+}

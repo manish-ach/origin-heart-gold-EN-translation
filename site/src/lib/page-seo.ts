@@ -2,7 +2,7 @@
 // The page part only: the route middleware adds " · Origin HeartGold English".
 // Records with the same name get the context that tells them apart (a form, a battle place, "(item)" / "(move)").
 import { species, items, moves, abilities, trainers, areas, moveLearners, abilityHolders, type Species, type Item, type Move, type Ability, type Area, type Trainer } from './data';
-import { playerMoveDescription, playerAbilityDescription, playerItemDescription } from './reference-format.mjs';
+import { playerMoveDescription, playerAbilityDescription, playerItemDescription, firstSentence } from './reference-format.mjs';
 import { trainerProfileById } from './trainer-profiles';
 import { teamLevelRange, inactiveEncounter } from './trainer-encounters.mjs';
 import { clampDescription } from './site-meta';
@@ -14,7 +14,6 @@ const speciesNames = count(species.map((s) => s.name));
 const itemNames = count(items.map((i) => i.name));
 const moveNames = count(moves.map((m) => m.name));
 const abilityNames = count(abilities.map((a) => a.name));
-const firstSentence = (text: string) => (text.match(/^.*?[.!?](?=\s|$)/)?.[0] ?? text).trim();
 const dex = (s: Species) => String(s.baseSpeciesId).padStart(4, '0');
 const list = (xs: string[]) => xs.length <= 1 ? xs.join('') : `${xs.slice(0, -1).join(', ')} and ${xs[xs.length - 1]}`;
 
