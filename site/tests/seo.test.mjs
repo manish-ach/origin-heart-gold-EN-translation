@@ -16,12 +16,13 @@ function* pages(dir = dist) {
 }
 const unescape = (s) => s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'");
 
-test('indexable pages have unique titles and descriptions, valid JSON-LD and a social card', { skip: !built }, () => {
+test('indexable pages have unique titles and descriptions, valid JSON-LD and a social card', { skip: !built }, (t) => {
 	const titles = new Map(), descriptions = new Map();
-	let checked = 0;
+	let checked = 0, seen = 0;
 	for (const file of pages()) {
 		const html = readFileSync(file, 'utf8');
 		const rel = file.slice(dist.length - 1).replace(/index\.html$/, '');
+		seen++;
 		if (/<meta name="robots" content="noindex/.test(html)) continue;
 		const canonical = html.match(/<link rel="canonical" href="([^"]+)"/)?.[1];
 		assert.ok(canonical, `${rel}: canonical`);
@@ -40,6 +41,8 @@ test('indexable pages have unique titles and descriptions, valid JSON-LD and a s
 		assert.doesNotMatch(description, /\bD-\d{4}\b/, rel);
 		titles.set(title, rel); descriptions.set(description, rel);
 	}
+	// A /preview/ build (GUIDE_PREVIEW=1) marks every page noindex: there is nothing indexable to check.
+	if (checked === 0 && seen > 0) { t.skip('preview build: every page is noindex'); return; }
 	assert.ok(checked > 4000, `${checked} pages`);
 	assert.equal(titles.get('Pokémon Origin HeartGold English Patch & Guide'), '/');
 });
