@@ -52,6 +52,8 @@ export default defineConfig({
         { tag: "meta", attrs: { name: "theme-color", content: "#faf9f5", media: "(prefers-color-scheme: light)" } },
         { tag: "meta", attrs: { name: "theme-color", content: "#111923", media: "(prefers-color-scheme: dark)" } },
         { tag: "script", attrs: { src: base + "ohg.js", defer: true } },
+        // Pokémon images come from PokéAPI's sprite repository (W-050, W-052). Images are no-CORS requests: no crossorigin.
+        { tag: "link", attrs: { rel: "preconnect", href: "https://raw.githubusercontent.com" } },
         ...(PREVIEW ? [{ tag: "meta", attrs: { name: "robots", content: "noindex, nofollow" } }] : []),
         ...(PREVIEW ? [] : [{
           tag: "script",

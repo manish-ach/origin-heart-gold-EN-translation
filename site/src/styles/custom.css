@@ -125,6 +125,8 @@ ul.loc-list li { break-inside: avoid; }
 .pokemon-image { margin: 0 !important; }
 .pokemon-image img { object-fit: contain; display: block; }
 .pokemon-image-small { flex: 0 0 48px; width: 48px; height: 48px; }
+/* 96 px sprites have a wide transparent margin: draw them at 4/3 of the frame and let the margin overhang (W-050). */
+.pokemon-image img.pokemon-sprite { width: 133.333%; height: auto; max-width: none; aspect-ratio: 1; margin: -16.667%; }
 .pokemon-image-large { width: min(100%, 256px); }
 .pokemon-image-large img { width: 100%; height: auto; aspect-ratio: 1; }
 .pokemon-image figcaption { line-height: 1.35; margin-top: .35rem; }

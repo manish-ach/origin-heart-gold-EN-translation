@@ -16,7 +16,7 @@ const showArt = section && path.length === 1 && path[0] !== 'trainers';
       : <li><a href={c.href}>{c.name}</a><span class="sep" aria-hidden="true">/</span></li>)}</ol></nav>
     <Default {...Astro.props} />
   </div>
-  {showArt && <div class="page-heading-art" aria-hidden="true"><PokemonImage loading="eager" s={speciesById.get(section.mon)!} /></div>}
+  {showArt && <div class="page-heading-art" aria-hidden="true"><PokemonImage loading="eager" art="artwork" s={speciesById.get(section.mon)!} /></div>}
 </div>
 <style>
   .guide-page-heading { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 7rem; }

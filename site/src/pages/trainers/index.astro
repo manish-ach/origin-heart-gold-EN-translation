@@ -39,8 +39,8 @@ const directory = trainerProfiles.map(profile => {
       <a class="hero-secondary" href={url('/guide/')}>Follow the quest guide <span aria-hidden="true">→</span></a>
     </div>
     <div class="trainer-hero-art" aria-hidden="true">
-      <PokemonImage loading="eager" s={speciesById.get(6)!} />
-      <PokemonImage loading="eager" s={speciesById.get(25)!} />
+      <PokemonImage loading="eager" art="artwork" s={speciesById.get(6)!} />
+      <PokemonImage loading="eager" art="artwork" s={speciesById.get(25)!} />
     </div>
     <div class="trainer-hero-stats"><span><strong>{trainerProfiles.length}</strong> trainer profiles</span><span><strong>16</strong> Gym challenges</span><span>Teams · Locations · Rematches</span></div>
   </section>
@@ -217,7 +217,7 @@ document.addEventListener('astro:page-load', setupTrainerDirectory);
     .trainer-categories { gap: .5rem; margin-bottom: 2rem; }
     .trainer-categories > a { padding: .6rem; gap: .5rem; }
     .trainer-categories :global(.pokemon-image-small) { flex-basis: 36px; width: 36px; height: 36px; }
-    .trainer-categories :global(img) { width: 36px; height: 36px; }
+    .trainer-categories :global(img:not(.pokemon-sprite)) { width: 36px; height: 36px; }
     .trainer-categories small, .category-arrow { display: none; }
     .trainer-categories strong { font-size: .75rem; }
     .trainer-controls { flex-wrap: wrap; }

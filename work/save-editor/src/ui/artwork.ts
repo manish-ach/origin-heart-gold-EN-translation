@@ -3,6 +3,10 @@ export const SPRITE_BASE = 'https://raw.githubusercontent.com/PokeAPI/sprites/ma
 export function artworkUrl(species: number, shiny: boolean): string {
   return `${SPRITE_BASE}/pokemon/other/home/${shiny ? 'shiny/' : ''}${species}.png`;
 }
+/** The 96 px default sprite: about 1 to 2 KB, for thumbnails shown at 48 to 64 px. */
+export function spriteUrl(species: number): string {
+  return `${SPRITE_BASE}/pokemon/${species}.png`;
+}
 export function fallbackArtworkUrl(species: number, shiny: boolean): string {
   return `${SPRITE_BASE}/pokemon/other/official-artwork/${shiny ? 'shiny/' : ''}${species}.png`;
 }
@@ -10,5 +14,5 @@ export function fallbackArtworkUrl(species: number, shiny: boolean): string {
  * use the base species and label the fallback. Invalid base IDs get no remote image. */
 export function referenceArtwork(baseSpeciesId: number, formId: number) {
   if (!Number.isInteger(baseSpeciesId) || baseSpeciesId < 1 || baseSpeciesId > 1025) return null;
-  return { src: artworkUrl(baseSpeciesId, false), fallback: fallbackArtworkUrl(baseSpeciesId, false), baseFallback: formId !== 0 };
+  return { src: artworkUrl(baseSpeciesId, false), fallback: fallbackArtworkUrl(baseSpeciesId, false), sprite: spriteUrl(baseSpeciesId), baseFallback: formId !== 0 };
 }

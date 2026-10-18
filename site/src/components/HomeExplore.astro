@@ -8,7 +8,7 @@ const cards = [
   { title: 'Explore every corner', label: 'THE WORLD', text: 'Wild Pokémon, quests, items and shops, all collected by location.', href: '/locations/', mon: 149 },
 ];
 ---
-<nav class="home-explore" aria-label="Explore the guide">{cards.map(card => <a href={url(card.href)}><div><span class="eyebrow">{card.label}</span><h2>{card.title}</h2><p>{card.text}</p><span class="explore-link">Explore <span aria-hidden="true">→</span></span></div><PokemonImage s={speciesById.get(card.mon)!} /></a>)}</nav>
+<nav class="home-explore" aria-label="Explore the guide">{cards.map(card => <a href={url(card.href)}><div><span class="eyebrow">{card.label}</span><h2>{card.title}</h2><p>{card.text}</p><span class="explore-link">Explore <span aria-hidden="true">→</span></span></div><PokemonImage art="artwork" s={speciesById.get(card.mon)!} /></a>)}</nav>
 <style>
   .home-explore { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
   .home-explore > a { position: relative; display: flex; align-items: center; gap: .5rem; padding: 1.5rem; border: 1px solid var(--sl-color-gray-5); border-radius: 1rem; background: var(--sl-color-bg-nav); color: var(--sl-color-text); text-decoration: none; transition: border-color .15s, box-shadow .15s; }
