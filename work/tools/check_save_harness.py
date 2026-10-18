@@ -25,7 +25,10 @@ NATIVE_TESTS = {
     "test_emu_texture_bounds.AgainstTheFix.test_routine_is_the_chinese_roms": "Chinese ROM",
     "test_emu_texture_bounds.AgainstTheFix.test_assembled_fix_is_the_fixed_routine": "Chinese ROM and armips",
 }
-IMAGE_TESTS = {"test_emu_screenshots.Screenshots.test_screen_diff": "Pillow (--with-images)"}
+IMAGE_TESTS = {
+    "test_emu_screenshots.Screenshots.test_screen_diff": "Pillow (--with-images)",
+    "test_emu_textfit.SpanishTargets.test_dex_reader_checks_actual_glyphs_and_locale_font": "Pillow (--with-images)",
+}
 
 
 def flatten(suite):
