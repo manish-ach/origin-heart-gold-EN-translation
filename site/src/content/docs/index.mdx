@@ -1,21 +1,11 @@
 ---
-title: Origin HeartGold Guide
-description: An English player's guide to Origin HeartGold (起源心金) v4.0.3 — side quests, Pokémon, moves, abilities, items and locations, with practical advice for your playthrough.
+title: Pokémon Origin HeartGold English Patch & Guide
+description: The official site of the Origin HeartGold English translation. Download the English patch and follow the walkthrough, Pokédex and trainer guide.
 template: splash
 editUrl: false
+# The home hero is src/components/Hero.astro; it reads the release from src/data/releases.json.
 hero:
-  tagline: Side quests, Pokémon, items and trainers in Origin HeartGold (起源心金) v4.0.3, with practical quest instructions and help building your team.
-  actions:
-    - text: Start the quest guide
-      link: guide/
-      icon: right-arrow
-    - text: Patch your game
-      link: patch/
-      icon: download
-      variant: secondary
-    - text: Find a Pokémon
-      link: pokemon/
-      variant: minimal
+  title: Origin HeartGold
 ---
 
 import { CardGrid, LinkCard } from '@astrojs/starlight/components';
@@ -32,6 +22,7 @@ import HomeExplore from '../../components/HomeExplore.astro';
 	<LinkCard title="New here?" href="about/" description="What you need to play, how to read the guide, and credits." />
 	<LinkCard title="Save editor" href="save-editor/" description="Edit your party, PC boxes, trainer and bag locally, then export a save copy." />
 	<LinkCard title="Patch your game" href="patch/" description="Drop in your own HeartGold (USA) .nds or .zip and get the English game back, right in your browser." />
+	<LinkCard title="Changelog and contributors" href="changelog/" description="What changed in each release of the English patch, and the players who helped." />
 	<LinkCard title="Stuck on the stolen Gloom?" href="guide/ch08-celadon/#celadon-city-the-stolen-gloom-story-chain-easy-to-get-stuck" description="Step-by-step directions for the Celadon story chain." />
 	<LinkCard title="Gym Leaders and bosses" href="trainers/" description="Full teams for Gym Leaders, rivals and other key battles." />
 	<LinkCard title="Where is that item?" href="items/" description="Item balls, hidden items, gifts and shops." />

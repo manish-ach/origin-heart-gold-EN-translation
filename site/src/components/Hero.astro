@@ -1,23 +1,30 @@
 ---
+// The home page hero. Any other page with `hero` frontmatter gets Starlight's own hero.
+import DefaultHero from '@astrojs/starlight/components/Hero.astro';
 import PokemonImage from './PokemonImage.astro';
 import { speciesById, url } from '../lib/data';
+import { OFFICIAL_LINE, latestRelease, formatDate } from '../lib/site-meta';
+const isHome = Astro.url.pathname === import.meta.env.BASE_URL.replace(/\/?$/, '/');
 ---
-<section class="home-hero">
+{isHome ? <section class="home-hero">
   <div class="home-hero-copy">
-    <p class="eyebrow">A FAMILIAR WORLD. A NEW ADVENTURE.</p>
-    <h1 id="_top">Origin <span>HeartGold.</span></h1>
-    <p class="home-tagline">There’s more to discover.</p>
-    <p class="home-description">Your English companion to Origin HeartGold. Find the hidden quests, build your team, and make the most of every stop along the way.</p>
-    <div class="home-actions"><a class="guide-button" href={url('/guide/')}>Explore the quest guide <span aria-hidden="true">→</span></a><a class="home-secondary" href={url('/patch/')}>Patch your game <span aria-hidden="true">↗</span></a></div>
-    <p class="home-version">起源心金 v4.0.3 <span>·</span> Free, fan-made & full of discovery</p>
+    <p class="eyebrow">OFFICIAL ENGLISH TRANSLATION</p>
+    <h1 id="_top"><span class="home-h1-pre">Pokémon</span> Origin <span class="home-h1-gold">HeartGold</span><span class="sr-only"> — </span> <span class="home-h1-sub">English translation</span></h1>
+    <p class="home-description">{OFFICIAL_LINE} Patch your own HeartGold right here in your browser, then follow the walkthrough, find every Pokémon and build your team.</p>
+    <div class="home-actions"><a class="guide-button" href={url('/patch/')}>Download the English patch <span aria-hidden="true">→</span></a><a class="home-secondary" href={url('/guide/')}>Start the walkthrough <span aria-hidden="true">→</span></a></div>
+    <p class="home-release"><span>English patch <strong>v{latestRelease.version}</strong></span><span><span aria-hidden="true">· </span>Released <time datetime={latestRelease.date}>{formatDate(latestRelease.date)}</time></span><span><span aria-hidden="true">· </span><a href={url('/changelog/')}>What’s new</a></span></p>
+    <p class="home-version">Based on 起源心金 v4.0.3 <span>·</span> Free and fan-made</p>
   </div>
   <div class="home-art" aria-hidden="true"><div class="home-art-orbit"></div><PokemonImage loading="eager" s={speciesById.get(250)!} /><div class="home-art-companion"><PokemonImage loading="eager" s={speciesById.get(152)!} /><PokemonImage loading="eager" s={speciesById.get(155)!} /><PokemonImage loading="eager" s={speciesById.get(158)!} /></div></div>
-</section>
+</section> : <DefaultHero />}
 <style>
   .home-hero { display: grid; grid-template-columns: 1.2fr 1fr; gap: 2rem; align-items: center; padding-block: 3rem 2rem; }
   .home-hero h1#_top { font-size: clamp(3rem, 6.5vw, 5.8rem); letter-spacing: -.065em; line-height: .98; font-weight: 800; margin: 1.25rem 0 1.5rem; }
-  .home-hero h1 span { display: block; color: var(--sl-color-text-accent); }
-  .home-tagline { font-size: clamp(1.25rem, 2vw, 1.75rem); font-weight: 600; letter-spacing: -.025em; color: var(--sl-color-white); margin: 0 0 .75rem; }
+  .home-hero h1 .home-h1-gold { display: block; color: var(--sl-color-text-accent); }
+  .home-hero h1 .home-h1-pre { display: block; font-size: .3em; letter-spacing: .02em; font-weight: 700; color: var(--sl-color-gray-2); margin-bottom: .35em; }
+  .home-hero h1 .home-h1-sub { display: block; font-size: .36em; letter-spacing: -.02em; font-weight: 650; color: var(--sl-color-white); margin-top: .5em; }
+  .home-release { display: flex; flex-wrap: wrap; gap: .25rem .6rem; font-size: .85rem; color: var(--sl-color-gray-2); margin-top: 1.25rem; }
+  .home-release a { color: var(--sl-color-text-accent); }
   .home-description { color: var(--sl-color-gray-2); max-width: 44ch; line-height: 1.8; font-size: 1rem; }
   .home-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.5rem; margin-top: 1.75rem; }
   .home-secondary { color: var(--sl-color-text-accent); font-size: .9rem; text-underline-offset: .25em; }

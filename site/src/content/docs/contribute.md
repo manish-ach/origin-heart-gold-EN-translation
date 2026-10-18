@@ -3,7 +3,7 @@ title: Report a problem or contribute
 description: How to report a mistake, send a screenshot or suggest a fix for the guide.
 ---
 
-This guide is maintained in the open. You don't need to know any code to help.
+This guide is maintained in the open on [GitHub](https://github.com/originheartgold/origin-heart-gold-EN-translation), and players meet on the official [Discord](https://discord.gg/sQY2udrQS). You don't need to know any code to help.
 
 ## Found a mistake?
 
@@ -15,7 +15,7 @@ Guide and reference pages have these links at the bottom:
 
 Each quest on the quest guide pages also has its own **Report a problem with this quest** link, next to its **Done** tick box.
 
-All of these go through GitHub, so you need a free GitHub account. If you suggest guide text, you agree that we may
+All of these go through GitHub, so you need a free GitHub account. No account? Tell us on the official [Discord](https://discord.gg/sQY2udrQS) instead. If you suggest guide text, you agree that we may
 publish it under the guide's [licence](../about/#licence).
 
 ## What helps most

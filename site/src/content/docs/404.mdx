@@ -1,0 +1,29 @@
+---
+title: Page not found
+description: This page doesn't exist on the Origin HeartGold English site. Search the site or start from the patch, the walkthrough or the Pokédex.
+editUrl: false
+pagefind: false
+tableOfContents: false
+---
+
+{/* Starlight serves this entry as 404.html. src/routeData.ts gives it noindex and no canonical.
+    It is served at any missing path, so links start from the site base, never "../". */}
+import NotFoundSearch from '../../components/NotFoundSearch.astro';
+export const b = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+
+There's no page at this address. It may have moved, or the link has a typo.
+
+<NotFoundSearch />
+
+Or start from one of these:
+
+<ul>
+<li><a href={b + 'patch/'}>Download the English patch</a></li>
+<li><a href={b + 'guide/'}>The walkthrough (quest guide)</a></li>
+<li><a href={b + 'pokemon/'}>Pokémon</a> · <a href={b + 'locations/'}>Locations</a> · <a href={b + 'items/'}>Items</a> · <a href={b + 'trainers/'}>Trainers</a></li>
+<li><a href={b + 'faq/'}>FAQ</a> · <a href={b + 'changelog/'}>Changelog</a></li>
+<li><a href={b}>Home</a></li>
+</ul>
+
+Old links to the quest guide's region pages forward to the right chapter by themselves. Links to the old address,
+`originheartgold.github.io/origin-heart-gold-EN-translation/`, forward to the same page here.

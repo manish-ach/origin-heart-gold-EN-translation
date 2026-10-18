@@ -24,6 +24,14 @@ Some story choices only come once, like the [bomb on the S.S. Anne](../guide/ch0
 
 ## Getting the game running
 
+### Is this the official site? Where do I get the patch?
+
+Yes. This is the official site of the Origin HeartGold English translation. Patches are published only on our [GitHub releases](https://github.com/originheartgold/origin-heart-gold-EN-translation/releases). The [patch page](../patch/) on this site uses the same patch and applies it in your browser. If another site offers the patch, it isn't from us: get it here or from GitHub, so you know it's the current, unmodified release. What changed in each version is on the [changelog](../changelog/).
+
+### Where can I get help or talk to other players?
+
+Join the official [Discord](https://discord.gg/sQY2udrQS) to ask questions and talk to other players. To report a mistake in the game or the guide, use the links at the bottom of every page or open an issue on [GitHub](https://github.com/originheartgold/origin-heart-gold-EN-translation/issues).
+
 ### Which HeartGold do I need?
 
 **Pokémon HeartGold Version (USA)**, a clean, untrimmed copy (CRC32 `C180A0E9`). European, Japanese, Korean and already-patched files won't work. The [patcher on this site](../patch/) checks your file for you and accepts both `.nds` and `.zip`.
@@ -39,7 +47,7 @@ Use the [patcher on this site](../patch/): it handles zipped files and tells you
 
 ### Can someone send me the patched game?
 
-No. Sharing ROMs isn't allowed, here or on the Discord. The patch is all you need, plus your own HeartGold (USA) file.
+No. Sharing ROMs isn't allowed, here or on the [Discord](https://discord.gg/sQY2udrQS). The patch is all you need, plus your own HeartGold (USA) file.
 
 ### Which emulator should I use?
 
@@ -53,7 +61,7 @@ Yes, from rc6 on, but it hasn't been tested on a real console yet. The original 
 - **DSi with TWiLight Menu++, DSPico, and DS or DS Lite flashcarts (R4 with Wood R4, YSMenu, AKAIO…):** untested. Please try it and tell us how it goes.
 - **Don't add another anti-piracy patch.** The fix is built into the English patch. Don't apply a separate anti-piracy patch or an nds-bootstrap anti-piracy `.ips` file on top of it, and turn off your flashcart's own anti-piracy patching for this game if it has an option for that.
 
-If it freezes, report it on the Discord or on GitHub with:
+If it freezes, report it on the [Discord](https://discord.gg/sQY2udrQS) or on [GitHub](https://github.com/originheartgold/origin-heart-gold-EN-translation/issues) with:
 
 1. your console, and the loader or flashcart with its version (for TWiLight Menu++, also the nds-bootstrap version);
 2. the per-game settings you used (DS or DSi mode, CPU speed, VRAM);
@@ -78,7 +86,7 @@ You're on an old version of the patch (before rc4). The crashes after double-siz
 
 ### There are several English patches. Which one is this?
 
-This site covers the English translation, which keeps the Chinese hack exactly as it was made. Other community patches, such as ones that add level caps or a hard mode, are shared on the Discord. This guide doesn't cover their changes. Each patch has to be applied to a clean HeartGold (USA) file; you can't stack them.
+This site covers the English translation, which keeps the Chinese hack exactly as it was made. Other community patches, such as ones that add level caps or a hard mode, are shared on the [Discord](https://discord.gg/sQY2udrQS). This guide doesn't cover their changes. Each patch has to be applied to a clean HeartGold (USA) file; you can't stack them.
 
 ## Game settings and speed
 

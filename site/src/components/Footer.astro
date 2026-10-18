@@ -2,6 +2,7 @@
 // Starlight's footer plus "report a problem" and "edit the source" links for every page.
 import Default from '@astrojs/starlight/components/Footer.astro';
 import { REPO_URL } from '../../site.config.mjs';
+import { OFFICIAL_LINE, DISCORD_URL, RELEASES_URL } from '../lib/site-meta';
 const route = Astro.locals.starlightRoute;
 const source = (route.entry?.data as { source?: string })?.source;
 const page = Astro.url.pathname;
@@ -15,6 +16,14 @@ const edit = source ? `${REPO_URL}/edit/main/${source}` : undefined;
 	<a href="https://github.com/PokeAPI/sprites">Pokémon artwork: PokéAPI</a>
 </div>
 <Default {...Astro.props}><slot /></Default>
+<p class="official">{OFFICIAL_LINE}</p>
+<nav class="official-links" aria-label="Official links">
+	<a href={RELEASES_URL} rel="noopener">GitHub releases</a>
+	<a href={REPO_URL} rel="noopener">GitHub</a>
+	<a href={DISCORD_URL} rel="noopener">Discord</a>
+	<a href={`${import.meta.env.BASE_URL}changelog/`}>Changelog and contributors</a>
+	<a href={`${import.meta.env.BASE_URL}about/#credits`}>Credits</a>
+</nav>
 <p class="disclaimer">
 	A free, non-commercial fan project. Not affiliated with or endorsed by Nintendo, Creatures Inc., GAME FREAK inc. or The Pokémon Company.
 </p>
@@ -22,6 +31,9 @@ const edit = source ? `${REPO_URL}/edit/main/${source}` : undefined;
 	© 2026 Origin HeartGold English translation team. Guide text: all rights reserved — see <a href={`${import.meta.env.BASE_URL}about/#licence`}>licence</a>.
 </p>
 <style>
+	.official { font-size: var(--sl-text-sm); color: var(--sl-color-gray-2); margin-top: 1.5rem; font-weight: 600; }
+	.official-links { display: flex; flex-wrap: wrap; gap: .25rem 1rem; font-size: var(--sl-text-sm); margin-top: .5rem; }
+	.official-links a { color: var(--sl-color-text-accent); }
 	.disclaimer { font-size: var(--sl-text-xs); color: var(--sl-color-gray-3); margin-top: 1.5rem; }
 	.disclaimer.licence { margin-top: 0.5rem; }
 	.disclaimer a { color: inherit; }

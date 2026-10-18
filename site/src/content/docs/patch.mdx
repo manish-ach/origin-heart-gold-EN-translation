@@ -1,16 +1,19 @@
 ---
-title: Patch your game
-description: Drop your own Pokémon HeartGold (USA) .nds or .zip and get Origin HeartGold in English back, patched in your browser. Nothing is uploaded.
+title: Download the English patch
+description: Download the Origin HeartGold English patch, or drop your own Pokémon HeartGold (USA) .nds or .zip and get the English game, patched in your browser.
 editUrl: false
 ---
 
 import { Aside } from '@astrojs/starlight/components';
 import Patcher from '../../components/Patcher.astro';
 import { REPO_URL } from '../../../site.config.mjs';
+import { OFFICIAL_LINE, latestRelease, formatDate, releaseUrl } from '../../lib/site-meta';
 
 <Aside type="danger" title="Content warning: mature audiences">
 This fan game contains strong language, sexual themes and innuendo, violence, death, and dark humour. It is intended for mature audiences and is not suitable for children.
 </Aside>
+
+<p class="patch-official"><strong>{OFFICIAL_LINE}</strong> Current English patch: <strong>v{latestRelease.version}</strong>, released <time datetime={latestRelease.date}>{formatDate(latestRelease.date)}</time> (<a href={releaseUrl(latestRelease)}>release notes</a>, <a href="../changelog/">all changes</a>).</p>
 
 Drop your own **Pokémon HeartGold Version (USA)** file below, as a `.nds` or a `.zip`, and you get Origin HeartGold (起源心金) v4.0.3 in English back.
 The page checks your file, downloads the patch published with this site and applies it for you. You don't need to download the patch, find a patching tool or unzip anything.
@@ -32,7 +35,7 @@ The European, Japanese and Korean versions won't work, and neither will a file t
 
 ## What's new in rc8
 
-Version **v1.0.0-rc8** (4.0.3-RC8 inside the game) is a release candidate. It is not yet tested on real hardware. The full list is in the changelog on <a href={REPO_URL}>GitHub</a>.
+Version **v1.0.0-rc8** (4.0.3-RC8 inside the game) is a release candidate. It is not yet tested on real hardware. Earlier releases are on the [changelog](../changelog/); the full technical list is in the changelog on <a href={REPO_URL}>GitHub</a>.
 
 - **Freezes fixed:** stepping under the arch in front of the stairs on Victory Road (reported on a real DS Lite), the weekday siblings' ribbon scene, the Pallet Town photographer when none of your Pokémon can fight, losing to Giovanni at the Mt. Silver hot spring, and scripted Double Battles when you have fewer than two Pokémon (such as the Department Store's 6F).
 - **Money and quantities:** the Goldenrod fortune teller, the younger Haircut Brother and the S.S. Anne shop now check for the price they charge; the Game Corner's "500 coins" option gives 500 coins. Rewards of several items say how many you got ("Obtained Ultra Ball x2!").

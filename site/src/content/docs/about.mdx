@@ -6,10 +6,13 @@ description: What you need to play, what this guide covers, how it was made and 
 import { referenceCoverage } from '../../lib/data';
 import { existsSync } from 'node:fs';
 import { REPO_URL } from '../../../site.config.mjs';
+import { OFFICIAL_LINE, DISCORD_URL } from '../../lib/site-meta';
 
 {/* The PDF is optional in CI (work/tools/site/build_pdf.py); link it only when the build made it. */}
 export const coverageTotals = referenceCoverage.sheets.reduce((sum, sheet) => ({ rows: sum.rows + sheet.rows, included: sum.included + (sheet.statuses.included ?? 0), unresolved: sum.unresolved + (sheet.statuses.unresolved ?? 0) }), {rows: 0, included: 0, unresolved: 0});
 export const hasPdf = existsSync('public/downloads/origin-heartgold-guide.pdf');
+
+<p><strong>{OFFICIAL_LINE}</strong></p>
 
 This guide covers **Origin HeartGold (起源心金) v4.0.3** played with the English translation patch.
 The game starts in Pallet Town in Kanto. Johto opens up after you become Kanto Champion and finish the story scenes that follow.
@@ -68,6 +71,13 @@ Use [move details](../moves/), [ability details](../abilities/) and the [TM/HM l
 
 Some quests hit bugs that are in the original Chinese hack. They are listed on the [Known issues](../guide/known-issues/) page.
 The translation keeps the hack's behaviour as it is and doesn't fix them.
+
+## Official links
+
+- **This website:** the patch page, the walkthrough and the reference pages.
+- **<a href={REPO_URL + '/releases'}>GitHub releases</a>:** the only place we publish the patch. The <a href={REPO_URL}>GitHub repository</a> also takes problem reports.
+- **<a href={DISCORD_URL}>Discord</a>:** the official community server, for help and news.
+- **[Changelog and contributors](../changelog/):** what changed in each release, and who helped.
 
 ## Credits
 

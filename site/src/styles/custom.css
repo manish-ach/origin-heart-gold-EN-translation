@@ -98,6 +98,7 @@ ul.loc-list li { break-inside: avoid; }
 
 /* ---- footer help links */
 .page-help { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; font-size: var(--sl-text-sm); margin: 2rem 0 1rem; padding-top: 1rem; border-top: 1px solid var(--sl-color-gray-5); }
+.page-help a { color: var(--sl-color-text-accent); }
 
 @media print {
 	.game-setup, .quest-tools, .page-help { display: none; }

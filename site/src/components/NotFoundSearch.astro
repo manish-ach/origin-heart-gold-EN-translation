@@ -1,0 +1,13 @@
+---
+// A "Search the site" button for the 404 page: opens Starlight's search dialog.
+---
+<p><button type="button" class="not-found-search" data-open-search>Search the site</button></p>
+<script>
+	document.querySelector('[data-open-search]')?.addEventListener('click', () => {
+		document.querySelector<HTMLButtonElement>('site-search button[data-open-modal]')?.click();
+	});
+</script>
+<style>
+	.not-found-search { padding: .6rem 1rem; border-radius: .5rem; border: 1px solid var(--sl-color-gray-5); background: var(--sl-color-accent-low); color: var(--sl-color-accent-high); font: inherit; font-weight: 600; cursor: pointer; }
+	.not-found-search:hover { border-color: var(--sl-color-accent); }
+</style>
