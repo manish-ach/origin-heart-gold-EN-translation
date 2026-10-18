@@ -22,6 +22,16 @@ for (const [file, audit, count] of [['species', 'not_in_game', 1440], ['items', 
     assert.equal(entries.filter(e => e.unavailableReason).length, reviewed.length);
   });
 }
+test('site data names the released ROM it was exported from', () => {
+  // export_data.py records the ROM; committed data must describe a published release (RELEASING.md), never the
+  // untouched Chinese ROM or an unreleased build.
+  const { rom } = json('../src/data/meta.json');
+  assert.ok(rom, 'meta.json has no "rom": regenerate with work/tools/site/export_data.py');
+  assert.equal(rom.kind, 'release');
+  assert.match(rom.label, /^v\d+\.\d+\.\d+(-rc\d+)?$/);
+  assert.equal(rom.tag, rom.label);
+  assert.match(rom.sha1, /^[0-9a-f]{40}$/);
+});
 test('camera presets keep exact raw values when their rounded controls are unchanged', () => {
   for (let i = 0; i < PRESETS.length; i++) {
     const raw = PRESETS[i], code = buildCode('everywhere', toSettings(raw), i);

@@ -19,6 +19,7 @@ const tables = (notes as unknown as {unmappedEncounterTables:{key:string;note:st
 <li><Evidence evidence={{kind:'author-note'}} /> Means the author's claim. The item survey is labeled 3.2 and has several outdated locations and costs; older claims and comparisons are retained below.</li>
 <li><Evidence evidence={{kind:'tested'}} /> Is used only for existing documented gameplay tests, such as the calendar tests. The reference reconciliation added no new gameplay test.</li>
 </ul>
+<p id="game-data-build">The game data on these pages was read from the ROM that the {(meta as {rom:{label:string}}).rom.label} patch produces (SHA-1 <code>{(meta as {rom:{sha1:string}}).rom.sha1}</code>), so it includes every fix that release turns on.</p>
 <h2 id="coverage">Workbook coverage</h2>
 <p>“Included” means the compared fields match or the claim has been included with attribution. It is not a blanket human-review verdict. “Unresolved” means a comparison or locator remains open. {referenceCoverage.reservedUnnamedItemRows} included rows are reserved unnamed item slots with no useful gameplay note; their explicit disposition remains in the source register.</p>
 <table class="compact"><thead><tr><th>Workbook</th><th>Sheet</th><th>Rows</th><th>Disposition</th></tr></thead><tbody>{referenceCoverage.sheets.map(s => <tr><td>{s.source}</td><td>{sheetName(s.sheet)}</td><td>{s.rows.toLocaleString('en-US')}</td><td>{Object.entries(s.statuses).map(([k,v]) => `${k}: ${v}`).join('; ')}</td></tr>)}</tbody></table>

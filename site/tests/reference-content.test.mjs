@@ -51,9 +51,14 @@ test('known stale item claims carry concrete script audit corrections',()=>{
 });
 
 test('tutor claims join the configured taught move, preserving EN source conflicts',()=>{
- const flail=tutors.find(t=>t.move===175);
- const claimed=flail.authorNotes.find(n=>n.evidence.row===585);
- assert.equal(claimed.moveId,583);assert.equal(claimed.configuredMoveId,175);
+ // The workbook's Play Rough tutor (row 585) taught Flail in the original hack (D-1305). The data describes the
+ // released ROM (meta.json "rom"): from rc8 (tutor-blackthorn-play-rough) the tutor teaches Play Rough and the claim
+ // joins it as matching; on a ROM without the fix it joins the Flail tutor as a conflict.
+ const fixed=!tutors.some(t=>t.move===175);
+ const claimed=tutors.find(t=>t.move===(fixed?583:175)).authorNotes.find(n=>n.evidence.row===585);
+ assert.equal(claimed.moveId,583);assert.equal(claimed.configuredMoveId,fixed?583:175);
+ assert.equal(claimed.comparison.identityMatches,fixed);
+ if (fixed) assert.match(claimed.priorAuditNote,/^Original hack \(fixed in this game\): .*Flail/);
  const poltergeist=tutors.find(t=>t.move===809).authorNotes.find(n=>n.evidence.row===573);
  assert.equal(poltergeist.moveId,917);assert.equal(poltergeist.configuredMoveId,809);
  const ancient=tutors.find(t=>t.move===246).authorNotes.find(n=>n.evidence.row===565);
