@@ -1,0 +1,49 @@
+---
+// Changelog & contributors: one section per public release, newest first, from src/data/releases.json
+// (player-facing summaries written from CHANGELOG.md) and src/data/contributors.json (who helped with each release).
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { releases, contributors, releaseUrl, formatDate, OFFICIAL_LINE, DISCORD_URL, RELEASES_URL } from '../../lib/site-meta';
+import { url } from '../../lib/data';
+const escape = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+/** The summaries use **bold** only. */
+const inline = (s: string) => escape(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+const id = (version: string) => `v${version.replace(/\./g, '-')}`;
+const headings = [
+	{ depth: 2, slug: 'releases', text: 'Releases' },
+	...releases.map((r) => ({ depth: 3, slug: id(r.version), text: `v${r.version}` })),
+	{ depth: 2, slug: 'credits', text: 'Credits' },
+];
+---
+<StarlightPage frontmatter={{
+	title: 'Changelog and contributors',
+	description: `What changed in every release of the Origin HeartGold English patch, from v${releases.at(-1)!.version} to v${releases[0].version}, and the players who helped with each one.`,
+}} headings={headings}>
+<p><strong>{OFFICIAL_LINE}</strong> The newest version is always on the <a href={url('/patch/')}>patch page</a> and on <a href={RELEASES_URL}>GitHub releases</a>.</p>
+<p>Every release is a patch for your own Pokémon HeartGold Version (USA). Patch your original file again for each new version and keep your in-game save: new versions don't change the save format.</p>
+
+<h2 id="releases">Releases</h2>
+{releases.map((r, i) => {
+	const link = releaseUrl(r);
+	const thanks = contributors[r.version] ?? [];
+	return <section class="release" aria-labelledby={id(r.version)}>
+		<h3 id={id(r.version)}>v{r.version}{i === 0 && <span class="release-latest">Latest</span>}</h3>
+		<p class="release-meta">Released <time datetime={r.date}>{formatDate(r.date)}</time>{link && <> · <a href={link}>GitHub release and download</a></>}</p>
+		<p>{r.summary}</p>
+		{r.note && <p class="release-note">{r.note}</p>}
+		<ul>{r.changes.map((c) => <li set:html={inline(c)} />)}</ul>
+		{thanks.length > 0 && <p class="release-thanks"><strong>Thanks to</strong> {thanks.join(', ')}</p>}
+	</section>;
+})}
+
+<h2 id="credits">Credits</h2>
+<p>Origin HeartGold (起源心金) is a fan game by <strong>雁南飞TB (Yannanfei TB)</strong>, with v4 by <strong>Alex</strong>. The Chinese patches were packaged by u/riap0526, and u/Shake69's partial v3 English translation was reused with their permission. Some in-game graphics come from hg-engine and its contributors. The full list, with the tools and images this site uses, is on the <a href={url('/about/#credits')}>credits</a> section of the About page.</p>
+<p>Found a problem, or want to help test the next release? Join the official <a href={DISCORD_URL}>Discord</a> or <a href={url('/contribute/')}>report it</a>.</p>
+</StarlightPage>
+<style>
+	.release + .release { margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid var(--sl-color-gray-6); }
+	.release h3 { display: flex; align-items: center; gap: .6rem; }
+	.release-latest { font-size: var(--sl-text-xs); font-weight: 600; padding: .1rem .55rem; border-radius: 999px; background: var(--sl-color-accent-low); color: var(--sl-color-accent-high); }
+	.release-meta { font-size: var(--sl-text-sm); color: var(--sl-color-gray-2); margin-top: .25rem !important; }
+	.release-note { font-size: var(--sl-text-sm); border-left: 3px solid var(--sl-color-accent); padding-left: .75rem; }
+	.release-thanks { font-size: var(--sl-text-sm); }
+</style>
