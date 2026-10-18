@@ -1,0 +1,7 @@
+---
+// Starlight's sidebar, with the site's main destinations on top while it is the mobile navigation drawer.
+import Default from '@astrojs/starlight/components/Sidebar.astro';
+import PrimaryNav from './PrimaryNav.astro';
+---
+<PrimaryNav variant="drawer" />
+<Default><slot /></Default>

@@ -67,6 +67,7 @@ export default defineConfig({
         Hero: "./src/components/Hero.astro",
         Footer: "./src/components/Footer.astro",
         Header: "./src/components/GuideHeader.astro",
+        Sidebar: "./src/components/Sidebar.astro",
         Banner: "./src/components/Banner.astro",
       },
       sidebar: [
