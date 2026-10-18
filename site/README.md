@@ -301,24 +301,32 @@ Bug reports, screenshots and edit suggestions arrive as GitHub issues through th
 
 ## Save editor and navigation
 
-The header has a quick link to `/save-editor/`. The editor uses the standalone `sv` implementation in `work/save-editor/`, with its own full-width layout and a Guide link back to the site. Astro bundles its TypeScript and stylesheet directly. Both the standalone source in `sv` and the integrated copy include a persistent light/dark toggle.
+The main destinations (Walkthrough, Pokédex, Trainers, FAQ, Save editor and the "Get the patch" button) are one list,
+`src/lib/primary-nav.ts`, rendered by `PrimaryNav.astro` in three places: in the header from 78rem up; in a Menu
+popover on pages without a sidebar (home, 404), with the theme choice and the social links; and at the top of the
+phone navigation drawer (`Sidebar.astro`). The current section gets `aria-current`. Keep the list short: the header has
+room for about six items at 78rem.
+
+The editor uses the standalone `sv` implementation in `work/save-editor/`, with its own full-width layout and a Guide link back to the site. Astro bundles its TypeScript and stylesheet directly. `src/pages/save-editor/index.astro` dresses the shell as part of the site: title, description, canonical, social tags and JSON-LD like the other pages, the site wordmark with an `h1`, the site's font stack (no Google Fonts), a backup note and the footer text. Its theme toggle stores under the site's `starlight-theme` key (`data-theme-key` on `<html>`), so the theme follows the rest of the site; the standalone editor keeps `ohg-editor-theme`.
 
 On desktop, the header hamburger collapses the guide sidebar and remembers that choice. On small screens, Starlight's existing hamburger opens the navigation drawer. All links respect `GUIDE_BASE` for GitHub Pages deployment.
 
+### Accessibility checks
+
+- Tables need a name. Components and pages give theirs a `<caption class="sr-only">`; Markdown tables get
+  `aria-label` from the heading before them (`src/lib/rehype-a11y.mjs`, a Sätteri hast plugin set as
+  `markdown.processor` in `astro.config.mjs`). `ohg.js` makes a table's scroll panel a named, focusable region only
+  while it really scrolls sideways.
+- Chinese and Japanese text needs a `lang`: the same plugin wraps it in Markdown; in templates use `<Cjk text={…} />` or
+  `<span lang="zh-Hans">`.
+- Trainer teams and encounter lists (`.stack-table`, with `data-label` on each cell) turn into one card per row below
+  40rem.
+- `tests/a11y.test.mjs` scans every built page (with `GUIDE_TEST_DIST=1`): images without `alt`, ARIA names on elements
+  that can't have one, duplicate ids, unnamed tables, row headers without `scope`, untagged Chinese/Japanese text and the
+  ↗ "leaves the site" arrow on internal links. It also checks one `h1` and the main navigation on sample pages.
+- Astro caches rendered Markdown: after changing the plugin, build once with `npm run build -- --force`.
+
 The reference pages share the artwork URL helper in `work/save-editor/src/ui/artwork.ts`; builds do not download artwork.
-
-`MobileMenuToggle.astro` adds a JavaScript fallback for browsers without the Popover API
-(including iOS before 17), and clears the page's interaction/scroll lock when the drawer
-closes, the viewport changes, or a page is restored from history. Without JavaScript,
-older browsers show navigation in the page flow so it cannot cover the content.
-Test against a local production preview with existing WebKit and Chromium installations:
-
-```sh
-PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs GUIDE_PREVIEW_URL=http://127.0.0.1:4338/ node site/tests/mobile-menu-browser.mjs
-```
-
-The runner checks touch navigation, restored page interaction, and JavaScript-disabled
-behavior. Its missing-popover simulation does not replace testing on a physical old iPhone.
 
 `MobileMenuToggle.astro` adds a JavaScript fallback for browsers without the Popover API
 (including iOS before 17), and clears the page's interaction/scroll lock when the drawer
