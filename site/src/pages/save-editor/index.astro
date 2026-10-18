@@ -4,7 +4,8 @@ import '../../../../work/save-editor/styles.css';
 const base = import.meta.env.BASE_URL;
 const head = shell.match(/<head>([\s\S]*?)<\/head>/)?.[1]
   .replace(/<link rel="stylesheet"[^>]*>/g, '')
-  .replace('href="favicon.svg"', `href="${base}save-editor/favicon.svg"`);
+  // The site's own icon set, so the save editor looks like part of the site (W-025).
+  .replace(/<link rel="icon"[^>]*>/, `<link rel="icon" href="${base}favicon.ico" sizes="32x32"><link rel="icon" type="image/svg+xml" href="${base}favicon.svg"><link rel="apple-touch-icon" href="${base}apple-touch-icon.png"><link rel="manifest" href="${base}site.webmanifest">`);
 const body = shell.match(/<body>([\s\S]*?)<\/body>/)?.[1]
   .replace(/<script[^>]*>[\s\S]*?<\/script>/g, '')
   .replace('<div class="bar-actions">', `<div class="bar-actions"><a class="btn ghost guide-link" href="${base}">Guide</a>`);
