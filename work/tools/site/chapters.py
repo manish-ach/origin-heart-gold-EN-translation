@@ -178,10 +178,11 @@ def render_step(step, info, chapter_of, here):
     return out
 
 
-def render_chapter(ch, info, chapter_of, sections, previous, following):
+def render_chapter(ch, info, chapter_of, sections, previous, following, hidden_items=()):
     """Markdown body (no frontmatter) of a chapter page. `sections` maps quest id -> section lines (already link-rewritten)."""
     here = ch['id']
     out = [ch['intro'].strip(), '']
+    out += hidden_items
     if ch['steps']:
         out += ['## Walkthrough', '']
         for step in ch['steps']:

@@ -598,6 +598,41 @@ def chapter_list(chapters):
     return '\n'.join(out)
 
 
+def hidden_item_sections(source):
+    """Index the existing location guide, keeping its spot counts and screenshot caveats."""
+    sections = {}
+    for part in re.split(r'^## ', source, flags=re.M)[1:]:
+        heading, _, body = part.partition('\n')
+        count = len(re.findall(r'^\*Source:\* hidden-item event ', body, flags=re.M))
+        if count:
+            sections[heading.strip()] = {
+                'anchor': gh_slug(heading), 'count': count,
+                'missing': body.count('**Missing screenshot.**'),
+            }
+    return sections
+
+
+def chapter_hidden_items(ch, sections):
+    """A native disclosure: optional location links, with no item spoilers while closed."""
+    names = ch.get('hidden_items', [])
+    if not names:
+        return []
+    if len(names) != len(set(names)) or any(name not in sections for name in names):
+        raise SystemExit('%s: hidden_items must name unique locations from guide/hidden-items.md' % ch['_file'])
+    out = ['<details class="chapter-hidden-items">',
+           '<summary>Hidden items along the way</summary>', '',
+           'Optional stops in this chapter’s locations. Some spots may need a return visit; check the location notes for access limitations.', '',
+           'Open a location for item names, directions and available screenshots.', '']
+    for name in names:
+        entry = sections[name]
+        count = entry['count']
+        label = '%s — %d %s' % (name, count, 'spot' if count == 1 else 'spots')
+        note = ' (%d without screenshots)' % entry['missing'] if entry['missing'] else ''
+        out.append('- [%s](hidden-items.md#%s)%s' % (label, entry['anchor'], note))
+    out += ['', '[Browse all hidden items](hidden-items.md)', '', '</details>', '']
+    return out
+
+
 def build_chapter_page(ch, collect, chapter_of, link_map, unresolved, force_mdx=False):
     """(file name, text) of the site page for one chapter."""
     info = collect
@@ -632,7 +667,9 @@ def build_chapter_page(ch, collect, chapter_of, link_map, unresolved, force_mdx=
         lines = [re.sub(r'\]\(#([^)\s]+)\)', local, x) for x in lines]
         sections[q['id']] = lines
         solvers += rec['solvers']
-    body = chapters_mod.render_chapter(ch, collect, chapter_of, sections, None, None)
+    with open(os.path.join(GUIDE, 'hidden-items.md'), encoding='utf-8') as fh:
+        hidden = chapter_hidden_items(ch, hidden_item_sections(fh.read()))
+    body = chapters_mod.render_chapter(ch, collect, chapter_of, sections, None, None, hidden_items=hidden)
     text = rewrite_links('\n'.join(body), 1, link_map, unresolved)
     text = re.sub(r'\n{3,}', '\n\n', text)
     order = 10 + ch['order']

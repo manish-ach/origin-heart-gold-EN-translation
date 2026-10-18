@@ -365,3 +365,10 @@ section.quest { padding: 1.25rem; margin-block: 1.5rem; border: 1px solid var(--
 li.chapter-quest.is-done > a { text-decoration: line-through; opacity: 0.6; }
 li.chapter-quest.is-hidden, .chapter-unlocks.is-hidden, .chapter-warning.is-hidden { display: none; }
 p.quest-note { margin: 0.4rem 0 !important; padding: 0.3rem 0.6rem; border-left: 3px solid var(--sl-color-accent); background: var(--sl-color-accent-low); font-size: var(--sl-text-sm); }
+
+/* Optional chapter location links; native details works with keyboard and without JS. */
+.chapter-hidden-items { margin-block: 1.25rem; padding: .35rem .85rem; border: 1px solid var(--sl-color-gray-5); border-radius: .5rem; font-size: var(--sl-text-sm); }
+.chapter-hidden-items > summary { cursor: pointer; padding-block: .55rem; color: var(--sl-color-text-accent); font-weight: 600; }
+.chapter-hidden-items > summary:focus-visible { outline: 2px solid var(--sl-color-text-accent); outline-offset: 3px; border-radius: .2rem; }
+.chapter-hidden-items[open] { padding-bottom: .85rem; }
+.chapter-hidden-items li { margin-block: .35rem; }

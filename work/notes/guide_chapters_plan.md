@@ -19,6 +19,7 @@ order = 1
 title = "Chapter 1: The First Badge"
 summary = "Pallet Town to Pewter City and Brock."     # one sentence, player language
 kind = "story"                      # story | postgame
+hidden_items = ["Pewter City"]       # optional, exact location headings in guide/hidden-items.md
 intro = """Plain Markdown. What the player is doing in this chapter, and the main-quest reminder."""
 
 [[steps]]                           # walkthrough, in play order. Main-quest beats AND quest unlocks.
@@ -62,3 +63,5 @@ values are unique; `postgame` chapters come after all `story` chapters.
 9. Walkthrough prose must be written from the game, not from FireRed memory. Keep it short: a chapter reads as
    a checklist of where to go next with the quest pointers inline.
 10. Record uncertain things as questions in `work/notes/guide_chapters_questions.md` (append: quest id, issue, options).
+
+Hidden-item links use explicit chapter geography, not inferred unlocks. The site renders one closed native disclosure after the intro, links to the existing location guide, and derives spot counts and missing-screenshot notices from that guide. Listed areas may require a return visit; these links do not assert that every spot is reachable at the chapter’s start. Generation rejects unknown or duplicate location headings.
