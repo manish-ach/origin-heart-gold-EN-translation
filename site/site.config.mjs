@@ -10,3 +10,7 @@ export const BASE = process.env.GUIDE_BASE || '/';
 export const PREVIEW = process.env.GUIDE_PREVIEW === '1';
 export const GAME = 'Origin HeartGold';
 export const GAME_VERSION = 'v4.0.3';
+// Search engine ownership tokens (W-011), from the repository variables of the same name; production builds only.
+// The content value of Google Search Console's "HTML tag" and of Bing Webmaster Tools' msvalidate.01 tag.
+export const GOOGLE_VERIFICATION = process.env.GUIDE_GOOGLE_VERIFICATION || '';
+export const BING_VERIFICATION = process.env.GUIDE_BING_VERIFICATION || '';

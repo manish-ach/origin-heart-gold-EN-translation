@@ -59,7 +59,10 @@ Release, release-redeploy and preview-redeploy triggers are unchanged: they all 
    - The patcher at the new address patches a ROM end to end (the in-browser check is the same as before).
 6. **Repo settings** (main repo → About, gear icon): Website `https://originheartgold.github.io/`.
 7. **Search engines:** in Google Search Console and Bing Webmaster Tools, add `https://originheartgold.github.io/`
-   (URL-prefix property), submit `https://originheartgold.github.io/sitemap-index.xml`, and in Google use the Change of
+   (URL-prefix property) and choose the HTML-tag verification. Put the tag's `content` value in this repo's Actions
+   variables (Settings → Secrets and variables → Actions → Variables) as `GUIDE_GOOGLE_VERIFICATION` and
+   `GUIDE_BING_VERIFICATION`, rerun the Website workflow, then click Verify. Submit
+   `https://originheartgold.github.io/sitemap-index.xml`, and in Google use the Change of
    Address tool only if it offers it for this property type (it needs domain-level properties, so probably not:
    the canonical links and redirects do the job instead).
 8. **Analytics:** GoatCounter keeps counting (same origin), but paths lose the `/origin-heart-gold-EN-translation`

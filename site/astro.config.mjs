@@ -4,7 +4,7 @@ import starlight from "@astrojs/starlight";
 // Declared in package.json (Starlight also depends on it); configured here so the sitemap can leave out noindex pages
 // and carry <lastmod>.
 import sitemap from "@astrojs/sitemap";
-import { REPO_URL, SITE_URL, BASE, PREVIEW } from "./site.config.mjs";
+import { REPO_URL, SITE_URL, BASE, PREVIEW, GOOGLE_VERIFICATION, BING_VERIFICATION } from "./site.config.mjs";
 import { excludedPaths, lastmodByPath, lastmodFor } from "./sitemap-config.mjs";
 // Astro's own Markdown processor (a dependency of astro), extended with one hast plugin.
 import { satteri } from "@astrojs/markdown-satteri";
@@ -56,6 +56,8 @@ export default defineConfig({
         // Pokémon images come from PokéAPI's sprite repository (W-050, W-052). Images are no-CORS requests: no crossorigin.
         { tag: "link", attrs: { rel: "preconnect", href: "https://raw.githubusercontent.com" } },
         ...(PREVIEW ? [{ tag: "meta", attrs: { name: "robots", content: "noindex, nofollow" } }] : []),
+        ...(!PREVIEW && GOOGLE_VERIFICATION ? [{ tag: "meta", attrs: { name: "google-site-verification", content: GOOGLE_VERIFICATION } }] : []),
+        ...(!PREVIEW && BING_VERIFICATION ? [{ tag: "meta", attrs: { name: "msvalidate.01", content: BING_VERIFICATION } }] : []),
         ...(PREVIEW ? [] : [{
           tag: "script",
           // Only load analytics on the configured public site, never local or /preview/ builds.

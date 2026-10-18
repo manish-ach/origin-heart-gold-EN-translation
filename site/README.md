@@ -298,6 +298,9 @@ checks that the guide pages are in sync and that no link is broken, and deploys:
 
 The repository URL comes from the repository; the site URL is set in the workflow (`site.config.mjs` holds the local
 fallbacks). The move and its checklist: `work/notes/root_site_move.md`.
+Search engine ownership tags (W-011): set the Actions variables `GUIDE_GOOGLE_VERIFICATION` (Search Console's
+HTML-tag `content`) and `GUIDE_BING_VERIFICATION` (Bing's `msvalidate.01` value); production builds then carry the
+`google-site-verification` and `msvalidate.01` meta tags on every page. Preview builds never do.
 
 A local build with the production URLs, from the repository root (W-056):
 

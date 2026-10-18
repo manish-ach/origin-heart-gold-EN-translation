@@ -115,6 +115,9 @@ jobs:
       GUIDE_SITE_URL: https://originheartgold.github.io
       GUIDE_BASE: /
       GUIDE_PUBLIC_URL: https://originheartgold.github.io/
+      # Search Console / Bing Webmaster ownership tags (W-011); empty until the repository variables are set.
+      GUIDE_GOOGLE_VERIFICATION: ${{ vars.GUIDE_GOOGLE_VERIFICATION }}
+      GUIDE_BING_VERIFICATION: ${{ vars.GUIDE_BING_VERIFICATION }}
     steps:
       - uses: actions/checkout@v4
         with:
