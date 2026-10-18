@@ -5,6 +5,9 @@
     python3 work/tools/docs/gen_docs.py --check    # regenerate in memory, report pages that would change
     python3 work/tools/docs/gen_docs.py --rom cn   # describe another ROM (see romdata "choosing the ROM")
 
+The player pages follow --rom; work/notes/docs_crossref.md, the maintainer cross-check of hack findings, documents the
+original hack and follows --crossref-rom (default cn, the untouched Chinese ROM; its header names the ROM).
+
 Inputs: the ROM --rom names (default: the newest release's ROM, rebuilt from work/release/<tag>/ and the USA ROM;
 read only), its English text (species 0232, moves 0739, items 0219, abilities 0711, types 0724, trainer names
 0719, classes 0720, trade names 0198; for the Chinese ROM these come from work/translate/banks) and
@@ -2752,17 +2755,29 @@ def main(argv=None):
     ap.add_argument('--refresh', action='store_true', help='re-read the ROM instead of using the cache')
     ap.add_argument('--rom', help='the ROM to describe: release:latest (default), release:<tag>, build, cn or a .nds '
                                   'path (env %s)' % R.ROM_ENV)
-    ap.add_argument('--findings-json', help='also write the candidate findings to this JSON file')
+    ap.add_argument('--crossref-rom', default='cn',
+                    help='the ROM the hack-findings cross-reference (--crossref) checks: cn (default, the original '
+                         'hack\'s behaviour), or any --rom value')
+    ap.add_argument('--findings-json', help='also write the candidate findings (of the cross-reference) to this JSON file')
     a = ap.parse_args(argv)
     global GEN_NOTE
-    rom = R.select_rom(a.rom, refresh=a.refresh)
-    problems = R.check_layout(rom)
-    if problems:
-        sys.exit('%s: the ROM\'s tables are not where the readers expect them:\n  ' % rom.identity['label'] + '\n  '.join(problems))
-    GEN_NOTE = gen_note(rom.identity)
-    print('ROM: %s (SHA-1 %s)' % (rom.identity['label'], rom.sha1))
-    ctx = Ctx(rom)
-    pages, cr, findings = build_all(ctx)
+
+    def run(spec):
+        rom = R.select_rom(spec, refresh=a.refresh)
+        problems = R.check_layout(rom)
+        if problems:
+            sys.exit('%s: the ROM\'s tables are not where the readers expect them:\n  ' % rom.identity['label'] + '\n  '.join(problems))
+        print('ROM: %s (SHA-1 %s)' % (rom.identity['label'], rom.sha1))
+        global GEN_NOTE
+        GEN_NOTE = gen_note(rom.identity)
+        return rom, build_all(Ctx(rom))
+
+    # the player pages describe the released game; the cross-reference (a maintainer check of hack findings)
+    # documents the original hack, so it reads the untouched Chinese ROM unless told otherwise
+    cr_rom, (_pages, cr, findings) = run(a.crossref_rom)
+    rom, (pages, cr_main, findings_main) = run(a.rom)
+    if rom.sha1 == cr_rom.sha1:
+        cr, findings = cr_main, findings_main
     outputs = {os.path.join(a.out, k): v for k, v in pages.items()}
     outputs[a.crossref] = cr
     changed = []

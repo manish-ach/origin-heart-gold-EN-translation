@@ -81,7 +81,8 @@ half local, half CI. ROMs, saves and build inputs are never uploaded: only the x
    ```
 
    Review the `site/src/data` and `work/docs` diff: each change should come from a fix or text change of this
-   release (`work/notes/site_export_built_rom.md` lists the categories). Commit it together with the release, never
+   release (`work/notes/site_export_built_rom.md` lists the categories), and go through that note's "Per-release
+   manual checks" (hand-written texts and the damage calculator that describe the hack's behaviour). Commit it together with the release, never
    before: rc players would otherwise see data (EVs, abilities, tutors) that does not match their game. See
    [site/README.md](site/README.md#which-game-the-data-describes).
 7. Commit the version bump, CHANGELOG and the regenerated data, and merge to `main`.

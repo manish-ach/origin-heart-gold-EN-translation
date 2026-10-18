@@ -135,21 +135,45 @@ names (the committed data already matched rc8's text), trainer EVs (rc8 keeps th
 is code or presentation only (battle sounds, freezes, price checks, Honey Gather, overworld sprites, the Bag's Use
 entry) do not change exported data.
 
-Docs (`work/docs`, `work/notes/docs_crossref.md`): the same tutor, Petilil, Forest of Time and Boldore/Gurdurr
+Docs (`work/docs`): the same tutor, Petilil, Forest of Time and Boldore/Gurdurr
 changes, plus the ROM named in every page header and the README's source paragraph.
 
 **Unexplained differences: none found.**
 
-## Open questions
+## The hack-findings cross-reference stays on the Chinese ROM
 
-1. `gen_docs.py` now also defaults to the release ROM, so `work/docs` (shipped in the release ZIP) describes the
-   released game. `work/notes/docs_crossref.md` (a maintainer cross-check of hack findings) is generated in the same
-   run and so also reads the release ROM. Should the crossref keep reading the Chinese ROM instead?
-2. Code-only hack bugs that later fixes remove are invisible to the exporter. Curated notes that describe them
-   (guide known issues, `pokemon_acquisition_notes.json`, the damage calculator's `site/src/lib/calc/mechanics/ohg.ts`,
-   e.g. Sonic Boom/Dragon Rage dealing 1 HP, which rc9's fixed-damage-moves changes) still need a hand update or a
-   `fixedBy` gate at each release. Should `fixedBy` be extended to those files?
-3. "English Pokédex order" (PLAN_RC9 section 3): the exporter reads only members 0/1 (height, weight) of `a/0/7/4`;
-   the site has no in-game sort order. Confirm nothing on the site should follow dex-english-initials.
-4. Map and area names still come from `bank_maps.json` (a workspace snapshot) rather than the ROM's map-name bank;
-   switching would risk changing slugs/URLs.
+`work/notes/docs_crossref.md` is the maintainer cross-check of hack findings: it documents the original hack's
+behaviour, so (coordinator decision, 2026-10-18) `gen_docs.py` builds it from `--crossref-rom`, default `cn`, while
+the player pages follow `--rom` (default `release:latest`). Its header names the ROM (the Chinese ROM's header,
+`from work/rom/origin_v4.0.3_cn.nds`), and `--findings-json` writes the cross-reference's findings. The file is
+byte-identical to its state before this branch.
+
+## Per-release manual checks
+
+Hand-maintained texts and code that describe the original hack's behaviour and are not driven by the ROM. At each
+release, check them against the fixes it turns on (`fixedBy` is not extended to them, coordinator decision
+2026-10-18):
+
+- `guide/known-issues.md` and the quest entries in `guide/*.md` that describe hack bugs ("From rc8 ...", "On rc7 and
+  earlier ...").
+- `work/tools/site/pokemon_acquisition_notes.json`, `acquisition_kanto.json`, `acquisition_other.json`,
+  `acquisition_trades.json`: curated acquisition text.
+- `work/tools/site/extra_sources.json`, `items_extra_sources.json`, `not_in_game.json`, `items_not_in_game.json`:
+  notes and availability reasons; gate a code-fixed hack bug with `fixedBy` (arm9 code fixes only).
+- `work/tools/site/export_data.py` `TUTOR_NOTES` and `gen_docs.py` tutor notes (self-disabling, keyed by move and
+  script; check new tutor findings).
+- `work/tools/site/reconcile_references.py`: row 585 is pinned to Flail (the Chinese ROM); `battle_reference`
+  re-joins it while the fix is in.
+- The damage calculator, `site/src/lib/calc/mechanics/ohg.ts`: emulator-verified hack mechanics coded by hand.
+  **rc9:** fixed-damage-moves makes Dragon Rage deal 40 HP, Sonic Boom 20 HP and Psywave 0.5x-1.5x the user's
+  level; the calculator still treats Sonic Boom and Dragon Rage as power-1 moves (and needs Psywave). Trainer EVs
+  in the calculator come from `trainers.json`, so they follow the ROM by themselves.
+- `site/tests/*.test.mjs` expectations that name specific tutors, evolutions or counts (rc8: the Blackthorn and
+  Saffron tutors).
+
+## Resolved questions (coordinator, 2026-10-18)
+
+1. The cross-reference keeps reading the Chinese ROM (above).
+2. No `fixedBy` for the guide, acquisition notes or the damage calculator for now: per-release manual checks above.
+3. No site feature follows the in-game Pokédex order (dex-english-initials); nothing to export.
+4. Map and area names stay on `bank_maps.json`.
