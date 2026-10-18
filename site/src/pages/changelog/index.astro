@@ -4,9 +4,12 @@
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { releases, contributors, releaseUrl, formatDate, OFFICIAL_LINE, DISCORD_URL, RELEASES_URL } from '../../lib/site-meta';
 import { url } from '../../lib/data';
+import { splitCjk } from '../../lib/rehype-a11y.mjs';
+import Cjk from '../../components/Cjk.astro';
 const escape = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 /** The summaries use **bold** only. */
-const inline = (s: string) => escape(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+const inline = (s: string) => splitCjk(escape(s)).map((p) => typeof p === 'string' ? p : `<span lang="${p.lang}">${p.text}</span>`).join('')
+	.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
 const id = (version: string) => `v${version.replace(/\./g, '-')}`;
 const headings = [
 	{ depth: 2, slug: 'releases', text: 'Releases' },
@@ -28,15 +31,15 @@ const headings = [
 	return <section class="release" aria-labelledby={id(r.version)}>
 		<h3 id={id(r.version)}>v{r.version}{i === 0 && <span class="release-latest">Latest</span>}</h3>
 		<p class="release-meta">Released <time datetime={r.date}>{formatDate(r.date)}</time>{link && <> · <a href={link}>GitHub release and download</a></>}</p>
-		<p>{r.summary}</p>
+		<p><Cjk text={r.summary} /></p>
 		{r.note && <p class="release-note">{r.note}</p>}
 		<ul>{r.changes.map((c) => <li set:html={inline(c)} />)}</ul>
-		{thanks.length > 0 && <p class="release-thanks"><strong>Thanks to</strong> {thanks.join(', ')}</p>}
+		{thanks.length > 0 && <p class="release-thanks"><strong>Thanks to</strong> <Cjk text={thanks.join(', ')} /></p>}
 	</section>;
 })}
 
 <h2 id="credits">Credits</h2>
-<p>Origin HeartGold (起源心金) is a fan game by <strong>雁南飞TB (Yannanfei TB)</strong>, with v4 by <strong>Alex</strong>. The Chinese patches were packaged by u/riap0526, and u/Shake69's partial v3 English translation was reused with their permission. Some in-game graphics come from hg-engine and its contributors. The full list, with the tools and images this site uses, is on the <a href={url('/about/#credits')}>credits</a> section of the About page.</p>
+<p>Origin HeartGold (<span lang="zh-Hans">起源心金</span>) is a fan game by <strong><span lang="zh-Hans">雁南飞</span>TB (Yannanfei TB)</strong>, with v4 by <strong>Alex</strong>. The Chinese patches were packaged by u/riap0526, and u/Shake69's partial v3 English translation was reused with their permission. Some in-game graphics come from hg-engine and its contributors. The full list, with the tools and images this site uses, is on the <a href={url('/about/#credits')}>credits</a> section of the About page.</p>
 <p>Found a problem, or want to help test the next release? Join the official <a href={DISCORD_URL}>Discord</a> or <a href={url('/contribute/')}>report it</a>.</p>
 </StarlightPage>
 <style>

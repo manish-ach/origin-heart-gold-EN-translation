@@ -36,19 +36,22 @@ test('overflowing reference tables are keyboard-scrollable and retain their actu
   assert.equal(table.panel.child, table);
   assert.equal(table.panel.tabIndex, 0);
   assert.equal(table.panel.attrs.role, 'region');
-  assert.match(table.panel.attrs['aria-label'], /Trainer Pokémon/);
+  assert.equal(table.panel.attrs['aria-label'], 'Trainer Pokémon (scrolls sideways)');
   assert.equal(table.panel.afterElement.hidden, false);
   // A wider viewport removes a redundant keyboard stop and the scroll hint.
   table.panel.clientWidth = 900;
   resize();
   assert.equal(table.panel.tabIndex, undefined);
   assert.equal(table.panel.attrs.role, undefined);
+  // A plain div may not carry an ARIA label (axe aria-prohibited-attr).
+  assert.equal(table.panel.attrs['aria-label'], undefined);
   assert.equal(table.panel.afterElement.hidden, true);
 });
 
 test('tables gain scrolling affordances when resized to a phone; embedded editor tables are untouched', () => {
   const { table, resize } = fixture({ overflow: false });
   assert.equal(table.panel.afterElement.hidden, true);
+  assert.equal(table.panel.attrs['aria-label'], undefined);
   table.panel.clientWidth = 200;
   resize();
   assert.equal(table.panel.tabIndex, 0);

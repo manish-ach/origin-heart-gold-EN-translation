@@ -30,7 +30,7 @@ const regions = [...new Set(species.map((s) => s.region))];
 	</div>
 	<p>Base stats come from this hack’s ROM. Select a stat heading to sort lowest first; select it again for highest first. BST is the total of all six stats. Scroll sideways to see every column.</p>
 	<p class="small">Planning for a gym? <a href={url('/guide/ch23-route-39-olivine-mineral-badge/#olivine-gym-jasmines-rule-three-pokémon-with-base-defense-130')}>Jasmine’s Defense rule</a> also checks a fixed species list, with exceptions explained in the guide.</p>
-	<table id="mon-table" class="sortable compact">
+	<table id="mon-table" class="sortable compact"><caption class="sr-only">Pokémon, types, abilities and base stats</caption>
 		<thead><tr><th data-sort-type="number">Species / form</th><th>Pokémon</th><th>Type</th><th>Abilities</th><th>Hidden</th><th class="base-stat" data-sort-type="number">BST</th>{STAT_NAMES.map(name => <th class="base-stat" data-sort-type="number">{name}</th>)}<th>Availability</th></tr></thead>
 		<tbody>
 			{species.map((s) => (

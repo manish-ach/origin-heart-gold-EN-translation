@@ -17,7 +17,7 @@ const headings = [...groups.map((g) => ({ depth: 2, slug: slugOf(g.name), text: 
 {groups.map((g) => <>
 	<h2 id={slugOf(g.name)}>{title(g.name)} ({g.rows.length})</h2>
 	{g.name === 'Custom forms' && <p>These forms exist only in Origin HeartGold; each is compared with its ordinary species.</p>}
-	<table class="compact"><thead><tr><th>Pokémon</th><th>Official</th><th>Origin HeartGold</th></tr></thead>
+	<table class="compact"><caption class="sr-only">Type changes: {title(g.name)}</caption><thead><tr><th>Pokémon</th><th>Official</th><th>Origin HeartGold</th></tr></thead>
 	<tbody>{g.rows.map((c) => <tr>
 		<td><a href={url(`/pokemon/${c.s.slug}/`)}>{c.s.name}</a>{c.comparedWith && <span class="small muted"> (vs {c.comparedWith.name})</span>}</td>
 		<td>{c.officialTypes.map((t) => <Type type={t} />)}</td><td>{c.s.types.map((t) => <Type type={t} />)}</td></tr>)}</tbody></table>

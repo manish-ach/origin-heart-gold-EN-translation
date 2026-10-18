@@ -63,11 +63,12 @@ const headings = [
 	</div></div>
 
 	<table class="stats compact">
+		<caption class="sr-only">{s.name}’s base stats</caption>
 		<tbody>
 			{s.stats.map((v, i) => (
-				<tr><th>{STAT_NAMES[i]}</th><td>{v}{change?.statsChanged && !change.comparedWith && change.officialStats[i] !== v && <span class="small muted"> (official {change.officialStats[i]})</span>}</td><td class="bar-cell"><span class="bar" style={`width:${Math.min(100, v / 2)}%`}></span></td></tr>
+				<tr><th scope="row">{STAT_NAMES[i]}</th><td>{v}{change?.statsChanged && !change.comparedWith && change.officialStats[i] !== v && <span class="small muted"> (official {change.officialStats[i]})</span>}</td><td class="bar-cell"><span class="bar" style={`width:${Math.min(100, v / 2)}%`}></span></td></tr>
 			))}
-			<tr><th>Total</th><td>{total}</td><td class="small muted">{change?.statsChanged && <>Official games: {change.officialTotal}{change.comparedWith && ` (${change.comparedWith.name})`}, {total === change.officialTotal ? 'same total, different spread' : `${signed(total - change.officialTotal)} in this hack`}. <a href={url('/stat-changes/')}>All base stat changes</a></>}</td></tr>
+			<tr><th scope="row">Total</th><td>{total}</td><td class="small muted">{change?.statsChanged && <>Official games: {change.officialTotal}{change.comparedWith && ` (${change.comparedWith.name})`}, {total === change.officialTotal ? 'same total, different spread' : `${signed(total - change.officialTotal)} in this hack`}. <a href={url('/stat-changes/')}>All base stat changes</a></>}</td></tr>
 		</tbody>
 	</table>
 
@@ -96,12 +97,12 @@ const headings = [
 
 	<h2 id="moves">Level-up moves</h2>
   <p class="small">“On evolution” moves are learned when this Pokémon evolves. Open a move for its full effects and any special behavior in this hack.</p>
-  <MoveTable rows={s.levelup.map(([lv,id]) => ({ id, label: lv === 0 ? 'On evolution' : String(lv) }))} label="Level" />
+  <MoveTable rows={s.levelup.map(([lv,id]) => ({ id, label: lv === 0 ? 'On evolution' : String(lv) }))} label="Level" caption={`${s.name}’s level-up moves`} />
   <h2 id="tm">TMs and HMs</h2>
   {s.tms === 'all' && <p>Can learn every TM and HM. All {tms.length} TMs and HMs are listed below.</p>}
-  {tmRows.length ? <MoveTable rows={tmRows} label="TM / HM" /> : <p>None.{s.tmNote ? ` ${s.tmNote}` : ''}</p>}
-  {s.tutors.length > 0 && <><h2 id="tutors">Move tutors</h2><MoveTable rows={s.tutors.map(id => ({ id, tutors: tutorsByMove.get(id) ?? [] }))} tutorMode /></>}
-  {s.egg.length > 0 && <><h2 id="egg">Egg moves</h2><MoveTable rows={s.egg.map(id => ({id}))} /></>}
+  {tmRows.length ? <MoveTable rows={tmRows} label="TM / HM" caption={`TMs and HMs ${s.name} can learn`} /> : <p>None.{s.tmNote ? ` ${s.tmNote}` : ''}</p>}
+  {s.tutors.length > 0 && <><h2 id="tutors">Move tutors</h2><MoveTable rows={s.tutors.map(id => ({ id, tutors: tutorsByMove.get(id) ?? [] }))} tutorMode caption={`Moves ${s.name} can learn from tutors`} /></>}
+  {s.egg.length > 0 && <><h2 id="egg">Egg moves</h2><MoveTable rows={s.egg.map(id => ({id}))} caption={`${s.name}’s egg moves`} /></>}
 
 	<nav class="prevnext">
 		{prev ? <a href={url(`/pokemon/${prev.slug}/`)}>← #{prev.baseSpeciesId} {prev.name}</a> : <span></span>}

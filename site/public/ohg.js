@@ -178,7 +178,8 @@
 			if (f) target.after(empty);
 			const reset = document.createElement('button');
 			reset.type = 'button'; reset.className = 'filter-reset'; reset.textContent = 'Reset';
-			reset.setAttribute('aria-label', `Reset ${target.id || 'table'} search, filters and sorting`);
+			const resetName = target.tagName === 'TABLE' ? tableName(target) : '';
+			reset.setAttribute('aria-label', `Reset search, filters and sorting${resetName ? ` for ${resetName}` : ''}`);
 			if (f) f.append(reset);
 			let sort = null, searchEditing = false;
 			function apply() {
@@ -243,23 +244,37 @@
 	}
 
 	// Keep wide reference tables inside an accessible, independently scrollable panel.
+	// A table's name: its caption or ARIA label, else the nearest heading before it (W-033). The panel becomes a
+	// focusable, named region only while it really scrolls; otherwise it is a plain div with no ARIA (W-032).
+	const textOf = el => (el?.textContent || '').replace(/\s+/g, ' ').trim();
+	function tableName(table) {
+		const own = textOf(table.caption) || table.getAttribute?.('aria-label') ||
+			(table.getAttribute?.('aria-labelledby') || '').split(/\s+/).map(id => textOf(document.getElementById(id))).join(' ').trim();
+		if (own) return own;
+		const headings = [...document.querySelectorAll('.sl-markdown-content :is(h2, h3, h4), h1')];
+		const before = headings.filter(h => h.compareDocumentPosition?.(table) & 4).pop();
+		return textOf(before);
+	}
 	function setupTableScroll() {
 		const updates = [];
 		document.querySelectorAll('.sl-markdown-content table').forEach(table => {
 			if (table.closest('.table-scroll, .save-editor')) return;
+			const name = tableName(table);
+			if (name && !textOf(table.caption) && !table.getAttribute('aria-label') && !table.getAttribute('aria-labelledby')) table.setAttribute('aria-label', name);
 			const panel = document.createElement('div');
 			panel.className = 'table-scroll';
 			const hint = document.createElement('p');
 			hint.className = 'table-scroll-hint';
 			hint.textContent = 'Scroll sideways to see all columns →';
 			hint.hidden = true;
-			panel.setAttribute('aria-label', `${table.caption?.textContent || table.querySelector('th')?.textContent || 'Reference'} table — scroll for more columns`);
 			table.before(panel); panel.append(table); panel.after(hint);
 			const update = () => {
 				const overflow = panel.scrollWidth > panel.clientWidth + 2;
 				hint.hidden = !overflow;
-				if (overflow) { panel.tabIndex = 0; panel.setAttribute('role', 'region'); }
-				else { panel.removeAttribute('tabindex'); panel.removeAttribute('role'); }
+				if (overflow) {
+					panel.tabIndex = 0; panel.setAttribute('role', 'region');
+					panel.setAttribute('aria-label', `${name || 'Table'} (scrolls sideways)`);
+				} else { panel.removeAttribute('tabindex'); panel.removeAttribute('role'); panel.removeAttribute('aria-label'); }
 			};
 			updates.push(update);
 			if (typeof ResizeObserver !== 'undefined') new ResizeObserver(update).observe(panel);

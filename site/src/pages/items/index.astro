@@ -28,7 +28,7 @@ const places = (i: typeof items[number]) => new Set([
 		</select>
 		<span class="filter-count" aria-live="polite"></span>
 	</div>
-	<table id="item-table" class="sortable compact">
+	<table id="item-table" class="sortable compact"><caption class="sr-only">Items</caption>
 		<thead><tr><th>Item</th><th>Pocket</th><th>Shop price</th><th>How to get it</th><th>Places</th><th>Availability</th></tr></thead>
 		<tbody>
 			{items.map((i) => (

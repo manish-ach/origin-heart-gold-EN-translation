@@ -335,7 +335,7 @@ export async function mountBattleCheck(host: BattleHost) {
     }).join('');
     box.innerHTML = `<div class="tb-bc-section-head"><h3 id="tb-bc-overview-heading">Team overview</h3>
         <p class="tb-bc-hint">Your best hit (max %) and verdict · <span aria-hidden="true">↩</span> their best hit back. <span class="tb-bc-legend"><i class="tb-bc-good"></i>Favourable <i class="tb-bc-even"></i>Even <i class="tb-bc-bad"></i>Risky</span></p></div>
-      <div class="tb-bc-grid-scroll"><table class="tb-bc-grid"><thead><tr><td></td>${foes.map((foe, j) => `<th scope="col"><button type="button" class="tb-bc-colhead" data-bc-foe="${j}" aria-pressed="${j === foeIndex}">${host.art(foe.speciesId, 'sm')}<span>${escape(foe.label)}</span></button></th>`).join('')}</tr></thead>
+      <div class="tb-bc-grid-scroll"><table class="tb-bc-grid"><caption class="sr-only">Team overview: your Pokémon against each opponent</caption><thead><tr><td></td>${foes.map((foe, j) => `<th scope="col"><button type="button" class="tb-bc-colhead" data-bc-foe="${j}" aria-pressed="${j === foeIndex}">${host.art(foe.speciesId, 'sm')}<span>${escape(foe.label)}</span></button></th>`).join('')}</tr></thead>
       <tbody>${rows}</tbody></table></div>`;
     host.wireImages(box);
   }

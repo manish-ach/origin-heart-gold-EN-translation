@@ -16,7 +16,7 @@ const headings = [...groups.map((g) => ({ depth: 2, slug: slugOf(g.name), text: 
 {groups.map((g) => <>
 	<h2 id={slugOf(g.name)}>{title(g.name)} ({g.rows.length})</h2>
 	{g.name === 'Custom forms' && <p>These forms exist only in Origin HeartGold; each is compared with its ordinary species.</p>}
-	<table class="compact"><thead><tr><th>Pokémon</th><th>Official BST</th><th>Origin HeartGold</th><th>Change</th><th>Stats that differ</th></tr></thead>
+	<table class="compact"><caption class="sr-only">Base stat changes: {title(g.name)}</caption><thead><tr><th>Pokémon</th><th>Official BST</th><th>Origin HeartGold</th><th>Change</th><th>Stats that differ</th></tr></thead>
 	<tbody>{g.rows.map((c) => <tr>
 		<td><a href={url(`/pokemon/${c.s.slug}/`)}>{c.s.name}</a>{c.comparedWith && <span class="small muted"> (vs {c.comparedWith.name})</span>}</td>
 		<td>{c.officialTotal}</td><td><strong>{c.total}</strong></td><td>{signed(c.total - c.officialTotal)}</td>

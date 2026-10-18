@@ -30,7 +30,7 @@ const hex2 = (i: number) => i.toString(16).toUpperCase().padStart(2, '0');
 		<label class="camb-check"><input type="checkbox" name="flat" /> Flat (orthographic) instead of 3D</label>
 		<p class="camb-hint"></p>
 		<div class="camb-out">
-			<pre class="camb-code" aria-label="Action Replay code"></pre>
+			<p class="sr-only" id="camb-code-label">Action Replay code</p><pre class="camb-code" role="region" aria-labelledby="camb-code-label"></pre>
 			<button type="button" class="camb-copy">Copy code</button>
 			<span class="camb-copied" role="status" aria-live="polite"></span>
 		</div>

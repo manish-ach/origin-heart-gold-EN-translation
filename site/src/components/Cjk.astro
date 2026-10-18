@@ -1,0 +1,7 @@
+---
+// Text that may hold Chinese or Japanese runs (names, the hack's title): each run gets its lang, so screen readers
+// switch voice. Markdown pages get the same treatment from src/lib/rehype-a11y.mjs.
+import { splitCjk } from '../lib/rehype-a11y.mjs';
+const { text } = Astro.props as { text: string };
+---
+{splitCjk(text).map((part) => typeof part === 'string' ? part : <span lang={part.lang}>{part.text}</span>)}

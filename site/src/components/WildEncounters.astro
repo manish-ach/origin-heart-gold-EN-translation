@@ -24,6 +24,7 @@ const methods = encounters.map(e => e.method);
 	<span class="filter-count" aria-live="polite"></span>
 </div>}
 <table id="wild-encounters-table" class="compact">
+	<caption class="sr-only">Where to find {name} in the wild</caption>
 	<thead><tr><th>Location</th><th>Method / conditions</th><th>Level</th><th>Chance</th></tr></thead>
 	<tbody>{encounters.map((encounter) => <tr>
 		<td><a href={`${areaUrl(encounter.area)}#${encounter.method.startsWith('Calendar encounter:') ? 'calendar' : 'wild'}`}>{encounter.place}</a></td>

@@ -82,7 +82,7 @@ const iu = (id: number) => itemUrl(itemById.get(id));
 				{a.contest.sets.map((st) => (
 					<div class="enc-block">
 						<h4>{st.title}</h4>
-						<table class="compact">
+						<table class="compact"><caption class="sr-only">{st.title}</caption>
 							<thead><tr><th>Pokémon</th><th>Level</th><th>Rate</th><th>Score</th></tr></thead>
 							<tbody>{st.rows.map((r) => <tr><td><Mon id={r.id} name={r.name} /></td><td>{r.level}</td><td>{r.rate}</td><td>{r.score}</td></tr>)}</tbody>
 						</table>
@@ -123,7 +123,7 @@ const iu = (id: number) => itemUrl(itemById.get(id));
 	{(a.items.length > 0 || a.gifts.length > 0) && <>
 		<h2 id="items">Items</h2>
 		{a.items.length > 0 && (
-			<table class="compact">
+			<table class="compact"><caption class="sr-only">Items found here</caption>
 				<thead><tr><th>Item</th><th>Qty</th><th>Kind</th><th>Where</th></tr></thead>
 				<tbody>{a.items.map((i) => <tr><td><a href={iu(i.id)}>{i.name}</a></td><td>{i.qty}</td><td>{i.kind}</td><td>{i.map}{i.near ? <span class="small muted"> · {i.near}</span> : ''}</td></tr>)}</tbody>
 			</table>
@@ -136,14 +136,14 @@ const iu = (id: number) => itemUrl(itemById.get(id));
 		{prizes.length > 0 && <>
 			<h3>Prizes and menu choices</h3>
 			<p class="small muted">You get one of these at a time: from a prize draw, a menu, a vending machine or an exchange counter.</p>
-			<table class="compact">
+			<table class="compact"><caption class="sr-only">Prizes and menu choices</caption>
 				<thead><tr><th>Item</th><th>Qty</th><th>How</th></tr></thead>
 				<tbody>{prizes.map((g) => <tr><td><a href={iu(g.id)}>{g.name}</a></td><td>{g.qty}</td><td>{g.pay}</td></tr>)}</tbody>
 			</table>
 		</>}
 		{paid.length > 0 && <>
 			<h3>Bought or exchanged</h3>
-			<table class="compact">
+			<table class="compact"><caption class="sr-only">Bought or exchanged</caption>
 				<thead><tr><th>Item</th><th>Qty</th><th>Price</th></tr></thead>
 				<tbody>{paid.map((g) => <tr><td><a href={iu(g.id)}>{g.name}</a></td><td>{g.qty}</td><td>{g.pay}</td></tr>)}</tbody>
 			</table>
@@ -155,7 +155,7 @@ const iu = (id: number) => itemUrl(itemById.get(id));
 		{a.shops.map((s) => (
 			<details class="shop">
 				<summary>{s.room || 'Shop counter'} ({s.stock.length} items)</summary>
-				<table class="compact">
+				<table class="compact"><caption class="sr-only">{s.room || 'Shop counter'}</caption>
 					<thead><tr><th>Item</th><th>Price</th></tr></thead>
 					<tbody>{s.stock.map((i) => <tr><td><a href={iu(i.id)}>{i.name}</a></td><td>${i.price.toLocaleString('en-US')}</td></tr>)}</tbody>
 				</table>

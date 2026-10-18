@@ -12,7 +12,7 @@ const rows = [...tutors].sort((a, b) => a.moveName.localeCompare(b.moveName));
 		<input type="search" placeholder="Search moves, places or Pokémon…" aria-label="Search tutors" />
 		<span class="filter-count" aria-live="polite"></span>
 	</div>
-	<table id="tutor-table" class="compact">
+	<table id="tutor-table" class="compact"><caption class="sr-only">Move tutors</caption>
 		<thead><tr><th>Move</th><th>Type</th><th>Where</th><th>Cost</th><th>Who can learn it</th></tr></thead>
 		<tbody>
 			{rows.map((t) => { const m = moveById.get(t.move); const first = t.quests[0]; return (

@@ -22,7 +22,7 @@ const regions = [...new Set(species.map(mon => mon.region))];
           <h2 id="tb-team-heading">Your team <span id="tb-team-count">0 / 6</span></h2>
           <div class="tb-actions"><button type="button" id="tb-share">Copy team link</button><button type="button" id="tb-clear" disabled>Clear team</button></div>
         </div>
-        <div id="tb-slots" class="tb-slots" aria-label="Your six team slots"></div>
+        <div id="tb-slots" class="tb-slots" role="group" aria-label="Your six team slots"></div>
         <div class="tb-team-footer"><div id="tb-summary" class="tb-summary"></div><p class="tb-help" id="tb-save-status">Saved in this browser</p></div>
         <p id="tb-status" class="sr-only" role="status" aria-live="polite"></p>
         <div id="tb-share-fallback" hidden><label for="tb-share-url">Copy this team link</label><input id="tb-share-url" readonly /></div>

@@ -21,7 +21,7 @@ const tables = (notes as unknown as {unmappedEncounterTables:{key:string;note:st
 </ul>
 <h2 id="coverage">Workbook coverage</h2>
 <p>“Included” means the compared fields match or the claim has been included with attribution. It is not a blanket human-review verdict. “Unresolved” means a comparison or locator remains open. {referenceCoverage.reservedUnnamedItemRows} included rows are reserved unnamed item slots with no useful gameplay note; their explicit disposition remains in the source register.</p>
-<table class="compact"><thead><tr><th>Workbook</th><th>Sheet</th><th>Rows</th><th>Disposition</th></tr></thead><tbody>{referenceCoverage.sheets.map(s => <tr><td>{s.source}</td><td>{sheetName(s.sheet)}</td><td>{s.rows.toLocaleString('en-US')}</td><td>{Object.entries(s.statuses).map(([k,v]) => `${k}: ${v}`).join('; ')}</td></tr>)}</tbody></table>
+<table class="compact"><caption class="sr-only">Workbook coverage</caption><thead><tr><th>Workbook</th><th>Sheet</th><th>Rows</th><th>Disposition</th></tr></thead><tbody>{referenceCoverage.sheets.map(s => <tr><td>{s.source}</td><td>{sheetName(s.sheet)}</td><td>{s.rows.toLocaleString('en-US')}</td><td>{Object.entries(s.statuses).map(([k,v]) => `${k}: ${v}`).join('; ')}</td></tr>)}</tbody></table>
 <p>Species comparisons keep forms and genders distinct and compare the supplied evolution constraints with configured incoming or outgoing evolution edges. Encounter comparisons use the map header's table and exact species/form slots or method sets. Author numeric values and names do not replace game records.</p>
 <h2 id="limitations">Remaining reference limitations</h2>
 <ul>
@@ -37,7 +37,7 @@ const tables = (notes as unknown as {unmappedEncounterTables:{key:string;note:st
 <p>The source's numeric locators and labels can disagree. They are preserved here as author notes, separately from the location catalog and TM shop records.</p>
 <ReferenceNotes notes={notes.mapNotes as AuthorNote[]} />
 <h2 id="unmapped">Source tables without map references</h2>
-{tables.map(t => <details><summary>{t.key}: source rows {t.rows[0]?.row}–{t.rows.at(-1)?.row}</summary><p>{t.note}</p><table class="compact"><thead><tr><th>Method</th><th>Slot</th><th>Author-listed Pokémon</th><th>Form</th><th>Source row</th></tr></thead><tbody>{t.rows.map(r => <tr><td>{r.method.replace('ground.','Land: ')}</td><td>{r.slot}</td><td>{r.speciesId ? <a href={pokemonUrl(r.speciesId)}>{r.sourceName}</a> : r.sourceName}</td><td>{r.form}</td><td>{r.row}</td></tr>)}</tbody></table></details>)}
+{tables.map(t => <details><summary>{t.key}: source rows {t.rows[0]?.row}–{t.rows.at(-1)?.row}</summary><p>{t.note}</p><table class="compact"><caption class="sr-only">{t.key}</caption><thead><tr><th>Method</th><th>Slot</th><th>Author-listed Pokémon</th><th>Form</th><th>Source row</th></tr></thead><tbody>{t.rows.map(r => <tr><td>{r.method.replace('ground.','Land: ')}</td><td>{r.slot}</td><td>{r.speciesId ? <a href={pokemonUrl(r.speciesId)}>{r.sourceName}</a> : r.sourceName}</td><td>{r.form}</td><td>{r.row}</td></tr>)}</tbody></table></details>)}
 <h2 id="research-records">Detailed reference records</h2>
 <p>Gameplay pages use concise summaries. These records preserve the original descriptions, author wording, comparison results, raw fields and existing test limits. No new gameplay testing is implied.</p>
 <h3 id="move-records">Moves</h3>

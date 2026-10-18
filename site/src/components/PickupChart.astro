@@ -6,6 +6,7 @@ const rates = [...new Set(pickup.items.flatMap(row => row.rates))].filter(Boolea
 <p class="small">Each item has the chance shown at the top of its column, <strong>after Pickup activates</strong>. Use the level of the Pokémon with Pickup.</p>
 <div class="pickup-chart" tabindex="0" role="region" aria-label="Pickup items by Pokémon level">
 	<table>
+		<caption class="sr-only">Pickup items by Pokémon level</caption>
 		<thead><tr><th scope="col">Level</th>{rates.map(rate => <th scope="col">{rate}%</th>)}</tr></thead>
 		<tbody>{pickup.bands.map((band, index) => <tr>
 			<th scope="row">{band.min}–{band.max}</th>

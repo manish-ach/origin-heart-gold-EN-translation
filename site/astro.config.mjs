@@ -5,6 +5,9 @@ import starlight from "@astrojs/starlight";
 import sitemap from "@astrojs/sitemap";
 import { REPO_URL, SITE_URL, BASE, PREVIEW } from "./site.config.mjs";
 import { excludedPaths, lastmodByPath, lastmodFor } from "./sitemap-config.mjs";
+// Astro's own Markdown processor (a dependency of astro), extended with one hast plugin.
+import { satteri } from "@astrojs/markdown-satteri";
+import ohgA11y from "./src/lib/rehype-a11y.mjs";
 
 const base = BASE.endsWith("/") ? BASE : BASE + "/";
 const sitemapExcluded = excludedPaths();
@@ -17,6 +20,8 @@ export default defineConfig({
   site: SITE_URL,
   base,
   trailingSlash: "always",
+  // Table names and lang tags for Chinese/Japanese text in Markdown and MDX pages (src/lib/rehype-a11y.mjs).
+  markdown: { processor: satteri({ hastPlugins: [ohgA11y] }) },
   integrations: [
     sitemap({
       filter: (page) => !sitemapExcluded.has(sitePath(page)),

@@ -84,6 +84,7 @@ const priceLine = i.price ? (sold ? ` · buy for ${money(i.price)}, sells for ${
 		<p>These wild Pokémon can carry {i.name}. The hold chance is the base chance that the Pokémon has the item when encountered, before Ability effects such as Compound Eyes. The encounter chance shows how often that Pokémon appears for the listed method and time.</p>
 		<p class="small muted">Locations are in rough story order for each Pokémon. Radio, swarm and other special encounters require the conditions shown; see the location page for details. <a href={url('/calendar/')}>Calendar encounters</a> can replace ordinary encounter slots. Safari Zone entries depend on the selected area and, where noted, its objects and their development. “Not fixed” means no fixed encounter chance is listed. Contest weights are shown as weights, not percentages.</p>
 		<table class="compact">
+			<caption class="sr-only">Wild Pokémon holding {i.name}</caption>
 			<thead><tr><th>Pokémon</th><th>Hold chance</th><th>Locations</th></tr></thead>
 			<tbody>{wildHeld.map((holder) => <tr>
 				<td><a href={pokemonUrl(holder.species)}>{holderName(holder.species)}</a></td>
@@ -97,7 +98,7 @@ const priceLine = i.price ? (sold ? ` · buy for ${money(i.price)}, sells for ${
 				<input type="search" placeholder="Filter locations or encounter methods…" aria-label={`Filter ${holderName(holder.species)} locations or encounter methods`} />
 				<span class="filter-count" aria-live="polite"></span>
 			</div>}
-			<table id={`wild-locations-${holder.species}`} class="compact">
+			<table id={`wild-locations-${holder.species}`} class="compact"><caption class="sr-only">Where to find {holderName(holder.species)} holding {i.name}</caption>
 				<thead><tr><th>Location</th><th>Method / time / condition</th><th>Level</th><th>Encounter chance</th></tr></thead>
 				<tbody>{holder.locations.map((location) => <tr>
 					<td><a href={areaUrl(location.area)}>{areaBySlug.get(location.area)?.name ?? location.place}</a>{location.place !== areaBySlug.get(location.area)?.name && <span class="small muted"> · {location.place}</span>}</td>
@@ -120,7 +121,7 @@ const priceLine = i.price ? (sold ? ` · buy for ${money(i.price)}, sells for ${
 	{i.tutorUses.length > 0 && <><h3>Move tutor payments</h3><ul>{i.tutorUses.map(t => <li><a href={moveUrl(moveById.get(t.moveId))}>{moveById.get(t.moveId)?.name}</a> · {tutorCost(t.cost)} · {t.places.map((p,k) => <>{k>0 && ', '}{p.area ? <a href={areaUrl(p.area)}>{p.place}</a> : p.place}</>)}</li>)}</ul></>}
 	{i.trainerUses.length > 0 && <details><summary>Held by trainers’ Pokémon ({i.trainerUses.length} teams)</summary><p class="small">A trainer's held item is not necessarily obtainable. Check the battle location and story conditions on their team page.</p><ul>{i.trainerUses.map(id => {const t=trainerById.get(id);return <li><a href={url(`/trainers/records/${id}/`)}>{t ? `${t.cls} ${t.name}` : `Trainer ${id}`}</a></li>;})}</ul></details>}
 	</>}
-  {tm && <><h2 id="compatible-pokemon">Compatible Pokémon ({compatible.length})</h2><p>Check each Pokémon’s availability before planning your team. Forms are listed separately; Mew can learn every TM and HM.</p><div class="table-filter" data-table="compatible-table"><input type="search" placeholder="Search compatible Pokémon…" aria-label="Search compatible Pokémon" /><select data-key="availability" aria-label="Compatible Pokémon availability"><option value="">All availability</option><option value="documented">Where to get it</option><option value="battle">Battle only</option><option value="unavailable">NOT AVAILABLE IN GAME</option><option value="unknown">No known way to get it</option></select><span class="filter-count" aria-live="polite"></span></div><PokemonReferenceTable id="compatible-table" rows={compatible} label="Compatibility" /><p><a href={url('/tms/')}>← All TMs and HMs</a></p></>}
+  {tm && <><h2 id="compatible-pokemon">Compatible Pokémon ({compatible.length})</h2><p>Check each Pokémon’s availability before planning your team. Forms are listed separately; Mew can learn every TM and HM.</p><div class="table-filter" data-table="compatible-table"><input type="search" placeholder="Search compatible Pokémon…" aria-label="Search compatible Pokémon" /><select data-key="availability" aria-label="Compatible Pokémon availability"><option value="">All availability</option><option value="documented">Where to get it</option><option value="battle">Battle only</option><option value="unavailable">NOT AVAILABLE IN GAME</option><option value="unknown">No known way to get it</option></select><span class="filter-count" aria-live="polite"></span></div><PokemonReferenceTable id="compatible-table" rows={compatible} label="Compatibility" caption={`Pokémon compatible with ${i.name}`} /><p><a href={url('/tms/')}>← All TMs and HMs</a></p></>}
 
 	<p><a href={url('/items/')}>← All items</a></p>
 </StarlightPage>

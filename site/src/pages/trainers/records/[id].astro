@@ -30,7 +30,7 @@ const headings = [
 {(profile.inactive.length > 0 || profile.unconfirmed.length > 0) && <>
   <h2 id="other-teams">Inactive and unconfirmed encounters</h2>
   <p>These scenes cannot trigger, or their battle locations have not been established.</p>
-  {profile.inactive.length > 0 && <TrainerEncounters encounters={profile.inactive} />}
+  {profile.inactive.length > 0 && <TrainerEncounters encounters={profile.inactive} caption="Inactive scenes for this trainer" />}
   {profile.unconfirmed.length > 0 && <ul>{profile.unconfirmed.map(team => <li><a href={`#trainer-${team.id}`}>Team {profile.teams.indexOf(team) + 1} · {teamLevelRange(team)}</a>: encounter unconfirmed.</li>)}</ul>}
 </>}
 <p><a href={url('/trainers/')}>Browse all trainers</a></p>
