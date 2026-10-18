@@ -1,4 +1,4 @@
-# Origin HeartGold quest guide
+# Origin HeartGold walkthrough and quest guide
 
 Main quests, side quests, puzzles and easy-to-miss events in Origin HeartGold (起源心金 v4.0.3), in the order the game unlocks them, chapter by chapter.
 

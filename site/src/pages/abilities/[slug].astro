@@ -1,5 +1,6 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { abilitySeo } from '../../lib/page-seo';
 import { playerAbilityDescription } from '../../lib/reference-format.mjs';
 
 import PokemonReferenceTable from '../../components/PokemonReferenceTable.astro';
@@ -15,7 +16,7 @@ const listed = new Set(a.applicability.map(n => n.moveId));
 const extraSlicing = a.id === 292 ? moves.filter(m => m.flags.includes('slicing') && !listed.has(m.id)) : [];
 const headings = [{ depth: 2, slug: 'effect', text: 'Effect' }, { depth: 2, slug: 'changes', text: 'Changes in Origin HeartGold' }, ...(a.applicability.length ? [{ depth: 2, slug: 'applicability', text: 'Moves affected' }] : []), { depth: 2, slug: 'holders', text: 'Pokémon with this ability' }];
 ---
-<StarlightPage frontmatter={{ title: a.name, description: `${a.name} in Origin HeartGold: effects, changes, affected moves and Pokémon with this ability.` }} headings={headings}>
+<StarlightPage frontmatter={{ title: a.name, description: abilitySeo(a).description, seo: { title: abilitySeo(a).title } }} headings={headings}>
 {a.unnamed && <p>This ability has no in-game name. It is also known as <strong>{abilityAlias(a)}</strong>.</p>}
 <h2 id="effect">Effect</h2><p>{playerAbilityDescription(a) || 'No effect description is available.'}</p>
 {a.id === 53 && <p>Pickup has a 10% activation chance per eligible check; item selection then depends on the Pokémon’s level. <a href={url('/mechanics/#pickup')}>Pickup items and rates by level</a>.</p>}

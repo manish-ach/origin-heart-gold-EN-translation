@@ -12,8 +12,9 @@ secret `PAGES_DEPLOY_KEY` in `originheartgold/origin-heart-gold-EN-translation`.
 
 1. **build** builds production with `GUIDE_SITE_URL=https://originheartgold.github.io`, `GUIDE_BASE=/`, and the
    tester preview (branch `PREVIEW_REF`, default `website-fix`) with `GUIDE_BASE=/preview/` (banner, noindex, no
-   analytics). It adds `robots.txt` (allow all, `Disallow: /preview/`, `Sitemap:
-   https://originheartgold.github.io/sitemap-index.xml`) and `.nojekyll`, then makes the redirect site for the old
+   analytics). It adds `robots.txt` (allow all and `Sitemap:
+   https://originheartgold.github.io/sitemap-index.xml`; no `Disallow: /preview/`, since the preview's own `noindex`
+   must stay visible to crawlers) and `.nojekyll`, then makes the redirect site for the old
    address with `redirect_site.py`. It uploads the root build (artifact `root-site`) and the redirect site (Pages
    artifact).
 2. **deploy-root** (default branch of this repo only) force-pushes the root build as a single orphan commit by

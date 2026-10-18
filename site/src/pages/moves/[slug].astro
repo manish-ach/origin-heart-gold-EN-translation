@@ -1,5 +1,6 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { moveSeo } from '../../lib/page-seo';
 import MoveStats from '../../components/MoveStats.astro';
 import { playerMoveDescription, playerMoveChanges } from '../../lib/reference-format.mjs';
 
@@ -20,7 +21,7 @@ const interactions = abilities.flatMap(a => { const note = a.applicability.find(
 const changes = playerMoveChanges(m);
 const headings = [{ depth: 2, slug: 'effect', text: 'Effect' }, { depth: 2, slug: 'changes', text: 'Changes in Origin HeartGold' }, ...(interactions.some(({note}) => note) ? [{ depth: 2, slug: 'interactions', text: 'Ability interactions' }] : []), { depth: 2, slug: 'learners', text: 'Pokémon that learn this move' }];
 ---
-<StarlightPage frontmatter={{ title: m.name, description: `${m.name} in Origin HeartGold: stats, effects, changes and how to learn it.` }} headings={headings}>
+<StarlightPage frontmatter={{ title: m.name, description: moveSeo(m).description, seo: { title: moveSeo(m).title } }} headings={headings}>
 {m.unnamed && <p><strong>Unnamed move.</strong> No name or normal learning route is known for this entry.</p>}
 {m.game && <p class="small muted">In-game spelling: {m.game}</p>}
 <h2 id="effect">Effect</h2>

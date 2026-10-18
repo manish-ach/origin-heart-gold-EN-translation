@@ -472,6 +472,28 @@ def validate_ledger(srcs, ledger=QUEST_LEDGER):
         visit(identity)
 
 
+def page_description(lines, prefix=''):
+    """Search description for a plain guide page: its first prose paragraph, as plain text, about 160 characters."""
+    for ln in lines:
+        t = ln.strip()
+        if not t or t[0] in '#[<|-!>*' and not t.startswith('**'):
+            continue
+        t = re.sub(r'!?\[([^\]]*)\]\([^)]*\)', r'\1', t)
+        t = re.sub(r'[*_`]+', '', t)
+        if prefix:
+            t = prefix + t[0].lower() + t[1:]
+        return clamp_description(t)
+    return None
+
+
+def clamp_description(t, limit=160):
+    """At most `limit` characters, cut at a word boundary with an ellipsis."""
+    if len(t) <= limit:
+        return t
+    t = t[:limit - 1]
+    return t[:t.rfind(' ')].rstrip(',;:') + '…'
+
+
 def convert(fn, src, areas, shared_ids=(), report=None, force_mdx=False, collect=None, link_map=None, unresolved=None):
     """(file name, text) of the site page for guide/<fn>: <slug>.mdx when it has solver markers, else <slug>.md."""
     lines = src.rstrip('\n').split('\n')
@@ -569,7 +591,11 @@ def convert(fn, src, areas, shared_ids=(), report=None, force_mdx=False, collect
                 rec['solvers'] = [n for n in SOLVERS if any(SOLVER_SLOT % n in x for x in rec['lines'])]
     text = rewrite_links('\n'.join(body), depth, link_map, unresolved)
     text = re.sub(r'\n{3,}', '\n\n', text)
-    fm = ['---', 'title: %s' % json.dumps(title or slug), 'sidebar:', '  order: %d' % page_order(fn)]
+    fm = ['---', 'title: %s' % json.dumps(title or slug)]
+    desc = page_description(lines, 'Origin HeartGold walkthrough: ' if slug == 'index' else '')
+    if desc:
+        fm += ['description: %s' % json.dumps(desc, ensure_ascii=False)]
+    fm += ['sidebar:', '  order: %d' % page_order(fn)]
     if slug == 'index':
         fm += ['  label: Overview']
     if fn == 'known-issues.md':
@@ -673,7 +699,7 @@ def build_chapter_page(ch, collect, chapter_of, link_map, unresolved, force_mdx=
     text = rewrite_links('\n'.join(body), 1, link_map, unresolved)
     text = re.sub(r'\n{3,}', '\n\n', text)
     order = 10 + ch['order']
-    fm = ['---', 'title: %s' % json.dumps(ch['title'], ensure_ascii=False), 'description: %s' % json.dumps(ch['summary'], ensure_ascii=False),
+    fm = ['---', 'title: %s' % json.dumps(ch['title'], ensure_ascii=False), 'description: %s' % json.dumps(clamp_description('Origin HeartGold walkthrough, chapter %d: %s' % (ch['order'], ch['summary'])), ensure_ascii=False),
           'sidebar:', '  order: %d' % order, '  label: %s' % json.dumps(chapters_mod.short_label(ch), ensure_ascii=False),
           'source: guide/chapters/%s' % ch['_file'], 'editUrl: false', '---', '']
     text = text.strip('\n') + '\n'

@@ -13,6 +13,7 @@ import PokemonReferenceTable from '../../components/PokemonReferenceTable.astro'
 import FormChanges from '../../components/FormChanges.astro';
 import { formChanges } from '../../lib/verified-mechanics';
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { itemSeo } from '../../lib/page-seo';
 import { items, tmByItemId, tmCompatibility, moveById, moveUrl, areaUrl, areaBySlug, speciesById, pokemonUrl, trainerById, tutorCost, url, type Item } from '../../lib/data';
 
 export function getStaticPaths() {
@@ -54,7 +55,7 @@ const headings = [
 const sold = i.sources.some((s) => s.kind === 'shop');
 const priceLine = i.price ? (sold ? ` · buy for ${money(i.price)}, sells for ${money(Math.floor(i.price / 2))}` : ` · sells for ${money(Math.floor(i.price / 2))}`) : '';
 ---
-<StarlightPage frontmatter={{ title: i.name, description: `Where to get ${i.name} in Origin HeartGold.` }} headings={headings}>
+<StarlightPage frontmatter={{ title: i.name, description: itemSeo(i).description, seo: { title: itemSeo(i).title } }} headings={headings}>
 	<p class="small muted">{i.pocket} pocket{priceLine}{i.game ? ` · in-game spelling: ${i.game}` : ''}</p>
 	<Availability reason={i.unavailableReason} detail />
 	<h2 id="effect">Effect</h2><p>{playerItemDescription(i)}</p>

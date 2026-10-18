@@ -23,6 +23,7 @@ class RedirectSiteTests(unittest.TestCase):
             'downloads/guide.pdf': '%PDF', 'patch-tool/worker.js': 'js', '_astro/page.css': 'css',
             'pagefind/index.json': '{}', 'preview/_astro/a.js': 'js', 'sitemap-index.xml': '<x/>',
             'sitemap-0.xml': '<x/>', 'robots.txt': 'User-agent: *', '.nojekyll': '',
+            'llms.txt': '# x', 'llms-full.txt': '# x', 'site.webmanifest': '{}', 'og/default.png': 'PNG',
         }
         for rel, text in files.items():
             path = os.path.join(self.dist, *rel.split('/'))
@@ -43,7 +44,7 @@ class RedirectSiteTests(unittest.TestCase):
     def test_pages_become_stubs(self):
         stubs, copied, _size = redirect_site.build(self.dist, self.out, NEW, OLD)
         self.assertEqual(stubs, 5)
-        self.assertEqual(copied, 4)
+        self.assertEqual(copied, 5)
         faq = self.read('faq/index.html')
         self.assertIn('<link rel="canonical" href="https://originheartgold.github.io/faq/">', faq)
         self.assertIn('<meta name="robots" content="noindex">', faq)
@@ -66,8 +67,9 @@ class RedirectSiteTests(unittest.TestCase):
         self.assertEqual(self.read('downloads/guide.pdf'), '%PDF')
         self.assertEqual(self.read('patch-tool/worker.js'), 'js')
         self.assertEqual(self.read('patch/latest.json'), '{}')
+        self.assertEqual(self.read('og/default.png'), 'PNG')  # shared links to old pages keep their card
         for rel in ('_astro/page.css', 'pagefind/index.json', 'preview/_astro/a.js', 'sitemap-index.xml',
-                    'sitemap-0.xml', 'robots.txt', '.nojekyll'):
+                    'sitemap-0.xml', 'robots.txt', '.nojekyll', 'llms.txt', 'llms-full.txt', 'site.webmanifest'):
             self.assertFalse(self.exists(rel), rel)
 
     def test_404_maps_any_old_path(self):

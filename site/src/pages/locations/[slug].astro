@@ -1,5 +1,6 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { locationSeo } from '../../lib/page-seo';
 
 
 import TutorDetails from '../../components/TutorDetails.astro';
@@ -52,7 +53,7 @@ const rates = (r: Record<string, number>) => Object.entries(r).map(([k, v]) => `
 const questLinks = (qs: Quest[] | undefined) => (qs ?? []).map((q) => ({ title: q.title, href: url(q.href) }));
 const iu = (id: number) => itemUrl(itemById.get(id));
 ---
-<StarlightPage frontmatter={{ title: a.name, description: `${a.name} in Origin HeartGold: quests, wild Pokémon, trainers, items and shops.` }} headings={headings}>
+<StarlightPage frontmatter={{ title: a.name, description: locationSeo(a).description, seo: { title: locationSeo(a).title } }} headings={headings}>
 	<p class="small muted">{regionLabel(a.region)}</p>
 
 	{quests.length > 0 && <>

@@ -26,7 +26,7 @@ import urllib.parse
 
 MAX_FILE = 95 * 1024 * 1024  # GitHub Pages refuses files over 100 MB
 SKIP_DIRS = {'_astro', 'pagefind'}  # page assets and the search index: only the real pages use them
-SKIP_FILES = {'robots.txt', '.nojekyll'}
+SKIP_FILES = {'robots.txt', '.nojekyll', 'llms.txt', 'llms-full.txt', 'site.webmanifest'}
 
 
 def skipped(rel):

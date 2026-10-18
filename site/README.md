@@ -136,6 +136,34 @@ part of the encounter Day window, without inventing a separate encounter table.
 The component is used by the planner, Pokémon wild encounters/evolutions, location
 encounter tables, calendar encounters and wild-held-item locations.
 
+### After a release: the changelog page
+
+`/changelog/`, the home page's release line and the patch page's version line read `src/data/releases.json`
+(player-facing summaries, newest first, written by hand from `CHANGELOG.md`: plain language, no decision ids or
+tooling). Add the new release at the top and its contributors to `src/data/contributors.json`
+(`{"1.0.0-rc9": ["name", ...]}`; an empty list shows no "Thanks to" line). `tests/changelog.test.mjs` fails until
+every version in `CHANGELOG.md` is there (rc1 and rc2 were never released: rc3 lists `includes`; rc3 and rc4 were
+shared as patch files, `"github": false`, with a note instead of a release link).
+
+### Search titles, structured data and discovery files
+
+- `src/lib/site-meta.ts`: site name, home title, the official statement, official links (GitHub, Discord) and the
+  breadcrumbs (real section names). `src/routeData.ts` (Starlight route middleware) writes every page's `<title>`
+  ("<page> · Origin HeartGold English", shortened above 60 characters), Open Graph and Twitter tags, the social card,
+  canonical rules (404: none and `noindex`; preview: points at production) and one JSON-LD block (Organization,
+  WebSite, WebPage with BreadcrumbList; VideoGame on home, patch and changelog; FAQPage on the FAQ).
+- `src/lib/page-seo.ts`: unique titles and data-based descriptions for Pokémon, item, move, ability, location and
+  trainer pages. Trainer records that show another record's profile page get a canonical to it.
+- `sitemap-config.mjs`: leaves out noindex and duplicate pages and adds `<lastmod>` from git (full history needed;
+  skipped in a shallow clone).
+- `src/pages/llms.txt.ts` and `llms-full.txt.ts`: the llmstxt.org summary and the start-here, FAQ and chapter-overview
+  text, generated from the content at build time.
+- Icons and the social card (`public/favicon*`, `apple-touch-icon.png`, `maskable-512.png`, `og/default.png`) are
+  plain "OHG" typography with the text outlined to paths; regenerate them with
+  `node site/brand/make-brand-images.mjs <folder with the Inter TTFs>` (sources in `site/brand/`).
+- `tests/seo.test.mjs` checks the built site: unique titles and descriptions among canonical pages, JSON-LD, the
+  social card, sitemap exclusions and the icon files.
+
 ### Guide maintenance
 
 ```sh
@@ -255,7 +283,7 @@ checks that the guide pages are in sync and that no link is broken, and deploys:
   force-pushes the build, as one orphan commit by `github-actions[bot]`, to the `main` branch of the user-site repo
   `originheartgold/originheartgold.github.io`, which serves it with GitHub Pages (Deploy from a branch: main, / (root)).
   It authenticates with a write deploy key on that repo whose private half is the Actions secret `PAGES_DEPLOY_KEY`
-  in this repo. The build adds a root `robots.txt` (allow all, `Disallow: /preview/`, `Sitemap:` line) and
+  in this repo. The build adds a root `robots.txt` (allow all, a `Sitemap:` line; no `Disallow: /preview/`, the preview pages are `noindex`) and
   `.nojekyll` (Jekyll would drop `_astro/`). The tester preview is under `/preview/`.
 - **Redirects at the old address** https://originheartgold.github.io/origin-heart-gold-EN-translation/, still this
   repo's GitHub Pages (**Settings → Pages → Source: GitHub Actions**). `work/tools/site/redirect_site.py` turns the

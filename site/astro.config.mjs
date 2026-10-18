@@ -1,25 +1,51 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+// Starlight's own dependency; listed here so the sitemap can leave out noindex pages and carry <lastmod>.
+import sitemap from "@astrojs/sitemap";
 import { REPO_URL, SITE_URL, BASE, PREVIEW } from "./site.config.mjs";
+import { excludedPaths, lastmodByPath, lastmodFor } from "./sitemap-config.mjs";
 
 const base = BASE.endsWith("/") ? BASE : BASE + "/";
+const sitemapExcluded = excludedPaths();
+const sitemapDates = lastmodByPath();
+/** A sitemap URL -> its path without the site and base ("/pokemon/cyndaquil/"). */
+const sitePath = (url) => "/" + new URL(url).pathname.slice(base.length);
+const DISCORD_URL = "https://discord.gg/sQY2udrQS";
 
 export default defineConfig({
   site: SITE_URL,
   base,
   trailingSlash: "always",
   integrations: [
+    sitemap({
+      filter: (page) => !sitemapExcluded.has(sitePath(page)),
+      serialize: (item) => {
+        const lastmod = lastmodFor(sitemapDates, sitePath(item.url));
+        return lastmod ? { ...item, lastmod } : item;
+      },
+    }),
     starlight({
-      title: "Origin HeartGold Guide",
+      title: "Origin HeartGold English",
       description:
-        "Quest guide, Pokédex, locations, items and trainers for Origin HeartGold (起源心金) v4.0.3 in English.",
-      social: [{ icon: "github", label: "GitHub", href: REPO_URL }],
+        "The official site of the Origin HeartGold English translation: the English patch, a walkthrough and quest guide, Pokédex, locations, items and trainers for Origin HeartGold (起源心金) v4.0.3.",
+      social: [
+        { icon: "github", label: "GitHub", href: REPO_URL },
+        { icon: "discord", label: "Discord", href: DISCORD_URL },
+      ],
+      routeMiddleware: "./src/routeData.ts",
       customCss: ["./src/styles/custom.css"],
       lastUpdated: false,
       pagination: true,
       head: [
         { tag: "meta", attrs: { name: "ohg-repo", content: REPO_URL } },
+        // Icons: the OHG monogram (public/favicon.svg is Starlight's favicon); sources and renderer in site/brand/.
+        { tag: "link", attrs: { rel: "icon", href: base + "favicon.ico", sizes: "32x32" } },
+        { tag: "link", attrs: { rel: "icon", type: "image/png", href: base + "favicon-96.png", sizes: "96x96" } },
+        { tag: "link", attrs: { rel: "apple-touch-icon", href: base + "apple-touch-icon.png" } },
+        { tag: "link", attrs: { rel: "manifest", href: base + "site.webmanifest" } },
+        { tag: "meta", attrs: { name: "theme-color", content: "#faf9f5", media: "(prefers-color-scheme: light)" } },
+        { tag: "meta", attrs: { name: "theme-color", content: "#111923", media: "(prefers-color-scheme: dark)" } },
         { tag: "script", attrs: { src: base + "ohg.js", defer: true } },
         ...(PREVIEW ? [{ tag: "meta", attrs: { name: "robots", content: "noindex, nofollow" } }] : []),
         ...(PREVIEW ? [] : [{
@@ -50,6 +76,7 @@ export default defineConfig({
             { label: "Home", link: "/" },
             { label: "Patch your game", slug: "patch" },
             { label: "FAQ", slug: "faq" },
+            { label: "Changelog and contributors", link: "/changelog/" },
             { label: "Save editor", link: "/save-editor/" },
             { label: "How to use this guide", slug: "about" },
             { label: "Mechanics and controls", slug: "mechanics" },

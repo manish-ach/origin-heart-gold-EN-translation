@@ -1,0 +1,100 @@
+{
+ "_note": "Player-facing summaries of each English patch release, newest first, rewritten by hand from CHANGELOG.md (no decision ids, no tooling notes). Add the new release at the top when it is published; site/tests/changelog.test.mjs checks that every version in CHANGELOG.md is here or folded into one (rc1 and rc2 were never released publicly; rc3 includes them). rc3 and rc4 were shared as patch files, not GitHub releases (\"github\": false). Contributors per release are in contributors.json.",
+ "releases": [
+  {
+   "version": "1.0.0-rc8",
+   "tag": "v1.0.0-rc8",
+   "date": "2026-10-13",
+   "summary": "More freezes and story bugs of the original hack fixed, battle sounds back, and the difficulty settings brought closer to the original hack.",
+   "changes": [
+    "**Freezes fixed:** stepping under the arch in front of the Victory Road stairs (reported on a real DS Lite), the weekday siblings' ribbon scene, the Pallet Town photographer when none of your Pokémon can fight, losing to Giovanni at the Mt. Silver hot spring, and scripted Double Battles when you have fewer than two Pokémon (such as the Department Store's 6F).",
+    "**Money and quantities:** the Goldenrod fortune teller, the younger Haircut Brother and the S.S. Anne shop now check for the price they charge, and the Game Corner's \"500 coins\" option gives 500 coins. Rewards of several items say how many you got (\"Obtained Ultra Ball x2!\").",
+    "**Story fixes:** the Ilex Forest bug hunt can no longer set off the Forest of Time scenes early, the Cynthia romance scenes take the Snow Mail they ask for, Petilil holding a Black Belt evolves straight into Hisuian Lilligant, the Blackthorn tutor teaches Play Rough and the Saffron Dojo tutor always teaches Volt Switch. The Ice Stone and the Dragon Scale can be used from the Bag again.",
+    "**Names and sprites:** your name no longer shows up blank in dozens of lines, and 36 stationary overworld Pokémon are drawn as the species the text and cry name.",
+    "**Battles:** fainting Pokémon cry again, and moves that deal damage play the hit sound.",
+    "**Difficulty settings:** ITEMS LIMITED is now called DEFAULT and follows the original hack's battle-item rules (Potions included); ALL still adds twenty more medicines. SHARE OFF no longer switches off a held Exp. Share, and CAP, SHARE and ITEMS also apply in story battles you're allowed to lose.",
+    "**Text fixes:** the Route 21 Trainer's Lairon, the Celadon Skitty boy's \"Fluffy Tail\", and the Rock Tunnel tutor now names Pollen Puff, the move he really teaches."
+   ],
+   "github": true
+  },
+  {
+   "version": "1.0.0-rc7",
+   "tag": "v1.0.0-rc7",
+   "date": "2026-10-11",
+   "summary": "Optional difficulty settings and a round of battle fixes.",
+   "changes": [
+    "**New difficulty settings** on a second Options page: ITEMS (which battle items you can use against trainers), SHARE (turn shared EXP for benched Pokémon off) and CAP (a level cap that follows your badges).",
+    "**Startup screens** now show the translation credits and the release version.",
+    "**Crashes and black screens fixed:** Lugia's entrance in the Whirl Islands after Lawrence's first battle, and losing to the Rock Tunnel corner kid or the Pokémon Tower Magcargo (now a normal blackout).",
+    "**Battle fixes:** better target selection in Double Battles, Struggle when every move is out of PP, healing HP bars, Cute Charm really infatuates, party screens show new status conditions, fainting waits for multi-hit damage, and \"The wild\" / \"The foe's\" name the right Pokémon.",
+    "**Other fixes:** Pryce's challenge checks weather-changing Abilities instead of species, and Honey Gather collects Honey after battle again."
+   ],
+   "github": true
+  },
+  {
+   "version": "1.0.0-rc6",
+   "tag": "v1.0.0-rc6",
+   "date": "2026-10-09",
+   "summary": "A text speed option, the first real-hardware support, a full reread of the translation and fixes for freezes players reported.",
+   "changes": [
+    "**TEXT SPEED** option (NORMAL or FAST; new games start on FAST), and text prints faster in towns and on routes. Phone calls wait for you to press A or B.",
+    "**Real DS, DSi and 3DS:** the original hack's anti-piracy checks are switched off, so the game no longer freezes after a while on a flashcart or loader. Not yet tested on a real console.",
+    "**Translation:** every line was reread against the Chinese with its scene; about 2,200 lines were improved and line breaks rebalanced in 762 more.",
+    "**Freezes fixed:** objects in the Rocket hideout under Mahogany Town and on Five and Seven Island, Bulbasaur following you next to water (such as the Viridian City pond), and broken Double Battles in the Safari Zone.",
+    "**Pokémon learn their evolution moves when they evolve**, as in modern games (Crobat gets Cross Poison, Charizard Air Slash and so on).",
+    "**Battle text:** Nature Power, Attract and type-changing moves and Abilities name the right move, Pokémon and type instead of Chinese error text.",
+    "**Boldore and Gurdurr** evolve at Lv. 35 and Lv. 40 instead of by trade.",
+    "**Screens:** clearer IV/EV panel, full names in the PC, fixed Pokédex labels, a fuller battle INFO panel, and descriptions that fit their windows."
+   ],
+   "github": true
+  },
+  {
+   "version": "1.0.0-rc5",
+   "tag": "v1.0.0-rc5",
+   "date": "2026-10-04",
+   "summary": "Text fixes: blank descriptions, skipped dialogues and a review of the translation.",
+   "changes": [
+    "**Blank descriptions fixed:** 17 item and move descriptions (Scope Lens, Lucky Egg, Focus Band and others) were too long and showed an empty box.",
+    "**Skipped dialogues fixed:** three very long scenes could be skipped or show old text: the League briefing before the Bell Tower, the Lightning Whip lecture and the Marcel and Sunflora story.",
+    "**Chain Logger bar** no longer shows garbled graphics.",
+    "**Translation fixes** from a review against the Chinese, eleven Easy Chat words that looked the same are now distinct, and some untranslated Contest and Pokéwalker messages are now in English.",
+    "**Anime and manga quotes** use the official English dub wording, such as Team Rocket's motto."
+   ],
+   "github": true
+  },
+  {
+   "version": "1.0.0-rc4",
+   "tag": "v1.0.0-rc4",
+   "date": "2026-09-30",
+   "summary": "Crash fixes for menus and big shouts.",
+   "changes": [
+    "**Menu crashes fixed:** switching Pokémon on the summary screen's skills page could crash the game, and the Bag was close to the same crash.",
+    "**Shout crashes fixed:** big double-size shouts (Misty and Gyarados on Route 3, Mt. Moon, Vermilion City) could crash the game afterwards."
+   ],
+   "github": false,
+   "note": "Shared as a patch file before GitHub releases; no longer offered — use the latest patch."
+  },
+  {
+   "version": "1.0.0-rc3",
+   "tag": "v1.0.0-rc3",
+   "date": "2026-09-29",
+   "summary": "The first public release: the whole game in English, with fixes from an outside review.",
+   "changes": [
+    "**The whole game in English:** the Kanto story, the Alto Mare islands and Johto with every partner, gender and choice branch, plus menus, battles, all 1,440 Pokédex entries, descriptions and side content.",
+    "**English graphics:** type and status icons, Pokédex screens, the naming screen, trainer card, Bag and battle labels, and a bilingual title screen.",
+    "**Longer names:** up to 7 letters for trainers and 10 for Pokémon, with an English keyboard.",
+    "**Faithful tone:** the English keeps the Chinese hack's story and tone at full strength.",
+    "**Trainer names longer than seven letters** (Giovanni, Lt. Surge, Prof. Oak and 55 others) no longer show garbage in battle.",
+    "**614 lines corrected** after an outside review, such as the Lake of Rage Speed quiz, wrong Pokémon, move and item names, and swearing that had been softened.",
+    "**Official names** for A.J., Lara, Suzie, Bebe, Casey and Kimono Girl Sakura, and Ace Trainer everywhere.",
+    "**Signposts** with a map picture fit their box, and lines that split names such as \"Pokémon Center\" are rewrapped."
+   ],
+   "includes": [
+    "1.0.0-rc1",
+    "1.0.0-rc2"
+   ],
+   "github": false,
+   "note": "Shared as a patch file before GitHub releases; no longer offered — use the latest patch."
+  }
+ ]
+}

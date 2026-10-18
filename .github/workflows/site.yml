@@ -117,6 +117,9 @@ jobs:
       GUIDE_PUBLIC_URL: https://originheartgold.github.io/
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history: the sitemap's <lastmod> dates come from git (site/sitemap-config.mjs; skipped in a shallow clone).
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -242,7 +245,8 @@ jobs:
         # The site is served from the host root, so this robots.txt is the one crawlers read.
         # .nojekyll: the user-site repo is served from a branch, and Jekyll would drop _astro/.
         run: |
-          printf 'User-agent: *\nAllow: /\nDisallow: /preview/\n\nSitemap: %s/sitemap-index.xml\n' "$ROOT_SITE_URL" > site/dist/robots.txt
+          # No Disallow for /preview/: its pages carry <meta name="robots" content="noindex">, and a blocked path would hide that.
+          printf 'User-agent: *\nAllow: /\n\nSitemap: %s/sitemap-index.xml\n' "$ROOT_SITE_URL" > site/dist/robots.txt
           touch site/dist/.nojekyll
           cat site/dist/robots.txt
       - name: Build the redirect site for the old project address

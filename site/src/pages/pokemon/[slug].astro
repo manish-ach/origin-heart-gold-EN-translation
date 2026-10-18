@@ -8,6 +8,7 @@ import Availability from '../../components/Availability.astro';
 import FormChanges from '../../components/FormChanges.astro';
 import CalendarEncounters from '../../components/CalendarEncounters.astro';
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { pokemonSeo } from '../../lib/page-seo';
 import Type from '../../components/Type.astro';
 import PokemonImage from '../../components/PokemonImage.astro';
 import AbilityLink from '../../components/AbilityLink.astro';
@@ -26,6 +27,7 @@ const additionalQuests = (s.quests ?? []).filter(quest => !acquisitionQuestLinks
 const obtainableForm = s.formChanges.some(f => f.result === s.id && speciesById.get(f.base)?.how);
 const total = s.stats.reduce((a, b) => a + b, 0);
 const change = changeBySlug.get(s.slug);
+const seo = pokemonSeo(s);
 const ev = s.ev.map((v, i) => (v ? `${v} ${STAT_NAMES[i]}` : '')).filter(Boolean).join(', ') || '—';
 const idx = species.findIndex((x) => x.id === s.id);
 const prev = species[idx - 1], next = species[idx + 1];
@@ -42,7 +44,7 @@ const headings = [
 ];
 ---
 <StarlightPage
-	frontmatter={{ title: `#${String(s.baseSpeciesId).padStart(4, '0')} ${s.name}`, description: `${s.name} in Origin HeartGold: types, abilities, base stats, moves and where to catch it.` }}
+	frontmatter={{ title: `#${String(s.baseSpeciesId).padStart(4, '0')} ${s.name}`, description: seo.description, seo: { title: seo.title } }}
 	headings={headings}
 >
 	<Availability reason={s.unavailableReason} detail />

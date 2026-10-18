@@ -10,12 +10,15 @@ const { legacy: slug } = Astro.params;
 const entry = (legacy as Record<string, { default: string; anchors: Record<string, string> }>)[slug];
 const base = import.meta.env.BASE_URL.replace(/\/?$/, "/");
 const first = `${base}guide/${entry.default}/`;
+// Canonical to the chapter that holds most of the old page (W-013); the stubs stay out of the sitemap.
+const canonical = new URL(first, Astro.site).href;
 ---
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="robots" content="noindex" />
+    <link rel="canonical" href={canonical} />
     <title>Guide moved</title>
     <noscript><meta http-equiv="refresh" content={`0; url=${first}`} /></noscript>
     <script is:inline define:vars={{ entry, base }}>
