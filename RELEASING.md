@@ -101,6 +101,8 @@ Check the run under *Actions → Release*. If it failed, fix the file, then move
 Publishing triggers `site.yml` (`release: published`), which downloads `latest.json` and the xdelta, verifies the SHA-1 and redeploys https://originheartgold.github.io/patch/.
 Check that run, then open the patch page and try it.
 
+The website's [changelog page](https://originheartgold.github.io/changelog/), home release line and patch-page version come from `site/src/data/releases.json` and `site/src/data/contributors.json`: add the release there (a short player-facing summary written from `CHANGELOG.md`, and the contributors' names) and commit it with the release. `site/tests/changelog.test.mjs` fails the website build until every version in `CHANGELOG.md` is listed.
+
 ## 4. After
 
 - Confirm the downloaded xdelta applied to a clean USA ROM gives the `Result ROM SHA-1` in the README.
