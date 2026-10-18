@@ -1,10 +1,18 @@
 """Export the game data behind work/docs/ as JSON for the website (site/src/data/).
 
 Reuses gen_docs.py's readers and helpers, so the site and the Markdown docs always agree.
-Reads the untouched CN ROM through romdata.Rom (cached in work/build/docs_cache.pkl).
+Reads the ROM the site documents through romdata.select_rom (cached in work/build/docs_cache/<SHA-1>.pkl): by
+default the newest release's ROM (release:latest: work/release/<tag>/'s xdelta applied to the clean USA ROM and
+checked against its latest.json), so the site shows exactly what players get from the released patch, with every
+enabled fix and none of the disabled ones. meta.json "rom" records which ROM (label and SHA-1).
 
-    python3 work/tools/site/export_data.py            # writes site/src/data/*.json
-    python3 work/tools/site/export_data.py --check    # exit 1 if a file would change
+    python3 work/tools/site/export_data.py                         # writes site/src/data/*.json from release:latest
+    python3 work/tools/site/export_data.py --rom release:v1.0.0-rc8
+    python3 work/tools/site/export_data.py --check                 # exit 1 if a file would change, or if the
+                                                                   # committed data documents another ROM
+Other --rom values: build (the unreleased standard build, for previews), cn (the untouched Chinese hack), a .nds
+path; or set OHG_DOCS_ROM. Run sync_guide.py first: quest links are written straight to the chapter pages
+(relink_guide.py's map). Design and per-field sources: work/notes/site_export_built_rom.md.
 """
 import argparse
 import collections
@@ -26,6 +34,7 @@ import safari_held as SH  # noqa: E402
 import battle_reference as BR  # noqa: E402
 import pokemon_acquisitions as PA  # noqa: E402
 import pickup as PU  # noqa: E402
+import relink_guide as RG  # noqa: E402
 
 OUT = os.path.join(R.REPO, 'site', 'src', 'data')
 # reviewed lists, shared with the docs (see gen_docs.reviewed and each file's _about): species, forms and items a
@@ -199,6 +208,8 @@ def short_method(title):
 
 
 # Reviewed notes for tutors whose NPC and script disagree (hack findings, kept as the hack has them, D-1337).
+# Keyed by (move taught, script file): once a fix makes the script teach the promised move (rc8:
+# tutor-blackthorn-play-rough, tutor-saffron-volt-switch), the key no longer matches and the note goes away.
 TUTOR_NOTES = {
     (175, 944): dict(text='he says Play Rough, but the move he really teaches is Flail (a bug in the original hack)',
                      alias='Play Rough', href='/guide/known-issues/'),
@@ -277,18 +288,6 @@ def export_evolutions(ctx, sp_slug):
                     row['original'] = '; '.join(old) if old else None
             rows.append(row)
     return rows
-
-
-# Evolutions the standard patch changes in the evolution records themselves (work/patches/trade-evolutions-levelup):
-# the pages show what the patched game does, and `original` still marks the hack's trade evolution.
-BUILD_EVOLUTIONS = {525: (4, 35, 526), 533: (4, 40, 534)}   # Boldore -> Gigalith Lv 35, Gurdurr -> Conkeldurr Lv 40
-
-
-def apply_build_evolutions(ctx):
-    for sp, (method, param, target) in BUILD_EVOLUTIONS.items():
-        rows = ctx.evos[sp]
-        assert [(m, t) for m, _, t in rows] == [(5, target)], (sp, rows)   # still the Chinese trade record
-        ctx.evos[sp] = [(method, param, target)]
 
 
 def held_item_chances(items):
@@ -416,6 +415,10 @@ def wild_held_sources(ctx, areas, species_ids, extra_rows=()):
 
 
 def export(ctx):
+    global NOT_IN_GAME, EXTRA, ITEMS_NOT_IN_GAME, ITEMS_EXTRA
+    # the reviewed lists as they apply to this ROM (entries a fix in it makes obsolete: gen_docs.reviewed "fixedBy")
+    NOT_IN_GAME, EXTRA = G.reviewed('not_in_game'), G.reviewed('extra_sources')
+    ITEMS_NOT_IN_GAME, ITEMS_EXTRA = G.reviewed('items_not_in_game'), G.reviewed('items_extra_sources')
     pages, _cr, _findings = G.build_all(ctx)        # fills ctx caches (encounters, items, trainers, availability)
     gq = guide_quests()
     slugs = Slugs()
@@ -787,6 +790,7 @@ def export(ctx):
         for k in ('items', 'gifts', 'statics', 'trades'):
             a[k] = list({json.dumps(x, sort_keys=True): x for x in a[k]}.values())
     meta = dict(game='Origin HeartGold (起源心金) v4.0.3', generator='work/tools/site/export_data.py',
+                rom=ctx.rom.identity,
                 encExplainer=G.ENC_EXPLAINER, rateNames=G.RATE_NAMES,
                 counts=dict(species=len(species), moves=len(moves), items=len(items), areas=len(area_list),
                             trainers=len(trainers)))
@@ -798,18 +802,45 @@ def dump(obj):
     return json.dumps(obj, ensure_ascii=False, separators=(',', ':'), sort_keys=False) + '\n'
 
 
+def committed_rom(out):
+    """The "rom" record of the data in `out` (None when there is none)."""
+    path = os.path.join(out, 'meta.json')
+    if not os.path.exists(path):
+        return None
+    with open(path, encoding='utf-8') as fh:
+        return json.load(fh).get('rom')
+
+
+def legacy_links():
+    """Old region guide URL -> chapter map that sync_guide.py writes (relink_guide.py rewrites with it)."""
+    if not os.path.exists(RG.LEGACY):
+        sys.exit('%s is missing: run python3 work/tools/site/sync_guide.py first' % os.path.relpath(RG.LEGACY, R.REPO))
+    with open(RG.LEGACY, encoding='utf-8') as fh:
+        return json.load(fh)
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
     ap.add_argument('--out', default=OUT)
-    ap.add_argument('--check', action='store_true')
+    ap.add_argument('--check', action='store_true',
+                    help='write nothing; exit 1 if a file would change or the data documents another ROM')
+    ap.add_argument('--rom', help='the ROM to document: release:latest (default), release:<tag>, build, cn or a .nds '
+                                  'path (env %s)' % R.ROM_ENV)
+    ap.add_argument('--refresh', action='store_true', help='re-read the ROM instead of using the cache')
     a = ap.parse_args(argv)
-    ctx = G.Ctx(R.Rom())
-    apply_build_evolutions(ctx)
+    legacy = legacy_links()
+    rom = R.select_rom(a.rom, refresh=a.refresh)
+    problems = R.check_layout(rom)
+    if problems:
+        sys.exit('%s: the ROM\'s tables are not where the readers expect them:\n  ' % rom.identity['label'] + '\n  '.join(problems))
+    print('ROM: %s (SHA-1 %s)' % (rom.identity['label'], rom.sha1))
+    mismatch = R.identity_mismatch(committed_rom(a.out), rom.identity) if a.check else None
+    ctx = G.Ctx(rom)
     data = export(ctx)
     changed = []
     for k, v in data.items():
         path = os.path.join(a.out, k + '.json')
-        text = dump(v)
+        text = RG.rewrite(dump(v), legacy)
         old = open(path, encoding='utf-8').read() if os.path.exists(path) else None
         if old != text:
             changed.append(path)
@@ -821,7 +852,10 @@ def main(argv=None):
     for p in changed:
         print(('would change: ' if a.check else 'wrote: ') + os.path.relpath(p, R.REPO))
     print('%d data files, %d changed' % (len(data), len(changed)))
-    return 1 if (a.check and changed) else 0
+    if mismatch:
+        print('ROM mismatch: ' + mismatch + '. Export from the release the site should describe '
+              '(export_data.py --rom release:<tag>) and commit the data with that release.')
+    return 1 if (a.check and (changed or mismatch)) else 0
 
 
 if __name__ == '__main__':

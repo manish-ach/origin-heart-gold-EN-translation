@@ -110,4 +110,25 @@ class BattleReferenceTests(unittest.TestCase):
         self.assertEqual(m['abilities'],[327,65])
         self.assertEqual(m['hidden_ability'],327)
 
+class TutorAuthorNotes(unittest.TestCase):
+    TUTOR = dict(move=583, places=[dict(place='Blackthorn Move Tutor house', area='blackthorn-city')])
+    CLAIM = dict(moveId=583, configuredMoveId=175, comparison=dict(locationAreas=['blackthorn-city'], identityMatches=False),
+                 priorAuditNote='ROM teaches Flail here (D-1305)')
+
+    def test_a_claim_a_fix_made_true_joins_the_tutor_as_matching(self):
+        notes = B.tutor_author_notes(self.TUTOR, [self.CLAIM], taught={583}, areas=[])
+        self.assertEqual(len(notes), 1)
+        self.assertEqual((notes[0]['configuredMoveId'], notes[0]['comparison']['identityMatches']), (583, True))
+        self.assertTrue(notes[0]['priorAuditNote'].startswith('Original hack (fixed in this game): '))
+        # the original hack: the Flail tutor still exists, so the claim stays with it
+        self.assertEqual(B.tutor_author_notes(self.TUTOR, [self.CLAIM], taught={175, 583}, areas=[]), [])
+        # another place: not joined
+        far = dict(self.CLAIM, comparison=dict(self.CLAIM['comparison'], locationAreas=['route-1']))
+        self.assertEqual(B.tutor_author_notes(self.TUTOR, [far], taught={583}, areas=[]), [])
+
+    def test_a_claim_without_configured_move_joins_once(self):
+        claim = dict(moveId=583, comparison=dict(locationAreas=['blackthorn-city']))
+        self.assertEqual(B.tutor_author_notes(self.TUTOR, [claim], taught={583}, areas=[]), [claim])
+
+
 if __name__=='__main__':unittest.main()

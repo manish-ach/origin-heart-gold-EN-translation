@@ -184,6 +184,48 @@ class TestScripts(unittest.TestCase):
         self.assertEqual(ch[0]['var'], 0x8005)
 
 
+def assemble(prog):
+    """A one-entry script file from (label or None, op, [(size, value or jump label), ...]); a label argument is
+    written as the jump offset to that label. Returns (bytes, {label: pc})."""
+    pcs, pc = {}, 6
+    for label, op, args in prog:
+        if label:
+            pcs[label] = pc
+        pc += 2 + sum(size for size, _ in args)
+    body, pc = b'', 6
+    for label, op, args in prog:
+        end = pc + 2 + sum(size for size, _ in args)
+        body += struct.pack('<H', op)
+        for size, v in args:
+            v = pcs[v] - end if isinstance(v, str) else v
+            body += v.to_bytes(size, 'little', signed=(size == 4))
+        pc = end
+    return struct.pack('<i', 2) + struct.pack('<H', 0xFD13) + body, pcs
+
+
+class TestBattleConditions(unittest.TestCase):
+    def test_a_loop_before_the_battle_keeps_the_condition_above_it(self):
+        # Pryce's room with fix pryce-weather-rule: the Badge check, then a party loop whose exit GoTo leads to the
+        # battle. Following the loop's back edge spent the path walk's depth limit and lost the Badge condition.
+        EQ, NE = 1, 5
+        data, pcs = assemble([
+            (None, 294, [(2, 6), (2, 0x800C)]),          # CheckBadge 6, 0x800C
+            (None, 17, [(2, 0x800C), (2, 1)]),           # CompareVarToValue 0x800C, 1
+            (None, 28, [(1, EQ), (4, 'END')]),           # GoToIf ==: has the Badge, no battle
+            (None, 41, [(2, 0x8004), (2, 0)]),           # SetVar 0x8004, 0 (slot)
+            ('LOOP', 17, [(2, 0x8004), (2, 3)]),
+            (None, 28, [(1, NE), (4, 'NEXT')]),          # more slots to check
+            (None, 22, [(4, 'BATTLE')]),                 # GoTo the battle
+            ('NEXT', 41, [(2, 0x8005), (2, 7)]),
+            (None, 22, [(4, 'LOOP')]),                   # back edge
+            ('BATTLE', 213, [(2, 32), (2, 0), (1, 0), (1, 0)]),   # TrainerBattle 32
+            ('END', 2, []),
+        ])
+        entries, ins = R.disasm(data)
+        self.assertEqual(G.conditions_for(dict(entries=entries, ins=ins), pcs['BATTLE'], ctx=object(), f=0),
+                         ['before you have the %s Badge' % G.BADGE_NAMES[6]])
+
+
 class FakeCtx:
     """Just enough of gen_docs.Ctx for mart_calls / script_gifts."""
     def __init__(self, S, n_items=600):

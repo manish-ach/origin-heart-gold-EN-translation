@@ -1,5 +1,5 @@
 {
- "_about": "Sources and battle-only forms the game data scan does not find on its own, each verified in the untouched Chinese v4.0.3 ROM (2026-10-05; evidence in work/notes/availability_audit.md). \"how\" replaces the generated \"how to get it\" text, \"battle\" marks a form seen only in battle, \"evoNote\" adds a note to the evolution section, \"note\" explains an entry with no confirmed source, \"evoBlocked\" marks an evolution (by target id) as not possible with a reason.",
+ "_about": "Sources and battle-only forms the game data scan does not find on its own, each verified in the untouched Chinese v4.0.3 ROM (2026-10-05; evidence in work/notes/availability_audit.md). \"how\" replaces the generated \"how to get it\" text, \"battle\" marks a form seen only in battle, \"evoNote\" adds a note to the evolution section, \"note\" explains an entry with no confirmed source, \"evoBlocked\" marks an evolution (by target id) as not possible with a reason. \"fixedBy\" names a code fix (work/patches/<id>) that removes the hack bug the entry describes: when the documented ROM carries it, only the entry's \"withFix\" fields apply (gen_docs.reviewed).",
  "entries": [
   {
    "id": 525,
@@ -27,6 +27,10 @@
    "evoNote": "Leveling up while holding a Black Belt by day doesn't evolve it into Hisuian Lilligant: because of an error in the hack it stays a Petilil (the game even says \"Petilil evolved into Petilil\" and uses up the Black Belt). A Sun Stone then turns that Petilil into Hisuian Lilligant instead of Lilligant. Tested in an emulator.",
    "evoBlocked": {
     "1361": "because of an error in the hack it stays a Petilil (see below)"
+   },
+   "fixedBy": "petilil-hisuian-lilligant",
+   "withFix": {
+    "evoNote": "In the original hack, a Petilil leveled up by day while holding a Black Belt stays a Petilil because of an error in the hack. The English patch fixes this from rc8: it evolves into Hisuian Lilligant. Tested in an emulator."
    }
   },
   {
@@ -274,7 +278,11 @@
    "id": 1361,
    "name": "Hisuian Lilligant",
    "how": "use a Sun Stone on a Petilil that leveled up by day while holding a Black Belt (tested in an emulator)",
-   "evoNote": "Leveling up a Petilil by day while it holds a Black Belt doesn't give Hisuian Lilligant, although the evolution data says so: because of an error in the hack it stays a Petilil, and a Sun Stone then turns it into Hisuian Lilligant. Tested in an emulator."
+   "evoNote": "Leveling up a Petilil by day while it holds a Black Belt doesn't give Hisuian Lilligant, although the evolution data says so: because of an error in the hack it stays a Petilil, and a Sun Stone then turns it into Hisuian Lilligant. Tested in an emulator.",
+   "fixedBy": "petilil-hisuian-lilligant",
+   "withFix": {
+    "evoNote": "In the original hack, a Petilil leveled up by day while holding a Black Belt stays a Petilil because of an error in the hack (a Sun Stone then gives Hisuian Lilligant). The English patch fixes this from rc8: the level-up evolution works. Tested in an emulator."
+   }
   }
  ]
 }

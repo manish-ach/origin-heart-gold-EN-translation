@@ -174,7 +174,8 @@ test('signed HP and uninterpreted zero chances remain honest across built learni
 test('all restricted tutors survive detail rendering and index method tokens', {skip: !built}, () => {
   const index = read('moves');
   const restricted = json('tutors').filter(t => t.species === 'restricted');
-  assert.equal(restricted.length,6);
+  // 5 from rc8: tutor-saffron-volt-switch removed the restricted Charge path of the Saffron Dojo tutor
+  assert.equal(restricted.length,5);
   for (const t of restricted) {
     const m = moves.find(m => m.id === t.move), html = read(`moves/${m.slug}`);
     assert.ok(html.includes('tutor-details'),m.name);
@@ -186,7 +187,7 @@ test('all restricted tutors survive detail rendering and index method tokens', {
     assert.match(row,/data-method="[^"]*tutor/);
     if (t.cost?.length === 0) assert.ok(html.includes('Cost: Free'),m.name);
   }
-  assert.ok(read('moves/charge').includes('₽10000'));
+  assert.ok(read('moves/volt-switch').includes('₽10000'));
   assert.ok(read('moves/blast-burn').includes('Learn this move from the tutor below'));
 });
 

@@ -35,7 +35,7 @@ def first_line(ctx, zone, script_no):
         return ''
     bank = z['msg_bank']
     try:
-        texts = R.load_bank(bank)
+        texts = ctx.rom.bank(bank)
     except Exception:
         return ''
     names = R.cmds()
