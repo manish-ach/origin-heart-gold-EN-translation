@@ -181,17 +181,20 @@
 			const resetName = target.tagName === 'TABLE' ? tableName(target) : '';
 			reset.setAttribute('aria-label', `Reset search, filters and sorting${resetName ? ` for ${resetName}` : ''}`);
 			if (f) f.append(reset);
-			let sort = null, searchEditing = false;
+			// `sorted`: whether the rows are out of page order. Re-appending every row is costly on long tables, so it only
+			// happens while sorting or when going back to page order (W-051).
+			let sort = null, searchEditing = false, sorted = false;
 			function apply() {
 				const words = searchText(input?.value || '').trim().split(/\s+/).filter(Boolean);
 				let n = 0;
 				for (const r of rows) {
 					const tokens = key => (r.dataset[key] || '').split('|');
 					const ok = words.every(w => text.get(r).includes(w)) && selects.every(s => !s.value || tokens(s.dataset.key).includes(s.value)) && checks.every(c => c.checked || !tokens(c.dataset.key).includes(c.dataset.showValue));
-					r.hidden = !ok; if (ok) n++;
+					if (r.hidden === ok) r.hidden = !ok; if (ok) n++;
 				}
 				ths.forEach((th, col) => th.setAttribute('aria-sort', sort?.col === col ? sort.dir : 'none'));
-				if (body) {
+				if (body && (sort || sorted)) {
+					sorted = !!sort;
 					const ordered = [...rows];
 					if (sort) {
 						const key = r => r.cells[sort.col]?.dataset.sortValue ?? r.cells[sort.col]?.textContent.trim() ?? '';
@@ -255,9 +258,9 @@
 		const before = headings.filter(h => h.compareDocumentPosition?.(table) & 4).pop();
 		return textOf(before);
 	}
-	function setupTableScroll() {
+	function setupTableScroll(root = document) {
 		const updates = [];
-		document.querySelectorAll('.sl-markdown-content table').forEach(table => {
+		root.querySelectorAll('.sl-markdown-content table').forEach(table => {
 			if (table.closest('.table-scroll, .save-editor')) return;
 			const name = tableName(table);
 			if (name && !textOf(table.caption) && !table.getAttribute('aria-label') && !table.getAttribute('aria-labelledby')) table.setAttribute('aria-label', name);
@@ -283,6 +286,8 @@
 		if (typeof ResizeObserver === 'undefined') window.addEventListener('resize', () => updates.forEach(update => update()));
 	}
 
+	// Pages that insert tables later (trainer cards on /trainers/) give them the same panel.
+	window.ohgTableScroll = setupTableScroll;
 	const init = () => { setupQuests(); setupFilters(); setupTableScroll(); };
 	document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', init) : init();
 })();

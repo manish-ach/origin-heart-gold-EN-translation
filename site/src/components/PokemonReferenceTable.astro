@@ -4,7 +4,10 @@ import PokemonImage from './PokemonImage.astro';
 import Type from './Type.astro';
 import { speciesById, pokemonUrl, availabilityToken, availabilityLabel } from '../lib/data';
 const { rows, label = 'Details', id, caption = 'Pokémon' } = Astro.props as { rows: { speciesId: number; detail?: string }[]; label?: string; id?: string; caption?: string };
+// Long tables (a common move's 1,400 learners) sit in a box the browser skips laying out and painting until it nears
+// the screen (content-visibility, W-051). The size guess (about 58 px a row) keeps the scrollbar steady until then.
+const long = rows.length > 100;
 ---
-<table class="compact sortable" id={id}><caption class="sr-only">{caption}</caption><thead><tr><th>Pokémon</th><th>Type</th><th>{label}</th><th>Availability</th></tr></thead><tbody>{rows.map(row => { const s = speciesById.get(row.speciesId); return s && <tr data-availability={availabilityToken(s)} data-type={s.types.join('|')}>
+<div class={long ? 'long-table' : undefined} style={long ? `contain-intrinsic-size: auto ${rows.length * 58 + 48}px` : undefined}><table class="compact sortable" id={id}><caption class="sr-only">{caption}</caption><thead><tr><th>Pokémon</th><th>Type</th><th>{label}</th><th>Availability</th></tr></thead><tbody>{rows.map(row => { const s = speciesById.get(row.speciesId); return s && <tr data-availability={availabilityToken(s)} data-type={s.types.join('|')}>
 <td><div class="pokemon-cell"><PokemonImage s={s} /><a href={pokemonUrl(s.id)}>{s.name}</a></div></td><td>{s.types.map(t => <Type type={t} />)}</td><td>{row.detail ?? '—'}</td><td>{availabilityLabel(s)}{s.unavailableReason && <details><summary>Reason</summary>{playerNote(s.unavailableReason)}</details>}</td>
-</tr>; })}</tbody></table>
+</tr>; })}</tbody></table></div>

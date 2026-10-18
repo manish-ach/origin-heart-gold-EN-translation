@@ -3,5 +3,7 @@ import { playerAbilityDescription } from '../lib/reference-format.mjs';
 import { abilityById, abilityUrl, abilityAlias } from '../lib/data';
 const { id, summary = false } = Astro.props as { id: number | null; summary?: boolean };
 const a = id == null ? undefined : abilityById.get(id);
+// A bare link when there is nothing to add: long tables (the Pokédex) render thousands of these (W-051).
+const plain = a && !abilityAlias(a) && !(summary && a.description);
 ---
-{a ? <span class="ability-link"><a href={abilityUrl(a)}>{a.name}</a>{abilityAlias(a) && <span class="small muted"> ({abilityAlias(a)})</span>}{summary && a.description && <span class="ability-summary small">{playerAbilityDescription(a)}</span>}</span> : <span>—</span>}
+{plain ? <a class="ability-link" href={abilityUrl(a)}>{a.name}</a> : a ? <span class="ability-link"><a href={abilityUrl(a)}>{a.name}</a>{abilityAlias(a) && <span class="small muted"> ({abilityAlias(a)})</span>}{summary && a.description && <span class="ability-summary small">{playerAbilityDescription(a)}</span>}</span> : <span>—</span>}

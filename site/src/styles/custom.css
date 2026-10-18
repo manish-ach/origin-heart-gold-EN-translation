@@ -131,6 +131,8 @@ ul.loc-list li { break-inside: avoid; }
 .pokemon-image-large img { width: 100%; height: auto; aspect-ratio: 1; }
 .pokemon-image figcaption { line-height: 1.35; margin-top: .35rem; }
 .art-placeholder { display: grid; place-items: center; width: 100%; aspect-ratio: 1; border-radius: .5rem; background: var(--ohg-tag-bg); color: var(--sl-color-gray-3); }
+/* Long Pokémon tables (PokemonReferenceTable): laid out and painted only near the screen (W-051). */
+.long-table { content-visibility: auto; }
 .pokemon-overview { display: flex; flex-wrap: wrap; align-items: start; gap: 1.5rem; }
 .pokemon-overview .mon-head { flex: 1 1 18rem; }
 .ability-link { display: block; }

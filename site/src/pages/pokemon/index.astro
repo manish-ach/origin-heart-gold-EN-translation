@@ -49,6 +49,7 @@ const regions = [...new Set(species.map((s) => s.region))];
 	</table>
 </StarlightPage>
 
-<style>
-	.base-stat { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+<style is:global>
+	/* Global on purpose: a scoped style would add a class to each of the table's ~24,000 elements (W-051). */
+	td.base-stat { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
 </style>
