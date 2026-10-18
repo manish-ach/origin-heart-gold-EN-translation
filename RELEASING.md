@@ -72,7 +72,19 @@ half local, half CI. ROMs, saves and build inputs are never uploaded: only the x
    `VALIDATION.txt`, as for rc8: the result line of each AI level's `summary.txt` and the hashes in `release.json`.
 5. Write `latest.json` for the website's in-browser patcher: `python3 work/tools/site/patch_manifest.py <tag>`. It
    reads the xdelta and the `Result ROM SHA-1:` line of `README.txt`; nothing in it is specific to the AI.
-6. Commit the version bump and CHANGELOG, and merge to `main`.
+6. Regenerate the website data and the player docs from the release ROM, so the site describes exactly what the
+   patch gives players (every enabled fix, no disabled one):
+
+   ```sh
+   python3 work/tools/site/build.py --content --rom release:$TAG   # rebuilds the ROM from the xdelta, checks latest.json
+   python3 work/tools/site/export_data.py --check --rom release:$TAG
+   ```
+
+   Review the `site/src/data` and `work/docs` diff: each change should come from a fix or text change of this
+   release (`work/notes/site_export_built_rom.md` lists the categories). Commit it together with the release, never
+   before: rc players would otherwise see data (EVs, abilities, tutors) that does not match their game. See
+   [site/README.md](site/README.md#which-game-the-data-describes).
+7. Commit the version bump, CHANGELOG and the regenerated data, and merge to `main`.
 
 ## 2. Tag (triggers CI)
 

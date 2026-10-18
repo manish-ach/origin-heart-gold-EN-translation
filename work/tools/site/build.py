@@ -3,8 +3,10 @@
     python3 work/tools/site/build.py            # data + guide + PDF + astro build + link check
     python3 work/tools/site/build.py --content  # only regenerate site/src/data and site/src/content (what CI can't do)
     python3 work/tools/site/build.py --check    # exit 1 if generated content is out of date (for pre-commit)
+    python3 work/tools/site/build.py --content --rom release:v1.0.0-rc9   # at a release: document that release
 
-The ROM is only needed for the data step; CI builds from the committed site/src content.
+The ROM is only needed for the data step; CI builds from the committed site/src content. --rom (default
+release:latest, see work/tools/docs/romdata.py "choosing the ROM") goes to gen_docs.py and export_data.py.
 """
 import argparse
 import os
@@ -29,11 +31,14 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
     ap.add_argument('--content', action='store_true', help='only regenerate the site content')
     ap.add_argument('--check', action='store_true', help='fail if the generated content is stale')
+    ap.add_argument('--rom', help='the ROM the docs and the data describe (default: release:latest)')
     a = ap.parse_args(argv)
     flag = ['--check'] if a.check else []
-    run([PY, 'work/tools/docs/gen_docs.py'] + flag)
-    run([PY, 'work/tools/site/export_data.py'] + flag)
+    rom = ['--rom', a.rom] if a.rom else []
+    # the guide first: it writes the old-link map export_data.py points quest links through
     run([PY, 'work/tools/site/sync_guide.py'] + flag)
+    run([PY, 'work/tools/docs/gen_docs.py'] + flag + rom)
+    run([PY, 'work/tools/site/export_data.py'] + flag + rom)
     if a.content or a.check:
         return 0
     if shutil.which('pandoc') and shutil.which('typst'):

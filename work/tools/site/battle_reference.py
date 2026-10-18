@@ -91,8 +91,22 @@ def move_reference(ident, data, rows):
     return result
 
 
+def fixed_tutor_note(note, tutor, areas):
+    """A workbook tutor claim whose configured move (reference_facts.json, compared against the untouched Chinese
+    ROM) no longer has a tutor in the described ROM, while a tutor in the same place now teaches the claimed move:
+    a fix made the claim true (rc8: tutor-blackthorn-play-rough). Joined to that tutor as matching; the old audit
+    note is kept as the original hack's. None when the places differ."""
+    slugs = {p['area'] for p in tutor['places'] if p.get('area')}
+    if not slugs & set(note.get('comparison', {}).get('locationAreas') or []):
+        return None
+    out = dict(note, configuredMoveId=tutor['move'], comparison=dict(note['comparison'], identityMatches=True))
+    if note.get('priorAuditNote'):
+        out['priorAuditNote'] = 'Original hack (fixed in this game): ' + note['priorAuditNote']
+    return out
+
+
 def enrich(ctx, data, R, slugs):
-    move_desc, ability_desc, item_desc = (R.load_bank_full(n) for n in (738, 712, 218))
+    move_desc, ability_desc, item_desc = (ctx.rom.bank_full(n) for n in (738, 712, 218))   # the ROM's own text (romdata.Rom.bank_full)
     facts_path = os.path.join(os.path.dirname(__file__), 'reference_facts.json')
     facts = json.load(open(facts_path, encoding='utf-8')) if os.path.exists(facts_path) else {}
     originals, change_notes = MC.load_comparisons()
@@ -170,8 +184,12 @@ def enrich(ctx, data, R, slugs):
     data['move_slots'] = dict(total=len(ctx.moves)-1, unnamed=[dict(id=m['id'],
         referenced=m['id'] in referenced, disposition='placeholder' if m['id'] in referenced else 'unreferenced-live-slot')
         for m in data['moves'] if m.get('unnamed')], evidence=evidence('rom-data', 'extra/new_move_data.narc'))
+    taught = {t['move'] for t in data['tutors']}
     for tutor in data['tutors']:
         tutor['authorNotes'] = [x for x in facts.get('tutorNotes', []) if x.get('configuredMoveId',x.get('moveId')) == tutor['move']]
+        tutor['authorNotes'] += [fixed_tutor_note(x, tutor, data['areas']) for x in facts.get('tutorNotes', [])
+                                 if x.get('configuredMoveId') not in taught and x.get('moveId') == tutor['move']
+                                 and fixed_tutor_note(x, tutor, data['areas'])]
     data['battle_notes'] = {key: facts.get(key, []) for key in ('moveChanges', 'abilityChanges', 'applicability', 'newTms', 'itemEffects', 'tutorNotes', 'pokemonNotes', 'encounterNotes', 'mapNotes', 'unmappedEncounterTables')}
     data['reference_coverage'] = facts.get('coverageSummary', {})
     data['meta']['itemRarityLegend']=facts.get('itemLegend',{})

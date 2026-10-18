@@ -1,24 +1,39 @@
-"""Read the game data of 起源心金 v4.0.3 (the untouched CN ROM) for the player docs.
+"""Read the game data of 起源心金 v4.0.3 (the untouched CN ROM or an English build of it) for the player docs.
 
 Every parser here is a pure function over bytes, so the unit tests can feed it
-synthetic records. `Rom` loads the ROM once (ndspy) and caches the members we
-need in work/build/docs_cache.pkl (gitignored).
+synthetic records. `Rom` loads a ROM once (ndspy) and caches the members we
+need in work/build/docs_cache/<ROM SHA-1>.pkl (gitignored), so caches of
+different ROMs never mix.
+
+Which ROM the docs and the website describe is chosen by `select_rom` (see
+"Choosing the ROM" below and work/notes/site_export_built_rom.md): by default
+the newest release's ROM, rebuilt locally from its xdelta. `Rom()` with no
+path is still the untouched CN ROM, for the tools that analyse the hack itself.
 
 Where each table lives, and how that was established, is documented in
 work/docs/README.md ("Data sources"). The addresses below are for the CN
-v4.0.3 arm9 (uncompressed, loaded at 0x02000000).
+v4.0.3 arm9 (uncompressed, loaded at 0x02000000). The English build patches
+code in place and only appends to the arm9, so the tables keep these
+addresses; `check_layout` refuses a ROM where they no longer decode.
 """
+import hashlib
 import json
 import os
 import pickle
+import re
+import shutil
 import struct
+import subprocess
+import sys
 
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
 ROM_PATH = os.path.join(REPO, 'work', 'rom', 'origin_v4.0.3_cn.nds')
-CACHE = os.path.join(REPO, 'work', 'build', 'docs_cache.pkl')
+CACHE_DIR = os.path.join(REPO, 'work', 'build', 'docs_cache')
 US_ROM_PATH = os.path.join(REPO, 'work', 'rom', 'Pokemon - HeartGold Version (USA).nds')
 US_ITEMS = os.path.join(REPO, 'work', 'extract', 'us', 'a027', '0222.json')
 BANKS = os.path.join(REPO, 'work', 'translate', 'banks', 'a027')
+TOOLS = os.path.join(REPO, 'work', 'tools')
+CHARMAPS = [os.path.join(TOOLS, 'charmap_en.tsv'), os.path.join(TOOLS, 'charmaps', 'charmap_zh_xzonn_gen4.tsv')]
 HERE = os.path.dirname(os.path.abspath(__file__))
 ARM9_BASE = 0x02000000
 
@@ -48,6 +63,7 @@ TRAINER_CLASS_GENDER = 0x020FF77C   # u8 per trainer class: 1 = female (read at 
 ZUKAN_HEIGHT, ZUKAN_WEIGHT = 0, 1   # members of a/0/7/4: u32 per species index, decimetres / hectograms
 ITEM_TM93, ITEM_TM130 = 537, 574
 
+TEXT_NARC = 'a/0/2/7'
 NARCS = {
     'personal': 'a/0/0/2', 'learnset': 'a/0/3/3', 'evo': 'a/0/3/4',
     'encounter': 'a/0/3/7', 'headbutt': 'a/2/5/2', 'trdata': 'a/0/5/5',
@@ -274,11 +290,36 @@ def split_species(v):
     return v & 0x7FF, v >> 11
 
 
-def parse_trpoke(b, count):
+# The party builder gives record byte 20 + i to the stat its `movs r1, #field` names (arm9 0x02072884 + 12 * i,
+# MON_DATA fields 13-18 = HP, Atk, Def, Spe, SpA, SpD). The guide shows HP/Atk/Def/SpA/SpD/Spe.
+LOADER_EV_MOVS = 0x02072884
+MON_DATA_EV_STATS = ['HP', 'Atk', 'Def', 'Spe', 'SpA', 'SpD']     # fields 13..18
+DISPLAY_EV_STATS = ['HP', 'Atk', 'Def', 'SpA', 'SpD', 'Spe']
+CN_EV_ORDER = (0, 1, 2, 4, 5, 3)    # the Chinese ROM and rc8: bytes in field order 13..18
+
+
+def trainer_ev_order(arm9):
+    """For each display stat (HP/Atk/Def/SpA/SpD/Spe), the record EV byte (0-5) the party builder gives it, read from
+    the builder's code: (0, 1, 2, 4, 5, 3) on the Chinese ROM and rc8, (0, 1, 2, 3, 4, 5) with the fix
+    trainer-ev-order (D-2552), which makes the game read the bytes in the order the data is written in."""
+    stats = []
+    for i in range(6):
+        o = LOADER_EV_MOVS - ARM9_BASE + 12 * i
+        field, op = arm9[o], arm9[o + 1]
+        if op != 0x21 or not 13 <= field <= 18 or arm9[o + 2:o + 4] != bytes([0x14 + i, 0x32]):
+            raise ValueError('party builder at %08X: not `movs r1, #field; adds r2, #%d`' % (LOADER_EV_MOVS + 12 * i, 20 + i))
+        stats.append(MON_DATA_EV_STATS[field - 13])
+    if sorted(stats) != sorted(DISPLAY_EV_STATS):
+        raise ValueError('party builder EV fields are not a permutation: %s' % stats)
+    return tuple(stats.index(s) for s in DISPLAY_EV_STATS)
+
+
+def parse_trpoke(b, count, ev_order=CN_EV_ORDER):
     """CN v4.0.3 party-loader semantics, not the vanilla packed-form layout.
 
-    arm9 0x02072822 applies byte 2 as the form; 0x02072880 assigns EVs in
-    HP/Atk/Def/Spe/SpA/SpD order. Return EVs in the guide's display order.
+    arm9 0x02072822 applies byte 2 as the form; the EV bytes go to the stats
+    `ev_order` names (from `trainer_ev_order`; the default is the Chinese ROM's
+    HP/Atk/Def/Spe/SpA/SpD). Return EVs in the guide's display order.
     At 0x020728E0 the loader overwrites HP IV with a level-based value. Its
     six-iteration loop never increments the field id, so the other five IVs
     retain the initial scaled value. Preserve this original-hack behaviour.
@@ -292,7 +333,7 @@ def parse_trpoke(b, count):
         ability, level, species, item = struct.unpack_from('<4H', b, o + 4)
         moves = [m for m in u16s(b, o + 12, 4) if m]
         raw_evs = list(b[o + 20:o + 26])
-        evs = [raw_evs[j] for j in (0, 1, 2, 4, 5, 3)]
+        evs = [raw_evs[j] for j in ev_order]
         hp_ivs = 10 if level <= 40 else 20 if level < 80 else 31
         mons.append(dict(iv=iv, ivs=iv * 31 // 255, hp_ivs=hp_ivs, abil_slot=abil_slot,
                          nature=None if nature == 0xFF else nature,
@@ -497,6 +538,7 @@ def val(v, known):
 
 # ---------------------------------------------------------------- names
 def load_bank(num):
+    """{id: English text, else the Chinese} of a workspace bank (work/translate/banks/a027)."""
     d = read_json(os.path.join(BANKS, '%04d.json' % num))
     return {x['id']: (x.get('en') or x.get('zh') or '') for x in d['strings']}
 
@@ -506,17 +548,180 @@ def load_bank_full(num):
     return {x['id']: x for x in d['strings']}
 
 
+_CHARMAP = None
+
+
+def _msgtool():
+    if TOOLS not in sys.path:
+        sys.path.insert(0, TOOLS)
+    import msgtool
+    return msgtool
+
+
+def decode_rom_bank(data):
+    """[text] of one a/0/2/7 member, in the workspace's notation ({NEWLINE}, {VAR:...}); a name stored 9-bit packed
+    loses its {COMPRESSED} marker."""
+    global _CHARMAP
+    m = _msgtool()
+    if _CHARMAP is None:
+        _CHARMAP = m.Charmap.load(CHARMAPS)
+    _seed, strings, _trailer = m.decrypt_bank(data)
+    return [m.decode_units(u, _CHARMAP).replace('{COMPRESSED}', '', 1) for u in strings]
+
+
+# ---------------------------------------------------------------- choosing the ROM
+# Which ROM the docs and the website describe. A spec is one of
+#   release:latest   the highest version in work/release/<tag>/ that has a latest.json (a final beats its rcs);
+#                    this is the default, so the site describes what players get from the newest patch
+#   release:<tag>    that release's ROM: its xdelta applied to the USA ROM, checked against latest.json's
+#                    patched_sha1 and kept in work/build/release-roms/<tag>.nds
+#   build            the standard builder's output (work/build/origin_hg_v4.0.3_en_wip.nds): unreleased, for previews
+#   cn               the untouched Chinese hack (work/rom/origin_v4.0.3_cn.nds)
+#   <path>.nds       any other ROM file
+# The environment variable OHG_DOCS_ROM gives the spec when no --rom is passed.
+ROM_ENV = 'OHG_DOCS_ROM'
+DEFAULT_ROM_SPEC = 'release:latest'
+RELEASES = os.path.join(REPO, 'work', 'release')
+RELEASE_ROMS = os.path.join(REPO, 'work', 'build', 'release-roms')
+BUILD_ROM = os.path.join(REPO, 'work', 'build', 'origin_hg_v4.0.3_en_wip.nds')
+VERSION_TAG = re.compile(r'^v(\d+)\.(\d+)\.(\d+)(?:-rc(\d+))?$')
+SHA1 = re.compile(r'^[0-9a-f]{40}$')
+
+
+def tag_key(tag):
+    """Sort key of a release tag (vX.Y.Z or vX.Y.Z-rcN; a final beats its rcs), as the site workflow sorts them."""
+    m = VERSION_TAG.match(tag)
+    if not m:
+        raise ValueError('not a release tag: %r' % tag)
+    a, b, c, rc = m.groups()
+    return (int(a), int(b), int(c), int(rc) if rc is not None else float('inf'))
+
+
+def release_tags(releases=RELEASES):
+    """Release folders work/release/<tag>/ that carry a latest.json, oldest first. Tester and prep folders
+    (v1.0.0-rc7-public-prep, wip) are not release tags and never count."""
+    if not os.path.isdir(releases):
+        return []
+    tags = [t for t in os.listdir(releases)
+            if VERSION_TAG.match(t) and os.path.isfile(os.path.join(releases, t, 'latest.json'))]
+    return sorted(tags, key=tag_key)
+
+
+def release_manifest(tag, releases=RELEASES):
+    """The release's latest.json, checked: {tag, file, size, sha1, patched_sha1}."""
+    path = os.path.join(releases, tag, 'latest.json')
+    m = read_json(path)
+    if m.get('tag') != tag:
+        raise ValueError('%s names release %r' % (path, m.get('tag')))
+    if not SHA1.match(str(m.get('patched_sha1', ''))) or not re.match(r'^[A-Za-z0-9._-]+\.xdelta$', str(m.get('file', ''))):
+        raise ValueError('%s has no usable file/patched_sha1' % path)
+    return m
+
+
+def resolve_rom_spec(spec=None, env=None, releases=RELEASES):
+    """Turn a ROM spec (see above) into {kind, label, path[, tag, sha1]} without reading any ROM.
+    `sha1` is the expected SHA-1 where one is known (a release's patched_sha1)."""
+    env = os.environ if env is None else env
+    spec = (spec or env.get(ROM_ENV) or DEFAULT_ROM_SPEC).strip()
+    if spec == 'cn':
+        return dict(kind='cn', label='Chinese hack v4.0.3 (untouched)', path=ROM_PATH)
+    if spec == 'build':
+        return dict(kind='build', label='standard build (unreleased)', path=BUILD_ROM)
+    if spec.startswith('release:'):
+        tag = spec[len('release:'):]
+        if tag == 'latest':
+            tags = release_tags(releases)
+            if not tags:
+                raise ValueError('no work/release/<tag>/ with a latest.json: pass --rom (see romdata.select_rom)')
+            tag = tags[-1]
+        tag_key(tag)
+        m = release_manifest(tag, releases)
+        return dict(kind='release', label=tag, tag=tag, sha1=m['patched_sha1'],
+                    path=os.path.join(RELEASE_ROMS, tag + '.nds'),
+                    patch=os.path.join(releases, tag, m['file']), patch_sha1=m.get('sha1'))
+    if spec.endswith('.nds') or os.sep in spec:
+        path = os.path.abspath(spec)
+        return dict(kind='file', label=os.path.basename(path), path=path)
+    raise ValueError('unknown ROM spec %r (release:latest, release:<tag>, build, cn or a .nds path)' % spec)
+
+
+def sha1_file(path):
+    h = hashlib.sha1()
+    with open(path, 'rb') as fh:
+        for block in iter(lambda: fh.read(1 << 20), b''):
+            h.update(block)
+    return h.hexdigest()
+
+
+def materialize_rom(sel, us_rom=US_ROM_PATH, xdelta='xdelta3'):
+    """Make sure the selected ROM file exists and return its path. A release ROM is rebuilt from the release's
+    xdelta and the clean USA ROM when missing or stale, and must hash to latest.json's patched_sha1."""
+    path = sel['path']
+    if sel['kind'] == 'release':
+        if os.path.isfile(path) and sha1_file(path) == sel['sha1']:
+            return path
+        for need in (us_rom, sel['patch']):
+            if not os.path.isfile(need):
+                raise FileNotFoundError('rebuilding %s needs %s' % (sel['label'], need))
+        if not shutil.which(xdelta):
+            raise FileNotFoundError('rebuilding %s needs xdelta3 on PATH' % sel['label'])
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        tmp = path + '.tmp'
+        subprocess.run([xdelta, '-d', '-f', '-s', us_rom, sel['patch'], tmp], check=True)
+        got = sha1_file(tmp)
+        if got != sel['sha1']:
+            raise ValueError('%s: the patched ROM hashes to %s, latest.json says %s' % (sel['label'], got, sel['sha1']))
+        os.replace(tmp, path)
+        return path
+    if not os.path.isfile(path):
+        raise FileNotFoundError('%s: %s not found' % (sel['label'], path))
+    return path
+
+
+def rom_identity(sel, sha1):
+    """What the exported data records about its ROM (meta.json "rom", the docs' header)."""
+    out = dict(label=sel['label'], kind=sel['kind'], sha1=sha1)
+    if sel.get('tag'):
+        out['tag'] = sel['tag']
+    return out
+
+
+def identity_mismatch(recorded, wanted):
+    """None when data recorded from `recorded` (meta.json "rom", may be None) documents the ROM `wanted`
+    (rom_identity), else the reason it does not."""
+    if not recorded or not recorded.get('sha1'):
+        return 'the data records no ROM (exported before ROM identities); wanted %s (%s)' % (wanted['label'], wanted['sha1'])
+    if recorded['sha1'] != wanted['sha1']:
+        return 'the data documents %s (SHA-1 %s), wanted %s (SHA-1 %s)' % (
+            recorded.get('label', '?'), recorded['sha1'], wanted['label'], wanted['sha1'])
+    return None
+
+
+def select_rom(spec=None, refresh=False):
+    """Open the ROM a spec names (see "choosing the ROM"); the Rom carries .identity."""
+    sel = resolve_rom_spec(spec)
+    path = materialize_rom(sel)
+    rom = Rom(path, refresh=refresh)
+    if sel.get('sha1') and rom.sha1 != sel['sha1']:
+        raise ValueError('%s: %s hashes to %s, expected %s' % (sel['label'], path, rom.sha1, sel['sha1']))
+    rom.identity = rom_identity(sel, rom.sha1)
+    return rom
+
+
 # ---------------------------------------------------------------- ROM
 class Rom:
-    """Everything the generator reads from the ROM, cached as plain bytes."""
+    """Everything the generator reads from the ROM, cached as plain bytes (keyed by the ROM's SHA-1)."""
 
-    def __init__(self, path=ROM_PATH, cache=CACHE, refresh=False):
+    def __init__(self, path=ROM_PATH, cache=None, refresh=False):
         self.path = path
+        self.sha1 = sha1_file(path)
+        cache = cache or os.path.join(CACHE_DIR, self.sha1 + '.pkl')
+        self.identity = rom_identity(dict(kind='file', label=os.path.basename(path)), self.sha1)
         d = None
-        if not refresh and os.path.exists(cache) and os.path.getmtime(cache) >= os.path.getmtime(path):
+        if not refresh and os.path.exists(cache):
             with open(cache, 'rb') as fh:
                 d = pickle.load(fh)
-            if any(k not in d for k in NARCS):      # cache from before a member was added: rebuild
+            if any(k not in d for k in list(NARCS) + ['msg']):   # cache from before a member was added: rebuild
                 d = None
         if d is None:
             import ndspy.rom
@@ -529,14 +734,49 @@ class Rom:
                 d[k] = [bytes(x) for x in ndspy.narc.NARC(rom.getFileByName(n)).files]
             for k, n in RAW_FILES.items():
                 d[k] = bytes(rom.getFileByName(n))
+            d['msg'] = [bytes(x) for x in ndspy.narc.NARC(rom.getFileByName(TEXT_NARC)).files]
             os.makedirs(os.path.dirname(cache), exist_ok=True)
-            with open(cache, 'wb') as fh:
+            with open(cache + '.tmp', 'wb') as fh:
                 pickle.dump(d, fh)
+            os.replace(cache + '.tmp', cache)
         self.d = d
         self.arm9 = d['arm9']
+        self._texts = {}
+        self.lang = 'en' if re.fullmatch(r'[ -~]+', self.rom_text(232).get(1, '')) else 'zh'   # species #1's name
 
     def __getitem__(self, k):
         return self.d[k]
+
+    def rom_text(self, num):
+        """{id: text} of message bank `num` as stored in this ROM."""
+        if num not in self._texts:
+            self._texts[num] = dict(enumerate(decode_rom_bank(self.d['msg'][num])))
+        return self._texts[num]
+
+    def bank(self, num):
+        """{id: text} the player sees: an English ROM's own text; for the Chinese ROM the workspace's English
+        (else the Chinese), as before. Ids the ROM does not have fall back to the workspace."""
+        if self.lang != 'en':
+            return load_bank(num)
+        out = load_bank(num)
+        out.update(self.rom_text(num))
+        return out
+
+    def bank_full(self, num):
+        """Workspace rows (zh, status, notes) with `en` replaced by an English ROM's text. A string the ROM still
+        holds in Chinese (its text equals the row's zh) keeps the workspace's `en`, so no Chinese leaks as English."""
+        rows = load_bank_full(num)
+        if self.lang != 'en':
+            return rows
+        out = {}
+        for i, text in self.rom_text(num).items():
+            row = dict(rows.get(i) or dict(id=i))
+            if not (text and text == row.get('zh')):
+                row['en'] = text
+            out[i] = row
+        for i, row in rows.items():
+            out.setdefault(i, row)
+        return out
 
     def a9(self, addr, n):
         o = addr - ARM9_BASE
@@ -599,6 +839,63 @@ class Rom:
     def std_mapping(self):
         o = STD_MAPPING - ARM9_BASE
         return [struct.unpack_from('<HHH', self.arm9, o + 6 * i) for i in range(30)]
+
+
+PATCHES = os.path.join(REPO, 'work', 'patches')
+
+
+def _expect_bytes(expect):
+    """A [[code]] entry's expect (original bytes: one halfword '0xNNNN' or a run 'NNNN NNNN ...', little-endian)."""
+    toks = expect.split()
+    if len(toks) == 1 and toks[0].lower().startswith('0x'):
+        toks = [toks[0][2:]]
+    return b''.join(struct.pack('<H', int(t, 16)) for t in toks)
+
+
+def fix_in_rom(rom, fix_id, patches=PATCHES):
+    """True when the ROM carries the arm9 code of fix `fix_id` (work/patches/<id>/fix.toml): every arm9 [[code]]
+    region no longer holds its `expect` (the Chinese ROM's bytes); False when every region still does. For the few
+    reviewed notes that describe a hack bug a code fix removes (extra_sources.json "fixedBy"); data and script fixes
+    show up in the exported data by themselves."""
+    import tomllib
+    with open(os.path.join(patches, fix_id, 'fix.toml'), 'rb') as fh:
+        fx = tomllib.load(fh)
+    states = []
+    for e in fx.get('code', []):
+        if e.get('file') != 'arm9' or 'expect' not in e:
+            continue
+        orig = _expect_bytes(e['expect'])
+        o = int(e['offset'], 16)
+        states.append(rom.arm9[o:o + len(orig)] != orig)
+    if not states:
+        raise ValueError('fix %s has no arm9 [[code]] region with expect: fix_in_rom cannot tell' % fix_id)
+    if len(set(states)) != 1:
+        raise ValueError('fix %s is only partly in the ROM' % fix_id)
+    return states[0]
+
+
+def check_layout(rom):
+    """Refuse a ROM whose arm9 tables no longer sit at the CN v4.0.3 addresses above (a build that moved one):
+    every table must decode to plausible values. Returns the problems (empty when the ROM is usable)."""
+    problems = []
+    n_moves, n_items, n_personal = len(rom['moves']), len(rom['item']), len(rom['personal'])
+    bad = [i for i, m in parse_tm_table(rom.arm9).items() if not 0 < m < n_moves]
+    if bad:
+        problems.append('TM table: items %s hold no valid move' % bad[:5])
+    bad = [(sp, tgt) for sp, _f, tgt in parse_form_table(rom.arm9) if not (0 < sp < n_personal and 0 < tgt < n_personal)]
+    if bad:
+        problems.append('form table: %d rows out of range' % len(bad))
+    if not {2000, 7000} <= {lo for lo, _f, _m in rom.std_mapping()}:
+        problems.append('std script mapping: no 2000/7000 ranges')
+    if any(not 0 < h['item'] < n_items for h in rom.hidden_items() if h['item']):
+        problems.append('hidden item table: item ids out of range')
+    if any(len(lst) > 100 or any(not 0 < i < n_items for i in lst) for lst in rom.special_marts()):
+        problems.append('special mart lists: not item lists')
+    try:
+        trainer_ev_order(rom.arm9)
+    except ValueError as e:
+        problems.append(str(e))
+    return problems
 
 
 # ---------------------------------------------------------------- script index
