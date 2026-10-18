@@ -59,7 +59,7 @@ try{
   ok(!text.includes('No confirmed way to get it'),slug+' not unavailable');
  }
  for(const slug of ['qualot-berry','tamato-berry'])ok((await clean(`items/${slug}/`)).includes('Scratch-Off'),slug+' prize route');
- const ursaring=await clean('pokemon/ursaring/');ok(ursaring.includes('holding Moon Stone')&&ursaring.includes('at night'),'Ursaring actual evolution');ok(!ursaring.includes('Use a Moon Stone at Night'),'no contradictory stone use');
+ const ursaring=(await clean('pokemon/ursaring/')).replace(/\s+/g,' ');ok(ursaring.includes('holding Moon Stone')&&ursaring.includes('at night'),'Ursaring actual evolution');ok(!ursaring.includes('Use a Moon Stone at Night'),'no contradictory stone use');
  const sharp=await clean('abilities/sharpness/');ok(sharp.includes('23 moves')&&sharp.includes('these 9 moves')&&sharp.includes('may also affect'),'Sharpness separates possible moves');
  ok(sharp.includes('Added in this hack'),'Sharpness additions retained');
  for(const m of moves.filter(m=>m.flags.includes('slicing')))ok(await page.locator(`main a[href$="/moves/${m.slug}/"]`).count()>0,'Sharpness retains '+m.name);

@@ -14,10 +14,10 @@ try {
 	page.on('pageerror', error => errors.push(error.message));
 	await page.goto(new URL('pokemon/bulbasaur/', base).href);
 	const table = page.locator('#wild-encounters-table');
-	assert.match(await page.locator('.pokemon-acquisitions').innerText(), /Pikachu starter:.*Cascade Badge/);
+	assert.match(await page.locator('.pokemon-acquisitions').innerText(), /Pikachu starter only\.[\s\S]*Cascade Badge/);
 	assert.equal(await page.locator('.pokemon-acquisitions li').count(), 2);
 	assert.match(await table.innerText(), /Fuchsia City/);
-	assert.match(await table.innerText(), /Grass\/cave, day\s+5\s+1%/);
+	assert.match(await table.innerText(), /Grass\/cave\s*,\s*day\s+5\s+1%/);
 	await table.scrollIntoViewIfNeeded();
 	await page.screenshot({ path: `${output}/bulbasaur-desktop.png` });
 	await page.goto(new URL('pokemon/goldeen/', base).href);

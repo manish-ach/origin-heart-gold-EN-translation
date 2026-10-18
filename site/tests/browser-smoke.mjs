@@ -33,7 +33,8 @@ try {
  const before=await page.evaluate(()=>history.length);await page.locator('input[type=search]').pressSequentially('not-a-pokemon');check(await page.evaluate(()=>history.length),before+1);check(await shown('mon-table'),0);check(await page.locator('.filter-empty').isVisible(),true);
  await page.goBack();check(await shown('mon-table'),1440);await page.goForward();check(await shown('mon-table'),0);await page.locator('.filter-reset').click();check(await shown('mon-table'),1440);
  await goto('moves/?type=Water&category=Special&method=tm&changed=yes');check(await shown('move-table')>0,true);
- check(await page.locator('#move-table tr#move-503').isVisible(),true,'Scald retained among combined filters');
+ check(await page.locator('#move-table tbody > tr:not([hidden])').evaluateAll(rows=>rows.every(r=>r.dataset.type==='Water'&&r.dataset.category==='Special'&&r.dataset.method.split('|').includes('tm')&&r.dataset.changed==='yes')),true,'combined filters keep only matching moves');
+ check(await page.locator('#move-table tr#move-503').isVisible(),false,'Scald (new in this hack, no change notes) left out by changed=yes');
  await page.locator('.filter-reset').click();check(await shown('move-table'),920);await page.locator('#move-table th').nth(6).locator('button').click();
  const priorities=await page.locator('#move-table tbody > tr td:nth-child(7)').allTextContents();check(priorities.map(Number),priorities.map(Number).toSorted((a,b)=>a-b),'signed numeric priority sorting');
  await goto('abilities/?changed=yes&holder=hidden');check(await shown('ability-table')>0,true);check(await page.locator('#ability-table tbody tr:not([hidden])').filter({hasText:'Sharpness'}).count(),1);
@@ -42,7 +43,7 @@ try {
  const layouts=[];
  for(const path of paths){ console.log('Checking',path);
   await goto(path);check(await page.locator('h1').count(),1,path);check(await page.locator('.sl-markdown-content').innerText().then(t=>!t.includes('{SCROLL}')&&!t.includes('{CLEAR}')),true,`no control tags ${path}`);
-  if(path===`items/${items.find(i=>i.name==='Qualot Berry').slug}/`||path===`items/${items.find(i=>i.name==='Tamato Berry').slug}/`) {check(await page.locator('.sl-markdown-content').innerText().then(t=>t.includes('Scratch-Off')&&t.includes('Saffron')),true,path);}
+  if(path===`items/${items.find(i=>i.name==='Qualot Berry').slug}/`||path===`items/${items.find(i=>i.name==='Tamato Berry').slug}/`) {check(await page.locator('.sl-markdown-content').innerText().then(t=>t.includes('Scratch-Off')&&t.includes('Battle Frontier')&&!t.includes('Saffron')),true,path);}
   if(path.startsWith('pokemon/')){const s=species.find(s=>path===`pokemon/${s.slug}/`);const img=page.locator('.pokemon-image-large img');if(await img.count()){await img.scrollIntoViewIfNeeded();await img.evaluate(img=>img.decode()).catch(()=>{});check(await img.evaluate(img=>img.naturalWidth>0),true,'hero image renders');check(await img.getAttribute('width'),'256');check(await img.getAttribute('src').then(src=>src.endsWith(`/${s.baseSpeciesId}.png`)),true);}}
   for(const theme of ['light','dark']){
    await page.evaluate(theme=>document.documentElement.dataset.theme=theme,theme);await page.setViewportSize({width:390,height:844});

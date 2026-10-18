@@ -22,7 +22,7 @@ try{
  await go('reference-sources/');
  for(const slug of ['volt-tackle','blast-burn','lunar-dance','bounce']){const m=moves.find(m=>m.slug===slug),row=page.locator(`#move-source-${m.id}`);await row.locator('summary').click();const text=await row.innerText();ok(text.includes(m.testedNotes[0].text)&&text.includes(m.testedNotes[0].limitation),slug+' full test retained');await row.locator('summary').click();}
  for(const slug of ['frenzy-plant','hydro-cannon','rock-wrecker']){const m=moves.find(m=>m.slug===slug),row=page.locator(`#move-source-${m.id}`);await row.locator('summary').click();ok((await row.innerText()).includes('battle behavior needs an in-game test'),slug+' unresolved source retained');await row.locator('summary').click();}
- const ursaring=await go('pokemon/ursaring/');ok(ursaring.includes('holding Moon Stone')&&ursaring.includes('at night')&&!ursaring.includes('Use a Moon Stone at Night'),'Ursaring correct operation');
+ const ursaring=(await go('pokemon/ursaring/')).replace(/\s+/g,' ');ok(ursaring.includes('holding Moon Stone')&&ursaring.includes('at night')&&!ursaring.includes('Use a Moon Stone at Night'),'Ursaring correct operation');
  const note=species.find(s=>s.id===217).referenceNotes.find(n=>n.comparison?.evolution);ok(note.comparison.evolution.equal===false,'source operation conflict preserved');
  const about=await go('about/');ok(about.includes('7,673 included and 401 unresolved'),'counts retained');ok(errors.length===0,JSON.stringify(errors));
  mkdirSync('work/build/website-qa/astra-fixes',{recursive:true});writeFileSync('work/build/website-qa/astra-fixes/browser-results.json',JSON.stringify({assertions,layouts,errors},null,2));console.log(JSON.stringify({assertions,layoutChecks:layouts.length,errors}));
