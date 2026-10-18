@@ -31,6 +31,8 @@ jobs:
           if ! grep -q '[^[:space:]]' "$RUNNER_TEMP/notes.md"; then
             echo "::error::CHANGELOG.md has no section '## [$version]'"; exit 1
           fi
+          # Every release points players to the official website.
+          printf '\n---\nOfficial website: https://originheartgold.github.io/ · Patch in your browser: https://originheartgold.github.io/patch/\n' >> "$RUNNER_TEMP/notes.md"
           # The startup warning embeds the version in the ROM: it must match an RC tag.
           if [[ "$version" =~ -rc([0-9]+)$ ]]; then
             want="Current version: 4.0.3-RC${BASH_REMATCH[1]}"

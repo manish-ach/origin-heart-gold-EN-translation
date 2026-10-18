@@ -2,7 +2,7 @@
 
 The player website: the quest guide, Pokédex, locations, items, moves, trainers and move tutors,
 plus a PDF of the quest guide. Built with [Astro Starlight](https://starlight.astro.build) and
-published to GitHub Pages by `.github/workflows/site.yml`.
+published at https://originheartgold.github.io/ by `.github/workflows/site.yml` (see [Publishing](#publishing)).
 
 ## Where the content comes from
 
@@ -231,7 +231,7 @@ serves the base ROM.
   `gh release create <tag> --prerelease work/release/<tag>/{*.xdelta,README.txt,latest.json}`
   (or `gh release upload <tag> work/release/<tag>/latest.json`, then rerun the Website workflow).
 - **Redeploys:** publishing a GitHub release starts the workflow, which re-runs itself on the default branch
-  (the `github-pages` environment only accepts the default branch), so `/patch/` serves the new patch.
+  (only the default branch deploys), so `/patch/` serves the new patch.
 
 Local testing (no network):
 
@@ -249,10 +249,24 @@ and compares it with the release README's SHA-1 (and with native `xdelta3 -d` wh
 ## Publishing
 
 The workflow builds on every push to `main` that touches `site/`, `guide/` or `work/tools/site/`, and on every published release,
-checks that the guide pages are in sync and that no link is broken, and deploys to GitHub Pages.
-One-time setup in the GitHub repository: **Settings → Pages → Source: GitHub Actions**.
-The repository URL, site URL and base path are taken from the repository automatically
-(`site.config.mjs` holds the local fallbacks).
+checks that the guide pages are in sync and that no link is broken, and deploys:
+
+- **The site, at the host root** https://originheartgold.github.io/ (`GUIDE_BASE=/`). The `deploy-root` job
+  force-pushes the build, as one orphan commit by `github-actions[bot]`, to the `main` branch of the user-site repo
+  `originheartgold/originheartgold.github.io`, which serves it with GitHub Pages (Deploy from a branch: main, / (root)).
+  It authenticates with a write deploy key on that repo whose private half is the Actions secret `PAGES_DEPLOY_KEY`
+  in this repo. The build adds a root `robots.txt` (allow all, `Disallow: /preview/`, `Sitemap:` line) and
+  `.nojekyll` (Jekyll would drop `_astro/`). The tester preview is under `/preview/`.
+- **Redirects at the old address** https://originheartgold.github.io/origin-heart-gold-EN-translation/, still this
+  repo's GitHub Pages (**Settings → Pages → Source: GitHub Actions**). `work/tools/site/redirect_site.py` turns the
+  build into a stub per page (canonical to the new URL, `noindex`, meta refresh and a `location.replace` that keeps
+  the query and `#anchor`), a `404.html` that sends any other old path to the same path at the root, and copies of
+  every non-HTML file (patch, PDF, patch tool, save editor files) so old download links keep working. The `deploy`
+  job publishes it only after `deploy-root` has pushed and the root answers, so the old address never points at an
+  empty site.
+
+The repository URL comes from the repository; the site URL is set in the workflow (`site.config.mjs` holds the local
+fallbacks). The move and its checklist: `work/notes/root_site_move.md`.
 
 Bug reports, screenshots and edit suggestions arrive as GitHub issues through the forms in
 `.github/ISSUE_TEMPLATE/`; every page links to them with the page filled in.

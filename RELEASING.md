@@ -11,7 +11,7 @@ half local, half CI. ROMs, saves and build inputs are never uploaded: only the x
 
 1. Set the notice version: `Current version: 4.0.3-RC<N>` in `work/translate/banks/a027/0816.json`, string 4
    (see [CONTRIBUTING.md](CONTRIBUTING.md#release-notice-version)). It is embedded in the ROM; the release tag does not change it.
-2. Add a `## [<version>] - <date>` section to `CHANGELOG.md` (e.g. `## [1.0.0-rc8] - 2026-10-20`). It becomes the release notes.
+2. Add a `## [<version>] - <date>` section to `CHANGELOG.md` (e.g. `## [1.0.0-rc8] - 2026-10-20`). It becomes the release notes; `release.yml` adds a closing line with the website and patch page links.
 3. Build the release patch and run its gates. The patch is one xdelta with three layers, each installed on the one
    before: the standard build, the difficulty settings, and the advanced trainer AI, which stays OFF until the player
    turns it on (D-2506). Run from the repository root, in this order:
@@ -68,6 +68,9 @@ half local, half CI. ROMs, saves and build inputs are never uploaded: only the x
      Options page 2/2; that it has not been tested on real hardware, with a request to report how it runs on a DS,
      DSi or 3DS;
    - under CREDITS: `Advanced trainer AI: from the Spanish translation by luisvent.`
+   - near the top: `Official website: https://originheartgold.github.io/` and
+     `Patch in your browser: https://originheartgold.github.io/patch/` (older README.txt files still name the old
+     address, originheartgold.github.io/origin-heart-gold-EN-translation/: replace it).
 
    `VALIDATION.txt`, as for rc8: the result line of each AI level's `summary.txt` and the hashes in `release.json`.
 5. Write `latest.json` for the website's in-browser patcher: `python3 work/tools/site/patch_manifest.py <tag>`. It
@@ -95,7 +98,7 @@ Check the run under *Actions → Release*. If it failed, fix the file, then move
 3. Check the notes, tick **Set as the latest release** (or *pre-release* if you want it kept out of "Latest"; rc7 was a normal release).
 4. **Publish release.**
 
-Publishing triggers `site.yml` (`release: published`), which downloads `latest.json` and the xdelta, verifies the SHA-1 and redeploys `/patch/`.
+Publishing triggers `site.yml` (`release: published`), which downloads `latest.json` and the xdelta, verifies the SHA-1 and redeploys https://originheartgold.github.io/patch/.
 Check that run, then open the patch page and try it.
 
 ## 4. After

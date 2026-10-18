@@ -14,6 +14,8 @@ Patches apply to **Pokémon HeartGold (USA)**, CRC32 `C180A0E9`.
   Choose CONFIRM, then save the game to keep the setting. Double battles, multi battles with a partner included, always keep the hack's own AI, and so does any turn the advanced AI cannot handle.
 - **Not tested on real hardware yet.** The advanced AI's tests run in an emulator (DeSmuME). If you play with it on a DS, DSi or 3DS, please report how it goes, whether it works or not.
 
+- **New website address:** the guide, Pokédex and in-browser patcher are now at https://originheartgold.github.io/. Old links to `originheartgold.github.io/origin-heart-gold-EN-translation/` forward to the same page.
+
 ### Added (tools)
 - `work/advanced-ai/builder/release.py`: installs the advanced AI on difficulty's verified candidate and writes the release xdelta and a receipt that chains every hash, from the standard build to the patch (RELEASING.md, step 3). Covered by `work/advanced-ai/testbench/unit/test_release.py`.
 
