@@ -1,10 +1,15 @@
-# Build the guide website from the committed content in site/ and publish it to GitHub Pages.
+# Build the guide website from the committed content in site/ and publish it at the host root,
+# https://originheartgold.github.io/, by pushing the build to the user-site repo originheartgold/originheartgold.github.io
+# (deploy key in the PAGES_DEPLOY_KEY secret; that repo serves its main branch with GitHub Pages).
+# The old project address, https://originheartgold.github.io/<this repo>/, stays on this repo's GitHub Pages as a
+# redirect site (work/tools/site/redirect_site.py): every old page forwards to the same page at the root, keeping
+# the query and #anchor, and old download links (patch, PDF, patch tool) keep working.
 # The ROM is never needed here: site/src/data and site/src/content are generated locally
 # (python3 work/tools/site/build.py --content) and committed.
 # The in-browser patcher (/patch/) serves the highest-version release's .xdelta from the site itself:
 # the build downloads it with the release's latest.json (work/tools/site/patch_manifest.py). Never committed.
 #
-# Tester preview: the same Pages site also carries a preview build of another branch under /preview/
+# Tester preview: the root site also carries a preview build of another branch under /preview/
 # (repository variable PREVIEW_REF, default `website-fix`). Every production run builds it next to main;
 # a push to the preview branch starts a production run (see preview-redeploy). The preview has a banner,
 # noindex and no analytics (GUIDE_PREVIEW=1). A broken preview never blocks the production deploy.
@@ -27,13 +32,19 @@ on:
 permissions:
   contents: read
 
+env:
+  # The public site (host root) and the repo that serves it.
+  ROOT_SITE_URL: https://originheartgold.github.io
+  ROOT_SITE_REPO: originheartgold/originheartgold.github.io
+
 concurrency:
   group: website-${{ (github.event_name == 'pull_request' || github.event_name == 'release' || github.ref_name != github.event.repository.default_branch) && github.ref || 'production' }}
   cancel-in-progress: true
 
 jobs:
-  # A release run starts on the release's tag, and the github-pages environment only lets the default
-  # branch deploy. So instead of building here, start this workflow again on the default branch.
+  # A release run starts on the release's tag, and only the default branch deploys (the github-pages
+  # environment of the redirect site enforces it too). So instead of building here, start this workflow
+  # again on the default branch.
   # (workflow_dispatch is one of the few events GITHUB_TOKEN may trigger.)
   redeploy:
     if: github.event_name == 'release'
@@ -47,7 +58,7 @@ jobs:
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
 
   # A push to the preview branch: rebuild the site from the default branch, which builds the preview
-  # under /preview/ (same reason as redeploy: only the default branch may deploy to github-pages).
+  # under /preview/ (same reason as redeploy: only the default branch deploys).
   preview-redeploy:
     if: github.event_name == 'push' && github.ref_name != github.event.repository.default_branch && github.ref_name == (vars.PREVIEW_REF || 'website-fix')
     runs-on: ubuntu-latest
@@ -100,9 +111,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GUIDE_REPO_URL: ${{ github.server_url }}/${{ github.repository }}
-      GUIDE_SITE_URL: https://${{ github.repository_owner }}.github.io
-      GUIDE_BASE: /${{ github.event.repository.name }}/
-      GUIDE_PUBLIC_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+      # Keep in step with ROOT_SITE_URL above (a job's env can't read the workflow's env).
+      GUIDE_SITE_URL: https://originheartgold.github.io
+      GUIDE_BASE: /
+      GUIDE_PUBLIC_URL: https://originheartgold.github.io/
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -194,8 +206,8 @@ jobs:
         continue-on-error: true
         env:
           PREVIEW_REF: ${{ vars.PREVIEW_REF || 'website-fix' }}
-          GUIDE_BASE: /${{ github.event.repository.name }}/preview/
-          GUIDE_PUBLIC_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/preview/
+          GUIDE_BASE: /preview/
+          GUIDE_PUBLIC_URL: ${{ env.ROOT_SITE_URL }}/preview/
           GUIDE_PREVIEW: '1'
         run: |
           set -euo pipefail
@@ -222,22 +234,93 @@ jobs:
         if: steps.preview.outcome == 'success' && steps.preview.outputs.dist != ''
         env:
           PREVIEW_DIST: ${{ steps.preview.outputs.dist }}
-          GUIDE_PREVIEW_BASE: /${{ github.event.repository.name }}/preview/
-        run: |
-          cp -R "$PREVIEW_DIST" site/dist/preview
-          # Only effective if the site is ever served from a domain root; the preview pages carry noindex anyway.
-          printf 'User-agent: *\nDisallow: %s\n' "$GUIDE_PREVIEW_BASE" > site/dist/robots.txt
+        run: cp -R "$PREVIEW_DIST" site/dist/preview
       - name: Warn when the tester preview failed
         if: steps.preview.outcome == 'failure'
         run: echo "::warning title=Tester preview not deployed::the preview build failed; production deploys without /preview/"
+      - name: Add the host-root files (robots.txt, .nojekyll)
+        # The site is served from the host root, so this robots.txt is the one crawlers read.
+        # .nojekyll: the user-site repo is served from a branch, and Jekyll would drop _astro/.
+        run: |
+          printf 'User-agent: *\nAllow: /\nDisallow: /preview/\n\nSitemap: %s/sitemap-index.xml\n' "$ROOT_SITE_URL" > site/dist/robots.txt
+          touch site/dist/.nojekyll
+          cat site/dist/robots.txt
+      - name: Build the redirect site for the old project address
+        env:
+          OLD_BASE: /${{ github.event.repository.name }}/
+        run: python3 work/tools/site/redirect_site.py --dist site/dist --out "$RUNNER_TEMP/redirect" --new-url "$ROOT_SITE_URL/" --old-base "$OLD_BASE"
+      - name: Pack the root site
+        if: github.event_name != 'pull_request'
+        run: tar -C site/dist -cf "$RUNNER_TEMP/root-site.tar" .
+      - uses: actions/upload-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          name: root-site
+          path: ${{ runner.temp }}/root-site.tar
+          retention-days: 3
+          if-no-files-found: error
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request'
         with:
-          path: site/dist
+          path: ${{ runner.temp }}/redirect
 
-  deploy:
-    if: github.event_name != 'pull_request' && github.event_name != 'release' && (github.event_name != 'push' || github.ref_name == github.event.repository.default_branch)
+  # Publish the site at the host root: one orphan commit, force-pushed to the user-site repo's main branch, so the
+  # repo never grows a history of builds. The repo's Pages serves main / (root). Forks have no deploy key: skipped.
+  deploy-root:
+    if: github.event_name != 'pull_request' && github.event_name != 'release' && github.ref_name == github.event.repository.default_branch && github.repository == 'originheartgold/origin-heart-gold-EN-translation'
     needs: [build, save-editor]
+    concurrency:
+      group: root-site-deploy
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: root-site
+          path: ${{ runner.temp }}
+      - name: Push the build to the user-site repo
+        env:
+          DEPLOY_KEY: ${{ secrets.PAGES_DEPLOY_KEY }}
+          SOURCE: ${{ github.repository }}@${{ github.sha }}
+        run: |
+          set -euo pipefail
+          [ -n "$DEPLOY_KEY" ] || { echo "::error::the PAGES_DEPLOY_KEY secret is not set"; exit 1; }
+          ssh_dir="$RUNNER_TEMP/ssh"
+          mkdir -m 700 "$ssh_dir"
+          (umask 077; printf '%s\n' "$DEPLOY_KEY" > "$ssh_dir/deploy_key")
+          # GitHub's published SSH host key (docs.github.com: GitHub's SSH key fingerprints).
+          echo 'github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl' > "$ssh_dir/known_hosts"
+          export GIT_SSH_COMMAND="ssh -i $ssh_dir/deploy_key -o IdentitiesOnly=yes -o UserKnownHostsFile=$ssh_dir/known_hosts -o StrictHostKeyChecking=yes -o HostKeyAlgorithms=ssh-ed25519"
+          site="$RUNNER_TEMP/root-site"
+          mkdir "$site"
+          tar -C "$site" -xf "$RUNNER_TEMP/root-site.tar"
+          [ -f "$site/index.html" ] && [ -f "$site/.nojekyll" ] && [ -f "$site/robots.txt" ] \
+            || { echo "::error::the root site build is incomplete"; exit 1; }
+          cd "$site"
+          git init -q -b main
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -q -m "Website build from $SOURCE"
+          git push --force "git@github.com:$ROOT_SITE_REPO.git" HEAD:main
+          echo "Pushed $(git rev-parse --short HEAD) ($SOURCE) to $ROOT_SITE_REPO main"
+      - name: Wait until the root site answers
+        # The redirect site must never point at an empty host root (first run, before Pages is switched on for
+        # the user-site repo): fail here, and the old address keeps its previous deployment.
+        run: |
+          for i in $(seq 1 30); do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "$ROOT_SITE_URL/") || code=000
+            [ "$code" = 200 ] && { echo "$ROOT_SITE_URL/ answers 200"; exit 0; }
+            echo "attempt $i: $ROOT_SITE_URL/ answers $code"; sleep 20
+          done
+          echo "::error title=Root site not served::$ROOT_SITE_URL/ does not answer; is GitHub Pages on for $ROOT_SITE_REPO (main, / root)? The old address was not switched to redirects."
+          exit 1
+
+  # The old project address: the redirect site, on this repo's GitHub Pages. Only after the root site is live.
+  deploy:
+    if: github.event_name != 'pull_request' && github.event_name != 'release' && github.ref_name == github.event.repository.default_branch && github.repository == 'originheartgold/origin-heart-gold-EN-translation'
+    needs: [build, save-editor, deploy-root]
     concurrency:
       group: pages-deploy
       cancel-in-progress: false
