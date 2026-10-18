@@ -22,9 +22,9 @@ const showArt = section && path.length === 1 && path[0] !== 'trainers';
   .guide-page-heading { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 7rem; }
   .guide-page-heading > div:first-child { min-width: 0; }
   .page-breadcrumb ol { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0; padding: 0; list-style: none; font-size: .75rem; color: var(--sl-color-gray-3); }
-  .page-breadcrumb li { margin: 0; display: flex; gap: .5rem; min-width: 0; }
+  .page-breadcrumb li { margin: 0; display: flex; align-items: center; gap: .5rem; min-width: 0; }
   .page-breadcrumb li:last-child span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 40ch; }
-  .page-breadcrumb a { text-decoration: none; color: inherit; }
+  .page-breadcrumb a { display: inline-flex; align-items: center; min-height: 24px; text-decoration: none; color: inherit; }
   .page-breadcrumb a:hover { color: var(--sl-color-text-accent); text-decoration: underline; }
   .page-heading-art { flex: 0 0 108px; border-radius: 50%; background: radial-gradient(circle, var(--sl-color-accent-low), transparent 72%); }
   .page-heading-art :global(.pokemon-image-small) { width: 108px; height: 108px; }

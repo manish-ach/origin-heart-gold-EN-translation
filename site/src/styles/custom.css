@@ -413,3 +413,7 @@ table.sortable th .sort-button { display: inline-flex; align-items: center; min-
 
 /* Cards: the hover look also shows on keyboard focus. */
 .sl-markdown-content .sl-link-card:focus-within { border-color: var(--sl-color-accent); }
+
+/* 24 px targets (WCAG 2.5.8) for links that sit close together: Pokémon names in team and encounter tables, and the
+   page-help and footer link rows. */
+.pokemon-cell > a, .page-help a { display: inline-flex; align-items: center; min-height: 24px; }
