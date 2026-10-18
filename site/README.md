@@ -153,7 +153,10 @@ shared as patch files, `"github": false`, with a note instead of a release link)
   canonical rules (404: none and `noindex`; preview: points at production) and one JSON-LD block (Organization,
   WebSite, WebPage with BreadcrumbList; VideoGame on home, patch and changelog; FAQPage on the FAQ).
 - `src/lib/page-seo.ts`: unique titles and data-based descriptions for Pokémon, item, move, ability, location and
-  trainer pages. Trainer records that show another record's profile page get a canonical to it.
+  trainer pages. Trainer records that show another record's profile page get a canonical to it. Links inside the site
+  never point at those duplicates: use `trainerTeamUrl(id)` (`src/lib/trainer-profiles.ts`; the main record's page at
+  `#trainer-<id>`) or `trainerProfileUrl(id)`. In the browser, Battle check uses `mainIds` from `battle-data.json`.
+  `tests/trainer-encounters.test.mjs` checks every trainer link in the built site.
 - `sitemap-config.mjs`: leaves out noindex and duplicate pages and adds `<lastmod>` from git (full history needed;
   skipped in a shallow clone).
 - `src/pages/llms.txt.ts` and `llms-full.txt.ts`: the llmstxt.org summary and the start-here, FAQ and chapter-overview
@@ -296,6 +299,20 @@ checks that the guide pages are in sync and that no link is broken, and deploys:
 The repository URL comes from the repository; the site URL is set in the workflow (`site.config.mjs` holds the local
 fallbacks). The move and its checklist: `work/notes/root_site_move.md`.
 
+A local build with the production URLs, from the repository root (W-056):
+
+```sh
+python3 work/tools/site/sync_guide.py
+cd site && GUIDE_SITE_URL=https://originheartgold.github.io GUIDE_BASE=/ \
+  GUIDE_REPO_URL=https://github.com/originheartgold/origin-heart-gold-EN-translation npm run build
+```
+
+Add `GUIDE_PREVIEW=1 GUIDE_BASE=/preview/` for the tester preview. A git worktree has no `node_modules`: link both
+the site's and the save editor's from the main checkout (both are ignored), or `prebuild` stops with "TypeScript is not
+installed in work/save-editor/node_modules":
+`ln -s <main checkout>/site/node_modules site/node_modules` and
+`ln -s <main checkout>/work/save-editor/node_modules work/save-editor/node_modules`.
+
 Bug reports, screenshots and edit suggestions arrive as GitHub issues through the forms in
 `.github/ISSUE_TEMPLATE/`; every page links to them with the page filled in.
 
@@ -327,6 +344,26 @@ On desktop, the header hamburger collapses the guide sidebar and remembers that 
 - Astro caches rendered Markdown: after changing the plugin, build once with `npm run build -- --force`.
 
 The reference pages share the artwork URL helper in `work/save-editor/src/ui/artwork.ts`; builds do not download artwork.
+
+### Page weight
+
+- Pokémon images: small images (`<PokemonImage>` without `size="large"`, shown at 36 to 64 px) load PokéAPI's 96 px
+  sprite (`sprites/pokemon/<id>.png`, 1 to 2 KB) instead of the 512 px HOME artwork (about 130 KB). Decorative heroes
+  that stretch a small image (home, page headings, trainer hero) pass `art="artwork"`. When an image fails, the
+  browser tries HOME artwork, then the official artwork, then a placeholder (`src/lib/pokemon-art.ts`; the species id is
+  in `data-art`, so long tables don't repeat fallback URLs). Every page preconnects to `raw.githubusercontent.com`.
+- `/trainers/`: the directory ships as a plain A–Z list of profile links whose `data-*` attributes hold what a card
+  shows; the page script draws 18 cards at a time from it. Battle guide cards (`<TrainerCard lite>`) leave out the team
+  table and load it from the trainer's profile page when opened. `site/tests/trainers-browser.mjs` covers the filters,
+  paging, loading the team and the page without JavaScript.
+- Long Pokémon tables (more than 100 rows, such as a common move's learners) sit in `.long-table`, which uses
+  `content-visibility: auto` so the browser lays them out only near the screen.
+- Scoped `<style>` blocks add a class to every element of the component. Pages with thousands of rows (`/pokemon/`,
+  `/trainers/`) use `<style is:global>` with selectors under the page's own class instead.
+- `ohg.js` leaves table rows in place unless the table is sorted (re-appending 1,400 rows was the slowest part of
+  loading a long table).
+- Not changed: the save editor's script (1.1 MB, 270 KB compressed) is mostly its bundled game data and loads only on
+  `/save-editor/`; Starlight loads the search UI when the browser is idle; GitHub Pages sets `max-age=600` on every file.
 
 `MobileMenuToggle.astro` adds a JavaScript fallback for browsers without the Popover API
 (including iOS before 17), and clears the page's interaction/scroll lock when the drawer
