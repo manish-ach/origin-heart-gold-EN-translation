@@ -105,6 +105,18 @@ def fixed_tutor_note(note, tutor, areas):
     return out
 
 
+def tutor_author_notes(tutor, notes, taught, areas):
+    """The workbook tutor claims shown with a tutor: those whose configured move (else the claimed one) it teaches,
+    then those a fix made true (fixed_tutor_note). A claim without configuredMoveId joins by its moveId only, once."""
+    out = [x for x in notes if x.get('configuredMoveId', x.get('moveId')) == tutor['move']]
+    for x in notes:
+        if 'configuredMoveId' in x and x['configuredMoveId'] not in taught and x.get('moveId') == tutor['move']:
+            joined = fixed_tutor_note(x, tutor, areas)
+            if joined:
+                out.append(joined)
+    return out
+
+
 def enrich(ctx, data, R, slugs):
     move_desc, ability_desc, item_desc = (ctx.rom.bank_full(n) for n in (738, 712, 218))   # the ROM's own text (romdata.Rom.bank_full)
     facts_path = os.path.join(os.path.dirname(__file__), 'reference_facts.json')
@@ -186,10 +198,7 @@ def enrich(ctx, data, R, slugs):
         for m in data['moves'] if m.get('unnamed')], evidence=evidence('rom-data', 'extra/new_move_data.narc'))
     taught = {t['move'] for t in data['tutors']}
     for tutor in data['tutors']:
-        tutor['authorNotes'] = [x for x in facts.get('tutorNotes', []) if x.get('configuredMoveId',x.get('moveId')) == tutor['move']]
-        tutor['authorNotes'] += [fixed_tutor_note(x, tutor, data['areas']) for x in facts.get('tutorNotes', [])
-                                 if x.get('configuredMoveId') not in taught and x.get('moveId') == tutor['move']
-                                 and fixed_tutor_note(x, tutor, data['areas'])]
+        tutor['authorNotes'] = tutor_author_notes(tutor, facts.get('tutorNotes', []), taught, data['areas'])
     data['battle_notes'] = {key: facts.get(key, []) for key in ('moveChanges', 'abilityChanges', 'applicability', 'newTms', 'itemEffects', 'tutorNotes', 'pokemonNotes', 'encounterNotes', 'mapNotes', 'unmappedEncounterTables')}
     data['reference_coverage'] = facts.get('coverageSummary', {})
     data['meta']['itemRarityLegend']=facts.get('itemLegend',{})
