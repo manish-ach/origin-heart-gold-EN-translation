@@ -57,6 +57,8 @@ test('built changelog, home release strip, llms files and 404 page', { skip: pro
 	assert.match(llms, /discord\.gg/);
 	assert.match(llms, /changelog/);
 	assert.ok(existsSync(new URL('llms-full.txt', dist)));
+	// A /preview/ build's llms files name the production pages (they can't carry noindex).
+	for (const f of ['llms.txt', 'llms-full.txt']) assert.doesNotMatch(readFileSync(new URL(f, dist), 'utf8'), /github\.io\/preview\//, f);
 	const notFound = readFileSync(new URL('404.html', dist), 'utf8');
 	// A /preview/ build (GUIDE_PREVIEW=1) keeps search engines off every page, the 404 included.
 	assert.match(notFound, /<meta name="robots" content="noindex, (follow|nofollow)"/);

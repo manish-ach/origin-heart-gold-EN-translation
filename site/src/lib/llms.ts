@@ -1,10 +1,13 @@
 // llms.txt and llms-full.txt (W-009): what the site is, the official links, and the start-here text in plain Markdown.
 // Built from the content collection at build time (src/pages/llms.txt.ts, src/pages/llms-full.txt.ts).
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { SITE_URL } from '../../site.config.mjs';
+import { SITE_URL, PREVIEW } from '../../site.config.mjs';
 import { OFFICIAL_LINE, DISCORD_URL, GITHUB_URL, RELEASES_URL, latestRelease, formatDate, releaseUrl } from './site-meta';
 
-const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+// Links name the production pages, also in a /preview/ build (like its canonicals, W-022): the preview's llms files can't
+// carry noindex, so they must not send crawlers into the preview.
+const siteBase = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const base = PREVIEW ? siteBase.replace(/preview\/$/, '') : siteBase;
 export const abs = (path: string) => new URL(base + path.replace(/^\//, ''), SITE_URL).href;
 
 export const LICENCE_NOTE = '© 2026 Origin HeartGold English translation team. The guide and website text is all rights reserved: linking to any page and short quotes with a link back are welcome. Facts and game data are not ours to claim. Full terms: ' + `${GITHUB_URL}/blob/main/LICENSE-GUIDE`;
