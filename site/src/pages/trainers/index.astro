@@ -42,7 +42,7 @@ const artId = (id: number | null) => {
       <p class="eyebrow">THE BATTLE GUIDE</p>
       <h2>Know your next opponent.</h2>
       <p>From your first Gym to a familiar rival’s rematch. Find their Pokémon, plan your team, and step into battle prepared.</p>
-      <a class="guide-button" href="#all-trainers">Find a trainer <span aria-hidden="true">↗</span></a>
+      <a class="guide-button" href="#all-trainers">Find a trainer <span aria-hidden="true">↓</span></a>
       <a class="hero-secondary" href={url('/guide/')}>Follow the quest guide <span aria-hidden="true">→</span></a>
     </div>
     <div class="trainer-hero-art" aria-hidden="true">
@@ -56,7 +56,7 @@ const artId = (id: number | null) => {
     {sections.map((section, i) => <a href={`#${slug(section.title)}`}>
       <PokemonImage s={speciesById.get(categories[i].mon)!} />
       <span><strong>{categories[i].label}</strong><small>{categories[i].description}</small></span>
-      <span class="category-arrow" aria-hidden="true">↗</span>
+      <span class="category-arrow" aria-hidden="true">↓</span>
     </a>)}
   </nav>
 

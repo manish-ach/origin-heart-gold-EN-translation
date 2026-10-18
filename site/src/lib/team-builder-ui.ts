@@ -196,7 +196,7 @@ export function setupTeamBuilder() {
       const detail = cache.get(id);
       const members = detail.members;
       const evolutionNotes = [...new Set(detail.members.flatMap((member: any) => member.evoNotes))];
-      panel.innerHTML = `<div class="tb-detail-heading" ${tone(mon)}><div><span class="tb-eyebrow">#${String(mon.baseSpeciesId).padStart(3, '0')} · ${escape(mon.region)}</span><h3>${escape(mon.name)}</h3><span>${types(mon)}</span><p>${link(`/pokemon/${mon.slug}/`, 'Pokédex ↗')}</p>${mon.formId ? '<small class="tb-help">Standard-form artwork</small>' : ''}</div>${art(mon)}</div>
+      panel.innerHTML = `<div class="tb-detail-heading" ${tone(mon)}><div><span class="tb-eyebrow">#${String(mon.baseSpeciesId).padStart(3, '0')} · ${escape(mon.region)}</span><h3>${escape(mon.name)}</h3><span>${types(mon)}</span><p>${link(`/pokemon/${mon.slug}/`, 'Pokédex →')}</p>${mon.formId ? '<small class="tb-help">Standard-form artwork</small>' : ''}</div>${art(mon)}</div>
         <details class="tb-stat-details"><summary>Base stats &amp; abilities <span>BST ${mon.stats.reduce((a, b) => a + b, 0)}</span></summary><div class="tb-stat-grid">${['HP', 'Attack', 'Defense', 'Sp. Atk', 'Sp. Def', 'Speed'].map((name, i) => `<div><span>${name}</span><strong>${mon.stats[i]}</strong><i style="--stat:${Math.min(100, mon.stats[i] / 2)}%"></i></div>`).join('')}</div>
         <p class="tb-help">${escape(mon.abilities.join(' / ') || 'None documented')}${mon.hidden ? ` · Hidden: ${escape(mon.hidden)}` : ''}</p></details>
         <h4>Evolution journey <span>${detail.steps.length ? 'Tap a stage to find it' : ''}</span></h4>
