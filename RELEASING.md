@@ -82,10 +82,16 @@ half local, half CI. ROMs, saves and build inputs are never uploaded: only the x
 
    Review the `site/src/data` and `work/docs` diff: each change should come from a fix or text change of this
    release (`work/notes/site_export_built_rom.md` lists the categories), and go through that note's "Per-release
-   manual checks" (hand-written texts and the damage calculator that describe the hack's behaviour). Commit it together with the release, never
-   before: rc players would otherwise see data (EVs, abilities, tutors) that does not match their game. See
-   [site/README.md](site/README.md#which-game-the-data-describes).
-7. Commit the version bump, CHANGELOG and the regenerated data, and merge to `main`.
+   manual checks" (hand-written texts and the damage calculator that describe the hack's behaviour). Commit it
+   together with the release, never before: rc players would otherwise see data (EVs, abilities, tutors) that does
+   not match their game. See [site/README.md](site/README.md#which-game-the-data-describes).
+
+   This data is exported from the release being prepared, and a push to `main` deploys the website: do not push
+   `main` with it before the release's tag is published (section 3), and push it right after. From step 5 on,
+   `release:latest` already means this release on your machine, so `--check` on other branches reports a ROM
+   mismatch until then; that is expected.
+7. Commit the version bump, CHANGELOG and the regenerated data, and merge to `main` (push only once the release is
+   published, see step 6).
 
 ## 2. Tag (triggers CI)
 
