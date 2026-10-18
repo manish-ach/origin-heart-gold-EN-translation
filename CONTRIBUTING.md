@@ -129,4 +129,4 @@ The quest guide (`guide/*.md`) and the generated game docs are published as a we
 
 Keep PRs small: one area, a few banks, or one fix. Say what you changed and why. PRs must pass `qa.py check` with 0 errors on every bank they touch.
 
-By contributing, you agree that your contributions are released under this repo's licenses (Apache 2.0 for code, CC0 for translation text and docs). See the [README](README.md#license).
+By contributing, you agree that your contributions are released under this repo's licenses (Apache 2.0 for code, CC0 for translation text, translation data and other docs). If you contribute guide or website text (`guide/`, prose in `site/src`), you agree that the project may publish your contribution under the guide text terms in [LICENSE-GUIDE](LICENSE-GUIDE) (all rights reserved, with linking and short quotes allowed). See the [README](README.md#license).

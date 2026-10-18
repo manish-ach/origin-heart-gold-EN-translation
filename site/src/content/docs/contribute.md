@@ -15,7 +15,8 @@ Guide and reference pages have these links at the bottom:
 
 Each quest on the quest guide pages also has its own **Report a problem with this quest** link, next to its **Done** tick box.
 
-All of these go through GitHub, so you need a free GitHub account.
+All of these go through GitHub, so you need a free GitHub account. If you suggest guide text, you agree that we may
+publish it under the guide's [licence](../about/#licence).
 
 ## What helps most
 
