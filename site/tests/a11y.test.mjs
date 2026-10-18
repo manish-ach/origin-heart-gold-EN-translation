@@ -53,14 +53,18 @@ export function scan(html) {
 	for (const m of body.matchAll(/<a\b[^>]*href="(\/[^"]*|\.\.?\/[^"]*|[a-z-]+\/[^"]*)"[^>]*>([\s\S]*?)<\/a>/g)) {
 		if (m[2].includes('↗')) out.push(`internal-arrow: ${m[1]}`);
 	}
+	// A <label> can't take focus: a label for a hidden input (a styled "Choose file") is unreachable by keyboard.
+	for (const m of body.matchAll(/<input\b(?=[^>]*\shidden[\s>])[^>]*\sid="([^"]+)"[^>]*>/g)) {
+		if (body.includes(`for="${m[1]}"`)) out.push(`hidden-input-label: #${m[1]}`);
+	}
 	return out;
 }
 
 test('scan flags the problems it is meant to catch', () => {
 	const page = (body) => `<!DOCTYPE html><html lang="en"><head><title>x</title></head><body>${body}</body></html>`;
 	assert.deepEqual(scan(page('<p>Origin HeartGold (<span lang="zh-Hans">起源心金</span>)</p><table aria-label="Moves"><tbody><tr><th scope="row">HP</th></tr></tbody></table><img src="a.png" alt="">')), []);
-	const bad = scan(page('<p>起源心金</p><div class="table-scroll" aria-label="x"></div><table><tbody><tr><th>HP</th></tr></tbody></table><img src="a.png"><i id="a"></i><i id="a"></i><a href="/save-editor/">Save editor ↗</a>'));
-	for (const check of ['cjk-lang', 'aria-prohibited', 'table-name', 'th-scope', 'img-alt', 'duplicate-id', 'internal-arrow']) {
+	const bad = scan(page('<p>起源心金</p><div class="table-scroll" aria-label="x"></div><table><tbody><tr><th>HP</th></tr></tbody></table><img src="a.png"><i id="a"></i><i id="a"></i><a href="/save-editor/">Save editor ↗</a><label class="btn" for="file">Open</label><input type="file" id="file" hidden>'));
+	for (const check of ['cjk-lang', 'aria-prohibited', 'table-name', 'th-scope', 'img-alt', 'duplicate-id', 'internal-arrow', 'hidden-input-label']) {
 		assert.ok(bad.some((p) => p.startsWith(check)), check);
 	}
 	assert.deepEqual(scan(page('<table><caption class="sr-only">Arceus’s team</caption><tr><td>1</td></tr></table>')), []);

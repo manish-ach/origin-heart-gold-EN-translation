@@ -34,7 +34,7 @@
     <div class="bar-actions">
       <button type="button" class="btn ghost" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7Z"/></svg></button>
       <button type="button" class="btn ghost desktop-only" id="undo" disabled title="Undo (⌘Z)">Undo</button>
-      <label class="btn" for="file-input">Open<span class="desktop-only">&nbsp;save</span></label>
+      <button type="button" class="btn" data-open-file aria-controls="file-input">Open<span class="desktop-only">&nbsp;save</span></button>
       <input type="file" id="file-input" accept=".sav,.dsv,application/octet-stream" hidden>
       <button type="button" class="btn primary desktop-only" id="export" disabled>Export</button>
     </div>
@@ -45,7 +45,7 @@
       <div class="drop-inner">
         <p class="drop-title">Drop your <code>.sav</code> or <code>.dsv</code> here</p>
         <p class="drop-sub">English Origin HeartGold v4.0.3. The file never leaves this tab.</p>
-        <label class="btn primary" for="file-input">Choose file</label>
+        <button type="button" class="btn primary" data-open-file aria-controls="file-input">Choose file</button>
       </div>
     </section>
   </main>
