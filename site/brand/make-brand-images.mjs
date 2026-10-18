@@ -61,7 +61,6 @@ function socialCard() {
 	const heartgold = textPath(extraBold, 'HeartGold', x + origin.width, 446, 104, -0.03);
 	const sub = textPath(semiBold, 'English translation · Patch & Guide', x, 522, 46, -0.01);
 	const url = textPath(medium, 'originheartgold.github.io', x, 580, 28, 0);
-	const official = textPath(semiBold, 'OFFICIAL SITE', tx + tile + 48, ty + 112, 30, 0.12);
 	return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
 <!-- Social card (og:image): "Origin HeartGold — English translation · Patch & Guide". Text set in Inter (OFL 1.1), outlined.
      Plain typography in the site's colours, no game or Pokémon art. Made by site/brand/make-brand-images.mjs. -->
@@ -69,7 +68,6 @@ function socialCard() {
 <rect x="0" y="0" width="${W}" height="10" fill="${GOLD}"/>
 <rect x="${tx}" y="${ty}" width="${tile}" height="${tile}" rx="${tile * 12 / 64}" fill="${GOLD}"/>
 <path fill="${INK}" d="${tileLetters}"/>
-<path fill="${GOLD_LIGHT}" d="${official.d}"/>
 <path fill="${WHITE}" d="${origin.d}"/>
 <path fill="${GOLD_LIGHT}" d="${heartgold.d}"/>
 <path fill="${GREY}" d="${sub.d}"/>

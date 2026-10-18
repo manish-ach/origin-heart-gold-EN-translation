@@ -8,7 +8,7 @@ const isHome = Astro.url.pathname === import.meta.env.BASE_URL.replace(/\/?$/, '
 ---
 {isHome ? <section class="home-hero">
   <div class="home-hero-copy">
-    <p class="eyebrow">OFFICIAL ENGLISH TRANSLATION</p>
+    <p class="eyebrow">ENGLISH TRANSLATION PATCH</p>
     <h1 id="_top"><span class="home-h1-pre">Pokémon</span> Origin <span class="home-h1-gold">HeartGold</span><span class="sr-only"> — </span> <span class="home-h1-sub">English translation</span></h1>
     <p class="home-description">{OFFICIAL_LINE} Patch your own HeartGold right here in your browser, then follow the walkthrough, find every Pokémon and build your team.</p>
     <div class="home-actions"><a class="guide-button" href={url('/patch/')}>Download the English patch <span aria-hidden="true">→</span></a><a class="home-secondary" href={url('/guide/')}>Start the walkthrough <span aria-hidden="true">→</span></a></div>
