@@ -102,10 +102,34 @@ class Materialize(unittest.TestCase):
             sel = dict(kind='release', label='v1.0.0-rc8', path=path, sha1=hashlib.sha1(b'rom bytes').hexdigest(),
                        patch=os.path.join(d, 'missing.xdelta'))
             self.assertEqual(R.materialize_rom(sel, us_rom=os.path.join(d, 'missing-us.nds')), path)
+            self.assertEqual(sel['verified_sha1'], sel['sha1'])      # select_rom need not hash it again
             # a stale file is rebuilt, which needs the USA ROM and the patch
             sel['sha1'] = SHA_A
             with self.assertRaisesRegex(FileNotFoundError, 'needs'):
                 R.materialize_rom(sel, us_rom=os.path.join(d, 'missing-us.nds'))
+
+    def fake_xdelta(self, d, content):
+        """An executable standing in for xdelta3: writes `content` to its last argument (the output)."""
+        path = os.path.join(d, 'fake-xdelta')
+        with open(path, 'w') as fh:
+            fh.write('#!/bin/sh\nfor last; do :; done\nprintf %s > "$last"\n' % content)
+        os.chmod(path, 0o755)
+        return path
+
+    def test_rebuild_checks_the_hash_and_leaves_no_temporary_file(self):
+        with tempfile.TemporaryDirectory() as d:
+            us, patch = os.path.join(d, 'us.nds'), os.path.join(d, 'p.xdelta')
+            for f in (us, patch):
+                open(f, 'wb').close()
+            path = os.path.join(d, 'out', 'v1.0.0-rc8.nds')
+            sel = dict(kind='release', label='v1.0.0-rc8', path=path, patch=patch,
+                       sha1=hashlib.sha1(b'good').hexdigest())
+            with self.assertRaisesRegex(ValueError, 'hashes to'):
+                R.materialize_rom(sel, us_rom=us, xdelta=self.fake_xdelta(d, 'bad'))
+            self.assertEqual(sorted(os.listdir(os.path.join(d, 'out'))), [])     # no .nds, no .nds.tmp
+            self.assertEqual(R.materialize_rom(sel, us_rom=us, xdelta=self.fake_xdelta(d, 'good')), path)
+            self.assertEqual(sorted(os.listdir(os.path.join(d, 'out'))), ['v1.0.0-rc8.nds'])
+            self.assertEqual(sel['verified_sha1'], sel['sha1'])
 
     def test_other_kinds_must_exist(self):
         with self.assertRaises(FileNotFoundError):
@@ -164,20 +188,22 @@ class EnglishText(unittest.TestCase):
 
     def test_english_rom_text_replaces_the_workspace_but_never_leaks_chinese(self):
         rows = {1: dict(id=1, zh='甲', en='Old name', status='draft'), 2: dict(id=2, zh='乙', en=None),
-                3: dict(id=3, zh='丙', en='Kept')}
+                3: dict(id=3, zh='丙', en='Kept'), 4: dict(id=4, zh='丁', en='Fourth')}
         old = R.load_bank_full, R.load_bank
         R.load_bank_full = lambda num: {k: dict(v) for k, v in rows.items()}
         R.load_bank = lambda num: {k: v['en'] or v['zh'] for k, v in rows.items()}
         try:
-            rom = self.rom('en', {0: '', 1: 'New name', 2: '乙'})
+            rom = self.rom('en', {0: '', 1: 'New name', 2: '乙', 4: '丁'})
             full = rom.bank_full(9999)
             self.assertEqual((full[1]['en'], full[1]['status']), ('New name', 'draft'))
             self.assertIsNone(full[2]['en'])                 # still Chinese in the ROM: no English
             self.assertEqual(full[3]['en'], 'Kept')          # an id the ROM lacks keeps the workspace row
             self.assertEqual(full[0]['en'], '')
-            self.assertEqual(rom.bank(9999), {0: '', 1: 'New name', 2: '乙', 3: 'Kept'})
+            self.assertEqual(full[4]['en'], 'Fourth')        # ROM still Chinese: the workspace English
+            # bank: the same guard; a string still Chinese in the ROM shows the workspace English (else the Chinese)
+            self.assertEqual(rom.bank(9999), {0: '', 1: 'New name', 2: '乙', 3: 'Kept', 4: 'Fourth'})
             cn = self.rom('zh', {1: '甲'})
-            self.assertEqual(cn.bank(9999), {1: 'Old name', 2: '乙', 3: 'Kept'})
+            self.assertEqual(cn.bank(9999), {1: 'Old name', 2: '乙', 3: 'Kept', 4: 'Fourth'})
             self.assertEqual(cn.bank_full(9999)[1]['en'], 'Old name')
         finally:
             R.load_bank_full, R.load_bank = old

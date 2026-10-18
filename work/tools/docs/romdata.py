@@ -655,10 +655,13 @@ def sha1_file(path):
 
 def materialize_rom(sel, us_rom=US_ROM_PATH, xdelta='xdelta3'):
     """Make sure the selected ROM file exists and return its path. A release ROM is rebuilt from the release's
-    xdelta and the clean USA ROM when missing or stale, and must hash to latest.json's patched_sha1."""
+    xdelta and the clean USA ROM when missing or stale, and must hash to latest.json's patched_sha1; then
+    sel['verified_sha1'] holds that hash, so select_rom does not hash the file again. A failed rebuild leaves no
+    temporary file behind."""
     path = sel['path']
     if sel['kind'] == 'release':
         if os.path.isfile(path) and sha1_file(path) == sel['sha1']:
+            sel['verified_sha1'] = sel['sha1']
             return path
         for need in (us_rom, sel['patch']):
             if not os.path.isfile(need):
@@ -667,11 +670,17 @@ def materialize_rom(sel, us_rom=US_ROM_PATH, xdelta='xdelta3'):
             raise FileNotFoundError('rebuilding %s needs xdelta3 on PATH' % sel['label'])
         os.makedirs(os.path.dirname(path), exist_ok=True)
         tmp = path + '.tmp'
-        subprocess.run([xdelta, '-d', '-f', '-s', us_rom, sel['patch'], tmp], check=True)
-        got = sha1_file(tmp)
-        if got != sel['sha1']:
-            raise ValueError('%s: the patched ROM hashes to %s, latest.json says %s' % (sel['label'], got, sel['sha1']))
-        os.replace(tmp, path)
+        try:
+            subprocess.run([xdelta, '-d', '-f', '-s', us_rom, sel['patch'], tmp], check=True)
+            got = sha1_file(tmp)
+            if got != sel['sha1']:
+                raise ValueError('%s: the patched ROM hashes to %s, latest.json says %s' % (sel['label'], got, sel['sha1']))
+            os.replace(tmp, path)
+        except BaseException:
+            if os.path.exists(tmp):
+                os.remove(tmp)          # only the temporary file this call wrote
+            raise
+        sel['verified_sha1'] = got
         return path
     if not os.path.isfile(path):
         raise FileNotFoundError('%s: %s not found' % (sel['label'], path))
@@ -701,7 +710,7 @@ def select_rom(spec=None, refresh=False):
     """Open the ROM a spec names (see "choosing the ROM"); the Rom carries .identity."""
     sel = resolve_rom_spec(spec)
     path = materialize_rom(sel)
-    rom = Rom(path, refresh=refresh)
+    rom = Rom(path, refresh=refresh, sha1=sel.get('verified_sha1'))
     if sel.get('sha1') and rom.sha1 != sel['sha1']:
         raise ValueError('%s: %s hashes to %s, expected %s' % (sel['label'], path, rom.sha1, sel['sha1']))
     rom.identity = rom_identity(sel, rom.sha1)
@@ -712,9 +721,10 @@ def select_rom(spec=None, refresh=False):
 class Rom:
     """Everything the generator reads from the ROM, cached as plain bytes (keyed by the ROM's SHA-1)."""
 
-    def __init__(self, path=ROM_PATH, cache=None, refresh=False):
+    def __init__(self, path=ROM_PATH, cache=None, refresh=False, sha1=None):
+        """sha1: the file's SHA-1 when the caller has just verified it (select_rom), else it is computed."""
         self.path = path
-        self.sha1 = sha1_file(path)
+        self.sha1 = sha1 or sha1_file(path)
         cache = cache or os.path.join(CACHE_DIR, self.sha1 + '.pkl')
         self.identity = rom_identity(dict(kind='file', label=os.path.basename(path)), self.sha1)
         d = None
@@ -755,11 +765,15 @@ class Rom:
 
     def bank(self, num):
         """{id: text} the player sees: an English ROM's own text; for the Chinese ROM the workspace's English
-        (else the Chinese), as before. Ids the ROM does not have fall back to the workspace."""
+        (else the Chinese), as before. Ids the ROM does not have fall back to the workspace, and so does a string the
+        ROM still holds in Chinese (its text equals the row's zh), as in bank_full."""
         if self.lang != 'en':
             return load_bank(num)
-        out = load_bank(num)
-        out.update(self.rom_text(num))
+        rows = load_bank_full(num)
+        out = {i: (x.get('en') or x.get('zh') or '') for i, x in rows.items()}
+        for i, text in self.rom_text(num).items():
+            if not (text and i in rows and text == rows[i].get('zh')):
+                out[i] = text
         return out
 
     def bank_full(self, num):
