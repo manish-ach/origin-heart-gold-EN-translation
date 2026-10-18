@@ -171,6 +171,27 @@ release, check them against the fixes it turns on (`fixedBy` is not extended to 
 - `site/tests/*.test.mjs` expectations that name specific tutors, evolutions or counts (rc8: the Blackthorn and
   Saffron tutors).
 
+## Merging into develop (review M-1)
+
+`develop` already has trainer-ev-order (enabled) and 43e8f2fb, which removes the reorder from `parse_trpoke`, makes
+`test_trainer_runtime.py` expect the record order from `parse_trpoke(record, 1)` (no order passed) and commits
+`trainers.json` / `work/docs/trainers.md` in the fixed order. A dry merge (`git merge-tree develop
+fix/site-export-built-rom`) conflicts in `work/tools/docs/romdata.py`, `gen_docs.py`, `site/src/data/trainers.json`,
+`items.json`, `areas.json` (plus the unrelated `quest_ledger.json` and `decisions.jsonl`). Two files merge silently
+into a wrong state: `test_trainer_runtime.py` (develop's expectation fails against this branch's default
+`ev_order=CN_EV_ORDER`) and `work/docs/trainers.md` (develop's EVs under this branch's rc8 header). To resolve
+(not done here):
+
+1. Take this branch's `romdata.py` and `gen_docs.py` (EV order read from the party builder; no hard-coded order).
+2. Fix develop's `test_trainer_runtime.py` EV test to pass the order explicitly
+   (`R.parse_trpoke(record, 1, (0, 1, 2, 3, 4, 5))` for a trainer-ev-order build, or build the order with
+   `R.trainer_ev_order` from a synthetic arm9 as `test_rom_selection.TrainerEvOrder` does).
+3. Take neither side of the generated files: regenerate with `python3 work/tools/site/build.py --content`
+   (`release:latest`, rc8 until rc9 is published) and commit `site/src/data`, `work/docs`, `work/notes/docs_crossref.md`.
+4. Expect the site's and docs' trainer EVs on `develop` to go back to the Chinese order: that is what rc8 players
+   have. They switch to the record order when the data is exported from the rc9 release ROM (RELEASING section 1
+   step 6). The same holds for "Lunar Guard" and other rc9 text: they appear with the rc9 export.
+
 ## Resolved questions (coordinator, 2026-10-18)
 
 1. The cross-reference keeps reading the Chinese ROM (above).
