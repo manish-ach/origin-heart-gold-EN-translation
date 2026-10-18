@@ -1,7 +1,8 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
-// Starlight's own dependency; listed here so the sitemap can leave out noindex pages and carry <lastmod>.
+// Declared in package.json (Starlight also depends on it); configured here so the sitemap can leave out noindex pages
+// and carry <lastmod>.
 import sitemap from "@astrojs/sitemap";
 import { REPO_URL, SITE_URL, BASE, PREVIEW } from "./site.config.mjs";
 import { excludedPaths, lastmodByPath, lastmodFor } from "./sitemap-config.mjs";
