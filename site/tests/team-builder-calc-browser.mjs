@@ -10,6 +10,7 @@ mkdirSync(output, { recursive: true });
 const browser = await chromium.launch({ headless: true });
 let checks = 0;
 const check = (actual, expected, message) => { assert.deepEqual(actual, expected, message); checks++; };
+const settleOn = page => page.evaluate(() => new Promise(resolve => setTimeout(resolve, 0)));
 const lazy = /calc-data\.json|battle-data\.json|battle-check\./;
 try {
   const context = await browser.newContext({ viewport: { width: 1440, height: 1000 } });
@@ -336,6 +337,73 @@ try {
     await p.goBack(); await p.waitForFunction(() => document.querySelector('#team-builder')?.dataset.view === 'browse');
     assert.match(p.url(), /team-builder\/#team=3,130,196,6,131$/); checks++;
     check(await p.locator('#tb-slots [data-select]').count(), 5, `${tag}: Back keeps the team`);
+    await ctx.close();
+  }
+
+  // Both pages share the saved team. Back, reload and a second tab never bring an older team back.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1440, height: 1000 } });
+    await ctx.route('**/*', route => new URL(route.request().url()).origin === new URL(base).origin ? route.continue() : route.abort());
+    const p = await ctx.newPage();
+    p.on('pageerror', error => errors.push(error.message));
+    const stored = page => page.evaluate(() => JSON.parse(localStorage.getItem('ohg-team-builder-v2')).team);
+    const slots = page => page.locator('#tb-slots [data-select]').evaluateAll(b => b.map(x => Number(x.dataset.select)));
+    const members = page => page.locator('.tb-bc-member-pick').evaluateAll(b => b.map(x => Number(x.dataset.bcMember)));
+    await p.goto(new URL('team-builder/#team=3,12,196,6', base).href); await p.locator('#team-builder[data-ready=true]').waitFor();
+    await p.locator('.tb-battle-entry').click();
+    await p.locator('#tb-bc-query').fill('falkner violet'); await p.locator('[data-bc-trainer="20"]').click();
+    assert.match(await p.locator('#tb-open-calc').getAttribute('href'), /damage-calc\/#battle=20$/); checks++;
+    await p.locator('#tb-open-calc').click(); await p.locator('.tb-bc-foe-name').waitFor();
+    await p.locator('[data-bc-swap="12"]').click(); await p.locator('#tb-bc-member-query').fill('gyara'); await p.locator('[data-bc-join="130"]').click();
+    check(await p.locator('#tb-builder-link').getAttribute('href'), '/poke/team-builder/', 'the Team Builder link relies on the saved team');
+    await p.goBack(); await p.locator('#team-builder[data-ready=true]').waitFor();
+    await p.waitForFunction(() => document.querySelector('[data-select="130"]'));
+    check(await slots(p), [3, 130, 196, 6], 'Back to the Team Builder shows the swap made in the calculator');
+    check(await stored(p), [3, 130, 196, 6], 'and storage keeps it');
+    assert.match(p.url(), /#team=3,130,196,6/); checks++;
+    await p.reload(); await p.locator('#team-builder[data-ready=true]').waitFor();
+    check(await slots(p), [3, 130, 196, 6], 'reload keeps the newest team');
+    // A shared link still wins over the saved team.
+    await p.goto('about:blank'); await p.goto(new URL('team-builder/#team=25,6', base).href); await p.locator('#team-builder[data-ready=true]').waitFor();
+    check(await slots(p), [25, 6], 'a newly opened shared link wins');
+    // Two tabs: a change in one shows in the other (team, link), and the other doesn't write its old team back.
+    await p.goto('about:blank'); await p.goto(new URL('team-builder/#team=3,12,196,6', base).href); await p.locator('#team-builder[data-ready=true]').waitFor();
+    const q = await ctx.newPage();
+    q.on('pageerror', error => errors.push(error.message));
+    await q.goto(new URL('damage-calc/#battle=20', base).href); await q.locator('.tb-bc-foe-name').waitFor();
+    await q.locator('[data-bc-remove="12"]').click();
+    await p.waitForFunction(() => !document.querySelector('#tb-slots [data-select="12"]'));
+    check(await slots(p), [3, 196, 6], 'the other tab’s Team Builder follows');
+    assert.match(p.url(), /#team=3,196,6$/); checks++;
+    await p.locator('.tb-battle-entry').click(); await p.locator('#tb-bc-team').waitFor();
+    check(await stored(q), [3, 196, 6], 'opening its calculator doesn’t write the old team back');
+    await p.locator('#tb-slots [data-remove="196"]').click();
+    await q.waitForFunction(() => !document.querySelector('[data-bc-member="196"]'));
+    check(await members(q), [3, 6], 'the calculator tab follows');
+    assert.match(q.url(), /damage-calc\/#team=3,6&battle=20$/); checks++;
+    await q.close();
+    // A swap picker whose member leaves the team elsewhere turns into "Add".
+    await p.goto(new URL('team-builder/#team=3,12,196,6&battle=20', base).href); await p.locator('.tb-bc-foe-name').waitFor();
+    await p.locator('[data-bc-swap="12"]').click();
+    await p.locator('#tb-slots [data-remove="12"]').click();
+    check(await p.locator('#tb-bc-member-query').getAttribute('placeholder'), 'Add a Pokémon…', 'the swap picker becomes an add picker');
+    await p.locator('#tb-bc-member-query').fill('gyara'); await p.locator('[data-bc-join="130"]').click();
+    check(await p.locator('#tb-status').textContent(), 'Gyarados added. 4 of 6 slots filled.', 'no swap announced');
+    // The search count is announced through the status line.
+    await p.locator('[data-bc-add]').click(); await p.locator('#tb-bc-member-query').fill('pikach');
+    assert.match(await p.locator('#tb-status').textContent(), /^\d+ Pokémon you can get in this game$/); checks++;
+    await p.locator('[data-bc-member-cancel]').click();
+    // A move it already knows is refused, in both editors.
+    await p.locator('#tb-bc-set').evaluate(d => { d.open = true; });
+    const known = await p.locator('[data-bc-field="mine:move0"]').inputValue();
+    await p.locator('[data-bc-field="mine:move1"]').fill(known); await p.locator('[data-bc-field="mine:move1"]').press('Tab'); await settleOn(p);
+    check(await p.locator('[data-bc-field="mine:move1"]').getAttribute('aria-invalid'), 'true', 'duplicate own move refused');
+    assert.match(await p.locator('#tb-status').textContent(), /already knows/); checks++;
+    await p.locator('[data-bc-details="tfoe-set"] > summary').click();
+    const theirMove = await p.locator('[data-bc-field="tfoe:move0"]').inputValue();
+    await p.locator('[data-bc-field="tfoe:move1"]').fill(theirMove); await p.locator('[data-bc-field="tfoe:move1"]').press('Tab'); await settleOn(p);
+    check(await p.locator('[data-bc-field="tfoe:move1"]').getAttribute('aria-invalid'), 'true', 'duplicate foe move refused');
+    check(await p.locator('#tb-status').textContent(), `Staraptor already knows ${theirMove}.`, 'duplicate foe move announced');
     await ctx.close();
   }
 

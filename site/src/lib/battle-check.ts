@@ -336,6 +336,8 @@ export async function mountBattleCheck(host: BattleHost) {
   function drawTeam() {
     const box = $('team');
     const team = teamIds();
+    // The member being swapped left the team elsewhere (the planner's ×, another tab): fill a free slot instead.
+    if (memberPicking?.replace != null && !team.includes(memberPicking.replace)) memberPicking = team.length < TEAM_SIZE ? { replace: null } : null;
     const picked = selectedMine();
     const cards = team.map(id => {
       const mon = dex.species.get(id)!;
@@ -353,6 +355,7 @@ export async function mountBattleCheck(host: BattleHost) {
     host.wireImages(box);
   }
   const renderTeam = () => keepFocus(drawTeam);
+  const memberCountText = (n: number) => n ? `${n.toLocaleString()} Pokémon you can get in this game` : 'No Pokémon matches. Try a name or a type.';
   function memberPicker() {
     const replacing = memberPicking?.replace != null ? dex.species.get(memberPicking.replace)?.name : null;
     const terms = normalizeSearch(memberQuery).trim().split(/\s+/).filter(Boolean);
@@ -364,7 +367,7 @@ export async function mountBattleCheck(host: BattleHost) {
         <label class="tb-search"><span class="sr-only">${escape(replacing ? `Search a Pokémon to swap ${replacing} for` : 'Search a Pokémon to add')}</span><input type="search" id="tb-bc-member-query" placeholder="${escape(label)}" autocomplete="off" value="${escape(memberQuery)}" /></label>
         <button type="button" class="tb-bc-button tb-bc-quiet" data-bc-member-cancel>Cancel</button>
       </div>
-      <p class="tb-bc-hint" id="tb-bc-member-count" role="status">${matches.length ? `${matches.length.toLocaleString()} Pokémon you can get in this game` : 'No Pokémon matches. Try a name or a type.'}</p>
+      <p class="tb-bc-hint" id="tb-bc-member-count">${escape(memberCountText(matches.length))}</p>
       <ul class="tb-bc-species" aria-label="Pokémon">${matches.slice(0, memberShown).map(mon => `<li><button type="button" class="tb-bc-join" data-bc-join="${mon.id}" style="--mon-hue:${hue(mon.types[0])}">
         ${host.art(mon.id, 'sm')}<span class="tb-bc-foe-text"><strong>${escape(mon.name)}</strong><small>${escape(mon.types.join(' · '))}</small></span></button></li>`).join('')}</ul>
       ${matches.length > memberShown ? `<button type="button" class="tb-bc-button tb-bc-more" data-bc-member-more>Show more (${(matches.length - memberShown).toLocaleString()} left)</button>` : ''}
@@ -700,6 +703,7 @@ export async function mountBattleCheck(host: BattleHost) {
         const learnable = learnableMoves(dex, speciesId);
         if (!move) error = `“${raw}” isn’t a move in this game.`;
         else if (learnable.length && !learnable.includes(move)) error = `${dex.species.get(speciesId)!.name} can’t learn ${dex.moves.get(move).name} in this game.`;
+        else if (moves.some((m, i) => m === move && i !== index)) error = `${dex.species.get(speciesId)!.name} already knows ${dex.moves.get(move).name}.`;
         else moves[index] = move;
       }
       if (!error) saved.moves = [...new Set(moves.filter(Boolean))];
@@ -751,7 +755,12 @@ export async function mountBattleCheck(host: BattleHost) {
       const index = Number(field1.slice(4));
       const moves = [...current.moveIds];
       if (!raw.trim()) moves.splice(index, 1);
-      else { const move = dex.moveByName.get(normalizeName(raw)); if (move) moves[index] = move; else error = `“${raw}” isn’t a move in this game.`; }
+      else {
+        const move = dex.moveByName.get(normalizeName(raw));
+        if (!move) error = `“${raw}” isn’t a move in this game.`;
+        else if (moves.some((m: number, i: number) => m === move && i !== index)) error = `${dex.species.get(mon.id)?.name} already knows ${dex.moves.get(move).name}.`;
+        else moves[index] = move;
+      }
       if (!error) edit.moves = [...new Set(moves.filter(Boolean))];
     } else if (field1 === 'iv' || field1 === 'ev') {
       const max = field1 === 'iv' ? 31 : 255;
@@ -907,6 +916,8 @@ export async function mountBattleCheck(host: BattleHost) {
     } else if (input.id === 'tb-bc-member-query') {
       memberQuery = input.value; memberShown = PAGE;
       renderTeam();
+      // Announced through the page's status line: the count itself is redrawn on every keystroke.
+      host.status($('member-count').textContent ?? '');
     }
   });
   panel.addEventListener('change', event => {
