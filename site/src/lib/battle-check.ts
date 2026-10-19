@@ -37,6 +37,8 @@ export interface BattleHost {
   /** Puts `newId` in `oldId`'s slot (null: a free slot) and selects it; the opponent stays. False if it can't join. */
   replaceMember(oldId: number | null, newId: number): boolean;
   removeMember(id: number): void;
+  /** False in the Team Builder, whose own team panel adds and removes members: only the add picker is drawn. */
+  teamStrip?: boolean;
   canJoin(id: number): boolean;
   status(text: string): void;
 }
@@ -338,6 +340,12 @@ export async function mountBattleCheck(host: BattleHost) {
     const team = teamIds();
     // The member being swapped left the team elsewhere (the planner's ×, another tab): fill a free slot instead.
     if (memberPicking?.replace != null && !team.includes(memberPicking.replace)) memberPicking = team.length < TEAM_SIZE ? { replace: null } : null;
+    if (host.teamStrip === false) {
+      box.hidden = !memberPicking;
+      box.innerHTML = memberPicking ? `<h3 id="tb-bc-team-heading" class="tb-bc-label">Add a Pokémon</h3><div id="tb-bc-member-picker">${memberPicker()}</div>` : '';
+      host.wireImages(box);
+      return;
+    }
     const picked = selectedMine();
     const cards = team.map(id => {
       const mon = dex.species.get(id)!;
@@ -383,7 +391,8 @@ export async function mountBattleCheck(host: BattleHost) {
   function closeMemberPicker(focus: string | null) {
     memberPicking = null; memberQuery = '';
     renderTeam();
-    if (focus) panel.querySelector<HTMLElement>(focus)?.focus();
+    // Without the strip, focus returns to the Team Builder's empty slot that opened the picker.
+    if (focus) (panel.querySelector<HTMLElement>(focus) ?? host.root.querySelector<HTMLElement>('#tb-slots [data-empty]'))?.focus();
   }
 
   function customEditor(opp: Any) {
@@ -841,7 +850,7 @@ export async function mountBattleCheck(host: BattleHost) {
       $<HTMLDetailsElement>('set').open = true;
       renderAll();
       host.status(old != null ? `${dex.species.get(old)?.name} swapped for ${name}. The opponent is unchanged.` : `${name} added. ${teamIds().length} of ${TEAM_SIZE} slots filled.`);
-      panel.querySelector<HTMLElement>(`[data-bc-member="${id}"]`)?.focus();
+      (panel.querySelector<HTMLElement>(`[data-bc-member="${id}"]`) ?? panel.querySelector<HTMLElement>('#tb-bc-set > summary'))?.focus();
     } else if (d.bcRemove) {
       const id = Number(d.bcRemove);
       const index = teamIds().indexOf(id);

@@ -326,16 +326,25 @@ try {
     check(await p.evaluate(() => document.activeElement?.id), 'tb-bc-member-query', `${tag}: and opens its picker`);
     await p.locator('#tb-bc-member-query').fill('lapras');
     await p.locator('[data-bc-join="131"]').click();
-    await p.locator('[data-bc-swap="12"]').click();
+    // The Team Builder has its own team panel: no strip, so no swap buttons; remove, then add.
+    check(await p.locator('#tb-bc-team').isHidden(), true, `${tag}: no team strip in the Team Builder`);
+    check(await p.locator('[data-bc-swap], [data-bc-add]').count(), 0, `${tag}: no strip buttons`);
+    await p.locator('#tb-slots [data-remove="12"]').click();
+    assert.match(await foeName(), /Falkner/); checks++;
+    await p.locator('#tb-slots [data-empty]').first().click();
     await p.locator('#tb-bc-member-query').fill('gyara');
     await p.locator('[data-bc-join="130"]').click();
+    check(await p.locator('#tb-bc-team').isHidden(), true, `${tag}: the picker closes after adding`);
     check(await p.locator('#tb-slots [data-select]').count(), 5, `${tag}: the planner’s slots follow`);
-    check(await p.locator('#tb-bc-set').evaluate(d => !d.hidden && d.open), true, `${tag}: set editor open after the swap`);
-    assert.match(p.url(), /team-builder\/#team=3,130,196,6,131&battle=20$/); checks++;
+    check(await p.locator('#tb-bc-set').evaluate(d => !d.hidden && d.open), true, `${tag}: set editor open after adding`);
+    assert.match(p.url(), /team-builder\/#team=3,196,6,131,130&battle=20$/); checks++;
+    await p.locator('#tb-slots [data-empty]').first().click();
+    await p.locator('[data-bc-member-cancel]').click();
+    check(await p.evaluate(() => document.activeElement?.matches('#tb-slots [data-empty]')), true, `${tag}: Cancel returns focus to the empty slot`);
     await p.goBack(); await p.locator('#tb-bc-query').waitFor();
-    assert.match(p.url(), /#team=3,130,196,6,131&battle=$/); checks++;
+    assert.match(p.url(), /#team=3,196,6,131,130&battle=$/); checks++;
     await p.goBack(); await p.waitForFunction(() => document.querySelector('#team-builder')?.dataset.view === 'browse');
-    assert.match(p.url(), /team-builder\/#team=3,130,196,6,131$/); checks++;
+    assert.match(p.url(), /team-builder\/#team=3,196,6,131,130$/); checks++;
     check(await p.locator('#tb-slots [data-select]').count(), 5, `${tag}: Back keeps the team`);
     await ctx.close();
   }
@@ -375,22 +384,25 @@ try {
     await p.waitForFunction(() => !document.querySelector('#tb-slots [data-select="12"]'));
     check(await slots(p), [3, 196, 6], 'the other tab’s Team Builder follows');
     assert.match(p.url(), /#team=3,196,6$/); checks++;
-    await p.locator('.tb-battle-entry').click(); await p.locator('#tb-bc-team').waitFor();
+    await p.locator('.tb-battle-entry').click(); await p.locator('#tb-bc-team').waitFor({ state: 'attached' });
     check(await stored(q), [3, 196, 6], 'opening its calculator doesn’t write the old team back');
     await p.locator('#tb-slots [data-remove="196"]').click();
     await q.waitForFunction(() => !document.querySelector('[data-bc-member="196"]'));
     check(await members(q), [3, 6], 'the calculator tab follows');
     assert.match(q.url(), /damage-calc\/#team=3,6&battle=20$/); checks++;
     await q.close();
-    // A swap picker whose member leaves the team elsewhere turns into "Add".
-    await p.goto(new URL('team-builder/#team=3,12,196,6&battle=20', base).href); await p.locator('.tb-bc-foe-name').waitFor();
+    // A swap picker whose member leaves the team in another tab turns into "Add".
+    await p.goto(new URL('damage-calc/#team=3,12,196,6&battle=20', base).href); await p.locator('.tb-bc-foe-name').waitFor();
     await p.locator('[data-bc-swap="12"]').click();
-    await p.locator('#tb-slots [data-remove="12"]').click();
+    const r = await ctx.newPage();
+    await r.goto(new URL('team-builder/', base).href); await r.locator('#tb-slots [data-remove="12"]').click(); await r.close();
+    await p.waitForFunction(() => !document.querySelector('[data-bc-member="12"]'));
     check(await p.locator('#tb-bc-member-query').getAttribute('placeholder'), 'Add a Pokémon…', 'the swap picker becomes an add picker');
     await p.locator('#tb-bc-member-query').fill('gyara'); await p.locator('[data-bc-join="130"]').click();
     check(await p.locator('#tb-status').textContent(), 'Gyarados added. 4 of 6 slots filled.', 'no swap announced');
     // The search count is announced through the status line.
-    await p.locator('[data-bc-add]').click(); await p.locator('#tb-bc-member-query').fill('pikach');
+    await p.goto(new URL('team-builder/#team=3,196,6,130&battle=20', base).href); await p.locator('.tb-bc-foe-name').waitFor();
+    await p.locator('#tb-slots [data-empty]').first().click(); await p.locator('#tb-bc-member-query').fill('pikach');
     assert.match(await p.locator('#tb-status').textContent(), /^\d+ Pokémon you can get in this game$/); checks++;
     await p.locator('[data-bc-member-cancel]').click();
     // A move it already knows is refused, in both editors.
@@ -406,12 +418,13 @@ try {
     check(await p.locator('#tb-status').textContent(), `Staraptor already knows ${theirMove}.`, 'duplicate foe move announced');
     // Storage that reads but can't be written (quota full): after a change, a reload keeps the link's newer team.
     for (const page of ['team-builder', 'damage-calc']) {
-      await p.goto('about:blank'); await p.goto(new URL(`${page}/#team=3,6,25&battle=20`, base).href); await p.locator('[data-bc-remove="25"]').waitFor();
+      const remove = page === 'team-builder' ? '#tb-slots [data-remove="25"]' : '[data-bc-remove="25"]';
+      await p.goto('about:blank'); await p.goto(new URL(`${page}/#team=3,6,25&battle=20`, base).href); await p.locator(remove).waitFor();
       await p.evaluate(() => { Storage.prototype.setItem = () => { throw new DOMException('full', 'QuotaExceededError'); }; });
-      await p.locator('[data-bc-remove="25"]').click();
+      await p.locator(remove).click();
       assert.match(p.url(), /#team=3,6&battle=20$/); checks++;
-      await p.reload(); await p.locator('[data-bc-member="3"]').waitFor();
-      check(await members(p), [3, 6], `${page}: a reload after a failed save keeps the change`);
+      await p.reload(); await p.locator('.tb-bc-foe-name').waitFor();
+      check(page === 'team-builder' ? await slots(p) : await members(p), [3, 6], `${page}: a reload after a failed save keeps the change`);
     }
     await ctx.close();
   }

@@ -245,7 +245,7 @@ export function setupTeamBuilder() {
     body.setAttribute('aria-busy', 'true');
     body.innerHTML = '<p class="tb-help">Loading the damage calculator…</p>';
     battleLoading = import('./battle-check').then(({ mountBattleCheck }) => mountBattleCheck({
-      root, panel: body, url, escape, hues, wireImages,
+      root, panel: body, url, escape, hues, wireImages, teamStrip: false,
       art: (id, size = 'sm') => { const mon = byId.get(id); return mon ? art(mon, ` tb-art-${size}`) : '<span class="tb-art"></span>'; },
       team: () => team, active: () => active,
       setActive: id => { active = id; renderTeam(); void renderDetails(); },
