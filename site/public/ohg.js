@@ -1,5 +1,6 @@
 // Origin HeartGold guide: small progressive enhancements. Everything works without this script.
 // - quest pages: game setup and quest filters, per-quest "done" ticks, report links
+// - guide pages on phones: collapsible step and quest cards, a dock with Sections and Quests sheets
 // - tables/lists: text filter, select and checkbox filters, click-to-sort headers
 (() => {
 	const store = {
@@ -140,6 +141,7 @@
 				const sec = t?.closest('section.quest');
 				a.parentElement.style.display = sec?.classList.contains('is-hidden') ? 'none' : '';
 			});
+			document.dispatchEvent(new Event('ohg:quests'));
 		}
 		panel.addEventListener('change', apply);
 		// a link to a hidden quest still shows it, also for links on the same page
@@ -148,6 +150,176 @@
 			hashQuest()?.querySelector('h2')?.scrollIntoView();
 		});
 		apply();
+	}
+
+	// ---------------------------------------------------------------- guide pages on phones
+	// Below 50rem a guide page gets shorter: walkthrough steps and quests fold into cards (title, tags and the Done
+	// tick stay visible), and a dock at the bottom opens two sheets: Sections (the page's contents, with the steps) and
+	// Quests (every quest on the page with its Done tick and a jump link, plus the game filters). Wider screens are
+	// untouched: the extra controls are hidden by CSS unless <html data-ohg-mobile> is set.
+	function setupMobileGuide() {
+		if (!/\/guide\//.test(location.pathname)) return;
+		const content = document.querySelector('.sl-markdown-content');
+		if (!content) return;
+		const steps = [...content.querySelectorAll('.chapter-step')];
+		const quests = [...content.querySelectorAll('section.quest')];
+		const tocLinks = [...document.querySelectorAll('mobile-starlight-toc nav a')];
+		if (!steps.length && !quests.length && tocLinks.length < 2) return;
+		const root = document.documentElement;
+		const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html) e.innerHTML = html; return e; };
+		const esc = (t) => t.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+		const chevron = '<svg class="ohg-m-chevron" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+		const target = () => { try { return location.hash ? document.getElementById(decodeURIComponent(location.hash.slice(1))) : null; } catch { return null; } };
+
+		// cards: data-open on the card shows its body; the toggle carries aria-expanded
+		const setOpen = (card, open) => {
+			card.toggleAttribute('data-open', open);
+			card.querySelector(':scope > .ohg-m-toggle, :scope > .ohg-m-more')?.setAttribute('aria-expanded', String(open));
+		};
+		steps.forEach((step, i) => {
+			const title = step.dataset.title || step.querySelector('p strong')?.textContent.replace(/[.:]\s*$/, '') || `Step ${i + 1}`;
+			const unlocks = [...step.querySelectorAll('.chapter-unlocks li.chapter-quest > a')].map((a) => a.textContent.trim());
+			const chips = unlocks.slice(0, 2).map((t) => `<span class="ohg-m-chip">${esc(t)}</span>`);
+			if (unlocks.length > 2) chips.push(`<span class="ohg-m-chip">+${unlocks.length - 2} more</span>`);
+			if (step.querySelector('.chapter-warning')) chips.push('<span class="ohg-m-chip ohg-m-chip-warn">Closes a missable</span>');
+			const toggle = el('button', 'ohg-m-toggle', `<span class="ohg-m-title">${esc(title)}${step.classList.contains('chapter-optional') ? ' <span class="ohg-m-pill">Optional</span>' : ''}</span>${chevron}${chips.length ? `<span class="ohg-m-chips">${chips.join('')}</span>` : ''}`);
+			toggle.type = 'button';
+			toggle.addEventListener('click', () => setOpen(step, !step.hasAttribute('data-open')));
+			step.prepend(toggle);
+			step.classList.add('ohg-m-card');
+			setOpen(step, false);
+		});
+		quests.forEach((q) => {
+			const more = el('button', 'ohg-m-more', `<span>Details</span>${chevron}`);
+			more.type = 'button';
+			more.addEventListener('click', () => setOpen(q, !q.hasAttribute('data-open')));
+			q.append(more);
+			q.classList.add('ohg-m-card');
+			setOpen(q, false);
+		});
+		// a link into a card opens it
+		const openTarget = () => {
+			const card = target()?.closest('.ohg-m-card');
+			if (card) setOpen(card, true);
+		};
+
+		// sheets: native modal <dialog> (focus, Escape and the top layer for free); a tap on the backdrop closes it
+		const sheet = (id, title) => {
+			const d = el('dialog', 'ohg-m-sheet not-content');
+			d.setAttribute('aria-labelledby', id + '-title');
+			d.innerHTML = `<div class="ohg-m-sheet-head"><h2 id="${id}-title">${title}</h2><button type="button" class="ohg-m-close">Close</button></div><div class="ohg-m-sheet-body"></div>`;
+			d.querySelector('.ohg-m-close').addEventListener('click', () => d.close());
+			d.addEventListener('click', (e) => { if (e.target === d) d.close(); });
+			// following a link inside closes the sheet first, so the page can scroll to it
+			d.addEventListener('click', (e) => { if (e.target.closest('a[href^="#"]')) d.close(); });
+			document.body.append(d);
+			return d;
+		};
+		const dock = el('nav', 'ohg-m-dock not-content');
+		dock.setAttribute('aria-label', 'Page tools');
+		const dockButton = (label, icon, cls) => {
+			const b = el('button', cls, `${icon}<span>${label}</span>`);
+			b.type = 'button';
+			dock.append(b);
+			return b;
+		};
+
+		// Sections: the page's table of contents, with the walkthrough steps under "Walkthrough"
+		const sections = sheet('ohg-m-sections', 'On this page');
+		const sectionsBody = sections.querySelector('.ohg-m-sheet-body');
+		sectionsBody.innerHTML = '<input type="search" class="ohg-m-find" placeholder="Find a section, step or quest" aria-label="Find a section"><ul class="ohg-m-toc"></ul>';
+		const find = sectionsBody.querySelector('.ohg-m-find');
+		const tocList = sectionsBody.querySelector('.ohg-m-toc');
+		const renderSections = () => {
+			tocList.innerHTML = '';
+			const add = (href, text, cls) => {
+				const li = el('li', cls);
+				const a = el('a');
+				a.href = href;
+				a.textContent = text;
+				li.append(a);
+				tocList.append(li);
+			};
+			const links = tocLinks.length ? tocLinks : [...content.querySelectorAll('h2[id]')].map((h) => ({ hash: '#' + h.id, textContent: h.textContent }));
+			for (const a of links) {
+				if (a.parentElement && a.parentElement.style?.display === 'none') continue;
+				const href = a.hash || a.getAttribute('href');
+				let t = null;
+				try { t = document.getElementById(decodeURIComponent(href.slice(1))); } catch { /* bad hash */ }
+				const sub = t?.closest('section.quest') || parseInt(a.style?.getPropertyValue('--depth') || '0', 10) > 0;
+				add(href, a.textContent.trim(), sub ? 'ohg-m-sub' : '');
+				if (a.hash === '#walkthrough') steps.forEach((s) => s.id && add('#' + s.id, s.dataset.title || s.id, 'ohg-m-sub ohg-m-step'));
+			}
+			filterSections();
+		};
+		const filterSections = () => {
+			const q = searchText(find.value.trim());
+			for (const li of tocList.children) li.hidden = !!q && !searchText(li.textContent).includes(q);
+		};
+		find.addEventListener('input', filterSections);
+		const sectionsButton = dockButton('Sections', '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>', 'ohg-m-dock-sections');
+		sectionsButton.addEventListener('click', () => { renderSections(); find.value = ''; filterSections(); sections.showModal(); });
+
+		// Quests: one row per quest the filters leave on the page. The tick drives the quest's own Done box, so storing
+		// and filtering stay in setupQuests; it re-announces itself with "ohg:quests" and the list redraws.
+		let questsSheet = null;
+		const panel = content.querySelector('.game-setup');
+		if (quests.length) {
+			questsSheet = sheet('ohg-m-quests', 'Quests on this page');
+			const body = questsSheet.querySelector('.ohg-m-sheet-body');
+			const list = el('ul', 'ohg-m-quest-list');
+			body.append(list);
+			const render = () => {
+				const focused = document.activeElement?.closest('.ohg-m-quest')?.dataset.key;
+				list.innerHTML = '';
+				for (const q of quests) {
+					if (q.classList.contains('is-hidden')) continue;
+					const h = q.querySelector('h2');
+					const real = q.querySelector('.quest-tools input[type="checkbox"]');
+					if (!h || !real) continue;
+					const tags = [...q.querySelectorAll('.quest-meta .tag:not(.tag-place)')].map((t) => `<span class="${t.className}">${esc(t.textContent.trim())}</span>`).join(' ');
+					const li = el('li', 'ohg-m-quest');
+					li.dataset.key = h.id;
+					li.classList.toggle('is-done', real.checked);
+					li.innerHTML = `<label><input type="checkbox"><span class="ohg-m-quest-title">${esc(h.textContent.trim())}</span></label>${tags ? `<span class="ohg-m-quest-tags">${tags}</span>` : ''}<a class="ohg-m-jump" href="#${esc(h.id)}">Jump</a>`;
+					const box = li.querySelector('input');
+					box.checked = real.checked;
+					box.setAttribute('aria-label', `Done: ${h.textContent.trim()}`);
+					box.addEventListener('change', () => { real.checked = box.checked; real.dispatchEvent(new Event('change', { bubbles: true })); });
+					list.append(li);
+				}
+				if (!list.children.length) list.innerHTML = '<li class="ohg-m-empty">No quests match your filters.</li>';
+				if (focused) list.querySelector(`[data-key="${CSS.escape(focused)}"] input`)?.focus();
+			};
+			document.addEventListener('ohg:quests', render);
+			render();
+			const questsButton = dockButton('Quests', '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M9 11l3 3 8-8M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>', 'ohg-m-dock-quests');
+			questsButton.addEventListener('click', () => { render(); questsSheet.showModal(); });
+		}
+		document.body.append(dock);
+
+		// switch between the phone layout and the normal one as the width changes
+		const mq = matchMedia('(max-width: 50rem)');
+		const update = () => {
+			root.toggleAttribute('data-ohg-mobile', mq.matches);
+			if (!panel) return;
+			if (mq.matches && questsSheet) questsSheet.querySelector('.ohg-m-sheet-body').prepend(panel);
+			else if (panel.parentElement !== content) content.prepend(panel);
+			if (!mq.matches) document.querySelectorAll('dialog.ohg-m-sheet[open]').forEach((d) => d.close());
+		};
+		mq.addEventListener ? mq.addEventListener('change', update) : mq.addListener(update);
+		update();
+		openTarget();
+		window.addEventListener('hashchange', () => { openTarget(); target()?.scrollIntoView(); });
+		// the same link twice fires no hashchange, so a click on an in-page link opens its card as well
+		document.addEventListener('click', (e) => {
+			const a = e.target.closest?.('a[href^="#"]');
+			if (!a || !root.hasAttribute('data-ohg-mobile')) return;
+			let t = null;
+			try { t = document.getElementById(decodeURIComponent(a.hash.slice(1))); } catch { /* bad hash */ }
+			const card = t?.closest('.ohg-m-card');
+			if (card) setOpen(card, true);
+		});
 	}
 
 	// ---------------------------------------------------------------- tables and lists
@@ -288,6 +460,6 @@
 
 	// Pages that insert tables later (trainer cards on /trainers/) give them the same panel.
 	window.ohgTableScroll = setupTableScroll;
-	const init = () => { setupQuests(); setupFilters(); setupTableScroll(); };
+	const init = () => { setupQuests(); setupFilters(); setupTableScroll(); setupMobileGuide(); };
 	document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', init) : init();
 })();

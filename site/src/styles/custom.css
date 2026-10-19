@@ -428,3 +428,141 @@ table.sortable th .sort-button { display: inline-flex; align-items: center; min-
 .pokemon-cell > a, .page-help a { display: inline-flex; align-items: center; min-height: 24px; }
 /* Abilities in trainer team tables are links of their own, one per row (were 23 px tall). */
 a.ability-link { display: flex; align-items: center; min-height: 24px; }
+
+/* ---- guide pages on phones (site/public/ohg.js setupMobileGuide sets <html data-ohg-mobile> below 50rem).
+   Steps and quests fold into cards, and a dock opens the Sections and Quests sheets. The controls it adds are
+   hidden everywhere else. */
+.ohg-m-toggle, .ohg-m-more, .ohg-m-dock, .ohg-m-sheet:not([open]) { display: none; }
+@media (max-width: 50rem) {
+  /* Starlight's sticky "On this page" bar: the Sections sheet replaces it */
+  :root[data-ohg-mobile] { --sl-mobile-toc-height: 0rem; }
+  :root[data-ohg-mobile] mobile-starlight-toc { display: none; }
+  :root[data-ohg-mobile] .page-heading-art { display: none; }
+  :root[data-ohg-mobile] .guide-page-heading { min-height: 0; }
+  :root[data-ohg-mobile] .main-pane { padding-bottom: calc(5.5rem + env(safe-area-inset-bottom)); }
+
+  /* cards */
+  :root[data-ohg-mobile] .ohg-m-card {
+    position: relative; margin-block: .85rem; padding: .9rem 1rem .9rem 1.15rem; border: 1px solid var(--sl-color-gray-5);
+    border-radius: .9rem; background: var(--sl-color-bg-nav); box-shadow: 0 1px 2px rgb(0 0 0 / .06);
+  }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-card { padding-left: 1.5rem; border-left: 1px solid var(--sl-color-gray-5); }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-card::before {
+    content: ''; position: absolute; left: .45rem; top: 1rem; bottom: 1rem; width: 4px; border-radius: 4px; background: var(--sl-color-accent);
+  }
+  :root[data-ohg-mobile] .chapter-step.chapter-optional.ohg-m-card::before { background: var(--sl-color-gray-5); }
+  :root[data-ohg-mobile] .ohg-m-card > * + * { margin-top: .6rem; }
+  :root[data-ohg-mobile] .ohg-m-chevron { flex: none; transition: transform .2s ease; color: var(--sl-color-gray-3); }
+  :root[data-ohg-mobile] .ohg-m-card[data-open] > :is(.ohg-m-toggle, .ohg-m-more) .ohg-m-chevron { transform: rotate(180deg); }
+
+  /* a step: title, Optional pill and chips on the toggle; folded, only the first lines of its text show */
+  :root[data-ohg-mobile] .ohg-m-toggle {
+    display: grid; grid-template-columns: 1fr auto; align-items: start; gap: .5rem .75rem; width: 100%; min-height: 44px;
+    padding: 0; border: 0; background: none; color: var(--sl-color-white); font: inherit; text-align: left; cursor: pointer;
+  }
+  :root[data-ohg-mobile] .ohg-m-title { font-size: 1.02rem; font-weight: 700; line-height: 1.35; }
+  :root[data-ohg-mobile] .ohg-m-pill {
+    display: inline-block; margin-left: .35rem; padding: .05rem .5rem; border: 1px solid var(--sl-color-gray-5); border-radius: .35rem;
+    font-size: .68rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; vertical-align: .15em; color: var(--sl-color-gray-3);
+  }
+  :root[data-ohg-mobile] .ohg-m-chips { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: .35rem; }
+  :root[data-ohg-mobile] .ohg-m-chip {
+    padding: .15rem .55rem; border: 1px solid var(--sl-color-gray-5); border-radius: .45rem; background: var(--sl-color-bg);
+    font-size: .74rem; font-weight: 600; line-height: 1.4; color: var(--sl-color-gray-2);
+    max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  :root[data-ohg-mobile] .ohg-m-chip-warn { border-color: #c06060; background: #4a1d1d; color: #ffd9d9; }
+  :root[data-theme='light'][data-ohg-mobile] .ohg-m-chip-warn { background: #fbe4e4; color: #8a1c1c; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-card[data-open] .ohg-m-chips { display: none; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-card > p:first-of-type > strong:first-child { display: none; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-card:not([data-open]) > :not(.ohg-m-toggle):not(p:first-of-type) { display: none; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-card:not([data-open]) > p:first-of-type {
+    display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; font-size: .88rem; color: var(--sl-color-gray-3);
+  }
+
+  /* a quest: heading, tags and the Done tick stay; the rest opens with Details */
+  :root[data-ohg-mobile] section.quest.ohg-m-card { padding: 1rem; scroll-margin-top: 4.5rem; }
+  :root[data-ohg-mobile] .sl-markdown-content section.quest.ohg-m-card + section.quest.ohg-m-card { margin-top: .85rem; padding-top: 1rem; border-top: 1px solid var(--sl-color-gray-5); }
+  :root[data-ohg-mobile] section.quest.ohg-m-card h2 { font-size: 1.1rem; line-height: 1.35; }
+  :root[data-ohg-mobile] section.quest.ohg-m-card .sl-anchor-link { display: none; }
+  :root[data-ohg-mobile] section.quest.ohg-m-card:not([data-open]) > :not(.sl-heading-wrapper):not(h2):not(.quest-meta):not(.quest-tools):not(.ohg-m-more) { display: none; }
+  :root[data-ohg-mobile] section.quest.ohg-m-card:not([data-open]) .quest-tools a { display: none; }
+  :root[data-ohg-mobile] .ohg-m-more {
+    display: flex; align-items: center; justify-content: space-between; width: 100%; min-height: 44px; padding: 0 .1rem;
+    border: 0; border-top: 1px solid var(--sl-color-gray-6); background: none; color: var(--sl-color-text-accent); font: inherit; font-size: .88rem; font-weight: 650; cursor: pointer;
+  }
+  :root[data-ohg-mobile] section.quest.ohg-m-card .quest-tools { border-top: 0; padding-top: 0; }
+
+  /* dock */
+  :root[data-ohg-mobile] .ohg-m-dock {
+    position: fixed; z-index: 20; left: .75rem; right: .75rem; bottom: calc(.75rem + env(safe-area-inset-bottom));
+    display: flex; gap: .5rem; padding: .4rem; border-radius: 1rem; background: #121a24; color: #f3f5f7;
+    box-shadow: 0 10px 30px rgb(0 0 0 / .3), 0 0 0 1px rgb(255 255 255 / .06);
+  }
+  :root[data-ohg-mobile] .ohg-m-dock button {
+    flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 46px; padding: 0 1rem;
+    border: 0; border-radius: .7rem; background: none; color: inherit; font: inherit; font-size: .92rem; font-weight: 650; cursor: pointer;
+  }
+  :root[data-ohg-mobile] .ohg-m-dock .ohg-m-dock-quests { background: #d7ad51; color: #1b1406; }
+
+  /* sheets */
+  :root[data-ohg-mobile] .ohg-m-sheet[open] {
+    display: flex; flex-direction: column; position: fixed; inset: auto 0 0 0; width: 100%; max-width: 100%; max-height: 82dvh;
+    margin: 0; padding: 0; border: 0; border-radius: 1.1rem 1.1rem 0 0; background: var(--sl-color-bg-nav); color: var(--sl-color-white);
+    box-shadow: 0 -12px 40px rgb(0 0 0 / .3); animation: ohg-m-up .22s cubic-bezier(.2, .8, .2, 1);
+  }
+  :root[data-ohg-mobile] .ohg-m-sheet::backdrop { background: rgb(8 12 18 / .55); }
+  @keyframes ohg-m-up { from { transform: translateY(100%); } }
+  :root[data-ohg-mobile] .ohg-m-sheet-head {
+    display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .9rem 1rem .6rem; border-bottom: 1px solid var(--sl-color-gray-6);
+  }
+  :root[data-ohg-mobile] .ohg-m-sheet-head h2 { margin: 0; font-size: 1.05rem; font-weight: 750; color: var(--sl-color-white); }
+  :root[data-ohg-mobile] .ohg-m-close {
+    min-height: 40px; padding: 0 .9rem; border: 1px solid var(--sl-color-gray-5); border-radius: .55rem; background: var(--sl-color-bg);
+    color: var(--sl-color-white); font: inherit; font-size: .85rem; font-weight: 600; cursor: pointer;
+  }
+  :root[data-ohg-mobile] .ohg-m-sheet-body { overflow-y: auto; overscroll-behavior: contain; padding: .75rem 1rem calc(1rem + env(safe-area-inset-bottom)); }
+  /* the game filters, moved here from the top of the page: two compact columns */
+  :root[data-ohg-mobile] .ohg-m-sheet .game-setup { display: grid; grid-template-columns: 1fr 1fr; align-items: end; margin: 0 0 .75rem; padding: .7rem; gap: .55rem .6rem; }
+  :root[data-ohg-mobile] .ohg-m-sheet .game-setup > strong { display: none; }
+  :root[data-ohg-mobile] .ohg-m-sheet .game-setup label { display: grid; gap: .2rem; font-size: .75rem; color: var(--sl-color-gray-3); }
+  :root[data-ohg-mobile] .ohg-m-sheet .game-setup select { min-height: 40px; padding: .35rem .6rem; font-size: .9rem; }
+  :root[data-ohg-mobile] .ohg-m-sheet .game-setup label:has(input[type='checkbox']) {
+    display: flex; align-items: center; gap: .5rem; min-height: 40px; font-size: .88rem; color: var(--sl-color-white);
+  }
+  :root[data-ohg-mobile] .ohg-m-sheet .game-setup input[type='checkbox'] { width: 20px; height: 20px; accent-color: var(--sl-color-accent); }
+  :root[data-ohg-mobile] .ohg-m-sheet .game-setup :is(.hidden-count, .quest-filter-help) { grid-column: 1 / -1; margin: 0; font-size: .75rem; }
+
+  :root[data-ohg-mobile] .ohg-m-find {
+    width: 100%; min-height: 44px; padding: .55rem .8rem; border: 1px solid var(--sl-color-gray-5); border-radius: .6rem;
+    background: var(--sl-color-bg); color: var(--sl-color-white); font: inherit; font-size: 1rem;
+  }
+  :root[data-ohg-mobile] .ohg-m-toc, :root[data-ohg-mobile] .ohg-m-quest-list { margin: .5rem 0 0; padding: 0; list-style: none; }
+  :root[data-ohg-mobile] .ohg-m-toc li { margin: 0; }
+  :root[data-ohg-mobile] .ohg-m-toc a {
+    display: flex; align-items: center; min-height: 44px; padding: .35rem .5rem; border-radius: .5rem;
+    color: var(--sl-color-white); font-weight: 650; text-decoration: none;
+  }
+  :root[data-ohg-mobile] .ohg-m-toc .ohg-m-sub a { padding-left: 1.4rem; font-weight: 450; font-size: .9rem; color: var(--sl-color-gray-2); }
+  :root[data-ohg-mobile] .ohg-m-toc .ohg-m-step a::before { content: ''; flex: none; width: 5px; height: 5px; margin-right: .6rem; border-radius: 50%; background: var(--sl-color-accent); }
+  :root[data-ohg-mobile] .ohg-m-toc a:active { background: var(--sl-color-gray-6); }
+
+  :root[data-ohg-mobile] .ohg-m-quest {
+    display: grid; grid-template-columns: 1fr auto; align-items: center; gap: .35rem .75rem; margin: 0 0 .5rem; padding: .6rem .75rem;
+    border: 1px solid var(--sl-color-gray-5); border-radius: .75rem; background: var(--sl-color-bg);
+  }
+  :root[data-ohg-mobile] .ohg-m-quest label { display: flex; align-items: center; gap: .6rem; min-height: 40px; font-weight: 650; font-size: .92rem; line-height: 1.3; }
+  :root[data-ohg-mobile] .ohg-m-quest input { flex: none; width: 20px; height: 20px; accent-color: var(--sl-color-accent); }
+  :root[data-ohg-mobile] .ohg-m-quest.is-done .ohg-m-quest-title { text-decoration: line-through; opacity: .6; }
+  :root[data-ohg-mobile] .ohg-m-quest-tags { grid-column: 1; grid-row: 2; padding-left: 1.85rem; }
+  :root[data-ohg-mobile] .ohg-m-quest-tags .tag { margin-bottom: 0; }
+  :root[data-ohg-mobile] .ohg-m-jump {
+    grid-column: 2; grid-row: 1 / span 2; display: inline-flex; align-items: center; min-height: 40px; padding: 0 .85rem;
+    border: 1px solid var(--sl-color-gray-5); border-radius: .55rem; font-size: .85rem; font-weight: 650; text-decoration: none; color: var(--sl-color-text-accent);
+  }
+  :root[data-ohg-mobile] .ohg-m-empty { padding: 1rem .25rem; color: var(--sl-color-gray-3); font-size: .9rem; }
+}
+@media (max-width: 50rem) and (prefers-reduced-motion: reduce) {
+  :root[data-ohg-mobile] .ohg-m-sheet[open] { animation: none; }
+}
+@media print { .ohg-m-dock, .ohg-m-sheet, .ohg-m-toggle, .ohg-m-more { display: none !important; } }
