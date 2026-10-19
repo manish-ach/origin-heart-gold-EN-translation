@@ -304,37 +304,45 @@
 			questsIntro?.classList.remove('ohg-m-hidden');
 		};
 
-		// the guide's front page: the first paragraph stays, the rest of the introduction folds under "About this guide",
-		// the chapter list becomes rows (number, title, summary, quest count) and every later section folds under its
-		// heading, its links as rows
-		if (/\/guide\/(index\.html)?$/.test(location.pathname)) {
+		// Pages made of headings fold on a phone. Each heading becomes a row that shows what sits under it (closed
+		// to start with); the front page also turns its chapter list into rows. Wider screens keep the pages as they are.
+		const isIndex = /\/guide\/(index\.html)?$/.test(location.pathname);
+		const isHidden = /\/guide\/hidden-items\/?(index\.html)?$/.test(location.pathname);
+		const isIssues = /\/guide\/known-issues\/?(index\.html)?$/.test(location.pathname);
+		if (isIndex || isHidden || isIssues) {
 			content.classList.add('ohg-m-index');
-			const wrappers = [...content.querySelectorAll(':scope > .sl-heading-wrapper')];
-			const foldRow = (title, meta, nodes, before) => {
-				const toggle = el('button', 'ohg-m-toggle', `<span class="ohg-m-title">${esc(title)}</span>${meta ? `<span class="ohg-m-meta">${esc(meta)}</span>` : ''}${chevron}`);
+			// a row that shows or hides `nodes`; `lvl` keeps nested folds apart (a closed h2 hides its h3 rows too)
+			const foldRow = (title, meta, nodes, before, lvl = 2) => {
+				const toggle = el('button', 'ohg-m-toggle', `<span class="ohg-m-title">${esc(title)}</span>${meta ? `<span class="ohg-m-meta">${meta}</span>` : ''}${chevron}`);
 				toggle.type = 'button';
 				toggle.setAttribute('aria-expanded', 'false');
-				const row = el('div', 'ohg-m-row ohg-m-index-row');
+				const row = el('div', `ohg-m-row ohg-m-index-row ohg-m-index-row-${lvl}`);
 				row.append(toggle);
 				toggle.addEventListener('click', () => {
 					const open = toggle.getAttribute('aria-expanded') !== 'true';
 					toggle.setAttribute('aria-expanded', String(open));
 					row.toggleAttribute('data-open', open);
-					nodes.forEach((n) => n.toggleAttribute('data-open', open));
+					nodes.forEach((n) => n.toggleAttribute('data-open' + lvl, open));
 				});
-				nodes.forEach((n) => { n.setAttribute('data-ohg-sec', ''); });
+				nodes.forEach((n) => n.setAttribute('data-ohg-sec' + lvl, ''));
 				before.before(row);
 				return row;
 			};
-			// the introduction
+			const sectionsOf = (w, stop) => {
+				const nodes = [];
+				for (let n = w.nextElementSibling; n && !n.matches(stop); n = n.nextElementSibling) nodes.push(n);
+				return nodes;
+			};
+			const plural = (n, one, many = one + 's') => `${n} ${n === 1 ? one : many}`;
+			// the introduction: the first paragraph stays, the rest folds
 			const intro = [];
 			for (let n = content.firstElementChild; n && !n.matches('.sl-heading-wrapper'); n = n.nextElementSibling) intro.push(n);
 			const lead = intro.find((n) => n.matches('p'));
 			const rest = intro.filter((n) => n !== lead && !n.matches('.game-setup'));
-			if (lead && rest.length) foldRow('About this guide', 'how the quests were checked, tags, filters', rest, rest[0]);
-			// the chapter list
-			const chaptersList = document.getElementById('chapters')?.closest('.sl-heading-wrapper')?.nextElementSibling?.matches('ul') ? document.getElementById('chapters').closest('.sl-heading-wrapper').nextElementSibling
-				: [...content.querySelectorAll(':scope > ul')].find((ul) => ul.querySelector('a[href*="ch01"]'));
+			if (lead && rest.length) foldRow(isIndex ? 'About this guide' : isHidden ? 'About these pictures' : 'About this list', '', rest, rest[0]);
+			// the front page's chapter list: rows with number, title, summary and quest count
+			const chaptersList = isIndex && (document.getElementById('chapters')?.closest('.sl-heading-wrapper')?.nextElementSibling?.matches('ul') ? document.getElementById('chapters').closest('.sl-heading-wrapper').nextElementSibling
+				: [...content.querySelectorAll(':scope > ul')].find((ul) => ul.querySelector('a[href*="ch01"]')));
 			if (chaptersList) {
 				chaptersList.classList.add('ohg-m-chapters');
 				const note = chaptersList.previousElementSibling?.matches('p') ? chaptersList.previousElementSibling : null;
@@ -342,28 +350,36 @@
 				for (const li of chaptersList.children) {
 					const a = li.querySelector('a[href]');
 					if (!a) continue;
-					const m = a.textContent.trim().match(/^(?:Chapter\s+(\d+)|(Postgame|Post-game)):\s*(.+)$/i);
-					const num = m?.[1] || (m?.[2] ? 'PG' : '');
-					const title = m ? m[3] : a.textContent.trim();
-					const after = (li.textContent.replace(a.textContent, '').trim().replace(/^:\s*/, ''));
+					const name = chapterName(a.textContent);
+					const after = li.textContent.replace(a.textContent, '').trim().replace(/^:\s*/, '');
 					const count = after.match(/\((\d+)\)\s*$/)?.[1];
 					const summary = after.replace(/\s*\(\d+\)\s*$/, '');
-					const row = el('a', 'ohg-m-chapter-row', `<span class="ohg-m-chapter-num${num ? '' : ' ohg-m-chapter-dot'}">${esc(num)}</span><span class="ohg-m-chapter-body"><span class="ohg-m-chapter-title">${esc(title)}</span>${summary ? `<span class="ohg-m-chapter-sum">${esc(summary)}</span>` : ''}${count ? `<span class="ohg-m-chapter-count">${count} ${count === '1' ? 'quest' : 'quests'}</span>` : ''}</span>${chevron.replace('ohg-m-chevron', 'ohg-m-chevron ohg-m-chevron-go')}`);
+					const notes = [count ? plural(+count, 'quest') : '', name.post ? 'Postgame' : ''].filter(Boolean).join(' · ');
+					const row = el('a', 'ohg-m-chapter-row', `<span class="ohg-m-chapter-num${name.num ? '' : ' ohg-m-chapter-dot'}">${esc(name.num)}</span><span class="ohg-m-chapter-body"><span class="ohg-m-chapter-title">${esc(name.title)}</span>${summary ? `<span class="ohg-m-chapter-sum">${esc(summary)}</span>` : ''}${notes ? `<span class="ohg-m-chapter-count">${esc(notes)}</span>` : ''}</span>${chevron.replace('ohg-m-chevron', 'ohg-m-chevron ohg-m-chevron-go')}`);
 					row.href = a.getAttribute('href');
 					li.append(row);
 				}
 			}
-			// every other section folds under its heading
-			for (const w of wrappers) {
+			// h3 sections first (known issues: one per issue), then h2 sections, so a closed h2 hides its h3 rows
+			for (const w of content.querySelectorAll(':scope > .sl-heading-wrapper.level-h3')) {
+				const h = w.querySelector('h3');
+				const nodes = sectionsOf(w, '.sl-heading-wrapper');
+				if (!h || !nodes.length) continue;
+				const fixed = nodes.map((n) => n.textContent).join(' ').match(/Fixed in (rc\d+)/i);
+				w.classList.add('ohg-m-index-heading');
+				foldRow(h.textContent.trim(), fixed ? `<span class="ohg-m-fixed">Fixed in ${esc(fixed[1])}</span>` : '', nodes, w.nextElementSibling, 3);
+			}
+			for (const w of content.querySelectorAll(':scope > .sl-heading-wrapper.level-h2')) {
 				const h = w.querySelector('h2');
 				if (!h || h.id === 'chapters') continue;
-				const nodes = [];
-				for (let n = w.nextElementSibling; n && !n.matches('.sl-heading-wrapper'); n = n.nextElementSibling) nodes.push(n);
+				const nodes = sectionsOf(w, '.sl-heading-wrapper.level-h2');
 				if (!nodes.length) continue;
-				const links = nodes.reduce((k, n) => k + n.querySelectorAll('a[href]').length, 0);
+				let meta = '';
+				if (isIndex) { const k = nodes.reduce((n, x) => n + x.querySelectorAll('a[href]').length, 0); meta = k ? plural(k, 'entry', 'entries') : ''; }
+				else if (isHidden) { const k = nodes.reduce((n, x) => n + x.querySelectorAll('img').length + (/Missing screenshot/.test(x.textContent) ? 1 : 0), 0); meta = k ? plural(k, 'spot') : ''; }
+				else if (isIssues) { const k = nodes.filter((x) => x.matches('.sl-heading-wrapper.level-h3')).length; meta = k ? plural(k, 'issue') : ''; }
 				w.classList.add('ohg-m-index-heading');
-				foldRow(h.textContent.trim(), links ? `${links} ${links === 1 ? 'entry' : 'entries'}` : '', nodes, w.nextElementSibling);
-				w.after(w.nextElementSibling); // the row sits right after the heading wrapper
+				foldRow(h.textContent.trim(), meta, nodes, w.nextElementSibling, 2);
 			}
 		}
 
@@ -470,10 +486,16 @@
 			if (!chapterLinks.length) { tocList.append(...pageList.children); filterSections(); return; }
 			for (const a of chapterLinks) {
 				const current = !!a.getAttribute('aria-current');
-				if (!current || !pageList.children.length) { tocList.append(item(a.getAttribute('href'), a.textContent.trim(), 'ohg-m-chapter')); continue; }
+				const name = chapterName(a.textContent);
+				if (!current || !pageList.children.length) {
+					const li = item(a.getAttribute('href'), name.label, 'ohg-m-chapter');
+					if (name.post) li.firstChild.insertAdjacentHTML('beforeend', '<span class="ohg-m-meta ohg-m-meta-inline">Postgame</span>');
+					tocList.append(li);
+					continue;
+				}
 				// the chapter the reader is on: a fold holding this page's entries, open to start with
 				const li = el('li', 'ohg-m-chapter ohg-m-chapter-current');
-				const fold = el('details', 'ohg-m-toc-fold', `<summary><span>${esc(a.textContent.trim())}</span>${chevron}</summary>`);
+				const fold = el('details', 'ohg-m-toc-fold', `<summary><span>${esc(name.label)}${name.post ? '<span class="ohg-m-meta ohg-m-meta-inline">Postgame</span>' : ''}</span>${chevron}</summary>`);
 				fold.open = true;
 				fold.append(pageList);
 				li.append(fold);
@@ -569,6 +591,16 @@
 	// main places as a grid, the chapters as a fold (from the sidebar, when the page has one), the help pages and the
 	// theme. Wider screens keep the sidebar.
 	const base = (document.querySelector('script[src$="ohg.js"]')?.getAttribute('src') || '/ohg.js').replace(/ohg\.js$/, '');
+	// Chapter titles come in two spellings ("26. Mahogany Town…", "Chapter 33: Postgame, Lance's Visit…"); on a phone
+	// they all read "33. Lance's Visit…" with Postgame as a note beside them. Other pages keep their names.
+	const chapterName = (text) => {
+		const m = text.trim().match(/^(?:Chapter\s+(\d+)\s*:|(\d+)\.)\s*(.+)$/i);
+		if (!m) return { label: text.trim(), num: '', title: text.trim(), post: false };
+		const post = /^post-?game\b[,:]?\s*/i.test(m[3]);
+		const title = m[3].replace(/^post-?game\b[,:]?\s*/i, '').replace(/^(the\s)/, (x) => x[0].toUpperCase() + x.slice(1));
+		const num = m[1] || m[2];
+		return { label: `${num}. ${title}`, num, title, post };
+	};
 	const ICONS = {
 		map: '<path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Zm0 0v14m6-12v14"/>',
 		ball: '<circle cx="12" cy="12" r="9"/><path d="M3 12h6m6 0h6"/><circle cx="12" cy="12" r="3"/>',
@@ -615,7 +647,7 @@
 			const links = group ? [...group.querySelectorAll('a[href]')] : [];
 			if (links.length) {
 				chapters = `<details class="ohg-m-menu-fold"><summary>Chapters<span class="ohg-m-meta">${links.length} pages</span></summary><ul>` +
-					links.map((a) => `<li><a href="${esc(a.getAttribute('href'))}"${a.getAttribute('aria-current') ? ' aria-current="page"' : ''}>${esc(a.textContent.trim())}</a></li>`).join('') + '</ul></details>';
+					links.map((a) => { const n = chapterName(a.textContent); return `<li><a href="${esc(a.getAttribute('href'))}"${a.getAttribute('aria-current') ? ' aria-current="page"' : ''}>${esc(n.label)}${n.post ? '<span class="ohg-m-meta ohg-m-meta-inline">Postgame</span>' : ''}</a></li>`; }).join('') + '</ul></details>';
 			}
 			sheet.innerHTML = `<div class="ohg-m-sheet-head"><h2>Origin <span>HeartGold</span></h2><button type="button" class="ohg-m-close" aria-label="Close"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>` +
 				`<div class="ohg-m-sheet-body">` +
