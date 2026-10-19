@@ -887,6 +887,24 @@
 		}, { rootMargin: '300px' });
 		imgs.forEach((img) => io.observe(img));
 	}
-	const init = () => { setupQuests(); setupFilters(); setupTableScroll(); setupMobileGuide(); setupMobileMenu(); setupItemSprites(); };
+	// Reference pages on phones (a Pokémon, an item): move tables become rows (level or TM, the move and its type on
+	// one line, the numbers under it, the effect last) and the encounter table stacks. The cells get the column names
+	// as labels; the CSS does the rest and wider screens keep the tables.
+	function setupMobileReference() {
+		if (!/\/(pokemon|items|moves|abilities|locations|trainers)\/[^/]+\/?(index\.html)?$/.test(location.pathname)) return;
+		const label = (table) => {
+			const heads = [...table.querySelectorAll('thead th')].map((th) => th.textContent.trim());
+			if (!heads.length) return false;
+			for (const tr of table.querySelectorAll('tbody tr')) [...tr.cells].forEach((td, i) => { if (heads[i]) td.dataset.label = heads[i]; });
+			return heads;
+		};
+		for (const table of document.querySelectorAll('.sl-markdown-content table')) {
+			const heads = label(table);
+			if (!heads) continue;
+			if (heads.includes('Move') && heads.includes('Type') && heads.includes('Power')) table.classList.add('ohg-m-moves');
+			else if (heads.length >= 3 && heads.length <= 6) table.classList.add('ohg-m-stack');
+		}
+	}
+	const init = () => { setupQuests(); setupFilters(); setupTableScroll(); setupMobileGuide(); setupMobileMenu(); setupItemSprites(); setupMobileReference(); };
 	document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', init) : init();
 })();
