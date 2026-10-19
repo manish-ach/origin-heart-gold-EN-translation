@@ -901,10 +901,20 @@
 			for (const tr of table.querySelectorAll('tbody tr')) [...tr.cells].forEach((td, i) => { if (heads[i]) td.dataset.label = heads[i]; });
 			return heads;
 		};
-		const SHORT = { Accuracy: 'Acc', Power: 'Pow', Level: 'Lv', 'TM / HM': 'TM', 'Learning method': 'How' };
+		const SHORT = { Accuracy: 'Acc', Power: 'Pow', Level: 'Lv', 'TM / HM': 'TM', 'Learning method': 'How', 'Hold chance': 'Hold', 'Encounter chance': 'Chance', 'Method / time / condition': 'Method' };
+		const shorten = (table) => table.querySelectorAll('thead th').forEach((th) => {
+			const full = th.textContent.trim();
+			if (SHORT[full]) th.innerHTML = `<span class="ohg-m-full">${th.innerHTML}</span><span class="ohg-m-short" aria-hidden="true">${SHORT[full]}</span>`;
+		});
 		for (const table of document.querySelectorAll('.sl-markdown-content table')) {
 			const heads = label(table);
 			if (!heads) continue;
+			// an item's wild holders: the summary and each holder's locations stay tables, fitted to the width
+			if (/^wild-locations/.test(table.id) || /^Wild Pokémon holding/.test(table.querySelector('caption')?.textContent || '')) {
+				table.classList.add('ohg-m-fit');
+				shorten(table);
+				continue;
+			}
 			if (heads.includes('Move') && heads.includes('Type') && heads.includes('Power')) {
 				table.classList.add('ohg-m-moves');
 				table.querySelectorAll('thead th').forEach((th) => {
@@ -1069,6 +1079,50 @@
 		follow();
 		window.addEventListener('hashchange', follow);
 	}
-	const init = () => { setupQuests(); setupFilters(); setupTableScroll(); setupMobileGuide(); setupMobileMenu(); setupItemSprites(); setupMobileReference(); setupMobileTabs(); };
+	// An item's page on a phone: the sprite with the pocket and prices at the top, each kind of source under a band,
+	// each source a block with the place first and the rest (quantity, price, the quest) under it.
+	function setupMobileItem() {
+		const m = String(location.pathname || '').match(/\/items\/([^/]+)\/?(index\.html)?$/);
+		const content = document.querySelector('.sl-markdown-content');
+		if (!m || !content) return;
+		document.documentElement.setAttribute('data-ohg-item', '');
+		const meta = content.querySelector(':scope > p.small.muted');
+		const hero = document.createElement('div');
+		hero.className = 'ohg-m-item-hero not-content';
+		const facts = (meta?.textContent || '').split(/\s*·\s*|,\s+(?=sells)/).map((t) => t.trim()).filter(Boolean);
+		hero.innerHTML = `<img class="ohg-m-sprite ohg-m-item-art" src="${SPRITES}/items/${m[1]}.png" width="30" height="30" alt="" loading="eager" decoding="async">` +
+			`<div class="ohg-m-item-facts">${facts.map((f) => `<span>${f.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[c])}</span>`).join('')}</div>`;
+		content.prepend(hero);
+		meta?.classList.add('ohg-m-aside');
+		content.querySelectorAll(':scope > p.small').forEach((p) => p.classList.add('ohg-m-aside'));
+		// the holders' names get their sprites
+		const holders = [...content.querySelectorAll('table.ohg-m-fit td a[href*="/pokemon/"]')];
+		if (holders.length) {
+			spriteNames ||= fetch(base + 'sprites.json').then((r) => r.ok ? r.json() : null).catch(() => null);
+			spriteNames.then((names) => names && holders.forEach((a) => {
+				const id = names.p[a.textContent.trim()];
+				if (id) a.insertAdjacentHTML('beforebegin', `<img class="ohg-m-sprite ohg-m-sprite-mon ohg-m-fit-sprite" src="${SPRITES}/pokemon/${id}.png" width="40" height="40" alt="" loading="lazy" decoding="async">`);
+			}));
+		}
+		for (const li of content.querySelectorAll(':scope > ul > li')) {
+			const place = li.querySelector(':scope > a');
+			if (!place) continue;
+			// the text after the place stays as written for wider screens (ohg-m-src-orig); the phone shows a copy
+			// with "· see" and "×10 · $1,200" on their own lines
+			const orig = document.createElement('span');
+			orig.className = 'ohg-m-src-orig';
+			let n = place.nextSibling;
+			while (n) { const next = n.nextSibling; orig.append(n); n = next; }
+			if (!orig.textContent.trim()) { orig.remove(); li.classList.add('ohg-m-src'); continue; }
+			li.append(orig);
+			const rest = document.createElement('span');
+			rest.className = 'ohg-m-src-rest';
+			rest.innerHTML = orig.innerHTML.replace(/^\s*·\s*/, '').replace(/\s*·\s*/g, '<br>').replace(/^\s*\(\s*/, '').replace(/\s*\)\s*(<br>|$)/, '$1');
+			li.append(rest);
+			li.classList.add('ohg-m-src');
+		}
+		content.querySelector(':scope > p:last-child > a[href$="/items/"]')?.classList.add('ohg-m-back');
+	}
+	const init = () => { setupQuests(); setupFilters(); setupTableScroll(); setupMobileGuide(); setupMobileMenu(); setupItemSprites(); setupMobileReference(); setupMobileTabs(); setupMobileItem(); };
 	document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', init) : init();
 })();
