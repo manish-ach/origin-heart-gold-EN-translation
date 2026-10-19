@@ -1,5 +1,4 @@
 """official_species.json stays consistent with the game data; no ROM required."""
-import json
 from pathlib import Path
 import sys
 import unittest

@@ -886,13 +886,13 @@ async function open(file: File): Promise<void> {
     }
   } catch (error) { toast(errorText(error), true); }
 }
-// Real buttons open the hidden file input, so the keyboard can reach them (a <label> can't take focus).
-for (const opener of document.querySelectorAll<HTMLButtonElement>('[data-open-file]')) opener.addEventListener('click', () => fileInput.click());
 fileInput.addEventListener('change', () => {
   const file = fileInput.files?.[0];
   if (file && (!isDirty() || confirm('Discard your edits and open another save?'))) void open(file);
   fileInput.value = '';
 });
+// Real buttons open the hidden file input, so the keyboard can reach them (a <label> can't take focus).
+for (const opener of document.querySelectorAll<HTMLButtonElement>('[data-open-file]')) opener.addEventListener('click', () => fileInput.click());
 function exportSave(): void {
   if (!session) return;
   const blob = new Blob([new Uint8Array(wrapSave(session.working, session.container))], {type: 'application/octet-stream'});

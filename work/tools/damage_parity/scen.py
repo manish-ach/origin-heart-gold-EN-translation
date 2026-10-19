@@ -16,7 +16,8 @@ Stat stages, weather ratio and the Glaive Rush flag are read from the game; see 
 import sys, os, json
 from pathlib import Path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from plib import *
+from plib import (CLOCK, DMG_ENTRY, SAV, TARGET_TL, DamageLog, E, choose, decode_pokemon, dump, finish_turn,
+                  party_mon, setup_attacker, wild_battle2, wild_mon_info)
 ROOT = Path(__file__).resolve().parents[3]
 TRAINERS = {t['id']: t for t in json.load(open(ROOT / 'site/src/data/trainers.json'))}
 
@@ -27,7 +28,6 @@ BPP_WEIGHT_CLAMP = 0x022164D8   # r0 = battle Pokemon; runs while the battle set
 
 def to_set(m, ovr=None):
     ivs = m['ivs']; evs = m['evs']     # order hp, atk, def, spe, spa, spd
-    st = m.get('party', {}) or {}
     s = dict(speciesId=m['species'], level=m['level'], nature=m['nature'], abilityId=m['ability'] or None,
              itemId=m['item'] or None, moveIds=[],
              ivs=dict(hp=ivs[0], atk=ivs[1], def_=ivs[2], spe=ivs[3], spa=ivs[4], spd=ivs[5]),

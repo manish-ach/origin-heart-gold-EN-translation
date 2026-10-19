@@ -1,5 +1,4 @@
 """Tests for the chapter layer (guide/chapters/*.toml). Run: python3 work/tools/site/test_chapters.py"""
-import copy
 import json
 import os
 import unittest

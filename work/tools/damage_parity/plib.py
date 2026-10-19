@@ -96,7 +96,7 @@ def party_mon(h, slot):
 
 
 def setup_attacker(h, species, level, moves, item=0, form=0, status=None, slot_to=0, ability=None):
-    mon = h.generate_pokemon(species, level=level, item=item, form=form)
+    h.generate_pokemon(species, level=level, item=item, form=form)
     fields = E.moveset(moves, [30] * len(moves))
     if ability is not None:
         fields['ability'] = ability
