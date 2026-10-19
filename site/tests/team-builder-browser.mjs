@@ -171,6 +171,22 @@ try {
   await dp.locator('#tb-details h3').waitFor();
   assert.match(await dp.locator('#tb-save-status').textContent(), /storage is unavailable/); checks++;
   await denied.close();
+  // Thumbnails load the 96 px sprite; only the guide heading loads the large HOME artwork.
+  const art = await browser.newContext({ viewport: { width: 1440, height: 1000 } });
+  const artRequests = [];
+  const pixel = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=', 'base64');
+  await art.route('**/*', route => {
+    const url = route.request().url();
+    if (url.includes('PokeAPI/sprites')) { artRequests.push(url); return route.fulfill({ contentType: 'image/png', body: pixel }); }
+    return new URL(url).origin === new URL(base).origin ? route.continue() : route.abort();
+  });
+  const ap = await art.newPage(); await ap.goto(new URL('team-builder/#team=3,94,196', base).href);
+  await ap.locator('#tb-details h3').waitFor();
+  await ap.waitForFunction(() => [...document.querySelectorAll('#team-builder .tb-art img')].filter(img => img.getBoundingClientRect().top < innerHeight).every(img => img.complete));
+  check(await ap.locator('#team-builder .tb-art img').evaluateAll(imgs => imgs.filter(img => img.src.includes('/other/')).map(img => img.src.split('/').pop())), ['3.png'], 'only the guide heading loads HOME artwork');
+  check(artRequests.some(url => /\/sprites\/pokemon\/94\.png$/.test(url)), true, 'team slots load the sprite');
+  check(await ap.locator('#tb-details .tb-detail-heading img').getAttribute('src').then(src => src.includes('/other/home/3.png')), true, 'guide heading keeps HOME artwork');
+  await art.close();
   const nojs = await browser.newContext({ javaScriptEnabled: false });
   const np = await nojs.newPage(); await np.goto(new URL('team-builder/', base).href);
   check(await np.locator('noscript a').getAttribute('href'), new URL('pokemon/', base).pathname, 'no-JS fallback');

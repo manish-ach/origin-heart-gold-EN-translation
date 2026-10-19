@@ -11,15 +11,20 @@ export const escape = (value: unknown) => String(value ?? '').replace(/[&<>"']/g
 const labels: Record<string, string> = { documented: 'Documented source', unknown: 'No known source', battle: 'Battle only', unavailable: 'Unavailable' };
 const kinds: Record<string, string> = { gift: 'Gift', egg: 'Gift Egg', trade: 'Trade', loan: 'Loan', 'loan-return': 'Loan return', starter: 'Starter choice', prize: 'Prize', static: 'Scripted encounter' };
 export const hues: Record<string, number> = { Normal: 42, Grass: 140, Poison: 280, Fire: 22, Water: 205, Electric: 46, Ice: 182, Fighting: 10, Ground: 32, Flying: 220, Psychic: 326, Bug: 85, Rock: 40, Ghost: 268, Dragon: 250, Dark: 255, Steel: 195, Fairy: 330 };
-/** Pokémon artwork in its type-coloured frame (shared with the damage calculator page). */
-export function artHtml(baseSpeciesId: number, formId: number, type: string, extra = '') {
+/** Pokémon artwork in its type-coloured frame (shared with the damage calculator page). Thumbnails load the 96 px
+ * sprite (about 1 KB); only `large` images load the 512 px HOME artwork (about 150 KB). */
+export function artHtml(baseSpeciesId: number, formId: number, type: string, extra = '', large = false) {
   const image = referenceArtwork(baseSpeciesId, formId);
-  return `<span class="tb-art${extra}" style="--mon-hue:${hues[type] ?? 42}">${image ? `<img src="${escape(image.src)}" data-fallback="${escape(image.fallback)}" alt="" width="128" height="128" loading="lazy" />` : '<span class="tb-art-empty" aria-hidden="true">◇</span>'}</span>`;
+  const fallbacks = large ? [image?.fallback] : [image?.src, image?.fallback];
+  return `<span class="tb-art${extra}" style="--mon-hue:${hues[type] ?? 42}">${image ? `<img src="${escape(large ? image.src : image.sprite)}"${large ? '' : ' class="tb-sprite"'} data-fallback="${escape(fallbacks.join(' '))}" alt="" width="${large ? 128 : 96}" height="${large ? 128 : 96}" loading="lazy" decoding="async" />` : '<span class="tb-art-empty" aria-hidden="true">◇</span>'}</span>`;
 }
-/** Falls back to the second artwork source, then hides a missing image. */
+/** Tries the next artwork source in `data-fallback` (sprite, HOME, official), then hides a missing image. */
 export const wireImages = (parent: HTMLElement) => parent.querySelectorAll<HTMLImageElement>('img[data-fallback]').forEach(img => {
+  if (img.dataset.wired) return;
+  img.dataset.wired = '1';
   img.addEventListener('error', () => {
-    if (img.dataset.fallback) { const fallback = img.dataset.fallback; delete img.dataset.fallback; img.src = fallback; }
+    const [next, ...rest] = (img.dataset.fallback ?? '').split(' ').filter(Boolean);
+    if (next) { img.dataset.fallback = rest.join(' '); img.classList.remove('tb-sprite'); img.src = next; }
     else { img.hidden = true; img.parentElement!.classList.add('tb-art-unavailable'); }
   });
 });
@@ -37,7 +42,7 @@ export function setupTeamBuilder() {
   const link = (href: string | null, text: unknown) => href ? `<a href="${escape(url(href))}">${escape(text)}</a>` : escape(text);
   const types = (mon: Mon) => mon.types.map(type => `<span class="type type-${escape(type.toLowerCase())}">${escape(type)}</span>`).join('');
   const tone = (mon: Mon) => `style="--mon-hue:${hues[mon.types[0]] ?? 42}"`;
-  const art = (mon: Mon, extra = '') => artHtml(mon.baseSpeciesId, mon.formId, mon.types[0], extra);
+  const art = (mon: Mon, extra = '', large = false) => artHtml(mon.baseSpeciesId, mon.formId, mon.types[0], extra, large);
   let team: number[] = [];
   let sets: Record<number, any> = {};
   let opponent: any = null;
@@ -214,7 +219,7 @@ export function setupTeamBuilder() {
       const detail = cache.get(id);
       const members = detail.members;
       const evolutionNotes = [...new Set(detail.members.flatMap((member: any) => member.evoNotes))];
-      panel.innerHTML = `<div class="tb-detail-heading" ${tone(mon)}><div><span class="tb-eyebrow">#${String(mon.baseSpeciesId).padStart(3, '0')} · ${escape(mon.region)}</span><h3>${escape(mon.name)}</h3><span>${types(mon)}</span><p>${link(`/pokemon/${mon.slug}/`, 'Pokédex →')}</p>${mon.formId ? '<small class="tb-help">Standard-form artwork</small>' : ''}</div>${art(mon)}</div>
+      panel.innerHTML = `<div class="tb-detail-heading" ${tone(mon)}><div><span class="tb-eyebrow">#${String(mon.baseSpeciesId).padStart(3, '0')} · ${escape(mon.region)}</span><h3>${escape(mon.name)}</h3><span>${types(mon)}</span><p>${link(`/pokemon/${mon.slug}/`, 'Pokédex →')}</p>${mon.formId ? '<small class="tb-help">Standard-form artwork</small>' : ''}</div>${art(mon, '', true)}</div>
         <details class="tb-stat-details"><summary>Base stats &amp; abilities <span>BST ${mon.stats.reduce((a, b) => a + b, 0)}</span></summary><div class="tb-stat-grid">${['HP', 'Attack', 'Defense', 'Sp. Atk', 'Sp. Def', 'Speed'].map((name, i) => `<div><span>${name}</span><strong>${mon.stats[i]}</strong><i style="--stat:${Math.min(100, mon.stats[i] / 2)}%"></i></div>`).join('')}</div>
         <p class="tb-help">${escape(mon.abilities.join(' / ') || 'None documented')}${mon.hidden ? ` · Hidden: ${escape(mon.hidden)}` : ''}</p></details>
         <h4>Evolution journey <span>${detail.steps.length ? 'Tap a stage to find it' : ''}</span></h4>

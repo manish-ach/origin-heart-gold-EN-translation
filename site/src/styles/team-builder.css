@@ -48,6 +48,8 @@ body:has(#team-builder) { --sl-content-width: 82rem; }
 #team-builder .tb-art::before { content: ''; position: absolute; inset: 15% 5% 0; z-index: -1; border-radius: 50%; background: radial-gradient(ellipse, hsl(var(--mon-hue, 42) 55% 72% / .32), transparent 70%); }
 #team-builder .tb-art img { position: absolute; inset: 0; width: 100%; height: 100%; min-height: 0; max-height: 100%; margin: 0; object-fit: contain; filter: drop-shadow(0 5px 3px #00000010); transition: transform .18s; }
 #team-builder :is(.tb-mon,.tb-slot-select):hover .tb-art img { transform: translateY(-4px) rotate(-3deg); }
+/* The 96 px sprite has a wide transparent margin: crop it like .pokemon-sprite in custom.css. */
+#team-builder .tb-art img.tb-sprite { inset: -16.667%; width: 133.333%; height: 133.333%; max-height: none; }
 #team-builder .tb-art-unavailable::after { content: '◇'; color: hsl(var(--mon-hue) 25% 52%); font-size: 2rem; }
 #team-builder .type { min-width: 0; margin: .15rem .1rem 0; padding: .05rem .4rem; border-radius: 5px; font-size: .6rem; font-weight: 600; text-shadow: none; }
 #team-builder .tb-workspace { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(20rem, 1fr); align-items: start; gap: 1.5rem; margin: 1.7rem 0 0; }
