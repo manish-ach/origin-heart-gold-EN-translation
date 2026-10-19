@@ -434,11 +434,27 @@ a.ability-link { display: flex; align-items: center; min-height: 24px; }
 /* ---- guide pages on phones (site/public/ohg.js setupMobileGuide sets <html data-ohg-mobile> below 50rem).
    One flat sequence: steps are rows on a rail, the quests a step opens sit under it as rows with their Done tick, and
    a dock at the bottom opens the Sections and Quests sheets. The controls it adds are hidden everywhere else. */
-.ohg-m-row, .ohg-m-dock, .ohg-m-sheet:not([open]) { display: none; }
+.ohg-m-row, .ohg-m-dock, .ohg-m-extra, .ohg-m-sheet:not([open]) { display: none; }
 @media (max-width: 50rem) {
   :root[data-ohg-mobile] { --sl-mobile-toc-height: 0rem; --ohg-m-rail: 1.35rem; }
   :root[data-ohg-mobile] mobile-starlight-toc, :root[data-ohg-mobile] .page-heading-art, :root[data-ohg-mobile] .ohg-m-hidden,
-  :root[data-ohg-mobile] .sl-markdown-content .sl-anchor-link { display: none; }
+  :root[data-ohg-mobile] .sl-markdown-content .sl-anchor-link, :root[data-ohg-mobile] .pagination-links,
+  :root[data-ohg-mobile] .chapter-hidden-items { display: none; }
+  :root[data-ohg-mobile] .ohg-m-extra { display: block; }
+  /* hierarchy: one size for section headings, the rows below them, then body text; wider gaps between sections */
+  :root[data-ohg-mobile] h1#_top { font-size: 1.85rem; }
+  :root[data-ohg-mobile] .sl-markdown-content > h2, :root[data-ohg-mobile] .sl-markdown-content > .sl-heading-wrapper > h2 { font-size: 1.3rem; }
+  :root[data-ohg-mobile] .sl-markdown-content > .sl-heading-wrapper { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--sl-color-gray-6); }
+  :root[data-ohg-mobile] .sl-markdown-content > .sl-heading-wrapper + * { margin-top: .75rem; }
+  :root[data-ohg-mobile] .sl-markdown-content > p { font-size: 1rem; line-height: 1.6; }
+  :root[data-ohg-mobile] .ohg-m-label { display: block; margin-bottom: .1rem; font-size: .78rem; font-weight: 700; color: var(--sl-color-text-accent); }
+  :root[data-ohg-mobile] .ohg-m-label-warn { color: #d8534f; }
+  :root[data-theme='light'][data-ohg-mobile] .ohg-m-label-warn { color: #a3261f; }
+  :root[data-ohg-mobile] .ohg-m-yes, :root[data-ohg-mobile] .ohg-m-no { padding: .02rem .4rem; border-radius: .3rem; font-weight: 700; }
+  :root[data-ohg-mobile] .ohg-m-yes { background: #1e4b2e; color: #baf0c9; }
+  :root[data-ohg-mobile] .ohg-m-no { background: #562222; color: #ffc9c4; }
+  :root[data-theme='light'][data-ohg-mobile] .ohg-m-yes { background: #dcf3e2; color: #185c2e; }
+  :root[data-theme='light'][data-ohg-mobile] .ohg-m-no { background: #fbe1de; color: #8a1f17; }
   :root[data-ohg-mobile] .guide-page-heading { min-height: 0; }
   :root[data-ohg-mobile] .main-pane { padding-bottom: calc(5.5rem + env(safe-area-inset-bottom)); }
   :root[data-ohg-mobile] .sl-markdown-content > p { text-wrap: pretty; }
@@ -450,6 +466,7 @@ a.ability-link { display: flex; align-items: center; min-height: 24px; }
     min-width: 0; min-height: 48px; padding: .6rem 0; border: 0; background: none; color: var(--sl-color-white); font: inherit; text-align: left; cursor: pointer;
   }
   :root[data-ohg-mobile] .ohg-m-title { grid-column: 1; font-size: 1rem; font-weight: 650; line-height: 1.35; text-wrap: balance; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step > .ohg-m-row .ohg-m-title { font-size: 1.08rem; font-weight: 700; }
   :root[data-ohg-mobile] .ohg-m-meta { grid-column: 1; margin-top: .15rem; font-size: .8rem; line-height: 1.4; color: var(--sl-color-gray-3); }
   :root[data-ohg-mobile] .ohg-m-warn { color: #d8534f; }
   :root[data-theme='light'][data-ohg-mobile] .ohg-m-warn { color: #a3261f; }
@@ -474,7 +491,8 @@ a.ability-link { display: flex; align-items: center; min-height: 24px; }
   :root[data-ohg-mobile] .chapter-step.ohg-m-step + .chapter-step.ohg-m-step > .ohg-m-row { border-top: 1px solid var(--sl-color-gray-6); }
   :root[data-ohg-mobile] .chapter-step.ohg-m-step > .ohg-m-row .ohg-m-toggle { padding-block: .8rem; }
   :root[data-ohg-mobile] .chapter-step.ohg-m-step:not([data-open]) > :not(.ohg-m-row) { display: none; }
-  :root[data-ohg-mobile] .chapter-step.ohg-m-step > :not(.ohg-m-row) { margin: 0 0 .9rem; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step > :not(.ohg-m-row) { margin: 0 0 1rem; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step[data-open] { padding-bottom: .75rem; }
   :root[data-ohg-mobile] .chapter-step.ohg-m-step > p { font-size: 1rem; line-height: 1.6; }
   :root[data-ohg-mobile] .chapter-step.ohg-m-step > p:first-of-type > strong:first-child { display: none; }
   :root[data-ohg-mobile] .chapter-step.ohg-m-step > .chapter-unlocks { display: none; }
@@ -496,7 +514,38 @@ a.ability-link { display: flex; align-items: center; min-height: 24px; }
   :root[data-ohg-mobile] section.quest.ohg-m-fold > .ohg-m-row .ohg-m-title { font-weight: 550; }
   :root[data-ohg-mobile] section.quest.ohg-m-done > .ohg-m-row .ohg-m-title { color: var(--sl-color-gray-3); text-decoration: line-through; text-decoration-color: var(--sl-color-gray-4); }
   :root[data-ohg-mobile] section.quest.ohg-m-fold:not([data-open]) > :not(.ohg-m-row) { display: none; }
-  :root[data-ohg-mobile] section.quest.ohg-m-fold > :not(.ohg-m-row) { margin-block: 0 .75rem; font-size: 1rem; }
+  :root[data-ohg-mobile] section.quest.ohg-m-fold > :not(.ohg-m-row) { margin-block: 0 .85rem; font-size: 1rem; line-height: 1.6; }
+  :root[data-ohg-mobile] section.quest.ohg-m-fold[data-open] { padding-bottom: .5rem; }
+  :root[data-ohg-mobile] section.quest.ohg-m-fold > .quest-meta { margin-top: -.25rem !important; }
+  :root[data-ohg-mobile] section.quest.ohg-m-fold .table-scroll { margin-block: .25rem 1rem; }
+  :root[data-ohg-mobile] section.quest.ohg-m-fold table:not(.ohg-m-stack) :is(th, td) { padding: .6rem .75rem; font-size: .9rem; line-height: 1.5; vertical-align: top; }
+  :root[data-ohg-mobile] section.quest.ohg-m-fold table:not(.ohg-m-stack) th { font-size: .78rem; font-weight: 700; color: var(--sl-color-gray-3); }
+  /* a prose table one row at a time: the first column is the row's title, the rest sit under their column name */
+  :root[data-ohg-mobile] .table-scroll:has(> table.ohg-m-stack) { overflow: visible; border: 0; background: none; }
+  :root[data-ohg-mobile] .sl-markdown-content table.ohg-m-stack { display: block; border: 0; background: none; font-size: .95rem; }
+  :root[data-ohg-mobile] table.ohg-m-stack thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  :root[data-ohg-mobile] table.ohg-m-stack tbody { display: block; }
+  :root[data-ohg-mobile] table.ohg-m-stack tr { display: block; margin: 0; padding: .7rem 0; border: 0; border-top: 1px solid var(--sl-color-gray-6); background: none; }
+  :root[data-ohg-mobile] table.ohg-m-stack tr:first-child { border-top: 0; padding-top: 0; }
+  :root[data-ohg-mobile] .sl-markdown-content table.ohg-m-stack td, :root[data-ohg-mobile] .sl-markdown-content .table-scroll > table.ohg-m-stack > tbody > tr > td { display: block; padding: .15rem 0; border: 0; background: none; line-height: 1.5; }
+  :root[data-ohg-mobile] .sl-markdown-content table.ohg-m-stack td::before { content: attr(data-label); display: block; font-size: .72rem; font-weight: 700; color: var(--sl-color-gray-3); }
+  :root[data-ohg-mobile] .sl-markdown-content table.ohg-m-stack td:first-child, :root[data-ohg-mobile] .sl-markdown-content .table-scroll > table.ohg-m-stack > tbody > tr > td:first-child {
+    position: static; padding-top: 0; min-width: 0; max-width: none; box-shadow: none; font-weight: 700; color: var(--sl-color-white);
+  }
+  :root[data-ohg-mobile] .sl-markdown-content table.ohg-m-stack td:first-child::before { content: none; }
+  :root[data-ohg-mobile] .sl-markdown-content table.ohg-m-stack td:empty { display: none; }
+  :root[data-ohg-mobile] .sl-markdown-content table.ohg-m-stack tbody tr:hover > td { background: none; }
+  /* hidden items under their step: the place as a row, then each item with its picture */
+  :root[data-ohg-mobile] .ohg-m-areas { margin: 0 0 .5rem; border-top: 1px solid var(--sl-color-gray-6); }
+  :root[data-ohg-mobile] .chapter-hidden-area.ohg-m-fold { margin: 0; }
+  :root[data-ohg-mobile] .chapter-hidden-area.ohg-m-fold + .chapter-hidden-area.ohg-m-fold > .ohg-m-row { border-top: 1px solid var(--sl-color-gray-6); }
+  :root[data-ohg-mobile] .chapter-hidden-area.ohg-m-fold:not([data-open]) > :not(.ohg-m-row) { display: none; }
+  :root[data-ohg-mobile] .chapter-hidden-area.ohg-m-fold > :not(.ohg-m-row) { margin: 0 0 .75rem; font-size: .95rem; line-height: 1.55; }
+  :root[data-ohg-mobile] .chapter-hidden-area.ohg-m-fold > p > strong:first-child:not(.ohg-m-label) { display: block; margin-top: .5rem; font-size: 1rem; }
+  :root[data-ohg-mobile] .chapter-hidden-area.ohg-m-fold > p > img, :root[data-ohg-mobile] .chapter-hidden-area.ohg-m-fold > img {
+    display: block; width: 100%; height: auto; margin: .25rem 0 1rem; border-radius: .6rem; background: var(--sl-color-gray-6); image-rendering: auto;
+  }
+  :root[data-ohg-mobile] .ohg-m-extra::after { background: var(--sl-color-bg); border: 1.5px solid var(--sl-color-gray-4); }
   :root[data-ohg-mobile] section.quest.ohg-m-fold > .sl-heading-wrapper {
     position: absolute; top: 0; scroll-margin-top: 4.5rem; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
   }
@@ -508,17 +557,23 @@ a.ability-link { display: flex; align-items: center; min-height: 24px; }
 
   /* dock */
   :root[data-ohg-mobile] .ohg-m-dock {
-    position: fixed; z-index: var(--ohg-z-dock); left: max(.75rem, env(safe-area-inset-left)); right: max(.75rem, env(safe-area-inset-right)); bottom: calc(.75rem + env(safe-area-inset-bottom));
-    display: flex; gap: .25rem; padding: .3rem; border-radius: 999px; background: var(--sl-color-white); color: var(--sl-color-bg);
-    box-shadow: 0 8px 28px rgb(0 0 0 / .28);
+    position: fixed; z-index: var(--ohg-z-dock); left: max(.6rem, env(safe-area-inset-left)); right: max(.6rem, env(safe-area-inset-right)); bottom: calc(.6rem + env(safe-area-inset-bottom));
+    display: grid; grid-template-columns: 46px 1fr 1fr 46px; align-items: center; gap: .2rem; padding: .3rem; border-radius: 1.1rem;
+    background: #141c27; color: #f3f5f7; box-shadow: inset 0 1px 0 rgb(255 255 255 / .08), 0 1px 0 rgb(0 0 0 / .2), 0 14px 34px rgb(0 0 0 / .35);
   }
-  :root[data-ohg-mobile] .ohg-m-dock button {
-    flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 46px; padding: 0 1rem;
-    border: 0; border-radius: 999px; background: none; color: inherit; font: inherit; font-size: .92rem; font-weight: 650; cursor: pointer;
+  :root[data-theme='light'][data-ohg-mobile] .ohg-m-dock { background: #1f2834; }
+  :root[data-ohg-mobile] .ohg-m-dock button, :root[data-ohg-mobile] .ohg-m-dock-turn {
+    display: inline-flex; align-items: center; justify-content: center; gap: .45rem; min-height: 46px; padding: 0 .75rem;
+    border: 0; border-radius: .85rem; background: none; color: inherit; font: inherit; font-size: .9rem; font-weight: 650; text-decoration: none; cursor: pointer;
+    transition: background-color .15s ease-out;
   }
-  :root[data-ohg-mobile] .ohg-m-dock button:active { background: rgb(128 128 128 / .18); }
-  :root[data-ohg-mobile] .ohg-m-dock .ohg-m-dock-quests { background: var(--sl-color-accent); color: #1b1406; }
-  :root[data-theme='light'][data-ohg-mobile] .ohg-m-dock .ohg-m-dock-quests { color: #fff; }
+  :root[data-ohg-mobile] .ohg-m-dock button:active, :root[data-ohg-mobile] a.ohg-m-dock-turn:active { background: rgb(255 255 255 / .12); }
+  :root[data-ohg-mobile] .ohg-m-dock-turn { padding: 0; width: 46px; color: #c9d1db; }
+  :root[data-ohg-mobile] span.ohg-m-dock-turn { color: rgb(255 255 255 / .18); }
+  :root[data-ohg-mobile] .ohg-m-dock .ohg-m-dock-sections { background: rgb(255 255 255 / .06); }
+  :root[data-ohg-mobile] .ohg-m-dock .ohg-m-dock-quests { background: var(--sl-color-accent); color: #1b1406; box-shadow: inset 0 1px 0 rgb(255 255 255 / .25); }
+  :root[data-theme='light'][data-ohg-mobile] .ohg-m-dock .ohg-m-dock-quests { background: #d7ad51; }
+  :root[data-ohg-mobile] .ohg-m-dock .ohg-m-dock-quests:active { filter: brightness(1.08); }
 
   /* sheets */
   :root[data-ohg-mobile] .ohg-m-sheet[open] {

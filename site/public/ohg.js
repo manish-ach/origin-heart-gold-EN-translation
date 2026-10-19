@@ -203,15 +203,54 @@
 			setOpen(q, false);
 		});
 
-		// steps: a row that opens the text, then the quests it opens (moved in from the quests section), then the warning
-		const places = new Map(); // quest -> the comment node that holds its place in the quests section
+		// hidden items: the chapter's locations (pictures and directions, see sync_guide.py chapter_hidden_areas) go under
+		// the first step that names the place; the rest gather in a "Hidden items nearby" step at the end
+		const areasBox = content.querySelector('.chapter-hidden-areas');
+		const areas = [...content.querySelectorAll('.chapter-hidden-area')];
+		const areasOf = new Map(); // step -> its areas
+		const spare = [];
+		// The locations come in route order, like the steps, so each goes to the first step at or after the previous
+		// location's step whose title names it, or failing that whose text does; "Mt. Moon" never matches inside
+		// "Mt. Moon Square", because longer location names are blanked out of the text first.
+		const names = areas.map((a) => a.dataset.area.toLowerCase()).sort((x, y) => y.length - x.length);
+		const blank = (text, name) => names.filter((n) => n !== name && n.includes(name)).reduce((t, n) => t.split(n).join(' '), text);
+		const named = steps.map((s) => [s, s.dataset.title?.toLowerCase() || '', (s.querySelector('p')?.textContent || '').toLowerCase()]);
+		let from = 0;
+		for (const area of areas) {
+			const name = area.dataset.area.toLowerCase();
+			const after = named.slice(from);
+			const hit = after.find(([, title]) => blank(title, name).includes(name)) || after.find(([, , text]) => blank(text, name).includes(name));
+			if (!hit) { spare.push(area); continue; }
+			areasOf.set(hit[0], [...(areasOf.get(hit[0]) || []), area]);
+			from = named.indexOf(hit);
+		}
+		areas.forEach((area) => {
+			const spots = parseInt(area.dataset.spots || '0', 10);
+			const toggle = el('button', 'ohg-m-toggle', `<span class="ohg-m-title">Hidden items: ${esc(area.dataset.area)}</span><span class="ohg-m-meta">${spots === 1 ? '1 spot' : spots + ' spots'} · pictures show where to press A</span>${chevron}`);
+			toggle.type = 'button';
+			toggle.addEventListener('click', () => setOpen(area, !area.hasAttribute('data-open')));
+			const row = el('div', 'ohg-m-row');
+			row.append(toggle);
+			area.prepend(row);
+			area.classList.add('ohg-m-fold', 'ohg-m-area');
+			setOpen(area, false);
+		});
+		areasOf.forEach((list, step) => list.sort((x, y) => areas.indexOf(x) - areas.indexOf(y)));
+
+		// steps: a row that opens the text, then the quests it opens (moved in from the quests section), the warning
+		// and the hidden items of the place
+		const places = new Map(); // moved node -> the comment that holds its place
+		const park = (node) => { if (!places.has(node)) { const c = document.createComment('moved'); node.before(c); places.set(node, c); } };
 		steps.forEach((step, i) => {
 			const title = step.dataset.title || step.querySelector('p strong')?.textContent.replace(/[.:]\s*$/, '') || `Step ${i + 1}`;
 			const unlocks = step.querySelector('.chapter-unlocks');
 			const mine = [...(unlocks?.querySelectorAll('li.chapter-quest') || [])].map((li) => questById.get(li.dataset.questId)).filter(Boolean);
+			const hidden = areasOf.get(step) || [];
+			const spots = hidden.reduce((n, a) => n + parseInt(a.dataset.spots || '0', 10), 0);
 			const meta = [];
 			if (step.classList.contains('chapter-optional')) meta.push('Optional');
 			if (mine.length) meta.push(mine.length === 1 ? '1 quest' : `${mine.length} quests`);
+			if (spots) meta.push(spots === 1 ? '1 hidden item' : `${spots} hidden items`);
 			if (step.querySelector('.chapter-warning')) meta.push('<span class="ohg-m-warn">Closes a missable</span>');
 			const toggle = el('button', 'ohg-m-toggle', `<span class="ohg-m-title">${esc(title)}</span>${meta.length ? `<span class="ohg-m-meta">${meta.join(' · ')}</span>` : ''}${chevron}`);
 			toggle.type = 'button';
@@ -220,36 +259,69 @@
 			row.append(toggle);
 			step.prepend(row);
 			step.classList.add('ohg-m-fold', 'ohg-m-step');
-			step.dataset.quests = String(mine.length);
 			if (mine.length) {
 				const list = el('div', 'ohg-m-quests');
-				list.dataset.for = step.id || '';
-				unlocks.after(list);
+				(unlocks || step).after(list);
 				step.ohgQuests = { list, mine };
+			}
+			if (hidden.length) {
+				const list = el('div', 'ohg-m-areas');
+				step.append(list);
+				step.ohgAreas = { list, hidden };
 			}
 			setOpen(step, false);
 		});
+		let spareStep = null;
+		if (spare.length && steps.length) {
+			spareStep = el('div', 'chapter-step chapter-optional ohg-m-fold ohg-m-step ohg-m-extra');
+			const toggle = el('button', 'ohg-m-toggle', `<span class="ohg-m-title">Hidden items nearby</span><span class="ohg-m-meta">${spare.length === 1 ? '1 place' : spare.length + ' places'} this chapter passes</span>${chevron}`);
+			toggle.type = 'button';
+			toggle.addEventListener('click', () => setOpen(spareStep, !spareStep.hasAttribute('data-open')));
+			const row = el('div', 'ohg-m-row');
+			row.append(toggle);
+			spareStep.append(row, el('div', 'ohg-m-areas'));
+			steps[steps.length - 1].after(spareStep);
+			setOpen(spareStep, false);
+		}
 		const placed = new Set(steps.flatMap((s) => s.ohgQuests?.mine || []));
 		const loose = quests.filter((q) => !placed.has(q)); // quests no step opens: they stay where they are
 		const questsHeading = document.getElementById('quests-in-this-chapter')?.closest('.sl-heading-wrapper') || document.getElementById('quests-in-this-chapter');
 		const questsIntro = questsHeading?.nextElementSibling?.matches('p') ? questsHeading.nextElementSibling : null;
 		const moveIn = () => {
 			for (const step of steps) {
-				if (!step.ohgQuests) continue;
-				for (const q of step.ohgQuests.mine) {
-					if (!places.has(q)) { const c = document.createComment('quest'); q.before(c); places.set(q, c); }
-					step.ohgQuests.list.append(q);
-				}
+				for (const q of step.ohgQuests?.mine || []) { park(q); step.ohgQuests.list.append(q); }
+				for (const a of step.ohgAreas?.hidden || []) { park(a); step.ohgAreas.list.append(a); }
 			}
+			if (spareStep) for (const a of spare) { park(a); spareStep.querySelector('.ohg-m-areas').append(a); }
 			questsHeading?.classList.toggle('ohg-m-hidden', !loose.length);
 			questsIntro?.classList.toggle('ohg-m-hidden', !loose.length);
 		};
 		const moveBack = () => {
-			for (const [q, c] of places) c.replaceWith(q);
+			for (const [node, c] of places) c.replaceWith(node);
 			places.clear();
 			questsHeading?.classList.remove('ohg-m-hidden');
 			questsIntro?.classList.remove('ohg-m-hidden');
 		};
+
+		// at a glance: "Where:", "Reward:" and the other lead-ins become labels on their own line; Yes and No answers
+		// get their colours; prose tables stack one row at a time
+		for (const strong of content.querySelectorAll('section.quest p > strong:first-child, .sl-markdown-content > p > strong:first-child, .chapter-hidden-area p > strong:first-child')) {
+			if (!/:\s*$/.test(strong.textContent) || strong.textContent.length >= 48) continue;
+			strong.classList.add('ohg-m-label');
+			if (/^(warning|watch out|missable|deadline|one chance)/i.test(strong.textContent)) strong.classList.add('ohg-m-label-warn');
+		}
+		for (const strong of content.querySelectorAll('section.quest strong, .chapter-step > p strong')) {
+			const m = strong.textContent.trim().match(/^(?:answer\s+)?(yes|no)\b/i);
+			if (m) strong.classList.add(m[1].toLowerCase() === 'yes' ? 'ohg-m-yes' : 'ohg-m-no');
+		}
+		for (const table of content.querySelectorAll('section.quest table')) {
+			const heads = [...table.querySelectorAll('thead th')].map((th) => th.textContent.trim());
+			const rows = [...table.querySelectorAll('tbody tr')];
+			if (heads.length < 2 || !rows.length || rows.length > 14) continue;
+			if (!rows.some((tr) => [...tr.cells].some((td) => td.textContent.trim().length > 36))) continue;
+			rows.forEach((tr) => [...tr.cells].forEach((td, i) => { if (heads[i]) td.dataset.label = heads[i]; }));
+			table.classList.add('ohg-m-stack');
+		}
 
 		// sheets: a native modal <dialog> (focus, Escape and the top layer for free); a tap on the backdrop closes it
 		const sheet = (id, title) => {
@@ -271,6 +343,18 @@
 			dock.append(b);
 			return b;
 		};
+		// the previous and next chapter, from the links at the end of the page
+		const turn = (rel, icon) => {
+			const link = document.querySelector(`.pagination-links a[rel="${rel}"]`);
+			const a = el(link ? 'a' : 'span', `ohg-m-dock-turn ohg-m-dock-${rel}`, icon);
+			if (link) {
+				a.href = link.href;
+				a.setAttribute('aria-label', `${rel === 'prev' ? 'Previous' : 'Next'}: ${link.querySelector('.link-title')?.textContent.trim() || ''}`);
+			} else a.setAttribute('aria-hidden', 'true');
+			dock.append(a);
+			return a;
+		};
+		turn('prev', '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
 
 		// Sections: the walkthrough steps and the page's other headings
 		const sections = sheet('ohg-m-sections', 'On this page');
@@ -346,6 +430,7 @@
 			const questsButton = dockButton('Quests', '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 11l3 3 8-8M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>', 'ohg-m-dock-quests');
 			questsButton.addEventListener('click', () => { render(); questsSheet.showModal(); });
 		}
+		turn('next', '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="m9 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
 		document.body.append(dock);
 
 		// switch between the phone layout and the normal one as the width changes
