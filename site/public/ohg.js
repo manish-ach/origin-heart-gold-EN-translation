@@ -548,8 +548,8 @@
 	}
 
 	// ---------------------------------------------------------------- sprites on phones
-	// Pokémon named with a level ("Scyther Lv. 11", also in a trainer's bracketed team), Pokémon and items in table
-	// columns about them, rewards and hidden items get a PokéAPI sprite beside the name. The names come from
+	// Every Pokémon, item and Berry named in the text gets its PokéAPI sprite beside the name; one named with a level
+	// ("Scyther Lv. 11", also in a trainer's bracketed team) becomes a chip with the level. The names come from
 	// /sprites.json. Nothing changes for wider screens: the text stays as written and the pictures are hidden.
 	const SPRITES = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites';
 	let spriteNames = null;
@@ -559,16 +559,16 @@
 		spriteNames ||= fetch(base + 'sprites.json').then((r) => r.ok ? r.json() : null).catch(() => null);
 		spriteNames.then((names) => {
 			if (!names) return;
-			const rx = (list) => new RegExp('(?<![\\w’\'])(' + list.sort((a, b) => b.length - a.length).map((n) => n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')(?![\\w’\'])', 'g');
+			const rx = (list) => new RegExp('(?<![\\w’\'])(' + list.sort((a, b) => b.length - a.length).map((n) => n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')(s?)(?!\\w)', 'g');
 			const monRx = rx(Object.keys(names.p));
 			const itemRx = rx(Object.keys(names.i));
 			const monImg = (id) => `<img class="ohg-m-sprite ohg-m-sprite-mon" src="${SPRITES}/pokemon/${id}.png" width="40" height="40" alt="" loading="lazy" decoding="async">`;
 			const itemImg = (slug) => `<img class="ohg-m-sprite ohg-m-sprite-item" src="${SPRITES}/items/${slug}.png" width="30" height="30" alt="" loading="lazy" decoding="async">`;
 			// replace matches of `re` inside the text nodes under `root`, leaving links and pictures alone
 			const mark = (root, re, build) => {
-				const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: (n) => n.parentElement.closest('.ohg-m-mon, .ohg-m-item, .ohg-m-row, .tech, script, style') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+				const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: (n) => n.parentElement.closest('.ohg-m-mon, .ohg-m-item, .ohg-m-row, .ohg-m-label, .tech, .quest-meta, .game-setup, .quest-tools, .chapter-unlocks, h1, h2, h3, h4, summary, script, style') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
 				const nodes = [];
-				for (let n = walker.nextNode(); n; n = walker.nextNode()) if (re.test(n.data)) nodes.push(n);
+				for (let n = walker.nextNode(); n; n = walker.nextNode()) { re.lastIndex = 0; if (re.test(n.data)) nodes.push(n); }
 				re.lastIndex = 0;
 				for (const n of nodes) {
 					const html = n.data.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[c]).replace(re, build);
@@ -577,26 +577,15 @@
 					n.replaceWith(...span.childNodes);
 				}
 			};
-			const levelled = new RegExp(monRx.source + '(\\s+Lv\\.\\s?\\d+)', 'g');
-			const mon = (name, level = '') => `<span class="ohg-m-mon">${monImg(names.p[name])}<span class="ohg-m-mon-name">${name}</span>${level ? `<span class="ohg-m-mon-level">${level.trim()}</span>` : ''}</span>`;
+			const levelled = new RegExp(monRx.source + '(,?\\s+\\(?Lv\\.\\s?\\d+\\)?)', 'g'); // groups: name, plural s, level
+			const mon = (name, level = '', text = name) => `<span class="ohg-m-mon${level ? '' : ' ohg-m-mon-plain'}">${monImg(names.p[name])}<span class="ohg-m-mon-name">${text}</span>${level ? `<span class="ohg-m-mon-level">${level.replace(/[,()]/g, '').trim()}</span>` : ''}</span>`;
 			// a trainer's team in brackets: "(Beldum Lv. 12, Baltoy Lv. 11)" becomes a row of chips
 			const team = new RegExp('\\((' + levelled.source + '(?:,\\s*)?)+\\)', 'g');
-			mark(content, team, (m) => `<span class="ohg-m-team"><span class="ohg-m-punct">(</span>${m.slice(1, -1).replace(levelled, (_, name, level) => mon(name, level)).replace(/,\s*/g, '<span class="ohg-m-punct">, </span>')}<span class="ohg-m-punct">)</span></span>`);
-			mark(content, levelled, (_, name, level) => mon(name, level));
-			// columns about Pokémon or items, rewards, gifts and hidden items: the first name in the cell gets its picture
-			const columns = /^(pokémon|team|partner|starter|gift|reward|prize|item|what you get|receive|hold)/i;
-			const cells = [];
-			for (const table of content.querySelectorAll('table')) {
-				const heads = [...table.querySelectorAll('thead th')].map((th) => columns.test(th.textContent.trim()));
-				for (const tr of table.querySelectorAll('tbody tr')) [...tr.cells].forEach((td, i) => { if (heads[i]) cells.push(td); });
-			}
-			for (const p of content.querySelectorAll('p')) if (/^(reward|gift|prize|what you get)/i.test(p.querySelector('strong:first-child')?.textContent || '')) cells.push(p);
-			for (const strong of content.querySelectorAll('.chapter-hidden-area > p > strong:first-child')) cells.push(strong);
-			for (const cell of cells) {
-				let done = false;
-				mark(cell, monRx, (m) => done ? m : (done = true, mon(m)));
-				if (!done) mark(cell, itemRx, (m) => done ? m : (done = true, `<span class="ohg-m-item">${itemImg(names.i[m])}${m}</span>`));
-			}
+			mark(content, team, (m) => `<span class="ohg-m-team"><span class="ohg-m-punct">(</span>${m.slice(1, -1).replace(levelled, (_, name, s, level) => mon(name, level, name + s)).replace(/,\s*/g, '<span class="ohg-m-punct">, </span>')}<span class="ohg-m-punct">)</span></span>`);
+			mark(content, levelled, (_, name, s, level) => mon(name, level, name + s));
+			// then every other mention: Pokémon first (an item never contains a Pokémon's name), then items and Berries
+			mark(content, monRx, (m, name) => mon(name, '', m));
+			mark(content, itemRx, (m, name) => `<span class="ohg-m-item">${itemImg(names.i[name])}${m}</span>`);
 			content.querySelectorAll('img.ohg-m-sprite').forEach((img) => img.addEventListener('error', () => img.remove(), { once: true }));
 		});
 	}

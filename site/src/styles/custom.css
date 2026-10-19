@@ -683,13 +683,15 @@ a.ability-link { display: flex; align-items: center; min-height: 24px; }
     display: inline-flex; align-items: center; gap: .15rem; margin: .1rem .1rem .1rem 0; padding: .1rem .55rem .1rem .15rem; border-radius: 999px;
     background: var(--sl-color-gray-6); color: var(--sl-color-white); font-weight: 650; font-size: .88rem; line-height: 1.3; white-space: nowrap; vertical-align: middle;
   }
+  :root[data-ohg-mobile] .ohg-m-mon-plain { margin: 0; padding: 0; gap: .05rem; background: none; font-weight: inherit; font-size: inherit; white-space: normal; }
+  :root[data-ohg-mobile] .ohg-m-mon-plain .ohg-m-sprite-mon { width: 28px; height: 28px; margin: -.35rem -.1rem -.35rem -.2rem; }
   :root[data-ohg-mobile] .ohg-m-mon-level { margin-left: .3rem; font-weight: 500; font-size: .78rem; color: var(--sl-color-gray-3); }
   :root[data-ohg-mobile] .ohg-m-sprite { display: inline-block; }
   :root[data-ohg-mobile] .ohg-m-sprite-mon { width: 32px; height: 32px; margin: -.3rem 0; image-rendering: pixelated; }
   :root[data-ohg-mobile] .ohg-m-team { display: inline; }
   :root[data-ohg-mobile] .ohg-m-punct { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-  :root[data-ohg-mobile] .ohg-m-item { display: inline-flex; align-items: center; gap: .2rem; vertical-align: middle; }
-  :root[data-ohg-mobile] .ohg-m-sprite-item { width: 24px; height: 24px; image-rendering: pixelated; }
+  :root[data-ohg-mobile] .ohg-m-item { display: inline-flex; align-items: center; gap: .15rem; vertical-align: middle; }
+  :root[data-ohg-mobile] .ohg-m-sprite-item { width: 22px; height: 22px; margin: -.3rem 0; image-rendering: pixelated; }
   :root[data-ohg-mobile] table.ohg-m-stack td:first-child .ohg-m-mon, :root[data-ohg-mobile] table td .ohg-m-mon { font-size: .92rem; }
 }
 @media (max-width: 50rem) and (prefers-reduced-motion: reduce) {
