@@ -683,7 +683,9 @@
 			if (!sheet) build();
 			sheet.open ? sheet.close() : sheet.showModal();
 		}, true);
-		// <html data-ohg-phone> styles the button and the sheet on every page (data-ohg-mobile is the guide layout)
+		// <html data-ohg-phone> styles the button and the sheet on every page (data-ohg-mobile is the guide layout);
+		// data-ohg-home marks the home page, the one page that keeps the footer on a phone
+		document.documentElement.toggleAttribute('data-ohg-home', location.pathname.replace(/index\.html$/, '') === base);
 		const onChange = () => {
 			document.documentElement.toggleAttribute('data-ohg-phone', mq.matches);
 			if (!mq.matches && sheet?.open) sheet.close();
@@ -895,6 +897,7 @@
 		const label = (table) => {
 			const heads = [...table.querySelectorAll('thead th')].map((th) => th.textContent.trim());
 			if (!heads.length) return false;
+			table.querySelectorAll('thead th').forEach((th, i) => { if (heads[i]) th.dataset.label = heads[i]; });
 			for (const tr of table.querySelectorAll('tbody tr')) [...tr.cells].forEach((td, i) => { if (heads[i]) td.dataset.label = heads[i]; });
 			return heads;
 		};
@@ -945,6 +948,31 @@
 		if (tabs.length < 2) return;
 		// Where: the notes about chances and times are the long page's; a phone keeps the places
 		for (const n of content.querySelectorAll(':scope > [data-ohg-tab="where"]')) if (n.matches('p.small, details.enc-help')) n.classList.add('ohg-m-aside');
+		for (const li of content.querySelectorAll(':scope > ul.pokemon-acquisitions > li')) {
+			const kind = li.querySelector(':scope > strong');
+			if (!kind) continue;
+			const head = document.createElement('div');
+			head.className = 'ohg-m-acq-head not-content';
+			head.innerHTML = `<span class="ohg-m-acq-kind">${kind.textContent.trim()}</span>`;
+			// the level and the place follow the kind on the same line: "(Lv. 15): Route 5 House."
+			const lead = document.createElement('span');
+			lead.className = 'ohg-m-acq-lead';
+			let n = kind.nextSibling;
+			while (n && !(n.nodeType === 1 && n.matches('p'))) { const next = n.nextSibling; lead.append(n); n = next; }
+			lead.innerHTML = lead.innerHTML.replace(/^\s*\(Lv\.?\s*([^)]+)\)\s*:\s*/, '<span class="ohg-m-acq-level">Lv. $1</span> ').replace(/\.\s*$/, '');
+			head.append(lead);
+			li.classList.add('ohg-m-acq');
+			kind.classList.add('ohg-m-acq-strong');
+			kind.after(head);
+		}
+		const wild = content.querySelector(':scope > .table-scroll:has(> #wild-encounters-table), :scope > #wild-encounters-table');
+		if (wild) {
+			const band = document.createElement('div');
+			band.className = 'ohg-m-band not-content';
+			band.dataset.ohgTab = 'where';
+			band.textContent = 'Wild encounters';
+			wild.before(band);
+		}
 		// Evolution: the sentences become a chain of sprites (the names come from /sprites.json, see decorateSprites)
 		const evo = [...content.querySelectorAll(':scope > [data-ohg-tab="evolution"]')].filter((n) => !n.matches('h2'));
 		if (evo.length) {
