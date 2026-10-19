@@ -731,7 +731,6 @@
 			// then every other mention: Pokémon first (an item never contains a Pokémon's name), then items and Berries
 			mark(content, monRx, (m, name) => mon(name, '', m));
 			mark(content, itemRx, (m, name) => `<span class="ohg-m-item">${itemImg(names.i[name])}${m}</span>`);
-			content.querySelectorAll('img.ohg-m-sprite').forEach((img) => img.addEventListener('error', () => img.remove(), { once: true }));
 		});
 	}
 
@@ -873,6 +872,21 @@
 
 	// Pages that insert tables later (trainer cards on /trainers/) give them the same panel.
 	window.ohgTableScroll = setupTableScroll;
-	const init = () => { setupQuests(); setupFilters(); setupTableScroll(); setupMobileGuide(); setupMobileMenu(); };
+	// a sprite PokéAPI doesn't have (hack-only items, renamed forms) goes away instead of showing a broken picture
+	if (typeof document.addEventListener === 'function') {
+		document.addEventListener('error', (e) => { if (e.target instanceof HTMLImageElement && e.target.classList.contains('ohg-m-sprite')) e.target.remove(); }, true);
+	}
+	// The Items list renders its sprites hidden (they only show on phones), and the browser's own lazy loading never
+	// starts a picture that was hidden when the page loaded. On a phone, each one loads as it comes into view.
+	function setupItemSprites() {
+		const imgs = [...document.querySelectorAll('#item-table img.ohg-m-sprite')];
+		if (!imgs.length || typeof IntersectionObserver === 'undefined' || typeof matchMedia === 'undefined') return;
+		const mq = matchMedia('(max-width: 50rem)');
+		const io = new IntersectionObserver((entries) => {
+			for (const e of entries) if (e.isIntersecting && mq.matches) { e.target.loading = 'eager'; io.unobserve(e.target); }
+		}, { rootMargin: '300px' });
+		imgs.forEach((img) => io.observe(img));
+	}
+	const init = () => { setupQuests(); setupFilters(); setupTableScroll(); setupMobileGuide(); setupMobileMenu(); setupItemSprites(); };
 	document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', init) : init();
 })();

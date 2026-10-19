@@ -761,6 +761,37 @@ a.ability-link { display: flex; align-items: center; min-height: 24px; }
   :root[data-ohg-mobile] .ohg-m-chapter-sum { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; font-size: .85rem; line-height: 1.4; color: var(--sl-color-gray-3); }
   :root[data-ohg-mobile] .ohg-m-chapter-count { font-size: .75rem; font-weight: 600; color: var(--sl-color-gray-3); }
   :root[data-ohg-mobile] .ohg-m-chevron-go { transform: rotate(-90deg); }
+  /* the Pokédex and Items lists on phones: a grid of sprite and name, the details on each one's own page; the text
+     above the list goes, the filters tighten up */
+  :root[data-ohg-phone] .sl-markdown-content:has(> #mon-table, > .table-scroll > #mon-table, > #item-table, > .table-scroll > #item-table) > p { display: none; }
+  :root[data-ohg-phone] .page-heading-art { display: none; }
+  :root[data-ohg-phone] .guide-page-heading { min-height: 0; }
+  :root[data-ohg-phone] .sl-markdown-content:has(#mon-table, #item-table) .table-filter { display: grid; grid-template-columns: 1fr 1fr; gap: .4rem; margin: 0 0 .75rem; padding: 0; border: 0; background: none; }
+  :root[data-ohg-phone] .sl-markdown-content:has(#mon-table, #item-table) .table-filter input[type='search'], :root[data-ohg-phone] .sl-markdown-content:has(#mon-table, #item-table) .table-filter .filter-count { grid-column: 1 / -1; }
+  :root[data-ohg-phone] .sl-markdown-content:has(#mon-table, #item-table) .table-filter select { min-width: 0; font-size: .85rem; }
+  :root[data-ohg-phone] .sl-markdown-content:has(#mon-table, #item-table) .table-filter .filter-count { font-size: .75rem; color: var(--sl-color-gray-3); }
+  :root[data-ohg-phone] .table-scroll:has(> #mon-table), :root[data-ohg-phone] .table-scroll:has(> #item-table) { overflow: visible; border: 0; background: none; }
+  :root[data-ohg-phone] .table-scroll:has(> #mon-table) + .table-scroll-hint, :root[data-ohg-phone] .table-scroll:has(> #item-table) + .table-scroll-hint { display: none; }
+  :root[data-ohg-phone] .sl-markdown-content :is(#mon-table, #item-table) { display: block; border: 0; background: none; margin: 0; }
+  :root[data-ohg-phone] :is(#mon-table, #item-table) thead, :root[data-ohg-phone] :is(#mon-table, #item-table) td { display: none; }
+  :root[data-ohg-phone] :is(#mon-table, #item-table) tbody { display: grid; gap: .5rem; }
+  :root[data-ohg-phone] #mon-table tbody { grid-template-columns: repeat(auto-fill, minmax(6.25rem, 1fr)); }
+  :root[data-ohg-phone] #item-table tbody { grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr)); }
+  :root[data-ohg-phone] :is(#mon-table, #item-table) tr { display: flex; margin: 0; padding: 0; border: 0; border-radius: .8rem; background: var(--sl-color-bg-nav); }
+  :root[data-ohg-phone] :is(#mon-table, #item-table) tr[hidden] { display: none; }
+  :root[data-ohg-phone] :is(#mon-table, #item-table) tbody tr:hover > td { background: none; }
+  :root[data-ohg-phone] #mon-table td:nth-child(2), :root[data-ohg-phone] #item-table td:first-child,
+  :root[data-ohg-phone] .table-scroll > #mon-table > tbody > tr > td:nth-child(2), :root[data-ohg-phone] .table-scroll > #item-table > tbody > tr > td:first-child {
+    display: flex; flex: 1; flex-direction: column; align-items: center; justify-content: center; gap: .35rem; min-width: 0; max-width: none; padding: .7rem .4rem .6rem;
+    position: static; border: 0; background: none; box-shadow: none; text-align: center;
+  }
+  :root[data-ohg-phone] #mon-table .pokemon-cell { flex-direction: column; gap: .35rem; min-width: 0; }
+  :root[data-ohg-phone] #mon-table .pokemon-image-small { flex: none; width: 64px; height: 64px; }
+  :root[data-ohg-phone] #mon-table .pokemon-image-small :is(img, .pokemon-sprite) { width: 64px; height: 64px; image-rendering: pixelated; }
+  :root[data-ohg-phone] :is(#mon-table, #item-table) td a { display: block; max-width: 100%; color: var(--sl-color-white); font-size: .8rem; font-weight: 600; line-height: 1.25; text-decoration: none; overflow-wrap: anywhere; text-wrap: balance; }
+  :root[data-ohg-phone] :is(#mon-table, #item-table) tr:active { background: var(--sl-color-gray-6); }
+  :root[data-ohg-phone] #item-table .ohg-m-sprite-item { display: block; width: 40px; height: 40px; margin: 0; image-rendering: pixelated; }
+  :root[data-ohg-phone] #item-table tr:has(> td:first-child > a:only-child) td:first-child::before { content: ''; width: 40px; height: 40px; }
 }
 @media (max-width: 50rem) and (prefers-reduced-motion: reduce) {
   :root:is([data-ohg-mobile],[data-ohg-phone]) .ohg-m-sheet[open] { animation: none; }
