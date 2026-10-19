@@ -359,7 +359,7 @@
 
 		// Walkthrough: every chapter (from the sidebar), with this page's own steps and headings nested under the
 		// chapter the reader is on; the find box searches both
-		const sections = sheet('ohg-m-sections', 'Walkthrough');
+		const sections = sheet('ohg-m-sections', 'Sections');
 		const sectionsBody = sections.querySelector('.ohg-m-sheet-body');
 		sectionsBody.innerHTML = '<input type="search" class="ohg-m-find" placeholder="Find a chapter, step or section" aria-label="Find a chapter, step or section"><ul class="ohg-m-toc"></ul>';
 		const find = sectionsBody.querySelector('.ohg-m-find');
@@ -380,8 +380,14 @@
 				if (q && placed.has(q)) continue; // quests under their steps are in the Quests sheet
 				if (href === '#quests-in-this-chapter' && !loose.length) continue;
 				const sub = q || parseInt(a.style?.getPropertyValue('--depth') || '0', 10) > 0;
+				// a chapter's two sections get short labels instead of their headings
+				if (href === '#walkthrough' && steps.length) {
+					out.push([null, 'Steps', 'ohg-m-toc-label']);
+					steps.forEach((s) => s.id && out.push(['#' + s.id, s.dataset.title || s.id, 'ohg-m-stepline' + (s.classList.contains('chapter-optional') ? ' ohg-m-optional' : '')]));
+					continue;
+				}
+				if (href === '#quests-in-this-chapter') { out.push([null, 'Quests', 'ohg-m-toc-label']); continue; }
 				out.push([href, a.textContent.trim(), sub ? 'ohg-m-sub' : '']);
-				if (href === '#walkthrough') steps.forEach((s) => s.id && out.push(['#' + s.id, s.dataset.title || s.id, 'ohg-m-sub ohg-m-stepline' + (s.classList.contains('chapter-optional') ? ' ohg-m-optional' : '')]));
 			}
 			return out;
 		};
@@ -389,8 +395,8 @@
 			tocList.innerHTML = '';
 			const item = (href, text, cls) => {
 				const li = el('li', cls);
-				const a = el('a');
-				a.href = href;
+				const a = el(href ? 'a' : 'span');
+				if (href) a.href = href;
 				a.textContent = text;
 				li.append(a);
 				return li;
@@ -401,20 +407,31 @@
 			if (!chapterLinks.length) { tocList.append(...pageList.children); filterSections(); return; }
 			for (const a of chapterLinks) {
 				const current = !!a.getAttribute('aria-current');
-				const li = item(a.getAttribute('href'), a.textContent.trim(), 'ohg-m-chapter' + (current ? ' ohg-m-chapter-current' : ''));
-				if (current) { li.firstChild.setAttribute('aria-current', 'page'); if (pageList.children.length) li.append(pageList); }
+				if (!current || !pageList.children.length) { tocList.append(item(a.getAttribute('href'), a.textContent.trim(), 'ohg-m-chapter')); continue; }
+				// the chapter the reader is on: a fold holding this page's entries, open to start with
+				const li = el('li', 'ohg-m-chapter ohg-m-chapter-current');
+				const fold = el('details', 'ohg-m-toc-fold', `<summary><span>${esc(a.textContent.trim())}</span>${chevron}</summary>`);
+				fold.open = true;
+				fold.append(pageList);
+				li.append(fold);
 				tocList.append(li);
 			}
 			filterSections();
 		};
 		const filterSections = () => {
 			const q = searchText(find.value.trim());
-			for (const li of tocList.querySelectorAll('li')) li.hidden = !!q && !searchText(li.firstChild.textContent).includes(q);
-			// a chapter stays while any of its page entries match
-			for (const li of tocList.querySelectorAll('.ohg-m-chapter')) if (li.hidden && [...li.querySelectorAll('li')].some((c) => !c.hidden)) li.hidden = false;
+			for (const li of tocList.querySelectorAll('li')) li.hidden = !!q && !searchText(li.querySelector(':scope > a, :scope > span, :scope > details > summary').textContent).includes(q);
+			// a chapter stays (and opens) while any of its page entries match; labels follow their entries
+			for (const li of tocList.querySelectorAll('.ohg-m-chapter')) {
+				const hits = [...li.querySelectorAll('li:not(.ohg-m-toc-label)')].some((c) => !c.hidden);
+				if (li.hidden && hits) li.hidden = false;
+				const fold = li.querySelector('details');
+				if (fold && q) fold.open = hits;
+				li.querySelectorAll('.ohg-m-toc-label').forEach((l) => { l.hidden = !!q && !hits; });
+			}
 		};
 		find.addEventListener('input', filterSections);
-		const sectionsButton = dockButton('Walkthrough', '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>', 'ohg-m-dock-sections');
+		const sectionsButton = dockButton('Sections', '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>', 'ohg-m-dock-sections');
 		sectionsButton.addEventListener('click', () => {
 			renderSections();
 			find.value = '';
@@ -534,7 +551,7 @@
 			const group = [...document.querySelectorAll('#starlight__sidebar details')].find((d) => /quest guide/i.test(d.querySelector('summary')?.textContent || ''));
 			const links = group ? [...group.querySelectorAll('a[href]')] : [];
 			if (links.length) {
-				chapters = `<details class="ohg-m-menu-fold"${links.some((a) => a.getAttribute('aria-current')) ? ' open' : ''}><summary>Chapters<span class="ohg-m-meta">${links.length} pages</span></summary><ul>` +
+				chapters = `<details class="ohg-m-menu-fold"><summary>Chapters<span class="ohg-m-meta">${links.length} pages</span></summary><ul>` +
 					links.map((a) => `<li><a href="${esc(a.getAttribute('href'))}"${a.getAttribute('aria-current') ? ' aria-current="page"' : ''}>${esc(a.textContent.trim())}</a></li>`).join('') + '</ul></details>';
 			}
 			sheet.innerHTML = `<div class="ohg-m-sheet-head"><h2>Origin <span>HeartGold</span></h2><button type="button" class="ohg-m-close" aria-label="Close"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>` +
@@ -571,8 +588,13 @@
 			if (!sheet) build();
 			sheet.open ? sheet.close() : sheet.showModal();
 		}, true);
-		const onChange = () => { if (!mq.matches && sheet?.open) sheet.close(); };
+		// <html data-ohg-phone> styles the button and the sheet on every page (data-ohg-mobile is the guide layout)
+		const onChange = () => {
+			document.documentElement.toggleAttribute('data-ohg-phone', mq.matches);
+			if (!mq.matches && sheet?.open) sheet.close();
+		};
 		mq.addEventListener ? mq.addEventListener('change', onChange) : mq.addListener(onChange);
+		onChange();
 	}
 
 	// ---------------------------------------------------------------- sprites on phones
