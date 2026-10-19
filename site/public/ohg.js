@@ -304,6 +304,69 @@
 			questsIntro?.classList.remove('ohg-m-hidden');
 		};
 
+		// the guide's front page: the first paragraph stays, the rest of the introduction folds under "About this guide",
+		// the chapter list becomes rows (number, title, summary, quest count) and every later section folds under its
+		// heading, its links as rows
+		if (/\/guide\/(index\.html)?$/.test(location.pathname)) {
+			content.classList.add('ohg-m-index');
+			const wrappers = [...content.querySelectorAll(':scope > .sl-heading-wrapper')];
+			const foldRow = (title, meta, nodes, before) => {
+				const toggle = el('button', 'ohg-m-toggle', `<span class="ohg-m-title">${esc(title)}</span>${meta ? `<span class="ohg-m-meta">${esc(meta)}</span>` : ''}${chevron}`);
+				toggle.type = 'button';
+				toggle.setAttribute('aria-expanded', 'false');
+				const row = el('div', 'ohg-m-row ohg-m-index-row');
+				row.append(toggle);
+				toggle.addEventListener('click', () => {
+					const open = toggle.getAttribute('aria-expanded') !== 'true';
+					toggle.setAttribute('aria-expanded', String(open));
+					row.toggleAttribute('data-open', open);
+					nodes.forEach((n) => n.toggleAttribute('data-open', open));
+				});
+				nodes.forEach((n) => { n.setAttribute('data-ohg-sec', ''); });
+				before.before(row);
+				return row;
+			};
+			// the introduction
+			const intro = [];
+			for (let n = content.firstElementChild; n && !n.matches('.sl-heading-wrapper'); n = n.nextElementSibling) intro.push(n);
+			const lead = intro.find((n) => n.matches('p'));
+			const rest = intro.filter((n) => n !== lead && !n.matches('.game-setup'));
+			if (lead && rest.length) foldRow('About this guide', 'how the quests were checked, tags, filters', rest, rest[0]);
+			// the chapter list
+			const chaptersList = document.getElementById('chapters')?.closest('.sl-heading-wrapper')?.nextElementSibling?.matches('ul') ? document.getElementById('chapters').closest('.sl-heading-wrapper').nextElementSibling
+				: [...content.querySelectorAll(':scope > ul')].find((ul) => ul.querySelector('a[href*="ch01"]'));
+			if (chaptersList) {
+				chaptersList.classList.add('ohg-m-chapters');
+				const note = chaptersList.previousElementSibling?.matches('p') ? chaptersList.previousElementSibling : null;
+				note?.classList.add('ohg-m-chapters-note');
+				for (const li of chaptersList.children) {
+					const a = li.querySelector('a[href]');
+					if (!a) continue;
+					const m = a.textContent.trim().match(/^(?:Chapter\s+(\d+)|(Postgame|Post-game)):\s*(.+)$/i);
+					const num = m?.[1] || (m?.[2] ? 'PG' : '');
+					const title = m ? m[3] : a.textContent.trim();
+					const after = (li.textContent.replace(a.textContent, '').trim().replace(/^:\s*/, ''));
+					const count = after.match(/\((\d+)\)\s*$/)?.[1];
+					const summary = after.replace(/\s*\(\d+\)\s*$/, '');
+					const row = el('a', 'ohg-m-chapter-row', `<span class="ohg-m-chapter-num${num ? '' : ' ohg-m-chapter-dot'}">${esc(num)}</span><span class="ohg-m-chapter-body"><span class="ohg-m-chapter-title">${esc(title)}</span>${summary ? `<span class="ohg-m-chapter-sum">${esc(summary)}</span>` : ''}${count ? `<span class="ohg-m-chapter-count">${count} ${count === '1' ? 'quest' : 'quests'}</span>` : ''}</span>${chevron.replace('ohg-m-chevron', 'ohg-m-chevron ohg-m-chevron-go')}`);
+					row.href = a.getAttribute('href');
+					li.append(row);
+				}
+			}
+			// every other section folds under its heading
+			for (const w of wrappers) {
+				const h = w.querySelector('h2');
+				if (!h || h.id === 'chapters') continue;
+				const nodes = [];
+				for (let n = w.nextElementSibling; n && !n.matches('.sl-heading-wrapper'); n = n.nextElementSibling) nodes.push(n);
+				if (!nodes.length) continue;
+				const links = nodes.reduce((k, n) => k + n.querySelectorAll('a[href]').length, 0);
+				w.classList.add('ohg-m-index-heading');
+				foldRow(h.textContent.trim(), links ? `${links} ${links === 1 ? 'entry' : 'entries'}` : '', nodes, w.nextElementSibling);
+				w.after(w.nextElementSibling); // the row sits right after the heading wrapper
+			}
+		}
+
 		// at a glance: "Where:", "Reward:" and the other lead-ins become labels on their own line; Yes and No answers
 		// get their colours; prose tables stack one row at a time
 		for (const strong of content.querySelectorAll('section.quest p > strong:first-child, .sl-markdown-content > p > strong:first-child, .chapter-hidden-area p > strong:first-child')) {
