@@ -898,11 +898,24 @@
 			for (const tr of table.querySelectorAll('tbody tr')) [...tr.cells].forEach((td, i) => { if (heads[i]) td.dataset.label = heads[i]; });
 			return heads;
 		};
+		const SHORT = { Accuracy: 'Acc', Power: 'Pow', Level: 'Lv', 'TM / HM': 'TM', 'Learning method': 'How' };
 		for (const table of document.querySelectorAll('.sl-markdown-content table')) {
 			const heads = label(table);
 			if (!heads) continue;
-			if (heads.includes('Move') && heads.includes('Type') && heads.includes('Power')) table.classList.add('ohg-m-moves');
-			else if (heads.length >= 3 && heads.length <= 6) table.classList.add('ohg-m-stack');
+			if (heads.includes('Move') && heads.includes('Type') && heads.includes('Power')) {
+				table.classList.add('ohg-m-moves');
+				table.querySelectorAll('thead th').forEach((th) => {
+					const full = th.textContent.trim();
+					if (SHORT[full]) th.innerHTML = `<span class="ohg-m-full">${th.innerHTML}</span><span class="ohg-m-short" aria-hidden="true">${SHORT[full]}</span>`;
+				});
+			} else if (/^learners-table/.test(table.id)) {
+				table.classList.add('ohg-m-learners');
+				table.querySelectorAll('thead th').forEach((th) => {
+					const full = th.textContent.trim();
+					if (SHORT[full]) th.innerHTML = `<span class="ohg-m-full">${th.innerHTML}</span><span class="ohg-m-short" aria-hidden="true">${SHORT[full]}</span>`;
+				});
+			}
+			else if (heads.length >= 3 && heads.length <= 7) table.classList.add('ohg-m-stack');
 		}
 	}
 	// A Pokémon's page on a phone splits into tabs on a bar along the bottom: Overview (artwork, facts, stats), Where
@@ -930,6 +943,79 @@
 		}
 		const tabs = TABS.filter(([id]) => present.has(id));
 		if (tabs.length < 2) return;
+		// Where: the notes about chances and times are the long page's; a phone keeps the places
+		for (const n of content.querySelectorAll(':scope > [data-ohg-tab="where"]')) if (n.matches('p.small, details.enc-help')) n.classList.add('ohg-m-aside');
+		// Evolution: the sentences become a chain of sprites (the names come from /sprites.json, see decorateSprites)
+		const evo = [...content.querySelectorAll(':scope > [data-ohg-tab="evolution"]')].filter((n) => !n.matches('h2'));
+		if (evo.length) {
+			const chain = document.createElement('div');
+			chain.className = 'ohg-m-evo not-content';
+			const me = document.querySelector('.pokemon-overview img[data-art]');
+			const myName = document.querySelector('h1')?.textContent.replace(/^#\d+\s*/, '').trim() || '';
+			const entries = []; // { dir: 'from' | 'into', name, href, how }
+			const entry = (dir, node) => {
+				const a = node.querySelector('a[href*="/pokemon/"]');
+				if (!a) return;
+				const clone = node.cloneNode(true);
+				clone.querySelector('a[href*="/pokemon/"]')?.remove();
+				const how = clone.textContent.replace(/^\s*Evolves (into|from)\b/i, '').replace(/^[\s:.,]+|[\s.]+$/g, '').replace(/\s+/g, ' ').trim();
+				entries.push({ dir, name: a.textContent.trim(), href: a.href, how });
+			};
+			let dir = 'into';
+			for (const n of evo) {
+				if (n.matches('p')) {
+					dir = /from/i.test(n.textContent.split(/<a|:/)[0].slice(0, 40)) && /^\s*Evolves from/i.test(n.textContent) ? 'from' : 'into';
+					if (n.querySelector('a[href*="/pokemon/"]')) entry(dir, n);
+				} else if (n.matches('ul, ol')) {
+					for (const li of n.children) entry(dir, li);
+				}
+				n.classList.add('ohg-m-evo-text');
+			}
+			if (entries.length) {
+				const node = (name, href, id) => `<${href ? 'a' : 'div'} class="ohg-m-evo-node"${href ? ` href="${href}"` : ''}>${id ? `<img class="ohg-m-evo-sprite" src="${SPRITES}/pokemon/${id}.png" width="96" height="96" alt="" loading="eager" decoding="async">` : '<span class="ohg-m-evo-blank"></span>'}<span>${name}</span></${href ? 'a' : 'div'}>`;
+				const render = (names) => {
+					const id = (n) => names?.p?.[n] || names?.p?.[n.replace(/\s*\(.*\)$/, '')] || '';
+					const from = entries.filter((e) => e.dir === 'from');
+					const into = entries.filter((e) => e.dir === 'into');
+					const step = (e) => `<div class="ohg-m-evo-step"><span class="ohg-m-evo-arrow" aria-hidden="true"></span><span class="ohg-m-evo-how">${e.how || 'evolves'}</span></div>`;
+					chain.innerHTML = from.map((e) => node(e.name, e.href, id(e.name)) + step(e)).join('') +
+						node(myName, '', me?.dataset.art?.replace(/\D/g, '') || id(myName)) +
+						(into.length ? `<div class="ohg-m-evo-branches${into.length > 2 ? ' ohg-m-evo-grid' : ''}">${into.map((e) => `<div class="ohg-m-evo-branch">${step(e)}${node(e.name, e.href, id(e.name))}</div>`).join('')}</div>` : '');
+					chain.querySelector('.ohg-m-evo-node:not([href])')?.classList.add('ohg-m-evo-me');
+				};
+				render(null);
+				spriteNames ||= fetch(base + 'sprites.json').then((r) => r.ok ? r.json() : null).catch(() => null);
+				spriteNames.then((names) => names && render(names));
+				chain.dataset.ohgTab = 'evolution';
+				evo[0].before(chain);
+			}
+		}
+		// Moves: three tabs at the top (level-up, TMs and HMs with the tutors, egg moves), each its own fitted table
+		const kinds = { moves: 'level', tm: 'tm', tutors: 'tm', egg: 'egg' };
+		const names = { level: 'Level-up', tm: 'TMs / HMs', egg: 'Egg moves' };
+		let kind = '';
+		const seen = new Set();
+		for (const n of content.querySelectorAll(':scope > [data-ohg-tab="moves"]')) {
+			if (n.matches('h2[id]')) kind = kinds[n.id] || kind;
+			if (!kind) continue;
+			n.dataset.ohgMoves = kind;
+			seen.add(kind);
+		}
+		if (seen.size > 1) {
+			const sub = document.createElement('div');
+			sub.className = 'ohg-m-subtabs not-content';
+			sub.setAttribute('role', 'tablist');
+			sub.dataset.ohgTab = 'moves';
+			sub.innerHTML = ['level', 'tm', 'egg'].filter((k) => seen.has(k)).map((k) => `<button type="button" role="tab" data-kind="${k}" aria-selected="false">${names[k]}</button>`).join('');
+			const pick = (k) => { content.dataset.ohgMovesActive = k; sub.querySelectorAll('button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.kind === k))); };
+			sub.addEventListener('click', (e) => { const b = e.target.closest('button[data-kind]'); if (b) pick(b.dataset.kind); });
+			content.querySelector(':scope > h2[data-ohg-tab="moves"]').before(sub);
+			pick(seen.has('level') ? 'level' : [...seen][0]);
+			content.dataset.ohgMovesTabs = '';
+			// a link to a kind's heading (…/#egg) picks its tab
+			window.addEventListener('hashchange', () => { const k = kinds[location.hash.slice(1)]; if (k) pick(k); });
+			const k0 = kinds[location.hash.slice(1)]; if (k0) pick(k0);
+		}
 		const bar = document.createElement('nav');
 		bar.className = 'ohg-m-tabs not-content';
 		bar.setAttribute('aria-label', 'Page sections');

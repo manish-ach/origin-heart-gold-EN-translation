@@ -434,7 +434,7 @@ a.ability-link { display: flex; align-items: center; min-height: 24px; }
 /* ---- guide pages on phones (site/public/ohg.js setupMobileGuide sets <html data-ohg-mobile> below 50rem).
    One flat sequence: steps are rows on a rail, the quests a step opens sit under it as rows with their Done tick, and
    a dock at the bottom opens the Sections and Quests sheets. The controls it adds are hidden everywhere else. */
-.ohg-m-row, .ohg-m-dock, .ohg-m-extra, .ohg-m-sprite, .ohg-m-chapter-row, .ohg-m-tabs, .ohg-m-sheet:not([open]) { display: none; }
+.ohg-m-row, .ohg-m-dock, .ohg-m-extra, .ohg-m-sprite, .ohg-m-chapter-row, .ohg-m-tabs, .ohg-m-subtabs, .ohg-m-evo, .ohg-m-short, .ohg-m-sheet:not([open]) { display: none; }
 @media (max-width: 50rem) {
   :root[data-ohg-mobile] { --sl-mobile-toc-height: 0rem; --ohg-m-rail: 1.35rem; }
   :root[data-ohg-mobile] mobile-starlight-toc, :root[data-ohg-mobile] .page-heading-art, :root[data-ohg-mobile] .ohg-m-hidden,
@@ -810,31 +810,73 @@ a.ability-link { display: flex; align-items: center; min-height: 24px; }
   :root[data-ohg-phone] table.stats th { width: 5.5rem; padding: .3rem .25rem; text-align: left; font-weight: 600; color: var(--sl-color-gray-2); }
   :root[data-ohg-phone] table.stats td { padding: .3rem .25rem; }
   :root[data-ohg-phone] table.stats td.bar-cell { width: 50%; }
-  /* a move per row */
-  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves { display: block; border: 0; background: none; }
-  :root[data-ohg-phone] table.ohg-m-moves thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-  :root[data-ohg-phone] table.ohg-m-moves tbody { display: block; }
-  :root[data-ohg-phone] table.ohg-m-moves tr { display: flex; flex-wrap: wrap; align-items: center; gap: .25rem .5rem; margin: 0; padding: .65rem 0; border: 0; border-top: 1px solid var(--sl-color-gray-6); background: none; }
-  :root[data-ohg-phone] table.ohg-m-moves tr:first-child { border-top: 0; }
-  :root[data-ohg-phone] table.ohg-m-moves tr::before { content: ''; order: 4; flex-basis: 100%; height: 0; }
-  :root[data-ohg-phone] table.ohg-m-moves tbody tr:hover > td { background: none; }
-  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves td, :root[data-ohg-phone] .sl-markdown-content .table-scroll > table.ohg-m-moves > tbody > tr > td { display: block; position: static; min-width: 0; max-width: none; padding: 0; border: 0; background: none; box-shadow: none; font-size: .82rem; line-height: 1.4; color: var(--sl-color-gray-2); }
-  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='Level'], :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='TM / HM'] { order: 1; flex: none; min-width: 2.5rem; padding: .1rem .45rem; border-radius: .4rem; background: var(--sl-color-accent-low); color: var(--sl-color-accent-high); font-size: .78rem; font-weight: 700; text-align: center; white-space: nowrap; }
-  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='Level']:empty::before { content: '—'; }
-  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='Move'] { order: 2; flex: 1 1 8rem; font-size: 1rem; font-weight: 650; color: var(--sl-color-white); }
+  /* move tables fitted to the width: level or TM, the move, its type and the numbers; the effect is on the move's page */
+  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves { width: 100%; table-layout: fixed; border: 0; background: none; font-size: .8rem; }
+  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td, :root[data-ohg-phone] .sl-markdown-content .table-scroll > table.ohg-m-moves > tbody > tr > td,
+  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > thead > tr > th, :root[data-ohg-phone] .sl-markdown-content .table-scroll > table.ohg-m-moves > thead > tr > th {
+    position: static; min-width: 0; max-width: none; padding: .45rem .25rem; border: 0; border-bottom: 1px solid var(--sl-color-gray-6); background: none; box-shadow: none; line-height: 1.3; vertical-align: middle; overflow-wrap: anywhere;
+  }
+  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > thead > tr > th { font-size: .68rem; font-weight: 700; color: var(--sl-color-gray-3); text-align: left; }
+  :root[data-ohg-phone] table.ohg-m-moves th .ohg-m-full { display: none; }
+  :root[data-ohg-phone] table.ohg-m-moves th .ohg-m-short { display: inline; }
+  :root[data-ohg-phone] table.ohg-m-moves :is(th, td)[data-label='Category'], :root[data-ohg-phone] table.ohg-m-moves :is(th, td)[data-label^='Effect'], :root[data-ohg-phone] table.ohg-m-moves :is(th, td)[data-label^='Tutor'],
+  :root[data-ohg-phone] table.ohg-m-moves th:nth-child(4), :root[data-ohg-phone] table.ohg-m-moves th:nth-child(8), :root[data-ohg-phone] table.ohg-m-moves th:nth-child(9) { display: none; }
+  :root[data-ohg-phone] table.ohg-m-moves col { display: none; }
+  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='Level'], :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='TM / HM'] { width: 2.4rem; font-weight: 700; color: var(--sl-color-accent-high); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='TM / HM'] { width: 3rem; font-size: .72rem; }
+  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='TM / HM'] a { color: inherit; text-decoration: none; }
+  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > thead > tr > th:first-child:not([data-label='Move']) { width: 2.4rem; }
+  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves:has(td[data-label='TM / HM']) > thead > tr > th:first-child { width: 3rem; }
+  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='Move'] { font-weight: 650; color: var(--sl-color-white); }
   :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='Move'] a { color: inherit; text-decoration: none; }
-  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='Type'] { order: 3; flex: none; }
-  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='Category'] { order: 5; }
-  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='Power'] { order: 6; }
-  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='Accuracy'] { order: 7; }
-  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='PP'] { order: 8; }
-  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='Power']::after { content: ' power'; color: var(--sl-color-gray-3); }
-  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='Accuracy']::after { content: ' acc.'; color: var(--sl-color-gray-3); }
-  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='PP']::after { content: ' PP'; color: var(--sl-color-gray-3); }
-  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='Category'] + td::before, :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='Power'] + td::before, :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='Accuracy'] + td::before { content: '·'; margin-right: .5rem; color: var(--sl-color-gray-4); }
-  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label^='Effect'], :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label^='Tutor'] { order: 9; flex-basis: 100%; margin-top: .15rem; color: var(--sl-color-gray-3); }
-  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label^='Tutor'] { order: 10; color: var(--sl-color-gray-2); }
-  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td:empty { display: none; }
+  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='Type'] { width: 3.9rem; }
+  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > tbody > tr > td[data-label='Type'] .type { font-size: .62rem; padding: .1rem .35rem; }
+  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > :is(thead, tbody) > tr > :is(th, td):is([data-label='Power'], [data-label='Accuracy'], [data-label='PP']) { width: 2.1rem; text-align: right; font-variant-numeric: tabular-nums; }
+  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > thead > tr > th:is(:nth-child(5), :nth-child(6), :nth-child(7)) { width: 2.1rem; text-align: right; }
+  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-moves > thead > tr > th:nth-child(3) { width: 3.9rem; }
+  :root[data-ohg-phone] table.ohg-m-moves tbody tr:hover > td { background: none; }
+  /* a move's page: the Pokémon that learn it, sprite, name and how */
+  :root[data-ohg-phone] .table-scroll:has(> table.ohg-m-learners) { overflow: visible; border: 0; background: none; }
+  :root[data-ohg-phone] .table-scroll:has(> table.ohg-m-learners) + .table-scroll-hint { display: none; }
+  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-learners { width: 100%; table-layout: fixed; border: 0; background: none; font-size: .85rem; }
+  :root[data-ohg-phone] .sl-markdown-content table.ohg-m-learners > :is(thead, tbody) > tr > :is(th, td), :root[data-ohg-phone] .sl-markdown-content .table-scroll > table.ohg-m-learners > :is(thead, tbody) > tr > :is(th, td) {
+    position: static; min-width: 0; max-width: none; padding: .4rem .25rem; border: 0; border-bottom: 1px solid var(--sl-color-gray-6); background: none; box-shadow: none; vertical-align: middle; overflow-wrap: anywhere;
+  }
+  :root[data-ohg-phone] table.ohg-m-learners > thead > tr > th { font-size: .68rem; font-weight: 700; color: var(--sl-color-gray-3); text-align: left; }
+  :root[data-ohg-phone] table.ohg-m-learners th .ohg-m-full { display: none; }
+  :root[data-ohg-phone] table.ohg-m-learners th .ohg-m-short { display: inline; }
+  :root[data-ohg-phone] table.ohg-m-stack caption { display: none; }
+  :root[data-ohg-phone] table.ohg-m-learners :is(th, td)[data-label='Type'], :root[data-ohg-phone] table.ohg-m-learners :is(th, td)[data-label='Availability'], :root[data-ohg-phone] table.ohg-m-learners th:nth-child(2), :root[data-ohg-phone] table.ohg-m-learners th:nth-child(4) { display: none; }
+  :root[data-ohg-phone] table.ohg-m-learners .pokemon-cell { gap: .5rem; min-width: 0; }
+  :root[data-ohg-phone] table.ohg-m-learners .pokemon-image-small { flex: none; width: 36px; height: 36px; }
+  :root[data-ohg-phone] table.ohg-m-learners .pokemon-image-small img { width: 36px; height: 36px; }
+  :root[data-ohg-phone] table.ohg-m-learners .pokemon-cell > a { font-weight: 650; color: var(--sl-color-white); text-decoration: none; }
+  :root[data-ohg-phone] table.ohg-m-learners > :is(thead, tbody) > tr > :is(th, td)[data-label='Learning method'], :root[data-ohg-phone] table.ohg-m-learners > thead > tr > th:nth-child(3) { width: 6rem; color: var(--sl-color-gray-2); }
+  :root[data-ohg-phone] table.ohg-m-learners tbody tr:hover > td { background: none; }
+  /* Where: the notes fold away; Evolution: the chain; Moves: the three tabs */
+  :root[data-ohg-phone] .sl-markdown-content[data-ohg-tab-active] > .ohg-m-aside, :root[data-ohg-phone] .sl-markdown-content[data-ohg-tab-active] > .ohg-m-evo-text { display: none; }
+  :root[data-ohg-phone] .ohg-m-evo { display: flex; flex-direction: column; align-items: center; gap: .25rem; margin: .5rem 0 1.5rem; }
+  :root[data-ohg-phone] .ohg-m-evo-node { display: flex; flex-direction: column; align-items: center; gap: .1rem; min-width: 7rem; padding: .5rem .75rem; border-radius: .8rem; color: var(--sl-color-white); font-weight: 650; text-decoration: none; text-align: center; }
+  :root[data-ohg-phone] .ohg-m-evo-me { background: var(--sl-color-bg-nav); }
+  :root[data-ohg-phone] .ohg-m-evo-sprite, :root[data-ohg-phone] .ohg-m-evo-blank { width: 80px; height: 80px; image-rendering: pixelated; }
+  :root[data-ohg-phone] .ohg-m-evo-branches { display: flex; flex-direction: column; align-items: center; width: 100%; }
+  :root[data-ohg-phone] .ohg-m-evo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem .25rem; align-items: start; }
+  :root[data-ohg-phone] .ohg-m-evo-branch { display: flex; flex-direction: column; align-items: center; }
+  :root[data-ohg-phone] .ohg-m-evo-grid .ohg-m-evo-node { min-width: 0; }
+  :root[data-ohg-phone] .ohg-m-evo-grid .ohg-m-evo-how { font-size: .75rem; }
+  :root[data-ohg-phone] .ohg-m-evo-step { display: flex; flex-direction: column; align-items: center; gap: .2rem; max-width: 20rem; padding: .25rem 0; text-align: center; }
+  :root[data-ohg-phone] .ohg-m-evo-arrow { width: 2px; height: 1.1rem; background: var(--sl-color-gray-4); position: relative; }
+  :root[data-ohg-phone] .ohg-m-evo-arrow::after { content: ''; position: absolute; left: -4px; bottom: -1px; width: 8px; height: 8px; border: solid var(--sl-color-gray-4); border-width: 0 2px 2px 0; transform: rotate(45deg); background: var(--sl-color-bg); }
+  :root[data-ohg-phone] .ohg-m-evo-how { font-size: .8rem; line-height: 1.35; color: var(--sl-color-gray-3); text-wrap: pretty; }
+  :root[data-ohg-phone] .ohg-m-evo-how .ohg-hint { font: inherit; }
+  :root[data-ohg-phone] .ohg-m-subtabs { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: .25rem; margin: .25rem 0 1rem; padding: .25rem; border-radius: .7rem; background: var(--sl-color-gray-6); }
+  :root[data-ohg-phone] .ohg-m-subtabs button { min-height: 40px; border: 0; border-radius: .5rem; background: none; color: var(--sl-color-gray-2); font: inherit; font-size: .85rem; font-weight: 650; cursor: pointer; }
+  :root[data-ohg-phone] .ohg-m-subtabs button[aria-selected='true'] { background: var(--sl-color-bg); color: var(--sl-color-white); box-shadow: 0 1px 2px rgb(0 0 0 / .15); }
+  :root[data-ohg-phone] .sl-markdown-content[data-ohg-moves-active='level'] > [data-ohg-moves]:not([data-ohg-moves='level']),
+  :root[data-ohg-phone] .sl-markdown-content[data-ohg-moves-active='tm'] > [data-ohg-moves]:not([data-ohg-moves='tm']),
+  :root[data-ohg-phone] .sl-markdown-content[data-ohg-moves-active='egg'] > [data-ohg-moves]:not([data-ohg-moves='egg']) { display: none; }
+  :root[data-ohg-phone] .sl-markdown-content[data-ohg-moves-tabs] > h2[data-ohg-moves]:is(#moves, #tm, #egg) { display: none; }
+  :root[data-ohg-phone] .sl-markdown-content[data-ohg-moves-tabs] > h2#tutors { margin-top: 2rem; }
   /* an item's sources as rows */
   :root[data-ohg-phone] .sl-markdown-content:has(> h2#effect) > ul { margin: 0; padding: 0; list-style: none; }
   :root[data-ohg-phone] .sl-markdown-content:has(> h2#effect) > ul > li { margin: 0; padding: .6rem 0; border-top: 1px solid var(--sl-color-gray-6); font-size: .95rem; line-height: 1.5; }
