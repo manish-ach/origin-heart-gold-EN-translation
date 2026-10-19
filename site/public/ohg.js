@@ -905,6 +905,56 @@
 			else if (heads.length >= 3 && heads.length <= 6) table.classList.add('ohg-m-stack');
 		}
 	}
-	const init = () => { setupQuests(); setupFilters(); setupTableScroll(); setupMobileGuide(); setupMobileMenu(); setupItemSprites(); setupMobileReference(); };
+	// A Pokémon's page on a phone splits into tabs on a bar along the bottom: Overview (artwork, facts, stats), Where
+	// (where to find it, forms, calendar), Evolution and Moves (level-up, TMs, tutors, egg). A link into a section opens
+	// its tab. Wider screens keep the one long page.
+	function setupMobileTabs() {
+		if (!/\/pokemon\/[^/]+\/?(index\.html)?$/.test(location.pathname)) return;
+		const content = document.querySelector('.sl-markdown-content');
+		if (!content || typeof matchMedia === 'undefined') return;
+		const ICON = {
+			overview: '<circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h0"/>',
+			where: '<path d="M12 21s6-5.2 6-11a6 6 0 0 0-12 0c0 5.8 6 11 6 11Z"/><circle cx="12" cy="10" r="2.2"/>',
+			evolution: '<path d="M4 17h5l3-10 3 10h5M4 7h3M17 7h3"/>',
+			moves: '<path d="M13 3 5 14h6l-1 7 8-11h-6l1-7Z"/>',
+		};
+		const TABS = [['overview', 'Overview'], ['where', 'Where'], ['evolution', 'Evolution'], ['moves', 'Moves']];
+		const tabOf = { where: 'where', forms: 'where', calendar: 'where', evolution: 'evolution', moves: 'moves', tm: 'moves', tutors: 'moves', egg: 'moves' };
+		let cur = 'overview';
+		const present = new Set(['overview']);
+		for (const n of content.children) {
+			if (n.matches('nav.prevnext, .game-setup')) continue;
+			if (n.matches('h2[id]')) cur = tabOf[n.id] || 'overview';
+			n.dataset.ohgTab = cur;
+			present.add(cur);
+		}
+		const tabs = TABS.filter(([id]) => present.has(id));
+		if (tabs.length < 2) return;
+		const bar = document.createElement('nav');
+		bar.className = 'ohg-m-tabs not-content';
+		bar.setAttribute('aria-label', 'Page sections');
+		bar.innerHTML = tabs.map(([id, label]) => `<button type="button" data-tab="${id}" aria-pressed="false"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">${ICON[id]}</svg><span>${label}</span></button>`).join('');
+		document.body.append(bar);
+		document.documentElement.setAttribute('data-ohg-tabbed', '');
+		const show = (id, scroll) => {
+			content.dataset.ohgTabActive = id;
+			bar.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.tab === id)));
+			if (scroll) {
+				const top = content.getBoundingClientRect().top + window.scrollY - 72;
+				window.scrollTo({ top: Math.max(0, top), behavior: 'auto' });
+			}
+		};
+		bar.addEventListener('click', (e) => { const b = e.target.closest('button[data-tab]'); if (b) show(b.dataset.tab, true); });
+		// a link into a section (…/#where, …/#egg) opens that tab
+		const follow = () => {
+			let t = null;
+			try { t = location.hash ? document.getElementById(decodeURIComponent(location.hash.slice(1))) : null; } catch { /* bad hash */ }
+			const sec = t && content.contains(t) ? (t.closest('[data-ohg-tab]') || t) : null;
+			if (sec?.dataset.ohgTab) { show(sec.dataset.ohgTab, false); t.scrollIntoView(); } else if (!content.dataset.ohgTabActive) show('overview', false);
+		};
+		follow();
+		window.addEventListener('hashchange', follow);
+	}
+	const init = () => { setupQuests(); setupFilters(); setupTableScroll(); setupMobileGuide(); setupMobileMenu(); setupItemSprites(); setupMobileReference(); setupMobileTabs(); };
 	document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', init) : init();
 })();
