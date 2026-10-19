@@ -30,8 +30,9 @@ export function setupDamageCalc() {
   try { ({ team, sets, opponent } = loadStoredState(localStorage, knownIds)); } catch { storageAvailable = false; }
   const linked = parseStateHash(location.hash, knownIds);
   // A shared team (and its sets) takes precedence over browser storage, as in the Team Builder, except in this
-  // page's own history entries (Back, Forward, reload), whose link may hold an older team than the saved one.
-  if (linked.team && !(history.state?.tb && storageAvailable)) { team = linked.team; sets = linked.sets ?? {}; }
+  // page's own history entries (Back, Forward, reload), whose link may hold an older team than the saved one
+  // (unless saving failed when the entry was written: then its link is the newest copy).
+  if (linked.team && !(history.state?.tb && history.state.saved && storageAvailable)) { team = linked.team; sets = linked.sets ?? {}; }
   if (linked.opponent !== undefined) opponent = linked.opponent;
   let active: number | null = team[0] ?? null;
 
@@ -47,7 +48,7 @@ export function setupDamageCalc() {
   }
   /** The link and the Team Builder link for the current state, without saving (see the storage listener). */
   function writeLink(push = false) {
-    try { history[push ? 'pushState' : 'replaceState']({ tb: true, view: 'battle' }, '', `${location.pathname}${location.search}${stateHash({ team, sets, opponent }, { battle: true })}`); }
+    try { history[push ? 'pushState' : 'replaceState']({ tb: true, view: 'battle', saved: storageAvailable }, '', `${location.pathname}${location.search}${stateHash({ team, sets, opponent }, { battle: true })}`); }
     catch { /* still works when history is disabled */ }
     lastHash = location.hash;
     // The Team Builder reads the saved team; the link carries it only when there is no storage.

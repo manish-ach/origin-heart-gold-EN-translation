@@ -404,6 +404,15 @@ try {
     await p.locator('[data-bc-field="tfoe:move1"]').fill(theirMove); await p.locator('[data-bc-field="tfoe:move1"]').press('Tab'); await settleOn(p);
     check(await p.locator('[data-bc-field="tfoe:move1"]').getAttribute('aria-invalid'), 'true', 'duplicate foe move refused');
     check(await p.locator('#tb-status').textContent(), `Staraptor already knows ${theirMove}.`, 'duplicate foe move announced');
+    // Storage that reads but can't be written (quota full): after a change, a reload keeps the link's newer team.
+    for (const page of ['team-builder', 'damage-calc']) {
+      await p.goto('about:blank'); await p.goto(new URL(`${page}/#team=3,6,25&battle=20`, base).href); await p.locator('[data-bc-remove="25"]').waitFor();
+      await p.evaluate(() => { Storage.prototype.setItem = () => { throw new DOMException('full', 'QuotaExceededError'); }; });
+      await p.locator('[data-bc-remove="25"]').click();
+      assert.match(p.url(), /#team=3,6&battle=20$/); checks++;
+      await p.reload(); await p.locator('[data-bc-member="3"]').waitFor();
+      check(await members(p), [3, 6], `${page}: a reload after a failed save keeps the change`);
+    }
     await ctx.close();
   }
 

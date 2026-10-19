@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import { STORAGE_KEY } from '../src/lib/team-builder.mjs';
 import {
   STORAGE_KEY_V2, loadStoredState, saveStoredState, parseStateHash, stateHash, encodeSet, decodeSet, sanitizeSet,
-  replaceMember, removeMember,
+  replaceMember, removeMember, opponentHash,
 } from '../src/lib/team-builder-state.mjs';
 import { createDex, resolveSet, suggestedMoves, learnableMoves, exportShowdown, importShowdown, compactSet, showdownAliases, evolutionLevel, applyFoeEdit, cleanFoeEdit } from '../src/lib/battle-sets.mjs';
 import { CAVEATS } from '../src/lib/calc/caveats.ts';
@@ -247,4 +247,11 @@ test('edits to a trainer’s Pokémon change its numbers, and resetting restores
   // Fields set back to the game's value are dropped; nothing left means no edit.
   assert.equal(cleanFoeEdit(base, { item: base.itemId, level: 80, moves: [...base.moveIds], evs: { hp: base.evs.hp }, hp: 100, status: '', boosts: { atk: 0 } }), null);
   assert.deepEqual(cleanFoeEdit(base, { item: 0, level: 80, evs: { atk: base.evs.atk + 4, hp: base.evs.hp } }), { item: 0, evs: { atk: base.evs.atk + 4 } });
+});
+
+test('links between the two calculator pages carry only the opponent', () => {
+  assert.equal(opponentHash(null), '#battle=');
+  assert.equal(opponentHash({ trainer: 20 }), '#battle=20');
+  assert.equal(opponentHash({ species: 6, set: { level: 30 } }), '#battle=free&foe=6.L30');
+  assert.deepEqual(parseStateHash(opponentHash({ trainer: 20 }), known), { team: null, sets: null, battle: true, opponent: { trainer: 20 } }, 'no team: the saved one is used');
 });

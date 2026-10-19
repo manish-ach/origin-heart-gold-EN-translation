@@ -48,7 +48,7 @@ export function setupTeamBuilder() {
   // An explicit shared team (and its sets) takes precedence over browser storage. One of this page's own history
   // entries (Back, Forward, reload: history.state.tb) doesn't: its link may hold an older team than the saved one,
   // changed since on /damage-calc/ or in another tab.
-  if (linked.team && !(history.state?.tb && storageAvailable)) { team = linked.team; sets = linked.sets ?? {}; }
+  if (linked.team && !(history.state?.tb && history.state.saved && storageAvailable)) { team = linked.team; sets = linked.sets ?? {}; }
   if (linked.opponent !== undefined) opponent = linked.opponent;
   let active: number | null = team[0] ?? null;
   let page = 0;
@@ -59,7 +59,8 @@ export function setupTeamBuilder() {
 
   // The link always shows the current team. Team and set changes replace the history entry; entering or leaving
   // the calculator and picking another opponent add one (`push`), so Back returns to the previous view or opponent.
-  // Entries carry {tb: true, view} so popstate can tell Back/Forward from a newly opened link.
+  // Entries carry {tb: true, view, saved} so popstate can tell Back/Forward from a newly opened link; `saved`: this
+  // state reached storage (when saving failed, the entry's link is the newest copy and wins on reload).
   let lastHash = '';
   function persist(push = false) {
     sets = sanitizeSets(sets, team);
@@ -74,7 +75,7 @@ export function setupTeamBuilder() {
   /** The link (and the calculator page link) for the current state, without saving: see the storage listener. */
   function writeLink(push = false) {
     const hash = stateHash({ team, sets, opponent }, { battle: root.dataset.view === 'battle' });
-    try { history[push ? 'pushState' : 'replaceState']({ tb: true, view: root.dataset.view }, '', `${location.pathname}${location.search}${hash}`); }
+    try { history[push ? 'pushState' : 'replaceState']({ tb: true, view: root.dataset.view, saved: storageAvailable }, '', `${location.pathname}${location.search}${hash}`); }
     catch { /* The planner still works when history is disabled. */ }
     lastHash = location.hash;
     // The calculator page reads the saved team; the link carries it only when there is no storage.
