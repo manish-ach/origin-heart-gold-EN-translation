@@ -100,7 +100,7 @@ test('every built page passes the static accessibility scan', { skip: !built }, 
 });
 
 test('every page has one h1, the main navigation and a way to open it on phones', { skip: !built }, () => {
-	for (const rel of ['', 'patch/', 'faq/', 'guide/', 'pokemon/cyndaquil/', 'trainers/', 'team-builder/', 'changelog/', '404.html', 'save-editor/']) {
+	for (const rel of ['', 'patch/', 'faq/', 'guide/', 'pokemon/cyndaquil/', 'trainers/', 'team-builder/', 'damage-calc/', 'changelog/', '404.html', 'save-editor/']) {
 		const html = readFileSync(join(dist, rel.endsWith('.html') ? rel : `${rel}index.html`), 'utf8');
 		assert.equal((html.match(/<h1\b/g) ?? []).length, 1, `${rel}: one h1`);
 		if (rel === 'save-editor/') continue;

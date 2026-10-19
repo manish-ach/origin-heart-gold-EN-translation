@@ -66,18 +66,22 @@ The implementation uses the guide's existing data and artwork helper; it does no
 import the upstream planner's game data or assets.
 
 Teams use unique Origin HeartGold record IDs so forms remain distinct. The team is
-saved locally under `ohg-team-builder-v2` (team, optional battle sets, Battle check
+saved locally under `ohg-team-builder-v2` (team, optional battle sets, damage calculator
 opponent; `src/lib/team-builder-state.mjs`). The older `ohg-team-builder-v1` key is still
 read when no v2 state exists and is kept up to date. Links stay compatible: `#team=3,94,196`
 still loads, and sets are appended only when changed (`&sets=3.L50.NModest_94.I239`).
 An explicit shared team takes precedence over browser storage. Nothing is uploaded.
 
-Battle check (`src/lib/battle-check.ts`) is a damage calculator view built on
-`src/lib/calc` (see its README). Its code, the engine, `team-builder/calc-data.json` and
-`team-builder/battle-data.json` (trainer teams in route order and learnsets, from
-`src/lib/battle-check-data.mjs`) load only when it is opened, so the planner's first load
-does not include them. Trainer pages link to it with `/team-builder/#battle=<trainer id>`.
-Its browser regression is `site/tests/team-builder-calc-browser.mjs` (same setup as below).
+The damage calculator (`src/lib/battle-check.ts`; internal ids, file names and the
+`#battle=` link keep the old "battle check" name) is built on `src/lib/calc` (see its
+README). It is a view of the Team Builder and the standalone page `/damage-calc/`
+(`src/lib/damage-calc-page.ts`), which share the saved team, sets and link format. Its code,
+the engine, `team-builder/calc-data.json` and `team-builder/battle-data.json` (trainer teams
+in route order and learnsets, from `src/lib/battle-check-data.mjs`) load only when it is
+opened, so the planner's first load does not include them. Your team is edited inside it
+(swap, add, remove) without leaving the fight; edits to a trainer's Pokémon last for the
+visit only. Trainer pages link to `/damage-calc/#battle=<trainer id>`. Its browser
+regression is `site/tests/team-builder-calc-browser.mjs` (same setup as below).
 The catalog defaults to documented acquisition sources; other availability categories
 remain selectable and labeled.
 
@@ -188,7 +192,7 @@ shared as patch files, `"github": false`, with a note instead of a release link)
 - `src/lib/page-seo.ts`: unique titles and data-based descriptions for Pokémon, item, move, ability, location and
   trainer pages. Trainer records that show another record's profile page get a canonical to it. Links inside the site
   never point at those duplicates: use `trainerTeamUrl(id)` (`src/lib/trainer-profiles.ts`; the main record's page at
-  `#trainer-<id>`) or `trainerProfileUrl(id)`. In the browser, Battle check uses `mainIds` from `battle-data.json`.
+  `#trainer-<id>`) or `trainerProfileUrl(id)`. In the browser, the damage calculator uses `mainIds` from `battle-data.json`.
   `tests/trainer-encounters.test.mjs` checks every trainer link in the built site.
 - `sitemap-config.mjs`: leaves out noindex and duplicate pages and adds `<lastmod>` from git (full history needed;
   skipped in a shallow clone).

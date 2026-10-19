@@ -39,6 +39,7 @@ export const GET: APIRoute = async () => {
 		ref('/tms/', 'TMs and HMs', 'every TM and HM, where to get it and compatible Pokémon'),
 		ref('/tutors/', 'Move tutors', 'who teaches which move, where and for what'),
 		ref('/team-builder/', 'Team Builder', 'plan a team of six with catch locations and a damage calculator'),
+		ref('/damage-calc/', 'Damage calculator', 'your team against every trainer in route order, with editable sets on both sides'),
 		ref('/save-editor/', 'Save editor', 'edit a save file in the browser'),
 		'',
 		'## Project',

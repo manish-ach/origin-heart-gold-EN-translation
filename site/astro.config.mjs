@@ -104,6 +104,7 @@ export default defineConfig({
           items: [
             { label: "Pokémon", link: "/pokemon/" },
             { label: "Team Builder", link: "/team-builder/" },
+            { label: "Damage calculator", link: "/damage-calc/" },
             { label: "Locations", link: "/locations/" },
             { label: "Calendar encounters", slug: "calendar" },
             { label: "Items", link: "/items/" },

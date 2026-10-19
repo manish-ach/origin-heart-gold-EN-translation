@@ -72,8 +72,8 @@ const inactive = battles.length > 0 && battles.every((p) => p.conds.length > 0 &
 		{!showEvs && ' No EV investment.'}</p>
 	</div>}
 
-	<p class="small">
-		{showProfileLink && <><a href={teamUrl}>View all encounters and teams</a>{t.team.some((m) => m.id) && ' · '}</>}
-		{t.team.some((m) => m.id) && <a href={url(`/team-builder/#battle=${t.id}`)}>Battle check</a>}
+	<p class="small trainer-links">
+		{showProfileLink && <a href={teamUrl}>View all encounters and teams</a>}
+		{t.team.some((m) => m.id) && <a class="calc-link" href={url(`/damage-calc/#battle=${t.id}`)}>Damage calc <span aria-hidden="true">→</span></a>}
 	</p>
 </details>

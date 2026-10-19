@@ -1,0 +1,31 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { species, availabilityToken, url } from '../../lib/data';
+import '../../styles/team-builder.css';
+// Artwork for every species and which ones can join a team; the calculator loads everything else when it opens.
+const rows = species.map(mon => [mon.id, mon.baseSpeciesId, mon.formId, mon.types[0], availabilityToken(mon) === 'documented' ? 1 : 0]);
+---
+<StarlightPage frontmatter={{ title: 'Damage calculator', description: 'Damage calculator for Origin HeartGold: your team against every trainer in route order, with editable sets on both sides.', tableOfContents: false }}>
+  <div id="team-builder" class="tb-calc-page" data-base={url('/')} data-view="battle">
+    <div class="tb-intro">
+      <span class="tb-version">ORIGIN HEARTGOLD · v4.0.3</span>
+      <p>Every trainer battle in route order, against the team you plan in the <a href={url('/team-builder/')}>Team Builder</a>.</p>
+    </div>
+    <noscript><p>Enable JavaScript to use the damage calculator. Every trainer’s team is listed on the <a href={url('/trainers/')}>Trainers</a> page.</p></noscript>
+    <div class="tb-app" hidden>
+      <section aria-labelledby="tb-battle-heading" class="tb-battle">
+        <div class="tb-section-heading"><h2 id="tb-battle-heading">Your team against any trainer</h2><div class="tb-actions"><a class="tb-calc-link" id="tb-builder-link" href={url('/team-builder/')}>Team Builder <span aria-hidden="true">→</span></a></div></div>
+        <div id="tb-battle-body" aria-busy="false"></div>
+        <p class="tb-help tb-calc-saved" id="tb-save-status"></p>
+      </section>
+      <p id="tb-status" class="sr-only" role="status" aria-live="polite"></p>
+    </div>
+    <p class="tb-credit">Damage calculation adapted from the <a href="https://github.com/smogon/damage-calc">Smogon damage calculator</a> (<a href={url('/licenses/smogon-damage-calc.txt')}>MIT licence</a>) and inspired by the <a href="https://calc.radicalred.net/">Radical Red calculator</a>. Uses this guide’s Origin HeartGold data. Artwork: <a href="https://github.com/PokeAPI/sprites">PokéAPI</a>.</p>
+  </div>
+  <script type="application/json" id="tb-calc-data" set:html={JSON.stringify(rows)} />
+</StarlightPage>
+<script>
+  import { setupDamageCalc } from '../../lib/damage-calc-page';
+  setupDamageCalc();
+  document.addEventListener('astro:page-load', setupDamageCalc);
+</script>

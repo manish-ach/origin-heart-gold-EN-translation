@@ -299,6 +299,11 @@ details.trainer[open] summary::before, details.shop[open] summary::before { cont
 details.trainer[open] summary, details.shop[open] summary { border-bottom: 1px solid var(--sl-color-gray-5); padding-bottom: .75rem; margin-bottom: 1rem; }
 .trainer-team { font-size: .75rem; line-height: 1.6; }
 .trainer-battles { padding-left: 1.25rem; }
+/* The damage calculator link of a trainer's team: a button, so it stands out from the text links. */
+.trainer-links { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; }
+.trainer-links > * { margin: 0; }
+.trainer-links .calc-link { display: inline-flex; align-items: center; gap: .3rem; padding: .3rem .75rem; border: 1px solid var(--sl-color-gray-5); border-radius: 999px; color: var(--sl-color-white); font-weight: 600; text-decoration: none; }
+.trainer-links .calc-link:hover { border-color: var(--sl-color-text-accent); color: var(--sl-color-text-accent); }
 #loc-list .loc-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem; columns: auto; list-style: none; padding: 0; }
 #loc-list .loc-list li { position: relative; margin: 0; padding: 1rem 1.15rem; border: 1px solid var(--sl-color-gray-5); border-radius: .65rem; background: var(--sl-color-bg-nav); }
 #loc-list .loc-list li[hidden] { display: none; }
