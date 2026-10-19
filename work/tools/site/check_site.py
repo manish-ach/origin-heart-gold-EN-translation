@@ -68,8 +68,8 @@ def main(argv=None):
                 continue
         if path not in ids:
             broken[src].append(href + '  (no page)')
-        elif path.endswith('/team-builder/') and '=' in p.fragment:
-            continue    # Team Builder state (#team=…, #battle=…), read by its script, not an anchor
+        elif path.endswith(('/team-builder/', '/damage-calc/')) and '=' in p.fragment:
+            continue    # Team Builder / calculator state (#team=…, #battle=…), read by its script, not an anchor
         elif p.fragment and urllib.parse.unquote(p.fragment) not in ids[path]:
             broken[src].append(href + '  (no anchor)')
     n = sum(len(v) for v in broken.values())
