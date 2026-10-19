@@ -26,11 +26,12 @@ export function setupDamageCalc() {
   let team: number[] = [];
   let sets: Record<number, any> = {};
   let opponent: any = null;
-  const load = () => { try { ({ team, sets, opponent } = loadStoredState(localStorage, knownIds)); } catch { /* storage unavailable */ } };
-  load();
+  let storageAvailable = true;
+  try { ({ team, sets, opponent } = loadStoredState(localStorage, knownIds)); } catch { storageAvailable = false; }
   const linked = parseStateHash(location.hash, knownIds);
-  // A shared team (and its sets) takes precedence over browser storage, as in the Team Builder.
-  if (linked.team) { team = linked.team; sets = linked.sets ?? {}; }
+  // A shared team (and its sets) takes precedence over browser storage, as in the Team Builder, except in this
+  // page's own history entries (Back, Forward, reload), whose link may hold an older team than the saved one.
+  if (linked.team && !(history.state?.tb && storageAvailable)) { team = linked.team; sets = linked.sets ?? {}; }
   if (linked.opponent !== undefined) opponent = linked.opponent;
   let active: number | null = team[0] ?? null;
 
@@ -38,15 +39,19 @@ export function setupDamageCalc() {
   let lastHash = '';
   function persist(push = false) {
     sets = sanitizeSets(sets, team);
-    let saved = true;
-    try { saveStoredState(localStorage, { team, sets, opponent }); } catch { saved = false; }
-    get('save-status').textContent = saved
+    try { saveStoredState(localStorage, { team, sets, opponent }); storageAvailable = true; } catch { storageAvailable = false; }
+    get('save-status').textContent = storageAvailable
       ? '✓ Saved in this browser. The Team Builder shows the same team.'
       : 'Browser storage is unavailable. Copy this page’s link to keep your team.';
+    writeLink(push);
+  }
+  /** The link and the Team Builder link for the current state, without saving (see the storage listener). */
+  function writeLink(push = false) {
     try { history[push ? 'pushState' : 'replaceState']({ tb: true, view: 'battle' }, '', `${location.pathname}${location.search}${stateHash({ team, sets, opponent }, { battle: true })}`); }
     catch { /* still works when history is disabled */ }
     lastHash = location.hash;
-    get<HTMLAnchorElement>('builder-link').href = `${url('/team-builder/')}${stateHash({ team, sets })}`;
+    // The Team Builder reads the saved team; the link carries it only when there is no storage.
+    get<HTMLAnchorElement>('builder-link').href = `${url('/team-builder/')}${storageAvailable ? '' : stateHash({ team, sets })}`;
   }
 
   let battle: { refresh(): void; selectOpponent(opponent: any): void } | null = null;
@@ -97,14 +102,16 @@ export function setupDamageCalc() {
     else battle?.refresh();
     persist();
   });
-  // The Team Builder open in another tab changed the team: show it here too (the opponent stays).
-  window.addEventListener('storage', event => {
-    if (event.key !== STORAGE_KEY_V2) return;
-    const keep = opponent;
-    load(); opponent = keep;
+  // The saved team changed in another tab, or while this page waited in the browser's cache: show it here too.
+  // The opponent stays, and nothing is saved back, so two open tabs never overwrite each other.
+  function reloadSaved() {
+    try { ({ team, sets } = loadStoredState(localStorage, knownIds)); } catch { return; }
     if (active == null || !team.includes(active)) active = team[0] ?? null;
+    writeLink();
     battle?.refresh();
-  });
+  }
+  window.addEventListener('storage', event => { if (event.key === STORAGE_KEY_V2) reloadSaved(); });
+  window.addEventListener('pageshow', event => { if (event.persisted) reloadSaved(); });
   root.querySelector<HTMLElement>('.tb-app')!.hidden = false;
   persist();
   open();

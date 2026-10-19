@@ -198,6 +198,14 @@ export function stateHash({ team, sets = {}, opponent = null }, { battle = false
 }
 
 /**
+ * The opponent part of a link only (`#battle=20`), for links between the Team Builder and /damage-calc/: both read
+ * the saved team, so a team in that link would only replace newer changes with an older copy.
+ */
+export function opponentHash(opponent) {
+  return `#${stateHash({ team: [], opponent }, { battle: true }).replace(/^#team=&/, '')}`;
+}
+
+/**
  * Parses a link. `team` is null when the link has no team (keep the saved one); `battle` is true when the
  * link asks for the damage calculator, and `opponent` is the opponent it names (undefined = keep the saved one).
  */

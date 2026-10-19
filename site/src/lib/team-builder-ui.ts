@@ -1,5 +1,5 @@
 import { TEAM_SIZE, filterCatalog, availableTeamPokemon } from './team-builder.mjs';
-import { loadStoredState, saveStoredState, parseStateHash, stateHash, sanitizeSets, sanitizeSet, sanitizeOpponent, replaceMember, removeMember } from './team-builder-state.mjs';
+import { STORAGE_KEY_V2, loadStoredState, saveStoredState, parseStateHash, stateHash, sanitizeSets, sanitizeSet, sanitizeOpponent, replaceMember, removeMember, opponentHash } from './team-builder-state.mjs';
 import { encounterChance } from './encounter-format.mjs';
 import { referenceArtwork } from '../../../work/save-editor/src/ui/artwork';
 import { formatTimeHints } from './time-hints.mjs';
@@ -45,8 +45,10 @@ export function setupTeamBuilder() {
   try { ({ team, sets, opponent } = loadStoredState(localStorage, knownIds)); }
   catch { storageAvailable = false; }
   const linked = parseStateHash(location.hash, knownIds);
-  // An explicit shared team (and its sets) takes precedence over browser storage.
-  if (linked.team) { team = linked.team; sets = linked.sets ?? {}; }
+  // An explicit shared team (and its sets) takes precedence over browser storage. One of this page's own history
+  // entries (Back, Forward, reload: history.state.tb) doesn't: its link may hold an older team than the saved one,
+  // changed since on /damage-calc/ or in another tab.
+  if (linked.team && !(history.state?.tb && storageAvailable)) { team = linked.team; sets = linked.sets ?? {}; }
   if (linked.opponent !== undefined) opponent = linked.opponent;
   let active: number | null = team[0] ?? null;
   let page = 0;
@@ -66,12 +68,17 @@ export function setupTeamBuilder() {
     get('save-status').textContent = storageAvailable
       ? '✓ Saved in this browser'
       : 'Browser storage is unavailable. Copy your team link to keep this team.';
+    writeLink(push);
+    get('share-fallback').hidden = true;
+  }
+  /** The link (and the calculator page link) for the current state, without saving: see the storage listener. */
+  function writeLink(push = false) {
     const hash = stateHash({ team, sets, opponent }, { battle: root.dataset.view === 'battle' });
     try { history[push ? 'pushState' : 'replaceState']({ tb: true, view: root.dataset.view }, '', `${location.pathname}${location.search}${hash}`); }
     catch { /* The planner still works when history is disabled. */ }
     lastHash = location.hash;
-    get('share-fallback').hidden = true;
-    get<HTMLAnchorElement>('open-calc').href = `${url('/damage-calc/')}${stateHash({ team, sets, opponent }, { battle: true })}`;
+    // The calculator page reads the saved team; the link carries it only when there is no storage.
+    get<HTMLAnchorElement>('open-calc').href = `${url('/damage-calc/')}${storageAvailable ? opponentHash(opponent) : stateHash({ team, sets, opponent }, { battle: true })}`;
   }
 
   function renderTeam() {
@@ -352,6 +359,17 @@ export function setupTeamBuilder() {
     } else showView(event.state.view === 'battle' ? 'browse' : event.state.view ?? 'browse');
     update();
   });
+  // The saved team changed in another tab (the Team Builder or /damage-calc/): show it here, keeping this tab's view
+  // and opponent. Nothing is saved back, so two open tabs never overwrite each other.
+  function reloadSaved() {
+    try { ({ team, sets } = loadStoredState(localStorage, knownIds)); } catch { return; }
+    if (active == null || !team.includes(active)) active = team[0] ?? null;
+    writeLink(); renderTeam(); renderCatalog(); void renderDetails();
+    if (root.dataset.view === 'battle') refreshBattle(); else battleStale = true;
+  }
+  window.addEventListener('storage', event => { if (event.key === STORAGE_KEY_V2) reloadSaved(); });
+  // Back to a page kept in the browser's cache: the team may have changed on the other page since.
+  window.addEventListener('pageshow', event => { if (event.persisted) reloadSaved(); });
   window.addEventListener('hashchange', () => {
     if (location.hash === lastHash) return; // already handled by popstate, or written by persist
     const shared = parseStateHash(location.hash, knownIds);
