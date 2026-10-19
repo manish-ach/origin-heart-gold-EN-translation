@@ -1,6 +1,7 @@
 // Origin HeartGold guide: small progressive enhancements. Everything works without this script.
 // - quest pages: game setup and quest filters, per-quest "done" ticks, report links
-// - guide pages on phones: steps and quests as rows that open on tap, a dock with Sections and Quests sheets
+// - guide pages on phones: steps and quests as rows that open on tap, a dock with Sections and Quests sheets,
+//   sprites beside Pokémon and items; every page on a phone gets the menu sheet
 // - tables/lists: text filter, select and checkbox filters, click-to-sort headers
 (() => {
 	const store = {
@@ -437,7 +438,7 @@
 		const mq = matchMedia('(max-width: 50rem)');
 		const update = () => {
 			root.toggleAttribute('data-ohg-mobile', mq.matches);
-			if (mq.matches) moveIn(); else moveBack();
+			if (mq.matches) { moveIn(); decorateSprites(content); } else moveBack();
 			if (panel) {
 				if (mq.matches && questsSheet) questsSheet.querySelector('.ohg-m-sheet-body').prepend(panel);
 				else if (panel.parentElement !== content) content.prepend(panel);
@@ -452,6 +453,151 @@
 		document.addEventListener('click', (e) => {
 			const a = e.target.closest?.('a[href^="#"]');
 			if (a && root.hasAttribute('data-ohg-mobile')) openTo(byHash(a.hash));
+		});
+	}
+
+	// ---------------------------------------------------------------- the menu on phones
+	// Below 50rem the header's menu button opens a sheet of the site's own instead of Starlight's sidebar drawer: the
+	// main places as a grid, the chapters as a fold (from the sidebar, when the page has one), the help pages and the
+	// theme. Wider screens keep the sidebar.
+	const base = (document.querySelector('script[src$="ohg.js"]')?.getAttribute('src') || '/ohg.js').replace(/ohg\.js$/, '');
+	const ICONS = {
+		map: '<path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Zm0 0v14m6-12v14"/>',
+		ball: '<circle cx="12" cy="12" r="9"/><path d="M3 12h6m6 0h6"/><circle cx="12" cy="12" r="3"/>',
+		bag: '<path d="M6 8h12l1 12H5L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/>',
+		bolt: '<path d="M13 3 5 14h6l-1 7 8-11h-6l1-7Z"/>',
+		pin: '<path d="M12 21s6-5.2 6-11a6 6 0 0 0-12 0c0 5.8 6 11 6 11Z"/><circle cx="12" cy="10" r="2.2"/>',
+		person: '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',
+		grid: '<rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/>',
+		calc: '<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h2m2 0h2m2 0h0M8 16h2m2 0h2m2 0h0"/>',
+		save: '<path d="M5 3h11l3 3v15H5V3Z"/><path d="M8 3v5h7V3M8 21v-7h8v7"/>',
+		download: '<path d="M12 4v11m0 0 4-4m-4 4-4-4M4 19h16"/>',
+		help: '<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 .9-1 1.7M12 17h0"/>',
+	};
+	const icon = (name) => `<svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">${ICONS[name]}</svg>`;
+	const PLACES = [
+		['Walkthrough', 'guide/', 'map'], ['Pokédex', 'pokemon/', 'ball'], ['Items', 'items/', 'bag'], ['Moves', 'moves/', 'bolt'],
+		['Locations', 'locations/', 'pin'], ['Trainers', 'trainers/', 'person'], ['Team builder', 'team-builder/', 'grid'],
+		['Damage calc', 'damage-calc/', 'calc'], ['Save editor', 'save-editor/', 'save'],
+	];
+	const HELP = [
+		['FAQ', 'faq/'], ['How to use this guide', 'about/'], ['Mechanics and controls', 'mechanics/'], ['Difficulty settings', 'difficulty/'],
+		['Camera and widescreen codes', 'camera-codes/'], ['Changelog and contributors', 'changelog/'],
+	];
+
+	function setupMobileMenu() {
+		const button = document.querySelector('.sl-menu-button, .primary-menu-button');
+		if (!button) return;
+		const mq = matchMedia('(max-width: 50rem)');
+		const here = location.pathname.replace(/index\.html$/, '');
+		const current = (href) => here === href ? 'page' : (href !== base && here.startsWith(href) ? 'true' : null);
+		const esc = (t) => t.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+		let sheet = null;
+		const build = () => {
+			sheet = document.createElement('dialog');
+			sheet.className = 'ohg-m-sheet ohg-m-menu not-content';
+			sheet.setAttribute('aria-label', 'Menu');
+			const link = (label, href, cls = '') => {
+				const h = base + href;
+				const cur = current(h);
+				return `<a href="${h}" class="${cls}"${cur ? ` aria-current="${cur}"` : ''}>${label}</a>`;
+			};
+			let chapters = '';
+			const group = [...document.querySelectorAll('#starlight__sidebar details')].find((d) => /quest guide/i.test(d.querySelector('summary')?.textContent || ''));
+			const links = group ? [...group.querySelectorAll('a[href]')] : [];
+			if (links.length) {
+				chapters = `<details class="ohg-m-menu-fold"${links.some((a) => a.getAttribute('aria-current')) ? ' open' : ''}><summary>Chapters<span class="ohg-m-meta">${links.length} pages</span></summary><ul>` +
+					links.map((a) => `<li><a href="${esc(a.getAttribute('href'))}"${a.getAttribute('aria-current') ? ' aria-current="page"' : ''}>${esc(a.textContent.trim())}</a></li>`).join('') + '</ul></details>';
+			}
+			sheet.innerHTML = `<div class="ohg-m-sheet-head"><h2>Origin <span>HeartGold</span></h2><button type="button" class="ohg-m-close" aria-label="Close"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>` +
+				`<div class="ohg-m-sheet-body">` +
+				link(`${icon('download')}<span>Get the patch</span>`, 'patch/', 'ohg-m-menu-cta') +
+				`<nav class="ohg-m-menu-grid" aria-label="Main">${PLACES.map(([label, href, ic]) => link(`${icon(ic)}<span>${label}</span>`, href)).join('')}</nav>` +
+				chapters +
+				`<details class="ohg-m-menu-fold"><summary>${icon('help')}Help</summary><ul>${HELP.map(([label, href]) => `<li>${link(label, href)}</li>`).join('')}</ul></details>` +
+				`<div class="ohg-m-menu-theme" role="group" aria-label="Theme"><button type="button" data-theme="light">Light</button><button type="button" data-theme="dark">Dark</button><button type="button" data-theme="auto">Auto</button></div>` +
+				`</div>`;
+			sheet.querySelector('.ohg-m-close').addEventListener('click', () => sheet.close());
+			sheet.addEventListener('click', (e) => { if (e.target === sheet) sheet.close(); });
+			// the theme: Starlight's own picker does the switching and the remembering
+			const picker = document.querySelector('starlight-theme-select select');
+			const themeButtons = [...sheet.querySelectorAll('.ohg-m-menu-theme button')];
+			const syncTheme = () => {
+				const v = picker?.value || 'auto';
+				themeButtons.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.theme === v)));
+			};
+			themeButtons.forEach((b) => b.addEventListener('click', () => {
+				if (picker) { picker.value = b.dataset.theme; picker.dispatchEvent(new Event('change')); }
+				else document.documentElement.dataset.theme = b.dataset.theme === 'auto' ? (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark') : b.dataset.theme;
+				syncTheme();
+			}));
+			if (!picker) sheet.querySelector('.ohg-m-menu-theme').hidden = true;
+			syncTheme();
+			document.body.append(sheet);
+		};
+		document.addEventListener('click', (e) => {
+			const b = e.target.closest?.('.sl-menu-button, .primary-menu-button');
+			if (!b || !mq.matches) return;
+			e.preventDefault();
+			e.stopImmediatePropagation();
+			if (!sheet) build();
+			sheet.open ? sheet.close() : sheet.showModal();
+		}, true);
+		const onChange = () => { if (!mq.matches && sheet?.open) sheet.close(); };
+		mq.addEventListener ? mq.addEventListener('change', onChange) : mq.addListener(onChange);
+	}
+
+	// ---------------------------------------------------------------- sprites on phones
+	// Pokémon named with a level ("Scyther Lv. 11", also in a trainer's bracketed team), Pokémon and items in table
+	// columns about them, rewards and hidden items get a PokéAPI sprite beside the name. The names come from
+	// /sprites.json. Nothing changes for wider screens: the text stays as written and the pictures are hidden.
+	const SPRITES = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites';
+	let spriteNames = null;
+	function decorateSprites(content) {
+		if (content.dataset.ohgSprites) return;
+		content.dataset.ohgSprites = 'on';
+		spriteNames ||= fetch(base + 'sprites.json').then((r) => r.ok ? r.json() : null).catch(() => null);
+		spriteNames.then((names) => {
+			if (!names) return;
+			const rx = (list) => new RegExp('(?<![\\w’\'])(' + list.sort((a, b) => b.length - a.length).map((n) => n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')(?![\\w’\'])', 'g');
+			const monRx = rx(Object.keys(names.p));
+			const itemRx = rx(Object.keys(names.i));
+			const monImg = (id) => `<img class="ohg-m-sprite ohg-m-sprite-mon" src="${SPRITES}/pokemon/${id}.png" width="40" height="40" alt="" loading="lazy" decoding="async">`;
+			const itemImg = (slug) => `<img class="ohg-m-sprite ohg-m-sprite-item" src="${SPRITES}/items/${slug}.png" width="30" height="30" alt="" loading="lazy" decoding="async">`;
+			// replace matches of `re` inside the text nodes under `root`, leaving links and pictures alone
+			const mark = (root, re, build) => {
+				const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: (n) => n.parentElement.closest('.ohg-m-mon, .ohg-m-item, .ohg-m-row, .tech, script, style') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+				const nodes = [];
+				for (let n = walker.nextNode(); n; n = walker.nextNode()) if (re.test(n.data)) nodes.push(n);
+				re.lastIndex = 0;
+				for (const n of nodes) {
+					const html = n.data.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[c]).replace(re, build);
+					const span = document.createElement('span');
+					span.innerHTML = html;
+					n.replaceWith(...span.childNodes);
+				}
+			};
+			const levelled = new RegExp(monRx.source + '(\\s+Lv\\.\\s?\\d+)', 'g');
+			const mon = (name, level = '') => `<span class="ohg-m-mon">${monImg(names.p[name])}<span class="ohg-m-mon-name">${name}</span>${level ? `<span class="ohg-m-mon-level">${level.trim()}</span>` : ''}</span>`;
+			// a trainer's team in brackets: "(Beldum Lv. 12, Baltoy Lv. 11)" becomes a row of chips
+			const team = new RegExp('\\((' + levelled.source + '(?:,\\s*)?)+\\)', 'g');
+			mark(content, team, (m) => `<span class="ohg-m-team"><span class="ohg-m-punct">(</span>${m.slice(1, -1).replace(levelled, (_, name, level) => mon(name, level)).replace(/,\s*/g, '<span class="ohg-m-punct">, </span>')}<span class="ohg-m-punct">)</span></span>`);
+			mark(content, levelled, (_, name, level) => mon(name, level));
+			// columns about Pokémon or items, rewards, gifts and hidden items: the first name in the cell gets its picture
+			const columns = /^(pokémon|team|partner|starter|gift|reward|prize|item|what you get|receive|hold)/i;
+			const cells = [];
+			for (const table of content.querySelectorAll('table')) {
+				const heads = [...table.querySelectorAll('thead th')].map((th) => columns.test(th.textContent.trim()));
+				for (const tr of table.querySelectorAll('tbody tr')) [...tr.cells].forEach((td, i) => { if (heads[i]) cells.push(td); });
+			}
+			for (const p of content.querySelectorAll('p')) if (/^(reward|gift|prize|what you get)/i.test(p.querySelector('strong:first-child')?.textContent || '')) cells.push(p);
+			for (const strong of content.querySelectorAll('.chapter-hidden-area > p > strong:first-child')) cells.push(strong);
+			for (const cell of cells) {
+				let done = false;
+				mark(cell, monRx, (m) => done ? m : (done = true, mon(m)));
+				if (!done) mark(cell, itemRx, (m) => done ? m : (done = true, `<span class="ohg-m-item">${itemImg(names.i[m])}${m}</span>`));
+			}
+			content.querySelectorAll('img.ohg-m-sprite').forEach((img) => img.addEventListener('error', () => img.remove(), { once: true }));
 		});
 	}
 
@@ -593,6 +739,6 @@
 
 	// Pages that insert tables later (trainer cards on /trainers/) give them the same panel.
 	window.ohgTableScroll = setupTableScroll;
-	const init = () => { setupQuests(); setupFilters(); setupTableScroll(); setupMobileGuide(); };
+	const init = () => { setupQuests(); setupFilters(); setupTableScroll(); setupMobileGuide(); setupMobileMenu(); };
 	document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', init) : init();
 })();
