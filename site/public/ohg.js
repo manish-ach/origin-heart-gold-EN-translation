@@ -357,43 +357,71 @@
 		};
 		turn('prev', '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
 
-		// Sections: the walkthrough steps and the page's other headings
-		const sections = sheet('ohg-m-sections', 'On this page');
+		// Walkthrough: every chapter (from the sidebar), with this page's own steps and headings nested under the
+		// chapter the reader is on; the find box searches both
+		const sections = sheet('ohg-m-sections', 'Walkthrough');
 		const sectionsBody = sections.querySelector('.ohg-m-sheet-body');
-		sectionsBody.innerHTML = '<input type="search" class="ohg-m-find" placeholder="Find a step or section" aria-label="Find a step or section"><ul class="ohg-m-toc"></ul>';
+		sectionsBody.innerHTML = '<input type="search" class="ohg-m-find" placeholder="Find a chapter, step or section" aria-label="Find a chapter, step or section"><ul class="ohg-m-toc"></ul>';
 		const find = sectionsBody.querySelector('.ohg-m-find');
 		const tocList = sectionsBody.querySelector('.ohg-m-toc');
-		const renderSections = () => {
-			tocList.innerHTML = '';
-			const add = (href, text, cls) => {
-				const li = el('li', cls);
-				const a = el('a');
-				a.href = href;
-				a.textContent = text;
-				li.append(a);
-				tocList.append(li);
-			};
+		const chapterLinks = (() => {
+			const group = [...document.querySelectorAll('#starlight__sidebar details')].find((d) => /quest guide/i.test(d.querySelector('summary')?.textContent || ''));
+			return group ? [...group.querySelectorAll('a[href]')] : [];
+		})();
+		const pageEntries = () => {
+			const out = [];
 			const links = tocLinks.length ? tocLinks : [...content.querySelectorAll('h2[id]')].map((h) => ({ hash: '#' + h.id, textContent: h.textContent }));
 			for (const a of links) {
 				if (a.parentElement && a.parentElement.style?.display === 'none') continue;
 				const href = a.hash || a.getAttribute('href');
+				if (href === '#_top') continue;
 				const t = byHash(href);
 				const q = t?.closest('section.quest');
 				if (q && placed.has(q)) continue; // quests under their steps are in the Quests sheet
 				if (href === '#quests-in-this-chapter' && !loose.length) continue;
 				const sub = q || parseInt(a.style?.getPropertyValue('--depth') || '0', 10) > 0;
-				add(href, a.textContent.trim(), sub ? 'ohg-m-sub' : '');
-				if (href === '#walkthrough') steps.forEach((s) => s.id && add('#' + s.id, s.dataset.title || s.id, 'ohg-m-sub ohg-m-stepline' + (s.classList.contains('chapter-optional') ? ' ohg-m-optional' : '')));
+				out.push([href, a.textContent.trim(), sub ? 'ohg-m-sub' : '']);
+				if (href === '#walkthrough') steps.forEach((s) => s.id && out.push(['#' + s.id, s.dataset.title || s.id, 'ohg-m-sub ohg-m-stepline' + (s.classList.contains('chapter-optional') ? ' ohg-m-optional' : '')]));
+			}
+			return out;
+		};
+		const renderSections = () => {
+			tocList.innerHTML = '';
+			const item = (href, text, cls) => {
+				const li = el('li', cls);
+				const a = el('a');
+				a.href = href;
+				a.textContent = text;
+				li.append(a);
+				return li;
+			};
+			const page = pageEntries();
+			const pageList = el('ul', 'ohg-m-toc-page');
+			page.forEach(([href, text, cls]) => pageList.append(item(href, text, cls)));
+			if (!chapterLinks.length) { tocList.append(...pageList.children); filterSections(); return; }
+			for (const a of chapterLinks) {
+				const current = !!a.getAttribute('aria-current');
+				const li = item(a.getAttribute('href'), a.textContent.trim(), 'ohg-m-chapter' + (current ? ' ohg-m-chapter-current' : ''));
+				if (current) { li.firstChild.setAttribute('aria-current', 'page'); if (pageList.children.length) li.append(pageList); }
+				tocList.append(li);
 			}
 			filterSections();
 		};
 		const filterSections = () => {
 			const q = searchText(find.value.trim());
-			for (const li of tocList.children) li.hidden = !!q && !searchText(li.textContent).includes(q);
+			for (const li of tocList.querySelectorAll('li')) li.hidden = !!q && !searchText(li.firstChild.textContent).includes(q);
+			// a chapter stays while any of its page entries match
+			for (const li of tocList.querySelectorAll('.ohg-m-chapter')) if (li.hidden && [...li.querySelectorAll('li')].some((c) => !c.hidden)) li.hidden = false;
 		};
 		find.addEventListener('input', filterSections);
-		const sectionsButton = dockButton('Sections', '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>', 'ohg-m-dock-sections');
-		sectionsButton.addEventListener('click', () => { renderSections(); find.value = ''; filterSections(); sections.showModal(); });
+		const sectionsButton = dockButton('Walkthrough', '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>', 'ohg-m-dock-sections');
+		sectionsButton.addEventListener('click', () => {
+			renderSections();
+			find.value = '';
+			filterSections();
+			sections.showModal();
+			tocList.querySelector('.ohg-m-chapter-current')?.scrollIntoView({ block: 'start' });
+		});
 
 		// Quests: one row per quest the filters leave on the page, with its tick and a jump link, and the game filters.
 		// The tick drives the quest's own Done box; setupQuests announces changes with "ohg:quests" and the list redraws.
