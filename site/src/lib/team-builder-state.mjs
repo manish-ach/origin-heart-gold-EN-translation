@@ -1,7 +1,7 @@
 /**
  * Planner state v2: the team (record IDs), an optional battle set per member and the opponent chosen in
- * Battle check. Loaded on every visit, so it only checks the shape of saved values; the Battle check
- * module validates ids against the game data when it opens.
+ * the damage calculator. Loaded on every visit, so it only checks the shape of saved values; the calculator
+ * module (battle-check.ts) validates ids against the game data when it opens.
  *
  * Storage: `ohg-team-builder-v2` = {v: 2, team, sets, opponent}. The v1 key (a bare id array) is still read
  * when no v2 state exists and is kept up to date, so older pages keep working.
@@ -70,6 +70,31 @@ export function sanitizeOpponent(value) {
     return set ? { species: value.species, set } : { species: value.species };
   }
   return null;
+}
+
+/**
+ * Puts `newId` in `oldId`'s slot (or in the next free slot when `oldId` is null) and selects it. The replaced
+ * member's set is dropped; everything else, the opponent included, is left alone. Returns null (with `reason`)
+ * when the Pokémon can't join: unknown, already on the team, or the team is full.
+ */
+export function replaceMember({ team, sets }, oldId, newId, knownIds) {
+  if (!knownIds.has(newId)) return { reason: 'unknown' };
+  if (team.includes(newId)) return { reason: 'duplicate' };
+  const index = oldId == null ? -1 : team.indexOf(oldId);
+  if (index < 0 && team.length >= TEAM_SIZE) return { reason: 'full' };
+  const next = [...team];
+  if (index < 0) next.push(newId); else next[index] = newId;
+  const nextSets = { ...sets };
+  if (index >= 0) delete nextSets[oldId];
+  return { team: next, sets: sanitizeSets(nextSets, next), active: newId };
+}
+
+/** Removes a member; the next one (or the last) becomes active. */
+export function removeMember({ team, sets, active }, id) {
+  const index = team.indexOf(id);
+  if (index < 0) return { team, sets, active };
+  const next = team.filter(member => member !== id);
+  return { team: next, sets: sanitizeSets(sets, next), active: active === id ? next[Math.min(index, next.length - 1)] ?? null : active };
 }
 
 /** Reads v2, else migrates v1. Throws when storage itself is unavailable. */
@@ -156,7 +181,7 @@ export function decodeSets(text, team) {
   return sets;
 }
 
-/** Hash for the current state. `battle` adds the opponent (used while Battle check is open and for sharing). */
+/** Hash for the current state. `battle` adds the opponent (used while the damage calculator is open and for sharing). */
 export function stateHash({ team, sets = {}, opponent = null }, { battle = false } = {}) {
   let hash = `#team=${team.join(',')}`;
   const encoded = encodeSets(team, sets);
@@ -174,7 +199,7 @@ export function stateHash({ team, sets = {}, opponent = null }, { battle = false
 
 /**
  * Parses a link. `team` is null when the link has no team (keep the saved one); `battle` is true when the
- * link asks for Battle check, and `opponent` is the opponent it names (undefined = keep the saved one).
+ * link asks for the damage calculator, and `opponent` is the opponent it names (undefined = keep the saved one).
  */
 export function parseStateHash(hash, knownIds) {
   const params = new URLSearchParams(String(hash ?? '').replace(/^#/, ''));

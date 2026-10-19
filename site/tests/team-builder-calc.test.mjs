@@ -4,8 +4,10 @@ import { readFileSync } from 'node:fs';
 import { STORAGE_KEY } from '../src/lib/team-builder.mjs';
 import {
   STORAGE_KEY_V2, loadStoredState, saveStoredState, parseStateHash, stateHash, encodeSet, decodeSet, sanitizeSet,
+  replaceMember, removeMember,
 } from '../src/lib/team-builder-state.mjs';
-import { createDex, resolveSet, suggestedMoves, learnableMoves, exportShowdown, importShowdown, compactSet, showdownAliases, evolutionLevel } from '../src/lib/battle-sets.mjs';
+import { createDex, resolveSet, suggestedMoves, learnableMoves, exportShowdown, importShowdown, compactSet, showdownAliases, evolutionLevel, applyFoeEdit, cleanFoeEdit } from '../src/lib/battle-sets.mjs';
+import { CAVEATS } from '../src/lib/calc/caveats.ts';
 import { buildBattleData, playOrder, trainerMon, LATER, levelMargin } from '../src/lib/battle-check-data.mjs';
 import { buildCalcData, loadCalc } from '../src/lib/calc/index.ts';
 
@@ -190,10 +192,59 @@ test('production build ships the damage engine’s MIT notice', { skip: process.
   const { readdirSync } = await import('node:fs');
   const dist = new URL('../dist/', import.meta.url);
   const chunk = readdirSync(new URL('_astro/', dist)).find(name => /^battle-check\..*\.js$/.test(name));
-  assert.ok(chunk, 'Battle check chunk built');
+  assert.ok(chunk, 'damage calculator chunk built');
   const code = readFileSync(new URL(`_astro/${chunk}`, dist), 'utf8');
   assert.match(code, /\/\*! @license MIT[\s\S]*Honko and other contributors/);
   const licence = readFileSync(new URL('licenses/smogon-damage-calc.txt', dist), 'utf8');
   assert.equal(licence, readFileSync(new URL('../src/lib/calc/LICENSE', import.meta.url), 'utf8'));
   assert.match(readFileSync(new URL('team-builder/index.html', dist), 'utf8'), /href="[^"]*licenses\/smogon-damage-calc\.txt"/);
+});
+
+test('swapping or adding a member from the calculator keeps the opponent and the other sets', () => {
+  const state = { team: [3, 12, 196], sets: { 3: { level: 40 }, 12: { item: ITEM['Silver Powder'] } }, opponent: { trainer: 20 }, active: 3 };
+  const swapped = replaceMember(state, 12, 6, known);
+  assert.deepEqual(swapped, { team: [3, 6, 196], sets: { 3: { level: 40 } }, active: 6 }, 'same slot, the old set dropped, the new member selected');
+  assert.deepEqual(state.opponent, { trainer: 20 }, 'the opponent is not touched');
+  assert.equal(stateHash({ ...swapped, opponent: state.opponent }, { battle: true }), '#team=3,6,196&sets=3.L40&battle=20', 'the link keeps the fight');
+  assert.deepEqual(replaceMember(swapped, null, 25, known).team, [3, 6, 196, 25], 'a free slot is filled at the end');
+  assert.equal(replaceMember(swapped, null, 3, known).reason, 'duplicate');
+  assert.equal(replaceMember({ team: [1, 4, 7, 25, 3, 6], sets: {} }, null, 9, known).reason, 'full');
+  assert.deepEqual(replaceMember({ team: [1, 4, 7, 25, 3, 6], sets: {} }, 25, 9, known).team, [1, 4, 7, 9, 3, 6], 'a full team can still swap');
+  assert.equal(replaceMember(swapped, null, 99999, known).reason, 'unknown');
+  assert.deepEqual(removeMember({ team: [3, 6, 196], sets: { 3: { level: 40 } }, active: 6 }, 6), { team: [3, 196], sets: { 3: { level: 40 } }, active: 196 });
+  assert.deepEqual(removeMember({ team: [3], sets: {}, active: 3 }, 3), { team: [], sets: {}, active: null });
+});
+
+test('edits to a trainer’s Pokémon change its numbers, and resetting restores the game data', () => {
+  const calc = loadCalc(calcData);
+  const falkner = battleData.trainers.find(t => t[0] === 20);
+  const staraptor = trainerMon(falkner[7][0]);
+  assert.equal(staraptor.id, 398);
+  const base = calc.fromTrainerMon(staraptor);
+  const obsolete = { nature: CAVEATS.natureGenerated, moves: CAVEATS.levelUpMovesMissing };
+  const me = resolveSet(dex, 3, { level: 80 }, { level: 80 }).calc;
+  const damage = (set, move) => calc.calculateMatchup(set, me, { gameType: 'Singles' }).moves.find(m => m.name === move);
+  const banded = damage(applyFoeEdit(base, null, obsolete), 'Brave Bird');
+  assert.equal(base.itemId, ITEM['Choice Band']);
+  // No item: Brave Bird does less.
+  const plain = damage(applyFoeEdit(base, { item: 0 }, obsolete), 'Brave Bird');
+  assert.ok(plain.maxDamage < banded.maxDamage, `${plain.maxDamage} < ${banded.maxDamage}`);
+  // Other moves: the matchup lists them.
+  const moved = applyFoeEdit(base, { moves: [MOVE['Earthquake'], MOVE['Brave Bird']] }, obsolete);
+  assert.deepEqual(calc.calculateMatchup(moved, me, {}).moves.map(m => m.name), ['Earthquake', 'Brave Bird']);
+  // Condition and level are edits too; the base set itself never changes.
+  const hurt = applyFoeEdit(base, { level: 50, hp: 40, status: 'brn', boosts: { atk: 2 } }, obsolete);
+  assert.deepEqual([hurt.level, hurt.curHPPercent, hurt.status, hurt.boosts], [50, 40, 'brn', { atk: 2 }]);
+  assert.equal(base.level, 80);
+  // Reset (no edit) gives the game data back, with a healthy, unboosted Pokémon.
+  const reset = applyFoeEdit(base, null, obsolete);
+  assert.deepEqual({ ...reset, curHPPercent: undefined, status: undefined, boosts: undefined }, { ...base, curHPPercent: undefined, status: undefined, boosts: undefined });
+  assert.equal(damage(reset, 'Brave Bird').maxDamage, banded.maxDamage);
+  // An edited nature is no longer "generated by the game".
+  const generated = calc.fromTrainerMon({ ...staraptor, nature: null });
+  assert.ok(generated.caveats.includes(CAVEATS.natureGenerated));
+  assert.ok(!applyFoeEdit(generated, { nature: 'Adamant' }, obsolete).caveats.includes(CAVEATS.natureGenerated));
+  // Fields set back to the game's value are dropped; nothing left means no edit.
+  assert.equal(cleanFoeEdit(base, { item: base.itemId, level: 80, moves: [...base.moveIds], evs: { hp: base.evs.hp }, hp: 100, status: '', boosts: { atk: 0 } }), null);
+  assert.deepEqual(cleanFoeEdit(base, { item: 0, level: 80, evs: { atk: base.evs.atk + 4, hp: base.evs.hp } }), { item: 0, evs: { atk: base.evs.atk + 4 } });
 });
