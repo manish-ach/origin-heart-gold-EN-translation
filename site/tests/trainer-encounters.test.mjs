@@ -103,7 +103,7 @@ test('internal links to trainer pages use the main record and an existing team c
   }
   assert.ok(links > 1000, `${links} trainer links`);
   assert.deepEqual(bad.slice(0, 10), [], `${bad.length} links to non-main trainer records`);
-  // Battle check builds its links in the browser from battle-data.json.
+  // The damage calculator builds its links in the browser from battle-data.json.
   const battle = JSON.parse(readFileSync(join(dist, 'team-builder/battle-data.json'), 'utf8'));
   assert.deepEqual(battle.mainIds, Object.fromEntries(Object.entries(trainerMainIds(profiles)).map(([k, v]) => [k, v])));
 });

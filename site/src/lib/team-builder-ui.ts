@@ -1,5 +1,5 @@
 import { TEAM_SIZE, filterCatalog, availableTeamPokemon } from './team-builder.mjs';
-import { loadStoredState, saveStoredState, parseStateHash, stateHash, sanitizeSets, sanitizeSet, sanitizeOpponent } from './team-builder-state.mjs';
+import { loadStoredState, saveStoredState, parseStateHash, stateHash, sanitizeSets, sanitizeSet, sanitizeOpponent, replaceMember, removeMember } from './team-builder-state.mjs';
 import { encounterChance } from './encounter-format.mjs';
 import { referenceArtwork } from '../../../work/save-editor/src/ui/artwork';
 import { formatTimeHints } from './time-hints.mjs';
@@ -7,10 +7,22 @@ import { formatCatchHint } from './catch-hints.mjs';
 import { formatEncounterHints } from './encounter-hints.mjs';
 
 type Mon = { id: number; name: string; slug: string; baseSpeciesId: number; formId: number; types: string[]; region: string; stats: number[]; abilities: string[]; hidden: string | null; availability: string };
-const escape = (value: unknown) => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]!);
+export const escape = (value: unknown) => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]!);
 const labels: Record<string, string> = { documented: 'Documented source', unknown: 'No known source', battle: 'Battle only', unavailable: 'Unavailable' };
 const kinds: Record<string, string> = { gift: 'Gift', egg: 'Gift Egg', trade: 'Trade', loan: 'Loan', 'loan-return': 'Loan return', starter: 'Starter choice', prize: 'Prize', static: 'Scripted encounter' };
-const hues: Record<string, number> = { Normal: 42, Grass: 140, Poison: 280, Fire: 22, Water: 205, Electric: 46, Ice: 182, Fighting: 10, Ground: 32, Flying: 220, Psychic: 326, Bug: 85, Rock: 40, Ghost: 268, Dragon: 250, Dark: 255, Steel: 195, Fairy: 330 };
+export const hues: Record<string, number> = { Normal: 42, Grass: 140, Poison: 280, Fire: 22, Water: 205, Electric: 46, Ice: 182, Fighting: 10, Ground: 32, Flying: 220, Psychic: 326, Bug: 85, Rock: 40, Ghost: 268, Dragon: 250, Dark: 255, Steel: 195, Fairy: 330 };
+/** Pokémon artwork in its type-coloured frame (shared with the damage calculator page). */
+export function artHtml(baseSpeciesId: number, formId: number, type: string, extra = '') {
+  const image = referenceArtwork(baseSpeciesId, formId);
+  return `<span class="tb-art${extra}" style="--mon-hue:${hues[type] ?? 42}">${image ? `<img src="${escape(image.src)}" data-fallback="${escape(image.fallback)}" alt="" width="128" height="128" loading="lazy" />` : '<span class="tb-art-empty" aria-hidden="true">◇</span>'}</span>`;
+}
+/** Falls back to the second artwork source, then hides a missing image. */
+export const wireImages = (parent: HTMLElement) => parent.querySelectorAll<HTMLImageElement>('img[data-fallback]').forEach(img => {
+  img.addEventListener('error', () => {
+    if (img.dataset.fallback) { const fallback = img.dataset.fallback; delete img.dataset.fallback; img.src = fallback; }
+    else { img.hidden = true; img.parentElement!.classList.add('tb-art-unavailable'); }
+  });
+});
 
 export function setupTeamBuilder() {
   const root = document.querySelector<HTMLElement>('#team-builder');
@@ -25,16 +37,7 @@ export function setupTeamBuilder() {
   const link = (href: string | null, text: unknown) => href ? `<a href="${escape(url(href))}">${escape(text)}</a>` : escape(text);
   const types = (mon: Mon) => mon.types.map(type => `<span class="type type-${escape(type.toLowerCase())}">${escape(type)}</span>`).join('');
   const tone = (mon: Mon) => `style="--mon-hue:${hues[mon.types[0]] ?? 42}"`;
-  const art = (mon: Mon, extra = '') => {
-    const image = referenceArtwork(mon.baseSpeciesId, mon.formId);
-    return `<span class="tb-art${extra}" ${tone(mon)}>${image ? `<img src="${escape(image.src)}" data-fallback="${escape(image.fallback)}" alt="" width="128" height="128" loading="lazy" />` : '<span class="tb-art-empty" aria-hidden="true">◇</span>'}</span>`;
-  };
-  const wireImages = (parent: HTMLElement) => parent.querySelectorAll<HTMLImageElement>('img[data-fallback]').forEach(img => {
-    img.addEventListener('error', () => {
-      if (img.dataset.fallback) { const fallback = img.dataset.fallback; delete img.dataset.fallback; img.src = fallback; }
-      else { img.hidden = true; img.parentElement!.classList.add('tb-art-unavailable'); }
-    });
-  });
+  const art = (mon: Mon, extra = '') => artHtml(mon.baseSpeciesId, mon.formId, mon.types[0], extra);
   let team: number[] = [];
   let sets: Record<number, any> = {};
   let opponent: any = null;
@@ -52,16 +55,23 @@ export function setupTeamBuilder() {
   const cache = new Map<number, any>();
   const status = (text: string) => { get('status').textContent = text; };
 
-  function persist() {
+  // The link always shows the current team. Team and set changes replace the history entry; entering or leaving
+  // the calculator and picking another opponent add one (`push`), so Back returns to the previous view or opponent.
+  // Entries carry {tb: true, view} so popstate can tell Back/Forward from a newly opened link.
+  let lastHash = '';
+  function persist(push = false) {
     sets = sanitizeSets(sets, team);
     try { saveStoredState(localStorage, { team, sets, opponent }); storageAvailable = true; }
     catch { storageAvailable = false; }
     get('save-status').textContent = storageAvailable
       ? '✓ Saved in this browser'
       : 'Browser storage is unavailable. Copy your team link to keep this team.';
-    try { history.replaceState(history.state, '', `${location.pathname}${location.search}${stateHash({ team, sets, opponent }, { battle: root.dataset.view === 'battle' })}`); }
+    const hash = stateHash({ team, sets, opponent }, { battle: root.dataset.view === 'battle' });
+    try { history[push ? 'pushState' : 'replaceState']({ tb: true, view: root.dataset.view }, '', `${location.pathname}${location.search}${hash}`); }
     catch { /* The planner still works when history is disabled. */ }
+    lastHash = location.hash;
     get('share-fallback').hidden = true;
+    get<HTMLAnchorElement>('open-calc').href = `${url('/damage-calc/')}${stateHash({ team, sets, opponent }, { battle: true })}`;
   }
 
   function renderTeam() {
@@ -212,15 +222,15 @@ export function setupTeamBuilder() {
     } finally { if (token === request) panel.setAttribute('aria-busy', 'false'); }
   }
 
-  // Battle check: its code, the damage engine and their data load only when it is opened.
-  let battle: { refresh(): void; selectOpponent(opponent: any): void } | null = null;
+  // Damage calculator: its code, the damage engine and their data load only when it is opened.
+  let battle: { refresh(): void; selectOpponent(opponent: any): void; openMemberPicker(): void } | null = null;
   let battleLoading: Promise<void> | null = null;
   let battleStale = false;
   function openBattle() {
     if (battle || battleLoading) return;
     const body = get('battle-body');
     body.setAttribute('aria-busy', 'true');
-    body.innerHTML = '<p class="tb-help">Loading Battle check…</p>';
+    body.innerHTML = '<p class="tb-help">Loading the damage calculator…</p>';
     battleLoading = import('./battle-check').then(({ mountBattleCheck }) => mountBattleCheck({
       root, panel: body, url, escape, hues, wireImages,
       art: (id, size = 'sm') => { const mon = byId.get(id); return mon ? art(mon, ` tb-art-${size}`) : '<span class="tb-art"></span>'; },
@@ -229,15 +239,22 @@ export function setupTeamBuilder() {
       sets: () => sets,
       setSet: (id, set) => { const clean = sanitizeSet(set); if (clean) sets[id] = clean; else delete sets[id]; persist(); },
       opponent: () => opponent,
-      setOpponent: next => { opponent = sanitizeOpponent(next); persist(); },
+      setOpponent: (next, push) => { opponent = sanitizeOpponent(next); persist(push); },
       replaceTeam: (ids, next) => { team = ids.filter(id => knownIds.has(id)).slice(0, TEAM_SIZE); sets = sanitizeSets(next, team); active = team[0] ?? null; update(); },
+      // Team changes from inside the calculator: it redraws itself, and the view and opponent stay.
+      replaceMember: (oldId, newId) => {
+        const next = replaceMember({ team, sets }, oldId, newId, knownIds);
+        if (!next.team) { status(next.reason === 'full' ? 'Your team is full. Remove or swap a Pokémon to add another.' : 'That Pokémon can’t join your team.'); return false; }
+        ({ team, sets, active } = next); planner(); return true;
+      },
+      removeMember: id => { ({ team, sets, active } = removeMember({ team, sets, active }, id)); planner(); },
       canJoin: id => knownIds.has(id),
-      status, findPokemon: () => { showView('browse'); get('search').focus(); },
+      status,
     })).then(view => { battle = view; battleStale = false; body.setAttribute('aria-busy', 'false'); })
       .catch(() => {
         battleLoading = null;
         body.setAttribute('aria-busy', 'false');
-        body.innerHTML = '<p>Couldn’t load Battle check. Your team is still saved in the page.</p><button type="button" data-battle-retry>Try again</button>';
+        body.innerHTML = '<p>Couldn’t load the damage calculator. Your team is still saved in the page.</p><button type="button" data-battle-retry>Try again</button>';
       });
   }
   function showView(view: string) {
@@ -249,30 +266,46 @@ export function setupTeamBuilder() {
     if (battle && battleStale) queueMicrotask(() => { if (battleStale && root.dataset.view === 'battle') refreshBattle(); });
   }
   function refreshBattle() { battleStale = false; battle?.refresh(); }
+  /** A view change the player asked for. Entering or leaving the calculator adds a history entry. */
+  function switchView(view: string) {
+    const from = root.dataset.view;
+    if (from === view) return;
+    const push = from === 'battle' || view === 'battle';
+    // The entry being left remembers its view (the Field guide opens without a history entry of its own).
+    if (push) { try { history.replaceState({ ...(history.state ?? {}), tb: true, view: from }, ''); } catch { /* no history */ } }
+    showView(view);
+    persist(push);
+  }
   showView(linked.battle ? 'battle' : 'browse');
-  // A hidden Battle check is redrawn when it is shown again, not on every team change.
+  // A hidden calculator is redrawn when it is shown again, not on every team change.
   function update() {
-    persist(); renderTeam(); renderCatalog(); void renderDetails();
+    planner();
     if (root.dataset.view === 'battle') refreshBattle(); else battleStale = true;
   }
+  /** Everything but the calculator. */
+  function planner() { persist(); renderTeam(); renderCatalog(); void renderDetails(); }
+  /** The calculator's member picker, for the empty team slots while the calculator is open. */
+  function addFromCalculator() { void battleLoading?.then(() => battle?.openMemberPicker()); }
   root.addEventListener('click', event => {
     const button = (event.target as Element).closest<HTMLButtonElement>('button');
     if (!button || button.disabled) return;
     if (button.dataset.view) {
-      const leaving = root.dataset.view === 'battle' || button.dataset.view === 'battle';
-      showView(button.dataset.view);
-      if (leaving) persist();
+      switchView(button.dataset.view);
       if (button.dataset.view === 'battle' && button.closest('.tb-guide')) get('battle-heading').scrollIntoView({ block: 'start', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
       return;
     }
     if (button.hasAttribute('data-battle-retry')) { openBattle(); return; }
-    if (button.hasAttribute('data-battle-back')) { showView('guide'); persist(); get('guide-heading').scrollIntoView({ block: 'start', behavior: 'instant' }); return; }
+    if (button.hasAttribute('data-battle-back')) { switchView('guide'); get('guide-heading').scrollIntoView({ block: 'start', behavior: 'instant' }); return; }
     if (button.dataset.stage) {
       const source = get<HTMLDetailsElement>(`source-${button.dataset.stage}`); source.open = true;
       source.querySelector('summary')?.focus({ preventScroll: true });
       source.scrollIntoView({ block: 'nearest', behavior: 'instant' }); return;
     }
-    if (button.hasAttribute('data-empty')) { showView('browse'); get('search').focus(); return; }
+    if (button.hasAttribute('data-empty')) {
+      // In the calculator, a free slot is filled there: leaving it would lose the fight being prepared.
+      if (root.dataset.view === 'battle') { addFromCalculator(); return; }
+      showView('browse'); get('search').focus(); return;
+    }
     if (button.hasAttribute('data-retry')) { void renderDetails(); return; }
     if (button.dataset.remove) {
       const id = Number(button.dataset.remove), index = team.indexOf(id);
@@ -290,7 +323,7 @@ export function setupTeamBuilder() {
       active = id; update();
       const selector = button.dataset.add ? `[data-add="${id}"]` : `[data-select="${id}"]`;
       root.querySelector<HTMLButtonElement>(selector)?.focus({ preventScroll: true });
-      if (button.dataset.select && root.dataset.view === 'battle') { status(`${byId.get(id)!.name} selected for Battle check.`); return; }
+      if (button.dataset.select && root.dataset.view === 'battle') { status(`${byId.get(id)!.name} selected in the damage calculator.`); return; }
       if (button.dataset.select) { showView('guide'); get('guide-heading').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' }); }
     }
   });
@@ -307,7 +340,20 @@ export function setupTeamBuilder() {
     try { await navigator.clipboard.writeText(href.href); status('Team link copied. Anyone with this link can open your team.'); }
     catch { get('share-fallback').hidden = false; const input = get<HTMLInputElement>('share-url'); input.value = href.href; input.focus(); input.select(); status('Copy the selected link to share your team.'); }
   });
+  // Back/Forward between the planner's own entries: the view and the opponent come from the entry, the team stays
+  // as it is now (an older entry's link may hold an older team). A newly opened link is handled by hashchange.
+  window.addEventListener('popstate', event => {
+    if (!event.state?.tb) return;
+    const shared = parseStateHash(location.hash, knownIds);
+    if (shared.battle) {
+      opponent = shared.opponent ?? null;
+      showView('battle');
+      battle?.selectOpponent(opponent);
+    } else showView(event.state.view === 'battle' ? 'browse' : event.state.view ?? 'browse');
+    update();
+  });
   window.addEventListener('hashchange', () => {
+    if (location.hash === lastHash) return; // already handled by popstate, or written by persist
     const shared = parseStateHash(location.hash, knownIds);
     if (shared.team !== null) { team = shared.team; sets = shared.sets ?? {}; active = team[0] ?? null; }
     if (shared.battle) {

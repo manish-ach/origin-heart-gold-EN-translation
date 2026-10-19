@@ -1,5 +1,6 @@
-// Battle check smoke flow. Same setup as team-builder-browser.mjs: run from the repo root with an existing
-// Playwright installation and a built preview. Optional TEAM_BUILDER_SHOTS sets the screenshot folder.
+// Damage calculator smoke flow (the Team Builder's calculator view and /damage-calc/). Same setup as
+// team-builder-browser.mjs: run from the repo root with an existing Playwright installation and a built preview.
+// Optional TEAM_BUILDER_SHOTS sets the screenshot folder.
 import assert from 'node:assert/strict';
 import { mkdirSync, writeFileSync } from 'node:fs';
 const { chromium } = await import(process.env.PLAYWRIGHT_MODULE || 'playwright');
@@ -25,10 +26,10 @@ try {
     await page.locator('#team-builder[data-ready=true]').waitFor();
   };
 
-  // The planner alone never requests Battle check code or data.
+  // The planner alone never requests the calculator's code or data.
   await goto('#team=3,94,196,6,25,149');
   await page.waitForLoadState('networkidle');
-  check(requests.filter(url => lazy.test(url)), [], 'no calc bundle or data before Battle check opens');
+  check(requests.filter(url => lazy.test(url)), [], 'no calc bundle or data before the calculator opens');
   await page.locator('.tb-battle-entry').click();
   await page.locator('#tb-bc-query').waitFor();
   for (const file of ['calc-data.json', 'battle-data.json']) check(requests.some(url => url.includes(file)), true, `${file} loaded on open`);
@@ -194,12 +195,16 @@ try {
   assert.match(await page.locator('.tb-bc-foe-name').textContent(), /Surge/); checks++;
   check(await page.locator('#tb-slots [data-select]').count(), 6, 'deep link keeps the saved team');
 
-  // Trainer pages link to it.
+  // Trainer pages link to the standalone calculator, which shows the Team Builder's saved team.
   await page.goto(new URL('trainers/records/253/', base).href);
-  check((await page.locator('a[href$="team-builder/#battle=253"]').first().textContent()).trim(), 'Battle check', 'trainer page link text');
-  await page.locator('a[href$="team-builder/#battle=253"]').first().click();
+  const calcLink = page.locator('a.calc-link[href$="damage-calc/#battle=253"]').first();
+  check((await calcLink.textContent()).replace(/\s+/g, ' ').trim(), 'Damage calc →', 'trainer page link text');
+  await calcLink.click();
   await page.locator('.tb-bc-foe-name').waitFor();
   assert.match(await page.locator('.tb-bc-foe-name').textContent(), /Brock/); checks++;
+  check(await page.locator('.tb-bc-member-pick').count(), 6, 'the same team as the Team Builder');
+  check(await page.locator('.tb-credit a[href$="licenses/smogon-damage-calc.txt"]').count(), 1, 'licence linked on the calculator page');
+  await page.goto(new URL('team-builder/', base).href); await page.locator('#team-builder[data-ready=true]').waitFor();
 
   // The MIT licence is linked from the credit line.
   const licence = await page.locator('.tb-credit a[href$="licenses/smogon-damage-calc.txt"]').getAttribute('href');
@@ -226,6 +231,146 @@ try {
   }
   await shots.close();
 
+  // Slamanander's prep loop (Discord, 2026-10-19): open Falkner from his trainer page, then change the team and
+  // both sides' sets without ever leaving the fight. Desktop and phone width, on /damage-calc/ and the Team Builder.
+  for (const [width, height] of [[1440, 1000], [390, 844]]) {
+    const tag = width < 1184 ? 'mobile' : 'desktop';
+    const ctx = await browser.newContext({ viewport: { width, height } });
+    await ctx.route('**/*', route => new URL(route.request().url()).origin === new URL(base).origin ? route.continue() : route.abort());
+    const p = await ctx.newPage();
+    p.on('pageerror', error => errors.push(error.message));
+    const wait = () => p.evaluate(() => new Promise(resolve => setTimeout(resolve, 0)));
+    const typeIn = async (selector, value) => { await p.locator(selector).fill(value); await p.locator(selector).press('Tab'); await wait(); };
+    const foeName = () => p.locator('.tb-bc-foe-name').textContent();
+    // Venusaur, Butterfree, Espeon, Charizard: saved by the Team Builder.
+    await p.goto(new URL('team-builder/#team=3,12,196,6', base).href); await p.locator('#team-builder[data-ready=true]').waitFor();
+    await p.goto(new URL('trainers/records/20/', base).href);
+    await p.locator('details:has(a.calc-link[href$="damage-calc/#battle=20"])').first().evaluate(d => { d.open = true; });
+    await p.locator('a.calc-link[href$="damage-calc/#battle=20"]').first().click();
+    await p.locator('.tb-bc-foe-name').waitFor();
+    assert.match(await foeName(), /Falkner/); checks++;
+    const trainerPage = new URL('trainers/records/20/', base).href;
+
+    // Swap Butterfree for Gyarados: same slot, Falkner stays, Gyarados is selected with its set editor open.
+    await p.locator('[data-bc-swap="12"]').click();
+    check(await p.evaluate(() => document.activeElement?.id), 'tb-bc-member-query', `${tag}: the swap search has focus`);
+    await p.locator('#tb-bc-member-query').fill('gyara');
+    await p.locator('[data-bc-join="130"]').click();
+    assert.match(await foeName(), /Falkner/); checks++;
+    check(await p.locator('[data-bc-member="130"]').getAttribute('aria-pressed'), 'true', `${tag}: Gyarados selected`);
+    check(await p.locator('#tb-bc-set').evaluate(d => !d.hidden && d.open), true, `${tag}: Gyarados’s set editor is open`);
+    assert.match(await p.locator('#tb-bc-set > summary').textContent(), /Edit Gyarados’s set/); checks++;
+    assert.match(p.url(), /#team=3,130,196,6&battle=20$/); checks++;
+    check(await p.locator('#tb-status').textContent(), 'Butterfree swapped for Gyarados. The opponent is unchanged.', `${tag}: swap announced`);
+
+    // Add a fifth (Lapras) and give it Leftovers: saved in the link, still against Falkner.
+    await p.locator('[data-bc-add]').click();
+    await p.locator('#tb-bc-member-query').fill('lapras');
+    await p.locator('[data-bc-join="131"]').click();
+    check(await p.locator('.tb-bc-member-pick').count(), 5, `${tag}: five members`);
+    check(await p.locator('.tb-bc-grid tbody tr').count(), 5, `${tag}: the overview follows`);
+    await typeIn('[data-bc-field="mine:item"]', 'Leftovers');
+    assert.match(await p.locator('#tb-bc-set > summary').textContent(), /Edit Lapras’s set[\s\S]*Leftovers/); checks++;
+    assert.match(p.url(), /#team=3,130,196,6,131&sets=131\.I\d+&battle=20$/); checks++;
+    assert.match(await foeName(), /Falkner/); checks++;
+
+    // Edit Falkner's Staraptor: Life Orb instead of Choice Band changes its damage; this visit only, not in the link.
+    const theirs = () => p.locator('#tb-bc-matchup section[aria-label="Their moves"]').textContent();
+    const before = await theirs();
+    await p.locator('[data-bc-details="tfoe-set"] > summary').click();
+    await typeIn('[data-bc-field="tfoe:item"]', 'Life Orb');
+    check(await p.locator('[data-bc-field="tfoe:item"]').getAttribute('aria-invalid') !== 'true', true, `${tag}: item accepted`);
+    assert.match(await p.locator('[data-bc-foe="0"].tb-bc-foe-mon').textContent(), /Staraptor\s*Edited[\s\S]*Life Orb/); checks++;
+    check(await p.locator('.tb-bc-colhead[data-bc-foe="0"] .tb-bc-edited').count(), 1, `${tag}: Edited in the overview`);
+    check((await theirs()) !== before, true, `${tag}: Staraptor’s damage follows its item`);
+    check(await p.locator('[data-bc-details="tfoe-set"]').evaluate(d => d.open), true, `${tag}: the foe editor stays open`);
+    // A move outside its learnset and EVs above 510 are accepted (trainers have both), with a note.
+    await typeIn('[data-bc-field="tfoe:move3"]', 'Earthquake');
+    check(await p.locator('[data-bc-field="tfoe:move3"]').getAttribute('aria-invalid') !== 'true', true, `${tag}: any move for a trainer`);
+    assert.match(await p.locator('[data-bc-details="tfoe-set"] .tb-bc-moves-edit small').textContent(), /Outside its usual learnset: .*Earthquake/); checks++;
+    assert.match(await theirs(), /Earthquake/); checks++;
+    await typeIn('[data-bc-field="tfoe:move3"]', 'U-turn');
+    assert.match(p.url(), /&battle=20$/); checks++;
+    check(await p.locator('#tb-bc-set').isVisible(), true, `${tag}: your set editor is still there`);
+    // Reset restores the game data; then edit again for the history check below.
+    await p.locator('[data-bc-reset-foe]').click();
+    check(await p.locator('.tb-bc-foe .tb-bc-edited, #tb-bc-foe .tb-bc-edited').count(), 0, `${tag}: reset clears Edited`);
+    assert.match(await p.locator('[data-bc-foe="0"].tb-bc-foe-mon').textContent(), /Choice Band/); checks++;
+    await p.locator('[data-bc-details="tfoe-set"] > summary').evaluate(s => { s.parentElement.open = true; });
+    await typeIn('[data-bc-field="tfoe:item"]', 'Life Orb');
+
+    // Another opponent adds a history entry: Back returns to Falkner (edits kept for this visit), not the trainer page.
+    await p.locator('#tb-bc-foe [data-bc-change]').click();
+    await p.locator('#tb-bc-query').fill('bugsy azalea');
+    await p.locator('.tb-bc-trainer').first().click();
+    assert.match(await foeName(), /Bugsy/); checks++;
+    await p.goBack(); await p.waitForFunction(() => /Falkner/.test(document.querySelector('.tb-bc-foe-name')?.textContent ?? ''));
+    assert.match(p.url(), /damage-calc\/#team=3,130,196,6,131&sets=131\.I\d+&battle=20$/); checks++;
+    check(await p.locator('.tb-bc-member-pick').count(), 5, `${tag}: Back keeps the current team`);
+    assert.match(await p.locator('[data-bc-foe="0"].tb-bc-foe-mon').textContent(), /Edited[\s\S]*Life Orb/); checks++;
+    await p.goBack(); await p.waitForURL(trainerPage);
+    checks++;
+
+    // The same loop in the Team Builder: its empty slot fills from the calculator's picker, and Back goes back
+    // through the opponents to the planner view the calculator was opened from.
+    // (Starting without a saved opponent, so the calculator opens on the trainer picker.)
+    await p.evaluate(() => { const v = JSON.parse(localStorage.getItem('ohg-team-builder-v2')); v.opponent = null; localStorage.setItem('ohg-team-builder-v2', JSON.stringify(v)); });
+    await p.goto(new URL('team-builder/#team=3,12,196,6', base).href); await p.locator('#team-builder[data-ready=true]').waitFor();
+    await p.locator(width < 1184 ? '.tb-mobile-nav [data-view="battle"]' : '.tb-battle-entry').click();
+    await p.locator('#tb-bc-query').fill('falkner violet');
+    await p.locator('[data-bc-trainer="20"]').click();
+    assert.match(await foeName(), /Falkner/); checks++;
+    await p.locator('#tb-slots [data-empty]').first().click();
+    check(await p.locator('#team-builder').getAttribute('data-view'), 'battle', `${tag}: an empty slot keeps the calculator open`);
+    check(await p.evaluate(() => document.activeElement?.id), 'tb-bc-member-query', `${tag}: and opens its picker`);
+    await p.locator('#tb-bc-member-query').fill('lapras');
+    await p.locator('[data-bc-join="131"]').click();
+    await p.locator('[data-bc-swap="12"]').click();
+    await p.locator('#tb-bc-member-query').fill('gyara');
+    await p.locator('[data-bc-join="130"]').click();
+    check(await p.locator('#tb-slots [data-select]').count(), 5, `${tag}: the planner’s slots follow`);
+    check(await p.locator('#tb-bc-set').evaluate(d => !d.hidden && d.open), true, `${tag}: set editor open after the swap`);
+    assert.match(p.url(), /team-builder\/#team=3,130,196,6,131&battle=20$/); checks++;
+    await p.goBack(); await p.locator('#tb-bc-query').waitFor();
+    assert.match(p.url(), /#team=3,130,196,6,131&battle=$/); checks++;
+    await p.goBack(); await p.waitForFunction(() => document.querySelector('#team-builder')?.dataset.view === 'browse');
+    assert.match(p.url(), /team-builder\/#team=3,130,196,6,131$/); checks++;
+    check(await p.locator('#tb-slots [data-select]').count(), 5, `${tag}: Back keeps the team`);
+    await ctx.close();
+  }
+
+  // Screenshots: /damage-calc/ (opponent picker and Falkner) and the Team Builder's calculator, desktop and 390 px.
+  const calcShots = process.env.DAMAGE_CALC_SHOTS || output;
+  mkdirSync(calcShots, { recursive: true });
+  for (const [width, height] of [[1440, 1000], [390, 844]]) {
+    const tag = width < 1184 ? 'mobile390' : 'desktop';
+    const ctx = await browser.newContext({ viewport: { width, height } });
+    await ctx.route('**/*', route => new URL(route.request().url()).origin === new URL(base).origin ? route.continue() : route.abort());
+    const p = await ctx.newPage();
+    p.on('pageerror', error => errors.push(error.message));
+    await p.goto(new URL('damage-calc/#team=3,12,196,6', base).href);
+    await p.locator('#tb-bc-query').waitFor();
+    check(await p.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false, `damage-calc ${tag}: no page overflow`);
+    await p.screenshot({ path: `${calcShots}/damage-calc-picker-${tag}.png`, fullPage: true });
+    await p.locator('#tb-bc-query').fill('falkner violet');
+    await p.locator('[data-bc-trainer="20"]').click();
+    await p.locator('[data-bc-swap="12"]').click();
+    await p.locator('#tb-bc-member-query').fill('gy');
+    check(await p.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false, `damage-calc ${tag}: no overflow with the member picker`);
+    await p.screenshot({ path: `${calcShots}/damage-calc-falkner-swap-${tag}.png`, fullPage: true });
+    await p.locator('[data-bc-join="130"]').click();
+    await p.locator('[data-bc-details="tfoe-set"] > summary').click();
+    await p.locator('[data-bc-field="tfoe:item"]').fill('Life Orb'); await p.locator('[data-bc-field="tfoe:item"]').press('Tab');
+    await p.evaluate(() => new Promise(resolve => setTimeout(resolve, 0)));
+    check(await p.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false, `damage-calc ${tag}: no overflow with the foe editor`);
+    await p.screenshot({ path: `${calcShots}/damage-calc-falkner-edited-${tag}.png`, fullPage: true });
+    await p.goto(new URL('team-builder/#team=3,130,196,6&battle=20', base).href);
+    await p.locator('.tb-bc-foe-name').waitFor();
+    await p.locator('.tb-battle').screenshot({ path: `${calcShots}/team-builder-battle-${tag}.png` });
+    await p.screenshot({ path: `${calcShots}/team-builder-battle-page-${tag}.png`, fullPage: true });
+    await ctx.close();
+  }
+
   // Old v1 storage still loads.
   const old = await browser.newContext();
   await old.route('**/*', route => new URL(route.request().url()).origin === new URL(base).origin ? route.continue() : route.abort());
@@ -238,5 +383,5 @@ try {
 
   check(errors, [], 'no uncaught errors');
   writeFileSync(`${output}/battle-check-results.json`, JSON.stringify({ checks, errors }, null, 2));
-  console.log(`Battle check: ${checks} browser checks passed.`);
+  console.log(`Damage calculator: ${checks} browser checks passed.`);
 } finally { await browser.close(); }

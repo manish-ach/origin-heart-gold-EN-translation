@@ -1,16 +1,18 @@
 /**
- * Team Builder "Battle check": opponent picker, team overview grid and matchup view on top of the damage
- * engine in ./calc. This module, the engine and both data files load only when a player opens Battle check
- * (see setupTeamBuilder), so the planner's first load is unchanged.
+ * The damage calculator (internally "battle check": ids, file names and the #battle= link keep that name):
+ * your team, opponent picker, team overview grid and matchup view on top of the damage engine in ./calc. Used
+ * by the Team Builder's calculator view and by the /damage-calc/ page. This module, the engine and both data
+ * files load only when the calculator opens (see setupTeamBuilder), so the planner's first load is unchanged.
  */
 import { loadCalc, mirrorField, NO_KO_TEXT } from './calc/index.ts';
 import { trainerMon, LATER } from './battle-check-data.mjs';
 import { trainerProfilePath } from './trainer-encounters.mjs';
 import {
   createDex, resolveSet, compactSet, learnableMoves, exportShowdown, importShowdown, NATURES, STAT_LABELS, DEFAULT_LEVEL,
-  normalizeName, evolutionLevel, EV_TOTAL,
+  normalizeName, evolutionLevel, EV_TOTAL, applyFoeEdit, cleanFoeEdit,
 } from './battle-sets.mjs';
-import { STATS, BOOST_STATS, STATUSES, sanitizeSet } from './team-builder-state.mjs';
+import { CAVEATS } from './calc/caveats.ts';
+import { STATS, BOOST_STATS, STATUSES, TEAM_SIZE, sanitizeSet } from './team-builder-state.mjs';
 // Loaded as a URL (not `import '…css'`) so Astro doesn't hoist it into the planner's first page load.
 import styleHref from '../styles/battle-check.css?url';
 
@@ -29,11 +31,14 @@ export interface BattleHost {
   sets(): Record<number, Any>;
   setSet(id: number, set: Any): void;
   opponent(): Any;
-  setOpponent(opponent: Any): void;
+  /** `push`: a new opponent gets its own history entry, so Back returns to the previous one. */
+  setOpponent(opponent: Any, push?: boolean): void;
   replaceTeam(ids: number[], sets: Record<number, Any>): void;
+  /** Puts `newId` in `oldId`'s slot (null: a free slot) and selects it; the opponent stays. False if it can't join. */
+  replaceMember(oldId: number | null, newId: number): boolean;
+  removeMember(id: number): void;
   canJoin(id: number): boolean;
   status(text: string): void;
-  findPokemon(): void;
 }
 
 const STATUS_NAMES: Record<string, string> = { brn: 'Burned', par: 'Paralyzed', psn: 'Poisoned', tox: 'Badly poisoned', slp: 'Asleep', frz: 'Frozen' };
@@ -41,6 +46,8 @@ const WEATHERS = ['Sun', 'Rain', 'Sand', 'Hail', 'Harsh Sunshine', 'Heavy Rain',
 const TERRAINS = ['Electric', 'Grassy', 'Psychic', 'Misty'];
 const SIDE_TOGGLES: Array<[string, string]> = [['reflect', 'Reflect'], ['lightScreen', 'Light Screen'], ['auroraVeil', 'Aurora Veil'], ['helpingHand', 'Helping Hand'], ['tailwind', 'Tailwind'], ['stealthRock', 'Stealth Rock']];
 const PAGE = 40;
+/** Base caveats that an edited field of a trainer's Pokémon makes obsolete. */
+const FOE_CAVEATS = { nature: CAVEATS.natureGenerated, moves: CAVEATS.levelUpMovesMissing };
 
 function loadStyles() {
   if (document.querySelector('link[data-battle-check]')) return Promise.resolve();
@@ -90,8 +97,12 @@ export async function mountBattleCheck(host: BattleHost) {
   let foeIndex = 0;
   let field: Any = { format: '', spread: '', weather: '', terrain: '', crit: false, trickRoom: false, gravity: false, mine: {}, theirs: {} };
   const expanded = new Set<string>();
-  /** HP %, status and stat stages of trainer Pokémon, by `${trainerId}:${index}` (this visit only). */
-  const foeCondition: Record<string, Any> = {};
+  /** Edits to trainer Pokémon (set and condition), by `${trainerId}:${index}`: this visit only, never saved or shared. */
+  const foeEdits: Record<string, Any> = {};
+  /** The inline species picker of "Your team": `replace` is the member being swapped (null: a free slot). */
+  let memberPicking: { replace: number | null } | null = null;
+  let memberQuery = '';
+  let memberShown = PAGE;
 
   panel.innerHTML = `
     <div class="tb-bc">
@@ -100,6 +111,7 @@ export async function mountBattleCheck(host: BattleHost) {
         <div id="tb-bc-foe"></div>
         <div id="tb-bc-picker"></div>
       </section>
+      <section class="tb-bc-team" aria-labelledby="tb-bc-team-heading" id="tb-bc-team"></section>
       <section class="tb-bc-overview" aria-labelledby="tb-bc-overview-heading" id="tb-bc-overview"></section>
       <section class="tb-bc-matchup" aria-labelledby="tb-bc-matchup-heading" id="tb-bc-matchup"></section>
       <div class="tb-bc-tools">
@@ -112,15 +124,16 @@ export async function mountBattleCheck(host: BattleHost) {
   const $ = <T extends HTMLElement = HTMLElement>(id: string) => panel.querySelector<T>(`#tb-bc-${id}`)!;
 
   // ------------------------------------------------------------------ sets
-  function opponentSets(): Array<{ speciesId: number; set: Any; label: string; details: string[] }> {
+  function opponentSets(): Array<{ speciesId: number; set: Any; label: string; details: string[]; base?: Any; edited?: boolean }> {
     const opp = host.opponent();
     if (opp?.trainer != null) {
       const t = trainerById.get(opp.trainer);
       if (!t) return [];
       return t.mons.map((mon: Any, i: number) => {
-        const cond = foeCondition[`${t.id}:${i}`] ?? {};
-        const set = { ...calc.fromTrainerMon(mon), curHPPercent: cond.hp ?? 100, status: cond.status ?? '', boosts: { ...(cond.boosts ?? {}) } };
-        return { speciesId: mon.id, set, label: dex.species.get(mon.id)?.name ?? `#${mon.id}`, details: monDetails(set) };
+        const base = calc.fromTrainerMon(mon);
+        const edit = foeEdits[`${t.id}:${i}`];
+        const set = applyFoeEdit(base, edit, FOE_CAVEATS);
+        return { speciesId: mon.id, set, base, edited: !!edit, label: dex.species.get(mon.id)?.name ?? `#${mon.id}`, details: monDetails(set) };
       });
     }
     if (opp?.species) {
@@ -222,6 +235,7 @@ export async function mountBattleCheck(host: BattleHost) {
   function safeSpeed(a: Any, b: Any, f: Any) {
     try { return calc.speedOrder(a, b, f); } catch { return null; }
   }
+  const EDITED = ' <span class="tb-bc-chip tb-bc-edited">Edited</span>';
   const typeChip = (type: string) => `<span class="type type-${escape(type.toLowerCase())}">${escape(type)}</span>`;
 
   // ------------------------------------------------------------------ opponent
@@ -247,21 +261,40 @@ export async function mountBattleCheck(host: BattleHost) {
       <div class="tb-bc-foe-team" role="group" aria-label="Opponent's Pokémon">${sets.map((entry, i) => {
         const mon = dex.species.get(entry.speciesId);
         return `<button type="button" class="tb-bc-foe-mon" data-bc-foe="${i}" aria-pressed="${i === foeIndex}" style="--mon-hue:${hue(mon?.types?.[0])}">
-          ${host.art(entry.speciesId, 'sm')}<span class="tb-bc-foe-text"><strong>${escape(entry.label)}</strong><small>${escape(entry.details.join(' · '))}</small></span></button>`;
+          ${host.art(entry.speciesId, 'sm')}<span class="tb-bc-foe-text"><strong>${escape(entry.label)}${entry.edited ? EDITED : ''}</strong><small>${escape(entry.details.join(' · '))}</small></span></button>`;
       }).join('')}</div>
       ${opp?.species ? customEditor(opp) : ''}
-      ${sets[foeIndex] ? conditionPanel(sets[foeIndex], opp?.species ? 'foe' : 'tfoe') : ''}`;
+      ${sets[foeIndex] ? opp?.species ? conditionPanel(sets[foeIndex], 'foe') : trainerFoeEditor(sets[foeIndex], sets.some(entry => entry.edited)) : ''}`;
     host.wireImages(box);
   }
   const renderFoe = () => keepFocus(drawFoe);
 
-  /** HP, status and stat stages of the selected opponent Pokémon (a trainer's or the custom one). */
+  /** HP, status and stat stages of the custom opponent. */
   function conditionPanel(entry: Any, who: string) {
-    const s = entry.set;
+    return `<details class="tb-bc-disclosure tb-bc-condition" data-bc-details="condition"><summary>${escape(entry.label)}’s condition <span>${escape(conditionSummary(entry.set))}</span></summary>
+      <div class="tb-bc-form">${conditionFields(who, entry.set)}</div></details>`;
+  }
+  function conditionSummary(s: Any) {
     const stages = BOOST_STATS.filter((st: string) => s.boosts?.[st]).map((st: string) => `${STAT_LABELS[st]} ${s.boosts[st] > 0 ? '+' : ''}${s.boosts[st]}`);
-    const summary = [s.curHPPercent < 100 ? `${s.curHPPercent}% HP` : 'Full HP', s.status ? STATUS_NAMES[s.status] : 'Healthy', stages.length ? stages.join(', ') : 'no stat changes'].join(' · ');
-    return `<details class="tb-bc-disclosure tb-bc-condition" data-bc-details="condition"><summary>${escape(entry.label)}’s condition <span>${escape(summary)}</span></summary>
-      <div class="tb-bc-form">${conditionFields(who, s)}</div></details>`;
+    return [s.curHPPercent < 100 ? `${s.curHPPercent}% HP` : 'Full HP', s.status ? STATUS_NAMES[s.status] : 'Healthy', stages.length ? stages.join(', ') : 'no stat changes'].join(' · ');
+  }
+  /**
+   * A trainer's Pokémon: its whole set (level, nature, Ability, item, moves, IVs, EVs) and its condition, edited
+   * for this visit only. Trainers in this hack break the usual rules, so moves outside its learnset and EVs above
+   * the usual total are accepted with a note instead of refused.
+   */
+  function trainerFoeEditor(entry: Any, teamEdited: boolean) {
+    const mon = dex.species.get(entry.speciesId);
+    const abilityChoices = [...new Set([entry.base.abilityId, ...(mon?.abilityIds ?? []), mon?.hiddenAbilityId].filter(id => id > 0))];
+    const resolved = { calc: entry.set, autoLevel: false, suggestedMoves: false, abilityChoices };
+    return `<details class="tb-bc-disclosure tb-bc-condition" data-bc-details="tfoe-set"><summary>Edit ${escape(entry.label)}’s set${entry.edited ? EDITED : ''} <span>${escape([...entry.details, conditionSummary(entry.set)].join(' · '))}</span></summary>
+      <div class="tb-bc-form">${setFields('tfoe', entry.speciesId, resolved, '', false, entry.base)}</div>
+      <div class="tb-bc-form"><p class="tb-bc-label tb-bc-wide">Condition</p>${conditionFields('tfoe', entry.set)}</div>
+      <p class="tb-bc-hint">Changes last until you leave or reload this page. They aren’t saved or shared.</p>
+      <div class="tb-bc-row">
+        <button type="button" class="tb-bc-button" data-bc-reset-foe${entry.edited ? '' : ' disabled'}>Reset to game data</button>
+        ${teamEdited ? '<button type="button" class="tb-bc-button tb-bc-quiet" data-bc-reset-foes>Reset the whole team</button>' : ''}
+      </div></details>`;
   }
   function conditionFields(who: string, s: Any) {
     return `<label>Current HP %<input type="number" min="1" max="100" inputmode="numeric" data-bc-field="${who}:hp" value="${s.curHPPercent ?? 100}" /></label>
@@ -296,6 +329,60 @@ export async function mountBattleCheck(host: BattleHost) {
   }
   const renderPicker = () => keepFocus(drawPicker);
 
+  // ------------------------------------------------------------------ your team
+  // Swap, add and remove members here, so a fight never has to be reopened after a team change.
+  const joinable = [...dex.species.values()].filter((mon: Any) => host.canJoin(mon.id))
+    .map((mon: Any) => ({ id: mon.id, name: mon.name, types: mon.types as string[], search: normalizeSearch(`${mon.name} ${mon.types.join(' ')}`) }));
+  function drawTeam() {
+    const box = $('team');
+    const team = teamIds();
+    const picked = selectedMine();
+    const cards = team.map(id => {
+      const mon = dex.species.get(id)!;
+      const swapping = memberPicking?.replace === id;
+      return `<div class="tb-bc-member" style="--mon-hue:${hue(mon.types?.[0])}">
+        <button type="button" class="tb-bc-member-pick" data-bc-member="${id}" aria-pressed="${id === picked}">${host.art(id, 'sm')}<span class="tb-bc-foe-text"><strong>${escape(mon.name)}</strong><small>${escape(monDetails(mine(id).calc).slice(0, 2).join(' · '))}</small></span></button>
+        <span class="tb-bc-member-actions"><button type="button" class="tb-bc-icon" data-bc-swap="${id}" aria-expanded="${swapping}" aria-controls="tb-bc-member-picker" aria-label="Swap ${escape(mon.name)} for another Pokémon" title="Swap"><span aria-hidden="true">⇄</span></button>
+        <button type="button" class="tb-bc-icon" data-bc-remove="${id}" aria-label="Remove ${escape(mon.name)} from your team" title="Remove"><span aria-hidden="true">×</span></button></span></div>`;
+    });
+    if (team.length < TEAM_SIZE) cards.push(`<button type="button" class="tb-bc-member tb-bc-member-add" data-bc-add aria-expanded="${memberPicking?.replace === null}" aria-controls="tb-bc-member-picker"><span class="tb-plus" aria-hidden="true">+</span>Add Pokémon</button>`);
+    box.innerHTML = `<div class="tb-bc-team-head"><h3 id="tb-bc-team-heading" class="tb-bc-label">Your team <span>${team.length} / ${TEAM_SIZE}</span></h3>
+        <p class="tb-bc-hint">Swap, add or remove Pokémon here. The opponent stays.</p></div>
+      <div class="tb-bc-members" role="group" aria-label="Your Pokémon">${cards.join('')}</div>
+      <div id="tb-bc-member-picker">${memberPicking ? memberPicker() : ''}</div>`;
+    host.wireImages(box);
+  }
+  const renderTeam = () => keepFocus(drawTeam);
+  function memberPicker() {
+    const replacing = memberPicking?.replace != null ? dex.species.get(memberPicking.replace)?.name : null;
+    const terms = normalizeSearch(memberQuery).trim().split(/\s+/).filter(Boolean);
+    const team = host.team();
+    const matches = joinable.filter(mon => !team.includes(mon.id) && terms.every(term => mon.search.includes(term)));
+    const label = replacing ? `Swap ${replacing} for…` : 'Add a Pokémon…';
+    return `<div class="tb-bc-member-picker">
+      <div class="tb-bc-search">
+        <label class="tb-search"><span class="sr-only">${escape(replacing ? `Search a Pokémon to swap ${replacing} for` : 'Search a Pokémon to add')}</span><input type="search" id="tb-bc-member-query" placeholder="${escape(label)}" autocomplete="off" value="${escape(memberQuery)}" /></label>
+        <button type="button" class="tb-bc-button tb-bc-quiet" data-bc-member-cancel>Cancel</button>
+      </div>
+      <p class="tb-bc-hint" id="tb-bc-member-count" role="status">${matches.length ? `${matches.length.toLocaleString()} Pokémon you can get in this game` : 'No Pokémon matches. Try a name or a type.'}</p>
+      <ul class="tb-bc-species" aria-label="Pokémon">${matches.slice(0, memberShown).map(mon => `<li><button type="button" class="tb-bc-join" data-bc-join="${mon.id}" style="--mon-hue:${hue(mon.types[0])}">
+        ${host.art(mon.id, 'sm')}<span class="tb-bc-foe-text"><strong>${escape(mon.name)}</strong><small>${escape(mon.types.join(' · '))}</small></span></button></li>`).join('')}</ul>
+      ${matches.length > memberShown ? `<button type="button" class="tb-bc-button tb-bc-more" data-bc-member-more>Show more (${(matches.length - memberShown).toLocaleString()} left)</button>` : ''}
+    </div>`;
+  }
+  function openMemberPicker(replace: number | null) {
+    memberPicking = { replace }; memberQuery = ''; memberShown = PAGE;
+    renderTeam();
+    const input = $<HTMLInputElement>('member-query');
+    input.focus({ preventScroll: true });
+    $('team').scrollIntoView({ block: 'nearest', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+  }
+  function closeMemberPicker(focus: string | null) {
+    memberPicking = null; memberQuery = '';
+    renderTeam();
+    if (focus) panel.querySelector<HTMLElement>(focus)?.focus();
+  }
+
   function customEditor(opp: Any) {
     const resolved = resolveSet(dex, opp.species, opp.set, { level: DEFAULT_LEVEL });
     return `<details class="tb-bc-disclosure tb-bc-custom" data-bc-details="custom"${opp.set ? '' : ' open'}><summary>Choose the Pokémon and its set <span>${escape(dex.species.get(opp.species)?.name ?? '')}</span></summary>
@@ -310,7 +397,7 @@ export async function mountBattleCheck(host: BattleHost) {
     const foes = opponentSets();
     if (!foes.length) { box.innerHTML = ''; return; }
     if (!team.length) {
-      box.innerHTML = `<div class="tb-bc-empty"><strong>Add Pokémon to your team to compare.</strong><span>Their moves and stats are listed above.</span><button type="button" class="tb-bc-button" data-bc-find>Find Pokémon</button></div>`;
+      box.innerHTML = `<div class="tb-bc-empty"><strong>Add Pokémon to your team to compare.</strong><span>Their moves and stats are listed above.</span><button type="button" class="tb-bc-button" data-bc-add>Add a Pokémon</button></div>`;
       return;
     }
     const f = calcField('out'), fBack = calcField('back');
@@ -337,7 +424,7 @@ export async function mountBattleCheck(host: BattleHost) {
     }).join('');
     box.innerHTML = `<div class="tb-bc-section-head"><h3 id="tb-bc-overview-heading">Team overview</h3>
         <p class="tb-bc-hint">Your best hit (max %) and verdict · <span aria-hidden="true">↩</span> their best hit back. <span class="tb-bc-legend"><i class="tb-bc-good"></i>Favourable <i class="tb-bc-even"></i>Even <i class="tb-bc-bad"></i>Risky</span></p></div>
-      <div class="tb-bc-grid-scroll"><table class="tb-bc-grid"><caption class="sr-only">Team overview: your Pokémon against each opponent</caption><thead><tr><td></td>${foes.map((foe, j) => `<th scope="col"><button type="button" class="tb-bc-colhead" data-bc-foe="${j}" aria-pressed="${j === foeIndex}">${host.art(foe.speciesId, 'sm')}<span>${escape(foe.label)}</span></button></th>`).join('')}</tr></thead>
+      <div class="tb-bc-grid-scroll"><table class="tb-bc-grid"><caption class="sr-only">Team overview: your Pokémon against each opponent</caption><thead><tr><td></td>${foes.map((foe, j) => `<th scope="col"><button type="button" class="tb-bc-colhead" data-bc-foe="${j}" aria-pressed="${j === foeIndex}">${host.art(foe.speciesId, 'sm')}<span>${escape(foe.label)}</span>${foe.edited ? '<b class="tb-bc-chip tb-bc-edited">Edited</b>' : ''}</button></th>`).join('')}</tr></thead>
       <tbody>${rows}</tbody></table></div>`;
     host.wireImages(box);
   }
@@ -452,28 +539,42 @@ export async function mountBattleCheck(host: BattleHost) {
     if (!form.changed) return null;
     return { text: `Holding ${dex.items.get(set.itemId)?.name}: battles as ${form.name}${form.abilityId ? ` with ${dex.abilities.get(form.abilityId)?.name}` : ''}.`, form };
   }
-  function setFields(who: string, speciesId: number, resolved: Any, levelHint: string, condition = true) {
+  /** `foe`: the game's data of a trainer's Pokémon being edited (its fields are the reference, not the defaults). */
+  function setFields(who: string, speciesId: number, resolved: Any, levelHint: string, condition = true, foe: Any = null) {
     const s = resolved.calc;
-    const evo = evolutionNote(speciesId, s.level);
+    const evo = foe ? '' : evolutionNote(speciesId, s.level);
     const form = formNote(s);
     const learnable = learnableMoves(dex, speciesId);
     const listId = `tb-bc-moves-${who}`;
     const natureLabel = (n: Any[]) => n[1] ? `${n[0]} (+${STAT_LABELS[n[1]]} −${STAT_LABELS[n[2]]})` : `${n[0]} (neutral)`;
+    const natures: Array<[string, string]> = NATURES.map(n => [n[0], natureLabel(n)]);
+    // A nature the game generates when the battle starts: shown as its own (neutral) choice.
+    if (foe && !foe.nature) natures.unshift(['', 'Generated by the game (neutral)']);
+    const levelNote = foe ? s.level === foe.level ? 'From the game data' : `Game data: Lv. ${foe.level}` : resolved.autoLevel ? `Lv. ${s.level}: ${levelHint}` : 'Clear to match the opponent';
+    const movesLegend = foe
+      ? foe.moveIds.length === s.moveIds.length && foe.moveIds.every((m: number, i: number) => m === s.moveIds[i]) ? '<span class="tb-bc-chip">Game data</span>' : `<button type="button" class="tb-bc-link" data-bc-reset-moves="${who}">Use the game’s moves</button>`
+      : resolved.suggestedMoves ? '<span class="tb-bc-chip">Suggested moves</span>' : `<button type="button" class="tb-bc-link" data-bc-reset-moves="${who}">Use suggested moves</button>`;
+    const unusual = foe && learnable.length ? s.moveIds.filter((m: number) => !learnable.includes(m)).map((m: number) => dex.moves.get(m)?.name).filter(Boolean) : [];
+    const evTotal = STATS.reduce((sum: number, st: string) => sum + (s.evs[st] ?? 0), 0);
+    const moveNote = foe
+      ? `${unusual.length ? `Outside its usual learnset: ${unusual.join(', ')}. ` : ''}A trainer’s Pokémon can know moves outside its learnset, so every move is accepted.`
+      : learnable.length ? `${learnable.length} moves it can learn in this game` : 'No learnset data: any move is accepted.';
     return `
-      <label>Level<input type="number" min="1" max="100" inputmode="numeric" data-bc-field="${who}:level" value="${resolved.autoLevel ? '' : s.level}" placeholder="${s.level}" /><small>${escape(resolved.autoLevel ? `Lv. ${s.level}: ${levelHint}` : 'Clear to match the opponent')}</small>${evo ? `<small class="tb-bc-evo">${escape(evo)}</small>` : ''}</label>
-      <label>Nature<select data-bc-field="${who}:nature">${options(NATURES.map(n => [n[0], natureLabel(n)]), s.nature ?? 'Hardy')}</select></label>
+      <label>Level<input type="number" min="1" max="100" inputmode="numeric" data-bc-field="${who}:level" value="${resolved.autoLevel ? '' : s.level}" placeholder="${foe ? foe.level : s.level}" /><small>${escape(levelNote)}</small>${evo ? `<small class="tb-bc-evo">${escape(evo)}</small>` : ''}</label>
+      <label>Nature<select data-bc-field="${who}:nature">${options(natures, s.nature ?? (foe ? '' : 'Hardy'))}</select></label>
       <label>Ability<select data-bc-field="${who}:ability">${options(resolved.abilityChoices.map((a: number) => [a, `${dex.abilities.get(a)?.name ?? a}${a === dex.species.get(speciesId)?.hiddenAbilityId && !dex.species.get(speciesId)?.abilityIds.includes(a) ? ' (hidden)' : ''}`]), s.abilityId)}</select>${form ? `<small>${escape(form.text)}</small>` : ''}</label>
       <label>Held item<input list="tb-bc-items" data-bc-field="${who}:item" value="${escape(s.itemId ? dex.items.get(s.itemId)?.name : '')}" placeholder="No item" autocomplete="off" /></label>
-      <fieldset class="tb-bc-wide tb-bc-moves-edit"><legend>Moves ${resolved.suggestedMoves ? '<span class="tb-bc-chip">Suggested moves</span>' : `<button type="button" class="tb-bc-link" data-bc-reset-moves="${who}">Use suggested moves</button>`}</legend>
+      <fieldset class="tb-bc-wide tb-bc-moves-edit"><legend>Moves ${movesLegend}</legend>
         ${[0, 1, 2, 3].map(i => `<input list="${listId}" data-bc-field="${who}:move${i}" aria-label="Move ${i + 1}" value="${escape(s.moveIds[i] ? dex.moves.get(s.moveIds[i])?.name : '')}" placeholder="—" autocomplete="off" />`).join('')}
         <datalist id="${listId}">${learnable.map(m => `<option value="${escape(dex.moves.get(m)!.name)}"></option>`).join('')}</datalist>
-        <small>${learnable.length ? `${learnable.length} moves it can learn in this game` : 'No learnset data: any move is accepted.'}</small></fieldset>
+        <small${unusual.length ? ' class="tb-bc-evo"' : ''}>${escape(moveNote)}</small></fieldset>
       <details class="tb-bc-advanced tb-bc-wide" data-bc-details="${who}-advanced"><summary>Advanced <span>${condition ? 'IVs, EVs, HP, status, stat stages' : 'IVs, EVs'}</span></summary>
         <div class="tb-bc-stats" role="group" aria-label="IVs and EVs">
           <span></span>${STATS.map(st => `<span class="tb-bc-stat-label">${STAT_LABELS[st]}</span>`).join('')}
           <span class="tb-bc-stat-label">IVs</span>${STATS.map(st => `<input type="number" min="0" max="31" inputmode="numeric" aria-label="${STAT_LABELS[st]} IV" data-bc-field="${who}:iv:${st}" value="${s.ivs[st]}" />`).join('')}
           <span class="tb-bc-stat-label">EVs</span>${STATS.map(st => `<input type="number" min="0" max="255" step="4" inputmode="numeric" aria-label="${STAT_LABELS[st]} EV" data-bc-field="${who}:ev:${st}" value="${s.evs[st]}" />`).join('')}
         </div>
+        ${foe && evTotal > EV_TOTAL ? `<p class="tb-bc-hint tb-bc-evo">EVs add up to ${evTotal}, above the usual ${EV_TOTAL}. Trainers in this game can have more, so it’s accepted.</p>` : ''}
         ${condition ? `<div class="tb-bc-form">${conditionFields(who, s)}</div>` : ''}
       </details>`;
   }
@@ -559,7 +660,7 @@ export async function mountBattleCheck(host: BattleHost) {
   panel.append(lists);
 
   function renderResults() { renderOverview(); renderMatchup(); }
-  function renderAll() { renderFoe(); renderResults(); renderSetEditor(); renderField(); }
+  function renderAll() { renderFoe(); renderTeam(); renderResults(); renderSetEditor(); renderField(); }
   /** Announces the selected matchup through the planner's status line (the panel itself is not a live region). */
   function announceMatchup() {
     const id = selectedMine();
@@ -624,22 +725,59 @@ export async function mountBattleCheck(host: BattleHost) {
     if (who === 'foe') renderFoe();
     renderSetEditor();
   }
-  /** HP, status and stages of a trainer's Pokémon (kept for this visit only). */
+  /**
+   * A field of a trainer's Pokémon (kept for this visit only). Checked like your own set, except that moves
+   * outside its learnset and EVs above the usual total are allowed: the hack's trainers have both.
+   */
   function updateTrainerFoe(key: string, raw: string, input: HTMLInputElement | HTMLSelectElement) {
     const opp = host.opponent();
-    if (opp?.trainer == null) return;
-    const slot = `${opp.trainer}:${foeIndex}`;
-    const cond = { ...(foeCondition[slot] ?? {}) };
+    const t = opp?.trainer != null ? trainerById.get(opp.trainer) : null;
+    const mon = t?.mons[foeIndex];
+    if (!t || !mon) return;
+    const slot = `${t.id}:${foeIndex}`;
+    const base = calc.fromTrainerMon(mon);
+    const edit = { ...(foeEdits[slot] ?? {}) };
+    const current = applyFoeEdit(base, edit, FOE_CAVEATS);
     const [field1, stat] = key.split(':');
     const num = Number(raw);
-    if (field1 === 'hp') {
-      if (!(num >= 1 && num <= 100)) { input.setAttribute('aria-invalid', 'true'); input.title = 'HP must be 1–100%.'; host.status('HP must be 1–100%.'); return; }
-      cond.hp = Math.round(num);
-    } else if (field1 === 'status') cond.status = raw;
-    else if (field1 === 'boost') cond.boosts = { ...(cond.boosts ?? {}), [stat]: num };
-    input.setAttribute('aria-invalid', 'false'); input.removeAttribute('title');
-    foeCondition[slot] = cond;
+    let error = '';
+    if (field1 === 'level') { if (raw === '') delete edit.level; else if (num >= 1 && num <= 100) edit.level = Math.round(num); else error = 'Level must be 1–100.'; }
+    else if (field1 === 'nature') edit.nature = raw || null;
+    else if (field1 === 'ability') edit.ability = num;
+    else if (field1 === 'item') {
+      if (!raw.trim()) edit.item = 0;
+      else { const item = dex.itemByName.get(normalizeName(raw)); if (item) edit.item = item; else error = `“${raw}” isn’t an item in this game.`; }
+    } else if (field1.startsWith('move')) {
+      const index = Number(field1.slice(4));
+      const moves = [...current.moveIds];
+      if (!raw.trim()) moves.splice(index, 1);
+      else { const move = dex.moveByName.get(normalizeName(raw)); if (move) moves[index] = move; else error = `“${raw}” isn’t a move in this game.`; }
+      if (!error) edit.moves = [...new Set(moves.filter(Boolean))];
+    } else if (field1 === 'iv' || field1 === 'ev') {
+      const max = field1 === 'iv' ? 31 : 255;
+      if (!(num >= 0 && num <= max) || raw === '') error = `${field1 === 'iv' ? 'IVs' : 'EVs'} must be 0–${max}.`;
+      else edit[`${field1}s`] = { ...(edit[`${field1}s`] ?? {}), [stat]: Math.round(num) };
+    } else if (field1 === 'hp') { if (num >= 1 && num <= 100) edit.hp = Math.round(num); else error = 'HP must be 1–100%.'; }
+    else if (field1 === 'status') edit.status = raw;
+    else if (field1 === 'boost') edit.boosts = { ...(edit.boosts ?? {}), [stat]: num };
+    input.setAttribute('aria-invalid', String(!!error));
+    if (error) { host.status(error); input.title = error; return; }
+    input.removeAttribute('title');
+    // A generated nature is `null` in the game data: choosing "Generated" again clears the edit.
+    if (edit.nature === null) delete edit.nature;
+    const clean = cleanFoeEdit(base, edit);
+    if (clean) foeEdits[slot] = clean; else delete foeEdits[slot];
     renderFoe(); renderResults();
+  }
+  /** Drops this visit's edits of the selected trainer Pokémon (`all`: of the whole team). */
+  function resetTrainerFoe(all: boolean) {
+    const opp = host.opponent();
+    if (opp?.trainer == null) return;
+    for (const slot of Object.keys(foeEdits)) if (all ? slot.startsWith(`${opp.trainer}:`) : slot === `${opp.trainer}:${foeIndex}`) delete foeEdits[slot];
+    renderFoe(); renderResults();
+    const name = opponentSets()[foeIndex]?.label;
+    host.status(all ? 'The whole team is back to the game data.' : `${name} is back to the game data.`);
+    $('foe').querySelector<HTMLElement>('[data-bc-details="tfoe-set"] > summary')?.focus();
   }
 
   async function copy(text: string, done: string) {
@@ -664,18 +802,47 @@ export async function mountBattleCheck(host: BattleHost) {
     if (!button || button.disabled) return;
     const d = button.dataset;
     if (d.bcTrainer) {
-      host.setOpponent({ trainer: Number(d.bcTrainer) }); picking = false; foeIndex = 0; expanded.clear();
+      host.setOpponent({ trainer: Number(d.bcTrainer) }, true); picking = false; foeIndex = 0; expanded.clear();
       renderAll(); announceOpponent();
       $('foe').querySelector<HTMLElement>('[data-bc-change]')?.focus();
     } else if (d.bcChange !== undefined) { picking = true; renderFoe(); $<HTMLInputElement>('query').focus(); }
     else if (d.bcCancel !== undefined) { picking = false; renderFoe(); $('foe').querySelector<HTMLElement>('[data-bc-change]')?.focus(); }
     else if (d.bcAny !== undefined) {
       const current = host.opponent();
-      host.setOpponent(current?.species ? current : { species: selectedMine() ?? 25 }); picking = false; foeIndex = 0;
+      host.setOpponent(current?.species ? current : { species: selectedMine() ?? 25 }, !current?.species); picking = false; foeIndex = 0;
       renderAll(); announceOpponent(); panel.querySelector<HTMLElement>('[data-bc-foe-species]')?.focus();
     } else if (d.bcMore !== undefined) { shown += PAGE; renderPicker(); }
     else if (d.bcFoe) { foeIndex = Number(d.bcFoe); expanded.clear(); renderFoe(); renderResults(); announceMatchup(); }
-    else if (d.bcMine) { host.setActive(Number(d.bcMine)); expanded.clear(); renderResults(); renderSetEditor(); announceMatchup(); }
+    else if (d.bcMine || d.bcMember) { host.setActive(Number(d.bcMine || d.bcMember)); expanded.clear(); renderTeam(); renderResults(); renderSetEditor(); announceMatchup(); }
+    else if (d.bcAdd !== undefined) openMemberPicker(null);
+    else if (d.bcSwap) {
+      if (memberPicking?.replace === Number(d.bcSwap)) closeMemberPicker(`[data-bc-swap="${d.bcSwap}"]`);
+      else openMemberPicker(Number(d.bcSwap));
+    } else if (d.bcMemberCancel !== undefined) {
+      const back = memberPicking?.replace != null ? `[data-bc-swap="${memberPicking.replace}"]` : '[data-bc-add]';
+      closeMemberPicker(back);
+    } else if (d.bcMemberMore !== undefined) { memberShown += PAGE; renderTeam(); }
+    else if (d.bcJoin) {
+      const id = Number(d.bcJoin);
+      const old = memberPicking?.replace ?? null;
+      if (!host.replaceMember(old, id)) return;
+      const name = dex.species.get(id)!.name;
+      memberPicking = null; memberQuery = ''; expanded.clear();
+      // The new member is selected and its set editor opened: change its set straight away.
+      $<HTMLDetailsElement>('set').open = true;
+      renderAll();
+      host.status(old != null ? `${dex.species.get(old)?.name} swapped for ${name}. The opponent is unchanged.` : `${name} added. ${teamIds().length} of ${TEAM_SIZE} slots filled.`);
+      panel.querySelector<HTMLElement>(`[data-bc-member="${id}"]`)?.focus();
+    } else if (d.bcRemove) {
+      const id = Number(d.bcRemove);
+      const index = teamIds().indexOf(id);
+      if (memberPicking?.replace === id) memberPicking = null;
+      host.removeMember(id); expanded.clear();
+      renderAll();
+      host.status(`${dex.species.get(id)?.name} removed from your team.`);
+      const team = teamIds();
+      panel.querySelector<HTMLElement>(team.length ? `[data-bc-member="${team[Math.min(index, team.length - 1)]}"]` : '[data-bc-add]')?.focus();
+    } else if (d.bcResetFoe !== undefined || d.bcResetFoes !== undefined) resetTrainerFoe(d.bcResetFoes !== undefined);
     else if (d.bcCell) {
       const [id, j] = d.bcCell.split(':').map(Number);
       host.setActive(id); foeIndex = j; expanded.clear(); renderFoe(); renderResults(); renderSetEditor(); announceMatchup();
@@ -687,8 +854,15 @@ export async function mountBattleCheck(host: BattleHost) {
       button.setAttribute('aria-expanded', String(open));
       const detail = panel.querySelector<HTMLElement>(`#${button.getAttribute('aria-controls')}`);
       if (detail) detail.hidden = !open;
-    } else if (d.bcFind !== undefined) host.findPokemon();
-    else if (d.bcResetMoves) {
+    } else if (d.bcResetMoves) {
+      if (d.bcResetMoves === 'tfoe') {
+        const opp = host.opponent(); const slot = `${opp?.trainer}:${foeIndex}`;
+        const edit = { ...(foeEdits[slot] ?? {}) }; delete edit.moves;
+        if (Object.keys(edit).length) foeEdits[slot] = edit; else delete foeEdits[slot];
+        renderFoe(); renderResults(); host.status('The game’s moves restored.');
+        panel.querySelector<HTMLElement>('[data-bc-field="tfoe:move0"]')?.focus();
+        return;
+      }
       if (d.bcResetMoves === 'mine') { const id = selectedMine(); if (id == null) return; const s = { ...(host.sets()[id] ?? {}) }; delete s.moves; host.setSet(id, compactSet(dex, id, s)); renderSetEditor(); panel.querySelector<HTMLElement>('[data-bc-field="mine:move0"]')?.focus(); }
       else { const opp = host.opponent(); const s = { ...(opp.set ?? {}) }; delete s.moves; host.setOpponent({ species: opp.species, set: compactSet(dex, opp.species, s) ?? undefined }); renderFoe(); }
       renderResults(); host.status('Suggested moves restored.');
@@ -730,6 +904,9 @@ export async function mountBattleCheck(host: BattleHost) {
     if (input.id === 'tb-bc-query') {
       query = input.value; shown = PAGE;
       renderPicker();
+    } else if (input.id === 'tb-bc-member-query') {
+      memberQuery = input.value; memberShown = PAGE;
+      renderTeam();
     }
   });
   panel.addEventListener('change', event => {
@@ -756,7 +933,7 @@ export async function mountBattleCheck(host: BattleHost) {
       const ids = dex.speciesByName.get(normalizeName(input.value)) ?? [];
       if (!ids.length) { input.setAttribute('aria-invalid', 'true'); host.status(`“${input.value}” isn’t a Pokémon in this game.`); return; }
       input.setAttribute('aria-invalid', 'false');
-      host.setOpponent({ species: ids[0] }); foeIndex = 0; renderFoe(); renderResults(); renderSetEditor(); announceOpponent();
+      host.setOpponent({ species: ids[0] }, true); foeIndex = 0; renderFoe(); renderResults(); renderSetEditor(); announceOpponent();
     }
   }
   function refreshFieldSummary() { renderField(); }
@@ -765,8 +942,10 @@ export async function mountBattleCheck(host: BattleHost) {
   if (!host.opponent()) $<HTMLInputElement>('query')?.focus({ preventScroll: true });
 
   return {
-    /** The team, active member or opponent changed outside Battle check. */
+    /** The team, active member or opponent changed outside the calculator. */
     refresh() { renderAll(); },
+    /** Opens "Your team"'s species picker for a free slot (the Team Builder's empty slots use it). */
+    openMemberPicker() { if (teamIds().length < TEAM_SIZE) openMemberPicker(null); },
     selectOpponent(opponent: Any) {
       if (opponent?.trainer != null && !trainerById.has(opponent.trainer)) { host.status('That trainer’s team couldn’t be found. Pick an opponent below.'); host.setOpponent(null); picking = true; }
       else if (opponent?.species && !dex.species.has(opponent.species)) { host.status('That Pokémon couldn’t be found. Pick an opponent below.'); host.setOpponent(null); picking = true; }

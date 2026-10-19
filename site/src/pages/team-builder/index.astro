@@ -27,7 +27,7 @@ const regions = [...new Set(species.map(mon => mon.region))];
         <p id="tb-status" class="sr-only" role="status" aria-live="polite"></p>
         <div id="tb-share-fallback" hidden><label for="tb-share-url">Copy this team link</label><input id="tb-share-url" readonly /></div>
       </section>
-      <nav class="tb-mobile-nav" aria-label="Planner view"><button type="button" data-view="browse" aria-pressed="true">Find Pokémon</button><button type="button" data-view="guide" aria-pressed="false">Field guide</button><button type="button" data-view="battle" aria-pressed="false">Battle check</button></nav>
+      <nav class="tb-mobile-nav" aria-label="Planner view"><button type="button" data-view="browse" aria-pressed="true">Find Pokémon</button><button type="button" data-view="guide" aria-pressed="false">Field guide</button><button type="button" data-view="battle" aria-pressed="false">Damage calc</button></nav>
       <div class="tb-workspace">
       <section aria-labelledby="tb-browse-heading" class="tb-browse">
         <div class="tb-section-heading"><h2 id="tb-browse-heading">Find your next teammate</h2><span id="tb-result-count" role="status"></span></div>
@@ -43,7 +43,7 @@ const regions = [...new Set(species.map(mon => mon.region))];
       </section>
 
       <section aria-labelledby="tb-guide-heading" class="tb-guide">
-        <div class="tb-section-heading"><h2 id="tb-guide-heading">Field guide</h2><button type="button" class="tb-battle-entry" data-view="battle" aria-pressed="false">Battle check <span aria-hidden="true">→</span></button></div>
+        <div class="tb-section-heading"><h2 id="tb-guide-heading">Field guide</h2><button type="button" class="tb-battle-entry" data-view="battle" aria-pressed="false">Damage calculator <span aria-hidden="true">→</span></button></div>
         <div id="tb-details" aria-live="polite" aria-busy="false"><div class="tb-empty"><span class="tb-empty-mark" aria-hidden="true">✦</span><strong>Meet your next teammate.</strong><span>Pick a Pokémon to explore its evolution<br />and find your first encounter.</span></div></div>
         <details class="tb-time-help"><summary>A quick guide to times &amp; catching</summary>
           <p>Encounter chance is the chance of meeting that Pokémon under the listed conditions. More filled bars mean a harder catch. Tap the difficulty label for the Pokémon’s base catch value and what it means. Your chance per throw depends on remaining HP, status conditions and the ball you use.</p>
@@ -53,12 +53,12 @@ const regions = [...new Set(species.map(mon => mon.region))];
       </section>
 
       <section aria-labelledby="tb-battle-heading" class="tb-battle">
-        <div class="tb-section-heading"><h2 id="tb-battle-heading">Battle check</h2><button type="button" class="tb-battle-back" data-battle-back><span aria-hidden="true">←</span> Field guide</button></div>
+        <div class="tb-section-heading"><h2 id="tb-battle-heading">Damage calculator</h2><div class="tb-actions"><a class="tb-calc-link" id="tb-open-calc" href={url('/damage-calc/')}>Open full calculator <span aria-hidden="true">→</span></a><button type="button" class="tb-battle-back" data-battle-back><span aria-hidden="true">←</span> Field guide</button></div></div>
         <div id="tb-battle-body" aria-busy="false"></div>
       </section>
       </div>
     </div>
-    <p class="tb-credit">Inspired by <a href="https://github.com/richi3f/pokemon-team-planner">richi3f’s Pokémon Team Planner</a>. Uses this guide’s Origin HeartGold data. Artwork: <a href="https://github.com/PokeAPI/sprites">PokéAPI</a>; alternate forms use labeled standard-form artwork. Battle check’s damage calculation is adapted from the <a href="https://github.com/smogon/damage-calc">Smogon damage calculator</a> (<a href={url('/licenses/smogon-damage-calc.txt')}>MIT licence</a>) and inspired by the <a href="https://calc.radicalred.net/">Radical Red calculator</a>.</p>
+    <p class="tb-credit">Inspired by <a href="https://github.com/richi3f/pokemon-team-planner">richi3f’s Pokémon Team Planner</a>. Uses this guide’s Origin HeartGold data. Artwork: <a href="https://github.com/PokeAPI/sprites">PokéAPI</a>; alternate forms use labeled standard-form artwork. The damage calculator is adapted from the <a href="https://github.com/smogon/damage-calc">Smogon damage calculator</a> (<a href={url('/licenses/smogon-damage-calc.txt')}>MIT licence</a>) and inspired by the <a href="https://calc.radicalred.net/">Radical Red calculator</a>.</p>
   </div>
   <script type="application/json" id="tb-data" set:html={JSON.stringify(catalog).replace(/</g, '\\u003c')} />
 </StarlightPage>

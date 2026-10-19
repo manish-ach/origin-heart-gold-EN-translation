@@ -1,4 +1,4 @@
-// Trainer teams (in play order) and learnsets for the Team Builder's Battle check, fetched only when it opens.
+// Trainer teams (in play order) and learnsets for the damage calculator, fetched only when it opens.
 import species from '../../data/species.json';
 import areas from '../../data/areas.json';
 import trainers from '../../data/trainers.json';

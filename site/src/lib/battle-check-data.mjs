@@ -1,6 +1,6 @@
 /**
- * Build-time projection for the Team Builder's Battle check (served at /team-builder/battle-data.json and
- * fetched only when Battle check opens; the damage engine's own data is calc-data.json).
+ * Build-time projection for the damage calculator (served at /team-builder/battle-data.json and
+ * fetched only when the calculator opens; the damage engine's own data is calc-data.json).
  *
  *   trainers: [id, cls, name, double 0|1, flags, area, places, team] in play order
  *             flags: 1 = only your partner, 2 = scene can never trigger, 4 = no known battle location,

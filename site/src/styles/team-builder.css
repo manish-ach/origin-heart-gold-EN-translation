@@ -156,12 +156,16 @@ body:has(#team-builder) { --sl-content-width: 82rem; }
 #team-builder .tb-empty strong { color: var(--tb-ink); font-size: 1rem; }
 #team-builder .tb-empty > span:last-child { font-size: .78rem; }
 #team-builder .tb-mobile-nav { display: none; }
-/* Battle check: a calm entry point; its own styles load with it (battle-check.css). */
+/* Damage calculator: a calm entry point; its own styles load with it (battle-check.css). */
 #team-builder .tb-battle { display: none; min-width: 0; margin: 0; background: var(--tb-card); border: 1px solid var(--tb-border); border-radius: 18px; padding: 1.2rem; }
 #team-builder[data-view='battle'] .tb-battle { display: block; grid-column: 1 / -1; }
 #team-builder[data-view='battle'] :is(.tb-browse, .tb-guide) { display: none; }
 #team-builder :is(.tb-battle-entry, .tb-battle-back) { margin: 0; border: 1px solid var(--tb-border); border-radius: 999px; background: var(--tb-card); color: var(--tb-muted); padding: .3rem .75rem; font-size: .7rem; }
 #team-builder :is(.tb-battle-entry, .tb-battle-back):hover { color: var(--tb-ink); border-color: var(--tb-muted); }
+/* "Open full calculator" / "Team Builder": links between the two pages, shown at every width. */
+#team-builder .tb-calc-link { display: inline-flex; align-items: center; gap: .3rem; margin: 0; border: 1px solid var(--tb-border); border-radius: 999px; padding: .3rem .75rem; color: var(--tb-ink); font-size: .7rem; font-weight: 600; text-decoration: none; }
+#team-builder .tb-calc-link:hover { border-color: var(--tb-muted); }
+#team-builder.tb-calc-page .tb-calc-saved { margin: 1rem 0 0; font-size: .68rem; }
 #team-builder #tb-guide-heading { scroll-margin-top: 6rem; }
 #team-builder .tb-credit { margin-top: 1.5rem; color: var(--tb-muted); font-size: .65rem; }
 /* Let the catalog use the full canvas until a Pokémon needs a field guide. */
