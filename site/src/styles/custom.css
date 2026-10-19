@@ -4,6 +4,8 @@
 	--sl-color-accent: #c9971c;
 	--sl-color-accent-high: #f5dc96;
 	--ohg-tag-bg: var(--sl-color-gray-6);
+	/* stacking: above Starlight's navbar (10), below its skip link (20) */
+	--ohg-z-dock: 15;
 }
 :root[data-theme='light'] {
 	--sl-color-accent-low: #f7e9c0;
@@ -430,100 +432,118 @@ table.sortable th .sort-button { display: inline-flex; align-items: center; min-
 a.ability-link { display: flex; align-items: center; min-height: 24px; }
 
 /* ---- guide pages on phones (site/public/ohg.js setupMobileGuide sets <html data-ohg-mobile> below 50rem).
-   Steps and quests fold into cards, and a dock opens the Sections and Quests sheets. The controls it adds are
-   hidden everywhere else. */
-.ohg-m-toggle, .ohg-m-more, .ohg-m-dock, .ohg-m-sheet:not([open]) { display: none; }
+   One flat sequence: steps are rows on a rail, the quests a step opens sit under it as rows with their Done tick, and
+   a dock at the bottom opens the Sections and Quests sheets. The controls it adds are hidden everywhere else. */
+.ohg-m-row, .ohg-m-dock, .ohg-m-sheet:not([open]) { display: none; }
 @media (max-width: 50rem) {
-  /* Starlight's sticky "On this page" bar: the Sections sheet replaces it */
-  :root[data-ohg-mobile] { --sl-mobile-toc-height: 0rem; }
-  :root[data-ohg-mobile] mobile-starlight-toc { display: none; }
-  :root[data-ohg-mobile] .page-heading-art { display: none; }
+  :root[data-ohg-mobile] { --sl-mobile-toc-height: 0rem; --ohg-m-rail: 1.35rem; }
+  :root[data-ohg-mobile] mobile-starlight-toc, :root[data-ohg-mobile] .page-heading-art, :root[data-ohg-mobile] .ohg-m-hidden,
+  :root[data-ohg-mobile] .sl-markdown-content .sl-anchor-link { display: none; }
   :root[data-ohg-mobile] .guide-page-heading { min-height: 0; }
   :root[data-ohg-mobile] .main-pane { padding-bottom: calc(5.5rem + env(safe-area-inset-bottom)); }
+  :root[data-ohg-mobile] .sl-markdown-content > p { text-wrap: pretty; }
 
-  /* cards */
-  :root[data-ohg-mobile] .ohg-m-card {
-    position: relative; margin-block: .85rem; padding: .9rem 1rem .9rem 1.15rem; border: 1px solid var(--sl-color-gray-5);
-    border-radius: .9rem; background: var(--sl-color-bg-nav); box-shadow: 0 1px 2px rgb(0 0 0 / .06);
-  }
-  :root[data-ohg-mobile] .chapter-step.ohg-m-card { padding-left: 1.5rem; border-left: 1px solid var(--sl-color-gray-5); }
-  :root[data-ohg-mobile] .chapter-step.ohg-m-card::before {
-    content: ''; position: absolute; left: .45rem; top: 1rem; bottom: 1rem; width: 4px; border-radius: 4px; background: var(--sl-color-accent);
-  }
-  :root[data-ohg-mobile] .chapter-step.chapter-optional.ohg-m-card::before { background: var(--sl-color-gray-5); }
-  :root[data-ohg-mobile] .ohg-m-card > * + * { margin-top: .6rem; }
-  :root[data-ohg-mobile] .ohg-m-chevron { flex: none; transition: transform .2s ease; color: var(--sl-color-gray-3); }
-  :root[data-ohg-mobile] .ohg-m-card[data-open] > :is(.ohg-m-toggle, .ohg-m-more) .ohg-m-chevron { transform: rotate(180deg); }
-
-  /* a step: title, Optional pill and chips on the toggle; folded, only the first lines of its text show */
+  /* rows: the tap target of every fold */
+  :root[data-ohg-mobile] .ohg-m-row { display: flex; align-items: center; gap: .6rem; }
   :root[data-ohg-mobile] .ohg-m-toggle {
-    display: grid; grid-template-columns: 1fr auto; align-items: start; gap: .5rem .75rem; width: 100%; min-height: 44px;
-    padding: 0; border: 0; background: none; color: var(--sl-color-white); font: inherit; text-align: left; cursor: pointer;
+    flex: 1; display: grid; grid-template-columns: 1fr auto; grid-template-rows: auto auto; column-gap: .75rem; align-items: center;
+    min-width: 0; min-height: 48px; padding: .6rem 0; border: 0; background: none; color: var(--sl-color-white); font: inherit; text-align: left; cursor: pointer;
   }
-  :root[data-ohg-mobile] .ohg-m-title { font-size: 1.02rem; font-weight: 700; line-height: 1.35; }
-  :root[data-ohg-mobile] .ohg-m-pill {
-    display: inline-block; margin-left: .35rem; padding: .05rem .5rem; border: 1px solid var(--sl-color-gray-5); border-radius: .35rem;
-    font-size: .68rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; vertical-align: .15em; color: var(--sl-color-gray-3);
-  }
-  :root[data-ohg-mobile] .ohg-m-chips { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: .35rem; }
-  :root[data-ohg-mobile] .ohg-m-chip {
-    padding: .15rem .55rem; border: 1px solid var(--sl-color-gray-5); border-radius: .45rem; background: var(--sl-color-bg);
-    font-size: .74rem; font-weight: 600; line-height: 1.4; color: var(--sl-color-gray-2);
-    max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-  }
-  :root[data-ohg-mobile] .ohg-m-chip-warn { border-color: #c06060; background: #4a1d1d; color: #ffd9d9; }
-  :root[data-theme='light'][data-ohg-mobile] .ohg-m-chip-warn { background: #fbe4e4; color: #8a1c1c; }
-  :root[data-ohg-mobile] .chapter-step.ohg-m-card[data-open] .ohg-m-chips { display: none; }
-  :root[data-ohg-mobile] .chapter-step.ohg-m-card > p:first-of-type > strong:first-child { display: none; }
-  :root[data-ohg-mobile] .chapter-step.ohg-m-card:not([data-open]) > :not(.ohg-m-toggle):not(p:first-of-type) { display: none; }
-  :root[data-ohg-mobile] .chapter-step.ohg-m-card:not([data-open]) > p:first-of-type {
-    display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; font-size: .88rem; color: var(--sl-color-gray-3);
-  }
+  :root[data-ohg-mobile] .ohg-m-title { grid-column: 1; font-size: 1rem; font-weight: 650; line-height: 1.35; text-wrap: balance; }
+  :root[data-ohg-mobile] .ohg-m-meta { grid-column: 1; margin-top: .15rem; font-size: .8rem; line-height: 1.4; color: var(--sl-color-gray-3); }
+  :root[data-ohg-mobile] .ohg-m-warn { color: #d8534f; }
+  :root[data-theme='light'][data-ohg-mobile] .ohg-m-warn { color: #a3261f; }
+  :root[data-ohg-mobile] .ohg-m-chevron { grid-column: 2; grid-row: 1 / span 2; color: var(--sl-color-gray-4); transition: transform .2s cubic-bezier(.2, .7, .2, 1); }
+  :root[data-ohg-mobile] .ohg-m-fold[data-open] > .ohg-m-row .ohg-m-chevron { transform: rotate(180deg); }
+  :root[data-ohg-mobile] .ohg-m-toggle:active .ohg-m-title { color: var(--sl-color-text-accent); }
+  :root[data-ohg-mobile] .ohg-m-tick { display: flex; align-items: center; min-height: 48px; }
+  :root[data-ohg-mobile] .ohg-m-tick input { width: 22px; height: 22px; margin: 0; accent-color: var(--sl-color-accent); }
 
-  /* a quest: heading, tags and the Done tick stay; the rest opens with Details */
-  :root[data-ohg-mobile] section.quest.ohg-m-card { padding: 1rem; scroll-margin-top: 4.5rem; }
-  :root[data-ohg-mobile] .sl-markdown-content section.quest.ohg-m-card + section.quest.ohg-m-card { margin-top: .85rem; padding-top: 1rem; border-top: 1px solid var(--sl-color-gray-5); }
-  :root[data-ohg-mobile] section.quest.ohg-m-card h2 { font-size: 1.1rem; line-height: 1.35; }
-  :root[data-ohg-mobile] section.quest.ohg-m-card .sl-anchor-link { display: none; }
-  :root[data-ohg-mobile] section.quest.ohg-m-card:not([data-open]) > :not(.sl-heading-wrapper):not(h2):not(.quest-meta):not(.quest-tools):not(.ohg-m-more) { display: none; }
-  :root[data-ohg-mobile] section.quest.ohg-m-card:not([data-open]) .quest-tools a { display: none; }
-  :root[data-ohg-mobile] .ohg-m-more {
-    display: flex; align-items: center; justify-content: space-between; width: 100%; min-height: 44px; padding: 0 .1rem;
-    border: 0; border-top: 1px solid var(--sl-color-gray-6); background: none; color: var(--sl-color-text-accent); font: inherit; font-size: .88rem; font-weight: 650; cursor: pointer;
+  /* the walkthrough: a rail with a dot per step; closed steps show only their row */
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step { position: relative; margin: 0; padding: 0 0 0 var(--ohg-m-rail); border: 0; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step::before {
+    content: ''; position: absolute; left: .3rem; top: 0; bottom: 0; width: 1px; background: var(--sl-color-gray-5);
   }
-  :root[data-ohg-mobile] section.quest.ohg-m-card .quest-tools { border-top: 0; padding-top: 0; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step:first-of-type::before { top: 1.4rem; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step:last-of-type::before { bottom: auto; height: 1.4rem; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step::after {
+    content: ''; position: absolute; left: 0; top: 1.05rem; width: calc(.6rem + 1px); height: calc(.6rem + 1px); border-radius: 50%;
+    background: var(--sl-color-accent); box-shadow: 0 0 0 3px var(--sl-color-bg);
+  }
+  :root[data-ohg-mobile] .chapter-step.chapter-optional.ohg-m-step::after { background: var(--sl-color-bg); border: 1.5px solid var(--sl-color-gray-4); }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step + .chapter-step.ohg-m-step > .ohg-m-row { border-top: 1px solid var(--sl-color-gray-6); }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step > .ohg-m-row .ohg-m-toggle { padding-block: .8rem; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step:not([data-open]) > :not(.ohg-m-row) { display: none; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step > :not(.ohg-m-row) { margin: 0 0 .9rem; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step > p { font-size: 1rem; line-height: 1.6; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step > p:first-of-type > strong:first-child { display: none; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step > .chapter-unlocks { display: none; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step > .chapter-warning {
+    padding: .7rem .85rem; border: 0; border-radius: .6rem; font-size: .88rem; line-height: 1.5; background: #3a1d1d; color: #f6dada;
+  }
+  :root[data-theme='light'][data-ohg-mobile] .chapter-step.ohg-m-step > .chapter-warning { background: #fbe9e7; color: #6b1d16; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step > .chapter-warning ul { margin-top: .25rem; padding-left: 1.1rem; }
+  :root[data-ohg-mobile] .chapter-step.ohg-m-step > .chapter-warning .tag { display: none; }
+
+  /* a quest under its step, or on its own on an area page: the row keeps the tick and the title, the rest opens on tap */
+  :root[data-ohg-mobile] .ohg-m-quests { margin: 0 0 .5rem; border-top: 1px solid var(--sl-color-gray-6); }
+  :root[data-ohg-mobile] section.quest.ohg-m-fold { position: relative; padding: 0; margin: 0; border: 0; border-radius: 0; background: none; scroll-margin-top: 4.5rem; }
+  :root[data-ohg-mobile] section.quest.ohg-m-fold[data-open] { display: flex; flex-direction: column; }
+  :root[data-ohg-mobile] section.quest.ohg-m-fold[data-open] > .quest-tools { order: 99; }
+  :root[data-ohg-mobile] .sl-markdown-content section.quest.ohg-m-fold + section.quest.ohg-m-fold { margin: 0; padding: 0; border: 0; }
+  :root[data-ohg-mobile] .ohg-m-quests > section.quest.ohg-m-fold + section.quest.ohg-m-fold > .ohg-m-row,
+  :root[data-ohg-mobile] .sl-markdown-content > section.quest.ohg-m-fold > .ohg-m-row { border-top: 1px solid var(--sl-color-gray-6); }
+  :root[data-ohg-mobile] section.quest.ohg-m-fold > .ohg-m-row .ohg-m-title { font-weight: 550; }
+  :root[data-ohg-mobile] section.quest.ohg-m-done > .ohg-m-row .ohg-m-title { color: var(--sl-color-gray-3); text-decoration: line-through; text-decoration-color: var(--sl-color-gray-4); }
+  :root[data-ohg-mobile] section.quest.ohg-m-fold:not([data-open]) > :not(.ohg-m-row) { display: none; }
+  :root[data-ohg-mobile] section.quest.ohg-m-fold > :not(.ohg-m-row) { margin-block: 0 .75rem; font-size: 1rem; }
+  :root[data-ohg-mobile] section.quest.ohg-m-fold > .sl-heading-wrapper {
+    position: absolute; top: 0; scroll-margin-top: 4.5rem; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
+  }
+  :root[data-ohg-mobile] section.quest.ohg-m-fold > .quest-meta .tag-main, :root[data-ohg-mobile] section.quest.ohg-m-fold > .quest-meta .tag-side { display: none; }
+  :root[data-ohg-mobile] section.quest.ohg-m-fold > .quest-tools { border: 0; padding: 0; }
+  :root[data-ohg-mobile] section.quest.ohg-m-fold > .quest-tools label { display: none; }
+  :root[data-ohg-mobile] section.quest.ohg-m-fold > .quest-tools a { display: inline-flex; align-items: center; min-height: 40px; font-size: .85rem; }
+  :root[data-ohg-mobile] section.quest.is-done.ohg-m-fold > :not(.ohg-m-row) { opacity: 1; }
 
   /* dock */
   :root[data-ohg-mobile] .ohg-m-dock {
-    position: fixed; z-index: 20; left: .75rem; right: .75rem; bottom: calc(.75rem + env(safe-area-inset-bottom));
-    display: flex; gap: .5rem; padding: .4rem; border-radius: 1rem; background: #121a24; color: #f3f5f7;
-    box-shadow: 0 10px 30px rgb(0 0 0 / .3), 0 0 0 1px rgb(255 255 255 / .06);
+    position: fixed; z-index: var(--ohg-z-dock); left: max(.75rem, env(safe-area-inset-left)); right: max(.75rem, env(safe-area-inset-right)); bottom: calc(.75rem + env(safe-area-inset-bottom));
+    display: flex; gap: .25rem; padding: .3rem; border-radius: 999px; background: var(--sl-color-white); color: var(--sl-color-bg);
+    box-shadow: 0 8px 28px rgb(0 0 0 / .28);
   }
   :root[data-ohg-mobile] .ohg-m-dock button {
     flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 46px; padding: 0 1rem;
-    border: 0; border-radius: .7rem; background: none; color: inherit; font: inherit; font-size: .92rem; font-weight: 650; cursor: pointer;
+    border: 0; border-radius: 999px; background: none; color: inherit; font: inherit; font-size: .92rem; font-weight: 650; cursor: pointer;
   }
-  :root[data-ohg-mobile] .ohg-m-dock .ohg-m-dock-quests { background: #d7ad51; color: #1b1406; }
+  :root[data-ohg-mobile] .ohg-m-dock button:active { background: rgb(128 128 128 / .18); }
+  :root[data-ohg-mobile] .ohg-m-dock .ohg-m-dock-quests { background: var(--sl-color-accent); color: #1b1406; }
+  :root[data-theme='light'][data-ohg-mobile] .ohg-m-dock .ohg-m-dock-quests { color: #fff; }
 
   /* sheets */
   :root[data-ohg-mobile] .ohg-m-sheet[open] {
-    display: flex; flex-direction: column; position: fixed; inset: auto 0 0 0; width: 100%; max-width: 100%; max-height: 82dvh;
-    margin: 0; padding: 0; border: 0; border-radius: 1.1rem 1.1rem 0 0; background: var(--sl-color-bg-nav); color: var(--sl-color-white);
+    display: flex; flex-direction: column; position: fixed; inset: auto 0 0 0; width: 100%; max-width: 100%; max-height: 84dvh;
+    margin: 0; padding: 0; border: 0; border-radius: 1.1rem 1.1rem 0 0; background: var(--sl-color-bg); color: var(--sl-color-white);
     box-shadow: 0 -12px 40px rgb(0 0 0 / .3); animation: ohg-m-up .22s cubic-bezier(.2, .8, .2, 1);
   }
-  :root[data-ohg-mobile] .ohg-m-sheet::backdrop { background: rgb(8 12 18 / .55); }
+  :root[data-ohg-mobile] .ohg-m-sheet::backdrop { background: rgb(8 12 18 / .5); }
   @keyframes ohg-m-up { from { transform: translateY(100%); } }
   :root[data-ohg-mobile] .ohg-m-sheet-head {
-    display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .9rem 1rem .6rem; border-bottom: 1px solid var(--sl-color-gray-6);
+    display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .75rem .6rem .5rem 1rem;
   }
-  :root[data-ohg-mobile] .ohg-m-sheet-head h2 { margin: 0; font-size: 1.05rem; font-weight: 750; color: var(--sl-color-white); }
+  :root[data-ohg-mobile] .ohg-m-sheet-head::before {
+    content: ''; position: absolute; top: .4rem; left: 50%; width: 2.25rem; height: 4px; margin-left: -1.125rem; border-radius: 2px; background: var(--sl-color-gray-5);
+  }
+  :root[data-ohg-mobile] .ohg-m-sheet-head h2 { margin: .35rem 0 0; font-size: 1.1rem; font-weight: 700; color: var(--sl-color-white); }
   :root[data-ohg-mobile] .ohg-m-close {
-    min-height: 40px; padding: 0 .9rem; border: 1px solid var(--sl-color-gray-5); border-radius: .55rem; background: var(--sl-color-bg);
-    color: var(--sl-color-white); font: inherit; font-size: .85rem; font-weight: 600; cursor: pointer;
+    display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 0; border-radius: 50%;
+    background: none; color: var(--sl-color-gray-3); cursor: pointer;
   }
-  :root[data-ohg-mobile] .ohg-m-sheet-body { overflow-y: auto; overscroll-behavior: contain; padding: .75rem 1rem calc(1rem + env(safe-area-inset-bottom)); }
+  :root[data-ohg-mobile] .ohg-m-close:active { background: var(--sl-color-gray-6); }
+  :root[data-ohg-mobile] .ohg-m-sheet-body { overflow-y: auto; overscroll-behavior: contain; padding: .25rem 1rem calc(1rem + env(safe-area-inset-bottom)); }
+
   /* the game filters, moved here from the top of the page: two compact columns */
-  :root[data-ohg-mobile] .ohg-m-sheet .game-setup { display: grid; grid-template-columns: 1fr 1fr; align-items: end; margin: 0 0 .75rem; padding: .7rem; gap: .55rem .6rem; }
+  :root[data-ohg-mobile] .ohg-m-sheet .game-setup { display: grid; grid-template-columns: 1fr 1fr; align-items: end; margin: 0 0 .5rem; padding: 0 0 .75rem; gap: .5rem .6rem; border: 0; border-bottom: 1px solid var(--sl-color-gray-6); border-radius: 0; background: none; }
   :root[data-ohg-mobile] .ohg-m-sheet .game-setup > strong { display: none; }
   :root[data-ohg-mobile] .ohg-m-sheet .game-setup label { display: grid; gap: .2rem; font-size: .75rem; color: var(--sl-color-gray-3); }
   :root[data-ohg-mobile] .ohg-m-sheet .game-setup select { min-height: 40px; padding: .35rem .6rem; font-size: .9rem; }
@@ -534,35 +554,32 @@ a.ability-link { display: flex; align-items: center; min-height: 24px; }
   :root[data-ohg-mobile] .ohg-m-sheet .game-setup :is(.hidden-count, .quest-filter-help) { grid-column: 1 / -1; margin: 0; font-size: .75rem; }
 
   :root[data-ohg-mobile] .ohg-m-find {
-    width: 100%; min-height: 44px; padding: .55rem .8rem; border: 1px solid var(--sl-color-gray-5); border-radius: .6rem;
-    background: var(--sl-color-bg); color: var(--sl-color-white); font: inherit; font-size: 1rem;
+    width: 100%; min-height: 44px; margin-top: .5rem; padding: .55rem .8rem; border: 1px solid var(--sl-color-gray-5); border-radius: .6rem;
+    background: var(--sl-color-bg-nav); color: var(--sl-color-white); font: inherit; font-size: 1rem;
   }
+  :root[data-ohg-mobile] .ohg-m-find::placeholder { color: var(--sl-color-gray-3); }
   :root[data-ohg-mobile] .ohg-m-toc, :root[data-ohg-mobile] .ohg-m-quest-list { margin: .5rem 0 0; padding: 0; list-style: none; }
   :root[data-ohg-mobile] .ohg-m-toc li { margin: 0; }
   :root[data-ohg-mobile] .ohg-m-toc a {
-    display: flex; align-items: center; min-height: 44px; padding: .35rem .5rem; border-radius: .5rem;
+    display: flex; align-items: center; min-height: 48px; padding: .35rem .25rem; border-top: 1px solid var(--sl-color-gray-6);
     color: var(--sl-color-white); font-weight: 650; text-decoration: none;
   }
-  :root[data-ohg-mobile] .ohg-m-toc .ohg-m-sub a { padding-left: 1.4rem; font-weight: 450; font-size: .9rem; color: var(--sl-color-gray-2); }
-  :root[data-ohg-mobile] .ohg-m-toc .ohg-m-step a::before { content: ''; flex: none; width: 5px; height: 5px; margin-right: .6rem; border-radius: 50%; background: var(--sl-color-accent); }
-  :root[data-ohg-mobile] .ohg-m-toc a:active { background: var(--sl-color-gray-6); }
+  :root[data-ohg-mobile] .ohg-m-toc li:first-child a { border-top: 0; }
+  :root[data-ohg-mobile] .ohg-m-toc .ohg-m-sub a { padding-left: 1.25rem; font-weight: 450; font-size: .95rem; color: var(--sl-color-gray-2); }
+  :root[data-ohg-mobile] .ohg-m-toc .ohg-m-stepline a::before { content: ''; flex: none; width: 7px; height: 7px; margin-right: .65rem; border-radius: 50%; background: var(--sl-color-accent); }
+  :root[data-ohg-mobile] .ohg-m-toc .ohg-m-optional a::before { background: none; border: 1.5px solid var(--sl-color-gray-4); }
+  :root[data-ohg-mobile] .ohg-m-toc a:active { color: var(--sl-color-text-accent); }
 
-  :root[data-ohg-mobile] .ohg-m-quest {
-    display: grid; grid-template-columns: 1fr auto; align-items: center; gap: .35rem .75rem; margin: 0 0 .5rem; padding: .6rem .75rem;
-    border: 1px solid var(--sl-color-gray-5); border-radius: .75rem; background: var(--sl-color-bg);
-  }
-  :root[data-ohg-mobile] .ohg-m-quest label { display: flex; align-items: center; gap: .6rem; min-height: 40px; font-weight: 650; font-size: .92rem; line-height: 1.3; }
-  :root[data-ohg-mobile] .ohg-m-quest input { flex: none; width: 20px; height: 20px; accent-color: var(--sl-color-accent); }
-  :root[data-ohg-mobile] .ohg-m-quest.is-done .ohg-m-quest-title { text-decoration: line-through; opacity: .6; }
-  :root[data-ohg-mobile] .ohg-m-quest-tags { grid-column: 1; grid-row: 2; padding-left: 1.85rem; }
-  :root[data-ohg-mobile] .ohg-m-quest-tags .tag { margin-bottom: 0; }
-  :root[data-ohg-mobile] .ohg-m-jump {
-    grid-column: 2; grid-row: 1 / span 2; display: inline-flex; align-items: center; min-height: 40px; padding: 0 .85rem;
-    border: 1px solid var(--sl-color-gray-5); border-radius: .55rem; font-size: .85rem; font-weight: 650; text-decoration: none; color: var(--sl-color-text-accent);
-  }
+  :root[data-ohg-mobile] .ohg-m-quest { display: flex; align-items: center; gap: .6rem; margin: 0; border-top: 1px solid var(--sl-color-gray-6); }
+  :root[data-ohg-mobile] .ohg-m-quest:first-child { border-top: 0; }
+  :root[data-ohg-mobile] .ohg-m-jump { flex: 1; display: grid; min-width: 0; min-height: 48px; padding: .6rem 0; align-content: center; color: var(--sl-color-white); text-decoration: none; }
+  :root[data-ohg-mobile] .ohg-m-jump .ohg-m-title { font-size: .95rem; font-weight: 550; }
+  :root[data-ohg-mobile] .ohg-m-jump:active .ohg-m-title { color: var(--sl-color-text-accent); }
+  :root[data-ohg-mobile] .ohg-m-quest.is-done .ohg-m-title { color: var(--sl-color-gray-3); text-decoration: line-through; text-decoration-color: var(--sl-color-gray-4); }
   :root[data-ohg-mobile] .ohg-m-empty { padding: 1rem .25rem; color: var(--sl-color-gray-3); font-size: .9rem; }
 }
 @media (max-width: 50rem) and (prefers-reduced-motion: reduce) {
   :root[data-ohg-mobile] .ohg-m-sheet[open] { animation: none; }
+  :root[data-ohg-mobile] .ohg-m-chevron { transition: none; }
 }
-@media print { .ohg-m-dock, .ohg-m-sheet, .ohg-m-toggle, .ohg-m-more { display: none !important; } }
+@media print { .ohg-m-dock, .ohg-m-sheet, .ohg-m-row { display: none !important; } }
