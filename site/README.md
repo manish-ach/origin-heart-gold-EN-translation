@@ -37,6 +37,16 @@ committed, because CI has no ROM. `src/content/docs/guide` is not committed: CI 
 
 Author workbooks are reconciled by `work/tools/site/reconcile_references.py`; `reference_content.json` holds curated English notes and scoped audit corrections. `reference_facts.json` and `reference_coverage.json` are generated. The source report at `/reference-sources/` distinguishes source accounting from runtime verification. Do not edit generated reference facts directly.
 
+## Player-facing reference notes
+
+Describe the current game and what a player needs to do. Evolution tables already
+show the requirements; do not add redundant evolution notes explaining Chinese-hack
+bugs, English-patch fixes, release versions or emulator/code investigations. Keep
+useful conditions and warnings, such as form selection and competing evolution routes.
+Keep implementation history and verification evidence in internal work notes or the
+changelog. When adding comparisons, compare Origin HeartGold with vanilla HeartGold
+where useful for moves, base stats, types, abilities and similar gameplay details.
+
 ## Availability labels
 
 Keep all named Pokémon, forms and items in the reference listings. The reviewed
